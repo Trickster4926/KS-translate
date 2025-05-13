@@ -1,4 +1,4 @@
-﻿label en_S17:
+﻿label th_S17:
 
 window hide None
 
@@ -213,14 +213,14 @@ ssh "You must have come to this school on very short notice."
 
 #If seen A26b:
 
-label en_S17a:
+label th_S17a:
 
 "It could be that she is thinking back to the time when she and Misha unexpectedly shoved themselves into my room and caught a glimpse of all my medicines. That was an awkward moment I'd like to forget, and I don't like revisiting it."
 
 "The way she tiptoes around the issue even now only makes me more uncomfortable."
 
 #End conditionals
-label en_S17x:
+label th_S17x:
 
 his "I did. It was kind of an on-the-spot decision. It worked out better than I expected, though."
 
@@ -248,7 +248,7 @@ with dissolve
 
 #*****************************************************************************************************
 
-label en_S18:
+label th_S18:
 
 scene bg school_dormhallway
 with locationchange
@@ -1214,7 +1214,7 @@ with dissolve
 
 #************************************************
 
-label en_S19:
+label th_S19:
 
 scene bg shizu_guesthisao
 with locationchange
@@ -1663,7 +1663,7 @@ with dissolve
 
 ###########################
 
-label en_S20:
+label th_S20:
 
 window hide None
 
@@ -1967,7 +1967,7 @@ with dissolve
 
 ###############################
 
-label en_S21:
+label th_S21:
 
 scene bg shizu_guesthisao
 with locationchange
@@ -2576,7 +2576,7 @@ stop music fadeout 3.0
 
 ########
 
-label en_S22:
+label th_S22:
 
 scene bg shizu_living
 with locationskip
@@ -2771,7 +2771,7 @@ ssh "This is the first time I've been in your room."
 his "Very funny. It isn't even my room. It's your guest room."
 
 #If seen A26b:
-label en_S22a:
+label th_S22a:
 
 his "Besides, you and Misha barged into my room once before."
 
@@ -2786,12 +2786,12 @@ with charachange
 ssh "It made you nervous."
 
 #if not seen A26b:
-label en_S22b:
+label th_S22b:
 
 ssh "You still looked startled when I came in."
 
 #end split
-label en_S22c:
+label th_S22c:
 
 "The way she says it so factually stings me."
 
@@ -2896,7 +2896,7 @@ with charachange
 
 "Embarrassed, she leans deeper into our partial embrace, hiding her face by burying it in my shoulder and neck. Her hair is soft and tickles me, and I let out a laugh knowing that she won't hear me; won't be offended."
 
-label en_S22h:
+label th_S22h:
 
 scene evh shizune_hcg_tied_blush_small
 with charachange
@@ -3025,7 +3025,7 @@ with whiteout
 
 "That moment, though, is enough. Combined with the tightness of her squeezing herself around me and the sensation of her skin rubbing against mine, I tense up and fire off inside Shizune. A fleeting feeling of power and flight."
 
-label en_S22x:
+label th_S22x:
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 $ renpy.music.play(music_heart, fadein=2.0, if_changed=True)
@@ -3060,7 +3060,7 @@ with Dissolve(2.0)
 scene black
 with dissolve
 
-label en_S23:
+label th_S23:
 
 scene bg shizu_guesthisao
 with locationchange
@@ -3374,13 +3374,13 @@ stop music fadeout 10.0
 "The answer is yes. I wasn't this persistent or argumentative before meeting Shizune and Misha. After all, prior to meeting them, I'd just experienced a small death. It's a mystery as to why I refused to join the Student Council in the first place."
 
 #if not seen A2b:
-label en_S23a:
+label th_S23a:
 
 "It took monumental effort just to introduce myself on my first day there. I might have rolled over for anyone and any cause. It might have just been chance that Student Council appealed to me so little that I would fight it."
 
 #End conditionals
 
-label en_S23x:
+label th_S23x:
 
 "Possibly it was from trying to get away from their nagging so much that I was able to get my energy back. It's a cute idea."
 
@@ -3405,7 +3405,7 @@ with dissolvecharamove
 scene black
 with dissolve
 
-label en_S24:
+label th_S24:
 
 scene bg city_station
 with locationchange
@@ -3880,7 +3880,7 @@ with dissolve
 
 $ suppress_window_after_timeskip = True
 
-label en_S25:
+label th_S25:
 
 window hide None
 
@@ -4553,7 +4553,7 @@ stop music fadeout 2.0
 scene black
 with dissolve
 
-label en_S26:
+label th_S26:
 
 scene bg school_scienceroom at right
 with locationchange
@@ -4749,17 +4749,17 @@ with charadistant
 "That is a weird reaction. I start to think about why she would have such a strange reaction. It's pretty obvious: she just bumped headfirst into someone with a heart condition."
 
 #if seen A26b:
-label en_S26a:
+label th_S26a:
 
 "Shizune would know I have one, having seen the rows and rows of pills lining the edge of my dresser. Or at the very least, she would know I have something severe enough to require that much medication, but not visible at a glance."
 
 #if not seen A26b:
-label en_S26b:
+label th_S26b:
 
 "Shizune would know I have one, maybe thanks to the records her student council duties give her access to. Or at the very least, she would know I have something severe enough to need monitoring."
 
 #end conditionals
-label en_S26c:
+label th_S26c:
 
 "So she is treating me like I'm made of glass. For her, it's the natural way to react. I haven't forgotten how she freaked out back when Emi knocked into me. Why would it be any different for her?"
 
@@ -5199,7 +5199,7 @@ with dissolve
 
 #####################
 
-label en_S27:
+label th_S27:
 
 scene bg school_hallway2
 with locationchange
@@ -5738,7 +5738,7 @@ play sound sfx_warningbell
 scene black
 with dissolve
 
-label en_S28:
+label th_S28:
 
 scene bg school_scienceroom
 with locationchange
@@ -6338,7 +6338,7 @@ with charachange
 
 #***choice 1
 
-label en_choiceS28:
+label th_choiceS28:
 menu:
     with menueffect
 
@@ -6352,7 +6352,7 @@ menu:
         return m2
 
 # Comfort Misha
-label en_S28a:
+label th_S28a:
 
 play music music_moonlight fadein 4.0
 
@@ -6373,7 +6373,7 @@ with None
 
 "She looks at me, as if expecting me to take the lead, and closes her eyes nervously the second I return her gaze. I guess I have no choice, and I clumsily begin trying to undress her, something I've never done before."
 
-label en_S28h:
+label th_S28h:
 
 scene evh misha_naked:
     xalign 1.0 ypos 0.0 subpixel True
@@ -6473,7 +6473,7 @@ with dissolve
 #***choice 2
 
 # Refuse
-label en_S28b:
+label th_S28b:
 
 show mishashort perky_sad_close_ss:
     linear 0.2 alpha 0 ypos 1.1
@@ -6539,7 +6539,7 @@ with dissolve
 
 #######################################################
 
-label en_S29:
+label th_S29:
 
 scene bg school_dormhisao
 with locationchange
@@ -6558,7 +6558,7 @@ with locationskip
 "Like I thought, Misha isn't in class this morning. Shizune is, but today is a busier day than most, so she gives her all concentrating on her classwork, and that means there's little idle time for her to start up a conversation with me."
 
 #bad end lines
-label en_S29a:
+label th_S29a:
 
 "It's strange that I should be running from the thought of having to talk to Shizune after spending so much time trying to do just that, but I can't think of any other way I should feel. I had sex with her best friend."
 
@@ -6569,7 +6569,7 @@ label en_S29a:
 "It makes me feel ashamed, but I'm sure it's the only way to describe myself right now. It's not a good feeling."
 
 #good end lines
-label en_S29b:
+label th_S29b:
 
 "I'd grown so used to seeing Shizune and Misha together that I hadn't realized until yesterday how much that hasn't been the case lately."
 
@@ -6582,7 +6582,7 @@ label en_S29b:
 "It makes me feel ashamed, but I'm sure it's the only way to describe myself right now."
 
 #end split
-label en_S29x:
+label th_S29x:
 
 scene bg school_library
 with shorttimeskip
@@ -6877,7 +6877,7 @@ mi "I already did, though. So~! …I'm still really the worst kind of person. I 
 
 
 #bad end
-label en_S29xa:
+label th_S29xa:
 
 #next line is only if you had sex with misha
 scene ev misha_roof_closed
@@ -6921,7 +6921,7 @@ with charachange
 
 
 #good end
-label en_S29xb:
+label th_S29xb:
 
 stop music fadeout 0.5
 $ renpy.music.set_volume(0.0, 0.5, channel="ambient")
@@ -6963,17 +6963,17 @@ show mishashort perky_confused_close_ss
 with charachange
 
 #if seen A26b:
-label en_S29xba:
+label th_S29xba:
 
 mi "The hospital? Hicchan… is that what those pills are for?"
 
 #if not seen A26b:
-label en_S29xbb:
+label th_S29xbb:
 
 mi "The hospital? Hicchan… what are you…"
 
 #end split
-label en_S29xbc:
+label th_S29xbc:
 
 hi "Just listen, please."
 
@@ -7007,7 +7007,7 @@ mi "Wahaha~."
 
 
 #end split
-label en_S29y:
+label th_S29y:
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -7067,7 +7067,7 @@ ssh "Very funny."
 
 
 #bad end
-label en_S29ya:
+label th_S29ya:
 
 show shizu behind_smile_ss
 with charachange
@@ -7121,7 +7121,7 @@ window hide
 
 
 #good end
-label en_S29yb:
+label th_S29yb:
 
 show mishashort hips_grin_close_ss
 with charachange

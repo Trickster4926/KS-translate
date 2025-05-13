@@ -1,4 +1,4 @@
-﻿label en_S8:
+﻿label th_S8:
 
 window hide None
 
@@ -401,7 +401,7 @@ with dissolve
 
 #*********************************************************************************************************************
 
-label en_S9:
+label th_S9:
 
 scene bg school_scienceroom
 with locationchange
@@ -849,7 +849,7 @@ with dissolve
 
 #*****************************************************************************************************************
 
-label en_S10:
+label th_S10:
 
 play sound sfx_doorknock
 
@@ -1518,7 +1518,7 @@ $ suppress_window_after_timeskip = True
 
 #*****************************************************************************************************
 
-label en_S11:
+label th_S11:
 
 window hide None
 
@@ -2488,7 +2488,7 @@ with dissolve
 $ suppress_window_after_timeskip = True
 
 #**********************************************************************************************************
-label en_S12:
+label th_S12:
 
 window hide None
 
@@ -3248,7 +3248,7 @@ scene black
 with dissolve
 
 #*************************************************************************************************************
-label en_S13:
+label th_S13:
 
 scene bg school_dormhisao
 with locationchange
@@ -3582,7 +3582,7 @@ scene black
 with dissolve
 
 #********************************************************************************************************************************
-label en_S14:
+label th_S14:
 
 scene black
 with None
@@ -4293,7 +4293,7 @@ with dissolve
 
 #*****************************************************************************************************************************
 
-label en_S15:
+label th_S15:
 
 scene bg school_dormext_full
 with locationchange
@@ -5251,7 +5251,7 @@ scene black
 with dissolve
 
 #********************************************************************************************************************************
-label en_S16:
+label th_S16:
 
 window hide None
 

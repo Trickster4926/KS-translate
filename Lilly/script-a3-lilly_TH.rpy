@@ -1,4 +1,4 @@
-﻿label en_L9:
+﻿label th_L9:
 
 window hide None
 
@@ -342,7 +342,7 @@ with dissolve
 
 #**************************************
 
-label en_L10:
+label th_L10:
 
 scene bg school_lobby
 with locationchange
@@ -532,7 +532,7 @@ with charachange
 
 ke "…Damn it! Do you realize what this means? How terrifying this news is to me?"
 
-label en_choiceL10_1:
+label th_choiceL10_1:
 menu:
     with menueffect
 
@@ -544,13 +544,13 @@ menu:
     "Ignore his insane ramblings.":
         return m2
 
-label en_L10a:
+label th_L10a:
 
 hi "I have no idea what it means. Enlighten me."
 
 ke "I just lost 1000 yen, man! 1000 yen! Damn, this is the worst day ever."
 
-label en_L10b:
+label th_L10b:
 
 "I dig into my food, hoping he'll take the hint from my silence."
 
@@ -558,7 +558,7 @@ ke "I just lost 1000 yen, man! 1000 yen! Damn, this is the worst day ever."
 
 "No such luck."
 
-label en_L10c:
+label th_L10c:
 
 hi "You're kidding me. You made a bet about her nationality?"
 
@@ -775,7 +775,7 @@ with charamove
 
 "A door opens behind me. A freckled and somewhat scrawny underclassman I don't recognize comes out and is briefly taken off guard by my presence."
 
-label en_choiceL10_2:
+label th_choiceL10_2:
 menu:
     with menueffect
     
@@ -787,7 +787,7 @@ menu:
     "Keep it to myself.":
         return m2
 
-label en_L10d:
+label th_L10d:
 
 "Actually, this may be a rather fortuitous meeting."
 
@@ -801,7 +801,7 @@ hi "Hey. Excuse me, do you know if Hanako's come out of her room today or not? S
 
 "Hanako must have a reputation as a hermit; a reputation that doesn't seem outright undeserved, at least in the time before we'd met."
 
-label en_L10e:
+label th_L10e:
 
 hi "Hey. Sorry, don't mind me."
 
@@ -813,7 +813,7 @@ hi "Hey. Sorry, don't mind me."
 
 "With that, she turns and walks down the hallway without a second thought. How rude."
 
-label en_L10f:
+label th_L10f:
 
 show bg school_girlsdormhall at right
 with charamove
@@ -877,7 +877,7 @@ with dissolve
 
 #**************************************
 
-label en_L11:
+label th_L11:
 
 show bg school_girlsdormhall at right
 with locationchange
@@ -1108,7 +1108,7 @@ with dissolve
 
 #**************************************
 
-label en_L12:
+label th_L12:
 
 scene bg school_library_ss
 with locationchange
@@ -1419,7 +1419,7 @@ with dissolve
 
 #**************************************
 
-label en_L13:
+label th_L13:
 
 scene bg school_scienceroom
 with locationchange
@@ -1845,7 +1845,7 @@ with dissolve
 
 #**************************************
 
-label en_L14:
+label th_L14:
 
 scene bg city_station
 with locationchange
@@ -2298,7 +2298,7 @@ with dissolve
 
 #**************************************
 
-label en_L15:
+label th_L15:
 
 scene black
 with dissolve
@@ -2380,7 +2380,7 @@ with charachange
 
 li "I'm… sorry for bringing it up, Hisao."
 
-label en_choiceL15:
+label th_choiceL15:
 menu:
     with menueffect
 
@@ -2393,7 +2393,7 @@ menu:
         return m2
 
 
-label en_L15a:
+label th_L15a:
 
 hi "Come on, you worry about me more than I do at times. It just means I have to sleep a bit longer, that's all."
 
@@ -2421,7 +2421,7 @@ with dissolve
 
 "She moves to protest, but reluctantly acquiesces and disappears into the kitchen, her hand running along the smooth white walls as she slowly walks."
 
-label en_L15b:
+label th_L15b:
 
 hi "Hanako could… probably use some help."
 
@@ -2433,7 +2433,7 @@ with dissolve
 
 "Lilly seems about to protest for a moment, but eventually acquiesces, nodding before leaving for the kitchen."
 
-label en_L15c:
+label th_L15c:
 
 "For a while I sit and watch television in an attempt to wake myself a little more, but it's futile. I don't have anything better to do, so I follow Lilly's lead."
 
@@ -2933,7 +2933,7 @@ with dissolve
 
 #**************************************
 
-label en_L16:
+label th_L16:
 
 window hide None
 
@@ -3126,7 +3126,7 @@ stop music fadeout 6.0
 
 #**************************************
 
-label en_L17:
+label th_L17:
 
 scene bg hok_lounge_ss
 with locationskip
@@ -3357,7 +3357,7 @@ with charaexit
 
 "Once we remove the last of our clothes, which end up haphazardly piled behind us, my breath is taken by the sight in front of me."
 
-label en_L17h:
+label th_L17h:
 
 show lilly behind_reminisce_nak_ss
 with charaenter
@@ -3546,7 +3546,7 @@ with dissolve
 
 #**************************************
 
-label en_L18:
+label th_L18:
 
 scene bg hok_lounge_rn
 with locationchange
@@ -3836,7 +3836,7 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 stop music fadeout 2.0
 
-label en_L19:
+label th_L19:
 
 scene bg hok_bath
 show steam
@@ -3945,7 +3945,7 @@ play sound sfx_rustling
 
 "She continues undressing, her shirt and skirt falling to the floor and leaving her in her white lace bra and panties. Eventually, she stands bare in the center of the room."
 
-label en_L19h:
+label th_L19h:
 
 show lilly behind_sleepy_nak at center
 with charachange
@@ -4168,7 +4168,7 @@ stop music fadeout 2.0
 scene black
 with dissolve
 
-label en_L20:
+label th_L20:
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_trainint fadein 5.0
@@ -4259,7 +4259,7 @@ with charachange
 
 "She gives a deep nod, smiling warmly."
 
-label en_choiceL20:
+label th_choiceL20:
 menu:
     with menueffect
     
@@ -4272,7 +4272,7 @@ menu:
         return m2
 
 
-label en_L20a:
+label th_L20a:
 # [1]
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
@@ -4294,7 +4294,7 @@ li "I think I merely provided her with company and support. Since she came to kn
 
 "Indeed, we're all going to have to make decisions. Maybe that's the reason why, despite our return to school also heralding a return to the normalcy of everyday life, I can't help feeling a little restless."
 
-label en_L20b:
+label th_L20b:
 # [2]
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
@@ -4312,7 +4312,7 @@ li "I think so. I don't think it will be a pleasant period at all, though."
 
 hi "At least they'll only last a couple of weeks."
 
-label en_L20c:
+label th_L20c:
 # End split
 
 hi "On the bright side, it won't take long for the summer holidays to arrive after our exams are finished. We could come back here during the summer holidays if you want."

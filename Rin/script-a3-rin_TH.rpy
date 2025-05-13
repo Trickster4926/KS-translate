@@ -1,4 +1,4 @@
-﻿label en_R17:
+﻿label th_R17:
 
 window hide None
 
@@ -744,7 +744,7 @@ with dissolve
 
 #***********************************
 
-label en_R18:
+label th_R18:
 
 $ renpy.music.set_volume(0.5, 0.0, channel="music")
 play music music_tranquil fadein 3.0
@@ -1117,7 +1117,7 @@ with dissolve
 
 #**********************************
 
-label en_R19:
+label th_R19:
 
 play music music_pearly fadein 5.0
 
@@ -1226,7 +1226,7 @@ hi "Such friendship."
 
 
 ######################
-label en_R19a:
+label th_R19a:
 #if seen "what about emi" three scenes earlier
 
 hi "Speaking of that… I don't even know if I should be saying this, but it's been bothering me."
@@ -1305,7 +1305,7 @@ emi "We are really close, but maybe it's just not in that way, you know?"
 
 
 ######################
-label en_R19b:
+label th_R19b:
 
 show emi sad_shy
 with charachange
@@ -1423,7 +1423,7 @@ nvl hide dissolve
 
 
 #******************************
-label en_R20:
+label th_R20:
 
 window hide None
 
@@ -1588,7 +1588,7 @@ with charamove
 
 "I'm a bit worried about her, too."
 
-label en_choiceR20:
+label th_choiceR20:
 
 menu: 
     with menueffect
@@ -1601,19 +1601,19 @@ menu:
     "I want to be with her more.":
         return m2
 
-label en_R20a:
+label th_R20a:
 
 "I share Emi's sentiment of being worried about Rin. She's the type who might get so caught up in her own strange world, and get lost in there before she knows it."
 
 "It's not that I feel like being some kind of white knight who could save Rin from herself. She doesn't need saving. But I just can't leave her alone, either."
 
-label en_R20b:
+label th_R20b:
 
 "Without Rin, I don't really have anyone else at school that I actually talk to. Not like we actually talk very much anyway, but at least we hang out."
 
 "I really don't want to lose that."
 
-label en_R20c:
+label th_R20c:
 
 "If I want to keep what I have with Rin going, I have to get involved with making this exhibition happen, right at her side."
 
@@ -1631,7 +1631,7 @@ with dissolve
 
 #**************************
 
-label en_R21:
+label th_R21:
 
 window hide None
 
@@ -1808,7 +1808,7 @@ with charaexit
 
 "I feel like I'm so far apart from her, even when I'm not. It's the same as with Rin and Emi. I can't understand her."
 
-label en_choiceR21:
+label th_choiceR21:
 menu:
     with menueffect
 
@@ -1820,19 +1820,19 @@ menu:
     "I want to understand her.":
         return m2
 
-label en_R21a:
+label th_R21a:
 
 "I want to be there for her if she needs support from a friend. It's the least I can do."
 
 "How could I call someone my friend if I can't be there for her if she needs me?"
 
-label en_R21b:
+label th_R21b:
 
 "In the end, even though we made friends with each other, I don't really feel that we've gotten any closer."
 
 "How could I call someone my friend if I can't understand her?"
 
-label en_R21c:
+label th_R21c:
 
 "Nomiya's boisterous laugh fills the quiet afternoon just as the club meeting ends. He pats one of the girls on the back encouragingly."
 
@@ -1856,7 +1856,7 @@ with dissolve
 
 #**************************''''
 
-label en_R22:
+label th_R22:
 
 play ambient sfx_businterior fadein 1.0
 
@@ -2269,7 +2269,7 @@ with dissolve
 #****************************
 
 
-label en_R23:
+label th_R23:
 
 play music music_moonlight fadein 12.0
 
@@ -2411,7 +2411,7 @@ $ suppress_window_after_timeskip = True
 
 #**********************
 
-label en_R23_2:
+label th_R23_2:
 
 #some transition
 window hide None
@@ -2676,7 +2676,7 @@ with dissolve
 
 
 
-label en_R24:
+label th_R24:
 
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 1.0
@@ -3273,7 +3273,7 @@ stop music fadeout 6.0
 
 #*********************
 
-label en_R25:
+label th_R25:
 
 play sound sfx_rustling
 
@@ -3806,7 +3806,7 @@ $ suppress_window_after_timeskip = True
 
 #*****************************************
 
-label en_R26:
+label th_R26:
 
 window hide None
 
@@ -4040,7 +4040,7 @@ with charachange
 
 no "I should know that best. I tried going down this path too, but turned away in the end."
 
-label en_choiceR26:
+label th_choiceR26:
 
 menu:
     with menueffect
@@ -4053,7 +4053,7 @@ menu:
     "Why did you turn away from being an artist?":
         return m2
 
-label en_R26a:
+label th_R26a:
 
 hi "Is that why you're being so supportive of Rin? Because you know it's hard?"
 
@@ -4230,7 +4230,7 @@ with charachange
 sa "I doubt it."
 
 #######################
-label en_R26b:
+label th_R26b:
 
 hi "Why did you stop, exactly? You've mentioned that before."
 
@@ -4325,7 +4325,7 @@ no "I'm fond of kids and enjoy all forms of art, so it felt rather natural to ta
 no "But I think all that history with that friend of ours was the key thing, as sad as it was. A turning point, as they say."
 
 ##############
-label en_R26c:
+label th_R26c:
 
 play sound sfx_rustling
 
@@ -4386,7 +4386,7 @@ with charaexit
 
 #******************************************
 
-label en_R27:
+label th_R27:
 
 stop ambient fadeout 0.5
 
@@ -4677,7 +4677,7 @@ with locationchange
 
 "Her muscles contract timidly, evading my touch, but soon they find their trust in me and relax."
 
-label en_R27h:
+label th_R27h:
 
 #down
 scene evh rin_relief_down_large:
@@ -4787,7 +4787,7 @@ nvl hide dissolve
 nvl clear
 
 
-label en_R27x:
+label th_R27x:
 window hide None
 
 stop music fadeout 10.0
@@ -4916,7 +4916,7 @@ with dissolve
 #**********************
 
 
-label en_R28:
+label th_R28:
 
 scene bg gallery_atelier
 with locationchange
@@ -5073,7 +5073,7 @@ show rin basic_lucid_cas_close
 with charachange
 
 #maximum number of choices
-label en_choiceR28_1:
+label th_choiceR28_1:
 menu:
     with menueffect
 
@@ -5093,7 +5093,7 @@ menu:
         #jump r29
 
 #less choices as per imachine
-label en_choiceR28_2:
+label th_choiceR28_2:
 menu:
     with menueffect
 
@@ -5111,7 +5111,7 @@ menu:
 
 
 
-label en_R28a:
+label th_R28a:
 
 hi "I need to understand why."
 
@@ -5137,7 +5137,7 @@ stop music fadeout 7.0
 
 
 
-label en_R28b:
+label th_R28b:
 
 $ renpy.music.set_volume(0.3, 0.0, channel="music")
 stop music fadeout 3.0
@@ -5155,7 +5155,7 @@ play music music_sadness fadein 3.0
 "She is like a stone wall. I just can't reach through to Rin. It's impossible for me."
 
 
-label en_R28c:
+label th_R28c:
 #merge branches
 
 hi "Fine. I don't care."
@@ -5204,7 +5204,7 @@ window hide
 
 #********************************
 
-label en_R29:
+label th_R29:
 #direct continuation from the choice above and there's no other way to get here
 
 scene bg gallery_atelier

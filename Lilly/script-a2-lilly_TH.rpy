@@ -1,4 +1,4 @@
-﻿label en_L1:
+﻿label th_L1:
 
 window hide None
 
@@ -659,7 +659,7 @@ with dissolve
 
 #**************************************
 
-label en_L2:
+label th_L2:
 
 scene bg school_dormhisao
 with locationchange
@@ -1144,7 +1144,7 @@ with dissolve
 
 #**************************************
 
-label en_L3:
+label th_L3:
 
 play ambient sfx_traffic fadein 10.0
 
@@ -2154,7 +2154,7 @@ with dissolve
 
 #**************************************
 
-label en_L4:
+label th_L4:
 
 scene bg school_girlsdormhall
 with locationchange
@@ -2970,7 +2970,7 @@ with shuteye
 
 #**************************************
 
-label en_L5:
+label th_L5:
 
 window hide None
 
@@ -3395,7 +3395,7 @@ with dissolve
 
 #**************************************
 
-label en_L6i:
+label th_L6i:
 
 scene black
 with None
@@ -4205,7 +4205,7 @@ with charachange
 
 li "Oh?"
 
-label en_choiceL6_1:
+label th_choiceL6_1:
 menu:
     with menueffect
 
@@ -4217,7 +4217,7 @@ menu:
     "Tell the truth.":
         return m2
 
-label en_L6a:
+label th_L6a:
 #Choice [1]
 
 hi "I was just thinking about some of the stuff that's happened, don't worry."
@@ -4287,7 +4287,7 @@ stop music fadeout 4.0
 
 "I think this is something I have to sort out for myself, rather than relying on her for everything."
 
-label en_L6b:
+label th_L6b:
 #[2]
 
 hi "It was just kind of… I was thinking about how you seem to have everything so sorted out, even with Hanako relying on you. I can admit that even I kind of relied on you when I first transferred in."
@@ -4352,7 +4352,7 @@ with charachange
 
 stop music fadeout 2.0
 
-label en_L6c:
+label th_L6c:
 #End choice sections
 
 scene bg school_girlsdormhall
@@ -4574,7 +4574,7 @@ with dissolve
 
 $ suppress_window_after_timeskip = True
 
-label en_L7:
+label th_L7:
 
 window hide None
 
@@ -5643,7 +5643,7 @@ with dissolve
 
 #**************************************
 
-label en_L8:
+label th_L8:
 
 scene black
 with dissolve

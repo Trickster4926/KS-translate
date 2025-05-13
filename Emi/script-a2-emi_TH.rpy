@@ -1,5 +1,5 @@
 ﻿########################################################
-label en_E3:
+label th_E3:
 
 window hide None
 
@@ -624,7 +624,7 @@ with Dissolve(2.0)
 "Crap."
 
 ########################################################
-label en_E4:
+label th_E4:
 
 scene bg school_dormbathroom
 show steam
@@ -1100,7 +1100,7 @@ stop music fadeout 2.0
 
 
 ########################################################
-label en_E5:
+label th_E5:
 
 scene bg school_scienceroom
 with shorttimeskip
@@ -1505,7 +1505,7 @@ stop ambient fadeout 2.0
 "Homework beckons."
 
 ########################################################
-label en_E6:
+label th_E6:
 
 scene bg school_track_ss
 with None
@@ -2271,7 +2271,7 @@ emi "Right now, of course! You'll need a shower and everything, right? We don't 
 stop music fadeout 2.0
 
 ########################################################
-label en_E7:
+label th_E7:
 
 scene bg school_nurseoffice
 show nurse neutral at center
@@ -2628,7 +2628,7 @@ scene black
 with dissolve
 
 ########################################################
-label en_E8:
+label th_E8:
 
 window hide None
 
@@ -3897,7 +3897,7 @@ scene black
 with dissolve
 
 ########################################################
-label en_E9:
+label th_E9:
 
 scene bg school_nurseoffice
 show nurse concern at center
@@ -4295,7 +4295,7 @@ with dissolve
 $ suppress_window_after_timeskip = True
 
 ########################################################
-label en_E10:
+label th_E10:
 
 window hide None
 
@@ -5053,7 +5053,7 @@ with dissolve
 
 
 ########################################################
-label en_E11a:
+label th_E11a:
 
 scene black
 with None
@@ -5594,7 +5594,7 @@ hide emi
 with locationchange
 
 #If you have been at the Shanghai during Act 1
-label en_E11x:
+label th_E11x:
 
 "Come to think of it, I have been here before. It seems fairly crowded inside; entirely the fault of the sudden rain, I'm sure."
 
@@ -5642,7 +5642,7 @@ with charachange
 ######
 
 #If you have NOT been at the Shanghai during Act 1
-label en_E11y:
+label th_E11y:
 
 "It seems fairly crowded inside; a symptom of the sudden rain, I'm sure."
 
@@ -5763,7 +5763,7 @@ show yuukoshang neutral_down
 with charachange
 
 #end split
-label en_E11z:
+label th_E11z:
 
 $ renpy.music.set_volume(0.3, 3.0, channel="ambient")
 
@@ -6146,7 +6146,7 @@ emi "No, it wasn't that much cake for {b}you{/b}. I ate most of it."
 
 "She's got a point there."
 
-label en_choiceE11:
+label th_choiceE11:
 menu:
     with menueffect
 
@@ -6160,7 +6160,7 @@ menu:
     "Keep quiet.":
         return m2
 
-label en_E11b:
+label th_E11b:
 
 #If you offer to run with Emi
 hi "Hey, I'll run with you."
@@ -6182,7 +6182,7 @@ hi "Whatever you say, Emi."
 
 "I think it's probably best not to press the issue."
 
-label en_E11c:
+label th_E11c:
 
 #If you selected to keep quiet, skip to here.
 
@@ -6190,7 +6190,7 @@ label en_E11c:
 
 "I decide to keep my offer to myself."
 
-label en_E11d:
+label th_E11d:
 
 #End split
 
@@ -6461,7 +6461,7 @@ $ suppress_window_after_timeskip = True
 
 
 ########################################################
-label en_E12a:
+label th_E12a:
 
 window hide None
 
@@ -6504,7 +6504,7 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 "The thought crosses my mind that it never quite stopped raining yesterday. Did she go running anyway?"
 
-label en_E12b:
+label th_E12b:
 
 #if you offered to run with her
 
@@ -6514,7 +6514,7 @@ label en_E12b:
 
 "Heck, if anything I would have been able to convince her to come in once it got really bad. That would be why she didn't want me along, of course."
 
-label en_E12c:
+label th_E12c:
 
 #If you kept quiet
 
@@ -6532,7 +6532,7 @@ label en_E12c:
 
 "I trust her judgment on that matter, at least."
 
-label en_E12d:
+label th_E12d:
 
 #end split
 
@@ -7045,7 +7045,7 @@ with shorttimeskip
 "I'll grab something before I visit Emi later."
 
 ########################################################
-label en_E13:
+label th_E13:
 
 scene bg school_hallway2
 with None
@@ -7816,7 +7816,7 @@ scene black
 with dissolve
 
 ########################################################
-label en_E14:
+label th_E14:
 
 window hide None
 
@@ -8412,7 +8412,7 @@ window show
 stop music fadeout 6.0
 
 ########################################################
-label en_E15:
+label th_E15:
 
 scene bg school_nursehall
 with None

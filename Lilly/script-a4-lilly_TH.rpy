@@ -1,4 +1,4 @@
-﻿label en_L21:
+﻿label th_L21:
 
 window hide None
 
@@ -481,7 +481,7 @@ with dissolve
 #****************************
 
 
-label en_L22:
+label th_L22:
 
 $ renpy.music.set_volume(0.8, 0.0, channel="music")
 play music music_ease fadein 4.0
@@ -1053,7 +1053,7 @@ with dissolve
 #***********************
 
 
-label en_L23:
+label th_L23:
 
 scene bg school_nursehall
 with locationchange
@@ -1694,7 +1694,7 @@ with dissolve
 
 #***********
 
-label en_L24:
+label th_L24:
 
 scene bg city_restaurant at Fullpan(10.0)
 with dissolve
@@ -2131,7 +2131,7 @@ with charachange
 li "Did you ever… see her again?"
 
 
-label en_choiceL24:
+label th_choiceL24:
 menu:
     with menueffect
 
@@ -2146,7 +2146,7 @@ menu:
 #[1]
 # +1 Good End
 
-label en_L24a:
+label th_L24a:
 
 "The memory of that single letter Iwanako sent me comes back to my mind."
 
@@ -2187,7 +2187,7 @@ hi "Maybe. I don't hate her for it, not that I really ever did, but… I don't k
 
 #[2]
 
-label en_L24b:
+label th_L24b:
 
 "I really don't want to bring up Iwanako any more than necessary. This date is, after all, for me and Lilly. I don't want to think about a previous relationship at a time like this."
 
@@ -2195,7 +2195,7 @@ hi "No, that was the last I saw of her. We never talked again, either."
 
 # End split
 
-label en_L24c:
+label th_L24c:
 
 "Seconds pass in silence before Lilly speaks again."
 
@@ -2405,7 +2405,7 @@ with dissolve
 #*************
 
 
-label en_L25:
+label th_L25:
 
 scene black
 with Dissolve(2.0)
@@ -3081,7 +3081,7 @@ $ suppress_window_after_timeskip = True
 
 #*******************
 
-label en_L26:
+label th_L26:
 
 window hide None
 
@@ -3649,7 +3649,7 @@ li "Hisao…"
 
 "…All right, this must be her hip. If I just move slowly downwards…"
 
-label en_L26h:
+label th_L26h:
 
 "Lilly's breath catches as my hand comes over hers, tentatively following her fingers between her legs and losing them as they go underneath her underwear."
 
@@ -3801,7 +3801,7 @@ li "Always the gentleman, aren't you?"
 
 "I can feel her hands clasp my wrists, their grip surprisingly tight as her chest rises in overwhelming pleasure."
 
-label en_L26x:
+label th_L26x:
 
 scene black
 with dissolve
@@ -4052,7 +4052,7 @@ with dissolve
 
 
 
-label en_L27:
+label th_L27:
 
 scene bg school_library
 with locationchange
@@ -4560,7 +4560,7 @@ with dissolve
 
 #*********************
 
-label en_L28:
+label th_L28:
 
 scene bg suburb_roadcenter_rn
 show rain normal
@@ -5069,7 +5069,7 @@ with dissolve
 
 #********************
 
-label en_L29:
+label th_L29:
 
 scene bg school_scienceroom
 with locationchange
@@ -6276,7 +6276,7 @@ with Dissolve(2.0)
 
 #********************************
 
-label en_L30:
+label th_L30:
 
 # This scene onwards is only seen if the player tripped all three +1 Good End choices
 
@@ -7021,7 +7021,7 @@ with dissolve
 
 #**********************
 
-label en_L31:
+label th_L31:
 
 scene white
 with dissolve
@@ -7300,7 +7300,7 @@ with dissolve
 
 #**************************
 
-label en_L32:
+label th_L32:
 
 scene white
 with dissolve
@@ -7618,7 +7618,7 @@ stop music fadeout 4.0
 #*****************************
 
 
-label en_L33:
+label th_L33:
 
 window hide None
 

@@ -1,4 +1,4 @@
-﻿label en_R30:
+﻿label th_R30:
 
 window hide None
 
@@ -35,7 +35,7 @@ with shorttimeskip
 
 #If seen R16d/R20:
 #R20 depends on R16d anyway
-label en_R30x:
+label th_R30x:
 
 "I have no real business going there…"
 
@@ -74,7 +74,7 @@ with locationchange
 
 #if not seen R16d/r20:
 #R20 depends on R16d anyway
-label en_R30y:
+label th_R30y:
 
 "Without Rin, it feels pretty pointless to go there, but I want to talk with the teacher."
 
@@ -118,7 +118,7 @@ stop music fadeout 4.0
 "I stay behind, waiting until the two of us are alone. It's almost dinnertime, so I don't have to wait long."
 
 #end split
-label en_R30z:
+label th_R30z:
 
 "Nomiya is looking through the paintings, some of which are actually pretty nice."
 
@@ -247,7 +247,7 @@ scene black
 with dissolve
 
 
-label en_R31:
+label th_R31:
 
 window hide None
 nvl clear
@@ -683,7 +683,7 @@ with dissolve
 
 
 
-label en_R32:
+label th_R32:
 
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 0.5
@@ -1225,7 +1225,7 @@ show rin relaxed_doubt_close_ni
 with charachange
 
 
-label en_choiceR32:
+label th_choiceR32:
 menu:
     with menueffect
 
@@ -1238,7 +1238,7 @@ menu:
     "But if you found someone like that, then what?":
         return m2
 
-label en_R32a:
+label th_R32a:
 
 $ renpy.music.set_volume(0.2, 0.2, channel="ambient")
 
@@ -1354,7 +1354,7 @@ scene black
 with dissolve
 
 
-label en_R32b:
+label th_R32b:
 
 $ renpy.music.set_volume(0.2, 0.2, channel="ambient")
 
@@ -1686,7 +1686,7 @@ scene black
 with dissolve
 
 
-label en_R33:
+label th_R33:
 
 play music music_daily fadein 0.5
 
@@ -1730,7 +1730,7 @@ with locationskip
 #this is solved differently in practice
 
 
-label en_R34:
+label th_R34:
 scene bg school_scienceroom
 with None
 
@@ -2044,7 +2044,7 @@ hi "Hey there."
 
 #go to R38 (good end) from here
 
-label en_R35:
+label th_R35:
 #continued from R33
 scene bg school_scienceroom
 with None
@@ -2492,7 +2492,7 @@ scene black
 with shuteye
 
 
-label en_R36:
+label th_R36:
 
 
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
@@ -2600,7 +2600,7 @@ emi "Yeah, just this morning when I woke her up."
 "They are like sisters, even though they seem to have nothing in common."
 
 
-label en_R36a:
+label th_R36a:
 #If not seen R19a:
 "I wonder which one is the elder sister? Probably Emi, against all odds."
 
@@ -2610,7 +2610,7 @@ label en_R36a:
 #End split. -SC
 
 
-label en_R36x:
+label th_R36x:
 
 show emicas frown_up
 with charachange
@@ -3230,7 +3230,7 @@ with charachange
 rin "Okay."
 
 
-label en_R37:
+label th_R37:
 
 play music music_dreamy fadein 2.0
 $ renpy.music.set_volume(1.0, 2.0, channel="ambient")
@@ -3816,7 +3816,7 @@ with None
 window hide
 
 
-label en_R38:
+label th_R38:
 
 #this scene picks up from the end of R34, as you might've guessed.
 scene bg school_room34
@@ -4347,7 +4347,7 @@ stop music fadeout 4.0
 "Only, it's not as vehement."
 
 
-label en_R39:
+label th_R39:
 
 scene bg school_hallway3
 with locationchange
@@ -4557,7 +4557,7 @@ with charachange
 rin "Go away."
 
 
-label en_R40:
+label th_R40:
 
 scene bg school_nomiya at right
 show rin negative_annoyed_close at center
@@ -5207,7 +5207,7 @@ with dissolve
 
 
 
-label en_R41:
+label th_R41:
 
 play music music_dreamy fadein 2.0
 
@@ -5631,7 +5631,7 @@ with None
 
 "But that's all right. It seems thinking is not something we need right now."
 
-label en_R41h:
+label th_R41h:
 show evh rin_h2_nopan_closed:
      yalign 1.0
 with Dissolvemove(0.5)
@@ -6095,7 +6095,7 @@ $ suppress_window_after_timeskip = True
 with Pause(4.0)
 
 
-label en_R42:
+label th_R42:
 
 window hide None
 

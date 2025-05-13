@@ -1,4 +1,4 @@
-﻿label en_S30:
+﻿label th_S30:
 
 window hide None
 
@@ -488,7 +488,7 @@ with dissolve
 
 ##############################
 
-label en_S31:
+label th_S31:
 
 window hide None
 
@@ -1016,7 +1016,7 @@ $ suppress_window_after_timeskip = True
 
 ##################################
 
-label en_S32:
+label th_S32:
 
 window hide None
 
@@ -1412,7 +1412,7 @@ with dissolve
 
 #****************************
 
-label en_S33:
+label th_S33:
 
 scene bg school_scienceroom at bgleft
 with locationchange
@@ -2107,7 +2107,7 @@ with dissolve
 
 #****************************
 
-label en_S34:
+label th_S34:
 
 scene black
 with dissolve
@@ -2455,19 +2455,19 @@ ssh "I'm only delivering your mail because it was there. I have early access! It
 "That doesn't sound very fair. She takes a lot of liberties with her position. At least they're small ones."
 
 #if not seen A26b:
-label en_S34a:
+label th_S34a:
 
 ssh "I never got to enter your room before. It's interesting."
 
 #if seen A26b:
-label en_S34b:
+label th_S34b:
 
 ssh "This is the first time I've really been able to see your room."
 
 "It's a blatant lie, or she'd have signed it much faster. I'm sure Shizune remembers that it's not the first time."
 
 #end split
-label en_S34c:
+label th_S34c:
 
 show shizu basic_frown
 with charachange
@@ -2905,7 +2905,7 @@ with dissolve
 
 #****************************
 
-label en_S35:
+label th_S35:
 
 scene bg school_council_ss at right
 show mishashort hips_smile_close_ss at closeleft
@@ -3412,7 +3412,7 @@ with locationchange
 
 "The stiff edge of the table behind me was the furthest thing from my mind, until I feel it stabbing into my lower back. I hadn't even noticed it was there. It makes me grab Shizune a little tighter as we fall back onto the surface of the table."
 
-label en_S35h:
+label th_S35h:
 
 show evh shizu_pushdown
 with charachange
@@ -3564,7 +3564,7 @@ stop music fadeout 4.0
 
 "The sight makes me smile as well. Her legs slowly fall, allowing me to extract myself."
 
-label en_S35x:
+label th_S35x:
 
 scene bg school_council_ni
 with locationchange
@@ -3619,7 +3619,7 @@ with locationchange
 
 #****************************
 
-label en_S36:
+label th_S36:
 
 scene bg school_courtyard_ni
 with locationskip
@@ -4113,7 +4113,7 @@ with dissolve
 
 #****************************
     
-label en_S37:
+label th_S37:
 
 window hide None
 nvl clear
@@ -4865,7 +4865,7 @@ stop music fadeout 2.0
 
 #shizune bad end branch begin
 
-label en_S38:
+label th_S38:
 
 play music music_pearly
 
@@ -5127,7 +5127,7 @@ with dissolve
 
 #****************************
 
-label en_S39:
+label th_S39:
 
 scene bg school_hallway3
 with locationchange
@@ -5419,7 +5419,7 @@ with dissolve
 
 #****************************
 
-label en_S40:
+label th_S40:
 
 play music music_dreamy fadein 2.0
 

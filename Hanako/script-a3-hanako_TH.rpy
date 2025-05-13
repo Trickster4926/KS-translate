@@ -1,4 +1,4 @@
-﻿label en_H11:
+﻿label th_H11:
 
 scene bg school_miyagi_ss
 show hanako basic_distant_close_ss at center
@@ -745,7 +745,7 @@ with dissolve
 
 #---------------
 
-label en_H12:
+label th_H12:
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play music music_happiness fadein 2.0
@@ -939,7 +939,7 @@ with charachange
 
 mk "You really like her, don't you?"
 
-label en_choiceH12:
+label th_choiceH12:
 menu:
     with menueffect
 
@@ -952,7 +952,7 @@ menu:
         return m2
 
 # Tell Miki
-label en_H12a:
+label th_H12a:
 
 hi "To be completely honest… yeah, I do. I'd appreciate it if you didn't tell anyone."
 
@@ -975,7 +975,7 @@ hi "Thanks."
 "As I think about the possibility of a relationship, I can see Miki grinning at me while watching my face. I'm no doubt blushing, and looking away from her only makes her laugh."
 
 # Deny it
-label en_H12b:
+label th_H12b:
 
 hi "I don't think so. We're just friends."
 
@@ -987,7 +987,7 @@ mk "Aw. I thought I'd discovered something nice for a moment there. I understand
 "What she says is true, even if I do have feelings for Hanako. Right now we are good friends, and I don't want to mess that up, but I also want to be more than that for her. It's hard."
 
 # End splits
-label en_H12c:
+label th_H12c:
 
 "Miki gives off a different vibe from the other girls. Talking to her feels more like talking to a guy than a woman. Her saying she prefers male company doesn't help to dispel that notion, either."
 
@@ -1067,7 +1067,7 @@ with dissolve
 
 
 #---------------
-label en_H13:
+label th_H13:
 
 play music music_daily fadein 2.0
 $ renpy.music.set_volume(0.4, 0.0, channel="ambient")
@@ -1963,7 +1963,7 @@ with dissolve
 
 #---------------------
 
-label en_H14:
+label th_H14:
 
 play music music_pearly fadein 5.0
 
@@ -2943,7 +2943,7 @@ with locationchange
 
 #-----------
 
-label en_H15:
+label th_H15:
 
 scene bg school_dormhisao_ss
 with shorttimeskip
@@ -3443,7 +3443,7 @@ with dissolve
 
 #------------------
 
-label en_H16:
+label th_H16:
 
 scene bg school_scienceroom
 with locationchange
@@ -3736,7 +3736,7 @@ with dissolve
 
 #---------------
 
-label en_H17:
+label th_H17:
 
 scene bg school_girlsdormhall
 with locationchange
@@ -4804,7 +4804,7 @@ with dissolve
 
 #--------------
 
-label en_H18:
+label th_H18:
 
 scene black
 with dissolve
@@ -5292,7 +5292,7 @@ with dissolve
 
 #---------
 
-label en_H19:
+label th_H19:
 
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 1.0
@@ -6058,7 +6058,7 @@ with dissolve
 
 #---------
 
-label en_H20:
+label th_H20:
 
 play music music_daily fadein 2.0
 
@@ -6249,7 +6249,7 @@ with charachange
 
 ha "I… don't know."
 
-label en_choiceH20:
+label th_choiceH20:
 menu:
     with menueffect
 
@@ -6261,7 +6261,7 @@ menu:
 
 #---------------
 
-label en_H20_1:
+label th_H20_1:
 
 scene bg school_gate at bgleft
 show hanako def_worry_cas_close at center
@@ -6598,7 +6598,7 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 
 #---------------
-label en_H20_2:
+label th_H20_2:
 
 scene bg school_gate at bgleft
 show hanako def_worry_cas_close at center

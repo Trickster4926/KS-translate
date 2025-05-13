@@ -1,4 +1,4 @@
-﻿label en_R1:
+﻿label th_R1:
 #some notes about how Rin's dialogue goes, should probably have written this down earlier.
 #I've been playing around with different styles for her to somehow communicate her state of mind through dialogue style. Currently (and this seems to be the final solution), there are two distinct "modes"
 #Whenever she's in free-form stream-of-consciousness blabbering mode, she uses awkward grammar badly and has extreme trouble with idioms, sayings and figurative speech. And she talks in short sentences. Many of them in sequence.
@@ -656,7 +656,7 @@ stop music fadeout 2.0
 
 #********************************
 
-label en_R2:
+label th_R2:
 
 scene bg school_hallway3
 with shorttimeskip
@@ -1122,7 +1122,7 @@ with Pause(1.0)
 
 "It's excellent. Somehow the seemingly arbitrary strokes come together to form an image of my face, from the shape of my chin, to the messy hair, to the somewhat gloomy expression."
 
-label en_choiceR2:
+label th_choiceR2:
 menu:
     with menueffect
 
@@ -1134,7 +1134,7 @@ menu:
     "I wish I was as good as you.":
         return m2
 
-label en_R2a:
+label th_R2a:
 
 hi "Wow, you're amazing."
 
@@ -1142,7 +1142,7 @@ rin "It's not that amazing."
 
 rin "But thanks."
 
-label en_R2b:
+label th_R2b:
 
 hi "Wow, I wish I was that good. I kind of embarrass myself."
 
@@ -1150,7 +1150,7 @@ rin "Wouldn't you have to be me to be as good as me? I don't think you'd want to
 
 hi "No, I guess not. Maybe just some sort of approximation then."
 
-label en_R2c:
+label th_R2c:
 
 show ovl hisaobyrin:
     yalign 0.0 subpixel True
@@ -1226,7 +1226,7 @@ stop music fadeout 4.0
 
 #*********
 
-label en_R3:
+label th_R3:
 
 scene bg school_hallway3
 with locationchange
@@ -1359,7 +1359,7 @@ with Dissolve(2.0)
 
 
 
-label en_R4:
+label th_R4:
 
 window hide None
 
@@ -1754,7 +1754,7 @@ with dissolve
 #***************
 
 
-label en_R5:
+label th_R5:
 
 scene black
 with locationchange
@@ -2188,7 +2188,7 @@ with dissolve
 #*****************
 
 
-label en_R6:
+label th_R6:
 
 play music music_happiness fadein 2.0
 
@@ -2256,7 +2256,7 @@ hi "People talk more, work harder and just… are… more than in any other scho
 
 "I'm struggling for words, but it feels like I'm speaking honestly."
 
-label en_choiceR6:
+label th_choiceR6:
 menu:
     with menueffect
 
@@ -2268,17 +2268,17 @@ menu:
     "It makes me feel like I'm stuck.":
         return m2
 
-label en_R6a:
+label th_R6a:
 
 hi "Sure, there were some people like this in my old school, too, but not as many. And it feels more intense, somehow."
 
 hi "I think, if I had to pin it down to one thing, that the students here really appreciate going to school."
 
-label en_R6b:
+label th_R6b:
 
 hi "I feel like I need to start moving in some direction, too. That's how this school makes me feel."
 
-label en_R6c:
+label th_R6c:
 
 show yuuko worried_up
 with charachange
@@ -2329,7 +2329,7 @@ scene black
 with dissolve
 
 #**************
-label en_R7:
+label th_R7:
 
 scene bg school_courtyard
 show crowd
@@ -3199,7 +3199,7 @@ scene black
 with dissolve
 
 #**************
-label en_R8:
+label th_R8:
 
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
@@ -3601,7 +3601,7 @@ with charaexit
 #*******************************************
 
 
-label en_R9:
+label th_R9:
 
 scene bg school_staircase2
 show rin negative_spaciness_close at tworight
@@ -3892,7 +3892,7 @@ with whiteout
 
 "And unlike her, I know for sure that I can't stay like this forever."
 
-label en_choiceR9:
+label th_choiceR9:
 
 menu:
     with menueffect
@@ -3905,7 +3905,7 @@ menu:
     "I want to be more like Emi.":
         return m2
 
-label en_R9a:
+label th_R9a:
 
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
@@ -3913,14 +3913,14 @@ $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
 "She could do it, even if she can't."
 
-label en_R9b:
+label th_R9b:
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 "Emi probably has done it. She's so happy and energetic, a runner girl without legs."
 
 "If anyone has “beaten” a disability, it must be her."
 
-label en_R9c:
+label th_R9c:
 
 "It makes me feel a little bit better too, and I lean back against the tree, breathing out deeply as if for the first time in a long time."
 
@@ -4199,7 +4199,7 @@ with dissolve
 
 #******************************************
 
-label en_R10:
+label th_R10:
 
 scene ev hisao_letter_closed
 with locationchange
@@ -4350,7 +4350,7 @@ $ suppress_window_after_timeskip = True
 #*******************************************
 
 
-label en_R11:
+label th_R11:
 
 window hide None
 
@@ -4780,7 +4780,7 @@ no "Oho? Any decisions?"
         #return m6
 
 
-label en_choiceR11aaa:
+label th_choiceR11aaa:
 menu:
     with menueffect
 
@@ -4796,7 +4796,7 @@ menu:
         return m5
 
 
-label en_choiceR11baa:
+label th_choiceR11baa:
 menu:
     with menueffect
 
@@ -4812,7 +4812,7 @@ menu:
         return m5
 
 
-label en_choiceR11aba:
+label th_choiceR11aba:
 menu:
     with menueffect
 
@@ -4828,7 +4828,7 @@ menu:
         return m5
 
 
-label en_choiceR11aab:
+label th_choiceR11aab:
 menu:
     with menueffect
 
@@ -4844,7 +4844,7 @@ menu:
         return m6
 
 
-label en_choiceR11abb:
+label th_choiceR11abb:
 menu:
     with menueffect
 
@@ -4860,7 +4860,7 @@ menu:
         return m6
 
 
-label en_choiceR11bab:
+label th_choiceR11bab:
 menu:
     with menueffect
 
@@ -4876,7 +4876,7 @@ menu:
         return m6
 
 
-label en_choiceR11bba:
+label th_choiceR11bba:
 menu:
     with menueffect
 
@@ -4892,7 +4892,7 @@ menu:
         return m5
 
 
-label en_choiceR11bbb:
+label th_choiceR11bbb:
 menu:
     with menueffect
 
@@ -4911,7 +4911,7 @@ menu:
 ################
 
 
-label en_R11a:
+label th_R11a:
 #"I think you'd be a big hit.":
 
 hi "I think you'd be super popular. I mean, your paintings are really amazing."
@@ -4933,7 +4933,7 @@ with charachange
 rin "I get it."
 
 
-label en_R11b:
+label th_R11b:
 #"You'd be wasting your talents otherwise.":
 
 hi "You'd be letting your talent go to waste if you don't."
@@ -4969,7 +4969,7 @@ with charachange
 hi "Yeah, but…"
 
 
-label en_R11c:
+label th_R11c:
 #"You won't get a chance like this again.":
 
 hi "I mean, the teacher is probably right. You're not going to get a chance like this again."
@@ -4982,7 +4982,7 @@ with charachange
 "Rin stares at me unresponsively. It's like my words don't have any meaning to her at all."
 
 
-label en_R11d:
+label th_R11d:
 #"Because it would be exciting.":
 
 hi "Don't you think it would be exciting? I'd be wild about something like this."
@@ -4998,7 +4998,7 @@ hi "Seriously, everyday life is so dull, you always do the same things every day
 
 
 
-label en_R11e:
+label th_R11e:
 #"This isn't like you at all.":
 
 hi "This isn't like you. You told me that people should do things they can't, just because they can."
@@ -5007,7 +5007,7 @@ hi "And now you're being all wishy-washy yourself about something this important
 
 
 
-label en_R11f:
+label th_R11f:
 #"You should aim higher.":
 
 hi "I really think you should aim higher. You should take the chance."
@@ -5024,7 +5024,7 @@ rin "You don't think I'm good enough like this?"
 hi "No. I think that you're selling yourself short if you think like that. It's cowardly."
 
 
-label en_R11g:
+label th_R11g:
 #hisao gets angry
 
 show rin basic_deadpanupset_close
@@ -5070,7 +5070,7 @@ no "You care a lot for her, don't you?"
 
 
 
-label en_R11h:
+label th_R11h:
 #rin gets angry
 
 show rin basic_deadpanupset_close
@@ -5102,7 +5102,7 @@ no "Hahaha, don't worry about it. She'll be fine, I'm sure. I'll talk to her lat
 
 
 
-label en_R11i:
+label th_R11i:
 #nomiya disapproves of hisao's idiocy
 
 show nomiya smile
@@ -5155,7 +5155,7 @@ show bg school_classroomart at bgright
 with charamove
 
 
-label en_R11j:
+label th_R11j:
 #everything finally comes back together
 
 "Nomiya looks at me over his circular pink glasses, smiling sympathetically."
@@ -5315,7 +5315,7 @@ with dissolve
 
 #******************************************
 
-label en_R12:
+label th_R12:
 #scene needs some details panned out with E11. The types of cakes and beverages etc. The picnic basket is a bit tricky, I don't really want that for this. Dunno what to do.
 
 $ renpy.music.set_volume(0.5, 0.0, channel="music")
@@ -5529,17 +5529,17 @@ show rin basic_absent_rn
 with charachange
 
 
-label en_R12a:
+label th_R12a:
 
 hi "It's a café somewhere around here, right? I've heard of it."
 
 
-label en_R12b:
+label th_R12b:
 
 hi "Yeah, our class president took me there on my first week."
 
 
-label en_R12c:
+label th_R12c:
 
 show rin basic_awayabsent_rn
 show emi basic_grin_rn
@@ -5596,7 +5596,7 @@ with None
 "Light jazz plays quietly in the background, though it's mostly drowned out by the murmur of the customers."
 
 
-label en_R12d:
+label th_R12d:
 #not seen the shizune & misha shanghai scene in act 1
 "There's only one waitress serving the full house, frantically gliding from one table to another and trying to keep up with everything. To my surprise, I think I recognize her."
 
@@ -5632,7 +5632,7 @@ with charachange
 
 yu "Good thing, too, since today has been so busy I'm wishing for another pair of hands. Anyway, I'm in a bit of a rush as you can see. What can I get you today?"
 
-label en_R12e:
+label th_R12e:
 #seen it
 "I notice Yuuko is at work here today, but it seems like she's serving a full house all by herself, frantically gliding from one table to another and trying to keep up with everything."
 
@@ -5657,7 +5657,7 @@ with charachange
 
 yu "What can I get for you today?"
 
-label en_R12f:
+label th_R12f:
 
 show emi excited_joy at Slide(-0.1,0.0,0.0,0.0,0.5)
 show rin basic_awayabsent at Slide(1.05,1.0,0.95,1.0,0.5)
@@ -6093,7 +6093,7 @@ with dissolve
 #****************************************
 
 
-label en_R13:
+label th_R13:
 
 scene bg school_dormhisao
 with dissolve
@@ -6805,7 +6805,7 @@ with dissolve
 #***************************************************
 
 
-label en_R14:
+label th_R14:
 
 scene bg school_scienceroom
 with locationchange
@@ -6897,7 +6897,7 @@ with dissolve
 
 #****************************
 
-label en_R15:
+label th_R15:
 
 scene bg school_girlsdormhall
 with locationchange
@@ -7505,7 +7505,7 @@ with dissolve
 
 #*******************************
 
-label en_R16:
+label th_R16:
 
 window hide None
 
@@ -7871,7 +7871,7 @@ rin "People are like jellyfish to me. I don't understand."
 show rin basic_sad
 with charachange
 
-label en_choiceR16:
+label th_choiceR16:
 
 menu:
     with menueffect
@@ -7884,7 +7884,7 @@ menu:
     "What about Emi?":
         return m2
 
-label en_R16a:
+label th_R16a:
 
 hi "Nah. I'm your friend, for one."
 
@@ -7892,7 +7892,7 @@ hi "I mean, think about it. We already talk a lot to each other, and we've even 
 
 hi "That's what they call friendship."
 
-label en_R16b:
+label th_R16b:
 
 hi "What about Emi?"
 
@@ -7926,7 +7926,7 @@ hi "And I want to tell you about what I think too. It goes both ways."
 
 hi "We should definitely be friends."
 
-label en_R16c:
+label th_R16c:
 
 show rin basic_deadpanamused
 with charachange
@@ -7978,7 +7978,7 @@ with charaenter
 
 $ renpy.music.set_volume(0.7, 6.0, channel="music")
 
-label en_R16d:
+label th_R16d:
 
 hi "I think I'm going to quit the art club. I realized it when we had that argument last week."
 
@@ -8007,7 +8007,7 @@ rin "Are you going to do some other thing?"
 
 hi "I don't know. Probably not."
 
-label en_R16e:
+label th_R16e:
 
 show rin relaxed_doubt_ss
 with charachange

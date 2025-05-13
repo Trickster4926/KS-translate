@@ -1,4 +1,4 @@
-﻿label en_E28:
+﻿label th_E28:
 
 window hide None
 
@@ -243,7 +243,7 @@ with dissolve
 
 #############
 
-label en_E29:
+label th_E29:
 
 scene bg school_staircase1
 with locationchange
@@ -544,7 +544,7 @@ $ suppress_window_after_timeskip = True
 
 #########################
 
-label en_E30:
+label th_E30:
 
 window hide None
 
@@ -572,7 +572,7 @@ window show
 
 #if you came from e29, see this
 
-label en_E30a:
+label th_E30a:
 
 "Although I can't help remembering the nurse's warning that I might not like what she has to say. Do I really need to know that badly?"
 
@@ -584,7 +584,7 @@ label en_E30a:
 
 #if you came from e27, you'll just drop in at this point
 
-label en_E30b:
+label th_E30b:
 
 scene bg school_track
 show emi basic_grin_gym at center
@@ -622,7 +622,7 @@ with charachange
 
 #if you came from e27, see this
 
-label en_E30c:
+label th_E30c:
 
 emi "Yeah, the bus. I want to show you something, and I don't want to be late."
 
@@ -634,7 +634,7 @@ hi "Oh, okay."
 
 #if you came from e29, see this
 
-label en_E30d:
+label th_E30d:
 
 emi "I said I wanted you to come back to my house, remember? And I promised mom we'd be there in time for lunch, so I wanted to hurry!"
 
@@ -651,7 +651,7 @@ hi "Ah, well that's okay."
 
 #end of split
 
-label en_E30e:
+label th_E30e:
 
 show emi basic_concentrate_gym
 with charachange
@@ -1273,7 +1273,7 @@ stop music fadeout 15.0
 #################
 
 
-label en_E31:
+label th_E31:
 
 scene bg school_gate_ss
 with shorttimeskip
@@ -1374,7 +1374,7 @@ with dissolvecharamove
 
 "We embrace again, Emi guiding me towards her bed, stepping backwards with care, until she sits down on the edge."
 
-label en_E31h:
+label th_E31h:
 
 hide emicas
 show eminude smile_close_ss
@@ -1444,7 +1444,7 @@ with charachange
 
 "My back arches as I let myself go, feeling my body spasm as I orgasm."
 
-label en_E31x:
+label th_E31x:
 
 scene bg school_dormemi_ss at right
 with shorttimeskip
@@ -1500,7 +1500,7 @@ with dissolve
 
 ##############################
 
-label en_E32:
+label th_E32:
 
 window hide None
 

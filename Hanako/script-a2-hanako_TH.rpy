@@ -1,4 +1,4 @@
-﻿label en_H2:
+﻿label th_H2:
 
 scene bg school_miyagi
 show hanako emb_downsmile_close
@@ -903,7 +903,7 @@ with dissolve
 
 #---------------------------------------------------------
 
-label en_H3:
+label th_H3:
 
 window hide None
 
@@ -1461,7 +1461,7 @@ with dissolve
 
 #---------------------------------------------------------
 
-label en_H4:
+label th_H4:
 
 scene black
 with None
@@ -2051,7 +2051,7 @@ with charachange
 
 ha "Um…"
 
-label en_choiceH4:
+label th_choiceH4:
 menu:
     with menueffect
 
@@ -2064,7 +2064,7 @@ menu:
         return m2
 
 
-label en_H5_1:
+label th_H5_1:
 #-----------------------
 
 scene bg school_scienceroom at bgleft
@@ -2580,7 +2580,7 @@ scene black
 with dissolve
 
 #-------------
-label en_H5_2:
+label th_H5_2:
 
 scene bg school_scienceroom at bgleft
 show hanako cover_worry:
@@ -2992,7 +2992,7 @@ with dissolve
 
 #-------------------------------
 
-label en_H6:
+label th_H6:
 
 scene bg school_dormhisao
 with locationchange
@@ -3271,7 +3271,7 @@ with locationchange
 
 #---------------------------------
 
-label en_H7:
+label th_H7:
 
 scene bg school_girlsdormhall
 with locationskip
@@ -3525,7 +3525,7 @@ ha "I'm glad you like it…"
 "Hanako, finally beginning to relax, sips from her cup."
 
 #--------------------
-label en_H7a:
+label th_H7a:
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 window hide
@@ -3561,7 +3561,7 @@ window show
 
 #------------------------
 
-label en_H7b:
+label th_H7b:
 
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
@@ -3589,7 +3589,7 @@ window show
 
 #-----------------
 
-label en_H7c:
+label th_H7c:
 
 show lilly basic_smile_paj
 with charachange
@@ -3781,7 +3781,7 @@ scene black
 with dissolve
 
 #-----------------
-label en_H8:
+label th_H8:
 
 scene bg school_dormhallway
 with locationchange
@@ -3915,7 +3915,7 @@ with Dissolvemove(0.5, time_warp=_ease_out_time_warp)
 
 #--------------
 
-label en_H9:
+label th_H9:
 
 scene bg school_dormhallway
 with None
@@ -4133,7 +4133,7 @@ stop music fadeout 4.0
 
 #----------
 
-label en_H10:
+label th_H10:
 
 scene bg school_hallway2
 with locationchange

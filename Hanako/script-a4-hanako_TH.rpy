@@ -1,4 +1,4 @@
-﻿label en_H21:
+﻿label th_H21:
 
 scene bg school_scienceroom
 with locationchange
@@ -684,7 +684,7 @@ with shuteye
 
 #-----------------
 
-label en_H22:
+label th_H22:
 
 scene bg school_scienceroom
 with locationchange
@@ -831,7 +831,7 @@ li "It is well and good to want to protect her, but I fear that treating Hanako 
 #right now the ending just hinges on this one choice. the previous ones don't even matter at all.
 #the best you get is to choose your bad end and small alternatives later
 
-label en_choiceH22:
+label th_choiceH22:
 menu:
     with menueffect
 
@@ -843,7 +843,7 @@ menu:
     "Trust my own judgment.":
         return m2
 
-label en_H22a:
+label th_H22a:
 
 "I don't want to admit it, but she may have a point. Something else bugs me, though."
 
@@ -932,7 +932,7 @@ with dissolve
 # To H25, Good End
 
 
-label en_H22b:
+label th_H22b:
 
 stop music fadeout 5.0
 
@@ -968,7 +968,7 @@ with None
 # To H23, Rage End
 
 
-label en_H22c:
+label th_H22c:
 
 stop music fadeout 5.0
 
@@ -1007,7 +1007,7 @@ with None
 
 #-----------------
 
-label en_H23:
+label th_H23:
 
 #Bad End 1 - Rage End
 
@@ -1327,7 +1327,7 @@ with locationchange
 
 #------------------------
 
-label en_H24:
+label th_H24:
 
 #Bad End 2 - Sad End
 
@@ -1508,7 +1508,7 @@ stop music fadeout 2.0
 
 #*********************
 
-label en_H25:
+label th_H25:
 
 #Good End assured from here on
 
@@ -1632,7 +1632,7 @@ with charachange
 mk "Ah, I mean, no offense. She isn't a bad person, I know that much."
 
 # told miki about love
-label en_H25a:
+label th_H25a:
 
 hi "I know, I didn't take it that way. It's just harder to deal with when, well, you know. You have feelings for someone."
 
@@ -1644,7 +1644,7 @@ mk "Yeah, I can imagine that. It's hard to forget something like what happened t
 "I wish she hadn't reminded me of that. She just confirmed that it was clearly noticed by others in the room as well."
 
 # end conditional
-label en_H25c:
+label th_H25c:
 
 show miki smile_close
 with charachange
@@ -1763,7 +1763,7 @@ with dissolve
 
 #*********************
 
-label en_H26:
+label th_H26:
 
 scene bg suburb_shanghaiint at bgright
 with locationchange
@@ -2149,7 +2149,7 @@ with dissolve
 
 #*********************
 
-label en_H27:
+label th_H27:
 
 scene bg school_library
 with locationchange
@@ -2398,7 +2398,7 @@ with dissolve
 
 #*********************
 
-label en_H28:
+label th_H28:
 
 scene bg city_street1
 with locationchange
@@ -2957,7 +2957,7 @@ with dissolve
 
 #*********************
 
-label en_H29:
+label th_H29:
 
 scene bg school_scienceroom
 with locationchange
@@ -3432,7 +3432,7 @@ with charaexit
 
 "I take the initiative, turning around and sitting on the side of the bed. I look to her face to invite her to take a seat either next to me or in front of me, but end up awkwardly looking down to stop myself from staring at her body."
 
-label en_H29h:
+label th_H29h:
 
 scene evh hanako_bed_boobs_glance
 with whiteout
@@ -3571,7 +3571,7 @@ with charachange
 
 window hide
 
-label en_H29x:
+label th_H29x:
 
 scene bg school_dormhanako_ni
 show white
@@ -3662,7 +3662,7 @@ with shuteye
 
 #*********************
 
-label en_H30:
+label th_H30:
 
 scene black
 with dissolve
@@ -3957,7 +3957,7 @@ stop music fadeout 2.0
 
 #*********************
 
-label en_H31:
+label th_H31:
 
 scene bg suburb_park
 with shorttimeskip

@@ -7,7 +7,7 @@
     init_language("th")
 
     displayDict["th"].styleoverrides = {"font": "LayijiMahaniyomV1_61.ttf",
-                                        "language": "thai",
+                                        # "language": "thai",
                                         "line_spacing": 0}
 
     displayDict["th"].timeformat = "%b %d, %H:%M"
@@ -22,7 +22,7 @@
     displayDict["th"].quote_inner_opth = u"‘"
     displayDict["th"].quote_inner_close = u"’"
 
-    displayDict["th"].activeLanguage = "Thai"
+    displayDict["th"].activeLanguage = "th"
     displayDict["th"].allLanguages = {}
     displayDict["th"].allLanguages["th"] = displayDict["th"].activeLanguage
     displayDict["th"].allLanguages["en"] = "English"

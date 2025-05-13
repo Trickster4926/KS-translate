@@ -1,4 +1,4 @@
-﻿label en_E16:
+﻿label th_E16:
 
 window hide None
 
@@ -308,7 +308,7 @@ scene black
 with dissolve
 
 
-label en_E17:
+label th_E17:
 
 scene black
 with None
@@ -1112,7 +1112,7 @@ emi "It's fine."
 #1. Press
 #2. Rest
 
-label en_choiceE17:
+label th_choiceE17:
 menu:
     with menueffect
 
@@ -1125,7 +1125,7 @@ menu:
         return m2
 
 
-label en_E17a:
+label th_E17a:
 #If you press:
 
 hi "Are you absolutely sure?"
@@ -1159,7 +1159,7 @@ with charachange
 emi "Honestly, Hisao, I appreciate the concern but I really am okay."
 
 
-label en_E17b:
+label th_E17b:
 #If you rest
 
 "Well, she's probably fine."
@@ -1169,7 +1169,7 @@ label en_E17b:
 "Heck, she'd probably get annoyed if I kept bringing it up."
 
 
-label en_E17x:
+label th_E17x:
 
 show emicas smile
 with charachange
@@ -1213,7 +1213,7 @@ with dissolve
 
 ########################
 
-label en_E18:
+label th_E18:
 
 scene bg school_dormhisao
 with locationchange
@@ -1645,7 +1645,7 @@ emi "I'm fine!"
 "Yes, you say that, but I don't believe you."
 
 
-label en_E18a:
+label th_E18a:
 #If you pressed
 
 "Why won't you tell me what's wrong?"
@@ -1655,7 +1655,7 @@ label en_E18a:
 "What am I supposed to make of that?"
 
 
-label en_E18b:
+label th_E18b:
 #If you didn't press
 
 "I keep worrying about you regardless, and not saying anything yesterday just makes me feel guilty about today."
@@ -1667,7 +1667,7 @@ label en_E18b:
 "Guess I'll never know now."
 
 
-label en_E18x:
+label th_E18x:
 
 stop music fadeout 2.0
 
@@ -1923,7 +1923,7 @@ nk "Meiko, your daughter's being a pain in the ass again…"
 
 
 ################################
-label en_E19:
+label th_E19:
 
 scene bg school_scienceroom
 with shorttimeskip
@@ -2668,7 +2668,7 @@ with locationskip_in
 
 #######################
 
-label en_E20:
+label th_E20:
 
 play music music_happiness fadein 2.0
 scene bg school_library
@@ -3599,7 +3599,7 @@ emi "Well then, let's see who blushes first, shall we?"
 
 "I'm not sure whether the tone of her voice terrifies or arouses me, but that question is quickly made rather moot."
 
-label en_E20h:
+label th_E20h:
 
 show evh emi_grinding_half_undress
 with charachange
@@ -3703,7 +3703,7 @@ with Dissolve(1.0)
 
 "She eventually, reluctantly, shifts off of me and sits against the wall. I join her."
 
-label en_E20x:
+label th_E20x:
 
 scene bg school_dormemi at right
 with locationchange
@@ -3879,7 +3879,7 @@ scene black
 with dissolve
 
 ########################################################
-label en_E21:
+label th_E21:
 
 window hide None
 
@@ -4461,7 +4461,7 @@ emi "Well uh, yeah. Basically."
 
 hi "Huh."
 
-label en_E21h:
+label th_E21h:
 
 scene evh emi_shed_base1
 show emi emi_shed_grin
@@ -4662,7 +4662,7 @@ with charachange
 
 "Emi's arms give out and she falls forward, rather violently disengaging us and pulling something dear to me in the process."
 
-label en_E21x:
+label th_E21x:
 
 play sound sfx_impact
 
@@ -4921,7 +4921,7 @@ with shuteye
 #***************************************
 
 
-label en_E22:
+label th_E22:
 
 scene black
 with dissolve
@@ -5492,7 +5492,7 @@ with dissolve
 
 #####################################
 
-label en_E23:
+label th_E23:
 
 window hide None
 
@@ -5961,7 +5961,7 @@ with dissolve
 
 #####################################
 
-label en_E24:
+label th_E24:
 
 scene bg school_hallway3
 with locationskip
@@ -5990,7 +5990,7 @@ with charaenter
 
 mu "Hey, Hisao."
 
-label en_choiceE24:
+label th_choiceE24:
 menu:
     with menueffect
 
@@ -6002,7 +6002,7 @@ menu:
     "No, I have other things to worry about.":
         return m2
 
-label en_E24a:
+label th_E24a:
 
 #choice time, kiddies!  Either a) Yeah, sure or b) Not really…
 
@@ -6168,7 +6168,7 @@ with locationchange
 
 #if b
 
-label en_E24b:
+label th_E24b:
 
 hi "Actually, I've got something I need to do…"
 
@@ -6191,7 +6191,7 @@ hi "Thanks, I will."
 
 #end split
 
-label en_E24c:
+label th_E24c:
 
 scene bg school_dormhisao
 with locationskip
@@ -6830,7 +6830,7 @@ window show
 
 #####################
 
-label en_E25:
+label th_E25:
 
 scene bg school_dormhisao
 with shorttimeskip
@@ -7191,7 +7191,7 @@ nk "Plus, I've known Emi for long enough to know that she'd try to do something 
 show nurse fabulous
 with charachange
 
-label en_choiceE25:
+label th_choiceE25:
 menu:
     with menueffect
 
@@ -7204,7 +7204,7 @@ menu:
        return m2
 
 
-label en_E25a:
+label th_E25a:
 
 #If you talked to Mutou, then you get to choose between a) Sure, why not? or b) No, this is my problem. If you didn't talk to Mutou, default to choice b.
 
@@ -7304,7 +7304,7 @@ nk "So don't screw it up, got it?"
 
 #if b
 
-label en_E25b:
+label th_E25b:
 
 "Advice? About what? I don't think there's anything I can actually do about this."
 
@@ -7330,7 +7330,7 @@ nk "Have it your way, kiddo."
 
 #end split
 
-label en_E25c:
+label th_E25c:
 
 $ renpy.music.set_volume(0.3, 0.0, channel="sound")
 play sound sfx_hammer
@@ -7460,7 +7460,7 @@ $ suppress_window_after_timeskip = True
 
 #############################
 
-label en_E26:
+label th_E26:
 
 window hide None
 
@@ -7505,7 +7505,7 @@ nvl clear
 
 #if you picked A in e25
 
-label en_E26a:
+label th_E26a:
 
 n "\n\n\nThe nurse said she trusts me, even if it doesn't look like it."
 
@@ -7520,7 +7520,7 @@ n "\nStill, there was something about the way he seemed genuinely surprised that
 n "Maybe last night's talk helped more than I think, but I'm still worried."
 
 
-label en_E26b:
+label th_E26b:
 
 stop ambient fadeout 12.0
 
@@ -7733,14 +7733,14 @@ emm "Is that so? I'm very glad to hear that, Emi. You know I get worried when yo
 "It's interesting, being able to observe how Mrs. Ibarazaki covers for Emi. That protective instinct to make sure that I don't know any more than Emi's willing to tell me."
 
 #once again, see this only if you talked to Mutou
-label en_E26e:
+label th_E26e:
 
 "I suppose Emi's got more in common with quarks than I ever realized."
 
 "Moves around fast, impossible to understand through direct observation, yet she has an effect on everyone she encounters."
 
 
-label en_E26f:
+label th_E26f:
 
 "I wonder if Mrs. Ibarazaki will figure out that I know about the nightmares, or is she just keeping everything secret from everybody?"
 
@@ -8127,7 +8127,7 @@ with dissolvecharamove
 
 #choice time, kiddies. Well, assuming you talked to Mutou. If you didn't you'll default to 1) Go after her! and not 2) Talk to Emi's mom
 
-label en_choiceE26:
+label th_choiceE26:
 menu:
     with menueffect
 
@@ -8139,7 +8139,7 @@ menu:
     "Talk to her mom.":
         return m2
 
-label en_E26c:
+label th_E26c:
 
 #if you go after her
 
@@ -8326,7 +8326,7 @@ with dissolve
 
 #Ah, but what if you chose to Talk to Emi's Mom?  Well, you'd see this:
 
-label en_E26d:
+label th_E26d:
 
 "There's an awkward silence at the table for a while after Emi dashes off. I can't think of anything to say."
 
@@ -8764,7 +8764,7 @@ nvl hide dissolve
 
 #########################
 
-label en_E27:
+label th_E27:
 
 window hide None
 
@@ -8992,7 +8992,7 @@ mi "But you're eating alone, and nobody's seen you and Emi together at all! Some
 
 #Okay, so you've managed to wind up on the road to BADSVILLE, but you've actually only made one big mistake in all this. SO!  You get the following choice.  Will you figure out that Hisao could use advice, or not?
 
-label en_choiceE27:
+label th_choiceE27:
 menu:
     with menueffect
 
@@ -9010,7 +9010,7 @@ menu:
 
 #If you picked 1:
 
-label en_E27a:
+label th_E27a:
 "I'm not sure I like the idea of airing private matters to the Student Council."
 
 hi "Nothing major."
@@ -9366,7 +9366,7 @@ with shuteye
 
 
 
-label en_E27b:
+label th_E27b:
 #If you picked 2:
 
 "Well, I suppose someone else knowing about my problem can't hurt. Heck, maybe Misha can even offer some advice."
