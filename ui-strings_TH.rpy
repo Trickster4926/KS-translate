@@ -1,4 +1,4 @@
-﻿init -3 python:
+﻿init -2 python:
     # this is the master language so it lives at init level -3, not -2 like the others
     #everything in here inherits, if a language doesn't set it the th version is used
 
