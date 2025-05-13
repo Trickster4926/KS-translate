@@ -290,7 +290,7 @@
                                     ("ขาดไม่เคยมา", "H9", "ฮิซาโอะและลิลลี่คุยกันเรื่องเวลาเรียนของฮานาโกะ", ("องก์ 2","ฮานาโกะ")),
                                     ("การแลกเปลี่ยนที่เท่าเทียม", "H10", "หลังจากที่ฮิซาโอะเล่าเรื่องหัวใจของตัวเองให้ฟัง ฮานาโกะก็เริ่มเล่าเรื่องอดีตของตัวเอง", ("องก์ 2","ฮานาโกะ")),
                                     ("องก์ 3: เข้าป้อม", rp_actmark, rp_actmark, ("องก์ 3","ฮานาโกะ")),
-                                    ("Invitation", "H11", "Lilly finds Hisao cleaning up the Tea Room and tells him about ฮานาโกะ's birthday.", ("องก์ 3","ฮานาโกะ")),
+                                    ("คำเชิญ", "H11", "Lilly finds Hisao cleaning up the Tea Room and tells him about ฮานาโกะ's birthday.", ("องก์ 3","ฮานาโกะ")),
                                     ("Shady Encounter", "H12", "An unexpected chat with Miki while reminiscing about the past.", ("องก์ 3","ฮานาโกะ")),
                                     ("Antiques and Pie", "H13", "Lilly and Hisao shop for a present in the city.", ("องก์ 3","ฮานาโกะ")),
                                     ("ร่วงหล่น", "H14", "ฮานาโกะ has a panic attack during class.", ("องก์ 3","ฮานาโกะ")),
