@@ -22,7 +22,7 @@
     displayDict["th"].quote_inner_opth = u"‘"
     displayDict["th"].quote_inner_close = u"’"
 
-    displayDict["th"].activeLanguage = "th"
+    displayDict["th"].activeLanguage = "ไทย (Thai)"
     displayDict["th"].allLanguages = {}
     displayDict["th"].allLanguages["th"] = displayDict["th"].activeLanguage
     displayDict["th"].allLanguages["en"] = "English"

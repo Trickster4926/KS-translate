@@ -1,4 +1,4 @@
-﻿label en_A38:
+﻿label th_A38:
 #Dawn of the Final Day
 
 window hide None
@@ -163,7 +163,7 @@ ke "What are you going to do? We should hang out in here, you can help me build 
 
 
 
-label en_A38a:
+label th_A38a:
 #If on Shizune's route
 
 hi "I'm going to have to hang out with the Student Council, since I lost a bet."
@@ -218,7 +218,7 @@ ke "Damn. Shit! Damn!"
 
 
 
-label en_A38b:
+label th_A38b:
 #If on Lilly or Hanako's route
 
 hi "I don't know. I'm pretty hungry so I thought I'd get some food first and then check out the attractions."
@@ -260,7 +260,7 @@ ke "They are everywhere."
 
 
 
-label en_A38c:
+label th_A38c:
 #If on Rin's route
 
 hi "Well, I joined the art club so I guess I'll go with them."
@@ -301,7 +301,7 @@ ke "Tread carefully man, tread carefully."
 
 
 
-label en_A38d:
+label th_A38d:
 #If on Emi's route
 
 hi "I wonder… I'm kinda hungry, but I made this deal that I try to take better care of myself. Be healthier, you know."
@@ -345,7 +345,7 @@ ke "This festival too; it's just one of their ploys."
 
 
 
-label en_A38e:
+label th_A38e:
 
 "He fingers his scarf nervously, faster and faster like he is trying to start a fire, then slowly begins to calm down once the panic attack finishes running its course."
 
@@ -378,7 +378,7 @@ with charaexit
 
 
 
-label en_A44:
+label th_A44:
 
 show bg school_dormhallway at bgright
 with None
@@ -1650,7 +1650,7 @@ window hide
 #******************
 
 #Emi Path
-label en_A39:
+label th_A39:
 
 show bg school_dormhallway at bgright
 with None
@@ -2449,7 +2449,7 @@ window hide
 #######################
 #Rin Path
 
-label en_A40:
+label th_A40:
 
 play ambient sfx_crowd_outdoors fadein 0.3
 play music music_soothing fadein 0.5
@@ -3361,7 +3361,7 @@ window hide
 #******************
 #Lilly/Hanako path start
 
-label en_A41b:
+label th_A41b:
 #lol label hackery. Yeah...
 
 scene bg school_gardens
@@ -3587,7 +3587,7 @@ with locationchange
 
 
 
-label en_A41a:
+label th_A41a:
 #Lilly Path Festival scene.
 
 stop music fadeout 4.0
@@ -3992,7 +3992,7 @@ window hide
 
 ###################
 #Hanako Path
-label en_A42:
+label th_A42:
 
 #This is the "real" version of H1, edited to fit with the split marked in L1
 
@@ -4423,7 +4423,7 @@ stop music fadeout 2.0
 
 #******************
 
-label en_A43:
+label th_A43:
 #Kenji rou-- er, Deep-Six
 
 scene bg school_dormhallway at bgright

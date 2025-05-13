@@ -1,4 +1,4 @@
-﻿label en_A5:
+﻿label th_A5:
 
 window hide None
 
@@ -758,7 +758,7 @@ with None
 
 #***************
 
-label en_A6:
+label th_A6:
 
 scene bg school_lobby at left
 show shizu behind_smile at tworight
@@ -997,7 +997,7 @@ shi "…"
 show misha cross_smile
 with charachange
 
-label en_choiceA6:
+label th_choiceA6:
 menu:
     with menueffect
     
@@ -1009,7 +1009,7 @@ menu:
     "It's a trap, it's smarter to play defensively here.":
         return m2
 
-label en_A6a:
+label th_A6a:
 
 "She is either really mocking me, or trying to trick me."
 
@@ -1137,7 +1137,7 @@ with charadistant
 
 #***********************
 
-label en_A6b:
+label th_A6b:
 
 "It's likely that she's just trying to psych me out."
 
@@ -1272,7 +1272,7 @@ mi "Awww, that's cold, Hicchan…"
 
 
 
-label en_A6c:
+label th_A6c:
 
 "I take a glance at the clock on the wall and realize I've spent far longer playing Risk than I expected."
 
@@ -1310,7 +1310,7 @@ stop music fadeout 2.0
 
 # *******************
 
-label en_A7:
+label th_A7:
 
 scene bg school_staircase2
 with locationchange
@@ -1884,7 +1884,7 @@ stop music fadeout 3.0
 
 #**************************
 
-label en_A8:
+label th_A8:
 
 scene bg school_library_ss
 with shorttimeskip
@@ -1937,7 +1937,7 @@ with vpunch
 
 "For a second, I am shocked, and divert my eyes to the book in her hands, before I realize that looking away probably only makes it worse."
 
-label en_choiceA8:
+label th_choiceA8:
 menu:
     with menueffect
     "It takes too many seconds to collect myself and remember what I walked up to her for."
@@ -1948,7 +1948,7 @@ menu:
     "I'm sorry, I didn't mean to startle you.":
         return m2
 
-label en_A8a:
+label th_A8a:
 
 hi "Hi! I'm new here. Hisao Nakai. We're in the same class."
 
@@ -1960,7 +1960,7 @@ hi "Umm… I just transferred here the other day. Maybe you don't remember?"
 
 
 
-label en_A8aa:
+label th_A8aa:
 
 hi "I did a self-introduction too."
 
@@ -1968,7 +1968,7 @@ hi "I did a self-introduction too."
 
 
 
-label en_A8ab:
+label th_A8ab:
 
 scene ev hana_library
 with locationchange
@@ -2039,7 +2039,7 @@ with charachange
 hi "I mean… ehh… I didn't mean it like that…"
 
 
-label en_A8b:
+label th_A8b:
 
 hi "Sorry, I didn't mean to startle you."
 
@@ -2133,7 +2133,7 @@ with vpunch
 "She stands up forcefully from the beanbag and takes a deep breath."
 
 
-label en_A8c:
+label th_A8c:
 
 ha "I…"
 
@@ -2223,7 +2223,7 @@ yu "What did you do?"
 
 
 
-label en_A8d:
+label th_A8d:
 
 hi "Nothing! I just… talked to her. Tried to get to know her. Didn't even manage to get started."
 
@@ -2253,7 +2253,7 @@ yu "I wonder… It's just how she is, I think."
 
 
 
-label en_A8e:
+label th_A8e:
 
 hi "Nothing! I was just looking for some books and then she got this fit and ran off."
 
@@ -2276,7 +2276,7 @@ yu "I wonder… It's just how she is, I think."
 
 
 
-label en_A8f:
+label th_A8f:
 
 hi "But how should I deal with these people? Forcing myself to act overly casually only makes me feel phony."
 
@@ -2332,7 +2332,7 @@ stop music fadeout 2.0
 
 #********************************************************************
 
-label en_A9:
+label th_A9:
 
 scene bg school_dormhallway
 with locationskip
@@ -2471,7 +2471,7 @@ ke "A girl? A cute one?"
 
 "Cute? That's a hard question. She had a nice body and really beautiful hair… but the face…"
 
-label en_choiceA9:
+label th_choiceA9:
 menu:
     with menueffect
 
@@ -2484,7 +2484,7 @@ menu:
     "She wasn't cute.":
         return m2
 
-label en_A9a:
+label th_A9a:
 
 hi "Yeah, cute I guess."
 
@@ -2492,7 +2492,7 @@ ke "I knew it!"
 
 
 
-label en_A9b:
+label th_A9b:
 
 hi "Not exactly cute, no."
 
@@ -2500,7 +2500,7 @@ ke "Hmm…"
 
 
 
-label en_A9c:
+label th_A9c:
 
 ke "There are a lot of cute girls here. A strangely disproportionate amount… I believe this is one of the dark secrets of this school."
 

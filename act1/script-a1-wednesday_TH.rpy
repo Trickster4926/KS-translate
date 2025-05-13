@@ -1,4 +1,4 @@
-﻿label en_A10:
+﻿label th_A10:
 
 play music music_happiness fadein 2.0
     
@@ -204,7 +204,7 @@ with charachange
 "I guess she's waiting for someone."
 
 
-label en_choiceA10a:
+label th_choiceA10a:
 menu:
     with menueffect
 
@@ -220,7 +220,7 @@ menu:
         return m3
         
         
-label en_choiceA10b:
+label th_choiceA10b:
 menu:
     with menueffect
 
@@ -232,7 +232,7 @@ menu:
     "Read my book.":
         return m2
         
-label en_choiceA10c:
+label th_choiceA10c:
 menu:
     with menueffect
 
@@ -244,7 +244,7 @@ menu:
     "Go talk with Hanako.":
         return m2
         
-label en_A10a:
+label th_A10a:
 
 stop music fadeout 6.0
 
@@ -273,7 +273,7 @@ with charaexit
 
 stop music fadeout 2.0
 
-label en_A10b:
+label th_A10b:
 
 "I still feel bad for making her run away yesterday, so I'd better say something."
 
@@ -531,7 +531,7 @@ stop music fadeout 1.0
 
 #**************
 
-label en_A10c:
+label th_A10c:
 
 hide hanako
 with charaexit
@@ -593,7 +593,7 @@ hi "Sure, I'll come with you."
 
 #*****************************
 
-label en_A11:  
+label th_A11:  
 
 scene bg school_hallway3
 with locationchange
@@ -602,7 +602,7 @@ play ambient sfx_emisprinting fadein 3.0
 
 "Just around the corner of the hallway something hits me in the chest with the force of a runaway train."
 
-label en_A11a:
+label th_A11a:
 
 stop ambient
 play sound sfx_impact
@@ -738,7 +738,7 @@ emi_ "That's good! I was—"
 
 #*****************************
 
-label en_A11b:
+label th_A11b:
 
 "I feel a hand on my shoulder at the same time the girl's eyes widen in horror and whatever she was saying gets interrupted by a very horrified—{w=.9}{nw}"
 
@@ -873,7 +873,7 @@ mi "That's great, Hicchan!"
 
 #*****************************
 
-label en_A11x:
+label th_A11x:
 
 #shizu flag
 
@@ -991,7 +991,7 @@ stop music fadeout 2.0
 
 #*****************************
 
-label en_A11y:
+label th_A11y:
 
 #this is the "no shizu flag" branch
 
@@ -1048,7 +1048,7 @@ with shorttimeskip
 
 #*****************************
 
-label en_A11c:
+label th_A11c:
 
 scene bg school_hallway3
 with locationchange
@@ -1068,7 +1068,7 @@ with charachange
 
 "As we turn around the corner of the hallway, something hits me in the chest with the force of a steam train. Hanako shrieks a little and my vision briefly goes black."
 
-label en_A11d:
+label th_A11d:
 
 show lilly cane_listen at offscreenleft behind emi
 show hanako defarms_worry at offscreenright behind em
@@ -1179,7 +1179,7 @@ with charaexit
 
 #*******************************************
 
-label en_A12:
+label th_A12:
 
 scene bg suburb_roadcenter
 with locationskip
@@ -2017,7 +2017,7 @@ stop music fadeout 4.0
 
 #**************************************************************
 
-label en_A13:
+label th_A13:
 
 play music music_dreamy fadein 2.0
 
@@ -2227,13 +2227,13 @@ with charaexit
 
 #*******************************************
 
-#label en_A14:
+#label th_A14:
 #combined with A12
 
 
 #*************************************
 
-label en_A15:
+label th_A15:
 
 scene bg school_scienceroom
 with None
@@ -2509,7 +2509,7 @@ stop music fadeout 4.0
 
 #********************************************
 
-label en_A16:
+label th_A16:
 
 scene bg school_hallway3
 with locationchange
@@ -2881,7 +2881,7 @@ stop music
 
 #***********************************
 
-label en_A17:
+label th_A17:
 
 scene bg school_hallway3
 with None
@@ -3291,7 +3291,7 @@ nk "The reason I'm coming down this hard on you is that habits are not easy to f
 
 nk "The more you slip and postpone, the harder it'll be. It's the same with everything, like dieting."
 
-label en_choiceA17:
+label th_choiceA17:
 menu:
     with menueffect
 
@@ -3303,13 +3303,13 @@ menu:
     "Maybe.":
         return m2
 
-label en_A17a:
+label th_A17a:
 
 hi "Yeah, I promise. Definitely."
 
 
 
-label en_A17b:
+label th_A17b:
 
 hi "Maybe, no… I mean…"
 
@@ -3329,7 +3329,7 @@ hi "Yeah, okay. Sorry."
 
 
 
-label en_A17c:
+label th_A17c:
 
 "He studies me for a moment and then shrugs, smiling again."
 
@@ -3401,7 +3401,7 @@ hi "They just make me a little less worse."
 
 #*****************************************
 
-label en_A18:
+label th_A18:
 
 play music music_soothing fadein 4.0
 

@@ -1,4 +1,4 @@
-﻿label en_A31:
+﻿label th_A31:
 
 scene black
 with None
@@ -61,7 +61,7 @@ with charaexit
 play sound sfx_doorclose
 
 
-label en_A31b:
+label th_A31b:
 
 scene bg school_hallway3
 show muto normal at center
@@ -107,7 +107,7 @@ with charachange
 
 
 
-label en_A31c:
+label th_A31c:
 
 scene bg school_hallway3
 show muto normal at center
@@ -168,7 +168,7 @@ mu "Well, that's a start, I guess."
 
 
 
-label en_A31d:
+label th_A31d:
 
 show muto normal
 with charachange
@@ -336,7 +336,7 @@ with charachange
 "Come to think of it, that isn't the one I saw her reading at the library. She must be quite a fast reader to get through them at this rate."
 
 
-label en_A31e:
+label th_A31e:
 
 hide hanako
 with charaexit
@@ -360,7 +360,7 @@ with Dissolve(3.0)
 
 #******************'
 
-label en_A32:
+label th_A32:
 
 scene bg school_scienceroom at bgleft
 show hanako emb_downtimid at right
@@ -775,7 +775,7 @@ with charachange
 
 rin "At the art club, you see. Blind boy. So he doesn't. See."
 
-label en_A32a:
+label th_A32a:
 
 hi "You already told me."
 
@@ -786,7 +786,7 @@ with charachange
 
 "Neither of us says anything to Rin, though, so she continues her monotone soliloquy like an unfunny stand-up comedian."
 
-label en_A32b:
+label th_A32b:
 
 show rin basic_awayabsent
 with charachange
@@ -853,7 +853,7 @@ hi "There is no Prussian blue here."
 
 #********************
 
-label en_A33:
+label th_A33:
 
 scene bg school_dormext_half at bgright
 show rin basic_deadpan at tworight
@@ -1076,7 +1076,7 @@ no "How did you come to end up assisting my protégée?"
 
 
 
-label en_choiceA33:
+label th_choiceA33:
 menu:
     with menueffect
 
@@ -1089,7 +1089,7 @@ menu:
         return m2
 
 
-label en_A33a:
+label th_A33a:
 
 hi "I guess I'm a little interested in the art club."
 
@@ -1424,7 +1424,7 @@ scene black
 with Dissolve(3.0)
 
 
-label en_A33b:
+label th_A33b:
 
 hi "I keep wondering that myself. The lack of anything better to do, probably."
 
@@ -1475,7 +1475,7 @@ with Dissolve(3.0)
 
 #******************
  
-label en_A34:
+label th_A34:
 
 scene bg school_dormext_half at bgright
 show rin basic_deadpan at tworight
@@ -1655,7 +1655,7 @@ emi "He told me to keep an eye on you to make sure you exercised like he told yo
 
 
 
-label en_A34a:
+label th_A34a:
 
 "A vast conspiracy?"
 
@@ -1835,7 +1835,7 @@ scene black
 with Dissolve(3.0)
 
 
-label en_A34b:
+label th_A34b:
 
 #this was written to allow an extra entry to bad end with a choice from this scene, but unused for now, possibly will never be used
 
@@ -1865,7 +1865,7 @@ hi "I just… I don't know, it feels like a bad idea."
 
 #********************
 
-label en_A35:
+label th_A35:
 
 scene bg school_scienceroom at bgleft
 show hanako emb_downtimid at right
@@ -1901,7 +1901,7 @@ with Dissolve(1.5)
 
 
 
-label en_choiceA35:
+label th_choiceA35:
 menu:
     with menueffect
 
@@ -1913,7 +1913,7 @@ menu:
     "Go to the library.":
         return m2
 
-label en_A35a:
+label th_A35a:
 
 "Following Hanako to the library seems a bit intrusive. There was a reason she left the classroom, after all."
 
@@ -2391,7 +2391,7 @@ with Dissolve(3.0)
 
 #***********
 
-label en_A36:
+label th_A36:
 
 window hide None
 
@@ -4272,7 +4272,7 @@ with shuteye
 
 #*********************
 
-label en_A37:
+label th_A37:
 
 #Taken from the Hanako split.
 #based on the new ending for A31

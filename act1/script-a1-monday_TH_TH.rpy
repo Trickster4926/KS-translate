@@ -1,7 +1,7 @@
 ﻿#### MONDAY
 
 #**************************************
-label en_NOP1:
+label th_NOP1:
 window hide None
 
 scene black
@@ -255,7 +255,7 @@ scene black
 with None
 
 #**************************************
-label en_NOP2:
+label th_NOP2:
 
 window hide None
 
@@ -512,7 +512,7 @@ window hide
 
 
 #**************************************
-label en_A1:
+label th_A1:
 
 window hide None
 
@@ -617,7 +617,7 @@ mu "Yes, afternoon is probably fine. We should get going and introduce you to th
 
 "Thinking of this, I almost miss what the teacher is saying."
 
-label en_choiceA1:
+label th_choiceA1:
 menu:
     with menueffect
 
@@ -630,7 +630,7 @@ menu:
     "Yeah, of course.":
         return m2
 
-label en_A1a:
+label th_A1a:
 
 hi "Why? Do I have to?"
 
@@ -642,7 +642,7 @@ mu "Let's go then."
 
 
 
-label en_A1b:
+label th_A1b:
 
 hi "Yeah, sure. I mean, isn't that normal?"
 
@@ -656,7 +656,7 @@ mu "Let's go then."
 
 
 
-label en_A1c:
+label th_A1c:
 
 scene bg school_staircase2
 with locationchange
@@ -689,7 +689,7 @@ stop music fadeout 2.0
 
 #**************************************
    
-label en_A2:
+label th_A2:
 
 scene bg school_hallway3
 with None
@@ -731,7 +731,7 @@ mu "…please welcome our newest classmate."
 "He claps his hands and so does everyone else, except one girl in the first row who has only one hand. I cringe a little, but hide it by bowing in thanks for this applause I did not deserve."
 
 
-label en_A2a:
+label th_A2a:
 
 "After the applause, there is a brief silence that nobody seems to want to be responsible for breaking."
 
@@ -746,7 +746,7 @@ label en_A2a:
 "I do that, and turn back to face the class, feeling awkward."
 
 
-label en_A2b:
+label th_A2b:
 
 "A collective silence tells me that I should open my mouth now."
 
@@ -767,7 +767,7 @@ hi "My hobbies are reading and soccer. I hope to get along well with everyone ev
 "…"
 
 
-label en_A2c:
+label th_A2c:
 
 scene ev hisao_class_end
 with None
@@ -894,13 +894,13 @@ mi "You're the new student, aren't you? Well, Shicchan, of course he is! If he w
 
 
 
-label en_A2d:
+label th_A2d:
 
 mi "He seems like a very interesting person, doesn't he~!"
 
 
 
-label en_A2e:
+label th_A2e:
 
 "Misha looks at me with a weird expression, then continues."
 
@@ -910,7 +910,7 @@ mi "We don't know much about him, but maybe we'll find out later."
 
 
 
-label en_A2f:
+label th_A2f:
 
 mi "We knew there was going to be a new student, but we didn't know you would be here today. So soon! Hicchan, right?"
 
@@ -1154,7 +1154,7 @@ with locationchange
 
     
 #**************************************
-label en_A3:
+label th_A3:
 
 scene bg school_staircase2
 with locationchange
@@ -1217,7 +1217,7 @@ with charachange
 
 mi "About anything! We're your guides so you should ask if there is something~!"
 
-label en_choiceA3:
+label th_choiceA3:
 menu:
     with menueffect
     
@@ -1232,7 +1232,7 @@ menu:
     "I think I got everything I need to know.":
         return m3        
     
-label en_A3a:
+label th_A3a:
 
 hi "Oh, yeah. Is there a library in the school? Lately I've gotten into reading a lot so I'd like to check it out."
 
@@ -1246,7 +1246,7 @@ hi "Thanks."
 
 
 
-label en_A3b:
+label th_A3b:
 
 "Shizune intrigues me, and I kind of want to ask something about her."
 
@@ -1258,7 +1258,7 @@ label en_A3b:
 
 
 
-label en_A3c:
+label th_A3c:
 
 hi "I can't think of anything, really."
 
@@ -1283,7 +1283,7 @@ with charachange
 
 
 
-label en_A3d:
+label th_A3d:
 
 "Misha and Shizune sign back and forth very animatedly, throwing sideway glances at me but Misha refrains from translating."
 
@@ -1604,7 +1604,7 @@ stop music fadeout 2.0
 
 #***************************************
 
-label en_A4:
+label th_A4:
 
 scene bg school_courtyard
 with locationchange

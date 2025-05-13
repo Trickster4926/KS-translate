@@ -1,4 +1,4 @@
-﻿label en_A19:
+﻿label th_A19:
 
 window hide None
 scene black
@@ -32,7 +32,7 @@ window show
 
 "I can't use them for that any more, so maybe they can get a new life this way. A bit like me."
 
-label en_A19a:
+label th_A19a:
 
 #if C61
 
@@ -45,7 +45,7 @@ label en_A19a:
 stop music fadeout 2.0
 
 
-label en_A19b:
+label th_A19b:
 #if C62
 
 "Seems a bit stupid to me, really."
@@ -59,7 +59,7 @@ label en_A19b:
 stop music fadeout 2.0
 
 
-label en_A19c:    
+label th_A19c:    
 #End of split
 
 show bg school_track
@@ -111,7 +111,7 @@ with charachange
 
 emi_ "Emi? I knocked you over in the hall yesterday."
 
-label en_A19i:
+label th_A19i:
 
 show emi excited_circle_gym
 with charachange
@@ -122,7 +122,7 @@ emi "“Miss Ibarazaki?”"
 
 
 
-label en_A19j:
+label th_A19j:
 
 hi "How could I forget such a er, blunt introduction?"
 
@@ -283,7 +283,7 @@ with locationchange
 #if C61
 
 
-label en_A19d:
+label th_A19d:
 
 "Hands spread, right?"
 
@@ -297,7 +297,7 @@ label en_A19d:
 
 
 
-label en_A19e:
+label th_A19e:
 
 #if C62
 
@@ -311,7 +311,7 @@ label en_A19e:
 
 
 
-label en_A19f:
+label th_A19f:
 
 "I'm really not feeling up to more than a couple of laps today, and slow to a walk pretty quickly."
 
@@ -388,7 +388,7 @@ with easeoutleft
 stop ambient fadeout 2.0
 
 
-label en_A19g:
+label th_A19g:
 
 #if C61
 "I'm not sure whether this morning's experiment was a success or a failure, but I'll admit that I do feel slightly good about getting out there this morning."
@@ -404,7 +404,7 @@ label en_A19g:
 scene black
 with locationskip_in
 
-label en_A19h:
+label th_A19h:
 #if C62
 
 "Apart from feeling more tired than before, I don't think I accomplished anything today."
@@ -419,7 +419,7 @@ with locationskip_in
 
 #**********************************
 
-label en_A20:
+label th_A20:
 
 scene bg school_dormext_half
 with locationskip_out
@@ -724,7 +724,7 @@ with locationskip
 
 #*****************************************
 
-label en_A21:    
+label th_A21:    
 
 scene bg school_scienceroom
 with locationskip
@@ -1165,7 +1165,7 @@ with charachange
 
 mi "Aren't you taking part in the festival, Hicchan? You are, aren't you? Then~! I hope you're going to do a lot more to make sure it goes smoothly than this person~!"
 
-label en_choiceA21:
+label th_choiceA21:
 menu:
     with menueffect
     
@@ -1177,7 +1177,7 @@ menu:
     "Hey, come on. Cut me and Lilly some slack…":
         return m2
         
-label en_A21a:
+label th_A21a:
 
 hi "Why am I being dragged into this, again? I've done more than enough, I think."
 
@@ -1324,7 +1324,7 @@ with charaexit
 
 
 
-label en_A21b:
+label th_A21b:
 
 hi "Hey, I'm the new guy, remember?"
 
@@ -1358,7 +1358,7 @@ hi "Yeah, but as I said back then, I'm not sure if…"
 hi "Whatever. Forget it."
 
 
-label en_A21c:
+label th_A21c:
 
 "I turn my back at them."
 
@@ -1392,7 +1392,7 @@ with charaexit
 
 
 
-label en_A21d:
+label th_A21d:
 
 hide shizu
 hide misha
@@ -1413,7 +1413,7 @@ with charaexit
 
 #*****************************
 
-label en_A22:
+label th_A22:
 
 scene bg school_scienceroom at bgleft
 with shorttimeskip
@@ -1691,7 +1691,7 @@ mi "If she has any sense in her head, she's in her classroom, working on their f
 
 
 
-label en_A22a:
+label th_A22a:
 
 show misha hips_grin at Transform(xanchor=0.5, xpos=0.15)
 with charachange
@@ -1702,7 +1702,7 @@ mi "She might be slacking off somewhere, just like Hicchan~! Wahaha~!"
 
 
 
-label en_A22b:
+label th_A22b:
 
 scene bg school_scienceroom at bgleft
 show shizu behind_frown at Transform(xanchor=0.5, xpos=0.35)
@@ -2696,7 +2696,7 @@ with locationchange
 
 #*****************************
 
-label en_A23:
+label th_A23:
 
 scene bg school_scienceroom at bgleft
 with shorttimeskip
@@ -2904,7 +2904,7 @@ mi "If she has any sense in her head, she's in her classroom, working on their f
 
 
 
-label en_A23a:
+label th_A23a:
 
 scene bg school_scienceroom at bgleft
 show hanako emb_timid at Transform (xanchor=0.5, xpos=0.97)
@@ -3401,7 +3401,7 @@ stop music fadeout 3.0
 
 #*******************************
 
-label en_A24:
+label th_A24:
 
 stop music fadeout 6.0
 
@@ -4040,7 +4040,7 @@ li "Ah… about that…"
 li "I'm sorry about it being so public. Shizune and I… go back some ways."
 
 
-label en_A24c:
+label th_A24c:
 #lol label order
 
 # If he pissed off Lilly
@@ -4062,7 +4062,7 @@ li "I would appreciate it if you didn't help her. The last thing she needs is ur
 
 
 
-label en_A24d:
+label th_A24d:
 
 # If he didn't
 
@@ -4077,7 +4077,7 @@ with charaenter
 
 
 
-label en_A24e:
+label th_A24e:
 
 # End conditionals
 
@@ -4137,7 +4137,7 @@ with charaexit
 "I guess if things continue like this, my time at Yamaku might turn out okay."
 
 
-label en_A24a:
+label th_A24a:
 
 scene bg school_dormhisao_ni
 with locationskip
@@ -4154,7 +4154,7 @@ scene black
 with shuteye
 
 
-label en_A24b:
+label th_A24b:
 
 scene bg school_dormhisao_ni
 with locationskip

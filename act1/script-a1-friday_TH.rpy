@@ -1,4 +1,4 @@
-﻿label en_A25:
+﻿label th_A25:
 
 window hide None
 scene black
@@ -123,7 +123,7 @@ play ambient sfx_emirunning
 
 
 
-label en_choiceA25:
+label th_choiceA25:
 menu:
     with menueffect
 
@@ -135,7 +135,7 @@ menu:
     "Take it easy.":
         return m2
 
-label en_A25a:
+label th_A25a:
 
 # if C72
 
@@ -191,7 +191,7 @@ with locationchange
 
 #if C71
 
-label en_A25b:
+label th_A25b:
 
 "What am I doing here?"
 
@@ -761,7 +761,7 @@ with locationchange
 
 #******************************
 
-label en_A26:
+label th_A26:
 
 window hide None
 scene black
@@ -779,7 +779,7 @@ window show
 
 "I wake up and take a hot shower."
 
-label en_A26a:
+label th_A26a:
 
 scene bg school_dormhisao
 with locationskip
@@ -917,7 +917,7 @@ hi "Thanks but no thanks."
 
 
 
-label en_A26b:
+label th_A26b:
 
 scene bg school_dormhallway
 show kenji happy_close at center
@@ -1053,7 +1053,7 @@ mi "What are those?"
 
 
 
-label en_choiceA26:
+label th_choiceA26:
 menu:
     with menueffect
 
@@ -1066,7 +1066,7 @@ menu:
         return m2
 
 
-label en_A26c:
+label th_A26c:
 
 hi "It's nothing."
 
@@ -1259,7 +1259,7 @@ with shorttimeskip
 
 
 
-label en_A26d:
+label th_A26d:
 
 play music music_rain fadein 4.0
 
@@ -1361,7 +1361,7 @@ with charaexit
 
 
 
-label en_A26e:
+label th_A26e:
 
 show kenji tsun_close
 with charachange
@@ -1377,7 +1377,7 @@ with charaexit
 
 #*************************
 
-label en_A27:
+label th_A27:
 
 scene bg school_hallway3
 with shorttimeskip
@@ -1410,7 +1410,7 @@ with charachange
 "I shrug and he gestures at me to run along so I naturally do."
 
 
-label en_A27a:
+label th_A27a:
 
 scene bg school_scienceroom
 show muto normal at center
@@ -1481,7 +1481,7 @@ show bg school_scienceroom at bgright
 show misha sign_smile_close  at Transform(xalign=-0.3)
 with charamove
 
-label en_choiceA27:
+label th_choiceA27:
 menu:
     with menueffect
 
@@ -1495,7 +1495,7 @@ menu:
     #to A27c
         return m2
 
-label en_A27b:
+label th_A27b:
 
 stop music fadeout 4.0
 
@@ -1558,7 +1558,7 @@ with None
 
 
 
-label en_A27c:
+label th_A27c:
 
 hi "Give up. I'm not going to tell."
 
@@ -1618,7 +1618,7 @@ mi "Besides, you need to make up for not being there in the morning and we need 
 
 
 
-label en_choice2A27:
+label th_choice2A27:
 menu:
     with menueffect
 
@@ -1631,7 +1631,7 @@ menu:
         return m2
 
 
-label en_A27h:
+label th_A27h:
 #lol label order
 
 hi "Sorry, I can't. I promised to have lunch with someone else already."
@@ -1691,7 +1691,7 @@ stop music fadeout 3.0
 
 
 
-label en_A27i:
+label th_A27i:
 
 hi "Fine, I'll come with you, but get off my back for the rest of the class, okay?"
 
@@ -1730,7 +1730,7 @@ with locationchange
 stop ambient fadeout 1.0
 
 
-label en_A27d:
+label th_A27d:
 
 #if you are not SC member and did not get a heartattack OR if you blew Shizune and Misha off in A26, you come straight to this, the day begins with it in some cases.
 
@@ -1743,7 +1743,7 @@ with locationskip
 
 
 
-label en_A27e:
+label th_A27e:
 
 #If you have not joined SC, you see this instead of A27a, this is also a followup on A27e
 
@@ -1803,7 +1803,7 @@ play ambient sfx_crowd_indoors fadein 0.3
 
 
 
-label en_A27f:
+label th_A27f:
 
 scene bg school_scienceroom
 with shorttimeskip
@@ -1828,7 +1828,7 @@ play ambient sfx_crowd_indoors fadein 0.3
 
 #***************
 
-label en_A28:
+label th_A28:
 
 scene bg school_council
 with locationchange
@@ -1885,7 +1885,7 @@ with charachange
 
 mi "Just kidding!"
 
-label en_A28a:
+label th_A28a:
 #you see this if you have been spending the morning in the infirmary
 
 scene bg school_council
@@ -1905,7 +1905,7 @@ with charaenter
 
 mi "Okay~, now that we are done, we can relax a little! But not too much, we have lots more to do in the afternoon~!"
 
-label en_A28b:
+label th_A28b:
 
 $ renpy.music.play(music_ease, fadein=4.0, if_changed=True)
 
@@ -2190,7 +2190,7 @@ with Dissolve(3.0)
 
 #***************
 
-label en_A29:
+label th_A29:
 
 scene bg school_hallway3
 show crowd
@@ -2287,7 +2287,7 @@ emi "I slipped in a run at lunch and forgot to eat it."
 # The line above will go wherever the scene changes from out of the hallway, I guess.
 
 
-label en_A29x:
+label th_A29x:
 
 "Her expression is so funny that I almost laugh out loud."
 
@@ -2299,7 +2299,7 @@ label en_A29x:
 
 
 
-label en_A29a:
+label th_A29a:
 
 #and this is what happens if you had a heart flutter:
 scene bg school_hallway3
@@ -2339,7 +2339,7 @@ emi "I have super extra lunch today, as promised! Let's go upstairs!"
 
 
 
-label en_A29b:
+label th_A29b:
 
 #Finally, this is where the two join up again
 
@@ -2896,7 +2896,7 @@ with locationskip
 
 
 
-label en_A29c:
+label th_A29c:
 
 scene bg school_dormhisao_ss
 with locationskip
@@ -2932,7 +2932,7 @@ with shuteye
 
 #*********************
 
-label en_A30:
+label th_A30:
 
 scene bg school_courtyard_ss
 with None
@@ -3544,7 +3544,7 @@ li "It's just… you seem unusually tired, I guess."
 "Now that she brings it up, I notice that my breathing is strangely heavy. The uphill walk has really done a job on me."
 
 
-label en_choiceA30:
+label th_choiceA30:
 menu:
     with menueffect
 
@@ -3556,7 +3556,7 @@ menu:
     "I don't really want to talk about it.":
         return m2
 
-label en_A30a:
+label th_A30a:
 
 $ renpy.music.set_volume(0.1, 1.0, channel="ambient")
 stop music fadeout 5.0
@@ -3597,7 +3597,7 @@ scene black
 with Dissolve(3.0)
 
 
-label en_A30b:
+label th_A30b:
 
 $ renpy.music.set_volume(0.1, 1.0, channel="ambient")
 
@@ -3646,7 +3646,7 @@ hi "I had a bad heart attack a while ago because of it, and spent most of the sp
 "I can't really fault her for it, given I have the exact same reaction."
 
 
-label en_A30c:
+label th_A30c:
 
 "To my surprise, in a moment's time her face shows that she comes to some sort of realization."
 
@@ -3665,7 +3665,7 @@ with charachange
 "That was a lot more dry than I'd intended. Lilly visibly shies away from continuing the topic."
 
 
-label en_A30d:
+label th_A30d:
 
 "While I do want to assuage her concern, I really don't want to dwell on this either."
 
