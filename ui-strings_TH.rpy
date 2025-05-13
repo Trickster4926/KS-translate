@@ -28,7 +28,7 @@
     displayDict["th"].allLanguages["en"] = "English"
     displayDict["th"].allLanguages["de"] = "German"
     displayDict["th"].allLanguages["it"] = "Italian"
-    displayDict["th"].allLanguages["fr"] = "Frthch"
+    displayDict["th"].allLanguages["fr"] = "French"
     displayDict["th"].allLanguages["es"] = "Spanish"
     displayDict["th"].allLanguages["jp"] = "Japanese"
 
