@@ -242,7 +242,7 @@
                                     ("เทศกาลละ!", "A39", "เอมิเห็นฮิซาโอะกินของทอดจึงคอยตามติดเป็นการลงโทษ", "องก์ 1"),
                                     ("Nc5xb3", "A42", "เมื่อไม่ได้ไปช่วยลิลลี่ที่แผง ฮิซาโอะจึงตามหาฮานาโกะที่งานโรงเรียน", "องก์ 1"),
                                     ("เคลื่อนไหว", "H2", "หลังเสร็จงานแล้วลิลลี่ก็พาฮานาโกะและฮิซาโอะมาเลี้ยงน้ำชาที่ร้านเซี่ยงไฮ้", "องก์ 1"), # the titlecard comes after this so it IS part of องก์ 1
-                                    ("Promise of Time กาลเวลา", "A41", "After a trying morning at her stall, Hisao takes Lilly to find Hanako.", "องก์ 1"),
+                                    ("สัญญาแห่งกาลเวลา", "A41", "After a trying morning at her stall, Hisao takes Lilly to find Hanako.", "องก์ 1"),
                                     ("Clouds in My Head", "A40", "Hisao keeps Rin and her now-finished mural company.", "องก์ 1"),
                                     ("Throwing Balls", "A44", "True to his word, Hisao spends the day with Shizune and Misha.", "องก์ 1"),
                                     ("The Deep End", "A43", "Kenji and Hisao share a manly picnic on the roof instead of going to the festival.", "องก์ 1"),
