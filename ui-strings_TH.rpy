@@ -5,8 +5,9 @@
     ### THAI
 
     init_language("th")
+    
 
-    displayDict["th"].styleoverrides = {"font": "LayijiMahaniyomV1_61.ttf",
+    displayDict["th"].styleoverrides = {"font": "BoonJot-Regular.ttf",
                                         # "language": "thai",
                                         "line_spacing": 0}
 
