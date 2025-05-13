@@ -1,29 +1,32 @@
 ﻿init -2 python:
     # this is the master language so it lives at init level -3, not -2 like the others
-    #everything in here inherits, if a language doesn't set it the th version is used
+    #everything in here inherits, if a language doesn't set it the en version is used
 
     ### THAI
 
     init_language("th")
-    
-
-    displayDict["th"].styleoverrides = {"font": "BoonJot-Regular.ttf",
-                                        # "language": "thai",
-                                        "line_spacing": 0}
+    thfont = "BoonJot-Regular.ttf"
+    def thw(string):
+        return "{font=" + thfont + "}" + string + "{/font} "
+    displayDict["th"].styleoverrides = {"font": thfont,
+                                        "language": "eastasian",
+                                        "line_spacing": -6,
+                                        }
 
     displayDict["th"].timeformat = "%b %d, %H:%M"
 
-    displayDict["th"].selector_padding = 0 # some fonts need this to be set to a nonzero amount on 6.16 or the library etc will overflow
+    displayDict["th"].selector_padding = -10 # some fonts need this to be set to a nonzero amount on 6.16 or the library etc will overflow
     displayDict["th"].nvl_paragraph_distance = 10 # This needs to be set far lower for some fonts due to a particular bug in 6.16. Ignored in 6.10 releases.
 
     displayDict["th"].sayfont = mainfont
+    
 
     displayDict["th"].quote_outer_opth = u"“"
     displayDict["th"].quote_outer_close = u"”"
     displayDict["th"].quote_inner_opth = u"‘"
     displayDict["th"].quote_inner_close = u"’"
 
-    displayDict["th"].activeLanguage = "ไทย (Thai)"
+    displayDict["th"].activeLanguage = thw("ภาษาไทย (thai)")
     displayDict["th"].allLanguages = {}
     displayDict["th"].allLanguages["th"] = displayDict["th"].activeLanguage
     displayDict["th"].allLanguages["en"] = "English"
