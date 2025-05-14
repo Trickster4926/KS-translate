@@ -5,17 +5,23 @@
     ### THAI
 
     init_language("th")
-    thfont = "BoonJot-Regular.ttf"
+    # thfont = "THSarabunNew.ttf"
+    # thfont = "BoonJot-Regular.otf"
+    # thfont = "WR Tish Kid.ttf"
+    thfont = "4805_KwangMD_Melt.ttf"
+    
+    # displayDict["jp"].gallery_num_page_prefix = u"{size=17}ページ {/size}" 
     def thw(string):
         return "{font=" + thfont + "}" + string + "{/font} "
+
     displayDict["th"].styleoverrides = {"font": thfont,
                                         "language": "eastasian",
-                                        "line_spacing": -6,
+                                        "line_spacing": -3,
                                         }
 
     displayDict["th"].timeformat = "%b %d, %H:%M"
 
-    displayDict["th"].selector_padding = -10 # some fonts need this to be set to a nonzero amount on 6.16 or the library etc will overflow
+    displayDict["th"].selector_padding = -1 # some fonts need this to be set to a nonzero amount on 6.16 or the library etc will overflow
     displayDict["th"].nvl_paragraph_distance = 10 # This needs to be set far lower for some fonts due to a particular bug in 6.16. Ignored in 6.10 releases.
 
     displayDict["th"].sayfont = mainfont
@@ -26,7 +32,7 @@
     displayDict["th"].quote_inner_opth = u"‘"
     displayDict["th"].quote_inner_close = u"’"
 
-    displayDict["th"].activeLanguage = thw("ภาษาไทย (Thai)")
+    displayDict["th"].activeLanguage = thw(u"ภาษาไทย (Thai)")
     displayDict["th"].allLanguages = {}
     displayDict["th"].allLanguages["th"] = displayDict["th"].activeLanguage
     displayDict["th"].allLanguages["en"] = "English"
