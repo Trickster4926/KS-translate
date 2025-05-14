@@ -26,7 +26,7 @@
     displayDict["th"].quote_inner_opth = u"‘"
     displayDict["th"].quote_inner_close = u"’"
 
-    displayDict["th"].activeLanguage = thw("ภาษาไทย (thai)")
+    displayDict["th"].activeLanguage = thw("ภาษาไทย (Thai)")
     displayDict["th"].allLanguages = {}
     displayDict["th"].allLanguages["th"] = displayDict["th"].activeLanguage
     displayDict["th"].allLanguages["en"] = "English"
@@ -48,8 +48,8 @@
     displayDict["th"].game_menu_return = u"กลับ"
     displayDict["th"].game_menu_show = u"ดูรูป"
     displayDict["th"].game_menu_history = u"ประวัติข้อความ"
-    displayDict["th"].game_menu_skip = u"โหมดข้าม"
-    displayDict["th"].game_menu_auto = u"โหมดออโต้"
+    displayDict["th"].game_menu_skip = u"ข้าม"
+    displayDict["th"].game_menu_auto = u"เล่นอัตโนมัติ"
     displayDict["th"].game_menu_config = u"ตั้งค่า"
     displayDict["th"].game_menu_save = u"บันทึก"
     displayDict["th"].game_menu_load = u"โหลด"
@@ -104,7 +104,7 @@
 
     displayDict["th"].extra_menu_caption = "คลัง"
     displayDict["th"].extra_music_button_label = "กล่องดนตรี"
-    displayDict["th"].extra_gallery_button_label = "ภาพ"
+    displayDict["th"].extra_gallery_button_label = "หอศิลป์"
     displayDict["th"].extra_scene_button_label = "ห้องสมุด"
     displayDict["th"].extra_omake_button_label = "พิเศษ"
     displayDict["th"].extra_opening_button_label = "โรงหนัง"
@@ -117,7 +117,7 @@
     displayDict["th"].music_stop_button_text = "หยุด"
     displayDict["th"].music_now_playing = "ขณะนี้กำลังเล่น"
 
-    displayDict["th"].gallery_page_caption = "คลัง > ภาพ"
+    displayDict["th"].gallery_page_caption = "คลัง > หอศิลป์"
     displayDict["th"].gallery_onelocked = "เหลืออีก 1 ภาพที่ยังไม่ได้ปลดล็อก"
     displayDict["th"].gallery_manylocked = "เหลืออีก %d ภาพที่ยังไม่ได้ปลดล็อก"
     displayDict["th"].gallery_singlelocked = "เหลืออีก %d จาก %d ที่ยังไม่ได้ปลดล็อก"
@@ -316,145 +316,145 @@
                                     ("สัมผัสกระซิบแผ่ว", "H29", "ฮิซาโอะและฮานาโกะนอนด้วยกัน", ("องก์ 4","ฮานาโกะ")),
                                     ("อนาคตรวนเร", "H30", "เหตุการณ์เมื่อคืนทำฮิซาโอะหนักใจ", ("องก์ 4","ฮานาโกะ")),
                                     ("ผู้ใหญ่", "H31", "จุดสิ้นสุดของเด็กสองคน จุดเริ่มต้นของผู้ใหญ่สองคน", ("องก์ 4","ฮานาโกะ")),
-                                    ("องก์ 2: Past", rp_actmark, rp_actmark, ("องก์ 2","Lilly")),
-                                    ("Earl Grey", "L1", "Hisao shares the first of many lunchbreaks with ฮานาโกะ and Lilly, recovering from the day before.", ("องก์ 2","Lilly")),
-                                    ("A Pound Sterling", "L2", "Questioned by Kenji on Lilly's nationality, Hisao decides to investigate and finds out a great deal more.", ("องก์ 2","Lilly")),
-                                    ("Presents and Presence", "L3", "While out in search of a present for ฮานาโกะ, Lilly and Hisao meet Akira and her cousin.", ("องก์ 2","Lilly")),
-                                    ("Unidentified Drinking Object", "L4", "The trio hold a birthday party for ฮานาโกะ, interrupted by the surprise appearance of a sibling.", ("องก์ 2","Lilly")),
-                                    ("The Day After", "L5", "Hisao and Lilly awaken and try to recuperate from the previous evening's events.", ("องก์ 2","Lilly")),
-                                    ("A Brief History of Thyme", "L6", "Hisao and Lilly go to get some groceries.", ("องก์ 2","Lilly")),
-                                    ("Little Wing", "L7", "A shared lunch on the roof takes an unfortunate turn.", ("องก์ 2","Lilly")),
-                                    ("Bon Voyage", "L8", "Lilly and Akira get seen off as they leave for a trip to their family in Scotland.", ("องก์ 2","Lilly")),
-                                    ("องก์ 3: Present", rp_actmark, rp_actmark, ("องก์ 3","Lilly")),
-                                    ("Day by Day", "L9", "Hisao idly lets a day without Lilly slip by, having a talk with Mutou about Yamaku.", ("องก์ 3","Lilly")),
-                                    ("Minor Discord", "L10", "Hisao has lunch with Kenji, then gives some handouts to an alarmingly silent ฮานาโกะ.", ("องก์ 3","Lilly")),
-                                    ("Dissonance", "L11", "With ฮานาโกะ withdrawing into herself completely, Hisao offers what little help he can before calling Lilly.", ("องก์ 3","Lilly")),
-                                    ("A World Away", "L12", "Hisao's reassured mind begins to wonder about the relationship between he and Lilly.", ("องก์ 3","Lilly")),
-                                    ("Renewal", "L13", "Hisao, ฮานาโกะ, and Hideaki welcome Akira and Lilly after their return from Scotland.", ("องก์ 3","Lilly")),
-                                    ("Northern Sojourn", "L14", "The trio begins their holiday in Hokkaido.", ("องก์ 3","Lilly")),
-                                    ("Prelude", "L15", "A morning walk begins a chain of events.", ("องก์ 3","Lilly")),
-                                    ("Crescendo", "L16", "Lilly's true feelings are told in the endless gold of the wheat fields." , ("องก์ 3","Lilly")),
-                                    ("Diminuendo", "L17", "Our couple shares their first night together.", ("องก์ 3","Lilly")),
-                                    ("Gray Outlook", "L18", "Confined to the summerhouse, Lilly and Hisao are forced to come to terms with their relationship.", ("องก์ 3","Lilly")),
-                                    ("Rhapsody in Blue", "L19", "A bathing Hisao reflects on where he and Lilly are in life, before being joined by someone.", ("องก์ 3","Lilly")),
-                                    ("The Momentary Present", "L20", "Traveling back to Yamaku, Hisao and Lilly idly talk between themselves.", ("องก์ 3","Lilly")),
-                                    ("องก์ 4: Future", rp_actmark, rp_actmark, ("องก์ 4","Lilly")),
-                                    ("Slow Steps 'Fore a Waltz", "L21", "Back at the school, the events of Hokkaido come to the fore.", ("องก์ 4","Lilly")),
-                                    ("Pajamas and Suits", "L22", "Settling back into daily life. Akira joins the trio during one of their tea parties.", ("องก์ 4","Lilly")),
-                                    ("Correct Procedure", "L23", "Hisao and Lilly arrange a date, before Akira swings by.", ("องก์ 4","Lilly")),
-                                    ("Out and About", "L24", "Hisao and Lilly go on their first date, finding out about each other's pasts.", ("องก์ 4","Lilly")),
-                                    ("A Morning's Reverie", "L25", "Hisao and Lilly discuss their ambitions for the future.", ("องก์ 4","Lilly")),
-                                    ("Blackout", "L26", "The trio muse on the upcoming holidays, before Hisao experiences sight as Lilly does.", ("องก์ 4","Lilly")),
-                                    ("Context", "L27", "Hisao gets called out by Akira and the two talk about her sibling.", ("องก์ 4","Lilly")),
-                                    ("A Faraway Future", "L28", "Lilly reveals her family's offer to join them in Scotland.", ("องก์ 4","Lilly")),
-                                    ("Farewell", "L29", "Farewells to Akira and Lilly the evening before they leave Japan.", ("องก์ 4","Lilly")),
-                                    ("False Cadence", "L30", "Hisao rushes to confront Lilly, realizing her conflict.", ("องก์ 4","Lilly")),
-                                    ("Under a Maudlin Sky", "L31", "Waking in the hospital ward, Hisao struggles to come to terms with his life.", ("องก์ 4","Lilly")),
-                                    ("Under a Bright Sky", "L32", "Lilly rejoins Hisao, the two beginning their life together anew.", ("องก์ 4","Lilly")),
-                                    ("Forwards, with Gusto!", "L33", "Lilly and Hisao see off Akira.", ("องก์ 4","Lilly")),
-                                    ("องก์ 2: Disconnect", rp_actmark, rp_actmark, ("องก์ 2","Rin")),
-                                    ("A Wider Field of Vision", "R1", "Hisao spends a lunch break with Rin watching clouds on the rooftop.", ("องก์ 2","Rin")),
-                                    ("Studies in Grayscale", "R2", "Rin and Hisao draw portraits of each other at his first art club meeting.", ("องก์ 2","Rin")),
-                                    (u"Interstitial", "R3", "Kenji lends a “borrowed” book to Hisao.", ("องก์ 2","Rin")),
-                                    ("Self Study", "R4", "Misha and Shizune catch Hisao meditatively doodling during class.", ("องก์ 2","Rin")),
-                                    ("Hisao's Smile", "R5", "Rin talks to Hisao about his happy expressions, or lack of them.", ("องก์ 2","Rin")),
-                                    ("Things You Like", "R6", "Brief musings with Yuuko about books and Yamaku.", ("องก์ 2","Rin")),
-                                    ("Target Audience", "R7", "The day of the track meet. Facets of เอมิ's and Rin's personalities get revealed.", ("องก์ 2","Rin")),
-                                    ("Eternity In an Hour", "R8", "Nomiya incites discussion of art during a club meeting.", ("องก์ 2","Rin")),
-                                    ("Underwater and a Maple with a Name", "R9", "Rin leads Hisao into the woods, where they ponder their immediate future.", ("องก์ 2","Rin")),
-                                    ("Iwanako's Regret", "R10", "A letter from Iwanako arrives.", ("องก์ 2","Rin")),
-                                    ("In Her Own Image", "R11", "Hisao pushes Rin to have her own art exhibition.", ("องก์ 2","Rin")),
-                                    ("Umbrella Logic Cake", "R12", "เอมิ, Hisao and Rin get rained on and seek refuge in the Shanghai.", ("องก์ 2","Rin")),
-                                    ("Six Meters Closer to Heaven", "R13", "Rin and Hisao DON'T eat lunch on the roof, due to a distinct lack of เอมิ.", ("องก์ 2","Rin")),
-                                    ("Indecision", "R14", "เอมิ gets rid of her cold, while Rin catches her own.", ("องก์ 2","Rin")),
-                                    ("Signal Interference", "R15", "Hisao goes visit Rin in her room.", ("องก์ 2","Rin")),
-                                    ("Dandelions", "R16", "Conclusions get drawn on a hilltop.", ("องก์ 2","Rin")),
-                                    ("องก์ 3: Distance", rp_actmark, rp_actmark, ("องก์ 3","Rin")),
-                                    ("22nd Corner", "R17", "The art club team checks out the gallery for Rin's future exhibition.", ("องก์ 3","Rin")),
-                                    ("The Scent of Light", "R18", "Hisao happens upon a sleeping Rin in the art room.", ("องก์ 3","Rin")),
-                                    ("Things You Can't Give Up", "R19", "เอมิ and Hisao discuss Rin's personality.", ("องก์ 3","Rin")),
-                                    ("BADAAN!", "R20", "Yuuko's thoughts on motivation.", ("องก์ 3","Rin")),
-                                    ("Rose-Tinted Glasses", "R21", "Nomiya expounds at length about art as a career.", ("องก์ 3","Rin")),
-                                    ("The Edge of the World", "R22", "Hisao confesses to Rin and gets shot down. Or does he?", ("องก์ 3","Rin")),
-                                    ("The Context of Rin", "R23", "An awkward and silent afternoon at the atelier.", ("องก์ 3","Rin")),
-                                    ("Fast Forward", "R23_2", "The preparations for the exhibition settle into a strange routine.", ("องก์ 3","Rin")),
-                                    ("Self-Destruction", "R24", "Rin experiments with smoking to get a fresh look at creativity.", ("องก์ 3","Rin")),
-                                    ("Reverse Escapism", "R25", "Hisao takes Rin on a walk through the night streets.", ("องก์ 3","Rin")),
-                                    ("Boundless", "R26", "Sae and Nomiya give Hisao some insight on artists' lives.", ("องก์ 3","Rin")),
-                                    ("Delirium", "R27", "Hisao surprises a desperate Rin in the atelier.", ("องก์ 3","Rin")),
-                                    ("Things You Hate", "R28", "Unpleasant aftermath of an incredible night.", ("องก์ 3","Rin")),
-                                    ("Shards of Ire", "R29", "The strained relationship between the two blows apart.", ("องก์ 3","Rin")),
-                                    ("องก์ 4: Dream", rp_actmark, rp_actmark, ("องก์ 4","Rin")),
-                                    ("Illusions for People", "R30", "Hisao talks about his misgivings to Nomiya, to little effect.", ("องก์ 4","Rin")),
-                                    ("Demused", "R31", "Hisao's patience comes to an end.", ("องก์ 4","Rin")),
-                                    ("The Scene", "R32", "Meeting with Rin at the exhibition opening.", ("องก์ 4","Rin")), #R33 is just a scene block used in two other scenes, R34 is sorted later
-                                    ("Wavelength", "R35", "Hisao lethargically whiles away the last day of exams.", ("องก์ 4","Rin")),
-                                    ("Blue Period", "R36", "A rainy day, the 22nd Corner, and a brief history of Picasso.", ("องก์ 4","Rin")),
-                                    ("The World Only You Can See", "R37", "Rin and Hisao part after the rain.", ("องก์ 4","Rin")),
-                                    ("Desperate Glory", "R34", "A frantic Nomiya queries Hisao about Rin's whereabouts.", ("องก์ 4","Rin")), #moved down here so all good end path scenes are in a row
-                                    ("Problems of Self-Referential Logic", "R38", "Hisao finds Rin in her hiding place, and convinces her to reconcile with Nomiya.", ("องก์ 4","Rin")),
-                                    ("Measuring Shadows", "R39", "Rin's apology to the art teacher isn't well-received.", ("องก์ 4","Rin")),
-                                    (u"Raison d'être", "R40", "Hisao comforts an upset Rin.", ("องก์ 4","Rin")),
-                                    ("Without Breathing, Without a Sound", "R41", "On the first day of summer vacation, Rin comes to Hisao's room.", ("องก์ 4","Rin")),
-                                    ("Proof of Existence", "R42", "Everything comes together on that dandelion-covered hilltop.", ("องก์ 4","Rin")),
-                                    ("องก์ 2: Learning to Read", rp_actmark, rp_actmark, ("องก์ 2","Shizune")),
-                                    ("Message Passing", "S8", "Shizune and Hisao explore methods of communication.", ("องก์ 2","Shizune")),
-                                    ("Talk to the Hand", "S9", "Hisao begins studying a new language, and a tutor appears.", ("องก์ 2","Shizune")),
-                                    ("Chinese Whispers", "S10", "Kenji manages to coerce Hisao to do a favor for him, but Hisao runs into trouble in many forms.", ("องก์ 2","Shizune")),
-                                    ("Advanced Game Theory", "S11", "RISK isn't enough any more to satiate Shizune's hunger. What's worse, a new opponent makes her appearance.", ("องก์ 2","Shizune")),
-                                    ("Bread, Scissors, Paper", "S12", "A lazy afternoon becomes dramatic as suddenly a piece of bread becomes an object of extreme interest.", ("องก์ 2","Shizune")),
-                                    ("Interface", "S13", "Shizune and Hisao find a connection.", ("องก์ 2","Shizune")),
-                                    ("Spring into Action", "S14", "Hisao has to mediate between Lilly and Shizune, but luckily things work out in the end.", ("องก์ 2","Shizune")),
-                                    ("Past Imperfective", "S15", "The Student Council reminisces about past years while relaxing at the Shanghai.", ("องก์ 2","Shizune")),
-                                    ("When Stars Embrace", "S16", "It's finally time for Tanabata!", ("องก์ 2","Shizune")),
-                                    ("องก์ 3: Sleight of Hand", rp_actmark, rp_actmark, ("องก์ 3","Shizune")),
-                                    ("Force Feedback", "S17", "Hisao finds out that Shizune is going to visit her family, and manages to come along.", ("องก์ 3","Shizune")),
-                                    ("United Nations", "S18", "The trip to Shizune's house, meeting her little brother, and a sudden fishing contest.", ("องก์ 3","Shizune")),
-                                    ("Use-Mention Distinction", "S19", "Hideaki tries to entertain Hisao for a day, meeting with little success.", ("องก์ 3","Shizune")),
-                                    ("Family Plot", "S20", "Our trio meets Shizune's father and immediately beats a hasty retreat.", ("องก์ 3","Shizune")),
-                                    ("Pangrammatic Window", "S21", "A request from Hideaki to learn sign language unexpectedly escalates into a shouting match with Jigoro.", ("องก์ 3","Shizune")),
-                                    ("Closer", "S22", "Shizune and Hisao join together for the first time.", ("องก์ 3","Shizune")),
-                                    ("Confrontation", "S23", "Jigoro belittles the Student Council and Hisao rises up to the challenge.", ("องก์ 3","Shizune")),
-                                    ("The Anchor", "S24", "Back to Yamaku. A letter from Iwanako prompts a lengthy discussion from Kenji on the finer points of girlfriends.", ("องก์ 3","Shizune")),
-                                    ("Roadmap", "S25", "The Student Council worries about their replacement, and Hisao ends up treating Misha to a parfait somehow.", ("องก์ 3","Shizune")), #shortened this line - it overflowed
-                                    ("Acute Triangle", "S26", "An afternoon of work with Shizune shows Hisao that something is amiss between the girls.", ("องก์ 3","Shizune")),
-                                    ("Dewey Decimated", "S27", "Yuuko gets Hisao to watch the library for her. The arrival of Kenji makes the attempt meet with mixed success.", ("องก์ 3","Shizune")),
-                                    ("Tongue-Tied", "S28", "Misha visits Hisao in his room, and things go in an unexpected direction.", ("องก์ 3","Shizune")),
-                                    ("Look Aside", "S29_1", "Hisao meets a depressed Misha on the roof. He ends up pushing her and Shizune together.", ("องก์ 3","Shizune")),
-                                    ("Look Ahead", "S29_2", "Hisao meets a depressed Misha on the roof. Shizune joins them and pulls the whole council back to work.", ("องก์ 3","Shizune")),
-                                    ("องก์ 4: To My Other Self", rp_actmark, rp_actmark, ("องก์ 4","Shizune")),
-                                    ("Grand Strategy", "S30", "Shizune confesses to Hisao some of her goals and failures.", ("องก์ 4","Shizune")),
-                                    ("Off by One", "S31", "A failed attempt to cheer up Misha gets converted into an impromptu date for Hisao and Shizune.", ("องก์ 4","Shizune")),
-                                    ("Invasion", "S32", "Jigoro and Hideaki pay Shizune an unexpected and somewhat unpleasant visit.", ("องก์ 4","Shizune")),
-                                    ("Parfait", "S33", "Hisao and Shizune stalk Misha. Hisao finally manages to corner her and discuss things properly.", ("องก์ 4","Shizune")),
-                                    ("Present Tense", "S38", "Hisao stumbles into Lilly at lunch, and the two talk about Shizune.", ("องก์ 4","Shizune")), # we always show the bad end scenes first
-                                    ("Spiral", "S39", "Runaround, stonewalling, and Kenji nighttime ambush.", ("องก์ 4","Shizune")),
-                                    ("Terminal", "S40", "An early-morning talk with Shizune in the silent school.", ("องก์ 4","Shizune")),
-                                    ("The Summit", "S34", "Kenji and Shizune meet in Hisao's room. Miraculously, nothing explodes.", ("องก์ 4","Shizune")), # back to good end continuity
-                                    ("Succession", "S35", "The current Student Council shapes up their successors before engaging in “extracurricular activities.”", ("องก์ 4","Shizune")),
-                                    ("Sneaking Mission", "S36", "The show of Misha's determination spurs Shizune to set her sights on greater things.", ("องก์ 4","Shizune")),
-                                    ("Infinity", "S37", "Our trio renews their friendship, with their graduation looming close ahead.", ("องก์ 4","Shizune")),
+                                    ("องก์ 2: อดีต", rp_actmark, rp_actmark, ("องก์ 2","ลิลลี่")),
+                                    ("เอิร์ลเกรย์", "L1", "เมื่อหายดีจากวันก่อนฮิซาโอะมากินข้าวเที่ยงกับฮานาโกะและลิลลี่เป็นครั้งแรก ก่อนจะมีครั้งต่อไปอีกหลายครั้ง", ("องก์ 2","ลิลลี่")),
+                                    ("หนึ่งปอนด์สเตอร์ลิง", "L2", "เคนจิถามฮิซาโอะเรื่องสัญชาติของลิลลี่ จึงนึกสงสัยและค้นพบอะไรอีกหลายอย่าง", ("องก์ 2","ลิลลี่")),
+                                    ("ของขวัญของคน", "L3", "ลิลลี่และฮิซาโอะพบกับอากิระและลูกพี่ลูกน้องระหว่างที่ออกไปซื้อของขวัญให้ฮานาโกะ", ("องก์ 2","ลิลลี่")),
+                                    ("วัตถุดื่มไม่สามารถระบุได้ (ยูดีโอ)", "L4", "ทั้งสองคนจัดงานวันเกิดให้ฮานาโกะ และมีพี่สาวที่ไม่ได้คาดฝันโผล่มา", ("องก์ 2","ลิลลี่")),
+                                    ("วันถัดมา", "L5", "ฮิซาโอะและลิลลี่ตื่นมาเพื่อฟื้นจากเรื่องเมื่อคืน", ("องก์ 2","ลิลลี่")),
+                                    ("ประวัติย่อของไทม์", "L6", "ฮิซาโอะและลิลลี่ออกไปซื้อของด้วยกัน", ("องก์ 2","ลิลลี่")),
+                                    ("ปีกน้อย", "L7", "เกิดเรื่องร้ายกับข้าวเที่ยงบนดาดฟ้า", ("องก์ 2","ลิลลี่")),
+                                    ("เดินทางโดยสวัสดิภาพ", "L8", "มาส่งลิลลี่และอากิระออกเดินทางไปหาครอบครัวที่สกอตแลนด์", ("องก์ 2","ลิลลี่")),
+                                    ("องก์ 3: ปััจจุบัน", rp_actmark, rp_actmark, ("องก์ 3","ลิลลี่")),
+                                    ("วัน ๆ ", "L9", "ฮิซาโอะใช้เวลาที่ไม่มีลิลลี่อยู่ด้วยไปหนึ่งวันและคุยกับมุโต้เรื่องยามากุ", ("องก์ 3","ลิลลี่")),
+                                    ("รอยร้าว", "L10", "ฮิซาโอะกินข้าวเที่ยงกับเคนจิ และนำเอกสารไปส่งให้ฮานาโกะที่เงียบไปอย่างน่าเป็นห่วง", ("องก์ 3","ลิลลี่")),
+                                    ("ไม่กลมกลืน", "L11", "ฮิซาโอะพยายามช่วยฮานาโกะที่เก็บตัวอยู่คนเดียวก่อนจะโทรหาลิลลี่", ("องก์ 3","ลิลลี่")),
+                                    ("คนละฟากโลก", "L12", "พอใจสงบฮิซาโอะก็มาทบทวนเรื่องความสัมพันธ์กับลิลลี่", ("องก์ 3","ลิลลี่")),
+                                    ("รื้อฟื้น", "L13", "ฮิซาโอะ ฮานาโกะ และฮิเดอากิมารับอากิระและลิลลี่ที่กลับมาจากสกอตแลนด์", ("องก์ 3","ลิลลี่")),
+                                    ("ขึ้นเหนือ", "L14", "ทั้งสามคนไปเที่ยวที่ฮอกไกโด", ("องก์ 3","ลิลลี่")),
+                                    ("เพรลูด", "L15", "เมื่อการออกเดินยามเช้าพาให้เกิดเหตุการณ์อีกหลายอย่าง", ("องก์ 3","ลิลลี่")),
+                                    ("เครเชนโด", "L16", "ความรู้สึกที่แท้จริงของลิลลี่ถูกเปิดเผยท่ามกลางทุ่งสาลีสีทองอร่ามสุดลูกหูลูกตา" , ("องก์ 3","ลิลลี่")),
+                                    ("ดิมินูเอนโด", "L17", "ทั้งคู่นอนด้วยกันเป็นครั้งแรก", ("องก์ 3","ลิลลี่")),
+                                    ("ทิวทัศน์หมองหม่น", "L18", "ลิลลี่และฮิซาโอะต้องตกลงกันเรื่องความสัมพันธ์ในบ้านพักตากอากาศ", ("องก์ 3","ลิลลี่")),
+                                    ("แรพโซดีอินบลู", "L19", "ระหว่างที่ฮิซาโอะอาบน้ำก็คิดถึงเรื่องชีวิตของตัวเองและลิลลี่ ก่อนจะมีคนมาอาบด้วย", ("องก์ 3","ลิลลี่")),
+                                    ("ชั่วพริบตาเดียว", "L20", "ฮิซาโอะและลิลลี่คุยกันเรื่อยเปื่อยหลังกลับมาที่ยามากุแล้ว", ("องก์ 3","ลิลลี่")),
+                                    ("องก์ 4: อนาคต", rp_actmark, rp_actmark, ("องก์ 4","ลิลลี่")),
+                                    ("เยื้องย่างก่อนออกเต้นรำ", "L21", "เมื่อกลับมาที่โรงเรียนแล้วก็คิดถึงเรื่องที่ฮอกไกโด", ("องก์ 4","ลิลลี่")),
+                                    ("ชุดนอนและชุดสูท", "L22", "อากิระมาร่วมปาร์ตี้น้ำชาหนึ่งของทั้งสามคนที่กลับมาใช้ชีวิตตามปกติ", ("องก์ 4","ลิลลี่")),
+                                    ("ขั้นตอนที่ถูกต้อง", "L23", "ฮิซาโอะและลิลลี่นัดออกเดต ก่อนจะได้เจอกับอากิระ", ("องก์ 4","ลิลลี่")),
+                                    ("เตร็ดเตร่", "L24", "ฮิซาโอะและลิลลี่ไปเดตด้วยกันครั้งแรก และแบ่งปันเรื่องอดีตของกันและกัน", ("องก์ 4","ลิลลี่")),
+                                    ("ฝันกลางเช้า", "L25", "ฮิซาโอะและลิลลี่คุยกันเรื่องเป้าหมายในอนาคต", ("องก์ 4","ลิลลี่")),
+                                    ("ดับมืด", "L26", "ทั้งสามคนตื่นเต้นกับวันหยุดที่ใกล้เข้ามา ฮิซาโอะได้ลองใช้ชีวิตแบบลิลลี่", ("องก์ 4","ลิลลี่")),
+                                    ("บริบท", "L27", "อากิระเรียกฮิซาโอะออกมาคุยเรื่องน้องของเธอ", ("องก์ 4","ลิลลี่")),
+                                    ("อนาคตอันไกลห่าง", "L28", "ลิลลี่บอกเรื่องข้อเสนอของครอบครัวเธอที่ให้กลับไปอยู่ด้วยกันที่สกอตแลนด์", ("องก์ 4","ลิลลี่")),
+                                    ("จากลา", "L29", "บอกลาอากิระและลิลลี่ในเย็นก่อนที่ทั้งสองจะต้องบินออกจากญี่ปุ่น", ("องก์ 4","ลิลลี่")),
+                                    ("เคเดนซ์ขัด", "L30", "ฮิซาโอะรีบไปหาลิลลี่ ก่อนจะรู้เรื่องปัญหาของเธอ", ("องก์ 4","ลิลลี่")),
+                                    ("ใต้ฟ้าตรอมตรม", "L31", "ฮิซาโอะทำใจไม่ได้กับชีวิตของตัวเองหลังตื่นขึ้นมาที่โรงพยาบาล", ("องก์ 4","ลิลลี่")),
+                                    ("ใต้ฟ้าสุกสกาว", "L32", "ลิลลี่กลับมาหาฮิซาโอะและเริ่มใช้ชีวิตด้วยกันใหม่อีกครั้ง", ("องก์ 4","ลิลลี่")),
+                                    ("ออกทะยาน!", "L33", "ลิลลี่และฮิซาโอะมาส่งอากิระ", ("องก์ 4","ลิลลี่")),
+                                    ("องก์ 2: หลุดคลาด", rp_actmark, rp_actmark, ("องก์ 2","ริน")),
+                                    ("วิสัยทัศน์ที่กว้างขึ้น", "R1", "ฮิซาโอะมาดูเมฆกับรินตอนพักเที่ยงที่ดาดฟ้า", ("องก์ 2","ริน")),
+                                    ("ศึกษาสีเทา", "R2", "รินและฮิซาโอะวาดภาพเหมือนของกันและกันในชมรมศิลปะ", ("องก์ 2","ริน")),
+                                    (u"ช่องแทรก", "R3", "เคนจิให้หนังสือที่ “ยืมมา” ให้ฮิซาโอะ", ("องก์ 2","ริน")),
+                                    ("เรียนเอง", "R4", "มิช่าและชิซูเนะเห็นฮิซาโอะวาดรูปเล่นในชั้นเรียน", ("องก์ 2","ริน")),
+                                    ("รอยยิ้มของฮิซาโอะ", "R5", "รินพูดถึงเรื่องสีหน้าที่มีความสุขของฮิซาโอะที่ดูจะไม่ค่อยมี", ("องก์ 2","ริน")),
+                                    ("สิ่งที่ชอบ", "R6", "คุยกับยูโกะเรื่องหนังสือและยามากุ", ("องก์ 2","ริน")),
+                                    ("กลุ่มผู้ชมเป้าหมาย", "R7", "วันงานแข่ง ตัวตนอีกด้านของเอมิและรินถูกเปิดเผย", ("องก์ 2","ริน")),
+                                    ("หนึ่งชั่วนิรันดร์ในหนึ่งชั่วโมง", "R8", "โนมิยะคุยเรื่องศิลปะอย่างจริงจังในชมรม", ("องก์ 2","ริน")),
+                                    ("ใต้น้ำกับต้นเมเปิลที่มีชื่อ", "R9", "รินพาฮิซาโอะเข้าป่าและคิดถึงเรื่องอนาคตอันใกล้", ("องก์ 2","ริน")),
+                                    ("ความเสียใจทิ้งทวนของอิวานาโกะ", "R10", "เมื่อจดหมายจากอิวานาโกะมาถึง", ("องก์ 2","ริน")),
+                                    ("เป็นตัวของเธอเอง", "R11", "ฮิซาโอะผลักดันให้รินจัดนิทรรศการศิลปะของตัวเอง", ("องก์ 2","ริน")),
+                                    ("ร่ม ตรรกะ และเค้ก", "R12", "เอมิ ฮิซาโอะ และรินมาหลบฝนกันที่ร้านเซี่ยงไฮ้", ("องก์ 2","ริน")),
+                                    ("เข้าใกล้สวรรค์ไปอีกหกเมตร", "R13", "เมื่อเอมิไม่อยู่ รินและฮิซาโอะจึงไม่ไปกินข้าวเที่ยงที่ดาดฟ้า", ("องก์ 2","ริน")),
+                                    ("ลังเล", "R14", "เอมิหายป่วย ทว่ารินกลับติดแทน", ("องก์ 2","ริน")),
+                                    ("รบกวนสัญญาณ", "R15", "ฮิซาโอะไปเยี่ยมรินที่ห้อง", ("องก์ 2","ริน")),
+                                    ("แดนดีไลออน", "R16", "บทสรุปที่ยอดเขา", ("องก์ 2","ริน")),
+                                    ("องก์ 3: ระยะ", rp_actmark, rp_actmark, ("องก์ 3","ริน")),
+                                    ("ซอย 22", "R17", "ชมรมศิลปะมาดูหอศิลป์เพื่อคิดเรื่องงานนิทรรศการของรินในอนาคต", ("องก์ 3","ริน")),
+                                    ("กลิ่นของแสง", "R18", "ฮิซาโอะมาเห็นรินนอนหลับที่ห้องศิลปะ", ("องก์ 3","ริน")),
+                                    ("เรื่องที่ยอมแพ้ไม่ได้", "R19", "เอมิและฮิซาโอะคุยเรื่องนิสัยของริน", ("องก์ 3","ริน")),
+                                    ("แต่นแต๊น!", "R20", "ยูโกะกับแรงขับเคลื่อน", ("องก์ 3","ริน")),
+                                    ("โลกสีชมพู", "R21", "โนมิยะสาธยายเรื่องเส้นทางศิลปิน", ("องก์ 3","ริน")),
+                                    ("สุดหล้าฟ้าเขียว", "R22", "ฮิซาโอะสารภาพรักกับรินและถูกปฏิเสธ หรือเปล่า", ("องก์ 3","ริน")),
+                                    ("บริบทของริน", "R23", "บ่ายแสนเงียบและน่าอึดอัดในสตูดิโอ", ("องก์ 3","ริน")),
+                                    ("ข้ามเวลา", "R23_2", "เมื่อการเตรียมงานนิทรรศการศิลปะกลายเป็นกิจวัตรแปลก ๆ ", ("องก์ 3","ริน")),
+                                    ("ทำลายตัวเอง", "R24", "รินลองสูบบุหรี่เพื่อให้ได้ความคิดใหม่ ๆ ", ("องก์ 3","ริน")),
+                                    ("หนีออกมา", "R25", "ฮิซาโอะพารินออกมาเดินถนนยามค่ำคืน", ("องก์ 3","ริน")),
+                                    ("ไร้ขอบเขต", "R26", "ซาเอะและโนมิยะเล่าถึงชีวิตศิลปินให้ฮิซาโอะฟัง", ("องก์ 3","ริน")),
+                                    ("เพ้อ", "R27", "ฮิซาโอะมาเจอกับรินที่สิ้นหวังโดยไม่ได้ตั้งใจ", ("องก์ 3","ริน")),
+                                    ("สิ่งที่เกลียด", "R28", "ความอึดอัดหลังคืนอันสุขสม", ("องก์ 3","ริน")),
+                                    ("เศษเสี้ยวเคืองขุ่น", "R29", "ความสัมพันธ์ที่ตึงเครียดของทั้งสองคนขาดสะบั้น", ("องก์ 3","ริน")),
+                                    ("องก์ 4: ฝัน", rp_actmark, rp_actmark, ("องก์ 4","ริน")),
+                                    ("ภาพฝันเพื่อผู้คน", "R30", "ฮิซาโอะพูดถึงข้อกังขาของเขากับโนมิยะ ซึ่งไม่ได้ผลนัก", ("องก์ 4","ริน")),
+                                    ("หมดอารมณ์", "R31", "ฮิซาโอะหมดความอดทน", ("องก์ 4","ริน")),
+                                    ("ฉาก", "R32", "มาเจอกับรินที่วันเปิดงานนิทรรศการศิลปะ", ("องก์ 4","ริน")), #R33 is just a scene block used in two other scenes, R34 is sorted later
+                                    ("ความยาวคลื่น", "R35", "ฮิซาโอะอยู่เอื่อยเฉื่อยกับวันสอบวันสุดท้าย", ("องก์ 4","ริน")),
+                                    ("บลูพีเรียด", "R36", "วันฝนพรำที่ซอย 22 กับประวัติของปิกัสโซเล็กน้อย", ("องก์ 4","ริน")),
+                                    ("โลกที่มีแค่เธอมองเห็น", "R37", "รินและฮิซาโอะแยกทางกันหลังฝนหยุด", ("องก์ 4","ริน")),
+                                    ("เกียรติศักดิ์กระเสือกกระสน", "R34", "โนมิยะตามหารินแทบบ้าและถามฮิซาโอะ", ("องก์ 4","ริน")), #moved down here so all good end path scenes are in a row
+                                    ("ปัญหาของงูกินหาง", "R38", "ฮิซาโอะหารินจนพบ และเกลี้ยกล่อมให้ไปคืนดีกับโนมิยะ", ("องก์ 4","ริน")),
+                                    ("วัดเงา", "R39", "คำขอโทษของรินไม่ได้รับการตอบรับดีนัก", ("องก์ 4","ริน")),
+                                    (u"เรซอง เดเทอร์", "R40", "ฮิซาโอะปลอบโยนรินที่กำลังเศร้า", ("องก์ 4","ริน")),
+                                    ("ไร้ซึ่งลมหายใจ ไร้ซึ่งเสียง", "R41", "รินมาห้องฮิซาโอะในวันแรกของช่วงหยุดหน้าร้อน", ("องก์ 4","ริน")),
+                                    ("หลักฐานถึงตัวตน", "R42", "ทุกอย่างคลี่คลายที่ยอดเขาแดนดีไลออนปลิดปลิว", ("องก์ 4","ริน")),
+                                    ("องก์ 2: หัดอ่าน", rp_actmark, rp_actmark, ("องก์ 2","ชิซูเนะ")),
+                                    ("ส่งข้อความ", "S8", "ชิซูเนะและฮิซาโอะหาทางสื่อสารกัน", ("องก์ 2","ชิซูเนะ")),
+                                    ("คุยกับมือ", "S9", "ฮิซาโอะเริ่มเรียนภาษาใหม่ พร้อมติวเตอร์ที่ปรากฏตัว", ("องก์ 2","ชิซูเนะ")),
+                                    ("บอกต่อ", "S10", "เคนจิบังคับให้ฮิซาโอะเป็นธุระให้จนได้ ทว่าฮิซาโอะต้องเจออีกหลายเรื่อง", ("องก์ 2","ชิซูเนะ")),
+                                    ("ทฤษฎีเกมขั้นสูง", "S11", "แค่เกม{i}ริสก์{/i}ไม่พอแล้วสำหรับชิซูเนะ และยิ่งแย่เมื่อศัตรูคนใหม่ปรากฏกาย", ("องก์ 2","ชิซูเนะ")),
+                                    ("ขนมปัง กรรไกร กระดาษ", "S12", "บ่ายเฉื่อย ๆ กลายเป็นเรื่องจริงจังขึ้นมาทันทีเมื่อมีขนมปังเข้ามาเกี่ยวข้อง", ("องก์ 2","ชิซูเนะ")),
+                                    ("พบปะ", "S13", "ชิซูเนะและฮิซาโอะหาทางเชื่อมถึงกัน", ("องก์ 2","ชิซูเนะ")),
+                                    ("เริ่มทำงาน", "S14", "ฮิซาโอะต้องเป็นคนไกล่เกลี่ยให้ลิลลี่และชิซูเนะ โชคดีที่อะไร ๆ จบลงด้วยดี", ("องก์ 2","ชิซูเนะ")),
+                                    ("รูปอดีตไม่สำเร็จ", "S15", "สภานักเรียนหวนนึกถึงเรื่องอดีตกันที่ร้านเซี่ยงไฮ้", ("องก์ 2","ชิซูเนะ")),
+                                    ("ยามหมู่ดาวโอบล้อม", "S16", "ถึงวันทานาบาตะเสียที!", ("องก์ 2","ชิซูเนะ")),
+                                    ("องก์ 3: กลฝีมือ", rp_actmark, rp_actmark, ("องก์ 3","ชิซูเนะ")),
+                                    ("ฟอร์ซ ฟีดแบค", "S17", "ฮิซาโอะรู้ว่าชิซูเนะจะไปเยี่ยมครอบครัวจึงขอติดสอยห้อยตามไปด้วยจนได้", ("องก์ 3","ชิซูเนะ")),
+                                    ("สหประชาชาติ", "S18", "เดินทางไปบ้านชิซูเนะ เจอกับน้องชายของเธอ และไปแข่งตกปลาแบบกะทันหัน", ("องก์ 3","ชิซูเนะ")),
+                                    ("การแยกระหว่างการกล่าวถึงและการใช้", "S19", "ฮิเดอากิลากฮิซาโอะออกมาแก้เบื่อ ทว่าไม่ประสบความสำเร็จนัก", ("องก์ 3","ชิซูเนะ")),
+                                    ("แผนการครอบครัว", "S20", "ทั้งสามคนพบกับพ่อของชิซูเนะ และต้องถอยทัพทันที", ("องก์ 3","ชิซูเนะ")),
+                                    ("แพนแกรม", "S21", "จากคำขอของฮิเดอากิที่อยากเรียนภาษามือกลายเป็นการแข่งตะโกนกับจิโกโรอย่างไม่คาดคิด", ("องก์ 3","ชิซูเนะ")),
+                                    ("ใกล้อีก", "S22", "ชิซูเนะและฮิซาโอะได้อยู่ด้วยกันครั้งแรก", ("องก์ 3","ชิซูเนะ")),
+                                    ("เผชิญหน้า", "S23", "เมื่อจิโกโรดูถูกสภานักเรียน ฮิซาโอะจึงลุกขึ้นสู้", ("องก์ 3","ชิซูเนะ")),
+                                    ("สมอ", "S24", "กลับมาที่ยามากุ จดหมายจากอิวานาโกะกลายเป็นบทสนทนาอันยืดยาวเรื่องแฟนสาวของเคนจิ", ("องก์ 3","ชิซูเนะ")),
+                                    ("โรดแมป", "S25", "เหล่าสภานักเรียนคิดถึงเรื่องคนรุ่นใหม่ที่จะมาแทน แต่อยู่ ๆ กลายเป็นว่าฮิซาโอะมาเลี้ยงพาร์เฟต์ให้มิช่า", ("องก์ 3","ชิซูเนะ")), #shortened this line - it overflowed
+                                    ("สามเหลี่ยมมุมแหลม", "S26", "การทำงานยามบ่ายกับชิซูเนะทำให้ฮิซาโอะนึกได้ว่าบางอย่างระหว่างเธอสองคนหายไป", ("องก์ 3","ชิซูเนะ")),
+                                    ("ทศนิยมดิวอี้", "S27", "ยูโกะวานให้ฮิซาโอะอยู่ห้องสมุดแทน เมื่อเคนจิมาก็ทำให้เรื่องเหมือนจะเป็นไปด้วยดี แต่ก็เหมือนจะไม่ดี", ("องก์ 3","ชิซูเนะ")),
+                                    ("น้ำท่วมปาก", "S28", "มิช่ามาหาฮิซาโอะที่ห้องจนเกิดเรื่องไม่คาดฝัน", ("องก์ 3","ชิซูเนะ")),
+                                    ("มองข้าง", "S29_1", "ฮิซาโอะมาหามิช่าที่กำลังเศร้าอยู่บนดาดฟ้า และบังคับให้เธอและชิซูเนะคืนดีกัน", ("องก์ 3","ชิซูเนะ")),
+                                    ("มองข้างหน้า", "S29_2", "ฮิซาโอะมาหามิช่าที่กำลังเศร้าอยู่บนดาดฟ้า ชิซูเนะมาแจมและดึงทุกคนมาที่ห้องสภานักเรียน", ("องก์ 3","ชิซูเนะ")),
+                                    ("องก์ 4: แด่ตัวฉันอีกคน", rp_actmark, rp_actmark, ("องก์ 4","ชิซูเนะ")),
+                                    ("แผนใหญ่", "S30", "ชิซูเนะเล่าฮิซาโอะถึงเป้าหมายและความล้มเหลวของเธอ", ("องก์ 4","ชิซูเนะ")),
+                                    ("คลาดทีละน้อย", "S31", "จากที่จะทำให้มิช่าร่าเริง สุดท้ายกลายเป็นเดตของฮิซาโอะกับชิซูเนะแบบไม่ทันได้ตั้งตัว", ("องก์ 4","ชิซูเนะ")),
+                                    ("แทรกซึม", "S32", "จิโกโรและฮิเดอากิมาหาชิซูเนะแบบไม่คาดฝันและดูออกจะอึดอัด", ("องก์ 4","ชิซูเนะ")),
+                                    ("พาร์เฟต์", "S33", "ฮิซาโอะและชิซูเนะสะกดรอยตามมิช่า และต้อนให้จนมุมมาคุยกันให้รู้เรื่องจนได้", ("องก์ 4","ชิซูเนะ")),
+                                    ("รูปปัจจุบัน", "S38", "ฮิซาโอะบังเอิญเจอลิลลี่ตอนพักเที่ยงแล้วคุยกันเรื่องชิซูเนะ", ("องก์ 4","ชิซูเนะ")), # we always show the bad end scenes first
+                                    ("เกลียว", "S39", "หลบหลีก หนีหน้า และการซุ่มโจมตีกลางคืนของเคนจิ", ("องก์ 4","ชิซูเนะ")),
+                                    ("ปลายทาง", "S40", "คุยยามเช้าตรู่กับชิซูเนะในโรงเรียนที่เงียบสงัด", ("องก์ 4","ชิซูเนะ")),
+                                    ("ยอด", "S34", "เคนจิและชิซูเนะเจอกันที่ห้องฮิซาโอะ เหลือเชื่อที่ไม่มีอะไรระเบิด", ("องก์ 4","ชิซูเนะ")), # back to good end continuity
+                                    ("รับช่วงต่อ", "S35", "สภานักเรียนรุ่นปัจจุบันมารับช่วงต่อพร้อม “กิจกรรมนอกหลักสูตร”", ("องก์ 4","ชิซูเนะ")),
+                                    ("แผนการลับ", "S36", "ความมุ่งมั่นของมิช่าทำให้ชิซูเนะตั้งเป้าถึงสิ่งที่ยิ่งใหญ่ขึ้น", ("องก์ 4","ชิซูเนะ")),
+                                    ("อนันต์", "S37", "ทั้งสามคนคืนดีกัน ในขณะเดียวกันวันจบการศึกษาก็ใกล้เข้ามา", ("องก์ 4","ชิซูเนะ")),
                                     )
 
     # credits
 
-    displayDict["th"].creditstring = """{image=ui/flourish_left.png} {b}Writing{/b} {image=ui/flourish_right.png}
+    displayDict["th"].creditstring = """{image=ui/flourish_left.png} {b}เรื่อง{/b} {image=ui/flourish_right.png}
 Anonymous22
 Aura
 cpl_crud
 Suriko
-TheHivเอมิnd
+TheHivemind
 
-{image=ui/flourish_left.png} {b}Editing{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}บรรณาธิการ{/b} {image=ui/flourish_right.png}
 Kagami
 Losstarot
 Silentcook
 
-{image=ui/flourish_left.png} {b}Music{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ดนตรี{/b} {image=ui/flourish_right.png}
 Blue123
 NicolArmarfi
 
-{image=ui/flourish_left.png} {b}Art{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ฝ่ายศิลป์{/b} {image=ui/flourish_right.png}
 gebyy-terar
 Kamifish
 moekki
@@ -462,31 +462,29 @@ pimmy
 raemz
 Raide
 
-{image=ui/flourish_left.png} {b}Additional Art{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ฝ่ายศิลป์เพิ่มเติม{/b} {image=ui/flourish_right.png}
 climatic
 Doomfest
 yujovi
 
-{image=ui/flourish_left.png} {b}FMV Animation{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}อนิเมชัน{/b} {image=ui/flourish_right.png}
 Mike Inel
 
-{image=ui/flourish_left.png} {b}Directing{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}กำกับ{/b} {image=ui/flourish_right.png}
 delta
 Raide
 yujovi
 
-{image=ui/flourish_left.png} {b}Engineering{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ฝ่ายเทคนิค{/b} {image=ui/flourish_right.png}
 delta
 
-{image=ui/flourish_left.png} {b}Production{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ฝ่ายการผลิต{/b} {image=ui/flourish_right.png}
 cpl_crud
 Suriko
 
-
 {image=ui/flourish_center.png}
 
-
-{image=ui/flourish_left.png} {b}Thanks{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ขอขอบคุณ{/b} {image=ui/flourish_right.png}
 Ambi07
 abscess
 Anonymous
@@ -514,11 +512,15 @@ TcDohl
 tottori
 VCR
 
-{image=ui/flourish_left.png} {b}Special Thanks{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} {b}ขอขอบคุณ (พิเศษ){/b} {image=ui/flourish_right.png}
 hir
 PyTom
 RAITA
 replicated"""
+
+{image=ui/flourish_left.png} {b}แปลไทยโดย{/b} {image=ui/flourish_right.png}
+???
+???
 
 
     displayDict["th"].drugs_wordlist  =  ["Disopyramide",
