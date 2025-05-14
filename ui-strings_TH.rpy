@@ -518,9 +518,6 @@ PyTom
 RAITA
 replicated"""
 
-{image=ui/flourish_left.png} {b}แปลไทยโดย{/b} {image=ui/flourish_right.png}
-???
-???
 
 
     displayDict["th"].drugs_wordlist  =  ["Disopyramide",
