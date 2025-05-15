@@ -492,7 +492,7 @@ stop music fadeout 6.0
 scene bg school_cafeteria
 with locationskip
 
-# "ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+
 # "Shizune and Misha pull me towards the cafeteria, which is surprisingly not packed. Maybe some students favor eating in classroom or outdoors. I saw some of my classmates had boxed lunches."
 "ชิซูเนะและมิช่าพาฉันมาที่โรงอาหาร ซึ่งดู ๆ แล้วคนไม่เยอะมาก อาจจะเพราะว่าบางคนเลือกที่จะกินในห้อง\nหรือกินข้างนอกมากกว่า เห็นเพื่อนในห้องบางคนก็เอาข้าวกล่องมาด้วย"
 
@@ -534,15 +534,17 @@ show misha perky_smile
 with charachange
 
 # mi "Hm… There is a book club, right, Shicchan? Right! But~! It seems like they have all the members they can possibly have right now. Sorry, Hicchan… It's a really popular club."
-mi "อืม… ก็มีชมรมหนังสือนะ ใช่ปะชิจัง ใช่ ๆ แต่ว่านะ~! ดูเหมือนว่าจำนวนสมาชิกจะเต็มแล้วล่ะ\n"
+mi "อืม… ก็มีชมรมหนังสือนะ ใช่ปะชิจัง ใช่ ๆ แต่ว่านะ~! ดูเหมือนว่าจำนวนสมาชิกจะเต็มแล้วล่ะ\nโทษทีนะ ชมรมนั้นดังมากเลยล่ะ"
 show shizu basic_happy
 with charachange
 
 shi "…"
 
-mi "Ah, okay! But, more to the point, Hicchan, does this mean that you don't have anything already in mind?"
+# mi "Ah, okay! But, more to the point, Hicchan, does this mean that you don't have anything already in mind?"
+mi "อ๊ะ โอเค! แต่ว่าอีกอย่างฮิจัง แปลว่าจริง ๆ ก็ยังไม่มีชมรมที่อยากเข้าใช่ปะ?"
 
-hi "Not really."
+# hi "Not really."
+hi "ก็ไม่มี"
 
 show shizu adjust_happy
 with charachange
@@ -552,32 +554,41 @@ shi "…"
 show misha cross_laugh
 with charachange
 
-mi "Good! Great~! That's great, Hicchan! Really great! Hahaha~! Wahahahaha~!"
 
-hi "Why's it so great?"
+# mi "Good! Great~! That's great, Hicchan! Really great! Hahaha~! Wahahahaha~!"
+mi "ดี! เยี่ยม~! นั่นเยี่ยมไปเลย ฮิจังนายนี่เยี่ยมเลย สุดยอดไปเลย ฮ่าฮ่าฮ่า~! วะฮ่าฮ่าฮ่าฮ่า~!"
+
+# hi "Why's it so great?"
+hi "จะดีอะไรขนาดน้าน"
 
 show misha cross_grin
 show shizu adjust_happy
 with charachange
 
-mi "No reason."
+# mi "No reason."
+mi "เปล๊า"
 
-mi "Well, Hicchan, other than clubs and the upcoming festival, there is one other thing…"
+# mi "Well, Hicchan, other than clubs and the upcoming festival, there is one other thing…"
+mi "ก็ นอกจากเรื่องชมรมกับงานเทศกาลที่จะมาถึง จริง ๆ ก็มีอีกอย่าง"
 
 show misha hips_laugh
 with charachange
 
-mi "Student Council!"
+# mi "Student Council!"
+mi "สภานักเรียน"
 
-"I see. I didn't know this school had a Student Council. That was a very melodramatic setup, though, just to tell me that."
+# "I see. I didn't know this school had a Student Council. That was a very melodramatic setup, though, just to tell me that."
+"อย่างงี้นี่เอง ไม่ยักรู้ว่าโรงเรียนนี้มีสภานักเรียนด้วย แต่ปูมาตั้งไกลเพื่อบอกแค่นี้เนี่ยนะ"
 
 show shizu adjust_blush
 with charachange
 
-"I'm pretty sure the two of them know this, because Shizune looks a little embarrassed about it, and Misha is laughing."
+# "I'm pretty sure the two of them know this, because Shizune looks a little embarrassed about it, and Misha is laughing."
+"ค่อนข้างมั่นใจว่าทั้งคู่น่าจะรู้ เพราะดูท่าทางชิซูเนะก็อาย ๆ และมิช่าก็หัวเราะ"
 
-"Shizune quickly retakes control of the discussion, in a manner of speaking. After all, it's still Misha who has to voice whatever she says."
 
+# "Shizune quickly retakes control of the discussion, in a manner of speaking. After all, it's still Misha who has to voice whatever she says."
+"ชิซูเนะรีบกลับมาเข้าบทด้วยท่าทางพูดแบบปกติ แต่ยังไงซะมิช่าก็ทำหน้าที่เป็นเสียงพูดให้เธออยู่ดี"
 show shizu behind_smile
 with charachange
 
@@ -586,25 +597,30 @@ shi "…"
 show misha cross_grin
 with charachange
 
-mi "Hahaha~! Hm? Right, right… Hicchan, maybe you should join the Student Council! They could use more people~. Yes! Definitely! You should definitely join!"
+# mi "Hahaha~! Hm? Right, right… Hicchan, maybe you should join the Student Council! They could use more people~. Yes! Definitely! You should definitely join!"
+mi "ฮ่าฮ่าฮ่า~! หืม ใช่ ๆ ฮิจัง นายน่าจะมาเข้ามาสภานักเรียนนะ ตอนนี้คนขาดมากเลยล่ะ\nใช่! แน่นอน! นายควรเข้านะ"
 
-hi "Why?"
-
+# hi "Why?"
+hi "ทำไมล่ะ?"
 show misha cross_smile
 with charachange
 
-mi "Well, for one, we could hang out every day, Hicchan~! Shicchan and I are both in the Student Council."
-
+# mi "Well, for one, we could hang out every day, Hicchan~! Shicchan and I are both in the Student Council."
+mi "ก็ อย่างแรกคือ เราจะได้อยู่ด้วยกันทุกวันไง ฮิจัง~! ฉันกับชิจังทั้งคู่เป็นสภานักเรียนด้วยล่ะ"
 show misha perky_smile
 with charachange
 
-mi "Actually, Shicchan is the president."
+# mi "Actually, Shicchan is the president."
+mi "จริง ๆ ก็ ชิจังเป็นประธานสภานักเรียนล่ะ"
 
-"Hm…"
+# "Hm…"
+"หืม…"
 
-"I'm starting to get the suspicion that Shizune and Misha might not exactly be the most unbiased people to talk about this with."
+# "I'm starting to get the suspicion that Shizune and Misha might not exactly be the most unbiased people to talk about this with."
+"ชักจะเริ่มสงสัยละว่าสภาพแบบนี้ทั้งคู่น่าจะอวยสภานักเรียนเกินจริงละ"
 
-"As if reading my mind, Shizune quickly adjusts her glasses and signs something to Misha."
+# "As if reading my mind, Shizune quickly adjusts her glasses and signs something to Misha."
+"ชิซูเนะก็เหมือนอ่านใจได้ รีบหันไปหามิช่าแล้วทำท่าภาษามือให้มิช่า"
 
 show shizu adjust_happy
 with charachange
@@ -613,10 +629,12 @@ shi "…"
 
 show misha hips_grin
 with charachange
+#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+# mi "Hahaha~! Of course, we're not trying to get you to join just because we would obviously benefit from you joining the Student Council and therefore have an incentive to try and get you to—"
+mi "ฮ่าฮ่าฮ่า~! แน่นอนว่าเราไม่ได้ตั้งใจว่าจะชวนนายเข้าไปเพื่อหวังผลประโยชน์อะไรจากนายหรืออะไรเทือกนั้น\nเลยพยายามชวนนายเข้า—"
 
-mi "Hahaha~! Of course, we're not trying to get you to join just because we would obviously benefit from you joining the Student Council and therefore have an incentive to try and get you to—"
-
-hi "So, you're admitting that—"
+# hi "So, you're admitting that—"
+hi "ยอมรับแล้วสินะ"
 
 show shizu behind_blank
 with charachange
@@ -626,7 +644,8 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "Ahaha~! No! We admit nothing~! I mean, Hicchan, of course it would be nice if you joined, and we'd appreciate it."
+# mi "Ahaha~! No! We admit nothing~! I mean, Hicchan, of course it would be nice if you joined, and we'd appreciate it."
+mi "อะฮ่าฮ่า~! เปล๊า ไม่ได้ยอมรับอะไรสักหน่อย~! ฮิจัง หมายถึงมันจะดีมากเลยถ้านายเข้ามาน่ะแล้วเราก็จะยินดียิ่ง"
 
 mi "But even without all that, joining the Student Council shows a healthy interest in the workings of one's school."
 
