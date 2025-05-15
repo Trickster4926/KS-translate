@@ -10,62 +10,94 @@ with openeye
 
 window show
 
-"I wake up in a strange room."
+"ฉันตื่นขึ้นมาในห้องที่ไม่คุ้นเคย"
 
-"Solid morning light shimmers against the light gray ceiling. I had forgotten to draw the curtains closed last night."
+"แสงแดดอ่อน ๆ ยามเช้าส่องกระทบกับเพดานสีเทาอ่อน ฉันลืมปิดม่านเมื่อคืนนี้"
 
-"I?"
+"ฉัน"
 
-"This is my room, isn't it?"
+"นี่เป็นห้องของฉัน สินะ?"
 
 play music music_dreamy fadein 8.0
 
-"My room…"
+"ห้อง…"
 
-"This is the third room this year that I'm supposed to call “mine.”"
+"นี่เป็นห้อง “ส่วนตัว” ห้องที่ 3 แล้วของปีนี้"
 
-"Various things around here remind me that indeed, it's me who is supposed to be the one living here."
+"แต่ดูจากสภาพห้องแล้วก็คงเป็นห้องของฉันจริง ๆ แหละ"
 
-"My bags on the floor, my new school books on the desk."
+"กระเป๋าบนพื้น หนังสือเรียนที่อยู่บนโต๊ะ"
 
-"My numerous medications on the night table."
+"และยาจำนวนมากที่อยู่บนโต๊ะหัวเตียง"
 
-"I stare at the bottles for a moment, deliberating, until I open a bottle, shake out a pill and pop out a tablet from a foil sheet."
+# "I stare at the bottles for a moment, deliberating, until I open a bottle, shake out a pill and pop out a tablet from a foil sheet."
 
-"I down them with a chaser of water without thinking about the chemistry."
+"ฉันจ้องมองขวดยาสักพัก จากนั้นจึงเปิดขวดยาและแกะยาออกมา"
 
-"My uniforms are in the closet."
+# "I down them with a chaser of water without thinking about the chemistry."
 
-"I slink out from under the sheets and stretch my back before dressing up."
+"จากนั้นก็กินยาพร้อมกระดกน้ำตามลงไปโดยไม่คิดถึงเรื่องของสรรพคุณ"
 
-"Putting on a new school uniform feels like dressing in someone else's clothes."
+# "My uniforms are in the closet."
 
-"The artificial smell of generic detergent invades my nose, but the feeling of fresh cloth against my back is a good one, a natural one."
+"ชุดนักเรียนอยู่ในตู้เสื้อผ้า"
 
-"It feels like a school uniform, as it should. It's not much different from what I used to wear before."
+# "I slink out from under the sheets and stretch my back before dressing up."
 
-"That goes for other things too. So far, this place seems more or less like a normal school."
+"ฉันลุกออกจากเตียง ยืดเส้นยืดสายก่อนไปอาบน้ำแต่งตัว"
 
-"Except for the people."
+# "Putting on a new school uniform feels like dressing in someone else's clothes."
 
-"I think back to my talk with Kenji yesterday, Misha's constant laughter, and Shizune's sweeping sign language gestures."
+"การใส่ชุดนักเรียนใหม่ให้ความรู้สึกเหมือนกับใส่เสื้อผ้าคนอื่นเลยแหะ"
 
-"Well, I've only met three students so far. Maybe they aren't that normal, but I'm sure others are."
+# "The artificial smell of generic detergent invades my nose, but the feeling of fresh cloth against my back is a good one, a natural one."
 
-"Or, perhaps, people like them are what passes for normal around here?"
+"กลิ่นหอมสังเคราะห์ของผงซักฟอกได้เตะจมูกฉัน\nแต่สัมผัสจากเนื้อผ้าที่ได้สัมผัสที่หลังนั้นรู้สึกเป็นธรรมชาติดี"
 
-"Yeah, what does pass for normal around here? What do people do?"
+# "It feels like a school uniform, as it should. It's not much different from what I used to wear before."
 
-"I didn't see a lot of kids hanging around after classes yesterday, so maybe there are clubs. If so, I wonder if I should join one."
+"ให้ความรู้สึกแบบที่ชุดนักเรียนควรจะเป็น ไม่แตกต่างกับชุดนักเรียนที่เคยใส่"
+
+# "That goes for other things too. So far, this place seems more or less like a normal school."
+
+"เรื่องอื่น ๆ ก็เหมือนกัน เท่าที่ดูแล้ว ที่นี่ก็เป็นเหมือนกับโรงเรียนทั่ว ๆ ไป"
+
+# "Except for the people."
+
+"ยกเว้นนักเรียนอะนะ"
+
+# "I think back to my talk with Kenji yesterday, Misha's constant laughter, and Shizune's sweeping sign language gestures."
+
+"พอนึกถึงบทสนทนาที่ได้คุยกับเคนจิเมื่อวาน มิช่าที่หัวเราะได้ตลอดเวลา และชิซูเนะที่ทำท่าภาษามือ"
+
+# "Well, I've only met three students so far. Maybe they aren't that normal, but I'm sure others are."
+
+"เอาเถอะ ฉันเองก็เพิ่งได้เจอกับแค่ 3 คนเอง บางทีอาจจะเป็นแค่พวกนั้นที่ไม่ค่อยปกติ แต่คนอื่นคงจะปกติดี"
+
+# "Or, perhaps, people like them are what passes for normal around here?"
+
+"หรือจริง ๆ แล้วพวกนั้นนับว่าปกติสำหรับที่นี่กันนะ?"
+
+# "Yeah, what does pass for normal around here? What do people do?"
+
+"อืม อะไรที่เรียกว่าปกติสำหรับที่นี่กันนะ คนที่นี่เขาทำอะไรกัน?"
+
+# "I didn't see a lot of kids hanging around after classes yesterday, so maybe there are clubs. If so, I wonder if I should join one."
+
+"เมื่อวานหลังเลิกเรียนก็ไม่ค่อยเห็นเด็กด้วย ไม่แน่ว่าที่นี่อาจจะมีชมรมก็ได้ ถ้าเป็นแบบนั้น\nฉันเองก็น่าจะเข้าสักชมรมแหละ"
 
 stop music fadeout 4.0
 
 scene bg school_scienceroom at bgleft
 with shorttimeskip
 
-"All through class, the question remains on my mind, so I decide to ask Shizune about it when we split into groups."
+# "All through class, the question remains on my mind, so I decide to ask Shizune about it when we split into groups."
 
-"After all, she did say if I had anything I wanted to know, I should ask her."
+"ตลอดทั้งคาบ มีคำถามผุดขึ้นมาในหัวมากมาย เลยว่าจะถามชิซูเนะสักหน่อยตอนที่แบ่งทำงานเป็นกลุ่ม"
+
+# "After all, she did say if I had anything I wanted to know, I should ask her."
+
+"ยังไงซะ เธอก็บอกเองว่าถ้ามีอะไรสงสัยก็ควรจะถามเธอ"
 
 show shizu behind_blank at center
 with charaenter
@@ -80,7 +112,8 @@ shi "…"
 show shizu cross_wut
 with charachange
 
-"She crosses her arms and shifts her gaze slowly to Misha, who looks more preoccupied with trying to grind the eraser of her pencil down so that the top is perfect and evenly flat."
+# "She crosses her arms and shifts her gaze slowly to Misha, who looks more preoccupied with trying to grind the eraser of her pencil down so that the top is perfect and evenly flat."
+"เธอกอดอกแล้วหันไปจ้องมิช่าที่กำลังง่วนกับการพยายามทำกดยางลบที่ก้นดินสอให้เรียบเสมอกัน"
 
 show shizu cross_angry
 with charachange
@@ -96,7 +129,8 @@ with charaenter
 
 play music music_happiness fadein 2.0
 
-mi "Ahaha~! Sorry, sorry, Shicchan~! Is there something you wanted from me?"
+# mi "Ahaha~! Sorry, sorry, Shicchan~! Is there something you wanted from me?"
+mi "อะฮาฮ่า~! โทษที ๆ ชิจัง มีอะไรหรอ?"
 
 show shizu basic_angry
 with charachange
@@ -104,10 +138,11 @@ with charachange
 show misha perky_confused
 with charachange
 
-mi "Oh~… I see! Hm… That's a good question, Hicchan."
+# mi "Oh~… I see! Hm… That's a good question, Hicchan."
+mi "อ๋อ~… งี่นี่เอง! อืม…ถามได้ดีฮิจัง"
 
-"My first thought is that means she doesn't know, which is worrying. Maybe I'm being too negative. Well, anyway, Misha, please don't prove me right."
-
+# "My first thought is that means she doesn't know, which is worrying. Maybe I'm being too negative. Well, anyway, Misha, please don't prove me right."
+"ตอนแรกที่เห็นท่าแบบนั้นฉันคิดว่าเธอจะไม่รู้ ซึ่งน่าเป็นห่วง แต่ฉันอาจจะคิดลบเกินไปก็ได้\nแต่เอาเถอะ มิช่า อย่าทำให้ฉันคิดถูกเลย"
 show shizu basic_normal2
 with charachange
 
@@ -116,28 +151,35 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Oh, that's right! Everyone is encouraged to join a club. A lot of people do so because there isn't really anything else to do."
+# mi "Oh, that's right! Everyone is encouraged to join a club. A lot of people do so because there isn't really anything else to do."
+mi "โอ๊ะ ใช่ ๆ ที่นี่แนะนำให้ทุก ๆ คนเข้าชมรม ซึ่งหลาย ๆ คนก็เข้านะ เพราะว่าไม่มีอะไรให้ทำแล้ว"
 
-mi "There are also school events, like the festival coming up in a few days. Almost every student in the school tends to help out with it, doing whatever."
 
+# mi "There are also school events, like the festival coming up in a few days. Almost every student in the school tends to help out with it, doing whatever."
+mi "แล้วก็จะมีกิจกรรมโรงเรียน อย่างงานเทศกาลที่จะมาถึงในอีกไม่กี่วันนี่ นักเรียนส่วนใหญ่ก็จะมาช่วยงานอะนะ"
 show misha hips_grin
 with charachange
 
-mi "So~! You actually transferred in at a busy time… maybe you can help out, too~!"
+# mi "So~! You actually transferred in at a busy time… maybe you can help out, too~!"
+mi "เพราะงั้น~! นายที่เพิ่งย้ายเข้ามาใหม่ในช่วงนี้ ก็ควรจะเข้ามาช่วยงานด้วยนะ~!"
 
-hi "Sure."
+# hi "Sure."
+hi "ได้สิ"
 
-hi "What's the festival about?"
+# hi "What's the festival about?"
+hi "แล้วงานที่ว่า เกี่ยวกับอะไรล่ะ?"
 
 show misha perky_confused
 with charachange
 
-"Misha freezes."
+# "Misha freezes."
+"มิช่านิ่งไปสักพัก"
 
 show misha hips_laugh
 with charachange
 
-mi "…Wahahaha~! I don't know, Hicchan, the truth is it's a local event, and I'm not from this area, so…"
+# mi "…Wahahaha~! I don't know, Hicchan, the truth is it's a local event, and I'm not from this area, so…"
+mi "…วะฮาฮาฮ่า~! ฉันก็ไม่รู้เหมือนกันฮิจัง จริง ๆ แล้วมันเป็นงานท้องถิ่นน่ะ แล้วฉันก็ไม่ก็ไม่ใช่คนแถวนี้ด้วย ก็…"
 
 show misha sign_confused
 with charachange
@@ -151,8 +193,8 @@ with charachange
 show shizu adjust_smug
 with charachange
 
-"She starts signing desperately to Shizune, asking her to bail her out. Shizune adjusts her glasses at the end of an oddly grandiose flourish and starts signing hard and heavy."
-
+# "She starts signing desperately to Shizune, asking her to bail her out. Shizune adjusts her glasses at the end of an oddly grandiose flourish and starts signing hard and heavy."
+"มิช่าพยายามทำภาษามือขอความช่วยเหลือจากชิซูเนะ ซึ่งเธอพอเธอดันแว่นด้วยท่าทางที่ดูภูมิฐานพิลึกนั้นแล้วก็เริ่มทำภาษามืออย่างเน้นหนัก"
 show shizu adjust_happy
 with charachange
 
@@ -161,21 +203,24 @@ shi "…"
 show misha sign_confused
 with charachange
 
-mi "Huh? Oh."
+# mi "Huh? Oh."
+mi "ฮะ? อ๋อ"
 
 show misha hips_grin
 with charachange
 
-mi "Who cares?"
-
+# mi "Who cares?"
+mi "ใครสนล่ะ?"
 show misha hips_smile
 with charachange
 
-"Misha puffs out her chest as she shouts Shizune's words out at me with a disproportionate amount of pride."
+# "Misha puffs out her chest as she shouts Shizune's words out at me with a disproportionate amount of pride."
+"มิช่าทำท่ายืดอกไปพลาง แล้วโพล่งคำพูดจากชิซูเนะ แต่ดูเหมือนจะถ่ายทอดความภาคภูมิใจในคำพูดได้ไม่เท่ากับของเจ้าตัว"
+# "Too loud. I can see heads turning to look in our direction."
+"ดังมาก ๆ จนคนทั้งห้องหันมาทางนี้"
 
-"Too loud. I can see heads turning to look in our direction."
-
-hi "Not so loud…"
+# hi "Not so loud…"
+hi "ดังเกิน ๆ"
 
 show shizu basic_normal
 with charachange
@@ -185,7 +230,8 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Human beings evolve with each new generation! The ideals and beliefs behind a festival will inevitably change with time!"
+# mi "Human beings evolve with each new generation! The ideals and beliefs behind a festival will inevitably change with time!"
+mi "เวลาเปลี่ยน ยุคสมัยเปลี่ยน คนก็เปลี่ยน อุดมคติและความเชื่อเบื้องหลังเทศกาลก็เปลี่ยนด้วย!"
 
 show shizu behind_frown
 with charachange
@@ -195,15 +241,16 @@ shi "…!"
 show misha hips_grin
 with charachange
 
-mi "Now, it's about delicious fried food and amusing little games that you play to win prizes~! Hahahaha~!"
+# mi "Now, it's about delicious fried food and amusing little games that you play to win prizes~! Hahahaha~!"
+mi "เดี๋ยวนี้ก็จะเป็นงานเกี่ยวกับของทอดอร่อย ๆ แล้วก็เกมงานวัดนิด ๆ หน่อย ๆ ฮ่าฮ่าฮ่าฮ่า~!"
 
-"The teacher clears his throat very loudly, batting his long wooden pointer against his other palm like a baton. He shoots a pointed gaze at us."
-
+# "The teacher clears his throat very loudly, batting his long wooden pointer against his other palm like a baton. He shoots a pointed gaze at us."
+"ครูกระแอมเสียงดัง พร้อมใช้ไม้เคาะฝ่ามือตัวเอง และมองค้อนมายังทางนี้"
 show misha sign_sad
 with charachange
 
-"Finally noticing where we are, Misha stifles a yelp and quickly quiets down. Shizune doesn't seem embarrassed at all, though, brushing it off without a care."
-
+# "Finally noticing where we are, Misha stifles a yelp and quickly quiets down. Shizune doesn't seem embarrassed at all, though, brushing it off without a care."
+"ในที่สุดมิช่าก็รู้ตัวและพยายามกลั้นเสียงให้เงียบลง ชิซูเนะดูไม่ได้อาย ไม่แม้แต่สนใจด้วยซ้ำ"
 show shizu basic_angry
 with charachange
 
@@ -212,32 +259,38 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "We are in the middle of class, and should start working."
+# mi "We are in the middle of class, and should start working."
+mi "เรายังอยู่ในคาบอยู่ แล้วควรเริ่มงานได้ละ"
 
 show misha perky_smile
 with charachange
 
-mi "That's right, Shicchan~!"
+# mi "That's right, Shicchan~!"
+mi "ใช่ ๆ ชิจัง"
 
 show shizu basic_sparkle
 show misha sign_smile
 with charachange
 
-mi "What? That's right~! Hicchan, are you asking because you're interested in joining a club?"
+# mi "What? That's right~! Hicchan, are you asking because you're interested in joining a club?"
+mi "อะไรนะ ใช่ ๆ ฮิจัง ที่ถามเนี่ยเพราะว่าอยากจะเข้าชมรมใช่มะ"
 
 show shizu behind_blank
 show misha perky_smile
 with charachange
+#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+# "It could have been my eyes playing tricks on me, but I think I saw a suspicious glance exchanged between them. Misha's tone has also changed, although it does that every other word, anyway."
+"ไม่รู้ว่าตาฝาดหรือเปล่า แต่เหมือนเห็นทั้งคู่จ้องตากันแปลก ๆ แถมน้ำเสียงของมิช่าก็เริ่มเปลี่ยนไปด้วย\nถึงแม้จริง ๆ จะเปลี่ยนทุก ๆ คำก็เถอะนะ"
 
-"It could have been my eyes playing tricks on me, but I think I saw a suspicious glance exchanged between them. Misha's tone has also changed, although it does that every other word, anyway."
+# hi "Yeah, I was thinking about it."
+hi "อืม ก็คิด ๆ อยู่"
 
-hi "Yeah, I was thinking about it."
-
-"Misha and Shizune look at each other again."
-
+# "Misha and Shizune look at each other again."
+"ทั้งสองคนมองหน้ากันอีกครั้ง"
 stop music fadeout 8.0
 
-"I'm about to ask what they have in mind when something dark flutters in my peripheral vision, catching my attention."
+# "I'm about to ask what they have in mind when something dark flutters in my peripheral vision, catching my attention."
+"ขณะที่กำลังจะถามว่าทั้งคู่คิดอะไรอยู่ จู่ ๆ ก็มีเงามืด ๆ เข้ามาข้าง ๆ ดึงความสนใจฉันไป"
 
 "Out of the corner of my eye, I see the girl with long, dark hair get up from her desk and slip silently towards the door."
 
