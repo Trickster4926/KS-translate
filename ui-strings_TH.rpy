@@ -75,7 +75,7 @@
     displayDict["th"].config_skip_unseen_label = u'ข้ามข้อความที่ไม่ได้อ่าน'
     displayDict["th"].config_skip_after_choice_label = u'ข้ามตัวเลือก'
     displayDict["th"].config_textspeed_label = u'ความเร็วข้อความ'
-    displayDict["th"].config_afmspeed_label = u'ดีเลย์โหมดออโต้'
+    displayDict["th"].config_afmspeed_label = u'เวลาระหว่างข้อความเมื่อเล่นอัตโนมัติ'
     displayDict["th"].config_musicvol_label = u"ระดับเสียงเพลง"
     displayDict["th"].config_musicvol_jukebox_label = u"Vol."
     displayDict["th"].config_sfxvol_label = u"ระดับเสียงประกอบ"

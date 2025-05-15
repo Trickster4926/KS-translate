@@ -15,41 +15,41 @@ window show
 
 play music music_serene fadein 2.0
 
-"A light breeze causes the naked branches overhead to rattle like wooden windchimes."
+"ลมโชยพัดให้กิ่งไม้เสียดสีกันดังเป็นจังหวะ"
 
-"This is a popular retreat for couples in the summer. The deciduous trees provide a beautiful green canopy, far out of sight of teachers and fellow students."
+"ที่นี่เป็นที่ที่คู่รักมักมาอยู่ด้วยกันในหน้าร้อน ทั้งต้นไม้ที่ผลัดใบ ใบไม้เขียวขจี และปลอดคน"
 
-"But now, in late winter, it feels like I'm standing under a pile of kindling."
+"แต่เมื่อเป็นช่วงปลายหน้าหนาวอย่างตอนนี้ก็ไม่ต่างอะไรกับการยืนอยู่ใต้กิ่งไม้แห้ง ๆ"
 
-"I breathe into my cupped hands and rub them together furiously to prevent them from numbing in this cold."
+"ระหว่างรอก็คอยเป่าลมอังแล้วถูมือเพื่อไม่ให้ประสาทชาท่ามกลางอากาศหนาวเย็นไปเสียก่อน"
 
-hi "Just how long am I expected to wait out here, anyway? I'm sure the note said 4:00 PM."
+hi "ต้องรอนานแค่ไหนเนี่ย เหมือนในกระดาษก็บอกว่าสี่โมงนะ"
 
-"Ah yes… the note… slipped between the pages of my math book while I wasn't looking."
+"ใช่... กระดาษโน้ต... ที่แอบมาแทรกตัวอยู่ในหนังสือคณิต"
 
-"As far as clichés go, I'm more a fan of the letter-in-the-locker, but at least this way shows a bit of initiative."
+"ถ้าพูดถึงวิธีอะไรที่มันเชย ๆ จริง ๆ ชอบแบบที่เป็นจดหมายในตู้ล็อกเกอร์มากกว่านะ แต่อย่างน้อยวิธีนี้ก็ทำให้เห็นถึงความตั้งใจดี"
 
-"As I ponder the meaning of the note, the snowfall gradually thickens."
+"หิมะค่อย ๆ ทับถมหนาขึ้นระหว่างที่กำลังคิดถึงกระดาษโน้ตนั้น"
 
-"The snowflakes silently falling from the white-painted sky are the only sign of time passing in this stagnant world."
+"สิ่งบอกกระแสเวลาที่ไหลผ่านเดียวในโลกอันเอื่อยเฉื่อยนี้คือเกล็ดหิมะที่ร่วงหล่นลงมาจากฟากฟ้าสีขาว"
 
-"Their slow descent upon the frozen forest makes it seem like time has slowed to a crawl."
+"ความอ้อยอิ่งของมันทำให้ดูเหมือนว่าเวลาช้าลง"
 
 play sound sfx_rustling
 
-"The rustling of dry snow underfoot startles me, interrupting the quiet mood. Someone is approaching me from behind."
+"เสียงย่ำหิมะที่ทำลายความเงียบทำให้ฉันตกใจ มีบางอย่างกำลังมาจากข้างหลัง"
 
-mystery "Hi… Hisao? You came?"
+mystery "ฮิ... ฮิซาโอะ มาด้วยเหรอ"
 
-"A hesitating, barely audible question."
+"เป็นคำถามอันแผ่วเบาที่ดูอึกอัก"
 
-"However, I recognize the owner of that dainty voice instantly."
+"แต่ฉันจำเสียงอันบอบบางนั้นได้ทันที"
 
-"I feel my heart skip a beat."
+"ใจฉันเต้นไม่เป็นส่ำ"
 
-"It's a voice I've listened to hundreds of times, but never as more than an eavesdropper to a conversation."
+"เป็นเสียงที่ได้ยินมาแล้วหลายร้อยครั้ง แต่ก็เพียงในฐานะคนแอบฟังเท่านั้น"
 
-"I turn to face this voice, the voice of my dreams, and my heart begins to race…"
+"ฉันหันไปทางเสียงในฝันนั้น ทำเอาใจเริ่มเต้นแรง"
 
 window hide
 
@@ -60,15 +60,15 @@ with GenericWhiteout(0.5,0.0,5.0)
 
 window show
 
-hi "Iwanako? I got a note telling me to wait here… it was yours?"
+hi "อิวานาโกะเหรอ เห็นมีโน้ตบอกให้มารอที่นี่... ของเธอใช่มั้ย"
 
-"Dammit. I spent all afternoon trying to come up with a good line and that was the result."
+"ให้ตายเถอะ นั่งคิดบทดี ๆ มาทั้งบ่ายแล้วดันได้แค่นี้"
 
-"Pathetic."
+"น่าสมเพช"
 
-"Iwanako" "Ahmm… yes. I asked a friend to give you that note… I'm so glad you got it."
+"อิวานาโกะ" "อ่า... ใช่ พอดีฝากเพื่อนเอาไปให้น่ะ... ดีจังที่นายเห็น"
 
-"A shy, joyous smile that makes me so tense I couldn't move a single muscle even if I tried."
+"รอยยิ้มที่ทั้งดีใจและเขินอายเล่นเอาเกร็งจนขยับตัวแทบไม่ได้"
 
 stop music fadeout 10.0
 
@@ -96,7 +96,7 @@ with Dissolve (0.7)
 
 window show
 
-"My heart is pounding now, as if it were trying to burst out from my chest and claim this girl for itself."
+"หัวใจเต้นแรงราวกับจะออกมาจากหน้าอกเพื่อรับเธอคนนี้ไว้เสียเอง"
 
 window hide
 
@@ -106,17 +106,17 @@ with GenericWhiteout(0.5,0.0,3.0)
 
 window show
 
-hi "So… ah… here we are. Out in the cold…"
+hi "คือ... เอ่อ... แล้ว ทีนี้ยังไงต่อเหรอ..."
 
-"Once again, the wind stirs up the branches. The cacophonous noise is music to my ears."
+"ลมพัดกิ่งไม้อีกครั้ง เสียงที่ดูไร้ระเบียบกลับดูน่าฟัง"
 
-"Iwanako flinches ever so softly against the gust of wind."
+"อิวานาโกะสะดุ้งเล็กน้อยกับลมที่พัดนั้น"
 
-"As it passes, she rights herself, as if supported by some new confidence."
+"เมื่อสายลมผ่านไป เธอก็จัดแจงตัวเองราวกับมีความกล้าขึ้นมาใหม่"
 
-"Her eyes lock with mine and she lazily twirls her long, dark hair around her finger."
+"เธอจ้องมองฉัน พลางม้วนผมยาวดำขลับนั้นเล่น"
 
-"All the while, the anxious beating of my heart grows louder."
+"ในใจฉันก็ตื่นเต้นตาม"
 
 window hide
 
@@ -126,9 +126,9 @@ with GenericWhiteout(0.5,0.0,2.0)
 
 window show
 
-"My throat is tight; I doubt I could even force a word out if I tried."
+"รู้สึกจุกคอหอยไปหมด อยากจะพูดแต่ก็พูดไม่ออก"
 
-"Iwanako" "You see…"
+"อิวานาโกะ" "ก็นะ…"
 
 window hide
 
@@ -141,7 +141,7 @@ with Dissolve (0.4)
 
 window show
 
-"Iwanako" "…I wanted to know…"
+"อิวานาโกะ" "…คือว่า เรา…"
 
 stop music fadeout 0.5
 
@@ -165,19 +165,19 @@ with Dissolve (0.2)
 
 window show
 
-"Iwanako" "… if you'd go out with me…"
+"อิวานาโกะ" "… มาคบกันมั้ย…"
 
-"I stand there, motionless, save for my pounding heart."
+"ฉันยืนนิ่งอยู่อย่างนั้นเพราะใจที่เต้นอยู่"
 
-"I want to say something in reply, but my vocal cords feel like they've been stretched beyond the breaking point."
+"พอจะพูดอะไรตอบก็รู้สึกเหมือนเส้นเสียงถูกดึงจนขาด"
 
 play music music_tragic fadein 0.05
 
-"Iwanako" "… Hisao?"
+"อิวานาโกะ" "… ฮิซาโอะ?"
 
-"I reach up to try to massage my throat, but this only sends spikes of blinding pain along my arms."
+"พยายามจะเปล่งเสียงออกมา แต่กลับได้ความปวดตามแขนมาแทน"
 
-"Iwanako" "Hisao?!"
+"อิวานาโกะ" "ฮิซาโอะ?!"
 
 window hide
 
@@ -190,7 +190,7 @@ with Dissolve (0.8)
 
 window show
 
-"My whole body freezes, save for my eyes, which shoot open in terror."
+"ทั้งตัวขยับไม่ได้ ตาเบิกค้างด้วยความตกใจกลัว"
 
 window hide
 
@@ -230,9 +230,9 @@ with Dissolve (0.8)
 
 window show
 
-"Iwanako" "HISAO!"
+"อิวานาโกะ" "{b}ฮิซาโอะ{/b}!"
 
-"The beating in my chest suddenly stops, and I go weak at the knees."
+"จู่ ๆ หัวใจก็หยุดเต้น เข่าอ่อนแรงจนทรุดลง"
 
 window hide
 
@@ -241,9 +241,9 @@ with None
 
 nvl show Dissolve(0.2)
 
-n "\n\n\n\n\n\n\nThe world around me - the canopy of bare branches, the dull winter sky, Iwanako running towards me - all these fade to black."
+n "\n\n\n\n\n\n\nโลกรอบตัว—กิ่งไม้ที่ปกคลุม ฟ้าหมองมัว อิวานาโกะที่พุ่งเข้ามา—ต่างดับมืด"
 
-n "\nThe last things I remember before slipping away are the sounds of Iwanako screaming for help and the incessant clatter of the branches above…"
+n "\nสิ่งสุดท้ายที่จำได้คือเสียงของอิวานาโกะที่กรีดร้องขอความช่วยเหลือและเสียงกิ่งไม้ที่เสียดสีกันไม่หยุดหย่อน..."
 
 nvl hide Dissolve(3.0)
 
@@ -262,7 +262,7 @@ window hide None
 scene black
 with None
 
-centered "It's been four months since my heart attack." with dissolve
+centered "สี่เดือนมาแล้วตั้งแต่หัวใจวายครั้งนั้น" with dissolve
 
 scene bg hosp_room
 show sakura
@@ -274,97 +274,97 @@ play music music_rain fadein 4.0
 
 nvl show dissolve
 
-n "\n\nIn that whole time, I can probably count the times I've left this hospital room unsupervised on one hand."
+n "\n\nช่วงสี่เดือนนั้นแทบจะนับนิ้วได้เลยว่าได้ออกจากโรงพยาบาลโดยไม่มีคนตามคุมกี่ครั้ง"
 
-n "Four months is a pretty long time when you're left alone with your thoughts. So, I've had plenty of time to come to terms with my situation."
+n "สี่เดือนนั้นถือว่าเป็นเวลาที่นานถ้าได้อยู่แค่กับตัวเอง ถึงได้มีเวลาพอที่จะทำใจกับสถานการณ์ตัวเองได้แบบเหลือเฟือ"
 
-n "Arrhythmia."
+n "โรคหัวใจเต้นผิดจังหวะ"
 
-n "A strange word. A foreign, alien one. One that you don't want to be in the same room with."
+n "เป็นคำที่ฟังดูไม่น่าอภิรมย์ อยากหนีไปให้ห่าง"
 
-n "A rare condition. It causes the heart to act erratically and occasionally beat way too fast. It can be fatal."
+n "เป็นอาการที่พบไม่มากที่ทำให้หัวใจเต้นอย่างผิดปกติหรือเร็วเกินไป และเป็นอันตรายถึงชีวิต"
 
-n "Apparently, I've had it for a long time. They said it was a miracle that I was able to go on so long without anything happening."
+n "ดูเหมือนว่าจะเป็นมานานแล้วด้วย เห็นบอกว่าปาฏิหาริย์มากที่อยู่มาได้ขนาดนี้โดยไม่เป็นอะไรเลย"
 
-n "Is that really a miracle? I guess it was supposed to make me feel better, more appreciative of my life."
+n "ปาฏิหาริย์เลยเหรอ พูดให้รู้สึกดีที่ยังรอดมาประมาณนั้นมั้ง"
 
-n "It really didn't do anything to cheer me up."
-
-nvl clear
-
-n "\n\n\n\n\nMy parents, I think, were hit harder by the news than I was. They practically had two hemorrhages apiece."
-
-n "\nI had already had a full day by then to digest everything. To them, it was all fresh. They were even willing to sell our house in order to pay for a cure."
-
-n "\n\nOf course there isn't a cure."
+n "ซึ่งไม่ได้ช่วยให้รู้สึกดีขึ้นสักเท่าไหร่"
 
 nvl clear
 
-n "\nBecause of the late discovery of this… condition, I've had to stay at the hospital, to recuperate from the treatments."
+n "\n\n\n\n\nส่วนพ่อแม่ก็ดูเหมือนจะช็อกกว่าฉัน ช็อกจนหัวใจจะวายแทนแล้วมั้ง"
 
-n "When I was first admitted, it felt as if I was missed…"
+n "\nฉันก็มีเวลาเป็นวัน ๆ ให้ทำใจหมดแล้ว แต่ทั้งพ่อแม่ก็เพิ่งรู้ ณ ตอนนั้นเลย ยอมจะขายบ้านเพื่อจ่ายค่ารักษาให้หายขาดด้วยซ้ำ"
 
-n "For about a week, my room in the ward was full of flowers, balloons and cards."
-
-n "But, the visitors soon dwindled and all the get-well gifts began trickling down to nothing shortly after."
-
-n "I realized that the only reason I had gotten so many cards and flowers was because sending me their sympathy had been turned into a class project."
-
-n "Maybe some people were genuinely concerned, but I doubt it. Even in the beginning, I barely had visitors. By the end of the first month, only my parents came by on a regular basis."
-
-n "Iwanako was the last to stop visiting."
-
-n "After six weeks, I never saw her again. We never had that much to talk about when she visited, anyway."
-
-n "We didn't touch the subject that was between us on that snowy day ever again."
+n "\n\nซึ่งแน่นอนว่าไม่มีทางรักษาให้หายขาด"
 
 nvl clear
 
-n "\nThe hospital?"
+n "\nเพราะเพิ่งมารู้อาการ... นี้ ถึงต้องอยู่โรงพยาบาลเพื่อพักฟื้นจากการรักษา"
 
-n "It's not really a place I'd like to live in."
+n "ตอนที่มาอยู่ใหม่ ๆ ก็เหมือนมีคนคอยคิดถึงอยู่หรอก..."
 
-n "The doctors and nurses feel so impersonal and faceless."
+n "ห้องมีแต่ดอกไม้ ลูกโป่ง การ์ด เต็มไปหมดอยู่สักสัปดาห์ได้"
 
-n "I guess it's because they are in a hurry and they have a million other patients waiting for them, but it makes me feel uncomfortable."
+n "แต่ผ่านไปไม่นานคนมาเยี่ยมก็ร่อยหรอลง ของฝากอะไรก็เริ่มหายไปจนไม่มีเลย"
 
-n "For the first month or so, I asked the head cardiologist every time I saw him for a rough estimate of when I'd be able to leave."
+n "จนมารู้ว่าที่ส่งการ์ดกับดอกไม้มาอวยพรให้เพราะแค่เป็นงานห้องเฉย ๆ"
 
-n "He never answered anything in a straightforward way, but told me to wait and see if the treatment and surgeries worked."
+n "คนเป็นห่วงจริง ๆ ก็คงมีแหละ แต่ก็นะ ขนาดทีแรกยังแทบไม่มีคนมาเลย ผ่านไปเดือนนึงก็มีแค่พ่อแม่ที่มาเป็นประจำ"
 
-n "\nSo, I idly observed the scar that those surgeries had left on my chest slowly change its appearance over time, thinking of it as some kind of an omen."
+n "อิวานาโกะเป็นคนสุดท้ายที่หายหน้าไป"
 
-n "I still ask the head cardiologist about leaving, but my expectations are low enough now that I'm not disappointed any more when I don't get a reply. The way he shuffles around the answer shows that there is at least some hope."
+n "ผ่านไปหกสัปดาห์ก็ไม่เห็นเธออีกเลย แต่ยังไงตอนมาเยี่ยมก็แทบไม่ได้คุยกันอยู่แล้ว"
+
+n "เราไม่ได้คุยเรื่องวันหิมะตกนั้นอีกเลย"
+
+nvl clear
+
+n "\nโรงพยาบาลเหรอ"
+
+n "ไม่ใช่ที่ที่อยากอยู่นักหรอก"
+
+n "ทั้งหมอทั้งพยาบาลก็รู้สึกเหมือนเป็นคนแปลกหน้ายังไงไม่รู้"
+
+n "คงเพราะรีบแล้วก็มีคนไข้อีกเป็นล้านรออยู่ละมั้ง แต่ก็รู้สึกอึดอัดเหมือนกัน"
+
+n "ช่วงเดือนแรก ๆ พอเห็นหมอหัวใจก็คอยถามอยู่ว่าจะออกได้สักเมื่อไหร่"
+
+n "เขาไม่เคยตอบอะไรตรง ๆ เลย บอกแค่ว่ารอดูว่าการรักษากับการผ่าตัดจะได้ผลมั้ย"
+
+n "\nเลยมานั่งมองแผลเป็นหลังผ่าตัดที่ค่อย ๆ เปลี่ยนรูปไปเรื่อย ๆ มองเหมือนเป็นตัวกาลกิณีสักอย่าง"
+
+n "ก็ยังถามเขาเรื่องออกจากโรงพยาลอยู่นั่นแหละ ถึงจะไม่ได้คาดหวังอะไรจากคำตอบที่ไม่เคยมีจากรอบก่อน ๆ แล้ว\nแต่ถ้ายังเลี่ยง ๆ ไปมาแบบนี้ก็อาจจะพอมีหวังอยู่"
     
 nvl clear
 
-n "\n\n\n\nAt some point I stopped watching TV. I don't know why, I just did."
+n "\n\n\n\nพอถึงจุดนึงก็ไม่ได้ดูทีวีเลย ไม่รู้หรอกทำไม แต่ก็ไม่ได้ดูแล้ว"
 
-n "Maybe it was the wrong kind of escapism for my situation."
+n "อาจจะเพราะดูไปก็ไม่ได้รู้สึกเป็นอิสระจากสถานการณ์ตอนนี้เท่าไหร่"
 
-n "\nI started reading instead. There was a small “library” at the hospital, although it was more like a storeroom for books. I began working my way through it, one small stack at a time. After consuming them, I would go back for more."
+n "\nเลยหันมาอ่านหนังสือแทน ที่โรงพยาบาลมี “ห้องสมุด” อยู่ ถึงจะเหมือนเป็นแค่ห้องเก็บหนังสือเฉย ๆ ก็เถอะ ก็ค่อย ๆ อ่านไปทีละกอง พออ่านกองนึงหมดแล้วก็ไปเอามาใหม่"
 
-n "I found that I liked reading and I think I even became a bit addicted. I started feeling naked without a book in my hands."
+n "ถึงได้รู้ตัวว่าชอบอ่านหนังสือ ออกจะเสพติดด้วยซ้ำ เริ่มรู้สึกเหมือนพอไม่มีหนังสือติดมือแล้วเหมือนขาดอะไรไป"
 
-n "\nBut I loved the stories."
+n "\nฉันชอบอ่านเรื่องราว"
 
 nvl clear
 
-n "\nThat was what my life was like."
+n "\nนั่นแหละชีวิตฉัน"
 
-n "\nThe days became increasingly harder to distinguish from each other, differing only by the book I was reading and the weather outside. It felt like time blurred into some kind of gooey mass I was trapped inside, instead of moving within."
+n "\nวัน ๆ เริ่มเหมือนกันไปหมด ต่างก็แค่หนังสือที่อ่านกับสภาพอากาศข้างนอก เหมือนเวลาเป็นก้อนอะไรใหญ่ ๆ สักอย่างที่ฉันติดอยู่ข้างใน ไม่ได้เคลื่อนไปไหน"
 
-n "A week could go by without me really noticing it."
+n "บางทีสัปดาห์นึงผ่านไปยังไม่รู้ตัวด้วยซ้ำ"
 
-n "Sometimes, I'd pause in realization that I didn't know what day of the week it was."
+n "บางทีก็มานั่งคิดว่าวันนี้วันอะไร"
 
-n "But other times, all the things that surrounded me would painfully crash into my consciousness, through the barrier of nonchalance I had set up for myself." 
+n "แต่ก็มีบางทีที่ทุกอย่างเข้ากระทบประสาทรับรู้ของฉันอย่างหนักหน่วงผ่านกำแพงความเมินเฉยที่ฉันสร้างขึ้นมา" 
 
-n "The pages of my book would start to feel sharp and burning hot and the heaviness in my chest would become so hard to bear that I had to put the book aside and just lay down for a while, looking at the ceiling as if I was going to cry." 
+n "รู้สึกเหมือนจับหนังสือก็เจ็บ ในอกก็แน่นไปหมดจนต้องวางหนังสือแล้วนอนมองเพดานอยู่เฉย ๆ สักพักเหมือนจะร้องไห้" 
 
-n "But that happened only rarely."
+n "แต่ก็เป็นแบบนั้นไม่บ่อย"
 
-n "\nAnd I couldn't even cry."
+n "\nแถมร้องไห้ไม่ออกด้วยซ้ำ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -374,27 +374,27 @@ nvl clear
 
 window show
 
-"Today, the doctor comes in and gives me a smile. He seems excited, but not very. It's like he is trying to make an effort to be happy on my behalf."
+"วันนี้หมอเข้ามายิ้มทักทาย เหมือนจะดูตื่นเต้นแต่ก็ไม่ ออกแนวพยายามร่าเริงแทนฉันมากกว่า"
 
-"My parents are here. It's been a few days since I've last seen them. Both of them are even sort of dressed up. Is this supposed to be some kind of special occasion? It's not a party."
+"พ่อแม่ก็มาด้วย ไม่เห็นหน้ามาสองสามวันแล้วเหมือนกัน ทั้งคู่ก็ดูจะแต่งตัวมาดีด้วย แต่เนื่องในโอกาสอะไร\nไม่ได้จะจัดงานเลี้ยงนี่"
 
-"There is this ritual the head cardiologist has. He takes his time, sorting his papers, then setting them aside as if to make a point of the pointlessness of what he just did."
+"หมอหัวใจจะชอบทำแบบนี้ประจำ จะอยู่สักพักก่อน แล้วก็จัดเอกสาร แล้วก็วางไว้เหมือนจะให้ที่ทำอะไรไร้สาระเมื่อกี้มีสาระขึ้นมา"
 
-"Then he casually sits down on the edge of the bed next to mine. He looks me in the eyes for a moment."
+"แล้วก็มานั่งสบาย ๆ ตรงริมเตียงที่อยู่ถัดกัน มองตาอยู่สักพักหนึ่ง"
 
-"Doctor" "Hello, Hisao. How are you today?"
+"หมอ" "สวัสดีฮิซาโอะ วันนี้เป็นไงบ้าง"
    
-"I don't answer him but I smile a little, back at him."
+"ฉันไม่ตอบ แต่ยิ้มน้อย ๆ กลับไปให้"
 
-"Doctor" "I believe that you can go home; your heart is stronger now, and with some precautions, you should be fine."
+"หมอ" "เธอน่าจะกลับบ้านได้แล้วนะ หัวใจก็แข็งแรงขึ้นแล้ว ถ้าระวังตัวอะไรอีกหน่อยก็ใช้ได้แล้วละ"
 
-"Doctor" "We have all your medication sorted out. I'll give your father the prescription."
+"หมอ" "หมอสั่งยาไว้ให้แล้ว เดี๋ยวจะให้ใบสั่งยากับพ่อเธอไว้นะ"
 
-"The doctor hands a sheet of paper to my dad, whose expression turns wooden as he reads it quickly."
+"หมอให้กระดาษใบหนึ่งกับพ่อ ซึ่งสีหน้าดูเครียดขึ้นมาทันทีที่กวาดตาอ่าน"
 
-"Dad" "So many…" 
+"พ่อ" "เยอะมาก..." 
 
-"I take it from his hand and take a look myself, feeling numb. How am I supposed to react to this?"
+"ฉันหยิบมาจากพ่อแล้วอ่านบ้าง ทั้งตัวชาวาบ จะให้รู้สึกยังไงเล่า"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
@@ -406,17 +406,17 @@ show wallodrugs:
     easein 25.0 xalign 1.0
 
 
-"The absurdly long list of medications staring back at me from the paper seems insurmountable. They all blend together in a sea of letters."
+"รายการยายาวเหยียดที่จ้องมองฉันมาจากกระดาษดูจะมากมายเกินไป ปนระคนกันอยู่ในทะเลตัวหนังสือ"
 
-"This is insane."
+"บ้าไปแล้ว"
 
-"Side effects, adverse effects, contraindications and dosages are listed line after line with cold precision."
+"ผลข้างเคียง อาการไม่พึงประสงค์ ข้อห้ามใช้ ขนาดยา ทั้งหมดเรียงบรรทัดกันเน้นย้ำอย่างหนักแน่น"
 
-"I try to read them, but it's so futile."
+"พยายามอ่านแล้วแต่ก็ไร้ผล"
 
-"I can't understand any of it. Attempting to only makes me feel sicker."
+"ไม่เข้าใจอะไรสักอย่างเลย ยิ่งคิดก็ยิ่งเวียนหัว"
 
-"All this… for the rest of my life, every day?"
+"ทั้งหมดนี่... ทุกวัน ไปตลอดชีวิต น่ะนะ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -425,87 +425,87 @@ show sakura
 show hospitalmask
 with fade
 
-"Doctor" "I'm afraid that is the best we can do at this point."
+"หมอ" "หมอเกรงว่านี่คือสิ่งที่ดีที่สุดที่เราจะทำได้แล้ว"
 
-"Doctor" "However, new medications are always being developed, so I wouldn't be surprised to see that list fade over the years."
+"หมอ" "แต่ว่ายาใหม่ ๆ ก็ถูกพัฒนาเรื่อย ๆ อยู่แล้ว ถ้านาน ๆ ไปบางตัวจะหายไปบ้างก็คงไม่แปลกใจ"
 
-"Years… What kind of confidence booster is that? I'd have felt better if he hadn't said anything at all…"
+"นาน ๆ ไป... อันนี้คือจะให้ใจชื้นขึ้นหรืออะไร ถ้าไม่พูดอะไรเลยยังจะดีกว่ามั้ง..."
 
-"Doctor" "Also, I've spoken with your parents and we believe that it would be best if you don't return to your old school."
+"หมอ" "แล้วก็ หมอคุยกับพ่อแม่เธอแล้วนะว่าไม่ต้องกลับไปเรียนที่เดิมแล้วจะดีกว่า"
 
-"What!?"
+"อะไรนะ!"
 
-"Dad" "Please, calm down, Hisao. Listen to what the doctor has to say…"
+"พ่อ" "ใจเย็นก่อนนะฮิซาโอะ ฟังหมอเขาพูดก่อน..."
 
-"Calm down? The way he says it tells me he knew full well that I wouldn't like it. Am I going to be home schooled?"
+"ใจเย็นเหรอ ดูที่พูดนี่ก็คงรู้แล้วมั้งว่าจะไม่เอาด้วย นี่จะได้โฮมสคูลเหรอ"
 
-"Whatever of my concern shows, it's ignored."
+"แต่ความไม่สบายใจใด ๆ ที่แสดงออกมาก็ถูกเมิน"
 
-"Doctor" "We all understand that your education is paramount; however, I don't think that it's wise for you to be without supervision."
+"หมอ" "หมอรู้ว่าการศึกษาของเธอนั้นสำคัญ แต่ว่าถ้าไปโดยไม่มีคนคอยดูแลคงไม่ดีเท่าไหร่"
 
-"Doctor" "At least not until we're sure that your medication is suitable."
+"หมอ" "อย่างน้อย ๆ ก็จนกว่าจะแน่ใจว่ายาที่สั่งไปลงตัวแล้ว"
 
-"Doctor" "So, I've spoken to your parents about a transfer."
+"หมอ" "ก็เลยคุยกับพ่อแม่เธอเรื่องย้ายโรงเรียน"
 
-"Doctor" "It's a school called Yamaku Academy that specializes in dealing with disabled students."
+"หมอ" "จะได้ย้ายไปที่โรงเรียนยามากุที่จัดตั้งมาเพื่อนักเรียนพิการ"
 
-"Disabled? What? Am I…"
+"พิการเหรอ อะไรนะ นี่ฉัน..."
 
-"Doctor" "It has a 24-hour nursing staff and it's only a few minutes from a highly regarded general hospital. The majority of students live on the campus."
+"หมอ" "มีทีมพยาบาลอยู่ตลอดยี่สิบสี่ชั่วโมง แถมเดินทางไม่กี่นาทีก็ถึงโรงพยาบาลใหญ่ชั้นนำด้วย\nนักเรียนส่วนใหญ่ก็อยู่หอในนั่นแหละ"
 
-"Doctor" "Think of it as a boarding school of sorts. It's designed to give students a degree of independence, while keeping help nearby."
+"หมอ" "ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย" #possibly longest text for Thai before slash n
 
-"Independence? It's a school for disabled kids. Don't try to disguise that fact."
+"อิสระเหรอ ยังไงมันก็โรงเรียนสำหรับคนพิการนั่นแหละ อย่าเลี่ยงไปมาสิ"
 
-"If it was really that “free,” there wouldn't be a 24-hour nursing staff, and you wouldn't make a hospital being nearby a selling point."
+"ถ้า “อิสระ” ขนาดนั้นจริง ๆ จุดขายก็คงไม่ใช่ทีมพยาบาลยี่สิบสี่ชั่วโมงกับความใกล้โรงพยาบาลหรอก"
 
-"Dad" "Of course, that's only if you want to go. But… your mother and I aren't really able to home school you."
+"พ่อ" "ซึ่งก็ต้องถามความเห็นลูกก่อนอยู่ดีน่ะนะ แต่ว่า... แม่กับพ่ออยู่โฮมสคูลให้ไม่ได้หรอก"
 
-"Dad" "We went out there and had a look a couple of weeks back; I think you'd like it."
+"พ่อ" "แม่กับพ่อก็ไปดูมาเมื่อสองสามอาทิตย์ก่อนแล้ว ลูกน่าจะชอบนะ"
 
-"It looks like I really don't have a choice."
+"โอเค คงไม่มีทางเลือกจริง ๆ นั่นละ"
 
-"Doctor" "Compared to other heart problems, people with your condition usually tend to live long lives. You'll need a job one day and this is a good opportunity to continue your education."
+"หมอ" "ถ้าเทียบกับโรคหัวใจอย่างอื่น คนที่มีอาการอย่างเธอปกติก็อยู่ได้นานเลย\nเป็นโอกาสอันดีที่จะได้กลับมาเรียนด้วย สักวันเธอก็ต้องหางานทำอีก"
 
-"This isn't an opportunity, don't call it an opportunity. Don't call it a goddamned opportunity."
+"ไม่ใช่โอกาสสักหน่อย อย่าเรียกว่าโอกาสเลย โอกงโอกาสอะไร"
 
-"Doctor" "Well, you should be excited at the chance to go back to school. I remember you wanted to return to school, and while it's not the same one…"
+"หมอ" "ก็ ได้กลับเข้าโรงเรียนแบบนี้ต้องตื่นเต้นสิ เห็นเธออยากกลับไปเรียนนี่ ถึงจะไม่ใช่ที่เดิมก็เถอะ..."
 
-"A special school. That's…"
+"โรงเรียนพิเศษเหรอ นี่จะ..."
 
-"An insult. That is what I want to say. It's a step down."
+"ตบหน้ากันหรืออะไร อยากบอกแบบนั้นแหละ เหมือนซ้ำเติมกันอีก "
 
-"Dad" "It's not what you think. All of the students there are pretty active, in their own sort of way."
+"พ่อ" "ไม่ใช่อย่างที่ลูกคิดหรอก นักเรียนที่นั่นเขาต่างก็กระตือรือร้นกันในแบบของตัวเองดี"
 
-"Dad" "It's geared towards students that can still get around and learn, but just need a little help… in one way or another."
+"พ่อ" "เป็นโรงเรียนเพื่อคนที่ยังพอใช้ชีวิตเรียนรู้อะไรได้ที่อาจจะต้องการความช่วยเหลือ... สักหน่อย"
 
-"Doctor" "Your father's right. And many of the graduates of the school have gone on to do amazing things. A person doesn't have to be held back by their disability."
+"หมอ" "พ่อเธอพูดถูก ศิษย์เก่าที่นั่นหลายคนจบไปก็ทำอะไรหลายอย่าง คนเราเอาความพิการมารั้งไว้ไม่ได้หรอก"
 
-"Doctor" "One of my colleagues in another hospital is a graduate."
+"หมอ" "เพื่อนร่วมงานหมอคนนึงที่อยู่อีกโรงพยาบาลก็จบจากที่นั่น"
 
-"I don't care. A person doesn't have to be held back by their disability? That's what a disability is."
+"สนที่ไหนล่ะ คนเราเอาความพิการมารั้งไว้ไม่ได้เหรอ ก็ความพิการนั่นแหละที่จะรั้งไว้ไม่ใช่เหรอ"
 
-"I really hate that something so important was decided for me. But what can I do about it? A “normal” life is out of the question now."
+"ไม่ชอบเลยที่เรื่องใหญ่แบบนี้แต่มีคนมาคิดแทนให้ แต่ทำไงได้ ชีวิต “ปกติ” คงไม่มีอีกแล้วละ"
 
 stop music fadeout 10.0
 
-"It's funny, I had always thought my life was actually kind of boring, but now I miss it."
+"ตลกดี เคยคิดอยู่ว่าชีวิตที่ผ่านมาดูน่าเบื่อ แต่ทีนี้กลับอยากเป็นเหมือนเดิม"
 
-"I want to protest. I want to blame this lack of reaction on shock, or fatigue. I could easily yell out something now - something about how I can go back to school anyway. But, no."
+"อยากจะประท้วง อยากจะโทษตัวเองที่ไม่มีอาการช็อกหรือเป็นลมอะไรเลย จะตะโกนอะไรก็ได้\nตะโกนว่ายังกลับไปเรียนที่เดิมได้ แต่ไม่มีเลย"
 
-"I don't say anything. The fact is that I know now it's futile."
+"ไม่ได้พูดอะไรเลย เพราะรู้ว่าทำไปก็เปล่าประโยชน์"
 
-"I look around the room, feeling very tired of all this. The hospital, doctors, my condition, everything. I don't see anything that would make me feel any different."
+"ฉันมองไปรอบ ๆ ห้องด้วยความรู้สึกหมดอาลัยตายอยากกับทุกสิ่ง ทั้งโรงพยาบาล ทั้งหมอ ทั้งโรคนี้ ทุกอย่าง\nไม่มีอะไรที่จะทำให้รู้สึกต่างออกไปเลย"
 
-"There really isn't a choice. I know this, but the thought of going to a disabled school… what are those even like? As much as I try to put a positive spin on this, it's very difficult."
+"แม้รู้ดีว่าไม่มีทางเลือกแล้ว แต่พอคิดว่าต้องไปโรงเรียนคนพิการ... จะเป็นยังไงกัน\nพยายามจะนึกภาพในแง่บวกก็นึกแทบไม่ออก"
 
-"But let me try."
+"แต่ขอลองดูสักตั้ง"
 
-"A clean slate isn't a bad thing."
+"เริ่มใหม่ทั้งหมดก็ไม่แย่"
 
-"That is all I can think of to get me through this. At least I still have something; even if it's a “special school,” it's something. It's a fresh start, and my life isn't over. It would be a mistake to just resign myself to thinking that."
+"พอคิดอย่างนั้นแล้วก็พอจะมีแรงไปต่อ อย่างน้อยก็ยังมีบางอย่างให้มองอยู่ ถึงจะเป็น “โรงเรียนพิเศษ”\nแต่ก็เป็นการเริ่มต้นใหม่ทั้งหมด ชีวิตฉันก็ยังไม่จบสิ้นสักหน่อย ถ้าเอาแต่คิดลบแล้วยอมแพ้ไปก็คงใช่ที่"
 
-"At the very least, I'll try to see what my new life will look like."
+"อย่างน้อย ๆ ก็ลองดูก่อนว่าชีวิตใหม่ของฉันจะเป็นยังไง"
 
 window hide
 
