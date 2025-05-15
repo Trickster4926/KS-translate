@@ -8,7 +8,8 @@
     # thfont = "THSarabunNew.ttf"
     # thfont = "BoonJot-Regular.otf"
     # thfont = "WR Tish Kid.ttf"
-    thfont = "4805_KwangMD_Melt.ttf"
+    # thfont = "4805_KwangMD_Melt.ttf"
+    thfont = "LayijiMahaniyomV1_61ot.otf"
     
     # displayDict["jp"].gallery_num_page_prefix = u"{size=17}ページ {/size}" 
     def thw(string):
@@ -446,23 +447,23 @@
 
     # credits
 
-    displayDict["th"].creditstring = u"""{image=ui/flourish_left.png} {b}เรื่อง{/b} {image=ui/flourish_right.png}
+    displayDict["th"].creditstring = u"""{image=ui/flourish_left.png} เรื่อง {image=ui/flourish_right.png}
 Anonymous22
 Aura
 cpl_crud
 Suriko
 TheHivemind
 
-{image=ui/flourish_left.png} {b}บรรณาธิการ{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} บรรณาธิการ {image=ui/flourish_right.png}
 Kagami
 Losstarot
 Silentcook
 
-{image=ui/flourish_left.png} {b}ดนตรี{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ดนตรี {image=ui/flourish_right.png}
 Blue123
 NicolArmarfi
 
-{image=ui/flourish_left.png} {b}ฝ่ายศิลป์{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ฝ่ายศิลป์ {image=ui/flourish_right.png}
 gebyy-terar
 Kamifish
 moekki
@@ -470,29 +471,29 @@ pimmy
 raemz
 Raide
 
-{image=ui/flourish_left.png} {b}ฝ่ายศิลป์เพิ่มเติม{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ฝ่ายศิลป์เพิ่มเติม {image=ui/flourish_right.png}
 climatic
 Doomfest
 yujovi
 
-{image=ui/flourish_left.png} {b}อนิเมชัน{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} อนิเมชัน {image=ui/flourish_right.png}
 Mike Inel
 
-{image=ui/flourish_left.png} {b}กำกับ{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} กำกับ {image=ui/flourish_right.png}
 delta
 Raide
 yujovi
 
-{image=ui/flourish_left.png} {b}ฝ่ายเทคนิค{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ฝ่ายเทคนิค {image=ui/flourish_right.png}
 delta
 
-{image=ui/flourish_left.png} {b}ฝ่ายการผลิต{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ฝ่ายการผลิต {image=ui/flourish_right.png}
 cpl_crud
 Suriko
 
 {image=ui/flourish_center.png}
 
-{image=ui/flourish_left.png} {b}ขอขอบคุณ{/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ขอขอบคุณ {image=ui/flourish_right.png}
 Ambi07
 abscess
 Anonymous
@@ -520,11 +521,16 @@ TcDohl
 tottori
 VCR
 
-{image=ui/flourish_left.png} {b}ขอขอบคุณ (พิเศษ){/b} {image=ui/flourish_right.png}
+{image=ui/flourish_left.png} ขอขอบคุณ (พิเศษ) {image=ui/flourish_right.png}
 hir
 PyTom
 RAITA
-replicated"""
+
+{image=ui/flourish_center.png}
+
+{image=ui/flourish_left.png} แปลไทย {image=ui/flourish_right.png}
+???
+???"""
 
 
 
