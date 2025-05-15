@@ -31,59 +31,45 @@ play music music_dreamy fadein 8.0
 "และยาจำนวนมากที่อยู่บนโต๊ะหัวเตียง"
 
 # "I stare at the bottles for a moment, deliberating, until I open a bottle, shake out a pill and pop out a tablet from a foil sheet."
-
 "ฉันจ้องมองขวดยาสักพัก จากนั้นจึงเปิดขวดยาและแกะยาออกมา"
 
 # "I down them with a chaser of water without thinking about the chemistry."
-
-"จากนั้นก็กินยาพร้อมกระดกน้ำตามลงไปโดยไม่คิดถึงเรื่องของสรรพคุณ"
+"จากนั้นก็กินยาพร้อมกระดกน้ำตามลงไปโดยไม่คิดถึงเรื่องของสรรพคุณของมัน"
 
 # "My uniforms are in the closet."
-
 "ชุดนักเรียนอยู่ในตู้เสื้อผ้า"
 
 # "I slink out from under the sheets and stretch my back before dressing up."
-
 "ฉันลุกออกจากเตียง ยืดเส้นยืดสายก่อนไปอาบน้ำแต่งตัว"
 
 # "Putting on a new school uniform feels like dressing in someone else's clothes."
-
 "การใส่ชุดนักเรียนใหม่ให้ความรู้สึกเหมือนกับใส่เสื้อผ้าคนอื่นเลยแหะ"
 
 # "The artificial smell of generic detergent invades my nose, but the feeling of fresh cloth against my back is a good one, a natural one."
-
 "กลิ่นหอมสังเคราะห์ของผงซักฟอกได้เตะจมูกฉัน\nแต่สัมผัสจากเนื้อผ้าที่ได้สัมผัสที่หลังนั้นรู้สึกเป็นธรรมชาติดี"
 
 # "It feels like a school uniform, as it should. It's not much different from what I used to wear before."
-
 "ให้ความรู้สึกแบบที่ชุดนักเรียนควรจะเป็น ไม่แตกต่างกับชุดนักเรียนที่เคยใส่"
 
 # "That goes for other things too. So far, this place seems more or less like a normal school."
-
 "เรื่องอื่น ๆ ก็เหมือนกัน เท่าที่ดูแล้ว ที่นี่ก็เป็นเหมือนกับโรงเรียนทั่ว ๆ ไป"
 
 # "Except for the people."
-
 "ยกเว้นนักเรียนอะนะ"
 
 # "I think back to my talk with Kenji yesterday, Misha's constant laughter, and Shizune's sweeping sign language gestures."
-
 "พอนึกถึงบทสนทนาที่ได้คุยกับเคนจิเมื่อวาน มิช่าที่หัวเราะได้ตลอดเวลา และชิซูเนะที่ทำท่าภาษามือ"
 
 # "Well, I've only met three students so far. Maybe they aren't that normal, but I'm sure others are."
-
 "เอาเถอะ ฉันเองก็เพิ่งได้เจอกับแค่ 3 คนเอง บางทีอาจจะเป็นแค่พวกนั้นที่ไม่ค่อยปกติ แต่คนอื่นคงจะปกติดี"
 
 # "Or, perhaps, people like them are what passes for normal around here?"
-
 "หรือจริง ๆ แล้วพวกนั้นนับว่าปกติสำหรับที่นี่กันนะ?"
 
 # "Yeah, what does pass for normal around here? What do people do?"
-
 "อืม อะไรที่เรียกว่าปกติสำหรับที่นี่กันนะ คนที่นี่เขาทำอะไรกัน?"
 
 # "I didn't see a lot of kids hanging around after classes yesterday, so maybe there are clubs. If so, I wonder if I should join one."
-
 "เมื่อวานหลังเลิกเรียนก็ไม่ค่อยเห็นเด็กด้วย ไม่แน่ว่าที่นี่อาจจะมีชมรมก็ได้ ถ้าเป็นแบบนั้น\nฉันเองก็น่าจะเข้าสักชมรมแหละ"
 
 stop music fadeout 4.0
@@ -92,11 +78,9 @@ scene bg school_scienceroom at bgleft
 with shorttimeskip
 
 # "All through class, the question remains on my mind, so I decide to ask Shizune about it when we split into groups."
-
 "ตลอดทั้งคาบ มีคำถามผุดขึ้นมาในหัวมากมาย เลยว่าจะถามชิซูเนะสักหน่อยตอนที่แบ่งทำงานเป็นกลุ่ม"
 
 # "After all, she did say if I had anything I wanted to know, I should ask her."
-
 "ยังไงซะ เธอก็บอกเองว่าถ้ามีอะไรสงสัยก็ควรจะถามเธอ"
 
 show shizu behind_blank at center
@@ -192,9 +176,9 @@ with charachange
 
 show shizu adjust_smug
 with charachange
-
+#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
 # "She starts signing desperately to Shizune, asking her to bail her out. Shizune adjusts her glasses at the end of an oddly grandiose flourish and starts signing hard and heavy."
-"มิช่าพยายามทำภาษามือขอความช่วยเหลือจากชิซูเนะ ซึ่งเธอพอเธอดันแว่นด้วยท่าทางที่ดูภูมิฐานพิลึกนั้นแล้วก็เริ่มทำภาษามืออย่างเน้นหนัก"
+"มิช่าพยายามทำภาษามือขอความช่วยเหลือจากชิซูเนะ ซึ่งเธอพอเธอดันแว่นด้วยท่าทางที่ดูภูมิฐานพิลึกนั้น\nแล้วก็เริ่มทำภาษามืออย่างเน้นหนัก"
 show shizu adjust_happy
 with charachange
 
@@ -365,9 +349,9 @@ with shorttimeskip
 "ก่อนที่จะได้คิดต่อว่าเธอหายไปที่ไหน ครูก็ได้เข้ามาบอกว่าหมดเวลาแล้ว"
 show shizu basic_frown at center
 with charaenter
-#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+
 # "Shizune looks more than a little annoyed that we only just barely managed to finish all our work on time. I'm just glad we finished it at all; it's not a contest or anything."
-"ชิซูเนะดูหงุดหงิดนิดหน่อยเพราะกลุ่มเราทำงานเสร็จทันแบบแค่คาบเส้นตายพอดี จริง ๆ สำหรับฉันแค่ส่งทัน\nก็พอแล้ว นี่ไม่ใช่งานแข่งสักหน่อย"
+"ชิซูเนะดูหงุดหงิดนิดหน่อยเพราะกลุ่มเราทำงานเสร็จทันแบบแค่คาบเส้นตายพอดี จริง ๆ สำหรับฉันแค่ส่งทัน\nก็พอแล้ว นี่ไม่ใช่การแข่งสักหน่อย"
 show shizu behind_frown
 with charachange
 
@@ -383,10 +367,10 @@ with charaenter
 play music music_comedy fadein 0.5
 
 # mi "Yes it is, Hicchan!"
-mi "ใช่ มันอย่างงั้นแหละ ฮิจัง"
+mi "ใช่ มันคือการแข่ง ฮิจัง"
 
 # hi "Impossible."
-hi "เป็นไปไม่ได้"
+hi "ไม่ ๆ ไม่ใช่"
 
 # mi "Really?"
 mi "จริงดิ?"
@@ -400,27 +384,33 @@ hi "จริง"
 # "Obviously, it must be so Shizune can understand it. Her eyes dart back and forth between Misha's hands and me."
 "ซึ่งก็ควรเป็นแบบนั้นแหละ เพราะชิซูเนะจะได้เข้าใจ ตาของชิซูเนะสลับไปมาระหว่างมือของมิช่าและฉัน"
 
-"I don't know who I'm supposed to be looking at. I'm talking to Misha, but that might be wrong; maybe I should face Shizune. I'm used to looking in the direction of the person whose voice I'm hearing, but really…"
+# "I don't know who I'm supposed to be looking at. I'm talking to Misha, but that might be wrong; maybe I should face Shizune. I'm used to looking in the direction of the person whose voice I'm hearing, but really…"
+"ฉันไม่รู้ว่าควรจะมองไปที่ใครกันดี ตามหลักฉันพูดกับมิช่าอยู่ แต่จริง ๆ ก็คุยกับชิซูเนะอยู่ หรือว่าควรหันไปทางชิซุเนะ\nปกติก็ชินกับการหันหน้าไปทางที่ได้ยินเสียงคนพูดนะ แต่ว่า…"
 
-"Shizune can't hear me, but it would be disrespectful to talk to her only through Misha. Then again, isn't that what she's doing? No, she's at least looking at me. This is all very confusing and will take some time to get used to."
+# "Shizune can't hear me, but it would be disrespectful to talk to her only through Misha. Then again, isn't that what she's doing? No, she's at least looking at me. This is all very confusing and will take some time to get used to."
+"ชิซูเนะก็ไม่ได้ยินฉันด้วย แต่มันก็คงดูไม่ดีถ้าจะคุยผ่านมิช่าอย่างเดียว แต่จริง ๆ เธอเองก็ทำแบบนั้นนี่หน่า\nไม่ดิ อย่างน้อยเธอก็ยังมองมาทางฉันนี่หน่า โอย งงจัด คงอีกสักพักกว่าจะชิน"
 
-hi "It's not a contest, because contests are competitions over a prize. If there's no prize on the line, it's not really a contest."
-
+# hi "It's not a contest, because contests are competitions over a prize. If there's no prize on the line, it's not really a contest."
+hi "มันไม่ใช่การแข่ง เพราะการแข่งต้องแข่งเพื่อชิงรางวัล ซึ่งถ้าไม่มีรางวัล มันก็ไม่ใช่การแข่งสิ"
 show shizu basic_happy
 with charachange
 
-"Shizune's eyes flash dangerously with a competitive glare. She stares at me, as if surprised that I'm challenging her. I think maybe this is a contest to her."
+# "Shizune's eyes flash dangerously with a competitive glare. She stares at me, as if surprised that I'm challenging her. I think maybe this is a contest to her."
+"สายตาของชิซูเนะได้ฉายแววไม่ยอมแพ้ เธอจ้องมาที่ฉันอย่างกับว่าได้ถูกท้าทายไปแล้ว\nฉันว่านี่ก็คงเป็นการแข่งสำหรับเธอด้วย"
 
-"I never noticed before how dark and blue her eyes are; it's truly an alluring gaze."
+# "I never noticed before how dark and blue her eyes are; it's truly an alluring gaze."
+"ไม่เคยสังเกตมาก่อนเลยว่าตาเธอสีเข้มและน้ำเงินขนาดนี้ มันเป็นสายตาที่เย้ายวนจริง ๆ"
 
 shi "…"
 
 show misha perky_smile
 with charachange
 
-mi "Are you sure, Hicchan?"
+# mi "Are you sure, Hicchan?"
+mi "แน่ใจนะ? ฮิจัง"
 
-hi "Very sure."
+# hi "Very sure."
+hi "แน่สิ"
 
 show shizu behind_smile
 with charachange
@@ -430,17 +420,19 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Hahaha! You're wrong, Hicchan. Because~!, I don't want to be the slowest one in the class. Therefore, what's on the line is my confidence in my abilities, and the prize is the satisfaction of proving them."
-
+# mi "Hahaha! You're wrong, Hicchan. Because~!, I don't want to be the slowest one in the class. Therefore, what's on the line is my confidence in my abilities, and the prize is the satisfaction of proving them."
+mi "ฮ่าฮ่าฮ่า! นายผิดแล้วล่ะฮิจัง เพราะว่า~! ฉันไม่อยากเป็นคนที่ทำเสร็จช้าที่สุดในห้อง\nเพราะงั้นแล้วสิ่งเดิมพันก็คือความมั่นใจในความสามารถของฉัน แล้วรางวัลก็คือความพอใจที่ได้พิสูจน์มันยังไงล่ะ"
 show misha hips_laugh
 with charachange
 
-mi "Wahahahaha~!"
+# mi "Wahahahaha~!"
+mi "วะฮ่าฮ่าฮ่าฮ่า~!"
 
 show shizu adjust_happy
 with charachange
 
-"Shizune pushes her glasses up the bridge of her nose in a very matter-of-fact way."
+# "Shizune pushes her glasses up the bridge of her nose in a very matter-of-fact way."
+"ชิซูเนะดันแว่นขึ้นโดยไม่ได้สนใจมากนัก"
 
 play sound sfx_normalbell
 
@@ -449,12 +441,14 @@ with charaexit
 hide misha
 with charaexit
 
-"I'd argue more, but the bell rings, and she quickly gets up and picks up her bag, looking at me expectantly."
 
+# "I'd argue more, but the bell rings, and she quickly gets up and picks up her bag, looking at me expectantly."
+"ในใจอยากจะเถียงต่อ แต่กระดิ่งดังพอดี แล้วเธอก็รีบลุกแล้วหยิบกระเป๋าออกไป มองมาที่ฉันอย่างคาดหวัง"
 scene bg school_hallway3
 with locationchange
 
-"I had almost forgotten that I was supposed to have lunch with them."
+# "I had almost forgotten that I was supposed to have lunch with them."
+"เกือบลืมไปเลยว่านัดไปกินข้าวด้วยกัน"
 
 show misha hips_smile at offscreenleft
 show shizu behind_smile at offscreenright
@@ -472,29 +466,38 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Where do you want to eat?"
+# mi "Where do you want to eat?"
+mi "อยากกินที่ไหนล่ะ?"
 
-hi "The cafeteria?"
+# hi "The cafeteria?"
+hi "โรงอาหารไหมล่ะ"
 
 show misha hips_laugh
 with charachange
 
-mi "Hahaha~! That's so plain… Okay~! Let's go!"
+# mi "Hahaha~! That's so plain… Okay~! Let's go!"
+mi "ฮ่าฮ่าฮ่า~! ก็ง่ายดี… โอเค~! ไปกันเถอะ!"
 
-"Plain? Well I guess…"
+# "Plain? Well I guess…"
+"ง่าย? ก็เอาเถอะ…"
 
 stop music fadeout 6.0
 
-"At my old school, I liked to eat outside, near the back of the building. It was a good spot, but I didn't find it until near the end of my freshman year."
+# "At my old school, I liked to eat outside, near the back of the building. It was a good spot, but I didn't find it until near the end of my freshman year."
+"ที่โรงเรียนเก่า ปกติฉันชอบนั่งกินข้างนอกแถว ๆ หลังตึกเรียน เป็นที่ที่โคตรดี แต่กว่าจะเจอก็ปลาย ๆ ม.4"
 
-"I wonder if there is a similar place to eat here. Misha seems to imply as much."
+# "I wonder if there is a similar place to eat here. Misha seems to imply as much."
+"ฉันละอยากรู้ว่าที่นี่จะมีมุมดี ๆ ไว้กินข้าวเหมือนกันไหมนะ มิช่าก็ทำเหมือนว่าจะมีซะด้วย"
 
 scene bg school_cafeteria
 with locationskip
 
-"Shizune and Misha pull me towards the cafeteria, which is surprisingly not packed. Maybe some students favor eating in classroom or outdoors. I saw some of my classmates had boxed lunches."
+# "ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+# "Shizune and Misha pull me towards the cafeteria, which is surprisingly not packed. Maybe some students favor eating in classroom or outdoors. I saw some of my classmates had boxed lunches."
+"ชิซูเนะและมิช่าพาฉันมาที่โรงอาหาร ซึ่งดู ๆ แล้วคนไม่เยอะมาก อาจจะเพราะว่าบางคนเลือกที่จะกินในห้อง\nหรือกินข้างนอกมากกว่า เห็นเพื่อนในห้องบางคนก็เอาข้าวกล่องมาด้วย"
 
-"After we finish eating, Misha picks up where we left off earlier."
+# "After we finish eating, Misha picks up where we left off earlier."
+"หลังจากกินเสร็จ มิช่าก็เล่าเรื่องต่อจากที่ค้างไว้ก่อนหน้า"
 
 play music music_shizune fadein 1.0
 
@@ -502,31 +505,36 @@ show misha perky_smile at twoleft
 show shizu behind_smile at tworight
 with charaenter
 
-mi "So, Hicchan, you wanted to know about clubs and stuff, right?, right~?"
+# mi "So, Hicchan, you wanted to know about clubs and stuff, right?, right~?"
+mi "ก็ ฮิจัง นายอยากจะรู้เรื่องเกี่ยวกับชมรม ใช่มะ ใช่มะ~"
 
 show shizu adjust_happy
 with charachange
 
 shi "…"
 
-mi "Right, Shicchan! Okay, I guess it makes sense to ask first."
-
+# mi "Right, Shicchan! Okay, I guess it makes sense to ask first."
+mi "ก็จริง ชิจัง! โอเคมันคงจะ make sense มากกว่าถ้าถามก่อน"
 show misha hips_smile
 with charachange
 
-"Exchanging little nods of confirmation, they turn to face me again and Misha straightens her posture as if she is about to deliver a speech." 
+# "Exchanging little nods of confirmation, they turn to face me again and Misha straightens her posture as if she is about to deliver a speech."
+"ทั้งคู่พยักหน้าหากันเพื่อยืนยันอะไรบางอย่าง จากนั้นทั้งคู่ก็หันมาทางนี้และมิช่าก็ยืดอกแล้วทำท่า\nเหมือนจะกล่าวคำสุนทรพจน์" 
 
-mi "Hicchan, do you have anything you're really interested in?"
+# mi "Hicchan, do you have anything you're really interested in?"
+mi "ฮิจัง นายสนใจอะไรเป็นพิเศษล่ะ?"
 
-hi "I used to play soccer, but I'm not really into it. I don't follow the teams and players or anything like that."
+# hi "I used to play soccer, but I'm not really into it. I don't follow the teams and players or anything like that."
+hi "ฉันเคยเตะบอลนะ แต่ก็ไม่ได้สนขนาดติดตามทีมบอลหรือนักเตะอะไรพวกนั้น"
 
-hi "As of late, I usually just read a lot."
+# hi "As of late, I usually just read a lot."
+hi "เอาจริง ๆ ก็ชอบอ่านหนังสือมากกว่า"
 
 show misha perky_smile
 with charachange
 
-mi "Hm… There is a book club, right, Shicchan? Right! But~! It seems like they have all the members they can possibly have right now. Sorry, Hicchan… It's a really popular club."
-
+# mi "Hm… There is a book club, right, Shicchan? Right! But~! It seems like they have all the members they can possibly have right now. Sorry, Hicchan… It's a really popular club."
+mi "อืม… ก็มีชมรมหนังสือนะ ใช่ปะชิจัง ใช่ ๆ แต่ว่านะ~! ดูเหมือนว่าจำนวนสมาชิกจะเต็มแล้วล่ะ\n"
 show shizu basic_happy
 with charachange
 
