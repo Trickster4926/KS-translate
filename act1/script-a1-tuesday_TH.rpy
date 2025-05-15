@@ -278,7 +278,7 @@ mi "อะไรนะ ใช่ ๆ ฮิจัง ที่ถามเนี
 show shizu behind_blank
 show misha perky_smile
 with charachange
-#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+
 # "It could have been my eyes playing tricks on me, but I think I saw a suspicious glance exchanged between them. Misha's tone has also changed, although it does that every other word, anyway."
 "ไม่รู้ว่าตาฝาดหรือเปล่า แต่เหมือนเห็นทั้งคู่จ้องตากันแปลก ๆ แถมน้ำเสียงของมิช่าก็เริ่มเปลี่ยนไปด้วย\nถึงแม้จริง ๆ จะเปลี่ยนทุก ๆ คำก็เถอะนะ"
 
@@ -292,24 +292,32 @@ stop music fadeout 8.0
 # "I'm about to ask what they have in mind when something dark flutters in my peripheral vision, catching my attention."
 "ขณะที่กำลังจะถามว่าทั้งคู่คิดอะไรอยู่ จู่ ๆ ก็มีเงามืด ๆ เข้ามาข้าง ๆ ดึงความสนใจฉันไป"
 
-"Out of the corner of my eye, I see the girl with long, dark hair get up from her desk and slip silently towards the door."
+# "Out of the corner of my eye, I see the girl with long, dark hair get up from her desk and slip silently towards the door."
+"ตรงหางตาเห็นผู้หญิงผมยาวสีเข้มลุกออกไปจากโต๊ะเรียน แล้วค่อย ๆ เดินไปที่ประตูเงียบ ๆ"
 
-"It doesn't seem like she was working in any group, and no one seems to notice her but me." 
+# "It doesn't seem like she was working in any group, and no one seems to notice her but me." 
+"และดูเหมือนว่าเธอไม่ได้ทำงานกับกลุ่มไหนเลย แล้วก็ไม่มีใครสังเกตเห็นเธอด้วยนอกจากฉัน"
 
-"I glance at the teacher, who's also looking at the dark-haired girl go."
+# "I glance at the teacher, who's also looking at the dark-haired girl go."
+"ฉันมองไปที่ครู ผู้ที่มองเธอเดินออกไปจากห้องเช่นกัน"
 
-"Why doesn't he say anything?"
+# "Why doesn't he say anything?"
+"ทำไมเขาถึงไม่ว่าอะไรเลยนะ?"
 
 show misha perky_confused
 with charachange
 
-mi "Hicchan? Is something wrong?"
+# mi "Hicchan? Is something wrong?"
+mi "ฮิจัง มีอะไรหรอ?"
 
-"Do I look as uneasy as I feel?"
+# "Do I look as uneasy as I feel?"
+"สีหน้าฉันดูออกง่ายขนาดนั้นเลยหรอ"
 
-"Or was Misha just looking at me looking after the girl who left?"
+# "Or was Misha just looking at me looking after the girl who left?"
+"หรือมิช่าก็มองผู้หญิงคนนั้นเหมือนกัน"
 
-hi "No, nothing."
+# hi "No, nothing."
+hi "เปล่า ไม่มีอะไร"
 
 show shizu basic_happy
 with charachange
@@ -319,18 +327,23 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Okay~! Well, like we were asking, you don't have any plans for lunch today, do you?"
+# mi "Okay~! Well, like we were asking, you don't have any plans for lunch today, do you?"
+mi "โอ~เค! ก็อย่างที่ถาม นายน่ะยังไม่มีแพลนจะไปกินข้าวที่ไหนใช่มะ?"
 
-"“I thought I would go to the library and pick up some books.”"
+# "“I thought I would go to the library and pick up some books.”"
+"“ฉันว่าฉันจะไปห้องสมุดเพื่อยืมหนังสือซักหน่อยน่ะ”"
 
-hi "…Not really."
+# hi "…Not really."
+hi "…ก็ ไม่นะ"
 
 show misha hips_grin
 with charachange
 
-mi "Do you want to have lunch together then?"
+# mi "Do you want to have lunch together then?"
+mi "ไปด้วยกันไหมล่ะ"
 
-hi "Sure."
+# hi "Sure."
+hi "ได้สิ"
 
 show shizu behind_smile
 with charachange
@@ -340,20 +353,21 @@ shi "…"
 show misha cross_laugh
 with charachange
 
-mi "Yay~! Wahahaha~! Okay, Hicchan~! Perfect!"
-
+# mi "Yay~! Wahahaha~! Okay, Hicchan~! Perfect!"
+mi "เย้~! วะฮ่าฮ่าฮ่า~! โอเคฮิจัง เยี่ยมเลย!"
 scene bg school_scienceroom
 with shorttimeskip
 
-"The rest of class passes uneventfully. The girl with the long hair never came back."
+# "The rest of class passes uneventfully. The girl with the long hair never came back."
+"เวลาที่เหลือในคาบก็ผ่านไปโดยไม่มีอะไร ผู้หญิงคนนั้นก็ไม่ได้กลับมาที่ห้อง"
 
-"Before I have the time to put any more thought into where she could have gone, the teacher informs us that it's time to stop working."
-
+# "Before I have the time to put any more thought into where she could have gone, the teacher informs us that it's time to stop working."
+"ก่อนที่จะได้คิดต่อว่าเธอหายไปที่ไหน ครูก็ได้เข้ามาบอกว่าหมดเวลาแล้ว"
 show shizu basic_frown at center
 with charaenter
-
-"Shizune looks more than a little annoyed that we only just barely managed to finish all our work on time. I'm just glad we finished it at all; it's not a contest or anything."
-
+#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+# "Shizune looks more than a little annoyed that we only just barely managed to finish all our work on time. I'm just glad we finished it at all; it's not a contest or anything."
+"ชิซูเนะดูหงุดหงิดนิดหน่อยเพราะกลุ่มเราทำงานเสร็จทันแบบแค่คาบเส้นตายพอดี จริง ๆ สำหรับฉันแค่ส่งทัน\nก็พอแล้ว นี่ไม่ใช่งานแข่งสักหน่อย"
 show shizu behind_frown
 with charachange
 
@@ -368,17 +382,23 @@ with charaenter
 
 play music music_comedy fadein 0.5
 
-mi "Yes it is, Hicchan!"
+# mi "Yes it is, Hicchan!"
+mi "ใช่ มันอย่างงั้นแหละ ฮิจัง"
 
-hi "Impossible."
+# hi "Impossible."
+hi "เป็นไปไม่ได้"
 
-mi "Really?"
+# mi "Really?"
+mi "จริงดิ?"
 
-hi "Really."
+# hi "Really."
+hi "จริง"
 
-"I've noticed this before, but it's kind of funny how Misha is always moving her hands and signing not only everything she says, but what anyone else is saying at any given time."
+# "I've noticed this before, but it's kind of funny how Misha is always moving her hands and signing not only everything she says, but what anyone else is saying at any given time."
+"จริง ๆ ก็เห็นแล้วแหละ แต่ก็แอบขำสภาพที่มิช่าขยับมือทำท่าทางภาษามือตลอดเวลา โดยทำท่าทางทั้งคำพูดตัวเอง\nและคำพูดที่ต้องแปลจากคนอื่น"
 
-"Obviously, it must be so Shizune can understand it. Her eyes dart back and forth between Misha's hands and me."
+# "Obviously, it must be so Shizune can understand it. Her eyes dart back and forth between Misha's hands and me."
+"ซึ่งก็ควรเป็นแบบนั้นแหละ เพราะชิซูเนะจะได้เข้าใจ ตาของชิซูเนะสลับไปมาระหว่างมือของมิช่าและฉัน"
 
 "I don't know who I'm supposed to be looking at. I'm talking to Misha, but that might be wrong; maybe I should face Shizune. I'm used to looking in the direction of the person whose voice I'm hearing, but really…"
 
