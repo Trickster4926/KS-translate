@@ -43,7 +43,7 @@ play music music_dreamy fadein 8.0
 "ฉันลุกออกจากเตียง ยืดเส้นยืดสายก่อนไปอาบน้ำแต่งตัว"
 
 # "Putting on a new school uniform feels like dressing in someone else's clothes."
-"การใส่ชุดนักเรียนใหม่ให้ความรู้สึกเหมือนกับใส่เสื้อผ้าคนอื่นเลยแหะ"
+"การใส่ชุดนักเรียนใหม่ให้ความรู้สึกเหมือนกับใส่เสื้อผ้าคนอื่นเลยแฮะ"
 
 # "The artificial smell of generic detergent invades my nose, but the feeling of fresh cloth against my back is a good one, a natural one."
 "กลิ่นหอมสังเคราะห์ของผงซักฟอกได้เตะจมูกฉัน\nแต่สัมผัสจากเนื้อผ้าที่ได้สัมผัสที่หลังนั้นรู้สึกเป็นธรรมชาติดี"
@@ -78,7 +78,7 @@ scene bg school_scienceroom at bgleft
 with shorttimeskip
 
 # "All through class, the question remains on my mind, so I decide to ask Shizune about it when we split into groups."
-"ตลอดทั้งคาบ มีคำถามผุดขึ้นมาในหัวมากมาย เลยว่าจะถามชิซูเนะสักหน่อยตอนที่แบ่งทำงานเป็นกลุ่ม"
+"ตลอดทั้งคาบก็ยังคิดแต่เรื่องที่สงสัยเมื่อเช้า เลยว่าจะถามชิซูเนะสักหน่อยตอนที่แบ่งทำงานเป็นกลุ่ม"
 
 # "After all, she did say if I had anything I wanted to know, I should ask her."
 "ยังไงซะ เธอก็บอกเองว่าถ้ามีอะไรสงสัยก็ควรจะถามเธอ"
@@ -97,7 +97,7 @@ show shizu cross_wut
 with charachange
 
 # "She crosses her arms and shifts her gaze slowly to Misha, who looks more preoccupied with trying to grind the eraser of her pencil down so that the top is perfect and evenly flat."
-"เธอกอดอกแล้วหันไปจ้องมิช่าที่กำลังง่วนกับการพยายามทำกดยางลบที่ก้นดินสอให้เรียบเสมอกัน"
+"เธอกอดอกแล้วหันไปจ้องมิช่าที่กำลังง่วนกับการพยายามกดยางลบที่ก้นดินสอให้เรียบเสมอกัน"
 
 show shizu cross_angry
 with charachange
@@ -250,7 +250,7 @@ show misha perky_smile
 with charachange
 
 # mi "That's right, Shicchan~!"
-mi "ใช่ ๆ ชิจัง"
+mi "จริงสิ! ชิจัง"
 
 show shizu basic_sparkle
 show misha sign_smile
@@ -283,7 +283,7 @@ stop music fadeout 8.0
 "และดูเหมือนว่าเธอไม่ได้ทำงานกับกลุ่มไหนเลย แล้วก็ไม่มีใครสังเกตเห็นเธอด้วยนอกจากฉัน"
 
 # "I glance at the teacher, who's also looking at the dark-haired girl go."
-"ฉันมองไปที่ครู ผู้ที่มองเธอเดินออกไปจากห้องเช่นกัน"
+"ฉันมองไปที่ครู ที่มองเธอเดินออกไปจากห้องเช่นกัน"
 
 # "Why doesn't he say anything?"
 "ทำไมเขาถึงไม่ว่าอะไรเลยนะ?"
@@ -346,12 +346,12 @@ with shorttimeskip
 "เวลาที่เหลือในคาบก็ผ่านไปโดยไม่มีอะไร ผู้หญิงคนนั้นก็ไม่ได้กลับมาที่ห้อง"
 
 # "Before I have the time to put any more thought into where she could have gone, the teacher informs us that it's time to stop working."
-"ก่อนที่จะได้คิดต่อว่าเธอหายไปที่ไหน ครูก็ได้เข้ามาบอกว่าหมดเวลาแล้ว"
+"ก่อนที่จะได้คิดต่อว่าเธอหายไปที่ไหน ครูก็เข้ามาบอกว่าหมดเวลาแล้ว"
 show shizu basic_frown at center
 with charaenter
 
 # "Shizune looks more than a little annoyed that we only just barely managed to finish all our work on time. I'm just glad we finished it at all; it's not a contest or anything."
-"ชิซูเนะดูหงุดหงิดนิดหน่อยเพราะกลุ่มเราทำงานเสร็จทันแบบแค่คาบเส้นตายพอดี จริง ๆ สำหรับฉันแค่ส่งทัน\nก็พอแล้ว นี่ไม่ใช่การแข่งสักหน่อย"
+"ชิซูเนะดูหงุดหงิดนิดหน่อยเพราะกลุ่มเราทำงานเสร็จทันแบบแค่คาบเส้นตายพอดี\nจริง ๆ สำหรับฉันแค่ส่งทันก็พอแล้ว นี่ไม่ใช่การแข่งสักหน่อย"
 show shizu behind_frown
 with charachange
 
@@ -382,13 +382,13 @@ hi "จริง"
 "จริง ๆ ก็เห็นแล้วแหละ แต่ก็แอบขำสภาพที่มิช่าขยับมือทำท่าทางภาษามือตลอดเวลา โดยทำท่าทางทั้งคำพูดตัวเอง\nและคำพูดที่ต้องแปลจากคนอื่น"
 
 # "Obviously, it must be so Shizune can understand it. Her eyes dart back and forth between Misha's hands and me."
-"ซึ่งก็ควรเป็นแบบนั้นแหละ เพราะชิซูเนะจะได้เข้าใจ ตาของชิซูเนะสลับไปมาระหว่างมือของมิช่าและฉัน"
+"ซึ่งก็ควรเป็นแบบนั้นแหละ เพราะชิซูเนะจะได้เข้าใจ ตาของชิซูเนะสลับไปมาระหว่างฉันและมือของมิช่า"
 
 # "I don't know who I'm supposed to be looking at. I'm talking to Misha, but that might be wrong; maybe I should face Shizune. I'm used to looking in the direction of the person whose voice I'm hearing, but really…"
-"ฉันไม่รู้ว่าควรจะมองไปที่ใครกันดี ตามหลักฉันพูดกับมิช่าอยู่ แต่จริง ๆ ก็คุยกับชิซูเนะอยู่ หรือว่าควรหันไปทางชิซุเนะ\nปกติก็ชินกับการหันหน้าไปทางที่ได้ยินเสียงคนพูดนะ แต่ว่า…"
+"ฉันไม่รู้ว่าควรจะมองไปที่ใครกันดี ตามหลักฉันพูดกับมิช่าอยู่ แต่จริง ๆ ก็คุยกับชิซูเนะอยู่ หรือว่าควรหันไปทางชิซูเนะ\nปกติก็ชินกับการหันหน้าไปทางที่ได้ยินเสียงคนพูดนะ แต่ว่า…"
 
 # "Shizune can't hear me, but it would be disrespectful to talk to her only through Misha. Then again, isn't that what she's doing? No, she's at least looking at me. This is all very confusing and will take some time to get used to."
-"ชิซูเนะก็ไม่ได้ยินฉันด้วย แต่มันก็คงดูไม่ดีถ้าจะคุยผ่านมิช่าอย่างเดียว แต่จริง ๆ เธอเองก็ทำแบบนั้นนี่หน่า\nไม่ดิ อย่างน้อยเธอก็ยังมองมาทางฉันนี่หน่า โอย งงจัด คงอีกสักพักกว่าจะชิน"
+"ชิซูเนะก็ไม่ได้ยินฉันด้วย แต่มันก็คงดูไม่ดีถ้าจะคุยผ่านมิช่าอย่างเดียว แต่จริง ๆ เธอเองก็ทำแบบนั้นนี่นา\nไม่ดิ อย่างน้อยเธอก็ยังมองมาทางฉันนี่นา โอย งงจัด คงอีกสักพักกว่าจะชิน"
 
 # hi "It's not a contest, because contests are competitions over a prize. If there's no prize on the line, it's not really a contest."
 hi "มันไม่ใช่การแข่ง เพราะการแข่งต้องแข่งเพื่อชิงรางวัล ซึ่งถ้าไม่มีรางวัล มันก็ไม่ใช่การแข่งสิ"
@@ -399,7 +399,7 @@ with charachange
 "สายตาของชิซูเนะได้ฉายแววไม่ยอมแพ้ เธอจ้องมาที่ฉันอย่างกับว่าได้ถูกท้าทายไปแล้ว\nฉันว่านี่ก็คงเป็นการแข่งสำหรับเธอด้วย"
 
 # "I never noticed before how dark and blue her eyes are; it's truly an alluring gaze."
-"ไม่เคยสังเกตมาก่อนเลยว่าตาเธอสีเข้มและน้ำเงินขนาดนี้ มันเป็นสายตาที่เย้ายวนจริง ๆ"
+"ไม่เคยสังเกตมาก่อนเลยว่าตาเธอสีเข้มและน้ำเงินขนาดนี้ มันเป็นสายตาที่ดึงดูดจริง ๆ"
 
 shi "…"
 
@@ -484,7 +484,7 @@ mi "ฮ่าฮ่าฮ่า~! ก็ง่ายดี… โอเค~! ไ
 stop music fadeout 6.0
 
 # "At my old school, I liked to eat outside, near the back of the building. It was a good spot, but I didn't find it until near the end of my freshman year."
-"ที่โรงเรียนเก่า ปกติฉันชอบนั่งกินข้างนอกแถว ๆ หลังตึกเรียน เป็นที่ที่โคตรดี แต่กว่าจะเจอก็ปลาย ๆ ม.4"
+"ที่โรงเรียนเก่า ปกติฉันชอบนั่งกินข้างนอกแถว ๆ หลังตึกเรียน เป็นที่ที่ดีทีเดียว แต่กว่าจะเจอก็ปลาย ๆ ม.4"
 
 # "I wonder if there is a similar place to eat here. Misha seems to imply as much."
 "ฉันละอยากรู้ว่าที่นี่จะมีมุมดี ๆ ไว้กินข้าวเหมือนกันไหมนะ มิช่าก็ทำเหมือนว่าจะมีซะด้วย"
@@ -514,7 +514,7 @@ with charachange
 shi "…"
 
 # mi "Right, Shicchan! Okay, I guess it makes sense to ask first."
-mi "ก็จริง ชิจัง! โอเคมันคงจะ make sense มากกว่าถ้าถามก่อน"
+mi "ก็จริง ชิจัง! ต้องรอเขาถามก่อนแหละเนอะ"
 show misha hips_smile
 with charachange
 
@@ -534,7 +534,7 @@ show misha perky_smile
 with charachange
 
 # mi "Hm… There is a book club, right, Shicchan? Right! But~! It seems like they have all the members they can possibly have right now. Sorry, Hicchan… It's a really popular club."
-mi "อืม… ก็มีชมรมหนังสือนะ ใช่ปะชิจัง ใช่ ๆ แต่ว่านะ~! ดูเหมือนว่าจำนวนสมาชิกจะเต็มแล้วล่ะ\nโทษทีนะ ชมรมนั้นดังมากเลยล่ะ"
+mi "อืม… ก็มีชมรมหนังสือนะ ใช่ปะชิจัง ใช่ ๆ แต่ว่านะ~! เหมือนชมรมนั้นคนจะเต็มแล้วละ\nโทษทีนะฮิจัง ชมรมนั้นดังมากเลยล่ะ"
 show shizu basic_happy
 with charachange
 
@@ -544,7 +544,7 @@ shi "…"
 mi "อ๊ะ โอเค! แต่ว่าอีกอย่างฮิจัง แปลว่าจริง ๆ ก็ยังไม่มีชมรมที่อยากเข้าใช่ปะ?"
 
 # hi "Not really."
-hi "ก็ไม่มี"
+hi "ก็ไม่มีนะ"
 
 show shizu adjust_happy
 with charachange
@@ -556,7 +556,7 @@ with charachange
 
 
 # mi "Good! Great~! That's great, Hicchan! Really great! Hahaha~! Wahahahaha~!"
-mi "ดี! เยี่ยม~! นั่นเยี่ยมไปเลย ฮิจังนายนี่เยี่ยมเลย สุดยอดไปเลย ฮ่าฮ่าฮ่า~! วะฮ่าฮ่าฮ่าฮ่า~!"
+mi "ดี! เยี่ยม~! เยี่ยมไปเลย ฮิจังนายนี่เยี่ยมเลย สุดยอดไปเลย ฮ่าฮ่าฮ่า~! วะฮ่าฮ่าฮ่าฮ่า~!"
 
 # hi "Why's it so great?"
 hi "จะดีอะไรขนาดน้าน"
@@ -569,7 +569,7 @@ with charachange
 mi "เปล๊า"
 
 # mi "Well, Hicchan, other than clubs and the upcoming festival, there is one other thing…"
-mi "ก็ นอกจากเรื่องชมรมกับงานเทศกาลที่จะมาถึง จริง ๆ ก็มีอีกอย่าง"
+mi "ก็ นอกจากเรื่องชมรมกับงานเทศกาลที่จะมาถึง จริง ๆ ก็มีอีกอย่าง…"
 
 show misha hips_laugh
 with charachange
@@ -584,11 +584,11 @@ show shizu adjust_blush
 with charachange
 
 # "I'm pretty sure the two of them know this, because Shizune looks a little embarrassed about it, and Misha is laughing."
-"ค่อนข้างมั่นใจว่าทั้งคู่น่าจะรู้ เพราะดูท่าทางชิซูเนะก็อาย ๆ และมิช่าก็หัวเราะ"
+"ค่อนข้างมั่นใจว่าทั้งคู่น่าจะรู้ตัวแหละ เพราะดูท่าทางชิซูเนะก็อาย ๆ และมิช่าก็หัวเราะ"
 
 
 # "Shizune quickly retakes control of the discussion, in a manner of speaking. After all, it's still Misha who has to voice whatever she says."
-"ชิซูเนะรีบกลับมาเข้าบทด้วยท่าทางพูดแบบปกติ แต่ยังไงซะมิช่าก็ทำหน้าที่เป็นเสียงพูดให้เธออยู่ดี"
+"ชิซูเนะกลับเข้าร่วมวงบทสนทนาอีกครั้ง แต่เสียงพูดก็ยังคงเป็นมิช่าอยู่ดี"
 show shizu behind_smile
 with charachange
 
@@ -598,7 +598,7 @@ show misha cross_grin
 with charachange
 
 # mi "Hahaha~! Hm? Right, right… Hicchan, maybe you should join the Student Council! They could use more people~. Yes! Definitely! You should definitely join!"
-mi "ฮ่าฮ่าฮ่า~! หืม ใช่ ๆ ฮิจัง นายน่าจะมาเข้ามาสภานักเรียนนะ ตอนนี้คนขาดมากเลยล่ะ\nใช่! แน่นอน! นายควรเข้านะ"
+mi "ฮ่าฮ่าฮ่า~! หืม ใช่ ๆ ฮิจัง นายน่าจะมาเข้ามาสภานักเรียนนะ ตอนนี้คนขาดมากเลยล่ะ\nใช่! เข้าเลย! นายต้องเข้านะ"
 
 # hi "Why?"
 hi "ทำไมล่ะ?"
@@ -611,7 +611,7 @@ show misha perky_smile
 with charachange
 
 # mi "Actually, Shicchan is the president."
-mi "จริง ๆ ก็ ชิจังเป็นประธานสภานักเรียนล่ะ"
+mi "ที่จริง ชิจังเป็นประธานสภานักเรียนล่ะ"
 
 # "Hm…"
 "หืม…"
@@ -634,7 +634,7 @@ with charachange
 mi "ฮ่าฮ่าฮ่า~! แน่นอนว่าเราไม่ได้ตั้งใจว่าจะชวนนายเข้าไปเพื่อหวังผลประโยชน์อะไรจากนายหรืออะไรเทือกนั้น\nเลยพยายามชวนนายเข้า—"
 
 # hi "So, you're admitting that—"
-hi "ยอมรับแล้วสินะ"
+hi "อ้อ สรุปยอมรับแล้วสินะว่า—"
 
 show shizu behind_blank
 with charachange
@@ -645,7 +645,7 @@ show misha perky_smile
 with charachange
 
 # mi "Ahaha~! No! We admit nothing~! I mean, Hicchan, of course it would be nice if you joined, and we'd appreciate it."
-mi "อะฮ่าฮ่า~! เปล๊า ไม่ได้ยอมรับอะไรสักหน่อย~! ฮิจัง หมายถึงมันจะดีมากเลยถ้านายเข้ามาน่ะแล้วเราก็จะยินดียิ่ง"
+mi "อะฮ่าฮ่า~! เปล๊า ไม่ได้ยอมรับอะไรสักหน่อย~! ก็ ฮิจัง ถ้านายจะเข้าร่วมก็ดีเลยละ พวกเรายินดีมาก ๆ"
 
 mi "But even without all that, joining the Student Council shows a healthy interest in the workings of one's school."
 
