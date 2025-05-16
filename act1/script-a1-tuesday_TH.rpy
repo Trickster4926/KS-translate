@@ -981,7 +981,7 @@ show shizu behind_smile
 with charachange
 
 # "Her expression unchanging, Misha signs something amusedly to Shizune, who makes a baffling face and puts her hands behind her back, looking pleased with herself."
-"สีหน้าของมิช่ายังเหมือนเดิม เธอหันไปทำภาษามือให้ชิซูเนะที่ฉันดูไม่ออกว่าคิดอะไรอยู่ แต่เอามือไพล่หลังพลางดูพอใจกับตัวเอง"
+"สีหน้าของมิช่ายังเหมือนเดิม เธอหันไปทำภาษามือให้ชิซูเนะที่ฉันดูไม่ออกว่าคิดอะไรอยู่\nแต่เอามือไพล่หลังพลางดูพอใจกับตัวเอง"
 
 show misha hips_grin
 with charachange
@@ -1008,10 +1008,10 @@ with locationchange
 "นอกเหนือจากโต๊ะกับเก้าอี้ ในห้องก็ไม่ค่อยมีอะไรแล้ว จะมีก็แค่ตู้เก็บเอกสารกับชั้นหนังสือที่เก็บพวกเอกสารของโรงเรียน\nที่เหลือก็ไม่ค่อยมีอะไรละ เอาจริง ๆ ก็ไม่มีอย่างอื่นแล้ว"
 
 # "This is… a pretty bleak room. They could at least put a potted plant in here, or something. But the most noticeable thing that this room doesn't have is other people."
-"ห้องนี้ดู…ซีดนิดหน่อย จริง ๆ น่าจะเอากระถางต้นไม้มาตกแต่งเพิ่มในนี้สักหน่อยหรืออะไรเทือก ๆ นั้น\nแต่ที่สังเกตได้ชัดเลยคือ ห้องนี้ไม่มีคนอื่่น ๆ เลย"
+"ห้องนี้ดู…หม่น ๆ นิดหน่อย จริง ๆ น่าจะเอากระถางต้นไม้มาตกแต่งเพิ่มในนี้สักหน่อยหรืออะไรเทือก ๆ นั้น\nแต่ที่สังเกตได้ชัดเลยคือ ห้องนี้ไม่มีคนอื่่น ๆ เลย"
 
 # hi "Are we early?"
-"เรามาเร็วไปหรอ?"
+hi "เรามาเร็วไปหรอ?"
 
 show shizu behind_blank at tworight
 show misha hips_smile at twoleft
@@ -1066,7 +1066,7 @@ hide shizu
 with charaexit
 
 # "While Misha is talking, Shizune takes out what looks like a board game from behind one of the filing cabinets and throws it on the table."
-"ขณะที่มิช่าคุยอยู่ ชิซูเนะก็หยิบสิ่งที่ดูเหมือนบอร์ดเกมออกมาจากตู้เก็บเอกสารและโยนลงบนโต๊ะ"
+"ขณะที่มิช่าพูดอยู่ ชิซูเนะก็หยิบสิ่งที่ดูเหมือนบอร์ดเกมออกมาจากตู้เก็บเอกสารและโยนลงบนโต๊ะ"
 
 # "Actually, this looks kind of interesting."
 "ชักเริ่มน่าสนใจขึ้นมาแล้วสิ"
@@ -1086,8 +1086,9 @@ with shorttimeskip
 
 play music music_running fadein 0.5
 
+
 # "Halfway into the game, while I try to ponder how to defend against Shizune's assault from two fronts, she breaks my concentration by drumming her fingers on the table to get my attention."
-"ผ่านมาถึงกลางเกม ขณะที่ฉันกำลังวางแผนว่าจะกันการโจมตีจาก 2 ทางของชิซูเนะยังไง เธอก็ทำลายสมาธิฉันด้วยการเคาะโต๊ะเล่น"
+"ผ่านมาถึงกลางเกม ขณะที่ฉันกำลังวางแผนว่าจะกันการโจมตีจาก 2 ทางของชิซูเนะยังไง\nเธอก็ทำลายสมาธิฉันด้วยการเคาะโต๊ะเล่น"
 show shizu behind_frown
 with charachange
 
