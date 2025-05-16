@@ -343,7 +343,7 @@ scene bg school_scienceroom
 with shorttimeskip
 
 # "The rest of class passes uneventfully. The girl with the long hair never came back."
-"เวลาที่เหลือในคาบก็ผ่านไปโดยไม่มีอะไร ผู้หญิงคนนั้นก็ไม่ได้กลับมาที่ห้อง"
+"เวลาที่เหลือในคาบก็ผ่านไปโดยที่ไม่มีอะไรเกิดขึ้น ผู้หญิงคนนั้นก็ไม่ได้กลับมาที่ห้อง"
 
 # "Before I have the time to put any more thought into where she could have gone, the teacher informs us that it's time to stop working."
 "ก่อนที่จะได้คิดต่อว่าเธอหายไปที่ไหน ครูก็เข้ามาบอกว่าหมดเวลาแล้ว"
@@ -443,7 +443,7 @@ with charaexit
 
 
 # "I'd argue more, but the bell rings, and she quickly gets up and picks up her bag, looking at me expectantly."
-"ในใจอยากจะเถียงต่อ แต่กระดิ่งดังพอดี แล้วเธอก็รีบลุกแล้วหยิบกระเป๋าออกไป มองมาที่ฉันอย่างคาดหวัง"
+"ในใจอยากจะเถียงต่อ แต่ระฆังดังพอดี แล้วเธอก็รีบลุกแล้วหยิบกระเป๋าออกไป มองมาที่ฉันอย่างคาดหวัง"
 scene bg school_hallway3
 with locationchange
 
@@ -629,7 +629,6 @@ shi "…"
 
 show misha hips_grin
 with charachange
-#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
 # mi "Hahaha~! Of course, we're not trying to get you to join just because we would obviously benefit from you joining the Student Council and therefore have an incentive to try and get you to—"
 mi "ฮ่าฮ่าฮ่า~! แน่นอนว่าเราไม่ได้ตั้งใจว่าจะชวนนายเข้าไปเพื่อหวังผลประโยชน์อะไรจากนายหรืออะไรเทือกนั้น\nเลยพยายามชวนนายเข้า—"
 
@@ -647,13 +646,16 @@ with charachange
 # mi "Ahaha~! No! We admit nothing~! I mean, Hicchan, of course it would be nice if you joined, and we'd appreciate it."
 mi "อะฮ่าฮ่า~! เปล๊า ไม่ได้ยอมรับอะไรสักหน่อย~! ก็ ฮิจัง ถ้านายจะเข้าร่วมก็ดีเลยละ พวกเรายินดีมาก ๆ"
 
-mi "But even without all that, joining the Student Council shows a healthy interest in the workings of one's school."
+# mi "But even without all that, joining the Student Council shows a healthy interest in the workings of one's school."
+mi "แต่ยังไงก็ตาม การเข้าสภานักเรียนน่ะถือว่าเป็นการให้ความร่วมมือกับงานทางโรงเรียนนะ"
 
-mi "Yup~! It's true, Hicchan. Besides, don't you want to spend time with us after school, Hicchan?"
+# mi "Yup~! It's true, Hicchan. Besides, don't you want to spend time with us after school, Hicchan?"
+mi "อื้ม~! ก็ตามนั้นนั่นแหละฮิจัง แล้วอีกอย่าง นายไม่อยากอยู่กับพวกเราหลังเลิกเรียนจริง ๆ หรอ ฮิจัง?"
 
-"I can't tell if she is being genuine or if this is just really good acting. Both of them seem to be trying hard to look their cutest, although they are already pretty cute to begin with."
-
-hi "Well…"
+# "I can't tell if she is being genuine or if this is just really good acting. Both of them seem to be trying hard to look their cutest, although they are already pretty cute to begin with."
+"แยกไม่ออกเลยแฮะว่านี่คิดจริงจังหรือแค่แกล้งหยอก เหมือนทั้งคู่พยายามทำตัวให้ดูน่ารักที่สุดเลย\nถึงแม้จริง ๆ ก็น่ารักตั้งแต่แรกแล้วก็เถอะนะ"
+# hi "Well…"
+hi "ก็…"
 
 show shizu adjust_happy
 with charachange
@@ -663,15 +665,17 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "So it's settled, then. Welcome to the Student Council, Hicchan~!"
+# mi "So it's settled, then. Welcome to the Student Council, Hicchan~!"
+mi "งั้นก็ตามนี้ ยินดีต้อนรับเข้าสู่สภานักเรียนนะ ฮิจัง~!"
 
-hi "What? No. No!"
+# hi "What? No. No!"
+hi "ฮะ เดี๋ยว ๆ ไม่ ๆ!"
 
 show misha perky_sad
 with charachange
 
-mi "Awww… See, Shicchan? Of course it wouldn't go so easily."
-
+# mi "Awww… See, Shicchan? Of course it wouldn't go so easily."
+mi "โธ่… เนี่ยเห็นไหมชิจัง มันไม่ง่ายขนาดนั้นหรอก"
 show shizu adjust_smug
 with charachange
 
@@ -680,37 +684,46 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "Yup! That's right, though, it would be boring if it went that smoothly. Oh well~! Shicchan owes me candy now!"
+# mi "Yup! That's right, though, it would be boring if it went that smoothly. Oh well~! Shicchan owes me candy now!"
+mi "อื้ม! ใช่ ๆ ถ้าง่ายไปก็คงไม่สนุกน่ะสิ อ้อแล้วก็! แบบงี้ชิจังต้องเลี้ยงลูกอมฉันแล้วนะ"
 
-hi "You were betting on it? Hey, my life is not a game here!"
+# hi "You were betting on it? Hey, my life is not a game here!"
+hi "นี่พนันกันด้วยงั้นหรอ นี่ฉันไม่ใช่เกมนะ!"
 
 show shizu basic_happy
 with charachange
 
-"Shizune seems very intrigued by this when Misha signs it to her. The aggressive glint returns to her eyes."
+# "Shizune seems very intrigued by this when Misha signs it to her. The aggressive glint returns to her eyes."
+"ชิซูเนะดูจะสนใจคำพูดเมื่อกี้หลังจากที่ได้อ่านภาษามือจากมิช่า ตาฉายแววที่มุ่งมั่น"
 
 shi "…"
 
 show misha cross_laugh
 with charachange
 
-mi "Wahaha~! That's interesting, Hicchan. Let's play a game!"
+# mi "Wahaha~! That's interesting, Hicchan. Let's play a game!"
+mi "วะฮ่าฮ่า~! น่าสนใจนี่ฮิจัง งั้นเรามาเล่นเกมกันเถอะ"
 
-hi "That's not what I said."
+# hi "That's not what I said."
+hi "ไม่ได้หมายความว่าแบบนั้น"
 
 show misha hips_grin
 with charachange
 
-mi "How about Rich Man, Poor Man, Hicchan? If you lose, you have to join the Student Council~!"
+# mi "How about Rich Man, Poor Man, Hicchan? If you lose, you have to join the Student Council~!"
+mi "งั้นเอาเป็นไพ่สลาฟไหมล่ะ ถ้านายแพ้ นายต้องเข้าสภาล่ะ~!"
 
-hi "No, absolutely not."
+# hi "No, absolutely not."
+hi "ไม่เอาแน่ ๆ"
 
 show misha perky_sad
 with charachange
 
-mi "Aw~, why not?"
+# mi "Aw~, why not?"
+mi "โธ่~ ทำไมล่ะ?"
 
-hi "Well, because you two both have the same incentive, and therefore the same goal, which is to get me to join the Student Council, right?" 
+# hi "Well, because you two both have the same incentive, and therefore the same goal, which is to get me to join the Student Council, right?" 
+mi "ก็พวกเธอจะพยายามจะพาฉันเข้าสภานักเรียนนี่ ใช่ไหมล่ะ?"
 
 show shizu adjust_smug
 with charachange
@@ -720,9 +733,11 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Yup!"
+# mi "Yup!"
+mi "อื้ม!"
 
-hi "Yeah, that isn't my goal. But what this means is that both of you can team up and I'll be at a clear disadvantage. So, I will have to decline."
+# hi "Yeah, that isn't my goal. But what this means is that both of you can team up and I'll be at a clear disadvantage. So, I will have to decline."
+hi "เอ้อ แปลว่ายังไงพวกเธอก็จะช่วยกันรุมเพื่อลากฉันเข้าไปอยู่ดี แบบนั้นฉันก็เสียเปรียบน่ะสิ ไม่เอาด้วยหรอก"
 
 show shizu basic_angry
 with charachange
@@ -732,56 +747,73 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Hicchan! I'm very offended! Are you saying you don't trust us, and that we would pull something so d—dis—in—gen—u—ous…? That makes me sad…"
+# mi "Hicchan! I'm very offended! Are you saying you don't trust us, and that we would pull something so d—dis—in—gen—u—ous…? That makes me sad…"
+mi "ฮิจัง! เธอก็พูดเกินไปนะ! นี่จะบอกว่าจะไม่เชื่อใจกัน แล้วคิดว่าพวกเราจะเล่น ละ ละ…เหลี่—ย—ม อย่างงั้นหรอ?\nเสียใจนะเนี่ย…"
 
-hi "Sorry?"
+# hi "Sorry?"
+hi "อะไรนะ?"
 
-"It's hard to tell where Shizune's influence ends and Misha's thoughts begin."
+# "It's hard to tell where Shizune's influence ends and Misha's thoughts begin."
+"เดายากจริง ๆ ว่าอันไหนคำพูดชิซูเนะ อันไหนของมิช่า"
 
 show shizu behind_frown
 with charachange
 
 shi "…"
 
-mi "In order to atone for hurting a young girl's feelings, you should definitely join the Student Council!"
+# mi "In order to atone for hurting a young girl's feelings, you should definitely join the Student Council!"
+mi "โทษฐานที่รังแกเด็กผู้หญิง นายต้องมาเข้าสภาเลยนะ!"
 
-hi "No!"
+# hi "No!"
+hi "ไม่!"
 
 show misha hips_smile
 with charachange
 
-mi "How about a game of paper football, instead of Rich Man, Poor Man?"
+# mi "How about a game of paper football, instead of Rich Man, Poor Man?"
+mi "งั้นเอาเป็นเกมฟุตบอลกระดาษแทนไหมล่ะ"
 
-hi "Paper football?"
+# hi "Paper football?"
+hi "ฟุตบอลกระดาษ?"
 
 show misha hips_grin
 with charachange
 
-mi "Yeah~! It's a game they play in America~! You make a paper triangle, and then you try to shoot it past goalposts that the other player makes with their fingers!"
 
-mi "Isn't it cool~? It's the ultimate form of competition between two people, Hicchan~!"
+# mi "Yeah~! It's a game they play in America~! You make a paper triangle, and then you try to shoot it past goalposts that the other player makes with their fingers!"
+mi "ช่าย~! เป็นเกมที่เล่นกันในอเมริกาน่ะ พับกระดาษเป็นสามเหลี่ยม จากนั้นก็พยายามเตะเข้าโกลด้วยนิ้ว"
+
+# mi "Isn't it cool~? It's the ultimate form of competition between two people, Hicchan~!"
+mi "เจ๋งไปเลยใช่ม้า~ เนี่ยเกมไว้แข่ง 2 คนที่ดีที่สุดเลยล่ะ ฮิจัง~!"
+
 
 show shizu basic_normal
 with charachange
 
 shi "…"
 
-mi "…And it's also played by elementary and middle school children, Shicchan? Wahaha! That means it's a game that really separates the boys from the men!"
+# mi "…And it's also played by elementary and middle school children, Shicchan? Wahaha! That means it's a game that really separates the boys from the men!"
+mi "…แถมเล่นกันทั้งประถมและมัธยมด้วยงั้นหรอชิจัง? วะฮ่าฮ่า! แปลว่าเกมนี้เล่นแล้วรู้เลยว่าโตแล้วหรือยัง"
 
-hi "More like the boys from the slightly older boys. Anyway, I'm not going to play that either. Just the fact that you know about it means you're probably surprisingly good at it."
+# hi "More like the boys from the slightly older boys. Anyway, I'm not going to play that either. Just the fact that you know about it means you're probably surprisingly good at it."
+hi "โตนิดหน่อยน่ะสิไม่ว่า ยังไงก็เถอะก็ไม่เอาอยู่ดี รู้เยอะงี้แปลว่าเล่นเก่งแล้วน่ะสิ"
 
 show misha cross_laugh
 with charachange
 
-mi "Hahaha~! Yeah yeah~, that's true! How did you know, Hicchan?"
+# mi "Hahaha~! Yeah yeah~, that's true! How did you know, Hicchan?"
+mi "ฮ่าฮ่าฮ่า~! ช่าย ช่าย~ รู้ได้ไงเนี่ยฮิจัง"
 
 show shizu behind_frown
 show misha cross_grin
 with charachange
 
-"Shizune frowns at Misha, telling me that she probably wasn't supposed to admit that so readily."
+# "Shizune frowns at Misha, telling me that she probably wasn't supposed to admit that so readily."
+"ชิซูเนะหน้านิ่วคิ้วขมวดใส่มิช่า เป็นสัญญาณว่ามิช่าไม่ควรยอมรับง่าย ๆ ขนาดนั้น"
 
-"I wouldn't say that I'm happy with their attempts to get me into the Student Council, but I'm a little curious about what the Student Council does here."
+# "I wouldn't say that I'm happy with their attempts to get me into the Student Council, but I'm a little curious about what the Student Council does here."
+"ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่"
+#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
 
 "I've never been on one before, or even known anybody who was a member, so it interests me. I also kind of like Shizune and Misha, so maybe it wouldn't be so bad."
 
