@@ -813,10 +813,9 @@ with charachange
 
 # "I wouldn't say that I'm happy with their attempts to get me into the Student Council, but I'm a little curious about what the Student Council does here."
 "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่"
-#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
 
-"I've never been on one before, or even known anybody who was a member, so it interests me. I also kind of like Shizune and Misha, so maybe it wouldn't be so bad."
-
+# "I've never been on one before, or even known anybody who was a member, so it interests me. I also kind of like Shizune and Misha, so maybe it wouldn't be so bad."
+"ฉันเองก็ไม่เคยอยู่ในนั้น แถมไม่รู้จักคนที่เป็นสมาชิกในนั้นมาก่อนด้วย ซึ่งมันเลยน่าสนใจขึ้นมา\nแถมจริง ๆ ฉันเองก็ค่อนข้างชอบทั้งคู่ เข้าไปก็อาจจะไม่แย่ล่ะมั้ง"
 show shizu behind_blank
 with charachange
 
@@ -825,50 +824,63 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Okay, Hicchan, how about Risk? The game of world domination!"
+# mi "Okay, Hicchan, how about Risk? The game of world domination!"
+mi "โอเค งั้นเอาเป็นบอร์ดเกมริสก์ (Risk) ไหมล่ะ เกมยึดครองโลกน่ะ!"
 
-hi "I don't know what that is."
+# hi "I don't know what that is."
+hi "ฉันไม่รู้จักเกมนั้นน่ะ"
 
 show misha hips_smile
 with charachange
 
-mi "It's really fun, Hicchan. You fight for control of the world, with armies and everything."
+# mi "It's really fun, Hicchan. You fight for control of the world, with armies and everything."
+mi "มันสนุกมากเลยนะฮิจัง เกมนี้นายจะต้องสู้เพื่อยึดครองโลก ด้วยกองกำลังและทุก ๆ อย่าง"
 
-"Sounds like Shizune would be good at it."
+# "Sounds like Shizune would be good at it."
+"ฟังดูแล้ว ดูท่าชิซูเนะคงจะเล่นเก่งน่าดู"
 
-mi "If you want to play, we can after school."
+# mi "If you want to play, we can after school."
+mi "ถ้านายอยากลองเล่น เดี๋ยวเราไปเล่นกันหลังเลิกเรียน"
 
 show shizu basic_normal
 with charachange
 
 shi "…"
 
-mi "Ah, really, Shicchan? We can play just for fun, Hicchan. Shicchan hasn't played in a long time, so if you want to, there are no strings attached~!"
+# mi "Ah, really, Shicchan? We can play just for fun, Hicchan. Shicchan hasn't played in a long time, so if you want to, there are no strings attached~!"
+mi "อ๊ะ จริงหรอชิจัง? เราเล่นแบบขำ ๆ ได้นะฮิจัง พอดีชิจังก็ไม่ได้เล่นเกมนี้มานานด้วยล่ะ\nซึ่งถ้าอยากลองมาเล่นก็ได้นะ ไม่มีพันธะสัญญาแอบแฝงล่ะ~!"
 
-hi "Well, okay…"
-
+# hi "Well, okay…"
+hi "อืม ก็ได้…"
 show misha perky_smile
 with charachange
 
-mi "Okay! Okay, okay~! Perfect~! We'll see you after school in the student council room, then, Hicchan!"
+# mi "Okay! Okay, okay~! Perfect~! We'll see you after school in the student council room, then, Hicchan!"
+mi "โอเค โอเค โอเค~! เยี่ยม~! งั้นเจอกันที่ห้องสภาหลังเลิกเรียนล่ะ ฮิจัง!"
 
-hi "Wait, why there?"
+# hi "Wait, why there?"
+hi "เดี๋ยว ๆ ทำไมต้องห้องนั้นล่ะ?"
 
 show misha hips_grin
 with charachange
 
-mi "Because~! That's where we keep the game."
+# mi "Because~! That's where we keep the game."
+mi "ก็เพราะว่า~! เกมอยู่ในห้องนั้นไงล่ะ"
 
 show misha cross_laugh
 with charachange
 
-mi "Wahahahaha~!"
+# mi "Wahahahaha~!"
+mi "วะฮ่าฮ่าฮ่าฮ่า~!"
 
-"I grimace to tell them how much I do not like this, but it's more for show than anything."
+# "I grimace to tell them how much I do not like this, but it's more for show than anything."
+"ฉันทำหน้าเบ้ไปเป็นเชิงว่าไม่เอาด้วย แต่ก็ทำไปงั้นแหละ"
 
-"So in the end I agree, but only after getting Shizune to acknowledge that I don't mean anything concrete just by accepting to take a look around and play a game with her."
+# "So in the end I agree, but only after getting Shizune to acknowledge that I don't mean anything concrete just by accepting to take a look around and play a game with her."
+"แต่สุดท้ายก็ไปตามน้ำ หลังจากบอกชิซูเนะว่าแค่ไปเล่นเฉย ๆ ไม่ได้เกี่ยวกับเรื่องอื่น"
 
-"Lunch ends, and we go back to class."
+# "Lunch ends, and we go back to class."
+"หมดเวลาพักเที่ยง แล้วเราก็กลับห้องเรียน"
 
 stop music fadeout 2.0
 
@@ -882,10 +894,12 @@ with charamove
 hide hanako
 with None
 
-"During afternoon classes, the long haired girl comes back and sits down in her seat without a word." 
+# "During afternoon classes, the long haired girl comes back and sits down in her seat without a word." 
+"ในคาบเรียนตอนบ่าย ผู้หญิงผมยาวคนนั้นก็กลับมานั่งที่ตัวเองเงียบ ๆ โดยไม่ได้พูดอะไร"
 
-"Again, no one seems to notice, or if they do, no one says anything. I want to ask Misha about it, but I don't want to be nosy."
-
+# "Again, no one seems to notice, or if they do, no one says anything. I want to ask Misha about it, but I don't want to be nosy."
+"และดูเหมือนว่าไม่มีใครสังเกตเธอเช่นเดิม หรือต่อให้สังเกตก็ไม่มีใครพูดอะไรออกมา\nฉันก็อยากจะถามมิช่านะ แต่ก็จะดูว่ายุ่งเรื่องคนอื่นมากเกินไป"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 
 #***************
