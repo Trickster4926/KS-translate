@@ -784,50 +784,50 @@ scene bg school_scienceroom at bgright
 show muto normal at center
 with fade
 
-mu "We're going to be doing some group work today, so that'll give you a chance to talk with everyone. Is that okay with you?"
+mu "วันนี้จะทำงานกลุ่มนะ จะได้มีโอกาสคุยกับคนอื่นด้วย โอเคมั้ย"
 
-hi "Yeah, it's fine with me."
+hi "ครับ ได้ครับ"
 
 show muto smile
 with charachange
 
-mu "That's good, you can work with Hakamichi. She is the class representative."
+mu "ดี งั้นเธออยู่กับฮากามิจิแล้วกันนะ เธอเป็นหัวหน้าห้องน่ะ"
 
-mu "She can explain anything you might want to know. And who else would be able to do that better, right?"
+mu "เผื่อมีอะไรสงสัยจะได้ตอบให้ได้ คงไม่มีใครเหมาะกว่านี้แล้วนี่นะ"
 
 hide muto
 with charaexit
 
-"How could I know?"
+"จะไปรู้เหรอ"
 
-"The teacher passes out the day's assignments and announces that we will be working in groups of three."
+"ครูก็แจกงานให้แล้วบอกว่าให้จับกลุ่มกันสามคน"
 
-"It hits me that I don't know who Hakamichi is. Slow. The teacher seems to catch my helpless expression."
+"ถึงพึ่งรู้ตัวว่ายังไม่รู้เลยว่าฮากามิจิคือคนไหน ความรู้สึกช้าเกิน ครูก็เหมือนจะเห็นว่ากำลังงงอยู่"
 
-mu "Oh, right. Hakamichi is right there, Shizune Hakamichi."
+mu "อ้อ จริงสิ ฮากามิจิคือคนนั้นนะ ชิซูเนะ ฮากามิจิ"
 
 show misha perky_smile at center
 with charaenter
 
-"As he calls out her name, the cute, bubbly looking girl with bright pink hair and gold eyes waves her hand at me. I take a seat next to her, by the window."
+"พอถูกเรียกชื่อ สาวผมสีชมพูที่ดูร่าเริงตาสีทองคนนั้นก็โบกมือให้ ฉันเข้าไปนั่งข้างเธอตรงข้างหน้าต่าง"
 
-hi "Hey, I guess you're Hakamichi, right? It's nice to meet you."
+hi "ไง เธอฮากามิจิใช่มั้ย ยินดีที่ได้รู้จัก"
 
 stop music fadeout 1.0
 
 show misha cross_laugh
 with charachange
 
-mi_shi "Hahaha~!"
+mi_shi "ฮ่าฮ่าฮ่า~!"
 
-"What? I'm caught off guard by her laughter."
+"หา? อยู่ ๆ ก็หัวเราะไม่ทันตั้งตัว"
 
 show misha hips_grin
 with charachange
 
-mi_shi "It's nice to meet you, too!{w=0.5} But~!"
+mi_shi "ยินดีที่ได้รู้จักเช่นกัน!{w=0.5} แต่~!"
 
-mi_not_shi "It's nice to meet you, too! But~!{fast}, I'm not Hakamichi, I'm Misha! This is Hakamichi. Shicchan~!"
+mi_not_shi "ยินดีที่ได้รู้จักเช่นกัน! แต่~!{fast} ฉันไม่ใช่ฮากามิจิ ฉันมิช่า คนนี้ต่างหากฮากามิจิ ชิจัง~!"
 
 play music music_shizune fadein 1.0
 
@@ -838,11 +838,11 @@ with charamove
 show shizu basic_normal at tworight
 with charaenter
 
-"Giggling, Misha points to the girl next to her, the one I saw using sign language before. It looks like she has been staring at me this whole time. She nods once nonchalantly to show that she acknowledges my presence… but only barely."
+"มิช่าชี้ไปที่ผู้หญิงข้าง ๆ เธอพลางหัวเราะคิกคัก เป็นคนที่เห็นใช้ภาษามือเมื่อกี้ เหมือนจะจ้องฉันมาตลอดเลย\nเธอพยักหน้าดูไม่ยี่หระอะไร เพียงรับรู้ว่ามีฉันอยู่ด้วย... แต่ก็แค่นั้น"
 
-"She has short, yet carefully, neatly brushed hair, a pair of oval-shaped glasses balanced on the tip of a dainty nose, and dark blue eyes that seem to alternate every few seconds between analytical and slightly bored."
+"ผมสั้นที่หวีเรียบแปล้ แว่นทรงรีที่วางอยู่บนจมูกบาง กับนัยน์ตาสีน้ำเงินที่ดูทั้งสนใจกับเบื่อเล็กน้อยสลับไปมาตลอด"
 
-hi "It's nice to meet you."
+hi "ยินดีที่ได้รู้จัก"
 
 show shizu behind_blank 
 with charachange
@@ -858,7 +858,7 @@ with charachange
 show misha perky_smile 
 with charachange
 
-"She immediately looks at Misha, who smiles and makes a few quick gestures with her hands."
+"เธอมองขวับไปทางมิช่าที่ยิ้มและทำมือไปมา"
 
 show shizu adjust_happy 
 with charachange
@@ -866,21 +866,21 @@ with charachange
 show shizu behind_smile 
 with charachange
 
-"Hakamichi nods and makes a few gestures of her own."
+"ฮากามิจิพยักหน้าและทำมือไปมาบ้าง"
 
-"I start to wonder if the teacher was messing with me, saying things like “you'll be able to talk to people” and “who better to explain things to you.”"
+"ชักสงสัยว่าครูอำกันเล่นหรือเปล่า ทั้งที่บอกว่า “มีโอกาสคุยกับคนอื่นด้วย” กับ “มีอะไรสงสัยจะได้ตอบให้ได้”"
 
 show misha hips_smile 
 with charachange
 
-mi "I can see you're a little confused, right?, right? But, I understand why you would think I was Shicchan!"
+mi "ยังงง ๆ อยู่ใช่มั้ย ๆ แต่ก็ไม่แปลกหรอกที่จะนึกว่าฉันคือชิจัง!"
 
-mi "Shicchan is deaf, so I'm the person who translates things back and forth for her."
+mi "ชิจังเขาหูหนวกน่ะ ฉันก็เลยคอยเป็นคนแปลคำพูดให้"
 
 show misha hips_grin 
 with charachange
 
-mi "I'm like an interpreter~! She says it's nice to meet you, too!"
+mi "เหมือนล่ามน่ะแหละ~! เมื่อกี้บอกว่า ยินดีที่ได้รู้จักเช่นกันนะ!"
 
 show shizu basic_normal2 
 with charachange
@@ -890,45 +890,45 @@ shi "…"
 show misha perky_smile 
 with charachange
 
-mi "You're the new student, aren't you? Well, Shicchan, of course he is! If he wasn't, he would have been standing up there for no reason, right? Right~!"
+mi "นายเป็นเด็กใหม่ใช่มั้ย เอ่อ ชิจัง ก็ต้องใช่สิ! ถ้าไม่ใช่ก็คงไม่ไปยืนอยู่หน้าห้องเฉย ๆ หรอก ใช่มั้ย ๆ ~!"
 
 
 
 label th_A2d:
 
-mi "He seems like a very interesting person, doesn't he~!"
+mi "ดูเป็นคนที่น่าสนใจดีใช่มั้ยล่ะ~!"
 
 
 
 label th_A2e:
 
-"Misha looks at me with a weird expression, then continues."
+"มิช่ามองมาทางฉันด้วยสีหน้าแปลก ๆ แล้วพูดต่อ"
 
-mi "We don't know much about him, but maybe we'll find out later."
+mi "ตอนนี้ยังไม่รู้จักมาก แต่เดี๋ยวก็คงรู้แหละ"
 
-"Maybe I should've introduced myself after all. Anything would've given a better first impression than the teacher's drone and fumbling with my name."
+"รู้งี้แนะนำตัวเสียก็ดี อย่างน้อยได้พูดอะไรก็คงดีกว่าปล่อยให้ครูพูดเอื่อย ๆ กับพูดชื่อผิดแบบนั้น"
 
 
 
 label th_A2f:
 
-mi "We knew there was going to be a new student, but we didn't know you would be here today. So soon! Hicchan, right?"
+mi "รู้มาว่าจะมีนักเรียนใหม่มา แต่ไม่นึกว่าจะมาวันนี้ เร็วจัง! ฮิจังใช่มั้ย"
 
-"Hicchan…?"
+"ฮิจัง… เหรอ"
 
 show misha hips_grin 
 with charachange
 
-mi "Yup~! It fits, doesn't it?"
+mi "ช่าย~! เหมาะดีออก"
 
-"Did I say it out loud? It's just a surprise. I've never liked that nickname."
+"เมื่อกี้ได้พูดด้วยเหรอ ตกใจหมด ไม่ชอบชื่อนั้นเลยแฮะ"
 
-hi "I don't really see how."
+hi "เหมาะตรงไหน"
 
 show misha cross_grin 
 with charachange
 
-mi "It fits~! You look just like I imagined!"
+mi "เหมาะสิ~! หน้าตาก็เหมือนที่คิดไว้เปี๊ยบเลย!"
 
 show shizu adjust_smug 
 with charachange
@@ -939,13 +939,13 @@ show misha cross_laugh
 show shizu adjust_happy 
 with charachange
 
-mi "Hahahaha~! Yeah, you look just like a Hicchan!"
+mi "ฮ่าฮ่าฮ่าฮ่า~! ใช่ นายนี่แหละคือฮิจังเลย!"
 
-hi "I wonder why everyone seems to think so…"
+hi "ทำไมถึงคิดงั้นกัน…"
 
 shi "…"    
 
-"Hakamichi taps her fingers on the desk to get Misha's attention. They gesture back and forth to each other excitedly, their hands a blur."
+"ฮากามิจิใช้นิ้วเคาะที่โต๊ะเพื่อให้มิช่าหัน ทั้งสองคนทำท่าไปมาอย่างตื่นเต้นจนดูแทบไม่ทัน"
 
 show shizu adjust_happy 
 with charachange
@@ -959,17 +959,17 @@ with charachange
 show misha perky_confused 
 with charachange
 
-"Misha seems a little overwhelmed."
+"มิช่าดูจะรับข้อมูลมากไม่ไหว"
 
 show misha hips_grin 
 with charachange
 
-mi "Ahaha~! Er, sorry about that!"
+mi "อะฮ่าฮ่า~! เอ่อ ขอโทษทีนะ!"
 
 show misha hips_smile 
 with charachange
 
-mi "Shicchan wants you to know that she's the class rep, so if there is anything you need to know, you can feel free to ask her."
+mi "ชิจังจะบอกว่าตัวเองน่ะเป็นหัวหน้าห้องนะ ถ้าอยากรู้อะไรก็ถามได้ไม่ต้องเกรงใจ"
 
 show shizu behind_blank 
 with charachange
@@ -979,23 +979,23 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Do you like the school so far? We can show you around a little if you haven't had the time to walk around and…{w=0.5}{nw}"
+mi "มาวันแรกเป็นไงบ้าง ถ้าไม่มีเวลาเดินดูให้ทั่วก็ให้พวกเราพาไปเดินให้นาย…{w=0.5}{nw}"
 
 show misha perky_smile:
     "misha perky_confused" with Dissolve(0.5, alpha=True)
 with None
 
-extend " familiarize?{w=0.5}{nw}"
+extend "คุ้นชิน?{w=0.5}{nw}"
 
 show misha perky_confused:
     "misha perky_smile" with Dissolve(0.5, alpha=True)
 with None
 
-extend " yourself with it!"
+extend "กับที่นี่ได้นะ!"
 
-"Misha stumbles with the hard word a bit, making it stick out in her otherwise fluid translation."
+"มิช่าชะงักไปนิดหน่อยกับคำยากนั้น ทำให้ที่แปลมาลื่น ๆ ปกติดูสะดุด"
 
-hi "Thanks, that would be pretty helpful. Yeah, I just kind of came straight to class today."
+hi "ขอบใจ ช่วยได้เยอะเลย อื้อ วันนี้มาถึงก็มาเรียนเลย"
 
 show shizu behind_frown 
 with charachange
@@ -1005,34 +1005,34 @@ shi "…"
 show misha hips_laugh 
 with charachange
 
-mi "Hahaha~!"
+mi "ฮ่าฮ่าฮ่า~!"
 
 show misha hips_smile 
 with charachange
 
-mi "That's no good! You should always try to learn as much as you can about where you're going before you go there. Not just with school, either~!"
+mi "ไม่ได้นะ! ปกติจะไปไหนต้องหาข้อมูลที่นั่นมาก่อนสิ แล้วก็ไม่ใช่แค่โรงเรียนด้วย~!"
 
 show misha hips_grin 
 with charachange
 
-mi "Always! Even if it's a trip to the convenience store! Really, Shicchan? Hahaha~!"
+mi "ต้องรู้มาก่อน! ต่อให้จะไปแค่ร้านสะดวกซื้อก็เถอะ! เอาจริงปะเนี่ยชิจัง ฮ่าฮ่าฮ่า~!"
 
 show misha perky_smile 
 show shizu behind_smile 
 with charachange
 
-"Learn about where you're going? I guess I didn't bother to do that, or just didn't care enough to do so."
+"รู้มาก่อนเหรอ ฉันคงไม่ได้มีอารมณ์อยากจะทำขนาดนั้นละมั้ง"
 
-"I didn't look forward to this, even if I committed myself to go along with it half-assedly, but anyway."
+"ไม่ได้อยากมาเลย ถึงจะลากให้ร่างมาอยู่ได้แล้วก็เถอะ แต่ก็นะ"
 
-"I don't say anything, and Misha signs something that ends in a shrug. What was that? It seems like it was about me."
+"ฉันไม่ได้พูดอะไร ส่วนมิช่าก็ทำภาษามือแล้วยักไหล่ตาม คุยอะไรกัน เรื่องฉันมั้ง"
 
-"I feel like slumping over in my seat. Both of them are smiling, but that shrug hit me unexpectedly deeply."
+"อยากจะไหลลงไปจากเก้าอี้ ทั้งสองคนยิ้ม แต่พอฉันเห็นท่ายักไหล่นั้นแล้วก็รู้สึกบางอย่าง"
 
 show misha perky_sad 
 with charachange
 
-mi "You look down, are you okay?"
+mi "ดูไม่ร่าเริงเลยนะ ไหวมั้ยเนี่ย"
 
 show shizu basic_normal 
 with charachange
@@ -1042,16 +1042,16 @@ shi "…"
 show misha perky_smile 
 with charachange
 
-mi "Don't take it the wrong way, please~! I hate it when people are afraid to ask questions! That's how people learn things, by asking~!"
+mi "อย่าเข้าใจผิดสิ~! พอเห็นคนไม่กล้าถามแล้วไม่ชอบเลย! คนเราต้องถามสิถึงจะรู้~!"
 
-mi "Asking for help is perfectly normal, as much as needing help! Stop looking like you just failed a test!"
+mi "จะขอความช่วยเหลือหรือถามอะไรน่ะไม่แปลกเลย! เลิกทำหน้าเหมือนสอบตกมาได้แล้วน่า!"
 
 show misha cross_laugh 
 with charachange
 
-mi "Wahahaha~!"
+mi "วะฮ่าฮ่าฮ่า~!"
 
-hi "All right."
+hi "โอเค"
 
 show shizu adjust_happy 
 with charachange
@@ -1061,7 +1061,7 @@ shi "…"
 show misha perky_smile 
 with charachange
 
-mi "Ah, and another thing, you don't have to call Shicchan something so formal like “Hakamichi” or “class rep” all the time! Just call her Shicchan~!"
+mi "อ้อ อีกอย่าง ไม่ต้องเรียกชิจังให้เป็นทางการว่า “ฮากามิจิ” หรือ “หัวหน้าห้อง” ตลอดหรอก! เรียกชิจังก็พอแล้ว~!"
 
 stop music fadeout 0.5
 
@@ -1073,7 +1073,7 @@ shi "…"
 show misha hips_smile 
 with charachange
 
-mi "Ahaha~! Okay, maybe that's too casual. Maybe “Shizune” would be more appropriate?"
+mi "อะฮ่าฮ่า~! โอเค อันนั้นก็สนิทเกินไป งั้นเรียก “ชิซูเนะ” ดีกว่าเนอะ"
 
 show shizu basic_normal2 
 with charachange
@@ -1085,13 +1085,13 @@ with charachange
 
 play music music_shizune fadein 5.0
 
-mi "Yup, yup~! “Shizune” is fine!"
+mi "อื้ม ๆ ~! “ชิซูเนะ” ก็ได้!"
 
-hi "Heh. Okay, that would be a lot easier for me."
+hi "ฮะ ๆ ได้ ก็เรียกง่ายดี"
 
-"I feel a lot more at ease. Both of them seem so friendly, so I feel like an idiot for being so apprehensive earlier. Especially about Shizune, who I assumed would be all business."
+"ค่อยโล่งขึ้นมาหน่อย ทั้งคู่ก็ดูเป็นมิตรดี ทำเอาที่ระแวงเมื่อกี้เหมือนเป็นบ้าไปเองเลย\nยิ่งชิซูเนะที่นึกว่าจะเป็นพวกเอาจริงเอาจังอีก"
 
-"Well, she still seems like that. Just less so, I guess."
+"ก็ยังดูจริงจังแหละ แต่ก็ไม่ได้ขนาดนั้นมั้ง"
 
 show shizu behind_frown 
 with charachange
@@ -1101,23 +1101,23 @@ shi "…!"
 show misha perky_confused 
 with charachange
 
-mi "Huh? Oh, right, we haven't even touched the assignment! We should start work now, or Shicchan will get mad."
+mi "หืม อ้อ จริงสิ ยังไม่ได้ทำงานเลย! ต้องรีบทำแล้ว เดี๋ยวชิจังจะโกรธ"
 
-hi "The assignment is also kind of long, so we should start now if we want to finish it before the end of class."
+hi "งานก็เยอะด้วย ต้องทำแต่เนิ่น ๆ ถ้าอยากให้เสร็จก่อนเลิกคาบ"
 
 show misha hips_laugh 
 with charachange
 
-mi "Wahaha~! That too!"
+mi "วะฮ่าฮ่า~! เธอพูดถูก!"
 
 show shizu basic_frown 
 with charachange
 
 shi "…"
 
-"Shizune glares at the two of us impatiently. I don't need to know sign language to understand that."
+"ชิซูเนะมองมาทางเราสองคนด้วยความร้อนรน อันนี้ไม่ต้องใช้ภาษามือก็รู้"
 
-hi "Okay, okay, I get the message."
+hi "โอเค ๆ เข้าใจละ"
 
 show shizu basic_normal 
 with charachange
@@ -1127,29 +1127,29 @@ shi "…"
 show misha perky_smile 
 with charachange
 
-mi "After class, we can take a walk around the grounds together. It's a nice day today! Okay~?"
+mi "เลิกเรียนแล้วไปเดินในโรงเรียนด้วยกันนะ วันนี้วันดี! โอเคนะ~"
 
-"The assignment is actually very challenging to get through, combining aspects of being both difficult and unnecessarily long."
+"งานก็ทำยาก ทั้งยากแล้วก็เยอะด้วย"
 
 stop music fadeout 6.0
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"Still, we finish it a few minutes earlier than anyone else in the class, despite our late start. Shizune and Misha are really capable."
+"ทั้งที่เริ่มช้าแต่ก็เสร็จก่อนคนอื่นไม่กี่นาทีอยู่ดี ชิซูเนะกับมิช่านี่เก่งจริง ๆ"
 
-"They're quite different, though. The class rep is as calm and professional as she looks, while Misha is a lot more playful and girlish. Not to mention a little more easily distracted."
+"แต่ทั้งสองคนก็ต่างกัน หัวห้องดูจะใจเย็นและเรียบร้อยเหมือนหน้าตาท่าทาง ส่วนมิช่าดูขี้เล่น\nกับมีความเป็นผู้หญิงมากกว่า แถมยังสมาธิหลุดง่ายด้วย"
 
-"To be honest, the two of them did most of the work. I feel guilty about that."
+"เอาจริง ๆ งานส่วนใหญ่คือทั้งคู่นั่นแหละที่ทำ รู้สึกผิดเลยแฮะ"
 
 play sound sfx_normalbell
 
-"The clock tower bells ring, signaling the end of the period. Time for lunch."
+"เสียงระฆังจากหอนาฬิกาดังเป็นสัญญาณว่าหมดคาบและพักเที่ยงแล้ว"
 
 scene bg school_hallway3
 with locationchange
 
-"Without knowing what else to do, I follow Misha, who is beckoning me into the hallway and down the stairs."
+"ฉันตามมิช่าที่กวักมือให้เดินไปที่โถงแล้วลงบันไดไปเพราะไม่รู้จะทำอะไรดี"
 
 
     
