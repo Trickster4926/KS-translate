@@ -899,7 +899,6 @@ with None
 
 # "Again, no one seems to notice, or if they do, no one says anything. I want to ask Misha about it, but I don't want to be nosy."
 "และดูเหมือนว่าไม่มีใครสังเกตเธอเช่นเดิม หรือต่อให้สังเกตก็ไม่มีใครพูดอะไรออกมา\nฉันก็อยากจะถามมิช่านะ แต่ก็จะดูว่ายุ่งเรื่องคนอื่นมากเกินไป"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 
 #***************
@@ -913,18 +912,23 @@ with shorttimeskip
 
 play music music_ease
 
-"After school, Shizune and Misha quickly find me by the first floor lobby and latch onto me, covering each flank in case I might try to escape."
+# "After school, Shizune and Misha quickly find me by the first floor lobby and latch onto me, covering each flank in case I might try to escape."
+"หลังเลิกเรียน ชิซูเนะและมิช่าก็รีบเข้ามาหาที่โถงทางเดินชั้น 1 แล้วล้อมจับฉันซ้ายขวาไม่ให้กะหนีไปไหน"
 
-"I feel a little offended, but I'd been considering it. Nevertheless, I'm a bit disturbed that enough people have made a break for it in the past that they're on their guard."
+# "I feel a little offended, but I'd been considering it. Nevertheless, I'm a bit disturbed that enough people have made a break for it in the past that they're on their guard."
+"รู้สึกไม่ค่อยพอใจเท่าไหร่ที่ทำแบบนี้ แต่เอาจริงก็คิดจะหนีอยู่จริง ๆ นั่นแหละ\nถึงงั้นก็เหอะ พอคิดว่าเคยมีคนหนีจนต้องมีคนประกบแบบนี้แล้วก็แอบกลัวเหมือนกัน"
 
-hi "What's with the escort? This doesn't make me feel very comfortable."
+# hi "What's with the escort? This doesn't make me feel very comfortable."
+hi "มาล้อมอะไรกันเนี่ย ทำเอาอึดอัดเลยแฮะ"
 
-"In fact, it makes me feel like a dangerous prisoner being transported to his cell."
+# "In fact, it makes me feel like a dangerous prisoner being transported to his cell."
+"เอาจริง สภาพแบบนี้รู้สึกเหมือนเป็นนักโทษอันตรายที่กำลังโดนพาตัวไปห้องขังเลย"
 
 show misha cross_laugh
 with charachange
 
-mi "Wahahaha! What's wrong, Hicchan?"
+# mi "Wahahaha! What's wrong, Hicchan?"
+mi "วะฮ่าฮ่าฮ่า! เป็นอะไรหรอ ฮิจัง"
 
 show shizu adjust_smug
 with charachange
@@ -934,11 +938,14 @@ shi "…"
 show misha cross_grin
 with charachange
 
-mi "That's right, we're just going to go play a game of Risk, remember?"
+# mi "That's right, we're just going to go play a game of Risk, remember?"
+mi "ใช่ ๆ เราจะไปเล่นเกมริสก์ไงล่ะ จำได้ไหม?"
 
-"I don't know, Misha, this all seems a little sinister to me. I start thinking that when we sit down to play the game, they'll tie me down and torture me until I agree to join the Student Council."
+# "I don't know, Misha, this all seems a little sinister to me. I start thinking that when we sit down to play the game, they'll tie me down and torture me until I agree to join the Student Council."
+"ไม่รู้ดิมิช่า สภาพตอนนี้ค่อนข้างน่าขนลุกนิดหน่อย นี่เริ่มคิดละว่าถ้าเข้าไปเล่นจะโดนจับทรมานจนกว่าจะยอมเข้าสภาไหม"
 
-"Well, that's highly unlikely, but still… For some reason, it just seems like it would be so plausible…"
+# "Well, that's highly unlikely, but still… For some reason, it just seems like it would be so plausible…"
+"จริง ๆ ก็ไม่น่าเป็นแบบนั้นหรอก แต่ทำไมสังหรณ์แปลก ๆ ว่ามันจะเกิดขึ้นได้นะ"
 
 hide misha
 hide shizu
@@ -949,9 +956,11 @@ with Pause(0.2)
 show bg school_lobby at right
 with charamove_slow
 
-"Getting to the student council room is as simple as turning two corners from where we started."
+# "Getting to the student council room is as simple as turning two corners from where we started."
+"ห้องสภานักเรียนอยู่ไม่ลึกมาก เดินเลี้ยว 2 ครั้งจากโถงทางเดินก็ถึงแล้ว"
 
-hi "What? That's it? This makes you guys being so on top of me seem a little silly."
+# hi "What? That's it? This makes you guys being so on top of me seem a little silly."
+hi "ห้ะ? แค่เนี้ย? มาคุมตัวซะขนาดนั้นก็เกินไป"
 
 show shizu basic_normal2 at tworight
 show misha perky_smile at twoleft
@@ -962,21 +971,26 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "That's not true, Hicchan, Shicchan says that when their life is threatened, people have shown the capability to pull off superhuman bursts of speed."
+# mi "That's not true, Hicchan, Shicchan says that when their life is threatened, people have shown the capability to pull off superhuman bursts of speed."
+mi "ไม่เกินไปหรอกฮิจัง ชิจังเคยบอกว่าเวลาคนจะหนีตายน่ะ จะมีพลังเพื่อไว้วิ่งหนีอย่างรวดเร็วออกมามากกว่าปกติ"
 
-hi "“Life is threatened?”"
+# hi "“Life is threatened?”"
+hi "“หนีตาย?”"
 
 show shizu behind_smile
 with charachange
 
-"Her expression unchanging, Misha signs something amusedly to Shizune, who makes a baffling face and puts her hands behind her back, looking pleased with herself."
+# "Her expression unchanging, Misha signs something amusedly to Shizune, who makes a baffling face and puts her hands behind her back, looking pleased with herself."
+"สีหน้าของมิช่ายังเหมือนเดิม เธอหันไปทำภาษามือให้ชิซูเนะที่ฉันดูไม่ออกว่าคิดอะไรอยู่ แต่เอามือไพล่หลังพลางดูพอใจกับตัวเอง"
 
 show misha hips_grin
 with charachange
 
-mi "Mm~ hm hm hm~…"
+# mi "Mm~ hm hm hm~…"
+mi "อืม~ ฮืม ฮืม ฮืม~…"
 
-"Misha feigns deafness and hums cheerily. Stop that, I know you heard me; you have no excuse, unlike Shizune."
+# "Misha feigns deafness and hums cheerily. Stop that, I know you heard me; you have no excuse, unlike Shizune."
+"มิช่าแกล้งทำเป็นไม่ได้ยินคำพูดเมื่อกี้แล้วฮัมเพลงอย่างร่าเริง\nหยุดเลยนะ รู้นะว่าได้ยินน่ะ เธอไม่มีข้อแก้ตัวใด ๆ ไม่เหมือนชิซูเนะ"
 
 play sound sfx_dooropen
 stop music fadeout 6.0
@@ -984,15 +998,20 @@ stop music fadeout 6.0
 scene bg school_council
 with locationchange
 
-"Shizune opens the door to the student council room. It's a very plain, sparsely decorated room, although it is quite large, maybe even a little larger than a classroom."
+# "Shizune opens the door to the student council room. It's a very plain, sparsely decorated room, although it is quite large, maybe even a little larger than a classroom."
+"ชิซูเนะเปิดประตูเข้ามาในห้องสภานักเรียน ห้องค่อนข้างเรียบ ๆ มีของตกแต่งนิดหน่อย\nแต่ถึงอย่างนั้นห้องก็ค่อนข้างใหญ่ เผลอ ๆ ใหญ่กว่าห้องเรียนด้วยซ้ำ"
 
-"There's a big table in the center surrounded by chairs, and a smaller desk prominently placed in the back that I assume is Shizune's. There are a few regular desks and chairs stacked to one side, as well. Extras, perhaps?"
+# "There's a big table in the center surrounded by chairs, and a smaller desk prominently placed in the back that I assume is Shizune's. There are a few regular desks and chairs stacked to one side, as well. Extras, perhaps?"
+"มีโต๊ะตัวใหญ่ ๆ ที่มีเก้าอี้รอบ ๆ ตั้งอยู่กลางห้อง และก็มีโต๊ะตัวเล็ก ๆ ตั้งเด่นอยู่หลังห้อง\nเดาว่าน่าจะเป็นโต๊ะของชิซูเนะ แล้วก็มีโต๊ะอื่น ๆ กับเก้าอี้ตั้งซ้อนกันอยู่ข้างห้อง น่าจะไว้เผื่อล่ะมั้ง"
 
-"Aside from the tables and chairs, the room doesn't have much else to offer. Just a couple of filing cabinets and bookshelves stacked with old school records and documents. Not much else. In fact, nothing else."
+# "Aside from the tables and chairs, the room doesn't have much else to offer. Just a couple of filing cabinets and bookshelves stacked with old school records and documents. Not much else. In fact, nothing else."
+"นอกเหนือจากโต๊ะกับเก้าอี้ ในห้องก็ไม่ค่อยมีอะไรแล้ว จะมีก็แค่ตู้เก็บเอกสารกับชั้นหนังสือที่เก็บพวกเอกสารของโรงเรียน\nที่เหลือก็ไม่ค่อยมีอะไรละ เอาจริง ๆ ก็ไม่มีอย่างอื่นแล้ว"
 
-"This is… a pretty bleak room. They could at least put a potted plant in here, or something. But the most noticeable thing that this room doesn't have is other people."
+# "This is… a pretty bleak room. They could at least put a potted plant in here, or something. But the most noticeable thing that this room doesn't have is other people."
+"ห้องนี้ดู…ซีดนิดหน่อย จริง ๆ น่าจะเอากระถางต้นไม้มาตกแต่งเพิ่มในนี้สักหน่อยหรืออะไรเทือก ๆ นั้น\nแต่ที่สังเกตได้ชัดเลยคือ ห้องนี้ไม่มีคนอื่่น ๆ เลย"
 
-hi "Are we early?"
+# hi "Are we early?"
+"เรามาเร็วไปหรอ?"
 
 show shizu behind_blank at tworight
 show misha hips_smile at twoleft
@@ -1003,10 +1022,11 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "No~."
+# mi "No~."
+mi "เปล่า~"
 
-hi "What do you mean “no?” Does it mean nobody else is coming today?"
-
+# hi "What do you mean “no?” Does it mean nobody else is coming today?"
+hi "หมายความว่าไงว่า “เปล่า” แปลว่าวันนี้คนอื่นไม่เข้าหรอ?"
 show shizu adjust_smug
 with charachange
 
@@ -1015,13 +1035,15 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Yeah, that's right~."
+# mi "Yeah, that's right~."
+mi "อืม งั้นแหละ~"
 
 play sound sfx_snap
 show shizu basic_happy
 with Dissolve(0.3)
 
-"Before I manage to ask why that's the case, Shizune claps her hands together very energetically."
+# "Before I manage to ask why that's the case, Shizune claps her hands together very energetically."
+"ก่อนที่จะถามว่าทำไม ชิซูเนะก็ได้ตบมือเสียงดังลั่น"
 
 show shizu adjust_happy
 with charachange
@@ -1031,26 +1053,33 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Hicchan, let's play Risk! Come on, you promised, didn't you? You have to~!"
+# mi "Hicchan, let's play Risk! Come on, you promised, didn't you? You have to~!"
+mi "ฮิจัง เรามาเล่นริสก์กันเถอะ นายสัญญาแล้วนี่ นายต้องเล่นนะ~!"
 
 show misha hips_grin
 with charachange
 
-mi "Hahaha~! Okay okay okay~! Do you want to know the rules? We can explain to you while we set everything up!"
+# mi "Hahaha~! Okay okay okay~! Do you want to know the rules? We can explain to you while we set everything up!"
+mi "ฮ่าฮ่าฮ่า~! โอเค โอเค โอเค~! จะฟังวิธีการเล่นก่อนไหมล่ะ? เดี๋ยวสอนให้ตอนกำลังเซ็ตกระดานละกัน"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 hide shizu
 with charaexit
 
-"While Misha is talking, Shizune takes out what looks like a board game from behind one of the filing cabinets and throws it on the table."
+# "While Misha is talking, Shizune takes out what looks like a board game from behind one of the filing cabinets and throws it on the table."
+"ขณะที่มิช่าคุยอยู่ ชิซูเนะก็หยิบสิ่งที่ดูเหมือนบอร์ดเกมออกมาจากตู้เก็บเอกสารและโยนลงบนโต๊ะ"
 
-"Actually, this looks kind of interesting."
+# "Actually, this looks kind of interesting."
+"ชักเริ่มน่าสนใจขึ้นมาแล้วสิ"
 
 show shizu adjust_frown at tworight
 with charaenter
 
-"After Misha spends a little too long for her liking running through the basics with a somewhat vague and confusing tutorial, Shizune cuts in and declares the game has started with a decisive motion, slicing her arm through the air."
+# "After Misha spends a little too long for her liking running through the basics with a somewhat vague and confusing tutorial, Shizune cuts in and declares the game has started with a decisive motion, slicing her arm through the air."
+"หลังจากที่มิช่าใช้เวลานานเล็กน้อยเพื่อสอนพื้นฐานของเกมแบบที่ดูงง ๆ และไม่ค่อยชัดเจน\nชิซูเนะก็เข้ามาแล้วก็ประกาศเริ่มเกมด้วยท่าฟันแขนในอากาศ"
 
-"Shizune's aggressiveness is rubbing off onto me. I start feeling more competitive than I intended to be when I agreed to this."
+# "Shizune's aggressiveness is rubbing off onto me. I start feeling more competitive than I intended to be when I agreed to this."
+"ท่าทางจริงจังของชิซูเนะทำให้ฉันมีไฟขึ้นมา ฉันเริ่มอยากเอาจริงกว่าตอนที่ตกลงมาเล่นในตอนแรกละ"
 
 show misha perky_smile
 show shizu basic_normal2
