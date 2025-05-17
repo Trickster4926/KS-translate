@@ -114,7 +114,7 @@ with charaenter
 play music music_happiness fadein 2.0
 
 # mi "Ahaha~! Sorry, sorry, Shicchan~! Is there something you wanted from me?"
-mi "อะฮาฮ่า~! โทษที ๆ ชิจัง มีอะไรหรอ?"
+mi "อะฮาฮ่า~! โทษที ๆ ชิจัง มีอะไรเหรอ?"
 
 show shizu basic_angry
 with charachange
@@ -292,10 +292,10 @@ show misha perky_confused
 with charachange
 
 # mi "Hicchan? Is something wrong?"
-mi "ฮิจัง มีอะไรหรอ?"
+mi "ฮิจัง มีอะไรเหรอ?"
 
 # "Do I look as uneasy as I feel?"
-"สีหน้าฉันดูออกง่ายขนาดนั้นเลยหรอ"
+"สีหน้าฉันดูออกง่ายขนาดนั้นเลยเหรอ"
 
 # "Or was Misha just looking at me looking after the girl who left?"
 "หรือมิช่าก็มองผู้หญิงคนนั้นเหมือนกัน"
@@ -650,7 +650,7 @@ mi "อะฮ่าฮ่า~! เปล๊า ไม่ได้ยอมรั
 mi "แต่ยังไงก็ตาม การเข้าสภานักเรียนน่ะถือว่าเป็นการให้ความร่วมมือกับงานทางโรงเรียนนะ"
 
 # mi "Yup~! It's true, Hicchan. Besides, don't you want to spend time with us after school, Hicchan?"
-mi "อื้ม~! ก็ตามนั้นนั่นแหละฮิจัง แล้วอีกอย่าง นายไม่อยากอยู่กับพวกเราหลังเลิกเรียนจริง ๆ หรอ ฮิจัง?"
+mi "อื้ม~! ก็ตามนั้นนั่นแหละฮิจัง แล้วอีกอย่าง นายไม่อยากอยู่กับพวกเราหลังเลิกเรียนจริง ๆ เหรอ ฮิจัง?"
 
 # "I can't tell if she is being genuine or if this is just really good acting. Both of them seem to be trying hard to look their cutest, although they are already pretty cute to begin with."
 "แยกไม่ออกเลยแฮะว่านี่คิดจริงจังหรือแค่แกล้งหยอก เหมือนทั้งคู่พยายามทำตัวให้ดูน่ารักที่สุดเลย\nถึงแม้จริง ๆ ก็น่ารักตั้งแต่แรกแล้วก็เถอะนะ"
@@ -688,7 +688,7 @@ with charachange
 mi "อื้ม! ใช่ ๆ ถ้าง่ายไปก็คงไม่สนุกน่ะสิ อ้อแล้วก็! แบบงี้ชิจังต้องเลี้ยงลูกอมฉันแล้วนะ"
 
 # hi "You were betting on it? Hey, my life is not a game here!"
-hi "นี่พนันกันด้วยงั้นหรอ นี่ฉันไม่ใช่เกมนะ!"
+hi "นี่พนันกันด้วยงั้นเหรอ นี่ฉันไม่ใช่เกมนะ!"
 
 show shizu basic_happy
 with charachange
@@ -748,7 +748,7 @@ show misha hips_frown
 with charachange
 
 # mi "Hicchan! I'm very offended! Are you saying you don't trust us, and that we would pull something so d—dis—in—gen—u—ous…? That makes me sad…"
-mi "ฮิจัง! เธอก็พูดเกินไปนะ! นี่จะบอกว่าจะไม่เชื่อใจกัน แล้วคิดว่าพวกเราจะเล่น ละ ละ…เหลี่—ย—ม อย่างงั้นหรอ?\nเสียใจนะเนี่ย…"
+mi "ฮิจัง! เธอก็พูดเกินไปนะ! นี่จะบอกว่าจะไม่เชื่อใจกัน แล้วคิดว่าพวกเราจะเล่น ละ ละ…เหลี่—ย—ม อย่างงั้นเหรอ?\nเสียใจนะเนี่ย…"
 
 # hi "Sorry?"
 hi "อะไรนะ?"
@@ -793,7 +793,7 @@ with charachange
 shi "…"
 
 # mi "…And it's also played by elementary and middle school children, Shicchan? Wahaha! That means it's a game that really separates the boys from the men!"
-mi "…แถมเล่นกันทั้งประถมและมัธยมด้วยงั้นหรอชิจัง? วะฮ่าฮ่า! แปลว่าเกมนี้เล่นแล้วรู้เลยว่าโตแล้วหรือยัง"
+mi "…แถมเล่นกันทั้งประถมและมัธยมด้วยงั้นเหรอชิจัง? วะฮ่าฮ่า! แปลว่าเกมนี้เล่นแล้วรู้เลยว่าโตแล้วหรือยัง"
 
 # hi "More like the boys from the slightly older boys. Anyway, I'm not going to play that either. Just the fact that you know about it means you're probably surprisingly good at it."
 hi "โตนิดหน่อยน่ะสิไม่ว่า ยังไงก็เถอะก็ไม่เอาอยู่ดี รู้เยอะงี้แปลว่าเล่นเก่งแล้วน่ะสิ"
@@ -848,7 +848,7 @@ with charachange
 shi "…"
 
 # mi "Ah, really, Shicchan? We can play just for fun, Hicchan. Shicchan hasn't played in a long time, so if you want to, there are no strings attached~!"
-mi "อ๊ะ จริงหรอชิจัง? เราเล่นแบบขำ ๆ ได้นะฮิจัง พอดีชิจังก็ไม่ได้เล่นเกมนี้มานานด้วยล่ะ\nซึ่งถ้าอยากลองมาเล่นก็ได้นะ ไม่มีพันธะสัญญาแอบแฝงล่ะ~!"
+mi "อ๊ะ จริงเหรอชิจัง? เราเล่นแบบขำ ๆ ได้นะฮิจัง พอดีชิจังก็ไม่ได้เล่นเกมนี้มานานด้วยล่ะ\nซึ่งถ้าอยากลองมาเล่นก็ได้นะ ไม่มีพันธะสัญญาแอบแฝงล่ะ~!"
 
 # hi "Well, okay…"
 hi "อืม ก็ได้…"
@@ -928,7 +928,7 @@ show misha cross_laugh
 with charachange
 
 # mi "Wahahaha! What's wrong, Hicchan?"
-mi "วะฮ่าฮ่าฮ่า! เป็นอะไรหรอ ฮิจัง"
+mi "วะฮ่าฮ่าฮ่า! เป็นอะไรเหรอ ฮิจัง"
 
 show shizu adjust_smug
 with charachange
@@ -1011,7 +1011,7 @@ with locationchange
 "ห้องนี้ดู…หม่น ๆ นิดหน่อย จริง ๆ น่าจะเอากระถางต้นไม้มาตกแต่งเพิ่มในนี้สักหน่อยหรืออะไรเทือก ๆ นั้น\nแต่ที่สังเกตได้ชัดเลยคือ ห้องนี้ไม่มีคนอื่่น ๆ เลย"
 
 # hi "Are we early?"
-hi "เรามาเร็วไปหรอ?"
+hi "เรามาเร็วไปเหรอ?"
 
 show shizu behind_blank at tworight
 show misha hips_smile at twoleft
@@ -1026,7 +1026,7 @@ with charachange
 mi "เปล่า~"
 
 # hi "What do you mean “no?” Does it mean nobody else is coming today?"
-hi "หมายความว่าไงว่า “เปล่า” แปลว่าวันนี้คนอื่นไม่เข้าหรอ?"
+hi "หมายความว่าไงว่า “เปล่า” แปลว่าวันนี้คนอื่นไม่เข้าเหรอ?"
 show shizu adjust_smug
 with charachange
 
