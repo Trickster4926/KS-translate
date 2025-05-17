@@ -1108,7 +1108,7 @@ hi "งานก็เยอะด้วย ต้องทำแต่เนิ
 show misha hips_laugh 
 with charachange
 
-mi "วะฮ่าฮ่า~! เธอพูดถูก!"
+mi "วะฮ่าฮ่า~! นายพูดถูก!"
 
 show shizu basic_frown 
 with charachange
