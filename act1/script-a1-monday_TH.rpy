@@ -602,7 +602,7 @@ mu "ยินดีต้อนรับ"
 show muto irritated
 with charachange
 
-mu "เห็นหัวหน้าทีมพยาบาลบอกให้เธอแวะไปตรวจร่างกายครั้งแรกหน่อยด้วย แต่ไว้ทีหลังแล้วกัน"
+mu "เห็นหัวหน้าทีมพยาบาลบอกให้เธอแวบไปตรวจร่างกายครั้งแรกหน่อยด้วย แต่ไว้ทีหลังแล้วกัน"
 
 hi "ได้เหรอครับ"
 
@@ -1159,40 +1159,40 @@ label th_A3:
 scene bg school_staircase2
 with locationchange
 
-"We descend even below the lobby where I met Mutou, down to the bottom floor."
+"พวกเราลงมาที่โถงชั้นล่างที่ฉันเพิ่งเจอกับมุโต้เมื่อเช้า"
 
 play ambient sfx_crowd_indoors fadein 6.0
 
 scene bg school_cafeteria
 with locationchange
 
-"Just like everything in this school, the cafeteria seems too spacious and oddly modern in contrast to the classic exterior."
+"ในโรงอาหารดูกว้างขวางและทันสมัยขัดกับภายนอกที่ดูเก่าแก่เหมือนตึกอื่น ๆ ในโรงเรียน"
 
-"Its big windows open to the courtyard, towards the main gate."
+"หน้าต่างบานกว้างเปิดไปทางสนาม ทิศเดียวกับประตูทางเข้า"
 
 show misha hips_grin
 with charachange
 
 play music music_ease
 
-mi "It's the cafeteria~!"
+mi "นี่โรงอาหาร~!"
 
-"Her enthusiastic statement of the obvious makes people around us stare, but Misha doesn't seem to care so we proceed to the line."
+"เธอพูดประโยคที่รู้ ๆ กันอยู่แล้วนั้นด้วยความตื่นเต้น คนในโรงอาหารรอบ ๆ ก็มอง แต่มิช่าดูไม่ได้สนใจ\nพวกเราจึงไปต่อแถว"
 
 hide misha
 with charaexit
 
-"There is a rather long list of menu options, which seems great until I realize that many of them are to accommodate students who need special diets."
+"รายการอาหารค่อนข้างเยอะ ซึ่งดูเหมือนจะเป็นเรื่องที่ดี จนนึกได้ว่าที่มีเยอะเพราะต้องปรับให้เข้ากับนักเรียนบางคน\nที่ต้องคุมอาหารพิเศษ"
 
-"How nice. It almost feels like I'm back at the hospital, eating portions measured with scientific precision to meet the needs of the patients."
+"ดีจังเลยนะ เหมือนตอนที่อยู่โรงพยาบาลแล้วต้องกินอาหารให้ถูกสัดส่วนที่วัดมาแล้วเพื่อให้ตรงกับ\nความต้องการของคนไข้"
 
-"I pick something at random and follow Shizune to a table, sitting opposite of her."
+"ฉันเลือกอย่างหนึ่งมามั่ว ๆ แล้วตามชิซูเนะไปที่โต๊ะแล้วนั่งลงตรงข้ามกับเธอ"
 
 show misha hips_frown at twoleft
 show shizu basic_normal at tworight
 with charaenter
 
-"As I nibble indifferently at the food I'd rather not eat, Misha pokes me in the side to get my attention and points to Shizune."
+"ระหว่างที่ละเลียดอยู่ด้วยความไม่สนใจอะไร มิช่าก็สะกิดที่สีข้างให้หันแล้วชี้ไปที่ชิซูเนะ"
 
 show misha perky_smile 
 show shizu basic_frown 
@@ -1200,76 +1200,76 @@ with charachange
 
 shi "…"
 
-"I don't understand sign, so the point escapes me."
+"ฉันไม่เข้าใจเพราะอ่านภาษามือไม่ออก"
 
-"Maybe looking at a person who “talks” to you is proper and polite?"
+"เวลา “คุย” กับใครต้องมองหน้าเขาไม่ให้เสียมารยาทหรือเปล่านะ"
 
 show misha hips_smile 
 show shizu behind_blank 
 with charachange
 
-mi "Do you want to know something?"
+mi "มีอะไรจะถามมั้ย"
 
-hi "What?"
+hi "หา?"
 
 show misha hips_grin 
 with charachange
 
-mi "About anything! We're your guides so you should ask if there is something~!"
+mi "อะไรก็ได้! พวกเราเป็นไกด์ของนายนะ เพราะงั้นถ้าอยากรู้อะไรก็ถามมาเลย~!"
 
 label th_choiceA3:
 menu:
     with menueffect
     
-    hi "Hmm, I wonder…"
+    hi "อืมม นั่นสินะ…"
     
-    "Ask about the library.":
+    "ถามเรื่องห้องสมุด":
         return m1
     
-    "Ask about Shizune's deafness.":
+    "ถามเรื่องที่ชิซูเนะหูหนวก":
         return m2
     
-    "I think I got everything I need to know.":
+    "น่าจะรู้พอแล้วละมั้ง":
         return m3        
     
 label th_A3a:
 
-hi "Oh, yeah. Is there a library in the school? Lately I've gotten into reading a lot so I'd like to check it out."
+hi "เอ้อ จริงด้วย ที่โรงเรียนนี้มีห้องสมุดมั้ย ช่วงนี้อ่านหนังสือเลยอยากลองแวะไปดูน่ะ"
 
-"Misha gives the kind of frown that makes it clear she doesn't consider reading a healthy hobby, but then picks up her smile again."
+"มิช่าขมวดคิ้วจนรู้เลยว่าเธอคงไม่คิดว่าการอ่านหนังสือเป็นงานอดิเรกที่ดีต่อสุขภาพสักเท่าไหร่\nแล้วก็กลับมายิ้มเหมือนเดิม"
 
-mi "There is~! It's in the second floor, we can show it to you sometime!"
+mi "มีสิ~! อยู่ชั้นสองน่ะ ไว้เดี๋ยวพาไปนะ!"
 
-hi "Thanks."
+hi "ขอบใจ"
 
-"I return to my food while the girls talk between themselves."
+"ฉันกลับมากินต่อแล้วปล่อยให้สองสาวคุยกัน"
 
 
 
 label th_A3b:
 
-"Shizune intrigues me, and I kind of want to ask something about her."
+"พอเห็นชิซูเนะแล้วก็รู้สึกสนใจขึ้นมา อยากจะถามอะไรสักอย่างด้วย"
 
-"But I can't really ask about something that personal, can I?"
+"แต่จะถามอะไรละลาบละล้วงขนาดนั้นก็คงไม่ได้หรอกมั้ง"
 
-"Hmm…"
+"อืมม…"
 
-"I can't come up with anything else to ask so I just focus on my food while the girls talk between themselves."
+"แต่จะนึกอะไรอย่างอื่นมาถามก็นึกไม่ออกแล้ว ก็เลยได้แต่กินข้าวต่อแล้วปล่อยให้สองสาวคุยกัน"
 
 
 
 label th_A3c:
 
-hi "I can't think of anything, really."
+hi "นึกไม่ออกเลยแฮะ"
 
 show misha sign_smile
 with charachange
 
-mi "Ooh! That means we've been good guides, doesn't it, doesn't it~?"
+mi "โห! แสดงว่าเราทำหน้าที่ไกด์ได้ดีเลยสิเนี่ย ใช่มั้ย ๆ ~"
  
 "…"
  
-hi "Eeh… if you say so."
+hi "เอ่อ… ถ้าเธอว่างั้นละก็นะ"
 
 show misha hips_grin 
 with charachange
@@ -1277,17 +1277,17 @@ with charachange
 show shizu behind_smile
 with charachange
  
-"Misha positively beams, and so does Shizune after a quick translation."
+"มิช่ายิ้มแป้น ชิซูเนะก็ยิ้มตามหลังมิช่าแปลให้"
  
-"I shake my head at their somewhat exaggerated enthusiasm, and shift my focus on the food."
+"ฉันส่ายหัวให้กับความตื่นเต้นที่ดูออกจะเกินไปสักหน่อยนั่นแล้วกินข้าวต่อ"
 
 
 
 label th_A3d:
 
-"Misha and Shizune sign back and forth very animatedly, throwing sideway glances at me but Misha refrains from translating."
+"มิช่ากับชิซูเนะทำท่าโน่นนี่คุยภาษามือกันพลางเหลือบมองมาทางนี้ แต่มิช่าก็ไม่แปลให้"
 
-"Maybe they are talking about secret girl stuff or something."
+"ความลับสาวน้อยอะไรประมาณนั้นมั้ง"
 
 "…"
 
@@ -1295,19 +1295,19 @@ stop music fadeout 3.0
 $ renpy.music.set_volume(1.0, .5, channel="ambient")
 stop ambient fadeout 3.0
 
-"I quickly notice a conversation in sign is not enough to fill a silence."
+"ไม่นานฉันก็รู้ตัวว่าแค่ภาษามือใช้ทำลายความเงียบไม่ได้"
 
 scene bg school_scienceroom
 with shorttimeskip
 
 play music music_daily fadein 0.5
 
-"We arrive in the classroom early, but we're not the first."
+"พวกเรามาถึงห้องเร็ว แต่ก็มีคนมาก่อนแล้ว"
 
 show hanako emb_downtimid at Transform(xanchor=0.8, xpos=1.0)
 with charaenter
 
-"That dark haired girl I noticed before is slumped over her desk at the last row."
+"ผู้หญิงผมยาวสีดำคนที่เห็นเมื่อเช้านั่งฟุบโต๊ะอยู่แถวหลังสุด"
 
 show hanako defarms_shock
 with vpunch
@@ -1315,11 +1315,11 @@ with vpunch
 show hanako defarms_shock at Transform(xanchor=0.6, xpos=1.0)
 with charamove
 
-"She jumps a little when Misha crashes into the room with the elegance of a rhino."
+"เธอสะดุ้งเล็กน้อยเมื่อมิช่าเข้าห้องมาด้วยแรงปานช้าง"
 
-"She shrinks deeper into her seat. I can feel her tension all the way from here, as if she were slowly turning into stone just from our presence."
+"เธอยิ่งทำตัวลีบไปอีก แค่เห็นยังเกร็งแทน เหมือนแค่เห็นพวกเราแล้วจะกลายเป็นหิน"
 
-"Misha and Shizune either don't notice or don't mind it, as they walk directly past her to their seats and begin to converse."
+"ทั้งมิช่าและชิซูเนะก็เหมือนไม่เห็นและไม่ได้สนใจ เดินผ่านเธอไปนั่งที่แล้วเริ่มคุยกัน"
 
 show hanako defarms_shock at offscreenright
 with charamove
@@ -1327,26 +1327,26 @@ with charamove
 hide hanako
 with None
 
-"I'm left wondering about her, even when the classroom slowly fills with other students and finally, the teacher."
+"ฉันได้แต่สงสัย คิดยาวมาจนนักเรียนทยอยเข้าห้องมา พร้อมครูเป็นคนสุดท้าย"
 
-"Getting into the rhythm of school feels strange; it's as if my brain remembers how this is done, but my body doesn't."
+"การที่จะทำตัวให้ชินกับการอยู่โรงเรียนก็รู้สึกแปลกดี สมองรู้จำได้ว่าเป็นอย่างนี้ แต่ตัวบอกว่าไม่ใช่"
 
-"Towards the end of the class I start yawning and counting the minutes left."
+"พอใกล้เลิกคาบก็เริ่มหาวแล้วนั่งนับเวลาที่เหลือ"
 
-"I shouldn't be this tired on my first day of school."
+"เพิ่งมาวันแรกจะมานั่งเพลียแบบนี้ได้ที่ไหนล่ะ"
 
-"Maybe it's the long time spent in the hospital that made me like this. I'm even feeling physically weak and lifeless."
+"สงสัยเพราะอยู่ติดโรงพยาบาลนานเลยเป็นอย่างนี้ ทั้งตัวทั้งใจมันห่อเหี่ยวไปหมด"
 
 scene bg school_scienceroom
 with shorttimeskip
 
 play sound sfx_normalbell
 
-"Before long, the final bell rings."
+"ไม่นานระฆังก็ดัง"
 
-"School is finally over for the day."
+"เลิกเรียนสักที"
 
-"Beside me, Misha and Shizune are having a short conversation. After a bit of deliberation, Misha turns to me."
+"มิช่ากับชิซูเนะคุยกันอยู่ข้าง ๆ พอหารือกันได้สักพักก็หันมาทางฉัน"
 
 show shizu behind_blank at tworight
 show misha perky_smile at twoleft
@@ -1354,24 +1354,24 @@ with charaenter
 
 shi "…"
 
-mi "Unfortunately we can't stay and show you around today, Hicchan. We've got to hurry already, since there is a lot of work for us to do."
+mi "วันนี้เราคงอยู่พานายไปเดินไม่ได้แล้วละฮิจัง เราต้องรีบแล้ว พอดีงานต้องทำเยอะมาก"
 
 show shizu basic_normal2 
 with charachange
 
 shi "…"
 
-mi "You'll find your way around here, I'm sure of it."
+mi "แต่ฉันมั่นใจว่าเดี๋ยวนายก็ชินที่เองแหละ"
 
-hi "Ah, wait! The teacher said I'd have to see the nurse. Where do I have to go?"
+hi "เอ้อ เดี๋ยว! ครูบอกให้ไปหาพยาบาล ต้องไปที่ไหนเหรอ"
 
 show shizu behind_smile 
 show misha hips_grin 
 with charachange
 
-mi "Is that so? We can at least show you that much~!"
+mi "อ้าวเหรอ งั้นเดี๋ยวพาไปก่อนก็ได้~!"
 
-mi "Come on, the nurses have their own building, so we have to go outside."    
+mi "ตามมาสิ พยาบาลเขามีตึกแยก ต้องออกไปข้างนอกนะ"    
 
 hide shizu
 hide misha
@@ -1380,14 +1380,14 @@ with charaexit
 scene bg school_hallway3
 with locationchange
 
-"We join the flow of students making their way down the stairwell and outside, with the girls pointing out other senior classrooms in the same hallway as ours."
+"ทั้งสองคนชี้บอกห้องรุ่นพี่คนอื่นที่อยู่ชั้นเดียวกับห้องเราพลางพาฉันเดินไปตามกลุ่มคนลงมาตามบันได"
 
 scene bg school_courtyard
 with locationskip
 
-"When we get outside, the girls make their way to the smaller building right next to the school."
+"พอออกมาข้างนอกก็พาเดินไปอีกตึกหนึ่งที่เล็กกว่าที่อยู่ข้าง ๆ โรงเรียน"
 
-"It's built in the same style, so it looks like it's actually a part of the main building."
+"หน้าตาตึกก็ดูคล้าย ๆ กันจนเหมือนว่าเป็นส่วนหนึ่งของอาคารหลัก"
 
 show shizu behind_smile at tworight
 show misha perky_smile at twoleft
@@ -1395,9 +1395,9 @@ with charaenter
 
 shi "…"
 
-mi "This is the auxiliary building here. There's a lot of official and important stuff inside, like the Yamaku Foundation office and all the nurses' offices. They even have a swimming pool!"
+mi "ที่นี่คืออาคารรอง ข้างในมีสำนักงานแล้วก็อะไร ๆ สำคัญอยู่เต็มไปหมด อย่างสำนักงานมูลนิธิยามากุ\nห้องทำงานของทีมพยาบาล สระว่ายน้ำยังมีเลย!"
 
-hi "How is that official?"
+hi "แล้วทำไมสระน้ำมาอยู่ที่สำนักงาน"
 
 show shizu behind_frustrated 
 with charachange
@@ -1407,20 +1407,20 @@ shi "…"
 show misha hips_grin 
 with charachange
 
-mi "Don't be silly, Hicchan! It's for physical therapy of course."
+mi "ถามอะไรแปลก ๆ ฮิจัง! เอาไว้กายภาพบำบัดไง"
 
 show misha sign_smile 
 with charachange
 
-mi "Anyway, all the nursing staff facilities are in there too. The head nurse's office is on the first floor."
+mi "แต่ก็นั่นแหละ สำนักงานทีมพยาบาลอะไรอยู่ในนั้นหมด ส่วนห้องหัวหน้าพยาบาลอยู่ที่ชั้นแรก"
 
 show misha hips_smile 
 show shizu behind_smile 
 with charachange
 
-mi "You'll be fine from here, right~? We'll be going, then! See you tomorrow!"
+mi "ที่เหลือไปเองได้ใช่มั้ย~ งั้นไปก่อนนะ! เจอกันพรุ่งนี้!"
 
-hi "Yeah, thanks. Bye."
+hi "อื้อ ขอบใจ บาย"
 
 stop music fadeout 5.0
 
@@ -1428,178 +1428,178 @@ hide shizu
 hide misha
 with charaexit
 
-"A whole building for stuff that has nothing to do with the actual education?"
+"ตึกทั้งตึกที่มีไว้สำหรับอย่างอื่นที่ไม่ใช่การเรียนเหรอ"
 
-"I guess it's necessary for a place like this."
+"ที่แบบนี้ก็คงต้องมีละมั้ง"
 
 scene bg school_nursehall
 with locationchange
 
-"I walk in, hoping that this really will be only a quick visit like the teacher said."
+"ฉันเดินเข้าไป ในใจก็หวังว่าจะแค่แวบเดียวเหมือนที่ครูบอก"
 
-"On a white door on the left is a green cross with the text “Head Nurse” and a nameplate."
+"บนประตูสีขาวมีเครื่องหมายกากบาทสีเขียวอยู่กับข้อความ “หัวหน้าพยาบาล” พร้อมป้ายชื่อ"
 
 play sound sfx_doorknock2
 
-"A voice from the inside responds to my knock almost immediately, but I can't quite make it out."
+"พอเคาะประตูก็มีเสียงตอบกลับมา แต่ฟังไม่ค่อยรู้เรื่องว่าพูดอะไรอยู่"
 
-"It sounded a bit like an invitation to open the door, so I invite myself further in."
+"เหมือนจะบอกให้เปิดประตู ก็เลยเปิดประตูเดินเข้าไป"
 
 play sound sfx_dooropen
 
 scene bg school_nurseoffice
 with locationchange
 
-"The room is not large and it smells strange. A friendly-looking man turns around on his office chair to face me as I enter."
+"ขนาดของห้องไม่ได้ใหญ่ แถมมีกลิ่นแปลก ๆ ชายที่ดูเป็นมิตรหมุนเก้าอี้หันมาทันทีที่เดินเข้ามา"
 
-"His desk is neat and tidy, but the bin under the table is overflowing with used medical utensils and there are at least a dozen coffee-cup rings lingering on the desk."
+"โต๊ะของเขาเป็นระเบียบเรียบร้อยดี แต่ถังขยะใต้โต๊ะมีแต่อุปกรณ์อะไรที่ใช้แล้วจนล้น\nบนโต๊ะก็มีรอยแก้วกาแฟอยู่หลายวง"
 
 play music music_nurse fadein 0.5
 
 show nurse neutral at center
 with charaenter
 
-nk_ "Hello there. What can I do for you today?"
+nk_ "สวัสดี มีอะไรให้ช่วยเหรอ"
 
-"He is young-looking and sort of rugged, but the dimples in his cheeks wash that impression away when he smiles."
+"ยังดูหนุ่ม ๆ แถมห้าว ๆ ทว่ารอยลักยิ้มก็ทำให้ความห้าวหายไป"
 
-hi "Erm, are you the nurse?"
+hi "เอ่อ คุณพยาบาลใช่มั้ยครับ"
 
 show nurse grin
 with charachange
 
-"He smiles like a person who has heard this very same question hundreds of times."
+"เขายิ้มอย่างกับว่ามีคนถามมาเป็นร้อย ๆ ครั้งแล้ว"
 
-nk_ "Why yes, I am. It says so on the door, no?"
+nk_ "ก็ใช่น่ะสิ ที่ประตูก็เขียนแปะไว้นี่"
 
-nk_ "You can call me by my name or just “the nurse” like everyone else."
+nk_ "จะเรียกชื่อหรือเรียก “คุณพยาบาล” เหมือนคนอื่นก็ได้"
 
-"Of course. I shake off my confusion, realizing I probably should grab his extended hand.{w} His handshake is rather firm and friendly."
+"ก็ได้ ฉันไม่คิดอะไรอีกแล้วจับมือที่เขายื่นออกมารอ{w} เป็นการจับมือที่หนักแน่นและเป็นมิตรดี"
 
-hi "Right… err, I'm a new student and my homeroom teacher told me to come and meet you. My name is Hisao Nakai."
+hi "เอ้อ… เอ่อ ผมเพิ่งมาใหม่แล้วครูประจำชั้นบอกให้มาหาคุณ ผมชื่อฮิซาโอะ นากาอินะครับ"
 
 play sound sfx_snap
 
-"His eyes light up with revelation and he snaps his fingers."
+"เขาทำหน้าร้องอ๋อแล้วดีดนิ้วดังเป๊าะ"
 
 show nurse fabulous
 with charachange
 
-nk "Oh you're THAT Nakai. I was just reading your file in the morning."
+nk "อ้อ นากาอิ{b}คนนั้น{/b}น่ะเอง เมื่อเช้าอ่านเอกสารของเธออยู่"
 
-nk "Some kind of chronic arrhythmia and related congenital heart muscle deficiency, right?"
+nk "หัวใจเต้นผิดจังหวะเรื้อรังกับหัวใจพิการแต่กำเนิด ประมาณนั้นใช่มั้ย"
 
-"He gestures me to sit down in a vacant armchair in front of his desk."
+"เขาบุ้ยใบ้ให้นั่งที่เก้าอี้ว่างตรงหน้าโต๊ะเขา"
 
-hi "Eh, yes."
+hi "อ่า ครับ"
 
 show nurse neutral
 with charachange
 
-nk "Good. Well, you've probably been briefed about the school enough, so I'll just go over this quickly."
+nk "ดี เอาละ เธอน่าจะรู้เรื่องโรงเรียนมาพอสมควรแล้ว จะสรุปให้เร็ว ๆ นะ"
 
-nk "We have all kinds of facilities available, mostly physical therapy and such."
+nk "ที่นี่มีอะไรทุกอย่างให้ครบครัน ส่วนใหญ่ก็พวกสำหรับกายภาพบำบัดอะไรแบบนั้น"
 
-nk "There's always someone from my staff around, even at night, so never hesitate to call us if there is a problem."
+nk "แล้วก็จะมีทีมพยาบาลคอยอยู่โยงตลอด ตอนกลางคืนก็ด้วย มีปัญหาอะไรก็โทร. มาได้"
 
-"The famous twenty-four-hour nursing staff."
+"ทีมพยาบาลยี่สิบสี่ชั่วโมงอันขึ้นชื่อ"
 
-hi "Wow, this is like a hospital."
+hi "โห อย่างกับโรงพยาบาลแน่ะ"
 
-nk "Well, not exactly. For instance, we don't do brain surgery here."
+nk "ก็ไม่ใช่เสียทีเดียวหรอก เช่นว่า ที่นี่เราไม่รับผ่าตัดสมองไง"
 
-"His joke feels so out of place that I'm left thinking why he even said it."
+"มุกที่เขายิงมารู้สึกไม่เข้าจนนึกในใจว่าจะพูดทำไม"
 
-hi "Yeah… just that it's really weird to have so many medical people at a school."
+hi "งั้นมั้งครับ… แค่ว่าแปลก ๆ หน่อยที่เป็นโรงเรียนแต่กลับมีหมอมีอะไรแบบนี้เยอะแยะเลย"
 
-nk "You'll get used to it."
+nk "เดี๋ยวก็ชินน่า"
 
-"I'm not so sure of that myself but I don't let the nurse know it."
+"ฉันไม่แน่ใจว่าจะชินได้จริงมั้ย แต่ก็ไม่ได้บอกเขาไป"
 
-nk "Now, let me just find your file again…"
+nk "เอาละ ขอหาเอกสารเธอแป๊บนะ…"
 
-"While he searches for something from his computer and shuffles stacks of papers around, I let my gaze wander around the room."
+"ระหว่างที่เขากำลังเปิดคอมหานู่นนี่กับค้นกองเอกสารฉันก็กวาดตามองรอบ ๆ ห้อง"
 
-"It's the epitome of generic, I'd like to say."
+"เป็นห้องที่แสนธรรมดาที่สุดเลยก็ว่าได้"
 
-"Beige walls and ceiling, dark gray laminate flooring, and all the equipment you'd expect from a school nurse's office."
+"ผนังกับฝ้าสีเบจ พื้นลามิเนตสีเทา แล้วก็ของที่มีตามห้องพยาบาลของโรงเรียน"
 
-"Even the ridiculous educational posters are hanging on all four walls, reminding me to eat properly - three times a day and from all the food groups."
+"ตามกำแพงสี่ด้านยังมีโปสเตอร์ให้ความรู้ที่เห็นแล้วก็ตลกดี ที่บอกให้กินอาหารให้ครบสามมื้อห้าหมู่อะไรเทือกนั้น"
 
 show nurse grin
 with charachange
 
-"Smiling, the nurse draws a thick file from a stack of similarly thick files and opens it."
+"คุณพยาบาลยิ้มพลางดึงเอกสารหนาปึ้กออกมาจากกองเอกสารพะเนินแล้วเปิดออกมา"
 
-nk "So, you already have medication for the arrhythmia, just remember to take your pills every morning and evening or it won't be much help."
+nk "อื้ม หมอของเธอก็สั่งยารักษาโรคหัวใจเต้นผิดจังหวะมาให้แล้ว พยายามกินให้ครบทุกเช้าเย็นด้วยละ\nเดี๋ยวยาจะไม่ออกฤทธิ์เต็มที่"
 
 show nurse fabulous
 with charachange
 
-nk "Apart from that… do you do any sports? Rash stuff like… I don't know, boxing?"
+nk "นอกนั้นก็… เธอเล่นกีฬามั้ย ที่ออกแรงมาก อย่าง… ไม่รู้สิ ชกมวยงี้"
 
-"He grins to his own joke but I don't."
+"เขาหยักยิ้มกับมุกของตัวเอง แต่ฉันไม่ยิ้มด้วย"
 
-hi "Eh, well. I played soccer occasionally with some classmates."
+hi "เอ่อ ก็ มีเล่นเตะบอลกับคนในห้องบ้างครับ"
 
-nk "All right, I'm afraid I'm going to have to recommend you refrain from doing that. At least, for the time being."
+nk "โอเค งั้นฉันต้องขอให้เธองดนะ อย่างน้อยก็สักพักหนึ่ง"
 
-hi "Oh."
+hi "อ้อ ครับ"
 
-"My lack of reaction makes him raise an eyebrow, but really, I'm not too bothered by him forbidding me to kick a ball around."
+"ท่าที่ที่ไม่แยแสอะไรของฉันทำให้เขายักคิ้ว เอาจริง ๆ ก็ไม่ได้อะไรที่ห้ามไปเตะบอลเล่นหรอก"
 
-"I guess I never did it out of burning passion for the sport. Just to have something to do."
+"คงไม่ได้เล่นเพราะมุ่งมั่นในกีฬาแหละมั้ง แค่ไม่มีอะไรทำเฉย ๆ"
 
-nk "Any kind of concussion might be very dangerous to your heart, and risking another attack is not a good idea."
+nk "แล้วก็ถ้ามีอะไรมากระทบกระเทือนอีกก็อาจเป็นอันตรายต่อหัวใจเธอได้ อย่าไปทำอะไรสุ่มเสี่ยงให้โดนอีกรอบแล้วกัน"
 
-nk "Was the previous one caused by a sudden concussion to the chest area? There is no mention of the cause in your papers."
+nk "ที่เป็นล่าสุดนี่คือมีอะไรมากระทบกระเทือนที่หน้าอกเหรอ ในเอกสารไม่เห็นมีบอกอะไรเลย"
 
-hi "Err… not exactly."
-
-show nurse concern
-with charachange
-
-"I sidestep the question acceptably, and he glances at me over his papers, with a more serious expression on his face."
-
-nk "Still, you need to keep your body healthy so some exercise would do you good."
-
-nk "We have physical therapy and such available as I said, but I don't think you really need such heavy measures."
-
-nk "Just get some light exercise regularly."
-
-nk "Brisk walks or even light jogging, jumping rope, that sort of thing. Swimming, maybe? There's a pool here."
-
-hi "So I was told."
-
-show nurse neutral
-with charachange
-
-nk "You were? Very good."
-
-nk "At any rate, and I'm sure you've been told this before, you just need to take care not to overexert yourself."
-
-"He wags his finger to emphasize the point. No need really, I've heard this a thousand times already."
+hi "เอ้อ… ไม่เชิงครับ"
 
 show nurse concern
 with charachange
 
-nk "Absolutely no unnecessary risks. Take care of yourself."
+"ฉันพยายามเลี่ยงคำถามเนียน ๆ เขาเหลือบมองฉันสลับกับเอกสาร หน้าตาดูเคร่งเครียดขึ้น"
 
-hi "Okay."
+nk "แต่ยังไงรักษาสุขภาพไว้ก็ดี ออกกำลังกายหน่อยก็ได้"
 
-"He goes over my papers one more time and sets them on the desk, obviously content."
+nk "อย่างที่บอกนั่นแหละว่ามีกายภาพบำบัดให้ด้วย แต่สำหรับเธอคงไม่ต้องถึงขั้นนั้น"
+
+nk "แค่ออกกำลังกายเบา ๆ ก็พอ"
+
+nk "จะเดินเร็ว วิ่งจ็อกกิงหน่อย โดดเชือก อะไรเทือกนั้นน่ะ ว่ายน้ำ ก็ได้แหละมั้ง ที่นี่มีสระด้วยนะ"
+
+hi "มีคนบอกอยู่ครับ"
 
 show nurse neutral
 with charachange
 
-nk "Good. That's it, then. Come meet me if you ever need something."
+nk "เหรอ ดี ๆ "
+
+nk "นั่นแหละ ถึงอาจจะมีคนบอกเธอแล้ว แต่ก็อย่าไปหักโหมร่างกายตัวเองให้มาก"
+
+"เขาส่ายนิ้วไปมาเน้นย้ำ ไม่ต้องก็ได้หรอก คือฟังมาเป็นพันรอบแล้ว"
+
+show nurse concern
+with charachange
+
+nk "ห้ามเสี่ยงอะไรเด็ดขาด ดูแลตัวเองด้วย"
+
+hi "โอเคครับ"
+
+"เขามองเอกสารอีกครั้งแล้ววางไว้บนโต๊ะด้วยสีหน้าที่พอใจ"
+
+show nurse neutral
+with charachange
+
+nk "ดี งั้นก็แค่นี้แหละ มีอะไรก็มาหานะ"
 
 scene bg school_nursehall
 with locationchange
 
 stop music fadeout 2.0
 
-"I'm ushered out before I even realize it. A quick visit, indeed."
+"รู้ตัวอีกทีก็มาอยู่นอกห้องแล้ว แวบเดียวจริง ๆ"
 
 
 #***************************************
@@ -1611,231 +1611,232 @@ with locationchange
 
 play music music_pearly fadein 4.0
 
-"I end up standing in front of the main building and the auxiliary building, although to my eyes, they still look one and the same."
+"ฉันมายืนอยู่ที่หน้าอาคารหลักกับอาคารรอง ถึงฉันจะว่าทั้งคู่ก็ดูเหมือน ๆ กันก็เถอะ"
 
-"It's the first real look I get at the other students, so I watch people coming out of the school, going towards the gate or the dorms."
+"เป็นครั้งแรกที่ได้เห็นนักเรียนคนอื่น ๆ เลยมามองคนที่เดินออกจากอาคารมาไปที่ประตูไม่ก็หอ"
 
-"Everyone seems to know where they are going."
+"ทุกคนดูมีเป้าหมายที่จะไป"
 
-"And I still keep thinking that most of them don't look too special for being students at a special school. Then again, neither do I."
+"ส่วนฉันก็ยังคิดอยู่ว่าส่วนใหญ่ก็ดูไม่พิเศษขนาดนั้นกับโรงเรียนพิเศษนี้ แต่ก็ใช่ว่าฉันจะดูพิเศษน่ะนะ"
 
-"Does that make me one of them?{w} One of us?"
+"แสดงว่าฉันก็อยู่กลุ่มเดียวกับพวกเขา หรือ{b}พวกเรา{/b}งั้นสิ"
 
 "…"
 
-"I should go somewhere too, to prevent me from getting lost."
+"ฉันก็ไปบ้างดีกว่า จะได้ไม่มาเหม่อลอยชายอยู่แบบนี้"
 
-"It's around dinnertime, but I feel tired instead of hungry."
+"จะถึงเวลาข้าวเย็นแล้ว แต่รู้สึกเหนื่อยมากกว่าหิว"
 
-"The weariness in me only grows as I trudge towards the dorms, set a little way apart from the main building complex."
+"ยิ่งเดินไปหอที่อยู่ไม่ห่างจากบริเวณโรงเรียนก็ยิ่งล้าไปอีก"
 
 scene bg school_gardens
 with locationchange
 
-"There is a garden of sorts between the school and the dorms; shrubbery, flowers and that overbearing smell of fresh cut grass that fills the atmosphere."
+"ระหว่างทางจะมีสวนอยู่ด้วย ทั้งพุ่มไม้ ดอกไม้ กลิ่นหญ้าเหม็นเขียวที่ตัดใหม่คอยอยู่เป็นบรรยากาศ"
 
-"It dawns on my tired mind that the smell feels novel because I haven't been outside at all for so long."
+"กลิ่นเตะจมูกขึ้นสมองเตือนว่าเป็นความรู้สึกใหม่เพราะไม่ได้ออกมาข้างนอกนานแล้ว"
 
 scene bg school_dormext_start at bgleft
 with locationchange
 
-"The dorm building is big and made of red brick. Like the others, it feels way too pompous for what it is, so I push forward, going inside."
+"หอพักเป็นตึกอิฐแดงขนาดใหญ่ ซึ่งก็ดูหรูหราเกินที่หน้าที่เหมือนตึกอื่น ๆ ด้วยนั่นแหละ พอมาถึงฉันก็เดินเข้าไป"
 
 scene bg school_dormhallground
 with locationchange
 
-"It takes more time than necessary to fish out the key I was given from my pocket."
+"ฉันยืนควานหากุญแจในกระเป๋ากางเกงอยู่เสียนาน"
 
-hi "Room one-one-nine…"
+hi "ห้อง หนึ่ง หนึ่ง เก้า…"
 
-"Despite the ornate exterior, the inside of the dorm is fairly new, functional, and boring."
+"แม้ภายนอกจะตกแต่งดูดี ภายในยังดูใหม่ สมการใช้งาน และน่าเบื่อ"
 
-"Just like in the main building, the halls and doors are wide to accommodate wheelchairs. The same goes for the elevators at the ends of the hallways."
+"โถงทางเดินกับประตูทำมากว้างไว้สำหรับวีลแชร์เหมือนอาคารหลัก ทั้งลิฟต์ที่อยู่สุดทางเดินก็ด้วย"
 
-"I poke my head around the corner of the common room door."
+"ฉันชะโงกหน้าเข้าไปดูตรงประตูห้องรวมของหอ"
 
-"Inside a few students are watching the television."
+"ในห้องมีคนสองสามคนดูทีวีอยู่"
 
-"One nods and gives a quick “hello” before turning back to the TV."
+"คนหนึ่งหันมาทักทาย “สวัสดี” แล้วหันไปดูทีวีต่อ"
 
-"Seems that only the girls around here are sociable. I suppose that's perfectly fine with me."
+"ที่นี่คงมีแค่พวกผู้หญิงแหละมั้งที่เป็นมิตร ก็โอเคดีละมั้ง"
 
-"I climb the stairs to the upper floor."
+"ฉันเดินขึ้นบันไดไปชั้นบน"
 
 scene bg school_dormhallway
 with locationchange
 
-"Here, small corridors branch off from the main hallway."
+"ตรงนี้มีทางเดินแยกออกไปจากโถงทางเดินหลักด้วย"
 
-"Each of these minor halls seems to have a toilet and shower, as well as four rooms."
+"แต่ละทางที่แยกออกไปเหมือนจะเป็นห้องน้ำกับห้องอาบน้ำ แล้วก็มีห้องอีกสี่ห้อง"
 
-"About halfway down the hall, I spy room 119."
+"ฉันตามหาห้อง 119 เมื่อเดินไปได้ครึ่งทาง"
 
-"The name plates on the rooms adjacent to mine are blank. I guess there are just two of us here."
+"ป้ายชื่อที่อยู่ห้องซ้ายขวากันนั้นว่าง สงสัยทั้งชั้นจะเหลือแค่ฉันกับอีกห้อง"
 
 play sound sfx_doorknock2
 stop music fadeout 3.0
 
-"Light shines from below the door of room 117, so I knock lightly."
+"มีแสงลอดออกมาจากพื้นประตูห้อง 117 ฉันจึงเคาะประตูไป"
 
-hi "Hello, is anyone home?"
+hi "สวัสดีครับ มีใครอยู่มั้ย"
 
-"From inside, I hear a few movements, then the clicking of way more locks than I thought these doors had. After a moment the door squeaks open."
+"ข้างในมีเสียงกุกกัก แล้วก็เสียงปลดล็อกหลายรอบที่ดูจะมากเกินสำหรับประตูแบบนี้ สักพักหนึ่งประตูก็เปิดออก"
 
 show kenji tsun at Slide(0.4,0.5,0.5,0.5,0.5)
 with charaenter
 
 play music music_kenji fadein 0.5
 
-"A bespectacled boy is standing in the doorway. He is looking at me very intently through his extremely thick eyeglasses."
+"ชายใส่แว่นคนหนึ่งที่ยืนอยู่ตรงประตูจ้องเขม็งมาผ่านแว่นที่หนาเตอะ"
 
-ke_ "Who is it?"
+ke_ "ใครน่ะ"
 
-"Blind? No, at least not completely, why would he have eyeglasses if he was?"
+"ตาบอดเหรอ ไม่สิ อย่างน้อยก็คงไม่บอดหมด งั้นก็คงไม่ใส่แว่นหรอก"
 
 show kenji tsun_close at center
 with characlose
 
-"He leans closer to me until our noses are almost touching. His breath stinks of garlic."
+"เขาโน้มตัวเข้ามาจนจมูกพวกเราแทบแตะกัน ปากก็เหม็นกระเทียม"
 
-hi "Hisao Nakai… I'm moving into the next room. I thought I should introduce my…"
+hi "ฉันฮิซาโอะ นากาอิ… อยู่ห้องตรงนั้น พอดีเพิ่งย้ายมาเลยกะจะแวะมาทัก…"
 
 show kenji happy
 with charadistant
 
-"His face suddenly brightens in realization, and he stands back upright, thrusting his hand out in a smiling greeting, almost straight to my diaphragm."
+"เขาทำหน้าร้องอ๋อขึ้นมาแล้วยืดตัวตรง ยิ้มทักทายยื่นมือออกมาแทบจะทิ่มลิ้นปี่ฉัน"
 
-ke_ "Oh, 'sup dude? The name's Kenji."
+ke_ "อ้อ ไงพวก ฉันเคนจิ"
 
-hi "Ah, hi."
+hi "เอ่อ หวัดดี"
 
-"I take Kenji's sweaty hand and shake it, still a little rattled by the sudden change of attitude and vehement welcome."
+"ฉันจับมือเคนจิทักทาย ยังรู้สึกกลัว ๆ กับท่าทีที่เปลี่ยนมาเป็นการต้อนรับขับไล่ขนาดนี้"
 
-ke "There were some suspicious-looking people going in and out of your room earlier."
+ke "เมื่อกี้มีคนที่ดูน่าสงสัยมาห้องนายแน่ะ"
 
-hi "It was probably my parents."
-
-show kenji tsun
-with charachange
-
-ke "Your parents? You sure? 'Cause they could've been some other people, too. You can't judge a book by its cover."
-
-"His out-of-place proverb is left hanging between us awkwardly as I try to think of some way to respond."
-
-hi "I'd say the chances are high enough."
-
-"He shudders and makes some exaggerated hand gestures."
-
-show kenji neutral
-with charachange
-
-ke "You're a brave man, Hisao."
+hi "พ่อแม่ฉันละมั้ง"
 
 show kenji tsun
 with charachange
 
-ke "Me, I don't think I could trust the chances."
+ke "พ่อแม่นายเหรอ แน่ใจนะ อาจจะเป็นใครไม่รู้ก็ได้ คนเรารู้หน้าไม่รู้ใจหรอก"
 
-ke "The only one I trust is myself."
+"สำนวนที่อยู่ ๆ ก็โผล่มานั้นค้างอยู่ในอากาศ ฉันนึกหาคำพูดเพื่อต่อบทสนทนา"
 
-hi "Does that mean I shouldn't get to know you, either?"
+hi "ก็มีโอกาสสูงพอที่จะเป็นพ่อแม่ฉันน่ะแหละ"
 
-"He thinks about this for a while."
+"เขาผวาไปและโบกไม้โบกมือไปมาดูเวอร์ ๆ "
 
 show kenji neutral
 with charachange
 
-ke "A wise decision."
+ke "นายช่างกล้าหาญเสียจริง ฮิซาโอะ"
+
+show kenji tsun
+with charachange
+
+ke "ฉันน่ะ ไม่วางใจในโอกาสอะไรแบบนั้นหรอก"
+
+ke "สิ่งที่ฉันวางใจเชื่ออย่างเดียวคือตัวเอง"
+
+hi "แปลว่าฉันไม่ควรเป็นเพื่อนนายด้วยงั้นสิ"
+
+"เขาคิดอยู่พักใหญ่"
+
+show kenji neutral
+with charachange
+
+ke "ก็เป็นทางเลือกที่ฉลาดดี"
 
 show kenji happy
 with charachange
 
-ke "Damn, you are smarter than you look."
+ke "โห นายนี่ฉลาดกว่าที่เห็นนะเนี่ย"
 
-ke "Probably."
+ke "มั้งนะ"
 
-ke "What do you look like? I hope not smart."
+ke "หน้าตานายเป็นไง หวังว่าจะไม่ฉลาดนะ"
 
 show kenji neutral_close
 with characlose
 
-"He squints his eyes and leans closer again, but I lean backwards to dodge it."
+"เขาหรี่ตาแล้วยื่นหน้าเข้ามาอีก แต่ฉันเอนตัวหลบ"
 
 show kenji tsun
 with charadistant
 
-ke "Never mind, it doesn't matter."
+ke "ช่างเหอะ ไม่สำคัญ"
 
 hide kenji
 with charaexit
 
 stop music fadeout 3.0
 
-"With that, he turns, fumbles around for a moment in search of the door handle,{w=0.3}{nw}"
+"พูดจบเขาก็กลับไปคลำหากลอนประตูอยู่พักหนึ่ง{w=0.3}{nw}"
 
 play sound sfx_doorslam
 
-extend " and shuts the door behind him."
+extend "แล้วปิดประตู"
 
-"I slide the key into the lock of the door marked 119."
+"ฉันสอดกุญแจเข้ากับประตูที่ติดหมายเลข 119"
 
 scene bg school_dormhisao_ss
 with locationchange
 
 play music music_night fadein 1.0
 
-"Bleak beige walls, white linen, a desk made of some type of light wood. Ugly curtains."
+"กำแพงสีเบจเปล่า ๆ ผ้าสีขาว โต๊ะไม้น้ำหนักเบา ผ้าม่านน่าเกลียด ๆ "
 
-"It's no one's room; impersonal, like my hospital room was."
+"เป็นห้องที่กลาง ๆ ไม่มีความเป็นตัวตนเลย เหมือนห้องฉันที่โรงพยาบาล"
 
-"My bags are sitting at the foot of my bed, looking a lot emptier than they did this morning."
+"กระเป๋าฉันวางอยู่ที่ปลายเตียง ดูแฟบลงกว่าเมื่อเช้านี้"
 
-"The closet is sitting open, stocked with my clothes."
+"ตู้เสื้อผ้าที่มีเสื้อผ้าของฉันเปิดอยู่"
 
-"Also, it seems that there are a number of school uniforms hanging there as well."
+"เหมือนจะมีชุดนักเรียนแขวนอยู่สองสามตัวด้วย"
 
-"A note is pinned to the sleeve of one of the shirts."
+"ที่แขนเสื้อตัวหนึ่งมีโน้ตติดไว้"
 
 window hide
 
-$ written_note("Hi Hicchan. We've unpacked your things and made your bed.\nThey said that if these don't fit then you should go to the office tomorrow.\nIf you have any problems, you can always call us.\n\nLove, Mom and Dad")
+$ written_note("ไง ฮิจัง พ่อแม่จัดของกับจัดเตียงให้แล้วนะ เขาบอกมาว่าถ้าชุดคับหรือหลวมไป\nก็ไปเปลี่ยนที่สำนักงานพรุ่งนี้ได้ มีปัญหาอะไรก็โทร. หาได้เสมอเลยนะ \n\nรักมาก พ่อ แม่")
+
 
 window show
 
-"Well, at least I don't have to worry about unpacking."
+"เอาละ อย่างน้อยก็ไม่ต้องลำบากจัดของแล้ว"
 
-"I kind of hoped I would have, then there would be something to do."
+"จริง ๆ ก็อยากจัดเพราะไม่มีอะไรทำเหมือนกัน"
 
-"It's still too early."
+"ตอนนี้ยังไม่ค่ำมาก"
 
-"I put the note down on the desktop and lie down on the bed, feeling drained."
+"ฉันวางโน้ตไว้ที่โต๊ะแล้วนอนบนเตียงด้วยความเหนื่อยอ่อน"
 
-"Lying there makes me want to read something, but I have nothing with me."
+"นอนแล้วก็อยากอ่านอะไรสักอย่าง แต่ไม่ได้เอาอะไรมาเลย"
 
-"I wonder if the hospital conditioned me for wanting to read whenever I have nothing to do."    
+"ไม่รู้ว่าเป็นเพราะอยู่ที่โรงพยาบาลจนติดนิสัยอยากอ่านอะไรสักอย่างตอนไม่มีอะไรทำหรือเปล่า"    
 
-"The restless urge just keeps growing until I have to stand up."
+"เริ่มรู้สึกว้าวุ่นมากขึ้นเรื่อย ๆ จนต้องลุกขึ้น"
 
-"Maybe it's stress or something."
+"อาจจะเครียด"
 
-"I was pretty nervous about it before coming and for the entire day today too. I still am, I think."
+"ฉันคิดมากตั้งแต่ก่อนมาแล้ว แถมตอนอยู่ที่โรงเรียนก็ด้วย คงยังไม่หายมั้ง"
 
-"Damn, I have to distract myself somehow, so I won't be this unnatural all the time."
+"โอ๊ย ต้องหาอะไรทำไม่ให้คิดมากสักหน่อย จะได้ไม่เกร็ง"
 
-"Tomorrow, I'll go borrow some books from the library."
+"พรุ่งนี้จะไปยืมหนังสือจากห้องสมุดมาอ่านสักหน่อย"
 
-"Yeah, I'll do that."
+"โอเค ตามนั้น"
 
-"But for now…"
+"ส่วนตอนนี้…"
 
 show pills:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"The bottles of medications neatly arranged on my night table catch my eye."
+"พอหันไปก็สะดุดตาเข้ากับขวดยาที่เรียงอย่างเป็นระเบียบอยู่บนโต๊ะข้างเตียง"
 
-"I pick up one and shake it just to hear the contents rattle inside, and then read the glued-on pharmacy label."
+"ฉันหยิบมาขวดหนึ่งแล้วเขย่าฟังเสียงด้านในดู จากนั้นก็อ่านฉลากยา"
 
 window hide
 
@@ -1847,34 +1848,34 @@ with Pause (1.0)
 hide pills
 with None
 
-$ written_note("Hisao Nakai\n\nTwo tablets daily to stay alive", quiet=True)
+$ written_note("ฮิซาโอะ นากาอิ\n\nวันละสองเม็ดกันตาย", quiet=True)
 
 window show
 
-"It doesn't really say that, but it could just as well."
+"ไม่ได้เขียนว่างั้นหรอก แต่ก็ไม่ต่างอะไรมาก"
 
-"It's kinda twisted, having your life depend on chemicals like this. I resent it a little, but what choice do I have?"
+"นึกแล้วก็สยองดี ทั้งชีวิตขึ้นอยู่กับยาอะไรแบบนี้ ไม่ค่อยชอบเท่าไหร่ แต่ก็ใช่ว่าจะมีทางเลือกละนะ"
 
-"With a sigh, I begin my new daily ritual of taking the right number of pills from each bottle, being careful to check the correct dosages."
+"พอถอนหายใจเสร็จก็ทำกิจวัตรการกินยาให้ถูกขนาดจากแต่ละขวด ต้องคอยดูให้ดีด้วยว่าใช่หรือยัง"
 
 "…"
 
-"I lie down again, feeling hollow and uncertain, and after that I keep staring at the blank, unfamiliar ceiling for a long time."
+"และกลับมานอนอีกครั้งด้วยความรู้สึกว่างโหวงกับไม่มั่นคง เอาแต่จ้องเพดานเปล่าที่ไม่คุ้นตาอยู่นาน"
 
 stop music fadeout 8.0
 
 scene bg school_dormhisao_ni
 with Dissolve(3.0)
 
-"It doesn't start looking any more familiar, not even after darkness falls and long shadows draw across my room like fingers."
+"แต่จ้องไปก็ไม่คุ้นตาขึ้นมาเลย แม้ความมืดและเงาดำจะเข้าปกคลุมห้องฉันอย่างนิ้วที่คืบคลานแล้วก็ตาม"
 
-"The sheets feel slightly more comfortable, warm and nest-like against the chill that passes for room temperature here."
+"ส่วนที่นอนก็เริ่มนอนสบายขึ้น ความอบอุ่นห่มตัวให้พ้นจากความเย็นที่ไม่ไกลจากอุณหภูมิห้องนัก"
 
-"Soon the lighter shade of darkness that is the ceiling looks like every ceiling does at night, and it becomes the only thing I recognize any more."
+"ไม่นานแสงสลัวบนเพดานที่เหมือน ๆ กับเพดานทุกที่ตอนกลางคืนก็เป็นสิ่งสุดท้ายที่ฉันจดจำได้"
 
-"The night beckons me to sleep, and I feel the coldness of unfamiliarity and fear creeping up my spine once again."
+"ราตรีเชื้อเชิญสู่นิทรา ความเย็นเยือกของความไม่คุ้นชินคืบคลานเข้าสู่ประสาท"
 
-"I keep drifting further away from the world I knew."    
+"ฉันร่วงหล่นไปไกลจากโลกที่ฉันรู้จัก"    
 
 $ suppress_window_after_timeskip = True
 
