@@ -5,36 +5,36 @@ play music music_happiness fadein 2.0
 scene bg school_scienceroom
 with locationchange
 
-"I feel very tired this morning, probably because yesterday itself was a very tiring day. On top of that, I woke up far earlier than necessary."
+"เช้านี้ตื่นมาด้วยความอ่อนล้า อาจจะเพราะเหนื่อยจากเมื่อวานมา แล้วยังตื่นเช้าอีกต่างหาก"
 
-"After saying hi to Shizune and Misha, I start doing the work as instructed from the board. It already looks like today is going to be heavy."
+"หลังทักทายชิซูเนะกับมิช่าแล้วก็มาทำงานตามที่เขียนไว้บนกระดาษ ดูทรงแล้ววันนี้คงสาหัส"
 
-"I don't have a problem with that now, though. Shizune and Misha might jump on me trying to get an answer about whether or not I've decided to join the Student Council, even if it's just one day."
+"แต่ตอนนี้เรื่องนั้นไม่ใช่ปัญหา ปัญหาคือชิซูเนะกับมิช่าจะโผล่มารอคำตอบเรื่องเข้าสภานักเรียนจากฉัน ถึงจะผ่านไปแค่วันเดียวก็เถอะ"
 
-"I wouldn't put it past them to try, and I don't have an answer for them if they do. So, this situation is convenient for me."
+"ถ้าจะทำแบบนั้นก็ไม่แปลกใจ แต่ต่อให้ถามก็ยังไม่มีคำตอบหรอก อยู่อย่างนี้ก็ดีเหมือนกัน"
 
-"About ten minutes into class, Hanako walks in and takes a seat, but no one looks at her. The teacher doesn't even comment on her lateness."
+"ผ่านไปสิบนาทีฮานาโกะก็เดินเข้ามา แต่ไม่มีใครมอง ครูก็ไม่ว่าอะไรที่เข้าห้องช้า"
 
-"He does, however, stop us to say that we're going to break into groups again."
+"แต่เขาก็บอกว่าจะแบ่งกลุ่มกันอีกครั้ง"
 
 show shizu behind_smile at tworight
 show misha perky_smile at twoleft
 with charaenter
 
-"I turn my head and see that Shizune and Misha are looking at me. Shizune gives me a smile that is equal parts cute and menacing. This is a smile that says “We have you now. There is no escape.”"
+"พอหันไปก็เห็นว่าชิซูเนะกับมิช่ามองฉันอยู่ รอยยิ้มชิซูเนะนั้นดูทั้งน่ารักและน่ากลัว เป็นรอยยิ้มที่บอกว่า\n“นายหนีไม่พ้นแล้วละ”"
 
 show misha hips_grin
 with charachange
 
-mi "Hicchan~, it looks like we're together again! Yay yay~!"
+mi "ฮิจัง~ ดูท่าเราจะได้อยู่ด้วยกันอีกแล้วละ! เย้ ๆ ~!"
 
 show misha hips_grin_close
 show shizu behind_smile_close
 with characlose
 
-"Misha leans sideways while Shizune pushes her desk closer to mine. There really is no escape now unless I were to jump through the window."
+"มิช่าเอี้ยวตัวไปด้านข้างระหว่างที่ชิซูเนะกำลังดันโต๊ะมาให้ใกล้ฉัน ไม่มีทางหนีอื่นนอกจากว่าจะโดดหนีไปทางหน้าต่าง"
 
-"Jumping out the window isn't the best option, sadly."
+"ซึ่งการโดดหนีไปทางหน้าต่างไม่ใช่ทางเลือกที่ดีที่สุดด้วย"
 
 show shizu adjust_smug_close
 with charachange
@@ -44,7 +44,7 @@ shi "…"
 show misha hips_smile_close
 with charachange
 
-mi "What's wrong, Hicchan?"
+mi "เป็นอะไรเหรอฮิจัง"
 
 show shizu adjust_happy_close
 with charachange
@@ -54,19 +54,19 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Oh… Hicchan, have you been thinking about what you said yesterday? You said that you would think about joining the Student Council, didn't you?"
+mi "โธ่… ฮิจัง ยังคิดมาเรื่องเมื่อวานอยู่เหรอ ที่บอกว่าจะเก็บเรื่องเข้าสภานักเรียนไปคิดน่ะ ว่างั้นใช่มั้ย"
 
 show misha hips_grin_close
 with charachange
 
-mi "It's okay, Hicchan. We were talking about it after you left, and it would be rude to expect you to already have an answer for us this early, right? Right~!"
+mi "ไม่เป็นไรน่าฮิจัง ตอนที่นายไปพวกเราก็คุยกันแล้ว จะให้คาดหวังคำตอบจากนายเร็วขนาดนี้ก็คงไม่ดีใช่มั้ยล่ะ ช่าย~!"
 
 show misha cross_laugh_close
 with charachange
 
-mi "Hahahahahaha~!"
+mi "ฮ่าฮ่าฮ่าฮ่าฮ่าฮ่า~!"
 
-"I'm so happy you two are able to have a laugh at my expense, and even more pleased to know that you both know how crazy the two of you can be."
+"มีความสุขจริง ๆ ที่รู้ว่าฉันเป็นตัวตลกให้พวกเธอได้เนี่ย ยิ่งปลื้มอีกที่รู้ว่าพวกเธอสองคนนี่บ้าได้แค่ไหน"
 
 show shizu basic_normal2_close
 with charachange
@@ -74,13 +74,13 @@ with charachange
 show misha perky_smile_close
 with charachange
 
-"Now that that's over, Shizune snaps back into serious mode and smacks today's assignment with the back of her hand in an overly dramatic and important way."
+"พอจบเรื่องชิซูเนะก็กลับเข้าโหมดจริงจังแล้วใช้หลังมือตบ ๆ งานของวันนี้ด้วยท่าทางที่ดูจะเวอร์วัง"
 
-"When I actually look at the stuff, it's mostly just reading. In fact, there are only two problems."
+"พอดูงานแล้วก็เห็นว่าให้อ่านเท่านั้น คำถามมีแค่สองข้อ"
 
-"I almost want to say something about how her rush to get started seems a bit much, considering the small amount of work. In fact, Shizune probably knows how little there is, and simply doesn't care."
+"นึกอยากบอกอยู่ว่างานมีแค่นี้จะเริ่มทำตอนนี้ก็เร็วไปหรือเปล่า ที่จริง ชิซูเนะก็คงรู้แหละว่าน้อย และไม่ได้สนใจด้วย"
 
-"Yeah, it seems like the workload doesn't matter to her as much as the fact that there is work; the actual amount is unimportant. She approaches everything with the same level of ambition."
+"อืม ปริมาณก็คงไม่ได้สำคัญเท่าว่ามีงานสำหรับเธอแหละ มีมากน้อยเท่าไหร่ไม่เกี่ยว เธอจะทุ่มเททำด้วยความมุ่งมั่น\nเหมือน ๆ กัน"
 
 show hanako emb_downtimid at offscreenright
 with None
@@ -93,44 +93,44 @@ with charamove
 
 stop music fadeout 7.0
 
-"While I'm reading, I let my eyes wander around the room and catch Hanako trying her hand at solving the problems. It looks like she's working alone."
+"ระหว่างที่อ่านอยู่สายตาก็หันไปรอบ ๆ ห้องแล้วสะดุดเข้ากับฮานาโกะที่กำลังพยายามทำงานอยู่ ดูเหมือนจะทำคนเดียว"
 
-"I can't remember seeing her working with other people before."
+"จะว่าไปก็ไม่เคยเห็นเธอทำงานกับใครเลย"
 
-"Thinking back to how shy she is, it's understandable."
+"แต่พอนึกว่าเธอขี้อายขนาดไหนก็ไม่แปลกใจ"
 
-hi "Hey, that girl over there…"
+hi "เอ่อ เธอคนนั้น…"
 
 show misha perky_confused_close
 with charachange
 
-mi "Huh? Who, Hicchan?"
+mi "หืม ใครเหรอฮิจัง"
 
-hi "Her. Hanako. Over there. Does she always work alone?"
+hi "เธอ ฮานาโกะ คนนั้นน่ะ ทำงานคนเดียวตลอดเลยเหรอ"
 
-mi "I think so, Hicchan. Do you feel sorry for her because she's alone?"
+mi "คงงั้นนะฮิจัง สงสารที่เธอทำงานคนเดียวเหรอ"
 
-hi "I was just thinking that maybe she could work with us, or something."
+hi "แค่คิดอยู่ว่าชวนมาเข้ากลุ่มด้วยดีมั้ยนะ"
 
 show misha perky_sad_close
 with charachange
 
-mi "Hmmmm… No, I don't think that would be a good idea, Hicchan."
+mi "อืมมม… ฉันว่าไม่น่าดีนะฮิจัง"
 
-hi "Why not?"
+hi "ไหงงั้น"
 
-mi "Shicchan wouldn't get along with her."
+mi "คงได้ตีกับชิจังตายเลย"
 
-hi "Why?"
+hi "ไหงงั้น"
 
 show misha perky_confused_close
 with charachange
 
-"Misha shuffles around the question, letting out a laugh that sounds very strange; it's nervous, but still has that lilting up-and-down quality present in everything she says."
+"มิช่าเลี่ยงคำถามไปมาพร้อมเสียงหัวเราะที่ฟังดูแปร่ง ๆ ดูเกร็ง ๆ แต่ก็ยังมีน้ำเสียงสูงต่ำแบบที่เธอพูดเป็นประจำ"
 
-mi "Just because, Hicchan."
+mi "เถอะน่า ฮิจัง"
 
-"By now, Shizune has noticed our conversation, and it makes me realize again how Misha has been signing everything she has been saying this whole time."
+"ชิซูเนะก็เห็นที่พวกเราคุยกันแล้ว แล้วก็ระลึกได้อีกครั้งว่ามิช่าคอยแปลทุกอย่างที่เธอพูดเป็นภาษามือให้"
 
 show shizu basic_frown_close
 with charachange
@@ -140,18 +140,18 @@ shi "…"
 show misha perky_sad_close
 with charachange
 
-mi "What, Shicchan? The friend of my enemy is my enemy? That sounds so harsh, I'm not going to say that."
+mi "อะไรนะชิจัง เพื่อนของศัตรูก็คือศัตรูงั้นเหรอ ฟังดูใจร้ายจัง แต่ฉันจะไม่พูดหรอก"
 
-hi "You said it anyway."
+hi "แต่เธอก็พูด"
 
 show misha hips_grin_close
 with charachange
 
-mi "I know, Hicchan, it's fine if you overhear~!"
+mi "รู้น่าฮิจัง นายจะได้ยินสักหน่อยก็ไม่เป็นไรหรอก~!"
 
-"I wonder if this is Misha's way of keeping things fair, since without her, I wouldn't be able to understand a thing Shizune is saying, and vice versa."
+"ไม่รู้ว่าที่มิช่าทำแบบนี้เพราะจะได้แฟร์ ๆ กันทั้งสองฝ่ายหรือเปล่า เพราะถ้าไม่มีมิช่าฉันก็จะไม่รู้ว่าชิซูเนะพูดอะไรอยู่\nและชิซูเนะก็จะไม่รู้ว่าฉันพูดอะไรอยู่"
 
-"Is that also why she signs all the time, so there is never a conversation Shizune will be left out of?"
+"เพราะงี้ด้วยหรือเปล่านะถึงคอยทำภาษามือตลอด ชิซูเนะจะได้เป็นส่วนร่วมในทุกบทสนทนา"
 
 show shizu basic_normal_close
 with charachange
@@ -161,31 +161,31 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Anyway, we should start on the problems now, Hicchan."
+mi "เอาเถอะ ต้องเริ่มทำงานได้แล้วนะฮิจัง"
 
 scene bg school_scienceroom
 with shorttimeskip
 
 play music music_daily fadein 1.0
 
-"We finish with time to spare, and I decide to ask if there are any alternatives to the cafeteria, as frankly, the food so far has been subpar."
+"พวกเราทำงานเสร็จด้วยเวลาที่ยังเหลือ ๆ จึงถามไปว่ามีที่อื่นนอกจากโรงอาหารมั้ย เพราะเอาตรง ๆ อาหารก็ไม่ค่อยอร่อย"
 
-"This sends Shizune and Misha arguing among themselves about their favorite restaurants. All of them are downtown, so I don't think we have time to go all the way there. And what about the bill?"
+"ซึ่งทำให้ชิซูเนะและมิช่าเถียงกันเรื่องร้านโปรดของตัวเอง ทุกร้านที่ว่ามาอยู่ในเมืองหมด ไม่น่ามีเวลาถ่อไปขนาดนั้นแน่ ๆ \nไหนจะเงินอีก"
 
-"Are they arguing just for the fun of it?"
+"เถียงเอาสนุกไปงั้นหรือเปล่าเนี่ย"
 
-"Maybe. They seem so distracted by it that they don't even notice the start of the actual lunch break."
+"คงงั้น เถียงไม่สนอะไรจนไม่ทันรู้ตัวว่าพักเที่ยงแล้ว"
 
-"I look over my shoulder towards the back of the classroom."
+"ฉันเอี้ยวตัวหันไปมองข้างหลังห้อง"
 
 show hanako emb_downtimid at tworight
 with charaenter
 
-"She seems to be studying her notes from the previous class."
+"เหมือนจะอ่านสมุดที่เธอจดมาจากคาบเมื่อกี้อยู่"
 
-"It's an odd sight; everyone else in the class is busying themselves with the lunch break."
+"ดูแปลกตาดี เพราะคนอื่นก็กำลังวุ่นวายอยู่กับพักเที่ยงของตัวเองอยู่"
 
-"Socializing, gossiping, rearranging desks, the ones with actual boxed lunches mixed in and chattering like everyone else, only interrupted by short bouts of eating."
+"พูดคุยซุบซิบกัน ย้ายโต๊ะไปมา คนที่เอาข้าวกล่องมาก็คุยกับคนอื่น ๆ เหมือนกัน เพียงแต่มีการตักข้าวเข้าปากไปด้วย"
 
 "But, when I watch Hanako, it feels that I'm the only one who can see her. Almost as if she was invisible; sort of hiding in plain sight."
 
