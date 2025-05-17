@@ -149,7 +149,7 @@ with charachange
 
 show shizu adjust_smug
 with charachange
-#"ก็ไม่ต่างอะไรกับโรงเรียนกินนอนนั่นแหละ ออกแบบมาให้นักเรียนมีอิสระพอตัวไปพร้อม ๆ กับที่มีคนคอยดูอยู่ตลอดด้วย"
+
 
 "มิช่าพยายามทำภาษามือขอความช่วยเหลือจากชิซูเนะ ซึ่งเธอพอเธอดันแว่นด้วยท่าทางที่ดูภูมิฐานพิลึกนั้น\nแล้วก็เริ่มทำภาษามืออย่างเน้นหนัก"
 show shizu adjust_happy
@@ -1285,7 +1285,7 @@ mi "บ๊ายบาย!"
 
 stop music fadeout 2.0
 
-
+#*******************
 label th_A7:
 
 scene bg school_staircase2
@@ -1294,37 +1294,52 @@ with locationchange
 scene bg school_hallway2
 with locationchange
 
-"One flight of stairs up and I run into problems."
+# "One flight of stairs up and I run into problems."
+"เดินขึ้นมาได้ชั้นเดียวก็เจอเรื่องแล้ว"
 
-"The second floor hallway is a carbon copy of the third floor one."
+# "The second floor hallway is a carbon copy of the third floor one."
+"โถงทางเดินชั้นสองเหมือนชั้นสามเปี๊ยบ"
 
-"Wide, of course; and plain, like only hallways can be."
+# "Wide, of course; and plain, like only hallways can be."
+"ซึ่งก็แน่นอนว่ากว้างและเรียบ ๆ อย่างที่โถงทางเดินที่ไหนก็เป็น"
 
-"The problem is that the library's whereabouts are not as easily determined as one would think." 
+# "The problem is that the library's whereabouts are not as easily determined as one would think." 
+"ปัญหาก็คือ ห้องสมุดไม่ได้หาง่ายอย่างที่คิดน่ะสิ"
 
-"The classrooms are marked with signs stating which class they belong to, but then there is a plethora of other, unmarked rooms."
+# "The classrooms are marked with signs stating which class they belong to, but then there is a plethora of other, unmarked rooms."
+"ห้องเรียนยังพอมีป้ายบอกว่าเป็นห้องเลขอะไร แต่ก็มีห้องอื่น ๆ อีกเยอะที่ไม่มีอะไรบอกเลย"
 
-"Is the library one of them? Or is it just somewhere down the hallway?"
+# "Is the library one of them? Or is it just somewhere down the hallway?"
+"ห้องสมุดเองก็เป็นแบบนั้นไหมนะ หรือมันอาจจะอยู่แถว ๆ โถงทางเดินนั่นแหละ"
 
-"I bet on the latter and choose my direction at random."
+# "I bet on the latter and choose my direction at random."
+"ฉันคิดว่าเป็นอย่างหลัง เลยสุ่ม ๆ เดินไปตามทาง"
 
-"After I turn around the corner, an unmarked door draws my attention because it's not closed."
+# "After I turn around the corner, an unmarked door draws my attention because it's not closed."
+"หลังจากเลี้ยวไปรอบนึง ก็สะดุดตาห้องที่ไม่มีป้ายห้องนึง เพราะประตูเปิดค้างไว้"
 
-"It's not open either though, just barely ajar so that I can see it's open and nothing else."
+# "It's not open either though, just barely ajar so that I can see it's open and nothing else."
+"ก็ไม่เชิงว่าเปิดหรอก แค่แง้ม ๆ นิดหน่อยพอได้เห็นว่ามันเปิด แค่นั้นแหละ"
 
-"It would make sense for the library door to be invitingly open, and while this one is not quite that, it's good enough."
+# "It would make sense for the library door to be invitingly open, and while this one is not quite that, it's good enough."
+"ห้องสมุดก็ควรจะเปิดประตูเอาไว้เผื่อให้คนเข้านั่นแหละ ถึงแม้อันนี้จะไม่เปิดขนาดนั้นก็เถอะ แต่แค่นี้ก็พอละ"
 
-"At the very least it means that someone is inside and I can ask for directions no matter how embarrassing that is."
+# "At the very least it means that someone is inside and I can ask for directions no matter how embarrassing that is."
+"อย่างน้อยก็แปลว่ามีคนในห้องนั้นที่น่าจะพอให้ถามได้ว่าห้องสมุดไปทางไหน ถึงแม้จะน่าอายก็เถอะ"
 
-"I gingerly push on the center of the door with my fingertips, every muscle in my arm ready to pull back at a moment's notice."
+# "I gingerly push on the center of the door with my fingertips, every muscle in my arm ready to pull back at a moment's notice."
+"ฉันค่อย ๆ เปิดประตูด้วยปลายนิ้วของฉัน โดยพร้อมดึงแขนกลับทันทีที่มีคนมาเห็น"
 
-"The feeling of being an outsider to this school can't be shaken from my mind, so much so that I instinctively fear doing something wrong by entering."
+# "The feeling of being an outsider to this school can't be shaken from my mind, so much so that I instinctively fear doing something wrong by entering."
+"ฉันยังสลัดความรู้สึกว่าเป็นคนนอกของโรงเรียนนี้ออกไปจากหัวไม่ได้\nฝังแน่นเสียจนกลัวไปก่อนว่าแค่เดินเข้าไปแล้วจะโดนว่า"
 
 play sound sfx_door_creak
 
-"The door slowly creaks as if groaning from a deep sleep, though is much easier to open than I'd anticipated."
+# "The door slowly creaks as if groaning from a deep sleep, though is much easier to open than I'd anticipated."
+"เสียงเปิดประตูค่อย ๆ ดังเอี๊ยดราวกับเสียงโอดครวญยามคนตื่นนอน แต่จริง ๆ ก็เปิดง่ายกว่าที่คิด"
 
-"Leaning over and poking my head ever further inside to gain sight of the room as fast as possible, the meek “Hello…?” on my lips is quickly snatched away."
+# "Leaning over and poking my head ever further inside to gain sight of the room as fast as possible, the meek “Hello…?” on my lips is quickly snatched away."
+"ฉันชะเง้อเข้าไปในห้องเพื่อกวาดตาดูให้เร็วที่สุด ปากที่จะพูดว่า “สวัสดี” ด้วยเสียงอ่อย ๆ ก็ปิดลงทันที"
 
 window hide
 
@@ -1340,163 +1355,223 @@ window show
 
 "…"
 
-"This is… not as I was expecting."
+# "This is… not as I was expecting."
+"ไม่เป็นอย่างที่คิดแฮะ"
 
-"I mindlessly let the door open to its full extent, taking in the sight of the solitary figure taking center stage in the otherwise abandoned room."
+# "I mindlessly let the door open to its full extent, taking in the sight of the solitary figure taking center stage in the otherwise abandoned room."
+"ฉันปล่อยให้ประตูเปิดจนสุดโดยไม่ได้สนใจ สายตามองไปเห็นร่างที่ยืนโดดเดี่ยวอยู่กลางห้อง"
 
-"The situation steals my voice, leaving me standing at the doorway staring at the beautiful girl."
+# "The situation steals my voice, leaving me standing at the doorway staring at the beautiful girl."
+"สถานการณ์ในตอนนี้ทำให้ฉันพูดไม่ออก ทำได้แค่ยืนที่หน้าประตูโดยจ้องมองไปยังสาวสวยผู้นั้น"
 
-"Evidently having taken her time to assess the situation, the girl gently puts down her teacup and opens her eyes, but doesn't look at me."
+# "Evidently having taken her time to assess the situation, the girl gently puts down her teacup and opens her eyes, but doesn't look at me."
+"เธอใช้เวลาสักพักในการประเมินสถานการณ์ตอนนี้ จากนั้นเธอค่อย ๆ วางถ้วยชาลงและลืมตาขึ้นมาแต่ไม่ได้มองมาทางนี้"
 
 scene ev lilly_tearoom_open
 with charachange
 
-li_ "Hello there. May I help you?"
+# li_ "Hello there. May I help you?"
+li_ "สวัสดีจ๊ะ มีอะไรให้ช่วยไหม?"
 
-"Staring directly in front of herself, the movements of her lips seem to break the silence rather than the words."
+# "Staring directly in front of herself, the movements of her lips seem to break the silence rather than the words."
+"ดวงตาเธอมองตรงไปข้างหน้า\nและราวกับว่าไม่ใช่คำพูดหากแต่ความเคลื่อนไหวจากริมฝีปากเธอเป็นสิ่งทำลายความเงียบแทน"
 
-"However it's the soft, measured voice that reminds me she's a being separate from the room itself."
 
-"Not only is she likely the tallest girl I've ever laid eyes on, but even among the foreigners I've met she's strikingly distinct."
+# "However it's the soft, measured voice that reminds me she's a being separate from the room itself."
+"ทว่า เสียงอันนุ่มนวลและบรรจงนั้นย้ำบอกว่าเธอไม่ได้เป็นส่วนหนึ่งของห้องนี้"
 
-hi "Uh, hi. Sorry for intruding, I was just… kind of lost."
+# "Not only is she likely the tallest girl I've ever laid eyes on, but even among the foreigners I've met she's strikingly distinct."
+"เธอไม่ใช่แค่เป็นหญิงสาวที่ตัวสูงที่สุดที่เคยเจอมา แต่ในหมู่ชาวต่างชาติที่เคยพานพบมา เธอนั้นช่างดูโดดเด่น"
 
-"She takes a moment to formulate a response before speaking. Every action she takes feels as if it's carefully choreographed beforehand."
+# hi "Uh, hi. Sorry for intruding, I was just… kind of lost."
+hi "เอ่อ สวัสดี ขอโทษที่เข้ามาขัดนะ พอดีว่าฉัน…หลงทางน่ะ"
 
-li_ "Care to take a seat?"
+# "She takes a moment to formulate a response before speaking. Every action she takes feels as if it's carefully choreographed beforehand."
+"เธอใช้เวลาคิดคำตอบสักพักก่อนจะพูดออกมา ทุก ๆ การกระทำของเธอราวกับว่าได้รับการบรรจงคิดมาเป็นอย่างดีก่อน"
 
-"…unexpected, considering that I'm intruding upon her."
+# li_ "Care to take a seat?"
+li_ "นั่งก่อนไหมจ๊ะ?"
 
-hi "Ummm… thanks."
+# "…unexpected, considering that I'm intruding upon her."
+"…ผิดคาด เมื่อเทียบกับที่ฉันเข้ามาขัดเธอ"
 
-"I slowly step towards another seat opposite her, the girl resting the teacup and saucer on the wooden table inbetween."
+# hi "Ummm… thanks."
+hi "อ่า… ขอบคุณนะ"
 
-"The way she doesn't track my movements with her head is telling… that, and the slight cloudiness to her eyes means she must be at least partially blind, like Kenji."
+# "I slowly step towards another seat opposite her, the girl resting the teacup and saucer on the wooden table inbetween."
+"ฉันค่อย ๆ เข้าไปนั่งที่ตรงข้ามเธอ หญิงสาววางถ้วยชาและจานรองไว้บนโต๊ะไม้ที่อยู่ตรงระหว่างเรา"
 
-"Come to think of it, her voice doesn't have any detectable accent either. I guess she must be half-Japanese."
 
-"As I take my seat, her composure takes me slightly off-guard. Her air of relaxed confidence makes the silence entirely comfortable."
+# "The way she doesn't track my movements with her head is telling… that, and the slight cloudiness to her eyes means she must be at least partially blind, like Kenji."
+"การที่เธอไม่ได้หันมามองตามการเคลื่อนไหวของฉัน และสีของดวงตาที่ดูขุ่นเล็กน้อย\nบ่งบอกว่าเธอนั้นอย่างน้อยก็ตาบอดบางส่วน เหมือนกับเคนจิ"
+
+# "Come to think of it, her voice doesn't have any detectable accent either. I guess she must be half-Japanese."
+"พอมาคิด ๆ ดูแล้ว น้ำเสียงของเธอก็ไม่ได้มีสำเนียงต่างชาติปนมาเลย เดาว่าเธอน่าจะเป็นลูกครึ่งญี่ปุ่นแหละ"
+
+# "As I take my seat, her composure takes me slightly off-guard. Her air of relaxed confidence makes the silence entirely comfortable."
+"เมื่อฉันนั่งลงแล้ว ท่าทีของเธอทำเอาฉันไม่ทันตั้งตัว บรรยากาศของเธอที่ดูมั่นคงทว่าผ่อนคลายอยู่ในทีทำให้ความเงียบนี้ไม่อึดอัดเลยแม้แต่น้อย"
 
 scene ev lilly_tearoom
 with charachange
 
-"The calming atmosphere is so very different from the student council office."
+# "The calming atmosphere is so very different from the student council office."
+"บรรยากาศในห้องนั้นสงบแตกต่างจากห้องสภานักเรียน"
 
-li_ "I take it you're a new student to Yamaku?"
+# li_ "I take it you're a new student to Yamaku?"
+li_ "ฉันขอเดาว่านายคงเป็นนักเรียนที่ย้ายเข้ามาใหม่ใช่ไหมจ๊ะ"
 
-hi "Ah, yeah. I just transferred in yesterday."
+# hi "Ah, yeah. I just transferred in yesterday."
+hi "อ๊ะ ใช่ เพิ่งย้ายเข้ามาเมื่อวานน่ะ"
 
-"I get the distinct feeling my speech patterns don't match the formality of hers, accentuated by her restrained bow of greeting."
+# "I get the distinct feeling my speech patterns don't match the formality of hers, accentuated by her restrained bow of greeting."
+"อืม… รู้สึกว่าวิธีการพูดของฉันจะไม่เข้ากับระดับความสุภาพของเธอเลยแฮะ ถ้ามองจากการที่เธอโค้งคำนับทักทาย"
 
-"One which I hasten to match, before realizing the futility of the action."
+# "One which I hasten to match, before realizing the futility of the action."
+"เป็นระดับที่ฉันพยายามจะให้เทียบเท่าด้วย แต่พอทำไปก็ถึงรู้ว่าไม่ไหว"
 
 scene ev lilly_tearoom_open
 with charachange
 
-li_ "I'm Lilly Satou. Pleased to meet you…"
+# li_ "I'm Lilly Satou. Pleased to meet you…"
+li_ "ฉันชื่อลิลลี่ ซาโต้ ยินดีที่ได้รู้จักจ๊ะ…"
 
-hi "Hisao. Hisao Nakai."
+# hi "Hisao. Hisao Nakai."
+hi "ฮิซาโอะ ฮิซาโอะ นากาอิ"
 
-"She gives a nod before gesturing roughly in the direction of her teacup."
+# "She gives a nod before gesturing roughly in the direction of her teacup."
+"เธอพยักหน้าก่อนที่จะชี้ไปที่บริเวณถ้วยชา"
 
-li "Would you care for a drink?"
+# li "Would you care for a drink?"
+li "ดื่มหน่อยไหมจ๊ะ"
 
-hi "Sure."
+# hi "Sure."
+hi "อื้ม"
 
-"As much as it pains me, I can't keep step with her formality in the proceedings."
+# "As much as it pains me, I can't keep step with her formality in the proceedings."
+"รู้สึกแย่แหละ แต่ก็ตามไม่ไหวกับความเป็นพิธีรีตองของเธอจริง ๆ"
 
-"She gives a kind nod, taking the request in stride."
+# "She gives a kind nod, taking the request in stride."
+"เธอพยักหน้าน้อย ๆ รับคำขอนั้น"
 
 scene bg school_miyagi
 with fade
 
-"Without another word, she steps off the chair and prepares a second cup of tea from a collection of supplies laid out along a shelf."
+# "Without another word, she steps off the chair and prepares a second cup of tea from a collection of supplies laid out along a shelf."
+"เธอลุกออกไปเตรียมถ้วยชาอีกใบจากชุดถ้วยชาที่ตั้งอยู่บนชั้นวางของโดยไม่ได้พูดอะไร"
 
-"A brush here, a brush there, her left hand often lightly touching the side of whichever container she's pouring into… it seems to be a process she's followed dozens of times before."
+# "A brush here, a brush there, her left hand often lightly touching the side of whichever container she's pouring into… it seems to be a process she's followed dozens of times before."
+"แตะนู่นนิด แตะนี่หน่อย มือซ้ายของเธอมักจะสัมผัสน้อย ๆ อยู่กับกาน้ำชาหรือแก้วที่กำลังเทน้ำใส่…\nดูแล้วคงเป็นอะไรที่เธอทำมาแล้วหลายครั้ง"
 
-"As I lean sideways to see around her back, she seems to use her long, dainty finger to measure the right amount of water in the cup."
+# "As I lean sideways to see around her back, she seems to use her long, dainty finger to measure the right amount of water in the cup."
+"พอเอี้ยวตัวไปมองจากข้างหลัง ก็เห็นเธอใช้ปลายนิ้วเรียวยาวแตะเพื่อวัดระดับน้ำในถ้วยให้เหมาะสม"
 
-"It's one thing to see the different disabilities the students in my class have, but it's quite another to see how everyone seems to adapt."
+# "It's one thing to see the different disabilities the students in my class have, but it's quite another to see how everyone seems to adapt."
+"การที่ได้เห็นความพิการต่าง ๆ ของคนในห้องนั้นก็เรื่องหนึ่ง แต่ก็อดทึ่งไม่ได้ที่เห็นแต่ละคนปรับตัวได้ดีอย่างนี้"
 
-"Shizune and Misha have no problem working together to communicate to me, and Lilly herself seems to have workarounds for problems I'd never thought of."
+# "Shizune and Misha have no problem working together to communicate to me, and Lilly herself seems to have workarounds for problems I'd never thought of."
+"อย่างชิซูเนะกับมิช่าก็ช่วยกันเพื่อคุยกับฉัน และลิลลี่เองก็ดูมีวิธีแก้ปัญหาแบบที่ฉันไม่เคยเห็นมาก่อน"
 
-"While I feel slightly guilty about her doing the work, she seems pleased to be following the “correct” process of the offerer preparing the drink."
+# "While I feel slightly guilty about her doing the work, she seems pleased to be following the “correct” process of the offerer preparing the drink."
+"ก็รู้สึกผิดนิดหน่อยแหละที่ต้องให้เธอมาทำให้ แต่เธอดูจะยินดีที่ได้ทำหน้าที่ตระเตรียมชาให้อย่าง “ถูกวิธี”"
 
-li "So,"
+# li "So,"
+li "แล้ว…"
 
-"Her soft voice brings me out of my silent observance."
+# "Her soft voice brings me out of my silent observance."
+"เสียงอันอ่อนโยนของเธอพาให้ฉันหยุดการสังเกตอย่างเงียบ ๆ"
 
 show lilly basic_smile at center
 with charaenter
 
-li "Which room were you looking for? It's not often this classroom is visited after school."
+# li "Which room were you looking for? It's not often this classroom is visited after school."
+li "เธอกำลังมองหาห้องไหนอยู่ล่ะ ปกติห้องนี้ก็ไม่ค่อยมีใครเข้ามาหลังเลิกเรียนหรอกนะ"
 
-hi "The school library. Shizune and Mi— I mean, some classmates, told me it was on this floor."
+# hi "The school library. Shizune and Mi— I mean, some classmates, told me it was on this floor."
+hi "ห้องสมุดของโรงเรียนน่ะ ชิซูเนะและมิ— หมายถึงเพื่อนในห้องบอกว่าอยู่ชั้นนี้น่ะ"
 
-"She finishes pouring water into the teacup as she nods, a small metallic tapping coming from the teacup indicating it being stirred."
+# "She finishes pouring water into the teacup as she nods, a small metallic tapping coming from the teacup indicating it being stirred."
+"เธอพยักหน้าพร้อม ๆ กับรินน้ำลงในถ้วยชา เสียงกระทบจากโลหะดังออกมาจากถ้วยชาบ่งบอกว่ากำลังถูกคน"
 
-li "I'm aware of Miss Hakamichi, as are most students. To be with them means you're in class 3-3, no?"
+# li "I'm aware of Miss Hakamichi, as are most students. To be with them means you're in class 3-3, no?"
+li "ฉันรู้จักกับคุณฮากามิจิ พอ ๆ กับนักเรียนส่วนใหญ่ ถ้าอยู่ด้วยกันแปลว่าเธอมาจากห้อง 3-3 ใช่ไหม"
 
-hi "That's right. In the science room with Mutou."
+# hi "That's right. In the science room with Mutou."
+hi "ใช่ ๆ ในห้องเรียนวิทยาศาสตร์กับอาจารย์มุโต้"
+
 
 show lilly basic_giggle
 with charachange
 
-"She gives a small giggle before setting down the teaspoon and slowly walking towards the table, teacup and saucer in hand."
+# "She gives a small giggle before setting down the teaspoon and slowly walking towards the table, teacup and saucer in hand."
+"เธอหัวเราะคิกคักเล็กน้อย ก่อนที่จะวางช้อนชาลงและเดินมายังโต๊ะ"
 
-li "He's quite a character. I imagine you'll come to like him; most do."
+# li "He's quite a character. I imagine you'll come to like him; most do."
+li "เขาเป็นคนที่น่าสนใจดี อยู่ ๆ ไปนายคงชอบแหละ ส่วนใหญ่จะแบบนั้นนะ"
 
 scene bg tearoom_lillyhisao_noon
 show tearoom_hisao smile
 show tearoom_lilly smileclosed
 with fade
 
-"As she sets down the tea, I gently take it and have a sip. I'm really more of a coffee person, but this seems like a rather bad moment to bring it up."
+# "As she sets down the tea, I gently take it and have a sip. I'm really more of a coffee person, but this seems like a rather bad moment to bring it up."
+"เมื่อเธอวางถ้วยชาลงบนโต๊ะ ฉันก็รีบหยิบขึ้นมาจิบ จริง ๆ ฉันชอบกาแฟมากกว่า แต่จะพูดตอนนี้ก็ยังไงอยู่"
 
-"Nonetheless, the smell's quite nice. I hardly think it'd be hard to choke down."
+# "Nonetheless, the smell's quite nice. I hardly think it'd be hard to choke down."
+"แต่ถึงอย่างนั้น กลิ่นชาก็หอมดี ไม่ได้ถึงขั้นดื่มไม่ได้ขนาดนั้น"
 
 show tearoom_hisao relief
 with charachange
 
-hi "Thanks, Satou. It tastes really nice."
+# hi "Thanks, Satou. It tastes really nice."
+hi "ขอบใจนะ ซาโต้ อร่อยมากเลยล่ะ"
 
 show tearoom_lilly ara
 with charachange
 
-"She smiles and quickly waves her hand in front of her face."
+# "She smiles and quickly waves her hand in front of her face."
+"เธอยิ้มและโบกไม้โบกมือเชิงปฏิเสธ"
 
-li "Lilly, please. There's no need to be too formal."
+# li "Lilly, please. There's no need to be too formal."
+li "เรียกลิลลี่เถอะจ๊ะ ไม่ต้องสุภาพขนาดนั้นก็ได้"
 
-"She says this in spite of her exceedingly well-bred speech. Oh well."
+# "She says this in spite of her exceedingly well-bred speech. Oh well."
+"เธอบอกแบบนั้นทั้ง ๆ ที่เธอสุภาพมาก ๆ แต่เอาเถอะ"
 
-"I guess I should try and ask her about herself, as it really does seem as if she's catering to me."
+# "I guess I should try and ask her about herself, as it really does seem as if she's catering to me."
+"ฉันว่าฉันต้องถามเรื่องเกี่ยวกับเธอแล้วล่ะ ดูจากที่เธอก็ใส่ใจฉันพอตัว"
 
 show tearoom_hisao smile
 with charachange
 
-hi "So which class are you from? I imagine it's one of the third-year classes."
+# hi "So which class are you from? I imagine it's one of the third-year classes."
+hi "แล้ว เธอมาจากห้องไหนล่ะ เดาว่าอยู่ ม.6 ใช่ไหม"
 
 show tearoom_lilly smileclosed
 with charachange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-li "Correct, I'm in class 3-2; which is on the third floor, same as yours. It's taught by Miyagi, and is specifically for both blind and partially blind students."
+# li "Correct, I'm in class 3-2; which is on the third floor, same as yours. It's taught by Miyagi, and is specifically for both blind and partially blind students."
+li "ถูกจ๊ะ ฉันมาจากห้อง 3-2 ซึ่งอยู่ชั้น 3 ชั้นเดียวกับเธอ ครูที่สอนคือครูมิยางิ\nเป็นห้องสำหรับคนมีปัญหาทางสายตาโดยเฉพาะน่ะจ๊ะ"
 
-hi "I see.{w} Ah, I mean, uh, s-sorry…"
+# hi "I see.{w} Ah, I mean, uh, s-sorry…"
+hi "อืม เห็นภาพตามเลย{w} อ๊ะ หมายถึง เอ่อ ท-โทษที…"
 
 show tearoom_hisao oops
 with charachange
 
-"I feel like slapping myself for the faux-pas. Looking at her face, though, she doesn't seem in the least bit put off by it."
-
+# "I feel like slapping myself for the faux-pas. Looking at her face, though, she doesn't seem in the least bit put off by it."
+"อยากตบหน้าตัวเองที่หลุดปากไปแบบนั้น แต่พอดูสีหน้าแล้วเธอก็ดูจะไม่ได้คิดมากอะไรเลยแม้แต่น้อย"
 show tearoom_lilly ara
 with charachange
 
-li "My my, there's no need to change your speech on my account."
+# li "My my, there's no need to change your speech on my account."
+li "แหม แหม ไม่ต้องเปลี่ยนวิธีการพูดเพื่อฉันหรอกจ๊ะ"
 
 show tearoom_hisao unsure
 with charachange
 
-hi "Ah, sure. Sorry, I guess I'm really showing my newness here."
+# hi "Ah, sure. Sorry, I guess I'm really showing my newness here."
+hi "อ๊ะ, อื้ม ขอโทษทีนะ คงดูออกเลยสิเนี่ยว่ามาใหม่"
 
 show tearoom_lilly weaksmile
 with charachange
