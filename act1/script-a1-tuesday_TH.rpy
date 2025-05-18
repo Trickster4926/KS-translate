@@ -1997,7 +1997,6 @@ yu "อืมมม ก็ พวกเราได้หนังสือใ�
 
 show yuuko neurotic_up_ss
 with charachange
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # yu "They spend more on new books than on my salary, and then I have to organize and shelve all of them."
 yu "พวกเขาจัดงบไปสั่งหนังสือใหม่เยอะกว่างบเงินเดือนของฉันอีก แล้วฉันก็ต้องมานั่งจัดหนังสือพวกนั้นอีก"
@@ -2036,79 +2035,105 @@ label th_A8:
 scene bg school_library_ss
 with shorttimeskip
 
-"My first impression was right; the library is surprisingly big."
+# "My first impression was right; the library is surprisingly big."
+"ก็อย่างที่ประทับใจในตอนแรก ห้องสมุดของที่นี่ใหญ่จริง ๆ"
 
-"Ambling down the narrow aisles, I study the spines of the books in random order, occasionally sliding one out to read the blurb, taking it with me if it looks good."
+# "Ambling down the narrow aisles, I study the spines of the books in random order, occasionally sliding one out to read the blurb, taking it with me if it looks good."
+"พอเดินไปตามทางเดินแคบ ๆ ฉันไล่เดินดูหนังสือไปแบบสุ่ม ๆ มีหยิบบางเล่มมาอ่านคำนำ\nและหยิบเล่มนั้นมาด้วยถ้าน่าอ่านพอ"
 
-"In a few moments I have a respectable stack of books in my arms."
+# "In a few moments I have a respectable stack of books in my arms."
+"ผ่านไปซักพัก จำนวนหนังสือที่หยิบมาก็เริ่มกองเต็มแขน"
 
-"I guess I'll never be stuck for choice in here."
+# "I guess I'll never be stuck for choice in here."
+"ดูแล้วคงไม่ต้องคิดมากเรื่องจะอ่านอะไรดี"
 
-"The normality of the library sinks in. Sure, there are large-print and Braille books scattered throughout, but it is what it is: a library."
+# "The normality of the library sinks in. Sure, there are large-print and Braille books scattered throughout, but it is what it is: a library."
+"ฉันเริ่มสังเกตเห็นถึงความเป็นห้องสมุดทั่ว ๆ ไป จริงอยู่ว่ามีหนังสือที่ทำตัวหนังสือใหญ่หรือหนังสืออักษรเบรลล์แซมอยู่\nแต่ยังไงที่นี่ก็คือห้องสมุด"
 
-"It's as if the calm mood from the room I had tea with Lilly in snuck with us in here, unless it was here to begin with."
+# "It's as if the calm mood from the room I had tea with Lilly in snuck with us in here, unless it was here to begin with."
+"ราวกับว่าบรรยากาศความสงบจากห้องที่ดื่มชาอยู่กับลิลลี่ถูกตามติดมายังที่นี่ด้วย หรือไม่ก็เป็นบรรยากาศที่มีอยู่ที่นี่อยู่แล้ว"
 
-"Something about that puts me at ease, just like before."
+# "Something about that puts me at ease, just like before."
+"พอได้อยู่แล้วก็รู้สึกสบายใจได้อย่างประหลาด คล้ายกับที่ห้องก่อนหน้านี้"
 
-"I reach the end of the aisle and find a collection of desks, set up for study or personal reading. Going a little further, though, I discover a nice quiet corner at the back."
+# "I reach the end of the aisle and find a collection of desks, set up for study or personal reading. Going a little further, though, I discover a nice quiet corner at the back."
+"เมื่อเดินมาสุดทาง ก็เห็นโต๊ะเอาไว้นั่งเรียนกับเอาไว้อ่านหนังสือ พอเดินต่อไปอีกนิดหน่อยก็เจอมุมเงียบ ๆ ที่เหมาะอยู่ทางด้านหลัง"
 
-"While the rest of the library has the odd student sitting at a desk either reading or stealthily sleeping, the back is pretty much deserted."
+# "While the rest of the library has the odd student sitting at a desk either reading or stealthily sleeping, the back is pretty much deserted."
+"ในขณะที่นักเรียนส่วนใหญ่เลือกที่จะนั่งบนโต๊ะเพื่ออ่านหนังสือไม่ก็แอบงีบ ทางด้านหลังก็ค่อนข้างจะไร้ผู้คน"
 
-"As I glance around, I see someone who I recognize sitting on one of several beanbags."
+# "As I glance around, I see someone who I recognize sitting on one of several beanbags."
+"พอมองไปรอบ ๆ ก็เห็นคนนึงที่ฉันคุ้น ๆ นั่งอยู่บนบีนแบ็กอันนึงจากกองหลาย ๆ อัน"
 
 show ev hana_library_read
 with locationchange
 
 play music music_another fadein 4.0
 
-"It's the dark-haired girl from my class. The one who snuck out of the classroom earlier."
+# "It's the dark-haired girl from my class. The one who snuck out of the classroom earlier."
+"เธอคือสาวผมเข้มจากห้องเรียนของฉัน คนที่แอบย่องออกไปจากห้องเรียนเมื่อก่อนหน้านี้"
 
-"She's reading a book, keeping it close to her face which makes her look like she's really into it."
+# "She's reading a book, keeping it close to her face which makes her look like she's really into it."
+"เธอกำลังอ่านหนังสืออยู่ โดยที่เอาหนังสือใกล้หน้าเธอจนเห็นได้ว่าเธอสนใจมันมาก ๆ"
 
-"From the way she was acting today, I had her pegged as more of a delinquent than a bookworm. In fact, her mysterious disappearance from the class raises all sorts of whys in my head."
+# "From the way she was acting today, I had her pegged as more of a delinquent than a bookworm. In fact, her mysterious disappearance from the class raises all sorts of whys in my head."
+"ดูจากการที่เธอแสดงออกในวันนี้ ฉันคิดว่าเธอจะเป็นพวกเกเรมากกว่าพวกหนอนหนังสือเสียอีก\nเอาจริง ๆ การที่เธอหายไปตอนคาบเรียนก็พานให้เกิดคำถามขึ้นในหัวฉันมากเลยล่ะ"
 
-"Intrigue floats slowly but surely towards the surface, and before I know it I'm walking towards the mysterious long-haired girl."
+# "Intrigue floats slowly but surely towards the surface, and before I know it I'm walking towards the mysterious long-haired girl."
+"ความคิดค่อย ๆ ก่อตัวขึ้นมาเรื่อย ๆ และกว่าจะรู้ตัวฉันก็กำลังเดินไปหาหญิงสาวผมยาวลึกลับคนนั้นแล้ว"
 
-"I guess there's no harm in introducing myself as I would with anyone else. She's a classmate after all."
+# "I guess there's no harm in introducing myself as I would with anyone else. She's a classmate after all."
+"คงไม่เกิดอะไรแย่ ๆ หรอกถ้าฉันจะแนะนำตัวเหมือนกับที่ทำกับคนอื่น ๆ ยังไงเธอก็เป็นเพื่อนร่วมห้องของเรา"
 
-"Walking over to another beanbag, I take a seat and lay my books beside it."
+# "Walking over to another beanbag, I take a seat and lay my books beside it."
+"ฉันเดินไปนั่งลงตรงบีนแบ็กใกล้ ๆ แล้ววางหนังสือข้าง ๆ"
 
 show ev hana_library_gasp
 with vpunch
 
-"The girl starts, looking scaredly up at me from underneath her fringe."
+# "The girl starts, looking scaredly up at me from underneath her fringe."
+"เธอตกใจแล้วมองผ่านผมหน้าม้าที่ปรกหน้าเธอออยู่อย่างกลัว ๆ "
 
-"This is the first time I've seen her this close. Underneath her long, dense bangs, I can see that part of her face, at least a third if not a half, is pretty badly scarred."
+# "This is the first time I've seen her this close. Underneath her long, dense bangs, I can see that part of her face, at least a third if not a half, is pretty badly scarred."
+"เป็นครั้งแรกเลยที่ได้เห็นเธอใกล้ขนาดนี้ ภายใต้ผมหน้าม้าหนายาวของเธอ ฉันเห็นหน้าบางส่วนของเธอ\nอย่างน้อยประมาณครึ่ง ๆ ไม่ก็ 1 ใน 3 เป็นแผลเป็นอย่างหนัก" 
 
-"My eyes are immediately drawn to the scars, subconsciously peeking past her hair until they meet her own eyes."
+# "My eyes are immediately drawn to the scars, subconsciously peeking past her hair until they meet her own eyes."
+"สายตาของฉันจับจ้องไปที่รอยแผลเป็นนั้น แอบมองทะลุผมของเธอโดยไม่รู้ตัวจนไปจ้องเข้าที่ตาของเธอ"
 
-"For a second, I am shocked, and divert my eyes to the book in her hands, before I realize that looking away probably only makes it worse."
+# "For a second, I am shocked, and divert my eyes to the book in her hands, before I realize that looking away probably only makes it worse."
+"ในวินาทีนั้น ฉันตกใจและรีบหลบสายตามายังหนังสือในมือของเธอ ก่อนที่จะนึกขึ้นได้ว่ายิ่งทำยิ่งแย่กว่าเดิม"
 
 label th_choiceA8:
 menu:
     with menueffect
-    "It takes too many seconds to collect myself and remember what I walked up to her for."
+    # "It takes too many seconds to collect myself and remember what I walked up to her for."
+    "ฉันใช้เวลาซักพักเพื่อตั้งสติและนึกขึ้นได้ว่าเดินมาหาเธอเพื่ออะไร"
 
-    "Hi! I'm new here. Hisao Nakai. We're in the same class.":
+    # "Hi! I'm new here. Hisao Nakai. We're in the same class.":
+    "สวัสดี! ฉันเพิ่งเข้ามาใหม่ ชื่อ ฮิซาโอะ นากาอิ เราอยู่ห้องเดียวกันน่ะ":
         return m1
 
-    "I'm sorry, I didn't mean to startle you.":
+    # "I'm sorry, I didn't mean to startle you.":
+    "ขอโทษที ไม่ได้ตั้งใจจะทำให้เธอตกใจน่ะ":
         return m2
 
 label th_A8a:
 
-hi "Hi! I'm new here. Hisao Nakai. We're in the same class."
+# hi "Hi! I'm new here. Hisao Nakai. We're in the same class."
+hi "สวัสดี! ฉันเพิ่งเข้ามาใหม่ ชื่อ ฮิซาโอะ นากาอิ เราอยู่ห้องเดียวกันน่ะ"
 
 "…"
 
-hi "Umm… I just transferred here the other day. Maybe you don't remember?"
+# hi "Umm… I just transferred here the other day. Maybe you don't remember?"
+hi "เอ่อ… พอดีฉันเพิ่งย้ายเข้ามาที่นี่เมื่อวานน่ะ เธอน่าจะจำฉันไม่ได้"
 
 "…"
 
 
 label th_A8aa:
 
-hi "I did a self-introduction too."
+# hi "I did a self-introduction too."
+hi "ฉันแนะนำตัวหน้าห้องด้วยนะ"
 
 "…"
 
@@ -2118,57 +2143,79 @@ label th_A8ab:
 scene ev hana_library
 with locationchange
 
-"The girl still doesn't say a word, but simply stares at me, wide-eyed."
+# "The girl still doesn't say a word, but simply stares at me, wide-eyed."
+"หญิงสาวคนนั้นยังคงไม่พูดอะไร แค่มองมาที่ฉันด้วยตาโต"
 
-hi "I'm still getting used to the place so I'm trying to meet as many people as I can."
+# hi "I'm still getting used to the place so I'm trying to meet as many people as I can."
+hi "พอดีฉันพยายามที่จะทำตัวให้ชินกับที่นี่น่ะ เลยทักทายคนให้มากที่สุดเท่าที่ทำได้น่ะ"
 
-hi "So, er… what's your name?"
+# hi "So, er… what's your name?"
+hi "ก็ เอ่อ… ว่าแต่เธอชื่ออะไรเหรอ?"
 
-ha_ "H… Hanako…"
+# ha_ "H… Hanako…"
+ha_ "ฮ… ฮานาโกะ…"
 
-"Her speech is stuttering and so quiet that it is barely audible even in the still library."
+# "Her speech is stuttering and so quiet that it is barely audible even in the still library."
+"เสียงพูดของเธอตะกุกตะกักและเบามากจนแทบจะไม่ได้ยินแม้จะอยู่ในห้องสมุดก็ตาม"
 
-"Somehow I think that my “delinquent” impression of her was wrong."
+# "Somehow I think that my “delinquent” impression of her was wrong."
+"ฉันคิดว่าภาพในหัวของฉันที่คิดว่าเธอ “เกเร” น่าจะผิด"
 
-hi "Hanako, eh? So what are you reading?"
+# hi "Hanako, eh? So what are you reading?"
+hi "ฮานาโกะ เอ… แล้วเธออ่านอะไรอยู่เหรอ?"
 
 scene bg school_library_ss
 show hanako emb_downtimid_ss at center
 with locationskip
 
-"She gently tips the book backwards so that I can read the title, at the same time hiding her face behind it."
+# "She gently tips the book backwards so that I can read the title, at the same time hiding her face behind it."
+"เธอค่อย ๆ เอียงหนังสือขึ้นมาเพื่อให้ฉันอ่านหน้าปกได้ ในขณะเดียวกันก็ซ่อนใบหน้าของเธอไว้หลังหนังสือ"
 
-"She must have noticed me staring before."
+# "She must have noticed me staring before."
+"แสดงว่าเธอน่าจะเห็นที่ฉันจ้องเมื่อกี้"
 
-hi "“Life of Pi”? I've never heard of it before. What's it about?"
+# hi "“Life of Pi”? I've never heard of it before. What's it about?"
+hi "“ชีวิตอัศจรรย์ของพาย”? ไม่เคยได้ยินมาก่อนเลย เรื่องแนวไหนน่ะ?"
 
-ha "A boy… and a tiger…"
+# ha "A boy… and a tiger…"
+ha "เด็กชาย… กับ เสือ…"
 
-ha "…on a boat…"
+# ha "…on a boat…"
+ha "…อยู่บนเรือ…"
 
-"I can see this taking some time."
+# "I can see this taking some time."
+"แบบนี้น่าจะอีกยาว"
 
-hi "Sounds interesting. Is it any good?"
+# hi "Sounds interesting. Is it any good?"
+hi "ฟังดูน่าสนใจดีนะ"
 
-"She nods from behind the book, but stays silent."
+# "She nods from behind the book, but stays silent."
+"เธอพยักหน้าจากหลังหนังสือเล่มนั้น แต่ไม่พูดอะไร"
 
-"She looks kinda tense. A bit like Yuuko earlier, but in a different way. More like… petrified with terror, I'd say."
+# "She looks kinda tense. A bit like Yuuko earlier, but in a different way. More like… petrified with terror, I'd say."
+"เธอดูเกร็ง ๆ นิดหน่อย คล้าย ๆ กับยูโกะก่อนหน้านี้ แต่เป็นคนละแบบ\nประมาณว่า… ถ้ากลัวก็คงจะตัวแข็งเป็นหินไปเลย คงประมาณนั้น"
 
 show hanako emb_downtimid_ss at centertremble
 with charachange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-"So the mystery delinquent girl turned out to be anything but, and she is quivering in a way that makes it look like she is mortally afraid of me."
+# "So the mystery delinquent girl turned out to be anything but, and she is quivering in a way that makes it look like she is mortally afraid of me."
+"กลายเป็นว่าหญิงสาวที่ดูว่าเกเรจริง ๆ แล้วไม่ใช่คนแบบนั้นเลย\nมิหนำซ้ำตอนนี้เธอกลับตัวสั่นจนเห็นได้ชัดว่าตอนนี้เธอกลัวฉันอยู่"
 
-"The only way out of this, as far as I can tell, is to try to get a normal conversation going."
+# "The only way out of this, as far as I can tell, is to try to get a normal conversation going."
+"ทางเดียวที่จะออกจากสถานการณ์ตอนนี้ได้ เท่าที่นึกออกก็คือพยายามคุยให้เหมือนคนปกติ"
 
-hi "Is it a library book? I'm looking for new ones to read, but there's just so many…"
+# hi "Is it a library book? I'm looking for new ones to read, but there's just so many…"
+hi "เล่มนี้เป็นของห้องสมุดหรือเปล่า? ว่าจะหามาอ่านด้วยหน่อยน่ะ แต่ที่นี่หนังสือเยอะจัด…"
 
 show hanako emb_sad_ss
 with charachange
 
-ha "N-no. It's mine."
+# ha "N-no. It's mine."
+ha "ม-ไม่ เล่มนี้เป็นของฉัน"
 
-hi "Oh. So… do you come here often?"
+# hi "Oh. So… do you come here often?"
+hi "โอ้ แล้ว… เธอคงมาที่นี่บ่อยสินะ?"
 
 stop music fadeout 5.0
 
@@ -2177,11 +2224,14 @@ stop music fadeout 5.0
 show hanako emb_blushtimid_ss
 with charachange
 
-"A huge, huge blush spreads on Hanako's face and her eyes widen far larger than I thought it was possible for eyes to do."
+# "A huge, huge blush spreads on Hanako's face and her eyes widen far larger than I thought it was possible for eyes to do."
+"ใบหน้าของฮานาโกะเริ่มแดงก่ำ และดวงตาของเธอก็เบิกกว้างมากกว่าที่ฉันคิดว่าตาเธอจะทำได้"
 
-"Uh-oh. Did she interpret my lame attempt at small talk as a feeble attempt to pick her up?"
+# "Uh-oh. Did she interpret my lame attempt at small talk as a feeble attempt to pick her up?"
+"โอ๊ะโอ หรือเธอกำลังคิดว่าที่ฉันพยายามมาคุยด้วยนี่ว่าเป็นการเต๊าะเธออย่างงั้นเหรอ"
 
-hi "I mean… ehh… I didn't mean it like that…"
+# hi "I mean… ehh… I didn't mean it like that…"
+hi "คือ… เอ่อ… ไม่ได้หมายความว่าอย่างนั้น…"
 
 label th_A8b:
 
