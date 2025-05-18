@@ -1356,10 +1356,10 @@ window show
 "…"
 
 # "This is… not as I was expecting."
-"ไม่เป็นอย่างที่คิดแฮะ"
+"นี่…ไม่ใช่ภาพที่คิดว่าจะได้เจอ"
 
 # "I mindlessly let the door open to its full extent, taking in the sight of the solitary figure taking center stage in the otherwise abandoned room."
-"ฉันปล่อยให้ประตูเปิดจนสุดโดยไม่ได้สนใจ สายตามองไปเห็นร่างที่ยืนโดดเดี่ยวอยู่กลางห้อง"
+"ฉันปล่อยให้ประตูเปิดจนสุดโดยไม่ได้สนใจมัน สายตามองไปเห็นร่างที่โดดเดี่ยวอยู่กลางห้อง"
 
 # "The situation steals my voice, leaving me standing at the doorway staring at the beautiful girl."
 "สถานการณ์ในตอนนี้ทำให้ฉันพูดไม่ออก ทำได้แค่ยืนที่หน้าประตูโดยจ้องมองไปยังสาวสวยผู้นั้น"
@@ -1371,7 +1371,7 @@ scene ev lilly_tearoom_open
 with charachange
 
 # li_ "Hello there. May I help you?"
-li_ "สวัสดีจ๊ะ มีอะไรให้ช่วยไหม?"
+li_ "สวัสดีจ้ะ มีอะไรให้ช่วยไหม?"
 
 # "Staring directly in front of herself, the movements of her lips seem to break the silence rather than the words."
 "ดวงตาเธอมองตรงไปข้างหน้า\nและราวกับว่าไม่ใช่คำพูดหากแต่ความเคลื่อนไหวจากริมฝีปากเธอเป็นสิ่งทำลายความเงียบแทน"
@@ -1409,7 +1409,7 @@ hi "อ่า… ขอบคุณนะ"
 "พอมาคิด ๆ ดูแล้ว น้ำเสียงของเธอก็ไม่ได้มีสำเนียงต่างชาติปนมาเลย เดาว่าเธอน่าจะเป็นลูกครึ่งญี่ปุ่นแหละ"
 
 # "As I take my seat, her composure takes me slightly off-guard. Her air of relaxed confidence makes the silence entirely comfortable."
-"เมื่อฉันนั่งลงแล้ว ท่าทีของเธอทำเอาฉันไม่ทันตั้งตัว บรรยากาศของเธอที่ดูมั่นคงทว่าผ่อนคลายอยู่ในทีทำให้ความเงียบนี้ไม่อึดอัดเลยแม้แต่น้อย"
+"เมื่อฉันนั่งลงแล้ว ท่าทีของเธอทำเอาฉันไม่ทันตั้งตัว บรรยากาศของเธอที่ดูมั่นคงทว่าผ่อนคลาย\nอยู่ในที่ทำให้ความเงียบนี้ไม่อึดอัดเลยแม้แต่น้อย"
 
 scene ev lilly_tearoom
 with charachange
@@ -1433,7 +1433,7 @@ scene ev lilly_tearoom_open
 with charachange
 
 # li_ "I'm Lilly Satou. Pleased to meet you…"
-li_ "ฉันชื่อลิลลี่ ซาโต้ ยินดีที่ได้รู้จักจ๊ะ…"
+li_ "ฉันชื่อลิลลี่ ซาโต้ ยินดีที่ได้รู้จักจ้ะ…"
 
 # hi "Hisao. Hisao Nakai."
 hi "ฮิซาโอะ ฮิซาโอะ นากาอิ"
@@ -1532,7 +1532,7 @@ with charachange
 "เธอยิ้มและโบกไม้โบกมือเชิงปฏิเสธ"
 
 # li "Lilly, please. There's no need to be too formal."
-li "เรียกลิลลี่เถอะจ๊ะ ไม่ต้องสุภาพขนาดนั้นก็ได้"
+li "เรียกลิลลี่เถอะจ้ะ ไม่ต้องสุภาพขนาดนั้นก็ได้"
 
 # "She says this in spite of her exceedingly well-bred speech. Oh well."
 "เธอบอกแบบนั้นทั้ง ๆ ที่เธอสุภาพมาก ๆ แต่เอาเถอะ"
@@ -1548,10 +1548,9 @@ hi "แล้ว เธอมาจากห้องไหนล่ะ เด�
 
 show tearoom_lilly smileclosed
 with charachange
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # li "Correct, I'm in class 3-2; which is on the third floor, same as yours. It's taught by Miyagi, and is specifically for both blind and partially blind students."
-li "ถูกจ๊ะ ฉันมาจากห้อง 3-2 ซึ่งอยู่ชั้น 3 ชั้นเดียวกับเธอ ครูที่สอนคือครูมิยางิ\nเป็นห้องสำหรับคนมีปัญหาทางสายตาโดยเฉพาะน่ะจ๊ะ"
+li "ถูกจ้ะ ฉันมาจากห้อง 3-2 ซึ่งอยู่ชั้น 3 ชั้นเดียวกับเธอ ครูที่สอนคือครูมิยางิ\nเป็นห้องสำหรับคนมีปัญหาทางสายตาโดยเฉพาะน่ะจ้ะ"
 
 # hi "I see.{w} Ah, I mean, uh, s-sorry…"
 hi "อืม เห็นภาพตามเลย{w} อ๊ะ หมายถึง เอ่อ ท-โทษที…"
@@ -1565,73 +1564,91 @@ show tearoom_lilly ara
 with charachange
 
 # li "My my, there's no need to change your speech on my account."
-li "แหม แหม ไม่ต้องเปลี่ยนวิธีการพูดเพื่อฉันหรอกจ๊ะ"
+li "แหม แหม ไม่ต้องเปลี่ยนวิธีการพูดเพื่อฉันหรอกจ้ะ"
 
 show tearoom_hisao unsure
 with charachange
 
 # hi "Ah, sure. Sorry, I guess I'm really showing my newness here."
-hi "อ๊ะ, อื้ม ขอโทษทีนะ คงดูออกเลยสิเนี่ยว่ามาใหม่"
+hi "อ๊ะ อื้ม ขอโทษทีนะ คงดูออกเลยสิเนี่ยว่ามาใหม่"
 
 show tearoom_lilly weaksmile
 with charachange
 
-li "An environment like this would be a big change, so I can't fault you for it. While the same can't be said for everyone, many have come to terms with their conditions."
+# li "An environment like this would be a big change, so I can't fault you for it. While the same can't be said for everyone, many have come to terms with their conditions."
+li "เธอที่ต้องย้ายมาอยู่ที่แบบนี้คงต้องปรับตัวอีกเยอะเลยล่ะ เพราะงั้นคงว่าอะไรเธอไม่ได้หรอก\nถึงจะไม่ใช่ทุกคน แต่ส่วนใหญ่ก็ยอมรับกับความพิการที่เป็นได้แล้วล่ะ"
 
-"A category which would include her, it seems. All too ready to jump ship from this particular topic, I segue into another."
+# "A category which would include her, it seems. All too ready to jump ship from this particular topic, I segue into another."
+"คนส่วนใหญ่ที่ว่าก็คงรวมเธอด้วยนั่นแหละ เอาล่ะตอนนี้คงได้เวลาเหมาะที่จะเปลี่ยนเรื่องคุยแล้ว"
 
 show tearoom_hisao smile
 with charachange
 
-hi "Do you come here to drink tea often? It's a really nice place."
+# hi "Do you come here to drink tea often? It's a really nice place."
+hi "เธอมาที่นี่เพื่อดื่มชาบ่อย ๆ ใช่ไหม ที่นี่ดีมากเลยล่ะ"
 
-"Thinking on it, this might be her version of the place behind my school that I liked to have lunch at."
+# "Thinking on it, this might be her version of the place behind my school that I liked to have lunch at."
+"สำหรับเธอ ที่นี่ก็คงเป็นที่ที่ดีของเธอ เหมือน ๆ กับหลังตึกเรียนโรงเรียนเก่าที่ฉันชอบไปกินข้าวเที่ยงล่ะมั้ง"
 
 show tearoom_lilly smileclosed
 show tearoom_hisao think
 with charachange
 
-li "I come here fairly often during lunch times. My duties as class representative don't leave enough time for an “official” club, so a friend and I use this room for having tea."
+# li "I come here fairly often during lunch times. My duties as class representative don't leave enough time for an “official” club, so a friend and I use this room for having tea."
+li "ปกติฉันมาที่นี่บ่อย ๆ ช่วงพักเที่ยงน่ะ พอดีด้วยหน้าที่ของหัวหน้าห้องทำให้ฉันเองไม่ค่อยมีเวลาพอที่จะตั้งชมรม\nแบบ“เป็นทางการ” ฉันกับเพื่อนก็เลยใช้ห้องนี้เอาไว้เพื่อดื่มชากันจ้ะ"
 
-"Class representative, huh?"
+# "Class representative, huh?"
+"หัวหน้าห้องหรอ หืม"
 
-"Compared to Shizune, her mannerisms seem to be almost completely opposite. While Shizune's blunt and fiercely driven, Lilly seems relaxed and calm, almost aloof."
+# "Compared to Shizune, her mannerisms seem to be almost completely opposite. While Shizune's blunt and fiercely driven, Lilly seems relaxed and calm, almost aloof."
+"เมื่อเทียบกับชิซูเนะแล้ว อุปนิสัยแทบคนละขั้วเลย ชิซูเนะดูจะเป็นคนมุ่งมั่น ทะเยอทะยาน\nแต่ลิลลี่ดูจะเป็นคนสบาย ๆ ใจเย็น เกือบค่อนไปทางห่างเหิน"
 
-"Come to think of it, she might be useful for a less biased view of the school's clubs."
+# "Come to think of it, she might be useful for a less biased view of the school's clubs."
+"พอนึก ๆ ดูแล้ว เธอน่าจะแนะนำชมรมของที่นี่ได้อย่างไม่ลำเอียงล่ะนะ"
 
-hi "What kinds of clubs are there to join?"
+# hi "What kinds of clubs are there to join?"
+hi "ที่นี่พอมีชมรมไหนที่น่าเข้าบ้างเหรอ?"
 
 show tearoom_lilly thinking
 with charachange
 
-li "Hmm… the more popular ones are the track and field club, which uses the field near the school during lunchtimes, the baseball club, and the book club in a room near the library."
+# li "Hmm… the more popular ones are the track and field club, which uses the field near the school during lunchtimes, the baseball club, and the book club in a room near the library."
+li "อืม… ก็ที่ดัง ๆ เลยก็พวกชมรมกรีฑา พวกที่ใช้สนามช่วงพักเที่ยงนั่นแหละ\nแล้วก็มีชมรมเบสบอล กับชมรมหนังสือที่ตั้งอยู่ใกล้ ๆ ห้องสมุดจ้ะ"
 
-li "There are also numerous small ones too, though, such as the art and music clubs."
+# li "There are also numerous small ones too, though, such as the art and music clubs."
+li "แล้วก็พวกชมรมเล็ก ๆ อีกเยอะเลย อย่างชมรมศิลปะ กับชมรมดนตรี"
 
-"At a time when I'm just wanting to get on my feet, rushing into a club right away seems slightly unappealing."
+# "At a time when I'm just wanting to get on my feet, rushing into a club right away seems slightly unappealing."
+"การที่จะรีบเข้าชมรมทันทีตอนที่ยังอยากจะตั้งหลักกับพื้นที่ก่อนดูเป็นความคิดที่ไม่เข้าท่านัก"
 
-"I wonder if this school shares the same rule as my old one…"
+# "I wonder if this school shares the same rule as my old one…"
+"ฉันอยากรู้ว่าที่นี่ใช้กฎเดียวกับที่โรงเรียนเก่าหรือเปล่า"
 
-hi "Is it compulsory to join a club?"
+# hi "Is it compulsory to join a club?"
+hi "ที่นี่บังคับว่าต้องเข้าชมรมไหม?"
 
 show tearoom_lilly smileclosed
 with charachange
 
-li "It isn't, though it is encouraged."
+# li "It isn't, though it is encouraged."
+li "ไม่จ้ะ แต่ถึงอย่างนั้นก็แนะนำให้เข้านะ"
 
 show tearoom_hisao sigh
 with charachange
 
-hi "Ah, good. That's a relief."
+# hi "Ah, good. That's a relief."
+hi "โอ้ ดีเลย โล่งไปที"
 
 stop music fadeout 4.0
 
 show tearoom_lilly giggle
 with charachange
 
-"I've really let down my guard around this girl to let such a thing slip out. The fact seems to slightly amuse her."
+# "I've really let down my guard around this girl to let such a thing slip out. The fact seems to slightly amuse her."
+"ฉันเผลอตัวหลุดทำท่าทีแบบนี้ไปหน่อย ซึ่งดูเหมือนจะทำให้เธอขำนิดหน่อย"
 
-"Not wanting my tea to get cold, I finally start drinking it as Lilly does the same."
+# "Not wanting my tea to get cold, I finally start drinking it as Lilly does the same."
+"ด้วยความที่ไม่อยากปล่อยให้ชาเย็นชืด ฉันเลยเริ่มยกมันขึ้นมาดื่มพร้อม ๆ กับลิลลี่"
 
 scene bg tearoom_lillyhisao_sunset
 show tearoom_hisao outside
@@ -1640,126 +1657,162 @@ with shorttimeskip
 
 play music music_tranquil fadein 3.0
 
-"As I look over to the window over her shoulder, I notice the light coming into the room has a distinctly orange tint."
+# "As I look over to the window over her shoulder, I notice the light coming into the room has a distinctly orange tint."
+"พอมองหน้าต่างผ่านทางเหนือไหล่เธอ ก็ได้เห็นแสงแดดเริ่มย้อมเป็นสีส้มเข้ามาในห้อง"
 
-"Even here, time doesn't stand still."
+# "Even here, time doesn't stand still."
+"แม้แต่ที่นี่ เวลาก็ไม่ได้รอใคร"
 
-hi "Huh, the time's gone quickly."
+# hi "Huh, the time's gone quickly."
+hi "หืม เวลาผ่านไปไวจัง"
 
 show tearoom_lilly thinking
 with charachange
 
-li "Sorry?"
+# li "Sorry?"
+li "ยังไงนะ?"
 
-"Right. She's blind. Of course she can't see the sun setting."
+# "Right. She's blind. Of course she can't see the sun setting."
+"เอ้อ เธอตาบอดนี่หน่า แน่นอนว่าเธอไม่เห็นว่าพระอาทิตย์กำลังตก"
 
 show tearoom_hisao smile
 with charachange
 
-hi "It just looks like the sun's starting to set."
+# hi "It just looks like the sun's starting to set."
+hi "เหมือนว่าพระอาทิตย์กำลังตกแล้วล่ะ"
 
-"It seems to come as a surprise for her. I guess she must have lost track of the time."
+# "It seems to come as a surprise for her. I guess she must have lost track of the time."
+"ดูท่าทีเธอตกใจไม่น้อย เดาว่าเธอเองก็เพลินจนลืมเวลาแน่ ๆ"
 
 show tearoom_lilly weaksmile
 with charachange
 
-li "Sorry, Hisao. I didn't mean to keep you from the library for so long."
+# li "Sorry, Hisao. I didn't mean to keep you from the library for so long."
+li "ขอโทษที่รั้งไว้เสียนานเลยนะจ๊ะฮิซาโอะ เห็นบอกจะไปห้องสมุดใช่มั้ย"
 
-"I quickly move to allay her concern."
+# "I quickly move to allay her concern."
+"ฉันรีบตอบเพื่อไม่ให้เธอกังวล"
 
 show tearoom_hisao calm
 with charachange
 
-hi "Ah, no, it's okay. The library's still open, isn't it?"
+# hi "Ah, no, it's okay. The library's still open, isn't it?"
+hi "อ๋อ ไม่เป็นไรหรอก ห้องสมุดยังเปิดอยู่ใช่ไหมล่ะ?"
 
-"She pauses, and takes a moment to think on it."
+# "She pauses, and takes a moment to think on it."
+"เธอนิ่งไป ใช้เวลาเพื่อคิดสักพัก"
 
-"It's probably something I should've asked Shizune when I had the chance, but Lilly seems likely to know in any case."
+# "It's probably something I should've asked Shizune when I had the chance, but Lilly seems likely to know in any case."
+"จริง ๆ ก็เป็นอะไรที่น่าจะถามตอนอยู่กับชิซูเนะอะนะ แต่ดูเหมือนว่าลิลลี่เองก็น่าจะรู้เหมือนกัน"
 
 show tearoom_lilly thinking
 with Dissolve(0.25)
 show tearoom_lilly smileclosed
 with Dissolve(0.25)
 
-li "True. It's open until six-thirty during weekdays."
+# li "True. It's open until six-thirty during weekdays."
+li "ใช่ยังเปิดอยู่ เปิดถึง 6 โมงครึ่งตอนวันธรรมดาน่ะ" 
 
-"A quick glance at my watch confirms I have well enough time to get there."
+# "A quick glance at my watch confirms I have well enough time to get there."
+"ฉันเหลือบมองนาฬิกาข้อมือก็เห็นว่ายังไปทันอยู่"
 
 show tearoom_hisao smile
 with charachange
 
-hi "Hmm, I might get going in that case. It's been nice talking with you, Lilly."
+# hi "Hmm, I might get going in that case. It's been nice talking with you, Lilly."
+hi "อืม… ถ้างั้นก็คงไปทันอยู่แหละ ยินดีที่ได้คุยด้วยนะ ลิลลี่"
 
 show tearoom_lilly smileclosed
 with charachange
 
-"She smiles and gives a deep nod, her hands still neatly folded on the table in front of her."
+# "She smiles and gives a deep nod, her hands still neatly folded on the table in front of her."
+"เธอยิ้มและพยักหน้าให้ มือของเธอยังคงวางประกบอย่างเรียบร้อยบนโต๊ะตรงหน้าเธอ"
 
-li "It was my pleasure."
+# li "It was my pleasure."
+li "เช่นกันจ้ะ"
 
 show tearoom_lilly thinking
 with charachange
 
-li "Oh, come to think of it… shall I show you to where the library is?"
+# li "Oh, come to think of it… shall I show you to where the library is?"
+li "โอ๊ะ นึกขึ้นมาได้… ให้ฉันนำทางไปห้องสมุดให้ไหมจ๊ะ?"
 
-hi "I couldn't possibly ask for more help. I should be able to find it all right."
+# hi "I couldn't possibly ask for more help. I should be able to find it all right."
+hi "ไม่เป็นไรหรอกเกรงใจ แค่นี้ก็พอแล้วล่ะ คิดว่าคงหาเจอแหละ"
 
-"Well, unless my navigational skills fail me.{w} Which they seem to have a habit of doing."
+# "Well, unless my navigational skills fail me.{w} Which they seem to have a habit of doing."
+"เว้นแต่ว่าทักษะการหาทางของฉันจะล้มเหลวอะนะ{w} ซึ่งก็ดูท่าว่าจะเป็นแบบนั้นบ่อยด้วย"
 
 show tearoom_lilly smileclosed
 with charachange
 
-li "It's all right, I was going to be talking to the librarian there in any case. I could introduce you."
+# li "It's all right, I was going to be talking to the librarian there in any case. I could introduce you."
+li "ไม่เป็นไรหรอกจ้ะ ยังไงฉันก็ว่าจะไปคุยกับบรรณารักษ์อยู่แล้ว ให้ฉันพาไปเถอะ"
 
-"This gets better and better. It's pretty hard to deny her offer."
+# "This gets better and better. It's pretty hard to deny her offer."
+"ตอนนี้โอกาสยิ้งดูเหมาะเหม็งขึ้นเรื่อย ๆ คงยากที่จะปฏิเสธเธอแล้วล่ะ"
 
-hi "If you're sure, then that'd be great. Thanks."
+# hi "If you're sure, then that'd be great. Thanks."
+hi "ถ้าเธอว่าอย่างนั้นก็ตามนั้น ขอบใจนะ"
 
 scene bg school_miyagi_ss
 show lilly cane_smile_ss at center
 with fade
 
-"As she stands up to follow me, she takes hold of a straight, retractable cane that had been slipped in the handle of her bag on the floor."
+# "As she stands up to follow me, she takes hold of a straight, retractable cane that had been slipped in the handle of her bag on the floor."
+"ขณะที่เธอกำลังจะลุกตามฉัน เธอก็เอื้อมหยิบไม้เท้าที่ยืดหดได้ที่วางข้าง ๆ กระเป๋าขึ้นมา"
 
-"Compared to the cane the boy in my class had, Lilly's looks much thinner and longer. His must be for support, whereas Lilly's is for navigation."
+# "Compared to the cane the boy in my class had, Lilly's looks much thinner and longer. His must be for support, whereas Lilly's is for navigation."
+"เทียบกับไม้เท้าของเพื่อนคนในห้องฉันคนนั้น ไม้เท้าของลิลลี่ดูบางกว่าและยาวกว่า\nของเพื่อนในห้องน่าจะเอาไว้ค้ำยัน ในขณะที่ของลิลลี่มีไว้เพื่อนำทาง"
 
-"Together we leave the peaceful room and enter the empty hallway on the way to the library."
+# "Together we leave the peaceful room and enter the empty hallway on the way to the library."
+"พวกเราออกจากห้องอันสงบนี้ไปยังโถงทางเดินเพื่อเดินไปห้องสมุด"
 
 stop music fadeout 6.0
 
 scene bg school_hallway2
 with locationchange
 
-"Side by side, my pace carefully slowed to match hers, we slowly walk through the hallway."
+# "Side by side, my pace carefully slowed to match hers, we slowly walk through the hallway."
+"ก้าวต่อก้าว ฉันลดความเร็วของฉันลงให้เท่า ๆ กับของเธอ พวกเราค่อย ๆ เดินไปตามโถงทางเดิน"
 
-"It doesn't take long for us to arrive at the door to the warm-looking room, apparently situated in the center of the floor rather than either wing."
+# "It doesn't take long for us to arrive at the door to the warm-looking room, apparently situated in the center of the floor rather than either wing."
+"ในเวลาไม่นาน พวกเราก็มาถึงหน้าประตูที่ดูอบอุ่น จากที่ดูห้องนี้ตั้งอยู่ตรงกลางของชั้น ไม่ใช่ฝั่งข้าง ๆ"
 
-hi "Ladies first."
+# hi "Ladies first."
+hi "เชิญสุภาพสตรีก่อนครับ"
 
 show lilly cane_smileclosed at center
 with charaenter
 
-"She gives an appreciative smile at the gesture, taking the lead as we file in."
+# "She gives an appreciative smile at the gesture, taking the lead as we file in."
+"เธอยิ้มเป็นเชิงขอบคุณกับน้ำใจนั้นแล้วนำทางเดินเข้าไป"
 
 scene bg school_library_ss at bgright
 with locationchange
 
 play music music_happiness fadein 2.0
 
-"To the left is the wooden library counter, with the library proper being on the right."
+# "To the left is the wooden library counter, with the library proper being on the right."
+"ทางด้านซ้ายของห้องเป็นเคาน์เตอร์ของห้องสมุด และส่วนอื่น ๆ ที่เหลืออยู่ทางขวา"
 
-"It easily dwarfs my old school's library, with the distinct smell of old books giving the place an almost old-world air."
+# "It easily dwarfs my old school's library, with the distinct smell of old books giving the place an almost old-world air."
+"ห้องสมุดที่นี่ทำเอาของที่โรงเรียนเก่าดูเล็กไปเลย และมีกลิ่นเฉพาะตัวของหนังสือเก่า ๆ \nทำให้สถานที่นี้บรรยากาศค่อนข้างเก่าแก่"
 
-"There don't seem to be a lot of students here. Considering the time, it isn't a big surprise; everyone's probably either in the school grounds or the dorms."
+# "There don't seem to be a lot of students here. Considering the time, it isn't a big surprise; everyone's probably either in the school grounds or the dorms."
+"ดูเหมือนว่าจะไม่ค่อยมีนักเรียนในนี้เลย แต่ก็ไม่แปลก เพราะดูจากเวลาตอนนี้แล้ว\nนักเรียนทุกคนก็น่าจะลงไปข้างล่างหรือไม่ก็กลับไปที่หอกันหมดแล้ว"
 
 show lilly cane_smileclosed_ss at center
 with charaenter
 
-li "Yuuko, are you here?"
+# li "Yuuko, are you here?"
+li "คุณยูโกะ อยู่หรือเปล่าคะ?"
 
-"She says it to thin air since the librarian doesn't seem to be present and of course Lilly can't see this."
+# "She says it to thin air since the librarian doesn't seem to be present and of course Lilly can't see this."
+"คำพูดเธอลอยอยู่ในอากาศอย่างนั้นเพราะดูเหมือนว่าบรรณารักษ์จะไม่อยู่ และแน่นอนว่าลิลลี่ก็ไม่เห็น"
 
-"What's unexpected is that it draws a reaction."
+# "What's unexpected is that it draws a reaction."
+"สิ่งที่ไม่คาดคิดคือคำพูดนั้นจะทำให้เกิดการตอบสนองบางอย่างกลับมา"
 
 play sound sfx_impact
 with vpunch
@@ -1767,9 +1820,11 @@ with vpunch
 show lilly cane_surprised_ss
 with charachange
 
-"Something from under the counter thuds against it, followed by a quiet wail."
+# "Something from under the counter thuds against it, followed by a quiet wail."
+"มีอะไรบางอย่างใต้เคาน์เตอร์กระแทกขึ้นมาโดนเคาน์เตอร์ ตามด้วยเสียงโอดโอยเบา ๆ"
 
-mystery "Awwww."
+# mystery "Awwww."
+mystery "โอยยย"
 
 show lilly cane_weaksmile_ss
 with charachange
@@ -1784,102 +1839,132 @@ show yuuko neutral_down_ss:
     easein 0.5 ypos 1.0
 with dissolve
 
-"The origin, apparently the librarian, quickly crawls out and bounces up to extremely rigid attention."   
+# "The origin, apparently the librarian, quickly crawls out and bounces up to extremely rigid attention."   
+"บรรณารักษ์ที่ดูจะเป็นต้นตอของเสียงโผล่ออกมารับความสนใจของพวกเราที่จดจ่ออยู่"
 
 show yuuko neurotic_up_ss at tworight
 with charachange
 
-yu_ "Hi, Lilly. How can I help you?"
+# yu_ "Hi, Lilly. How can I help you?"
+yu_ "ไงลิลลี่ มีอะไรให้ช่วยไหม?"
 
-"Her voice is strained in a failing attempt to sound casual and she's rubbing the back of her head."
+# "Her voice is strained in a failing attempt to sound casual and she's rubbing the back of her head."
+"เสียงเธอดูตึง ๆ จากการพยายามทำให้ดูปกติแต่ไม่สำเร็จ พลางลูบหัวด้านหลัง"
 
-li "Good afternoon. What happened just now? I heard a strange sound."
+# li "Good afternoon. What happened just now? I heard a strange sound."
+li "ทิวาสวัสดิ์ค่ะ ฉันได้ยินเสียงแปลก ๆ เกิดอะไรขึ้นเหรอคะ?"
 
 show yuuko worried_up_ss
 with charachange
 
-yu_ "It's nothing, I just hit my head."
+# yu_ "It's nothing, I just hit my head."
+yu_ "ไม่มีอะไรมากหรอก ฉันแค่หัวชนเคาน์เตอร์น่ะ"
 
-yu_ "See, I dropped an eraser under my desk and while I was looking for it a pencil dropped and when I was looking for both of them you came and surprised me…"
+# yu_ "See, I dropped an eraser under my desk and while I was looking for it a pencil dropped and when I was looking for both of them you came and surprised me…"
+yu_ "ก็ ฉันเผลอทำยางลบตกใต้โต๊ะ พอก้มไปดูดินสอก็ตกอีก พอจะหาทั้งคู่อยู่ ๆ \nเธอก็เข้ามาเรียกพอดีน่ะ"
 
 show lilly cane_sad_ss
 with charachange
 
-li "Are you all right? I'm sorry, I couldn't know—"
+# li "Are you all right? I'm sorry, I couldn't know—"
+li "เป็นอะไรมากหรือเปล่าคะ? ขอโทษจริง ๆ ค่ะ พอดีฉันไม่รู้—"
 
 show yuuko neurotic_up_ss
 with charachange
 
-yu_ "It's okay! It's okay, sorry for making you worry."
+# yu_ "It's okay! It's okay, sorry for making you worry."
+yu_ "ไม่เป็นไร ๆ ! ขอโทษนะที่ทำให้เป็นห่วง"
 
 show yuuko smile_down_ss
 show lilly cane_weaksmile_ss
 with charachange
 
-yu_ "This is nothing, I've had worse happen to me."
+# yu_ "This is nothing, I've had worse happen to me."
+yu_ "แค่นี้ไม่เป็นไรหรอก ฉันเจออะไรหนักกว่านี้มาอีกเยอะ"
 
-"She's quick to reverse Lilly's apologies, almost frantically trying to push aside the possibility that she could be in any way inconvenienced by bashing her head on the counter."
+# "She's quick to reverse Lilly's apologies, almost frantically trying to push aside the possibility that she could be in any way inconvenienced by bashing her head on the counter."
+"เธอรีบแก้ตัวพัลวันกับคำขอโทษของลิลลี่ให้เห็นว่าตัวเองไม่ได้เป็นอะไรจริง ๆ ที่หัวโขกกับเคาน์เตอร์"
 
-yu_ "Yes… worse things have happened, hehehe…"
+# yu_ "Yes… worse things have happened, hehehe…"
+yu_ "ใช่… เจอมาหนักกว่านี้ แฮะ ๆๆ …"
 
-"The girl fidgets with her fingers as Lilly doesn't seem to drop her concerned expression, and then she shuffles some papers around the counter for no reason."
+# "The girl fidgets with her fingers as Lilly doesn't seem to drop her concerned expression, and then she shuffles some papers around the counter for no reason."
+"หญิงสาวขยับนิ้วอย่างกระสับกระส่ายเมื่อเห็นว่าลิลลี่ไม่ได้ลดสีหน้าความกังวลลงเลยแม้แต่น้อย\nแล้วเธอก็หยิบขยับกระดาษบนเคาน์เตอร์ไปมาโดยไม่มีสาเหตุ"
 
-"A little shorter than Lilly, replete with glasses, freckles and a very troubled look, she seems to fit a library perfectly."
+# "A little shorter than Lilly, replete with glasses, freckles and a very troubled look, she seems to fit a library perfectly."
+"ตัวเตี้ยกว่าลิลลี่เล็กน้อย ใส่แว่น มีฝ้า และสีหน้าดูวิตกกังวล ก็สมเป็นบรรณารักษ์ดี"
 
 show yuuko happy_down_ss
 with charachange
 
-yu_ "Ah, Lilly! Did you get my message?"
+# yu_ "Ah, Lilly! Did you get my message?"
+yu_ "อ๊ะลิลลี่! เธอได้รับข้อความฉันไหม?"
 
 show lilly cane_reminisce_ss
 with charachange
 
-li "Message… hmm…"
+# li "Message… hmm…"
+li "ข้อความ อืมม…"
 
 show lilly cane_smile_ss
 with charachange
 
-li "Oh, the two imported books that arrived?"
+# li "Oh, the two imported books that arrived?"
+li "อ๋อ หนังสือนำเข้า 2 เล่มที่มาถึงแล้วใช่ไหมคะ?"
 
-yu_ "Right! Right! They finally came! I can't believe it took so long, but—"
+# yu_ "Right! Right! They finally came! I can't believe it took so long, but—"
+yu_ "ใช่ ๆ ! ในที่สุดก็มาถึงสักที ไม่คิดว่าจะนานขนาดนี้ แต่ก็—"
 
-"Amidst her celebrations, partially for managing to change the topic I'm sure, she notices me from the corner of her eye and freezes on the spot when she does."
+# "Amidst her celebrations, partially for managing to change the topic I'm sure, she notices me from the corner of her eye and freezes on the spot when she does."
+"ระหว่างที่เธอดูดีใจ—ฉันมั่นใจว่าส่วนหนึ่งเพราะเธอเปลี่ยนเรื่องได้สักที—กับเรื่องหนังสือนั้นเธอก็เหลือบมาเห็นฉันแล้วตัวแข็งทื่อไปทันที"
 
 show yuuko panic_up_ss
 show lilly cane_weaksmile_ss
 with charachange
 
-yu_ "Oh no, I'm sorry for not noticing you before!"
+# yu_ "Oh no, I'm sorry for not noticing you before!"
+yu_ "โอ๊ะ ไม่นะ ขอโทษทีที่ไม่เห็นเธอเมื่อกี๊"
 
-yu_ "Did you need to check out a book? Or return one? I'm sorry! I'm sorry!"
+# yu_ "Did you need to check out a book? Or return one? I'm sorry! I'm sorry!"
+yu_ "เธอมาหาหนังสือใช่ไหม? หรือมาคืนหนังสือล่ะ? ขอโทษ ๆ !"
 
-"The way she can so quickly shift between moods is a little unsettling."
+# "The way she can so quickly shift between moods is a little unsettling."
+"สภาพที่เธออารมณ์เปลี่ยนแปรไปมาแบบนี้ค่อนข้างน่ากังวลแฮะ"
 
 show yuuko worried_up_ss
 show lilly cane_smileclosed_ss
 with charachange
 
-li "He's with me. Yuuko, this is Hisao, a new student. Hisao, this is Yuuko, the school librarian."
+# li "He's with me. Yuuko, this is Hisao, a new student. Hisao, this is Yuuko, the school librarian."
+li "เขามากับฉันน่ะคุณยูโกะ ชื่อฮิซาโอะเป็นนักเรียนใหม่ ฮิซาโอะนี่คุณยูโกะ เป็นบรรณารักษ์น่ะจ้ะ"
 
-hi "Pleased to meet you."
+# hi "Pleased to meet you."
+hi "ยินดีที่ได้รู้จักครับ"
 
 show yuuko neutral_down_ss
 with charachange
 
-yu "Hisao. Right. Hisao. Pleased to meet you, too. Hisao."
+# yu "Hisao. Right. Hisao. Pleased to meet you, too. Hisao."
+yu "ฮิซาโอะใช่ไหม ฮิซาโอะ ยินดีที่ได้รู้จักเช่นกันนะฮิซาโอะ"
 
-"For a second she visibly attempts to engrave the name on her mind so she won't forget."
+# "For a second she visibly attempts to engrave the name on her mind so she won't forget."
+"ในตอนนั้นเอง เห็นได้ชัดว่าเธอพยายามย้ำเพื่อจำชื่อของฉัน เพื่อที่จะได้ไม่ลืม"
 
-li "Yuuko often arranges to import foreign books in Braille for me."
+# li "Yuuko often arranges to import foreign books in Braille for me."
+li "คุณยูโกะเป็นคนคอยจัดการนำเข้าหน้าสืออักษรเบรลล์จากต่างประเทศให้ฉันน่ะ"
 
-li "Would you like to tell Hisao a little something about the library?"
+# li "Would you like to tell Hisao a little something about the library?"
+li "มีอะไรอยากจะแนะนำให้ฮิซาโอะรู้เกี่ยวกับห้องสมุดหน่อยไหมคะ?"
 
-"Lilly's innocent suggestion is met with an expression of abject terror."
+# "Lilly's innocent suggestion is met with an expression of abject terror."
+"คำแนะนำที่ใสซื่อของลิลลี่ ทำให้ยูโกะแสดงออกถึงสีหน้าที่หวาดกลัวยิ่ง"
 
 show yuuko panic_up_ss
 with charachange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-yu "I… Please Lilly, I can't. I don't know what he could be interested in. This is too much responsibility."
+# yu "I… Please Lilly, I can't. I don't know what he could be interested in. This is too much responsibility."
+yu "ฉัน… โถ่ลิลลี่ ไม่ไหวหรอก ฉันไม่รู้หรอกว่าเขาจะชอบอะไร ภาระนี้มันหนักเกินฉันจะแบก"
 
 "How it's any responsibility at all I don't get, but her objection is so sincere I don't doubt for a second that she would rather disembowel herself on the spot than tell me where the light novels are."
 
