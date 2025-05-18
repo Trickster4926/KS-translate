@@ -1926,7 +1926,7 @@ with charachange
 yu_ "โอ๊ะ ไม่นะ ขอโทษทีที่ไม่เห็นเธอเมื่อกี๊"
 
 # yu_ "Did you need to check out a book? Or return one? I'm sorry! I'm sorry!"
-yu_ "เธอมาหาหนังสือใช่ไหม? หรือมาคืนหนังสือล่ะ? ขอโทษ ๆ !"
+yu_ "เธอมาหาหนังสือใช่ไหม? หรือมาคืนหนังสือล่ะ? ขอโทษที ๆ !"
 
 # "The way she can so quickly shift between moods is a little unsettling."
 "สภาพที่เธออารมณ์เปลี่ยนแปรไปมาแบบนี้ค่อนข้างน่ากังวลแฮะ"
@@ -1951,7 +1951,7 @@ yu "ฮิซาโอะใช่ไหม ฮิซาโอะ ยินด�
 "ในตอนนั้นเอง เห็นได้ชัดว่าเธอพยายามย้ำเพื่อจำชื่อของฉัน เพื่อที่จะได้ไม่ลืม"
 
 # li "Yuuko often arranges to import foreign books in Braille for me."
-li "คุณยูโกะเป็นคนคอยจัดการนำเข้าหน้าสืออักษรเบรลล์จากต่างประเทศให้ฉันน่ะ"
+li "คุณยูโกะเป็นคนคอยจัดการนำเข้าหนังสืออักษรเบรลล์จากต่างประเทศให้ฉันน่ะ"
 
 # li "Would you like to tell Hisao a little something about the library?"
 li "มีอะไรอยากจะแนะนำให้ฮิซาโอะรู้เกี่ยวกับห้องสมุดหน่อยไหมคะ?"
@@ -1961,56 +1961,69 @@ li "มีอะไรอยากจะแนะนำให้ฮิซาโ�
 
 show yuuko panic_up_ss
 with charachange
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # yu "I… Please Lilly, I can't. I don't know what he could be interested in. This is too much responsibility."
 yu "ฉัน… โถ่ลิลลี่ ไม่ไหวหรอก ฉันไม่รู้หรอกว่าเขาจะชอบอะไร ภาระนี้มันหนักเกินฉันจะแบก"
 
-"How it's any responsibility at all I don't get, but her objection is so sincere I don't doubt for a second that she would rather disembowel herself on the spot than tell me where the light novels are."
-
+# "How it's any responsibility at all I don't get, but her objection is so sincere I don't doubt for a second that she would rather disembowel herself on the spot than tell me where the light novels are."
+"ไม่เข้าใจว่าคำขอนั้นจะเป็นภาระยังไง แต่คำปฏิเสธดูจริงจังจนถึงขั้นว่าถ้าเธอจะยอมคว้านท้องตัวเองมันเสียตรงนี้แทนที่จะบอกว่าไลท์โนเวลอยู่แถวไหนก็ไม่แปลกใจ"
 show lilly cane_sleepy_ss
 with charachange
 
-li "But…"
+# li "But…"
+li "แต่ว่า…"
 
-hi "So, there are a lot of books in Braille here?"
+# hi "So, there are a lot of books in Braille here?"
+hi "งั้น ที่นี่มีหนังสืออักษรเบรลล์เยอะเลยสิท่า?"
 
-"I attempt to save the day by asking the first thing that pops into my head. It seems to work at least partially, as Yuuko seems to… not exactly relax, but at least look slightly less tense."
+# "I attempt to save the day by asking the first thing that pops into my head. It seems to work at least partially, as Yuuko seems to… not exactly relax, but at least look slightly less tense."
+"ฉันพยายามกู้สถานการณ์ด้วยการถามคำถามแรกที่นึกขึ้นได้ ซึ่งก็ดูได้ผลบ้างแหละจากการที่คุณยูโกะดู…\nก็ไม่เชิงผ่อนคลายเลยซะทีเดียว แต่อย่างน้อยก็ไม่ตึงเครียดเท่าเมื่อกี้"
 
 show yuuko smile_down_ss
 show lilly cane_weaksmile_ss
 with charachange
 
-yu "Well… I think about a third or a fourth of Yamaku's library is either in Braille or audio."
+# yu "Well… I think about a third or a fourth of Yamaku's library is either in Braille or audio."
+yu "ก็… คาดว่าหนังสือประมาณ 1 ใน 3 หรือ 1 ใน 4 ของห้องสมุดนี้ก็จะเป็นหนังสืออักษรเบรลล์หรือไม่ก็หนังสือเสียงน่ะ"
 
-"Makes sense, given all the blind students that'd be here."
+# "Makes sense, given all the blind students that'd be here."
+"ฟังดูมีเหตุผล เมื่อนึกถึงนักเรียนที่ตาบอดที่อยู่ที่นี่"
 
-hi "If it's only that, how come this library is so big in the first place?"
+# hi "If it's only that, how come this library is so big in the first place?"
+hi "ถ้าแค่นั้นแล้ว ทำไมห้องสมุดนี่ถึงได้ใหญ่จังเลยล่ะครับ"
 
-yu "Ummm, well, we get a lot of new books regularly because the library is adequately endowed. That's probably why."
+# yu "Ummm, well, we get a lot of new books regularly because the library is adequately endowed. That's probably why."
+yu "อืมมม ก็ พวกเราได้หนังสือใหม่ ๆ มาเป็นประจำเพราะว่าห้องสมุดงบเหลือน่ะ คงน่าจะงั้นแหละ"
 
 show yuuko neurotic_up_ss
 with charachange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-yu "They spend more on new books than on my salary, and then I have to organize and shelve all of them."
+# yu "They spend more on new books than on my salary, and then I have to organize and shelve all of them."
+yu "พวกเขาจัดงบไปสั่งหนังสือใหม่เยอะกว่างบเงินเดือนของฉันอีก แล้วฉันก็ต้องมานั่งจัดหนังสือพวกนั้นอีก"
 
 show yuuko worried_up_ss
 with charachange
 
-yu "It's so troublesome and they weigh so much, I wish I could quit this job."
+# yu "It's so troublesome and they weigh so much, I wish I could quit this job."
+yu "แถมหนังสือก็หนัก จัดก็ยาก ถ้าลาออกได้ฉันคงลาออกไปแล้ว"
 
 "…"
 
-"A very awkward silence follows this revelation of too much information."
+# "A very awkward silence follows this revelation of too much information."
+"ความเงียบที่น่ากระอักกระอ่วนคืบคลานตามมาหลังเธอพูดบางอย่างที่มากเกินควรออกมา"
 
-hi "Umm, I'll go check the aisles then, if you don't mind."
+# hi "Umm, I'll go check the aisles then, if you don't mind."
+hi "เอิ่ม งั้นผมไปเดินดูรอบ ๆ ละกัน ถ้าไม่เธอว่าอะไร"
 
-"It's probably best for all of us if she doesn't keep talking to me."
+# "It's probably best for all of us if she doesn't keep talking to me."
+"น่าจะเป็นทางออกที่ดีที่สุดของเราตอนนี้ ถ้าเธอไม่ได้จะพูดอะไรกับฉันต่อ"
 
 show lilly cane_smileclosed_ss
 with charachange
 
-li "Very well. Meanwhile, Yuuko, I would have those books if it's all right with you."
+# li "Very well. Meanwhile, Yuuko, I would have those books if it's all right with you."
+li "ดีเลย แล้วก็คุณยูโกะ ฉันอยากได้หนังสือพวกนั้นน่ะค่ะถ้าคุณไม่ว่าอะไร"
 
 stop music fadeout 3.0
 
