@@ -2569,7 +2569,6 @@ hi "…เดี๋ยวผมไปหยิบแปป"
 
 # "I fetch my stack of books from beside the beanbags where Hanako and I were sitting and return to the counter."
 "ฉันไปหยิบหนังสือที่อยู่ข้าง ๆ บีนแบ็กตรงที่ฮานาโกะกับฉันนั่งกันก่อนหน้านี้ แล้วกลับไปยังเคาน์เตอร์"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 show yuuko neutral_down_ss
 with charachange
@@ -2601,108 +2600,145 @@ label th_A9:
 scene bg school_dormhallway
 with locationskip
 
-"Holding the library books with one arm, I trawl my pocket for the key to the door."
+# "Holding the library books with one arm, I trawl my pocket for the key to the door."
+"ฉันล้วงกระเป๋าหากุญแจห้อง ในขณะที่แขนข้างนึงหอบหนังสือที่ยืมมา"
 
 play sound sfx_dooropen
 
-"A sudden sound from behind startles me, making me nearly drop the books I'm carrying or the key that I almost managed to get into the lock."
+# "A sudden sound from behind startles me, making me nearly drop the books I'm carrying or the key that I almost managed to get into the lock."
+"ทันใดนั้นก็มีเสียงมาจากข้างหลังทำฉันสะดุ้งจนเกือบทำหนังสือที่ถือกับกุญแจที่กำลังจะไขเข้าห้องหล่น"
 
-mystery "Who is it?"
+# mystery "Who is it?"
+mystery "ใครน่ะ?"
 
 play music music_kenji fadein 0.5
 
 show kenji neutral at center
 with charaenter
 
-"I turn around to see who is talking to me. It's Kenji. He seems to be in a friendly mood, although the light glinting off his glasses in the dark gives him a sinister look."
+# "I turn around to see who is talking to me. It's Kenji. He seems to be in a friendly mood, although the light glinting off his glasses in the dark gives him a sinister look."
+"ฉันหันหลังกลับไปดูว่าเป็นใคร เคนจินั่นเอง เขาดูอารมณ์เป็นมิตรถึงแม้ว่าแสงสะท้อนจากแว่นจะบังจนไม่เห็นสีหน้าที่แท้จริงก็เถอะ"
 
-hi "It's just me."
+# hi "It's just me."
+hi "ฉันเอง"
 
-"This makes him pause and lick his lips nervously."
+# "This makes him pause and lick his lips nervously."
+"คำตอบของฉันทำให้เขาชะงักแล้วเลียริมฝีปากเขาอย่างกังวล"
 
 show kenji tsun
 with charachange
 
-ke "Who is me? I don't know anyone called me. Are you some new guy again?"
+# ke "Who is me? I don't know anyone called me. Are you some new guy again?"
+ke "“ฉันเอง” นี่ใคร? ฉันไม่รู้จักคนที่ชื่อ “ฉันเอง” นายเองก็เพิ่งย้ายเข้ามาใหม่เหรอ?"
 
-"His voice is suddenly strained and quick."
+# "His voice is suddenly strained and quick."
+"จู่ ๆ เสียงของเขาก็เริ่มแข็งและพูดเร็ว"
 
-hi "Yes… but we've met before. Yesterday."
+# hi "Yes… but we've met before. Yesterday."
+hi "ใช่… แต่เราก็เจอกันแล้วนะเมื่อวาน"
 
-ke "I don't think so, I would remember someone who I met only yesterday. …When was that? What day is it today?"
+# ke "I don't think so, I would remember someone who I met only yesterday. …When was that? What day is it today?"
+ke "ไม่หรอก ถ้าเจอเมื่อวานจริงฉันคงจำได้ละ …เมื่อวานตอนไหน? วันนี้วันอะไร?"
 
-"I try to ignore him. Is he joking or what?"
+# "I try to ignore him. Is he joking or what?"
+"ฉันพยายามจะเมิน นี่เขาตั้งใจกวนหรือว่าอะไร"
 
-ke "Prove that we've met before!"
+# ke "Prove that we've met before!"
+ke "พิสูจน์สิว่าเราเจอกันเมื่อวาน"
 
-hi "You live across the hall. You're Kenji."
+# hi "You live across the hall. You're Kenji."
+hi "นายอยู่ห้องตรงข้าม ชื่อเคนจิ"
 
 show kenji rage
 with charachange
 
-"Kenji jumps back, his eyes filled with an uncomprehending fear."
+# "Kenji jumps back, his eyes filled with an uncomprehending fear."
+"เคนจิผละถอยออก สายตาเต็มไปด้วยความหวาดกลัว"
 
-ke "How do you know my name? Damn, this can only mean one of two things: either we have met, and you are telling the truth, and I just can't remember it, or you are a spy."
+# ke "How do you know my name? Damn, this can only mean one of two things: either we have met, and you are telling the truth, and I just can't remember it, or you are a spy."
+ke "นายรู้ชื่อฉันได้ไงเนี่ย? แม่ง แปลว่าเป็นได้ 2 อย่างสินะ คือเมื่อวานเจอกันแล้วจริงและฉันลืม\nหรืออีกอย่างคือนายเป็นสายลับ"
 
-"He pauses."
+# "He pauses."
+"เขาหยุดสักพัก"
 
 show kenji tsun
 with charachange
 
-ke "A psychic spy."
+# ke "A psychic spy."
+ke "สายลับที่มีพลังจิต"
 
-"His eyes dart around me, trying to peek into my room, although it's hard to believe he can see anything through those thick glasses."
+# "His eyes dart around me, trying to peek into my room, although it's hard to believe he can see anything through those thick glasses."
+"สายตาเขากวาดไปรอบ ๆ ตัวฉัน พยายามที่จะแอบมองไปในห้องฉัน\nถึงแม้ว่าเขาน่าจะแทบมองอะไรไม่เห็น เมื่อเทียบจากแว่นหนา ๆ นั่น"
 
-"His mood swung from friendly to manic in less than a minute."
+# "His mood swung from friendly to manic in less than a minute."
+"อารมณ์เขาแปรเปลี่ยนจากเป็นมิตรกลายเป็นดุร้ายในชั่วพริบตา"
 
-hi "I'm not psychic."
+# hi "I'm not psychic."
+hi "ฉันไม่ใช่พวกใช้พลังจิตเฟ้ย"
 
-ke "How do I know that? I'm not a mind reader."
+# ke "How do I know that? I'm not a mind reader."
+ke "แล้วฉันจะรู้ได้ไงว่าจริง ฉันอ่านใจไม่ได้สักหน่อย"
 
-"Kenji points a finger in my face damningly."
+# "Kenji points a finger in my face damningly."
+"เคนจิชี้หน้าฉันอย่างก้าวร้าว"
 
 show kenji rage
 with charachange
 
-ke "…Unlike you!"
+# ke "…Unlike you!"
+ke "…ไม่เหมือนนาย!"
 
-hi "Stop that, man. We met yesterday. What's wrong with you? I live in this room."
+# hi "Stop that, man. We met yesterday. What's wrong with you? I live in this room."
+hi "หยุดดิ้ เราก็เพิ่งเจอกันเมื่อวาน เป็นอะไรไปเนี่ย ฉันอยู่ห้องนี้"
 
-ke "Lies. If you think you can pass as Hisao because I'm legally blind you are sorely mistaken."
+# ke "Lies. If you think you can pass as Hisao because I'm legally blind you are sorely mistaken."
+ke "โกหก ถ้านายคิดว่าจะปลอมตัวเป็นฮิซาโอะแล้วเข้าไปได้เพราะคิดว่าฉันสายตาไม่ดี นายคิดผิดแล้ว"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-ke "You don't even look like him. I mean, the resemblance is real, real slim. Maybe at a distance, but who do you think you're kidding?"
+# ke "You don't even look like him. I mean, the resemblance is real, real slim. Maybe at a distance, but who do you think you're kidding?"
+ke "นายดูไม่เหมือนเขาด้วยซ้ำ คือผอมก็ผอมเหมือนกันแหละ แต่อาจจะเพราะยืนห่างก็ได้ แต่คิดว่าจะหลอกฉันได้เรอะ"
 
-"I want to grab him by the shoulders and shake him. Exasperated, I rub my eyes and let out a heavy sigh."
+# "I want to grab him by the shoulders and shake him. Exasperated, I rub my eyes and let out a heavy sigh."
+"ฉันล่ะอยากจะหยุมหัวเขาจริง ๆ ด้วยความหงุดหงิด ฉันขยี้ตาและถอนหายใจแรง ๆ"
 
 show kenji tsun
 with charachange
 
-ke "Stay there."
+# ke "Stay there."
+ke "หยุดตรงนั้น"
 
 show kenji tsun_close
 with characlose
 
-"Kenji comes closer, one careful step at a time. I stay still, lest he assault me physically, although I doubt he could do much damage even if he did."
+# "Kenji comes closer, one careful step at a time. I stay still, lest he assault me physically, although I doubt he could do much damage even if he did."
+"เคนจิค่อย ๆ เข้ามาอย่างระมัดระวัง ฉันยืนนิ่ง ๆ เพื่อไม่ให้เขาทำร้ายฉัน ถึงแม้จริง ๆ ต่อให้ทำก็คงไม่น่าทำอะไรฉันได้"
 
 show kenji happy_close
 with charachange
 
-ke "Oh, wait, I see it now. Damn, it really is you."
+# ke "Oh, wait, I see it now. Damn, it really is you."
+ke "โอ้ เห็นแล้ว เป็นนายจริง ๆ ด้วย"
 
-"Sighing again, and then once again for good measure, I step backwards, just in case."
+# "Sighing again, and then once again for good measure, I step backwards, just in case."
+"ฉันถอนหายใจอีกครั้ง แล้วถอยออกมาเผื่อมีอะไรแปลก ๆ เกิดขึ้นอีก"
 
 show kenji happy
 with charadistant
 
-ke "What's up, man? You don't look too good. I think. Something wrong?"
+# ke "What's up, man? You don't look too good. I think. Something wrong?"
+ke "เป็นไรไปพวก สีหน้าดูไม่ค่อยดีเลย มีไรหรือเปล่า?"
 
-hi "I don't know. Just had something stupid happen to me. A few stupid things, actually. Even if you discount this one."
+# hi "I don't know. Just had something stupid happen to me. A few stupid things, actually. Even if you discount this one."
+hi "ไม่รู้ดิ วันนี้เกิดไรแย่ ๆ ด้วยแหละมั้ง ก็หลายเรื่องอยู่ต่อให้ไม่รวมเรื่องเมื่อกี้"
 
-hi "I can't get a proper touch on other people here, and I have no idea if it's because of me or because of them."
+# hi "I can't get a proper touch on other people here, and I have no idea if it's because of me or because of them."
+hi "ฉันเข้ากับคนอื่นที่นี่ไม่ค่อยได้เลย ไม่รู้ว่าเป็นที่พวกเขาหรือเป็นที่ฉันกันแน่"
 
-"I don't know why I'm telling this to Kenji. It's not like we've had any contact either."
+# "I don't know why I'm telling this to Kenji. It's not like we've had any contact either."
+"ไม่รู้ว่าจะเล่าให้เคนจิฟังทำไม เราก็ไม่ได้สนิทอะไรกันซะหน่อย"
 
-ke "That's rough, dude. Yeah, I'm sorry about calling you a psychic spy and all, but you can never be too careful."
+# ke "That's rough, dude. Yeah, I'm sorry about calling you a psychic spy and all, but you can never be too careful."
+ke "เจอหนักเลยนี่หว่า เออโทษทีที่ว่านายเป็นสายลับพลังจิตเมื่อกี้นะ แต่นายก็ควรระวังตัวไว้นะ"
 
 show kenji tsun
 with charachange
