@@ -176,7 +176,7 @@ play music music_daily fadein 1.0
 
 "คงงั้น เถียงไม่สนอะไรจนไม่ทันรู้ตัวว่าพักเที่ยงแล้ว"
 
-"ฉันเอี้ยวตัวหันไปมองข้างหลังห้อง"
+"ฉันหันไปมองข้างหลังห้อง"
 
 show hanako emb_downtimid at tworight
 with charaenter
@@ -187,9 +187,9 @@ with charaenter
 
 "พูดคุยซุบซิบกัน ย้ายโต๊ะไปมา คนที่เอาข้าวกล่องมาก็คุยกับคนอื่น ๆ เหมือนกัน เพียงแต่มีการตักข้าวเข้าปากไปด้วย"
 
-"But, when I watch Hanako, it feels that I'm the only one who can see her. Almost as if she was invisible; sort of hiding in plain sight."
+"แต่พอมองฮานาโกะแล้วรู้สึกเหมือนมีแค่ฉันที่เห็นเธอ คล้ายว่าเธอไม่มีตัวตน แฝงตัวอยู่กลางแจ้ง"
 
-"Is she being bullied? Is she isolating herself from the rest of the class on her own accord?"
+"โดนคนในห้องแกล้งอยู่เหรอ หรือปลีกตัวออกมาเอง"
 
 show hanako emb_timid
 with charachange
@@ -197,26 +197,26 @@ with charachange
 show hanako emb_downtimid
 with charachange
 
-"I see her look over her shoulder towards the classroom's rear door."
+"เห็นเธอหันมองไปที่ประตูห้องด้านหลัง"
 
-"Come to think of it, she hasn't turned a page since I've started watching her."
+"จะว่าไปแล้วก็ไม่เห็นพลิกหน้ากระดาษสักหน้ามาตั้งแต่ที่มองทีแรก"
 
-"I guess she's waiting for someone."
+"คงรอใครอยู่ละมั้ง"
 
 
 label th_choiceA10a:
 menu:
     with menueffect
 
-    "What to do…"
+    "เอาไงดีล่ะเนี่ย…"
 
-    "Read my book.":
+    "อ่านหนังสือ":
         return m1
 
-    "Go talk with Hanako.":
+    "ไปคุยกับฮานาโกะ":
         return m2
         
-    "Wait for Shizune and Misha to come to a decision.":
+    "รอชิซูเนะกับมิช่าคุยกันให้เสร็จ":
         return m3
         
         
@@ -224,161 +224,161 @@ label th_choiceA10b:
 menu:
     with menueffect
 
-    "What to do…"
+    "เอาไงดีล่ะเนี่ย…"
                 
-    "Wait for Shizune and Misha to come to a decision.":
+    "รอชิซูเนะกับมิช่าคุยกันให้เสร็จ":
         return m1
         
-    "Read my book.":
+    "อ่านหนังสือ":
         return m2
         
 label th_choiceA10c:
 menu:
     with menueffect
 
-    "What to do…"
+    "เอาไงดีล่ะเนี่ย…"
 
-    "Read my book.":
+    "อ่านหนังสือ":
         return m1       
 
-    "Go talk with Hanako.":
+    "ไปคุยกับฮานาโกะ":
         return m2
         
 label th_A10a:
 
 stop music fadeout 6.0
 
-"I do what I always do when I don't know what to do."
+"ฉันทำสิ่งที่ฉันทำเมื่อไม่รู้จะทำอะไรมาตลอด"
 
-"Like now."
+"อย่างตอนนี้"
 
-"I've already started on one of the books I borrowed yesterday, and took it with me to school to fill the empty moments between classes."
+"ฉันอ่านหนังสือที่ยืมมาเมื่อวานเล่มหนึ่งแล้วพกมาโรงเรียนเพื่ออ่านฆ่าเวลาระหว่างรอคาบเรียน"
 
 hide hanako
 with charaexit
 
-"I find the page that I creased a corner of to mark the spot I left yesterday night, and pick up from there."
+"เปิดหาหน้าที่พับมุมอ่านค้างไว้เมื่อคืนแล้วอ่านต่อ"
 
-"Misha and Shizune are still arguing heatedly, probably about restaurants still."
+"มิช่ากับชิซูเนะก็ยังคงทุ่มเถียงกัน คงจะเรื่องร้านอาหารนั่นแหละ"
 
-"If I joined them, I'd just get caught up in that, or worse, get grilled about joining the Student Council."
+"ถ้าคุยด้วยก็คงได้ร่วมวงเถียงอีก แย่กว่านั้นคือจะโดนเค้นเรื่องสภานักเรียนนั่นแหละ"
 
-"Misha isn't speaking aloud since there is nobody who'd need to hear what they are talking about."
+"มิช่าไม่ได้ออกเสียงพูดเพราะไม่จำเป็นต้องให้ใครมาฟังว่าคุยอะไรกัน"
 
-"But why does she tend to sign things even when Shizune doesn't need to understand what's being said, or even more strangely, when Shizune is not around at all? What an odd conflict of habits."
+"แต่ทำไมบางทีเวลาที่ชิซูเนะไม่จำเป็นต้องรู้ว่าใครพูดอะไรมิช่าก็ยังทำภาษามืออยู่ แล้วที่แปลกกว่านั้นคือตอนที่ชิซูเนะไม่อยู่\nก็ยังทำ ดูแล้วก็ย้อนแย้งพิลึก"
 
-"I find it hard to focus on the book, and besides, the lunch break beckons me to leave the dullness of the classroom. I do so, heading down for the cafeteria."
+"ไม่มีสมาธิอ่านหนังสือเท่าไหร่เลย อีกอย่าง พักเที่ยงจะมามัวแต่อุดอู้อยู่กับห้องเรียนที่เนือย ๆ ไม่ได้หรอก ฉันเลยเดิน\nออกไปที่โรงอาหาร"
 
-"Misha and Shizune, having come to a conclusion of one kind or another, follow in my wake though still talking in their animated fashion."
+"ส่วนมิช่าและชิซูเนะที่ดูเหมือนจะลงตัวกันแล้วตามฉันมาทีหลัง ระหว่างทางก็คุยภาษามือกันไปด้วย"
 
 stop music fadeout 2.0
 
 label th_A10b:
 
-"I still feel bad for making her run away yesterday, so I'd better say something."
+"ยังรู้สึกผิดอยู่ที่เมื่อวานทำให้ตกใจอย่างนั้น ไปพูดอะไรด้วยหน่อยดีกว่า"
 
 show hanako emb_downtimid at center
 show bg school_scienceroom at bgleft
 with charamove
 
-hi "Um, hey there, Hanako."
+hi "เอ่อ ไง ฮานาโกะ"
 
 show hanako def_shock
 with vpunch
 
-ha "H… Hisao?"
+ha "ฮะ… ฮิซาโอะ"
 
-"Well, at least she remembers my name."
+"โอเค อย่างน้อยก็จำชื่อได้"
 
-hi "Hey… I just wanted to apologize for yesterday."
+hi "เอ้อ… คือจะมาขอโทษเรื่องเมื่อวาน"
 
-hi "I didn't mean to startle you or anything."
+hi "ไม่ได้ตั้งใจจะทำให้เธอตกใจกลัวไปแบบนั้นนะ"
 
-hi "I'm just new here and thought I should get to know my classmates."
+hi "พอดีเพิ่งมาใหม่ ก็เลยอยากรู้จักกับคนในห้อง"
 
 show hanako basic_bashful
 with charachange
 
-"As Hanako looks up at me, I notice her scarring once more."
+"พอเธอมองมาที่ฉันก็เห็นว่าเธอตกใจอีกแล้ว"
 
-"It's a little bewildering that you can barely notice it from across the room, but it's so noticeable from close up."
+"ประหลาดดีที่ว่าถ้ามองจากไกล ๆ ในห้องแล้วไม่เห็น แต่พอมาดูใกล้ ๆ แล้วเห็นชัดมาก"
 
 show hanako cover_bashful
 with charachange
 
-ha "T… that's okay."
+ha "มะ… ไม่เป็นไร"
 
-ha "It… it was my fault."
+ha "ฉะ... ฉันผิดเอง"
 
-hi "Nah, that wasn't anyone's “fault,” it just kind of happened."
+hi "ไม่อะ ไม่ใช่ “ความผิด” ใครหรอก มันบังเอิญเป็นแบบนั้นเฉย ๆ "
 
-hi "So, are you waiting for someone? I saw you looking at the door before…"
+hi "แล้วรอใครอยู่เหรอ เห็นเมื่อกี้มองที่ประตู…"
 
 show hanako basic_normal
 with charachange
 
-ha "Y-yes… Lilly."
+ha "อะ อื้ม… ลิลลี่น่ะ"
 
-hi "Oh, you mean Lilly the blind girl?"
+hi "อ้อ ลิลลี่ที่ตาบอดนั่นน่ะเหรอ"
 
-"Hanako only nods in response, and I can't help but wonder if defining people through their disabilities is a faux pas of the worst kind or just normal here."
+"ฮานาโกะพยักหน้ารับ อดคิดไม่ได้ว่าถ้าใช้ความพิการมาระบุตัวจะเป็นเรื่องให้คนมาด่ามั้ย หรือว่าเป็นเรื่องปกติสำหรับที่นี่"
 
-"I guess that explains why Lilly took off after her yesterday."
+"แต่ก็คงงี้แหละมั้งเมื่อวานลิลลี่ถึงได้ตามเธอไป"
 
-hi "She seems like a nice girl. Are you two friends?"
+hi "ลิลลี่เธอดูเป็นคนดีนะ เพื่อนกันเหรอ"
 
 show hanako basic_bashful
 with charachange
 
-ha "Y-yes."
+ha "อะ อื้ม"
 
 show hanako basic_distant
 with charachange
 
-"As if hoping for Lilly to appear, she checks over her shoulder again."
+"เธอมองอีกครั้งราวหวังว่าลิลลี่จะมา"
 
 stop music fadeout 6.0
 
-"I think I'm making her nervous again."
+"สงสัยทำให้อึดอัดอีกแล้ว"
 
-hi "I hope I'm not disturbing you right now…"
+hi "คือ ไม่ได้มารบกวนใช่มั้ย…"
 
 show hanako basic_bashful
 with charachange
 
-ha "N-no, that's not it."
+ha "ปะ เปล่า ไม่ใช่อย่างนั้นหรอก"
 
-ha "It's just easier if Lilly doesn't come here…"
+ha "แค่ว่าถ้ามีลิลลี่อยู่ด้วยแล้วจะดีหน่อย…"
 
-hi "Oh, because it's hard to get around the classroom?"
+hi "อ๋อ อยู่ในห้องแล้วอึดอัดเหรอ"
 
 show hanako basic_distant
 with charachange
 
-ha "Not… really."
+ha "ไม่… เชิง"
 
-"Hanako's gaze drifts past my shoulder and towards Shizune."
+"ฮานาโกะมองข้ามไหล่ฉันไปที่ชิซูเนะ"
 
-hi "Shizune?"
+hi "ชิซูเนะเหรอ"
 
-"Hanako nods again."
+"ฮานาโกะพยักหน้าอีกรอบ"
 
-hi "What about her? Don't they get along?"
+hi "ทำไมเหรอ ไม่ถูกกัน?"
 
-"Hanako shakes her head. Clearly this is something she doesn't want to talk about."
+"ฮานาโกะส่ายหน้า ชัดว่าไม่ใช่เรื่องที่เธออยากคุย"
 
-"It does make a strange sort of sense, Shizune and Lilly not getting along so well."
+"แต่ก็พอจะเข้าใจอยู่ถ้าชิซูเนะกับลิลลี่จะเข้ากันได้ไม่ดีนัก"
 
-"Communication between the two would be all but impossible. It's hard enough talking to Shizune through Misha, even when you can see whose hands are “talking.”"
+"การสื่อสารระหว่างสองคนนั้นเป็นไปไม่ได้ด้วยซ้ำ ขนาดว่าเห็นว่ามือใคร “พูด” อยู่แล้วมีมิช่าคอยแปลให้ยังยากเลย"
 
-"Hanako is so focused on Shizune that I am the first to notice Lilly at the door."
+"ฮานาโกะเอาแต่มองชิซูเนะจนฉันเห็นลิลลี่ที่ประตูก่อน"
 
-hi "Oh, she's here now."
+hi "อ้อ มานั่นแล้ว"
 
 show hanako defarms_shock
 with charachange
 
-"Hanako spins around to confirm this. Upon seeing Lilly, she moves quickly to the door."
+"ฮานาโกะหันมองตามคำพูด พอเห็นลิลลี่เธอก็พุ่งตัวไปที่ประตู"
 
 show hanako defarms_shock at tworight
 show bg school_scienceroom at center
@@ -392,29 +392,29 @@ play music music_lilly fadein 3.0
 show hanako emb_smile
 with charachange
 
-ha "Lilly…"
+ha "ลิลลี่…"
 
 show lilly cane_smile
 with charachange
 
-li "Ah, Hanako. Good morning. Is the president here?"
+li "อ๊ะ ฮานาโกะ อรุณสวัสดิ์ ประธานนักเรียนเขาอยู่ที่นี่เหรอ"
 
 show hanako emb_downtimid
 with charachange
 
-ha "Y-yes."
+ha "อะ อื้ม"
 
 show hanako basic_distant
 with charachange
 
-"Hanako glances over her shoulder at Shizune again, as if to confirm she can't hear them even though that's impossible."
+"ฮานาโกะเหลือบมองชิซูเนะอีกรอบราวกับจะดูว่าเธอได้ยินที่คุยกันหรือเปล่า ถึงจะเป็นไปไม่ได้ก็ตาม"
 
 show lilly cane_sad
 with charachange
 
-li "I suppose we'd best be off, then." 
+li "งั้นไปกันเลยดีกว่า" 
 
-"Lilly's sigh and tone of what seems like frustration makes me raise an eyebrow. I guess there's some kind of enmity between the two."
+"เสียงถอนหายใจของลิลลี่กับน้ำเสียงที่ดูร้อนรนนั้นทำเอาฉันยักคิ้ว สองคนนั้นคงไม่ค่อยถูกกันมั้ง"
 
 #The following is seen if you don't get to see the choice
 
@@ -439,73 +439,73 @@ li "I suppose we'd best be off, then."
 #After this I'm not sure what happens so I'm leaving it here.
 #This next section is what you see if you get to see the choice.
 
-"It's intriguing, but that's not really something I'd ask about. I'm sure if they wanted me to know, then they would tell me."
+"ก็อยากรู้แหละ แต่ก็ไม่ใช่เรื่องที่จะต้องถามหรอก ถ้าอยากให้รู้ก็คงบอกเองละนะ"
 
-"It's only my third day here; I should be trying to make friends, not finding out why people are enemies."
+"เพิ่งมาได้สามวันก็หาเพื่อนไว้ก่อนดีกว่า ไม่ใช่ไปสอดว่าทำไมใครไม่ถูกกัน"
 
-"Still, it's a little funny to find out that this school has little feuds, just like my old high school."
+"แต่ก็ตลกดีที่ขนาดโรงเรียนนี้ก็มีคนที่ไม่ค่อยลงรอยกันเหมือนที่โรงเรียนเก่า"
 
-"Even if people are more tolerant of others, they're still going to get on each other's nerves."
+"ต่อให้คนจะใจกว้าง แต่ยังไงก็ต้องมีไปเหยียบเท้ากันบ้างแหละ"
 
-hi "Hey Lilly. How are things? I'm sorry I made you run off yesterday…"
+hi "เอ้อ ลิลลี่ สรุปเมื่อวานเป็นไงบ้าง ขอโทษที่ไม่ได้ตามไปนะ…"
 
 show lilly cane_surprised
 with charachange
 
-li "Oh my, is that Hisao? I didn't realize you were here…"
+li "ตายจริง ฮิซาโอะเหรอจ๊ะ ไม่ยักรู้ว่าเธออยู่ด้วย…"
 
-"It seems that Lilly is a little embarrassed about being so frank in front of me."
+"ดูเหมือนลิลลี่จะอายหน่อย ๆ ที่พูดอะไรตรง ๆ อย่างนั้นต่อหน้าฉัน"
 
 show hanako emb_sad
 with charachange
 
-ha "S-sorry Lilly. I thought you realized…"
+ha "ขะ ขอโทษนะลิลลี่ นึกว่าเธอรู้แล้ว…"
 
 show lilly cane_weaksmile
 with charachange
 
-li "No, it's all right, Hanako."
+li "ไม่เป็นไรจ้ะฮานาโกะ"
 
-li "Hisao, please don't worry about yesterday. It was just a misunderstanding."
+li "ฮิซาโอะ เธอไม่ต้องคิดมากเรื่องเมื่อวานหรอกจ้ะ แค่เข้าใจผิดกันน่ะ"
 
-hi "If… you say so. I'm still working this place out."
+hi "ถ้า… เธอว่างั้นฉันก็โอเค ฉันพยายามปรับตัวอยู่"
 
 show lilly cane_smile
 with charachange
 
-li "Well then, I think you'll find most people here a lot more forgiving than elsewhere."
+li "เดี๋ยวเธอก็รู้เองว่าคนที่นี่ใจดีกว่าที่ไหน ๆ "
 
-li "If you are feeling a little confused, please don't be afraid to ask questions."
+li "ถ้ายังมีอะไรข้องใจก็ถามได้เลยไม่ต้องเกรงใจนะจ๊ะ"
 
-hi "Sure, I'll remember that."
+hi "อื้อ จะจำไว้นะ"
 
 show hanako emb_timid
 with charachange
 
-ha "Um… Lilly…"
+ha "เอ่อ… ลิลลี่…"
 
 show lilly cane_weaksmile
 with charachange
 
-"Lilly gives a small nod of acknowledgment."
+"ลิลลี่พยักหน้ายิ้มรับน้อย ๆ "
 
-li "I'm sorry Hisao, but we must be off."
+li "ขอโทษนะจ๊ะฮิซาโอะ พวกเราต้องไปแล้วละ"
 
-"Hanako really doesn't look all that comfortable here right now, and Lilly still seems a little embarrassed."
+"ฮานาโกะดูจะไม่อยากอยู่ที่นี่แล้ว ลิลลี่ก็ยังดูอายหน่อย ๆ"
 
-"I wonder if my apologies really made any impact."
+"คำขอโทษของฉันมีผลอะไรบ้างมั้ยนะ"
 
-hi "Mind if I accompany you two?"
+hi "ขอไปด้วยได้มั้ย"
 
 show lilly cane_smile
 with charachange
 
-"I know I'm kinda pushing it, but… Lilly hmms quietly, still smiling."
+"รู้อยู่ว่าดูเสนอหน้าไปหน่อย แต่… ลิลลี่ทำเสียงครุ่นคิดเบา ๆ พร้อมรอยยิ้ม"
 
 show lilly cane_weaksmile
 with charachange
 
-li "I'm sure that we could accommodate you, can't we, Hanako?"
+li "พวกเราน่าจะอยู่กับเธอได้นะ ว่าไงจ๊ะ ฮานาโกะ"
 
 show hanako emb_downsad
 with charachange
@@ -513,18 +513,18 @@ with charachange
 show hanako basic_worry
 with charachange
 
-"She looks at Lilly, then at me, and then she freezes, wide-eyed."
+"เธอมองลิลลี่แล้วหันมาทางฉัน ตัวแข็งทื่อตาเบิกโพลง"
 
-ha "S… sure."
+ha "ดะ… ได้สิ"
 
 show lilly cane_cheerful
 with charachange
 
-li "Well then, shall we go?"
+li "งั้นก็ไปกันเถอะ"
 
-"I'm sure Lilly wouldn't do this so easily if she saw how scared Hanako looks, but it can't be helped now."
+"ลิลลี่คงไม่ตกลงง่าย ๆ แน่ถ้าเห็นว่าฮานาโกะตกใจขนาดไหน แต่ก็ช่วยไม่ได้แล้วละนะ"
 
-"Declining after the deal is sealed would only cause confusion and problems."
+"จะปฏิเสธหลังจบเรื่องแล้วก็คงงงแล้วเป็นเรื่องอีก"
 
 stop music fadeout 1.0
 
@@ -540,14 +540,14 @@ show misha sign_smile at twoleft
 show shizu adjust_happy at tworight
 with charaenter
 
-"Misha and Shizune are still arguing about their choice for lunch place, incomprehensible for a pair of high school students who have to take a taxi at least to make it to downtown and back in time." 
+"มิช่าและชิซูเนะยังเถียงกันเรื่องที่กินข้าวเที่ยงอยู่ ซึ่งก็ไม่เข้าใจจะเถียงทำไมเพราะถ้าจะเข้าเมืองแล้วกลับมาให้ทัน\nก็ต้องไปแท็กซี่อย่างเดียว" 
 
-hi "Haven't you finished, already?"
+hi "ยังไม่จบกันอีกเหรอ"
 
 show misha hips_grin
 with charachange
 
-mi "Oh, sorry Hicchan! Were you waiting for us?"
+mi "อ๊ะ โทษทีฮิจัง! รอเราอยู่เหรอ"
 
 show shizu behind_smile
 with charachange
@@ -557,13 +557,13 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "You don't have any plans?"
+mi "นายไม่ไปไหนเหรอ"
 
-hi "Plans?"
+hi "ไปไหน"
 
-mi "For lunch?"
+mi "ข้าวเที่ยงไง"
 
-hi "Well, I don't, so I thought I could hang with you guys."
+hi "ก็ไม่รู้จะไปไหน เลยกะจะตามพวกเธอไปนี่แหละ"
 
 show misha sign_smile
 with charachange
@@ -571,7 +571,7 @@ with charachange
 show misha perky_smile
 with charachange
 
-"Misha smiles victoriously at my lack of plans, and excitedly translates my response to Shizune."
+"มิช่ายิ้มอย่างผู้มีชัยให้กับความไร้เป้าหมายของฉัน แล้วรีบแปลคำตอบฉันให้ชิซูเนะทันที"
 
 show shizu adjust_smug
 with charachange
@@ -583,11 +583,11 @@ with charachange
 
 stop music fadeout 5.0
 
-mi "If you don't have anything specific planned out, do you want to eat lunch with me and Shicchan? Ah, we're going to go to town for lunch, though… Don't worry, Hicchan, it's not that far."
+mi "ถ้ายังไม่รู้จะไปไหนงั้นไปกินข้าวเที่ยงด้วยกันกับฉันแล้วก็ชิจังมั้ย อ้อ แต่จะเข้าเมืองนะ… ไม่ต้องห่วงฮิจัง ไม่ไกลขนาดนั้น"
 
-hi "Sure, I'll come with you."
+hi "ได้ งั้นเดี๋ยวไปด้วย"
 
-"And with that, we leave the classroom."
+"และพวกเราก็จากห้องเรียนมา"
 
 
 
@@ -600,7 +600,7 @@ with locationchange
 
 play ambient sfx_emisprinting fadein 3.0
 
-"Just around the corner of the hallway something hits me in the chest with the force of a runaway train."
+"ทันทีที่ออกมาจากโถงทางเดินก็มีบางอย่างเข้ามาชนกับฉันอย่างจังเหมือนรถไฟเบรกแตก"
 
 label th_A11a:
 
@@ -611,35 +611,35 @@ with vpunch
 scene black
 with Dissolve(0.2)
 
-hi "Ouch…"
+hi "โอ๊ย…"
 
 play music music_emi fadein 2.0
 
 show ev emi_knockeddown_facepullout
 with openeye
 
-"Opening my eyes, I see a pair of saucer-like green eyes looking up at me."
+"เมื่อลืมตาขึ้นมาก็เห็นตากลมสีเขียวคู่หนึ่งที่มองมาทางฉัน"
 
 show ev emi_knockeddown_largepullout
 with flash
 
-"They belong to the perpetrator, a short girl who bumped into me and has now fallen down onto the hallway floor."
+"เป็นตาของคนร้ายที่เป็นผู้หญิงตัวเตี้ยที่เข้ามาชนแล้วล้มลงไปอยู่กับพื้นทางเดิน"
 
-"She wears a PE uniform and a very worried frown. The former strikes me as a rather strange thing to have on during a lunch break."
+"ใส่ชุดพละพร้อมทำขมวดคิ้ว ฉันนึกแปลกใจกับการใส่ชุดพละในเวลาพักเที่ยงแบบนี้"
 
-"…More striking than that, though, is that she doesn't have legs."
+"…แต่ที่เด่นกว่านั้นคือขาที่หายไป"
 
 show ev emi_knockeddown_legs
 with flash
 
-"Or she does, but they are not flesh and bone. Her pale and very much flesh-and-bone thighs end in shins and feet made of some black metallic or plastic-like material."
+"ไม่ใช่ว่าหายไปหรอก แค่ว่าไม่ใช่แบบเนื้อกับกระดูก ส่วนขาขาวที่เป็นเลือดเนื้อจริง ๆ มีลงมาจนถึงบริเวณหน้าแข้ง ส่วน\nที่เท้าดูจะเป็นเหล็กหรือพลาสติกสักอย่างสีดำ"
 
-"They look disturbingly artificial and unnatural. It almost makes me forget that my chest is hurting."
+"ดูไม่เป็นธรรมชาติจนรู้สึกใจคอไม่ดี เล่นเอาเกือบลืมหน้าอกที่เจ็บอยู่เลย"
 
 show ev emi_knockeddown at center
 with flash
 
-"The girl winces a little, rubs her nose and jumps up."
+"เธอหน้านิ่วไปเล็กน้อย ลูบ ๆ จมูกแล้วเด้งตัวขึ้นมา"
 
 scene bg school_hallway3 at bgleft
 with locationchange
@@ -647,17 +647,17 @@ with locationchange
 show emi sad_depressed_gym at center
 with easeinbottom
 
-emi_ "Aw man… Hey, are you all right? I'm sorry about that, really!"
+emi_ "โอย… นี่ นายไม่เป็นอะไรใช่มั้ย ขอโทษจริง ๆ นะ!"
 
-emi_ "I wasn't looking where I was going, and you just came out of nowhere. Sorry… Sorry!"
+emi_ "พอดีไม่ได้ดูทางแล้วนายก็โผล่ออกมาแน่ะ ขอโทษนะ… ขอโทษ!"
 
-"She's looking really apologetic, in the hurt puppy way of looking apologetic."
+"สีหน้าท่าทางดูจะขอโทษจริง ๆ เหมือนลูกหมาที่เจ็บร้องหงิง ๆ"
 
-"I quickly forget about being angry or anything, since hurt puppies are my weak spot."
+"ความโกรธหรืออะไรหายไปฉับพลัน เพราะถ้าฉันเห็นลูกหมาเจ็บแล้วจะใจอ่อนทันที"
 
 stop music fadeout 2.0
 
-hi "It's okay. Don't worry about it… ouch…"
+hi "ไม่เป็นไรหรอก ไม่ต้องเป็นห่วง… โอ๊ย…"
 
 play sound sfx_heartfast
 show heartattack alpha 
@@ -666,9 +666,9 @@ with Dissolve (0.1)
 hide heartattack alpha
 with Dissolve (0.7)
 
-"I say that, but there's a stinging pain growing in my chest, and I know that this is about the biggest possible danger for my condition."
+"ปากพูดงั้น แต่ในอกก็ยังเจ็บจี๊ดขึ้นมา และฉันก็รู้ว่านี่เป็นอันตรายร้ายแรงที่สุดต่อโรคของฉัน"
 
-"Don't overexert yourself, don't forget your medication and most of all, don't get hit in the chest."
+"อย่าหักโหม อย่าลืมกินยา และที่สำคัญที่สุด อย่าให้หน้าอกกระทบกระเทือน"
 
 play sound sfx_heartslow
 show heartattack alpha 
@@ -677,7 +677,7 @@ with Dissolve (0.1)
 hide heartattack alpha
 with Dissolve (0.7)
 
-"I try to rub my solar plexus to chase the pain away, holding my breath in an attempt to hear my heartbeat."
+"ฉันลูบบริเวณหน้าอกเพื่อบรรเทาอาการเจ็บ กลั้นหายใจเพื่อจะฟังเสียงหัวใจเต้น"
 
 play sound sfx_heartslow
 show heartattack alpha 
@@ -703,49 +703,49 @@ hide heartattack alpha
 with Dissolve (0.7)
 with Pause (1.0)
 
-"It seems normal…"
+"ก็ดูไม่มีอะไร…"
 
 show emi basic_shock_gym
 with charachange
 
-emi_ "Hey, should I get a nurse?"
+emi_ "ให้เรียกพยาบาลมั้ย"
 
 play music music_emi fadein 0.2
 
-"The worried, high-pitched voice of the girl snaps me out of it."
+"เสียงเธอที่แหลมและดูเป็นห่วงดึงสติฉันกลับมา"
 
-"I stare at her for a few seconds dumbfounded, until I realize that I probably looked worse off than I really was, doubled over myself and looking all tense."
+"ฉันยืนเป็นใบ้จ้องเธออยู่สองสามวินาที จนนึกได้ว่าท่าทางฉันคงดูหนักกว่าอาการจริง ๆ แล้วยิ่งตัวเกร็งแบบนั้นอีก"
 
-"Damn, I'm overly worried about my heart."
+"ให้ตาย ฉันนี่คิดมากไปจริง ๆ"
 
-hi "Err… no need, I'm fine."
+hi "เอ่อ… ไม่ต้องหรอก ไม่เป็นไร"
 
-"Managing to say something in response, I pull myself upright, feeling my sore ribs one last time, and take a deep breath."
+"เมื่อตั้งสติตอบกลับได้ก็ยืดตัวตรงพร้อมความปวดที่ซี่โครงหน่อย ๆ แล้วสูดหายใจลึก ๆ"
 
-"She just knocked the wind out of me. Big time. But it's nothing more than that."
+"คงจะชนแล้วจุกอกขึ้นมา แต่ก็แค่นั้นแหละ"
 
 show emi basic_hes_gym
 with charachange
 
-emi_ "You sure you're okay? I hit you pretty hard."
+emi_ "ไม่เป็นไรจริง ๆ นะ เมื่อกี้ชนซะแรงเลย"
 
-hi "It's okay. I said I was fine, and nothing's broken. No harm done."
+hi "สบายมาก ก็บอกแล้วว่าไม่เป็นไรหรอก ไม่มีอะไรเสีย ไม่มีอะไรพัง"
 
 show emi basic_happy_gym
 with charachange
 
-emi_ "That's good! I was—"
+emi_ "งั้นก็ดีแล้วละ! พอดีฉัน—"
 
 #*****************************
 
 label th_A11b:
 
-"I feel a hand on my shoulder at the same time the girl's eyes widen in horror and whatever she was saying gets interrupted by a very horrified—{w=.9}{nw}"
+"มีมือหนึ่งตบลงมาที่บ่าของฉัน ตาของหญิงสาวตรงหน้าเบิกด้วยความสยอง ประโยคที่เธอพูดมาถูกคั่นกลางด้วย—{w=.9}{nw}"
 
 show emi basic_hes_gym
 with charachange
 
-emi_ "Eep!"
+emi_ "ว้าย!"
 
 show misha hips_frown at offscreenleft behind emi
 show shizu cross_rage at offscreenleft behind emi
@@ -757,19 +757,19 @@ show shizu cross_rage at  Position(xalign=0.4)
 show misha hips_smile at left
 with charamove
 
-"I don't have time to look behind me because Shizune is already shoving me aside and stomping over to the girl, signing furiously at her."
+"ฉันไม่ทันได้หันหลังไปมองเพราะถูกชิซูเนะผลักออกมาก่อน เธอย่างสามขุมเข้าไปหาหญิงสาวและทำภาษามือด้วยความโกรธเกรี้ยว"
 
 show misha hips_grin
 with charachange
 
-mi "Miss Ibarazaki, I saw that. Running in the halls is strictly forbidden."
+mi "คุณอิบาราซากิ ฉันเห็นนะ กฎเขาบอกว่าห้ามวิ่งในโถงทางเดินเป็นอันขาด"
 
-"Misha translates, right on Shizune's tail, but her voice is girlishly playful, not full of the divine fury Shizune's arm movements would seem to call for."
+"มิช่าแปลอยู่ไม่ห่างชิซูเนะ แต่เสียงของเธอดูขี้เล่นแบบสาวน้อย ไม่ใช่อารมณ์สวรรค์พิโรธอย่างที่เห็นเธอทำภาษามือ"
 
 show emi basic_closedsweat_gym
 with charachange
 
-emi_ "Er, sorry, I was just going to get some stuff, and I was in a kind of a hurry."
+emi_ "เอ่อ ขอโทษที พอดีมีธุระรีบไปเอาของน่ะ"
 
 show shizu adjust_angry
 with charachange
@@ -779,16 +779,16 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "You've been told this a thousand times before. Your reckless behavior endangers other students, and even worse, it's explicitly against the school regulations."
+mi "ฉันบอกเธอไปเป็นพันครั้งแล้วนะว่าความสะเพร่าของเธอจะทำให้คนอื่นเดือดร้อน แล้วที่แย่กว่านั้นคือมันผิดกฎโรงเรียน"
 
 show emi sad_depressed_gym
 with charachange
 
-"The girl blushes and starts to fidget nervously like a little child caught misbehaving."
+"เธอหน้าแดงแล้วทำตัวบิดไปมาเหมือนเด็กที่โดนจับได้ว่าทำผิด"
 
-"It's so cute I find myself smiling."
+"น่ารักจนอดยิ้มไม่ได้"
 
-emi_ "I know that! I— I, um, I was just…"
+emi_ "รู้น่า! ฉะ ฉันแค่…"
 
 show shizu cross_angry
 with charachange
@@ -798,26 +798,26 @@ shi "…"
 show misha cross_smile
 with charachange
 
-mi "Make sure that this will not happen again… although I'm sure telling you this is futile, and only causes me further headache when you choose to ignore the regulations."
+mi "อย่าทำอีกแล้วกัน… แต่รู้อยู่ว่าบอกไปก็คงไม่ดีขึ้นหรอก แล้วฉันก็จะต้องปวดหัวอีกถ้าเธอทำผิดกฎซ้ำ"
 
 show misha cross_grin
 with charachange
 
-mi "Got that, Emi?"
+mi "เข้าใจนะเอมิ"
 
 show emi sad_annoyed_gym
 with charachange
 
-"The small girl sticks her tongue out in response."
+"สาวร่างบางเธอแลบลิ้นตอบ"
 
 show emi basic_hes_gym
 with charachange
 
-emi "Aaah!"
+emi "อ๊าาา!"
 
-emi "I gotta go!"
+emi "ต้องไปแล้ว!"
 
-emi "Teacher'll have my head! I promised to help with printouts, but I went running instead! Sorry, but I've gotta change and everything!"
+emi "ครูเล่นฉันตายแน่! ฉันบอกว่าจะไปช่วยเรื่องเอกสารแต่กลับไปวิ่งแทน! ขอโทษทีนะ ต้องรีบไปเปลี่ยนชุดไปอะไรก่อนแล้ว!"
 
 play sound sfx_emisprinting
 stop music fadeout 1.0
@@ -827,7 +827,7 @@ with easeoutleft
 
 stop sound fadeout 1.5
 
-"Before Misha or Shizune or I can say anything, she's already bolted from where she was a second ago, almost halfway towards the stairwell."
+"มิช่าและชิซูเนะยังไม่ทันได้พูดอะไรเธอก็พุ่งตัวออกไปจากจุดที่อยู่เมื่อกี้จนเกือบถึงบันได"
 
 show shizu cross_angry at tworight
 show misha cross_grin at twoleft
@@ -836,7 +836,7 @@ with charamove
 
 play music music_normal fadein 3.0
 
-"Shizune looks like she's about to go nuclear on the spot, so I smile at her in a vain attempt to calm her down."
+"ชิซูเนะดูเหมือนพร้อมจะสั่งระเบิดลงได้ทุกเมื่อ ฉันจึงยิ้มแห้ง ๆ หวังให้เธอใจเย็น"
 
 show shizu basic_frown
 with charachange
@@ -846,18 +846,18 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "Are you okay, Hicchan? That Ibarazaki girl is always like that, causing trouble to others."
+mi "ไหวมั้ยฮิจัง อิบาราซากิเขาก็ทำคนอื่นเดือดร้อนอย่างนั้นตลอดแหละ"
 
-hi "You know, I'm pretty certain Shizune wouldn't call me “Hicchan.”"
+hi "เอ่อ คือ ฉันว่าชิซูเนะไม่น่าเรียกฉันว่า “ฮิจัง” นะ"
 
 show misha hips_grin
 with charachange
 
-mi "Never mind, never mind!"
+mi "ช่างเถอะ ๆ !"
 
 "…"
 
-hi "Yeah, anyway, I'm okay. Just got the wind knocked out of me."
+hi "เอ้อ นั่นแหละ ฉันไม่เป็นไร แค่จุกนิดหน่อย"
 
 show shizu basic_normal
 with charachange
@@ -867,9 +867,9 @@ shi "…"
 show misha cross_grin
 with charachange
 
-mi "That's great, Hicchan!"
+mi "ก็ดีแล้วละฮิจัง!"
 
-"I wouldn't call that great, but I let it slide this one time."
+"ไม่น่าเรียกว่าดีได้นะ แต่ก็ปล่อย ๆ ไปหน่อยแล้วกัน"
 
 #*****************************
 
@@ -887,16 +887,16 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "So, let's hurry, Hicchan~! To have lunch!"
+mi "งั้นก็รีบไปกันเถอะฮิจัง~! ไปกินข้าวเที่ยง!"
 
 show misha hips_grin
 with charachange
 
-mi "We promise it'll be great!"
+mi "รับประกันเลยว่าสุดยอด!"
 
-hi "I'll take your word for it. What kind of a place is it?"
+hi "จะเชื่อเธอแล้วกัน เป็นร้านแบบไหนเหรอ"
 
-hi "A restaurant, or something?"
+hi "ร้านอาหารหรืออะไร"
 
 show shizu behind_smile
 with charachange
@@ -906,9 +906,9 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "It's a teahouse, Hicchan~!"
+mi "โรงน้ำชาน่ะฮิจัง~!"
 
-"A teahouse… that sounds kind of fancy."
+"โรงน้ำชา… ก็ฟังดูหรูดี"
 
 show shizu adjust_smug
 with charachange
@@ -918,18 +918,18 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Why are you looking at your wallet, Hicchan? It's okay, if you don't have any money we'll cover for you~!"
+mi "ไหงมองกระเป๋าสตางค์ตัวเองแบบนั้นล่ะฮิจัง ไม่เป็นไรน่า ถ้าไม่มีเงินเดี๋ยวเลี้ยง~!"
 
-hi "That's really nice of you. Thanks."
+hi "ขอบคุณที่อุตส่าห์เลี้ยงนะ"
 
 show misha hips_smile
 with charachange
 
-mi "It's okay, Hicchan! After all, we're friends, right, Hicchan?"
+mi "ไม่เป็นไรน่าฮิจัง! ก็พวกเราเป็นเพื่อนกันนี่นา เนอะ ฮิจัง"
 
-"It's only been three days. Are we really friends that quickly?"
+"เพิ่งมาได้สามวันเอง เป็นเพื่อนกันเร็วขนาดนี้เลยเหรอ"
 
-"Heh. But, hearing that makes me happy."
+"ฮะ ๆ แต่ได้ยินแล้วก็มีความสุขดี"
 
 show shizu behind_blank
 with charachange
@@ -939,30 +939,30 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Ah, it's only for today, though, and only if you accept right now! Do you want to go, Hicchan?"
+mi "อ้อ แต่ก็แค่วันนี้ แล้วก็ต้องตกลงตอนนี้ด้วยนะ! ฮิจังจะไปมั้ย"
 
-"I start wondering if this is some kind of trap. Is this Misha's suggestion or Shizune's? This is important. I'm still a little apprehensive about the possible motives of a girl whose favorite pastime is the game of world domination."
+"รู้สึกเหมือนเป็นกับดักเลยแฮะ อันนี้คือคำชวนของมิช่าหรือชิซูเนะกันแน่ ตรงนี้สำคัญเพราะฉันยังระแวงกับเจตนาแฝงของ\nผู้หญิงที่ชอบเล่นเกมครองโลกเป็นงานอดิเรก"
 
-"No, I'm just being paranoid. Actually, they have grown on me already, and I do have to go to town sometime. So why not now, with them?"
+"ไม่หรอก คิดมากน่า ที่จริงก็เริ่มชอบอยู่กับพวกเธอขึ้นมาแล้วด้วย แล้วเดี๋ยวยังไงก็ต้องเข้าเมืองอยู่ดี\nไปตอนนี้กับพวกเธอเลยก็ได้"
 
-"I've never actually been to a teahouse before. All my expectations are from what I've seen about them on TV. But those are period dramas, and these are modern times. It might just be a regular café, and they're just calling it a teahouse."
+"ฉันไม่เคยเข้าโรงน้ำชามาก่อน ภาพในหัวก็เป็นตามที่เห็นจากทีวี แต่พวกนั้นก็เป็นละครย้อนยุค แต่ตอนนี้ไม่น่าใช่แล้ว \nอาจจะเป็นแค่คาเฟปกติแล้วเรียกโรงน้ำชาเฉย ๆ"
 
-"Either way, I'm curious about that, too, so there's another reason for me to join them."
+"แต่ยังไงก็อยากรู้อยู่ดี เพราะงั้นไปด้วยดีกว่า"
 
-hi "Sure."
+hi "ไป"
 
 show misha hips_grin
 show shizu behind_smile
 with charachange
 
-mi "That's great, Hicchan~! That's great, that's great! Yay~!"
+mi "เยี่ยมเลยฮิจัง เยี่ยมจริง ๆ เยี่ยมจริง ๆ ! เย้~!"
 
-"Misha hops up and down briefly to show how happy she is, which causes a few heads to turn towards us. Shizune opts for a polite, tiny clap that lasts for all of two seconds before she goes back to looking stoic as usual."
+"มิช่าดีอกดีใจเต้นไปมาน้อย ๆ จนทำคนเริ่มมอง ส่วนชิซูเนะเลือกที่จะปรบมืออย่างสุภาพอยู่สักสองวินาทีก่อนจะกลับเข้าสู่\nอารมณ์นิ่ง ๆ อย่างเดิม"
 
 show shizu behind_blank
 with charachange
 
-hi "Would it kill you to be a little happier, Shizune?"
+hi "ดีใจสักหน่อยมันจะตายหรือยังไงชิซูเนะ"
 
 show shizu basic_normal2
 with charachange
@@ -972,14 +972,14 @@ shi "…"
 show misha cross_laugh
 with charachange
 
-mi "Oh? I wasn't aware that Hicchan was a king. Hahahaha~!"
+mi "โฮ่ ไม่ยักรู้ว่าฮิจังเป็นราชานะเนี่ย ฮ่าฮ่าฮ่าฮ่า~!"
 
 show shizu adjust_smug
 with charachange
 
-"Shizune pushes her glasses up as Misha delivers her message totally without sarcasm. I guess it would sting more if she could say it with the intent Shizune meant behind it, so for once I'm happy to have Misha as a barrier between us."
+"ชิซูเนะดันแว่นระหว่างที่ชิซูเนะแปลข้อความมาโดยไร้ซึ่งน้ำเสียงประชด ถ้าเกิดว่าพูดน้ำเสียงอย่างที่ชิซูเนะตั้งใจจะทำ\nก็คงเจ็บกว่านี้แหละ ดีเหมือนกันที่มีมิช่าเป็นกำแพงกั้นกลางให้"
 
-hi "I'm not telling you to jump for joy just because I'm having lunch with you. I'm not that arrogant."
+hi "ไม่ได้จะบอกให้กระโดดโลดเต้นเพราะฉันยอมกินข้าวเที่ยงด้วยสักหน่อย ฉันไม่ได้ถือตัวขนาดนั้น"
 
 show shizu adjust_happy
 show misha cross_grin
@@ -987,7 +987,7 @@ with charachange
 
 stop music fadeout 2.0
 
-"She seems to accept this, and we head for town with Shizune leading the way."
+"เธอดูจะยอมรับ แล้วเราก็เข้าเมืองไปโดยมีชิซูเนะนำทาง"
 
 #*****************************
 
@@ -1003,7 +1003,7 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "We have to run now, there is an important student council meeting regarding the festival. And we finally decided where to eat~!"
+mi "พวกเราต้องไปแล้วละ มีประชุมสำคัญของสภานักเรียนเรื่องงานเทศกาล แล้วก็ตกลงกันได้แล้วว่าจะไปกินข้าวที่ไหนดี~!"
 
 show shizu behind_blank
 with charachange
@@ -1013,17 +1013,17 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Too bad you can't join, but this lunch meeting is only for council members."
+mi "น่าเสียดายที่นายมาด้วยไม่ได้ เพราะประชุมมื้อเที่ยงมีไว้สำหรับสมาชิกสภานักเรียนเท่านั้น"
 
 show misha hips_grin
 with charachange
 
-mi "We can take you there some other time! Oh, but that'd be like a date, wouldn't it?"
+mi "ไว้เดี๋ยวพาไป! เอ้อ แต่เดี๋ยวก็เหมือนเป็นเดตสิเนอะ"
 
 show misha hips_laugh
 with charachange
 
-mi "Wahaha~!"
+mi "วะฮ่าฮ่า~!"
 
 hide misha
 hide shizu
@@ -1031,18 +1031,18 @@ with dissolve
 
 stop music fadeout 4.0
 
-"The girls leave for downstairs."
+"สองสาวเดินลงไปชั้นล่าง"
 
-"I didn't manage to get far from the third floor hallway before all this commotion struck, literally. I should get going as well."
+"ยังไม่ทันได้เดินไปไหนไกลจากโถงทางเดินชั้นสามนี้แล้วก็ปะทะเข้ากับเรื่องเลย ฉันเองก็ไปบ้างดีกว่า"
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"The lunch and the afternoon class pass uneventfully."
+"ทั้งพักเที่ยงและคาบบ่ายผ่านไปโดยไม่มีอะไรเกิดขึ้น"
 
-"I read most of the book I had started yesterday, and eat some of the mostly inedible offerings of the cafeteria."
+"ฉันอ่านหนังสือที่เริ่มอ่านมาจากเมื่อวาน กินอาหารรสชาติเหลือรับประทานที่โรงอาหาร"
 
-"The class is tiresome."
+"และการนั่งเรียนแสนน่าเบื่อ"
 
 #leads to A15
 
@@ -1053,20 +1053,20 @@ label th_A11c:
 scene bg school_hallway3
 with locationchange
 
-"So we leave, all three together."
+"แล้วพวกเราก็มาด้วยกันสามคน"
 
 show hanako emb_downtimid at center
 show lilly cane_smile at twoleft
 with charaenter
 
-"Lilly walks beside the wall, letting her cane gently tap against it every now and then. Hanako comes along right beside her, so close that she is practically half-hugging her as they go."
+"ลิลลี่เดินไปตามกำแพง ไม้เท้าแตะตามเป็นระยะ ๆ ส่วนฮานาโกะก็เดินขนาบมาใกล้ ๆ จนแขนข้างหนึ่งโอบลิลลี่ไปแล้ว"
 
-"Although it must make her walking that much harder, Lilly takes it in stride."
+"ทั้งที่ลิลลี่น่าจะเดินลำบากขึ้นมาก แต่เธอก็ยังเดินไปอย่างใจเย็น"
 
 show hanako defarms_shock
 with charachange
 
-"As we turn around the corner of the hallway, something hits me in the chest with the force of a steam train. Hanako shrieks a little and my vision briefly goes black."
+"ทันทีที่พวกเราออกมาจากโถงทางเดินก็มีบางอย่างเข้ามาชนกับฉันอย่างจังเหมือนรถจักรไอน้ำ ฮานาโกะกรีดร้องออกมาเบา ๆ และฉันก็วูบไปแวบหนึ่ง"
 
 label th_A11d:
 
@@ -1078,58 +1078,58 @@ show lilly cane_listen at left
 show hanako defarms_worry at right
 with charamove
 
-li "Hisao, what happened?"
+li "ฮิซาโอะ เกิดอะไรขึ้น"
 
-"She's not quite up to speed for obvious reasons, but she sounds very worried. More than what the situation deserves, really."
+"แน่นอนว่าเธอไม่ได้ตามมาในทันทีที่เกิดเรื่อง แต่น้ำเสียงดูเป็นห่วงมาก มากกว่าเรื่องที่เกิดด้วยซ้ำไป"
 
-hi "Someone just bumped into me, nothing serious. Just winded."
+hi "แค่คนมาชนน่ะ ไม่มีอะไรหรอก จุกนิดหน่อย"
 
 show emi excited_sad_gym
 with charachange
 
-emi_ "Er, sorry, it's my fault. I was just going to get some stuff, and I was in a kind of a hurry."
+emi_ "เอ่อ ขอโทษที ฉันผิดเอง พอดีมีธุระรีบไปเอาของน่ะ"
 
 show lilly cane_weaksmile
 show hanako def_worry
 with charachange
 
-li "That “someone” here is Emi, isn't it?"
+li "“คน” ที่ว่านั่นคือเอมิใช่มั้ย"
 
 show emi basic_hes_gym 
 with charachange
 
-"The little girl coughs quietly and shuffles her plastic or metallic feet, looking down at them before saying anything."
+"เธอกระแอมเบา ๆ แล้วจัดแจงขาของเธอที่ดูจะเป็นพลาสติกไม่ก็เหล็ก เธอก้มมองก่อนจะพูดอะไรต่อ"
 
 show emi basic_closedgrin_gym 
 with charachange
 
-emi "Hi, Lilly. Hanako."
+emi "ไง ลิลลี่ ฮานาโกะ"
 
-"I guess the girls know each other."
+"คงรู้จักกันละมั้ง"
 
 show lilly cane_sad
 show hanako def_worry
 with charachange
 
-li "Do please try to be more careful. You might be sturdy enough to endure these sorts of accidents, but there are people who aren't."
+li "เธอต้องระวังให้มากกว่านี้นะ เธออาจจะแข็งแรงพอที่จะไม่เป็นอะไรเวลาเกิดอุบัติเหตุแบบนี้ แต่คนที่แข็งแรงไม่พอก็มี"
 
 show emi sad_depressed_gym
 with charachange
 
-"The girl blushes and starts to fidget nervously like a little child caught misbehaving."
+"เธอหน้าแดงแล้วทำตัวบิดไปมาเหมือนเด็กที่โดนจับได้ว่าทำผิด"
 
-"It's so cute I find myself smiling."
+"น่ารักจนอดยิ้มไม่ได้"
 
-emi "I know that! I— I, um, I was just…"
+emi "รู้น่า! ฉะ ฉันแค่…"
 
 show emi basic_hes_gym
 show lilly cane_surprised
 show hanako defarms_shock
 with charachange
 
-emi "Aaah! I gotta go!"
+emi "อ๊าาา! ต้องไปแล้ว!"
 
-emi "Teacher'll have my head, I promised to help with printouts but I went running instead! Sorry, but I've gotta change and everything!"
+emi "ครูเล่นฉันตายแน่! ฉันบอกว่าจะไปช่วยเรื่องเอกสารแต่กลับไปวิ่งแทน! ขอโทษทีนะ ต้องรีบไปเปลี่ยนชุดไปอะไรก่อนแล้ว!"
 
 play sound sfx_emisprinting
 stop music fadeout 1.0
@@ -1139,9 +1139,9 @@ with easeoutleft
 
 stop sound fadeout 1.5
 
-"Before any of us can say a thing, Emi has already bolted away, leaving the hallway eerily quiet."
+"ก่อนที่เราสามคนจะทันได้พูดอะไร เอมิก็พุ่งตัวออกไปก่อนแล้ว ทิ้งไว้เพียงโถงทางเดินให้วังเวง"
 
-hi "Does that kind of thing happen often around here?"
+hi "เป็นงี้บ่อยเหรอ"
 
 show lilly cane_concerned
 show hanako def_worry
@@ -1152,19 +1152,19 @@ show hanako def_worry at tworight
 show bg school_hallway3 at center
 with charamove
 
-li "There are more rules in Yamaku than usual for running in corridors."
+li "ที่ยามากุเขามีกฎเรื่องห้ามวิ่งในโถงทางเดินอะไรเป็นพิเศษนะจ๊ะ"
 
 show lilly cane_listen
 with charachange
 
-li "…but that rarely stops Emi, it seems."
+li "…แต่ดูเหมือนว่าเอมิเขาจะไม่ค่อยฟังเลย"
 
 show lilly cane_weaksmile
 with charachange
 
-"She shakes her head weakly and offers a slight, composed smile."
+"เธอส่ายหน้าเบา ๆ แล้วระบายยิ้มสงบจาง ๆ"
 
-li "I don't think there's anything we can do to stop her, I'm afraid. Shall we be off, then?"
+li "ฉันว่าจะทำอะไรไปก็คงหยุดเธอไม่ได้หรอก งั้นพวกเราไปกันเลยมั้ยจ๊ะ"
 
 hide lilly
 with charaexit
@@ -1172,9 +1172,9 @@ with charaexit
 hide hanako
 with charaexit
 
-"Lilly heads off along the hallway, and Hanako hurries after her."
+"ลิลลี่เดินนำไปตามโถงทางเดิน ส่วนฮานาโกะก็รีบตามไป"
 
-"The route to the room the two use for tea is fairly simple to retrace, being still fresh in my mind from yesterday."
+"ทางไปห้องที่ทั้งสองคนใช้ดื่มชานั้นไม่ซับซ้อนมาก ยังคงจำมาจากเมื่อวานไม่ไปไหน"
 
 
 #*******************************************
@@ -1186,39 +1186,39 @@ with locationskip
 
 play music music_tranquil fadein 3.0
 
-"Watching her walk in front of me, I notice that she walks very quickly, taking long, heavy, determined strides."
+"พอเห็นเธอเดินนำอยู่ก็สังเกตว่าเธอเดินเร็ว ก้าวท้าวยาว ดูหนักแน่น"
 
-"Maybe if we were traveling through a snowstorm it would make sense to walk like that, but it's a perfectly clear day. Anyway, it's making me feel exhausted just watching her."
+"ถ้าเดินฝ่าพายุหิมะแล้วเดินแบบนี้ก็ว่าไปอย่าง แต่วันนี้ท้องฟ้าก็แจ่มใสดี แต่นั่นแหละ แค่เห็นก็เหนื่อยแทนแล้ว "
 
 scene bg suburb_shanghaiext
 with locationchange
 
-"We arrive at the teahouse in what Misha says is “record time,” likely because of Shizune's blazing pace. I feel a little let down seeing that it's not a huge feudal-era building with mats on the floor and women in kimonos pouring the tea."
+"พวกเรามาถึงที่โรงน้ำชาในระยะที่มิช่าบอกว่า “เวลาที่น้อยที่สุดเป็นประวัติการณ์” ที่น่าจะเป็นเพราะชิซูเนะที่เดินมาเร็ว\nแอบผิดหวังนิดหน่อยที่ร้านไม่ใช่ตึกยุคโบราณที่ใช้เสื่อปูพื้นแล้วมีผู้หญิงใส่ชุดกิโมโนคอยรินชาให้"
 
-"It actually is more like a café, as I thought. Not that it's a bad thing. It looks very nice."
+"เป็นคาเฟอย่างที่คิดไว้มากกว่า ก็ไม่ได้แย่หรอก ดูดีด้วยซ้ำ"
 
 play sound sfx_storebell
 
 scene bg suburb_shanghaiint
 with locationchange
 
-"As soon as I walk through the doors, someone zooms in front of us, as if they had been lying in wait the entire time."
+"ทันทีที่เดินผ่านประตูเข้าร้านก็มีคนพุ่งเข้ามาทันทีราวกับซุ่มรออยู่ก่อนแล้ว"
 
 show yuukoshang closedhappy_down at center
 with charaenter
 
-yu "Welcome! Thank you for patronizing this establishment!"
+yu "ยินดีต้อนรับค่ะ! ขอบคุณที่แวะมานะคะ!"
 
-"The top half of her body drops forward in a bow that looks like an axe chopping through wood."
+"เธอโค้งตัวเก้าสิบองศาเหมือนขวานที่ผ่าไม้"
 
-"I'm surprised to see it's none other than Yuuko, the librarian."
+"นึกแปลกใจที่เธอคือบรรณารักษ์ยูโกะนี่เอง"
 
-hi "Hey, I didn't know you worked here."
+hi "โห ไม่ยักรู้ว่าคุณทำงานที่นี่นะครับเนี่ย"
 
 show yuukoshang smile_down
 with charachange
 
-yu "Oh… Yes, I do. I'm a waitress… I've been working here for one year, six months, and two weeks now… Thank you for choosing to come here, is there anything I can do for you?"
+yu "อ้อ… ใช่แล้วละ เป็นพนักงานเสิร์ฟน่ะ… ทำงานมาได้หนึ่งปีหกเดือนสองสัปดาห์แล้ว… ขอบคุณที่เลือกร้านเรานะคะ\nจะรับอะไรดีคะ"
 
 show yuukoshang smile_down at twoleft
 show bg suburb_shanghaiint at bgleft
@@ -1228,35 +1228,35 @@ show shizu behind_smile at Position(xalign=1.2)
 show misha hips_grin at tworight
 with charaenter
 
-mi "Hi, Yuu-chan~!"
+mi "ไง ยูจัง~!"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "Hello."
+yu "สวัสดี"
 
-hi "Misha, you both know her too?"
+hi "มิช่า เธอสองคนรู้จักยูโกะด้วยเหรอ"
 
 show misha perky_smile
 with charachange
 
-mi "Of course, Hicchan~! Yuu-chan works in the library, after all~! I don't go there often myself, but Shicchan knows her! And~!, we both come here a lot, so it's like we see her all the time!"
+mi "ก็ยูจังทำงานที่ห้องสมุดนี่นา~! ฉันเองไม่ได้ไปบ่อยเท่าไหร่หรอก แต่ชิจังรู้จักนะ! แล้วก็~! เราสองคนมาที่นี่บ่อยด้วย\nเหมือนได้เจอกันตลอดเลย!"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Um… Yes… Should I get you your usuals? And… if there is anything you would want, please feel free to tell me at any time."
+yu "เอ่อ… ใช่แล้ว… เหมือนเดิมมั้ย แล้วก็… ถ้าอยากรับอะไรเพิ่มก็สั่งได้ตลอดเลยนะคะ"
 
-hi "You don't have to be so formal, we all know each other."
+hi "ไม่ต้องทางการขนาดนั้นหรอกครับ คนกันเองทั้งนั้น"
 
-"It's also pretty empty today, so she can afford to take it easy."
+"แถมวันนี้ไม่ค่อยมีคนด้วย จะปล่อยสบาย ๆ ก็ได้"
 
-"I was hoping she would stop looking so nervous, but my words have the opposite effect."
+"ฉันพูดด้วยหวังว่าเธอจะได้ไม่ต้องเกร็ง แต่กลับได้ผลตรงข้าม"
 
 show yuukoshang panic_up
 with charachange
 
-yu "No… I'm a waitress, this is my job, I have to… do it properly."
+yu "ไม่ได้สิ… นี่คือหน้าที่ฉันในฐานะเด็กเสิร์ฟนะ ต้อง… ทำให้ดี"
 
 show shizu adjust_happy
 with charachange
@@ -1266,26 +1266,26 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Okay, okay~! That works for Shicchan! Yuu-chan, please get Shicchan what she usually gets, and I'll have some green tea with milk and honey."
+mi "โอเค ๆ ~! ชิจังว่าตามนั้น! ยูจัง ขอเหมือนเดิมสำหรับชิจัง ส่วนฉันขอชาเขียวนมน้ำผึ้งแล้วกัน"
 
-hi "No pressure."
+hi "ไม่ต้องเครียดหรอกครับ"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Um, yes… but… this is my job, and… there is always pressure. I'm sorry, I'm arguing with a customer… Sorry! Sorry, sorry!"
+yu "เอ่อ ได้… แต่ว่า… นี่มันงานฉันนะ แล้วก็… เครียดตลอดเลย ขอโทษที่เถียงกับคุณลูกค้าค่ะ… ขอโทษค่ะ! ขอโทษ ๆ !"
 
-"Yuuko takes another hundred-mile-per-hour bow. I decide to give up and join Shizune and Misha at a table."
+"ยูโกะโค้งด้วยความเร็วร้อยหกสิบกิโลเมตรต่อชั่วโมงอีกครั้ง ฉันยอมปล่อยแล้วไปนั่งกับชิซูเนะและมิช่าที่โต๊ะ"
 
 scene bg suburb_shanghaiint at bgleft
 with shorttimeskip
 
-"As soon as I sit down, Yuuko comes by looking even more upset than before."
+"ทันทีที่นั่งลงยูโกะก็มาด้วยสีหน้าที่ร้อนรนกว่าเก่า"
 
 show yuukoshang panic_up
 with charachange
 
-yu "I'm sorry! I'm really, really sorry, I forgot to take your order… I'm… not attentive to customers, that's not right… I'm sorry… If there is anything I can do to make up for it, please tell me…"
+yu "ขอโทษค่ะ! ขอโทษ ขอโทษจริง ๆ ที่ลืมรับออเดอร์ไว้… ฉัน… ไม่เอาใจใส่ลูกค้า เป็นความผิดพลาด… ขอโทษค่ะ… ถ้ามีอะไร\nที่พอจะชดใช้ให้ได้ก็บอกเลยนะคะ…"
 
 scene ev shizu_shanghai
 with dissolve
@@ -1407,7 +1407,7 @@ with charachange
 
 mi "You really should join the Student Council, Hicchan. Come on, it'll be fun!"
 
-hi "People always say “come on, it'll be fun” about things that are never, ever fun."
+hi "People always say “come on, it'll be fun” เถอะน่า สนุกแน่ about things that are never, ever fun."
 
 show shizu behind_frown_close
 with charachange
