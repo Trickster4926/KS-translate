@@ -2197,7 +2197,6 @@ hi "ฟังดูน่าสนใจดีนะ"
 
 show hanako emb_downtimid_ss at centertremble
 with charachange
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # "So the mystery delinquent girl turned out to be anything but, and she is quivering in a way that makes it look like she is mortally afraid of me."
 "กลายเป็นว่าหญิงสาวที่ดูว่าเกเรจริง ๆ แล้วไม่ใช่คนแบบนั้นเลย\nมิหนำซ้ำตอนนี้เธอกลับตัวสั่นจนเห็นได้ชัดว่าตอนนี้เธอกลัวฉันอยู่"
@@ -2235,67 +2234,97 @@ hi "คือ… เอ่อ… ไม่ได้หมายความว�
 
 label th_A8b:
 
-hi "Sorry, I didn't mean to startle you."
+# hi "Sorry, I didn't mean to startle you."
+hi "ขอโทษที ไม่ได้ตั้งใจจะทำให้เธอตกใจน่ะ"
 
-ha_ "It… it's okay."
+# ha_ "It… it's okay."
+ha_ "มะ… ไม่เป็นไร"
 
-"The girl certainly doesn't look like it's okay, but I let it slide."
+# "The girl certainly doesn't look like it's okay, but I let it slide."
+"ท่าทางของเธอไม่ดูเหมือนว่าจะไม่เป็นไรอย่างที่เธอบอก แต่ฉันก็ปล่อยผ่านมันไป"
 
-hi "So, umm… do you mind if I sit here?"
+# hi "So, umm… do you mind if I sit here?"
+hi "งั้น เอ่อ… ขอนั่งด้วยได้ไหม"
 
-"She seems to be very uncertain whether it's okay or not for me to sit, but finally she nods, just a little."
+# "She seems to be very uncertain whether it's okay or not for me to sit, but finally she nods, just a little."
+"ท่าทีของเธอดูลังเลว่าจะให้ฉันนั่งด้วยดีไหม แต่สุดท้ายเธอก็หยักหน้าให้เล็กน้อย"
 
 scene ev hana_library
 with locationchange
 
-ha_ "O… okay."
+# ha_ "O… okay."
+ha_ "อ… โอเค"
 
 show ev hana_library_read
 with locationchange
 
-"I take the seat next to her, and she hides herself behind her book."
+# "I take the seat next to her, and she hides herself behind her book."
+"ฉันนั่งลงที่ข้าง ๆ เธอ และเธอก็หลบหน้าอยู่หลังหนังสือ"
 
-"“Life of Pi”… Never heard of it."
+# "“Life of Pi”… Never heard of it."
+"“ชีวิตอัศจรรย์ของพาย”… ไม่เคยได้ยินเลยแฮะ"
 
-hi "So, errr… sorry again for startling you. I'm Hisao."
+# hi "So, errr… sorry again for startling you. I'm Hisao."
+hi "ก็ เอ่อ… ขอโทษอีกรอบที่ทำให้ตกใจนะ ฉันชื่อฮิซาโอะ"
 
 show ev hana_library
 with locationchange
 
-"She looks up from her book, stalling a little before replying."
+# "She looks up from her book, stalling a little before replying."
+"เธอเงยหน้าขึ้นมาจากหนังสือ ชะงักเล็กน้อยก่อนที่จะตอบ"
 
-ha_ "I… know."
+# ha_ "I… know."
+ha_ "ฉัน… รู้"
 
-ha_ "We… are in the same… same class."
+# ha_ "We… are in the same… same class."
+ha_ "พวกเรา… อยู่ห้อง… ห้องเดียวกัน"
 
-"Her speech is stilted and so quiet that it is barely audible even in the still library."
+# "Her speech is stilted and so quiet that it is barely audible even in the still library."
+"เสียงพูดของเธอตะกุกตะกักและเบามากจนแทบจะไม่ได้ยินแม้จะอยู่ในห้องสมุดก็ตาม"
 
-"Somehow I think that my “delinquent” impression of her was wrong."
+# "Somehow I think that my “delinquent” impression of her was wrong."
+"ฉันคิดว่าภาพในหัวของฉันที่คิดว่าเธอ “เกเร” น่าจะผิด"
 
-ha_ "H-H-Hanako. I'm… Hanako."
+# ha_ "H-H-Hanako. I'm… Hanako."
+ha_ "ฮ-ฮ-ฮานาโกะ ฉันชื่อฮานาโกะ"
 
 stop music fadeout 8.0
 
 "…"
 
-"I resist the urge to say “that's a nice name” just to have something to say, but really, it's the only thing that I can think of."
+# "I resist the urge to say “that's a nice name” just to have something to say, but really, it's the only thing that I can think of."
+"ฉันพยายามที่จะห้ามไม่ให้ตัวเองพูดว่า “ชื่อเพราะดีจัง” เพื่อแค่จะตอบกลับ แต่ก็คิดคำตอบกลับได้แค่นี้อะ"
 
-"I feel like an idiot. Everyone here must be used to being different to each other, and here I am being all bothered and fussed about that kind of thing."
+# "I feel like an idiot. Everyone here must be used to being different to each other, and here I am being all bothered and fussed about that kind of thing."
+"รู้สึกเป็นคนโง่ไปเลย ทุกคนที่นี่ก็คงชินกับสภาพของแต่ละคนแล้ว ส่วนฉันยังต้องมานั่งกังวลกับเรื่องแบบนี้อยู่"
 
-hi "Don't let me interrupt your reading. I'll… just check these books if you don't mind."
+# hi "Don't let me interrupt your reading. I'll… just check these books if you don't mind."
+hi "งั้นไม่รบกวนละ เดี๋ยวฉันอ่านของฉันละ"
 
-"She nods a little, and sighs a little sigh of relief."
+# "She nods a little, and sighs a little sigh of relief."
+"เธอพยักหน้าเล็กน้อย และถอนหายใจเบา ๆ บ่งบอกว่าโล่งอก"
 
 "…"
 
 show ev hana_library_read
 with locationchange
 
-"So I try to read the covers and the introductions of the books I picked up and she buries her face in her book."
+# "So I try to read the covers and the introductions of the books I picked up and she buries her face in her book."
+"ฉันกลับมานั่งดูหน้าปกและบทนำของหนังสือที่ฉันหยิบมา ขณะที่เธอก็ก้มหน้าอ่านหนังสือต่อ"
 
-"Uncomfortable silence consumes us."
+# "Uncomfortable silence consumes us."
+"ความเงียบที่กระอักกระอ่วนเริ่มคืบคลานเข้ามาระหว่างเรา"
 
-"My eyes still wander to her direction, and I sneak peeks at her flowing hair and the scars it's hiding."
+# "My eyes still wander to her direction, and I sneak peeks at her flowing hair and the scars it's hiding."
+"สายตาของฉันยังคงวนเวียนอยู่ที่เธอ และฉันก็แอบมองผมที่ยาวสลวยและแผลเป็นที่ซ่อนใต้ผม"
+show ev hana_library
+with locationchange
+
+show ev hana_library_read
+with locationchange
+
+# "After a while I realize that she's doing the same and only pretending to be immersed in “Life of Pi.”"
+"ผ่านไปซักพัก ฉันถึงสังเกตเห็นว่าเธอเองก็ทำเหมือนกับฉัน และแค่แกล้งทำเป็นตั้งใจอ่าน “ชีวิตอัศจรรย์ของพาย”"
 
 show ev hana_library
 with locationchange
@@ -2303,20 +2332,14 @@ with locationchange
 show ev hana_library_read
 with locationchange
 
-"After a while I realize that she's doing the same and only pretending to be immersed in “Life of Pi.”"
+# "Her gaze is not inquisitive at all though, it darts around like a scared rabbit."
+"แต่สายตาของเธอไม่ได้มองมาด้วยความอยากรู้อยากเห็น แต่เป็นการมองไปมาเหมือนกระต่ายที่กำลังสั่นกลัว"
 
 show ev hana_library
 with locationchange
 
-show ev hana_library_read
-with locationchange
-
-"Her gaze is not inquisitive at all though, it darts around like a scared rabbit."
-
-show ev hana_library
-with locationchange
-
-"When our gazes finally meet, the chain reaction is unstoppable."
+# "When our gazes finally meet, the chain reaction is unstoppable."
+"เมื่อเราได้สบตากัน ก็พลันเกิดปฏิกิริยาตอบสนองกลับมา"
 
 play sound sfx_impact
 
@@ -2324,20 +2347,25 @@ scene bg school_library_ss
 show hanako def_worry_ss at center
 with vpunch
 
-"She stands up forcefully from the beanbag and takes a deep breath."
+# "She stands up forcefully from the beanbag and takes a deep breath."
+"เธอลุกขึ้นจากบีนแบ็กอย่างรวดเร็ว และสูดลมหายใจเข้าลึก ๆ"
 
 label th_A8c:
 
-ha "I…"
+# ha "I…"
+ha "ท…"
 
-ha "I… I…"
+# ha "I… I…"
+ha "ท… ทะ…"
 
-hi "I…?"
+# hi "I…?"
+hi "ทะ…?"
 
 show hanako defarms_strain_ss
 with charachange
 
-ha "Ivegottogodosomething!"
+# ha "Ivegottogodosomething!"
+ha "โทษทีมีธุระ!"
 
 show hanako defarms_strain_ss:
    xalign 0.5
@@ -2347,9 +2375,11 @@ with Pause(0.5)
 hide hanako
 with None
 
-"Without warning, Hanako takes off and runs towards the counter."
+# "Without warning, Hanako takes off and runs towards the counter."
+"ไม่ทันคาดคิด ฮานาโกะก็รีบกระโจนวิ่งออกไปยังเคาน์เตอร์"
 
-"Her hare-like takeoff catches me so off guard that I don't manage to go after her until she has a good head start."
+# "Her hare-like takeoff catches me so off guard that I don't manage to go after her until she has a good head start."
+"ท่าทีของเธอที่รีบออกไปแบบนั้นทำเอาตกใจไม่น้อย ก็เลยไม่เดินตามไปจนกว่าเธอจะออกไปได้สักพัก"
 
 scene bg school_library_ss
 show lilly cane_smileclosed_ss at twoleft
@@ -2358,43 +2388,55 @@ with locationskip
 
 play music music_pearly fadein 4.0
 
-"By the time I reach the counter she is nowhere to be seen."
+# "By the time I reach the counter she is nowhere to be seen."
+"พอฉันมาถึงที่เคาน์เตอร์ ก็ไม่เห็นเธอแล้ว"
 
-"Lilly and Yuuko are happily chatting away."
+# "Lilly and Yuuko are happily chatting away."
+"ลิลลี่กับคุณยูโกะก็กำลังดูคุยกันอย่างสนุกสนาน"
 
-"Knowing that I won't be able to catch Hanako myself, I approach the girls."
+# "Knowing that I won't be able to catch Hanako myself, I approach the girls."
+"ยังไงก็คงไปตามฮานาโกะไม่ทันอยู่แล้ว เลยเดินไปหาสองคนนั้นแทน"
 
-hi "Hey, did you see… er… notice a girl run past here?"
+# hi "Hey, did you see… er… notice a girl run past here?"
+hi "นี่พวกคุณเห็น… เอ่อ… สังเกตผู้หญิงที่วิ่งผ่านไปหรือเปล่า?"
 
 show yuuko smile_down_ss
 with charachange
 
-yu "Um, maybe… what did she look like?"
+# yu "Um, maybe… what did she look like?"
+yu "เอิ่ม น่าจะนะ… เธอหน้าตาเป็นยังไงล่ะ"
 
-hi "Long, dark hair. Kinda shy. She had… well… some scars… on her… face."
-
+# hi "Long, dark hair. Kinda shy. She had… well… some scars… on her… face."
+hi "ผมยาวเข้ม ค่อนข้างขี้อาย แล้วก็เอ่อ… มีแผลเป็น… บนหน้า…"
 show lilly cane_surprised_ss
 with charachange
 
-li "You wouldn't be talking about Hanako, would you?"
+# li "You wouldn't be talking about Hanako, would you?"
+li "นายคงจะหมายถึงฮานาโกะใช่ไหมจ๊ะ?"
 
-hi "Yeah, that's her. I saw her reading and tried to talk to her, but I think I scared her off or something."
+# hi "Yeah, that's her. I saw her reading and tried to talk to her, but I think I scared her off or something."
+hi "ใช่ ๆ นั่นแหละ ฉันเห็นเธอนั่งอ่านอยู่เลยพยายามเข้าไปทักทาย แต่เหมือนว่าฉันจะทำให้เธอกลัวหรือยังไงนี่แหละ"
 
 show lilly cane_sad_ss
 with charachange
 
-li "Oh dear. Yuuko, would you excuse me, I had better try and find her."
+# li "Oh dear. Yuuko, would you excuse me, I had better try and find her."
+li "ตายจริง คุณยูโกะ งั้นฉันขอตัวไปตามหาเธอก่อนนะคะ"
 
 show yuuko neurotic_up_ss
 with charachange
 
-yu "S-sure. I'll just hold onto these until you come back."
+# yu "S-sure. I'll just hold onto these until you come back."
+yu "ด-ได้สิ งั้นเดี๋ยวฉันเก็บหนังสือไว้รอเธอมาเอานะ"
 
-hi "Um, what's going on?"
+# hi "Um, what's going on?"
+hi "เอิ่ม มีอะไรงั้นเหรอ?"
 
-li "I'm sorry, but I'll have to explain it to you some other time."
+# li "I'm sorry, but I'll have to explain it to you some other time."
+li "โทษทีจ้ะ แต่เดี๋ยวฉันมาอธิบายให้วันหลังนะ"
 
-hi "Right. I'll see you later then…"
+# hi "Right. I'll see you later then…"
+hi "อ่า งั้นไว้เจอกัน"
 
 hide lilly
 with charaexit
@@ -2403,120 +2445,161 @@ show yuuko neurotic_up_ss at center
 show bg school_library_ss at bgleft
 with charamove
 
-"Lilly hastily grabs her cane and hurries out of the library, leaving me alone with Yuuko."
+# "Lilly hastily grabs her cane and hurries out of the library, leaving me alone with Yuuko."
+"ลิลลี่รีบคว้าไม้เท้าของเธอและรุดออกไปจากห้องสมุด ปล่อยฉันไว้อยู่กับคุณยูโกะ"
 
-hi "I don't think I'll ever get the hang of this place."
+# hi "I don't think I'll ever get the hang of this place."
+hi "ผมว่าผมคงไม่ชินกับที่นี่แหง ๆ"
 
-hi "Did I do something wrong?"
+# hi "Did I do something wrong?"
+hi "ผมทำอะไรผิดไปงั้นเหรอครับ?"
 
 show yuuko smile_down_ss
 with charachange
 
-yu "What did you do?"
-
+# yu "What did you do?"
+yu "เธอทำอะไรไปล่ะ?"
 
 label th_A8d:
 
-hi "Nothing! I just… talked to her. Tried to get to know her. Didn't even manage to get started."
+# hi "Nothing! I just… talked to her. Tried to get to know her. Didn't even manage to get started."
+hi "เปล่า! ผมก็แค่… เข้าไปคุยกับเธอ เพื่อจะได้ทำความรู้จัก ยังไม่ได้เริ่มด้วยซ้ำ"
 
 show yuuko worried_up_ss
 with charachange
 
-"Yuuko sighs and looks awfully bothered, even more so than she did before."
+# "Yuuko sighs and looks awfully bothered, even more so than she did before."
+"คุณยูโกะถอนหายใจและดูกังวลขึ้นมากว่าเดิม"
 
-yu "I guess you weren't “wrong” so much as “tactless.”"
+# yu "I guess you weren't “wrong” so much as “tactless.”"
+yu "ฉันว่าเธอไม่ได้เชิง “ผิด” หรอก แค่ “ขาดไหวพริบ” มากกว่า"
 
-hi "Tactless?"
+# hi "Tactless?"
+hi "“ขาดไหวพริบ”?"
 
 show yuuko smile_down_ss
 with charachange
 
-yu "That girl is a bit of a special case. It's like she never really talks to anyone."
+# yu "That girl is a bit of a special case. It's like she never really talks to anyone."
+yu "เด็กคนนั้นค่อนข้างพิเศษน่ะ เหมือนว่าเธอจะไม่คุยกับใครเลยน่ะ"
 
-hi "Isn't that a bit… strange?"
+# hi "Isn't that a bit… strange?"
+hi "นั่นไม่แปลกไปหน่อย…ไหมครับ?"
 
-yu "I wonder… It's just how she is, I think."
+# yu "I wonder… It's just how she is, I think."
+yu "นั่นน่ะสิ แต่เธอก็เป็นแบบนั้นแหละ คิดว่านะ"
 
-"Yuuko doesn't sound all that convincing. Then again, maybe this is just the norm around here."
+# "Yuuko doesn't sound all that convincing. Then again, maybe this is just the norm around here."
+"คุณยูโกะเองก็ดูไม่ค่อยจะเชื่อเรื่องนี้สักเท่าไหร่ แต่ก็คงเป็นเรื่องปกติคงที่นี่แหละนะ"
 
-"Everyone has their own problems, or else they wouldn't be here."
+# "Everyone has their own problems, or else they wouldn't be here."
+"ทุกคนล้วนมีปัญหาส่วนตัวแหละ ไม่งั้นคงไม่มาอยู่ที่นี่หรอก"
 
-"Perhaps I was being a little tactless after all."
+# "Perhaps I was being a little tactless after all."
+"หวังว่าฉันเองก็คงจะมีไหวพริบขึ้นมาสักหน่อย"
 
 
 label th_A8e:
 
-hi "Nothing! I was just looking for some books and then she got this fit and ran off."
+# hi "Nothing! I was just looking for some books and then she got this fit and ran off."
+hi "เปล่า! ผมก็แค่นั่งอ่านหนังสือแล้วเธอก็วิ่งแจ้นออกไปเลย"
 
-hi "The most offending thing I can think of was that I might've looked at her general direction a few times."
+# hi "The most offending thing I can think of was that I might've looked at her general direction a few times."
+hi "ที่น่าจะเป็นสาเหตุก็คงเพราะผมน่าจะเผลอมองเธอไปสองสามที"
 
 show yuuko worried_up_ss
 with charachange
 
-yu "Well, she is a very timid girl."
+# yu "Well, she is a very timid girl."
+yu "ก็นะ เธอคนนั้นน่ะขี้อายมาก"
 
-yu "You have to be very careful around her. She can be very jumpy, I think, and she's not accustomed to talking with other people."
+# yu "You have to be very careful around her. She can be very jumpy, I think, and she's not accustomed to talking with other people."
+yu "อยู่กับเธอก็ระวังหน่อยแล้วกัน เธอเป็นคนขี้ตกใจน่ะ คิดว่านะ แล้วก็ไม่ค่อยชินกับการคุยกับคนอื่นด้วย"
 
-hi "Isn't that a bit… strange?"
+# hi "Isn't that a bit… strange?"
+hi "นั่นไม่แปลกไปหน่อย…ไหมครับ?"
 
-yu "I wonder… It's just how she is, I think."
+# yu "I wonder… It's just how she is, I think."
+yu "นั่นน่ะสิ แต่เธอก็เป็นแบบนั้นแหละ คิดว่านะ"
 
-"Yuuko doesn't sound all that convincing. Then again, maybe this is just the norm around here."
+# "Yuuko doesn't sound all that convincing. Then again, maybe this is just the norm around here."
+"คุณยูโกะเองก็ดูไม่ค่อยจะเชื่อเรื่องนี้สักเท่าไหร่ แต่ก็คงเป็นเรื่องปกติคงที่นี่แหละนะ"
 
-"Everyone has their own problems, or else they wouldn't be here."
+# "Everyone has their own problems, or else they wouldn't be here."
+"ทุกคนล้วนมีปัญหาส่วนตัวแหละ ไม่งั้นคงไม่มาอยู่ที่นี่หรอก"
 
 
 label th_A8f:
 
-hi "But how should I deal with these people? Forcing myself to act overly casually only makes me feel phony."
+# hi "But how should I deal with these people? Forcing myself to act overly casually only makes me feel phony."
+hi "งั้นผมควรจะทำตัวยังไงดีล่ะครับ? การที่ต้องพยายามทำตัวเหมือนปกติยิ่งทำยิ่งดูเสแสร้ง"
 
-hi "Like I was supposed to be ignoring the elephant in the room."
+# hi "Like I was supposed to be ignoring the elephant in the room."
+hi "เหมือนเจอเรื่องใหญ่แล้วจะให้เมินเนี่ยนะครับ"
 
 show yuuko neurotic_up_ss
 with charachange
 
-"Yuuko fidgets, looking like she wants to say something to that, but resists it."
+# "Yuuko fidgets, looking like she wants to say something to that, but resists it."
+"คุณยูโกะดูกระสับกระส่าย ดูเหมือนเธอจะพยายามพูดอะไรบางอย่าง แต่ก็กลั้นเอาไว้"
 
-yu "I think it's an elephant only if you feel that way."
+# yu "I think it's an elephant only if you feel that way."
+yu "มันจะว่าใหญ่ก็ใหญ่เพราะใจคิดไปนั่นแหละ"
 
-"I guess she doesn't have a good sense of self-restraint. It makes me smile, and she blushes heavily."
+# "I guess she doesn't have a good sense of self-restraint. It makes me smile, and she blushes heavily."
+"เธอคงเป็นคนที่คิดอะไรก็พูดออกมาอย่างนั้น ซึ่งดูแล้วก็พอทำให้ยิ้มได้ล่ะนะ แล้วเธอก็เริ่มหน้าแดงก่ำ"
 
 show yuuko panic_up_ss
 with charachange
 
-yu "W… what? Did that sound stupid?"
+# yu "W… what? Did that sound stupid?"
+yu "อะ… อะไรเหรอ? นี่ฉันพูดอะไรแปลก ๆ ไปหรือเปล่า?"
 
-hi "No no, it sounded really wise. I guess you're right. It's more about me than anyone else."
+# hi "No no, it sounded really wise. I guess you're right. It's more about me than anyone else."
+hi "เปล่า ๆ พูดได้ดีเลยครับ ผมว่าคุณพูดถูก ผมว่าปัญหาน่าจะเป็นที่ความคิดผมมากกว่า"
 
 show yuuko smile_down_ss
 with charachange
 
-"Neither of us has anything to add so Yuuko fills the silence by shuffling some papers around."
+# "Neither of us has anything to add so Yuuko fills the silence by shuffling some papers around."
+"พวกเราไม่ได้มีอะไรจะพูดต่อ คุณยูโกะเลยพยายามทำลายความเงียบด้วยการจับกระดาษไปมา"
 
-"People who have papers on their desks really like doing that."
+# "People who have papers on their desks really like doing that."
+"คนที่มีกระดาษบนโต๊ะชอบทำอะไรแบบนี้กันหมดเลยแฮะ"
 
-yu "Did you find any books? I should be closing soon. I mean this library should be closing. But I have to do it. I hope that's not too inconvenient for you."
+# yu "Did you find any books? I should be closing soon. I mean this library should be closing. But I have to do it. I hope that's not too inconvenient for you."
+yu "แล้วเจอหนังสือที่อยากอ่านไหม ฉันว่าจะปิดห้องแล้ว จริง ๆ ตอนนี้ห้องควรปิดแล้วล่ะ\nแต่ฉันก็ต้องเป็นคนปิด หวังว่าจะไม่รบกวนอะไรเธอนะ"
 
-hi "Oh. Yeah, I want some books, but I left them over there because…"
+# hi "Oh. Yeah, I want some books, but I left them over there because…"
+hi "โอ๊ะ ใช่ ผมว่าจะยืมหนังสือสักหน่อย แต่ผมวางทิ้งไว้ตรงนั้นก็เพราะว่า…"
 
-hi "…I'll just go get them."
+# hi "…I'll just go get them."
+hi "…เดี๋ยวผมไปหยิบแปป"
 
-"I fetch my stack of books from beside the beanbags where Hanako and I were sitting and return to the counter."
+# "I fetch my stack of books from beside the beanbags where Hanako and I were sitting and return to the counter."
+"ฉันไปหยิบหนังสือที่อยู่ข้าง ๆ บีนแบ็กตรงที่ฮานาโกะกับฉันนั่งกันก่อนหน้านี้ แล้วกลับไปยังเคาน์เตอร์"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 show yuuko neutral_down_ss
 with charachange
 
-yu "Wow. You read a lot, don't you?"
+# yu "Wow. You read a lot, don't you?"
+yu "โห เธอนี่ก็อ่านหนังสือเยอะเหมือนกันนี่"
 
-hi "I surprise myself with that too, honestly. At least, when I really think about it."
+# hi "I surprise myself with that too, honestly. At least, when I really think about it."
+hi "ผมก็ตกใจกับตัวเองเรื่องนั้นเหมือนกัน อย่างน้อยก็ตอนนึกขึ้นมาได้น่ะครับ"
 
-hi "I had a lot of free time earlier this year, so I just kind of… started reading books to fill that time. I couldn't do much else."
+# hi "I had a lot of free time earlier this year, so I just kind of… started reading books to fill that time. I couldn't do much else."
+hi "ช่วงปีที่แล้วผมค่อนข้างมีเวลาว่างเลยล่ะครับ ผมก็เลย…เริ่มอ่านหนังสือเพื่อฆ่าเวลา เพราะทำอย่างอื่นไม่ได้"
 
-yu "I see."
+# yu "I see."
+yu "อย่างงี้นี่เอง"
 
-"But she doesn't say anything else, and just checks out my books for me."
+# "But she doesn't say anything else, and just checks out my books for me."
+"แต่เธอก็ไม่ได้พูดอะไรต่อ แล้วก็ลงทะเบียนยืมหนังสือให้ฉัน"
 
-"I guess this is what they call “tact.”"
+# "I guess this is what they call “tact.”"
+"แบบนี้สินะที่เรียกว่า “ไหวพริบ”"
 
 stop music fadeout 2.0
 
