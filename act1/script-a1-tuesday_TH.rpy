@@ -3024,7 +3024,7 @@ with locationchange
 "ฉันไม่รู้ว่าฉันจะเข้าใจสิ่งที่เกิดขึ้นเมื่อกี้ได้ไหม ฉันเลยยอมแพ้แล้วก็เข้าห้อง ถอดรองเท้าวางไว้ก่อนจะทิ้งตัวฟุบหน้าลงเตียง"
 
 # "It takes me some time to relax and get up so I can get started on homework."
-"คงพักสักแปป ก่อนจะลุกไปทำการบ้าน"
+"คงพักสักแป๊บ ก่อนจะลุกไปทำการบ้าน"
 
 # "It's because the sheets are cool and comforting against my cheeks, and it feels good just lying there with my eyes closed."
 "เพราะผ้าปูตอนนี้ที่เย็นและนุ่มที่กระทบกับแก้มของฉันช่างรู้สึกดีเหลือเกินเมื่อหลับตา"
