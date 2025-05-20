@@ -1326,7 +1326,7 @@ with locationchange
 "ฉันค่อย ๆ เปิดประตูด้วยปลายนิ้วของฉัน กล้ามเนื้อทุกมัดในแขนเตรียมที่จะชักกลับทุกเมื่อ"
 
 # "The feeling of being an outsider to this school can't be shaken from my mind, so much so that I instinctively fear doing something wrong by entering."
-"ฉันยังสลัดความรู้สึกว่าเป็นคนนอกของโรงเรียนนี้ออกไปจากหัวไม่ได้ฝังแน่นเสียจนกลัวไปก่อนว่าแค่เดินเข้าไปแล้วจะโดนว่า"
+"ฉันยังสลัดความรู้สึกว่าเป็นคนนอกของโรงเรียนนี้ออกไปจากหัวไม่ได้ ฝังแน่นเสียจนกลัวไปก่อนว่าแค่เดินเข้าไปแล้วจะโดนว่า"
 
 play sound sfx_door_creak
 
