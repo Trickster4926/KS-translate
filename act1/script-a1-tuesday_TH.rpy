@@ -1656,13 +1656,13 @@ play music music_tranquil fadein 3.0
 "แม้แต่ที่นี่ เวลาก็ไม่คอยใคร"
 
 # hi "Huh, the time's gone quickly."
-hi "เอ้อ เวลาผ่านไปไวจัง"
+hi "อืม เวลาผ่านไปไวจัง"
 
 show tearoom_lilly thinking
 with charachange
 
 # li "Sorry?"
-li "ยังไงนะ?"
+li "ว่าไงนะจ๊ะ"
 
 # "Right. She's blind. Of course she can't see the sun setting."
 "เอ้อ เธอตาบอดนี่นา แน่นอนว่าเธอไม่เห็นพระอาทิตย์ที่กำลังตก"
@@ -1671,7 +1671,7 @@ show tearoom_hisao smile
 with charachange
 
 # hi "It just looks like the sun's starting to set."
-hi "เหมือนว่าพระอาทิตย์กำลังตกแล้วล่ะ"
+hi "เหมือนว่าพระอาทิตย์กำลังตกแล้วละ"
 
 # "It seems to come as a surprise for her. I guess she must have lost track of the time."
 "ดูท่าทีเธอตกใจไม่น้อย เดาว่าเธอเองก็เพลินจนลืมเวลาแน่ ๆ"
@@ -1689,7 +1689,7 @@ show tearoom_hisao calm
 with charachange
 
 # hi "Ah, no, it's okay. The library's still open, isn't it?"
-hi "อ๋อ ไม่เป็นไรหรอก ห้องสมุดยังเปิดอยู่ใช่ไหมล่ะ?"
+hi "อ๋อ ไม่เป็นไรหรอก ห้องสมุดยังเปิดอยู่ใช่ไหมล่ะ"
 
 # "She pauses, and takes a moment to think on it."
 "เธอนิ่งไปแล้วใช้เวลาคิดสักพัก"
