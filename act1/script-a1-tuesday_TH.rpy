@@ -2693,7 +2693,6 @@ hi "หยุดดิ้ เราก็เพิ่งเจอกันเม
 
 # ke "Lies. If you think you can pass as Hisao because I'm legally blind you are sorely mistaken."
 ke "โกหก ถ้านายคิดว่าจะปลอมตัวเป็นฮิซาโอะแล้วเข้าไปได้เพราะคิดว่าฉันสายตาไม่ดี นายคิดผิดแล้ว"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # ke "You don't even look like him. I mean, the resemblance is real, real slim. Maybe at a distance, but who do you think you're kidding?"
 ke "นายดูไม่เหมือนเขาด้วยซ้ำ คือผอมก็ผอมเหมือนกันแหละ แต่อาจจะเพราะยืนห่างก็ได้ แต่คิดว่าจะหลอกฉันได้เรอะ"
@@ -2743,201 +2742,265 @@ ke "เจอหนักเลยนี่หว่า เออโทษที
 show kenji tsun
 with charachange
 
-ke "It's the hard reality we live in."
+# ke "It's the hard reality we live in."
+ke "โลกนี้มันอยู่ยาก"
 
-"I'm slowly starting to think that Kenji isn't necessarily living in the same reality as the rest of us." 
+# "I'm slowly starting to think that Kenji isn't necessarily living in the same reality as the rest of us." 
+"เริ่มคิดละว่าคนที่โลกที่ว่าน่าจะคนละโลกกับที่พวกเราอยู่"
 
-ke "You see? This is how it is, this world. There is no justice. You see? Even when I lose, I win, because I don't lose the lesson."
+# ke "You see? This is how it is, this world. There is no justice. You see? Even when I lose, I win, because I don't lose the lesson."
+ke "เห็นไหม โลกก็งี้แหละ ไม่มีหรอกความยุติธรรม เห็นปะ ต่อให้ฉันแพ้ ฉันก็ชนะอยู่ดี เพราะว่าได้เรียนรู้" #ช่วยกูที มันบ่นเหี ไร
 
-hi "…What does that even mean?"
+# hi "…What does that even mean?"
+hi "…หมายความว่าไงนะ"
 
-ke "It doesn't matter."
+# ke "It doesn't matter."
+ke "ไม่สำคัญหรอก"
 
-"He dismisses it flatly with a wave of his hand."
+# "He dismisses it flatly with a wave of his hand."
+"เขาโบกมือปัดคำถามนั้นทิ้งไปดื้อ ๆ"
 
 show kenji happy
 with charachange
 
-ke "So what happened? Why the long face? Do you have a long face?"
+# ke "So what happened? Why the long face? Do you have a long face?"
+ke "แล้วมีอะไร ไหงทำหน้ายู่งั้นล่ะ หน้ามีตีนกามั้ยเนี่ย"
 
-hi "Eh, it's nothing. I just scared some girl off accidentally. Literally too, she actually ran away from me."
+# hi "Eh, it's nothing. I just scared some girl off accidentally. Literally too, she actually ran away from me."
+hi "อ๊ะ ก็ไม่มีอะไรหรอก แค่ฉันเผลอทำผู้หญิงคนนึงตกใจกลัวเฉย ๆ แบบวิ่งหนีไปเลยอะ"
 
-hi "Was my fault, really, I think. I'm not really… used to all this yet."
+# hi "Was my fault, really, I think. I'm not really… used to all this yet."
+hi "ความผิดฉันไหม ก็คงงั้นแหละ ตอนนี้ก็…ยังไม่ค่อยชินกับที่นี่เท่าไหร่"
 
 show kenji tsun
 with charachange
 
-ke "A girl? A cute one?"
+# ke "A girl? A cute one?"
+ke "ผู้หญิงเหรอ? น่ารักหรือเปล่า"
 
-"Cute? That's a hard question. She had a nice body and really beautiful hair… but the face…"
+# "Cute? That's a hard question. She had a nice body and really beautiful hair… but the face…"
+"น่ารักไหมเหรอ? ตอบยากแฮะ รูปลักษณ์ทั่วไปกับผมก็สวยหรอก แต่ว่าที่หน้า…"
 
 label th_choiceA9:
 menu:
     with menueffect
 
 #choice:
-    "I guess it could go either way."
+    # "I guess it could go either way."
+    "ก็คงสักอย่างแหละ"
 
-    "She was cute.":
+    # "She was cute.":
+    "เธอก็น่ารักดี":
         return m1
         
-    "She wasn't cute.":
+    # "She wasn't cute.":
+    "ก็ไม่ค่อยนะ":    
         return m2
 
 label th_A9a:
 
-hi "Yeah, cute I guess."
+# hi "Yeah, cute I guess."
+hi "อืม ก็น่ารักดี"
 
-ke "I knew it!"
-
+# ke "I knew it!"
+ke "นั่นไงว่าแล้ว!"
 
 label th_A9b:
 
-hi "Not exactly cute, no."
+# hi "Not exactly cute, no."
+hi "ก็ไม่เชิงว่าน่ารักอะนะ"
 
-ke "Hmm…"
+# ke "Hmm…"
+ke "หืม…"
 
 
 label th_A9c:
 
-ke "There are a lot of cute girls here. A strangely disproportionate amount… I believe this is one of the dark secrets of this school."
+# ke "There are a lot of cute girls here. A strangely disproportionate amount… I believe this is one of the dark secrets of this school."
+ke "ที่นี่มีสาวน่ารัก ๆ เยอะเลย เยอะจนดูแปลก ๆ … ฉันเชื่อว่าเนี่ยเป็นเพราะแผนลับดำมืดบางอย่างของที่นี่แน่"
 
-ke "I tried to warn you man, but did you listen…?"
+# ke "I tried to warn you man, but did you listen…?"
+ke "ฉันเตือนนายแล้ว แต่นายไม่ฟังไง"
 
-"I don't remember any such warning."
+# "I don't remember any such warning."
+"ไม่ยักจะจำได้ว่าเตือนอะไร"
 
-hi "Dark secrets?"
+# hi "Dark secrets?"
+hi "แผนลับดำมืด?"
 
-ke "Yes, dark secrets. Extremely dark. Like a black hole."
+# ke "Yes, dark secrets. Extremely dark. Like a black hole."
+hi "ใช่ แผนลับดำมืดมาก ๆ เหมือนหลุมดำเลย"
 
-ke "Have you noticed that the number of girls in this school is slightly but significantly higher than the number of boys? It's like 60-40."
+# ke "Have you noticed that the number of girls in this school is slightly but significantly higher than the number of boys? It's like 60-40."
+ke "นายสังเกตปะว่าจำนวนผู้หญิงที่นี่มากกว่าผู้ชายนิดหน่อยแต่ก็พอเห็นความต่าง ประมาณ 60-40 ได้"
 
-"He turns his head to the left and stares off into the distance at nothing."
+# "He turns his head to the left and stares off into the distance at nothing."
+"เขาเอียงคอมองไปทางซ้าย สายตาจ้องไปที่ความว่างเปล่า"
 
-ke "Why is it like this? I mean, to the untrained eye, it doesn't appear to be that bad, but that is a full 20\%."
+# ke "Why is it like this? I mean, to the untrained eye, it doesn't appear to be that bad, but that is a full 20\%."
+ke "ทำไมถึงเป็นแบบนั้นกันนะ? ดูเผิน ๆ ก็ไม่ค่อยอะไร แต่ก็ห่างกันตั้ง 20\% เลยนะ"
 
-ke "One would think that a school with such a huge pool of women would be a man's dream. But no!"
+# ke "One would think that a school with such a huge pool of women would be a man's dream. But no!"
+ke "คนส่วนใหญ่ก็คิดว่าโรงเรียนที่เต็มไปด้วยสาวเนี่ย ต้องเป็นสวรรค์ของชายหนุ่มแน่ ๆ แต่ไม่เลย!"
 
 stop music fadeout 1.0
 
 show kenji neutral
 with charachange
 
-ke "What I am about to tell you could blow your mind. Are you ready?"
+# ke "What I am about to tell you could blow your mind. Are you ready?"
+ke "สิ่งที่ฉันจะพูดนายฟังแล้วต้องทึ่งแน่ พร้อมนะ"
 
-"I don't know where this is going, but I think I won't be missing much by cutting out now."
+# "I don't know where this is going, but I think I won't be missing much by cutting out now."
+"ก็ไม่รู้หรอกว่าอะไร แต่ต่อให้ไม่รู้ก็คงไม่น่ามีอะไรสำคัญ"
 
-hi "No, I am not ready."
+# hi "No, I am not ready."
+hi "ไม่อะ ยังไม่พร้อม"
 
-"I only get as far as turning the doorknob before Kenji starts talking again, showing that he doesn't really care if my mind is blown or not."
+# "I only get as far as turning the doorknob before Kenji starts talking again, showing that he doesn't really care if my mind is blown or not."
+"พอกำลังจะเปิดประตูเข้าห้อง เคนจิก็พูดต่อเหมือนกับว่าไม่สนใจคำตอบของฉันเมื่อกี้เลย"
 
 show kenji tsun
 with charachange
 
 play music music_tension
 
-ke "I believe that this school is a battleground. The site of a feminist infiltration."
+# ke "I believe that this school is a battleground. The site of a feminist infiltration."
+ke "ฉันว่าที่นี่คือสนามรบ แหล่งซ่องสุมกำลังพวกสตรีนิยม"
 
-ke "This disparity in the number of men to women is a clear sign of how far they have come. In case this cold war turns hot, they will have superiority in numbers."
+# ke "This disparity in the number of men to women is a clear sign of how far they have come. In case this cold war turns hot, they will have superiority in numbers."
+ke "เนี่ย ความต่างกันของจำนวนระหว่างผู้ชายกับผู้หญิงก็เห็นได้ชัดแล้วว่าพวกนั้นเริ่มแผนมาได้สักพักแล้ว\nเนี่ยถ้าสงครามปะทุเมื่อไหร่ พวกนั้นก็มีคนมากกว่าแล้ว"
 
-ke "Just another skirmish in the eternal war against the forces of the feminists… They're everywhere. In Japan, women outnumber men. It's not a 60-40 split, but it's only a matter of time, man…"
+# ke "Just another skirmish in the eternal war against the forces of the feminists… They're everywhere. In Japan, women outnumber men. It's not a 60-40 split, but it's only a matter of time, man…"
+ke ""
 
-ke "Even in America, women are the majority by a hair. They're building up their numbers. In the past, the buildup of a military has always been the clearest sign of imminent war."
+# ke "Even in America, women are the majority by a hair. They're building up their numbers. In the past, the buildup of a military has always been the clearest sign of imminent war."
+ke ""
 
-ke "Japan is just the first step. Our economy is badass, and the country itself is small and isolated, yet a huge part of the Pacific in terms of political value."
+# ke "Japan is just the first step. Our economy is badass, and the country itself is small and isolated, yet a huge part of the Pacific in terms of political value."
+ke ""
 
-ke "The perfect target. They are so cunning… As expected of women."
+# ke "The perfect target. They are so cunning… As expected of women."
+ke ""
 
-ke "Soon, the day will come, when…"
+# ke "Soon, the day will come, when…"
+ke "สักวัน วันนั้นต้องมาถึงแน่ ตอนที่…"
 
-"Kenji's voice trails off ominously."
+# "Kenji's voice trails off ominously."
+"เสียงเคนจิค่อย ๆ แผ่วลง"
 
 show kenji neutral
 with charachange
 
-ke "That is why you can't trust them. They will string you along, and then kill you, just as they killed me. You will end up just like me."
+# ke "That is why you can't trust them. They will string you along, and then kill you, just as they killed me. You will end up just like me."
+ke "นั่นคือเหตุผลว่าทำไมนายไม่ควรไว้ใจพวกนั้น พวกนั้นจะตามล่านาย แล้วก็ฆ่านาย เหมือนกับที่ฆ่าฉัน\nเราก็จะเจอจุดจบที่น่าเศร้า"
 
 stop music fadeout 0.5
 
-hi "Oh, hell no…"
+# hi "Oh, hell no…"
+hi "โอย ให้ตายเถอะ…"
 
-"I can't stop myself from blurting it out."
+# "I can't stop myself from blurting it out."
+"ฉันห้ามตัวเองให้กลั้นคำพูดไว้ไม่ไหวละ"
 
 show kenji tsun
 with charachange
 
 play music music_kenji fadein 0.5
 
-ke "Hey! What the hell does that mean?!"
+# ke "Hey! What the hell does that mean?!"
+ke "เฮ้ย! หมายความว่าไงนั่น?!"
 
-hi "You said it, not me."
+# hi "You said it, not me."
+hi "นายพูดเองนี่ ไม่ใช่ฉัน"
 
-"It's the best I can think of."
+# "It's the best I can think of."
+"ฉันคิดคำแก้ตัวได้แค่นี้"
 
-ke "So? You're not supposed to say something like that! Damn, so rude."
-
+# ke "So? You're not supposed to say something like that! Damn, so rude."
+ke "แล้ว? นายก็ไม่ควรจะพูดแบบนั้นนะ แม่ง หยาบคายว่ะ"
 show kenji neutral
 with charachange
 
-ke "Where was I? Oh, yeah, vast feminist conspiracy."
+# ke "Where was I? Oh, yeah, vast feminist conspiracy."
+ke "ถึงไหนละนะ? อ้อ เออใช่ ทฤษฎีสมคบคิดของพวกสตรีนิยม"
 
-hi "Stop it. Stop! I lost you way, way back there somewhere. Somewhere around “feminist infiltration.”"
+# hi "Stop it. Stop! I lost you way, way back there somewhere. Somewhere around “feminist infiltration.”"
+hi "พอก่อน ๆ ! ฉันตามนายไม่ทันสักพักละ ตั้งแต่ตอน “แหล่งซ่องสุมกำลังพวกสตรีนิยม” ละ"
 
 show kenji happy
 with charachange
 
-ke "Too hard to follow? It's cool, I have some graphs and stuff in my room. And puppets. You like puppets?"
+# ke "Too hard to follow? It's cool, I have some graphs and stuff in my room. And puppets. You like puppets?"
+ke "ตามไม่ทันเหรอ? ดีเลย เนี่ยฉันมีกราฟเปรียบเทียบกับแนว ๆ นั้นในห้องฉันด้วย\nรวมถึงพวกหุ่นเชิดจำลองด้วย นายสนใจไหมล่ะ?"
 
-hi "No puppets."
+# hi "No puppets."
+hi "หุ่นเชิดเหรอ ไม่อะ"
 
-ke "You don't like puppets, okay. Graphs are still cool, though, right?"
+# ke "You don't like puppets, okay. Graphs are still cool, though, right?"
+ke "นายไม่ชอบหุ่นเชิดหรอ โอเค กราฟก็ได้ เคปะ ๆ"
 
-"He speaks energetically, responding almost before I'm done talking, moving his hands in an animated way as he continues to rant on."
+# "He speaks energetically, responding almost before I'm done talking, moving his hands in an animated way as he continues to rant on."
+""
 
-"This is too strange. I had him pegged as relatively normal, but it's clear that I was wrong."
+# "This is too strange. I had him pegged as relatively normal, but it's clear that I was wrong."
+"เป็นคนที่แปลกจริง ๆ ฉันคาดหวังว่าเขาจะเป็นคนปกติสักหน่อย แต่เหมือนว่าฉันจะคิดผิดนะ"
 
-ke "Something on your mind, dude?"
+# ke "Something on your mind, dude?"
+ke "มีอะไรเหรอ พวก?"
 
-hi "Just thinking about what it's like to be the last sane man in an insane world."
+# hi "Just thinking about what it's like to be the last sane man in an insane world."
+hi "กำลังคิดอยู่ว่าฉันคงเป็นคนสุดท้ายที่ปกติในโลกที่ไม่ปกติหรือเปล่าวะ"
 
 show kenji tsun
 with charachange
 
-"Kenji frowns, looking deeply upset."
+# "Kenji frowns, looking deeply upset."
+"เคนจิหน้ามุ่ย ดูท่าทีโมโห"
 
-ke "You mean that's you? That can't be, because I'm the last sane man in an insane world. That is my dream, you can't just steal a man's dream."
+# ke "You mean that's you? That can't be, because I'm the last sane man in an insane world. That is my dream, you can't just steal a man's dream."
+ke "นายหมายความว่าไวที่บอกว่าเป็นนายน่ะ เป็นไปไม่ได้ เพราะฉันนี่แหละผู้ที่ปกติคนสุดท้ายในโลกที่ไม่ปกติ\nนั่นเป็นความฝันของฉันเลยนะ นายจะมาขโมยความฝันของลูกผู้ชายแบบนี้ไม่ได้นะ"
 
-ke "What the hell, there can't be two last sane men. It would invalidate that whole “last” part… and that part is kind of important."
+# ke "What the hell, there can't be two last sane men. It would invalidate that whole “last” part… and that part is kind of important."
+ke "แม่ง จะมี 2 คนสุดท้ายก็ไม่ได้ด้วยสิ ไม่งั้นก็คงเรียกว่า “สุดท้าย” ไม่ได้หรอก"
 
-ke "There can only be one, like in that foreign movie where there could only be one, and in the end there is only one dude left, because that was the point."
+# ke "There can only be one, like in that foreign movie where there could only be one, and in the end there is only one dude left, because that was the point."
+ke ""
 
-"I have never seen anyone talk so heatedly and so defensively about absolutely nothing before."
+# "I have never seen anyone talk so heatedly and so defensively about absolutely nothing before."
+""
 
 show kenji neutral
 with charachange
 
-ke "Anyway, if you wait here, I can get my graphs. I also have a list of the other dark and complex conspiracies that this school holds, as tangled as…"
+# ke "Anyway, if you wait here, I can get my graphs. I also have a list of the other dark and complex conspiracies that this school holds, as tangled as…"
+ke "เอาเถอะ ถ้านายรอตรงนี้ เดี๋ยวฉันไปหยิบกราฟมาให้ดู แล้วก็ฉันมีรายละเอียดเกี่ยวกับเรื่องทฤษฎีสมคบคิด\nที่ที่นี่กุมไว้อยู่ มันซับซ้อนแบบว่า…"
 
-ke "Quick, finish my analogy for me. Be a pal."
+# ke "Quick, finish my analogy for me. Be a pal."
+ke "เอ้า หาคำลงท้ายให้หน่อยสิพวก"
 
-hi "I'm going to go to bed now. It's extremely late."
-
+# hi "I'm going to go to bed now. It's extremely late."
+hi "เดี๋ยวไปนอนละ เริ่มดึกละ"
 show kenji tsun
 with charachange
 
-ke "That doesn't sound like an analogy. But whatever."
+# ke "That doesn't sound like an analogy. But whatever."
+ke "นั่นดูไม่เหมือนคำลงท้ายเลยนะ แต่เอาเถอะ"
 
 show kenji happy
 with charachange
 
-ke "I like you, you seem like a cool dude."
+# ke "I like you, you seem like a cool dude."
+ke "นายนี่เจ๋งดีว่ะ ฉันชอบ"
 
 show kenji tsun
 with charachange
 
-ke "Most people don't understand what I'm talking about when I try to explain the vast feminist conspiracy to them. Denial is a terrible thing."
+# ke "Most people don't understand what I'm talking about when I try to explain the vast feminist conspiracy to them. Denial is a terrible thing."
+ke "คนส่วนใหญ่เนี่ยไม่เข้าใจฉันตอนที่ฉันพยายามอธิบายเกี่ยวกับทฤษฎีสมคบคิดของพวกสตรีนิยมให้ฟัง\nการไม่ยอมรับความจริงนี่แย่จริง ๆ"
 
-ke "Later."
+# ke "Later."
+ke "เจอกัน"
 
 show kenji tsun at Alphaout(0.5), Slide(0.5,0.5,0.4,0.5,0.5,_ease_out_time_warp)
 with Pause (0.5)
@@ -2947,32 +3010,45 @@ with None
 
 stop music fadeout 2.0
 
-"He claps me on the back and then vanishes into his room so quickly and quietly it's like he didn't even open the door but instead walked right through it like a ghost."
+# "He claps me on the back and then vanishes into his room so quickly and quietly it's like he didn't even open the door but instead walked right through it like a ghost."
+"เขาตบหลังฉันแล้วก็หายวับเข้าห้องของเขาไปอย่างรวดเร็วและเงียบงัน\nอย่างกับเขาไม่ได้เปิดประตูเข้าไปแต่เป็นเดินทะลุเข้าไปมากกว่า"
 
 scene bg school_dormhisao_ss
 with locationchange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-"I don't know if I can fully digest what just happened, so I give up and just go to my room, kicking off my shoes before falling facefirst into bed."
+# "I don't know if I can fully digest what just happened, so I give up and just go to my room, kicking off my shoes before falling facefirst into bed."
+"ฉันไม่รู้ว่าฉันจะเข้าใจสิ่งที่เกิดขึ้นเมื่อกี้ได้ไหม ฉันเลยยอมแพ้แล้วก็เข้าห้องของฉัน ถอดรองเท้าวางไว้ก่อนจะทิ้งตัวลงเตียง"
 
-"It takes me some time to relax and get up so I can get started on homework."
+# "It takes me some time to relax and get up so I can get started on homework."
+"คงพักสักแปป ก่อนจะลุกไปทำการบ้าน"
 
-"It's because the sheets are cool and comforting against my cheeks, and it feels good just lying there with my eyes closed."
+# "It's because the sheets are cool and comforting against my cheeks, and it feels good just lying there with my eyes closed."
+"เพราะผ้าปูตอนนี้ที่เย็นและนุ่มที่กระทบกับแก้มของฉันช่างรู้สึกดีเหลือเกินเมื่อหลับตา"
 
-"This school is like some kind of bizarre and surreal island. It's isolated on top of a mountain, and each person is stranger than the last."
+# "This school is like some kind of bizarre and surreal island. It's isolated on top of a mountain, and each person is stranger than the last."
+""
 
-"I just can't seem to fit in. What irony, one would think that fitting in a place that's made for people who are unfit for anywhere else would be easy."
+# "I just can't seem to fit in. What irony, one would think that fitting in a place that's made for people who are unfit for anywhere else would be easy."
+""
 
-hi "Maybe I'm trying too hard."
+# hi "Maybe I'm trying too hard."
+hi "สงสัยฉันคงพยายามมากเกินไปสินะ"
 
-"Although I say that, it doesn't help take the edge off, and the words are left echoing off my empty walls."
+# "Although I say that, it doesn't help take the edge off, and the words are left echoing off my empty walls."
+"ถึงฉันจะพูดแบบนั้นก็ไม่ได้ทำให้ฉันรู้สึกดีขึ้นเลย เสียงที่ได้เปล่งออกไปดังสะท้อนไปทั่วกำแพง"
 
-"I guess it's not as bad as I expected, though. This place really is more a school and less a hospital pretending it's a school than I thought it would be."
+# "I guess it's not as bad as I expected, though. This place really is more a school and less a hospital pretending it's a school than I thought it would be."
+"มันก็ไม่ได้แย่อย่างที่คิดอะนะ ที่นี่ก็ดูเป็นโรงเรียนจริง ๆ มากกว่าเป็นโรงพยาบาลที่ทำตัวเหมือนเป็นโรงเรียนแบบที่ฉันเคยคิดไว้"
 
-"If nothing else, the scenery is beautiful."
+# "If nothing else, the scenery is beautiful."
+"นอกเหนือจากนี้ก็วิวทิวทัศน์ก็สวยดี"
 
-"I open one eye, seeing the schoolbooks and bottles of pills arranged side-by-side on my desktop."
+# "I open one eye, seeing the schoolbooks and bottles of pills arranged side-by-side on my desktop."
+"ฉันลืมตามาข้างนึง มองเห็นกองหนังสือกับขวดยาเรียงกันบนโต๊ะ"
 
-"Maybe this place is too much like a normal school, after all."
+# "Maybe this place is too much like a normal school, after all."
+"บางทีที่นี่ก็คงเป็นโรงเรียนทั่วไปโรงเรียนหนึ่ง นั่นแหละนะ"
 
 scene black
 with dissolve
