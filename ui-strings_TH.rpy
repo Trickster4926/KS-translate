@@ -174,7 +174,7 @@
     displayDict["th"].name_mystery = "???"
 
     displayDict["th"].name_ha_ = "สาวที่ผมสีม่วง"
-    displayDict["th"].name_emi_ = "สาวที่ผมทวินเทล"
+    displayDict["th"].name_emi_ = "สาวที่ทำผมทวินเทล"
     displayDict["th"].name_rin_ = "สาวที่ดูพิลึก"
     displayDict["th"].name_li_ = "สาวที่ผมเป็นลอน"
     displayDict["th"].name_mi_ = "สาวที่หัวเราะ"

@@ -261,7 +261,7 @@ with charaexit
 
 "มิช่ากับชิซูเนะก็ยังคงทุ่มเถียงกัน คงจะเรื่องร้านอาหารนั่นแหละ"
 
-"ถ้าคุยด้วยก็คงได้ร่วมวงเถียงอีก แย่กว่านั้นคือจะโดนเค้นเรื่องสภานักเรียนนั่นแหละ"
+"ถ้าคุยด้วยก็คงได้ร่วมวงเถียงอีก แย่กว่านั้นคือจะโดนเค้นเรื่องสภานักเรียน"
 
 "มิช่าไม่ได้ออกเสียงพูดเพราะไม่จำเป็นต้องให้ใครมาฟังว่าคุยอะไรกัน"
 
@@ -757,7 +757,7 @@ show shizu cross_rage at  Position(xalign=0.4)
 show misha hips_smile at left
 with charamove
 
-"ฉันไม่ทันได้หันหลังไปมองเพราะถูกชิซูเนะผลักออกมาก่อน เธอย่างสามขุมเข้าไปหาหญิงสาวและทำภาษามือด้วยความโกรธเกรี้ยว"
+"ฉันไม่ทันได้หันหลังไปมองเพราะถูกชิซูเนะผลักออกมาก่อน เธอย่างสามขุมเข้าไปหาหญิงสาวและทำภาษามือ\nด้วยความโกรธเกรี้ยว"
 
 show misha hips_grin
 with charachange
@@ -1256,7 +1256,7 @@ hi "ไม่ต้องทางการขนาดนั้นหรอก�
 show yuukoshang panic_up
 with charachange
 
-yu "ไม่ได้สิ… นี่คือหน้าที่ฉันในฐานะเด็กเสิร์ฟนะ ต้อง… ทำให้ดี"
+yu "ไม่ได้สิ… นี่คือหน้าที่ฉันในฐานะพนักงานเสิร์ฟนะ ต้อง… ทำให้ดี"
 
 show shizu adjust_happy
 with charachange
@@ -1292,55 +1292,55 @@ with dissolve
 
 shi "…"
 
-mi "It's okay, Yuu-chan, Hicchan didn't order anything, so it's not your fault, don't be upset."
+mi "ไม่เป็นไรน่ายูจัง ฮิจังก็ไม่ได้สั่งอะไร เธอไม่ได้ผิดหรอก ไม่ต้องเครียด ๆ "
 
-"It's true. I guess I should order now, but I don't really know what this place serves, and there doesn't seem to be a menu."
+"ก็จริง คงต้องสั่งแล้วแหละ แต่ไม่รู้ที่นี่มีอะไรขายบ้าง เหมือนจะไม่มีใบเมนูด้วย"
 
-hi "Yeah, she's right. I'll have some coffee, and… a sandwich, if you have one. Whichever sandwich you think is the best tasting one here, because Shizune is paying for my meal."
+hi "นั่นแหละครับ งั้นผมขอกาแฟ แล้วก็… แซนด์วิช ถ้ามีนะครับ ขอแบบไหนก็ได้ที่คุณคิดว่าอร่อยที่สุดของร้าน พอดีชิซูเนะเขา\nออกเงินให้น่ะครับ"
 
 scene ev shizu_shanghai_borednormal
 with dissolve
 
-"Shizune frowns and gives me alternating looks of surprise, indignation, and bemusement, unable to decide between the three."
+"ชิซูเนะขมวดคิ้วมองมาด้วยสายตาที่ทั้งอึ้ง ทึ่ง งง ระคนโกรธ ไม่แน่ใจว่าจะรู้สึกยังไง"
 
 shi "…"
 
 scene ev shizu_shanghai_boredlaugh
 with dissolve
 
-mi "Hicchan, just how much money do you have in your wallet? It can't be that little, right?, right? We should split the cost three ways, to make it fair~! Yeah, I won't accept anything else~!"
+mi "ฮิจังมีเงินติดตัวมาเท่าไหร่น่ะ คงไม่ได้น้อยขนาดนั้นใช่มั้ย ใช่มั้ย หารสามกันแฟร์ ๆ ดีกว่า~! อื้ม ไม่รับความเห็นต่าง~!"
 
-"Misha turns to Yuuko."
+"มิช่าหันไปทางยูโกะ"
 
 show ev shizu_shanghai_borednormal
 with dissolve
 
-mi "Yuu-chan, Shicchan says she wants three of whatever is the most expensive item on the menu~."
+mi "ยูจัง ชิจังบอกว่าขออะไรก็ได้ที่แพงที่สุดมาสามที่~"
 
-hi "No!"
+hi "ไม่เอา!"
 
 show ev shizu_shanghai_boredlaugh
 with dissolve
 
-mi "Hahaha~! Just kidding, Hicchan…"
+mi "ฮ่าฮ่าฮ่า~! หยอก ๆ น่าฮิจัง…"
 
 scene bg suburb_shanghaiint
 show yuukoshang neurotic_up at center
 with dissolve
 
-yu "Um… okay, I think that the turkey sandwich is the most delicious sandwich… And it comes with free soup… A good employee would try to recommend the item that there is the most of, though… or the most expensive item…"
+yu "เอ่อ… ได้ ร้านนี้แซนด์วิชไก่น่าจะอร่อยสุดแล้ว… มีซุปแถมให้ด้วย… แต่ว่าพนักงานที่ดีต้องแนะนำเมนูที่มีเยอะที่สุด…\nไม่ก็เมนูที่แพงที่สุด…"
 
 show yuukoshang worried_up
 with dissolve
 
-yu "Am I bad at my job?"
+yu "ฉันทำหน้าที่บกพร่องหรือเปล่านะ"
 
-hi "No! That sounds good, I'll have that. And some coffee."
+hi "ไม่เลย ๆ ! ผมได้ครับ ขอตามนั้น แล้วก็กาแฟ"
 
 show yuukoshang smile_down
 with dissolve
 
-yu "Okay."
+yu "ได้ค่ะ"
 
 hide yuukoshang
 with charaexit
@@ -1349,34 +1349,34 @@ scene bg suburb_shanghaiint
 show yuukoshang neutral_down at center
 with shorttimeskip
 
-"She comes back a few minutes later with our drinks and my sandwich. Shizune seems to be fine with just her tea, while Misha also ordered a parfait. I don't know why, because I can't imagine many other things that would go worse with tea."
+"ไม่กี่นาทีเธอก็กลับมาพร้อมเครื่องดื่มที่สั่งไปพร้อมแซนด์วิช ชิซูเนะดูจะพอใจแล้วกับชา ส่วนมิช่าสั่งพาร์เฟต์อีก ไม่รู้ว่า\nจะสั่งทำไม เพราะนึกแทบไม่ออกเลยว่าจะมีอะไรที่กินกับชาแล้วไม่เข้าคู่กันไปกว่านี้อีก"
 
-"Oh well. I take a bite out of my sandwich. It's very good."
+"แต่เอาเหอะ ฉันกินแซนด์วิชก่อน ซึ่งอร่อยมาก"
 
 scene ev shizu_shanghai
 with locationchange
 
 shi "…"
 
-mi "Hicchan, have you thought about joining the Student Council?"
+mi "ฮิจัง ไปคิดเรื่องเข้าสภานักเรียนมาหรือยัง"
 
 stop music fadeout 3.0
 
-hi "Huh?"
+hi "ฮะ?"
 
 show ev shizu_shanghai_borednormal
 with dissolve
 
 shi "…"
 
-mi "Don't talk with your mouth full, Hicchan…"
+mi "กินอยู่ก็อย่าเพิ่งพูดสิ…"
 
 scene bg suburb_shanghaiint at bgleft
 with dissolve
 
-"I wash my food down with a sip of coffee, which is also surprisingly good. But now's not the time to remark on how this place has good food."
+"ฉันจิบกาแฟตาม ซึ่งก็อร่อยเหลือเชื่อเหมือนกัน แต่ตอนนี้ไม่ใช่เวลามาเห่ชมเครื่องคาวหวานของร้านนี้"
 
-hi "You said you understood it was too early to expect me to make a decision this quickly! That was like three hours ago!"
+hi "เธอพูดเองไม่ใช่เหรอว่ารู้ว่าถ้าคาดหวังคำตอบตอนนี้ยังเร็วไปน่ะ! เพิ่งบอกไปสามชั่วโมงที่แล้วมั้ง!"
 
 play music music_comedy fadein 0.5
 
@@ -1395,7 +1395,7 @@ show shizu adjust_smug_close at twoleft
 show misha hips_grin_close at tworight
 with charamove
 
-mi "A man should be decisive, Hicchan!"
+mi "ลูกผู้ชายห้ามใจโลเลสิฮิจัง!"
 
 show shizu behind_blank_close
 with charachange
@@ -1405,9 +1405,9 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "You really should join the Student Council, Hicchan. Come on, it'll be fun!"
+mi "นายต้องมาเข้าสภานักเรียนให้ได้เลยนะฮิจัง เถอะน่า สนุกแน่!"
 
-hi "People always say “come on, it'll be fun” เถอะน่า สนุกแน่ about things that are never, ever fun."
+hi "ไอ้วลี “เถอะน่า สนุกแน่” เนี่ย มันไม่เคยจะสนุกเล๊ย"
 
 show shizu behind_frown_close
 with charachange
@@ -1417,11 +1417,11 @@ shi "…"
 show misha cross_grin_close
 with charachange
 
-mi "Don't you believe me, Hicchan?"
+mi "ไม่เชื่อเหรอฮิจัง"
 
-"Is it Shizune saying that or Misha? What a cute expression; but the effect is somewhat jarring, like she has split personalities."
+"อันนี้ชิซูเนะหรือมิช่าพูดนะ ก็น่ารักดีอยู่หรอก แต่ดูแล้วขนลุกแปลก ๆ เหมือนมีสองบุคลิกยังไงยังงั้น"
 
-hi "Uh…"
+hi "เอ่อ…"
 
 show shizu basic_normal_close
 with charachange
@@ -1431,7 +1431,7 @@ shi "…"
 show misha hips_frown_close
 with charachange
 
-mi "Hicchan, that's depressing. We just want to spend time with you…"
+mi "ฮิจัง เสียใจนะเนี่ย พวกเราแค่อยากอยู่กับนาย…"
 
 show shizu behind_smile_close
 with charachange
@@ -1441,14 +1441,14 @@ shi "…"
 show misha hips_grin_close
 with charachange
 
-mi "That's right, Shicchan! Yeah, that's a good point too!"
+mi "นั่นสิชิจัง! อื้ม เธอพูดถูก!"
 
 show shizu adjust_smug_close
 with charachange
 
 shi "…"
 
-mi "Yup, this is beneficial to everyone, it solves all our problems~."
+mi "ช่าย ทุกคนได้ผลประโยชน์ ทุกอย่างลงตัวเป๊ะ~"
 
 show shizu behind_frown_close
 with charachange
@@ -1458,47 +1458,47 @@ shi "…"
 show misha perky_sad_close
 with charachange
 
-mi "Yeah, I also thought Hicchan would appreciate it… That makes me sad."
+mi "อื้ม ก็นึกว่าฮิจังจะยินดีด้วยเสียอีก… เศร้าจัง"
 
-"Suddenly I feel really left out."
+"อยู่ ๆ ก็รู้สึกเหมือนอยู่นอกวง"
 
-hi "It's rude to talk about someone without letting them in the conversation."
+hi "พูดถึงเขาแล้วไม่ให้เขาคุยด้วยมันไม่ดีนะ"
 
 show shizu adjust_happy_close
 with charachange
 
-"Shizune adjusts her glasses, laughing to herself."
+"ชิซูเนะดันแว่นแล้วหัวเราะกับตัวเอง"
 
 shi "…"
 
-mi "Aw, but it's true, Hicchan~! And you would be helping us out, membership has been really low this year."
+mi "โธ่ แต่นี่พูดจริงนะฮิจัง~! นายจะได้มาช่วยพวกเราด้วย ปีนี้คนเข้ายิ่งน้อย ๆ อยู่"
 
-hi "How low?"
+hi "น้อยแค่ไหน"
 
 show misha sign_confused_close
 with charachange
 
-mi "Ah, that's a secret, Hicchan."
+mi "อ๊ะ ความลับนะฮิจัง"
 
-hi "No, I want to know how low it was. How low is “low”?"
+hi "ไม่ ที่อยากรู้คือน้อยแค่ไหน “น้อย” ที่ว่านี่กี่คน"
 
-mi "Ahaha…"
+mi "อะฮ่าฮ่า…"
 
-hi "Five?"
+hi "ห้าคน?"
 
 show shizu behind_blank_close
 with charachange
 
 shi "…"
 
-hi "Lower?"
+hi "น้อยกว่านั้นอีก?"
 
 show misha perky_sad_close
 with charachange
 
-mi "Well…"
+mi "ก็…"
 
-hi "Zero?"
+hi "ศูนย์คน?"
 
 show shizu basic_normal_close
 with charachange
@@ -1508,20 +1508,20 @@ shi "…"
 show misha hips_grin_close
 with charachange
 
-mi "Wahaha~! Hicchan, that isn't important. What matters is that the number is low, and that is why we would appreciate you giving us a hand, especially with the festival coming up so soon, and it looking to be a busy year ahead in general."
+mi "วะฮ่าฮ่า~! ฮิจัง ไม่สำคัญหรอก ที่สำคัญคือว่าจำนวนมันน้อยแล้วอยากให้นายมาช่วย แถมงานเทศกาลก็ใกล้จัดแล้วอีก แถม\nงานสภานักเรียนปีนี้ก็ดูจะวุ่นวายด้วยสิ"
 
-hi "So you're not going to answer my question?"
+hi "นี่คือจะไม่ตอบคำถามกันแล้ว?"
 
 show shizu adjust_smug_close
 with charachange
 
 shi "…"
 
-mi "No~."
+mi "ไม่~"
 
-"I sigh and straighten up in my chair, trying to look as defiant as possible, because this seems like a big issue and I do not want to let it go that easily. I feel silly, like a blowfish."
+"ฉันถอนหายใจแล้วยืดตัวตรงนั่ง พยายามให้ดูต่อต้านที่สุด เพราะเหมือนว่าเรื่องนี้จะเป็นปัญหาใหญ่ แล้วฉันก็ไม่อยากปล่อยไป\nง่าย ๆ ด้วย ตลกตัวเองเหมือนกัน ทำเป็นปลาปักเป้าไปได้"
 
-hi "Fine, at least tell me this: How many people are in the Student Council? Total?"
+hi "ก็ได้ งั้นอย่างน้อยก็บอกมา ว่าที่สมาชิกสถานักเรียนมีกี่คนถ้วน"
 
 show shizu behind_blank_close
 with charachange
@@ -1531,14 +1531,14 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Um, well, Hicchan, we're definitely undermanned, but we have enough members to get the job done. Yup, yup~!"
+mi "อ่า เอ่อ ฮิจัง คือคนน้อยแหละ แต่ก็พอจะให้สภานักเรียนยังไปต่อได้ ใช่ ๆ ~!"
 
-hi "It's not just the two of you, is it?"
+hi "คงไม่ใช่ว่ามีแค่เธอสองคนหรอกนะ"
 
 show misha cross_laugh_close
 with charachange
 
-mi "Hahaha~! Hicchan, that's funny~!"
+mi "ฮ่าฮ่าฮ่า~! ฮิจังนี่ตลกจัง~!"
 
 show shizu basic_normal2_close
 with charachange
@@ -1548,26 +1548,26 @@ shi "…"
 show misha cross_smile_close
 with charachange
 
-mi "But~! It's definitely not just us."
+mi "แต่~! ไม่ได้มีแค่พวกเราแน่ ๆ "
 
-hi "Are you sure? Are you absolutely sure?"
+hi "แน่ใจนะ แน่ใจจริง ๆ นะ"
 
 show misha cross_grin_close
 with charachange
 
-mi "Yup~!"
+mi "ช่าย~!"
 
-"I stare at them both, trying to see if they will slip up and confirm my worst fears."
+"ฉันจ้องมองทั้งสองคนดูว่าจะมีใครหลุดแล้วเป็นตามที่กลัวจริง ๆ มั้ย"
 
 show misha perky_sad_close
 with charachange
 
-"Misha frowns, looking uncomfortable, but that is probably because I'm staring at her."
+"มิช่าขมวดคิ้วดูอึดอัด แต่ก็คงเพราะฉันจ้องนั่นแหละ"
 
 show shizu basic_happy_close
 with charachange
 
-"Shizune, on the other hand, returns my gaze with one of her own. Maybe she is challenging me, peering at me over the rims of her glasses like that. So teasing; and surprisingly immature, like a little girl beckoning someone to play with her."
+"แต่ชิซูเนะกลับจ้องตากลับ คงจะท้าทายอยู่มั้ง มองลอดแว่นมาด้วย ทั้งเย้าหยอกและดูเป็นเด็กอย่างเหลือเชื่อ เหมือน\nสาวน้อยที่ชวนให้มาเล่นด้วยกัน"
 
 show shizu basic_normal_close
 with charachange
@@ -1577,42 +1577,42 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Hicchan, your two cute student council representatives have been trying to make you feel welcome and are even treating you to lunch. You should show your gratitude by joining the council so you can at least help them out."
+mi "ฮิจัง ตัวแทนสภานักเรียนสุดน่ารักสองคนคอยต้อนรับนายแถมยังเลี้ยงข้าวเที่ยงอีกขนาดนี้ นายต้องตอบแทนด้วยการ\nเข้าสภานักเรียนมาช่วยสิ"
 
-mi "Yeah, it would be great if you could just file some papers for us, and… the festival is coming up, and we have to build some stalls for the games and food, just a few, so if you were there, it would be a lot easier for us…"
+mi "อื้ม ถ้านายมาช่วยเราจัดการเอกสารสักหน่อยก็คงดี แถม… งานเทศกาลก็ใกล้เข้ามาแล้วด้วย ต้องทำพวกแผงเกม\nแผงขายอาหารสักสองสามแผง ถ้ามาช่วยก็จะเบาภาระไปได้เยอะเลย…"
 
 show misha perky_sad_close
 with charachange
 
-mi "Please, Hicchan?"
+mi "เถอะนะ ฮิจัง"
 
-"What an interesting good cop-bad cop routine."
+"เป็นการเล่นตำรวจดี–ตำรวจเลวที่น่าสนใจดีจริง ๆ"
 
-"I'll give it a shot. Why not?"
+"ลองสักหน่อยก็คงไม่เสียหาย"
 
-"Just a shot."
+"แค่สักหน่อย"
 
-hi "Okay, I'll give it a trial run. It doesn't mean I'm joining, or anything definite, just that I'll help out a little, and then I'll see. And this makes us even for lunch, I'm not doing this because I want to."
+hi "โอเค จะทดลองเป็นดูก่อน แต่ไม่ได้หมายความว่าจะเข้าร่วมอะไรแบบถาวรนะ แค่จะไปช่วยนิดหน่อยดูก่อน เรื่องข้าวเที่ยงนี่\nก็จะได้เจ๊ากันไป ไม่ได้ทำเพราะอยากทำนะ"
 
 show misha perky_smile_close
 show shizu basic_frown_close
 with charachange
 
-"I finish off the last of my sandwich, and this makes Misha notice for the first time in a while that she has a parfait. She starts digging in, much to Shizune's chagrin, because I can tell from the way she plays with her fingers that she had a lot to say."
+"ฉันกินแซนด์วิชคำสุดท้าย และพอมิช่าเห็นเธอก็นึกได้ว่ายังมีพาร์เฟต์ให้กินอีกจึงเริ่มกิน ซึึ่งชิซูเนะดูจะไม่พอใจนักเพราะสังเกต\nจากนิ้วที่ยังขยับไปมาที่อยากจะพูดอะไรอีกหลายอย่าง"
 
 stop music fadeout 12.0
 
 show shizu behind_blank_close
 with charachange
 
-"Every time I look at Shizune, she looks back with such focus and intensity. This time is no exception. Her face is expressionless; maybe she is thinking. Eventually, it gives way to a smile."
+"ทุกครั้งที่มองชิซูเนะเธอจะมองกลับมาด้วยสายตาจดจ่อเสมอ ครั้งนี้ก็เช่นกัน สีหน้าเธอยังดูนิ่ง คงคิดอะไรอยู่ จนสุดท้ายก็\nเปลี่ยนเป็นรอยยิ้ม"
 
 show shizu adjust_happy_close
 with charachange
 
 shi "…"
 
-"She signs something, and obviously, I can't understand it at all. She has to know that. Then, she does it again, a childish playfulness showing through in the speed and energy of her gestures."
+"เธอทำภาษามือบางอย่าง ซึ่งเธอต้องเข้าใจว่าฉันอ่านไม่ออก แล้วก็ทำอีก ความขี้เล่นอย่างเด็ก ๆ ส่งผ่านมาด้วยความเร็วและ\nความแรงจากท่าทางของเธอ"
 
 show shizu adjust_smug_close
 with charachange
@@ -1622,54 +1622,54 @@ shi "…"
 show shizu adjust_happy_close
 with charachange
 
-hi "Misha, what did she say?"
+hi "มิช่า เธอพูดว่าไง"
 
 show misha perky_confused_close
 with charachange
 
 mi "…?"
 
-"Misha looks up from her parfait, torn between wanting to help out and going back to eating."
+"มิช่าเงยหน้าขึ้นมาจากพาร์เฟต์ เลือกไม่ถูกว่าจะช่วยหรือกินต่อดี"
 
-hi "What does this mean?"
+hi "อันนี้แปลว่าอะไร"
 
-"I try my best to make the same movements with my hands that Shizune did. I come to realize quickly that this isn't very easy. Imagine doing this all day, as your only means of communication."
+"ฉันลอกท่าของมือให้เหมือนชิซูเนะอย่างสุดความสามารถ และรู้สึกทันทีว่าไม่ง่ายเลย แล้วลองนึกสภาพถ้าต้องสื่อสาร\nด้วยแค่สิ่งนี้ทั้งวัน"
 
 show misha perky_smile_close
 with charachange
 
-mi "Hmm~… Sorry, Hicchan, I can't tell you."
+mi "อืมมม~… โทษทีนะฮิจัง บอกไม่ได้หรอก"
 
-hi "Why not? Is it an insult?"
+hi "ไหงงั้น เป็นคำด่าเหรอ"
 
 show misha hips_grin_close
 with charachange
 
-mi "No, Hicchan, I can't tell you because~!, it means something nice."
+mi "ไม่หรอกฮิจัง ที่บอกไม่ได้ก็เพราะ~! ความหมายมันดี"
 
-"Something nice, huh? Well, they've gone back to their tea and food, so I guess this conversation is over for now."
+"ความหมายดีเหรอ แต่ทั้งคู่ก็หันไปสนใจกับชากับของกินของตัวเองกันต่อ คงคุยอะไรอีกไม่ได้แล้วละ"
 
 hide misha
 hide shizu
 with charaexit
 
-"I don't really understand. But this makes me wish that I could. Maybe I could even try learning sign language. This school might have courses for it."
+"ฉันไม่รู้จริง ๆ แต่ก็อยากรู้เหมือนกัน หรือจะลองเรียนภาษามือดี ที่โรงเรียนน่าจะมีสอน"
 
-"Would I really do that? I think about it as I finish the rest of my coffee. I wonder why I'd even be motivated to think about it."
+"จะเอาจริงเหรอ ฉันคิดไปพลางดื่มกาแฟจนหมด คิดอยู่ว่าทำไมถึงเก็บมาคิด"
 
-"I'm enjoying myself so much that I don't even notice that we were supposed to be back in class ten minutes ago."
+"อยู่เพลินเสียจนลืมเลยว่าต้องกลับไปเรียนเมื่อสิบนาทีที่แล้ว"
 
-"Even if I were to start heading back to school right now, it would take at least… thirty minutes? Maybe. I can't risk running fast with my condition, so it would take at least that long to get there."
+"ต่อให้กลับไปตอนนี้ก็คงใช้เวลาอย่างน้อย ๆ อีก… สามสิบนาทีมั้ง ยิ่งมีโรคแบบนี้จะวิ่งไม่ได้เด็ดขาด\nคงใช้เวลาประมาณนั้นแหละ"
 
-"Well, ten minutes late already as I am, it wouldn't matter even if I could teleport."
+"แต่ยังไงก็สายมาตั้งสิบนาทีแล้ว ต่อให้หายตัวไปโผล่ที่ห้องเลยได้ก็คงไม่ต่างกันเท่าไหร่"
 
 show shizu behind_blank_close at twoleft
 show misha perky_confused_close at tworight
 with charaenter
 
-mi "Something wrong, Hicchan?"
+mi "มีอะไรเหรอฮิจัง"
 
-hi "I just realized lunch break ended ten minutes ago. It's only my third day, and I'm already going to miss a class."
+hi "เพิ่งนึกได้ว่าหมดพักเที่ยงไปตั้งกะสิบนาทีที่แล้วน่ะ เพิ่งมาได้สามวันก็จะเข้าห้องสายซะแล้ว"
 
 play music music_running fadein 4.0
 
@@ -1681,14 +1681,14 @@ shi "…"
 show misha hips_grin_close
 with charachange
 
-mi " Yup~! You are already late."
+mi "ช่าย~! สายแล้วละ"
 
-hi "Hey, that's not funny, so are you! And, aren't you two in the Student Council? You're setting a bad example."
+hi "เฮ้ย ไม่ตลกนะ พวกเธอก็ด้วย! เป็นสมาชิกสภานักเรียนกันไม่ใช่เหรอ เดี๋ยวก็เป็นตัวอย่างที่ไม่ดีหรอก"
 
 show misha perky_sad_close
 with charachange
 
-mi "Hicchan is so moral…"
+mi "ฮิจังมีคุณธรรมดีจัง…"
 
 show shizu basic_normal_close
 with charachange
@@ -1698,11 +1698,11 @@ shi "…"
 show misha sign_smile_close
 with charachange
 
-mi "But~! Hicchan is right, he is late for class, and~ it looks like you're cutting too, Hicchan, because you're not making an effort to go."
+mi "แต่~! ฮิจังพูดถูก เขาจะเข้าห้องสาย แล้ว~ นายก็จะสายจริง ๆ เพราะไม่พยายามไปให้ทันด้วย"
 
-mi "As your student council representatives, we're going to have to do something about this and make sure you're punished for it~!"
+mi "ในฐานะตัวแทนของสภานักเรียน พวกเราจะจัดการให้นายถูกลงโทษให้ได้~!"
 
-hi "But you two dragged me out here, this is all your fault. Take responsibility!"
+hi "แต่พวกเธอสองคนเป็นคนลากฉันมาที่นี่นะ ความผิดพวกเธอก็รับผิดชอบด้วยสิ"
 
 show shizu behind_frown_close
 with charachange
@@ -1712,9 +1712,9 @@ shi "…"
 show misha hips_smile_close
 with charachange
 
-mi "Hicchan, we were just taking a prospective student council member out to try and recruit him. It's business, business~! But~! You're not a member of the council, so there's no excuse!"
+mi "ฮิจัง พวกเราแค่พาว่าที่สมาชิกสภานักเรียนมาคุยให้เข้าร่วมด้วยนะ เป็นงานไง ๆ ~! แต่~! นายไม่ใช่สภานักเรียน\nเพราะฉะนั้นนายไม่มีข้ออ้าง!"
 
-hi "Yes, there is. That prospective student council member is clearly me."
+hi "มีสิ ก็ว่าที่สมาชิกสภานักเรียนที่ว่าก็คือฉันนี่ไง"
 
 show shizu basic_happy_close
 with charachange
@@ -1724,9 +1724,9 @@ shi "…"
 show misha hips_grin_close
 with charachange
 
-mi "Yes~! Are you going to join the Student Council, Hicchan?"
+mi "ใช่แล้ว~! นายจะเข้าสภานักเรียนมั้ยล่ะฮิจัง"
 
-"Shizune raises her teacup haughtily and wags her outstretched pinky finger up and down."
+"ชิซูเนะวางท่ายกถ้วยน้ำชาพลางยักนิ้วก้อยที่ชี้ไปมา"
 
 show shizu behind_blank_close
 with charachange
@@ -1736,13 +1736,13 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Hicchan, if only you were a member of the Student Council… But~! You can still join now, Hicchan! If you join now, you won't be in any trouble at all, and we'll be able to take many more nice excursions like this all the time! It'll be fun~!"
+mi "ฮิจัง ถ้านายเป็นสมาชิกสภานักเรียนละก็นะ… แต่ว่า~! นายจะเข้าตอนนี้ก็ได้นะ ฮิจัง! ถ้านายเข้าตอนนี้ นายจะไม่โดน\nอะไรเลย แถมจะได้ออกมาเที่ยวแบบนี้บ่อย ๆ ด้วย! บอกเลยว่าสนุก~!"
 
-"I start to think that, maybe, this was all an elaborate set-up leading up to this moment. Maybe Shizune lured me out here, banking on the possibility that I'd lose track of time and be forced into this situation."
+"เริ่มคิดแล้วว่าหรือบางทีทั้งหมดนี่เป็นแผนที่วางเอาไว้หมดแล้วหรือเปล่า ประมาณว่าชิซูเนะล่อให้มาที่นี่แล้วกะว่าฉันจะลืมเวลา\nจนเรื่องจะเป็นแบบนี้"
 
-"Diabolical. …Well, considering what I know of her, I should have been more on my guard. But to admit that I got myself into this, even slightly, would be unforgivable."
+"ร้ายกาจ …แต่เท่าที่รู้จักเธอ จริง ๆ ก็น่าจะระวังให้มากกว่านี้ แต่ฉันคงไม่ยอมรับแน่ ๆ ละว่าฉันหลงกลจนติดกับ"
 
-"I try to read Shizune's intentions in her eyes, but she just returns my stare blankly. Innocently. She takes a sip of tea, like she is mocking me."
+"ฉันเพ่งอ่านเจตนาของชิซูเนะจากดวงตาของเธอ ทว่าเธอเพียงมองกลับมาเฉย ๆ ด้วยตาใสซื่อพลางจิบชาเหมือนเยาะเย้ย"
 
 show shizu basic_normal_close
 with charachange
@@ -1752,9 +1752,9 @@ shi "…"
 show misha sign_smile_close
 with charachange
 
-mi "By the way, Hicchan, I didn't plan this at all, things just happened to work out this way~!"
+mi "เอ้อ ฮิจัง ฉันไม่ได้วางแผนมาก่อนเลยนะ แค่บังเอิญว่ามันลงล็อกมาเป็นแบบนี้น่ะ~!"
 
-"I was almost about to drop my theory as paranoia, but this puts a new spin on things. I almost fall over in awe. So it really was an elaborate set up, from the very beginning, all just to burn me and force me to join the Student Council."
+"ทีแรกก็อยากจะปัดเรื่องแผนว่าคิดมากไปเองอยู่หรอก แต่พูดงี้แล้วก็ทำเอาเริ่มมาคิดใหม่ เกือบหงายหลังล้มตึงด้วยความอึ้ง\nสรุปก็เป็นหมากที่วางมาแล้วเพื่อจะมัดมือชกให้ฉันเข้าร่วมสภานักเรียนจริง ๆ"
 
 show shizu adjust_smug_close
 with charachange
@@ -1764,25 +1764,25 @@ shi "…"
 show misha cross_laugh_close
 with charachange
 
-mi "Ahahahaha~! You look so nervous, Hicchan~! Did you really think we were tricking you this whole time?"
+mi "อะฮ่าฮ่าฮ่าฮ่า~! นายดูหงุดหงิดจังฮิจัง~! คิดจริง ๆ เหรอเนี่ยว่าพวกเราหลอกนายมาตลอด"
 
-hi "You're not?"
+hi "แล้วไม่ได้หลอกเหรอ"
 
 show misha perky_sad_close
 with charachange
 
-mi "Hicchan, you really thought…?"
+mi "ฮิจัง นี่นาย…"
 
 show shizu behind_frown_close
 with charachange
 
-"Misha frowns, looking heartbroken. Shizune quickly frowns as well, following her lead. How synchronized. Two of a perfect pair. They must be twins."
+"มิช่าขมวดคิ้วดูใจสลาย ชิซูเนะก็ขมวดคิ้วตาม เข้าขากันดีจริง ๆ เป็นคู่ที่สมกันเหลือเกิน แฝดกันแหง ๆ"
 
 shi "…"
 
-mi "Shicchan says she's flattered, Hicchan, but doing that kind of thing would be a grossly inappropriate abuse of power, and imposing on your free will~! And~! It would be blackmail, too! Shicchan would never do anything like that, never!"
+mi "ชิจังบอกว่าเธอปลื้มละฮิจัง แต่การทำอย่างนั้นจะเป็นการใช้อำนาจในทางที่ผิดมหันต์ และเป็นการลิดรอนเสรีภาพ\nของนายด้วย~! แถม~! ยังเป็นการแบล็กเมลด้วย! ชิจังไม่มีวันทำอย่างนั้น แน่นอน!"
 
-"I think about asking Misha, “Are you sure?” but resist the urge to."
+"ในใจนึกอยากถามมิช่าว่า “แน่ใจนะ” แต่ก็ยั้งปากไว้ทัน"
 
 show shizu basic_normal_close
 with charachange
@@ -1792,7 +1792,7 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Anyway, Hicchan, what Shicchan said is true. Since you're with us, and we're doing student council work, it's okay if we miss a class or two."
+mi "แต่นั่นแหละฮิจัง ที่ชิจังพูดน่ะจริงนะ ไหน ๆ นายก็อยู่กับพวกเราแล้ว แถมมาทำงานสภานักเรียนด้วย\nจะโดดสักคาบสองคาบก็ไม่เป็นไรหรอก"
 
 show shizu basic_normal_close
 with charachange
@@ -1802,21 +1802,21 @@ shi "…"
 show misha perky_confused_close
 with charachange
 
-mi "Not that this is a good excuse to do so…"
+mi "แต่ใช่ว่าจะเป็นข้ออ้างที่ดีนะ…"
 
 shi "…"
 
 show shizu behind_blank_close
 with charachange
 
-mi "…Or one that should be used more than three times a month…"
+mi "…ห้ามใช้เกินเดือนละสามครั้งด้วย…"
 
 show shizu basic_normal_close
 with charachange
 
 shi "…"
 
-mi "Or something that can or should be abused…"
+mi "ห้ามเอาไปใช้แบบผิด ๆ ด้วย…"
 
 show shizu adjust_happy_close
 with charachange
@@ -1826,60 +1826,60 @@ shi "…"
 show misha hips_grin_close
 with charachange
 
-mi "So~! We must definitely, definitely return to class! Eventually~!"
+mi "เพราะงั้น~! เรา{b}ต้อง{/b}กลับเข้าห้อง! อยู่ดี~!"
 
 show misha cross_laugh_close
 with charachange
 
-mi "Wahaha~!"
+mi "วะฮ่าฮ่า~!"
 
-"Shizune waves Yuuko over and points to her empty teacup, indicating that she wants another one, as Misha scrambles to finish her parfait so she can order something else. Maybe I should as well."
+"ชิซูเนะโบกมือเรียกยูโกะแล้วชี้ไปที่ถ้วยน้ำชาที่ว่างเปล่าเพื่อให้เธอมาเติม ในขณะที่มิช่าก็รีบกินพาร์เฟต์ให้หมดเพื่อ\nสั่งอย่างอื่นเพิ่มอีก สั่งบ้างดีกว่า"
 
-"I am still hungry, and the portions here are a little on the small side. Most importantly, Shizune is paying for everything. With that in mind, I ask Yuuko for another sandwich."
+"ยังไม่อิ่มเลย แถมจานนึงก็ได้ค่อนข้างน้อยด้วย ที่สำคัญที่สุดคือชิซูเนะเป็นคนเลี้ยงด้วย พอคิดเช่นนั้นแล้วก็สั่งแซนด์วิชอีกที่\nกับยูโกะ"
 
 scene bg suburb_shanghaiext
 with locationchange
 
 stop music fadeout 5.0
 
-"By the time we leave the tea shop I've missed not just one class, but two."
+"กว่าจะออกจากร้านก็ผ่านไปไม่เพียงคาบเดียว แต่เป็นถึงสองคาบ"
 
 scene bg suburb_roadcenter
 with locationchange
 
-"Shizune and Misha seem content to let the whole day pass by, stalling for even more time by suggesting a tour of the town that turns out to cover a two block radius from where we start."
+"ชิซูเนะกับมิช่าดูจะพอใจที่ปล่อยให้เวลาทั้งวันไหลไป แถมยืดอีกด้วยการพาเดินในเมืองที่อยู่ในระยะสองช่วงตึกจากร้านนั้น"
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"Eventually, we do go back to school, and the rest of the day is business as usual. When classes are over, Shizune and Misha pack their bags and leave the room before me. Come to think of it, this is the first time they've left me alone."
+"สุดท้ายพวกเราก็กลับโรงเรียนกัน ที่เหลือก็ตามปกติ พอเลิกเรียนแล้วชิซูเนะกับมิช่าก็เก็บของออกห้องไปก่อนแล้ว จะว่าไป\nครั้งแรกเลยมั้งที่สองคนนั้นทิ้งฉันไว้คนเดียว"
 
-"It's strange, I almost miss them. The room empties quickly, and I'm the last one out the door."
+"แปลก เหมือนจะเหงา คนก็ออกจากห้องไปจนหมดอย่างรวดเร็ว เหลือฉันคนสุดท้ายที่ออกประตู"
 
 scene bg school_lobby
 with locationchange
 
-"When I try leaving the lobby, however, an arm lowers itself in front of me like a toll bridge gate, stopping me in my tracks."
+"พอมาถึงโถงแล้วก็มีมือมากั้นเหมือนด่านทางด่วนไม่ให้ไปไหน"
 
 show shizu behind_blank at center
 with charaenter
 
 shi "…"
 
-hi "Oh, hi Shizune."
+hi "โอ๊ะ ไง ชิซูเนะ"
 
 scene black
 with hands_in
 
-"A pair of hands from behind cover my eyes, followed by a sharp burst of laughter."
+"อีกสองมือจากข้างหลังมาปิดตาเอาไว้ ตามด้วยเสียงหัวเราะลั่น"
 
-mi "Hi, Hicchan~! Guess who!"
+mi "ไงฮิจัง~! ทายซิใครเอ่ย!"
 
-"Misha asks the question completely without sarcasm, meaning she doesn't think that I instantly knew it was her for many obvious reasons."
+"มิช่าถามโดยไม่มีน้ำเสียงประชดแต่อย่างใด แปลว่าเธอคงคิดว่าฉันจะไม่รู้ว่าเป็นเธอจริง ๆ ทั้งที่ชัดขนาดนี้"
 
-hi "I wonder who it could be? Well, it's definitely not Misha…"
+hi "ใครกันนะ อืม ไม่ใช่มิช่าแน่ ๆ ละ…"
 
-mi "Hahaha~! It is!"
+mi "ฮ่าฮ่าฮ่า~! ใช่สิ!"
 
 scene bg school_lobby
 show shizu behind_blank at center
@@ -1893,7 +1893,7 @@ show shizu behind_blank at tworight
 show misha hips_grin_close at twoleft
 with charamove
 
-"Misha swings around to stand in front of me, beside Shizune."
+"มิช่าหมุนตัวย้ายมาอยู่ข้างชิซูเนะตรงหน้าฉัน"
 
 show shizu basic_normal2
 with charachange
@@ -1903,9 +1903,9 @@ shi "…"
 show misha cross_smile_close
 with charachange
 
-mi "Hicchan, are you busy right now?"
+mi "ฮิจัง ว่างมั้ย"
 
-hi "Busy going to my room, yeah. See you two tomorrow!"
+hi "ไม่ว่าง กำลังกลับห้อง เจอกันพรุ่งนี้!"
 
 show misha cross_smile_close at offscreenleft
 show shizu basic_normal2 at twoleft
@@ -1924,7 +1924,7 @@ show misha perky_smile at twoleft
 show bg school_lobby at bgright
 with ease_decel
 
-"I try to make a break for it, but Shizune is too agile to get past. As someone who used to play soccer, this is embarrassing. Not to mention that this behavior is drawing some odd looks. I should just quit while I'm ahead."
+"ฉันพยายามหนี ทว่าชิซูเนะเร็วเกินหนีทัน รู้สึกอายขึ้นมาทันทีในฐานะนักบอลเก่า แล้วยิ่งทำแบบนี้คนก็มองแปลก ๆ อีก\nรู้งี้ยอมไปเสียแต่แรกก็ดี"
 
 show shizu adjust_happy_close
 with charachange
@@ -1934,16 +1934,16 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Hicchan, could you please go upstairs and get a few things for us from the art room?"
+mi "ฮิจัง ไปเอาของที่ห้องศิลปะชั้นบนให้หน่อยสิ"
 
-hi "Why me?"
+hi "ไหงเป็นฉัน"
 
 show misha cross_laugh
 with charachange
 
-mi "Hahaha~! Shicchan thinks that if the art teacher sees us, he will say hi, and she doesn't like him!"
+mi "ฮ่าฮ่าฮ่า~! ชิจังคิดว่าถ้าครูศิลปะมาเห็นพวกเราก็จะทักทายน่ะสิ แล้วเธอก็ไม่ชอบเขาด้วย!"
 
-hi "Ignore him."
+hi "ก็เมินไปสิ"
 
 show shizu behind_blank_close
 with characlose
@@ -1953,9 +1953,9 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "She tried, but even though Shicchan is deaf, he'll try to say “hi~!” anyway!"
+mi "เคยลองแล้ว แต่ถึงชิจังจะหูหนวก ก็จะเข้ามาทักทายว่า “ไง~!” อยู่ดี!"
 
-hi "Run away?"
+hi "ก็หนีสิ"
 
 show shizu cross_angry_close
 with charachange
@@ -1965,32 +1965,32 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "I never run!"
+mi "ฉันไม่เคยหนีนะ!"
 
-"A tone of finality so strong that I can pick it up even through Misha. I can see there is no use pursuing this further with Shizune."
+"อารมณ์ยื่นคำขาดส่งมาแรงจนรู้สึกได้แม้มิช่าจะเป็นคนพูด จะมัวแต่ดื้อด้านเถียงกับชิซูเนะก็คงเปล่าประโยชน์"
 
-hi "Misha, why can't you get them?"
+hi "แล้วทำไมเธอไม่ไปล่ะมิช่า"
 
 show misha sign_smile
 with charachange
 
-mi "Stairs make me dizzy, Hicchan!"
+mi "ฉันเดินบันไดแล้วเวียนหัวอะฮิจัง!"
 
 show shizu basic_normal_close
 with charachange
 
 hi "…"
 
-"Shizune nods, as if to confirm it."
+"ชิซูเนะพยักหน้าคล้ายยืนยัน"
 
 show misha perky_sad
 with charachange
 
-mi "Please, Hicchan? We need these things to build stalls for the festival, and you said you would help out a little, right?, right?"
+mi "เถอะนะ ฮิจัง พวกเราต้องใช้ของพวกนี้ไปทำแผงในงานเทศกาลน่ะ แล้วนายก็บอกว่าจะช่วยหน่อยด้วย ใช่มั้ย ๆ"
 
-"I really shouldn't, but I guess just this once would be all right."
+"จริง ๆ ก็ไม่ควรช่วยเรื่องนี้เท่าไหร่ แต่แค่ครั้งนี้ครั้งเดียวคงไม่เป็นไร"
 
-hi "Okay."
+hi "ก็ได้"
 
 show shizu adjust_happy
 with charadistant
@@ -2000,18 +2000,18 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "That's great, Hicchan! Thank you~!"
+mi "เยี่ยมเลยฮิจัง! ขอบคุณนะ~!"
 
 show misha perky_smile
 with charachange
 
-mi "This is what we need!"
+mi "อันนี้ของที่ต้องใช้!"
 
-"She holds out a piece of paper for me to take."
+"เธอยื่นกระดาษมาให้ฉันรับไว้"
 
-"I'm sure this list was made by Shizune. It's handwritten, but each letter is perfectly formed and uniform, as if it were typed. Not just that, but it's exhaustively detailed, complete with numbers, bullet points, and even little checkboxes."
+"ชิซูเนะเป็นคนทำแน่ ๆ เขียนด้วยลายมือที่บรรจงเป็นระเบียบอย่างดีราวกับพิมพ์มา แล้วยังมีรายละเอียดครบถ้วนแยกเป็นข้อ ๆ \nมีจำนวน ทั้งกล่องติ๊กถูกด้วย"
 
-"What it boils down to is that she wants paint, paintbrushes, posterboard, and an easel. Just different types and specific numbers of each. I wonder how I'm going to carry all of this stuff down the stairs without breaking my neck."
+"สรุปก็คือจะใช้สี แปรง กระดาษแข็ง ขาตั้ง แค่คนละแบบกัน แล้วก็จำนวนที่เจาะจงสำหรับของสำหรับแต่ละแบบ แล้วนี่ฉัน\nจะขนของพวกนี้เดินลงบันไดมายังไงไม่ให้คอหักไปก่อน"
 
 stop music fadeout 4.0
 
