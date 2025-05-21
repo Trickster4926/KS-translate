@@ -14,33 +14,45 @@ play music music_dreamy fadein 2.0
 
 window show
 
-"The sound of an alarm pulls me out of a fitful slumber and into the unpleasant state of wakefulness."
+# "The sound of an alarm pulls me out of a fitful slumber and into the unpleasant state of wakefulness."
+"เสียงปลุกดังปลุกฉันจากการนอนหลับไม่สนิทให้ตื่นขึ้นมาอย่างหมดแรง"
 
-"I linger under the blanket for a few minutes, gathering energy to rise up while making excuses as for why I already haven't."
+# "I linger under the blanket for a few minutes, gathering energy to rise up while making excuses as for why I already haven't."
+"ฉันมุดตัวอยู่ในผ้าห่มอีกสักพัก พยายามรวบรวมแรงเพื่อลุกออกจากเตียงพลางแก้ตัวว่าทำไมยังไม่ลุกออกจากเตียง"
 
-"Honestly, I wouldn't mind staying here for all day. School is surprisingly exhausting after a long pause, and the culture shock still has not faded, I think."
+# "Honestly, I wouldn't mind staying here for all day. School is surprisingly exhausting after a long pause, and the culture shock still has not faded, I think."
+"พอไม่ได้มาโรงเรียนนานแล้วกลับมาอีกทีก็ทำเอาเพลียได้อย่างเหลือเชื่อ แถมเหมือนจะยังไม่ชินกับสภาพแวดล้อมแบบนี้เท่าไหร่ด้วย"
 
-"Still, despite getting an impression that skipping class is easy here, I don't think they are going to let me get away that easily."
+# "Still, despite getting an impression that skipping class is easy here, I don't think they are going to let me get away that easily."
+"แต่ก็นะ ถึงที่นี่จะโดดเรียนง่าย แต่ทำแล้วน่าจะโดนตามเช็คบิลแหง ๆ"
 
-"And the nurse is bound to keep breathing down my neck with the talk of exercising as well."
+# "And the nurse is bound to keep breathing down my neck with the talk of exercising as well."
+"แล้วคุณพยาบาลเองก็จ้ำจี้จ้ำไชเรื่องการออกกำลังกายด้วย"
 
-"So eventually I do rise up, swallow the morning medications and put on my old soccer clothing."
+# "So eventually I do rise up, swallow the morning medications and put on my old soccer clothing."
+"ในที่สุด ฉันก็ลุกออกจากเตียง กินยาส่วนของตอนเช้าแล้วใส่ชุดเตะบอลอันเก่า"
 
-"Thanks to my condition, I was exempted from taking part in gym classes at Yamaku, so I didn't get issued with a gym outfit."
+# "Thanks to my condition, I was exempted from taking part in gym classes at Yamaku, so I didn't get issued with a gym outfit."
+"ต้องขอบคุณอาการของฉัน ฉันเลยได้รับการยกเว้นจากคาบพละในยามากุ ก็เลยไม่มีปัญหาเรื่องชุดพละ"
 
-"I'd order some to cover such a contingency, but wearing my old soccer clothes is kind of nostalgic."
+# "I'd order some to cover such a contingency, but wearing my old soccer clothes is kind of nostalgic."
+"เดี๋ยวฉันก็สั่งมาเอาไว้เผื่อใช้ในกรณีฉุกเฉินแหละ แต่ว่าใส่ชุดเตะบอลเก่าอันนี้ก็พานให้นึกถึงเมื่อก่อนดี"
 
-"I can't use them for that any more, so maybe they can get a new life this way. A bit like me."
+# "I can't use them for that any more, so maybe they can get a new life this way. A bit like me."
+"จะใส่ไปเตะบอลแบบเดิมก็คงไม่ได้ละ แต่คงเอามาใส่แบบนี้ได้แหละ เป็นตัวฉันดี"
 
 label th_A19a:
 
 #if C61
 
-"After all, if I'm going to start taking care of myself, I can't afford to slack around. I'll start from the basics."
+# "After all, if I'm going to start taking care of myself, I can't afford to slack around. I'll start from the basics."
+"ยังไงซะ ถ้าฉันจะเริ่มดูแลตัวเองก็คงจะขี้เกียจไม่ได้ละ ฉันจะเริ่มจากอะไรง่าย ๆ ก่อน"
 
-"Basics which include keeping the rest of my body in shape along with what little I can do to strengthen my heart."
+# "Basics which include keeping the rest of my body in shape along with what little I can do to strengthen my heart."
+"ง่าย ๆ ที่รวมถึงการพยายามคุมรูปร่างและออกกำลังเบา ๆ เพื่อให้หัวใจแข็งแรงขึ้น"
 
-"Maybe then I can go back to something approaching a normal life; or at least something where I'm less likely to fall over dead at any minute."
+# "Maybe then I can go back to something approaching a normal life; or at least something where I'm less likely to fall over dead at any minute."
+"บางทีถ้าทำแบบนั้นฉันอาจจะกลับไปหายดีก็ได้ หรืออย่างน้อยก็จะไม่เสี่ยงหัวใจวายล้มตายได้ทุกเมื่อแบบนี้"
 
 stop music fadeout 2.0
 
@@ -48,13 +60,17 @@ stop music fadeout 2.0
 label th_A19b:
 #if C62
 
-"Seems a bit stupid to me, really."
+# "Seems a bit stupid to me, really."
+"เอาจริงดูบ้าบอไปหน่อย สำหรับฉัน"
 
-"But I suppose this way at least I can tell the nurse honestly that I'm doing something about my health."
+# "But I suppose this way at least I can tell the nurse honestly that I'm doing something about my health."
+"แต่อย่างน้อยคงเอาไปอ้างคุณพยาบาลได้ว่าดูแลตัวเองแล้ว"
 
-"Not that I was ever much of a runner to begin with."
+# "Not that I was ever much of a runner to begin with."
+"ก็ไม่เคยอยากจะเป็นนักวิ่งอยู่ละ"
 
-"Can't hurt to try, I guess."
+# "Can't hurt to try, I guess."
+"ลองหน่อยคงไม่เสียหาย คิดว่านะ"
 
 stop music fadeout 2.0
 
@@ -68,141 +84,182 @@ with locationskip
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_emijogging fadein 0.1
 
-"I'm surprised to discover that I'm not the only one present at the track."
+# "I'm surprised to discover that I'm not the only one present at the track."
+"ฉันแปลกใจนิดหน่อยที่เห็นคนมาที่ลานวิ่งอยู่ก่อนแล้ว"
 
-"Not just that, but it's a face I've seen before."
-  
-"The prosthetic-legged girl who bowled me over in the hallway yesterday is running on the track lithely, like a half-mechanical gazelle."
+# "Not just that, but it's a face I've seen before."
+"ไม่ใช่แค่คนทั่วไป แต่เป็นคนที่หน้าคุ้น ๆ เคยเจอมาก่อน"  
 
-"What was her name again? It was a short one, but I can't remember."
+# "The prosthetic-legged girl who bowled me over in the hallway yesterday is running on the track lithely, like a half-mechanical gazelle."
+"สาวที่ใส่ขาเทียมคนที่วิ่งชนฉันที่โถงทางเดินเมื่อวานกำลังวิ่งอยู่บนลานวิ่งอย่างคล่องแคล่ว เหมือน ......." # ฝากแปล
 
-"She seems to be running laps at a somewhat easy lope, her prosthetic legs clacking rhythmically on the hard track surface."
+# "What was her name again? It was a short one, but I can't remember."
+"เธอชื่ออะไรนะ ชื่อสั้น ๆ แต่ฉันจำไม่ได้"
 
-"I wonder what reason she has for running this early in the morning. Maybe it's something akin to mine, and the nurse is oppressing the poor girl to jog just like he is oppressing me."
+# "She seems to be running laps at a somewhat easy lope, her prosthetic legs clacking rhythmically on the hard track surface."
+"เธอดูท่าทางวิ่งเป็นรอบ ๆ ได้อย่างสบาย ๆ ขาเทียมของเธอกระทบกับพื้นลานแข็งอย่างเป็นจังหวะ"
 
-"I certainly wouldn't be here if it weren't for my health, and his prompting me to do so."
+# "I wonder what reason she has for running this early in the morning. Maybe it's something akin to mine, and the nurse is oppressing the poor girl to jog just like he is oppressing me."
+"ฉันล่ะอยากรู้ว่าทำไมเธอถึงต้องมาวิ่งตั้งแต่เช้ากันด้วย บางทีเหตุผลอาจจะคล้าย ๆ ฉันแหละมั้ง แล้วคุณพยาบาล\nก็บีบบังคับให้สาวน้อยที่น่าสงสารต้องมาวิ่งเหมือนกับที่เขาบังคับฉันมา"
 
-"And even with things being like they are, it's only because I wanted to get it out of the way early."
+# "I certainly wouldn't be here if it weren't for my health, and his prompting me to do so."
+"ฉันคงจะไม่มาอยู่ตรงนี้แน่ ๆ ถ้าไม่ใช่เพื่อสุขภาพของฉัน กับที่เขาสั่งบังคับมาให้ฉันมา"
 
-"The fact that I would be less likely to encounter someone who would witness my pitiful attempts to get in shape was merely a happy accident."
+# "And even with things being like they are, it's only because I wanted to get it out of the way early."
+"แต่ถึงอย่างงั้นก็เถอะ จริง ๆ ก็รีบมาจะได้รีบทำไปให้มันจบ ๆ เฉย ๆ"
 
-"I'd leave, but it seems that my former assailant noticed me on her last lap."
+# "The fact that I would be less likely to encounter someone who would witness my pitiful attempts to get in shape was merely a happy accident."
+"มาตอนนี้โอกาสที่มีคนมาเห็นฉันพยายามอย่างน่าสมเพชเพื่อลดหุ่นก็จะน้อยลง ซึ่งเป็นเรื่องที่ดี"
 
-"She waves at me cheerfully and jogs over."
+# "I'd leave, but it seems that my former assailant noticed me on her last lap."
+"ว่าจะกลับละ แต่เหมือนว่าอดีตผู้ร้ายจะเห็นฉันในตอนที่เธอวิ่งรอบสุดท้าย"
+
+# "She waves at me cheerfully and jogs over."
+"เธอโบกมือให้ฉันอย่างร่าเริง และวิ่งเหยาะ ๆ เข้ามา"
 
 show emi basic_grin_gym at Slide(0.7,0.5,0.5,0.5,1.0,_ease_in_time_warp)
 with charaenter
 
 stop ambient
 
-emi_ "Good morning! Your name is Hisao, right?"
+# emi_ "Good morning! Your name is Hisao, right?"
+emi_ "อรุณสวัสดิ์! นายชื่อฮิซาโอะใข่ไหม"
 
 play music music_emi fadein 2.0
 
-"She grins, seemingly pleased that she'd remembered my name."
+# "She grins, seemingly pleased that she'd remembered my name."
+"เธอยิ้ม ท่าทางดีใจที่เธอจำชื่อฉันได้"
 
 show emi basic_closedgrin_gym at center
 with charachange
 
-emi_ "You may not remember me."
+# emi_ "You may not remember me."
+emi_ "นายน่าจะจำฉันไม่ได้"
 
 show emi basic_grin_gym
 with charachange
 
-emi_ "Emi? I knocked you over in the hall yesterday."
+# emi_ "Emi? I knocked you over in the hall yesterday."
+emi_ "เอมิไง คนที่ชนนายที่โถงทางเดินเมื่อวานน่ะ"
 
 label th_A19i:
 
 show emi excited_circle_gym
 with charachange
 
-emi "“Miss Ibarazaki?”"
+# emi "“Miss Ibarazaki?”"
+emi "“คุณอิบาราซากิ”"
 
-"She imitates Misha “imitating” Shizune, failing to get the same kind of subdued lilt into her high-pitched voice."
-
+# "She imitates Misha “imitating” Shizune, failing to get the same kind of subdued lilt into her high-pitched voice."
+"เธอเลียนแบบมิช่าที่ “เลียนแบบ” ชิซูเนะอีกที แต่ก็ไม่เหมือนตรงที่เบียนแบบเสียงต่ำไม่ได้เนื่องด้วยเสียงแหลมของเธอ"
 
 
 label th_A19j:
 
-hi "How could I forget such a er, blunt introduction?"
+# hi "How could I forget such a er, blunt introduction?"
+hi "ฉันจะลืมการแนะนำตัวที่แสน เอ่อ ดุดันไปได้ไง"
 
 show emi sad_shy_gym
 with charachange
 
-"Emi has the decency to look vaguely apologetic for a moment before giggling."
+# "Emi has the decency to look vaguely apologetic for a moment before giggling."
+"เอมิทำท่าจะรู้สึกผิดไปแวบนึง ก่อนที่จะหัวเราะคิกคักออกมา"
 
 show emi sad_grin_gym
 with charachange
 
-emi "Yeah, sorry about that. Again."
+# emi "Yeah, sorry about that. Again."
+emi "อื้อ ขอโทษเรื่องนั้นอีกรอบนะ"
 
-hi "Hmm, well, so long as you don't make a habit of it, I suppose I'll be fine."
+# hi "Hmm, well, so long as you don't make a habit of it, I suppose I'll be fine."
+hi "เอ้อ ก็ถ้าไม่ได้มาชนเป็นกิจวัตรก็ไม่เป็นไรหรอก"
 
 show emi basic_happy_gym
 with charachange
 
-emi "Great!"
+# emi "Great!"
+emi "เยี่ยม!"
 
-"I'm not sure she realized I was joking."
+# "I'm not sure she realized I was joking."
+"ไม่แน่ใจว่าเธอจะเข้าใจไหมว่าเมื่อกี้คือมุก"
 
-hi "So the “spy-consultant” the nurse was talking about… is that actually you?"
+# hi "So the “spy-consultant” the nurse was talking about… is that actually you?"
+hi "สรุปว่า “สายลับที่ปรึกษา” ที่คุณพยาบาลเคยพูดถึงเป็นเธอเองหรอกเหรอ?"
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "That's right!"
+# emi "That's right!"
+emi "ใช่แล้วล่ะ!"
 
-hi "Oh."
+# hi "Oh."
+hi "โอ้"
 
-hi "I was expecting someone from the nursing staff, to be honest."
+# hi "I was expecting someone from the nursing staff, to be honest."
+hi "เอาจริง ตอนแรกนึกว่าจะเป็นเจ้าหน้าที่พยาบาลเสียอีก"
 
 show emi basic_confused_gym
 with charachange
 
-emi "What, are you saying I don't look like I could be a spy?"
+# emi "What, are you saying I don't look like I could be a spy?"
+emi "อะไรกัน นายจะบอกว่าฉันเป็นสายลับไม่ได้เหรอ"
 
-hi "No, this is more like a relief. I was afraid he would have someone to watch my every move."
+# hi "No, this is more like a relief. I was afraid he would have someone to watch my every move."
+hi "เปล่า ฉันแค่โล่งอกเฉย ๆ ตอนแรกระแวงว่าจะมีคนจับตาดูทุกฝีก้าวอะไรแบบนั้น"
 
-hi "Unless you are here to do exactly that."
+# hi "Unless you are here to do exactly that."
+hi "เว้นแต่ว่าเธอทำแบบนั้นอะนะ"
 
 show emi excited_laugh_gym
 with charachange
 
-emi "No, I'm here for my own reasons, the nurse just asked me if I had seen “a messy-haired transfer student who looks like he's kinda lost” around the track."
+# emi "No, I'm here for my own reasons, the nurse just asked me if I had seen “a messy-haired transfer student who looks like he's kinda lost” around the track."
+emi "เปล่า ฉันมาที่นี่ก็มีเหตุผลของฉันเองด้วย คุณพยาบาลถสมแค่ว่าฉันเห็น “นักเรียนที่ย้ายมาใหม่ ผมยุ่ง ๆ คนที่ทำท่า\nเหมือนกับหลงทางอยู่” แถว ๆ ลานวิ่งไหม"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
+# hi "So why are you down here?"
+hi "แล้วทำไมเธอถึงมาที่นี่ล่ะ?"
 
-hi "So why are you down here?"
-
-"Emi strikes a dramatic pose."
+# "Emi strikes a dramatic pose."
+"เอมิทำท่าดราม่า"
 
 show emi basic_happy_gym
 with charachange
 
-emi "Training!"
+# emi "Training!"
+emi "มาซ้อม!"
 
-hi "For what?"
+# hi "For what?"
+hi "ซ้อมไปทำอะไร?"
 
 show emi basic_closedhappy_gym
 with charachange
 
-emi "Track!"
+# emi "Track!"
+emi "ไปวิ่งแข่ง!"
 
-hi "Ah, I see. You're on the track team, then?"
+# hi "Ah, I see. You're on the track team, then?"
+hi "อ๋อ งี้นี่เอง เธออยู่ในทีมแข่งสินะ"
 
-"Emi nods enthusiastically."
+# "Emi nods enthusiastically."
+"เอมิพยักหน้าอย่างกระตือรือล้น"
 
 show emi excited_proud_gym
 with charachange
 
-emi "Yep! I'm one of the better runners, too!"
+# emi "Yep! I'm one of the better runners, too!"
+emi "อื้อ! และฉันก็เป็นตัวแบกทีมด้วยล่ะ!"
 
-"And modest about it, too."
+# "And modest about it, too."
+"และแถมถ่อมตัวเรื่องนั้นด้วย"
 
 show emi basic_grin_gym
 with charachange
 
-emi "Hey, you should join up!"
+# emi "Hey, you should join up!"
+emi "นี่ นายควรเข้าร่วมนะ!"
 
-emi "It's good exercise, you know."
+# emi "It's good exercise, you know."
+emi "มันเป็นการออกกำลังกายที่ดีเลย นายก็รู้"
 
 "I think that much activity is probably out of the question for me."
 
