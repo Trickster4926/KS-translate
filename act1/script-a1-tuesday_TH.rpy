@@ -2104,7 +2104,7 @@ hi "ทะ…?"
 show hanako defarms_strain_ss
 with charachange
 
-ha "{font=font/2005_iannnnnITV.ttf}{size=60}โทษทีมีธุระ!{/size}{/font}"
+ha "โทษทีมีธุระ!"
 
 show hanako defarms_strain_ss:
    xalign 0.5
@@ -2131,7 +2131,7 @@ play music music_pearly fadein 4.0
 
 "ยังไงก็คงไปตามฮานาโกะไม่ทันอยู่แล้ว เลยเดินไปหาสองคนนั้นแทน"
 
-hi "นี่พวกคุณเห็น… เอ่อ… เห็นผู้หญิงที่วิ่งผ่านไปหรือเปล่า?"
+hi "นี่พวกคุณเห็น… เอ่อ… รู้สึกเหมือนมีผู้หญิงวิ่งผ่านไปหรือเปล่า?"
 
 show yuuko smile_down_ss
 with charachange
@@ -2139,6 +2139,7 @@ with charachange
 yu "เอิ่ม น่าจะนะ… หน้าตาเธอเป็นยังไงล่ะ"
 
 hi "ผมยาวเข้ม ค่อนข้างขี้อาย แล้วก็เอ่อ… มีแผลเป็น… บนหน้า…"
+
 show lilly cane_surprised_ss
 with charachange
 
