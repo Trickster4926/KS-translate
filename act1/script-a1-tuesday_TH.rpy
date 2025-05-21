@@ -2358,7 +2358,7 @@ show hanako defarms_strain_ss
 with charachange
 
 # ha "Ivegottogodosomething!"
-ha "{font=font/2005_iannnnnITV.ttf}{size=30}โทษทีมีธุระ!{/size}{/font}"
+ha "{font=font/2005_iannnnnITV.ttf}{size=60}โทษทีมีธุระ!{/size}{/font}"
 
 show hanako defarms_strain_ss:
    xalign 0.5
