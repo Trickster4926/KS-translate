@@ -91,7 +91,7 @@ play ambient sfx_emijogging fadein 0.1
 "ไม่ใช่แค่คนทั่วไป แต่เป็นคนที่หน้าคุ้น ๆ เคยเจอมาก่อน"  
 
 # "The prosthetic-legged girl who bowled me over in the hallway yesterday is running on the track lithely, like a half-mechanical gazelle."
-"สาวที่ใส่ขาเทียมคนที่วิ่งชนฉันที่โถงทางเดินเมื่อวานกำลังวิ่งอยู่บนลานวิ่งอย่างคล่องแคล่ว เหมือน ......." # ฝากแปล
+"สาวที่ใส่ขาเทียมคนที่วิ่งชนฉันที่โถงทางเดินเมื่อวานกำลังวิ่งอยู่บนลานวิ่งอย่างคล่องแคล่ว ดูเหมือนละมั่งใส่ขาเหล็ก" # ฝากแปล
 
 # "What was her name again? It was a short one, but I can't remember."
 "เธอชื่ออะไรนะ ชื่อสั้น ๆ แต่ฉันจำไม่ได้"
@@ -500,7 +500,6 @@ stop ambient fadeout 2.0
 
 
 label th_A19g:
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 #if C61
 # "I'm not sure whether this morning's experiment was a success or a failure, but I'll admit that I do feel slightly good about getting out there this morning."
@@ -544,21 +543,25 @@ label th_A20:
 scene bg school_dormext_half
 with locationskip_out
 
-"I head back to the dorms to wash and change into my uniform, trying to resist the urge to take a really long and hot shower."
+# "I head back to the dorms to wash and change into my uniform, trying to resist the urge to take a really long and hot shower."
+"ฉันตรงกลับมาที่หอเพื่ออาบน้ำแต่งตัว พยายามฝืนตัวเองให้ไม่อาบน้ำร้อนนานเกิน"
 
-"I'm tired from all the running, so I just want to unwind, but I don't want to break my slowly building routine of getting to school before the morning rush."
+# "I'm tired from all the running, so I just want to unwind, but I don't want to break my slowly building routine of getting to school before the morning rush."
+"ฉันหมดแรงจากการวิ่งมาเลยอยากจะผ่อนคลายสักหน่อย แต่ก็ไม่อยากทำลายกิจวัตรประจำวันที่กำลังสร้างขึ้นด้วย\nการรีบไปโรงเรียนก่อนช่วงเวลาเร่งด่วน"
 
 scene bg school_dormbathroom
 show steam
 show steam2
 with shorttimeskip
 
-"After taking a long shower anyway, I dry myself off and get out of the stall to put on my clothes."
+# "After taking a long shower anyway, I dry myself off and get out of the stall to put on my clothes."
+"หลังจากการอาบน้ำที่กินเวลานานอยู่ดี ฉันเช็ดตัวให้แห้งก่อนจะออกจากห้องอาบน้ำเพื่อใส่เสื้อผ้า"
 
 show kenji silhouette_naked at center behind steam
 with charaenter
 
-"Out of nowhere, a shadow appears within the mist, looming and radiating malicious intent. It bursts through the fog."
+# "Out of nowhere, a shadow appears within the mist, looming and radiating malicious intent. It bursts through the fog."
+"จู่ๆ ก็มีเงาปรากฏขึ้นในหมอก แผ่กระจายรังสีชั่วร้ายทะลุหมอกออกมา"
 
 play music music_kenji fadein 0.3
 
@@ -569,77 +572,103 @@ show steam as newsteam behind kenji
 show steam2 as newsteam2 behind kenji
 with charachange
 
-ke "Sup?"
+# ke "Sup?"
+ke "ไง"
 
-hi "What are you doing here? What the hell, you scared me! What's your problem?!"
+# hi "What are you doing here? What the hell, you scared me! What's your problem?!"
+hi "มาทำไรเนี่ยเห้ย ตกใจหมด! มีไรว่ามา"
 
 show kenji tsun_naked
 with charachange
 
-ke "I should be asking you that. I've been looking for you all over the place, man."
+# ke "I should be asking you that. I've been looking for you all over the place, man."
+ke "ฉันสิต้องถามนาย ฉันหานายให้ทั่วเลยให้ตายสิ"
 
-hi "What do you mean “all over the place”?"
+# hi "What do you mean “all over the place”?"
+hi "หมายความว่าไงว่าหา “ให้ทั่ว” "
 
-"I want to ask if he's been looking for me like that, stark naked, but hold my tongue back."
+# "I want to ask if he's been looking for me like that, stark naked, but hold my tongue back."
+"ฉันอยากจะถามว่าเขาตามหาฉันด้วยสภาพตัวเปลือยแบบนี้หรือไง แต่ก็ยั้งปากไว้"
 
-"I finally realize I'm still naked too and quickly hold up my shirt in front of me, but Kenji doesn't seem to notice a thing."
+# "I finally realize I'm still naked too and quickly hold up my shirt in front of me, but Kenji doesn't seem to notice a thing."
+"เพราะฉันก็นึกขึ้นได้ว่าตอนนี้ฉันเองก็อยู่ในสภาพเปลือยไม่ต่างกัน และเอาเสื้อมาบังข้างหน้า แต่ดูเหมือนว่าเคนจิ\nไม่เห็นอะไรสักอย่าง"
 
-"His glasses are fogged up. But then, why doesn't he wipe them off? Is his vision so bad it's like he's perpetually seeing through fog?"
+# "His glasses are fogged up. But then, why doesn't he wipe them off? Is his vision so bad it's like he's perpetually seeing through fog?"
+"แว่นของเขาฝ้าขึ้นจนเต็ม แต่ทำไมเขาถึงไม่เช็ดมันออกกัน นี่สายตาเขาแย่ขนาดที่ว่าเหมือนกับมองผ่านหมอก\nตลอดเวลาหรือไง"
 
-ke "You know, your room, and… Yeah, that's it. Hey, I mean, I still had to get up, though. Whatever. It's not important. Can I borrow some money?"
+# ke "You know, your room, and… Yeah, that's it. Hey, I mean, I still had to get up, though. Whatever. It's not important. Can I borrow some money?"
+ke "ก็นะ ก็ที่หาห้องนายไง แล้วก็…เออนั่นแหละ เนี่ยเห็นปะว่ายังไงฉันก็ต้องตื่นมาอยู่ดี เอาเถอะไม่สำคัญหรอก\nขอยืมเงินหน่อยได้ปะ?"
 
 show kenji neutral_naked
 with charachange
 
-"He puts on an innocent face and looks away, trying very hard to look very casual. It doesn't work; he's as transparent as his windowpane-sized glasses."
+# "He puts on an innocent face and looks away, trying very hard to look very casual. It doesn't work; he's as transparent as his windowpane-sized glasses."
+"เขาทำหน้าซื่อ ๆ แล้วหันหน้าหนี พยายามทำให้ดูปกติเหมือนไม่มีอะไรและใช่มันไม่ได้ผล เขาอ้าปากก็เห็นลิ้นไก่แล้ว"
 
-"Talking neutrally like this, wearing nothing, feels awkward."
+# "Talking neutrally like this, wearing nothing, feels awkward."
+"สภาพคุยกันตรง ๆ แบบนี้โดยไม่ใส่อะไรเลย รู้สึกแปลก ๆ"
 
-"Actually, somehow it's even more awkward to be naked in front of someone when they can't see me being naked. To say nothing of the fact that he's naked as well."
+# "Actually, somehow it's even more awkward to be naked in front of someone when they can't see me being naked. To say nothing of the fact that he's naked as well."
+"เอาตรง ๆ ยิ่งรู้ว่ากำลังเปลือยต่อหน้าคนที่มองไม่เห็นว่าฉันเปลือย และไม่พูดอะไรเรื่องที่ว่าเขาเองก็เปลือย ยิ่งรู้สึกแปลกกว่าเดิมอีก"
 
-"I try to brush the feeling off, with little success."
+# "I try to brush the feeling off, with little success."
+"ฉันพยายามปัดความคิดออก ซึ่งได้ผลนิดหน่อย"
 
-hi "Money? Sure."
+# hi "Money? Sure."
+hi "เงินเหรอ ได้ดิ"
 
 show kenji happy_naked
 hide newsteam #lessening the processor load a little
 with charachange
 
-ke "Awesome."
+# ke "Awesome."
+ke "เยี่ยม"
 
-hi "Wait, why do you need it?"
-
-show kenji tsun_naked
-with charachange
-
-ke "Ehhhh…"
-
-show kenji neutral_naked
-with charachange
-
-ke "Can't you just give it to me because I had the good will not to run through your pockets while you were in the shower? I could have, but I exercised restraint. And in the end, isn't it the thought that counts? Come on, be a pal."
-
-"This makes no sense. If it's the thought that counts, I should withhold payment, since his thoughts were so clearly impure and his intentions are probably even more sinister since he can't tell me what they are. I say as much to him."
+# hi "Wait, why do you need it?"
+hi "เดี๋ยวก่อน เอาไปทำอะไร"
 
 show kenji tsun_naked
 with charachange
 
-ke "I'm offended man, but if that is your game, then fine, I guess I have no choice. I want to order a pizza, and I already have most of the cost of the pizza. I need your help for the rest."
-
-hi "I get some of that pizza too, right?"
-
-ke "No."
-
-hi "Are you serious?"
+# ke "Ehhhh…"
+ke "เอ่อ…"
 
 show kenji neutral_naked
 with charachange
 
-ke "Yeah. I would give you some, but you have class, you don't have time to eat a pizza."
+# ke "Can't you just give it to me because I had the good will not to run through your pockets while you were in the shower? I could have, but I exercised restraint. And in the end, isn't it the thought that counts? Come on, be a pal."
+ke "ทำไมนายถึงไม่ให้ฉันเพราะฉันอุตส่าห์เป็นคนดีไม่แอบขโมยเงินนายตอนนายอาบน้ำล่ะ ฉันทำได้แต่ฉันก็ไม่ทำไง\nแค่นี้ยังดีไม่พอเหรอ ไม่เอาน่าพวก"
 
-hi "What about you?!"
+# "This makes no sense. If it's the thought that counts, I should withhold payment, since his thoughts were so clearly impure and his intentions are probably even more sinister since he can't tell me what they are. I say as much to him."
+"ไม่เห็นจะเกี่ยวเลย ถ้าแค่นั้นคิดว่าดีพอสงสัยฉันน่าจะเปลี่ยนใจไม่ให้ดีกว่า ดูจากความคิดที่ไม่บริสุทธิ์ที่แสดงออกมา\nเจตนาเขาอาจจะแย่กว่านั้นก็ได้ดูจากการที่เขาไม่ยอมบอกว่าเอาไปทำอะไรแบบนี้"
 
-ke "I'm not going to class, I have to wait for the pizza and pay the guy. And then eat it. It's not easy. You have to obtain the pizza stealthily. If you don't, everyone will see you. And the pizza. And they will ask for a slice."
+show kenji tsun_naked
+with charachange
+
+# ke "I'm offended man, but if that is your game, then fine, I guess I have no choice. I want to order a pizza, and I already have most of the cost of the pizza. I need your help for the rest."
+ke "นี่ทำร้ายจิตใจกันอยู่นะเนี่ย แต่ถ้านี่เป็นเกมของนาย งั้นก็ได้ฉันคงไม่มีทางเลือกอื่นแล้วสินะ ฉันว่าจะสั่งพิซซ่า\nแล้วตอนนี้ก็มีเงินเกือบจะพอที่จะสั่งแล้ว เลยว่าจะขอความช่วยเหลือส่วนที่ขาดหน่อยน่ะ"
+
+# hi "I get some of that pizza too, right?"
+hi "ถ้างั้นฉันจะได้กินพิซซ่าด้วยใช่ไหม"
+
+# ke "No."
+ke "ไม่"
+
+# hi "Are you serious?"
+hi "บ้าปะเนี่ย" # "มึงจะบ้าหรอ #lmao" 
+
+show kenji neutral_naked
+with charachange
+
+# ke "Yeah. I would give you some, but you have class, you don't have time to eat a pizza."
+ke "น่า ฉันก็ว่าจะแบ่งให้แหละ แต่นายมีเรียนนี่ไม่มีเวลามากินพิซซ่าหรอก"
+
+# hi "What about you?!"
+hi "แล้วนายล่ะ?!"
+
+# ke "I'm not going to class, I have to wait for the pizza and pay the guy. And then eat it. It's not easy. You have to obtain the pizza stealthily. If you don't, everyone will see you. And the pizza. And they will ask for a slice."
+ke "ฉันไม่เข้าเรียน ฉันต้องรอพิซซ่ามาส่งแล้วจ่ายเงินแล้วก็กิน ไม่ง่ายนะเว้ย ต้องแอบไปเอาพิซซ่าแบบเงียบ ๆ\nไม่งั้นเดี๋ยวมีคนมาเห็นนายแล้วมาขอแบ่งอีก"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 show kenji tsun_naked
 with charachange
