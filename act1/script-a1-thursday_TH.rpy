@@ -49,7 +49,7 @@ label th_A19a:
 "ยังไงซะ ถ้าฉันจะเริ่มดูแลตัวเองก็คงจะขี้เกียจไม่ได้ละ ฉันจะเริ่มจากอะไรง่าย ๆ ก่อน"
 
 # "Basics which include keeping the rest of my body in shape along with what little I can do to strengthen my heart."
-"ง่าย ๆ ที่รวมถึงการพยายามคุมรูปร่างและออกกำลังเบา ๆ เพื่อให้หัวใจแข็งแรงขึ้น"
+"ง่าย ๆ ที่รวมถึงการพยายามรักษาสุขภาพและออกกำลังเบา ๆ เพื่อให้หัวใจแข็งแรงขึ้น"
 
 # "Maybe then I can go back to something approaching a normal life; or at least something where I'm less likely to fall over dead at any minute."
 "บางทีถ้าทำแบบนั้นฉันอาจจะกลับไปหายดีก็ได้ หรืออย่างน้อยก็จะไม่เสี่ยงหัวใจวายล้มตายได้ทุกเมื่อแบบนี้"
@@ -109,7 +109,7 @@ play ambient sfx_emijogging fadein 0.1
 "แต่ถึงอย่างงั้นก็เถอะ จริง ๆ ก็รีบมาจะได้รีบทำไปให้มันจบ ๆ เฉย ๆ"
 
 # "The fact that I would be less likely to encounter someone who would witness my pitiful attempts to get in shape was merely a happy accident."
-"มาตอนนี้โอกาสที่มีคนมาเห็นฉันพยายามอย่างน่าสมเพชเพื่อลดหุ่นก็จะน้อยลง ซึ่งเป็นเรื่องที่ดี"
+"กับอีกอย่างที่ว่ามาเวลานี้โอกาสที่มีคนมาเห็นฉันพยายามอย่างน่าสมเพชเพื่อรักษาสุขภาพก็จะน้อยลง ซึ่งเป็นเรื่องที่ดี"
 
 # "I'd leave, but it seems that my former assailant noticed me on her last lap."
 "ว่าจะกลับละ แต่เหมือนว่าอดีตผู้ร้ายจะเห็นฉันในตอนที่เธอวิ่งรอบสุดท้าย"
@@ -338,7 +338,6 @@ play sound sfx_gymbounce
 
 show emi gymbounce
 with charadistant
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # "As if to confirm her statement she bounces up and down a couple of times, giving a passing impression of standing on a pair of springs. Her legblades seem to be quite elastic."
 "เพื่อที่จะยืนยันคำพูดของเธอ เธอได้กระโดดขึ้นลงสองสามทีราวกับยืนอยู่บนสปริง ใบขาเทียมของเธอค่อนข้างยืดหยุ่นดี\nเลยทีเดียว"
@@ -367,15 +366,20 @@ with locationchange
 
 label th_A19d:
 
-"Hands spread, right?"
+# "Hands spread, right?"
+"กางมือออก ใช่ไหมนะ"
 
-"And something about hitting on the balls of your feet, rather than the heels…"
+# "And something about hitting on the balls of your feet, rather than the heels…"
+"แล้วก็เรื่องลงน้ำหนักไปที่ลูกเท้าแทนที่จะเป็นส้นเท้า"
 
-"I try to match my stride to Emi's, but it's pretty difficult."
+# "I try to match my stride to Emi's, but it's pretty difficult."
+"ฉันพยายามวิ่งให้ทันกับเอมิ แต่ช่างยากจริง ๆ"
 
-"Apparently I'm not very good at it."
+# "Apparently I'm not very good at it."
+"ดูจากตอนนี้ฉันยังวิ่งได้ไม่ดีนัก"
 
-"Maybe Emi could help me with that sometime."
+# "Maybe Emi could help me with that sometime."
+"บางทีเอมิน่าจะช่วยเรื่องนั้นได้"
 
 
 
@@ -383,83 +387,108 @@ label th_A19e:
 
 #if C62
 
-"Frankly, I don't remember if there's any particular form for running, but I can't help but feel like I'm doing it wrong, somehow."
+# "Frankly, I don't remember if there's any particular form for running, but I can't help but feel like I'm doing it wrong, somehow."
+"จริง ๆ แล้วฉันเองก็จำไม่ได้ว่ามันมีวิธีวิ่งแบบถูกวิธีอยู่หรือเปล่า แต่ตอนนี้เหมือนกับว่าฉันวิ่งผิดวิธีอยู่ยังไงยังงั้น"
 
-"I feel awkward in comparison to Emi, who never seems to break stride."
+# "I feel awkward in comparison to Emi, who never seems to break stride."
+"รู้สึกแย่เลยแฮะเมื่อเทียบกับเอมิที่ยังไม่ลดละความตั้งใจ"
 
 "…"
 
-"I don't think I want to do this any more."
+# "I don't think I want to do this any more."
+"ฉันว่าฉันไม่อยากมาวิ่งแบบนี้อีกแล้ว"
 
 
 
 label th_A19f:
 
-"I'm really not feeling up to more than a couple of laps today, and slow to a walk pretty quickly."
+# "I'm really not feeling up to more than a couple of laps today, and slow to a walk pretty quickly."
+"ฉันรู้สึกว่าวันนี้วิ่งต่ออีกรอบไม่ไหวแล้ว และพลันเปลี่ยนมาเป็นเดินแทน"
 
 scene bg school_track_on
 with Dissolve(4.0)
 
-"Emi keeps running, and doesn't seem to notice I've stopped until she passes me a second time."
+# "Emi keeps running, and doesn't seem to notice I've stopped until she passes me a second time."
+"เอมิยังคงวิ่งอยู่ และดูเหมือนว่าจะไม่ทันสังเกตเห็นฉันจนกระทั่งเธอวิ่งผ่านฉันไปรอบที่สอง"
 
 stop ambient
 
-"She quickly skids to a halt, breathing steadily in contrast to my own somewhat gasping demeanor."
+# "She quickly skids to a halt, breathing steadily in contrast to my own somewhat gasping demeanor."
+"เธอแวะหยุดทันที ด้วยท่าทีที่ยังหายใจปกติต่างจากฉันที่ไม่แม้แต่จะหายใจทั่วท้อง"
 
 play music music_emi fadein 2.0
 
 show emi basic_confused_gym at center
 with charamoveinleft
 
-emi "Finished already?"
+# emi "Finished already?"
+emi "วิ่งเสร็จแล้วเหรอ?"
 
-"I hang my head ruefully."
+# "I hang my head ruefully."
+"ฉันก้มหน้าด้วยความสลด"
 
-hi "Heh, yeah."
+# hi "Heh, yeah."
+hi "อะ อื้อ"
 
-hi "I'm not in very good shape right now."
+# hi "I'm not in very good shape right now."
+hi "ร่างกายตอนนี้ไม่ค่อยไหวน่ะ"
 
 show emi basic_grin_gym
 with charachange
 
-"Emi nods, and then grins at me again."
+# "Emi nods, and then grins at me again."
+"เอมิพยักหน้า แล้วส่งยิ้มมาให้ฉันอีกครั้ง"
 
-"She seems to do a lot of smiling."
+# "She seems to do a lot of smiling."
+"เธอนี่ยิ้มบ่อยจริง ๆ"
 
-emi "Well, the important thing is you started, right?"
+# emi "Well, the important thing is you started, right?"
+emi "แต่ก็ สิ่งที่สำคัญที่สุดก็คือนายก็ได้เริ่มแล้ว ใช่ไหมล่ะ"
 
 show emi excited_amused_gym
 with charachange
 
-emi "Next time, you just have to try to hold out longer, and then longer, and longer, and eventually you'll be great!"
+# emi "Next time, you just have to try to hold out longer, and then longer, and longer, and eventually you'll be great!"
+emi "รอบหน้า ๆ นายก็ลองฝืนวิ่งให้นานขึ้นและนานขึ้น และสุดท้ายนายก็จะทำได้ดีล่ะ!"
 
-hi "I'll keep that in mind."
+# hi "I'll keep that in mind."
+hi "จะพยายามละกัน"
 
-hi "But I think right now I'm going to go get ready for class."
+# hi "But I think right now I'm going to go get ready for class."
+hi "แต่ตอนนี้เดี๋ยวไปเตรียมตัวไปเรียนละ"
 
-hi "Shouldn't you?"
+# hi "Shouldn't you?"
+hi "แล้วเธอไม่ไปเหรอ?"
 
-"Emi shrugs unconcernedly."
+# "Emi shrugs unconcernedly."
+"เอมิยักไหล่แบบไม่กังวลเลย"
 
 show emi basic_grin_gym
 with charachange
 
-emi "Nah, I've got plenty of time."
+# emi "Nah, I've got plenty of time."
+emi "ไม่ละ ฉันยังเหลือเวลาอีกเยอะเลย"
 
-"I notice that she's not wearing a watch."
+# "I notice that she's not wearing a watch."
+"ฉันสังเกตว่าเธอไม่ได้ใส่นาฬิกามา"
 
-hi "Are you sure?"
+# hi "Are you sure?"
+hi "แน่ใจนะ?"
 
-"Another careless shrug."
+# "Another careless shrug."
+"เธอยักไหล่อีกรอบ"
 
-emi "Not really… but I've got to finish my routine!"
+# emi "Not really… but I've got to finish my routine!"
+emi "ก็ไม่ค่อยแน่ใจ… แต่ยังไงฉันก็จะวิ่งรอบท้ายให้จบก่อน!"
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "See you later, Hisao!"
+# emi "See you later, Hisao!"
+emi "ไว้เจอกันนะฮิซาโอะ!"
 
-hi "Er, yeah. See ya."
+# hi "Er, yeah. See ya."
+hi "เอ่อ อื้ม เจอกัน"
 
 stop music fadeout 5.0
 play ambient sfx_emisprinting
@@ -471,17 +500,23 @@ stop ambient fadeout 2.0
 
 
 label th_A19g:
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 #if C61
-"I'm not sure whether this morning's experiment was a success or a failure, but I'll admit that I do feel slightly good about getting out there this morning."
+# "I'm not sure whether this morning's experiment was a success or a failure, but I'll admit that I do feel slightly good about getting out there this morning."
+"ฉันไม่แน่ใจว่าจะเรียกการลองวิ่งเมื่อเช้าว่าสำเร็จได้ไหม แต่ยอมรับเลยว่าก็รู้สึกดีขึ้นมานิดนึงที่ได้ออกไปเมื่อเช้านี้"
 
-"And like Emi said, I just need to keep at it in order to get better, right?"
+# "And like Emi said, I just need to keep at it in order to get better, right?"
+"และก็อย่างที่เอมิบอก ฉันต้องไปบ่อย ๆ เพื่อจะได้ทำได้ดีขึ้นสินะ"
 
-"Practice makes perfect, or something like that."
+# "Practice makes perfect, or something like that."
+"การฝึกฝนทำให้เราชำนาญ หรืออะไรทำนองนั้น"
 
-"It's nice at least to feel like I've taken some semblance of control over my own health."
+# "It's nice at least to feel like I've taken some semblance of control over my own health."
+"อย่างน้อยก็รู้สึกดีที่พอควบคุมสุพภาพของตัวเองได้แล้ว"
 
-"I'll have to try to keep this up."
+# "I'll have to try to keep this up."
+"ฉันต้องหมั่นออกไปวิ่งเรื่อย ๆ ละ"
 
 scene black
 with locationskip_in
@@ -489,11 +524,14 @@ with locationskip_in
 label th_A19h:
 #if C62
 
-"Apart from feeling more tired than before, I don't think I accomplished anything today."
+# "Apart from feeling more tired than before, I don't think I accomplished anything today."
+"นอกจากว่ารู้สึกเหนื่อยกว่าเดิมแล้ว ฉันว่าฉันไม่ได้อะไรเลยวันนี้"
 
-"I'm so out of shape it's embarrassing."
+# "I'm so out of shape it's embarrassing."
+"ร่างกายฉันอ่อนแอเกิน น่าอายจริง ๆ"
 
-"The whole thing might have been a waste of time. I'll find some other way."
+# "The whole thing might have been a waste of time. I'll find some other way."
+"ทำไปก็คงเสียเวลาเปล่า ฉันคงจะหาทางอื่นเอา"
 
 scene black
 with locationskip_in
