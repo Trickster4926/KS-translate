@@ -215,7 +215,7 @@ with charachange
 
 # emi "No, I'm here for my own reasons, the nurse just asked me if I had seen “a messy-haired transfer student who looks like he's kinda lost” around the track."
 emi "เปล่า ฉันมาที่นี่ก็มีเหตุผลของฉันเองด้วย คุณพยาบาลถสมแค่ว่าฉันเห็น “นักเรียนที่ย้ายมาใหม่ ผมยุ่ง ๆ คนที่ทำท่า\nเหมือนกับหลงทางอยู่” แถว ๆ ลานวิ่งไหม"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
+
 # hi "So why are you down here?"
 hi "แล้วทำไมเธอถึงมาที่นี่ล่ะ?"
 
@@ -261,68 +261,90 @@ emi "นี่ นายควรเข้าร่วมนะ!"
 # emi "It's good exercise, you know."
 emi "มันเป็นการออกกำลังกายที่ดีเลย นายก็รู้"
 
-"I think that much activity is probably out of the question for me."
+# "I think that much activity is probably out of the question for me."
+"ฉันว่ากิจกรรมใช้แรงเยอะขนาดนั้นฉันไม่น่าไหวแน่ ๆ"
 
-hi "Nah, I'm not even sure that I really like running all that much."
+# hi "Nah, I'm not even sure that I really like running all that much."
+hi "ไม่หรอก ฉันไม่แน่ใจด้วยซ้ำว่าฉันจะชอบวิ่งขนาดนั้นไหม"
 
-hi "Plus I'm just not into organized sports, you know?"
+# hi "Plus I'm just not into organized sports, you know?"
+hi "อีกอย่าง ฉันเองก็ไม่ได้ชอบพวกงานจัดแข่งกีฬาสักเท่าไหร่"
 
-"It's true. I never even really got that much into soccer."
+# "It's true. I never even really got that much into soccer."
+"ก็นั่นแหละ ฉันไม่ได้ชอบเล่นบอลขนาดนั้นด้วยซ้ำ"
 
-"I mean I'd run around with my friends and all, but that was really the only reason I ever played."
+# "I mean I'd run around with my friends and all, but that was really the only reason I ever played."
+"คือก็เคยเล่นกับพวกเพื่อน ๆ นั่นแหละ แต่นอกจากนั้นก็ไม่ได้เล่นละ"
 
-"It wasn't for the glory to be found on the field, that's for sure."
+# "It wasn't for the glory to be found on the field, that's for sure."
+"ฉันเองก็ไม่ได้จะหาชื่อเสียงเรียงนามจากสนามแข่งอะนะ"
 
-"Emi seems to understand my meaning."
+# "Emi seems to understand my meaning."
+"เอมิดูจะเข้าใจสิ่งที่ฉันจะสื่อ"
 
 show emi basic_confused_gym
 with charachange
 
-emi "I see, I see. Not that into the whole organization thing."
+# emi "I see, I see. Not that into the whole organization thing."
+emi "อย่างนี้นี่เอง ก็ไม่ได้ชอบพวกการจัดแข่งกีฬาอะไรแบบนั้นสินะ"
 
 show emi excited_proud_gym
 with charachange
 
-emi "But now that you're here, I guess we're going to run together, huh?"
+# emi "But now that you're here, I guess we're going to run together, huh?"
+emi "แต่ไหน ๆ นายก็มาแล้ว ฉันว่าเรามาวิ่งด้วยกันดีไหมล่ะ?"
 
-hi "What? Er, sure, I guess."
+# hi "What? Er, sure, I guess."
+hi "ห้ะ เอ่อ ก็ได้แหละ"
 
-"Emi seems pleased."
+# "Emi seems pleased."
+"เอมิดูท่าดีใจ"
 
 show emi excited_joy_gym
 with charachange
 
-emi "Are you going to warm up?"
+# emi "Are you going to warm up?"
+emi "นายจะอุ่นเครื่องก่อนไหมล่ะ"
 
-hi "Real men don't warm up."
+# hi "Real men don't warm up."
+hi "คนจริงไม่ต้องอุ่นเครื่อง"
 
 show emi basic_annoyed_gym
 with charachange
 
-emi "Oh no, you always should warm up! Bad Hisao!"
+# emi "Oh no, you always should warm up! Bad Hisao!"
+emi "โอ้ไม่ ๆ นายควรจะอุ่นเครื่องก่อนทุกครั้งนะ! แย่จริง ๆ เลยฮิซาโอะ!"
 
 show emi excited_proud_gym_close
 with characlose
 
-"She scolds me enthusiastically, but then smiles and leans closer."
 
-emi "I hate warming up too."
+# "She scolds me enthusiastically, but then smiles and leans closer."
+"เธอต่อว่าฉันอย่างจริงจัง แต่ก็สิ่งยิ้มแล้วเอี้ยวตัวเข้ามาใกล้"
+
+# emi "I hate warming up too."
+emi "จริง ๆ ฉันก็ไม่ชอบอุ่นเครื่องเหมือนกันแหละ"
 
 show emi excited_laugh_gym_close
 with charachange
 
-"She laughs suddenly."
+# "She laughs suddenly."
+"แล้วเธอก็หัวเราะออกมา"
 
-emi "Heck, and I don't even have to stretch my legs!"
+# emi "Heck, and I don't even have to stretch my legs!"
+emi "เหอะ แล้วอีกอย่างฉันไม่ต้องยืดขาด้วยซ้ำ"
 
 play sound sfx_gymbounce
 
 show emi gymbounce
 with charadistant
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-"As if to confirm her statement she bounces up and down a couple of times, giving a passing impression of standing on a pair of springs. Her legblades seem to be quite elastic."
+# "As if to confirm her statement she bounces up and down a couple of times, giving a passing impression of standing on a pair of springs. Her legblades seem to be quite elastic."
+"เพื่อที่จะยืนยันคำพูดของเธอ เธอได้กระโดดขึ้นลงสองสามทีราวกับยืนอยู่บนสปริง ใบขาเทียมของเธอค่อนข้างยืดหยุ่นดี\nเลยทีเดียว"
 
-emi "Let's go!"
+# emi "Let's go!"
+emi "ไปกันเลย!"
 
 stop music fadeout 1.0
 
@@ -331,11 +353,14 @@ play ambient sfx_emijogging fadein 0.3
 scene bg school_track_running
 with locationchange
 
-"So we both take off around the track, and I can immediately see that she wasn't lying about being good at running."
+# "So we both take off around the track, and I can immediately see that she wasn't lying about being good at running."
+"พวกเราเริ่มออกตัววิ่งไปตามลู่วิ่ง และฉันก็ได้เห็นทันทีว่าเธอไม่ได้โกหกเรื่องที่เธอวิ่งเก่งจริง ๆ"
 
-"Emi moves fluidly, throwing herself into the run with a sort of wild abandon."
+# "Emi moves fluidly, throwing herself into the run with a sort of wild abandon."
+"เอมิเคลื่อนที่พริ้วไหวดั่งสายน้ำ วิ่งไปโดยไม่ได้สนใจสิ่งอื่นใด"
 
-"I find myself concentrating more on running properly."
+# "I find myself concentrating more on running properly."
+"ฉันสังเกตว่าตัวเองมีสมาธิกับการวิ่งอย่างถูกต้องมากขึ้น"
 
 #if C61
 
