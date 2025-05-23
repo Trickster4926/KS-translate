@@ -2009,7 +2009,7 @@ mi "อันนี้ของที่ต้องใช้!"
 
 "เธอยื่นกระดาษมาให้ฉันรับไว้"
 
-"ชิซูเนะเป็นคนทำแน่ ๆ เขียนด้วยลายมือที่บรรจงเป็นระเบียบอย่างดีราวกับพิมพ์มา แล้วยังมีรายละเอียดครบถ้วนแยกเป็นข้อ ๆ \nมีจำนวน ทั้งกล่องติ๊กถูกด้วย"
+"ชิซูเนะเป็นคนทำแน่ ๆ เขียนด้วยลายมือที่บรรจงเป็นระเบียบอย่างดีราวกับพิมพ์มา แล้วยังมีรายละเอียดครบถ้วนแยกเป็นข้อ ๆ \nมีจำนวน ทั้งกล่องที่เอาไว้ติ๊กถูกด้วย"
 
 "สรุปก็คือจะใช้สี แปรง กระดาษแข็ง ขาตั้ง แค่คนละแบบกัน แล้วก็จำนวนที่เจาะจงสำหรับของสำหรับแต่ละแบบ แล้วนี่ฉัน\nจะขนของพวกนี้เดินลงบันไดมายังไงไม่ให้คอหักไปก่อน"
 
@@ -2024,23 +2024,23 @@ play music music_dreamy fadein 2.0
 scene bg school_miyagi
 with locationchange
 
-"Lilly and Hanako quickly go about the business of making lunch."
+"ลิลลี่และฮานาโกะรีบจัดแจงข้าวเที่ยงกัน"
 
-"Before I can even open my small bag of food, Lilly's busying herself with her thermos and teabags as Hanako is setting out both their lunchboxes."
+"ฉันยังไม่ทันจะได้เปิดกล่องข้าว ลิลลี่ก็ไปง่วนอยู่กับกระบอกน้ำเก็บความร้อนและถุงชา ส่วนฮานาโกะก็เตรียมกล่องข้าว\nสำหรับทั้งพวกเธอสองคน"
 
 show lilly basic_smile at center
 with charaenter
 
-hi "So, is this what you meant by coming here almost every day?"
+hi "ที่บอกว่ามาเกือบทุกวันคือแบบนี้หรอกเหรอ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Yes, Hanako and I usually have lunch here. It suits both of us, so we ended up using this room regularly."
+li "จ้ะ ปกติฮานาโกะกับฉันมาทานข้าวเที่ยงด้วยกันที่นี่เพราะเหมาะกับเราสองคนดี เลยมาประจำ"
 
-"After seeing Hanako's reactions to me over the past couple of days, I can understand why that is a boon. That, and Lilly being able to get some quiet away from her class as well."
+"ดูจากท่าทีของฮานาโกะที่มีต่อฉันเมื่อสองวันที่ผ่านมาแล้วก็พอเข้าใจได้ว่าทำไมถึงเหมาะ แล้วแถมลิลลี่ก็จะได้ปลีกตัว\nจากห้องเรียนมาอยู่เงียบ ๆ ได้ด้วย"
 
-"I take my seat last, after Lilly's poured the tea for us and sits down."
+"ฉันนั่งลงเป็นคนสุดท้ายหลังลิลลี่เทน้ำชาให้พวกเราแล้วนั่งลง"
 
 scene bg tearoom_everyone_noon
 show tearoom_hisaoe lsmile
@@ -2048,79 +2048,79 @@ show tearoom_lillye smileclosed
 show tearoom_hanae sad
 with fade
 
-"The more time I spend with these two girls, the more I think they're a perfect foil to Misha and Shizune."
+"ยิ่งได้อยู่กับทั้งสองคนแล้วก็ยิ่งรู้สึกว่าพวกเธอเป็นตัวตัดกับมิช่ากับชิซูเนะได้ดีเยี่ยม"
 
-"Even without a voice, Shizune is direct and brash, and Misha seems to get along with everyone. On the other hand, Lilly is soft-spoken and relaxed while Hanako seems to be the shyest girl I've ever met."
+"ถึงแม้ชิซูเนะจะเป็นใบ้ แต่เธอก็เป็นคนตรง ๆ ลุย ๆ ส่วนมิช่าก็ดูจะเข้ากับทุกคนได้ ในขณะที่ลิลลี่จะเป็นคนพูดจาอ่อนหวาน\nและใจเย็น และฮานาโกะคงจะเป็นผู้หญิงที่ขี้อายที่สุดเท่าที่ฉันเคยเจอมา"
 
-li "So, how are you faring in Yamaku, Hisao? You seemed a bit flustered before."
+li "อยู่ยามากุเป็นยังไงบ้างจ๊ะฮิซาโอะ ก่อนหน้านี้เห็นเธอดูว้าวุ่นใจ"
 
 show tearoom_hisaoe sigh
 with charachange
 
-hi "Apart from getting lost every now and again, and being crash-tackled outside my classroom? Fine I guess…"
+hi "ถ้าไม่นับเรื่องที่หลงทางบ้างกับที่โดนชนตอนอยู่นอกห้องแล้วก็โอเคดีอยู่มั้งนะ…"
 
 show tearoom_lillye smileclosed
 show tearoom_hanae shy
 with charachange
 
-ha "You… you looked pretty hurt before. Are you really… okay?"
+ha "เมื่อ… เมื่อกี้เหมือนนายเจ็บมากเลย ไม่เป็นไร… จริง ๆ นะ"
 
-"For a brief moment, I consider telling Hanako and Lilly about my condition but then, I hold it back."
+"มีแวบหนึ่งที่นึกจะเล่าฮานาโกะกับลิลลี่เรื่องอาการของฉัน แต่ก็ไม่พูด"
 
-"I can't tell why, but for some reason I feel uncomfortable talking about it to these relative strangers, even if they have been pretty friendly."
+"ไม่รู้ทำไมถึงรู้สึกไม่ค่อยสบายใจที่จะเล่าเรื่องนี้กับคนที่เพิ่งรู้จักใหม่ ๆ ถึงจะดูเป็นมิตรดีก็เถอะ"
 
 show tearoom_hisaoe hrelief
 with charachange
 
-hi "Yeah, it's nothing. I was just a bit startled."
+hi "อื้ม ไม่เป็นไรหรอก แค่ตกใจนิดหน่อย"
 
 show tearoom_lillye thinking
 show tearoom_hanae sad
 show tearoom_hisaoe lthink
 with charachange
 
-"Judging from the two girls' expressions, I don't think that they're buying it. But, in what I assume is their way of respecting my privacy, they don't press the matter."
+"ดูจากสีหน้าสองสาวแล้วไม่เชื่อแหง ๆ แต่พวกเธอก็ไม่ซักไซ้ต่อ คงเป็นการเคารพความเป็นส่วนตัวละมั้ง"
 
-"I guess that is one of the unwritten rules around here; “don't ask.” Even if people's conditions are obvious, like Hanako's, there's still bound to be a story involved."
+"ที่นี่คงมีกฎที่รู้กันอยู่อย่างนึงคือ “ห้ามถาม” ต่อให้อาการของคนนั้นจะเห็นชัดเหมือนฮานาโกะ เพราะยังไงก็ต้องมีที่มาที่ไป"
 
-"Everyone has things that they don't feel comfortable speaking about, and I think everyone here recognizes that."
+"คนเราต่างก็มีสิ่งที่ไม่สบายใจจะคุยทั้งนั้น และคนที่นี่ก็น่าจะรู้ดี"
 
 show tearoom_hisaoe lsmile
 with charachange
 
-hi "So, uh…  how long have you been in this school? You both seem to know your way around pretty well."
+hi "แล้ว เอ่อ… พวกเธอมาอยู่ที่นี่นานแค่ไหนแล้วล่ะ ดูจะรู้ที่ทางดีนะ"
 
 show tearoom_lillye smileclosed
 with charachange
 
-li "Hmm… well, I've been here since the start of high school, but only moved into the dormitories a year ago."
+li "อืมม… ก็ ฉันอยู่ที่นี่มาตั้งแต่เริ่มเรียนมัธยมปลายเลยจ้ะ แต่เพิ่งย้ายมาหอในเมื่อปีก่อนนี่เอง"
 
-li "Hanako joined at the start of high school as well, and moved to the dormitories when she did, if memory serves me right."
+li "ฮานาโกะเขาก็มาเริ่มเรียนมัธยมปลายที่นี่เหมือนกัน ถ้าจำไม่ผิดก็น่าจะย้ายมาหอในตอนนั้นด้วยนะ"
 
 show tearoom_hanae shy
 with charachange
 
-ha "That's right. Since… high school."
+ha "ใช่แล้ว ตั้งแต่… ม. ปลาย"
 
-hi "So you've known each other since then?"
+hi "แสดงว่าก็รู้จักกันตั้งแต่ตอนนั้นเลยเหรอ"
 
 show tearoom_lillye ara
 with charachange
 
-li "Since I moved, yes. Hanako lives next door to me, so it's only natural, right?"
+li "ถ้าหมายถึงตั้งแต่ตอนย้ายเข้ามาก็ใช่จ้ะ ฮานาโกะเขาอยู่ห้องข้าง ๆ ก็คงไม่แปลกใช่ไหมจ๊ะ"
 
-ha "R-right."
+ha "อะ อื้ม"
 
 show tearoom_hisaoe calm
 with charachange
 
-hi "Yeah, of course."
+hi "อื้ม ก็จริง"
 
-"Living next to someone is probably reason enough to befriend them, though I'm guessing that Lilly's blindness played a part in it as well."
+"คนอย่างพวกเธอแค่อยู่ห้องข้างกันก็คงสนิทกันได้แล้วละนะ แต่เดาว่าส่วนหนึ่งน่าจะเพราะลิลลี่ตาบอดด้วย"
 
-"I can't imagine Hanako easily making friends with someone who has to deliberately avoid looking at her scars."
+"นึกภาพไม่ออกเลยว่าฮานาโกะจะสนิทกับใครได้ง่าย ๆ ที่ต้องคอยไม่มองแผลเป็นตลอด"
 
-"With the immediate conversation dried up, we start to eat our lunch."
+"พอหมดเรื่องคุยเล็ก ๆ น้อย ๆ แล้วพวกเราจึงเริ่มกินข้าวกัน"
 
 scene bg tearoom_everyone_noon
 show tearoom_hisaoe lsmile
@@ -2130,47 +2130,47 @@ with shorttimeskip
 
 play sound sfx_warningbell
 
-"It isn't long before the bells are signaling the end of the break. Like me, the girls pack up their lunches as efficiently as they set them out."
+"ไม่นานระฆังก็ดังเตือนว่าหมดพักเที่ยงแล้ว ทั้งฉันและพวกเธอสองคนต่างเก็บข้าวของอย่างคล่องแคล่วเหมือนตอนจัดเตรียม"
 
 show tearoom_lillye smileclosed
 with charachange
 
-li "I guess I'd better be off. Are you going to go with Hisao, Hanako?"
+li "ฉันคงต้องไปแล้วละจ้ะ เธอจะไปกับฮิซาโอะเลยมั้ย ฮานาโกะ"
 
 show tearoom_hanae shy
 show tearoom_hisaoe hthink
 with charachange
 
-"Hanako looks up at me, and for a second I can see that she is considering skipping class, maybe just to avoid walking to the classroom with me."
+"ฮานาโกะเงยหน้าขึ้นมามองฉัน เห็นว่าเธอคิดจะโดดเรียนแวบหนึ่ง อาจจะเพราะไม่อยากเดินกลับห้องกับฉัน"
 
 show tearoom_hanae sad
 with charachange
 
-ha "Y-yes."
+ha "อะ อื้ม"
 
-"I don't know what to think of it. Hanako really is delicate to the point of breaking if looked at in the wrong way. It makes me a bit nervous too, but I push the feeling aside, trying to be as natural as I can."
+"ฉันไม่รู้จะว่ายังไงดี ฮานาโกะเป็นคนเปราะบางเสียจนแค่มองผิดท่าก็ทำให้แตกสลายได้แล้ว เล่นเอาฉันเกร็งหน่อย ๆ ด้วยเลย\nแต่ฉันพยายามไม่คิดอะไรแล้วทำตัวให้เป็นธรรมชาติเท่าที่จะทำได้"
 
 show tearoom_hisaoe hsmile
 with charachange
 
-hi "We should hurry then. Class has already started by the sound of it."
+hi "งั้นก็รีบไปกันเลยดีกว่า เหมือนว่าคาบจะเริ่มแล้วด้วย"
 
-"Lilly gives a nod of farewell as she bends down to take her cane, Hanako and I filing out before her."
+"ลิลลี่พยักหน้าบอกลาแล้วก้มลงหยิบไม้เท้า ส่วนฮานาโกะและฉันเดินนำออกมาก่อน"
 
 scene bg school_hallway3
 with locationchange
 
-"We walk quickly down the empty halls to our respective classes."
+"พวกเราสาวเท้ามาที่โถงทางเดินโล่งที่พาไปห้องเรียนของแต่ละคน"
 
-"As we reach the door to Lilly's 3-2 classroom, she turns towards me."
+"และเมื่อถึงประตูห้องเรียน 3-2 ของลิลลี่ เธอหันมาทางฉัน"
 
 show lilly cane_smileclosed at twoleft
 show hanako emb_timid at tworight
 with charaenter
 
-li "Hisao, thank you for sharing lunch with us today."
+li "ขอบคุณที่มาทานมื้อเที่ยงด้วยกันนะจ๊ะ"
 
-hi "My pleasure, Lilly."
+hi "ด้วยความยินดี ลิลลี่"
 
 hide lilly
 with charaexit
@@ -2181,48 +2181,48 @@ show hanako emb_timid at center
 show bg school_hallway3 at bgleft
 with charamove
 
-"And with that, we part ways; Lilly entering her classroom and leaving Hanako and me to make off to our own. She's still looking like she wants to run away."
+"พอเธอพูดจบพวกเราก็แยกทางกัน ลิลลี่เดินเข้าห้องเรียนของเธอ ปล่อยให้ฉันและฮานาโกะไปยังห้องของตัวเอง ดูท่าทาง\nของฮานาโกะแล้วเหมือนอยากจะหนี"
 
-hi "So, do you really want to go back to class now?"
+hi "แล้ว เธออยากกลับเข้าห้องตอนนี้เลยมั้ย"
 
 show hanako basic_worry
 with charachange
 
-ha "Y-yes."
+ha "อะ อื้ม"
 
-hi "Okay then."
+hi "งั้นก็ตามนั้น"
 
-"I feel like I should say something more to her, but it's hard to come up with anything that would be appropriate and safe enough."
+"รู้สึกเหมือนต้องพูดอะไรอีก แต่นึกหัวข้อที่จะเข้าท่าแล้วก็ปลอดภัยพอไม่ออกเลย"
 
-"And Lilly was right; the more time we spend out here, the more explaining we have to do."
+"และลิลลี่ก็พูดถูก ยิ่งอยู่ที่นี่ยิ่งต้องอธิบายอะไรหลายอย่าง"
 
 play sound sfx_dooropen
 
-"I open the rear door to the class, and walk in."
+"ฉันเปิดประตูด้านหลังแล้วเดินเข้าห้องไป"
 
 scene bg school_scienceroom
 show muto irritated at center
 with locationchange
 
-"The teacher looks up at me, and opens his mouth to say something."
+"คุณครูมองมาทางฉันแล้วเปิดปากจะพูดอะไรสักอย่าง"
 
 show muto normal
 with charachange
 
-"However, as Hanako follows me in and closes the door, he simply nods to us and continues his lecture."
+"ทว่าพอเขาเห็นฮานาโกะที่เดินตามเข้ามาแล้วปิดประตูก็แค่พยักหน้าให้แล้วสอนต่อ"
 
-"This is the third time that Hanako has had her truancy practically ignored. There's definitely something going on here."
+"รอบนี้ก็รอบที่สามแล้วที่ไม่มีใครว่าอะไรฮานาโกะเรื่องเข้าเรียน ต้องมีอะไรสักอย่างแน่ ๆ"
 
 hide muto
 with charaexit
 
-"We make our way to our seats, and I notice that Misha and Shizune are both missing as well."
+"พวกเราเดินมานั่งที่ มิช่ากับชิซูเนะก็ไม่อยู่"
 
-"I wonder if it is some form of informal agreement with the staff, or if it's a “perk” afforded to the unique students of this school?"
+"ไม่รู้ว่าคนที่นี่เขารู้กันหรือยังไง ไม่ก็เป็น “สิทธิพิเศษ” สำหรับนักเรียนพิเศษของโรงเรียนนี้"
 
-"Trying to make as little disturbance as I can, I extract the relevant textbooks from my bag and start catching up."
+"ฉันพยายามทำตัวให้ปกติแล้วหยิบหนังสือวิชาที่เรียนออกมาจากกระเป๋าและเปิดตาม"
 
-"The class goes on quietly."
+"เวลาทั้งคาบผ่านไปอย่างเงียบเชียบ"
 
 
 #*******************************************
@@ -2238,9 +2238,9 @@ label th_A15:
 scene bg school_scienceroom
 with None
 
-"The teacher seems like an okay person despite the weird first impression I got, and the material is relatively interesting."
+"คุณครูก็ดูเหมือนจะเป็นคนดี ๆ คนหนึ่ง ถึงทีแรกเห็นแล้วรู้สึกแปลก ๆ ก็เถอะ เรื่องที่เรียนก็น่าสนใจดีด้วย"
 
-"However, the way he teaches is really bizarre. It's as if he expects that everyone is a natural genius."
+"แต่วิธีสอนนั้นออกจะประหลาด คล้ายคาดหวังว่าทุกคนจะเป็นอัจฉริยะแต่กำเนิด"
 
 scene bg school_scienceroom
 with shorttimeskip
@@ -2249,77 +2249,77 @@ play sound sfx_normalbell
 
 play music music_tranquil fadein 3.0
 
-"When the final bell sounds, I realize that there is still a lot of time left in the day, and I'm left wondering what to do."
+"เมื่อระฆังเลิกเรียนดังก็รู้ตัวว่ายังมีเวลาเหลืออีกมากสำหรับวันนี้จึงนั่งคิดว่าจะทำอะไรดี"
 
-"It's odd, at the hospital I had 24 hours a day of free time, but here filling the considerably shorter hours feels difficult."
+"แปลก ตอนอยู่โรงพยาบาลก็ว่างยี่สิบสี่ชั่วโมง แต่พอมาอยู่ที่นี่แล้วไม่รู้จะทำอะไรฆ่าเวลาดี ทั้งที่เทียบกันแล้วช่วงว่างสั้นกว่า"
 
-"Everyone else leaves, and I'm left alone with the teacher."
+"ทุกคนออกห้องไปจนหมด เหลือแค่ฉันกับคุณครู"
 
-"Mutou is examining the assignment sheets we were working on earlier, marking them with a red ballpen."
+"เขากำลังใช้ปากกาแดงตรวจงานที่เพิ่งทำกันไปเมื่อครู่อยู่"
 
-"Raising his eyes from his papers briefly, he notices me and furrows his brow."
+"พอเงยหน้าจากกระดาษมาครู่หนึ่งแล้วเห็นฉันก็ขมวดคิ้ว"
 
 show muto normal at center
 with charaenter
 
-mu "What is it, Nakai?"
+mu "มีอะไรหรือ นากาอิ"
 
-"I jump at him addressing me, but I guess it's natural to spark some conversation since there is nobody else around."
+"ฉันสะดุ้งที่เขาทัก แต่ก็คงไม่แปลกที่จะคุยเพราะไม่เหลือใครในห้องแล้ว"
 
-hi "Umm… nothing. Thinking about what I'd do after school."
+hi "เอ่อ… ไม่มีอะไรครับ แค่คิดอยู่ว่าเลิกเรียนแล้วทำอะไรดี"
 
-"The teacher slowly puts the cap on the pen he is holding and arranges his papers into a stack, clacking it against the desk twice."
+"คุณครูค่อย ๆ ปิดฝาปากกาที่ถืออยู่แล้วจัดกระดาษเข้าให้เป็นกองและเคาะกับโต๊ะสองที"
 
-"He seems very methodical and for a brief moment I'm reminded of Shizune, but the teacher is more unhurried and relaxed, much more routined."
+"เป็นคนดูมีระเบียบจนนึกถึงชิซูเนะขึ้นมาแวบหนึ่ง แต่คุณครูค่อนข้างสบาย ๆ ไม่รีบร้อนมากกว่า ทำอะไรซ้ำ ๆ เดิม ๆ"
 
-mu "You have no plans?"
+mu "ไม่มีอะไรจะทำเหรอ"
 
-hi "No. I considered joining a club, but don't know what kind of club would interest me."
+hi "ไม่มีครับ คือคิดเรื่องเข้าชมรมอยู่ แต่ไม่มีชมรมไหนที่น่าสนใจเท่าไหร่เลย"
 
-mu "Go observe a meeting of someone else's club. Might pique your interest."
+mu "ไปดูกิจกรรมชมรมอื่นที่เขาทำกันสิ อาจจะสนใจขึ้นมาก็ได้"
 
-hi "I guess…"
+hi "คงงั้นแหละนะครับ…"
 
-hi "I just…"
+hi "ผมแค่…"
 
-"But I don't know how to continue from there."
+"ฉันไม่รู้จะพูดยังไงต่อ"
 
 show muto irritated
 with charachange
 
-"Mutou looks at me in a way that makes me quickly want to take the words back to avoid a conversation."
+"คุณครูมองมาจนอยากจะลบคำพูดนั้นทิ้ง ๆ ไปเพื่อที่จะได้ไม่ต้องคุย"
 
-"But I can't, so I have to forge ahead."
+"แต่ก็ลบไม่ได้ คงต้องไปต่อ"
 
-hi "I just don't know how to deal with people. I mean, the other students."
+hi "ผมแค่ไม่รู้จะทำตัวยังไงเวลาอยู่กับคนอื่นน่ะครับ หมายถึงนักเรียนคนอื่นน่ะนะครับ"
 
-hi "I'm talking to people and everything, so it's not that I'd be isolated or anything."
+hi "ผมก็คุยก็อะไรอยู่ ไม่ใช่ว่าผมจะตัวคนเดียวอย่างนั้นนะครับ"
 
-hi "I just don't know what to think about… the disabilities. It's like… it feels that I'm being impolite if I pay attention to them, and it's weird to ignore them."
+hi "ผมไม่รู้ว่าต้องทำตัวยังไงกับ… ความพิการน่ะครับ แบบ… ถ้าจะจดจ่ออยู่กับมันไปเลยก็เสียมารยาท แต่จะเมินไปเลยก็แปลก ๆ"
 
-hi "Damned if I do, damned if I don't."
+hi "อารมณ์เหมือนทำก็โดนด่า ไม่ทำก็โดนด่า"
 
-"The teacher scratches his cheek absentmindedly, looking very unresponsive."
+"คุณครูเกาแก้มแกรก ๆ เหม่อ ๆ ไม่ตอบสนองอะไรมากนัก"
 
 show muto normal
 with charachange
 
-mu "These things are only an issue if you make them one."
+mu "ของพวกนี้น่ะ ที่เธอคิดมากคือเธอคิดไปเอง"
 
-mu "You can talk normally with someone, even if they are blind or something."
+mu "ถ้าจะคุยก็คุยปกติไปเลย ต่อให้คนนั้นจะตาบอดหรืออะไรก็เถอะ"
 
 show muto smile
 with charachange
 
-mu "Try to look behind the superficial. There's not a single student here who isn't just a normal kid behind whatever they might seem at first glance."
+mu "อย่ามองแค่ผิวเผิน ถึงภายนอกจะเป็นยังไง ทุกคนที่นี่น่ะก็เป็นเด็กที่ปกติเหมือน ๆ กันทั้งนั้น"
 
-"He says the same thing as Yuuko did."
+"พูดเหมือนยูโกะเลย"
 
-"I know they're right, but it's hard. How can you not consider for example Shizune's deafness, when the only way to communicate with her is to talk through Misha?"
+"ก็รู้อยู่ แต่จะให้ทำก็ยาก จะให้เมินยังไงเล่า อย่างจะให้เมินที่ชิซูเนะหูหนวกก็ไม่ได้ เพราะต้องสื่อสารผ่านมิช่าอย่างเดียว"
 
-"Or Hanako… it's not like you can ignore her face."
+"หรืออย่างฮานาโกะ… จะให้ไม่มองหน้าเลยก็ไม่ได้"
 
-hi "But…"
+hi "แต่ว่า…"
 
 play sound sfx_doorslam
 stop music fadeout 0.3
@@ -2327,7 +2327,7 @@ stop music fadeout 0.3
 show muto irritated
 with vpunch
 
-"I'm interrupted by the door of the classroom suddenly slamming open."
+"เสียงประตูที่จู่ ๆ ดังปังเข้ามาตัดบท"
 
 show misha hips_grin at offscreenright
 with None
@@ -2339,171 +2339,171 @@ with ease
 
 play music music_comedy fadein 0.5
 
-mi "Teacher~!"
+mi "ครูคะ~!"
 
-"Misha crashes in, hand straight in an enthusiastic greeting, her voice loud and lively enough to wake the dead from their graves."
+"มิช่าบุกทะลวงเข้ามาแล้วยกมือทักทายด้วยแรงเหลือล้น เสียงดังขนาดที่ว่าทำให้คนตายฟื้นขึ้นมาจากหลุมได้"
 
-"She starts towards the teacher's desk with her bouncing step, hands energetically swinging with the rhythm."
+"เธอเดินยกเท้าตัวลอยมาพร้อมแกว่งแขนเข้าจังหวะ"
 
-"Mutou, visibly dismayed at the interruption and Misha in general, slumps in his chair."
+"มุโต้ดูเอือมที่ถูกขัด และเอือมกับมิช่าด้วย เขาทิ้งตัวลงกับพนักเก้าอี้"
 
-mu "Mikado."
+mu "มิคาโดะ"
 
-"Misha stops in her tracks and looks around cluelessly, as if she's sensing from his tone that something's wrong but has no idea what."
+"มิช่าหยุดเดินแล้วทำหน้าซื่อมองไปรอบ ๆ เหมือนจับน้ำเสียงคุณครูได้ว่ามีเรื่องสักอย่าง แต่ก็ไม่รู้แน่ว่าคืออะไร"
 
 show misha perky_confused
 with charachange
 
-mi "Yes~?"
+mi "ขา~?"
 
-mu "We have talked about volume control before."
+mu "เราคุยกันเรื่องการใช้เสียงไปแล้วนะ"
 
 show misha perky_smile
 with charachange
 
-mi "Yes~!"
+mi "ค่ะ~!"
 
-"But she doesn't lower her voice at all, and the teacher just rubs his eyes."
+"แต่เธอก็ไม่เบาเสียงลงเลย คุณครูได้แต่ขยี้ตา"
 
-mu "So, what is it?"
+mu "แล้วมีอะไร"
 
 show misha perky_sad
 with charachange
 
-mi "I… we need help! We are running out of supplies for the festival stands!"
+mi "คือหนู… พวกเราต้องการความช่วยเหลือค่ะ! ของที่ใช้ทำแผงงานเทศกาลจะมีไม่พอแล้ว!"
 
 show misha sign_sad
 with charachange
 
-mi "This is a distress!"
+mi "แย่แน่ ๆ !"
 
-"She waves a pink slip of paper she's holding around."
+"เธอไกวเศษกระดาษสีชมพูที่ถือไว้"
 
-mu "So… go get more supplies from the art room. What's the problem with that?"
+mu "ก็… ไปเอาที่ห้องศิลปะสิ มีอะไรติดขัดล่ะ"
 
 show misha perky_sad
 with charachange
 
-mi "Plywood! Plywood is always the problem! Last time we wanted more there was only a little, but that time we just took it all and went with that."
+mi "ไม้อัดค่ะ! ไม้อัดนี่แหละตัวดีเลย! คราวที่แล้วก็ไม่พอเพราะมีนิดเดียว แต่ตอนนั้นก็ใช้ไปเท่าที่มีจนหมด"
 
-mi "Now there's like none left there, so do you know where there is some?"
+mi "ตอนนี้ก็เลยไม่เหลือแล้ว ครูพอจะรู้มั้ยคะว่ามีเหลือที่ไหนอีกมั้ย"
 
-mu "I don't understand. How would I know?"
+mu "งง แล้วครูจะไปรู้ได้ยังไง"
 
 show misha perky_confused
 with charachange
 
-mi "Shicchan… I mean the president thought that a teacher would know if there is plywood. Was she wrong?"
+mi "ชิจัง… เอ่อ คือประธานเขาคิดว่าครูคงรู้ว่าไม้อัดอยู่ไหนน่ะค่ะ นี่เธอคิดผิดเหรอคะเนี่ย"
 
-"Mutou looks like he is in great pain, frowning with his entire essence, and Misha doesn't get it at all."
+"มุโต้ดูปวดหัวเอามาก ๆ หน้านิ่วคิ้วขมวดขั้นสุด แต่มิช่าก็ยังไม่รู้เรื่อง"
 
-"Looking at the two of them communicate is terrible, like looking at a man being tortured by drilling his skull open while blasting pop music at full volume at the same time."
+"เห็นภาพสองคนนี้คุยกันแล้วทนดูแทบไม่ไหว เหมือนนั่งดูคนที่โดนทรมานด้วยการเอาสว่านเจาะหัวแล้วเปิดเพลงป็อป\nที่เร่งเสียงสุดไปด้วย"
 
-mu "I'm afraid I have no idea if there is any plywood in the school, let alone where it would be if there was any."
+mu "ครูเกรงว่าโรงเรียนไม่น่ามีไม้อัดเหลือแล้วนะ ไม่ต้องถามหรอกว่าอยู่ที่ไหน"
 
 show misha perky_sad
 with charachange
 
-mi "Awww… what should I do?"
+mi "โธ่… แล้วหนูต้องทำยังไงดีคะ"
 
-mu "Perhaps try to find Mr. Nomiya? I'm quite sure he would know where to find everything you need."
+mu "ไปหาครูโนมิยะมั้ย เขาน่าจะรู้นะว่าของที่พวกเธอต้องการอยู่ไหนกัน"
 
-mu "You'd have to pry them from his cold, dead hands, but that's a different matter."
+mu "ถึงจะต้องข้ามศพเขาไปก่อนจะเอาของก็เถอะ แต่อันนั้นก็อีกปัญหานึง"
 
-mi "Aaaah! I don't have time! We are so busy!"
+mi "โอ๊ยยย! ไม่มีเวลาแล้ว! ยุ่งมาก!"
 
-"She holds her head with both of her hands, looking as despairing as it's possible for a person like her. Without even noticing, she crumples the note she's holding against her hair."
+"เธอใช้ทั้งสองมือกุมหัวทำท่าทางให้ดูสิ้นหวังที่สุดเท่าที่คนอย่างเธอจะทำได้และขยำกระดาษที่ถือไว้บนหัวโดยไม่รู้ตัว"
 
-mi "I shouldn't even be fetching these things, there is so much to do and we are falling behind the schedule!"
+mi "ไม่น่ามาเป็นธุระให้เลย แค่ที่ต้องทำก็มีเยอะแล้ว แถมจะไม่ทันกำหนดอีก!"
 
 show muto smile
 with charachange
 
 stop music fadeout 2.0
 
-"Mutou looks at her gravely and then, suddenly smiles. Smiling doesn't really fit his face. I think it'd be better if he didn't."
+"มุโต้จ้องเธอเขม็งและจู่ ๆ ก็ยิ้มขึ้นมา รอยยิ้มดูไม่เข้ากับหน้าของเขาเท่าไหร่ ถ้าไม่ยิ้มน่าจะดีกว่า"
 
-mu "I wonder if you could get some temporary help?"
+mu "หาใครมาช่วยไปก่อนมั้ยล่ะ"
 
 show muto normal
 with charachange
 
-"He switches to staring at me focusedly, with a hard expression, as if trying to say “go make some friends.”"
+"เขาเปลี่ยนมาจ้องมองที่ฉันด้วยสีหน้าหนักแน่น คล้ายจะบอกว่า “ไปหาเพื่อนซะ”"
 
 "…"
 
-hi "Eehhh… I guess I can give you a hand."
+hi "เอ่ออ… ให้ฉันช่วยก็ได้นะ"
 
 play music music_running fadein 0.5
 
 show misha hips_grin
 with charachange
 
-mi "You can? Thanks, Hicchan, you are really nice!"
+mi "ได้เหรอ ขอบใจนะฮิจัง นายใจดีจัง!"
 
 show misha sign_confused
 with charachange
 
-"She pauses, does a double take and then points at me with her finger, yelping “Ah!” and looking very puzzled."
+"เธอชะงักไปเหมือนนึกอะไรได้ จากนั้นชี้นิ้วมาที่ฉันแล้วร้อง “อ๊ะ!” ออกมาด้วยสีหน้างุนงง"
 
-mi "Come to think of it, what's Hicchan doing here? Class is over, you should be having fun~!"
+mi "จะว่าไป ฮิจังมาอยู่อะไรตรงนี้เนี่ย เลิกเรียนแล้วก็ไปสนุกสิ~!"
 
-mu "We just had a little chat."
+mu "แค่คุยกันนิดหน่อยน่ะ"
 
 show misha perky_sad
 with charachange
 
-mi "Oh no! It's not detention is it? Are you in trouble, Hicchan?"
+mi "ตายแล้ว! ไม่ใช่การทำโทษใช่มั้ย ฮิจังไม่เป็นไรใช่มั้ย"
 
-hi "No, I'm not."
+hi "ไม่เป็น"
 
-mi "Is Hicchan in trouble, teacher?"
+mi "ฮิจังเขาเป็นอะไรมั้ยคะ"
 
-mu "No, he's not."
+mu "ไม่นะ"
 
-"Mutou sighs deeply and I feel that I have to help Misha to get her off the teacher's back."
+"มุโต้ถอนหายใจพรืด รู้สึกว่าคงต้องช่วยมิช่าเพื่อให้เธอยอมไปจากคุณครูสักที"
 
-hi "So what do you need?"
+hi "แล้วจะเอาอะไรบ้าง"
 
 show misha hips_smile
 with charachange
 
-mi "Here's a list. I can try to find the plywood from somewhere if there's none in the art room."
+mi "เอ้านี่รายการของ เดี๋ยวฉันไปหาไม้อัดจากที่อื่นก็ได้ถ้าไม่มีที่ห้องศิลปะ"
 
-"She offers me the note she's holding. I take it, hesitating a bit."
+"เธอยื่นโน้ตกระดาษที่ถือมาให้ ฉันรับมาด้วยความลังเล"
 
-hi "I said I'd help you, but this has no implications on whether I'm joining the council or not."
+hi "ฉันบอกว่าช่วยก็จริง แต่ไม่ได้แปลว่าจะเป็นคำตอบเรื่องเข้าสภาฯ นะ"
 
 show misha perky_sad
 with charachange
 
-mi "Awww…."
+mi "โห่…"
 
 show misha hips_grin
 with charachange
 
-mi "Still, thanks, Hicchan. Try to be quick, we are in a stall-building streak now, we must hurry hurry hurry!"
+mi "แต่ก็ขอบใจนะฮิจัง เร็วเข้าละ ช่วงนี้กำลังเร่งสร้างแผงกัน ต้องรีบ รีบ รีบ!"
 
 hide misha
 with easeoutright
 
-"She bounces out of the classroom, leaving me and the teacher looking at each other with something that feels like a silent agreement."
+"เธอโลดเต้นออกจากห้องไป ทิ้งไว้เพียงฉันกับคุณครูที่เงียบไปเหมือนรู้กัน"
 
 show muto normal at center
 show bg school_scienceroom at center
 with charamove
 
-mu "Well, there you have it, Nakai. You have something to do now."
+mu "นั่นไงนากาอิ มีอะไรให้ทำแล้ว"
 
-"Please don't sound so smug."
+"ไม่ต้องพูดแบบนั้นหรอกน่า"
 
-"Looking at the list with a number of items ranging from paint to plywood, all written with small, neat handwriting that is undoubtedly Shizune's, I heave a sigh."
+"พอเห็นรายการของแล้วก็ถอนหายใจ มีตั้งแต่สียันไม้อัด เขียนด้วยลายมือตัวเล็ก ๆ เป็นระเบียบที่ชิซูเนะเป็นคนเขียนแน่ ๆ"
 
-hi "I'll be going then."
+hi "งั้นไปละนะครับ"
 
 stop music fadeout 4.0
 
-"Waving the long list limply at the teacher, I exit to the hallway."
+"ฉันโบกกระดาษรายการที่ยาวเหยียดนั้นเบา ๆ แล้วออกมาที่โถงทางเดิน"
 
 
 
@@ -2514,222 +2514,222 @@ label th_A16:
 scene bg school_hallway3
 with locationchange
 
-"The classrooms closest to ours are designated belonging to classes 3-1 and 3-2 on the right side, and 3-4 on the left side, each door looking exactly the same."
+"ห้องเรียนที่อยู่ใกล้ห้องของพวกเราที่สุดทางด้านขวาคือห้อง 3-1 และ 3-2 ส่วนทางด้านซ้ายเป็นห้อง 3-4 และประตู\nแต่ละบานก็เหมือนกันทุกประการ"
 
-"Further down the corridor still with identical doors, are rooms that I didn't think were used for classes."
+"เมื่อเดินไปตามโถงทางเดินเรื่อย ๆ ก็ยังมีประตูแบบเดิมไปอีก แม้จะดูไม่น่าเป็นห้องเรียนก็ตาม"
 
-"I guess the art room is not a classroom as such."
+"ห้องศิลปะก็คงไม่ใช่ห้องเรียนละมั้ง"
 
-"I carefully push open the furthest door, and peek in."
+"ฉันค่อย ๆ เปิดประตูบานที่อยู่ด้านในสุดแล้วแอบส่องดู"
 
 scene bg school_classroomart at bgleft
 with locationchange
 
-"It's a classroom, but it seems rather badly kept or not in use. Am I in the right place?"
+"ก็เป็นห้องเรียน แต่ดูไม่ค่อยได้เก็บกวาดเท่าไหร่ หรือไม่ก็ไม่มีคนใช้ มาถูกมั้ยเนี่ย"
 
-"Desks and chairs are all around the room, a thin layer of dust settled on them. There are some easels in the corner so at least this looks like the right place."
+"ทั้งโต๊ะและเก้าอี้ที่มีฝุ่นจับบาง ๆ เกลื่อนห้อง แต่ก็มีขาตั้งอยู่ที่มุมหนึ่งของห้อง ก็น่าจะใช่แล้วแหละ"
 
-"The room is flushed in sunlight from the big windows, shadows creeping all over the desks."
+"แสงแดดส่องผ่านหน้าต่างบานใหญ่อาบห้อง เงาทอดยาวไปตามโต๊ะ"
 
-"Specks of dust are dancing in the stagnant air, making the beams of light almost visible."
+"ฝุ่นลอยตัวเริงระบำท่ามกลางอากาศนิ่งเอื่อยราวทำแสงส่องปรากฏสู่สายตา"
 
-"Jokingly, I call into the empty room."
+"ฉันลองทักดูเล่น ๆ "
 
-hi "Anybody ho—{w=.5}{nw}"
+hi "มีใคร—{w=.5}{nw}"
 
-"Something catches my eye and I stop mid-sentence."
+"ฉันสะดุดตาเข้ากับบางอย่างจนบทพูดถูกตัด"
 
 scene ev rin_eating_zoomout
 with flash
 
 play music music_rin fadein 0.5
 
-"Sitting on a desk is a short-haired girl; curiously wearing a boy's uniform, with a fork between her toes, a morsel of food stuck firmly on the end."
+"สาวผมสั้นคนหนึ่งนั่งอยู่บนโต๊ะ ชุดนักเรียนชายที่เธอใส่ทำฉันประหลาดใจ เธอใช้เท้าคีบส้อมเอาไว้ อาหารขนาดพอดีคำ\nติดแน่นอยู่กับปลายแหลมนั้น"
 
-"This odd way of dining seems to be caused by her apparent lack of hands, but her presence here is what takes me aback even more." 
+"ท่าทางการกินที่ดูประหลาดนี้ดูจะเป็นเพราะเธอไม่มีมือ แต่ที่ทำให้ฉันแปลกใจคือการที่เธออยู่ตรงนั้น"
    
-"How did I miss her before? She's sitting in a corner very still, but I still somehow took her as a part of the furnishing or a statue at first glance."
+"ทำไมก่อนหน้านี้ถึงไม่เห็นนะ ก็อยู่ที่ตรงนั้นนิ่ง ๆ แท้ ๆ แต่เห็นแวบแรกก็นึกว่าเป็นของตกแต่งหรือหุ่นอะไรสักอย่างอยู่เลย"
 
-"I'm not being too observant today, as a whole."
+"วันนี้ฉันคงตาถั่วไปหน่อย"
 
-"The girl seems to be frozen in place, staring at me with her huge eyes like a rabbit in headlights."
+"หญิงสาวเธอชะงักค้าง จ้องด้วยตากลมโตคล้ายคนเห็นผี"
 
-"She's staring at me, her mouth wide open, ready to accept the fork."
+"เธอมองมาที่ฉันอ้าปากกว้างรองับส้อม"
 
-"I'm staring at her, my mouth wide open, suddenly remembering I didn't finish my sentence and trying to think if I should."
+"ฉันจ้องเธออ้าปากค้าง และเพิ่งนึกได้ว่ายังพูดไม่จบ และคิดต่อว่าจะพูดให้จบดีมั้ย"
 
-"This weird stalemate keeps us both stunned into silence, punctuated only by the wall clock ticking rhythmically."
+"พอค้างกันทั้งคู่ก็เหลือแต่ความเงียบ มีเพียงเสียงเข็มนาฬิกาบนผนังที่เดินอย่างเป็นจังหวะ"
   
-rin_ "Hello."
+rin_ "สวัสดี"
 
-"The girl stuffs the forkful in her mouth, and is now staring at me expectantly while chewing. This is a bit awkward."
+"เธองับอาหารนั้นเข้าปากไปแล้วมองฉันเหมือนรออยู่พลางเคี้ยว แอบกระอักกระอ่วนแฮะ"
 
-hi "Umm… hello. I was told to pick up some supplies from here. For some festival stalls I think. I didn't think there would be someone here."
+hi "เอ่อ… สวัสดี พอดีมีคนใช้ให้มาเอาของน่ะ เหมือนจะทำแผงงานเทศกาลกันมั้ง ไม่นึกว่าจะมีคนอยู่"
 
-rin_ "There isn't. That's why I came here, too."
+rin_ "ก็ไม่มี ฉันถึงได้มาอยู่นี่ไง"
 
-"She picks up another forkful."
+"เธอกินเข้าไปอีกคำ"
 
-hi "Doesn't that mean you're here, then?"
+hi "งั้นก็แปลว่าเธอก็อยู่นี่ด้วยสิ"
 
 scene bg school_classroomart at bgleft
 show rin relaxed_surprised at center
 with locationchange
 
-"She raises her eyebrows as if she was suspecting my observation was false."
+"เธอยักคิ้วขึ้นเหมือนนึกสงสัยว่าฉันคิดผิด"
 
-rin_ "You are pretty observant. I guess it does. But who are you?"
+rin_ "ตาดีเหมือนกันนี่ ก็คงงั้นแหละ แล้วนายเป็นใคร"
 
-"This girl is pretty straightforward, isn't she?"
+"เธอก็ดูเป็นคนตรง ๆ ดี"
 
-hi "I'm Nakai, Hisao Nakai. I just transferred in on Monday."
+hi "ฉันนากาอิ ฮิซาโอะ นากาอิ เพิ่งย้ายมาเมื่อวันจันทร์น่ะ"
 
 show rin basic_absent
 with charachange
 
-rin_ "I'm Rin. Tezuka Rin. Rin Tezuka."
+rin_ "ฉันริน เทซูกะ ริน ริน เทซูกะ"
 
 show rin basic_deadpandelight
 with charachange
 
-rin "I won't shake hands with you, but at least we know who we are now."
+rin "ฉันจะไม่จับมือนายนะ แต่อย่างน้อยตอนนี้ก็รู้จักกันแล้วนะ"
 
-rin "That's very nice."
+rin "ดี ๆ "
 
-"Her deadpan manner of talking makes it hard to determine whether she's joking about shaking hands or not."
+"พอเธอพูดหน้าตายแล้วก็ดูไม่ออกว่าที่พูดเรื่องจับมือคือพูดขำ ๆ หรือจริงจัง"
 
-"It kinda bothers me, joking about these matters doesn't feel appropriate at all."
+"รู้สึกแปลก ๆ เพราะเอาเรื่องแบบนี้มาพูดขำ ๆ แล้วเหมือนจะไม่สมควร"
 
 show rin relaxed_nonchalant
 with charachange
 
-"While I'm trying to figure what's appropriate and whether this girl is, she seems to have lost interest in me and is now gazing yearningly back at her food."
+"ระหว่างที่ฉันกำลังคิดว่าแบบไหนถึงสมควรกับเรื่องไหนที่เธอคนนั้นจะมองว่าไม่สมควรบ้าง เธอก็หมดความสนใจจากฉัน\nแล้วหันไปมองที่อาหารของเธอด้วยความโหยหา"
 
 show rin basic_deadpan
 with charachange
 
-rin "Can I continue my lunch? If you don't mind me, I won't mind you."
+rin "ขอกินข้าวเที่ยงต่อได้มั้ย ถ้านายไม่อะไร ฉันก็ไม่อะไร"
 
-rin "If you need to get your stuff, the supplies are at the back."
+rin "ถ้านายมาเอาของก็อยู่หลังห้องเลย"
 
-hi "Go right ahead. But… lunch? School's already over for the day."
+hi "กินเถอะ ว่าแต่…ข้าวเที่ยงเหรอ ตอนนี้เลิกเรียนแล้วนะ"
 
 show rin basic_awayabsent
 with charachange
 
-rin "What word would you use then? There is no word for a meal you eat after lunch but before dinner, right? It bothers me very much too, but I don't really know what I should say."
+rin "แล้วจะให้ใช้คำว่าอะไรล่ะ คำสำหรับมื้อที่กินหลังตอนเที่ยงกับก่อนตอนเย็นก็ไม่มีใช่มั้ยล่ะ ฉันก็หงุดหงิดเหมือนกันแหละ\nแต่ฉันก็ไม่รู้ว่าจะบอกยังไงดี"
 
-hi "I don't think you are supposed to eat a meal between lunch and dinner to begin with."
+hi "จริง ๆ มันก็ไม่ควรมากินข้าวระหว่างช่วงมื้อเที่ยงกับมื้อเย็นอยู่แล้วนะ"
 
 show rin negative_spaciness
 with charachange
 
-rin "But I'm hungry now and my delicious boxed lunch would go to waste otherwise."
+rin "แต่ฉันหิวตอนนี้ไง แล้วฉันก็จะเสียดายข้าวกล่องแสนอร่อยนี่ด้วยถ้าไม่กิน"
 
 show rin basic_delight
 with charachange
 
-rin "I have curry. It's very delicious."
+rin "แกงกะหรี่ละ อร่อยมากเลย"
 
-"With much decisiveness, Rin once again picks up the fork between her toes and with at least as much impoliteness, she points it straight at me."
+"เธอใช้เท้าจับส้อมมาอย่างไม่ลังเลแล้วชี้มาทางฉันอย่างเสียมารยาท"
 
 scene ev rin_eating
 with locationchange
 
-rin "So, Nakai, what brings you to this place?"
+rin "แล้ว นากาอิ นายมาที่นี่ทำไม"
 
-hi "Like I said, I was told to look for these things."
+hi "ก็บอกว่ามาเอาของพวกนี้ไง"
 
 stop music fadeout 5.0
 
-rin "No, the school. From outside you look fine. Is your problem inside?"
+rin "ไม่ มาโรงเรียนทำไม นายก็ดูปกติดี ข้างในนายพิการเหรอ"
 
-"I come to a full stop, opening my mouth but not getting a word out."
+"ฉันพูดไม่ออก ปากเปิดแต่ไม่มีคำใดออกมา"
 
-hi "I…"
+hi "คือฉัน…"
 
-rin "I can guess. I am good at guessing. Better than most people."
+rin "ฉันเดาได้นะ ฉันเดาเก่งละ เก่งกว่าใครหลายคน"
 
-"Rin cuts me off before I can answer her question, or skirt around it somehow. I don't know which I would've done."
+"เธอตัดบทก่อนฉันจะทันได้ตอบคำถามที่ฉันอาจจะเลี่ยงตอบ ไม่รู้เหมือนกันว่าจะตอบไปตรง ๆ มั้ย"
 
-"I froze in front of this issue again. I haven't even told anyone here about my condition, or maybe it's only because it hasn't really come up."
+"ฉันติดอยู่กับเรื่องนี้อีกแล้ว ยังไม่เคยบอกคนที่โรงเรียนนี้เรื่องอาการที่ฉันเป็นอยู่เลย หรือไม่ก็ไม่ได้พูดถึงเฉย ๆ แหละ"
 
-"I do get the feeling that not making issues of this is a part of the social code here, as the teacher said."
+"ฉันรู้สึกเหมือนว่าการที่ไม่คุยเรื่องนี้เป็นเหมือนข้อตกลงอย่างหนึ่งของที่นี่อย่างที่คุณครูบอก"
 
-"I wonder if the people here could relate? Probably not any better than any normal person could."
+"คนที่นี่เขาจะเข้าใจมั้ยนะ อาจจะไม่เข้าใจเหมือนคนปกติที่ไหน ๆ นั่นแหละ"
 
-"I can't relate to Shizune's circumstances, or Lilly's, either."
+"อย่างฉันก็ไม่เข้าใจอาการของชิซูเนะหรือลิลลี่เหมือนกัน"
 
 scene bg school_classroomart at bgleft
 show rin basic_absent at center
 with locationchange
 
-"Naturally, while I go through this in my head, Rin keeps considering what my condition could be, with an overtly contemplative look on her face."
+"และแน่นอนว่าระหว่างที่ฉันกำลังคิดเรื่องพวกนี้อยู่ รินก็เดาไปเรื่อย ๆ ว่าฉันเป็นอะไรด้วยสีหน้าที่ดูครุ่นคิดอย่างชัดเจน"
 
-"She puts her fork between her lips and leans back, looking at the ceiling as if the answer was written up there."
+"เธอคาบส้อมเอาไว้แล้วเอนตัวพิงกำแพง มองเพดานคล้ายว่ามีคำตอบเขียนอยู่ตรงนั้น"
 
-"A beam of light illuminates her face from the window side, creating a mask of dark shadow on the other side."
+"แสงส่องหน้าเธอเข้ามาทางด้านที่มีหน้าต่างจนเกิดเงาขึ้นที่อีกฟากหนึ่ง"
 
 show rin basic_lucid
 with locationchange
 
-rin "I don't think it's anything in your head, and something in your guts would be boringly ordinary, like this lunch of mine. And less delicious."
+rin "ฉันว่าไม่น่าใช่ที่หัวนาย แล้วถ้าเป็นที่ท้องก็คงปกติจนน่าเบื่อตายชัก เหมือนข้าวเที่ยงวันนี้ของฉัน แต่อร่อยน้อยกว่า"
 
 show rin basic_deadpandelight
 with charachange
 
-rin "The problem must be in your pants!"
+rin "นายพิการที่เป้าไงละ!"
 
 play music music_rin fadein 0.5
 
-"This messed-up Sherlock Holmes kind of statement and the sheer lack of tact it was delivered with catches me completely off guard."
+"ประโยคที่เหมือนเชอร์ล็อก โฮลส์มพูดเวลาไขคดีได้นั้นเล่นเอาฉันไม่ทันตั้งตัว แล้วยิ่งท่าทางการพูดที่ไร้ซึ่งลีลานั้นอีก"
 
-"I think I might've reeled back even physically as Rin's eyes widen in revelation and astonishment."
+"รู้สึกเหมือนตัวเองอึ้งหงายหลังล้มตึงไปพร้อม ๆ ตอนที่รินเบิกตาขึ้นด้วยความทึ่งเมื่อได้ระลึกได้ดังนั้น"
 
 show rin relaxed_surprised
 with charachange
 
-rin "So I was right! There's something wrong with your tackle, isn't there?"
+rin "จริง ๆ ด้วย! ปัญหานายอยู่ที่ไอ้จ้อนใช่มั้ย"
 
-"Still partially in shock but recognizing the need to reply something, I spit out the first thing that I can think of."
+"ด้วยสภาพที่ยังอึ้งกิมกี่แต่ก็นึกได้ว่าต้องตอบอะไรสักอย่างไปจึงพูดอะไรที่พอคิดได้ก่อนออกมา"
 
-hi "No! Nothing like that. I have a heart problem. Arrhythmia."
+hi "ไม่! ไม่ใช่อย่างนั้น ปัญหาฉันอยู่ที่หัวใจ หัวใจเต้นผิดจังหวะ"
 
 "…"
 
-"I said it. More like blurted it out, but I said it."
+"พูดออกไปแล้ว ถึงจะเหมือนพลั้งปากไปก็เถอะ แต่ก็ได้พูดแล้ว"
 
 show rin negative_spaciness
 with charachange
 
-"The girl in front of me purses her lips together and glowers at me, looking very disappointed."
+"คนที่อยู่ตรงหน้าเม้มปากแล้วจ้องเขม็งมาที่ฉันด้วยสีหน้าที่ผิดหวัง"
 
-rin "How boring. Trouble in the pants would have been much more scandalous."
+rin "น่าเบื่อชะมัด ถ้าเป็นตรงนั้นคงดูเป็นที่เลื่องลือกว่าเยอะ"
 
-"What's with this reaction?"
+"ไอ้ท่าทางนี่คืออะไร"
 
-hi "I'm sorry to let you down."
+hi "ขอโทษที่ทำให้ผิดหวังแล้วกัน"
 
 show rin basic_awayabsent
 with charachange
 
-rin "I forgive you. Just, I collect people and a person with, you know, that kind of problem would've been really great."
+rin "ให้อภัย แค่พอดีฉันกำลังรวบรวมคนอยู่น่ะ แล้วแบบ ถ้ามีความพิการอะไรแบบนั้นคงสุดยอดไปเลย"
 
-hi "Collect people?"
+hi "รวบรวมคน?"
 
 show rin basic_absent
 with charachange
 
-rin "People with different problems."
+rin "คนที่พิการหลาย ๆ อย่างน่ะ"
 
-hi "Huh, so you just… like, go around asking people what's wrong with them?"
+hi "หือ แล้วเธอก็…แบบ ไล่ถามคนว่าพิการตรงไหนเนี่ยนะ"
 
 show rin basic_deadpannormal
 with charachange
 
-rin "Pretty much."
+rin "ก็ประมาณนั้น"
 
-hi "I see."
+hi "งี้นี่เอง"
 
 "…"
 
@@ -2738,21 +2738,21 @@ stop music fadeout 8.0
 hide rin
 with charaexit
 
-"With little left to say, Rin resumes her lunch and the conversation dies away, but I keep thinking about what was said."
+"เมื่อไม่มีอะไรจะพูดอีกบทสนทนาก็จบลง รินก็กินข้าวเที่ยงต่อ ส่วนฉันยังคิดถึงเรื่องที่พูดออกไป"
 
-"It's the first time I told anyone else about my condition. All the other people have either known about it already, or heard about it from someone else."
+"เป็นครั้งแรกเลยที่ได้บอกเรื่องอาการของฉันให้คนอื่นฟัง บางคนก็รู้อยู่แล้ว ไม่ก็ได้ยินมาจากคนอื่นอีกที"
 
-"Or didn't need to know about it, like every other student here, so far."
+"หรือไม่ก็ไม่จำเป็นต้องรู้ เหมือนนักเรียนที่นี่เท่าที่เจอมา"
 
-"Should I have told it as a natural part of introductions? Is it expected of me?"
+"เวลาแนะนำตัวแล้วฉันต้องบอกด้วยงั้นเหรอ"
 
-"“Hi, I'm Hisao. I have a very serious heart condition.”"
+"“ไง ฉันฮิซาโอะ มีปัญหาหัวใจอย่างร้ายแรง”"
 
-"Is that how I'm supposed to go around introducing myself from now on?"
+"ตั้งแต่นี้ไปฉันต้องแนะนำตัวแบบนั้นน่ะเหรอ"
 
-"As if our disabilities would define us. What a disgusting thought."
+"ทำเหมือนตัวตนคือความพิการงั้นแหละ น่าขยะแขยง"
 
-"Or maybe this Tezuka girl just has an unnatural interest in such things."
+"หรือไม่ก็เทซูกะคนนี้มีความสนใจเรื่องแปลก ๆ แบบนั้น"
 
 play music music_dreamy fadein 8.0
 
@@ -2762,25 +2762,25 @@ with charamove
 show rin basic_awayabsent at right
 with charaenter
 
-"As I walk to the back of the room to pick up the items on Misha's list, a chance opens to study Rin from the corner of my eye."
+"ระหว่างที่เดินไปหลังห้องเพื่อหยิบของที่มีตามในรายการจากมิช่าก็เป็นโอกาสที่จะได้เหลือบมองสังเกตริน"
 
-"Her hair is a burnt auburn, almost orange, and cropped short. Long hair would probably be impossible with no arms."
+"ผมตัดสั้นของเธอเป็นสีน้ำตาลแดงเหมือนถูกเผา ถ้าไม่มีแขนแล้วไว้ผมยาวก็คงลำบาก"
 
-"The boy's uniform and the lack of arms make her look very thin, almost scrawny."
+"ชุดนักเรียนชายกับแขนเธอที่ไม่มีทำให้ตัวดูเล็กจนแทบจะเรียกได้ว่าผอมกะหร่อง"
 
-"She is not particularly pretty except for her murky green eyes which flicker restlessly from below her short bangs, even when she eats."
+"เธอไม่ได้สะสวยโดดเด่น ถ้าไม่นับตาสีเขียวเข้มที่แวววับอยู่เบื้องหลังหน้าม้าแม้ยามกำลังกิน"
 
-"The distance and the shadows make it seem like they don't reflect sunlight at all, but instead absorb all of it within them like deep wells."
+"ระยะห่างและเงาทำให้ดูเหมือนดวงตานั้นไม่สะท้อนแสงทว่ากลืนแสงเข้าไปทั้งหมดคล้ายบ่อน้ำลึก"
 
-"She moves her feet almost as deftly as a normal person would use their arms."
+"เธอใช้เท้าได้อย่างคล่องแคล่วไม่ต่างจากการใช้มือของคนปกติ"
 
-"However, I can see how this sight could discomfort people, especially while eating. It makes me feel a bit uncomfortable at least."
+"แต่ก็พอจะเข้าใจได้ว่าถ้าคนเห็นแล้วอาจจะรู้สึกแปลก ๆ โดยเฉพาะเวลากินข้าว อย่างน้อยก็ฉันคนหนึ่ง"
 
-"I hesitate to think about the word “unnatural” but it's too late now, isn't it?"
+"ฉันพยายามไม่คิดถึงคำว่า “ไม่เป็นธรรมชาติ” แต่ก็คงสายไป"
 
-"I keep searching the cabins and shelves for Misha's things, but after enough time passes the silence grows too uncomfortable, so I try to force some conversation out of this strange girl."
+"ฉันคอยค้นทั้งตู้และชั้นเพื่อตามหาของที่มิช่าสั่งมา แต่นานไปความเงียบก็เริ่มทำให้อึดอัด ฉันจึงเค้นสมองหาเรื่องคุยกับ\nสาวที่ดูพิลึกคนนี้"
 
-hi "So, do you always eat alone and this late? Or do you get the occasional visitor?"
+hi "แล้ว ปกติกินข้าวคนเดียวเวลานี้ตลอดเลยเหรอ หรือพอจะมีคนมาบ้าง"
 
 show rin basic_absent
 with charachange
@@ -2789,93 +2789,93 @@ show rin basic_absent at center
 show bg school_classroomart at bgleft
 with charamove
 
-rin "Visitors… maybe you are my first occasional visitor. But I don't always eat alone either."
+rin "คนมา… นายคงจะเป็นคนที่พอจะมีมาบ้างที่ว่าคนแรกเลยละมั้ง แต่ฉันก็ไม่ได้กินคนเดียวตลอดหรอก"
 
-rin "Sometimes I eat with a certain person on the roof, if she's not horsing around."
+rin "บางทีก็ไปกินข้าวเที่ยงกับคน ๆ นึงที่ดาดฟ้า ถ้าเธอไม่ไปวิ่งเล่นที่ไหนน่ะนะ"
 
-hi "Horsing?"
+hi "วิ่งเล่น?"
 
 show rin basic_deadpan
 with charachange
 
-rin "She likes to do sports."
+rin "เธอชอบออกกำลังกายน่ะ"
 
-hi "Oh."
+hi "อ้อ"
 
-"And that's all I can think of to say."
+"และฉันก็นึกบทสนทนาได้แค่นั้น"
 
-"Both of us fall silent again as Rin forks the last bits of her meal to her mouth."
+"เราสองคนเงียบกันอีกครั้ง แล้วรินก็กินจนหมดคำสุดท้าย"
 
-"I look down at my haul and double check it with Misha's list. It seems I have everything except plywood."
+"ฉันดูของที่เอามาแล้วเทียบกับรายการของมิช่า เหมือนจะครบแล้ว ขาดแค่ไม้อัด"
 
-hi "Umm… so, I think I have all the things now."
+hi "อืมม…น่าจะครบแล้วนะ"
 
 show rin basic_deadpannormal
 with charachange
 
-rin "That's very nice for you. Don't feel obliged to stay. I was about to take a nap anyway."
+rin "ยินดีด้วย แล้วไม่ต้องฝืนอยู่ต่อก็ได้นะ ฉันก็ว่าจะงีบเหมือนกัน"
 
-rin "You need to do whatever you are going to do with that stuff anyway, right?"
+rin "นายก็มีธุระกับของพวกนั้นด้วยใช่มั้ยล่ะ"
 
 show rin relaxed_surprised
 with charachange
 
-rin "Or perhaps you like to watch girls sleeping?"
+rin "หรือนายชอบดูผู้หญิงนอนหลับ"
 
-hi "Ehh…"
+hi "เอ่อ…"
 
-"I'm not sure what to make of this, but Rin looks serious."
+"ไม่รู้ว่าต้องตอบยังไง แต่รินก็ดูจริงจัง"
 
-hi "Even if I did, I think I have to be going."
+hi "ต่อให้ชอบจริง แต่ฉันก็คงต้องไปอยู่ดี"
 
-hi "I… I'll catch you around, Tezuka."
+hi "วะ…ไว้เจอกันนะ เทซูกะ"
 
 show rin basic_absent
 with charachange
 
-rin "You can call me Rin."
+rin "เรียกรินก็ได้"
 
 show rin basic_awayabsent
 with charachange
 
-rin "I feel that our relationship is at this point good enough to warrant this much."
+rin "รู้สึกว่าความสัมพันธ์ของเรามากพอที่จะเรียกชื่อกันได้แล้วละนะ"
 
-"I was already turning to make my exit, but she draws me back in."
+"จังหวะที่ฉันกำลังเดินออกไปก็ถูกเธอรั้งไว้"
 
-hi "Fine, then I'm Hisao."
+hi "ก็ได้ งั้นฉันฮิซาโอะ"
 
 show rin basic_deadpannormal
 with charachange
 
-rin "Then you are."
+rin "ตามนั้น"
 
 "…"
 
-"Rin looks at me hard in the eyes but that intimidating feeling you get when someone stares at you isn't there."
+"เธอมองเข้ามาในตาฉัน ทว่าฉันไม่รู้สึกถึงความรู้สึกน่ากลัวเวลามีคนจ้องอยู่เลย"
 
-"It's like she's actually not looking at me at all."
+"เหมือนไม่ได้มองฉันด้วยซ้ำ"
 
-"She blinks a couple of times, and I can't figure out why a pause like this just popped between us out of nowhere."
+"เธอกะพริบตาสองปริบ ฉันเองก็ไม่รู้ทำไมว่าอยู่ ๆ เราสองคนถึงชะงักไป"
 
 show rin basic_deadpandelight
 with charachange
 
-rin "See you later, Hisao."
+rin "เจอกัน ฮิซาโอะ"
 
-"There is something like a tiny smile there in her face, maybe."
+"ใบหน้าเธอมีบางอย่างคล้ายรอยยิ้มน้อย ๆ อยู่ มั้งนะ"
 
 scene bg school_hallway3
 with locationchange
 
 play sound sfx_doorclose
 
-"I quietly back out of the room. As I shut the door in front of my face, I whisper to myself."
+"ฉันออกห้องมาอย่างเงียบเชียบ เมื่อปิดประตูก็พึมพำอยู่กับตัวเอง"
 
-hi "What an intriguing person…"
+hi "เป็นคนที่น่าสนใจดีแฮะ…"
 
-"From inside, I hear a muffled, sing-song voice:"
+"แล้วฉันก็ได้ยินเสียงอู้อี้ที่เป็นทำนองมาจากข้างใน"
 
-rin "I heard tha~t!"
+rin "ด้ายยินน้า~!"
 
 stop music
 
