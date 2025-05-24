@@ -527,7 +527,7 @@ label th_A19h:
 "นอกจากว่ารู้สึกเหนื่อยกว่าเดิมแล้ว ฉันว่าฉันไม่ได้อะไรเลยวันนี้"
 
 # "I'm so out of shape it's embarrassing."
-"ร่างกายฉันอ่อนแอเกิน น่าอายจริง ๆ"
+"ร่างกายฉันอ่อนแอเหลือเกิน น่าอายจริง ๆ"
 
 # "The whole thing might have been a waste of time. I'll find some other way."
 "ทำไปก็คงเสียเวลาเปล่า ฉันคงจะหาทางอื่นเอา"
@@ -668,76 +668,100 @@ hi "แล้วนายล่ะ?!"
 
 # ke "I'm not going to class, I have to wait for the pizza and pay the guy. And then eat it. It's not easy. You have to obtain the pizza stealthily. If you don't, everyone will see you. And the pizza. And they will ask for a slice."
 ke "ฉันไม่เข้าเรียน ฉันต้องรอพิซซ่ามาส่งแล้วจ่ายเงินแล้วก็กิน ไม่ง่ายนะเว้ย ต้องแอบไปเอาพิซซ่าแบบเงียบ ๆ\nไม่งั้นเดี๋ยวมีคนมาเห็นนายแล้วมาขอแบ่งอีก"
+
+show kenji tsun_naked
+with charachange
+
+# ke "It's a hard world out there. Everyone wants a piece. Then you're left pizzaless in an unforgiving world. It's happened before, that's how I know."
+ke "โลกนี้อยู่ยากจริง ๆ ว่ะ ทุกคนก็มาขอแบ่ง ท้ายที่สุดนายก็จะถูกปล่อยให้ไร้พิซซ่าในโลกที่โหดร้าย ที่ฉันรู้เพราะ\nเคยเจอมาก่อนไง"
+
+# ke "Every day, I plan my vengeance, so that when the people who wronged me order a pizza, I will be there. Ever vigilant!"
+ke "ทุก ๆ วันฉันคอยว่าแผนจะแก้แค้นมาตลอดเพื่อตอนที่มีคนสั่งพิซซ่า ฉันก็จะไปหา ระวังไว้ล่ะ!"
+
+# "Kenji strikes a dramatic pose, completely without irony."
+"เคนจิทำท่าทางที่ดูจริงจัง ไม่ได้แกล้ง"
+
+show kenji neutral_naked
+with charachange
+
+# ke "But yeah, I only need like 400 yen. Please! You're my only hope! I can't go outside and buy my own pizza, it's too far!"
+ke "แต่ก็นะ ตอนนี้ก็ขาดอีก 400 เยนน่ะ ขอร้องล่ะ! นายคือความหวังสุดท้ายละ! ฉันออกไปข้างนอกเพื่อไปซื้อพิซซ่า\nไม่ไหวหรอกร้านอยู่ไกลเกิน"
+
+# ke "I try not to go out unless it's absolutely necessary. Let me tell you what happened the last time I went out without carefully planning it out in advance."
+ke "ฉันพยายามที่จะไม่ออกไปไหนถ้าไม่จำเป็นแบบจำเป็นจริง ๆ เดี๋ยวเล่าให้ฟังว่าครั้งล่าสุดที่ออกไปโดยไม่ได้วางแผน\nล่วงหน้ามันเกิดอะไรขึ้น"
+
+# ke "I was outside. I can't remember what I was doing. Something. Standing? Maybe wondering how I got there."
+ke "ฉันอยู่ข้างนอก ฉันจำไม่ได้ว่าไปทำอะไร สักอย่างแหละ ยืนเฉย ๆ ? หรืออาจจะคิดอยู่ว่าอยู่นั่นได้ไง"
+
+show kenji tsun_naked
+with charachange
+
+# ke "And then, out of nowhere, it happened."
+ke "ทันใดนั้นเอง จู่ ๆ มันก็เกิดขึ้น"
+
+# ke "Like a flash of lightning, splitting the sky, like how you split a sandwich into two equal pieces to make it more manageable to hold and eat, a bird crapped on my head."
+ke "รวดเร็วอย่างกับฟ้าผ่าลงมาแยกท้องฟ้าเหมือนกับตอนที่แบ่งแซนวิชเป็นสองส่วนเพื่อกินง่าย ๆ ตอนนั้นนกขี้ลงมาที่หัวฉัน"
+
+# ke "It was the second most shocking moment of my life."
+ke "นั่นเป็นสิ่งที่ฉันช็อกเป็นอันดับสองของชีวิตฉันเลย"
+
+# hi "What was the first?"
+hi "แล้วอันดับหนึ่งล่ะ?"
 # "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-show kenji tsun_naked
-with charachange
+# "He ignores me and keeps going. I want to grab him and shake him. Is he just trying to keep momentum? I'll go with that, even if it's more likely he just didn't hear me."
+"คำเมินคำพูดของฉันแล้วเล่าต่อ ฉันอยากจะจับไหล่แล้วเขย่าเรียกสติสักหน่อย นี่เขาพยายามจะไหลต่ออีกเหรอ งั้นก็ได้\nถึงแม้จริง ๆ แล้วเขาน่าจะแค่ไม่ได้ยินที่ฉันพูดก็ได้"
 
-ke "It's a hard world out there. Everyone wants a piece. Then you're left pizzaless in an unforgiving world. It's happened before, that's how I know."
-
-ke "Every day, I plan my vengeance, so that when the people who wronged me order a pizza, I will be there. Ever vigilant!"
-
-"Kenji strikes a dramatic pose, completely without irony."
+# ke "It was like in the openings to some kind of anime show, you know how there is always a part where the main dude is fighting his rival, and they fly at each other and clash swords and there's like, big dramatic colored auras and zoom?"
+ke "เหมือนกับฉากเปิดอนิเมะ แบบนายก็รู้มันจะมีฉากที่แบบพระเอกกำลังสู้กับตัวร้ายแล้วก็เหาะไปตีกันบนอากาศพร้อมกับ\nเอฟเฟกต์อลังการงานสร้างอะไรแบบนั้น"
 
 show kenji neutral_naked
 with charachange
 
-ke "But yeah, I only need like 400 yen. Please! You're my only hope! I can't go outside and buy my own pizza, it's too far!"
+# ke "It was like that, but with poo."
+ke "มันแบบนั้นแหละ แค่เป็นขี้นกเฉย ๆ"
 
-ke "I try not to go out unless it's absolutely necessary. Let me tell you what happened the last time I went out without carefully planning it out in advance."
-
-ke "I was outside. I can't remember what I was doing. Something. Standing? Maybe wondering how I got there."
-
-show kenji tsun_naked
-with charachange
-
-ke "And then, out of nowhere, it happened."
-
-ke "Like a flash of lightning, splitting the sky, like how you split a sandwich into two equal pieces to make it more manageable to hold and eat, a bird crapped on my head."
-
-ke "It was the second most shocking moment of my life."
-
-hi "What was the first?"
-
-"He ignores me and keeps going. I want to grab him and shake him. Is he just trying to keep momentum? I'll go with that, even if it's more likely he just didn't hear me."
-
-ke "It was like in the openings to some kind of anime show, you know how there is always a part where the main dude is fighting his rival, and they fly at each other and clash swords and there's like, big dramatic colored auras and zoom?"
-
-show kenji neutral_naked
-with charachange
-
-ke "It was like that, but with poo."
-
-hi "Okay."
+# hi "Okay."
+hi "เคเลย"
 
 show kenji happy_naked
 with charachange
 
-ke "So yeah, I need some money. Please? Don't leave me hanging, man. I only need like 1000 yen."
+# ke "So yeah, I need some money. Please? Don't leave me hanging, man. I only need like 1000 yen."
+ke "ก็นั่นแหละ ฉันต้องการเงินสักหน่อย นะ ๆ อย่าปล่อยฉันอดตายเลยพวก ขาดแค่ 1000 เยนเอง"
 
-hi "I thought it was 400."
+# hi "I thought it was 400."
+hi "นึกว่าแค่ 400"
 
-ke "Okay."
+# ke "Okay."
+ke "โอเต"
 
-hi "What?"
+# hi "What?"
+hi "ห้ะ?"
 
-ke "I'll pay you back, I swear."
+# ke "I'll pay you back, I swear."
+ke "เดี๋ยวคืนให้ สาบานเลย"
 
-hi "You better, that's what it means to borrow stuff."
+# hi "You better, that's what it means to borrow stuff."
+hi "ก็ต้องเป็นแบบนั้นไหม ยืมเงินก็ต้องคืนสิ"
 
 show kenji neutral_naked
 with charachange
 
-ke "I don't know when I'll be able to pay you back."
+# ke "I don't know when I'll be able to pay you back."
+ke "แต่ไม่รู้นะว่าจะได้คืนเมื่อไหร่"
 
-hi "You have one week."
+# hi "You have one week."
+hi "ให้เวลาสัปดาห์นึง"
 
 show kenji tsun_naked
 with charachange
 
-ke "Aaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhggggggggggghhhhhhhh……"
+# ke "Aaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhggggggggggghhhhhhhh……"
+ke "อ้าาาาาาาาาาาาาาาาาาาาาาาากกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกก……"
 
-"Kenji winces and makes a noise like a dying cow, a particularly disturbing fact given that his baton is conducting freely."
+# "Kenji winces and makes a noise like a dying cow, a particularly disturbing fact given that his baton is conducting freely."
+"เคนจิผงะถอยแล้วร้องเสียงเหมือนวัวโดนเชือด พร้อมกับภาพที่ไม่น่าดูของกระบองส่วนนั้นยังต่องแต่งไปมา"
 
 ke "You're not supposed to be so tight assed about money between brothers in arms, man. Men have it bad enough as it is. Did you know that male porn stars only make about half of what female porn stars make?"
 
