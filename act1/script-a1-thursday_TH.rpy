@@ -1101,7 +1101,6 @@ with charachange
 
 # li "I'm not."
 li "อืม ไม่ใช่"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # "Lilly seems a little more guarded in her answers to Shizune than she was with me the other day. I guess they really don't get along at all."
 "ลิลลี่ดูระมัดระวังในคำตอบของเธอที่ตอบชิซูเนะมากกว่าตอนที่เธอตอบฉันเมื่อวันก่อน เดาว่าทั้งคู่คงจะไม่ถูกกันสักเท่าไหร่"
@@ -1130,13 +1129,16 @@ with charachange
 mi "นายมาเร็วกว่าพวกฉันอีกนะ!"
 
 # "Misha puffs out her cheeks angrily. Why is she getting angry? Does she feel emotions on Shizune's behalf, too?"
-"มิช่าทำแก้มป่องด้วยความโกรธ ทำไมเธอถึงต้องโกรธด้วยล่ะ หรือได้รับอารมณ์แบ่งมาจากชิซูเนะมาด้วยหรือไง"
+"มิช่าแก้มป่องด้วยความโกรธ ทำไมเธอถึงต้องโกรธด้วยล่ะ หรือได้รับอารมณ์แบ่งมาจากชิซูเนะมาด้วยหรือไง"
 
-"It's not that weird, though, that Shizune didn't like my little comment. It's true, I was here earlier than them, so me saying something like that could definitely be misinterpreted as anything."
+# "It's not that weird, though, that Shizune didn't like my little comment. It's true, I was here earlier than them, so me saying something like that could definitely be misinterpreted as anything."
+"แต่ก็ไม่แปลกหรอกที่ชิซูเนะจะไม่ค่อยชอบคำชมฉัน ก็นะ ในเมื่อฉันมาถึงก่อน การฉันที่พูดว่ามาเร็วก็อาจจะทำให้เกิดการ\nเข้าใจผิดก็เป็นได้"
 
-"Especially to Shizune, who doesn't have the benefit of hearing tone to gauge intent."
+# "Especially to Shizune, who doesn't have the benefit of hearing tone to gauge intent."
+"โดยเฉพาะกับชิซูเนะที่ไม่สามารถฟังโทนน้ำเสียงได้"
 
-"Before I can start weighing whether or not I should apologize, Shizune has already moved on."
+# "Before I can start weighing whether or not I should apologize, Shizune has already moved on."
+"ก่อนที่จะได้คิดว่าจะขอโทษดีไหม ชิซูเนะก็เลิกคิดเรื่องนั้นแล้ว"
 
 show shizu adjust_smug
 with charachange
@@ -1146,7 +1148,8 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Class rep~! It's a good thing you're here~! We have to talk."
+# mi "Class rep~! It's a good thing you're here~! We have to talk."
+mi "คุณหัวหน้า~! มาก็ดีแล้ว~! เราต้องคุยกันหน่อยนะ"
 
 show shizu behind_frown
 with charachange
@@ -1156,17 +1159,20 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "The festival is coming up in three days, right? Every other class has already handed in their projected budget reports for their events! Even the first-years! Except you~!"
+# mi "The festival is coming up in three days, right? Every other class has already handed in their projected budget reports for their events! Even the first-years! Except you~!"
+mi "งานเทศกาลจะจัดในอีกสามวันแล้วนะ ห้องอื่น ๆ เขาก็ส่งใบรายงานงบประมาณสำหรับกิจกรรมกันหมดแล้วนะ!\nแม้แต่เด็กม.4 ก็ส่งแล้วล่ะ! เหลือแค่เธอแล้วนะ~!"
 
 show misha cross_laugh
 with charachange
 
-mi "Wahaha~!"
+# mi "Wahaha~!"
+mi "วะฮ่าฮ่า~!"
 
 show lilly cane_surprised
 with charachange
 
-li "There is still time to hand it in, isn't there?"
+# li "There is still time to hand it in, isn't there?"
+li "ก็ยังไม่ได้หมดเวลาส่งนะ"
 
 stop music fadeout 2.0
 
@@ -1178,12 +1184,15 @@ shi "…"
 show misha cross_frown
 with charachange
 
-mi "Today! The deadline is today! You're certainly taking your time, aren't you? If I had it my way, I'd have had all of the necessary paperwork days ago, but someone~! had to say “the deadline, please extend it~!”"
+# mi "Today! The deadline is today! You're certainly taking your time, aren't you? If I had it my way, I'd have had all of the necessary paperwork days ago, but someone~! had to say “the deadline, please extend it~!”"
+mi "วันนี้! กำหนดส่งคือวันนี้! เธอนี่ก็ใช้เวลาเยอะพอตัวเลยนี่นะ ถ้าเป็นฉันล่ะก็ฉันคงจะจัดการเอกสารสำคัญ ๆ เสร็จ\nตั้งแต่วันก่อน ๆ แล้ว แต่กับบางคน~! มาบอกว่า “ขอเลื่อนวันส่งได้ไหม~!” ล่ะ"
 
 show lilly cane_displeased
 with charachange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-li "Yes, that was me. Planning something on this scale is not a small task, and a week is too small a time frame to expect a whole class to work out such a complex issue completely."
+# li "Yes, that was me. Planning something on this scale is not a small task, and a week is too small a time frame to expect a whole class to work out such a complex issue completely."
+li "อืมฉันเองแหละ การวางแผนกับงานขนาดใหญ่ขนาดนี้ไม่ใช่งานเบา ๆ เลย และเวลาแค่สัปดาห์เดียวก็น้อยเกินไป\nที่จะคาดหวังให้คนทั้งห้องมานั่งช่วยกันแก้ปัญหาที่ยุ่งยากแบบนี้ให้เสร็จทัน"
 
 show shizu adjust_angry
 with charachange
