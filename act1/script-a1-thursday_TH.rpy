@@ -707,7 +707,6 @@ ke "นั่นเป็นสิ่งที่ฉันช็อกเป็�
 
 # hi "What was the first?"
 hi "แล้วอันดับหนึ่งล่ะ?"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # "He ignores me and keeps going. I want to grab him and shake him. Is he just trying to keep momentum? I'll go with that, even if it's more likely he just didn't hear me."
 "คำเมินคำพูดของฉันแล้วเล่าต่อ ฉันอยากจะจับไหล่แล้วเขย่าเรียกสติสักหน่อย นี่เขาพยายามจะไหลต่ออีกเหรอ งั้นก็ได้\nถึงแม้จริง ๆ แล้วเขาน่าจะแค่ไม่ได้ยินที่ฉันพูดก็ได้"
@@ -758,144 +757,188 @@ show kenji tsun_naked
 with charachange
 
 # ke "Aaaaaaaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhhhggggggggggghhhhhhhh……"
-ke "อ้าาาาาาาาาาาาาาาาาาาาาาาากกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกก……"
+ke "อ้าาาาาาาาาาาาาาาาาาาาาาาากกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกก……"
 
 # "Kenji winces and makes a noise like a dying cow, a particularly disturbing fact given that his baton is conducting freely."
 "เคนจิผงะถอยแล้วร้องเสียงเหมือนวัวโดนเชือด พร้อมกับภาพที่ไม่น่าดูของกระบองส่วนนั้นยังต่องแต่งไปมา"
 
-ke "You're not supposed to be so tight assed about money between brothers in arms, man. Men have it bad enough as it is. Did you know that male porn stars only make about half of what female porn stars make?"
+# ke "You're not supposed to be so tight assed about money between brothers in arms, man. Men have it bad enough as it is. Did you know that male porn stars only make about half of what female porn stars make?"
+ke "นายไม่ควรมาจ้ำจี้เรื่องเงินขนาดนี้นะ เนี่ยแค่เกิดเป็นผู้ชายก็แย่มากพอละ รู้เปล่าว่าดาราหนังโป๊เนี่ย\nผู้ชายทำเงินได้แค่ครึ่งเดียวของนักแสดงหญิงเองนะ"
 
-hi "That doesn't mean anything unless you're a porn star."
+# hi "That doesn't mean anything unless you're a porn star."
+hi "ก็ไม่เห็นจะเกี่ยวอะไรนี่ถ้านายไม่ใช่ดาราหนังโป๊ที่ว่า"
 
-ke "So maybe I am a porn star, on the side, struggling to make ends meet as I fight the feminist agenda, and you can't even spot me your crumbs, you bastard. Nobody understands. Nobody."
+# ke "So maybe I am a porn star, on the side, struggling to make ends meet as I fight the feminist agenda, and you can't even spot me your crumbs, you bastard. Nobody understands. Nobody."
+ke "ไม่แน่ฉันอาจจะเป็นก็ได้ เป็นดาราหนังโป๊ที่ต้องดิ้นรนหาเลี้ยงชีพขณะที่ต้องสู้กับแนวคิดสตรีนิยม\nแล้วนายก็ไม่เห็นหัวฉันด้วยซ้ำ แม่งเอ๊ย ไม่มีใครเข้าใจฉันเลย ไม่มีเลย"
 
-"Wouldn't feminists be against pornography in the first place?"
+# "Wouldn't feminists be against pornography in the first place?"
+"ไม่ใช่ว่าพวกสตรีนิยมจะต่อต้านพวกงานลามกอนาจารแบบนั้นตั้งแต่แรกเหรอวะ"
 
-hi "This feminist agenda stuff again?"
+# hi "This feminist agenda stuff again?"
+hi "เรื่องสตรีนิยมอีกแล้วเรอะ"
 
-ke "This stuff is important. I can see that you don't give a shit, but this is serious, here. Feminists… are a dangerous enemy, make no mistake. You take them lightly, and you'll wake up in the morning with a knife in your back, bam! Out of nowhere!"
+# ke "This stuff is important. I can see that you don't give a shit, but this is serious, here. Feminists… are a dangerous enemy, make no mistake. You take them lightly, and you'll wake up in the morning with a knife in your back, bam! Out of nowhere!"
+ke "เรื่องนี้สำคัญนะเว้ย ฉันรู้นะว่านายไม่สนไม่แคร์ด้วยซ้ำ แต่นี่จริงจังนะ พวกสตรีนิยมน่ะ… เป็นศัตรูตัวฉกาจเลยล่ะ\nอย่าได้ประมาทเชียว ถ้านายเผลอตัวนิดหน่อยล่ะก็ ตูม! นายได้ตื่นมาพร้อมมีดที่โผล่มาปักหลังนายแน่"
 
-hi "How do you wake up in the morning if someone stabbed you in your sleep?"
-
+# hi "How do you wake up in the morning if someone stabbed you in your sleep?"
+hi "แล้วจะตื่นยังไงวะถ้ามีคนมาแทงตอนนอน"
 show kenji happy_naked
 with charachange
 
-ke "Women are terrible at stabbing things."
+# ke "Women are terrible at stabbing things."
+ke "พวกผู้หญิงน่ะแทงไม่เก่งหรอก"
 
-hi "I thought you just said don't take them lightly."
+# hi "I thought you just said don't take them lightly."
+hi "ไหนบอกว่าอย่าประมาทไง"
 
 show kenji neutral_naked
 with charachange
 
-ke "Well, I mean don't take them lightly for the big things. Individually they're not a threat, but if there was some kind of war, like a big war, with men on one side, and the feminist forces on the other side, it would be pretty ugly."
+# ke "Well, I mean don't take them lightly for the big things. Individually they're not a threat, but if there was some kind of war, like a big war, with men on one side, and the feminist forces on the other side, it would be pretty ugly."
+ke "เอาน่า ฉันหมายถึงอย่าประมาทพวกผู้หญิงตอนอยู่หมู่มากน่ะ มาเดี่ยว ๆ ไม่ใช่ปัญหาอะไรหรอก\nแต่คิดสภาพตอนเกิดสงครามที่แบบใหญ่มาก ๆ ที่ฝั่งนึงเป็นผู้ชาย อีกฝั่งเป็นกองกำลังพวกสตรีนิยม คงจะแย่น่าดู"
 
 show kenji tsun_naked
 with charachange
 
-ke "And that day will come, when the feminists come out of their central top secret worldwide feminist headquarters, and say “It's on now, motherfuckers!”"
+# ke "And that day will come, when the feminists come out of their central top secret worldwide feminist headquarters, and say “It's on now, motherfuckers!”"
+ke "แล้วพอวันนั้นมาถึง เหล่าพวกสตรีนิยมก็จะออกมาจากฐานทัพลับทั่วโลกแล้วก็ประกาศว่า “มาดิวะไอ้แม่เย็ด!”" # soften by using "ไอ้เวรเอ๊ย!"
 
-hi "You're being ridiculous, there's no big worldwide feminist headquarters building, where would they even hide that? I mean, it'd have to be massive, you couldn't hide that on Earth, someone would notice a big fortress with women only in it."
-
+# hi "You're being ridiculous, there's no big worldwide feminist headquarters building, where would they even hide that? I mean, it'd have to be massive, you couldn't hide that on Earth, someone would notice a big fortress with women only in it."
+hi "อันนี้บ้าละ มันไม่มีหรอกไอฐานทัพสตรีนิยมที่จะมาตั้งทั่วโลกอะไรแบบนั้นหรอกแถมจะซ่อนตัวยังไงวะ หมายถึงแบบ\nถ้าแบบนั้นแม่งจะต้องใหญ่มาก ๆ ซึ่งไม่น่าซ่อนบนโลกได้อยู่ละ มันก็ต้องมีคนเห็นไอ้ปราการที่มีแต่ผู้หญิงที่ว่าบ้างแหละ"
 show kenji happy_naked
 with charachange
 
-ke "Who said it was on Earth?"
+# ke "Who said it was on Earth?"
+ke "แล้วใครบอกล่ะว่าอยู่บนโลก"
 
-"I turn away from Kenji and start practicing frowning faces in a mirror so that I can figure out what kind of frown will best express my emotions. He can't see me from this distance anyway."
+# "I turn away from Kenji and start practicing frowning faces in a mirror so that I can figure out what kind of frown will best express my emotions. He can't see me from this distance anyway."
+"ฉันเบือนหน้าหนีจากเคนจิแล้วลองทำหน้าบึ้งในกระจกเพื่อหาว่าทำหน้าแบบไหนเพื่อแสดงความรู้สึกที่ตรงที่สุดตอนนี้\nยังไงซะเขาก็ไม่เห็นฉันทำหรอกตรงระยะนี้"
 
-"Which, unfortunately, means that he just keeps on ranting without any regard to sense or sensibility."
+# "Which, unfortunately, means that he just keeps on ranting without any regard to sense or sensibility."
+"ซึ่งก็แย่หน่อยตรงที่หมายความว่าเขาก็พล่ามไม่หยุดเช่นกันโดยไม่สนความรู้สึกหรือรับรู้สิ่งใด ๆ"
 
 show kenji tsun_naked
 with charachange
 
-ke "Yeah, there is a war going on. A war not many know about, but it's a great one that will one day boil over, and encompass all of the known world. Then, we will have to pick sides. We will have to make a stand. In fact, it's happening right now."
+# ke "Yeah, there is a war going on. A war not many know about, but it's a great one that will one day boil over, and encompass all of the known world. Then, we will have to pick sides. We will have to make a stand. In fact, it's happening right now."
+ke "นั่นแหละ ตอนนี้กำลังมีสงครามที่กำลังจะเกิด สงครามที่น้อยคนนักที่จะรู้ แต่ก็เป็นสงครามครั้งใหญ่ถ้ามันได้ปะทุขึ้นมา\nและคงเป็นที่เลื่องลือไปทั่วโลก จากนั้นพวกเราก็ต้องเลือกฝั่งแสดงจุดยืนของตัวเอง เอาจริง ๆ สงครามก็ได้เริ่มไปแล้วล่ะ"
 
-ke "Imagine it, the bloody battlefield. A vicious conflict without end."
+# ke "Imagine it, the bloody battlefield. A vicious conflict without end."
+ke "คิดดูดิ สนามรบที่นองเลือด ความขัดแย้งอันรุนแรงไร้ที่สิ้นสุด"
 
-ke "I almost gave up, when I thought this cause was silly… When I grew tired of the bleakness of our fight… When I mistook the time the power went out for a feminist raid and thought the end was near…"
+# ke "I almost gave up, when I thought this cause was silly… When I grew tired of the bleakness of our fight… When I mistook the time the power went out for a feminist raid and thought the end was near…"
+ke "ฉันเกือบที่จะยอมแพ้ละตอนที่คิดว่ามันช่างไร้สาระสิ้นดี… ตอนที่ฉันเริ่มเบื่อกับสิ้นหวังในการต่อสู้ของพวกเรา… ตอนที่ฉัน\nเข้าใจผิดตอนที่ไฟดับว่าพวกสตรีนิยมได้บุกเข้ามาและทุกอย่างใกล้จบสิ้นแล้ว"
 
-ke "But then I realized that if I gave up, it would all be over, and I was like, “whoa” and knew I had to get serious. Because I am the last sane man in an insane world. It's about duty."
+# ke "But then I realized that if I gave up, it would all be over, and I was like, “whoa” and knew I had to get serious. Because I am the last sane man in an insane world. It's about duty."
+ke "แล้วฉันก็นึกขึ้นได้ว่า ถ้าฉันยอมแพ้ละก็ทุกอย่างก็คงจบสิ้น แล้วฉันก็คิดแบบว่า “โว้ย” และก็รู้ตัวว่าจะต้องจริงจังแล้ว\nเพราะฉันนี่แหละคนปกติคนสุดท้ายบนโลกที่ไม่ปกตินี่ มันเป็นหน้าที่น่ะ"
 
-hi "Must be a pretty crappy movement if it all hinges on one naked guy, ranting in a bathroom at another naked guy."
+# hi "Must be a pretty crappy movement if it all hinges on one naked guy, ranting in a bathroom at another naked guy."
+hi "มันเกือบจะดีละ ถ้าไม่ติดว่าแผนที่ว่าเกิดจากชายที่เปลือยท่านนึงที่ยืนบ่นในห้องน้ำให้กับชายเปลือยอีกท่านอะนะ"
 
 show kenji neutral_naked
 with charachange
 
-ke "So can I have the money?"
+# ke "So can I have the money?"
+ke "งั้น ฉันยืมเงินหน่อยได้ไหม?"
 
-"He's blocking the way out, it's getting cold because I'm still naked, and I want to go to class, so I agree to spot him the money."
+# "He's blocking the way out, it's getting cold because I'm still naked, and I want to go to class, so I agree to spot him the money."
+"เขายืนขวางทางออก แถมตอนนี้เริ่มหนาวละเพราะว่าฉันเปลือยอยู่ และก็อยากไปเข้าเรียนละ เลยให้ยืมไป"
 
 show kenji happy_naked
 with charachange
 
-ke "Awesome. Thanks, dude. We should go bowling later on."
+# ke "Awesome. Thanks, dude. We should go bowling later on."
+ke "เจ๋ง ขอบใจมากพวก วันหลังไปเล่นโบว์ลิ่งกัน"
 
-hi "Bowling?"
+# hi "Bowling?"
+hi "โบว์ลิ่ง?"
 
-ke "Yeah, it's the ultimate sport. There are almost no women bowlers either, making it also the manliest sport."
+# ke "Yeah, it's the ultimate sport. There are almost no women bowlers either, making it also the manliest sport."
+ke "เออ เป็นสุดยอดกีฬา ที่ผ่านมาแทบไม่มีคนเล่นที่เป็นผู้หญิงเลยอีกด้วย เลยเป็นกีฬาของยอดชายเลยเชียว"
 
-ke "Should I wear my pink bowling shirt with matching shoes or the pastel green with flower accents?"
+# ke "Should I wear my pink bowling shirt with matching shoes or the pastel green with flower accents?"
+ke "ฉันควรใส่เสื้อไปเล่นโบว์ลิ่งสีชมพูคู่กับรองเท้าสีเขียวพาสเทลที่มีกลิ่นดอกไม้ดีปะ"
 
-hi "There are bowling clothes?"
+# hi "There are bowling clothes?"
+hi "มีชุดไว้เล่นโบว์ลิ่งด้วยเหรอวะ"
 
 show kenji neutral_naked
 with charachange
 
-ke "Maybe."
+# ke "Maybe."
+ke "น่าจะแหละ"
 
-hi "Anyway, you had better pay me back."
+# hi "Anyway, you had better pay me back."
+hi "เอาเหอะ คืนเงินด้วยล่ะ"
 
-ke "I can pay you back in stuff, right?"
+# ke "I can pay you back in stuff, right?"
+ke "คืนเป็นของอย่างอื่นได้ใช่ไหม"
 
-"I don't have the time to ask him to elaborate on what that means."
+# "I don't have the time to ask him to elaborate on what that means."
+"ขี้เกียจมาถามเพื่อให้อธิบายเพิ่มละว่าหมายความว่าไง"
 
-hi "I don't know. I have to get to class, you're kind of in the way."
+# hi "I don't know. I have to get to class, you're kind of in the way."
+hi "ไม่รู้ดิ เดี๋ยวต้องไปเรียนละ นายยืนขวางทางออกอยู่น่ะ"
 
 show kenji tsun_naked
 with charachange
 
-ke "Oh. Sorry. Yeah, I don't want to hold you up, and I have some stuff to do myself. The time has come."
+# ke "Oh. Sorry. Yeah, I don't want to hold you up, and I have some stuff to do myself. The time has come."
+ke "โอ๊ะโทษที เอ้อ ไม่ได้ตั้งใจจะรั้งนายไว้ และเดี๋ยวฉันก็ไปทำธุระของฉันละ ได้เวลาแล้ว"
 
-hi "The time for what?"
+# hi "The time for what?"
+hi "ได้เวลาอะไรวะ"
 
 show kenji happy_naked
 with charachange
 
-ke "I just like saying that."
+# ke "I just like saying that."
+ke "พูดไปงั้นแหละ"
 
-ke "Okay, now the time has really come."
+# ke "Okay, now the time has really come."
+ke "โอเค ตอนนี้ได้เวลาจริง ๆ ละ"
 
-hi "For what?"
+# hi "For what?"
+hi "เวลาอะไร?"
 
 show kenji tsun_naked
 with charachange
 
-ke "I have to use the bathroom. Get out of it."
+# ke "I have to use the bathroom. Get out of it."
+ke "ฉันจะใช้ห้องน้ำ ออกไปได้แล้ว"
 
-hi "I was just going to! And what does that mean? It's a big bathroom."
+# hi "I was just going to! And what does that mean? It's a big bathroom."
+hi "ก็กำลังจะไปเนี่ย! แล้วหมายความว่าไงวะเมื่อกี้ ห้องน้ำมีที่เยอะแยะ"
 
-ke "So? I have to be alone or I can't go. The pressure…"
+# ke "So? I have to be alone or I can't go. The pressure…"
+ke "แล้ว? ฉันจะอาบคนเดียวไม่งั้นฉันอาบไม่ได้ รู้สึกกดดันเกิน…"
 
-hi "Okay. What if someone else comes in?"
+# hi "Okay. What if someone else comes in?"
+hi "โอเค แล้วถ้าคนอื่นเข้ามาล่ะ?"
 
 ke "…"
 
-ke "I'll think of something."
+# ke "I'll think of something."
+ke "ไว้ค่อยคิดละกัน"
 
-"I give him my practiced frown and it looks kind of silly reflected in his glasses. He either doesn't notice or doesn't see, anyway, so I get dressed and run back to my room, feeling as though an eternity has passed since I woke up."
+# "I give him my practiced frown and it looks kind of silly reflected in his glasses. He either doesn't notice or doesn't see, anyway, so I get dressed and run back to my room, feeling as though an eternity has passed since I woke up."
+"ฉันทำหน้าบึ้งที่ได้ซ้อมหน้ากระจกเมื่อตะกี้และเงาสะท้อนหน้าฉันผ่านแว่นเขามันดูตลกมาก เขาดูไม่สนใจมันหรืออาจจะแค่\nมองไม่เห็น ยังไงก็ช่าง ฉันเลยออกมาแต่งตัวแล้วเดินกลับห้อง รู้สึกเหมือนเวลาผ่านไปยาวนานเหลือเกินนับตั้งแต่ตอนตื่นมา" 
 
 stop music fadeout 2.0
 
 scene bg school_dormhisao
 with locationskip
 
-"That is time I will never get back. I'll get him for this somehow."
+# "That is time I will never get back. I'll get him for this somehow."
+"และนั่นคือเวลาที่เสียไปและไม่มีทางได้คืนมา สักวันเดี๋ยวฉันเอาคืนเขาแน่"
 
-"But right now, I have to get to class."
+# "But right now, I have to get to class."
+"แต่ตอนนี้ฉันต้องไปเข้าเรียนก่อน"
 
 
 
 #*****************************************
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 label th_A21:    
 
