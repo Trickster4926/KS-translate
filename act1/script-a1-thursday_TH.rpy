@@ -85,19 +85,19 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_emijogging fadein 0.1
 
 # "I'm surprised to discover that I'm not the only one present at the track."
-"ฉันแปลกใจนิดหน่อยที่เห็นคนมาที่ลานวิ่งอยู่ก่อนแล้ว"
+"ฉันแปลกใจนิดหน่อยที่เห็นคนมาที่ลู่วิ่งอยู่ก่อนแล้ว"
 
 # "Not just that, but it's a face I've seen before."
 "ไม่ใช่แค่คนทั่วไป แต่เป็นคนที่หน้าคุ้น ๆ เคยเจอมาก่อน"  
 
 # "The prosthetic-legged girl who bowled me over in the hallway yesterday is running on the track lithely, like a half-mechanical gazelle."
-"สาวที่ใส่ขาเทียมคนที่วิ่งชนฉันที่โถงทางเดินเมื่อวานกำลังวิ่งอยู่บนลานวิ่งอย่างคล่องแคล่ว ดูเหมือนละมั่งใส่ขาเหล็ก" # ฝากแปล
+"สาวที่ใส่ขาเทียมคนที่วิ่งชนฉันที่โถงทางเดินเมื่อวานกำลังวิ่งอยู่บนลู่วิ่งอย่างคล่องแคล่ว ดูเหมือนละมั่งใส่ขาเหล็ก" # ฝากแปล
 
 # "What was her name again? It was a short one, but I can't remember."
 "เธอชื่ออะไรนะ ชื่อสั้น ๆ แต่ฉันจำไม่ได้"
 
 # "She seems to be running laps at a somewhat easy lope, her prosthetic legs clacking rhythmically on the hard track surface."
-"เธอดูท่าทางวิ่งเป็นรอบ ๆ ได้อย่างสบาย ๆ ขาเทียมของเธอกระทบกับพื้นลานแข็งอย่างเป็นจังหวะ"
+"เธอดูท่าทางวิ่งเป็นรอบ ๆ ได้อย่างสบาย ๆ ขาเทียมของเธอกระทบกับพื้นแข็งของลู่วิ่งอย่างเป็นจังหวะ"
 
 # "I wonder what reason she has for running this early in the morning. Maybe it's something akin to mine, and the nurse is oppressing the poor girl to jog just like he is oppressing me."
 "ฉันล่ะอยากรู้ว่าทำไมเธอถึงต้องมาวิ่งตั้งแต่เช้ากันด้วย บางทีเหตุผลอาจจะคล้าย ๆ ฉันแหละมั้ง แล้วคุณพยาบาล\nก็บีบบังคับให้สาวน้อยที่น่าสงสารต้องมาวิ่งเหมือนกับที่เขาบังคับฉันมา"
@@ -214,7 +214,7 @@ show emi excited_laugh_gym
 with charachange
 
 # emi "No, I'm here for my own reasons, the nurse just asked me if I had seen “a messy-haired transfer student who looks like he's kinda lost” around the track."
-emi "เปล่า ฉันมาที่นี่ก็มีเหตุผลของฉันเองด้วย คุณพยาบาลถามแค่ว่าฉันเห็น “นักเรียนที่ย้ายมาใหม่ ผมยุ่ง ๆ คนที่ทำท่า\nเหมือนกับหลงทางอยู่” แถว ๆ ลานวิ่งไหม"
+emi "เปล่า ฉันมาที่นี่ก็มีเหตุผลของฉันเองด้วย คุณพยาบาลถามแค่ว่าฉันเห็น “นักเรียนที่ย้ายมาใหม่ ผมยุ่ง ๆ คนที่ทำท่า\nเหมือนกับหลงทางอยู่” แถว ๆ ลู่วิ่งไหม"
 
 # hi "So why are you down here?"
 hi "แล้วทำไมเธอถึงมาที่นี่ล่ะ?"
