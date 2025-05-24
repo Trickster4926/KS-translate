@@ -938,7 +938,6 @@ with locationskip
 
 
 #*****************************************
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 label th_A21:    
 
@@ -947,26 +946,35 @@ with locationskip
 
 play music music_normal fadein 2.0
 
-"I'm the first person in class today, although I think I'm a little too early. Then again, sitting alone here for twenty minutes sure beats having to suffer that time with Kenji."
+# "I'm the first person in class today, although I think I'm a little too early. Then again, sitting alone here for twenty minutes sure beats having to suffer that time with Kenji."
+"วันนี้เป็นวันที่ฉันมาถึงห้องคนแรก ถึงแม้ว่าจะเช้าไปหน่อยก็เถอะ แต่อย่างน้อยนั่งในนี้คนเดียวสัก 20 นาทีก็ยังดีกว่าต้อง\nทุกข์ทนทรมานกับเคนจิล่ะนะ"
 
-"The combination of fatigue, frustration and boredom starts making me feel very tired."
+# "The combination of fatigue, frustration and boredom starts making me feel very tired."
+"ความอ่อนล้า หงุดหงิด และเบื่อหน่ายได้หลวมรวมกันทำให้ฉันรู้สึกเพลียมาก ๆ"
 
-"I black out for a second, waking up when my head hits the surface of my desk. Rubbing my forehead, I realize this is as good a reason as any to stay up for now and stop coming to class so early later."
+# "I black out for a second, waking up when my head hits the surface of my desk. Rubbing my forehead, I realize this is as good a reason as any to stay up for now and stop coming to class so early later."
+"ฉับวูบหลับไปแวบนึง สะดุ้งตื่นตอนที่หัวชนโต๊ะ ฉันกุมหัวพร้อมเข้าใจว่าทำไมถึงไม่ควรรีบมาจนเกินไป"
 
-"Eventually, I hear a tapping noise outside in the hallway, and Lilly's tall figure appears in the doorway. She's not in this class, so she must have some other business. Maybe she's looking for Hanako."
+# "Eventually, I hear a tapping noise outside in the hallway, and Lilly's tall figure appears in the doorway. She's not in this class, so she must have some other business. Maybe she's looking for Hanako."
+"ในที่สุดก็ได้ยินเสียงกระทบดังมาจากข้างนอกโถงทางเดิน แล้วร่างสูง ๆ ของลิลลี่ก็ปรากฏตรงหน้าประตูทางเข้า เธอไม่ได้\nเรียนที่ห้องนี้ เพราะงั้นคงจะมาด้วยเหตุผลอื่นมากกว่า อาจจะมาตามหาฮานาโกะ"
 
-"Lilly stops at the door, looking hesitant as if she was a vampire who can't come in unless invited. I consider doing so because she looks rather lonesome standing there."
+# "Lilly stops at the door, looking hesitant as if she was a vampire who can't come in unless invited. I consider doing so because she looks rather lonesome standing there."
+"ลิลลี่หยุดยืนตรงหน้าประตู ดูลังเลที่จะเข้ามาเหมือนกับแขกที่รอให้เจ้าภาพเชิญก่อนถึงจะเข้างาน ฉันว่าจะเรียกเข้ามา\nเพราะว่าให้ยืนแบบนั้นก็คงเหงาแย่"
 
-"She steps in on her own accord though, after straightening her skirt and shirt collar as if it was of importance to look prim when entering our classroom." 
+# "She steps in on her own accord though, after straightening her skirt and shirt collar as if it was of importance to look prim when entering our classroom." 
+"สุดท้ายเธอก็เดินเข้ามาตามต้องการ หลังจากที่จัดเสื้อและกระโปรงให้เรียบร้อยราวกับเป็นเรื่องสำคัญที่ต้องทำก่อนเข้าห้องนี้"
 
 show lilly cane_concerned at left
 with charamoveinleft
 
-li "Excuse me."
+# li "Excuse me."
+li "ขอโทษนะคะ"
 
-"She calls into the quiet classroom with a probing, delicate voice. I realize the silence might unnerve her because of her blindness so I break it."
+# "She calls into the quiet classroom with a probing, delicate voice. I realize the silence might unnerve her because of her blindness so I break it."
+"เธอพูดเข้ามาในห้องที่เงียบสนิทด้วยน้ำเสียงที่นุ่มนวลและละเอียดลออ ฉันนึกขึ้นได้ว่าความเงียบคงทำให้เธอรู้สึกไม่สบายใจ\nเพราะว่าเธอตาบอด เช่นนั้นฉันจึงทำลายความเงียบลง"
 
-hi "Good morning, Lilly."
+# hi "Good morning, Lilly."
+hi "อรุณสวัสดิ์ลิลลี่"
 
 show lilly cane_surprised at left
 with charachange
@@ -975,47 +983,58 @@ show lilly cane_surprised at center
 show bg school_scienceroom at bgright
 with charamove
 
-li "Hisao? Good morning. I didn't hear you come in."
+# li "Hisao? Good morning. I didn't hear you come in."
+li "ฮิซาโอะเหรอ อรุณสวัสดิ์จ้ะ ไม่ได้ยินเลยว่าเธอก็เดินมาด้วย"
 
-"I wonder if she thinks it's suspicious I didn't say anything to her before. It's likely. If I were to tell too big a lie now, it would sink me."
+# "I wonder if she thinks it's suspicious I didn't say anything to her before. It's likely. If I were to tell too big a lie now, it would sink me."
+"ฉันละสงสัยว่าเธอจะคิดว่ามันน่าสงสัยไหมที่ฉันไม่พูดอะไรกับเธอเลยตลอดทางที่ผ่านมา เหมือนกับว่าถ้าโกหกเยอะไปตอนนี้\nฉันจะแย่เอา"
 
-hi "Well, I was already here, just asleep until now."
+# hi "Well, I was already here, just asleep until now."
+hi "ก็จริง ๆ ฉันมาถึงนี่ตั้งแต่แรกแล้วล่ะ เพิ่งงีบไปจนตะกี้"
 
 show lilly cane_listen
 with charachange
 
-li "Oh. Have you seen Hanako today, by any chance?"
+# li "Oh. Have you seen Hanako today, by any chance?"
+li "โอ้ แล้ววันนี้เธอเห็นฮานาโกะบ้างไหมจ๊ะ?"
 
-hi "No, she seems to come in only just before the bells ring… or after that. Do you want me to tell her something for you?"
+# hi "No, she seems to come in only just before the bells ring… or after that. Do you want me to tell her something for you?"
+hi "ไม่เห็นเลย ปกติเห็นเธอจะมาช่วงก่อนระฆังเข้าคาบดังไม่นาน… หรือไม่ก็มาหลังจากนั้น อยากจะฝากฉันบอกอะไร\nให้เธอไหมล่ะ?"
 
 show lilly cane_weaksmile
 with charachange
 
-li "No, it's fine. It's strange, but I think we're the only two people in the school right now. I didn't hear anyone else on my way here."
+# li "No, it's fine. It's strange, but I think we're the only two people in the school right now. I didn't hear anyone else on my way here."
+li "ไม่เป็นไรหรอกจ้ะ แต่แปลกจริง รู้สึกเหมือนตอนนี้โรงเรียนจะมีแค่เราสองคนเลย ฉันไม่ได้ยินเสียงใครระหว่างเดินมา\nที่นี่เลย"
 
-hi "I shouldn't have gotten up so early today, I guess."
+# hi "I shouldn't have gotten up so early today, I guess."
+hi "ฉันว่าฉันไม่น่ารีบตื่นเลย"
 
 show lilly cane_smile
 with charachange
 
-li "You're chastising yourself for doing something that other people should? Punctuality is a good thing. I think so, anyway."
+# li "You're chastising yourself for doing something that other people should? Punctuality is a good thing. I think so, anyway."
+li "เธอกำลังตำหนิตัวเองกับเรื่องที่ทุก ๆ คนควรทำอยู่นะ ฉันว่าการตรงต่อเวลาก็เป็นเรื่องที่ดีนะ"
 
 show lilly cane_concerned
 with charachange
 
-li "It's a very busy morning today. The festival is coming up soon, and today is the deadline for event registration, budget reports, and any other official paperwork."
+# li "It's a very busy morning today. The festival is coming up soon, and today is the deadline for event registration, budget reports, and any other official paperwork."
+li "วันนี้เป็นวันที่ช่วงเช้ายุ่งน่าดู งานเทศกาลก็กำลังจะมาถึงแล้วและวันนี้ก็เป็นวันที่จะต้องลงทะเบียนกิจกรรม ส่งรายงาน\nงบประมาณ แล้วก็เอกสารของงานโรงเรียนอื่น ๆ น่ะจ้ะ"
 
 show lilly cane_weaksmile
 with charachange
 
-li "It could be that everyone is trying to complete the necessary forms at the last minute. Maybe that is why it's so quiet today."
+# li "It could be that everyone is trying to complete the necessary forms at the last minute. Maybe that is why it's so quiet today."
+li "เป็นไปได้ว่าทุกคนน่าจะพยายามทำเอกสารที่ต้องส่งกันนาทีสุดท้ายน่ะ วันนี้ก็เลยเงียบกว่าปกติ"
 
 play sound sfx_doorslam
 
 show lilly cane_surprised
 with vpunch
 
-mi "Hi~ hi~!"
+# mi "Hi~ hi~!"
+mi "หวัด~ ดีจ้า~!"
 
 show shizu behind_blank at offscreenright
 show misha hips_grin at offscreenright
@@ -1031,14 +1050,17 @@ hide misha
 show misha hips_grin behind shizu
 with None
 
-"Misha pops into the room with Shizune as if on cue, shouting with a loudness that makes Lilly visibly flinch."
+# "Misha pops into the room with Shizune as if on cue, shouting with a loudness that makes Lilly visibly flinch."
+"มิช่าโผล่เข้ามาในห้องพร้อมกับชิซูเนะราวกับฟ้าสั่งมา ตะโกนลั่นห้องจนลิลลี่สะดุ้งอย่างเห็นได้ชัด"
 
 show misha hips_smile
 with charachange
 
-mi "Hi, Hicchan~!"
+# mi "Hi, Hicchan~!"
+mi "ดีจ้า ฮิจัง~!"
 
-hi "Hi."
+# hi "Hi."
+hi "หวัดดี"
 
 show shizu behind_smile
 with charachange
@@ -1048,17 +1070,20 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Look, it's the class representative~! Hello~!"
+# mi "Look, it's the class representative~! Hello~!"
+mi "ดูสิ นั่นคุณหัวหน้าห้องล่ะ~! หวัดดีจ้า~!"
 
 show lilly cane_smile
 with charachange
 
-"Lilly smiles, probably amused by Misha's - or Shizune's - use of the word “look.”"
+# "Lilly smiles, probably amused by Misha's - or Shizune's - use of the word “look.”"
+"ลิลลี่ยิ้ม อาจจะเพราะแอบขำที่มิช่า- หรือชิซูเนะใช้คำว่า “ดู”"
 
 show lilly cane_smile
 with charachange
 
-li "Good morning."
+# li "Good morning."
+li "อรุณสวัสดิ์จ้ะ"
 
 show shizu adjust_smug
 with charachange
@@ -1068,22 +1093,30 @@ shi "…"
 show misha cross_smile
 with charachange
 
-mi "Of course, you're not the representative of this class, right, right~?"
+# mi "Of course, you're not the representative of this class, right, right~?"
+mi "แน่นอนว่า เธอไม่ใช่หัวหน้าห้องของห้องนี้สินะ ใช่ไหม ใช่ไหม~?"
 
 show lilly cane_weaksmile
 with charachange
 
-li "I'm not."
+# li "I'm not."
+li "อืม ไม่ใช่"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
-"Lilly seems a little more guarded in her answers to Shizune than she was with me the other day. I guess they really don't get along at all."
+# "Lilly seems a little more guarded in her answers to Shizune than she was with me the other day. I guess they really don't get along at all."
+"ลิลลี่ดูระมัดระวังในคำตอบของเธอที่ตอบชิซูเนะมากกว่าตอนที่เธอตอบฉันเมื่อวันก่อน เดาว่าทั้งคู่คงจะไม่ถูกกันสักเท่าไหร่"
 
-"Then I realize that Lilly might actually not know Shizune is present and she's trying to detect whether or not she is, to know who she is talking to."
+# "Then I realize that Lilly might actually not know Shizune is present and she's trying to detect whether or not she is, to know who she is talking to."
+"แล้วก็นึกขึ้นได้ว่าลิลลี่อาจจะไม่รู้ว่าชิซูเนะอยู่ตรงนี้เลยพยายามจับทางว่าเธออยู่หรือเปล่า เพื่อได้รู้ว่ากำลังคุยกับใครอยู่"
 
-"For all she knows, she's talking to Misha, but knowing that she and Shizune are practically inseparable, she might expect Shizune being the one that actually “talks.”"
+# "For all she knows, she's talking to Misha, but knowing that she and Shizune are practically inseparable, she might expect Shizune being the one that actually “talks.”"
+"ตอนนี้ที่เธอรู้ คือเธอกำลังคุยกับมิช่าอยู่ แต่ว่าก็รู้ว่ามิช่ากับชิซูเนะเองก็ตัวแทบติดกัน เธอน่าจะคาดว่าคนที่ “พูด” อยู่\nคือชิซูเนะ"
 
-"Damn, how complicated. I decide to help Lilly out, for my own peace of mind more than anything else."
+# "Damn, how complicated. I decide to help Lilly out, for my own peace of mind more than anything else."
+"แม่ง ซับซ้อนจังวะ ฉันเลยเลือกที่ช่วยลิลลี่เพื่อความสบายใจของฉันเองมากกว่าเรื่องอื่น ๆ"
 
-hi "You're here early, Shizune."
+# hi "You're here early, Shizune."
+hi "เธอมาเช้าจัง ชิซูเนะ"
 
 show shizu basic_angry
 with charachange
@@ -1093,9 +1126,11 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "You were here even earlier than us!"
+# mi "You were here even earlier than us!"
+mi "นายมาเร็วกว่าพวกฉันอีกนะ!"
 
-"Misha puffs out her cheeks angrily. Why is she getting angry? Does she feel emotions on Shizune's behalf, too?"
+# "Misha puffs out her cheeks angrily. Why is she getting angry? Does she feel emotions on Shizune's behalf, too?"
+"มิช่าทำแก้มป่องด้วยความโกรธ ทำไมเธอถึงต้องโกรธด้วยล่ะ หรือได้รับอารมณ์แบ่งมาจากชิซูเนะมาด้วยหรือไง"
 
 "It's not that weird, though, that Shizune didn't like my little comment. It's true, I was here earlier than them, so me saying something like that could definitely be misinterpreted as anything."
 
