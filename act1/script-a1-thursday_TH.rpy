@@ -1189,7 +1189,6 @@ mi "วันนี้! กำหนดส่งคือวันนี้! เ
 
 show lilly cane_displeased
 with charachange
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่" //new ruler line
 
 # li "Yes, that was me. Planning something on this scale is not a small task, and a week is too small a time frame to expect a whole class to work out such a complex issue completely."
 li "อืมฉันเองแหละ การวางแผนกับงานขนาดใหญ่ขนาดนี้ไม่ใช่งานเบา ๆ เลย และเวลาแค่สัปดาห์เดียวก็น้อยเกินไป\nที่จะคาดหวังให้คนทั้งห้องมานั่งช่วยกันแก้ปัญหาที่ยุ่งยากแบบนี้ให้เสร็จทัน"
@@ -1202,23 +1201,28 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Do you want to know what's harder than distributing the funds for one class' event? Handling the same matter for every class in the school and then some~! The one who does that is me!"
+# mi "Do you want to know what's harder than distributing the funds for one class' event? Handling the same matter for every class in the school and then some~! The one who does that is me!"
+mi "อยากรู้รึเปล่าว่าอะไรยากกว่าการจัดแจงงบประมาณกิจกรรมของห้องเรียนหนึ่งห้อง ก็การจัดแจงของทุกห้องในโรงเรียนไง\nแล้ว~! คนที่ต้องจัดการเรื่องนั้นก็คือฉันไงล่ะ!"
 
-"Misha puts her hands on her hips and stands up straight. Wow, she is really getting into the role. Lilly doesn't look like she's very amused, though."
+# "Misha puts her hands on her hips and stands up straight. Wow, she is really getting into the role. Lilly doesn't look like she's very amused, though."
+"มิช่าทำท่าเท้าเอวแล้วยืนตัวตรง โอ้ ตอนนี้เธอสวมบทบาทได้เหมือนเลยทีเดียว แต่ลิลลี่ก็ดูไม่ได้เล่นด้วย"
 
-hi "Hey, Shizune, aren't you being a little too hard on her? There's still a whole day left."
+# hi "Hey, Shizune, aren't you being a little too hard on her? There's still a whole day left."
+hi "นี่ชิซูเนะ เธอไม่ใจร้ายกับเธอไปหน่อยเหรอ? ยังเหลือเวลาอีกทั้งวันนี่"
 
 show lilly cane_weaksmile
 with charachange
 
-li "Please, Hisao. It's all right."
+# li "Please, Hisao. It's all right."
+li "เอาเถอะฮิซาโอะ ไม่เป็นไรหรอกจ้ะ"
 
-"Lilly seems happy I'm taking her side, but a bit conflicted that I might not think she can take care of herself."
-
+# "Lilly seems happy I'm taking her side, but a bit conflicted that I might not think she can take care of herself."
+"ลิลลี่ดูดีใจที่ฉันเข้าข้างเธอ แต่ฉันก็ยังรู้สึกว่าเธอไม่น่าไหวอยู่ดี"
 show lilly cane_listen
 with charachange
 
-li "If this is about the budget, then I'm disappointed you think I have forgotten about it. I understand how important it is."
+# li "If this is about the budget, then I'm disappointed you think I have forgotten about it. I understand how important it is."
+li "ถ้าเป็นเรื่องงบประมาณล่ะก็ ฉันผิดหวังนะที่เธอคิดว่าฉันลืมเรื่องนั้นไป ฉันรู้น่าว่าเป็นเรื่องที่สำคัญขนาดไหน"
 
 show shizu behind_frustrated
 with charachange
@@ -1228,18 +1232,23 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Then~! Can I have it, please?"
+# mi "Then~! Can I have it, please?"
+mi "งั้น~! ช่วยส่งมาให้หน่อยได้ไหม?"
 
-hi "Shizune, she might not have it on her at this exact second."
+# hi "Shizune, she might not have it on her at this exact second."
+hi "ชิซูเนะ เธอคงยังไม่มีให้ตอนนี้หรอกนะ"
 
 show lilly cane_displeased
 with charachange
 
-li "It's not here right now. I asked two students to take care of it for me. Students from my class."
+# li "It's not here right now. I asked two students to take care of it for me. Students from my class."
+li "เอกสารยังไม่ได้อยู่ที่นี่หรอก ฉันให้นักเรียนสองคนในห้องไปจัดการอยู่ นักเรียนจากห้องฉันน่ะนะ"
 
-"She emphasizes the last sentence much to my surprise. She knows about Shizune and Misha's efforts to rope me into the Student Council?"
+# "She emphasizes the last sentence much to my surprise. She knows about Shizune and Misha's efforts to rope me into the Student Council?"
+"เธอเน้นย้ำคำสุดท้ายจนน่าแปลกใจ นี่เธอรู้เรื่องที่ว่าชิซูเนะกับมิช่าพยายามพาฉันเข้าสภานักเรียนด้วยงั้นเหรอ"
 
-"I guess word must've gotten around, so now she's using me as ammo against Shizune. This just gets better and better…"
+# "I guess word must've gotten around, so now she's using me as ammo against Shizune. This just gets better and better…"
+"คาดว่าข่าวลือคงแพร่กระจายไปทั่วแล้วล่ะ ตอนนี้เธอเลยเอามาเป็นอาวุธใช้เถียงกับชิซูเนะ เริ่มจะน่าสนใจแล้วล่ะสิ…"
 
 show shizu cross_angry
 with charachange
@@ -1249,19 +1258,23 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "It was your responsibility~! A budget report isn't something you should just be delegating away; as class rep, it's your job to be on top of things! This kind of disregard for proper procedure is really just terrible~!"
+# mi "It was your responsibility~! A budget report isn't something you should just be delegating away; as class rep, it's your job to be on top of things! This kind of disregard for proper procedure is really just terrible~!"
+mi "นั่นน่ะเป็นความรับผิดชอบของเธอนะ~! รายงานงบประมาณน่ะไม่ใช่อะไรที่เธอจะเอาไปให้คนอื่นมาทำแทนให้ได้นะ\nในฐานะหัวหน้าห้องมันคือหน้าที่ของเธอที่จะจัดการทุก ๆ อย่าง การที่ละเลยไม่ทำตามขั้นตอนที่ถูกต้องเนี่ยถือว่า\nใช่ไม่ได้เลยนะ~!"
 
 show lilly cane_listen
 with charachange
 
-li "They completed it, being capable of doing so, but the students have been sick recently, so they could not come to school and give it back to me. If you want, I will apologize on their behalf for getting sick."
+# li "They completed it, being capable of doing so, but the students have been sick recently, so they could not come to school and give it back to me. If you want, I will apologize on their behalf for getting sick."
+li "พวกเขาทำได้และก็ทำเสร็จแล้วด้วย แต่ว่านักเรียนพวกนั้นเพิ่งไม่สบายไม่นานมานี้ เพราะงั้นแล้วพวกเขาเลยมาส่งให้ฉัน\nที่โรงเรียนไม่ได้ ถ้าเธออยากให้ฉันขอโทษ ฉันก็ขอโทษแล้วกันนะที่พวกเขาป่วยตอนนี้น่ะ"
 
 show misha hips_grin
 with charachange
 
-mi "Okay~!"
+# mi "Okay~!"
+mi "โอเคจ้า~!"
 
-"Although Misha misses Lilly's little jab entirely, Shizune doesn't, and she seems torn between being offended by Lilly's daring and jumping for joy at the prospect of a challenge."
+# "Although Misha misses Lilly's little jab entirely, Shizune doesn't, and she seems torn between being offended by Lilly's daring and jumping for joy at the prospect of a challenge."
+"ถึงมิช่าจะไม่รู้เลยว่าเมื่อกี้ลิลลี่แอบจิกกัดอยู่ แต่ชิซูเนะรู้ และเธอก็ดูขัดแย้งในตัวเองระหว่างอารมณ์เคืองที่โดนลิลลี่จิกกัด\nกับอารมณ์ตื่นเต้นที่ได้รับคำท้า"
 
 show shizu behind_frown
 with charachange
@@ -1271,37 +1284,47 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Lilly, don't they live here at the school? That's a five minute walk, you know~."
+# mi "Lilly, don't they live here at the school? That's a five minute walk, you know~."
+mi "ลิลลี่ แล้วนักเรียนพวกนั้นก็พักอยู่ในโรงเรียนนี้ไม่ใช่หรือไง เดินไป 5 นาทีก็ถึงแล้วนี่~"
 
-mi "What could they possibly have that prevents them from taking five minutes out of their busy lives… to drop off something that will affect the enjoyment of their entire class?"
+# mi "What could they possibly have that prevents them from taking five minutes out of their busy lives… to drop off something that will affect the enjoyment of their entire class?"
+mi "จะต้องยุ่งขนาดไหนกันนะที่ทำให้ไม่ว่างจนสละเวลาให้สัก 5 นาทีไม่ได้… จนต้องทิ้งภาระบางอย่างที่ทำให้คนอื่นเดือดร้อนทั้งห้องน่ะ"
 
 show shizu adjust_angry
 with charachange
 
-"Lilly opens her mouth to say something, but Shizune closes the gap between them and starts signing furiously, waving her hands around like an orchestra conductor."
+# "Lilly opens her mouth to say something, but Shizune closes the gap between them and starts signing furiously, waving her hands around like an orchestra conductor."
+"ลิลลี่อ้าปากเพื่อจะพูดอะไรบางอย่าง แต่ชิซูเนะก็เข้ามาขัดแล้วเริ่มทำภาษามืออย่างรวดเร็ว โบกมือไปมาราวกับวาทยกรประจำวงออเคสตรา"
 
-"Misha tries her best to convey the same passion, but can't seem to lose her normal cheerful tone. The result is interesting and somewhat surreal."
+# "Misha tries her best to convey the same passion, but can't seem to lose her normal cheerful tone. The result is interesting and somewhat surreal."
+"มิช่าพยายามอย่างที่สุดเพื่อจะสื่ออารมณ์เดียวกันนั้น แต่ก็ดูทีท่าว่าจะไม่สามารถลดน้ำเสียงร่าเริงนั้นได้เลย ผลที่ออกมา\nก็เลยดูน่าสนใจแล้วก็ดูเกินจริงไปหน่อย"
 
 shi "…"
 
 show misha cross_frown
 with charachange
 
-mi "And what's with that attitude~? I said that it's not something you should be delegating away; are you the class representative or aren't you?"
+# mi "And what's with that attitude~? I said that it's not something you should be delegating away; are you the class representative or aren't you?"
+mi "แล้วทัศนคตินั่นคืออะไรน่ะ~? ฉันบอกแล้วนี่ว่างานนี้ไม่ใช่ว่าให้ใครก็ได้มาทำ นี่เธอเป็นหัวหน้าห้องจริงไหมเนี่ย"
 
 show misha hips_frown
 with charachange
 
-mi "Tell me the names of those two students, they should have your job if you can't even handle something this simple yourself."
+# mi "Tell me the names of those two students, they should have your job if you can't even handle something this simple yourself."
+mi "ไหนบอกชื่อนักเรียนสองคนนั้นมาทีซิ พวกเขาเหมาะกับตำแหน่งหัวหน้ากว่าเธออีกถ้สเธอยังจัดการเรื่องง่าย ๆ แค่นี้ไม่ได้"
 
 show lilly cane_displeased
 with charachange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่"
 
-li "One form isn't the full extent of what I am supposed to take care of."
+# li "One form isn't the full extent of what I am supposed to take care of."
+li "แค่งานเดียวนั่นไม่เทียบเท่างานที่ฉันจะต้องดูแลทั้งหมดซะหน่อย"
 
-"Lilly's tone is growing slightly impatient, but she is doing a good job of not letting Shizune see how unsettled she is becoming. She's playing her cards close to her chest."
+# "Lilly's tone is growing slightly impatient, but she is doing a good job of not letting Shizune see how unsettled she is becoming. She's playing her cards close to her chest."
+"น้ำเสียงของลิลลี่เริ่มแสดงออกถึงความขุ่นเคืองเล็กน้อย แต่เธอก็แสดงออกได้ดีโดยการที่ไม่ทำให้ชิซูเนะรู้ว่าเธอเริ่มเคือง\nและยังเก็บซ่อนอารมณ์เธอไว้อยู่"
 
-"Shizune, on the other hand, wraps her fingers cheerfully along the edge of her glasses, knowing Lilly can neither hear nor see how excited she is."
+# "Shizune, on the other hand, wraps her fingers cheerfully along the edge of her glasses, knowing Lilly can neither hear nor see how excited she is."
+"ในขณะที่ชิซูเนะเองนั้น ทำไม้ทำมือไปตามขอบแว่นอย่างร่าเริง เพราะรู้ว่าลิลลี่ไม่ได้ยินและไม่เห็นว่าเธอตื่นเต้นแค่ไหน"
 
 show shizu adjust_smug
 with charachange
@@ -1311,7 +1334,8 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Of course, you do so much, class rep~! It must be so difficult being you~!"
+# mi "Of course, you do so much, class rep~! It must be so difficult being you~!"
+mi "แน่นอนเธอนี่งานหนักเนอะคุณหัวหน้า~! เป็นเธอนี่มันยากจังเลยเนอะ~!"
 
 show lilly cane_listen
 with charachange
