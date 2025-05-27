@@ -1001,7 +1001,6 @@ li "โอ้ แล้ววันนี้เธอเห็นฮานาโ
 
 # hi "No, she seems to come in only just before the bells ring… or after that. Do you want me to tell her something for you?"
 hi "ไม่เห็นเลย ปกติเห็นเธอจะมาช่วงก่อนระฆังเข้าคาบดังไม่นาน… หรือไม่ก็มาหลังจากนั้น อยากจะฝากฉันบอกอะไรให้เธอ\nไหมล่ะ?"
-#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 show lilly cane_weaksmile
 with charachange
@@ -1300,7 +1299,7 @@ with charachange
 "ลิลลี่อ้าปากเพื่อจะพูดอะไรบางอย่าง แต่ชิซูเนะก็เข้ามาขัดแล้วเริ่มทำภาษามืออย่างรวดเร็ว โบกมือไปมาราวกับวาทยกรประจำ\nวงออเคสตรา"
 
 # "Misha tries her best to convey the same passion, but can't seem to lose her normal cheerful tone. The result is interesting and somewhat surreal."
-"มิช่าพยายามอย่างที่สุดเพื่อจะสื่ออารมณ์เดียวกันนั้น แต่ก็ดูทีท่าว่าจะไม่สามารถลดน้ำเสียงร่าเริงนั้นได้เลย ผลที่ออกมา\nก็เลยดูน่าสนใจแล้วก็ดูเกินจริงไปหน่อย"
+"มิช่าพยายามอย่างที่สุดเพื่อจะสื่ออารมณ์เดียวกันนั้น แต่ก็ดูทีท่าว่าจะไม่สามารถลดน้ำเสียงร่าเริงนั้นได้เลย ผลที่ออกมา\nก็เลยดูน่าสนใจแล้วก็ดูขัดกับอารมณ์หน่อย ๆ"
 
 shi "…"
 
@@ -1479,18 +1478,23 @@ menu:
         
 label th_A21a:
 
-hi "Why am I being dragged into this, again? I've done more than enough, I think."
+# hi "Why am I being dragged into this, again? I've done more than enough, I think."
+hi "แล้วทำไมฉันถึงโดนลากไปด้วยล่ะเนี่ย ฉันว่าฉันก็ทำมากเกินพอละนะ"
 
-hi "If you're angry with Lilly, that has nothing to do with me."
+# hi "If you're angry with Lilly, that has nothing to do with me."
+hi "ถ้าเธอจะโมโหลิลลี่ ก็ไม่เกี่ยวกับฉันสักหน่อย"
 
 show lilly cane_reminisce
 with charachange
 
-li "Now, wait just a second… are you implying the president is more right in scolding me than yourself?"
+# li "Now, wait just a second… are you implying the president is more right in scolding me than yourself?"
+li "เดี๋ยวนะ นี่เธอจะบอกว่าคุณประธานนักเรียนมีสิทธิ์ด่าฉันได้แต่ด่าเธอไม่ได้เหรอ"
 
-"Ah damn, I think I could've worded that better."
+# "Ah damn, I think I could've worded that better."
+"อ่าเชี่ย ฉันว่าฉันน่าจะเรียงคำพูดให้ดีกว่านี้"
 
-hi "No, I don't know about that but… I mean…"
+# hi "No, I don't know about that but… I mean…"
+hi "เปล่า ไม่ได้หมายความว่าแบบนั้น… คือ…"
 
 show shizu behind_frown
 with charachange
@@ -1500,13 +1504,17 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "What are you saying, Hicchan?"
+# mi "What are you saying, Hicchan?"
+mi "พูดอะไรน่ะฮิจัง"
 
-hi "It's just that I hardly think it's fair you can say that, seeing that I've helped you guys."
+# hi "It's just that I hardly think it's fair you can say that, seeing that I've helped you guys."
+hi "ก็แค่มันไม่แฟร์ที่เธอจะพูดแบบนั้นใส่ฉัน ฉันก็ช่วยพวกเธอแล้วนะ"
 
-"The mood has changed. This is like a showdown between two gunfighters now. Well, it was like that before too, but this time Shizune's focus is on me."
+# "The mood has changed. This is like a showdown between two gunfighters now. Well, it was like that before too, but this time Shizune's focus is on me."
+"สถานการณ์ตอนนี้เปลี่ยนไปแล้ว ตอนนี้เหมือนกับจังหวะของคาวบอยที่กำลังจะดวลปืนกันเลย จริง ๆ เมื่อกี้ก็เป็นแบบนี้\nนั่นแหละ เพียงแต่ตอนนี้ชิซูเนะหันปืนมาที่ฉันแทนแล้ว"
 
-"And so is Lilly's, though she keeps quiet. I'm afraid I inadvertently pissed her off."
+# "And so is Lilly's, though she keeps quiet. I'm afraid I inadvertently pissed her off."
+"และลิลลี่ก็ด้วย ถึงตอนนี้เธอจะเงียบ แต่ฉันก็กลัวว่าฉันไปทำให้เธอโกรธโดยไม่ได้ตั้งใจ"
 
 show shizu cross_angry
 with charachange
@@ -1516,11 +1524,14 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Are you saying I'm wrong?"
+# mi "Are you saying I'm wrong?"
+mi "เธอจะบอกว่าฉันผิดเหรอ?"
 
-"What a dangerous situation."
+# "What a dangerous situation."
+"สถานการณ์อันตรายสุด ๆ"
 
-hi "It's too early to argue with you. …Yes, I think it's unfair of you to get on my case."
+# hi "It's too early to argue with you. …Yes, I think it's unfair of you to get on my case."
+hi "นี่ยังเช้าเกินกว่าจะมาเถียงกับพวกเธอนะ …และใช่ ฉันว่ามันไม่แฟร์ที่เธอจะมาว่าฉันแบบนี้"
 
 show shizu behind_frustrated
 with charachange
@@ -1530,14 +1541,17 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Hicchan, you want too much~! But~! You have a point. Okay, okay okay~! You're not lazy, Hicchan."
+# mi "Hicchan, you want too much~! But~! You have a point. Okay, okay okay~! You're not lazy, Hicchan."
+mi "ฮิจัง เธอนี่ก็เกินไปนะ~! แต่~! ที่พูดมาก็มีเหตุผล โอเค โอเค โอเค~! ถือว่านายไม่ขี้เกียจก็ได้ฮิจัง"
 
 show misha hips_laugh
 with charachange
 
-mi "Hahaha~!"
+# mi "Hahaha~!"
+mi "ฮ่าฮ่าฮ่า~!"
 
-"Shizune pushes her glasses up with her thumb, almost approvingly."
+# "Shizune pushes her glasses up with her thumb, almost approvingly."
+"ชิซูเนะดันแว่นขึ้นพร้อมยกนิ้วโป้งให้กึ่ง ๆ เห็นด้วย"
 
 show shizu adjust_happy
 with charachange
@@ -1547,52 +1561,64 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "That's good! If you're not useless, you shouldn't let anyone say you are~! But the next time I say it, it'll really be because you are disappointing me like Miss Class Rep here, so don't let this go to your head!"
+# mi "That's good! If you're not useless, you shouldn't let anyone say you are~! But the next time I say it, it'll really be because you are disappointing me like Miss Class Rep here, so don't let this go to your head!"
+mi "ดีแล้วล่ะ! ถ้านายไม่ไร้ประโยชนื นายก็ไม่ควรให้ใครมาว่าแบบนั้น~! แต่ถ้าครั้งหน้าฉันได้ว่าอีกล่ะก็ แปลว่าเธอทำให้ฉัน\nผิดหวังเหมือนกับคุณหัวหน้าตรงนี้ จำไว้ให้ดีล่ะ"
 
 show lilly cane_displeased
 with charachange
 
-"Lilly takes the jab silently, a venomous visage frozen on her face."
+# "Lilly takes the jab silently, a venomous visage frozen on her face."
+"ลิลลี่รับการจิกกัดอย่างเงียบ ๆ หน้าชาอย่างสังเกตได้"
 
 show misha hips_smile
 with charachange
 
-mi "Class rep~! Shicchan says: “Don't forget that report, please~!”"
+# mi "Class rep~! Shicchan says: “Don't forget that report, please~!”"
+mi "คุณหัวหน้า~! ชิจังบอกว่า “อย่าลืมรายงานนะ~!”"
 
-li "I won't."
+# li "I won't."
+li "ฉันไม่ลืมหรอก"
 
 show lilly cane_listen
 with charachange
 
-li "Would that be all?"
+# li "Would that be all?"
+li "แค่นี้ใช่ไหม?"
 
 show misha hips_grin
 with charachange
 
-mi "Yup~!"
+# mi "Yup~!"
+mi "อื้ม~!"
 
-li "Then, good day to you all."
+# li "Then, good day to you all."
+li "งั้น โชคดีทุกคน"
 
-"Her voice would cut the air of the classroom into half, if it was more tangible."
+# "Her voice would cut the air of the classroom into half, if it was more tangible."
+"เสียงของเธอคงแบ่งบรรยากาศในห้องออกเป็นสองฝั่ง ถ้ามันจับต้องได้อะนะ"
 
 hide lilly
 with charaexit
 
-"Lilly leaves the room, understandably in a bad mood but still managing to be as poised and calm as usual."
+# "Lilly leaves the room, understandably in a bad mood but still managing to be as poised and calm as usual."
+"ลิลลี่ออกจากห้องไปด้วยอารมณ์ที่พอเข้าใจได้ว่าไม่ค่อยจะดีนัก แต่ก็ยังคงไว้ซึ่งความสงบและสุขุมอย่างปกติ"
 
 show misha hips_grin at twoleft
 show shizu adjust_happy at tworight
 show bg school_scienceroom at bgleft
 with charamove
 
-hi "Shizune, you really did go a little too far today."
+# hi "Shizune, you really did go a little too far today."
+hi "ชิซูเนะ เธอทำเกินไปหน่อยนะวันนี้"
 
 show misha perky_smile
 with charachange
 
-mi "It's true, Shicchan, just a little~."
+# mi "It's true, Shicchan, just a little~."
+mi "จริงเลย ชิจัง เกินไปนิดนึง~"
 
-"If I had been expecting Shizune to grudgingly admit I have a point there as well, I think I was expecting too much. She doesn't respond."
+# "If I had been expecting Shizune to grudgingly admit I have a point there as well, I think I was expecting too much. She doesn't respond."
+"ถ้าฉันหวังว่าชิซูเนะจะยอมรับว่าฉันพูดถูกบางส่วนอย่างไม่เต็มใจ ก็คงจะหวังมากเกินไป ชิซูเนะนิ่งไม่ตอบอะไร"
 
 show shizu basic_normal2
 with charachange
@@ -1602,42 +1628,50 @@ shi "…"
 show misha cross_laugh
 with charachange
 
-mi "Hahaha~! Shicchan thinks you should mind your own business."
+# mi "Hahaha~! Shicchan thinks you should mind your own business."
+mi "ฮ่าฮ่าฮ่า~! ชิจังบอกว่าเธอไม่ต้องมายุ่งหรอก"
 
 show misha hips_smile
 with charachange
 
-mi "Hicchan, we have a few last minute things to take care of before class~! We might be late, so~! Can you please cover for us?"
+# mi "Hicchan, we have a few last minute things to take care of before class~! We might be late, so~! Can you please cover for us?"
+mi "ฮิจัง พวกเรามีธุระนิดหน่อยที่ต้องทำก่อนเข้าคาบน่ะ~! แล้วก็อาจมาเข้าสาย เพราะงั้น~! ฝากเธอบอกครูให้หน่อยนะ"
 
 hi "Yeah."
 
 show misha cross_grin
 with charachange
 
-mi "Perfect~! Yay~! Okay~! Thanks, Hicchan!"
+# mi "Perfect~! Yay~! Okay~! Thanks, Hicchan!"
+mi "เพอร์เฟกต์~! เย้~! โอเค~! ขอบใจนะฮิจัง!"
 
 hide misha
 hide shizu
 with charaexit
 
-"They walk outside even though there are only ten minutes left before the bell will ring, signaling the start of class."
-
+# "They walk outside even though there are only ten minutes left before the bell will ring, signaling the start of class."
+"พวกเธอเดินออกห้องไปถึงแม้จะเหลือเวลาแค่สิบนาทีก่อนที่ระฆังเตือนเพื่อบอกเวลาเริ่มเรียนจะดัง"
 
 
 label th_A21b:
 
-hi "Hey, I'm the new guy, remember?"
+# hi "Hey, I'm the new guy, remember?"
+hi "นี่ ฉันเป็นเด็กใหม่นะ"
 
-hi "It's not like I could've done much, even if I wanted."
+# hi "It's not like I could've done much, even if I wanted."
+hi "ใช่ว่าฉันจะทำอะไรได้มากซะหน่อย ต่อให้อยากทำก็เถอะ"
 
 show lilly cane_displeased
 with charachange
 
-li "That's right, you shouldn't expect a transfer student to jump right into it on his first week."
+# li "That's right, you shouldn't expect a transfer student to jump right into it on his first week."
+li "ใช่ ๆ เธอไม่ควรจะคาดหวังให้นักเรียนที่เพิ่งย้ายมาใหม่มาทำอะไรแบบนี้ตอนสัปดาห์แรกของเขาหรอกนะ"
 
-"Lilly taking my side feels oddly comforting so I decide to back her up too."
+# "Lilly taking my side feels oddly comforting so I decide to back her up too."
+"การที่ลิลลี่เข้าข้างฉันทำให้ฉันรู้สึกสบายใจขึ้นมาหน่อย ฉันเลยว่าจะช่วยเธอด้วย"
 
-hi "Yeah you're being unreasonable with us both."
+# hi "Yeah you're being unreasonable with us both."
+hi "ใช่ เธอน่ะทำตัวไร้เหตุผลกับพวกเราทั้งคู่อยู่นะ"
 
 show shizu behind_frustrated
 with charachange
@@ -1647,20 +1681,26 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Excuses, excuses. Miss Class Rep has had plenty of time to deal with her report."
+# mi "Excuses, excuses. Miss Class Rep has had plenty of time to deal with her report."
+mi "ข้ออ้าง ข้ออ้างทั้งนั้น คุณหัวหน้ามีเวลาตั้งเยอะเพื่อจัดการรายงานของเธอนั่น"
 
-mi "And we repeatedly offered you a position to help with the student council work, but you refused to commit yourself to making the festival a success."
+# mi "And we repeatedly offered you a position to help with the student council work, but you refused to commit yourself to making the festival a success."
+mi "แล้วพวกเราเองก็เสนอให้นายเข้ามาช่วยงานสภานักเรียนแล้ว แต่นายก็ปฏิเสธที่จะช่วยทุ่มเทอย่างเต็มที่เพื่อให้เทศกาล\nประสบความสำเร็จ"
 
-hi "Yeah, but as I said back then, I'm not sure if…"
+# hi "Yeah, but as I said back then, I'm not sure if…"
+hi "ก็ใช่ แต่ก็บอกไปแล้วว่าไม่แน่ว่าจะ…"
 
-"I don't have time for this right now; no matter what I do, it will mean being drawn into a confrontation with Shizune, and that is what she wants."
+# "I don't have time for this right now; no matter what I do, it will mean being drawn into a confrontation with Shizune, and that is what she wants."
+"ฉันไม่มีเวลาสำหรับเรื่องนี้ในตอนนี้ ไม่ว่าจะพูดอะไรฉันก็ต้องเผชิญหน้ากับชิซูเนะอยู่ดี ซึ่0นั่นงเป็นสิ่งที่เธอต้องการ"
 
-hi "Whatever. Forget it."
+# hi "Whatever. Forget it."
+hi "เอาเหอะ ช่างมันเถอะ"
 
 
 label th_A21c:
 
-"I turn my back at them."
+# "I turn my back at them."
+"ฉันหันหลังให้พวกนั้น"
 
 hide shizu
 hide misha
@@ -1670,26 +1710,34 @@ show lilly cane_displeased at center
 show bg school_scienceroom at bgright
 with charamove
 
-hi "Lilly, class is going to be starting soon, so we can talk more later. I'll tell Hanako you were looking for her."
+# hi "Lilly, class is going to be starting soon, so we can talk more later. I'll tell Hanako you were looking for her."
+hi "ลิลลี่ ใกล้ได้เวลาเข้าเรียนแล้ว เดี๋ยวค่อยมาคุยที่หลังแล้วกัน เดี๋ยวฉันบอกฮานาโกะให้ว่าเธอมาหา"
 
-"I can feel Shizune freezing. Maybe this is the first time she has ever been ignored in such a blunt manner."
+# "I can feel Shizune freezing. Maybe this is the first time she has ever been ignored in such a blunt manner."
+"ฉันรู้สึกได้ว่าชิซูเนะกำลังอึ้งไปอยู่ นี่คงเป็นครั้งแรกที่มีคนเมินเธอตรง ๆ แบบนี้"
 
 show lilly cane_smile
 with charachange
 
-li "Thank you, Hisao. I'll leave now, then."
+# li "Thank you, Hisao. I'll leave now, then."
+li "ขอบคุณนะฮิซาโอะ งั้นฉันขอตัวกลับก่อนละกัน"
 
-"She gives me the sweetest smile I've seen all week, and turns on her heels to make her exit."
+# "She gives me the sweetest smile I've seen all week, and turns on her heels to make her exit."
+"เธอส่งยิ้มที่หวานที่สุดที่ฉันเคยเห็นในสัปดาห์นี้ให้ฉัน แล้วหันหลังเดินออกไป"
 
 hide lilly
 with charaexit
 
-"As soon as Lilly walks out the door, I suddenly start feeling reluctant about turning to face Shizune."
+# "As soon as Lilly walks out the door, I suddenly start feeling reluctant about turning to face Shizune."
+"ทันทีที่ลิลลี่เดินออกจากประตูไป ฉันก็เริ่มลังเลที่จะหันหน้าหาชิซูเนะ"
 
-"I can feel her eyes burning into my back, and can't bring myself to look at her. She must be furious. I keep expecting Misha to say something to alleviate the tension, but it really is wanting too much."
+# "I can feel her eyes burning into my back, and can't bring myself to look at her. She must be furious. I keep expecting Misha to say something to alleviate the tension, but it really is wanting too much."
+"ฉันสัมผัสได้ถึงสายตาพิฆาตของชิซูเนะที่หลังฉันและไม่กล้าหันกลับไปมองเธอ เธอคงจะเดือดมากแน่ ๆ ฉันหวังว่ามิช่าจะพูด\nอะไรบางอย่างเพื่อลดทอนความตึงเครียดนี้ แต่เหมือนฉันจะขอมากไป"
 
-"In the end, I go back to my seat and listen to the sound of Shizune's footsteps as she marches out of the room. She doesn't return until a few minutes before class."
+# "In the end, I go back to my seat and listen to the sound of Shizune's footsteps as she marches out of the room. She doesn't return until a few minutes before class."
+"สุดท้ายฉันก็กลับไปนั่งที่ของฉันและได้ยินเสียงกระทืบเท้าของชิซูเนะเดินออกไปจากห้อง เธอไม่กลับมาจนกระทั่งไม่กี่นาทีก่อน\nเข้าคาบ"
 
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 
 label th_A21d:
@@ -1699,15 +1747,20 @@ hide misha
 hide lilly
 with charaexit
 
-"I turn my back at them."
+# "I turn my back at them."
+"ฉันหันหลังให้พวกนั้น"
 
-"I get back to my seat and shut my ears from the finale of the argument between Lilly and Shizune."
+# "I get back to my seat and shut my ears from the finale of the argument between Lilly and Shizune."
+"ฉันกลับมานั่งที่แล้วไม่รับฟังอะไรอีกจากการเถียงกันของสองคนนั้น"
 
-"Eventually, Lilly leaves our classroom and Shizune and Misha seat themselves, without talking to me."
+# "Eventually, Lilly leaves our classroom and Shizune and Misha seat themselves, without talking to me."
+"ท้ายที่สุด ลิลลี่ก็ออกไปจากห้องเรียนของเราและชิซูเนะกับมิช่าก็เข้ามานั่งที่โดยไม่ได้คุยกับฉัน"
 
-"I can feel Shizune's eyes burning into my back. She is probably angry at me, but I'm just as angry with her."
+# "I can feel Shizune's eyes burning into my back. She is probably angry at me, but I'm just as angry with her."
+"ฉันสัมผัสได้ถึงสายตาพิฆาตของชิซูเนะที่หลังฉัน เธอคงจะโกรธฉัน แต่ฉันเองก็โกรธเธอพอ ๆ กัน"
 
-"I don't get why she had to drag me into the argument."
+# "I don't get why she had to drag me into the argument."
+"ไม่เข้าใจเลยว่าทำไมต้องลากฉันเข้าไปเกี่ยวด้วย"
 
 
 
