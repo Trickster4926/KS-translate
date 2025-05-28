@@ -8,7 +8,7 @@
 
     thfont = "font/LayijiMahaniyomV1_61ot.otf"
     thmedfont = "font/THSarabunNew.ttf"
-    thnamefont = "font/2005_iannnnnMTV.otf"
+    thnamefont = "font/BoonJot-Regular.otf"
     
     def thw(string):
         return "{font=" + thfont + "}" + string + "{/font} "
