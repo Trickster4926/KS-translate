@@ -5,18 +5,19 @@
     ### THAI
 
     init_language("th")
-    # thfont = "THSarabunNew.ttf"
-    # thfont = "BoonJot-Regular.otf"
-    # thfont = "WR Tish Kid.ttf"
-    # thfont = "4805_KwangMD_Melt.ttf"
+
     thfont = "font/LayijiMahaniyomV1_61ot.otf"
     thmedfont = "font/THSarabunNew.ttf"
+    thnamefont = "font/2005_iannnnnMTV.otf"
     
     def thw(string):
         return "{font=" + thfont + "}" + string + "{/font} "
     
     def thmed(string):
         return "{font=" + thmedfont + "}" + string + "{/font} "
+
+    def thname(string):
+        return "{font=" + thnamefont + "}{plain}" + string + "{/plain}{/font}"
 
     displayDict["th"].styleoverrides = {"font": thfont,
                                         "language": "eastasian",
