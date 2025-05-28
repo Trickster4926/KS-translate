@@ -308,7 +308,7 @@ with charachange
 
 ha "มะ… ไม่เป็นไร"
 
-ha "ฉะ… ฉันผิดเอง"
+ha "ฉะ... ฉันผิดเอง"
 
 hi "ไม่อะ ไม่ใช่ “ความผิด” ใครหรอก มันบังเอิญเป็นแบบนั้นเฉย ๆ "
 
@@ -762,7 +762,7 @@ with charamove
 show misha hips_grin
 with charachange
 
-mi "คุณอิบาราซากิ ฉันเห็นนะ กฎเขาบอกว่าห้ามวิ่งในโถงทางเดินเป็นอันขาด"
+mi "คุณอิบาราซากิ ฉันเห็นนะคะ กฎเขาบอกว่าห้ามวิ่งในโถงทางเดินเป็นอันขาด"
 
 "มิช่าแปลอยู่ไม่ห่างชิซูเนะ แต่เสียงของเธอดูขี้เล่นแบบสาวน้อย ไม่ใช่อารมณ์สวรรค์พิโรธอย่างที่เห็นเธอทำภาษามือ"
 
@@ -779,7 +779,7 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "ฉันบอกเธอไปเป็นพันครั้งแล้วนะว่าความสะเพร่าของเธอจะทำให้คนอื่นเดือดร้อน แล้วที่แย่กว่านั้นคือมันผิดกฎโรงเรียน"
+mi "ฉันบอกคุณไปเป็นพันครั้งแล้วนะคะว่าความสะเพร่าของคุณทำให้คนอื่นเดือดร้อน แล้วที่แย่กว่านั้นคือมันผิดกฎโรงเรียนค่ะ"
 
 show emi sad_depressed_gym
 with charachange
@@ -798,7 +798,7 @@ shi "…"
 show misha cross_smile
 with charachange
 
-mi "อย่าทำอีกแล้วกัน… แต่รู้อยู่ว่าบอกไปก็คงไม่ดีขึ้นหรอก แล้วฉันก็จะต้องปวดหัวอีกถ้าเธอทำผิดกฎซ้ำ"
+mi "อย่าทำอีกแล้วกันค่ะ… แต่รู้อยู่ว่าบอกไปก็คงไม่ดีขึ้นหรอก แล้วฉันก็จะต้องปวดหัวอีกถ้าคูทำผิดกฎซ้ำ"
 
 show misha cross_grin
 with charachange
@@ -2673,7 +2673,7 @@ with locationchange
 show rin basic_lucid
 with locationchange
 
-rin "ฉันว่าไม่น่าใช่ที่หัวนาย แล้วถ้าเป็นที่ท้องก็คงปกติจนน่าเบื่อตายชัก เหมือนข้าวเที่ยงวันนี้ของฉัน แต่อร่อยน้อยกว่า"
+rin "ฉันว่าไม่น่าใช่ที่หัวนาย แล้วถ้าเป็นที่อวัยวะภายในก็คงธรรมดาเกินไป เหมือนข้าวเที่ยงวันนี้ของฉัน แต่อร่อยน้อยกว่า"
 
 show rin basic_deadpandelight
 with charachange
@@ -2890,46 +2890,46 @@ show shizu behind_blank
 show misha hips_grin_close
 with hpunch
 
-mi "What did she hear?"
+mi "ได้ยินอะไรอะ"
 
 play music music_comedy
 
-"I jump at the sudden appearance of Misha, who I had not heard approaching despite the completely empty hallway."
+"ฉันสะดุ้งที่อยู่ ๆ มิช่าก็โผล่มาเพราะไม่ได้ยินเสียงใครเดินมาทั้งที่โถงถางเดินก็ไม่มีใคร"
 
-"Somehow she had gotten to jumping distance of me without making a sound. Creepy. It briefly reminds me of Kenji's nutty theory about a global feminist conspiracy, but I push that thought aside."
+"มิช่าเข้ามาในระยะที่พอให้ฉันตกใจได้โดยไม่มีการให้สุ้มให้เสียง น่ากลัวแฮะ อยู่ ๆ ก็นึกถึงทฤษฎีบ้า ๆ ของเคนจิเรื่องสตรีนิยม\nครองโลก แต่ฉันก็ปัดความคิดนั้นทิ้งทันที"
 
 show misha hips_grin_close at twoleft
 show shizu behind_blank at tworight
 with charamove
 
-"Shizune, standing slightly behind Misha, looks aloof as she couldn't have heard the remark that drew Misha's attention, but Misha is visibly excited."
+"ชิซูเนะที่ยืนอยู่ไม่ห่างจากมิช่าดูยังไม่รู้เรื่องเพราะไม่ได้ยินเสียงที่ดึงความสนใจมิช่าไป แต่มิช่าดูตื่นเต้นอย่างเห็นได้ชัด"
 
 show misha perky_confused_close
 with charachange
 
-mi "No wait, more importantly, who is in there? There's no club meetings today."
+mi "ไม่สิ เดี๋ยว แล้วนี่ใครอยู่ในนั้นน่ะ วันนี้ไม่มีประชุมชมรมนะ"
 
-"She tries to curiously peek past me, even though the door prevents her from seeing anyway."
+"เธอชะเง้อชะแง้มองผ่านฉันไป ถึงประตูจะปิดอยู่ก็เถอะ"
 
-hi "What are you doing here?"
+hi "แล้วเธอมาทำไม"
 
-mi "You took so long that we had to come check what's wrong. That's no good, Hicchan~."
+mi "ก็เห็นไปนานเลยมาดูไงว่ามีอะไรหรือเปล่า ใช้ไม่ได้เลยนะฮิจัง~"
 
 show misha hips_frown_close
 with charachange
 
-"She wags her finger at me scoldingly."
+"เธอส่ายนิ้วไปมาเป็นเชิงต่อว่า"
 
-mi "I found plywood, but everything else is still missing because you are tardy."
+mi "ฉันได้ไม้อัดแล้ว แต่ยังไม่มีอย่างอื่นเพราะนายช้านี่แหละ"
 
-hi "Oh, sorry. Err… I got the things here, was just going to bring them."
+hi "อ้อ โทษที เอ่อ…ก็ได้ของมาแล้ว กำลังจะเอาไปเนี่ย"
 
 show misha cross_frown_close
 with charachange
 
-mi "I think you were up to some mischief, Hicchan~! Who was in there with you, I wonder…"
+mi "นึกว่านายคิดจะทำอะไรไม่ดีเสียอีกฮิจัง~! นายอยู่กับใครในนั้นกันนะ…"
 
-"Misha signs something quickly to Shizune, pointing at her own ear a couple of times."
+"เธอทำภาษามือบางอย่างอย่างรวดเร็วให้ชิซูเนะโดยชี้ไปที่หูตัวเองสองครั้ง"
 
 show shizu basic_angry
 with charachange
@@ -2939,40 +2939,40 @@ with charamove
 
 play sound sfx_dooropen
 
-"Shizune immediately pushes her way past me and opens the door into the classroom I just left."
+"ชิซูเนะผลักตัวฉันออกแล้วเปิดประตูเข้าห้องเรียนที่ฉันเพิ่งออกมา"
 
-"I can only imagine the shock she is experiencing."
+"พอจะนึกภาพออกว่าคงตะลึงขนาดไหน"
 
-"With Shizune's diligence and attitude, the insolence of daring to deface school property by sleeping on top of it must be too much to bear."
+"คนที่มุ่งมั่นทุ่มเทอย่างชิซูเนะ ความกล้าดีที่ทำให้สมบัติของโรงเรียนต้องแปดเปื้อนด้วยการหลับอยู่บนโต๊ะนั้นคงมาก\nเกินเธอรับได้"
 
 show shizu basic_frown
 with charachange
 
-"And indeed, she stares at Rin, frozen in place apart from the slight but noticeable trembling of her shoulders, from suppressed rage I'm sure."
+"และก็ใช่จริง ๆ เธอยืนตัวค้างจ้องริน ไหล่เธอสั่นเล็กน้อยพอสังเกตได้ คงกลั้นความโกรธไว้อยู่แน่ ๆ "
 
-"Instead of blowing up, Shizune just takes a few deep breaths, adjusts her glasses and slams the door shut, turning to sign furiously at Misha."
+"แต่เธอไม่ได้ปรี๊ดแตก เพียงสูดหายใจลึก ๆ สองสามครั้งพลางดันแว่นแล้วปิดประตู ทำภาษามือให้มิช่าด้วยความโมโห"
 
 play sound sfx_doorslam
 
 show shizu cross_angry
 with vpunch
 
-"Maybe she did blow up but I can't understand it."
+"หรืออาจจะปรี๊ดแตกแหละแต่แค่ฉันไม่เข้าใจ"
 
 show shizu behind_frown
 with charachange
 
-"She shoots a very loaded stare at me too, as if it was somehow my fault that Rin is sleeping on one of the tables."
+"เธอมองขวับมาทางฉันด้วย ราวกับจะบอกว่าฉันผิดที่รินหลับอยู่บนโต๊ะ"
 
-"I hope she's not getting any funny ideas about the reason of my tardiness."
+"หวังว่าเธอคงไม่คิดอะไรแปลก ๆ ที่ฉันช้านะ"
 
-rin "Hello."
+rin "สวัสดี"
 
-"Rin's voice comes from the other side of the door and it takes a few eyeblinks to realize she might have trouble opening it."
+"เสียงรินอยู่อีกฟากประตู ฉันกะพริบตาปริบ ๆ อยู่สองสามทีถึงนึกได้ว่าเธอคงเปิดไม่ได้"
 
 play sound sfx_dooropen
 
-"I open the door to find Rin directly behind it, looking at us with a half-interested, half-sleepy face."
+"พอเปิดประตูมาก็เห็นรินทันที มองมาด้วยสีหน้าดูกึ่งมองกึ่งหลับ"
 
 show rin relaxed_sleepy at offscreenright
 with None
@@ -2984,7 +2984,7 @@ show shizu basic_frown at Transform(xanchor=0.5, xpos=0.55)
 show rin relaxed_sleepy at right
 with charamove
 
-rin "Hello."
+rin "สวัสดี"
 
 show shizu basic_frown
 with charachange
@@ -2994,28 +2994,28 @@ shi "…"
 show misha cross_frown
 with charadistant
 
-mi "Miss Tezuka, what do you think you were doing? You absolutely are not permitted to use school property for such… err, disgraceful? activity!"
+mi "คุณเทซูกะ คุณทำอะไรลงไปคะ สมบัติของโรงเรียนห้ามเอามาใช้ในทางที่…เอ่อ เสื่อมเสีย? สิ!"
 
 show rin negative_confused
 with charachange
 
-rin "It sure is suddenly very crowded in here. I didn't know I was this popular."
+rin "อยู่ ๆ คนก็เยอะจัง ไม่ยักรู้ว่าฉันดังขนาดนี้"
 
-"It's hard to say whether she's happy or unhappy about this turn of events."
+"ดูไม่ออกเลยว่าเธอโอเคหรือไม่โอเคที่เรื่องเป็นแบบนี้"
 
-"At any rate she ignores Shizune/Misha's scolding so they have no choice but to drop the issue."
+"แต่เรื่องของเรื่องก็คือเธอไม่ได้สนใจที่ชิซูเนะหรือมิช่าต่อว่าอย่างนั้น ทั้งสองคนก็ได้แต่จำใจไม่ว่าอะไรอีก"
 
 show shizu behind_frown
 with charachange
 
-"Shizune taps Misha's shoulder, points at Rin and makes some quick signs."
+"ชิซูเนะแตะไหล่มิช่าแล้วชี้ไปที่รินและทำภาษามือบางอย่างเร็ว ๆ "
 
 shi "…"
 
 show misha sign_smile
 with charachange
 
-mi "Popularity aside, please don't do that any more."
+mi "ดังไม่ดังช่างก่อน แต่อย่าทำแบบนั้นอีกนะคะ"
 
 show shizu basic_angry
 with charachange
@@ -3025,28 +3025,28 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Anyway, how is your project going? Will it be done for the festival?"
+mi "จะว่าไป งานถึงไหนแล้วคะ จะเสร็จทันงานเทศกาลมั้ย"
 
 show rin basic_awayabsent
 with charachange
 
-"Rin looks at them blankly, apparently at ease under the pressure Shizune's cold stare is putting on her."
+"รินมองด้วยสายตาว่างเปล่า ดูจะไม่กดดันกับสายตาอันเย็นเยียบของชิซูเนะที่จ้องมองอยู่"
 
-rin "I keep wondering about that myself too."
+rin "ฉันเองก็อยากรู้เหมือนกันแหละ"
 
 show shizu behind_frustrated
 with charachange
 
 shi "…"
 
-mi "And…?"
+mi "แล้ว…?"
 
 show rin relaxed_boredom
 with charachange
 
-rin "Will think about it harder."
+rin "จะคิดให้จริงจังขึ้น"
 
-"As Misha signs her reply to Shizune her face turns into an unsatisfied frown."
+"เมื่อมิช่าแปลคำตอบนั้นให้ชิซูเนะฟัง เธอก็ขมวดคิ้วด้วยความไม่พอใจ"
 
 show shizu basic_frown
 with charachange
@@ -3056,104 +3056,104 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Miss Tezuka, please try to take this seriously. It'll be a disaster if the wall looks like someone threw up their lunch onto it."
+mi "คุณเทซูกะ ได้โปรดจริงจังกับเรื่องนี้ด้วยค่ะ ถ้ากำแพงสภาพออกมาเหมือนมีคนไปขย้อนข้าวเที่ยงทิ้งไว้คงหายนะแน่ค่ะ"
 
 show rin basic_absent
 with charachange
 
-"Rin nods assertively."
+"เธอพยักหน้ายืนยัน"
 
-rin "Will think more seriously."
+rin "จะคิดให้จริงจังขึ้น"
 
 show misha cross_grin
 with charachange
 
-"Misha actually giggles at that, but Shizune doesn't, not even after translation."
+"มิช่าหัวเราะคิกคัก แต่ชิซูเนะไม่ขำด้วยแม้มิช่าจะแปลให้แล้ว"
 
 hide shizu
 hide misha
 with charaexit
 
-"She just shakes her head, takes the materials from me and takes off with Misha in tow."
+"เธอเพียงส่ายหน้าแล้วขนของที่ฉันเอามาเดินตามมิช่าไป"
 
 show rin basic_deadpanupset
 with charachange
 
-"Rin frowns thoughtfully as she looks after the retreating student council duo."
+"รินขมวดคิ้วครุ่นคิดพลางมองไล่หลังคู่สมาชิกสภานักเรียนที่เดินจากไป"
 
-rin "How rude."
+rin "หยาบคายจัง"
 
-rin "It's true though, I must finish my project before the weekend. There will be dire consequences if I don't."
+rin "แต่ก็จริง ฉันต้องทำงานให้เสร็จก่อนสุดสัปดาห์ ถ้าไม่ทันก็จะมีผลอันเลวร้ายตามมา"
 
-rin "The end of the world as we know it.{w} Like weekends usually are, but more dire."
+rin "หรือที่ว่าเหมือนโลกแตกน่ะแหละ{w} เลวร้ายเหมือนสุดสัปดาห์ แต่เลวร้ายกว่านั้นอีก"
 
-rin "Much more dire."
+rin "เลวร้ายกว่ามาก ๆ "
 
 show rin relaxed_nonchalant
 with charachange
 
-rin "Maybe I'll postpone my nap. To unforeseen future."
+rin "คงต้องเลื่อนการงีบไปก่อนแล้ว ไปยังอนาคตอันไกล"
 
 hide rin
 with charamoveoutright
 
 stop music fadeout 6.0
 
-"I am about to ask what project she has and what are these apocalyptic consequences, but she walks back into the art classroom."
+"ขณะที่กำลังจะถามว่างานกับผลตามมาที่เหมือนโลกแตกนี้คืออะไรเธอก็เดินกลับเข้าห้องเรียนศิลปะไป"
 
-rin "Since you have nothing to do, would you give me a hand?"
+rin "ไหน ๆ นายก็ไม่มีอะไรทำ มาช่วยกันคนละไม้คนละมือหน่อยสิ"
 
 scene bg school_classroomart
 show rin basic_absent at center
 with locationchange
 
-rin "This paint can doesn't fit into my bag but I need it."
+rin "สีนี้ฉันเอาใส่ถุงไปไม่ได้ แต่ฉันต้องใช้"
 
-"She kicks lightly at a huge can of paint that's lying on the floor next to the table she was sitting and sleeping on."
+"เธอเตะเบา ๆ ที่ถังสีใหญ่ที่นอนแอ้งแม้งอยู่บนพื้นข้างโต๊ะที่เธอใช้นั่งกับหลับอยู่"
 
-"It lets out a dull clang."
+"ทำให้เกิดเสียงก้องทึบ ๆ ออกมา"
 
-"Being the gentleman I am, I naturally pick it up."
+"ด้วยความที่ฉันเป็นสุภาพบุรุษ จึงถือมันขึ้นมา"
 
-"Heavy."
+"หนัก"
 
-hi "Yeah, sure. Where do you need to take it?"
+hi "อะ ได้ แล้วจะให้เอาไปไว้ไหน"
 
 show rin basic_awayabsent
 with charachange
 
-rin "Away."
+rin "โน่น"
 
 hide rin
 with charaexit
 
-"And with that, she takes off to the hallway, me and the paint can following since there's little choice for either of us."
+"แล้วเธอก็เดินออกมาที่โถงทางเดิน ทั้งฉันและถังสีไม่มีทางเลือกมากนักจึงตามเธอไป"
 
 scene bg school_hallway3
 with locationchange
 
-"The hallway is quiet and empty now with Shizune and Misha gone, so we too leave towards the stairwell at the other end."
+"พอไม่มีชิซูเนะและมิช่าแล้วโถงทางเดินก็เงียบ พวกเราเดินลงบันไดไปอีกฟากหนึ่ง"
 
 scene bg school_staircase2
 with locationchange
 
-"Every ten or fifteen or twenty steps I have to change the can from one hand to another because the thin handle cuts into my palm. At least it keeps my arms from tiring too fast."
+"ทุก ๆ สิบหรือสิบห้าก้าวฉันต้องสลับมือที่ถือถังสีจากข้างหนึ่งไปอีกข้างหนึ่งเพราะหูจับที่บางกดฝ่ามือจนเจ็บ จะได้ช่วย\nหารแรงถือด้วย"
 
-"Rin strolls on beside me with an uneven pace that I have trouble matching, or maybe I am walking weird because of the extra weight."
+"รินเดินอยู่ข้าง ๆ ด้วยความเร็วที่ไม่สม่ำเสมอจนฉันเดินตามลำบาก หรือไม่ก็เป็นที่ฉันเดินแปลก ๆ เพราะถือของหนัก"
 
-"It seems one of us is constantly walking too slow or too fast, and I can't figure out which."
+"ไม่ฉันก็เธอสักคนที่เดินช้าหรือเร็วไป ซึ่งฉันก็ไม่รู้ว่าเป็นอย่างไหน"
 
 scene bg school_lobby at bgright
 with locationchange
 
-"Two flights of stairs below, trouble appears in the form of the head nurse and his fox-like grin."
+"เมื่อเดินลงมาได้สองชั้นก็เจออุปสรรคที่เรียกว่าหัวหน้าทีมพยาบาลที่ยิ้มเจ้าเล่ห์อยู่"
 
 show nurse grin  at center
 with charaenter
 
 play music music_nurse fadein 0.5
 
-nk "Ah, Mr. Nakai, what a happy coincidence! Tezuka too, of course."
+nk "โอ้ คุณนากาอิ ช่างบังเอิญเสียจริง! เทซูกะก็อยู่ด้วย"
 
 show nurse grin at twoleft
 show bg school_lobby at center
@@ -3162,53 +3162,53 @@ with charamove
 show rin basic_awayabsent at tworight
 with charaenter
 
-"He nods courteously to Rin who does not acknowledge him back, then turns to me because obviously it's me who he had some business with."
+"เขาพยักหน้าเป็นมารยาทให้รินที่ไม่ได้ตอบกลับอะไร แล้วหันมาทางฉัน แหงละ คงมีธุระกับฉันนั่นแหละ"
 
 show nurse concern
 with charachange
 
-nk "There is something I forgot to mention on Monday."
+nk "ตอนคุยกันวันจันทร์ฉันลืมบอกไปอย่าง"
 
-"I nod and wait impassively because I can't even begin to guess what he forgot. The feeling of the handle delving deeper into my skin doesn't make me feel enthusiastic about this interruption, either."
+"ฉันพยักหน้าแล้วรออยู่เฉย ๆ เพราะไม่รู้เรื่องเลยว่าเขาลืมอะไร น้ำหนักของถังสีที่กดเข้ามาที่มือก็ยิ่งทำให้ไม่มีอารมณ์\nจะให้ยินดีที่เขามาขัด"
 
-nk "It's about your medications. Since you haven't been that long on your current medications there might be some unexpected side effects, which might require adjusting dosages or even changing to another kind of medication."
+nk "เรื่องยาน่ะ เพราะเธอเพิ่งใช้ยาที่หมอสั่งมาได้ไม่นานก็เลยอาจจะมีผลข้างเคียงที่ไม่คาดคิด แล้วอาจจะได้ปรับปริมาณ\nการใช้ยาหรือไม่ก็ต้องเปลี่ยนตัวยาเลย"
 
 show nurse neutral
 with charachange
 
-nk "So we will do a few tests regularly, but what I'd want is for you to keep an eye on everything in your condition that feels off, if you get what I mean."
+nk "ก็เลยต้องคอยตามดูนิด ๆ หน่อย ๆ เป็นระยะ ๆ แต่ที่จะขอก็คือให้เธอคอยสังเกตอาการว่ามีอะไรผิดปกติหรือเปล่า\nพอจะเข้าใจใช่มั้ย"
 
-nk "Nausea, headache, anything. And come see me if something happens."
+nk "คลื่นไส้ ปวดหัว อะไรก็ช่าง ถ้ามีอะไรก็มาหาฉันนะ"
 
 show rin basic_absent
 with charachange
 
-hi "All right."
+hi "ครับ"
 
 show nurse fabulous
 show rin basic_awayabsent
 with charachange
 
-nk "So how are you? Everything fine?"
+nk "แล้วเป็นไงบ้าง ทุกอย่างราบรื่นดีนะ?"
 
-"I give up and drop the can to the floor before answering him. Apparently this takes longer than my biceps can handle."
+"สุดท้ายฉันก็ยอมวางถังสีไว้ก่อนแล้วตอบไป ดูท่าจะนานเกินกล้ามเนื้อแขนรับไหว"
 
-"I'm about to say something generic as an answer, but then I realize how often I've done that lately."
+"พอกำลังจะตอบอะไรส่ง ๆ กลับไป ก็ถึงรู้ตัวว่าช่วงนี้ก็ทำอย่างนั้นมาหลายครั้งแล้ว"
 
-"Other people have asked me that too. Teachers and students here. My parents, visitors, nurses, doctors at the hospital."
+"คนอื่นก็ถามฉันแบบนี้เหมือนกัน ทั้งคุณครู ทั้งนักเรียนที่นี่ พ่อแม่ คนที่มาเยี่ยม พยาบาล หมอที่โรงพยาบาล"
 
-"Everyone seems to be concerned about that. It's natural for a hospital, not so much for a school.{w} Except this school."
+"ทุกคนดูจะเป็นกังวลเรื่องนั้น ถ้าอยู่ที่โรงพยาบาลก็ไม่แปลก แต่ที่โรงเรียนก็ยังไงอยู่{w} ยกเว้นโรงเรียนนี้"
 
-"This is a small school, and both the student base and the faculty seem to be very tightly knit."
+"ที่นี่เป็นโรงเรียนเล็ก ๆ ทั้งครูและบุคลากรก็ดูจะสัมพันธ์แน่นแฟ้นกันดี"
 
-"At least that's the feeling I'm getting."
+"อย่างน้อยฉันก็สัมผัสได้ว่าคงประมาณนั้น"
 
-"And this is not the kind of school that gets transfer students too often."
+"และโรงเรียนแบบนี้ใช่ว่าจะมีนักเรียนย้ายเข้ามาบ่อย ๆ "
 
 show rin basic_absent
 with charachange
 
-"The thought sends shivers up my spine, but I give a generic answer, anyway."
+"แค่คิดก็ทำเสียวสันหลังวาบ แต่ก็ตอบส่ง ๆ ไปอยู่ดี"
 
 "…"
 
@@ -3216,43 +3216,43 @@ show nurse grin
 show rin basic_awayabsent
 with charachange
 
-nk "That's great. Also, one other thing."
+nk "ก็ดีแล้ว แล้วก็ อีกอย่าง"
 
 show nurse fabulous
 with charachange
 
-nk "My sources tell me that you've been at neither the school track nor even the pool, so I'd like to know if you have taken up exercising as I asked."
+nk "แหล่งข่าวฉันบอกมาว่านายไม่ได้ไปที่ลู่วิ่งโรงเรียนหรือแม้แต่สระว่ายน้ำเลย ฉันเลยอยากรู้ว่าเธอได้ออกกำลังกายตามที่\nเคยขอไว้หรือเปล่า"
 
-"Of course I haven't, but his way of inquiring gives me the feeling that I should've been running my ass off on the track since the very first day."
+"แน่นอนว่าไม่ แต่ถามอย่างนี้แล้วเหมือนฉันต้องลากสังขารไปอยู่ที่ลู่วิ่งตั้งแต่วันแรกยังไงยังงั้น"
 
 show rin basic_absent
 with charachange
 
-hi "You have people spying on me?"
+hi "มีสายสืบด้วยเหรอครับ"
 
 show nurse grin
 show rin basic_awayabsent
 with charachange
 
-nk "Not as such. I just happen to know a few people. But that's not the issue here, so don't try to slip out of it."
+nk "ไม่เชิง แค่พอรู้จักคนบ้างน่ะ แต่นั่นไม่ใช่ประเด็น อย่ามาเนียนเปลี่ยนเรื่อง"
 
 show rin basic_absent
 with charachange
 
-hi "Well, I was actually just doing some improvised weight lifting, as an exercise."
+hi "ก็ ผมมายกน้ำหนักสูตรทำเองอันนี้เป็นการออกกำลังกายอยู่ไงครับ"
 
-"I pick up and lift the can up and down a few times like some sad imitation of a bodybuilder, even though it's weighing down on my arms painfully."
+"ฉันยกถังสีขึ้นลงเอาอย่างพวกนักเพาะกายอย่างน่าสมเพช ถึงจะหนักแขนแทบตายก็ตามที"
 
 show nurse neutral
 show rin basic_awayabsent
 with charachange
 
-"The stupid grin disappears from his face for a second, then comes back like it was never gone."
+"รอยยิ้มโง่ ๆ นั้นหายไปจากใบหน้าของเขาชั่ววินาทีหนึ่ง แล้วก็กลับมาเหมือนไม่ได้หายไปไหน"
 
 show nurse grin
 with charachange
 
-nk "Tezuka, would you give us a second?"
+nk "เทซูกะ ขอเวลาพวกเราหน่อยได้มั้ย"
 
 stop music fadeout 1.0
 
@@ -3277,77 +3277,77 @@ hide rin
 
 with characlose
 
-"The nurse grabs me by the shoulder without waiting for Rin's permission which he didn't need in the first place and drags me aside."
+"คุณพยาบาลจับไหล่ฉันแยกมาโดยไม่รอรินตอบตกลง ซึ่งก็ไม่รู้ว่าจะขอทำไม"
 
 show bg school_lobby at bgright
 show nurse concern_close at center
 with characlose
 
-nk "When I told you to exercise I wasn't joking."
+nk "ตอนที่ให้บอกว่าออกกำลังกายน่ะไม่ได้พูดเล่นนะ"
 
-nk "I understand that you are still on your first week and all, but please don't ignore the importance of this."
+nk "รู้อยู่ว่าเธอเพิ่งมาเป็นสัปดาห์แรก แต่อย่าปล่อยปละละเลยกับเรื่องนี้"
 
-nk "The reason I'm coming down this hard on you is that habits are not easy to form."
+nk "ที่ฉันตามจ้ำจี้จ้ำไชเธออย่างนี้เพราะการที่จะทำจนติดเป็นนิสัยน่ะไม่ง่าย"
 
-nk "The more you slip and postpone, the harder it'll be. It's the same with everything, like dieting."
+nk "ยิ่งมัวแต่ผัดวันประกันพรุ่งออกไปก็จะยิ่งขี้เกียจ อะไรอย่างอื่นเช่นพวกอาหารการกินก็เหมือนกัน"
 
 label th_choiceA17:
 menu:
     with menueffect
 
-    nk "Can you promise me to be more serious about this from now on?"
+    nk "สัญญาได้มั้ยว่าเธอจะจริงจังกับเรื่องนี้ให้มากกว่านี้"
 
-    "Yes.":
+    "ได้เลยครับ":
         return m1
 
-    "Maybe.":
+    "ก็ได้แหละครับ…":
         return m2
 
 label th_A17a:
 
-hi "Yeah, I promise. Definitely."
+hi "ครับ ได้เลยครับ สัญญา"
 
 
 
 label th_A17b:
 
-hi "Maybe, no… I mean…"
+hi "ก็ได้แหละครับ… ไม่สิ คือ…"
 
-"He gives me a nasty sort of look when I say that, making me try to take back the word."
+"พอพูดอย่างนั้นแล้วเขาก็ทำหน้ามุ่ยจนฉันต้องรีบแก้ต่าง"
 
-hi "I mean, I don't know… I'm still trying to get used to the school."
+hi "คือ ไม่รู้สิครับ… ผมกำลังปรับตัวกับโรงเรียนนี้อยู่"
 
-hi "I'll promise to try though."
+hi "แต่ผมสัญญาว่าจะพยายามนะครับ"
 
-nk "You're not being very convincing there, Hisao. Tip number one: medical professionals are not amused if you take their advice lightly."
+nk "ฮิซาโอะ ฉันฟังแล้วไม่ค่อยเชื่อเธอเท่าไหร่เลยนะ จะบอกอะไรให้อย่าง บุคลากรทางการแพทย์เขาไม่ปลื้มเวลาแนะนำ\nอะไรไปแล้วคนไม่ค่อยฟัง"
 
-"What's up with him? As if a day or two would make that much of a difference."
+"แล้วนี่เป็นอะไรอีกเนี่ย แค่วันสองวันมันคงไม่ต่างกันขนาดนั้นหรอกมั้ง"
 
-"I didn't do anything at the hospital either."
+"ตอนอยู่โรงพยาบาลฉันก็ไม่ได้ทำอะไรเหมือนกันนี่"
 
-hi "Yeah, okay. Sorry."
+hi "ครับ เข้าใจแล้วครับ ขอโทษครับ"
 
 
 
 label th_A17c:
 
-"He studies me for a moment and then shrugs, smiling again."
+"เขาจ้องฉันอยู่สักพักแล้วยักไหล่พลางยิ้มอีกครั้ง"
 
 play music music_nurse fadein 0.5
 
 show nurse neutral_close
 with charachange
 
-nk "Okay. That's more like it."
+nk "โอเค ต้องงี้สิ"
 
-nk "If you go to the school track tomorrow morning, you'll meet my “spy,” who probably has no qualms offering consultation to you if you want to jog a bit."
+nk "ถ้าพรุ่งนี้เช้าเธอไปที่ลู่วิ่งแล้วจะได้เจอกับ “สายลับ” ของฉัน ถ้าเธออยากวิ่ง เขาก็คงพร้อมให้คำปรึกษาโดยไม่อิดออดเลย"
 
-hi "Consultation?"
+hi "ปรึกษา?"
 
 show nurse fabulous_close
 with charachange
 
-nk "See you around."
+nk "เจอกัน"
 
 stop music fadeout 2.0
 
@@ -3358,45 +3358,44 @@ show bg school_lobby at bgleft
 show rin basic_awayabsent at Alphain(1.0), Slide(0.8,0.5,0.5,0.5,1.0,_ease_time_warp)
 with charamove
 
-"He leaves with a wave of his hand and no answer, and I walk to Rin who has been waiting, idly leaning against the hallway wall and staring at the pale lighting fixtures in the ceiling."
+"เขาโบกมือลาโดยไม่ตอบ ฉันเดินไปหารินที่ยืนพิงผนังโถงทางเดินเหม่อมองจ้องไฟสีตุ่น ๆ บนเพดานรออยู่"
 
-"Even when I approach, she doesn't move her eyes off them."
+"เธอยังไม่ละสายตาไปจากไฟเหล่านั้นแม้ฉันจะเดินเข้าไปหา"
 
-rin "Are you getting medications for your heart thingy?"
+rin "ยาที่ว่าคือเรื่องหัวใจนายเหรอ"
 
-hi "Were you listening?"
+hi "นี่ฟังอยู่เหรอ"
 
-"It comes out more accusatory than I intended, accidentally lashing out on her."
+"ฉันเผลอระบายอารมณ์ใส่เธอจนน้ำเสียงออกมาดูดุกว่าที่ตั้งใจ"
 
-"But even so, I don't really want to start talking about it. I just met her, I don't know her. It's not her business."
+"แต่ถึงงั้นก็เถอะ ฉันยังไม่อยากคุยตอนนี้ เพิ่งได้เจอกันเอง ยังไม่รู้จักดีเลย ไม่ใช่เรื่องของเธอด้วย"
 
-"The nurse seems to be happily ignorant about confidentiality too, talking about that kind of thing in public."
+"คุณพยาบาลก็ดูจะหน้าชื่นตาบานไม่สนใจเรื่องความลับอะไรเลยแล้วคุยเรื่องอย่างนั้นในที่สาธารณะ"
 
-"But it's not Rin's fault, is it?"
+"แต่ก็ไม่ใช่ความผิดของรินหรือเปล่า"
 
-"I look up at her, suddenly feeling a bit guilty, but Rin is just staring past my shoulder quizzically, her head tilted like a bird's."
+"ฉันจ้องเธอด้วยความรู้สึกผิดเล็กน้อย แต่รินก็มองผ่านฉันไปแบบงง ๆ พลางเอียงหัวเหมือนนก"
 
-"Sigh."
+"เฮ้อ"
 
-"I don't know why this is so hard for me. It feels like there is some inexplicable lock that prevents me from being more upfront about this."
+"ไม่รู้ทำไมมันถึงได้ยากเย็นอย่างนี้ เหมือนมีกุญแจอะไรล็อกไว้ไม่ให้ยอมเปิดใจเรื่องนี้ให้มากขึ้นอย่างบอกไม่ถูก"
 
-hi "…yeah. They're for my heart."
+hi "…ใช่ ยาหัวใจนั่นแหละ"
 
 show rin basic_absent at center
 with charachange
 
-rin "Will they make you better?"
+rin "กินแล้วจะดีขึ้นเหรอ"
 
-hi "…no, not really."
+hi "…ไม่ ไม่เชิง"
 
-hi "They just make me a little less worse."
+hi "แค่ให้มันแย่น้อยลงหน่อยนึง"
 
-"Rin keeps looking at me for a while longer, and she neither says anything further, nor displays any kind of emotion I could discern."
+"รินจ้องมองฉันนานกว่าเก่าแล้วไม่พูดอะไรอีก และสีหน้าเธอก็ไม่ได้บอกให้ฉันรู้ว่าเธอรู้สึกอย่างไร"
 
-"I'm thankful that she doesn't. I think I'm still not quite used to all this."
+"ซึ่งก็ดีแล้วละ ฉันยังไม่ค่อยชินเท่าไหร่"
 
-"At the hospital it was easy, but I still haven't sorted my feelings about having to live a “normal” life with this disability."
-
+"การใช้ชีวิตอย่าง “ปกติ” กับความพิการนี้ที่โรงพยาบาลน่ะง่าย แต่เอาเข้าจริงแล้วฉันก็ยังไม่ได้จัดการกับความรู้สึก\nของตัวเองกับเรื่องนั้นเลย"
 
 
 #*****************************************
@@ -3408,203 +3407,203 @@ play music music_soothing fadein 4.0
 scene bg school_courtyard
 with locationchange
 
-"We leave the main building, and Rin leads us onwards towards the dorm."
+"พวกเราเดินออกมาจากอาคารหลักแล้วรินก็นำทางไปที่หอพัก"
 
 scene bg school_dormext_start
 with locationchange
 
-"We stop at the small patch of greenery in front of the dorm building."
+"พวกเราหยุดยืนที่ร่มไม้หย่อมหนึ่งที่อยู่ตรงหน้าหอพัก"
 
-"The dorm is built on a slightly elevated ground, with a wall and a few trees that everyone has to circle around every time they come or go. It's probably the only inconvenient design in the school."
+"หอพักสร้างอยู่บนที่ดินที่สูงขึ้นไปอีกเล็กน้อย มีกำแพงและต้นไม้สองสามต้นที่ต้องเดินอ้อมทุกครั้งที่เข้าออก ตรงนี้คงเป็น\nที่เดียวในโรงเรียนที่ออกแบบมาแล้วทำให้รู้สึกชีวิตลำบาก"
 
-"The entire wall, made of the same kind of bricks as the building itself, has been covered with some sort of a painting."
+"ทั้งแผงของกำแพงที่สร้างด้วยอิฐแบบเดียวกับที่ใช้ทำตึกนั้นมีภาพเขียนอยู่"
 
-"Most of it is still mere sketches, quick lines drawn with black and white against the gray plastering that covers almost the entire length of the wall, but some places look a bit more finished."
+"ส่วนใหญ่ยังเป็นแค่เส้นร่างสีขาวดำที่ขีดแบบคร่าว ๆ บนพื้นปลาสเตอร์สีเทาที่ทอดยาวไปตามกำแพง แต่บางแห่งก็ดู\nเป็นรูปเป็นร่างกว่าส่วนอื่น"
 
-"There are human faces and legs and hands, I can't quite say what the painting as a whole might portray."
+"มีหน้าคน ขา แขน แต่ก็ดูไม่ออกว่าทั้งภาพนี้คือภาพอะไรกันแน่"
 
-"Stacks of what seem to be paint cans are arranged in piles on the ground, beside the wall."
+"มีถังสีวางอยู่เป็นกองข้าง ๆ กำแพง"
 
 show rin basic_awayabsent at tworight
 with charachange
 
-rin "See, the left side is hardly off the ground yet."
+rin "ดูสิ ตรงฝั่งซ้ายยังแทบไม่ได้แตะเลย"
 
 show rin basic_deadpannormal
 with charachange
 
-rin "It's because I couldn't get in the mood yesterday so I gave up and went to meditate instead. Then it was suddenly morning."
+rin "พอดีเมื่อวานไม่มีอารมณ์ก็เลยทิ้งไว้แล้วไปทำสมาธิสักหน่อย แล้วอยู่ ๆ ก็เช้าซะงั้น"
 
 show rin negative_spaciness
 with charachange
 
-rin "I have to work on it, but the guys from art class are helping with the negative spaces and base surfaces whenever, which is a problem."
+rin "ฉันต้องทำแล้ว ถ้าคนในชมรมศิลปะคอยมาช่วยเติมที่ว่างหรือรองพื้นให้คงดี ซึ่งนี่แหละปัญหา"
 
-rin "It's easier to paint big areas if there are a lot of people, with hands."
+rin "ถ้าพื้นที่ใหญ่ ๆ ใช้คนเยอะ ๆ ที่มีมือมาช่วยทาสีให้จะง่ายกว่า"
 
 show rin basic_deadpan
 with charachange
 
-rin "The reach is better, and it's faster too."
+rin "ทาที่อยู่ไกล ๆ ก็ได้ แถมเร็วด้วย"
 
-"She goes on a tangent of a tangent, waving a little with her arm, or whatever of it there actually is, to demonstrate even though I got the point already."
+"รินยังคงอ้อมโลกพระจันทร์ไปพลางโบกแขน—หรือไม่ก็สักอย่างที่มีอยู่ตรงนั้น—น้อย ๆ ประกอบการเล่าแม้ฉันจะเข้าใจ\nสิ่งที่เธอพูดแล้ว"
 
-"The white cotton of her sleeve flaps around, and it makes me think it could look sadder than it does."
+"ผ้าฝ้ายสีขาวนั้นโบกสะบัดไปมา พอเห็นแล้วก็รู้สึกเวทนากว่าปกติอีก"
 
-"But it makes me feel out of place, like almost every tangible reminder of the student base's… special properties has in the past few days."
+"แต่ในขณะเดียวกันก็ทำให้ฉันรู้สึกแปลกแยก เหมือนเป็นเครื่องเตือนถึงความ…พิเศษของนักเรียนส่วนใหญ่ที่เจอมาใน\nสองสามวันนี้"
 
-"This girl doesn't notice my dreary feelings of course, or the fact that she lost me a while ago already… and just keeps on blabbering."
+"และแน่นอนว่าเธอคนนี้ก็ไม่ได้เห็นว่าฉันซึมไป หรือไม่ก็เพราะเธอไม่ได้สนใจฉันมาสักพักแล้ว…และพล่ามต่อไป"
 
-rin "…so that's why I'm trying to figure out if there is something I need to figure out and then figure that out before it's too late and all hope is lost."
+rin "…นั่นแหละ ฉันถึงได้นึกอยู่ว่ามีอะไรที่ฉันต้องนึกได้ก่อนจะสายเกินจนสิ้นหวัง"
 
-hi "Why would the hope be lost?"
+hi "แล้วไหงถึงสิ้นหวัง"
 
 show rin basic_awayabsent
 with charachange
 
-rin "Because paint has to be painted and then it has to dry and then it has to be painted over with another kind of paint."
+rin "เพราะต้องใช้สีทาสีแล้วต้องรอให้สีแห้ง แล้วก็ต้องใช้สีอื่นทาสีทับอีก"
 
 show rin basic_absent
 with charachange
 
-rin "It takes time."
+rin "มันนานน่ะ"
 
-"She finally stops, apparently thinking she made some kind of a statement that makes sense."
+"จนในที่สุดเธอก็หยุด เหมือนคิดว่าพูดอะไรที่รู้เรื่องแล้ว"
 
-"I think it's best to start from the top."
+"ถ้าถามตั้งต้นแต่แรกก่อนน่าจะดีสุด"
 
-hi "So, this is your project? You did… this?"
+hi "แล้ว นี่งานเธอเหรอ นี่เธอวาด…ใช่มั้ย"
 
 show rin basic_deadpan
 with charachange
 
-rin "Yes. Yes."
+rin "ใช่ ใช่"
 
-hi "All of it?"
+hi "หมดนี่เลย"
 
-rin "Yes."
+rin "ใช่"
 
-hi "Nice. But…"
+hi "แจ๋วเลย ว่าแต่…"
 
-"I stumble with my words, suddenly feeling like I've walked straight into the mine field of political incorrectness."
+"ฉันนึกหาคำพูด รู้สึกเหมือนพยายามไม่ให้ก้าวพลาดไปเจอกับระเบิดของพวกคำเหยียด"
 
 show rin basic_deadpanamused
 with charachange
 
-rin "It's ok, you can say it. I probably won't get mad."
+rin "ไม่เป็นไรน่า พูดเถอะ ฉันคงไม่โกรธหรอก"
 
-"I blush really hard. I don't really know what would be the right thing to say, if any. It feels that I'm way more sensitive than Rin is, though."
+"ฉันหน้าแดงแจ๋ ฉันไม่รู้ว่าจะมีคำพูดเหมาะสมอะไรที่พอมาใช้ได้หรือเปล่า แต่รู้สึกเหมือนฉันคิดมากกว่าตัวรินเองเสียอีก"
 
-"This is really awkward."
+"กระอักกระอ่วนชะมัด"
 
 show rin basic_deadpansurprised
 with charachange
 
-rin "Don't you want to ask?"
+rin "ไม่อยากถามเหรอ"
 
-hi "…How do you paint without hands?"
+hi "…ไม่มีมือแล้ววาดยังไงน่ะ"
 
 show rin basic_amused
 with charachange
 
-rin "See, I'm an easy person to talk to, right? With my feet."
+rin "เห็นมะ ฉันก็เป็นคนคุยด้วยง่ายออก ใช้เท้าฉันไง"
 
-hi "I almost guessed that already, but isn't that hard to do?"
+hi "ก็พอจะเดาไว้อย่างนั้นอยู่หรอก แต่ไม่ลำบากเหรอ"
 
 show rin basic_delight
 with charachange
 
-rin "You're good at guessing. Anyway, I don't think it is. But maybe I'm used to it by now."
+rin "นายเดาเก่งนี่ แต่ก็ ฉันว่าไม่ลำบากหรอก แต่คงเพราะฉันชินแล้วละมั้ง"
 
-"I can't get my mind around the fact that she could be an artist, but seeing how adept she was using her feet to eat I figure painting might not be a problem either."
+"ฉันยังงง ๆ นิดหน่อยที่เธอเป็นคนวาดภาพ แต่ดูจากความคล่องที่ใช้เท้ากินข้าวนั้นแล้วก็นึกได้ว่าคงวาดภาพได้ไม่มีปัญหา"
 
-"Neither of us has anything more to add to the subject."
+"เราทั้งคู่ไม่มีอะไรจะพูดอีก"
 
 show rin basic_awayabsent
 with charachange
 
-rin "The afternoon light works pretty well. I was afraid it would look too flat but it's not like that after all."
+rin "แสงช่วงบ่ายนี่ดีจังนะ ทีแรกกลัวว่าจะดูเรียบไปหน่อย แต่ไม่ใช่เลยแฮะ"
 
 show rin basic_absent
 with charachange
 
-rin "I think it's actually pretty interesting. I wanted to see what it looks like in dim light. Do you think it's flat?"
+rin "ฉันว่าก็น่าสนใจดีเหมือนกัน ถ้าใช้แสงสลัวจะเป็นยังไงนะ นายว่ามันเรียบมั้ย"
 
-hi "Eeeh well, paintings tend to be flat."
+hi "เอ่อ คือ รูปวาดมันก็เรียบอยู่แล้วนี่"
 
 show rin basic_deadpan
 with charachange
 
-rin "Not like that flat. You know, flat. Like some people are, no substance, no meat where there should be some."
+rin "ไม่ใช่เรียบอย่างนั้น แบบ เรียบอะ เหมือนคนบางคน ไม่มีแก่นสาร ไม่มีเนื้อตรงที่ควรจะมี"
 
-rin "I know a few girls who—{w=.5}{nw}"
+rin "ฉันพอจะรู้จักคนที่—{w=.5}{nw}"
 
-hi "Okay I get it. But I couldn't really tell, I'm not that good with art. I can't name many artists or artistic terms."
+hi "โอเค เข้าใจละ แต่ไม่รู้จริง ๆ ฉันไม่ได้เก่งศิลปะขนาดนั้น ศิลปินก็ไม่ค่อยรู้จัก ไม่รู้จักศัพท์ทางศิลปะด้วย"
 
-hi "So I don't really have anything to say."
+hi "ก็เลยไม่รู้จะตอบยังไงดี"
 
 show rin relaxed_nonchalant
 with charachange
 
-"Rin shrugs her shoulders at that, saying “suit yourself” without saying it and looks up at the sky as if trying to look for something up there."
+"รินยักไหล่ทำท่าทางเป็นเชิงว่า “ตามสบาย” โดยไม่เปิดปากพูดแล้วมองท้องฟ้าคล้ายมองหาบางอย่างที่อยู่บนนั้น"
 
-rin "I didn't think I'd get any actual work done but if you give me a hand with the paints I could do a little before it's too dark."
+rin "ฉันว่าวันนี้งานคงไม่เดินเท่าไหร่ แต่ถ้านายเป็นมือเป็นไม้ช่วยเรื่องสีให้หน่อยฉันก็อาจจะพอทำอะไรนิด ๆ หน่อย ๆ \nได้บ้างก่อนจะมืดนะ"
 
 show rin basic_awayabsent
 with charachange
 
-rin "I wanted to get a halogen lamp like the ones they have at the sports track but there aren't any."
+rin "ฉันอยากได้หลอดแฮโลเจนแบบที่เขาใช้ส่องสนามนะ แต่ไม่มีเลย"
 
-"Rin sure is quick to recruit my help, as was Shizune. It really makes me feel that the festival is such a big project that every pair of hands is needed."
+"รินก็ดูตกลงให้ฉันช่วยเร็วเหลือเกิน ไม่ต่างอะไรกับชิซูเนะ จนทำให้รู้สึกว่างานเทศกาลเป็นงานใหญ่ที่ทุกคนต้องช่วยกัน\nคนละไม้คนละมือ"
 
-hi "Why not? I'm not really sure if I can be of any help, though."
+hi "ได้สิ แต่ฉันไม่รู้นะว่าจะช่วยอะไรได้มั้ย"
 
 show rin basic_absent
 with charachange
 
-rin "It's just mixing some paints, you can do that. Probably. Do you have motor control problems, like you know, those people who have some?"
+rin "แค่ผสมสีเอง นายทำได้น่า มั้งนะ นายมีปัญหาเรื่องการควบคุมกล้ามเนื้อมั้ยล่ะ แบบ เหมือนคนบางคน"
 
 show rin basic_deadpan
 with charachange
 
-rin "Cerebral palsy, maybe?"
+rin "สมองพิการงี้"
 
-hi "Not that I know of."
+hi "เท่าที่รู้ก็ไม่นะ"
 
 show rin basic_deadpanamused
 with charachange
 
-rin "I get it. Heart thingy has nothing to do with that."
+rin "เข้าใจละ หัวใจไม่เกี่ยวกับพวกนั้นสินะ"
 
-"She gives me a sly look for no reason."
+"อยู่ ๆ เธอก็ทำหน้าตาเจ้าเล่ห์ขึ้นมา"
 
-hi "No, it doesn't."
+hi "ก็ไม่นะ"
 
 show rin basic_amused
 with charachange
 
-rin "Let's do it then."
+rin "งั้นก็เอาเลย"
 
 hide rin
 with charaexit
 
 stop music fadeout 7.0
 
-"So she sits on an empty wooden box and very naturally picks up a wide brush between the toes of her bare right foot."
+"แล้วเธอก็นั่งลงที่กล่องไม้เปล่าและใช้เท้าขวาคีบแปรงทาสีขึ้นมา"
 
-"I open a few of the cans and pour some of the contents into shallow bowls for mixing."
+"ฉันเปิดถังสีสองสามถังแล้วเทบางส่วนใส่ถ้วยก้นตื้นเตรียมผสม"
 
-"The thick paints flow lazily from the can to the bowl, like syrup."
+"สีหนืดไหลอย่างเอื่อยเฉื่อยออกมาจากกระป๋องลงในถ้วยคล้ายน้ำเชื่อม"
 
-"I mix them, creating funny, hypnotic looking swirl patterns that melt quickly into each other to form a new monotone hue."
+"ฉันคนสีเข้าด้วยกันจนดูเป็นเกลียวแปลกคล้ายที่ใช้สะกดจิตก่อนจะกลายเป็นสีเนื้อเดียวใหม่"
 
-"Rin sets to work, every now and then asking me for a hand with something or the other."
+"รินก็ทำงานไปพลางขอให้ฉันเป็นมือไม้ช่วยทำนั่นนี่ให้"
 
 "…"
 
-"Finding different brushes is easy enough, but mixing the paints to be the exact tone this girl is apparently seeing in her head is a frustrating ordeal."
+"ให้หยิบแปรงอันอื่นมาเปลี่ยนตามที่ขอน่ะง่ายอยู่ แต่การจะผสมสีให้ได้ดั่งใจเธอคนนี้คิดดูจะเป็นงานที่โหดหินเอาเรื่อง"
 
-"She wants precision down to the last milliliter before she is satisfied, but her instructions are obscure at best."
+"เพราะเธออยากได้สีแบบเป๊ะ ๆ ไม่ให้คลาดสักมิลลิเมตรก็ว่าได้ แต่คำสั่งของเธอกลับคลุมเครือ"
 
 play music music_another fadein 1.0
 
@@ -3612,82 +3611,82 @@ scene bg mural_start
 show rin basic_deadpan_close at tworight
 with locationchange
 
-rin "Add half a splash of green."
+rin "ใส่สีเขียวอีกครึ่งเทมา"
 
 show rin negative_spaciness_close
 with charachange
 
-"I crouch down to pick up the can of bright green."
+"ฉันนั่งยองลงแล้วหยิบถังสีเขียวสว่างมา"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "The other green. This green."
+rin "อีกเขียวหนึ่ง เขียวนี้"
 
 show rin negative_spaciness_close
 with charachange
 
-"I carefully pour some of the other green paint into the mixing bowl."
+"ฉันเทสีเขียวอีกสีที่ว่านั้นลงถ้วยผสมสี"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "No, that's almost a whole splash. More white."
+rin "ไม่สิ อันนั้นมันเกือบหนึ่งเทแล้ว เติมสีขาวอีก"
 
-rin "Is green a good color to add?"
+rin "นายว่าเติมสีเขียวดีมั้ย"
 
-hi "No idea. You're the artist here."
+hi "ไม่รู้สิ เธอเป็นคนวาดนี่"
 
 show rin basic_deadpanamused_close
 with charachange
 
-"A hint of smile appears in the corners of her mouth."
+"เธอหยักยิ้มที่มุมปากเล็กน้อย"
 
-rin "Do you lack an opinion?"
+rin "นายไม่มีความเห็นเป็นของตัวเองเหรอ"
 
-hi "No, it's just that I have no idea."
+hi "ไม่ใช่สิ ก็ฉันไม่รู้นี่"
 
 show rin basic_deadpandelight_close
 with charachange
 
-rin "It's OK, because I just got an idea. Add more white."
+rin "ไม่เป็นไร เพราะฉันรู้แล้ว เติมสีขาวอีก"
 
-"With this exclamation I pour a minuscule amount of white into the bowl and mix it. It looks slightly… whiter."
+"ฉันเทสีขาวลงไปหน่อยหนึ่งลงในถ้วยแล้วคนตามคำสั่ง สีดู…ขาวขึ้นนิดหน่อย"
 
 show rin basic_deadpanupset_close
 with charachange
 
-rin "That's not good. It has to be like… like the color when you wake up and you {b}know{/b} that you saw the meaning of life in your dream but can't remember it."
+rin "ไม่ได้แฮะ มันต้องแบบ…เป็นสีที่เห็นตอนตื่นมาแล้ว{b}รู้{/b}เลยว่าเห็นความหมายของชีวิตในฝันมาแต่ก็จำไม่ได้"
 
-rin "Maybe it's yellow…"
+rin "สีเหลืองมั้ง…"
 
 show rin negative_spaciness_close
 with charachange
 
 "…"
 
-"Despite the impossibility of mixing a color like the change of seasons or any other nonsense that's being imposed on me, I find myself enjoying it more than I thought I would."
+"แม้การผสมสีที่เปลี่ยนเหมือนเปลี่ยนตามฤดูกาลหรือคำสั่งแบบไปเรื่อยนั้นจะแสนลำบาก แต่ก็เพลินกว่าที่คิด"
 
 stop music fadeout 7.0
 
 scene bg school_dormext_start_ss
 with shorttimeskip
 
-"Seeing a painting being born on the plastered wall feels like magic."
+"พอเห็นภาพวาดหนึ่งปรากฏบนกำแพงปลาสเตอร์แล้วรู้สึกราวกับเป็นเวทมนตร์"
 
-"I spend the moments I have between mixing paints crouching down on the paving and just looking at her work."
+"ฉันใช้เวลาไปกับการนั่งที่ทางเดินผสมสีและมองภาพเขียนของเธอ"
 
-"It feels slightly intrusive at first, like breaking some imaginary intimacy, but Rin doesn't seem to mind the least bit. Maybe it's just in my head."
+"ทีแรกก็รู้สึกเหมือนรบกวนนิดหน่อย เหมือนมาขัดอะไรสักอย่างที่มองไม่เห็น แต่รินก็ดูจะไม่ว่าอะไรเลย คงคิดไปเองมั้ง"
 
-"Her entire presence emits a completely different air as she patiently works the details, adding layers of paint on top of other layers of paint, steadily moving her foot across the wall to add new shapes."
+"บรรยากาศรอบตัวเธอต่างออกไปยามเธอจดจ่อกับการลงรายละเอียด เพิ่มสีลงอีกชั้นทับอีกสีหนึ่ง ค่อย ๆ ขยับเท้าเธอ\nไปตามกำแพงแต่งเติมรูปร่างใหม่ ๆ "
 
-"When I manage to produce a passable mixture of paint, the rare smile on her face is oddly rewarding."
+"พอผสมสีที่พอใช้ได้แล้วได้เห็นรอยยิ้มที่หายากของเธอทำให้รู้สึกคุ้มค่าอย่างประหลาด"
 
-"Apart from the few words when discussing paint mixes, neither of us says a word for the longest time."
+"นอกจากตอนที่ผสมสีที่ไม่ค่อยได้คุยกันแล้ว เราสองคนก็แทบไม่ได้พูดอะไรกันเลย"
 
-"And even those short discussions soon evolve into a shorthand, both of us developing and using weird impromptu code words for various paints and hues."
+"และแม้แต่บทสนทนาที่แทบไม่มีนั้นก็ยังสั้นลงอีก กลายเป็นว่าเราทั้งคู่มีการใช้รหัสลับแปลก ๆ เอาไว้พูดถึงสีนั่นนี่"
 
-"As if there was some need to conserve words and breath and sound."
+"ราวกับต้องประหยัดคำพูด ลมหายใจ และเสียง"
 
 window hide
 
@@ -3699,7 +3698,7 @@ with Dissolve(4.0)
 
 window show
 
-"We stay there late into the evening until it becomes too dark to paint properly."
+"พวกเราอยู่กันจนค่ำมืดเกินที่จะทาสีได้ดี"
 
 stop ambient fadeout 3.0
 
