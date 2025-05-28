@@ -153,45 +153,45 @@
 
     ##Names
 
-    displayDict["th"].name_hi = "ฮิซาโอะ"
+    displayDict["th"].name_hi = thname("ฮิซาโอะ")
 
-    displayDict["th"].name_ha = "ฮานาโกะ"
-    displayDict["th"].name_emi = "เอมิ"
-    displayDict["th"].name_rin = "ริน"
-    displayDict["th"].name_li = "ลิลลี่"
-    displayDict["th"].name_shi = "ชิซูเนะ"
-    displayDict["th"].name_mi = "มิช่า"
+    displayDict["th"].name_ha = thname("ฮานาโกะ")
+    displayDict["th"].name_emi = thname("เอมิ")
+    displayDict["th"].name_rin = thname("ริน")
+    displayDict["th"].name_li = thname("ลิลลี่")
+    displayDict["th"].name_shi = thname("ชิซูเนะ")
+    displayDict["th"].name_mi = thname("มิช่า")
 
-    displayDict["th"].name_ke = "เคนจิ"
-    displayDict["th"].name_mu = "มุโต้"
-    displayDict["th"].name_nk = "พยาบาล"
-    displayDict["th"].name_no = "โนมิยะ"
-    displayDict["th"].name_yu = "ยูโกะ"
-    displayDict["th"].name_sa = "ซาเอะ"
-    displayDict["th"].name_aki = "อากิระ"
-    displayDict["th"].name_hh = "ฮิเดอากิ"
-    displayDict["th"].name_hx = "จิโกโร"
-    displayDict["th"].name_emm = "เมโกะ"
-    displayDict["th"].name_sk = "พนักงานร้าน"
-    displayDict["th"].name_mk = "มิกิ"
+    displayDict["th"].name_ke = thname("เคนจิ")
+    displayDict["th"].name_mu = thname("มุโต้")
+    displayDict["th"].name_nk = thname("พยาบาล")
+    displayDict["th"].name_no = thname("โนมิยะ")
+    displayDict["th"].name_yu = thname("ยูโกะ")
+    displayDict["th"].name_sa = thname("ซาเอะ")
+    displayDict["th"].name_aki = thname("อากิระ")
+    displayDict["th"].name_hh = thname("ฮิเดอากิ")
+    displayDict["th"].name_hx = thname("จิโกโร")
+    displayDict["th"].name_emm = thname("เมโกะ")
+    displayDict["th"].name_sk = thname("พนักงานร้าน")
+    displayDict["th"].name_mk = thname("มิกิ")
 
-    displayDict["th"].name_mystery = "???"
+    displayDict["th"].name_mystery = thname("???")
 
-    displayDict["th"].name_ha_ = "สาวที่ผมสีม่วง"
-    displayDict["th"].name_emi_ = "สาวที่ทำผมทวินเทล"
-    displayDict["th"].name_rin_ = "สาวที่ดูพิลึก"
-    displayDict["th"].name_li_ = "สาวที่ผมเป็นลอน"
-    displayDict["th"].name_mi_ = "สาวที่หัวเราะ"
-    displayDict["th"].name_ke_ = "เพื่อนร่วมหอใส่แว่น"
-    displayDict["th"].name_mu_ = "ชายตัวสูง"
-    displayDict["th"].name_yu_ = "บรรณารักษ์"
-    displayDict["th"].name_no_ = "ชายผมสีเทา"
-    displayDict["th"].name_sa_ = "เจ้าของหอศิลป์"
-    displayDict["th"].name_aki_ = "คนที่แต่งตัวดูดี"
-    displayDict["th"].name_nk_ = "ชายที่ยิ้ม"
-    displayDict["th"].name_hh_ = "สาวตัวบาง"
-    displayDict["th"].name_emm_ = "สาวถักเปีย"
-    displayDict["th"].name_hx_ = "ชายร่างใหญ่"
+    displayDict["th"].name_ha_ = thname("สาวที่ผมสีม่วง")
+    displayDict["th"].name_emi_ = thname("สาวที่ทำผมทวินเทล")
+    displayDict["th"].name_rin_ = thname("สาวที่ดูพิลึก")
+    displayDict["th"].name_li_ = thname("สาวที่ผมเป็นลอน")
+    displayDict["th"].name_mi_ = thname("สาวที่หัวเราะ")
+    displayDict["th"].name_ke_ = thname("เพื่อนร่วมหอใส่แว่น")
+    displayDict["th"].name_mu_ = thname("ชายตัวสูง")
+    displayDict["th"].name_yu_ = thname("บรรณารักษ์")
+    displayDict["th"].name_no_ = thname("ชายผมสีเทา")
+    displayDict["th"].name_sa_ = thname("เจ้าของหอศิลป์")
+    displayDict["th"].name_aki_ = thname("คนที่แต่งตัวดูดี")
+    displayDict["th"].name_nk_ = thname("ชายที่ยิ้ม")
+    displayDict["th"].name_hh_ = thname("สาวตัวบาง")
+    displayDict["th"].name_emm_ = thname("สาวถักเปีย")
+    displayDict["th"].name_hx_ = thname("ชายร่างใหญ่")
 
     displayDict["th"].videos = (("ฉากเปิด", "video/op_1.mkv"),
                                 ("เอมิ", "video/tc_act2_emi.mkv"),
