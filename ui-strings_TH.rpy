@@ -17,7 +17,7 @@
         return "{font=" + thmedfont + "}" + string + "{/font} "
 
     def thname(string):
-        return "{font=" + thnamefont + "}{plain}" + string + "{/plain}{/font}"
+        return "{size=18}{font=" + thnamefont + "}{plain}" + string + "{/plain}{/font}{/size}"
 
     displayDict["th"].styleoverrides = {"font": thfont,
                                         "language": "eastasian",
