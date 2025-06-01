@@ -730,7 +730,7 @@ with charachange
 ke "ก็นั่นแหละ ฉันต้องการเงินสักหน่อย นะ ๆ อย่าปล่อยฉันอดตายเลยพวก ขาดแค่ 1000 เยนเอง"
 
 # hi "I thought it was 400."
-hi "นึกว่าแค่ 400"
+hi "ไหนบอก 400"
 
 # ke "Okay."
 ke "โอเค"
@@ -954,7 +954,6 @@ play music music_normal fadein 2.0
 
 # "I black out for a second, waking up when my head hits the surface of my desk. Rubbing my forehead, I realize this is as good a reason as any to stay up for now and stop coming to class so early later."
 "ฉับวูบหลับไปแวบนึง สะดุ้งตื่นตอนที่หัวชนโต๊ะ ฉันเอามือกุมหน้าผากพร้อมเข้าใจว่าทำไมถึงควรจะนอนดึกและไม่ควรรีบมา\nเช้าจนเกินไป"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 # "Eventually, I hear a tapping noise outside in the hallway, and Lilly's tall figure appears in the doorway. She's not in this class, so she must have some other business. Maybe she's looking for Hanako."
 "ในที่สุดก็ได้ยินเสียงกระทบดังมาจากข้างนอกโถงทางเดิน แล้วร่างสูง ๆ ของลิลลี่ก็ปรากฏตรงหน้าประตูทางเข้า เธอไม่ได้\nเรียนที่ห้องนี้ เพราะงั้นคงจะมาด้วยเหตุผลอื่นมากกว่า คงจะมาตามหาฮานาโกะ"
@@ -1637,7 +1636,8 @@ with charachange
 # mi "Hicchan, we have a few last minute things to take care of before class~! We might be late, so~! Can you please cover for us?"
 mi "ฮิจัง พวกเรามีธุระนิดหน่อยที่ต้องทำก่อนเข้าคาบน่ะ~! แล้วก็อาจมาเข้าสาย เพราะงั้น~! ฝากเธอบอกครูให้หน่อยนะ"
 
-hi "Yeah."
+# hi "Yeah."
+hi "อืม ๆ"
 
 show misha cross_grin
 with charachange
@@ -1737,8 +1737,6 @@ with charaexit
 # "In the end, I go back to my seat and listen to the sound of Shizune's footsteps as she marches out of the room. She doesn't return until a few minutes before class."
 "สุดท้ายฉันก็กลับไปนั่งที่ของฉันและได้ยินเสียงกระทืบเท้าของชิซูเนะเดินออกไปจากห้อง เธอไม่กลับมาจนกระทั่งไม่กี่นาทีก่อน\nเข้าคาบ"
 
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
-
 
 label th_A21d:
 
@@ -1760,7 +1758,7 @@ with charaexit
 "ฉันสัมผัสได้ถึงสายตาพิฆาตของชิซูเนะที่หลังฉัน เธอคงจะโกรธฉัน แต่ฉันเองก็โกรธเธอพอ ๆ กัน"
 
 # "I don't get why she had to drag me into the argument."
-"ไม่เข้าใจเลยว่าทำไมต้องลากฉันเข้าไปเกี่ยวด้วย"
+"ไม่เข้าใจเลยว่าทำไมเธอต้องลากฉันเข้าไปเกี่ยวด้วย"
 
 
 
@@ -1773,17 +1771,23 @@ with shorttimeskip
 
 play music music_daily fadein 0.5
 
-"Hanako doesn't come to the morning class at all, leaving her seat looking empty and lonely in the back of the classroom."
+# "Hanako doesn't come to the morning class at all, leaving her seat looking empty and lonely in the back of the classroom."
+"และฮานาโกะก็ไม่ได้มาในคาบเช้าเลย ปล่อยให้ที่นั่งของเธอดูว่างเปล่าและเงียบเหงาอยู่ที่หลังห้องเรียน"
 
-"I have to tell her that Lilly was looking for her if I see her later."
+# "I have to tell her that Lilly was looking for her if I see her later."
+"ฉันต้องบอกเธอว่าลิลลี่ตามหาอยู่ถ้าฉันได้เจอเธอทีหลัง"
 
-"After the events of this morning, class is pretty boring in comparison. I turn the pages of my textbook lazily."
+# "After the events of this morning, class is pretty boring in comparison. I turn the pages of my textbook lazily."
+"เทียบกับเหตุการณ์เมื่อเช้า คาบเรียนนี่ดูน่าเบื่อไปเลย ฉันเปิดหนังสือไปด้วยความเบื่อหน่าย"
 
-"We've been covering the same amount of pages each day, so reading ahead is more or less giving myself a preview of what tomorrow's lesson will be about."
+# "We've been covering the same amount of pages each day, so reading ahead is more or less giving myself a preview of what tomorrow's lesson will be about."
+"ในแต่ละวันจะเรียนเนื้อหาตามหนังสือด้วยปริมาณหน้าที่เท่า ๆ กัน การอ่านมาก่อนก็เป็นการได้ดูว่าพรุ่งนี้จะเรียนอะไรด้วย"
 
-"The clock at the front of the room sounds unbearably loud. The teacher hasn't said anything in over seven minutes, instead opting to cover the board in rows and rows of equations taken directly from the book."
+# "The clock at the front of the room sounds unbearably loud. The teacher hasn't said anything in over seven minutes, instead opting to cover the board in rows and rows of equations taken directly from the book."
+"เสียงนาฬิกาที่ด้านหน้าห้องดังจนทนไม่ไหว ครูก็ไม่พูดอะไรเลยกว่าเจ็ดนาที แต่กลับเลือกที่จะเขียนสมการจากหนังสือทับ\nกระดานจนเต็มไปหมด"
 
-"The rhythmic clashing of chalk on blackboard seems to synchronize perfectly with the ticking of the clock."
+# "The rhythmic clashing of chalk on blackboard seems to synchronize perfectly with the ticking of the clock."
+"เสียงกระทบของชอล์กกับกระดานนั้นดังประสานอย่างเป็นจังหวะไปพร้อมกับเสียงนาฬิกาเดิน"
 
 show misha cross_smile_close at offscreenleft
 with None
@@ -1792,11 +1796,14 @@ show misha cross_smile_close at Transform(xpos=0.1, xanchor=0.5)
 show bg school_scienceroom at center
 with charamove
 
-"I start to copy down the equations just to pass the time, not noticing Misha's head poking over my shoulder until she is almost on top of me."
+# "I start to copy down the equations just to pass the time, not noticing Misha's head poking over my shoulder until she is almost on top of me."
+"ฉันลอกสมการบนกระดานลงเพื่อฆ่าเวลา ไม่ได้รู้สึกตัวเลยว่ามิช่ายื่นหัวมาอยู่เหนือไหล่ฉันจนตอนเธอแทบจะวางคางบน\nไหล่ฉันแล้ว"
 
-hi "What are you doing?"
+# hi "What are you doing?"
+hi "ทำอะไรน่ะ"
 
-"I try to strike a balance between being quiet enough to not draw attention to myself but loud enough to draw hers."
+# "I try to strike a balance between being quiet enough to not draw attention to myself but loud enough to draw hers."
+"ฉันพยายามคุมเสียงให้เบาพอที่จะไม่เป็นที่สนใจจากทั้งห้อง แต่ดังพอที่ทำให้เธอได้ยิน"
 
 show misha cross_grin_close
 with charachange
@@ -1805,60 +1812,81 @@ show misha cross_grin_close at twoleft
 show bg school_scienceroom at bgright
 with charamove
 
-mi "What are you doing, Hicchan~?"
+# mi "What are you doing, Hicchan~?"
+mi "ทำอะไรอยู่อะ ฮิจัง~?"
 
-"Panic shoots through me as Misha starts talking at her normal volume, and I sputter out a hasty reply, still keeping my voice down despite the fact that she just blew any hope of being discreet I may have had."
+# "Panic shoots through me as Misha starts talking at her normal volume, and I sputter out a hasty reply, still keeping my voice down despite the fact that she just blew any hope of being discreet I may have had."
+"ฉันสะดุ้งตกใจเมื่อมิช่าตอบกลับด้วยเสียงดังปกติของเธอ แล้วรีบตอบเธอโดยพยายามกดเสียงให้เบาไว้ถึงแม้เธอจะทำแผนที่ฉัน\nพยายามจะเงียบ ๆ พังแล้วก็เถอะ"
 
-hi "I'm copying down that stuff, what are you doing? Why so loud?"
+# hi "I'm copying down that stuff, what are you doing? Why so loud?"
+hi "ฉันก็ลอกตามบบนกระดานอยู่ไง แล้วเธอล่ะ ทำไมเสียงดังจัง"
 
 show misha perky_confused_close
 with charachange
 
-mi "Aw~, really? But it's all in the book… That's why no one else is copying it down~!"
+# mi "Aw~, really? But it's all in the book… That's why no one else is copying it down~!"
+mi "อ๋า~ งั้นเหรอ แต่ในหนังสือก็มีนี่… นั่นเป็นเหตุผลว่าทำไมคนอื่นเขาไม่ลอกลงกันน่ะ~!"
 
-hi "I know, why are you so loud?"
+# hi "I know, why are you so loud?"
+hi "รู้แล้ว แล้วทำไมเธอต้องเสียงดังด้วยล่ะ?"
 
 show misha hips_grin_close
 with charachange
 
-mi "Why are you so quiet, Hicchan? It's hard to hear you."
+# mi "Why are you so quiet, Hicchan? It's hard to hear you."
+mi "แล้วทำไมนายต้องเสียงเบาด้วยล่ะ แทบไม่ได้ยินเลยเนี่ย"
 
-"I look around to see if anyone is noticing our conversation and it's pretty obvious that everyone has, even the teacher."
+# "I look around to see if anyone is noticing our conversation and it's pretty obvious that everyone has, even the teacher."
+"ฉันมองไปรอบ ๆ ห้องเพื่อดูว่ามีใครได้ยินที่เราคุยกันไหม ซึ่งแน่นอนว่าทุกคนได้ยินรวมถึงครูด้วย"
+
 
 show shizu behind_smile at right
 with charamoveinright
 
-"Shizune smiles coyly and I start to wonder if Misha is doing this because she told her to."
+# "Shizune smiles coyly and I start to wonder if Misha is doing this because she told her to."
+"ชิซูเนะเริ่มยิ้มอาย ๆ ฉันเลยสงสัยเธอว่ามิช่าทำแบบนี้เพราะเธอสั่งหรือเปล่า"
 
-"Is it because of what happened between her and Lilly earlier?"
+# "Is it because of what happened between her and Lilly earlier?"
+"เป็นเพราะเรื่องที่เกิดระหว่างเธอกับลิลลี่ก่อนหน้านี้หรือเปล่านะ"
 
-"This is what I get for trying to be reasonable? For trying to take the middle path? Shizune is way too prideful, although by now I should know to expect that kind of behavior from her."
+# "This is what I get for trying to be reasonable? For trying to take the middle path? Shizune is way too prideful, although by now I should know to expect that kind of behavior from her."
+"นี่คือสิ่งที่ฉันควรเจอเพียงเพราะว่าการที่ฉันมีเหตุผลเหรอ การที่ฉันพยายามเป็นกลางอะนะ? ชิซูเนะเป็นคนที่หยิ่งเกินไป ถึงแม้\nจริง ๆ ก็พอเดานิสัยเธอได้ก็เถอะ"
 
-hi "Why are you doing this?"
+# hi "Why are you doing this?"
+hi "ทำไมเธอต้องทำแบบนี้ด้วย"
 
 show misha perky_confused_close
 with charachange
 
-mi "Huh?"
+# mi "Huh?"
+mi "หือ?"
 
-"Misha is totally oblivious to the awkward stare the teacher is giving both of us, while trying to balance her textbook on one finger. For a brief second it looks as if things could get ugly, but the teacher simply looks away, as if it's not worth the trouble."
+# "Misha is totally oblivious to the awkward stare the teacher is giving both of us, while trying to balance her textbook on one finger. For a brief second it looks as if things could get ugly, but the teacher simply looks away, as if it's not worth the trouble."
+"มิช่าพยายามทรงหนังสือเรียนด้วยนิ้วเดียว โดยไม่รู้ตัวเลยว่าครูกำลังจ้องมาที่เรา ตอนแรกดูเหมือนว่าจะจบไม่สวยแล้ว\nแต่สุดท้ายครูก็เบือนหน้าหนี ราวกับว่าไม่คุ้มที่จะพูดด้วย"
 
-"I guess this is a good thing, and I slump back in my seat in relief."
+# "I guess this is a good thing, and I slump back in my seat in relief."
+"ซึ่งฉันว่าเป็นเรื่องที่ดี และฉันก็เอนตัวกลับไปนั่งอย่างสบายใจ"
 
 scene bg school_scienceroom at bgright
 with shorttimeskip
 
-"The rest of day passes by uneventfully, and this time I'm able to appreciate that it does."
+# "The rest of day passes by uneventfully, and this time I'm able to appreciate that it does."
+"และทั้งวันก็ได้ผ่านไปโดยไม่มีอะไรเกิดขึ้น ซึ่งรอบนี้ฉันยินดีที่มันเป็นเช่นนั้น"
 
 play sound sfx_normalbell
 
-"When the bell rings, I'm not in a hurry, so I stay for a while, reviewing what we covered in class today. I prefer to leave last anyway, so I don't have to deal with crowding in the hallways."
+# "When the bell rings, I'm not in a hurry, so I stay for a while, reviewing what we covered in class today. I prefer to leave last anyway, so I don't have to deal with crowding in the hallways."
+"พอเสียงระฆังดัง ฉันที่ไม่ได้รีบไปไหนเลยนั่งรอสักพัก ทบทวนเนื้อหาที่ได้เรียนในวันนี้ ยังไงฉันเองก็อยากจะออกคนท้าย ๆ\nอยู่แล้ว จะได้ไม่ต้องไปเบียดกับคนหมู่มากที่โถงทางเดิน"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-"I notice Shizune and Misha have also stayed behind, talking to someone from another class."
+# "I notice Shizune and Misha have also stayed behind, talking to someone from another class."
+"ฉันสังเกตเห็นชิซูเนักับมิช่ายังอยู่ด้วย คุยกับใครสักคนจากห้องอื่น"
 
-"Shizune's signing so fast that her hands make noises like swords cutting through the air."
+# "Shizune's signing so fast that her hands make noises like swords cutting through the air."
+"ชิซูเนะทำท่าภาษามือเร็วมากจนมือเธอทำเสียงเหมือนดาบที่ฟันตัดอากาศ"
 
-"Misha is trying desperately to keep up, but it's clear she can barely manage to even understand her."
+# "Misha is trying desperately to keep up, but it's clear she can barely manage to even understand her."
+"มิช่าพยายามอย่างหนักเพื่อที่จะตามให้ทัน แต่ก็เห็นได้ชัดว่าเธอแทบไม่เข้าใจเลย"
 
 "I put my head down. Whatever they're discussing, it looks like serious business. Probably way over my head.  Not just that, but Shizune also seems angry, although it could just be her normal severity making it appear so."
 
