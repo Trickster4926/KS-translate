@@ -1877,7 +1877,6 @@ play sound sfx_normalbell
 
 # "When the bell rings, I'm not in a hurry, so I stay for a while, reviewing what we covered in class today. I prefer to leave last anyway, so I don't have to deal with crowding in the hallways."
 "พอเสียงระฆังดัง ฉันที่ไม่ได้รีบไปไหนเลยนั่งรอสักพัก ทบทวนเนื้อหาที่ได้เรียนในวันนี้ ยังไงฉันเองก็อยากจะออกคนท้าย ๆ\nอยู่แล้ว จะได้ไม่ต้องไปเบียดกับคนหมู่มากที่โถงทางเดิน"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 # "I notice Shizune and Misha have also stayed behind, talking to someone from another class."
 "ฉันสังเกตเห็นชิซูเนักับมิช่ายังอยู่ด้วย คุยกับใครสักคนจากห้องอื่น"
@@ -1886,75 +1885,98 @@ play sound sfx_normalbell
 "ชิซูเนะทำท่าภาษามือเร็วมากจนมือเธอทำเสียงเหมือนดาบที่ฟันตัดอากาศ"
 
 # "Misha is trying desperately to keep up, but it's clear she can barely manage to even understand her."
-"มิช่าพยายามอย่างหนักเพื่อที่จะตามให้ทัน แต่ก็เห็นได้ชัดว่าเธอแทบไม่เข้าใจเลย"
+"มิช่าพยายามอย่างหนักเพื่อที่จะตามให้ทัน แต่ก็เห็นได้ชัดว่าเธอแทบไม่เข้าใจเลยด้วยซ้ำ"
 
-"I put my head down. Whatever they're discussing, it looks like serious business. Probably way over my head.  Not just that, but Shizune also seems angry, although it could just be her normal severity making it appear so."
+# "I put my head down. Whatever they're discussing, it looks like serious business. Probably way over my head.  Not just that, but Shizune also seems angry, although it could just be her normal severity making it appear so."
+"ฉันก้มหน้าลง ไม่รู้หรอกว่าคุยอะไรกันอยู่แต่ดูท่าว่าจะเป็นเรื่องจริงจังน่าดู และฉันคงไม่น่าจะช่วยอะไรได้ด้วย นอกจากนั้น\nแล้วชิซูเนะเองก็ดูโมโหด้วย ถึงจริง ๆ ปกติท่าทางเธอก็เป็นแบบนี้อยู่แล้วล่ะนะ"
 
-"Shizune signs to the point where her wrists crackle, and Misha struggles to spit it out in word form."
+# "Shizune signs to the point where her wrists crackle, and Misha struggles to spit it out in word form."
+"ชิซูเนะทำภาษามือมากจนข้อมือเธอเริ่มดังกรอบแกรบ และมิช่าก็เริ่มพูดตามไม่ทันแล้ว"
 
-"Sometimes she trips over herself like she's dealing with tongue twisters. And then on top of that, she has to sign back anything the other girl says."
+# "Sometimes she trips over herself like she's dealing with tongue twisters. And then on top of that, she has to sign back anything the other girl says."
+"บางทีก็พูดตะกุกตะกักจากการลิ้นพัน แถมยังต้องทำภาษามือแปลกลับทุก ๆ คำพูดที่คนอื่นพูดด้วย"
 
-"Seems like a rough job."
+# "Seems like a rough job."
+"ช่างเป็นงานที่หนักจริง ๆ"
 
-"Misha looks tired, like she's about to faint."
+# "Misha looks tired, like she's about to faint."
+"มิช่าดูหมดแรง คลับคล้ายว่าจะเป็นลม"
 
-"Luckily for her, their business is soon finished and the girls sit down on their seats again."
+# "Luckily for her, their business is soon finished and the girls sit down on their seats again."
+"โชคยังดีที่ไม่นานเรื่องก็จบลง และพวกเธอก็กลับมานั่งที่อีกครั้ง"
 
 show shizu behind_blank at tworight
 show misha perky_sad at twoleft
 with charaenter
 
-mi "Uwaaah! I'm so tired!"
+# mi "Uwaaah! I'm so tired!"
+mi "อ้าาาาา! เหนื่อยจังเลย!"
 
-"She's hanging her head limply on her desk, looking exhausted."
+# "She's hanging her head limply on her desk, looking exhausted."
+"เธอฟุบหัวลงที่โต๊ะ ด้วยท่าทีหมดแรง"
 
-hi "Festival preparations must be tough for you."
+# hi "Festival preparations must be tough for you."
+hi "เตรียมจัดงานเทศกาลคงจะเหนื่อยน่าดูเลยนะ"
 
-"Indeed, the people in this school seem to be taking the festival very seriously. Whenever I see people idling around before and after classes they're always talking about their plans for it."
+# "Indeed, the people in this school seem to be taking the festival very seriously. Whenever I see people idling around before and after classes they're always talking about their plans for it."
+"ดูเหมือนว่าคนในโรงเรียนแห่งนี้จะจริงจังกับเทศกาลนี้มาก ทุกครั้งที่ฉันเห็นคนนั่งเล่นช่วงก่อนเรียนและหลังเลิกเรียนก็\nจะเห็นคนคุยเรื่องงานนี้ตลอด"
 
-"It's kind of neat to see everyone being so enthusiastic about it."
+# "It's kind of neat to see everyone being so enthusiastic about it."
+"เห็นทุกคนจริงจังขนาดนี้กับงานนี้ก็ดี"
 
-"I'm probably the only one who doesn't have something to do."
+# "I'm probably the only one who doesn't have something to do."
+"ฉันคงเป็นคนเดียวละมั้งที่ยังไม่ได้ทำงานอะไรเลย"
 
 show shizu basic_normal
 show misha perky_confused
 with charachange
 
-"Shizune starts signing at me and Misha perks up, looking at her hands with slightly unfocused eyes."
+# "Shizune starts signing at me and Misha perks up, looking at her hands with slightly unfocused eyes."
+"ชิซูเนะเริ่มทำภาษามือให้ฉันและมิช่าก็เงยหน้าขึ้นมามองไปที่มือของเธอด้วยสายตาเบลอเล็กน้อย"
 
 show shizu behind_frown
 with charachange
 
 shi "…"
 
-"She signs with harsh, heavy, dramatic strokes."
+# "She signs with harsh, heavy, dramatic strokes."
+"เธอทำท่าภาษามือด้วยท่าทางที่ดูรุนแรง หนักแน่น และดราม่า"
 
-"Misha translates her signing into speech for me."
+# "Misha translates her signing into speech for me."
+"มิช่าแปลภาษามือนั้นเป็นคำพูดให้ฉัน"
 
-"She does it so well it's almost like Shizune is actually speaking, transmitting her thoughts directly through Misha."
+# "She does it so well it's almost like Shizune is actually speaking, transmitting her thoughts directly through Misha."
+"ซึ่งเธอทำได้ดีเหมือนชิซูเนะพูดเองเลยทีเดียว อารมณ์และความคิดของเธอถูกส่งต่อมาที่ฉันผ่านทางมิช่า"
 
 show misha cross_frown
 with charachange
 
-mi "Well, we're in the Student Council, you know, so we're pretty busy."
+# mi "Well, we're in the Student Council, you know, so we're pretty busy."
+mi "ก็ พวกเราเป็นสภานักเรียนนี่ เนี่ยนายรู้ไหมว่าเรายุ่งมาก"
 
-hi "Sarcasm?"
+# hi "Sarcasm?"
+hi "ประชดเหรอ"
 
 show misha perky_confused
 with charachange
 
-mi "Huh?"
+# mi "Huh?"
+mi "หา?"
 
-"The tone of Shizune's actions make me think she is “speaking” with disdain, but Misha interprets it normally, replacing whatever intent may have been there with her own chipper twist on things. It's still disorienting, I don't think I'll ever get used to it."
+# "The tone of Shizune's actions make me think she is “speaking” with disdain, but Misha interprets it normally, replacing whatever intent may have been there with her own chipper twist on things. It's still disorienting, I don't think I'll ever get used to it."
+"ท่าทางของชิซูเนะทำให้ฉันรู้สึกว่าเธอ “พูด” อย่างดูแคลน แต่มิช่าก็แปลออกมาซื่อ ๆ แล้วใส่ความสดใสร่าเริงของตัวเอง\nลงไปแทนที่เจตนาจริง ๆ อะไรก็ตามของคำพูดนั้น ซึ่งก็คลาดไปจากกันอยู่ แล้วฉันคงไม่มีวันทำใจให้ชินได้แน่ ๆ"
 
-hi "Never mind."
+# hi "Never mind."
+hi "ช่างเหอะ"
 
-hi "How could I forget, with you two trying to get me to join at least twice a day?"
+# hi "How could I forget, with you two trying to get me to join at least twice a day?"
+hi "ฉันจะลืมได้ไงว่าพวกเธอเป็นสภานักเรียน พวกเธอเล่นชวนฉันต่ำ ๆ ก็วันละ 2 รอบละ"
 
 show misha cross_laugh
 with charachange
 
-mi "Hahaha~! But, Hicchan, some could say the work is too much."
+# mi "Hahaha~! But, Hicchan, some could say the work is too much."
+mi "ฮ่าฮ่าฮ่า~! แต่ว่านะฮิจัง บางคนก็บอกว่างานมันเยอะไปนั่นแหละ"
 
 show shizu basic_normal2
 with charachange
@@ -1962,7 +1984,8 @@ with charachange
 show misha perky_sad
 with charachange
 
-mi "It'd be nice if students were to show a little more support for their leadership, some appreciation to the ones who are working so hard to make it all possible."
+# mi "It'd be nice if students were to show a little more support for their leadership, some appreciation to the ones who are working so hard to make it all possible."
+mi "คงจะดีถ้านักเรียนช่วยแสดงความเป็นผู้นำเพิ่มสักหน่อย และชื่นชมคนที่ยอมทำงานหนักเพื่อทำทุกอย่างให้สำเร็จได้"
 
 show shizu behind_frown
 with charachange
@@ -1970,7 +1993,8 @@ with charachange
 show misha perky_smile
 with charachange
 
-mi "Maybe, for example, a little help. That's asking too much, is it? Yep~! Help would be appreciated~! From students like you~!"
+# mi "Maybe, for example, a little help. That's asking too much, is it? Yep~! Help would be appreciated~! From students like you~!"
+mi "บางทีก็แบบ ช่วยงานสักหน่อย คงจะขอมากไปใช่มะ อื้ม~! ความช่วยเหลือคงจะเป็นพระคุณอย่างยิ่ง~! จากนักเรียนแบบ\nนาย~!"
 
 show shizu adjust_angry
 with charachange
@@ -1978,7 +2002,8 @@ with charachange
 show misha hips_frown
 with charachange
 
-mi "If students would show their dedication and school spirit, and offer some help, well, I don't exactly need it…"
+# mi "If students would show their dedication and school spirit, and offer some help, well, I don't exactly need it…"
+mi "ถ้าพวกนักเรียนแสดงให้เห็นความทุ่มเทและจิตวิญญาณของโรงเรียน และมาช่วยกันสักหน่อย ฉันคงไม่ต้องขอหรอก…"
 
 show shizu behind_smile
 with charachange
@@ -1986,7 +2011,8 @@ with charachange
 show misha hips_smile
 with charachange
 
-mi "But I wouldn't necessarily refuse it… So~! it would be nice if someone would…"
+# mi "But I wouldn't necessarily refuse it… So~! it would be nice if someone would…"
+mi "แต่ก็ไม่ได้ปฏิเสธหรอกนะ… มันก็~! คงจะดีละนะถ้ามีใครสักคนมา…"
 
 stop music fadeout 2.0
 
@@ -1994,7 +2020,8 @@ show shizu adjust_blush
 show misha perky_confused
 with charachange
 
-mi "Oh? Hello~!"
+# mi "Oh? Hello~!"
+mi "โอ๊ะ หวัดดีจ้า~!"
 
 show shizu adjust_blush at offscreenleft
 show misha perky_confused at Transform(xanchor=0.5, xpos=-0.45)
@@ -2006,17 +2033,20 @@ with charamoveinright
 
 play music music_pearly fadein 1.0
 
-"I look over my shoulder and see Hanako peering timidly into the classroom, most of her body hidden behind the door."
+# "I look over my shoulder and see Hanako peering timidly into the classroom, most of her body hidden behind the door."
+"ฉันหันไปข้างหลังเห็นฮานาโกะกำลังมองเข้ามาในห้องเรียนอย่างอาย ๆ โดยซ่อนร่างกายส่วนใหญ่ของเธอไว้หลังประตู"
 
 show misha perky_smile at Transform(xanchor=0.5, xpos=0.15)
 with charamove
 
-mi "Hey! Playing delinquent again?"
+# mi "Hey! Playing delinquent again?"
+mi "นี่เธอ! ทำตัวเกเรอีกแล้วเหรอ"
 
 show hanako emb_blushtimid
 with charachange
 
-"Hanako blushes hard at Misha's straightforward jab, even if it was only in jest."
+# "Hanako blushes hard at Misha's straightforward jab, even if it was only in jest."
+"ฮานาโกะหน้าแดงหนักมากจากคำเสียดสีของมิช่า ถึงแม้จะเป็นแค่การล้อเล่นก็ตาม"
 
 show shizu basic_angry at Transform(xanchor=0.5, xpos=0.35)
 with charamove
@@ -2029,36 +2059,47 @@ with charachange
 show hanako emb_downsad at Transform(xanchor=0.5, xpos=0.97)
 with charamove
 
-"Shizune stares at her probingly, causing Hanako to look down and start backing away to the point where only her fingers can be seen wrapped nervously around the edge of the door."
+# "Shizune stares at her probingly, causing Hanako to look down and start backing away to the point where only her fingers can be seen wrapped nervously around the edge of the door."
+"ชิซูเนะมองเธอด้วยความสงสัย ทำให้ฮานาโกะก้มหน้าแล้วถอยหนีไปจนเห็นเพียงนิ้วของเธอเท่านั้นที่จับรอบขอบประตูด้วย\nความประหม่า"
 
-"Maybe she is showing her dislike of Hanako by association of her dislike of Lilly."
+# "Maybe she is showing her dislike of Hanako by association of her dislike of Lilly."
+"บางทีเธอคงแสดงความไม่ชอบฮานาโกะพอ ๆ กับการที่เธอไม่ชอบลิลลี่"
 
-"It appears so, and Hanako probably knows it as well."
+# "It appears so, and Hanako probably knows it as well."
+"คงจะเป็นแบบนั้น และฮานาโกะเองก็รู้ตัวเช่นกัน"
 
-"They seem to have momentarily forgotten about trying to get me to stay for the rest of the day."
+# "They seem to have momentarily forgotten about trying to get me to stay for the rest of the day."
+"ดูเหมือนว่าพวกเธอจะลืมไปสักพักว่าจะพยายามให้ฉันอยู่ต่อจนหมดวัน"
 
-hi "What is it, Hanako?"
+# hi "What is it, Hanako?"
+hi "มีอะไรเหรอ ฮานาโกะ"
 
 show hanako emb_timid
 with charachange
 
-ha "H… has Lilly been here?"
+# ha "H… has Lilly been here?"
+ha "ละ… ลิลลี่อยู่ไหม?"
 
-mi "Sorry, Satou is not here. She, eh, came by in the morning though."
+# mi "Sorry, Satou is not here. She, eh, came by in the morning though."
+mi "โทษทีจ้า ซาโต้ไม่อยู่ที่นี่ เธอ เอ่อ มาเมื่อเช้าน่ะ"
 
 show hanako emb_downtimid
 with charachange
 
-"Hanako keeps looking uneasily at Shizune, who stares back at her with her usual studying gaze. What is she trying to do?"
+# "Hanako keeps looking uneasily at Shizune, who stares back at her with her usual studying gaze. What is she trying to do?"
+"ฮานาโกะยังคงมองชิซูเนะอย่างไม่สบายใจ ซึ่งชิซูเนะก็จ้องกลับมาที่เธอด้วยสายตาที่จดจ่ออย่างเคย เธอต้องการทำอะไร\nกันแน่นะ"
 
-"Of course Shizune isn't going to look away, and she is intimidating enough as it is, so I can only imagine how terrified Hanako would be."
+# "Of course Shizune isn't going to look away, and she is intimidating enough as it is, so I can only imagine how terrified Hanako would be."
+"แน่นอนว่าชิซูเนะไม่หยุดมองแน่ ๆ และเธอก็ท่าทางน่ากลัวด้วย สภาพนี้ฮานาโกะคงจะกลัวเอามาก ๆ แน่ ๆ"
 
-"It is a little funny though, watching Hanako's reaction to Shizune's normal behavior. This is what happens when two people of two different extremes meet, it seems."
+# "It is a little funny though, watching Hanako's reaction to Shizune's normal behavior. This is what happens when two people of two different extremes meet, it seems."
+"ซึ่งก็ดูตลกนิดหน่อย จากการที่ดูปฏิกิริยาของฮานาโกะที่มีต่อนิสัยปกติของชิซูเนะ นี่คงเป็นสิ่งที่จะเกิดขึ้นเมื่อสองคนที่นิสัย\nต่างกันสุดขั้วมาเจอกันสินะ"
 
 show hanako emb_timid
 with charachange
 
-ha "Do… do you know where she is?"
+# ha "Do… do you know where she is?"
+ha "แล้ว… เธอรู้ไหมว่าลิลลี่อยู่ไหน"
 
 show shizu behind_frown
 with charachange
@@ -2068,19 +2109,19 @@ shi "…"
 show misha hips_frown 
 with charachange
 
-mi "If she has any sense in her head, she's in her classroom, working on their festival project. But who knows where that woman is loitering at."
-
-
+# mi "If she has any sense in her head, she's in her classroom, working on their festival project. But who knows where that woman is loitering at."
+mi "ถ้าเธอคนนั้นมีจิตสำนึกสักหน่อย เธอก็คงจะอยู่ห้องเธอช่วยจัดงานเทศกาลแหละ แต่ใครจะรู้ เธอคนนั้นอาจจะจะหนีไปซ่อน\nตัวที่ไหนก็ได้"
 
 label th_A22a:
 
 show misha hips_grin at Transform(xanchor=0.5, xpos=0.15)
 with charachange
 
-mi "She might be slacking off somewhere, just like Hicchan~! Wahaha~!"
+# mi "She might be slacking off somewhere, just like Hicchan~! Wahaha~!"
+mi "เธอคงหนีไปอู้ที่ไหนสักที่แหละ เหมือนฮิจังอะนะ~! วะฮ่าฮ่า~!"
 
-"Damn, what is it with Shizune and her need to point out stuff like this?"
-
+# "Damn, what is it with Shizune and her need to point out stuff like this?"
+"แม่ง ชิซูเนะกับเธอเป็นอะไรไปวะ ถึงต้องมาแซะกันแบบนี้"
 
 
 label th_A22b:
@@ -2092,7 +2133,9 @@ show hanako emb_timid at Transform(xanchor=0.5, xpos=0.97)
 with None
 
 
-mi "She might be slacking off somewhere~! What a useless woman~!"
+# mi "She might be slacking off somewhere~! What a useless woman~!"
+mi "เธอคงหนีไปอู้ที่ไหนสักที่แหละ ช่างเป็นคนไร้ประโยชน์จริง ๆ ~!"
+#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 show hanako emb_downtimid
 with charachange
