@@ -11,17 +11,17 @@ with openeye
 
 window show
 
-"My morning alarm goes off, and I flail about uselessly for a while until I remember that I'd decided to give morning runs another shot."
+"นาฬิกาปลุกดังแล้ว ฉันนอนพลิกไปมาอยู่พักหนึ่งจนนึกได้ว่าวันนี้จะลองวิ่งดูอีกครั้ง"
 
-"I don't know if this was my greatest idea, but I'm determined to keep going."
+"ไม่รู้ว่าคิดถูกแล้วจริง ๆ หรือเปล่า แต่ก็อยากทำต่อ"
 
-"This is about my health, after all."
+"เพื่อสุขภาพนี่นะ"
 
-"Sure, things haven't been great lately for me, but that hasn't made existence so intolerable that I'm not going to try everything I can to stay healthy."
+"ก็ใช่ว่าช่วงนี้อะไรจะราบรื่นไปหมดหรอก แต่ก็ไม่ได้ลำบากลำบนถึงขั้นไม่อยากลุกขึ้นมารักษาสุขภาพสักหน่อย"
 
-"Besides, it's all about asserting some kind of control over this thing, right?"
+"อีกอย่าง ทำแบบนี้ก็คงพอช่วยให้อาการนี้ดีขึ้นบ้างแหละนะ"
 
-"If I can manage that, well, I can manage anything."
+"ถ้าทำเรื่องนี้ได้ ก็ทำอะไรก็ได้หมด"
 
 "At least that's what I keep telling myself."
 
@@ -30,13 +30,13 @@ with locationskip
 
 play ambient sfx_emirunning fadein 0.3
 
-"Once again, it would appear that I'm not alone in my run."
+"อย่างน้อยฉันก็บอกตัวเองอย่างนั้น"
 
-"Emi has apparently been here for some time."
+"เอมิเหมือนจะมาก่อนสักพักแล้ว"
 
-"It looks like she's already worked up a good sweat."
+"เหมือนจะพอได้เหงื่อแล้วด้วย"
 
-"Just when the hell does she come down here, anyway?"
+"มาถึงนี่กี่โมงกันแน่เนี่ย"
 
 stop ambient fadeout 0.3
 
@@ -45,94 +45,93 @@ with charaenter
 
 play music music_emi fadein 0.5
 
-emi "Oh, it's you!"
+emi "อ๊ะ นายน่ะเอง!"
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "I'm surprised to see you again!"
+emi "ไม่คิดว่านายจะมาอีกนะเนี่ย!"
 
-hi "Why's that?"
+hi "ทำไมล่ะ"
 
 show emi basic_grin_gym
 with charachange
 
-emi "Well, not many people actually manage to come back for a second try."
+emi "ก็ มีไม่กี่คนหรอกที่จะมาซ้ำน่ะ"
 
 show emi basic_annoyed_gym
 with charachange
 
-"She frowns, seemingly annoyed by a passing thought."
+"เธอขมวดคิ้วดูอารมณ์เสียกับเรื่องนั้น"
 
-emi "Like the rest of the track team, for instance."
+emi "อย่างคนในชมรมวิ่งงี้"
 
-emi "Still, it was only supposed to be on a volunteer basis, so it's not that big of a shock."
+emi "แต่ก็ใช้ระบบสมัครใจน่ะนะ ก็ไม่แปลกใจเท่าไหร่หรอก"
 
-emi "And I guess it's pretty early in the morning…"
+emi "แถมยังเช้าขนาดนี้…"
 
-"A shrug, and suddenly it appears that she's forgotten what she was talking about."
+"เธอยักไหล่ และเหมือนอยู่ ๆ ก็ลืมว่าพูดเรื่องอะไรอยู่"
 
 show emi basic_happy_gym
 with charachange
 
-"The frown disappears entirely, and she seems to snap back to her previous train of thought."
+"คิ้วที่ขมวดคลายลงคล้ายปัดความคิดพวกนั้นทิ้งไปแล้ว"
 
-emi "So! Come on, then!"
+emi "เอาละ! งั้นก็มาเลย!"
 
-hi "What?"
+hi "หา?"
 
 show emi excited_proud_gym
 with charachange
 
-emi "You're here to run again, right?"
+emi "นายมาวิ่งอีกใช่ไหมล่ะ"
 
-hi "Well, yes."
+hi "ก็ ใช่"
 
 show emi basic_closedhappy_gym
 with charachange
 
-emi "So come on!"
+emi "ก็มาเลย!"
 
 scene bg school_track_on
 with locationchange
 
-"I find myself suddenly grabbed and yanked onto the track."
+"อยู่ ๆ ฉันก็ถูกลากตัวไปยังลู่วิ่ง"
 
 play ambient sfx_emijogging fadein 0.3
 
 scene bg school_track_running
 with locationchange
 
-"Things seem to be set on mirroring yesterday's run."
+"เหมือนกับที่วิ่งเมื่อวานเลย"
 
-"That is, I seem to be struggling, while Emi moves with an effortlessness that I find enviable."
+"ซึ่งก็คือ ฉันดูจะกระหืดกระหอบ ในขณะที่เอมิพุ่งตัวไปสบายฉิวจนฉันอิจฉา"
 
-"It's incredibly bothersome, to be so easily worn out."
+"รำคาญตัวเองที่เหนื่อยง่ายอย่างนี้"
 
-"I know I should be patient, work toward things gradually, but…"
+"รู้อยู่ว่าฉันควรอดทน ค่อยเป็นค่อยไป แต่ว่า…"
 
-"It's difficult to stay positive about this."
+"ฉันไม่รู้จะเอากำลังใจมาจากไหนต่อ"
 
-"We round the track and start on our second lap."
+"พอวนครบรอบแล้วก็เตรียมวิ่งรอบที่สอง"
 
 play ambient sfx_emirunning
 
-"Emi seems to have grown impatient keeping pace with me, and begins to pull away."
+"เอมิเหมือนจะอดทนลดความเร็วฝีเท้าให้เท่าฉันไม่ไหวจนนำออกไปก่อนแล้ว"
 
-"This is where I gave out yesterday."
-
+"เมื่อวานฉันก็หยุดไปตอนวิ่งได้ประมาณนี้"
 
 
 label th_choiceA25:
 menu:
     with menueffect
 
-    "Will I be able to do more?"
+    "จะต่ออีกไหวมั้ยนะ"
 
-    "Go for it.":
+    "ไปต่ออีก":
         return m1
 
-    "Take it easy.":
+    "ไปแบบสบาย ๆ ":
         return m2
 
 label th_A25a:
@@ -141,51 +140,51 @@ label th_A25a:
 
 stop music fadeout 10.0
 
-"I let Emi go with her own pace, and she doesn't show mercy, pulling half a lap ahead of me in an instant."
+"ฉันปล่อยให้เอมิวิ่งไปด้วยความเร็วของเธอ และเธอก็ดูจะไม่ลดละเลย วิ่งนำฉันไปได้ครึ่งรอบสนามแล้ว"
 
-"I don't blame her."
+"ก็ว่าไม่ได้หรอก"
 
-"I mean, it's not as if I'm really putting up any sort of real fight out here, is it?"
+"ไม่ได้มาแข่งเอาเป็นเอาตายสักหน่อยนี่นะ"
 
-"Instead, I'm just running at a steady pace, which is what I should be doing, right?"
+"ฉันคอยวิ่งไปเรื่อย ๆ ด้วยจังหวะสม่ำเสมอ ซึ่งฉันก็ต้องทำอย่างนี้อยู่แล้วนี่"
 
-"There's no need to go pushing my limits at this stage of the game."
+"เพิ่งเริ่มก็ไม่ต้องฝืนขีดจำกัดของตัวเองหรอก"
 
-"God, is this even worth it?"
+"ให้ตาย คุ้มค่ามั้ยเนี่ย"
 
 scene bg school_track_on
 with locationchange
 
-"As we finish the second lap, I break off again."
+"พอวิ่งได้สองรอบฉันก็หยุดอีก"
 
-"Emi keeps going, and it almost seems to me that she's disappointed."
+"เอมิยังวิ่งต่อ และเหมือนฉันจะเห็นว่าเธอผิดหวังด้วย"
 
-"Well, that's stupid."
+"เหอะ บ้าหรือเปล่า"
 
-"I don't have anything to prove to her - come to think of it, I've got nothing to prove to myself, either."
+"ฉันไม่มีหลักฐานอะไรจะพิสูจน์ให้เธอเห็น จะว่าไปแล้วฉันก็ไม่มีอะไรพิสูจน์ให้ตัวเองเห็นเหมือนกัน"
 
-"I'm just fine the way I am."
+"ฉันอยู่อย่างนี้ก็ดีอยู่แล้ว"
 
-"And what I'm not is a runner."
+"แล้วฉันก็ไม่ใช่นักวิ่ง"
 
-"This was probably a bad idea."
+"สงสัยจะคิดผิด"
 
-"Maybe there's something else I can do instead of this."
+"อาจจะมีอย่างอื่นที่พอให้ทำแทนได้"
 
-"Getting up this early sucks, anyway. There's got to be some other way to keep healthy."
+"อีกอย่าง ต้องตื่นเช้าขนาดนี้ก็ไม่ไหวหรอก จะรักษาสุขภาพอาจจะมีวิธีอื่นก็ได้"
 
-"Walking, maybe. Nice afternoon walks."
+"เดิน มั้ง เดินเล่นช่วงบ่ายสบาย ๆ "
 
-"Yeah, that sounds good. Running isn't for me."
+"อืม ก็ฟังดูดี ฉันวิ่งไม่ไหวหรอก"
 
 stop ambient fadeout 2.0
 
 scene bg school_track
 with locationchange
 
-"I wave to Emi and head back to my room."
+"ฉันโบกมือให้เอมิแล้วกลับห้อง"
 
-"I'll think of something else later."
+"ไว้ค่อยคิดแล้วกัน"
 
 
 
@@ -193,25 +192,25 @@ with locationchange
 
 label th_A25b:
 
-"What am I doing here?"
+"นี่ฉันมัวทำอะไรอยู่"
 
-"Am I really just going to fold and let Emi pull ahead?"
+"จะยอมแพ้แล้วให้เอมินำไปเฉย ๆ เหรอ"
 
 scene bg school_track_running
 with locationchange
 
-"I speed up."
+"ฉันเร่งฝีเท้าขึ้น"
 
-"The second lap's done quickly, and without even considering it I keep going."
+"รอบที่สองผ่านไปอย่างรวดเร็ว ฉันไปต่อโดยไม่สนเลขรอบแล้ว"
 
-"Emi looks back over her shoulder at me and grins."
+"เอมิหันมามองแล้วยกยิ้ม"
 
 show emi excited_proud_gym at twoleft
 with charaenter
 
-emi "Still going?"
+emi "ยังไหวอยู่เหรอ"
 
-hi "Wouldn't *pant* want you *pant* to think I'm outta shape *pant*"
+hi "เดี๋ยว *แฮ่ก* เธอหา *แฮ่ก* ว่าฉันไม่ฟิต *แฮ่ก*"
 
 show emi excited_laugh_gym
 with charachange
@@ -221,25 +220,25 @@ with charamoveoutleft
 
 play ambient sfx_emipacing
 
-"Emi laughs - without breaking her stride, no less - and speeds up even more."
+"เอมิหัวเราะ—ซ้ำยังไม่ลดฝีเท้าเธอลงเลย—แล้วเพิ่มความเร็วอีก"
 
-"Well, if this is the way we're going to play things…"
+"ได้ ถ้าจะเล่นแบบนี้ละก็…"
 
-"I increase my own pace as well."
+"ฉันเร่งฝีเท้าตัวเองบ้าง"
 
-"I can feel my lungs burning, and my legs are starting to question just what the hell I think I'm doing."
+"รู้สึกเหมือนปอดจะไหม้ ขาก็เริ่มส่งสัญญาณว่านี่ทำอะไรอยู่วะ"
 
-"Lactic acid screams in my muscles, but I close my ears."
+"กรดแลกติกต่างกรีดร้องอยู่ในกล้ามเนื้อ แต่ฉันทำหูทวนลม"
 
-"I can't let myself fall behind, because that would be a loss."
+"ฉันจะมัวรั้งท้ายไม่ได้ ไม่งั้นฉันก็แพ้สิ"
 
-"The rational voice in my head inquires mildly just when we started playing a game."
+"แต่สมองด้านตรรกะของฉันก็เริ่มถามว่านี่แข่งกันไปตอนไหน"
 
-"I'd answer it, but I'm having a lot of trouble thinking at present."
+"ก็อยากตอบอยู่หรอก แต่ตอนนี้ไม่มีสมองจะคิดแล้ว"
 
-"She's so {b}fast{/b}."
+"เธอ{b}เร็ว{/b}มาก"
 
-"How the hell does she keep it—{w=.5}{nw}"
+"นี่วิ่งไหวไปได้ยั—{w=.5}{nw}"
 
 stop music fadeout 0.2
 
@@ -250,26 +249,26 @@ with Dissolve (0.1)
 hide heartattack alpha
 with Dissolve (0.2)
 
-"It's like a string pulling at my chest, a choking feeling of narrowness and pain."
+"รู้สึกเหมือนหน้าอกถูกรัด อึดอัดจนทรมาน"
 
-"Before I can think of anything else than “Oh shit,” the track disappears from under my feet."
+"สองเท้าของฉันเสียหลักแม้แต่ก่อนจะทันได้คิดแค่ว่า “ฉิบหาย”"
 
 scene bg school_track_on:
     xalign 0.5 yalign 0.52 rotate 0 zoom 1.0
     linear 0.1 rotate -6 zoom 1.2
 with vpunch
 
-"I stumble, one hand shooting down to clutch at my chest, the other hitting the track to keep me from falling on my face."
+"ฉันสะดุดล้ม มือข้างหนึ่งกุมหน้าอกเอาไว้ อีกข้างกระแทกเข้ากับลู่วิ่งไม่ให้หน้าทิ่มพื้น"
 
 stop ambient fadeout 0.2
 
-"Emi whirls around and her eyes widen."
+"เอมิหันขวับมาแล้วมองตาโต"
 
-emi "Hisao!"
+emi "ฮิซาโอะ!"
 
 play ambient sfx_emisprinting
 
-"She yells at me, sprinting from the other side of the track."
+"เธอร้องเรียกฉันแล้ววิ่งมาจากอีกฟากของลู่วิ่ง"
 
 show emi basic_shock_gym:
     xalign 0.5 yalign 0.7 rotate -6 zoom 1.2
@@ -277,20 +276,9 @@ with charamoveinright
 
 stop ambient fadeout 0.1
 
-emi "What's wrong?"
+emi "เป็นอะไรหรือเปล่า"
 
-hi "Nngh—Nothing, just…"
-
-play sound sfx_heartfast
-show heartattack alpha
-with Dissolve (0.1)
-
-hide heartattack alpha
-with Dissolve (0.2)
-
-"Keep your breathing steady."
-
-"Calm down. Don't panic."
+hi "อึก—เปล่า แค่…"
 
 play sound sfx_heartfast
 show heartattack alpha
@@ -299,7 +287,18 @@ with Dissolve (0.1)
 hide heartattack alpha
 with Dissolve (0.2)
 
-"Don't panic."
+"หายใจช้า ๆ "
+
+"ใจเย็น ๆ อย่าล่กไป"
+
+play sound sfx_heartfast
+show heartattack alpha
+with Dissolve (0.1)
+
+hide heartattack alpha
+with Dissolve (0.2)
+
+"อย่าล่ก"
 
 show emi basic_shock_gym:
     parallel:
@@ -308,7 +307,7 @@ show emi basic_shock_gym:
         "emi basic_hes_gym" with Dissolve(0.2, alpha=True)
 with None
 
-emi "Do you need me to get the nurse?"
+emi "ให้ไปเรียกพยาบาลมั้ย"
 
 show black
 with shuteyefast
@@ -316,7 +315,7 @@ with shuteyefast
 scene black
 with None
 
-"I close my eyes, shutting out the outside world."
+"ฉันหลับตาตัดขาดจากโลกภายนอก"
 
 play sound sfx_heartfast
 show heartattack
@@ -334,13 +333,13 @@ with Dissolve (0.1)
 hide heartattack
 with Dissolve (0.7)
 
-"My heart struggles to regain its rhythm."
+"หัวใจของฉันพยายามกลับมาเต้นให้ปกติ"
 
-"Slowly, the pain in my chest begins to subside."
+"ความรู้สึกเจ็บที่อยู่ในหน้าอกค่อย ๆ บรรเทาลง"
 
-"Soon it's gone like nothing happened."
+"แล้วก็หายไปเหมือนไม่มีอะไรเกิดขึ้น"
 
-"It was… nothing? No, something happened there."
+"ก็…ไม่มีอะไร? ไม่สิ มีแหละ"
 
 play music music_rain fadein 2.0
 
@@ -348,39 +347,39 @@ scene bg school_track_on
 show emi basic_hes_gym_close at center
 with openeye
 
-"I open my eyes again and glance at a very worried Emi."
+"ฉันลืมตาขึ้นอีกครั้งแล้วมองเอมิที่ดูเป็นห่วงมาก"
 
-hi "I think I'm fine."
+hi "น่าจะไม่เป็นอะไร"
 
-"My voice sounds weird even to myself, oddly even and matter-of-fact. It makes Emi frown."
+"เสียงของฉันฟังดูประหลาดจนแม้แต่ตัวฉันเองยังรู้สึก เป็นน้ำเสียงเรียบนิ่งพิกลที่ทำเอมิขมวดคิ้ว"
 
 show emi sad_annoyed_gym_close
 with charachange
 
-emi "I don't think you are."
+emi "ฉันว่าไม่น่าใช่นะ"
 
-"She seems to come to a decision, and nods to herself."
+"เธอพยักหน้ากับตัวเองเหมือนตัดสินใจบางอย่างได้"
 
 show emi basic_annoyed_gym_close
 with charachange
 
-emi "Right. You're coming with me."
+emi "เอาละ นายมากับฉันเลย"
 
-emi "You've got to see the nurse."
+emi "นายต้องไปหาคุณพยาบาล"
 
 with vpunch
 
-"Emi grabs my arm and drags me up. I feel a bit wobbly, but I refuse the shoulder Emi offers for support."
+"เอมิจับแขนฉันแล้วดึงตัวให้ลุกขึ้น ยังรู้สึกตัวโยกนิดหน่อย แต่ก็ไม่ได้ขอพึ่งไหล่ของเอมิไป"
 
-"Honestly, I'm a little ashamed by my own weakness."
+"เอาจริง ๆ ฉันก็แอบอายกับความอ่อนแอของตัวเองเหมือนกัน"
 
-"I'd really rather not have Emi concerned about me, but it seems to be too late."
+"ไม่อยากให้เอมิต้องมาเป็นห่วงเลย แต่เหมือนจะสายไปแล้ว"
 
-"Heck, I'd really rather not have anyone concerned about my condition, though at this point, it seems to be too late for that as well."
+"ไม่สิ ไม่อยากให้ใครมาเป็นห่วงอาการฉันทั้งนั้นแหละ ถึงป่านนี้จะสายไปแล้วเหมือนกันก็เถอะ"
 
-"I'd like to be able to deal with the whole thing on my own, without being a bother to anyone else."
+"ฉันอยากจะจัดการกับสิ่งเหล่านั้นด้วยตัวเองโดยไม่ต้องรบกวนใคร"
 
-"While I'm wishing for things, I'd rather not have this condition in the first place."
+"แม้จะขอเช่นนั้น แต่ยังไงไม่เป็นโรคนี้เลยจะดีที่สุด"
 
 stop music fadeout 1.0
 
@@ -390,95 +389,95 @@ with locationskip
 show emi basic_shock_gym at tworight
 with easeinright
 
-emi "Nurse!"
+emi "คุณพยาบาลคะ!"
 
-"Emi crashes into his office without knocking, but it doesn't alarm the nurse in the least."
+"เอมิพุ่งตัวเข้าไปในห้องทำงานของคุณพยาบาลโดยไม่เคาะประตู แต่เขาไม่ตกใจเลย"
 
 play music music_nurse fadein 0.5
 
 show nurse grin at twoleft
 with charaenter
 
-nk "Good morning, sunshine. What's up?"
+nk "อรุณสวัสดิ์จ้ะสาวน้อย มีอะไรเหรอ"
 
-"Sunshine? Anyway, he calmly sips from his coffee mug but lays it down after following Emi's gaze to me looming in the doorway."
+"สาวน้อย? เอาเถอะ เขาจิบกาแฟอย่างใจเย็น แต่ก็วางลงหลังมองตามสายตาของเอมิมาเจอเข้ากับฉันที่ยืนทะมึนอยู่ตรงประตู" 
 
 show nurse fabulous
 with charachange
 
-nk "Hisao? What brings you here?"
+nk "ฮิซาโอะ มาทำไมเหรอ"
 
 show emi excited_sad_gym
 with charachange
 
-emi "We were running and he stumbled over and started grabbing at his chest and I thought I'd come get you and make him wait there but he said he was okay but then I thought you should see him anyway and—{w=1.5}{nw}"
+emi "พอดีพวกเราวิ่งด้วยกันอยู่แล้วเขาก็สะดุดล้มมือกุมอยู่ที่หน้าอกค่ะ ทีแรกหนูตั้งใจว่าจะมาเรียกคุณพยาบาลแล้วให้เขา\nรอก่อน แต่เขาก็บอกว่าไม่เป็นไร แล้วหนูก็คิดได้ว่ายังไงหมอก็ต้องมาเห็นหน้าเขาอยู่ดีน่ะค่ะ แล้ว—{w=1.5}{nw}"
 
 show nurse concern
 with charachange
 
-nk "Easy there, Emi. Calm down."
+nk "ค่อย ๆ นะเอมิ ใจเย็น ๆ ก่อน"
 
 show nurse neutral
 with charachange
 
-nk "Hisao, what happened?"
+nk "ฮิซาโอะ เกิดอะไรขึ้น"
 
-hi "I don't know. We were running, and then my chest started hurting like that time before, but it went away after a few seconds."
+hi "ไม่รู้สิครับ ผมวิ่งอยู่แล้วอยู่ ๆ ก็เจ็บหน้าอกขึ้นมาเหมือนตอนนั้น แต่ไม่กี่วินาทีมันก็หายไปเอง"
 
-hi "It was just a flutter or something."
+hi "หัวใจคงเต้นผิดจังหวะนิดหน่อยละมั้งครับ"
 
 show nurse concern
 with charachange
 
-"The nurse frowns, as if to say that “just a flutter” is some kind of oxymoron."
+"คุณพยาบาลขมวดคิ้วคล้ายบอกว่าคำว่า “เต้นผิดจังหวะ” กับ “นิดหน่อย” ไม่น่าอยู่ด้วยกันได้"
 
-nk "I didn't mean quite this when I suggested to get some exercise. You've got to be more careful, Hisao."
+nk "ที่ฉันบอกให้ออกกำลังกายไม่ได้บอกให้ถึงขนาดนี้นะ ระวังหน่อยแล้วกันนะฮิซาโอะ"
 
-hi "I was being careful, I just…"
+hi "ผมก็ระวังอยู่นะครับ แค่…"
 
-"Come to think of it, “I just got into a race with a member of the track team” doesn't seem as well reasoned as I thought it would."
+"พอมานึกดูแล้ว เหตุผลว่า “ไปวิ่งแข่งกับคนในชมรมวิ่ง” ก็ไม่ได้ฟังดูดีอย่างที่คิดเท่าไหร่"
 
-nk "You just what?"
+nk "แค่อะไร"
 
-hi "Er… that is…"
+hi "เอ้อ…คือ…"
 
-hi "I was racing Emi."
+hi "ผมวิ่งแข่งกับเอมิน่ะครับ"
 
-nk "Emi, is this true?"
+nk "จริงเหรอเอมิ"
 
 show emi basic_hes_gym
 with charachange
 
-"Emi fidgets, looking adorably contrite."
+"เอมิทำท่ากระมิดกระเมี้ยน ดูสำนึกผิดอย่างน่ารัก"
 
-emi "Um, well…"
+emi "เอ่อ ก็…"
 
 show emi basic_closedsweat_gym
 with charachange
 
-"Finally she can't seem to bring herself to say it aloud, and merely nods."
+"สุดท้ายเธอก็ไม่กล้าพูดออกมาแล้วได้แต่พยักหน้า"
 
-"The nurse sighs and rubs at his forehead with one hand tiredly."
+"คุณพยาบาลถอนหายใจแล้วนวดหน้าผากด้วยมือข้างหนึ่งด้วยความหน่ายใจ"
 
-nk "Emi, you've got to be more sensitive to the limits of others!"
+nk "เอมิ เธอต้องคิดถึงเรื่องขีดจำกัดของคนอื่นด้วยสิ!"
 
-nk "I don't know if he told you, but Hisao has a bad heart, and getting him to race you was incredibly irresponsible."
+nk "ไม่รู้ว่าเขาบอกเธอไปหรือยัง แต่หัวใจฮิซาโอะเขาไม่ค่อยแข็งแรง เธอสะเพร่ามากนะที่ให้เขามาวิ่งแข่งด้วยเนี่ย"
 
-hi "Er, actually I started it."
+hi "เอ่อ ที่จริง ผมเป็นคนเริ่มเองครับ"
 
-"The nurse is stunned by my statement."
+"คุณพยาบาลได้ฟังแล้วอึ้งไป"
 
-nk "You WHAT?"
+nk "{b}ว่าไงนะ{/b}?"
 
-hi "We were just running, and Emi started to pull away, and so I uh, sped up to catch her."
+hi "พวกเราก็วิ่งกันอยู่ แล้วเอมิก็นำไป ผมเลย เอ่อ เร่งเท้าให้วิ่งทัน"
 
-"The nurse stares at the ceiling, mutters a prayer for patience to some god or another, and looks back down at the both of us."
+"คุณพยาบาลมองเพดาน คงสวดขอขันติจากพระเจ้าหรืออะไรสักอย่าง แล้วมองกลับมาที่พวกเราสองคน"
 
-nk "So you're {b}both{/b} stupid."
+nk "โอเค สรุปโง่{b}แพ็กคู่{/b}"
 
-nk "That's a comfort, I guess."
+nk "ก็ค่อยยังชั่วหน่อยละมั้ง"
 
-nk "Now come on, Hisao. I've got to make sure your heart's not going to explode or something."
+nk "เอ้า ฮิซาโอะ ขอตรวจดูให้แน่ใจหน่อยว่าหัวใจเธอจะไม่ระเบิดหรืออะไรไปก่อนแล้วกัน"
 
 show bg school_nurseoffice at left
 show nurse concern at center
@@ -488,131 +487,131 @@ with charamove
 hide emi
 with None
 
-"I dutifully obey and follow him to the adjacent room where we ascertain that I am, in fact, not going to keel over and die."
+"ฉันตามเขาอย่างว่าง่ายไปที่ห้องข้าง ๆ เพื่อดูว่าฉันจะไม่ได้ล้มพับแล้วตายไปจริง ๆ "
 
-nk "So how does it feel?"
+nk "แล้วเป็นยังไงบ้าง"
 
-hi "I don't know. Nothing much. Tired, but it might be just from the exercise."
+hi "ไม่รู้สิครับ ไม่มีอะไรมาก ก็เหนื่อย แต่ก็แค่คงเพราะออกกำลังกาย"
 
-nk "You should stay here for a few hours and rest, and we'll see how you feel after that."
+nk "เธอพักอยู่ที่นี่สักสองสามชั่วโมงก่อนนะ แล้วจะดูอาการอีกที"
 
-"I am not going to object, so I lie down on the infirmary bed."
+"ฉันไม่ปฏิเสธแล้วนอนลงกับเตียงพยาบาล"
 
 stop music fadeout 2.0
 
 scene bg school_nurseoffice at left
 with shorttimeskip
 
-"A thoroughly miserable Emi comes in after getting an earful from the nurse in the other room."
+"เอมิเข้ามาหาด้วยท่าทางซึมกะทือหลังจากที่โดนคุณพยาบาลว่าไปชุดใหญ่อยู่อีกห้อง"
 
-"I couldn't hear what he said through the closed door, but I'm sure it wasn't pleasantries."
+"เพราะประตูปิดอยู่ก็เลยไม่ได้ยินว่าพูดอะไร แต่คงไม่ใช่เรื่องดีแน่ ๆ ละ"
 
 show emi sad_depressed_gym at center
 with charaenter
 
 play music music_dreamy fadein 0.5
 
-emi "Look, I'm really, really sorry."
+emi "คือ ฉันขอโทษ ขอโทษจริง ๆ นะ"
 
-emi "I should've been more careful."
+emi "ฉันน่าจะระวังให้มากกว่านี้"
 
-hi "Hey, you didn't know. It's not your fault."
+hi "น่า เธอไม่รู้นี่ เธอไม่ผิดหรอก"
 
-"She looks awfully down and sorry, and my reassurances don't do anything much to cheer her up."
+"เธอดูหงอยและรู้สึกผิดมาก แม้แต่คำตอบของฉันก็ไม่ได้ช่วยให้เธอร่าเริงขึ้น"
 
-emi "I want to make it up to you."
+emi "ฉันอยากชดใช้ให้นาย"
 
-"Again with that decisive nod."
+"พยักหน้าเหมือนตัดสินใจอะไรได้แบบนั้นอีกแล้ว"
 
 show emi sad_shy_gym
 with charachange
 
-emi "So you have to come to lunch with me."
+emi "นายต้องมากินข้าวเที่ยงกับฉันนะ"
 
-emi "I'll bring it for you, okay? Something really really good!"
+emi "ฉันจะเอามาเผื่อนายด้วย อร่อยมาก ๆ เลยละ!"
 
-"I start with a “You don't have to…” but then shut up and just nod at her when I see her face."
+"ฉันกำลังพูดว่า “ไม่ต้องก็…” แต่พอเห็นหน้าเธอแล้วก็ต้องหุบปากแล้วพยักหน้ารับไป"
 
 show emi excited_proud_gym
 with charachange
 
-emi "Good!"
+emi "ดีเลย!"
 
 show emi basic_grin_gym
 with charachange
 
-emi "We meet on the roof."
+emi "เรามาเจอกันที่ดาดฟ้านะ"
 
-hi "We?"
+hi "เรา?"
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "Yep! The weather's nice now, so the roof's a great spot for lunch, you know."
+emi "ช่าย! อากาศก็ดี ดาดฟ้านี่แหละเหมาะกับข้าวเที่ยงเลยนะ"
 
-hi "I see."
+hi "อย่างงี้นี่เอง"
 
 show emi sad_shy_gym
 with charachange
 
-emi "You'll come, right?"
+emi "นายจะมาใช่มั้ย"
 
-emi "You wouldn't deny me the chance to make it up to you?"
+emi "นายจะไม่ปฏิเสธโอกาสที่จะให้ฉันได้ชดใช้นี้ใช่มั้ย"
 
-hi "Of course not."
+hi "ไม่หรอกน่า"
 
 show emi excited_joy_gym
 with charachange
 
-emi "Great! See you there!"
+emi "เยี่ยม! ไว้เจอกัน!"
 
 hide emi
 with charaexit
 
 with shorttimeskip
 
-"I stay afloat somewhere between asleep and awake, feeling completely drained."
+"สติฉันอยู่ในสภาพสะลึมสะลือพร้อมความรู้สึกอ่อนเปลี้ยเพลียแรง"
 
-"Not only my body, but all of me is limp and paralyzed, apart from my senses."
+"ไม่ใช่แค่ตัว แต่ทั้งร่างอ่อนยวบกับชาไปหมดจนไม่รู้สึกอะไร"
 
-"I swallow with difficulty and then try to lie as still as I can, which in this state is not a very hard thing to do."
+"ฉันกลืนน้ำลายด้วยความยากลำบากแล้วนอนให้นิ่งที่สุด ซึ่งพออยู่ในสภาพนี้แล้วก็ทำได้ไม่ยาก"
 
-"The nurse is shuffling around on the other side of the curtains he drew to give me privacy. I can see his shadow shifting about in the sunlight."
+"คุณพยาบาลดูวุ่นอยู่ข้างหลังม่านที่เขารูดมาบังเพื่อความเป็นส่วนตัวของฉัน ฉันเห็นเงาของเขาวูบไหวไปมาในแสงแดด"
 
-"He has opened the window of his office. It's windy outside."
+"เขาเปิดหน้าต่างห้องทำงานของเขา และข้างนอกมีลมพัด"
 
-"The clean white curtains flutter in the breeze in a heavy, lazy motion, like waves. Light sifts through them slowly, half absorbing into the fabric."
+"ผ้าม่านสีขาวสะอาดโบกพลิ้วไปกับสายลมอย่างเอื่อยเฉื่อยเหนื่อยหน่ายคล้ายคลื่น แสงลอดผ่านเข้ามาช้า ๆ ครึ่งหนึ่งถูก\nผ้าม่านซับไป"
 
 stop music fadeout 5.0
 
 scene darkgrey
 with shuteye
 
-"I close my eyes. The breeze on my face feels like the soft fabric of the curtains."
+"ฉันหลับตาลง สายลมพัดโบกกับใบหน้าฉันเหมือนกับที่พัดผ่านผ้าม่านอันนุ่มนวล"
 
-"I listen to the sound of my heartbeat for a moment, trying to shut out the sound of the nurse tapping away on his computer, and my own heavy breathing."
+"ฉันฟังเสียงหัวใจตัวเองอยู่ครู่หนึ่งเพื่อกลบเสียงพยาบาลที่นั่งพิมพ์กับคอมพิวเตอร์อยู่ และกลบเสียงหอบของฉันเองด้วย"
 
-"It's steady."
+"ก็คงที่ดี"
 
-"Damn it, not even a week and I end up like this again. I really screwed up this time. Should've known better than to play the half-baked sports star in front of a real one."
+"ให้ตายเถอะ มาได้ไม่ถึงอาทิตย์ก็อยู่ในสภาพนี้อีกแล้ว รอบนี้ทำพลาดจริง ๆ ไม่น่าไปทำหล่อเป็นนักกีฬาต่อหน้าของจริง\nอย่างนั้นเลย"
 
-"And why did I try to act brave, like that heart flutter was no big deal, even when it was obvious that it was?"
+"แล้วทำไมต้องทำเป็นเท่ เหมือนว่าที่หัวใจเต้นผิดจังหวะนั้นไม่ใช่เรื่องใหญ่ด้วย ทั้งที่ดูก็รู้แล้วว่าเป็นเรื่องใหญ่"
 
-"It was just a reflex, to push it away, to keep it inside."
+"ก็แค่ปฏิกิริยาตอบสนองอัตโนมัติแหละ เพื่อจะได้ปัดให้พ้นไป เก็บเอาไว้ภายใน"
 
-"I didn't want it to happen."
+"ฉันไม่อยากให้เป็นอย่างนั้น"
 
-"I didn't want Emi to see it."
+"ฉันไม่อยากให้เอมิมาเห็น"
 
-"Aaah…"
+"โอยยย…"
 
-"Stupidstupidstupid."
+"โง่โง่โง่"
 
-"I have to be more careful, or I will end up in the hospital again, or worse."
+"ฉันต้องระวังให้มากกว่านี้ ไม่งั้นได้กลับไปนอนโรงพยาบาลอีกแน่ หรืออาจจะแย่กว่านั้น"
 
 "…"
 
-"That's my final thought before I give in to the tiredness."
+"เป็นความคิดสุดท้ายก่อนที่ฉันจะปล่อยให้ความเหนื่อยล้าครอบครองร่างกาย"
 
 scene black
 with Dissolve(1.0)
@@ -628,48 +627,48 @@ window show
 
 play music music_daily fadein 6.0
 
-"I fell asleep. For how long? What time is it?"
+"ฉันหลับไป ว่าแต่นานแค่ไหน กี่โมงแล้วเนี่ย"
 
-"I'm feeling a little lightheaded and I keep blinking compulsively."
+"หัวก็รู้สึกเบลอ ๆ นิดหน่อย ตาก็กะพริบอยู่อย่างนั้น"
 
 show bg school_nurseoffice at center
 with charamove
 
-"Pushing the curtain aside, I squint my eyes against the unfiltered light pouring in from the window. The texture of the canvas feels nothing like the wind did before."
+"ฉันรูดผ้าม่านเก็บกลับไป หรี่ตามองแสงที่สาดจ้าเข้ามาจากทางหน้าต่าง สัมผัสของพื้นที่รับรู้ด้วยเท้าต่างกับที่ลมพัดเมื่อครู่ลิบลับ"
 
-"The nurse looks up from his work, sitting exactly where he was before."
+"พยาบาลผละจากงานของเขามามองโดยยังนั่งที่เดิม"
 
 show nurse fabulous at center
 with charaenter
 
-nk "How are you feeling?"
+nk "เป็นยังไงบ้าง"
 
-"I can't really tell, so I don't answer anything. I'm feeling kinda groggy from falling asleep at such a weird time, hopefully I don't look too weird."
+"ฉันไม่ได้ตอบเพราะไม่รู้จะบอกยังไงดี ยังรู้สึกอึน ๆ ที่มานอนเอาเวลานี้ หวังว่าจะพอดูปกติบ้างนะ"
 
-hi "What time is it?"
+hi "กี่โมงแล้วครับ"
 
-"Me croaking the question to gain some orientation. The nurse looking at his wristwatch before answering."
+"ฉันถามเสียงต่ำเพื่อจูนสมองกลับ คุณพยาบาลดูนาฬิกาข้อมือแล้วตอบ"
 
-"Things seem to happen in slow motion."
+"ทุกอย่างดูเคลื่อนไหวอย่างเฉื่อยชา"
 
 show nurse neutral
 with charachange
 
-nk "Quarter past ten."
+nk "สิบสิบห้า"
 
-"I try to think for a moment what that means but I'm not really sure."
+"ฉันคิดอยู่ว่าแปลว่ากี่โมง แต่ก็ไม่แน่ใจ"
 
 show nurse concern
 with charachange
 
-nk "You didn't answer my question, Hisao."
+nk "เธอยังไม่ได้ตอบฉันเลยนะฮิซาโอะ"
 
-hi "Oh. Fine."
+hi "อ้อ สบายดีครับ"
 
 show nurse neutral
 with charachange
 
-nk "Climb down from that bed then, and let’s see how you are doing. Don’t…"
+nk "งั้นก็ลุกมา จะดูว่าเป็นยังไงบ้าง อย่า…"
 
 $ renpy.music.set_volume(0.5, 0.2, channel="music")
 
@@ -688,75 +687,75 @@ show bg school_nurseoffice as dizzy_bg behind nurse:
 show nurse neutral as dizzy_fg:
     ease 1.0 rotate 0 zoom 1.0 alpha 0.0
 
-"I try to do exactly that, only to sway dizzily when I move too fast. The nurse moves to support me by an arm and sighs."
+"พอฉันลุกขึ้นตามสั่งก็รู้สึกตัวโงนเงนเพราะขยับตัวเร็วเกินไป คุณพยาบาลเข้ามาช่วยประคองแขนแล้วถอนหายใจ"
 
 show nurse concern
 hide dizzy_bg
 hide dizzy_fg
 with charachange
 
-nk "…stand up too quickly, is what I was going to say. Just sit there, I’ll check your pressure to make sure."
+nk "…ลุกเร็วเกินไป นั่นแหละที่จะเตือนเมื่อกี้ นั่งอยู่ตรงนั้นแหละ เดี๋ยววัดความดันให้แน่ใจก่อน"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
-"My good intentions sure lasted for a long time. I shut up, embarrassed with myself, while the nurse gets busy with an old-fashioned contraption and my arm. After a couple of minutes, he puts it away, looking neither pleased nor unhappy."
+"ไม่น่าหวังดีเล้ย ฉันเงียบไปเพราะอายตัวเอง ส่วนคุณพยาบาลก็ง่วนอยู่กับการเตรียมอุปกรณ์ที่ดูเก่ากับแขนฉัน ผ่านไป\nสองสามนาทีเขาก็เก็บ ไม่ได้ดูดีใจหรืออารมณ์เสีย"
 
 show nurse neutral
 with charachange
 
-nk "You’re all right. Head stopped spinning?"
+nk "โอเค ก็สบายดีนะ หายเวียนหัวหรือยัง"
 
-hi "Yeah."
+hi "ครับ"
 
-nk "Good. And how are the contents doing?"
+nk "แล้วหัวใจเธอเป็นไงบ้าง"
 
 show nurse concern
 with charachange
 
-nk "You didn’t show very good judgment out there, Hisao."
+nk "เธอสะเพร่ามากเลยนะฮิซาโอะ"
 
-"I swallow the retort I was going to make. It’s what I was thinking myself, but hearing it stated by somebody else makes me want to protest."
+"ฉันเก็บคำเถียงที่จะตอบกลับไป ที่เขาบอกก็เคยคิดเองอยู่ แต่พอได้ยินคนอื่นพูดแล้วก็อยากจะต่อต้าน"
 
-"What he’s saying is not pleasant to hear. Doesn’t make him any less right."
+"สิ่งที่เขาพูดไม่ได้รื่นหูมากนัก แต่ก็ใช่ว่าจะผิด"
 
-hi "No, sir."
+hi "ครับ"
 
 show nurse neutral
 with charachange
 
-"He nods, still looking as neutral as he was before."
+"เขาพยักหน้าด้วยสีหน้าเรียบ ๆ เหมือนเมื่อครู่"
 
-"It would be easy to be angry at him if he said “Told you so” or something, but he doesn’t."
+"ถ้าเขาบอกว่า “บอกแล้ว เห็นไหม” อีกฉันก็คงโกรธ แต่เขาก็ไม่ได้พูด"
 
-nk "I can try and help you to keep your health, but ultimately the last call lies with you. Hopefully this little episode will be something that’ll remind you of that."
+nk "ฉันคอยช่วยรักษาสุขภาพเธอให้ได้ แต่ยังไงสุดท้ายก็อยู่ที่ตัวเธออยู่ดีนะ หวังว่าเหตุการณ์ครั้งนี้จะเป็นเครื่องเตือนใจเธอ"
 
 show nurse fabulous
 with charachange
 
-nk "Here, a note for your teacher. To avoid an interrogation."
+nk "เอ้านี่ เอาไปให้ครูนะ จะได้ไม่ต้องคุยให้ยืดยาว"
 
-"I take the slip of paper he's offering and then make my leave as I can't think of anything else to say, nor even really want to."
+"ฉันหยิบแผ่นกระดาษที่เขายื่นให้แล้วเดินออกมาเพราะไม่รู้จะพูดอะไรต่อ แล้วก็ไม่ได้อยากพูดด้วย"
 
 show nurse neutral
 with charachange
 
-nk "Stay out of trouble, you hear me? I don't think it was anything but a scare, but next time could be different."
+nk "อย่าไปมีเรื่องอะไรอีก รับทราบนะ ฉันว่ารอบนี้เธออาจจะแค่ตกใจเฉย ๆ แต่รอบหน้าอาจจะไม่ใช่แล้วก็ได้นะ"
 
-"I hear you."
+"รับทราบ"
 
 scene bg school_nursehall
 with locationchange
 
 stop music fadeout 4.0
 
-"There is some way to get to the school building straight from the auxiliary building, but I'm not keen to find out and possibly get lost, so I go out from the exit that I know works."
+"ทางไปอาคารหลักจากอาคารรองนั้นพอจะมีทางอื่นอยู่บ้าง แต่ฉันก็ไม่ได้อยากรู้ แถมอาจไปหลงได้อีก จึงมาตามทางออก\nที่ฉันจำได้"
 
 scene bg school_courtyard
 with locationchange
 
-"I stop at the stairs of the auxiliary building, deliberating for a moment between going to the dorms to get my books and stuff and going straight away to the class."
+"ฉันหยุดยืนอยู่ที่บันไดอาคารรอง คิดอยู่พักหนึ่งว่าจะกลับหอไปเอาหนังสือกับข้าวของหรือจะตรงดิ่งไปห้องเรียนเลยดี"
 
-"The sun stings my eyes, so I head towards the dorms."
+"แสงแดดแยงตาพาให้ฉันเดินกลับหอ"
 
 
 #******************************
@@ -777,143 +776,143 @@ with locationskip
 
 window show
 
-"I wake up and take a hot shower."
+"ฉันตื่นมาอาบน้ำอุ่น"
 
 label th_A26a:
 
 scene bg school_dormhisao
 with locationskip
 
-"Back in my room, the first thing I see is the familiar row of medication bottles lined up on top of my dresser, and it makes me depressed, as usual."
+"สิ่งที่เห็นเมื่ออยู่ในห้องเป็นสิ่งแรกคือขวดยาที่เรียงรายดูคุ้นตาอยู่บนโต๊ะ เห็นแล้วก็หดหู่อย่างเคย"
 
-"It's annoying. I thought I was okay. I thought I had made my peace with this thing, gotten over it."
+"หงุดหงิดชะมัด นึกว่าจะโอเคแล้ว นึกว่าจะทำใจยอมรับได้แล้ว"
 
-"But what I really did… I allowed myself to forget that I have a problem. Being here really reminds me of the reality, and trying to fight against it just hurts."
+"แต่สิ่งที่ฉันทำจริง ๆ นั้น… คือการปล่อยให้ตัวเองลืมถึงปัญหาที่มีอยู่ การได้มาอยู่ที่นี่คือเครื่องเตือนถึงความเป็นจริง และยิ่งฝืนต่อต้านไปก็เจ็บปวด"
 
-"Reflecting on it is only going to do so much. I've done this before, for months. It seems like it's time to get over it."
+"นั่งทบทวนไปก็เท่านั้น เพราะฉันเคยทำมาแล้วเป็นเดือน ๆ คงถึงเวลาที่ต้องก้าวข้ามผ่านไปเสียที"
 
-"If I allow myself to forget that my life is definitely not going to be as long as those of others, I won't get anywhere."
+"ถ้าฉันปล่อยให้ตัวเองลืมไปว่าฉันจะอยู่ได้ไม่นานเท่าคนอื่น ๆ ก็คงไม่ได้อะไรขึ้นมา"
 
-"My life may be different from others. But it is a life in progress."
+"ชีวิตฉันอาจต่างจากคนอื่น แต่ก็เป็นชีวิตที่กำลังเดิน"
 
-"That is how I'll rationalize it."
+"ฉันจะคอยคิดเช่นนั้น"
 
-"I down the usual handful of pills, trying to push the sudden dreary feeling out of my head. Then I prepare to head out to class early, as usual."
+"ฉันกินยาที่มีมากมายในมือจนหมดแล้วปัดอารมณ์หม่นหมองนี้ออกไปจากหัว จากนั้นเตรียมตัวไปเข้าเรียนแต่เช้าเช่นเคย"
 
 scene bg school_dormhallway
 with locationchange
 
-"As I step into the hallway, I notice Kenji coming around the hallway corner, stealthily making his way over to his own room with a large bag. As he sneaks past me soundlessly like a ninja hiding in plain sight, I call out to him."
+"พอเดินออกมาจากห้องก็เห็นเคนจิที่โผล่มาจากปลายโถงทางเดินย่องมาทางห้องของเขาโดยในมือมีถุงขนาดใหญ่อยู่\nเขาเดินผ่านฉันไปอย่างเงียบเชียบเหมือนนินจาที่พรางตัวอยู่ ฉันทักเขา"
 
-hi "Hey."
+hi "ไง"
 
 show kenji neutral at center
 with charaenter
 
 play music music_kenji fadein 0.5
 
-"He jumps at the sound of my voice."
+"เขาสะดุ้งที่ฉันทัก"
 
-ke "Oh, hey, man. I didn't notice you there. I'm really tired."
+ke "โอ้ ไง พวก ไม่ยักรู้ว่านายอยู่ตรงนี้ พอดีเพลียมาก"
 
-"I think it's more like he didn't see me, but that's not the issue."
+"ไม่เห็นมากกว่ามั้ง แต่นั่นไม่ใช่ประเด็น"
 
-hi "Where have you been this early? Shopping?"
+hi "ออกไปไหนแต่เช้าเนี่ย ไปซื้อของ?"
 
 show kenji tsun
 with charachange
 
-ke "Nah, I wasn't shopping. Sometimes I have to visit… the math teacher. Yeah, I figured it would be a good idea to find out when the next exam is, since he tells you in advance if you want."
+ke "เปล่า ไม่ได้ไปซื้อของ พอดีฉันต้องไปหา…ครูคณิตบ้างน่ะ อืม พอดีนึกได้ว่าถ้าถามไว้ก่อนว่าสอบคราวหน้าเมื่อไหร่\nก็ดีเหมือนกัน เพราะถ้าขอเขาก็บอกให้"
 
-hi "So then, what's in the bag?"
+hi "แล้วในถุงนั่นมีอะไร"
 
 show kenji neutral
 with charachange
 
-ke "I thought I'd go shopping while I was outside. I need supplies to continue the fight against the vast feminist conspiracy."
+ke "ไหน ๆ ก็ออกมาแล้วเลยกะว่าไปซื้อของด้วยก็ดี พอดีต้องการข้าวของมาเพื่อใช้ต่อสู้กับทฤษฎีสมคบคิดสตรีนิยมน่ะ"
 
-hi "Uh, okay."
+hi "เอ่อ อ่าฮะ"
 
-hi "I thought you didn't go outside."
+hi "นายไม่ออกไปข้างนอกไม่ใช่เหรอ"
 
 show kenji happy
 with charachange
 
-ke "I wear a hat now."
+ke "ฉันใส่หมวกอยู่ไง"
 
-"I decide to not point out that he is not wearing a hat."
+"ฉันคิดที่จะไม่บอกว่าเขาไม่ได้สวมหมวกอยู่"
 
-"An awkward silence settles between us and then Kenji breaks it by pushing his door open slowly, releasing a creaking sound into the air that only makes the moment seem more awkward. He sets the bag down inside his room and then closes the door."
+"ความเงียบอันน่ากระอักกระอ่วนที่เข้าปกคลุมพวกเราสองคนถูกทำลายด้วยเสียงประตูที่ถูกเคนจิเปิดช้า ๆ ส่งเสียงเอี๊ยด\nจนบรรยากาศดูกระอักกระอ่วนกว่าเดิม เขาวางถุงนั้นไว้ในห้องแล้วปิดประตู"
 
-hi "I'm surprised you went out of your way to find out a test date. Trying to take advantage of an opportunity to study is pretty diligent."
+hi "ทึ่งนะเนี่ยที่นายถึงขั้นไปถามวันสอบ ขยันดีนะที่ใช้ประโยชน์หาโอกาสมาอ่านหนังสือน่ะ"
 
 show kenji tsun
 with charachange
 
-ke "I never study."
+ke "ฉันไม่อ่านหนังสือสอบหรอก"
 
-hi "Oh…"
+hi "อ่า…"
 
 show kenji neutral
 with charachange
 
-ke "I just wanted to know when the next test day was. I'm still going to take it, duh. I need to know so I know what day I can't afford to skip class. He usually sends out updates on that crap by phone, so I had to step out and check up on it."
+ke "แค่อยากรู้เฉย ๆ ว่าสอบรอบถัดไปวันไหน ยังไงก็ต้องสอบอยู่แล้วนี่ ที่อยากรู้คือวันไหนที่โดดเรียนไม่ได้ ปกติไอ้วันสอบนี่\nเขาบอกทางโทรศัพท์น่ะ ก็เลยต้องออกไปถาม"
 
-hi "And why do you have to go out, when you can get it on your phone?"
+hi "ก็ถ้าบอกทางโทรศัพท์แล้วจะออกไปทำเพื่อ"
 
 show kenji tsun
 with charachange
 
-ke "I don't carry a phone."
+ke "ฉันไม่มีโทรศัพท์"
 
-hi "What do you mean you don't carry a phone? You mean you just leave it at home?"
+hi "ไม่มีนี่คืออะไร ลืมไว้ที่บ้าน?"
 
 show kenji neutral
 with charachange
 
-ke "Nah, I don't use phones. I don't have a phone. Phones. I have no phone."
+ke "เปล่า ฉันไม่ใช้โทรศัพท์น่ะ ฉันไม่มีโทรศัพท์ โทรศัพท์ ไม่มีโทรศัพท์"
 
-hi "Why don't you have a phone? How can you not have a phone? No phone at all? No phone?"
+hi "แล้วไหงถึงไม่มี ไม่มีได้ไง ไม่ใช้โทรศัพท์เลย ไม่มีโทรศัพท์อะนะ"
 
 show kenji tsun
 with charachange
 
-ke "I just don't like phones. Actually, I'm kind of scared of them. I don't know why. I think it's some kind of repressed trauma."
+ke "ฉันแค่ไม่ชอบโทรศัพท์น่ะ จริง ๆ กลัวด้วย ไม่รู้ทำไม สงสัยเป็นความกลัวในจิตใต้สำนึกงี้มั้ง"
 
-ke "But, basically, when I hear a phone, I get nervous. It's my darkest secret."
+ke "แต่เอาง่าย ๆ คือเวลาได้ยินเสียงโทรศัพท์แล้วจะเริ่มลนลาน เป็นความลับดำมืดที่สุดของฉันเลย"
 
 show kenji neutral
 with charachange
 
-ke "I have two theories on it: either I have some fear of receiving some undefined, ominous, life-altering doom call, or I was beaten with a phone in the past. Beaten so badly I can't remember it."
+ke "ฉันคิดไว้สองทฤษฎี คือถ้าไม่ใช่ว่าฉันกลัวการรับสายที่เป็นลางร้ายที่จะพลิกชีวิตฉันอย่างบอกไม่ถูกแล้ว ก็คงเป็นว่า\nเมื่อก่อนฉันเคยโดนทุบด้วยโทรศัพท์ ประมาณว่าทุบแรงจนจำไม่ได้"
 
-hi "Beaten in the head."
+hi "ทุบเข้าที่หัวอะดิ"
 
 show kenji tsun
 with charachange
 
-ke "Well, where else could I get beaten with a phone that would make me unable to remember it? The ass?"
+ke "เออดิ คิดว่าโดนตรงไหนถึงจะลืมได้อีก ตูดเหรอ"
 
-"Unexpectedly logical. I feel very depressed now. Sensing this conversation is more or less over, Kenji opens his door again and prepares to head inside."
+"เออว่ะ เครียดเลยทีนี้ เคนจิเปิดประตูอีกครั้งเมื่อเห็นว่าบทสนทนาจบแล้วและเตรียมเข้าไปในห้อง"
 
 show kenji neutral
 with charachange
 
-ke "Yeah, I'm going to sleep, dude. Have a good one."
+ke "เออ ไปนอนละ ฝันดี"
 
-hi "Class is going to start in like twenty minutes."
+hi "อีกยี่สิบนาทีจะเข้าเรียนแล้วนะเฮ้ย"
 
 show kenji tsun
 with charachange
 
-ke "I already did something today. Too tired to go to school."
+ke "พอดีใช้แรงมาแล้วอะ ขี้เกียจเข้าเรียนละ"
 
 show kenji happy_close
 with characlose
 
-ke "Hey, you need some lip balm? I accidentally bought two because I thought the store had started selling individual double A batteries."
+ke "เอ้อ เอาลิปมันเปล่า พอดีซื้อมาสองอัน นึกว่าร้านเอาถ่าน AA มาขายแยกก้อนอะ"
 
-hi "Thanks but no thanks."
+hi "ขอบใจ แต่ไม่ต้อง"
 
 
 
@@ -930,7 +929,7 @@ play sound sfx_doorslam
 show kenji tsun_close
 with vpunch
 
-"The door down the hall opens with a crack as it swings forward from being pushed opened too strongly and crashing against the wall. The sound is followed by a peal of bubbly laughter, and I instantly know who it is."
+"ประตูที่ปลายโถงทางเดินเปิดออกด้วยเสียงดังโครมเนื่องจากถูกเปิดด้วยความรุนแรงเกินไปและชนเข้ากับกำแพง\nตามด้วยเสียงหัวเราะเริงร่าที่ดังลั่น ฉันรู้ทันทีว่าใครมา"
 
 play music music_comedy fadein 0.3
 
@@ -953,12 +952,12 @@ with None
 
 play sound sfx_impact2
 
-"At the noise, Kenji disappears into his room like a ninja, slamming the door shut just as Shizune and Misha walk over, the former taking small, efficient steps towards me while the latter more or less bounces off the walls."
+"เคนจิหายตัวเข้าไปในห้องราวนินจาพร้อมกับเสียงนั้น ปิดประตูดังปึงขณะที่ชิซูเนะและมิช่ากำลังเดินมา คนที่เดินนำนั้น\nเดินตรงเข้ามาหาฉัน ส่วนคนตามเดินเล่นเลาะไปตามกำแพง"
 
 show misha hips_smile_close at twoleft
 with characlose
 
-"I try to do the same as Kenji, but it's too late. Misha puts her foot between my door to prevent me closing it, so I have no other choice but to let them in."
+"ฉันจะทำอย่างเคนจิบ้าง ทว่าสายไปแล้ว มิช่ายื่นเท้ามาขัดที่ประตูไม่ให้ปิดได้ จึงต้องจำใจให้พวกเธอเข้ามา"
 
 scene bg school_dormhisao
 with locationskip
@@ -974,13 +973,13 @@ with charamove
 show misha hips_grin at twoleft
 with charaenter
 
-mi "Hi, Hicchan~! Hi~ hi~!"
+mi "ไงฮิจัง~! ดีจ้า~ ดี~!"
 
-hi "Hi."
+hi "ดี"
 
-hi "What are you two doing here?"
+hi "มาทำอะไรกัน"
 
-"I wonder if the pause between those two sentences was politely long enough."
+"สองประโยคเมื่อกี้เว้นวรรคนานพอให้ดูสุภาพหรือยังนะ"
 
 show shizu basic_normal
 with charachange
@@ -990,39 +989,39 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Hicchan, that's rude~! We came to pick you up!"
+mi "ฮิจังหยาบคายจัง~! นี่พวกเรามารับนายนะ!"
 
 show misha hips_smile
 with charachange
 
-mi "Did you think we thought you were going to escape and came to make sure you didn't? Surely not, Hicchan~!"
+mi "คิดว่าพวกเรามาหาเพราะกลัวจะหนีไปก่อนละสิ คงไม่ใช่มั้ยฮิจัง~!"
 
-hi "Hey, I didn't say that that's what you were here for."
+hi "เอ้ย ยังไม่ได้พูดงั้นเลยนะ"
 
-"But now I know it's exactly what they are here for."
+"แต่ทีนี้ก็รู้แล้วแหละว่ามาเพราะเรื่องนั้นจริง ๆ"
 
 show misha sign_smile
 with charachange
 
-mi "It's time for student council work, yes it is~!"
+mi "ถึงเวลางานสภานักเรียนแล้วนะ ช่าย~!"
 
 show misha hips_grin
 with charachange
 
-mi "Aren't you happy, Hicchan, to be able to help the whole~ school~! You are like, a hero~! The future generations will tell stories of this day!"
+mi "ไม่ดีใจเหรอฮิจังที่จะได้ช่วยทั้ง~ โรงเรียน~! เหมือนเป็น วีรบุรุษ~! ลูกหลานต้องบอกเล่าต่อกันสืบไป!"
 
-"Interesting. I didn't think joining the Student Council would be a heroic deed worthy of Hercules."
+"น่าสนใจ ไม่เคยคิดมาก่อนเลยว่าการเข้าร่วมสภานักเรียนนี่เป็นภาระอันทรงเกียรติที่เทียบเท่าได้กับสิบสองภารกิจ\nของเฮอร์คิวลีสแบบนี้"
 
-hi "Well… I guess I did promise so…"
+hi "ก็นะ…รับปากไว้อยู่แหละ เพราะงั้น…"
 
 show shizu adjust_happy
 with charachange
 
 stop music fadeout 7.0
 
-"I've neglected Shizune, and only now do I notice her in the corner of my vision, peering around my room over my shoulder, her analytical eyes darting from object to object…"
+"เมื่อกี้ฉันเมินชิซูเนะจนเพิ่งมาสังเกตเอาตอนนี้ เธอมองผ่านฉันไปรอบ ๆ ห้องดูสิ่งนั้นสิ่งนี้ไปมาด้วยสายตาช่างคิดของเธอ"
 
-"This is kinda intrusive, the feeling of being exposed crawls in my balls. Luckily I don't have dirty laundry on the floor or anything like that."
+"ให้ว่าแล้วก็สอดรู้เหมือนกันนะเนี่ย ความรู้สึกที่เหมือนโดนแก้ผ้าตัวเปล่าทำเอาตามเป้ารู้สึกยุบยิบ ยังดีที่ว่าตามพื้นไม่มี\nเสื้อผ้าที่ใส่แล้วหรืออะไรแบบนั้น"
 
 show shizu behind_smile
 with charachange
@@ -1032,50 +1031,49 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "Hm~? What is it, Shicchan?"
+mi "หืม~ มีอะไรเหรอชิจัง"
 
 show misha hips_smile
 with charachange
 
-mi "Yeah, this is Hicchan's room~! We haven't seen it before, I didn't even realize!"
+mi "ช่าย นี่ห้องฮิจัง~! เพิ่งนึกได้เหมือนกันว่าไม่เคยเห็นมาก่อนเลย!"
 
 show misha hips_grin
 with charachange
 
-mi "It's kinda plain, but Hicchan hasn't had time to decorate it yet, isn't that so~?"
+mi "เรียบ ๆ จืด ๆ แต่ฮิจังคงยังไม่ว่างมาตกแต่งแหละ ใช่มั้ย~"
 
 show misha sign_smile
 with charachange
 
-mi "What are those?"
+mi "นั่นอะไรเหรอ"
 
-"She points at my collection of medications on the night table."
-
+"เธอชี้ไปที่กองยาที่อยู่บนโต๊ะ"
 
 
 label th_choiceA26:
 menu:
     with menueffect
 
-    "I don't really want to talk about it with these two."
+    "ไม่ค่อยอยากคุยเรื่องนี้กับสองคนนี้เลย"
 
-    "Try to dodge the subject.":
+    "พยายามเบี่ยงหัวข้อ":
         return m1
 
-    "Kick them out of my room.":
+    "ไล่ทั้งสองคนออกจากห้อง":
         return m2
 
 
 label th_A26c:
 
-hi "It's nothing."
+hi "ไม่มีอะไรหรอก"
 
 show shizu basic_normal2
 with charachange
 
-"I quickly step in front of them, trying to hide the stuff behind my back. Shizune takes a step back, looking suspicious, but it's an expression not without concern."
+"ฉันไปยืนบังของเหล่านั้นต่อหน้าทั้งสองคนไว้ ชิซูเนะผงะถอยดูท่าทีสงสัย แต่ก็มีความเป็นห่วงเจืออยู่"
 
-"I hope if I avoid it, she'll understand that I don't want her to keep prodding me about it."
+"หวังว่าเธอจะเข้าใจว่าถ้าฉันเลี่ยงจะคุยแล้วคือฉันไม่อยากให้ซักไซ้ต่อ"
 
 show shizu behind_blank
 with charachange
@@ -1085,9 +1083,9 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "Really? What are you hiding, Hicchan~?"
+mi "จริงเหรอ ซ่อนอะไรไว้น่ะฮิจัง~?"
 
-hi "Nothing."
+hi "ไม่มีหรอก"
 
 show shizu basic_normal
 with charachange
@@ -1097,22 +1095,22 @@ shi "…"
 show misha sign_confused
 with charachange
 
-mi "Is that so~?"
+mi "เหรอ~"
 
-"I realize I can't really squirm my way out of this. They are nosy by nature and hiding it is just going to pique their curiosity more."
+"ฉันรู้ทันทีว่าหนีไม่ได้แน่ ๆ ทั้งสองคนต่างก็อยากรู้อยากเห็นอยู่แล้ว ยิ่งซ่อนก็ยิ่งทำให้อยากรู้ไปอีก"
 
-hi "Yeah okay, it is {b}something{/b}, but I don't really want to talk about it, okay? Not… yet."
+hi "อืม ก็ได้ ใช่ {b}มี{/b}นั่นแหละ แต่ฉันไม่อยากคุยเรื่องนี้ ไม่อยากคุย…ตอนนี้"
 
-hi "Can we just put this aside for now?"
+hi "เอาไว้ก่อนได้มั้ย"
 
 show misha perky_smile
 with charachange
 
-"As Misha translates, Shizune stares at me hard with her eyes focused and analytical as ever, peering at me curiously over the rims of her glasses."
+"ระหว่างที่มิช่าแปลชิซูเนะก็หันมามองฉันด้วยสายตาครุ่นคิดของเธอ แววความอยากรู้อยากเห็นส่องลอดแว่นมา"
 
-"Her fingers press against each other thoughtfully, as if she's weighing the value of pursuing this further than necessary against the insult of disrespecting my wish."
+"เธอชนนิ้วเข้าด้วยกันราวใช้ความคิดชั่งใจว่าถ้าตามซักไซ้ฉันต่อแล้วจะคุ้มกับความหยาบคายที่ทำให้ฉันรำคาญหรือไม่"
 
-"Her expression finally melts into a slight smile and she signs something to Misha."
+"จนสุดท้ายเธอก็แรระบายรอยยิ้มออกมาแล้วทำภาษามือบางอย่างให้มิช่า"
 
 play music music_dreamy fadein 2.0
 
@@ -1124,33 +1122,33 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Okay~! Then, we'll wait, and become better and better friends, and one day when you feel like it, you can tell us about it~!"
+mi "โอเค~! งั้นพวกเราจะรอจนกว่าสนิทกันกว่านี้ แล้วสักวันถ้านายอยากเล่าก็เล่าได้เลย~!"
 
-"Both of them smile widely at me, and I feel shocked and a little stupid about being like this."
+"ทั้งสองคนยิ้มกว้างให้ ฉันทั้งรู้สึกทึ่งและรู้สึกว่าตัวเองงี่เง่าที่ทำตัวอย่างนั้น"
 
-"They are not stupid, and probably can at least halfway guess what's going on with me. And…"
+"สองคนนั้นก็ไม่ได้โง่สักหน่อย คงพอจะเดาได้แหละว่าฉันเป็นอะไร แถม…"
 
-"Such simple, kind words. I feel relieved that they don't think any worse of me even if I'm like this. Even if I'm not like the rest here. Even if I can't be at ease about it."
+"เป็นคำง่าย ๆ ที่แสนอ่อนโยน รู้สึกโล่งใจที่ไม่ได้มองฉันไม่ดีแม้จะเป็นเช่นนี้ แม้ฉันจะไม่เหมือนคนอื่นที่นี่ แม้ฉัน\nจะทำตัวให้ชินไม่ได้"
 
-"Seems that behind the obnoxious, mischievous acts, both of these girls are really kind and good people. That's what I think."
+"เบื้องหลังความซื่อบื้อและซุกซนเหล่านั้นแล้วเธอทั้งสองคนก็เป็นคนที่ใจดีและแสนดี ฉันคิดเช่นนั้น"
 
-hi "Thanks."
+hi "ขอบใจ"
 
-hi "So, you want me to help you out today, right? Since I'm one of you now?"
+hi "สรุปคือเพราะฉันเป็นพวกกับเธอแล้ว วันนี้จะให้ไปช่วยใช่มั้ย"
 
 show misha hips_grin
 with charachange
 
-mi "Yup~!"
+mi "ช่าย~!"
 
-hi "After class?"
+hi "หลังเลิกเรียนเหรอ"
 
 show misha sign_smile
 with charachange
 
-mi "No no no~! Now!"
+mi "ไม่ ๆ ๆ ~! ตอนนี้!"
 
-hi "Now? But what about class? You are going to skip again?"
+hi "ตอนนี้อะนะ แล้วจะโดดเรียนอีกเหรอ"
 
 show shizu adjust_smug
 with charachange
@@ -1160,9 +1158,9 @@ shi "…"
 show misha cross_laugh
 with charachange
 
-mi "Hahaha~! It's for the common good, so we sacrifice our math lessons, and maybe the social studies too~!"
+mi "ฮ่าฮ่าฮ่า~! เพื่อผลประโยชน์ส่วนรวม เราจึงสละคาบคณิต แล้วก็อาจจะคาบสังคมด้วย~!"
 
-hi "Well, I guess I'm fine with it."
+hi "อืม ก็ได้แหละมั้ง"
 
 show shizu behind_smile
 with charachange
@@ -1172,11 +1170,11 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Awesome, Hicchan~! You said it, okay? Remember: “I'm fine with helping out~,” that's what you said, right~?"
+mi "เยี่ยมเลยฮิจัง~! นายบอกเองนะว่า “จะช่วยก็ได้~” ว่างั้นใช่มั้ย~"
 
-hi "Yeah."
+hi "อืม"
 
-"That tone… I suddenly regret saying it."
+"น้ำเสียงนั่น…ว่าแล้วก็ไม่น่าพูดอย่างนั้นเลย"
 
 show shizu basic_normal2
 with charachange
@@ -1186,9 +1184,9 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Okay~! Are you ready to go then? We can go to the office together~!"
+mi "โอเค~! งั้นพร้อมหรือยัง ไปที่ห้องสภาฯ ด้วยกันได้นะ~!"
 
-hi "No. You're probably going to make me carry all your stuff for you or something."
+hi "ไม่อะ เดี๋ยวเธอก็ใช้ให้ฉันขนของหรืออะไรอีก"
 
 show shizu adjust_happy
 with charachange
@@ -1198,64 +1196,64 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "Don't be silly, Hicchan."
+mi "พูดบ้า ๆ น่าฮิจัง"
 
 show misha hips_smile
 with charachange
 
-mi "We've never walked to school together, Hicchan~."
+mi "เรายังไม่เคยเดินไปโรงเรียนด้วยกันเลยนะฮิจัง~"
 
-"I almost want to ask why we would, but then it dawns on me. The both of them consider me their friend, like Misha said before. And they want to become better friends with me, even."
+"ฉันกำลังจะถามว่าทำไมแล้วก็นึกขึ้นได้ ทั้งสองคนมองว่าฉันเป็นเพื่อนอย่างที่มิช่าเคยพูด แล้วอยากสนิทขึ้นอีกด้วยซ้ำ"
 
-"It's weird, I've never really thought about them that way. Or any of the people I've met so far this week. Is it really so easy?"
+"แปลก เพราะฉันไม่เคยมองอย่างนั้นเลย คนที่เคยเจอมาตลอดสัปดาห์นี้ก็ด้วย จะง่ายขนาดนั้นเลยเหรอ"
 
-"Just like that…"
+"เป็นเพื่อนกันง่าย ๆ เลย…"
 
-hi "Okay, let's go, then."
+hi "โอเค งั้นก็ไปกัน"
 
 show shizu behind_smile
 with charachange
 
-"Shizune grins craftily and puts her hands behind her back."
+"ชิซูเนะยิ้มเจ้าเล่ห์แล้วเอามือไพล่หลังไว้"
 
 show misha hips_grin
 with charachange
 
-mi "Hahaha~! That's great, Hicchan~! Okay, okay, but first~! You had a really great idea, Shicchan liked it a lot… So~! it's time for a game!"
+mi "ฮ่าฮ่าฮ่า~! เยี่ยมเลยฮิจัง~! โอเค ๆ แต่ก่อนอื่น~! ความคิดนายน่าสนใจดี ชิจังชอบมากเลยละ…เพราะงั้น~!\nมาเล่นเกมกัน!"
 
-hi "Oh no."
+hi "ไม่นะ"
 
 show misha hips_smile
 with charachange
 
-mi "Shicchan is holding a 1000-yen note in one hand, Hicchan~! If you guess which one, you can have it! If you don't…"
+mi "ตอนนี้ชิจังถือแบงก์พันเยนไว้ในมืออยู่ละฮิจัง~! ถ้านายเดาถูกว่าข้างไหนก็เอาไปเลย! แต่ถ้าตอบผิด…"
 
 show misha hips_grin
 with charachange
 
-mi "You're carrying all our books to school~! Right, Shicchan~? Right~!"
+mi "นายต้องขนหนังสือของพวกเราไปโรงเรียนให้ด้วยนะ~! ใช่มั้ยชิจัง~ ช่าย~!"
 
-"She and Shizune exchange nods."
+"เธอกับชิซูเนะพยักหน้าให้กัน"
 
 show misha sign_smile
 with charachange
 
-mi "Okay, Hicchan~! Get ready~!"
+mi "เอาละฮิจัง~! เตรียมตัว~!"
 
 stop music fadeout 7.0
 
 scene bg school_courtyard
 with shorttimeskip
 
-"Carrying three bags instead of one, I think about the day that's ahead of me. Of us."
+"ฉันแบกกระเป๋ามาสามใบพลางคิดถึงสิ่งที่รออยู่ในวันนี้ของฉัน ของพวกเรา"
 
-"I can see students walking back and forth through the courtyard, probably in preparation of their own projects."
+"พอจะเห็นนักเรียนเดินไปมาที่ลานหน้าอาคารบ้าง คงจะเตรียมงานของตัวเองกันอยู่"
 
-"The festival is practically here. That means there are only two possible reasons that my help is required."
+"งานเทศกาลก็เตรียมแทบใกล้จะเสร็จแล้ว ซึ่งแปลว่ามีอยู่สองสาเหตุที่พอจะเป็นไปได้ที่ต้องขอให้ฉันช่วย"
 
-"Either there is only a small amount of work left, and they just want a helping hand to wrap up the mundane final checks they are obligated to do."
+"หนึ่งคือเหลือแค่งานเล็ก ๆ น้อย ๆ แล้วอยากให้ช่วยเก็บงานส่วนที่เป็นการตรวจขั้นสุดท้ายสุดซ้ำซากที่พวกเธอต้องทำ"
 
-"Or there is a ton of work left, and Shizune is putting on a calm face as a torrent of built-up procrastinated work threatens to kill us all."
+"สองคือมีงานเหลืออีกเป็นพันแล้วชิซูเนะทำนิ่งไปทั้งที่ดินที่พอกหางหมูกำลังจะกลิ้งมาทับพวกเราจนตายกันหมด"
 
 
 
@@ -1263,14 +1261,14 @@ label th_A26d:
 
 play music music_rain fadein 4.0
 
-"Even so, they have really crossed the line this time. Nosy annoyances."
+"ถึงงั้น คราวนี้มันก็ล้ำเส้นเกินไปแล้ว สอดรู้จนน่ารำคาญ"
 
-hi "It's nothing."
+hi "ไม่มีอะไรหรอก"
 
 show misha perky_smile
 with charachange
 
-mi "Really~, Hicchan? It doesn't look like it's nothing to me."
+mi "จริงเหรอ~ ฮิจัง แต่ที่เห็นนี่มันมีแน่ ๆ เลยนะ"
 
 show shizu adjust_smug
 with charachange
@@ -1280,9 +1278,9 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "What a long line of bottles, right~? Right~! What are all of those, Hicchan?"
+mi "ขวดเยอะเลยใช่มั้ย~ ช่าย~! ของพวกนั้นคืออะไรเหรอฮิจัง"
 
-hi "Just a few things."
+hi "ของนิดหน่อยน่ะ"
 
 show shizu basic_normal2
 with charachange
@@ -1292,17 +1290,17 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "That looks like a lot more than “just a few things”…"
+mi "เยอะขนาดนั้นมันไม่น่าใช่ “ของนิดหน่อย” แล้วนะ…"
 
-"I can't fault either of them for being this way. Misha's just talking for Shizune, and Shizune is just curious by nature. Still, I wish the two of them would stop digging and take the hint. But Misha wouldn't pick up on it, and Shizune can't."
+"จะว่าพวกเธอที่เป็นอย่างนี้ก็ว่าไม่ได้ มิช่าก็แค่พูดแทนชิซูเนะ ส่วนชิซูเนะก็เป็นคนอยากรู้อยากเห็นอยู่แล้ว แต่ก็อยากให้\nสองคนนี้เลิกตื๊อแล้วรู้ตัวที่จะสื่อสักที แต่มิช่าก็จะไม่เข้าใจ ส่วนชิซูเนะก็ไม่มีทางที่จะรับรู้ได้"
 
-"Because of that, they keep pressing on."
+"และเพราะเช่นนั้นทั้งสองคนจึงยังซักไซ้ไม่เลิก"
 
-hi "It's really none of your business."
+hi "ไม่ใช่เรื่องของพวกเธอสักหน่อย"
 
-hi "Shouldn't you be leaving? A man's room is private, you know."
+hi "ไปได้แล้ว ห้องพักเขาต้องการความเป็นส่วนตัวนะ"
 
-"Shizune seems to take that as a challenge."
+"ดูเหมือนชิซูเนะจะเห็นว่าเป็นคำท้า"
 
 show shizu behind_frown
 with charachange
@@ -1312,52 +1310,52 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "What does that mean, Hicchan? When someone sees something interesting, their first instinct is to ask what it is, that's obvious. What's wrong with that?"
+mi "พูดงี้หมายความว่าไงฮิจัง เวลาคนเราเห็นอะไรที่น่าสนใจก็ต้องถามว่ามันคืออะไรโดยสัญชาตญาณอยู่แล้วไม่ใช่เหรอ\nแล้วมันไม่ดีตรงไหนล่ะ"
 
-hi "Because, like I said, there's nothing to see."
+hi "ก็บอกเมื่อกี้แล้วไงว่ามันไม่มีอะไร"
 
 show misha perky_confused
 with charachange
 
-mi "Hicchan, I think Shicchan is just concerned."
+mi "ฮิจัง ฉันว่าชิจังเขาแค่เป็นห่วงนะ"
 
-hi "What I have in my room isn't any of your business, that's all."
+hi "อะไรจะอยู่ในห้องฉันมันก็ไม่เกี่ยวกับพวกเธอ แค่นั้นแหละ"
 
 show misha sign_confused
 with charachange
 
-mi "But…"
+mi "แต่ว่า…"
 
-hi "Damn it! Sometimes, I wish you two would just stop playing around so much. It's not funny all the time. You know that, right?"
+hi "โถไอ้! ฉันละอยากให้พวกเธอสองคนเลิกทำอะไรเป็นเล่นตลอดสักที บางทีมันก็ไม่สนุกเลยนะ รู้ตัวใช่มั้ย"
 
-"I say it way more strongly than I meant to, almost yelling straight at Misha's face. She flinches and freezes in mid-sign, and even Shizune reacts to it even though she didn't hear me."
+"ฉันพูดไปแรงกว่าที่คิดเอาไว้ แทบจะตะคอกใส่หน้ามิช่าด้วยซ้ำ เธอผงะไปโดยมือที่ทำภาษามือยังค้างอยู่ แม้แต่ชิซูเนะ\nยังตอบสนองแม้ว่าเธอจะไม่ได้ยิน"
 
 stop music fadeout 6.0
 
-"I guess my angry face said all that needs to be said to her."
+"สีหน้าที่โกรธของฉันคงบอกอะไรที่อยากบอกไปหมดแล้วละนะ"
 
 show misha perky_sad
 show shizu behind_blank
 with charachange
 
-"After Misha slowly finishes the translation, the girls look at each other regretfully."
+"พอมิช่าค่อย ๆ แปลจนจบแล้วทั้งสองคนก็มองหน้ากันด้วยความรู้สึกเสียใจ"
 
 show shizu behind_sad
 with charachange
 
 shi "…"
 
-mi "Okay, Hicchan, we'll leave you alone."
+mi "โอเค ฮิจัง พวกเราจะไม่รบกวนแล้ว"
 
-"It's the first time I've heard Misha speak without that familiar lilting up-and-down quality in her voice. It feels so strange to hear, and I want to apologize, but they have already turned to leave."
+"เป็นครั้งแรกที่ได้ยินมิช่าพูดโดยไม่มีน้ำเสียงขึ้นลงอย่างเคยจนฟังดูแปร่งหู นึกแล้วก็อยากขอโทษ ทว่าพวกเธอก็หันหลัง\nจากไปแล้ว"
 
-"As the silence settles in, I regret what I said more and more."
+"ยิ่งเมื่อความเงียบมาเยือนยิ่งทำให้ฉันรู้สึกผิดกับสิ่งที่พูดออกไป"
 
 hide shizu
 hide misha
 with charaexit
 
-"The girls leave quietly, and after a while of standing in my room I dress up and follow after them."
+"สองสาวออกไปอย่างเงียบเชียบ ฉันยืนนิ่งอยู่ในห้องพักหนึ่งแล้วแต่งตัวตามพวกเธอออกไป"
 
 
 
@@ -1366,14 +1364,14 @@ label th_A26e:
 show kenji tsun_close
 with charachange
 
-ke "Whatever, man."
+ke "เออ ๆ เอาเหอะ"
 
 stop music fadeout 2.0
 
 hide kenji
 with charaexit
 
-"He swiftly enters his lair, finally letting me go to the class."
+"เขาปราดเข้าถ้ำตัวเองไปแล้วปล่อยให้ฉันไปเรียน"
 
 #*************************
 
@@ -1382,32 +1380,32 @@ label th_A27:
 scene bg school_hallway3
 with shorttimeskip
 
-"The halls are quiet as the courtyard was, naturally so since everyone is in class. I knock lightly at the door of 3-3 and push open the door when Mutou calls from the other side."
+"โถงทางเดินนั้นเงียบงันไม่ต่างจากที่ลานหน้าอาคาร ซึ่งก็ปกติเพราะทุกคนเรียนอยู่ ฉันเคาะประตูห้อง 3-3 เบา ๆ \nแล้วเปิดประตูเข้าไปหลังมุโต้เรียกกลับจากอีกฟากประตู"
 
 scene bg school_scienceroom
 with locationchange
 
-hi "Sorry I'm late."
+hi "ขอโทษที่มาสายครับ"
 
-"Fifteen pairs of eyes turn to me."
+"สายตาสิบห้าคู่จับจ้องมาที่ฉัน"
 
 show muto irritated at center
 with charaenter
 
-mu "Good morning, Nakai."
+mu "อรุณสวัสดิ์ นากาอิ"
 
-"Mutou seems to be somewhat confounded by my coming in late, as if I interrupted his flow or something."
+"มุโต้ดูจะยังงงงันเล็กน้อยที่ฉันเข้าห้องสาย คล้ายว่าฉันไปขัดจังหวะของเขา"
 
-"Judging from the rambling lectures his classes tend to be, that might be the case."
+"ซึ่งพอนึกถึงที่เขาชอบพูดยืดยาวเวลาสอนแล้วก็คงเป็นอย่างนั้น"
 
-"I pass him the note the nurse gave me. Mutou takes it with a nod and reads it quickly."
+"ฉันยื่นกระดาษที่ได้มาจากคุณพยาบาลให้ มุโต้พยักหน้ารับไปแล้วกวาดตาอ่าน"
 
 show muto normal
 with charachange
 
-"He lifts his eyebrows and gives me a kind of a stern look but doesn't say anything, just nods solemnly again."
+"เขายักคิ้วแล้วมองฉันด้วยสีหน้าเคร่งเครียดแต่ไม่พูดอะไร เพียงพยักหน้าให้อย่างหนักแน่น"
 
-"I shrug and he gestures at me to run along so I naturally do."
+"ฉันยักไหล่แล้วกลับไปนั่งที่ตามที่เขาบุ้ยใบ้ให้ไป"
 
 
 label th_A27a:
@@ -1420,9 +1418,9 @@ with None
 hide muto
 with charaexit
 
-"Only two pairs of eyes remain keenly following me as I walk to my seat."
+"มีเพียงสายตาสองคู่ที่ยังจับจ้องฉันที่เดินมานั่งที่"
 
-"I'm not surprised in the least when I feel Misha's fingernail prickle through my shirt about fifteen seconds after seating myself."
+"ฉันไม่แปลกใจเลยแม้แต่น้อยที่หลังจากหย่อนก้นได้สิบห้าวินาทีก็มีปลายเล็บของมิช่ามาสะกิด"
 
 show misha perky_smile_close at offscreenleft
 with None
@@ -1433,11 +1431,11 @@ with charamove
 
 play music music_another fadein 2.0
 
-mi "Psst! Where were you?"
+mi "นี่! ไปไหนมา"
 
-hi "None of your business."
+hi "ไม่ใช่เรื่องของเธอ"
 
-"I know this is probably the worst answer I can give as it only serves to pique their curiosity, but I have no energy to come up with elaborate cover stories right now."
+"คงจะเป็นคำตอบที่แย่ที่สุดแล้ว เพราะถ้าตอบงั้นก็ยิ่งชวนให้สงสัยอีก แต่ตอนนี้ก็ไม่มีแรงจะเล่าอะไรแก้ตัวแล้ว"
 
 show misha perky_confused_close
 with charachange
@@ -1446,11 +1444,11 @@ show bg school_scienceroom at center
 show misha perky_confused_close at offscreenleft
 with charamove
 
-"However, Misha backs off. She's unexpectedly fast to give up today."
+"แต่มิช่าก็ยอมถอย วันนี้ยอมง่ายผิดคาด"
 
 "…"
 
-"In a minute, she's back at poking me with her finger."
+"แต่ไม่ถึงนาทีเธอก็ใช้นิ้วสะกิดอีก"
 
 show misha hips_grin_close
 with None
@@ -1459,11 +1457,11 @@ show bg school_scienceroom at bgright
 show misha hips_grin_close  at Transform(xalign=-0.3)
 with charamove
 
-mi "Come on, tell us! Shicchan is very interested too!"
+mi "บอกมาเถอะน่า! ชิจังก็อยากรู้มากด้วย!"
 
-"It was just my wishful thinking. She just talked about it with Shizune, probably devising ways to get me to spill the beans."
+"ฉันคงฝันมากไปสินะ เธอหันไปคุยกับชิซูเนะ คงจะหาทางหลอกล่อให้ฉันเล่าให้ได้"
 
-hi "No."
+hi "ไม่"
 
 show misha perky_sad_close
 with charachange
@@ -1472,7 +1470,7 @@ show bg school_scienceroom at center
 show misha perky_sad_close at offscreenleft
 with charamove
 
-"She retreats to negotiate again."
+"เธอล่าถอยไปปรึกษากันอีกครั้ง"
 
 show misha sign_smile_close
 with None
@@ -1485,13 +1483,13 @@ label th_choiceA27:
 menu:
     with menueffect
 
-    mi "As a member of the Student Council, it's your duty to tell us why you are skipping class! Especially if it's something fun fun fun~!"
+    mi "ในฐานะสภานักเรียน หน้าที่ของนายคือการบอกว่าทำไมนายถึงโดดเรียนนะ! โดยเฉพาะถ้าเป็นเรื่องที่สนุกสนุ๊กสนุกน่ะ~!"
 
-    "Yeah, I sure was having fun fun fun at the nurse's office…":
+    "อืม ไปห้องพยาบาลมา สนุกสนุ๊กสนุกมากเลย…":
     #to A27b
         return m1
 
-    "I don't want to talk about it, okay?":
+    "คือยังไม่อยากคุยเรื่องนี้ โอเคนะ":
     #to A27c
         return m2
 
@@ -1499,46 +1497,46 @@ label th_A27b:
 
 stop music fadeout 4.0
 
-"God damn it. She just doesn't know when to stop."
+"ให้ตายเถอะแม่ง ไม่รู้จักหยุดบ้างเลยหรือไง"
 
-hi "Yeah fine. Whatever. I'll tell you. I was having a great time."
+hi "เออ ๆ ก็ได้ สนุกมากจะบอกให้"
 
-hi "I had a heart attack first thing in the morning and then hung out with the head nurse for a few hours for kicks."
+hi "เช้านี้มาถึงก็หัวใจวายเลย แถมได้ไปเล่นสนุกกับคุณพยาบาลอยู่สองสามชั่วโมงอีกต่างหาก"
 
-hi "Best morning of my life, I gotta tell you."
+hi "เป็นเช้าที่ดีที่สุดในชีวิตเลยบอกตรง ๆ "
 
-"I'm trying to imitate her ridiculous lilting speech while keeping my voice so low that nobody else hears me. The words come spitting out of my mouth."
+"ฉันทำน้ำเสียงล้อเธอที่ชอบพูดเป็นทำนองแบบเสียงเบาไม่ให้คนอื่นได้ยินโดยมีความกระแทกกระทั้นอยู่ในที"
 
 show misha perky_confused_close
 with charachange
 
-mi "Hicchan, you had a what? Seriously?"
+mi "ฮิจัง นายอะไรนะ จริงเหรอเนี่ย"
 
-hi "Just drop it. You heard me."
+hi "พอเหอะ ก็ตามนั้นแหละ"
 
 show misha perky_sad_close
 with charachange
 
-mi "But Hicchan, this is important!"
+mi "แต่ว่าฮิจัง นี่เรื่องสำคัญนะ!"
 
-hi "No, really. Leave me alone. We're in the middle of the class, too."
+hi "ไม่ ปล่อยฉันไปสักที แล้วนี่ก็กำลังเรียนอยู่ด้วย"
 
 show misha sign_sad_close
 with charachange
 
-mi "But Hicchan!"
+mi "แต่ว่า ฮิจัง!"
 
-"Misha sounds concerned, or maybe panicky. I wonder if she realizes herself that it wasn't the best of ideas to be so damn intrusive."
+"มิช่าดูจะเป็นห่วง ไม่ก็กำลังร้อนใจ นี่รู้ตัวมั้ยเนี่ยว่าการทำตัวขี้เสือกแบบนี้มันใช้ไม่ได้"
 
 "…"
 
-"I let her simmer in her own juices for a while before replying. It won't translate to Shizune but I don't care."
+"ฉันปล่อยให้เธอสำนึกกับการกระทำของตัวเองสักพักแล้วตอบ ซึ่งอาจจะส่งไม่ถึงชิซูเนะด้วย แต่ช่างมัน"
 
-hi "Piss off, Misha."
+hi "ไสหัวไปเลยมิช่า"
 
-hi "And tell Shizune to do so too."
+hi "แล้วบอกต่อให้ชิซูเนะด้วย"
 
-"As the words leave my mouth, I immediately regret saying them, but it's not like I can take them back any more."
+"ฉันรู้สึกผิดขึ้นมาทันที่ที่คำพูดหลุดออกจากปากไป แต่จะให้ถอนคำพูดก็คงไม่ได้แล้ว"
 
 show misha perky_sad_close
 with charachange
@@ -1550,9 +1548,9 @@ with charamove
 hide misha
 with None
 
-"To my partial surprise, Misha actually shuts up though I don't bother checking if she passes the message to Shizune. Doesn't matter either way."
+"แอบแปลกใจเหมือนกันที่มิช่าเงียบไปจริง ๆ แต่ฉันก็ไม่ได้ดูว่าเธอส่งต่อที่ฉันพูดให้ชิซูเนะด้วยหรือเปล่า ซึ่งจะบอก\nหรือไม่บอกก็ไม่สำคัญหรอก"
 
-"Mutou ends his class in some generic talk about the festival two days from now."
+"มุโต้คุยเรื่อยเปื่อยถึงงานเทศกาลที่จะมาถึงในอีกสองวันนี้แล้วเลิกชั้น"
 
 #to A29, needs a conditional about Emi making Hisao feel better
 
