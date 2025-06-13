@@ -1247,7 +1247,7 @@ with shorttimeskip
 
 "ฉันแบกกระเป๋ามาสามใบพลางคิดถึงสิ่งที่รออยู่ในวันนี้ของฉัน ของพวกเรา"
 
-"พอจะเห็นนักเรียนเดินไปมาที่ลานหน้าอาคารบ้าง คงจะเตรียมงานของตัวเองกันอยู่"
+"พอจะเห็นนักเรียนเดินไปมาตามลานหน้าอาคารบ้าง คงจะเตรียมงานของตัวเองกันอยู่"
 
 "งานเทศกาลก็เตรียมแทบใกล้จะเสร็จแล้ว ซึ่งแปลว่ามีอยู่สองสาเหตุที่พอจะเป็นไปได้ที่ต้องขอให้ฉันช่วย"
 
@@ -1558,32 +1558,32 @@ with None
 
 label th_A27c:
 
-hi "Give up. I'm not going to tell."
+hi "ยอมแพ้เถอะน่า ไม่บอกหรอก"
 
 show misha hips_grin_close
 with charachange
 
-mi "Is that so~?"
+mi "เหรอ~"
 
-hi "Yeah."
+hi "อืม"
 
 show misha perky_confused_close
 with charachange
 
-"She thinks about this for a moment."
+"เธอคิดอยู่ครู่หนึ่ง"
 
 show misha hips_frown_close
 with charachange
 
-mi "That's stingy, Hicchan~!"
+mi "ฮิจังขี้เหนียว~!"
 
-"I can hear the pout in her voice, disappointed and downcast."
+"น้ำเสียงของเธอดูงอนและหงอยไป"
 
 show bg school_scienceroom at center
 show misha hips_frown_close at offscreenleft
 with charamove
 
-"She retreats again for a moment to negotiate with the brainy half of the dynamic duo, before returning."
+"เธอล่าถอยไปปรึกษาคู่หูของเธอที่เป็นตัวขับเคลื่อนทางสมองของมิตรภาพนี้แล้วกลับมา"
 
 show misha hips_smile_close
 with None
@@ -1592,27 +1592,27 @@ show bg school_scienceroom at bgright
 show misha hips_smile_close  at Transform(xalign=-0.3)
 with charamove
 
-mi "I think we should have lunch together and discuss more about this… Shicchan says."
+mi "ฉันว่าเราควรไปกินข้าวเที่ยงแล้วคุยเรื่องนี้ด้วยกัน…ชิจังว่างั้น"
 
 show misha hips_grin_close
 with charachange
 
-mi "It's our treat."
+mi "เดี๋ยวพวกเราเลี้ยงเอง"
 
 show misha sign_smile_close
 with charachange
 
-mi "Besides, you need to make up for not being there in the morning and we need help with the work~!"
+mi "อีกอย่าง นายต้องมาชดเชยค่าที่นายไม่ได้มาช่วยงานเราเช้านี้ด้วย~!"
 
-"The other students around us are starting to give us looks, probably because Misha is leaning so much over her desk that she's almost bumping heads with me. Her curly hair brushes my neck."
+"คนอื่นในห้องเริ่มหันมอง คงเพราะมิช่าโน้มตัวข้ามโต๊ะมาจนหัวจะชนกับฉันอยู่แล้ว ผมม้วนของเธอถูกเข้ากับคอของฉัน"
 
-"It smells like shampoo and very much like whatever she puts in there to make it go like that."
+"มีกลิ่นแชมพูกับกลิ่นอะไรสักอย่างที่เธอใช้ให้ผมอยู่ทรงอย่างนั้น"
 
-"I think the girl in front of me is trying to eavesdrop. Hope nobody is getting the wrong idea about this, though I'm not really sure how it would be possible to get any other kind of idea."
+"เหมือนผู้หญิงที่นั่งตรงหน้าฉันจะเงี่ยหูฟังอยู่ หวังว่าจะไม่มีใครเข้าใจผิดอะไรไปนะ ถึงจะไม่รู้ก็เถอะว่ามีอะไรให้เข้าใจผิด\nได้อีก"
 
-"Luckily Mutou stays oblivious, or deliberately ignores Misha. So far."
+"โชคดีที่ตอนนี้มุโต้ยังไม่รู้ตัว หรือไม่ก็จงใจเมินมิช่า"
 
-"I can't really win this one, can I?"
+"คราวนี้คงหนีไม่ได้จริง ๆ สินะ"
 
 
 
@@ -1620,59 +1620,59 @@ label th_choice2A27:
 menu:
     with menueffect
 
-    "I promised to eat with Emi too, but I can't be in two places at the same time."
+    "รับปากไว้แล้วด้วยว่าจะไปกินข้าวเที่ยงกับเอมิ แต่จะแยกร่างไปทั้งสองที่พร้อมกันก็ไม่ได้"
 
-    "I'll go to the lunch with Emi and her friend.":
+    "ไปกินข้าวเที่ยงกับเอมิกับเพื่อนของเธอแล้วกัน":
         return m1
 
-    "I'll go with Shizune, after all I'm in the Student Council now.":
+    "ไปกับชิซูเนะแล้วกัน ก็เข้าสภานักเรียนแล้วนี่นะ":
         return m2
 
 
 label th_A27h:
 #lol label order
 
-hi "Sorry, I can't. I promised to have lunch with someone else already."
+hi "โทษที แต่ไปไม่ได้แล้วละ พอดีรับปากกับคนอื่นไว้แล้วว่าจะกินข้าวเที่ยงด้วยน่ะ"
 
 show misha perky_confused_close
 with charachange
 
-mi "Eeeh? Who? Is it a girl~?"
+mi "หืมมม ใครเหรอ ผู้หญิงหรือเปล่า~"
 
-hi "Yeah…"
+hi "อืม…"
 
 show misha hips_grin_close
 with charachange
 
-"Her giggle compels me to quickly follow with something so she doesn't get the wrong idea."
+"เสียงเธอหัวเราคิกคักบีบฉันให้ต้องพูดอะไรต่อเพื่อไม่ให้เธอเข้าใจผิด"
 
-hi "It's nothing like that! It's… a bit complicated."
+hi "ไม่ใช่อย่างนั้นนะ! เรื่องมัน…ซับซ้อนนิดหน่อย"
 
 show misha perky_smile_close
 with charachange
 
-"Complicated… yeah, that's what my life is, despite already setting into a daily routine of school life."
+"ซับซ้อน…ใช่ นั่นแหละชีวิตฉัน ถึงจะกลับมาใช้ชีวิตตามปกติในรั้วโรงเรียนได้แล้วก็เถอะ"
 
-"All things must be put into a new kind of perspective in this second life, reconsidered from the point of view of this new me."
+"ชีวิตที่สองนี้ต้องมองจากมุมใหม่ จากมุมมองของตัวฉันคนใหม่"
 
-"The me with a broken heart."
+"ตัวฉันที่อยู่กับใจพัง ๆ"
 
-hi "Also, I don't know if I can come to the council after all."
+hi "แล้วก็ ฉันไม่รู้นะว่าจะมาที่สภานักเรียนได้มั้ย"
 
-hi "Or at least for now. I have something else I need to focus on first."
+hi "ก็ดูก่อนแหละ ช่วงนี้มีอะไรอย่างอื่นให้สนใจอยู่น่ะ"
 
-"That's right. I have to rethink my priorities. This is something that has swirled around in my head since the nurse gave me that speech. I really can't afford to pretend I don't have this condition."
+"ใช่แล้ว ฉันต้องจัดลำดับความสำคัญใหม่ ตั้งแต่ที่พยาบาลคุยกับฉันเมื่อเช้าฉันก็คิดมาตลอด ฉันจะทำเหมือนว่าฉัน\nยังสบายดีไม่เป็นโรคนี้ไม่ได้"
 
-"I'm surprised that I can think so analytically, but I'll go with the flow for now."
+"ฉันนึกแปลกใจที่คิดได้เป็นเรื่องเป็นราวขนาดนี้ แต่ตอนนี้ก็ปล่อยตัวตามน้ำไปก่อน"
 
-hi "I promise I'll explain properly later, but not now, okay? Please tell Shizune I'm sorry for letting her down."
+hi "ฉันสัญญาว่าเดี๋ยวจะเล่าให้ละเอียดทีหลัง แต่ไม่ใช่ตอนนี้ นะ? ฝากบอกชิซูเนะด้วยว่าขอโทษที่ปฏิเสธ"
 
 show misha perky_confused_close
 with charachange
 
-mi "If you say so, Hicchan."
+mi "ถ้าฮิจังว่างั้นแล้วก็ได้"
 
-"She sounds surprised, and serious, which I don't think I've ever heard Misha to be before."
+"น้ำเสียงเธอดูตกใจและจริงจังซึ่งฉันน่าจะไม่เคยได้ยินมาก่อน"
 
 show bg school_scienceroom at center
 show misha perky_confused_close at offscreenleft
@@ -1683,20 +1683,20 @@ with None
 
 stop music fadeout 3.0
 
-"Misha luckily understands that I'm serious, a stroke of luck that I could tell what I mean so clearly even she got it. She retreats to translate our discussion to Shizune."
+"โชคดีที่มิช่าเข้าใจว่าฉันจริงจัง ครั้งนี้ลงตัวที่ฉันบอกอะไรให้ชัดเจนได้พอดีจนแม้แต่เธอยังเข้าใจ เธอล่าถอยกลับไปแล้ว\nแปลที่คุยกันเมื่อกี้ให้ชิซูเนะ"
 
-"Neither of them talk to me after that."
+"หลังจากนั้นทั้งสองคนก็ไม่คุยกับฉันอีก"
 
 
 
 label th_A27i:
 
-hi "Fine, I'll come with you, but get off my back for the rest of the class, okay?"
+hi "ไปก็ได้ แต่ภายในคาบนี้ห้ามมากวนอีกนะ"
 
 show misha hips_grin_close
 with charachange
 
-mi "It's a deal, Hicchan~!"
+mi "ได้เลยฮิจัง ตกลงตามนั้น"
 
 stop music fadeout 2.0
 
@@ -1717,13 +1717,13 @@ scene bg school_hallway3
 show crowd
 with locationchange
 
-"On the way to the student council room, I can see students walking back and forth through the halls, probably in preparation of their own projects."
+"ระหว่างที่เดินไปห้องสภานักเรียนก็พอจะเห็นนักเรียนเดินไปมาตามโถงทางเดินบ้าง คงจะเตรียมงานของตัวเองกันอยู่"
 
-"The festival is practically here. That means there are only two possible reasons that my help is required."
+"งานเทศกาลก็เตรียมแทบใกล้จะเสร็จแล้ว ซึ่งแปลว่ามีอยู่สองสาเหตุที่พอจะเป็นไปได้ที่ต้องขอให้ฉันช่วย"
 
-"Either there is only a small amount of work left, and they just want a helping hand to wrap up the mundane final checks they are obligated to do."
+"หนึ่งคือเหลือแค่งานเล็ก ๆ น้อย ๆ แล้วอยากให้ช่วยเก็บงานส่วนที่เป็นการตรวจขั้นสุดท้ายสุดซ้ำซากที่พวกเธอต้องทำ"
 
-"Or there is a ton of work left, and Shizune is putting on a calm face as a torrent of built-up procrastinated work threatens to kill us all."
+"สองคือมีงานเหลืออีกเป็นพันแล้วชิซูเนะทำนิ่งไปทั้งที่ดินที่พอกหางหมูกำลังจะกลิ้งมาทับพวกเราจนตายกันหมด"
 
 stop ambient fadeout 1.0
 
@@ -1735,9 +1735,9 @@ label th_A27d:
 scene bg school_scienceroom
 with locationskip
 
-"For a change, I'm not among the first ones to come to morning class."
+"คราวนี้ฉันไม่ได้มาเข้าห้องเป็นคนแรก"
 
-"Instead, almost everyone else seems to be here already. I recognize most of my class by their faces by now, though the names escape me still."
+"ดูเหมือนทุกคนมากันเกือบครบแล้ว ฉันพอจะจำหน้าคนในห้องส่วนใหญ่ได้บ้าง ถึงจะจำชื่อไม่ได้ก็เถอะ"
 
 
 
@@ -1750,41 +1750,41 @@ with shorttimeskip
 
 play music music_normal fadein 3.0
 
-"The class goes on lazily. I think I'm starting to get into the rhythm of the school."
+"คาบเรียนดำเนินไปอย่างเอื่อยเฉื่อย ฉันว่าฉันพอจะเข้ากับชีวิตที่โรงเรียนนี้ได้แล้ว"
 
-"I have even stopped worrying about taking notes and being overtly attentive. The first days, I was pretty high-strung in class."
+"ฉันเลิกคร่ำเครียดกับการจดสิ่งที่เรียนกับการจดจ่อจนเกินไปแล้ว วันแรก ๆ ที่มาฉันยังค่อนข้างเกร็ง"
 
-"Mutou finishes his lecture about electricity early, but continues without a pause about the festival."
+"มุโต้เลิกคาบที่เขากำลังสอนเรื่องไฟฟ้าอยู่ให้เร็วกว่าปกติ แต่ก็พูดเรื่องงานโรงเรียนต่อทันที"
 
 show muto normal at center
 with charaenter
 
-mu "So, as you know, the festival is on the day after tomorrow. I hope everyone's projects are going to be successful this year."
+mu "เอาละ อย่างที่รู้กันว่างานโรงเรียนจะจัดมะรืนนี้แล้ว หวังว่างานปีนี้ของทุกคนจะประสบความสำเร็จนะ"
 
 show muto smile
 with charachange
 
-mu "Have a good time, but also come Sunday, please keep the meaning of this festival in your minds…"
+mu "ขอให้สนุกนะ แต่เมื่อถึงวันอาทิตย์แล้วก็ขออย่าลืมความหมายของงานเทศกาลนี้…"
 
-mi "Games and fried food!"
+mi "เกมงานวัดและของทอด!"
 
-"Everyone bursts out in laughter, and so do I."
+"ทั้งห้องหัวเราะครืน และฉันก็ผสมโรงด้วย"
 
 show muto irritated
 with charachange
 
-mu "Yes, thank you Mikado."
+mu "ก็ถูก ขอบคุณมาก มิคาโดะ"
 
 show muto normal
 with charachange
 
-mu "But what I meant was more the—{w=.5}{nw}"
+mu "แต่สิ่งที่ครูอยากบอกคือ—{w=.5}{nw}"
 
 play sound sfx_normalbell
 
-"The remainder of his sentence is buried beneath the ring of the lunch bells, and everyone starts packing their things."
+"ส่วนที่เหลือของประโยคเขาถูกเสียงระฆังพักเที่ยงกลบ ทุกคนก็เริ่มเก็บข้าวของกัน"
 
-"Mutou deliberates for a moment, but since almost nobody seems to pay attention any more, he gives up and sits down."
+"มุโต้ใช้ความคิดอยู่พักหนึ่ง แต่เมื่อไม่มีใครสนใจแล้วเขาจึงยอมแพ้และนั่งลง"
 
 stop music fadeout 2.0
 
@@ -1794,7 +1794,7 @@ with locationchange
 
 play ambient sfx_crowd_indoors fadein 0.3
 
-"It's crowded in the hallway… or as crowded as hallways in this school probably get. Most of the students seem to be heading down for the cafeteria."
+"ที่โถงทางเดินคนแน่นขนัด…แน่นเท่าที่โถงทางเดินโรงเรียนจะแน่นได้ นักเรียนส่วนใหญ่ดูจะตรงไปที่โรงอาหารกัน"
 
 
 #to A29
@@ -1808,11 +1808,11 @@ with shorttimeskip
 
 stop music fadeout 2.0
 
-"Misha, and by proxy, Shizune, doesn't bother me for the entire morning."
+"ตลอดช่วงเช้านั้นมิช่าไม่กวนฉันอีก ซึ่งแปลว่ารวมถึงชิซูเนะด้วย"
 
 play sound sfx_normalbell
 
-"When the bell rings, I don't even look at the two of them as I walk out of the class."
+"เมื่อระฆังดังฉันก็เดินออกจากห้องโดยไม่แม้แต่เหลียวมองทั้งสองคน"
 
 scene bg school_hallway3
 show crowd
@@ -1820,7 +1820,7 @@ with locationchange
 
 play ambient sfx_crowd_indoors fadein 0.3
 
-"It's crowded in the hallway… or as crowded as hallways in this school probably get. Most of the students seem to be heading down for the cafeteria."
+"ที่โถงทางเดินคนแน่นขนัด…แน่นเท่าที่โถงทางเดินโรงเรียนจะแน่นได้ นักเรียนส่วนใหญ่ดูจะตรงไปที่โรงอาหารกัน"
 
 
 
@@ -1835,18 +1835,18 @@ show misha perky_smile at twoleft
 show shizu behind_smile at tworight
 with charaenter
 
-"Once inside the office, I look around and see that it's deserted."
+"เมื่อเข้ามาในห้องและมองไปรอบ ๆ แล้วก็เห็นว่าไม่มีใคร"
 
-hi "I guess this means there isn't a lot of work left, huh? Since there's no one here, and all."
+hi "คงเหลืองานไม่เยอะแล้วสิเนี่ย ไม่เห็นมีใครอะไรเลย"
 
 show misha sign_smile
 with charachange
 
-mi "It's always like this, Hicchan~!"
+mi "มันก็เป็นงี้ตลอดแหละฮิจัง~!"
 
-"This confirms what I have thought before but have never actually been able to confirm definitively: Shizune and Misha are the Student Council. The whole Student Council."
+"เท่านี้ก็เป็นการยืนยันสิ่งที่ฉันสงสัยแต่ฟันธงไม่ได้มาตลอด เรื่องที่ว่าชิซูเนะและมิช่าคือ{b}ทั้ง{/b}สภานักเรียน"
 
-hi "Damn. So it's true. The Student Council is really only you two."
+hi "โห่ สรุปทั้งสภาก็มีแค่เธอสองคนจริง ๆ "
 
 play music music_ease fadein 4.0
 
@@ -1854,7 +1854,7 @@ show misha hips_grin
 show shizu cross_wut
 with charachange
 
-"Shizune looks as if she's stuck wondering whether to be ashamed or explode with anger, and Misha is equally divided between laughing and trying to stop her."
+"ดูเหมือนชิซูเนะยังเลือกไม่ถูกว่าจะรู้สึกอับอายหรือโกรธจนระเบิดลงตอนนี้เลยดี มิช่าก็เลือกไม่ถูกพอกันว่าจะขำ\nหรือเข้าไปห้ามเธอดี"
 
 show shizu behind_frustrated
 with charachange
@@ -1864,24 +1864,24 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Well, then, Hicchan, you'll be happy to know that since it's just us three, we have a lot to do! A lot~! A lot~ lot~ lot~…"
+mi "เอาละ ๆ ฮิจัง นายต้องมีความสุขแน่ที่งานเราจะเยอะเพราะมีกันแค่สามคนน่ะ! เยอะ~! มาก~ ม๊าก~ มาก~…"
 
-hi "That does not make me happy."
+hi "ไม่เห็นจะมีความสุขตรงไหน"
 
 show shizu adjust_happy
 with charachange
 
-"But it seems to make Shizune very happy."
+"แต่เหมือนว่าชิซูเนะจะมีความสุขมาก ๆ "
 
 show misha cross_laugh
 with charachange
 
-mi "Wahaha~!"
+mi "วะฮ่าฮ่า~!"
 
 show misha hips_grin
 with charachange
 
-mi "Just kidding!"
+mi "หยอกน่า!"
 
 label th_A28a:
 #you see this if you have been spending the morning in the infirmary
@@ -1889,19 +1889,19 @@ label th_A28a:
 scene bg school_council
 with shorttimeskip
 
-"The work turns out to be sorting and double-checking the considerable amount of paperwork necessary for an event such as the school festival to get done."
+"งานก็เป็นการจัดแจงกับตรวจสอบเอกสารสำหรับการจัดงานอย่างงานเทศกาลโรงเรียน ซึ่งเยอะพอตัว"
 
-"Bureaucracy is a mindboggling thing."
+"กระบวนการอะไรพวกนี้เป็นเรื่องที่ไม่เข้าใจเลยจริง ๆ "
 
 play sound sfx_normalbell
 
-"But we manage to finish it just when the lunch bells ring."
+"แต่พวกเราก็ทำเสร็จทันก่อนระฆังพักเที่ยงดังพอดี"
 
 show misha hips_grin at twoleft
 show shizu adjust_happy at tworight
 with charaenter
 
-mi "Okay~, now that we are done, we can relax a little! But not too much, we have lots more to do in the afternoon~!"
+mi "โอเค~ งานเสร็จแล้วก็พักกันสักหน่อยก็ได้! แต่อย่าพักมากละ ตอนบ่ายยังเหลืองานอีกเยอะ~!"
 
 label th_A28b:
 
@@ -1915,25 +1915,25 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "It's actually not that much work, Hicchan~. So~, we can afford to enjoy a little lunch first."
+mi "เยอะขนาดนั้นเลยแหละฮิจัง~ เพราะงั้น~ มากินข้าวเที่ยงอร่อย ๆ กันก่อนดีกว่า"
 
 show misha cross_laugh
 with charachange
 
-mi "Hahaha~!"
+mi "ฮ่าฮ่าฮ่า~!"
 
-"The two of them produce a small array of plastic containers seemingly out of thin air."
+"อยู่ ๆ ทั้งคู่ก็ควักกล่องพลาสติกออกมาจากไหนก็ไม่รู้เป็นชุด"
 
 show misha hips_grin
 with charachange
 
-mi "Hm~ hm~… It's chicken cutlet with tomatoes and soybean sprouts~! Doesn't it sound delicious, Hicchan?"
+mi "ฮืม~ ฮื้ม~… ไก่ชุบแป้งทอด พร้อมมะเขือเทศกับถั่วงอกหัวโตละ~! คงอร่อยน่าดูเลยเนอะฮิจัง"
 
-mi "It was just made this morning, and it's still warm, so eat eat eat~!"
+mi "ไก่ก็เพิ่งทอดสด ๆ มาเมื่อเช้านี้ ยังอุ่นอยู่เลย มามามา มากิน~!"
 
-"I take one of the containers and open it. It looks nice, and certainly smells good. The fact that I'm really hungry adds to that even more."
+"ฉันหยิบมากล่องหนึ่งแล้วเปิดออกดู หน้าตาใช้ได้ กลิ่นก็หอม แถมตอนนี้ก็หิวแล้วด้วย"
 
-hi "Wow, this looks great. Where did you get this?"
+hi "โห ดูน่าอร่อยแฮะ ไปซื้อที่ไหนมาเหรอ"
 
 show shizu basic_normal
 with charachange
@@ -1943,26 +1943,26 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "That isn't important, Hicchan!"
+mi "ไม่สำคัญหรอกน่าฮิจัง!"
 
 show misha sign_smile
 with charachange
 
-mi "There was supposed to be a stall selling lunchboxes, but the girl who was to run it suddenly said she couldn't do it. Shicchan said, “What a waste, it was a lot of work to trick Hicchan into making this~”—"
+mi "ที่จริงในงานจะมีแผงขายข้าวเที่ยงด้วย แต่อยู่ ๆ คนที่รับผิดชอบก็มาบอกว่าทำไม่ได้แล้ว ชิจังเลยบอก “เสียดายแฮะ\nอุตส่าห์ล่อให้ฮิซาโอะมาทำได้แล้วแท้ ๆ "
 
-hi "Hey, what the hell…"
+hi "เฮ้ย อะไรเนี่ย…"
 
 show misha hips_grin
 with charachange
 
-mi "…So~! Shicchan wanted to see if she could do it, but then decided not to, right, Shicchan~?"
+mi "…ชิจังก็เลย~! อยากลองดูว่าจะมาทำแทนได้มั้ย แต่แล้วก็ยอมแพ้ เนอะ ชิจัง~"
 
 show shizu basic_angry
 with charachange
 
-"Shizune sulks angrily, shooting Misha a displeased look. I don't think I was supposed to hear that story."
+"ชิซูเนะทำแก้มป่องมองมิช่าด้วยความไม่พอใจ รู้สึกว่าเป็นเรื่องที่ฉันไม่ควรได้ยินยังไงไม่รู้"
 
-hi "This is your test food?"
+hi "อันนี้คือที่ลองทำเหรอ"
 
 show shizu behind_frown
 with charachange
@@ -1972,30 +1972,30 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "I'm eating it too, Hicchan~!"
+mi "ฉันกินด้วยนะฮิจัง~!"
 
 show misha hips_grin
 with charachange
 
-mi "And Shicchan is, too~!"
+mi "ชิจังก็ด้วย~!"
 
-"That doesn't answer the question!"
+"ไม่เห็นมีคำตอบเลยเฮ้ย!"
 
-"Nevertheless, I split a pair of chopsticks Shizune offers me, pick up a piece of cutlet, and pop it into my mouth."
+"แต่ฉันก็หักตะเกียบที่ชิซูเนะยื่นให้แล้วคีบไก่ทอดเข้าปากกินทันที"
 
-hi "It's surprisingly good. I didn't expect Shizune to be such a good cook."
+hi "อร่อยนะเนี่ย ไม่ยักรู้ว่าชิซูเนะทำกับข้าวเก่งขนาดนี้"
 
 show shizu basic_frown
 with charachange
 
-"Shizune puts her chopsticks down to sign curtly towards Misha, who gulps down her cutlet with noticeable difficulty in order to speak for her."
+"ชิซูเนะวางตะเกียบลงแล้วทำภาษามือสั้น ๆ ให้มิช่าที่ดูจะกลืนชิ้นไก่ทอดด้วยความยากลำบากก่อนที่จะพูดแปลให้"
 
 show misha sign_smile
 with charachange
 
-mi "Hicchan~! Don't talk with food in your mouth~!"
+mi "ฮิจัง~! ข้าวเต็มปากอยู่ก็อย่าเพิ่งพูดสิ~!"
 
-hi "It's not like I enjoy doing it. Anyway, how motherly to show that kind of concern…"
+hi "ฉันก็ไม่ได้อยากทำสักหน่อย แต่แหม มาสอนเรื่องแบบนี้นี่เหมือนแม่เลย…"
 
 show shizu behind_frown
 with charachange
@@ -2005,22 +2005,22 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "You can't even eat right, Hicchan~! That's all it is~!"
+mi "ก็แค่จะบอกว่า~! กินให้มันดี ๆ ยังไม่ได้เลยฮิจังน่ะ~!"
 
 show misha perky_sad
 with charachange
 
-"It's a stalemate. I can't eat in order to talk to Shizune, who can't eat in order to chastise me for eating the wrong way. Misha, caught in between, is in the same situation, and looks the most disheartened by how this is going."
+"รู้สึกเหมือนตกอยู่ในสภาพหมากอับเลยแฮะ ฉันก็กินไม่ได้เพราะต้องคุยกับชิซูเนะ เธอก็กินไม่ได้เพราะต้องว่าฉันเรื่องที่\nไม่มีมารยาทในการกิน ส่วนมิช่าที่โดนหางเลขไปด้วยก็เหมือนกันและดูจะหน่ายใจที่สุดที่เรื่องเป็นแบบนี้"
 
 show shizu behind_blank
 show misha perky_smile
 with charachange
 
-"Either way, our food is getting colder by the second, and it wasn't piping hot to start with. Wherever this was going, it dies down pretty fast once we all realize that, and we eat."
+"แต่นั่นแหละ ข้าวก็จะเย็นชืดไปทุกที แถมไม่ได้มาในสภาพสด ๆ ร้อน ๆ ขนาดนั้นอยู่แล้วด้วย สุดท้ายพอพวกเรารู้ตัว\nก็ยอมจบเรื่องแล้วกินตามปกติ"
 
 play sound sfx_warningbell
 
-"After a while the bell rings, but Misha makes no attempt to tell Shizune, so I'm sure they're planning to skip classes and spend the rest of the day in here again."
+"ระฆังดังได้สักพักแล้ว แต่มิช่าก็ไม่ได้บอกชิซูเนะ สงสัยคงกะจะโดดเรียนแล้วแช่อยู่ที่นี่ทั้งบ่ายอีกแน่ ๆ "
 
 show shizu adjust_smug
 with charachange
@@ -2030,16 +2030,16 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Hicchan, do you have any plans for the festival?"
+mi "ฮิจัง คิดไว้หรือยังว่าจะทำอะไรในงานเทศกาลน่ะ"
 
-hi "No, not really. After all, I've only been here a week, what could I set up in that time?"
+hi "ไม่อะ ไม่ได้คิด เพิ่งมาได้สัปดาห์เดียวจะให้ทำอะไรได้"
 
 show misha cross_laugh
 with charachange
 
-mi "Wahaha~! Hicchan, you helped us out so much, don't sell yourself short!"
+mi "วะฮ่าฮ่า~! ฮิจัง นายช่วยพวกเรามาตั้งเยอะ อย่าด้อยค่าตัวเองไปเลยน่า!"
 
-hi "Okay."
+hi "โอเค"
 
 show shizu basic_angry
 with charachange
@@ -2049,11 +2049,11 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "We're serious~!"
+mi "นี่จริงจังนะ~!"
 
-hi "Okay!"
+hi "โอเค!"
 
-"The two of them seem to get indignant over the strangest things."
+"สองคนนี้ดูจะจู้จี้กับอะไรแปลก ๆ ตลอด"
 
 show shizu adjust_happy
 with charachange
@@ -2063,23 +2063,23 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "You're going though, right, Hicchan? You should at least see what we've ac—complished…? Everyone should be able to look at what they have done so they can fully understand their work, that's my belief~! You're no exception!"
+mi "แต่นายจะมางานอยู่ใช่มั้ยฮิจัง อย่างน้อยก็มาดูว่าพวกเราทำอะไรลุ–ล่วง…? ไปแล้วบ้าง คนเราทำอะไรแล้วก็ต้อง\nมาดูผลงานตัวเองให้เข้าใจจริง ๆ ฉันเชื่ออย่างนั้นนะ~! ฮิจังก็ด้วย!"
 
 show misha perky_smile
 with charachange
 
-mi "Hicchan, you should definitely go~! If you don't have anything planned, then maybe we can even go together~!"
+mi "ฮิจัง นายต้องมาให้ได้เลยนะ~! ถ้านายไม่ได้มีแพลนอะไรก็มาด้วยกันยังได้เลย~!"
 
 show shizu adjust_blush
 with charachange
 
-hi "Do you need a hand? If there's anything you need help with, I'm fine with sticking around."
+hi "ให้ฉันช่วยมั้ยล่ะ มีอะไรให้ช่วยได้ก็จะช่วย ฉันได้หมด"
 
-"I feel much more at ease than I did earlier; my previous concerns and fears long gone. I'd forgotten about this morning's trouble entirely until now, having fun with Shizune like this."
+"ฉันรู้สึกสบายใจขึ้นกว่าเมื่อครู่ ทุกความกังวลและความกลัวหายไปหมด พอได้มาสนุกอยู่กับชิซูเนะอย่างนี้แล้วก็ลืม\nความไม่สบายใจที่เกิดตั้งแต่เมื่อเช้าจนตอนนี้ไปจนหมด"
 
-"Having fun with Shizune… It seems like an unfamiliar concept to think of, but, looking back on it, I've really enjoyed the moments I've spent with Shizune and Misha these past few days, in spite of everything else."
+"สนุกอยู่กับชิซูเนะ…อาจจะเป็นคำที่ดูไม่ค่อยลงตัวกันเท่าไหร่ แต่พอมาคิดดูแล้วสองสามวันที่ผ่านมาที่ได้อยู่กับชิซูเนะ\nและมิช่าก็รู้สึกเพลินดี แม้จะมีเรื่องอื่นเข้ามาก็ตาม"
 
-"If we might be going together, then maybe I can afford to stick around a little longer. And I guess it beats class."
+"ไหน ๆ ก็จะไปด้วยกันอยู่แล้ว อยู่ต่อสักหน่อยแล้วกัน คงสนุกกว่านั่งอยู่ในห้องเรียนด้วย"
 
 show shizu behind_blank
 with charachange
@@ -2089,22 +2089,22 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Really, Hicchan? Okay~! We can consider this you repaying us for the free lunch~!"
+mi "จริงเหรอฮิจัง ก็ได้~! งั้นจะถือว่าเป็นค่าตอบแทนที่เลี้ยงข้าวเที่ยงฟรีแล้วกัน~!"
 
 show misha cross_laugh
 with charachange
 
-mi "Great, this is great, really~ really~ great~! Shicchan was hoping to bring this up again later anyway! Ahahaha~! Wahahahahaha~!"
+mi "เยี่ยม เยี่ยมจริง ๆ ~ เยี่ยมจริง ๆ ~ เยี่ยมจริง ๆ ~! ชิจังก็กะว่าจะเอามาทวงอยู่แล้วอะนะ! อะฮ่าฮ่าฮ่า~!\nวะฮ่าฮ่าฮ่าฮ่าฮ่าฮ่า~!"
 
-"That's not a free lunch at all. Normally I would be angry, or at least slightly unsettled, but my mood has improved from earlier on, so I'll let it slide."
+"แล้วมันจะนับว่าข้าวเที่ยงฟรียังไง ปกติก็คงโกรธหรือหงุดหงิดนิดหน่อย แต่เมื่อกี้อารมณ์ดีขึ้นแล้ว หยวน ๆ ไปแล้วกัน"
 
-"Helping them out turns out to consist mostly of stamping forms and making what seems like ten thousand copies apiece of fifty different budget reports."
+"ช่วยงานคราวนี้เป็นงานให้ปั๊มเอกสารกับถ่ายเอกสารรายงานงบประมาณห้าสิบฉบับที่รู้สึกเหมือนจะได้ถ่ายแต่ละฉบับ\nมาเป็นแสนชุด"
 
-"It's not hard, but very boring, and according to Misha, the simplest of the tasks they deal with."
+"งานไม่ได้ยาก แต่น่าเบื่อเอามาก ๆ และมิช่าบอกว่าพวกนี้เป็นงานที่ง่ายที่สุดที่พวกเธอทำ"
 
-"I feel myself getting more and more tired, and with that, less eager to return to class. This is especially bad because the more time I spend out of class, the harder it seems to just get up and go back."
+"รู้สึกตัวเองยิ่งล้าไปเรื่อย ๆ จนความรู้สึกอยากกลับไปเข้าเรียนก็หดหายตาม ซึ่งยิ่งแย่ไปอีกเพราะยิ่งได้อยู่นอกห้อง\nมากเท่าไหร่ก็ยิ่งจะลากตัวเองให้กลับไปนั่งเรียนได้ยากขึ้นเท่านั้น"
 
-"These two, they're a terrible influence. Terrible role models. Not that it bothers me all that much, and I'm sure no one looks up to them, but it's the principle of the thing…"
+"สองคนนี้เป็นตัวอย่างที่ไม่ดีพาฉันเสียคน แต่ก็ใช่ว่าฉันจะคิดมากอะไรอยู่แล้ว ยังไงก็คงไม่มีใครนับถือพวกเธอเท่าไหร่ด้วย\nแต่อย่างน้อยมันก็คือสิ่งที่ควรทำน่ะนะ…"
 
 show shizu adjust_happy
 with charachange
@@ -2114,21 +2114,21 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Done~!"
+mi "เสร็จแล้ว~!"
 
-hi "Ah, that was fast. I'll be finished before this period's over, I think."
+hi "โอ๊ะ เร็วจัง เดี๋ยวฉันน่าจะเสร็จก่อนคาบนี้เลิกแหละ"
 
 show misha sign_smile
 with charachange
 
-mi "No, no, Hicchan, everything is done. So, you're done, too~!"
+mi "ไม่ ๆ ฮิจัง ทุกอย่างเสร็จหมดแล้ว นายก็เสร็จแล้วด้วย~!"
 
-hi "That doesn't make any sense, are you telling me this is all arbitrary and you've been keeping me here for the hell of it?"
+hi "แบบนี้ก็ได้เหรอ นี่จะบอกว่าทั้งหมดนี่คือทำตามใจไปเรื่อยแล้วจะยื้อกันไว้เฉย ๆ ว่างั้น"
 
 show misha hips_grin
 with charachange
 
-mi "No~…"
+mi "เปล่า~…"
 
 show shizu basic_normal
 with charachange
@@ -2138,9 +2138,9 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "But we have kept you long enough~! You should go back to class, Hicchan~! You can still make it for most of this period!"
+mi "แต่เรารั้งนายไว้นานแล้ว~! นายก็กลับไปเรียนได้แล้วนะฮิจัง~! เข้าคาบนี้ยังพอทันอยู่นะ!"
 
-hi "What about you?"
+hi "แล้วพวกเธอล่ะ"
 
 show shizu behind_blank
 with charachange
@@ -2150,35 +2150,35 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Of course we're coming too, of course; we'll be right behind you!"
+mi "ก็ไปสิ เดี๋ยวจะตามนายไปนั่นแหละ!"
 
 stop music fadeout 6.0
 
 scene bg school_hallway3
 with locationchange
 
-"Reassured, I start heading back to class, but the period is almost halfway over, so I start thinking it would be pointless halfway there and pass the difference between this class and the next drinking juice in the hallway."
+"ฉันกลับเข้าห้องเรียนด้วยความสบายใจ แต่คาบเรียนผ่านมาแล้วเกือบครึ่งทาง เลยคิดไปว่าหรือจะเอาเวลาที่เหลือ\nไปหาซื้อน้ำผลไม้มาดื่มรอคาบต่อไปที่โถงทางเดินไปเลย"
 
-"I keep an eye on the door to the student council room, but it doesn't open. What's taking them so long? Are they busy wrapping up my share of the work? Well, it shouldn't take so long, unless there's more, and they just wanted me to leave."
+"ฉันยืนจ้องประตูห้องสภานักเรียนอยู่ ทว่าก็ไม่มีใครเปิด ทำไมนานอย่างนี้นะ หรือกำลังเก็บงานส่วนที่เหลือของฉันอยู่\nจริง ๆ ก็ไม่น่านาน ยกเว้นว่าจะมีงานเหลืออีกแล้วอยากปล่อยฉันมาก่อนเฉย ๆ "
 
-"The more I think about it, the likelier it seems."
+"ยิ่งคิดก็ยิ่งดูเป็นไปได้"
 
-"Shizune is… well, not an idiot, but clearly, she's unable to just come out with things."
+"ชิซูเนะก็…ไม่ได้โง่หรอก แต่ที่ชัดก็คือไม่เก่งเรื่องการสื่อสาร"
 
-"Maybe it's because she can't talk, so it's harder for her. She has Misha, but all in all, as easy as they make it look, there's still a difference between casual speech and sign language."
+"อาจจะเพราะเธอพูดไม่ได้ถึงได้สื่อสารอะไรลำบาก มีมิช่าอยู่ก็จริง แต่ยังไงไม่ว่าจะดูลื่นไหลขนาดไหน ภาษาพูดแบบกันเอง\nกับภาษามือนั้นไม่เหมือนกันอยู่แล้ว"
 
 play sound sfx_normalbell
 
-"I contemplate going back there to check on them, but the bell rings, and I have to go to class."
+"ฉันชั่งใจว่าจะกลับเข้าไปหาทั้งสองคนอีกทีดีไหม แต่แล้วกระดิ่งก็ดัง ต้องกลับไปเข้าเรียนแล้ว"
 
 scene bg school_scienceroom
 with locationchange
 
-"They join me a few minutes later, and the thoughts I had in my mind before slip away in the routine of school life."
+"สองสามนาทีให้หลังพวกเธอก็ตามมา ความคิดอะไรที่เคยอยู่ในหัวถูกกลืนหายไปกับกิจวิตรในรั้วโรงเรียน"
 
 with shorttimeskip
 
-"By the time I remember, school is over for the day and I'm too tired to do anything but go home, do my homework, and then go to sleep."
+"เมื่อรู้ตัวอีกทีก็เลิกเรียนแล้ว ฉันเหนื่อยเกินกว่าที่จะทำอะไรนอกจากการตรงดิ่งกลับห้อง ทำการบ้าน และนอน"
 
 $ suppress_window_after_timeskip = True
 
@@ -2200,100 +2200,100 @@ play music music_emi fadein 0.3
 show emi basic_happy at center
 with charaenter
 
-emi "Hisao!"
+emi "ฮิซาโอะ!"
 
 show emi excited_proud
 with charachange
 
-emi "I'm going to make you a one-time-only, super extra special lunch offer!"
+emi "ฉันขอมอบข้อเสนอข้าวเที่ยงสุดพิเศษที่มีเพียงครั้งเดียวเท่านั้น!"
 
 show emi excited_laugh
 with charachange
 
-emi "Emi's home made lunch boxes, and the privilege of enjoying them in private with two bombshell beauties!"
+emi "นั่นคือกล่องข้าวเที่ยงทำมือโดยเอมิ และสิทธิพิเศษกับการได้ดื่มด่ำมื้อนี้กับสาวสวยระเบิดสองคน!"
 
-"Her overly flirtatious sales pitch echoes in the hallway, a remarkable feat since it's full of people."
-
-show emi basic_closedgrin
-with charachange
-
-"Emi strikes a very confident-looking pose as though as an attempt to one-up her own ridiculousness, puffing her very modest chest and making the V for victory sign with her hand."
-
-hi "Sounds delicious. To what do I owe this honor of being invited?"
-
-show emi excited_proud
-with charachange
-
-emi "You stood there looking really lost and sad so I thought you could use some company."
-
-"That is probably the most depressing reason imaginable."
+"การขายตรงของเธอที่ออกจะเป็นการจีบมากไปหน่อยนั้นดังก้องทั่วโถงทางเดิน ซึ่งน่าทึ่งมากเพราะที่นี่มีแต่คนเต็มไปหมด"
 
 show emi basic_closedgrin
 with charachange
 
-emi "So how about it? You're probably really lonely and would eat that awful cafeteria food all alone, otherwise."
+"เอมิเต๊ะท่าที่ดูแสนมั่นใจเพื่อกลบเกลื่อนความบ๊องของการกระทำของเธอ ยืดอกที่มีแต่พอดีนั้นขึ้นพลางชูสองนิ้ว"
 
-hi "Eeeh…"
+hi "ฟังดูน่าอร่อยดีนี่ ว่าแต่ด้วยเกียรติอันใดที่ข้าพเจ้าสมควรรับคำเชิญนี้หรือ"
 
 show emi excited_proud
 with charachange
 
-emi "I'm kidding, I'm kidding!"
+emi "เห็นยืนเด๋อหงอยเป็นส้วมซึมอยู่ตรงนั้นเลยกะจะชวนมาเป็นเพื่อนแน่ะ"
 
-hi "Sure, I'll have your lunch offer. With pleasure."
+"เป็นเหตุผลที่คิดแล้วเครียดหนักจริง ๆ"
+
+show emi basic_closedgrin
+with charachange
+
+emi "ว่าไงล่ะ ไม่งั้นนายก็คงตัวคนเดียวไปกินข้าวโรงอาหารเห่ย ๆ อยู่แบบเหงา ๆ นะ"
+
+hi "เอ่อออ…"
+
+show emi excited_proud
+with charachange
+
+emi "หยอก ๆ น่า!"
+
+hi "ได้ ขอรับข้อเสนอมื้อเที่ยงของเธอไว้ด้วยความยินดี"
 
 show emi basic_happy
 with charachange
 
-emi "Let's go to the roof!"
+emi "ไปดาดฟ้ากัน!"
 
-hi "The roof?"
+hi "ดาดฟ้า?"
 
-hi "Why the roof?"
+hi "ทำไมต้องที่ดาดฟ้า"
 
 show emi basic_closedgrin
 with charachange
 
-emi "Because that's where we eat lunch!"
+emi "ก็ไปกินข้าวเที่ยงที่นั่นไง!"
 
-emi "And if I don't get up there, then she'll probably wander off and then I just know she'll go hungry because she never packs a lunch for herself!"
+emi "แล้วถ้าไม่รีบไปเดี๋ยวเธอคนนั้นก็หนีไปเดินเล่นอีก แล้วเดี๋ยวก็จะหิวเพราะไม่เคยห่อข้าวเที่ยงมาเองเลย!"
 
-hi "Who will?"
+hi "เธอคนนั้นที่ว่านี่ใคร"
 
 show emi basic_closedhappy
 with charachange
 
-emi "Come with me!"
+emi "มาเถอะน่า!"
 
-"Without answering my question or waiting for a response, she grabs me by the arm and drags me through the hallways."
+"เธอลากแขนฉันไปตามโถงทางเดินโดยไม่ตอบคำถามหรือรอคำตอบใด ๆ "
 
-"I attempt to make conversation on the way."
+"ระหว่างทางฉันก็หาเรื่องคุย"
 
-hi "Why do you have an extra lunch?"
+hi "ทำไมถึงทำมาเยอะขนาดนี้"
 
 show emi sad_grin
 with charachange
 
-"Emi smiles guiltily."
+"เอมิยิ้มแหย ๆ "
 
-emi "Actually, it's yesterday's lunch."
+emi "จริง ๆ แล้วอันนี้คือข้าวเที่ยงของเมื่อวานน่ะ"
 
-emi "I slipped in a run at lunch and forgot to eat it."
+emi "พอดีตอนพักเที่ยงไปวิ่งแล้วก็ลืมกินเลย"
 
-"Huh."
+"หืม"
 
 # The line above will go wherever the scene changes from out of the hallway, I guess.
 
 
 label th_A29x:
 
-"Her expression is so funny that I almost laugh out loud."
+"สีหน้าของเธอดูตลกจนฉันแทบหลุดขำ"
 
-"Emi giggles, to herself or to something or other, or maybe for no reason at all. I like the sound of it."
+"เธอหัวเราะคิกคัก ไม่รู้หัวเราะกับตัวเองหรือเรื่องอื่นกันแน่ หรือไม่ก็ขำลอย ๆ เป็นเสียงหัวเราะที่ฉันชอบ"
 
-"Emi's sunny, energetic disposition alleviates the constricting feeling in the back of my head from the fight with Shizune and Misha."
+"พลังอันเหลือล้นและความสดใสของเธอช่วยบรรเทาความรู้สึกอันหนักอึ้งหลังทะเลาะกับชิซูเนะและมิช่าที่ติดตรึงอยู่ในหัว"
 
-"I let that issue slide out of my mind, and smile for the first time today."
+"ฉันปล่อยให้เรื่องนั้นลอยหายไปจากหัวและยิ้มเป็นครั้งแรกของวัน"
 
 
 
@@ -2306,34 +2306,34 @@ with None
 
 play ambient sfx_crowd_indoors fadein 0.3
 
-"Normally, I'd join the flow and grab a lunch myself, but today is different."
+"ปกติฉันคงไหลไปตามผู้คนและหาซื้อข้าวเที่ยงบ้าง แต่วันนี้ไม่เหมือนเดิม"
 
-"Today, I've been invited to lunch on the roof."
+"วันนี้มีคนชวนฉันไปกินข้าวเที่ยงที่ดาดฟ้า"
 
-"An odd location, but that's where I was told to go."
+"ถึงจะเป็นสถานที่ที่แปลก แต่ก็ได้ยินมาอย่างนั้น"
 
-"Fortunately, I manage to find shelter from the storm in the lee of the classroom door."
+"โชคดีที่มีประตูห้องเรียนให้มาหลบรอกระแสคนไหลออกไปก่อน"
 
 stop ambient fadeout 1.0
 
 hide crowd
 with Dissolve(2.0)
 
-"Eventually the torrent subsides and I step tentatively out into the hallway."
+"พอคนเริ่มซาลงแล้วฉันก็ออกมาที่โถงทางเดิน"
 
-"Only to be met by Emi, who comes flouncing down the hallway like a cannonball."
+"และเจอกับเอมิที่ทะยานมาตามโถงทางเดินราวกับลูกปืนใหญ่"
 
 play music music_emi fadein 0.3
 
 show emi basic_happy at center
 with charaenter
 
-emi "Hey! Hi Hisao! Great timing!"
+emi "นี่! ไง ฮิซาโอะ! มาพอดีเลย!"
 
 show emi excited_proud
 with charachange
 
-emi "I have super extra lunch today, as promised! Let's go upstairs!"
+emi "ฉันเอาข้าวเที่ยงแสนพิเศษตามสัญญามาแล้วนะ! ไปข้างบนกัน!"
 
 
 
@@ -2347,11 +2347,11 @@ stop ambient fadeout 1.0
 scene bg school_staircase1
 with locationchange
 
-"The stairway to the roof is a little dilapidated, but it's clearly been used recently."
+"บันไดทางเดินไปดาดฟ้าดูโทรมเล็กน้อย แต่มีรอยเดินใหม่อยู่"
 
-"At the top of the stairs is a door, complete with missing padlock."
+"ปลายทางเป็นประตูที่ไม่มีกุญแจล็อก"
 
-"I wonder who the intrepid individual was that removed the lock?"
+"ใครช่างกล้าปลดกุญแจกันนะ"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 2.0
@@ -2360,7 +2360,7 @@ scene bg school_roof at bgright
 show emi basic_closedgrin at center
 with Fade(0.5,0.3,1.0,color="#FFF")
 
-"Emi shoves the door open and steps beaming into the sunlight."
+"เอมิเปิดประตูออกแล้วเดินไปรับแสงแดดที่สาดส่อง"
 
 show rin silhouette at offscreenright
 with None
@@ -2373,9 +2373,9 @@ with ease
 show emi basic_shock
 with vpunch
 
-"Suddenly, a tall dark stranger appears out of nowhere, standing imposingly in front of us. Emi flinches back, almost falling back down the stairs."
+"จู่ ๆ ก็มีเงามืดของใครบางคนยืนทะมึนอยู่ตรงหน้า เอมิผงะไปจนเกือบตกบันได"
 
-$ doublespeak (emi, rin_, "Eeek!", "Hello.")
+$ doublespeak (emi, rin_, "ว้าย!", "สวัสดี")
 
 show emi basic_hes
 with charachange
@@ -2383,108 +2383,108 @@ with charachange
 show emi basic_hes at twoleft
 with charamove
 
-emi "Yipes! You scared me, Rin!"
+emi "โธ่! ริน ตกใจหมดเลย!"
 
-"Wait, isn't she…"
+"เดี๋ยวนะ เธอคนนี้…"
 
 show rin relaxed_surprised
 with charachange
 
 play music music_rin fadein 2.0
 
-rin "Hello."
+rin "สวัสดี"
 
-"Noticing that Rin is speaking to me, Emi looks curiously at me."
+"เอมิมองมาทางฉันด้วยความสงสัยเมื่อเห็นว่ารินคุยกับฉัน"
 
 show emi basic_confused
 with charachange
 
-emi "You two know each other?"
+emi "เธอสองคนรู้จักกันเหรอ"
 
-"I look confusedly at Emi."
+"ฉันมองงง ๆ ไปทางเอมิ"
 
-hi "She's that friend of yours?"
+hi "คนนี้เหรอเพื่อนเธอที่ว่า"
 
 show rin relaxed_nonchalant
 with charachange
 
-"Rin has turned her gaze towards the clouds drifting above the school."
+"รินละสายตากลับไปมองเมฆที่เลื่อนลอยอยู่เหนือโรงเรียน"
 
-rin "I didn't know you knew this person, Emi."
+rin "ไม่เห็นรู้ว่าเธอรู้จักเขาด้วยนะเอมิ"
 
 stop music fadeout 2.0
 
 "…"
 
-"The awkward silence lasts only for a few seconds until Emi lets out a tiny giggle, shrugging the coincidence off."
+"ความเงียบอันน่าอึดอัดเกิดขึ้นได้ไม่กี่วินาทีก็ถูกทำลายโดยเสียงหัวเราะน้อย ๆ ของเอมิที่ไม่ได้ใส่ใจความบังเอิญนี้"
 
 show emi basic_closedgrin
 with charachange
 
-emi "I invited Hisao for lunch. If you know him, that's just better."
+emi "ฉันชวนเขามากินข้าวเที่ยงน่ะ ถ้ารู้จักกันก็ดีเลย"
 
 show rin basic_deadpan
 with charachange
 
-rin "Oh. Does this mean I don't get food? Or did you invite him for lunch without the lunch?"
+rin "อ้อ งี้ก็แปลว่าฉันไม่ได้กินแล้วน่ะสิ หรือชวนเขามากินข้าวเที่ยงแบบไม่มีข้าวเที่ยง"
 
 show emi basic_grin
 with charachange
 
-emi "Erm, neither, I have food for three."
+emi "เอ่อ ไม่อะ ฉันมีข้าวพอสำหรับสามคนเลย"
 
 show rin basic_deadpanamused
 with charachange
 
-rin "Nice thinking."
+rin "วางแผนดีนี่"
 
 hide rin
 hide emi
 with charaexit
 
-"They walk to the other end of the roof while I stay at the clock tower for a while, taking in the atmosphere."
+"ทั้งสองคนเดินไปอีกฟากของดาดฟ้าขณะที่ฉันดื่มด่ำกับบรรยากาศอยู่บริเวณหอนาฬิกา"
 
 play music music_soothing fadein 0.5
 
-"There is nobody else but us here. I guess the roof is not as popular as it is in other schools."
+"ที่นี่ไม่มีใครนอกจากพวกเรา ดาดฟ้าที่โรงเรียนนี้คงไม่ได้เป็นที่นิยมเหมือนที่อื่น"
 
-"A few rundown benches and tables are scattered around the edges, perhaps in an attempt to make the rooftop look less desolate."
+"มีม้านั่งกับโต๊ะเก่า ๆ กระจัดกระจายอยู่ตามริมดาดฟ้า คงเอามาวางไม่ให้ดูร้างเกินไป"
 
-"The small pebbles covering the roof rattle beneath our feet."
+"ก้อนกรวดที่ปูพื้นดาดฟ้าส่งเสียงกรอบแกรบอยู่ใต้เท้า"
 
-"I peek through the chain link fence to take a look at the school grounds and beyond."
+"ฉันมองลานโรงเรียนและละแวกโดยรอบผ่านรั้วตาข่ายเหล็ก"
 
-"Students are strolling in pairs and groups around the quadrangle and at the cafeteria."
+"มีนักเรียนเดินอยู่ทั้งเป็นคู่และเป็นกลุ่มอยู่บริเวณลานกว้างและโรงอาหาร"
 
-"A few delivery trucks are driving past the school towards the convenience store nearby."
+"มีรถบรรทุกสองสามคันขับผ่านโรงเรียนไปยังร้านสะดวกซื้อที่อยู่ไม่ไกลจากที่นี่"
 
-"Somewhere a watchdog barks at a passer-by."
+"มีหมาเฝ้ายามเห่าคนที่เดินผ่าน"
 
-"Somehow, when I look towards the town center the small town feel strikes me very strongly, almost palpably."
+"ไม่รู้ทำไม แต่พอได้มองไปที่ใจกลางเมืองแล้วก็ทำให้รู้สึกถึงความเล็กของเมืองนี้อย่างชัดเจนจนแทบสัมผัสได้"
 
-"The hectic lifestyle of big metropolises seems so far away and foreign here; nobody has to run to catch a bus like their life depended on it or get their senses overloaded by the neon lights and traffic jams."
+"บรรยากาศชีวิตอันเร่งรีบในเมืองใหญ่ดูจะเป็นเรื่องที่ไกลตัวสำหรับคนที่นี่ ไม่มีใครต้องรีบมาให้ทันรถประจำทาง\nอย่างเอาเป็นเอาตาย ไม่มีแสงสีหรือรถติดที่ทำให้ประสาทมึนชา"
 
-"I feel surprisingly optimistic about this new life of mine, looking at my new hometown, even if it's going to be mine for only one short year."
+"ฉันรู้สึกดีขึ้นกับชีวิตใหม่ที่นี่อย่างน่าประหลาดเมื่อได้มองเมืองใหม่ของฉันที่แม้อาจจะได้อยู่เพียงแค่หนึ่งปี"
 
-"Finding out about my illness and having to move away from home all came so suddenly I haven't had time to think how I feel about it."
+"ทั้งตอนที่ได้รู้ตัวเรื่องโรคนี้กับตอนที่ได้ย้ายจากบ้านมานั้นเป็นไปอย่างกะทันหันจนไม่มีเวลาให้คิดถึงความรู้สึกตัวเอง"
 
-"When I step out of the shadow of the clock tower to the open I feel warmth touching my back."
+"เมื่อเดินออกมาจากเงาของหอนาฬิกาแล้วก็มีความอบอุ่นจากแสงแดดสาดส่องเข้าที่หลัง"
 
-"The sun shines from a perfectly clear cerulean sky."
+"พระอาทิตย์เจิดจ้าท่ามกลางฟ้าใสกระจ่างสีคราม"
 
-"A cool breeze sweeping over the rooftop makes me shiver, but only briefly."
+"ลมเย็นพัดวูบพาให้ตัวสั่น แต่ก็เพียงครู่"
 
-"The wind carries the scent of trees and flowers, not smog and car exhaust like it used to, just a few weeks ago."
+"สายลมพัดพากลิ่นดอกไม้ใบหญ้า ไม่ใช่หมอกควันอย่างที่คุ้นเคยเมื่อสองสามสัปดาห์ก่อน"
 
-"Emi settles on a bench with Rin in tow and produces one big and two small lunch boxes from her bag."
+"เอมินั่งอยู่เคียงรินแล้วหยิบกล่องข้าวเที่ยงขนาดใหญ่หนึ่งกล่องและขนาดเล็กสองกล่องออกมาจากกระเป๋าของเธอ"
 
 show rin basic_deadpannormal at tworight
 show emi basic_happy at twoleft
 with charaenter
 
-emi "Come on, Hisao! What are you waiting for?"
+emi "มานี่สิฮิซาโอะ! รออะไรอยู่ได้"
 
-"She is beckoning me to join them, making room on the already small bench."
+"เธอกวักมือเรียกฉันพลางกระเถิบให้พอมีที่บนม้านั่งแคบ ๆ นั้น"
 
 hide emi
 hide rin
@@ -2497,339 +2497,339 @@ show bg school_roof at center
 with charamoveinleft
 
 
-"I seat myself on the corner of the bench to take as little space as possible. It's pretty cramped, but somehow all three of us fit on it."
+"ฉันนั่งลงที่ริมสุดม้านั่งให้กินที่น้อยสุด เบียดกันพอตัวแต่ก็พอนั่งสามคนได้"
 
-hi "Impressive view."
+hi "วิวสวยดี"
 
 show emi basic_closedhappy_close
 with charachange
 
-"Emi suppresses a giggle and places a lunchbox in front of Rin, and hands another lunchbox to me."
+"เธอกลั้นขำน้อย ๆ แล้ววางข้าวกล่องตรงหน้ารินและยื่นอีกกล่องให้ฉัน"
 
 show emi excited_proud_close
 with charachange
 
-emi "Here you go! Lunch, as promised!"
+emi "เอ้านี่! ข้าวเที่ยงตามสัญญา!"
 
-"Homemade, no less. I'm impressed."
+"ทำมืออีกต่างหาก ทึ่งจริง ๆ "
 
-hi "Wow. This looks really good."
+hi "โห น่าอร่อยจัง"
 
 show emi excited_amused_close
 with charachange
 
-emi "Thanks! I make 'em myself when I can."
+emi "ขอบใจนะ! คือถ้าพอมีเวลาฉันก็จะทำน่ะ"
 
-"Conversation dies off as I set about the business of feeding myself."
+"บทสนทนาถูกตัดจบเมื่อฉันเริ่มหันมาสนใจการกิน"
 
 show rin basic_awayabsent_close
 with charachange
 
-"Taking a few bites, I glance up and notice Rin deftly opening the lunch box and popping a forkful of food into her mouth using only her feet."
+"เมื่อกินไปได้สองสามคำฉันก็เหลือบมองรินที่ใช้แค่เท้าเปิดกล่องอย่างคล่องแคล่วและใช้ส้อมจิ้มอาหารเข้าปากเธอ"
 
-"Even though I've seen it before, I can't help but be impressed at her dexterity."
+"ถึงจะเคยเห็นมาแล้วก็ยังอดทึ่งไม่ได้กับความคล่องของเธอ"
 
-"It's also a reminder of the sort of place I am in right now."
+"ถือเป็นสิ่งที่ทำให้ฉันระลึกถึงที่ที่ฉันกำลังอยู่ตอนนี้ด้วย"
 
-"Will I ever get used to sights such as this?"
+"ฉันจะชินกับภาพแบบนี้ได้เมื่อไหร่กันนะ"
 
-"I can't decide if getting used to such a thing would be a good thing or a bad thing either."
+"ฉันเองก็ไม่รู้ว่าการชินกับอะไรแบบนี้จะเป็นเรื่องที่ดีหรือไม่"
 
-"Does getting used to this place mean that I'm giving up on being a normal person?"
+"ถ้าฉันชินก็หมายความว่าฉันยอมแพ้กับการจะเป็นคนปกติแล้วหรือเปล่า"
 
-"Or does it just mean that I'm becoming more understanding about those around me?"
+"หรืออาจจะหมายความแค่ว่าฉันเข้าใจคนรอบตัวมากขึ้นแล้วหรือเปล่า"
 
-"I'm distracted from my thoughts by the sight of Emi tearing into her lunch as if it had insulted her ancestors."
+"ฉันหลุดจากภวังค์เมื่อเห็นเอมิจ้วงกินข้าวเที่ยงเอาอย่างกับว่ามันไปด่าพ่อล้อแม่เธอ"
 
 show rin basic_absent_close
 with charachange
 
-hi "You seem pretty hungry."
+hi "เธอดูหิวนะ"
 
 show emi basic_grin_close
 with charachange
 
-"Emi looks up, mouth half full, and swallows before nodding."
+"เอมิมองมาโดยข้าวยังอยู่ในปาก เธอกลืนข้าวลงไปก่อนพยักหน้า"
 
-emi "My morning run always works up an appetite."
+emi "พอวิ่งรอบเช้าแล้วมันหิวน่ะ"
 
 show emi basic_closedhappy_close
 with charachange
 
-emi "Which is great, because then I burn through lunch pretty quickly."
+emi "ซึ่งก็ดี เพราะจะได้เอาข้าวเที่ยงไปเผาผลาญให้หมดเร็ว ๆ ด้วย"
 
 show emi excited_proud_close
 with charachange
 
-emi "Helps me keep my girlish figure."
+emi "เป็นการรักษาหุ่นสาวน้อยของฉัน"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "What would happen if you'd lose it? Would you become a man?"
+rin "ถ้าไม่เป็นหุ่นสาวน้อยแล้วมันยังไงต่อ จะกลายเป็นหุ่นหนุ่มน้อยงี้เหรอ"
 
-"I very nearly choke on my lunch trying not to laugh."
+"ฉันกลั้นขำจนแทบสำลักข้าวเที่ยง"
 
 show emi basic_annoyed_close
 with charachange
 
-emi "It's a figure of speech."
+emi "แค่เปรียบเทียบหรอกย่ะ"
 
 show rin basic_deadpandelight_close
 with charachange
 
-rin "Does your figure have to run in the mornings too?"
+rin "หุ่นของเธอไปวิ่งรอบเช้าด้วยเหรอ"
 
-hi "Do you always talk like this?"
+hi "นี่คุยกันอย่างนี้ตลอดเลยเหรอ"
 
 show rin relaxed_surprised_close
 show emi basic_confused_close
 with charachange
 
-$ doublespeak(emi, rin, "Talk like what?", "Like what?")
+$ doublespeak(emi, rin, "คุยแบบไหน", "แบบไหน")
 
-"I think that answers my question."
+"โอเค ได้คำตอบละ"
 
-hi "Er, never mind."
+hi "เอ้อ ช่างเถอะ"
 
-hi "So, uh…"
+hi "แล้ว เอ่อ…"
 
-"I struggle to think of small talk and settle on the obvious question."
+"ฉันเค้นสมองนึกหาเรื่องคุยเรื่อยเปื่อยแล้วเลือกคำถามง่าย ๆ ขึ้นมา"
 
-hi "How'd you two meet?"
+hi "เธอสองคนมาเจอกันได้ยังไง"
 
 show rin basic_awayabsent_close
 with charachange
 
-"Rin seems content to let Emi answer this question."
+"รินดูจะยอมยกให้เอมิตอบคำถามนี้ให้"
 
 show emi basic_grin_close
 with charachange
 
-emi "Someone in the housing department thought that we'd complement each other well, so we were assigned rooms next to one another."
+emi "คนที่จัดห้องเห็นว่าพวกเราคงเติมเต็มกันและกันได้ดีเลยให้อยู่ห้องติดกันน่ะ"
 
-hi "Complement each other?"
+hi "เติมเต็มกันและกัน?"
 
 show rin basic_deadpannormal_close
 with charachange
 
-rin "Like shoes and a suit."
+rin "เหมือนเสื้อกับรองเท้า"
 
-hi "Huh?"
+hi "หา?"
 
 show emi basic_closedgrin_close
 with charachange
 
-"Emi giggles at my confusion."
+"เอมิหัวเราะน้อย ๆ เมื่อเห็นว่าฉันยังงงอยู่"
 
-emi "Put us together and we've got all our limbs, get it?"
+emi "ก็เอามาประกอบกันก็ได้แขนขาครบส่วนเลยไง"
 
-hi "Ah."
+hi "อ้อ"
 
 show emi basic_happy_close
 with charachange
 
-emi "So I started helping Rin get ready in the mornings, and that was that!"
+emi "ฉันก็เลยเคยคอยช่วยแต่งตัวอะไรให้รินตอนเช้า ก็ประมาณนั้นแหละ!"
 
 show emi basic_grin_close
 with charachange
 
-emi "I mean, you can't help someone get dressed every morning and not get along."
+emi "ช่วยแต่งตัวให้ทุกเช้ายังไงก็ต้องสนิทกันเป็นธรรมดาแหละ"
 
-hi "I see."
+hi "อย่างนี้นี่เอง"
 
-"Rin chooses this moment to interject."
+"รินถือจังหวะนี้เข้าเสริม"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "I have trouble with shirts."
+rin "ฉันใส่เสื้อไม่ค่อยสะดวกน่ะ"
 
-hi "Right, that seems… fairly obvious."
+hi "นั่นสินะ ก็…ชัดอยู่"
 
 show rin basic_surprised_close
 with charachange
 
-rin "Really?"
+rin "จริงเหรอ"
 
-hi "Kind of…?"
+hi "ก็พอจะชัด…?"
 
-"This isn't helping, but at least Emi seems to find the whole thing funny."
+"ไม่ไหว แต่อย่างน้อยเอมิก็ดูจะขำที่คุยกันดี"
 
-"That, combined with the fact that Rin is genuinely curious, makes me feel slightly better and yet, confused."
+"แล้วก็อีกอย่าง ที่รินถามคือเธอสงสัยจริง ๆ จนทำให้ฉันรู้สึกดีขึ้นนิดหน่อย แต่ก็ยังงง ๆ "
 
-hi "I mean, you've got no arms."
+hi "ก็ เธอไม่มีแขนนี่"
 
-hi "So uh, putting on a shirt seems like one of those things that would be… difficult."
+hi "แล้วแบบ เอ่อ ถ้าจะใส่เสื้อหรืออะไรแบบนั้นก็คงเป็นอะไรที่ดู…ลำบาก"
 
-"You know what? I'm going to just stop talking now."
+"ฉันว่า ฉันเลิกคุยดีกว่า"
 
-"It'll save me a lot of trouble in the long run."
+"จะได้ไม่ต้องปวดหัวให้ยืดเยื้อ"
 
-"Rin nods in what I suspect is meant to be a sage manner."
+"รินพยักหน้าในแบบที่ฉันคิดว่าเธอคงจะทำท่าให้เหมือนคิดอะไรลึกซึ้งอยู่"
 
 show rin basic_lucid_close
 with charachange
 
-rin "I see."
+rin "อย่างนี้นี่เอง"
 
 show rin basic_absent_close
 with charachange
 
-"The conversation dies as I turn my attention back to my lunch."
+"บทสนทนาถูกตัดจบเมื่อฉันกลับมากินข้าวต่อ"
 
-"It's really quite good."
+"อร่อยใช้ได้"
 
-"Emi finishes her lunch first and makes a contented noise."
+"เอมิกินหมดเป็นคนแรก เธอทำเสียงท่าทางอิ่มออกมา"
 
 show emi excited_laugh_close
 with charachange
 
-emi "Ah, that was good."
+emi "อ่า อร่อยจัง"
 
-"As she busies herself with cleaning up her lunch, Rin speaks up."
+"ขณะเธอง่วนกับการเก็บกวาดส่วนของเธอรินก็พูดขึ้นมา"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "I'm thirsty."
+rin "หิวน้ำอะ"
 
 show emi basic_shock_close
 with charachange
 
-emi "Oh! I almost forgot about that! Sorry!"
+emi "โอ๊ะ! เกือบลืมแน่ะ! โทษทีนะ!"
 
 show emi basic_closedgrin_close
 with charachange
 
-"With a flourish, she reaches into her bag and removes a trio of juiceboxes."
+"เธอหยิบน้ำผลไม้ออกมาจากกระเป๋าของเธอสามกล่องด้วยท่าทางที่ดูเน้นชัด"
 
-"She tosses me one that appears to be cranberry juice, one to Rin that appears to be some kind of strawberry milk (complete with pink color scheme), and keeps an (equally pink) box of some kind of fruit punch for herself."
+"เธอโยนกล่องหนึ่งมาให้ น่าจะเป็นน้ำแครนเบอร์รี ส่วนของรินเหมือนจะเป็นนมสตรอว์เบอร์รี (กล่องเน้นสีชมพูด้วย)\nส่วนของเธอเองเป็นน้ำพันช์ผลไม้อะไรสักอย่าง (ที่มีสีชมพูพอกัน)"
 
 show rin basic_awayabsent_close
 with charachange
 
-"Rin dexterously stabs her straw through the top of her box and begins to drink."
+"รินใช้หลอดปักเข้าที่กล่องอย่างคล่องแคล่วแล้วดื่ม"
 
-"I'm once again impressed by how flexible she is, but this time I keep my comment to myself."
+"เป็นอีกครั้งที่ฉันทึ่งกับการปรับตัวของเธอ แต่คราวนี้ฉันเก็บคำพูดนั้นไว้ในใจแทน"
 
-"Somehow I don't think either Emi or Rin are the sorts of people to think twice about the way they work around their particular disabilities."
+"ไม่รู้ทำไม แต่ฉันว่าทั้งเอมิกับรินไม่ใช่คนที่จะมาคิดมากอะไรกับการที่หาทางปรับตัวอยู่กับความพิการของตัวเองกัน"
 
-"Rin especially so."
+"โดยเฉพาะริน"
 
-"Indeed, she gives off the impression of being entirely unaware that she's missing any limbs at all."
+"เธอเป็นคนที่ดูจะไม่รู้สึกตัวเลยว่าเธอนั้นไม่มีแขน"
 
-"Whether or not that's a conscious decision is another matter."
+"แต่เธอจะจงใจคิดอย่างนั้นหรือไม่ก็อีกเรื่องหนึ่ง"
 
-"I'm honestly not sure."
+"ฉันก็ไม่แน่ใจเหมือนกัน"
 
 show emi basic_grin_close
 with charachange
 
-emi "So Hisao, how do you like it up here?"
+emi "นี่ ฮิซาโอะ ที่ดาดฟ้านี่เป็นไงบ้าง"
 
 show rin basic_absent_close
 with charachange
 
-hi "Hmm?"
+hi "หืม?"
 
-hi "It's quite nice, actually. I like high places, for the view."
+hi "ก็ใช้ได้เลยนะ ฉันชอบวิวที่สูง ๆ น่ะ"
 
-hi "Thanks for inviting me up here."
+hi "ขอบคุณที่ชวนมานะ"
 
-hi "And for the lunch, too."
+hi "แล้วก็ขอบคุณที่เลี้ยงข้าวเที่ยงด้วย"
 
 show emi excited_amused_close
 with charachange
 
-"Emi grins a thousand-watt grin, pleased by my response I suppose."
+"เอมิยิ้มแฉ่งปล่อยพลังงานแสนวัตต์ คงพอใจกับคำตอบฉันแหละ"
 
-emi "No problem!"
+emi "ด้วยความยินดีจ้า!"
 
 show emi excited_proud_close
 with charachange
 
-emi "Feel free to eat with us next time too, okay?"
+emi "คราวหน้าถ้าอยากมากินด้วยก็ตามสบายเลยนะ"
 
-emi "I won't make you a lunch, but you can bring your own up here."
+emi "ก็ไม่ทำมาเผื่อนายหรอก แต่เอาของนายมากินที่นี่ได้นะ"
 
-hi "No lunch service? I don't know…"
+hi "ไม่มีบริการข้าวเที่ยงเหรอ ยังไงดีนะ…"
 
 show emi basic_annoyed_close
 with charachange
 
-"Emi looks mock offended."
+"เอมิทำท่าโกรธแบบหยอก ๆ "
 
-emi "Trying to take advantage of my good nature?"
+emi "เห็นฉันใจดีหน่อยนี่ย่ามใจเลยนะ"
 
-emi "The nerve!"
+emi "ช่างกล้า!"
 
 show emi basic_closedgrin_close
 with charachange
 
-"She giggles."
+"เธอทำเสียงคิกคัก"
 
 show emi sad_depressed_close
 with charachange
 
-emi "Well, if that's your answer, I guess Rin and I will just keep eating lunch all alone…"
+emi "อืม ถ้านายว่าอย่างนั้น ฉันกับรินก็คงต้องกินข้าวกันสองคนเหงา ๆ สินะ…"
 
-"I am suddenly assaulted by the most heart-rending puppy-dog eyes I've ever seen as Emi pouts."
+"ฉันถูกจู่โจมเข้าอย่างกะทันหันเมื่อเอมิทำแก้มป่องพร้อมแววตาอย่างหมาน้อยที่ทำเอาเจ็บจี๊ดไปถึงข้างใน"
 
-hi "Kidding! I was kidding!"
+hi "ล้อเล่นน่า! ล้อเล่น!"
 
-hi "I'd love to eat lunch up here again."
+hi "ฉันมากินข้าวเที่ยงที่นี่อีกแน่นอน"
 
-hi "Good location, and the company's okay too."
+hi "สถานที่ก็ดี เพื่อนกินก็ดี"
 
 show emi basic_grin_close
 with charachange
 
-"Emi frowns a bit at my declaration of “okay” but seems happy enough that I've accepted her invitation."
+"เอมิขมวดคิ้วเล็กน้อยกับคำตอบ “ตกลง” ของฉัน แต่ก็ดูดีใจที่ฉันรับคำชวนของเธอ"
 
-"I guess this makes us friends now."
+"แบบนี้ก็เป็นเพื่อนกันแล้วสินะ"
 
-"Or at least acquaintances."
+"หรืออย่างน้อยก็คนรู้จัก"
 
 play sound sfx_warningbell
 
-"The lunch bell rings, signaling a return downstairs."
+"ระฆังดังเป็นสัญญาณให้กลับลงไป"
 
 show emi basic_hes_close
 with charachange
 
-emi "Rin, you didn't finish your lunch again!"
+emi "ริน เธอกินข้าวเหลืออีกแล้วนะ!"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "I wasn't that hungry."
+rin "ก็ไม่ได้หิวขนาดนั้น"
 
 show emi basic_annoyed_close
 with charachange
 
-emi "If you don't eat more, you're going to fade away!"
+emi "ขืนไม่กินให้เยอะกว่านี้เดี๋ยวตัวเธอก็หายไปหรอก!"
 
 show rin relaxed_boredom_close
 with charachange
 
-"Rin shrugs, as if this is an acceptable risk."
+"รินยักไหล่ราวกับไม่กลัวว่าจะหายไป"
 
 stop music fadeout 4.0
 
-hi "Come on, we'd better get going."
+hi "เถอะน่า ไปกันได้แล้ว"
 
 stop ambient fadeout 2.0
 
 scene bg school_staircase1
 with locationchange
 
-"The three of us head down the stairs together."
+"พวกเราทั้งสามคนเดินลงบันไดไปด้วยกัน"
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"The afternoon class passes. Once again, I find myself without a plan for something to do after school, so I head to the library to return a couple of the books I finished reading."
+"คาบบ่ายผ่านไป และฉันก็ไม่มีอะไรทำหลังเลิกเรียนอีกแล้ว จึงจะไปห้องสมุดเพื่อคืนหนังสือสองเล่มที่อ่านจบแล้ว"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
