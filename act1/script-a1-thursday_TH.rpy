@@ -2158,7 +2158,6 @@ with charachange
 
 # mi "But Hicchan is not useless, right? Right? He said so himself~! Wahaha~!"
 mi "แต่ฮิจังไม่ไร้ประโยชน์นี่ ใช่ไหม ใชไหม เขาบอกเองนี่~! วะฮ่าฮ่า~!"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 # "I can see where this is going, and I do not want any part of it, not after that experience yesterday."
 "ดูจากสภาพก็พอเห็นละว่าจะเกิดอะไรขึ้น และฉันก็ไม่อยากจะยุ่งด้วย โดยเฉพาะที่ฉันได้เจอมาเมื่อวาน"
@@ -2213,54 +2212,75 @@ mi "แต่ว่า~! นั่นแหละที่เธออยาก�
 show misha perky_sad
 with charachange
 
-mi "Hammering boards together, over and over again, for hours, it's really hard!"
+# mi "Hammering boards together, over and over again, for hours, it's really hard!"
+mi "ตอกไม้กระดานให้เข้ากันซ้ำแล้วซ้ำเล่านานนับชั่วโมง ลำบากจริง ๆ !"
 
-mi "I'm so used to it I was doing swinging motions in class, and I didn't even know it!"
+# mi "I'm so used to it I was doing swinging motions in class, and I didn't even know it!"
+mi "ฉันทำจนชิน จนฉันเผลอแกว่งแขนตอกในห้องเรียนโดยไม่รู้ตัวด้วยซ้ำ!"
 
-"She bangs her desk a few times, imitating hammer blows."
+# "She bangs her desk a few times, imitating hammer blows."
+"เธอทำท่าเลียนแบบการตีค้อนโดยการทุบโต๊ะสองสามที"
 
-mi "It's so repetitive, I can't stand it! And yesterday, I actually hammered all the boards on top of each other…"
+# mi "It's so repetitive, I can't stand it! And yesterday, I actually hammered all the boards on top of each other…"
+mi "ซ้ำซากจำเจจนทนไม่ไหวแล้ว! แล้วเมื่อวานอะนะ ฉันเผลอตอกแผ่นไม้ซ้อนกันอีก…"
 
-mi "It was just a stack of boards all nailed together, and then I had to take it apart and do it all over again, and I got yelled at and laughed at~!"
+# mi "It was just a stack of boards all nailed together, and then I had to take it apart and do it all over again, and I got yelled at and laughed at~!"
+mi "กลายเป็นว่าแผ่นไม้หลายแผ่นก็เลยตอกเข้าด้วยกัน ฉันต้องมานั่งถอนออกแล้วทำใหม่หมด แล้วฉันก็โดนตะโกนใส่และหัวเราะ\nเยาะใส่ล่ะ~!"
 
-hi "Uh…"
+# hi "Uh…"
+hi "เอ่อ…"
 
 show misha perky_smile
 with charachange
 
-mi "So…"
+# mi "So…"
+mi "เพราะงั้น…"
 
 show misha hips_grin_close
 with characlose
 
-"She clamps a hand down on my shoulder and grins, quickly running her tongue across her teeth mischievously."
+# "She clamps a hand down on my shoulder and grins, quickly running her tongue across her teeth mischievously."
+"เธอจับไหล่ฉันและยิ้ม แล้วก็รีบเอาลิ้นเลียฟันอย่างซุกซน"
 
-mi "Do you have any plans for today, Hicchan?"
+# mi "Do you have any plans for today, Hicchan?"
+mi "วันนี้เธอมีแผนจะไปไหนไหมล่ะ ฮิจัง?"
 
-mi "I wonder if you do~."
+# mi "I wonder if you do~."
+mi "อยากจะขอให้~"
 
-hi "Sure I have plans…"
+# hi "Sure I have plans…"
+hi "ฉันมีแผนแล้ว…"
 
 show misha perky_confused_close
 with characlose
 
-mi "Really~?"
+# mi "Really~?"
+mi "จริงเหรอ~?"
 
-mi "You're going to help us, right?"
+# mi "You're going to help us, right?"
+mi "นายจะมาช่วยพวกฉันใช่ไหม"
 
-"I notice her hands are moving constantly."
+# "I notice her hands are moving constantly."
+"ฉันเห็นเธอขยับมืออย่างต่อเนื่อง"
 
-"She's signing everything we both say so that Shizune can understand."
+# "She's signing everything we both say so that Shizune can understand."
+"เธอแปลบทสนทนาของพวกเราเป็นภาษามือเพื่อที่ให้ชิซูเนะเข้าใจด้วย"
 
-"Shizune is being somewhat quiet today. Is she still angry? Well, probably at least a bit. I can see it in her eyes. But, this could also just be another way of trying to guilt me into lending her a hand."
+# "Shizune is being somewhat quiet today. Is she still angry? Well, probably at least a bit. I can see it in her eyes. But, this could also just be another way of trying to guilt me into lending her a hand."
+"ซึ่งชิซูเนะเองวันนี้เธอดูเงียบแปลก ๆ เธอยังโกรธฉันอยู่เหรอ? ก็นะ คงอาจจะแหละ มองตาก็รู้ละ แต่ว่านะ เธออาจแค่\nทำให้ฉันรู้สึกผิดเพื่อให้ฉันเข้าไปช่วยงานก็ได้"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-"I have to find a way out of this."
+# "I have to find a way out of this."
+"ต้องหาทางออกเรื่องนี้ละ"
 
-hi "Hey, I should go now, to the library. You know, homework…"
+# hi "Hey, I should go now, to the library. You know, homework…"
+hi "นี่ เดี๋ยวฉันต้องไปห้องสมุดละ ก็นะ ไปทำการบ้านไง…"
 
-hi "I should get going, shouldn't I? I have to be diligent, because I'm a new student, and all, so I have to make a good first impression, right? Yeah…"
+# hi "I should get going, shouldn't I? I have to be diligent, because I'm a new student, and all, so I have to make a good first impression, right? Yeah…"
+hi "ฉันต้องรีบไปแล้วล่ะ ใช่ไหมล่ะ ช่วงนี้ต้องขยันหน่อยเพราะว่าฉันเพิ่งมาใหม่ จะได้มีภาพลักษณ์ที่ดีไง ใช่ ๆ …"
 
-hi "See you later, then!"
+# hi "See you later, then!"
+hi "ไว้เจอกันละกัน!"
 
 show misha perky_confused_close at offscreenleft
 show shizu behind_blank at twoleft
@@ -2278,12 +2298,14 @@ show shizu cross_angry_close at tworight
 show bg school_scienceroom at bgright
 with ease_decel
 
-"I turn to bolt for the door, but Shizune is blocking my path, her arms crossed over her chest and a stern expression on her face."
+# "I turn to bolt for the door, but Shizune is blocking my path, her arms crossed over her chest and a stern expression on her face."
+"ฉันรีบหันตัวเพื่อหนีไปยังประตู แต่ชิซูเนะก็เข้ามาขวางและยืนกอดอกทำหน้าดุ"
 
 show shizu basic_angry_close
 with charadistant
 
-"She wags a finger tauntingly and begins signing to Misha with the manner of a squad leader giving directions to his fellow soldiers."
+# "She wags a finger tauntingly and begins signing to Misha with the manner of a squad leader giving directions to his fellow soldiers."
+"เธอสับนิ้วไปมาด้วยท่าทีเยาะเย้ย พร้อมส่งภาษามือให้มิช่าราว ๆ กับนายหมู่สั่งลูกน้องทหาร"
 
 show shizu basic_angry
 with charadistant
@@ -2291,17 +2313,20 @@ with charadistant
 show misha perky_smile at twoleft
 with charamove
 
-mi "It didn't seem like you were in any rush to get to the library, Hicchan~!"
+# mi "It didn't seem like you were in any rush to get to the library, Hicchan~!"
+mi "ไม่เห็นว่านายจะต้องรีบไปห้องสมุดขนาดนั้นเลยนี่ ฮิจัง~!"
 
 show misha hips_grin
 with charachange
 
-mi "That's right, Shicchan~, it does seem like he was probably going to slack off for the rest of the day."
+# mi "That's right, Shicchan~, it does seem like he was probably going to slack off for the rest of the day."
+mi "ช่ายแล้วชิจัง~ ดูเหมือนว่าเขาคงจะหนีไปอู้งานตลอดทั้งวันที่เหลือแน่ ๆ"
 
 show misha hips_laugh
 with charachange
 
-mi "Hahaha~! Wahaha~! You're surrounded~!"
+# mi "Hahaha~! Wahaha~! You're surrounded~!"
+mi "ฮ่าฮ่าฮ่า~! วะฮ่าฮ่า~! นายถูกต้อนจนมุมแล้วล่ะ~!"
 
 show shizu behind_frown
 with charachange
@@ -2311,14 +2336,17 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Let's go to the student council room~!"
+# mi "Let's go to the student council room~!"
+mi "ไปห้องสภานักเรียนกันเถอะ~!"
 
-"She lets out a chuckle, and then breaks into laughter."
+# "She lets out a chuckle, and then breaks into laughter."
+"เธอหัวเราะคิกคัก ตามด้วยระเบิดเสียงหัวเราะดังลั่น"
 
 show misha cross_laugh
 with charachange
 
-mi "I'm sorry, Hicchan, I feel bad, but this works out for everyone, right?"
+# mi "I'm sorry, Hicchan, I feel bad, but this works out for everyone, right?"
+mi "โทษทีนะฮิจัง จริง ๆ ฉันก็รู้สึกผิดแหละ แต่ก็เพื่อทุก ๆ คนนี่นะ"
 
 show shizu basic_normal2
 with charachange
@@ -2328,7 +2356,8 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "That's right, Shicchan! Yes~, that's a good point too."
+# mi "That's right, Shicchan! Yes~, that's a good point too."
+mi "ใช่ ๆ ชิจัง! ช่าย~ นั่นก็มีเหตุผลด้วย"
 
 show shizu behind_blank
 with charachange
@@ -2338,7 +2367,8 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Yes, this is beneficial to everyone, it solves all our problems."
+# mi "Yes, this is beneficial to everyone, it solves all our problems."
+mi "ใช่ เนี่ยทำเพื่อผลประโยชน์ของทุกคน แก้ปัญหาของพวกเราด้วย"
 
 show shizu basic_frown
 with charachange
@@ -2348,40 +2378,49 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "Yeah yeah~!, I also thought he'd be more appreciative of our efforts."
+# mi "Yeah yeah~!, I also thought he'd be more appreciative of our efforts."
+mi "ช่าย ช่าย~! ฉันว่าเขาเองก็ควรจะชมเชยเรื่องความพยายามของพวกเรามากกว่านี้นะ"
 
 show misha hips_frown_close
 show shizu basic_frown_close
 with characlose
 
-"They pull themselves closer, as if they are about to pounce."
+# "They pull themselves closer, as if they are about to pounce."
+"พวกเธอขยับเข้ามาใกล้ ราวกับว่าจะกระโจนเข้าใส่"
 
-hi "Hey guys, two-on-one isn't very fair, is it?"
+# hi "Hey guys, two-on-one isn't very fair, is it?"
+hi "นี่ ๆ พวกเธอ มารุมสองต่อหนึ่งแบบนี้ไม่ยุติธรรมเลยนี่นา"
 
 show shizu behind_blank_close
 with charachange
 
 shi "…"
+#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-"She keeps looking forward, impassive, then gives a sinister smile."
+# "She keeps looking forward, impassive, then gives a sinister smile."
+"เธอยังคงจ้องมองมาอย่างไม่แยแส จากนั้นก็ส่งยิ้มแบบร้าย ๆ มาให้"
 
 show shizu basic_sparkle_close
 show misha hips_grin_close
 with characlose
 
-mi "Come on, we have a lot of work to do! Let's go to the student council room~!"
+# mi "Come on, we have a lot of work to do! Let's go to the student council room~!"
+mi "เอาเถอะน่า พวกเรามีงานต้องทำอีกเยอะเลย ไปห้องสภานักเรียนกันเถอะ~!"
 
-hi "Gee, I don't know…"
+# hi "Gee, I don't know…"
+hi "อ่า ไม่รู้ดิ…"
 
 show misha cross_laugh_close
 with characlose
 
-"Misha laughs."
+# "Misha laughs."
+"มิช่าหัวเราะออกมา"
 
 show misha hips_grin_close
 with characlose
 
-mi "Deja vu~?"
+# mi "Deja vu~?"
+mi "เดจาวู~?"
 
 "She chortles, before letting out another laugh."
 
