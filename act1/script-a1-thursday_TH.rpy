@@ -1882,7 +1882,7 @@ play sound sfx_normalbell
 "ฉันสังเกตเห็นชิซูเนะกับมิช่ายังอยู่ด้วย คุยกับใครสักคนจากห้องอื่น"
 
 # "Shizune's signing so fast that her hands make noises like swords cutting through the air."
-"ชิซูเนะทำท่าภาษามือเร็วมากจนมือเธอทำเสียงเหมือนดาบที่ฟันตัดอากาศ"
+"ชิซูเนะส่งภาษามือเร็วมากจนมือเธอทำเสียงเหมือนดาบที่ฟันตัดอากาศ"
 
 # "Misha is trying desperately to keep up, but it's clear she can barely manage to even understand her."
 "มิช่าพยายามอย่างหนักเพื่อที่จะตามให้ทัน แต่ก็เห็นได้ชัดว่าเธอแทบไม่เข้าใจเลยด้วยซ้ำ"
@@ -1940,7 +1940,7 @@ with charachange
 shi "…"
 
 # "She signs with harsh, heavy, dramatic strokes."
-"เธอทำท่าภาษามือด้วยท่าทางที่ดูรุนแรง หนักแน่น และดราม่า"
+"เธอส่งภาษามือด้วยท่าทางที่ดูรุนแรง หนักแน่น และดราม่า"
 
 # "Misha translates her signing into speech for me."
 "มิช่าแปลภาษามือนั้นเป็นคำพูดให้ฉัน"
@@ -2395,7 +2395,6 @@ show shizu behind_blank_close
 with charachange
 
 shi "…"
-#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 # "She keeps looking forward, impassive, then gives a sinister smile."
 "เธอยังคงจ้องมองมาอย่างไม่แยแส จากนั้นก็ส่งยิ้มแบบร้าย ๆ มาให้"
@@ -2422,31 +2421,39 @@ with characlose
 # mi "Deja vu~?"
 mi "เดจาวู~?"
 
-"She chortles, before letting out another laugh."
+# "She chortles, before letting out another laugh."
+"เธอหัวเราะคิกคัก ก่อนจะหัวเราะออกมาอีกครั้ง"
 
 show misha cross_laugh_close
 with characlose
 
-mi "Hahaha, you know, my horoscope said it'd be a good day for me today."
+# mi "Hahaha, you know, my horoscope said it'd be a good day for me today."
+mi "ฮ่าฮ่าฮ๋า ก็นะ ผลทำนายดวงฉันวันนี้บอกว่าวันนี้เป็นวันที่ดีของฉันล่ะ"
 
 show misha perky_smile_close
 with characlose
 
-mi "And now that you're going to help—{w=.5}{nw}"
+# mi "And now that you're going to help—{w=.5}{nw}"
+mi "และตอนนี้นายก็จะมาช่วย—{w=.5}{nw}"
 
 show shizu adjust_smug_close
 with charachange
 
-"Shizune signs quickly to her."
+# "Shizune signs quickly to her."
+"ชิซูเนะรีบส่งภาษามือให้เธอ"
 
 show misha hips_grin_close
 with charachange
 
-mi "Right~!, I mean, now that you've decided to help us, completely of your own free will, I'll be able to take it easy! Lucky~, huh?"
+# mi "Right~!, I mean, now that you've decided to help us, completely of your own free will, I'll be able to take it easy! Lucky~, huh?"
+mi "ใช่แล้ว~! ก็นายตกปากรับคำด้วยตัวเองแล้วว่าจะช่วยพวกเรา ฉันก็จะได้ไม่ต้องทำงานหนักมากด้วย! ดี๊ดี~ เนอะ"
 
-"I open my mouth to say something but then realize there's no point."
+# "I open my mouth to say something but then realize there's no point."
+"ฉันอ้าปากเพื่อที่จะพูดอะไรบางอย่าง แต่ก็นึกได้ว่าไม่มีประโยชน์หรอก"
 
-"I refocus on trying to think of a way out of this. No, their actions are clearly deliberate, there's no sense in attempting to reason with them."
+# "I refocus on trying to think of a way out of this. No, their actions are clearly deliberate, there's no sense in attempting to reason with them."
+"ฉันกลับมาคิดหาทางออกจากสถานการณ์นี้อีกครั้ง ไม่ดิ การกระทำของพวกเธอมีเจตนาชัดเจนขนาดนี้ คงไม่มีประโยชน์\nที่จะใช้เหตุผลด้วยหรอก"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 "You can't reason with madmen. I frown, and they don't even notice my discontent, further proving my suspicions."
 
