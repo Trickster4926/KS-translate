@@ -3559,7 +3559,7 @@ label th_A30a:
 $ renpy.music.set_volume(0.1, 1.0, channel="ambient")
 stop music fadeout 5.0
 
-hi "ม…ไม่มีอะไร"
+hi "มะ…ไม่มีอะไร"
 
 hi "ไม่ต้องห่วงหรอก แค่ว่าเนินมันชันไปหน่อย เธอว่ามั้ย"
 
