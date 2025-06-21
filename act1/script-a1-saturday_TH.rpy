@@ -1487,14 +1487,14 @@ stop music fadeout 6.0
 show emi basic_closedgrin
 with charachange
 
-emi "We need to go get more, then."
+emi "งั้นก็ไปเอาเพิ่มกัน"
 
-"I open my mouth to say that actually, we're not both needed for such a simple task like finding another pot of Prussian Blue, but Emi's already grabbed my arm and started dragging me off."
+"ที่จริงฉันก็อ้าปากจะพูดอย่างนั้นเหมือนกัน ถึงงานง่าย ๆ อย่างการหาสีปรัสเซียนบลูอีกถังจะไม่ต้องพึ่งแรงถึงสองคน\nแต่เอมิก็คว้าแขนแล้วลากฉันออกไป"
 
 hide emi
 with charaexit
 
-"I wave to Rin, who doesn't seem to have noticed that the two of us are even leaving."
+"ฉันโบกมือให้ริน ดูเธอจะยังไม่รู้ตัวด้วยซ้ำว่าพวกเราสองคนเดินออกมาแล้ว"
 
 play ambient sfx_crowd_outdoors fadein 0.5
 
@@ -1502,7 +1502,7 @@ scene bg school_courtyard
 show crowd
 with locationskip
 
-"Well, she'll notice when she goes for her Prussian Blue and finds out it's still not there."
+"เอาเถอะ เดี๋ยวตอนหันมาหาสีปรัสเซียนบลูแล้วเห็นว่ายังไม่มีก็คงรู้เองแหละ"
 
 scene bg school_lobby
 show crowd
@@ -1510,7 +1510,7 @@ with locationskip
 
 play ambient sfx_crowd_indoors fadein 0.5
 
-"Maybe."
+"มั้งนะ"
 
 scene bg school_staircase2
 with locationskip
@@ -1521,313 +1521,313 @@ scene bg school_hallway3
 show crowd
 with locationskip
 
-"Probably not, actually."
+"จริง ๆ ก็ไม่น่า"
 
 stop ambient fadeout 2.0
 
 scene bg school_classroomart
 with locationskip
 
-"While I'm busy thinking of how weird Rin is, Emi's been dragging me back to the art classroom."
+"ระหว่างที่มัวแต่คิดถึงความแปลกของริน เอมิก็ลากฉันจนมาถึงห้องศิลปะแล้ว"
 
-"I feel myself starting to run out of breath."
+"รู้สึกเริ่มหอบขึ้นมาแล้ว"
 
-hi "What's the rush?"
+hi "จะรีบไปไหนเนี่ย"
 
 show emi basic_confused at center
 with charaenter
 
-emi "Huh?"
+emi "หา?"
 
-"Emi's giving me an appraising look, as if she's trying to figure something out."
+"เอมิมองมาอย่างครุ่นคิดเหมือนกำลังนึกอะไรอยู่"
 
-hi "It's just that you seem to be in a hurry."
+hi "ก็เห็นรีบขนาดนั้น"
 
-hi "I'm not sure I can keep up."
+hi "ฉันคงตามไม่ทันหรอก"
 
-"Comprehension dawns on her face."
+"แล้วเธอก็ทำหน้าร้องอ๋อขึ้นมา"
 
 play music music_emi fadein 0.3
 
 show emi excited_proud
 with charachange
 
-emi "You're not out of breath, are you?"
+emi "นี่นายเหนื่อยแล้วเหรอ"
 
-"There's almost an accusing playfulness to her tone."
+"น้ำเสียงเธอคล้ายมีความหยอกเล่นอยู่"
 
-"I'm tempted to deny it, but then I realize that I've been breathing heavy since we stopped."
+"ก็อยากบอกอยู่ว่าไม่ใช่ แต่ก็นึกได้ว่าตั้งแต่หยุดพักนี่ก็หอบแรงมาก"
 
-"Guess it's kind of obvious."
+"คงชัดแหละ"
 
-hi "A little. Not everybody can be in shape, you know."
+hi "ก็นิดหน่อย แหม คนเราก็ใช่ว่าจะฟิตกันทุกคนสักหน่อย"
 
-hi "Takes all kinds, right?"
+hi "ก็อย่างที่เขาว่า ร้อยพ่อพันแม่"
 
 show emi basic_annoyed
 with charachange
 
-"Emi frowns. It's not a particularly good frown."   
+"เอมิขมวดคิ้ว เป็นสีหน้าที่ดูไม่ดีนัก"
 
-hi "Er, that is…"
+hi "เอ้อ สรุปก็คือ…"
 
-hi "I should… get in shape?"
+hi "ฉัน…ต้องฟิตให้มากขึ้นแล้ว?"
 
-"Not that I hadn't already decided to try for that."
+"จริง ๆ ก็เคยคิดลองทำมาก่อนเหมือนกัน"
 
-"After that flutter on the track I figure there's a real need to get in some sort of running habit."
+"หลังจากที่หัวใจเต้นผิดจังหวะที่ลู่วิ่งครั้งนั้นฉันก็คิดว่าคงต้องหันมาวิ่งให้ติดเป็นนิสัยแล้ว"
 
-"I was, after all, feeling pretty good until I had my false alarm."
+"เพราะตอนที่วิ่งอยู่ก็ค่อนข้างรู้สึกดีเหมือนกัน ก่อนจะเกิดเรื่องน่ะนะ"
 
-"Well, actually I wasn't. But it was… fun?"
+"อันที่จริงก็ไม่หรอก แต่ก็…สนุกดี?"
 
-"Meanwhile, my comment seems to have helped Emi come to some sort of a decision."
+"ในระหว่างนั้นเอมิก็ตัดสินใจอะไรบางอย่างได้หลังได้ฟังที่ฉันพูด"
 
 show emi basic_closedgrin
 with charachange
 
-emi "Well, that's it, then."
+emi "โอเค งั้นก็ตามนั้น"
 
 stop music fadeout 1.0
 
 show emi basic_annoyed
 with charachange
 
-"She gives me a serious look."
+"เธอทำหน้าจริงจังขึ้นมา"
 
-emi "You're joining me."
+emi "มาวิ่งกัน"
 
 "…"
 
-hi "I beg your pardon?"
+hi "ว่าอย่างไรนะครับ"
 
 show emi basic_grin
 with charachange
 
-emi "In the mornings."
+emi "หมายถึงรอบเช้า"
 
-emi "You and I are now running partners."
+emi "ฉันกับนายจะมาเป็นคู่วิ่งด้วยกัน"
 
 show emi basic_closedhappy
 with charachange
 
-emi "I've got a routine all planned out. In fact…"
+emi "จริง ๆ ฉันก็เตรียมแผนกิจวัตรอะไรไว้หมดแล้วด้วย…"
 
 play sound sfx_paper
 
-"She produces a crumpled sheet of paper."
+"เธอควักเศษกระดาษเยิน ๆ ออกมา"
 
 show emi excited_amused
 with charachange
 
-emi "I've got it right here with me."
+emi "นี่ ฉันเอามาด้วย"
 
 play music music_running
 
-"I take the sheet of paper and give it a once-over."
+"ฉันหยิบกระดาษแผ่นนั้นมาแล้วกวาดตามอง"
 
-"Times, dates, and laps, all laid out."
+"ทั้งวัน เวลา รอบ มีเขียนไว้หมด"
 
-"A slow increase from just a few laps a day to…"
+"ค่อย ๆ เพิ่มจากวิ่งวันละสองสามรอบเป็น…"
 
-"My God, does she expect to have me running marathons?"
+"โห นี่กะจะให้ไปวิ่งมาราธอนหรือไง"
 
-"And where did she find the time to get this all together?"
+"แล้วนี่เอาเวลาที่ไหนมานั่งเขียนหมดนี่เนี่ย"
 
-"And how long has she been planning this, anyway?"
+"แล้ววางแผนไว้นานหรือยังเถอะ"
 
-hi "You've been planning this?"
+hi "นี่เธอคอยวางตารางพวกนี้เอาไว้เหรอ"
 
 show emi sad_shy
 with charachange
 
-emi "A little."
+emi "ก็นิดหน่อย"
 
 show emi sad_grin
 with charachange
 
-emi "But it's really the nurse's idea!"
+emi "แต่จริง ๆ ก็คุณพยาบาลเขาเสนอมาน่ะแหละ!"
 
 show emi basic_closedgrin
 with charachange
 
-emi "He told me to keep an eye on you to make sure you exercised like he told you to!"
+emi "เขาบอกให้ฉันมาจับตาดูว่านายออกกำลังกายอย่างที่เขาบอกหรือเปล่าน่ะ!"
 
 
 
 label th_A34a:
 
-"A vast conspiracy?"
+"ทฤษฎีสมคบคิดใหญ่เหรอ"
 
-"Maybe Kenji's on to something here…"
+"เคนจิมันไปรู้อะไรมาหรือเปล่าวะ…"
 
-hi "This seems a bit much for just “keeping an eye on me.”"
+hi "มา “จับตาดู” อย่างนี้มันจะมากไปหน่อยมั้ง"
 
 show emi sad_grin
 with charachange
 
-emi "Well, to be honest I've been trying to find a running partner in the mornings for a while now."
+emi "ก็ ว่าตามตรง คือฉันกำลังหาคนมาวิ่งรอบเช้าด้วยมาได้สักพักแล้วละ"
 
-"My God, Kenji! If you could only see the scheme unfolding!"
+"โอ้โหเคนจิ! ฉันละอยากให้นายได้มาเห็นช่วงเวลาที่แผนลับถูกเปิดเผยนี้จริง ๆ !"
 
-hi "What do you need a partner for, anyway?"
+hi "แล้วทำไมต้องมีคนวิ่งด้วย"
 
 show emi basic_annoyed
 with charachange
 
-emi "It's easier to keep up a workout if you're not the only one doing it."
+emi "ก็ถ้ามีคนวิ่งด้วยมันมีแรงมาวิ่งให้มันสม่ำเสมอง่ายกว่านี่นา"
 
-emi "Isn't that obvious?"
+emi "หรือไม่จริงล่ะ"
 
-emi "You're less likely to quit if someone else is counting on you to be there, right?"
+emi "ถ้ามีคนคอยอยู่ จะเลิกวิ่งทีก็คงยาก ใช่มั้ยล่ะ"
 
-hi "I see. And this won't only keep you running, but it'll make sure that I keep running as well."
+hi "อย่างนี้นี่เอง แล้วไม่ใช่แค่เธอที่จะได้มาวิ่งประจำ จะเป็นการทำให้ฉันได้มาวิ่งประจำด้วย"
 
-hi "Meaning that I'll be obeying the nurse…"
+hi "และแปลว่าฉันจะได้ทำตามที่คุณพยาบาลสั่ง…"
 
 show emi excited_proud
 with charachange
 
-emi "…and I'll be keeping an eye on you just like he asked!"
+emi "…แล้วฉันก็จะได้จับตาดูนายอย่างที่เขาขอมาไงละ!"
 
 show emi basic_closedgrin
 with charachange
 
-emi "You caught on quick, Hisao."
+emi "หัวไวเหมือนกันนะฮิซาโอะ"
 
-hi "And if I refuse?"
+hi "แล้วถ้าฉันปฏิเสธล่ะ"
 
-"I have no intention of refusing, of course."
+"แน่ละว่าฉันไม่ได้จะปฏิเสธหรอก"
 
-"But I've got to at least put up a token resistance to such a masterfully executed plan."
+"แต่อย่างน้อยก็ขอออกแรงต้านกับแผนที่วางมาอย่างแยบยลนี้เสียหน่อย"
 
 show emi basic_grin
 with charachange
 
-emi "Well, if you refused I'd have to pout."
+emi "ถ้านายปฏิเสธฉันก็คงงอนแก้มป่อง"
 
-emi "And you'd have to live with being the guy who made Emi Ibarazaki pout."
+emi "แล้วนายก็ต้องจดจำไปชั่วชีวิตว่านายทำให้เอมิ อิบาราซากิคนนี้ต้องงอนแก้มป่อง"
 
 show emi basic_closedgrin
 with charachange
 
-emi "You don't want that on your conscience, do you?"
+emi "นายคงไม่อยากรู้สึกอย่างนั้นใช่มั้ย"
 
 show emi sad_depressed
 with charachange
 
-"As if to demonstrate, Emi begins pouting."
+"เอมิทำแก้มป่องราวเป็นการสาธิต"
 
-"It is the most adorable, heart-wrenching thing I've ever seen."
+"เป็นอะไรที่น่ารักจนใจเจ็บที่สุดเลย"
 
-hi "Okay! I'll do it!"
+hi "โอเค! ได้เลย!"
 
-hi "Just… don't do that!"
+hi "เลิก…ทำหน้าแบบนั้นเถอะนะ!"
 
-hi "I feel like I just hit a puppy!"
+hi "รู้สึกเหมือนไปตีลูกหมายังไงไม่รู้เลยเนี่ย!"
 
 show emi basic_closedgrin
 with charachange
 
-emi "So it's settled, right?"
+emi "งั้นก็เป็นอันตกลงนะ"
 
-emi "You're going to be my running partner?"
+emi "นายจะมาเป็นคู่วิ่งให้ฉัน"
 
-emi "Follow the workout?"
+emi "คอยออกกำลังกาย"
 
-emi "And the dietary plan?"
+emi "และกินตามแผนการกิน"
 
-hi "Dietary plan?"
+hi "แผนการกิน?"
 
 show emi basic_grin
 with charachange
 
-emi "Yeah, the dietary plan!"
+emi "อื้อ แผนการกิน!"
 
 show emi excited_proud
 with charachange
 
-emi "You've got to eat healthy if you're going to get in shape, you know!"
+emi "อยากฟิตก็ต้องกินอะไรที่ทำให้สุขภาพดีสิ!"
 
-"I examine the workout routine closely."
+"ฉันเพ่งดูตามตารางออกกำลังกายอย่างละเอียดอีกรอบ"
 
-hi "I don't see a dietary plan on here."
+hi "ไม่เห็นมีแผนการกินเลย"
 
 show emi basic_shock
 with charachange
 
-emi "Oh right! I forgot to give that to you!"
+emi "อ้อ จริงด้วย! ลืมเอาให้ดู!"
 
 play sound sfx_paper
 
 show emi excited_amused
 with charachange
 
-"Another crumpled sheet of paper is produced and handed over."
+"เธอควักเศษกระดาษเยิน ๆ อีกแผ่นแล้วยื่นให้"
 
-"It's somewhat less detailed."
+"แผ่นนี้รายละเอียดดูจะน้อยกว่า"
 
 show emi excited_happy
 with charachange
 
-emi "I had the nurse help me come up with it."
+emi "ฉันให้คุณพยาบาลช่วยคิดให้น่ะ"
 
-"The amount of dedication that the nurse has to keeping me in good health is pretty overwhelming."
+"เห็นคุณพยาบาลคิดอะไรมาให้เพื่อให้ฉันสุขภาพดีได้แล้วก็ค่อนข้างหนักหัวเหมือนกัน"
 
-"I don't know many school nurses who would get one of their students to spy on me, much less help come up with a dietary plan."
+"แทบไม่เคยเห็นโรงเรียนที่ไหนมีพยาบาลของโรงเรียนที่ส่งนักเรียนมาตามสืบฉันเลย แล้วยิ่งไม่ต้องพูดถึงที่จะมาวางแผน\nการกินให้หรอก"
 
-"Then again, I guess I'm not in a normal school."
+"แต่ก็นะ ที่นี่ไม่ใช่โรงเรียนธรรมดาแหละ"
 
-"And maybe that's not such a bad thing."
+"ก็คงไม่ได้แย่ขนาดนั้น"
 
-"Then again, this dietary plan seems to cut out just about everything that'll be offered at the festival tomorrow."
+"แต่ก็ ดูแผนการกินนี่แล้วคงกินอะไรที่งานเทศกาลวันพรุ่งนี้แทบไม่ได้เลย"
 
-"Hmm."
+"อืมม"
 
-hi "So when does our running start?"
+hi "แล้วให้เริ่มวิ่งเมื่อไหร่"
 
 show emi basic_grin
 with charachange
 
-emi "After the festival."
+emi "หลังงานเทศกาล"
 
-hi "Right after? What if I've had something to eat there? I could get a stomach ache, you know."
+hi "หลังงานเลิกเลยเหรอ แล้วถ้าเกิดฉันไปกินอะไรแล้วปวดท้องขึ้นมาจะทำยังไง"
 
 show emi basic_annoyed
 with charachange
 
-emi "I meant the day after the festival."
+emi "หมายถึงวันหลังวันงานเทศกาลสิ"
 
-hi "I knew that."
+hi "รู้น่า"
 
-"Wasn't there something we were supposed to be doing?"
+"เดี๋ยวนะ เรามีอะไรที่ต้องทำอยู่หรือเปล่า"
 
-hi "Oh! I guess we should get that paint for Rin, huh?"
+hi "เออ! เรามาเอาสีนั้นให้รินนี่"
 
 show emi basic_shock
 with charachange
 
-emi "Oh no! It slipped my mind!"
+emi "ตายแล้ว! ลืมไปเลย!"
 
 stop music fadeout 8.0
 
 scene bg school_dormext_half_ss
 with shorttimeskip
 
-"By the time we get the paint and get back to the mural, Rin's already wandered off."
+"กว่าจะยกสีเดินไปจนถึงที่ภาพเขียนผนังนั้นรินก็หายไปแล้ว"
 
-"Oh well."
+"เอ้อ เอาเถอะ"
 
-"Emi and I both decide to part ways there, leaving the paint on the ground."
+"ฉันกับเอมิวางถังสีไว้กับพื้นแล้วแยกย้ายกัน"
 
-"Rin'll find it. Whenever she comes back, anyway."
+"ถ้ารินกลับมาก็คงหาเจออยู่แหละ"
 
 scene bg school_dormhisao
 with locationskip
 
-"Festival's tomorrow. I'm actually a little excited for it."
+"วันงานพรุ่งนี้แล้ว ชักตื่นเต้นแล้วสิ"
 
-"At the same time, the week's left me feeling pretty tired, so I read a little and then go to bed."
+"แต่เรื่องที่เจอมาทั้งสัปดาห์ก็ทำเหนื่อยเอาการ ฉันจึงอ่านหนังสือไปอีกหน่อยแล้วเข้านอน"
 
 $ suppress_window_after_timeskip = True
 
@@ -1837,30 +1837,30 @@ with Dissolve(3.0)
 
 label th_A34b:
 
-#this was written to allow an extra entry to bad end with a choice from this scene, but unused for now, possibly will never be used
+#ส่วนนี้เขียนไว้หลังชอยส์ของฉากนี้เป็นส่วนเสริมก่อนไปถึงแบดเอนด์ แต่ตอนนี้ไม่ได้ใช้แล้ว และอาจไม่ได้ใช้อีกเลย
 
 stop music fadeout 1.0
 
-"Damn, why do all these people insist on meddling with my matters? I guess the nurse is allowed, even obliged but…"
+"แม่ง ทำไมคนพวกนี้ถึงเอาแต่มาจุ้นจ้านเรื่องของฉันกันนะ คุณพยาบาลก็เข้าใจได้แหละ เป็นหน้าที่เขานี่นะ แต่…"
 
-hi "You know, I don't think that would be a good idea."
+hi "ฉันว่าไม่น่าเป็นความคิดที่ดีเท่าไหร่นะ"
 
-hi "This is my problem, I don't really want to make anyone else involved."
+hi "เรื่องนี้มันก็ปัญหาของฉันเอง ไม่ได้อยากให้ใครมาอะไรด้วยหรอก"
 
-hi "I gotta figure it out myself."
+hi "เดี๋ยวฉันจัดการเอง"
 
 show emi sad_depressed
 with charachange
 
-emi "Are you angry about yesterday?"
+emi "ยังโกรธเรื่องเมื่อวานอยู่เหรอ"
 
-"She's pouting, looking distantly like a hurt puppy. I couldn't be angry now, even if I wanted."
+"เธอทำแก้มป่องคล้ายลูกหมาเจ็บอยู่หน่อย ๆ จะโกรธก็โกรธไม่ลง"
 
-hi "No, it's not that. If anything, it was my own fault."
+hi "เปล่า ไม่ใช่หรอก เอาจริง ๆ ก็ความผิดฉันเองด้วยซ้ำ"
 
-"I lean against the wall, looking away from Emi."
+"ฉันพิงผนังเบือนหน้าหนีจากเอมิ"
 
-hi "I just… I don't know, it feels like a bad idea."
+hi "ฉันแค่…ไม่รู้สิ รู้สึกเหมือนไม่ใช่ความคิดที่ดีเท่าไหร่"
 
 
 #********************
@@ -1871,33 +1871,33 @@ scene bg school_scienceroom at bgleft
 show hanako emb_downtimid at right
 with None
 
-"But why would Lilly leave her to her own devices? It seems to be quite out of the ordinary, going by Hanako's reaction."
+"แต่ทำไมลิลลี่ต้องปล่อยให้เธออยู่คนเดียวด้วยล่ะ ดูจากท่าทางของฮานาโกะแล้วก็รู้สึกแปลก ๆ "
 
 "…"
 
-"…Ah, that's right. I think Lilly mentioned something about going into town today before Rin bumped into us."
+"…อ้อ จริงสิ เหมือนลิลลี่เคยบอกว่าต้องไปเข้าเมืองวันนี้ตอนก่อนที่จะไปเจอกับริน"
 
-"The thought of that walk makes me look outside."
+"พอคิดถึงที่เดินด้วยกันครั้งนั้นแล้วก็ทำฉันหันมองไปข้างนอก"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 scene bg misc_sky at Fullpan(15.0)
 with locationchange
 
-"The bright sun and occasional people wandering around and enjoying the afternoon make me yearn to get out of school, or at least do something other than sit here."
+"แสงอาทิตย์เจิดจ้ากับผู้คนที่เดินไปมาเพลิดเพลินไปกับยามบ่ายทำให้ฉันอยากออกไปจากโรงเรียนนี้ หรืออย่างน้อยก็\nไปทำอย่างอื่นที่ไม่ใช่แค่นั่งอยู่ตรงนี้"
 
-"Giving in to one of my worst vices, procrastination, I decide that history is a subject best studied on a Sunday. Or a Monday. Or on any day other than this one."
+"และฉันก็ใช้นิสัยแย่หนึ่งนั้นของฉันที่เรียกว่าการผัดวันประกันพรุ่งในการตัดสินใจว่าวิชาประวัติศาสตร์เอาไว้อ่าน\nวันอาทิตย์คงดีกว่า ไม่ก็วันจันทร์ ไม่ก็วันอื่นที่ไม่ใช่วันนี้"
 
-"I give a grunt as I lever myself out of my seat, briefly debating with myself whether or not to hang out with Kenji."
+"ฉันลุกจากเก้าอี้พลางร้องโอดโอย คิดอยู่ว่าจะไปเที่ยวกับเคนจิดีมั้ย"
 
-"He doesn't strike me as the “enjoying the nice weather outside with others” kind of person, really. I guess I'll catch up with him later."
+"แต่เขาก็ดูไม่ใช่คนที่จะมา “เดินกินลมชมวิวกับคนอื่นนอกห้อง” เท่าไหร่ ไว้ค่อยไปหาแล้วกัน"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
 scene bg school_scienceroom at bgleft
 with Dissolve(1.5)
 
-"Changing tacks, I briefly entertain the idea of talking with Hanako, but by the time I look at her seat, it's vacant. She must've left for the library."
+"พอเปลี่ยนแผนก็หันมาคิดว่าคุยกับฮานาโกะก็คงดี แต่พอมองไปตรงที่นั่งนั้นเธอก็ไม่อยู่แล้ว คงไปห้องสมุดแน่ ๆ "
 
 
 
@@ -1905,82 +1905,82 @@ label th_choiceA35:
 menu:
     with menueffect
 
-    "There's got to be something to do that can kill the time…"
+    "หาอะไรฆ่าเวลาทำหน่อยดีกว่า…"
 
-    "Go for a walk into town.":
+    "ไปเดินเล่นในเมือง":
         return m1
 
-    "Go to the library.":
+    "ไปห้องสมุด":
         return m2
 
 label th_A35a:
 
-"Following Hanako to the library seems a bit intrusive. There was a reason she left the classroom, after all."
+"จะตามฮานาโกะไปที่ห้องสมุดเลยก็ดูจะเป็นการรบกวนไปหน่อย ที่เธอออกจากห้องเรียนไปก็คงอยากอยู่เงียบ ๆ นั่นแหละ"
 
-"And that aside, I do want to catch up with Lilly. At the very least, I'd like to thank her for looking out for me despite her other, obviously taxing, duties."
+"แล้วอีกอย่าง ฉันก็อยากคุยอะไรกับลิลลี่หน่อยด้วย อย่างน้อยก็อยากไปขอบคุณที่คอยดูแลฉันถึงเธอจะมีภาระอื่น\nของตัวเองที่หนักหนาอยู่แล้ว"
 
-"I guess I'll walk around town. With any luck, I should be able to find Lilly. The exercise'll do me some good, as well."
+"ไปเดินเล่นในเมืองแล้วกัน ถ้าโชคดีก็คงจะได้เจอลิลลี่ เป็นการออกกำลังกายไปในตัวด้วย"
 
 play music music_tranquil fadein 3.0
 
 scene bg school_courtyard
 with locationskip
 
-"Walking through the school courtyard to the gate, I give a small nod to a couple of passing classmates, the gesture being returned in kind."
+"ฉันเดินผ่านสวนของโรงเรียนเพื่อไปที่ประตูพลางพยักหน้าทักทายเพื่อนร่วมห้องสองคนที่เดินผ่านไป ทั้งคู่ต่างก็\nพยักหน้าตอบ"
 
-"Even from here, the shouts of the sports club members can be heard. From the sheer volume of the din, the track must be packed right now."
+"ขนาดอยู่ที่นี่ยังได้ยินเสียงตะโกนของพวกชมรมกีฬาอยู่เลย ฟังเสียงดูแล้วที่ลู่คนคงแน่นน่าดู"
 
-"I remember what Lilly said yesterday about being dropped right into the middle of a busy time for the school."
+"ว่าแล้วก็นึกถึงเมื่อวานที่ลิลลี่บอกว่าฉันเข้ามาช่วงที่โรงเรียนกำลังยุ่งวุ่นวายกันพอดี"
 
-"While I'm trying to get my bearings and catch up on study that I've missed, everyone else is doing normal school activities. The feeling of being a foreigner still hasn't dissipated. At least, not yet."
+"ระหว่างที่ฉันกำลังปรับตัวให้ชินกับตามเนื้อหาบทเรียนที่คลาดไปให้ทัน ทุกคนต่างก็ทำกิจกรรมในโรงเรียนกันตามปกติ\nความรู้สึกที่ว่าฉันเป็นคนนอกนั้นยังไม่เบาบางลง"
 
-"Well, I guess not everything's bad."
+"แต่ทุกอย่างก็คงไม่ได้แย่ไปหมดแหละนะ"
 
-"This is a private school, and that much is easily noticed when walking around outside. Not only are the school grounds huge, but the buildings themselves are immaculate and quite divorced from the dime-a-dozen concrete blocks of public schools."
+"พอได้เดินออกมาดูข้างนอกแล้วก็จะรู้สึกได้ชัดมากว่าที่นี่เป็นโรงเรียนเอกชน ไม่ใช่แค่อาณาบริเวณโรงเรียนที่กว้างขวาง\nทั้งยังมีตึกที่สร้างมาอย่างดี เทียบกับก้อนปูนสี่เหลี่ยมโหล ๆ ของโรงเรียนรัฐแทบไม่ติด"
 
-"There's also the fact that there's a much stronger feeling of community here, or at least a friendlier atmosphere. At my old school, it was generally accepted that people would keep to their little clique and be done with it."
+"แถมที่นี่ผู้คนต่างอยู่กันอย่างแน่นแฟ้นดีด้วย หรืออย่างน้อยก็คงเรียกได้ว่ามีความเป็นมิตรกว่า ถ้าเป็นโรงเรียนเก่า\nของฉัน ส่วนใหญ่คนก็จะอยู่กันเป็นก๊กเล็ก ๆ แล้วก็จบเรื่อง"
 
 scene bg school_gate
 with locationchange
 
-"Eventually I reach the gate, and begin to walk down the road and into town."
+"จนในที่สุดฉันก็มาถึงที่ประตู จากนั้นจึงเดินไปตามถนนเพื่อเข้าเมือง"
 
 scene bg suburb_roadcenter
 with shorttimeskip
 
-"Well, that was fairly productive."
+"โอเค ก็ไม่ได้มาเดินเปล่า ๆ ปลี้ ๆ ละนะ"
 
-"Having seen a fair portion of town, even including the houses perched on the hills around the outskirts, I decide to take a walk around the park before heading back."
+"พอได้ชมเมืองกับบ้านบางหลังที่ตั้งอยู่บนเนินไปบ้างแล้ว ฉันคิดที่จะเดินรอบ ๆ สวนสาธารณะก่อนกลับ"
 
-"Living in the city all my life, the total lack of smartly-dressed businessmen and fashionably-dressed girls strikes me as incredibly unusual."
+"ด้วยความที่อยู่ในเมืองใหญ่มาทั้งชีวิต พอไม่ได้เห็นนักธุรกิจที่แต่งตัวเนี้ยบ ๆ กับผู้หญิงที่แต่งตัวหรูหราแล้วก็แปลกตาดี"
 
-"All that's to be seen are the odd elderly person shuffling along the sidewalk and assorted busily chatting pairs of middle-aged women outside of small storefronts."
+"ที่เห็นก็จะมีเพียงคนแก่ที่เดินอยู่ตามข้างถนนกับหญิงวัยกลางคนที่คุยกันอย่างออกรสอยู่หน้าร้านขายของ"
 
 stop music fadeout 8.0
 
-"Walking along the road to the park quickly distracts me from them, though, making me realize that I perhaps pushed myself further than I should have done to see as much as I could."
+"แต่ตอนนี้สมาธิของฉันอยู่กับการเดินตามถนนไปยังสวนสาธารณะ จนรู้สึกว่าหรือบางทีฉันอาจจะฝืนลากตัวเอง\nให้เดินดูอะไร ๆ มากไปหน่อย"
 
-"As my breath begins to wheeze and my chest tightens more and more, I give up on the prospect of soldiering on."
+"พอเริ่มรู้สึกว่าหายใจหอบกับแน่นหน้าอกขึ้นเรื่อย ๆ ฉันจึงล้มเลิกความคิดที่จะเดินไปต่อ"
 
 play ambient sfx_parkambience fadein 1.0
 
 scene bg suburb_park
 with locationskip
 
-"After a quick glance around the park as I enter, I take a seat on a wobbly old bench that I notice near a couple of vending machines."
+"เมื่อเข้ามายังสวนสาธารณะและมองไปรอบ ๆ แล้วฉันก็เข้าไปนั่งที่ม้านั่งเก่า ๆ โทรม ๆ ตัวหนึ่งที่เห็นตั้งอยู่ข้าง\nเครื่องขายของแบบหยอดเหรียญ"
 
-"For minutes on end I sit with my head bent over, forcing myself to take deep breaths. I feel more like an old man than a teenager who should be in the prime of his life."
+"ฉันนั่งก้มหัวแล้วสูดหายใจเข้าลึก ๆ รู้สึกเหมือนไม่ใช่วัยรุ่นที่แรงเหลือล้นเท่าไหร่ รู้สึกเหมือนคนแก่มากกว่า"
 
-"The stay in hospital, the surgery and the medications must be taking their toll on me. Dammit."
+"คงเพราะเอาแต่นอนอยู่โรงพยาบาล ไหนจะต้องผ่าตัดกับกินยาอีก แม่งเอ๊ย"
 
-"Eventually, my breathing returns to normal and the muscles in my chest loosen, not without a fair measure of relief. I guess this means the end of my little sojourn though, in any case."
+"สุดท้ายก็เริ่มหายใจได้ปกติไม่แน่นหน้าอกแล้ว แต่ก็ไม่ได้โล่งขึ้นเท่าไหร่ ยังไงคงต้องพักการเดินทางระยะสั้นของฉัน\nเอาไว้แต่เพียงเท่านี้ก่อน"
 
 stop ambient fadeout 1.0
 
 scene bg suburb_shanghaiext
 with locationchange
 
-"There's a café on the far corner, so I'll stop by to quench my thirst before heading back."
+"ทางแยกที่อยู่ตรงโน้นมีคาเฟตั้งอยู่ ไปหาอะไรดื่มแก้คอแห้งก่อนกลับแล้วกัน"
 
 play sound sfx_storebell
 
@@ -1989,106 +1989,106 @@ with locationchange
 
 play music music_dreamy fadein 2.0
 
-"A little bell above the door signals my arrival to an empty counter."
+"เสียงกระดิ่งอันเล็กที่อยู่บนประตูดังเตือนให้กับเคาน์เตอร์ที่ว่างเปล่า"
 
-"For a few moments I stand there waiting, my eyes every now and again drifting from one end of the counter to the other searching for a service bell."
+"ฉันยืนรออยู่พักหนึ่ง พลางใช้สายตามองไปตามเคาน์เตอร์เพื่อหากระดิ่งเรียกพนักงาน"
 
 show yuukoshang neutral_down at center
 with charaenter
 
-"Eventually a door some ways behind the counter opens, the person emerging from it taking me by complete surprise."
+"จนในที่สุดประตูที่อยู่บริเวณหลังเคาน์เตอร์ก็เปิดออก ฉันนึกประหลาดใจเมื่อได้เห็นคนที่โผล่ออกมา"
 
-hi "Yu… Yuuko?"
+hi "ยู…ยูโกะ?"
 
-hi "Hi, I had no idea you worked here."
+hi "สวัสดีครับ ทำงานที่นี่ด้วยเหรอ"
 
-"I really have no idea how to address her either, given that she is technically school staff as well as, apparently, a waitress."
+"ฉันไม่รู้ว่าจะเรียกเธอยังไงดี เพราะเธอเองก็เป็นพนักงานของโรงเรียน แล้วก็พนักงานเสิร์ฟอย่างที่เห็น"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Ah, yes, um…"
+yu "อ่า อื้อ เอ่อ…"
 
-"She quickly paces up to the counter, before flinging her upper half downwards in an overacted bow."
+"เธอรีบเดินมาที่เคาน์เตอร์แล้วโค้งตัวร้อยแปดสิบองศา"
 
 show yuukoshang closedhappy_down
 with charachange
 
-yu "Welcome to the Shanghai! May I take your order?"
+yu "ยินดีต้อนรับสู่ร้านเซี่ยงไฮ้ค่ะ! รับอะไรดีคะ"
 
-"Straight down to business, I see."
+"โอเค เข้าเรื่องไม่อ้อมค้อมเลย"
 
-hi "I don't know… well, some coffee, please?"
+hi "ไม่รู้สิ…เอ่อ กาแฟก็แล้วกันครับ"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "Yes, certainly. I'll make it right away and bring it to you when it's done."
+yu "ได้ค่ะ เดี๋ยวจะไปทำแล้วเสิร์ฟเลยให้นะคะ"
 
-hi "Uh, thanks."
+hi "อ่า ขอบคุณครับ"
 
-"Yuuko's formality takes me aback. She seems to take her job very seriously."
+"ท่าทางของยูโกะที่ดูเป็นทางการนั้นทำเอาตกใจ ดูจะจริงจังกับงานเอามาก ๆ "
 
 hide yuukoshang
 with charaexit
 
-"Obeying her instructions, I turn around and quickly glance around for a free table. Considering the café seems to be empty, this is a simple task to accomplish."
+"ฉันหันมองหาโต๊ะว่างเพื่อนั่งรอให้เธอมาเสิร์ฟอย่างที่บอก ดูจากความโล่งของร้านแล้วก็น่าจะหาไม่ยาก"
 
 show bg suburb_shanghaiint at bgleft
 with charamove
 
-"As I walk towards a table adjacent to the window, I notice a flash of yellow around one of the table dividers."
+"ขณะที่กำลังเดินไปยังโต๊ะริมหน้าต่างนั้นหางตาก็เห็นสีเหลืองอยู่บริเวณฉากกั้นโต๊ะบานหนึ่ง"
 
 show lilly basic_smileclosed at twoleft
 show akira basic_lost at tworight
 with charaenter
 
-"Sure enough, no more than a glance is needed to ascertain that it's a certain Satou at the table. That said, I don't recognize the suited figure across the table from her."
+"ไม่ต้องหันมองให้เห็นชัดก็รู้แน่ว่าคนที่นั่งอยู่ที่โต๊ะนั้นคือซาโต้ แต่จะว่าไป คนที่ใส่ชุดสูทที่นั่งอยู่คนละฝั่งโต๊ะนั้น\nดูไม่คุ้นตาเลย"
 
-"Blonde, fair-skinned and only a little shorter, he… she? I think she, must be a relative."
+"เขา…เธอ? น่าจะเธอ มีผมสีบลอนด์ ผิวขาว ตัวเตี้ยกว่านิดหน่อย ญาติกันแน่ ๆ "
 
-"Since the two are all but silent as the suited figure takes a swig from a cup of coffee, I decide to greet Lilly. Some part of my coming here was in order to meet her, after all."
+"เมื่อทั้งสองคนต่างเงียบและมีเพียงคนที่ใส่ชุดสูทนั้นจิบกาแฟอยู่ฉันจึงเลือกที่จะทักทายลิลลี่ก่อน ยังไงที่มานี่ก็คือ\nจะมาหาเธออยู่แล้วนี่นะ"
 
-hi "Hi, Lilly."
+hi "ไง ลิลลี่"
 
 show lilly basic_smile
 with charachange
 
-li "…Hisao?"
+li "…ฮิซาโอะเหรอ"
 
-hi "Yeah. Nice to see you again."
+hi "อื้อ เจอกันอีกแล้วนะ"
 
 show akira basic_smile
 with charachange
 
-"The suited girl looks up, noting my uniform with a relaxed smile."
+"สาวที่ใส่ชุดสูทเธอมองมา พอเห็นชุดนักเรียนของฉันแล้วก็ยิ้มให้สบาย ๆ "
 
-aki_ "Know each other?"
+aki_ "รู้จักกันเหรอ"
 
-hi "I… guess."
+hi "คะ…คงงั้นนะ"
 
-"It's as good an approximation of our relationship as I can think of."
+"เป็นคำที่บรรยายความสัมพันธ์ของเราได้ใกล้เคียงที่สุดเท่าที่จะนึกได้"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Hmm… care to take a seat?"
+li "อืมม…นั่งก่อนมั้ยจ๊ะ"
 
-"She says this to the air beside me, but the message is clear enough and I take a seat beside her."
+"เธอพูดอยู่กับความว่างเปล่าข้างตัวฉัน แต่ข้อความของเธอก็ชัดพอแล้ว ฉันเข้าไปนั่งข้าง ๆ เธอ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "I suppose some introductions might be in order."
+li "คงต้องแนะนำให้รู้จักกันสักหน่อย"
 
 show lilly basic_smile
 with charachange
 
-li "Hisao, this is Akira Satou, my older sister. Akira, this is Hisao Nakai, another Yamaku student."
+li "ฮิซาโอะ นี่อากิระ ซาโต้ พี่ฉันเองจ้ะ พี่ นี่ฮิซาโอะ นากาอิ นักเรียนจากยามากุ"
 
-"Looks like my guess was correct. The newly-introduced Akira gives a nod, which I return."
+"โอเค เดาถูก คนที่ชื่ออากิระพยักหน้าให้ ส่วนฉันก็พยักหน้าตอบ"
 
-"What I don't return however, is the almost analytical gaze with which she looks me over."
+"แต่ที่ไม่ได้ตอบกลับไปคือสายตาที่เพ่งพินิจมองมา"
 
 show lilly basic_smile at left
 show akira basic_smile at right
@@ -2097,7 +2097,7 @@ with charamove
 show yuukoshang neutral_down at center
 with charaenter
 
-"As she does so, Yuuko walks up to the table and carefully places the coffee on the table before bowing and taking her leave."
+"ระหว่างที่เธอมองฉันยูโกะก็เดินมาที่โต๊ะแล้วค่อย ๆ วางแก้วกาแฟลงกับโต๊ะก่อนจะโค้งแล้วเดินออกไป"
 
 hide yuukoshang
 with charaexit
@@ -2106,67 +2106,67 @@ show lilly basic_smile at twoleft
 show akira basic_smile at tworight
 with charamove
 
-"Gently bringing my hand to the side of the cup, I realize that it's already at just the right temperature to drink. After taking a sip, the flavor turns out to be just as good as the temperature."
+"เมื่อใช้มือแตะแก้วกาแฟเบา ๆ ก็รับรู้ว่าอุณหภูมิกาแฟนั้นได้ที่พอดีสำหรับการดื่ม พอลองจิบดูก็รับรู้ว่ารสชาตินั้นก็ได้ที่\nไม่ต่างจากอุณหภูมิ"
 
-"Yuuko seems a lot better at this than being a librarian."
+"ยูโกะดูจะทำหน้าที่ชงกาแฟได้ดีกว่าการเป็นบรรณารักษ์เสียอีก"
 
-"I take a good, long drink before relaxing into the seat."
+"ฉันยกดื่มอึกใหญ่ก่อนเอนตัวพิงพนัก"
 
-"It takes mere seconds for Akira's examination to come to an end. Apparently becoming quickly bored with the activity, she turns to her sister."
+"อากิระมองสำรวจได้ไม่กี่วินาทีก็ดูเบื่อแล้วหันไปทางน้องสาวของเธอแทน"
 
 show akira basic_boo
 with charachange
 
-aki "So, how's school recently?"
+aki "แล้วช่วงนี้ชีวิตที่โรงเรียนเป็นยังไงบ้าง"
 
-"It seems Akira is entirely unconcerned with someone she doesn't know at all listening to everything they say."
+"ดูเหมือนอากิระจะไม่ได้ใส่ใจอะไรเลยที่คนที่เธอไม่รู้จักมานั่งฟังทุกอย่างที่คุยกันอย่างนี้"
 
-"Not that I mind. Leaving them to their chatting, I sit back and continue drinking the pleasantly aromatic coffee."
+"แต่ก็ไม่ได้อะไรหรอก ฉันดื่มกาแฟอันหอมกรุ่นแล้วปล่อยให้ทั้งสองคนคุยกันต่อไป"
 
 show lilly basic_smileclosed
 show akira basic_smile
 with shorttimeskip
 
-aki "Sounds like it's pretty busy for ya, then."
+aki "ฟังดูยุ่งพอตัวเลยนะเนี่ย"
 
 show lilly basic_smile
 with charachange
 
-li "At least I'm not cooking your meals after school any more."
+li "แต่อย่างน้อยหลังเลิกเรียนหนูก็ไม่ต้องคอยทำกับข้าวให้พี่แล้ว"
 
-"As they talk, I slowly realize that I'm entirely unable to gauge Lilly's emotions through her eyes; as I would for any other person."
+"ระหว่างที่ทั้งสองคนคุยกันฉันก็เริ่มรู้สึกตัวว่าฉันใช้ตาของลิลลี่เป็นตัวบอกความรู้สึกไม่ได้ เพราะปกติถ้าเป็นคนอื่น\nฉันจะดูออก"
 
-"It becomes slightly unsettling as I subconsciously focus on that fact."
+"พอจดจ่อกับความคิดนี้แล้วก็รู้สึกแปลก ๆ ขึ้นมา"
 
 show akira basic_lost
 with charachange
 
-aki "Whoa, so cold. Weren't ya just cooking for yourself anyway? I only ever got leftovers."
+aki "โห่ แรง แล้วที่ทำไม่ใช่ว่าทำกินเองอยู่แล้วเหรอ พี่ได้กินแต่ของเหลือเนี่ย"
 
 show lilly basic_displeased
 with charachange
 
-li "That's not the point… are you managing to feed yourself, at least?"
+li "ไม่ใช่ประเด็นสักหน่อย…นี่พี่ได้ทำกับข้าวกินเองบ้างหรือเปล่าเถอะ"
 
 show akira basic_resigned
 with charachange
 
-aki "I can cook without blowing myself up, you know."
+aki "พี่ทำกับข้าวเองแบบไม่ให้ไฟไหม้ได้น่า"
 
 show akira basic_annoyed
 with charachange
 
-aki "Mostly."
+aki "ส่วนมากอะนะ"
 
 show lilly basic_listen
 with charachange
 
-li "That's…"
+li "เอ่อ…"
 
 show akira basic_laugh
 with charachange
 
-aki "Hahaha! It's fine, it's fine. I needed to learn sometime anyway."
+aki "ฮ่าฮ่าฮ่า! ไม่เป็นไรน่า ๆ ไว้เดี๋ยวไปหัดทำกับข้าว"
 
 show lilly basic_listen at left
 show akira basic_laugh at right
@@ -2175,13 +2175,13 @@ with charamove
 show yuukoshang neurotic_up at center
 with charaenter
 
-yu "Ah, Lilly?"
+yu "อ๊ะ ลิลลี่เหรอ"
 
 show lilly basic_smile
 show akira basic_boo
 with charachange
 
-"Everyone present is momentarily distracted by Yuuko, who places a cup of tea on the table for Lilly."
+"ทุกคนชะงักไปชั่วครู่แล้วหันมองยูโกะที่มาวางถ้วยน้ำชาลงบนโต๊ะให้กับลิลลี่"
 
 hide yuukoshang
 with charaexit
@@ -2190,172 +2190,172 @@ show lilly basic_smile at twoleft
 show akira basic_boo at tworight
 with charamove
 
-"Taking the moment to glance at her watch, Akira levers herself off her seat and gives me a quick nod."
+"พออากิระเหลือบมองนาฬิกาที่ข้อมือตัวเองแล้วหยัดตัวลุกขึ้นจากเก้าอี้และพยักหน้าให้ฉันน้อย ๆ "
 
 show akira basic_smile
 with charachange
 
-aki "Well, I'd better be off. It was nice talking to ya, Lilly."
+aki "โอเค พี่ไปก่อนละ ดีใจมากที่ได้มาคุยกับเธอนะลิลลี่"
 
 show lilly basic_oops
 with charachange
 
-li "Akira, do you have to…?"
+li "พี่ ต้องไปแล้วเหรอ…"
 
-"Lilly looks genuinely mournful at her sister suddenly leaving. It does seem like she might have the wrong idea."
+"ลิลลี่ดูเศร้ามากที่พี่ของเธอต้องไปอย่างกะทันหัน ดูอย่างกับว่าจะไม่ได้เจอกันอีกยังไงยังงั้น"
 
 show akira basic_resigned
 with charachange
 
-aki "Sorry, I need to get back to work. They'll be on my neck again if I don't make it back quickly."
+aki "โทษที พอดีต้องไปทำงานละ ไม่รีบไปเดี๋ยวโดนด่าตายแน่"
 
-"So informal… Akira's trim and tidy appearance would give anyone the wrong impression of her."
+"ดูห้าว ๆ ดีแฮะ…เสื้อผ้าหน้าผมที่ดูเรียบร้อยอย่างนั้น ใครได้มองแวบแรกก็คงคิดไม่ถึง"
 
 show lilly basic_concerned
 with charachange
 
-li "Bye, Akira…"
+li "ลาก่อนนะพี่…"
 
 show akira basic_smile
 with charachange
 
-aki "C'mon, don't look so down. I'll be around again soon. Seeyas."
+aki "ไม่เอาน่า อย่าทำหน้าอย่างนั้นสิ เดี๋ยวไว้มาหาใหม่ เจอกัน ๆ "
 
 hide akira
 with charaexit
 
-"With that, she waltzes out of the Shanghai with her hand held high."
+"แล้วเธอก็เดินนวยนาดออกร้านเซี่ยงไฮ้ไปพลางโบกมือลา"
 
-"Lilly still looks pretty depressed, so I try to make some small talk in an effort to take her mind off it."
+"ลิลลี่ยังดูซึม ๆ อยู่ ฉันเลยกะจะหาเรื่องคุยเรื่อยเปื่อยเพื่อดึงความสนใจเธอ"
 
 show lilly basic_concerned at center
 show bg suburb_shanghaiint at center
 with charamove
 
-hi "She seems nice."
+hi "ก็ดูนิสัยดีนะ"
 
 show lilly basic_displeased
 with charachange
 
-li "We used to live together, but now that I live at school we hardly ever see each other."
+li "พอดีเคยอยู่ด้วยกันน่ะจ้ะ แต่พอฉันย้ายมาอยู่ที่โรงเรียนแล้วก็แทบไม่ได้เจอกันเลย"
 
-"Despite Lilly having been quite affable, I still don't really know much about her. In hindsight, it's surprising just how much she's extracted from me, really."
+"แม้ลิลลี่จะเป็นคนคุยด้วยง่าย แต่ฉันก็ยังรู้จักเธอไม่มากเท่าไหร่ พอลองย้อนนึกดูแล้วก็ทึ่งดึเหมือนกันที่เธอรู้เรื่องฉัน\nได้ขนาดนั้น ถึงยังไม่ได้คุยกันมากมายก็ตาม"
 
-hi "You used to live together? Was it somewhere around here?"
+hi "เคยอยู่ด้วยกันเหรอ อยู่แถวนี้หรือเปล่า"
 
-li "It was pretty far south, so the trip into Yamaku was fairly long."
+li "ลงไปทางใต้อีกน่ะจ้ะ ค่อนข้างไกลจากโรงเรียนอยู่เหมือนกัน"
 
 show lilly basic_reminisce
 with charachange
 
-li "With her working hours getting longer and Yamaku being so far away, there was little choice in the end but to move into the dormitories."
+li "พอพี่ต้องทำงานมากขึ้น แถมโรงเรียนก็อยู่ไกล สุดท้ายก็ไม่มีทางเลือกอื่นนอกจากย้ายมาอยู่หอนี่แหละจ้ะ"
 
-"Well, that explains the chatter about cooking. Evidently regaining her composure, she livens back up… at least, in part."
+"โอเค เข้าใจที่คุยกันเรื่องทำกับข้าวเมื่อกี้ละ ดูเหมือนเธอจะสงบลงแล้ว มีชีวิตชีวา…ขึ้นมาบ้าง"
 
 show lilly basic_weaksmile
 with charachange
 
-li "I take it you're better rested, now?"
+li "เธอคงหายเหนื่อยบ้างแล้วสินะจ๊ะ"
 
-hi "Sorry?"
+hi "ยังไงนะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "You sound less exhausted than you did when you first came in."
+li "ฟังเธอเหมือนไม่เหนื่อยเหมือนตอนที่เข้ามาทีแรกเลย"
 
-"To be able to pick out my breathing like that… she must have pretty good ears."
+"ฟังได้ยันเสียงหายใจขนาดนั้น…คงหูดีมาก ๆ "
 
-hi "Yeah. Ended up walking all over town, despite only planning on taking a short walk down here."
+hi "อื้ม พอดีไปเดินมาทั่วเมืองเลยน่ะ ทีแรกก็กะจะเดินนิดหน่อย"
 
-"Reminded of my thirst from the walk, I lean forward to take a sip."
+"พอรู้สึกคอแห้งขึ้นมาอีกครั้งฉันก็ยกแก้วกาแฟขึ้นจิบ"
 
 play sound sfx_teacup
 
-"Without further ado, Lilly starts on her cup of strong-smelling tea."
+"ลิลลี่เองก็ไม่รีรอเริ่มละเลียดชาอันหอมหวนของเธอบ้าง"
 
-"I guess I'd better get going back to Yamaku. There's only so long I can stall studying for, and I want to get a good night's sleep before the festival."
+"กลับไปที่โรงเรียนก่อนดีกว่า จะมัวแต่ผัดวันอ่านหนังสือไปก็คงไม่ได้ แล้วก็อยากนอนให้เต็มอิ่มก่อนวันงานเทศกาลด้วย"
 
 stop music fadeout 4.0
 
-"Standing from my seat, I take the coffee-stained cup from the table."
+"ฉันลุกขึ้นแล้วถือแก้วที่มีคราบกาแฟติดอยู่มาด้วย"
 
 show lilly basic_surprised
 with charachange
 
-li "You're leaving?"
+li "จะไปแล้วเหรอ"
 
-hi "Yeah. You going to head back as well? It's getting kind of late."
+hi "อื้ม เธอจะกลับด้วยเลยมั้ย นี่ก็เริ่มเย็น ๆ แล้วนะ"
 
-"For a moment she pauses, before lifting her face over her teacup as if she was looking at me."
+"เธอหยุดคิดอยู่ครู่หนึ่งแล้วเงยหน้ามาจากถ้วยน้ำชาราวกับมองมาที่ฉัน"
 
 play music music_lilly fadein 3.0
 
 show lilly basic_smile
 with charachange
 
-li "Yuuko, could we have one more coffee please?"
+li "คุณยูโกะ ขอกาแฟอีกที่หน่อยได้มั้ยคะ"
 
-yu "Okay, I'll bring it right away!"
+yu "ค่า สักครู่นะคะ!"
 
-hi "That's… not subtle."
+hi "ไม่อ้อมค้อม…เลยนะ"
 
 show lilly basic_giggle
 with charachange
 
-"She gives a short giggle at my frank assessment of her maneuver. It's surprisingly childish and carefree, given her otherwise collected appearance."
+"เธอหัวเราะคิดคักให้กับคำวิจารณ์ที่ตรงไปตรงมาของฉันกับการกระทำของเธอ เสียงนั้นฟังดูเป็นเด็ก ๆ สบาย ๆ\nขัดกับท่าทางของเธอที่ดูสงบเสงี่ยม"
 
-"In the end, though, I have little reason to refuse. To be honest I can hardly say no, all things considered."
+"แต่ถึงยังไงฉันก็ไม่มีเหตุผลที่จะปฏิเสธอยู่แล้ว เอาจริง ๆ พอคิดอะไรหลาย ๆ อย่างแล้วก็บอกปัดไม่ลงเลย"
 
-"Giving a manufactured sigh, I take a seat opposite her."
+"ฉันแสร้งถอนหายใจแล้วนั่งที่ฟากตรงข้ามกับเธอ"
 
-hi "Wanting company, then?"
+hi "จะให้อยู่เป็นเพื่อนงั้นสิ"
 
 show lilly basic_cheerful
 with charachange
 
-li "Hmm… I'd say that it's more that I was wondering…"
+li "อืมม…คือฉันแค่สงสัยมากกว่าน่ะจ้ะ ว่า…"
 
-"I see she's in questioning mode, again. She does seem to be unusually interested in me, or at least curious."
+"เข้าโหมดคำถามอีกแล้วสินะ เธอดูจะสนใจฉันแปลก ๆ หรือถ้าไม่ใช้คำนั้น อย่างน้อยก็คงประมาณว่าอยากรู้"
 
 show lilly basic_smile
 with charachange
 
-li "Do you have any siblings?"
+li "เธอมีพี่น้องหรือเปล่า"
 
-"Not exactly an unexpected tangent."
+"ก็ไม่หลุดไปจากที่คาดไว้เสียทีเดียว"
 
-hi "No, only child. To be honest, the idea of having someone that close makes me a bit envious."
+hi "ไม่มีหรอก ฉันลูกคนเดียวน่ะ แต่ให้ว่าตามตรง พอคิดว่ามีคนที่สนิทด้วยขนาดนั้นแล้วก็อิจฉาอยู่เหมือนกัน"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Interesting…"
+li "อย่างนี้เอง…"
 
-"I raise an eyebrow, which of course goes unseen. The short silence communicates the question well enough."
+"ฉันยักคิ้วขึ้น และแน่นอนว่าเธอไม่เห็น แค่ความเงียบสั้น ๆ นี้ก็ใช้สื่อคำถามได้ดีแล้วแหละนะ"
 
 show lilly basic_smile
 with charachange
 
-li "It's just that others have said the same thing before."
+li "พอดีว่าคนอื่นก็พูดเหมือนกันน่ะจ้ะ"
 
-li "It's a difficult subject to try and think about objectively, given that I've always had someone like that."
+li "พอดีว่าฉันมีพี่อยู่แล้ว จะให้ออกมามองเรื่องนี้แบบเป็นกลางก็ยากน่ะจ้ะ"
 
-"I can mostly understand what Lilly means, given that it would be hard to place oneself outside of a situation they've been in all their life."
+"ฉันก็พอจะเข้าใจสิ่งที่ลิลลี่พูด เพราะจะให้คนเราออกมามองอะไรบางอย่างจากข้างนอกกับสิ่งที่เราคลุกคลี\nมาทั้งชีวิตก็คงยาก"
 
-"She and her sister must have a pretty close relationship."
+"เธอกับพี่สาวของเธอคงสนิทกันน่าดู"
 
-"Taking pains to interrupt us as little as possible, Yuuko dutifully comes over and places a cup on the table."
+"ยูโกะเดินเข้ามาวางแก้วให้ที่โต๊ะอย่างเกรงใจ"
 
-"Lilly thanks her as I sit back, taking in this vexing girl in front of me."
+"ลิลลี่ขอบคุณเธอจังหวะที่ฉันนั่งลง สายตามองสาวที่เดาใจยากตรงหน้าคนนี้"
 
-"Despite always seeming to be on her guard and in control of herself when talking to others, she has an almost childlike curiosity about other people."
+"ถึงเธอจะดูกันท่าทำตัวเรียบร้อยยามคุยกับใครสักคน เธอกลับมีนิสัยอยากรู้อยากเห็นเรื่องคนอื่นอย่างเด็ก ๆ "
 
-"That said, those rare moments she seems to slightly lower her guard are the most insightful into how she thinks."
+"แต่ถึงอย่างนั้น เวลาที่เธอลดกำแพงลงเล็กน้อยที่หาได้ยากนั้นเป็นโอกาสอันดีที่จะได้เห็นถึงแนวความคิดของเธอ"
 
-"Reaching forward for my drink, I realize something I probably should've noticed earlier."
+"ฉันยื่นมือไปคว้ากาแฟแล้วนึกบางอย่างที่น่าจะรู้ตัวได้ตั้งนานแล้วขึ้นได้"
 
-"…I think I'm starting to become kind of curious about her."
+"…ว่าฉันเองก็เริ่มอยากรู้เรื่องเธอขึ้นมาบ้างแล้วเหมือนกัน"
 
 stop music fadeout 2.0
 
@@ -2364,24 +2364,24 @@ with shorttimeskip
 
 play ambient sfx_cicadas fadein 0.5
 
-"Despite making a good pace, it's already nightfall by the time I reach the large iron gates in front of the school."
+"แม้จะเดินมาเร็วพอตัว แต่กว่าจะมาถึงประตูเหล็กบานใหญ่หน้าโรงเรียนก็มืดค่ำแล้ว"
 
-"While it's nice to have plenty of time to wander around by virtue of living right next to the school, I can't help but get the feeling that very few students actually take the opportunity."
+"ถึงการอยู่ใกล้โรงเรียนจะดีตรงที่ว่ามีเวลาให้ออกไปเตร็ดเตร่มากมาย แต่ฉันก็ยังอดรู้สึกไม่ได้ว่ามีนักเรียนไม่กี่คน\nที่จะทำอย่างนั้นจริง ๆ "
 
 scene bg school_courtyard_ni
 with locationchange
 
-"Compared to the number of students I see milling around on-campus during free time, it's startlingly rare to see anyone around town."
+"ถ้าเทียบกับจำนวนคนที่เห็นอยู่ในโรงเรียนช่วงพักแล้วก็รู้สึกแปลกเหมือนกันที่ไม่ค่อยเห็นใครในเมืองเลย"
 
-"Given the large number of accommodations and facilities that the school offers, many of them might simply not see any point in venturing outside, let alone people such as Hanako and Kenji."
+"หลายคนคงไม่รู้จะออกไปข้างนอกทำไม ในเมื่อโรงเรียนมีอะไรหลายอย่างเตรียมพร้อมให้ครบครัน ไหนจะคน\nอย่างฮานาโกะกับเคนจิอีก"
 
-"It makes me wonder if students like Shizune, Misha, and Lilly are the exception for this school, rather than the norm."
+"จนฉันนึกสงสัยว่าหรือชิซูเนะ มิช่า และลิลลี่จะเป็นข้อยกเว้นมากกว่ามาตรฐานของคนที่นี่"
 
 stop ambient fadeout 1.0
 scene bg school_dormhallway
 with locationskip
 
-"As I wander back to my dorm room, I continue to compare my old school with Yamaku. As I do so, I begin to be surprised that I managed to get even this used to everything that's happened to me."
+"ระหว่างที่เดินกลับมาที่ห้อง ในหัวก็เริ่มเทียบโรงเรียนเก่ากับที่ยามากุ พอเทียบดูแล้วก็ชักประหลาดใจที่ฉันปรับตัว\nกับเหตุการณ์ที่ผ่านมาได้ขนาดนี้"
 
 $ suppress_window_after_timeskip = True
 
