@@ -2683,27 +2683,34 @@ mi "ฮ่าฮ่าฮ่า!"
 # mi "Hahahahahahaha!"
 mi "ฮ่าฮ่าฮ่าฮ่าฮ่าฮ่าฮ่า!"
 
-"How depressing."
+# "How depressing."
+"หดหู่ว่ะ"
 
 show misha cross_grin
 with charachange
 
-mi "Cheer up, cheer up, Hicchan!"
+# mi "Cheer up, cheer up, Hicchan!"
+mi "เอาน่า เอาน่า ฮิจัง!"
 
-"She slaps me hard across the back with enough strength to knock the air out of my lungs. I gasp to breathe."
+# "She slaps me hard across the back with enough strength to knock the air out of my lungs. I gasp to breathe."
+"เธอตบหลังฉันอย่างแรงจนแทบหายใจไม่ออก ทำให้ฉันหายใจลำบาก"
 
-mi "Besides, aren't you happy you get to spend the day with two cute girls?"
+# mi "Besides, aren't you happy you get to spend the day with two cute girls?"
+mi "อีกอย่าง นายไม่มีความสุขเหรอที่จะได้ใช้เวลาอยู่ร่วมกันกับสาวน่ารัก ๆ สองคนน่ะ"
 
 show misha hips_laugh
 with charachange
 
-mi "Hahahaha!"
+# mi "Hahahaha!"
+mi "ฮ่าฮ่าฮ่าฮ่า!"
 
-"I guess they are right. I did blurt those words out."
+# "I guess they are right. I did blurt those words out."
+"ฉันเดาว่าพวกเธอคงพูดถูก ฉันพูดแบบนั้นเอง"
 
 stop music fadeout 3.0
 
-"Accepting my fate, I follow them to the student council room…"
+# "Accepting my fate, I follow them to the student council room…"
+"ยอมรับชะตากรรม ฉันเดินตามพวกเธอไปยังห้องสภานักเรียน…"
 
 scene bg school_council_ss
 with shorttimeskip
@@ -2711,17 +2718,20 @@ with shorttimeskip
 play sound sfx_hammer
 play music music_tranquil fadein 3.0
 
-"…And hammer the final nail into the stall. It took all of the afternoon, and dinner time is nearly over. But it is done now."
+# "…And hammer the final nail into the stall. It took all of the afternoon, and dinner time is nearly over. But it is done now."
+"…และค้อนก็ตอกตะปูตัวสุดท้ายเข้าไปยังซุ้ม งานนี่ใช้เวลาตลอดทั้งบ่ายเลย และเวลาอาหารเย็นก็ใกล้จะผ่านไปแล้วด้วย\nแต่งานก็เสร็จแล้วล่ะนะ"
 
 show shizu basic_normal_ss at center
 with charaenter
 
-"Shizune pulls out a roll of measuring tape and a small level, and inspects it thoroughly."
+# "Shizune pulls out a roll of measuring tape and a small level, and inspects it thoroughly."
+"ชิซูเนะหยิบม้วนสายวัดและระดับน้ำขนาดเล็กออกมาแล้วตรวจสอบอย่างละเอียด"
 
 show shizu behind_smile_ss
 with charachange
 
-"She smiles, looking pleased, then motions for Misha to come over."
+# "She smiles, looking pleased, then motions for Misha to come over."
+"เธอยิ้ม ดูพึงพอใจ จากนั้นจึงทำท่าเรียกมิช่าให้เข้ามา"
 
 show shizu adjust_happy_ss
 with charachange
@@ -2735,35 +2745,44 @@ with charamove
 show misha perky_smile_ss at twoleft behind shizu
 with charaenter
 
-mi "She says you did a very good job. In fact, you might actually have a gift for this."
+# mi "She says you did a very good job. In fact, you might actually have a gift for this."
+mi "เธอบอกว่านายทำได้ดีมาก จริง ๆ ก็นายดูมีพรสวรรค์เรื่องงานแบบนี้นะ"
 
 show misha hips_smile_ss
 with charachange
 
-mi "Wow, I'm impressed, too. And that was fast, have you done this before?"
+# mi "Wow, I'm impressed, too. And that was fast, have you done this before?"
+mi "ว้าว ฉันก็ประทับใจเหมือนกัน แถมทำไวด้วย นายเคยทำงานนี้มาก่อนเหรอ?"
 
-hi "No. Never."
+# hi "No. Never."
+hi "ไม่อะ ไม่เคยเลย"
 
-hi "Never before."
+# hi "Never before."
+hi "ไม่เคยทำเลยสักครั้ง"
 
-hi "And I never will again."
+# hi "And I never will again."
+hi "แล้วก็จะไม่ทำอีกแล้วด้วย"
 
 show shizu behind_smile_ss
 with charachange
 
 shi "…"
 
-mi "Well, our quota for the day is six stalls. In a few minutes, me and Shicchan should finish this one."
+# mi "Well, our quota for the day is six stalls. In a few minutes, me and Shicchan should finish this one."
+mi "ก็ โควตาของเราสำหรับวันนี้คือหกแผง ซึ่งอีกแป๊บ ๆ ฉันกับชิจังก็จะทำอันนี้เสร็จแล้ว"
 
 show misha hips_grin_ss
 with charachange
 
-mi "That means~… four more to go!"
+# mi "That means~… four more to go!"
+mi "แปลว่า~… เหลืออีกสี่แผงจ้า!"
 
 show misha sign_smile_ss
 with charachange
 
-mi "We're making good time, she says~!"
+# mi "We're making good time, she says~!"
+mi "พวกเราทำเวลาได้ดีเลย เธอว่างี้~!"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 show misha hips_grin_ss
 with charachange
