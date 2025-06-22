@@ -2453,29 +2453,35 @@ mi "ใช่แล้ว~! ก็นายตกปากรับคำด้�
 
 # "I refocus on trying to think of a way out of this. No, their actions are clearly deliberate, there's no sense in attempting to reason with them."
 "ฉันกลับมาคิดหาทางออกจากสถานการณ์นี้อีกครั้ง ไม่ดิ การกระทำของพวกเธอมีเจตนาชัดเจนขนาดนี้ คงไม่มีประโยชน์\nที่จะใช้เหตุผลด้วยหรอก"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-"You can't reason with madmen. I frown, and they don't even notice my discontent, further proving my suspicions."
+# "You can't reason with madmen. I frown, and they don't even notice my discontent, further proving my suspicions."
+"เถียงกับคนบ้าไปก็ไม่ได้ความ ฉันทำหน้าบูด และพวกเธอก็ไม่เห็นอาการไม่พอใจของฉันด้วยซ้ำ เป็นหลักฐานยืนยันสิ่งที่ฉันคิด\nเข้าไปอีก"
 
-"They seem pretty relaxed now. I guess they think they've already won, so they're letting their guard down."
+# "They seem pretty relaxed now. I guess they think they've already won, so they're letting their guard down."
+"พวกเธอดูเริ่มสบาย ๆ ขึ้นแล้ว เดาว่าพวกเธอคงคิดว่าชนะแล้วก็เลยลดความระแวงลง"
 
 stop music fadeout 2.5
 
-"That's kind of arrogant."
+# "That's kind of arrogant."
+"ช่างดูได้ใจเสียจริง"
 
-"They pass forward in front of me as they move through the doorway,"
+# "They pass forward in front of me as they move through the doorway,"
+"พวกเธอเดินแซงหน้าฉันตอนที่เดินออกจากประตู"
 
 hide shizu
 hide misha
 with charaexit
 
-"And I stealthily walk backwards back into the classroom as they step into the hallway, turning towards the stairwell."
+# "And I stealthily walk backwards back into the classroom as they step into the hallway, turning towards the stairwell."
+"และฉันก็แอบย่องกลับมาในห้องเรียนตอนที่พวกเธอกำลังเดินไปยังโถงทางเดิน หันไปทางบันได"
 
-"I let out a sigh of relief and quickly pack the rest of my stuff so I can make my escape."
+# "I let out a sigh of relief and quickly pack the rest of my stuff so I can make my escape."
+"ฉันถอนหายใจอย่างโล่งอก และรีบเก็บของส่วนที่เหลือเพื่อจะได้หนีได้ทัน"
 
 play sound sfx_doorslam
 
-"The classroom door slams shut."
+# "The classroom door slams shut."
+"ประตูห้องเรียนถูกปิดดังปัง"
 
 play music music_running fadein 0.5
 
@@ -2487,7 +2493,8 @@ with ease
 
 shi "…"
 
-mi "That wasn't very nice, there. Hahaha, you really got us good, though. Didn't he, Shicchan?"
+# mi "That wasn't very nice, there. Hahaha, you really got us good, though. Didn't he, Shicchan?"
+mi "ไม่ดีเลยนะเนี่ย ฮ่าฮ่าฮ่า นายหลอกเราเสียได้ ใช่มะชิจัง?"
 
 show shizu behind_frown
 with charachange
@@ -2497,52 +2504,65 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Right, right… …Hahaha!"
+# mi "Right, right… …Hahaha!"
+mi "ช่าย ช่าย… …ฮ่าฮ่าฮ่า!"
 
 show misha cross_frown
 with charachange
 
-mi "What was that about? I thought you said you'd help us!"
+# mi "What was that about? I thought you said you'd help us!"
+mi "ทำอะไรของนายน่ะ ไหนบอกว่าจะช่วยพวกเราไง!"
 
-mi "And then you bailed on us! And you thought you would get away with it, didn't you?"
+# mi "And then you bailed on us! And you thought you would get away with it, didn't you?"
+mi "และนายก็จะหนีไป และคิดว่าจะรอดไปได้ ใช่ไหมล่ะ?"
 
 show misha cross_laugh
 with charachange
 
-"The indignant expression vanishes and she begins to laugh hysterically, calming down only after an aggravated look from Shizune."
+# "The indignant expression vanishes and she begins to laugh hysterically, calming down only after an aggravated look from Shizune."
+"ท่าทางโกรธเคืองหายไป และเธอก็เริ่มหัวเราะอย่างบ้าคลั่ง แต่สงบลงตอนที่ชิซูเนะแสดงท่าทีเคือง ๆ"
 
 show misha cross_grin
 with charachange
 
-mi "Oh, ah… Yeah~, you thought you could get away with it! But, a criminal always returns to the scene of the crime!"
+# mi "Oh, ah… Yeah~, you thought you could get away with it! But, a criminal always returns to the scene of the crime!"
+mi "โอ๊ะ อ่า… ช่าย~ นายคงคิดว่าจะรอดไปได้ แต่! ผู้ร้ายน่ะก็มักจะกลับมายังจุดเกิดเหตุเสมอยังไงล่ะ!"
 
-"I didn't even manage to leave the classroom in the first place. No, wait, I didn't even agree to help in the first place."
-
-show misha perky_smile
-with charachange
-
-mi "Not very bright, are you, criminal? Thinking you can just shirk your duties like that… How low, Hicchan~!"
-
-hi "I'm a criminal? What did I do? What's the charge? What am I guilty of?"
-
-show misha hips_grin
-with charachange
-
-mi "That's for the courts to decide, criminal! I don't think we have to tell you that!"
+# "I didn't even manage to leave the classroom in the first place. No, wait, I didn't even agree to help in the first place."
+"ฉันยังไม่ได้ออกจากห้องไปด้วยซ้ำ ไม่ดิ ฉันยังไม่ได้ตกปากรับคำว่าจะช่วยตั้งแต่แรกแล้วนี่นา"
 
 show misha perky_smile
 with charachange
 
-mi "Besides, you're the criminal here, you know what you did!"
+# mi "Not very bright, are you, criminal? Thinking you can just shirk your duties like that… How low, Hicchan~!"
+mi "ไม่ฉลาดเอาซะเลยนะคุณผู้ร้าย คิดจะหลบเลี่ยงหน้าที่ของตัวเองแบบนั้นน่ะ… แย่จริง ๆ เลยฮิจัง~!"
 
-hi "Have you ever read “The Trial,” by Kafka?"
+# hi "I'm a criminal? What did I do? What's the charge? What am I guilty of?"
+hi "ฉันเป็นผู้ร้ายงั้นเหรอ ฉันทำอะไร ข้อหาอะไร แล้วฉันผิดตรงไหน?"
 
 show misha hips_grin
 with charachange
 
-mi "No, what's that, Hicchan~? What does that have to do with this?"
+# mi "That's for the courts to decide, criminal! I don't think we have to tell you that!"
+mi "นั่นเป็นเรื่องที่ศาลต้องตัดสินนะคุณผู้ร้าย ฉันไม่คิดว่าเราจะต้องบอกนายเรื่องนี้!"
 
-hi "I read it a few months ago. It's about these people who run a kangaroo court on a guy who just wants to live his life. They refuse to leave him alone, and he can't fight the power."
+show misha perky_smile
+with charachange
+
+# mi "Besides, you're the criminal here, you know what you did!"
+mi "แล้วอีกอย่าง นายก็เป็นคนร้ายนี่ นายรู้ตัวดีนี่ว่าทำอะไรลงไป!"
+
+# hi "Have you ever read “The Trial,” by Kafka?"
+hi "เธอเคยอ่านหนังสือเรื่อง “คดีความ” ของคัฟการึเปล่า?"
+
+show misha hips_grin
+with charachange
+
+# mi "No, what's that, Hicchan~? What does that have to do with this?"
+mi "ไม่อะ ทำไมเหรอฮิจัง~? หนังสือนั่นเกี่ยวอะไรกับเรื่องนี้เหรอ"
+
+# hi "I read it a few months ago. It's about these people who run a kangaroo court on a guy who just wants to live his life. They refuse to leave him alone, and he can't fight the power."
+hi "ฉันอ่านเรื่องนี้เมื่อไม่กี่เดือนก่อน เป็นเรื่องเกี่ยวกับคนกลุ่มหนึ่งที่คอยบริหารศาลเตี้ยเพื่อลงโทษผู้ชายคนหนึ่งที่แค่ต้องการ\nใช้ชีวิต พวกเขาไม่ยอมปล่อยเขาให้อยู่แบบสงบ ๆ และเขาก็ไม่สามารถต่อสู้กับอำนาจได้"
 
 show shizu basic_frown
 with charachange
@@ -2557,33 +2577,39 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Hicchan, what does that have to do with anything?"
+# mi "Hicchan, what does that have to do with anything?"
+mi "ฮิจัง แล้วมันเกี่ยวกันยังไงอะ?"
 
 show misha sign_confused
 with charachange
 
-mi "Hey~!, what does that mean?"
+# mi "Hey~!, what does that mean?"
+mi "นี่~! หมายความว่าไงน่ะ?"
 
-"She turns back to me after signing back and forth for a lengthy amount of time."
+# "She turns back to me after signing back and forth for a lengthy amount of time."
+"เธอหันกลับมาหาฉันหลังจากที่ส่งภาษามือกันไปมาอยู่สักพัก"
 
 show misha hips_frown
 with charachange
 
-mi "You know, we're both a little disappointed in you. You've let us down, Hisao."
+# mi "You know, we're both a little disappointed in you. You've let us down, Hisao."
+mi "ก็นะ พวกเราผิดหวังในตัวนายนิดหน่อย นายทำเราผิดหวังนะฮิซาโอะ"
 
 show shizu basic_frown
 with charachange
 
 shi "…"
 
-mi "Dropped the ball."
+# mi "Dropped the ball."
+mi "ปล่อยเรือล่ม"
 
 show shizu behind_frown
 with charachange
 
 shi "…"
 
-mi "Left us hanging. And out in the cold~."
+# mi "Left us hanging. And out in the cold~."
+mi "ให้พวกเราจมกลางทะเล~"
 
 show shizu cross_angry
 with charachange
@@ -2593,16 +2619,20 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Is that any way to treat a person? To run away from your responsibilities, to abandon your comrades?"
+# mi "Is that any way to treat a person? To run away from your responsibilities, to abandon your comrades?"
+mi "นั่นคือวิธีการปฏิบัติต่อผู้อื่นเหรอ หลีกหนีภาระหน้าที่ ทอดทิ้งพวกพ้องงั้นเหรอ?"
 
 show misha hips_frown
 with charachange
 
-mi "We think you owe it to us to honor your commitment."
+# mi "We think you owe it to us to honor your commitment."
+mi "พวกเราคิดว่านายควรทำตามสัญญานะ"
 
-hi "What? But I didn't commit to anything~!"
+# hi "What? But I didn't commit to anything~!"
+hi "อะไร ฉันไม่ได้ไปสัญญิงสัญญาอะไรสักหน่อย~!"
 
-"My breathing catches in my throat and I momentarily start choking."
+# "My breathing catches in my throat and I momentarily start choking."
+"ฉันหายใจติดขัดในลำคอและเริ่มหายใจไม่ออกไปชั่วขณะหนึ่ง"
 
 show shizu basic_frown
 with charachange
@@ -2612,16 +2642,20 @@ shi "…"
 show misha cross_smile
 with charachange
 
-mi "That's not true, Hicchan! You said you are not useless, you definitely said it, yes, definitely, definitely definitely~!"
+# mi "That's not true, Hicchan! You said you are not useless, you definitely said it, yes, definitely, definitely definitely~!"
+mi "ไม่จริงสักหน่อย ฮิจัง! นายบอกเองว่านายไม่ไร้ประโยชน์ นายพูดเอาไว้แน่ ใช่ แน่นอน แน่นอน แน่นอน~!"
 
 show misha hips_grin
 with charachange
 
-mi "We are calling you on those words now~! You better prepare to show you are not a useless guy!"
+# mi "We are calling you on those words now~! You better prepare to show you are not a useless guy!"
+mi "พวกเราจะรอดูนายพิสูจน์คำพูดนั้นนะ~! นายต้องทำให้เห็นว่านายน่ะไม่ได้ไร้ประโยชน์!"
 
-mi "Your honor will be soiled forever if you try to get out of this~!"
+# mi "Your honor will be soiled forever if you try to get out of this~!"
+mi "ศักดิ์ศรีของนายของจะแปดเปื้อนแน่ ๆ ถ้านายเลือกที่จะหนีไปน่ะ~!"
 
-mi "So for the rest of the day, we are going to hang out together, just the three of us, and work hard!"
+# mi "So for the rest of the day, we are going to hang out together, just the three of us, and work hard!"
+mi "เพราะงั้นแล้วตลอดวันที่เหลือ พวกเราจะอยู่ด้วยกันสามคน และไปตั้งใจทำงานไงล่ะ!"
 
 show shizu behind_frown
 with charachange
@@ -2631,18 +2665,23 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "You can't fool us!"
+# mi "You can't fool us!"
+mi "นายหลอกเราไม่ได้หรอกนะ!"
 
-mi "You should be happy, you're doing your school a great service. Ask not what your school can do for you…"
+# mi "You should be happy, you're doing your school a great service. Ask not what your school can do for you…"
+mi "นายควรจะมีความสุขสิ นายจะได้ช่วยโรงเรียนได้อย่างดีเลย อย่าได้ใคร่ถามเลยว่าโรงเรียนทำอะไรให้นายบ้าง…"
 
-mi "But what you can do for your school!"
+# mi "But what you can do for your school!"
+mi "หากแต่ว่านายทำอะไรให้โรงเรียนได้บ้างต่างหาก!"
 
 show misha cross_laugh
 with charachange
 
-mi "Hahaha!"
+# mi "Hahaha!"
+mi "ฮ่าฮ่าฮ่า!"
 
-mi "Hahahahahahaha!"
+# mi "Hahahahahahaha!"
+mi "ฮ่าฮ่าฮ่าฮ่าฮ่าฮ่าฮ่า!"
 
 "How depressing."
 
