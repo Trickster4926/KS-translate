@@ -2405,7 +2405,7 @@ with openeye
 
 window show
 
-"At five minutes past eight, an unbelievably loud banging jolts me awake. It's coming from outside my door."
+"ยามแปดนาฬิกาห้านาที เสียงดังปึงปังจากอีกฟากประตูปลุกฉันให้สะดุ้งตื่น"
 
 scene bg school_dormhallway
 show shizu behind_blank at tworight
@@ -2414,29 +2414,29 @@ with locationchange
 
 play music music_comedy fadein 0.3
 
-"Quickly, I open the door to see Shizune and Misha standing side-by-side before me. Both of them look a little worn out, although it's more noticeable on Misha."
+"พอกระชากประตูเปิดก็เห็นชิซูเนะและมิช่าที่ยืนด้วยกันอยู่ต่อหน้า ทั้งคู่ดูจะเพลียเล็กน้อย แต่อาการมิช่าออกเยอะกว่า"
 
-hi "Which one of you knocked?"
+hi "ใครเคาะ"
 
-"I ask, echoing the question that must be on the mind of everyone in the entire building."
+"ฉันถามคำถามที่คนทั้งตึกน่าจะนึกสงสัยเหมือนกันอยู่"
 
 show misha hips_grin
 with charachange
 
-mi "Ahahaha, that's not important, Hicchan!"
+mi "อะฮ่าฮ่าฮ่า ไม่สำคัญหรอกน่าฮิจัง!"
 
-"She quickly dismisses it without even batting an eye."
+"เธอปัดคำถามทิ้งอย่างไม่ไยดี"
 
 show misha hips_smile
 with charachange
 
-mi "Oh? You're still in your pajamas, Hicchan? So you don't wake up at eight?"
+mi "อ้าว ยังใส่ชุดนอนอยู่เหรอฮิจัง ไม่ได้ตื่นตอนแปดโมงหรอกเหรอ"
 
-"I notice her hair is wet. Her curls are barely holding their shape."
+"ฉันเห็นว่าผมของเธอยังชื้น ๆ อยู่ ทั้งยังดูเหมือนเพิ่งทำทรงมาใหม่ ๆ "
 
-hi "No, I thought I'd sleep a bit later since it's the weekend and all, and I've been seriously sleep-deprived this week."
+hi "เปล่า พอดีวันหยุดก็เลยกะจะนอนยาวหน่อย แถมสัปดาห์นี้ฉันก็ไม่ได้หลับให้มันดี ๆ เลยด้วย"
 
-"I wonder if she missed the poison in my words."
+"ไม่รู้ว่าเธอจะรู้ตัวที่ฉันแอบจิกกัดไปได้หรือเปล่า"
 
 show shizu basic_normal2
 with charachange
@@ -2446,7 +2446,7 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Then it's a good thing we came to wake you up!"
+mi "งั้นแปลว่าที่เรามาปลุกก็พอดีเลย!"
 
 show shizu adjust_happy
 with charachange
@@ -2456,34 +2456,34 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Anyway, Hicchan, I guess you would like to know why we're here, wouldn't you?"
+mi "แต่เอาเถอะ ฮิจัง นายคงอยากรู้สินะว่าพวกเรามาทำไม"
 
-"It's not hard to guess, but I wish she wouldn't say the words she is going to say next."
+"ก็เดาไม่อยากหรอก แต่ไม่อยากให้พูดคำนั้นที่เธอกำลังจะพูดต่อเลย"
 
 show misha perky_smile
 with charachange
 
-mi "Would you like to skip class and go somewhere nice with us?"
+mi "อยากโดดเรียนไปเที่ยวกับพวกเรามั้ย"
 
-hi "Come again?"
+hi "อีกทีซิ"
 
 show misha hips_smile
 with charachange
 
-mi "Would you like to skip class to do something fun?"
+mi "โดดเรียนไปหาอะไรสนุก ๆ ทำกันมั้ย"
 
-"I was certain they'd force me to help them again with some slave work."
+"เมื่อกี้คือกะไว้แล้วว่าโดนลากไปเป็นขี้ข้าอีกแน่ ๆ "
 
-hi "Seriously?"
+hi "จริงจังปะ"
 
 show misha hips_grin
 with charachange
 
-"Misha grins and nods enthusiastically."
+"มิช่าทั้งยิ้มและพยักหน้าอย่างกระตือรือร้น"
 
-"I like this new approach they're taking although I'm somewhat surprised that they would suggest skipping class, even if we have only half a day since it's Saturday."
+"ก็เป็นวิธีใหม่ที่น่าสนใจดี ถึงจะแปลกใจหน่อย ๆ ที่ชวนโดดเรียนก็เถอะ ต่อให้วันเสาร์จะมีเรียนแค่ครึ่งวันอะนะ"
 
-hi "Aren't you two worried about constantly missing class?"
+hi "ขาดเรียนบ่อยแบบนี้จะไหวเหรอ"
 
 show shizu behind_smile
 with charachange
@@ -2493,14 +2493,14 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "Well, it doesn't seem to be a problem! Hicchan, this school is pretty much at a standstill whenever this time rolls around."
+mi "ไม่น่ามีปัญหาหรอกฮิจัง! ปกติโรงเรียนนี้พอถึงช่วงงานเทศกาลก็ไม่ค่อยมีเรียนอะไรมากหรอก"
 
 show misha hips_smile
 with charachange
 
-mi "It's a Saturday, too~. Don't you want to do something fun?"
+mi "แล้ววันนี้วันเสาร์ด้วย~ ไม่อยากไปทำอะไรสนุก ๆ เหรอ"
 
-"I'm amazed by how little they seem to care."
+"ฉันยังทึ่งที่พวกเธอดูไม่รู้สึกรู้สาอะไร"
 
 show shizu adjust_smug
 with charachange
@@ -2510,7 +2510,7 @@ shi "…"
 show misha perky_smile
 with charachange
 
-mi "Not that we're pressuring you to give us your company, but we thought you might like to hang out!"
+mi "แต่ก็ไม่ได้บังคับให้ไปด้วยหรอกนะ แค่มาชวนเผื่อนายอยากไปเที่ยว"
 
 show shizu behind_blank
 with charachange
@@ -2520,15 +2520,15 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "So… would you like to join us? Come on, you'll have a lot more fun than just sitting here with your head on your desk~!"
+mi "สรุป…จะมาด้วยมั้ย น่า ออกมาสนุกกว่าอุดอู้นั่งอยู่ในห้องจะตาย~!"
 
-"I guess I won't be missing anything important; nor will I be missed."
+"ขาดเรียนไปรอบนี้ก็คงไม่น่าพลาดอะไรมาก ในห้องไม่มีฉันสักคนก็คงไม่เป็นไร"
 
-hi "All right, then, I don't think I'd be missing much. What do you have in mind?"
+hi "โอเค ไหน ๆ ก็ไม่น่าได้เรียนเยอะอยู่แล้ว แล้วกะจะไปไหนกัน"
 
-"My eyes narrow with suspicion as a thought crosses into my mind."
+"แล้วเมื่อนึกบางอย่างขึ้นมาได้ฉันก็หรี่ตาลงด้วยความสงสัย"
 
-hi "Wait… this isn't just some trick to get me to do some more student council stuff, right?"
+hi "เดี๋ยว…นี่คงไม่ใช่กลลวงที่จะหลอกให้ฉันไปทำงานสภานักเรียนอะไรอีกนะ"
 
 show shizu basic_angry
 with charachange
@@ -2538,12 +2538,12 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "No, of course not!"
+mi "เปล่า ไม่ใช่เลย!"
 
 show misha hips_frown
 with charachange
 
-mi "And that's a really mean thing to just assume like that, Hicchan."
+mi "แล้วใจร้ายมากนะที่คิดอะไรอย่างนั้นน่ะฮิจัง"
 
 show shizu behind_frown
 with charachange
@@ -2553,30 +2553,30 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "…And besides, you're in the Student Council now, remember?"
+mi "…แล้วแถมตอนนี้นายก็เข้าสภานักเรียนมาแล้วนี่ จำได้มั้ย"
 
 show misha hips_grin
 with charachange
 
-mi "If we wanted you to do something for us, we wouldn't have to trick you~!"
+mi "ถ้าพวกเราอยากใช้อะไรนายก็ไม่ต้องหลอกใช้หรอก~!"
 
 show misha hips_laugh
 with charachange
 
-mi "Hahaha!"
+mi "ฮ่าฮ่าฮ่า!"
 
 show misha hips_smile
 with charachange
 
-"This is a kind of coercion that is new to me. Only two pretty girls could pull it off."
+"เป็นการบังคับที่แปลกใหม่สำหรับฉันเสียจริง มีแต่สาว ๆ น่ารักสองคนเท่านั้นแหละที่ทำได้"
 
 stop music fadeout 3.0
 
-"I allow myself to relax a bit. Maybe I'm being too paranoid; it seems like they may really just want to hang out."
+"ฉันทำใจให้สบายเสียหน่อย อาจจะระแวงมากไป ก็ดูแค่อยากไปเที่ยวจริง ๆ แหละ"
 
-"Nevertheless…"
+"แต่ยังไงก็…"
 
-hi "No tricks?"
+hi "ไม่มีเหลี่ยมแล้วนะ"
 
 play music music_shizune fadein 4.0
 
@@ -2588,13 +2588,13 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "No tricks! Stop being so paranoid!"
+mi "ไม่มี! เลิกระแวงได้แล้วน่า!"
 
-hi "Well, if you say so."
+hi "โอเค งั้นก็ได้"
 
-"Suddenly, I realize I still am wearing pajamas."
+"และอยู่ ๆ ถึงเพิ่งรู้ตัวว่าฉันยังใส่ชุดนอนอยู่"
 
-hi "I wonder if you'd let me dress up first?"
+hi "ขอไปเปลี่ยนชุดก่อนได้มั้ย"
 
 show shizu adjust_smug
 with charachange
@@ -2604,16 +2604,16 @@ shi "…"
 show misha hips_smile
 with charachange
 
-mi "Eh? Why, Hicchan? You look just fine!"
+mi "อ้าว ทำไมล่ะฮิจัง ก็ใช้ได้แล้วนี่นา"
 
-hi "I'd still prefer wearing something else."
+hi "ขอใส่ชุดอื่นเหอะ"
 
 play sound sfx_doorclose
 
 scene bg school_dormhisao
 with locationchange
 
-"I close the door before she gets a chance to reply and quickly pull on my uniform."
+"ฉันปิดประตูไปก่อนเธอจะทันได้ตอบอะไรแล้วรีบหยิบชุดนักเรียนออกมา"
 
 play sound sfx_dooropen
 
@@ -2622,23 +2622,23 @@ show misha perky_smile at twoleft
 show shizu basic_normal at tworight
 with locationchange
 
-"Stepping back into the hallway, I see Shizune and Misha are engaged in an animated discussion."
+"พอมาที่โถงทางเดินก็เห็นชิซูเนะและมิช่าคุยภาษามือกันอยู่"
 
-"I wonder if people discussing in sign ever accidentally poke each other in the eyes."
+"ฉันนึกสงสัยว่าคนที่คุยภาษามือกันเคยเผลอเอานิ้วจิ้มตากันหรือเปล่า"
 
 show shizu behind_frown_close
 with characlose
 
-"While I'm contemplating this, Shizune taps me on the shoulder impatiently."
+"ระหว่างที่คิดอยู่ชิซูเนะก็มาแตะที่ไหล่อย่างรีบร้อน"
 
 shi "…"
 
 show misha hips_smile
 with charachange
 
-mi "So, we're planning on slipping into town! Remember that tea shop we were at on Wednesday?"
+mi "จะไปเที่ยวในเมืองกันแหละ! จำโรงน้ำชาที่ไปกันเมื่อวันพุธได้มั้ย"
 
-hi "Tea shop?"
+hi "โรงน้ำชา?"
 
 show shizu behind_frustrated_close
 with characlose
@@ -2648,37 +2648,37 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "You don't remember?"
+mi "จำไม่ได้เหรอ"
 
-hi "Oh, you mean that café."
+hi "อ๋อ คาเฟนั่นอะนะ"
 
 show misha hips_smile
 with charachange
 
-mi "Tea shop! It's called the Shanghai. China is the birthplace of tea, you know. Come on, Hicchan! I'll even treat you today!"
+mi "โรงน้ำชาต่างหาก! ชื่อเซี่ยงไฮ้ จีนน่ะคือต้นกำเนิดของชาเลยนะ มา ๆ ฮิจัง! เดี๋ยววันนี้เลี้ยงด้วย!"
 
 show misha hips_grin
 with charachange
 
-mi "Ah… not me, not me, I mean Shicchan! Ahaha~!"
+mi "เอ่อ…ไม่ใช่ฉันนะ ๆ หมายถึงชิจังเขาจะเลี้ยง! อะฮ่าฮ่า~!"
 
 hi "I don't know…"
 
 show misha sign_smile
 with charachange
 
-mi "It's nice, it's really relaxing! It's like… half café, half restaurant, half sophisticated, half… library…"
+mi "บรรยากาศดีชวนให้ผ่อนคลาย! เหมือน…กึ่งคาเฟ กึ่งร้านอาหาร กึ่งหรูหรา กึ่ง…ห้องสมุด…"
 
-"What?"
+"หา?"
 
-hi "That's a lot of halves."
+hi "จะหลายกึ่งไปละ"
 
-"But Misha doesn't seem to notice that."
+"แต่มิช่าก็ยังดูจะไม่รู้ตัว"
 
 show misha hips_smile
 with charachange
 
-mi "So~! Come on, it's not often that we have this much free time!"
+mi "นั่นแหละ~! เถอะน่า พวกเราไม่ได้ว่างอย่างนี้บ่อย ๆ นะ!"
 
 show shizu adjust_smug_close
 with charachange
@@ -2688,29 +2688,29 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "If you're busy, though, you don't have to! It's not like your presence is absolutely, absolutely required!"
+mi "แต่ถ้านายไม่ว่างแล้วจะไม่ไปด้วยก็ได้นะ! ไม่มีนายไปด้วยก็ไม่เป็นไร๊ไม่เป็นไรเลยจริงจริ๊ง!"
 
 show misha cross_laugh
 with charachange
 
-mi "Hahahaha!"
+mi "ฮ่าฮ่าฮ่าฮ่า!"
 
 show misha cross_grin
 with charachange
 
-"I've never seen more weakly disguised reverse psychology in my life. I feel kind of tired today, and my teachers in my classes might want to know where I am. Maybe."
+"เป็นการใช้จิตวิทยาย้อนกลับแบบไม่มีความแอบแฝงใด ๆ ที่สุดเท่าที่เคยเห็นมา วันนี้เพลีย ๆ ด้วย คุณครูเองก็คงอยากรู้\nว่าฉันหายไปไหน มั้งนะ"
 
-"On the other hand, I haven't really been into town at all since I've gotten here, so this is a good reason to head there."
+"แต่พอคิดอีกที ตั้งแต่มาที่นี่ก็แทบไม่ได้ไปดูที่เมืองเลย ไปสักหน่อยก็คงดีเหมือนกัน"
 
-"Also, I could use something to eat. If it's Shizune's treat, even better; I'm totally broke."
+"จะได้ไปหาอะไรกินด้วย แล้วยิ่งชิซูเนะเลี้ยงอีกก็แจ่มเลย กำลังถังแตกพอดี"
 
-hi "All right, let's go. Lead the way."
+hi "ได้ งั้นก็ไปกัน นำไปเลย"
 
 show misha hips_smile
 show shizu behind_smile_close
 with charachange
 
-mi "Great~!"
+mi "ดีมาก~!"
 
 stop music fadeout 2.0
 
