@@ -1083,7 +1083,7 @@ shi "…"
 show misha perky_confused
 with charachange
 
-mi "จริงเหรอ ซ่อนอะไรไว้น่ะฮิจัง~?"
+mi "จริงเหรอ ซ่อนอะไรไว้น่ะฮิจัง~"
 
 hi "ไม่มีหรอก"
 
