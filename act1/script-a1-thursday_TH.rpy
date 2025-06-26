@@ -2787,13 +2787,17 @@ mi "พวกเราทำเวลาได้ดีเลย เธอว่
 show misha hips_grin_ss
 with charachange
 
-mi "Isn't this great fun?"
+# mi "Isn't this great fun?"
+mi "น่าสนุกใช่ไหมล่า"
 
-hi "What?"
+# hi "What?"
+hi "ห้ะ"
 
-"I could think of a million things I'd rather do, but I suppose everyone has to do their share for the festival, even me."
+# "I could think of a million things I'd rather do, but I suppose everyone has to do their share for the festival, even me."
+"ฉันนึกถึงงานอื่น ๆ ที่น่าทำกว่าได้อีกเป็นล้านอย่าง แต่ทุก ๆ คนเองก็คงมีงานที่ต้องทำเพื่องานโรงเรียน รวมถึงฉันเองด้วย"
 
-hi "You're both lucky that I'm helping you two out, if I really didn't want to, I could have gotten out of it easily."
+# hi "You're both lucky that I'm helping you two out, if I really didn't want to, I could have gotten out of it easily."
+hi "พวกเธอโชคดีแล้วนะที่ฉันอุตส่าห์มาช่วยเนี่ย ถ้าฉันไม่อยากทำ ฉันคงหนีไปอย่างง่าย ๆ ละ"
 
 show shizu basic_normal2_ss
 with charachange
@@ -2803,7 +2807,8 @@ shi "…"
 show misha perky_smile_ss
 with charachange
 
-mi "Really, Hicchan?"
+# mi "Really, Hicchan?"
+mi "จริงเหรอ ฮิจัง"
 
 show shizu adjust_smug_ss
 with charachange
@@ -2813,9 +2818,11 @@ shi "…"
 show misha cross_laugh_ss
 with charachange
 
-mi "Wahaha~! Shicchan thinks you are just running your mouth! Japanese people have no flight or fight reflex, Hicchan~!"
+# mi "Wahaha~! Shicchan thinks you are just running your mouth! Japanese people have no flight or fight reflex, Hicchan~!"
+mi "วะฮ่าฮ่า~! ชิซูเนะคิดว่านายแค่พูดลอย ๆ ละ คนญี่ปุ่นน่ะไม่ได้มีสัญชาตญาณตอบสนองแบบฉับพลันยามคับขันหรอกนะ"
 
-"Shizune tents her fingers deviously."
+# "Shizune tents her fingers deviously."
+"ชิซูเนะกางนิ้วของเธอออกอย่างเจ้าเล่ห์"
 
 show shizu basic_happy_ss
 with charachange
@@ -2825,7 +2832,8 @@ shi "…"
 show misha hips_grin_ss
 with charachange
 
-mi "Definitely~! Definitely, definitely~! If you really wanted to escape, you would have taken immediate action~! That is how you know someone is serious; when they have no doubts, no regrets!"
+# mi "Definitely~! Definitely, definitely~! If you really wanted to escape, you would have taken immediate action~! That is how you know someone is serious; when they have no doubts, no regrets!"
+mi "แน่นอน~! แน่นอน แน่นอน~! ถ้านายอยากจะหนีล่ะก็ นายคงชิงทำตอนนี้เลยแล้วแหละ~! นั่นคือวิธีดูว่าใครคิดจริงทำจริง"
 
 show shizu basic_normal_ss
 with charachange
