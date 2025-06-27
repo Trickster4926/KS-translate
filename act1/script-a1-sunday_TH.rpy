@@ -13,49 +13,49 @@ play music music_daily fadein 4.0
 
 window show
 
-"The next day, I wake up feeling a little lightheaded. It's almost noon already."
+"วันถัดมาฉันตื่นมาพร้อมความรู้สึกมึนหัวเล็กน้อย เกือบเที่ยงแล้ว"
 
 $ renpy.music.set_volume(1.0,0.0, "ambient")
 
-"Sleeping late is fine, since it's a Sunday and there are no classes."
+"เมื่อคืนนอนดึกเพราะวันนี้วันอาทิตย์ แถมไม่มีเรียนอีกต่างหาก"
 
-"Not just a Sunday, though, but the festival as well."
+"แต่วันนี้ไม่ใช่วันอาทิตย์ธรรมดา ๆ ยังมีงานด้วย"
 
-"From my window I can already see some people at the soba booth slinging noodles onto plates for people with a craving for low-quality food."
+"พอมองผ่านหน้าต่างไปก็เห็นคนที่แผงบะหมี่โซบะจัดจานให้คนที่กำลังมองหาอาหารขยะอยู่"
 
-"I throw back a handful of my morning meds and ponder how to spend the day."
+"ฉันกินยารอบเช้าแล้วนั่งคิดว่าวันนี้จะทำอะไรดี"
 
-"There will be a few exams in the coming week, but I don't consider those as ominous as others, so I'm not as worried about them as I probably should be."
+"สัปดาห์หน้าก็จะมีสอบ แต่ฉันก็ไม่ได้คิดว่าหนักหนาอะไรอย่างคนอื่น เลยไม่ได้พะวงเรื่องนั้นมากมาย"
 
-"With no urgent obligations regarding education, I should be free to spend the day at the festival as I like."
+"เมื่อไม่มีหน้าที่ที่ต้องไปเข้าชั้นเรียน วันนี้ทั้งวันก็คงไปสนุกกับงานเทศกาลได้เต็มที่"
 
 scene bg school_dormhallway
 with locationchange
 
-"Finishing my morning routine, I exit into the hallway, intending to go out and find something to eat."
+"พอทำกิจวัตรยามเช้าเสร็จฉันก็ออกมาที่โถงทางเดิน หมายมั่นว่าจะไปหาอะไรกิน"
 
-"Passing by his door, I decide to see what Kenji's up to today out of impulse."
+"อยู่ ๆ ก็นึกอยากรู้ขึ้นมาว่าวันนี้เคนจิจะทำอะไรเมื่อเดินผ่านประตูห้องของเขา"
    
-"I'm curious if he has any plans, since everyone is doing something."
+"จะมีแพลนอะไรหรือเปล่า เพราะคนอื่นต่างก็มีอะไรให้ทำทั้งนั้น"
 
-"Then again, I can picture him having built a soundproof shelter in his room."
+"แต่ก็พอนึกภาพออกอยู่ว่าห้องของเขาคงบุฉนวนกันเสียงเอาไว้"
 
-"Or possibly something like a fort, complete with “No Girls Allowed” sign."
+"หรือไม่ก็ปราการสักอย่างที่แปะป้ายว่า “ผู้หญิงห้ามเข้า” เอาไว้"
 
-"… and with the “Girls” crossed out and “body” crudely scrawled underneath it."
+"…แล้วก็มีรอยขีดฆ่าคำว่า “ผู้หญิง” แล้วมีตัวหนังสือยุกยิกเขียนว่า “คน” เอาไว้ข้างล่างแทน"
 
 stop music fadeout 2.0
 
 play sound sfx_doorknock2
 
-"Knocking on his door which is luckily devoid of any kind of sign, I hear again the unsettling clicking of at least ten locks being pulled back. The door opens up a crack."
+"ฉันเคาะประตู ยังดีที่ไม่มีป้ายอะไรแปะไว้ แล้วฉันก็ได้ยินเสียงปลดล็อกสักสิบชั้นอันน่าขนลุกขั้น ประตูเปิดดังเอี๊ยด"
 
 show kenji neutral at Slide(0.0,0.3,0.0,0.2,0.5)
 with Dissolve(.5)
 
-ke "Who is it?"
+ke "ใครน่ะ"
 
-hi "You're supposed to ask that before you open the door."
+hi "อันนั้นต้องถามก่อนเปิดเปล่า"
 
 show kenji neutral at center
 show bg school_dormhallway at bgright
@@ -63,103 +63,103 @@ with charamove
 
 play music music_kenji fadein 1.0
 
-ke "Oh, it's you. Damn, it's early."
+ke "อ้อ นายนี่เอง โห มาแต่เช้า"
 
-hi "It's not really that early."
+hi "ก็ไม่ได้เช้าขนาดนั้นนะ"
 
 show kenji happy
 with charachange
 
-ke "What is it, man?"
+ke "แล้วมีไร"
 
-hi "Nothing, was just gonna ask what you're gonna do today."
+hi "เปล่า แค่จะมาถามว่าวันนี้นายจะทำอะไรมั้ย"
 
-hi "Half the school is out there already."
+hi "ข้างนอกนั่นมีคนค่อนโรงเรียนได้มั้ง"
 
 show kenji rage
 with charachange
 
-ke "Out where? Why?"
+ke "ข้างนอกไหน ทำไม"
    
-hi "What?"
+hi "ฮะ?"
 
-ke "What what? Is today special? Why are they there? Who are?"
+ke "ฮะอะไร วันนี้มีอะไรพิเศษ ทำไมถึงอยู่ข้างนอก ใครอยู่"
 
 show kenji tsun
 with charachange
 
-ke "I can hear them. It's loud… don't tell me… Has the invasion begun?"
+ke "เหมือนได้ยินเสียง ดังชะมัด…นี่อย่าบอกนะ…ว่าเริ่มบุกแล้ว"
 
-"He suddenly looks more alarmed."
+"จู่ ๆ เขาก็ตื่นตัวขึ้นมา"
    
 show kenji neutral
 with charachange
 
-ke "What day is it, man?"
+ke "แล้ววันนี้วันอะไร"
    
-hi "Yeah I guess you can't see the big wooden booths outside, and people selling stuff…"
+hi "อ่อ นายคงไม่เห็นแผงไม้ที่มีคนขายของที่อยู่ข้างนอกสินะ…"
 
-ke "What the hell are you talking about? I have my curtains closed at all times to thwart the snipers."
+ke "พูดเรื่องไรวะ ฉันปิดม่านไว้ตลอดกันพวกซุ่มยิงนะเฮ้ย"
 
-hi "Uhh, it's the festival. You know that… right?"
+hi "เอ่อ งานเทศกาลไง นายรู้…ใช่มั้ย"
 
 show kenji tsun
 with charachange
 
-ke "Oh shit, that's today? Ah, damn. Ah… damn. Dammit."
+ke "เชี่ย วันนี้แล้วเหรอวะ โอ๊ย แม่ง โอ๊ย…แม่ง แม่งเอ๊ย"
 
-ke "I can't believe I forgot, I don't have my fort finished yet. This is bad."
+ke "ลืมไปได้ไงเนี่ย ยังทำป้อมไม่เสร็จเลย แย่แน่"
 
-ke "This is going to be a very bad day… It's good you told me this, man. This is going to be a bad day."
+ke "วันนี้ต้องเป็นวันที่แย่มากแน่ ๆ …ดีนะที่นายมาบอกก่อน วันนี้เป็นวันที่แย่แน่"
 
-hi "Why?"
+hi "ทำไม"
 
 show kenji neutral
 with charachange
 
-ke "Oh man, they're going to be everywhere. The people. Outside my window. Socializing!"
+ke "โอย ต้องอยู่กันเต็มข้างนอกนั่นแน่ คนน่ะ อยู่นอกหน้าต่าง ปฏิสัมพันธ์กัน!"
 
-"Kenji rubs his temples nervously, suddenly looking very ill."
+"เคนจินวดหน้าผากด้วยความลนลานพร้อมทำหน้าเสียขึ้นมา"
 
 show kenji tsun
 with charachange
 
-ke "It's going to be loud as hell. Damn, and I was going to go out today, but now it's ruined, everything is ruined."
+ke "ดังฉิบหายวายวอดแน่ ๆ แม่ง วันนี้กะจะออกไปข้างนอก แผนเสียหมด ทุกอย่างเสียหมดแล้ว"
 
-ke "This is awful. This sucks. This sucks!"
+ke "แย่โคตร โคตรแย่ แย่!"
 
-ke "What the hell, this really sucks. I can't go anywhere now. There's nowhere to run."
+ke "อะไรวะเนี่ย โคตรจะแย่ ไปไหนก็ไม่ได้แล้ว หนีไปไหนไม่ได้แล้ว"
 
-"Kenji seems nervous. You could even say he's majorly freaking out."
+"เคนจิดูลนลาน จะว่าตื่นตระหนกเลยก็ยังได้"
 
 show kenji neutral
 with charachange
 
-ke "I can't believe this. So that's what today was."
+ke "ไม่อยากจะเชื่อ วันนี้คืออย่างนี้นี่เอง"
 
-ke "Damn, and I couldn't even prepare for it."
+ke "แม่ง แล้วไม่ได้เตรียมอะไรไว้เลย"
 
 show kenji tsun
 with charachange
 
-ke "I couldn't even brace myself and now it's here and I can't do anything. You should have told me this earlier, dude. I mean, at least, I know, but… I could have known earlier! Imagine what I could have accomplished…"
+ke "ฉันยังไม่ได้เตรียมใจไว้ด้วยซ้ำ แล้วก็ถึงวันนี้แล้ว แล้วก็ทำอะไรไม่ได้เลย นายน่าจะมาบอกให้เร็วกว่านี้นะ คือ อย่างน้อย\nก็รู้แหละ แต่…น่าจะได้รู้ให้เร็วกว่านี้สิ! ไม่งั้นนะคง…"
 
-hi "Sorry. I thought you knew."
+hi "โทษที นึกว่ารู้แล้ว"
 
-hi "So I guess you're not going to do anything today?"
+hi "สรุปก็คือจะไม่ทำอะไร?"
  
-hi "The weather is even good. Yesterday was really windy, so I thought today would be cold. It's not, though, so there's no reason to just stay inside. Yeah, you should check the festival out."
+hi "อากาศก็ดีนะ เมื่อวานลมพัดแรงมากจนนึกว่าวันนี้จะหนาว แต่ก็ไม่ จะอุดอู้อยู่แต่ในห้องไปทำไม เออ มาเดินดูงาน\nเถอะน่า"
 
-"Kenji groans and covers his face with his hands."
+"เคนจิครวญแล้วใช้มือปิดหน้า"
 
-ke "Agh, no, no! I can't do it. They'll eat me alive out there, I know it."
+ke "อ๊าก ไม่ ไม่! ฉันทำไม่ได้ ออกไปโดนจับกินแน่ ฉันรู้"
     
-"That has to be a joke, but he said it with such a straight face. Relatively straight."
+"พูดเล่นแน่ ๆ แต่ที่พูดเมื่อกี้ก็ทำหน้าซื่อ ๆ ซื่อที่สุดถ้าเทียบกับหน้าแบบอื่นอะนะ"
     
 show kenji happy
 with charachange
 
-ke "What are you going to do? We should hang out in here, you can help me build my fort. We might still make it if we work together."
+ke "แล้วนายจะทำอะไร มาอยู่กับฉันช่วยสร้างป้อมนี่มา ถ้าช่วยกันทำอาจจะยังทันนะ"
 
 
 
