@@ -221,42 +221,56 @@ ke "เชี่ยเอ๊ย แม่ง! แม่ง!"
 label th_A38b:
 #If on Lilly or Hanako's route
 
-hi "I don't know. I'm pretty hungry so I thought I'd get some food first and then check out the attractions."
+# hi "I don't know. I'm pretty hungry so I thought I'd get some food first and then check out the attractions."
+hi "ไม่รู้ดิ ตอนนี้ก็หิว ๆ อยู่เลยว่าจะหาไรกินหน่อยแล้วค่อยหาไรทำ"
 
-hi "Your class project seemed pretty cool, and I gave a hand with it so I want to see at least that one and chat with Lilly I guess."
+# hi "Your class project seemed pretty cool, and I gave a hand with it so I want to see at least that one and chat with Lilly I guess."
+hi "งานซุ้มห้องนายดูน่าสนใจดีและฉันก็ได้พอไปช่วยงานห้องนายด้วย เลยว่าจะแวะดูไปสักรอบหน่อย แล้วคงแวะไปคุยกะลิลลี่\nด้วยละมั้ง"
 
-hi "Speaking of that, don't you have any obligation for the project?"
+# hi "Speaking of that, don't you have any obligation for the project?"
+hi "พูดถึงงานห้องนาย นายไม่ได้มีอะไรต้องทำเหรอ?"
 
 show kenji rage
 with charachange
 
-ke "Are you out of your mind?"
+# ke "Are you out of your mind?"
+ke "นายบ้าไปแล้วเหรอ"
 
-ke "That blind broad is up to no good; I can feel it in my spleen, man. Her presence is like a dark shadow that's in the way of my great vision."
+# ke "That blind broad is up to no good; I can feel it in my spleen, man. Her presence is like a dark shadow that's in the way of my great vision."
+ke "ยัยมืดบอดนั่นไม่ใช่พวกที่ดีแน่ ๆ ฉันสัมผัสได้ ตัวตนเธอน่ะเหมือนเงามืดที่มาบดบังวิสัยทัศน์ของฉัน"
 
-ke "As expected of blind people."
+# ke "As expected of blind people."
+ke "ก็สมกับที่ตาบอดนั่นแหละ"
 
-hi "What."
+# hi "What."
+hi "ห้ะ"
 
-hi "Besides, I thought that you were also…"
+# hi "Besides, I thought that you were also…"
+hi "ละอีกอย่าง ฉันนึกว่านายเองก็…"
 
 show kenji neutral
 with charachange
 
-"He holds up his hand to interrupt me."
+# "He holds up his hand to interrupt me."
+"เขายกมือขึ้นขัดฉัน"
 
-ke "Only legally."
+# ke "Only legally."
+ke "ของฉันแค่บอดตามกฎหมาย"
 
-ke "Metaphorically, I can see farther than any man before me has seen."
+# ke "Metaphorically, I can see farther than any man before me has seen."
+ke "โดยเปรียบเปรย ฉันสามารถมองเห็นได้ไกลมากกว่ามนุษย์คนใดเคยเห็นมาก่อน"
 
-"Kenji looks stoically into the metaphorical distance to emphasize his statement, thrusting his chin forward to look manlier. Actually it's just the corridor wall two meters away but it's all the same."
+# "Kenji looks stoically into the metaphorical distance to emphasize his statement, thrusting his chin forward to look manlier. Actually it's just the corridor wall two meters away but it's all the same."
+"เคนจิจ้องมองระยะห่างเชิงเปรียบเทียบอย่างมั่นคงเพื่อเน้นย้ำคำพูดของเขา โดยยื่นคางไปข้างหน้าเพื่อให้ดูแมนขึ้น จริง ๆ\nแล้วเป็นเพียงผนังทางเดินที่อยู่ห่างออกไปสองเมตรเท่านั้น แต่ก็เหมือนกันหมด"
 
 show kenji tsun
 with charachange
 
-ke "I can see the future of mankind, and it's a dark one unless the threat of women is stifled."
+# ke "I can see the future of mankind, and it's a dark one unless the threat of women is stifled."
+ke "ฉันสามารถมองเห็นอนาคตของมนุษยชาติได้ และมันจะเป็นอนาคตที่มืดมน เว้นแต่ภัยจากผู้หญิงจะถูกจัดการไป"
 
-ke "They are everywhere."
+# ke "They are everywhere."
+ke "ภัยคุกคามนั่นน่ะอยู่ทุก ๆ ที่"
 
 
 
@@ -347,34 +361,41 @@ ke "งานนี้ก็ด้วย เป็นแค่แผนหนึ
 
 label th_A38e:
 
-"He fingers his scarf nervously, faster and faster like he is trying to start a fire, then slowly begins to calm down once the panic attack finishes running its course."
+# "He fingers his scarf nervously, faster and faster like he is trying to start a fire, then slowly begins to calm down once the panic attack finishes running its course."
+"เขาใช้นิ้วลูบผ้าพันคอของตัวเองอย่างประหม่า เร็วขึ้นเรื่อย ๆ เหมือนกับว่ากำลังพยายามจุดไฟ จากนั้นก็ค่อย ๆ สงบลง\nเมื่ออาการตื่นตระหนกทุเลาลง"
 
 show kenji neutral
 with charachange
 
-ke "I'm going to have to find some place to hide in, a safe haven. And then knock the lights out of myself so that I don't have to experience this horrible day."
+# ke "I'm going to have to find some place to hide in, a safe haven. And then knock the lights out of myself so that I don't have to experience this horrible day."
+ke "ฉันว่าจะไปหาที่ซ่อนที่ปลอดภัยน่ะ และต้องปิดไฟด้วย จะได้ไม่ต้องมาเจอวันแย่ ๆ แบบนี้"
 
-ke "I have the perfect thing for that. I must prepare now."
+# ke "I have the perfect thing for that. I must prepare now."
+ke "ตอนนี้ทุกอย่างพร้อมละ ฉันต้องไปเตรียมตัวแล้ว"
+#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 show kenji tsun
 with charachange
 
-ke "Don't go to the festival."
+# ke "Don't go to the festival."
+ke "อย่าไปงานเทศกาลล่ะ"
 
-hi "Okay."
+# hi "Okay."
+hi "โอเค"
 
 show kenji neutral
 with charachange
 
-ke "Later, dude."
+# ke "Later, dude."
+ke "เจอกัน พวก"
 
 stop music fadeout 2.0
 
 hide kenji
 with charaexit
 
-"The door slowly closes with a low creak and I don't know how to feel about what Kenji just said."
-
+# "The door slowly closes with a low creak and I don't know how to feel about what Kenji just said."
+"ประตูปิดลงช้า ๆ พร้อมเสียงดังเอี๊ยดเบา ๆ ฉันไม่รู้ว่าจะรู้สึกยังไงกับสิ่งที่เคนจิเพิ่งพูดไป"
 
 
 
@@ -951,7 +972,7 @@ $ renpy.music.set_volume(0.6,2.0, "ambient")
 
 "อาจจะไม่เห็น หรือไม่ได้รู้สึกแปลกอะไร"
 
-thname(คนเฝ้าซุ้ม) "ไง! มาจนได้นะคุณฮากามิจิ! ขอบคุณที่มาช่วยเรื่องซุ้มนี้นะ สนุกกันดีมั้ย"
+thname("คนเฝ้าซุ้ม") "ไง! มาจนได้นะคุณฮากามิจิ! ขอบคุณที่มาช่วยเรื่องซุ้มนี้นะ สนุกกันดีมั้ย"
 
 "ชิซูเนะเหลือบมองมิช่าที่แปลทุกอย่างให้ด้วยความเร็วแสง จากนั้นเธอก็ส่งยิ้มให้คนเฝ้าซุ้ม"
 
@@ -976,7 +997,7 @@ with charachange
 
 mi "แน่อยู่แล้ว~ ทุ่มเวลาทั้งหมดสร้างนี่ขึ้นมาทั้งที ตกรางวัลให้ตัวแทนสภานักเรียนสุดน่ารักและขยันสักหน่อยก็คงดีนะ!"
 
-thname(ชิรากิ) "ฮ่าฮ่าฮ่า ฮะ ๆ …ไม่"
+thname("ชิรากิ") "ฮ่าฮ่าฮ่า ฮะ ๆ …ไม่"
 
 "พ่อหนุ่มชิรากินี่ใจแข็งเหมือนบอลทีเดียว"
 
@@ -1013,7 +1034,7 @@ hi "อย่าบอกนะว่าลงทุนตื๊อมาขน�
 
 hi "แล้วไปรุมชิรากิอย่างนั้นอีก"
 
-thname(ชิรากิ) "นั่นสิ…"
+thname("ชิรากิ") "นั่นสิ…"
 
 show shizu basic_frown_ss
 with charachange
@@ -1059,7 +1080,7 @@ with charachange
 
 hi "ไรเนี่ย"
 
-thname(ชิรากิ) "อ้อ ใช่ ไม่ได้ง่ายอย่างที่เห็นหรอกนะ ในขวดมีน้ำอยู่ด้วย ความลับทางการค้าละ"
+thname("ชิรากิ") "อ้อ ใช่ ไม่ได้ง่ายอย่างที่เห็นหรอกนะ ในขวดมีน้ำอยู่ด้วย ความลับทางการค้าละ"
 
 show misha hips_frown_ss
 with charachange
@@ -1180,7 +1201,7 @@ shi "…"
 
 hi "นี่ มีตุ๊กตาแบบนี้อีกตัวมั้ย"
 
-thname(ชิรากิ) "ก็ มีแหละ อีกตัวเดียว"
+thname("ชิรากิ") "ก็ มีแหละ อีกตัวเดียว"
 
 hi "โอเค งั้นจัดใหม่หน่อย พอดีอยากลองเอาอีกตัวด้วย"
 
@@ -4432,57 +4453,77 @@ with None
 
 stop music fadeout 2.0
 
-"What am I going to do? I don't have any plans. In hindsight, that's really stupid."
+# "What am I going to do? I don't have any plans. In hindsight, that's really stupid."
+"แล้วฉันจะทำอะไรดีนะ ไม่ได้มีแผนซะด้วยสิ พอมองย้อนไปก็ดูโง่จริง ๆ"
 
-"Maybe I should've asked a girl out? Then again, all things considered, I don't think I could've done anything like that. It's only my first week." 
+# "Maybe I should've asked a girl out? Then again, all things considered, I don't think I could've done anything like that. It's only my first week." 
+"หรือจะไปชวนพวกผู้หญิงดี แต่ก็นะ พอคิด ๆ ดูแล้วคงไม่ควรทำอะไรแบบนั้นหรอก นี่ก็เพิ่งสัปดาห์แรกที่ย้ายมาด้วย"
 
-"A week that I have wasted being awkward around almost everyone, stumbling all over myself trying to get the hang of this place."
+# "A week that I have wasted being awkward around almost everyone, stumbling all over myself trying to get the hang of this place."
+"สัปดาห์ที่ฉันเสียไปกับการรู้สึกอึดอัดต่อหน้าคนแทบทุกคน พยายามปรับตัวให้ชินกับสถานที่นี้"
 
-"Thinking about it, what have I accomplished?"
+# "Thinking about it, what have I accomplished?"
+"พอมานึก ๆ แล้ว นี่ฉันทำอะไรเป็นชิ้นเป็นอันบ้างไหมเนี่ย"
 
-"Who would I have even asked?"
+# "Who would I have even asked?"
+"ฉันจะไปชวนใครได้ล่ะ"
 
-"Damn, it seems that Kenji is my only realistic option for a date today."
+# "Damn, it seems that Kenji is my only realistic option for a date today."
+"แม่ง ดูท่าละตอนนี้เคนจิคงเป็นตัวเลือกเดียวที่ดูท่าจะเป็นจริงที่สุดที่จะอยู่ด้วยวันนี้ละนะ"
 
-"This is the most depressing thing that has happened to me since I had a heart attack because a girl confessed her love to me."
+# "This is the most depressing thing that has happened to me since I had a heart attack because a girl confessed her love to me."
+"นี่คงเป็นเรื่องที่หดหู่ที่สุดละ นับตั้งแต่วันที่ฉันหัวใจวายเพราะมีสาวมาสารภาพรักกับฉัน"
 
-"It can't be helped."
+# "It can't be helped."
+"มันก็ช่วยไม่ได้ละนะ"
 
 play music music_kenji fadein 0.5
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-hi "I don't know really. I don't have anything I guess, but a fort seems a bit excessive."
+# hi "I don't know really. I don't have anything I guess, but a fort seems a bit excessive."
+hi "ไม่่รู้ดิ ก็ไม่ได้จะทำไรละมั้ง แต่ให้ไปตั้งป้อมก็ดูจะเกินไปหน่อย"
 
-hi "You sure you don't want to go outside? It's not like visitors won't come to the dorms today."
+# hi "You sure you don't want to go outside? It's not like visitors won't come to the dorms today."
+hi "แน่ใจเหรอว่าจะไม่ไปข้างนอกจริง ๆ น่ะ ไม่ใช่ว่าคนมาเที่ยวจะไม่เข้ามาหอวันนี้สักหน่อย"
 
 show kenji tsun
 with charachange
 
-"He looks thunderstruck by this revelation."
+# "He looks thunderstruck by this revelation."
+"เขาดูช็อกกับความจริงที่ว่า"
 
-ke "Damn, you may have a point. This place is not safe today."
+# ke "Damn, you may have a point. This place is not safe today."
+ke "เชี่ย ก็จริง วันนี้ที่นี่ไม่ปลอดภัยนั่นแหละ"
 
-ke "We must find somewhere to hide in."
+# ke "We must find somewhere to hide in."
+ke "เราต้องหาสักที่เพื่อซ่อนตัว"
 
-"He falls silent for a moment, thinking."
+# "He falls silent for a moment, thinking."
+"เขาเงียบไปสักพัก พลางครุ่นคิด"
 
 show kenji neutral
 with charachange
 
-ke "The roof."
+# ke "The roof."
+ke "ดาดฟ้า"
 
-hi "What about it?"
+# hi "What about it?"
+hi "มีอะไรวะ?"
 
 show kenji happy
 with charachange
 
-ke "We are going to hide out on the roof for today."
+# ke "We are going to hide out on the roof for today."
+ke "วันนี้เราจะไปซ่อนตัวกันที่ดาดฟ้ากัน"
 
-ke "It's the perfect place, nobody ever goes up there."
+# ke "It's the perfect place, nobody ever goes up there."
+ke "เป็นที่ที่สมบูรณ์แบบเลยล่ะ ไม่มีใครขึ้นมาแน่"
 
 show kenji neutral
 with charachange
 
-ke "Meet me there in one hour. I have to prepare."
+# ke "Meet me there in one hour. I have to prepare."
+ke "เจอกันในอีกชั่วโมง ฉันต้องไปเตรียมตัวก่อน"
 
 stop music fadeout 1.0
 
