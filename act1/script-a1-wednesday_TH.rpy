@@ -3146,7 +3146,7 @@ with locationchange
 scene bg school_lobby at bgright
 with locationchange
 
-"เมื่อเดินลงมาได้สองชั้นก็เจออุปสรรคที่เรียกว่าหัวหน้าทีมพยาบาลที่ยิ้มเจ้าเล่ห์อยู่"
+"เมื่อเดินลงมาได้สองชั้นก็เจออุปสรรคที่เรียกว่าหัวหน้าพยาบาลที่ยิ้มเจ้าเล่ห์อยู่"
 
 show nurse grin  at center
 with charaenter
