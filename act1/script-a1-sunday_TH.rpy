@@ -4478,7 +4478,6 @@ stop music fadeout 2.0
 "มันก็ช่วยไม่ได้ละนะ"
 
 play music music_kenji fadein 0.5
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 # hi "I don't know really. I don't have anything I guess, but a fort seems a bit excessive."
 hi "ไม่่รู้ดิ ก็ไม่ได้จะทำไรละมั้ง แต่ให้ไปตั้งป้อมก็ดูจะเกินไปหน่อย"
@@ -4523,7 +4522,7 @@ show kenji neutral
 with charachange
 
 # ke "Meet me there in one hour. I have to prepare."
-ke "เจอกันในอีกชั่วโมง ฉันต้องไปเตรียมตัวก่อน"
+ke "อีกชั่วโมงเจอกัน เดี๋ยวฉันต้องไปเตรียมตัวก่อน"
 
 stop music fadeout 1.0
 
@@ -4536,13 +4535,17 @@ with charaexit
 play sound sfx_doorslam
 with vpunch
 
-"He slams the door shut and the locks click closed."
+# "He slams the door shut and the locks click closed."
+"เขาปิดประตูไป เสียงลงกลอนตามมา"
 
-"Damn, what the hell is wrong with Kenji?"
+# "Damn, what the hell is wrong with Kenji?"
+"แม่ง เคนจิเป็นไรไปวะ"
 
-"And to think I'm now going along with his craziness. It really makes me depressed."
+# "And to think I'm now going along with his craziness. It really makes me depressed."
+"และคิดว่าตอนนี้ฉันก็กำลังเป็นบ้าไปตามเขาแล้ว แม่งหดหู่เลยว่ะ"
 
-"I feel like a failure."
+# "I feel like a failure."
+"ชีวิตฉันแม่งมีแต่ความล้มเหลวว่ะ" #่just funny quote in my group lmao
 
 play ambient sfx_crowd_outdoors fadein 0.3
 
@@ -4550,36 +4553,48 @@ scene bg school_courtyard
 show crowd
 with locationskip
 
-"Once I step outside, the din of the crowd greets me."
+# "Once I step outside, the din of the crowd greets me."
+"พอฉันออกมาข้างนอก ฝูงชนก็กรูกันเข้ามาเบียดฉัน"
 
-"The whole school is bustling with activity." 
+# "The whole school is bustling with activity." 
+"ทั้งโรงเรียนคึกคักไปด้วยกิจกรรม"
 
-"There are stalls everywhere, and the crowd swarming between them is considerable."
+# "There are stalls everywhere, and the crowd swarming between them is considerable."
+"มีพวกแผงตั้งเต็มไปหมด คนก็เบียดเสียดกันไปมาอย่างแออัด"
 
-"I didn't expect the festival would attract so many visitors."
+# "I didn't expect the festival would attract so many visitors."
+"ไม่คิดเลยว่างานเทศกาลนี่คนจะมากันเยอะขนาดนี้"
 
-"I have to admit that the people in charge of decorating the place put a lot of effort into it, and it really shows."
+# "I have to admit that the people in charge of decorating the place put a lot of effort into it, and it really shows."
+"ฉันต้องยอมรับว่าคนที่รับผิดชอบตกแต่งสถานที่นี้ใส่ใจกับรายละเอียดมาก และมันก็ออกมาดีจริง ๆ"
 
-"People seem to be enjoying themselves, and the atmosphere is colorful, bright, and happy."
+# "People seem to be enjoying themselves, and the atmosphere is colorful, bright, and happy."
+"ดูเหมือนว่าผู้คนจะสนุกสนานกัน และบรรยากาศก็เต็มไปด้วยสีสัน สดใส และร่าเริง"
 
 play music music_rain fadein 1.0
 
-"That is, if I weren't suddenly in such a foul mood."
+# "That is, if I weren't suddenly in such a foul mood."
+"ก็นะ ถ้าไม่ติดว่าเป็นตอนนี้ที่ฉันอยู่ในอารมณ์แย่ ๆ แบบนี้อะนะ"
 
-"At the moment, it's more annoying than anything else."
+# "At the moment, it's more annoying than anything else."
+"แบบนี้แล้วมันน่ารำคาญมากกว่าอะไรอื่น ๆ เสียอีก"
 
-"Well, it can't be helped. I decide to stick with my original plan and eat, then I guess I have to at least see what Kenji is up to on the roof."
+# "Well, it can't be helped. I decide to stick with my original plan and eat, then I guess I have to at least see what Kenji is up to on the roof."
+"ก็ช่วยไม่ได้ล่ะนะ ฉันว่าจะทำตามแผนเดิมละหาไรกินสักหน่อย แล้วค่อยไปดูว่าเคนจิจะำปทำอะไรที่ดาดฟ้ากันแน่"
 
 "…"
 
 scene bg school_stalls2 at Fullpan(8.0)
 with locationchange
 
-"I do a slow circle around the grounds to kill some time, looking at the stalls, but not feeling like playing any of the games any more."
+# "I do a slow circle around the grounds to kill some time, looking at the stalls, but not feeling like playing any of the games any more."
+"ฉันเดินไปรอบ ๆ งานช้าเพื่อฆ่าเวลา ดูแผงต่าง ๆ แต่ก็ไม่ได้รู้สึกว่าอยากเล่นอะไรเลยสักอย่าง"
 
-"The garish colors grind my eyes and I feel more and more ill by the minute."
+# "The garish colors grind my eyes and I feel more and more ill by the minute."
+"สีสันฉูดฉาดทำให้ฉันปวดตาและยิ่งทำให้เวียนหัวมากขึ้นทุกที ๆ"
 
-"I can't even decide what I want to eat, and the large selection combined with the masses of energetic festival visitors isn't helping."
+# "I can't even decide what I want to eat, and the large selection combined with the masses of energetic festival visitors isn't helping."
+""
 
 scene bg school_stalls1 at bgright
 with locationchange
