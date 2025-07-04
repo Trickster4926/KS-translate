@@ -4594,48 +4594,65 @@ with locationchange
 "สีสันฉูดฉาดทำให้ฉันปวดตาและยิ่งทำให้เวียนหัวมากขึ้นทุกที ๆ"
 
 # "I can't even decide what I want to eat, and the large selection combined with the masses of energetic festival visitors isn't helping."
-""
+"คิดไม่ออกเลยว่าจะกินอะไรดี แถมพอคนมางานกันล้นขนาดนี้ยิ่งแล้วใหญ่เลย"
 
 scene bg school_stalls1 at bgright
 with locationchange
 
-"I just head towards the nearest stall that seems to offer something halfway edible and get in line."
+# "I just head towards the nearest stall that seems to offer something halfway edible and get in line."
+"ฉันเดินไปต่อแถวที่แผงขายของที่ดูเหมือนจะเป็นของกินใกล้ ๆ"
 
-"It turns out to be noodles."
+# "It turns out to be noodles."
+"ซึ่งของที่ว่ามันคือบะหมี่"
 
-"It also turns out to be not very good."
+# "It also turns out to be not very good."
+"แถมไม่ค่อยอร่อยด้วย"
 
-"Well, at least it's nourishment. It's not like I demand anything else, at this point."
+# "Well, at least it's nourishment. It's not like I demand anything else, at this point."
+"อย่างน้อยก็พอกินได้แหละนะ ฉันก็ไม่ได้จะเลือกกินอะไรมากละตอนนี้"
 
 scene bg misc_sky at Fullpan(25.0)
 with locationchange
 
-"As I stir my disagreeable noodles, I idly wonder what the others are doing right now."
+# "As I stir my disagreeable noodles, I idly wonder what the others are doing right now."
+"ในขณะที่ฉันกำลังคลุกบะหมี่ชืด ๆ ก็เริ่มคิดว่าคนอื่น ๆ จะทำอะไรกันอยู่นะ"
 
-"Shizune and Misha are definitely somewhere organizing things."
+# "Shizune and Misha are definitely somewhere organizing things."
+"ชิซูเนะกับมิช่าคงไปจัดการเรื่องงานแน่ ๆ"
 
-"I'd better steer clear of them. I guess they wouldn't forgive me so easily for leaving them alone with this thing."
+# "I'd better steer clear of them. I guess they wouldn't forgive me so easily for leaving them alone with this thing."
+"ช่วงนี้หนีหน้าหน่อยดีกว่า เพราะพวกเธอไม่น่ายกโทษให้ฉันง่าย ๆ แน่ ๆ ที่ปล่อยพวกเธอทำงานกันสองคน"
 
-"I expect Emi to be buzzing all over the place, being depressingly cheerful."
+# "I expect Emi to be buzzing all over the place, being depressingly cheerful."
+"เอมิก็คงเดินเที่ยวงานอย่างร่าเริงไปทั่วแน่ ๆ "
 
-"There's no chance to find her, but no chance to avoid her either, so it doesn't matter."
+# "There's no chance to find her, but no chance to avoid her either, so it doesn't matter."
+"ถ้าให้หาก็คงหาไม่เจอ ถ้าให้หลบหน้าก็คงไม่พ้น เพราะงั้นก็ไม่สำคัญหรอก"
 
-"Lilly would probably be helping her class with that festival event, and entirely too busy for another's company."
+# "Lilly would probably be helping her class with that festival event, and entirely too busy for another's company."
+"ลิลลี่เองก็น่าจะกำลังช่วยงานห้องของเธอ คงยุ่งเกินกว่าจะทำอย่างอื่น"
 
-"Hanako wouldn't want to talk to anyone anyway, either keeping to herself or helping Lilly."
+# "Hanako wouldn't want to talk to anyone anyway, either keeping to herself or helping Lilly."
+"ฮานาโกะเองก็ไม่อยากคุยกะใครด้วย คงไปปลีกตัวคนเดียวไม่ก็ไปช่วยลิลลี่แหละ"
 
-"Rin should be tending to her mural and is probably being unhelpful to any hypothetical interested parties."
+# "Rin should be tending to her mural and is probably being unhelpful to any hypothetical interested parties."
+"รินน่าจะอยู่เฝ้าภาพเขียนผนังอยู่ ถ้าเกิดมีคนมาดูก็คงทำตัวเลื่อนลอยไปเรื่อย"
 
-"Going there for some peace and quiet seems like the nicest option of the above, but then again, I can't see having art forced on me raising my mood either, so I'll pass."
+# "Going there for some peace and quiet seems like the nicest option of the above, but then again, I can't see having art forced on me raising my mood either, so I'll pass."
+"ถึงตรงนั้นจะเงียบสงบและเป็นทางเลือกที่ดีสุดที่ว่ามา แต่จะให้โดนบังคับดูงานศิลปะก็ไม่น่าดีเท่าไหร่ เลยขอผ่านดีกว่า"
 
 scene bg school_stalls1 at bgright
 with locationchange
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-"While I was lost in thought, my food seems to have disappeared, and so has my hunger."
+# "While I was lost in thought, my food seems to have disappeared, and so has my hunger."
+"พอนั่งฟุ้งไปเรื่อย ๆ บะหมี่ก็หมดไปพร้อมกับความหิวฉัน"
 
-"I guess I just blocked out the experience of eating, which should be a good thing."
+# "I guess I just blocked out the experience of eating, which should be a good thing."
+"ฉันว่าฉันเพิ่งจะปิดกั้นประสบการณ์การกิน ซึ่งเป็นเรื่องที่ดี"
 
-"Satiated but unsatisfied, I turn to walk towards the main school building. An hour has almost passed already."
+# "Satiated but unsatisfied, I turn to walk towards the main school building. An hour has almost passed already."
+"อิ่มท้องแต่ไม่อิ่มใจ ฉันจึงหันหลังเดินไปยังอาคารหลัก เวลาก็เกือบจะผ่านไปหนึ่งชั่วโมงแล้ว"
 
 play ambient sfx_crowd_indoors fadein 0.3
 
@@ -4643,51 +4660,64 @@ scene bg school_lobby
 show crowd
 with locationskip
 
-"The crowd is even thicker in here than it was outside."
+# "The crowd is even thicker in here than it was outside."
+"ฝูงชนตรงนี้แน่นกว่าข้างนอกเสียอีก"
 
 scene bg school_hallway3
 show crowd
 with locationchange
 
-"The hallways are almost unbearable, and I don't even dare to think what's it like inside the classrooms."
+# "The hallways are almost unbearable, and I don't even dare to think what's it like inside the classrooms."
+"โถงทางเดินก็เยอะจนแทบเดินไม่ไหว ไม่อยากนึกสภาพในห้องเรียน"
 
 stop ambient fadeout 1.0
 
 scene bg school_staircase1
 with locationchange
 
-"I head up the stairs to my destination."
+# "I head up the stairs to my destination."
+"ฉันตรงดิ่งไปยังจุดหมายปลายทางของฉัน"
 
-"The roof."
+# "The roof."
+"ดาดฟ้า"
 
-"Thankfully, the door at the top isn't locked, but now there's a handwritten sign on it."
+# "Thankfully, the door at the top isn't locked, but now there's a handwritten sign on it."
+"โชคยังดีที่ประตูด้านบนไม่ได้ล็อก แต่มีป้ายเขียนแปะไว้อยู่"
 
 window hide
 
-$ written_note("{size=55}{b}OFF LIMITS{/b}{/size}", quiet=True)
+# $ written_note("{size=55}{b}OFF LIMITS{/b}{/size}", quiet=True)
+$ written_note("{size=55}{b}ห้ามเข้า{/b}{/size}", quiet=True)
 
 window show
 
-"Don't mind if I don't."
+# "Don't mind if I don't."
+"แล้วจะทำไม"
 
 scene bg school_roof at bgright
 with locationchange
 
-"The festival noise is surprisingly muted up here, and the rooftop looks deserted, as expected."
+# "The festival noise is surprisingly muted up here, and the rooftop looks deserted, as expected."
+"ตรงนี้เสียงของงานเทศกาลเงียบลงอย่างน่าเหลือเชื่อ และบนดาดฟ้าก็ดูเงียบเหงาอย่างที่คาดไว้"
 
-"Near a place where the cyclone fence has collapsed, there is a pile of blankets that seems oddly out of place."
+# "Near a place where the cyclone fence has collapsed, there is a pile of blankets that seems oddly out of place."
+"ใกล้กับจุดที่รั้วเอียงอยู่ มีกองผ้าห่มที่ไม่น่าจะมาอยู่ตรงนี้ได้"
 
 stop music fadeout 3.0
 
-"Wait."
+# "Wait."
+"เดี๋ยวนะ"
 
 play sound sfx_rustling
 
-"Did that pile just move a little?"
+# "Did that pile just move a little?"
+"กองผ้านั่นมันขยับหรือเปล่านะ?"
 
-"That would be strange, as there is no wind at all."
+# "That would be strange, as there is no wind at all."
+"ทั้งทีไม่มีลมพัดแท้ ๆ แปลกจัง"
 
-"I carefully stick my hand out and give it an experimental prod."
+# "I carefully stick my hand out and give it an experimental prod."
+"ฉันค่อย ๆ เอื้อมมือไปแตะมันอย่างระมัดระวัง"
 
 play sound sfx_impact
 show kenji rage_close:
@@ -4696,7 +4726,8 @@ show kenji rage_close:
 
 with vpunch
 
-$ doublespeak(ke, hi, "AHHHHHHHHHHHHH!")
+# $ doublespeak(ke, hi, "AHHHHHHHHHHHHH!")
+$ doublespeak(ke, hi, "อ๊าาาาาาาาาาาาา!")
 
 play music music_comedy fadein 2.0
 
@@ -4704,55 +4735,71 @@ show kenji rage:
     center alpha 1.0
 with charadistant
 
-"Startled, I jump back."
+# "Startled, I jump back."
+"ฉันผละถอยด้วยความตกใจ"
 
-ke "Who is it?"
+# ke "Who is it?"
+ke "ใครน่ะ"
 
-hi "God damn it, Kenji. It's me."
+# hi "God damn it, Kenji. It's me."
+hi "โธ่เชี่ย เคนจิ นี่ฉันเอง"
 
 show kenji tsun at center
 with charachange
 
-ke "Oh damn, you scared me, man."
+# ke "Oh damn, you scared me, man."
+ke "แม่ง นายทำฉันตกใจหมด"
 
-hi "So what are we doing up here?" 
+# hi "So what are we doing up here?" 
+hi "แล้ว เราจะมาทำไรตรงนี้วะ"
 
 show kenji neutral
 with charachange
 
-ke "We're having a picnic."
+# ke "We're having a picnic."
+ke "เราจะมาปิกนิกกัน"
 
-hi "What?"
+# hi "What?"
+hi "ห้ะ?"
 
 show kenji happy
 with charachange
 
-ke "Yeah. I have blankets, pretzels and whiskey. This is the ultimate setup, man."
+# ke "Yeah. I have blankets, pretzels and whiskey. This is the ultimate setup, man."
+ke "เออ ฉันเตรียมผ้าห่ม เพรทเซล และวิสกี้มาละ ของดี ๆ ทั้งนั้นเว้ย"
 
-hi "Whiskey?"
+# hi "Whiskey?"
+hi "วิสกี้?"
 
-hi "Aren't you a bit too young to drink alcohol?"
+# hi "Aren't you a bit too young to drink alcohol?"
+hi "ไม่ใช่ว่าอายุไม่ถึงที่จะกินเหล้าเหรอวะ"
 
 show kenji tsun
 with charachange
 
-ke "I'm 20, y'know."
+# ke "I'm 20, y'know."
+ke "ฉันอายุ 20 แล้วเว้ย"
 
-hi "…you're not."
+# hi "…you're not."
+hi "…ไม่ ๆ ไม่ถึง"
 
 show kenji neutral
 with charachange
 
-ke "I am and so are you."
+# ke "I am and so are you."
+ke "ฉันอายุถึงแล้ว นายเองก็ด้วย"
 
-hi "What? That's absurd."
+# hi "What? That's absurd."
+hi "ห้ะ? ไร้สาระละ"
 
 show kenji tsun
 with charachange
 
-ke "Hey, at least YOU get something out of it, all I get is this bottle of whiskey…"
+# ke "Hey, at least YOU get something out of it, all I get is this bottle of whiskey…"
+ke "เออ อย่างน้อยนายอายุ 20 แล้วก็ยังได้อะไรบ้างนะ ฉันนี่ได้มาแต่วิสกี้ขวดนี้"
 
-"He's rambling incoherently, but I decide to play along."
+# "He's rambling incoherently, but I decide to play along."
+"พล่ามอะไรไม่เห็นรู้เรื่อง แต่ตาม ๆ น้ำไปก่อนแล้วกัน"
 
 hi "So why do you have a bottle of whiskey?"
 
