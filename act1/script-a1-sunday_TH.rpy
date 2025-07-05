@@ -4643,7 +4643,6 @@ with locationchange
 
 scene bg school_stalls1 at bgright
 with locationchange
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 # "While I was lost in thought, my food seems to have disappeared, and so has my hunger."
 "พอนั่งฟุ้งไปเรื่อย ๆ บะหมี่ก็หมดไปพร้อมกับความหิวฉัน"
@@ -4714,7 +4713,7 @@ play sound sfx_rustling
 "กองผ้านั่นมันขยับหรือเปล่านะ?"
 
 # "That would be strange, as there is no wind at all."
-"ทั้งทีไม่มีลมพัดแท้ ๆ แปลกจัง"
+"ทั้งที่ไม่มีลมพัดแท้ ๆ แปลกจัง"
 
 # "I carefully stick my hand out and give it an experimental prod."
 "ฉันค่อย ๆ เอื้อมมือไปแตะมันอย่างระมัดระวัง"
@@ -4801,22 +4800,28 @@ ke "เออ อย่างน้อยนายอายุ 20 แล้ว�
 # "He's rambling incoherently, but I decide to play along."
 "พล่ามอะไรไม่เห็นรู้เรื่อง แต่ตาม ๆ น้ำไปก่อนแล้วกัน"
 
-hi "So why do you have a bottle of whiskey?"
+# hi "So why do you have a bottle of whiskey?"
+hi "แล้วทำไมนายถึงมีไอวิสกี้นี่ได้ล่ะ"
 
 show kenji happy
 with charachange
 
-ke "My mom couldn't come visit for the festival, so she sent me some expensive Single Malt instead."
+# ke "My mom couldn't come visit for the festival, so she sent me some expensive Single Malt instead."
+ke "พอดีแม่ฉันมาเที่ยวงานนี่ไม่ได้ เลยส่งซิงเกิลมอลต์ราคาแพงนี่มาให้แทน"
 
-hi "A likely story."
+# hi "A likely story."
+hi "น่าเชื่อถือจริง ๆ"
 
-ke "Want some?"
+# ke "Want some?"
+ke "สักหน่อยปะ?"
 
 hi "…"
 
-"It's not like I have anything to lose. This day can't possibly get worse."
+# "It's not like I have anything to lose. This day can't possibly get worse."
+"ไหน ๆ ก็ไม่มีอะไรจะเสียละ สักหน่อยจะเป็นไรไป"
 
-hi "…why not."
+# hi "…why not."
+hi "…ก็เอาดิวะ"
 
 hide kenji
 with charaexit
@@ -4831,54 +4836,71 @@ show kenji happy_close at twoleft
 show bg school_roof at bgleft
 with charamove_decel
 
-"We sit down on the pile of blankets Kenji apparently dragged up here."
+# "We sit down on the pile of blankets Kenji apparently dragged up here."
+"พวกเรานั่งบนกองผ้าห่มที่เคนจิขนขึ้นมาที่นี่"
 
-"He produces an almost full bottle of whiskey and passes it to me."
+# "He produces an almost full bottle of whiskey and passes it to me."
+"เขาหยิบขวดวิสกี้ที่เกือบจะเต็มขวดมาและส่งให้ฉัน"
 
-hi "You didn't even bring glasses?"
+# hi "You didn't even bring glasses?"
+hi "ไม่มีแก้วเหรอวะ"
 
 show kenji tsun_close
 with charachange
 
-ke "No, this is not some romantic princess picnic. What the hell, man?"
+# ke "No, this is not some romantic princess picnic. What the hell, man?"
+ke "ไม่อะ นี่ไม่ใช่ปิกนิกของพวกสาวน้อยสักหน่อย จะบ้าเหรอพวก"
 
 show kenji neutral_close
 with charachange
 
-ke "This is a manly picnic."
+# ke "This is a manly picnic."
+ke "นี่มันการปิกนิกแบบแมน ๆ เว้ย"
 
-ke "No glasses."
+# ke "No glasses."
+ke "ไม่มีแก้ว"
 
-ke "No napkins."
+# ke "No napkins."
+ke "ไม่มีผ้าเช็ดหน้า"
 
-ke "Whiskey only. The beverage of true men."
+# ke "Whiskey only. The beverage of true men."
+ke "มีแต่วิสกี้ เครื่องดื่มของชายชาตรี"
 
-hi "Whatever."
+# hi "Whatever."
+hi "เออ เอาเหอะ"
 
 show kenji happy_close
 with charachange
 
-ke "And pretzels."
+# ke "And pretzels."
+ke "แล้วก็เพรทเซล"
 
-"I take a closer look at the bottle."
+# "I take a closer look at the bottle."
+"ฉันจ้องดูขวดแบบใกล้ ๆ"
 
-"12 year old single malt whiskey, as he said."
+# "12 year old single malt whiskey, as he said."
+"วิสกี้ซิงเกิลมอลต์ 12 ปี แบบที่เคนจิบอก"
 
-"Shrugging my shoulders, I take a swig. It burns my throat like acid, but the taste isn't unpleasant."
+# "Shrugging my shoulders, I take a swig. It burns my throat like acid, but the taste isn't unpleasant."
+"ฉันยักไหล่แล้วจิบไปหนึ่งอึก มันแสบคอเหมือนกรด แต่รสชาติก็ไม่ได้แย่อะไร"
 
-"I feel it going straight into my head, and the aftertaste lingers in the back of my mouth, craving for another swig."
+# "I feel it going straight into my head, and the aftertaste lingers in the back of my mouth, craving for another swig."
+"รู้สึกได้ถึงรสชาติพุ่งตรงเข้าไปในหัวของฉัน และรสที่ค้างอยู่ในปากยังคงติดอยู่ด้านหลังปากของฉัน อยากดื่มต่อว่ะ"
 
 show kenji neutral_close
 with charachange
 
-ke "We should outline our counteroffensive and trashtalk women here, where they can't hear us."
+# ke "We should outline our counteroffensive and trashtalk women here, where they can't hear us."
+ke "เราต้องวางแผนเตรียมโจมตีกลับกับนินทาพวกผู้หญิงกันตรงนี้แหละ ไกลหูพวกมันดี"
 
 show kenji tsun_close
 with charachange
 
-ke "Damn, I forgot to bring my graphs."
+# ke "Damn, I forgot to bring my graphs."
+ke "เชี่ยแม่ง ลืมหยิบกราฟมาว่ะ"
 
-"I decide to play a drinking game with myself. Every time Kenji mentions “female conspiracy”, I'll take a swig."
+# "I decide to play a drinking game with myself. Every time Kenji mentions “female conspiracy”, I'll take a swig."
+"ฉันลองเล่นเกมกับตัวเองเกมนึง คือดื่มอึกนึงทุกครั้งที่เคนจิบ่นถึงเรื่อง “แนวคิดสตรีนิยม”"
 
 $wdt_off(False)
 
@@ -4887,7 +4909,8 @@ stop music fadeout 2.0
 scene black
 with delayblinds
 
-centered "Four or five hours, or possibly several days later:\n{w}(I lost track)"
+# centered "Four or five hours, or possibly several days later:\n{w}(I lost track)"
+centered "สี่หรือห้าชั่วโมงผ่านไป หรืออาจจะเป็นวันละมั้ง\n{w}(ฉันลืมวันลืมคืนไปละ)"
 
 play music music_kenji fadein 0.5
 
@@ -4896,31 +4919,40 @@ with delayblinds
 
 window show
 
-ke "You shouldn't feel bad, man! Ease the fuck up! Seriously, seriously!"
+# ke "You shouldn't feel bad, man! Ease the fuck up! Seriously, seriously!"
+ke "อย่าไปเครียดเว้ย คิดมาก ๆ ! พูดจริง ๆ !"
 
-hi "I am relaxed, god damn it!"
+# hi "I am relaxed, god damn it!"
+hi "ฉันก็ไม่ได้คิดมากเว้ย!"
 
-ke "I'm telling it as I see it!"
+# ke "I'm telling it as I see it!"
+ke "ฉันก็พูดตามที่เห็นนั่นแหละเว้ย!"
 
 scene ev kenji_rooftop_kenji
 with flash
 
-ke "Think about it. When did housing and land start becoming more and more expensive? When women began entering the work force, because it created two-income nuclear families."
+# ke "Think about it. When did housing and land start becoming more and more expensive? When women began entering the work force, because it created two-income nuclear families."
+ke "ลองคิดดูดิวะ ราคาบ้านกับที่ดินมันพุ่งขึ้นตอนไหน ก็ตอนที่ผู้หญิงมันเริ่มเข้ามาเป็นแรงงานแล้วมาช่วยผัวทำงานหาเงินไง"
 
-ke "Yeah I forgot my graphs, but, and you'll just have to take my word for it, women are connected to the decay of all society."
+# ke "Yeah I forgot my graphs, but, and you'll just have to take my word for it, women are connected to the decay of all society."
+ke "เอ้อ ลืมหยิบกราฟมาด้วย แต่นั่นแหละ จำเอาไว้ผู้หญิงร่วมมือกันทลายสังคมตอนนี้"
 
 show ev kenji_rooftop_large:
     crop (288, 376, 800, 600)
     ease 1.0 crop (1024, 260, 800, 600)
 
-hi "I see. That is kind of hard to believe."
+# hi "I see. That is kind of hard to believe."
+hi "เออ แม่งก็ไม่น่าเชื่ออยู่ดี"
 
-"Even if I say that, somehow, everything Kenji says seems to make more sense now."
+# "Even if I say that, somehow, everything Kenji says seems to make more sense now."
+"ถึงจะพูดงั้นก็เถอะ อยู่ ๆ ก็รู้สึกว่าสิ่งที่เคนจิพูดเริ่มมีเหตุผลขึ้นมาซะงั้น"
 
-"It all fits together but I don't know if it's because he can explain things more clearly when drunk, or because I understand everything better when drunk."
+# "It all fits together but I don't know if it's because he can explain things more clearly when drunk, or because I understand everything better when drunk."
+"ทุก ๆ อย่างเริ่มจะดูปะติดปะต่อเข้ากันมาได้ ไม่รู้เป็นเพราะว่าเขาอธิบายได้ดีขึ้นตอนเมา หรือเพราะว่าฉันเมาก็เลย\nเข้าใจได้ดีขึ้นกันแน่"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (288, 376, 800, 600)
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 ke "No man, think. Think! Think of the deeper implications!"
 
