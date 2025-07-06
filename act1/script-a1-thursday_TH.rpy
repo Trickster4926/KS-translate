@@ -1753,7 +1753,7 @@ with charaexit
 "ฉันกลับมานั่งที่แล้วไม่รับฟังอะไรอีกจากการเถียงกันของสองคนนั้น"
 
 # "Eventually, Lilly leaves our classroom and Shizune and Misha seat themselves, without talking to me."
-"ท้ายที่สุด ลิลลี่ก็ออกไปจากห้องเรียนของเราและชิซูเนะกับมิช่าก็เข้ามานั่งที่โดยไม่ได้คุยกับฉัน"
+"ท้ายที่สุด ลิลลี่ก็ออกไปจากห้องเรียนของเรา ส่วนชิซูเนะกับมิช่าก็เข้ามานั่งที่โดยไม่ได้คุยกับฉัน"
 
 # "I can feel Shizune's eyes burning into my back. She is probably angry at me, but I'm just as angry with her."
 "ฉันสัมผัสได้ถึงสายตาพิฆาตของชิซูเนะที่หลังฉัน เธอคงจะโกรธฉัน แต่ฉันเองก็โกรธเธอพอ ๆ กัน"
