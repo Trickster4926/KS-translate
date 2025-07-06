@@ -684,7 +684,7 @@ show kenji neutral_naked
 with charachange
 
 # ke "But yeah, I only need like 400 yen. Please! You're my only hope! I can't go outside and buy my own pizza, it's too far!"
-ke "เออนั่นแหละ ตอนนี้ขาดอีก 400 เยน ขอร้องล่ะ! นายคือความหวังสุดท้ายแล้ว! ฉันออกไปข้างนอกเพื่อไปซื้อพิซซ่า\nไม่ไหวหรอก ร้านอยู่ไกลเกิน"
+ke "เออนั่นแหละ ตอนนี้ขาดอีก 400 เยน ขอร้องละ! นายคือความหวังสุดท้ายแล้ว! ฉันออกไปข้างนอกเพื่อไปซื้อพิซซ่า\nไม่ไหวหรอก ร้านอยู่ไกลเกิน"
 
 # ke "I try not to go out unless it's absolutely necessary. Let me tell you what happened the last time I went out without carefully planning it out in advance."
 ke "ฉันจะไม่ออกไปไหนถ้าไม่จำเป็นแบบจำเป็นจริง ๆ เดี๋ยวเล่าให้ฟังว่าครั้งล่าสุดที่ออกไปโดยไม่ได้วางแผนล่วงหน้าไว้ให้ดี\nมันเกิดอะไรขึ้น"
