@@ -3040,7 +3040,7 @@ show rin basic_deadpannormal_close_ss at tworight
 show rin_shadow basic behind rin at Transform(xpos=0.8,ypos=1.0,xanchor=0.5,yanchor=0.9)
 with openeye
 
-"พอลืมตามาก็เห็นสายตาของรินจ้องมองฉันอยู่จนรู้สึกอึดอัดเพราะเธอไม่พูดอะไรเลย ฉันเบือนหน้าหนี"
+"พอลืมตามาก็เห็นสายตาของรินที่จ้องมองฉันอยู่จนรู้สึกอึดอัดเพราะเธอไม่พูดอะไรเลย ฉันเบือนหน้าหนี"
 
 scene bg misc_sky_ss at Fullpan(20.0)
 with locationchange
