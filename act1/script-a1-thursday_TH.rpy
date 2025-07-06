@@ -560,7 +560,7 @@ show kenji silhouette_naked at center behind steam
 with charaenter
 
 # "Out of nowhere, a shadow appears within the mist, looming and radiating malicious intent. It bursts through the fog."
-"จู่ ๆ ก็มีเงาที่แผ่รังสีชั่วร้ายทะลุปรากฏขึ้นในหมอก เงานั้นเดินผ่านม่านไอน้ำออกมา"
+"จู่ ๆ ก็มีเงาที่แผ่รังสีชั่วร้ายปรากฏขึ้นในหมอก เงานั้นเดินผ่านม่านไอน้ำออกมา"
 
 play music music_kenji fadein 0.3
 
