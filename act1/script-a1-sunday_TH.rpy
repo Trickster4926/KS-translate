@@ -3014,7 +3014,7 @@ show rin negative_spaciness_close_ss
 show rin_shadow negative at Transform(xpos=0.8,ypos=1.0,xanchor=0.5,yanchor=0.9)
 with charachange
 
-"รินแหงนหน้ามองโดยยังคาบส้อมไว้ที่มุมปาก"
+"รินแหงนหน้ามองท้องฟ้าโดยยังคาบส้อมไว้ที่มุมปาก"
 
 rin "เมฆคืออะไรเหรอ ฉันคิดมาตลอดว่าเป็นความคิดของท้องฟ้าหรืออะไรอย่างนั้น เพราะเป็นสิ่งแตะต้องไม่ได้"
 
@@ -3351,7 +3351,7 @@ hi "เอ่อ…แล้ว…"
 show rin basic_deadpannormal_ni
 with charachange
 
-rin "ฝันดี ฮิซาโอะ"
+rin "ราตรีสวัสดิ์ ฮิซาโอะ"
 
 hide rin
 with charaexit
@@ -3362,7 +3362,7 @@ stop music fadeout 7.0
 
 "…"
 
-hi "โอเค…ฝันดี"
+hi "โอเค…ราตรีสวัสดิ์"
 
 "ฉันถูกทิ้งให้ยืนอยู่ที่เดิม ตอบกลับกับอากาศยามค่ำคืนอันเย็นเยียบ"
 
