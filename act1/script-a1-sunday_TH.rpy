@@ -3392,11 +3392,11 @@ $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_outdoors fadein 0.5
 play music music_soothing fadein 0.5
 
-"After buying a plastic plate of takoyaki from a stall belonging to the class next to ours, I take a seat in the school gardens and watch people pass as I tentatively nibble away at the rather bland-tasting item."
+"หลังซื้อทาโกยากิจากแผงที่ตั้งอยู่ข้าง ๆ แผงของห้องเราแล้วจานหนึ่งฉันก็มานั่งละเลียดของกินที่รสชาติออกจะจืด ๆ นี้\nอยู่ที่ม้านั่งที่สวนของโรงเรียนพลางมองผู้คนที่เดินผ่านไปมา"
 
-"I guess I shouldn't complain. It's better than nothing and didn't cost much."
+"แต่ก็ถูกดี จะบ่นเรื่องรสชาติคงไม่ได้ แถมดีกว่าต้องทนหิวน่ะนะ"
 
-"As I look out towards the school, watching the people coming and going proves a surprisingly entertaining way of passing the time as I eat."
+"พอมองไปทางโรงเรียนก็เห็นคนที่เดินเข้าออกอยู่เรื่อย ๆ เป็นกิจกรรมการมองระหว่างกินที่ไม่น่าเบื่อผิดคาด"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -3404,47 +3404,47 @@ show bg school_courtyard
 show crowd
 with locationchange
 
-"Little children accompanied by parents or grandparents scamper about in the din from event to event; one hand dragging their company and the other bearing an oversized, colorful snack."
+"ทั้งพ่อแม่หรือไม่ก็ปู่ย่าตายายที่มีเด็กเล็กมาด้วยเดินกันขวักไขว่ท่ามกลางงานที่มีเสียงอื้ออึง มือหนึ่งคอยจูงเด็ก อีกข้าง\nก็หอบขนมสีฉูดฉาดถุงใหญ่"
 
-"I can't help but notice the age range among the people here is skewed towards the elderly, something that I'd also noticed when I was walking around town."
+"ฉันเห็นว่าช่วงวัยของคนที่นี่จะค่อนไปทางผู้สูงอายุ ตอนที่เดินในเมืองฉันก็รู้สึกอย่างนั้น"
 #If he's on Hanako's path, has he actually walked around town at that point?
 
-"This must be one of those towns where the only people left are those that lived here their whole lives and ardently refuse to leave, and those wanting to live out the rest of their days in one of the increasingly few tranquil places."
+"เมืองนี้คงเป็นเมืองที่ว่าคนที่อาศัยอยู่จะเป็นคนที่อยู่มาทั้งชีวิตแล้วยืนกรานไม่ยอมย้ายที่อยู่ และอีกกลุ่มก็จะเป็นคนที่\nมาใช้ชีวิตยามชรากับสถานที่อันสงบเงียบที่ทุกวันนี้ยิ่งหดหายไปทุกที"
 
-"I guess that also goes a way to explaining how conservative Yamaku's school culture seems to be."
+"ซึ่งจะว่าไปแล้วการที่โรงเรียนยามากุให้ความสำคัญกับวัฒนธรรมก็คงเพราะเหตุเช่นนั้น"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 
 scene bg school_gardens at Fullpan(8.0)
 with locationchange
 
-"Not that I mind one bit. I kind of like how calm Yamaku and its surroundings are."
+"และฉันก็ไม่ได้มีปัญหาอะไร ฉันค่อนข้างชอบความสงบของโรงเรียนยามากุและละแวกนี้"
 
-"The heat, though, is another matter entirely. Sitting in one place for so long has focused my mind on how annoyingly humid it's getting, now that the hottest part of the day is here."
+"ส่วนความร้อนนั้นก็อีกเรื่อง ยิ่งนั่งยิ่งรู้สึกว่าร้อนอบอ้าวเหลือเกิน แล้วตอนนี้ยิ่งเป็นช่วงที่ร้อนที่สุดของวันอีกต่างหาก"
 
-"I'd better get moving if I—{w=.5}{nw}"
+"ไปดีกว่—{w=.5}{nw}"
 
 play sound sfx_warningbell
 
-"Gah!"
+"ว้าก!"
 
-"The sound of the carillon bells takes me completely by surprise as I stand up, a reaction shared by a few of the people strolling around as well."
+"ระหว่างที่ฉันกำลังยืนขึ้นนั้นเสียงระฆังการียองก็ทำเอาฉันตกใจ บางคนที่กำลังเดินอยู่ก็ตกใจไม่ต่างกัน"
 
-"The PA system crackles to life after the tolling bells end. Its age shows as the principal makes a barely intelligible announcement over it, officially opening the festival that's very much in full swing."
+"เมื่อหมดเสียงระฆังแล้วก็มีเสียงกรอบแกรบดังมาจากระบบเสียงตามสาย เสียงประกาศเปิดงานจากผู้อำนวยการโรงเรียน\nที่กล่าวกับงานเทศกาลที่ซัดเต็มที่กันไปแล้วนั้นฟังแทบจับใจความไม่ได้ด้วยความเก่าของลำโพง"
 
-"It's quite amusing to contrast the pleasant smiles of the older folk against the alternatively pained and bored grimaces of their younger charges. The students, on the other hand, seem to pay it little heed."
+"ความต่างระหว่างรอยยิ้มของเหล่าคนเฒ่าคนแก่กับสีหน้าเซ็ง ๆ ของเหล่าเด็ก ๆ นั้นก็น่าสนใจดี ส่วนเหล่านักเรียนนั้น\nดูจะไม่ได้สนใจมากนัก"
 
-"Nevertheless, as the address finally ends, all are united in polite - if not overly enthusiastic - applause, and then get back to business."
+"แต่ถึงอย่างนั้น เมื่อผู้อำนวยการกล่าวจบ ทุกคนต่างก็ปรบมือกันอย่างพร้อมเพรียงและสุภาพจนดูออกจะกระตือรือร้น\nไปสักหน่อย จากนั้นต่างคนต่างก็ไปทำอย่างอื่นกันต่อ"
 
-"Slipping a hand in my pocket to look as relaxed as possible, I casually glance around for something to do."
+"ฉันเอามือล้วงกระเป๋ากางเกงให้ดูท่าทางสบาย ๆ พลางสอดส่ายสายตาหาอะไรทำ"
 
-"…It's somewhat difficult to see very far with all the people around."
+"…พอมีคนเยอะแล้วมองได้ไม่ไกลเลยแฮะ"
 
-"I decide to fall back on a tried and trusted rule: go where everyone else seems to be gathering. Right now, that's the school courtyard and surroundings."
+"ฉันจึงเลือกสิ่งที่พิสูจน์มาแล้วว่าใช้ได้ นั่นคือการไปยังที่ที่คนรวมตัวกัน ตอนนี้เหมือนจะอยู่กันที่ลานโรงเรียนกับ\nบริเวณรอบ ๆ "
 
 play sound sfx_can_clatter
 
-"Throwing the used plate into a trash can, I make my way towards the school building."
+"ฉันทิ้งจานพลาสติกลงถังขยะแล้วเดินไปยังอาคารหลักของโรงเรียน"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -3452,36 +3452,36 @@ scene bg school_courtyard
 show crowd
 with locationchange
 
-"Seeing the number of stalls around the perimeter of the school building surprises me. Quite a few of the classes must have opted to have multiple stalls."
+"ฉันนึกประหลาดใจเมื่อได้เห็นจำนวนแผงที่ตั้งอยู่รอบ ๆ อาคารโรงเรียน คงมีบางห้องที่ตั้งมากกว่าหนึ่งแผง"
 
-"In deciding which to visit first, I catch sight of a familiar banner with a blue patterned border and red text."
+"ระหว่างที่กำลังคิดว่าจะไปแวะแผงไหนก่อนดี สายตาก็ไปสะดุดเข้ากับป้ายที่ลงลายขอบสีน้ำเงินกับตัวหนังสือสีแดง\nอันคุ้นตา"
 
-"Lilly's stall is as good a place to start as any. I'm curious as to how it's going, after all of the work she and her class have been doing for it."
+"แวะที่แผงลิลลี่ก่อนก็คงไม่เสียหายอะไร ฉันเองก็อยากรู้เหมือนกันว่าผลงานที่ทั้งเธอและคนอื่นในห้องลงแรงกันทำ\nจะออกมาเป็นยังไง"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="ambient")
 
 scene bg school_stalls2 at Fullpan(8.0, dir="left")
 with locationchange
 
-"Stepping up to it, I begin to see why the class took so long to organize everything."
+"เมื่อเดินมาดูที่แผงแล้วฉันก็เริ่มเข้าใจว่าทำไมถึงได้จัดแจงอะไรกันนาน"
 
-"Easily twice as wide as many of the other stalls and with equipment for cooking strewn everywhere, it's closer to an outdoor restaurant than a festival event."
+"แผงนั้นกว้างกว่าแผงอื่น ๆ ไปเกือบเท่าตัว ทั้งยังมีอุปกรณ์ทำครัววางอยู่ทั่วแผง ดูละม้ายคล้ายกับร้านอาหารข้างทาง\nมากกว่าแผงงานเทศกาลเสียอีก"
 
-"As a student in front of me takes a bowl of noodles and leaves, I walk up to the counter."
+"พอคนที่ยืนต่อแถวอยู่ตรงหน้าถือถ้วยบะหมี่ออกไปแล้วฉันก็เดินเข้าไปที่เคาน์เตอร์"
 
-"The girl behind it seems quite exasperated, and asks me to wait a moment before she disappears underneath the counter."
+"สาวที่เฝ้าแผงอยู่ดูจะหงุดหงิดกับอะไรบางอย่าง เธอบอกให้ฉันรอก่อนจะผลุบหายไปใต้เคาน์เตอร์"
 
-"Seizing the moment, I take a quick glance around."
+"ฉันถือโอกาสนี้มองปราดไปรอบ ๆ "
 
-"Steam seems to be rising from everywhere, as pots and pans simmer away. The most blind of the students are unpacking ingredients while being helped by someone who is probably the teacher of 3-2."
+"ตามหม้อและกระทะที่ต้มน้ำอยู่มีไอตลบอยู่ทั่ว นักเรียนส่วนใหญ่ต่างแกะห่อวัตถุดิบกันอยู่โดยมีคนที่น่าจะเป็นครู\nประจำชั้นห้อง 3-2 คอยช่วยด้วย"
 
-"It doesn't take long to notice Lilly among them, talking with the teacher as she quickly counts out the boxes and packets with her fingers."
+"ไม่นานก็เห็นลิลลี่ที่อยู่ในกลุ่มนั้นด้วย เธอกำลังคุยกับครูอยู่พลางใช้นิ้วนับจำนวนกล่องและถุงแบบเร็ว ๆ "
 
-"From her expression and the fact that both she and the teacher seem to be in a state of mild confusion, it appears that there's been some problem in coordination."
+"ดูจากสีหน้าท่าทางของทั้งเธอและครูที่งง ๆ กันอยู่แล้ว น่าจะมีปัญหาเรื่องการสื่อสารอะไรกันสักอย่าง"
 
-"Before I can stare any longer, the girl behind the counter pops up again, only to look back and ask where the spare change box is."
+"ฉันมองอยู่ได้ไม่นานสาวที่เฝ้าแผงอยู่ก็โผล่มาจากเคาน์เตอร์อีกครั้งแล้วถามว่ากล่องเงินทอนอยู่ที่ไหน"
 
-"Lilly pauses for a moment, before she and the girl switch places at the counter and the teacher quickly walks off somewhere."
+"ลิลลี่ชะงักไปครู่หนึ่งแล้วเดินมาที่เคาน์เตอร์แลกที่กันกับสาวคนเมื่อครู่ ส่วนครูก็เดินออกไปที่อื่นแล้ว"
 
 stop music fadeout 2.0
 
@@ -3489,18 +3489,18 @@ show bg school_stalls2 at left
 show lilly basic_smileclosed at center
 with charaenter
 
-li "Sorry about that, we're having a few problems. What would you like?"
+li "ขอโทษนะคะ พอดีเกิดเรื่องนิดหน่อย จะรับอะไรดีคะ"
 
-"It takes me a second to remember what I'd come here for. My eyes quickly dart to the side to read the menu sitting on the counter."
+"ฉันนึกอยู่ครู่หนึ่งว่าจะมาซื้ออะไร สายตาเหลือบมองรายการเมนูที่วางอยู่กับเคาน์เตอร์"
 
-hi "Oh, uh, I guess some… miso soup?"
+hi "อ่า เอ่อ เอาเป็น… ซุปมิโซะแล้วกันครับ"
 
 show lilly basic_surprised
 with charachange
 
-li "Ah, is that Hisao?"
+li "อ๊ะ นั่นฮิซาโอะหรือเปล่า"
 
-hi "Yep. Looks like you're pretty busy."
+hi "อื้ม ยุ่งกันน่าดูเลยนะ"
 
 play music music_ease fadein 6.0
 
@@ -3557,7 +3557,7 @@ with charachange
 
 li "Thank you, Hisao. Oh, there is one other thing. Have you seen Hanako?"
 
-hi "Hanako… no, not today. Why?"
+hi "ฮานาโกะ… ไม่ วันนี้ไม่เห็นนะ ทำไมเหรอ"
 
 show lilly basic_sad
 with charachange
