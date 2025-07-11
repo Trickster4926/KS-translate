@@ -4952,35 +4952,42 @@ hi "เออ แม่งก็ไม่น่าเชื่ออยู่ด
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (288, 376, 800, 600)
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
-ke "No man, think. Think! Think of the deeper implications!"
+# ke "No man, think. Think! Think of the deeper implications!"
+ke "ไม่เว้ย ลองคิด คิดดู! คิดให้ลึก ๆ กว่านี้!"
 
-ke "People could afford to start saying “Oh well, since two members of the family are now earning money as opposed to one, they can surely afford something like rising costs of ownership.”"
-
-show ev kenji_rooftop_large:
-    ease 1.0 crop (1024, 260, 800, 600)
-
-hi "I see your point. But land in Japan has always been expensive."
-
-show ev kenji_rooftop_large:
-    ease 1.0 crop (288, 376, 800, 600)
-
-ke "…And the price of land generally goes up when a country starts undergoing industrialization. …But no! It's because of women! Correlation equals causation, you know."
+# ke "People could afford to start saying “Oh well, since two members of the family are now earning money as opposed to one, they can surely afford something like rising costs of ownership.”"
+ke "ผู้คนก็เริ่มอ้างได้ว่า “อะ ในเมื่อตอนนี้ครอบครัวหาเงินเข้าบ้านได้ทีละสองคนแทนที่จะเป็นคนเดียวแล้ว แปลว่าก็ต้องมี\nกำลังจ่ายเพิ่มมากขึ้น งั้นขอขึ้นค่าที่สักหน่อยดีกว่า”"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (1024, 260, 800, 600)
 
-hi "I thought correlation didn't equal causation. Well, whatever, maybe you're right."
+# hi "I see your point. But land in Japan has always been expensive."
+hi "คือก็เข้าใจแหละ แต่ที่ดินในญี่ปุ่นมันก็แพงมาตั้งแต่แรกอยู่ละนะ"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (288, 376, 800, 600)
 
-ke "I am always right. Yeah, I bet women created industrialization, too, to cover their tracks."
+# ke "…And the price of land generally goes up when a country starts undergoing industrialization. …But no! It's because of women! Correlation equals causation, you know."
+ke "…แล้วปกติถ้าประเทศเริ่มเข้าสู่ยุคอุตสาหกรรม ที่ดินมันก็จะแพงขึ้น …ซะที่ไหนล่ะ! มันก็เพราะผู้หญิงนั่นแหละ! อะไรที่มัน\nสัมพันธ์กันมันก็ต้องเป็นเหตุผลกันนั่นแหละ"
 
-ke "How diabolical."
+show ev kenji_rooftop_large:
+    ease 1.0 crop (1024, 260, 800, 600)
 
-ke "So yeah, everyone can go fuck themselves!"
+# hi "I thought correlation didn't equal causation. Well, whatever, maybe you're right."
+hi "ไม่ใช่เขาบอกว่าถ้าสัมพันธ์กันแล้วไม่จำเป็นว่าทั้งสองอย่างจะเป็นเหตุผลกันเสมอไปเรอะ เออเอาเหอะ ก็ถูกของนาย\nละมั้ง"
+
+show ev kenji_rooftop_large:
+    ease 1.0 crop (288, 376, 800, 600)
+
+# ke "I am always right. Yeah, I bet women created industrialization, too, to cover their tracks."
+ke "ฉันพูดถูกตลอดแหละน่า เออ ฉันพนันเลยว่าจริง ๆ แล้วพวกผู้หญิงนี่แหละเป็นพวกก่อตั้งยุคอุตสาหกรรมขึ้นมา เพื่อปิดบัง\nแผนของพวกมันไงล่ะ"
+
+# ke "How diabolical."
+ke "ช่างชั่วช้าสามานย์จริง ๆ"
+
+# ke "So yeah, everyone can go fuck themselves!"
+ke "นั่นแหละ ตาย ๆ แม่งให้หมดซะ!"
 
 scene bg school_roof_ni
 show kenji rage_ni:
@@ -4988,124 +4995,165 @@ show kenji rage_ni:
     easein 1.0 yanchor 1.0
 with locationchange
 
-"He stands up, impressing me because I'm fairly sure I couldn't even if I wanted. He yells extremely loudly as if he's lost the concept of volume. I wince and almost want to cover my ears."
+# "He stands up, impressing me because I'm fairly sure I couldn't even if I wanted. He yells extremely loudly as if he's lost the concept of volume. I wince and almost want to cover my ears."
+"เขายืนขึ้น ฉันนึกทึ่งเพราะฉันยังไม่แน่ใจเลยด้วยซ้ำว่าตัวเองจะยืนขึ้นอย่างนั้นไหวหรือเปล่า เขาตะเบ็งเสียงดังโดย\nไม่สนใจว่าเสียงจะดังแค่ไหน เล่นเอาฉันผงะแทบยกมือขึ้นมาปิดหู"
 
 stop music fadeout 2.0
 
-ke "Aaagh, how nice it would have been if I could have been down there… But no. You see, thinking like that is a trap, you think you're missing out on something, but at the end of that road is nothing but despair…"
+# ke "Aaagh, how nice it would have been if I could have been down there… But no. You see, thinking like that is a trap, you think you're missing out on something, but at the end of that road is nothing but despair…"
+ke "โอยยย ถ้าได้ไปเที่ยวงานข้างล่างก็คงดี…ซะที่ไหน เนี่ย ถ้าเอาแต่คิดอย่างนั้นก็ไม่ต่างอะไรกับการติดหล่ม นายจะกลัวว่า\nนายจะพลาดอะไรไป แต่ขืนมัวแต่คิดอย่างนั้น ท้ายสุดนายก็จะพบแต่ความสิ้นหวัง…"
 
 show kenji tsun_ni at center
 with charachange
 
 play music music_sadness fadein 1.5
 
-"Kenji snatches back the bottle and leans back his head, attempting to pour the alcohol into his mouth, but just ends up drenching himself in it."
+# "Kenji snatches back the bottle and leans back his head, attempting to pour the alcohol into his mouth, but just ends up drenching himself in it."
+"เคนจิคว้าขวดพร้อมกับเงยหน้าขึ้น พร้อมพยายามเทเหล้าเข้าปาก แต่ก็หกหมดจนเต็มตัว"
 
 show kenji rage_ni
 with charachange
 
-ke "Dammit! See, my aim is terrible, and the bad thing about drinking is that it only gets worse the longer you go!"
+# ke "Dammit! See, my aim is terrible, and the bad thing about drinking is that it only gets worse the longer you go!"
+ke "แม่งเอ๊ย! เนี่ย ตอนนี้เล็งไม่ตรงแล้วเนี่ย และยิ่งเมาก็ยิ่งไม่ตรงเข้าไปใหญ่"
 
 show kenji tsun_ni
 with charachange
 
-ke "Today is the day of despair."
+# ke "Today is the day of despair."
+ke "วันนี้แม่งโคตรสิ้นหวังเลย"
 
-"His voice immediately drops to almost a whisper, but he starts talking much faster than before, slightly slurring his words from the whiskey."
+# "His voice immediately drops to almost a whisper, but he starts talking much faster than before, slightly slurring his words from the whiskey."
+"จู่ ๆ เสียงเขาก็แผ่วลงจนแทบไม่ได้ยิน แต่เริ่มพล่ามรัว ๆ กว่าเมื่อกี้ พ่นคำเพ้อเจ้อออกมาจากฤทธิ์วิสกี้"
 
-"As he talks, he waves the bottle around, spilling some of it here and there."
+# "As he talks, he waves the bottle around, spilling some of it here and there."
+"เขาถือขวดพร้อมโบกไปมาในขณะที่พูด ทำหกเลอะเทอะไปทั่ว"
 
-ke "Yeah, you know what was the most shocking event of my life?"
+# ke "Yeah, you know what was the most shocking event of my life?"
+ke "เออ รู้ปะว่าอะไรที่ทำให้ฉันช็อกมากที่สุดในชีวิต"
 
-"I have a hazy recollection of him telling about the second most shocking event in his life, which was a bird pooping on his head."
+# "I have a hazy recollection of him telling about the second most shocking event in his life, which was a bird pooping on his head."
+"พอจำได้ลาง ๆ ว่าอันดับสองที่ช็อกที่สุดคือนกขี้ใส่หัวเขา"
 
-"I don't have particularly great expectations of this, but I nod at him to continue anyway."
+# "I don't have particularly great expectations of this, but I nod at him to continue anyway."
+"ก็ไม่ค่อยจะหวังอะไรมากหรอก แต่ก็พยักหน้าให้เขาเล่าต่อ"
 
 show kenji neutral_ni
 with charachange
 
-ke "You wouldn't think it, but I had a girlfriend here once, I think it was last year."
+# ke "You wouldn't think it, but I had a girlfriend here once, I think it was last year."
+ke "นายคงคาดไม่ถึงหรอก แต่ก่อนหน้านี้ฉันเคยมีแฟนคนนึง ประมาณปีที่แล้วมั้ง"
 
-ke "Yeah, I just blew your mind, huh? See, I have never told that to anyone."
+# ke "Yeah, I just blew your mind, huh? See, I have never told that to anyone."
+ke "เออ เนี่ยเปิดโลกเลยใช่ปะล่ะ เนี่ยเรื่องนี้ไม่เคยบอกใครเลยนะเว้ย"
 
-"It's true, the thought does blow my mind. Suddenly, I want the bottle. I take it from Kenji and knock back as much as I can."
+# "It's true, the thought does blow my mind. Suddenly, I want the bottle. I take it from Kenji and knock back as much as I can."
+"เออ เปิดโลกจริงว่ะ อยู่ ๆ ก็อยากกระดกเหล้าเพิ่มเลยคว้ามาจากเคนจิแล้วกระดกมากที่สุดเท่าที่ทำได้"
 
 show kenji tsun_ni
 with charachange
 
-ke "I was more innocent back then, and I thought she was sane, unlike most women. But then one day, we engaged in… sexual intercourse."
+# ke "I was more innocent back then, and I thought she was sane, unlike most women. But then one day, we engaged in… sexual intercourse."
+ke "ก่อนหน้านี้ฉันยังละอ่อนอยู่ แล้วก็คิดว่าเธอเป็นพวกปกติไม่เหมือนผู้หญิงพวกนั้น แต่พอวันนั้นมาถึง วันที่พวกเรา… \nมีเพศสัมพันธ์กัน"
 
-ke "It was pretty okay, but then immediately following the event that is the point of all such things, something strange and scary happened."
+# ke "It was pretty okay, but then immediately following the event that is the point of all such things, something strange and scary happened."
+ke "มันก็ดีอยู่หรอก แต่พอเสร็จแล้วเท่านั้นแหละ บางอย่างที่แปลก ๆ และน่ากลัวก็เกิดขึ้น"
 
 show kenji tsun_ni at tworight
 show bg school_roof_ni at bgleft
 with charamove
 
-"He throws himself up against the fence, leaning on it, his eyes narrowed."
+# "He throws himself up against the fence, leaning on it, his eyes narrowed."
+"เขาทิ้งตัวพิงลงบนรั้ว หรี่ตาลง"
 
-ke "I started feeling incredibly tired and sleepy! That isn't normal, man! What the fuck?"
+# ke "I started feeling incredibly tired and sleepy! That isn't normal, man! What the fuck?"
+ke "ฉันเหนื่อยมาก ๆ และก็ง่วงด้วย! แม่งแปลกเว้ย! แบบ เชี่ยไรวะ"
 
-ke "I mean, normally, that would be a high-tension, adrenaline-pumping moment of anyone's life, but my energy levels were dropping like a brick!"
+# ke "I mean, normally, that would be a high-tension, adrenaline-pumping moment of anyone's life, but my energy levels were dropping like a brick!"
+ke "คือแบบ ปกติพอเสร็จแล้วจะต้องแบบอารมณ์พุ่งพล่าน ฟินมาก ๆ สิวะ แต่อยู่ ๆ ฉันก็หมดแรงไปดื้อ ๆ แบบนั้นน่ะ!"
 
-ke "Something sinister was in the works, I could feel it."
+# ke "Something sinister was in the works, I could feel it."
+ke "มีบางอย่างที่ชั่วร้ายกำลังเกิดขึ้น ฉันรู้สึกได้"
 
-ke "That is when I knew… that women are dangerous, sapping the life force of all men through the one commodity that is almost solely theirs to control!"
+# ke "That is when I knew… that women are dangerous, sapping the life force of all men through the one commodity that is almost solely theirs to control!"
+ke "และนั้นคือตอนที่ฉันรู้… ว่าผู้หญิงแม่งอันตราย ดูดพลังชีวิตจากพวกผู้ชายรวมเข้าด้วยกันเพื่อที่จะได้ควบคุมได้อย่างเต็ม\nรูปแบบ!"
 
-ke "Sickening."
+# ke "Sickening."
+ke "บ้าที่สุด"
 
 show kenji neutral_ni
 with charachange
 
-ke "Yeah, you're better off, dude…"
+# ke "Yeah, you're better off, dude…"
+ke "เออนั่นแหละ นายควรอยู่ห่าง ๆ พวกนั้นนะเว้ยพวก…"
 
-"Kenji was right, this really is the day of despair. I drink more to avoid having to process what he just said."
+# "Kenji was right, this really is the day of despair. I drink more to avoid having to process what he just said."
+"เคนจิพูดถูก วันนี้ช่างสิ้นหวังจริง ๆ ฉันกระดกเหล้าเพิ่มเพื่อจะได้ไม่คิดมากเรื่องที่เขาเพิ่งเล่าเมื่อกี้"
 
-ke "Now I am the last sane man in an insane world… when other people realize it, there will be a war, a great war between men and the forces of feminism."
+# ke "Now I am the last sane man in an insane world… when other people realize it, there will be a war, a great war between men and the forces of feminism."
+ke "และตอนนี้ฉันก็กลายเป็นคนปกติคนสุดท้ายในโลกที่ไม่ปกตินี้… และพอคนอื่นรู้ตัว ก็มีสงครามแล้ว สงครามระหว่างพวกผู้ชาย\nกับกองทัพของสตรีนิยม"
 
-ke "But the problem is that not all men would fight on my side… shit sucks. I could set the bar kinda low, any men are fine. But not the dudes raised by their mom or their sister, that's for sure."
+# ke "But the problem is that not all men would fight on my side… shit sucks. I could set the bar kinda low, any men are fine. But not the dudes raised by their mom or their sister, that's for sure."
+ke "แต่ปัญหาก็คือไม่ใช่ผู้ชายทุกคนที่จะมาร่วมสู้กับฉัน… แม่งเอ๊ย คือคงต้องตั้งมาตรฐานลดลงมาหน่อย ชายคนไหนก็ได้แหละ\nแต่ต้องไม่ใช่พวกที่โตมากับแม่หรือพี่สาวแน่ ๆ"
 
 show kenji tsun_ni
 with charachange
 
-ke "And nobody into dickgirl porn."
+# ke "And nobody into dickgirl porn."
+ke "และก็ไม่เอาพวกที่ชอบหนังโป๊ฟูตะนาริ"
 
-hi "Ha… That situation seems unlikely to me, like it wouldn't happen, like… like it's not very likely to happen."
+# hi "Ha… That situation seems unlikely to me, like it wouldn't happen, like… like it's not very likely to happen."
+hi "อ่า… นั่นคงไม่ใช่ฉันแน่ ๆ ไม่แน่ ๆ แบบ… ไม่ใช่ฉันเแน่ ๆ"
 
-"The alcohol must be working."
+# "The alcohol must be working."
+"แอลกอฮอล์เริ่มทำงานละ"
 
-"Regardless, I still feel depressed that I'm up here today."
+# "Regardless, I still feel depressed that I'm up here today."
+"ยังไงก็ตาม ก็ยังหดหู่อยู่ดีที่วันนี้ขึ้นมาที่นี่"
 
-"I wasn't really looking forward to the festival with the same excitement as the rest of the school, but still."
+# "I wasn't really looking forward to the festival with the same excitement as the rest of the school, but still."
+"ฉันเองก็ไม่ได้ตั้งตารองานเทศกาลแบบพวกนักเรียนคนอื่น ๆ หรอก แต่ก็นะ…"
 
-"It would have been nice to have gone with someone. From up here, it certainly sounded like everyone's having fun. Maybe I am missing out."
+# "It would have been nice to have gone with someone. From up here, it certainly sounded like everyone's having fun. Maybe I am missing out."
+"คงจะดีถ้าได้ไปเที่ยวงานกับใครสักคน มองจากตรงนี้ก็ดูว่างานก็คงสนุกไม่น้อยเลยที่เดียว ฉันคงพลาดจริง ๆ นั่นแหละ"
 
-"It's just that there was no one I could have gone with."
+# "It's just that there was no one I could have gone with."
+"นั่นก็เพราะว่าฉันไม่มีใครที่ให้ไปด้วยไงล่ะ"
 
-"Or maybe there was. So many opportunities, looking back on it now, and I must have squandered so many of them."
+# "Or maybe there was. So many opportunities, looking back on it now, and I must have squandered so many of them."
+"หรืออาจจะมีแหละ มีโอกาสตั้งหลายรอบก่อนหน้านี้ พอมองย้อนกลับไป ฉันคงพลาดโอกาสที่ว่าไปมากโข"
 
-ke "Damn, this is true despair… The worst part is that sometimes I feel like I have no choices in my life, you know?"
+# ke "Damn, this is true despair… The worst part is that sometimes I feel like I have no choices in my life, you know?"
+ke "แม่ง นี่แม่งคือความสิ้นหวังที่แท้จริงเลย… ที่แย่ที่สุดก็คือบางทีก็เหมือนกับว่าฉันไม่มีทางเลือกเลยในชีวิตเนี่ย"
 
-ke "Like I never have a chance to make a decision, shit just happens."
+# ke "Like I never have a chance to make a decision, shit just happens."
+ke "แบบ เหมือนไม่เคยได้เลือกอะไรจริง ๆ เลย อะไรก็เกิดขึ้นได้"
 
-ke "Like it was all preprogrammed. Like fate… or something. Like there is no way I can have a say in what I do."
+# ke "Like it was all preprogrammed. Like fate… or something. Like there is no way I can have a say in what I do."
+ke "เหมือนแบบทุกอย่างถูกโปรแกรมขึ้นมา คล้าย ๆ กับ โชคชะตา… หรืออะไรทำนองนั้น เหมือนว่าฉันไม่มีสิทธิ์พูดในสิ่งที่ฉันทำไป"
 
 stop music fadeout 0.2
 
 show kenji rage_ni
 with vpunch
 
-ke "Quick, ask me a question!"
+# ke "Quick, ask me a question!"
+ke "เอ้าเร็ว ถามคำถามฉันสักข้อซิ"
 
-hi "Uh…"
+# hi "Uh…"
+hi "เอ่อ…"
 
-ke "Now!"
+# ke "Now!"
+ke "ตอนนี้เลย!"
 
-hi "I can't really…"
+# hi "I can't really…"
+hi "ไม่ได้ว่ะ…"
 
 show kenji tsun_ni
 with charachange
 
-ke "See? This is just another example of it! Damn! Shit! Damn! Do you see? Now, when I'm trying to go against my destiny and take charge of my life, the opportunity isn't even there."
+# ke "See? This is just another example of it! Damn! Shit! Damn! Do you see? Now, when I'm trying to go against my destiny and take charge of my life, the opportunity isn't even there."
+ke "เนี่ยเห็นปะ อีกตัวอย่างที่ชัด ๆ ! แม่ง! เชี่ย! แม่งเอ๊ย! "
 
 ke "Damn, man, you have failed me. Failed me for the last time. Jerk."
 
