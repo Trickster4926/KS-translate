@@ -4806,7 +4806,7 @@ show kenji happy
 with charachange
 
 # ke "My mom couldn't come visit for the festival, so she sent me some expensive Single Malt instead."
-ke "พอดีแม่ฉันมาเที่ยวงานนี่ไม่ได้ เลยส่งซิงเกิลมอลต์ราคาแพงนี่มาให้แทน"
+ke "พอดีแม่ฉันมาเที่ยวงานเทศกาลไม่ได้ เลยส่งซิงเกิลมอลต์ราคาแพงนี่มาให้แทน"
 
 # hi "A likely story."
 hi "เชื่อ"
