@@ -4709,10 +4709,10 @@ stop music fadeout 3.0
 play sound sfx_rustling
 
 # "Did that pile just move a little?"
-"กองผ้านั่นมันขยับหรือเปล่านะ?"
+"เมื่อกี้กองผ้านั่นมันดิ้นใช่มั้ย"
 
 # "That would be strange, as there is no wind at all."
-"ทั้งที่ไม่มีลมพัดแท้ ๆ แปลกจัง"
+"แปลก ไม่มีลมพัดอะไรเลยแท้ ๆ "
 
 # "I carefully stick my hand out and give it an experimental prod."
 "ฉันค่อย ๆ เอื้อมมือไปแตะอย่างระมัดระวัง"
