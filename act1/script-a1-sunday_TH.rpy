@@ -4623,7 +4623,7 @@ with locationchange
 "ช่วงนี้หนีหน้าหน่อยดีกว่า เพราะพวกเธอไม่น่ายกโทษให้ฉันง่าย ๆ แน่ ๆ ที่ปล่อยพวกเธอทำงานกันสองคน"
 
 # "I expect Emi to be buzzing all over the place, being depressingly cheerful."
-"เอมิก็คงเดินเที่ยวงานอย่างร่าเริงอย่างที่ฉันเห็นแล้วหดหู"
+"เอมิก็คงเดินเที่ยวงานอย่างร่าเริงอย่างที่ฉันเห็นแล้วหดหู่"
 
 # "There's no chance to find her, but no chance to avoid her either, so it doesn't matter."
 "ถ้าให้หาก็คงหาไม่เจอ ถ้าให้หลบหน้าก็คงไม่พ้น เพราะงั้นก็ช่างเถอะ"
