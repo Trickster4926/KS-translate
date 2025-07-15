@@ -4587,7 +4587,7 @@ scene bg school_stalls2 at Fullpan(8.0)
 with locationchange
 
 # "I do a slow circle around the grounds to kill some time, looking at the stalls, but not feeling like playing any of the games any more."
-"ฉันเดินไปรอบ ๆ งานช้าเพื่อฆ่าเวลา ดูแผงต่าง ๆ แต่ก็ไม่ได้รู้สึกว่าอยากเล่นอะไรเลยสักอย่าง"
+"ฉันเดินไปรอบ ๆ งานอย่างช้า ๆ เพื่อฆ่าเวลา พอดูแผงทั้งหลายแล้วก็ไม่ได้รู้สึกว่าอยากเล่นอะไรเลยสักอย่าง"
 
 # "The garish colors grind my eyes and I feel more and more ill by the minute."
 "สีสันฉูดฉาดทำให้ฉันปวดตาและยิ่งทำให้เวียนหัวมากขึ้นทุกที ๆ"
