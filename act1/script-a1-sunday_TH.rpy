@@ -4482,7 +4482,7 @@ play music music_kenji fadein 0.5
 hi "ไม่รู้ดิ ก็ไม่ได้จะทำไรละมั้ง แต่ให้ไปตั้งป้อมก็ดูจะเกินไปหน่อย"
 
 # hi "You sure you don't want to go outside? It's not like visitors won't come to the dorms today."
-hi "แน่ใจเหรอว่าจะไม่ไปข้างนอกจริง ๆ น่ะ วันนี้ใช่ว่าคนที่มาเที่ยวจะไม่แวะมาที่หอสักหน่อย"
+hi "แน่ใจเหรอว่าจะไม่ไปข้างนอกจริง ๆ น่ะ วันนี้คนที่มาเที่ยวเขาก็อาจจะมาที่หอด้วยก็ได้นะ"
 
 show kenji tsun
 with charachange
