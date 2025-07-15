@@ -4839,7 +4839,7 @@ with charamove_decel
 "พวกเรานั่งบนกองผ้าห่มที่เคนจิน่าจะเป็นคนขนขึ้นมาที่นี่"
 
 # "He produces an almost full bottle of whiskey and passes it to me."
-"เขาหยิบขวดวิสกี้ที่ที่มีวิสกี้อยู่เกือบเต็มขวดส่งมาให้ฉัน"
+"เขาหยิบขวดวิสกี้ที่มีวิสกี้อยู่เกือบเต็มขวดส่งมาให้ฉัน"
 
 # hi "You didn't even bring glasses?"
 hi "แก้วเกิ้วก็ไม่มีเหรอวะ"
