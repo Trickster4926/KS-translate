@@ -4092,62 +4092,78 @@ play ambient sfx_crowd_indoors fadein 0.5
 "ฉันเดินสวนทางฝูงชนคนหมู่มากไปตามสัญชาตญาณอันแสนจะทึบของฉัน"
 
 # "Thankfully, this crowd seems to be slightly less festive than your usual festival crowd; I assume this is out of consideration for the student body."
-"โชคยังดีที่"
+"โชคยังดีที่ฝูงชนจะน้อยกว่างานเทศกาลปกติทั่วไป คาดว่าเพราะความพิการด้วยแหละ"
 
 stop ambient fadeout 5.0
 
-"As I force my way through the masses, it doesn't take long for them to thin down into nothingness."
+# "As I force my way through the masses, it doesn't take long for them to thin down into nothingness."
+"ขณะที่ฉันฝ่าฟันฝูงชนจำนวนมาก ไม่นานนัก ฝูงชนเหล่านั้นก็ค่อย ๆ ลดจำนวนลงจนกลายเป็นความว่างเปล่า"
 
 hide crowd
 with Dissolve(2.0)
 
-"This is not surprising, since I am standing before the library."
+# "This is not surprising, since I am standing before the library."
+"ซึ่งก็ไม่แปลกเท่าไหร่ เพราะตอนนี้ฉันยืนอยู่ที่หน้าห้องสมุด"
 
-"Even the most eager of students don't bother to show anyone this section of the school."
+# "Even the most eager of students don't bother to show anyone this section of the school."
+"แม้แต่นักเรียนที่ขยันเรียนสุด ๆ ก็ไม่มีใครอยากมาแนะนำที่บริเวณนี้ของโรงเรียน"
 
 play music music_happiness fadein 2.0
 scene bg school_library
 with locationchange
 
-"As I enter the library, the noise of the festival fades into a dull background noise, and soon I am in the reading area at the rear of the room."
+# "As I enter the library, the noise of the festival fades into a dull background noise, and soon I am in the reading area at the rear of the room."
+"ทันทีที่ก้าวเข้ามายังห้องสมุด เสียงจากงานเทศกาลก็เงียบลงไปเป็นเสียงอู้อี้ และฉันก็เดินเข้ามาในบริเวณอ่านหนังสือที่\nอยู่หลังห้อง"
 
-"Behind one of the partitioned desks I see the top of a head, with straight, dark hair catching my eye."
+# "Behind one of the partitioned desks I see the top of a head, with straight, dark hair catching my eye."
+"หลังโต๊ะอ่านหนังสือตัวหนึ่ง ฉันเห็นหัวที่มีผมตรงสีเข้มสะดุดตา"
 
-hi "Hey, Hanako. I had a feeling I'd find you here…"
+# hi "Hey, Hanako. I had a feeling I'd find you here…"
+hi "อ้าวฮานาโกะ ว่าแล้วว่าต้องเจอเธอที่นี่…"
 
 show hanako def_shock:
     xpos 0.5 ypos 1.0 xanchor 0.5 yanchor 0.9
     easein 0.5 yanchor 1.0
 with charaenter
 
-"The head jumps a little in shock before slowly peeping over the partition."
+# "The head jumps a little in shock before slowly peeping over the partition."
+"หัวนั้นสะดุ้งเล็กน้อย ก่อนจะค่อย ๆ มองข้ามฉากกั้นของโต๊ะมา"
 
-ha "H-Hisao?"
+# ha "H-Hisao?"
+ha "ฮะ…ฮิซาโอะเหรอ?"
 
-hi "Hey. Lilly's pretty busy, so she sent me to find you."
+# hi "Hey. Lilly's pretty busy, so she sent me to find you."
+hi "เอ้อ ตอนนี้ลิลลี่ยุ่งมากเลยล่ะ เลยส่งฉันมาตามหาเธอนี่แหละ"
 
 show hanako basic_normal at center
 with charachange
 
-ha "O-oh. Do you want to sit down?"
+# ha "O-oh. Do you want to sit down?"
+ha "อะ…อ๋อ นายอยากจะนั่งไหมล่ะ"
 
-hi "Actually, I am feeling a little hungry. Would you like to get something to eat from one of the stands?"
+# hi "Actually, I am feeling a little hungry. Would you like to get something to eat from one of the stands?"
+hi "จริง ๆ ตอนนี้ก็หิวนิดหน่อยน่ะ เธอจะไปหาซื้ออะไรมากินจากแผงหน่อยไหม"
 
 show hanako defarms_worry
 with charachange
 
-ha "Um… I… I brought some food so…"
+# ha "Um… I… I brought some food so…"
+ha "เอ่อ… ฉัน… ฉันเตรียมข้าวมาแล้วน่ะ…"
 
-"I shouldn't be surprised, but it was worth a try. Expecting her to go outside today was a long shot."
+# "I shouldn't be surprised, but it was worth a try. Expecting her to go outside today was a long shot."
+"ก็ไม่แปลกใจเท่าไหร่ แต่อย่างน้อยก็ได้ลองชวนละนะ จะคาดหวังว่าเธอจะออกไปเดินงานข้างนอกวันนี้ดูจะยากไปหน่อย"
 
-hi "How about we eat in the tea room? I passed by it on the way here, and no one was around."
+# hi "How about we eat in the tea room? I passed by it on the way here, and no one was around."
+hi "งั้นเราเอาไปกินในห้องน้ำชากันดีไหม? เพิ่งเดินผ่านห้องนั้นมาก่อนหน้านี้เห็นว่าไม่มีคนอยู่แถวนั้นด้วย"
 
-hi "We can make some food there, and it'll be a little more comfortable. What do you say?"
+# hi "We can make some food there, and it'll be a little more comfortable. What do you say?"
+hi "เราจะได้ทำอาหารได้ด้วย แถมยังสบายกว่าด้วย ว่าไงล่ะ?"
 
 show hanako cover_distant
 with charachange
 
-ha "S-sure. Let's go."
+# ha "S-sure. Let's go."
+ha "อะ…เอาสิ ไปกันเถอะ"
 
 show hanako basic_distant
 with charachange
