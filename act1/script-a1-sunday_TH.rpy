@@ -4069,8 +4069,7 @@ with locationchange
 "ฉันเดินออกมาจากแผงของลิลลี่ แล้วมุ่งหน้าออกตามหาฮานาโกะ"
 
 # "In a way, I feel bad for leaving her with the crowds, but even though she was clearly under pressure, I can't help but think that she is enjoying herself."
-"ระหว่างทางก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลัง"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
+"ระหว่างทางก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลังจะกดดัน แต่ก็อดคิดไม่ได้ว่าเธอเอง\nก็สนุกไปกับมันด้วย"
 
 stop ambient fadeout 0.5
 
@@ -4080,15 +4079,20 @@ with locationskip
 
 play ambient sfx_crowd_indoors fadein 0.5
 
-"The halls are packed with swaying crowds meandering throughout the festival."
+# "The halls are packed with swaying crowds meandering throughout the festival."
+"ในอาคารเต็มไปด้วยผู้คนที่เบียดเสียดกันไปมาในงานเทศกาล"
 
-"If there's one thing I know about Hanako, it's that she's not going to be anywhere near this."
+# "If there's one thing I know about Hanako, it's that she's not going to be anywhere near this."
+"ถ้าจะมีสิ่งนึงที่ฉันจะรู้เกี่ยวกับฮานาโกะ สิ่งนั้นก็คือฮานาโกะไม่มีทางจะอยู่แถวนี้แน่ ๆ"
 
-"And with the students showing their friends and family their dorms, I doubt she'll be there either."
+# "And with the students showing their friends and family their dorms, I doubt she'll be there either."
+"แถมยังมีนักเรียนที่อยู่กับเพื่อน ๆ และครอบครัวอีก ยิ่งไม่น่าเป็นไปได้ไปใหญ่"
 
-"Following blind intuition, I move against the grain of the crowd."
+# "Following blind intuition, I move against the grain of the crowd."
+"ฉันเดินสวนทางฝูงชนคนหมู่มากไปตามสัญชาตญาณอันแสนจะทึบของฉัน"
 
-"Thankfully, this crowd seems to be slightly less festive than your usual festival crowd; I assume this is out of consideration for the student body."
+# "Thankfully, this crowd seems to be slightly less festive than your usual festival crowd; I assume this is out of consideration for the student body."
+"โชคยังดีที่"
 
 stop ambient fadeout 5.0
 
