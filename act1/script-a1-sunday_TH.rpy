@@ -4023,30 +4023,40 @@ with None
 
 show lilly basic_reminisce at center
 with charaenter
+# "แม้ส่วนใหญ่จะทำงานไปอย่างค่อนข้างสบาย ๆ แต่ลิลลี่ดูจะยังเครียด ๆ "
 
-"Lilly doesn’t look impressed at all, and I can't really blame her."
+# "Lilly doesn’t look impressed at all, and I can't really blame her."
+"ลิลลี่เองก็ดูท่าจะไม่ชอบใจเท่าไหร่ ก็ว่าอะไรเธอไม่ได้ล่ะนะ"
 
-"On top of her issues with her stall, she still seems to be worried about Hanako."
+# "On top of her issues with her stall, she still seems to be worried about Hanako."
+"นอกจากภาระงานที่แผงแล้ว เธอยังคงเป็นห่วงฮานาโกะอีกด้วย"
 
-"I can't really help her with the former, so I guess the only way I can help is by trying to take her mind off our shy mutual friend."
+# "I can't really help her with the former, so I guess the only way I can help is by trying to take her mind off our shy mutual friend."
+"ฉันเองก็ช่วยอะไรงานแผงไม่ได้ คงมีทางเดียวที่ช่วยได้ก็คือช่วยให้เธอเลิกเป็นห่วงเพื่อนที่แสนจะขี้อายของเรา"
 
-"Placing the bowl back on the counter, I call out to Lilly."
+# "Placing the bowl back on the counter, I call out to Lilly."
+"ฉันวางถ้วยไว้คืนบนเคาน์เตอร์ และบอกลิลลี่"
 
-hi "Hey, Lilly, don't worry about Hanako. I'll go find her and hang out with her, okay?"
+# hi "Hey, Lilly, don't worry about Hanako. I'll go find her and hang out with her, okay?"
+hi "นี่ลิลลี่ อย่าเป็นห่วงฮานาโกะไปเลย เดี๋ยวฉันไปตามหาและไปอยู่เป็นเพื่อน โอเคนะ?"
 
 show lilly basic_weaksmile
 with charachange
 
-"I can see Lilly's relief plainly written across her face."
+# "I can see Lilly's relief plainly written across her face."
+"สีหน้าที่โล่งอกของลิลลี่แสดงออกมาอย่างเห็นได้ชัด"
 
-li "Thanks Hisao. And if you see anyone from my class, can you tell them to come back here please?"
+# li "Thanks Hisao. And if you see anyone from my class, can you tell them to come back here please?"
+li "ขอบใจจ้ะฮิซาโอะ แล้วก็ถ้าผ่านไปเห็นคนในชั้นเรียนของฉัน ช่วยฝากบอกพวกเขาหน่อยว่ากลับมาที่แผงที"
 
-hi "Will do. Have a good one. And make sure you take a break, okay?"
+# hi "Will do. Have a good one. And make sure you take a break, okay?"
+hi "ได้สิ โชคดีนะ แล้วก็อย่าลืมพักด้วยล่ะ โอเคไหม?"
 
 show lilly basic_smile
 with charachange
 
-li "I will if I can. See you later, Hisao."
+# li "I will if I can. See you later, Hisao."
+li "ฉันจะพยายามนะ ไว้เจอกันจ้ะฮิซาโอะ"
 
 stop music fadeout 10.0
 $ renpy.music.set_volume(1.0,1.0, "ambient")
@@ -4055,9 +4065,12 @@ scene bg school_courtyard
 show crowd
 with locationchange
 
-"I leave Lilly in the stall and head out in search of Hanako."
+# "I leave Lilly in the stall and head out in search of Hanako."
+"ฉันเดินออกมาจากแผงของลิลลี่ แล้วมุ่งหน้าออกตามหาฮานาโกะ"
 
-"In a way, I feel bad for leaving her with the crowds, but even though she was clearly under pressure, I can't help but think that she is enjoying herself."
+# "In a way, I feel bad for leaving her with the crowds, but even though she was clearly under pressure, I can't help but think that she is enjoying herself."
+"ระหว่างทางก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลัง"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 stop ambient fadeout 0.5
 
