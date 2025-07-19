@@ -221,7 +221,6 @@ ke "เชี่ยเอ๊ย แม่ง! แม่ง!"
 label th_A38b:
 #If on Lilly or Hanako's route
 
-# hi "I don't know. I'm pretty hungry so I thought I'd get some food first and then check out the attractions."
 hi "ไม่รู้ดิ ตอนนี้ก็หิว ๆ อยู่เลยว่าจะหาไรกินหน่อยแล้วค่อยหาไรทำ"
 
 # hi "Your class project seemed pretty cool, and I gave a hand with it so I want to see at least that one and chat with Lilly I guess."
