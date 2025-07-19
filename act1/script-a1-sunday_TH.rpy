@@ -4256,7 +4256,7 @@ with charachange
 ha "มัน… เป็นเกมน่ะ"
 
 # hi "Game?"
-hi "เกมเหรอ?"
+hi "เกมเหรอ"
 
 show hanako emb_downsmile
 with charachange
