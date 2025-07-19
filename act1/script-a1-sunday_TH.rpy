@@ -4169,7 +4169,9 @@ with charachange
 
 "Hanako closes her book and puts it away with deliberate, practiced movements."
 
-hi "Good to go?"
+
+# hi "Good to go?"
+hi "ไปกันเลยไหม"
 
 show hanako basic_normal
 with charachange
