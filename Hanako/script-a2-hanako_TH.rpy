@@ -59,40 +59,50 @@ li "จริง ๆ ฉันว่าเราน่าจะออกไป�
 show hanako def_worry_close
 with charachange
 
-"The instant drop in Hanako's face shows her objection to this plan, even though she says nothing."
+# "The instant drop in Hanako's face shows her objection to this plan, even though she says nothing."
+"สีหน้าของฮานาโกะที่เปลี่ยนไปในทันที ก็ฟ้องเลยว่าไม่เห็นด้วยกับแผนนี้ แม้ว่าเธอจะไม่ได้พูดอะไรเลยก็ตาม"
 
-"I feel strangely compelled to voice what is plainly in view on her face, but Lilly can't see."
+# "I feel strangely compelled to voice what is plainly in view on her face, but Lilly can't see."
+"ฉันรู้สึกแปลก ๆ ที่ต้องบอกสิ่งที่เห็นอยู่บนหน้าเธอจะจะ แต่ลิลลี่มองไม่เห็น"
 
-hi "I… I kinda think that we should just stay here…"
+# hi "I… I kinda think that we should just stay here…"
+hi "เอ่อ… ฉันว่าเราน่าจะอยู่ที่นี่ดีกว่านะ…"
 
 show lilly basic_surprised at twoleft
 with charachange
 
-li "Really? It's so crowded here that I was thinking we should leave the school and head for the local teahouse."
+# li "Really? It's so crowded here that I was thinking we should leave the school and head for the local teahouse."
+li "งั้นเหรอ? แต่ที่นี่คนเยอะมากเลยว่าจะออกไปนอกโรงเรียนไปโรงน้ำชาแถว ๆ นี้น่ะจ้ะ"
 
 show hanako emb_blushtimid_close
 with charachange
 
-ha "You mean the S-Shanghai?"
+# ha "You mean the S-Shanghai?"
+ha "หรือว่าพูดถึง ซะ…เซี่ยงไฮ้?"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Of course; with everyone at the festival it should be practically empty."
+# li "Of course; with everyone at the festival it should be practically empty."
+li "นั่นแหละ เพราะทุกคนมางานเทศกาล ที่นั่นก็น่าจะโล่งพอตัว"
 
-hi "Teahouse?"
+# hi "Teahouse?"
+hi "โรงน้ำชาเหรอ?"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Oh, that's right, you probably don't know of it."
+# li "Oh, that's right, you probably don't know of it."
+li "อ้อ ใช่ ๆ นายน่าจะยังไม่รู้จัก"
 
 show lilly basic_smile
 with charachange
 
-li "There is a teahouse not far from here, which we go to every so often."
+# li "There is a teahouse not far from here, which we go to every so often."
+li "ไม่ไกลจากที่นี่มีโรงน้ำชาที่พวกเราไปบ่อย ๆ อยู่"
 
-hi "Sounds like a plan. Hanako, what do you think?"
+# hi "Sounds like a plan. Hanako, what do you think?"
+hi "ก็โอเคนะ ฮานาโกะเธอว่าไงล่ะ?"
 
 show hanako defarms_shock_close
 with Dissolve(0.2)
@@ -100,26 +110,32 @@ with Dissolve(0.2)
 show hanako def_worry_close
 with charachange
 
-"Hanako jumps a little at being forced into the conversation, but at least she seems less distraught than before."
+# "Hanako jumps a little at being forced into the conversation, but at least she seems less distraught than before."
+"เธอสะดุ้งนิดหน่อยที่จู่ ๆ ก็โดนดึงเข้ามาคุยด้วย แต่ก็ดีหน่อยตรงที่ดูไม่ค่อยเป็นทุกข์เหมือนก่อนหน้านี้"
 
 show hanako cover_bashful_close
 with charachange
 
-ha "If… if it's the Shanghai, I think it'll be nice."
+# ha "If… if it's the Shanghai, I think it'll be nice."
+ha "ถะ… ถ้าเป็นเซี่ยงไฮ้ละก็ ฉันว่าก็ดีนะ"
 
 show lilly basic_planned
 with charachange
 
-li "Well then, it's settled. Let's be on our way."
+# li "Well then, it's settled. Let's be on our way."
+li "ถ้างั้นก็ตกลงตามนี้นะ ไปกันเถอะจ้ะ"
 
 show hanako basic_bashful
 with charadistant
 
-"Hanako and I rise from the table and our preempted chess game."
+# "Hanako and I rise from the table and our preempted chess game."
+"ฮานาโกะกับฉันลุกขึ้นจากโต๊ะ แล้วก็เลิกเกมหมากรุกที่ยังเล่นไม่ทันจบ"
 
-"Before I can do anything, Hanako has poured the pieces into a small container and placed the board away."
+# "Before I can do anything, Hanako has poured the pieces into a small container and placed the board away."
+"ฮานาโกะเทหมากใส่กล่องเล็ก ๆ และเก็บกระดานโดยที่ฉันยังไม่ได้ทำได้อะไร"
 
-hi "Looks like we're ready now. Please, lead on."
+# hi "Looks like we're ready now. Please, lead on."
+hi "ดูท่าทุกคนจะพร้อมแล้วล่ะ ช่วยพาไปที"
 
 stop music fadeout 8.0
 
@@ -130,7 +146,8 @@ show hanako emb_smile at Transform(xanchor=0.5, xpos=0.58)
 show lilly basic_smileclosed at Transform(xanchor=0.5, xpos=0.42)
 with charaenter
 
-"Hanako moves to Lilly's side and we venture onto the school's corridors."
+# "Hanako moves to Lilly's side and we venture onto the school's corridors."
+"ฮานาโกะเดินไปข้าง ๆ ลิลลี่แล้วพวกเราก็ออกไปเดินในโถงทางเดินของโรงเรียน"
 
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 
@@ -139,26 +156,33 @@ play ambient sfx_crowd_outdoors fadein 1.0
 scene bg school_gate_ss
 with locationskip
 
-"The pair leads me through a series of unfamiliar doors, and we emerge on the side of the building opposite of the festival grounds."
+# "The pair leads me through a series of unfamiliar doors, and we emerge on the side of the building opposite of the festival grounds."
+"ทั้งคู่พาฉันเดินผ่านประตูที่ไม่คุ้นตาหลายบาน แล้วเราก็โผล่มาอีกฝั่งของตึกที่อยู่ตรงข้ามกับลานจัดงานเทศกาลพอดี"
 
-"Insulated by the heavy stone of the building, the noise from the crowd has faded to a murmur."
+# "Insulated by the heavy stone of the building, the noise from the crowd has faded to a murmur."
+"เพราะตึกหินที่หนาเตอะ เสียงฝูงชนเลยจางลงจนเหลือแค่เสียงอู้อี้เบา ๆ เท่านั้น"
 
-hi "Strange; I thought that most people would be beginning to leave by now…"
+# hi "Strange; I thought that most people would be beginning to leave by now…"
+hi "แปลกจัง ฉันนึกว่าคนส่วนใหญ่น่าจะกลับไปแล้วเสียอีก"
 
 show hanako emb_downtimid_ss at Transform(xanchor=0.5, xpos=0.58)
 show lilly basic_smile_ss at Transform(xanchor=0.5, xpos=0.42)
 with charaenter
 
-li "They're probably here to view the fireworks."
+# li "They're probably here to view the fireworks."
+li "พวกเขาน่าจะมารอดูพลุนะจ้ะ"
 
-hi "Fireworks?"
+# hi "Fireworks?"
+hi "พลุเหรอ?"
 
 show lilly basic_weaksmile_ss
 with charachange
 
-li "Yes, apparently the school puts on quite a show. A lot of people come from town just to watch them."
+# li "Yes, apparently the school puts on quite a show. A lot of people come from town just to watch them."
+li "ใช่ ดูเหมือนโรงเรียนจะจัดงานได้อลังการน่าดูเลยล่ะ คนมาจากในเมืองแค่จะมาดูพลุเยอะเลยจ้ะ"
 
-"Lilly's decision to leave the school grounds seems to make sense now. Hanako would probably have a hard time with the whole town descending onto the school. Or ascending, as the case may be."
+# "Lilly's decision to leave the school grounds seems to make sense now. Hanako would probably have a hard time with the whole town descending onto the school. Or ascending, as the case may be."
+"การตัดสินใจของลิลลี่เริ่ม"
 
 stop ambient fadeout 7.0
 play music music_tranquil fadein 3.0
@@ -166,9 +190,11 @@ play music music_tranquil fadein 3.0
 scene bg school_road_ss
 with locationchange
 
-"For the second time since arriving at Yamaku I find myself walking down this road with Lilly."
+# "For the second time since arriving at Yamaku I find myself walking down this road with Lilly."
+"นี่เป็นรอบที่สองแล้วนับตั้งแต่ที่ฉันเข้ามายามากุ ที่ฉันได้เดินบนถนนเส้นนี้กับลิลลี่"
 
-"Only now that I can barely hear the incessant noise of the festival do I realize how loud it was. I can hear my ears ringing slightly in the still evening air as they recover from the day's assault on them."
+# "Only now that I can barely hear the incessant noise of the festival do I realize how loud it was. I can hear my ears ringing slightly in the still evening air as they recover from the day's assault on them."
+"พอมาถึงตอนนี้ฉันแทบไม่ได้ยินเสียงงานเทศกาลที่ดังไม่หยุด ก็เลยเพิ่งรู้ว่ามันดังขนาดไหน ฉันยังได้ยินเสียงหูอื้อนิด ๆ\nในอากาศยามเย็นที่เงียบสงบเลย เหมือนหูมันกำลังฟื้นตัวจากที่โดนกระหน่ำมาทั้งวัน"
 
 show hanako emb_emb_ss at Transform(xanchor=0.5, xpos=0.58)
 show lilly basic_smileclosed_ss at Transform(xanchor=0.5, xpos=0.42)
