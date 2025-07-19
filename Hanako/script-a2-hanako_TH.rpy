@@ -182,7 +182,7 @@ with charachange
 li "ใช่ ดูเหมือนโรงเรียนจะจัดงานได้อลังการน่าดูเลยล่ะ คนมาจากในเมืองแค่จะมาดูพลุเยอะเลยจ้ะ"
 
 # "Lilly's decision to leave the school grounds seems to make sense now. Hanako would probably have a hard time with the whole town descending onto the school. Or ascending, as the case may be."
-"การตัดสินใจของลิลลี่เริ่ม"
+"พอจะเข้าใจแล้วว่าทำไมลิลลี่ถึงเลือกที่จะไม่อยู่ที่โรงเรียน เพราะฮานาโกะก็คงจะอึดอัดกับจำนวนคนที่แห่ลงมาดูงานกันขนาดนั้น หรือจะเรียกว่าแห่ขึ้นมาดูก็ไม่น่าผิด"
 
 stop ambient fadeout 7.0
 play music music_tranquil fadein 3.0
@@ -200,13 +200,17 @@ show hanako emb_emb_ss at Transform(xanchor=0.5, xpos=0.58)
 show lilly basic_smileclosed_ss at Transform(xanchor=0.5, xpos=0.42)
 with charaenter
 
-"Hanako clings to Lilly, but still manages to guide her along the road. That, and avoiding the occasional gaze from curious pedestrians, appears to completely sap her constitution."
+# "Hanako clings to Lilly, but still manages to guide her along the road. That, and avoiding the occasional gaze from curious pedestrians, appears to completely sap her constitution."
+"ฮานาโกะเกาะลิลลี่แน่นเลย แต่ก็ยังพอจะพาลิลลี่เดินไปตามทางได้อยู่ ไหนจะเรื่องนั้นแล้ว ไหนจะต้องคอยหลบสายตา\nอยากรู้อยากเห็นจากคนที่เดินผ่านไปมาอีก ดูท่าทางจะทำให้เธอหมดแรงไปเลยล่ะ"
 
-"She rarely raises her focus from the ground in front of her, nor does she utter a word."
+# "She rarely raises her focus from the ground in front of her, nor does she utter a word."
+"เธอไม่ค่อยเงยหน้ามองจากพื้นตรงหน้าเลย แถมยังไม่ปริปากพูดอะไรออกมาสักคำด้วย"
 
-"Lilly, on the other hand, maintains her prim and proper persona just as she does in school. It's obvious she purposely puts effort into her appearance, rather than hiding it as Hanako does."
+# "Lilly, on the other hand, maintains her prim and proper persona just as she does in school. It's obvious she purposely puts effort into her appearance, rather than hiding it as Hanako does."
+"ส่วนลิลลี่เอง เธอก็ยังคงท่าทางเรียบร้อยเป๊ะเหมือนที่อยู่โรงเรียน เห็นได้ชัดว่าเธอตั้งใจทุ่มเทกับการรักษาภาพลักษณ์\nของตัวเอง ไม่ได้พยายามซ่อนมันไว้เหมือนอย่างที่ฮานาโกะทำ"
 
-"It's striking how different they are in their way of holding themselves outside of Yamaku's grounds. That said, it's obvious in both their cases that they do visibly change."
+# "It's striking how different they are in their way of holding themselves outside of Yamaku's grounds. That said, it's obvious in both their cases that they do visibly change."
+"มันน่าทึ่งนะว่าพวกเธอแตกต่างกันแค่ไหนในการวางตัวเวลาอยู่นอกรั้วยามากุ แต่ถึงอย่างนั้น ก็เห็นได้ชัดว่าทั้งคู่เปลี่ยนไปจากเดิมอย่างเห็นได้ชัดเลย"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
@@ -218,15 +222,15 @@ $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 nvl show dissolve
 
-n "\n\n\nInside Yamaku, everyone is “special,” which negates the “special-ness” of it."
+n "\n\n\nที่โรงเรียนยามากุ ทุกคนต่าง “พิเศษ” ซึ่งจะทำให้ “ความพิเศษ” นั้นกลับเป็นความปกติ"
 
-n "But once we venture outside the school gates, we are returned to the status of “outsider” and generic labels."
+n "แต่เมื่อก้าวเท้าออกมาจากรั้วโรงเรียนแล้ว เราก็จะมีป้าย “คนนอก” และอื่น ๆ แปะอยู่กับตัวดังเดิม"
 
-n "Especially when we are still in school uniform. It's like hanging a sign around your neck challenging people to figure out what is wrong with you."
+n "ยิ่งเมื่อมีชุดนักเรียนอยู่ด้วยแล้ว ก็ไม่ต่างอะไรกับการแขวนป้ายไว้กับคอรอให้คนอื่นทายว่าตัวเองนั้นมีอะไรที่ผิดปกติ"
 
-n "I'm surprised that so many of the students keep it on. Then again, with canes and wheelchairs common among the students, I guess it's not really that much of a giveaway."
+n "ฉันนึกแปลกใจที่มีนักเรียนหลายคนใส่ชุดนักเรียนไปไหนมาไหน แต่ก็นะ ในเมื่อหลายคนมีไม้เท้าติดตัว นั่งวีลแชร์ จะใส่ไม่ใส่ก็คงดูออกอยู่ดี"
 
-n "\nOr maybe I'm the only one that sees this as a stigma? Maybe you get used to it after a time, like any other school uniform."
+n "\nหรือมีแค่ฉันที่มองว่าเรื่องนี้มันแปลก ๆ กันนะ พออยู่นาน ๆ ไปแล้วอาจจะชินตาขึ้นมาอย่างชุดนักเรียนโรงเรียนอื่น ๆ ก็ได้"
 
 nvl hide dissolve
 
@@ -239,11 +243,14 @@ with locationskip
 
 window show
 
-"The teahouse seems fairly standard from the outside; just an ordinary building with typical signs decorating the entrance."
+# "The teahouse seems fairly standard from the outside; just an ordinary building with typical signs decorating the entrance."
+"โรงน้ำชาจากด้านนอกก็ดูปกติทั่วไป ก็แค่ตึกที่มีป้ายตกแต่งที่หน้าทางเข้า"
 
-"It looks like the type of place you'd walk by without a thought, just another generic café in a sea of thousands."
+# "It looks like the type of place you'd walk by without a thought, just another generic café in a sea of thousands."
+"เป็นที่ที่คนเดินผ่านโดยไม่คิดอะไร ก็แค่คาเฟทั่ว ๆ ไปเหมือน ๆ กับที่อื่น"
 
-"If Hanako hadn't steered Lilly into the entrance I would have continued on down the road without ever knowing that it existed."
+# "If Hanako hadn't steered Lilly into the entrance I would have continued on down the road without ever knowing that it existed."
+"ถ้าฮานาโกะไม่ได้ดึงลิลลี่เข้ามาที่หน้าร้าน ฉันคงเดินผ่านเลยไปตามถนนโดยไม่รู้ด้วยซ้ำว่ามีร้านนี้อยู่"
 
 play sound sfx_storebell
 
@@ -252,13 +259,17 @@ with locationchange
 
 stop music fadeout 6.0
 
-"Inside the teahouse it takes on a more traditional feel. Everything seems to have been made from the same lump of timber, from the counter and benches to the high-backed booths around the walls."
+# "Inside the teahouse it takes on a more traditional feel. Everything seems to have been made from the same lump of timber, from the counter and benches to the high-backed booths around the walls."
+"ภายในโรงน้ำชาให้ความรู้สึกแบบดั้งเดิมมากขึ้น ทุกอย่างดูเหมือนจะทำมาจากไม้ชิ้นเดียวกันหมดเลย ตั้งแต่เคาน์เตอร์ ม้านั่ง\nไปจนถึงซุ้มที่นั่งพนักพิงสูงที่อยู่รอบผนัง"
 
-"But the most striking feature of the room is the lack of life. I think I can faintly hear something bubbling away in the background, but otherwise the room is silent."
+# "But the most striking feature of the room is the lack of life. I think I can faintly hear something bubbling away in the background, but otherwise the room is silent."
+"แต่สิ่งที่โดดเด่นที่สุดในห้องนี้คือ ความว่างเปล่าไร้ชีวิตชีวา ฉันคิดว่าแว่ว ๆ ได้ยินเสียงอะไรบางอย่างกำลังเดือดปุด ๆ\nอยู่ไกล ๆ แต่นอกเหนือจากเสียงนั้นห้องนี้ก็เงียบสนิทเลย"
 
-"Without any direction, we simply wait near the entrance, politely obeying the “Please wait to be seated” sign."
+# "Without any direction, we simply wait near the entrance, politely obeying the “Please wait to be seated” sign."
+"ไม่มีใครบอกอะไร พวกเราก็แค่ยืนรออยู่ตรงทางเข้า ทำตามป้าย “กรุณารอพนักงานจัดที่นั่ง” อย่างว่าง่าย"
 
-hi "Er, is this place closed or something?"
+# hi "Er, is this place closed or something?"
+hi "เอ่อ ที่นี่ปิดอยู่หรือเปล่านะ?"
 
 stop music
 play sound sfx_impact2
@@ -269,7 +280,8 @@ show yuukoshang panic_up:
 show bg suburb_shanghaiint at right
 with vpunch
 
-"The sound of a chair falling over echoes throughout the empty room, and a head shoots up from inside a booth."
+# "The sound of a chair falling over echoes throughout the empty room, and a head shoots up from inside a booth."
+"เสียงเก้าอี้ล้มดังก้องไปทั่วห้องที่ว่างเปล่า แล้วก็มีหัวโผล่ขึ้นมาจากในซุ้มที่นั่งทันที"
 
 play music music_comedy fadein 0.5
 
@@ -277,23 +289,29 @@ show yuukoshang neurotic_up:
     ypos 1.0 alpha 1.0
 with charachange
 
-yu "I wasn't asleep and welcome to the Shanghai!"
+# yu "I wasn't asleep and welcome to the Shanghai!"
+yu "ฉันไม่ได้หลับนะคะ และก็ยินดีต้อนรับสู่เซี่ยงไฮ้ค่ะ!"
 
-"Yuuko, dressed in a pastel apron and clutching a menu, rushes to greet us. Her misaligned glasses and ruffled hair cast suspicion on her previous statement."
+# "Yuuko, dressed in a pastel apron and clutching a menu, rushes to greet us. Her misaligned glasses and ruffled hair cast suspicion on her previous statement."
+"ยูโกะที่ใส่ผ้ากันเปื้อนสีพาสเทลและกำเมนูแน่นรีบวิ่งมารับพวกเราเลย แว่นที่เอียง ๆ กับผมที่ยุ่งเหยิงของเธอมันทำให้คำพูด\nก่อนหน้านี้ของเธอดูไม่น่าเชื่อถือเท่าไหร่"
 
-"But whether she was asleep or not isn't the first question that leaps to my mind."
+# "But whether she was asleep or not isn't the first question that leaps to my mind."
+"แต่จะหลับหรือไม่ก็ช่าง ก็ไม่ใช่คำถามแรกในหัวของฉันเลย"
 
-hi "You work here now? What happened to the library?"
+# hi "You work here now? What happened to the library?"
+hi "คุณมาทำงานที่นี่แล้วเหรอครับ? เกิดอะไรขึ้นกับห้องสมุดเหรอครับ"
 
 show yuukoshang smile_down
 with charachange
 
-yu "What? Lilly? Hisao?"
+# yu "What? Lilly? Hisao?"
+yu "เดี๋ยวนะ ลิลลี่ ฮิซาโอะเหรอ"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Welcome to the Shanghai!"
+# yu "Welcome to the Shanghai!"
+yu "ยินดีต้อนรับสู่เซี่ยงไฮ้ค่ะ!"
 
 show yuukoshang noglasses_up at Transform(ypos=1.25)
 with Dissolvemove(0.2)
@@ -305,11 +323,14 @@ with Pause(0.3)
 show yuukoshang noglasses_up at center
 with charamove
 
-"Yuuko, still waking up, jerks into a violent bow, dislodging her glasses in the process."
+# "Yuuko, still waking up, jerks into a violent bow, dislodging her glasses in the process."
+"ยูโกะที่ยังสะลึมสะลืออยู่ก็ โผล่งตัวโค้งคำนับอย่างแรง จนแว่นกระเด็นหลุดไปเลย"
 
-yu "Uweh!? My glasses…"
+# yu "Uweh!? My glasses…"
+yu "อุหวา!? แว่นของฉัน…"
 
-"As I pick up her spectacles off the floor, Lilly offers an explanation."
+# "As I pick up her spectacles off the floor, Lilly offers an explanation."
+"ตอนที่ฉันกำลังหยิบแว่นของเธอบนพื้น ลิลลี่ก็เอ่ยปากอธิบายขึ้น"
 
 show yuukoshang noglasses_up at tworight
 show bg suburb_shanghaiint at center
@@ -318,34 +339,41 @@ with charamove
 show lilly basic_weaksmile at twoleft
 with charaenter
 
-li "Yuuko works here part-time as well as at the library. It's one of the reasons we like to come here."
+# li "Yuuko works here part-time as well as at the library. It's one of the reasons we like to come here."
+li "ยูโกะทำงานพาร์ทไทม์เหมือนที่ห้องสมุดน่ะ ก็เป็นอีกเหตุผลที่เรามาที่นี่น่ะจ้ะ"
 
 show yuukoshang neurotic_up
 with charachange
 
-"Yuuko takes her glasses from my hands, shakily putting them back on."
+# "Yuuko takes her glasses from my hands, shakily putting them back on."
+"ยูโกะรับแว่นไปจากมือของฉัน แล้วค่อย ๆ ใส่กลับเข้าที่อย่างสั่น ๆ"
 
-yu "Yes… that's right… thanks…"
+# yu "Yes… that's right… thanks…"
+yu "ใช่… ใช่แล้วล่ะ… ขอบใจจ้ะ…"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "Shall I show you to your table?"
+# yu "Shall I show you to your table?"
+yu "ให้ฉันพาไปที่โต๊ะไหม"
 
 show yuukoshang worried_up
 with charachange
 
-yu "There's no-one else here so you can choose your table and order whatever you like, but there may be a delay as I will have to make it myself…"
+# yu "There's no-one else here so you can choose your table and order whatever you like, but there may be a delay as I will have to make it myself…"
+yu "ที่นี่ไม่มีใครเลย พวกเธอเลือกโต๊ะได้ตามสบายเลยนะ อยากสั่งอะไรก็ได้ แต่ว่าอาจจะต้องรอนานหน่อยนะ เพราะฉันต้อง\nทำเองทั้งหมดเลย…"
 
 show lilly basic_smile at twoleft
 with charaenter
 
-li "It's all right, Yuuko. Just a pot of black tea and a plate of sandwiches will be fine."
+# li "It's all right, Yuuko. Just a pot of black tea and a plate of sandwiches will be fine."
+li "ไม่ต้องเป็นห่วงหรอก ยูโกะ แค่ชาดำกาหนึ่งกับแซนด์วิชสักจานก็พอแล้ว"
 
 show yuukoshang happy_down
 with charachange
 
-yu "Right! I'll get right onto that!"
+# yu "Right! I'll get right onto that!"
+yu "ได้ค่ะ! เดี๋ยวฉันจัดการให้เดี๋ยวนี้เลย!"
 
 hide yuukoshang
 with charaexit
@@ -354,11 +382,14 @@ show lilly basic_smile at center
 show bg suburb_shanghaiint at bgright
 with charamove
 
-"Yuuko hurries off to the back of the café, leaving us still standing at the entrance."
+# "Yuuko hurries off to the back of the café, leaving us still standing at the entrance."
+"ยูโกะรีบวิ่งไปทางด้านหลังคาเฟ ปล่อยให้พวกเรายืนอยู่ที่ทางเข้า"
 
-"She pushes the swinging half-doors open before realizing that she hasn't seated us."
+# "She pushes the swinging half-doors open before realizing that she hasn't seated us."
+"เธอผลักประตูบานสวิงออกไป ก่อนที่จะนึกขึ้นได้ว่ายังไม่ได้จัดที่นั่งให้พวกเรา"
 
-yu "I'm sorry! I'm sorry! Please, sit wherever you'd like! I'll be right back!"
+# yu "I'm sorry! I'm sorry! Please, sit wherever you'd like! I'll be right back!"
+yu "ขอโทษค่ะ! ขอโทษค่ะ! เลือกโต๊ะได้ตามสบายเลยนะ! เดี๋ยวฉันมา!"
 
 stop music fadeout 3.0
 
@@ -368,7 +399,8 @@ with charaexit
 show bg suburb_shanghaiint at bgleft
 with charamove
 
-"Following her advice, I lead Lilly to the nearest booth as Hanako follows."
+# "Following her advice, I lead Lilly to the nearest booth as Hanako follows."
+"ทำตามที่เธอบอก ฉันก็พาลิลลี่ไปที่ซุ้มที่นั่งที่อยู่ใกล้ที่สุด โดยมีฮานาโกะเดินตามมา"
 
 show lilly basic_smileclosed:
     twoleft
