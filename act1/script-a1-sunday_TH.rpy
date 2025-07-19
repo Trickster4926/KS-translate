@@ -4069,7 +4069,7 @@ with locationchange
 "ฉันเดินออกมาจากแผงของลิลลี่ แล้วมุ่งหน้าออกตามหาฮานาโกะ"
 
 # "In a way, I feel bad for leaving her with the crowds, but even though she was clearly under pressure, I can't help but think that she is enjoying herself."
-"ระหว่างทางก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลังจะกดดัน แต่ก็อดคิดไม่ได้ว่าเธอเอง\nก็สนุกไปกับมันด้วย"
+"จริง ๆ ก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลังจะกดดัน แต่ก็อดคิดไม่ได้ว่าเธอเอง\nก็สนุกไปกับมันด้วย"
 
 stop ambient fadeout 0.5
 
