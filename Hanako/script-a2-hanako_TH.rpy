@@ -9,7 +9,8 @@ play sound sfx_doorknock2
 show hanako emb_timid_close
 with charachange
 
-"As we are setting up the pieces, there is a noise at the door."
+# "As we are setting up the pieces, there is a noise at the door."
+"พอพวกเรากำลังตั้งกระดานใหม่ ก็มีเสียงที่ประตู"
 
 play sound sfx_dooropen
 
@@ -20,33 +21,40 @@ with charamove
 show lilly basic_smileclosed at twoleft
 with charaenter
 
-li "Good afternoon."
+# li "Good afternoon."
+li "ทิวาสวัสดิ์จ้ะ"
 
 play music music_lilly fadein 4.0
 
 show hanako emb_emb_close
 with charachange
 
-ha "Lilly…"
+# ha "Lilly…"
+ha "ลิลลี่…"
 
-hi "Oh, hey there Lilly. Are you finished?"
+# hi "Oh, hey there Lilly. Are you finished?"
+hi "อ้าว ว่าไงลิลลี่ งานเสร็จแล้วเหรอ?"
 
 show lilly basic_smile at twoleft
 with charachange
 
-li "You both are here? Wonderful. At any rate, our teacher managed to round up some extra help, so I was able to leave. Have you been here since you left?"
+# li "You both are here? Wonderful. At any rate, our teacher managed to round up some extra help, so I was able to leave. Have you been here since you left?"
+li "พวกเธออยู่ที่นี่ทั้งคู่เลยเหรอ ดีเลย พอดีครูเราหาคนมาช่วยได้เพิ่มน่ะ ฉันเลยออกมาได้ แล้วนี่นายมาที่นี่ตั้งแต่ตอนที่ออกมา\nเลยหรือเปล่า?"
 
-hi "Pretty much, we've just been playing a bit of chess."
+# hi "Pretty much, we've just been playing a bit of chess."
+hi "ประมาณนั้นแหละ พวกเราเพิ่งเล่นหมากรุกไปกันนิดหน่อย"
 
 show hanako emb_smile_close
 with charachange
 
-ha "W-would you like a cup of tea?"
+# ha "W-would you like a cup of tea?"
+ha "ดะ…ดื่มชาหน่อยไหม?"
 
 show lilly basic_weaksmile at twoleft
 with charachange
 
-li "Actually, I think it may be a good idea to go outside for a little while…"
+# li "Actually, I think it may be a good idea to go outside for a little while…"
+li "จริง ๆ ฉันว่าเราน่าจะออกไปเดินข้างนอกกันสักหน่อยดีกว่า…"
 
 show hanako def_worry_close
 with charachange
