@@ -4167,8 +4167,8 @@ ha "อะ…เอาสิ ไปกันเถอะ"
 show hanako basic_distant
 with charachange
 
-"Hanako closes her book and puts it away with deliberate, practiced movements."
-
+# "Hanako closes her book and puts it away with deliberate, practiced movements."
+"ฮานาโกะปิดหนังสือของเธอและเก็บมันด้วยท่าทางที่เคยชิน"
 
 # hi "Good to go?"
 hi "ไปกันเลยไหม"
@@ -4176,23 +4176,28 @@ hi "ไปกันเลยไหม"
 show hanako basic_normal
 with charachange
 
-ha "Y…yeah."
+# ha "Y…yeah."
+ha "อะ…อื้ม"
 
 stop music fadeout 2.0
 
 scene bg school_hallway2
 with locationchange
 
-"We walk side-by-side from the library to the tea room."
+# "We walk side-by-side from the library to the tea room."
+"พวกเราเดินข้างกันจากห้องสมุดไปยังห้องน้ำชา"
 
-"As expected, there is barely a soul around."
+# "As expected, there is barely a soul around."
+"ซึ่งอย่างที่คาด แถวนี้แทบไม่ค่อยมีคนเลย"
 
-"If it weren't for the murmurs through the walls, you wouldn't tell that there was a huge festival going on outside."
+# "If it weren't for the murmurs through the walls, you wouldn't tell that there was a huge festival going on outside."
+"ถ้าไม่ได้มีเสียงเล็ดลอดผ่านมาทางกำแพง ก็จะไม่รู้เลยว่าข้างนอกมีงานเทศกาลใหญ่กำลังจัดอยู่"
 
 show hanako emb_downtimid at tworight
 with charaenter
 
-"Hanako carries her bag in both hands and focuses on just the floor ahead of her."
+# "Hanako carries her bag in both hands and focuses on just the floor ahead of her."
+"ฮานาโกะถือกระเป๋าของเธอด้วยมือทั้งสองข้างและจดจ้องไปที่พื้นข้างหน้าเธอ"
 
 show hanako emb_downsmile
 with charaenter
@@ -4200,115 +4205,150 @@ with charaenter
 show hanako emb_downtimid
 with charaenter
 
-"Every now and again, she seems to break her pace a little and steps in slightly shorter paces."
+# "Every now and again, she seems to break her pace a little and steps in slightly shorter paces."
+"ทุก ๆ ช่วงหนึ่ง เธอเหมือนจะก้าวช้าลงเล็กน้อยและก้าวสั้นลง"
 
-"The first time it happened, I gave it no mind, but I soon notice that she does it on a regular basis."
+# "The first time it happened, I gave it no mind, but I soon notice that she does it on a regular basis."
+"ตอนแรก ๆ ที่เธอทำฉันก็ไม่ได้ใส่ใจอะไร แต่ว่าไม่นานฉันก็สังเกตเห็นว่าเธอทำมาตลอดทาง"
 
-hi "Are you all right?"
+# hi "Are you all right?"
+hi "มีอะไรหรือเปล่า"
 
 show hanako defarms_worry
 with charachange
 
-"She stops dead in her tracks."
+# "She stops dead in her tracks."
+"เธอหยุดชะงักทันที"
 
-ha "W-what?"
+# ha "W-what?"
+ha "อะ อะไรเหรอ?"
 
-hi "I dunno… it looked like you were tripping or something…"
+# hi "I dunno… it looked like you were tripping or something…"
+hi "ไม่รู้ดิ… เห็นก้าวเหมือนสะดุดอะไรสักอย่างอะไรทำนองนั้น…"
 
 play music music_another fadein 0.5
 
 show hanako emb_blushing
 with charachange
 
-"A pink blush rises into her cheeks as her gaze returns to the floor."
+# "A pink blush rises into her cheeks as her gaze returns to the floor."
+"เธอก้มหน้าลง พร้อมแก้มเธอแดงระเรื่อขึ้นมา"
 
 show hanako emb_downtimid
 with charachange
 
-ha "It… it's nothing."
+# ha "It… it's nothing."
+ha "ปะ… เปล่า ไม่มีอะไรหรอก"
 
-hi "You know, when you say “nothing” like that, people are inspired to ask further questions."
+# hi "You know, when you say “nothing” like that, people are inspired to ask further questions."
+hi "รู้ใช่ไหมว่ายิ่งเธอบอกว่า “ไม่มีอะไร” แบบนี้ ยิ่งทำให้ดูน่าสงสัยมากขึ้นไปอีกน่ะ"
 
-"For a second I don't think she is going to answer."
+# "For a second I don't think she is going to answer."
+"แวบหนึ่ง ฉันนึกว่าเธอคงไม่ตอบหรอก"
 
-"Prepared to leave it be, I almost set off walking again, when…"
+# "Prepared to leave it be, I almost set off walking again, when…"
+"เลยว่าจะปล่อย ๆ เรื่องนี้ไปแล้วเดินต่อ แต่ว่า…"
 
 show hanako emb_emb
 with charachange
 
-ha "It's a… a game."
+# ha "It's a… a game."
+ha "มัน… เป็นเกมน่ะ"
 
-hi "Game?"
+# hi "Game?"
+hi "เกมเหรอ?"
 
 show hanako emb_downsmile
 with charachange
 
-ha "Do you… see the floor here?"
+# ha "Do you… see the floor here?"
+ha "นาย… เห็นพื้นตรงนี้ไหม"
 
-"What a bizarre question. The floor looks just like any other floor; covered in those tiles made up from squares of linoleum."
+# "What a bizarre question. The floor looks just like any other floor; covered in those tiles made up from squares of linoleum."
+"ถามอะไรแปลก ๆ พื้นก็ดูเหมือนพื้นทั่ว ๆ ไปนั่นแหละ ก็แค่ปูด้วยกระเบื้องยางเหลี่ยม ๆ"
 
-"Nothing noteworthy."
+# "Nothing noteworthy."
+"ไม่ได้มีอะไรน่าสนใจ"
 
-hi "Well, yes. What about it?"
+# hi "Well, yes. What about it?"
+hi "อ่าฮะ เห็น มีอะไรเหรอ?"
 
 show hanako emb_downtimid
 with charachange
 
-ha "Sometimes… when there's no one around… I only step on the darker ones…"
+# ha "Sometimes… when there's no one around… I only step on the darker ones…"
+ha "บางที… ตอนที่ไม่มีใครอยู่แถว ๆ นี้ ฉันจะเดินเหยียบแค่กระเบื้องที่เข้มกว่าน่ะ"
 
-"Hanako's voice trails off as her explanation continues, until I can barely hear her voice over the roaring silence of the empty hall."
+# "Hanako's voice trails off as her explanation continues, until I can barely hear her voice over the roaring silence of the empty hall."
+"เสียงฮานาโกะค่อย ๆ แผ่วลงขณะที่เธอยังอธิบายต่อ จนฉันแทบไม่ได้ยินเสียงเธอเลยท่ามกลางความเงียบที่กึกก้องของ\nห้องโถงที่ว่างเปล่า"
 
-hi "Darker ones?"
+# hi "Darker ones?"
+hi "ที่เข้มกว่า?"
 
-"Shuffling her feet, Hanako points the toe of her shoe at a tile that is barely a shade darker than the others."
+# "Shuffling her feet, Hanako points the toe of her shoe at a tile that is barely a shade darker than the others."
+"เธอค่อย ๆ ลากเท้าไปมาแล้วใช้ปลายรองเท้าชี้ไปที่กระเบื้องแผ่นหนึ่งซึ่งเข้มกว่าแผ่นอื่น ๆ แค่จิ๊ดเดียว"
 
 show hanako emb_downsmile
 with charachange
 
-ha "L-like these ones."
+# ha "L-like these ones."
+ha "บะ…แบบอันนี้"
 
-hi "Oh, right, so these ones are no good?"
+# hi "Oh, right, so these ones are no good?"
+hi "อ่าจริงด้วย ก็คือเหยียบอันอื่นแล้วแพ้เลยใช่ปะ"
 
-"I point out a nearby tile."
+# "I point out a nearby tile."
+"ฉันชี้ไปยังกระเบื้องแผ่นข้าง ๆ"
 
 show hanako emb_emb
 with charachange
 
-ha "Y-yeah. Something… something like that."
+# ha "Y-yeah. Something… something like that."
+ha "ชะ…ใช่ อะไร…ทำนองนั้นแหละ"
 
-hi "Oh, I see. Do you play this game a lot?"
+# hi "Oh, I see. Do you play this game a lot?"
+hi "อ๋อ แบบนี้นี่เอง แล้วเธอเล่นเกมนี้บ่อยไหมล่ะ"
 
 show hanako emb_downsad
 with charachange
 
-"Hanako shakes her head."
+# "Hanako shakes her head."
+"ฮานาโกะส่ายหน้า"
 
-hi "Just when the halls are empty?"
+# hi "Just when the halls are empty?"
+hi "แค่ตอนที่ไม่มีคนใช่ไหม"
 
 show hanako emb_emb
 with charachange
 
-"She nods."
+# "She nods."
+"เธอพยักหน้า"
 
-hi "Well then, no point in stopping, I'm beginning to get really hungry."
+# hi "Well then, no point in stopping, I'm beginning to get really hungry."
+hi "ถ้างั้นไปกันต่อเถอะ ฉันเองก็เริ่มหิวแล้วล่ะ"
 
 show hanako emb_smile
 with charachange
 
-"She nods again, this time with a little more enthusiasm."
+# "She nods again, this time with a little more enthusiasm."
+"เธอพยักหน้าอีกรอบ แต่รอบนี้ดูกะตือรือร้นมากกว่าเดิมนิดหน่อย"
 
-hi "Well then, let's go."
+# hi "Well then, let's go."
+hi "ถ้างั้น ไปกันเถอะ"
 
 hide hanako
 with charaexit
 
 stop music fadeout 5.0
 
-"We set off down the hall, and this time I notice that Hanako is paying a little less attention to the floor."
+# "We set off down the hall, and this time I notice that Hanako is paying a little less attention to the floor."
+"พวกเราเดินไปตามทางเดินต่อ คราวนี้ฉันสังเกตว่าเธอไม่ได้สนใจพื้นเท่าไหร่แล้ว"
 
-"I wonder; just how lonely does someone have to be to come up with a game like that?"
+# "I wonder; just how lonely does someone have to be to come up with a game like that?"
+"แอบสงสัยว่าคนเราจะต้องเหงาขนาดไหนกัน ถึงได้คิดเกมแบบนั้นขึ้นมาได้"
 
-"But, before I realize what I'm doing, I find myself trying to aim each step so it lands on the correct tiles."
+# "But, before I realize what I'm doing, I find myself trying to aim each step so it lands on the correct tiles."
+"แต่ก่อนที่ฉันจะรู้ตัวว่ากำลังทำอะไรอยู่ ก็เห็นว่าฉันเองก็กำลังพยายามก้าวแต่ละก้าวให้ลงบนกระเบื้องที่ถูกต้องเสียแล้ว"
 
 play music music_dreamy fadein 2.0
 
