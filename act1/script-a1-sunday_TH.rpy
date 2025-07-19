@@ -4025,37 +4025,37 @@ with charaenter
 # "แม้ส่วนใหญ่จะทำงานไปอย่างค่อนข้างสบาย ๆ แต่ลิลลี่ดูจะยังเครียด ๆ "
 
 # "Lilly doesn’t look impressed at all, and I can't really blame her."
-"ลิลลี่เองก็ดูท่าจะไม่ชอบใจเท่าไหร่ ก็ว่าอะไรเธอไม่ได้ล่ะนะ"
+"ลิลลี่เองก็ดูท่าจะไม่ชอบใจเท่าไหร่ ก็ว่าอะไรเธอไม่ได้ละนะ"
 
 # "On top of her issues with her stall, she still seems to be worried about Hanako."
-"นอกจากภาระงานที่แผงแล้ว เธอยังคงเป็นห่วงฮานาโกะอีกด้วย"
+"นอกจากภาระงานที่แผงแล้ว เธอคงเป็นห่วงฮานาโกะด้วย"
 
 # "I can't really help her with the former, so I guess the only way I can help is by trying to take her mind off our shy mutual friend."
 "ฉันเองก็ช่วยอะไรงานแผงไม่ได้ คงมีทางเดียวที่ช่วยได้ก็คือช่วยให้เธอเลิกเป็นห่วงเพื่อนที่แสนจะขี้อายของเรา"
 
 # "Placing the bowl back on the counter, I call out to Lilly."
-"ฉันวางถ้วยไว้คืนบนเคาน์เตอร์ และบอกลิลลี่"
+"ฉันวางถ้วยคืนไว้ที่เคาน์เตอร์แล้วบอกลิลลี่"
 
 # hi "Hey, Lilly, don't worry about Hanako. I'll go find her and hang out with her, okay?"
-hi "นี่ลิลลี่ อย่าเป็นห่วงฮานาโกะไปเลย เดี๋ยวฉันไปตามหาและไปอยู่เป็นเพื่อน โอเคนะ?"
+hi "นี่ลิลลี่ ไม่ต้องเป็นห่วงฮานาโกะหรอก เดี๋ยวฉันไปอยู่เป็นเพื่อนเธอเอง นะ?"
 
 show lilly basic_weaksmile
 with charachange
 
 # "I can see Lilly's relief plainly written across her face."
-"สีหน้าที่โล่งอกของลิลลี่แสดงออกมาอย่างเห็นได้ชัด"
+"ลิลลี่เธอทำสีหน้าโล่งอกออกมาอย่างเห็นได้ชัด"
 
 # li "Thanks Hisao. And if you see anyone from my class, can you tell them to come back here please?"
 li "ขอบใจจ้ะฮิซาโอะ แล้วก็ถ้าผ่านไปเห็นคนในชั้นเรียนของฉัน ช่วยฝากบอกพวกเขาหน่อยว่ากลับมาที่แผงที"
 
 # hi "Will do. Have a good one. And make sure you take a break, okay?"
-hi "ได้สิ โชคดีนะ แล้วก็อย่าลืมพักด้วยล่ะ โอเคไหม?"
+hi "ได้สิ โชคดีนะ แล้วก็อย่าลืมพักด้วยล่ะ โอเคไหม"
 
 show lilly basic_smile
 with charachange
 
 # li "I will if I can. See you later, Hisao."
-li "ฉันจะพยายามนะ ไว้เจอกันจ้ะฮิซาโอะ"
+li "จะพยายามนะ ไว้เจอกันจ้ะฮิซาโอะ"
 
 stop music fadeout 10.0
 $ renpy.music.set_volume(1.0,1.0, "ambient")
@@ -4065,7 +4065,7 @@ show crowd
 with locationchange
 
 # "I leave Lilly in the stall and head out in search of Hanako."
-"ฉันเดินออกมาจากแผงของลิลลี่ แล้วมุ่งหน้าออกตามหาฮานาโกะ"
+"ฉันเดินออกมาจากแผงของลิลลี่แล้วมุ่งหน้าออกตามหาฮานาโกะ"
 
 # "In a way, I feel bad for leaving her with the crowds, but even though she was clearly under pressure, I can't help but think that she is enjoying herself."
 "จริง ๆ ก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลังจะกดดัน แต่ก็อดคิดไม่ได้ว่าเธอเอง\nก็สนุกไปกับมันด้วย"
@@ -4096,7 +4096,7 @@ play ambient sfx_crowd_indoors fadein 0.5
 stop ambient fadeout 5.0
 
 # "As I force my way through the masses, it doesn't take long for them to thin down into nothingness."
-"ขณะที่ฉันฝ่าฟันฝูงชนจำนวนมาก ไม่นานนัก ฝูงชนเหล่านั้นก็ค่อย ๆ ลดจำนวนลงจนกลายเป็นความว่างเปล่า"
+"ไม่นานนักหลังเบียดเสียดผู้คนมาฝูงชนเหล่านั้นก็ค่อย ๆ ลดจำนวนลงจนกลายเป็นความว่างเปล่า"
 
 hide crowd
 with Dissolve(2.0)
@@ -4126,10 +4126,10 @@ show hanako def_shock:
 with charaenter
 
 # "The head jumps a little in shock before slowly peeping over the partition."
-"หัวนั้นสะดุ้งเล็กน้อย ก่อนจะค่อย ๆ มองข้ามฉากกั้นของโต๊ะมา"
+"หัวนั้นสะดุ้งเล็กน้อย ก่อนจะค่อย ๆ มองข้ามฉากกั้นมา"
 
 # ha "H-Hisao?"
-ha "ฮะ…ฮิซาโอะเหรอ?"
+ha "ฮะ…ฮิซาโอะเหรอ"
 
 # hi "Hey. Lilly's pretty busy, so she sent me to find you."
 hi "เอ้อ ตอนนี้ลิลลี่ยุ่งมากเลยล่ะ เลยส่งฉันมาตามหาเธอนี่แหละ"
@@ -4153,10 +4153,10 @@ ha "เอ่อ… ฉัน… ฉันเตรียมข้าวมา�
 "ก็ไม่แปลกใจเท่าไหร่ แต่อย่างน้อยก็ได้ลองชวนละนะ จะคาดหวังว่าเธอจะออกไปเดินงานข้างนอกวันนี้ดูจะยากไปหน่อย"
 
 # hi "How about we eat in the tea room? I passed by it on the way here, and no one was around."
-hi "งั้นเราเอาไปกินในห้องน้ำชากันดีไหม? เพิ่งเดินผ่านห้องนั้นมาก่อนหน้านี้เห็นว่าไม่มีคนอยู่แถวนั้นด้วย"
+hi "งั้นเราเอาไปกินในห้องน้ำชากันดีไหม เพิ่งเดินผ่านห้องนั้นมาก่อนหน้านี้เห็นว่าไม่มีคนอยู่แถวนั้นด้วย"
 
 # hi "We can make some food there, and it'll be a little more comfortable. What do you say?"
-hi "เราจะได้ทำอาหารได้ด้วย แถมยังสบายกว่าด้วย ว่าไงล่ะ?"
+hi "จะได้จัดแจงกินให้เป็นเรื่องเป็นราวสบาย ๆ ไปเลย ว่าไงล่ะ?"
 
 show hanako cover_distant
 with charachange
@@ -4168,7 +4168,7 @@ show hanako basic_distant
 with charachange
 
 # "Hanako closes her book and puts it away with deliberate, practiced movements."
-"ฮานาโกะปิดหนังสือของเธอและเก็บมันด้วยท่าทางที่เคยชิน"
+"ฮานาโกะปิดแล้วเก็บหนังสือของเธอด้วยท่าทางที่เคยชิน"
 
 # hi "Good to go?"
 hi "ไปกันเลยไหม"
@@ -4191,7 +4191,7 @@ with locationchange
 "ซึ่งอย่างที่คาด แถวนี้แทบไม่ค่อยมีคนเลย"
 
 # "If it weren't for the murmurs through the walls, you wouldn't tell that there was a huge festival going on outside."
-"ถ้าไม่ได้มีเสียงเล็ดลอดผ่านมาทางกำแพง ก็จะไม่รู้เลยว่าข้างนอกมีงานเทศกาลใหญ่กำลังจัดอยู่"
+"ถ้าไม่ได้มีเสียงเล็ดลอดผ่านมาทางกำแพง ก็จะไม่รู้เลยว่าข้างนอกมีงานเทศกาลใหญ่กำลังจัดกันอยู่"
 
 show hanako emb_downtimid at tworight
 with charaenter
@@ -4206,7 +4206,7 @@ show hanako emb_downtimid
 with charaenter
 
 # "Every now and again, she seems to break her pace a little and steps in slightly shorter paces."
-"ทุก ๆ ช่วงหนึ่ง เธอเหมือนจะก้าวช้าลงเล็กน้อยและก้าวสั้นลง"
+"เธอเหมือนจะก้าวช้าลงเล็กน้อยและก้าวสั้นลงเป็นระยะ ๆ"
 
 # "The first time it happened, I gave it no mind, but I soon notice that she does it on a regular basis."
 "ตอนแรก ๆ ที่เธอทำฉันก็ไม่ได้ใส่ใจอะไร แต่ว่าไม่นานฉันก็สังเกตเห็นว่าเธอทำมาตลอดทาง"
@@ -4221,10 +4221,10 @@ with charachange
 "เธอหยุดชะงักทันที"
 
 # ha "W-what?"
-ha "อะ อะไรเหรอ?"
+ha "อะ อะไรเหรอ"
 
 # hi "I dunno… it looked like you were tripping or something…"
-hi "ไม่รู้ดิ… เห็นก้าวเหมือนสะดุดอะไรสักอย่างอะไรทำนองนั้น…"
+hi "ไม่รู้สิ… เห็นก้าวเหมือนสะดุดอะไรสักอย่างทำนองนั้น…"
 
 play music music_another fadein 0.5
 
@@ -4241,10 +4241,10 @@ with charachange
 ha "ปะ… เปล่า ไม่มีอะไรหรอก"
 
 # hi "You know, when you say “nothing” like that, people are inspired to ask further questions."
-hi "รู้ใช่ไหมว่ายิ่งเธอบอกว่า “ไม่มีอะไร” แบบนี้ ยิ่งทำให้ดูน่าสงสัยมากขึ้นไปอีกน่ะ"
+hi "รู้ใช่ไหมว่ายิ่งเธอบอกว่า “ไม่มีอะไร” แบบนี้คนเขาจะยิ่งซักไซ้อีก"
 
 # "For a second I don't think she is going to answer."
-"แวบหนึ่ง ฉันนึกว่าเธอคงไม่ตอบหรอก"
+"ฉันนึกอยู่แวบหนึ่งว่าเธอคงไม่ตอบหรอก"
 
 # "Prepared to leave it be, I almost set off walking again, when…"
 "เลยว่าจะปล่อย ๆ เรื่องนี้ไปแล้วเดินต่อ แต่ว่า…"
@@ -4277,16 +4277,16 @@ show hanako emb_downtimid
 with charachange
 
 # ha "Sometimes… when there's no one around… I only step on the darker ones…"
-ha "บางที… ตอนที่ไม่มีใครอยู่แถว ๆ นี้ ฉันจะเดินเหยียบแค่กระเบื้องที่เข้มกว่าน่ะ"
+ha "บางที… พอไม่มีใครอยู่ด้วย… ฉันก็จะเล่นเดินเหยียบแค่กระเบื้องที่สีเข้มกว่าน่ะ…"
 
 # "Hanako's voice trails off as her explanation continues, until I can barely hear her voice over the roaring silence of the empty hall."
-"เสียงฮานาโกะค่อย ๆ แผ่วลงขณะที่เธอยังอธิบายต่อ จนฉันแทบไม่ได้ยินเสียงเธอเลยท่ามกลางความเงียบที่กึกก้องของ\nห้องโถงที่ว่างเปล่า"
+"เสียงฮานาโกะแผ่วลงเรื่อย ๆ ระหว่างอธิบายจนฉันแทบไม่ได้ยินเสียงเธอเลยท่ามกลางความเงียบที่กึกก้องของ\nห้องโถงที่ว่างเปล่า"
 
 # hi "Darker ones?"
-hi "ที่เข้มกว่า?"
+hi "สีเข้มกว่า?"
 
 # "Shuffling her feet, Hanako points the toe of her shoe at a tile that is barely a shade darker than the others."
-"เธอค่อย ๆ ลากเท้าไปมาแล้วใช้ปลายรองเท้าชี้ไปที่กระเบื้องแผ่นหนึ่งซึ่งเข้มกว่าแผ่นอื่น ๆ แค่จิ๊ดเดียว"
+"เธอค่อย ๆ ลากเท้าไปมาแล้วใช้ปลายรองเท้าชี้ไปที่กระเบื้องแผ่นหนึ่งซึ่งเข้มกว่าแผ่นอื่น ๆ แค่หน่อยเดียว"
 
 show hanako emb_downsmile
 with charachange
@@ -4295,7 +4295,7 @@ with charachange
 ha "บะ…แบบอันนี้"
 
 # hi "Oh, right, so these ones are no good?"
-hi "อ่าจริงด้วย ก็คือเหยียบอันอื่นแล้วแพ้เลยใช่ปะ"
+hi "เอ้อ จริงด้วย ก็คือเหยียบอันอื่นแล้วแพ้เลยใช่ปะ"
 
 # "I point out a nearby tile."
 "ฉันชี้ไปยังกระเบื้องแผ่นข้าง ๆ"
@@ -4325,7 +4325,7 @@ with charachange
 "เธอพยักหน้า"
 
 # hi "Well then, no point in stopping, I'm beginning to get really hungry."
-hi "ถ้างั้นไปกันต่อเถอะ ฉันเองก็เริ่มหิวแล้วล่ะ"
+hi "ถ้างั้นก็ไปกันต่อเถอะ ฉันเองก็เริ่มหิวแล้วละ"
 
 show hanako emb_smile
 with charachange
@@ -4345,10 +4345,10 @@ stop music fadeout 5.0
 "พวกเราเดินไปตามทางเดินต่อ คราวนี้ฉันสังเกตว่าเธอไม่ได้สนใจพื้นเท่าไหร่แล้ว"
 
 # "I wonder; just how lonely does someone have to be to come up with a game like that?"
-"แอบสงสัยว่าคนเราจะต้องเหงาขนาดไหนกัน ถึงได้คิดเกมแบบนั้นขึ้นมาได้"
+"แอบสงสัยเหมือนกันว่าคนเราจะต้องเหงาขนาดไหนถึงได้คิดเกมแบบนั้นขึ้นมาได้"
 
 # "But, before I realize what I'm doing, I find myself trying to aim each step so it lands on the correct tiles."
-"แต่ก่อนที่ฉันจะรู้ตัวว่ากำลังทำอะไรอยู่ ก็เห็นว่าฉันเองก็กำลังพยายามก้าวแต่ละก้าวให้ลงบนกระเบื้องที่ถูกต้องเสียแล้ว"
+"แต่พอรู้ตัวอีกที ฉันเองก็มาเดินคอยเล็งก้าวแต่ละก้าวให้ลงบนกระเบื้องที่ถูกต้องเสียแล้ว"
 
 play music music_dreamy fadein 2.0
 
@@ -4356,10 +4356,10 @@ scene bg school_miyagi
 with locationchange
 
 # "The noise of the festival is slightly louder inside the tea room, but the breeze coming through the open window makes it worth it."
-"เสียงดังจากงานเทศกาลในห้องน้ำชานั่นดังกว่าที่ทางเดินนิดหน่อย แต่ได่ลมที่พัดเข้ามาจากหน้าต่างที่เปิดอยู่ก็คุ้มค่าแล้ว"
+"เสียงดังจากงานเทศกาลในห้องน้ำชาดังกว่าที่โถงทางเดินนิดหน่อย แต่แลกกับลมที่พัดเข้ามาจากหน้าต่างที่เปิดไว้\nก็คุ้มกันอยู่"
 
 # "Without thinking, I walk to the windowsill and inhale deeply. I sometimes forget how clean the air is here compared to back home."
-"โดยไม่ทันคิด ฉันก็เดินไปที่ขอบหน้าต่างแล้วสูดหายใจเข้าลึก ๆ บางครั้งฉันก็ลืมไปเลยว่าอากาศที่นี่มันสะอาดแค่ไหนเมื่อ\nเทียบกับที่บ้าน"
+"ฉันเดินไปที่ริมหน้าต่างแล้วสูดหายใจเข้าลึก ๆ โดยอัตโนมัติ บางครั้งฉันก็ลืมไปเลยว่าอากาศที่นี่นั้นสะอาดแค่ไหน\nเมื่อเทียบกับที่บ้าน"
 
 show hanako basic_bashful at center
 with charaenter
@@ -4374,34 +4374,34 @@ hide hanako
 with charaexit
 
 # "It occurs to me that this is the first time I've been alone with Hanako without her trying to be somewhere else."
-"แล้วก็นึกขึ้นได้ว่า นี่เป็นครั้งแรกเลยนะเนี่ยที่ได้อยู่กับฮานาโกะตามลำพังโดยที่เธอไม่ได้พยายามจะหนีไปไหน"
+"แล้วก็นึกขึ้นได้ว่านี่เป็นครั้งแรกที่ได้อยู่กับฮานาโกะตามลำพังโดยที่เธอไม่ได้คิดจะหนีไปไหน"
 
 # "Turning from the window, I watch as she makes a simple pot of tea and arranges some sandwiches onto a plate."
-"ฉันหันหน้าออกจากหน้าต่าง มาดูเธอชงชาและจัดแซนด์วิชใส่จาน"
+"ฉันหันหน้าออกจากหน้าต่างมาดูเธอชงชาและจัดแซนด์วิชใส่จาน"
 
 # "I've seen her do this before a number of times, but this time she seems slightly different."
-"ฉันเคยเห็นเธอทำแบบนี้หลายครั้งแล้วล่ะ แต่ครั้งนี้เธอดูต่างออกไปนิดหน่อย"
+"ฉันเคยเห็นเธอทำแบบนี้หลายครั้งแล้วละนะ แต่ครั้งนี้เธอดูต่างออกไปนิดหน่อย"
 
 # "It's like she's…{w} calm."
 "อย่างกับว่าเธอรู้สึก…{w} ผ่อนคลาย"
 
 # "Eventually she places the small tray on the table and pours two cups of tea."
-"แล้วเธอก็วางถาดลงบนโต๊ะ พร้อมกับรินชาลงถ้วยสองใบ"
+"แล้วเธอก็วางถาดใบเล็กลงบนโต๊ะแล้วรินชาลงถ้วยสองใบ"
 
 # "The fresh scent of brewed tea mingles with the breeze, and for a second I feel like I'm the only one in the world."
-"กลิ่นชาที่ชงใหม่ ๆ มันลอยมาปนกับลมเย็น ๆ ทำให้ฉันก็รู้สึกเหมือนเป็นคนเดียวในโลกไปชั่วขณะเลย"
+"กลิ่นชาที่ชงใหม่ ๆ เคล้าลอยมากับลมเย็น ๆ ทำให้รู้สึกราวกับทั้งโลกใบนี้มีเพียงแค่ฉันคนเดียว"
 
 # hi "I think I know why you like this room now."
-hi "ฉันว่าฉันรู้แล้วว่าทำไมเธอถึงชอบห้องนี้"
+hi "ฉันว่าฉันรู้แล้วละว่าทำไมเธอถึงชอบห้องนี้"
 
 show hanako defarms_worry at center
 with charaenter
 
 # ha "Um… I don't know what you mean."
-ha "เอ่อ… ฉันไม่เข้าใจว่านายหมายถึงอะไร"
+ha "เอ่อ… นายหมายความว่าไง"
 
 # hi "Well, there are quite a few people out there, but in here it's like another world."
-hi "ก็ ข้างนอกเนี่ยมีคนเพียบเลย แต่ข้างในนี้มันเหมือนอยู่อีกโลกนึงเลย"
+hi "ก็ ข้างนอกเนี่ยมีคนเพียบ แต่ข้างในนี้มันเหมือนอยู่อีกโลกนึงเลย"
 
 # hi "You can pretend that there's no one around for miles."
 hi "คือแบบ ทำเป็นว่าไม่มีใครอยู่รอบ ๆ เลยก็ยังได้"
@@ -4413,28 +4413,28 @@ with charachange
 ha "กะ… ก็จริง"
 
 # ha "It's like the world has forgotten this room."
-ha "อย่างกับคนทั้งโลกได้ลืมห้องนี้ไปเลย"
+ha "เหมือนกับว่าคนทั้งโลกลืมห้องนี้ไปแล้ว"
 
 show hanako emb_emb
 with charachange
 
 # ha "And b-because of that, you can forget about the outside."
-ha "พะ… เพราะงั้นแล้ว นายเองก็ลืมเรื่องข้างนอกได้เหมือนกัน"
+ha "พะ… เพราะงั้น ก็จะลืมเรื่องโลกภายนอกไปได้ด้วย"
 
 # "That would be appealing in some cases."
-"แบบนี้ก็คงดีนะในบางกรณี"
+"ก็ฟังดูดีเหมือนกันนะ"
 
 # "As far as I can tell, conventional bullying doesn't exist in this school."
-"เท่าที่พอรู้ ที่นี่ก็ไม่ได้มีการกลั่นแกล้งแบบปกติหรอก"
+"เท่าที่พอจะเห็น ที่นี่ก็ไม่ได้มีการกลั่นแกล้งแบบปกติหรอก"
 
 # "But then again, I haven't seen a single person talk to Hanako besides Lilly."
-"แต่ว่านะ ก็ฉันไม่เห็นว่าจะมีใครมาคุยกับฮานาโกะด้วยซ้ำ นอกจากลิลลี่"
+"แต่ว่าฉันก็ไม่เห็นว่าจะมีใครมาคุยกับฮานาโกะด้วยซ้ำ นอกจากลิลลี่"
 
 # "If you're ignored by the world, a place where you can forget its existence would hold a special appeal."
-"ถ้าเป็นคนที่ถูกคนทั้งโลกเมินเฉย ถ้ามีที่ที่ทำให้ลืมสิ่งที่เป็นอยู่ก็ดีไม่น้อย"
+"ถ้าเป็นคนที่ทั้งโลกเมินเฉยใส่ การที่จะมีที่สักที่ที่จะได้ลืมโลกใบนั้นคงนับว่าเป็นสิ่งที่พิเศษเหลือแสน"
 
 # hi "That's a good point. It's like this room gives you some kind of complete freedom."
-hi "ที่ว่ามาก็จริง ห้องนี้ก็เหมือนกับให้อิสระอย่างเต็มที่เลย"
+hi "ที่ว่ามาก็จริง พอได้อยู่ห้องนี้แล้วเหมือนมีอิสระเต็มที่เลย"
 
 show hanako emb_smile
 with charachange
@@ -4446,10 +4446,10 @@ show hanako basic_bashful
 with charachange
 
 # ha "Say… do you play chess?"
-ha "เอ่อ… นายเล่นหมากรุกหรือเปล่า?"
+ha "เอ่อ… นายเล่นหมากรุกหรือเปล่า"
 
 # hi "Chess? I've played it a bit, I guess."
-hi "หมากรุกเหรอ ก็เคยเล่นนิดหน่อยล่ะมั้ง"
+hi "หมากรุกเหรอ ก็เคยเล่นนิดหน่อยละมั้ง"
 
 # hi "I take it you've played before?"
 hi "แปลว่าเธอเคยเล่นแล้วใช่ปะ"
@@ -4470,7 +4470,7 @@ with charaexit
 ha "นะ… นายอยากเล่น…"
 
 # hi "Sure, why not?"
-hi "เอาสิ ทำไมจะไม่ล่ะ"
+hi "เอาสิ ย่อมได้"
 
 # "I cut her off, but she doesn't seem to mind it."
 "ฉันตอบตัดบทเธอไป แต่ดูเหมือนเธอจะไม่ว่าอะไร"
@@ -4483,10 +4483,10 @@ with shorttimeskip
 "พวกเราตั้งกระดาน ก่อนที่จะเริ่มเดินเบี้ยออกไปยังชะตากรรมที่ไม่อาจหลีกเลี่ยงของมัน"
 
 # "I take my time and intently examine each move and its consequences, nostalgia for the game taking second place to the matters at hand."
-"ฉันใช้เวลาค่อย ๆ ดูแต่ละตาอย่างตั้งใจ วิเคราะห์ผลที่จะตามมาด้วย ความรู้สึกคิดถึงเกมเก่า ๆ นี่ต้องเอาไว้ก่อนเลย\nเพราะเรื่องตรงหน้าสำคัญกว่าเยอะ"
+"ฉันใช้เวลาค่อย ๆ ดูแต่ละตาเดินอย่างตั้งใจ วิเคราะห์ผลที่จะตามมาด้วย ความรู้สึกคิดถึงเกมเก่า ๆ นี่ต้องเอาไว้ก่อนเลย\nเพราะเรื่องตรงหน้าสำคัญกว่าเยอะ"
 
 # "For a time the game is a lengthy battle of attrition, but I spot an opening and tear a line in her defense."
-"เล่นไปสักพักหนึ่งเกมก็กลายเป็นเกมยื้อ แต่ฉันก็เห็นช่องโหว่ แล้วก็ตีแนวป้องกันของเธอออกเป็นทาง"
+"เล่นไปสักพักก็กลายเป็นเกมยื้อ แต่ฉันก็เห็นช่องโหว่ แล้วก็ตีแนวป้องกันของเธอออกเป็นทาง"
 
 show hanako basic_worry_close
 with charachange
@@ -4501,10 +4501,10 @@ hi "รุกจน"
 hi "เธอเองก็เล่นเก่งนี่"
 
 # "An honest appraisal. Her technique is pretty good, but several times I was able to exploit her lack of prediction."
-"บอกตรง ๆ ว่าฝีมือเธอก็ดีนะ แต่มีหลายครั้งเลยที่ฉันฉวยโอกาสจากที่เธออ่านเกมไม่ขาดได้"
+"บอกตรง ๆ ว่าฝีมือเธอก็ดีนะ แต่มีหลายครั้งเลยที่ฉันฉวยโอกาสจากการที่เธออ่านเกมไม่ขาด"
 
 # "I pick up a piece and examine it. It looks relatively new, yet worn for its age."
-"ฉันหยิบหมากชิ้นนึงมาแล้วมองดู มันดูค่อนข้างใหม่นะ แต่ก็ดูเก่าด้วยอายุของมัน"
+"ฉันหยิบหมากตัวหนึ่งมาแล้วมองดู ก็ดูค่อนข้างใหม่ แต่ก็ดูเก่าด้วยอายุของมัน"
 
 show hanako basic_smile_close
 with charachange
@@ -4513,13 +4513,13 @@ with charachange
 ha "มะ… ไม่หรอก"
 
 # hi "Does Lilly play?"
-hi "ลิลลี่เองก็เล่นด้วยใช่ไหม?"
+hi "ลิลลี่เองก็เล่นด้วยใช่ไหม"
 
 show hanako def_worry_close
 with charachange
 
 # "The absence of Hanako's answer causes me to think about my question."
-"ฮานาโกะเงียบไปพักนึงทำให้ฉันทบทวนเรื่องคำถามที่ถามไปเมื่อกี้"
+"ฮานาโกะเงียบไปพักหนึ่งจนฉันต้องนึกทบทวนคำถามเมื่อกี้"
 
 # ha "A… A bit…"
 ha "ก็… นิดหน่อย…"
@@ -4534,7 +4534,7 @@ with charachange
 "หรือ…?"
 
 # "She cuts herself off abruptly, leaving the answer hanging in the air. Someone she knew before coming to Yamaku, maybe."
-"เธอหยุดพูดไปเสียดื้อ ๆ ปล่อยคำตอบให้ค้างอยู่อย่างนั้น น่าจะสักคนที่เธอรู้จักก่อนมายังยามากุแหละมั้ง"
+"เธอหยุดพูดไปเสียดื้อ ๆ ปล่อยคำตอบให้ค้างอยู่อย่างนั้น น่าจะสักคนที่เธอรู้จักก่อนมายามากุแหละมั้ง"
 
 # hi "Well then, I'm honored to have played against you."
 hi "เอาเถอะ ยินดีที่ได้เล่นด้วยนะ"
@@ -4543,13 +4543,13 @@ show hanako emb_smile_close
 with charachange
 
 # ha "Um… can we play again?"
-ha "เอ่อ… เล่นอีกตาไหม?"
+ha "เอ่อ… เล่นอีกตาไหม"
 
 # "She asks as if she were asking me to cut off my own hands. The spirit of competition's gotten into her?"
-"เธอถามยังกับว่ากำลังขอให้ฉันทำเรื่องขอขาดบาดตายเลย จิตวิญญาณนักแข่งเข้าสิงรึไงเนี่ย"
+"เธอถามยังกับว่ากำลังขอให้ฉันทำเรื่องคอขาดบาดตายเลย จิตวิญญาณนักแข่งเข้าสิงหรือไงเนี่ย"
 
 # hi "Sure. Though don't expect me to go easy on you this time…"
-hi "เอาสิ แต่อย่าหวังว่าตานี้ฉันจะออมมือให้เชียวล่ะ"
+hi "เอาสิ แต่อย่าหวังว่าตานี้ฉันจะออมมือให้เชียว…"
 
 # "Not that I was before, mind. She seems to appreciate the competitive tone."
 "จริง ๆ ตาที่แล้วก็ไม่ได้ออมมือหรอก เธอดูอยากเล่นแนวจริงจังมากกว่า"
