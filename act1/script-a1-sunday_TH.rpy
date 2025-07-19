@@ -4355,158 +4355,210 @@ play music music_dreamy fadein 2.0
 scene bg school_miyagi
 with locationchange
 
-"The noise of the festival is slightly louder inside the tea room, but the breeze coming through the open window makes it worth it."
+# "The noise of the festival is slightly louder inside the tea room, but the breeze coming through the open window makes it worth it."
+"เสียงดังจากงานเทศกาลในห้องน้ำชานั่นดังกว่าที่ทางเดินนิดหน่อย แต่ได่ลมที่พัดเข้ามาจากหน้าต่างที่เปิดอยู่ก็คุ้มค่าแล้ว"
 
-"Without thinking, I walk to the windowsill and inhale deeply. I sometimes forget how clean the air is here compared to back home."
+# "Without thinking, I walk to the windowsill and inhale deeply. I sometimes forget how clean the air is here compared to back home."
+"โดยไม่ทันคิด ฉันก็เดินไปที่ขอบหน้าต่างแล้วสูดหายใจเข้าลึก ๆ บางครั้งฉันก็ลืมไปเลยว่าอากาศที่นี่มันสะอาดแค่ไหนเมื่อ\nเทียบกับที่บ้าน"
 
 show hanako basic_bashful at center
 with charaenter
 
-ha "Do… would you like some tea?"
+# ha "Do… would you like some tea?"
+ha "นาย… จะดื่มชาหน่อยไหม"
 
-hi "That would be great, thanks."
+# hi "That would be great, thanks."
+hi "เอาสิ ขอบใจนะ"
 
 hide hanako
 with charaexit
 
-"It occurs to me that this is the first time I've been alone with Hanako without her trying to be somewhere else."
+# "It occurs to me that this is the first time I've been alone with Hanako without her trying to be somewhere else."
+"แล้วก็นึกขึ้นได้ว่า นี่เป็นครั้งแรกเลยนะเนี่ยที่ได้อยู่กับฮานาโกะตามลำพังโดยที่เธอไม่ได้พยายามจะหนีไปไหน"
 
-"Turning from the window, I watch as she makes a simple pot of tea and arranges some sandwiches onto a plate."
+# "Turning from the window, I watch as she makes a simple pot of tea and arranges some sandwiches onto a plate."
+"ฉันหันหน้าออกจากหน้าต่าง มาดูเธอชงชาและจัดแซนด์วิชใส่จาน"
 
-"I've seen her do this before a number of times, but this time she seems slightly different."
+# "I've seen her do this before a number of times, but this time she seems slightly different."
+"ฉันเคยเห็นเธอทำแบบนี้หลายครั้งแล้วล่ะ แต่ครั้งนี้เธอดูต่างออกไปนิดหน่อย"
 
-"It's like she's…{w} calm."
+# "It's like she's…{w} calm."
+"อย่างกับว่าเธอรู้สึก…{w} ผ่อนคลาย"
 
-"Eventually she places the small tray on the table and pours two cups of tea."
+# "Eventually she places the small tray on the table and pours two cups of tea."
+"แล้วเธอก็วางถาดลงบนโต๊ะ พร้อมกับรินชาลงถ้วยสองใบ"
 
-"The fresh scent of brewed tea mingles with the breeze, and for a second I feel like I'm the only one in the world."
+# "The fresh scent of brewed tea mingles with the breeze, and for a second I feel like I'm the only one in the world."
+"กลิ่นชาที่ชงใหม่ ๆ มันลอยมาปนกับลมเย็น ๆ ทำให้ฉันก็รู้สึกเหมือนเป็นคนเดียวในโลกไปชั่วขณะเลย"
 
-hi "I think I know why you like this room now."
+# hi "I think I know why you like this room now."
+hi "ฉันว่าฉันรู้แล้วว่าทำไมเธอถึงชอบห้องนี้"
 
 show hanako defarms_worry at center
 with charaenter
 
-ha "Um… I don't know what you mean."
+# ha "Um… I don't know what you mean."
+ha "เอ่อ… ฉันไม่เข้าใจว่านายหมายถึงอะไร"
 
-hi "Well, there are quite a few people out there, but in here it's like another world."
+# hi "Well, there are quite a few people out there, but in here it's like another world."
+hi "ก็ ข้างนอกเนี่ยมีคนเพียบเลย แต่ข้างในนี้มันเหมือนอยู่อีกโลกนึงเลย"
 
-hi "You can pretend that there's no one around for miles."
+# hi "You can pretend that there's no one around for miles."
+hi "คือแบบ ทำเป็นว่าไม่มีใครอยู่รอบ ๆ เลยก็ยังได้"
 
 show hanako emb_downtimid
 with charachange
 
-ha "Y-you're right."
+# ha "Y-you're right."
+ha "กะ… ก็จริง"
 
-ha "It's like the world has forgotten this room."
+# ha "It's like the world has forgotten this room."
+ha "อย่างกับคนทั้งโลกได้ลืมห้องนี้ไปเลย"
 
 show hanako emb_emb
 with charachange
 
-ha "And b-because of that, you can forget about the outside."
+# ha "And b-because of that, you can forget about the outside."
+ha "พะ… เพราะงั้นแล้ว นายเองก็ลืมเรื่องข้างนอกได้เหมือนกัน"
 
-"That would be appealing in some cases."
+# "That would be appealing in some cases."
+"แบบนี้ก็คงดีนะในบางกรณี"
 
-"As far as I can tell, conventional bullying doesn't exist in this school."
+# "As far as I can tell, conventional bullying doesn't exist in this school."
+"เท่าที่พอรู้ ที่นี่ก็ไม่ได้มีการกลั่นแกล้งแบบปกติหรอก"
 
-"But then again, I haven't seen a single person talk to Hanako besides Lilly."
+# "But then again, I haven't seen a single person talk to Hanako besides Lilly."
+"แต่ว่านะ ก็ฉันไม่เห็นว่าจะมีใครมาคุยกับฮานาโกะด้วยซ้ำ นอกจากลิลลี่"
 
-"If you're ignored by the world, a place where you can forget its existence would hold a special appeal."
+# "If you're ignored by the world, a place where you can forget its existence would hold a special appeal."
+"ถ้าเป็นคนที่ถูกคนทั้งโลกเมินเฉย ถ้ามีที่ที่ทำให้ลืมสิ่งที่เป็นอยู่ก็ดีไม่น้อย"
 
-hi "That's a good point. It's like this room gives you some kind of complete freedom."
+# hi "That's a good point. It's like this room gives you some kind of complete freedom."
+hi "ที่ว่ามาก็จริง ห้องนี้ก็เหมือนกับให้อิสระอย่างเต็มที่เลย"
 
 show hanako emb_smile
 with charachange
 
-ha "Y-yeah."
+# ha "Y-yeah."
+ha "อะ… อื้ม"
 
 show hanako basic_bashful
 with charachange
 
-ha "Say… do you play chess?"
+# ha "Say… do you play chess?"
+ha "เอ่อ… นายเล่นหมากรุกหรือเปล่า?"
 
-hi "Chess? I've played it a bit, I guess."
+# hi "Chess? I've played it a bit, I guess."
+hi "หมากรุกเหรอ ก็เคยเล่นนิดหน่อยล่ะมั้ง"
 
-hi "I take it you've played before?"
+# hi "I take it you've played before?"
+hi "แปลว่าเธอเคยเล่นแล้วใช่ปะ"
 
 show hanako basic_distant
 with charachange
 
-ha "A little…"
+# ha "A little…"
+ha "ก็นิดหน่อย…"
 
 hide hanako
 with charaexit
 
-"Without saying anything more, Hanako moves to one of the cupboards and digs out a small chess set."
+# "Without saying anything more, Hanako moves to one of the cupboards and digs out a small chess set."
+"ไม่พูดพร่ำทำเพลง ฮานาโกะเดินไปยังตู้เก็บของและหยิบชุดหมากรุกขนาดเล็กออกมา"
 
-ha "Do… do you want…"
+# ha "Do… do you want…"
+ha "นะ… นายอยากเล่น…"
 
-hi "Sure, why not?"
+# hi "Sure, why not?"
+hi "เอาสิ ทำไมจะไม่ล่ะ"
 
-"I cut her off, but she doesn't seem to mind it."
+# "I cut her off, but she doesn't seem to mind it."
+"ฉันตอบตัดบทเธอไป แต่ดูเหมือนเธอจะไม่ว่าอะไร"
 
 scene bg school_miyagi
 show hanako basic_normal_close at center
 with shorttimeskip
 
-"We arrange the pieces, and before long we are sending pawns charging to their inevitable fates."
+# "We arrange the pieces, and before long we are sending pawns charging to their inevitable fates."
+"พวกเราตั้งกระดาน ก่อนที่จะเริ่มเดินเบี้ยออกไปยังชะตากรรมที่ไม่อาจหลีกเลี่ยงของมัน"
 
-"I take my time and intently examine each move and its consequences, nostalgia for the game taking second place to the matters at hand."
+# "I take my time and intently examine each move and its consequences, nostalgia for the game taking second place to the matters at hand."
+"ฉันใช้เวลาค่อย ๆ ดูแต่ละตาอย่างตั้งใจ วิเคราะห์ผลที่จะตามมาด้วย ความรู้สึกคิดถึงเกมเก่า ๆ นี่ต้องเอาไว้ก่อนเลย\nเพราะเรื่องตรงหน้าสำคัญกว่าเยอะ"
 
-"For a time the game is a lengthy battle of attrition, but I spot an opening and tear a line in her defense."
+# "For a time the game is a lengthy battle of attrition, but I spot an opening and tear a line in her defense."
+"เล่นไปสักพักหนึ่งเกมก็กลายเป็นเกมยื้อ แต่ฉันก็เห็นช่องโหว่ แล้วก็ตีแนวป้องกันของเธอออกเป็นทาง"
 
 show hanako basic_worry_close
 with charachange
 
-"A few moves later, her king is cornered by several of my pieces."
+# "A few moves later, her king is cornered by several of my pieces."
+"ในอีกไม่กี่ตา คิงของเธอก็ถูกรายล้อมไปด้วยหมากของฉัน"
 
-hi "Checkmate."
+# hi "Checkmate."
+hi "รุกจน"
 
-hi "You're not bad at this, are you?"
+# hi "You're not bad at this, are you?"
+hi "เธอเองก็เล่นเก่งนี่"
 
-"An honest appraisal. Her technique is pretty good, but several times I was able to exploit her lack of prediction."
+# "An honest appraisal. Her technique is pretty good, but several times I was able to exploit her lack of prediction."
+"บอกตรง ๆ ว่าฝีมือเธอก็ดีนะ แต่มีหลายครั้งเลยที่ฉันฉวยโอกาสจากที่เธออ่านเกมไม่ขาดได้"
 
-"I pick up a piece and examine it. It looks relatively new, yet worn for its age."
+# "I pick up a piece and examine it. It looks relatively new, yet worn for its age."
+"ฉันหยิบหมากชิ้นนึงมาแล้วมองดู มันดูค่อนข้างใหม่นะ แต่ก็ดูเก่าด้วยอายุของมัน"
 
 show hanako basic_smile_close
 with charachange
 
-ha "I… I guess not."
+# ha "I… I guess not."
+ha "มะ… ไม่หรอก"
 
-hi "Does Lilly play?"
+# hi "Does Lilly play?"
+hi "ลิลลี่เองก็เล่นด้วยใช่ไหม?"
 
 show hanako def_worry_close
 with charachange
 
-"The absence of Hanako's answer causes me to think about my question."
+# "The absence of Hanako's answer causes me to think about my question."
+"ฮานาโกะเงียบไปพักนึงทำให้ฉันทบทวนเรื่องคำถามที่ถามไปเมื่อกี้"
 
-ha "A… A bit…"
+# ha "A… A bit…"
+ha "ก็… นิดหน่อย…"
 
-ha "T-this is the first time I've played against someone… other than her, or…"
+# ha "T-this is the first time I've played against someone… other than her, or…"
+ha "นะ… นี่เป็นครั้งแรกเลยนะที่ฉันเล่นกับคนอื่นที่ไม่ใช่ลิลลี่… หรือ…"
 
 show hanako emb_downsad_close
 with charachange
 
-"Or…?"
+# "Or…?"
+"หรือ…?"
 
-"She cuts herself off abruptly, leaving the answer hanging in the air. Someone she knew before coming to Yamaku, maybe."
+# "She cuts herself off abruptly, leaving the answer hanging in the air. Someone she knew before coming to Yamaku, maybe."
+"เธอหยุดพูดไปเสียดื้อ ๆ ปล่อยคำตอบให้ค้างอยู่อย่างนั้น น่าจะสักคนที่เธอรู้จักก่อนมายังยามากุแหละมั้ง"
 
-hi "Well then, I'm honored to have played against you."
+# hi "Well then, I'm honored to have played against you."
+hi "เอาเถอะ ยินดีที่ได้เล่นด้วยนะ"
 
 show hanako emb_smile_close
 with charachange
 
-ha "Um… can we play again?"
+# ha "Um… can we play again?"
+ha "เอ่อ… เล่นอีกตาไหม?"
 
-"She asks as if she were asking me to cut off my own hands. The spirit of competition's gotten into her?"
+# "She asks as if she were asking me to cut off my own hands. The spirit of competition's gotten into her?"
+"เธอถามยังกับว่ากำลังขอให้ฉันทำเรื่องขอขาดบาดตายเลย จิตวิญญาณนักแข่งเข้าสิงรึไงเนี่ย"
 
-hi "Sure. Though don't expect me to go easy on you this time…"
+# hi "Sure. Though don't expect me to go easy on you this time…"
+hi "เอาสิ แต่อย่าหวังว่าตานี้ฉันจะออมมือให้เชียวล่ะ"
 
-"Not that I was before, mind. She seems to appreciate the competitive tone."
+# "Not that I was before, mind. She seems to appreciate the competitive tone."
+"จริง ๆ ตาที่แล้วก็ไม่ได้ออมมือหรอก เธอดูอยากเล่นแนวจริงจังมากกว่า"
 
 show hanako emb_downsmile_close
 with charachange
 
-ha "S… same here…"
+# ha "S… same here…"
+ha "ชะ… เช่นกัน…"
 
 stop music fadeout 2.0
 
