@@ -223,52 +223,39 @@ label th_A38b:
 
 hi "ไม่รู้ดิ ตอนนี้ก็หิว ๆ อยู่เลยว่าจะหาไรกินหน่อยแล้วค่อยหาไรทำ"
 
-# hi "Your class project seemed pretty cool, and I gave a hand with it so I want to see at least that one and chat with Lilly I guess."
 hi "งานแผงห้องนายดูเจ๋งดีนะ ไหน ๆ ฉันก็ได้ช่วยทำด้วย เลยว่าจะแวะไปดูหน่อย แล้วก็คงคุยกับลิลลี่ด้วย"
 
-# hi "Speaking of that, don't you have any obligation for the project?"
 hi "จะว่าไป นายไม่ได้มีหน้าที่ทำอะไรเลยเหรอ"
 
 show kenji rage
 with charachange
 
-# ke "Are you out of your mind?"
 ke "นายบ้าไปแล้วเหรอ"
 
-# ke "That blind broad is up to no good; I can feel it in my spleen, man. Her presence is like a dark shadow that's in the way of my great vision."
 ke "ยัยตาบอดตัวสูงโย่งคนนั้นไม่ได้มาดีนะ สัญชาตญาณบอก ตัวเธอมันเหมือนเงามืดที่ขวางทางวิสัยทัศน์อันกว้างไกล\nของฉันอยู่"
 
-# ke "As expected of blind people."
 ke "สมเป็นคนตาบอดจริง ๆ "
 
-# hi "What."
 hi "ฮะ?"
 
-# hi "Besides, I thought that you were also…"
 hi "ละอีกอย่าง ไม่ใช่ว่านายก็…"
 
 show kenji neutral
 with charachange
 
-# "He holds up his hand to interrupt me."
 "เขายกมือขึ้นขัดจังหวะ"
 
-# ke "Only legally."
 ke "ของฉันแค่บอดตามกฎหมาย"
 
-# ke "Metaphorically, I can see farther than any man before me has seen."
 ke "ถ้าให้เปรียบ ฉันมองเห็นได้ไกลกว่าที่มนุษย์คนใดเคยมองเห็นมาก่อน"
 
-# "Kenji looks stoically into the metaphorical distance to emphasize his statement, thrusting his chin forward to look manlier. Actually it's just the corridor wall two meters away but it's all the same."
 "เคนจิทำหน้าเคร่งมองไปตามระยะทางที่เปรียบเทียบขึ้นมานั้นเพื่อเน้นย้ำคำพูดของเขาพลางยื่นคางไปข้างหน้าให้ดูแมน\nมากขึ้น จริง ๆ ที่เขามองอยู่ก็แค่ผนังที่ห่างออกไปสองเมตรแค่นั้น แต่เอาเถอะ"
 
 show kenji tsun
 with charachange
 
-# ke "I can see the future of mankind, and it's a dark one unless the threat of women is stifled."
 ke "ฉันสามารถมองเห็นอนาคตของมนุษยชาติได้ และมันจะเป็นอนาคตที่มืดมน เว้นแต่ภัยจากผู้หญิงจะถูกจัดการไป"
 
-# ke "They are everywhere."
 ke "ภัยคุกคามนั่นน่ะอยู่ทุก ๆ ที่"
 
 
@@ -360,31 +347,25 @@ ke "งานนี้ก็ด้วย เป็นแค่แผนหนึ
 
 label th_A38e:
 
-# "He fingers his scarf nervously, faster and faster like he is trying to start a fire, then slowly begins to calm down once the panic attack finishes running its course."
 "เขาใช้นิ้วลูบผ้าพันคอของตัวเองอย่างประหม่า นิ้วเขาขยับเร็วขึ้นเรื่อย ๆ เหมือนกับว่ากำลังพยายามจุดไฟ จากนั้น\nพอหายตื่นตระหนกแล้วเขาก็ค่อย ๆ กลับเป็นสภาพเดิม"
 
 show kenji neutral
 with charachange
 
-# ke "I'm going to have to find some place to hide in, a safe haven. And then knock the lights out of myself so that I don't have to experience this horrible day."
 ke "ฉันต้องหาที่หลบภัยเพื่อซ่อนตัวก่อน แล้วก็ต้องทำให้ตัวเองภาพตัดไปเลยด้วย จะได้ไม่ต้องมาเจอวันแย่ ๆ แบบนี้"
 
-# ke "I have the perfect thing for that. I must prepare now."
 ke "ซึ่งฉันมีวิธีสุดเจ๋งที่เอาไว้ตัดภาพฉันแล้ว ต้องไปเตรียมตัวก่อนละ"
 
 show kenji tsun
 with charachange
 
-# ke "Don't go to the festival."
 ke "อย่าไปงานเทศกาลละ"
 
-# hi "Okay."
 hi "โอเค"
 
 show kenji neutral
 with charachange
 
-# ke "Later, dude."
 ke "เจอกัน พวก"
 
 stop music fadeout 2.0
@@ -392,7 +373,6 @@ stop music fadeout 2.0
 hide kenji
 with charaexit
 
-# "The door slowly closes with a low creak and I don't know how to feel about what Kenji just said."
 "ประตูปิดลงช้า ๆ พร้อมเสียงดังเอี๊ยดเบา ๆ ไม่รู้จะรู้สึกยังไงกับสิ่งที่เคนจิเพิ่งเล่าดี"
 
 
@@ -4022,39 +4002,29 @@ with None
 
 show lilly basic_reminisce at center
 with charaenter
-# "แม้ส่วนใหญ่จะทำงานไปอย่างค่อนข้างสบาย ๆ แต่ลิลลี่ดูจะยังเครียด ๆ "
 
-# "Lilly doesn’t look impressed at all, and I can't really blame her."
 "ลิลลี่เองก็ดูท่าจะไม่ชอบใจเท่าไหร่ ก็ว่าอะไรเธอไม่ได้ละนะ"
 
-# "On top of her issues with her stall, she still seems to be worried about Hanako."
 "นอกจากภาระงานที่แผงแล้ว เธอคงเป็นห่วงฮานาโกะด้วย"
 
-# "I can't really help her with the former, so I guess the only way I can help is by trying to take her mind off our shy mutual friend."
 "ฉันเองก็ช่วยอะไรงานแผงไม่ได้ คงมีทางเดียวที่ช่วยได้ก็คือช่วยให้เธอเลิกเป็นห่วงเพื่อนที่แสนจะขี้อายของเรา"
 
-# "Placing the bowl back on the counter, I call out to Lilly."
 "ฉันวางถ้วยคืนไว้ที่เคาน์เตอร์แล้วบอกลิลลี่"
 
-# hi "Hey, Lilly, don't worry about Hanako. I'll go find her and hang out with her, okay?"
 hi "นี่ลิลลี่ ไม่ต้องเป็นห่วงฮานาโกะหรอก เดี๋ยวฉันไปอยู่เป็นเพื่อนเธอเอง นะ?"
 
 show lilly basic_weaksmile
 with charachange
 
-# "I can see Lilly's relief plainly written across her face."
 "ลิลลี่เธอทำสีหน้าโล่งอกออกมาอย่างเห็นได้ชัด"
 
-# li "Thanks Hisao. And if you see anyone from my class, can you tell them to come back here please?"
 li "ขอบใจจ้ะฮิซาโอะ แล้วก็ถ้าผ่านไปเห็นคนในชั้นเรียนของฉัน ช่วยฝากบอกพวกเขาหน่อยว่ากลับมาที่แผงที"
 
-# hi "Will do. Have a good one. And make sure you take a break, okay?"
 hi "ได้สิ โชคดีนะ แล้วก็อย่าลืมพักด้วยล่ะ โอเคไหม"
 
 show lilly basic_smile
 with charachange
 
-# li "I will if I can. See you later, Hisao."
 li "จะพยายามนะ ไว้เจอกันจ้ะฮิซาโอะ"
 
 stop music fadeout 10.0
@@ -4064,10 +4034,8 @@ scene bg school_courtyard
 show crowd
 with locationchange
 
-# "I leave Lilly in the stall and head out in search of Hanako."
 "ฉันเดินออกมาจากแผงของลิลลี่แล้วมุ่งหน้าออกตามหาฮานาโกะ"
 
-# "In a way, I feel bad for leaving her with the crowds, but even though she was clearly under pressure, I can't help but think that she is enjoying herself."
 "จริง ๆ ก็รู้สึกผิดที่ทิ้งเธอไว้กับลูกค้าที่เยอะขนาดนั้น แต่ถึงจะดูเหมือนว่าเธอกำลังจะกดดัน แต่ก็อดคิดไม่ได้ว่าเธอเอง\nก็สนุกไปกับมันด้วย"
 
 stop ambient fadeout 0.5
@@ -4078,46 +4046,35 @@ with locationskip
 
 play ambient sfx_crowd_indoors fadein 0.5
 
-# "The halls are packed with swaying crowds meandering throughout the festival."
 "ในอาคารเต็มไปด้วยผู้คนที่เบียดเสียดกันไปมาในงานเทศกาล"
 
-# "If there's one thing I know about Hanako, it's that she's not going to be anywhere near this."
 "ถ้าจะมีสิ่งนึงที่ฉันจะรู้เกี่ยวกับฮานาโกะ สิ่งนั้นก็คือฮานาโกะไม่มีทางจะอยู่แถวนี้แน่ ๆ"
 
-# "And with the students showing their friends and family their dorms, I doubt she'll be there either."
 "แถมยังมีนักเรียนที่อยู่กับเพื่อน ๆ และครอบครัวอีก ยิ่งไม่น่าเป็นไปได้ไปใหญ่"
 
-# "Following blind intuition, I move against the grain of the crowd."
 "ฉันเดินสวนทางฝูงชนคนหมู่มากไปตามสัญชาตญาณอันแสนจะทึบของฉัน"
 
-# "Thankfully, this crowd seems to be slightly less festive than your usual festival crowd; I assume this is out of consideration for the student body."
 "โชคยังดีที่ฝูงชนจะน้อยกว่างานเทศกาลปกติทั่วไป คาดว่าเพราะความพิการด้วยแหละ"
 
 stop ambient fadeout 5.0
 
-# "As I force my way through the masses, it doesn't take long for them to thin down into nothingness."
 "ไม่นานนักหลังเบียดเสียดผู้คนมาฝูงชนเหล่านั้นก็ค่อย ๆ ลดจำนวนลงจนกลายเป็นความว่างเปล่า"
 
 hide crowd
 with Dissolve(2.0)
 
-# "This is not surprising, since I am standing before the library."
 "ซึ่งก็ไม่แปลกเท่าไหร่ เพราะตอนนี้ฉันยืนอยู่ที่หน้าห้องสมุด"
 
-# "Even the most eager of students don't bother to show anyone this section of the school."
 "แม้แต่นักเรียนที่ขยันเรียนสุด ๆ ก็ไม่มีใครอยากมาแนะนำที่บริเวณนี้ของโรงเรียน"
 
 play music music_happiness fadein 2.0
 scene bg school_library
 with locationchange
 
-# "As I enter the library, the noise of the festival fades into a dull background noise, and soon I am in the reading area at the rear of the room."
 "ทันทีที่ก้าวเข้ามายังห้องสมุด เสียงจากงานเทศกาลก็เงียบลงไปเป็นเสียงอู้อี้ และฉันก็เดินเข้ามาในบริเวณอ่านหนังสือที่\nอยู่หลังห้อง"
 
-# "Behind one of the partitioned desks I see the top of a head, with straight, dark hair catching my eye."
 "หลังโต๊ะอ่านหนังสือตัวหนึ่ง ฉันเห็นหัวที่มีผมตรงสีเข้มสะดุดตา"
 
-# hi "Hey, Hanako. I had a feeling I'd find you here…"
 hi "อ้าวฮานาโกะ ว่าแล้วว่าต้องเจอเธอที่นี่…"
 
 show hanako def_shock:
@@ -4125,58 +4082,45 @@ show hanako def_shock:
     easein 0.5 yanchor 1.0
 with charaenter
 
-# "The head jumps a little in shock before slowly peeping over the partition."
 "หัวนั้นสะดุ้งเล็กน้อย ก่อนจะค่อย ๆ มองข้ามฉากกั้นมา"
 
-# ha "H-Hisao?"
 ha "ฮะ…ฮิซาโอะเหรอ"
 
-# hi "Hey. Lilly's pretty busy, so she sent me to find you."
 hi "เอ้อ ตอนนี้ลิลลี่ยุ่งมากเลยล่ะ เลยส่งฉันมาตามหาเธอนี่แหละ"
 
 show hanako basic_normal at center
 with charachange
 
-# ha "O-oh. Do you want to sit down?"
 ha "อะ…อ๋อ นายอยากจะนั่งไหมล่ะ"
 
-# hi "Actually, I am feeling a little hungry. Would you like to get something to eat from one of the stands?"
 hi "จริง ๆ ตอนนี้ก็หิวนิดหน่อยน่ะ เธอจะไปหาซื้ออะไรมากินจากแผงหน่อยไหม"
 
 show hanako defarms_worry
 with charachange
 
-# ha "Um… I… I brought some food so…"
 ha "เอ่อ… ฉัน… ฉันเตรียมข้าวมาแล้วน่ะ…"
 
-# "I shouldn't be surprised, but it was worth a try. Expecting her to go outside today was a long shot."
 "ก็ไม่แปลกใจเท่าไหร่ แต่อย่างน้อยก็ได้ลองชวนละนะ จะคาดหวังว่าเธอจะออกไปเดินงานข้างนอกวันนี้ดูจะยากไปหน่อย"
 
-# hi "How about we eat in the tea room? I passed by it on the way here, and no one was around."
 hi "งั้นเราเอาไปกินในห้องน้ำชากันดีไหม เพิ่งเดินผ่านห้องนั้นมาก่อนหน้านี้เห็นว่าไม่มีคนอยู่แถวนั้นด้วย"
 
-# hi "We can make some food there, and it'll be a little more comfortable. What do you say?"
 hi "จะได้จัดแจงกินให้เป็นเรื่องเป็นราวสบาย ๆ ไปเลย ว่าไงล่ะ?"
 
 show hanako cover_distant
 with charachange
 
-# ha "S-sure. Let's go."
 ha "อะ…เอาสิ ไปกันเถอะ"
 
 show hanako basic_distant
 with charachange
 
-# "Hanako closes her book and puts it away with deliberate, practiced movements."
 "ฮานาโกะปิดแล้วเก็บหนังสือของเธอด้วยท่าทางที่เคยชิน"
 
-# hi "Good to go?"
 hi "ไปกันเลยไหม"
 
 show hanako basic_normal
 with charachange
 
-# ha "Y…yeah."
 ha "อะ…อื้ม"
 
 stop music fadeout 2.0
@@ -4184,19 +4128,15 @@ stop music fadeout 2.0
 scene bg school_hallway2
 with locationchange
 
-# "We walk side-by-side from the library to the tea room."
 "พวกเราเดินข้างกันจากห้องสมุดไปยังห้องน้ำชา"
 
-# "As expected, there is barely a soul around."
 "ซึ่งอย่างที่คาด แถวนี้แทบไม่ค่อยมีคนเลย"
 
-# "If it weren't for the murmurs through the walls, you wouldn't tell that there was a huge festival going on outside."
 "ถ้าไม่ได้มีเสียงเล็ดลอดผ่านมาทางกำแพง ก็จะไม่รู้เลยว่าข้างนอกมีงานเทศกาลใหญ่กำลังจัดกันอยู่"
 
 show hanako emb_downtimid at tworight
 with charaenter
 
-# "Hanako carries her bag in both hands and focuses on just the floor ahead of her."
 "ฮานาโกะถือกระเป๋าของเธอด้วยมือทั้งสองข้างและจดจ้องไปที่พื้นข้างหน้าเธอ"
 
 show hanako emb_downsmile
@@ -4205,25 +4145,19 @@ with charaenter
 show hanako emb_downtimid
 with charaenter
 
-# "Every now and again, she seems to break her pace a little and steps in slightly shorter paces."
 "เธอเหมือนจะก้าวช้าลงเล็กน้อยและก้าวสั้นลงเป็นระยะ ๆ"
 
-# "The first time it happened, I gave it no mind, but I soon notice that she does it on a regular basis."
 "ตอนแรก ๆ ที่เธอทำฉันก็ไม่ได้ใส่ใจอะไร แต่ว่าไม่นานฉันก็สังเกตเห็นว่าเธอทำมาตลอดทาง"
 
-# hi "Are you all right?"
 hi "มีอะไรหรือเปล่า"
 
 show hanako defarms_worry
 with charachange
 
-# "She stops dead in her tracks."
 "เธอหยุดชะงักทันที"
 
-# ha "W-what?"
 ha "อะ อะไรเหรอ"
 
-# hi "I dunno… it looked like you were tripping or something…"
 hi "ไม่รู้สิ… เห็นก้าวเหมือนสะดุดอะไรสักอย่างทำนองนั้น…"
 
 play music music_another fadein 0.5
@@ -4231,109 +4165,83 @@ play music music_another fadein 0.5
 show hanako emb_blushing
 with charachange
 
-# "A pink blush rises into her cheeks as her gaze returns to the floor."
 "เธอก้มหน้าลง พร้อมแก้มเธอแดงระเรื่อขึ้นมา"
 
 show hanako emb_downtimid
 with charachange
 
-# ha "It… it's nothing."
 ha "ปะ… เปล่า ไม่มีอะไรหรอก"
 
-# hi "You know, when you say “nothing” like that, people are inspired to ask further questions."
 hi "รู้ใช่ไหมว่ายิ่งเธอบอกว่า “ไม่มีอะไร” แบบนี้คนเขาจะยิ่งซักไซ้อีก"
 
-# "For a second I don't think she is going to answer."
 "ฉันนึกอยู่แวบหนึ่งว่าเธอคงไม่ตอบหรอก"
 
-# "Prepared to leave it be, I almost set off walking again, when…"
 "เลยว่าจะปล่อย ๆ เรื่องนี้ไปแล้วเดินต่อ แต่ว่า…"
 
 show hanako emb_emb
 with charachange
 
-# ha "It's a… a game."
 ha "มัน… เป็นเกมน่ะ"
 
-# hi "Game?"
 hi "เกมเหรอ"
 
 show hanako emb_downsmile
 with charachange
 
-# ha "Do you… see the floor here?"
 ha "นาย… เห็นพื้นตรงนี้ไหม"
 
-# "What a bizarre question. The floor looks just like any other floor; covered in those tiles made up from squares of linoleum."
 "ถามอะไรแปลก ๆ พื้นก็ดูเหมือนพื้นทั่ว ๆ ไปนั่นแหละ ก็แค่ปูด้วยกระเบื้องยางเหลี่ยม ๆ"
 
-# "Nothing noteworthy."
 "ไม่ได้มีอะไรน่าสนใจ"
 
-# hi "Well, yes. What about it?"
 hi "อ่าฮะ เห็น มีอะไรเหรอ?"
 
 show hanako emb_downtimid
 with charachange
 
-# ha "Sometimes… when there's no one around… I only step on the darker ones…"
 ha "บางที… พอไม่มีใครอยู่ด้วย… ฉันก็จะเล่นเดินเหยียบแค่กระเบื้องที่สีเข้มกว่าน่ะ…"
 
-# "Hanako's voice trails off as her explanation continues, until I can barely hear her voice over the roaring silence of the empty hall."
 "เสียงฮานาโกะแผ่วลงเรื่อย ๆ ระหว่างอธิบายจนฉันแทบไม่ได้ยินเสียงเธอเลยท่ามกลางความเงียบที่กึกก้องของ\nห้องโถงที่ว่างเปล่า"
 
-# hi "Darker ones?"
 hi "สีเข้มกว่า?"
 
-# "Shuffling her feet, Hanako points the toe of her shoe at a tile that is barely a shade darker than the others."
 "เธอค่อย ๆ ลากเท้าไปมาแล้วใช้ปลายรองเท้าชี้ไปที่กระเบื้องแผ่นหนึ่งซึ่งเข้มกว่าแผ่นอื่น ๆ แค่หน่อยเดียว"
 
 show hanako emb_downsmile
 with charachange
 
-# ha "L-like these ones."
 ha "บะ…แบบอันนี้"
 
-# hi "Oh, right, so these ones are no good?"
 hi "เอ้อ จริงด้วย ก็คือเหยียบอันอื่นแล้วแพ้เลยใช่ปะ"
 
-# "I point out a nearby tile."
 "ฉันชี้ไปยังกระเบื้องแผ่นข้าง ๆ"
 
 show hanako emb_emb
 with charachange
 
-# ha "Y-yeah. Something… something like that."
 ha "ชะ…ใช่ อะไร…ทำนองนั้นแหละ"
 
-# hi "Oh, I see. Do you play this game a lot?"
 hi "อ๋อ แบบนี้นี่เอง แล้วเธอเล่นเกมนี้บ่อยไหมล่ะ"
 
 show hanako emb_downsad
 with charachange
 
-# "Hanako shakes her head."
 "ฮานาโกะส่ายหน้า"
 
-# hi "Just when the halls are empty?"
 hi "แค่ตอนที่ไม่มีคนใช่ไหม"
 
 show hanako emb_emb
 with charachange
 
-# "She nods."
 "เธอพยักหน้า"
 
-# hi "Well then, no point in stopping, I'm beginning to get really hungry."
 hi "ถ้างั้นก็ไปกันต่อเถอะ ฉันเองก็เริ่มหิวแล้วละ"
 
 show hanako emb_smile
 with charachange
 
-# "She nods again, this time with a little more enthusiasm."
 "เธอพยักหน้าอีกรอบ แต่รอบนี้ดูกะตือรือร้นมากกว่าเดิมนิดหน่อย"
 
-# hi "Well then, let's go."
 hi "ถ้างั้น ไปกันเถอะ"
 
 hide hanako
@@ -4341,13 +4249,10 @@ with charaexit
 
 stop music fadeout 5.0
 
-# "We set off down the hall, and this time I notice that Hanako is paying a little less attention to the floor."
 "พวกเราเดินไปตามทางเดินต่อ คราวนี้ฉันสังเกตว่าเธอไม่ได้สนใจพื้นเท่าไหร่แล้ว"
 
-# "I wonder; just how lonely does someone have to be to come up with a game like that?"
 "แอบสงสัยเหมือนกันว่าคนเราจะต้องเหงาขนาดไหนถึงได้คิดเกมแบบนั้นขึ้นมาได้"
 
-# "But, before I realize what I'm doing, I find myself trying to aim each step so it lands on the correct tiles."
 "แต่พอรู้ตัวอีกที ฉันเองก็มาเดินคอยเล็งก้าวแต่ละก้าวให้ลงบนกระเบื้องที่ถูกต้องเสียแล้ว"
 
 play music music_dreamy fadein 2.0
@@ -4355,209 +4260,157 @@ play music music_dreamy fadein 2.0
 scene bg school_miyagi
 with locationchange
 
-# "The noise of the festival is slightly louder inside the tea room, but the breeze coming through the open window makes it worth it."
 "เสียงดังจากงานเทศกาลในห้องน้ำชาดังกว่าที่โถงทางเดินนิดหน่อย แต่แลกกับลมที่พัดเข้ามาจากหน้าต่างที่เปิดไว้\nก็คุ้มกันอยู่"
 
-# "Without thinking, I walk to the windowsill and inhale deeply. I sometimes forget how clean the air is here compared to back home."
 "ฉันเดินไปที่ริมหน้าต่างแล้วสูดหายใจเข้าลึก ๆ โดยอัตโนมัติ บางครั้งฉันก็ลืมไปเลยว่าอากาศที่นี่นั้นสะอาดแค่ไหน\nเมื่อเทียบกับที่บ้าน"
 
 show hanako basic_bashful at center
 with charaenter
 
-# ha "Do… would you like some tea?"
 ha "นาย… จะดื่มชาหน่อยไหม"
 
-# hi "That would be great, thanks."
 hi "เอาสิ ขอบใจนะ"
 
 hide hanako
 with charaexit
 
-# "It occurs to me that this is the first time I've been alone with Hanako without her trying to be somewhere else."
 "แล้วก็นึกขึ้นได้ว่านี่เป็นครั้งแรกที่ได้อยู่กับฮานาโกะตามลำพังโดยที่เธอไม่ได้คิดจะหนีไปไหน"
 
-# "Turning from the window, I watch as she makes a simple pot of tea and arranges some sandwiches onto a plate."
 "ฉันหันหน้าออกจากหน้าต่างมาดูเธอชงชาและจัดแซนด์วิชใส่จาน"
 
-# "I've seen her do this before a number of times, but this time she seems slightly different."
 "ฉันเคยเห็นเธอทำแบบนี้หลายครั้งแล้วละนะ แต่ครั้งนี้เธอดูต่างออกไปนิดหน่อย"
 
-# "It's like she's…{w} calm."
 "อย่างกับว่าเธอรู้สึก…{w} ผ่อนคลาย"
 
-# "Eventually she places the small tray on the table and pours two cups of tea."
 "แล้วเธอก็วางถาดใบเล็กลงบนโต๊ะแล้วรินชาลงถ้วยสองใบ"
 
-# "The fresh scent of brewed tea mingles with the breeze, and for a second I feel like I'm the only one in the world."
 "กลิ่นชาที่ชงใหม่ ๆ เคล้าลอยมากับลมเย็น ๆ ทำให้รู้สึกราวกับทั้งโลกใบนี้มีเพียงแค่ฉันคนเดียว"
 
-# hi "I think I know why you like this room now."
 hi "ฉันว่าฉันรู้แล้วละว่าทำไมเธอถึงชอบห้องนี้"
 
 show hanako defarms_worry at center
 with charaenter
 
-# ha "Um… I don't know what you mean."
 ha "เอ่อ… นายหมายความว่าไง"
 
-# hi "Well, there are quite a few people out there, but in here it's like another world."
 hi "ก็ ข้างนอกเนี่ยมีคนเพียบ แต่ข้างในนี้มันเหมือนอยู่อีกโลกนึงเลย"
 
-# hi "You can pretend that there's no one around for miles."
 hi "คือแบบ ทำเป็นว่าไม่มีใครอยู่รอบ ๆ เลยก็ยังได้"
 
 show hanako emb_downtimid
 with charachange
 
-# ha "Y-you're right."
 ha "กะ… ก็จริง"
 
-# ha "It's like the world has forgotten this room."
 ha "เหมือนกับว่าคนทั้งโลกลืมห้องนี้ไปแล้ว"
 
 show hanako emb_emb
 with charachange
 
-# ha "And b-because of that, you can forget about the outside."
 ha "พะ… เพราะงั้น ก็จะลืมเรื่องโลกภายนอกไปได้ด้วย"
 
-# "That would be appealing in some cases."
 "ก็ฟังดูดีเหมือนกันนะ"
 
-# "As far as I can tell, conventional bullying doesn't exist in this school."
 "เท่าที่พอจะเห็น ที่นี่ก็ไม่ได้มีการกลั่นแกล้งแบบปกติหรอก"
 
-# "But then again, I haven't seen a single person talk to Hanako besides Lilly."
 "แต่ว่าฉันก็ไม่เห็นว่าจะมีใครมาคุยกับฮานาโกะด้วยซ้ำ นอกจากลิลลี่"
 
-# "If you're ignored by the world, a place where you can forget its existence would hold a special appeal."
 "ถ้าเป็นคนที่ทั้งโลกเมินเฉยใส่ การที่จะมีที่สักที่ที่จะได้ลืมโลกใบนั้นคงนับว่าเป็นสิ่งที่พิเศษเหลือแสน"
 
-# hi "That's a good point. It's like this room gives you some kind of complete freedom."
 hi "ที่ว่ามาก็จริง พอได้อยู่ห้องนี้แล้วเหมือนมีอิสระเต็มที่เลย"
 
 show hanako emb_smile
 with charachange
 
-# ha "Y-yeah."
 ha "อะ… อื้ม"
 
 show hanako basic_bashful
 with charachange
 
-# ha "Say… do you play chess?"
 ha "เอ่อ… นายเล่นหมากรุกหรือเปล่า"
 
-# hi "Chess? I've played it a bit, I guess."
 hi "หมากรุกเหรอ ก็เคยเล่นนิดหน่อยละมั้ง"
 
-# hi "I take it you've played before?"
 hi "แปลว่าเธอเคยเล่นแล้วใช่ปะ"
 
 show hanako basic_distant
 with charachange
 
-# ha "A little…"
 ha "ก็นิดหน่อย…"
 
 hide hanako
 with charaexit
 
-# "Without saying anything more, Hanako moves to one of the cupboards and digs out a small chess set."
 "ไม่พูดพร่ำทำเพลง ฮานาโกะเดินไปยังตู้เก็บของและหยิบชุดหมากรุกขนาดเล็กออกมา"
 
-# ha "Do… do you want…"
 ha "นะ… นายอยากเล่น…"
 
-# hi "Sure, why not?"
 hi "เอาสิ ย่อมได้"
 
-# "I cut her off, but she doesn't seem to mind it."
 "ฉันตอบตัดบทเธอไป แต่ดูเหมือนเธอจะไม่ว่าอะไร"
 
 scene bg school_miyagi
 show hanako basic_normal_close at center
 with shorttimeskip
 
-# "We arrange the pieces, and before long we are sending pawns charging to their inevitable fates."
 "พวกเราตั้งกระดาน ก่อนที่จะเริ่มเดินเบี้ยออกไปยังชะตากรรมที่ไม่อาจหลีกเลี่ยงของมัน"
 
-# "I take my time and intently examine each move and its consequences, nostalgia for the game taking second place to the matters at hand."
 "ฉันใช้เวลาค่อย ๆ ดูแต่ละตาเดินอย่างตั้งใจ วิเคราะห์ผลที่จะตามมาด้วย ความรู้สึกคิดถึงเกมเก่า ๆ นี่ต้องเอาไว้ก่อนเลย\nเพราะเรื่องตรงหน้าสำคัญกว่าเยอะ"
 
-# "For a time the game is a lengthy battle of attrition, but I spot an opening and tear a line in her defense."
 "เล่นไปสักพักก็กลายเป็นเกมยื้อ แต่ฉันก็เห็นช่องโหว่ แล้วก็ตีแนวป้องกันของเธอออกเป็นทาง"
 
 show hanako basic_worry_close
 with charachange
 
-# "A few moves later, her king is cornered by several of my pieces."
 "ในอีกไม่กี่ตา คิงของเธอก็ถูกรายล้อมไปด้วยหมากของฉัน"
 
-# hi "Checkmate."
 hi "รุกจน"
 
-# hi "You're not bad at this, are you?"
 hi "เธอเองก็เล่นเก่งนี่"
 
-# "An honest appraisal. Her technique is pretty good, but several times I was able to exploit her lack of prediction."
 "บอกตรง ๆ ว่าฝีมือเธอก็ดีนะ แต่มีหลายครั้งเลยที่ฉันฉวยโอกาสจากการที่เธออ่านเกมไม่ขาด"
 
-# "I pick up a piece and examine it. It looks relatively new, yet worn for its age."
 "ฉันหยิบหมากตัวหนึ่งมาแล้วมองดู ก็ดูค่อนข้างใหม่ แต่ก็ดูเก่าด้วยอายุของมัน"
 
 show hanako basic_smile_close
 with charachange
 
-# ha "I… I guess not."
 ha "มะ… ไม่หรอก"
 
-# hi "Does Lilly play?"
 hi "ลิลลี่เองก็เล่นด้วยใช่ไหม"
 
 show hanako def_worry_close
 with charachange
 
-# "The absence of Hanako's answer causes me to think about my question."
 "ฮานาโกะเงียบไปพักหนึ่งจนฉันต้องนึกทบทวนคำถามเมื่อกี้"
 
-# ha "A… A bit…"
 ha "ก็… นิดหน่อย…"
 
-# ha "T-this is the first time I've played against someone… other than her, or…"
 ha "นะ… นี่เป็นครั้งแรกเลยนะที่ฉันเล่นกับคนอื่นที่ไม่ใช่ลิลลี่… หรือ…"
 
 show hanako emb_downsad_close
 with charachange
 
-# "Or…?"
 "หรือ…?"
 
-# "She cuts herself off abruptly, leaving the answer hanging in the air. Someone she knew before coming to Yamaku, maybe."
 "เธอหยุดพูดไปเสียดื้อ ๆ ปล่อยคำตอบให้ค้างอยู่อย่างนั้น น่าจะสักคนที่เธอรู้จักก่อนมายามากุแหละมั้ง"
 
-# hi "Well then, I'm honored to have played against you."
 hi "เอาเถอะ ยินดีที่ได้เล่นด้วยนะ"
 
 show hanako emb_smile_close
 with charachange
 
-# ha "Um… can we play again?"
 ha "เอ่อ… เล่นอีกตาไหม"
 
-# "She asks as if she were asking me to cut off my own hands. The spirit of competition's gotten into her?"
 "เธอถามยังกับว่ากำลังขอให้ฉันทำเรื่องคอขาดบาดตายเลย จิตวิญญาณนักแข่งเข้าสิงหรือไงเนี่ย"
 
-# hi "Sure. Though don't expect me to go easy on you this time…"
 hi "เอาสิ แต่อย่าหวังว่าตานี้ฉันจะออมมือให้เชียว…"
 
-# "Not that I was before, mind. She seems to appreciate the competitive tone."
 "จริง ๆ ตาที่แล้วก็ไม่ได้ออมมือหรอก เธอดูอยากเล่นแนวจริงจังมากกว่า"
 
 show hanako emb_downsmile_close
 with charachange
 
-# ha "S… same here…"
 ha "ชะ… เช่นกัน…"
 
 stop music fadeout 2.0
@@ -4578,75 +4431,56 @@ with None
 
 stop music fadeout 2.0
 
-# "What am I going to do? I don't have any plans. In hindsight, that's really stupid."
 "แล้วฉันจะทำอะไรกันแน่ ไม่ได้มีแผนซะด้วยสิ พอมองย้อนไปก็ดูโง่จริง ๆ"
 
-# "Maybe I should've asked a girl out? Then again, all things considered, I don't think I could've done anything like that. It's only my first week." 
 "หรือจะไปชวนพวกผู้หญิงดี แต่ก็นะ พอคิดดูแล้วก็ไม่น่าทำอย่างนั้นได้หรอก นี่ก็เพิ่งสัปดาห์แรกที่ย้ายมาด้วย"
 
-# "A week that I have wasted being awkward around almost everyone, stumbling all over myself trying to get the hang of this place."
 "สัปดาห์ที่ฉันเสียไปกับการรู้สึกอึดอัดต่อหน้าคนแทบทุกคน พยายามปรับตัวให้ชินกับสถานที่นี้"
 
-# "Thinking about it, what have I accomplished?"
 "พอมานึก ๆ แล้ว นี่ฉันทำอะไรที่มันเป็นชิ้นเป็นอันบ้างไหมเนี่ย"
 
-# "Who would I have even asked?"
 "ฉันจะไปชวนใครได้ล่ะ"
 
-# "Damn, it seems that Kenji is my only realistic option for a date today."
 "แม่ง ดูท่าแล้วเคนจิน่าจะเป็นคนเดียวที่เป็นไปได้ที่สุดที่ฉันจะพาไปเดตวันนี้ด้วยได้"
 
-# "This is the most depressing thing that has happened to me since I had a heart attack because a girl confessed her love to me."
 "เป็นอะไรที่หดหู่ที่สุดนับตั้งแต่วันที่ฉันหัวใจวายเพราะมีสาวมาสารภาพรักกับฉัน"
 
-# "It can't be helped."
 "ช่วยไม่ได้"
 
 play music music_kenji fadein 0.5
 
-# hi "I don't know really. I don't have anything I guess, but a fort seems a bit excessive."
 hi "ไม่รู้ดิ ก็ไม่ได้จะทำไรละมั้ง แต่ให้ไปตั้งป้อมก็ดูจะเกินไปหน่อย"
 
-# hi "You sure you don't want to go outside? It's not like visitors won't come to the dorms today."
 hi "แน่ใจเหรอว่าจะไม่ไปข้างนอกจริง ๆ น่ะ วันนี้คนที่มาเที่ยวเขาก็อาจจะมาที่หอด้วยก็ได้นะ"
 
 show kenji tsun
 with charachange
 
-# "He looks thunderstruck by this revelation."
 "เขาดูช็อกกับความจริงที่ว่า"
 
-# ke "Damn, you may have a point. This place is not safe today."
 ke "ก็จริงว่ะ วันนี้ที่นี่ไม่ปลอดภัยนั่นแหละ"
 
-# ke "We must find somewhere to hide in."
 ke "เราต้องหาที่ซ่อนตัวสักที่"
 
-# "He falls silent for a moment, thinking."
 "เขาเงียบไปสักพักพลางครุ่นคิด"
 
 show kenji neutral
 with charachange
 
-# ke "The roof."
 ke "ดาดฟ้า"
 
-# hi "What about it?"
 hi "มีอะไรวะ"
 
 show kenji happy
 with charachange
 
-# ke "We are going to hide out on the roof for today."
 ke "วันนี้เราจะไปซ่อนตัวกันที่ดาดฟ้ากัน"
 
-# ke "It's the perfect place, nobody ever goes up there."
 ke "เป็นที่ที่สมบูรณ์แบบเลยละ ไม่มีใครขึ้นไปเลย"
 
 show kenji neutral
 with charachange
 
-# ke "Meet me there in one hour. I have to prepare."
 ke "อีกชั่วโมงเจอกัน เดี๋ยวฉันต้องไปเตรียมตัวก่อน"
 
 stop music fadeout 1.0
@@ -4660,17 +4494,13 @@ with charaexit
 play sound sfx_doorslam
 with vpunch
 
-# "He slams the door shut and the locks click closed."
 "เขาปิดประตูไป เสียงลงกลอนตามมา"
 
-# "Damn, what the hell is wrong with Kenji?"
 "แม่ง เคนจิเป็นไรไปวะ"
 
-# "And to think I'm now going along with his craziness. It really makes me depressed."
 "แล้วพอคิดว่าตัวเองเริ่มบ้าตามเขาไปแล้วก็นึกเครียดขึ้นมา"
 
-# "I feel like a failure."
-"ชีวิตแม่งมีแต่ความล้มเหลวว่ะ" #่just funny quote in my group lmao
+"ชีวิตแม่งมีแต่ความล้มเหลวว่ะ"
 
 play ambient sfx_crowd_outdoors fadein 0.3
 
@@ -4678,33 +4508,24 @@ scene bg school_courtyard
 show crowd
 with locationskip
 
-# "Once I step outside, the din of the crowd greets me."
 "พอเดินออกมาข้างนอกก็พบกับเสียงจ้อกแจ้กจอแจของผู้คน"
 
-# "The whole school is bustling with activity." 
 "ทั้งโรงเรียนเต็มไปด้วยความคึกคัก"
 
-# "There are stalls everywhere, and the crowd swarming between them is considerable."
 "มีพวกแผงตั้งเต็มไปหมด คนที่เดินไปมาตามแผงก็เยอะพอสมควร"
 
-# "I didn't expect the festival would attract so many visitors."
 "ไม่คิดเลยว่างานเทศกาลนี่คนจะมากันเยอะขนาดนี้"
 
-# "I have to admit that the people in charge of decorating the place put a lot of effort into it, and it really shows."
 "ต้องยอมรับว่าคนที่รับผิดชอบการตกแต่งสถานที่นี้ทุ่มเทกับมันมาก และมันก็ออกมาดีจริง ๆ"
 
-# "People seem to be enjoying themselves, and the atmosphere is colorful, bright, and happy."
 "ดูเหมือนว่าผู้คนจะสนุกสนานกัน และบรรยากาศก็เต็มไปด้วยสีสัน สดใส ร่าเริง"
 
 play music music_rain fadein 1.0
 
-# "That is, if I weren't suddenly in such a foul mood."
 "ถ้าไม่ติดว่าตอนนี้อยู่ ๆ ฉันก็อารมณ์บูดขึ้นมาน่ะนะ"
 
-# "At the moment, it's more annoying than anything else."
 "เห็นแล้วก็รู้สึกขัดหูขัดตายิ่งกว่าอะไร"
 
-# "Well, it can't be helped. I decide to stick with my original plan and eat, then I guess I have to at least see what Kenji is up to on the roof."
 "ช่วยไม่ได้ เอาเป็นว่าไปหาอะไรกินตามที่หมายมั่นไว้แต่แรกดีกว่า แล้วก็แวบไปดูว่าเคนจิจะทำอะไรที่ดาดฟ้าสักหน่อย"
 
 "…"
@@ -4712,70 +4533,51 @@ play music music_rain fadein 1.0
 scene bg school_stalls2 at Fullpan(8.0)
 with locationchange
 
-# "I do a slow circle around the grounds to kill some time, looking at the stalls, but not feeling like playing any of the games any more."
 "ฉันเดินไปรอบ ๆ งานอย่างช้า ๆ เพื่อฆ่าเวลา พอดูแผงทั้งหลายแล้วก็ไม่ได้รู้สึกว่าอยากเล่นอะไรเลยสักอย่าง"
 
-# "The garish colors grind my eyes and I feel more and more ill by the minute."
 "สีสันฉูดฉาดทำให้ฉันปวดตาและยิ่งทำให้เวียนหัวมากขึ้นทุกที ๆ"
 
-# "I can't even decide what I want to eat, and the large selection combined with the masses of energetic festival visitors isn't helping."
 "คิดไม่ออกเลยว่าจะกินอะไรดี แถมพอคนมางานกันล้นขนาดนี้ยิ่งแล้วใหญ่เลย"
 
 scene bg school_stalls1 at bgright
 with locationchange
 
-# "I just head towards the nearest stall that seems to offer something halfway edible and get in line."
 "ฉันเดินไปต่อแถวที่แผงขายของที่ดูเหมือนจะเป็นของกินใกล้ ๆ"
 
-# "It turns out to be noodles."
 "ซึ่งของที่ว่าคือบะหมี่"
 
-# "It also turns out to be not very good."
 "แถมไม่ค่อยอร่อยด้วย"
 
-# "Well, at least it's nourishment. It's not like I demand anything else, at this point."
 "อย่างน้อยก็พอกินได้แหละนะ ฉันก็ไม่ได้จะเลือกกินอะไรมากละตอนนี้"
 
 scene bg misc_sky at Fullpan(25.0)
 with locationchange
 
-# "As I stir my disagreeable noodles, I idly wonder what the others are doing right now."
 "ในขณะที่ฉันกำลังคลุกบะหมี่ชืด ๆ ก็เริ่มคิดว่าคนอื่น ๆ จะทำอะไรกันอยู่นะ"
 
-# "Shizune and Misha are definitely somewhere organizing things."
 "ชิซูเนะกับมิช่าคงไปจัดการเรื่องงานแน่ ๆ"
 
-# "I'd better steer clear of them. I guess they wouldn't forgive me so easily for leaving them alone with this thing."
 "ช่วงนี้หนีหน้าหน่อยดีกว่า เพราะพวกเธอไม่น่ายกโทษให้ฉันง่าย ๆ แน่ ๆ ที่ปล่อยพวกเธอทำงานกันสองคน"
 
-# "I expect Emi to be buzzing all over the place, being depressingly cheerful."
 "เอมิก็คงเดินเที่ยวงานอย่างร่าเริงอย่างที่ฉันเห็นแล้วหดหู่"
 
-# "There's no chance to find her, but no chance to avoid her either, so it doesn't matter."
 "ถ้าให้หาก็คงหาไม่เจอ ถ้าให้หลบหน้าก็คงไม่พ้น เพราะงั้นก็ช่างเถอะ"
 
-# "Lilly would probably be helping her class with that festival event, and entirely too busy for another's company."
 "ลิลลี่เองก็น่าจะกำลังช่วยงานห้องของเธอ คงยุ่งเกินกว่าจะไปอยู่กับใครได้"
 
-# "Hanako wouldn't want to talk to anyone anyway, either keeping to herself or helping Lilly."
 "ฮานาโกะเองก็ไม่อยากคุยกับใครด้วย คงไปปลีกตัวคนเดียวไม่ก็ไปช่วยลิลลี่แหละ"
 
-# "Rin should be tending to her mural and is probably being unhelpful to any hypothetical interested parties."
 "รินน่าจะอยู่เฝ้าภาพเขียนผนังอยู่ ถ้าเกิดมีคนมาดูก็คงทำตัวเลื่อนลอยไปเรื่อย"
 
-# "Going there for some peace and quiet seems like the nicest option of the above, but then again, I can't see having art forced on me raising my mood either, so I'll pass."
 "ถึงตรงนั้นจะเงียบสงบและดูจะเป็นทางเลือกที่ดีสุดที่ว่ามา แต่ให้ถ่างตานั่งดูงานศิลปะก็คงไม่ได้ช่วยให้ฉันอารมณ์ดีขึ้นมา\nสักเท่าไหร่ เลยขอผ่านดีกว่า"
 
 scene bg school_stalls1 at bgright
 with locationchange
 
-# "While I was lost in thought, my food seems to have disappeared, and so has my hunger."
 "พอนั่งฟุ้งไปเรื่อย ๆ บะหมี่ก็หมดไปพร้อมกับความหิวฉัน"
 
-# "I guess I just blocked out the experience of eating, which should be a good thing."
 "เมื่อกี้น่าจะไม่ได้รับรสอะไรเลย ซึ่งก็ดี"
 
-# "Satiated but unsatisfied, I turn to walk towards the main school building. An hour has almost passed already."
 "ฉันเดินไปทางอาคารหลักด้วยความอิ่มท้องแต่ไม่อิ่มใจ นี่ก็เกือบจะผ่านไปหนึ่งชั่วโมงแล้ว"
 
 play ambient sfx_crowd_indoors fadein 0.3
@@ -4784,14 +4586,12 @@ scene bg school_lobby
 show crowd
 with locationskip
 
-# "The crowd is even thicker in here than it was outside."
 "ฝูงชนตรงนี้แน่นกว่าข้างนอกเสียอีก"
 
 scene bg school_hallway3
 show crowd
 with locationchange
 
-# "The hallways are almost unbearable, and I don't even dare to think what's it like inside the classrooms."
 "โถงทางเดินก็คนเยอะจนแทบเดินไม่ไหว ไม่อยากนึกสภาพในห้องเรียนเลย"
 
 stop ambient fadeout 1.0
@@ -4799,48 +4599,37 @@ stop ambient fadeout 1.0
 scene bg school_staircase1
 with locationchange
 
-# "I head up the stairs to my destination."
 "ฉันตรงดิ่งไปยังจุดหมายปลายทางของฉัน"
 
-# "The roof."
 "ดาดฟ้า"
 
-# "Thankfully, the door at the top isn't locked, but now there's a handwritten sign on it."
 "โชคยังดีที่ประตูด้านบนไม่ได้ล็อก แต่มีป้ายเขียนแปะไว้อยู่"
 
 window hide
 
-# $ written_note("{size=55}{b}OFF LIMITS{/b}{/size}", quiet=True)
 $ written_note("{size=55}{b}ห้ า ม เ ข้ า{/b}{/size}", quiet=True)
 
 window show
 
-# "Don't mind if I don't."
 "แล้วจะทำไม"
 
 scene bg school_roof at bgright
 with locationchange
 
-# "The festival noise is surprisingly muted up here, and the rooftop looks deserted, as expected."
 "ตรงนี้เสียงของงานเทศกาลเงียบลงอย่างน่าเหลือเชื่อ และบนดาดฟ้าก็ดูเงียบเหงาอย่างที่คาดไว้"
 
-# "Near a place where the cyclone fence has collapsed, there is a pile of blankets that seems oddly out of place."
 "ใกล้ ๆ ตรงที่รั้วตาข่ายเหล็กล้มอยู่มีกองผ้าห่มที่ดูสะดุดตาแปลก ๆ"
 
 stop music fadeout 3.0
 
-# "Wait."
 "เดี๋ยวนะ"
 
 play sound sfx_rustling
 
-# "Did that pile just move a little?"
 "เมื่อกี้กองผ้านั่นมันดิ้นใช่มั้ย"
 
-# "That would be strange, as there is no wind at all."
 "แปลก ไม่มีลมพัดอะไรเลยแท้ ๆ "
 
-# "I carefully stick my hand out and give it an experimental prod."
 "ฉันค่อย ๆ เอื้อมมือไปแตะอย่างระมัดระวัง"
 
 play sound sfx_impact
@@ -4850,7 +4639,6 @@ show kenji rage_close:
 
 with vpunch
 
-# $ doublespeak(ke, hi, "AHHHHHHHHHHHHH!")
 $ doublespeak(ke, hi, "อ๊าาาาาาาาาาาาา!")
 
 play music music_comedy fadein 2.0
@@ -4859,93 +4647,71 @@ show kenji rage:
     center alpha 1.0
 with charadistant
 
-# "Startled, I jump back."
 "ฉันผงะถอยกรูด"
 
-# ke "Who is it?"
 ke "ใครน่ะ"
 
-# hi "God damn it, Kenji. It's me."
 hi "โธ่เว้ย เคนจิ นี่ฉันเอง"
 
 show kenji tsun at center
 with charachange
 
-# ke "Oh damn, you scared me, man."
 ke "โห่ ตกใจหมด"
 
-# hi "So what are we doing up here?" 
 hi "แล้ว เราจะมาทำไรตรงนี้วะ"
 
 show kenji neutral
 with charachange
 
-# ke "We're having a picnic."
 ke "เราจะมาปิกนิกกัน"
 
-# hi "What?"
 hi "ฮะ?"
 
 show kenji happy
 with charachange
 
-# ke "Yeah. I have blankets, pretzels and whiskey. This is the ultimate setup, man."
 ke "เออ ฉันเตรียมผ้าห่ม เพรทเซล แล้วก็วิสกี้มาละ ของดี ๆ ทั้งนั้นเว้ย"
 
-# hi "Whiskey?"
 hi "วิสกี้?"
 
-# hi "Aren't you a bit too young to drink alcohol?"
 hi "ไม่ใช่ว่าอายุยังไม่ถึงที่จะกินเหล้าเหรอวะ"
 
 show kenji tsun
 with charachange
 
-# ke "I'm 20, y'know."
 ke "ฉันอายุ 20 แล้ว"
 
-# hi "…you're not."
 hi "…ไม่มั้ง"
 
 show kenji neutral
 with charachange
 
-# ke "I am and so are you."
 ke "ฉันอายุถึงแล้ว นายก็ด้วย"
 
-# hi "What? That's absurd."
 hi "ฮะ? ใช่เหรอ"
 
 show kenji tsun
 with charachange
 
-# ke "Hey, at least YOU get something out of it, all I get is this bottle of whiskey…"
 ke "เออ อย่างน้อย{i}นาย{\i}อายุ 20 แล้วก็ยังได้อะไรบ้างนะ ฉันนี่ได้มาแต่วิสกี้ขวดนี้…"
 
-# "He's rambling incoherently, but I decide to play along."
 "พล่ามอะไรไม่เห็นรู้เรื่อง แต่ตาม ๆ น้ำไปก่อนแล้วกัน"
 
-# hi "So why do you have a bottle of whiskey?"
 hi "แล้วไปเอาวิสกี้นี้มาจากไหน"
 
 show kenji happy
 with charachange
 
-# ke "My mom couldn't come visit for the festival, so she sent me some expensive Single Malt instead."
 ke "พอดีแม่ฉันมาเที่ยวงานเทศกาลไม่ได้ เลยส่งซิงเกิลมอลต์ราคาแพงนี่มาให้แทน"
 
-# hi "A likely story."
 hi "เชื่อ"
 
-# ke "Want some?"
 ke "สักหน่อยปะ"
 
 hi "…"
 
-# "It's not like I have anything to lose. This day can't possibly get worse."
 "ไหน ๆ ก็ไม่มีอะไรจะเสียแล้ว วันนี้มันคงไม่แย่ไปกว่านี้ได้แล้วละ"
 
-# hi "…why not."
 hi "…ก็เอาดิ"
 
 hide kenji
@@ -4961,70 +4727,53 @@ show kenji happy_close at twoleft
 show bg school_roof at bgleft
 with charamove_decel
 
-# "We sit down on the pile of blankets Kenji apparently dragged up here."
 "พวกเรานั่งบนกองผ้าห่มที่เคนจิน่าจะเป็นคนขนขึ้นมาที่นี่"
 
-# "He produces an almost full bottle of whiskey and passes it to me."
 "เขาหยิบขวดวิสกี้ที่มีวิสกี้อยู่เกือบเต็มขวดส่งมาให้ฉัน"
 
-# hi "You didn't even bring glasses?"
 hi "แก้วเกิ้วก็ไม่มีเหรอวะ"
 
 show kenji tsun_close
 with charachange
 
-# ke "No, this is not some romantic princess picnic. What the hell, man?"
 ke "ไม่อะ นี่ไม่ใช่ปิกนิกของพวกสาวน้อยสักหน่อย จะบ้าเหรอพวก"
 
 show kenji neutral_close
 with charachange
 
-# ke "This is a manly picnic."
 ke "นี่มันการปิกนิกแบบแมน ๆ เว้ย"
 
-# ke "No glasses."
 ke "ไม่มีแก้ว"
 
-# ke "No napkins."
 ke "ไม่มีผ้าเช็ดหน้า"
 
-# ke "Whiskey only. The beverage of true men."
 ke "มีแต่วิสกี้ เครื่องดื่มของชายชาตรี"
 
-# hi "Whatever."
 hi "เออเอาเหอะ"
 
 show kenji happy_close
 with charachange
 
-# ke "And pretzels."
 ke "แล้วก็เพรทเซล"
 
-# "I take a closer look at the bottle."
 "ฉันจ้องดูขวดแบบใกล้ ๆ"
 
-# "12 year old single malt whiskey, as he said."
 "วิสกี้ซิงเกิลมอลต์ 12 ปี แบบที่เคนจิบอก"
 
-# "Shrugging my shoulders, I take a swig. It burns my throat like acid, but the taste isn't unpleasant."
 "ฉันยักไหล่แล้วดื่มไปหนึ่งอึก แสบคออย่างกับเอากรดราด แต่รสชาติก็ไม่ได้แย่อะไร"
 
-# "I feel it going straight into my head, and the aftertaste lingers in the back of my mouth, craving for another swig."
 "รู้สึกได้ถึงรสชาติที่พุ่งตรงเข้าไปในหัวของฉัน พร้อมรสที่ยังค้างอยู่ในโพรงปากชวนให้อยากกระดกอีก"
 
 show kenji neutral_close
 with charachange
 
-# ke "We should outline our counteroffensive and trashtalk women here, where they can't hear us."
 ke "เราต้องวางแผนเตรียมโจมตีกลับกับนินทาพวกผู้หญิงกันตรงนี้แหละ ไกลหูพวกมันดี"
 
 show kenji tsun_close
 with charachange
 
-# ke "Damn, I forgot to bring my graphs."
 ke "เชี่ยแม่ง ลืมหยิบกราฟมาว่ะ"
 
-# "I decide to play a drinking game with myself. Every time Kenji mentions “female conspiracy”, I'll take a swig."
 "ฉันลองตั้งกฎเล่น ๆ กับตัวเองว่าให้ดื่มอึกหนึ่งทุกครั้งที่เคนจิพูดถึง “ทฤษฎีสมคบคิดสตรีนิยม”"
 
 $wdt_off(False)
@@ -5034,7 +4783,6 @@ stop music fadeout 2.0
 scene black
 with delayblinds
 
-# centered "Four or five hours, or possibly several days later:\n{w}(I lost track)"
 centered "สักสี่หรือห้าชั่วโมง—หรือน่าจะหลายวัน—ให้หลัง:\n{w}(ลืมวันลืมคืนไปละ)"
 
 play music music_kenji fadein 0.5
@@ -5044,74 +4792,58 @@ with delayblinds
 
 window show
 
-# ke "You shouldn't feel bad, man! Ease the fuck up! Seriously, seriously!"
 ke "อย่าไปเครียดเว้ย คิดมาก ๆ ! พูดจริง ๆ !"
 
-# hi "I am relaxed, god damn it!"
 hi "ฉันก็ไม่ได้คิดมากเว้ย!"
 
-# ke "I'm telling it as I see it!"
 ke "ฉันก็พูดตามที่เห็นนั่นแหละ!"
 
 scene ev kenji_rooftop_kenji
 with flash
 
-# ke "Think about it. When did housing and land start becoming more and more expensive? When women began entering the work force, because it created two-income nuclear families."
 ke "ลองคิดดูดิ ราคาบ้านกับที่ดินมันพุ่งขึ้นตอนไหน ก็ตอนที่ผู้หญิงมันเริ่มเข้ามาเป็นแรงงานแล้วช่วยผัวทำงานหาเงินไง"
 
-# ke "Yeah I forgot my graphs, but, and you'll just have to take my word for it, women are connected to the decay of all society."
 ke "เอ้อ ลืมหยิบกราฟมาด้วย แต่นั่นแหละ จำเอาไว้ ที่สังคมมันเลวลงก็เพราะผู้หญิงทั้งนั้น"
 
 show ev kenji_rooftop_large:
     crop (288, 376, 800, 600)
     ease 1.0 crop (1024, 260, 800, 600)
 
-# hi "I see. That is kind of hard to believe."
 hi "อ่อ แทบไม่อยากจะเชื่อเลยนะ"
 
-# "Even if I say that, somehow, everything Kenji says seems to make more sense now."
 "ถึงจะพูดงั้นก็เถอะ อยู่ ๆ ก็รู้สึกว่าสิ่งที่เคนจิพูดเริ่มมีเหตุผลขึ้นมาซะงั้น"
 
-# "It all fits together but I don't know if it's because he can explain things more clearly when drunk, or because I understand everything better when drunk."
 "ทุก ๆ อย่างเริ่มจะดูปะติดปะต่อเข้ากันได้ลงตัว ไม่รู้เป็นเพราะว่าเขาอธิบายได้ดีขึ้นตอนเมา หรือเพราะว่าฉันเมาก็เลย\nเข้าใจได้ดีขึ้นกันแน่"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (288, 376, 800, 600)
 
-# ke "No man, think. Think! Think of the deeper implications!"
 ke "ไม่เว้ย ลองคิด คิดดู! คิดให้ลึก ๆ กว่านี้!"
 
-# ke "People could afford to start saying “Oh well, since two members of the family are now earning money as opposed to one, they can surely afford something like rising costs of ownership.”"
 ke "คนจะก็เริ่มอ้างได้ว่า “อะ ในเมื่อตอนนี้ครอบครัวหาเงินเข้าบ้านได้ทีละสองคนแทนที่จะเป็นคนเดียวแล้ว แปลว่าก็ต้องมี\nกำลังจ่ายเพิ่มมากขึ้น งั้นขึ้นค่าที่สักหน่อยก็ยังต้องจ่ายไหวแน่ ๆ ”"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (1024, 260, 800, 600)
 
-# hi "I see your point. But land in Japan has always been expensive."
 hi "คือก็เข้าใจแหละ แต่ที่ดินในญี่ปุ่นมันก็แพงมาตั้งแต่แรกอยู่ละนะ"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (288, 376, 800, 600)
 
-# ke "…And the price of land generally goes up when a country starts undergoing industrialization. …But no! It's because of women! Correlation equals causation, you know."
 ke "…แล้วปกติที่ดินมันก็จะแพงขึ้นเมื่อประเทศเริ่มเข้าสู่ยุคอุตสาหกรรม …ซะที่ไหนล่ะ! มันก็เพราะผู้หญิงนั่นแหละ! อะไร\nที่มันสัมพันธ์กันมันก็ต้องเป็นเหตุผลกันทั้งนั้นแหละ"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (1024, 260, 800, 600)
 
-# hi "I thought correlation didn't equal causation. Well, whatever, maybe you're right."
 hi "ไม่ใช่เขาบอกว่าถ้าสัมพันธ์กันแล้วไม่จำเป็นว่าทั้งสองอย่างจะเป็นเหตุผลกันเสมอไปเรอะ เออเอาเหอะ ก็ถูกของนาย\nละมั้ง"
 
 show ev kenji_rooftop_large:
     ease 1.0 crop (288, 376, 800, 600)
 
-# ke "I am always right. Yeah, I bet women created industrialization, too, to cover their tracks."
 ke "ฉันพูดถูกตลอดแหละน่า เออ ฉันพนันเลยว่าจริง ๆ แล้วพวกผู้หญิงนี่แหละเป็นพวกก่อตั้งยุคอุตสาหกรรมขึ้นมา เพื่อปิดบัง\nแผนของพวกมันไงล่ะ"
 
-# ke "How diabolical."
 ke "ช่างชั่วช้าสามานย์จริง ๆ"
 
-# ke "So yeah, everyone can go fuck themselves!"
 ke "นั่นแหละ ตาย ๆ แม่งให้หมดซะ!"
 
 scene bg school_roof_ni
@@ -5120,12 +4852,10 @@ show kenji rage_ni:
     easein 1.0 yanchor 1.0
 with locationchange
 
-# "He stands up, impressing me because I'm fairly sure I couldn't even if I wanted. He yells extremely loudly as if he's lost the concept of volume. I wince and almost want to cover my ears."
 "เขายืนขึ้น ฉันนึกทึ่งเพราะฉันยังไม่แน่ใจเลยด้วยซ้ำว่าตัวเองจะยืนขึ้นอย่างนั้นไหวหรือเปล่า เขาตะเบ็งเสียงโดย\nไม่สนใจว่าเสียงจะดังแค่ไหน เล่นเอาฉันผงะแทบยกมือขึ้นมาปิดหู"
 
 stop music fadeout 2.0
 
-# ke "Aaagh, how nice it would have been if I could have been down there… But no. You see, thinking like that is a trap, you think you're missing out on something, but at the end of that road is nothing but despair…"
 ke "โอยยย ถ้าได้ไปเที่ยวงานข้างล่างก็คงดี… ซะที่ไหน เนี่ย ถ้าเอาแต่คิดอย่างนั้นก็ไม่ต่างอะไรกับการติดหล่ม นายจะกลัว\nว่านายจะพลาดอะไรไป แต่ขืนมัวแต่คิดอย่างนั้น ท้ายที่สุดนายก็จะพบแต่ความสิ้นหวัง…"
 
 show kenji tsun_ni at center
@@ -5133,128 +4863,94 @@ with charachange
 
 play music music_sadness fadein 1.5
 
-# "Kenji snatches back the bottle and leans back his head, attempting to pour the alcohol into his mouth, but just ends up drenching himself in it."
 "เคนจิคว้าขวดพร้อมกับเงยหน้าขึ้นแล้วพยายามเทเหล้าเข้าปาก แต่ก็หกราดเต็มตัว"
 
 show kenji rage_ni
 with charachange
 
-# ke "Dammit! See, my aim is terrible, and the bad thing about drinking is that it only gets worse the longer you go!"
 ke "แม่งเอ๊ย! เห็นมั้ยเนี่ย ฉันเป็นคนเล็งไม่เก่ง แล้วยิ่งเมาก็ยิ่งไม่ตรงเข้าไปใหญ่"
 
 show kenji tsun_ni
 with charachange
 
-# ke "Today is the day of despair."
 ke "วันนี้แม่งโคตรสิ้นหวังเลย"
 
-# "His voice immediately drops to almost a whisper, but he starts talking much faster than before, slightly slurring his words from the whiskey."
 "จู่ ๆ เสียงเขาก็แผ่วลงจนแทบไม่ได้ยิน แต่เริ่มพล่ามรัวกว่าเมื่อกี้ พ่นคำเพ้อเจ้อออกมาด้วยฤทธิ์วิสกี้"
 
-# "As he talks, he waves the bottle around, spilling some of it here and there."
 "เขาถือขวดโบกไปมาในขณะที่พูดจนทำหกเลอะเทอะไปทั่ว"
 
-# ke "Yeah, you know what was the most shocking event of my life?"
 ke "เออ รู้ปะว่าอะไรที่ทำให้ฉันช็อกมากที่สุดในชีวิต"
 
-# "I have a hazy recollection of him telling about the second most shocking event in his life, which was a bird pooping on his head."
 "พอจำได้ลาง ๆ ว่าสิ่งที่ช็อกที่สุดเป็นอันดับสองคือครั้งที่นกขี้ใส่หัวเขา"
 
-# "I don't have particularly great expectations of this, but I nod at him to continue anyway."
 "ก็ไม่ค่อยจะหวังอะไรมากหรอก แต่ก็พยักหน้าให้เขาเล่าต่อ"
 
 show kenji neutral_ni
 with charachange
 
-# ke "You wouldn't think it, but I had a girlfriend here once, I think it was last year."
 ke "นายคงคาดไม่ถึงหรอก แต่ก่อนหน้านี้ฉันเคยมีแฟนที่อยู่ที่นี่คนนึง ประมาณปีที่แล้วมั้ง"
 
-# ke "Yeah, I just blew your mind, huh? See, I have never told that to anyone."
 ke "เออ เนี่ย เปิดโลกเลยใช่เปล่า นี่ไม่เคยบอกใครเลยนะเว้ย"
 
-# "It's true, the thought does blow my mind. Suddenly, I want the bottle. I take it from Kenji and knock back as much as I can."
 "เออ เปิดโลกจริงว่ะ อยู่ ๆ ฉันก็นึกอยากกระดกเหล้าเพิ่ม จึงคว้าขวดมาจากเคนจิแล้วกระดกให้มากที่สุดเท่าที่ทำได้"
 
 show kenji tsun_ni
 with charachange
 
-# ke "I was more innocent back then, and I thought she was sane, unlike most women. But then one day, we engaged in… sexual intercourse."
 ke "ก่อนหน้านี้ฉันยังละอ่อนอยู่ หลงคิดว่าเธอเป็นพวกปกติไม่เหมือนผู้หญิงพวกนั้น แต่พอวันนั้นมาถึง วันที่พวกเรา… \nมีเพศสัมพันธ์กัน"
 
-# ke "It was pretty okay, but then immediately following the event that is the point of all such things, something strange and scary happened."
 ke "มันก็ดีอยู่หรอก แต่พอผ่านพ้นช่วงที่เป็นทุกสิ่งทุกอย่างแล้วเท่านั้นแหละ บางอย่างที่แปลก ๆ และน่ากลัวก็เกิดขึ้น"
 
 show kenji tsun_ni at tworight
 show bg school_roof_ni at bgleft
 with charamove
 
-# "He throws himself up against the fence, leaning on it, his eyes narrowed."
 "เขาทิ้งตัวพิงกับรั้วแล้วหรี่ตา"
 
-# ke "I started feeling incredibly tired and sleepy! That isn't normal, man! What the fuck?"
 ke "ฉันเหนื่อยมาก ๆ แล้วก็ง่วงด้วย! แม่งแปลกนะเว้ย! แบบ เชี่ยไรวะ"
 
-# ke "I mean, normally, that would be a high-tension, adrenaline-pumping moment of anyone's life, but my energy levels were dropping like a brick!"
 ke "คือแบบ ปกติช่วงนั้นมันจะต้องอารมณ์พุ่งพล่าน ฟินสุดชีวิตเลยสิวะ แต่อยู่ ๆ ฉันก็หมดแรงไปดื้อ ๆ แบบนั้นน่ะ!"
 
-# ke "Something sinister was in the works, I could feel it."
 ke "ฉันสัมผัสได้ว่าต้องมีอะไรชั่วร้ายอยู่เบื้องหลังแน่นอน"
 
-# ke "That is when I knew… that women are dangerous, sapping the life force of all men through the one commodity that is almost solely theirs to control!"
 ke "และนั่นคือตอนที่ฉันรู้… ว่าผู้หญิงแม่งอันตราย ใช้สิ่งที่พวกเธอมีอำนาจควบคุมโดยสมบูรณ์เพื่อดูดพลังชีวิตไปจาก\nพวกผู้ชาย!"
 
-# ke "Sickening."
 ke "ขนลุก"
 
 show kenji neutral_ni
 with charachange
 
-# ke "Yeah, you're better off, dude…"
 ke "เออนั่นแหละ นายนี่ยังดีนะเว้ย…"
 
-# "Kenji was right, this really is the day of despair. I drink more to avoid having to process what he just said."
 "เคนจิพูดถูก วันนี้ช่างสิ้นหวังจริง ๆ ฉันกระดกเหล้าเพิ่มเพื่อจะได้ไม่ต้องรับรู้กับเรื่องที่เขาเพิ่งเล่าเมื่อกี้"
 
-# ke "Now I am the last sane man in an insane world… when other people realize it, there will be a war, a great war between men and the forces of feminism."
 ke "และตอนนี้ฉันก็กลายเป็นคนปกติคนสุดท้ายในโลกที่ไม่ปกติใบนี้… แล้วกว่าคนอื่นจะรู้สึกตัว สงครามก็เกิดแล้ว สงคราม\nระหว่างพวกผู้ชายกับกองทัพของสตรีนิยม"
 
-# ke "But the problem is that not all men would fight on my side… shit sucks. I could set the bar kinda low, any men are fine. But not the dudes raised by their mom or their sister, that's for sure."
 ke "แต่ปัญหาก็คือไม่ใช่ผู้ชายทุกคนที่จะมาร่วมสู้กับฉัน… แม่งเอ๊ย ฉันก็ไม่ได้เรื่องมากหรอก เอาเป็นชายคนไหนก็ได้แหละ\nแต่ต้องไม่ใช่พวกที่โตมากับแม่หรือพี่สาวน้องสาวแน่ ๆ"
 
 show kenji tsun_ni
 with charachange
 
-# ke "And nobody into dickgirl porn."
 ke "และก็ไม่เอาพวกที่ชอบงานฟูตะนาริด้วย"
 
-# hi "Ha… That situation seems unlikely to me, like it wouldn't happen, like… like it's not very likely to happen."
 hi "เหอะ… ฉันว่าสงครามมันไม่เกิดหรอก แบบ เป็นไปไม่ได้… เป็นไปไม่ได้ที่จะเป็นแบบนั้นไป"
 
-# "The alcohol must be working."
 "แอลกอฮอล์เริ่มทำงานแล้วแน่ ๆ "
 
-# "Regardless, I still feel depressed that I'm up here today."
 "ถึงงั้นก็ยังหดหู่อยู่ดีที่วันนี้ขึ้นมาที่นี่"
 
-# "I wasn't really looking forward to the festival with the same excitement as the rest of the school, but still."
 "ฉันเองก็ไม่ได้ตั้งตารองานเทศกาลแบบพวกนักเรียนคนอื่น ๆ หรอก แต่ก็นะ"
 
-# "It would have been nice to have gone with someone. From up here, it certainly sounded like everyone's having fun. Maybe I am missing out."
 "คงจะดีถ้าได้ไปเที่ยวงานกับใครสักคน มองจากตรงนี้ก็ดูเหมือนว่างานจะสนุกไม่น้อยเลยที่เดียว ฉันคงพลาดจริง ๆ\nนั่นแหละ"
 
-# "It's just that there was no one I could have gone with."
 "แต่ก็ไม่ได้มีใครที่ฉันจะไปเดินงานด้วยได้หรอก"
 
-# "Or maybe there was. So many opportunities, looking back on it now, and I must have squandered so many of them."
 "หรืออาจจะมีแหละ พอลองย้อนมองดูก็เห็นโอกาสตั้งหลายรอบก่อนหน้านี้ ฉันคงพลาดโอกาสที่ว่าไปมากโข"
 
-# ke "Damn, this is true despair… The worst part is that sometimes I feel like I have no choices in my life, you know?"
 ke "แม่ง นี่แม่งคือความสิ้นหวังที่แท้จริงเลย… ที่แย่ที่สุดก็คือบางทีก็เหมือนกับว่าฉันไม่มีทางเลือกเลยในชีวิตเนี่ย"
 
-# ke "Like I never have a chance to make a decision, shit just happens."
 ke "แบบ เหมือนไม่เคยได้เลือกอะไรจริง ๆ เลย อะไรก็เกิดขึ้นได้"
 
-# ke "Like it was all preprogrammed. Like fate… or something. Like there is no way I can have a say in what I do."
 ke "เหมือนทุกอย่างถูกโปรแกรมขึ้นมา เหมือนเป็น โชคชะตา… หรืออะไรทำนองนั้น เหมือนว่าฉันไม่มีสิทธิ์เลือกที่จะ\nทำอะไร"
 
 stop music fadeout 0.2
@@ -5262,22 +4958,17 @@ stop music fadeout 0.2
 show kenji rage_ni
 with vpunch
 
-# ke "Quick, ask me a question!"
 ke "เอ้าเร็ว ถามคำถามฉันสักข้อ!"
 
-# hi "Uh…"
 hi "เอ่อ…"
 
-# ke "Now!"
 ke "ตอนนี้เลย!"
 
-# hi "I can't really…"
 hi "ไม่ได้ว่ะ…"
 
 show kenji tsun_ni
 with charachange
 
-# ke "See? This is just another example of it! Damn! Shit! Damn! Do you see? Now, when I'm trying to go against my destiny and take charge of my life, the opportunity isn't even there."
 ke "เนี่ยเห็นปะ เป็นอย่างที่พูดเลยเว้ย! แม่ง! เชี่ย! แม่งเอ๊ย! เห็นมั้ย ขนาดตอนนี้พอฉันจะฝืนโชคชะตาเพื่อนำทางชีวิต\nของตัวเองบ้าง กลับไม่มีโอกาสเลย"
 
 ke "แม่ง นายทำฉันผิดหวังว่ะพวก ครั้งนี้ผิดหวังจริง ๆ เลย ไอ้บ้าเอ๊ย"
