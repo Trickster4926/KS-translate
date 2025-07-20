@@ -247,7 +247,7 @@ window show
 "โรงน้ำชาจากด้านนอกก็ดูปกติทั่วไป ก็แค่ตึกที่มีป้ายตกแต่งที่หน้าทางเข้า"
 
 # "It looks like the type of place you'd walk by without a thought, just another generic café in a sea of thousands."
-"เป็นที่ที่คนเดินผ่านโดยไม่คิดอะไร ก็แค่คาเฟทั่ว ๆ ไปเหมือน ๆ กับที่อื่น"
+"เป็นที่ที่คนเดินผ่านโดยไม่สนใจ ก็แค่คาเฟทั่ว ๆ ไปเหมือน ๆ กับที่อื่น"
 
 # "If Hanako hadn't steered Lilly into the entrance I would have continued on down the road without ever knowing that it existed."
 "ถ้าฮานาโกะไม่ได้ดึงลิลลี่เข้ามาที่หน้าร้าน ฉันคงเดินผ่านเลยไปตามถนนโดยไม่รู้ด้วยซ้ำว่ามีร้านนี้อยู่"
@@ -266,7 +266,7 @@ stop music fadeout 6.0
 "แต่สิ่งที่โดดเด่นที่สุดในห้องนี้คือ ความว่างเปล่าไร้ชีวิตชีวา ฉันคิดว่าแว่ว ๆ ได้ยินเสียงอะไรบางอย่างกำลังเดือดปุด ๆ\nอยู่ไกล ๆ แต่นอกเหนือจากเสียงนั้นห้องนี้ก็เงียบสนิทเลย"
 
 # "Without any direction, we simply wait near the entrance, politely obeying the “Please wait to be seated” sign."
-"ไม่มีใครบอกอะไร พวกเราก็แค่ยืนรออยู่ตรงทางเข้า ทำตามป้าย “กรุณารอพนักงานจัดที่นั่ง” อย่างว่าง่าย"
+"ไม่มีใครรู้ว่าควรทำอะไรต่อ พวกเราก็แค่ยืนรออยู่ตรงทางเข้า ทำตามป้าย “กรุณารอพนักงานจัดที่นั่ง” อย่างว่าง่าย"
 
 # hi "Er, is this place closed or something?"
 hi "เอ่อ ที่นี่ปิดอยู่หรือเปล่านะ?"
@@ -299,13 +299,13 @@ yu "ฉันไม่ได้หลับนะคะ และก็ยิน
 "แต่จะหลับหรือไม่ก็ช่าง ก็ไม่ใช่คำถามแรกในหัวของฉันเลย"
 
 # hi "You work here now? What happened to the library?"
-hi "คุณมาทำงานที่นี่แล้วเหรอครับ? เกิดอะไรขึ้นกับห้องสมุดเหรอครับ"
+hi "คุณมาทำงานที่นี่แล้วเหรอครับ มีปัญหาอะไรกับห้องสมุดหรือเปล่าครับ"
 
 show yuukoshang smile_down
 with charachange
 
 # yu "What? Lilly? Hisao?"
-yu "เดี๋ยวนะ ลิลลี่ ฮิซาโอะเหรอ"
+yu "เดี๋ยวนะ ลิลลี่ ฮิซาโอะ เองเหรอ"
 
 show yuukoshang neurotic_up
 with charachange
@@ -324,7 +324,7 @@ show yuukoshang noglasses_up at center
 with charamove
 
 # "Yuuko, still waking up, jerks into a violent bow, dislodging her glasses in the process."
-"ยูโกะที่ยังสะลึมสะลืออยู่ก็ โผล่งตัวโค้งคำนับอย่างแรง จนแว่นกระเด็นหลุดไปเลย"
+"ยูโกะที่ยังสะลึมสะลืออยู่ก็โผล่งตัวโค้งคำนับอย่างแรง จนแว่นกระเด็นหลุดไปเลย"
 
 # yu "Uweh!? My glasses…"
 yu "อุหวา!? แว่นของฉัน…"
@@ -361,13 +361,13 @@ show yuukoshang worried_up
 with charachange
 
 # yu "There's no-one else here so you can choose your table and order whatever you like, but there may be a delay as I will have to make it myself…"
-yu "ที่นี่ไม่มีใครเลย พวกเธอเลือกโต๊ะได้ตามสบายเลยนะ อยากสั่งอะไรก็ได้ แต่ว่าอาจจะต้องรอนานหน่อยนะ เพราะฉันต้อง\nทำเองทั้งหมดเลย…"
+yu "ที่นี่ยังไม่มีไม่มีใครมาเลย พวกเธอเลือกโต๊ะได้ตามสบายเลยนะ อยากสั่งอะไรก็ได้ แต่ว่าอาจจะต้องรอนานหน่อยนะ\nเพราะฉันต้องทำเองทั้งหมดเลย…"
 
 show lilly basic_smile at twoleft
 with charaenter
 
 # li "It's all right, Yuuko. Just a pot of black tea and a plate of sandwiches will be fine."
-li "ไม่ต้องเป็นห่วงหรอก ยูโกะ แค่ชาดำกาหนึ่งกับแซนด์วิชสักจานก็พอแล้ว"
+li "ไม่เป็นไรค่ะคุณยูโกะ แค่ชาดำกาหนึ่งกับแซนด์วิชสักจานก็พอแล้วค่ะ"
 
 show yuukoshang happy_down
 with charachange
@@ -389,7 +389,7 @@ with charamove
 "เธอผลักประตูบานสวิงออกไป ก่อนที่จะนึกขึ้นได้ว่ายังไม่ได้จัดที่นั่งให้พวกเรา"
 
 # yu "I'm sorry! I'm sorry! Please, sit wherever you'd like! I'll be right back!"
-yu "ขอโทษค่ะ! ขอโทษค่ะ! เลือกโต๊ะได้ตามสบายเลยนะ! เดี๋ยวฉันมา!"
+yu "ขอโทษค่ะ! ขอโทษค่ะ! เลือกโต๊ะได้ตามสบายเลยนะคะ! เดี๋ยวฉันมาค่ะ!"
 
 stop music fadeout 3.0
 
@@ -410,13 +410,17 @@ show hanako basic_normal:
     ease 1.0 ypos 1.17
 with Dissolve(1.0)
 
-"As I begin to sit next to Lilly, I realize how appropriate this place is for Hanako."
+# "As I begin to sit next to Lilly, I realize how appropriate this place is for Hanako."
+"พอได้นั่งข้าง ๆ ลิลลี่ ฉันก็เข้าใจว่าทำไมที่นี่ถึงเหมาะกับฮานาโกะ"
 
-"The high-backed booths totally separate you from the rest of the room, and it doesn't look like it gets all that many customers."
+# "The high-backed booths totally separate you from the rest of the room, and it doesn't look like it gets all that many customers."
+"ซุ้มที่นั่งพนักพิงสูงพวกนี้ แยกเราออกจากส่วนอื่นของห้องได้เลย แถมดูแล้วก็ไม่น่าจะมีลูกค้าเยอะเท่าไหร่ด้วย"
 
-"All of the furnishings, from the cushions on the benches to the condiment holders, look dated but aren't overly worn."
+# "All of the furnishings, from the cushions on the benches to the condiment holders, look dated but aren't overly worn."
+"เฟอร์นิเจอร์ทั้งหมด ไม่ว่าจะเป็นเบาะรองนั่งบนม้านั่งไปจนถึงที่วางเครื่องปรุง ดูเก่าแล้วแต่ก็ไม่ได้โทรมจนเกินไป"
 
-"I wonder if Lilly deliberately selects places like this to take Hanako? She seems like the type that would go to lengths to cater to Hanako's unique predicament."
+# "I wonder if Lilly deliberately selects places like this to take Hanako? She seems like the type that would go to lengths to cater to Hanako's unique predicament."
+"ฉันสงสัยเลยว่าลิลลี่ตั้งใจ เลือกสถานที่แบบนี้เพื่อพาฮานาโกะมารึเปล่านะ? เธอดูเป็นคนประเภทที่ ยอมทำทุกอย่าง เพื่อดูแล\nอาการเฉพาะตัวของฮานาโกะเลย"
 
 play music music_another fadein 4.0
 
@@ -424,42 +428,54 @@ show lilly basic_weaksmile:
      ypos 1.2
 with charachange
 
-li "So, Hisao, I didn't know you played chess…"
+# li "So, Hisao, I didn't know you played chess…"
+li "ว่าแต่ฮิซาโอะ ไม่ยักรู้ว่าเธอก็เล่นหมากรุกด้วย…"
 
-hi "Well, not very well, but I do know how to play."
+# hi "Well, not very well, but I do know how to play."
+hi "ก็นะ ไม่ได้เล่นเก่งหรอก แค่รู้วิธีเล่นน่ะ"
 
 show lilly basic_smile
 with charachange
 
-li "I suppose the obvious question would now be… who won?"
+# li "I suppose the obvious question would now be… who won?"
+li "ฉันว่าคำถามที่ควรถามต่อน่าจะเป็น… แล้วใครชนะล่ะ?"
 
-"Lilly's innocent smile makes me hesitate. I don't really want to look like I'm lording my victory over Hanako."
+# "Lilly's innocent smile makes me hesitate. I don't really want to look like I'm lording my victory over Hanako."
+"รอยยิ้มไร้เดียงสาของลิลลี่ทำให้ฉันลังเลไปชั่วขณะ ฉันไม่อยากดูเหมือนกำลังข่มฮานาโกะด้วยชัยชนะของตัวเองเลย"
 
 show hanako cover_bashful:
      ypos 1.17
 with charachange
 
-ha "H-Hisao did."
+# ha "H-Hisao did."
+ha "ฮะ…ฮิซาโอะน่ะ"
 
-hi "Yes… but, uh, not by much…"
+# hi "Yes… but, uh, not by much…"
+hi "ใช่แหละ… แต่ว่าก็ไม่ได้ขนาดนั้นหรอก"
 
-"Damn. Saying that out loud makes me feel like I've done something terrible."
+# "Damn. Saying that out loud makes me feel like I've done something terrible."
+"แม่ง คำพูดฉันเมื่อกี้เหมือนฉันไปทำอะไรผิดมาอย่างงั้น"
 
 show lilly basic_giggle
 with charachange
 
-li "Well done, Hisao. You've accomplished something I've only ever failed at."
+# li "Well done, Hisao. You've accomplished something I've only ever failed at."
+li "เก่งมากฮิซาโอะ นายทำในสิ่งที่ฉันไม่เคยทำสำเร็จเลยสักครั้ง"
 
-hi "Er, thanks. I haven't played in ages, so it felt good to play again."
+# hi "Er, thanks. I haven't played in ages, so it felt good to play again."
+hi "เอ่อ ขอบใจนะ ฉันเองก็ไม่ได้เล่นนานแล้ว เลยสนุกที่ได้เล่นอีกครั้งน่ะ"
 
 show hanako basic_smile
 with charachange
 
-ha "Y… yes… It did."
+# ha "Y… yes… It did."
+ha "ชะ… ใช่… สนุกมากเลย"
 
-"Hanako fidgets with her hair a little and looks away as she replies, but a small smile emerges."
+# "Hanako fidgets with her hair a little and looks away as she replies, but a small smile emerges."
+"ฮานาโกะม้วนผมตัวเองนิดหน่อย แล้วก็มองไปทางอื่นตอนที่ตอบ แต่ก็มีรอยยิ้มเล็ก ๆ ผุดขึ้นมาบนใบหน้าเธอ"
 
-"It's a little more extreme of a reaction than I expected, but still kind of cute in that Hanako way."
+# "It's a little more extreme of a reaction than I expected, but still kind of cute in that Hanako way."
+"ท่าทางปฏิกิริยาของเธอเกินคาดไปหน่อย แต่ก็น่ารักในแบบของฮานาโกะแหละนะ"
 
 show hanako defarms_shock at Transform(xpos=0.8)
 show lilly basic_surprised at Transform(xpos=0.2)
@@ -468,25 +484,30 @@ with Dissolvemove(0.5)
 show yuukoshang worried_up at center
 with charaenter
 
-"It throws me a little off guard, and only Yuuko's cataclysmic re-entry shocks me back into conversation."
+# "It throws me a little off guard, and only Yuuko's cataclysmic re-entry shocks me back into conversation."
+"เป็นท่าทีที่เล่นเอาไม่ทันตั้งตัวเลย กว่าฉันจะดึงตัวเองกลับมาให้พูดได้อีกทีก็ตอนที่ยูโกะโผล่มาแบบเด๋อ ๆ นั่นแหละ"
 
-hi "Are you all right there, Yuuko? Do you need a hand?"
+# hi "Are you all right there, Yuuko? Do you need a hand?"
+hi "ไหวไหมครับคุณยูโกะ ให้ช่วยไหมครับ"
 
 show yuukoshang neurotic_up
 show hanako def_worry
 with charachange
 
-yu "I'm fine I'm fine I'm fine. I have to do this properly, it's my job."
+# yu "I'm fine I'm fine I'm fine. I have to do this properly, it's my job."
+yu "ไม่เป็นไรค่ะ ไม่เป็นไรค่ะ ไม่เป็นไรค่ะ ฉันต้องจัดการเองให้ได้ เพราะเป็นงานของฉัน"
 
 show yuukoshang worried_up
 with charachange
 
-"Concentration plays across her face while she stares at the tray in her hands, as if simply looking at its contents will hold them in place."
+# "Concentration plays across her face while she stares at the tray in her hands, as if simply looking at its contents will hold them in place."
+"สมาธิจดจ่อฉายชัดบนใบหน้าของเธอขณะที่จ้องมองถาดในมือ ราวกับว่าแค่จ้องมองของอยู่ข้างในก็สามารถตรึงพวกของให้อยู่กับที่ได้"
 
 show yuukoshang worried_up at centertremble
 with charachange
 
-"Sadly, this doesn't prove all that effective; the cups and saucers slowly dance around, occasionally clattering as they collide with one another."
+# "Sadly, this doesn't prove all that effective; the cups and saucers slowly dance around, occasionally clattering as they collide with one another."
+"น่าเสียดายที่มันไม่ได้ผลเท่าไหร่ แก้วกับจานรองค่อย ๆ เคลื่อนไหวไปมา บางทีก็กระทบกันจนเกิดเสียงดังขึ้นมาเป็นครั้งคราว"
 
 show yuukoshang worried_up at Transform(ypos=1.1)
 with ease
@@ -494,19 +515,23 @@ with ease
 show yuukoshang worried_up at center
 with ease
 
-"Taking great care, Yuuko sets the tray down on the table with only the subtlest of crashes."
+# "Taking great care, Yuuko sets the tray down on the table with only the subtlest of crashes."
+"ยูโกะวางถาดลงบนโต๊ะอย่างระมัดระวังสุด ๆ มีเสียงกระทบกันเบาสุด ๆ เท่านั้น"
 
 show yuukoshang happy_down
 with charachange
 
-yu "There, see!"
+# yu "There, see!"
+yu "นี่ไง เห็นไหม!"
 
-hi "Er, well done?"
+# hi "Er, well done?"
+hi "เอ่อ เก่งมากครับ?"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Thank you, Yuuko."
+# li "Thank you, Yuuko."
+li "ขอบคุณค่ะคุณยูโกะ"
 
 show yuukoshang neutral_down at Transform(ypos=1.2)
 with Dissolvemove(0.2)
@@ -516,127 +541,159 @@ with Pause(0.2)
 show yuukoshang neutral_down at center
 with ease
 
-"Yuuko's head rockets downwards in her distinctive bow before answering."
+# "Yuuko's head rockets downwards in her distinctive bow before answering."
+"หัวของยูโกะดิ่งลงไปด้านล่างเป็นการโค้งคำนับแบบฉบับเฉพาะตัวของเธอ ก่อนจะเอ่ยตอบ"
 
 show yuukoshang closedhappy_down
 with charachange
 
-yu "You're very welcome."
+# yu "You're very welcome."
+yu "ยินดีที่ให้บริการค่ะ"
 
 show lilly basic_smile
 with charachange
 
-li "Would you like to join us? There's something else I'd like to discuss about that recent order, if I may…"
+# li "Would you like to join us? There's something else I'd like to discuss about that recent order, if I may…"
+li "คุณอยากจะมานั่งด้วยไหมคะ พอดีมีเรื่องที่จะคุยด้วยเรื่องรายการสั่งซื้อนั้นน่ะค่ะ ถ้าไม่ติดอะไร…"
 
-"Ah, that's right. Lilly and Yuuko were discussing a pile of books when I first met Hanako."
+# "Ah, that's right. Lilly and Yuuko were discussing a pile of books when I first met Hanako."
+"อ่า จริงด้วย ลิลลี่เคยคุยกับยูโกะเรื่องหนังสือตอนที่ฉันเจอฮานาโกะครั้งแรกก่อนหน้านี้"
 
-"Something about Lilly helping with the Braille…"
+# "Something about Lilly helping with the Braille…"
+"เกี่ยวกับเรื่องที่จะช่วยลิลลี่เรื่องหนังสืออักษรเบรลล์อะไรนี่แหละ…"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Ah… yes. We didn't get the chance to go through them, did we?"
+# yu "Ah… yes. We didn't get the chance to go through them, did we?"
+yu "อ่า… ใช่ เราแทบไม่ได้คุยกันเรื่องนั้นเลยสินะ"
 
 show yuukoshang neurotic_up at Transform(ypos=1.17)
 with charamove
 
-"Yuuko hastily sits down next to Hanako."
+# "Yuuko hastily sits down next to Hanako."
+"ยูโกะรีบเข้ามานั่งข้าง ๆ กับฮานาโกะ"
 
-"Apparently her dedication to this job only goes as far as her concentration; once it is broken, she suddenly loses it."
+# "Apparently her dedication to this job only goes as far as her concentration; once it is broken, she suddenly loses it."
+"ดูเหมือนความทุ่มเทในงานของเธอจะขึ้นอยู่กับสมาธิเท่านั้น พอสมาธิหลุดปุ๊บ เธอก็เลิกคิดไปเลย"
 
 show yuukoshang smile_down
 with charachange
 
-yu "I'll be in the library tomorrow afternoon if you'd like to try again…"
+# yu "I'll be in the library tomorrow afternoon if you'd like to try again…"
+yu "เดี๋ยวพรุ่งนี้ฉันจะเข้าห้องสมุดตอนบ่ายนะ ถ้าเธอจะมาเช็คอีกรอบ…"
 
 show lilly basic_cheerful
 with charachange
 
-li "That sounds perfect, I'll meet you there after classes."
+# li "That sounds perfect, I'll meet you there after classes."
+li "ดีเลยค่ะ เดี๋ยวฉันไปหาหลังเลิกเรียนนะคะ"
 
 show hanako emb_timid
 with charachange
 
-ha  "Um… L-Lilly…"
+# ha  "Um… L-Lilly…"
+ha "เอิ่ม… ละ…ลิลลี่…"
 
 show lilly basic_oops
 with charachange
 
-li "Oh dear, that's right. Tomorrow is Monday, how could I have forgotten?"
+# li "Oh dear, that's right. Tomorrow is Monday, how could I have forgotten?"
+li "โอ้ตายจริง นั่นสินะ พรุ่งนี้วันจันทร์นี่ ฉันลืมไปได้ยังไงกัน"
 
-"I'm starting to feel a little left out of the loop here. Then again that's to be expected; I have been here for barely a week, so it's impossible to know everyone's schedule."
+# "I'm starting to feel a little left out of the loop here. Then again that's to be expected; I have been here for barely a week, so it's impossible to know everyone's schedule."
+"ฉันเริ่มรู้สึกเหมือนตัวเองอยู่นอกวงนิด ๆ แล้วสิ แต่ก็ไม่แปลกหรอก ฉันเองเพิ่งมาอยู่ที่นี่ได้แค่ไม่ถึงสัปดาห์เอง จะไปรู้\nตารางเวลาของทุกคนได้ไง"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Well, perhaps we could come to some other arrangement."
+# li "Well, perhaps we could come to some other arrangement."
+li "อืม ถ้างั้นคงต้องจัดเวลาใหม่แล้วล่ะ"
 
 show lilly basic_smile
 with charachange
 
-li "Yuuko, will you be in the library later in the week?"
+# li "Yuuko, will you be in the library later in the week?"
+li "คุณยูโกะคะ คุณจะเข้ามาห้องสมุดวันอื่นในสัปดาห์นี้ไหมคะ?"
 
 show yuukoshang worried_up
 with charachange
 
-yu "Hmm, maybe, but this is already overdue…"
+# yu "Hmm, maybe, but this is already overdue…"
+yu "อืม… คงเข้าแหละ แต่ตอนนี้เวลาก็เลยกำหนดไปแล้ว…"
 
 show hanako emb_downsad
 with charachange
 
-ha "A-and there are some… things I n-need…"
+# ha "A-and there are some… things I n-need…"
+ha "ละ…แล้วก็มี… บางอย่างที่ฉัน… ต้องใช้…"
 
 show lilly basic_listen
 with charachange
 
-li "This might be a problem…"
+# li "This might be a problem…"
+li "ชักเป็นเรื่องละสิ…"
 
-"Lilly ponders for a second before discovering the answer."
+# "Lilly ponders for a second before discovering the answer."
+"ลิลลี่ครุ่นคิดอยู่สักพักก่อนจะได้คำตอบ"
 
 show lilly basic_planned
 with charachange
 
-li "I wonder, might we be able to enlist the help of another, if need be…?"
+# li "I wonder, might we be able to enlist the help of another, if need be…?"
+li "ฉันว่า เราจะยืมมือคนเพิ่มได้ไหมนะ ถ้าจำเป็นจริง ๆ …"
 
-hi "Um, to do what? You lost me quite some time ago…"
+# hi "Um, to do what? You lost me quite some time ago…"
+hi "เอ่อ ทำอะไรนะ ฉันตามไม่ทันมาสักพักแล้ว"
 
-"Being volunteered for something without even having the slightest idea what is going on isn't really my thing."
+# "Being volunteered for something without even having the slightest idea what is going on isn't really my thing."
+"จะให้อาสาช่วยโดยที่ไม่รู้อะไรเลยก็กระไรอยู่"
 
-"And here I thought I had finally escaped the clutches of the Student Council and their repeated attempts to recruit me."
+# "And here I thought I had finally escaped the clutches of the Student Council and their repeated attempts to recruit me."
+"และก็จะได้พ้นมือสภานักเรียนกับการพยายามชวนฉันเข้าสภาซ้ำแล้วซ้ำเล่าได้สักที"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Oh, of course. The other day I was helping Yuuko sort the new Braille books in the library."
+# li "Oh, of course. The other day I was helping Yuuko sort the new Braille books in the library."
+li "อ๋อ ใช่ คือเมื่อวันก่อนฉันไปช่วยคุณยูโกะจัดเรียงหนังสืออักษรเบรลล์ในห้องสมุดน่ะ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "But Hanako and I usually go shopping on Monday afternoons; it's quieter on that day than on weekends."
+# li "But Hanako and I usually go shopping on Monday afternoons; it's quieter on that day than on weekends."
+li "แต่ปกติแล้วฉันกับฮานาโกะจะออกไปซื้อของช่วยบ่ายวันจันทร์ เพราะวันนั้นคนจะน้อยกว่าช่วงวันหยุด"
 
-li "Last week we couldn't go because I was busy with the festival. I managed to slip away later in the week, but Hanako couldn't make it."
+# li "Last week we couldn't go because I was busy with the festival. I managed to slip away later in the week, but Hanako couldn't make it."
+li "สัปดาห์ก่อนพวกเราไม่ได้ไปเพราะว่าฉันยุ่งกับงานเทศกาลอยู่ ฉันเองพอออกไปวันอื่นได้อยู่ แต่ฮานาโกะทำไมได้น่ะจ้ะ"
 
-hi "Well, since I can't read Braille, I'm assuming you'd like me to go shopping with Hanako?"
+# hi "Well, since I can't read Braille, I'm assuming you'd like me to go shopping with Hanako?"
+hi "อืม ในเมื่อฉันเองก็อ่านอักษรเบรลล์ไม่ออก เดาว่าเธอคงอยากให้ฉันออกไปซื้อของกับฮานาโกะสินะ"
 
 show lilly basic_smile
 show hanako emb_timid
 with charachange
 
-li "Correct. You were a great help to me the other day."
+# li "Correct. You were a great help to me the other day."
+li "ใช่แล้วจ้ะ ครั้งก่อนนายช่วยฉันได้เยอะเลย"
 
-hi "I think I can handle that. Hanako, what do you think?"
+# hi "I think I can handle that. Hanako, what do you think?"
+hi "ก็ไปได้แหละ ฮานาโกะ เธอว่าไงล่ะ"
 
 show hanako basic_smile
 with charachange
 
-ha "I-if you wouldn't mind…"
+# ha "I-if you wouldn't mind…"
+ha "ถะ…ถ้านายไม่ติดอะไร…"
 
-hi "Of course not. I'm still not familiar with all the stores in the area, so it sounds like a good idea."
+# hi "Of course not. I'm still not familiar with all the stores in the area, so it sounds like a good idea."
+hi "แน่นอนว่าไม่ติด ดีซะอีกเพราะฉันเองยังไม่ค่อยคุ้นกับร้านค้าแถวนี้เท่าไหร่ด้วย"
 
 show hanako basic_bashful
 with charachange
 
-ha "O-okay."
+# ha "O-okay."
+ha "อะ…โอเค"
 
 show lilly basic_smileclosed
 with charachange
