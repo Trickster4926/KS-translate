@@ -698,25 +698,32 @@ ha "อะ…โอเค"
 show lilly basic_smileclosed
 with charachange
 
-li "Now that we have that arranged, shall we have some tea?"
+# li "Now that we have that arranged, shall we have some tea?"
+li "ในเมื่อแผนลงตัวแล้ว เรามาดื่มชากันดีไหม"
 
-"It's now that I realize our tea has been sitting idly by all this time, getting no hotter."
+# "It's now that I realize our tea has been sitting idly by all this time, getting no hotter."
+"ตอนนี้ฉันเพิ่งรู้ตัวว่าชาของเราวางอยู่เฉย ๆ นานแล้ว ไม่ได้ร้อนขึ้นจากเดิม"
 
 show yuukoshang panic_up
 with charachange
 
-yu "It's my fault! Let me pour that for you…"
+# yu "It's my fault! Let me pour that for you…"
+yu "ฉันผิดเองค่ะ! ให้ฉันรินให้นะคะ…"
 
-"Yuuko reaches out with shaking hands, but I intercept her; she looks in no state to be handling hot liquids."
+# "Yuuko reaches out with shaking hands, but I intercept her; she looks in no state to be handling hot liquids."
+"ยูโกะเอื้อมมือที่สั่นเทาออกมา แต่ฉันก็รีบรับไว้ก่อน ดูท่าทางเธอไม่พร้อมจะจับของร้อน ๆ เลยสักนิด"
 
-hi "It's all right, I've got it. Since you've already made the tea and sandwiches, you've fulfilled your waitress duties, right?"
+# hi "It's all right, I've got it. Since you've already made the tea and sandwiches, you've fulfilled your waitress duties, right?"
+hi "ไม่เป็นไรหรอกครับ ผมทำเองได้ แค่คุณเตรียมชากับแซนด์วิชมาก็ถือว่าทำตามน่าที่ของบริกรครบแล้ว จริงไหมครับ?"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "I… I guess."
+# yu "I… I guess."
+yu "คะ… คงงั้นแหละค่ะ"
 
-"Yuuko relaxes a little, but still watches eagerly as I share out the assortment."
+# "Yuuko relaxes a little, but still watches eagerly as I share out the assortment."
+"ยูโกะผ่อนคลายลงนิดหน่อย แต่ก็ยังคงจับจ้องอย่างกระตือรือร้นตอนที่ฉันแจกจ่ายของว่างบนโต๊ะ"
 
 stop music fadeout 1.0
 play ambient sfx_fireworks
@@ -731,23 +738,27 @@ show yuukoshang panic_up
 show lilly basic_surprised
 with charachange
 
-"As I am about to bite into the sandwich, a low, loud rumble can be heard, along with a flash of light from outside."
+# "As I am about to bite into the sandwich, a low, loud rumble can be heard, along with a flash of light from outside."
+"ขณะที่ฉันกำลังจะกัดแซนด์วิช ก็ได้ยินเสียงปึงปังดังเข้ามาเบา ๆ พร้อมกับแสงวาบจากข้างนอก"
 
 show lilly basic_weaksmile
 show yuukoshang smile_down
 show hanako emb_timid
 with charachange
 
-li "Ah, I take it the show has started."
+# li "Ah, I take it the show has started."
+li "อา งานแสดงคงเริ่มแล้วสินะ"
 
 hide fireshine
 show bg misc_sky_ni as front
 show fireworks
 with locationchange
 
-"Only now looking outside, I realize that dusk has come and gone, leaving us in the peak of twilight."
+# "Only now looking outside, I realize that dusk has come and gone, leaving us in the peak of twilight."
+"เมื่อทอดสายตาออกไปข้างนอกก็ถึงรู้ตัวว่ายามเย็นได้เคลื่อนคล้อยมาและผ่านไปแล้ว ทิ้งไว้เพียงช่วงยามสนธยา"
 
-"Sparking tracers arc upwards ready to explode in the floral shapes of fireworks."
+# "Sparking tracers arc upwards ready to explode in the floral shapes of fireworks."
+"ประกายไฟพุ่งทะยานขึ้นสู่ท้องฟ้า เตรียมพร้อมที่จะระเบิดเป็นรูปทรงดอกไม้ของดอกไม้ไฟ"
 
 hide fireworks
 hide front
@@ -755,12 +766,14 @@ show fireshine
 show yuukoshang happy_down
 with locationchange
 
-yu "Let's go watch!"
+# yu "Let's go watch!"
+yu "ไปดูกันเถอะ!"
 
 show yuukoshang panic_up
 with charachange
 
-yu "Oh… sorry Lilly…"
+# yu "Oh… sorry Lilly…"
+yu "โอ๊ะ… ขอโทษที ลิลลี่…"
 
 show lilly basic_ara
 with charachange
@@ -773,7 +786,8 @@ show ev hanako_shanghaiwindow behind hanako_fw:
     ease 22.0 zoom 1.0
 with None
 
-li "Please, don't miss the show on my account. From what I've heard, this isn't a bad location to watch them from."
+# li "Please, don't miss the show on my account. From what I've heard, this isn't a bad location to watch them from."
+li "อย่าพลาดการแสดงเพราะฉันเลยนะ จากที่ได้ยินมา ที่นี่ก็ไม่ใช่จุดชมวิวที่แย่อะไรหรอก"
 
 play music music_serene fadein 4.0
 
@@ -784,51 +798,64 @@ hide lilly
 hide yuukoshang
 with locationskip
 
-"With the exception of Lilly, we rush to the window of the small teahouse to watch the show."
+# "With the exception of Lilly, we rush to the window of the small teahouse to watch the show."
+"พวกเราทุกคนยกเว้นลิลลี่รีบวิ่งมาที่หน้าต่างของโรงน้ำชาเพื่อดูการแสดง"
 
-"The strobe of colored lights plays across Hanako and Yuuko's smiling faces, and for a second I forget to look out the window."
+# "The strobe of colored lights plays across Hanako and Yuuko's smiling faces, and for a second I forget to look out the window."
+"แสงวูบวาบของพลุหลากสีสาดส่องลงบนใบหน้าเปื้อนยิ้มของฮานาโกะกับยูโกะ ทำให้ฉันลืมมองออกไปนอกหน้าต่างไปแวบนึงเลย"
 
-"In this totally new world, there are a few things that don't change."
+# "In this totally new world, there are a few things that don't change."
+"ในโลกใหม่ใบนี้ มีบางสิ่งที่ไม่เคยเปลี่ยนไปเลย"
 
-"I think that's why the school makes such a fuss over this festival. It's a chance to show the similarities between everyone."
+# "I think that's why the school makes such a fuss over this festival. It's a chance to show the similarities between everyone."
+"ฉันว่านั่นแหละคือเหตุผลที่โรงเรียนถึงได้จัดเทศกาลนี้อย่างยิ่งใหญ่ มันเป็นโอกาสที่จะแสดงให้เห็นถึงความเหมือนกันของทุกคน"
 
 stop ambient fadeout 3.0
 
 hide hanako_fw
 with Dissolve(1.0)
 
-"The show is over all too quickly; fireworks are expensive, even for the most well-funded schools."
+# "The show is over all too quickly; fireworks are expensive, even for the most well-funded schools."
+"การแสดงจบลงเร็วไปหน่อย พลุแพงจะตายไป ถึงแม้โรงเรียนที่มีเงินถุงเงินถังก็เถอะ"
 
 scene bg suburb_shanghaiint at bgright
 with locationchange
 
-"Before we return to our tea and sandwiches, Hanako turns to me."
+# "Before we return to our tea and sandwiches, Hanako turns to me."
+"ก่อนที่เราจะได้ไปกินแซนด์วิชกับชาต่อ ฮานาโกะหันมาหาฉัน"
 
 show hanako emb_downsmile_close
 with charaenter
 
-ha "Um, t-thanks for today."
+# ha "Um, t-thanks for today."
+ha "เอ่อ ขะ…ขอบใจนะสำหรับวันนี้"
 
 show hanako emb_smile_close
 with charachange
 
-ha "…and tomorrow."
+# ha "…and tomorrow."
+ha "…แล้วก็ วันพรุ่งนี้ด้วย"
 
-hi "That's okay; I don't think that I could have faced those crowds either."
+# hi "That's okay; I don't think that I could have faced those crowds either."
+hi "ไม่เป็นไร ฉันเองก็ไม่อยากอยู่กลางฝูงชนขนาดนั้นหรอก"
 
-hi "On days like this it's more relaxing to spend some time away from everyone, don't you think?"
+# hi "On days like this it's more relaxing to spend some time away from everyone, don't you think?"
+hi "วันดี ๆ แบบนี้ การได้ใช้เวลาปลีกตัวจากทุกคนบ้างมันผ่อนคลายกว่าเยอะเลยนะ ว่าไหมล่ะ?"
 
 show hanako basic_normal_close
 with charachange
 
-ha "Y-yeah."
+# ha "Y-yeah."
+ha "อะ…อื้ม"
 
-hi "Anyway, we've been delaying this tea for far too long now, let's get back."
+# hi "Anyway, we've been delaying this tea for far too long now, let's get back."
+hi "แต่เอาเถอะ กลับไปที่โต๊ะกันดีกว่า เดี๋ยวชาเย็นชืดหมด"
 
 show hanako basic_bashful_close
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha "อะ…เอาสิ"
 
 stop music fadeout 6.0
 
@@ -849,116 +876,148 @@ show hanako basic_smile:
     easein 1.0 ypos 1.17
 with charaenter
 
-"We return to the booth and our light meal."
+# "We return to the booth and our light meal."
+"พวกเรากลับมายังซุ้มของเรา"
 
 show lilly basic_smile
 with charachange
 
-li "That sounded impressive. Bigger than last year's at least."
+# li "That sounded impressive. Bigger than last year's at least."
+li "ฟังดูน่าประทับใจมากเลย ใหญ่กว่าปีที่แล้วเยอะสำหรับฉันน่ะนะ"
 
 show yuukoshang happy_down
 with charachange
 
-yu "Yeah it was great! I've never seen them put on such a show."
+# yu "Yeah it was great! I've never seen them put on such a show."
+yu "ใช่ เยี่ยมไปเลยล่ะ! ฉันไม่เคยเห็นพวกเขาจัดแสดงได้อลังการขนาดนี้มาก่อนเลย"
 
-yu "It gets better every year!"
+# yu "It gets better every year!"
+yu "งานดีขึ้นทุก ๆ ปีเลย!"
 
 show lilly basic_weaksmile
 with charachange
 
-li "I'm afraid, however, that during that time, the tea has gone cold."
+# li "I'm afraid, however, that during that time, the tea has gone cold."
+li "ตอนนี้เกรงว่าชาจะเริ่มเย็นชืดแล้วล่ะ"
 
 show yuukoshang panic_up at center
 with Dissolvemove(0.2)
 
 play music music_ease fadein 0.5
 
-yu "Oh no! Let me make some more! This is my fault!"
+# yu "Oh no! Let me make some more! This is my fault!"
+yu "โอ้ไม่นะ! เดี๋ยวฉันไปชงมาเพิ่ม ฉันผิดเองค่ะ!"
 
-hi "Calm down, Yuuko, it's nobody's fault."
+# hi "Calm down, Yuuko, it's nobody's fault."
+hi "ใจเย็น ๆ ก่อนครับคุณยูโกะ ไม่ใช่ความผิดใครทั้งนั้นแหละครับ"
 
-"I take a sip from my cup, just to prove the point."
+# "I take a sip from my cup, just to prove the point."
+"ฉันจิบชาจากถ้วยของฉันเพื่อพิสูจน์"
 
-hi "This tea isn't too bad cool, anyway. It's like an iced tea."
+# hi "This tea isn't too bad cool, anyway. It's like an iced tea."
+hi "ก็ไม่ได้เย็นชืดขนาดนั้นสักหน่อย เอาเถอะ มันเหมือนชาเย็นมากกว่า"
 
 show yuukoshang worried_up
 with charachange
 
-yu "Really?"
+# yu "Really?"
+yu "งั้นเหรอ?"
 
-hi "Yes, really. If you add a bit of sugar it's kinda nice."
+# hi "Yes, really. If you add a bit of sugar it's kinda nice."
+hi "ครับ เหมือนเลย ถ้าเติมน้ำตาลสักหน่อยก็คงดี"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Are you sure?"
+# yu "Are you sure?"
+yu "แน่ใจเหรอคะ"
 
-hi "I'm positive. Now why don't you sit down and we'll finish this together?"
+# hi "I'm positive. Now why don't you sit down and we'll finish this together?"
+hi "แน่สิ เอ้าเรามานั่งดื่มชาให้หมดด้วยกันดีกว่า"
 
 show yuukoshang smile_down
 with charachange
 
-yu "O-okay."
+# yu "O-okay."
+yu "อะ…โอเคค่ะ"
 
 show yuukoshang smile_down at Transform(ypos=1.17)
 with charamove
 
-"Yuuko doesn't seem convinced, but sits down regardless."
+# "Yuuko doesn't seem convinced, but sits down regardless."
+"ยูโกะดูเหมือนจะไม่ค่อยเชื่อเท่าไหร่ แต่ก็ยอมนั่งลงอยู่ดี"
 
-"She carefully measures out about five teaspoons of sugar and adds them to her tea."
+# "She carefully measures out about five teaspoons of sugar and adds them to her tea."
+"เธอตักน้ำตาลอย่างระมัดระวังประมาณห้าช้อนชา แล้วเติมลงไปในชาของเธอ"
 
-hi "Er, I said a bit of sugar…"
+# hi "Er, I said a bit of sugar…"
+hi "เอ่อ ผมบอกว่าแค่นิดหน่อย…"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "I know but I like my tea sweet anyway."
+# yu "I know but I like my tea sweet anyway."
+yu "ค่ะ แต่ว่าฉันชอบชาหวาน ๆ น่ะค่ะ"
 
-"Curiously I peer into her cup. As expected, hardly any of the sugar dissolves in the cold liquid."
+# "Curiously I peer into her cup. As expected, hardly any of the sugar dissolves in the cold liquid."
+"ด้วยความอยากรู้ ฉันเลยชะเง้อหน้ามองเข้าไปในถ้วยของเธอ อย่างที่คิด น้ำตาลแทบไม่ละลายในของเหลวเย็น ๆ เลย"
 
-"She stirs it twice before upturning the cup and drinking the contents, sugar and all, in a single mouthful."
+# "She stirs it twice before upturning the cup and drinking the contents, sugar and all, in a single mouthful."
+"เธอคนมันครั้งสองครั้งก่อนจะยกถ้วยขึ้นดื่มรวดเดียว ทั้งน้ำตาลและชาหมดเกลี้ยงในอึกเดียว"
 
 show yuukoshang happy_down
 with charachange
 
-yu "You're right! That's not bad at all!"
+# yu "You're right! That's not bad at all!"
+yu "จริงด้วย! ไม่ได้แย่อย่างที่คิด!"
 
-hi "Er, good…"
+# hi "Er, good…"
+hi "เอ่อ ก็ดีครับ…"
 
-"I look back to Lilly and Hanako, both of whom have finished their meal as I witnessed Yuuko's personality in action."
+# "I look back to Lilly and Hanako, both of whom have finished their meal as I witnessed Yuuko's personality in action."
+"ฉันหันกลับไปมองลิลลี่กับฮานาโกะ ทั้งคู่กินเสร็จเรียบร้อยแล้ว ระหว่างที่ฉันได้เห็นนิสัยของยูโกะเมื่อกี้"
 
-"Not wanting to hold anyone up, I use her tactic and finish the remainder of my tea in a single swill."
+# "Not wanting to hold anyone up, I use her tactic and finish the remainder of my tea in a single swill."
+"ด้วยไม่อยากให้ใครต้องรอ ฉันเลยใช้วิธีเดียวกับเธอดื่มชาที่เหลือรวดเดียวหมดแก้ว"
 
-hi "Well then, it seems we're all finished."
+# hi "Well then, it seems we're all finished."
+hi "เอาล่ะ ดูเหมือนทุกคนจะกินเสร็จละนะ"
 
 show lilly basic_smile
 with charachange
 
-li "Should we head back now or do we want seconds?"
+# li "Should we head back now or do we want seconds?"
+li "เราจะกลับเลยไหม หรือจะสั่งเพิ่มดี"
 
 show yuukoshang neurotic_up
 with charachange
 
-"Yuuko's expression shows that this is quite clearly not a good idea."
+# "Yuuko's expression shows that this is quite clearly not a good idea."
+"สีหน้าของยูโกะแสดงออกชัดเจนว่าไม่ใช่ความคิดที่ดีแน่ ๆ"
 
-hi "I think that it would be best if we got back soon."
+# hi "I think that it would be best if we got back soon."
+hi "ฉันว่าเรารีบกลับกันดีกว่านะ"
 
-hi "We do have to get back before curfew, after all."
+# hi "We do have to get back before curfew, after all."
+hi "เราต้องกลับก่อนเวลาปิดประตูหอด้วยนี่นะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Oh, that is a good point."
+# li "Oh, that is a good point."
+li "อ้อ ก็จริง"
 
 show lilly basic_smile
 with charachange
 
-li "I'll meet you tomorrow, Yuuko."
+# li "I'll meet you tomorrow, Yuuko."
+li "ไว้เจอกันพรุ่งนี้นะคะคุณยูโกะ"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "I'll be looking forward to it, Lilly. Goodbye, everyone."
+# yu "I'll be looking forward to it, Lilly. Goodbye, everyone."
+yu "พรุ่งนี้จะรอนะลิลลี่ ลาก่อนทุกคน"
 
 stop music fadeout 9.0
 
@@ -968,56 +1027,70 @@ play ambient sfx_cicadas fadein 0.5
 scene bg suburb_shanghaiext_ni
 with locationchange
 
-"We make our way out of the small teahouse and into the dark of the night."
+# "We make our way out of the small teahouse and into the dark of the night."
+"พวกเราเดินออกมาจากโรงน้ำชาเล็ก ๆ แล้วก้าวเข้าสู่ความมืดมิดของยามค่ำคืน"
 
 $ renpy.music.set_volume(0.4, 1.0, channel="ambient")
 scene bg suburb_roadcenter_ni
 with locationchange
 
-"Lilly and Hanako once again take point, but under the cover of darkness Hanako seems slightly less stressed than she did on the trip here."
+# "Lilly and Hanako once again take point, but under the cover of darkness Hanako seems slightly less stressed than she did on the trip here."
+"ลิลลี่กับฮานาโกะกลับมานำทางอีกครั้ง แต่ภายใต้ความมืดมิด ฮานาโกะดูผ่อนคลายลงกว่าตอนขามาเล็กน้อย"
 
-"We move against the occasional group of people emptying the school grounds, but Hanako seems to lead us along a few minor roads, avoiding the bulk of the crowd."
+# "We move against the occasional group of people emptying the school grounds, but Hanako seems to lead us along a few minor roads, avoiding the bulk of the crowd."
+"พวกเราเดินสวนทางกับกลุ่มคนบางตาที่กำลังออกจากบริเวณโรงเรียน แต่ฮานาโกะดูเหมือนจะพาเราเลี่ยงไปตามถนน\nสายเล็ก ๆ สองสามสาย หลีกเลี่ยงกลุ่มคนส่วนใหญ่ได้สำเร็จ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
 scene bg school_dormext_full_ni
 with locationskip
 
-"Outside the dorms, the school seems strangely quiet when compared to the noise of the day."
+# "Outside the dorms, the school seems strangely quiet when compared to the noise of the day."
+"นอกหอพัก โรงเรียนดูเงียบกว่าปกติเมื่อเทียบกับเสียงอึกทึกครึกโครมในตอนกลางวัน"
 
-hi "Well then, thank you both for today. I think I learned a lot."
+# hi "Well then, thank you both for today. I think I learned a lot."
+hi "เอาล่ะ ขอบใจพวกเธอมากสำหรับวันนี้ ฉันว่าฉันได้รู้อะไรหลายอย่างเลย"
 
 show hanako emb_timid_ni at Transform(xanchor=0.5, xpos=0.59)
 show lilly basic_weaksmile_ni at Transform(xanchor=0.5, xpos=0.41)
 with charaenter
 
-li "You're most welcome, but I'm afraid that I really must be going. Today's been a long day."
+# li "You're most welcome, but I'm afraid that I really must be going. Today's been a long day."
+li "ด้วยความยินดีอย่างยิ่งเลยจ้ะ แต่ฉันคงต้องขอตัวจริง ๆ วันนี้เป็นวันที่เหนื่อยเหลือเกิน"
 
-"That's right; Lilly spent all of today on her feet, and I can imagine that walking outside of the school would be pretty tiring for her."
+# "That's right; Lilly spent all of today on her feet, and I can imagine that walking outside of the school would be pretty tiring for her."
+"นั่นสินะ วันนี้ลิลลี่ยืนแผงมาทั้งวันแถมยังเดินออกไปข้างนอกโรงเรียนอีก เดาได้เลยว่าเหนื่อยมากแน่ ๆ"
 
-"I feel a pang of guilt as I remember that I was probably the only one in the school that got up around ten this morning."
+# "I feel a pang of guilt as I remember that I was probably the only one in the school that got up around ten this morning."
+"ฉันรู้สึกผิดขึ้นมานิดหน่อย เมื่อนึกขึ้นได้ว่าวันนี้ฉันน่าจะเป็นคนเดียวในโรงเรียนที่ตื่นประมาณสิบโมงเช้า"
 
-hi "Sure thing."
+# hi "Sure thing."
+hi "เอาสิ"
 
-hi "Well, I'll see you both tomorrow. Good night."
+# hi "Well, I'll see you both tomorrow. Good night."
+hi "ก็ เจอกันพรุ่งนี้นะทุกคน ราตรีสวัสดิ์"
 
 show lilly basic_cheerful_ni
 with charachange
 
-li "Good night, Hisao."
+# li "Good night, Hisao."
+li "ราตรีสวัสดิ์จ้ะ ฮิซาโอะ"
 
 show hanako basic_smile_ni
 with charachange
 
-ha "N… night."
+# ha "N… night."
+ha "ระ… ราตรีหวัด"
 
 hide hanako
 hide lilly
 with charaexit
 
-"The girls return to their dorm, and I to mine."
+# "The girls return to their dorm, and I to mine."
+"พวกสาว ๆ ก็กลับไปหอพวกเธอ และฉันก็กลับไปหอฉัน"
 
-"Actually, now that I consider it, today tired me out as well."
+# "Actually, now that I consider it, today tired me out as well."
+"ก็นะ จริง ๆ วันนี้ฉันเองก็เหนื่อยเหมือนกันแหละ"
 
 stop ambient fadeout 2.0
 
