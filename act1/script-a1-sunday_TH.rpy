@@ -4607,7 +4607,7 @@ with locationchange
 
 window hide
 
-$ written_note("{size=55}{b}ห้ า ม เ ข้ า{/b}{/size}", quiet=True)
+$ written_note("{font=font/TX_Timesquare.ttf}{size=55}ห้ า ม เ ข้ า{/size}{/font}", quiet=True)
 
 window show
 
