@@ -23,14 +23,14 @@ window show
 
 "ถ้าทำเรื่องนี้ได้ ก็ทำอะไรก็ได้หมด"
 
-"At least that's what I keep telling myself."
+"อย่างน้อยฉันก็บอกตัวเองอย่างนั้น"
 
 scene bg school_track
 with locationskip
 
 play ambient sfx_emirunning fadein 0.3
 
-"อย่างน้อยฉันก็บอกตัวเองอย่างนั้น"
+"เป็นอีกครั้งที่ดูท่าแล้วฉันคงจะไม่ได้วิ่งคนเดียว"
 
 "เอมิเหมือนจะมาก่อนสักพักแล้ว"
 
