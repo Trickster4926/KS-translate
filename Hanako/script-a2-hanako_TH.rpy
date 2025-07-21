@@ -132,7 +132,7 @@ with charadistant
 "ฮานาโกะกับฉันลุกขึ้นจากโต๊ะสละเกมหมากรุกที่ยังเล่นไม่ทันจบ"
 
 # "Before I can do anything, Hanako has poured the pieces into a small container and placed the board away."
-"ฮานาโกะเทหมากใส่กล่องเล็ก ๆ และเก็บกระดานโดยที่ฉันยังไม่ทันได้ทำได้อะไร"
+"ฮานาโกะเทหมากใส่กล่องเล็ก ๆ และเก็บกระดานโดยที่ฉันยังไม่ทันได้ทำอะไร"
 
 # hi "Looks like we're ready now. Please, lead on."
 hi "ดูท่าทุกคนจะพร้อมแล้วละ ช่วยพาไปที"
