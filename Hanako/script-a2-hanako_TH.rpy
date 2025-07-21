@@ -386,7 +386,7 @@ with charamove
 "ยูโกะรีบวิ่งไปทางด้านหลังคาเฟ ปล่อยให้พวกเรายืนอยู่ที่ทางเข้า"
 
 # "She pushes the swinging half-doors open before realizing that she hasn't seated us."
-"เธอผลักประตูบานสวิงออกไป ก่อนที่จะนึกขึ้นได้ว่ายังไม่ได้จัดที่นั่งให้พวกเรา"
+"เธอผลักประตูบานคาวบอยออกไป ก่อนที่จะนึกขึ้นได้ว่ายังไม่ได้จัดที่นั่งให้พวกเรา"
 
 # yu "I'm sorry! I'm sorry! Please, sit wherever you'd like! I'll be right back!"
 yu "ขอโทษค่ะ! ขอโทษค่ะ! เลือกโต๊ะได้ตามสบายเลยนะคะ! เดี๋ยวฉันมาค่ะ!"
