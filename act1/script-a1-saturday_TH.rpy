@@ -4538,12 +4538,12 @@ play music music_dreamy fadein 2.0
 
 hi "ด้วยความยินดี"
 
-hi "ฝันดีนะฮานาโกะ"
+hi "ราตรีสวัสดิ์นะฮานาโกะ"
 
 show hanako emb_downsmile_ss
 with charachange
 
-ha "ฝะ ฝันดี"
+ha "ระ ราตรีหวัด"
 
 scene bg school_hallway2
 with locationchange
