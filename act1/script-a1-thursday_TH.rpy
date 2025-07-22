@@ -1205,7 +1205,7 @@ shi "…"
 show misha hips_frown
 with charachange
 
-mi "เธอจะบอกว่าฉันผิดเหรอ?"
+mi "เธอจะบอกว่าฉันผิดเหรอ"
 
 "สถานการณ์อันตรายสุด ๆ"
 
@@ -1253,7 +1253,7 @@ li "ฉันไม่ลืมหรอก"
 show lilly cane_listen
 with charachange
 
-li "แค่นี้ใช่ไหม?"
+li "แค่นี้ใช่ไหม"
 
 show misha hips_grin
 with charachange
@@ -1303,7 +1303,7 @@ hi "อืม ๆ"
 show misha cross_grin
 with charachange
 
-mi "เพอร์เฟกต์~! เย้~! โอเค~! ขอบใจนะฮิจัง!"
+mi "แจ๋วเลย~! เย้~! โอเค~! ขอบใจนะฮิจัง!"
 
 hide misha
 hide shizu
@@ -1446,7 +1446,7 @@ with charachange
 
 mi "อ๋า~ งั้นเหรอ แต่ในหนังสือก็มีนี่…คนอื่นเขาถึงได้ไม่ลอกลงสมุดตัวเองกันไง~!"
 
-hi "รู้แล้ว แล้วทำไมเธอต้องเสียงดังด้วยล่ะ?"
+hi "รู้แล้ว แล้วทำไมเธอต้องเสียงดังด้วยล่ะ"
 
 show misha hips_grin_close
 with charachange
