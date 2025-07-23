@@ -919,29 +919,38 @@ play sound sfx_impact2
 
 window show
 
-"My alarm blares into my ears, only to be swiftly silenced by my fist."
+# "My alarm blares into my ears, only to be swiftly silenced by my fist."
+"เสียงปลุกดังขึ้นทะลุหูฉัน ก่อนที่จะเงียบลงทันทีด้วยกำปั้นของฉัน"
 
 scene bg school_dormhisao
 with openeye
 
-"My body switches into auto-mode, carrying my subconscious self out of bed and into my uniform."
+# "My body switches into auto-mode, carrying my subconscious self out of bed and into my uniform."
+"ร่างกายของฉันเข้าสู่ระบบอัตโนมัติ พาจิตใต้สำนึกของฉันลุกออกจากเตียงแล้วแต่งตัว"
 
-"As always, my bottles of pills sit on my desk patiently, waiting for me to take them and pick out my daily dosage of medicine; seventeen pills a day."
+# "As always, my bottles of pills sit on my desk patiently, waiting for me to take them and pick out my daily dosage of medicine; seventeen pills a day."
+"ขวดยาตั้งรายเรียงบนโต๊ะรอให้ฉันหยิบขึ้นมากินตามปริมาณที่ต้องกิน สิบเจ็ดเม็ดต่อวัน ทุก ๆ วัน"
 
 scene bg school_scienceroom at bgright
 with locationskip
 
-"Before I know it, I'm opening the door to class 3-3, glad to see that I'm not the only one who seems to be a little hung-over from festival week."
+# "Before I know it, I'm opening the door to class 3-3, glad to see that I'm not the only one who seems to be a little hung-over from festival week."
+"พอรู้ตัวอีกที ฉันก็เปิดประตูเข้าห้องเรียน 3-3 มาแล้ว ยังดีที่ได้เห็นว่าไม่ใช่แค่ฉันที่ยังล้าจากสัปดาห์งานเทศกาล"
 
-"Every face in the classroom looks gaunt. With the festival now over, it's as if everyone's life dreams have been achieved."
+# "Every face in the classroom looks gaunt. With the festival now over, it's as if everyone's life dreams have been achieved."
+"สีหน้าทุกคนดูซีดเซียวลง อย่างกับพอเทศกาลจบลงแล้วความฝันในชีวิตของทุกคนได้สำเร็จลุล่วงไปแล้วยังไงอย่างนั้น"
 
-"With nothing left to live for, the students have relied on instincts alone to guide them to class."
+# "With nothing left to live for, the students have relied on instincts alone to guide them to class."
+"พอไม่มีอะไรให้ยึดเหนี่ยวอีก นักเรียนเหล่านั้นก็ใช้สัญชาตญาณดิบอย่างเดียวเพื่อนำพาตัวเองมายังห้องเรียน"
 
-"Or maybe I'm just reading too much into it."
+# "Or maybe I'm just reading too much into it."
+"หรือบางทีฉันก็แค่อ่านหนังสือมากไป"
 
-"I slowly make my way to my seat, and it's only then that I realize why the room is so peaceful."
+# "I slowly make my way to my seat, and it's only then that I realize why the room is so peaceful."
+"ฉันค่อย ๆ เดินไปยังโต๊ะของฉัน และก็ได้รู้ว่าทำไมวันนี้ห้องถึงเงียบสงบจัง"
 
-"The seats beside mine are blissfully empty; the world's loudest interpreter for the deaf has yet to arrive."
+# "The seats beside mine are blissfully empty; the world's loudest interpreter for the deaf has yet to arrive."
+"โต๊ะข้าง ๆ ฉันว่างเปล่าอย่างน่าอภิรมย์ ล่ามภาษามือที่เสียงดังที่สุดในโลกยังเสด็จมาไม่ถึง"
 
 play sound sfx_doorslam
 play music music_running
@@ -951,33 +960,41 @@ show misha hips_grin:
     easein 0.3 xanchor 1.0
 with vpunch
 
-"Just as I am about to sit down, the door flies open, revealing a resplendent Misha; drills bobbing from the dramatic entrance and arms stretched towards the sky."
-
+# "Just as I am about to sit down, the door flies open, revealing a resplendent Misha; drills bobbing from the dramatic entrance and arms stretched towards the sky."
+"ในตอนที่ฉันกำลังจะนั่ง ประตูก็เปิดผางออกเผยให้เห็นมิช่ายืนเด่นเป็นสง่า ผมทรงสว่านของเธอเด้งไปมาตามการปรากฏตัว\nที่เล่นใหญ่ พร้อมทั้งเหยียดแขนทั้งสองข้างขึ้นสู่ท้องฟ้า"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 show misha hips_laugh at right
 with charachange
 
-mi "Ya-hooo~! It's all over!"
+# mi "Ya-hooo~! It's all over!"
+mi "ยะ-ฮู้~! จบซักที!"
 
-"It would appear that not everyone is affected by the post-festival depression."
+# "It would appear that not everyone is affected by the post-festival depression."
+"เห็นได้เลยว่าไม่ใช่ทุกคนที่จะซึมหลังงานเทศกาล"
 
-"The rest of the class glare at her, obviously thinking the same thing I am."
+# "The rest of the class glare at her, obviously thinking the same thing I am."
+"คนทั้งห้องมาเธอ คงคิดเหมือนที่ฉันคิดนั่นแหละ"
 
 show misha sign_confused
 with charachange
 
-"Misha, still frozen in the doorway with her arms still in the air, nervously looks around."
+# "Misha, still frozen in the doorway with her arms still in the air, nervously looks around."
+"มิช่ายืนแข็งทื่ออยู่หน้าประตูโดยที่เหยียดแขนอยู่ มองไปรอบ ๆ อย่างประหม่า"
 
-"It's obvious that she senses the foul mood, but can't work out exactly what to do."
+# "It's obvious that she senses the foul mood, but can't work out exactly what to do."
+"เธอรู้ตัวแหละว่าบรรยากาศในห้องอึมครึม แต่ไม่รู้จะทำตัวยังไง"
 
 show misha sign_confused at center
 with ease_decel
 
-"Suddenly, she jerks forward."
+# "Suddenly, she jerks forward."
+"ทันใดนั้นเอง เธอก็พุ่งเข้ามา"
 
 show misha perky_sad
 with charachange
 
-mi "Hey!"
+# mi "Hey!"
+mi "นี่!"
 
 show shizu invis behind misha:
     yalign 1.0 xanchor 0.5 xpos 1.0
@@ -988,7 +1005,8 @@ show bg school_scienceroom at center
 show shizu adjust_happy at tworight
 with dissolvecharamove
 
-"As she stumbles into the classroom, she reveals Shizune, arm still extended from where she shoved Misha."
+# "As she stumbles into the classroom, she reveals Shizune, arm still extended from where she shoved Misha."
+"ขณะที่เธอก้าวเข้ามาในห้องเรียนอย่างโซซัดโซเซ ก็เผยให้เห็นชิซูเนะที่แขนยังยืดออกมาจากการที่ผลักมิช่าเข้ามา"
 
 show shizu basic_normal
 with charachange
