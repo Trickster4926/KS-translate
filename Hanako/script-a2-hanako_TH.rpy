@@ -962,7 +962,7 @@ with vpunch
 
 # "Just as I am about to sit down, the door flies open, revealing a resplendent Misha; drills bobbing from the dramatic entrance and arms stretched towards the sky."
 "ในตอนที่ฉันกำลังจะนั่ง ประตูก็เปิดผางออกเผยให้เห็นมิช่ายืนเด่นเป็นสง่า ผมทรงสว่านของเธอเด้งไปมาตามการปรากฏตัว\nที่เล่นใหญ่ พร้อมทั้งเหยียดแขนทั้งสองข้างขึ้นสู่ท้องฟ้า"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
+
 show misha hips_laugh at right
 with charachange
 
@@ -988,7 +988,7 @@ show misha sign_confused at center
 with ease_decel
 
 # "Suddenly, she jerks forward."
-"ทันใดนั้นเอง เธอก็พุ่งเข้ามา"
+"ทันใดนั้นเอง เธอก็พุ่งตัวเข้ามา"
 
 show misha perky_sad
 with charachange
@@ -1013,26 +1013,31 @@ with charachange
 
 shi "…"
 
-hi "Thanks for the entertainment, but shouldn't you two take your seats?"
+# hi "Thanks for the entertainment, but shouldn't you two take your seats?"
+hi "ขอบใจสำหรับความบันเทิงนะ แต่ทำไมถึงยังไม่นั่งกันล่ะ"
 
 show shizu behind_frown
 with charachange
 
 shi "…"
 
-"Still slightly embarrassed, Misha takes a few seconds to realize she has to translate."
+# "Still slightly embarrassed, Misha takes a few seconds to realize she has to translate."
+"ด้วยความที่ยังอายอยู่หน่อย ๆ มิช่าใช้เวลาสักแป๊บก่อนนึกได้ว่าต้องแปลให้ฟัง"
 
 show misha sign_smile
 with charachange
 
-mi "Oh! Yeah! Shicchan says she's not happy with you ditching us last week."
+# mi "Oh! Yeah! Shicchan says she's not happy with you ditching us last week."
+mi "โอ้! ช่าย! ชิจังบอกว่าเธอไม่สบอารมณ์เท่าไหร่ที่นายทิ้งพวกเราไปเมื่อสัปดาห์ก่อนน่ะ"
 
 show misha cross_frown
 with charachange
 
-mi "We were really busy!"
+# mi "We were really busy!"
+mi "พวกเรางานยุ่งมากเลยนะ!"
 
-hi "Is that so? What about the stuff I already did for you two?"
+# hi "Is that so? What about the stuff I already did for you two?"
+hi "งั้นเหรอ แล้วงานส่วนที่ฉันทำให้พวกเธอล่ะ"
 
 show shizu cross_angry
 with charachange
@@ -1042,24 +1047,29 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "She says that only counts for council members. Since you declined, she doesn’t owe you anything."
+# mi "She says that only counts for council members. Since you declined, she doesn’t owe you anything."
+mi "เธอบอกว่าผลงานถือว่าเป็นของสมาชิกในสภาเท่านั้นน่ะ ในเมื่อนายปฎิเสธก็ถือว่าเธอไม่ได้ติดค้างอะไรนาย"
 
 show misha hips_grin_close
 with characlose
 
-"Misha leans closer, and whispers conspiratorially into my ear."
+# "Misha leans closer, and whispers conspiratorially into my ear."
+"มิช่าเอนตัวเข้ามาใกล้ กระซิบลับหลังเธอข้าง ๆ หูฉัน"
 
-mi "Actually, I think she's just a little sore that you didn’t spend the day with her."
+# mi "Actually, I think she's just a little sore that you didn’t spend the day with her."
+mi "จริง ๆ ฉันว่าเธอแค่งอนที่วันนั้นนายไม่อยู่กับเธอมากกว่าอะนะ"
 
 show misha hips_smile_close
 with charachange
 
-mi "She's really thankful for your work last week though."
+# mi "She's really thankful for your work last week though."
+mi "เธอชื่นชมงานของนายเมื่อสัปดาห์ก่อนด้วยล่ะ"
 
 show shizu behind_frustrated
 with charachange
 
-"Sensing that she is being talked about, Shizune lightly raps her fingers on her desk until Misha turns around to face her."
+# "Sensing that she is being talked about, Shizune lightly raps her fingers on her desk until Misha turns around to face her."
+"เหมือนว่าเธอจะรู้ตัวว่าถูกนินทา ชิซูเนะใช้นิ้วเคาะโต๊ะจนมิช่าหันกลับไปหาเธอ"
 
 show misha sign_smile
 with charadistant
@@ -1073,11 +1083,13 @@ with charachange
 show shizu adjust_blush
 with charachange
 
-"I can't understand any of the fast-paced signing that's going on, but from Shizune's slightly embarrassed expression, and Misha's poorly contained laughter, I can guess."
+# "I can't understand any of the fast-paced signing that's going on, but from Shizune's slightly embarrassed expression, and Misha's poorly contained laughter, I can guess."
+"ฉันไม่เข้าใจภาษามือที่รัวเร็วนั่นเลยสักนิด แต่จากสีหน้าของชิซูเนะที่ดูเขินอายเล็กน้อย และมิช่าที่พยายามกลั้นขำสุด ๆ \nก็พอเดาได้อยู่"
 
 stop music fadeout 8.0
 
-"While this exchange is happening, the door opens once again, but this time at a much more reasonable pace."
+# "While this exchange is happening, the door opens once again, but this time at a much more reasonable pace."
+"ระหว่างที่บทสนทนากำลังดำเนินไป ประตูก็เปิดขึ้นอีกครั้ง แต่คราวนี้เป็นไปอย่างเชื่องช้ากว่าเดิมมาก"
 
 show hanako invis at offscreenright
 with None
@@ -1088,42 +1100,54 @@ show misha hips_smile at Transform(xpos=0.18)
 show hanako emb_downtimid at right
 with dissolvecharamove
 
-"Hanako quietly enters the room, and pulls the door closed behind her."
+# "Hanako quietly enters the room, and pulls the door closed behind her."
+"ฮานาโกะเข้ามาในห้องอย่างเงียบ ๆ แล้วปิดประตูข้างหลังเธอ"
 
 show hanako emb_timid
 with charachange
 
-"Peering out from under her hair, she quickly scans the classroom."
+# "Peering out from under her hair, she quickly scans the classroom."
+"เธอมองลอดมาจากใต้ผม แล้วกวาดสายตามองไปทั่วห้องเรียนอย่างรวดเร็ว"
 
-"Our eyes meet, and she suddenly stiffens. She closes her eyes, takes a deep breath, and then walks over to my desk."
+# "Our eyes meet, and she suddenly stiffens. She closes her eyes, takes a deep breath, and then walks over to my desk."
+"ตาของเราสบกัน แล้วเธอก็แข็งทื่อไปทันที เธอหลับตาลง หายใจเข้าลึก ๆ แล้วเดินตรงมาที่โต๊ะของฉัน"
 
 show hanako cover_distant
 with charachange
 
-ha "G… good morning Hisao."
+# ha "G… good morning Hisao."
+ha "อะ… อรุณสวัสดิ์ฮิซาโอะ"
 
-hi "Morning Hanako. You're a little late, aren't you?"
+# hi "Morning Hanako. You're a little late, aren't you?"
+hi "อรุณสวัสดิ์ฮานาโกะ เธอมาสายนิดหน่อยนะ"
 
 show hanako basic_normal
 with charachange
 
-ha "I… was talking to Lilly."
+# ha "I… was talking to Lilly."
+ha "ฉัน… ไปคุยกับลิลลี่มา"
 
 show hanako basic_worry
 with charachange
 
-ha "A-about today."
+# ha "A-about today."
+ha "ระ เรื่องวันนี้"
 
-hi "Ah, so you've got her list then? We can leave straight after classes in that case."
+# hi "Ah, so you've got her list then? We can leave straight after classes in that case."
+hi "โอ้ ได้รายการของลิลลี่มาแล้วใช่ไหม งั้นเราไปหลังเลิกเรียนเลยแล้วกัน"
 
 show hanako emb_smile
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha "อะ อื้ม"
 
-hi "I'm looking forward to it."
+# hi "I'm looking forward to it."
+hi "ฉันจะรอนะ"
 
-"Hanako briefly flashes her embarrassed smile at me then hurries off to her seat."
+# "Hanako briefly flashes her embarrassed smile at me then hurries off to her seat."
+"ฮานาโกะยิ้มอย่างอาย ๆ ให้ฉันแวบหนึ่ง แล้วรีบเดินไปยังที่นั่งของเธอทันที"
+# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 scene bg school_scienceroom at bgright
 with shorttimeskip
