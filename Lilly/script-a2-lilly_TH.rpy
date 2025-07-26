@@ -15,7 +15,7 @@ with openeye
 window show
 
 "I wake to the annoying din of my alarm clock, its bright red numerals lighting up my face."
-
+#"ฉันตื่นขึ้นมาในตอนเช้า"
 play music music_dreamy fadein 2.0
 
 "It's the same alarm clock I had at home, one of the few remaining artifacts from my days before coming to Yamaku. I'd hoped that using it would help ease my transition into this new life."
