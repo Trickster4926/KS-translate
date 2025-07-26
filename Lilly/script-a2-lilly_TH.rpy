@@ -14,13 +14,16 @@ with openeye
 
 window show
 
-"I wake to the annoying din of my alarm clock, its bright red numerals lighting up my face."
+# "I wake to the annoying din of my alarm clock, its bright red numerals lighting up my face."
+"เสียงอันน่ารำคาญจากนาฬิกาปลุกดังขึ้นทำให้ต้องลืมตาตื่น แสงสีแดงจากตัวเลขที่กะพริบบนนั้นส่องลงมาบนใบหน้า"
 
 play music music_dreamy fadein 2.0
 
-"It's the same alarm clock I had at home, one of the few remaining artifacts from my days before coming to Yamaku. I'd hoped that using it would help ease my transition into this new life."
+# "It's the same alarm clock I had at home, one of the few remaining artifacts from my days before coming to Yamaku. I'd hoped that using it would help ease my transition into this new life."
+"เป็นนาฬิกาปลุกเรือนเดิมที่เอามาด้วยจากที่บ้านในตอนที่ย้ายมาที่นี่ คิดว่ามันเป็นเหมือนเครื่องรางอย่างหนึ่งที่จะช่วยให้\nสามารถปรับตัวเข้ากับชีวิตใหม่ได้ง่ายขึ้น"
 
-"No such luck, though."
+# "No such luck, though."
+"ซึ่งก็แน่นอนว่าไม่ได้ช่วยอะไรเลย"
 
 "Groggily dragging myself out of bed, I wipe the sleep out of my eyes, then reach over to my desk. I open a couple of the bottles of medication strewn across it, and swallow a few pills dry."
 
