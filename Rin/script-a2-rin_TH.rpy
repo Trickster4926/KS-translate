@@ -16,110 +16,110 @@ play music music_normal fadein 6.0
 
 window show
 
-"It's already half past eight, but this morning's class has not yet begun. We were supposed to have physics but the teacher is nowhere to be seen."
+"แปดโมงครึ่งแล้ว แต่ชั้นเรียนยังไม่เริ่ม ที่จริงคาบนี้ต้องได้เรียนฟิสิกส์ แต่ครูยังไม่โผล่มาเลย"
 
-"Had I known this beforehand, I would have slept in too."
+"รู้งี้นอนตื่นสายหน่อยดีกว่า"
 
 play sound sfx_doorslam
 with vpunch
 
-"Suddenly the classroom door slams open and Mutou grunts his morning greeting to us from the doorway."
+"จู่ ๆ ประตูก็เปิดออกเสียงดังปัง มุโต้งึมงำเป็นคำทักทายยามเช้าอยู่ที่โถงทางเดิน"
 
 show muto normal at center
 with charaenter
 
-mu "Good morning, everyone!"
+mu "อรุณสวัสดิ์ทุกคน!"
 
-"Mutou looks like he has not slept at all."
+"สภาพมุโต้เหมือนไม่ได้นอนมาเลยแม้แต่น้อย"
 
-"The stubble, his messier-than-normal hair, and the stained dress shirt create a less than favorable impression."
+"หนวดก็ไม่ได้โกน ทั้งผมเผ้ารุงรังและเสื้อที่เปื้อนคราบนั้นไม่ได้ทำให้สภาพของครูดูดีนัก"
 
-"I guess he had fun last night at the festival too."
+"เมื่อคืนคงสนุกกับงานอยู่เหมือนกันแหง ๆ "
 
 show muto irritated
 with charachange
 
-mu "Excuse my being late, I ran into unexpected problems. I'm usually not one for festivals like this, but I hope you all had a good time."
+mu "ขอโทษที่มาสายนะ พอดีมีเรื่องไม่คาดฝันนิดหน่อย ปกติฉันไม่ค่อยอะไรกับงานเทศกาลอย่างนี้หรอก แต่หวังว่าทุกคน\nจะสนุกกันนะ"
 
-mu "After all, these sorts of events are important for you all, since they give you a short reprieve from schoolwork."
+mu "ยังไงงานพวกนี้ก็สำคัญกับพวกเธอนี่นะ เพราะจะได้เป็นการพักผ่อนจากการเรียนด้วย"
 
 show muto normal
 with charachange
 
-"The class replies with various degrees of enthusiasm, and Mutou proceeds to take roll and get started."
+"ทั้งห้องร้องตอบเสียงต่างกันไป จากนั้นมุโต้ก็ขานชื่อแล้วเริ่มสอน"
 
-mu "Right, then. Today's subject is photon particle physics…"
+mu "โอเค งั้น วันนี้เราจะมาเรียนเรื่องอนุภาคโฟตอน…"
 
 hide muto
 with shorttimeskip
 
-"Before long, I have descended into a comfortable coma-like state along with the rest of the class, letting Mutou's rambling speeches pass through one ear and exit the other without leaving a trace."
+"ไม่นานฉันก็ตกอยู่ในสภาพสะลึมสะลือไม่ต่างไปจากคนอื่น ๆ ในห้อง ปล่อยให้สิ่งที่มุโต้พล่ามนั้นลอยเข้าหูซ้ายปลิวออก\nทะลุหูขวาไป"
 
 show muto normal at center
 with charaenter
 
-mu "Now, who could tell us the solution to this problem?"
+mu "เอาละ ไหนใครตอบคำถามข้อนี้ได้บ้าง"
 
-"He's written a rather easy equation on the blackboard. Desperately, he tries to get the class to participate."
+"ครูเขียนสมการที่ดูค่อนข้างง่ายนั้นลงบนกระดาน พยายามให้นักเรียนมีส่วนร่วมด้วย"
 
 show muto irritated
 with charachange
 
-mu "Nobody? Come on, guys. Nakai, how about you?"
+mu "ไม่มีเลยเหรอ ตอบหน่อยสิ งั้น นากาอิ?"
 
-"Unfairly singled out and cornered, I give him an answer. It causes his shaggy features to twist into a genial smile that would scare little children senseless."
+"ฉันตอบไปหลังถูกเลือกต้อนให้ตอบอย่างไม่ยุติธรรม จากนั้นเขาก็ยิ้ม เป็นรอยยิ้มเป็นมิตรที่ถ้าเด็กเล็กได้เห็นแล้วคง\nช็อกจนเป็นลมล้มพับไป"
 
 show muto smile
 with charachange
 
-mu "Precisely! Good work, Nakai!"
+mu "ถูกต้อง! เก่งมาก นากาอิ!"
 
-"I'm both disturbed and honored by the fact that he can remember my name only one week after I transferred here."
+"ทั้งรู้สึกสยองและเป็นเกียรติที่ครูจำชื่อได้ทั้งที่ฉันเพิ่งมาได้สัปดาห์เดียว"
 
-"From what I've seen, Mutou has serious trouble remembering the names of anybody else in the class, and most of them have been here since the first year."
+"เท่าที่เห็น มุโต้จะมีปัญหากับการจำชื่อคนในห้องเอามาก ๆ แล้วเกินครึ่งก็อยู่มาแล้วตั้งแต่สมัย ม. ปลาย ปีหนึ่ง"
 
-"The room settles into a dreary mood, students and teacher alike trying to get back on track after the festival."
+"ทั้งห้องเต็มไปด้วยบรรยากาศอึมทึม ทั้งนักเรียนและครูต่างดึงตัวเองให้กลับมาสภาพปกติหลังงานเทศกาล"
 
-"I figure last week must've been frantic for everyone."
+"สัปดาห์ที่ผ่านมาคงเล่นเอาทุกคนหัวหมุนไปเลย"
 
 play sound sfx_normalbell
 
 stop music fadeout 2.0
 
-"Not a minute too soon, the lunch bells ring."
+"และแล้วระฆังพักเที่ยงก็ดัง"
 
 scene bg school_hallway3
 with locationchange
 
 play music music_running
 
-mystery "MAKE WAY! IMPORTANT BUSINESS!"
+mystery "หลีก ๆ ! เรื่องด่วน ๆ !"
 
-"I turn my head just in time to see other people scatter out of the way as someone charges from the far end of the corridor towards the stairwell."
+"พอหันหน้าไปก็เห็นว่าคนอื่น ๆ ต่างหลีกทางให้บางคนที่พุ่งมาจากอีกฟากโถงทางเดินที่ติดกับช่องบันได"
 
-"It's too late to realize that I'm standing in the middle of the corridor, directly in the way of the oncoming human projectile."
+"กว่าจะรู้สึกตัวว่าตัวเองกำลังยืนอยู่กลางทางที่พร้อมปะทะกับมนุษย์ที่พุ่งตัวมานั้นก็สายเกินไป"
 
-"I try to skip back towards the doorway. Unfortunately, the person running towards me dodges in the same direction."
+"ฉันโดดหลบไปทางประตูห้องเรียน แต่โชคร้ายที่คนที่วิ่งมานั้นดันหลบไปทางเดียวกัน"
 
-"In the following fraction of a second several things come to mind in sequence, yet almost simultaneously."
+"ในเสี้ยววินาทีถัดมามีหลายความคิดที่โผล่เข้ามาในหัวตามลำดับแทบจะพร้อม ๆ กัน"
 
-"First, I recognize that the girl who is on a collision course with me is Emi."
+"หนึ่ง ฉันจำได้ว่าคนที่กำลังจะเข้ามาชนนั้นคือเอมิ"
 
-"Second, I realize that it feels somehow very natural to be tackled by Emi once again. I could feel almost comfortable if not for the reflexive panic and terror."
+"สอง ไม่รู้ทำไม แต่รู้สึกว่าการที่ถูกเอมิชนอีกครั้งนั้นเป็นเรื่องแสนธรรมดา ถ้าไม่มีความกลัวและอาการตระหนกกับ\nเหตุการณ์ตรงหน้าที่ตอบสนองไปโดยอัตโนมัติแล้วฉันคงรู้สึกสบายใจ"
 
-"Third, Emi seems to be carrying a foot-tall stack of papers while running in the hallway."
+"สาม เหมือนว่าเอมิจะวิ่งพลางขนกองกระดาษที่ตั้งสูงประมาณสามสิบเซนติเมตรมาด้วย"
 
 play sound sfx_pillow
 with vpunch
 
-"She crashes into me, but at least the impact was a grazing one on my arm this time."
+"เธอชนเข้ากับฉัน แต่อย่างน้อยคราวนี้ก็เฉี่ยวแขนฉันไปเท่านั้น"
 
 show emi sad_depressed at center
 with charamoveinbottom
 
-emi "Owiiie… Why does this always happen to me?"
+emi "โอ๊ย… ทำไมถึงเป็นอย่างนี้ตลอดเลยนะ"
 
-hi "Gee, I wonder. Could it possibly have anything to do with you running through the corridor like you were on fire?"
+hi "แหม นั่นสิ เธอว่าเกี่ยวกับที่เธอวิ่งตามโถงทางเดินมาเหมือนถูกไฟคลอกมั้ย"
 
 show emi sad_shy
 with charachange
