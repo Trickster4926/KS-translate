@@ -1054,7 +1054,7 @@ show misha hips_grin_close
 with characlose
 
 # "Misha leans closer, and whispers conspiratorially into my ear."
-"มิช่าเอนตัวเข้ามาใกล้ กระซิบลับหลังเธอข้าง ๆ หูฉัน"
+"มิช่าเอี้ยวตัวมากระซิบกระซาบพลางตั้งข้อสังเกต"
 
 # mi "Actually, I think she's just a little sore that you didn’t spend the day with her."
 mi "จริง ๆ ฉันว่าเธอแค่งอนที่วันนั้นนายไม่อยู่กับเธอมากกว่าอะนะ"
@@ -1147,35 +1147,41 @@ hi "ฉันจะรอนะ"
 
 # "Hanako briefly flashes her embarrassed smile at me then hurries off to her seat."
 "ฮานาโกะยิ้มอย่างอาย ๆ ให้ฉันแวบหนึ่ง แล้วรีบเดินไปยังที่นั่งของเธอทันที"
-# "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 scene bg school_scienceroom at bgright
 with shorttimeskip
 
 play music music_normal fadein 3.0
 
-"During classes, it becomes apparent that it's not only the students that are a little despondent after the festival."
+# "During classes, it becomes apparent that it's not only the students that are a little despondent after the festival."
+"ระหว่างคาบ ก็เห็นได้ชัดว่าไม่ใช่แค่นักเรียนเท่านั้นที่หมดเรี่ยวแรงหลังเทศกาล"
 
-"Mutou simply gives us a list of exercises from the textbook and then sits behind his desk."
+# "Mutou simply gives us a list of exercises from the textbook and then sits behind his desk."
+"มุโต้สั่งงานจากหนังสือทิ้งไว้ให้แล้วก็ไปนั่นที่โต๊ะครู"
 
-"I totally forget about the brief lunch period for a moment, such is the banality of the day."
+# "I totally forget about the brief lunch period for a moment, such is the banality of the day."
+"ฉันลืมเรื่องพักกลางวันไปสักพักนึงเลย วันนี้ช่างน่าเบื่อซะจริง ๆ"
 
 play sound sfx_normalbell
 
-"It's mind-numbing, and everyone seems surprised when the bells signal the end of the lessons."
+# "It's mind-numbing, and everyone seems surprised when the bells signal the end of the lessons."
+"ช่างน่าเบื่อจนสมองตื้อไปหมด และทุกคนก็ดูประหลาดใจเมื่อเสียงกริ่งดังขึ้นเป็นสัญญาณบอกเลิกเรียน"
 
 show shizu basic_normal at tworight
 show misha perky_smile at twoleft
 with charaenter
 
-"As I am packing up my bags, Shizune and Misha flank and entrap me."
+# "As I am packing up my bags, Shizune and Misha flank and entrap me."
+"พอกำลังเก็บของเข้ากระเป๋า ชิซูเนะกับมิช่าก็เข้ามาขนาบข้างและขวางทางฉันไว้"
 
 show misha hips_grin
 with charachange
 
-mi "Say, Hicchan, it's still not too late to join up. There's a lot of post-festival paperwork for us to complete…"
+# mi "Say, Hicchan, it's still not too late to join up. There's a lot of post-festival paperwork for us to complete…"
+mi "นี่ฮิจัง ตอนนี้ก็ยังไม่สายนะที่จะเข้าร่วมสภาน่ะ มีงานเอกสารของหลังเทศกาลที่เราต้องจัดการอีกเพียบเลย…"
 
-hi "Er, sorry Misha, I've… got plans…"
+# hi "Er, sorry Misha, I've… got plans…"
+hi "เอ่อ โทษทีนะมิช่า ฉัน… มีธุระน่ะ…"
 
 show hanako invis at offscreenright
 with None
@@ -1186,38 +1192,47 @@ show misha hips_grin at Transform(xpos=0.18)
 show hanako cover_distant at right
 with dissolvecharamove
 
-"As if sensing the cue, Hanako appears behind me, holding a small bag, and trying to avoid eye contact with the outside world."
+# "As if sensing the cue, Hanako appears behind me, holding a small bag, and trying to avoid eye contact with the outside world."
+"ราวกับรับรู้ถึงสัญญาณ ฮานาโกะปรากฏตัวขึ้นข้างหลังฉัน ถือกระเป๋าใบเล็ก ๆ และพยายามหลีกเลี่ยงการสบตากับ\nโลกภายนอก"
 
 show misha cross_laugh
 with charachange
 
-"Misha's eyes open wide, then she bursts into laughter."
+# "Misha's eyes open wide, then she bursts into laughter."
+"มิช่าตาลุกวาว และหัวเราะออกมาดัง ๆ"
 
-mi "BWAHAHA! You move fast, don't you Hicchan~? We won't disturb your date any further! Bwahahaha!"
+# mi "BWAHAHA! You move fast, don't you Hicchan~? We won't disturb your date any further! Bwahahaha!"
+mi "วะฮ่าฮ่าฮ่า! นายนี่ก็ไวไม่เบาเลยนะฮิจัง~ งั้นพวกเราไม่รบกวนการเดทของนายละนะ! วะฮ่าฮ่าฮ่า!"
 
 show shizu behind_blank
 with charachange
 
-"Behind the roaring Misha, I see Shizune taking far too little interest in the scene. I might be taking this the wrong way, but I think she's deliberately ignoring me."
+# "Behind the roaring Misha, I see Shizune taking far too little interest in the scene. I might be taking this the wrong way, but I think she's deliberately ignoring me."
+"ด้านหลังมิช่าที่กำลังหัวเราะอย่างบ้าคลั่ง ฉันเห็นชิซูเนะแสดงท่าทีไม่สนใจเหตุการณ์ที่เกิดขึ้นมากเกินไป อาจจะคิดไปเอง\nแต่ฉันคิดว่าเธอจงใจเมินฉันอยู่แน่ ๆ"
 
 show hanako emb_downtimid_close
 with characlose
 
-"I feel a gentle tug on my shirt, and turn to see Hanako's eyes fixed firmly on the floor."
+# "I feel a gentle tug on my shirt, and turn to see Hanako's eyes fixed firmly on the floor."
+"ฉันรู้สึกถึงแรงดึงเบา ๆ ที่เสื้อ แล้วหันไปเห็นฮานาโกะจ้องมองพื้นอย่างไม่ไปไหน"
 
 show hanako emb_timid_close
 with charachange
 
-ha "L… let's…"
+# ha "L… let's…"
+ha "ปะ… ไปกั…"
 
-hi "Got ya. Shizune, Misha, I'll see you later."
+# hi "Got ya. Shizune, Misha, I'll see you later."
+hi "ไปละ ชิซูเนะ มิช่า ไว้เจอกัน"
 
-hi "And I'm still not interested in the council."
+# hi "And I'm still not interested in the council."
+hi "แล้วก็ฉันยังไม่อยากเข้าสภาอยู่ดีนะ"
 
 show misha cross_grin
 with charachange
 
-mi "Spoilsport."
+# mi "Spoilsport."
+mi "ไม่หนุกเลย"
 
 stop music fadeout 2.0
 
@@ -1229,20 +1244,25 @@ show bg school_scienceroom at bgleft
 show hanako emb_timid_close at center
 with charamove
 
-"Misha and Shizune retreat into the hallway, happily signing to each other."
+# "Misha and Shizune retreat into the hallway, happily signing to each other."
+"มิช่ากับชิซูเนะกลับไปยังโถงทางเดิน คุยภาษามือกันอย่างสนุกสนาน"
 
-hi "Got all your stuff? Let's head off."
+# hi "Got all your stuff? Let's head off."
+hi "เก็บของเสร็จแล้วใช่ไหม ไปกันเถอะ"
 
 play music music_soothing fadein 4.0
 
 scene bg school_gate
 with locationskip
 
-"Floods of students pour out of the school gates and onto the road into town."
+# "Floods of students pour out of the school gates and onto the road into town."
+"นักเรียนจำนวนมากทะลักออกจากประตูโรงเรียน และมุ่งหน้าสู่ถนนเข้าเมือง"
 
-"It's a little weird. It's almost a scene from any other high school, but the illusion fades because of the occasional wheelchair or missing limb."
+# "It's a little weird. It's almost a scene from any other high school, but the illusion fades because of the occasional wheelchair or missing limb."
+"แปลกนิดนึงตรงที่ ที่นี่เกือบจะเหมือนฉากจากโรงเรียนมัธยมทั่วไปเลย แต่ภาพลวงนั้นก็จางหายไปเพราะบางคนมีรถเข็น\nหรืออวัยวะที่ขาดหายไป"
 
-"One thing I do notice is that nobody is alone."
+# "One thing I do notice is that nobody is alone."
+"อย่างนึงที่สังเกตได้เลยคือไม่มีใครอยู่ตัวคนเดียวเลย"
 
 scene bg school_road
 with locationchange
@@ -1250,86 +1270,116 @@ with locationchange
 show hanako emb_downsad_close at center
 with charaenter
 
-"And, as Hanako and I pass through the gates, I notice that she closes the distance between us."
+# "And, as Hanako and I pass through the gates, I notice that she closes the distance between us."
+"พอฮานาโกะกับฉันเดินออกนอกประตูมา ฉันสังเกตว่าเธอลดระยะห่างระหว่างเรา"
 
-"Not enough to be considered “close”, but she certainly isn't at her usual just-a-little-far position."
+# "Not enough to be considered “close”, but she certainly isn't at her usual just-a-little-far position."
+"ก็ไม่ถึงกับ “ใกล้” หรอก แต่ก็ไม่ได้ห่างออกไป{i}เล็กน้อย{/i}เหมือนปกติ"
 
-"I guess we're not familiar enough for her to get as close as she does with Lilly."
+# "I guess we're not familiar enough for her to get as close as she does with Lilly."
+"เราก็ไม่ได้สนิทกันขนาดที่เธอจะเข้าใกล้เท่า ๆ กับตอนที่เธออยู่กับลิลลี่อะนะ"
 
-"However, even though she has moved a little closer to me physically, mentally she seems to have traveled a mile."
+# "However, even though she has moved a little closer to me physically, mentally she seems to have traveled a mile."
+"ยังไงก็เถอะ ถึงเธอจะขยับเข้ามาใกล้ในทางกาย แต่ทางด้านจิตใจเธอกลับอยู่ไกลแสนไกล"
 
-"Her hands clutched around the leather straps of her bag to the point of whitening her knuckles, her head down and her mouth pursed closed."
+# "Her hands clutched around the leather straps of her bag to the point of whitening her knuckles, her head down and her mouth pursed closed."
+"มือของเธอจับสายสะพายหนังของกระเป๋าแน่นจนข้อนิ้วขาวโพลน ก้มหน้าลงและเม้มปากแน่น"
 
-"She almost looks like she's being walked to the Principal's office for the first time."
+# "She almost looks like she's being walked to the Principal's office for the first time."
+"สภาพเธอเหมือนกับเดินเข้าห้องผอ. เป็นครั้งแรกยังไงยังงั้น"
 
-"I try to stifle a giggle at the thought, but it is futile."
+# "I try to stifle a giggle at the thought, but it is futile."
+"ฉันพยายามกลั้นขำจากความคิดนั้น แต่ก็ไม่เป็นผล"
 
 show hanako emb_timid_close
 with charachange
 
-ha "W-what's the matter…?"
+# ha "W-what's the matter…?"
+ha "มะ มีอะไรเหรอ…"
 
-"I guess there's no point in hiding it…"
+# "I guess there's no point in hiding it…"
+"คงปิดบังไม่มิดแล้วสินะ…"
 
-hi "Sorry. For a second there it looked like you were getting in trouble."
+# hi "Sorry. For a second there it looked like you were getting in trouble."
+hi "โทษที เมื่อกี้มองดูเธอเหมือนคนไปทำผิดอะไรมาอย่างงั้นน่ะ"
 
 show hanako defarms_strain_close
 with charachange
 
-ha "W-w-what do you mean?"
+# ha "W-w-what do you mean?"
+ha "มะ มะ หมายความว่าไง"
 
-hi "I think you need to relax a little. We're not going too far, and it's only students around, right?"
+# hi "I think you need to relax a little. We're not going too far, and it's only students around, right?"
+hi "ฉันว่าเธออย่าเกร็งไปเลย เราก็ไม่ได้ไปไหนไกลสักหน่อย แถมแถวนี้ก็มีแค่นักเรียนด้วยนี่ จริงไหม"
 
 show hanako def_worry_close
 with charachange
 
-ha "R-right."
+# ha "R-right."
+ha "อะ อื้ม"
 
-"It bothers me a little to see Hanako so worked up."
+# "It bothers me a little to see Hanako so worked up."
+"ฉันรู้สึกลำบากใจนิดหน่อยที่เห็นฮานาโกะดูกังวลมากขนาดนี้"
 
-hi "And you do this every week, don't you?"
+# hi "And you do this every week, don't you?"
+hi "แล้วเธอเองก็มาทุก ๆ สัปดาห์ด้วยนี่"
 
 show hanako basic_worry_close
 with charachange
 
-ha "Y-yes. With Lilly."
+# ha "Y-yes. With Lilly."
+ha "ชะ ใช่ กับลิลลี่"
 
-"Of course. “With Lilly.” I wonder, has she ever left the school without her?"
+# "Of course. “With Lilly.” I wonder, has she ever left the school without her?"
+"แน่นอนว่า “กับลิลลี่” สงสัยจริง ๆ ว่าเธอเคยออกมาข้างนอกโดยไม่มีลิลลี่สักครั้งไหม"
 
-"It doesn't seem like much at first glance, but Hanako's dependence on Lilly is absurdly heavy."
+# "It doesn't seem like much at first glance, but Hanako's dependence on Lilly is absurdly heavy."
+"ตอนแรกอาจจะดูเหมือนไม่มากเท่าไหร่ แต่ฮานาโกะก็พึ่งพาลิลลี่หนักมากจริง ๆ"
 
-"If she can't even handle leaving the school without her, how would she have managed to survive if the two had never met?"
+# "If she can't even handle leaving the school without her, how would she have managed to survive if the two had never met?"
+"ถ้าเธอถึงขนาดรับมือกับการออกจากโรงเรียนโดยไม่มีลิลลี่ไม่ได้ แล้วเธอจะอยู่รอดยังไงถ้าทั้งคู่ไม่เคยเจอกันเลย"
 
-"Would she have found someone else to latch on to? And what drew her to Lilly?"
+# "Would she have found someone else to latch on to? And what drew her to Lilly?"
+"เธอจะหาคนอื่นมาพึ่งพาไหม แล้วอะไรที่ทำให้เธอเข้าหาลิลลี่กันนะ"
 
-"Was it her lack of eyesight, or was Lilly just kind enough to lend a hand?"
+# "Was it her lack of eyesight, or was Lilly just kind enough to lend a hand?"
+"เพราะว่าตาบอดหรือเปล่า หรือเพราะว่าลิลลี่ใจดีพอที่จะช่วยเธอกัน"
 
-"I wonder if anyone would have fit the bill."
+# "I wonder if anyone would have fit the bill."
+"ฉันสงสัยว่าจะมีใครมาทำได้เท่าไหมนะ"
 
-hi "Well, I'm here. Besides, we're not going far. It'll be over before you know it."
+# hi "Well, I'm here. Besides, we're not going far. It'll be over before you know it."
+hi "ก็นะ ฉันอยู่นี่แล้ว และอีกอย่างเราก็ไม่ได้ไปไหนไกลหรอก แป๊บเดียวก็ถึงแล้ว"
 
 show hanako emb_downsmile_close
 with charachange
 
-"Hanako's knuckles slowly regain their color as she tries to hide a small smile, but the effort of that seems to prevent further conversation."
+# "Hanako's knuckles slowly regain their color as she tries to hide a small smile, but the effort of that seems to prevent further conversation."
+"ข้อนิ้วของฮานาโกะค่อยๆ กลับมามีสีปกติ ขณะที่เธอพยายามซ่อนรอยยิ้มน้อย ๆ แต่ความพยายามนั้นดูเหมือนจะทำให้เธอ\nไม่สามารถพูดคุยต่อได้"
 
-"We travel, side by side, down the winding road towards the town. The crowd of students thins as we continue along the sidewalk."
+# "We travel, side by side, down the winding road towards the town. The crowd of students thins as we continue along the sidewalk."
+"เราเดินเคียงข้างกันไปตามถนนที่คดเคี้ยวสู่เมือง ฝูงนักเรียนค่อย ๆ บางตาลงขณะที่เราเดินไปตามทางเท้า"
 
-"Faster students rush ahead, and the less mobile ones fall behind, rarefying the crowd into nothingness."
+# "Faster students rush ahead, and the less mobile ones fall behind, rarefying the crowd into nothingness."
+"นักเรียนที่เดินเร็วกว่าก็พุ่งไปข้างหน้า ส่วนพวกที่เคลื่อนไหวช้ากว่าก็รั้งท้าย ทำให้ฝูงชนเจือจางลงจนไม่มีเหลือ"
 
 scene bg suburb_konbiniext
 with locationskip
 
-"By the time we reach the convenience store we are practically alone."
+# "By the time we reach the convenience store we are practically alone."
+"พอมาถึงร้านสะดวกซื้อ พวกเราก็อยู่กันโดยลำพังแล้ว"
 
 scene bg suburb_konbiniint
 with locationchange
 
-"Using me as a shield between herself and the attendant, Hanako moves through the narrow aisles, adding an assortment of items to her basket."
+# "Using me as a shield between herself and the attendant, Hanako moves through the narrow aisles, adding an assortment of items to her basket."
+"ฮานาโกะใช้ฉันเป็นโล่กำบังระหว่างตัวเองกับพนักงาน เดินผ่านทางเดินแคบๆ พร้อมกับหยิบของสารพัดชนิดใส่ตะกร้า\nของเธอ"
 
-"Bread, milk, tea… thyme?"
+# "Bread, milk, tea… thyme?"
+"ขนมปัง นม ชา… ไทม์?"
 
-"What kind of convenience store sells herbs?"
+# "What kind of convenience store sells herbs?"
+"ร้านสะดวกซื้ออะไรทำไมมีสมุนไพรขายด้วย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -1339,21 +1389,29 @@ nvl clear
 
 nvl show dissolve
 
-n "\n\nThen again, nothing about this town seems normal, which may not be such a bad thing in retrospect."
+# n "\n\nThen again, nothing about this town seems normal, which may not be such a bad thing in retrospect."
+n "\n\nแต่ก็นั่นแหละ ไม่มีอะไรในเมืองนี้ที่ดูปกติเลย ซึ่งเมื่อมองย้อนกลับไปแล้ว ก็อาจจะไม่ใช่เรื่องแย่ขนาดนั้นก็ได้"
 
-n "Everything is so different and uncomfortable; dwelling on such matters isn't really an option."
+# n "Everything is so different and uncomfortable; dwelling on such matters isn't really an option."
+n "ทุกสิ่งช่างแตกต่างและน่าอึดอัดใจ การหมกมุ่นอยู่กับเรื่องเหล่านั้นจึงไม่ใช่ทางเลือกที่ดีเท่าไหร่"
 
-n "When I think about that, it reminds me of Hanako."
+# n "When I think about that, it reminds me of Hanako."
+n "พอคิดถึงเรื่องนั้น ก็พานให้นึกถึงฮานาโกะ"
 
-n "No matter how much you try, you can't escape her scars; they still interrupt my train of thought when I see them."
+# n "No matter how much you try, you can't escape her scars; they still interrupt my train of thought when I see them."
+n "ไม่ว่าจะพยายามแค่ไหน ก็ไม่อาจหลีกหนีรอยแผลเป็นของเธอได้ ยังคงรบกวนจิตใจฉันทุกครั้งที่ได้เห็น"
 
-n "As much as I don't want to admit it to myself, I think I'm forcing myself to try to ignore them."
+# n "As much as I don't want to admit it to myself, I think I'm forcing myself to try to ignore them."
+n "ถึงจะไม่ค่อยอยากยอมรับก็เถอะ แต่ฉันว่าฉันกำลังบังคับตัวเองให้พยายามมองข้ามรอยแผลเป็นเหล่านั้น"
 
-n "Not that I am scar-free myself. The jagged line down my sternum will never completely fade away."
+# n "Not that I am scar-free myself. The jagged line down my sternum will never completely fade away."
+n "ฉันเองก็มีแผลเป็นเหมือนกันนั่นแหละ รอยหยักที่ลากยาวลงมาตรงกลางอกฉันไม่เคยจะจางหายไป"
 
-n "I just have the luxury of being able to hide it easily."
+# n "I just have the luxury of being able to hide it easily."
+n "แต่ของฉันดีหน่อยตรงที่ฉันยังซ่อนมันได้ง่าย ๆ"
 
-n "\nBut, in a way, both of our scars remind me that we're all in this place for a reason."
+# n "\nBut, in a way, both of our scars remind me that we're all in this place for a reason."
+n "\nแต่ยังไงก็เถอะ แผลเป็นของพวกเราทั้งคู่ก็เป็นเครื่องบ่งบอกว่าทำไมเราถึงได้มาที่นี่"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -1364,85 +1422,111 @@ window show
 
 "…"
 
-"Hanako throws one last item into her basket then sheepishly holds it out to me, along with a few bank notes."
+# "Hanako throws one last item into her basket then sheepishly holds it out to me, along with a few bank notes."
+"ฮานาโกะโยนของชิ้นสุดท้ายลงในตะกร้าแล้วก็ยื่นมาให้ฉันพร้อมธนบัตรอย่างอาย ๆ"
 
 show hanako emb_downtimid_close at center
 with charaenter
 
-ha "C-c-could you p-please…"
+# ha "C-c-could you p-please…"
+ha "นะ นะ นาย ชะ ช่วย…"
 
-"It takes me a second to understand what she's trying to say."
+# "It takes me a second to understand what she's trying to say."
+"ฉันใช้เวลาไม่นานก็เข้าใจสิ่งที่เธอจะสื่อ"
 
-hi "Oh, you want me to pay for this?"
+# hi "Oh, you want me to pay for this?"
+hi "อ้อ เธออยากให้ฉันช่วยจ่ายให้สินะ"
 
 show hanako emb_downsad_close
 with charachange
 
-"She nods, but doesn't look up."
+# "She nods, but doesn't look up."
+"เธอพยักหน้า แต่ไม่ได้มองขึ้นมา"
 
-"I guess this task falls to Lilly on the usual occasions."
+# "I guess this task falls to Lilly on the usual occasions."
+"เดาว่างานนี้ปกติลิลลี่คงได้ทำเป็นประจำแหง ๆ"
 
-hi "Sure. Lemme just grab a couple of things…"
+# hi "Sure. Lemme just grab a couple of things…"
+hi "ได้สิ เดี๋ยวขอไปหยิบของเพิ่มนิดหน่อยนะ…"
 
-"Hastily I grab a few essential items for myself and head for the counter with Hanako in close tow."
+# "Hastily I grab a few essential items for myself and head for the counter with Hanako in close tow."
+"ฉันรีบคว้าของจำเป็นสองสามอย่างให้ตัวเอง แล้วตรงไปที่เคาน์เตอร์พร้อมกับฮานาโกะที่เดินตามมาติด ๆ"
 
-"The attendant gives me an indifferent nod as he scans in the items."
+# "The attendant gives me an indifferent nod as he scans in the items."
+"พนักงานพยักหน้าให้ฉันอย่างไม่แยแสขณะที่เขาสแกนสินค้า"
 
-"I suppose just ignoring us is one way to deal with the anomalies of Yamaku; they must get a lot of students here, being the closest store to the school."
+# "I suppose just ignoring us is one way to deal with the anomalies of Yamaku; they must get a lot of students here, being the closest store to the school."
+"ฉันว่าการทำเป็นไม่สนใจพวกเราก็เป็นวิธีหนึ่งในการรับมือกับความไม่ปกติของยามากุ คงมีนักเรียนมาที่นี่เยอะแน่ ๆ\nเพราะเป็นร้านที่อยู่ใกล้โรงเรียนที่สุด"
 
-"The staff must all have their own way of dealing with us. Or maybe they don't; maybe it's only me who thinks twice about my unique schoolmates."
+# "The staff must all have their own way of dealing with us. Or maybe they don't; maybe it's only me who thinks twice about my unique schoolmates."
+"พนักงานที่นี่คงจะมีวิธีรับมือกับพวกเราในแบบของเขา หรือไม่ก็อาจจะไม่ได้คิดอะไรเลยก็ได้ บางทีอาจจะมีแค่ฉันคนเดียว\nที่คิดมากเรื่องเพื่อนร่วมโรงเรียน"
 
 stop music fadeout 2.0
 
 scene bg suburb_konbiniext_ss
 with locationchange
 
-"Our transaction complete, Hanako and I head back out onto the street."
+# "Our transaction complete, Hanako and I head back out onto the street."
+"ซื้อของเสร็จ ฮานาโกะกับฉันก็เดินกลับออกมายังถนน"
 
 scene bg school_road_ss
 with locationskip
 
 play music music_tranquil fadein 10.0
 
-"The road is pretty much abandoned now. The students that were heading out have already left, and nobody has started returning just yet."
+# "The road is pretty much abandoned now. The students that were heading out have already left, and nobody has started returning just yet."
+"ตอนนี้ถนนค่อนข้างไม่มีคนแล้ว นักเรียนที่ออกไปก่อนหน้านี้ก็กลับไปหมดแล้ว และยังไม่มีใครกลับมา"
 
-"And, with only the school ahead on the road, there doesn't seem to be anyone else around."
+# "And, with only the school ahead on the road, there doesn't seem to be anyone else around."
+"และเมื่อมีแค่โรงเรียนอยู่ข้างหน้าบนถนนเส้นนี้ เลยไม่มีใครอยู่แถวนี้เลย"
 
 show hanako def_worry_close_ss at center
 with charaenter
 
-"The emptiness certainly reflects on Hanako; her arms by her sides each carrying a bag, her head no longer bowed, and back to the upright position…"
+# "The emptiness certainly reflects on Hanako; her arms by her sides each carrying a bag, her head no longer bowed, and back to the upright position…"
+"ความโล่งนี้มีผลต่อฮานาโกะชัดเจน แขนของเธอแนบลำตัวแต่ละข้างถือถุงอยู่ และกลับมามองตรงตามปกติไม่ได้ก้มหน้าแล้ว"
 
-"It's almost as if she were enjoying this walk."
+# "It's almost as if she were enjoying this walk."
+"ราวกับว่าเธอกำลังเพลิดเพลินกับการเดินครั้งนี้เลยทีเดียว"
 
-hi "So, why all these weird things? Mixed Spice? Why would you need that in school?"
+# hi "So, why all these weird things? Mixed Spice? Why would you need that in school?"
+hi "แล้วเธอซื้ออะไรแปลก ๆ มาเนี่ย พวกเครื่องเทศ? เธอเอาไปทำอะไรที่โรงเรียนอะ"
 
 show hanako basic_normal_close_ss
 with charachange
 
-ha "I… sometimes… like to m-make food."
+# ha "I… sometimes… like to m-make food."
+ha "ฉัน… บางที… ฉันก็จะทะ… ทำกับข้าวกินน่ะ"
 
-hi "Well, yeah, so do I but… spices?"
+# hi "Well, yeah, so do I but… spices?"
+hi "อ๋อ เอ้อฉันเองก็ด้วย แต่… เครื่องเทศอะนะ"
 
-hi "That's a little more advanced, don't you think?"
+# hi "That's a little more advanced, don't you think?"
+hi "ไม่ซับซ้อนไปหน่อยเหรอ"
 
 show hanako emb_blushing_close_ss
 with charachange
 
-ha "N-not really."
+# ha "N-not really."
+ha "กะ ก็ไม่ขนาดนั้น"
 
-hi "Well, I think it's cool. You'll have to teach me one day."
+# hi "Well, I think it's cool. You'll have to teach me one day."
+hi "อื้ม ดีแล้วล่ะ สงสัยเธอต้องสอนฉันบ้างแล้วล่ะ"
 
 show hanako emb_smile_close_ss
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha "ดะ ได้สิ"
 
-"She doesn't seem all that sure, but pushing the point doesn't seem all that wise."
+# "She doesn't seem all that sure, but pushing the point doesn't seem all that wise."
+"ก็ดูท่าจะไม่ค่อยแน่ใจสักเท่าไหร่ว่าจะสอนให้จริงไหม แต่ให้จี้ถามก็ใช่เรื่อง"
 
-"At the very least, she seems a great deal happier than she did on the walk down here."
+# "At the very least, she seems a great deal happier than she did on the walk down here."
+"อย่างน้อย ๆ เธอก็ดูมีความสุขกว่าตอนขามาล่ะนะ"
 
-"That alone makes me a little happier."
+# "That alone makes me a little happier."
+"แค่นั้นก็ทำให้ฉันมีความสุขขึ้นมานิดนึงแล้ว"
 
 scene bg school_dormext_full_ss
 with shorttimeskip
@@ -1450,53 +1534,67 @@ with shorttimeskip
 show hanako basic_normal_close_ss at center
 with charaenter
 
-"Outside the girls' dorm, Hanako and I sort out the grocery bags with our respective purchases."
+# "Outside the girls' dorm, Hanako and I sort out the grocery bags with our respective purchases."
+"หน้าหอพักหญิง ฮานาโกะกับฉันช่วยกันแยกถุงของชำตามของที่แต่ละคนซื้อมา"
 
-"In comparison, my things look positively plain."
+# "In comparison, my things look positively plain."
+"พอเทียบกันแล้ว ของฉันดูน้อยไปเลย"
 
-hi "I tell you, you're putting me to shame here…"
+# hi "I tell you, you're putting me to shame here…"
+hi "บอกเลยนะว่า เธอกำลังทำให้ฉันอายนะเนี่ย…"
 
 show hanako defarms_shock_close_ss
 with charachange
 
-ha "N-no I'm not… I just…"
+# ha "N-no I'm not… I just…"
+ha "มะ ไม่นะ ฉันไม่ได้… ฉันแค่…"
 
-hi "I'm only joking."
+# hi "I'm only joking."
+hi "ล้อเล่น ๆ"
 
 show hanako def_worry_close_ss
 with charachange
 
-hi "I have a stack of homework that I skipped last week, so I must leave now."
+# hi "I have a stack of homework that I skipped last week, so I must leave now."
+hi "ฉันมีการบ้านที่ดองไว้สัปดาห์ที่แล้วที่ต้องทำ เพราะงั้นเดี๋ยวต้องไปละ"
 
-hi "Will you be all right getting that to your room?"
+# hi "Will you be all right getting that to your room?"
+hi "ขนไปไหวใช่ไหม"
 
 show hanako cover_bashful_close_ss
 with charachange
 
-ha "Y-yeah."
+# ha "Y-yeah."
+ha "อะ อื้ม"
 
-hi "Sure? Okay then. I'll see you tomorrow."
+# hi "Sure? Okay then. I'll see you tomorrow."
+hi "แน่นะ โอเค ไว้เจอกันพรุ่งนี้"
 
 show hanako basic_smile_close_ss
 with charachange
 
-ha "B-bye."
+# ha "B-bye."
+ha "บะ บาย"
 
 hide hanako
 with charaexit
 
 stop music fadeout 7.0
 
-"We part ways, and I return to my room."
+# "We part ways, and I return to my room."
+"พวกเราแยกทางกัน และฉันก็กลับห้องของฉัน"
 
 scene bg school_dormhisao_ss
 with locationskip
 
-"Piles of papers sit upon my desk, begging to be completed. With the entire ruckus of the last week, I've barely had any time to catch up."
+# "Piles of papers sit upon my desk, begging to be completed. With the entire ruckus of the last week, I've barely had any time to catch up."
+"กองงานวางสุมอยู่บนโต๊ะฉันรอคอยการสะสาง ด้วยความวุ่นวายตลอดสัปดาห์ที่ผ่านมาฉันแทบไม่มีเวลาได้ตามงานเลย"
 
-"I tried to keep up with my studies while I was in the hospital, but some of this stuff I've never seen before, even back in my old school."
+# "I tried to keep up with my studies while I was in the hospital, but some of this stuff I've never seen before, even back in my old school."
+"ฉันพยายามเรียนตามให้ทันตอนที่อยู่โรงพยาบาล แต่เนื้อหาบางอย่างฉันไม่เคยเห็นมาก่อนแม้แต่ตอนที่อยู่โรงเรียนเก่า"
 
-"Totally unprepared, I pop the top on a can of drink, and get to work."
+# "Totally unprepared, I pop the top on a can of drink, and get to work."
+"ฉันเปิดกระป๋องเครื่องดื่มแล้วก็เริ่มลุยงานทันทีโดยไม่พร้อมมากนัก"
 
 scene black
 with dissolve
@@ -2097,12 +2195,15 @@ label th_choiceH4:
 menu:
     with menueffect
 
-    mi "So, how about it, Hisao?"
+    # mi "So, how about it, Hisao?"
+    mi "แล้ว นายจะเอายังไงล่ะฮิซาโอะ"
 
-    "What do you think, Hanako?":
+    # "What do you think, Hanako?":
+    "เธอคิดว่าไงล่ะ ฮานาโกะ?":
         return m1
 
-    "I've done enough work for the council already.":
+    # "I've done enough work for the council already.":
+    "ฉันทำงานให้สภามากพอแล้วนะ":
         return m2
 
 
