@@ -1157,7 +1157,7 @@ play music music_normal fadein 3.0
 "ระหว่างคาบ ก็เห็นได้ชัดว่าไม่ใช่แค่นักเรียนเท่านั้นที่หมดเรี่ยวแรงหลังเทศกาล"
 
 # "Mutou simply gives us a list of exercises from the textbook and then sits behind his desk."
-"มุโต้สั่งงานจากหนังสือทิ้งไว้ให้แล้วก็ไปนั่นที่โต๊ะครู"
+"มุโต้สั่งงานจากหนังสือทิ้งไว้ให้แล้วก็ไปนั่งที่โต๊ะครู"
 
 # "I totally forget about the brief lunch period for a moment, such is the banality of the day."
 "ฉันลืมเรื่องพักกลางวันไปสักพักนึงเลย วันนี้ช่างน่าเบื่อซะจริง ๆ"
@@ -1165,7 +1165,7 @@ play music music_normal fadein 3.0
 play sound sfx_normalbell
 
 # "It's mind-numbing, and everyone seems surprised when the bells signal the end of the lessons."
-"ช่างน่าเบื่อจนสมองตื้อไปหมด และทุกคนก็ดูประหลาดใจเมื่อเสียงกริ่งดังขึ้นเป็นสัญญาณบอกเลิกเรียน"
+"น่าเบื่อจนสมองตื้อไปหมด และทุกคนก็ดูประหลาดใจเมื่อเสียงกริ่งดังขึ้นเป็นสัญญาณบอกเลิกเรียน"
 
 show shizu basic_normal at tworight
 show misha perky_smile at twoleft
@@ -1178,7 +1178,7 @@ show misha hips_grin
 with charachange
 
 # mi "Say, Hicchan, it's still not too late to join up. There's a lot of post-festival paperwork for us to complete…"
-mi "นี่ฮิจัง ตอนนี้ก็ยังไม่สายนะที่จะเข้าร่วมสภาน่ะ มีงานเอกสารของหลังเทศกาลที่เราต้องจัดการอีกเพียบเลย…"
+mi "นี่ฮิจัง ตอนนี้จะเข้าสภาก็ยังไม่สายนะ มีงานเอกสารหลังเทศกาลที่เราต้องจัดการอีกเพียบเลย…"
 
 # hi "Er, sorry Misha, I've… got plans…"
 hi "เอ่อ โทษทีนะมิช่า ฉัน… มีธุระน่ะ…"
@@ -1193,7 +1193,7 @@ show hanako cover_distant at right
 with dissolvecharamove
 
 # "As if sensing the cue, Hanako appears behind me, holding a small bag, and trying to avoid eye contact with the outside world."
-"ราวกับรับรู้ถึงสัญญาณ ฮานาโกะปรากฏตัวขึ้นข้างหลังฉัน ถือกระเป๋าใบเล็ก ๆ และพยายามหลีกเลี่ยงการสบตากับ\nโลกภายนอก"
+"ราวกับรู้ถึงสัญญาณ ฮานาโกะปรากฏตัวขึ้นข้างหลังฉัน ถือกระเป๋าใบเล็ก ๆ และพยายามหลีกเลี่ยงการสบตากับ\nโลกภายนอก"
 
 show misha cross_laugh
 with charachange
@@ -1208,13 +1208,13 @@ show shizu behind_blank
 with charachange
 
 # "Behind the roaring Misha, I see Shizune taking far too little interest in the scene. I might be taking this the wrong way, but I think she's deliberately ignoring me."
-"ด้านหลังมิช่าที่กำลังหัวเราะอย่างบ้าคลั่ง ฉันเห็นชิซูเนะแสดงท่าทีไม่สนใจเหตุการณ์ที่เกิดขึ้นมากเกินไป อาจจะคิดไปเอง\nแต่ฉันคิดว่าเธอจงใจเมินฉันอยู่แน่ ๆ"
+"ด้านหลังมิช่าที่กำลังหัวเราะอย่างบ้าคลั่ง ฉันเห็นชิซูเนะแสดงท่าทีไม่สนใจเหตุการณ์ที่เกิดขึ้นจนเกินไป อาจจะคิดไปเอง\nแต่ฉันคิดว่าเธอจงใจเมินฉันอยู่แน่ ๆ"
 
 show hanako emb_downtimid_close
 with characlose
 
 # "I feel a gentle tug on my shirt, and turn to see Hanako's eyes fixed firmly on the floor."
-"ฉันรู้สึกถึงแรงดึงเบา ๆ ที่เสื้อ แล้วหันไปเห็นฮานาโกะจ้องมองพื้นอย่างไม่ไปไหน"
+"ฉันรู้สึกถึงแรงดึงเบา ๆ ที่เสื้อ แล้วหันไปเห็นฮานาโกะจ้องมองพื้นไม่ไปไหน"
 
 show hanako emb_timid_close
 with charachange
@@ -1226,7 +1226,7 @@ ha "ปะ… ไปกั…"
 hi "ไปละ ชิซูเนะ มิช่า ไว้เจอกัน"
 
 # hi "And I'm still not interested in the council."
-hi "แล้วก็ฉันยังไม่อยากเข้าสภาอยู่ดีนะ"
+hi "แล้วก็ ฉันยังไม่อยากเข้าสภาอยู่ดีนะ"
 
 show misha cross_grin
 with charachange
@@ -1274,7 +1274,7 @@ with charaenter
 "พอฮานาโกะกับฉันเดินออกนอกประตูมา ฉันสังเกตว่าเธอลดระยะห่างระหว่างเรา"
 
 # "Not enough to be considered “close”, but she certainly isn't at her usual just-a-little-far position."
-"ก็ไม่ถึงกับ “ใกล้” หรอก แต่ก็ไม่ได้ห่างออกไป{i}เล็กน้อย{/i}เหมือนปกติ"
+"ก็ไม่ถึงกับ “ใกล้” หรอก แต่ก็ไม่ได้ห่างไป{i}นิดหน่อย{/i}เหมือนปกติ"
 
 # "I guess we're not familiar enough for her to get as close as she does with Lilly."
 "เราก็ไม่ได้สนิทกันขนาดที่เธอจะเข้าใกล้เท่า ๆ กับตอนที่เธออยู่กับลิลลี่อะนะ"
@@ -1286,7 +1286,7 @@ with charaenter
 "มือของเธอจับสายสะพายหนังของกระเป๋าแน่นจนข้อนิ้วขาวโพลน ก้มหน้าลงและเม้มปากแน่น"
 
 # "She almost looks like she's being walked to the Principal's office for the first time."
-"สภาพเธอเหมือนกับเดินเข้าห้องผอ. เป็นครั้งแรกยังไงยังงั้น"
+"สภาพเธอเหมือนกับเดินไปห้องผอ. เป็นครั้งแรกยังไงยังงั้น"
 
 # "I try to stifle a giggle at the thought, but it is futile."
 "ฉันพยายามกลั้นขำจากความคิดนั้น แต่ก็ไม่เป็นผล"
@@ -1298,10 +1298,10 @@ with charachange
 ha "มะ มีอะไรเหรอ…"
 
 # "I guess there's no point in hiding it…"
-"คงปิดบังไม่มิดแล้วสินะ…"
+"คงไม่ต้องปิดบังแล้วสินะ…"
 
 # hi "Sorry. For a second there it looked like you were getting in trouble."
-hi "โทษที เมื่อกี้มองดูเธอเหมือนคนไปทำผิดอะไรมาอย่างงั้นน่ะ"
+hi "โทษที เมื่อกี้มองดูเธอเหมือนคนไปทำอะไรผิดมาอย่างงั้นน่ะ"
 
 show hanako defarms_strain_close
 with charachange
@@ -1340,13 +1340,13 @@ ha "ชะ ใช่ กับลิลลี่"
 "ถ้าเธอถึงขนาดรับมือกับการออกจากโรงเรียนโดยไม่มีลิลลี่ไม่ได้ แล้วเธอจะอยู่รอดยังไงถ้าทั้งคู่ไม่เคยเจอกันเลย"
 
 # "Would she have found someone else to latch on to? And what drew her to Lilly?"
-"เธอจะหาคนอื่นมาพึ่งพาไหม แล้วอะไรที่ทำให้เธอเข้าหาลิลลี่กันนะ"
+"เธอจะหาคนอื่นมาพึ่งพาแทนหรือเปล่า แล้วอะไรที่ทำให้เธอเข้าหาลิลลี่กันนะ"
 
 # "Was it her lack of eyesight, or was Lilly just kind enough to lend a hand?"
 "เพราะว่าตาบอดหรือเปล่า หรือเพราะว่าลิลลี่ใจดีพอที่จะช่วยเธอกัน"
 
 # "I wonder if anyone would have fit the bill."
-"ฉันสงสัยว่าจะมีใครมาทำได้เท่าไหมนะ"
+"ฉันสงสัยว่าจะมีใครมาทำหน้าที่ได้ดีเท่าไหมนะ"
 
 # hi "Well, I'm here. Besides, we're not going far. It'll be over before you know it."
 hi "ก็นะ ฉันอยู่นี่แล้ว และอีกอย่างเราก็ไม่ได้ไปไหนไกลหรอก แป๊บเดียวก็ถึงแล้ว"
@@ -1393,7 +1393,7 @@ nvl show dissolve
 n "\n\nแต่ก็นั่นแหละ ไม่มีอะไรในเมืองนี้ที่ดูปกติเลย ซึ่งเมื่อมองย้อนกลับไปแล้ว ก็อาจจะไม่ใช่เรื่องแย่ขนาดนั้นก็ได้"
 
 # n "Everything is so different and uncomfortable; dwelling on such matters isn't really an option."
-n "ทุกสิ่งช่างแตกต่างและน่าอึดอัดใจ การหมกมุ่นอยู่กับเรื่องเหล่านั้นจึงไม่ใช่ทางเลือกที่ดีเท่าไหร่"
+n "ทุกสิ่งช่างแตกต่างและน่าอึดอัดใจ การหมกมุ่นอยู่กับเรื่องเหล่านั้นคงไม่ใช่เรื่องที่ดีเท่าไหร่"
 
 # n "When I think about that, it reminds me of Hanako."
 n "พอคิดถึงเรื่องนั้น ก็พานให้นึกถึงฮานาโกะ"
@@ -1475,10 +1475,10 @@ with locationskip
 play music music_tranquil fadein 10.0
 
 # "The road is pretty much abandoned now. The students that were heading out have already left, and nobody has started returning just yet."
-"ตอนนี้ถนนค่อนข้างไม่มีคนแล้ว นักเรียนที่ออกไปก่อนหน้านี้ก็กลับไปหมดแล้ว และยังไม่มีใครกลับมา"
+"ตอนนี้ถนนค่อนข้างไม่มีคนแล้ว นักเรียนที่เดินนำมาก่อนหน้าก็หายไปหมดแล้วและยังไม่มีใครกลับมา"
 
 # "And, with only the school ahead on the road, there doesn't seem to be anyone else around."
-"และเมื่อมีแค่โรงเรียนอยู่ข้างหน้าบนถนนเส้นนี้ เลยไม่มีใครอยู่แถวนี้เลย"
+"และเมื่อมีแค่โรงเรียนที่อยู่ข้างหน้าบนถนนเส้นนี้ ทำให้ไม่มีใครอยู่แถวนี้เลย"
 
 show hanako def_worry_close_ss at center
 with charaenter
@@ -1502,7 +1502,7 @@ ha "ฉัน… บางที… ฉันก็จะทะ… ทำกั�
 hi "อ๋อ เอ้อฉันเองก็ด้วย แต่… เครื่องเทศอะนะ"
 
 # hi "That's a little more advanced, don't you think?"
-hi "ไม่ซับซ้อนไปหน่อยเหรอ"
+hi "ไม่ยากไปหน่อยเหรอ"
 
 show hanako emb_blushing_close_ss
 with charachange
@@ -1568,7 +1568,7 @@ with charachange
 ha "อะ อื้ม"
 
 # hi "Sure? Okay then. I'll see you tomorrow."
-hi "แน่นะ โอเค ไว้เจอกันพรุ่งนี้"
+hi "แน่นะ โอเคงั้นไว้เจอกันพรุ่งนี้"
 
 show hanako basic_smile_close_ss
 with charachange
@@ -1594,7 +1594,7 @@ with locationskip
 "ฉันพยายามเรียนตามให้ทันตอนที่อยู่โรงพยาบาล แต่เนื้อหาบางอย่างฉันไม่เคยเห็นมาก่อนแม้แต่ตอนที่อยู่โรงเรียนเก่า"
 
 # "Totally unprepared, I pop the top on a can of drink, and get to work."
-"ฉันเปิดกระป๋องเครื่องดื่มแล้วก็เริ่มลุยงานทันทีโดยไม่พร้อมมากนัก"
+"ฉันเปิดกระป๋องเครื่องดื่มแล้วก็เริ่มลุยงานทันทีโดยยังไม่พร้อมมากนัก"
 
 scene black
 with dissolve
