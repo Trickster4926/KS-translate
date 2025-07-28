@@ -919,37 +919,28 @@ play sound sfx_impact2
 
 window show
 
-# "My alarm blares into my ears, only to be swiftly silenced by my fist."
 "เสียงปลุกดังขึ้นทะลุหูฉัน ก่อนที่จะเงียบลงทันทีด้วยกำปั้นของฉัน"
 
 scene bg school_dormhisao
 with openeye
 
-# "My body switches into auto-mode, carrying my subconscious self out of bed and into my uniform."
 "ร่างกายของฉันเข้าสู่ระบบอัตโนมัติ พาจิตใต้สำนึกของฉันลุกออกจากเตียงแล้วแต่งตัว"
 
-# "As always, my bottles of pills sit on my desk patiently, waiting for me to take them and pick out my daily dosage of medicine; seventeen pills a day."
 "ขวดยาตั้งรายเรียงบนโต๊ะรอให้ฉันหยิบขึ้นมากินตามปริมาณที่ต้องกิน สิบเจ็ดเม็ดต่อวัน ทุก ๆ วัน"
 
 scene bg school_scienceroom at bgright
 with locationskip
 
-# "Before I know it, I'm opening the door to class 3-3, glad to see that I'm not the only one who seems to be a little hung-over from festival week."
 "พอรู้ตัวอีกที ฉันก็เปิดประตูเข้าห้องเรียน 3-3 มาแล้ว ยังดีที่ได้เห็นว่าไม่ใช่แค่ฉันที่ยังล้าจากสัปดาห์งานเทศกาล"
 
-# "Every face in the classroom looks gaunt. With the festival now over, it's as if everyone's life dreams have been achieved."
 "สีหน้าทุกคนดูสะโหลสะเหล อย่างกับพอเทศกาลจบลงแล้วความฝันในชีวิตของทุกคนได้สำเร็จลุล่วงไปแล้วยังไงยังงั้น"
 
-# "With nothing left to live for, the students have relied on instincts alone to guide them to class."
 "พอไม่มีอะไรให้ยึดเหนี่ยวอีก นักเรียนเหล่านั้นก็ใช้สัญชาตญาณดิบอย่างเดียวเพื่อนำพาตัวเองมายังห้องเรียน"
 
-# "Or maybe I'm just reading too much into it."
 "ไม่ก็ฉันคงคิดมากไป"
 
-# "I slowly make my way to my seat, and it's only then that I realize why the room is so peaceful."
 "ฉันค่อย ๆ เดินไปยังโต๊ะของฉัน และก็ได้รู้ว่าทำไมวันนี้ห้องถึงเงียบสงบเหลือเกิน"
 
-# "The seats beside mine are blissfully empty; the world's loudest interpreter for the deaf has yet to arrive."
 "โต๊ะข้าง ๆ ฉันว่างเปล่าอย่างน่าอภิรมย์ ล่ามภาษามือที่เสียงดังที่สุดในโลกยังเสด็จมาไม่ถึง"
 
 play sound sfx_doorslam
@@ -960,40 +951,32 @@ show misha hips_grin:
     easein 0.3 xanchor 1.0
 with vpunch
 
-# "Just as I am about to sit down, the door flies open, revealing a resplendent Misha; drills bobbing from the dramatic entrance and arms stretched towards the sky."
 "ในตอนที่ฉันกำลังจะนั่ง ประตูก็เปิดผางออกเผยให้เห็นมิช่ายืนเด่นเป็นสง่า ผมทรงสว่านของเธอเด้งไปมาตามการปรากฏตัว\nที่เล่นใหญ่ เธอเหยียดแขนทั้งสองข้างขึ้นสู่ท้องฟ้า"
 
 show misha hips_laugh at right
 with charachange
 
-# mi "Ya-hooo~! It's all over!"
 mi "ยะ-ฮู้~! จบซักที!"
 
-# "It would appear that not everyone is affected by the post-festival depression."
 "เห็นได้เลยว่าไม่ใช่ทุกคนที่จะซึมหลังงานเทศกาล"
 
-# "The rest of the class glare at her, obviously thinking the same thing I am."
 "คนทั้งห้องมองเธอ คงคิดเหมือนที่ฉันคิดนั่นแหละ"
 
 show misha sign_confused
 with charachange
 
-# "Misha, still frozen in the doorway with her arms still in the air, nervously looks around."
 "มิช่ายืนแข็งทื่ออยู่หน้าประตูโดยที่เหยียดแขนอยู่ มองไปรอบ ๆ อย่างประหม่า"
 
-# "It's obvious that she senses the foul mood, but can't work out exactly what to do."
 "เธอรู้ตัวแหละว่าบรรยากาศในห้องอึมครึม แต่ไม่รู้จะทำตัวยังไง"
 
 show misha sign_confused at center
 with ease_decel
 
-# "Suddenly, she jerks forward."
 "ทันใดนั้นเอง เธอก็พุ่งตัวเข้ามา"
 
 show misha perky_sad
 with charachange
 
-# mi "Hey!"
 mi "นี่!"
 
 show shizu invis behind misha:
@@ -1005,7 +988,6 @@ show bg school_scienceroom at center
 show shizu adjust_happy at tworight
 with dissolvecharamove
 
-# "As she stumbles into the classroom, she reveals Shizune, arm still extended from where she shoved Misha."
 "ขณะที่เธอเดินโซซัดโซเซเข้ามาในห้องเรียนนั้นก็เผยให้เห็นชิซูเนะที่แขนยังยกค้างจากการที่ผลักมิช่าเข้ามาอยู่"
 
 show shizu basic_normal
@@ -1013,7 +995,6 @@ with charachange
 
 shi "…"
 
-# hi "Thanks for the entertainment, but shouldn't you two take your seats?"
 hi "ขอบใจสำหรับความบันเทิงนะ แต่ทำไมถึงยังไม่นั่งกันล่ะ"
 
 show shizu behind_frown
@@ -1021,22 +1002,18 @@ with charachange
 
 shi "…"
 
-# "Still slightly embarrassed, Misha takes a few seconds to realize she has to translate."
 "ด้วยความที่ยังอายอยู่หน่อย ๆ มิช่าจึงใช้เวลาอยู่ครู่หนึ่งก่อนนึกได้ว่าต้องแปลให้ฟัง"
 
 show misha sign_smile
 with charachange
 
-# mi "Oh! Yeah! Shicchan says she's not happy with you ditching us last week."
 mi "โอ้! ช่าย! ชิจังบอกว่าเธอไม่สบอารมณ์เท่าไหร่ที่นายทิ้งพวกเราไปเมื่อสัปดาห์ก่อนน่ะ"
 
 show misha cross_frown
 with charachange
 
-# mi "We were really busy!"
 mi "พวกเรางานยุ่งมากเลยนะ!"
 
-# hi "Is that so? What about the stuff I already did for you two?"
 hi "งั้นเหรอ แล้วงานส่วนที่ฉันทำให้พวกเธอล่ะ"
 
 show shizu cross_angry
@@ -1047,28 +1024,23 @@ shi "…"
 show misha hips_grin
 with charachange
 
-# mi "She says that only counts for council members. Since you declined, she doesn’t owe you anything."
 mi "เธอบอกว่าผลงานถือว่าเป็นของสมาชิกในสภาเท่านั้นน่ะ ในเมื่อนายปฎิเสธก็ถือว่าเธอไม่ได้ติดค้างอะไรนาย"
 
 show misha hips_grin_close
 with characlose
 
-# "Misha leans closer, and whispers conspiratorially into my ear."
 "มิช่าเอี้ยวตัวมากระซิบกระซาบพลางตั้งข้อสังเกต"
 
-# mi "Actually, I think she's just a little sore that you didn’t spend the day with her."
 mi "จริง ๆ ฉันว่าเธอแค่งอนที่วันนั้นนายไม่อยู่กับเธอมากกว่าอะนะ"
 
 show misha hips_smile_close
 with charachange
 
-# mi "She's really thankful for your work last week though."
 mi "แต่เธอก็ชื่นชมนายมากนะที่มาช่วยงานเมื่อสัปดาห์ก่อนน่ะ"
 
 show shizu behind_frustrated
 with charachange
 
-# "Sensing that she is being talked about, Shizune lightly raps her fingers on her desk until Misha turns around to face her."
 "พอรู้ตัวว่าถูกนินทา ชิซูเนะก็ใช้นิ้วเคาะโต๊ะจนมิช่าหันกลับไปหาเธอ"
 
 show misha sign_smile
@@ -1083,12 +1055,10 @@ with charachange
 show shizu adjust_blush
 with charachange
 
-# "I can't understand any of the fast-paced signing that's going on, but from Shizune's slightly embarrassed expression, and Misha's poorly contained laughter, I can guess."
 "ฉันไม่เข้าใจภาษามือที่รัวเร็วนั่นเลยสักนิด แต่จากสีหน้าของชิซูเนะที่ดูเขินอายเล็กน้อย และมิช่าที่พยายามกลั้นขำสุด ๆ \nก็พอเดาได้อยู่"
 
 stop music fadeout 8.0
 
-# "While this exchange is happening, the door opens once again, but this time at a much more reasonable pace."
 "ระหว่างที่บทสนทนากำลังดำเนินไป ประตูก็เปิดขึ้นอีกครั้ง แต่คราวนี้เปิดมาได้เป็นผู้เป็นคนขึ้นมาก ๆ"
 
 show hanako invis at offscreenright
@@ -1100,52 +1070,41 @@ show misha hips_smile at Transform(xpos=0.18)
 show hanako emb_downtimid at right
 with dissolvecharamove
 
-# "Hanako quietly enters the room, and pulls the door closed behind her."
 "ฮานาโกะเข้ามาในห้องอย่างเงียบ ๆ แล้วปิดประตู"
 
 show hanako emb_timid
 with charachange
 
-# "Peering out from under her hair, she quickly scans the classroom."
 "เธอมองลอดผมกวาดสายตามองไปทั่วห้องเรียนอย่างรวดเร็ว"
 
-# "Our eyes meet, and she suddenly stiffens. She closes her eyes, takes a deep breath, and then walks over to my desk."
 "ตาของเราสบกัน แล้วเธอก็แข็งทื่อไปทันที เธอหลับตาลง หายใจเข้าลึก ๆ แล้วเดินตรงมาที่โต๊ะของฉัน"
 
 show hanako cover_distant
 with charachange
 
-# ha "G… good morning Hisao."
 ha "อะ… อรุณสวัสดิ์ฮิซาโอะ"
 
-# hi "Morning Hanako. You're a little late, aren't you?"
 hi "อรุณสวัสดิ์ฮานาโกะ เธอมาสายนิดหน่อยนะ"
 
 show hanako basic_normal
 with charachange
 
-# ha "I… was talking to Lilly."
 ha "ฉัน… ไปคุยกับลิลลี่มา"
 
 show hanako basic_worry
 with charachange
 
-# ha "A-about today."
 ha "ระ เรื่องวันนี้"
 
-# hi "Ah, so you've got her list then? We can leave straight after classes in that case."
 hi "โอ้ ได้รายการของลิลลี่มาแล้วใช่ไหม งั้นไปหลังเลิกเรียนเลยแล้วกัน"
 
 show hanako emb_smile
 with charachange
 
-# ha "S-sure."
 ha "อะ อื้ม"
 
-# hi "I'm looking forward to it."
 hi "ฉันจะรอนะ"
 
-# "Hanako briefly flashes her embarrassed smile at me then hurries off to her seat."
 "ฮานาโกะยิ้มอย่างอาย ๆ ให้ฉันแวบหนึ่ง แล้วรีบเดินไปยังที่นั่งของเธอทันที"
 
 scene bg school_scienceroom at bgright
@@ -1153,34 +1112,27 @@ with shorttimeskip
 
 play music music_normal fadein 3.0
 
-# "During classes, it becomes apparent that it's not only the students that are a little despondent after the festival."
 "ระหว่างคาบก็เห็นได้ชัดว่าไม่ใช่แค่นักเรียนเท่านั้นที่หมดเรี่ยวแรงหลังเทศกาล"
 
-# "Mutou simply gives us a list of exercises from the textbook and then sits behind his desk."
 "มุโต้สั่งงานจากหนังสือทิ้งไว้ให้แล้วก็ไปนั่งที่โต๊ะครู"
 
-# "I totally forget about the brief lunch period for a moment, such is the banality of the day."
 "ฉันลืมเรื่องพักกลางวันไปพักหนึ่งเลย วันนี้ช่างน่าเบื่อซะจริง ๆ"
 
 play sound sfx_normalbell
 
-# "It's mind-numbing, and everyone seems surprised when the bells signal the end of the lessons."
 "น่าเบื่อจนสมองตื้อไปหมด และทุกคนก็ดูประหลาดใจเมื่อเสียงระฆังดังขึ้นเป็นสัญญาณบอกเลิกเรียน"
 
 show shizu basic_normal at tworight
 show misha perky_smile at twoleft
 with charaenter
 
-# "As I am packing up my bags, Shizune and Misha flank and entrap me."
 "พอกำลังเก็บของเข้ากระเป๋า ชิซูเนะกับมิช่าก็เข้ามาขนาบข้างและขวางทางฉันไว้"
 
 show misha hips_grin
 with charachange
 
-# mi "Say, Hicchan, it's still not too late to join up. There's a lot of post-festival paperwork for us to complete…"
 mi "นี่ฮิจัง จะเข้าสภาตอนนี้ก็ยังไม่สายนะ มีงานเอกสารหลังเทศกาลที่เราต้องจัดการอีกเพียบเลย…"
 
-# hi "Er, sorry Misha, I've… got plans…"
 hi "เอ่อ โทษทีนะมิช่า ฉัน… มีธุระน่ะ…"
 
 show hanako invis at offscreenright
@@ -1192,46 +1144,37 @@ show misha hips_grin at Transform(xpos=0.18)
 show hanako cover_distant at right
 with dissolvecharamove
 
-# "As if sensing the cue, Hanako appears behind me, holding a small bag, and trying to avoid eye contact with the outside world."
 "ฮานาโกะปรากฏตัวขึ้นข้างหลังฉันเหมือนรู้บท เธอถือกระเป๋าใบเล็ก ๆ และพยายามหลีกเลี่ยงการสบตากับ\nโลกภายนอก"
 
 show misha cross_laugh
 with charachange
 
-# "Misha's eyes open wide, then she bursts into laughter."
 "มิช่าตาลุกวาวแล้วหัวเราะออกมาเสียงดัง"
 
-# mi "BWAHAHA! You move fast, don't you Hicchan~? We won't disturb your date any further! Bwahahaha!"
 mi "วะฮ่าฮ่าฮ่า! นายนี่ก็ไวไม่เบาเลยนะฮิจัง~ งั้นพวกเราไม่รบกวนการเดทของนายละนะ! วะฮ่าฮ่าฮ่า!"
 
 show shizu behind_blank
 with charachange
 
-# "Behind the roaring Misha, I see Shizune taking far too little interest in the scene. I might be taking this the wrong way, but I think she's deliberately ignoring me."
 "ฉันเห็นชิซูเนะแสดงท่าทีไม่สนใจเหตุการณ์ที่เกิดขึ้นจนเกินไปอยู่ข้างหลังมิช่าที่กำลังหัวเราะอย่างบ้าคลั่ง อาจจะคิดไปเอง\nแต่ฉันคิดว่าเธอจงใจเมินฉันอยู่แน่ ๆ"
 
 show hanako emb_downtimid_close
 with characlose
 
-# "I feel a gentle tug on my shirt, and turn to see Hanako's eyes fixed firmly on the floor."
 "ฉันรู้สึกถึงแรงดึงเบา ๆ ที่เสื้อ แล้วหันไปเห็นฮานาโกะจ้องมองพื้นไม่ไปไหน"
 
 show hanako emb_timid_close
 with charachange
 
-# ha "L… let's…"
 ha "ปะ… ไปกั…"
 
-# hi "Got ya. Shizune, Misha, I'll see you later."
 hi "ไปละ ชิซูเนะ มิช่า ไว้เจอกัน"
 
-# hi "And I'm still not interested in the council."
 hi "แล้วก็ ฉันยังไม่อยากเข้าสภาอยู่ดีนะ"
 
 show misha cross_grin
 with charachange
 
-# mi "Spoilsport."
 mi "ไม่หนุกเลย"
 
 stop music fadeout 2.0
@@ -1244,10 +1187,8 @@ show bg school_scienceroom at bgleft
 show hanako emb_timid_close at center
 with charamove
 
-# "Misha and Shizune retreat into the hallway, happily signing to each other."
 "มิช่ากับชิซูเนะกลับไปที่โถงทางเดินคุยภาษามือกันอย่างสนุกสนาน"
 
-# hi "Got all your stuff? Let's head off."
 hi "เก็บของเสร็จแล้วใช่ไหม ไปกันเถอะ"
 
 play music music_soothing fadein 4.0
@@ -1255,13 +1196,10 @@ play music music_soothing fadein 4.0
 scene bg school_gate
 with locationskip
 
-# "Floods of students pour out of the school gates and onto the road into town."
 "นักเรียนจำนวนมากทะลักออกจากประตูโรงเรียน และมุ่งหน้าสู่ถนนเข้าเมือง"
 
-# "It's a little weird. It's almost a scene from any other high school, but the illusion fades because of the occasional wheelchair or missing limb."
 "แปลกหน่อย ๆ ตรงที่ว่าภาพตรงหน้านี้ก็ละม้ายคล้ายโรงเรียนมัธยมทั่ว ๆ ไป แต่ภาพลวงนั้นก็จางหายไปเพราะบางคน\nมีรถเข็นหรือแขนขาที่ขาดหายไป"
 
-# "One thing I do notice is that nobody is alone."
 "อย่างหนึ่งที่สังเกตได้คือไม่มีใครอยู่ตัวคนเดียวเลย"
 
 scene bg school_road
@@ -1270,115 +1208,85 @@ with locationchange
 show hanako emb_downsad_close at center
 with charaenter
 
-# "And, as Hanako and I pass through the gates, I notice that she closes the distance between us."
 "พอฮานาโกะกับฉันเดินออกนอกประตูมา ฉันก็เห็นว่าเธอลดระยะห่างระหว่างเรา"
 
-# "Not enough to be considered “close”, but she certainly isn't at her usual just-a-little-far position."
 "ก็ไม่ถึงกับ “ใกล้” หรอก แต่ก็ไม่ได้ห่างเกินไป{i}นิดหน่อย{/i}เหมือนปกติ"
 
-# "I guess we're not familiar enough for her to get as close as she does with Lilly."
 "เราก็ไม่ได้สนิทกันขนาดที่เธอจะเข้าใกล้เท่า ๆ กับตอนที่เธออยู่กับลิลลี่อะนะ"
 
-# "However, even though she has moved a little closer to me physically, mentally she seems to have traveled a mile."
 "แต่ถึงตัวจะขยับเข้ามาใกล้ขึ้นหน่อยแล้ว ใจเธอก็ดูห่างออกไปแสนไกล"
 
-# "Her hands clutched around the leather straps of her bag to the point of whitening her knuckles, her head down and her mouth pursed closed."
 "มือของเธอจับสายสะพายหนังของกระเป๋าแน่นจนเลือดข้อนิ้วเธอไม่เดิน เธอก้มหน้าลงและเม้มปากแน่น"
 
-# "She almost looks like she's being walked to the Principal's office for the first time."
 "สภาพเธอเหมือนกับเดินไปห้องผอ. เป็นครั้งแรกยังไงยังงั้น"
 
-# "I try to stifle a giggle at the thought, but it is futile."
 "ฉันพยายามกลั้นขำที่คิดอย่างนั้นขึ้นมา แต่ก็ไม่เป็นผล"
 
 show hanako emb_timid_close
 with charachange
 
-# ha "W-what's the matter…?"
 ha "มะ มีอะไรเหรอ…"
 
-# "I guess there's no point in hiding it…"
 "คงไม่ต้องปิดบังแล้วสินะ…"
 
-# hi "Sorry. For a second there it looked like you were getting in trouble."
 hi "โทษที เมื่อกี้มองดูเธอเหมือนคนไปทำอะไรผิดมาอย่างงั้นน่ะ"
 
 show hanako defarms_strain_close
 with charachange
 
-# ha "W-w-what do you mean?"
 ha "มะ มะ หมายความว่าไง"
 
-# hi "I think you need to relax a little. We're not going too far, and it's only students around, right?"
 hi "ฉันว่าเธออย่าเกร็งไปเลย เราก็ไม่ได้ไปไหนไกลสักหน่อย แถมแถวนี้ก็มีแค่นักเรียนด้วยนี่ จริงไหม"
 
 show hanako def_worry_close
 with charachange
 
-# ha "R-right."
 ha "อะ อื้ม"
 
-# "It bothers me a little to see Hanako so worked up."
 "รู้สึกลำบากใจนิดหน่อยที่เห็นฮานาโกะดูกังวลมากขนาดนี้"
 
-# hi "And you do this every week, don't you?"
 hi "แล้วเธอเองก็มาทุก ๆ สัปดาห์ด้วยนี่"
 
 show hanako basic_worry_close
 with charachange
 
-# ha "Y-yes. With Lilly."
 ha "ชะ ใช่ กับลิลลี่"
 
-# "Of course. “With Lilly.” I wonder, has she ever left the school without her?"
 "แหงแซะ “กับลิลลี่” สงสัยจริง ๆ ว่าเธอเคยออกมาข้างนอกโดยไม่มีลิลลี่สักครั้งไหม"
 
-# "It doesn't seem like much at first glance, but Hanako's dependence on Lilly is absurdly heavy."
 "ตอนแรกอาจจะดูเหมือนไม่มากเท่าไหร่ แต่ฮานาโกะก็พึ่งพาลิลลี่หนักมากจริง ๆ"
 
-# "If she can't even handle leaving the school without her, how would she have managed to survive if the two had never met?"
 "ถ้าถึงขนาดรับมือกับการออกจากโรงเรียนโดยไม่มีลิลลี่ไม่ได้ แล้วเกิดถ้าไม่ได้มารู้จักกันแล้วเธอจะเอาตัวรอดยังไง"
 
-# "Would she have found someone else to latch on to? And what drew her to Lilly?"
 "เธอจะหาคนอื่นมาพึ่งพาแทนหรือเปล่า แล้วอะไรที่ทำให้เธอเข้าหาลิลลี่กันนะ"
 
-# "Was it her lack of eyesight, or was Lilly just kind enough to lend a hand?"
 "เพราะว่าตาบอดหรือเปล่า หรือเพราะว่าลิลลี่ใจดีพอที่จะช่วยเธอกัน"
 
-# "I wonder if anyone would have fit the bill."
 "ฉันสงสัยว่าจะมีใครมาทำหน้าที่ได้ดีเท่าไหมนะ"
 
-# hi "Well, I'm here. Besides, we're not going far. It'll be over before you know it."
 hi "ฉันก็อยู่ด้วยนี่ไง แล้วเราก็ไม่ได้ไปไหนไกลสักหน่อย แป๊บเดียวก็ถึงแล้ว"
 
 show hanako emb_downsmile_close
 with charachange
 
-# "Hanako's knuckles slowly regain their color as she tries to hide a small smile, but the effort of that seems to prevent further conversation."
 "เลือดที่ข้อนิ้วเธอกลับมาเดินขณะที่เธอพยายามกลั้นยิ้มเอาไว้ แต่ก็เหมือนว่าจะเอาแต่กลั้นยิ้มจนคุยอะไรต่อไม่ได้"
 
-# "We travel, side by side, down the winding road towards the town. The crowd of students thins as we continue along the sidewalk."
 "เราเดินเคียงข้างกันไปตามถนนที่คดเคี้ยวสู่เมือง กลุ่มนักเรียนค่อย ๆ บางตาลงไปตามทางเท้าที่เราเดิน"
 
-# "Faster students rush ahead, and the less mobile ones fall behind, rarefying the crowd into nothingness."
 "นักเรียนที่เดินเร็วกว่าก็พุ่งไปข้างหน้า ส่วนพวกที่เคลื่อนไหวช้ากว่าก็รั้งท้าย ทำให้ฝูงชนเจือจางลงจนไม่มีเหลือ"
 
 scene bg suburb_konbiniext
 with locationskip
 
-# "By the time we reach the convenience store we are practically alone."
 "กว่าจะมาถึงร้านสะดวกซื้อก็เรียกได้ว่าเหลือแค่เราสองคนที่ยังอยู่"
 
 scene bg suburb_konbiniint
 with locationchange
 
-# "Using me as a shield between herself and the attendant, Hanako moves through the narrow aisles, adding an assortment of items to her basket."
 "ฮานาโกะใช้ฉันเป็นโล่กำบังระหว่างตัวเองกับพนักงานแล้วเดินผ่านทางเดินแคบ ๆ พร้อมกับหยิบของสารพัดอย่าง\nใส่ตะกร้าของเธอ"
 
-# "Bread, milk, tea… thyme?"
 "ขนมปัง นม ชา… ไทม์?"
 
-# "What kind of convenience store sells herbs?"
 "ร้านสะดวกซื้ออะไรทำไมมีสมุนไพรขายด้วย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
@@ -1389,28 +1297,20 @@ nvl clear
 
 nvl show dissolve
 
-# n "\n\nThen again, nothing about this town seems normal, which may not be such a bad thing in retrospect."
 n "\n\nแต่ก็นั่นแหละ ไม่มีอะไรในเมืองนี้ที่ดูปกติเลย ซึ่งเมื่อมองย้อนกลับไปแล้ว ก็อาจจะไม่ใช่เรื่องแย่ขนาดนั้นก็ได้"
 
-# n "Everything is so different and uncomfortable; dwelling on such matters isn't really an option."
 n "ทุกสิ่งช่างแตกต่างและน่าอึดอัดใจ การหมกมุ่นอยู่กับเรื่องเหล่านั้นคงไม่ใช่เรื่องที่ดีเท่าไหร่"
 
-# n "When I think about that, it reminds me of Hanako."
 n "พอคิดถึงเรื่องนั้น ก็พานให้นึกถึงฮานาโกะ"
 
-# n "No matter how much you try, you can't escape her scars; they still interrupt my train of thought when I see them."
 n "ไม่ว่าจะพยายามแค่ไหนก็ไม่อาจหลีกหนีรอยแผลเป็นของเธอได้ รอยแผลเป็นเหล่านั้นกวนใจฉันทุกครั้งที่ได้เห็น"
 
-# n "As much as I don't want to admit it to myself, I think I'm forcing myself to try to ignore them."
 n "ถึงจะไม่ค่อยอยากยอมรับก็เถอะ แต่ฉันว่าฉันกำลังบังคับตัวเองให้พยายามมองข้ามรอยแผลเป็นเหล่านั้น"
 
-# n "Not that I am scar-free myself. The jagged line down my sternum will never completely fade away."
 n "ฉันเองก็มีแผลเป็นเหมือนกันนั่นแหละ รอยหยักที่ลากยาวลงมาตรงกลางอกฉันนั้นไม่มีวันจะหายไปไหน"
 
-# n "I just have the luxury of being able to hide it easily."
 n "แต่ของฉันดีหน่อยตรงที่ยังซ่อนได้ง่าย"
 
-# n "\nBut, in a way, both of our scars remind me that we're all in this place for a reason."
 n "\nแต่ในแง่หนึ่ง แผลเป็นของพวกเราทั้งคู่ก็เป็นเครื่องบ่งบอกว่าทำไมเราถึงได้มาที่นี่"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
@@ -1422,43 +1322,32 @@ window show
 
 "…"
 
-# "Hanako throws one last item into her basket then sheepishly holds it out to me, along with a few bank notes."
 "ฮานาโกะโยนของชิ้นสุดท้ายลงในตะกร้าแล้วก็ยื่นมาให้ฉันพร้อมธนบัตรอย่างอาย ๆ"
 
 show hanako emb_downtimid_close at center
 with charaenter
 
-# ha "C-c-could you p-please…"
 ha "นะ นะ นาย ชะ ช่วย…"
 
-# "It takes me a second to understand what she's trying to say."
 "ฉันใช้เวลาไม่นานก็เข้าใจสิ่งที่เธอจะสื่อ"
 
-# hi "Oh, you want me to pay for this?"
 hi "อ้อ เธออยากให้ฉันช่วยจ่ายให้สินะ"
 
 show hanako emb_downsad_close
 with charachange
 
-# "She nods, but doesn't look up."
 "เธอพยักหน้า แต่ไม่ได้มองขึ้นมา"
 
-# "I guess this task falls to Lilly on the usual occasions."
 "เดาว่างานนี้ปกติลิลลี่คงได้ทำเป็นประจำแหง ๆ"
 
-# hi "Sure. Lemme just grab a couple of things…"
 hi "ได้สิ เดี๋ยวขอไปหยิบของเพิ่มนิดหน่อยนะ…"
 
-# "Hastily I grab a few essential items for myself and head for the counter with Hanako in close tow."
 "ฉันรีบคว้าของจำเป็นสองสามอย่างให้ตัวเอง แล้วตรงไปที่เคาน์เตอร์พร้อมกับฮานาโกะที่เดินตามมาติด ๆ"
 
-# "The attendant gives me an indifferent nod as he scans in the items."
 "พนักงานพยักหน้าให้ฉันอย่างไม่แยแสขณะที่เขาสแกนสินค้า"
 
-# "I suppose just ignoring us is one way to deal with the anomalies of Yamaku; they must get a lot of students here, being the closest store to the school."
 "ฉันว่าการทำเป็นไม่สนใจพวกเราก็เป็นวิธีหนึ่งในการรับมือกับความไม่ปกติของยามากุ คงมีนักเรียนมาที่นี่เยอะแน่ ๆ\nเพราะเป็นร้านที่อยู่ใกล้โรงเรียนที่สุด"
 
-# "The staff must all have their own way of dealing with us. Or maybe they don't; maybe it's only me who thinks twice about my unique schoolmates."
 "พนักงานที่นี่คงจะมีวิธีรับมือกับพวกเราในแบบของเขา หรือไม่ก็อาจจะไม่ได้มีหรอก บางทีอาจจะมีแค่ฉันคนเดียว\nที่คิดมากเรื่องเพื่อนร่วมโรงเรียน"
 
 stop music fadeout 2.0
@@ -1466,7 +1355,6 @@ stop music fadeout 2.0
 scene bg suburb_konbiniext_ss
 with locationchange
 
-# "Our transaction complete, Hanako and I head back out onto the street."
 "พอซื้อของเสร็จฮานาโกะกับฉันก็เดินกลับออกมายังถนน"
 
 scene bg school_road_ss
@@ -1474,58 +1362,44 @@ with locationskip
 
 play music music_tranquil fadein 10.0
 
-# "The road is pretty much abandoned now. The students that were heading out have already left, and nobody has started returning just yet."
 "ตอนนี้ถนนก็แทบไม่เหลือคนแล้ว นักเรียนที่เดินนำมาก่อนหน้าก็หายไปหมดแล้ว และยังไม่มีใครกลับมา"
 
-# "And, with only the school ahead on the road, there doesn't seem to be anyone else around."
 "และเมื่อมีแค่โรงเรียนที่อยู่ข้างหน้าบนถนนเส้นนี้ ทำให้ไม่มีใครอยู่แถวนี้เลย"
 
 show hanako def_worry_close_ss at center
 with charaenter
 
-# "The emptiness certainly reflects on Hanako; her arms by her sides each carrying a bag, her head no longer bowed, and back to the upright position…"
 "ความโล่งนี้มีผลต่อฮานาโกะชัดเจน แขนของเธอที่แนบลำตัวแต่ละข้างมีมือที่ถือถุงอยู่ เธอกลับมามองตรงตามปกติ\nไม่ได้ก้มหน้าแล้ว…"
 
-# "It's almost as if she were enjoying this walk."
 "ราวกับว่าเธอกำลังเพลิดเพลินกับการเดินครั้งนี้เลยทีเดียว"
 
-# hi "So, why all these weird things? Mixed Spice? Why would you need that in school?"
 hi "แล้วซื้อของแปลก ๆ พวกนี้มาทำไมเหรอ เครื่องเทศงี้ เอาไปทำอะไรที่โรงเรียน"
 
 show hanako basic_normal_close_ss
 with charachange
 
-# ha "I… sometimes… like to m-make food."
 ha "ฉัน… บางที… ฉันก็จะทะ… ทำกับข้าวกินน่ะ"
 
-# hi "Well, yeah, so do I but… spices?"
 hi "อ๋อ เอ้อฉันเองก็ด้วย แต่… เครื่องเทศอะนะ"
 
-# hi "That's a little more advanced, don't you think?"
 hi "ไม่ยากไปหน่อยเหรอ"
 
 show hanako emb_blushing_close_ss
 with charachange
 
-# ha "N-not really."
 ha "กะ ก็ไม่ขนาดนั้น"
 
-# hi "Well, I think it's cool. You'll have to teach me one day."
 hi "อื้ม ดีแล้ว สงสัยเธอต้องสอนฉันบ้างแล้วละ"
 
 show hanako emb_smile_close_ss
 with charachange
 
-# ha "S-sure."
 ha "ดะ ได้สิ"
 
-# "She doesn't seem all that sure, but pushing the point doesn't seem all that wise."
 "ก็ดูท่าไม่ค่อยแน่ใจสักเท่าไหร่ว่าจะสอนให้จริงไหม แต่ให้จี้ถามก็ใช่เรื่อง"
 
-# "At the very least, she seems a great deal happier than she did on the walk down here."
 "อย่างน้อย ๆ เธอก็ดูมีความสุขกว่าตอนขามาละนะ"
 
-# "That alone makes me a little happier."
 "แค่นั้นก็ทำให้ฉันมีความสุขขึ้นมาหน่อยหนึ่งแล้ว"
 
 scene bg school_dormext_full_ss
@@ -1534,46 +1408,36 @@ with shorttimeskip
 show hanako basic_normal_close_ss at center
 with charaenter
 
-# "Outside the girls' dorm, Hanako and I sort out the grocery bags with our respective purchases."
 "ฮานาโกะกับฉันช่วยกันแยกข้าวของใส่ถุงตามที่แต่ละคนซื้อมาอยู่หน้าหอพักหญิง"
 
-# "In comparison, my things look positively plain."
 "พอเทียบกันแล้ว ของฉันดูบ้าน ๆ ไปเลย"
 
-# hi "I tell you, you're putting me to shame here…"
 hi "บอกเลย นี่ฉันอายเลยนะเนี่ย…"
 
 show hanako defarms_shock_close_ss
 with charachange
 
-# ha "N-no I'm not… I just…"
 ha "มะ ไม่นะ ฉันไม่ได้… ฉันแค่…"
 
-# hi "I'm only joking."
 hi "ล้อเล่น ๆ"
 
 show hanako def_worry_close_ss
 with charachange
 
-# hi "I have a stack of homework that I skipped last week, so I must leave now."
 hi "ฉันมีการบ้านที่ดองไว้สัปดาห์ที่แล้วที่ต้องทำ เพราะงั้นเดี๋ยวต้องไปละ"
 
-# hi "Will you be all right getting that to your room?"
 hi "ขนไปไหวใช่ไหม"
 
 show hanako cover_bashful_close_ss
 with charachange
 
-# ha "Y-yeah."
 ha "อะ อื้ม"
 
-# hi "Sure? Okay then. I'll see you tomorrow."
 hi "แน่นะ โอเค งั้นไว้เจอกันพรุ่งนี้"
 
 show hanako basic_smile_close_ss
 with charachange
 
-# ha "B-bye."
 ha "บะ บาย"
 
 hide hanako
@@ -1581,19 +1445,15 @@ with charaexit
 
 stop music fadeout 7.0
 
-# "We part ways, and I return to my room."
 "พวกเราแยกทางกัน และฉันก็กลับห้องของฉัน"
 
 scene bg school_dormhisao_ss
 with locationskip
 
-# "Piles of papers sit upon my desk, begging to be completed. With the entire ruckus of the last week, I've barely had any time to catch up."
 "กองงานวางสุมอยู่บนโต๊ะฉันรอคอยการสะสาง ด้วยความวุ่นวายตลอดสัปดาห์ที่ผ่านมาฉันแทบไม่มีเวลาได้ตามงานเลย"
 
-# "I tried to keep up with my studies while I was in the hospital, but some of this stuff I've never seen before, even back in my old school."
 "ฉันพยายามเรียนตามให้ทันตอนที่อยู่โรงพยาบาล แต่เนื้อหาบางอย่างฉันก็ไม่เคยเห็นมาก่อนแม้แต่ตอนที่อยู่โรงเรียนเก่า"
 
-# "Totally unprepared, I pop the top on a can of drink, and get to work."
 "ฉันเปิดกระป๋องเครื่องดื่มแล้วเริ่มลุยงานทันทีโดยไม่มีการเตรียมการใด ๆ"
 
 scene black
