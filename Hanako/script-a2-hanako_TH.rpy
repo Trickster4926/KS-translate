@@ -1471,27 +1471,38 @@ play music music_daily fadein 6.0
 scene bg school_dormhisao
 with locationchange
 
-"The days are really starting to heat up."
+# "The days are really starting to heat up."
+"วันนี้อากาศเริ่มร้อนขึ้น"
 
-"This morning, I awoke covered in sweat."
+# "This morning, I awoke covered in sweat."
+"เช้านี้ฉันตื่นมาพร้อมเหงื่อท่วมตัว"
 
-"By the time the student body starts leaving their dorms for breakfast and morning duties, the sun has taken full effect; oddly, that puts me in high spirits."
+# "By the time the student body starts leaving their dorms for breakfast and morning duties, the sun has taken full effect; oddly, that puts me in high spirits."
+"พอถึงเวลาที่นักเรียนเริ่มออกจากหอพักไปทานอาหารเช้าและทำกิจวัตรประจำวันตอนเช้า แสงแดดก็สาดส่องเต็มที่\nแปลกที่ว่านั่นกลับทำให้ฉันรู้สึกกระปรี้กระเปร่า"
 
-"It's not even eight, yet I feel that this day is going to be one of those pleasant, tranquil, warm ones."
+# "It's not even eight, yet I feel that this day is going to be one of those pleasant, tranquil, warm ones."
+"นี่ยังไม่แปดโมงด้วยซ้ำ แต่ฉันกลับรู้สึกว่าวันนี้จะต้องเป็นวันหนึ่งที่น่ารื่นรมย์ สงบสุขและอบอุ่น"
 
-"If I weren't at a school that considered every absence from class as a sign of a life-threatening situation, I'd consider skipping the whole day and just relaxing in the school gardens."
+# "If I weren't at a school that considered every absence from class as a sign of a life-threatening situation, I'd consider skipping the whole day and just relaxing in the school gardens."
+"ถ้าไม่ติดว่าฉันอยู่ในโรงเรียนที่มองว่าการขาดของนักเรียนอาจเป็นสัญญาณที่อาจอันตรายถึงชีวิต ฉันคงคิดจะโดดเรียน\nทั้งวันแล้วไปพักผ่อนในสวนของโรงเรียนไปแล้ว"
 
-"Yes, today will be a genuinely lazy day."
+# "Yes, today will be a genuinely lazy day."
+"อืม วันนี้คงเป็นวันที่ไม่อยากทำอะไรเลยจริง ๆ"
 
-"For a second, I stop in mid-stretch, and consider the nurse's warning about exercise. Maybe I should have kept up those morning jogs."
+# "For a second, I stop in mid-stretch, and consider the nurse's warning about exercise. Maybe I should have kept up those morning jogs."
+"ฉันหยุดยืดตัวกะทันหันแล้วนึกถึงคำเตือนของคุณพยาบาลเรื่องการออกกำลังกาย บางทีฉันน่าจะออกไปวิ่งจ็อกกิ้งตอนเช้าต่อ"
 
-"Running with someone like Emi might have been a little testing, but if I worked at my own pace…"
+# "Running with someone like Emi might have been a little testing, but if I worked at my own pace…"
+"จะให้วิ่งกับคนแบบเอมิก็ดูจะเหนื่อยไปหน่อย แต่ถ้าวิ่งเองเท่าที่ฉันไหวละก็…"
 
-"Ah, who am I kidding? I couldn't stick to something like that without some kind of motivation."
+# "Ah, who am I kidding? I couldn't stick to something like that without some kind of motivation."
+"อ่า คิดว่าตัวเองเป็นใครกัน ฉันคงมุ่งมั่นกับอะไรแบบนั้นไม่ได้นานหรอกถ้าไม่มีแรงจูงใจอะไรเลย"
 
-"It's not like I sit around all day. The walk to and from the convenience store counts as exercise, right? Especially the walk back up the hill…"
+# "It's not like I sit around all day. The walk to and from the convenience store counts as exercise, right? Especially the walk back up the hill…"
+"ฉันเองก็ไม่ได้นั่งอยู่เฉยๆ ทั้งวันนะ การเดินไปกลับร้านสะดวกซื้อก็นับเป็นการออกกำลังกายใช่ไหมล่ะ โดยเฉพาะขากลับ\nขึ้นมา…"
 
-"Yeah, it's no big deal. Compared to months lying in a hospital bed I'm getting plenty exercise."
+# "Yeah, it's no big deal. Compared to months lying in a hospital bed I'm getting plenty exercise."
+"ใช่ ไม่เห็นจะเป็นอะไรเลย เมื่อเทียบกับการนอนติดเตียงในโรงพยาบาลมาหลายเดือนนี่ ถือว่าฉันได้ออกกำลังกาย\nเยอะแล้ว"
 
 scene bg school_scienceroom
 with shorttimeskip
