@@ -921,71 +921,90 @@ with charachange
 no "ว่ายังไงล่ะ"
 
 # "Nobody answers except with some unintelligible murmurs, which Nomiya apparently interprets as unanimous approval."
-"ไม่มีคำตอบอื่นนอกจากเสียงงึมงำพึมพำที่จับใจความไม่ได้ ซึ่งเหมือนโนมิยะจะนับไปว่าเป็นเสียงตกลงเอกฉันท์"
+"ไม่มีคำตอบอื่นนอกจากเสียงงึมงำพึมพำที่จับใจความไม่ได้ ซึ่งเหมือนโนมิยะจะนับไปว่าเป็นเสียงตกลงโดยเอกฉันท์"
 
 show nomiya talk
 with charachange
 
-no "All right, then! Everyone not working on other projects, choose a partner and draw a sketch of one another."
+# no "All right, then! Everyone not working on other projects, choose a partner and draw a sketch of one another."
+no "เอาละ งั้น! คนที่ไม่ได้ทำงานอื่นอยู่ ให้จับคู่แล้ววาดภาพร่างของกันและกันนะ"
 
-no "You should be able to complete this today, but if not, we can continue it next time, or even do it again if you find it interesting. หรือถ้าสนใจก็มาทำอีกก็ได้"
+# no "You should be able to complete this today, but if not, we can continue it next time, or even do it again if you find it interesting."
+no "วันนี้น่าจะทำกันให้เสร็จได้นะ แต่ถ้าไม่เสร็จก็ค่อยมาต่อทีหลังได้ หรือถ้าสนใจจะทำอีกก็ได้นะ"
 
 show nomiya veryhappy
 with charachange
 
-no "Remember to pay attention to lighting and shadow, and give it your best!"
+# no "Remember to pay attention to lighting and shadow, and give it your best!"
+no "อย่าลืมดูเรื่องแสงเงาด้วย แล้วก็ทำให้เต็มที่นะ!"
 
-"Pairing up? I feel pretty awkward about it, hardly knowing anyone here. I wish someone would ask me to be their partner."
+# "Pairing up? I feel pretty awkward about it, hardly knowing anyone here. I wish someone would ask me to be their partner."
+"จับคู่เหรอ ไม่รู้จักใครเลย อึดอัดตาย ถ้ามีคนมาขอจับคู่ด้วยก็ดีสิ"
 
 hide nomiya
 with charaexit
 
-"People stand up and move their chairs closer together, but nobody comes to me."
+# "People stand up and move their chairs closer together, but nobody comes to me."
+"คนในห้องลุกพลางขยับเก้าอี้ไปชิดกันแล้ว แต่ไม่มีใครมาหาฉันเลย"
 
-"Pretty soon, everyone else has paired off. Friends team up with each other, but I'm left alone."
+# "Pretty soon, everyone else has paired off. Friends team up with each other, but I'm left alone."
+"ไม่นานนักทุกคนก็ได้คู่กัน คนที่เป็นเพื่อนกันต่างอยู่ด้วยกัน ส่วนฉันอยู่ตัวคนเดียว"
 
-"Well, there is Rin."
+# "Well, there is Rin."
+"ก็ ยังเหลือรินอยู่อะนะ"
 
 show bg school_classroomart at right
 with charamove
 
-"She's sitting in the furthest corner of the classroom, still staring out the window and seemingly uninterested in taking part in the exercise."
+# "She's sitting in the furthest corner of the classroom, still staring out the window and seemingly uninterested in taking part in the exercise."
+"เธอนั่งอยู่ที่มุมหนึ่งของห้องไกล ๆ ยังเหม่อมองไปทางหน้าต่างดูไม่สนใจจะทำกิจกรรมด้วย"
 
-"Since she's the only other one without a partner, I walk to her seat."
+# "Since she's the only other one without a partner, I walk to her seat."
+"เมื่อเห็นว่าเธอเป็นคนเดียวที่ยังไม่มีคู่ ฉันจึงเดินไปหาเธอ"
 
-"I can't see her face because her hair is covering most of it and she's looking away from me."
+# "I can't see her face because her hair is covering most of it and she's looking away from me."
+"ไม่เห็นหน้าด้วยเพราะผมบังอยู่ แล้วก็ไม่ได้มองมาทางนี้ด้วย"
 
-hi "Rin?"
+# hi "Rin?"
+hi "ริน?"
 
-"I call out to her. No response."
+# "I call out to her. No response."
+"ฉันเรียกเธอ แต่ก็ไม่มีเสียงตอบรับ"
 
-hi "Hey, want to partner up? You're the only one I know here."
+# hi "Hey, want to partner up? You're the only one I know here."
+hi "นี่ คู่กันมั้ย ในนี้ฉันรู้จักเธออยู่คนเดียวเนี่ย"
 
 show rin basic_absent at center
 with charaenter
 
-"She seems to finally acknowledge my presence, head turning like a robot as she looks to see who is addressing her."
+# "She seems to finally acknowledge my presence, head turning like a robot as she looks to see who is addressing her."
+"เธอดูจะตอบสนองกับตัวตนของฉันแล้ว หันหัวมาดูว่าใครเรียกเหมือนหุ่นยนต์"
 
 "…"
 
-"Rin doesn't answer, and I don't want to repeat the question, either. I'm sure she heard it the first time."
+# "Rin doesn't answer, and I don't want to repeat the question, either. I'm sure she heard it the first time."
+"รินไม่ตอบ และฉันก็ไม่อยากถามย้ำเหมือนกัน ที่ถามไปเมื่อกี้คงได้ยินแล้วแหละ"
 
 "…"
 
-"Why doesn't she say anything? It can't be such an awful fate to be paired up with me, can it?"
+# "Why doesn't she say anything? It can't be such an awful fate to be paired up with me, can it?"
+"ทำไมถึงไม่พูดอะไรเลยนะ คู่กับฉันมันคงไม่ได้แย่ขนาดนั้นหรอกมั้ง"
 
-"She doesn't look at my face, and instead stares directly at my chest and stomach."
+# "She doesn't look at my face, and instead stares directly at my chest and stomach."
+"เธอไม่มองหน้าฉัน แล้วจ้องมาที่หน้าอกกับท้องแทน"
 
 "…"
 
 show rin basic_deadpan
 with charachange
 
-rin "Oh, okay. Why not?"
+# rin "Oh, okay. Why not?"
+rin "อ้อ โอเค ได้สิ"
 
 "…"
 
-hi "Okay. Good. Great. I'll get the stuff for us."
+# hi "Okay. Good. Great. I'll get the stuff for us."
+hi "โอเค ดี เดี๋ยวไปเอาของให้"
 
 hide rin
 with charaexit
@@ -993,33 +1012,41 @@ with charaexit
 show bg school_classroomart at left
 with charamove
 
-"Looking at the equipment Nomiya has prepared for today's meeting confuses me. Instead of graphite or pencils, we are apparently supposed to do ink sketches."
+# "Looking at the equipment Nomiya has prepared for today's meeting confuses me. Instead of graphite or pencils, we are apparently supposed to do ink sketches."
+"พอมาเห็นอุปกรณ์ที่โนมิยะเตรียมไว้ให้สำหรับกิจกรรมวันนี้แล้วก็เป็นต้องงง เพราะเหมือนจะได้วาดภาพร่างโดยใช้หมึก\nแทนที่จะเป็นแร่แกรไฟต์หรือดินสอ"
 
-"I've never done anything like that before."
+# "I've never done anything like that before."
+"ซึ่งฉันไม่เคยทำมาก่อนเลย"
 
-"The teacher, however, seems confident in my abilities to adapt to this medium."
+# "The teacher, however, seems confident in my abilities to adapt to this medium."
+"ทว่าคุณครูดูจะมั่นใจในความสามารถของฉันที่จะปรับมือให้ใช้สิ่งนี้ได้"
 
 show nomiya veryhappy at center
 with charaenter
 
-no "Simple!"
+# no "Simple!"
+no "ง่าย ๆ !"
 
 show nomiya smile
 with charachange
 
-no "First you do the outlines in ink. You let them dry, and then you shade with the diluted ink. This is called India ink, it works like watercolors."
+# no "First you do the outlines in ink. You let them dry, and then you shade with the diluted ink. This is called India ink, it works like watercolors."
+no "ก่อนอื่นก็ใช้หมึกร่างเส้นขอบ ทิ้งไว้ให้แห้ง แล้วก็ใช้หมึกที่จางหน่อยลงเงา อันนี้เขาเรียกหมึกอินเดียอิงค์ ใช้ได้เหมือน\nสีน้ำเลย"
 
 show nomiya talk
 with charachange
 
-no "If you're uncomfortable with it, use a pen instead of a brush for the outlines."
+# no "If you're uncomfortable with it, use a pen instead of a brush for the outlines."
+no "ถ้าไม่ถนัด ตอนร่างเส้นขอบจะใช้ปากกาแทนพู่กันก็ได้"
 
-hi "Got it."
+# hi "Got it."
+hi "ครับ"
 
 hide nomiya
 with charaexit
 
-"I pick up paper, water cups, one pen for me, one brush for Rin and ink for both of us, then return to Rin."
+# "I pick up paper, water cups, one pen for me, one brush for Rin and ink for both of us, then return to Rin."
+"ฉันหยิบกระดาษ แก้วน้ำ ปากกาหนึ่งด้ามสำหรับฉัน พู่กันด้ามหนึ่งสำหรับริน แล้วก็หมึกสำหรับเราสองคน จากนั้น\nจึงกลับไปหาริน"
 
 show bg school_classroomart at right
 with charamove
@@ -1029,112 +1056,139 @@ show rin basic_absent_close:
     ypos 1.1
 with charaenter
 
-"Grabbing a vacated chair from nearby, I seat myself directly opposite her."
+# "Grabbing a vacated chair from nearby, I seat myself directly opposite her."
+"ฉันคว้าเก้าอี้แถวนั้นที่ว่างอยู่มานั่งลงตรงหน้าเธอ"
 
 show rin negative_spaciness_close
 with charachange
 
 stop music fadeout 1.0
 
-rin "Do you want me to do it with my foot or my mouth?"
+# rin "Do you want me to do it with my foot or my mouth?"
+rin "อยากให้ใช้เท้าหรือปากวาด"
 
-hi "What did you say?"
+# hi "What did you say?"
+hi "ว่ายังไงนะ"
 
 play music music_another fadein 2.0
 
 show rin relaxed_surprised_close
 with charachange
 
-"She tilts her head, her brows forming questioning arches, as if she doesn't understand that I didn't understand the question."
+# "She tilts her head, her brows forming questioning arches, as if she doesn't understand that I didn't understand the question."
+"เธอเอียงคอแล้วเลิกคิ้วขึ้นด้วยความสงสัยราวไม่เข้าใจว่าทำไมฉันถึงไม่เข้าใจที่เธอถาม"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "I don't mind drawing either way. You'll look better if I do it with my foot, though."
+# rin "I don't mind drawing either way. You'll look better if I do it with my foot, though."
+rin "ฉันจะใช้อะไรวาดก็ได้แหละ แต่ถ้าใช้เท้าแล้วนายจะดูดีหน่อย"
 
-hi "With your foot, then, if it's all the same to you."
+# hi "With your foot, then, if it's all the same to you."
+hi "งั้นเท้าก็แล้วกันถ้าเธอว่าวาดได้เหมือน ๆ กัน"
 
 show rin basic_deadpannormal_close at center
 with dissolvecharamove
 
-"Nodding in answer, Rin gets up from her seat and kicks off her sandals."
+# "Nodding in answer, Rin gets up from her seat and kicks off her sandals."
+"เธอพยักหน้าตกลงแล้วลุกขึ้นและสะบัดรองเท้าแตะออก"
 
 show rin basic_awayabsent_close:
     center
     ypos 1.17
 with dissolvecharamove
 
-"In two fluid motions, she picks up the paper sheet and drops it on the floor, then snatches the brush between her toes before sitting on the floor in a weird half-crosslegged position."
+# "In two fluid motions, she picks up the paper sheet and drops it on the floor, then snatches the brush between her toes before sitting on the floor in a weird half-crosslegged position."
+"เธอใช้เท้าคีบกระดาษแล้ววางกับพื้นได้อย่างลื่นไหล จากนั้นก็คีบพู่กันไว้ก่อนจะนั่งลงกับพื้นด้วยท่ากึ่งขัดสมาธิแปลก ๆ"
 
-"Although I've seen her do everything with her feet already, from eating to painting, this display of dexterity is so prodigious that I just stare at her, stunned."
+# "Although I've seen her do everything with her feet already, from eating to painting, this display of dexterity is so prodigious that I just stare at her, stunned."
+"ถึงจะเคยเห็นเธอใช้เท้าทำอะไร ๆ มาแล้วตั้งแต่การกินยันการวาดรูป แต่ความคล่องแคล่วที่ได้เห็นนี้ช่างน่าทึ่งจนได้แต่\nมองตาค้าง"
 
 show rin negative_annoyed_close
 with charachange
 
-"Rin contemplates her blank paper intently. The sharp tip of her brush hovers over the paper in anticipation."
+# "Rin contemplates her blank paper intently. The sharp tip of her brush hovers over the paper in anticipation."
+"รินใช้สมาธิพินิจมองกระดาษเปล่า ปลายพู่กันนั้นจดอยู่กับกระดาษเตรียมลงลาย"
 
 show rin basic_deadpancontemplation_close
 with charachange
 
-"When she raises her head to see if I'm ready, I quickly turn my face away."
+# "When she raises her head to see if I'm ready, I quickly turn my face away."
+"พอเธอเงยหน้ามองว่าพร้อมหรือยังฉันก็เบือนหน้าหนีทันที"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "I'll go first. Make a pose."
+# rin "I'll go first. Make a pose."
+rin "ฉันจะวาดก่อน เต๊ะท่าหน่อย"
 
-hi "What kind of a pose?"
+# hi "What kind of a pose?"
+hi "ให้ทำท่าแบบไหน"
 
 show rin basic_lucid_close
 with charachange
 
-rin "It doesn't matter. That's the point. You have to make the sketch of the impression you get, not decide beforehand."
+# rin "It doesn't matter. That's the point. You have to make the sketch of the impression you get, not decide beforehand."
+rin "ไม่สำคัญหรอก นั่นแหละที่สำคัญ เวลาร่างต้องร่างตามความรู้สึกที่ได้เห็น ไม่ใช่คิดมาก่อนแล้วร่าง"
 
-"I end up just sitting in my chair, my hands hanging limply between my knees."
+# "I end up just sitting in my chair, my hands hanging limply between my knees."
+"สุดท้ายฉันก็นั่งเอามือห้อยไว้ที่ระหว่างหัวเข่า"
 
 show rin basic_deadpanupset_close
 with charachange
 
-"I look at her, and she looks at me for a moment before beginning."
+# "I look at her, and she looks at me for a moment before beginning."
+"ฉันมองเธอ ส่วนเธอก็มองฉันอยู่พักหนึ่งก่อนเริ่มวาด"
 
-"Rin's stare is piercing, but impassive, as if she were trying to absorb a part of me into her own self. I feel like I'm physically shrinking under the pressure of her gaze."
+# "Rin's stare is piercing, but impassive, as if she were trying to absorb a part of me into her own self. I feel like I'm physically shrinking under the pressure of her gaze."
+"สายตาของรินนั้นแหลมคมทว่าไร้ซึ่งอารมณ์ ราวกับว่าเธอกำลังจะดูดกลืนส่วนหนึ่งของฉันเข้าไปในตัวของเธอเอง\nฉันรู้สึกเหมือนตัวเองหดเล็กลงด้วยแรงกดดันจากสายตาของเธอ"
 
-"I get the feeling that for the first time since we met, Rin is actually looking at me, instead of in my general direction."
+# "I get the feeling that for the first time since we met, Rin is actually looking at me, instead of in my general direction."
+"ฉันรู้สึกว่าเมื่อครั้งที่เราได้เจอกันครั้งแรกนั้น จริง ๆ แล้วรินมองมา{i}ที่{/i}ฉัน ไม่ได้มองมา{i}ทาง{/i}ฉัน"
 
 show rin negative_annoyed_close
 with charachange
 
-"She sketches with confident, bold sweeps of the delicate brush, not caring about the potentially destructive consequences of an accidentally misplaced stroke."
+# "She sketches with confident, bold sweeps of the delicate brush, not caring about the potentially destructive consequences of an accidentally misplaced stroke."
+"เธอร่างภาพด้วยความมั่นใจโดยใช้ฝีแปรงอันหนักแน่นของพู่กันอันอ่อนโยนโดยไม่สนใจเลยว่าหากลากผิดแล้ว\nจะเกิดความเสียหายอะไรขึ้นมาบ้าง"
 
 show rin basic_absent_close at center
 with dissolvecharamove
 
-"After she's happy with the outlines, she stands up to pose for me, stretching her back and legs."
+# "After she's happy with the outlines, she stands up to pose for me, stretching her back and legs."
+"เมื่อร่างเส้นขอบได้จนเป็นที่พอใจแล้วเธอก็ยืนยืดหลังยืดขาให้ฉันวาดบ้าง"
 
 show rin basic_awayabsent_close
 with charachange
 
-"This time, she doesn't look at me. Instead, Rin lets her gaze wander around the room. I'm relieved; it's easier to stare at someone when they aren't staring back at you."
+# "This time, she doesn't look at me. Instead, Rin lets her gaze wander around the room. I'm relieved; it's easier to stare at someone when they aren't staring back at you."
+"คราวนี้เธอไม่มองมาที่ฉันแต่มองไปรอบ ๆ ห้องแทน โล่งไป จ้องคนที่ไม่ได้จ้องกลับนี่สบายใจกว่าเยอะ"
 
-"Even so, I find it hard to get the sketch going."
+# "Even so, I find it hard to get the sketch going."
+"แต่ถึงอย่างนั้นก็แทบร่างไม่ออกเลย"
 
-"I'm not especially artistically talented, so I'm scared my portrait will turn into something disfigured, especially when compared to my partner's skill."
+# "I'm not especially artistically talented, so I'm scared my portrait will turn into something disfigured, especially when compared to my partner's skill."
+"ฉันไม่ได้มีพรสวรรค์ทางด้านศิลปะเป็นพิเศษขนาดนั้น กลัวว่าภาพเหมือนนี่จะเละจนกลายเป็นอะไรไม่รู้ไป ยิ่งถ้า\nให้เทียบกับความสามารถของอีกฝ่ายแล้ว"
 
-"I don't want to embarrass myself too badly on the first try."
+# "I don't want to embarrass myself too badly on the first try."
+"ฉันไม่อยากให้ตัวเองต้องอับอายมากกับภาพแรกนี้"
 
-"Rin is not helping the process, either."
+# "Rin is not helping the process, either."
+"รินก็ไม่ได้ช่วยให้วาดได้สักเท่าไหร่"
 
 show rin negative_annoyed_close
 with charachange
 
-"She doesn't stand still for even ten seconds; tilting her head from side to side to judge her drawing, biting at her lower lip, looking unsatisfied, and constantly shuffling around like she was on hot coals."
+# "She doesn't stand still for even ten seconds; tilting her head from side to side to judge her drawing, biting at her lower lip, looking unsatisfied, and constantly shuffling around like she was on hot coals."
+"เธออยู่นิ่ง ๆ ได้ไม่เคยถึงสิบวินาที เอียงคอซ้ายทีขวาทีเพื่อดูภาพวาดของเธอพลางกัดริมฝีปากดูไม่พอใจ แล้วยัง\nยุกยิกไปมาเหมือนยืนอยู่บนถ่านร้อน ๆ"
 
 show rin basic_awayabsent_close:
     center
     ypos 1.17
 with dissolvecharamove
 
-"I finally manage to make some headway on my sketch, and with my outlines done, we both start inking in the shadow and light."
+# "I finally manage to make some headway on my sketch, and with my outlines done, we both start inking in the shadow and light."
+"ภาพร่างของฉันออกมาเป็นรูปเป็นร่างบ้างแล้ว พอฉันลงเส้นร่างเสร็จพวกเราก็เริ่มใช้หมึกลงเงาและแสงกัน"
 
 show rin basic_awayabsent_close:
     tworight
@@ -1145,19 +1199,23 @@ with charamove
 show nomiya smile behind rin at twoleft
 with charaenter
 
-"Nomiya passes by, and remarks on the beginnings of our sketches."
+# "Nomiya passes by, and remarks on the beginnings of our sketches."
+"โนมิยะเดินผ่านแล้วทักเรื่องภาพร่างที่พวกเรากำลังเริ่มทำกันอยู่"
 
 show nomiya veryhappy
 with charachange
 
-no "Very good! Standing figure is easier for a beginner to get a grasp of."
+# no "Very good! Standing figure is easier for a beginner to get a grasp of."
+no "เยี่ยมมาก! ท่ายืนนี่แหละมือใหม่วาดง่าย"
 
-hi "But I didn't choose the pose…"
+# hi "But I didn't choose the pose…"
+hi "แต่ผมไม่ได้เป็นคนเลือกท่านะครับ…"
 
 hide nomiya
 with charaexit
 
-"I look at him and then at Rin in confusion, but he's already moving onto the next pair, and Rin seems unresponsive."
+# "I look at him and then at Rin in confusion, but he's already moving onto the next pair, and Rin seems unresponsive."
+"ฉันมองไปที่เขาแล้วหันไปหารินด้วยความงงงวย แต่เขาก็เดินไปหาอีกคู่แล้ว ส่วนรินก็ไม่ตอบสนองอะไร"
 
 show rin basic_awayabsent_close:
     center
@@ -1165,87 +1223,114 @@ show rin basic_awayabsent_close:
 show bg school_classroomart at right
 with charamove
 
-"Just like when she was painting the mural, Rin has become so engrossed with her work that it seems she has shut me, the classroom and the entire world itself out from her own little sphere of existence."
+# "Just like when she was painting the mural, Rin has become so engrossed with her work that it seems she has shut me, the classroom and the entire world itself out from her own little sphere of existence."
+"รินก้มหน้าก้มตาตั้งใจทำงานเหมือนอย่างตอนที่เธอวาดภาพเขียนผนังนั้นจนดูเหมือนว่าเธอปิดกั้นแยกฉัน\nกับคนในห้องและทั้งโลกออกจากวงรัศมีตัวตนขนาดย่อมของเธอ"
 
-"Every now and then, she leans backwards, seemingly to get some perspective. Sometimes she bends forward, leaning down until her nose almost touches the paper."
+# "Every now and then, she leans backwards, seemingly to get some perspective. Sometimes she bends forward, leaning down until her nose almost touches the paper."
+"บางครั้งบางทีเธอก็เอนตัวเหมือนจะหามุมมองบางอย่าง บางทีก็โน้มตัวจนจมูกแทบแตะกระดาษ"
 
-"This rocking back and forth looks silly."
+# "This rocking back and forth looks silly."
+"พอเห็นที่โยกตัวไปมาอย่างนี้แล้วก็ตลกดี"
 
-"Suddenly, Rin proves she hasn't completely drifted off into a world of her own, and speaks."
+# "Suddenly, Rin proves she hasn't completely drifted off into a world of her own, and speaks."
+"จู่ ๆ รินก็พูดขึ้นเป็นการบอกให้รู้ว่าใจเธอทั้งหมดยังไม่ได้ลอยไปอยู่ในโลกส่วนตัวของเธอ"
 
 show rin negative_spaciness_close
 with charachange
 
-rin "Are you having fun already?"
+# rin "Are you having fun already?"
+rin "สนุกมั้ยยัง"
 
-"She doesn't raise her eyes from the drawing, which is a good thing. The breaking of the silence sends a jolt of surprise through me, as if I'd been electrocuted."
+# "She doesn't raise her eyes from the drawing, which is a good thing. The breaking of the silence sends a jolt of surprise through me, as if I'd been electrocuted."
+"เธอยังไม่ละสายตาจากภาพวาด ซึ่งดีแล้ว เสียงที่ทำลายความเงียบนี้ทำฉันสะดุ้งโหยงราวกับโดนไฟช็อต"
 
-hi "I… don't know, yet. It's hard to say."
+# hi "I… don't know, yet. It's hard to say."
+hi "ไม่… รู้สิ บอกยากแฮะ"
 
 show rin basic_awayabsent_close
 with charachange
 
-"I can't hear how she replies to my answer because it seems she is suddenly having a private, whispered conversation with her sketch."
+# "I can't hear how she replies to my answer because it seems she is suddenly having a private, whispered conversation with her sketch."
+"ฉันไม่ได้ยินว่าเธอตอบว่าอะไร เพราะจู่ ๆ เธอก็หันไปพูดกระซิบกระซาบกับภาพวาดตัวเองเป็นการส่วนตัว"
 
-"I don't understand how she can draw so well when she has the attention span of a butterfly."
+# "I don't understand how she can draw so well when she has the attention span of a butterfly."
+"ฉันไม่เข้าใจว่าทำไมถึงวาดเก่งขนาดนี้ทั้งที่เธอสมาธิสั้นพอ ๆ กับผีเสื้อ"
 
-"As it seems she lost her interest, I go back to work on my drawing as well."
+# "As it seems she lost her interest, I go back to work on my drawing as well."
+"เหมือนว่าเธอหมดความสนใจแล้วฉันจึงหันมาทำส่วนของตัวเองต่อ"
 
-"I try to add texture to Rin's hair, to somehow grasp the way the golden afternoon sun lights her bright red tousle aflame and transfer it to my paper in shades of black and gray."
+# "I try to add texture to Rin's hair, to somehow grasp the way the golden afternoon sun lights her bright red tousle aflame and transfer it to my paper in shades of black and gray."
+"ฉันลองเติมรายละเอียดที่ผมของริน พยายามลอกแสงเรืองรองยามบ่ายที่สาดส่องผมสีแดงสดอันยุ่งเหยิงของเธอ\nลงบนกระดาษด้วยสีดำและเทา"
 
-"Somehow, this pen and the bottle of ink seem like such lousy, inadequate tools for the task."
+# "Somehow, this pen and the bottle of ink seem like such lousy, inadequate tools for the task."
+"แต่ก็ดูเหมือนว่าปากกาและหมึกขวดนี้จะเป็นอุปกรณ์ที่ทำหน้าที่นั้นได้ไม่ดีเอาเสียเลย"
 
-"Minutes pass, but the sketch doesn't magically look any more like Rin than it did before. Her voice wakes me up from my despair."
+# "Minutes pass, but the sketch doesn't magically look any more like Rin than it did before. Her voice wakes me up from my despair."
+"หลายนาทีผ่านไปภาพร่างนั้นก็ไม่ได้ดูเหมือนรินขึ้นมาอย่างมหัศจรรย์ไปกว่าเมื่อก่อนหน้านี้เลย เสียงของเธอเรียกฉัน\nให้ตื่นจากความสิ้นหวังนี้"
 
 show rin basic_deadpannormal_close
 with charachange
 
-rin "What about now?"
+# rin "What about now?"
+rin "แล้วตอนนี้ล่ะ"
 
-hi "Excuse me?"
+# hi "Excuse me?"
+hi "อะไรเหรอ"
 
 show rin basic_deadpan_close
 with charachange
 
-rin "Are you having fun already?"
+# rin "Are you having fun already?"
+rin "สนุกมั้ยยัง"
 
-hi "Why do you keep asking that?"
+# hi "Why do you keep asking that?"
+hi "ทำไมถึงเอาแต่ถามอย่างนั้นล่ะ"
 
 show rin basic_deadpancontemplation_close
 with charachange
 
-rin "Because it's a club, right? Clubs are meant to be fun. You joined to have fun. Are you having fun?"
+# rin "Because it's a club, right? Clubs are meant to be fun. You joined to have fun. Are you having fun?"
+rin "ก็ชมรมใช่มั้ย ชมรมมันต้องสนุก นายมาสนุก นายสนุกมั้ย"
 
-hi "Is it important that I'm having fun?"
+# hi "Is it important that I'm having fun?"
+hi "สำคัญด้วยเหรอว่าฉันสนุกมั้ย"
 
 show rin basic_deadpanupset_close
 with charachange
 
-rin "…Yes."
+# rin "…Yes."
+rin "…ใช่"
 
-hi "…Okay, I'm having fun."
+# hi "…Okay, I'm having fun."
+้hi "…โอเค สนุก"
 
 show rin basic_lucid_close
 with charachange
 
-rin "Good."
+# rin "Good."
+rin "ดี"
 
-"I wonder if I said that just to please her, or if I really meant it. I can't really decide which it was."
+# "I wonder if I said that just to please her, or if I really meant it. I can't really decide which it was."
+"ฉันนึกสงสัยว่าที่บอกไปนั้นคือเอาใจเธอหรือสนุกจริง ๆ ฉันไม่แน่ใจว่าเป็นอย่างไหน"
 
-"I don't hate this, though. I can honestly say that much. It's good enough for now."
+# "I don't hate this, though. I can honestly say that much. It's good enough for now."
+"อย่างน้อยก็ไม่ได้เกลียดแหละนะ เท่านี้ก็พอแล้วละ"
 
 stop music fadeout 2.0
 
 scene bg school_classroomart at right
 with shorttimeskip
 
-"As the allotted time to finish the studies quickly ticks away, I desperately try to improve my awful sketch, but it doesn't seem to get any better."
+# "As the allotted time to finish the studies quickly ticks away, I desperately try to improve my awful sketch, but it doesn't seem to get any better."
+"เวลาที่ให้ทำงานนั้นหมดลงไปทุกทีอย่างรวดเร็ว ฉันพยายามสุดฝืมือเพื่อปรับปรุงภาพร่างที่ห่วยแตกนี้ให้ดีขึ้น แต่ก็\nดูจะไม่ดีขึ้นเลย"
 
-"I want to start again from scratch, but what would be the point? There's no time for that, either."
+# "I want to start again from scratch, but what would be the point? There's no time for that, either."
+"อยากเริ่มวาดใหม่หมดเลย แต่จะทำไปทำไม แถมไม่มีเวลามานั่งวาดใหม่แล้วด้วย"
 
 play music music_daily fadein 2.0
 
-no "Okay everyone, that's it for today! Please turn in the drawings on my desk, and I'll see you all next Monday!"
+# no "Okay everyone, that's it for today! Please turn in the drawings on my desk, and I'll see you all next Monday!"
+no "เอาละ ทุกคน วันนี้ก็เท่านี้นะ! ส่งงานที่โต๊ะฉันได้เลย เจอกันจันทร์หน้านะ!"
 
 show ovl rinbyhisao:
     center
@@ -1253,11 +1338,14 @@ show ovl rinbyhisao:
     easein 1.0 ypos 1.0 alpha 1.0
 with Pause(1.0)
 
-"I glance at my portrait. It doesn't exactly look like Rin. I guess you could say it portrays her, but that might be a bit generous."
+# "I glance at my portrait. It doesn't exactly look like Rin. I guess you could say it portrays her, but that might be a bit generous."
+"ฉันเหลือบมองรูปเหมือนของฉัน ไม่ได้เหมือนรินแบบเป๊ะ ๆ อาจจะบอกว่าแทนตัวเธอได้อยู่ แต่จะให้ว่าอย่างนั้นก็คง\nมาตรฐานต่ำไปหน่อย"
 
-"The nose and jaw look hideous, and the shading is terrible. Granted, it's my first attempt at drawing with ink, but it's still pretty bad."
+# "The nose and jaw look hideous, and the shading is terrible. Granted, it's my first attempt at drawing with ink, but it's still pretty bad."
+"จมูกกับกรามก็เบี้ยว แสงเงาก็ไม่ได้เรื่อง ก็ใช่แหละว่าเพิ่งเคยวาดภาพด้วยหมึกเป็นครั้งแรก แต่ก็ดูแย่เอาการ"
 
-rin "That's not bad."
+# rin "That's not bad."
+rin "ไม่เลวนี่"
 
 show rin basic_deadpanamused_close behind ovl at center
 with None
@@ -1269,23 +1357,29 @@ with Pause(1.0)
 hide ovl
 with None
 
-"She sneaked up behind me while I was lost in thought."
+# "She sneaked up behind me while I was lost in thought."
+"เธอแอบเข้ามาทางด้านหลังฉันระหว่างที่ฉันเหม่อคิดไปเรื่อยอยู่"
 
-hi "Damn it. I was hoping I could smuggle the portrait to the teacher without you seeing it."
+# hi "Damn it. I was hoping I could smuggle the portrait to the teacher without you seeing it."
+hi "โห่ กะจะแอบเอารูปไปส่งแบบไม่ให้เธอเห็นสักหน่อย"
 
 show rin basic_surprised_close
 with charachange
 
-rin "Why?"
+# rin "Why?"
+rin "ทำไม"
 
-hi "I'm not really happy with it. I wish I could draw better."
+# hi "I'm not really happy with it. I wish I could draw better."
+hi "ก็ฉันไม่ค่อยพอใจเท่าไหร่น่ะสิ ถ้าวาดเก่งกว่านี้ก็ดีสิ"
 
 show rin basic_deadpannormal_close
 with charachange
 
-rin "You just need some practice. Could you take my drawing to the teacher too?"
+# rin "You just need some practice. Could you take my drawing to the teacher too?"
+rin "นายก็แค่ต้องฝึกหน่อย ฝากส่งด้วยได้มั้ย"
 
-"Curious myself about how the sketch turned out, I peek at the picture. From the way Rin was drawing, it looked like she was really into it."
+# "Curious myself about how the sketch turned out, I peek at the picture. From the way Rin was drawing, it looked like she was really into it."
+"ฉันแอบมองรูปด้วยความสงสัยว่าภาพวาดร่างนั้นเป็นยังไงบ้าง ดูจากท่าทางที่รินวาดแล้วคงตั้งใจวาดน่าดู"
 
 show ovl hisaobyrin:
     center
@@ -1293,35 +1387,45 @@ show ovl hisaobyrin:
     easein 1.0 ypos 1.0 alpha 1.0
 with Pause(1.0)
 
-"It's excellent. Somehow the seemingly arbitrary strokes come together to form an image of my face, from the shape of my chin, to the messy hair, to the somewhat gloomy expression."
+# "It's excellent. Somehow the seemingly arbitrary strokes come together to form an image of my face, from the shape of my chin, to the messy hair, to the somewhat gloomy expression."
+"สุดยอด เส้นที่เหมือนลากมั่ว ๆ นั้นประกอบร่างขึ้นมาเป็นรูปใบหน้าฉัน ตั้งแต่รูปคาง ผมยุ่ง ๆ ยันสีหน้าหม่น ๆ"
 
 label th_choiceR2:
 menu:
     with menueffect
 
-    "Her sketch blows my mind."
+    # "Her sketch blows my mind."
+    "ได้เห็นรูปแล้วทึ่งเลย"
 
-    "You're amazing!":
+    # "You're amazing!":
+    "เก่งจัง!":
         return m1
 
-    "I wish I was as good as you.":
+    # "I wish I was as good as you.":
+    "อยากเก่งแบบเธอบ้างจัง":
         return m2
 
 label th_R2a:
 
-hi "Wow, you're amazing."
+# hi "Wow, you're amazing."
+hi "โห เก่งจัง"
 
-rin "It's not that amazing."
+# rin "It's not that amazing."
+rin "ก็ไม่ขนาดนั้นหรอก"
 
-rin "But thanks."
+# rin "But thanks."
+rin "แต่ก็ขอบคุณนะ"
 
 label th_R2b:
 
-hi "Wow, I wish I was that good. I kind of embarrass myself."
+# hi "Wow, I wish I was that good. I kind of embarrass myself."
+hi "โห อยากเก่งแบบนี้บ้างจัง อายเลยนะเนี่ย"
 
-rin "Wouldn't you have to be me to be as good as me? I don't think you'd want to be me."
+# rin "Wouldn't you have to be me to be as good as me? I don't think you'd want to be me."
+rin "ถ้าจะให้เก่งแบบฉันก็ต้องเป็นฉันก่อนหรือเปล่า ฉันว่านายคงไม่อยากเป็นอย่างฉันหรอก"
 
-hi "No, I guess not. Maybe just some sort of approximation then."
+# hi "No, I guess not. Maybe just some sort of approximation then."
+hi "ก็คงไม่ละนะ อาจจะเอาแบบใกล้เคียงก็ได้"
 
 label th_R2c:
 
@@ -1330,21 +1434,29 @@ show ovl hisaobyrin:
     easein 20.0 zoom 1.1
 with None
 
-"I take a closer look at her work. It's still glistening with slowly drying ink."
+# "I take a closer look at her work. It's still glistening with slowly drying ink."
+"ฉันเพ่งมองรูปใกล้ ๆ ยังมีแสงสะท้อนจากหมึกที่กำลังแห้งอย่างช้า ๆ อยู่"
 
-hi "You know, I look kind of grim here."
+# hi "You know, I look kind of grim here."
+hi "เอ้อ นี่หน้าฉันหมองนะเนี่ย"
 
-rin "You do look kind of grim. I mean, I agree; but it's also true otherwise, too. Like this you, not the you I made."
+# rin "You do look kind of grim. I mean, I agree; but it's also true otherwise, too. Like this you, not the you I made."
+rin "ดูหมองจริงด้วย คือ ก็เห็นด้วยแหละ แต่มันก็จริงเหมือนกันนี่ แบบนายตรงนี้ ไม่ใช่นายที่ฉันสร้าง"
 
-hi "I do?"
+# hi "I do?"
+hi "เหรอ"
 
-rin "I think so at least."
+# rin "I think so at least."
+rin "อย่างน้อยฉันก็คิดว่างั้นนะ"
 
-"Her simple statement makes me suddenly feel incredibly self-conscious. I feel like I need a mirror right now, to confirm or debunk Rin. It's a nasty feeling."
+# "Her simple statement makes me suddenly feel incredibly self-conscious. I feel like I need a mirror right now, to confirm or debunk Rin. It's a nasty feeling."
+"คำพูดเรียบ ๆ ของเธอทำให้ฉันรู้สึกตัวขึ้นมาในทันทีอย่างเหลือเชื่อ อยากส่องกระจกเสียมันตอนนี้เพื่อที่จะได้ยืนยัน\nหรือโต้แย้งคำพูดของรินไป เป็นความรู้สึกที่ไม่ดีเลย"
 
-"Maybe it's just her. I hope it's just her, and that I don't look like that sketch to everyone."
+# "Maybe it's just her. I hope it's just her, and that I don't look like that sketch to everyone."
+"อาจจะมีแค่เธอที่คิดอย่างนั้น หวังว่าจะมีแค่เธอนะ หวังว่าคงไม่มีใครเห็นฉันเป็นเหมือนอย่างรูปนั้นนะ"
 
-"It's a good sketch, but somehow I get a really oppressive feeling from it."
+# "It's a good sketch, but somehow I get a really oppressive feeling from it."
+"รูปก็สวยดีอยู่หรอก แต่ดูแล้วรู้สึกเหมือนมีแรงกดทับยังไงไม่รู้"
 
 show rin basic_absent_close
 with None
@@ -1356,28 +1468,35 @@ with Pause(1.0)
 hide ovl
 with None
 
-hi "I see. Anyway, it looks really good. You really are amazing."
+# hi "I see. Anyway, it looks really good. You really are amazing."
+hi "อ้อ แต่ก็สวยดีนะ เธอนี่เก่งจริง ๆ"
 
 show rin basic_deadpandelight_close
 with charachange
 
-rin "Thanks. I'm glad I could draw you. You are an interesting person."
+# rin "Thanks. I'm glad I could draw you. You are an interesting person."
+rin "ขอบคุณ ฉันดีใจนะที่วาดนายได้ นายเป็นคนที่น่าสนใจดี"
 
-hi "You're an interesting person too, but that didn't help me much."
+# hi "You're an interesting person too, but that didn't help me much."
+hi "เธอก็น่าสนใจเหมือนกันนะ แต่ก็ไม่ได้ช่วยให้วาดขึ้นมาได้มากเท่าไหร่"
 
-"My self-deprecation has no limits today, but Rin ignores it all. I knew that I could never compare, but to see the difference with my own eyes is quite humbling."
+# "My self-deprecation has no limits today, but Rin ignores it all. I knew that I could never compare, but to see the difference with my own eyes is quite humbling."
+"วันนี้ฉันเอาแต่ว่าตัวเองไม่หยุดหย่อน แต่รินก็ไม่สนใจ ก็รู้อยู่หรอกว่าคงไม่มีวันเทียบได้ติด แต่พอมาเห็นความต่าง\nด้วยตาตัวเองแล้วฉันเป็นต้องหงอไปเลย"
 
 show rin basic_awayabsent_close
 with charachange
 
-rin "See, I tried to make you look like you think a lot, since you did a lot of thinking."
+# rin "See, I tried to make you look like you think a lot, since you did a lot of thinking."
+rin "เนี่ย ฉันตั้งใจวาดให้นายดูคิดเยอะ เพราะนายคิดเยอะ"
 
 show rin basic_deadpanamused_close
 with charachange
 
-rin "And yeah, I might have overdone the fed-up-with-life expression, but cynics are like that, right?"
+# rin "And yeah, I might have overdone the fed-up-with-life expression, but cynics are like that, right?"
+rin "แล้วก็ อืม อาจจะใส่สีหน้าเบื่อโลกมากไปหน่อย แต่พวกขวางโลกก็เป็นอย่างนั้นกันนี่ ใช่มั้ย"
 
-"I want to retort something snappy, but Nomiya gives me no time to think, ushering us to the door."
+# "I want to retort something snappy, but Nomiya gives me no time to think, ushering us to the door."
+"อยากหาคำอะไรแสบ ๆ มาย้อนเหลือเกิน แต่โนมิยะก็รีบรัดให้ออกห้องไปไม่ให้เวลาได้คิด"
 
 show rin basic_deadpanamused_close at tworight
 show bg school_classroomart at center
@@ -1386,14 +1505,17 @@ with charamove
 show nomiya talk behind rin at twoleft
 with charaenter
 
-no "Hurry up, you two!"
+# no "Hurry up, you two!"
+no "รีบไปได้แล้วพวกเธอ!"
 
-"While we've been chatting the rest of the club has taken their leave."
+# "While we've been chatting the rest of the club has taken their leave."
+"ระหว่างที่พวกเราคุยกันอยู่คนทั้งชมรมก็ไปกันหมดแล้ว"
 
 hide rin
 with charaexit
 
-"I quickly pick up our drawings and take them to the teacher's desk before hurrying after Rin, who has already left the classroom."
+# "I quickly pick up our drawings and take them to the teacher's desk before hurrying after Rin, who has already left the classroom."
+"ฉันตะลีตะลานเอารูปไปส่งที่โต๊ะครูแล้วรีบตามรินที่ออกจากห้องไปก่อนแล้ว"
 
 stop music fadeout 4.0
 
