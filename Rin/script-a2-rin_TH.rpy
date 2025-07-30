@@ -1526,13 +1526,17 @@ label th_R3:
 scene bg school_hallway3
 with locationchange
 
-"She is not in the hallway, to my surprise. I wonder where she managed to run off to in just a few seconds. Would've been nice to talk more."
+# "She is not in the hallway, to my surprise. I wonder where she managed to run off to in just a few seconds. Would've been nice to talk more."
+"ฉันนึกแปลกใจที่เธอไม่อยู่ที่โถงทางเดิน เพิ่งผ่านไปไม่กี่วินาทีหายไปไหนแล้ว ได้คุยต่ออีกหน่อยคงดี"
 
-"Well, not that I had much to say, except maybe get back at her for calling me a cynic."
+# "Well, not that I had much to say, except maybe get back at her for calling me a cynic."
+"ก็ใช่ว่าจะมีอะไรคุยด้วยมากหรอก ถ้านอกจากที่ว่าจะหาเรื่องย้อนที่มาว่ากันเป็นคนขวางโลกน่ะนะ"
 
-"It's surprisingly late. I already got used to school ending at the same time every day, so I can feel the extra hours in my head. And my gut."
+# "It's surprisingly late. I already got used to school ending at the same time every day, so I can feel the extra hours in my head. And my gut."
+"ตอนนี้ก็เย็นมากแล้ว ในหัวรู้สึกได้ถึงเวลาที่สายกว่าปกติเพราะชินกับเวลาเลิกเรียนในทุก ๆ วันแล้ว ในท้องก็รู้สึกด้วย"
 
-"My growling stomach reminds me that I am absolutely ravenous. I'm so hungry that I'd dare to try anything the cafeteria staff has deemed edible."
+# "My growling stomach reminds me that I am absolutely ravenous. I'm so hungry that I'd dare to try anything the cafeteria staff has deemed edible."
+"ท้องส่งเสียงร้องเตือนว่าฉันโหยหิวมากแล้ว ถ้าเจ้าหน้าที่โรงอาหารบอกว่าอะไรกินได้ฉันก็คงยัดเข้าปากหมด"
 
 scene bg school_cafeteria
 with locationskip
@@ -1540,9 +1544,11 @@ with locationskip
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 1.0
 
-"Even when I see today's delicacy, fried mystery lumps, my steely resolve doesn't fade. I stuff the dinner down without tasting it at all, which is probably for the best."
+# "Even when I see today's delicacy, fried mystery lumps, my steely resolve doesn't fade. I stuff the dinner down without tasting it at all, which is probably for the best."
+"แม้ได้เห็นอาหารของวันนี้ที่เป็นก้อนปริศนาทอดแล้วเจตจำนงของฉันยังแน่วแน่ ฉันยัดมื้อเย็นนี้ลงท้องโดยลิ้นยังไม่ทัน\nรับรสดี ซึ่งก็น่าจะดีแล้ว"
 
-"I don't have much homework to do, but what little I have won't get done by itself, so I stroll toward the dormitories."
+# "I don't have much homework to do, but what little I have won't get done by itself, so I stroll toward the dormitories."
+"การบ้านมีไม่มาก แต่มีมากมีน้อยก็ต้องทำอยู่ดี ฉันจึงเดินมุ่งไปที่หอ"
 
 stop ambient fadeout 0.5
 scene bg school_dormhallway
@@ -1551,67 +1557,86 @@ with locationskip
 $ renpy.music.set_volume(0.0, 2.0, channel="ambient")
 play sound sfx_doorknock2
 
-"Preparing for the post-homework lull, I knock on Kenji's door."
+# "Preparing for the post-homework lull, I knock on Kenji's door."
+"ฉันคิดหาอะไรไว้เผื่อช่วงว่างหลังทำการบ้านเสร็จจึงมาเคาะประตูห้องเคนจิ"
 
-"He responds from the other side, although I can't make out what he said. I try the door, but it's locked."
+# "He responds from the other side, although I can't make out what he said. I try the door, but it's locked."
+"เสียงเขาตอบมาจากอีกฟากประตู ถึงจะฟังไม่รู้เรื่องก็เถอะ พอจะลองเปิดประตูดูก็เห็นว่าล็อก"
 
 show kenji neutral at Slide(0.2,0.5,0.3,0.5,1.0)
 with charaenter
 
-"After several seconds, the locks click open and he opens the door."
+# "After several seconds, the locks click open and he opens the door."
+"ผ่านไปหลายวินาทีเขาก็ปลดล็อกแล้วเปิดประตู"
 
-hi "Hi. Hey, could I borrow a book? The library was already closed after I got away from my club meeting."
+# hi "Hi. Hey, could I borrow a book? The library was already closed after I got away from my club meeting."
+hi "ไง นี่ ขอยืมหนังสือหน่อย พอดีกว่าชมรมจะเลิกห้องสมุดมันก็ปิดไปแล้วน่ะ"
 
 show kenji tsun
 with charachange
 
-"He is squinting even more than usual and his eyebrows are twitching nervously."
+# "He is squinting even more than usual and his eyebrows are twitching nervously."
+"เขาขยิบตาถี่ผิดปกติพลางขมวดคิ้วด้วยความร้อนรน"
 
 play music music_kenji fadein 2.0
 
-ke "Club? That's dangerous, man. Indoctrination, groupthink, brainwashing, you name it."
+# ke "Club? That's dangerous, man. Indoctrination, groupthink, brainwashing, you name it."
+ke "ชมรมเหรอ อันตรายนะเว้ย พวกย้ำสอน โลกแคบกะลาครอบ ล้างสมอง มีสารพัด"
 
-ke "High school clubs sow the seeds of conspiracy. Do you know how many secret societies have grown from high school clubs?"
+# ke "High school clubs sow the seeds of conspiracy. Do you know how many secret societies have grown from high school clubs?"
+ke "ชมรมในโรงเรียนมัธยมนี่แหละคือต้นเรื่องทฤษฎีสมคบคิดเลย นายรู้มั้ยว่าพวกสังคมใต้ดินหลายที่ก็มาจากชมรม\nในโรงเรียนมัธยมนี่แหละ"
 
-ke "Watch your back and don't get too deep in. You might not come back."
+# ke "Watch your back and don't get too deep in. You might not come back."
+ke "ระวังตัวอย่าถลำไปให้มันลึกมาก นายอาจจะกลับมาไม่ได้เลยนะ"
 
-hi "Okay, Kenji. So, how about that book?"
+# hi "Okay, Kenji. So, how about that book?"
+hi "โอเคเคนจิ แล้วหนังสือล่ะ"
 
 show kenji neutral
 with charachange
 
-ke "Er, sure, but return them and don't spoil any of my books. No drinks, no food stains, no bodily fluids, capisce?"
+# ke "Er, sure, but return them and don't spoil any of my books. No drinks, no food stains, no bodily fluids, capisce?"
+ke "เอ้อ ได้สิ แต่เอามาคืนแล้วห้ามทำเสียด้วยนะ ห้ามให้มีคราบเครื่องดื่ม คราบอาหาร คราบของเหลวจากร่างกาย\nเข้าใจ๊"
 
-hi "Sure. Thanks."
+# hi "Sure. Thanks."
+hi "ได้ ขอบใจ"
 
 show kenji invis:
     xpos 0.2
 with dissolvecharamove
 
-"Instead of letting me in, he retreats from the door, closing it again."
+# "Instead of letting me in, he retreats from the door, closing it again."
+"แทนที่จะให้ฉันเข้าห้องไป เขาผละตัวออกแล้วปิดประตู"
 
 show kenji neutral at Slide(0.2,0.5,0.3,0.5,1.0)
 with charachange
 
-"After a few seconds he returns with a stack of three thick books and hands them over to me."
+# "After a few seconds he returns with a stack of three thick books and hands them over to me."
+"ผ่านไปชั่วอึดใจเขาก็กลับมาพร้อมกองหนังสือหนา ๆ สามเล่มแล้วยื่นให้ฉัน"
 
-"Opening the topmost one, a familiar emblem stamped on the copyright page greets me."
+# "Opening the topmost one, a familiar emblem stamped on the copyright page greets me."
+"พอเปิดเล่มที่อยู่บนสุดดูก็เห็นตราอันคุ้นตาที่ประทับไว้ตรงหน้ารายละเอียดลิขสิทธิ์หนังสือ"
 
-hi "Er, your books? These are from the school library."
+# hi "Er, your books? These are from the school library."
+hi "เอ่อ หนังสือนายเหรอ อันนี้มันหนังสือของห้องสมุดนี่"
 
 show kenji happy
 with charachange
 
-ke "They are now mine."
+# ke "They are now mine."
+ke "มันเป็นของฉันแล้ว"
 
-hi "You stole these?"
+# hi "You stole these?"
+hi "นี่นายขโมยมา?"
 
 show kenji tsun
 with charachange
 
-ke "What are you talking about, man? I've been liberating these from the oppressive feminist movement that controls the library."
+# ke "What are you talking about, man? I've been liberating these from the oppressive feminist movement that controls the library."
+ke "พูดอะไรเนี่ย นี่ฉันปลดปล่อยหนังสือพวกนี้ให้เป็นอิสระจากการกดขี่ของการเคลื่อนไหวสตรีนิยมอันกดขี่ที่กดทับ\nห้องสมุดอยู่นะ"
 
-hi "Please say “oppressive feminist movement” doesn't mean that poor librarian girl, Yuuko. She couldn't even oppress a wet towel."
+# hi "Please say “oppressive feminist movement” doesn't mean that poor librarian girl, Yuuko. She couldn't even oppress a wet towel."
+hi "ได้โปรดบอกฉันทีว่า “การเคลื่อนไหวสตรีนิยมอันกดขี่” ที่ว่าไม่ได้หมายถึงบรรณารักษ์สาวอันน่าสงสารที่ชื่อยูโกะ\nคนนั้น อย่าว่าแต่แรงกดขี่เลย รายนั้นจะให้ออกแรงบิดผ้าชุ่มน้ำยังไม่ออกเลยมั้ง"
 
 show kenji invis:
     xpos 0.2
@@ -1622,14 +1647,16 @@ with None
 
 stop music fadeout 3.0
 
-"Kenji turns away, mumbling something I can't make out, and closes the door behind him."
+# "Kenji turns away, mumbling something I can't make out, and closes the door behind him."
+"เคนจิหันหน้าหนีพึมพำอะไรสักอย่างที่จับใจความไม่ได้แล้วปิดประตูหนี"
 
 scene bg school_dormbathroom
 with locationchange
 
 play ambient sfx_shower fadein 1.0
 
-"Before going to my own room, I enter the bathroom. While washing my hands, my eyes catch my reflection from the mirror above the sink."
+# "Before going to my own room, I enter the bathroom. While washing my hands, my eyes catch my reflection from the mirror above the sink."
+"ฉันแวะเข้าห้องน้ำก่อนกลับห้องตัวเอง ระหว่างที่ล้างมือก็ไปสะดุดตาเข้ากับกระจกที่อยู่บนอ่างล้างหน้า"
 
 $ ksgallery_unlock("ev hisao_mirror_800")
 scene ev hisao_mirror:
@@ -1637,9 +1664,11 @@ scene ev hisao_mirror:
     ease 20.0 zoom 0.8
 with locationchange
 
-"I try to look for the grimness Rin saw in me, but it's just the usual me inside the mirror that stares back."
+# "I try to look for the grimness Rin saw in me, but it's just the usual me inside the mirror that stares back."
+"ฉันเพ่งดูว่าความหมองที่รินเห็นนั้นอยู่ตรงไหน แต่ก็เห็นแต่ตัวฉันคนเดิมที่อยู่ในกระจกที่จ้องมองกลับมา"
 
-"I attempt to tell myself that this is what I've always looked like, but I realize I don't remember what I looked like half a year ago."
+# "I attempt to tell myself that this is what I've always looked like, but I realize I don't remember what I looked like half a year ago."
+"ฉันกล่อมตัวเองว่าหน้าฉันก็เป็นอย่างนี้มาตลอดอยู่แล้ว ทว่าฉันก็จำไม่ได้เสียแล้วว่าเมื่อหกเดือนที่แล้วหน้าตาฉัน\nเป็นอย่างไร"
 
 stop ambient fadeout 6.0
 
@@ -1665,15 +1694,19 @@ with openeye
 
 window show
 
-"I wake up all sweaty, as if I had run a half-marathon in my sleep."
+# "I wake up all sweaty, as if I had run a half-marathon in my sleep."
+"ฉันตื่นมาเหงื่อโซมกายเหมือนไปวิ่งฮาล์ฟมาราธอนมา"
 
 play music music_pearly fadein 5.0
 
-"Odd; I don't recall sleeping badly. It sends a little pang of worry through me; I wouldn't want to have my heart acting up without being able to notice it."
+# "Odd; I don't recall sleeping badly. It sends a little pang of worry through me; I wouldn't want to have my heart acting up without being able to notice it."
+"แปลก ก็นอนหลับสบายดีแท้ ๆ ชักคิดมากขึ้นมาหน่อย ๆ แล้วสิ ถ้าหัวใจจะเป็นอะไรไปตอนหลับไม่รู้เรื่องนี้ไม่เอาด้วยนะ"
 
-"Still, apart from this odd exhaustion right after waking up, I'm feeling just fine."
+# "Still, apart from this odd exhaustion right after waking up, I'm feeling just fine."
+"แต่นอกจากความเพลียแปลก ๆ หลังตื่นนี้แล้วก็สบายดี"
 
-"My mouth is like sandpaper and I have nothing to drink, so I have to go all the way to the bathroom to take my meds. On impulse, I decide to take a shower while I'm at it."
+# "My mouth is like sandpaper and I have nothing to drink, so I have to go all the way to the bathroom to take my meds. On impulse, I decide to take a shower while I'm at it."
+"ปากแห้งจนหยาบเป็นกระดาษทรายหมดแล้ว ไม่มีอะไรให้ดื่มด้วย ต้องถ่อไปถึงห้องน้ำเพื่อไปกินยา แล้วจู่ ๆ ก็นึก\nอยากอาบน้ำขึ้นมาจึงอาบไปด้วยเลย"
 
 scene bg school_dormbathroom
 show steam
@@ -1681,43 +1714,56 @@ with locationskip
 
 play ambient sfx_shower fadein 1.0
 
-"While I'm in the shower, I make up my mind that this counts as morning exercise, if I properly compensate with a nice half-hour walk after school."
+# "While I'm in the shower, I make up my mind that this counts as morning exercise, if I properly compensate with a nice half-hour walk after school."
+"ระหว่างที่อาบน้ำอยู่ก็คิดไปว่าแบบนี้คือการออกกำลังกายตอนเช้าแล้ว ถ้าเดินสักครึ่งชั่วโมงหลังเลิกเรียนด้วยแล้ว\nก็คงได้พอดี"
 
-"Obviously, I wouldn't want to risk possible complications by going running now. Besides, Emi will never know, and I think she's giving up on me, in any case."
+# "Obviously, I wouldn't want to risk possible complications by going running now. Besides, Emi will never know, and I think she's giving up on me, in any case."
+"แน่นอนว่าฉันไม่อยากไปวิ่งให้เสี่ยงมีอาการอะไรอีก อีกอย่าง เอมิคงไม่รู้หรอก เธอน่าจะถอดใจไม่ยอมตื๊อฉันแล้วด้วย"
 
-"Walking could be nice, anyway, just to get to know the area."
+# "Walking could be nice, anyway, just to get to know the area."
+"ไปเดินก็ดีเหมือนกัน ให้ชินกับละแวกนี้"
 
-"There's a big forest in the hills behind the school, or I could go down to the convenience store."
+# "There's a big forest in the hills behind the school, or I could go down to the convenience store."
+"มีป่าใหญ่อยู่ที่เนินตรงหลังโรงเรียนให้ไป หรือจะเดินไปร้านสะดวกซื้อก็ได้"
 
 hide steam
 with charaexit
 stop ambient fadeout 1.0
 
-"While still dabbing the moisture off my skin, I set out to find my uniform."
+# "While still dabbing the moisture off my skin, I set out to find my uniform."
+"ระหว่างที่เช็ดตัวก็ควานหาชุดนักเรียนไปด้วย"
 
-"I quickly button up my shirt and pull on my pants before going outside."
+# "I quickly button up my shirt and pull on my pants before going outside."
+"ฉันรีบจดกระดุมเสื้อและใส่กางเกงแล้วออกมา"
 
 scene bg school_courtyard
 with locationskip
 
-"Normally during this time of the year, I'd be eagerly awaiting summer vacation. Having only been at school for a little over a week, I don't really have that kind of feeling."
+# "Normally during this time of the year, I'd be eagerly awaiting summer vacation. Having only been at school for a little over a week, I don't really have that kind of feeling."
+"ปกติทุกปีช่วงนี้ฉันจะตั้งตาคอยปิดเทอมหน้าร้อนตลอด แต่พอเพิ่งกลับมาเรียนที่โรงเรียนได้สัปดาห์เศษ ๆ\nก็แทบไม่มีความรู้สึกอย่างนั้นแล้ว"
 
-"I'm still savoring the school life and considering the sharp and awkward turn my life has taken. I haven't had the time to become preoccupied with getting free of it."
+# "I'm still savoring the school life and considering the sharp and awkward turn my life has taken. I haven't had the time to become preoccupied with getting free of it."
+"ฉันยังเพลิดเพลินอยู่กับชีวิตในรั้วโรงเรียนพลางคิดถึงชีวิตที่พลิกผันได้อย่างนี้ ยังไม่มีเวลาจะมาคิดเรื่องที่จะหนี\nไปจากโรงเรียนหรอก"
 
-"Besides, once vacations hit, it'll be a nice surprise for me if I'm not expecting it. Especially with the end of term exams looming ahead."
+# "Besides, once vacations hit, it'll be a nice surprise for me if I'm not expecting it. Especially with the end of term exams looming ahead."
+"อีกอย่าง ไม่ต้องตั้งคาคอยแล้วเก็บเรื่องปิดเทอมไว้เป็นเซอร์ไพรส์ก็ดี ยิ่งใกล้สอบปลายภาคแล้วด้วย"
 
-"At least I don't have any catching up to do with my studies. My diligence has finally paid off."
+# "At least I don't have any catching up to do with my studies. My diligence has finally paid off."
+"อย่างน้อยก็ไม่ต้องมานั่งอ่านหนังสือเรียนเพิ่มแล้ว ความขยันที่สั่งสมมาออกผลเสียที"
 
-"I push myself past the boys gathered in the doorway and flop into my seat."
+# "I push myself past the boys gathered in the doorway and flop into my seat."
+"ฉันเบียด ๆ พวกผู้ชายที่อออยู่หน้าประตูแล้วเดินมาหย่อนตัวลงนั่งที่"
 
 stop music fadeout 2.0
 
 scene bg school_scienceroom
 with locationskip
 
-"From the corner of my eye I can see Shizune and Misha pause their unavoidably animated conversation and turn almost simultaneously in my direction."
+# "From the corner of my eye I can see Shizune and Misha pause their unavoidably animated conversation and turn almost simultaneously in my direction."
+"ฉันเห็นชิซูเนะกับมิช่าชะงักภาษามือที่ต้องใช้คุยกันอย่างเลี่ยงไม่ได้อยู่ที่หางตา พวกเธอหันมาทางฉันแทบจะ\nพร้อม ๆ กัน"
 
-"They clearly want something from me; I can tell from the way Shizune smiles. It's too obnoxiously bright to be sincere and too calculated to be spontaneous."
+# "They clearly want something from me; I can tell from the way Shizune smiles. It's too obnoxiously bright to be sincere and too calculated to be spontaneous."
+"พวกเธอต้องการอะไรจากฉันแน่ ๆ เห็นชิซูเนะยิ้มก็รู้ เป็นรอยยิ้มที่ช่างเจิดจ้าเสียจนเกินกว่าจะมาจากใจจริง\nและช่างได้จังหวะเกินกว่าจะมาแบบลอย ๆ"
 
 show shizu behind_smile at tworight
 show misha perky_smile at twoleft
@@ -1725,40 +1771,50 @@ with charaenter
 
 play music music_normal fadein 2.0
 
-mi "Good morning~!"
+# mi "Good morning~!"
+mi "อรุณสวัสดิ์~!"
 
-"Her greeting is made of one hundred percent cheer and bursting energy."
+# "Her greeting is made of one hundred percent cheer and bursting energy."
+"คำทักทายของเธอเต็มไปด้วยความสดใสและพลังงานเหลือล้น"
 
-hi "Mornin'."
+# hi "Mornin'."
+hi "รุณ"
 
-"I fail to put either of those into my response."
+# "I fail to put either of those into my response."
+"และฉันก็ไม่สามารถที่จะตอบโดยใส่ความสดใสหรือพลังงานเหลือล้นไปได้"
 
 show misha perky_confused
 with charachange
 
-mi "You don't look very energetic."
+# mi "You don't look very energetic."
+mi "นายดูเพลีย ๆ นะ"
 
-hi "No wonder. I don't feel very energetic either. I think I didn't sleep well, but I'm not sure."
+# hi "No wonder. I don't feel very energetic either. I think I didn't sleep well, but I'm not sure."
+hi "ไม่แปลก ฉันก็เพลีย ๆ เหมือนกัน คงหลับไม่สนิทมั้ง ไม่แน่ใจเหมือนกัน"
 
 show misha hips_grin_close
 with vpunch
 
-"She slaps me in the back and grins."
+# "She slaps me in the back and grins."
+"เธอตบหลังฉันแล้วยิ้มร่า"
 
 show misha hips_smile_close
 with charachange
 
-mi "Cheer up a bit! It's a great day~!"
+# mi "Cheer up a bit! It's a great day~!"
+mi "ร่าเริงหน่อย! วันนี้วันดีนะ~!"
 
 show shizu basic_normal2
 with charachange
 
-"I catch Shizune's eyes. She has a strange, focused expression on her face, but she furrows her brow a little at direct eye contact and looks away."
+# "I catch Shizune's eyes. She has a strange, focused expression on her face, but she furrows her brow a little at direct eye contact and looks away."
+"ฉันสบตาเข้ากับชิซูเนะ เธอทำหน้าจดจ่อแปลก ๆ แต่พอเธอเห็นว่ามองอยู่ก็ขมวดคิ้วแล้วเบือนหน้าหนี"
 
 show shizu adjust_happy
 with charachange
 
-"For a moment, I think that Shizune caught a glimpse of my worries, somehow, and is pondering how to respond. But then she quickly straightens her glasses, and with them, her expression."
+# "For a moment, I think that Shizune caught a glimpse of my worries, somehow, and is pondering how to respond. But then she quickly straightens her glasses, and with them, her expression."
+"แวบหนึ่งฉันคิดว่าเธอคงเห็นว่าฉันคิดมากเรื่องอะไรอยู่แล้วคิดอยู่ว่าจะตอบยังไงดี แต่แล้วเธอก็ดันแว่นพลางปรับสีหน้า"
 
 show shizu basic_happy
 with charachange
@@ -1768,20 +1824,25 @@ shi "…"
 show misha sign_smile_close
 with charachange
 
-mi "Anyway, we were wondering if you're still interested in that student council position, because we're going to make an offer that you can't decline~"
+# mi "Anyway, we were wondering if you're still interested in that student council position, because we're going to make an offer that you can't decline~"
+mi "แต่เอาเถอะ พวกเราอยากรู้ว่านายสนใจเรื่องสภานักเรียนอยู่มั้ย เพราะเราจะยื่นข้อเสนอที่นายไม่อาจปฏิเสธได้~"
 
-hi "Wait, what? I wasn't really interested in the first place. You're putting words in my mouth."
+# hi "Wait, what? I wasn't really interested in the first place. You're putting words in my mouth."
+hi "เดี๋ยว อะไร ฉันสนใจเรื่องสภานักเรียนที่ไหน อย่ามาพูดเองเออเองอย่างนี้สิ"
 
 show shizu adjust_smug
 with charachange
 
 shi "…"
 
-mi "Not as such. But, wouldn't it be nice to hang out with us every day while also being useful to your school?"
+# mi "Not as such. But, wouldn't it be nice to hang out with us every day while also being useful to your school?"
+mi "ไม่ใช่อย่างนั้นสักหน่อย แต่นายจะได้อยู่กับพวกเราทุกวัน แถมเป็นประโยชน์ต่อโรงเรียนด้วย ดีออก"
 
-hi "Well, to tell you the truth, I… I kinda joined a club. So it'd actually be sort of hard for me to join the council too."
+# hi "Well, to tell you the truth, I… I kinda joined a club. So it'd actually be sort of hard for me to join the council too."
+hi "เอ่อ อันที่จริง ฉัน… พอจะได้ชมรมแล้วน่ะ จะให้เข้าสภานักเรียนด้วยก็คงไม่ไหว"
 
-hi "Even if I wanted to. Which I don't, as I said."
+# hi "Even if I wanted to. Which I don't, as I said."
+hi "ต่อให้อยากเข้าก็คงไม่ได้ ซึ่งฉันก็ไม่ได้อยากหรอก อย่างที่บอกไปนั่นแหละ"
 
 show shizu behind_blank
 with charachange
@@ -1791,26 +1852,32 @@ shi "…"
 show misha cross_smile_close
 with charachange
 
-mi "Is that so? Which club is it, Hicchan~?"
+# mi "Is that so? Which club is it, Hicchan~?"
+mi "งั้นเหรอ แล้วชมรมที่ว่าคือชมรมอะไรล่ะฮิจัง~"
 
-hi "The art club."
+# hi "The art club."
+hi "ชมรมศิลปะ"
 
 show shizu cross_angry
 with charachange
 
 shi "…"
 
-"Shizune's eyes glint in a sinister way as she scowls at me. With the way she looks, I'll be expecting the art club to lose its funding before lunch break, or the art teacher to mysteriously disappear from the face of the Earth."
+# "Shizune's eyes glint in a sinister way as she scowls at me. With the way she looks, I'll be expecting the art club to lose its funding before lunch break, or the art teacher to mysteriously disappear from the face of the Earth."
+"แววตาชิซูเนะฉายลางร้ายจังหวะที่เธอมองค้อนมาทางฉัน เห็นแล้วก็มีความรู้สึกว่าก่อนพักเที่ยงนี้ชมรมศิลปะอาจจะ\nโดนตัดงบ หรือไม่ก็ครูศิลปะอาจจะหายจากโลกใบนี้ไปอย่างลึกลับ"
 
 hide shizu
 hide misha
 with charaexit
 
-"Before she manages to comment, the teacher finally enters the classroom, getting Shizune and Misha off my back, and sending everyone rummaging in their bags for books and pens."
+# "Before she manages to comment, the teacher finally enters the classroom, getting Shizune and Misha off my back, and sending everyone rummaging in their bags for books and pens."
+"ก่อนเธอจะทันได้พูดอะไร คุณครูก็เข้าห้องมาแล้ว ชิซูเนะและมิช่าล่าถอยไป ทุกคนต่างคุ้ยกระเป๋าหาหนังสือ\nกับปากกากัน"
 
-"I did join the art club, but the first meeting didn't really boost my confidence. I'm not really sure what I'm doing it for."
+# "I did join the art club, but the first meeting didn't really boost my confidence. I'm not really sure what I'm doing it for."
+"ก็เข้าร่วมชมรมศิลปะแล้วแหละ แต่กิจกรรมรอบแรกไม่ได้ช่วยให้มั่นใจขึ้นมาเท่าไหร่ ไม่แน่ใจว่าจะทำไปทำไม"
 
-"I wish I could draw like Rin, but I don't know what I would do if I could. To what end would I use such a skill? I don't really know."
+# "I wish I could draw like Rin, but I don't know what I would do if I could. To what end would I use such a skill? I don't really know."
+"อยากวาดได้อย่างรินบ้าง แต่วาดได้ก็ไม่รู้จะเอาไปทำอะไรอยู่ดี ทักษะอย่างนั้นจะเอาไปใช้ทำอะไรได้ ฉันก็ไม่รู้\nเหมือนกัน"
 
 $ renpy.music.set_volume(0.5,  1.0, channel="music")
 
@@ -1820,20 +1887,25 @@ show ev hisaobird_0:
     easein 0.5 alpha 1.0 ypos 1.0
 with Pause(0.5)
 
-"Ignoring the teacher's sleep-inducing voice, I open my notebook to an empty page and press the needle-sharp graphite tip of the pencil onto it."
+# "Ignoring the teacher's sleep-inducing voice, I open my notebook to an empty page and press the needle-sharp graphite tip of the pencil onto it."
+"ฉันเมินเสียงกล่อมนอนของครูพลางเปิดสมุดมาหน้าว่างแล้วกดปลายไส้ดินสออันแหลมคมลงกับกระดาษ"
 
-"What to draw?"
+# "What to draw?"
+"วาดอะไรดี"
 
-"I can't really think of anything good to draw."
+# "I can't really think of anything good to draw."
+"ไม่รู้จะวาดอะไร"
 
 show ev hisaobird_1:
     center
     alpha 1.0
 with charachange
 
-"As I hesitate and raise my hand, a meek black mark left on the previously blank paper seems aggravating."
+# "As I hesitate and raise my hand, a meek black mark left on the previously blank paper seems aggravating."
+"ฉันงอมือขึ้นมาด้วยความลังเล รอยสีดำจาง ๆ ที่ติดอยู่บนหน้ากระดาษเปล่านั้นชวนให้หงุดหงิด"
 
-"I can't even seem to get to the starting line, let alone get started. It's almost a physical feeling of being held back. Annoyingly, it reminds me of my failed attempt at jogging with Emi."
+# "I can't even seem to get to the starting line, let alone get started. It's almost a physical feeling of being held back. Annoyingly, it reminds me of my failed attempt at jogging with Emi."
+"อย่าว่าแต่เริ่มวาดเลย ให้ลากเส้นเริ่มยังไม่ได้ อย่างกับว่ามีแรงกดดันอยู่จนวาดไม่ออก แล้วสมองเจ้ากรรมก็พลอย\nไปคิดถึงเรื่องที่ฉันนึกจะไปวิ่งกับเอมิแต่สุดท้ายก็ล้มเลิกไป"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -1848,9 +1920,11 @@ with Pause(0.5)
 hide ev
 with None
 
-"I look out of the window in desperation. Right then, a small bird takes flight from one of the cherry trees that grow everywhere on the school grounds."
+# "I look out of the window in desperation. Right then, a small bird takes flight from one of the cherry trees that grow everywhere on the school grounds."
+"ฉันมองออกไปทางนอกหน้าต่างด้วยความสิ้นหวัง ทันใดนั้นเองก็มีนกตัวเล็ก ๆ บินออกมาจากต้นซากรุะ\nที่ปลูกอยู่ทั่วโรงเรียน"
 
-"I can't really see it clearly, and it's not like I could tell one tiny bird from another. But I pick it as my subject anyway."
+# "I can't really see it clearly, and it's not like I could tell one tiny bird from another. But I pick it as my subject anyway."
+"ก็เห็นไม่ชัดหรอก แยกไม่ออกด้วยว่านกตัวเล็ก ๆ ตัวไหนเป็นตัวไหนบ้าง แต่ฉันก็เอามาวาดอยู่ดี"
 
 $ renpy.music.set_volume(0.5,  1.0, channel="music")
 
@@ -1865,48 +1939,58 @@ show ev hisaobird_2:
     alpha 1.0
 with charachange
 
-"Conjuring up the image of a bird in my mind's eye, I turn my gaze back to the notebook and deliberately draw a thick line across the paper to get started."
+# "Conjuring up the image of a bird in my mind's eye, I turn my gaze back to the notebook and deliberately draw a thick line across the paper to get started."
+"ฉันจินตนาการถึงภาพนกอยู่ในหัวแล้วหันกลับมามองที่สมุด จากนั้นจึงลากเส้นเข้ม ๆ ลงบนกระดาษเริ่มวาด"
 
-"It seems to be mocking me, as I can't follow up right away. Still, it's a start. Getting started is good."
+# "It seems to be mocking me, as I can't follow up right away. Still, it's a start. Getting started is good."
+"เหมือนโดนเส้นนั้นเยาะเย้ยเพราะฉันวาดต่อไม่ออก แต่อย่างน้อยก็ได้เริ่มแล้ว ก้าวแรกนั้นเป็นสิ่งที่ดี"
 
 show ev hisaobird_3
 with charachange
 
-"I slowly sketch the picture on the notebook page, the image in my brain becoming clearer as the drawing takes shape."
+# "I slowly sketch the picture on the notebook page, the image in my brain becoming clearer as the drawing takes shape."
+"ฉันค่อย ๆ ร่างภาพลงบนหน้าสมุด ภาพในหัวเริ่มแจ่มชัดขึ้นเมื่อภาพวาดเป็นรูปเป็นร่างขึ้นมา"
 
 show ev hisaobird_4
 with charachange
 
-"It's really nothing, just that nameless nothing bird on paper, but that's not important."
+# "It's really nothing, just that nameless nothing bird on paper, but that's not important."
+"ก็ไม่ใช่อะไรหรอก แค่นกนิรนามตัวนั้นที่อยู่บนหน้ากระดาษ แต่ไม่สำคัญ"
 
 show ev hisaobird_5
 with charachange
 
-"My hesitation fades into the background along with the teacher's voice as I continue my struggle. The feathers form a simple pattern in my mind, but on paper it's a mess of too many rough lines despite my best efforts."
+# "My hesitation fades into the background along with the teacher's voice as I continue my struggle. The feathers form a simple pattern in my mind, but on paper it's a mess of too many rough lines despite my best efforts."
+"ยิ่งพยายามวาด ความลังเลก็หดหายไปพร้อมกับเสียงคุณครู แม้ลายขนนกที่อยู่ในหัวจะดูเป็นแบบง่าย ๆ และวาด\nจนสุดฝีมือแล้ว แต่พอวาดก็กลับได้แต่เส้นหยาบ ๆ หลายเส้นทับกันไปมา"
 
 show ev hisaobird_6
 with charachange
 
-"I realize that I don't really know what a bird's wing should look like, even if I try to think about it. I even put the pencil down and close my eyes for a moment, trying to trace the shape of a wing in my mind."
+# "I realize that I don't really know what a bird's wing should look like, even if I try to think about it. I even put the pencil down and close my eyes for a moment, trying to trace the shape of a wing in my mind."
+"จากนั้นก็ถึงนึกได้ว่าที่จริงฉันไม่รู้ว่าปีกนกหน้าตาเป็นยังไง ฉันถึงขั้นวางดินสอลงแล้วหลับตาอยู่ครู่หนึ่งคอยลาก\nรูปร่างปีกนกอยู่ในหัว"
 
 show ev hisaobird_7
 with charachange
 
-"Being this serious about it all of a sudden makes me a little frustrated."
+# "Being this serious about it all of a sudden makes me a little frustrated."
+"พออยู่ ๆ ก็จริงจังขึ้นมาอย่างนี้แล้วก็หงุดหงิดนิดหน่อย"
 
 show ev hisaobird_8
 with charachange
 
-"Art class in middle school was the “easy” class in between exhausting subjects like math or Japanese. But there's this other side to art, the one that you see when you don't just fool around."
+# "Art class in middle school was the “easy” class in between exhausting subjects like math or Japanese. But there's this other side to art, the one that you see when you don't just fool around."
+"ตอนมัธยมต้น วิชาศิลปะเคยเป็นวิชา “ง่าย ๆ ” ที่มาคั่นกลางระหว่างวิชาที่ดูดพลังงานอย่างวิชาคณิตหรือภาษาญี่ปุ่น\nแต่ศิลปะยังมีด้านนี้อีกด้านหนึ่ง ด้านที่จะได้เห็นถ้าไม่ได้ทำแบบขอไปที"
 
 show ev hisaobird_9
 with charachange
 
-"It's almost like a completely different thing."
+# "It's almost like a completely different thing."
+"อย่างกับว่าเป็นคนละเรื่องกันเลย"
 
 stop music fadeout 0.5
 
-mi "Hicchan?"
+# mi "Hicchan?"
+mi "ฮิจัง?"
 
 show bg school_scienceroom behind ev:
     center
@@ -1923,52 +2007,65 @@ with Pause(0.5)
 hide ev
 with None
 
-"I look up to see two girls staring back at me."
+# "I look up to see two girls staring back at me."
+"พอเงยหน้าขึ้นมาก็เห็นสองสาวที่จ้องฉันอยู่"
 
 $ renpy.music.set_volume(1.0,  0.0, channel="music")
 play music music_comedy fadein 1.0
 
-"Misha and Shizune have carried their chairs to my desk and are now standing by my sides, looking at my drawing."
+# "Misha and Shizune have carried their chairs to my desk and are now standing by my sides, looking at my drawing."
+"มิช่ากับชิซูเนะลากเก้าอี้มาที่โต๊ะฉัน เธอสองคนยืนอยู่ข้าง ๆ มองรูปที่ฉันวาดอยู่"
 
-hi "How long have you two been there?"
+# hi "How long have you two been there?"
+hi "มาตั้งแต่เมื่อไหร่เนี่ย"
 
 show misha hips_grin_close
 with charachange
 
-mi "I think you need more practice."
+# mi "I think you need more practice."
+mi "นายต้องฝึกอีกนะ"
 
 show shizu basic_normal_close
 with charachange
 
-"Shizune draws a few sharp signs in the air between herself and Misha."
+# "Shizune draws a few sharp signs in the air between herself and Misha."
+"ชิซูเนะทำภาษามือสั้น ๆ อยู่ข้าง ๆ มิช่า"
 
 show misha sign_smile_close
 with charachange
 
-mi "Shicchan agrees."
+# mi "Shicchan agrees."
+mi "ชิจังก็เห็นด้วย"
 
-"Rin said the exact same thing yesterday, but why did it sound less condescending?"
+# "Rin said the exact same thing yesterday, but why did it sound less condescending?"
+"เมื่อวานรินก็พูดแบบนี้เหมือนกัน แต่ทำไมถึงไม่ได้ฟังดูหยามเท่ากันนะ"
 
-hi "You shouldn't judge before I'm finished."
+# hi "You shouldn't judge before I'm finished."
+hi "ยังวาดไม่เสร็จก็อย่าเพิ่งตัดสินสิ"
 
-hi "Besides, don't you know it's bad luck to see an unfinished piece of work?"
+# hi "Besides, don't you know it's bad luck to see an unfinished piece of work?"
+hi "อีกอย่าง ไม่รู้เหรอว่ามาดูงานที่ยังไม่เสร็จน่ะจะโชคร้ายนะ"
 
 show misha cross_laugh_close
 with charachange
 
-"Misha cracks in exuberant laughter."
+# "Misha cracks in exuberant laughter."
+"มิช่าหัวเราะร่าเริง"
 
 show misha hips_grin_close
 with charachange
 
-mi "What? Don't be silly~! There's no way that could be true."
+# mi "What? Don't be silly~! There's no way that could be true."
+mi "หา? พูดบ้า ๆ น่า~! ไม่จริงหรอก"
 
-hi "Whatever."
+# hi "Whatever."
+hi "เอาเหอะ"
 
 show shizu adjust_frown_close
 with charachange
 
-"Shizune's eyebrows furrow dangerously, and the movements of her hands become abrupt, like the slashing of a knife."
+# "Shizune's eyebrows furrow dangerously, and the movements of her hands become abrupt, like the slashing of a knife."
+"ชิซูเนะขมวดคิ้วดูอันตราย มือของเธอขยับอย่างรวดเร็วเหมือนมีดฟัน"
 
 show shizu behind_frown_close
 with charachange
@@ -1978,25 +2075,31 @@ shi "…"
 show misha hips_frown_close
 with charachange
 
-mi "You should learn to take constructive criticism better."
+# mi "You should learn to take constructive criticism better."
+mi "คนเขาวิจารณ์แบบมีสาระก็หัดฟังไว้บ้างสิ"
 
-hi "I would if you'd actually offer some."
+# hi "I would if you'd actually offer some."
+hi "ถ้ามีสาระจริงก็ฟังอยู่หรอก"
 
-"I know I'm getting too defensive and that Shizune is taking advantage of it, but I can't help it."
+# "I know I'm getting too defensive and that Shizune is taking advantage of it, but I can't help it."
+"รู้อยู่หรอกว่าฉันพะวงมากไปจนชิซูเนะถือโอกาสเล่นงาน แต่ก็อดไม่ได้อยู่ดี"
 
-hi "What are you two doing here, anyway?"
+# hi "What are you two doing here, anyway?"
+hi "แล้วนี่เธอสองคนมาทำอะไรกัน"
 
 show shizu basic_frown_close
 with charachange
 
 shi "…"
 
-"Misha wags her finger admonishingly at my nose."
+# "Misha wags her finger admonishingly at my nose."
+"มิช่าส่ายนิ้วเตือนอยู่กับจมูกฉัน"
 
 show misha sign_smile_close
 with charachange
 
-mi "Tsk, tsk, Hicchan. Were you not listening to the teacher at all?"
+# mi "Tsk, tsk, Hicchan. Were you not listening to the teacher at all?"
+mi "ชิชะ ฮิจัง นี่นายไม่ได้ฟังครูเลยเหรอ"
 
 show shizu behind_blank_close
 with charachange
@@ -2006,27 +2109,35 @@ shi "…"
 show misha hips_smile_close
 with charachange
 
-mi "We have a group assignment, now."
+# mi "We have a group assignment, now."
+mi "ครูเขาให้ทำงานกลุ่ม"
 
-"I nod bleakly, and let them take the lead."
+# "I nod bleakly, and let them take the lead."
+"ฉันพยักหน้าเลื่อนลอยปล่อยให้สองคนนั้นนำไป"
 
 show misha hips_grin_close
 with charachange
 
-mi "So, what do you think of the lesson for today?"
+# mi "So, what do you think of the lesson for today?"
+mi "แล้ว ที่เรียนไปวันนี้นายว่าไงบ้าง"
 
-hi "Not much of anything… I didn't listen to a word of it."
+# hi "Not much of anything… I didn't listen to a word of it."
+hi "ก็ไม่ว่าไงหรอก… พอดีไม่ได้ฟังเลย"
 
 show misha hips_frown_close
 with charachange
 
-"Misha slaps her forehead and shakes her head theatrically."
+# "Misha slaps her forehead and shakes her head theatrically."
+"มิช่าตบหน้าผากตัวเองแล้วส่ายหน้าแบบทุ่มทุนสร้าง"
 
-mi "What are we going to do with you, Hicchan?"
+# mi "What are we going to do with you, Hicchan?"
+mi "จะเอายังไงกับนายดีนะฮิจัง"
 
-"Luckily, Shizune and Misha together are more effective than three or four normal people, so I can mostly slack on the assignment."
+# "Luckily, Shizune and Misha together are more effective than three or four normal people, so I can mostly slack on the assignment."
+"โชคดีที่แค่ชิซูเนะกับมิช่าก็เทียบเท่าได้กับคนปกติสามถึงสี่คน ฉันจึงพอจะอู้งานได้"
 
-"I try my best to offer at least some assistance, but I end up being mostly useless."
+# "I try my best to offer at least some assistance, but I end up being mostly useless."
+"ก็หาเรื่องช่วยอยู่หรอก แต่สุดท้ายฉันก็ช่วยอะไรได้ไม่มาก"
 
 stop music fadeout 2.0
 
@@ -2035,11 +2146,14 @@ with shorttimeskip
 
 play sound sfx_normalbell
 
-"The teacher keeps us in class five minutes past the lunch bells, but eventually lets us off the hook."
+# "The teacher keeps us in class five minutes past the lunch bells, but eventually lets us off the hook."
+"หมดคาบมาห้านาทีแล้วครูถึงยอมปล่อยให้ไปพักเที่ยง"
 
-"I quickly stuff my books into my bag while Shizune and Misha carry their chairs back to their own seats."
+# "I quickly stuff my books into my bag while Shizune and Misha carry their chairs back to their own seats."
+"ฉันรีบเก็บหนังสือใส่กระเป๋าระหว่างที่ชิซูเนะและมิช่าย้ายเก้าอี้กลับไปที่ตัวเอง"
 
-"The failure of a bird-drawing ends up crumpled and stuffed in my pocket as I hurry outside."
+# "The failure of a bird-drawing ends up crumpled and stuffed in my pocket as I hurry outside."
+"ฉันรีบรุดออกไปพลางขยำยัดรูปวาดนกที่ล้มเหลวนั้นใส่กระเป๋ากางเกง"
 
 stop music fadeout 2.0
 
