@@ -1116,7 +1116,7 @@ play music music_normal fadein 3.0
 
 "มุโต้สั่งงานจากหนังสือทิ้งไว้ให้แล้วก็ไปนั่งที่โต๊ะครู"
 
-"ฉันลืมเรื่องพักกลางวันไปพักหนึ่งเลย วันนี้ช่างน่าเบื่อซะจริง ๆ"
+"ฉันลืมเรื่องพักเที่ยงไปพักหนึ่งเลย วันนี้ช่างน่าเบื่อซะจริง ๆ"
 
 play sound sfx_normalbell
 
@@ -1528,7 +1528,7 @@ with shorttimeskip
 play sound sfx_normalbell
 
 # "The lunch bells seem to catch everyone by surprise, and the class empties at a much slower pace than usual."
-"เสียงระฆังพักกลางวันเหมือนจะทำให้ทุกคนประหลาดใจ และคนก็ออกจากห้องเรียนช้ากว่าปกติมาก"
+"เสียงระฆังพักเที่ยงเหมือนจะทำให้ทุกคนประหลาดใจ และคนก็ออกจากห้องเรียนช้ากว่าปกติมาก"
 
 # "The heat seems to be draining the need to rush from everyone."
 "ดูเหมือนว่าความร้อนกำลังพรากความรีบร้อนไปจากทุกคน"
@@ -1872,7 +1872,7 @@ show hanako basic_smile:
 with shorttimeskipsilent
 
 # "The interval between the warning bells and the end of lunch bells passes in the blink of an eye."
-"ช่วงเวลาระหว่างเสียงระฆังเตือนให้เข้าห้องกับเสียงระฆังหมดเวลาพักกลางวันผ่านไปในพริบตาเดียว"
+"ช่วงเวลาระหว่างเสียงระฆังเตือนให้เข้าห้องกับเสียงระฆังหมดเวลาพักเที่ยงผ่านไปในพริบตาเดียว"
 
 # hi "We really should go… people will freak out and start a search party if we skip…"
 hi "เราต้องไปจริง ๆ แล้วละ… ไม่งั้นคนน่าจะแตกตื่นแล้วออกตามหาแน่ถ้าเราโดดเรียน…"
