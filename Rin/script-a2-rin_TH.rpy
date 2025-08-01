@@ -4922,29 +4922,40 @@ nvl show dissolve
 
 stop ambient fadeout 2.0
 
-n "\n\n\n\nI haven't thought much about girls since things fell apart with Iwanako."
+# n "\n\n\n\nI haven't thought much about girls since things fell apart with Iwanako."
+n "\n\n\nฉันไม่ได้คิดเรื่องผู้หญิงอะไรมากมายตั้งแต่ครั้งที่ความสัมพันธ์กับอิวานาโกะนั้นขาดไป"
 
-n "This is kind of the same situation as then, but to be honest I don't think it really counts for much. Not with Rin."
+# n "This is kind of the same situation as then, but to be honest I don't think it really counts for much. Not with Rin."
+n "คราวนี้ก็เหมือนตอนนั้น แต่ว่าตามตรง ฉันว่าไม่ได้เหมือนกันขนาดนั้นหรอก ยิ่งเป็นรินด้วยแล้ว"
 
-n "And yet… it feels good walking next to her, even if it isn't anything more than this."
+# n "And yet… it feels good walking next to her, even if it isn't anything more than this."
+n "แต่… พอได้เดินข้างเธอแล้วก็รู้สึกดี ถึงจะไม่ได้มีอะไรไปมากกว่านั้นก็เถอะ"
 
-n "At first, I think Rin agitated me quite a bit with her unpredictable behavior. But recently, I feel I haven't had to be on my toes so much."
+# n "At first, I think Rin agitated me quite a bit with her unpredictable behavior. But recently, I feel I haven't had to be on my toes so much."
+n "แรกเริ่มเดิมทีฉันหงุดหงิดเพราะเดาใจเธอไม่เคยได้ แต่ช่วงนี้ฉันไม่ได้รู้สึกว่าจะกันท่ากับเธออะไรขนาดนั้นแล้ว"
 
-n "I've managed to let myself go a little. It makes me feel satisfied, even though ultimately I think it's more thanks to Rin than myself."
+# n "I've managed to let myself go a little. It makes me feel satisfied, even though ultimately I think it's more thanks to Rin than myself."
+n "ฉันปล่อยตัวสบาย ๆ ได้บ้างแล้วจนนึกพอใจขึ้นมา ถึงจริง ๆ แล้วจะเป็นเพราะรินมากกว่าตัวฉันเองก็เถอะ"
 
-n "She seems to be disinterested in a huge number of things, but something in her makes me try harder than I normally would."
+# n "She seems to be disinterested in a huge number of things, but something in her makes me try harder than I normally would."
+n "เธอดูเป็นคนไม่สนโลกมากมายหลายอย่าง แต่บางอย่างในตัวเธอทำให้ฉันฮึดขึ้นมากว่าปกติ"
 
 nvl clear
 
-n "\n\n\nIt's not that I want to impress her; I think that truly impressing Rin would take near-superhuman effort just because of how she is. Instead, it's because there is this relentless feeling inside of me that I shouldn't let Rin down."
+# n "\n\n\nIt's not that I want to impress her; I think that truly impressing Rin would take near-superhuman effort just because of how she is. Instead, it's because there is this relentless feeling inside of me that I shouldn't let Rin down."
+n "\n\n\nไม่ใช่ว่าฉันอยากทำให้เธอประทับใจหรืออะไร เพราะดูจากสภาพแล้วกว่าจะทำให้รินประทับใจได้ก็คงต้องทุ่มแรง\nปานยอดมนุษย์ แต่ฉันว่าที่จริงเป็นเพราะความรู้สึกหนึ่งที่ไม่อยากทำให้รินผิดหวังที่อยู่ในใจเสมอมากกว่า"
 
-n "It's really weird. I wonder why I started thinking like that. I don't even know what sort of expectations she has about pretty much anything."
+# n "It's really weird. I wonder why I started thinking like that. I don't even know what sort of expectations she has about pretty much anything."
+n "แปลกจริง ๆ ทำไมฉันถึงมาคิดอะไรอย่างนี้กันนะ ไม่รู้ด้วยซ้ำว่าเธอจะคาดหวังกับอะไร ๆ ยังไงบ้าง"
 
-n "So how could I let her down? Rin has this unassuming air around her, and she doesn't really talk about stuff very often. Even today's confession of her self-doubt caught me a little bit off guard."
+# n "So how could I let her down? Rin has this unassuming air around her, and she doesn't really talk about stuff very often. Even today's confession of her self-doubt caught me a little bit off guard."
+n "แล้วฉันจะไปทำให้รินผิดหวังได้ยังไง เธอเป็นคนที่ดูเงียบ ๆ ไม่พูดถึงอะไรเท่าไหร่ ขนาดวันนี้ที่เธอเล่าเรื่องตัวเอง\nฉันยังตกใจหน่อย ๆ เลย"
 
-n "I feel like I want to talk more with her."
+# n "I feel like I want to talk more with her."
+n "ฉันอยากคุยกับเธอให้มากกว่านี้"
 
-n "The realization suddenly dawns on me that Rin is basically the only person I talk to nowadays, apart from whatever I have to endure from Shizune, Misha or Kenji. I feel slightly depressed."
+# n "The realization suddenly dawns on me that Rin is basically the only person I talk to nowadays, apart from whatever I have to endure from Shizune, Misha or Kenji. I feel slightly depressed."
+n "แล้วอยู่ ๆ ฉันก็นึกขึ้นได้ว่าทุกวันนี้ฉันคุยอยู่แต่กับรินแล้ว ถ้าไม่นับอะไรก็ตามที่ฉันต้องทนกับชิซูเนะ มิช่า หรือเคนจิ\nหดหู่ขึ้นมาหน่อย ๆ เลยแฮะ"
 
 nvl clear
 nvl hide dissolve
@@ -4957,16 +4968,20 @@ play ambient sfx_cicadas fadein 1.0
 
 window show
 
-"In front of the dormitories, as if summoned by my dark thoughts, we run into Kenji himself."
+# "In front of the dormitories, as if summoned by my dark thoughts, we run into Kenji himself."
+"พวกเราเจอกับเคนจิที่มายืนอยู่ตรงหน้าหอราวถูกความคิดอันดำมืดของฉันอัญเชิญมา"
 
 show kenji tsun_ni at center
 with charaenter
 
-"It feels very odd seeing him outside, breathing fresh outdoor air. At least it's already dusk; I partially expect Kenji would disintegrate upon direct exposure to the sun."
+# "It feels very odd seeing him outside, breathing fresh outdoor air. At least it's already dusk; I partially expect Kenji would disintegrate upon direct exposure to the sun."
+"พอได้เห็นเขามายืนสูดอากาศอยู่ข้างนอกแล้วก็รู้สึกประหลาด แต่อย่างน้อยตอนนี้ก็ค่ำแล้ว ฉันแอบคิดไปด้วยซ้ำ\nว่าถ้าเคนจิโดนแดดแล้วตัวเขาจะสลายเป็นผุยผง"
 
-"Kenji himself seems very insecure as well, standing around looking like he's waiting for something, but doesn't know himself what it might be."
+# "Kenji himself seems very insecure as well, standing around looking like he's waiting for something, but doesn't know himself what it might be."
+"เคนจิเองก็ดูจะหวาดระแวงเหมือนกัน ยืนมองซ้ายมองขวาเหมือนรออะไรอยู่ทั้งที่ไม่รู้ว่ารออะไร"
 
-hi "Hey, Kenji. What're you doing?"
+# hi "Hey, Kenji. What're you doing?"
+hi "ไง เคนจิ ทำไรอยู่"
 
 show kenji tsun_ni at twoleft
 show bg school_dormext_full_ni at center
@@ -4975,7 +4990,8 @@ with charamove
 show rin basic_awayabsent_ni at tworight
 with charaenter
 
-rin "Hello."
+# rin "Hello."
+rin "สวัสดี"
 
 stop ambient fadeout 0.2
 
@@ -4983,19 +4999,22 @@ show kenji rage_ni
 with charachange
 with vpunch
 
-ke "Who're you?"
+# ke "Who're you?"
+ke "ใคร"
 
 play music music_tension
 
 show rin basic_absent_ni
 with charachange
 
-hi "It's me, Hisao. Umm… I'm not sure if you know Tezuka from class 3-4?"
+# hi "It's me, Hisao. Umm… I'm not sure if you know Tezuka from class 3-4?"
+hi "ฉันเอง ฮิซาโอะ เอ่อ… ฉันไม่แน่ใจว่านายรู้จักเทซูกะห้อง 3-4 หรือเปล่านะ"
 
 show kenji tsun_ni
 with charachange
 
-"From his face I can see that not only he doesn't know Rin, he also can't see her from this short distance."
+# "From his face I can see that not only he doesn't know Rin, he also can't see her from this short distance."
+"ดูจากสีหน้าแล้วรู้เลยว่าไม่รู้จักไม่พอยังไม่เห็นหน้าเธอทั้งที่อยู่ใกล้ขนาดนี้อีก"
 
 show kenji happy_ni
 show rin basic_awayabsent_ni
@@ -5003,130 +5022,161 @@ with charachange
 
 stop music fadeout 0.5
 
-ke "Oh, sup dudes?"
+# ke "Oh, sup dudes?"
+ke "โอ้ ไงพวก"
 
 play music music_kenji
 play ambient sfx_cicadas fadein 6.0
 
-"Kenji sticks his hand enthusiastically forward, almost straight into Rin's stomach."
+# "Kenji sticks his hand enthusiastically forward, almost straight into Rin's stomach."
+"เคนจิยื่นมือมาอย่างกระฉับกระเฉงจนแทบทิ่มเข้ากับท้องริน"
 
 show rin negative_spaciness_ni
 with charachange
 
-"Rin looks at his outstretched hand in confusion until Kenji clears his throat and retracts the hand."
+# "Rin looks at his outstretched hand in confusion until Kenji clears his throat and retracts the hand."
+"รินมองมือเคนจิที่ยื่นมาด้วยความงงงัน จากนั้นเคนจิก็กระแอมไอขึ้นมาแล้วหดมือกลับ"
 
 show kenji neutral_ni
 with charachange
 
-"There is something almost cool that he manages to do with social awkwardness. It's not like I'm the most suave man on the planet, but I don't think I'll ever be able to even approach Kenji's level."
+# "There is something almost cool that he manages to do with social awkwardness. It's not like I'm the most suave man on the planet, but I don't think I'll ever be able to even approach Kenji's level."
+"แต่เห็นเวลาที่เขาหาเรื่องทำตัวกลบเกลื่อนเวลาบรรยากาศอึดอัดขึ้นมาทีไรแล้วก็ทึ่ง ฉันก็ไม่ใช่คนที่มั่นหน้าอะไร\nขนาดนั้นหรอก แต่ฉันคงไม่มีวันทำได้เทียบเท่าอย่างเคนจิแน่ ๆ"
 
-"I think I respect Kenji a little bit more."
+# "I think I respect Kenji a little bit more."
+"ฉันนับถือเขาขึ้นมาหน่อย ๆ แล้ว"
 
 show rin basic_absent_ni
 with charachange
 
-hi "So you're waiting for someone?"
+# hi "So you're waiting for someone?"
+hi "แล้วนี่รอใครอยู่เหรอ"
 
 show kenji tsun_close_ni
 with characlose
 
-"He leans closer and lowers his voice to an agitated whisper. I see his facial muscles twitching."
+# "He leans closer and lowers his voice to an agitated whisper. I see his facial muscles twitching."
+"เขาโน้มตัวเข้ามาใกล้แล้วกระซิบกระซาบรัวเร็ว เห็นหน้าเขากระตุกด้วย"
 
-ke "Come on man, you know I can't talk about stuff here in public. They might be listening."
+# ke "Come on man, you know I can't talk about stuff here in public. They might be listening."
+ke "เฮ้ย พวก ฉันคุยเรื่องนี้ในที่แจ้งไม่ได้นะ พวกนั้นอาจจะฟังอยู่"
 
-ke "I'm going to have to go pick up some stuff from somewhere, and I don't want those snooping student council hags to get on my case."
+# ke "I'm going to have to go pick up some stuff from somewhere, and I don't want those snooping student council hags to get on my case."
+ke "ฉันจะออกไปรับของจากที่หนึ่ง แล้วฉันก็ไม่อยากให้พวกสภาตัวจุ้นเข้ามายุ่งด้วย"
 
-ke "Also, I don't trust your friend. Nothing personal. Are you sure he's trustworthy?"
+# ke "Also, I don't trust your friend. Nothing personal. Are you sure he's trustworthy?"
+ke "แล้วก็ ฉันไม่เชื่อใจเพื่อนนายนะ ไม่ได้มีปัญหาอะไรเป็นการส่วนตัวหรอก แต่นายแน่ใจเหรอว่าเขาเชื่อใจได้"
 
-"I briefly consider telling Kenji about Rin's gender, but as it might end up badly for one or both of them, I decide against it."
+# "I briefly consider telling Kenji about Rin's gender, but as it might end up badly for one or both of them, I decide against it."
+"แวบหนึ่งฉันคิดจะบอกเพศริน แต่บอกไปเดี๋ยวไม่ใครก็ใครหรือทั้งสองคนต้องแย่แน่ จึงไม่ได้บอกไป"
 
-hi "Yeah, I'm sure."
+# hi "Yeah, I'm sure."
+hi "อืม แน่"
 
 show kenji neutral_ni
 show rin basic_awayabsent_ni
 with charadistant
 
-"He turns from me to Rin, and I immediately get the feeling that I have to prevent them from talking to each other with whatever means necessary. However, there is little I can do now, apart from physical violence."
+# "He turns from me to Rin, and I immediately get the feeling that I have to prevent them from talking to each other with whatever means necessary. However, there is little I can do now, apart from physical violence."
+"เขาหันหน้าจากฉันไปหาริน แล้วฉันก็รู้สึกทันทีว่าต้องยั้งสุดชีวิตไม่ให้สองคนนี้คุยกันได้ แต่ตอนนี้ฉันก็ทำอะไรได้\nไม่มาก นอกเสียจากว่าจะมีการลงไม้ลงมือ"
 
 show kenji happy_ni
 with charachange
 
-ke "In that case, would you be interested in knowing about the worst threat to mankind since they invented vegetarianism?"
+# ke "In that case, would you be interested in knowing about the worst threat to mankind since they invented vegetarianism?"
+ke "ถ้างั้น นายอยากจะรู้ภัยมหันต์ต่อมนุษยชาติที่แย่ที่สุดที่เกิดหลังจากการกินมังสวิรัติหรือเปล่า"
 
-"He sounds like a vacuum cleaner salesman."
+# "He sounds like a vacuum cleaner salesman."
+"สภาพเขาฟังดูอย่างกับพนักงานขายตรงเครื่องดูดฝุ่น"
 
 show rin basic_deadpan_ni
 with charachange
 
-rin "I thought it was Sunday."
+# rin "I thought it was Sunday."
+rin "ไม่ใช่วันอาทิตย์เหรอ"
 
 show kenji neutral_ni
 show rin basic_awayabsent_ni
 with charachange
 
-ke "I see you're not in the know. Yeah man, I'm talking about man-eating cows here. Very few people know what I know, so I'm not surprised."
+# ke "I see you're not in the know. Yeah man, I'm talking about man-eating cows here. Very few people know what I know, so I'm not surprised."
+ke "แสดงว่ายังไม่รู้สินะ ใช่ ฉันพูดถึงวัวกินคนอยู่ แต่น้อยคนที่จะรู้ ไม่แปลกใจหรอก"
 
 show kenji happy_ni
 with charachange
 
-ke "We can't talk here, but if you'd like a pamphlet, come to my room after curfew on Mondays or Wednesdays."
+# ke "We can't talk here, but if you'd like a pamphlet, come to my room after curfew on Mondays or Wednesdays."
+ke "ฉันเล่าตรงนี้ไม่ได้ แต่ถ้านายอยากได้แผ่นพับ ให้มาหาฉันวันจันทร์หรือวันอาทิตย์หลังเวลาปิดประตูหอ"
 
-"He suddenly reaches to his pocket and draws out a ballpoint pen and what looks like a convenience store receipt."
+# "He suddenly reaches to his pocket and draws out a ballpoint pen and what looks like a convenience store receipt."
+"เขาควักปากกากับใบอะไรสักอย่างที่ดูเหมือนเป็นใบเสร็จรับเงินจากร้านสะดวกซื้อออกมาจากกระเป๋ากางเกง"
 
-"Kenji furiously scribbles on the scrap of paper and then thrusts it towards Rin."
+# "Kenji furiously scribbles on the scrap of paper and then thrusts it towards Rin."
+"เคนจิขีดเขียนขยุกขยิกลงบนเศษกระดาษแผ่นนั้นแล้วยื่นไปทางริน"
 
 show kenji neutral_ni
 with charachange
 
-ke "Here's the password. Memorize it and then eradicate any trace of this document. Eat it, burn it, dissolve in acid, whatever."
+# ke "Here's the password. Memorize it and then eradicate any trace of this document. Eat it, burn it, dissolve in acid, whatever."
+ke "เอ้านี่รหัสผ่าน จำไว้ แล้วทำลายเอกสารนี้ทิ้งให้สิ้นซาก กิน เผา แช่กรด ไงก็ได้"
 
-"I take the receipt from Kenji as Rin is unable to do so, and glance at it. It's indeed a receipt, apparently for two rice balls and five boxes of matches. I hope he is not planning to burn anything down."
+# "I take the receipt from Kenji as Rin is unable to do so, and glance at it. It's indeed a receipt, apparently for two rice balls and five boxes of matches. I hope he is not planning to burn anything down."
+"ฉันรับใบเสร็จมาจากเคนจิด้วยว่ารินรับไม่ได้แล้วมองผ่าน ๆ เป็นใบเสร็จจริงด้วย เหมือนจะซื้อข้าวปั้นสองก้อน\nกับไม้ขีดไฟห้ากลัก หวังว่าไม่ได้คิดจะไปเผาอะไรนะ"
 
-"On the other side is written just one word."
+# "On the other side is written just one word."
+"อีกหน้ามีคำหนึ่งคำเขียนไว้"
 
 window hide
 
-$ written_note(u"HONEYMUFFIN")
+$ written_note(u"มัฟฟินน้ำผึ้ง")
 
 show rin basic_absent_ni
 with charachange
 
 window show
 
-"I show it to Rin too, but she shows no reaction."
+# "I show it to Rin too, but she shows no reaction."
+"พอเอาให้รินดูด้วยเธอก็ไม่ทำสีหน้าอะไร"
 
 show rin basic_awayabsent_ni
 with charachange
 
-rin "Thank you."
+# rin "Thank you."
+rin "ขอบคุณ"
 
 show kenji tsun_ni
 with charachange
 
-ke "Yo, Hisao. You still in that club? The club of dark arts?"
+# ke "Yo, Hisao. You still in that club? The club of dark arts?"
+ke "นี่ ฮิซาโอะ ยังอยู่ชมรมนั้นอีกเหรอ ชมรมกาฬศิลป์นั่นน่ะ"
 
 show rin basic_absent_ni
 with charachange
 
-hi "Fine art. Anyway yeah, actually just had a meeting today."
+# hi "Fine art. Anyway yeah, actually just had a meeting today."
+hi "วิจิตรศิลป์ เออ วันนี้เพิ่งทำกิจกรรมชมรมมาเลย"
 
 show rin basic_awayabsent_ni
 show kenji neutral_ni
 with charachange
 
-ke "Still got your wits about you? No shady mind tricks going on? Nothing personal man, but I have to be on top of things."
+# ke "Still got your wits about you? No shady mind tricks going on? Nothing personal man, but I have to be on top of things."
+ke "สติสัมปชัญญะยังอยู่ครบนะ ไม่ได้มีกลจิตวิทยาอะไรนะ ไม่ได้มีปัญหาอะไรเป็นการส่วนตัวหรอก แค่ต้องคอยจับตาดู\nว่าฉันยังรับมือทุกอย่างไหวน่ะ"
 
 show kenji tsun_ni
 with charachange
 
-ke "Can't get caught with my pants down. Speaking of which, you should really take showers a bit later. Gotta respect that personal space. Nothing personal."
+# ke "Can't get caught with my pants down. Speaking of which, you should really take showers a bit later. Gotta respect that personal space. Nothing personal."
+ke "จะให้เล่นทีเผลอตอนกางเกงหลุดไม่ได้ จะว่าไป เดี๋ยวนายไปอาบน้ำเลยนะ ต้องเคารพพื้นที่ส่วนตัวนั่นหน่อย ไม่ได้\nมีปัญหาอะไรเป็นการส่วนตัวหรอก"
 
-"Kenji looks around as if he heard something and then straightens his jacket."
+# "Kenji looks around as if he heard something and then straightens his jacket."
+"เคนจิมองวอกแวกเหมือนได้ยินอะไรบางอย่างแล้วจัดแจงเสื้อคลุมตัวเอง"
 
 show kenji neutral_ni
 with charachange
 
-ke "Okay, I gotta scoot now before it gets too late. Later dudes. Good luck."
+# ke "Okay, I gotta scoot now before it gets too late. Later dudes. Good luck."
+ke "โอเค ต้องรีบไปก่อนสายเกิน เจอกันพวก โชคดี"
 
 hide kenji
 with charaexit
@@ -5136,21 +5186,26 @@ show rin basic_deadpanupset_ni at center
 with dissolvecharamove
 stop music fadeout 4.0
 
-"Kenji takes off rapidly towards the main gate. Rin looks after him, frowning."
+# "Kenji takes off rapidly towards the main gate. Rin looks after him, frowning."
+"เคนจิก้าวฉับ ๆ ไปที่ประตูหน้าโรงเรียน รินขมวดคิ้วมองไล่หลังเขาไป"
 
-"We watch after Kenji's diminishing figure in silence."
+# "We watch after Kenji's diminishing figure in silence."
+"พวกเรายืนมองตัวเคนจิที่หดเล็กไปเรื่อย ๆ กันเงียบ ๆ"
 
 show rin basic_deadpancontemplation_ni
 with charachange
 
-rin "What's wrong with him?"
+# rin "What's wrong with him?"
+rin "เขาเป็นอะไร"
 
-hi "Technically speaking, I think he's legally blind."
+# hi "Technically speaking, I think he's legally blind."
+hi "ถ้าให้ว่าตามจริง เหมือนเขาจะตาบอดโดยกฎหมายนะ"
 
 show rin basic_deadpansurprised_ni
 with charachange
 
-rin "Oh. I see."
+# rin "Oh. I see."
+rin "อ้อ งี้นี่เอง"
 
 stop ambient fadeout 2.0
 
