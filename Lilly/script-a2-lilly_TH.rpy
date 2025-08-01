@@ -15,77 +15,96 @@ with openeye
 window show
 
 # "I wake to the annoying din of my alarm clock, its bright red numerals lighting up my face."
-"เสียงอันน่ารำคาญจากนาฬิกาปลุกดังขึ้นทำให้ต้องลืมตาตื่น แสงสีแดงจากตัวเลขที่กะพริบบนนั้นส่องลงมาบนใบหน้า"
+"เสียงอันน่ารำคาญจากนาฬิกาปลุกดังขึ้นทำให้ต้องลืมตาตื่น แสงสีแดงจากตัวเลขที่อยู่บนหน้าจอนั้นส่องลงมากระทบใบหน้า"
 
 play music music_dreamy fadein 2.0
 
 # "It's the same alarm clock I had at home, one of the few remaining artifacts from my days before coming to Yamaku. I'd hoped that using it would help ease my transition into this new life."
-"เป็นนาฬิกาปลุกเรือนเดิมที่เอามาด้วยจากที่บ้านในตอนที่ย้ายมาที่นี่ คิดว่ามันเป็นเหมือนเครื่องรางอย่างหนึ่งที่จะช่วยให้\nสามารถปรับตัวเข้ากับชีวิตใหม่ได้ง่ายขึ้น"
+"เป็นนาฬิกาปลุกเรือนเดียวกับที่ฉันเคยใช้ตอนอยู่ที่บ้าน หนึ่งในสิ่งของไม่กี่อย่างที่หลงเหลือจากชีวิตเก่าก่อนที่จะย้ายมาที่ยามากุ\nนำมันมาที่นี่ด้วยความหวังว่าพอใช้แล้วมันอาจจะช่วยให้รู้สึกสบายใจและทำให้ปรับตัวเข้ากับชีวิตใหม่นี้ได้ง่ายขึ้น"
 
 # "No such luck, though."
-"ซึ่งก็แน่นอนว่าไม่ได้ช่วยอะไรเลย"
+"โชคไม่ดีที่มันไม่ได้ช่วยอะไร"
 
-"Groggily dragging myself out of bed, I wipe the sleep out of my eyes, then reach over to my desk. I open a couple of the bottles of medication strewn across it, and swallow a few pills dry."
+# "Groggily dragging myself out of bed, I wipe the sleep out of my eyes, then reach over to my desk. I open a couple of the bottles of medication strewn across it, and swallow a few pills dry."
+"ฉันลุกขึ้นจากเตียงนอนอย่างเชื่องช้า ยกมือขึ้นมาปัดเอาความง่วงงุนออกจากดวงตา ก่อนจะเอื้อมไปเปิดฝาขวดยาที่เรียงรายอยู่บนโต๊ะแล้วเทเม็ดยาข้างในออกมา\nโยนพวกมันเข้าปากแล้วกลืนไปทั้งอย่างนั้น"
 
-"By now, the process is starting to become automatic - something I should be glad for, given their purpose."
+# "By now, the process is starting to become automatic - something I should be glad for, given their purpose."
+"ทำแบบนี้ทุกวันจนกลายเป็นเรื่องอัตโนมัติไปแล้ว และก็ควรรู้สึกดีใจที่เป็นอย่างนั้นฉันถึงได้ยังมีชีวิตอยู่"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
 scene bg school_dormbathroom
 with locationskip
 
-"Feeling much more awake than before, I wander into the bathroom."
+# "Feeling much more awake than before, I wander into the bathroom."
+"หลังจากรู้สึกตื่นตัวมากขึ้นกว่าเดิมแล้ว ฉันก็เดินไปเข้าห้องน้ำ"
 
 play ambient sfx_shower fadein 8.0
 
 show steam
 with charaenter
 
-"While the shower warms up, my mind begins to wander as my new daily routine begins once again."
+# "While the shower warms up, my mind begins to wander as my new daily routine begins once again."
+"ขณะที่น้ำอุ่นจากฝักบัวไหลลงมาบนหัว ใจของฉันก็เริ่มลอยออกไปในตอนที่กิจวัตรประจำวันใหม่ได้เริ่มต้นขึ้นอีกครั้ง"
 
 "The bright colors of the fireworks fill my mind, as do the two girls with whom I spent my time watching them. It feels strange to be moved so much by people I know so little about."
+# "แสงหลากสีสันของดอกไม้ไฟปรากฏขึ้นในใจ กับเด็กสาวสองคนที่ฉันใช้เวลาคอยเฝ้ามอง พอคิดว่าทั้งสองคนนั้นที่ไม่ได้รู้จักกันมาก่อนกลับทำให้รู้สึกประทับใจได้ขนาดนี้ก็อดรู้สึกแปลกใจขึ้นมาไม่ได้"
+# "ภาพของแสงหลากสีสันของดอกไม้ไฟที่ส่องสว่างกับเด็กสาวสองคนที่ฉันใช้เวลาคอยเฝ้ามองปรากฏขึ้นในใจ" ---
+# "ฉากทัศน์ของดอกไม้ไฟหลากสีปรากฏขึ้น ---"
+# "ภาพของดอกไม้ไฟหลากสีและเด็กสาวทั้งสองที่ฉันได้ใช้เวลาเฝ้ามอง --(ใช้เวลาร่วมกัน?) -- ปรากฏขึ้นในใจ "
 
 "Then again, I suppose these aren't normal circumstances. At least I have someone to talk to, now, aside from my schoolmate next door."
+# "------------------------------------------------------- และอย่างน้อยตอนนี้ฉันก็มีคนที่สามารถพูดคุยด้วยได้แล้ว\nนอกจากนายเพื่อนร่วมสถาบันที่อาศัยอยู่ห้องข้าง ๆ คนนั้น"
 
 stop ambient fadeout 2.0
 
 hide steam
 with charaexit
 
-"With the time left before school begins today waning, I begin to get ready for class."
+# "With the time left before school begins today waning, I begin to get ready for class."
+"ฉันใช้เวลาที่เหลืออยู่และกำลังหายไปก่อนที่โรงเรียนจะเริ่มในการเตรียมตัวสำหรับคาบเรียนแรก"
 
 $ renpy.music.set_volume(1.0, 3.0, channel="music")
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"Walking through the door into the classroom, I notice that I'm still somewhat early. I see about five or six students milling around, most of them looking as if they'd rather be still in bed."
+# "Walking through the door into the classroom, I notice that I'm still somewhat early. I see about five or six students milling around, most of them looking as if they'd rather be still in bed."
+"เมื่อเดินผ่านประตูเข้ามาในห้องเรียนแล้วถึงได้รู้ว่าตัวเองมาถึงค่อนข้างเช้า มองไปในห้องก็เห็นนักเรียนคนอื่นอีกห้าหรือหกคนนั่งอยู่เฉย ๆ\nมีสีหน้าเหมือนยังไม่อยากลุกขึ้นจากเตียงกันเกือบทุกคน"
 
-"It's at times like this that I appreciate being a morning person. That said, two students in particular seem just as perky as always."
+# "It's at times like this that I appreciate being a morning person. That said, two students in particular seem just as perky as always."
+"เพราะอะไรแบบนี้นี่แหละที่ทำให้ฉันรู้สึกขอบคุณที่ตัวเองเป็นคนตื่นเช้า แต่ถึงอย่างนั้นในห้องก็ยังมีนักเรียนอยู่สองคนที่มีท่าทีกระปรี้กระเป่าอยู่เช่นเคย"
 
-hi "Hi Shizune, hi Misha."
+# hi "Hi Shizune, hi Misha."
+hi "สวัสดี ชิซูเนะ หวัดดี มิช่า"
 
 show shizu behind_blank at tworight
 show misha perky_smile at twoleft
 with charaenter
 
-"I suddenly realize that my greeting would be lost on the former, so I quickly follow it up with a wave. She doesn't seem overly bothered."
+# "I suddenly realize that my greeting would be lost on the former, so I quickly follow it up with a wave. She doesn't seem overly bothered."
+"ฉันนึกขึ้นได้ว่าอาจมีคนนึงที่ไม่ได้ยินคำทักทายนั้น จึงรีบยกมือขึ้นโบกทักทายตามไป แต่ก็ดูเหมือนว่าเธอคนนั้นจะไม่ได้รู้สึกไม่ดีอะไร"
 
-"Or interested, for that matter."
+# "Or interested, for that matter."
+"หรือบางทีก็แค่ไม่ได้สนใจอะไรแบบนั้น"
 
 show shizu basic_normal
 with charachange
 
-shi "…"
+# shi "…"
+shi "..."
 
 show misha hips_grin
 with charachange
 
-mi "Hello, Hicchan~! Are you feeling well?"
+# mi "Hello, Hicchan~! Are you feeling well?"
+mi "ดีจ้า ฮิจัง~!สบายดีมั้ยเอ่ย?"
 
-"I can only assume her greeting comes from Shizune. It's hard to tell if she's speaking as herself or Shizune, sometimes."
+# "I can only assume her greeting comes from Shizune. It's hard to tell if she's speaking as herself or Shizune, sometimes."
+"ฉันได้แต่คิดเอาว่าชิซูเนะคงเป็นผู้ที่ฝากคำทักทายนั้นส่งมา เพราะบางครั้งฉันก็ดูไม่ออกว่ามิช่ากำัลงพูดถึงตัวเองหรือพูดแทนชิซูเนะอยู่"
 
-hi "Better than most everyone else, I guess. You two seem bright and chipper."
+# hi "Better than most everyone else, I guess. You two seem bright and chipper."
+hi "ก็คงดีกว่าคนอื่น ๆ อยู่ละมั้ง พวกเธอเองก็ดูอารมณ์สดใสดีเหมือนกันนี่"
 
 show misha sign_smile
 with charachange
@@ -95,13 +114,17 @@ show shizu basic_frown
 with charachange
 
 "Misha signs this back to Shizune as I say it, eliciting a somewhat terse answer, if her sharp and rapid arm movements are any indication."
+# "มิช่าแปลคำพูดของฉันเป็นภาษามือแล้วส่งไปหาชิซูเนะ เลือกเอาเฉพาะส่วนที่เป็นใจความสำคัญส่งไป"
+# -----------------------------------------------"อย่างรวบรัด - รวบรัดตัดความ"
 
 "Considering that these two made such a big deal out of the festival preparations, I probably should've chosen my words more carefully."
+# "พอนึกขึ้นได้ว่าสองคนนี้ (made such a big deal out of the festival preparations) ก็ทำให้คิดได้ว่าทีหลังต้องระวัง/เลือกคำพูดของตัวเองให้ดี"
 
 show shizu behind_frown
 with charachange
 
-shi "…!"
+# shi "…!"
+shi "...!"
 
 show misha hips_grin
 with charachange
@@ -124,11 +147,13 @@ with charachange
 mi "—we would prefer your efforts to be focused on the task at hand. Namely, your own class."
 
 "As much as I hate to admit it, they do have a point. Before I can respond, though, Shizune adds something more, which draws a smile from Misha."
+# "ถึงฉันจะไม่อยากยอมรับสักเท่าไหร่ แต่ก็ปฏิเสธไม่ได้ว่าที่พวกเธอว่ามาก็มีเหตุผล - แต่ก่อนที่จะได้พูดอะไรกลับไป(respond) ชิซูเนะก็ ---"
 
 show shizu behind_blank
 with charachange
 
-shi "…"
+# shi "…"
+shi "..."
 
 show misha perky_smile
 with charachange
@@ -157,6 +182,7 @@ show bg school_scienceroom at bgleft
 with charamove
 
 "I look over to Hanako's seat and realize that she's already there, and contentedly reading a book. It makes me wonder just how long she's been there without me noticing."
+# "ฉันมองไปทางที่นั่งของฮานาโกะก่อนจะพบว่าเธอกำลังก้มหน้าก้มตาอ่านหนังสืออยู่อย่างเงียบ ๆ อยู่อย่างนั้นตั้งแต่ตอนไหนก็ไม่รู้ ---"
 
 show misha hips_grin:
     ease 1.0 xpos 0.2
