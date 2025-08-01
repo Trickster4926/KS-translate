@@ -171,7 +171,7 @@
     displayDict["th"].name_aki = thname("อากิระ")
     displayDict["th"].name_hh = thname("ฮิเดอากิ")
     displayDict["th"].name_hx = thname("จิโกโร")
-    displayDict["th"].name_emm = thname("เมโกะ")
+    displayDict["th"].name_emm = thname("เมอิโกะ")
     displayDict["th"].name_sk = thname("พนักงานร้าน")
     displayDict["th"].name_mk = thname("มิกิ")
 
