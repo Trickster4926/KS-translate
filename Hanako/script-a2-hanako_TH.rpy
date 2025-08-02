@@ -2074,28 +2074,35 @@ show shizu behind_smile_close at Transform(xanchor=0.5, xpos=0.5)
 show misha hips_grin_close at Transform(xanchor=0.5, xpos=0.17)
 with None
 
-hi "What do you say, Hanako? If we all help it shouldn't take long at all."
+# hi "What do you say, Hanako? If we all help it shouldn't take long at all."
+hi "เธอว่าไงล่ะฮานาโกะ ถ้าเราช่วยกันแป๊บเดียวคงเสร็จ"
 
 show hanako emb_timid
 with charachange
 
-"Hanako's fidgeting answers my question before she can even form the words."
+# "Hanako's fidgeting answers my question before she can even form the words."
+"อาการอยู่ไม่สุขของฮานาโกะบอกคำตอบให้ฉันรู้ก่อนที่จะได้เธอจะพูดอะไรเสียอีก"
 
 show hanako emb_downtimid
 with charachange
 
-ha "I… I really need to go…"
+# ha "I… I really need to go…"
+ha "ฉะ… ฉันต้องไปแล้วน่ะ…"
 
-"Well, that was to be expected. Looks like it's just me and the council girls again."
+# "Well, that was to be expected. Looks like it's just me and the council girls again."
+"ก็ตามคาด ดูท่าแล้วคงมีแค่ฉันกับสาว ๆ ในสภาเช่นเดิม"
 
-"It's easier to resign myself to another afternoon's work in the small council office."
+# "It's easier to resign myself to another afternoon's work in the small council office."
+"คงจะง่ายกว่าที่ยอมไปทำงานในช่วงบ่าย ในห้องทำงานเล็ก ๆ ของสภานักเรียน"
 
-hi "I'll catch up with you later, okay?"
+# hi "I'll catch up with you later, okay?"
+hi "งั้นเดี๋ยวฉันตามไปนะ โอเค?"
 
 show hanako emb_smile
 with charachange
 
-ha "O-okay."
+# ha "O-okay."
+ha "อะ โอเค"
 
 stop music fadeout 3.0
 
@@ -2109,33 +2116,40 @@ show misha hips_smile_close at twoleft
 hide hanako
 with charachange
 
-mi "Right! Now that the farewells are over, it's work time!"
+# mi "Right! Now that the farewells are over, it's work time!"
+mi "เอ้า! ร่ำลากันเสร็จแล้วก็ไปทำงานได้แล้ว!"
 
 scene bg school_hallway3
 with locationchange
 
-"Misha and Shizune frog-march me to the student council office, never once letting go of my shoulders."
+# "Misha and Shizune frog-march me to the student council office, never once letting go of my shoulders."
+"มิช่ากับชิซูเนะพาฉันเดินไปที่ห้องสภานักเรียนโดยจับไหล่ฉันไว้ไม่ปล่อยเลย"
 
-"I feel a little bad for ditching Hanako like this, but if this is the price of getting Misha off her back, so be it."
+# "I feel a little bad for ditching Hanako like this, but if this is the price of getting Misha off her back, so be it."
+"รู้สึกผิดนิดหน่อยแหละที่ทอ้งฮานาโกะไว้แบบนั้น แต่ถ้าทำแล้วช่วยให้มิช่าไม่มาเกาะแกะกับเธออีก ก็คุ้มอยู่"
 
 scene bg school_council
 with locationchange
 
-hi "So then, what are we up to today?"
+# hi "So then, what are we up to today?"
+hi "งั้น วันนี้มีอะไรต้องทำล่ะ"
 
 show misha sign_smile at center
 with charaenter
 
 play music music_ease fadein 8.0
 
-mi "Debrief!"
+# mi "Debrief!"
+mi "สรุปงาน!"
 
-hi "Huh? Isn't that supposed to happen after something?"
+# hi "Huh? Isn't that supposed to happen after something?"
+hi "ฮะ? ไม่ใช่ว่าต้องทำหลังทำอย่างอื่นเหรอ"
 
 show misha hips_grin
 with charachange
 
-mi "Yup! We have to collate all of the information from the festival so that Shicchan can debrief the teachers."
+# mi "Yup! We have to collate all of the information from the festival so that Shicchan can debrief the teachers."
+mi "อื้ม! พวกเราได้เก็บข้อมูลจากงานเทศกาลมาเพื่อที่ชิจังจะได้สรุปงานให้ครูน่ะ"
 
 show misha hips_grin at twoleft
 show bg school_council at bgleft
@@ -2144,55 +2158,68 @@ with charamove
 show shizu adjust_happy at tworight
 with charaenter
 
-"Shizune drops a large pile of paperwork on the desk in front of me, and smiles succinctly."
+# "Shizune drops a large pile of paperwork on the desk in front of me, and smiles succinctly."
+"ชิซูเนะวางเอกสารกองใหญ่ลงบนโต๊ะหน้าฉัน แล้วยิ้มสั้น ๆ"
 
 show misha hips_smile
 with charachange
 
-mi "You need to sort those out into two piles."
+# mi "You need to sort those out into two piles."
+mi "นายต้องแยกเอกสารออกเป็นสองกอง"
 
 show misha sign_smile
 with charachange
 
-mi "One for financial stuff, like receipts, one for feedback, one for positive feedback, maybe one for things that look like they could be problems next year, one for problems that probably won't be able to be fixed…"
+# mi "One for financial stuff, like receipts, one for feedback, one for positive feedback, maybe one for things that look like they could be problems next year, one for problems that probably won't be able to be fixed…"
+mi "กองนึงสำหรับพวกการเงิน เช่นใบเสร็จ อีกกองสำหรับข้อเสนอแนะ อีกกองข้อเสนอแนะเชิงบวก อาจจะมีอีกกองสำหรับ\nปัญหาที่อาจจะเกิดในปีหน้า แล้วก็กองนึงสำหรับปัญหาที่น่าจะแก้ไม่ได้… "
 
-hi "That's a few more than two piles…"
+# hi "That's a few more than two piles…"
+hi "นั่นมากกว่าสองกองไปหน่อยนะ…"
 
 show misha perky_confused
 with charachange
 
-mi "Huh? Oh, right. Yeah I thought it would be only two piles. My bad."
+# mi "Huh? Oh, right. Yeah I thought it would be only two piles. My bad."
+mi "ฮะ อ๋อ ช่าย ตอนแรกนึกว่าแค่สองกองน่ะ โทษที"
 
-hi "Right. While I'm doing this, what will you two be doing?"
+# hi "Right. While I'm doing this, what will you two be doing?"
+hi "อ่าฮะ แล้วระหว่างที่ฉันทำงานนี่ พวกเธอจะทำอะไรล่ะ"
 
 show misha hips_grin
 show shizu adjust_smug
 with charachange
 
-mi "Well, we missed lunch because we were collecting all of these reports, so we're going to go get some food!"
+# mi "Well, we missed lunch because we were collecting all of these reports, so we're going to go get some food!"
+mi "ก็ พวกเราไม่ได้กินข้าวเที่ยงก็เพราะรวบรวมรายงานนี่แหละ เลยว่าจะออกไปหาอะไรกินสักหน่อย"
 
-"Why didn't you just sort them out while you were collecting them…"
+# "Why didn't you just sort them out while you were collecting them…"
+"แล้วทำไมเธอถึงไม่แยกเอกสารตั้งแต่ตอนรวบรวมล่ะ…"
 
-"Thankfully my self-defense mechanism kicks in and prevents me from opening my mouth and further worsening my situation."
+# "Thankfully my self-defense mechanism kicks in and prevents me from opening my mouth and further worsening my situation."
+"โชคยังดีที่กลไกป้องกันตัวเองของฉันทำงาน ช่วยยั้งไม่ให้ฉันอ้าปากพูดอะไรที่จะทำให้สถานการณ์แย่ไปกว่าเดิมออกไป"
 
 show misha perky_confused
 with charachange
 
-mi "Eh?!"
+# mi "Eh?!"
+mi "เอ๋?!"
 
 show misha perky_sad
 with charachange
 
-mi "How is that fair?"
+# mi "How is that fair?"
+mi "ยุติธรรมยังไงเนี่ย"
 
 show shizu behind_blank
 with charachange
 
 shi "…"
 
-"I was fretting over the unfair distribution of work so much that I didn't notice that Shizune had kept on signing."
+# "I was fretting over the unfair distribution of work so much that I didn't notice that Shizune had kept on signing."
+"ฉันมัวแต่กังวลกับการแบ่งงานที่ไม่ยุติธรรม จนไม่ทันสังเกตเลยว่าชิซูเนะส่งภาษามืออยู่"
 
-"If it weren't for Misha's outburst, I probably wouldn't have noticed at all."
+# "If it weren't for Misha's outburst, I probably wouldn't have noticed at all."
+"ถ้าไม่ใช่เพราะมิช่าหลุดพูดมา ฉันคงไม่รู้ตัวด้วยซ้ำ"
 
 show shizu adjust_smug
 with charachange
@@ -2203,7 +2230,8 @@ with charachange
 show shizu behind_blank
 with charachange
 
-"Shizune seems to be delivering a fairly long string of commands to Misha, and none of them look pleasant."
+# "Shizune seems to be delivering a fairly long string of commands to Misha, and none of them look pleasant."
+"ดูเหมือนชิซูเนะกำลังสั่งงานมิช่ายาวเหยียด และดูเหมือนจะไม่มีงานไหนน่าอภิรมย์เลย"
 
 show misha sign_sad
 with charachange
@@ -2214,7 +2242,8 @@ with charachange
 show misha perky_sad at Transform(ypos=1.15)
 with charamove
 
-"Reaching a conclusion, Misha signs briefly back to Shizune, and then sits down at the desk next to me."
+# "Reaching a conclusion, Misha signs briefly back to Shizune, and then sits down at the desk next to me."
+"หลังจากได้ข้อสรุปแล้ว มิช่าก็ส่งภาษามือตอบกลับชิซึเนะอย่างสั้น ๆ แล้วนั่งลงที่โต๊ะข้าง ๆ ฉัน"
 
 show shizu adjust_happy
 with charachange
@@ -2226,225 +2255,290 @@ show misha perky_sad at Transform(xpos=0.5)
 show bg school_council at center
 with charamove
 
-"Shizune waves to the both of us before disappearing out the door."
+# "Shizune waves to the both of us before disappearing out the door."
+"ชิซูเนะโบกมือให้พวกเราสองคนก่อนที่จะหายออกไป"
 
-hi "What was all that about?"
+# hi "What was all that about?"
+hi "เมื่อกี้ว่าไงล่ะ"
 
 show misha perky_confused
 with charachange
 
-mi "Shicchan was worried that you'd get it all wrong unless you were supervised."
+# mi "Shicchan was worried that you'd get it all wrong unless you were supervised."
+mi "ชิจังกลัวว่าถ้าไม่มีคนคอยดู นายจะทำทุกอย่างผิดหมดน่ะ"
 
 show misha perky_sad
 with charachange
 
-mi "And since she can't tell you how you are messing things up, she's making me stay. Awww… bummer, I wanted to go with Shicchan!"
+# mi "And since she can't tell you how you are messing things up, she's making me stay. Awww… bummer, I wanted to go with Shicchan!"
+mi "และในเมื่อเธอเองก็บอกนายไม่ได้ว่านายทำผิดอยู่หรือเปล่า เธอเลยให้ฉันอยู่นี่น่ะ โธ่… แย่จัง ฉันก็อยากไปกับชิจังนะ!"
 
 show misha cross_smile
 with charachange
 
-mi "But she is going to bring us back some food~!"
+# mi "But she is going to bring us back some food~!"
+mi "แต่เธอก็จะไปซื้อข้าวมาให้เรานะ~!"
 
 show misha cross_grin
 with charachange
 
-mi "How good is that!"
+# mi "How good is that!"
+mi "เยี่ยมไปเลยใช่มะ!"
 
-"Misha's flippancy is out of this world. From down in the dumps to on top of the world over some calories."
+# "Misha's flippancy is out of this world. From down in the dumps to on top of the world over some calories."
+"อารมณ์พลิกผลันของมิช่านี่สุดยอดไปเลย จากที่หงอย ๆ อยู่ ๆ ก็ร่าเริงขึ้นมาได้แค่เพราะแคลอรี่นิด ๆ หน่อย ๆ"
 
-"It's hard to imagine how anyone could operate at that level."
+# "It's hard to imagine how anyone could operate at that level."
+"ยากที่จะหาใครเปรียบได้จริง ๆ"
 
-hi "Well, it could have been worse."
+# hi "Well, it could have been worse."
+hi "ก็ อาจจะไม่เยี่ยมขนาดนั้นก็ได้"
 
-hi "So what are we supposed to be doing?"
+# hi "So what are we supposed to be doing?"
+hi "อะ แล้วเราจะต้องทำอะไรบ้าง"
 
 show misha sign_smile
 with charachange
 
-mi "Collation."
+# mi "Collation."
+mi "ดูเทียบเอกสาร"
 
-hi "I gathered that."
+# hi "I gathered that."
+hi "ฉันทำไปละ"
 
 show misha hips_smile
 with charachange
 
-mi "Well, let's just start making piles. We'll work out what the piles mean later."
+# mi "Well, let's just start making piles. We'll work out what the piles mean later."
+mi "ถ้างั้น ก็เริ่มแยกออกเป็นกอง ค่อยมาดูว่าแต่ละกองคืออะไรอีกที"
 
-hi "Right…"
+# hi "Right…"
+hi "ได้…"
 
 show misha perky_smile
 with charachange
 
-"We start to separate all of the papers into increasingly complex piles."
+# "We start to separate all of the papers into increasingly complex piles."
+"พวกเราเริ่มแยกเอกสารออกเป็นหลาย ๆ กองที่ซับซ้อนขึ้นเรื่อย ๆ"
 
-"At first it's just simple categories; financial, feedback, incident reports…"
+# "At first it's just simple categories; financial, feedback, incident reports…"
+"ตอนแรกก็แค่ตามหมวดหมู่ง่าย ๆ อย่างการเงิน ข้อเสนอแนะ รายงานเหตุการณ์…"
 
-"Then they split apart into the good and bad reports, and further still, until it starts to look like we've just thrown the papers onto the desk."
+# "Then they split apart into the good and bad reports, and further still, until it starts to look like we've just thrown the papers onto the desk."
+"จากนั้น พวกเขาก็แยกรายงานออกเป็นกองดีและไม่ดี และแยกย่อยลงไปอีกเรื่อย ๆ จนดูเหมือนว่าเราแค่โยนเอกสารทิ้งลงบนโต๊ะ"
 
-hi "This is hopeless."
+# hi "This is hopeless."
+hi "น่าสิ้นหวังจริง ๆ"
 
 show misha perky_confused
 with charachange
 
-mi "Huh? Why? We're doing what we were told, right?"
+# mi "Huh? Why? We're doing what we were told, right?"
+mi "ฮะ ทำไมล่ะ เราก็ทำตามที่บอกแล้วนะ ใช่มะ"
 
-hi "Yes, but it looks like we're just making a mess."
+# hi "Yes, but it looks like we're just making a mess."
+hi "ก็ใช่ แต่ดูเหมือนเราแค่กองจนเละเลย"
 
 show misha hips_grin
 with charachange
 
-mi "No, I think we got a lot done. Shicchan will be able to work out the rest from here."
+# mi "No, I think we got a lot done. Shicchan will be able to work out the rest from here."
+mi "ไม่นะ ฉันว่าเราทำไปได้เยอะแล้วล่ะ เดี๋ยวชิจังน่าจะมาจัดการต่อได้"
 
 show misha cross_grin
 with charachange
 
-mi "So I think we can stop about here then."
+# mi "So I think we can stop about here then."
+mi "เพราะงั้นฉันว่าเราพอได้แล้วดีกว่า"
 
-"It's almost as if Misha's common sense left the room with Shizune."
+# "It's almost as if Misha's common sense left the room with Shizune."
+"อย่างกับสามัญสำนึกของมิช่าติดออกไปพร้อมชิซูเนะ"
 
-"Still, there's no point in arguing."
+# "Still, there's no point in arguing."
+"แต่ก็นะ ไม่มีประโยชน์ที่จะเถียงอยู่ดี"
 
 show misha sign_smile
 with charachange
 
-mi "Anyway…"
+# mi "Anyway…"
+mi "แต่เอาเถอะ…"
 
 show misha cross_smile
 with charachange
 
-mi "What's the deal with you and Hanako?"
+# mi "What's the deal with you and Hanako?"
+mi "แล้วนายตกลงอะไรกับฮานาโกะไว้ล่ะ"
 
-hi "Deal?"
+# hi "Deal?"
+hi "ตกลงอะไร?"
 
 show misha hips_smile
 with charachange
 
-mi "You were hanging out with her today, weren't you~?"
+# mi "You were hanging out with her today, weren't you~?"
+mi "นายไปอยู่กับเธอวันนี้ไม่ใช่เหรอ~"
 
 show misha hips_grin
 with charachange
 
-mi "Have there been any fireworks? Any gossip that you're withholding from me~?"
+# mi "Have there been any fireworks? Any gossip that you're withholding from me~?"
+mi "แอบไปกุ๊กกิ๊กอะไรกันมาหรือเปล่า หรือแอบซ่อนอะไรเด็ด ๆ ไว้"
 
-hi "If I told you about my own circumstances, it wouldn’t be gossip, would it?"
+# hi "If I told you about my own circumstances, it wouldn’t be gossip, would it?"
+hi "ถ้าฉันเล่าให้เธอฟัง มันก็ไม่ใช่แอบแล้วไหม"
 
 show misha perky_confused
 with charachange
 
-mi "I guess not…"
+# mi "I guess not…"
+mi "ก็คงไม่…"
 
-hi "We're just friends, I guess."
+# hi "We're just friends, I guess."
+hi "พวกเราก็แค่เพื่อนกันน่ะ คิดว่านะ"
 
-hi "Why are you so interested? I thought you and Shizune didn't like her…"
+# hi "Why are you so interested? I thought you and Shizune didn't like her…"
+hi "แล้วเธอจะอยากรู้อะไรขนาดนั้นล่ะ ฉันนึกว่าชิซูเนะไม่ชอบฮานาโกะเสียอีก…"
 
 show misha cross_frown
 with charachange
 
-mi "It's not really like that. You know Shicchan and Lilly don't get along well."
+# mi "It's not really like that. You know Shicchan and Lilly don't get along well."
+mi "ก็ไม่เชิงหรอก นายก็รู้ชิจังกับลิลลี่ไม่ค่อยถูกกัน"
 
-mi "And since you can't really get Hanako away from Lilly, we don't talk to her much."
+# mi "And since you can't really get Hanako away from Lilly, we don't talk to her much."
+mi "และฮานาโกะก็แทบอยู่ไม่ห่างจากลิลลี่เลย เราเลยไม่ได้คุยกันเธอมากนัก"
 
 show misha sign_smile
 with charachange
 
-mi "But that doesn't mean that I can't be concerned for her."
+# mi "But that doesn't mean that I can't be concerned for her."
+mi "แต่ก็ไม่ได้หมายความว่าพวกเราไม่ได้เป็นห่วงเธอสักหน่อย"
 
-hi "What is there to be concerned about?"
+# hi "What is there to be concerned about?"
+hi "แล้วมีอะไรน่าเป็นห่วงล่ะ"
 
 show misha perky_sad
 with charachange
 
-mi "Well, she never hangs out with anyone else, right? It's no good, Hicchan!"
+# mi "Well, she never hangs out with anyone else, right? It's no good, Hicchan!"
+mi "ก็ เธอไม่เคยจะไปอยู่กับคนอื่น ๆ เลย ใช่ไหมล่ะ ซึ่งไม่ดีเลยฮิจัง!"
 
-"If Shizune and Lilly dislike each other because “their personalities are different” then I hate to think how Misha and Hanako would get along…"
+# "If Shizune and Lilly dislike each other because “their personalities are different” then I hate to think how Misha and Hanako would get along…"
+"ถ้าชิซูเนะกับลิลลี่ไม่ชอบหน้ากันเพียงเพราะ “นิสัยแตกต่างกัน” ก็ไม่อยากนึกสภาพว่ามิช่ากับฮานาโกะว่าจะเข้ากัน\nไหวไหม…"
 
 show misha perky_confused
 with charachange
 
-mi "I mean, in one way or the other, we're all in the same boat here, right~?"
+# mi "I mean, in one way or the other, we're all in the same boat here, right~?"
+mi "หมายถึง ไม่ว่าจะเป็นทางไหน พวกเราก็ลงเรือลำเดียวกันแล้ว จริงไหมล่ะ~?"
 
-hi "Well, I guess."
+# hi "Well, I guess."
+hi "ก็ คงงั้นแหละ"
 
 show misha sign_smile
 with charachange
 
-mi "This one time, when she left class halfway through, Shicchan went to the teacher and asked what was going to be done about it."
+# mi "This one time, when she left class halfway through, Shicchan went to the teacher and asked what was going to be done about it."
+mi "ฉันจำได้ครั้งหนึ่งที่เธอออกจากห้องเรียนกลางคัน ชิจังเลยเดินไปหาครูและถามว่าจะเอายังไงดี"
 
 show misha sign_confused
 with charachange
 
-mi "He said that every student here has special needs, and that Shicchan shouldn't worry herself about it."
+# mi "He said that every student here has special needs, and that Shicchan shouldn't worry herself about it."
+mi "เขาก็บอกว่านักเรียนทุก ๆ คนก็มีความต้องการส่วนตัวต่างกัน ซึ่งชิจังไม่ต้องเป็นห่วงเรื่องนั้นหรอก"
 
 show misha perky_confused
 with charachange
 
-mi "Hanako never does any group work; she just runs off."
+# mi "Hanako never does any group work; she just runs off."
+mi "ฮานาโกะไม่เคยอยู่ทำงานกลุ่มเลย หนีไปก่อนตลอดเลย"
 
-mi "Isn't that enough to be concerned about?"
+# mi "Isn't that enough to be concerned about?"
+mi "แค่นั้นก็น่าเป็นห่วงพอแล้วนี่ ใช่ไหม"
 
-hi "I guess you're right. She still hardly says a word when we're talking."
+# hi "I guess you're right. She still hardly says a word when we're talking."
+hi "ที่เธอพูดก็ถูก เธอแทบไม่พูดอะไรด้วยซ้ำตอนเราคุยกัน"
 
 show misha perky_sad
 with charachange
 
-mi "Well, that's more than I have been able to do. Shicchan and I both tried when she started, but she got scared and ran off."
+# mi "Well, that's more than I have been able to do. Shicchan and I both tried when she started, but she got scared and ran off."
+mi "ก็นะ ฉันก็ทำเท่าที่ทำได้แล้ว ชิจังกับฉันก็พยายามช่วยเธอตอนเริ่มทำนะ แต่เธอก็กลัวแล้วหนีไป"
 
-"I consider telling Misha that exactly the same thing happened with me, but she seems caught up in thought."
+# "I consider telling Misha that exactly the same thing happened with me, but she seems caught up in thought."
+"ฉันกำลังคิดว่าจะบอกมิช่าว่าก็เจอมาแบบเดียวกัน แต่ดูเหมือนเธอจะกำลังจมอยู่กับความคิดของตัวเอง"
 
-"Listening to Misha without Shizune's influence is… interesting."
+# "Listening to Misha without Shizune's influence is… interesting."
+"ได้ฟังมิช่าโดยไม่ได้มีชิซูเนะประกบอยู่ด้วยนี่ก็… น่าสนใจดี"
 
 show misha cross_frown
 with charachange
 
-mi "I think she needs to realize that people here don't care what she looks like, and that she can trust us."
+# mi "I think she needs to realize that people here don't care what she looks like, and that she can trust us."
+mi "ฉันว่าเธอควรรู้ว่าคนไม่ได้สนใจหรอกว่าเธอจะรูปลักษณ์เป็นยังไง และเธอเองก็เชื่อใจพวกเราได้"
 
 show misha cross_smile
 with charachange
 
-mi "If she could, I'd feel a lot better about her."
+# mi "If she could, I'd feel a lot better about her."
+mi "ถ้าเธอเข้าใจ ฉันก็หมดห่วงแล้ว"
 
-"I think this is the longest I have watched Misha without seeing her sign."
+# "I think this is the longest I have watched Misha without seeing her sign."
+"นี่เป็นครั้งแรกเลยมั้งที่ฉันได้เห็นมิช่าอยู่นิ่ง ๆ โดยที่ไม่ใช้ภาษามือเลย"
 
-"When she's with Shizune, she is constantly waving her hands about, explaining the world to Shizune."
+# "When she's with Shizune, she is constantly waving her hands about, explaining the world to Shizune."
+"ตอนที่มิช่าอยู่กับชิซูเนะ เธอมักจะโบกมือไปมาตลอดเวลา เพื่ออธิบายเรื่องราวต่าง ๆ ในโลกให้ชิซูเนะเข้าใจ"
 
-"That amount of effort probably places a strain even on an agile mind."
+# "That amount of effort probably places a strain even on an agile mind."
+"ความพยายามมากขนาดนั้น น่าจะสร้างความเหนื่อยล้าแม้แต่กับคนใช้สมองได้คล่อง"
 
-"And let's face it; Misha isn't the world's brightest spark."
+# "And let's face it; Misha isn't the world's brightest spark."
+"และว่ากันตามตรง มิช่าก็ไม่ใช่คนที่หลักแหลมขนาดนั้นหรอก"
 
-hi "Well, I'll keep an eye on her for you."
+# hi "Well, I'll keep an eye on her for you."
+hi "อืม เดี๋ยวฉันช่วยดูฮานาโกะให้เธอละกัน"
 
-hi "But you should probably apologize for earlier. I don't think Hanako is cut out for that kind of joke."
+# hi "But you should probably apologize for earlier. I don't think Hanako is cut out for that kind of joke."
+hi "แต่เธอก็ควรไปขอโทษเธอเรื่องก่อนหน้านี้ด้วยล่ะ ฉันว่าฮานาโกะคงไม่ชอบมุกตลกแบบนั้นนะ"
 
 show misha perky_confused
 with charachange
 
-mi "Oh? Oh~!"
+# mi "Oh? Oh~!"
+mi "โอ๊ะ อ๋อ~!"
 
 show misha perky_sad
 with charachange
 
-mi "I didn't even notice. Sorry."
+# mi "I didn't even notice. Sorry."
+mi "ไม่รู้ตัวเลย ขอโทษที"
 
-hi "Don't say it to me, just mention it to her."
+# hi "Don't say it to me, just mention it to her."
+hi "ไม่ต้องขอโทษฉันหรอก ไปขอโทษเธอเองนู่น"
 
 show misha perky_smile
 with charachange
 
-mi "All right. First thing tomorrow, I'll speak to her."
+# mi "All right. First thing tomorrow, I'll speak to her."
+mi "โอเค พรุ่งนี้เช้าอย่างแรกที่ฉันจะทำคือไปคุยกับเธอ"
 
-hi "Good."
+# hi "Good."
+hi "ดี"
 
 play sound sfx_doorslam
 with vpunch
 
-"A cacophony from the door heralds the return of Shizune."
+# "A cacophony from the door heralds the return of Shizune."
+"เสียงอึกทึกครึกโครมจากประตู ได้ประกาศการกลับมาของชิซูเนะ"
 
-"I guess she can't really tell how much noise she is making."
+# "I guess she can't really tell how much noise she is making."
+"คาดว่าเธอคงไม่รู้ว่าเธอทำเสียงดังขนาดไหน"
 
 show misha hips_grin
 with charachange
 
-mi "Oh, Shicchan! You're back!"
+# mi "Oh, Shicchan! You're back!"
+mi "โอ้ ชิจัง! เธอกลับมาแล้ว!"
 
 show shizu invis at Transform(xanchor=0.5, xpos=1.0)
 with None
@@ -2454,7 +2548,8 @@ show shizu behind_blank at tworight
 show bg school_council at bgleft
 with dissolvecharamove
 
-"Shizune appears, completely laden with goods from the convenience store."
+# "Shizune appears, completely laden with goods from the convenience store."
+"ชิซูเนะปรากฏตัวขึ้น พร้อมกับของที่ซื้อจากร้านสะดวกซื้อเต็มไม้เต็มมือไปหมด"
 
 show shizu basic_normal2
 with charachange
@@ -2464,14 +2559,17 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "There was some surplus left from the festival. Since this is officially festival business, I've splurged a little."
+# mi "There was some surplus left from the festival. Since this is officially festival business, I've splurged a little."
+mi "พอดีมีงบเหลือจากเทศกาลอยู่บ้าง และในเมื่อเราทำงานของงานเทศกาลนี่อยู่ ฉันก็เลยจัดเต็มไปหน่อยน่ะ"
 
 show misha hips_grin
 with charachange
 
-mi "Nice idea Shicchan, ten points."
+# mi "Nice idea Shicchan, ten points."
+mi "ความคิดดีเลยชิจัง สิบคะแนนเต็ม"
 
-hi "Is that really allowed?"
+# hi "Is that really allowed?"
+hi "ทำได้ด้วยเหรอ"
 
 show shizu cross_angry
 with charachange
@@ -2481,25 +2579,31 @@ shi "…"
 show misha cross_frown
 with charachange
 
-mi "For someone who refuses to join us, you seem to take an unhealthy interest in the politics of this council."
+# mi "For someone who refuses to join us, you seem to take an unhealthy interest in the politics of this council."
+mi "สำหรับคนที่ไม่ยอมเข้าร่วมกับเรา นายดูจะสนใจเรื่องการจัดการในสภามากไปหน่อยนะ"
 
 show misha cross_grin
 show shizu adjust_smug at tworight
 with charachange
 
-mi "I shall punish your insolence by rationing your portion of the feast."
+# mi "I shall punish your insolence by rationing your portion of the feast."
+mi "ฉันจะลงโทษความอวดดีของเธอ ด้วยการปันส่วนอาหารให้นายแค่เล็กน้อยเท่านั้น"
 
-hi "Fine, fine, I get it."
+# hi "Fine, fine, I get it."
+hi "เออ เออ เข้าใจแล้ว"
 
 show misha perky_smile
 show shizu adjust_happy at Transform(ypos=1.15)
 with dissolvecharamove
 
-"Misha slides the multiple stacks of paper to one side to make room for the avalanche of food Shizune is spreading out."
+# "Misha slides the multiple stacks of paper to one side to make room for the avalanche of food Shizune is spreading out."
+"มิช่าขยับกองเอกสารหลายกองไปข้าง ๆ เพื่อจัดที่ให้สำหรับกองอาหารที่ชิซูเนะกำลังจัดวาง"
 
-"As I watch my hard yet misdirected work become wasted, I realize that it's little wonder why these two need help."
+# "As I watch my hard yet misdirected work become wasted, I realize that it's little wonder why these two need help."
+"ขณะที่ฉันมองดูงานที่อุตส่าห์ทำอย่างหนักแต่ผิดวัตถุประสงค์กลายเป็นของไร้ค่า ฉันก็นึกได้ว่าไม่แปลกใจเลยว่าทำไมสองคนนี้\nถึงต้องการความช่วยเหลือ"
 
-"The convenience store meal isn't overly tasty, but at the very least it's filling."
+# "The convenience store meal isn't overly tasty, but at the very least it's filling."
+"อาหารจากร้านสะดวกซื้อรสชาติไม่ได้ดีเลิศอะไร แต่อย่างน้อยก็ทำให้อิ่มท้องได้"
 
 show shizu behind_smile
 with charachange
@@ -2509,32 +2613,41 @@ shi "…"
 show misha sign_smile
 with charachange
 
-mi "Thanks for helping today. Most of the time we just make up the reports for the staff."
+# mi "Thanks for helping today. Most of the time we just make up the reports for the staff."
+mi "ขอบใจนายที่มาช่วยวันนี้ ส่วนใหญ่เราทำแต่เอกสารส่งให้ทางโรงเรียน"
 
 show misha perky_smile
 with charachange
 
-mi "This year we can at least make up some relevant headings on the debrief."
+# mi "This year we can at least make up some relevant headings on the debrief."
+mi "ปีนี้อย่างน้อยเราก็สามารถสร้างหัวข้อที่เกี่ยวข้อง ขึ้นมาในรายงานสรุปได้แล้ว"
 
-hi "Are you sure this isn't a corrupt organization?"
+# hi "Are you sure this isn't a corrupt organization?"
+hi "แน่ใจเหรอว่าไม่ใช่การทุจริตน่ะ"
 
 show misha hips_grin
 with charachange
 
-mi "Not at all, not at all. We're by the book. It's not our fault if the book isn't specific enough."
+# mi "Not at all, not at all. We're by the book. It's not our fault if the book isn't specific enough."
+mi "ไม่เลย ๆ พวกเราทำตามกฎระเบียบแล้ว ถ้ากฎเขียนไม่ครอบคลุม เราก็ไม่ผิดสักหน่อย"
 
-hi "I thought that was the definition of corruption…"
+# hi "I thought that was the definition of corruption…"
+hi "ก็นั่นแหละที่เรียกว่าทุจริตน่ะ…"
 
 show misha hips_smile
 with charachange
 
-mi "You think too much~!"
+# mi "You think too much~!"
+mi "นายคิดมากน่า~!"
 
-hi "You know what? You're probably right."
+# hi "You know what? You're probably right."
+hi "รู้อะไรปะ ฉันว่าเธอคงพูดถูกแหละ"
 
-hi "Anyway, I must be off…"
+# hi "Anyway, I must be off…"
+hi "เอาเถอะ ฉันต้องไปแล้ว…"
 
-hi "…that is, if I'm allowed to leave."
+# hi "…that is, if I'm allowed to leave."
+hi "…นั้นแหละ ถ้าฉันได้รับอนุญาตอะนะ"
 
 show shizu adjust_smug
 with charachange
@@ -2544,11 +2657,14 @@ shi "…"
 show misha hips_grin
 with charachange
 
-mi "Your work has been deemed sufficient. You may leave."
+# mi "Your work has been deemed sufficient. You may leave."
+mi "งานของนายถือว่าเพียงพอแล้ว นายไปได้"
 
-hi "Well, thank you."
+# hi "Well, thank you."
+hi "อืม ขอบใจ"
 
-hi "You know, if you stressed the “free meal” side of things over the “endless workload” side, you'd probably end up with more recruits."
+# hi "You know, if you stressed the “free meal” side of things over the “endless workload” side, you'd probably end up with more recruits."
+hi "รู้อะไรไหม ถ้าเธอเน้นเรื่อง “อาหารฟรี” มากกว่า “งานที่ไม่มีวันหมด” เธออาจจะได้คนมาช่วยเยอะกว่านี้ก็ได้นะ"
 
 stop music fadeout 6.0
 
@@ -2558,23 +2674,29 @@ with charachange
 show shizu behind_blank
 with charachange
 
-mi "You might just have a point."
+# mi "You might just have a point."
+mi "ที่นายพูดก็จริง"
 
-hi "Well, think about it."
+# hi "Well, think about it."
+hi "อืม ฝากไว้ให้คิด"
 
-hi "And think about what we talked about… you don't have to tell that to Shizune if you don't want."
+# hi "And think about what we talked about… you don't have to tell that to Shizune if you don't want."
+hi "แล้วก็ไปคิดเรื่องที่เราคุยกันไปก่อนหน้าด้วย… เธอไม่ต้องบอกชิซูเนะก็ได้นะถ้าไม่อยาก"
 
 show misha perky_confused
 with charachange
 
-mi "What? Oh, right. I'll try to see her tomorrow."
+# mi "What? Oh, right. I'll try to see her tomorrow."
+mi "ฮะ อ๋อ อืม เดี๋ยวฉันพยายามไปเจอเธอพรุ่งนี้"
 
 show misha perky_smile
 with charachange
 
-mi "G'night, Hicchan."
+# mi "G'night, Hicchan."
+mi "ราตรีหวัด ฮิจัง"
 
-hi "Night Misha, Shizune."
+# hi "Night Misha, Shizune."
+hi "ราตรีหวัดมิช่า ชิซูเนะ"
 
 scene black
 with dissolve
