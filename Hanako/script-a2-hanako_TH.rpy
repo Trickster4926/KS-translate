@@ -2620,7 +2620,7 @@ show misha perky_smile
 with charachange
 
 # mi "This year we can at least make up some relevant headings on the debrief."
-mi "ปีนี้อย่างน้อยเราก็สามารถสร้างหัวข้อที่เกี่ยวข้อง ขึ้นมาในรายงานสรุปได้แล้ว"
+mi "ปีนี้อย่างน้อยเราก็สามารถสร้างหัวข้อที่เกี่ยวข้องขึ้นมาในรายงานสรุปได้แล้ว"
 
 # hi "Are you sure this isn't a corrupt organization?"
 hi "แน่ใจเหรอว่าไม่ใช่การทุจริตน่ะ"
@@ -2647,7 +2647,7 @@ hi "รู้อะไรปะ ฉันว่าเธอคงพูดถู
 hi "เอาเถอะ ฉันต้องไปแล้ว…"
 
 # hi "…that is, if I'm allowed to leave."
-hi "…นั้นแหละ ถ้าฉันได้รับอนุญาตอะนะ"
+hi "…นั่นแหละ ถ้าฉันได้รับอนุญาตอะนะ"
 
 show shizu adjust_smug
 with charachange
@@ -2711,9 +2711,11 @@ show shizu behind_smile_close at Transform(xanchor=0.5, xpos=0.5)
 show misha hips_grin_close at Transform(xanchor=0.5, xpos=0.17)
 with None
 
-hi "Hey, Shizune. I know I said I'd help, but I forgot I'd already made plans. Besides, I helped out more than my fair share last week, didn't I?"
+# hi "Hey, Shizune. I know I said I'd help, but I forgot I'd already made plans. Besides, I helped out more than my fair share last week, didn't I?"
+hi "นี่ชิซูเนะ คือฉันก็บอกเองแหละว่าจะช่วย แต่พอดีลืมไปว่ามีธุระแล้วน่ะ แล้วอีกอย่าง สัปดาห์ที่แล้วฉันก็ช่วยงานไปมากกว่า\nที่ควรแล้วไม่ใช่เหรอ"
 
-hi "I promise I'll make it up to you some other time."
+# hi "I promise I'll make it up to you some other time."
+hi "ฉันสัญญาว่าเดี๋ยวจะมาช่วยวันหลัง"
 
 show misha sign_confused_close
 with charachange
@@ -2727,17 +2729,20 @@ with charachange
 show shizu behind_blank_close
 with charachange
 
-"Shizune and Misha release their grip on me and have a long, deep, and silent conversation."
+# "Shizune and Misha release their grip on me and have a long, deep, and silent conversation."
+"ชิซูเนะกับมิช่าปล่อยมือจากฉัน และก็นิ่งเงียบไปสักพักใหญ่ ๆ"
 
 show misha sign_smile_close
 with charachange
 
-mi "Well, you have a point there. To be honest, we were only going to spend the rest of the budget on cakes."
+# mi "Well, you have a point there. To be honest, we were only going to spend the rest of the budget on cakes."
+mi "อืม ที่นายพูดก็ถูก ว่าตามตรงเราแค่จะใช้งบที่เหลือซื้อเค้กกินกันน่ะ"
 
 show misha cross_laugh_close
 with charachange
 
-mi "So, if you're not there, it works out better. More cake for us. Wahahaha~!"
+# mi "So, if you're not there, it works out better. More cake for us. Wahahaha~!"
+mi "ซึ่งถ้านายไม่มาด้วยก็ดี ตัวหารจะได้น้อยลงด้วย วะฮ่าฮ่าฮ่า~!"
 
 stop music fadeout 6.0
 
@@ -2751,20 +2756,26 @@ hide shizu
 hide misha
 with None
 
-"Shizune about-faces and marches out the door, and Misha skips out after her."
+# "Shizune about-faces and marches out the door, and Misha skips out after her."
+"ชิซูเนะหันหลังกลับและเดินออกไป ส่วนมิช่าก็กระโดดโลดเต้นตามเธอไป"
 
-hi "Well, that was a lot easier than I thought it was going to be. Last week those two were like bloodhounds. Or prison guards."
+# hi "Well, that was a lot easier than I thought it was going to be. Last week those two were like bloodhounds. Or prison guards."
+hi "อืม ง่ายกว่าที่คิดแฮะ สัปดาห์ที่แล้วทั้งคู่ทำตัวอย่างกับหมาล่าเนื้อ หรือพัศดี ยังไงยังงั้น"
 
-hi "Or maybe prison guards bred from bloodhounds…"
+# hi "Or maybe prison guards bred from bloodhounds…"
+hi "หรืออาจจะเป็นพัศดีที่เป็นหมาล่าเนื้ออีกทีอะนะ…"
 
-"I can't believe I just thought that, let alone saying it out loud. I think I need to move away from Kenji."
+# "I can't believe I just thought that, let alone saying it out loud. I think I need to move away from Kenji."
+"ฉันไม่อยากจะเชื่อเลยว่าตัวเองจะคิดแบบนั้น แล้วยังเผลอพูดออกมาอีก ฉันว่าฉันต้องอยู่ให้ห่างจากเคนจิแล้วละ"
 
-hi "…Never mind. Anyway, should we go to the library?"
+# hi "…Never mind. Anyway, should we go to the library?"
+hi "…ช่างเถอะ เอาล่ะ เราจะไปห้องสมุดกันเลยไหม"
 
 show hanako basic_smile
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha "อะ อื้ม"
 
 play ambient sfx_crowd_indoors fadein 0.5
 
@@ -2772,7 +2783,8 @@ scene bg school_hallway3
 show crowd
 with locationchange
 
-"Hanako follows me through the still-crowded halls to the library, using me as a shield."
+# "Hanako follows me through the still-crowded halls to the library, using me as a shield."
+"ฮานาโกะเดินตามฉันผ่านโถงทางเดินคนที่ยังคงแน่นไปยังห้องสมุด โดยใช้ฉันเป็นโล่กำบัง"
 
 stop ambient fadeout 0.5
 play music music_happiness fadein 2.0
@@ -2785,72 +2797,89 @@ with locationchange
 show hanako basic_worry at tworight
 with dissolvecharamove
 
-"As soon as we are through the door, Hanako bolts for the counter, where Yuuko is stacking books."
+# "As soon as we are through the door, Hanako bolts for the counter, where Yuuko is stacking books."
+"ทันทีที่เข้าประตูมา ฮานาโกะก็พุ่งตัวไปยังเคาน์เตอร์ที่ยูโกะกำลังกองหนังสืออยู่"
 
 show hanako emb_emb
 with charachange
 
-"Before I can catch up, Hanako has whispered something to her."
+# "Before I can catch up, Hanako has whispered something to her."
+"ก่อนที่ฉันจะตามทัน ฮานาโกะก็กระซิบบางอย่างให้เธอฟัง"
 
 show yuuko neurotic_up
 with charachange
 
-yu "Um, you'd find that in non-fiction, but I don't know where, exactly. If you want I can look it up…"
+# yu "Um, you'd find that in non-fiction, but I don't know where, exactly. If you want I can look it up…"
+yu "เอิ่ม เธอต้องหาที่หมวดสารคดีน่ะ แต่ไม่รู้ว่าอยู่ตรงไหน ถ้าจะให้ช่วยหาก็ได้นะ…"
 
 show hanako emb_downsad
 with charachange
 
-ha "N-never mind."
+# ha "N-never mind."
+ha "มะ ไม่เป็นไรค่ะ"
 
-hi "Hey Yuuko, what's all this about?"
+# hi "Hey Yuuko, what's all this about?"
+hi "นี่คุณยูโกะ มีอะไรเหรอครับ?"
 
 show yuuko neutral_down
 with charachange
 
-yu "Oh, Hisao… Hanako was just looking for a book on…"
+# yu "Oh, Hisao… Hanako was just looking for a book on…"
+yu "อ้าว ฮิซาโอะ… ฮานาโกะแค่จะมาหาหนังสือน่ะ"
 
 show hanako emb_blushing
 with charachange
 
-ha "N-nothing…"
+# ha "N-nothing…"
+ha "ปะ เปล่า…"
 
-hi "A book on nothing? In the non-fiction section?"
+# hi "A book on nothing? In the non-fiction section?"
+hi "หนังสือเรื่องความว่างเปล่าเหรอ ที่อยู่หมวดสารคดีอะนะ"
 
 show hanako def_strain
 with charachange
 
-ha "I… I was just…"
+# ha "I… I was just…"
+ha "ฉะ… ฉันแค่จะ…"
 
 show yuuko neurotic_up
 with charachange
 
-"I shoot a glance at Yuuko. She looks like she's about to burst from the pressure of keeping Hanako's request secret."
+# "I shoot a glance at Yuuko. She looks like she's about to burst from the pressure of keeping Hanako's request secret."
+"ฉันชำเลืองมองยูโกะ เธอดูเหมือนจะระเบิดจากแรงกดดันที่ต้องเก็บความลับเรื่องที่ฮานาโกะขอ"
 
-hi "Yuuko, what did…"
+# hi "Yuuko, what did…"
+hi "คุณยูโกะ เกิดอะไร…"
 
 show yuuko happy_down
 with charachange
 
-yu "Chess! She's looking for a chess book!"
+# yu "Chess! She's looking for a chess book!"
+yu "หมากรุกน่ะ! เธอมาหาหนังสือหมากรุกน่ะ!"
 
-"I make a mental note to never entrust Yuuko with any important information."
+# "I make a mental note to never entrust Yuuko with any important information."
+"ฉันจะจำไว้เลยว่าจะไม่มีวันฝากความลับสำคัญอะไรไว้กับยูโกะเด็ดขาด"
 
 show hanako defarms_shock
 with charachange
 
-ha "Y-Yuuko…"
+# ha "Y-Yuuko…"
+ha "คะ คุณยูโกะ…"
 
 show yuuko panic_up
 with charachange
 
-yu "I'm sorry Hanako… it just slipped out…"
+# yu "I'm sorry Hanako… it just slipped out…"
+yu "ขอโทษทีนะฮานาโกะ… ฉันเผลอพูดไปน่ะ…"
 
-hi "Well, it's not a secret any more. Come on, I'll give you a hand. I should really brush up on my skills, too."
+# hi "Well, it's not a secret any more. Come on, I'll give you a hand. I should really brush up on my skills, too."
+hi "เอาเถอะ ยังไงก็ไม่ใช่ความลับอีกแล้วละ มาเดี๋ยวฉันช่วยสอน ฉันเองว่าจะลับฝีมือด้วยเหมือนกัน"
 
 show hanako def_worry
 with charachange
 
-ha "O… okay."
+# ha "O… okay."
+ha "อะ… โอเค"
 
 hide yuuko
 with charaexit
@@ -2859,37 +2888,49 @@ show hanako def_worry at center
 show bg school_library at bgleft
 with charamove
 
-"Yuuko disappears behind the counter in shame as Hanako and I wander into the depths of the non-fiction section."
+# "Yuuko disappears behind the counter in shame as Hanako and I wander into the depths of the non-fiction section."
+"ยูโกะหายไปหลังเคาน์เตอร์ด้วยความอับอาย ขณะที่ฮานาโกะกับฉันเดินเข้าไปในโซนลึกของหมวดสารคดี"
 
-"I know there is supposed to be a system for categorizing these books, but I don't see how anyone can decipher it without spending half of their life researching it."
+# "I know there is supposed to be a system for categorizing these books, but I don't see how anyone can decipher it without spending half of their life researching it."
+"ฉันรู้ว่ามันควรจะมีระบบสำหรับจัดหมวดหมู่หนังสือพวกนี้อยู่ แต่ฉันก็ไม่เห็นว่าจะมีใครแก้ได้เลยถ้าไม่อุทิศเวลาไปกับ\nการค้นคว้าเรื่องนี้ตลอดชีวิต"
 
-"That's probably why all the librarians I know are neurotic."
+# "That's probably why all the librarians I know are neurotic."
+"นั่นอาจจะเป็นเหตุผลว่าทำไมบรรณารักษ์ทุกคนที่ฉันรู้จักถึงเป็นโรคประสาท"
 
 #Dewey Decimal for Chess is 794.1, between magic tricks and educational games.
 
-"Towards the end of the aisle, between a book on card tricks and some book on kid's games, stands a single book bearing the title “Chess Tactics for Champions”."
+# "Towards the end of the aisle, between a book on card tricks and some book on kid's games, stands a single book bearing the title “Chess Tactics for Champions”."
+"ตอนท้ายสุดของชั้นหนังสือ ระหว่างหนังสือเกี่ยวกับกลการเล่นไพ่กับหนังสือเกี่ยวกับเกมสำหรับเด็ก มีหนังสือเล่มหนึ่งตั้งอยู่\nโดดเด่น ชื่อว่า “กลยุทธ์หมากรุกสำหรับแชมเปี้ยน” (Chess Tactics for Champions)"
 
 show hanako basic_bashful
 with charachange
 
-"Before I can reach for it, Hanako has the book in her hands, clutching it to her chest."
+# "Before I can reach for it, Hanako has the book in her hands, clutching it to her chest."
+"ยังไม่ทันที่ฉันจะเอื้อมมือไป ฮานาโกะก็คว้าหนังสือเล่มนั้นไว้แล้วกอดไว้กับหน้าอกของเธอ"
 
-hi "Well, I guess that's yours then. Mind if I borrow it when you're finished?"
+# hi "Well, I guess that's yours then. Mind if I borrow it when you're finished?"
+hi "อืม งั้นก็คงเป็นของเธอแล้วสินะ ถ้าเธออ่านจบแล้ว ฉันขอยืมต่อได้ไหม"
 
 show hanako cover_worry
 with charachange
 
-ha "S-sure. I… I just haven't really played against anyone but L-Lilly before, so I thought…"
+# ha "S-sure. I… I just haven't really played against anyone but L-Lilly before, so I thought…"
+ha "ดะ ได้สิ ฉัน… ก่อนหน้านี้ฉันไม่เคยเล่นกับใครเลย นะ…นอกจากลิลลี่ ก็เลยว่าจะ…"
 
-"Damn. It's not like I was trying to beat Hanako deliberately or anything, but she seems to have taken it to heart."
+# "Damn. It's not like I was trying to beat Hanako deliberately or anything, but she seems to have taken it to heart."
+"ตายละ ไม่ใช่ว่าจะตั้งใจเอาชนะฮานาโกะหรอก แต่ดูเหมือนเธอจะเก็บไปคิดมากซะแล้วสิ"
 
-"Then again, at least this means she wants to play me again. That's a plus, right?"
+# "Then again, at least this means she wants to play me again. That's a plus, right?"
+"แต่ก็นะ แปลว่าเธอเองก็อยากเล่นกันฉันอีกรอบ ซึ่งก็เป็นเรื่องที่ดี ใช่ไหมล่ะ"
 
-hi "Ha, well it's not like I'm a master or anything; I just played a bit before…"
+# hi "Ha, well it's not like I'm a master or anything; I just played a bit before…"
+hi "อ่า ก็ไม่ใช่ว่าฉันจะเก่งหรืออะไรหรอกน่า ฉันก็แค่เคยเล่นมานิดหน่อยเอง…"
 
-"It occurs to me that I haven't told Hanako about my condition. I falter for a second, deciding to cover my tracks. That is a conversation for another day."
+# "It occurs to me that I haven't told Hanako about my condition. I falter for a second, deciding to cover my tracks. That is a conversation for another day."
+"แล้วก็เพิ่งนึกได้ว่ายังไม่ได้บอกฮานาโกะเรื่องอาการของฉัน ฉันชะงักไปแป๊บนึงก่อนตัดสินใจที่จะปิดเรื่องนี้ไว้ก่อน\nค่อยเอาไว้คุยวันอื่น"
 
-hi "…before I came here."
+# hi "…before I came here."
+hi "…ก่อนที่จะมาที่นี่น่ะ"
 
 stop music fadeout 6.0
 
@@ -2898,28 +2939,37 @@ with charachange
 
 #To be replaced with "concern" if it gets made.
 
-ha "Are… are you all right?"
+# ha "Are… are you all right?"
+ha "มะ… มีอะไรหรือเปล่า"
 
-hi "Yeah, I was just remembering something…"
+# hi "Yeah, I was just remembering something…"
+hi "เอ้อ พอดีนึกอะไรขึ้นมาได้น่ะ…"
 
-"When I think about it, I shouldn't be afraid to tell Hanako about my condition and my time in the hospital. Judging by her scars, she probably spent a fair amount of time in a hospital bed."
+# "When I think about it, I shouldn't be afraid to tell Hanako about my condition and my time in the hospital. Judging by her scars, she probably spent a fair amount of time in a hospital bed."
+"พอมาคิดดูแล้ว ฉันก็ไม่ควรกลัวที่จะบอกฮานาโกะเรื่องอาการของฉันและเรื่องที่ฉันเคยอยู่ในโรงพยาบาล\nดูจากรอยแผลเป็นของเธอก็พอเดาได้ว่า เธอเองก็น่าจะใช้เวลาส่วนใหญ่อยู่บนเตียงโรงพยาบาลเหมือนกัน"
 
-"But, for some reason, I can't bring it up. At least not today, and not on short notice."
+# "But, for some reason, I can't bring it up. At least not today, and not on short notice."
+"แต่ด้วยเหตุผลอะไรบางอย่าง ฉันก็ไม่กล้าเอามาคุยเลย อย่างน้อยก็ไม่ใช่วันนี้ ไม่ใช่เร็ว ๆ นี้แน่ ๆ"
 
-"Eager to break off the conversation, I grab a random book from the shelf."
+# "Eager to break off the conversation, I grab a random book from the shelf."
+"ด้วยความอยากบ่ายเบี่ยงเรื่องคุย ฉันเลยคว้าหนังสือแบบสุ่ม ๆ จากชั้นวางมาเล่มหนึ่ง"
 
 #791.068 – Amusement parks
 
-"It's some book on the world's fastest roller coasters…"
+# "It's some book on the world's fastest roller coasters…"
+"เป็นหนังสือเกี่ยวกับรถไฟเหาะที่เร็วที่สุดในโลก…"
 
-"…published in 1982. Well, not very up to date, but it should at least be interesting."
+# "…published in 1982. Well, not very up to date, but it should at least be interesting."
+"…เผยแพร่ในปี 1982 ก็ไม่ค่อยทันสมัยหรอก แต่อย่างน้อยก็น่าสนใจ"
 
-hi "Well, we both got books now, should we go sit down?"
+# hi "Well, we both got books now, should we go sit down?"
+hi "เอาละ ในเมื่อเราได้หนังสือกันทั้งคู่แล้ว ไปนั่งกันไหม"
 
 show hanako cover_bashful
 with charachange
 
-"Hanako seems to accept my bluff, and we head to the reading nook in the back of the library."
+# "Hanako seems to accept my bluff, and we head to the reading nook in the back of the library."
+"ดูเหมือนฮานาโกะจะเชื่อเรื่องที่ฉันพูด เราเลยมุ่งหน้าไปที่มุมอ่านหนังสือด้านหลังห้องสมุด"
 
 hide hanako
 with charaexit
