@@ -1515,7 +1515,7 @@ hide rin
 with charaexit
 
 # "I quickly pick up our drawings and take them to the teacher's desk before hurrying after Rin, who has already left the classroom."
-"ฉันตะลีตะลานเอารูปไปส่งที่โต๊ะครูแล้วรีบตามรินที่ออกจากห้องไปก่อนแล้ว"
+"ฉันรีบเอารูปไปส่งที่โต๊ะครูแล้วเร่งฝีเท้าตามรินที่ออกจากห้องไปก่อนแล้ว"
 
 stop music fadeout 4.0
 
@@ -5697,7 +5697,7 @@ scene ev rin_painting_concerned
 with locationchange
 
 # rin "A lot of things. And some not-things. Unthings. I don't think that's a word."
-rin "หลายอย่าง แล้วก็บางไม่อย่าง ไม่อย่าง ไม่น่าใช่คำ"
+rin "หลายอย่าง แล้วก็บางไม่อย่าง ออย่าง ไม่น่าใช่คำ"
 
 # hi "Do you want to talk about it?"
 hi "อยากจะพูดให้ฟังมั้ย"
@@ -6272,7 +6272,7 @@ with charachange
 "รินมองฉันเหม่อ ๆ ไม่พูดอะไร ฉันไม่รู้เลยว่าที่พูดไปจะมีผลอะไรกับเธอบ้างหรือเปล่า"
 
 # hi "I just don't get it. Anyone else would be jumping up and down in excitement."
-hi "ฉันไม่เข้าใจจริง ๆ เป็นคนอื่นคงดีใจเต้นโหยง ๆ ไปแล้ว"
+hi "ฉันไม่เข้าใจจริง ๆ เป็นคนอื่นคงลิงโลดไปแล้ว"
 
 # hi "What's the point of doing your best, being at this art club, if you don't do anything with your talent?"
 hi "ถ้าไม่เอาความสามารถออกมาใช้แล้วจะมาทุ่มเทอยู่กับชมรมศิลปะไปทำไม"
@@ -6433,7 +6433,7 @@ with charachange
 no "สนิทกับเทซูกะแล้วงั้นสิ นากาอิ"
 
 # hi "Uh… well, something like that, I guess. Depends on how you look at it. To be honest, I'm not really sure."
-hi "เอ่อ… ก็ ประมาณนั้นละมั้งครับ อยู่ที่ว่าครูมองยังไง ให้ว่าตามตรงผมก็ไม่แน่ใจด้วยซ้ำ"
+hi "เอ่อ… ก็ ประมาณนั้นละมั้งครับ อยู่ที่ว่าจะมองยังไง ให้ว่าตามตรงผมก็ไม่แน่ใจด้วยซ้ำ"
 
 # "It's more like me and Rin just tend to hang around each other irregularly, talking or not about something that more often resembles some twisted mockery of philosophy rather than normal, everyday things that “friends” chat about."
 "เหมือนฉันได้มาอยู่กับรินด้วยกันอย่างไม่สม่ำเสมอมากกว่า คุยบ้างไม่คุยบ้าง พอคุยก็จะเหมือนบทล้อเลียนปรัชญา\nเพี้ยน ๆ อะไรสักอย่างมากกว่าจะเป็นเรื่องดินฟ้าอากาศอะไรที่ “เพื่อน” เขาคุยกันตามปกติ"
@@ -6628,42 +6628,53 @@ play music music_daily fadein 3.0
 scene bg school_courtyard_rn
 with locationchange
 
-hi "Are you sure you want to go?"
+# hi "Are you sure you want to go?"
+hi "แน่ใจเหรอว่าจะไป"
 
-"The weather that has been wonderful for all of June has finally taken a turn for the worse. The leaden clouds drooping over the town look worrisome and the air feels heavy and still, just like before rain."
+# "The weather that has been wonderful for all of June has finally taken a turn for the worse. The leaden clouds drooping over the town look worrisome and the air feels heavy and still, just like before rain."
+"อากาศดีมาทั้งเดือนมิถุนายน แต่ก็ย่ำแย่ลงจนได้ เมฆสีเทาทึมปกคลุมทั่วเมืองดูน่าหวั่นใจว่าฝนจะตก"
 
-"The forecast says there's a 60\% chance of rain this afternoon. Maybe this will mark the beginning of the rainy season."
+# "The forecast says there's a 60\% chance of rain this afternoon. Maybe this will mark the beginning of the rainy season."
+"พยากรณ์อากาศบอกว่าบ่ายนี้ฝนจะตกร้อยละ 60 ของพื้นที่ คงจะเข้าหน้าฝนแล้วละมั้ง"
 
 show emi basic_grin_rn at center
 with charaenter
 
-emi "Of course I'm sure! I've been waiting for this all week!"
+# emi "Of course I'm sure! I've been waiting for this all week!"
+emi "แน่ยิ่งกว่าแช่แป้ง! นี่ฉันคอยมาทั้งสัปดาห์เลยนะ!"
 
-"Emi had planned a picnic at some nearby park, with snacks aplenty bought from the convenience store, but with the weather this gloomy, it seems risky."
+# "Emi had planned a picnic at some nearby park, with snacks aplenty bought from the convenience store, but with the weather this gloomy, it seems risky."
+"เอมิวางแผนไว้ว่าจะไปปิกนิกกันที่สวนสาธารณะที่อยู่ใกล้ ๆ พร้อมขนมมากมายที่ซื้อมาจากร้านสะดวกซื้อ แต่ในเมื่อ\nฟ้าหม่นขนาดนี้ก็ดูสุ่มเสี่ยงเหลือเกิน"
 
 show emi basic_annoyed_rn
 with charachange
 
-emi "I asked some other people to come too, but they didn't want to go because of the weather. We have to prove them wrong!"
+# emi "I asked some other people to come too, but they didn't want to go because of the weather. We have to prove them wrong!"
+emi "ฉันไปชวนคนอื่นมาด้วยนะ แต่พอเห็นสภาพอากาศแล้วก็ไม่อยากมากัน เราต้องไปแสดงให้เห็นว่าพวกนั้นน่ะคิดผิด!"
 
-hi "Wrong how?"
+# hi "Wrong how?"
+hi "คิดผิดยังไง"
 
 show emi excited_smile_rn
 with charachange
 
-emi "You know, like how it always rains when you think it won't, and when you think it will, it doesn't? We'll go no matter what, so it's a win-win situation!"
+# emi "You know, like how it always rains when you think it won't, and when you think it will, it doesn't? We'll go no matter what, so it's a win-win situation!"
+emi "ก็เนี่ย เวลาคิดว่าจะไม่ตกก็จะตก แล้วเวลาคิดว่าจะตกก็จะไม่ตก ยังไงเราก็จะไปกันอยู่ดี ทางไหนเราก็ได้ทั้งนั้น!"
 
 show emi basic_closedhappy_rn
 with charachange
 
-emi "I've been going without sweets for weeks because of practice for the track meet. But now I can splurge on anything I want. Nothing is going to stop me now!"
+# emi "I've been going without sweets for weeks because of practice for the track meet. But now I can splurge on anything I want. Nothing is going to stop me now!"
+emi "ฉันต้องงดของหวานเป็นสัปดาห์ ๆ เพื่อไปแข่งวิ่งเลยนะ แต่คราวนี้แหละฉันจะสวาปามอะไรก็ได้ ไม่มีอะไรจะหยุดฉัน\nได้แล้ว!"
 
-hi "I thought you were all about a healthy lifestyle and stuff."
+# hi "I thought you were all about a healthy lifestyle and stuff."
+hi "ไม่ใช่ว่าเธอเป็นพวกรักสุขภาพอะไรเทือกนั้นหรือไง"
 
 show emi excited_proud_rn
 with charachange
 
-emi "Ohoho, Hisao, you understand so little. There's not a single girl on this planet who doesn't love sweets!"
+# emi "Ohoho, Hisao, you understand so little. There's not a single girl on this planet who doesn't love sweets!"
+emi "โอะโฮะ ๆ ฮิซาโอะ ช่างไม่รู้อะไรบ้างเลย สาว ๆ ทั้งโลกน่ะชอบกินของหวานกันทั้งนั้น!"
 
 show emi excited_proud_rn at twoleft
 show bg school_courtyard_rn at bgleft
@@ -6672,104 +6683,131 @@ with charamove
 show rin basic_deadpan_rn at tworight
 with charaenter
 
-rin "I don't like sweets."
+# rin "I don't like sweets."
+rin "ฉันไม่ชอบของหวาน"
 
 show emi excited_joy_rn
 show rin basic_awayabsent_rn
 with charachange
 
-emi "She doesn't count. Anyway, is this clear?"
+# emi "She doesn't count. Anyway, is this clear?"
+emi "รายนั้นไม่นับ แต่เป็นอันว่าตามนี้นะ"
 
 show rin basic_absent_rn
 with charachange
 
-hi "Completely. We will go and eat our fill of sweets."
+# hi "Completely. We will go and eat our fill of sweets."
+hi "ครับท่าน เราจะออกไปกินของหวานกัน"
 
 show emi basic_closedgrin_rn
 show rin basic_awayabsent_rn
 with charachange
 
-emi "Damn straight we will."
+# emi "Damn straight we will."
+emi "กินให้ยับ"
 
 show emi excited_laugh_rn
 with charachange
 
-emi "I'm going to have to work it off later but it's so worth it."
+# emi "I'm going to have to work it off later but it's so worth it."
+emi "ถึงจะต้องไปเอาออกอีกที แต่ก็คุ้มแล้ว"
 
-"Emi seems to be extremely determined about this. She is positively exhilarated, brimming with energy as always, but something seems special today."
+# "Emi seems to be extremely determined about this. She is positively exhilarated, brimming with energy as always, but something seems special today."
+"เอมิเธอดูหมายมั่นปั้นมือจะไปให้ได้ เธอเปี่ยมล้นด้วยพลังและเริงร่าเหมือนทุกที แต่วันนี้ดูจะมีอะไรพิเศษขึ้นมา"
 
-"It looks like she can hardly stop herself from jumping up and down on the spot."
+# "It looks like she can hardly stop herself from jumping up and down on the spot."
+"เหมือนว่าอีกนิดเธอก็จะหลุดปล่อยตัวโดดโหยง ๆ แล้ว"
 
 show emi excited_joy_rn
 with charachange
 
-emi "Come on!"
+# emi "Come on!"
+emi "ไปกัน!"
 
 hide emi
 hide rin
 with charaexit
 
-"I grasp the wooden handle of the umbrella I brought and start to follow the two girls, who seem to have no qualms about leaving me behind if I keep daydreaming."
+# "I grasp the wooden handle of the umbrella I brought and start to follow the two girls, who seem to have no qualms about leaving me behind if I keep daydreaming."
+"ฉันถือร่มที่คันจับทำจากไม้ที่ซื้อมาแล้วตามสองสาวที่ออกไปไม่เดือดร้อนอะไรที่จะปล่อยให้ฉันนั่งฝันกลางวัน\nอยู่คนเดียว"
 
-"My umbrella is really fancy, the old-fashioned kind with a curved handle and a metal spike at the end. It used to belong to my grandfather. It looks like an antique, but it's in really good shape; almost as good as new."
+# "My umbrella is really fancy, the old-fashioned kind with a curved handle and a metal spike at the end. It used to belong to my grandfather. It looks like an antique, but it's in really good shape; almost as good as new."
+"ร่มฉันนั้นแสนจะหรูหรา เป็นร่มอย่างยุคเก่าที่มีมือจับแบบงอปลายเหล็กแหลม ร่มนี้เคยเป็นของคุณปู่ อาจจะดู\nเหมือนของสะสม แต่สภาพร่มนั้นยังดีเหมือนใหม่"
 
-"It's really big, too. I remember how my grandfather, my grandmother, and I all fit neatly under it when a rainstorm caught us on an afternoon walk years ago, when I was around nine or ten."
+# "It's really big, too. I remember how my grandfather, my grandmother, and I all fit neatly under it when a rainstorm caught us on an afternoon walk years ago, when I was around nine or ten."
+"แถมใหญ่มากด้วย ฉันจำได้ว่าเมื่อหลายปีก่อนที่ฉันอายุได้สักเก้าหรือสิบขวบ ร่มคันนี้เป็นร่มที่ทั้งปู่ย่าแล้วก็ฉัน\nใช้หลบพายุฝนที่ตกลงมาตอนเดินเล่นยามบ่ายได้อย่างพอดิบพอดี"
 
-"My grandparents are both gone now, but I still have the umbrella to keep me dry when it rains."
+# "My grandparents are both gone now, but I still have the umbrella to keep me dry when it rains."
+"ตอนนี้ทั้งปู่และย่าท่านก็ไม่อยู่แล้ว แต่ฉันยังมีร่มคันนี้ที่ใช้กันฝนอยู่"
 
 scene bg school_road_rn
 with locationskip
 
-"We walk along the road leading down from the school towards the convenience store, the clouds casting their dark shadow down on us. The weather seems to be taking a turn for the worse and I am pretty sure I just felt a raindrop on my head."
+# "We walk along the road leading down from the school towards the convenience store, the clouds casting their dark shadow down on us. The weather seems to be taking a turn for the worse and I am pretty sure I just felt a raindrop on my head."
+"พวกเราเดินไปตามถนนที่ออกจากโรงเรียนลงไปที่ร้านสะดวกซื้อ เมฆทอดเงาทะมึนอยู่เหนือพวกเรา สภาพอากาศดู\nจะย่ำแย่ลงไปอีก แถมเมื่อกี้เหมือนมีเม็ดฝนตกใส่หัวแล้วด้วย"
 
-hi "Didn't you guys think of taking umbrellas? It really looks like it'll rain."
+# hi "Didn't you guys think of taking umbrellas? It really looks like it'll rain."
+hi "นี่พวกเธอไม่คิดจะเอาร่มมากันเลยเหรอ สภาพฝนจะตกอย่างนี้เนี่ย"
 
 show rin basic_deadpancontemplation_rn at tworight
 show emi basic_grin_rn at twoleft
 with charaenter
 
-"Rin looks at her limply hanging sleeves and shrugs her shoulders."
+# "Rin looks at her limply hanging sleeves and shrugs her shoulders."
+"รินมองแขนเสื้อที่ห้อยต่องแต่งของเธอแล้วยักไหล่"
 
 show emi basic_closedgrin_rn
 show rin basic_awayabsent_rn
 with charachange
 
-emi "I don't have one. Besides, a little rain won't kill us."
+# emi "I don't have one. Besides, a little rain won't kill us."
+emi "ฉันไม่มีร่ม แล้วอีกอย่าง ฝนนิด ๆ หน่อย ๆ ไม่ตายหรอกน่า"
 
-"She pushes her chest out, looking very confident about that."
+# "She pushes her chest out, looking very confident about that."
+"เธอยืดอกดูมั่นใจกับคำพูดนั้น"
 
 show emi basic_happy_rn
 with charachange
 
-emi "We aren't made of sugar!"
+# emi "We aren't made of sugar!"
+emi "ตัวพวกเราไม่ได้ทำจากน้ำตาลสักหน่อย!"
 
 show rin basic_absent_rn
 with charachange
 
-hi "I thought that's exactly what girls were made of, especially considering what you're planning to gorge yourself on today."
+# hi "I thought that's exactly what girls were made of, especially considering what you're planning to gorge yourself on today."
+hi "ไม่ใช่ว่าพวกผู้หญิงก็ทำจากน้ำตาลกันทั้งนั้นเหรอ แล้วเห็นของที่เธอจะกินวันนี้มันก็น้ำตาล"
 
 show emi sad_annoyed_rn
 with charachange
 
-"She just sticks out her tongue in reply."
+# "She just sticks out her tongue in reply."
+"เธอแลบลิ้นใส่ตอบ"
 
 hide emi
 hide rin
 with charaexit
 
-"The walk down from the school to the local shopping district is not a long one, but it's not very short, either. It's all downhill so our steps roll easily, but time stretches out nevertheless."
+# "The walk down from the school to the local shopping district is not a long one, but it's not very short, either. It's all downhill so our steps roll easily, but time stretches out nevertheless."
+"ทางเดินจากโรงเรียนมาย่านการค้าในละแวกนี้นั้นไม่ไกลมากนัก แต่ก็ไม่ได้ใกล้สักเท่าไหร่ เพราะเป็นทางลงเนิน\nจึงเดินกันมาได้ไว แต่ก็ยังนานอยู่ดี"
 
-"The distance is right there, in that gray area where you don't expect the trip to be quickly over with, but you aren't preparing for a long walk, either."
+# "The distance is right there, in that gray area where you don't expect the trip to be quickly over with, but you aren't preparing for a long walk, either."
+"ก็เป็นระยะที่ประมาณหนึ่ง อยู่ในเขตกึ่ง ๆ ที่ต้องเตรียมใจว่าจะไม่ได้เดินแค่แป๊บเดียว แต่ก็ไม่ต้องเตรียมใจว่าจะเดิน\nยาว ๆ ขนาดนั้น"
 
-"Thus, the trip is slightly too long to stay comfortably quiet the whole time, though the girls don't seem to mind."
+# "Thus, the trip is slightly too long to stay comfortably quiet the whole time, though the girls don't seem to mind."
+"เพราะงั้นแล้ว เป็นระยะทางที่ออกจะนานไปหน่อยถ้าจะให้เดินไปเงียบ ๆ ตลอดทาง ถึงสองสาวจะดูไม่ได้อะไรก็เถอะ"
 
-"Rin walks calmly ahead, seemingly lost in thought. I'm kind of wary about starting a conversation, since the last time didn't end very well for either of us."
+# "Rin walks calmly ahead, seemingly lost in thought. I'm kind of wary about starting a conversation, since the last time didn't end very well for either of us."
+"รินเดินนำดูคิดอะไรอยู่ ฉันลังเลว่าจะคุยอะไรดีหรือเปล่า เพราะครั้งล่าสุดที่คุยกันนั้นจบกันไม่สวยสักเท่าไหร่"
 
-"I haven't exchanged a single word with her since then."
+# "I haven't exchanged a single word with her since then."
+"ตั้งแต่นั้นมาฉันก็ยังไม่ได้คุยอะไรกับเธอเลย"
 
-"Emi, on the other hand, is way too happy about just walking."
+# "Emi, on the other hand, is way too happy about just walking."
+"ในขณะที่เอมินั้นดูจะพอใจกับแค่การเดินไปเฉย ๆ"
 
-"She seems to literally jump a little on every step, or skip over cracks, or balance on the edge of the sidewalk. Every now and then she comments on something to which Rin replies in an automatic-sounding, nonsensical way that makes Emi giggle a little."
+# "She seems to literally jump a little on every step, or skip over cracks, or balance on the edge of the sidewalk. Every now and then she comments on something to which Rin replies in an automatic-sounding, nonsensical way that makes Emi giggle a little."
+"แต่ละก้าวของเธอนั้นแทบกลายเป็นการกระโดดไปแล้ว โดดข้ามรอยแยกบ้าง หรือมาทรงตัวอยู่ข้างทางเท้าบ้าง\nบางครั้งเอมิก็จะพูดถึงอะไรสักอย่างขึ้นมาแล้วรินก็ตอบด้วยเสียงเนิบ ๆ แบบอัตโนมัติที่ฟังดูหลุดโลกจนเอมิหลุดหัวเราะ"
 
 $ renpy.music.set_volume(0.1, 0.0, channel="ambient")
 play ambient sfx_rain fadein 5.0
@@ -6777,7 +6815,8 @@ play ambient sfx_rain fadein 5.0
 scene bg suburb_roadcenter_rn
 with locationchange
 
-"As we reach the bottom of the hill, the first raindrops begin to fall. I feel one hit the top of my head, then two more hit my nose in quick succession."
+# "As we reach the bottom of the hill, the first raindrops begin to fall. I feel one hit the top of my head, then two more hit my nose in quick succession."
+"พอมาถึงที่ตีนเขาฝนเม็ดแรกก็ตกลงมา มีเม็ดหนึ่งที่ตกใส่หัวฉัน อีกสองเม็ดตามมาติด ๆ ตกใส่จมูกฉัน"
 
 play sound sfx_thunder
 stop music
@@ -6787,14 +6826,17 @@ $ renpy.music.set_volume(1.0, 4.0, channel="music")
 show rain light
 with dissolve
 
-"It's not one or two rainclouds any more. The entire sky has turned shadowy gray, billowing rainclouds swirling right on top of us."
+# "It's not one or two rainclouds any more. The entire sky has turned shadowy gray, billowing rainclouds swirling right on top of us."
+"ตอนนี้ไม่ใช่แค่เมฆฝนก้อนสองก้อนแล้ว แต่ทั้งฟ้ามืดทะมึนมีเมฆฝนก่อตัวหมุนทวนอยู่เหนือพวกเรา"
 
 show emi sad_pout_rn behind rain at center
 with charaenter
 
-emi "Oh, shoot. I guess we aren't going to have a picnic then."
+# emi "Oh, shoot. I guess we aren't going to have a picnic then."
+emi "ตายละ คงไม่ต้องไปปิกนิกกันแล้วสิ"
 
-hi "What now?"
+# hi "What now?"
+hi "แล้วไงต่อ"
 
 show emi sad_pout_rn at twoleft
 show bg suburb_roadcenter_rn at bgleft
@@ -6803,17 +6845,20 @@ with charamove
 show rin negative_spaciness_rn behind rain at tworight
 with charaenter
 
-rin "Maybe we could have a rain picnic. A picnic in rain."
+# rin "Maybe we could have a rain picnic. A picnic in rain."
+rin "จะปิกนิกฝนก็ได้นะ ฝนตกแล้วปิกนิก"
 
 show emi basic_annoyed_rn
 with charachange
 
-emi "No, we'd all just catch a cold and I don't like getting me or my snacks wet."
+# emi "No, we'd all just catch a cold and I don't like getting me or my snacks wet."
+emi "ไม่ได้สิ เดี๋ยวก็เป็นหวัดกันหมดหรอก แล้วฉันก็ไม่อยากให้ตัวฉันหรือขนมฉันต้องเปียกด้วย"
 
 show rin relaxed_nonchalant_rn
 with charachange
 
-rin "I kind of like it. Not the snacks part though."
+# rin "I kind of like it. Not the snacks part though."
+rin "ฉันว่าฉันอยาก แต่ไม่นับขนมนะ"
 
 $ renpy.music.set_volume(0.5, 4.0, channel="ambient")
 
@@ -6822,12 +6867,14 @@ show rain medium
 with charachange
 play sound sfx_rustling
 
-"Emi considers our problematic situation for a moment while I open my umbrella and lift it up, trying to hold it so that all three of us get covered."
+# "Emi considers our problematic situation for a moment while I open my umbrella and lift it up, trying to hold it so that all three of us get covered."
+"เอมิครุ่นคิดอยู่กับสถานการณ์ที่ลำบากนี้อยู่ครู่หนึ่ง ระหว่างนั้นฉันเอาร่มออกมากางแล้วถือไว้ให้กันฝนได้ทั้งสามคน"
 
 show emi basic_happy_rn
 with charachange
 
-emi "Hey Hisao, have you been to the Shanghai yet?"
+# emi "Hey Hisao, have you been to the Shanghai yet?"
+emi "นี่ ฮิซาโอะ นายเคยไปร้านเซี่ยงไฮ้หรือยัง"
 
 show rin basic_absent_rn
 with charachange
@@ -6835,12 +6882,13 @@ with charachange
 
 label th_R12a:
 
-hi "It's a café somewhere around here, right? I've heard of it."
-
+# hi "It's a café somewhere around here, right? I've heard of it."
+hi "คาเฟที่อยู่แถวนี้ใช่มั้ย เคยได้ยินอยู่"
 
 label th_R12b:
 
-hi "Yeah, our class president took me there on my first week."
+# hi "Yeah, our class president took me there on my first week."
+hi "อื้ม ตอนสัปดาห์แรกหัวหน้าห้องพาฉันไปน่ะ"
 
 
 label th_R12c:
@@ -6849,7 +6897,8 @@ show rin basic_awayabsent_rn
 show emi basic_grin_rn
 with charachange
 
-emi "It's a nice place. Let's go there and wait out the rain. If it's just a really quick shower, we can still go for the picnic, and if it gets worse, we'll just order cake there instead."
+# emi "It's a nice place. Let's go there and wait out the rain. If it's just a really quick shower, we can still go for the picnic, and if it gets worse, we'll just order cake there instead."
+emi "ร้านดีนะ ไปหลบฝนที่นั่นกันเถอะ ถ้าตกแป๊บเดียวเดี๋ยวออกไปปิกนิกกันอีกทีก็ได้ หรือถ้าตกหนักจริง ๆ ก็สั่งเค้ก\nที่ร้านกินกันเอา"
 
 show rin basic_absent_rn
 with charachange
@@ -6860,7 +6909,8 @@ with charaexit
 hide rin
 with charaexit
 
-"Neither Rin nor I have better ideas, so with Emi taking the lead, we start walking briskly along a side street."
+# "Neither Rin nor I have better ideas, so with Emi taking the lead, we start walking briskly along a side street."
+"ทั้งรินและฉันต่างก็ไม่รู้จะทำยังไงต่อดี พวกเราจึงรีบเดินมาตามซอกซอยตามที่เอมินำทาง"
 
 $ renpy.music.set_volume(1.0, 6.0, channel="ambient")
 
@@ -6868,13 +6918,17 @@ scene bg suburb_shanghaiext_rn
 show rain normal
 with locationchange
 
-"The café is only a few blocks away, but even with the umbrella, we can't avoid getting slightly damp. The rain keeps coming down harder and harder."
+# "The café is only a few blocks away, but even with the umbrella, we can't avoid getting slightly damp. The rain keeps coming down harder and harder."
+"คาเฟอยู่ไม่ไกลมาก แต่ถึงจะมีร่มแล้วก็ยังเปียกฝนอยู่หน่อย ๆ และฝนยิ่งตกหนักขึ้นเรื่อย ๆ"
 
-"Raindrops leave tiny dots on the black asphalt road, which then combine into bigger patches like pointillist artwork being made in front of our eyes in mere seconds."
+# "Raindrops leave tiny dots on the black asphalt road, which then combine into bigger patches like pointillist artwork being made in front of our eyes in mere seconds."
+"เม็ดฝนตกใส่เป็นจุดเล็ก ๆ อยู่บนพื้นถนนยางมะตอยสีดำ ไม่กี่อึดใจรอยเหล่านั้นก็เติมเต็มไปทั่วจนดูเหมือน\nภาพผสานจุดสีขนาดใหญ่"
 
-"It's pouring heavily, drumming on the hoods of the cars parked on the sides of the street and already flowing in little creeks along the sidewalks."
+# "It's pouring heavily, drumming on the hoods of the cars parked on the sides of the street and already flowing in little creeks along the sidewalks."
+"ฝนตกหนักสาดใส่หลังคารถที่จอดอยู่ข้างถนนส่งเสียงดัง น้ำเริ่มนองจนไหลเป็นสายตามทางเท้า"
 
-"The yellow light shining through the rainwater streaming down the windows looks very warm and inviting."
+# "The yellow light shining through the rainwater streaming down the windows looks very warm and inviting."
+"แสงสีเหลืองที่ส่องผ่านหน้าต่างที่มีน้ำฝนไหลนั้นช่างดูอบอุ่นและเชื้อเชิญ"
 
 play sound sfx_storebell
 stop ambient fadeout 0.5
@@ -6886,80 +6940,100 @@ with locationchange
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 2.0
 
-"I shake the excess water off the umbrella and head inside with them, following Emi to a vacant table in the furthest corner of the small café."
+# "I shake the excess water off the umbrella and head inside with them, following Emi to a vacant table in the furthest corner of the small café."
+"ฉันสะบัดน้ำออกจากร่มแล้วเดินเข้าร้านไปพร้อมสองคนนั้น จากนั้นตามเอมิไปยังโต๊ะว่างที่อยู่มุมในสุดของคาเฟ"
 
 $ renpy.music.set_volume(0.7, 2.0, channel="ambient")
 
-"The place is almost full; apparently other people had the same idea as Emi, and now we are all stranded together here in this cozy little place."
+# "The place is almost full; apparently other people had the same idea as Emi, and now we are all stranded together here in this cozy little place."
+"ร้านมีคนอยู่แน่นขนัด ดูเหมือนว่าคนอื่นจะคิดเหมือนกันกับเอมิจนได้มาหลบฝนอยู่ด้วยกันในร้านเล็ก ๆ\nอันแสนสบายนี้"
 
 scene bg suburb_shanghaiint at Fullpan(5.0)
 with None
 
-"Varnished wooden pillars and paper screens mix with Parisian-style tables and chairs in discordant harmony, a contrast of old and new."
+# "Varnished wooden pillars and paper screens mix with Parisian-style tables and chairs in discordant harmony, a contrast of old and new."
+"เสาไม้เคลือบวานิชและฉากกั้นกระดาษอยู่ร่วมกับโต๊ะและเก้าอี้อันเรียบหรูได้อย่างแตกต่างลงตัว ผสานความเก่า\nและใหม่เข้าด้วยกัน"
 
-"Light jazz plays quietly in the background, though it's mostly drowned out by the murmur of the customers."
+# "Light jazz plays quietly in the background, though it's mostly drowned out by the murmur of the customers."
+"ในร้านมีดนตรีแจ๊สคลอเบา ๆ ทว่าก็โดนเสียงจอแจของลูกค้ากลบไปเกือบหมด"
 
 
 label th_R12d:
 #not seen the shizune & misha shanghai scene in act 1
-"There's only one waitress serving the full house, frantically gliding from one table to another and trying to keep up with everything. To my surprise, I think I recognize her."
+# "There's only one waitress serving the full house, frantically gliding from one table to another and trying to keep up with everything. To my surprise, I think I recognize her."
+"ทั้งร้านมีพนักงานเสิร์ฟอยู่คนเดียวโดดจากโต๊ะนั้นไปโต๊ะนี้อย่างรีบร้อนคอยจัดการกับทุกอย่าง แปลก รู้สึกคุ้น ๆ"
 
-"I watch her deliver a tray of tea cups and pastries to another table taken by Yamaku students, then take an order from a middle-aged couple sitting across from us before finally turning to serve us."
+# "I watch her deliver a tray of tea cups and pastries to another table taken by Yamaku students, then take an order from a middle-aged couple sitting across from us before finally turning to serve us."
+"ฉันดูเธอนำถ้วยชาและขนมไปเสิร์ฟให้โต๊ะอื่นที่มีนักเรียนจากยามากุนั่งอยู่ จากนั้นเธอก็ไปรับรายการจากคู่รัก\nวัยกลางคนที่นั่งอยู่โต๊ะตรงข้ามกัน จนในที่สุดก็ถึงคิวที่เธอต้องแวะมาที่โต๊ะพวกเรา"
 
-hi "Yuuko?"
+# hi "Yuuko?"
+hi "คุณยูโกะ?"
 
 show yuukoshang neurotic_up at Slide(0.6,0.5,0.5,0.5,0.5)
 show bg suburb_shanghaiint at right
 with charaenter
 
-"Now that she's close and facing me I see that it really is her, the part-time librarian of Yamaku in full waitress attire. It's a pretty cute outfit, and she has tied her hair up in buns to match."
+# "Now that she's close and facing me I see that it really is her, the part-time librarian of Yamaku in full waitress attire. It's a pretty cute outfit, and she has tied her hair up in buns to match."
+"พอเธอได้มาอยู่ใกล้ ๆ ตรงหน้าแล้วก็ถึงแน่ใจว่าคนตรงหน้าที่ใส่ชุดบริกรนี้เป็นเธอคนนั้นที่ทำงานพาร์ทไทม์เป็น\nบรรณารักษ์อยู่ที่ยามากุจริง ๆ ชุดน่ารักดี แถมเกล้ามวยผมให้เข้ากับชุดด้วย"
 
 show yuukoshang worried_up at center
 with charachange
 
-"It's a completely different image from her mousy, plain style at her other job. Yuuko blinks a few times looking confused, then remembers that she was about to say something."
+# "It's a completely different image from her mousy, plain style at her other job. Yuuko blinks a few times looking confused, then remembers that she was about to say something."
+"ดูไม่เหมือนกับตัวเธอตอนทำงานอยู่ห้องสมุดที่ดูเรียบ ๆ ขี้อาย ยูโกะกะพริบตาสองสามครั้งด้วยความงงงวยก่อนจะ\nนึกได้ว่าเมื่อกี้เธอจะพูดอะไร"
 
 show yuukoshang panic_down
 with charachange
 
-yu "Umm… ah, welcome to the Shanghai."
+# yu "Umm… ah, welcome to the Shanghai."
+yu "เอ่อ… อ่า ยินดีต้อนรับสู่ร้านเซี่ยงไฮ้ค่ะ"
 
-hi "So you work here too? I thought you were a university student or something."
+# hi "So you work here too? I thought you were a university student or something."
+hi "ทำงานที่นี่ด้วยเหรอครับ ไม่ใช่ว่าคุณเรียนมหาลัยอยู่เหรอ"
 
 show yuukoshang neurotic_down
 with charachange
 
-yu "Ehh, yes, that too. It's a part-time job as you can see, ehehe. It's Sunday, so there aren't any lectures."
+# yu "Ehh, yes, that too. It's a part-time job as you can see, ehehe. It's Sunday, so there aren't any lectures."
+yu "เอ่ออ อื้ม ก็ใช่ แต่พอดีตรงนี้เป็นงานพาร์ทไทม์ วันนี้วันอาทิตย์ก็เลยไม่มีเรียนน่ะ"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "Good thing, too, since today has been so busy I'm wishing for another pair of hands. Anyway, I'm in a bit of a rush as you can see. What can I get you today?"
+# yu "Good thing, too, since today has been so busy I'm wishing for another pair of hands. Anyway, I'm in a bit of a rush as you can see. What can I get you today?"
+yu "ซึ่งก็ดีด้วยเพราะวันนี้ยุ่งมากจนงานล้นมือไปหมดเลย แต่ก็อย่างที่เห็นแหละเนอะ ตอนนี้รีบอยู่ รับอะไรดีคะ"
 
 label th_R12e:
 #seen it
-"I notice Yuuko is at work here today, but it seems like she's serving a full house all by herself, frantically gliding from one table to another and trying to keep up with everything."
+# "I notice Yuuko is at work here today, but it seems like she's serving a full house all by herself, frantically gliding from one table to another and trying to keep up with everything."
+"ฉันเห็นว่าวันนี้ยูโกะก็อยู่ทำงานด้วย แต่ดูเหมือนว่าทั้งร้านจะมีแค่เธอคนเดียวโดดจากโต๊ะนั้นไปโต๊ะนี้อย่างรีบร้อน\nคอยจัดการกับทุกอย่าง"
 
-"I watch her deliver a tray of tea cups and pastries to another table taken by Yamaku students, then take an order from a middle-aged couple sitting across from us before finally turning to serve us."
+# "I watch her deliver a tray of tea cups and pastries to another table taken by Yamaku students, then take an order from a middle-aged couple sitting across from us before finally turning to serve us."
+"ฉันดูเธอนำถ้วยชาและขนมไปเสิร์ฟให้โต๊ะอื่นที่มีนักเรียนจากยามากุนั่งอยู่ จากนั้นเธอก็ไปรับรายการจากคู่รัก\nวัยกลางคนที่นั่งอยู่โต๊ะตรงข้ามกัน จนในที่สุดก็ถึงคิวที่เธอต้องแวะมาที่โต๊ะพวกเรา"
 
-hi "Hi, Yuuko."
+# hi "Hi, Yuuko."
+hi "สวัสดีครับคุณยูโกะ"
 
 show yuukoshang neurotic_up at Slide(0.6,0.5,0.5,0.5,0.5)
 with charaenter
 
-yu "Umm… ah, welcome to the Shanghai. "
+# yu "Umm… ah, welcome to the Shanghai. "
+yu "เอ่อ… อ่า ยินดีต้อนรับสู่ร้านเซี่ยงไฮ้ค่ะ"
 
-hi "Looks like you're busy."
+# hi "Looks like you're busy."
+hi "ยุ่งน่าดูเลยนะครับ"
 
 show yuukoshang neurotic_down at center
 with charachange
 
-yu "Ahaha, I'm completely over my head here. I wish I had another pair of hands."
+# yu "Ahaha, I'm completely over my head here. I wish I had another pair of hands."
+yu "อะฮ่าฮ่า ตอนนี้นี่งานล้นมือไม่ไหวเลย"
 
 show yuukoshang neutral_down
 with charachange
 
-yu "What can I get for you today?"
+# yu "What can I get for you today?"
+yu "รับอะไรดีคะ"
 
 label th_R12f:
 
@@ -6970,79 +7044,96 @@ with charaenter
 stop music fadeout 1.0
 $ renpy.music.set_volume(0.4, 2.0, channel="ambient")
 
-"Emi doesn't hesitate even for a second. Her eyes glitter like those of a kid in a candy store."
+# "Emi doesn't hesitate even for a second. Her eyes glitter like those of a kid in a candy store."
+"เอมิไม่ลังเลแม้วินาทีหนึ่ง ตาเธอเป็นประกายประหนึ่งเด็กที่เดินเข้าร้านขนม"
 
 play music music_comedy fadein 1.0
 show emi excited_amused at left
 with charachange
 
-emi "Tea for everyone! And cake for me!"
+# emi "Tea for everyone! And cake for me!"
+emi "ชาของทุกคนสามที่ค่ะ! แล้วก็เค้กของหนูหนึ่งที่!"
 
 show yuukoshang smile_up
 with charachange
 
-"Yuuko tries to stay as formal and professional-looking as possible, smiling cheerily at my ravenous companion."
+# "Yuuko tries to stay as formal and professional-looking as possible, smiling cheerily at my ravenous companion."
+"ยูโกะรักษากิริยาให้ดูเป็นทางการและมืออาชีพที่สุดเท่าที่จะเป็นไปได้พลางยิ้มสดใสให้เพื่อนร่วมโต๊ะผู้หิวโหยของฉัน"
 
 show yuukoshang smile_down
 with charachange
 
-yu "Ahh… yes, today we have a choice of strawberry shortcake, raspberry layer cake, or lemon meringue pie."
+# yu "Ahh… yes, today we have a choice of strawberry shortcake, raspberry layer cake, or lemon meringue pie."
+yu "อ่า… ค่ะ วันนี้เรามีเค้กสามอย่างให้เลือก สตรอว์เบอร์รีชอร์ตเค้ก เลเยอร์เค้กราสป์เบอร์รี แล้วก็พายเมอแร็งก์เลมอนค่ะ"
 
 show emi basic_happy
 with charachange
 
-emi "Strawberry… no, lemon! No, actually I'll take both!"
+# emi "Strawberry… no, lemon! No, actually I'll take both!"
+emi "ขอสตรอว์เบอร์รี… ไม่สิ เลมอน! ไม่ ๆ ขอทั้งสองอย่างเลยค่ะ"
 
-"She looks at me in challenge."
+# "She looks at me in challenge."
+"เธอมองท้าฉัน"
 
-hi "Err… I'll take just the pie."
+# hi "Err… I'll take just the pie."
+hi "เอ้อ… ผมขอแค่พายแล้วกัน"
 
 show rin basic_deadpan at Position(xalign=1.0, xpos=0.95)
 with charachange
 
-rin "Nothing."
+# rin "Nothing."
+rin "ไม่เอา"
 
 show emi basic_annoyed
 with charachange
 
-"Emi makes a face at Rin as though she had bitten into a lemon. She's clearly unhappy with her for not joining in."
+# "Emi makes a face at Rin as though she had bitten into a lemon. She's clearly unhappy with her for not joining in."
+"เอมิย่นหน้ายู่ใส่รินแสดงให้เห็นว่าเธอไม่พอใจเอามาก ๆ ที่รินไม่สั่งด้วย"
 
-emi "Oh come on, Rin. That's not polite at all."
+# emi "Oh come on, Rin. That's not polite at all."
+emi "ไม่เอาน่าริน หยาบคายนะเธอเนี่ย"
 
 show rin relaxed_boredom
 with charachange
 
-rin "Nothing, thank you."
+# rin "Nothing, thank you."
+rin "ไม่เอา ขอบคุณค่ะ"
 
 show emi basic_confused
 with charachange
 
-emi "No, no, you silly! I meant that you should order something too."
+# emi "No, no, you silly! I meant that you should order something too."
+emi "ไม่ใช่ ๆ ยัยบ๊อง! ที่ฉันหมายถึงคือให้เธอสั่งอะไรด้วย"
 
 show rin negative_spaciness
 with charachange
 
-rin "I'll take a straw then. My feet are all wet."
+# rin "I'll take a straw then. My feet are all wet."
+rin "ขอหลอดแล้วกัน เท้าเปียกหมดแล้ว"
 
 show yuukoshang worried_up
 with charachange
 
-yu "Sorry?"
+# yu "Sorry?"
+yu "คะ?"
 
 show rin basic_awayabsent
 with charachange
 
-rin "The drinking kind of straw. One, please."
+# rin "The drinking kind of straw. One, please."
+rin "หลอดดูด หนึ่ง ค่ะ"
 
 show yuukoshang worried_down
 with charachange
 
-"Yuuko is obviously uncertain of what to think about this. She fiddles with her pen and stationery for a moment, looking like she's about to cry, before deciding that we've finished ordering."
+# "Yuuko is obviously uncertain of what to think about this. She fiddles with her pen and stationery for a moment, looking like she's about to cry, before deciding that we've finished ordering."
+"ยูโกะทำหน้าเหลอหลา เธอจับปากกากับกระดาษเล่นอยู่ครู่หนึ่งทำหน้าเบ้เหมือนจะร้องไห้ ก่อนจะถือเอากับตัวเอง\nว่าพวกเราสั่งกันเสร็จแล้ว"
 
 show yuukoshang neurotic_up
 with charachange
 
-yu "Thank you very much!"
+# yu "Thank you very much!"
+yu "ขอบพระคุณค่ะ!"
 
 show yuukoshang neurotic_down at Transform(ypos=1.25)
 with Dissolvemove(0.2)
@@ -7061,13 +7152,17 @@ with dissolvecharamove
 
 $ renpy.music.set_volume(0.7, 2.0, channel="ambient")
 
-"She bows down a little bit too deeply and scampers to safety behind the counter."
+# "She bows down a little bit too deeply and scampers to safety behind the counter."
+"เธอโค้งให้ต่ำ ๆ แล้วตะลีตะลานไปหลบอยู่ที่หลังเคาน์เตอร์"
 
-"After that ordeal is over with, I have a chance to relax a bit and take a better look at the surroundings."
+# "After that ordeal is over with, I have a chance to relax a bit and take a better look at the surroundings."
+"เมื่อเสร็จสิ้นภารกิจแล้วฉันจึงถือโอกาสนี้ผ่อนคลายลงเล็กน้อยพลางมองไปรอบ ๆ"
 
-"Almost every table is occupied by people happy to be out of the rain, thankfully sipping their tea while waiting to dry off."
+# "Almost every table is occupied by people happy to be out of the rain, thankfully sipping their tea while waiting to dry off."
+"แทบทุกโต๊ะเต็มไปด้วยคนที่มาหลบฝนกันอย่างมีความสุขและจิบชาอย่างเพลินใจระหว่างรอฝนหยุด"
 
-"Fragments of grumbling about the lousy weather or discussions over recent homework carry from nearby tables to my ears. Each one overlaps the other, but all are covered by the sound of falling rain."
+# "Fragments of grumbling about the lousy weather or discussions over recent homework carry from nearby tables to my ears. Each one overlaps the other, but all are covered by the sound of falling rain."
+"เสียงบ่นสภาพฟ้าฝนที่ไม่เป็นใจกับเสียงคนที่คุยกันเรื่องการบ้านที่เพิ่งได้มาไม่นานนี้แว่วมาจากโต๊ะใกล้ ๆ หลากเสียง\nต่างซ้อนทับกันทว่าถูกกลืนไปกับเสียงฝนสาด"
 
 show emi basic_grin at left
 show rin basic_awayabsent at Position(xpos=0.95, xalign=1.0)
@@ -7078,7 +7173,8 @@ with charaenter
 
 $ renpy.music.set_volume(0.4, 2.0, channel="ambient")
 
-"After a while Yuuko returns to our table, carrying a tray with a huge teapot, three cups, a slice of cake and two slices of pie."
+# "After a while Yuuko returns to our table, carrying a tray with a huge teapot, three cups, a slice of cake and two slices of pie."
+"ผ่านไปสักพักยูโกะก็ถือถาดมาที่โต๊ะพวกเรา สิ่งที่วางอยู่ในนั้นมีกาน้ำชาใบใหญ่ ถ้วยสามใบ เค้กหนึ่งชิ้น\nและพายสองชิ้น"
 
 show yuukoshang neurotic_up at centertremble
 with charachange
@@ -7103,28 +7199,34 @@ with dissolvecharamove
 
 $ renpy.music.set_volume(0.7, 2.0, channel="ambient")
 
-"She slaps the tray onto our tiny table with a clatter, almost sending the teapot toppling over into Rin's lap. We barely recover before she bows again and leaves, hurrying off to serve the other customers."
+# "She slaps the tray onto our tiny table with a clatter, almost sending the teapot toppling over into Rin's lap. We barely recover before she bows again and leaves, hurrying off to serve the other customers."
+"เธอวางแรงจนถาดกระทบเข้ากับโต๊ะเสียงดังและเกือบทำกาน้ำชาหกใส่ริน พวกเรารีบจับไว้ได้อย่างทันท่วงที เธอ\nก้มหัวให้อีกครั้งแล้วรีบไปเสิร์ฟให้ลูกค้าคนอื่นต่อ"
 
-"Emi has been eyeing her strawberry cake very hungrily all this time, but somehow she managed to contain herself until Yuuko was out of sight."
+# "Emi has been eyeing her strawberry cake very hungrily all this time, but somehow she managed to contain herself until Yuuko was out of sight."
+"สายตาเอมิคอยจับจ้องเค้กสตรอว์เบอร์รีด้วยความหิวขั้นรุนแรง แต่ยังห้ามใจตัวเองไว้รอให้ยูโกะพ้นจากสายตา\nไปก่อนได้"
 
 show emi excited_smile
 with charachange
 
-"She digs in with gusto, while I content myself with pouring tea for everyone and placing the straw in Rin's cup."
+# "She digs in with gusto, while I content myself with pouring tea for everyone and placing the straw in Rin's cup."
+"ระหว่างที่เธอจ้วงกินฉันก็คอยเทน้ำชาใส่ถ้วยแต่ละคนแล้วใส่หลอดให้ถ้วยริน"
 
 show rin basic_deadpansurprised
 with charachange
 
-"Rin looks at the way the tea swirls round and round in her white china cup, her eyes half closed, almost like she is being hypnotized."
+# "Rin looks at the way the tea swirls round and round in her white china cup, her eyes half closed, almost like she is being hypnotized."
+"รินหรี่ตาอยู่ครึ่งหนึ่งมองน้ำชาที่หมุนติ้วอยู่ในถ้วยน้ำชาสีขาวของเธอคล้ายโดนสะกดจิต"
 
 show shangpai:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"I pick up my fork and eye the food in front of me. The pie I got looks perfectly done, a thick layer of meringue atop creamy lemon custard."
+# "I pick up my fork and eye the food in front of me. The pie I got looks perfectly done, a thick layer of meringue atop creamy lemon custard."
+"ฉันหยิบส้อมขึ้นมาแล้วเล็งของกินที่อยู่ตรงหน้า ตัวพายนั้นดูสวยงามมีเมอแร็งก์หนาซ้อนอยู่บนคัสตาร์ดรสเลมอน\nชุ่มฉ่ำ"
 
-"After having the first bite, I pause, savoring the combination of tangy citrus and smooth, sugary meringue. It's quite good, though a bit too sweet for me."
+# "After having the first bite, I pause, savoring the combination of tangy citrus and smooth, sugary meringue. It's quite good, though a bit too sweet for me."
+"พอกัดกินคำแรกฉันก็ค่อย ๆ ลิ้มรสเปรี้ยวที่ผสมอยู่กับเมอแร็งก์รสหวานละมุน ก็อร่อยดี ถึงฉันจะว่าหวานไปหน่อย\nก็เถอะ"
 
 show emi excited_joy
 show rin basic_deadpannormal
@@ -7136,14 +7238,17 @@ with Pause (1.0)
 
 hide shangpai
 
-emi "Iff ver’ good."
+# emi "Iff ver’ good."
+emi "อะอ่อยอัง"
 
-"She's talking through a mouthful of cake, already halfway through her slice even though it's not exactly small."
+# "She's talking through a mouthful of cake, already halfway through her slice even though it's not exactly small."
+"เธอพูดทั้ง ๆ ที่ยังเคี้ยวแก้มตุ้ย ๆ แม้เค้กจะชิ้นค่อนข้างใหญ่ แต่เธอก็กินหมดไปแล้วครึ่งหนึ่ง"
 
 show emi basic_grin
 with charachange
 
-emi "I want to taste some of that."
+# emi "I want to taste some of that."
+emi "อยากชิมอันนั้นบ้างอะ"
 
 play sound sfx_slide2
 
@@ -7155,35 +7260,44 @@ show emi basic_closedgrin
 show rin basic_awayabsent
 with charachange
 
-"Before I get to respond, she strikes out at my delicious pie, takes a piece with her fork, and escapes with it."
+# "Before I get to respond, she strikes out at my delicious pie, takes a piece with her fork, and escapes with it."
+"ก่อนฉันจะทันได้ตอบอะไรเธอก็ใช้ส้อมเข้ามาจู่โจมพายแสนอร่อยของฉันพาหนีไปแล้ว"
 
 show emi basic_closedhappy
 with charachange
 
-emi "This is pretty good too."
+# emi "This is pretty good too."
+emi "อันนี้ก็อร่อย"
 
-hi "What are you doing? You have a slice of your own!"
+# hi "What are you doing? You have a slice of your own!"
+hi "ทำอะไรเนี่ย ของเธอก็มีให้กิน!"
 
 show emi excited_proud
 with charachange
 
-emi "Yeah, but if I started on that before finishing the cake, it'd be rude, don't you think?"
+# emi "Yeah, but if I started on that before finishing the cake, it'd be rude, don't you think?"
+emi "ใช่ แต่ถ้าให้กินอีกอันก่อนกินเค้กอันนี้หมดก็เสียมารยาทแย่ ว่ามั้ยล่ะ"
 
-"Her insolence is outrageous, but the gentleman in me allows for no retaliation."
+# "Her insolence is outrageous, but the gentleman in me allows for no retaliation."
+"ชักจะมากไปแล้ว แต่ความเป็นสุภาพบุรุษในตัวก็ยั้งฉันไว้ไม่ให้โต้ตอบอะไร"
 
 show emi basic_grin
 with charachange
 
-"I glare angrily at her, and she replies by sticking out her tongue impishly. Emi is even more hyper than usual today, but I don't mind. It's good for her to let off some steam."
+# "I glare angrily at her, and she replies by sticking out her tongue impishly. Emi is even more hyper than usual today, but I don't mind. It's good for her to let off some steam."
+"ฉันทำหน้าถมึงทึงใส่เธอ ส่วนเธอก็แลบลิ้นเยาะเย้ยใส่ วันนี้เอมิดูจะตื่นตัวกว่าปกติ แต่ฉันไม่ถือหรอก ปล่อยให้เธอ\nได้ผ่อนคลายบ้างก็ดี"
 
-"I take another sip of the tea in my cup. It's good and hot, even though I don't usually care much for tea, and the atmosphere in the café is very relaxing."
+# "I take another sip of the tea in my cup. It's good and hot, even though I don't usually care much for tea, and the atmosphere in the café is very relaxing."
+"ฉันยกถ้วยชาขึ้นดื่มอีกจิบหนึ่ง ชานั้นทั้งหอมและอุ่นแม้ปกติฉันจะไม่ได้อะไรกับชามากนัก แถมบรรยากาศในคาเฟ\nก็ชวนให้ผ่อนคลายดีด้วย"
 
-"I don't mind spending the rest of the afternoon here, not even after Emi orders her second piece of strawberry cake and Rin spends most of the time staring fixedly at the rain streaming down from the heavens."
+# "I don't mind spending the rest of the afternoon here, not even after Emi orders her second piece of strawberry cake and Rin spends most of the time staring fixedly at the rain streaming down from the heavens."
+"จะให้แช่อยู่ที่นี่ทั้งบ่ายเลยก็ได้ แล้วแถมเอมิก็สั่งเค้กสตรอว์เบอร์รีเพิ่มด้วยอีกต่างหาก ส่วนรินก็เอาแต่จ้องมองฝน\nที่ไหลบ่าลงมาจากฟากฟ้า"
 
 show rain normal behind bg
 with None
 
-"Even Yuuko rolls her eyes at the third piece of cake disappearing into Emi's bottomless stomach just as quickly as the previous two."
+# "Even Yuuko rolls her eyes at the third piece of cake disappearing into Emi's bottomless stomach just as quickly as the previous two."
+"แม้แต่ยูโกะยังต้องกลอกตาใส่พอว่าเห็นเค้กชิ้นที่สามนั้นถูกดูดกลืนหายเข้าไปในกระเพาะหลุมดำของเอมิ\nอย่างรวดเร็วไม่ต่างอะไจากสองชิ้นแรก"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="ambient")
 play ambient sfx_rain fadein 1.0
@@ -7199,14 +7313,17 @@ show bg suburb_shanghaiext_rn behind rain
 hide bg2
 with None
 
-"Despite the passing of time, it's still raining outside when we exit the Shanghai, though it seems to be letting up a little."
+# "Despite the passing of time, it's still raining outside when we exit the Shanghai, though it seems to be letting up a little."
+"เมื่อเวลาผ่านไปสักระยะหนึ่งแล้วพวกเราก็ออกมาจากร้านโดยที่ฝนยังคงตกอยู่ แต่ก็ดูจะซาลงบ้างแล้ว"
 
-hi "Too bad it had to rain on your parade."
+# hi "Too bad it had to rain on your parade."
+hi "แย่จังเลยนะ ฝนตกจนแผนล่มหมด"
 
 show rin basic_awayabsent_rn behind rain at center
 with charaenter
 
-rin "Weren't we supposed to have a picnic?"
+# rin "Weren't we supposed to have a picnic?"
+rin "พวกเราจะมาปิกนิกกันไม่ใช่เหรอ"
 
 show rin basic_awayabsent_rn at tworight
 show bg suburb_shanghaiext_rn at bgright
@@ -7215,51 +7332,63 @@ with charamove
 show emi basic_closedgrin_rn behind rain at twoleft
 with charaenter
 
-"Emi doesn't look too distraught over this turn of events."
+# "Emi doesn't look too distraught over this turn of events."
+"เอมิไม่ได้ดูอารมณ์บูดอะไรมากนักที่เรื่องเป็นอย่างนี้"
 
-emi "Nah it's fine! We had a good time, didn't we? I feel really pumped up."
+# emi "Nah it's fine! We had a good time, didn't we? I feel really pumped up."
+emi "ไม่เป็นไรน่า ก็ได้สนุกกันแล้วนี่ ฉันละมีแรงฮึดขึ้นมาเลย"
 
 show emi basic_grin_rn
 with charachange
 
-emi "It isn't even raining that hard any more. I kinda want to hike back to school to get rid of this energy and work off some of that cake."
+# emi "It isn't even raining that hard any more. I kinda want to hike back to school to get rid of this energy and work off some of that cake."
+emi "แถมฝนก็ไม่ได้ตกหนักขนาดนั้นแล้ว ชักอยากเอาแรงฮึดที่ได้มาไปใช้ขึ้นเขาไปโรงเรียนแล้วสิ แล้วเดี๋ยวจะไป\nออกกำลังกายเอาเค้กออกด้วย"
 
-"She stretches her arms out, and arches her back like a cat. After rolling her shoulders around twice, she smiles brightly."
+# "She stretches her arms out, and arches her back like a cat. After rolling her shoulders around twice, she smiles brightly."
+"เธอยืดแขนยืดหลังอย่างแมว เธอหมุนไหล่อยู่สองรอบแล้วยิ้มแฉ่ง"
 
 show emi sad_grin_rn
 with charachange
 
-emi "Man, I can't really run with these legs, though, especially uphill. I wish I'd brought my other ones."
+# emi "Man, I can't really run with these legs, though, especially uphill. I wish I'd brought my other ones."
+emi "เฮ้อ แต่ขาคู่นี้คงใช้วิ่งไม่ไหว ยิ่งเป็นเนินอีก รู้งี้เอาขาอีกคู่มาด้วยดีกว่า"
 
-"This notion sounds odd, spoken so casually. But I guess for Emi, changing legs is sort of like someone else changing shoes."
+# "This notion sounds odd, spoken so casually. But I guess for Emi, changing legs is sort of like someone else changing shoes."
+"พอพูดขึ้นมาลอย ๆ แล้วคำก็ฟังดูแหม่ง ๆ แต่กับเอมิแล้ว การเปลี่ยนขาก็คงเหมือนการที่คนปกติเปลี่ยนรองเท้าละมั้ง"
 
 show emi excited_proud_rn
 with charachange
 
-emi "Maybe if I walk really fast, that'll be kinda like running. I think I'll do that."
+# emi "Maybe if I walk really fast, that'll be kinda like running. I think I'll do that."
+emi "ถ้าเดินให้เร็ว ๆ ก็น่าจะเหมือนการวิ่งอยู่นะ เอางั้นก็แล้วกัน"
 
 show rin basic_absent_rn
 with charachange
 
-hi "I won't be able to keep up with that going uphill, though; I really am in bad shape. Plus, you'll get wet without an umbrella."
+# hi "I won't be able to keep up with that going uphill, though; I really am in bad shape. Plus, you'll get wet without an umbrella."
+hi "แต่เนินขนาดนั้นฉันคงตามไม่ไหวหรอกนะ สังขารฉันไม่ไหวแล้ว อีกอย่าง ไม่มีร่มเดี๋ยวเธอก็เปียกหรอก"
 
 show emi basic_grin_rn
 show rin basic_awayabsent_rn
 with charachange
 
-emi "It's hardly even a drizzle, now. A few drops won't hurt. I think I'm gonna go to the track after I change my legs, too."
+# emi "It's hardly even a drizzle, now. A few drops won't hurt. I think I'm gonna go to the track after I change my legs, too."
+emi "ก็แค่พรำ ๆ แทบไม่ตกแล้วเนี่ย โดนสักสองสามเม็ดไม่ตายหรอก เดี๋ยวถึงโรงเรียนเปลี่ยนขาแล้วฉันว่าจะไปที่ลู่ด้วย"
 
-"Emi skips away from the protection of my umbrella and goes on ahead at a brisk pace. Suddenly, she seems to remember something as she stops and spins around."
+# "Emi skips away from the protection of my umbrella and goes on ahead at a brisk pace. Suddenly, she seems to remember something as she stops and spins around."
+"เอมิก้าวฉับ ๆ ออกจากร่มฉันนำไปก่อน จู่ ๆ เธอก็นึกอะไรขึ้นได้แล้วชะงักกึกหมุนตัวหันมา"
 
 show emi excited_smile_rn
 with charachange
 
-emi "See you tomorrow!"
+# emi "See you tomorrow!"
+emi "เจอกันพรุ่งนี้!"
 
 show emi excited_proud_rn
 with charachange
 
-emi "Come eat lunch with us on the roof! I'll bring enough for three."
+# emi "Come eat lunch with us on the roof! I'll bring enough for three."
+emi "มากินข้าวเที่ยงด้วยกันที่ดาดฟ้านะ! เดี๋ยวฉันจะพกข้าวไปให้พอกินกันทั้งสามคนเลย"
 
 show emi invis at offscreenleft
 show rin basic_absent_rn at center
@@ -7271,18 +7400,23 @@ with None
 
 stop music fadeout 5.0
 
-"Rin and I are left to watch her wave at us and skip off again. Soon she disappears around a street corner. I'll never understand why Emi is perpetually in such a hurry to get somewhere."
+# "Rin and I are left to watch her wave at us and skip off again. Soon she disappears around a street corner. I'll never understand why Emi is perpetually in such a hurry to get somewhere."
+"รินและฉันยืนมองเอมิที่โบกมือลาทิ้งพวกเราไว้ ไม่นานเธอก็หายวับไปตรงหัวมุมถนน ฉันคงไม่มีวันเข้าใจว่าทำไมเอมิ\nถึงดูรีบร้อนขนาดนั้นทุกทีเวลาไปไหนมาไหน"
 
-hi "So, would you like me to walk you back to school so that at least one of you won't get wet?"
+# hi "So, would you like me to walk you back to school so that at least one of you won't get wet?"
+hi "แล้ว ให้ฉันเดินไปส่งเธอที่โรงเรียนมั้ย อย่างน้อยก็จะได้มีสักคนที่ไม่ตัวเปียก"
 
 show rin basic_deadpan_rn
 with charachange
 
-rin "If you are happy with it."
+# rin "If you are happy with it."
+rin "ถ้านายพอใจ"
 
-"It seems neither of us wants to keep alive the strained atmosphere from the argument a few days ago in the art room, which makes me feel relieved. I don't want to bear grudges and I'm happy that Rin feels the same way."
+# "It seems neither of us wants to keep alive the strained atmosphere from the argument a few days ago in the art room, which makes me feel relieved. I don't want to bear grudges and I'm happy that Rin feels the same way."
+"ดูเหมือนว่าพวกเราต่างก็ไม่อยากจะปล่อยให้บรรยากาศตึงเครียดที่ได้จากทะเลาะกันในห้องศิลปะเมื่อสองสามวันก่อน\nต้องค้างคาอยู่อย่างนั้น ซึ่งฉันก็โล่งใจ ฉันไม่อยากนึกเคืองอะไรเลย แล้วฉันก็ดีใจที่รินก็คิดอย่างนั้นเหมือนกัน"
 
-"Thus it is decided that we are content with each other's company for now, and we start walking in the same direction as Emi, albeit at a considerably calmer pace."
+# "Thus it is decided that we are content with each other's company for now, and we start walking in the same direction as Emi, albeit at a considerably calmer pace."
+"จึงเป็นอันตกลงว่าพวกเราก็เดินตามทางที่เอมินำไปด้วยกันได้ แม้จะไม่ได้เร่งรีบเท่าก็ตาม"
 
 hide rin
 hide bg
@@ -7292,45 +7426,59 @@ show ev rin_rain_away_close behind rain:
 with whiteout
 $ renpy.music.set_volume(0.7, 4.0, channel="ambient")
 
-"I get a bit closer to Rin, even though the umbrella is already big enough to shelter us both. I can feel her nearby warmth providing a contrast to the chill of this rainy weather."
+# "I get a bit closer to Rin, even though the umbrella is already big enough to shelter us both. I can feel her nearby warmth providing a contrast to the chill of this rainy weather."
+"ฉันขยับเข้าไปใกล้ ๆ รินอีกหน่อยแม้ร่มจะใหญ่พอที่จะกันฝนให้เราสองคนอยู่แล้ว พออยู่ใกล้ก็สัมผัสได้ถึง\nความอบอุ่นจากตัวเธอที่ขัดกับอากาศเย็น ๆ จากฝน"
 
-"Raindrops hitting the umbrella make a distinctive sound, playing the staccato melody of rainfall for nobody in particular."
+# "Raindrops hitting the umbrella make a distinctive sound, playing the staccato melody of rainfall for nobody in particular."
+"เสียงฝนตกใส่ร่มดังเปาะแปะเล่นเป็นท่วงทำนองบทเพลงสตักกาโตสายฝนแด่ไม่ใครบางคน"
 
 #"They leave tiny dots on the black asphalt road, which then combine into bigger patches like pointillist artwork being made in front of our eyes in mere seconds."
 
-"I realize I haven't been outside in the rain in what feels like forever. I inhale, taking in the scent of rain, feeling the weather with all my senses."
+# "I realize I haven't been outside in the rain in what feels like forever. I inhale, taking in the scent of rain, feeling the weather with all my senses."
+"ฉันเพิ่งรู้ตัวว่าฉันไม่ได้ออกมาอยู่กลางฝนอย่างนี้นานมาก ๆ แล้ว ฉันสูดหายใจเอากลิ่นฝนพลางสัมผัสสภาพอากาศนี้\nโดยใช้ทุกประสาทสัมผัส"
 
-"The world melts into a blur inside the rain."
+# "The world melts into a blur inside the rain."
+"ฝนปรอยจนโลกพร่าเลือน"
 
-"The colors of the sky have deepened from gray to dark blue, with hues of red added to the mix from the sunlight reflecting off the clouds. The low-hanging sky looks pretty, as if I could reach out my hand and touch it."
+# "The colors of the sky have deepened from gray to dark blue, with hues of red added to the mix from the sunlight reflecting off the clouds. The low-hanging sky looks pretty, as if I could reach out my hand and touch it."
+"ท้องฟ้าเปลี่ยนสีจากเทาเป็นน้ำเงินแซมสีแดงที่เป็นสีแสงแดดที่สะท้อนจากเมฆ ท้องฟ้าที่ลอยต่ำเช่นนี้นั้นดูสวยงาม\nดูคล้ายกับว่าฉันเอื้อมมือไปจับได้ถึง"
 
 $ renpy.music.set_volume(0.5, 4.0, channel="ambient")
 
-rin "Have I told you how much I like rain? It's like painting. It makes me feel connected."
+# rin "Have I told you how much I like rain? It's like painting. It makes me feel connected."
+rin "ฉันเคยบอกนายหรือยังว่าฉันชอบฝนมาก เหมือนภาพวาด ทำให้ฉันรู้สึกได้เชื่อมต่อ"
 
-"Almost echoing my thoughts, Rin lets out one of her own. It slips out of her mouth, circling around us gently."
+# "Almost echoing my thoughts, Rin lets out one of her own. It slips out of her mouth, circling around us gently."
+"รินพูดสิ่งที่เธอคิดซึ่งแทบจะตรงกับสิ่งที่ฉันคิด คำพูดนั้นออกมาจากปากเธอล้อมตัวพวกเราไว้อย่างอ่อนโยน"
 
-rin "Everything looks so soft, like the outlines of things just disappear. I like that."
+# rin "Everything looks so soft, like the outlines of things just disappear. I like that."
+rin "ทุกอย่างดูนุ่ม เหมือนเส้นขอบของอะไร ๆ หายไปหมดเลย ฉันชอบ"
 
-rin "It's like the rain is hugging me."
+# rin "It's like the rain is hugging me."
+rin "เหมือนว่าฝนกอดฉันอยู่"
 
-"Her voice sounds different from usual; more gentle, now, and soft. I wonder if it's only because of the rain, or because of the mood the rain brought upon the quiet artist girl."
+# "Her voice sounds different from usual; more gentle, now, and soft. I wonder if it's only because of the rain, or because of the mood the rain brought upon the quiet artist girl."
+"เสียงเธอต่างไปจากปกติ ฟังดูอ่อนโยนและนุ่มนวล เป็นเพราะฝน หรือเป็นเพราะอารมณ์ที่ฝนพาให้ศิลปินสาว\nที่พูดน้อยคนนี้ได้รู้สึกกันนะ"
 
 show ev rin_rain_away_close behind rain at Position(xalign=0.5, yalign=0.0)
 show ovl rin_rain_hisaotowards_close behind rain at Position(xalign=1.0, yalign=0.0)
 with charachange
 
-"I feel that mood in myself too, enhanced by her words."
+# "I feel that mood in myself too, enhanced by her words."
+"ฉันเองก็รู้สึกอย่างนั้นเช่นกัน ยิ่งเสริมด้วยคำพูดเธอด้วยแล้ว"
 
-hi "Yeah. I like rainy weather too. It's nice every once in a while."
+# hi "Yeah. I like rainy weather too. It's nice every once in a while."
+hi "อื้ม ฉันก็ชอบฝน นาน ๆ ทีก็ดีเหมือนกัน"
 
-hi "I wonder what is it about the rain."
+# hi "I wonder what is it about the rain."
+hi "อยากรู้จังว่าฝนมันพิเศษตรงไหน"
 
 show ev rin_rain_towards_close at Position(xalign=0.5, yalign=0.0)
 hide ovl
 with charachange
 
-rin "Everything."
+# rin "Everything."
+rin "ทุกตรง"
 
 show ev rin_rain_towards:
     xalign 0.5 yalign 0.5 zoom 1.05 subpixel True
@@ -7339,32 +7487,42 @@ with locationchange
 
 $ renpy.music.set_volume(0.35, 6.0, channel="ambient")
 
-"A silence follows the statement, as it allows for no continuation. I decide to push the direction of the conversation a little."
+# "A silence follows the statement, as it allows for no continuation. I decide to push the direction of the conversation a little."
+"ความเงียบตามประโยคนั้นมาเพราะต่ออะไรไม่ได้แล้ว ฉันนึกเปรยเปลี่ยนเรื่องคุยเสียหน่อย"
 
-hi "But you know, if you like the feeling of being connected, what's the problem with showing your paintings to others?"
+# hi "But you know, if you like the feeling of being connected, what's the problem with showing your paintings to others?"
+hi "แต่เนี่ย ถ้าเธอชอบที่ได้เชื่อมต่อ แล้วทำไมเธอถึงไม่อยากเอารูปที่เธอวาดให้คนอื่นดูล่ะ"
 
-hi "Don't you want to be connected to other people?"
+# hi "Don't you want to be connected to other people?"
+hi "เธอไม่อยากเชื่อมต่อกับคนอื่นเหรอ"
 
 show ev rin_rain_away at Position(zoom=1.0)
 show ovl rin_rain_hisaotowards behind rain at Position(xalign=1.0, yalign=0.0)
 with charachange
 
-rin "It's not the same thing. You're comparing apples and squids."
+# rin "It's not the same thing. You're comparing apples and squids."
+rin "ไม่เหมือนกันสักหน่อย นายคิดแบบลวก ๆ ไปนะ เหมือนจับแพะชนไก่"
 
-"I brought up the subject Rin wants to avoid, and it shuts her down again. The question stays hanging between us for the rest of the trip back to school, and I can't help wondering what on Earth I could have said to truly reach Rin."
+# "I brought up the subject Rin wants to avoid, and it shuts her down again. The question stays hanging between us for the rest of the trip back to school, and I can't help wondering what on Earth I could have said to truly reach Rin."
+"ฉันคุยเรื่องที่รินอยากจะเลี่ยงจนเธอปิดกั้นตัวเองไปอีกแล้ว คำถามลอยค้างอยู่กลางระหว่างเราสองคนอย่างนั้นไป\nตลอดทางกลับโรงเรียน ฉันอดคิดไม่ได้ว่าจะมีอะไรที่พูดแล้วส่งไปถึงรินได้จริง ๆ บ้างหรือเปล่า"
 
-"Does she feel that she's lacking an identity?"
+# "Does she feel that she's lacking an identity?"
+"เธอรู้สึกว่าไม่มีตัวตนเหรอ"
 
-"She has a strong personality, but if pressed to elaborate, I'm not sure I could describe it accurately. She feels like a person who is in constant conflict with herself. I never know what to expect when I talk to her."
+# "She has a strong personality, but if pressed to elaborate, I'm not sure I could describe it accurately. She feels like a person who is in constant conflict with herself. I never know what to expect when I talk to her."
+"เธอเป็นคนนิสัยชัดจะตาย แต่ถ้าให้อธิบายอีก ฉันก็ไม่แน่ใจเหมือนกันว่าจะพูดได้ถูกต้องหรือเปล่า เธอดูเหมือนคน\nที่จะทะเลาะอยู่กับตัวเองตลอด ฉันก็ไม่รู้เหมือนกันว่าคาดหวังอะไรอยู่ตอนที่คุยกับเธอ"
 
-"I wonder how she herself experiences that disconnect."
+# "I wonder how she herself experiences that disconnect."
+"การที่ตัวเธอเองรู้สึกถึงการหลุดคลาดขาดการเชื่อมต่อไปนั้นคือยังไงกันนะ"
 
-"If Rin is asking herself every day “Who am I?” and obsessively paints images to define herself day after day, what does she think of that way of living?"
+# "If Rin is asking herself every day “Who am I?” and obsessively paints images to define herself day after day, what does she think of that way of living?"
+"ถ้ารินถามตัวเองทุกวันว่า “ฉันเป็นใคร” แล้ววาดรูปอย่างเอาเป็นเอาตายเพื่อนิยามตัวเองวันแล้ววันเล่า เธอคิดยังไง\nกับการที่ใช้ชีวิตอย่างนั้นกัน"
 
 hide ovl
 with charachange
 
-"The irony is, that's the exact same question I've been asking myself for the past four or five months. For me, it was miserable. I can only assume that it's the natural state of being for this girl."
+# "The irony is, that's the exact same question I've been asking myself for the past four or five months. For me, it was miserable. I can only assume that it's the natural state of being for this girl."
+"ที่ตลกก็คือ สี่ห้าเดือนที่ผ่านมานี้ฉันก็ถามตัวเองอย่างนั้นเหมือนกัน ซึ่งเป็นความรู้สึกที่หดหู่เอามาก ๆ แต่สำหรับ\nเธอคนนี้ก็คงเป็นอย่างนั้นอยู่ตลอด"
 
 hide ev
 show bg school_dormext_full_rn behind rain
@@ -7373,20 +7531,25 @@ with shorttimeskip
 
 $ renpy.music.set_volume(0.7, 1.0, channel="ambient")
 
-"When we stop in front of the dormitories Rin turns to face me, as if sensing my thoughts from afar. Her gaze travels emptily past my left shoulder into the shapeless rainfall."
+# "When we stop in front of the dormitories Rin turns to face me, as if sensing my thoughts from afar. Her gaze travels emptily past my left shoulder into the shapeless rainfall."
+"พอมาหยุดยืนอยู่หน้าหอรินก็หันมามองฉันคล้ายจับความคิดฉันจากระยะไกลได้ สายตาว่างเปล่าเธอทอดผ่านบ่าฉัน\nไปยังม่านฝนไร้รูปร่าง"
 
-"Her dark eyes seem to suck the low ambient light into themselves, like a reverse mirror."
+# "Her dark eyes seem to suck the low ambient light into themselves, like a reverse mirror."
+"ตาดำของเธอดูจะจะดูดกลืนแสงที่ความสว่างน้อยเข้าไปราวกับว่าเป็นกระจกแบบย้อนกลับ"
 
-"That empty gaze lets nothing out. If I want to understand what's going on behind those eyes, I have to work it out myself."
+# "That empty gaze lets nothing out. If I want to understand what's going on behind those eyes, I have to work it out myself."
+"สายตาว่างเปล่านั้นไม่มีสิ่งใดออกมา ถ้าอยากรู้ว่าอะไรอยู่เบื้องหลังตาคู่นั้น ฉันต้องคิดเอาเอง"
 
-"Rin opens her mouth, then closes it without saying anything. The silence lasts for a few more moments before she takes a step towards the dorm building door."
+# "Rin opens her mouth, then closes it without saying anything. The silence lasts for a few more moments before she takes a step towards the dorm building door."
+"รินอ้าปากแล้วปิดปากไปโดยไม่พูดอะไร ความเงียบดำเนินต่อไปอีกพักหนึ่งก่อนเธอจะเดินไปยังประตูทางเข้าหอ"
 
 show rin basic_absent_rn
 with charadistant
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
-rin "See you tomorrow."
+# rin "See you tomorrow."
+rin "เจอกันพรุ่งนี้"
 
 stop ambient fadeout 0.5
 
@@ -7633,7 +7796,7 @@ rin "In the rain."
 
 "That sounds like a bit too much for just keeping up with training regime. Emi is a hard-headed one, though, so I can see her running in the downpour just because she “had to.”"
 
-hi "Well, that's obviously overdoing it. Probably why she came down with that cold, too."
+hi "Well, that's obviously overdoing it. Probably why she came down with that cold, too." #ล้มหมอนนอนเสื่อ-ลุกหมอนนอนเสื่อ
 
 hi "But I guess it's kinda cool."
 
