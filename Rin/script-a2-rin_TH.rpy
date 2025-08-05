@@ -5387,7 +5387,7 @@ window show
 "จะให้พูดอะไรตรง ๆ กับเธอเลยก็ลำบาก แต่อย่างน้อยก็เขียนให้ดูน่าเชื่อถือได้บ้างละนะ ฉันไม่ได้เขียนถึงยามากุเลย"
 
 # "I doubt she will write me again, but I don't feel at all sad about it. I fold my own letter to her and as I have no envelope, set it next to Iwanako's. I'll mail it to her later."
-"ฉันไม่แน่ใจด้วยซ้ำว่าเธอจะเขียนถึงฉันอีกหรือเปล่า แต่ฉันไม่ได้เสียใจเลย ฉันพับจดหมายที่เขียนถึงเธอแล้ววางไว้ข้าง ๆ\nจดหมายของอิวานาโกะเพราะฉันยังไม่มีซองจดหมาย ไว้ค่อยไปส่งแล้วกัน"
+"ฉันไม่แน่ใจด้วยซ้ำว่าเธอจะเขียนส่งมาหาฉันอีกหรือเปล่า แต่ฉันไม่ได้เสียใจเลย ฉันพับจดหมายที่เขียนถึงเธอแล้ววาง\nไว้ข้าง ๆ จดหมายของอิวานาโกะเพราะฉันยังไม่มีซองจดหมาย ไว้ค่อยไปส่งแล้วกัน"
 
 # "Then I lie back on my bed, looking at the monotone gray ceiling."
 "จากนั้นฉันก็มานอนที่เตียงมองเพดานสีเทาทึบ"
@@ -5456,7 +5456,7 @@ n "ฉันทวนคิดดูว่าสิ่งที่จะได�
 n "บอกไม่ถูกด้วยซ้ำว่าคนพวกนี้นั้นมีความสุข ไม่มีความสุข หรือแค่ทำใจปล่อยไปแล้วใช้ชีวิตอยู่อย่างคาราคาซัง\nไม่มีความรู้สึกอะไรเหมือนอย่างที่ฉันเป็นตลอดฤดูใบไม้ผลินั้น"
 
 # n "I escape from these feelings into the towering piles of books I carry to my room from Yuuko's sanctuary. After realizing that this will just shut me down even more, I start going to the art club's room more often, usually whenever I can."
-n "ฉันหลีกหนีจากความรู้สึกเหล่านั้นไปอยู่กับกองหนังสือที่ฉันขนมาจากแดนอารักขาของยูโกะ แต่พอรู้ตัวว่ายิ่งทำแบบนั้นจะยิ่งทำให้เก็บตัวหนักกว่าเก่าฉันก็เริ่มใช้เวลาว่างที่พอมีแวะมาที่ห้องชมรมศิลปะให้บ่อยขึ้น"
+n "ฉันหลีกหนีจากความรู้สึกเหล่านั้นไปอยู่กับกองหนังสือที่ฉันขนมาจากแดนอารักขาของยูโกะ แต่พอรู้ตัวว่ายิ่งทำแบบนั้นจะยิ่ง\nทำให้เก็บตัวหนักกว่าเก่าฉันก็เริ่มใช้เวลาว่างที่พอมีแวะมาที่ห้องชมรมศิลปะให้บ่อยขึ้น"
 
 # n "\nRin too seems to spend more time in there than in her own classroom."
 n "\nรินเองก็ดูจะมาอยู่ที่ห้องนี้บ่อยกว่าห้องเรียนตัวเองเสียอีก"
@@ -5544,7 +5544,7 @@ nvl show dissolve
 n "\n\nชมรมศิลปะส่วนมากก็จะสบาย ๆ ปล่อยอิสระมาก ๆ ยกเว้นบางครั้งที่โนมิยะจะตื่นเต้นอยากบรรยายเรื่องวิธีหรือ\nแนวการวาดที่เขาอยากเอามาสอน แต่นอกนั้นทุกคนจะทำอะไรที่ตัวเองสนใจก็ทำได้เต็มที่"
 
 # n "Lacking one, I keep floating around without a direction. I try this and that, but nothing really leaves me with a deeper impression, not to mention that I don't seem to have a special knack for anything."
-n "และในเมื่อฉันไม่มีจึงได้แต่เลื่อนลอยไร้ทิศทาง ก็ลองทำนั่นทำนี่อยู่หรอก แต่ไม่มีอะไรที่ฉันประทับใจเป็นพิเศษเลย แล้วยิ่ง\nฉันดูจะไม่มีฝีมือทำอะไรสักอย่างอีกต่างหาก"
+n "และในเมื่อฉันไม่มีสิ่งที่สนใจจึงได้แต่เลื่อนลอยไร้ทิศทาง ก็ลองทำนั่นทำนี่อยู่หรอก แต่ไม่มีอะไรที่ฉันประทับใจ\nเป็นพิเศษเลย แล้วยิ่งฉันดูจะไม่มีฝีมือทำอะไรสักอย่างอีกต่างหาก"
 
 # n "Well, I did get praised for my attempt at watercolors, and I felt pretty good about that, myself, but that's it."
 n "ก็ได้รับคำชมมาตอนที่ลองใช้สีน้ำอยู่หรอก ซึ่งฉันก็ค่อนข้างภูมิใจเหมือนกัน แต่ก็แค่นั้นแหละ"
@@ -5653,7 +5653,7 @@ with locationchange
 "ฉันผสมสีเหลืองกับสีน้ำเงินให้คล้ายกับสีแดดที่ส่องอยู่ตรงต้นไม้นอกหน้าต่าง พระอาทิตย์คล้อยต่ำจนสีเหลือง\nเด่นขึ้นมาและทำให้บริเวณรอบ ๆ ดูมืดลง"
 
 # "I still can't quite connect what I see with what my hand does with the paints, but it's a passable attempt for my level."
-"ฉันยังจับสิ่งที่ตาเห็นมาลงกับสีที่อยู่กับมือไม่ได้เป๊ะ ๆ เท่าไหร่ แต่ก็ถือว่าผ่านแล้วสำหรับคนระดับฉัน"
+"ฉันยังจับสิ่งที่ตาเห็นมาลงกับสีที่อยู่กับมือได้ไม่เป๊ะเท่าไหร่ แต่ก็ถือว่าผ่านแล้วสำหรับคนระดับฉัน"
 
 # "After a while I start losing my focus and move the paper aside, deciding to watch Rin work for a while, instead."
 "ผ่านไปสักหน่อยก็เริ่มไม่มีสมาธิ ฉันพักกระดาษทิ้งไว้แล้วหันมาดูรินวาดภาพสักหน่อยแทน"
@@ -5703,7 +5703,7 @@ rin "หลายอย่าง แล้วก็บางไม่อย่�
 hi "อยากจะพูดให้ฟังมั้ย"
 
 # "I try to reach out to her clumsily, ignoring the embarrassing feeling of awkwardness. Rin keeps her focus on the painting, spreading more and more paint on the canvas, her lips forming a perfectly straight line as she concentrates on the job."
-"ฉันพยายามเข้าใกล้ชิดรินอย่างเก้ ๆ กัง ๆ โดยไม่สนใจกระอักกระอ่วนที่ชวนให้เขินอาย รินยังตั้งสมาธิอยู่กับภาพวาด\nพลางเติมแต่งสีลงบนผืนผ้าใบอีก ปากเธอเม้มเป็นเส้นตรงขณะที่เธอจดจ่ออยู่กับภาพนั้น"
+"ฉันพยายามเข้าใกล้ชิดรินอย่างเก้ ๆ กัง ๆ โดยไม่สนใจความกระอักกระอ่วนที่ชวนให้เขินอาย รินยังตั้งสมาธิอยู่\nกับภาพวาดพลางเติมแต่งสีลงบนผืนผ้าใบอีก ปากเธอเม้มเป็นเส้นตรงขณะที่เธอจดจ่ออยู่กับภาพนั้น"
 
 scene ev rin_painting_base
 with locationchange
@@ -5814,7 +5814,7 @@ show rin basic_absent_close
 with charachange
 
 # rin "Paintings stay behind. When I look at my old things, I remember what I was thinking back when I made them."
-rin "ภาพวาดน่ะเป็นสิ่งที่คงค้าง เวลามองภาพเก่า ๆ ที่ฉันวาด ฉันจะจำได้ว่าตอนวาดฉันคิดอะไรอยู่"
+rin "ภาพวาดน่ะเป็นสิ่งคงค้าง เวลามองภาพเก่า ๆ ที่ฉันวาด ฉันจะจำได้ว่าตอนวาดฉันคิดอะไรอยู่"
 
 show rin basic_lucid_close
 with charachange
@@ -7223,7 +7223,7 @@ show shangpai:
 with Pause (1.0)
 
 # "I pick up my fork and eye the food in front of me. The pie I got looks perfectly done, a thick layer of meringue atop creamy lemon custard."
-"ฉันหยิบส้อมขึ้นมาแล้วเล็งของกินที่อยู่ตรงหน้า ตัวพายนั้นดูสวยงามมีเมอแร็งก์หนาซ้อนอยู่บนคัสตาร์ดรสเลมอน\nชุ่มฉ่ำ"
+"ฉันหยิบส้อมขึ้นมาแล้วเล็งของกินที่อยู่ตรงหน้า ตัวพายนั้นดูสวยงามและมีเมอแร็งก์หนาซ้อนอยู่บนคัสตาร์ด\nรสเลมอนชุ่มฉ่ำ"
 
 # "After having the first bite, I pause, savoring the combination of tangy citrus and smooth, sugary meringue. It's quite good, though a bit too sweet for me."
 "พอกัดกินคำแรกฉันก็ค่อย ๆ ลิ้มรสเปรี้ยวที่ผสมอยู่กับเมอแร็งก์รสหวานละมุน ก็อร่อยดี ถึงฉันจะว่าหวานไปหน่อย\nก็เถอะ"
@@ -7917,7 +7917,7 @@ with charachange
 "รินดูจะไม่ใส่ใจเรื่องกินมากนัก เพราะงั้นพวกเราก็อยู่ที่ดาดฟ้ากันทั้ง ๆ ที่ไม่มีข้าวเที่ยงจากเอมิ เธอมายืนตรงหน้ารั้ว\nอยู่ข้าง ๆ ฉันมองไปสักที่ไกล ๆ เหมือนที่ฉันมอง"
 
 # "Nobody else seems to be coming around to intrude upon this calmness, either. It's quiet and peaceful."
-"ไม่มีใครดูอยากจะรบกวนที่อยู่อย่างสบาย ๆ อย่างนี้ด้วย บรรยากาศนั้นทั้งเงียบและสงบ"
+"ไม่มีใครดูอยากจะรบกวนบรรยากาศที่ได้อยู่กันสบาย ๆ อย่างนี้ด้วย รอบตัวเรานั้นทั้งเงียบและสงบ"
 
 stop music fadeout 2.0
 play ambient sfx_rooftop fadein 3.0
@@ -8342,7 +8342,7 @@ show rin relaxed_sleepy_superclose
 with charachange
 
 # rin "I'm not really used to this kind of thing. The first time Emi hugged me I got surprised and kicked her in the stomach. I can kick pretty hard so she hasn't been hugging me an awful lot after that."
-rin "ฉันไม่ชินกับอะไรแบบนี้เท่าไหร่ ตอนที่เอมิกอดฉันครั้งแรกฉันตกใจจนถีบท้องเธอไปเลย แล้วฉันดันถีบแรงจน\nหลังจากนั้นเธอก็ไม่ได้กอดฉันบ่อย ๆ เลย"
+rin "ฉันไม่ชินกับอะไรแบบนี้เท่าไหร่ ตอนที่เอมิกอดฉันครั้งแรกฉันตกใจจนเผลอถีบท้องเธอไป แล้วฉันดันถีบแรงจน\nหลังจากนั้นเธอก็ไม่ได้กอดฉันบ่อย ๆ เลย"
 
 # hi "It's not wrong. Just, no, it's just me… things are a bit hard for me, for the time being. I can't seem to react properly to anything."
 hi "ไม่ผิดหรอก แค่ ไม่สิ แค่ฉัน… ช่วงนี้อะไร ๆ มันมากมายไปหมด ฉันเหมือนจะตอบสนองอะไรได้ไม่ดีเลย"
@@ -8417,7 +8417,7 @@ with locationchange
 "ฉันแหงนมองอีกครั้งส่งท้าย"
 
 # hi "This rooftop is really great. It's like I'm just a little bit closer to the sky."
-rin "ดาดฟ้านี่เยี่ยมจริง ๆ รู้สึกเหมือนได้เข้าใกล้ท้องฟ้าไปอีกหน่อยเลย"
+hi "ดาดฟ้านี่เยี่ยมจริง ๆ รู้สึกเหมือนได้เข้าใกล้ท้องฟ้าไปอีกหน่อยเลย"
 
 # rin "I know a better place, but we can't go there on lunch break. I can take you there sometime if you want."
 rin "ฉันรู้จักที่ที่ดีกว่านี้นะ แต่จะไปตอนพักเที่ยงไม่ได้ ถ้าอยากไปเดี๋ยวสักวันจะพาไป"
@@ -8449,7 +8449,7 @@ with charaexit
 "พอรินไปแล้วฉันก็ปล่อยน้ำตาให้ไหลอาบแก้ม ร้องไห้ให้กับโรคนี้ของฉันเป็นครั้งแรกและครั้งเดียวในชีวิต"
 
 # "Then I cast away that hollow person lying on the hospital bed, forever."
-"แล้วฉันก็ทิ้งตัวฉันอันเปล่ากลวงคนนั้นที่นอนอยู่บนเตียงโรงพยาบาลไปตลอดกาล"
+"แล้วทิ้งตัวฉันอันเปล่ากลวงคนนั้นที่นอนอยู่บนเตียงโรงพยาบาลไปตลอดกาล"
 
 stop music fadeout 2.0
 scene black
@@ -8562,7 +8562,7 @@ hide emi
 with charaexit
 
 # "She leaves for the girls' dorm. I want to go with her to wish Rin well. I want to tell her that I'm better now too, but it doesn't feel appropriate."
-"เธอออกตัวไปที่หอหญิง ฉันอยากจะตามเอมิไปเยี่ยมรินด้วยเหมือนกัน อยากจะบอกรินว่าตอนนี้ฉันดีขึ้นแล้วด้วย\nแต่ก็รู้สึกเหมือนไม่ถูกที่ถูกทางอยู่"
+"เธอออกตัวไปที่หอหญิง ฉันอยากจะตามเอมิไปเยี่ยมรินด้วยเหมือนกัน อยากจะบอกรินว่าตอนนี้ฉันรู้สึกดีขึ้นแล้วด้วย\nแต่ก็รู้สึกเหมือนไม่ถูกที่ถูกทางอยู่"
 
 # "An unspecified feeling diverts my thoughts away. Somehow I just can't summon the resolve to go in there. Is this what Iwanako went through when she tried to tell me what she felt?"
 "ความรู้สึกบางอย่างที่ระบุไม่ได้เบนความคิดฉันไปทางอื่น ไม่รู้ทำไมถึงรวบรวมความกล้าเข้าไปไม่ได้ เนี่ยน่ะเหรอ\nความรู้สึกของอิวานาโกะที่พยายามบอกจะความรู้สึกเธอให้ฉันได้ฟังน่ะ"
@@ -8609,7 +8609,7 @@ show rinpan basic_deadpanamused at Slide(1.05,1.0,1.0,1.0,0.5)
 with charaenter
 
 # "…and barely any clothes on."
-"…และแทบไม่ได้ใส่อะไรเลย"
+"…และตัวเธอแทบไม่ได้ใส่อะไรเลย"
 
 "…"
 
@@ -8649,10 +8649,10 @@ with charachange
 "ก็บอกตัวเองอย่างนั้นอะนะ"
 
 # hi "Err, I thought I'd pay you a visit since you haven't been at the art club… and I wanted to talk with you and wish you well."
-hi "เอ่ออ พอดีเห็นไม่เข้าชมรมศิลปะเลยกะว่าจะมาเยี่ยมน่ะ… แล้วก็อยากคุยกับเธอกับขอให้เธอหายไว ๆ"
+hi "เอ่ออ พอดีเห็นไม่เข้าชมรมศิลปะเลยกะว่าจะมาเยี่ยมน่ะ… แล้วก็อยากมาคุยด้วย"
 
 # "Rin doesn't show any sign of recognizing what I just said, making me wonder if she actually understood my words, or if she even heard them."
-"ไม่มีทีท่าว่ารินจะได้ยินสิ่งที่ฉันเพิ่งพูดไปจนฉันสงสัยว่าเธอเข้าใจที่ฉันพูดหรือเปล่า หรือว่าไม่ได้ยิน"
+"ไม่มีทีท่าว่ารินจะได้ยินสิ่งที่ฉันเพิ่งพูดไปจนฉันสงสัยว่าเธอเข้าใจที่ฉันพูดหรือเปล่า หรือว่าไม่ได้ยินจริง ๆ"
 
 # "Maybe it's the fever making her groggy; she might've actually been asleep before I came over."
 "หรือจะยังเบลอ ๆ เพราะเป็นไข้ ก่อนหน้าที่ฉันจะมาหาอาจจะหลับอยู่"
@@ -8671,7 +8671,7 @@ hide rinpan
 with None
 
 # "She turns on her heel and withdraws from the door, walking back inside the small room. From the doorway I can see her walk to her bed and half fall down, half sit down on the messy pile of bedsheets."
-"เธอหมุนส้นเท้าแล้วเดินจากประตูกลับเข้าไปในห้องเล็ก ๆ นั้น ฉันยืนอยู่ตรงประตูมองเธอเดินไปที่เตียงแล้วทำท่า\nกึ่งนอนกึ่งนั่งอยู่บนกองผ้ารก ๆ อยู่บนที่นอน"
+"เธอหมุนส้นเท้าแล้วเดินจากประตูกลับเข้าไปในห้องเล็ก ๆ นั้น ฉันยืนอยู่ตรงประตูมองเธอเดินไปที่เตียงทำท่า\nกึ่งนอนกึ่งนั่งอยู่บนกองผ้ารก ๆ อยู่บนที่นอน"
 
 # "The open doorway seems to be more of an obstacle in my mind than the closed door was, but since Rin doesn't say anything else, I step through it, and into her room."
 "ประตูที่เปิดดูเป็นอุปสรรคทางจิตใจมากกว่าประตูที่ปิดเสียอีก แต่ในเมื่อรินไม่พูดอะไรต่อ ฉันก็เดินผ่านประตูเข้าไป\nในห้องเธอ"
@@ -8893,7 +8893,7 @@ rin "ฮิซาโอะ"
 "ห้องก็ไม่ได้เรียบจนจืดขนาดนั้น แต่ก็ดูไม่เหมือนสภาพของห้องสาวน้อยที่ฉันคิดไว้ในหัวเท่าไหร่"
 
 # "A faint smell of art… of paint and paper is floating in the air. It's the same smell the art room has."
-"กลิ่นศิลปะจาง ๆ … กลิ่นสีและกระดาษลอยอยู่ในอากาศ กลิ่นเหมือนเดียวกันกับอย่างที่กลิ่นที่ห้องศิลปะ"
+"กลิ่นศิลปะจาง ๆ … กลิ่นสีและกระดาษลอยอยู่ในอากาศ กลิ่นเหมือนเดียวกันอย่างกับกลิ่นที่ห้องศิลปะ"
 
 # "Rin isn't too concerned about being tidy, it seems; everything she owns seems to be arranged in various piles around her room."
 "และดูเหมือนว่ารินจะไม่ได้ใส่ใจเรื่องความเป็นระเบียบมากนัก ในห้องเธอมีของอะไรวางกอง ๆ รวมกันไปทั่ว"
@@ -8952,10 +8952,10 @@ show rinpan relaxed_surprised
 with charachange
 
 # rin "Hmmm?"
-rim "หืมมม"
+rin "หืมมม"
 
 # "Rin doesn't seem to be exactly attentive right now, not that she ever is. I plow ahead and get it off my chest anyway."
-"รินดูไม่ค่อยสนใจเท่าไหร่ แต่ก็ใช่ว่าจะเคยสนใจอยู่แล้ว ฉันดันทุรังแล้วพูดออกไปอยู่ดี"
+"รินดูไม่ค่อยสนใจเท่าไหร่ แต่ก็ใช่ว่าจะเคยสนใจอยู่แล้ว ฉันดันทุรังพูดออกไปอยู่ดี"
 
 # hi "I just wanted to tell you that I'm going to be better from now on, I guess."
 hi "ฉันแค่อยากบอกเธอว่าจากนี้ไปฉันจะทำตัวให้ดีขึ้นแล้วนะ ประมาณนั้น"
@@ -9281,7 +9281,7 @@ with locationchange
 "หลับอยู่"
 
 # "She is lying diagonally across the bed, somehow managing to have simultaneously fallen asleep while standing up, and fallen down in a way that she didn't injure herself."
-"ตัวเธอนอนขวางเตียง อยู่ ๆ เธอก็หลับทั้งยืนแล้วล้มลงนอนได้โดยไม่บาดเจ็บอะไร"
+"ตัวเธอนอนพาดกับเตียง อยู่ ๆ เธอก็หลับทั้งยืนแล้วล้มลงนอนได้โดยไม่บาดเจ็บอะไร"
 
 # "Fool's luck."
 "ดวงดีจริงเลย"
@@ -9482,7 +9482,7 @@ show rin basic_lucid
 with charachange
 
 # rin "I remember that I promised to show you one place, though. Did that happen for real?"
-rin "แต่จำได้ว่าจะพานายไปดูที่หนึ่ง เป็นอย่างนั้นจริงมั้ย"
+rin "แต่จำได้ว่าสัญญาจะพานายไปดูที่หนึ่ง เป็นอย่างนั้นจริงมั้ย"
 
 show rin basic_awayabsent
 with charachange
@@ -9668,7 +9668,7 @@ rin "ไม่รู้สิ แค่…"
 play music music_rin fadein 0.5
 
 # rinbabble "You just look so sad all the time and become upset so easily and it makes me confused and I really don't remember much about yesterday except that you came to my room and that's why it might be because of me so if it's because of me I think that I know why, it's because people don't really like talking to me and you might be the same and that would be sad I know that people and I'm talking about others than Emi too always say that I'm strange and that I talk strange things so I thought I'd try not to say strange things but that just makes me think more and new and strange and colorful that was not a good word but maybe you understand anyway and odd things so if I want to say something I don't really know how and then the words are not the same as the thoughts because something goes wrong on the way out but it's not like the thoughts are really the thing I should be saying it's more like the idea of the thought or the feeling of the idea or the idea of the feeling but it's not really any of those either because there is no word for it unless I invent a new one which is not really useful so I've been thinking if doing things is better than saying so maybe because yesterday I took those pills and I was feeling a little strange I might have done something that I shouldn't besides I don't even know if it would be any better if I just could say the thought there is no telepathy that's real telepathy isn't there I think it'd be terrible and useful at the same time but right now I wouldn't mind because misunderstanding is so easy but understanding is not and I thought—"
-rinbabble "นายดูเศร้าตลอดแถมยังอารมณ์เสียง่ายจนฉันงงแล้วฉันก็จำอะไรเมื่อวานได้ไม่มากนอกจากที่ว่านายมาห้องฉันแล้วฉันก็เลยคิดว่าคงเป็นเพราะฉันเพราะถ้าเป็นเพราะฉันฉันคิดว่าฉันรู้ว่าทำไมเพราะคนไม่ชอบเวลาคุยกับฉันแล้วนายก็อาจเป็นเหมือนกันด้วยถ้าเป็นงั้นก็คงเศร้าฉันรู้จักคนนั้นฉันพูดถึงคนอื่นที่ไม่ใช่เอมิอยู่บอกตลอดว่าฉันแปลกฉันพูดแปลกฉันเลยพยายามไม่พูดอะไรแปลกแต่ยิ่งทำอย่างนั้นก็ยิ่งทำให้ฉันคิดหาอะไรแปลกและมีสีสันที่ใหม่กว่ามาพูดไม่ใช่คำที่ดีหรอกแต่นายก็คงจะเข้าใจนั่นแหละแล้วก็อะไรแปลกเพราะงั้นถ้าฉันอยากพูดอะไรฉันไม่รู้จะพูดยังไงแล้วคำพูดไม่ได้เหมือนความคิดเพราะระหว่างทางจะมีอะไรที่เพี้ยนไปแต่ก็ไม่ได้แปลว่าฉันควรพูดสิ่งที่คิดที่ฉันหมายถึงคือแนวคิดของความคิดหรือความรู้สึกของแนวคิดหรือแนวคิดของความรู้สึกแต่ก็ไม่ใช่อะไรพวกนั้นเหมือนกันเพราะไม่มีคำมาใช้อธิบายได้ยกเว้นว่าฉันจะคิดค้นขึ้นมาใหม่ซึ่งก็ไม่ได้มีประโยชน์เท่าไหร่ฉันเลยคิดว่าถ้าทำดีกว่าพูดแล้วบางทีเพราะเมื่อวานฉันกินยาพวกนั้นไปแล้วฉันก็รู้สึกแปลกนิดหน่อยฉันอาจจะทำอะไรที่ฉันไม่ควรทำลงไปอีกอย่างฉันไม่รู้ว่าถ้าพูดสิ่งที่คิดจะดีจริงมั้ยไม่มีกระแสจิตจริงกระแสจิตไม่มีฉันคิดว่าคงจะแย่และมีประโยชน์เหมือนกันแต่ตอนนี้ฉันไม่อะไรแล้วเพราะการเข้าใจผิดมันง่ายแต่การเข้าใจน่ะไม่ง่ายแล้วฉันก็คิดว่า—"
+rinbabble "นายดูเศร้าตลอดแถมยังอารมณ์เสียง่ายจนฉันงงแล้วฉันก็จำอะไรเมื่อวานได้ไม่มากนอกจากที่ว่านายมาห้องฉันแล้วฉันก็เลยคิด\n\nว่าคงเป็นเพราะฉันเพราะถ้าเป็นเพราะฉันฉันคิดว่าฉันรู้ว่าทำไมเพราะคนไม่ชอบเวลาคุยกับฉันแล้วนายก็อาจเป็นเหมือนกันด้วย\n\nถ้าเป็นงั้นก็คงเศร้าฉันรู้จักคนนั้นฉันพูดถึงคนอื่นที่ไม่ใช่เอมิอยู่บอกตลอดว่าฉันแปลกฉันพูดแปลกฉันเลยพยายามไม่พูดอะไร\n\nแปลกแต่ยิ่งทำอย่างนั้นก็ยิ่งทำให้ฉันคิดหาอะไรแปลกและมีสีสันที่ใหม่กว่ามาพูดไม่ใช่คำที่ดีหรอกแต่นายก็คงจะเข้าใจนั่นแหละ\n\nแล้วก็อะไรแปลกเพราะงั้นถ้าฉันอยากพูดอะไรฉันไม่รู้จะพูดยังไงแล้วคำพูดไม่ได้เหมือนความคิดเพราะระหว่างทางจะมีอะไรที่\n\nเพี้ยนไปแต่ก็ไม่ได้แปลว่าฉันควรพูดสิ่งที่คิดที่ฉันหมายถึงคือแนวคิดของความคิดหรือความรู้สึกของแนวคิดหรือแนวคิดของ\n\nความรู้สึกแต่ก็ไม่ใช่อะไรพวกนั้นเหมือนกันเพราะไม่มีคำมาใช้อธิบายได้ยกเว้นว่าฉันจะคิดค้นขึ้นมาใหม่ซึ่งก็ไม่ได้มีประโยชน์เท่า\n\nไหร่ฉันเลยคิดว่าถ้าทำดีกว่าพูดแล้วบางทีเพราะเมื่อวานฉันกินยาพวกนั้นไปแล้วฉันก็รู้สึกแปลกนิดหน่อยฉันอาจจะทำอะไรที่ฉัน\n\nไม่ควรทำลงไปอีกอย่างฉันไม่รู้ว่าถ้าพูดสิ่งที่คิดจะดีจริงมั้ยไม่มีกระแสจิตจริงกระแสจิตไม่มีฉันคิดว่าคงจะแย่และมีประโยชน์\n\nเหมือนกันแต่ตอนนี้ฉันไม่อะไรแล้วเพราะการเข้าใจผิดมันง่ายแต่การเข้าใจน่ะไม่ง่ายแล้วฉันก็คิดว่า—"
 
 stop music
 play sound sfx_pillow
@@ -10060,7 +10060,7 @@ with shorttimeskip
 "นับจากนี้ไป ฉันเองก็มั่นใจว่าฉันจะประคองให้หัวอยู่พ้นน้ำได้"
 
 # "The sun sets behind our backs, setting the world ablaze in its orange glow."
-"พระอาทิตย์ลับขอบฟ้าอยู่เบื้องหลังพวกเรา สะท้อนโลกประกายด้วยแสงส้มเรืองรอง"
+"พระอาทิตย์ลับขอบฟ้าอยู่เบื้องหลังพวกเรา ประกายแสงส้มเรืองรองลุกโชนอยู่บนผืนโลก"
 
 # "I keep watching the back of the red-headed girl descending the path a few steps ahead of me."
 "ฉันมองตามหลังสาวผมแดงคนนี้ที่เดินนำฉันอยู่สองสามก้าว"
