@@ -2974,51 +2974,67 @@ with charachange
 hide hanako
 with charaexit
 
-"Neither of us says a word; we simply open our books and start reading."
+# "Neither of us says a word; we simply open our books and start reading."
+"พวกเราไม่มีใครพูดอะไร แค่เปิดหนังสือนั่งอ่านกันเท่านั้น"
 
-"I try to read my book, but it would seem that in 1982 roller coasters weren't nearly as large as the ones built in the decades since."
+# "I try to read my book, but it would seem that in 1982 roller coasters weren't nearly as large as the ones built in the decades since."
+"ฉันพยายามที่จะอ่านของฉัน แต่ดูเหมือนว่ารถไฟเหาะปี 1982 นั้นไม่ใหญ่เท่าอันที่ผลิตไม่กี่สิบปีก่อน"
 
-"Most of the ones listed are made of wood. Something about that doesn't seem safe to me."
+# "Most of the ones listed are made of wood. Something about that doesn't seem safe to me."
+"ส่วนใหญ่ระบุว่าทำมาจากไม้ ซึ่งฉันว่าดูไม่ค่อยปลอดภัยเท่าไหร่"
 
-"If I'm going to ride on something potentially dangerous, I want it to be made out of steel, or some kind of space-age alloy that has big words like “Titanium” and “Ruthenium”."
+# "If I'm going to ride on something potentially dangerous, I want it to be made out of steel, or some kind of space-age alloy that has big words like “Titanium” and “Ruthenium”."
+"ถ้าจะต้องขี่อะไรที่อันตราย ๆ ก็อยากให้มันทำจากเหล็กกล้าหรือโลหะผสมยุคอวกาศ ที่มีคำเท่ ๆ อย่าง “ไทเทเนียม” หรือ “รูทีเนียม” มากกว่า"
 
-"I quickly lose interest, and my eyes wander across the reading area to rest on Hanako."
+# "I quickly lose interest, and my eyes wander across the reading area to rest on Hanako."
+"ฉันเริ่มเบื่ออย่างรวดเร็ว สายตาเลยเลื่อนไปมองฮานาโกะที่กำลังนั่งอ่านหนังสืออย่างตั้งใจ"
 
 show ev hana_library_read_std:
     truecenter zoom 1.0 subpixel True
     easein 20.0 zoom 1.05
 with locationskip
 
-"Hanako seems absorbed in her book, flicking back and forth through the pages, as if confirming what she just read."
+# "Hanako seems absorbed in her book, flicking back and forth through the pages, as if confirming what she just read."
+"ดูเหมือนว่าฮานาโกะจะจมดิ่งอยู่กับหนังสือของเธอ เธอกวาดสายตาไปมาในหน้าต่าง ๆ เหมือนกำลังทบทวนในสิ่งที่เพิ่งอ่านไป"
 
-"I wonder if that's actually effective, or if she's just overloading herself."
+# "I wonder if that's actually effective, or if she's just overloading herself."
+"ฉันล่ะสงสัยว่ามันได้ผลจริง ๆ หรือเธอแค่ทำตัวให้ดูยุ่ง"
 
-"She unconsciously brushes her hair from her face, temporarily revealing her scar tissue."
+# "She unconsciously brushes her hair from her face, temporarily revealing her scar tissue."
+"เธอปัดผมบนหน้าเธอไปมาอย่างเหม่อลอย เผยให้เห็นเนื้อเยื่อแผลเป็นแวบ ๆ"
 
-"I'm still not sure about the protocol here. Is it right to ask her about her scars? Or her past? How long was she in the hospital? Does she still visit the doctor?"
+# "I'm still not sure about the protocol here. Is it right to ask her about her scars? Or her past? How long was she in the hospital? Does she still visit the doctor?"
+"ฉันยังคงไม่ค่อยแน่ใจเรื่องกติกามารยาทของที่นี่ ว่าผิดไหมที่จะถามเรื่องรอยแผลเป็นของเธอ หรือเรื่องในอดีตของเธอ เธออยู่ในโรงพยาบาลนานแค่ไหน เธอยังต้องไปหาหมออยู่ไหม"
 
-"These all seem like the questions that you'd ask someone who just transferred to your school, translated into the local language."
+# "These all seem like the questions that you'd ask someone who just transferred to your school, translated into the local language."
+"เหมือนคำถามพวกนี้เป็นพวกที่เอาไว้ถามคนที่เพิ่งย้ายเข้ามาในโรงเรียน ....."
 
-"But, to date, no one has directly asked me any of them. Well, except Rin, but I don't think I should use her as a guide to proper social behavior."
+# "But, to date, no one has directly asked me any of them. Well, except Rin, but I don't think I should use her as a guide to proper social behavior."
+"แต่จนถึงทุกวันนี้ ก็ไม่เคยมีใครมาถามฉันแบบตรง ๆ สักที ก็ ยกเว้นรินไว้คนนึงอะนะ แต่ฉันก็ไม่คิดว่าจะเอาเธอเป็นแบบอย่างที่ดีในสังคมหรอก"
 
-"For the time being, I'll just keep my mouth shut. If someone wants you to know something, then they'll tell you. Trying to force the issue might drive Hanako back into herself."
+# "For the time being, I'll just keep my mouth shut. If someone wants you to know something, then they'll tell you. Trying to force the issue might drive Hanako back into herself."
+"ตอนนี้ฉันขอยังไม่ถามอะไรดีกว่า ถ้ามีใครอยากในรู้เรื่องของเขาเดี๋ยวเขาก็เล่าให้ฟังเองนั่นแหละ การพยายามบีบคั้นฮานาโกะให้เล่าก็รังแต่จะให้เธอแสดงอาการเดิมมากกว่า"
 
 scene bg school_library_ss
 show yuuko worried_up_ss at center
 with shorttimeskip
 
-yu "Um… sorry to interrupt, but I have to close the library now."
+# yu "Um… sorry to interrupt, but I have to close the library now."
+yu "เอิ่ม… ขอโทษที่รบกวนนะ แต่ฉันจะต้องปิดห้องสมุดแล้วน่ะ"
 
 play music music_tranquil fadein 3.0
 
-hi "Already?"
+# hi "Already?"
+hi "ปิดแล้วเหรอครับ"
 
-"I check my watch. Somehow, as I was lost in thought, nearly two hours have passed."
+# "I check my watch. Somehow, as I was lost in thought, nearly two hours have passed."
+"ฉันมองดูนาฬิกาข้อมือ ..... เวลาผันผ่านไปแล้วเกือบสองชั่วโมง"
 
 show yuuko smile_down_ss
 with charachange
 
-yu "Do you want to check out those books? I can do it on the way out…"
+# yu "Do you want to check out those books? I can do it on the way out…"
+yu "เธออยากจะยืมหนังสือพวกนั้นไหม ฉันจัดการให้ก่อนออกได้นะ…"
 
 show hanako invis:
     xpos 0.9 xanchor 0.5 ypos 1.17 yanchor 1.0
@@ -3030,14 +3046,17 @@ show bg school_library_ss at bgleft
 show yuuko smile_down_ss at twoleft
 with dissolvecharamove
 
-ha "P-please."
+# ha "P-please."
+ha "ดะ ได้โปรด"
 
-hi "I'm done. I'll drop this one back on the way through. It wasn't as interesting as I first thought."
+# hi "I'm done. I'll drop this one back on the way through. It wasn't as interesting as I first thought."
+hi "ของผมไม่ต้องครับ เดี๋ยวผมเอาไปคืนตอนเดินกลับแล้วกัน พอดีว่าไม่ค่อยน่าสนใจเท่าที่คิดน่ะครับ"
 
 show hanako emb_timid_ss at tworight
 with dissolvecharamove
 
-"Hanako marks her place with a slip of paper and stands up. The girls head to the counter and I return my book to what I think is the right shelf."
+# "Hanako marks her place with a slip of paper and stands up. The girls head to the counter and I return my book to what I think is the right shelf."
+""
 
 show yuuko neurotic_up_ss
 with charachange
@@ -3047,84 +3066,103 @@ with charachange
 show yuuko neutral_down_ss
 with charachange
 
-yu "Oh… there we go. Third time lucky. Since this is a non-fiction book, you can only have it for a week."
+# yu "Oh… there we go. Third time lucky. Since this is a non-fiction book, you can only have it for a week."
+yu "อะ นี่หนังสือ .... พอดีว่าเล่มนี้เป็นหมวดสารคดี เพราะงั้นแล้วยืมได้แค่สัปดาห์เดียวนะ"
 
 show hanako basic_smile_ss
 with charachange
 
-ha "T-that's okay."
+# ha "T-that's okay."
+ha "มะ ไม่เป็นไรค่ะ"
 
 scene bg school_hallway2
 with locationchange
 
-"Yuuko shuts down the library's computer and herds us out the door."
+# "Yuuko shuts down the library's computer and herds us out the door."
+"ยูโกะปิดคอมพิวเตอร์ห้องสมุดและพาเราออกมา"
 
 show yuuko panic_up at twoleft
 show hanako def_worry at tworight
 with charaenter
 
-yu "Argh! I didn't think it was this late already…!"
+# yu "Argh! I didn't think it was this late already…!"
+yu "อ้า! ไม่คิดว่าจะมืดขนาดนี้แล้ว…!"
 
-hi "But you're the one that told us you had to close…"
+# hi "But you're the one that told us you had to close…"
+hi "แต่คุณเป็นคนบอกเราเองว่าจะต้องปิดนี่ครับ…"
 
 show yuuko worried_up
 with charachange
 
-yu "Yes but, I know but, that was before I looked at the time!"
+# yu "Yes but, I know but, that was before I looked at the time!"
+yu "ก็ใช่แหละ แต่ว่า นั่นน่ะเป็นตอนก่อนที่ฉันจะได้ดูเวลาน่ะ"
 
 show yuuko neurotic_up
 with charachange
 
-yu "I'll see you later."
+# yu "I'll see you later."
+yu "ไว้เจอกันนะ"
 
 hide yuuko
 with easeoutleft
 
-"Yuuko bolts down the hall, her handbag trailing behind her like an awkward streamer."
+# "Yuuko bolts down the hall, her handbag trailing behind her like an awkward streamer."
+"ยูโกะรีบวิ่งลงไปจากตึก กระเป๋าถือของเธอ......."
 
 show hanako def_worry at center
 show bg school_hallway2 at bgleft
 with dissolvecharamove
 
-hi "I guess all librarians really are neurotic."
+# hi "I guess all librarians really are neurotic."
+hi "ฉันว่าบรรณารักษ์ทุกคนต้องเป็นโรคประสาทแหง ๆ"
 
 show hanako emb_timid
 with charachange
 
-ha "Huh?"
+# ha "Huh?"
+ha "ฮะ?"
 
-hi "Ah, never mind. I was just thinking that I've never met a librarian that can organize their time, no matter how good they are with their books."
+# hi "Ah, never mind. I was just thinking that I've never met a librarian that can organize their time, no matter how good they are with their books."
+hi "อ่า ช่างเถอะ ฉันแค่คิดว่าฉันไม่เคยเจอบรรณารักษ์คนไหนที่จัดการเวลาได้ดีเลย ไม่ว่าจะจัดหนังสือได้ดีแค่ไหนก็ตาม"
 
 show hanako basic_smile
 with charachange
 
-ha "Oh… I k-know what you mean…"
+# ha "Oh… I k-know what you mean…"
+ha "อ๋อ… ฉันขะ…เข้าใจสิ่งที่นายจะสื่อแล้ว…"
 
-"Hanako smiles in amusement. It wasn't meant to be a joke, but I must have reminded her of some other librarian… or something…"
+# "Hanako smiles in amusement. It wasn't meant to be a joke, but I must have reminded her of some other librarian… or something…"
+""
 
 show hanako cover_worry
 with charachange
 
-ha "I… I have to get back."
+# ha "I… I have to get back."
+ha "ฉะ… ฉันต้องไปแล้ว"
 
-hi "Yeah, me too. I didn't realize it was this late. Thanks for letting me hang out with you."
+# hi "Yeah, me too. I didn't realize it was this late. Thanks for letting me hang out with you."
+hi "อื้ม ฉันก็ด้วย ไม่ยักรู้ตัวเลยว่าดึกขนาดนี้แล้ว ขอบใจนะที่ให้มาอยู่ด้วยน่ะ"
 
 show hanako basic_bashful
 with charachange
 
-ha "N-no problem."
+# ha "N-no problem."
+ha "มะ ไม่มีปัญหา"
 
-hi "I'm going to my dormitory room now anyway, so do you mind if I tag along?"
+# hi "I'm going to my dormitory room now anyway, so do you mind if I tag along?"
+hi "ฉันว่าจะกลับหอฉันพอดีน่ะ เพราะงั้นแล้วขอเดินไปด้วยได้ไหม"
 
 show hanako emb_blushing
 with charachange
 
-ha "O-okay."
+# ha "O-okay."
+ha "อะ โอเค"
 
 hide hanako
 with charaexit
 
-"Hanako sets off ahead of me, and I need to jog a little to reach her side."
+# "Hanako sets off ahead of me, and I need to jog a little to reach her side."
+"ฮานาโกะเดินนำหน้าฉันไปก่อน และฉันต้องวิ่งเหยาะ ๆ เพื่อที่จะได้ตามเธอให้ทัน"
 
 scene bg school_dormext_full_ss
 with locationchange
@@ -3132,16 +3170,19 @@ with locationchange
 show hanako def_worry_ss at center
 with charaenter
 
-"We walk through the gardens, eventually arriving in front of the dorm buildings."
+# "We walk through the gardens, eventually arriving in front of the dorm buildings."
+"พวกเราเดินผ่านสวน และในที่สุดก็มาถึงที่หน้าหอพัก"
 
-hi "Man, you walk pretty fast. I used to play in a soccer club, and you manage to outpace me."
+# hi "Man, you walk pretty fast. I used to play in a soccer club, and you manage to outpace me."
+hi "แหม่ เธอนี่เดินเร็วจริง ๆ นี่ขนาดฉันเคยเตะบอลในชมรมมานะเนี่ย แต่เธอก็ยังเดินเร็วกว่าฉันได้"
 
 stop music fadeout 6.0
 
 show hanako emb_downsmile_ss at center
 with charaenter
 
-"I kinda regret saying that. It has less to do with her pace than with the fact that my condition has significantly worsened my fitness."
+# "I kinda regret saying that. It has less to do with her pace than with the fact that my condition has significantly worsened my fitness."
+"ฉันว่าฉันไม่น่าพูดแบบนั้นเลย "
 
 "Hanako's reaction is odd. I expected an awkward attempt to downplay her walking speed, but she just blushes while looking at her feet and smiling."
 
