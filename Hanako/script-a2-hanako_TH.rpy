@@ -3182,23 +3182,28 @@ show hanako emb_downsmile_ss at center
 with charaenter
 
 # "I kinda regret saying that. It has less to do with her pace than with the fact that my condition has significantly worsened my fitness."
-"ฉันว่าฉันไม่น่าพูดแบบนั้นเลย "
+"ฉันว่าฉันไม่น่าพูดแบบนั้นเลย จริง ๆ เป็นเพราะโรคนี้มาทำให้ฉันสุขภาพแย่ ไม่ใช่เพราะความเร็วของเธอเลยด้วยซ้ำ"
 
-"Hanako's reaction is odd. I expected an awkward attempt to downplay her walking speed, but she just blushes while looking at her feet and smiling."
+# "Hanako's reaction is odd. I expected an awkward attempt to downplay her walking speed, but she just blushes while looking at her feet and smiling."
+"ปฏิกิริยาของฮานาโกะดูต่างออกไปจากเดิม ฉันคิดว่าเธอคงพยายามปฏิเสธเรื่องที่เดินเร็ว แต่เธอกลับแค่หน้าแดงพร้อมจ้องไปที่เท้าของเธอและยื่ม"
 
-"Silence hangs in the air between us. That happens often around Hanako, but feels slightly different than usual this time. After a few seconds, I try to break the silence."
+# "Silence hangs in the air between us. That happens often around Hanako, but feels slightly different than usual this time. After a few seconds, I try to break the silence."
+"ความเงียบเข้าแทรกมาระหว่างเรา ซึ่งเป็นเรื่องปกติเมื่ออยู่กับฮานาโกะ แต่ครั้งนี้รู้สึกต่างออกไปนิดหน่อย หลังผ่านไปไม่นานฉันจึงความเงียบลง"
 
-hi "Here you go. See you in class tomorrow?"
+# hi "Here you go. See you in class tomorrow?"
+hi "เอาละ ไว้เจอกันพรุ่งนี้นะ"
 
 show hanako emb_smile_ss
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha "อะ อื้ม"
 
 hide hanako
 with charaexit
 
-"Hanako waves a short goodbye before pushing her way through the dorm's doors. I stand and look at them for a while, before making my way to my own dormitory room."
+# "Hanako waves a short goodbye before pushing her way through the dorm's doors. I stand and look at them for a while, before making my way to my own dormitory room."
+"ฮานาโกะโบกมือให้เล็กน้อยก่อนที่จะเข้าประตูหอไป ฉันยืนจ้องประตูพักนึงก่อนที่จะกลับไปหอของฉัน"
 
 scene black
 with dissolve
@@ -3210,31 +3215,39 @@ label th_H6:
 scene bg school_dormhisao
 with locationchange
 
-"Chirping birds."
+# "Chirping birds."
+"สกุณาร่าร้อง"
 
-"Normally, this would be a good time to reflect upon the beauty of nature."
+# "Normally, this would be a good time to reflect upon the beauty of nature."
+"ปกติแล้ว ตอนนี้ควรเป็นเวลาที่ดีที่จะได้รับบรรยากาศอันสวยงามของหมู่ธรรมชาติ"
 
-"But it is 6 AM."
+# "But it is 6 AM."
+"แต่นี่มันเพิ่งจะหกโมงเช้า"
 
 play sound sfx_pillow
 
 scene black
 with Dissolve(0.2)
 
-"Covering my head with the pillow, I slam my face into the mattress, hoping that the impact will send me instantly back to sleep."
+# "Covering my head with the pillow, I slam my face into the mattress, hoping that the impact will send me instantly back to sleep."
+"ฉันเอาหมอนมาคลุมหัว เอาหน้ากระแทกลงบนที่นอนเพื่อหวังว่าแรงกระแทกจะทำให้ฉันหลับต่อไปได้"
 
-"Futile."
+# "Futile."
+"ซึ่งมันไร้ผล"
 
-"I toss and turn, but sleep simply won't return to me."
+# "I toss and turn, but sleep simply won't return to me."
+"ฉันนอนกระสับกระส่ายไปมา แต่ก็นอนไม่หลับอยู่ดี"
 
 play music music_daily fadein 10.0
 
 scene bg school_dormhisao
 with locationchange
 
-"All right nature, you've won. See? I'm getting up now…"
+# "All right nature, you've won. See? I'm getting up now…"
+"ก็ได้เหล่าธรรมชาติ นายชนะแล้ว ดูนะ ฉันจะตื่นละ"
 
-"The lack of sleep weighs my mind down, and there's only one remedy for this; a nice, hearty breakfast."
+# "The lack of sleep weighs my mind down, and there's only one remedy for this; a nice, hearty breakfast."
+""
 
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 0.5
@@ -3242,27 +3255,38 @@ play ambient sfx_crowd_indoors fadein 0.5
 scene bg school_cafeteria
 with locationchange
 
-"It would be nice to be the first person here."
+# "It would be nice to be the first person here."
+"คนที่มาที่นี่คนแรกนี่ดีจังเลยนะ"
 
-"To be the first to dig into a piping hot pile of food, to sit wherever I desire…"
+# "To be the first to dig into a piping hot pile of food, to sit wherever I desire…"
+"เป็นคนแรกที่ได้กินอาหารร้อน ๆ ตักคนแรก ๆ จากถาด นั่งตรงไหนก็ได้ที่อยากนั่ง"
 
-"It would have been nice."
+# "It would have been nice."
+"คงจะดีมาก ๆ เลยละ"
 
-"But even my exceptionally early start has put me behind the most diligent students."
+# "But even my exceptionally early start has put me behind the most diligent students."
+"แต่ถึงฉันจะตื่นมาเช้ามาก ๆ ฉันก็ยังมาช้ากว่านักเรียนดีเด่นอยู่ดี"
 
-"I guess there are quite a few people that have early starts here, for one reason or another."
+# "I guess there are quite a few people that have early starts here, for one reason or another."
+"ฉันว่าก็มีหลายคนที่นี่ที่ตื่นเช้าเหมือนกัน ด้วยเหตุผลบางประการ"
 
-"A group of students in sports clothes huddle around one table, eagerly discussing game plans inbetween inhaling great gulps of food."
+# "A group of students in sports clothes huddle around one table, eagerly discussing game plans inbetween inhaling great gulps of food."
+"กลุ่มนักเรียนใส่ชุดกีฬาล้อมวงอยู่รอบโต๊ะตัวหนึ่ง ปรึกษาแผนการเล่นกันอย่างตั้งใจท่ามกลางกลิ่นหอมของอาหาร"
 
-"Scattered around the hall are a number of bleary-eyed students, probably suffering from the same ailment as myself - noisy birds."
+# "Scattered around the hall are a number of bleary-eyed students, probably suffering from the same ailment as myself - noisy birds."
+"นักเรียนที่ขอบตาโหลกระจายอยู่ตามโถง คงจะอยู่สภาพอย่างนั้นด้วยเหตุผลเดียวกับฉัน คือรำคาญนกร้อง"
 
-"And, of course, there are the people that actually enjoy getting up this early, the ones with their bags stuffed with textbooks and completed homework."
+# "And, of course, there are the people that actually enjoy getting up this early, the ones with their bags stuffed with textbooks and completed homework."
+"และแน่นอนว่าก็มีคนที่อภิรมย์กับการตื่น้าขนาดนี้เช่นกัน พวกที่กระเป๋าเต็มไปด้วยตำราเรียนและการบ้านที่เสร็จแล้ว"
 
-"It's hard not to despise people like that, even more so when you're tired yourself."
+# "It's hard not to despise people like that, even more so when you're tired yourself."
+"ซึ่งไม่ใช่เรื่องง่ายเลยที่จะไม่เหม็นขี้หน้าคนแบบนั้น โดยเฉพาะยิ่งถ้าเหนื่อย ๆ มาด้วย"
 
-"Picking out a familiar face from the thin crowd, I head towards the nearest table."
+# "Picking out a familiar face from the thin crowd, I head towards the nearest table."
+"หลังจากได้เจอคนหน้าคุ้นภายใต้ฝูงชน ฉันเดินตรงไปยังโต๊ะที่ใกล้ที่สุด"
 
-"Lilly sits alone, delicately feeling her way around a small plate of eggs with her fork."
+# "Lilly sits alone, delicately feeling her way around a small plate of eggs with her fork."
+"ลิลลี่นั่งอยู่คนเดียว กำลังทานไข่ในจานใบเล็กด้วยส้อมอย่างประณีต"
 
 "It's almost a shame to interrupt her and her clockwork movements."
 
