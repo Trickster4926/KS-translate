@@ -3248,7 +3248,7 @@ with locationchange
 "ก็ได้เหล่าธรรมชาติ นายชนะแล้ว ดูนะ ฉันจะตื่นละ"
 
 # "The lack of sleep weighs my mind down, and there's only one remedy for this; a nice, hearty breakfast."
-""
+"การนอนน้อยทำให้สมองของฉันหนักอึ้ง มีทางเดียวที่จะช่วยได้ คือการได้กินอาหารเช้าดี ๆ"
 
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 0.5
@@ -3278,7 +3278,7 @@ with locationchange
 "นักเรียนที่ขอบตาโหลกระจายอยู่ตามโถง คงจะอยู่สภาพอย่างนั้นด้วยเหตุผลเดียวกับฉัน คือรำคาญนกร้อง"
 
 # "And, of course, there are the people that actually enjoy getting up this early, the ones with their bags stuffed with textbooks and completed homework."
-"และแน่นอนว่าก็มีคนที่อภิรมย์กับการตื่น้าขนาดนี้เช่นกัน พวกที่กระเป๋าเต็มไปด้วยตำราเรียนและการบ้านที่เสร็จแล้ว"
+"และแน่นอนว่าก็มีคนที่อภิรมย์กับการตื่นเช้าขนาดนี้เช่นกัน พวกที่กระเป๋าเต็มไปด้วยตำราเรียนและการบ้านที่เสร็จแล้ว"
 
 # "It's hard not to despise people like that, even more so when you're tired yourself."
 "ซึ่งไม่ใช่เรื่องง่ายเลยที่จะไม่เหม็นขี้หน้าคนแบบนั้น โดยเฉพาะยิ่งถ้าเหนื่อย ๆ มาด้วย"
