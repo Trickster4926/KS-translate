@@ -3289,31 +3289,40 @@ with locationchange
 # "Lilly sits alone, delicately feeling her way around a small plate of eggs with her fork."
 "ลิลลี่นั่งอยู่คนเดียว กำลังทานไข่ในจานใบเล็กด้วยส้อมอย่างประณีต"
 
-"It's almost a shame to interrupt her and her clockwork movements."
+# "It's almost a shame to interrupt her and her clockwork movements."
+"น่าเสียดายที่จะต้องไปขัดจังหวะเธอและการเคลื่อนไหวราวกับเครื่องจักรของเธอ"
 
-"I wonder, is this how a blind person zones out? Simply moving in pre-determined patterns learned over the years, just like how a sighted person would eat while reading a newspaper."
+# "I wonder, is this how a blind person zones out? Simply moving in pre-determined patterns learned over the years, just like how a sighted person would eat while reading a newspaper."
+"สงสัยจริง ๆ ว่าคนตาบอดเขาเหม่อลอยกันแบบนี้เหรอ แค่เคลื่อนไหวไปตามรูปแบบที่เรียนรู้มาหลายปี เหมือนกับที่คนปกติ\nที่จะกินบางอย่างตอนกำลังอ่านหนังสือพิมพ์"
 
-hi "Good morning, Lilly. I didn't expect you to be here this early."
+# hi "Good morning, Lilly. I didn't expect you to be here this early."
+hi "อรุณสวัสดิ์ลิลลี่ ไม่คิดว่าเธอจะมาที่นี่เร็วขนาดนี้"
 
 show lilly basic_surprised:
     center
     ypos 1.2
 with charaenter
 
-li "Oh, Hisao, you startled me. I didn't know you took breakfast this early."
+# li "Oh, Hisao, you startled me. I didn't know you took breakfast this early."
+li "อ้าวฮิซาโอะ ทำเอาฉันตกใจเลยแหนะ ไม่ยักรู้ว่าเธอทานมื้อเช้าเช้าขนาดนี้"
 
-hi "I don't. This is an exception to the rule. I'd greatly prefer to be late to school than early to breakfast."
+# hi "I don't. This is an exception to the rule. I'd greatly prefer to be late to school than early to breakfast."
+hi "ปกติก็ไม่หรอก แต่นี่ไม่ปกติน่ะ ส่วนใหญ่ฉันอยากมาสายมากกว่าตื่นเช้ามากินข้าวเช้าน่ะ"
 
 show lilly basic_weaksmile
 with charachange
 
-"Lilly gives a small sigh at my admitted tardiness as I begin eating my food."
+# "Lilly gives a small sigh at my admitted tardiness as I begin eating my food."
+"ลิลลี่ถอนหายใจเบา ๆ กับการยอมรับว่าอยากมาสายตอนฉันกำลังเริ่มตักข้าวกิน"
 
-"It doesn't take long for her to lapse back into her previous mindless nibbling."
+# "It doesn't take long for her to lapse back into her previous mindless nibbling."
+"ซึ่งผ่านไปไม่นานเธอก็กลับไปกินข้าวแบบเหม่อลอยเหมือนเดิม"
 
-"Each short motion lacks energy. I suppose this is similar to letting your eyes wander while performing any ordinary chore."
+# "Each short motion lacks energy. I suppose this is similar to letting your eyes wander while performing any ordinary chore."
+"การเคลื่อนไหวแต่ละครั้งดูไร้เรี่ยวแรง ฉันว่าคงคล้ายกับเวลาที่เราปล่อยตาเหม่อลอย ขณะที่กำลังทำงานบ้านทั่ว ๆ ไป\nนั่นแหละ"
 
-"But after a few repetitions of the find food/eat food cycle, Lilly puts down her fork and dabs her lips with a napkin."
+# "But after a few repetitions of the find food/eat food cycle, Lilly puts down her fork and dabs her lips with a napkin."
+"แต่หลังจากตักอาหารและกิน วนไปอยู่แค่ไม่กี่ครั้ง เธอก็วางส้อมลงและเช็ดปากเธอด้วยผ้าเช็ดหน้า"
 
 stop music fadeout 6.0
 stop ambient fadeout 6.0
@@ -3321,74 +3330,95 @@ stop ambient fadeout 6.0
 show lilly basic_concerned
 with charachange
 
-li "Hisao, do you mind if I ask you a question?"
+# li "Hisao, do you mind if I ask you a question?"
+li "ฮิซาโอะ ขอถามอะไรหน่อยได้ไหม"
 
-"Damn. All I want is a little food and about four hours of sleep. And nobody says “can I ask you a question” for a simple question."
+# "Damn. All I want is a little food and about four hours of sleep. And nobody says “can I ask you a question” for a simple question."
+"แหม่ สิ่งที่ฉันอยากได้ตอนนี้คือข้าวกับเวลานอนอีกสี่ชั่วโมง ไม่ใช่คนมาถามว่า “ขอถามอะไรหน่อยได้ไหม” กับคำถามพื้น ๆ"
 
-hi "Sure."
+# hi "Sure."
+hi "ได้สิ"
 
 show lilly basic_listen
 with charachange
 
-li "Do you think of Hanako as a friend?"
+# li "Do you think of Hanako as a friend?"
+li "เธอคิดว่าฮานาโกะเป็นเพื่อนหรือเปล่า"
 
-"Huh, this seems like a leading question."
+# "Huh, this seems like a leading question."
+"หืม นี่มันค่อนไปทางคำถามชี้นำนี่หน่า"
 
-hi "I… guess so. Why do you ask?"
+# hi "I… guess so. Why do you ask?"
+hi "ก็…คงงั้นแหละ ถามทำไมเหรอ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "No real reason."
+# li "No real reason."
+li "ก็ไม่ได้มีเหตุผลหรอกจ้ะ"
 
 show lilly basic_displeased
 with charachange
 
 play music music_serene fadein 8.0
 
-li "I do have another question though. Why is it that you think of her as a friend?"
+# li "I do have another question though. Why is it that you think of her as a friend?"
+li "ฉันมีอีกคำถามน่ะ ทำไมเธอถึงคิดว่าฮานาโกะเป็นเพื่อนล่ะ"
 
-"This is well above my level. What is she expecting from me?"
+# "This is well above my level. What is she expecting from me?"
+"อันนี้เหนือกว่าที่คาดละ เธอต้องการอะไรจากฉันกันแน่"
 
-hi "I'm not really sure. I guess it's because she's a little different in the way she deals with people…"
+# hi "I'm not really sure. I guess it's because she's a little different in the way she deals with people…"
+hi "ก็ไม่รู้สิ คงเพราะเธอรับมือกับผู้คนไม่เหมือนชาวบ้านละมั้ง"
 
 show lilly basic_reminisce
 with charachange
 
-li "Hmm. Since I've known her, she hasn't really connected with anyone."
+# li "Hmm. Since I've known her, she hasn't really connected with anyone."
+li "หืม ตั้งแต่ที่ฉันรู้จักเธอมา เธอแทบไม่คุยกับใครด้วยซ้ำ"
 
 show lilly basic_concerned
 with charachange
 
-li "She doesn't seem interested in other people, and I think people are a little scared off by her appearance."
+# li "She doesn't seem interested in other people, and I think people are a little scared off by her appearance."
+li "เธอดูจะไม่สนใจคนอื่นด้วยซ้ำ และฉันว่าคนอื่น ๆ ก็คงกลัวรูปลักษณ์ของเธอเหมือนกัน"
 
-hi "Really? I thought that kind of thing was, well, discouraged here. Discriminating and such."
+# hi "Really? I thought that kind of thing was, well, discouraged here. Discriminating and such."
+hi "จริงอะ ฉันนึกว่าเรื่องแบบนั้นเขาไม่ส่งเสริมกันเสียอีก รวมทั้งเรื่องการเหยียดอะไรพวกนี้ด้วย"
 
 show lilly basic_listen
 with charachange
 
-li "Hmm, if I were to put it one way…"
+# li "Hmm, if I were to put it one way…"
+li "อืม ถ้าจะให้ฉันพูดละก็…"
 
-"She furrows her brow in thought, a move which makes me slightly anxious as to what she's plucking from her mind."
+# "She furrows her brow in thought, a move which makes me slightly anxious as to what she's plucking from her mind."
+"เธอขมวดคิ้วครุ่นคิด ท่าทีนั้นทำให้ฉันรู้สึกกังวลเล็กน้อยว่าเธอกำลังเลือกเรื่องอะไรขึ้นมาจากสมอง"
 
 show lilly basic_weaksmile
 with charachange
 
-li "I'd say that you're a little naive."
+# li "I'd say that you're a little naive."
+li "ฉันว่าเธอใสซื่อไปหน่อยนะ"
 
-"Naive? I'd be insulted if not for the slightly cynical grin on her face."
+# "Naive? I'd be insulted if not for the slightly cynical grin on her face."
+"ใสซื่อ? ฉันคงจะรู้สึกไม่พอใจแล้ว ถ้าไม่ใช่เพราะรอยยิ้มเยาะหยันเล็กน้อยที่ปรากฏบนใบหน้าของเธอ"
 
-hi "I… see."
+# hi "I… see."
+hi "งั้นเหรอ…"
 
 show lilly basic_reminisce
 with charachange
 
-li "While Yamaku has a stronger sense of community compared to other schools, it's far from being free of conflict."
+# li "While Yamaku has a stronger sense of community compared to other schools, it's far from being free of conflict."
+li "ถึงแม้ว่ายามากุจะมีความเป็นชุมชนที่แข็งแกร่งกว่าโรงเรียนอื่น แต่ก็ยังห่างไกลจากคำว่าปราศจากความขัดแย้งอยู่ดี"
+
 
 show lilly basic_displeased
 with charachange
 
-li "Rules cannot remove human nature, after all, only suppress it."
+# li "Rules cannot remove human nature, after all, only suppress it."
+li "กฎน่ะขจัดนิสัยธรรมชาติของมนุษย์ไม่ได้หรอก ทำได้เพียงแค่กดมันไว้เท่านั้น"
 
 "That's something I've noticed, actually."
 
