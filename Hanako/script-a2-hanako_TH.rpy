@@ -2975,10 +2975,10 @@ hide hanako
 with charaexit
 
 # "Neither of us says a word; we simply open our books and start reading."
-"พวกเราไม่มีใครพูดอะไร แค่เปิดหนังสือนั่งอ่านกันเท่านั้น"
+"พวกเราไม่มีใครพูดอะไร แค่นั่งเปิดหนังสืออ่านกันเท่านั้น"
 
 # "I try to read my book, but it would seem that in 1982 roller coasters weren't nearly as large as the ones built in the decades since."
-"ฉันพยายามที่จะอ่านของฉัน แต่ดูเหมือนว่ารถไฟเหาะปี 1982 นั้นไม่ใหญ่เท่าอันที่ผลิตไม่กี่สิบปีก่อน"
+"ฉันพยายามอ่านของฉัน แต่ดูเหมือนว่ารถไฟเหาะปี 1982 นั้นไม่ใหญ่เท่าอันที่ผลิตไม่กี่สิบปีก่อน"
 
 # "Most of the ones listed are made of wood. Something about that doesn't seem safe to me."
 "ส่วนใหญ่ระบุว่าทำมาจากไม้ ซึ่งฉันว่าดูไม่ค่อยปลอดภัยเท่าไหร่"
@@ -2995,7 +2995,7 @@ show ev hana_library_read_std:
 with locationskip
 
 # "Hanako seems absorbed in her book, flicking back and forth through the pages, as if confirming what she just read."
-"ดูเหมือนว่าฮานาโกะจะจมดิ่งอยู่กับหนังสือของเธอ เธอกวาดสายตาไปมาในหน้าต่าง ๆ เหมือนกำลังทบทวนในสิ่งที่เพิ่งอ่านไป"
+"ดูเหมือนว่าฮานาโกะจะจมดิ่งอยู่กับหนังสือของเธอ เธอกวาดสายตาไปมาในหน้าต่าง ๆ เหมือนกำลังทบทวน\nในสิ่งที่เพิ่งอ่านไป"
 
 # "I wonder if that's actually effective, or if she's just overloading herself."
 "ฉันล่ะสงสัยว่ามันได้ผลจริง ๆ หรือเธอแค่ทำตัวให้ดูยุ่ง"
@@ -3004,16 +3004,16 @@ with locationskip
 "เธอปัดผมบนหน้าเธอไปมาอย่างเหม่อลอย เผยให้เห็นเนื้อเยื่อแผลเป็นแวบ ๆ"
 
 # "I'm still not sure about the protocol here. Is it right to ask her about her scars? Or her past? How long was she in the hospital? Does she still visit the doctor?"
-"ฉันยังคงไม่ค่อยแน่ใจเรื่องกติกามารยาทของที่นี่ ว่าผิดไหมที่จะถามเรื่องรอยแผลเป็นของเธอ หรือเรื่องในอดีตของเธอ เธออยู่ในโรงพยาบาลนานแค่ไหน เธอยังต้องไปหาหมออยู่ไหม"
+"ฉันยังคงไม่ค่อยแน่ใจเรื่องกติกามารยาทของที่นี่ ว่าผิดไหมที่จะถามเรื่องรอยแผลเป็นของเธอ หรือเรื่องในอดีตของเธอ\nเธออยู่ในโรงพยาบาลนานแค่ไหนหรือยังต้องไปหาหมออยู่ไหม"
 
 # "These all seem like the questions that you'd ask someone who just transferred to your school, translated into the local language."
-"เหมือนคำถามพวกนี้เป็นพวกที่เอาไว้ถามคนที่เพิ่งย้ายเข้ามาในโรงเรียน ....."
+"เหมือนคำถามพวกนี้เป็นพวกที่เอาไว้ถามคนที่เพิ่งย้ายเข้ามาในโรงเรียน เพื่อปรับตัวเข้ากับที่นี่"
 
 # "But, to date, no one has directly asked me any of them. Well, except Rin, but I don't think I should use her as a guide to proper social behavior."
-"แต่จนถึงทุกวันนี้ ก็ไม่เคยมีใครมาถามฉันแบบตรง ๆ สักที ก็ ยกเว้นรินไว้คนนึงอะนะ แต่ฉันก็ไม่คิดว่าจะเอาเธอเป็นแบบอย่างที่ดีในสังคมหรอก"
+"แต่จนถึงทุกวันนี้ ก็ไม่เคยมีใครมาถามฉันแบบตรง ๆ สักที ก็นะ ยกเว้นรินไว้คนนึง แต่ฉันก็ไม่คิดว่าจะเอาเธอ\nเป็นแบบอย่างที่ดีของสังคมหรอก"
 
 # "For the time being, I'll just keep my mouth shut. If someone wants you to know something, then they'll tell you. Trying to force the issue might drive Hanako back into herself."
-"ตอนนี้ฉันขอยังไม่ถามอะไรดีกว่า ถ้ามีใครอยากในรู้เรื่องของเขาเดี๋ยวเขาก็เล่าให้ฟังเองนั่นแหละ การพยายามบีบคั้นฮานาโกะให้เล่าก็รังแต่จะให้เธอแสดงอาการเดิมมากกว่า"
+"ตอนนี้ฉันยังไม่ถามอะไรจะดีกว่า ถ้ามีใครอยากในรู้เรื่องของเขาเดี๋ยวเขาก็เล่าให้ฟังเองนั่นแหละ การพยายามบีบคั้น\nฮานาโกะให้เล่าก็รังแต่ทำให้ฮานาโกะกลับไปเก็บตัวอีก"
 
 scene bg school_library_ss
 show yuuko worried_up_ss at center
@@ -3028,7 +3028,7 @@ play music music_tranquil fadein 3.0
 hi "ปิดแล้วเหรอครับ"
 
 # "I check my watch. Somehow, as I was lost in thought, nearly two hours have passed."
-"ฉันมองดูนาฬิกาข้อมือ ..... เวลาผันผ่านไปแล้วเกือบสองชั่วโมง"
+"ฉันมองดูนาฬิกาข้อมือ ไม่รู้ตัวเลยว่าเวลาผ่านไปเกือบสองชั่วโมงระหว่างเหม่อลอยอยู่"
 
 show yuuko smile_down_ss
 with charachange
@@ -3056,18 +3056,19 @@ show hanako emb_timid_ss at tworight
 with dissolvecharamove
 
 # "Hanako marks her place with a slip of paper and stands up. The girls head to the counter and I return my book to what I think is the right shelf."
-""
+"ฮานาโกะใช้กระดาษคั่นหนังสือไว้แล้วลุกขึ้นยืน พวกผู้หญิงมุ่งหน้าไปที่เคาน์เตอร์ และฉันก็นำหนังสือของฉันไปคืนที่ชั้น\nซึ่งฉันคิดว่าน่าจะใช่"
 
 show yuuko neurotic_up_ss
 with charachange
 
-"Yuuko scans Hanako's book with practiced precision, yet still manages to fumble it."
+# "Yuuko scans Hanako's book with practiced precision, yet still manages to fumble it."
+"ยูโกะสแกนหนังสือของฮานาโกะอย่างคล่องแคล่วและแม่นยำ แต่ยังต้องคลำหามุมสแกนอยู่ดี"
 
 show yuuko neutral_down_ss
 with charachange
 
 # yu "Oh… there we go. Third time lucky. Since this is a non-fiction book, you can only have it for a week."
-yu "อะ นี่หนังสือ .... พอดีว่าเล่มนี้เป็นหมวดสารคดี เพราะงั้นแล้วยืมได้แค่สัปดาห์เดียวนะ"
+yu "อ่า… ได้สักที กว่าจะติด พอดีว่าเล่มนี้เป็นหมวดสารคดี เพราะงั้นแล้วยืมได้แค่สัปดาห์เดียวนะ"
 
 show hanako basic_smile_ss
 with charachange
@@ -3086,7 +3087,7 @@ show hanako def_worry at tworight
 with charaenter
 
 # yu "Argh! I didn't think it was this late already…!"
-yu "อ้า! ไม่คิดว่าจะมืดขนาดนี้แล้ว…!"
+yu "อ้า! ไม่คิดว่าจะดึกขนาดนี้แล้ว…!"
 
 # hi "But you're the one that told us you had to close…"
 hi "แต่คุณเป็นคนบอกเราเองว่าจะต้องปิดนี่ครับ…"
@@ -3107,7 +3108,7 @@ hide yuuko
 with easeoutleft
 
 # "Yuuko bolts down the hall, her handbag trailing behind her like an awkward streamer."
-"ยูโกะรีบวิ่งลงไปจากตึก กระเป๋าถือของเธอ......."
+"ยูโกะรีบวิ่งลงไปจากตึก โดยมีกระเป๋าถือของเธอที่ลากตามหลังไปเหมือนกับสายรุ้งที่เกะกะ"
 
 show hanako def_worry at center
 show bg school_hallway2 at bgleft
@@ -3132,7 +3133,7 @@ with charachange
 ha "อ๋อ… ฉันขะ…เข้าใจสิ่งที่นายจะสื่อแล้ว…"
 
 # "Hanako smiles in amusement. It wasn't meant to be a joke, but I must have reminded her of some other librarian… or something…"
-""
+"ฮานาโกะยิ้มอย่างขบขัน จริง ๆ ไม่ได้ตั้งใจจะให้เป็นเรื่องตลก แต่ฉันคงทำให้เธอนึกถึงบรรณารักษ์คนอื่น…\nหรือสักอย่างนี่แหละ…"
 
 show hanako cover_worry
 with charachange
@@ -3185,10 +3186,10 @@ with charaenter
 "ฉันว่าฉันไม่น่าพูดแบบนั้นเลย จริง ๆ เป็นเพราะโรคนี้มาทำให้ฉันสุขภาพแย่ ไม่ใช่เพราะความเร็วของเธอเลยด้วยซ้ำ"
 
 # "Hanako's reaction is odd. I expected an awkward attempt to downplay her walking speed, but she just blushes while looking at her feet and smiling."
-"ปฏิกิริยาของฮานาโกะดูต่างออกไปจากเดิม ฉันคิดว่าเธอคงพยายามปฏิเสธเรื่องที่เดินเร็ว แต่เธอกลับแค่หน้าแดงพร้อมจ้องไปที่เท้าของเธอและยื่ม"
+"ปฏิกิริยาของฮานาโกะต่างออกไปจากเดิม ฉันคิดว่าเธอคงพยายามปฏิเสธเรื่องที่เดินเร็ว แต่เธอกลับแค่หน้าแดงพร้อม\nจ้องไปที่เท้าของเธอและยื้ม"
 
 # "Silence hangs in the air between us. That happens often around Hanako, but feels slightly different than usual this time. After a few seconds, I try to break the silence."
-"ความเงียบเข้าแทรกมาระหว่างเรา ซึ่งเป็นเรื่องปกติเมื่ออยู่กับฮานาโกะ แต่ครั้งนี้รู้สึกต่างออกไปนิดหน่อย หลังผ่านไปไม่นานฉันจึงความเงียบลง"
+"ความเงียบเข้าแทรกมาระหว่างเรา ซึ่งเป็นเรื่องปกติเมื่ออยู่กับฮานาโกะ แต่ครั้งนี้รู้สึกต่างออกไปนิดหน่อย\nหลังผ่านไปไม่นานฉันจึงทำลายความเงียบลง"
 
 # hi "Here you go. See you in class tomorrow?"
 hi "เอาละ ไว้เจอกันพรุ่งนี้นะ"
