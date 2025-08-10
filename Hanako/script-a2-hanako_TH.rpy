@@ -3420,19 +3420,26 @@ with charachange
 # li "Rules cannot remove human nature, after all, only suppress it."
 li "กฎน่ะขจัดนิสัยธรรมชาติของมนุษย์ไม่ได้หรอก ทำได้เพียงแค่กดมันไว้เท่านั้น"
 
-"That's something I've noticed, actually."
+# "That's something I've noticed, actually."
+"จริง ๆ นั่นฉันเองก็พอสังเกตมาบ้างแล้วละ"
 
-"Just little things, like how certain people and cliques avoid each other in the hallways. It's no different than my old school, really."
+# "Just little things, like how certain people and cliques avoid each other in the hallways. It's no different than my old school, really."
+"แบบเรื่องเล็ก ๆ น้อย ๆ อย่างการที่คนบางกลุ่มหรือกลุ่มเพื่อนหลบหน้ากันในโถงทางเดิน จริง ๆ แล้วก็ไม่ต่างจาก\nโรงเรียนเก่าของฉันเท่าไหร่"
 
-"Even Lilly and Shizune could be considered bitter rivals, even though they both seem like fairly accepting people."
+# "Even Lilly and Shizune could be considered bitter rivals, even though they both seem like fairly accepting people."
+"แม้แต่ลิลลี่กับชิซูเนะที่ดูเหมือนจะเป็นคนยอมรับผู้อื่นได้ดีทั้งคู่ ก็ยังถือได้ว่าเป็นคู่ที่บาดหมางกันได้เลย"
 
-"Well, at least the Misha-tinted Shizune does; who knows what actually goes on with her fingers and behind her glasses."
+# "Well, at least the Misha-tinted Shizune does; who knows what actually goes on with her fingers and behind her glasses."
+"ก็ อย่างน้อยก็เป็นชิซูเนะในแบบฉบับที่ผ่านมิช่าอะนะ ใครจะรู้ว่าจริง ๆ แล้วเธอสื่ออะไรผ่านนิ้วและภายใต้แว่นของเธอ"
 
-hi "I guess you're right. But when I first came here, everything was a bit of a shock."
+# hi "I guess you're right. But when I first came here, everything was a bit of a shock."
+hi "ฉันว่าเธอพูดถูก แต่ตอนที่ฉันมาที่นี่ครั้งแรก ทุก ๆ อย่างดูลำบากสำหรับฉัน"
 
-hi "I kept on making mistakes, or at least thinking I was making mistakes. Like when we first met, and I said “I see” to you."
+# hi "I kept on making mistakes, or at least thinking I was making mistakes. Like when we first met, and I said “I see” to you."
+hi "ฉันทำพลาดอยู่บ่อย ๆ หรือก็เป็นสิ่งที่ฉันคิดว่าฉันพลาดนั่นแหละ อย่างตอนที่ฉันเจอเธอครั้งแรกแล้วฉันพูดออกไปว่า\n“พอจะเห็นภาพ” ใส่เธอน่ะ"
 
-hi "I didn't know if that was considered rude or anything, so I tried to just put it in the back of my mind. Treating people any differently and that kinda thing."
+# hi "I didn't know if that was considered rude or anything, so I tried to just put it in the back of my mind. Treating people any differently and that kinda thing."
+hi "ฉันไม่รู้ว่ามันจะถือว่าเสียมารยาทหรือเปล่า ก็เลยพยายามเก็บเรื่องนี้ไปก่อน รวมถึงเรื่องการปฏิบัติต่อผู้คนแบบที่ต่างไปจากเดิมหรืออะไรทำนองนั้นด้วย"
 
 hi "So I didn't. I told myself that Hanako and you and everyone else was just normal, and I tried to ignore the obvious."
 
