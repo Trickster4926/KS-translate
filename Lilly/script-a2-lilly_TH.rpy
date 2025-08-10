@@ -15,7 +15,7 @@ with openeye
 window show
 
 # "I wake to the annoying din of my alarm clock, its bright red numerals lighting up my face."
-"เสียงอันน่ารำคาญจากนาฬิกาปลุกดังขึ้นทำให้ต้องลืมตาตื่น แสงสีแดงจากตัวเลขที่อยู่บนหน้าจอนั้นส่องลงมากระทบใบหน้า"
+"เสียงอันน่ารำคาญจากนาฬิกาปลุกดังขึ้นทำให้ต้องลืมตาตื่น แสงสีแดงจากตัวเลขบนหน้าปัดส่องมากระทบใบหน้า"
 
 play music music_dreamy fadein 2.0
 
@@ -47,14 +47,11 @@ with charaenter
 # "While the shower warms up, my mind begins to wander as my new daily routine begins once again."
 "ขณะที่น้ำอุ่นจากฝักบัวไหลลงมาบนหัว ใจของฉันก็เริ่มลอยออกไปในตอนที่กิจวัตรประจำวันใหม่ได้เริ่มต้นขึ้นอีกครั้ง"
 
-"The bright colors of the fireworks fill my mind, as do the two girls with whom I spent my time watching them. It feels strange to be moved so much by people I know so little about."
-# "แสงหลากสีสันของดอกไม้ไฟปรากฏขึ้นในใจ กับเด็กสาวสองคนที่ฉันใช้เวลาคอยเฝ้ามอง พอคิดว่าทั้งสองคนนั้นที่ไม่ได้รู้จักกันมาก่อนกลับทำให้รู้สึกประทับใจได้ขนาดนี้ก็อดรู้สึกแปลกใจขึ้นมาไม่ได้"
-# "ภาพของแสงหลากสีสันของดอกไม้ไฟที่ส่องสว่างกับเด็กสาวสองคนที่ฉันใช้เวลาคอยเฝ้ามองปรากฏขึ้นในใจ" ---
-# "ฉากทัศน์ของดอกไม้ไฟหลากสีปรากฏขึ้น ---"
-# "ภาพของดอกไม้ไฟหลากสีและเด็กสาวทั้งสองที่ฉันได้ใช้เวลาเฝ้ามอง --(ใช้เวลาร่วมกัน?) -- ปรากฏขึ้นในใจ "
+# "The bright colors of the fireworks fill my mind, as do the two girls with whom I spent my time watching them. It feels strange to be moved so much by people I know so little about."
+"ภาพของดอกไม้ไฟหลากสีสันเป็นประกายประดับฟ้า กับเด็กสาวสองคนที่ฉันได้ใช้เวลาร่วมกันก็ปรากฏขึ้นในใจ\nพอคิดว่าทั้งที่เพิ่งจะได้รู้จักกันไม่นานแต่กลับทำให้เกิดความรู้สึกซาบซึ้งใจได้มากขนาดนี้ก็อดรู้สึกแปลก ๆ ไม่ได้"
 
-"Then again, I suppose these aren't normal circumstances. At least I have someone to talk to, now, aside from my schoolmate next door."
-# "------------------------------------------------------- และอย่างน้อยตอนนี้ฉันก็มีคนที่สามารถพูดคุยด้วยได้แล้ว\nนอกจากนายเพื่อนร่วมสถาบันที่อาศัยอยู่ห้องข้าง ๆ คนนั้น"
+# "Then again, I suppose these aren't normal circumstances. At least I have someone to talk to, now, aside from my schoolmate next door."
+"อาจเป็นเพราะสถานการณ์ไม่ปกติ แต่อย่างน้อยตอนนี้ฉันก็มีคนที่สามารถพูดคุยด้วยได้แล้ว\nนอกจากนายเพื่อนร่วมสถาบันที่อาศัยอยู่ห้องข้าง ๆ คนนั้น"
 
 stop ambient fadeout 2.0
 
