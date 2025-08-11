@@ -2709,7 +2709,7 @@ scene bg school_library
 with locationchange
 
 # "Having exhausted the books Kenji lent me in just a few nights, I go back to the library, deeming it a safer alternative for getting my reading fix."
-"หลังจากที่อ่านหนังสือที่เคนจิให้ยืมมาจนหมดในไม่กี่คืนฉันก็มาที่ห้องสมุดด้วยคิดว่าคงจะเป็นตัวเลือกที่ปลอดภัยกว่า\nที่จะมารับยาหนังสือฉัน"
+"หลังจากที่อ่านหนังสือที่เคนจิให้ยืมมาจนหมดในไม่กี่คืนฉันก็มาที่ห้องสมุดด้วยคิดว่าคงจะเป็นตัวเลือกที่ปลอดภัยกว่า\nในการมาหาหนังสืออ่านที่ฉันต้องอ่านประจำเหมือนอย่างการกินยา"
 
 # "I return the books he had stolen while I'm at it, to Yuuko's delight. I don't tell her where I got them, though."
 "เอาหนังสือที่ถูกขโมยมาคืนด้วย ยูโกะก็ดีอกดีใจ แต่ฉันไม่ได้บอกหรอกนะว่าได้มาจากไหน"
@@ -5963,7 +5963,7 @@ menu:
         return m1
 
     # "Because it would be exciting.":
-    "น่าดื่นเต้นดีออก":
+    "น่าตื่นเต้นดีออก":
         return m4
 
     # "It isn't like you at all to hesitate like this.":
@@ -8182,7 +8182,7 @@ show rin relaxed_doubt_close
 with charachange
 
 # rin "I just decided I would. Kind of like melon or plum jelly."
-rin "ฉันแค่เลือกว่าจะมา เหมือนให้เลือกแตงโมงหรือเยลลีลูกไหน"
+rin "ฉันแค่เลือกว่าจะมา เหมือนให้เลือกแตงโมหรือเยลลีลูกไหน"
 
 # hi "Do you think it was a good idea?"
 hi "แล้วคิดว่าดีมั้ย"

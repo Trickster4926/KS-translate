@@ -8,82 +8,106 @@ with locationchange
 
 window show
 
-mu "I asked you a question, Nakai."
+# mu "I asked you a question, Nakai."
+mu "ครูถามเธออยู่นะ นากาอิ"
 
 play music music_happiness fadein 0.5
 
-"I shake my head to fend off the dazedness. The teacher's looking at me, as is everyone else in the class."
+# "I shake my head to fend off the dazedness. The teacher's looking at me, as is everyone else in the class."
+"ฉันส่ายหัวให้หายเบลอ คุณครูและคนทั้งห้องมองมาที่ฉัน"
 
-hi "Ah, sorry. I wasn't paying attention."
+# hi "Ah, sorry. I wasn't paying attention."
+hi "อ๊ะ ขอโทษครับ พอดีผมไม่ได้ฟัง"
 
-mu "What's the distance between… never mind, different question:"
+# mu "What's the distance between… never mind, different question:"
+mu "ระยะทางระหว่าง… ช่างเถอะ เอาคำถามนี้แทน"
 
 show muto normal
 with charachange
 
-mu "Why are you here, in this class?"
+# mu "Why are you here, in this class?"
+mu "ทำไมเธอถึงมาอยู่ที่นี่ คาบนี้"
 
-hi "To, err… learn about physics."
+# hi "To, err… learn about physics."
+hi "มา เอ่อ… เรียนฟิสิกส์ครับ"
 
 show muto smile
 with charachange
 
-mu "Yes! Well, no, but that's the answer I wanted to hear."
+# mu "Yes! Well, no, but that's the answer I wanted to hear."
+mu "ใช่! คือ ไม่สิ แต่นั่นแหละที่อยากให้ตอบ"
 
-mu "To acquire knowledge is the secondary reason for you being in the school."
+# mu "To acquire knowledge is the secondary reason for you being in the school."
+mu "การมาหาความรู้คือเหตุผลรองที่เธอต้องมาโรงเรียน"
 
 show muto normal
 with charachange
 
-mu "The primary one is to learn the rules of society, the norms and ethics that govern your everyday life."
+# mu "The primary one is to learn the rules of society, the norms and ethics that govern your everyday life."
+mu "เหตุผลหลักคือการมาเรียนรู้กฎระเบียบของสังคม บรรทัดฐาน และจริยธรรมที่เป็นสิ่งตีกรอบการใช้ชีวิตในทุก ๆ วัน\nของเธอ"
 
-mu "You don't come to school for the classes, you come to interact with the other people there, your classmates who are your equals and the teachers who are your superiors."
+# mu "You don't come to school for the classes, you come to interact with the other people there, your classmates who are your equals and the teachers who are your superiors."
+mu "เธอไม่ได้มาโรงเรียนเพื่อเรียน แต่เธอมาเพื่อปฏิสัมพันธ์กับคนที่อยู่ในโรงเรียน เพื่อนร่วมชั้นเธอคือคนที่อยู่ลำดับชั้น\nเดียวกัน ส่วนครูคือคนที่อยู่ลำดับชั้นสูงกว่า"
 
-mu "You learn how to form social contacts and maintain them; in other words, how to be a part of society. The school itself is a microcosm of the entire society."
+# mu "You learn how to form social contacts and maintain them; in other words, how to be a part of society. The school itself is a microcosm of the entire society."
+mu "เธอจะได้เรียนรู้การสร้างและรักษาสัมพันธ์ทางสังคม หรือก็คือ การเป็นส่วนหนึ่งของสังคม โรงเรียนนั้นคือแบบจำลอง\nขนาดย่อมของสังคม"
 
 show muto smile
 with charachange
 
-mu "Locke was the one who realized that, you know? School's not just a place for learning, and of all the kids your age, you guys should know that better than anyone else."
+# mu "Locke was the one who realized that, you know? School's not just a place for learning, and of all the kids your age, you guys should know that better than anyone else."
+mu "ล็อกเป็นคนที่เสนอแนวคิดนี้ขึ้นมา โรงเรียนไม่ใช่แค่สถานที่ที่เอาไว้เรียน ถ้าให้เทียบกับคนอื่นที่อายุ\nรุ่นราวคราวเดียวกันแล้วพวกเธอก็น่าจะรู้ดีกว่าใคร"
 
-"He pauses for a moment and lets his eyes sweep over the class to see if the message sunk in."
+# "He pauses for a moment and lets his eyes sweep over the class to see if the message sunk in."
+"คุณครูหยุดพูดไปครู่หนึ่งแล้วกวาดตาดูว่ามีคนฟังสิ่งที่ตัวเองกำลังสื่อสารอยู่หรือเปล่า"
 
-"At the very least, it shut everyone up and got them to focus on him, captivated either by his voice or the sudden change of topic from physics to the philosophy of education."
+# "At the very least, it shut everyone up and got them to focus on him, captivated either by his voice or the sudden change of topic from physics to the philosophy of education."
+"อย่างน้อยสิ่งที่พูดไปนั้นก็ทำให้ทุกคนเงียบปากแล้วหันมามองคุณครูได้ ไม่รู้ว่าสนใจเพราะเสียงคุณครูเองหรือสนใจที่\nหัวข้อนั้นเปลี่ยนจากฟิสิกส์เป็นปรัชญาการศึกษาอย่างกะทันหัน"
 
 show muto normal
 with charachange
 
-mu "However, my classes - as you so aptly put - are a place for learning about physics."
+# mu "However, my classes - as you so aptly put - are a place for learning about physics."
+mu "แต่อย่างไรก็ตาม อย่างที่เธอบอก คาบของครูคือที่ที่เอาไว้เรียนฟิสิกส์"
 
-"He points at me with the piece of chalk he's holding."
+# "He points at me with the piece of chalk he's holding."
+"คุณครูใช้ชอล์กที่เขาจับอยู่ชี้มาทางฉัน"
 
 show muto irritated
 with charachange
 
-mu "So, no sleeping during class. Got it, Nakai?"
+# mu "So, no sleeping during class. Got it, Nakai?"
+mu "เพราะฉะนั้น ห้ามหลับตอนครูสอน เข้าใจมั้ย นากาอิ"
 
-hi "Yes, sir."
+# hi "Yes, sir."
+hi "ครับครู"
 
-"From the corner of my eye I catch Shizune's scowl and Misha's barely contained giggle. I sink deeper into my seat."
+# "From the corner of my eye I catch Shizune's scowl and Misha's barely contained giggle. I sink deeper into my seat."
+"ฉันเห็นชิซูเนะที่มองค้อนมาทางฉันกับมิช่าที่แทบกลั้นขำไม่ไหวแล้วอยู่ที่หางตา ฉันปล่อยตัวให้ไหลไปกับเก้าอี้"
 
 stop music fadeout 6.0
 
 scene bg school_hallway3
 with shorttimeskip
 
-"After classes end, I'm the last one to leave the classroom. I close the door behind me and quietly make my way to the art room."
+# "After classes end, I'm the last one to leave the classroom. I close the door behind me and quietly make my way to the art room."
+"เลิกคาบแล้ว ฉันออกมาจากห้องเป็นคนสุดท้ายและปิดประตูแล้วเดินไปที่ห้องศิลปะเงียบ ๆ"
 
 scene bg school_classroomart
 show rin basic_awayabsent_close at tworight
 with shorttimeskip
 
-"Club time passes in relative peace and quiet. I sit in my usual seat next to Rin, but she doesn't seem to be in a talkative mood."
+# "Club time passes in relative peace and quiet. I sit in my usual seat next to Rin, but she doesn't seem to be in a talkative mood."
+"คาบชมรมผ่านไปอย่างค่อนข้างเงียบสงบ ฉันนั่งที่เก้าอี้ตัวประจำข้าง ๆ ริน แต่ดูเหมือนว่าเธอจะไม่มีอารมณ์เสวนา\nสักเท่าไหร่"
 
-"She's even more distant than usual."
+# "She's even more distant than usual."
+"ดูห่างเหินกว่าปกติอีก"
 
-"Today we are going to draw still life, and get to choose from either a vase full of fake flowers or an arrangement of rocks, sticks and canvas."
+# "Today we are going to draw still life, and get to choose from either a vase full of fake flowers or an arrangement of rocks, sticks and canvas."
+"วันนี้พวกเราได้วาดภาพหุ่นนิ่งกัน มีสองอย่างให้เลือกระหว่างแจกันดอกไม้เทียมกับหิน กิ่งไม้ และผืนผ้าใบที่มาวาง\nรวมกัน"
 
-"The teacher encourages us to gather around the preferred motif, emphasizing perspective, texture and lighting as the key points of this exercise."
+# "The teacher encourages us to gather around the preferred motif, emphasizing perspective, texture and lighting as the key points of this exercise."
+"คุณครูให้พวกเรามาล้อมวงกับสิ่งที่สนใจอยากวาดแล้วเน้นย้ำว่าเรื่องมุมมอง พื้นผิว และแสงเงานั้นเป็นจุดสำคัญของ\nกิจกรรมนี้"
 
 #show rin invis_close:
 #    xanchor 0.5 xpos 0.85
@@ -93,23 +117,29 @@ with shorttimeskip
 show rin basic_deadpancontemplation_close at tworight
 with charachange
 
-"I look at Rin to see if she prefers one of the subjects over the other, but she just tilts her head, signifying nothing."
+# "I look at Rin to see if she prefers one of the subjects over the other, but she just tilts her head, signifying nothing."
+"ฉันหันไปทางรินดูว่าเธอจะเลือกอันไหนหรือเปล่า แต่เธอก็เอียงคอไม่มีความหมายอะไร"
 
-"The club members quickly shuffle their chairs around the classroom to get closer to either the vase or the clutter. Rin and I both pick the flower vase, but only one of us seems to do any work."
+# "The club members quickly shuffle their chairs around the classroom to get closer to either the vase or the clutter. Rin and I both pick the flower vase, but only one of us seems to do any work."
+"สมาชิกชมรมลากเก้าอี้ไปมาล้อมวงกันที่แจกันและกองสิ่งของนั้น ทั้งรินและฉันเลือกแจกัน แต่เหมือนว่าจะมีคน\nทำงานอยู่แค่คนเดียว"
 
 show rin basic_awayabsent_close
 with charachange
 
-"She's ignoring Nomiya's assignment just like she's suddenly started ignoring me, and has begun doodling something idly with her foot, not really even looking at what she's drawing."
+# "She's ignoring Nomiya's assignment just like she's suddenly started ignoring me, and has begun doodling something idly with her foot, not really even looking at what she's drawing."
+"เธอเมินงานที่โนมิยะสั่งเหมือนกับที่เธอเมินฉันแล้วใช้เท้าวาดอะไรเล่น ตาเธอไม่ได้มองสิ่งที่กำลังวาดอยู่ด้วยซ้ำ"
 
-"I try to catch her gaze, but she's looking out the window. It's making me uneasy."
+# "I try to catch her gaze, but she's looking out the window. It's making me uneasy."
+"ฉันหันไปเพื่อสบตาเธอ แต่ตาเธอมองออกไปนอกหน้าต่างจนฉันอึดอัด"
 
 show rin basic_lucid_close
 with charachange
 
-"Rin almost looks like she's asleep with the way she's leaning back against the chair with her legs resting easily on the desk. She's now completely given up on the drawing."
+# "Rin almost looks like she's asleep with the way she's leaning back against the chair with her legs resting easily on the desk. She's now completely given up on the drawing."
+"รินเอนตัวพิงพนักเท้าวางอยู่บนโต๊ะจนแทบจะดูเหมือนว่ากำลังหลับอยู่ ตอนนี้เธอไม่ได้วาดอะไรแล้ว"
 
-"The more I try to relax, ignore her, and just be myself, the more it feels like I should ask if something's wrong."
+# "The more I try to relax, ignore her, and just be myself, the more it feels like I should ask if something's wrong."
+"ยิ่งฝืนทำตัวให้สบายโดยการไม่สนเธอพลางอยู่เฉย ๆ ไปก็ยิ่งทำให้รู้สึกต้องถามว่ามีอะไรหรือเปล่า"
 
 scene bg school_classroomart
 show rin basic_deadpanupset at tworight
@@ -118,134 +148,164 @@ with shorttimeskip
 
 play music music_daily fadein 4.0
 
-"After club activities are over and others have filed out, Rin gets up from her seat and marches over to Nomiya with unusual determination."
+# "After club activities are over and others have filed out, Rin gets up from her seat and marches over to Nomiya with unusual determination."
+"พอกิจกรรมชมรมเลิกแล้วทุกคนก็ทยอยออกไปจากห้อง สุดท้ายรินก็ลุกขึ้นแล้วเดินไปหาโนมิยะด้วยความมุ่งมั่น\nผิดวิสัย"
 
 show rin basic_lucid
 with charachange
 
-rin "I will do it."
+# rin "I will do it."
+rin "จะทำค่ะ"
 
 show nomiya smile
 with charachange
 
-"Nomiya, who was humming to himself while sorting a box of pencils by hardness, turns around with a mixed expression of friendliness and incomprehension on his face."
+# "Nomiya, who was humming to himself while sorting a box of pencils by hardness, turns around with a mixed expression of friendliness and incomprehension on his face."
+"โนมิยะที่กำลังฮัมเพลงไปพลางจัดกล่องดินสอตามความแข็งของไส้อยู่หันมามองด้วยสีหน้าที่เป็นมิตรและงงงวย"
 
 show nomiya talk
 with charachange
 
-no "Hmm? What will you do, my girl?"
+# no "Hmm? What will you do, my girl?"
+no "หืม จะทำอะไรล่ะหนู"
 
 show rin basic_awayabsent
 with charachange
 
-rin "The gallery person. I can talk with that person. At least yesterday I thought I could."
+# rin "The gallery person. I can talk with that person. At least yesterday I thought I could."
+rin "คนที่หอศิลป์ จะไปคุยด้วยค่ะ อย่างน้อยเมื่อวานก็คิดมาแล้วว่าจะลองไปคุย"
 
 show rin relaxed_nonchalant
 with charachange
 
-rin "And today too."
+# rin "And today too."
+rin "และวันนี้ด้วย"
 
 show rin basic_lucid
 with charachange
 
-rin "I think. I want to try it. I'm going to go all the way."
+# rin "I think. I want to try it. I'm going to go all the way."
+rin "คิดว่านะคะ อยากลองดูค่ะ จะทำให้ถึงที่สุดเลย"
 
 show nomiya veryhappy
 with charachange
 
-"The widest smile I've ever seen on any person's face lights up the teacher's features. He is almost literally beaming."
+# "The widest smile I've ever seen on any person's face lights up the teacher's features. He is almost literally beaming."
+"คุณครูยิ้มแฉ่ง เป็นรอยยิ้มที่กว้างที่สุดเท่าที่ฉันเคยเห็นใครยิ้มมาก่อนจนอย่างกับว่ามีแสงประกายรอบ ๆ"
 
 show nomiya talk
 show rin basic_awayabsent
 with charachange
 
-no "Oh, wonderful! I had almost lost hope!"
+# no "Oh, wonderful! I had almost lost hope!"
+no "โอ้ เยี่ยมไปเลย! ฉันเกือบจะถอดใจแล้วนะเนี่ย!"
 
 show nomiya veryhappy
 with charachange
 
-no "Such a hardheaded girl, you are! But I knew that sooner or later you'd understand, as well!"
+# no "Such a hardheaded girl, you are! But I knew that sooner or later you'd understand, as well!"
+no "เธอนี่หัวแข็งจริงเลย! แต่กะแล้วว่าไม่ช้าก็นานเธอต้องเข้าใจแน่!"
 
 show nomiya smile
 with charachange
 
-no "I will call my good friend Saionji and arrange a meeting."
+# no "I will call my good friend Saionji and arrange a meeting."
+no "เดี๋ยวฉันจะโทร. นัดกับคุณเพื่อนไซอนจิให้นะ"
 
-no "You'll need to show her your work so she can estimate it. I've told her about you, but obviously you should talk face-to-face."
+# no "You'll need to show her your work so she can estimate it. I've told her about you, but obviously you should talk face-to-face."
+no "เดี๋ยวต้องเอางานไปให้ดูด้วย เขาจะได้ประเมินให้ เคยให้ฟังไปแล้วแหละ แต่ยังไงไปคุยกันต่อหน้าก็ดีกว่าอยู่แล้ว"
 
 show nomiya talktongue
 with charachange
 
-no "This is so exciting, isn't it?"
+# no "This is so exciting, isn't it?"
+no "ตื่นเต้นดีเลยใช่มั้ยล่ะ"
 
-"Nomiya is talking more to himself than to us and walking in circles around his desk, waving his hands around wildly all the while."
-
-show nomiya smile
-with charachange
-
-"He picks up his cell phone from the breast pocket of his jacket and flips it open with a stylish movement, starting to look for the number to call."
-
-show nomiya veryhappy
-with charachange
-
-"While he searches, he notices me staring and gives me a beaming thumbs-up. I shrug back at him, doing my best to not look smug."
+# "Nomiya is talking more to himself than to us and walking in circles around his desk, waving his hands around wildly all the while."
+"คำพูดนั้นของโนมิยะเหมือนพูดกับตัวเองมากกว่า คุณครูเดินวนรอบโต๊ะพลางสะบัดมือไม้ไปมา"
 
 show nomiya smile
 with charachange
 
-"Nomiya finds the number and makes the call, turning away from us and lowering his voice once it goes through. Even so, I can hear his excited tone."
-
-"The call doesn't last long."
+# "He picks up his cell phone from the breast pocket of his jacket and flips it open with a stylish movement, starting to look for the number to call."
+"เขาควักโทรศัพท์ออกมาจากกระเป๋าเสื้อคลุมตรงหน้าอกแล้วเปิดออกอย่างมีจริตจะก้านก่อนจะกดหาเบอร์โทรศัพท์"
 
 show nomiya veryhappy
 with charachange
 
-no "Fabulous! Sae is at the gallery right now, and she said we could stop by right away if that's fine. This is most excellent!"
+# "While he searches, he notices me staring and gives me a beaming thumbs-up. I shrug back at him, doing my best to not look smug."
+"ระหว่างนั้นพอคุณครูเห็นว่าฉันมองอยู่ก็ยิ้มยกนิ้วโป้งให้ ฉันยักไหล่ตอบทำท่าให้ดูไม่เก๊ก"
+
+show nomiya smile
+with charachange
+
+# "Nomiya finds the number and makes the call, turning away from us and lowering his voice once it goes through. Even so, I can hear his excited tone."
+"พอหาเจอแล้วโนมิยะก็กดโทร. และเมื่อสายติดแล้วก็หันหน้าไปอีกทางพลางพูดให้เสียงเบาลง แต่ถึงอย่างนั้นฉันก็ยัง\nได้ยินถึงความตื่นเต้นในน้ำเสียงเขาอยู่ดี"
+
+# "The call doesn't last long."
+"คุยอยู่ไม่นานก็วางสายไป"
+
+show nomiya veryhappy
+with charachange
+
+# no "Fabulous! Sae is at the gallery right now, and she said we could stop by right away if that's fine. This is most excellent!"
+no "เยี่ยมยอด! ตอนนี้ซาเอะอยู่ที่หอศิลป์พอดี บอกว่าถ้าสะดวกก็แวะมาหาได้เลย สุดยอดไปเลย!"
 
 show rin basic_absent
 with charachange
 
-hi "Do you have some kind of portfolio to show, Rin?"
+# hi "Do you have some kind of portfolio to show, Rin?"
+hi "เธอมีแฟ้มผลงานไปให้เขาดูมั้ยริน"
 
 show rin basic_surprised
 with charachange
 
-"She just shakes her head at the question."
+# "She just shakes her head at the question."
+"เธอเพียงส่ายหัวตอบ"
 
 show nomiya talk
 show rin basic_awayabsent
 with charachange
 
-no "Never fear, I've taken some photos of your paintings. We can bring those and maybe a couple originals with us. Those will be quite sufficient for now."
+# no "Never fear, I've taken some photos of your paintings. We can bring those and maybe a couple originals with us. Those will be quite sufficient for now."
+no "อย่าห่วงไปเลย ฉันถ่ายรูปที่เทซูกะวาดไว้บ้างแล้ว เดี๋ยวใช้รูปพวกนั้นกับตัวภาพจริงสักภาพสองภาพไปด้วยก็ได้ แค่นั้น\nก็น่าจะพอแล้วละนะ"
 
 show nomiya smile
 with charachange
 
-no "There should be some recent ones around here in the back, right?"
+# no "There should be some recent ones around here in the back, right?"
+no "ที่เพิ่งวาดใหม่ ๆ น่าจะยังพอมีอยู่แถว ๆ ในห้องนี้นะ"
 
 show nomiya invis:
     xanchor 0.5 xpos 0.2
 with dissolvecharamove
 
-"He pulls out a folder full of photos out of a desk drawer, then charges towards the back where there's a small storage room and extra cabinets for all the materials and tools the art classes and club use."
+# "He pulls out a folder full of photos out of a desk drawer, then charges towards the back where there's a small storage room and extra cabinets for all the materials and tools the art classes and club use."
+"เขาหยิบแฟ้มที่มีรูปอัดแน่นอยู่ออกมาจากลิ้นชักโต๊ะแล้วเดินไปหลังห้องที่มีห้องเก็บของขนาดเล็กกับตู้เก็บของ\nทั้งหลายแหล่สำหรับวิชาและชมรมศิลปะ"
 
-"He soon finds what he was looking for and crudely wraps two of Rin's paintings in some brown packing paper."
+# "He soon finds what he was looking for and crudely wraps two of Rin's paintings in some brown packing paper."
+"ไม่นานก็หาเจอ คุณครูใช้กระดาษห่อของสีน้ำตาลห่อภาพที่รินวาดสองภาพไว้แบบลวก ๆ"
 
 show nomiya smile at twoleft
 with dissolvecharamove
 
-no "Nakai, would you carry these to my car?"
+# no "Nakai, would you carry these to my car?"
+no "นากาอิ ช่วยขนของพวกนี้ไปให้หน่อย"
 
-"I pick up the two oil paintings. They aren't heavy, but they do make navigation somewhat cumbersome as I follow Nomiya and Rin to the parking lot."
+# "I pick up the two oil paintings. They aren't heavy, but they do make navigation somewhat cumbersome as I follow Nomiya and Rin to the parking lot."
+"ฉันแบกภาพวาดสีน้ำมันมาทั้งสองภาพ แม้จะไม่ได้หนักแต่ก็ทำให้การเดินตามโนมิยะและรินไปยังลานจอดรถนั้น\nไม่ค่อยสะดวกมากนัก"
 
 scene bg school_parkinglot
 with locationskip
 
-"Nomiya has a pretty nice car, not something I'd expect a high school teacher to drive. I wonder what kind of salaries they earn at Yamaku."
+# "Nomiya has a pretty nice car, not something I'd expect a high school teacher to drive. I wonder what kind of salaries they earn at Yamaku."
+"รถโนมิยะก็สวยดี ไม่ใช่รถอย่างที่ฉันคิดว่าพวกครูมัธยมจะขับกัน ที่ยามากุเขาให้เงินเดือนเท่าไหร่กันนะ"
 
-"The canvases are stuffed into the trunk, where they just barely fit. At the teacher's overenthusiastic prompting, I get in the car along with them. Rin answers my questioning stare with a confirming nod and a nonchalant shrug."
+# "The canvases are stuffed into the trunk, where they just barely fit. At the teacher's overenthusiastic prompting, I get in the car along with them. Rin answers my questioning stare with a confirming nod and a nonchalant shrug."
+"ผ้าใบทั้งสองผืนนั้นแทบจะยัดเข้าท้ายรถไม่ได้ ฉันขึ้นรถไปกับทั้งสองคนตามคำชวนของคุณครูที่ดูตื่นเต้นเอามาก ๆ\nพอฉันมองรินด้วยสายตาสงสัยเธอก็พยักหน้ายืนยันแล้วยักไหล่อย่างไม่ยี่หระ"
 
-"I guess I've become some sort of assistant for her now."
+# "I guess I've become some sort of assistant for her now."
+"ฉันคงกลายเป็นผู้ช่วยไปโดยปริยายแล้ว"
 
 stop music fadeout 6.0
 $ renpy.music.set_volume(0.6, 0.0, channel="ambient")
@@ -254,33 +314,41 @@ play ambient sfx_traffic fadein 14.0
 scene bg city_street4 at right
 with shorttimeskip
 
-"Nomiya doesn't go light on the pedal. The smooth ride takes just about 10 minutes to bring us to the city center, where we pull into a tiny parking lot and get out of the car."
+# "Nomiya doesn't go light on the pedal. The smooth ride takes just about 10 minutes to bring us to the city center, where we pull into a tiny parking lot and get out of the car."
+"โนมิยะเหยียบคันเร่งเต็มที่ นั่งรถได้ประมาณสิบนาทีก็มาถึงใจกลางเมือง และพอเข้าที่จอดรถแล้วพวกเราก็ลงจากรถ"
 
-"I pick up the paintings again, looking around. It's just like any city in Japan, really. Same style of buildings, people hurrying here and there, office workers sweating in their suits in the summer heat."
+# "I pick up the paintings again, looking around. It's just like any city in Japan, really. Same style of buildings, people hurrying here and there, office workers sweating in their suits in the summer heat."
+"ฉันขนภาพวาดมาแล้วมองรอบ ๆ ไปพลาง โดยรอบก็เหมือนเมืองไหน ๆ ในญี่ปุ่น ไม่ว่าจะตึกที่หน้าตาเหมือน ๆ กัน\nผู้คนที่เดินด้วยความเร่งรีบ เหล่าพนักงานที่ใส่ชุดสูทเดินกลางแดดหน้าร้อนเหงื่อท่วม"
 
 scene bg city_street4 at Fullpan(4.0, dir="left")
 
-"Wide, tree-lined streets aren't something you see everywhere though. Maybe they are this city's specialty."
+# "Wide, tree-lined streets aren't something you see everywhere though. Maybe they are this city's specialty."
+"แต่ที่ดูเหมือนจะมีเฉพาะเมืองนี้ก็คือเหล่าต้นไม้ที่อยู่เลียบไปตามถนนกว้าง"
 
-"It definitely has that feel of a city, which I thought I had already forgotten. I feel immediately comfortable walking around."
+# "It definitely has that feel of a city, which I thought I had already forgotten. I feel immediately comfortable walking around."
+"ให้ความรู้สึกเป็นเมืองใหญ่จริง ๆ เป็นความรู้สึกที่ฉันนึกว่าลืมไปแล้วเสียอีก พอมาเดินแล้วก็ทำให้รู้สึกคุ้นเคยทันที"
 
-hi "I haven't actually been here before."
+# hi "I haven't actually been here before."
+hi "ผมไม่เคยมาที่นี่เลยนะครับเนี่ย"
 
 scene bg city_street4 at left
 show nomiya smile at center
 with charaenter
 
-no "No? In that case, it's about time."
+# no "No? In that case, it's about time."
+no "เหรอ งั้นก็จังหวะดีเลย"
 
 show nomiya veryhappy
 with charachange
 
-no "It's a great city! Lots of wonderful folk around here. And most important of all, a vibrant cultural life."
+# no "It's a great city! Lots of wonderful folk around here. And most important of all, a vibrant cultural life."
+no "เมืองนี้ดีนะ! มีคนดี ๆ อยู่แถวนี้เยอะเลย แล้วที่สำคัญที่สุด เมืองนี้น่ะมีชีวิตชีวามากเลย"
 
 show nomiya talk
 with charachange
 
-no "Ah, Sae's place is just around the corner."
+# no "Ah, Sae's place is just around the corner."
+no "อืม ใกล้ถึงหอศิลป์ของซาเอะเขาแล้วละ"
 
 $ renpy.music.set_volume(0.2, 1.0, channel="ambient")
 
@@ -289,7 +357,8 @@ scene bg gallery_ext:
 #show nomiya smile at center
 with locationskip
 
-"After turning around three more corners, Nomiya stops in front of a door. There is a nameplate in big, red letters over it: “22nd Corner.”"
+# "After turning around three more corners, Nomiya stops in front of a door. There is a nameplate in big, red letters over it: “22nd Corner.”"
+"พอเลี้ยวมาได้สักสามแยกโนมิยะก็หยุดยืนอยู่ตรงหน้าประตูหนึ่งที่มีตัวหนังสือสีแดงเขียนอยู่บนป้ายว่า “ซอย 22”"
 
 show bg gallery_ext:
    yalign 1.0
@@ -299,19 +368,23 @@ show nomiya smile at twoleft
 show rin negative_spaciness at tworight
 with charaenter
 
-rin "Is this really the twenty-second corner?"
+# rin "Is this really the twenty-second corner?"
+rin "ที่นี่คือซอย 22 จริงเหรอ"
 
-hi "Of what?"
+# hi "Of what?"
+hi "นับจาก?"
 
 show rin basic_deadpanupset
 with charachange
 
-rin "That's bothering me too. I mean, where to start counting, and which way do you count?"
+# rin "That's bothering me too. I mean, where to start counting, and which way do you count?"
+rin "ฉันก็สงสัยเหมือนกัน แบบ นับตั้งแต่ตรงไหน แล้วนับจากไหนไปไหน"
 
 hide nomiya
 with charaexit
 
-"Rin gets worked up over the strangest things. Unlike me, Nomiya ignores her completely and pushes the door open."
+# "Rin gets worked up over the strangest things. Unlike me, Nomiya ignores her completely and pushes the door open."
+"รินคิดจุกจิกกับอะไรแปลก ๆ ตลอด โนมิยะที่ไม่ได้สงสัยอย่างฉันก็เมินเธอไปแล้วเปิดประตู"
 
 stop ambient fadeout 0.3
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
@@ -322,24 +395,32 @@ with locationchange
 
 play music music_soothing fadein 0.5
 
-"The gallery is very clean-looking, and the air conditioning makes it cool and very comfortable."
+# "The gallery is very clean-looking, and the air conditioning makes it cool and very comfortable."
+"หอศิลป์นั้นสะอาดสะอ้าน และมีเครื่องปรับอากาศที่ทำให้ภายในเย็นสบาย"
 
-"The white walls and big windows facing onto the busy street make the whole place feel airy and bright. There's nobody around whom I can see, however."
+# "The white walls and big windows facing onto the busy street make the whole place feel airy and bright. There's nobody around whom I can see, however."
+"กำแพงสีขาวและหน้าต่างบานใหญ่ที่หันออกถนนทำให้ดูสว่างและกว้างขวาง แต่เท่าที่เห็นตอนนี้ก็ไม่มีใครอยู่"
 
-"Most of the floor space is empty, with only a few large tables and a counter for furniture."
+# "Most of the floor space is empty, with only a few large tables and a counter for furniture."
+"พื้นที่ส่วนใหญ่ปล่อยโล่ง มีเคาน์เตอร์และโต๊ะตัวใหญ่อยู่แค่สองสามตัว"
 
-"There are paintings too, of course. A poster advertises an exhibition for an artist I've never heard of."
+# "There are paintings too, of course. A poster advertises an exhibition for an artist I've never heard of."
+"และแน่นอนว่ามีภาพวาดด้วย มีโปสเตอร์นิทรรศการของศิลปินคนหนึ่งที่ฉันไม่เคยได้ยินมาก่อน"
 
-"Most of his works seem to be portraits or landscapes done in a more traditional style than Rin's abstraction."
+# "Most of his works seem to be portraits or landscapes done in a more traditional style than Rin's abstraction."
+"งานของเขาส่วนใหญ่ดูจะเป็นภาพเหมือนไม่ก็ภาพทิวทัศน์อย่างแบบดั้งเดิมมากกว่าที่จะเป็นงานนามธรรมอย่างของริน"
 
 show sae neutral
 with charaenter
 
-"Summoned by the bell on the door, a lady who looks maybe around Nomiya's age comes from around the corner. She's dressed in a sharp suit, her straight dark hair in a perfect ponytail behind her head."
+# "Summoned by the bell on the door, a lady who looks maybe around Nomiya's age comes from around the corner. She's dressed in a sharp suit, her straight dark hair in a perfect ponytail behind her head."
+"พอเสียงกระดิ่งดังก็มีผู้หญิงคนหนึ่งที่ดูอายุไล่เลี่ยกับโนมิยะเดินเข้ามา เธอใส่ชุดสูทเรียบร้อย ผมตรงสีเข้มของเธอ\nมัดเป็นหางม้าไว้อย่างดี"
 
-"A pair of flashy, expensive-looking eyeglasses frame her eyes."
+# "A pair of flashy, expensive-looking eyeglasses frame her eyes."
+"เธอใส่แว่นตาที่ดูแพง ๆ ด้วย"
 
-"On second glance, I'm not so sure of her age any more. She looks old and yet… not actually old."
+# "On second glance, I'm not so sure of her age any more. She looks old and yet… not actually old."
+"พอมองอีกทีก็ชักไม่แน่ใจว่าอายุเท่าไหร่กันแน่ ดูแก่ แต่ก็… ไม่ได้แก่"
 
 show sae neutral at tworight
 show bg gallery_int at center
@@ -348,56 +429,71 @@ with charamove
 show nomiya talk at twoleft behind sae
 with charaenter
 
-no "Sae, hello!"
+# no "Sae, hello!"
+no "ซาเอะ ไง!"
 
-"She clearly recognizes the teacher, greeting him warmly."
+# "She clearly recognizes the teacher, greeting him warmly."
+"พอเห็นว่าเป็นคุณครูเธอก็ทักทายอย่างอบอุ่น"
 
 show sae smile
 with charaenter
 
-sa "Oh there you are, Shinichi, and so quickly. I take it that these two are your students?"
+# sa "Oh there you are, Shinichi, and so quickly. I take it that these two are your students?"
+sa "อ้าว มาเร็วนะชินอิจิ แล้วสองคนนี้คือนักเรียนของคุณใช่มั้ย"
 
 show nomiya veryhappy
 with charachange
 
-no "Indeed, let me introduce you. This is Rin Tezuka, the one I spoke to you about, and the healthy-looking lad over there is Hisao Nakai."
+# no "Indeed, let me introduce you. This is Rin Tezuka, the one I spoke to you about, and the healthy-looking lad over there is Hisao Nakai."
+no "ใช่แล้ว เดี๋ยวแนะนำตัวให้ คนนี้ริน เทซูกะที่เล่าให้ฟัง แล้วพ่อหนุ่มที่ดูแข็งแรงคนนี้ชื่อฮิซาโอะ นากาอิ"
 
 show sae doubt
 with charachange
 
-"She takes a long, hard look at both of us, especially Rin. It feels like we're being evaluated, that a worth of some abstract kind is being calculated for us."
+# "She takes a long, hard look at both of us, especially Rin. It feels like we're being evaluated, that a worth of some abstract kind is being calculated for us."
+"เธอมองเราสองคนอยู่นาน โดยเฉพาะริน เหมือนกำลังประเมินค่าพวกเราอยู่ว่าจะมีมูลค่าทางนามธรรมอะไรเท่าไหร่\nบ้าง"
 
-"Her eyes linger for a long time on Rin, on her eyes, her empty sleeves tied in knots, her posture. Sae takes her first impression of Rin with an intensity I've not seen used by anyone else before. Once finished, she smiles amiably."
+# "Her eyes linger for a long time on Rin, on her eyes, her empty sleeves tied in knots, her posture. Sae takes her first impression of Rin with an intensity I've not seen used by anyone else before. Once finished, she smiles amiably."
+"สายตาเธอวนเวียนอยู่เสียนานกับตาของริน แขนเสื้อที่มัดไว้ แล้วก็ท่าทางของริน เธอมองด้วยความจริงจังอย่างที่ฉัน\nไม่เคยเห็นใครจะมองอีกคนที่ได้เจอเป็นครั้งแรกมาก่อน หลังจากนั้นก็ยิ้มให้อย่างเป็นมิตร"
 
 show sae smile
 with charachange
 
-sa "Pleased to meet you both. My name is Sae Saionji, and I'm the owner of this gallery."
+# sa "Pleased to meet you both. My name is Sae Saionji, and I'm the owner of this gallery."
+sa "ยินดีที่ได้รู้จักนะ ฉันชื่อซาเอะ ไซอนจิ เป็นเจ้าของหอศิลป์นี้"
 
-sa "Could I maybe offer you some tea?"
+# sa "Could I maybe offer you some tea?"
+sa "ชาสักหน่อยมั้ย"
 
 show nomiya smile
 with charachange
 
-no "Oh, no thank you, we're fine. Let's get down to business."
+# no "Oh, no thank you, we're fine. Let's get down to business."
+no "โอ้ ขอบคุณนะ แต่ไม่ต้องหรอก เข้าเรื่องเลยดีกว่า"
 
-"I lay the paintings on a tabletop to give the gallery owner a better view and Nomiya pulls out his folder of photos."
+# "I lay the paintings on a tabletop to give the gallery owner a better view and Nomiya pulls out his folder of photos."
+"ฉันวางภาพวาดที่ขนมาไว้บนโต๊ะให้เจ้าของหอศิลป์ได้ดูชัด ๆ ส่วนโนมิยะก็เอารูปออกมาจากแฟ้ม"
 
 show sae doubt
 with charachange
 
-"The old lady studies Rin's works carefully, absentmindedly brushing her cheek with her fingers while letting her gaze sweep over the paintings."
+# "The old lady studies Rin's works carefully, absentmindedly brushing her cheek with her fingers while letting her gaze sweep over the paintings."
+"เธอพินิจมองภาพของรินพลางเกาแก้มแกรก ๆ ก่อนจะกวาดตามองภาพทั่ว ๆ"
 
-"Her eyes remind me of a bird of prey of some sort. They're so sharp and somehow, very calculating."
+# "Her eyes remind me of a bird of prey of some sort. They're so sharp and somehow, very calculating."
+"สายตาของเธอทำให้นึกถึงนกที่ล่าเหยื่อ ที่ทั้งเฉียบคมและถี่ถ้วน"
 
-"She takes her time, slowly going over the paintings in order without uttering a single word."
+# "She takes her time, slowly going over the paintings in order without uttering a single word."
+"เธอค่อย ๆ ไล่ดูไปทีละภาพโดยไม่พูดอะไรแม้แต่คำเดียว"
 
 show nomiya serious
 with charachange
 
-"Even the teacher looks very nervous. He tries to point out certain details and other things about Rin's work, but it seems like she's not listening."
+# "Even the teacher looks very nervous. He tries to point out certain details and other things about Rin's work, but it seems like she's not listening."
+"แม้แต่คุณครูยังดูเกร็ง ๆ เขาคอยพูดรายละเอียดบางอย่างกับเรื่องอื่น ๆ ของภาพวาดริน แต่ดูเหมือนว่าเธอจะไม่ได้\nฟังอยู่"
 
-"While Nomiya and I keep looking at Sae, trying to look for some hint of a reaction on the gallery owner's face, Rin lets her gaze wander around the gallery space. Suddenly, she pipes up."
+# "While Nomiya and I keep looking at Sae, trying to look for some hint of a reaction on the gallery owner's face, Rin lets her gaze wander around the gallery space. Suddenly, she pipes up."
+"ระหว่างที่โนมิยะและฉันกำลังจับตาดูซาเอะอยู่ว่าเธอจะมีปฏิกิริยาอย่างไรบ้าง รินก็มองไปรอบ ๆ หอศิลป์แล้วโพล่ง\nขึ้นมา"
 
 show nomiya serious at center
 show sae doubt at right
@@ -407,335 +503,414 @@ with charamove
 show rin relaxed_nonchalant at left
 with charaenter
 
-rin "Is this really the twenty-second corner?"
+# rin "Is this really the twenty-second corner?"
+rin "ที่นี่คือซอย 22 จริงเหรอ"
 
 show sae scowl
 show nomiya frown
 with charachange
 
-"Sae raises her gaze from the paintings to look at Rin, but doesn't answer."
+# "Sae raises her gaze from the paintings to look at Rin, but doesn't answer."
+"ซาเอะเงยหน้าจากภาพวาดมามองรินแต่ไม่ได้ตอบอะไร"
 
-"It's probably for the best."
+# "It's probably for the best."
+"ซึ่งก็น่าจะดีแล้ว"
 
-"She takes stock of Rin's slouchy posture and her dreamy eyes that are again moving restlessly about."
+# "She takes stock of Rin's slouchy posture and her dreamy eyes that are again moving restlessly about."
+"เธอมองท่าทีที่ปล่อยตัวและดวงตาชวนฝันของรินที่หลุกหลิกไปมาแล้วใคร่ครวญ"
 
-"The way Rin seems to be detached from a situation that's supposed to be very important for her annoys me just a little. I'm practically holding my breath here."
+# "The way Rin seems to be detached from a situation that's supposed to be very important for her annoys me just a little. I'm practically holding my breath here."
+"ฉันแอบรำคาญที่รินดูจะไม่ใส่ใจกับสิ่งที่เกิดขึ้นตรงหน้าทั้งที่เป็นเรื่องสำคัญกับตัวเอง ตอนนี้ฉันแทบกลั้นหายใจอยู่\nด้วยซ้ำ"
 
 show sae doubt
 with charachange
 
-"After Sae has gone through all of Nomiya's photos and inspected the two oil paintings I hauled here, she goes through all the material again, this time at a quicker pace."
+# "After Sae has gone through all of Nomiya's photos and inspected the two oil paintings I hauled here, she goes through all the material again, this time at a quicker pace."
+"พอซาเอะได้ดูรูปถ่ายและภาพสีน้ำมันที่โนมิยะและฉันขนมาทั้งหมดแล้วเธอก็กวาดตามองภาพทั้งหมดอีกครั้งแบบเร็ว ๆ"
 
-"Finally, she gives her verdict."
+# "Finally, she gives her verdict."
+"จนในที่สุดเธอก็ให้คำตัดสิน"
 
 show sae smile
 with charachange
 
-sa "I like it."
+# sa "I like it."
+sa "ฉันชอบนะ"
 
 show sae neutral
 show nomiya smile
 with charachange
 
-sa "Though, if you don't mind me saying, you're still a bit immature. Searching for your own direction, perhaps?"
+# sa "Though, if you don't mind me saying, you're still a bit immature. Searching for your own direction, perhaps?"
+sa "แต่ ว่าก็ว่าเถอะ หนูยังไม่ชำนาญดีนะ กำลังหาทิศทางของตัวเองอยู่หรือเปล่า"
 
-"She picks up one of the photos."
+# "She picks up one of the photos."
+"เธอหยิบรูปหนึ่งขึ้นมา"
 
 show sae smile
 with charachange
 
-sa "Still, just look at this. I just can't take my eyes off it. Like a little kitten playing around. That's what your art makes me feel, young lady."
+# sa "Still, just look at this. I just can't take my eyes off it. Like a little kitten playing around. That's what your art makes me feel, young lady."
+sa "แต่ก็นะ ดูนี่สิ ฉันละสายตาไปไม่ได้เลย เหมือนแมวน้อยที่เล่นซน พอได้ดูงานหนูแล้วฉันก็รู้สึกอย่างนั้นเลย"
 
 show rin basic_deadpancontemplation
 with charachange
 
-rin "Thank you. I think. Nobody has ever said that before. I think."
+# rin "Thank you. I think. Nobody has ever said that before. I think."
+rin "ขอบคุณค่ะ คิดว่านะคะ ไม่เคยมีใครพูดอย่างนั้นมาก่อนเลยค่ะ คิดว่านะคะ"
 
-"That's all that Rin has to say. Something about what the gallery owner says and how she says it makes it sound patronizing to me, but I hold my tongue."
+# "That's all that Rin has to say. Something about what the gallery owner says and how she says it makes it sound patronizing to me, but I hold my tongue."
+"รินพูดเพียงเท่านั้นแล้วจบไป รู้สึกว่าคำพูดของเจ้าของหอศิลป์คนนี้ฟังดูข่ม ๆ ยังไงชอบกล แต่ฉันก็ยั้งปากไว้"
 
 show nomiya talk
 show sae neutral
 with charachange
 
-no "Krhm, anyway…"
+# no "Krhm, anyway…"
+no "อะแฮ่ม ก็นะ…"
 
-no "What a wonderful imagination, though, isn't it?"
+# no "What a wonderful imagination, though, isn't it?"
+no "แต่ก็จินตนาการล้ำเลิศดีเลยใช่มั้ยล่ะ"
 
 show nomiya veryhappy
 with charachange
 
-no "I've always said that Tezuka has great eye for composition and color harmony. And technique! Remember, all these are done with her feet!"
+# no "I've always said that Tezuka has great eye for composition and color harmony. And technique! Remember, all these are done with her feet!"
+no "ฉันบอกแล้วไงว่าเทซูกะเขาเลือกใช้องค์ประกอบกับการผสานสีได้ดีเลย แถมกลวิธีก็สุดยอด! ทุกภาพนี่คือใช้เท้าวาด\nหมดเลยนะ!"
 
-no "Of course we'd need to put some of the simpler ones on display too, for the laypeople, right Sae?"
+# no "Of course we'd need to put some of the simpler ones on display too, for the laypeople, right Sae?"
+no "แต่แน่นอนว่าก็ต้องมีภาพที่ดูง่าย ๆ ไว้ตั้งโชว์ให้คนทั่ว ๆ ไปดูด้วย ว่ามั้ยซาเอะ"
 
 show nomiya stern
 with charachange
 
-"The teacher snorts derisively."
+# "The teacher snorts derisively."
+"คุณครูหัวเราะแบบดูแคลน"
 
-no "You know how those philistines are. What do they understand about real art? They'd just be at a loss with the abstractions and themes here!"
+# no "You know how those philistines are. What do they understand about real art? They'd just be at a loss with the abstractions and themes here!"
+no "มันก็มีพวกที่ตาไม่ถึงอยู่ พวกนั้นจะไปเข้าใจศิลปะที่แท้จริงได้ยังไง มายืนดูภาพนามธรรมที่เป็นธีมอะไรแบบนี้แล้วก็คง\nได้แต่งงตาแตก"
 
 show nomiya smile
 with charachange
 
-no "But it'll generate more publicity, and that's good, isn't it?"
+# no "But it'll generate more publicity, and that's good, isn't it?"
+no "แต่ทำถ้าภาพที่ดูง่าย ๆ ก็จะได้เข้าถึงคนเยอะ ๆ ซึ่งก็เป็นเรื่องที่ดี ใช่มั้ยล่ะ"
 
 show sae smile
 with charachange
 
-"Sae smiles gently at Nomiya's remark and turns back to the paintings."
+# "Sae smiles gently at Nomiya's remark and turns back to the paintings."
+"ซาเอะยิ้มน้อย ๆ ให้คำพูดของโนมิยะแล้วหันกลับไปดูภาพ"
 
-sa "I wonder…"
+# sa "I wonder…"
+sa "มั้งนะ…"
 
 stop music fadeout 20.0
 
 show sae neutral
 with charachange
 
-sa "To tell you the truth, I just don't know if all this makes an exhibition. Even if I like it, I don't get the feel of a theme, of cohesion."
+# sa "To tell you the truth, I just don't know if all this makes an exhibition. Even if I like it, I don't get the feel of a theme, of cohesion."
+sa "ให้ว่าตามตรง ฉันไม่รู้ว่าจะเอาของพวกนี้มาจัดเป็นงานนิทรรศการยังไง ฉันชอบก็จริง แต่ฉันไม่รู้สึกว่าจะมีธีมหรืออะไร\nที่มันเป็นกลุ่มก้อนเดียวกันเลย"
 
 show sae doubt
 with charachange
 
-sa "There is no oeuvre, and really, who would expect such from a young artist like the kitten here?"
+# sa "There is no oeuvre, and really, who would expect such from a young artist like the kitten here?"
+sa "คงน้อยไปที่จะเอามารวมเป็นคลังงานศิลปะของศิลปินสักคน แล้วเอาจริง ๆ จะคาดหวังอะไรอย่างนั้นกับแม่หนูแมวน้อย\nที่ยังเด็กอยู่ตรงนี้ก็คงเกินไปหน่อย"
 
 show nomiya talk
 with charachange
 
-no "Oh no no no! It's definitely doable, especially if we get a few new pieces and touch up some old ones."
+# no "Oh no no no! It's definitely doable, especially if we get a few new pieces and touch up some old ones."
+no "อ้อ ไม่ ๆ ๆ ! ทำได้สิ แค่วาดภาพใหม่ ๆ เสริม แล้วก็แก้งานเก่า ๆ ด้วยก็น่าจะได้แล้ว"
 
 show rin relaxed_doubt
 with charachange
 
-rin "I don't mind painting more. I'll do anything."
+# rin "I don't mind painting more. I'll do anything."
+rin "วาดเพิ่มได้ค่ะ จะให้ทำอะไรก็ได้ค่ะ"
 
 show sae neutral
 with charachange
 
-sa "It's a bit of a stretch."
+# sa "It's a bit of a stretch."
+sa "คงยากหน่อยนะ"
 
 show nomiya veryhappy
 show rin relaxed_nonchalant
 with charachange
 
-no "Trust me. I wouldn't have come to you if I didn't believe Tezuka was ready. You can see it too, can't you?"
+# no "Trust me. I wouldn't have come to you if I didn't believe Tezuka was ready. You can see it too, can't you?"
+no "เชื่อฉันสิ ถ้าเทซูกะเขาไม่พร้อมฉันก็คงไม่มาหาเธอหรอก เธอก็เห็นนี่ ใช่มั้ย"
 
 show nomiya smile
 with charachange
 
-no "I know exactly what her kind is capable of. And you know too."
+# no "I know exactly what her kind is capable of. And you know too."
+no "ฉันรู้ดีเลยว่าคนอย่างเทซูกะเขาทำอะไรได้บ้าง เธอก็รู้"
 
 show sae doubt
 with charachange
 
-"Those words give the gallerist lady a pause. A hollow, bottomless look takes over her eyes for a moment, as if she was looking through or maybe past Nomiya."
+# "Those words give the gallerist lady a pause. A hollow, bottomless look takes over her eyes for a moment, as if she was looking through or maybe past Nomiya."
+"คำพูดเหล่านั้นทำให้ซาเอะชะงัก สายตาเธอดูว่างเปล่าและลึกล้ำไปชั่วขณะคล้ายว่ามองผ่านหรือมองข้ามโนมิยะไป\nด้วยซ้ำ"
 
-"She says nothing, but her mouth becomes a tight, flat line, as if stretched. Finally, the moment passes."
+# "She says nothing, but her mouth becomes a tight, flat line, as if stretched. Finally, the moment passes."
+"เธอไม่พูดอะไร เพียงแต่เม้มปากแน่นจนเป็นเส้นตรงคล้ายเหยียดออกอยู่พักใหญ่"
 
 show sae neutral
 with charachange
 
-sa "Is that what you're saying?"
+# sa "Is that what you're saying?"
+sa "คุณว่างั้นเหรอ"
 
 show nomiya talk
 with charachange
 
-no "That's what I'm saying."
+# no "That's what I'm saying."
+no "ฉันว่างั้นแหละ"
 
 show sae scowl
 with charachange
 
-"Sae sighs and takes a few steps, walking in a circle as if to help organize her thoughts. She takes another look at a photo of the painting she particularly liked, the one that made her call Rin a kitten."
+# "Sae sighs and takes a few steps, walking in a circle as if to help organize her thoughts. She takes another look at a photo of the painting she particularly liked, the one that made her call Rin a kitten."
+"ซาเอะถอนหายใจแล้วเดินวนอยู่สองสามทีคล้ายจัดระเบียบความคิดตัวเอง เธอมองภาพที่เธอชอบเป็นพิเศษนั้นอีกครั้ง\nซึ่งเป็นภาพที่ทำให้เธอเรียกรินว่าเป็นแมวน้อย"
 
-"She places her hand over her mouth, lost for words. After a few moments, she shakes her head."
+# "She places her hand over her mouth, lost for words. After a few moments, she shakes her head."
+"เธอจับปากตัวเองไว้แล้วเงียบไป สักพักเธอก็สั่นหัว"
 
 show sae doubt
 with charachange
 
-sa "I don't know what to say."
+# sa "I don't know what to say."
+sa "ไม่รู้จะว่ายังไงดี"
 
 show sae neutral
 with charachange
 
-sa "After seeing you, dear, and these paintings of yours… would you excuse us for a moment? I want to talk to your teacher in private for a bit."
+# sa "After seeing you, dear, and these paintings of yours… would you excuse us for a moment? I want to talk to your teacher in private for a bit."
+sa "พอฉันได้เห็นหนูกับภาพวาดของหนูแล้ว… ขอเวลาสักแป๊บก่อนได้ไหม ฉันขอคุยกับครูของหนูเป็นการส่วนตัวหน่อย"
 
 hide sae
 hide nomiya
 show rin relaxed_boredom
 with charaexit
 
-"Sae draws the art teacher aside, and they talk in hushed tones for awhile."
+# "Sae draws the art teacher aside, and they talk in hushed tones for awhile."
+"ซาเอะดึงตัวครูศิลปะไปแล้วซุบซิบคุยอะไรกันอยู่สองคน"
 
-"I can't hear what they are saying, but over her shoulder, I can see the lines around the corners of her mouth tighten as she motions with her hands in time with her words."
+# "I can't hear what they are saying, but over her shoulder, I can see the lines around the corners of her mouth tighten as she motions with her hands in time with her words."
+"ฉันไม่ได้ยินว่าคุยอะไรกันอยู่ แต่ฉันพอจะเห็นอยู่รำไรว่าปากเธอเม้มแน่นไปกับมือไม้เธอที่ขยับอยู่ตอนพูด"
 
-"The expression on her face is… what kind of expression is it? I couldn't say."
+# "The expression on her face is… what kind of expression is it? I couldn't say."
+"เธอทำหน้า… เป็นหน้าแบบไหนฉันก็บอกไม่ถูก"
 
-"Once they're done discussing whatever they had to discuss, they give one another a serious look. I feel something that goes beyond mere words transpiring there."
+# "Once they're done discussing whatever they had to discuss, they give one another a serious look. I feel something that goes beyond mere words transpiring there."
+"พอคุยอะไรกันเสร็จแล้วสองคนนั้นก็มองกันด้วยสายตาจริงจัง รู้สึกเหมือนมีอะไรที่ไม่ใช่แค่การคุยกันเกิดขึ้นแน่ ๆ"
 
 show nomiya smile at center
 show sae doubt at right
 with charaenter
 
-"They walk back to us. Sae looks seriously at Rin, her left hand reaching as if instinctively towards a pack of cigarettes that's lying on the table."
+# "They walk back to us. Sae looks seriously at Rin, her left hand reaching as if instinctively towards a pack of cigarettes that's lying on the table."
+"สองคนนั้นเดินกลับมาหาพวกเรา ซาเอะมองรินด้วยสายตาจริงจัง มือซ้ายของเธอเอื้อมไปคว้าซองบุหรี่ที่วางอยู่บนโต๊ะ\nราวกับเป็นสัญชาตญาณ"
 
-"She picks the pack up and extracts one, looks at it absentmindedly as if only now realizing she did so, and puts it back."
+# "She picks the pack up and extracts one, looks at it absentmindedly as if only now realizing she did so, and puts it back."
+"เมื่อคว้าซองมาแล้วเธอก็หยิบมามวนหนึ่งและมองเหม่อ ๆ เหมือนเพิ่งรู้ตัว จากนั้นเธอก็เก็บบุหรี่กลับไป"
 
 show rin relaxed_nonchalant
 show sae neutral
 with charachange
 
-"Finally, she locks eyes with Rin, evaluating her once more."
+# "Finally, she locks eyes with Rin, evaluating her once more."
+"จนสุดท้ายเธอก็จับจ้องรินเพื่อประเมินค่าอีกครั้ง"
 
 show sae smile
 with charachange
 
-sa "All right, little kitten. I'm going to believe in you."
+# sa "All right, little kitten. I'm going to believe in you."
+sa "เอาละ แม่หนูแมวน้อย ฉันจะเชื่อเธอนะ"
 
 play music music_another fadein 0.5
 
-sa "I will display your paintings in here, but from what I can see, this is not enough. You don't really have a cohesive theme, and you don't have enough of the good stuff."
+# sa "I will display your paintings in here, but from what I can see, this is not enough. You don't really have a cohesive theme, and you don't have enough of the good stuff."
+sa "ฉันจะจัดแสดงภาพวาดของหนูให้ แต่เท่าที่เห็นตอนนี้คือภาพยังมีไม่พอ หนูยังไม่มีธีมที่เป็นเนื้อเดียวกัน แล้วก็ยัง\nไม่มีภาพสวย ๆ มากพอด้วย"
 
 show sae neutral
 with charachange
 
-sa "You're going to have to work hard to actually get something that we can put on exhibit here."
+# sa "You're going to have to work hard to actually get something that we can put on exhibit here."
+sa "หนูต้องขยันมากถ้าจะให้มีภาพที่เอามาจัดแสดงได้"
 
 show rin relaxed_sleepy
 with charachange
 
-rin "I know."
+# rin "I know."
+rin "รู้ค่ะ"
 
 show sae smile
 with charachange
 
-sa "It's a good thing my gallery is so small, no?"
+# sa "It's a good thing my gallery is so small, no?"
+sa "ดีไปนะที่หอศิลป์ฉันเล็กอย่างนี้น่ะ"
 
 show rin basic_absent
 with charachange
 
-hi "Rin already spends pretty much every free waking moment she has painting. How is it possible to work any harder?"
+# hi "Rin already spends pretty much every free waking moment she has painting. How is it possible to work any harder?"
+hi "รินก็แทบจะเอาเวลาว่างทั้งหมดมาลงกับการวาดรูปแล้วนะครับ จะให้ขยันกว่านี้อีกได้ยังไง"
 
-hi "She'd have to skip classes to do more than she already does. And how can anyone work that much?"
+# hi "She'd have to skip classes to do more than she already does. And how can anyone work that much?"
+hi "ถ้าจะให้ขยันกว่านี้ก็คงต้องโดดเรียนมาวาดเลย แล้วใครจะขยันได้ขนาดนั้นล่ะครับ"
 
 show rin basic_surprised
 show nomiya frown
 show sae neutral
 with charachange
 
-"Silence falls in the gallery after my words. Sae looks at the art teacher, who is looking contemplatively at his star student. I look at all three of them, confused."
+# "Silence falls in the gallery after my words. Sae looks at the art teacher, who is looking contemplatively at his star student. I look at all three of them, confused."
+"พอฉันพูดจบความเงียบก็เข้าปกคลุมภายในหอศิลป์ ซาเอะมองครูศิลปะที่กำลังมองศิษย์เอกของตัวเองด้วยความครุ่นคิด\nฉันมองทั้งสามคนด้วยความฉงนใจ"
 
 show nomiya smile
 show rin relaxed_nonchalant
 with charachange
 
-no "It's doable."
+# no "It's doable."
+no "ได้อยู่นะ"
 
 show sae doubt
 with charachange
 
-sa "What do you mean?"
+# sa "What do you mean?"
+sa "หมายความว่าไง"
 
 show nomiya talk
 with charachange
 
-no "I mean, the school is special. The board puts great value on things such as this. I'm sure I could arrange some leave for her. It's not unprecedented by any means."
+# no "I mean, the school is special. The board puts great value on things such as this. I'm sure I could arrange some leave for her. It's not unprecedented by any means."
+no "ก็โรงเรียนนี้พิเศษนี่ เขาให้ค่ากับอะไรอย่างนี้อยู่แล้ว น่าจะทำเรื่องลาให้เทซูกะได้อยู่ ใช่ว่าจะมีเรื่องแบบนี้เป็นครั้งแรก\nสักหน่อย"
 
 show nomiya smile
 with charachange
 
-no "I'll discuss it with her parents too, but they've been quite supportive."
+# no "I'll discuss it with her parents too, but they've been quite supportive."
+no "เดี๋ยวเอาไปคุยกับพ่อแม่ด้วย ที่ผ่านมาก็สนับสนุนพอตัวเลย"
 
-no "However… it might be a bit of a stretch to get working space for her at the school if she's not actually going to attend classes."
+# no "However… it might be a bit of a stretch to get working space for her at the school if she's not actually going to attend classes."
+no "แต่ว่า… ในเมื่อไม่ได้ไปเรียน จะหาห้องทำงานศิลปะที่โรงเรียนให้คงยากหน่อย"
 
 show nomiya talk
 with charachange
 
-no "Actually, I was thinking about this before. Do you use the place upstairs for anything?"
+# no "Actually, I was thinking about this before. Do you use the place upstairs for anything?"
+no "จริง ๆ ฉันก็คิดอยู่ว่าชั้นบนนี่เธอใช้ทำอะไรอยู่มั้ย"
 
 show sae scowl
 with charachange
 
-sa "No, I don't… haven't since back then. It's more like a landfill than an atelier now."
+# sa "No, I don't… haven't since back then. It's more like a landfill than an atelier now."
+sa "ไม่ ไม่ได้ใช้… ตั้งแต่ตอนนั้นแล้ว ตอนนี้สภาพห้องนั้นเหมือนห้องเก็บขยะมากกว่า"
 
 show rin relaxed_surprised
 with charachange
 
-rin "Upstairs?"
+# rin "Upstairs?"
+rin "ชั้นบน?"
 
 show sae neutral
 with charachange
 
-sa "I own a small atelier-apartment on the top floor of this building, but it hasn't been in use for… goodness, it's been so long, hasn't it?"
+# sa "I own a small atelier-apartment on the top floor of this building, but it hasn't been in use for… goodness, it's been so long, hasn't it?"
+sa "ฉันมีสตูดิโอเล็ก ๆ อยู่ชั้นบนนี้น่ะ แต่ไม่ได้ใช้มา… ตายจริง นานมากแล้วนะเนี่ย"
 
 show nomiya frown
 with charachange
 
-"Her eyes leap to Nomiya, who has a strange, muted expression on his face."
+# "Her eyes leap to Nomiya, who has a strange, muted expression on his face."
+"เธอมองไปที่โนมิยะที่ทำหน้าเครียดเล็กน้อย"
 
-no "Indeed. Do you think…"
+# no "Indeed. Do you think…"
+no "นั่นสินะ แล้วเธอ…"
 
-"Even Nomiya in all his brashness has trouble coming straight out with the question. Sae, of course, sees through him and throws up her hands, sighing deeply."
+# "Even Nomiya in all his brashness has trouble coming straight out with the question. Sae, of course, sees through him and throws up her hands, sighing deeply."
+"แม้แต่โนมิยะที่เป็นคนโผงผางยังไม่กล้าถามตรง ๆ แต่แน่นอนว่าซาเอะรู้ว่าจะถามอะไร เธอถอนหายใจพรืดเป็นเชิง\nยอมแพ้"
 
 show sae smile
 with charachange
 
-sa "I guess I can't say no, can I? Very well. I'll lend you the use of that place as well, if needed. It's not like I really use it."
+# sa "I guess I can't say no, can I? Very well. I'll lend you the use of that place as well, if needed. It's not like I really use it."
+sa "คงต้องตกลงสินะ ได้ ถ้าจะใช้ห้องยังไงก็ยืมไปใช้ได้เลย ยังไงฉันก็คงไม่ได้ใช้อยู่แล้วละนะ"
 
 show nomiya veryhappy
 with charachange
 
-no "Excellent! I knew I could count on you!"
+# no "Excellent! I knew I could count on you!"
+no "เยี่ยม! เธอนี่พึ่งพาได้จริง ๆ !"
 
 show sae scowl
 show nomiya smile
 with charachange
 
-sa "Don't celebrate yet. It really is a mess, so don't be shocked when you first see it."
+# sa "Don't celebrate yet. It really is a mess, so don't be shocked when you first see it."
+sa "อย่าเพิ่งดีใจ ห้องนั้นน่ะรกมาก ได้เห็นแล้วต้องตกใจแน่"
 
 show sae neutral
 with charachange
 
-sa "However, you can use it as you see fit. Since it's an atelier, it already has easels and things like that. You'll only need your own tools and materials, and to somehow clean it up a bit."
+# sa "However, you can use it as you see fit. Since it's an atelier, it already has easels and things like that. You'll only need your own tools and materials, and to somehow clean it up a bit."
+sa "แต่จะใช้ทำอะไรก็เต็มที่ ในนั้นพอจะมีขาตั้งวาดรูปหรืออะไรแบบนั้นอยู่ ก็ห้องสตูดิโอนี่นะ ที่ต้องเอามาก็แค่พวก\nอุปกรณ์ส่วนตัวอะไรทั้งหลายแหล่ แล้วก็ต้องทำความสะอาดสักหน่อย"
 
-sa "It's not habitable though, so I can't let you live there. I doubt your school or parents would allow that, in any case."
+# sa "It's not habitable though, so I can't let you live there. I doubt your school or parents would allow that, in any case."
+sa "แต่จะมากินนอนอยู่ที่ห้องนั้นไม่ได้นะ ยังไงพ่อแม่หรือทางโรงเรียนของหนูเขาก็คงไม่ให้อยู่แล้ว"
 
 show rin basic_lucid
 with charachange
 
-rin "Okay."
+# rin "Okay."
+rin "ค่ะ"
 
-sa "However it's convenient to crash there overnight if necessary. I won't mind."
+# sa "However it's convenient to crash there overnight if necessary. I won't mind."
+sa "แต่ถ้าจำเป็นต้องค้างคืนจะอยู่ที่ห้องนั้นไปเลยก็ได้ ฉันไม่ว่า"
 
 show nomiya veryhappy
 with charachange
 
-no "Hahaha, most excellent, isn't it, Tezuka?"
+# no "Hahaha, most excellent, isn't it, Tezuka?"
+no "ฮ่าฮ่าฮ่า เยี่ยมจริง ๆ เลย ว่ามั้ย เทซูกะ"
 
 show rin basic_absent
 with charachange
 
-"He enthusiastically pats Rin on the shoulder, laughing in relief and happiness as if all this good fortune landed on him personally."
+# "He enthusiastically pats Rin on the shoulder, laughing in relief and happiness as if all this good fortune landed on him personally."
+"เขาตบบ่ารินอย่างกระตือรือร้นพลางหัวเราะด้วยความโล่งใจและดีใจที่ทุกอย่างลงตัวอย่างนี้"
 
 show sae smile
 with charachange
 
-"Sae smiles as well, perhaps more amused by the old teacher's glee than anything else."
+# "Sae smiles as well, perhaps more amused by the old teacher's glee than anything else."
+"ซาเอะก็ยิ้มด้วย แต่น่าจะยิ้มกับท่าทีดีใจของคุณครูมากกว่า"
 
-sa "Oh dear, Shinichi, this really is like back then. Are you sure we all haven't bitten off more than we can chew?"
+# sa "Oh dear, Shinichi, this really is like back then. Are you sure we all haven't bitten off more than we can chew?"
+sa "ตายจริง ชินอิจิ เหมือนตอนนั้นเลยเนอะ แน่ใจนะว่าพวกเราจะไหวน่ะ"
 
-"She looks at Rin, who seems to be oddly subdued despite all this."
+# "She looks at Rin, who seems to be oddly subdued despite all this."
+"ซาเอะมองรินที่ดูเฉื่อย ๆ แม้จะมีเรื่องให้ชวนตื่นเต้นขนาดนี้"
 
 show sae doubt
 show rin relaxed_nonchalant
 with charachange
 
-sa "I hope it will be worth it, kitten."
+# sa "I hope it will be worth it, kitten."
+sa "หวังว่าจะคุ้มที่ทุ่มเทไปนะ แม่หนูแมวน้อย"
 
-"She holds out her hand as if to shake Rin's, but realizes the impossibility and quickly moves to pat her on the shoulder."
+# "She holds out her hand as if to shake Rin's, but realizes the impossibility and quickly moves to pat her on the shoulder."
+"ซาเอะยื่นมือคล้ายรอจับมือริน แต่เมื่อเธอรู้ตัวก็รีบย้ายมาตบบ่ารินเบา ๆ"
 
 stop music fadeout 3.0
 
-"Rin looks back at her silently, her eyes serious and impenetrable like the dark of the night."
+# "Rin looks back at her silently, her eyes serious and impenetrable like the dark of the night."
+"รินมองซาเอะกลับเงียบ ๆ สายตาเธอจริงจังและเข้มแข็งอย่างความมืดยามราตรี"
 
 $ suppress_window_after_timeskip = True
 
