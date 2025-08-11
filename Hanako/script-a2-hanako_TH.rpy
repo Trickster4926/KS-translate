@@ -3439,110 +3439,140 @@ hi "ฉันว่าเธอพูดถูก แต่ตอนที่ฉ
 hi "ฉันทำพลาดอยู่บ่อย ๆ หรือก็เป็นสิ่งที่ฉันคิดว่าฉันพลาดนั่นแหละ อย่างตอนที่ฉันเจอเธอครั้งแรกแล้วฉันพูดออกไปว่า\n“พอจะเห็นภาพ” ใส่เธอน่ะ"
 
 # hi "I didn't know if that was considered rude or anything, so I tried to just put it in the back of my mind. Treating people any differently and that kinda thing."
-hi "ฉันไม่รู้ว่ามันจะถือว่าเสียมารยาทหรือเปล่า ก็เลยพยายามเก็บเรื่องนี้ไปก่อน รวมถึงเรื่องการปฏิบัติต่อผู้คนแบบที่ต่างไปจากเดิมหรืออะไรทำนองนั้นด้วย"
+hi "ฉันไม่รู้ว่ามันจะถือว่าเสียมารยาทหรือเปล่า ก็เลยพยายามเก็บเรื่องนี้ไปก่อน รวมถึงเรื่องการปฏิบัติต่อผู้คนแบบที่ต่างไป\nจากเดิมหรืออะไรทำนองนั้นด้วย"
 
-hi "So I didn't. I told myself that Hanako and you and everyone else was just normal, and I tried to ignore the obvious."
+# hi "So I didn't. I told myself that Hanako and you and everyone else was just normal, and I tried to ignore the obvious."
+hi "ซึ่งฉันก็ไม่ทำแบบนั้น ฉันบอกตัวเองเสมอว่าฮานาโกะและเธอรวมถึงคนอื่น ๆ ก็เป็นคนปกติทั่วไป และพยายามมองข้าม\nสิ่งที่ชัดเจนอยู่"
 
-hi "I talked to Hanako as if she were any other person, and so we became friends."
+# hi "I talked to Hanako as if she were any other person, and so we became friends."
+hi "ฉันคุยกับฮานาโกะเหมือนกับที่ฉันคุยคนอื่น ๆ พวกเราก็เลยเป็นเพื่อนกันน่ะ"
 
-hi "At least, that's how I think it happened."
+# hi "At least, that's how I think it happened."
+hi "อย่างน้อย นั่นก็เป็นสิ่งที่ฉันคิดว่ามันเป็นแบบนั้นอะนะ"
 
-hi "But you know, I feel guilty just from saying something like that aloud. As if it took extra effort to think of Hanako, or you, or anyone here as normal people. I don't think that's right."
+# hi "But you know, I feel guilty just from saying something like that aloud. As if it took extra effort to think of Hanako, or you, or anyone here as normal people. I don't think that's right."
+hi "แต่ก็นะ ฉันก็รู้สึกผิดแหละที่พูดแบบนั้น เหมือนกับต้องใช้ความพยายามเพื่อมองว่าฮานาโกะ หรือเธอ หรือคนอื่น ๆ\nว่าเป็นคนปกติ ซึ่งฉันคิดว่ามันไม่ถูกต้องน่ะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Hisao, I think you are naive, but I also think that you are a good person. It is perhaps one of your better traits."
+# li "Hisao, I think you are naive, but I also think that you are a good person. It is perhaps one of your better traits."
+li "ฮิซาโอะ ฉันว่าเธอใสซื่อก็จริง แต่ฉันก็คิดว่าเธอเป็นคนดีนะ อาจจะเป็นหนึ่งในข้อดีที่สุดของเธอเลย"
 
-hi "I… suppose… I can take that as a compliment…"
+# hi "I… suppose… I can take that as a compliment…"
+hi "ฉัน… จะถือว่านั่น… เป็นคำชมก็แล้วกันนะ"
 
 show lilly basic_smile
 with charachange
 
-li "Tell me, are you free tonight?"
+# li "Tell me, are you free tonight?"
+li "บอกหน่อยสิ คืนนี้เธอว่างหรือเปล่า"
 
-hi "If you don't count homework, then I'm as free as the breeze."
+# hi "If you don't count homework, then I'm as free as the breeze."
+hi "ถ้าไม่นับเรื่องการบ้าน ก็ว่างพอตัวเลยละ"
 
 show lilly basic_cheerful
 with charachange
 
-li "In that case, would you care to join myself and Hanako for tea?"
+# li "In that case, would you care to join myself and Hanako for tea?"
+li "ถ้างั้นแล้ว เธอจะมาร่วมดื่มชากับฉันและฮานาโกะไหม"
 
-hi "Er, I don't really have that much money at the moment, so going out isn't really…"
+# hi "Er, I don't really have that much money at the moment, so going out isn't really…"
+hi "เอ่อ ตอนนี้ฉันไม่ค่อยจะมีเงินน่ะ เพราะงั้นแล้วจะให้ไปข้างนอกก็คง…"
 
 show lilly basic_smile
 with charachange
 
-li "Oh, I didn't mean going out. Just here, this evening."
+# li "Oh, I didn't mean going out. Just here, this evening."
+li "อ๋อ ไม่ได้หมายถึงไปข้างนอกน่ะ คือที่นี่ เย็นนี้น่ะ"
 
-hi "You can access the classrooms in the evening here?"
+# hi "You can access the classrooms in the evening here?"
+hi "เธอเข้าห้องเรียนตอนเย็นได้ด้วยเหรอ"
 
 show lilly basic_giggle
 with charachange
 
-li "No, that's not what I meant. Hanako and I often use my room for tea parties together. Please feel free to drop by after dusk."
+# li "No, that's not what I meant. Hanako and I often use my room for tea parties together. Please feel free to drop by after dusk."
+li "เปล่า ไม่ได้หมายความว่าอย่างนั้นจ้ะ ฮานาโกะกับฉันจัดงานเลี้ยงน้ำชาด้วยกันบ่อย ๆ ในห้องฉันน่ะ เธอมาได้เลยนะหลัง\nพลบค่ำน่ะ"
 
-hi "Sure, I see no problem with that. What's your room number?"
+# hi "Sure, I see no problem with that. What's your room number?"
+hi "เอาสิ ไม่มีปัญหา แล้วห้องเธอเลขอะไรล่ะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "225; Room 25 on the second floor."
+# li "225; Room 25 on the second floor."
+li "225 ห้อง 25 ชั้น 2 จ้ะ"
 
-hi "Okay, sure."
+# hi "Okay, sure."
+hi "โอเค ได้เลย"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Well then, I had best be off. I have class representative duties to attend to, after all."
+# li "Well then, I had best be off. I have class representative duties to attend to, after all."
+li "ถ้างั้น ฉันต้องรีบไปแล้วล่ะ ฉันมีหน้าที่หัวหน้าห้องที่ต้องทำอีกน่ะจ้ะ"
 
 show lilly basic_cheerful at center
 with dissolvecharamove
 
-li "Until this evening, Hisao."
+# li "Until this evening, Hisao."
+li "เจอกันเย็นนี้นะ ฮิซาโอะ"
 
-hi "Yeah, catch you later."
+# hi "Yeah, catch you later."
+hi "อื้ม เจอกัน"
 
 hide lilly
 with charaexit
 
 stop music fadeout 8.0
 
-"Hang on… was I just invited to a girl's room after hours? Is that even allowed?"
+# "Hang on… was I just invited to a girl's room after hours? Is that even allowed?"
+"เดี๋ยวนะ… เมื่อกี้ฉันได้รับเชิญให้ไปที่ห้องของสาว ๆ หลังเลิกเรียนเหรอ ทำได้ด้วยเหรอ"
 
-"There is the curfew here, but I've never heard any rules about visitors in the dorm rooms."
+# "There is the curfew here, but I've never heard any rules about visitors in the dorm rooms."
+"คือก็มีเรื่องเวลาปิดประตูหอแหละ แต่ก็ไม่เคยได้ยินกฎเรื่องแขกมาเยี่ยมในห้องเลยอะนะ"
 
-"Even still, this is enough to get my sleep-deprived brain jump-started."
+# "Even still, this is enough to get my sleep-deprived brain jump-started."
+"ถึงอย่างนั้นก็เถอะ แค่นี้ก็เพียงพอแล้วที่จะทำให้สมองที่พักผ่อนไม่เพียงพอของฉันเริ่มทำงานได้อย่างรวดเร็ว"
 
-"Add that to a lukewarm breakfast and you have one hell of a pick-me-up."
+# "Add that to a lukewarm breakfast and you have one hell of a pick-me-up."
+"พอมาเจอกับอาหารเช้าที่ไม่ค่อยอุ่นเท่าไหร่เลยกลายเป็นตัวกระตุ้นชั้นดีเลย"
 
 scene bg school_scienceroom
 with locationskip
 
-"I grudgingly go to class, still a little excited at the prospect of breaking the rules."
+# "I grudgingly go to class, still a little excited at the prospect of breaking the rules."
+"ฉันไปเข้าเรียนอย่างไม่ค่อยเต็มใจ แต่ยังรู้สึกตื่นเต้นที่จะได้ทำบางอย่างที่อาจผิดกฎโรงเรียน"
 
-"I feel a little like a kid planning to sneak out of his window at night."
+# "I feel a little like a kid planning to sneak out of his window at night."
+"รู้สึกเหมือนเด็กน้อยที่วางแผนหนีออกทางหน้าต่างเพื่อไปเที่ยวตอนกลางคืนเลย"
 
-"Well, maybe that's going a little too far, but when you compare an invitation to a party to six or so hours of lectures, I know which one wins."
+# "Well, maybe that's going a little too far, but when you compare an invitation to a party to six or so hours of lectures, I know which one wins."
+"ก็ อาจจะฟังดูเกินไปหน่อย แต่เมื่อเปรียบเทียบการได้รับเชิญไปงานเลี้ยงกับการนั่งฟังบรรยายหกชั่วโมง ฉันรู้เลยว่า\nอะไรที่น่าสนใจกว่ากัน"
 
-"Misha and Shizune do little to relieve my boredom either. For once, they seem determined to actually complete Mutou's assignments."
+# "Misha and Shizune do little to relieve my boredom either. For once, they seem determined to actually complete Mutou's assignments."
+"มิช่ากับชิซูเนะก็ไม่ได้ช่วยให้หายเบื่อได้เลย เป็นครั้งแรกที่ดูเหมือนว่าพวกเธอตั้งใจจะทำงานที่มุโต้สั่งให้เสร็จจริง ๆ"
 
 scene bg school_scienceroom_ss
 with shorttimeskip
 
 play sound sfx_normalbell
 
-"Nevertheless, the day eventually winds to a close."
+# "Nevertheless, the day eventually winds to a close."
+"อย่างไรก็ตาม วันนี้ก็ได้ผ่านไป"
 
 scene bg school_dormhisao_ss
 with locationskip
 
-"I hurry back to my room to wash up and comb my hair. Thankfully I don't run into Kenji."
+# "I hurry back to my room to wash up and comb my hair. Thankfully I don't run into Kenji."
+"ฉันรีบกลับมาที่ห้องฉันเพื่ออาบน้ำหวีผม โชคดีจริง ๆ ที่ไม่มาเจอเคนจิ"
 
 scene bg school_dormext_full_ss
 with locationchange
 
-"Before long I am leaving the boys' dorm."
+# "Before long I am leaving the boys' dorm."
+"และฉันก็เดินออกมาจากหอชาย"
 
 #---------------------------------
 
