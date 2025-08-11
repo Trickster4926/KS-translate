@@ -3583,21 +3583,29 @@ with locationskip
 
 play sound sfx_doorknock2
 
-"I nervously rap on the door marked 225, checking my watch once again."
+# "I nervously rap on the door marked 225, checking my watch once again."
+"ฉันเคาะประตูหมายเลข 225 อย่างประหม่า พร้อมกับเหลือบมองนาฬิกาอีกครั้ง"
 
-li "Is that you, Hisao? The door is open, you can come in."
+# li "Is that you, Hisao? The door is open, you can come in."
+li "นั่นเธอหรือเปล่าฮิซาโอะ ประตูเปิดอยู่เข้ามาได้เลยนะจ๊ะ"
 
-"Lilly's voice lilts through the door and soothes my nerves."
+# "Lilly's voice lilts through the door and soothes my nerves."
+"เสียงของลิลลี่ที่ดังแว่วผ่านประตู ช่วยลดความประหม่าของฉันได้อย่างดี"
 
-"This is the first time I've been invited to a girl's room after dark."
+# "This is the first time I've been invited to a girl's room after dark."
+"เป็นครั้งแรกเลยที่ถูกเชิญมาห้องสาว ๆ หลังตอนกลางคืน"
 
-"Even though I know there is no ulterior motive behind this invitation, it doesn't stop my mind running wild with possibilities."
+# "Even though I know there is no ulterior motive behind this invitation, it doesn't stop my mind running wild with possibilities."
+"ถึงแม้จะรู้ว่าคำเชิญนี้ไม่มีเจตนาแอบแฝง แต่ก็หยุดความคิดที่เตลิดของฉันไม่ได้"
 
-"One guy. Two girls. In a dorm room. With a tea set."
+# "One guy. Two girls. In a dorm room. With a tea set."
+"ชายหนึ่งหญิงสอง ในห้องพัก พร้อมชุดชา"
 
-"When I put it like that, it sounds a little dodgy."
+# "When I put it like that, it sounds a little dodgy."
+"พอพูดแบบนั้น ฟังดูแปลก ๆ นิดหน่อย"
 
-"Giving a small sigh to steady myself, I gingerly put my hand on the handle and open the door, craning my head to see inside."
+# "Giving a small sigh to steady myself, I gingerly put my hand on the handle and open the door, craning my head to see inside."
+"ฉันถอนหายใจเบา ๆ เพื่อเรียกสติ จากนั้นค่อย ๆ วางมือลงบนลูกบิดประตูแล้วเปิดออก พร้อมกับยื่นหน้าเข้าไปมองข้างใน\nอย่างระมัดระวัง"
 
 play sound sfx_dooropen
 
@@ -3618,43 +3626,55 @@ with Dissolve(4.0)
 
 window show
 
-"The door opens completely and I catch my first glimpse of Lilly's room."
+# "The door opens completely and I catch my first glimpse of Lilly's room."
+"ประตูเปิดออกจนสุด และฉันก็มองเห็นห้องของลิลลี่เป็นครั้งแรก"
 
-"Her furniture looks almost antique, but the bare walls and flat surfaces are barely decorated at all. In the center of the room sits a low table, where I see a small tea set at rest."
+# "Her furniture looks almost antique, but the bare walls and flat surfaces are barely decorated at all. In the center of the room sits a low table, where I see a small tea set at rest."
+"เฟอร์นิเจอร์ของเธอส่วนใหญ่ดูเป็นแบบเก่า แต่ผนังกับพื้นนั้นเรียบไร้การตกแต่งใด ๆ ตรงกลางห้องมีโต๊ะเตี้ย ๆ วางอยู่\nฉันเห็นชุดน้ำชาเล็ก ๆ วางอยู่ตรงนั้น"
 
-"It seems that everything in this room has its place, possibly excepting the several piles of books stacked up against the wall."
+# "It seems that everything in this room has its place, possibly excepting the several piles of books stacked up against the wall."
+"ดูเหมือนกับของทุกอย่างในนี้มีที่ของตัวเอง เว้นเพียงแต่หนังสือหลายกองวางซ้อนกันอยู่ชิดผนัง"
 
-"My sense of vision isn't the only one to be stimulated; the faint smell of something can be picked up on the air. Nail polish, perfume, makeup… it's hard to describe in any way other than “girly”."
+# "My sense of vision isn't the only one to be stimulated; the faint smell of something can be picked up on the air. Nail polish, perfume, makeup… it's hard to describe in any way other than “girly”."
+"การรับรู้ของฉันไม่ได้ถูกกระตุ้นแค่ทางสายตาเท่านั้น แต่ยังมีกลิ่นบางอย่างที่อ่อน ๆ ลอยอยู่ในอากาศ กลิ่นน้ำยาทาเล็บ\nน้ำหอม เครื่องสำอาง… ยากจะหาคำใดมาอธิบายนอกจากคำว่า “ผู้หญิ๊ง ผู้หญิง”"
 
-"My eyes finish their quick sweep of the room, before returning their position onto the girls."
+# "My eyes finish their quick sweep of the room, before returning their position onto the girls."
+"สายตาของฉันกวาดมองไปรอบ ๆ ห้องอย่างเร็ว ก่อนจะหันกลับไปมองสาว ๆ อีกครั้ง"
 
 scene ev lilly_bedroom_large:
     xpos -130 ypos -400 subpixel True
     acdc_warp 4.0 ypos -600
 with flash
 
-"Lilly sits next to the small table, wearing very dark blue pajamas. Dark blue pajamas with shorts that show off plenty of her alluring pale legs."
+# "Lilly sits next to the small table, wearing very dark blue pajamas. Dark blue pajamas with shorts that show off plenty of her alluring pale legs."
+"ลิลลี่นั่งอยู่ข้างโต๊ะตัวเล็ก ใส่ชุดนอนสีน้ำเงินเข้ม กางเกงขาสั้นสีน้ำเงินเข้มเผยให้เห็นเรียวขาซีดเผือกของเธอ"
 
 show ev lilly_bedroom_large:
     ease 1.0 ypos -300 xpos -830
     acdc_warp 12.0 ypos 0 xpos -830
 with None
 
-"Opposite her, Hanako sits adorned in a conservative light pink gown."
+# "Opposite her, Hanako sits adorned in a conservative light pink gown."
+"ที่ตรงข้ามกับเธอ ฮานาโกะนั่งสวมชุดราตรีสีชมพูอ่อนแบบเรียบร้อย"
 
-"Her hands are firmly fixed between her legs, her shoulders forward, and her head down, as if trying to hide herself in it."
+# "Her hands are firmly fixed between her legs, her shoulders forward, and her head down, as if trying to hide herself in it."
+"มือของเธอวางไว้ระหว่างขาอย่างหนักแน่น ไหล่ของเธอโน้มไปข้างหน้า ก้มศีรษะลง ราวกับพยายามซ่อนตัวเองเอาไว้\nในชุด"
 
-"It would be easy for her to do; it looks about two sizes too big for her."
+# "It would be easy for her to do; it looks about two sizes too big for her."
+"คงเป็นเรื่องง่ายสำหรับเธอที่จะทำแบบนั้น เพราะดูเหมือนว่าชุดจะใหญ่กว่าตัวเธอประมาณสองไซซ์"
 
-"Waves of flannel flow from her frame, making her look like a child playing dress-up in her parents' clothes."
+# "Waves of flannel flow from her frame, making her look like a child playing dress-up in her parents' clothes."
+"ผ้าสักหลาดเป็นคลื่นลอนลากยาวลงมาจากร่างเธอ ทำให้เธอดูเหมือนเด็กที่กำลังเล่นแต่งตัวด้วยเสื้อผ้าของพ่อแม่"
 
-"She looks up to confirm my identity, and the beginnings of a thin smile creep across her face, before vanishing so fast that I can't be sure they ever were there."
+# "She looks up to confirm my identity, and the beginnings of a thin smile creep across her face, before vanishing so fast that I can't be sure they ever were there."
+"เธอมองขึ้นมาเพื่อยืนยันว่าเป็นฉัน และรอยยิ้มบาง ๆ ก็ปรากฏขึ้นบนใบหน้าของเธอ ก่อนจะหายไปอย่างรวดเร็วจนฉัน\nไม่แน่ใจว่ารอยยิ้มเหล่านั้นเคยอยู่ที่นั่นจริงไหม"
 
 show ev lilly_bedroom_large:
     ease 1.0 xpos -130 ypos -400
 with None
 
-li "There's no point in you standing in the doorway, Hisao."
+# li "There's no point in you standing in the doorway, Hisao."
+li "ไม่ต้องยืนอยู่ตรงหน้าประตูหรอกจ้ะ ฮิซาโอะ"
 
 scene bg school_dormlilly
 show lilly basic_smile_paj:
@@ -3668,85 +3688,105 @@ with locationchange
 play sound sfx_doorclose
 stop music fadeout 10.0
 
-"I take a step into the room, closing the door behind me."
+# "I take a step into the room, closing the door behind me."
+"ฉันเดินเข้ามาในห้อง ปิดประตูข้างหลัง"
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "My my, I'm afraid this really is a small room for the three of us. Would you like to take a seat?"
+# li "My my, I'm afraid this really is a small room for the three of us. Would you like to take a seat?"
+li "ตายจริง ฉันเกรงว่าห้องเล็ก ๆ ไม่จะพอสำหรับสามคนแล้วละสิ เธอนั่งก่อนไหม"
 
-"I slowly walk to the table and sit down, trying my hardest not to disturb anything along the way."
+# "I slowly walk to the table and sit down, trying my hardest not to disturb anything along the way."
+"ฉันค่อย ๆ เดินไปยังโต๊ะและนั่งลง พยายามอย่างเต็มที่ที่จะไม่ไปแตะอะไรระหว่างทาง"
 
-"I also can't help but steal a quick glance into Lilly's top as I sit."
+# "I also can't help but steal a quick glance into Lilly's top as I sit."
+"ฉันยังอดไม่ได้ที่จะเหลือบมองเข้าไปในเสื้อของลิลลี่อย่างรวดเร็ว ขณะที่ฉันกำลังนั่ง"
 
-"To be robbed of sight would be a most terrible fate."
+# "To be robbed of sight would be a most terrible fate."
+"การที่ถูกพรากการมองเห็นไป คงเป็นชะตากรรมที่โหดร้ายที่สุดละ"
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "Well now, how about some tea. Hanako, could you please pour?"
+# li "Well now, how about some tea. Hanako, could you please pour?"
+li "เอาละตอนนี้ เรามาดื่มชากันดีกว่า ฮานาโกะ เธอช่วยรินให้ทีได้ไหม"
 
 show hanagown normal_blush
 with charachange
 
-ha "S… sure. Hi… sao… would…"
+# ha "S… sure. Hi… sao… would…"
+ha "ดะ…ได้สิ ฮะ…ฮิซาโอะ… นาย…"
 
 show hanagown distant_blush
 with charachange
 
-ha "…would you…"
+# ha "…would you…"
+ha "…นายอยาก…"
 
 show hanagown worry_blush
 with charachange
 
-ha "…would you like…"
+# ha "…would you like…"
+ha "…นายอยากจะ…"
 
-hi "I would love some tea. Do you need a hand?"
+# hi "I would love some tea. Do you need a hand?"
+hi "ฉันอยากดื่มชาละ ให้ช่วยไหม"
 
 show hanagown normal_blush
 with charachange
 
-ha "N… no, I'm fine…"
+# ha "N… no, I'm fine…"
+ha "มะ… ไม่ ไม่เป็นไร…"
 
 show hanagown smile
 with charachange
 
-ha "Thank you…"
+# ha "Thank you…"
+ha "ขอบคุณนะ…"
 
 play music music_dreamy fadein 2.0
 
 show lilly basic_giggle_paj
 with charachange
 
-"Lilly finds it difficult to resist a smile at her companion's nervousness, something I can't really blame her for."
+# "Lilly finds it difficult to resist a smile at her companion's nervousness, something I can't really blame her for."
+"ลิลลี่อดไม่ได้ที่จะยิ้มกับความประหม่าของเพื่อน ซึ่งฉันก็ว่าไม่ได้หรอก"
 
 show hanagown distant
 with charachange
 
-hi "Been a tiring day?"
+# hi "Been a tiring day?"
+hi "วันนี้เหนื่อยไหม"
 
 show hanagown smile
 with charachange
 
-ha "Y… yeah."
+# ha "Y… yeah."
+ha "อะ… อื้ม"
 
 show lilly basic_smileclosed_paj
 with charachange
 
-"I relax at my place, opposite of the cabinet."
+# "I relax at my place, opposite of the cabinet."
+"ฉันนั่งผ่อนคลายตรงที่ของฉัน ซึ่งอยู่ตรงข้ามกับตู้เก็บของ"
 
-"To my left is the blue-clad Lilly and to my right sits the pink Hanako."
+# "To my left is the blue-clad Lilly and to my right sits the pink Hanako."
+"ทางซ้ายคือลิลลี่ในชุดสีน้ำเงิน และทางด้านขวาคือฮานาโกะชุดสีชมพู"
 
 show teaset:
      xalign 0.5 yanchor 0.5 ypos 0.6 alpha 1.0
      easein 0.5 ypos 0.5
 with charaenter
 
-"The tea set on the table looks cute as well as practical; painted red with a floral motif."
+# "The tea set on the table looks cute as well as practical; painted red with a floral motif."
+"ชุดน้ำชาที่อยู่บนโต๊ะดูน่ารักและใช้งานได้ดี เป็นชุดสีแดงที่มีลายดอกไม้ประดับอยู่"
 
-"It looks odd when contrasted with Lilly's plain but generally sophisticated-looking furniture, which leads me to think that Hanako might have picked it out."
+# "It looks odd when contrasted with Lilly's plain but generally sophisticated-looking furniture, which leads me to think that Hanako might have picked it out."
+"ดูแปลกเมื่อเทียบกับเฟอร์นิเจอร์ของลิลลี่ที่ดูเรียบง่ายแต่โดยรวมแล้วดูหรูหรา ทำให้ฉันคิดว่าฮานาโกะน่าจะเป็นคนเลือกมา"
 
-"There is a slight “ting” when Hanako accidentally clips the teapot on a cup as she is pouring."
+# "There is a slight “ting” when Hanako accidentally clips the teapot on a cup as she is pouring."
+"มีเสียง “ติ๊ง” เล็กน้อยเมื่อฮานาโกะเผลอไปเกี่ยวกาน้ำชาเข้ากับถ้วยขณะที่กำลังรินชา"
 
 show hanagown worry
 show lilly basic_displeased_paj
@@ -3759,75 +3799,93 @@ with Pause(0.5)
 hide teaset
 with None
 
-"She breathes in sharply; she must be really nervous, as it's not the kind of thing anyone would worry about."
+# "She breathes in sharply; she must be really nervous, as it's not the kind of thing anyone would worry about."
+"เธอหายใจเข้าแรงมาก เธอคงกังวลมากเมื่อเทียบกับสิ่งที่ไม่น่าจะมีใครมากังวล"
 
 show hanagown worry_blush
 with charachange
 
-"Hanako quivers at her mistake."
+# "Hanako quivers at her mistake."
+"ฮานาโกะตัวสั่นกับความผิดพลาดของเธอ"
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "It's okay, Hanako. There's no need to be nervous."
+# li "It's okay, Hanako. There's no need to be nervous."
+li "ไม่เป็นไรหรอกฮานาโกะ ไม่ต้องกังวลขนาดนั้นหรอกจ้ะ"
 
 show hanagown normal
 with charachange
 
-"Hanako seems to find some confidence in Lilly's reassuringly soft-spoken words and deftly pours the next two cups."
+# "Hanako seems to find some confidence in Lilly's reassuringly soft-spoken words and deftly pours the next two cups."
+"ฮานาโกะดูจะได้รับความมั่นใจจากคำพูดที่แผ่วเบาแต่ปลอบโยนของลิลลี่ และรินชาเพิ่มอีกสองถ้วยอย่างคล่องแคล่ว"
 
 show hanagown normal_blush
 with charachange
 
-ha "Here you are, Hisao… Lilly."
+# ha "Here you are, Hisao… Lilly."
+ha "อะนี่ ฮิซาโอะ… ลิลลี่"
 
-"Hanako carefully places a cup and saucer in front of Lilly and myself. I could get used to service like this."
+# "Hanako carefully places a cup and saucer in front of Lilly and myself. I could get used to service like this."
+"ฮานาโกะวางถ้วยและจานรองอย่างระมัดระวังตรงหน้าลิลลี่และฉัน ฉันน่าจะชินกับการบริการแบบนี้ได้ไม่ยาก"
 
 show lilly basic_smile_paj
 with charachange
 
-li "Thank you, Hanako."
+# li "Thank you, Hanako."
+li "ขอบคุณจ้ะฮานาโกะ"
 
-hi "Yeah, thanks."
+# hi "Yeah, thanks."
+hi "อื้ม ขอบใจมาก"
 
 show hanagown smile
 with charachange
 
-ha "Y-you're welcome."
+# ha "Y-you're welcome."
+ha "ดะ ด้วยความยินดี"
 
 show lilly basic_smileclosed_paj
 with charachange
 
-"Lilly searches for her cup, and upon finding it, sips delicately."
+# "Lilly searches for her cup, and upon finding it, sips delicately."
+"ลิลลี่ควานหาแก้วของตัวเอง พอเจอแล้วก็จิบอย่างละเมียดละไม"
 
-"I do the same. This tea tastes somewhat better than the tea we usually have at school."
+# "I do the same. This tea tastes somewhat better than the tea we usually have at school."
+"ฉันเองก็จิบตาม รสชาติของชานี้รู้สึกว่าดีกว่าแบบที่ดื่มเป็นประจำที่โรงเรียน"
 
-hi "This is nice, it's so different from any tea I had before…"
+# hi "This is nice, it's so different from any tea I had before…"
+hi "อันนี้อร่อยจัง รู้สึกว่าต่างจากแบบที่เคยดื่มเลย…"
 
 show lilly basic_ara_paj
 show hanagown normal_blush
 with charachange
 
-li "Looks like you picked the right one, Hanako."
+# li "Looks like you picked the right one, Hanako."
+li "เหมือนว่าเธอจะเลือกมาถูกนะฮานาโกะ"
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "You've done well, even if it was a bold move."
+# li "You've done well, even if it was a bold move."
+li "ทำได้ดีเลยละจ้ะ แม้จะเป็นการตัดสินใจที่กล้าไปหน่อยก็เถอะ"
 
 show hanagown smile
 with charachange
 
-"Hanako's smile returns, redoubled."
+# "Hanako's smile returns, redoubled."
+"ฮานาโกะกลับมายิ้มอีกครั้ง แต่คราวนี้ยิ้มกว้างกว่าเดิม"
 
-"Even with her blighted face, her shy smile couldn't be called anything but “cute”."
+# "Even with her blighted face, her shy smile couldn't be called anything but “cute”."
+"ถึงแม้หน้าจะมีรอยแผล แต่รอยยิ้มอาย ๆ ของเธอไม่มีคำใดจะเรียกได้ดีเท่าคำว่า “น่ารัก”"
 
 show hanagown distant_blush
 with charachange
 
-ha "I'm glad you like it…"
+# ha "I'm glad you like it…"
+ha "ฉันดีใจนะที่นายชอบน่ะ…"
 
-"Hanako, finally beginning to relax, sips from her cup."
+# "Hanako, finally beginning to relax, sips from her cup."
+"ฮานาโกะที่ในที่สุดก็เริ่มผ่อนคลายและจิบชาจากถ้วยของเธอ"
 
 #--------------------
 label th_H7a:
