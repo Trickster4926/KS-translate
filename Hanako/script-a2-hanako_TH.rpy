@@ -4395,13 +4395,17 @@ with shorttimeskip
 
 play music music_daily fadein 4.0
 
-mu "…that is why some people can't roll their tongue, or why their second toe is longer than their big toe."
+# mu "…that is why some people can't roll their tongue, or why their second toe is longer than their big toe."
+mu "…นั่นเป็นเหตุผลว่าทำไมบางคนถึงห่อลิ้นไม่ได้ หรือทำไมบางคนนิ้วชี้เท้ายาวกว่านิ้วโป้งเท้า"
 
-"Mutou beams a half-moon smile at us, obviously proud of his explanation of recessive genes."
+# "Mutou beams a half-moon smile at us, obviously proud of his explanation of recessive genes."
+"มุโต้ยิ้มแฉ่งเป็นพระจันทร์ครึ่งซีกให้พวกเรา เห็นได้ชัดเลยว่าเขาภูมิใจกับคำอธิบายเรื่องยีนด้อยของตัวเองมาก ๆ"
 
-"However, no matter how impressed he is at the science that defines who we are, the classroom seems to be reduced to a stupor."
+# "However, no matter how impressed he is at the science that defines who we are, the classroom seems to be reduced to a stupor."
+"อย่างไรก็ตาม ไม่ว่าเขาจะประทับใจกับหลักวิทยาศาสตร์ที่กำหนดว่าเราเป็นใครมากแค่ไหน บรรยากาศในห้องเรียน\nก็ยังคงเงียบกริบเหมือนเดิม"
 
-"Why is it that a bad explanation can make even the most interesting thing seem worthless?"
+# "Why is it that a bad explanation can make even the most interesting thing seem worthless?"
+"ทำไมคำอธิบายที่แย่ ๆ ถึงทำให้เรื่องที่น่าสนใจที่สุดกลายเป็นเรื่องไร้ค่าไปได้เลยกันนะ"
 
 show muto irritated
 with charachange
