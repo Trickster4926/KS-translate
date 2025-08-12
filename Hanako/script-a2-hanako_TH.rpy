@@ -3895,27 +3895,38 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "I think back to my chat with Misha the other day."
+# n "I think back to my chat with Misha the other day."
+n "พอนึกย้อนเรื่องที่คุยกับมิช่าเมื่อวันก่อน"
 
-n "Is Hanako's behavior something to be concerned about, or is she just shy?"
+# n "Is Hanako's behavior something to be concerned about, or is she just shy?"
+n "นิสัยของฮานาโกะตอนนี้นี่ควรเรียกว่าน่าเป็นห่วงจริง ๆ หรือเธอแค่ขี้อายกันแน่"
 
-n "And then there was Lilly earlier this morning."
+# n "And then there was Lilly earlier this morning."
+n "แล้วไหนจะเรื่องที่ลิลลี่พูดเมื่อเช้าอีก"
 
-n "The concern from both of them seemed to be genuine, and they know the situation better than I."
+# n "The concern from both of them seemed to be genuine, and they know the situation better than I."
+n "ทั้งคู่เป็นห่วงเธอจริง ๆ แน่นอน และพวกเธอเข้าใจสถานการณ์นี้ดีกว่าฉันเสียอีก"
 
-n "But, really, how could I possibly help?"
+# n "But, really, how could I possibly help?"
+n "แต่ก็นะ แล้วฉันจะช่วยยังไงได้บ้าง"
 
-n "I'm no plastic surgeon, so I can't really help her appearance. Nor am I a psychologist who can make her more sociable."
+# n "I'm no plastic surgeon, so I can't really help her appearance. Nor am I a psychologist who can make her more sociable."
+n "ฉันเองก็ไม่ใช่หมอศัลยกรรม เพราะงั้นแล้วก็ช่วยเรื่องรูปลักษณ์ไม่ได้แน่ ๆ และก็ไม่ใช่จิตแพทย์ที่จะช่วยให้เธอเข้าสังคมได้\nเช่นกัน"
 
-n "So what the hell do Lilly and Misha want me to do?"
+# n "So what the hell do Lilly and Misha want me to do?"
+n "แล้วลิลลี่กับมิช่าอยากให้ฉันทำอะไรกันแน่"
 
-n "It's frustrating. Hanako and I are quickly becoming friends on our own accord, and because of that, it's like everyone wants me to solve all her problems."
+# n "It's frustrating. Hanako and I are quickly becoming friends on our own accord, and because of that, it's like everyone wants me to solve all her problems."
+n "ก็ค่อนข้างน่าหงุดหงิดอยู่ ฮานาโกะกับฉันก็เป็นเพื่อนด้วยกันเองแท้ ๆ และพอเป็นแบบนั้น ทุก ๆ คนก็เหมือนอยากให้ฉัน\nมาแก้ปัญหาของเธอทั้งหมดซะงั้น"
 
-n "And I have no idea how to do that."
+# n "And I have no idea how to do that."
+n "และฉันก็ไม่รู้ด้วยซ้ำว่าต้องทำยังไง"
 
-n "No one can cure my heart, nor Lilly's eyes, nor anyone who is here, in this school."
+# n "No one can cure my heart, nor Lilly's eyes, nor anyone who is here, in this school."
+n "ในเมื่อไม่มีใครมาช่วยเรื่องหัวใจฉัน หรือสายตาลิลลี่ หรือแม้แต่อาการของสักคนในโรงเรียนนี้ได้ด้วยซ้ำ"
 
-n "However, I see no harm in becoming better friends with Hanako. Now that she's warming up to me I kind of enjoy hanging out with her."
+# n "However, I see no harm in becoming better friends with Hanako. Now that she's warming up to me I kind of enjoy hanging out with her."
+n "ยังไงก็เถอะ ฉันว่าการได้เป็นเพื่อนกับฮานาโกะให้มากขึ้นก็ไม่ใช่เรื่องเสียหายอะไร ตอนนี้เธอดูสบายใจกับฉันขึ้น\nเยอะเลย ฉันก็เลยรู้สึกสนุกที่ได้ใช้เวลาอยู่กับเธอเหมือนกัน"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 nvl clear
@@ -3932,17 +3943,23 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n\n\nSomething about this makes me think about Lilly's question at breakfast."
+# n "\n\n\n\nSomething about this makes me think about Lilly's question at breakfast."
+n "\n\n\n\nพอเห็นอย่างนี้แล้วพานให้นึกถึงคำถามของลิลลี่เมื่อตอนกินข้าวเช้า"
 
-n "Why am I friends with Hanako?"
+# n "Why am I friends with Hanako?"
+n "ทำไมฉันถึงเป็นเพื่อนกับฮานาโกะงั้นเหรอ"
 
-n "Lilly seems genuinely concerned for Hanako's well being, but it's not like I can do anything to help her."
+# n "Lilly seems genuinely concerned for Hanako's well being, but it's not like I can do anything to help her."
+n "ลิลลี่เองก็ดูเป็นห่วงการเป็นอยู่ของฮานาโกะด้วย แต่ก็ใช่ว่าฉันจะช่วยอะไรเธอได้ซะหน่อย"
 
-n "As far as I can tell, her scars don't hold her back physically, and everyone I've met seems to have overcome their disabilities to some extent."
+# n "As far as I can tell, her scars don't hold her back physically, and everyone I've met seems to have overcome their disabilities to some extent."
+n "เท่าที่รู้ตอนนี้คือ แผลเป็นของเธอก็ไม่ได้ทำให้ร่างกายมีปัญหาอะไร และทุกคนที่ฉันเจอมาก็ดูจะรับมือกับความบกพร่องทาง\nร่างกายของตัวเองได้ในระดับหนึ่งเลย"
 
-n "I don't have any ulterior motives to hang out with Hanako, we just share similar interests."
+# n "I don't have any ulterior motives to hang out with Hanako, we just share similar interests."
+n "ซึ่งฉันก็ไม่ได้มีเจตนาแอบแฝงเพื่อไปอยู่กับฮานาโกะหรอก เราก็แค่ชอบอะไรคล้าย ๆ กัน"
 
-n "\nIsn't that enough?"
+# n "\nIsn't that enough?"
+n "\nแค่นั้นก็พอแล้วนี่"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 nvl clear
