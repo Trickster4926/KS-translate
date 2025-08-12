@@ -3974,164 +3974,210 @@ label th_H7c:
 show lilly basic_smile_paj
 with charachange
 
-li "So, Hisao, are you enjoying yourself?"
+# li "So, Hisao, are you enjoying yourself?"
+li "ว่าแต่ ฮิซาโอะจ๊ะ เป็นไงสนุกไหม"
 
-"Lilly's words break me out of my reverie, and I take a second to reconsider where I am."
+# "Lilly's words break me out of my reverie, and I take a second to reconsider where I am."
+"คำพูดลิลลี่ทำให้ฉันหลุดจากภวังค์ ฉันใช้เวลาสักพักเพื่อนึกว่าฉันอยู่ที่ไหน"
 
-"I'm in a room with two girls in their bedclothes. This is something to be enjoyed."
+# "I'm in a room with two girls in their bedclothes. This is something to be enjoyed."
+"ฉันอยู่ในห้องกับสองสาวในชุดนอน ช่างเป็นสถานการณ์ที่น่ารื่นรมย์เสียจริง"
 
-hi "Yeah, it's relaxing. Almost like I'm not in the school any more. Do you do this often?"
+# hi "Yeah, it's relaxing. Almost like I'm not in the school any more. Do you do this often?"
+hi "อื้ม ก็ผ่อนคลายดี ราวกับว่าไม่ได้อยู่ในโรงเรียนเลยละ เธอทำแบบนี้บ่อยหรือเปล่าเนี่ย"
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "Quite often, but not as often as we take tea in the school building."
+# li "Quite often, but not as often as we take tea in the school building."
+li "ก็บ่อยพอตัว แต่ก็ไม่ได้บ่อยเท่าที่เราไปดื่มชาในอาคารเรียนหรอกจ้ะ"
 
-"Considering they do that nearly every day, that's not a big surprise."
+# "Considering they do that nearly every day, that's not a big surprise."
+"ไม่แปลกใจเท่าไหร่เมื่อเทียบกับที่เธอไปแทบทุกวัน"
 
-"As I move to take another sip from my teacup, I find it sadly empty."
+# "As I move to take another sip from my teacup, I find it sadly empty."
+"พอจะยกถ้วยชาขึ้นจิบอีกที ก็เพิ่งรู้ว่ามันหมดซะแล้ว"
 
-hi "That was delicious. Thank you Hanako, Lilly."
+# hi "That was delicious. Thank you Hanako, Lilly."
+hi "อร่อยมากเลย ขอบคุณนะฮานาโกะ ลิลลี่"
 
 show hanagown smile
 with charachange
 
-ha "You're welcome."
+# ha "You're welcome."
+ha "ด้วยความยินดี"
 
 show lilly basic_smile_paj
 with charachange
 
-li "Yes, you're most welcome Hisao. It's nice to have a third person here."
+# li "Yes, you're most welcome Hisao. It's nice to have a third person here."
+li "ด้วยความยินดีจ้ะฮิซาโอะ ยินดีต้อนรับนะ ดีใจที่ได้มีคนที่สามในห้องด้วย"
 
-hi "Well, any time you need someone to fill that position, I'm always available. Always."
+# hi "Well, any time you need someone to fill that position, I'm always available. Always."
+hi "ก็ ถ้าจะหาคนมาเติมตำแหน่งตรงนั้น ฉันก็พร้อมเสมอ ว่างตลอด"
 
-"One must be sure to get one's point across in these circumstances."
+# "One must be sure to get one's point across in these circumstances."
+"ในสถานการณ์แบบนี้ ต้องมั่นใจว่าได้สื่อสารในสิ่งที่ต้องการจะพูดออกไปอย่างชัดเจน"
 
 stop music fadeout 8.0
 show lilly basic_sleepy_paj
 with charachange
 
-"Lilly lets loose a yawn, which she unsuccessfully hides with her hand."
+# "Lilly lets loose a yawn, which she unsuccessfully hides with her hand."
+"ลิลลี่หาวเบา ๆ ซึ่งปกปิดด้วยมือไม่ทัน"
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "Pardon me, I think I'm a little tired."
+# li "Pardon me, I think I'm a little tired."
+li "ขอโทษทีนะ ฉันว่าฉันเหนื่อยนิดหน่อยน่ะ"
 
 show hanagown distant
 with charachange
 
-ha "I think we're all a little tired…"
+# ha "I think we're all a little tired…"
+ha "ฉันว่าทุกคนก็เหนื่อยนิดหน่อยนะ…"
 
 show lilly basic_ara_paj
 with charachange
 
-li "My my, how astute we are tonight, Hanako."
+# li "My my, how astute we are tonight, Hanako."
+li "แหม ๆ คืนนี้ฮานาโกะดูหัวไวเป็นพิเศษเลยนะ"
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "We really should head to bed; we all have class tomorrow."
+# li "We really should head to bed; we all have class tomorrow."
+li "ฉันว่าเราควรไปนอนได้แล้วล่ะจ้ะ พรุ่งนี้มีเรียนด้วย"
 
-hi "Yeah… I should go."
+# hi "Yeah… I should go."
+hi "เอ้อ… ฉันก็ควรไปละ"
 
 show lilly basic_smile_paj
 with charachange
 
-li "Thank you for your presence, Hisao."
+# li "Thank you for your presence, Hisao."
+li "ขอบคุณที่มานะจ๊ะ ฮิซาโอะ"
 
 show hanagown normal
 with charachange
 
-ha "Th… thanks. You'll come again?"
+# ha "Th… thanks. You'll come again?"
+ha "ขะ… ขอบใจนะ นายจะมาอีกใช่ไหม"
 
-hi "Not even a whole army could stop me."
+# hi "Not even a whole army could stop me."
+hi "ต่อให้มีช้างมาฉุด ฉันก็จะมาให้ได้"
 
 show lilly basic_cheerful_paj
 with charachange
 
-li "I'm impressed by your determination, Hisao."
+# li "I'm impressed by your determination, Hisao."
+li "ฉันละยอมใจในความมุ่งมั่นของเธอจริง ๆ เลยนะฮิซาโอะ"
 
-hi "Either way, you're right. We'd best get going."
+# hi "Either way, you're right. We'd best get going."
+hi "เอาเถอะ ก็คงตามนั้นแหละ พวกเราควรแยกย้ายได้แล้ว"
 
-"I stand up, and make for the door."
+# "I stand up, and make for the door."
+"ฉันลุกขึ้นและเดินไปยังประตู"
 
 show hanagown normal at tworight
 with dissolvecharamove
 
-"Hanako gingerly stands up behind me."
+# "Hanako gingerly stands up behind me."
+"ฮานาโกะค่อย ๆ ลุกตามมา"
 
-"I stop and face her."
+# "I stop and face her."
+"ฉันหยุดและหันไปหาเธอ"
 
-hi "Are you coming with me?"
+# hi "Are you coming with me?"
+hi "จะไปด้วยกันเหรอ"
 
 play music music_comedy fadein 0.5
 
 show hanagown normal_blush
 with charachange
 
-"Hanako instantly blossoms into full blush."
+# "Hanako instantly blossoms into full blush."
+"ฮานาโกะหน้าแดงแปร๊ดอย่างฉับพลัน"
 
 show hanagown distant_blush
 with charachange
 
-ha "No… I… not… this room… isn't…"
+# ha "No… I… not… this room… isn't…"
+ha "ปะ… เปล่า… ฉัน… ไม่ได้… พอดีห้อง…"
 
-hi "It's okay, I was only joking."
+# hi "It's okay, I was only joking."
+hi "ล้อเล่นน่า ไม่เป็นไรหรอก"
 
 show hanagown smile
 with charachange
 
-ha "Oh… okay… good night…"
+# ha "Oh… okay… good night…"
+ha "อ้อ… โอเค… ราตรีสวัสดิ์…"
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "Good night, Hanako. Good night, Hisao."
+# li "Good night, Hanako. Good night, Hisao."
+li "ราตรีสวัสดิ์ฮานาโกะ ราตรีสวัสดิ์ฮิซาโอะ"
 
-hi "Night all."
+# hi "Night all."
+hi "ราตรีหวัดทุกคน"
 
-"And with that, our tea party finishes."
+# "And with that, our tea party finishes."
+"เช่นนั้นแล้ว งานเลี้ยงน้ำชาก็จบลง"
 
 scene bg school_girlsdormhall
 with locationchange
 
-"I'm still not sure what it is that Lilly wants me to do for Hanako, but I don't want to let her down."
+# "I'm still not sure what it is that Lilly wants me to do for Hanako, but I don't want to let her down."
+"ฉันยังไม่มั่นใจว่าลิลลี่อยากให้ฉันทำอะไรเพื่อฮานาโกะกันแน่ แต่ฉันก็ไม่อยากทำให้เธอผิดหวัง"
 
-"I wait until the door has closed behind us before turning to Hanako."
+# "I wait until the door has closed behind us before turning to Hanako."
+"ฉันรอจนประตูปิดจนสนิทก่อนจะหันไปหาฮานาโกะ"
 
 show hanagown distant_blush
 with charaenter
 
-hi "Hey, Hanako, you know, you don't have to be nervous around me or anything."
+# hi "Hey, Hanako, you know, you don't have to be nervous around me or anything."
+hi "นี่ฮานาโกะ เธอไม่ต้องกังวลหรืออะไรเวลาอยู่กับฉันหรอกนะ"
 
-hi "I mean, we're friends, right?"
+# hi "I mean, we're friends, right?"
+hi "ก็แบบ เราก็เป็นเพื่อนกันนี่นะ จริงไหม"
 
 show hanagown normal_blush
 with charachange
 
-ha "R-right. We're… friends."
+# ha "R-right. We're… friends."
+ha "ชะ ใช่ เราเป็น… เพื่อนกัน"
 
-hi "If you ever want to hang out or anything, just let me know. We still need to have that chess rematch, remember?"
+# hi "If you ever want to hang out or anything, just let me know. We still need to have that chess rematch, remember?"
+hi "ถ้าอยากเจอกันหรือยังไง ก็บอกได้เลย เรายังค้างกันเรื่องเล่นหมากรุกอีกรอบนะ จำได้ไหม"
 
 show hanagown distant
 with charachange
 
-ha "S-sure…"
+# ha "S-sure…"
+ha "อะ อื้ม…"
 
 show hanagown normal
 with charaenter
 
-ha "B-but I don't think you'll win…"
+# ha "B-but I don't think you'll win…"
+ha "ตะ แต่รอบนี้นายแพ้แน่…"
 
-hi "It wouldn't be any fun if it was easy."
+# hi "It wouldn't be any fun if it was easy."
+hi "ถ้าชนะง่าย ๆ ก็ไม่สนุกน่ะสิ"
 
 show hanagown smile
 with charachange
 
-"Hanako seems to give a muted laugh, but she could have just as easily been exhaling."
+# "Hanako seems to give a muted laugh, but she could have just as easily been exhaling."
+"ดูเหมือนว่าฮานาโกะจะหัวเราะเบา ๆ แต่อาจจะแค่ถอนหายใจออกมาเฉย ๆ ก็ได้"
 
-ha "G-good night Hisao…"
+# ha "G-good night Hisao…"
+ha "ฝะ ฝันดีนะ ฮิซาโอะ…" 
+# กูจะแปลแบบนี้ สำหรับประโยคนี้
 
 show hanagown invis at tworight
 with Dissolvemove(0.5, time_warp=_ease_out_time_warp)
@@ -4141,21 +4187,25 @@ with None
 
 stop music fadeout 5.0
 
-"With that, Hanako quickly retreats into her room, located next to Lilly's."
+# "With that, Hanako quickly retreats into her room, located next to Lilly's."
+"พูดจบ ฮานาโกะก็รีบรุดเข้าห้องของตัวเองไปทันที ซึ่งห้องของเธอก็อยู่ติดกับห้องของลิลลี่เลย"
 
-"I start to walk back to my dorm, but the simple act of walking seems to drain me of my energy."
+# "I start to walk back to my dorm, but the simple act of walking seems to drain me of my energy."
+"ฉันเดินกลับไปที่หอของฉัน แต่แค่การเดินธรรมดา ๆ ก็เหมือนจะสูบพลังงานที่มีไปจนหมดเลย"
 
 scene bg school_dormhisao
 with locationskip
 
-"I barely make it to my room before I am hit by a wave of exhaustion."
+# "I barely make it to my room before I am hit by a wave of exhaustion."
+"ฉันมาถึงห้องแบบฉิวเฉียดก่อนความเหนื่อยล้าจะถาโถมเข้ามา"
 
 play sound sfx_switch
 
 scene bg school_dormhisao_ni
 with Dissolve(0.2)
 
-"I kick off my shoes, fall into bed and fall asleep by the time my head hits the pillow."
+# "I kick off my shoes, fall into bed and fall asleep by the time my head hits the pillow."
+"ฉันถอดรองเท้าออก ทิ้งตัวลงบนเตียงและหลับลงทันทีที่หัวถึงหมอน"
 
 scene black
 with dissolve
