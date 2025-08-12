@@ -4216,7 +4216,8 @@ label th_H8:
 scene bg school_dormhallway
 with locationchange
 
-"I pull my door closed, ready for another day of classes."
+# "I pull my door closed, ready for another day of classes."
+"ฉันปิดประตูลง เตรียมพร้อมออกไปเรียนอีกวัน"
 
 show kenji invis at twoleft
 with None
@@ -4224,124 +4225,162 @@ with None
 show kenji neutral_close at center
 with Dissolvemove(0.5, time_warp=_ease_in_time_warp)
 
-ke "Sleep well?"
+# ke "Sleep well?"
+ke "หลับสบายดีไหม"
 
 play music music_kenji fadein 0.5
 
-"Kenji's sudden arrival makes me jump, and I narrowly avoid butting heads with him."
+# "Kenji's sudden arrival makes me jump, and I narrowly avoid butting heads with him."
+"เคนจิโผล่มาแบบไม่ทันตั้งตัว เลยทำให้ฉันสะดุ้งสุดตัวและเกือบจะหัวโขกกับเขาเข้า"
 
-"I know he has poor eyesight, but he knows who I am now. Does he still have to stand this close?"
+# "I know he has poor eyesight, but he knows who I am now. Does he still have to stand this close?"
+"ก็รู้แหละว่าเขาสายตาไม่ดี แต่ในเมื่อเขาก็รู้อยู่แล้วว่าฉันเป็นใคร ทำไมเขายังมายืนใกล้ขนาดนี้อีก"
 
 show kenji neutral
 with charadistant
 
-hi "Oh. Yeah. Like a baby."
+# hi "Oh. Yeah. Like a baby."
+hi "อ้อ เออ อย่างกับเด็กเล็กนอนหลับเลยล่ะ"
 
 show kenji tsun
 with charachange
 
-ke "Damn, why do people say that? Have you ever heard a baby sleep?"
+# ke "Damn, why do people say that? Have you ever heard a baby sleep?"
+ke "แม่ง ทำไมคนถึงพูดแบบนั้นกันวะ นายเคยได้ยินตอนเด็กเล็กหลับปะ"
 
-ke "They scream. All night. Every night. Babies don't sleep well, ever."
+# ke "They scream. All night. Every night. Babies don't sleep well, ever."
+ke "ร้องแทบทั้งคืนทุกคืน เด็กเล็กไม่เคยนอนเต็มอิ่มหรอก"
 
-"Well, there goes my restful state. I have to remember to never use figures of speech with Kenji."
+# "Well, there goes my restful state. I have to remember to never use figures of speech with Kenji."
+"เอาละ ตอนนี้ความสงบที่เคยมีหายไปหมดแล้วสิเนี่ย ต้องจำไว้เลยว่าห้ามใช้สำนวนกับเคนจิเด็ดขาด"
 
-hi "All right, I get your point. It was a figure of speech."
+# hi "All right, I get your point. It was a figure of speech."
+hi "เออ ๆ เข้าใจละ มันก็แค่สำนวนน่ะ"
 
 show kenji neutral
 with charachange
 
-ke "Yeah, sure, whatever. Where were you last night? I had a favor to ask but you weren't around."
+# ke "Yeah, sure, whatever. Where were you last night? I had a favor to ask but you weren't around."
+ke "เอองั้นแหละ เอาเถอะ เมื่อคืนนายไปไหนมาเนี่ย ว่าจะให้ช่วยอะไรสักหน่อยแต่นายไม่อยู่ซะงั้น"
 
-"For a split second I consider telling Kenji the truth; that I was spending time with Hanako and Lilly."
+# "For a split second I consider telling Kenji the truth; that I was spending time with Hanako and Lilly."
+"แวบนึงฉันคิดที่จะบอกความจริงกับเคนจิไปว่าฉันไปอยู่กับฮานาโกะและลิลลี่"
 
-"Thankfully, that split second passes as soon as it came."
+# "Thankfully, that split second passes as soon as it came."
+"โชคดีที่ความคิดแวบนั้นแค่ผ่านมาแล้วก็ผ่านไป"
 
-hi "I was just out. Checking out the local area and stuff. You know, recon."
+# hi "I was just out. Checking out the local area and stuff. You know, recon."
+hi "แค่ออกไปข้างนอกมาน่ะ ไปสำรวจแถว ๆ นี้มานิดหน่อย แบบว่าลาดตระเวนอะ"
 
 show kenji happy
 with charachange
 
-ke "Good man, good. I knew you were the type to plan ahead…"
+# ke "Good man, good. I knew you were the type to plan ahead…"
+ke "ดีละ ฉันนึกแล้วว่านายเป็นพวกชอบวางแผนล่วงหน้า…"
 
-hi "Anyway, what was this favor you wanted?"
+# hi "Anyway, what was this favor you wanted?"
+hi "เอาเหอะ แล้วจะขอให้ช่วยอะไรล่ะ"
 
 show kenji neutral
 with charachange
 
-ke "I was going to get some take-out, but I needed change."
+# ke "I was going to get some take-out, but I needed change."
+ke "ฉันว่าจะสั่งอาหารสักหน่อยนะ แต่ต้องการเศษเงินนิดหน่อย"
 
-hi "Wait, what? I gave you money last week and you still haven't paid me back!"
+# hi "Wait, what? I gave you money last week and you still haven't paid me back!"
+hi "เดี๋ยวนะ เงินที่ฉันให้นายไปเมื่อสัปดาห์ก่อนนายยังไม่ได้คืนมาเลยนะ!"
 
 show kenji tsun
 with charachange
 
-ke "Tch, and I was starting to think you were cool."
+# ke "Tch, and I was starting to think you were cool."
+ke "ชิ นึกว่านายจะเป็นพวกเจ๋งเสียอีก"
 
-"Kenji fishes around in his pocket and produces his wallet."
+# "Kenji fishes around in his pocket and produces his wallet."
+"เคนจิล้วงกระเป๋ากางเกงและหยิบกระเป๋าสตางค์ออกมา"
 
-"As he counts out the 400 yen he owes me, I can clearly see at least two 10,000 yen notes."
+# "As he counts out the 400 yen he owes me, I can clearly see at least two 10,000 yen notes."
+"พอเขาหยิบเงิน 400 เยนที่ยืมออกมา ฉันก็เห็นแบงก์ 10,000 เยนอย่างต่ำ ๆ ก็สองใบ"
 
-hi "Hey, what the hell? Why are you borrowing money off me when you've got that much cash?"
+# hi "Hey, what the hell? Why are you borrowing money off me when you've got that much cash?"
+hi "อะไรวะ ทำไมนายต้องยืมเงินวะ ทั้ง ๆ ที่มีเงินเยอะขนาดนั้นแท้ ๆ "
 
-"Kenji hisses a little, realizing that he's been had."
+# "Kenji hisses a little, realizing that he's been had."
+"เคนจิทำเสียงเดือดเล็กน้อย เมื่อนึกได้ว่าโดนเห็น"
 
-ke "Get off my case, man. It's bad luck to break a big note for anything less than half its value. It's the tycoon's rule."
+# ke "Get off my case, man. It's bad luck to break a big note for anything less than half its value. It's the tycoon's rule."
+ke "อย่ายุ่งเถอะน่า มันจะโชคร้ายนะถ้านายแตกแบงก์ใหญ่กับของที่ราคาไม่ถึงครึ่งของแบงก์น่ะ เป็นกฎของพวกคนมีตังค์เว้ย"
 
-ke "Last night's dinner is going to cost me seven years of bad luck. Seven years!"
+# ke "Last night's dinner is going to cost me seven years of bad luck. Seven years!"
+ke "มื้อเย็นเมื่อคืนทำให้ฉันต้องโชคร้ายไปตั้งเจ็ดปีแหนะ ตั้งเจ็ดปี!"
 
 show kenji happy
 with charachange
 
-ke "Don't you think that's enough cause to help someone out? I'd get a shorter sentence if I just stole the stuff."
+# ke "Don't you think that's enough cause to help someone out? I'd get a shorter sentence if I just stole the stuff."
+ke "ไม่คิดเหรอว่าเป็นเหตุผลที่เพียงพอที่จะต้องช่วยใครสักคนน่ะ ขนาดถ้าฉันขโมยของยังจะโดนโทษเบากว่านี้อีกแหนะ"
 
-"My common sense screams at me to say something to him, but thankfully I restrain myself."
+# "My common sense screams at me to say something to him, but thankfully I restrain myself."
+"สามัญสำนึกของฉันร้องบอกให้ฉันพูดอะไรบางอย่างกับเขา แต่ยังดีที่ฉันห้ามตัวเองไว้ได้"
 
-"Arguing a point like this with Kenji will just lead to further and more complicated discussions."
+# "Arguing a point like this with Kenji will just lead to further and more complicated discussions."
+"การเถียงเรื่องแบบนี้กับเคนจิมีแต่จะทำให้เรื่องมันยุ่งยากและซับซ้อนขึ้นไปอีก"
 
-hi "Yeah, I guess you're right. Maybe you should plan these things a little better?"
+# hi "Yeah, I guess you're right. Maybe you should plan these things a little better?"
+hi "เออ ก็คงงั้นแหละ คราวหลังก็วางแผนให้ดีกว่านี้ก็แล้วกัน"
 
 show kenji neutral
 with charachange
 
-ke "Yeah man, I know. But I've just got so much stuff to do, it's hard. And you're never around any more so I'm on my own."
+# ke "Yeah man, I know. But I've just got so much stuff to do, it's hard. And you're never around any more so I'm on my own."
+ke "เออน่ารู้แล้ว แต่ฉันก็มีอะไรต้องทำเยอะแยะเลย มันยากนะเว้ย แล้วช่วงนี้นายก็ไม่ค่อยอยู่ด้วย ฉันเลยต้องทำคนเดียว\nตลอดเลย"
 
-ke "We're supposed to be brothers in brotherhood, remember?"
+# ke "We're supposed to be brothers in brotherhood, remember?"
+ke "อย่าลืมสิว่าเราเป็นเหมือนพี่น้องกันนะ!"
 
-hi "Yeah yeah, I get you. Global conspiracy and such. I'll keep my ear to the ground."
-
-show kenji neutral_close
-with charachange
-
-"Kenji draws close enough for me to get a clear whiff of his garlic-tainted breath."
-
-show kenji tsun_close
-with charachange
-
-ke "You'd better, man. You're already spending less time here. That's the first thing they do."
-
-ke "They'll try to split us up. Divide and conquer. Sun Tzu said that."
-
-hi "Roger that. Now, I've got to be going. I've got classes. You coming?"
+# hi "Yeah yeah, I get you. Global conspiracy and such. I'll keep my ear to the ground."
+hi "เออ ๆ เข้าใจแล้ว ทฤษฎีสมคบคิดระดับโลกและอะไรเทือกนั้น ฉันจะคอยตามข่าวเรื่อย ๆ ละกัน"
 
 show kenji neutral_close
 with charachange
 
-ke "Nah, I'm tired. I stayed up all night just to make sure nothing was going to happen after splitting that note."
-
-hi "As rational as ever, I see."
+# "Kenji draws close enough for me to get a clear whiff of his garlic-tainted breath."
+"เคนจิยื่นหน้าเข้ามาใกล้จนได้กลิ่นปากกลิ่นกระเทียม"
 
 show kenji tsun_close
 with charachange
 
-ke "Whatever. Night."
+# ke "You'd better, man. You're already spending less time here. That's the first thing they do."
+ke "นายควรทำแบบนั้นนั่นแหละพวก นายใช้เวลาอยู่นี่น้อยลงนะ นั่นเป็นสิ่งแรกที่พวกนั้นจะทำ"
+
+# ke "They'll try to split us up. Divide and conquer. Sun Tzu said that."
+ke "พวกนั่นจะพยายามแยกเราออกจากกัน แบบแบ่งแยกเอาชนะไง ซุนวูได้กล่าวไว้"
+
+# hi "Roger that. Now, I've got to be going. I've got classes. You coming?"
+hi "รับทราบ แต่ตอนนี้ฉันต้องไปละมีเรียน นายไปไหม"
+
+show kenji neutral_close
+with charachange
+
+# ke "Nah, I'm tired. I stayed up all night just to make sure nothing was going to happen after splitting that note."
+ke "ไม่อะ เหนื่อยแล้ว ฉันตื่นทั้งคืนเพื่อให้มั่นใจว่าจะไม่มีอะไรเกิดขึ้นหลังแตกแบงก์นั้นไปน่ะ"
+
+# hi "As rational as ever, I see."
+hi "เข้าใจละ มีเหตุผลเช่นเดิม"
+
+show kenji tsun_close
+with charachange
+
+# ke "Whatever. Night."
+ke "เอาเหอะ ราตรีหวัด"
 
 stop music fadeout 3.0
 
 show kenji invis at twoleft
 with Dissolvemove(0.5, time_warp=_ease_out_time_warp)
 
-"Kenji scurries back into his room, and I hear him throwing his locks as I walk down the hallway."
+# "Kenji scurries back into his room, and I hear him throwing his locks as I walk down the hallway."
+"เคนจิรีบวิ่งกลับเข้าไปในห้อง และฉันก็ได้ยินเสียงเขาลั่นกลอนประตูในขณะที่กำลังเดินไปตามโถงทางเดิน"
 
 #--------------
 
