@@ -834,7 +834,7 @@ with charachange
 no "นั่นสินะ แล้วเธอ…"
 
 # "Even Nomiya in all his brashness has trouble coming straight out with the question. Sae, of course, sees through him and throws up her hands, sighing deeply."
-"แม้แต่โนมิยะที่เป็นคนโผงผางยังไม่กล้าถามตรง ๆ แต่แน่นอนว่าซาเอะรู้ว่าจะถามอะไร เธอถอนหายใจพรืดเป็นเชิง\nยอมแพ้"
+"แม้แต่โนมิยะที่เป็นคนโผงผางยังไม่กล้าถามตรง ๆ แต่แน่นอนว่าซาเอะรู้ว่าจะถามอะไร เธอถอนหายใจยาวเป็นเชิง\nยอมแพ้"
 
 show sae smile
 with charachange
@@ -932,13 +932,17 @@ with locationchange
 nvl clear
 nvl show dissolve
 
-n "\n\n\n\nRin applies for, and - thanks to Nomiya pressuring the principal, I'm sure - is granted leave for the rest of the term for “exceptional extracurricular activities.” She has to make up for it during summer vacation, but it seems she doesn't mind."
+# n "\n\n\n\nRin applies for, and - thanks to Nomiya pressuring the principal, I'm sure - is granted leave for the rest of the term for “exceptional extracurricular activities.” She has to make up for it during summer vacation, but it seems she doesn't mind."
+n "\n\n\n\nรินทำเรื่องลาเรียนเทอมนี้ว่าจะไปทำ “กิจกรรมนอกหลักสูตรพิเศษ” ซึ่งทางโรงเรียนก็รับรอง ฉันมั่นใจว่าคงเพราะ\nโนมิยะไปกดดันผู้อำนวยการด้วย แต่เธอก็ต้องมาเรียนชดเชยช่วงปิดเทอมหน้าร้อนอยู่ดี ถึงเธอจะดูไม่อะไรกับเงื่อนไข\nที่ว่าเท่าไหร่ก็ตาม"
 
-n "Rin will still be able to eat and sleep at school, of course; she just doesn't have to go to classes. I'm not entirely sure if I envy her or not."
+# n "Rin will still be able to eat and sleep at school, of course; she just doesn't have to go to classes. I'm not entirely sure if I envy her or not."
+n "แต่แน่นอนว่ารินจะยังใช้ชีวิตกินนอนอยู่ที่โรงเรียนได้ แค่ว่าไม่ต้องไปเข้าเรียน ฉันก็ไม่แน่ใจเหมือนกันว่าฉันอิจฉาเธอ\nอยู่หรือเปล่า"
 
-n "It all makes me feel anxious, somehow."
+# n "It all makes me feel anxious, somehow."
+n "ฉันรู้สึกร้อนรนอย่างบอกไม่ถูก"
 
-n "It's the last day of school for Rin. I feel like I should send her off with a word of encouragement, or at least say something. It was sort of due to my influence that she decided to dive headfirst into this, after all."
+# n "It's the last day of school for Rin. I feel like I should send her off with a word of encouragement, or at least say something. It was sort of due to my influence that she decided to dive headfirst into this, after all."
+n "วันนี้รินมาเรียนเป็นวันสุดท้าย รู้สึกเหมือนตัวเองต้องไปให้กำลังใจส่งท้ายหรือไปพูดอะไรก็ได้สักหน่อย เพราะยังไงเสีย\nฉันก็มีส่วนที่ทำให้เธอตัดสินใจที่จะก้าวเข้ามาทำงานนี้"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -950,9 +954,11 @@ with locationskip
 
 window show
 
-"My class ends a good twenty minutes early, so I walk down to the lobby and buy a can of juice, then sit down on a bench and wait for Rin. I pull out a novel from my bag and search for the place where I was."
+# "My class ends a good twenty minutes early, so I walk down to the lobby and buy a can of juice, then sit down on a bench and wait for Rin. I pull out a novel from my bag and search for the place where I was."
+"ครูปล่อยเร็วกว่าปกติไปยี่สิบนาที ฉันจึงเดินลงมาที่โถงใหญ่เพื่อซื้อน้ำผลไม้มาหนึ่งกระป๋องแล้วนั่งลงที่ม้านั่งรอริน\nและหยิบนิยายออกมาจากกระเป๋าเปิดหาดูว่าอ่านค้างไว้ถึงตรงไหนแล้ว"
 
-"Time stretches comfortably over the warm afternoon while I idly sip my orange juice and read a few chapters of the book. The plot doesn't seem to advance at all, but it's all the same for me."
+# "Time stretches comfortably over the warm afternoon while I idly sip my orange juice and read a few chapters of the book. The plot doesn't seem to advance at all, but it's all the same for me."
+"เวลาไหลไปเฉื่อย ๆ ท่ามกลางยามบ่ายอันอบอุ่นที่ฉันกำลังนั่งจิบน้ำส้มกระป๋องพลางอ่านหนังสือไปได้ประมาณ\nสองสามตอน เนื้อเรื่องแทบไม่เดินเลย แต่ก็ไม่จำเป็นต้องใส่ใจอะไร"
 
 play sound sfx_normalbell
 play ambient sfx_crowd_indoors fadein 0.3
@@ -960,9 +966,11 @@ play ambient sfx_crowd_indoors fadein 0.3
 show crowd
 with charaenter
 
-"The bell rings to end the school day and students shuffle to club meetings or outside. Nobody notices me, sitting on the bench with my nose in the novel."
+# "The bell rings to end the school day and students shuffle to club meetings or outside. Nobody notices me, sitting on the bench with my nose in the novel."
+"ระฆังเลิกเรียนดังขึ้น เหล่านักเรียนต่างเดินไปที่ชมรมหรือไม่ก็นอกอาคาร ไม่มีใครเห็นฉันที่นั่งก้มหน้าอ่านนิยายอยู่\nกับม้านั่งตัวนี้"
 
-"I keep watch for Rin, but I don't see her familiar face or red-tinted hair passing by."
+# "I keep watch for Rin, but I don't see her familiar face or red-tinted hair passing by."
+"ฉันคอยสอดส่ายสายตามองหาริน แต่ก็ไม่เห็นใบหน้าอันคุ้นเคยของเธอหรือผมสีแดง ๆ ผ่านเข้าตามาเลย"
 
 stop ambient fadeout 2.0
 stop music fadeout 4.0
@@ -970,32 +978,41 @@ stop music fadeout 4.0
 scene bg school_lobby_ss
 with shorttimeskip
 
-"I check my watch 20 minutes past the end of class, when the lobby has all but emptied of people again. Even Rin should've already managed to get out of class, but either I missed her walking by, or she never came downstairs."
+# "I check my watch 20 minutes past the end of class, when the lobby has all but emptied of people again. Even Rin should've already managed to get out of class, but either I missed her walking by, or she never came downstairs."
+"ทั้งโถงโล่งไม่เหลือใครอีกครั้ง พอก้มมองนาฬิกาดูก็เห็นว่านับตั้งแต่เลิกเรียนเวลาก็ผ่านแล้วมายี่สิบนาที เพราะงั้น\nแม้แต่รินก็น่าจะออกมาจากห้องเรียนแล้ว เว้นแต่ว่าฉันจะไม่ทันได้สังเกตเห็นเธอ หรือไม่ก็เธอยังไม่ได้ลงมา"
 
-"Perhaps she went to the art club room for some last minute things instead, or got held back by her strict homeroom teacher."
+# "Perhaps she went to the art club room for some last minute things instead, or got held back by her strict homeroom teacher."
+"อาจจะไปจัดการอะไรที่ห้องศิลปะอยู่ หรือไม่ก็ครูประจำชั้นโหด ๆ กักตัวไว้"
 
-"I haven't really waited that long, but having grown tired of it already, I decide to go find her myself."
+# "I haven't really waited that long, but having grown tired of it already, I decide to go find her myself."
+"ก็ยังไม่ได้รอนานขนาดนั้นหรอก แต่ก็เบื่อจะรอแล้ว ฉันจึงตัดสินใจไปตามหาเธอเอง"
 
-"I stuff my book back in the bag and throw the now empty juice can in a trash bin, then climb upstairs."
+# "I stuff my book back in the bag and throw the now empty juice can in a trash bin, then climb upstairs."
+"ฉันยัดหนังสือกลับใส่กระเป๋าแล้วโยนกระป๋องน้ำผลไม้เปล่าทิ้งถังขยะก่อนจะเดินขึ้นบันไดไป"
 
 scene bg school_hallway3
 with locationskip
 
-"The hallway is eerily quiet, as there are no club rooms apart from the art room nearby. I check there first, but not even the teacher is in." 
+# "The hallway is eerily quiet, as there are no club rooms apart from the art room nearby. I check there first, but not even the teacher is in." 
+"โถงทางเดินนั้นเงียบสงัดจนน่าขนลุกเพราะแถว ๆ นี้ไม่มีห้องชมรมอื่นนอกจากห้องศิลปะแล้ว พอเข้าไปดูในนั้นก็\nไม่เจอใครแม้แต่คุณครู"
 
 play sound sfx_doorknock2
 
-"Coming back towards the stairwell, I quietly knock on the door of 3-4 and push the door open to peek in."
+# "Coming back towards the stairwell, I quietly knock on the door of 3-4 and push the door open to peek in."
+"ฉันเดินลงบันไดมาเคาะประตูห้อง 3-4 ก่อนจะแง้มเปิดแล้วชะเง้อหน้าเข้าไปดู"
 
 play sound sfx_dooropen
 scene bg school_room34_ss
 with locationchange
 
-"Yellow sunbeams cross the classroom, falling across the floor. The dust and chalk floating slowly in the air make the light almost palpable."
+# "Yellow sunbeams cross the classroom, falling across the floor. The dust and chalk floating slowly in the air make the light almost palpable."
+"ลำแสงอาทิตย์เหลืองนวลส่องเข้ามาตกกระทบกับพื้นห้องเรียน ฝุ่นและผงชอล์กที่ลอยเฉื่อยอยู่ในอากาศทำให้ดูราวกับว่า\nแสงนั้นจับต้องได้"
 
-"The entire room bathes in the gentle light shining through the windows, washing the shadows away."
+# "The entire room bathes in the gentle light shining through the windows, washing the shadows away."
+"แสงนวลส่องลอดหน้าต่างอาบไล้ทั้งห้องให้เงามืดมิดหายไป"
 
-"Only one person is inside the classroom."
+# "Only one person is inside the classroom."
+"ในห้องเรียนนั้นมีคนอยู่เพียงคนเดียว"
 
 scene ev rin_nap_total:
     xalign 0.5 yalign 0.5 zoom 1.0 subpixel True
@@ -1004,28 +1021,37 @@ with whiteout
 
 play music music_serene fadein 4.0
 
-"Rin sits in what I assume is her seat, next to the window in the third row. Her head rests against the desk."
+# "Rin sits in what I assume is her seat, next to the window in the third row. Her head rests against the desk."
+"ฉันเห็นรินนั่งอยู่ที่โต๊ะหนึ่งข้าง ๆ หน้าต่างตรงแถวที่สามที่คงจะเป็นที่นั่งเธอ เธอหลับหัวแนบอยู่กับโต๊ะ"
 
-"I wonder if she slept through it all. Apparently not even Emi had the heart - or maybe the capability - to wake her up."
+# "I wonder if she slept through it all. Apparently not even Emi had the heart - or maybe the capability - to wake her up."
+"คงจะหลับจนคนในห้องออกไปหมด และดูเหมือนว่าเอมิก็ไม่กล้าพอ—หรือไม่ก็ไม่สามารถพอ—ที่จะปลุกเธอ"
 
-"I close the door quietly. Walking past the neat, even rows of desks, I go over to where she sits."
+# "I close the door quietly. Walking past the neat, even rows of desks, I go over to where she sits."
+"ฉันปิดประตูเบา ๆ แล้วเดินผ่านโต๊ะที่เรียงเป็นระเบียบเรียบร้อยไปยังที่นั่งเธอ"
 
-hi "Rin?"
+# hi "Rin?"
+hi "ริน?"
 
-"My mouth is suddenly so dry that the word comes out as a tiny whisper."
+# "My mouth is suddenly so dry that the word comes out as a tiny whisper."
+"จู่ ๆ ปากก็แห้งขึ้นมาจนเสียงนั้นแหบแห้ง"
 
 scene ev rin_nap_close_nohand:
     yalign 1.0 subpixel True
 with locationchange
 
-"She doesn't answer, so I set my bag down on the floor next to hers and lean over her to look at her face."
+# "She doesn't answer, so I set my bag down on the floor next to hers and lean over her to look at her face."
+"เธอไม่ตอบ ฉันวางกระเป๋าฉันไว้ข้าง ๆ กระเป๋ารินแล้วก้มตัวมองหน้าเธอ"
 #Previously Rin had a bag she was able to carry along. Assuming this is its resurgence, and marking the spot where people will go HA HA MISTAKE at us. -SC
 
-"Rin's eyes are peacefully closed, the long eyelashes projecting thin shadows onto her cheeks. Her mouth is slightly open, letting me hear the quiet sound of her breathing."
+# "Rin's eyes are peacefully closed, the long eyelashes projecting thin shadows onto her cheeks. Her mouth is slightly open, letting me hear the quiet sound of her breathing."
+"รินหลับตาพริ้ม แพขนตาบังเป็นเงาตกกระทบกับแก้ม ปากเผยอเล็กน้อยจนได้ยินเสียงเธอหายใจ"
 
-"Her usually messy hair is even more so today, lying in complete disarray over half of her face and forehead."
+# "Her usually messy hair is even more so today, lying in complete disarray over half of her face and forehead."
+"ผมเธอที่ปกติก็ยุ่งอยู่แล้ววันนี้ดูยุ่งขึ้นไปอีก ผมนั้นปรกหน้าผากเธอและบังหน้าเธอไปครึ่งหนึ่ง"
 
-"Her bag is lying at her feet like a forgotten rag doll. A few books and pens have fallen out of it near her seat. The scene makes me smile a little."
+# "Her bag is lying at her feet like a forgotten rag doll. A few books and pens have fallen out of it near her seat. The scene makes me smile a little."
+"กระเป๋าเธอนอนแอ้งแม้งอยู่กับเท้าราวตุ๊กตาที่ถูกทิ้ง ข้าง ๆ ที่นั่งเธอมีหนังสือและปากกาตกอยู่ ภาพตรงหน้านี้ทำให้\nฉันยิ้มขึ้นมาน้อย ๆ"
 #Bag check number 2
 
 show ev rin_nap_close_nohand:
@@ -1037,112 +1063,145 @@ scene ev rin_nap_close_hand:
     ease 1.0 yalign 0.0
 with Dissolve(1.0)
 
-"I touch Rin's head lightly, sweeping a few stray hairs off her ear. Her hair feels warm against my palm."
+# "I touch Rin's head lightly, sweeping a few stray hairs off her ear. Her hair feels warm against my palm."
+"ฉันแตะผมรินเบา ๆ แล้วทัดผมที่ยุ่ง ๆ จำนวนหนึ่งนั้นไว้กับหูเธอ พอได้จับก็สัมผัสได้ถึงความอุ่นจากผมเธอ"
 
 scene ev rin_nap_close_nohand:
     yalign 0.0 subpixel True
 with locationchange
 
-"Rin stirs, and I retract my hand on reflex, feeling embarrassed for touching her so casually."
+# "Rin stirs, and I retract my hand on reflex, feeling embarrassed for touching her so casually."
+"รินดิ้นเล็กน้อยจนฉันต้องชักมือกลับโดยอัตโนมัติเพราะอายที่ถือวิสาสะแตะตัวเธออย่างนี้"
 
 show ev rin_nap_close_nohand:
     ease 2.0 yalign 1.0
 with Pause(0.5)
 
-"She looks so vulnerable, like any sleeping person. It's impossible not to feel fondness towards her."
+# "She looks so vulnerable, like any sleeping person. It's impossible not to feel fondness towards her."
+"เธอดูไร้อันตรายใด ๆ อย่างคนที่กำลังหลับอยู่ทั่ว ๆ ไป จะให้อดใจไม่เอ็นดูยังไงไหว"
 
 scene ev rin_nap_total
 with locationchange
 
-"I sit on the desktop of whoever is in front of Rin, then draw the window slightly open to get some fresh air in. Hopefully, it will wake her up and I won't need to resort to cruder methods."
+# "I sit on the desktop of whoever is in front of Rin, then draw the window slightly open to get some fresh air in. Hopefully, it will wake her up and I won't need to resort to cruder methods."
+"ฉันนั่งบนโต๊ะที่อยู่ตรงหน้ารินแล้วเปิดหน้าต่างออกเล็กน้อยเพื่อให้อากาศสดชื่นได้ไหลเข้ามาบ้าง หวังว่าทำแล้วจะตื่นนะ\nเพราะฉันก็ไม่อยากใช้วิธีที่แรงกว่านี้แล้ว"
 
 scene ev rin_nap_total_awind
 with locationchange
 
-"She doesn't wake up, but I didn't really expect her to."
+# "She doesn't wake up, but I didn't really expect her to."
+"เธอไม่ตื่น แต่ฉันก็ไม่ได้หวังขนาดนั้นหรอก"
 
-"Looking at her makes me feel tired as well. To be honest, I wouldn't mind a quick nap either, but I content myself with leaning against the large window."
+# "Looking at her makes me feel tired as well. To be honest, I wouldn't mind a quick nap either, but I content myself with leaning against the large window."
+"พอได้เห็นแล้วก็เพลียตาม เอาตรง ๆ จะงีบสักหน่อยก็ได้แหละ แต่แค่นั่งพิงหน้าต่างบานใหญ่นี้ฉันก็พอใจแล้ว"
 
-"The glass is warm against my ear and cheek, as these windows face west, toward the setting afternoon sun."
+# "The glass is warm against my ear and cheek, as these windows face west, toward the setting afternoon sun."
+"บานกระจกที่หูและแก้มฉันแนบอยู่นั้นอุ่นเพราะหน้าต่างนั้นหันไปทางทิศตะวันตกรับกับพระอาทิตย์ยามบ่ายที่\nเคลื่อนคล้อย"
 
-"That afternoon light is slowly melting into Rin's auburn hair, softening her outline so that she seems to be fading into her surroundings."
+# "That afternoon light is slowly melting into Rin's auburn hair, softening her outline so that she seems to be fading into her surroundings."
+"แสงอาทิตย์ยามบ่ายค่อย ๆ กลืนผมสีแดงของรินให้เส้นขอบนั้นจางลงจนดูคล้ายว่าเธอเลือนไปเป็นหนึ่งกับสิ่งโดยรอบ"
 
-"The minute twitches of her muscles, her hair swaying in the air current, the even rhythm of her breathing, it all gives a strong impression of a dreaming girl."
+# "The minute twitches of her muscles, her hair swaying in the air current, the even rhythm of her breathing, it all gives a strong impression of a dreaming girl."
+"กล้ามเนื้อเธอที่กระตุกเล็กน้อย ผมเธอที่ไหวไปกับสายลม และจังหวะการหายใจของเธอ เหล่านั้นทำให้เธอเป็นคน\nดูช่างฝันเหลือเกิน"
 
-"Like all sleeping people, Rin looks like she is away from this world, in some distant dream-country."
+# "Like all sleeping people, Rin looks like she is away from this world, in some distant dream-country."
+"รินดูคล้ายว่าเธอกำลังอยู่แดนนิมิตที่แสนห่างไกลจากโลกใบนี้ ไม่ต่างอะไรกับคนที่กำลังหลับอยู่โดยทั่วไป"
 
-"With her, it doesn't feel so obvious that she would ever come back. She seems so detached from her surroundings even when she's awake, in fact she has this same kind of air around her when…"
+# "With her, it doesn't feel so obvious that she would ever come back. She seems so detached from her surroundings even when she's awake, in fact she has this same kind of air around her when…"
+"พอเป็นเธอแล้วก็ดูไม่แน่ชัดนักว่าเธอจะกลับมาหรือเปล่า แม้แต่ยามที่ไม่ได้หลับเธอก็ดูเหมือนจะถูกตัดขาดไปจาก\nสภาพโดยรอบของเธอ อันที่จริง ฉันก็รู้สึกว่าเธอเป็นอย่างนี้เหมือนกัน ตอนที่เธอ…"
 
 stop music fadeout 15.0
 
-"The realization hits my consciousness without warning."
+# "The realization hits my consciousness without warning."
+"จู่ ๆ ฉันก็นึกขึ้นมาได้"
 
 scene ev rin_nap_close_awind:
     xalign 0.5 yalign 0.5 zoom 1.0 subpixel True
     ease 20.0 zoom 1.05
 with locationchange
 
-"Rin sometimes looks like that when she is painting."
+# "Rin sometimes looks like that when she is painting."
+"ว่ารินก็ดูเป็นอย่างนั้นเหมือนกันตอนที่เธอวาดรูป"
 
-"Her focused expression gives the same feeling of being on the other side of some imaginary gap as looking at her sleeping face does."
+# "Her focused expression gives the same feeling of being on the other side of some imaginary gap as looking at her sleeping face does."
+"ใบหน้าเธอยามจดจ่อให้ความรู้สึกเหมือนว่าเธออยู่อีกฝั่งหนึ่งที่มีระยะสมมติคั่นกลางอยู่ เป็นความรู้สึกเดียวกันกับตอน\nที่ได้มองเธอขณะหลับ"
 
-"I feel a pain in my chest."
+# "I feel a pain in my chest."
+"ฉันรู้สึกจุกอกขึ้นมา"
 
-"There's no way I can close that gap to be on the same level with her. It hurts, even though I know that it's impossible for any two people to truly understand each other."
+# "There's no way I can close that gap to be on the same level with her. It hurts, even though I know that it's impossible for any two people to truly understand each other."
+"ฉันคงไม่อาจที่จะก้าวข้ามช่องว่างนั้นไปเพื่อให้ได้อยู่ข้างเธอ แม้จะรู้ดีก็ตามว่าคนเรานั้นไม่มีทางที่จะเข้าใจกันและกันได้\nอย่างแท้จริง"
 
-"But Rin… she's almost literally in another world when she's talking about art, thinking about art, or making art."
+# "But Rin… she's almost literally in another world when she's talking about art, thinking about art, or making art."
+"แต่กับรินแล้ว… ทุกครั้งที่เธอพูดเรื่องศิลปะ คิดเรื่องศิลปะ สรรค์สร้างศิลปะ ตัวเธอนั้นแทบจะอยู่อีกโลกใบหนึ่งไปเลย"
 
-"It's a world that I - or anyone else, really - can't share with her. Just like the world of dreams."
+# "It's a world that I - or anyone else, really - can't share with her. Just like the world of dreams."
+"เป็นโลกที่ฉัน—หรือใครก็ตามเถอะ—ไม่อาจอยู่ด้วยได้ เหมือนอย่างโลกความฝัน"
 
-"Rin still doesn't show any sign of waking up, so I'm faced with the decision to either rouse her myself, or wait for her to awaken on her own."
+# "Rin still doesn't show any sign of waking up, so I'm faced with the decision to either rouse her myself, or wait for her to awaken on her own."
+"รินยังไม่มีท่าทีว่าจะตื่น ฉันจึงต้องตัดสินใจว่าจะปลุกหรือจะรอจนกว่าเธอจะตื่นเอง"
 
-"I choose the latter."
+# "I choose the latter."
+"ฉันเลือกอย่างหลัง"
 
 scene ev rin_nap_total_awind
 with locationchange
 
-"Waiting is something I am good at. I found that out during my hospitalization. But even the hospital ward was more lively than the school after classes are over."
+# "Waiting is something I am good at. I found that out during my hospitalization. But even the hospital ward was more lively than the school after classes are over."
+"ฉันรู้ตัวว่าเป็นคนรอเก่งตอนที่อยู่โรงพยาบาล แต่แม้แต่วอร์ดในโรงพยาบาลนั้นยังจะมีชีวิตชีวากว่าโรงเรียนตอนหลัง\nเลิกเรียนแล้วเสียอีก"
 
-"The only sounds in this place are the loud ticking of the clock above the door and the distant voices of students down on the grounds."
+# "The only sounds in this place are the loud ticking of the clock above the door and the distant voices of students down on the grounds."
+"เสียงเข็มนาฬิกาที่เดินอยู่บนประตูห้องและเสียงเหล่านักเรียนที่แว่วมาไกล ๆ เป็นเพียงสองเสียงที่ดังอยู่ขณะนี้"
 
-"A genuine summer breeze blows inside from the window I cracked open, full of warmth and carrying the scent of light."
+# "A genuine summer breeze blows inside from the window I cracked open, full of warmth and carrying the scent of light."
+"ลมฤดูร้อนที่พัดผ่านเข้ามาทางหน้าต่างที่ฉันเปิดไว้หอบความอุ่นและกลิ่นแสงมากับตัว"
 
 scene bg misc_sky_ss at Fullpan(20.0)
 with locationchange
 
-"I look outside to see where it came from, but I'm dazzled almost instantly. The window glass seems to trap all the sunlight within, making it painful to look that way."
+# "I look outside to see where it came from, but I'm dazzled almost instantly. The window glass seems to trap all the sunlight within, making it painful to look that way."
+"พอมองไปข้างนอกเพื่อจะดูว่าลมมาจากทิศไหนตาก็พร่าแทบจะในทันที บานกระจกนั้นดูดแสงแดดเอาไว้ทั้งหมด\nจนแทบมองไปไม่ได้"
 
-"All I can glimpse through the window are the dark silhouettes of the trees and the wall around the campus against the setting sun's radiance."
+# "All I can glimpse through the window are the dark silhouettes of the trees and the wall around the campus against the setting sun's radiance."
+"เท่าที่เหลือบมองผ่านหน้าต่างได้ก็เห็นแค่เงาทะมึนของต้นไม้และกำแพงรอบโรงเรียนที่ถูกแสงแดดที่เลื่อนต่ำลงสาดส่อง"
 
 scene ev rin_nap_total_awind
 with locationchange
 
-"As I turn back to watch Rin, she stirs again."
+# "As I turn back to watch Rin, she stirs again."
+"พอกลับมามองรินเธอก็ดิ้นอีกแล้ว"
 
 play music music_innocence
 
 scene ev rin_nap_total_awind_tears
 with locationchange
 
-"A single tear worms down from the corner of her eye, slowly making its way across her face before it falls onto the desk."
+# "A single tear worms down from the corner of her eye, slowly making its way across her face before it falls onto the desk."
+"น้ำตาหยดหนึ่งไหลออกมาจากตาเธอผ่านใบหน้าไปก่อนจะหยดลงกับโต๊ะ"
 
 scene ev rin_nap_close_awind_tears
 with locationchange
 
-"It's tiny, barely a droplet, but it captivates me."
+# "It's tiny, barely a droplet, but it captivates me."
+"เป็นเพียงหยดเล็ก ๆ หยดหนึ่ง แต่ชวนดึงดูดให้ฉันมอง"
 
-"Another tear follows the first, and then a third. A feeling of anxiety overcomes me, petrifying me on the spot."
+# "Another tear follows the first, and then a third. A feeling of anxiety overcomes me, petrifying me on the spot."
+"และหยดที่สองก็ตามมา และหยดที่สามก็ตามมา ฉันเป็นกังวลจนตัวแข็งทื่อทำอะไรไม่ถูก"
 
-"It's so strange, seeing Rin's face peaceful as she sleeps, at the same time as tears stream down her cheeks, wetting the wooden desktop she rests her head on."
+# "It's so strange, seeing Rin's face peaceful as she sleeps, at the same time as tears stream down her cheeks, wetting the wooden desktop she rests her head on."
+"พอได้เห็นแล้วก็รู้สึกแปลก ใบหน้าเธอยามหลับนั้นดูแสนสงบ ทว่าก็มีน้ำตาไหลอาบแก้มจนโต๊ะที่เธอใช้หัวหนุนอยู่\nเปียกชื้น"
 
-"I don't know what to do, so I do nothing, and just watch the tears roll one by one down her face."
+# "I don't know what to do, so I do nothing, and just watch the tears roll one by one down her face."
+"ฉันไม่รู้จะทำยังไงดีจึงไม่ทำอะไรแล้วมองน้ำตาที่ค่อย ๆ ไหลผ่านใบหน้าเธอไปหยดแล้วหยดเล่า"
 
-"I wonder what she's dreaming about."
+# "I wonder what she's dreaming about."
+"ฝันอะไรอยู่นะ"
 
 scene bg school_room34_ss
 with locationchange
 
-"Rin wakes up after one final flinch, or perhaps because of the tears."
+# "Rin wakes up after one final flinch, or perhaps because of the tears."
+"เธอสะดุ้งเฮือกตื่นขึ้นมา หรือไม่ก็อาจจะเป็นเพราะน้ำตา"
 
 show rin relaxed_sleepy_close_ss:
     center 
@@ -1150,106 +1209,134 @@ show rin relaxed_sleepy_close_ss:
     easein 1.0 ypos 1.17 alpha 1.0
 with Pause(1.0)
 
-"She sits upright and yawns so excessively it looks like her jaw might dislocate."
+# "She sits upright and yawns so excessively it looks like her jaw might dislocate."
+"เธอนั่งหลังตรงและอ้าปากหาวจนฉันกลัวว่ากรามเธอจะค้าง"
 
-rin "Ah."
+# rin "Ah."
+rin "อ๊ะ"
 
 show rin relaxed_nonchalant_close_ss:
     subpixel False alpha 1.0 ypos 1.17
 with charachange
 
-"She notices my presence, but her reaction is more like the lack of any reacting at all. It's just an acknowledgment; no startled gasp or anything."
+# "She notices my presence, but her reaction is more like the lack of any reacting at all. It's just an acknowledgment; no startled gasp or anything."
+"เธอเห็นฉันแล้ว แต่ปฏิกิริยาเธอนั้นเหมือนว่าไม่ได้มีปฏิกิริยาใด ๆ เลย แค่เห็นว่าฉันอยู่ตรงนี้ ไม่ได้ตกใจหรืออะไร"
 
 show rin relaxed_boredom_close_ss
 with charachange
 
-rin "Hello."
+# rin "Hello."
+rin "สวัสดี"
 
-hi "Good morning."
+# hi "Good morning."
+hi "อรุณสวัสดิ์"
 
-"She's so groggy she can't even return my smile that I somehow can't stretch to be entirely honest."
+# "She's so groggy she can't even return my smile that I somehow can't stretch to be entirely honest."
+"เธองัวเงียเสียจนไม่มีปฏิกิริยาใด ๆ ต่อยิ้มเก้ ๆ กัง ๆ นั้นของฉันเลย"
 
 show rin basic_absent_close_ss
 with charachange
 
-rin "Ah."
+# rin "Ah."
+rin "อ๊ะ"
 
-"Rin notices her wet cheeks and quickly wipes them on the shoulders of her shirt. It seems she isn't at all surprised or flustered by them."
+# "Rin notices her wet cheeks and quickly wipes them on the shoulders of her shirt. It seems she isn't at all surprised or flustered by them."
+"เมื่อเห็นว่าแก้มเปียกรินก็เช็ดแก้มกับหัวไหล่เสื้อตัวเอง เหมือนจะไม่ได้แปลกใจหรือตกใจอะไรเลย"
 
-hi "You cried in your sleep. A bad dream?"
+# hi "You cried in your sleep. A bad dream?"
+hi "เห็นเธอร้องไห้ตอนหลับอยู่แน่ะ ฝันไม่ดีเหรอ"
 
 show rin basic_awayabsent_close_ss
 with charachange
 
-rin "No. It's nothing like that. It's something I've learned to do. From other people."
+# rin "No. It's nothing like that. It's something I've learned to do. From other people."
+rin "เปล่า ไม่ใช่อะไรอย่างนั้น เป็นอะไรที่ฉันรู้วิธีทำมาจากคนอื่นน่ะ"
 
 show rin basic_deadpanamused_close_ss
 with charachange
 
-rin "It's a funny story, I'll tell you later."
+# rin "It's a funny story, I'll tell you later."
+rin "ตลกดี ไว้จะเล่าให้ฟัง"
 
 show rin basic_lucid_close_ss
 with charachange
 
-rin "On second thought, not really that funny at all. I guess I won't tell you. Did you want something or did you just come watch me sleep?"
+# rin "On second thought, not really that funny at all. I guess I won't tell you. Did you want something or did you just come watch me sleep?"
+rin "คิดดูอีกที ไม่เห็นตลกตรงไหน ไม่บอกแล้วกัน นายมาทำไม หรือมาดูฉันนอนเฉย ๆ"
 
-hi "Eh… I wanted to see you after classes."
+# hi "Eh… I wanted to see you after classes."
+hi "เอ้อ… พอดีเลิกเรียนแล้วอยากเจอเธอ"
 
 show rin basic_deadpancontemplation_close_ss
 with charachange
 
-rin "Oh. Well, it's after classes now and I am seeing you right here."
+# rin "Oh. Well, it's after classes now and I am seeing you right here."
+rin "อ้อ ก็นี่ไง เลิกเรียนแล้ว แล้วก็ได้เจอแล้ว"
 
-hi "Yeah. I just wanted to say good luck, or something. I figure the upcoming weeks are going to be a lot of work for you."
+# hi "Yeah. I just wanted to say good luck, or something. I figure the upcoming weeks are going to be a lot of work for you."
+hi "อื้ม แค่อยากมาอวยพรหรืออะไรให้น่ะ สัปดาห์ที่จะถึงนี้งานเธอคงหนักแน่ ๆ"
 
 show rin basic_deadpandelight_close_ss
 with charachange
 
-rin "Thanks."
+# rin "Thanks."
+rin "ขอบใจ"
 
 show rin relaxed_boredom_close_ss
 with charachange
 
-"Rin yawns again and blinks a few times."
+# "Rin yawns again and blinks a few times."
+"รินหาวอีกครั้งแล้วกะพริบตาสองสามที"
 
-rin "I feel weird. Didn't really sleep much last night at all."
+# rin "I feel weird. Didn't really sleep much last night at all."
+rin "รู้สึกแปลก ๆ เมื่อคืนไม่นอนเท่าไหร่"
 #Odd grammar left in. -SC
 
-hi "Butterflies in your stomach?"
+# hi "Butterflies in your stomach?"
+hi "ตื่นเต้นจนเหมือนมีผีเสื้ออยู่ในท้องเลยงี้มั้ย"
 
 show rin basic_surprised_close_ss
 with charachange
 
-rin "What? No. I mean yes. I know what that means. Butterflies. Don't really feel so good now."
+# rin "What? No. I mean yes. I know what that means. Butterflies. Don't really feel so good now."
+rin "หา? ไม่ คือ ใช่ ฉันรู้ว่าหมายความยังไง ผีเสื้อน่ะ ตอนนี้รู้สึกไม่ค่อยดีเท่าไหร่"
 
-hi "It'll be fine."
+# hi "It'll be fine."
+hi "ไม่เป็นไรหรอก"
 
 show rin basic_lucid_close_ss
 with charachange
 
-rin "You are so confident. Some day it will bite you in the ear."
+# rin "You are so confident. Some day it will bite you in the ear."
+rin "นายมั่นใจจังนะ ระวังสักวันจะตกที่นอนลำบาก"
 #Yes, I know it's supposed to be "in the ass" instead. -SC
 
-hi "I'll look forward to it."
+# hi "I'll look forward to it."
+hi "รอดูเลย"
 
 show rin basic_deadpanupset_close_ss
 with charachange
 
-rin "I think I have to go. I promised Mrs. Saionji that I'd go there straight after school, and now is after school."
+# rin "I think I have to go. I promised Mrs. Saionji that I'd go there straight after school, and now is after school."
+rin "ฉันคิดว่าฉันต้องไปแล้ว ฉันสัญญาไว้กับคุณนายไซอนจิว่าเลิกเรียนแล้วจะดิ่งตรงไปเลย แล้วตอนนี้เลิกเรียนแล้ว"
 
-hi "Is it okay if I come by sometime? I'm guessing you're planning to work long hours, so if you'd prefer to avoid distractions…"
+# hi "Is it okay if I come by sometime? I'm guessing you're planning to work long hours, so if you'd prefer to avoid distractions…"
+hi "ถ้าฉันจะแวะไปหาบ้างจะเป็นอะไรมั้ย เธอน่าจะได้ทำยาว ๆ แล้วถ้าเธอไม่อยากให้อะไรมารบกวน…"
 
 show rin negative_spaciness_close_ss
 with charachange
 
-rin "It's okay. It's not a distraction. Not like Emi. Don't bring her with you, though. I wouldn't like that this time."
+# rin "It's okay. It's not a distraction. Not like Emi. Don't bring her with you, though. I wouldn't like that this time."
+rin "ไม่เป็นอะไร ไม่ได้รบกวน ไม่เหมือนเอมิ อย่าพามาด้วยนะ คราวนี้ฉันคงไม่เอาเอมิ"
 
 show rin basic_deadpannormal_close_ss
 with charachange
 
-rin "I told her to stay away."
+# rin "I told her to stay away."
+rin "ฉันบอกให้เธออยู่ห่าง ๆ ไว้แล้ว"
 
-hi "I see. All right then."
+# hi "I see. All right then."
+hi "อย่างนี้นี่เอง งั้นก็ตามนั้น"
 
 show rin basic_deadpannormal_close_ss at center
 with charamove
@@ -1257,34 +1344,44 @@ with charamove
 hide rin
 with charaexit
 
-"Rin stands up and silently walks to the door with me following behind."
+# "Rin stands up and silently walks to the door with me following behind."
+"รินลุกขึ้นยืนแล้วเดินไปที่ประตูเงียบ ๆ โดยมีฉันตามหลังอยู่"
 
 scene bg school_hallway3
 with locationchange
 
-"The school's empty hallways, devoid of the usual crowd of students, feel very lonely."
+# "The school's empty hallways, devoid of the usual crowd of students, feel very lonely."
+"โถงทางเดินโล่ง ๆ ที่มักมีนักเรียนอยู่แน่นขนัดนั้นช่างเงียบเหงา"
 
-"It's only a few hours since school ended, but the building seems to be all but deserted. Our footsteps are all that intrudes upon the stillness of the hallways."
+# "It's only a few hours since school ended, but the building seems to be all but deserted. Our footsteps are all that intrudes upon the stillness of the hallways."
+"แม้จะเพิ่งเลิกเรียนได้ไม่กี่ชั่วโมง แต่ในตัวอาคารนั้นก็ไม่เหลือใครแล้ว เสียงก้าวเดินของพวกเราดังก้องรบกวนความสงบ\nภายในโถงทางเดินนี้"
 
-"The change is sudden, but it shows how the building is just an empty shell, dead without its students and teachers to liven it up."
+# "The change is sudden, but it shows how the building is just an empty shell, dead without its students and teachers to liven it up."
+"แม้จะเป็นการเปลี่ยนแค่ชั่วระยะสั้น ๆ แต่ก็แสดงให้เห็นว่าหากไม่มีเหล่านักเรียนและคุณครูอยู่เติมเต็มแล้วตัวอาคารนั้น\nก็เป็นเพียงเปลือกนอกที่ตายซาก"
 
-"It's like the school has become a private world for just the two of us, a desolate place filled with silence and chalk dust."
+# "It's like the school has become a private world for just the two of us, a desolate place filled with silence and chalk dust."
+"ราวกับว่าทั้งโรงเรียนได้กลายเป็นโลกส่วนตัวที่มีเพียงเราสองคน เป็นที่รกร้างที่มีเพียงความเงียบงันและผงชอล์ก"
 
 scene bg school_staircase2_ss
 show rin basic_awayabsent_close_ss at center
 with locationchange
 
-rin "I am going to change."
+# rin "I am going to change."
+rin "ฉันจะเปลี่ยน"
 
-"She says this out of the blue while we walk down the stairs from the third floor, and it makes me wonder how she views this challenge that lies ahead of her."
+# "She says this out of the blue while we walk down the stairs from the third floor, and it makes me wonder how she views this challenge that lies ahead of her."
+"ระหว่างที่เดินลงบันไดจากชั้นสามมาเธอก็พูดขึ้นมาแบบไม่มีปี่มีขลุ่ยจนฉันนึกสงสัยว่าเธอจะมองความท้าทายที่อยู่\nตรงหน้าเธอในตอนนี้ว่าอย่างไร"
 
-hi "That's what people must do, sometimes."
+# hi "That's what people must do, sometimes."
+hi "บางที คนเราก็ต้องเปลี่ยน"
 
 stop music fadeout 5.0
 
-"That's the last thing we say to each other that day, even though there's so much that we could talk about."
+# "That's the last thing we say to each other that day, even though there's so much that we could talk about."
+"และนั่นคือคือคำพูดสุดท้ายของพวกเราในวันนั้น ถึงแม้จะมีเรื่องให้คุยได้อีกมากมายก็ตาม"
 
-"And even those words drown in the all-encompassing silence, disappearing into the stagnant air as if they were never said."
+# "And even those words drown in the all-encompassing silence, disappearing into the stagnant air as if they were never said."
+"คำพูดเหล่านั้นถูกทับถมโดยความเงียบที่ครอบคลุมทุกสิ่ง และอันตรธานหายไปกับอากาศเอื่อยเฉื่อยราวไม่ได้ถูกเอ่ย\nออกมา"
 
 scene black
 with dissolve
@@ -1299,31 +1396,43 @@ play music music_pearly fadein 5.0
 scene bg school_scienceroom
 with locationchange
 
-"The next Monday is marked by a strange emptiness that grips me, caused by the knowledge that I won't be able to see Rin whenever I want to any more."
+# "The next Monday is marked by a strange emptiness that grips me, caused by the knowledge that I won't be able to see Rin whenever I want to any more."
+"วันจันทร์ถัดมาฉันรู้สึกว่างโหวงแปลก ๆ ที่มาจากการได้รู้ว่าฉันจะไม่สามารถไปหารินเมื่อไหร่ก็ได้ตามใจอยากอีกแล้ว"
 
-"This hollow feeling's a little bit disconcerting, but I make it to the afternoon all the same. My last class is, in a word, terrible."
+# "This hollow feeling's a little bit disconcerting, but I make it to the afternoon all the same. My last class is, in a word, terrible."
+"เป็นความรู้สึกที่ไม่ค่อยดีเท่าไหร่ แต่ฉันก็นั่งเรียนมาจนถึงคาบบ่ายได้ คาบสุดท้ายของวันนั้นเรียกได้ว่าแสนสาหัส"
 
-"It's not that the lesson is that bad. It is, however, boring, and it's so hot in the classroom that I feel like I'm melting."
+# "It's not that the lesson is that bad. It is, however, boring, and it's so hot in the classroom that I feel like I'm melting."
+"ไม่ใช่ว่าเป็นเป็นคาบโหดหรืออะไร แต่ว่าน่าเบื่อ แถมในห้องก็ร้อนจนตัวแทบสุก"
 
-"The air conditioning is either broken or turned off, so the windows are open. It makes no difference, since the air outside is completely still. Only the chirping of cicadas carries inside."
+# "The air conditioning is either broken or turned off, so the windows are open. It makes no difference, since the air outside is completely still. Only the chirping of cicadas carries inside."
+"ไม่แน่ใจว่าเครื่องปรับอากาศเสียหรือแค่ไม่ได้เปิดถึงได้เปิดหน้าต่าง แต่เปิดไปแล้วก็ไม่ช่วยอะไร เพราะลมข้างนอกนั้น\nนิ่งสนิท มีแต่เสียงจักจั่นที่แว่วมา"
 
-"The sweltering heat permeates the room. Students and teachers alike are in an almost delirious state."
+# "The sweltering heat permeates the room. Students and teachers alike are in an almost delirious state."
+"อากาศร้อนอบอ้าวแผ่ไปทั่วห้อง ทั้งนักเรียนทั้งครูก็เหมือนแทบจะสิ้นสติกันไปแล้ว"
 
-"I just want to stand up and walk out of here without caring what the teacher or anyone else says. I can see I'm not the only one with these thoughts too."
+# "I just want to stand up and walk out of here without caring what the teacher or anyone else says. I can see I'm not the only one with these thoughts too."
+"อยากจะลุกขึ้นยืนแล้วก็เดินเชิดออกห้องโดยไม่สนว่าใครจะว่าอะไรยังไง และไม่ใช่แค่ฉันแน่ ๆ ที่คิดอย่างนี้"
 
-"Next to me, Misha is shamelessly holding her skirt up a bit and fanning air in with her notebook."
+# "Next to me, Misha is shamelessly holding her skirt up a bit and fanning air in with her notebook."
+"มิช่าที่นั่งอยู่ข้าง ๆ ฉันเลิกกระโปรงขึ้นเล็กน้อยแบบไม่อายฟ้าดินพลางใช้สมุดพัด ๆ เข้าไปด้วย"
 
-"Only Shizune seems to be as cool as always, sitting with her back perfectly straight, arms folded on her chest, her eyes fixed on the equations scrawled on the blackboard."
+# "Only Shizune seems to be as cool as always, sitting with her back perfectly straight, arms folded on her chest, her eyes fixed on the equations scrawled on the blackboard."
+"มีแค่ชิซูเนะที่ยังดูเรียบร้อยเหมือนทุกที เธอนั่งกอดอกหลังตรงแหน็ว สายตาจับจ้องสมการยึกยือที่อยู่บนกระดาน"
 
-"I keep shooting yearning glances at my watch, but it doesn't help the time go by any faster."
+# "I keep shooting yearning glances at my watch, but it doesn't help the time go by any faster."
+"ฉันเอาแต่ก้มมองนาฬิกาตาละห้อย แต่ก็ไม่ได้ช่วยให้เวลาเร็วขึ้นเลย"
 
-"It's funny. I remember how badly I wanted to get out of the hospital and go back to school."
+# "It's funny. I remember how badly I wanted to get out of the hospital and go back to school."
+"ตลกดี ยังจำได้อยู่เลยว่าตอนนั้นอยากรีบ ๆ ออกจากโรงพยาบาลแล้วกลับไปเรียน"
 
-"Now all I can think of is the upcoming summer vacation, and freedom from classes and homework. Perhaps it's human nature to think only of the situation at hand."
+# "Now all I can think of is the upcoming summer vacation, and freedom from classes and homework. Perhaps it's human nature to think only of the situation at hand."
+"ตอนนี้ในหัวคิดถึงแต่ปิดเทอมฤดูร้อนที่ใกล้เข้ามากับอิสรภาพจากคาบเรียนและการบ้าน คงเป็นธรรมชาติของมนุษย์\nละมั้งที่จะคิดถึงแต่สถานการณ์ของตัวเองในปัจจุบัน"
 
 play sound sfx_normalbell
 
-"Finally the bell rings."
+# "Finally the bell rings."
+"และแล้วระฆังก็ดัง"
 
 play ambient sfx_crowd_indoors fadein 1.0
 
@@ -1331,152 +1440,193 @@ scene bg school_hallway3
 show crowd
 with locationchange
 
-"Relieved, my classmates and I burst out into the hallway already crowded by students from our neighboring classes."
+# "Relieved, my classmates and I burst out into the hallway already crowded by students from our neighboring classes."
+"เมื่อโล่งใจที่ได้ยินเสียงระฆัง ทั้งเพื่อนร่วมชั้นและฉันต่างกรูออกมาที่โถงทางเดินที่เต็มไปด้วยเหล่านักเรียนที่ออกมาจาก\nห้องใกล้เคียง"
 
 show emi basic_closedgrin at center
 with charaenter
 
-"I spot Emi's diminutive figure nearby and walk up to her."
+# "I spot Emi's diminutive figure nearby and walk up to her."
+"ฉันเห็นร่างเล็ก ๆ ของเอมิที่อยู่ใกล้ ๆ จึงเดินเข้าไปหา"
 
-hi "Hey there."
+# hi "Hey there."
+hi "ไง"
 
 show emi basic_grin
 with charachange
 
-"She smiles sweetly, clearly happy to see me."
+# "She smiles sweetly, clearly happy to see me."
+"รอยยิ้มหวานของเธอแสดงชัดว่าดีใจที่ได้เจอฉัน"
 
 show emi basic_happy
 with charachange
 
-emi "Hisao! What's up? Is your classroom super hot too?"
+# emi "Hisao! What's up? Is your classroom super hot too?"
+emi "ฮิซาโอะ! เป็นไงบ้าง ห้องนายร้อนตับแตกเลยมั้ย"
 
-hi "Yeah it is. I thought I was going to melt in there."
+# hi "Yeah it is. I thought I was going to melt in there."
+hi "อืม ร้อน นึกว่าจะสุกตายอยู่ในนั้นแล้ว"
 
-hi "Nothing else is really happening, though. Feeling a bit weird now that Rin's on her great adventure or whatever you want to call it."
+# hi "Nothing else is really happening, though. Feeling a bit weird now that Rin's on her great adventure or whatever you want to call it."
+hi "แต่ก็ไม่ได้มีอะไรเป็นพิเศษอะนะ รู้สึกแปลก ๆ หน่อยที่รินเขาออกไปผจญภัยครั้งใหญ่หรืออะไรนั่นอยู่น่ะ"
 
 show emi happybounce
 with Pause(0.5)
 
-"Emi's face cracks in a wider smile and she jumps up and down enthusiastically."
+# "Emi's face cracks in a wider smile and she jumps up and down enthusiastically."
+"เอมิยิ้มกว้างขึ้นกว่าเก่าพลางโดดดึ๋ง ๆ อย่างกระตือรือร้น"
 
 show emi excited_joy at center
 with charachange
 
-emi "Isn't it great? I'm soooo happy for her, I bet everyone will like her paintings and she'll sell a lot of them and make piles of money."
+# emi "Isn't it great? I'm soooo happy for her, I bet everyone will like her paintings and she'll sell a lot of them and make piles of money."
+emi "สุดยอดเลยเนอะ ฉันล่ะยินดีกับรินม้ากมาก ทุกคนต้องชอบภาพวาดของรินแน่ ๆ จากนั้นก็จะได้ขายเยอะ ๆ ได้เงินแบบ\nเป็นกอบเป็นกำ"
 
-hi "Yeah, I'm sure it'll work out great."
+# hi "Yeah, I'm sure it'll work out great."
+hi "อื้ม ต้องไปได้สวยแน่"
 
 show emi sad_pout
 with charachange
 
-emi "I'm totally sulking at her, though."
+# emi "I'm totally sulking at her, though."
+emi "แต่ฉันงอนรินมากเลยนะเนี่ย"
 
-"She huffs angrily and places her hands firmly on her hips, even letting a little anger seep into her voice. It doesn't quite have the impact she's probably hoping for, but I say nothing."
+# "She huffs angrily and places her hands firmly on her hips, even letting a little anger seep into her voice. It doesn't quite have the impact she's probably hoping for, but I say nothing."
+"เธอทำเสียงฮึดฮัดแล้วยืนเท้าสะเอว น้ำเสียงเธอฟังดูโกรธ ๆ เล็กน้อย ท่าทีที่ออกมาอาจจะไม่ได้ดูโกรธจริงจังเท่าที่เธอ\nอยากให้เป็นสักเท่าไหร่ แต่ฉันก็ไม่พูดอะไร"
 
-hi "Why's that?"
+# hi "Why's that?"
+hi "ไหงงั้น"
 
 show emi sad_annoyed
 with charachange
 
-emi "She said that she doesn't want me to go see her."
+# emi "She said that she doesn't want me to go see her."
+emi "รินบอกว่าไม่อยากให้ฉันไปหา"
 
-hi "Oh yeah, she mentioned that. I guess she prefers to not be distracted. I can understand that."
+# hi "Oh yeah, she mentioned that. I guess she prefers to not be distracted. I can understand that."
+hi "อ้อ อืม เห็นว่างั้นอยู่ น่าจะไม่อยากให้อะไรมารบกวนมั้ง ก็เข้าใจได้แหละ"
 
 show emi sad_angry
 with charachange
 
-emi "I don't think I'm that much of a distraction! Besides, I'm sure she'll forget about sleeping and eating properly if someone's not there telling her to do it."
+# emi "I don't think I'm that much of a distraction! Besides, I'm sure she'll forget about sleeping and eating properly if someone's not there telling her to do it."
+emi "ฉันก็ไม่น่าเป็นตัวรบกวนอะไรขนาดนั้นนะ! อีกอย่าง ถ้าไม่มีคนไปตามจิกเดี๋ยวรินก็ลืมกินลืมนอนกันพอดี"
 
 show emi basic_annoyed
 with charachange
 
-emi "Sometimes she's like that, gets completely fixated on whatever and drops everything else."
+# emi "Sometimes she's like that, gets completely fixated on whatever and drops everything else."
+emi "บางทีเธอก็เป็นงั้นแหละ จดจ่ออยู่กับอะไรสักอย่างจนทิ้งทุกอย่างไปหมด"
 
 show emi sad_depressed
 with charachange
 
-emi "It really makes me worried, you know. Is she going to be all right?"
+# emi "It really makes me worried, you know. Is she going to be all right?"
+emi "ฉันละเป็นห่วงจริง ๆ จะไหวมั้ยเนี่ย"
 
-hi "Such friendship."
+# hi "Such friendship."
+hi "สนิทกันดีนะพวกเธอเนี่ย"
 
 
 ######################
 label th_R19a:
 #if seen "what about emi" three scenes earlier
 
-hi "Speaking of that… I don't even know if I should be saying this, but it's been bothering me."
+# hi "Speaking of that… I don't even know if I should be saying this, but it's been bothering me."
+hi "จะว่าไป… ไม่รู้จะพูดดีมั้ย แต่คือฉันคาใจมาสักพักแล้ว"
 
-hi "How do I put it…? Rin said that she doesn't really see you as a friend… or something. And I really can't figure why she would say something like that."
+# hi "How do I put it…? Rin said that she doesn't really see you as a friend… or something. And I really can't figure why she would say something like that."
+hi "จะว่ายังไงดี… รินบอกว่าไม่ได้มองเธอเป็นเพื่อนอะไรขนาดนั้น… หรืออะไรสักอย่าง แล้วฉันก็ไม่รู้ด้วยว่าทำไมรินถึงได้\nพูดอย่างนั้น"
 
-hi "You two seem to be so close."
+# hi "You two seem to be so close."
+hi "เธอสองคนก็ดูสนิทกันขนาดนั้น"
 
 show emi sad_shy
 with charachange
 
-"I feel really awkward saying it, but I've finally managed to get the words out. Emi doesn't seem to be too shocked, but it gives her pause for a moment. Even her perpetual smile flattens into a more difficult expression."
+# "I feel really awkward saying it, but I've finally managed to get the words out. Emi doesn't seem to be too shocked, but it gives her pause for a moment. Even her perpetual smile flattens into a more difficult expression."
+"พูดแล้วก็กระอักกระอ่วนชะมัด แต่ก็ได้พูดแล้วละนะ เอมิดูจะไม่ตกใจอะไรเท่าไหร่ แต่เธอก็ชะงักไปครู่หนึ่ง แม้แต่รอยยิ้ม\nที่ฉายอยู่บนหน้าเธอเสมอยังจางลงเป็นสีหน้าที่เคร่งขึ้นมา"
 
 show emi sad_grin
 with charachange
 
-emi "Ahaha, is that so? I guess I'm maybe more like a big sister or something to her."
+# emi "Ahaha, is that so? I guess I'm maybe more like a big sister or something to her."
+emi "อะฮ่าฮ่า งั้นเหรอ งั้นรินก็น่าจะมองว่าฉันเป็นพี่สาวหรืออะไรประมาณนั้นมากกว่าละมั้ง"
 
-hi "Excuse me? Big sister? You?"
+# hi "Excuse me? Big sister? You?"
+hi "ทานโทษ พี่สาว? เธอเนี่ยนะ"
 
 show emi excited_circle
 with charachange
 
-"I put my hand on top of my head and then hers, as if to measure and re-confirm our heights. Emi playfully slaps me on the wrist and sticks her tongue out, looking annoyed."
+# "I put my hand on top of my head and then hers, as if to measure and re-confirm our heights. Emi playfully slaps me on the wrist and sticks her tongue out, looking annoyed."
+"ฉันเต๊ะมือทาบส่วนสูงบนหัวฉันแล้วเลื่อนไปบนหัวเธอราวกับจะวัดและยืนยันส่วนสูงของพวกเราสองคนอีกที เอมิตบเพียะ\nเบา ๆ เข้าที่ข้อมือฉันแล้วแลบลิ้นด้วยท่าทีโกรธ ๆ"
 
 show emi basic_annoyed
 with charachange
 
-emi "Hey, that's hitting below the belt. I thought you were more of a gentleman."
+# emi "Hey, that's hitting below the belt. I thought you were more of a gentleman."
+emi "เล่นขี้โกงนี่ นึกว่านายจะมีความเป็นสุภาพบุรุษมากกว่านี้เสียอีก"
 
-hi "Sorry, I just couldn't resist. Too easy."
+# hi "Sorry, I just couldn't resist. Too easy."
+hi "โทษที พอดีอดใจไม่ไหวน่ะ เล่นง่ายดี"
 
-"I really wanted to make the joke to soften the mood rather than to make fun of Emi, though."
+# "I really wanted to make the joke to soften the mood rather than to make fun of Emi, though."
+"แต่เอาจริง ๆ ที่หยอกไปก็ไม่ได้กะจะล้อเอมิหรอก กะจะให้บรรยากาศมันไม่เครียดมากกว่า"
 
 show emi basic_grin
 with charachange
 
-emi "But I am serious. Besides, I'm a year older than Rin is, or even you, for that matter. So there."
+# emi "But I am serious. Besides, I'm a year older than Rin is, or even you, for that matter. So there."
+emi "แต่ฉันพูดจริง ๆ นะ อีกอย่าง ฉันแก่กว่ารินไปหนึ่งปี แล้วก็แก่กว่านายไปหนึ่งปีด้วยเหมือนกัน ก็เลยนั่นแหละ"
 
-hi "Really?"
+# hi "Really?"
+hi "จริงเหรอ"
 
 show emi sad_shy
 with charachange
 
-emi "Yeah. I missed a year of school when I relearned to walk and run with these legs."
+# emi "Yeah. I missed a year of school when I relearned to walk and run with these legs."
+emi "อื้ม ฉันต้องหยุดเรียนไปหนึ่งปีเพราะต้องไปหัดเดินหัดวิ่งด้วยขาเทียมน่ะ"
 
-hi "Oh, right. That makes sense."
+# hi "Oh, right. That makes sense."
+hi "อ้อ เหรอ อย่างนี้นี่เอง"
 
-"I should've figured that out by myself. In my defense, her tiny figure is really misleading."
+# "I should've figured that out by myself. In my defense, her tiny figure is really misleading."
+"ฉันน่าจะคิดได้เองด้วยซ้ำ แต่เอาจริง ๆ แค่เห็นรูปร่างเธอก็คงเดาไม่ออกหรอก"
 
 show emi sad_grin
 with charachange
 
-"Emi smiles wryly and something deep and hidden floats up into her eyes, like a swirling vortex suddenly appearing in an otherwise calm river."
+# "Emi smiles wryly and something deep and hidden floats up into her eyes, like a swirling vortex suddenly appearing in an otherwise calm river."
+"เอมิยิ้มแห้ง ๆ ภายในตาเธอมีบางอย่างที่ซุกซ่อนอยู่ภายใต้ลอยโผล่ขึ้นมาเหมือนเกลียวน้ำวนที่อยู่ ๆ ก็ปรากฏท่ามกลาง\nสายน้ำที่ไหลเอื่อย"
 
 show emi basic_grin
 with charachange
 
-"I watch her struggle with it for a brief moment, until she blinks it away and her smile widens."
+# "I watch her struggle with it for a brief moment, until she blinks it away and her smile widens."
+"ฉันมองเธอที่กำลังต่อต้านสิ่งนั้นอยู่พักหนึ่ง และพอกะพริบตาไล่สิ่งนั้นไปแล้วเธอก็คลี่ยิ้มออกมา"
 
 show emi basic_closedhappy
 with charachange
 
-emi "Anyway, it's true. She's just so cute that I want to pamper her. I've always wanted a little sister but, well… I guess I ended up never getting one."
+# emi "Anyway, it's true. She's just so cute that I want to pamper her. I've always wanted a little sister but, well… I guess I ended up never getting one."
+emi "แต่ก็นั่นแหละ รินน่ะน่ารักจนฉันอยากตามเอาอกเอาใจ ฉันน่ะฝันอยากมีน้องสาวสักคนนะ แต่ว่า… ก็คงไม่ได้แล้วละนะ"
 
 show emi sad_grin
 with charachange
 
-emi "It's a little bit hard to really talk with Rin, so I guess I never really tried."
+# emi "It's a little bit hard to really talk with Rin, so I guess I never really tried."
+emi "จะให้คุยกับรินแบบจริงจังสักทีก็แอบยากเหมือนกัน เพราะงั้นก็น่าจะเป็นเพราะฉันพยายามไม่พอด้วยมั้ง"
 
-emi "I like her a lot though, so hearing that she said that doesn't make me happy. It's not like I can really argue, so maybe that's just how it is."
+# emi "I like her a lot though, so hearing that she said that doesn't make me happy. It's not like I can really argue, so maybe that's just how it is."
+emi "แต่ฉันชอบรินมากเลยนะ พอได้ยินอย่างนั้นแล้วฉันใจแป้วเลย แต่จะเถียงก็เถียงไม่ออก งั้นก็คงจะเป็นอย่างนั้นแหละ"
 
-emi "We are really close, but maybe it's just not in that way, you know?"
+# emi "We are really close, but maybe it's just not in that way, you know?"
+emi "พวกเราใกล้ชิดกันมาก แต่อาจจะไม่ได้ใกล้ชิดกันในทำนองอย่างนั้น ละมั้ง"
 
-"She sighs loudly."
+# "She sighs loudly."
+"เธอถอนหายใจพรืด"
 
 
 ######################
@@ -1485,95 +1635,118 @@ label th_R19b:
 show emi sad_shy
 with charachange
 
-emi "I wonder…"
+# emi "I wonder…"
+emi "มั้งนะ…"
 
 show emi sad_depressed
 with charachange
 
-emi "I wonder if she thinks I'm annoying."
+# emi "I wonder if she thinks I'm annoying."
+emi "รินจะคิดว่าฉันน่ารำคาญหรือเปล่า…"
 
-hi "I'm pretty sure that's not the case at all."
-
-show emi sad_grin
-with charachange
-
-"Emi shakes her head, looking amused. I'm not sure if she's joking or not."
-
-show emi basic_grin
-with charachange
-
-emi "She has these weird ideas about a lot of stuff. Things just make sense to her in a totally different way than they do to me. I can't even remember all the weird stuff she's talked about over all this time."
-
-show emi basic_closedgrin
-with charachange
-
-emi "I don't think Rin does either, really. She's the type who would forget her own head if it wasn't attached to her shoulders. That's why I just can't leave her alone."
+# hi "I'm pretty sure that's not the case at all."
+hi "ฉันว่ารินไม่คิดอย่างนั้นหรอก"
 
 show emi sad_grin
 with charachange
 
-emi "Is that weird?"
-
-"She leans against the wall, managing to look distraught, yet still cheerful as always. I get a strange feeling about it, as though I were talking to two people at the same time."
-
-hi "How would I know? Everyone's weird in some way, but if that's yours, it's a very nice way. At least I can understand what you're talking about, unlike Rin."
-
-hi "Most of the time, I have no idea about what's going on inside her head either."
-
-show emi basic_closedgrin
-with charachange
-
-"Emi giggles, nodding in agreement."
+# "Emi shakes her head, looking amused. I'm not sure if she's joking or not."
+"เอมิส่ายหัวยิ้ม ๆ ไม่รู้ว่าเธอพูดเล่นหรือพูดจริง"
 
 show emi basic_grin
 with charachange
 
-emi "I think it's okay even if you don't understand her. That's how she usually is."
+# emi "She has these weird ideas about a lot of stuff. Things just make sense to her in a totally different way than they do to me. I can't even remember all the weird stuff she's talked about over all this time."
+emi "รินน่ะชอบคิดอะไรแปลก ๆ เรื่อยเลย เธอเข้าใจโลกในแบบที่ไม่เหมือนอย่างฉันเข้าใจ ฉันจำอะไรแปลก ๆ ที่เธอพูดมา\nจนทุกวันนี้ได้ไม่หมดด้วยซ้ำ"
 
-"Emi stands up straighter, brushing the hem of her skirt and straightening the waistline. She laughs awkwardly."
+show emi basic_closedgrin
+with charachange
+
+# emi "I don't think Rin does either, really. She's the type who would forget her own head if it wasn't attached to her shoulders. That's why I just can't leave her alone."
+emi "จริง ๆ ขนาดเจ้าตัวก็คงจำไม่ได้ด้วยซ้ำ รินเป็นพวกที่ว่าถ้าหัวไม่ได้ติดอยู่กับบ่าก็คงลืมไว้ที่บ้านแล้ว นั่นแหละฉันถึงคอย\nตามดูตลอด"
+
+show emi sad_grin
+with charachange
+
+# emi "Is that weird?"
+emi "แปลกมั้ย"
+
+# "She leans against the wall, managing to look distraught, yet still cheerful as always. I get a strange feeling about it, as though I were talking to two people at the same time."
+"เธอยืนพิงผนังทำหน้ายุ่ง แต่ก็ยังดูร่าเริงเหมือนทุกที เห็นแล้วก็รู้สึกแปลก ๆ เหมือนกับว่าตอนนี้กำลังคุยอยู่กับสองคน\nไปพร้อม ๆ กันเลย"
+
+# hi "How would I know? Everyone's weird in some way, but if that's yours, it's a very nice way. At least I can understand what you're talking about, unlike Rin."
+hi "ถามฉันแล้วฉันจะถามใคร คนเราต่างก็แปลกกันไปคนละแบบทั้งนั้นแหละ แต่ของเธอก็คงจะแปลกในแบบที่ดีมาก ๆ\nเพราะอย่างน้อยฉันก็เข้าใจสิ่งที่เธอพูด ไม่เหมือนอย่างริน"
+
+# hi "Most of the time, I have no idea about what's going on inside her head either."
+hi "หลาย ๆ ครั้งฉันก็ไม่เข้าใจว่ารินคิดอะไรอยู่เหมือนกัน"
+
+show emi basic_closedgrin
+with charachange
+
+# "Emi giggles, nodding in agreement."
+"เอมิหัวเราะคิกคักพลางพยักหน้าเห็นด้วย"
+
+show emi basic_grin
+with charachange
+
+# emi "I think it's okay even if you don't understand her. That's how she usually is."
+emi "ฉันว่าต่อให้นายไม่เข้าใจรินก็ไม่เป็นไรหรอก ปกติรินก็เป็นอย่างนั้นแหละ"
+
+# "Emi stands up straighter, brushing the hem of her skirt and straightening the waistline. She laughs awkwardly."
+"เอมิยืดตัวยืนตรงปัด ๆ ชายกระโปรงพลางรีด ๆ ตามชายเสื้อแล้วหัวเราะเจื่อน ๆ"
 
 show emi excited_proud
 with charachange
 
-emi "Ahaha, wow, we ended up talking pretty seriously. What's up with you, Hisao? Why'd you bring this up?"
+# emi "Ahaha, wow, we ended up talking pretty seriously. What's up with you, Hisao? Why'd you bring this up?"
+emi "อะฮ่าฮ่า โห คุยเอาจริงเอาจังเลยนะเนี่ย นายเป็นอะไรไปเนี่ยฮิซาโอะ ทำไมถึงเอาเรื่องนี้มาพูด"
 
-hi "Oh, sorry. I didn't really mean to get into this sort of discussion, either. I just… I don't know. I've had this weird feeling lately, about Rin."
+# hi "Oh, sorry. I didn't really mean to get into this sort of discussion, either. I just… I don't know. I've had this weird feeling lately, about Rin."
+hi "อ้อ โทษที ไม่ได้ตั้งใจจะให้เรื่องมันเป็นอย่างนี้เหมือนกัน แค่ว่า… ไม่รู้สิ ช่วงนี้ฉันรู้สึกแปลก ๆ ยังไงไม่รู้กับรินน่ะ"
 
-hi "I don't know why."
+# hi "I don't know why."
+hi "ไม่รู้ทำไมเหมือนกัน"
 
-"I feel a bit guilty, bringing up something like this for no reason except my own anxiety."
+# "I feel a bit guilty, bringing up something like this for no reason except my own anxiety."
+"แอบรู้สึกผิดแฮะที่เอาเรื่องนี้มาคุยแค่เพราะตัวเองลำบากใจ"
 
 show emi basic_closedhappy
 with charachange
 
-emi "It'll be fine. Don't worry about it."
+# emi "It'll be fine. Don't worry about it."
+emi "ไม่เป็นไรหรอกน่า ไม่ต้องคิดมาก"
 
 show emi excited_happy_close
 with characlose
 
-"Suddenly Emi clutches my wrist and twists it so she can see what time is it from my watch."
+# "Suddenly Emi clutches my wrist and twists it so she can see what time is it from my watch."
+"อยู่ ๆ เอมิก็คว้าหมับเข้าที่ข้อมือแล้วบิดเพื่อดูเวลาจากนาฬิกาข้อมือฉัน"
 
 show emi basic_hes_close
 with charachange
 
-emi "Oh damn, this late already? I should really go, there's a meeting with the rest of the track team at the field."
+# emi "Oh damn, this late already? I should really go, there's a meeting with the rest of the track team at the field."
+emi "ตายแล้ว ป่านนี้แล้วเหรอเนี่ย ต้องไปแล้วละ พอดีต้องไปทำกิจกรรมของชมรมกรีฑาน่ะ"
 
 show emi sad_shy_close
 with charachange
 
-emi "It's not going to be fun in this heat. We're going to sweat like pigs, but I promised I'd be there."
+# emi "It's not going to be fun in this heat. We're going to sweat like pigs, but I promised I'd be there."
+emi "ไม่ไหว ๆ ร้อนขนาดนี้คงเหงื่อท่วมกันตายเลย แต่ก็รับปากไว้แล้วว่าจะไป"
 
 show emi basic_happy_close
 with charachange
 
-emi "Bye bye!"
+# emi "Bye bye!"
+emi "บ๊ายบาย!"
 
 stop music fadeout 10.0
 
 hide emi
 with charaexit
 
-"She skips downstairs, leaving me wondering if what I said - or what Rin said, rather - hurt her or not. Maybe what Emi herself said hurt her the most, come to that."
+# "She skips downstairs, leaving me wondering if what I said - or what Rin said, rather - hurt her or not. Maybe what Emi herself said hurt her the most, come to that."
+"เอมิโดดลงตามบันไดไป ทิ้งให้ฉันยืนสงสัยว่าสิ่งที่ฉันพูดที่จริง ๆ แล้วรินเป็นคนพูดนั้นทำร้ายจิตใจเธอหรือเปล่า หรือ\nเอาเข้าจริง ๆ แล้ว สิ่งที่ตัวเอมิพูดเองนั้นอาจจะเป็นสิ่งที่ทำร้ายจิตใจเธอหนักที่สุด"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 
@@ -1581,15 +1754,20 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n\n\nSo in the end, even the person closest to Rin is just as far apart from her as everyone else."
+# n "\n\n\n\nSo in the end, even the person closest to Rin is just as far apart from her as everyone else."
+n "\n\n\n\nสุดท้ายแล้ว แม้แต่คนที่ใกล้ชิดกับรินที่สุดยังอยู่ห่างจากรินในระยะที่ไม่ต่างจากคนอื่น"
 
-n "I wonder if Rin herself ever feels that distance."
+# n "I wonder if Rin herself ever feels that distance."
+n "ตัวรินเองจะรู้สึกได้ถึงระยะนั้นหรือเปล่านะ"
 
-n "I've felt like I was drifting away from the world too, during my hospitalization. I felt anxious and depressed, and even now, I sometimes still do. But I fight against it with all I've got."
+# n "I've felt like I was drifting away from the world too, during my hospitalization. I felt anxious and depressed, and even now, I sometimes still do. But I fight against it with all I've got."
+n "ช่วงที่อยู่โรงพยาบาลฉันก็รู้สึกว่าตัวเองออกห่างจากโลกไปเรื่อย ๆ เหมือนกัน ตอนนั้นทั้งเครียดทั้งเศร้า ตอนนี้ก็ยังมี\nบ้างแหละ แต่ถึงอย่างนั้นฉันก็สู้กับสิ่งนั้นสุดกำลัง"
 
-n "If Rin has been on that side of the divide for her whole life, I can't imagine how she could not be lonely, but perhaps she's truly different."
+# n "If Rin has been on that side of the divide for her whole life, I can't imagine how she could not be lonely, but perhaps she's truly different."
+n "ถ้ารินอยู่อีกฟากฝั่งหนึ่งนั้นมาทั้งชีวิต ยังไงเธอก็คงต้องโดดเดี่ยว แต่ไม่แน่ว่าเธออาจจะไม่เหมือนอย่างคนทั่วไปก็ได้"
 
-n "\nI refuse to belong to that other place, but maybe she's found comfort there."
+# n "\nI refuse to belong to that other place, but maybe she's found comfort there."
+n "\nฉันไม่ยอมที่จะอยู่ตรงจุดนั้น แต่บางทีเธออาจจะสบายใจที่ได้อยู่ตรงนั้น"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="ambient")
 
@@ -1609,133 +1787,172 @@ with shorttimeskip
 
 window show
 
-"As I walk through the hall that afternoon, I glance at my watch. It's almost half past four."
+# "As I walk through the hall that afternoon, I glance at my watch. It's almost half past four."
+"บ่ายนั้นระหว่างที่เดินไปตามโถงทางเดินฉันก้มมองนาฬิกาที่บอกเวลาเกือบจะสี่โมงครึ่ง"
 
-"I would normally have a club meeting to attend, but I don't feel like going to the art club at all so I start heading the opposite way."
+# "I would normally have a club meeting to attend, but I don't feel like going to the art club at all so I start heading the opposite way."
+"ทุกทีจะต้องไปทำกิจกรรมชมรม แต่ในเมื่อไม่มีอารมณ์จะไปชมรมศิลปะฉันจึงเดินมาอีกทาง"
 
-"It feels like a poorly chosen decision. I just know that if I skip club once, I'm going to skip it again, and again. This is probably it for me and the art club."
+# "It feels like a poorly chosen decision. I just know that if I skip club once, I'm going to skip it again, and again. This is probably it for me and the art club."
+"เหมือนเป็นการตัดสินใจที่แย่เอามาก ๆ ฉันรู้ดีว่าถ้าโดดชมรมไปหนึ่งครั้ง ครั้งต่อ ๆ ไปก็จะตามมา ระหว่างฉันและ\nชมรมศิลปะคงจบกันเท่านี้ละ"
 
-"It's been bubbling beneath the surface for a while now, though. I guess I'll formally quit later."
+# "It's been bubbling beneath the surface for a while now, though. I guess I'll formally quit later."
+"แต่ก็คิดมาสักพักแล้วละนะ ไว้ค่อยไปลาออกให้เป็นเรื่องเป็นราวอีกทีแล้วกัน"
 
-"I keep watching the bland linoleum floor while I walk without a direction. This leads me - perhaps unconsciously? - to the school library."
+# "I keep watching the bland linoleum floor while I walk without a direction. This leads me - perhaps unconsciously? - to the school library."
+"ฉันเดินเรื่อยเปื่อยก้มหน้ามองพื้นกระเบื้องยางจืด ๆ ซึ่งพอรู้ตัวอีกทีเท้าฉันก็พามายังห้องสมุดโรงเรียนโดยน่าจะไม่รู้ตัว"
 
 play music music_happiness fadein 2.0
 
 scene bg school_library at right
 with locationchange
 
-"It's almost empty, and completely quiet. A few studious first-years are sitting at the tables, joining efforts to get homework done before dinnertime."
+# "It's almost empty, and completely quiet. A few studious first-years are sitting at the tables, joining efforts to get homework done before dinnertime."
+"ภายในนั้นแทบไม่มีใครและเงียบสงัด มีนักเรียนปีที่หนึ่งแสนขยันอยู่สองสามคนที่กำลังช่วยกันนั่งทำการบ้านอยู่ด้วยกัน\nให้เสร็จทันก่อนมื้อเย็น"
 
-"Yuuko is hard at work today, too. She's methodically going through a towering stack of books sitting on her desk, checking them one by one and then placing them onto a cart beside her. I greet her as I stop by."
+# "Yuuko is hard at work today, too. She's methodically going through a towering stack of books sitting on her desk, checking them one by one and then placing them onto a cart beside her. I greet her as I stop by."
+"วันนี้ยูโกะก็ตั้งใจทำงานดีเหมือนเดิม เธอกำลังจัดการกองหนังสือที่ตั้งซ้อนกันอยู่บนโต๊ะไปอย่างเป็นระเบียบ คอยหยิบ\nมาเช็กทีละเล่มก่อนจะวางไว้ที่รถเข็นข้าง ๆ เธอ พอฉันเดินผ่านก็ทักทาย"
 
 show yuuko happy_down at center
 with charaenter
 
-yu "Good afternoon."
+# yu "Good afternoon."
+yu "ทิวาสวัสดิ์"
 
 show yuuko neutral_down
 with charachange
 
-yu "I haven't seen you here for a while. Did you read all the books already?"
+# yu "I haven't seen you here for a while. Did you read all the books already?"
+yu "ไม่เห็นแวะมาสักพักแล้วนะ อ่านหนังสือหมดแล้วเหรอ"
 
-"She seems to be in a good mood."
+# "She seems to be in a good mood."
+"ดูท่าว่าจะอารมณ์ดี"
 
-hi "Haha, I don't think so. I joined the art club, so I've been passing the time there instead of working my way through your collection."
+# hi "Haha, I don't think so. I joined the art club, so I've been passing the time there instead of working my way through your collection."
+hi "ฮะ ๆ ไม่น่านะครับ พอดีผมเข้าชมรมศิลปะแล้วเลยเอาเวลาไปลงกับที่นู่นเสียเยอะ ไม่ได้มาอ่านหนังสือที่ยืมไป\nเท่าไหร่เลย"
 
-hi "I think I'm going to quit, though, so I guess you'll be seeing more of me again, from now on."
+# hi "I think I'm going to quit, though, so I guess you'll be seeing more of me again, from now on."
+hi "แต่ผมก็กะว่าจะออกแล้ว จากนี้ไปก็น่าจะได้เห็นหน้าผมบ่อยขึ้นแล้วละนะครับ"
 
 show yuuko worried_up
 with charachange
 
-yu "You didn't like the club?"
+# yu "You didn't like the club?"
+yu "ไม่ชอบชมรมเหรอ"
 
-hi "Honestly? I don't know. I don't have much of a talent for art, but I didn't hate doing it, either."
+# hi "Honestly? I don't know. I don't have much of a talent for art, but I didn't hate doing it, either."
+hi "เอาตรง ๆ มั้ยครับ ผมก็ไม่รู้ ผมไม่ได้มีพรสวรรค์ทางด้านศิลปะเท่าไหร่ แต่ก็ไม่ได้เกลียดศิลปะเหมือนกัน"
 
-hi "I guess it just feels a bit pointless. I can't really see any purpose in going."
+# hi "I guess it just feels a bit pointless. I can't really see any purpose in going."
+hi "อาจจะแค่รู้สึกว่าไม่รู้จะทำไปทำไมมั้งครับ อยู่ไปก็ไม่มีเป้าหมายอะไร"
 
 show yuuko worried_down
 with charachange
 
-yu "The art teacher scares me a little."
+# yu "The art teacher scares me a little."
+yu "ฉันน่ะแอบกลัวครูศิลปะนะ"
 
-hi "Really? He seems like a really nice guy. Maybe a bit over the top, sometimes."
+# hi "Really? He seems like a really nice guy. Maybe a bit over the top, sometimes."
+hi "จริงเหรอครับ เขาก็ดูเป็นคนดีนะ ถึงบางทีอาจจะทำอะไรเกินไปหน่อยก็เถอะ"
 
-"Yuuko makes a face I can't read, but doesn't say anything further."
+# "Yuuko makes a face I can't read, but doesn't say anything further."
+"ฉันดูไม่ออกว่าตอนนี้ยูโกะคิดอะไรอยู่ เธอก็ไม่พูดอะไรอีก"
 
-hi "How are you doing?"
+# hi "How are you doing?"
+hi "แล้วคุณเป็นยังไงบ้างครับ"
 
 show yuuko smile_down
 with charachange
 
-yu "Something good happened to me today. I didn't flunk my university course."
+# yu "Something good happened to me today. I didn't flunk my university course."
+yu "วันนี้มีเรื่องดี ๆ ละ หน่วยกิตที่มหาลัยฉันได้ครบแล้ว"
 
-hi "Well, that's great, isn't it?"
+# hi "Well, that's great, isn't it?"
+hi "เอ งั้นก็ดีแล้วละครับ"
 
 show yuuko closedhappy_up
 with charachange
 
-yu "Yes! Without the credit I might've been kicked out and then I'd have had a lot of explaining to do to my family. I'm really lucky."
+# yu "Yes! Without the credit I might've been kicked out and then I'd have had a lot of explaining to do to my family. I'm really lucky."
+yu "ใช่! ถ้าหน่วยกิตไม่พอฉันคงโดนไล่ออกแล้วต้องเอาไปเล่าที่บ้านอีกยาวแน่ โชคดีจริง ๆ"
 
 show yuuko smile_up
 with charachange
 
-yu "I think I'm going to buy pudding today to celebrate."
+# yu "I think I'm going to buy pudding today to celebrate."
+yu "กะว่าวันนี้จะไปซื้อพุดดิงฉลองด้วย"
 
-hi "Being a university student sounds hard. I'm surprised you're working two jobs while still attending."
+# hi "Being a university student sounds hard. I'm surprised you're working two jobs while still attending."
+hi "เรียนมหาลัยนี่ฟังดูลำบากจังเลยนะครับ ผมละทึ่งจริง ๆ ที่คุณทำงานสองที่แล้วยังไปเข้าเรียนได้อยู่เนี่ย"
 
 show yuuko worried_down
 with charachange
 
-yu "My part-time work really makes it hard to keep up with my studies, and I get yelled at by my student counselor."
+# yu "My part-time work really makes it hard to keep up with my studies, and I get yelled at by my student counselor."
+hi "งานพาร์ทไทม์น่ะทำให้ตามเรื่องเรียนลำบาก แล้วจะโดนอาจารย์ที่ปรึกษาดุด้วย"
 
-yu "And then if I stay up late studying, I get sleepy at work and my boss yells at me."
+# yu "And then if I stay up late studying, I get sleepy at work and my boss yells at me."
+yu "แล้วถ้าอ่านหนังสือจนดึกดื่นก็จะต้องไปทำงานสภาพง่วง ๆ แล้วก็โดนเจ้านายดุอีก"
 
 show yuuko worried_up
 with charachange
 
-yu "But if I quit my jobs I'll starve."
+# yu "But if I quit my jobs I'll starve."
+yu "แต่ถ้าลาออกจากงานฉันก็จะอดตาย"
 
 show yuuko neurotic_up
 with charachange
 
-yu "It's like I just can't win, ehehe. I wonder why it's like that."
+# yu "It's like I just can't win, ehehe. I wonder why it's like that."
+yu "เหมือนไม่มีทางรอดเลย เฮะ ๆ ทำไมถึงเป็นงั้นนะ"
 
-"I don't really know what to say. Yuuko isn't really complaining to get empathy out of a guy a lot younger than her. She's basically just talking about the facts of her everyday life."
+# "I don't really know what to say. Yuuko isn't really complaining to get empathy out of a guy a lot younger than her. She's basically just talking about the facts of her everyday life."
+"ฉันไม่รู้จะตอบอะไร ยูโกะไม่ได้บ่นเพื่อจะให้ชายที่อายุน้อยกว่าเธอไปหลายปีมาสงสารตัวเอง เธอแค่เล่าถึงความเป็นจริง\nในชีวิตประจำวันเธอเท่านั้น"
 
-"It makes me feel even more pity for her, somehow."
+# "It makes me feel even more pity for her, somehow."
+"แต่ก็ทำให้ฉันยิ่งสงสารเธอเข้าไปอีกยังไงไม่รู้"
 
-hi "Wow, must be hard for you."
+# hi "Wow, must be hard for you."
+hi "โห ลำบากน่าดูเลยนะครับ"
 
 show yuuko neutral_down
 with charachange
 
-yu "I don't know. It's been like this for so long that I've forgotten what it's like to have a normal life. Or maybe this already is a normal life for my age."
+# yu "I don't know. It's been like this for so long that I've forgotten what it's like to have a normal life. Or maybe this already is a normal life for my age."
+yu "ไม่รู้สิ มันเป็นอย่างนี้มานานจนฉันลืมแล้วว่าชีวิตปกติเป็นยังไง หรือไม่ก็นี่อาจจะเป็นเรื่องปกติของคนรุ่นฉันก็ได้"
 
 show yuuko worried_down
 with charachange
 
-yu "Is this normal? It is, right? It must be. Why is being normal so depressing?"
+# yu "Is this normal? It is, right? It must be. Why is being normal so depressing?"
+yu "ปกติมั้ยนะ ปกติแหละ ต้องปกติแน่ ๆ ทำไมการทำตัวให้ปกติมันเครียดอย่างนี้นะ"
 
-hi "I couldn't say. Not like being abnormal's much different, though."
+# hi "I couldn't say. Not like being abnormal's much different, though."
+hi "ไม่รู้สิครับ แต่การทำตัวไม่ปกติก็คงไม่ต่างกันเท่าไหร่หรอก"
 
 show yuuko panic_up
 with charachange
 
-yu "Oh, I didn't mean it like that! Sorry, sorry, sorry! I just got carried away."
+# yu "Oh, I didn't mean it like that! Sorry, sorry, sorry! I just got carried away."
+yu "อ๊ะ ไม่ได้จะหมายความอย่างนั้นนะ! โทษที ๆ ๆ ! เผลอคุยยาวเลย"
 
-hi "It's fine. It was a joke, sort of. Anyway, you seem to be doing just fine now."
+# hi "It's fine. It was a joke, sort of. Anyway, you seem to be doing just fine now."
+hi "ไม่เป็นไรหรอกครับ หยอก ๆ น่าครับ แต่ตอนนี้คุณก็ดูสบายดีนะ"
 
 show yuuko closedhappy_down
 with charachange
 
-yu "Yes, when I feel really down, I take a step back and make a cup of tea! And when I've drunk the tea, I give my mood a kick in the butt, like WHAM! and then I tell myself “now you are going to do this thing, Yuuko!” and then I go and get it done!"
+# yu "Yes, when I feel really down, I take a step back and make a cup of tea! And when I've drunk the tea, I give my mood a kick in the butt, like WHAM! and then I tell myself “now you are going to do this thing, Yuuko!” and then I go and get it done!"
+yu "อื้ม เวลาฉันเครียด ๆ ก็จะถอยออกมาก้าวหนึ่งก่อนแล้วก็ชงชา! แล้วพอดื่มชาฉันก็จะปลุกไฟในตัวด้วยการเอาน้ำมัน\nสาดแบบ ตู้ม! จากนั้นก็บอกกับตัวเองว่า “เธอต้องทำสิ่งนี้นะยูโกะ!” แล้วก็รีบไปทำให้เสร็จเลย!"
 
 show yuuko happy_up
 with charachange
 
-yu "That's why I'm working so hard now."
+# yu "That's why I'm working so hard now."
+yu "นั่นแหละฉันถึงได้ขยัน"
 
-"She clenches her fists dramatically at the high point of her spirited explanation. It's a bit unclear what she actually means, but it's nice that she is so motivated."
+# "She clenches her fists dramatically at the high point of her spirited explanation. It's a bit unclear what she actually means, but it's nice that she is so motivated."
+"พอถึงช่วงสำคัญของเรื่องเล่าเปี่ยมพลังนั้นเธอก็กำหมัดแบบเล่นใหญ่ สิ่งที่เธอจะสื่อนั้นไม่ค่อยชัดสักเท่าไหร่ แต่ขอแค่\nมีแรงขับเคลื่อนสู้ต่อก็ดีแล้วละนะ"
 
 stop music fadeout 10.0
 
@@ -1745,60 +1962,81 @@ with charaexit
 show bg school_library at left
 with charamove
 
-"Leaving Yuuko alone with her work, I head to the back of the library where the novels are. I briefly consider reading something nonfiction for a change, maybe a biography perhaps? But in the end, I decide against it."
+# "Leaving Yuuko alone with her work, I head to the back of the library where the novels are. I briefly consider reading something nonfiction for a change, maybe a biography perhaps? But in the end, I decide against it."
+"ฉันปล่อยให้ยูโกะทำงานต่อแล้วเดินมาที่ด้านหลังห้องสมุดที่เป็นหมวดนวนิยาย แวบหนึ่งฉันคิดจะอ่านหมวดสารคดี\nเปลี่ยนอารมณ์บ้าง ชีวประวัติงี้ แต่สุดท้ายก็พับแผนนั้นทิ้งไป"
 
-"My fingers trace the spines along the rows upon rows of novels. They occasionally pull out the random book so I can read the back and maybe sample the first two or three pages."
+# "My fingers trace the spines along the rows upon rows of novels. They occasionally pull out the random book so I can read the back and maybe sample the first two or three pages."
+"นิ้วฉันกรีดไปตามสันหนังสือหมวดนวนิยายที่เรียงเป็นแถบ บางจังหวะก็หยิบออกมาสักเล่มอ่านปกหลังดู บางทีก็อ่าน\nสองสามหน้าแรกไปด้วย"
 
-"Nothing really catches my interest, so I end up picking up a book I'd already read back in March or so, at the hospital. I recall liking it."
+# "Nothing really catches my interest, so I end up picking up a book I'd already read back in March or so, at the hospital. I recall liking it."
+"แต่เมื่อไม่มีเล่มไหนน่าสนใจฉันจึงหยิบเล่มที่ฉันอ่านไปแล้วช่วงเดือนมีนาตอนที่อยู่โรงพยาบาล เป็นเล่มที่ฉันจำได้\nว่าชอบ"
 
-"I sit down on one of the bean bag chairs and quickly get sucked into the book, turning pages at a rapid pace. I'm probably not the fastest reader around, but pretty fast all the same. Reading quickly makes me feel oddly satisfied."
+# "I sit down on one of the bean bag chairs and quickly get sucked into the book, turning pages at a rapid pace. I'm probably not the fastest reader around, but pretty fast all the same. Reading quickly makes me feel oddly satisfied."
+"ฉันนั่งลงกับบีนแบ็ก พอได้อ่านแล้วก็ติดหนึบเข้ากับหนังสือทันที นิ้วฉันพลิกไปหน้าต่อหน้าอย่างรวดเร็ว ฉันอาจจะ\nไม่ใช่คนที่อ่านเร็วมากมาย แต่ก็ยังถือได้ว่าค่อนข้างเร็ว พอได้อ่านเร็วแล้วทำให้ฉันรู้สึกอิ่มใจอย่างประหลาด"
 
-"Focusing on reading is something I'm pretty good at, too. I can cram-study pretty efficiently as well, as long as I stay motivated. It's the secret of my good grades, though I'm pretty diligent in class too."
+# "Focusing on reading is something I'm pretty good at, too. I can cram-study pretty efficiently as well, as long as I stay motivated. It's the secret of my good grades, though I'm pretty diligent in class too."
+"ฉันตั้งสมาธิอยู่กับการอ่านหนังสือได้ดี และตราบใดที่ฉันมีแรงขับเคลื่อน ฉันก็จะอ่านหนังสือเรียนให้ได้ผลที่ค่อนข้างดี\nได้เหมือนกัน นั่นคือเคล็ดลับที่ฉันเรียนได้คะแนนดี ถึงจริง ๆ จะขยันตั้งแต่อยู่ในห้องเรียนด้วยอยู่แล้วก็เถอะ"
 
-"That's what Rin and I have in common. She can really focus on painting if she wants to."
+# "That's what Rin and I have in common. She can really focus on painting if she wants to."
+"รินและฉันเหมือนกันก็ตรงนี้ รินเองก็จดจ่ออยู่กับการวาดรูปได้ถ้าเธอตั้งใจทำ"
 
-"I wonder what she's doing now. Probably hard at work, painting."
+# "I wonder what she's doing now. Probably hard at work, painting."
+"ตอนนี้เธอจะทำอะไรอยู่นะ อาจจะตั้งใจวาดรูปอยู่"
 
-"This distance that suddenly grew between us irritates me. I thought that we were getting closer, but now that feeling's been lost."
+# "This distance that suddenly grew between us irritates me. I thought that we were getting closer, but now that feeling's been lost."
+"ระยะห่างที่อยู่ ๆ ก็มาขวางกั้นระหว่างพวกเรานี้ทำให้ฉันหงุดหงิด ทั้งที่ก่อนหน้านี้เหมือนได้เข้าใกล้กันแล้ว แต่ตอนนี้\nความรู้สึกนั้นดันหายไป"
 
-"I'm a bit worried about her, too."
+# "I'm a bit worried about her, too."
+"ฉันเองก็แอบเป็นห่วงเธอด้วย"
 
 label th_choiceR20:
 
 menu: 
     with menueffect
 
-    "I can't make sense of my own thoughts."
+    # "I can't make sense of my own thoughts."
+    "ฉันไม่เข้าใจว่าตัวเองคิดอะไรอยู่"
 
-    "I can't leave her alone either.":
+    # "I can't leave her alone either.":
+    "ฉันปล่อยเธอไว้ตัวคนเดียวไม่ได้แน่":
         return m1
 
-    "I want to be with her more.":
+    # "I want to be with her more.":
+    "ฉันอยากอยู่กับเธอให้มากกว่านี้":
         return m2
 
 label th_R20a:
 
-"I share Emi's sentiment of being worried about Rin. She's the type who might get so caught up in her own strange world, and get lost in there before she knows it."
+# "I share Emi's sentiment of being worried about Rin. She's the type who might get so caught up in her own strange world, and get lost in there before she knows it."
+"ฉันเป็นห่วงรินเหมือนอย่างเอมิ รินเป็นคนจำพวกที่จะจมดิ่งอยู่กับโลกอันประหลาดของตัวเอง แล้วพอรู้ตัวอีกที\nก็ถึงเห็นว่าหลงทางเสียแล้ว"
 
-"It's not that I feel like being some kind of white knight who could save Rin from herself. She doesn't need saving. But I just can't leave her alone, either."
+# "It's not that I feel like being some kind of white knight who could save Rin from herself. She doesn't need saving. But I just can't leave her alone, either."
+"ใช่ว่าฉันจะอยากเป็นเจ้าชายขี่ม้าขาวไปช่วยเธอให้หลุดพ้นจากจุดนั้นของตัวเธอเองหรืออะไรหรอก รินไม่ได้ต้องการ\nความช่วยเหลือ แต่ฉันก็คงปล่อยเธอไว้ตัวคนเดียวไม่ได้แน่"
 
 label th_R20b:
 
-"Without Rin, I don't really have anyone else at school that I actually talk to. Not like we actually talk very much anyway, but at least we hang out."
+# "Without Rin, I don't really have anyone else at school that I actually talk to. Not like we actually talk very much anyway, but at least we hang out."
+"ถ้าไม่มีรินแล้ว ฉันก็ไม่ได้คุยอะไรเท่าไหร่กับคนอื่นในโรงเรียนนี้ ถึงเราสองคนจะไม่ได้คุยกันมากขนาดนั้นก็จริง\nแต่อย่างน้อยเราก็อยู่ด้วยกัน"
 
-"I really don't want to lose that."
+# "I really don't want to lose that."
+"ฉันไม่อยากเสียสิ่งนั้นไป"
 
 label th_R20c:
 
-"If I want to keep what I have with Rin going, I have to get involved with making this exhibition happen, right at her side."
+# "If I want to keep what I have with Rin going, I have to get involved with making this exhibition happen, right at her side."
+"ถ้าอยากจะให้ความสัมพันธ์ระหว่างฉันกับรินยังไปต่อ ฉันต้องคอยอยู่เคียงข้างเธอช่วยทำให้งานนิทรรศการนี้สำเร็จ\nลุล่วงให้ได้"
 
-"I realize I've been sitting on the same page for a while now. "
+# "I realize I've been sitting on the same page for a while now. "
+"ฉันเปิดค้างอยู่ที่หน้าเดิมมาสักพักแล้ว"
 
-"I turn my gaze back to the book I'm reading. The jungle of glyphs has somehow turned into a near-incomprehensible cipher. I stare hard at it, expecting the text to start making sense to me."
+# "I turn my gaze back to the book I'm reading. The jungle of glyphs has somehow turned into a near-incomprehensible cipher. I stare hard at it, expecting the text to start making sense to me."
+"ฉันหันกลับมาอ่านหนังสือต่อ ป่าอักขระบนหน้ากระดาษได้กลายเป็นรหัสที่ยากจะเข้าใจไปแล้ว ฉันเพ่งมองหวังให้\nตัวอักษรจะเป็นอะไรที่ฉันพอเข้าใจขึ้นมาบ้าง"
 
-"No pattern emerges, nothing that could take me any further than I am."
+# "No pattern emerges, nothing that could take me any further than I am."
+"ไม่มีอะไรที่คุ้นตาขึ้นมาเลย ฉันไปต่อไม่ได้อีก"
 
-"Dazed, I close the book, put it back on the shelf, then sit back down, and think honestly and hard about what I really want."
+# "Dazed, I close the book, put it back on the shelf, then sit back down, and think honestly and hard about what I really want."
+"ฉันปิดหนังสือไปเหม่อ ๆ แล้วเก็บกลับเข้าที่ชั้นวาง จากนั้นก็นั่งลงคิดทบทวนถามใจตัวเองถึงสิ่งที่ต้องการจริง ๆ"
 
 scene black
 with dissolve
@@ -1816,7 +2054,8 @@ with locationchange
 
 window show
 
-"Like Emi, I have a club meeting of my own, so I head straight to the art clubroom at the end of the hallway."
+# "Like Emi, I have a club meeting of my own, so I head straight to the art clubroom at the end of the hallway."
+"ฉันเองก็มีกิจกรรมชมรมเหมือนอย่างเอมิ ฉันจึงตรงดิ่งไปที่ห้องศิลปะที่อยู่สุดโถงทางเดิน"
 
 stop ambient fadeout 1.0
 play music music_dreamy fadein 4.0
@@ -1824,206 +2063,268 @@ play music music_dreamy fadein 4.0
 scene bg school_classroomart
 with locationchange
 
-"Only a few members are present today, so the mood's even more laid-back than usual."
+# "Only a few members are present today, so the mood's even more laid-back than usual."
+"วันนี้มีสมาชิกมาไม่กี่คน บรรยากาศจึงดูสบาย ๆ กว่าทุกทีเข้าไปอีก"
 
-"Rin is off working on her exhibition project, but I wonder if the rest are simply just playing hooky, defeated by the heat."
+# "Rin is off working on her exhibition project, but I wonder if the rest are simply just playing hooky, defeated by the heat."
+"รินไม่อยู่เพราะมีเรื่องงานนิทรรศการ แต่คนที่เหลือน่าจะแค่โดดไปเฉย ๆ เพราะเพลียแดดมากกว่า"
 
-"I half-assedly sketch something with a piece of graphite, but do a poor job of it. My fingertips are turning pitch black from holding the graphite and smudging it on the paper, accidentally and on purpose."
+# "I half-assedly sketch something with a piece of graphite, but do a poor job of it. My fingertips are turning pitch black from holding the graphite and smudging it on the paper, accidentally and on purpose."
+"ฉันใช้แร่แกรไฟต์วาดภาพร่างแบบขอไปทีจนออกมาไม่สวย นิ้วฉันเปื้อนสีดำจากการที่จับแร่แกรไฟต์ขูด ๆ ขีด ๆ ลงกับ\nกระดาษ ไม่ว่าจะโดยตั้งใจหรือไม่ตั้งใจก็ดี"
 
-"I've improved a little, but Rin's level is still far beyond my reach."
+# "I've improved a little, but Rin's level is still far beyond my reach."
+"ทักษะฉันพัฒนาขึ้นมาหน่อยหนึ่งแล้ว แต่ก็ยังอีกไกลโขกว่าจะได้อย่างริน"
 
-"Eventually Nomiya comes in and makes his way around the room, checking on what we're doing and giving comments on the works in progress."
+# "Eventually Nomiya comes in and makes his way around the room, checking on what we're doing and giving comments on the works in progress."
+"จนในที่สุดโนมิยะก็เข้าห้องมาแล้วเดินดูรอบ ๆ ว่าพวกเราทำอะไรกันอยู่ บ้างก็ให้คำติชมกับรูปที่สมาชิกชมรมกำลัง\nวาดกันอยู่"
 
-"He stops behind me and bends closer to look at my poor sketch."
+# "He stops behind me and bends closer to look at my poor sketch."
+"คุณครูมาหยุดยืนอยู่ข้างหลังฉันแล้วโน้มตัวมาดูภาพร่างที่ไม่ได้เรื่องของฉัน"
 
 show nomiya smile at center
 with charaenter
 
-no "Tried to take a few pointers from Tezuka, have you?"
+# no "Tried to take a few pointers from Tezuka, have you?"
+no "จะลองทำอย่างเทซูกะบ้างเหรอ"
 
-hi "Uh, well, I've looked at how she draws but I haven't exactly asked for advice, no."
+# hi "Uh, well, I've looked at how she draws but I haven't exactly asked for advice, no."
+hi "เอ่อ ก็ดูตอนรินวาดอยู่แหละครับ แต่ก็ไม่ได้ขอคำแนะนำจากเจ้าตัวโดยตรงเลย"
 
 show nomiya frown_close
 with characlose
 
-no "Let's see here."
+# no "Let's see here."
+no "ไหนดูซิ"
 
-"He casually picks up the piece of graphite from my hand and lightly draws some faint, barely visible lines over my sketch, to illustrate places that need improvement."
+# "He casually picks up the piece of graphite from my hand and lightly draws some faint, barely visible lines over my sketch, to illustrate places that need improvement."
+"คุณครูถือวิสาสะหยิบแร่แกรไฟต์จากในมือฉันไปแล้วลากเส้นจาง ๆ ทับบนภาพร่างของฉันเพื่อให้เห็นจุดที่ต้องปรับปรุง"
 
-"I already feel frustrated about not seeing the obvious flaws before, but with a couple of careless-seeming flicks of the wrist, Nomiya has made them plain as day."
+# "I already feel frustrated about not seeing the obvious flaws before, but with a couple of careless-seeming flicks of the wrist, Nomiya has made them plain as day."
+"ก่อนหน้านี้ฉันหงุดหงิดที่มองไม่เห็นข้อผิดพลาดที่ออกจะเห็นได้ชัดสักที แต่เพียงแค่โนมิยะขยับข้อมือลากเส้นไปมา\nสองสามทีด้วยท่าทางที่เหมือนไม่คิดอะไรนั้น ข้อผิดพลาดเหล่านั้นก็ชัดแจ้งขึ้นมา"
 
 show nomiya frown
 with charadistant
 
-"Straightening up, he throws a sideways glance at the seat where Rin usually sits."
+# "Straightening up, he throws a sideways glance at the seat where Rin usually sits."
+"คุณครูยืดตัวแล้วหันไปมองที่นั่งที่รินนั่งเป็นประจำ"
 
 show nomiya dreamy
 with charachange
 
-no "Such a nostalgic feeling, almost like a bird flying from the nest. I'll miss Tezuka when she graduates. It begins from here, you know."
+# no "Such a nostalgic feeling, almost like a bird flying from the nest. I'll miss Tezuka when she graduates. It begins from here, you know."
+no "ชวนให้คิดถึงจังเลยนะ เหมือนนกที่บินออกจากรังเลย ถ้าเทซูกะเรียนจบแล้วฉันคงคิดถึงแย่ ตรงนี้แหละคือจุดเริ่มต้น"
 
 show nomiya smile
 with charachange
 
-no "Nearly makes my eyes a little misty."
+# no "Nearly makes my eyes a little misty."
+no "พูดแล้วก็น้ำตาจะไหล"
 
-hi "Do you really think she has a chance to make her big break with the exhibition?"
+# hi "Do you really think she has a chance to make her big break with the exhibition?"
+hi "ครูคิดว่ารินมีโอกาสจะประสบความสำเร็จจากงานนิทรรศการนี้จริงเหรอครับ"
 
 show nomiya frown
 with charachange
 
-"Nomiya turns looks up from my sketch, adjusting his glasses. He rubs his chin, looking contemplative."
+# "Nomiya turns looks up from my sketch, adjusting his glasses. He rubs his chin, looking contemplative."
+"โนมิยะเงยหน้าจากภาพร่างที่ฉันวาดมามองแล้วดันแว่นพลางลูบคางครุ่นคิด"
 
-no "Why not? It's not like she's going to be an overnight smash hit or anything, but getting the word out there is very important."
+# no "Why not? It's not like she's going to be an overnight smash hit or anything, but getting the word out there is very important."
+no "แน่อยู่แล้วสิ ก็อาจจะไม่ถึงขั้นดังเปรี้ยงปร้างข้ามคืนอะไรขนาดนั้นหรอก แต่สิ่งสำคัญคือการให้พอได้เป็นที่รู้จักต่างหาก"
 
 show nomiya smile
 with charachange
 
-no "Connections are pure gold, maybe the most important thing to gain if she is to become an artist. Word of mouth is very powerful in these circles."
+# no "Connections are pure gold, maybe the most important thing to gain if she is to become an artist. Word of mouth is very powerful in these circles."
+no "ถ้าเกิดเทซูกะได้เป็นศิลปินขึ้นมาแล้วคอนเนกชันนี่แหละที่อาจจะเป็นสิ่งล้ำค่ายิ่งกว่าอะไร วงการนี้น่ะ พวกเสียงลือ\nเสียงเล่าอ้างน่ะทรงพลังมากเลยนะ"
 
 show nomiya talk
 with charachange
 
-no "She has some advantages, like her young age and technique. You know, the feet. People will be naturally curious about extraordinary things like that."
+# no "She has some advantages, like her young age and technique. You know, the feet. People will be naturally curious about extraordinary things like that."
+no "จุดแข็งตอนนี้ก็คือเรื่องอายุแล้วก็กลวิธีวาด เท้านั่นน่ะ อะไรที่มันพิเศษอย่างนี้คนย่อมอยากรู้อยากเห็นเป็นธรรมดา"
 
-"His words have an unpleasant ring to them."
+# "His words have an unpleasant ring to them."
+"คำพูดเขาฟังแล้วไม่ค่อยรื่นหูสักเท่าไหร่"
 
-hi "Isn't that just exploiting her disability to make her more popular? It sounds fishy."
+# hi "Isn't that just exploiting her disability to make her more popular? It sounds fishy."
+hi "ถ้างั้นก็เป็นการใช้ความพิการหาชื่อเสียงสิครับ ฟังดูทะแม่ง ๆ อยู่นะครับ"
 
 show nomiya serious
 with charachange
 
-no "Ah, now, now. It's not like that at all. Think of it from another perspective, like an artist."
+# no "Ah, now, now. It's not like that at all. Think of it from another perspective, like an artist."
+no "อะ ๆ ๆ ไม่ใช่อย่างนั้นเลย ลองมองอีกมุมเหมือนอย่างที่ศิลปินทำกันดูก่อน"
 
 show nomiya smile
 with charachange
 
-no "Would you rather have Tezuka hide herself completely from public view, as if her condition were something shameful?"
+# no "Would you rather have Tezuka hide herself completely from public view, as if her condition were something shameful?"
+no "เธออยากจะปกปิดไม่ให้สังคมรับรู้ถึงตัวตนเทซูกะราวกับว่าสิ่งที่เธอเป็นอยู่นั้นเป็นอะไรที่น่าอับอายไปเลยหรือเปล่า"
 
 show nomiya talk
 with charachange
 
-no "Some people will call it exploitation if we promote that aspect, or discrimination if we hide it. All considered, we're just being honest about it."
+# no "Some people will call it exploitation if we promote that aspect, or discrimination if we hide it. All considered, we're just being honest about it."
+no "ถ้าเราย้ำเรื่องนั้น ก็จะมีคนบอกว่าพวกเราเอาความพิการมาหากิน แต่ถ้าเราปกปิดเรื่องนั้น ก็จะมีคนบอกว่าพวกเรา\nเอาความพิการมาแบ่งแยก ถ้ามองโดยภาพรวมแล้ว จริง ๆ เราก็แค่เอาออกมาเปิดเผยกันตรง ๆ"
 
 show nomiya smile
 with charachange
 
-no "There's nothing wrong with that, right, my boy?"
+# no "There's nothing wrong with that, right, my boy?"
+no "ซึ่งก็ไม่ได้ผิดอะไร จริงมั้ยหนุ่ม"
 
-hi "I guess so."
+# hi "I guess so."
+hi "คงงั้นมั้งครับ"
 
 show nomiya veryhappy
 with charachange
 
-no "Brilliant!"
+# no "Brilliant!"
+no "เยี่ยมยอด!"
 
 show nomiya talk
 with charachange
 
-no "It's true that disability always has all sorts of implications in society, often nasty ones, but brushing things under the carpet won't help at all."
+# no "It's true that disability always has all sorts of implications in society, often nasty ones, but brushing things under the carpet won't help at all."
+no "จริงอยู่ว่าสังคมมองความพิการออกไปหลายแง่ ซึ่งส่วนมากก็เป็นในแง่ลบ แต่การเอาแต่ปัด ๆ เรื่องพวกนั้นไปให้พ้นตาน่ะ\nไม่ได้ช่วยให้อะไรดีขึ้นมาหรอก"
 
 show nomiya smile
 with charachange
 
-no "I'm sure Sae will handle her side of the issue with delicacy. I've known her since art school and she's most reliable."
+# no "I'm sure Sae will handle her side of the issue with delicacy. I've known her since art school and she's most reliable."
+no "ฉันมั่นใจว่าซาเอะเขาจะระมัดระวังกับเรื่องนี้แน่นอน รู้จักกันมาตั้งแต่สมัยเรียนที่โรงเรียนศิลปะแล้วละ เป็นคนที่พึ่งพาได้\nที่สุดแล้ว"
 
-hi "Why is she going so far for Rin's sake? Because it's you who asked?"
+# hi "Why is she going so far for Rin's sake? Because it's you who asked?"
+hi "ทำไมเธอถึงยอมทำเพื่อรินขนาดนั้นล่ะครับ หรือเพราะว่าครูเป็นคนขอ"
 
 show nomiya veryhappy
 with charachange
 
-no "Oh, she has her own reasons too. Trust this old man, she's more kind-hearted than she looks."
+# no "Oh, she has her own reasons too. Trust this old man, she's more kind-hearted than she looks."
+no "โอย ซาเอะก็มีเหตุผลของเขาแหละ เชื่อตาลุงคนนี้เถอะ ซาเอะน่ะใจดีกว่าที่เห็นนะ"
 
-extend " Ah, but don't let her know I said that."
+# extend " Ah, but don't let her know I said that."
+extend " อ้อ แต่อย่าเอาไปบอกนะว่าฉัน\nพูดงั้นน่ะ"
 
 show nomiya talktongue
 with charachange
 
-"He gives me a big wink, and covers his mouth with his hand, as if to push the remark back in."
+# "He gives me a big wink, and covers his mouth with his hand, as if to push the remark back in."
+"เขาขยิบตาให้แรง ๆ แล้วเอามือปิดปากไว้ราวกับว่าจะเก็บคำพูดกลับเข้าปากไป"
 
-"I remember the curious way Miss Saionji looked at Rin almost the entire time during our visit to the gallery. It was like that woman was trying to imprint everything about her into her memory."
+# "I remember the curious way Miss Saionji looked at Rin almost the entire time during our visit to the gallery. It was like that woman was trying to imprint everything about her into her memory."
+"ฉันยังจำได้ถึงสายตาของคุณนายไซอนจิที่คอยมองรินแทบจะตลอดเวลาที่พวกเราอยู่ที่หอศิลป์นั้น ราวกับว่าเธอกำลัง\nบันทึกรายละเอียดของรินทุกอย่างเข้าไปในความทรงจำ"
 
-"Or maybe it was that Rin reminded her of something else."
+# "Or maybe it was that Rin reminded her of something else."
+"หรือไม่ก็คงเป็นเพราะรินทำให้เธอนึกถึงใครบางคนขึ้นมา"
 
 show nomiya smile
 with charachange
 
-no "Mostly Sae simply adores young people with a passion for art. Her gallery specializes in this very thing, bringing up-and-coming talent to the public."
+# no "Mostly Sae simply adores young people with a passion for art. Her gallery specializes in this very thing, bringing up-and-coming talent to the public."
+no "โดยมากซาเอะก็ชอบคนที่มีความหลงใหลทางด้านศิลปะนั่นแหละ หอศิลป์นั้นก็จัดมาเพื่อให้เหล่าศิลปินที่มีแววได้มา\nเผยแพร่ผลงานโดยเฉพาะเลย"
 
-no "It's a perfect fit for someone like Tezuka."
+# no "It's a perfect fit for someone like Tezuka."
+no "ซึ่งเหมาะกับคนอย่างเทซูกะมาก"
 
-hi "I don't even know if she really wants to become a career artist, though. But I guess that'd be the logical next step."
+# hi "I don't even know if she really wants to become a career artist, though. But I guess that'd be the logical next step."
+hi "แต่ผมไม่รู้นะครับว่าเธอจะอยากทำอาชีพเป็นศิลปินเลยหรือเปล่า แต่ยังไงถ้าดังแล้วก็คงต้องไปต่ออย่างนั้นแหละมั้งครับ"
 
 show nomiya veryhappy
 with charachange
 
-no "I don't have the faintest idea."
+# no "I don't have the faintest idea."
+no "ฉันไม่รู้หรอก"
 
 show nomiya smile
 with charachange
 
-no "Like they say, a teacher can only show the door, it's the student who has to walk through it. An old, tired saying, but still quite true."
+# no "Like they say, a teacher can only show the door, it's the student who has to walk through it. An old, tired saying, but still quite true."
+no "ก็อย่างที่เขาว่ากันนั่นแหละ ครูก็เหมือนเรือจ้าง แต่คนที่จะเดินทางไปจริง ๆ คือนักเรียนต่างหาก ถึงจะเป็นคำเปรียบ\nที่ตกยุคไปแล้ว แต่ก็ยังค่อนข้างจริงนะ"
 
 hide nomiya
 with charaexit
 
-"He leaves to chat with the pair of second-year girls working on some watercolors."
+# "He leaves to chat with the pair of second-year girls working on some watercolors."
+"แล้วคุณครูก็เดินไปคุยกับสาวสองคนที่เป็นนักเรียนปีที่สองที่นั่งวาดภาพสีน้ำกันอยู่"
 
-"Even though he said that clichéd thing, it feels to me like Nomiya is trying to prod Rin through a certain door in particular, but I can't blame him for that."
+# "Even though he said that clichéd thing, it feels to me like Nomiya is trying to prod Rin through a certain door in particular, but I can't blame him for that."
+"ถึงจะบอกว่าตัวเองเป็นเรือจ้างอะไรที่ฟังดูเฝือ ๆ นั่นก็เถอะ แต่ฉันรู้สึกเหมือนว่าโนมิยะเองนั่นแหละที่เป็นคนแจวเรือ\nนำทางรินไปท่าเรือหนึ่งด้วยตัวเองมากกว่า แต่ก็ว่าไม่ได้หรอก"
 
-"I literally shoved Rin towards that door what with my speeches about wasting opportunities and whatnot."
+# "I literally shoved Rin towards that door what with my speeches about wasting opportunities and whatnot."
+"ฉันเองก็ทำแบบนั้นไปเหมือนกันกับการที่ฉันพูดถึงเรื่องโอกาสที่อาจจะเสียไปอะไรพวกนั้น"
 
-"Nomiya feels like it's time for him to let Rin test her own wings. He has absolute confidence in this endeavor."
+# "Nomiya feels like it's time for him to let Rin test her own wings. He has absolute confidence in this endeavor."
+"โนมิยะเห็นว่าสมควรแก่เวลาแล้วที่จะให้รินได้ลองบินด้วยปีกตัวเอง คุณครูมั่นใจกับงานนี้มาก"
 
-"I wonder why I can't shed the anxious feeling I have inside of me. It shouldn't have anything to do with me."
+# "I wonder why I can't shed the anxious feeling I have inside of me. It shouldn't have anything to do with me."
+"ฉันนึกสงสัยว่าทำไมถึงอดใจไม่ให้เป็นกังวลไม่ได้ ทั้งที่ไม่น่าจะเกี่ยวอะไรกันกับฉันแท้ ๆ"
 
-"Maybe I'm just bothered by exactly that: I really don't have any part in this. I would… I would like to be a part of Rin's life, and her a part of mine."
+# "Maybe I'm just bothered by exactly that: I really don't have any part in this. I would… I would like to be a part of Rin's life, and her a part of mine."
+"อาจจะเพราะไม่เกี่ยวนี่แหละฉันถึงได้เป็นกังวล ฉันอยาก… อยากเป็นส่วนหนึ่งของชีวิตริน และอยากให้รินเป็นส่วนหนึ่ง\nของชีวิตฉันด้วย"
 
-"Like friends should be. That's what she called us. I wonder what she really meant."
+# "Like friends should be. That's what she called us. I wonder what she really meant."
+"อย่างที่เพื่อนเป็นกัน รินบอกว่าพวกเราเป็นเพื่อนกัน แต่จริง ๆ แล้วเธอหมายความว่ายังไงกันแน่"
 
-"I feel like I'm so far apart from her, even when I'm not. It's the same as with Rin and Emi. I can't understand her."
+# "I feel like I'm so far apart from her, even when I'm not. It's the same as with Rin and Emi. I can't understand her."
+"ฉันรู้สึกว่าตัวเองนั้นอยู่ห่างจากรินเหลือเกิน แม้ยามที่ตัวจะอยู่ใกล้ก็ตาม ฉันเป็นเหมือนอย่างเอมิที่ไม่เข้าใจริน"
 
 label th_choiceR21:
 menu:
     with menueffect
 
-    "What am I, for her?"
+    # "What am I, for her?"
+    "สำหรับรินแล้ว ฉันเป็นอะไร"
 
-    "I want to support her.":
+    # "I want to support her.":
+    "ฉันอยากสนับสนุนริน":
         return m1
 
-    "I want to understand her.":
+    # "I want to understand her.":
+    "ฉันอยากเข้าใจริน":
         return m2
 
 label th_R21a:
 
-"I want to be there for her if she needs support from a friend. It's the least I can do."
+# "I want to be there for her if she needs support from a friend. It's the least I can do."
+"ฉันอยากอยู่เคียงข้างรินในยามที่เธอต้องการแรงกายแรงใจจากเพื่อน ฉันอยากจะช่วยรินบ้าง"
 
-"How could I call someone my friend if I can't be there for her if she needs me?"
+# "How could I call someone my friend if I can't be there for her if she needs me?"
+"ถ้าฉันไม่อยู่เคียงข้างรินในยามที่เธอต้องการฉัน แล้วฉันจะเรียกเธอว่าเป็นเพื่อนได้ยังไง"
 
 label th_R21b:
 
-"In the end, even though we made friends with each other, I don't really feel that we've gotten any closer."
+# "In the end, even though we made friends with each other, I don't really feel that we've gotten any closer."
+"ท้ายที่สุดแล้ว แม้พวกเราจะเป็นเพื่อนกัน แต่ก็ไม่ได้รู้สึกว่าพวกเราใกล้ชิดกันขึ้นมาเลย"
 
-"How could I call someone my friend if I can't understand her?"
+# "How could I call someone my friend if I can't understand her?"
+"ถ้าฉันไม่เข้าใจริน แล้วฉันจะเรียกเธอว่าเป็นเพื่อนได้ยังไง"
 
 label th_R21c:
 
-"Nomiya's boisterous laugh fills the quiet afternoon just as the club meeting ends. He pats one of the girls on the back encouragingly."
+# "Nomiya's boisterous laugh fills the quiet afternoon just as the club meeting ends. He pats one of the girls on the back encouragingly."
+"เสียงหัวเราะของโนมิยะดังลั่นเติมเต็มความเงียบในยามบ่าย ณ เวลานี้ที่ชมรมกำลังจะเลิก คุณครูตบหลังสาวคนหนึ่ง\nเบา ๆ เป็นเชิงให้กำลังใจ"
 
-"I think about all the things that have led me to this point, all the things I've shared with Rin during the few weeks I've been at Yamaku so far."
+# "I think about all the things that have led me to this point, all the things I've shared with Rin during the few weeks I've been at Yamaku so far."
+"ฉันย้อนคิดถึงทุกสิ่งที่พาให้ตัวเองมายังจุดนี้ คิดถึงช่วงเวลาสองสามสัปดาห์ที่ได้อยู่กับรินในรั้วโรงเรียนยามากุแห่งนี้"
 
-"I understand so very little, in the end, but I'm sure of one thing."
+# "I understand so very little, in the end, but I'm sure of one thing."
+"แม้ท้ายที่สุดฉันแทบจะไม่ได้เข้าใจอะไร แต่ฉันมั่นใจอย่างหนึ่งว่า"
 
-"If I want to keep going what I have with Rin, I have to throw myself into whatever'll come out of this exhibition project, along with her."
+# "If I want to keep going what I have with Rin, I have to throw myself into whatever'll come out of this exhibition project, along with her."
+"ถ้าอยากจะให้ความสัมพันธ์ระหว่างฉันกับรินยังไปต่อ ฉันต้องรับผลอะไรก็ตามที่จะเกิดจากโครงการงานนิทรรศการนี้\nไปพร้อม ๆ กับริน"
 
 stop music fadeout 6.0
 
-"I turn my gaze back at the black mess of a sketch and the near-invisible guiding lines the teacher drew over it."
+# "I turn my gaze back at the black mess of a sketch and the near-invisible guiding lines the teacher drew over it."
+"ฉันหันกลับมามองเส้นร่างสีดำยุ่งเหยิงที่มีเส้นกรอบยากจะมองเห็นที่คุณครูขีดทับไว้อยู่"
 
-"No pattern emerges, nothing that could take me further than I am."
+# "No pattern emerges, nothing that could take me further than I am."
+"ไม่มีอะไรที่คุ้นตาขึ้นมาเลย ฉันไปต่อไม่ได้อีก"
 
-"I put the graphite down on the table and think hard and honestly about what I really want."
+# "I put the graphite down on the table and think hard and honestly about what I really want."
+"ฉันวางแร่แกรไฟต์ลงกับโต๊ะ จากนั้นก็คิดทบทวนถามใจตัวเองถึงสิ่งที่ต้องการจริง ๆ"
 
 scene black
 with dissolve
