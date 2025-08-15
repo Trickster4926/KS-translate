@@ -3658,7 +3658,7 @@ with None
 "ที่ตรงข้ามกับเธอ ฮานาโกะนั่งสวมชุดราตรีสีชมพูอ่อนแบบเรียบร้อย"
 
 # "Her hands are firmly fixed between her legs, her shoulders forward, and her head down, as if trying to hide herself in it."
-"มือของเธอวางไว้ระหว่างขาอย่างหนักแน่น ไหล่ของเธอโน้มไปข้างหน้า ก้มศีรษะลง ราวกับพยายามซ่อนตัวเองเอาไว้\nในชุด"
+"มือของเธอวางไว้ระหว่างขาอย่างแน่น ไหล่ของเธอโน้มไปข้างหน้า ก้มหน้าลงราวกับพยายามซ่อนตัวเองเอาไว้\nในชุด"
 
 # "It would be easy for her to do; it looks about two sizes too big for her."
 "คงเป็นเรื่องง่ายสำหรับเธอที่จะทำแบบนั้น เพราะดูเหมือนว่าชุดจะใหญ่กว่าตัวเธอประมาณสองไซซ์"
@@ -4410,33 +4410,41 @@ mu "…นั่นเป็นเหตุผลว่าทำไมบาง�
 show muto irritated
 with charachange
 
-"I can see Mutou deflate as he realizes that nothing he's said in the past half hour has sunk in."
+# "I can see Mutou deflate as he realizes that nothing he's said in the past half hour has sunk in."
+"ฉันเห็นครูมูโต้หน้าเจื่อนลงจากการที่เขารู้ตัวว่าตลอดครึ่งชั่วโมงที่ผ่านมาไม่มีอะไรที่เขาพูดไปเข้าหัวพวกเราเลยแม้แต่น้อย"
 
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 4.0
 
-"Whispered conversations start to break the silence, and like an avalanche, the noise level in the class starts to rise."
+# "Whispered conversations start to break the silence, and like an avalanche, the noise level in the class starts to rise."
+"แล้วเสียงซุบซิบก็เริ่มดังขึ้นมาทำลายความเงียบ และไม่นานเสียงคุยก็เริ่มดังขึ้นเรื่อย ๆ"
 
 show muto normal
 with charachange
 
-"Defeated, Mutou identifies some questions from the text book and sets to clearing off the blackboard."
+# "Defeated, Mutou identifies some questions from the text book and sets to clearing off the blackboard."
+"ด้วยหมดหนทาง ครูมูโต้หาคำถามจากในหนังสือเรียนมาให้ทำแล้วก็เริ่มลบกระดาน"
 
 hide muto
 with charaexit
 
-"Almost as if expected, Hanako packs up her things and leaves as soon as people start talking and laughing among themselves."
+# "Almost as if expected, Hanako packs up her things and leaves as soon as people start talking and laughing among themselves."
+"ไม่ผิดจากที่คาด พอคนเริ่มคุยและหัวเราะกัน ฮานาโกะก็รีบเก็บของแล้วเดินออกจากห้องไปทันที"
 
-"The initial shock of seeing someone play so blatantly truant has started to fade, but it doesn't stop me from wondering."
+# "The initial shock of seeing someone play so blatantly truant has started to fade, but it doesn't stop me from wondering."
+"ช่วงแรกก็ตกใจที่เห็นคนโดดเรียนแบบโจ่งแจ้งขนาดนี้ ตอนนี้ความรู้สึกนั้นเริ่มลดลงไปบ้างแล้ว แต่ก็อดสงสัยไม่ได้อยู่ดี"
 
-"Is she leaving because she doesn't want people to speak to her? Or is it just the thought of people around her shattering her peace?"
+# "Is she leaving because she doesn't want people to speak to her? Or is it just the thought of people around her shattering her peace?"
+"เธอออกไปเพราะไม่อยากให้ใครมาคุยด้วยรึเปล่า หรือแค่ไม่อยากให้คนรอบข้างมาทำลายความสงบของเธอ"
 
 play sound sfx_normalbell
 $ renpy.music.set_volume(1.0, 4.0, channel="ambient")
 
-"Before I can think about the topic any further, the lunch bells ring. I wonder if she was simply taking the opportunity to leave early."
+# "Before I can think about the topic any further, the lunch bells ring. I wonder if she was simply taking the opportunity to leave early."
+"ก่อนที่ฉันจะได้คิดอะไรไปมากกว่านี้ เสียงระฆังพักเที่ยงก็ดังขึ้นมาเสียก่อน เลยได้แต่สงสัยว่าที่เธอออกไปก่อนหน้านี้เป็น\nเพราะแค่หาโอกาสที่จะออกไปก่อนหรือเปล่า"
 
-"The usual clamor of students exchanging books for lunch reverberates around the room, and while Misha is distracted, I grab my lunch and head out the door."
+# "The usual clamor of students exchanging books for lunch reverberates around the room, and while Misha is distracted, I grab my lunch and head out the door."
+"ปกติแล้วเวลาพักกลางวัน เสียงนักเรียนจะดังไปทั่วห้อง เพราะทุกคนจะรีบแลกหนังสือกับข้าวเที่ยง และในตอนที่มิช่า\nกำลังวุ่น ๆ ฉันก็รีบคว้ากล่องข้าวแล้วเดินออกจากห้องไปทันที"
 
 stop ambient fadeout 1.0
 
@@ -4446,153 +4454,198 @@ show lilly basic_smileclosed:
     ypos 1.2
 with locationskip
 
-"Lilly already sits in the tea room, setting out her lunch alone."
+# "Lilly already sits in the tea room, setting out her lunch alone."
+"ลิลลี่นั่งอยู่ในห้องชงชาแล้ว กำลังจัดเตรียมอาหารกลางวันของตัวเองอยู่คนเดียว"
 
-hi "So, Hanako's not here then?"
+# hi "So, Hanako's not here then?"
+hi "เอ่อ ฮานาโกะไม่อยู่ที่นี่สินะ"
 
 show lilly basic_smile
 with charachange
 
-li "Oh, Hisao, how are you? I haven't met Hanako since this morning, I'm afraid."
+# li "Oh, Hisao, how are you? I haven't met Hanako since this morning, I'm afraid."
+li "อ้าว ฮิซาโอะ สบายดีมั้ยจ๊ะ แต่ขอโทษทีจ้ะ ฉันก็เจอกับฮานาโกะแค่เมื่อเช้ารอบเดียวเอง"
 
-"That's right, Hanako and Lilly live next to each other."
+# "That's right, Hanako and Lilly live next to each other."
+"นั่นสินะ ฮานาโกะกับลิลลี่อยู่ห้องข้าง ๆ กันเลยนี่นา"
 
-"Somehow I think their morning conversations are slightly more grounded than Kenji's ramblings."
+# "Somehow I think their morning conversations are slightly more grounded than Kenji's ramblings."
+"เอาเป็นว่าบทสนทนาตอนเช้าของสองคนนั้นดูมีสาระกว่าเรื่องที่เคนจิเพ้อเจ้อเยอะเลย"
 
-hi "That's strange. She left class early, so I figured that she'd come here."
+# hi "That's strange. She left class early, so I figured that she'd come here."
+hi "แปลกจัง เธอออกจากห้องเรียนมาก่อนแท้ ๆ เลยคาดว่าน่าจะมาที่นี่น่ะ"
 
 show lilly basic_displeased
 with charachange
 
-li "So she's still leaving class early…"
+# li "So she's still leaving class early…"
+li "ตอนนี้ก็ยังออกก่อนเวลางั้นเหรอ…"
 
-hi "Huh? Yeah, I've seen her do it a few times."
+# hi "Huh? Yeah, I've seen her do it a few times."
+hi "หืม ใช่ ก็เห็นเธอทำอยู่หลายรอบอยู่"
 
 show lilly basic_sad
 with charachange
 
 stop music fadeout 7.0
 
-"Lilly drops her head a little, and her tone of voice is notably depressed. It's very reminiscent of someone who is used to hearing bad news."
+# "Lilly drops her head a little, and her tone of voice is notably depressed. It's very reminiscent of someone who is used to hearing bad news."
+"ลิลลี่ก้มหน้าลงเล็กน้อย เสียงเธอฟังดูหมองลงอย่างเห็นได้ชัด มันเหมือนกับคนที่ชินกับการได้ยินเรื่องแย่ ๆ มาแล้วอย่างงั้น"
 
-li "I was so sure that she'd stop doing that once you two became friends."
+# li "I was so sure that she'd stop doing that once you two became friends."
+li "ฉันคิดว่าเธอคงจะหยุดทำหลังจากที่พวกเธอเป็นเพื่อนกันแล้วเสียอีก"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Everyone has their own pace, I suppose."
+# li "Everyone has their own pace, I suppose."
+li "ฉันว่าทุกคนก็มีช่วงเป็นของตัวเองกันทั้งนั้นแหละมั้ง"
 
-hi "Well, I was wondering about just that today. Why exactly does she leave?"
+# hi "Well, I was wondering about just that today. Why exactly does she leave?"
+hi "ก็นะ วันนี้ฉันก็สงสัยอยู่เหมือนกันว่าทำไมเธอถึงต้องออกก่อนด้วย"
 
 show lilly basic_reminisce
 with charachange
 
-li "I'm not entirely sure myself. I personally think it's because she doesn't want to be put in a situation where she has to answer someone."
+# li "I'm not entirely sure myself. I personally think it's because she doesn't want to be put in a situation where she has to answer someone."
+li "ฉันเองก็ไม่แน่ใจเท่าไหร่ แต่ส่วนตัวฉันว่าเพราะเธอไม่อยากอยู่ในสถานการณ์ที่จะต้องคุยกับใครน่ะจ้ะ"
 
-"I have a flashback of my first meeting with her, when I thought she looked like a cornered animal. Maybe I wasn't far from the truth."
+# "I have a flashback of my first meeting with her, when I thought she looked like a cornered animal. Maybe I wasn't far from the truth."
+"ฉันนึกถึงตอนที่เจอเธอครั้งแรกขึ้นมาทันที ตอนนั้นฉันคิดว่าเธอดูเหมือนสัตว์ที่จนมุมอยู่ในกรง พอมานึกแล้วก็ไม่ต่างจาก\nความเป็นจริงเท่าไหร่"
 
-hi "But she seems fine with talking to you, and with me… a bit…"
+# hi "But she seems fine with talking to you, and with me… a bit…"
+hi "แต่เธอก็ดูปกติดีตอนคุยกับเธอนี่ และกับฉันด้วย… นิดหน่อย…"
 
 show lilly basic_displeased
 with charachange
 
-li "It's a little more complex than that. I imagine that the first thing most people ask her about is her scars, and what happened."
+# li "It's a little more complex than that. I imagine that the first thing most people ask her about is her scars, and what happened."
+li "เรื่องมันซับซ้อนกว่านั้นนิดหน่อยน่ะ ฉันว่าสิ่งแรกที่คนส่วนใหญ่ถามเธอคือเรื่องแผลเป็น แล้วก็ถามว่าเกิดอะไรขึ้นกับ\nเธอกันแน่"
 
-li "She rarely talks about it with me, but I can tell that she doesn't like to remember whatever happened back then."
+# li "She rarely talks about it with me, but I can tell that she doesn't like to remember whatever happened back then."
+li "เธอก็ไม่ค่อยคุยเรื่องนั้นกับฉันเท่าไหร่หรอก แต่ก็พอรู้ว่าเธอไม่อยากจะรำลึกถึงความสักเท่าไหร่"
 
 show lilly basic_reminisce
 with charachange
 
-li "Leaving class and running away from discussions is her preemptive strike, if you will."
+# li "Leaving class and running away from discussions is her preemptive strike, if you will."
+li "การที่ออกจากห้องไปไม่ยอมคุยอย่างนั้น ก็คงเป็นวิธีตอบโต้ล่วงหน้าในแบบของฮานาโกะเขานั่นแหละจ้ะ"
 
-hi "Huh… so then how does that explain her talking to me?"
+# hi "Huh… so then how does that explain her talking to me?"
+hi "หืม… แล้วมันเกี่ยวอะไรกับการที่เธอมาคุยกับฉันกันล่ะ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "You said it yourself yesterday at breakfast; you tried to ignore her scars. Once she saw that you weren't going to ask her about that, she opened herself up to you."
+# li "You said it yourself yesterday at breakfast; you tried to ignore her scars. Once she saw that you weren't going to ask her about that, she opened herself up to you."
+li "เธอบอกเองเมื่อวานตอนมื้อเช้านี่จ๊ะ ว่าเธอพยายามไม่สนใจแผลเป็นของฮานาโกะ และพอฮานาโกะเห็นว่าเธอไม่ได้\nพูดถึงเรื่องนั้น เธอก็เลยยอมเปิดใจน่ะจ้ะ"
 
-hi "Hrm, I guess you're right. Maybe. I dunno. You know her better than I, so I'll take your word for it."
+# hi "Hrm, I guess you're right. Maybe. I dunno. You know her better than I, so I'll take your word for it."
+hi "อืม ก็จริง คงงั้นแหละมั้ง ไม่รู้ดิ เธอน่าจะรู้ดีกว่าฉันนะ เพราะงั้นเดี๋ยวฉันจะจำเอาไว้ละกันนะ"
 
 play music music_normal fadein 3.0
 
 show lilly basic_giggle
 with charachange
 
-li "I wouldn't worry about that. I'm sure you'll come to know her as well as I do soon enough."
+# li "I wouldn't worry about that. I'm sure you'll come to know her as well as I do soon enough."
+li "ฉันคงไม่ต้องกังวลเรื่องนั้นหรอก ฉันเชื่อว่าไม่นานเธอก็จะเข้าใจดีเหมือนกับฉันแน่นอนจ้ะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "I welcome the prospect of her having a new friend, and the two of you have such similar interests…"
+# li "I welcome the prospect of her having a new friend, and the two of you have such similar interests…"
+li "ฉันก็ดีใจนะที่ฮานาโกะจะได้มีเพื่อนใหม่ แล้วพวกเธอทั้งคู่ก็ดูมีอะไรที่คล้ายกันหลายอย่างอยู่นะ…"
 
-hi "Well, I hardly count reading as a team sport. It is good to have company, though."
+# hi "Well, I hardly count reading as a team sport. It is good to have company, though."
+hi "ก็ไม่ขนาดนั้นหรอก ฉันว่าการอ่านหนังสือน่ะไม่ใช่เรื่องที่ต้องทำเป็นทีมอยู่แล้ว แต่การมีเพื่อนอ่านด้วยก็เป็นเรื่องดีนะ"
 
 show lilly basic_smile
 with charachange
 
-li "That's my point. Hanako is still an average person at heart. She also wants company at times like that."
+# li "That's my point. Hanako is still an average person at heart. She also wants company at times like that."
+li "นั่นแหละจ้ะ ฮานาโกะเองก็เป็นคนธรรมดาคนนึง เธอเองก็อยากมีเพื่อนบ้างในบางครั้งเหมือนกัน"
 
-hi "Huh, I see. I think. To be honest, both of you still confuse me a little."
+# hi "Huh, I see. I think. To be honest, both of you still confuse me a little."
+hi "อ๋อ อย่างงี้นี่เอง ฉันว่าเอาจริง ๆ พวกเธอทั้งคู่ทำฉันสับสนนิดหน่อย"
 
 show lilly basic_smileclosed
 with charachange
 
-li "That's only natural, Hisao. We've only known each other for a little while; it's unreasonable to expect you to understand us, just as we can't understand you."
+# li "That's only natural, Hisao. We've only known each other for a little while; it's unreasonable to expect you to understand us, just as we can't understand you."
+li "ปกติจ้ะฮิซาโอะ พวกเราเพิ่งรู้จักกันไม่นานเอง ก็ไม่แปลกหรอกที่เธอจะไม่เข้าใจพวกเรา เช่นเดียวกับเราที่\nไม่ค่อยเข้าใจเธอจ้ะ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "But that is half the fun of becoming friends, right?"
+# li "But that is half the fun of becoming friends, right?"
+li "แต่นั่นก็เป็นเรื่องสนุกของการได้เป็นเพื่อนกันนี่ จริงไหมจ๊ะ"
 
-hi "Yes, yes it is."
+# hi "Yes, yes it is."
+hi "ใช่ ถูกเลยล่ะ"
 
 show lilly basic_giggle
 with charachange
 
-li "Although… I suppose there is the matter of us being opposite genders. Men and women do seem to confuse each other quite often."
+# li "Although… I suppose there is the matter of us being opposite genders. Men and women do seem to confuse each other quite often."
+li "แต่ฉันว่า… สิ่งที่มีผลจริง ๆ ก็เพราะเพศไม่ตรงกันนี่แหละ ผู้ชายกับผู้หญิงมักจะไม่ค่อยเข้าใจกันอยู่บ่อย ๆ ละนะ"
 
-"She says this with a light giggle, finding amusement at the odd little details of life."
+# "She says this with a light giggle, finding amusement at the odd little details of life."
+"เธอพูดไปหัวเราะคิกคักไป ดูเหมือนจะรู้สึกขบขันกับเรื่องเล็ก ๆ น้อย ๆ ในชีวิต"
 
 show lilly basic_cheerful
 with charachange
 
-li "I hope you don't mind, but I'm going to start eating."
+# li "I hope you don't mind, but I'm going to start eating."
+li "ฉันจะทานข้าวแล้ว หวังว่าเธอจะไม่ว่าอะไรนะ"
 
-hi "No, go ahead, I think I'll eat something too. I've got some books I want to drop back at the library before classes start, so I'd better get a move on."
-
+# hi "No, go ahead, I think I'll eat something too. I've got some books I want to drop back at the library before classes start, so I'd better get a move on."
+hi "ไม่ ๆ เอาเลย ฉันว่าฉันจะกินด้วยเหมือนกัน ต้องรีบกินแล้วรีบเอาหนังสือไปคืนห้องสมุดก่อนเข้าเรียนด้วย"
+้
 show lilly basic_smileclosed
 with charachange
 
-li "You'll probably find Hanako there as well. If you do see her, can you tell her to stop by my room later tonight? I'd like to talk to her."
+# li "You'll probably find Hanako there as well. If you do see her, can you tell her to stop by my room later tonight? I'd like to talk to her."
+li "เธออาจจะเจอฮานาโกะด้วยเหมือนกัน ถ้าเธอเจอ ฝากบอกให้มาที่ห้องฉันคืนนี้ได้ไหม พอดีมีเรื่องจะคุยกันหน่อยน่ะ"
 
-hi "You're not coming?"
+# hi "You're not coming?"
+hi "แล้วเธอไม่ไปด้วยกันเหรอ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Unfortunately I have a class representatives' meeting later, so I'll be gone as soon as I've finished my lunch."
+# li "Unfortunately I have a class representatives' meeting later, so I'll be gone as soon as I've finished my lunch."
+li "พอดีมีประชุมหัวหน้าห้องต่อน่ะจ้ะ เลยว่าจะทานเสร็จแล้วจะไปประชุมเลยน่ะจ้ะ"
 
-hi "Okay then, if I don't see her in the library then I'll tell her in class. I'm sure she'll be back after lunch."
+# hi "Okay then, if I don't see her in the library then I'll tell her in class. I'm sure she'll be back after lunch."
+hi "โอเคงั้น ถ้าฉันไม่เจอเธอในห้องสมุดเดี๋ยวจะบอกเธอในคาบก็แล้วกัน ฉันเชื่อว่าเธอน่าจะกลับมาหลังพักเที่ยงแน่นอน"
 
-"We fall silent as we start to eat, and I take a second to reflect on our conversation."
+# "We fall silent as we start to eat, and I take a second to reflect on our conversation."
+"เราต่างเงียบไปขณะที่เริ่มกิน และฉันก็ใช้เวลาสักครู่ทบทวนเรื่องที่เราเพิ่งคุยกันไปเมื่อครู่"
 
-"I've always thought that Hanako's shyness was simply due to her being self-conscious of her scars."
+# "I've always thought that Hanako's shyness was simply due to her being self-conscious of her scars."
+"ฉันนึกมาตลอดเลยว่าความขี้อายของฮานาโกะเป็นเพราะเธอไม่มั่นใจในรอยแผลเป็นของตัวเอง"
 
-"But that is a pretty superficial way of looking at her."
+# "But that is a pretty superficial way of looking at her."
+"แต่นั่นเป็นเพียงแค่การมองเธอแบบผิวเผินเท่านั้น"
 
-"Just when I thought I was able to see through the fog of Lilly and Hanako, I realize that I'm more lost than when I started."
+# "Just when I thought I was able to see through the fog of Lilly and Hanako, I realize that I'm more lost than when I started."
+"พอคิดว่าตัวเองเข้าใจเรื่องของลิลลี่กับฮานาโกะแล้ว ฉันกลับพบว่าตัวเองยิ่งสับสนหนักกว่าตอนแรกเสียอีก"
 
-"Lilly quickly finishes her lunch, acutely aware of her meeting. I don't blame her."
+# "Lilly quickly finishes her lunch, acutely aware of her meeting. I don't blame her."
+"ลิลลี่กินมื้อเที่ยงของเธอเสร็จอย่างรวดเร็ว เพราะตระหนักดีว่าเธอมีนัดอยู่ ซึ่งฉันก็เข้าใจเธอนะ"
 
-"Shizune is most likely going to be there, and I doubt she wants to give her the satisfaction of another argument."
+# "Shizune is most likely going to be there, and I doubt she wants to give her the satisfaction of another argument."
+"ชิซูเนะเองก็คงไปด้วย และฉันว่าเธอคงไม่อยากเปิดโอกาสให้ชิซูเนะมาหาเรื่องเถียงได้อีกรอบ"
 
 show lilly basic_smile
 with charachange
 
-li "I must be off. Same time tomorrow?"
+# li "I must be off. Same time tomorrow?"
+li "ฉันต้องไปแล้วล่ะจ้ะ พรุ่งนี้เวลาเดิมไหม"
 
-hi "Same time, same channel. I'd better head off too; I don't want to risk being late."
+# hi "Same time, same channel. I'd better head off too; I don't want to risk being late."
+hi "โอเค เวลาเดิม ที่เดิม ฉันก็ต้องรีบไปเหมือนกัน ไม่อยากเสี่ยงไปสาย"
 
 show lilly cane_smileclosed
 with charachange
@@ -4602,7 +4655,8 @@ with charamove
 
 stop music fadeout 4.0
 
-"Lilly smiles gently, picks up her cane and walks out into the hall."
+# "Lilly smiles gently, picks up her cane and walks out into the hall."
+"ลิลลี่ยิ้มเบา ๆ ก่อนจะหยิบไม่เท้าของเธอและเดินออกไปยังโถง"
 
 #----------
 
