@@ -4665,72 +4665,93 @@ label th_H10:
 scene bg school_hallway2
 with locationchange
 
-"I turn my back on Lilly as we head in opposite directions. For some reason I find myself hoping she doesn't get into another fight with Shizune."
+# "I turn my back on Lilly as we head in opposite directions. For some reason I find myself hoping she doesn't get into another fight with Shizune."
+"ฉันหันหลังให้ลิลลี่แล้วเราก็แยกทางกันไปคนละทาง ไม่รู้ทำไมเหมือนกันที่ฉันเอาแต่หวังว่าเธอจะไม่ต้องไปทะเลาะกับชิซูเนะอีก"
 
-"As much as I like Lilly, Shizune and Misha have been pretty instrumental in helping me adjust, even if half of our conversations are thinly-veiled recruitment attempts."
+# "As much as I like Lilly, Shizune and Misha have been pretty instrumental in helping me adjust, even if half of our conversations are thinly-veiled recruitment attempts."
+"ถึงแม้ฉันจะชอบลิลลี่มากแค่ไหน แต่ก็ต้องยอมรับว่าชิซูเนะกับมิชาเองก็มีส่วนช่วยให้ฉันปรับตัวได้เยอะเหมือนกัน\nถึงแม้บทสนทนาส่วนใหญ่ของเราจะแฝงไปด้วยความพยายามในการชักชวนให้เข้าร่วมสภาฯก็เถอะ"
 
-"Then again, I barely know either of them. Maybe they were previously leaders of some kind of secret society, but their love for each other drove them apart…"
+# "Then again, I barely know either of them. Maybe they were previously leaders of some kind of secret society, but their love for each other drove them apart…"
+"แต่ก็นั่นแหละ ฉันแทบไม่รู้จักพวกเธอเลย บางทีพวกเธออาจเคยเป็นผู้นำของสมาคมลับบางอย่างมาก่อน แต่ความรักที่มี\nให้กันกลับทำให้ทั้งคู่ต้องแยกจากกันไป"
 
-"Man, I need to stop reading cheap fiction. It's rotting my brain. Either that or I've got to move away from Kenji and his bad influence."
+# "Man, I need to stop reading cheap fiction. It's rotting my brain. Either that or I've got to move away from Kenji and his bad influence."
+"แม่ง คงต้องหยุดอ่านนิยายเพ้อฝันได้ละมั้งเรา ทำสมองเอาเสียชะมัดเลย หรือไม่ก็ฉันต้องหนีไปให้ไกลจากเคนจิ\nกับการชักนำแย่ ๆ ของเขา"
 
-"It's sad that I can't tell the two apart any more."
+# "It's sad that I can't tell the two apart any more."
+"แย่หน่อยที่ฉันแยกทั้งสองอย่างที่ว่าไม่ค่อยออกละ"
 
 scene bg school_library at right
 with locationskip
 
 play music music_happiness fadein 2.0
 
-"I slide my books down the return chute and they crash into the cart with a pleasant thud."
+# "I slide my books down the return chute and they crash into the cart with a pleasant thud."
+"ฉันเลื่อนหนังสือลงบนรางสำหรับส่งคืน ตกลงไปกระทบกับรถเข็นด้านล่าง เกิดเป็นเสียงดังที่ฟังดูน่าพอใจดี"
 
 play sound sfx_impact2
 
 show yuuko panic_up
 with vpunch
 
-"Yuuko, however, doesn't seem as impressed as I."
+# "Yuuko, however, doesn't seem as impressed as I."
+"อย่างไรก็ตาม ยูโกะดูไม่ได้พอใจแบบที่ฉันพอใจ"
 
-yu "H-Hisao! You scared me!"
+# yu "H-Hisao! You scared me!"
+yu "ฮะ ฮิซาโอะ! ตกใจหมดแหนะ!"
 
-hi "Sorry, I thought you would be used to that by now. Or is the literacy level here so low that nobody borrows any books?"
+# hi "Sorry, I thought you would be used to that by now. Or is the literacy level here so low that nobody borrows any books?" ### Marking 1
+hi "ขอโทษทีครับ นึกว่าคุณจะชินแล้วนะ หรือว่าที่นี่คนรู้หนังสือน้อยมากจนไม่มีใครยืมหนังสือเลยเหรอ"
 
 show yuuko worried_up
 with charachange
 
-yu "Huh? No I think everyone here can read fine…"
+# yu "Huh? No I think everyone here can read fine…" ###Marking 2
+yu "หืม ไม่นะ ฉันว่าทุกคนก็อ่านออกกันนะ"
 
-hi "Yeah… never mind."
+# hi "Yeah… never mind."
+hi "อ๋อ… ช่างเถอะครับ"
 
-"There are some battles that you can never win. Trying to explain jokes is one of them. My Dad taught me that the hard way."
+# "There are some battles that you can never win. Trying to explain jokes is one of them. My Dad taught me that the hard way."
+"บางอย่างเราก็ไม่มีทางชนะ การพยายามอธิบายมุกตลกก็เป็นหนึ่งในนั้นเช่นกัน พ่อฉันสอนเรื่องนี้มาหนักมาก"
 
-hi "Say, Yuuko, have you seen Hanako about? She left class early but she wasn't in her usual hiding place."
+# hi "Say, Yuuko, have you seen Hanako about? She left class early but she wasn't in her usual hiding place."
+hi "ว่าแต่ คุณยูโกะเห็นฮานาโกะบ้างหรือเปล่า พอดีเธอออกมาก่อนเวลาแต่ว่าก็ไม่ได้ไปที่ที่เธอปกติจะไปซ่อนน่ะ"
 
 show yuuko closedhappy_down
 with charachange
 
-yu "I think I saw her sneak in before lunch…"
+# yu "I think I saw her sneak in before lunch…"
+yu "ฉันว่าฉันเห็นเธอแอบเข้ามาก่อนพักเที่ยงอยู่นะ"
 
 show yuuko panic_up
 with charachange
 
-yu "Oh! But I'm not supposed to tell anyone that!"
+# yu "Oh! But I'm not supposed to tell anyone that!"
+yu "โอ๊ะ! แต่ฉันไม่ควรบอกเรื่องนั้นให้ใครรู้นี่นา!"
 
-hi "I just told you that I saw her leave, no need to stress out…"
+# hi "I just told you that I saw her leave, no need to stress out…"
+hi "ผมเพิ่งเล่าไปเองว่าเห็นเธอออกมาก่อนน่ะ เพราะงั้นไม่ต้องเครียดหรอกครับ…"
 
 show yuuko smile_down
 with charachange
 
-yu "Oh… of course. She's probably in the back."
+# yu "Oh… of course. She's probably in the back."
+yu "โอ้… ใช่ เธอน่าจะอยู่หลังห้องน่ะ"
 
-hi "Thanks. Get any new books in recently?"
+# hi "Thanks. Get any new books in recently?"
+hi "ขอบคุณครับ ว่าแต่มีหนังสือใหม่มาไหมครับช่วงนี้"
 
 show yuuko worried_up
 with charachange
 
-yu "No, sorry. I'll let you know when we do, though."
+# yu "No, sorry. I'll let you know when we do, though."
+yu "ขอโทษที ยังไม่มีน่ะ ถ้ามีเมื่อไหร่เดี๋ยวฉันจะบอกนะ"
 
-hi "Okay."
+# hi "Okay."
+hi "โอเคครับ"
 
-"If there's one thing I know about librarians, part-time or otherwise, it's that they appreciate people who take a genuine interest in their work."
+# "If there's one thing I know about librarians, part-time or otherwise, it's that they appreciate people who take a genuine interest in their work."
+"ถ้าจะมีเรื่องนึงที่ฉันรู้เกี่ยวกับบรรณารักษ์ ไม่ว่าจะประจำหรือพาร์ทไทม์ ก็คือพวกเขาจะรู้สึกชื่นชมคนที่แสดงความสนใจ\nในงานของพวกเขาอย่างจริงใจ"
 
 hide yuuko
 with charaexit
@@ -4738,66 +4759,90 @@ with charaexit
 show bg school_library at Fullpan(10.0, dir="left")
 with None
 
-"I walk the now-familiar path to Hanako's reading nook, picking out a few titles along the way."
+# "I walk the now-familiar path to Hanako's reading nook, picking out a few titles along the way."
+"ฉันเดินไปตามเส้นทางที่คุ้นเคยเพื่อไปที่มุมอ่านหนังสือของฮานาโกะ โดยเลือกหนังสือไปสองสามเล่มระหว่างทาง"
 
-"Sometimes I find it hard to discover a book that will interest me among the shelves. An author's name and a two-word title don't mean much in a sea of similar words."
+# "Sometimes I find it hard to discover a book that will interest me among the shelves. An author's name and a two-word title don't mean much in a sea of similar words."
+"บางทีก็ยากที่จะหาหนังสือที่น่าสนใจได้จากชั้นวาง ชื่อผู้เขียนกับชื่อหนังสือสองสามพยางค์ดูเหมือนกันไปหมดในกองตัวอักษร\nพวกนี้"
 
-"For that reason, I sometimes re-read books that I read in the past. Better to bet on the favorite than a new runner."
+# "For that reason, I sometimes re-read books that I read in the past. Better to bet on the favorite than a new runner."
+"นั่นเป็นเหตุผลที่บางครั้งฉันกลับไปอ่านหนังสือที่เคยอ่านมาแล้ว สู้เดิมพันกับเล่มโปรดยังดีกว่าเล่มใหม่ที่ไม่รู้เป็นไง"
 
-"An unfamiliar title from a familiar author peeks out among the spines of its neighbors, so I remove it from the shelf."
+# "An unfamiliar title from a familiar author peeks out among the spines of its neighbors, so I remove it from the shelf."
+"มีชื่อหนังสือที่ไม่คุ้นเคยของนักเขียนที่คุ้นเคยเล่มหนึ่งโผล่ออกมาจากชั้นวางท่ามกลางเล่มอื่น ๆ ฉันเลยหยิบออกมาดู"
 
-"At least I'm not going over old material."
+# "At least I'm not going over old material."
+"อย่างน้อยก็ไม่ต้องเรื่องเก่า ๆ ละนะ"
 
 scene ev hana_library_read_std
 with locationskip
 
-"As expected, Hanako sits on her beanbag, buried deep in a copy of “Dance Dance Dance.”"
+# "As expected, Hanako sits on her beanbag, buried deep in a copy of “Dance Dance Dance.”"
+"อย่างที่คาดไว้ ฮานาโกะนั่งอยู่บนบีนแบ็กและกำลังอ่านเรื่อง “เริงระบำแดนสนธยา” อย่างตั้งใจ"
 
-hi "Hi Hanako. How's it going?"
+# hi "Hi Hanako. How's it going?"
+hi "ไงฮานาโกะ เป็นไงบ้าง"
 
-"I fight back the urge to ask why she left class early. If Lilly's suspicions were right, then asking her about that could have the opposite effect."
+# "I fight back the urge to ask why she left class early. If Lilly's suspicions were right, then asking her about that could have the opposite effect."
+"ฉันกลั้นความอยากถามว่าทำไมเธอถึงออกจากห้องเรียนก่อนเวลา ถ้าที่ลิลลี่สงสัยเป็นเรื่องจริง การถามเรื่องนั้นออกไป\nอาจจะให้ผลตรงกันข้ามเลยก็เป็นได้"
 
-"Best to leave it for the time being. Sometimes the best way to get an answer from someone is to never ask the question."
+# "Best to leave it for the time being. Sometimes the best way to get an answer from someone is to never ask the question."
+"ดีที่สุดคงต้องปล่อยให้เป็นเรื่องของเวลา บางทีทางที่ดีที่สุดการที่จะได้คำตอบมาคือการที่ไม่ถามอะไรไปเลย"
 
 show ev hana_library_smile_std
 with charachange
 
-ha "Hello, H-Hisao. I'm fine."
+# ha "Hello, H-Hisao. I'm fine."
+ha "สวัสดี ฮะ ฮิซาโอะ ก็สบายดี"
 
-"Something seems off, and after a couple of seconds, I realize what it is. Hanako's smiling."
+# "Something seems off, and after a couple of seconds, I realize what it is. Hanako's smiling."
+"บางอย่างแปลกไป และพอผ่านไปสักพักฉันก็เห็นว่าบางอย่างที่ว่าคือ ฮานาโกะยิ้มอยู่"
 
-"She looks as if she's pleased to see me. It's a nice change from the usual, instinctively frightened reaction, and something I hope I can see more of as we get to know each other better."
+# "She looks as if she's pleased to see me. It's a nice change from the usual, instinctively frightened reaction, and something I hope I can see more of as we get to know each other better."
+"เธอดูดีใจที่ได้เจอฉัน เป็นความรู้สึกที่ดีที่แตกต่างไปจากปฏิกิริยาหวาดกลัวที่เจอบ่อย ๆ และเป็นสิ่งที่ฉันหวังว่าจะได้เห็น\nบ่อยขึ้นเมื่อเราได้รู้จักกันมากขึ้น"
 
-hi "Good to hear. How's that book? I've heard it's a trip."
+# hi "Good to hear. How's that book? I've heard it's a trip."
+hi "ดีแล้วละ แล้วเล่มนั้นเป็นไง ได้ยินมาว่ามันเป็นเรื่องที่น่าตื่นเต้นดี"
 
-ha "I-it's good… I think."
+# ha "I-it's good… I think."
+ha "กะ ก็ดี… คิดว่านะ"
 
-ha "I've only j-just started it, so I d-don't really know."
+# ha "I've only j-just started it, so I d-don't really know."
+ha "ฉันเพิ่งดะ ได้อ่านน่ะ ก็เลยมะ ไม่ค่อยรู้น่ะ"
 
-hi "Fair enough. Let me know how it goes; I may borrow it once you're done."
+# hi "Fair enough. Let me know how it goes; I may borrow it once you're done."
+hi "เข้าใจได้ บอกให้ฉันรู้ด้วยนะว่าเป็นยังไงบ้าง เผื่อว่าอ่านจบแล้วฉันจะได้ขอยืมมาอ่านบ้าง"
 
-ha "S-sure."
+# ha "S-sure."
+ha "อะ อื้ม"
 
-"There's a good fifteen minutes left in lunch. Not enough to really get into a book, but too much to stand around doing nothing."
+# "There's a good fifteen minutes left in lunch. Not enough to really get into a book, but too much to stand around doing nothing."
+"เหลือเวลาสิบห้านาทีก่อนหมดพักเที่ยง ไม่พอที่ให้อ่านหนังสือสักเล่ม แต่ก็นานเกินกว่าจะยืนเฉย ๆ ไม่ทำอะไรเลย"
 
 show ev hana_library_read_std
 with charachange
 
-"And Hanako's already returned to her reading, so I doubt I'll get much conversation from her."
+# "And Hanako's already returned to her reading, so I doubt I'll get much conversation from her."
+"และฮานาโกะเองก็กลับไปอ่านของเธอแล้ว คงไม่น่าได้คุยอะไรมาก"
 
-"Oh well, I'd better make myself comfortable."
+# "Oh well, I'd better make myself comfortable."
+"ถ้างั้น ฉันควรทำตัวสบาย ๆ ดีกว่า"
 
 play sound sfx_pillow
 
-"I slouch into a beanbag and crack open my book."
+# "I slouch into a beanbag and crack open my book."
+"ฉันเอนตัวลงบนบีนแบ็กและเปิดหนังสืออ่าน"
 
-"The familiar style of the author leaps out at me from the very first line. As the sentences turn into paragraphs, I start to relax a little."
+# "The familiar style of the author leaps out at me from the very first line. As the sentences turn into paragraphs, I start to relax a little."
+"สไตล์การเขียนที่คุ้นเคยของนักเขียนคนนี้โดดเด่นออกมาตั้งแต่บรรทัดแรก พอประโยคเริ่มกลายเป็นย่อหน้ามากขึ้นเรื่อย ๆ\nฉันก็เริ่มรู้สึกผ่อนคลายขึ้นมานิดหน่อย"
 
 stop music fadeout 8.0
 
-"But no matter how I try, I can't seem to get myself into the atmosphere of the book."
+# "But no matter how I try, I can't seem to get myself into the atmosphere of the book."
+"แต่ไม่ว่าจะพยายามแค่ไหน ก็ดูเหมือนจะเข้าไม่ถึงบรรยากาศของหนังสือเล่มนี้เลย"
 
-"This is partly due to the lack of time, but the more distracting factor is Hanako."
+# "This is partly due to the lack of time, but the more distracting factor is Hanako."
+"ส่วนนึงก็เพราะเวลาไม่พอแหละ แต่สิ่งที่รบกวนใจมากกว่าก็ฮานาโกะนี่แหละ"
 
 show ev hana_library_std
 with charachange
@@ -4805,75 +4850,93 @@ with charachange
 show ev hana_library_read_std
 with charachange
 
-"Every ten or so seconds she peers over the top of her book, but when our eyes meet she quickly ducks behind the covers."
+# "Every ten or so seconds she peers over the top of her book, but when our eyes meet she quickly ducks behind the covers."
+"ประมาณทุก ๆ สิบวินาทีหรือราว ๆ นั้นเธอจะแอบมองผ่านหนังสือมา แต่พอสบตากันเธอก็จะหลบตาหลังหนังสือ"
 
-"I guess she did want to talk about something after all."
+# "I guess she did want to talk about something after all."
+"ฉันเดาว่าเธอคงอยากคุยอะไรสักอย่างแน่ ๆ "
 
 scene bg school_library
 with locationskip
 
-hi "What's up? You look like a prairie dog on lookout."
+# hi "What's up? You look like a prairie dog on lookout."
+hi "มีอะไรหรือเปล่า เธอมองมาเหมือนแพรรีด็อกที่คอยระวังภัยเลย"
 
 show hanako emb_blushing:
     center
     ypos 1.17
 with charaenter
 
-ha "N-… it's nothing."
+# ha "N-… it's nothing."
+ha "มะ… ไม่มีอะไร"
 
-hi "I've told you before, “nothing” means “something” when you say it like that."
+# hi "I've told you before, “nothing” means “something” when you say it like that."
+hi "ก็บอกแล้วนี่ว่าเวลาเธอพูดว่า “ไม่มีอะไร” เนี่ยมักจะ “มีอะไร” ตลอด"
 
 show hanako cover_worry
 with charachange
 
-"Hanako squirms a little in her beanbag, hoping that by changing her position she'll find the words she's looking for."
+# "Hanako squirms a little in her beanbag, hoping that by changing her position she'll find the words she's looking for."
+"ฮานาโกะขยับตัวเล็กน้อยในบีนแบ็กเธอ หวังว่าการเปลี่ยนตำแหน่งจะช่วยให้เธอนึกคำที่จะตอบได้"
 
 show hanako emb_downsad
 with charachange
 
-ha "I… I was in an accident."
+# ha "I… I was in an accident."
+ha "ฉะ… ฉันประสบอุบัติเหตุน่ะ"
 
-hi "Accident? Just now? Are you all right?"
+# hi "Accident? Just now? Are you all right?"
+hi "อุบัติเหตุ? ตอนนี้เหรอ เป็นอะไรไหม"
 
 show hanako emb_sad
 with charachange
 
-"Hanako shakes her head, her hair flowing around her shoulders in wisps of amethyst on a background of pale and dark flesh."
+# "Hanako shakes her head, her hair flowing around her shoulders in wisps of amethyst on a background of pale and dark flesh."
+"ฮานาโกะส่ายหน้า ผมของเธอพลิ้วไหวรอบไหล่เป็นระลอกสีม่วงบนผิวเนื้อที่ซีดและคล้ำ"
 
 show hanako emb_downsad
 with charachange
 
-ha "N-no. When I was y-younger."
+# ha "N-no. When I was y-younger."
+ha "ปะ เปล่า ตอนที่ฉันยะ ยังเด็กน่ะ"
 
 play music music_hanako
 
-"Realization crashes into me like a semi."
+# "Realization crashes into me like a semi."
+"ความคิดแล่นเข้ามาเหมือนรถบรรทุกพุ่งเข้าชน"
 
-ha "When I… when I was…"
+# ha "When I… when I was…"
+ha "ตอนที่ฉัน… ตอนที่ฉันยัง… "
 
-hi "It's all right Hanako, you don't have to tell me anything if you don't want to…"
+# hi "It's all right Hanako, you don't have to tell me anything if you don't want to…"
+hi "ไม่เป็นไรฮานาโกะ ถ้าไม่อยากเล่าก็ไม่ต้องเล่าก็ได้นะ"
 
-"Again she shakes her head."
+# "Again she shakes her head."
+"เธอส่ายหัวอีกครั้ง"
 
 show hanako emb_sad
 with charachange
 
-ha "N-no. I want… I have to tell you."
+# ha "N-no. I want… I have to tell you."
+ha "มะ ไม่ ฉันอยาก… ฉันจะต้องบอกนาย"
 
 scene ev hanako_crayon1:
      truecenter zoom 1.0 subpixel True
      linear 20.0 zoom 1.05
 with locationskip
 
-ha "When I was young… I was in a fire."
+# ha "When I was young… I was in a fire."
+ha "ตอนที่ฉันยังเด็ก ฉันถูกไฟไหม้น่ะ"
 
-ha "M-my house b-burned down, and I nearly… I nearly didn't make it."
+# ha "M-my house b-burned down, and I nearly… I nearly didn't make it."
+ha "บะ บ้านของฉันไฟไหม้ และฉันเองก็เกือบ… ฉันเกือบไม่รอดออกมาแล้ว…"
 
 show ev hanako_crayon2:
      linear 8.0 zoom 1.05
 with charachange
 
-ha "A-after that… I was alone…"
+# ha "A-after that… I was alone…"
+ha "จะ จากนั้น… ฉันก็ตัวคนเดียวมาตลอด…"
 
 scene bg school_library
 show hanako emb_downsad_close:
@@ -4881,58 +4944,77 @@ show hanako emb_downsad_close:
     ypos 1.1
 with locationskip
 
-"Hanako's eyes glisten in the dim light of the library, and I reach out to grasp her hand."
+# "Hanako's eyes glisten in the dim light of the library, and I reach out to grasp her hand."
+"ดวงตาของฮานาโกะเป็นประกายในแสงสลัวของห้องสมุด และฉันก็เอื้อมมือไปจับมือเธอกุมไว้"
 
-hi "It's okay, Hanako. You don't have to keep going."
+# hi "It's okay, Hanako. You don't have to keep going."
+hi "ไม่เป็นไรฮานาโกะ เธอไม่ต้องเล่าต่อก็ได้"
 
 show hanako emb_sad_close
 with charachange
 
-ha "B-but… I have to…"
+# ha "B-but… I have to…"
+ha "ตะ แต่… ฉันต้อง…"
 
-hi "Why? What brought this on?"
+# hi "Why? What brought this on?"
+hi "ทำไมล่ะ ทำไมเธอถึงมาเล่าให้ฉันฟังกัน"
 
 show hanako cover_distant_close
 with charachange
 
-ha "L-Last night Lilly t-told me about your heart…"
+# ha "L-Last night Lilly t-told me about your heart…"
+ha "มะ เมื่อคืนลิลลี่เล่าเรื่องหัวใจขะ ของนายให้ฉันฟังน่ะ…"
 
 show hanako cover_worry_close
 with charachange
 
-ha "A-and I… I didn't think it was f-fair."
+# ha "A-and I… I didn't think it was f-fair."
+ha "ละ และฉะ… ฉันคิดว่ามันไม่ยะ ยุติธรรมน่ะ"
 
-hi "Fair?"
+# hi "Fair?"
+hi "ยุติธรรม?"
 
 show hanako emb_blushing_close
 with charachange
 
-ha "T-that I knew about you b-but you didn't know about me…"
+# ha "T-that I knew about you b-but you didn't know about me…"
+ha "ระ เรื่องที่ฉันรู้เรื่องของนาย ตะ แต่นายไม่รู้เรื่องฉันน่ะ…"
 
-"I squeeze Hanako's hand a little."
+# "I squeeze Hanako's hand a little."
+"ฉันบีบมือฮานาโกะเบา ๆ"
 
-hi "Don't be silly. But yes, I have a heart condition."
+# hi "Don't be silly. But yes, I have a heart condition."
+hi "พูดอะไรน่ะ แต่ใช่ ฉันเป็นโรคหัวใจ"
 
-"I lean a little closer to Hanako."
+# "I lean a little closer to Hanako."
+"ฉันเอนตัวเข้าไปใกล้ฮานาโกะเล็กน้อย"
 
-hi "What I didn't tell Lilly is that I had my first attack when a girl confessed to me."
+# hi "What I didn't tell Lilly is that I had my first attack when a girl confessed to me."
+hi "ที่ฉันไม่ได้บอกลิลลี่ไปก็คือ ตอนที่หัวใจวายครั้งแรกเกิดตอนที่มีสาวมาสารภาพรักน่ะ"
 
-"I smile a little to break the tension."
+# "I smile a little to break the tension."
+"ฉันยิ้มเล็กน้อยเพื่อคลายความตึงเครียด"
 
 show hanako cover_worry_close
 with charachange
 
-ha "R-really?"
+# ha "R-really?"
+ha "จะ จริงเหรอ"
 
-hi "Really. I haven't heard from her for a while though, so I guess it's all over."
+# hi "Really. I haven't heard from her for a while though, so I guess it's all over."
+hi "อื้ม ซึ่งฉันก็ไม่ได้ข่าวคราวเธอมาสักพักแล้ว ฉันคิดว่าก็คงจบกันไปแล้วละ"
 
-"I know it's all over. There's no other way to interpret what happened the last time I saw her. In some ways, not having heard from her again has helped me move on from that period of my life."
+# "I know it's all over. There's no other way to interpret what happened the last time I saw her. In some ways, not having heard from her again has helped me move on from that period of my life."
+"ฉันรู้อยู่แล้วละว่ามันจบไปแล้ว มันไม่มีทางอื่นที่จะตีความสิ่งที่เกิดขึ้นครั้งสุดท้ายที่ฉันได้เจอเธออีกแล้วล่ะ บางทีการที่ไม่ได้\nข่าวจากเธออีกเลยก็ช่วยให้ฉันก้าวผ่านช่วงเวลานั้นของชีวิตมาได้"
 
-hi "So now, we both know a little more about each other. But you don't have to talk about things if you don't want to."
+# hi "So now, we both know a little more about each other. But you don't have to talk about things if you don't want to."
+hi "เอาละ ตอนนี้เราต่างคนต่างก็ได้รู้เรื่องของกันและกันมากขึ้นแล้วนะ แต่เธอไม่ต้องเล่าอะไรมากก็ได้นะถ้าเธอไม่อยาก"
 
-"In fact, I feel a little bad even thinking about that whole incident. I can almost smell the hospital's disinfectant burning the back of my sinuses again."
+# "In fact, I feel a little bad even thinking about that whole incident. I can almost smell the hospital's disinfectant burning the back of my sinuses again."
+"จริง ๆ ก็รู้สึกแย่หน่อย ๆ พอนึกถึงเรื่องราวทั้งหมดนั่น แทบบจะรู้สึกได้ถึงกลิ่นยาฆ่าเชื้อของโรงพยาบาลที่แสบโพรงจมูก\nอีกครั้ง"
 
-"I imagine Hanako is going through the same thing now."
+# "I imagine Hanako is going through the same thing now."
+"ฉันว่าฮานาโกะก็ผ่านอะไรแบบนี้มาเหมือนกัน"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -4940,19 +5022,26 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\nWhen I was in the hospital I went to the burn ward once, and only once. I was bored, so I went for a walk through all of the wards."
+# n "\n\nWhen I was in the hospital I went to the burn ward once, and only once. I was bored, so I went for a walk through all of the wards."
+n "\n\nตอนที่ฉันยังอยู่ในโรงพยาบาล ฉันไปที่แผนกไฟไหม้น้ำร้อนลวกครั้งนึง และแค่ครั้งเดียวเท่านั้น เพราะตอนนั้นเบื่อ ๆ\nเลยเดินเล่นไปทั่วทุกแผนก"
 
-n "I went through oncology and thought I could take it, but when I got to the burn ward I turned around and went back to my bed."
+# n "I went through oncology and thought I could take it, but when I got to the burn ward I turned around and went back to my bed."
+n "ฉันเดินผ่านแผนกมะเร็งมาได้แบบสบาย ๆ แต่พอไปถึงแผนกไฟไหม้น้ำร้อนลวกเท่านั้นแหละ ฉันก็หันหลังกลับไปที่เตียง\nตัวเองทันทีเลย"
 
-n "To think that Hanako would have spent months in a place like that, smelling nothing but corrupted skin, strong disinfectant and sterilized air."
+# n "To think that Hanako would have spent months in a place like that, smelling nothing but corrupted skin, strong disinfectant and sterilized air."
+n "พอนึกได้ว่าฮานาโกะต้องใช้เวลาอยู่ที่นั่นเป็นเดือน ๆ ได้กลิ่นแค่ผิวหนังที่เสียหาย น้ำยาฆ่าเชื้อแรง ๆ กับอากาศปลอดเชื้อ"
 
-n "The really bad cases were kept in isolated pods that no foreign objects could enter. That would have meant no reading."
+# n "The really bad cases were kept in isolated pods that no foreign objects could enter. That would have meant no reading."
+n "พวกที่อาการหนัก ๆ จะถูกแยกไว้ในห้องกักกันที่ไม่มีสิ่งแปลกปลอมใด ๆ เข้าไปได้ นั่นหมายความว่าจะอ่านหนังสือ\nไม่ได้เลย"
 
-n "\nI would have gone insane if I didn't have my books in the hospital."
+# n "\nI would have gone insane if I didn't have my books in the hospital."
+n "\nฉันคงได้เป็นบ้าแน่ ๆ ถ้าไม่ได้อ่านหนังสือตอนอยู่ในโรงพยาบาล"
 
-n "And she said she was alone…"
+# n "And she said she was alone…"
+n "และเธอก็บอกว่าเธอตัวคนเดียวด้วย…"
 
-n "Did her parents die? I'll have to ask Lilly about it. I can imagine myself saying something dumb unintentionally."
+# n "Did her parents die? I'll have to ask Lilly about it. I can imagine myself saying something dumb unintentionally."
+n "พ่อแม่ของเธอตายงั้นเหรอ ฉันว่าฉันต้องไปถามเรื่องนี้กับลิลลี่ละ ฉันนึกภาพตัวเองพูดอะไรโง่ ๆ ออกไปโดยไม่ได้ตั้งใจ\nออกเลย"
 
 stop music fadeout 2.0
 
@@ -4964,32 +5053,40 @@ with charachange
 
 window show
 
-ha "T-thank you, Hisao."
+# ha "T-thank you, Hisao."
+ha "ขะ ขอบคุณนะฮิซาโอะ"
 
 show hanako emb_downtimid_close
 with charachange
 
-ha "I… I haven't told many people about this."
+# ha "I… I haven't told many people about this."
+ha "ฉะ ฉันแทบไม่เคยเล่าเรื่องนี้ให้ใครฟังเลย"
 
-hi "To be honest, I haven't told many people about my… circumstances either."
+# hi "To be honest, I haven't told many people about my… circumstances either."
+hi "เอาจริง ๆ ก็ ฉันเองก็แทบไม่เคยเล่าเรื่อง… อาการฉันให้ใครฟังเลยเหมือนกัน"
 
 show hanako cover_smile_close
 with charachange
 
-ha "T-then I won't tell a-anyone either."
+# ha "T-then I won't tell a-anyone either."
+ha "ถะ ถ้างั้นฉันก็จะไม่บอกคะ ใครเหมือนกัน"
 
-hi "Deal."
+# hi "Deal."
+hi "ตกลงตามนั้น"
 
 play sound sfx_warningbell
 
-"I change my grip on Hanako's hand into a handshake as the warning bells chime through the window."
+# "I change my grip on Hanako's hand into a handshake as the warning bells chime through the window."
+"ฉันเปลี่ยนท่าที่กุมมือเธอเป็นจับมือสัญญา ประจวบเหมาะกับเสียงระฆังเตือนหมดเวลาดังลอยผ่านหน้าต่างเข้ามาพอดี"
 
-hi "Well then, we'd better head back to class then, eh?"
+# hi "Well then, we'd better head back to class then, eh?"
+hi "ถ้างั้น เรากลับไปห้องเรียนกันเลยไหม"
 
 show hanako basic_bashful_close
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha "อะ อื้ม"
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
 
 window hide
