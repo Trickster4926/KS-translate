@@ -2081,7 +2081,7 @@ show hanako emb_timid
 with charachange
 
 # "Hanako's fidgeting answers my question before she can even form the words."
-"อาการอยู่ไม่สุขของฮานาโกะบอกคำตอบให้ฉันรู้ก่อนที่จะได้เธอจะพูดอะไรเสียอีก"
+"อาการอยู่ไม่สุขของฮานาโกะบอกคำตอบให้ฉันรู้ก่อนที่เธอจะทันได้พูดอะไรเสียอีก"
 
 show hanako emb_downtimid
 with charachange
@@ -2418,7 +2418,7 @@ mi "แต่ก็ไม่ได้หมายความว่าฉัน�
 hi "แล้วมีอะไรน่าเป็นห่วงล่ะ"
 
 show misha perky_sad
-with charachang
+with charachange
 
 # mi "Well, she never hangs out with anyone else, right? It's no good, Hicchan!"
 mi "ก็ เธอไม่เคยจะไปอยู่กับคนอื่น ๆ เลย ใช่ไหมล่ะ ซึ่งไม่ดีเลยฮิจัง!"
@@ -2632,7 +2632,7 @@ with charachange
 mi "ไม่เลย ๆ พวกเราทำตามกฎระเบียบแล้ว ถ้ากฎเขียนไม่ครอบคลุม เราก็ไม่ผิดสักหน่อย"
 
 # hi "I thought that was the definition of corruption…"
-hi "ก็ไม่ใช่เหรอที่เรียกว่าทุจริตน่ะ…"
+hi "ก็นั่นไม่ใช่เหรอที่เรียกว่าทุจริตน่ะ…"
 
 show misha hips_smile
 with charachange
@@ -3142,7 +3142,7 @@ with charachange
 ha "ฉะ… ฉันต้องไปแล้ว"
 
 # hi "Yeah, me too. I didn't realize it was this late. Thanks for letting me hang out with you."
-hi "อื้ม ฉันก็ด้วย ไม่ยักรู้ตัวเลยว่าดึกขนาดนี้แล้ว ขอบใจนะที่ให้มาอยู่ด้วยน่ะ"
+hi "อื้ม ฉันก็ด้วย ไม่ยักรู้ตัวเลยว่าเวลาป่านนี้แล้ว ขอบใจนะที่ให้มาอยู่ด้วยน่ะ"
 
 show hanako basic_bashful
 with charachange
@@ -3420,7 +3420,7 @@ with charachange
 li "กฎน่ะขจัดนิสัยธรรมชาติของมนุษย์ไม่ได้หรอก ทำได้เพียงแค่กดมันไว้เท่านั้น"
 
 # "That's something I've noticed, actually."
-"จริง ๆ นั่นฉันเองก็พอสังเกตมาบ้างแล้วละ"
+"จริง ๆ ฉันเองก็พอสังเกตมาบ้างแล้วละ"
 
 # "Just little things, like how certain people and cliques avoid each other in the hallways. It's no different than my old school, really."
 "แบบเรื่องเล็ก ๆ น้อย ๆ อย่างการที่คนบางกลุ่มหรือกลุ่มเพื่อนหลบหน้ากันในโถงทางเดิน จริง ๆ แล้วก็ไม่ต่างจาก\nโรงเรียนเก่าของฉันเท่าไหร่"
@@ -3589,7 +3589,7 @@ play sound sfx_doorknock2
 li "นั่นเธอหรือเปล่าฮิซาโอะ ประตูไม่ได้ล็อก เข้ามาได้เลยจ้ะ"
 
 # "Lilly's voice lilts through the door and soothes my nerves."
-"เสียงของลิลลี่ที่ดังแว่วผ่านประตู ช่วยลดความประหม่าของฉันได้อย่างดี"
+"เสียงของลิลลี่ที่ดังแว่วผ่านประตูช่วยลดความประหม่าของฉันได้อย่างดี"
 
 # "This is the first time I've been invited to a girl's room after dark."
 "เป็นครั้งแรกเลยที่ถูกเชิญมาห้องสาว ๆ ตอนค่ำเนี่ย"
@@ -3884,7 +3884,7 @@ with charachange
 ha "ชอบก็ดีแล้วละ…"
 
 # "Hanako, finally beginning to relax, sips from her cup."
-"ฮานาโกะที่ในที่สุดก็เริ่มผ่อนคลายและจิบชาจากถ้วยของเธอ"
+"ฮานาโกะที่ในที่สุดก็เริ่มผ่อนคลายจิบชาจากถ้วยของเธอ"
 
 #--------------------
 label th_H7a:
@@ -4284,7 +4284,7 @@ show kenji neutral
 with charachange
 
 # ke "I was going to get some take-out, but I needed change."
-ke "ฉันว่าจะสั่งอาหารสักหน่อยนะ แต่ต้องการเศษเงินนิดหน่อย"
+ke "ฉันว่าจะสั่งอาหารสักหน่อยน่ะ แต่ต้องการเศษเงินนิดหน่อย"
 
 # hi "Wait, what? I gave you money last week and you still haven't paid me back!"
 hi "เดี๋ยวนะ เงินที่ฉันให้นายไปเมื่อสัปดาห์ก่อนนายยังไม่ได้คืนมาเลยนะ!"
@@ -4472,7 +4472,7 @@ li "อ้าว ฮิซาโอะ สบายดีมั้ยจ๊ะ �
 "ไม่รู้ทำไม แต่บทสนทนาตอนเช้าของสองคนนั้นน่าจะมีสาระกว่าเรื่องที่เคนจิเพ้อเจ้อเยอะเลย"
 
 # hi "That's strange. She left class early, so I figured that she'd come here."
-hi "แปลกจัง เธอออกจากห้องเรียนมาก่อนแท้ ๆ เลยนึกว่าน่าจะมาที่นี่น่ะ"
+hi "แปลกจัง พอดีฮานาโกะออกมาก่อนก็เลยนึกว่ามาที่นี่น่ะ"
 
 show lilly basic_displeased
 with charachange
@@ -4498,7 +4498,7 @@ show lilly basic_weaksmile
 with charachange
 
 # li "Everyone has their own pace, I suppose."
-li "คนเราก็คงค่อยเป็นค่อยไปปรับตัวได้เร็วไม่เท่ากันหรอก"
+li "คนเราก็คงค่อยเป็นค่อยไปปรับตัวได้เร็วไม่เท่ากันน่ะนะ"
 
 # hi "Well, I was wondering about just that today. Why exactly does she leave?"
 hi "ก็นะ วันนี้ฉันก็สงสัยอยู่เหมือนกันว่าทำไมเธอถึงต้องออกก่อนด้วย"
@@ -4581,7 +4581,7 @@ with charachange
 li "แต่นั่นก็เป็นเรื่องสนุกของการได้เป็นเพื่อนกันนี่ จริงไหมจ๊ะ"
 
 # hi "Yes, yes it is."
-hi "ใช่ ถูกเลยล่ะ"
+hi "ใช่ ถูกเลยละ"
 
 show lilly basic_giggle
 with charachange
