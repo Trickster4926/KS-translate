@@ -2400,7 +2400,7 @@ hi "พวกเราก็แค่เพื่อนกันน่ะ คิ
 hi "แล้วเธอจะอยากรู้อะไรขนาดนั้นล่ะ เธอกับชิซูเนะไม่ชอบฮานาโกะไม่ใช่เหรอ…"
 
 show misha cross_frown
-witeh charachange
+with charachange
 
 # mi "It's not really like that. You know Shicchan and Lilly don't get along well."
 mi "ก็ไม่เชิงหรอก นายก็รู้ชิจังกับลิลลี่ไม่ค่อยถูกกัน"
@@ -4600,7 +4600,7 @@ li "ฉันจะทานข้าวแล้ว หวังว่าเธ
 
 # hi "No, go ahead, I think I'll eat something too. I've got some books I want to drop back at the library before classes start, so I'd better get a move on."
 hi "ไม่ ๆ เอาเลย ฉันว่าจะกินด้วยเหมือนกัน ต้องรีบกินแล้วรีบเอาหนังสือไปคืนห้องสมุดก่อนเข้าเรียนด้วย"
-้
+
 show lilly basic_smileclosed
 with charachange
 
