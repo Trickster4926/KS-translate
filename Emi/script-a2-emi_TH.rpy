@@ -11,7 +11,8 @@ play sound sfx_alarmclock
 
 window show
 
-"My alarm's beeping shatters the early morning quiet, and I find myself wondering where to find the motivation to rise."
+# "My alarm's beeping shatters the early morning quiet, and I find myself wondering where to find the motivation to rise."
+"เสียงนาฬิกาปลุกดังขึ้นและทำลายความเงียบสงบของยามเช้าลง ส่วนฉันก็กำลังหาเหตุผลที่จะลุกขึ้นจากเตียงให้ได้อยู่"
 
 window hide
 
@@ -20,146 +21,189 @@ with openeye
 
 window show
 
-"Class is still quite far off, but I agreed to run with Emi in the mornings."
+# "Class is still quite far off, but I agreed to run with Emi in the mornings."
+"ยังอีกนานกว่าคาบเรียนแรกจะเริ่ม แต่ฉันก็ตกลงกับเอมิไว้แล้วว่าจะไปวิ่งกับเธอในตอนเช้า"
 
-"Really, I'm not that interested in running as a hobby, or even as a possible life-lengthening exercise."
+# "Really, I'm not that interested in running as a hobby, or even as a possible life-lengthening exercise."
+"ที่จริงแล้วฉันก็ไม่สนใจการวิ่งนักหรอก ทั้งในฐานะของการเป็นงานอดิเรก หรือแม้แต่ในฐานะที่เป็นการออกกำลังกายที่จะทำให้อายุยืนยาวขึ้น"
 
-"However, I feel obligated to follow through on my promise to Emi yesterday, which is why I find myself throwing on some running shorts and a light tee-shirt."
+# "However, I feel obligated to follow through on my promise to Emi yesterday, which is why I find myself throwing on some running shorts and a light tee-shirt."
+"แต่เพราะได้ให้สัญญาไปแล้วเลยรู้สึกว่ามีหน้าที่ที่จะต้องทำตาม ตอนนี้ก็เลยสวมกางเกงวิ่งขาสั้นกับเสื้อยืดบางเบาอยู่"
 
 scene bg school_courtyard
 with locationskip
 
 "The cool morning air caresses my face as the morning sunshine causes the dew on the grass to sparkle, nearly blinding me at first."
+# "สายลมฉ่ำเย็นของยามเช้าพัดผ่านพอคลอเคลียกับใบหน้า แสงอาทิตย์สว่างตกกระทบหยาดน้ำค้างบนใบหญ้า สะท้องแสงเข้าตาจนพร่ามัว"
 
-"As I make my way down to the track, an ugly thought strikes me."
+# "As I make my way down to the track, an ugly thought strikes me."
+"ขณะที่กำลังก้าวเท้าออกไป ความคิดอัปลักษณ์หนึ่งก็ปรากฏขึ้นในใจ"
 
-"What if this is some sort of joke that Emi's playing on me?"
+# "What if this is some sort of joke that Emi's playing on me?"
+"ถ้าเกิดว่านี่เป็นแค่เรื่องโกหก แล้วเอมิก็แค่แกล้งฉันล่ะ?"
 
-"Would that surprise me, really?"
+# "Would that surprise me, really?"
+"ถ้าเป็นอย่างนั้นแล้วฉันจะยังรู้สึกแปลกใจอยู่ไหมนะ?"
 
-"Hell, I'd probably do it to the new guy, too."
+# "Hell, I'd probably do it to the new guy, too."
+"แม้แต่ตัวฉันเองก็คงจะต้อนรับเด็กใหม่แบบนั้นเหมือนกัน"
 
-"At the very least, I'm sure Emi and Rin made a bet on whether or not I'd actually show up."
+# "At the very least, I'm sure Emi and Rin made a bet on whether or not I'd actually show up."
+"อย่างน้อยก็พอมั่นใจได้เลยว่าเอมิกับรินคงจะวางพนันกันไว้ว่าฉันจะไปหรือไม่ไปวิ่งแน่ ๆ"
 
 scene bg school_track
 with locationchange
 
-"I feel a sense of trepidation as the track comes into view."
+# "I feel a sense of trepidation as the track comes into view."
+"พอไปถึงที่สนามวิ่งแล้ว ความรู้สึกประหม่าก็ตีแล่นขึ้นมาในอก"
 
 show emi basic_annoyed_gym at center
 with charaenter
 
 play music music_emi fadein 1.0
 
-emi "You're late!"
+# emi "You're late!"
+emi "นายมาสาย!"
 
-"It would seem that Emi is already there. What a relief."
+# "It would seem that Emi is already there. What a relief."
+"ดูเหมือนว่าเอมิจะมารอก่อนแล้ว ค่อยยังชั่ว"
 
-hi "Not according to my watch. We both are early, in fact."
+# hi "Not according to my watch. We both are early, in fact."
+hi "แต่ถ้าเอาตามนาฬิกาข้อมือของฉัน เราก็มาก่อนเวลากันทั้งคู่นะ"
 
 show emi basic_closedhappy_gym
 with charachange
 
-emi "Damn. You've got me there."
+# emi "Damn. You've got me there."
+emi "โดนจับได้ซะแล้ว แย่จัง"
 
-"Emi is sitting on the bleachers, decked out in her running gear, waiting somewhat patiently for me."
+# "Emi is sitting on the bleachers, decked out in her running gear, waiting somewhat patiently for me."
+"เอมิกำลังนั่งรอผมอย่างอดทนอยู่บนอัฒจันทร์ในสภาพเตรียมพร้อมอย่างเต็มที่"
 
-hi "I'm glad you're actually here. I was afraid that this was a joke or something."
+# hi "I'm glad you're actually here. I was afraid that this was a joke or something."
+hi "ฉันดีใจนะที่เธอมาจริง ๆ ทีแรกนึกว่าจะแกล้งหลอกกันแล้วซะอีก"
 
 show emi basic_grin_gym
 with charachange
 
-emi "Nah, I'd never make someone get up early for nothing."
+# emi "Nah, I'd never make someone get up early for nothing."
+emi "ไม่ล่ะ ฉันไม่มีทางทำให้ใครต้องตื่นแต่เช้าโดยไม่มีเหตุผลหรอก"
 
 show emi excited_proud_gym
 with charachange
 
-emi "Plus, Rin owes me 500 yen now. She didn't think you'd actually show up."
+# emi "Plus, Rin owes me 500 yen now. She didn't think you'd actually show up."
+emi "แล้วอีกอย่าง ตอนนี้รินติดเงินฉันอยู่ 500 เยนแล้วเพราะเธอคิดว่านายจะไม่มา"
 
-"I knew it!"
+# "I knew it!"
+"ว่าแล้วเชียว!"
 
-"Nice to know Emi was on my side, at least."
+# "Nice to know Emi was on my side, at least."
+"แต่อย่างน้อยก็ดีที่ได้รู้ว่าเอมิอยู่ข้างฉัน"
 
 show emi gymbounce_once
 with Dissolve(0.1)
 
-"Emi hops off of the bleachers and begins stretching out."
+# "Emi hops off of the bleachers and begins stretching out."
+"เอมิลงมาจากอัฒจันทร์แล้วเริ่มยืดเส้นยืดสาย"
 
 play sound sfx_gymbounce
 
 show emi gymbounce
 with Dissolve(0.05)
 
-"She's remarkably lithe, almost like a dancer."
+# "She's remarkably lithe, almost like a dancer."
+"พอเห็นท่าทางการยืดเส้นยืดสายนั้นแล้วทำให้รู้สึกว่าตัวเธออ่อนอย่างกับเป็นนักเต้น"
 
-"I set out to stretch as well, but then realize that I don't exactly remember how to stretch properly."
+# "I set out to stretch as well, but then realize that I don't exactly remember how to stretch properly."
+"ฉันเองก็เริ่มทำตาม แล้วจึงค่อยรู้สึกตัวว่าจำวิธียืดเส้นยืดสายแบบดี ๆ ไม่ค่อยได้แล้ว"
 
-"It's been ages since I stretched for anything, if you don't count my one stint at running last week."
+# "It's been ages since I stretched for anything, if you don't count my one stint at running last week."
+"เพราะไม่ได้ออกกำลังกายมาจะเป็นชาติเศษแล้วเลยไม่คิดว่ามันจำเป็น"
 
-"And even then, I don't think I actually stretched beforehand."
+# "And even then, I don't think I actually stretched beforehand."
+"แม้แต่ตอนที่วิ่งไปเมื่อสัปดาห์ก่อนเองก็ไม่คิดว่าตัวเองได้ยืดเส้นยืดสายก่อนวิ่งด้วย"
 
-"The specter of my long hospital stay rises up again."
+# "The specter of my long hospital stay rises up again."
+"เจ้ากรรมนายเวรจากโรงพยาบาลเริ่มตามทันแล้วสิ"
 
-"I can't say I was all that active before the hospital stay, though, so maybe I'm just being morose."
+# "I can't say I was all that active before the hospital stay, though, so maybe I'm just being morose."
+"แต่จะบอกว่าตัวเองเป็นพวกชอบเคลื่อนไหวร่างกายตั้งแต่ก่อนจะโดนหามเข้าโรงพยาบาลก็คงไม่ได้เหมือนกัน\nบางทีตอนนี้ฉันก็แค่อารมณ์ไม่ดีเฉย ๆ"
 
 show emi basic_closedgrin_gym at center
 with charachange
 
-"Emi giggles as she watches me stretch out."
+# "Emi giggles as she watches me stretch out."
+"เอมิยืนดูฉันที่กำลังยืดเส้นยืดสายอยู่และหัวเราะคิกคัก"
 
 show emi basic_grin_gym
 with charachange
 
-emi "No no no Hisao, you've got to hold it for longer than that!"
+# emi "No no no Hisao, you've got to hold it for longer than that!"
+emi "ไม่ใช่แบบนั้สิ ฮิซาโอะ นายต้องค้างท่านั้นไว้นานกว่านี้นะ!"
 
-hi "I'm trying! It kinda hurts a little."
+# hi "I'm trying! It kinda hurts a little."
+hi "ก็พยายามอยู่! แต่มันเจ็บนิด ๆ นี่นา"
 
 show emi excited_proud_gym
 with charachange
 
-emi "Ha! That's because you're out of shape. You've got to get some flexibility in you, like this."
+# emi "Ha! That's because you're out of shape. You've got to get some flexibility in you, like this."
+emi "ก็เพราะว่านายไม่ชอบออกกำลังกายไง จะต้องพยายามทำให้ร่างกายตัวเองยืดหยุ่นขึ้นกว่านี้นะ แบบนี้"
 
 hide emi
 with charamoveoutbottom
 
-"To demonstrate, Emi reaches down and puts her head through her legs."
+# "To demonstrate, Emi reaches down and puts her head through her legs."
+"เอมิก้มลงไปแล้วเอาหัวลอดหว่างขาตัวเองให้ดูเป็นตัวอย่าง"
 
-"God bless you, Emi."
+# "God bless you, Emi."
+"คุณพระช่วยเธอ เอมิ"
 
-hi "I see. Is that the sort of thing I should strive for?"
+# hi "I see. Is that the sort of thing I should strive for?"
+hi "นั่นคือเป้าหมายที่ฉันควรจะตั้งไว้เหรอ?"
 
 show emi basic_closedgrin_gym
 with charamoveinbottom
 
-emi "Of course! Flexibility is important for any runner. You'll be able to go faster the more you stretch out."
+# emi "Of course! Flexibility is important for any runner. You'll be able to go faster the more you stretch out."
+emi "แน่นอนอยู่แล้ว! ความยืดหยุ่นของร่างกายน่ะสำคัญต่อการเป็นนักวิ่งมากนะ เพราะยิ่งร่างกายมีความยืดหยุ่นมากเท่าไหร่\nก็หมายความว่าจะสามารถวิ่งได้เร็วมากขึ้นเท่านั้น"
 
-"That makes no sense to me, but Emi seems to believe it's true."
+# "That makes no sense to me, but Emi seems to believe it's true."
+"ไม่เห็นจะเข้าใจเลยสักนิด แต่เอมิดูจะเชื่อความคิดนั้นเอามาก"
 
-"With Emi's help, I manage to stretch myself out properly."
+# "With Emi's help, I manage to stretch myself out properly."
+"หลังจากนั้นเอมิก็ช่วยให้ฉันสามารถยืดเส้นยืดสายได้อย่างถูกต้องจนเสร็จ"
 
 show emi basic_grin_gym
 with charachange
 
 "I can't help but notice that when she thinks about how to explain things to me, her mouth scrunches up in concentration."
 
-"It's adorable."
+
+# "It's adorable."
+"ก็น่ารักดี"
 
 show emi excited_proud_gym
 with charachange
 
-emi "Not bad, Hisao. Come on, we'd better start running."
+# emi "Not bad, Hisao. Come on, we'd better start running."
+emi "ไม่เลวเลยนี่นา ฮิซาโอะ งั้นเรามาเริ่มวิ่งกันเลยดีกว่า"
 
 show emi excited_happy_gym
 with charachange
 
-emi "We'll start off with just a mile, okay?"
+# emi "We'll start off with just a mile, okay?"
+emi "เริ่มด้วยระยะทางสักไมล์นึงก่อน"
 
 show emi basic_happy_gym
 with charachange
 
-emi "That's four laps around the track, got it?"
+# emi "That's four laps around the track, got it?"
+emi "ซึ่งก็คือประมาณสี่รอบของสนามวิ่ง ไหวมั้ย?"
 
-hi "That sounds fine to me."
+# hi "That sounds fine to me."
+hi "ก็ฟังดูโอเคดี"
 
 show emi basic_happy_gym:
     center
@@ -168,14 +212,17 @@ with None
 
 stop music fadeout 2.0
 
-"This shouldn't be too hard, right?"
+# "This shouldn't be too hard, right?"
+"เท่านี้คงจะไม่ยากเกินไปหรอกใช่มั้ย?"
 
 scene bg school_track_on
 with locationchange
 
-"A hazy memory of running a mile for gym class surfaces in my mind."
+# "A hazy memory of running a mile for gym class surfaces in my mind."
+"ฉันนึกย้อนกลับไปถึงประสบการณ์การวิ่งในคาบพละศึกษาอันเลือนรางในอดีต"
 
-"Yeah, it wasn't that bad."
+# "Yeah, it wasn't that bad."
+"อืม ก็ไม่ยากขนาดนั้น"
 
 play music music_running fadein 0.5
 
@@ -186,76 +233,96 @@ $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
 play ambient sfx_emijogging fadein 1.0
 
-"Emi sets a pretty good pace, and I fall in behind her."
+# "Emi sets a pretty good pace, and I fall in behind her."
+"เอมิออกวิ่งนำไปโดยมีฉันตามหลัง"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
 show emi basic_grin_gym at left
 with charamoveinleft
 
-emi "Try to keep up, okay Hisao?"
+# emi "Try to keep up, okay Hisao?"
+emi "พยายามตามให้ทันนะ โอเคมั้ย ฮิซาโอะ?"
 
-hi "Roger."
+# hi "Roger."
+hi "เข้าใจแล้ว"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
 hide emi
 with charamoveoutleft
 
-"We round the first curve without incident, though I can already feel my heart rate increasing slightly."
+# "We round the first curve without incident, though I can already feel my heart rate increasing slightly."
+"โค้งแรกของสนามผ่านไปได้ด้วยดี แม้ว่าฉันจะเริ่มรู้สึกได้แล้วว่าหัวใจของตัวเองกำลังเต้นเร็วขึ้น"
 
-"By the second curve, I've started to breathe through my mouth."
+# "By the second curve, I've started to breathe through my mouth."
+"เมื่อถึงโค้งที่สอง ฉันก็เริ่มหอบหายใจทางปาก"
 
-"Emi doesn't even seem to be breaking a sweat."
+# "Emi doesn't even seem to be breaking a sweat."
+"ส่วนเอมินั้นแม้แต่เหงื่อสักหยดก็ยังไม่เห็น"
 
-"As if to punctuate her superiority, she turns around and starts running backwards."
+# "As if to punctuate her superiority, she turns around and starts running backwards."
+"เธอหันกลับมาแล้วเริ่มวิ่งถอยหลังราวกับจะเน้นยำถึงความสามารถที่เหนือกว่าของตัวเอง"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
 show emi basic_closedgrin_gym at center
 with charaenter
 
-emi "Are you doing okay, Hisao?"
+# emi "Are you doing okay, Hisao?"
+emi "ไหวรึเปล่า ฮิซาโอะ?"
 
-hi "Never… better."
+# hi "Never… better."
+hi "ไหว... ชิว..."
 
 show emi excited_proud_gym
 with charachange
 
-emi "Oh really? Maybe I should speed up then, hmm?"
+# emi "Oh really? Maybe I should speed up then, hmm?"
+emi "จริงเหรอ? ถ้าอย่างนั้นฉันจะเร่งสปีดขึ้นอีกหน่อยดีมั้ยนะ หืม?"
 
-hi "Oh… no, …wouldn't want you…"
+# hi "Oh… no, …wouldn't want you…"
+hi "อย่า... เลย ...ไม่อยากให้เธอ..."
 
-hi "…to… overex…ert yourself."
+# hi "…to… overex…ert yourself."
+hit "...ฝืน... ตัวเอง... เกิน...ไป"
 
-"My heavy panting and wheezing makes the statement less convincing than I had hoped. Emi simply smiles and turns around again."
+# "My heavy panting and wheezing makes the statement less convincing than I had hoped. Emi simply smiles and turns around again."
+"เสียงหอบหายอันใจหนักหน่วงและและแหลมสูงทำให้คำพูดของฉันฟังดูไม่น่าเชื่อถือเท่าที่หวังไว้ แต่เอมิก็แค่ส่งยิ้มให้แล้วหันกลับไปตามเดิม"
 
 show emi excited_proud_gym at left
 with charamove
 
-emi "You're the boss, Hisao. We'll stay at this pace."
+# emi "You're the boss, Hisao. We'll stay at this pace."
+emi "นายว่ายังไงก็อย่างนั้นเลย ฮิซาโอะ งั้นเราจะวิ่งด้วยความเร็วเท่านี้นะ"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
 hide emi
 with easeoutleft
 
-"I get the feeling that I'm being mocked."
+# "I get the feeling that I'm being mocked."
+"ฉันรู้สึกเหมือนตัวเองกำลังถูกล้ออยู่"
 
-"If I weren't in such terrible shape, I'd probably feel offended."
+# "If I weren't in such terrible shape, I'd probably feel offended."
+"ถ้าไม่ใช่เพราะว่าตัวเองกำลังมีสภาพที่ดูไม่ได้อยู่ก็คงรู้สึกหงุดหงิดมากกว่านี้"
 
-"By the third lap, my breath is coming in ragged gasps."
+# "By the third lap, my breath is coming in ragged gasps."
+"พอถึงรอบที่สาม จังหวะการหอบหายใจของฉันก็ยิ่งยุ่งเหยิงขึ้นไปอีก"
 
-"I'm also awash in my own sweat. Gross."
+# "I'm also awash in my own sweat. Gross."
+"แถมยังเหงื่อโชกจนรู้สึกเหนียวตัวไปหมด"
 
-"We round the curve to start our fourth lap, and Emi looks back at me with a grin."
+# "We round the curve to start our fourth lap, and Emi looks back at me with a grin."
+"เราวิ่งเข้าโค้งสุดท้ายเพื่อเริ่มรอบที่สี่ แล้วเอมิก็มองกลับมาหาฉันพร้อมกับรอยยิ้ม"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
 show emi basic_closedgrin_gym at left
 with charamoveinleft
 
-emi "Here we go!"
+# emi "Here we go!"
+emi "ไปกันเลย!"
 
 play ambient sfx_emisprinting
 
