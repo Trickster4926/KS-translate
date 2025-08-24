@@ -9,52 +9,70 @@ window show
 
 play music music_normal fadein 3.0
 
-"I make it in time for class, though not in time for breakfast."
+# "I make it in time for class, though not in time for breakfast."
+"ฉันมาทันเข้าเรียน แต่ไม่ทันกินข้าวเช้า"
 
-"The classroom is bathing in the gentle light of the sun."
+# "The classroom is bathing in the gentle light of the sun."
+"แสงแดดอันอ่อนโยนอาบไล้ทั่วห้องเรียน"
 
-"This means that it's going to be intolerably hot in the afternoon. For now, though, it's pleasant."
+# "This means that it's going to be intolerably hot in the afternoon. For now, though, it's pleasant."
+"ซึ่งแปลว่าถ้าบ่ายแล้วอากาศต้องร้อนแทบตายแน่นอน แต่ตอนนี้ยังถือว่ากำลังดีอยู่"
 
-"I look at Misha and Shizune's animated discussion about whatever, Hanako staring out of the classroom window, Mutou stumbling into the classroom four minutes late and with no recollection of what he's supposed to be teaching today."
+# "I look at Misha and Shizune's animated discussion about whatever, Hanako staring out of the classroom window, Mutou stumbling into the classroom four minutes late and with no recollection of what he's supposed to be teaching today."
+"ฉันมองไปทางมิช่าและชิซูเนะที่ขยับมือไม้คุยกันอยู่ มองฮานาโกะที่มองออกไปนอกหน้าต่าง มองมุโต้ที่เดินโซเซเข้า\nห้องเรียนมาช้าไปสี่นาทีโดยไม่รู้เลยว่าวันนี้ตัวเองจะต้องมาสอนอะไร"
 
-"I could never imagine dropping out of school just like that, even if it's only for a few weeks."
+# "I could never imagine dropping out of school just like that, even if it's only for a few weeks."
+"นึกสภาพตัวเองลาเรียนไปดื้อ ๆ อย่างนั้นไม่ออกเลย ถึงจะแค่ไม่กี่สัปดาห์ก็เถอะ"
 
-"On the other hand, Rin doesn't seem to have a problem with the idea, or going through with it."
+# "On the other hand, Rin doesn't seem to have a problem with the idea, or going through with it."
+"แต่อีกด้านหนึ่ง รินดูจะไม่ขัดอะไรกับการที่คิดจะลาเรียน หรือจะลาเรียนไปจริง ๆ ก็ไม่ขัด"
 
-"Then again, somehow I got caught along in her insane isolation, even if we ended up hurting each other."
+# "Then again, somehow I got caught along in her insane isolation, even if we ended up hurting each other."
+"แต่ก็นะ ฉันเองก็กลายเป็นว่าได้กลายเป็นส่วนหนึ่งกับการปลีกตัวเกินคนของเธอไปแล้ว ถึงสุดท้ายเราจะทำร้ายกัน\nจนต่างคนต่างเจ็บ"
 
-"Or did we? Maybe only I got hurt."
+# "Or did we? Maybe only I got hurt."
+"ต่างคนต่างเจ็บ? อาจจะมีแค่ฉันที่เจ็บ"
 
 scene bg school_scienceroom_ss
 with shorttimeskip
 
-"It takes me until late in the afternoon to realize that today is Monday. The art club meets today."
+# "It takes me until late in the afternoon to realize that today is Monday. The art club meets today."
+"จนบ่ายแก่ ๆ ฉันก็ถึงนึกได้ว่าวันนี้วันจันทร์ และมีกิจกรรมชมรมศิลปะ"
 
-"Not just that. Due to the exams, this will be the last art club meeting before summer vacation."
+# "Not just that. Due to the exams, this will be the last art club meeting before summer vacation."
+"ไม่ใช่แค่นั้น ยังเป็นกิจกรรมชมรมศิลปะครั้งสุดท้ายก่อนปิดเทอมฤดูร้อนเพราะใกล้สอบแล้ว"
 
 
 #If seen R16d/R20:
 #R20 depends on R16d anyway
 label th_R30x:
 
-"I have no real business going there…"
+# "I have no real business going there…"
+"ฉันก็ไม่มีธุระอะไรจะต้องไปหรอก…"
 
-"But I want to talk with the teacher."
+# "But I want to talk with the teacher."
+"แต่อยากจะคุยกับโนมิยะ"
 
 scene bg school_hallway3
 with locationchange
 
-"So, I end up loitering awkwardly in front of the art room, waiting for the meeting to end."
+# "So, I end up loitering awkwardly in front of the art room, waiting for the meeting to end."
+"ฉันจึงเดินไปเดินมาอยู่หน้าห้องศิลปะรอชมรมเลิก"
 
-no "That's it for this trimester, everyone!"
+# no "That's it for this trimester, everyone!"
+no "เทอมนี้ก็เท่านี้นะทุกคน!"
 
-"His voice is loud enough to be heard through the door and way too enthusiastic for it to be genuine."
+# "His voice is loud enough to be heard through the door and way too enthusiastic for it to be genuine."
+"เสียงของเขาดังจนได้ยินผ่านประตู และฟังดูกระตือรือร้นเกินกว่าจะมาจากใจจริง"
 
-no "The next meeting is after summer vacations, on the Monday of the first week of next term."
+# no "The next meeting is after summer vacations, on the Monday of the first week of next term."
+no "กิจกรรมชมรมครั้งถัดไปคือจันทร์แรกของเทอมหน้าหลังปิดเทอมฤดูร้อนนะ"
 
-no "I hope to see everyone there again!"
+# no "I hope to see everyone there again!"
+no "หวังว่าจะได้เจอกับทุกคนอีกนะ!"
 
-no "Have a nice vacation!"
+# no "Have a nice vacation!"
+no "เที่ยวให้สนุก!"
 
 play ambient sfx_crowd_indoors fadein 1.0
 stop music fadeout 4.0
@@ -62,9 +80,11 @@ stop music fadeout 4.0
 show crowd
 with charaenter
 
-"There's a confused answering chorus of voices, and the door to the classroom opens, releasing a flow of students."
+# "There's a confused answering chorus of voices, and the door to the classroom opens, releasing a flow of students."
+"เสียงตอบรับอื้ออึงอู้อี้ตามมา จากนั้นประตูห้องศิลปะก็เปิดออก เหล่านักเรียนต่างกรูกันออกมา"
 
-"I wait for everyone else to leave, so that I can talk to Nomiya alone. It's almost dinnertime, so I don't have to wait too long."
+# "I wait for everyone else to leave, so that I can talk to Nomiya alone. It's almost dinnertime, so I don't have to wait too long."
+"ฉันรอให้ทุกคนออกไปก่อนเพื่อที่จะได้คุยกับโนมิยะเป็นการส่วนตัว และยิ่งใกล้เวลามื้อเย็นอย่างนี้แล้วฉันก็ไม่ต้อง\nรอนาน"
 
 stop ambient fadeout 2.0
 
@@ -76,169 +96,218 @@ with locationchange
 #R20 depends on R16d anyway
 label th_R30y:
 
-"Without Rin, it feels pretty pointless to go there, but I want to talk with the teacher."
+# "Without Rin, it feels pretty pointless to go there, but I want to talk with the teacher."
+"พอไม่มีรินแล้วก็ไม่รู้จะไปทำไม แต่อยากจะคุยกับโนมิยะสักหน่อย"
 
 scene bg school_classroomart_ss
 with locationskip
 
-"The meeting itself isn't noteworthy, just as my skills with water colors are not worth mentioning."
+# "The meeting itself isn't noteworthy, just as my skills with water colors are not worth mentioning."
+"ตัวกิจกรรมก็ไม่ได้ดีเด่อะไร ไม่ต่างอะไรกับการที่ทักษะการใช้สีน้ำของฉันนั้นไม่ได้ดีเด่"
 
-"Nomiya tries to encourage and advise me without sounding too condescending, but he's not doing a very good job of it."
+# "Nomiya tries to encourage and advise me without sounding too condescending, but he's not doing a very good job of it."
+"โนมิยะคอยสนับสนุนและให้คำแนะนำฉันโดยพยายามไม่ให้ฟังดูข่ม แต่ก็ดูจะไม่เป็นผลเท่าไหร่"
 
-"If nothing else, joining the art club has taught me that I like art. It would be nice if I could actually try and make some art in the art club, though."
+# "If nothing else, joining the art club has taught me that I like art. It would be nice if I could actually try and make some art in the art club, though."
+"เอาเข้าจริง ๆ พอได้เข้าร่วมชมรมศิลปะแล้วก็รู้ตัวว่าชอบศิลปะ แต่ถ้าได้มีผลงานอะไรเป็นชิ้นเป็นอันอะไรกับชมรมศิลปะ\nสักอย่างก็คงดี"
 
-"After the fruits of everyone's labor have been piled into a neat stack on the teacher's desk, he clears his throat to give a little speech."
+# "After the fruits of everyone's labor have been piled into a neat stack on the teacher's desk, he clears his throat to give a little speech."
+"พอผลงานจากความพยายามของทุกคนกองอยู่บนโต๊ะครูอย่างเป็นระเบียบแล้วโนมิยะก็กระแอมเตรียมกล่าวปิดท้าย"
 
 show nomiya talk at center
 with charaenter
 
-no "That's it for this trimester, everyone!"
+# no "That's it for this trimester, everyone!"
+no "เทอมนี้ก็เท่านี้นะทุกคน!"
 
-"His voice is pretty loud and way too enthusiastic for it to be genuine."
+# "His voice is pretty loud and way too enthusiastic for it to be genuine."
+"เสียงของเขาค่อนข้างดังและฟังดูกระตือรือร้นเกินกว่าจะมาจากใจจริง"
 
 show nomiya smile
 with charachange
 
-no "The next meeting is after summer vacations, on the Monday of the first week of next term."
+# no "The next meeting is after summer vacations, on the Monday of the first week of next term."
+no "กิจกรรมชมรมครั้งถัดไปคือจันทร์แรกของเทอมหน้าหลังปิดเทอมฤดูร้อนนะ"
 
-no "I hope to see everyone there again!"
+# no "I hope to see everyone there again!"
+no "หวังว่าจะได้เจอกับทุกคนอีกนะ!"
 
 show nomiya veryhappy
 with charachange
 
-no "Have a nice vacation!"
+# no "Have a nice vacation!"
+no "เที่ยวให้สนุก!"
 
 hide nomiya
 with charaexit
 
 stop music fadeout 4.0
 
-"Everyone wishes him a nice vacation back as they file out the door."
+# "Everyone wishes him a nice vacation back as they file out the door."
+"ทุกคนขานรับคำอวยพรขณะกรูกันออกประตูห้องศิลปะไป"
 
-"I stay behind, waiting until the two of us are alone. It's almost dinnertime, so I don't have to wait long."
+# "I stay behind, waiting until the two of us are alone. It's almost dinnertime, so I don't have to wait long."
+"ฉันรออยู่จนทั้งห้องเหลือแค่ครูกับฉัน และยิ่งใกล้เวลามื้อเย็นอย่างนี้แล้วฉันก็ไม่ต้องรอนาน"
 
 #end split
 label th_R30z:
 
-"Nomiya is looking through the paintings, some of which are actually pretty nice."
+# "Nomiya is looking through the paintings, some of which are actually pretty nice."
+"โนมิยะกำลังดูผลงานของทุกคนอยู่ บางชิ้นก็สวยทีเดียว"
 
-"Rin might outclass everyone else in the art club, but she isn't the only one with talent."
+# "Rin might outclass everyone else in the art club, but she isn't the only one with talent."
+"รินอาจจะเก่งกว่าใครในชมรมนี้ แต่เธอก็ไม่ได้เป็นคนเดียวที่มีพรสวรรค์"
 
-hi "Excuse me, teacher…"
+# hi "Excuse me, teacher…"
+hi "ครูครับ…"
 
 play music music_happiness fadein 2.0
 
 show nomiya smile at center
 with charaenter
 
-no "Hmm? What is it, Nakai?"
+# no "Hmm? What is it, Nakai?"
+no "หืม มีอะไรเหรอ นากาอิ"
 
-"He raises his eyebrows questioningly, smiling widely."
+# "He raises his eyebrows questioningly, smiling widely."
+"เขาเลิกคิ้วขึ้นด้วยความสงสัยพลางยิ้มกว้าง"
 
-hi "It's about Rin…"
+# hi "It's about Rin…"
+hi "เรื่องรินน่ะครับ…"
 
 show nomiya frown
 with charachange
 
-no "Oh? Is something wrong with Tezuka?"
+# no "Oh? Is something wrong with Tezuka?"
+no "อ้าว เทซูกะเป็นอะไรเหรอ"
 
-hi "No, but…"
+# hi "No, but…"
+hi "เปล่าครับ แต่ว่า…"
 
-"I hesitate for a split second, not certain how to say what I want to say, giving Nomiya enough time to start blabbering by himself."
+# "I hesitate for a split second, not certain how to say what I want to say, giving Nomiya enough time to start blabbering by himself."
+"เสี้ยววินาทีหนึ่งฉันลังเลนึกไม่ออกว่าจะพูดสิ่งที่อยากพูดยังไงดี จนโนมิยะได้โอกาสพล่ามแทรกขึ้นมาเอง"
 
 show nomiya smile
 with charachange
 
-no "I saw her a few days ago when I was passing by at Sae's gallery."
+# no "I saw her a few days ago when I was passing by at Sae's gallery."
+no "สองสามวันก่อนไปเห็นตอนที่ผ่านหอศิลป์ของซาเอะอยู่"
 
-no "She said she'd get one or two more paintings done for the exhibition."
+# no "She said she'd get one or two more paintings done for the exhibition."
+no "เห็นบอกว่าเดี๋ยวจะวาดอีกรูปสองรูปไปจัดแสดงในงานนิทรรศการ"
 
 show nomiya talk
 with charachange
 
-no "I was quite pleased, she's a surprisingly hard worker. I'd always thought she was a bit lazy, doing what she wants instead of the assignments…"
+# no "I was quite pleased, she's a surprisingly hard worker. I'd always thought she was a bit lazy, doing what she wants instead of the assignments…"
+no "ฉันดีใจนะ ขยันเกินคาดเลย นึกว่าเป็นคนเฉื่อย ๆ มาตลอด ไม่ยอมทำงานที่สั่งแล้วไปทำอะไรที่อยากทำเอง…"
 
-"He seems to notice my anxiety and realizes he is digressing, shutting up before finishing the thought."
+# "He seems to notice my anxiety and realizes he is digressing, shutting up before finishing the thought."
+"คุณครูเห็นฉันที่มีท่าทีร้อนรนจนรู้ตัวว่ากำลังนอกเรื่องอยู่ จึงตัดบทไปก่อนจะได้พูดอะไรต่อจากนั้นให้เสร็จสิ้น"
 
 show nomiya smile
 with charachange
 
-no "Ah, but you had something to talk about. What is it?"
+# no "Ah, but you had something to talk about. What is it?"
+no "อ้อ เธอมีเรื่องจะคุยนี่ เรื่องอะไรเหรอ"
 
-hi "I don't know… she feels detached from everything, as if she can't think of anything but the exhibition."
+# hi "I don't know… she feels detached from everything, as if she can't think of anything but the exhibition."
+hi "ไม่รู้สิครับ… คือรินดูจะตัดขาดจากทุกอย่างจนหัวสมองมีแต่เรื่องงานนิทรรศการแล้วน่ะครับ"
 
 show nomiya frown
 with charachange
 
-no "Well, isn't that good? She is focused on her painting, as she should be."
+# no "Well, isn't that good? She is focused on her painting, as she should be."
+no "ก็ดีแล้วไม่ใช่เหรอ ได้ตั้งใจกับการวาดรูปเนี่ย"
 
-hi "Yeah, but this is different. It's like she's obsessed. I went to see her, and…"
+# hi "Yeah, but this is different. It's like she's obsessed. I went to see her, and…"
+hi "ครับ แต่คือมันไม่ใช่อย่างนั้น คราวนี้เหมือนหมกมุ่นเลย คือผมไปหาริน แล้ว…"
 
 show nomiya serious
 with charachange
 
-no "Have you been bothering her?"
+# no "Have you been bothering her?"
+no "ไปกวนเทซูกะเขาเหรอ"
 
-"He cuts in before I finish saying what I meant to say, instantly looking quite irritated."
+# "He cuts in before I finish saying what I meant to say, instantly looking quite irritated."
+"คุณครูพูดแทรกก่อนฉันจะทันได้พูดจบพร้อมท่าทีที่ดูหงุดหงิดขึ้นมาทันที"
 
-hi "No… I don't… think so."
+# hi "No… I don't… think so."
+hi "ไม่… ไม่… น่านะครับ"
 
-hi "I'm just concerned because she's stopped coming to school completely. She feels strange, too."
+# hi "I'm just concerned because she's stopped coming to school completely. She feels strange, too."
+hi "ผมแค่เป็นห่วงเพราะรินไม่มาโรงเรียนเลย แถมยังดูแปลก ๆ ด้วย"
 
-hi "Stranger than usual, at the very least."
+# hi "Stranger than usual, at the very least."
+hi "อย่างน้อย ๆ ก็แปลกกว่าปกติน่ะนะครับ"
 
 show nomiya stern
 with charachange
 
-no "Humbug! This is much more important for her than some lousy math class, or physics, or whatever."
+# no "Humbug! This is much more important for her than some lousy math class, or physics, or whatever."
+no "เหลวไหล! เรื่องนี้น่ะสำคัญกับตัวเทซูกะยิ่งกว่าคาบคณิต ฟิสิกส์ หรืออะไรบ้า ๆ พวกนั้นอีก"
 
-no "This is exactly why this school is so flexible, to give every student a chance to fulfill themselves."
+# no "This is exactly why this school is so flexible, to give every student a chance to fulfill themselves."
+no "ก็นี่แหละโรงเรียนนี้ถึงได้ยืดหยุ่นขนาดนี้ ก็เพื่อที่จะให้โอกาสให้นักเรียนทุกคนได้เติมเต็มตามฝันตัวเองน่ะ"
 
 show nomiya serious
 with charachange
 
-no "Tezuka is a painter, so she should paint, no? And have an exhibition. That's what artists do. She should be allowed to concentrate on that, not these other frivolous classes. She should be encouraged."
+# no "Tezuka is a painter, so she should paint, no? And have an exhibition. That's what artists do. She should be allowed to concentrate on that, not these other frivolous classes. She should be encouraged."
+no "เทซูกะเขาเป็นนักวาด ก็ต้องวาด ถูกไหม แล้วก็จัดงานนิทรรศการ นั่นแหละคือสิ่งที่ศิลปินทำกัน เธอต้องได้จดจ่ออยู่\nกับสิ่งนั้น ต้องคอยสนับสนุนไว้ ไม่ใช่กับวิชาขี้ปะติ๋วอะไรพวกนั้น"
 
-no "If you think about it, it's really quite obvious."
+# no "If you think about it, it's really quite obvious."
+no "ถ้าเธอลองคิด ๆ ดูมันก็ชัดอยู่นะ"
 
-"His counterarguments are not very convincing, but I'm having a hard time trying to make any kind of rebuttal."
+# "His counterarguments are not very convincing, but I'm having a hard time trying to make any kind of rebuttal."
+"คำโต้แย้งของคุณครูฟังไม่ค่อยขึ้นเท่าไหร่ แต่ฉันก็ไม่รู้จะค้านกลับยังไงดี"
 
-"My grudging silence is interpreted as assent, and Nomiya turns to shuffle the stack of turned-in assignments on his desk like a deck of cards."
+# "My grudging silence is interpreted as assent, and Nomiya turns to shuffle the stack of turned-in assignments on his desk like a deck of cards."
+"โนมิยะถือเอาว่าความเงียบที่แฝงความหงุดหงิดจากฉันเป็นการยอมรับ คุณครูสับกองงานที่สมาชิกชมรมส่ง\nเหมือนสับไพ่"
 
 show nomiya smile
 with charachange
 
-no "I have to say, while we're talking about Tezuka's exhibition…"
+# no "I have to say, while we're talking about Tezuka's exhibition…"
+no "แต่พูดถึงงานนิทรรศการของเทซูกะ…"
 
-no "I'm very excited to see how it turns out."
+# no "I'm very excited to see how it turns out."
+no "ฉันตื่นเต้นอยากเห็นจริง ๆ ว่าจะออกมาเป็นยังไง"
 
 show nomiya dreamy
 with charachange
 
-no "She's still so young, yet has such wonderful skill, and style!"
+# no "She's still so young, yet has such wonderful skill, and style!"
+no "ทั้งที่อายุยังน้อย แต่มีทักษะและลายเส้นที่สุดยอดขนาดนี้!"
 
-"He's talking to the air, to relax the mood that got a bit too negative."
+# "He's talking to the air, to relax the mood that got a bit too negative."
+"เขาพูดลอย ๆ เพื่อจะคลายบรรยากาศที่ตึงเครียดไปเล็กน้อย"
 
 show nomiya talk
 with charachange
 
-no "I take it that you will be attending?"
+# no "I take it that you will be attending?"
+no "เธอก็จะไปด้วยใช่มั้ย"
 
-hi "Yeah, I guess so."
+# hi "Yeah, I guess so."
+hi "คงงั้นละนะครับ"
 
 show nomiya smile
 with charachange
 
-no "Well, we'll meet there next."
+# no "Well, we'll meet there next."
+no "โอเค ไว้เจอกันที่นั่นแล้วกัน"
 
 stop music fadeout 3.0
 
 scene bg school_hallway3
 with locationchange
 
-"I take that as my cue to leave. And I do, although I'm not happy about it."
+# "I take that as my cue to leave. And I do, although I'm not happy about it."
+"เป็นสัญญาณว่าฉันต้องไปได้แล้ว และฉันก็ออกมา แม้จะไม่พอใจสักเท่าไหร่ก็ตาม"
 
-"My message didn't get through, to say the least."
+# "My message didn't get through, to say the least."
+"ที่แน่ ๆ คือสิ่งที่ฉันจะสื่อนั้นส่งไปไม่ถึง"
 
 
 $ suppress_window_after_timeskip = True
@@ -561,7 +630,7 @@ hi "What about me? Am I nothing? When I was interested in art, did that make you
 
 hi "Tell me. I really want to know. Did you ever think about my perspective, or is it just all you?"
 
-"The words rise like bile in my throat."
+"The words rise like bile in my throat." #ขม?เฝื่อน
 
 show rin basic_surprised
 with charachange

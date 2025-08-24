@@ -1746,7 +1746,7 @@ hide emi
 with charaexit
 
 # "She skips downstairs, leaving me wondering if what I said - or what Rin said, rather - hurt her or not. Maybe what Emi herself said hurt her the most, come to that."
-"เอมิโดดลงตามบันไดไป ทิ้งให้ฉันยืนสงสัยว่าสิ่งที่ฉันพูดที่จริง ๆ แล้วรินเป็นคนพูดนั้นทำร้ายจิตใจเธอหรือเปล่า หรือ\nเอาเข้าจริง ๆ แล้ว สิ่งที่ตัวเอมิพูดเองนั้นอาจจะเป็นสิ่งที่ทำร้ายจิตใจเธอหนักที่สุด"
+"เอมิโดดลงตามบันไดไป ทิ้งให้ฉันยืนสงสัยว่าสิ่งที่ฉันพูดซึ่งจริง ๆ แล้วรินเป็นคนพูดนั้นทำร้ายจิตใจเธอหรือเปล่า หรือ\nเอาเข้าจริง ๆ แล้ว สิ่งที่ตัวเอมิพูดเองนั้นอาจจะเป็นสิ่งที่ทำร้ายจิตใจเธอหนักที่สุด"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 
@@ -1808,7 +1808,7 @@ scene bg school_library at right
 with locationchange
 
 # "It's almost empty, and completely quiet. A few studious first-years are sitting at the tables, joining efforts to get homework done before dinnertime."
-"ภายในนั้นแทบไม่มีใครและเงียบสงัด มีนักเรียนปีที่หนึ่งแสนขยันอยู่สองสามคนที่กำลังช่วยกันนั่งทำการบ้านอยู่ด้วยกัน\nให้เสร็จทันก่อนมื้อเย็น"
+"ภายในนั้นแทบไม่มีใครและเงียบสงัด มีนักเรียนม. 4 แสนขยันอยู่สองสามคนที่กำลังช่วยกันนั่งทำการบ้านอยู่ด้วยกัน\nให้เสร็จทันก่อนมื้อเย็น"
 
 # "Yuuko is hard at work today, too. She's methodically going through a towering stack of books sitting on her desk, checking them one by one and then placing them onto a cart beside her. I greet her as I stop by."
 "วันนี้ยูโกะก็ตั้งใจทำงานดีเหมือนเดิม เธอกำลังจัดการกองหนังสือที่ตั้งซ้อนกันอยู่บนโต๊ะไปอย่างเป็นระเบียบ คอยหยิบ\nมาเช็กทีละเล่มก่อนจะวางไว้ที่รถเข็นข้าง ๆ เธอ พอฉันเดินผ่านก็ทักทาย"
@@ -2247,7 +2247,7 @@ hide nomiya
 with charaexit
 
 # "He leaves to chat with the pair of second-year girls working on some watercolors."
-"แล้วคุณครูก็เดินไปคุยกับสาวสองคนที่เป็นนักเรียนปีที่สองที่นั่งวาดภาพสีน้ำกันอยู่"
+"แล้วคุณครูก็เดินไปคุยกับนักเรียนสาวม. 5 สองคนที่นั่งวาดภาพสีน้ำกันอยู่"
 
 # "Even though he said that clichéd thing, it feels to me like Nomiya is trying to prod Rin through a certain door in particular, but I can't blame him for that."
 "ถึงจะบอกว่าตัวเองเป็นเรือจ้างอะไรที่ฟังดูเฝือ ๆ นั่นก็เถอะ แต่ฉันรู้สึกเหมือนว่าโนมิยะเองนั่นแหละที่เป็นคนแจวเรือ\nนำทางรินไปท่าเรือหนึ่งด้วยตัวเองมากกว่า แต่ก็ว่าไม่ได้หรอก"
@@ -2340,7 +2340,7 @@ scene ev busride
 with locationchange
 
 # "The next day, I take the bus into the city. It goes twice an hour starting in the morning, passing by the front gate of Yamaku at 20 minutes past and 10 to the hour."
-"วันถัดมาฉันนั่งรถบัสเข้ามาตัวเมือง รถบัสนั้นวิ่งผ่านโรงเรียนยามุตั้งแต่ตอนเช้าชั่วโมงละสองเที่ยว โดยในแต่ละชั่วโมง\nจะเป็นรอบเวลาที่ 20 และ 50 นาที"
+"วันถัดมาฉันนั่งรถบัสเข้ามาตัวเมือง รถบัสนั้นวิ่งผ่านโรงเรียนยามากุตั้งแต่ตอนเช้าชั่วโมงละสองเที่ยว โดยในแต่ละชั่วโมง\nจะเป็นรอบเวลาที่ 20 และ 50 นาที"
 
 # "The ride takes considerably longer than the one Nomiya gave us in his car. I slowly read a book as the bus makes its rounds through the suburbs, pausing at almost every stop to pick up someone or let them out."
 "ถ้าให้เทียบกับที่โนมิยะขับรถพาไปครั้งนั้นแล้ว การนั่งรถบัสไปจะใช้เวลาค่อนข้างนานกว่า ฉันอ่านหนังสือไปอย่างช้า ๆ\nระหว่างที่รถบัสกำลังวิ่งไปตามชานเมืองและจอดตามป้ายเพื่อรับส่งผู้คน"
@@ -3913,7 +3913,7 @@ hi "มั้งนะ"
 "รินลองสูบอีกหนึ่งปื้ด"
 
 # rin "It's not very tasty. Feels like inhaling the dust lying on top of a forgotten book about the memories of a dead kingdom."
-rin "ไม่อร่อยเท่าไหร่ เหมือนสูดฝุ่นที่กองอยู่บนหนังสือที่ถูกทิ้งที่เนื้อหาเป็นเรื่องความทรงจำของอาณาจักรที่ล่มสลาย"
+rin "ไม่อร่อยเท่าไหร่ เหมือนสูดฝุ่นที่กองอยู่บนหนังสือถูกทิ้งที่เนื้อหาเป็นเรื่องความทรงจำของอาณาจักรที่ล่มสลาย"
 
 # rin "Do you want to try?"
 rin "อยากลองมั้ย"
@@ -4049,7 +4049,7 @@ with charachange
 "รินจ้องท้องฟ้ามืดดำผ่านช่องแสงและเพดานที่มีควันโขมงอยู่"
 
 # "It's almost like she is sleeping even though I know she isn't. Her eyes are open, as is her mouth."
-"เหมือนกำลังหลับอยู่เลย แต่ก็ไม่หรอก เธอยังลืมตาและปากก็ยังคีบบุหรี่อยู่"
+"เหมือนกำลังหลับอยู่เลย แต่ก็ไม่หรอก เธอยังลืมตาและปากก็ยังคาบบุหรี่อยู่"
 
 show ev rin_wisp3 at wispturn
 with charachange
@@ -4374,7 +4374,7 @@ n "\nฉันจึงเดินไปตามถนนในตัวเม
 n "ทุก ๆ ทางแยกนั้นจะสุ่มเลือกไปทางไหนก็ได้ เพราะไม่ว่าจะทางไหนก็ไม่ได้พาไปที่ไหนทั้งนั้น"
 
 # n "\nThe aimless wandering made me see things differently. I hope it'll do the same for Rin."
-n "\nการเดินเรื่อยเปื่อยไร้จุดหมายทำให้ฉันได้มองอะไรในมุมใหม่ ๆ หวังว่ารินก็จะได้มองอย่างนั้นด้วยนะ"
+n "\nการเดินเตร่ไร้จุดหมายทำให้ฉันได้มองอะไรในมุมใหม่ ๆ หวังว่ารินก็จะได้มองอย่างนั้นด้วยนะ"
 
 nvl clear
 nvl hide dissolve
