@@ -4,125 +4,163 @@ scene bg school_miyagi_ss
 show hanako basic_distant_close_ss at center
 with locationchange
 
-"The tint of the room slowly changes from the shine of the afternoon to the orange of dusk. A clock lazily ticks away the seconds, counting in the background, on the verge of hearing."
+# "The tint of the room slowly changes from the shine of the afternoon to the orange of dusk. A clock lazily ticks away the seconds, counting in the background, on the verge of hearing."
+"สีห้องค่อย ๆ เปลี่ยนจากแสงยามบ่ายเป็นสีส้มของยามเย็น นาฬิกาค่อย ๆ เดินไปอย่างเชื่องช้า เสียงดังติ๊กตอกนับวินาที\nไปเรื่อย ๆ โดยแทบจะไม่ได้ยินอยู่เบื้องหลัง"
 
-"But no matter how long I wait, the outcome cannot be changed."
+# "But no matter how long I wait, the outcome cannot be changed."
+"แต่ไม่ว่าฉันจะรอนานแค่ไหนก็ตาม ผลลัพธ์ก็ไม่ได้เปลี่ยนไปเลย"
 
-"The diminutive playing piece makes a small click against the board."
+# "The diminutive playing piece makes a small click against the board."
+"หมากตัวเล็ก ๆ วางลงบนกระดานแล้วเกิดเสียงกระทบเบา ๆ"
 
 show hanako basic_normal_close_ss
 with charachange
 
-"Like a wound spring, Hanako makes her move only moments after mine."
+# "Like a wound spring, Hanako makes her move only moments after mine."
+"ฮานาโกะเดินหมากทันทีที่ฉันเดินเสร็จ ราวกับลานที่ไขไว้ตึง"
 
-"It's embarrassing. In comparison to my five-minute moves, she seems to know exactly what she wants to do."
+# "It's embarrassing. In comparison to my five-minute moves, she seems to know exactly what she wants to do."
+"เมื่อเทียบกับที่ฉันใช้เวลาตั้งห้านาทีในการเดินก็น่าอายอยู่ อย่างกับเธอรู้อยู่แล้วว่าอยากจะเดินอะไรต่อ"
 
 show hanako basic_smile_close_ss
 with charachange
 
 play music music_tranquil fadein 3.0
 
-ha "Mate."
+# ha "Mate."
+ha "รุกจน"
 
-hi "Again… What does that make this? 3-2?"
+# hi "Again… What does that make this? 3-2?"
+hi "อีกแล้วเหรอเนี่ย… คะแนนเท่าไหร่แล้วนะ? สามต่อสอง?"
 
 show hanako cover_bashful_close_ss
 with charachange
 
-ha "S-stalemates don't count."
+# ha "S-stalemates don't count."
+ha "หมะ หมากอับไม่นับน่ะ"
 
-hi "Damn. You're getting better at this every day."
+# hi "Damn. You're getting better at this every day."
+hi "แหม่ เธอนี่เก่งขึ้นทุกวันเลยนะ"
 
-"That, or she's been holding back. I'd never have thought it when I first met her, but she really has a knack for this game."
+# "That, or she's been holding back. I'd never have thought it when I first met her, but she really has a knack for this game."
+"หรือจริง ๆ เธออาจจะแค่ออมมือให้ก่อนหน้านี้ ตอนที่เจอกันครั้งแรกไม่คิดเลยว่าเธอจะเล่นเกมนี้เก่งขนาดนี้"
 
-"Chess seems to have become a popular pastime for the two of us; hiding away in the tea room, playing a game or two after classes."
+# "Chess seems to have become a popular pastime for the two of us; hiding away in the tea room, playing a game or two after classes."
+"ดูเหมือนหมากรุกจะกลายเป็นงานอดิเรกยอดนิยมของเราสองคนไปแล้ว ซ่อนตัวอยู่ในห้องชาเพื่อเล่นเกมสองสามเกมหลัง\nเลิกเรียน"
 
-"From here, the students outside can just barely be heard milling about. The everyday noises from below remind me a little of my life before Yamaku, though I'm by now well aware that it's a life I'll never get back to."
+# "From here, the students outside can just barely be heard milling about. The everyday noises from below remind me a little of my life before Yamaku, though I'm by now well aware that it's a life I'll never get back to."
+"จากตรงนี้พอจะได้ยินเสียงนักเรียนที่อยู่ด้านนอกเดินกันไปมา เสียงชีวิตประจำวันจากข้างล่างทำให้ฉันนึกถึงชีวิตก่อนที่จะมา\nที่ยามากุ แต่ฉันก็รู้ดีอยู่แล้วว่าเป็นชีวิตที่ฉันไม่อาจหวนกลับไปได้อีก"
 
-hi "Fancy another game?"
+# hi "Fancy another game?"
+hi "อีกเกมไหม?"
 
 show hanako basic_worry_close_ss
 with charachange
 
-ha "I… I have to finish my homework…"
+# ha "I… I have to finish my homework…"
+ha "ฉะ… ฉันต้องกลับไปทำการบ้านน่ะ"
 
-hi "Oh. Well, I'll see you tomorrow then."
+# hi "Oh. Well, I'll see you tomorrow then."
+hi "โอ้ งั้นก็เจอกันพรุ่งนี้ละกัน"
 
 show hanako basic_distant_close_ss
 with charachange
 
-ha "But… what about this…"
+# ha "But… what about this…"
+ha "แต่… แล้วพวกนี้ล่ะ…"
 
-"Hanako points to the tea set surrounding the mostly-empty chess board."
+# "Hanako points to the tea set surrounding the mostly-empty chess board."
+"ฮานาโกะชี้ไปที่ชุดน้ำชาที่อยู่รอบกระดานหมากรุกที่เกือบจะว่างเปล่า"
 
-hi "Don't worry about that, I've got it."
+# hi "Don't worry about that, I've got it."
+hi "ไม่ต้องห่วง เดี๋ยวจัดการเอง"
 
 show hanako basic_normal_close_ss
 with charachange
 
-ha "Oh… okay…"
+# ha "Oh… okay…"
+ha "โอ้… โอเค…"
 
 show hanako basic_bashful_close_ss
 with charachange
 
-ha "S-see you."
+# ha "S-see you."
+ha "จะ เจอกัน"
 
-hi "Later."
+# hi "Later."
+hi "เจอกัน"
 
 hide hanako
 with charaexit
 
-"Hanako departs as I start cleaning up the area."
+# "Hanako departs as I start cleaning up the area."
+"ฮานาโกะออกไปตอนที่ฉันเริ่มเก็บกวาดห้อง"
 
-"The occasional whistles and cheers from the sporting clubs outside become less frequent, eventually approaching silence."
+# "The occasional whistles and cheers from the sporting clubs outside become less frequent, eventually approaching silence."
+"เสียงนกหวีดและเสียงเชียร์เป็นช่วง ๆ จากชมรมกีฬาข้างนอกเริ่มเบาลงเรื่อย ๆ จนในที่สุดก็เข้าใกล้ความเงียบ"
 
-"A part of me still wants to be in some kind of team. Since I played soccer and other sports before my accident, I guess it's only normal to feel nostalgic about what I can't do any more."
+# "A part of me still wants to be in some kind of team. Since I played soccer and other sports before my accident, I guess it's only normal to feel nostalgic about what I can't do any more."
+"ส่วนหนึ่งในใจฉันยังคงอยากเป็นส่วนหนึ่งของทีมอยู่ ตั้งแต่ฉันเคยเล่นฟุตบอลและกีฬาอื่น ๆ มาก่อนเกิดเหตุการณ์นั้น\nฉันว่าคงเป็นเรื่องปกติที่จะรู้สึกคิดถึงสิ่งที่ทำไม่ได้อีกแล้ว"
 
-"But I have other reasons than that for my coming here so often, and I don't feel so bad about losing that part of myself because of them. Lilly is a good friend by now, but it's the small exchanges I have with Hanako that feel especially dear."
+# "But I have other reasons than that for my coming here so often, and I don't feel so bad about losing that part of myself because of them. Lilly is a good friend by now, but it's the small exchanges I have with Hanako that feel especially dear."
+"แต่การที่ฉันมาที่นี่บ่อย ๆ ก็มีเหตุผลอื่นด้วยแหละ แถมฉันก็ไม่ได้รู้สึกแย่กับการที่ต้องสูญเสียชีวิตส่วนนั้นไปเพราะเรื่องนั้นด้วย\nได้มีลิลลี่เป็นเพื่อนที่ดีก็ส่วนนึง แต่การได้แลกเปลี่ยนเรื่องราวเล็ก ๆ น้อย ๆ กับฮานาโกะต่างหากที่ทำให้ฉันรู้สึกพิเศษ"
 
-"The small victories I feel every day as I see more of what she's like under her self-imposed shell. That's why I come here most of all."
+# "The small victories I feel every day as I see more of what she's like under her self-imposed shell. That's why I come here most of all."
+"ชัยชนะเล็ก ๆ ที่ฉันรู้สึกได้ในทุก ๆ วัน คือเมื่อฉันได้เห็นตัวตนที่แท้จริงของเธอที่ซ่อนอยู่ภายใต้เปลือกที่เธอสร้างขึ้นมา\nนั่นคือเหตุผลทั้งหมดว่าทำไมฉันถึงมาที่นี่บ่อยที่สุด"
 
-"As I'm putting away cups and saucers, I hear talking outside the door. Pausing for a moment to listen, I can make out that it's Hanako and Lilly, and decide to go outside to investigate."
+# "As I'm putting away cups and saucers, I hear talking outside the door. Pausing for a moment to listen, I can make out that it's Hanako and Lilly, and decide to go outside to investigate."
+"ขณะที่ฉันกำลังเก็บถ้วยกับจานรอง ก็ได้ยินเสียงคนคุยกันอยู่หน้าประตู ฉันหยุดเพื่อฟังสักครู่ก็พอจับใจความได้ว่าเป็นเสียง\nของฮานาโกะกับลิลลี่ เลยตัดสินใจออกไปดูว่าเกิดอะไรขึ้น"
 
 scene bg school_hallway2
 show lilly basic_weaksmile at twoleft
 show hanako emb_downtimid at tworight
 with locationchange
 
-li "Are you quite sure?"
+# li "Are you quite sure?"
+li "เธอแน่ใจแล้วใช่ไหม"
 
-ha "I… I'm sure…"
+# ha "I… I'm sure…"
+ha "ฉะ… ฉันแน่ใจ…"
 
 show hanako emb_timid
 with charachange
 
-ha "Ah, Hisao."
+# ha "Ah, Hisao."
+ha "อ๊ะ ฮิซาโอะ"
 
-"Hanako turns to see me with a look of mild surprise as she notices my approach. Lilly must've caught her just as she was about to leave."
+# "Hanako turns to see me with a look of mild surprise as she notices my approach. Lilly must've caught her just as she was about to leave."
+"ฮานาโกะหันมามองฉันด้วยสีหน้าตกใจเล็กน้อยเมื่อเธอเห็นว่าฉันกำลังเดินเข้าไปหา ลิลลี่คงมาเจอเธอตอนที่เธอกำลังจะไปพอดี"
 
 show lilly basic_smile
 with charachange
 
-li "Oh my, Hisao is here as well?"
+# li "Oh my, Hisao is here as well?"
+li "ตายจริง ฮิซาโอะก็อยู่ด้วยเหรอเนี่ย"
 
-hi "'Afternoon, Lilly. What's up?"
+# hi "'Afternoon, Lilly. What's up?"
+hi "ทิวาหวัดลิลลี่ มีอะไรกันเหรอ" # แม่ง สรุปกูเอาตามนี้จริง
 
 show lilly basic_smileclosed
 with charachange
 
-li "I was hoping, now that I've finished with my class representative duties for the day, that I might have the two of you accompany me for tea at the Shanghai. It would be nice to enjoy ourselves outside of the school, for a change."
+# li "I was hoping, now that I've finished with my class representative duties for the day, that I might have the two of you accompany me for tea at the Shanghai. It would be nice to enjoy ourselves outside of the school, for a change."
+li "วันนี้ฉันทำงานส่วนของหัวหน้าห้องไปหมดแล้ว ก็เลยหวังว่าพวกเธอสองคนจะไปดื่มชากับฉันที่ร้านเซี่ยงไฮ้ได้นะ\nคงจะดีถ้าเราจะได้สนุกนอกโรงเรียนบ้างน่ะจ้ะ"
 
-hi "I'd be up for it. I think Hanako had work to do, though…?"
+# hi "I'd be up for it. I think Hanako had work to do, though…?"
+hi "ฉันไปได้แหละ แต่เห็นว่าฮานาโกะมีงานต้องทำนี่นะ…"
 
 show hanako basic_smile
 with charachange
 
-ha "I-it's… not all that much…"
+# ha "I-it's… not all that much…"
+ha "กะ ก็… ไม่ได้เยอะขนาดนั้นหรอก"
 
 show lilly behind_cheerful
 with charachange
 
-li "Wonderful. It seems that we're decided, then."
+# li "Wonderful. It seems that we're decided, then."
+li "ดีเลย งั้นก็ตกลงตามนี้นะ"
+#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 stop music fadeout 2.0
 
