@@ -11,10 +11,10 @@
     thnamefont = "font/BoonJot-Regular.otf"
     
     def thw(string):
-        return "{font=" + thfont + "}" + string + "{/font} "
+        return "{font=" + thfont + "}" + string + "{/font}"
     
     def thmed(string):
-        return "{font=" + thmedfont + "}" + string + "{/font} "
+        return "{font=" + thmedfont + "}" + string + "{/font}"
 
     def thname(string):
         return "{size=18}{font=" + thnamefont + "}{plain}" + string + "{/plain}{/font}{/size}"
