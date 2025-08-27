@@ -1415,7 +1415,7 @@ with locationchange
 "อยากจะลุกขึ้นยืนแล้วก็เดินเชิดออกห้องโดยไม่สนว่าใครจะว่าอะไรยังไง และไม่ใช่แค่ฉันแน่ ๆ ที่คิดอย่างนี้"
 
 # "Next to me, Misha is shamelessly holding her skirt up a bit and fanning air in with her notebook."
-"มิช่าที่นั่งอยู่ข้าง ๆ ฉันเลิกกระโปรงขึ้นเล็กน้อยแบบไม่อายฟ้าดินพลางใช้สมุดพัด ๆ เข้าไปด้วย"
+"มิช่าที่นั่งอยู่ข้าง ๆ เลิกกระโปรงขึ้นเล็กน้อยแบบไม่อายฟ้าดินพลางใช้สมุดพัด ๆ เข้าไปด้วย"
 
 # "Only Shizune seems to be as cool as always, sitting with her back perfectly straight, arms folded on her chest, her eyes fixed on the equations scrawled on the blackboard."
 "มีแค่ชิซูเนะที่ยังดูเรียบร้อยเหมือนทุกที เธอนั่งกอดอกหลังตรงแหน็ว สายตาจับจ้องสมการยึกยือที่อยู่บนกระดาน"
@@ -3922,7 +3922,7 @@ rin "อยากลองมั้ย"
 "ความลังเลที่ผุดขึ้นมาโดยไม่ได้ตั้งใจอีกครั้งนั้นทำให้ฉันต้องผงะไปกับคำท้าที่ไม่ใช่เรื่องใหญ่อะไรและมีให้เห็นกัน\nดาษดื่นนั้น"
 
 # "Rin's ability to take everything so coolly is something I'm a bit jealous of."
-"ฉันแอบอิจฉารินทีี่เธอสามารถทำอะไร ๆ ได้แบบเท่ ๆ อย่างนั้น"
+"ฉันแอบอิจฉารินทีี่เธอสามารถทำอะไร ๆ ได้แบบสบาย ๆ อย่างนั้น"
 
 # hi "All right."
 hi "ก็ได้"
@@ -6170,7 +6170,7 @@ show rinpan relaxed_surprised_close_ni
 with charachange
 
 # rin "What does that mean? I'm not going anywhere."
-rin "หมายความว่ายังไง ฉันก็ยังไม่เสียสักหน่อย"
+rin "หมายความว่ายังไง ฉันก็ไม่ได้ไปไหนสักหน่อย"
 
 # hi "I'm afraid that you are. All the time."
 hi "ฉันกลัวว่าจะเสียเธอไป ตลอดเลย"
@@ -6249,7 +6249,7 @@ with locationchange
 "รินนอนหนุนหน้าอกฉันราวกับว่ากำลังฟังเสียงใจเต้นอยู่"
 
 # "Echoes of her dream ripple as small twitches on her face, like a cat sleeping the mouse-hunter's dream."
-"ความฝันคอยชักดึงให้สีหน้าเธอกระตุกเล็กน้อย ดูแล้วก็เหมือนแมวที่ฝันว่าล่าหนูอยู่"
+"ความฝันคอยชักดึงให้ใบหน้าเธอกระตุกเล็กน้อย ดูแล้วก็เหมือนแมวที่ฝันว่าล่าหนูอยู่"
 
 # "The full moon, shining her pale light upon us from beyond the skylight, reflects from a blank canvas standing forgotten on the easel."
 "จันทร์เต็มดวงส่องแสงกระจ่างใส่พวกเราอยู่เบื้องหลังช่องแสง แสงนั้นสะท้อนผ่านผืนผ้าใบว่างเปล่าที่อยู่บนขาตั้ง\nที่ถูกลืม"
@@ -6349,7 +6349,7 @@ rin "นายก็ต้องการอะไรอย่างนั้น
 "หมัดตรงแบบไม่เกรงใจเลย ฉันอึ้งไปกับความคิดของริน"
 
 # hi "No, I… even if it was, I think I'd prefer for things to go properly."
-hi "ไม่ คือฉัน… ต่อให้เป็นอย่างนั้นจริง ฉันก็อยากให้อะไร ๆ ไปแบบเป็นขั้นเป็นตอนมากกว่า"
+hi "ไม่ คือฉัน… ต่อให้เป็นอย่างนั้นจริง ฉันก็อยากให้อะไร ๆ เดินไปแบบเป็นขั้นเป็นตอนมากกว่า"
 
 show rin relaxed_doubt_cas_close
 with charachange
@@ -6361,7 +6361,7 @@ show rin basic_absent_cas_close
 with charachange
 
 # rin "So you don't want to do that sort of thing?"
-rin "ก็คือนายไม่ต้องการอะไรอย่างนั้น"
+rin "ก็คือนายไม่ต้องการอะไรอย่างนั้น?"
 
 # hi "I didn't say that."
 hi "ฉันไม่ได้พูดอย่างนั้นสักหน่อย"
@@ -6370,7 +6370,7 @@ show rin basic_deadpannormal_cas_close
 with charachange
 
 # rin "So you do?"
-rin "ก็คือนายต้องการ"
+rin "ก็คือนายต้องการ?"
 
 # hi "I didn't say that either."
 hi "ฉันก็ไม่ได้พูดอย่างนั้นเหมือนกัน"
@@ -6418,7 +6418,7 @@ with charachange
 rin "ฉันบอกไปแล้วนะว่านายไม่ควรจะคุยเรื่องนั้น"
 
 # hi "I don't agree. Besides, you brought it up yourself before."
-hi "ไม่เอาด้วยหรอก อีกอย่าง เธอเคยบอกเองแล้วด้วย"
+hi "ไม่เอาด้วยหรอก อีกอย่าง เธอก็เคยเอามาคุยเหมือนกัน"
 
 # "I hold my hand up and pinch the bridge of my nose in frustration. I have no idea how to get Rin to understand."
 "ฉันยกมือขึ้นมาบีบสันจมูกด้วยความหงุดหงิด ไม่รู้จะบอกยังไงให้รินเข้าใจดี"
@@ -6692,7 +6692,7 @@ play music music_tragic fadein 6.0
 hi "กอด แล้วก็เมิน จูบ แล้วก็เมิน นี่คือจะปั่นหัวกันเล่นเหรอ จูบ แล้วก็ลืมอีก"
 
 # "My voice is sounding very angry again, even to myself."
-"น้ำเสียงฉันโกรธจัดจนแม้แต่ฉันยังรู้สึกได้"
+"น้ำเสียงฉันโกรธจัดขึ้นมาอีกครั้งจนแม้แต่ฉันยังรู้สึกได้"
 
 # "Rin too finally catches the mood and her curious expression changes instantly to something more uncharacteristic."
 "รินเองก็สัมผัสได้ถึงบรรยากาศแล้ว สีหน้าของเธอเปลี่ยนจากความสงสัยเป็นอีกสีหน้าที่ดูไม่สมเป็นตัวเธอ"
@@ -6755,7 +6755,7 @@ rin "เป็นอย่างเดียวที่ฉันทำได้
 hi "เออ ไม่ต้องบอกก็รู้ ขอบใจ ศิลปะมาเป็นอันดับแรก อย่างอื่นอันดับที่สอง ไม่ก็อันดับที่พันนู่นแหละ"
 
 # hi "Ever paused to consider things from a perspective other than yours?"
-hi "เคยลองคิดดูสักครั้งมั้ยว่าคนอื่นเขาคิดอะไรยังไงบ้าง"
+hi "เคยลองคิดถึงใจคนอื่นดูบ้างมั้ย"
 
 # "I snarl the words from between my teeth, they taste like poison anyway."
 "ฉันพ่นคำพูดลอดไรฟันออกมา รสชาติคำพูดเหล่านั้นขมราวยาพิษ"
