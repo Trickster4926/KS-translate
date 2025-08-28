@@ -4901,176 +4901,237 @@ with charaenter
 
 play music music_drama fadein 6.0
 
-"She's standing in the middle of the sunlit room, peering through the gaps of the curtains out into the yard."
+# "She's standing in the middle of the sunlit room, peering through the gaps of the curtains out into the yard."
+"เธอยืนอยู่กลางห้องที่แดดสาดส่องมองผ่านช่องระหว่างผ้าม่านออกไปยังสวน"
 
-"Like so often before, she doesn't start or jump, just calmly waits for me to make the first move."
+# "Like so often before, she doesn't start or jump, just calmly waits for me to make the first move."
+"และเหมือนอย่างทุกที เธอไม่ตกใจหรือสะดุ้งเลย แค่รออยู่นิ่ง ๆ ให้ฉันเป็นคนเริ่มก่อน"
 
-"It's as if she is trying to become a permanent part of the furniture."
+# "It's as if she is trying to become a permanent part of the furniture."
+"ราวกับว่าเธอจะทำตัวเป็นส่วนหนึ่งไปกับเฟอร์นิเจอร์ในห้อง"
 
-hi "The teacher is looking for you."
+# hi "The teacher is looking for you."
+hi "ครูตามหาตัวเธออยู่"
 
-"A blank look over her shoulder is all I get, accompanied by a cryptic nonexpression on her face."
+# "A blank look over her shoulder is all I get, accompanied by a cryptic nonexpression on her face."
+"เธอเพียงหันมามองฉันนิ่ง ๆ ด้วยใบหน้าเรียบเฉยเข้าใจยาก"
 
-rin "Are you looking for me too?"
+# rin "Are you looking for me too?"
+rin "นายตามหาฉันอยู่ด้วยเหรอ"
 
-hi "Nah, I already found you, didn't I?"
+# hi "Nah, I already found you, didn't I?"
+hi "ไม่อะ ก็เจอเธอแล้วนี่"
 
-rin "Did you?"
+# rin "Did you?"
+rin "เหรอ?"
 
 show rin negative_annoyed
 with charachange
 
-"She furrows her brow, looking so puzzled that it makes me wonder if the question was asked in all seriousness."
+# "She furrows her brow, looking so puzzled that it makes me wonder if the question was asked in all seriousness."
+"เธอขมวดคิ้วดูสับสนจนฉันคิดแล้วว่าคำถามของเธอนั้นถามจริงจังหรือเปล่า"
 
-"Maybe it was."
+# "Maybe it was."
+"อาจจะใช่"
 
-hi "Are you talking metaphorically now?"
+# hi "Are you talking metaphorically now?"
+hi "เมื่อกี้หมายถึงเจอแบบเปรียบเปรยเหรอ"
 
 show rin negative_spaciness
 with charachange
 
-rin "Do you mean like eels, caves and dark, stormy nights?"
+# rin "Do you mean like eels, caves and dark, stormy nights?"
+rin "หมายถึงแบบปลาไหล ถ้ำ กับคืนพายุมืดมิด?"
 
 show rin negative_sad
 with charachange
 
-rin "I am bad at talking like that."
+# rin "I am bad at talking like that."
+rin "ฉันคุยแบบนั้นไม่เก่ง"
 
 "…"
 
 play sound sfx_doorclose
 
-"The abruptly-ended greetings give me the chance to close the door behind me and sit down on a dust-covered desktop."
+# "The abruptly-ended greetings give me the chance to close the door behind me and sit down on a dust-covered desktop."
+"การทักทายที่จบลงอย่างกะทันหันเปิดช่องให้ฉันได้ปิดประตู จากนั้นฉันจึงมานั่งบนโต๊ะที่มีฝุ่นเกาะอยู่"
 
 show rin basic_absent
 with charachange
 
-"Rin stays standing, but at least she turns around."
+# "Rin stays standing, but at least she turns around."
+"รินยังยืนเหมือนเดิม แต่อย่างน้อยก็หันมามองแล้ว"
 
-"I soon wish she didn't though, so oppressive is her expectant stare."
+# "I soon wish she didn't though, so oppressive is her expectant stare."
+"แต่ไม่อยากให้มองเลย สายตาเฝ้ารอของเธอนั้นกดดันเหลือเกิน"
 
-"This is her place and I'm an intruder, although a tolerated one. Despite that, she still waits for me to say something."
+# "This is her place and I'm an intruder, although a tolerated one. Despite that, she still waits for me to say something."
+"ห้องนี้เป็นห้องของเธอ ส่วนฉันเป็นผู้บุกรุก ถึงเธอจะไม่ว่าอะไรก็เถอะ แต่ถึงอย่างนั้นเธอก็รอให้ฉันพูดอะไรสักอย่าง"
 
-"If I only knew what."
+# "If I only knew what."
+"ถ้าฉันรู้ว่าต้องพูดอะไรน่ะนะ"
 
 "…"
 
-"The sunlit silence presses me towards decisions."
+# "The sunlit silence presses me towards decisions."
+"แสงอาทิตย์กดดันให้ฉันต้องคิด"
 
-"I came here without really thinking what I would do, apart from delivering Nomiya's short message in case Rin was here."
+# "I came here without really thinking what I would do, apart from delivering Nomiya's short message in case Rin was here."
+"ฉันมาโดยไม่ได้คิดมาก่อนว่าจะทำอะไรต่อ นอกจากที่ว่าส่งข้อความสั้น ๆ ที่โนมิยะฝากบอกถ้าเจอริน"
 
-"She was, and now I don't know what else I want to say… what else I should say?"
+# "She was, and now I don't know what else I want to say… what else I should say?"
+"ซึ่งเจอแล้ว แล้วตอนนี้ฉันก็ไม่รู้จะพูดอะไรอีก… ฉันควรจะพูดอะไรอีกดี"
 
-"I hover between my two options for a moment."
+# "I hover between my two options for a moment."
+"ตอนนี้ฉันชั่งใจอยู่ระหว่างสองตัวเลือก"
 
-"Rin being troubled troubles me too. It's a surprising revelation, almost as big as realizing that she really is troubled was."
+# "Rin being troubled troubles me too. It's a surprising revelation, almost as big as realizing that she really is troubled was."
+"พอรินไม่สบายใจแล้วฉันก็พลอยไม่สบายใจด้วย พอรู้ตัวอย่างนั้นแล้วฉันก็รู้สึกประหลาดใจ ประหลาดใจพอ ๆ กับการ\nที่ได้รู้ว่าเธอไม่สบายใจ"
 
-"Nothing I can do would probably help, and I might be partially to blame too."
+# "Nothing I can do would probably help, and I might be partially to blame too."
+"ฉันคงช่วยอะไรเธอไม่ได้เลย เผลอ ๆ ส่วนหนึ่งจะเป็นความผิดฉันด้วย"
 
-"Does it mean I should just wash my hands of her?"
+# "Does it mean I should just wash my hands of her?"
+"หมายความว่าฉันควรจะวางมือกับเธอเสียทีงั้นหรือ"
 
-"Didn't think so."
+# "Didn't think so."
+"ฉันไม่คิดว่าอย่างนั้น"
 
-hi "So… what's wrong?"
+# hi "So… what's wrong?"
+hi "แล้ว… เป็นอะไร"
 
 "…"
 
 show rin relaxed_nonchalant
 with charachange
 
-rin "Nothing."
+# rin "Nothing."
+rin "ไม่มีอะไร"
 
-"She starts to turn away again, as if trying to physically exit a conversation she doesn't want to have."
+# "She starts to turn away again, as if trying to physically exit a conversation she doesn't want to have."
+"เธอหันหน้าหนีอีกแล้ว เหมือนเป็นการทำท่าเพื่อออกไปจากบทสนทนาที่เธอไม่อยากมีส่วนร่วมด้วย"
 
-hi "Rin, stop trying to dodge me or I'll leave."
+# hi "Rin, stop trying to dodge me or I'll leave."
+hi "ริน เลิกหลบหน้าฉัน ไม่งั้นฉันจะไปละนะ"
 
 show rin relaxed_boredom
 with charachange
 
-rin "Okay."
+# rin "Okay."
+rin "โอเค"
 
-hi "Do you want me to leave?"
+# hi "Do you want me to leave?"
+hi "อยากให้ฉันไปเหรอ"
 
 show rin relaxed_doubt
 with charachange
 
-rin "Are you still angry?"
+# rin "Are you still angry?"
+rin "นายยังโกรธอยู่เหรอ"
 
-"It took us - or was it only me? - ten seconds to swamp the conversation into this."
+# "It took us - or was it only me? - ten seconds to swamp the conversation into this."
+"พวกเรา—หรือแค่ฉัน?—ใช้เวลาไปสิบวินาทีถึงวกเข้ามาเรื่องนี้ได้"
 
-"I wish we could erase the past, or failing that, forget all about it."
+# "I wish we could erase the past, or failing that, forget all about it."
+"ฉันอยากจะลบอดีต หรือถ้าลบไม่ได้ก็อยากจะลืมไปให้หมด"
 
-"I've wished for that more than once in the last few months."
+# "I've wished for that more than once in the last few months."
+"ช่วงสองสามเดือนมานี้ฉันคิดอย่างนั้นมามากกว่าหนึ่งครั้งแล้ว"
 
-hi "Let's put that aside for the time being, all right?"
+# hi "Let's put that aside for the time being, all right?"
+hi "เรื่องนั้นเอาไว้ก่อน นะ?"
 
 show rin basic_absent
 with charachange
 
-rin "If you say so."
+# rin "If you say so."
+rin "ถ้านายว่าอย่างนั้น"
 
-hi "I do. So… what's wrong?"
+# hi "I do. So… what's wrong?"
+hi "ฉันว่าอย่างนั้น แล้ว… เป็นอะไร"
 
-hi "Sae and Nomiya were not too happy that you just ran off yesterday."
+# hi "Sae and Nomiya were not too happy that you just ran off yesterday."
+hi "ซาเอะกับโนมิยะไม่ค่อยปลื้มเลยนะที่เธอหนีไปเมื่อวานน่ะ"
 
-hi "You left them in quite a pinch, and I suppose the teacher wants some kind of an explanation."
+# hi "You left them in quite a pinch, and I suppose the teacher wants some kind of an explanation."
+hi "เล่นเอาสองคนนั้นลำบากเลย ครูเองก็คงอยากได้คำอธิบายด้วย"
 
-hi "It seemed like you just threw out everything you had worked for. And I don't get why."
+# hi "It seemed like you just threw out everything you had worked for. And I don't get why."
+hi "ดู ๆ แล้วมันเหมือนว่าเธอทิ้งทุกอย่างที่เธอลงแรงมาตลอดเลย ซึ่งฉันไม่เข้าใจว่าทำไม"
 
 show rin basic_deadpanupset
 with charachange
 
-rin "Did I make a mistake?"
+# rin "Did I make a mistake?"
+rin "ฉันทำผิดเหรอ"
 
-"My reprimanding and her flat answer go so much against the usual expectations and presumed interactions that it might just as well be somebody else talking."
+# "My reprimanding and her flat answer go so much against the usual expectations and presumed interactions that it might just as well be somebody else talking."
+"ทั้งการที่ฉันดุ ทั้งคำตอบเรียบ ๆ ของเธอนั้นช่างผิดแผกไปจากการปฏิสัมพันธ์โดยปกติและยังหลุดไปจาก\nความคาดหมายที่คิดว่าจะเป็นเหมือนอย่างทุกทีจนให้ความรู้สึกเหมือนว่าที่คุยกันอยู่ตรงนี้เป็นคนอื่น"
 
-"Neither of us is like we used to be, this stiff, constricting feeling I get every time I look at Rin nowadays seems to be mirrored in her own behavior."
+# "Neither of us is like we used to be, this stiff, constricting feeling I get every time I look at Rin nowadays seems to be mirrored in her own behavior."
+"พวกเราทั้งสองคนไม่มีใครเป็นอย่างที่เคยเป็น ความรู้สึกเกร็ง ๆ และอึดอัดรัดแน่นทุกครั้งที่ได้มองรินทุกวันนี้ดูจะมีเหตุ\nมาจากพฤติกรรมของเธอ"
 
-"I hate things that go irreparably wrong. Ever since February, I have hated them."
+# "I hate things that go irreparably wrong. Ever since February, I have hated them."
+"ฉันไม่ชอบอะไรที่ผิดพลาดจนยากจะแก้ไข ฉันเกลียดสิ่งเหล่านั้นมาตั้งแต่เมื่อเดือนกุมภาพันธ์นั้นแล้ว"
 
-"What can I say?"
+# "What can I say?"
+"จะให้ว่ายังไงเล่า"
 
-"Her question is trailed by a compelling, quizzical stare that makes me sigh and frown."
+# "Her question is trailed by a compelling, quizzical stare that makes me sigh and frown."
+"คำถามของเธอตามมาด้วยสายตาสงสัยอันดึงดูดที่ทำให้ฉันต้องถอนหายใจพร้อมขมวดคิ้ว"
 
-"Conversations nobody wants to have are the worst."
+# "Conversations nobody wants to have are the worst."
+"บทสนทนาที่ไม่มีใครอยากมีส่วนร่วมนั้นแย่ที่สุดในสามโลก"
 
-hi "I don't know. I mean, it's not the end of the world but it probably was pretty stupid."
+# hi "I don't know. I mean, it's not the end of the world but it probably was pretty stupid."
+hi "ไม่รู้สิ คือ มันก็ไม่ใช่เรื่องคอขาดบาดตายอะไรขนาดนั้นหรอก แต่มันก็คงงี่เง่าพอตัวแหละ"
 
 show rin relaxed_nonchalant
 with charachange
 
-"She responds with a sigh of her own, although hers is not nearly as heavy as mine was."
+# "She responds with a sigh of her own, although hers is not nearly as heavy as mine was."
+"เธอถอนหายใจตอบบ้าง ถึงจะไม่ได้ถอนหายใจแรงเท่าฉันก็เถอะ"
 
 show rin relaxed_sleepy
 with charachange
 
-rin "I just couldn't do it."
+# rin "I just couldn't do it."
+rin "ไม่ว่าจะยังไงฉันก็ทำไม่ได้"
 
-hi "But… why? What's wrong?"
+# hi "But… why? What's wrong?"
+hi "แต่… ทำไม? เป็นอะไร"
 
 show rin negative_annoyed
 with charachange
 
-"A pause, a furrowed brow, a quiet voice."
+# "A pause, a furrowed brow, a quiet voice."
+"หยุดชะงัก ขมวดคิ้ว เสียงแผ่วเบา"
 
-rin "Let it be, Hisao."
+# rin "Let it be, Hisao."
+rin "ช่างมันสิ ฮิซาโอะ"
 
-rin "I don't think I can really explain it in a way that would make sense."
+# rin "I don't think I can really explain it in a way that would make sense."
+rin "ฉันว่าฉันอธิบายให้ใครเข้าใจไม่ได้หรอก"
 
-"Yeah, Rin doesn't want to have this conversation either. That may be for the better."
+# "Yeah, Rin doesn't want to have this conversation either. That may be for the better."
+"อืม รินก็ไม่อยากมีส่วนร่วมกับบทสนทนานี้ด้วยเหมือนกัน ซึ่งก็คงจะดีแล้ว"
 
-"But how rare of her, to admit that even she has some kind of limits."
+# "But how rare of her, to admit that even she has some kind of limits."
+"แต่ไม่ค่อยได้เห็นเท่าไหร่ที่เธอจะยอมรับว่าแม้แต่เธอเองก็มีขีดจำกัดเหมือนกัน"
 
-"I always thought Rin was all but ignorant of her tendency to get distracted, so much that she inadvertently obfuscates everything she says."
+# "I always thought Rin was all but ignorant of her tendency to get distracted, so much that she inadvertently obfuscates everything she says."
+"ฉันคิดมาตลอดว่ารินนั้นทำเป็นไม่สนใจว่าสมาธิเธอหลุดได้ง่าย "
 
 "…"
 
-hi "You never explain {b}anything{/b} in a way that would make sense."
+# hi "You never explain {b}anything{/b} in a way that would make sense."
+hi "เธอไม่เคยอธิบาย{b}อะไร{/b}ให้ใครเข้าใจได้เลย"
 
 show rin basic_absent
 with charachange
 
-rin "Nobody else has ever asked me to."
+# rin "Nobody else has ever asked me to."
+rin "ไม่เคยมีใครขอฉัน"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -5078,31 +5139,43 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "I guess that's how it is."
+# n "I guess that's how it is."
+n "ก็คงเป็นอย่างนั้น"
 
-n "But I always wanted to make sense of you, to find out who you are."
+# n "But I always wanted to make sense of you, to find out who you are."
+n "แต่ฉันอยากจะเข้าใจเธอมาตลอด อยากจะรู้ว่าเธอเป็นใคร"
 
-n "I still want to, can't you see?"
+# n "I still want to, can't you see?"
+n "และฉันยังอยากรู้อยู่ เธอไม่เห็นหรือไง"
 
 n "…"
 
-n "I know you can't."
+# n "I know you can't."
+n "ฉันรู้ว่าเธอไม่เห็น"
 
-n "But I do."
+# n "But I do."
+n "แต่ฉันเห็น"
 
-n "Is that why I keep this up? It pains you as much as it pains me. It's unlikely to be of any use to either."
+# n "Is that why I keep this up? It pains you as much as it pains me. It's unlikely to be of any use to either."
+n "เพราะแบบนี้หรือเปล่าฉันถึงได้ไม่ยอม ยิ่งอยู่เธอยิ่งเจ็บ แต่ฉันก็เจ็บพอกัน ดูแล้วไม่น่าจะได้อะไรขึ้นมาด้วยซ้ำ"
 
-n "We did things and said things that can't be undone."
+# n "We did things and said things that can't be undone."
+n "พวกเราต่างได้ทำและพูดในสิ่งที่ย้อนกลับไปแก้ไขไม่ได้แล้ว"
 
-n "It's as if… you and me being close to each other just hurts us both, but we still deliberately keep doing it."
+# n "It's as if… you and me being close to each other just hurts us both, but we still deliberately keep doing it."
+n "เหมือนกับว่า… ทั้งที่เธอกับฉันพออยู่ใกล้กันแล้วก็ต้องเจ็บตัวกันทั้งคู่ แต่พวกเราก็ยังตั้งใจจะอยู่ต่อไป"
 
-n "Isn't that silly?"
+# n "Isn't that silly?"
+n "งี่เง่าเนอะ"
 
-n "Even now, I can see how you force yourself to respond even though you owe me nothing."
+# n "Even now, I can see how you force yourself to respond even though you owe me nothing."
+n "ขนาดตอนนี้ฉันยังดูออกเลยว่าเธอฝืนตัวเองแค่ไหนเพื่อที่จะตอบฉัน ทั้งที่เธอไม่ได้ติดค้างอะไรกับฉันแท้ ๆ"
 
-n "Even if it's hard to talk about things like this."
+# n "Even if it's hard to talk about things like this."
+n "ขนาดว่าการคุยอะไรอย่างนี้มันลำบากปากแท้ ๆ"
 
-n "Why?"
+# n "Why?"
+n "ทำไม"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -5110,77 +5183,99 @@ nvl hide dissolve
 nvl clear
 window show
 
-hi "Why is it that you paint?"
+# hi "Why is it that you paint?"
+hi "ทำไมเธอถึงวาด"
 
 show rin basic_awayabsent
 with charachange
 
-rin "I… because I don't know what else I could do."
+# rin "I… because I don't know what else I could do."
+rin "ฉัน… เพราะฉันไม่รู้แล้วว่าจะทำอะะไรอย่างอื่นได้อีก"
 
-rin "It's like this feeling that there is no choice, that it's the only possibility."
+# rin "It's like this feeling that there is no choice, that it's the only possibility."
+rin "เหมือนความรู้สึกที่ไม่มีทางเลือก เหมือนเป็นความเป็นไปได้เดียว"
 
 show rin basic_sad
 with charachange
 
-rin "Like when there are only watermelon-flavored popsicles left in the store but you need to eat a popsicle."
+# rin "Like when there are only watermelon-flavored popsicles left in the store but you need to eat a popsicle."
+rin "เหมือนร้านเหลือแค่ไอติมรสแตงโมแต่อยากกินไอติม"
 
-"Her poor metaphor aside, she didn't really answer anything. If possible, this makes even less sense than not knowing."
+# "Her poor metaphor aside, she didn't really answer anything. If possible, this makes even less sense than not knowing."
+"ถ้าไม่นับการเปรียบเทียบห่วย ๆ นั่นแล้ว เธอไม่ได้ตอบอะไรเลย เผลอ ๆ จะยิ่งพาให้งงหนักกว่าการที่ไม่รู้อีก"
 
-hi "But… if you don't want to paint…"
+# hi "But… if you don't want to paint…"
+hi "แต่… ถ้าเธอไม่อยากวาด…"
 
 show rin negative_spaciness
 with charachange
 
-rin "Not like that. You had to come to this school even though you probably didn't want to have a heart attack."
+# rin "Not like that. You had to come to this school even though you probably didn't want to have a heart attack."
+rin "ไม่ใช่อย่างนั้น นายต้องมาโรงเรียนนี้ต่อให้นายอาจจะไม่อยากหัวใจวาย"
 
 show rin negative_annoyed
 with charachange
 
-"She pauses, frowning as if something in what she said didn't please her."
+# "She pauses, frowning as if something in what she said didn't please her."
+"เธอชะงักไปแล้วขมวดคิ้วเหมือนสิ่งที่เธอพูดนั้นไม่ค่อยเป็นที่น่าพอใจเท่าไหร่"
 
 show rin basic_lucid
 with charachange
 
-rin "At least I think you wouldn't."
+# rin "At least I think you wouldn't."
+rin "อย่างน้อยฉันก็คิดว่านายคงไม่อยาก"
 
-"Her careful follow-up is followed in turn by another, shorter pause with another, smaller frown."
+# "Her careful follow-up is followed in turn by another, shorter pause with another, smaller frown."
+"เธอพูดต่ออย่างระมัดระวังก่อนจะชะงักแล้วขมวดคิ้ว แต่ไม่ได้ขมวดคิ้วแน่นเท่ารอบเมื่อครู่"
 
 show rin basic_deadpanupset
 with charachange
 
-rin "Would you like to have a heart attack?"
+# rin "Would you like to have a heart attack?"
+rin "นายอยากหัวใจวายมั้ย"
 
-hi "No, I wouldn't and I didn't want to."
+# hi "No, I wouldn't and I didn't want to."
+hi "ไม่ ไม่อยาก ไม่เอาแล้ว"
 
 show rin basic_deadpansurprised
 with charachange
 
-rin "But you're doing fine, aren't you? Or are you still sad about it?"
+# rin "But you're doing fine, aren't you? Or are you still sad about it?"
+rin "แต่นายก็ยังอยู่ได้สบายดีนี่ หรือนายยังเศร้าอยู่"
 
-"Rin's question makes me realize that I haven't really thought about my illness for weeks."
+# "Rin's question makes me realize that I haven't really thought about my illness for weeks."
+"คำถามของรินทำให้ฉันนึกได้ว่าฉันไม่ได้คิดเรื่องอาการของฉันมาหลายสัปดาห์แล้ว"
 
-"Aside from chugging down my medication every day there has been no need to concern myself with my broken heart, which I'm only thankful for, really."
+# "Aside from chugging down my medication every day there has been no need to concern myself with my broken heart, which I'm only thankful for, really."
+"นอกจากเรื่องที่ต้องกระเดือกยาอยู่ทุกวันแล้วฉันก็ไม่ต้องคิดมากเรื่องหัวใจพัง ๆ ของฉัน ซึ่งฉันก็ยินดีเหลือแสน"
 
-"Getting to know new people, a new school, a new town… a new life, it all has caught me and made the past fade away."
+# "Getting to know new people, a new school, a new town… a new life, it all has caught me and made the past fade away."
+"ทั้งการได้รู้จักคนใหม่ ๆ ทั้งโรงเรียนใหม่ ๆ ทั้งเมืองใหม่ ๆ … ทั้งชีวิตใหม่ เหล่านั้นอยู่ติดกับตัวฉันจนทำให้อดีตลบเลือน"
 
-hi "No… heh, I guess even I can't dwell on the past indefinitely."
+# hi "No… heh, I guess even I can't dwell on the past indefinitely."
+hi "ไม่… ฮะ ๆ ฉันคงจะเอาแต่จมอยู่กับอดีตไปเรื่อย ๆ ไม่ได้ละนะ"
 
 show rin basic_awayabsent
 with charachange
 
-rin "See? Even watermelon doesn't really taste bad if you have to eat it."
+# rin "See? Even watermelon doesn't really taste bad if you have to eat it."
+rin "เห็นมั้ย ขนาดแตงโมก็ไม่ได้ไม่อร่อยถ้าต้องกิน"
 
-"Her half-nonsensical closure seems to put an end to the subject in Rin's mind, so I just nod in uncertain confirmation."
+# "Her half-nonsensical closure seems to put an end to the subject in Rin's mind, so I just nod in uncertain confirmation."
+"คำปิดท้ายที่ออกจะไม่รู้เรื่องนั้นดูท่าจะเป็นการจบสิ่งที่รินคิดอยู่ ฉันจึงพยักหน้าไปกึ่ง ๆ ไม่แน่ใจ"
 
 "…"
 
 "…"
 
-"There are two kinds of silences: awkward ones that you want to break, and comfortable ones that you don't mind."
+# "There are two kinds of silences: awkward ones that you want to break, and comfortable ones that you don't mind."
+"ความเงียบมีสองแบบ คือแบบที่ชวนให้อึดอัดจนอยากพูด กับแบบไม่อึดอัดที่อยู่ได้สบาย ๆ"
 
-"The first kind is bad, because it makes your thoughts go awry. Like mine do, now."
+# "The first kind is bad, because it makes your thoughts go awry. Like mine do, now."
+"แบบแรกนั้นไม่ดีเพราะทำให้จิตใจฟุ้งซ่าน เหมือนอย่างฉันตอนนี้"
 
-"Looking at Rin makes me feel bad."
+# "Looking at Rin makes me feel bad."
+"พอมองรินแล้วฉันก็รู้สึกแย่"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -5188,29 +5283,41 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\nI don't want to feel like this."
+# n "\nI don't want to feel like this."
+n "\nฉันไม่อยากรู้สึกอย่างนี้"
 
-n "Looking at Rin makes me feel… exhausted. I really tried my best, she tried to… I have no idea."
+# n "Looking at Rin makes me feel… exhausted. I really tried my best, she tried to… I have no idea."
+n "พอได้มองรินแล้วฉันก็รู้สึก… หมดแรง ฉันพยายามเต็มที่แล้ว ส่วนเธอก็พยายาม… ฉันไม่รู้เลย"
 
-n "But we ended up like this, and she ended up screwing up her exhibition opening."
+# n "But we ended up like this, and she ended up screwing up her exhibition opening."
+n "แต่เราอยู่มาจนเป็นอย่างนี้ และเธอก็ทำงานเปิดตัวงานนิทรรศการพัง"
 
-n "It feels like we are at a dead end."
+# n "It feels like we are at a dead end."
+n "รู้สึกเหมือนพวกเรามาถึงทางตัน"
 
-n "There is no direction to continue to."
+# n "There is no direction to continue to."
+n "ไม่มีทางให้ไปต่อ"
 
-n "I reached out for her yesterday, thinking it would be the last time."
+# n "I reached out for her yesterday, thinking it would be the last time."
+n "เมื่อวานฉันก็เข้าหาเธอเพราะคิดว่าคงจะเป็นครั้งสุดท้าย"
 
-n "She walked away."
+# n "She walked away."
+n "เธอเดินหนี"
 
-n "“I want to be me.”"
+# n "“I want to be me.”"
+n "“ฉันอยากเป็นฉัน”"
 
-n "What the heck does that even mean? Rin, if anyone, is most definitely herself."
+# n "What the heck does that even mean? Rin, if anyone, is most definitely herself."
+n "หมายความว่ายังไงกันแน่ ถ้าให้เทียบกับคนอื่น ๆ แล้ว รินนั่นแหละที่เป็นตัวเองที่สุด"
 
-n "I feel kinda relieved that I am not the one to blame, but this still grates on my mind."
+# n "I feel kinda relieved that I am not the one to blame, but this still grates on my mind."
+n "ฉันค่อนข้างโล่งใจที่ฉันไม่ได้เป็นคนผิด แต่ก็ยังติดใจสงสัยอยู่ดี"
 
-n "Why did she run away? It didn't make sense yesterday. It doesn't make sense today."
+# n "Why did she run away? It didn't make sense yesterday. It doesn't make sense today."
+n "ทำไมเธอถึงหนีไป เมื่อวานไม่เข้าใจ วันนี้ไม่เข้าใจ"
 
-n "The things she said feel like they should make sense but they just don't, to me."
+# n "The things she said feel like they should make sense but they just don't, to me."
+n "ฉันรู้สึกเหมือนว่าพอเธอพูดอย่างนั้นแล้วใคร ๆ จะต้องเข้าใจทันที แต่ไม่เลย ฉันไม่เข้าใจ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -5218,207 +5325,277 @@ nvl hide dissolve
 nvl clear
 window show
 
-hi "You know, about that thing you just said…"
+# hi "You know, about that thing you just said…"
+hi "เนี่ย เรื่องที่เธอบอก…"
 
 show rin basic_absent
 with charachange
 
-rin "Which one of them?"
+# rin "Which one of them?"
+rin "เรื่องไหน"
 
-hi "Umm… painting… Sae said something like that to me before… that a true artist does not paint because she wants to, but because she {b}must{/b}."
+# hi "Umm… painting… Sae said something like that to me before… that a true artist does not paint because she wants to, but because she {b}must{/b}."
+hi "เอ่อ… เรื่องวาด… ซาเอะก็เคยบอกอะไรอย่างนั้นกับฉันเหมือนกัน… ว่าศิลปินตัวจริงไม่ได้วาดเพราะอยาก แต่วาดเพราะ\n{b}ต้อง{/b}วาด"
 
-hi "And I've been wondering about what she said. Why do artists {b}have{/b} to paint?"
+# hi "And I've been wondering about what she said. Why do artists {b}have{/b} to paint?"
+hi "แล้วฉันก็สงสัยมาตลอด ว่าทำไมศิลปินถึง{b}ต้อง{/b}วาด"
 
-"My question is probably pretty stupid. At least Rin looks at me in the blank way that seems to say so."
+# "My question is probably pretty stupid. At least Rin looks at me in the blank way that seems to say so."
+"คำถามของฉันอาจจะดูโง่ ๆ เพราะอย่างน้อยรินก็มองฉันนิ่ง ๆ คล้ายจะบอกว่าอย่างนั้น"
 
 show rin basic_deadpannormal
 with charachange
 
-rin "I don't know. Am I an artist?"
+# rin "I don't know. Am I an artist?"
+rin "ไม่รู้สิ ฉันเป็นศิลปินหรือเปล่า"
 
-hi "Well, you paint stuff and you have an exhibition too. I'd say you qualify."
+# hi "Well, you paint stuff and you have an exhibition too. I'd say you qualify."
+hi "ก็ เธอวาดรูป แล้วก็จัดงานนิทรรศการด้วย ฉันว่าคงนับได้แหละ"
 
 show rin basic_deadpancontemplation
 with charachange
 
-rin "I think I still don't know, but okay."
+# rin "I think I still don't know, but okay."
+rin "ฉันคิดว่าฉันยังไม่รู้ แต่โอเค"
 
-"The thinking pause that follows seems to last for half an eternity."
+# "The thinking pause that follows seems to last for half an eternity."
+"เธอหยุดพลางคิดไปนานอย่างน้อย ๆ น่าจะสักครึ่งชาติได้"
 
-"Unlike most people, Rin doesn't flavor her thinking pauses by body language or saying “like” or “umm” or anything."
+# "Unlike most people, Rin doesn't flavor her thinking pauses by body language or saying “like” or “umm” or anything."
+"รินไม่ได้เหมือนอย่างคนส่วนมากที่เวลาหยุดพลางคิดจะใส่ท่าทางหรือคำพูดอย่าง “แบบ” หรือ “อืมม” ประกอบด้วย"
 
-"I've noticed that I might prefer her way. The usual way even annoys me, as if people were so infatuated by the sound of their own voice they just have to keep making some noise even when they are just thinking what they could say next."
+# "I've noticed that I might prefer her way. The usual way even annoys me, as if people were so infatuated by the sound of their own voice they just have to keep making some noise even when they are just thinking what they could say next."
+"ฉันรู้สึกว่าฉันชอบอย่างของรินมากกว่า เพราะแบบปกติจะให้ความรู้สึกรำคาญว่าคนเรานั้นหลงเสียงตัวเองเหลือเกิน\nจนขนาดเวลาหยุดไปคิดว่าจะพูดอะไรต่อยังต้องเปล่งเสียงอะไรสักอย่างออกมา"
 
-"Rin just… comes to a full stop while she is thinking. It's disconcerting, because reacting to people spacing out is always hard, but she comes off as less obnoxious."
+# "Rin just… comes to a full stop while she is thinking. It's disconcerting, because reacting to people spacing out is always hard, but she comes off as less obnoxious."
+"รินแค่… หยุดไปเลยเวลาที่เธอกำลังคิดอยู่ ซึ่งชวนให้กระอักกระอ่วนเหมือนกันเพราะเวลามีคนเหม่อแล้วก็ไม่รู้จะต้อง\nตอบสนองยังไง แต่เธอก็ไม่ได้น่ารำคาญขนาดนั้น"
 
 show rin basic_lucid
 with charachange
 
-rin "I think I want someone to see what's inside me. Not the way doctors and serial killers do."
+# rin "I think I want someone to see what's inside me. Not the way doctors and serial killers do."
+rin "ฉันคิดว่าฉันอยากให้คนเห็นว่าอะไรอยู่ในตัวฉัน ไม่ได้หมายถึงแบบอย่างหมอหรือฆาตกรต่อเนื่องนะ"
 
 show rin basic_absent
 with charachange
 
-rin "The way that doesn't make me feel lonely."
+# rin "The way that doesn't make me feel lonely."
+rin "แบบอย่างที่จะไม่ทำให้ฉันโดดเดี่ยว"
 
 show rin relaxed_boredom
 with charachange
 
-rin "This is what you call metaphorical, you see."
+# rin "This is what you call metaphorical, you see."
+rin "นี่แหละที่เขาเรียกว่าการเปรียบเปรยนะ"
 
-hi "Please don't lecture me about self-evident things."
+# hi "Please don't lecture me about self-evident things."
+hi "อย่ามาสอนฉันเรื่องอะไรที่เห็นได้ชัดอย่างนั้นเลย"
 
 show rin basic_deadpansurprised
 with charachange
 
-rin "It's not self-evident that this is self-evident."
+# rin "It's not self-evident that this is self-evident."
+rin "ไม่ได้เห็นได้ชัดว่าเรื่องนี้เห็นได้ชัดสักหน่อย"
 
-hi "So, you present a painting to someone and expect him to magically see a glimpse of your soul?"
+# hi "So, you present a painting to someone and expect him to magically see a glimpse of your soul?"
+hi "แล้วเธอก็จะเอารูปวาดไปให้ใครสักคนดู แล้วก็คาดหวังให้คนนั้นเห็นจิตวิญญาณของเธอได้โดยอัศจรรย์เลยน่ะนะ"
 
 show rin negative_angry
 with charachange
 
-rin "It's not like that. It's just a little like that but not really. Don't you understand?"
+# rin "It's not like that. It's just a little like that but not really. Don't you understand?"
+rin "ไม่ใช่อย่างนั้น ก็อย่างนั้นนิดหน่อยแต่ไม่เท่าไหร่ นายไม่เข้าใจเหรอ"
 
-hi "I do… and I don't."
+# hi "I do… and I don't."
+hi "เข้าใจ… และไม่เข้าใจ"
 
-hi "You know, I feel a little bit of despair every time you ask that question."
+# hi "You know, I feel a little bit of despair every time you ask that question."
+hi "รู้มั้ยว่าฉันแอบหดหู่ทุกครั้งที่เธอถามคำถามนั้น"
 
 show rin basic_absent
 with charachange
 
-rin "What question?"
+# rin "What question?"
+rin "คำถามไหน"
 
-hi "About whether I understand you or not."
+# hi "About whether I understand you or not."
+hi "ที่ถามว่าฉันเข้าใจเธอหรือเปล่าน่ะ"
 
-"She seems almost surprised at my clarification."
+# "She seems almost surprised at my clarification."
+"รินดูจะตกใจที่ฉันบอกอย่างนั้น"
 
 show rin basic_lucid
 with charachange
 
-rin "Oh, it's not really a question. It's one of those kind that you don't have to answer."
+# rin "Oh, it's not really a question. It's one of those kind that you don't have to answer."
+rin "อ้อ ไม่ใช่คำถามเท่าไหร่หรอก เป็นคำถามเชิงนั้นที่ไม่ต้องตอบ"
 
-hi "Rhetorical."
+# hi "Rhetorical."
+hi "เชิงวาทศิลป์"
 
 show rin basic_absent
 with charachange
 
-rin "Yeah, that's the word, a question that is not a question is a rhetorical question. How nice."
+# rin "Yeah, that's the word, a question that is not a question is a rhetorical question. How nice."
+rin "อืม คำนั้นแหละ คำถามที่ไม่ใช่คำถามเรียกว่าคำถามเชิงวาทศิลป์ ดีจัง"
 
-rin "That reminds me, it doesn't really make sense. What kind of a question is one that isn't a question?"
+# rin "That reminds me, it doesn't really make sense. What kind of a question is one that isn't a question?"
+rin "ซึ่งจะว่าไปแล้ว ไม่เห็นสมเหตุสมผลเลย คำถามอะไรที่ไม่ใช่คำถาม?"
 
-hi "A rhetorical one."
+# hi "A rhetorical one."
+hi "คำถามเชิงวาทศิลป์"
 
-rin "What kind of an answer is an answer that doesn't answer anything?"
+# rin "What kind of an answer is an answer that doesn't answer anything?"
+rin "คำตอบอะไรที่ไม่ได้ตอบอะไรเลย"
 
-hi "Is that a rhetorical question?"
+# hi "Is that a rhetorical question?"
+hi "อันนั้นคำถามเชิงวาทศิลป์หรือเปล่า"
 
 show rin basic_deadpanupset
 with charachange
 
-rin "You are not funny."
+# rin "You are not funny."
+rin "นายนี่ไม่ตลกเลย"
 
 show rin basic_awayabsent
 with charachange
 
-rin "But if you don't like it, would you like me to say something else instead?"
+# rin "But if you don't like it, would you like me to say something else instead?"
+rin "แต่ถ้านายไม่ชอบ อยากให้ฉันพูดอะไรอย่างอื่นแทนมั้ย"
 
 show rin basic_lucid
 with charachange
 
-rin "I don't have any good ones though. How about… “Your pants are on fire?”"
+# rin "I don't have any good ones though. How about… “Your pants are on fire?”"
+rin "แต่ฉันไม่มีอะไรดี ๆ จะพูดนะ เอาเป็นว่า… “กางเกงนายติดไฟ”?"
 
 show rin basic_absent
 with charachange
 
-rin "This can be our secret language."
+# rin "This can be our secret language."
+rin "เป็นภาษาลับระหว่างเราได้นะ"
 
-"Rin's honest-to-goodness silliness, made twice more ridiculous by the fact that I know she is dead serious, derails me like it always does."
+# "Rin's honest-to-goodness silliness, made twice more ridiculous by the fact that I know she is dead serious, derails me like it always does."
+"ความติ๊งต๊องแบบซื่อ ๆ ของรินที่ยิ่งดูไร้สาระไปใหญ่เพราะฉันรู้ว่าเธอจริงจังนั้นทำให้ฉันตามเธอไม่ทันตลอด"
 
-"It's like some kind of a safety lock to prevent me from becoming too much of a worrywart, dragging even my own thoughts off the ground where they should be."
+# "It's like some kind of a safety lock to prevent me from becoming too much of a worrywart, dragging even my own thoughts off the ground where they should be."
+"ราวกับว่าเป็นระบบนิรภัยที่ป้องกันไม่ให้ฉันเป็นคนขี้กังวล เพราะความคิดฉันจะถูกลากไปจากพื้นที่ที่มันควรจะอยู่"
 
-"It makes me smile confusedly, but only on the inside."
+# "It makes me smile confusedly, but only on the inside."
+"ทำให้ฉันยิ้ม—แต่แค่ในใจ—อย่างสับสน"
 
-"Even though the corners of my mouth are not drawing into a grin, I'm still impressed by her ease of wrecking any attempt at being too serious."
+# "Even though the corners of my mouth are not drawing into a grin, I'm still impressed by her ease of wrecking any attempt at being too serious."
+"ถึงปากฉันจะไม่ได้ยิ้ม แต่ฉันก็ประทับใจที่เธอทำลายความพยายามที่จะทำให้เรื่องจริงจังได้อย่างง่ายดาย"
 
-"Could she (should she will so) forget and ignore things that bug her, things that bother her?"
+# "Could she (should she will so) forget and ignore things that bug her, things that bother her?"
+"(หากเธอต้องการ) เธอจะลืมและเมินสิ่งต่าง ๆ ที่คอยกวนใจเธอได้หรือเปล่า"
 
-"Could she (should she will so) be free of whatever burden being her means?"
+# "Could she (should she will so) be free of whatever burden being her means?"
+"(หากเธอต้องการ) เธอจะเป็นอิสระจากภาระที่เกิดจากการเป็นตัวเธอได้หรือเปล่า"
 
-"Or am I the only one who feels burdened by being myself?"
+# "Or am I the only one who feels burdened by being myself?"
+"หรือมีแค่ฉันที่รู้สึกเหมือนแบกภาระจากการเป็นตัวเองอยู่?"
 
-hi "No thanks."
+# hi "No thanks."
+hi "ไม่ละ ขอบใจ"
 
-hi "But still, the times when I feel that I am on the same page as you are pretty rare."
+# hi "But still, the times when I feel that I am on the same page as you are pretty rare."
+hi "แต่ก็นะ ฉันไม่ค่อยจะเห็นตรงกันกับเธอเท่าไหร่เลย"
 
-hi "It feels like… there is this huge gap and sometimes you just go to the other side, and I don't… have any way to reach to you from where I am."
+# hi "It feels like… there is this huge gap and sometimes you just go to the other side, and I don't… have any way to reach to you from where I am."
+hi "รู้สึกเหมือน… มีช่องว่างกว้าง ๆ อยู่ช่องหนึ่ง แล้วบางทีเธอก็จะไปอยู่อีกฟาก แล้วถ้าให้เริ่มจากจุดที่ฉันยืนอยู่ ฉันก็จะ\nไม่… มีวิธีที่จะไปถึงเธอเลย"
 
-hi "It's like you are in some completely different place at times."
+# hi "It's like you are in some completely different place at times."
+hi "บางทีก็เหมือนว่าเธออยู่คนละที่กันเลย"
 
-hi "Even though you are right here."
+# hi "Even though you are right here."
+hi "ถึงเธอจะอยู่ตรงนี้เลยก็เถอะ"
 
-"That's right."
+# "That's right."
+"ใช่แล้ว"
 
-"There is an insurmountable discontinuity, an imaginary glass wall that blocks comprehension from happening."
+# "There is an insurmountable discontinuity, an imaginary glass wall that blocks comprehension from happening."
+"มีจุดไม่ต่อเนื่องอันกว้างใหญ่อยู่ เป็นกำแพงแก้วที่มองไม่เห็นที่คอยป้องกันไม่ให้เกิดความเข้าใจกันได้"
 
-"There might be such a gap between any two people, but with Rin, it feels more tangible."
+# "There might be such a gap between any two people, but with Rin, it feels more tangible."
+"ระหว่างคนสองคนใด ๆ ก็อาจจะมีช่องว่างอย่างนั้นอยู่ แต่กับรินแล้วจะทำให้ช่องว่างนั้นรู้สึกสัมผัสได้ง่ายขึ้น"
 
-"Rin does not react to my thoughts, not to the ones I uttered aloud nor the ones I did not."
+# "Rin does not react to my thoughts, not to the ones I uttered aloud nor the ones I did not."
+"รินไม่ตอบสนองใด ๆ กับความคิดฉัน ไม่ว่าจะเป็นความคิดที่ถูกเปล่งเสียงออกมา หรือความคิดที่อยู่ในใจก็ตาม"
 
-hi "It's even worse with art."
+# hi "It's even worse with art."
+hi "กับศิลปะยิ่งแล้วใหญ่"
 
-hi "I'm not very good at art, I admit it."
+# hi "I'm not very good at art, I admit it."
+hi "ฉันยอมรับว่าฉันไม่เก่งเรื่องศิลปะ"
 
-hi "I joined the art club 'cause I thought it could be interesting."
+# hi "I joined the art club 'cause I thought it could be interesting."
+hi "ฉันเข้าชมรมศิลปะเพราะคิดว่าคงน่าสนใจดี"
 
-hi "And I guess it is. I like art, I like your art too, but just like with you, I can't comprehend it."
+# hi "And I guess it is. I like art, I like your art too, but just like with you, I can't comprehend it."
+hi "ซึ่งก็น่าสนใจดีละมั้ง ฉันชอบผลงานเธอด้วย แต่ก็เหมือนอย่างเธอนั่นแหละ ฉันไม่เข้าใจ"
 
-hi "And I'm pretty sure nobody really can."
+# hi "And I'm pretty sure nobody really can."
+hi "แล้วฉันก็ค่อนข้างแน่ใจด้วยว่าคงไม่มีใครเข้าใจหรอก"
 
 show rin relaxed_doubt
 with charachange
 
-"This seems to worry her slightly."
+# "This seems to worry her slightly."
+"ดูท่าว่าเธอจะคิดมากหน่อย ๆ แล้ว"
 
-rin "Do you think so?"
+# rin "Do you think so?"
+rin "คิดว่าอย่างนั้นเหรอ"
 
-hi "Yeah. I guess that art is meant to be interpreted, not understood. That's how I'd put it."
+# hi "Yeah. I guess that art is meant to be interpreted, not understood. That's how I'd put it."
+hi "อืม ศิลปะเอาไว้ตีความมากกว่าที่จะให้ใครมาเข้าใจมากกว่าละมั้ง ฉันว่าอย่างนั้นนะ"
 
 show rin relaxed_sleepy
 with charachange
 
-rin "That's a sad thought."
+# rin "That's a sad thought."
+rin "เป็นความคิดที่หดหู่จัง"
 
-hi "I guess it might feel like one."
+# hi "I guess it might feel like one."
+hi "ก็คงงั้นแหละมั้ง"
 
-hi "Does it make you feel sad for yourself?"
+# hi "Does it make you feel sad for yourself?"
+hi "ได้ฟังแล้วหดหู่กับตัวเองมั้ยล่ะ"
 
 show rin basic_lucid
 with charachange
 
-"Rin thinks about this for a while, and then shakes her head surprisingly vehemently."
+# "Rin thinks about this for a while, and then shakes her head surprisingly vehemently."
+"รินคิดอยู่พักหนึ่งก่อนจะส่ายหน้าแรงผิดคาด"
 
 show rin basic_deadpannormal
 with charachange
 
-"The first thing she focuses her eyes on afterward is me."
+# "The first thing she focuses her eyes on afterward is me."
+"สิ่งที่ตาเธอจับจ้องเป็นสิ่งแรกหลังจากนั้นคือฉัน"
 
-"Both of these things make me glad, and relieved."
+# "Both of these things make me glad, and relieved."
+"ทั้งสองการกระทำนั้นให้ฉันดีใจและโล่งใจ"
 
-hi "That's good, isn't it? Anyway, you should go see the teacher and apologize properly."
+# hi "That's good, isn't it? Anyway, you should go see the teacher and apologize properly."
+hi "ก็ดีแล้วนี่ แต่นั่นแหละ ไปขอโทษครูให้เป็นเรื่องเป็นราวดีกว่านะ"
 
-hi "I think he is worried about you."
+# hi "I think he is worried about you."
+hi "ครูคงเป็นห่วงเธอ"
 
-hi "Can you do that?"
+# hi "Can you do that?"
+hi "ทำได้มั้ย"
 
 show rin basic_absent
 with charachange
 
-"This time, she nods her head."
+# "This time, she nods her head."
+"คราวนี้เธอพยักหน้า"
 
 stop music fadeout 4.0
 
-"Only, it's not as vehement."
+# "Only, it's not as vehement."
+"เพียงแต่ไม่ได้แรงเท่า"
 
 
 label th_R39:
@@ -5426,18 +5603,23 @@ label th_R39:
 scene bg school_hallway3
 with locationchange
 
-"The hallway is empty, almost intimidating."
+# "The hallway is empty, almost intimidating."
+"โถงทางเดินนั้นเงียบสงัดจนน่าขนลุก"
 
-"Nomiya's “office” is the art classroom at the other end of the third floor hallway."
+# "Nomiya's “office” is the art classroom at the other end of the third floor hallway."
+"“ห้องทำงาน” ของโนมิยะคือห้องเรียนศิลปะที่อยู่สุดโถงทางเดินชั้นสามอีกฟาก"
 
 show rin basic_absent at center
 with charaenter
 
-"Our steps echo disturbingly. The atmosphere is unlike on a normal afternoon. It feels like the school knows that nobody will be coming back for a month, too."
+# "Our steps echo disturbingly. The atmosphere is unlike on a normal afternoon. It feels like the school knows that nobody will be coming back for a month, too."
+"เสียงฝีเท้าของเราก้องจนน่ากลัว บรรยากาศโดยรอบไม่เหมือนอย่างยามบ่ายยามปกติ ราวกับว่าอาคารโรงเรียนก็รู้\nเหมือนกันว่าจะไม่มีใครมาอีกเป็นเวลาหนึ่งเดือน"
 
-"The door is open, but not very inviting."
+# "The door is open, but not very inviting."
+"ประตูเปิดไว้อยู่ แต่ดูไม่น่าเข้าเลย"
 
-hi "I'll… um, wait outside."
+# hi "I'll… um, wait outside."
+hi "ฉันจะ… เอ่อ รออยู่ข้างนอกนะ"
 
 show rin relaxed_nonchalant
 with charachange
@@ -5450,125 +5632,179 @@ with dissolvecharamove
 hide rin
 with None
 
-"Nodding barely noticeably, Rin strides in without stopping, and naturally, without knocking."
+# "Nodding barely noticeably, Rin strides in without stopping, and naturally, without knocking."
+"รินพยักหน้าเล็กน้อยจนแทบดูไม่ออก เธอไม่หยุดแล้วเดินต่อเข้าไปโดยไม่เคาะประตู"
 
-"Maybe that's why it takes a few seconds before I hear the teacher's voice from inside."
+# "Maybe that's why it takes a few seconds before I hear the teacher's voice from inside."
+"คงเพราะอย่างนี้ถึงต้องรอสักสองสามวินาทีกว่าจะได้ยินเสียงคุณครูที่อยู่ในห้อง"
 
-no "There you are!"
+# no "There you are!"
+no "มาจนได้!"
 
-rin "Hello."
+# rin "Hello."
+rin "สวัสดี"
 
-"A conflict arises: should I stay here or go somewhere else?"
+# "A conflict arises: should I stay here or go somewhere else?"
+"แล้วฉันก็ต้องเลือก ว่าจะอยู่หรือไปที่อื่นก่อน"
 
-"I'm not sure if I even want to eavesdrop on them."
+# "I'm not sure if I even want to eavesdrop on them."
+"ฉันไม่แน่ใจด้วยซ้ำว่าจะอยากอยู่แอบฟังหรือเปล่า"
 
 "…"
 
 show bg school_hallway3 at right
 with charamove
 
-"Manners lose to curiosity, and so I stay close enough to listen in."
+# "Manners lose to curiosity, and so I stay close enough to listen in."
+"ความอยากรู้หนักกว่ามารยาท ฉันจึงเข้าไปให้ใกล้พอที่จะได้ยินด้วย"
 
-"Their voices echo in the hallway, but no matter."
+# "Their voices echo in the hallway, but no matter."
+"เสียงสองคนนั้นดังก้องไปทั่วโถงทางเดิน แต่ไม่สำคัญ"
 
-"There is nobody around, save for me."
+# "There is nobody around, save for me."
+"แถวนี้ไม่มีใครเลยนอกจากฉัน"
 
 play music music_tragic fadein 8.0
 
-no "Dear girl, what on Earth were you thinking, leaving like that on the big night?"
+# no "Dear girl, what on Earth were you thinking, leaving like that on the big night?"
+no "นี่เธอคิดอะไรอยู่ถึงได้ทิ้งงานใหญ่ไว้อย่างนั้นแล้วหนีไปน่ะ"
 
-rin "I couldn't say anything."
+# rin "I couldn't say anything."
+rin "พูดอะไรไม่ได้เลย"
 
-"Compared to Nomiya's scolding tone, Rin sounds awfully quiet and withdrawn."
+# "Compared to Nomiya's scolding tone, Rin sounds awfully quiet and withdrawn."
+"ให้เทียบกับน้ำเสียงดุ ๆ ของโนมิยะแล้ว เสียงรินนั้นค่อยและฟังดูหงิม ๆ"
 
-"Her words seem to drown under his."
+# "Her words seem to drown under his."
+"ฟังดูเหมือนคำพูดของรินจะโดนคำพูดคุณครูกลบหมด"
 
-no "I have to say, I am very disappointed in you, Tezuka."
+# no "I have to say, I am very disappointed in you, Tezuka."
+no "ฉันต้องขอบอกว่าฉันผิดหวังในตัวเธอมากนะ เทซูกะ"
 
-rin "It was no good at all."
+# rin "It was no good at all."
+rin "ใช้ไม่ได้เลยค่ะ"
 
-no "Never mind all the things I did for you, but what about Sae? What about all the guests who wanted to meet you?"
+# no "Never mind all the things I did for you, but what about Sae? What about all the guests who wanted to meet you?"
+no "เอาเป็นว่าหลายอย่างที่ฉันทำไปเพื่อเธอน่ะช่างก่อน แต่ซาเอะล่ะ แขกที่อยากมาเจอเธอล่ะ"
 
-rin "There was nobody. Even Hisao…"
+# rin "There was nobody. Even Hisao…"
+rin "ไม่มีใครเลย แม้แต่ฮิซาโอะ…"
 
-no "You have embarrassed us very badly, Tezuka."
+# no "You have embarrassed us very badly, Tezuka."
+no "เธอทำพวกฉันขายหน้ามากนะ เทซูกะ"
 
-no "Reputation is what counts, surely you know that?"
+# no "Reputation is what counts, surely you know that?"
+no "ชื่อเสียงน่ะสำคัญ เธอคงรู้ใช่มั้ย"
 
-rin "It's all right. I don't need it."
+# rin "It's all right. I don't need it."
+rin "ไม่เป็นไรค่ะ ไม่ต้องการค่ะ"
 
-no "“Don't need!” What do you think you know?"
+# no "“Don't need!” What do you think you know?"
+no "“ไม่ต้องการ!” เธอจะไปรู้อะไร"
 
-"Rin's replies only seem to agitate the teacher more, his voice rising with every sentence."
+# "Rin's replies only seem to agitate the teacher more, his voice rising with every sentence."
+"คำตอบของรินยิ่งทำให้คุณครูฉุนหนักจนขึ้นเสียงดังขึ้นทุกประโยค"
 
-no "The path of an artist is a thorny one, I'll tell you that! Thorny!"
+# no "The path of an artist is a thorny one, I'll tell you that! Thorny!"
+no "เส้นทางศิลปินน่ะเต็มไปด้วยขวากหนาม จะบอกให้! เต็มไปด้วยขวากหนาม!"
 
-no "You have to see the big picture! There will be bad times and good times!"
+# no "You have to see the big picture! There will be bad times and good times!"
+no "เธอต้องมองภาพรวมนะ! มันก็มีทั้งช่วงที่ไม่ดีและช่วงที่ดี!"
 
-rin "Things are like they are. It'll be all right even—"
+# rin "Things are like they are. It'll be all right even—"
+rin "อะไรก็เป็นอย่างนั้นแหละค่ะ ไม่เป็นไรหรอกค่ะ ถึง—"
 
-no "You might now think that it's oh so wonderful and easy, but how far would you have gotten without me?"
+# no "You might now think that it's oh so wonderful and easy, but how far would you have gotten without me?"
+no "เธออาจจะคิดว่าชีวิตมันช่างแสนสบายเหลือเกิน แต่ถ้าไม่มีฉันแล้วเธอจะไปได้ไกลสักแค่ไหนกันเชียว"
 
-no "I won't always be there for you!"
+# no "I won't always be there for you!"
+no "ฉันไม่ได้อยู่ค้ำฟ้านะ!"
 
-no "When you lie on the floor of your minuscule room, your rent three weeks late, your mind blank for the fourth week straight, then you will wish that you had listened to old Nomiya a bit more."
+# no "When you lie on the floor of your minuscule room, your rent three weeks late, your mind blank for the fourth week straight, then you will wish that you had listened to old Nomiya a bit more."
+no "สักวันเถอะ วันที่เธอนอนอยู่ในห้องแคบ ๆ ที่เธอค้างค่าเช่ามาสามสัปดาห์โดยที่หัวสมองไม่มีอะไรเลยมาสี่สัปดาห์แล้ว\nวันนั้นเธอจะสำนึกว่าน่าจะฟังตาแก่โนมิยะเอาไว้บ้าง"
 
-no "When you keep measuring how the shadow of your chair becomes longer over the spring because that's all your lethargy allows, maybe that's when you will start caring about your career!"
+# no "When you keep measuring how the shadow of your chair becomes longer over the spring because that's all your lethargy allows, maybe that's when you will start caring about your career!"
+no "วันที่เธอขี้เกียจจนได้แต่นั่งวัดเงาเก้าอี้ที่ยาวขึ้นตลอดช่วงฤดูใบไม้ผลิ วันนั้นเธอคงจะหันมาคิดเรื่องอาชีพของตัวเอง\nบ้าง!"
 
-rin "That doesn't matter."
+# rin "That doesn't matter."
+rin "ไม่สำคัญค่ะ"
 
-no "Your resolve is not enough."
+# no "Your resolve is not enough."
+no "ใจเธอไม่แข็งพอ"
 
-rin "I am not a resolved person."
+# rin "I am not a resolved person."
+rin "พอดีไม่ได้เป็นคนใจแข็งค่ะ"
 
-no "You are not a resolved person…"
+# no "You are not a resolved person…"
+no "เธอไม่ได้เป็นคนใจแข็ง…"
 
 play sound sfx_impact2
 with vpunch
 
-no "Then tell me, why… why… WHY DID WE GO THROUGH ALL THIS TROUBLE IF IT AMOUNTS TO A MOSQUITO'S SHIT?"
+# no "Then tell me, why… why… WHY DID WE GO THROUGH ALL THIS TROUBLE IF IT AMOUNTS TO A MOSQUITO'S SHIT?"
+no "งั้นบอกหน่อยสิ ทำไม… ทำไม… ทำไมพวกเราถึงได้ทุ่มเทกันขนาดนี้ ถ้าผลมันจะออกมาเล็กเท่าขี้มดอย่างนี้น่ะ!!"
 
-"Oh dear, the teacher blew a fuse."
+# "Oh dear, the teacher blew a fuse."
+"ตาย ๆ คุณครูปรี๊ดแตกแล้ว"
 
-"Him yelling at Rin makes me feel bystander's guilt. If I had gone with her, maybe he wouldn't have gotten so angry."
+# "Him yelling at Rin makes me feel bystander's guilt. If I had gone with her, maybe he wouldn't have gotten so angry."
+"พอได้ยินคุณครูตะคอกใส่รินแล้วก็ทำให้ฉันรู้สึกผิดขึ้นมาด้วยเลย ถ้าฉันไปประกบด้วยคงไม่โกรธขนาดนี้"
 
-"If I had not let her run away, he wouldn't have gotten angry in the first place."
+# "If I had not let her run away, he wouldn't have gotten angry in the first place."
+"ถ้าฉันไม่ปล่อยให้เธอหนีไปแต่แรกก็คงไม่โกรธเลยด้วยซ้ำ"
 
-"I still could go and save her… I don't think I can."
+# "I still could go and save her… I don't think I can."
+"ฉันยังเข้าไปช่วยรินไว้ได้ทันอยู่… ฉันว่าฉันทำไม่ได้หรอก"
 
-"I was the same. I yelled at Rin too, and I'm feeling all the more embarrassed about it now."
+# "I was the same. I yelled at Rin too, and I'm feeling all the more embarrassed about it now."
+"ฉันก็เหมือนกัน ฉันก็ตะคอกใส่ริน แล้วตอนนี้ก็ยิ่งรู้สึกอับอายไปใหญ่"
 
-"I felt justified to vent my anger at her face just because… just because I felt it was her fault that I was so frustrated."
+# "I felt justified to vent my anger at her face just because… just because I felt it was her fault that I was so frustrated."
+"ที่ฉันคิดว่าตัวเองทำถูกที่ระเบิดอารมณ์ใส่รินไปจัง ๆ อย่างนั้นก็เพราะ… ก็เพราะฉันรู้สึกว่ารินเป็นคนทำให้ฉันหงุดหงิด"
 
-"I was no more justified than the teacher is."
+# "I was no more justified than the teacher is."
+"ฉันไม่ได้ทำถูกไปกว่าคุณครูเลย"
 
 "…"
 
-"A terrible silence sets upon the hallway."
+# "A terrible silence sets upon the hallway."
+"ความเงียบที่ชวนให้ขนลุกปกคลุมทั่วโถงทางเดิน"
 
-"Rin does not have anything to say to Nomiya."
+# "Rin does not have anything to say to Nomiya."
+"รินไม่มีอะไรจะพูดกับโนมิยะอีก"
 
-"Whether she has run out of answers or she knows that arguing would only make him angrier is anyone's guess."
+# "Whether she has run out of answers or she knows that arguing would only make him angrier is anyone's guess."
+"ไม่มีใครอาจทราบว่าเธอไม่ตอบเพราะไม่รู้จะตอบอะไรหรือเพราะรู้ว่ายิ่งเถียงไปก็ยิ่งทำให้คุณครูโกรธ"
 
-"The teacher has nothing more to say either, it seems, or maybe he just ran out of breath."
+# "The teacher has nothing more to say either, it seems, or maybe he just ran out of breath."
+"คุณครูก็ไม่มีอะไรจะพูดเหมือนกัน ดูทรงแล้ว หรือไม่ก็แค่หายใจไม่ทัน"
 
-"For a moment, I imagine the two of them just staring at each other, one full of red-hot anger, the other full of… yes, what?"
+# "For a moment, I imagine the two of them just staring at each other, one full of red-hot anger, the other full of… yes, what?"
+"แวบหนึ่งฉันนึกภาพทั้งสองคนจ้องตากัน คนหนึ่งโมโหเลือดขึ้นหน้า อีกคน… นั่นสิ รู้สึกยังไง"
 
-"I can't tell how Rin feels, not before, not now."
+# "I can't tell how Rin feels, not before, not now."
+"ฉันไม่รู้ว่ารินรู้สึกยังไง ไม่ว่าจะก่อนหน้านี้ หรือตอนนี้"
 
-"Teacher seems to expect Rin to say something too, but since she doesn't he finally continues in a quieter, but not less angry voice."
+# "Teacher seems to expect Rin to say something too, but since she doesn't he finally continues in a quieter, but not less angry voice."
+"คุณครูก็เหมือนจะรอให้รินพูดอะไรด้วย แต่เมื่อเธอไม่ตอบ คุณครูจึงพูดต่อด้วยเสียงที่เบาลง แต่ความโกรธไม่ได้เบาลง\nด้วยเลย"
 
-no "What worth is there in doing so much work if the outcome is… nothing?"
+# no "What worth is there in doing so much work if the outcome is… nothing?"
+no "แล้วจะทุ่มเทกันไปทำไมถ้าผลลัพธ์มันจะออกมา… เป็นศูนย์น่ะ"
 
-"Still, Rin will not say anything."
+# "Still, Rin will not say anything."
+"และรินก็ยังจะไม่พูดอะไร"
 
-no "I'm sorry. I shouldn't have gotten so excited."
+# no "I'm sorry. I shouldn't have gotten so excited."
+no "ขอโทษนะ ฉันไม่น่าไปบ้าขนาดนั้นเลย"
 
-"He does not sound sorry at all. Rather, his tone is cold and sharp, like he was spitting the words out of his mouth."
+# "He does not sound sorry at all. Rather, his tone is cold and sharp, like he was spitting the words out of his mouth."
+"น้ำเสียงเขาไม่ได้สำนึกเลย เป็นน้ำเสียงเย็นเยียบและทิ่มแทงราวกับว่าเป็นคำพูดที่ถ่มถุยออกมา"
 
-no "It seems that I was expecting too much. You are not an artist after all."
+# no "It seems that I was expecting too much. You are not an artist after all."
+no "ฉันคงคาดหวังมากไป เธอไม่ใช่ศิลปินจริง ๆ ด้วย"
 
-"Yeah, not sorry at all."
+# "Yeah, not sorry at all."
+"อืม ไม่ได้สำนึกเลย"
 
 show nomiya serious:
     tworight
@@ -5583,52 +5819,69 @@ with Pause(1.0)
 
 stop music fadeout 4.0
 
-"He storms out of the club room and down the stairs without noticing me."
+# "He storms out of the club room and down the stairs without noticing me."
+"คุณครูก้าวฉับ ๆ ออกห้องลงบันไดไปโดยไม่ทันสังเกตเห็นฉัน"
 
-"After he is gone, I peek carefully inside the classroom."
+# "After he is gone, I peek carefully inside the classroom."
+"พอคุณครูออกไปแล้วฉันก็แอบมองเข้าไปในห้องเรียน"
 
 scene bg school_nomiya at right
 show rin basic_awayabsent at center
 with locationchange
 
-"Rin is left standing there, in front of the teacher's desk."
+# "Rin is left standing there, in front of the teacher's desk."
+"รินยังยืนอยู่หน้าโต๊ะครูตรงนั้น"
 
 show rin negative_spaciness
 with charachange
 
-rin "I couldn't say I am sorry."
+# rin "I couldn't say I am sorry."
+rin "ฉันพูดขอโทษไม่ออก"
 
-"She says it into the humid air of the classroom, not to me."
+# "She says it into the humid air of the classroom, not to me."
+"เธอไม่ได้พูดกับฉัน แต่พูดอยู่กับอากาศอันอับชื้นในห้อง"
 
-"But since the room won't answer her, I will have to."
+# "But since the room won't answer her, I will have to."
+"แต่ในเมื่อห้องไม่ตอบ ฉันจึงต้องตอบ"
 
-hi "That was unfair of him… He was angry, but still…"
+# hi "That was unfair of him… He was angry, but still…"
+hi "ไม่ยุติธรรมเลย… รู้แหละว่าโกรธ แต่ก็…"
 
-"I can't decide how to end my sentence. Disdaining the teacher feels like disdaining my own behavior from two days ago."
+# "I can't decide how to end my sentence. Disdaining the teacher feels like disdaining my own behavior from two days ago."
+"ฉันไม่รู้จะลงท้ายประโยคยังไงดี ถ้าดูถูกคุณครู ก็จะเหมือนเป็นการดูถูกพฤติกรรมของฉันเมื่อสองวันก่อนด้วย"
 
-"Stupid, but correct in hindsight."
+# "Stupid, but correct in hindsight."
+"โง่ แต่ย้อนคิดแล้วก็จริง"
 
 show rin negative_spaciness_close
 with characlose
 
-"Rin won't answer, staying petrified where she stands, so I walk up to her."
+# "Rin won't answer, staying petrified where she stands, so I walk up to her."
+"รินไม่ตอบ เธอยังยืนนิ่งอยู่ที่เดิม ฉันจึงเดินเข้าไปหาเธอ"
 
-"She stood up for herself. In a way. I didn't expect that."
+# "She stood up for herself. In a way. I didn't expect that."
+"ในแง่หนึ่งเธอก็ได้ยืนหยัดสู้ ซึ่งฉันไม่ได้คาดคิดเลย"
 
-"I can't determine whether it's unbecoming or not, but either way, she did it."
+# "I can't determine whether it's unbecoming or not, but either way, she did it."
+"ฉันไม่แน่ใจว่าจะเป็นไปได้หรือเปล่า แต่นั่นแหละ เธอทำได้แล้ว"
 
-"Against me, she never did."
+# "Against me, she never did."
+"ซึ่งเธอไม่เคยทำอย่างนั้นกับฉันเลย"
 
-"I sort of wish she had, maybe I would not feel this bad then."
+# "I sort of wish she had, maybe I would not feel this bad then."
+"ก็แอบหวังว่าตอนนั้นเธอจะทำอย่างนั้นบ้างน่ะนะ ฉันอาจจะไม่ต้องมารู้สึกผิดขนาดนี้ก็ได้"
 
-"Lately, it really seems that I've been wishing for all kinds of things."
+# "Lately, it really seems that I've been wishing for all kinds of things."
+"ดูเหมือนว่าช่วงนี้ฉันหวังนั่นอยากนี่หลายอย่างไปหมด"
 
-hi "Rin?"
+# hi "Rin?"
+hi "ริน?"
 
 show rin negative_annoyed_close
 with charachange
 
-rin "Go away."
+# rin "Go away."
+rin "ไปเลย"
 
 
 label th_R40:
@@ -7329,7 +7582,7 @@ hi "Adjust?"
 show rinpan basic_deadpan_close
 with charachange
 
-rin "That's what I said."
+# rin "That's what I said." ตามนั้น
 
 hi "No, I asked what you meant."
 
