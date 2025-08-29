@@ -1360,7 +1360,7 @@ with locationchange
 "แม้จะเป็นการเปลี่ยนแค่ชั่วระยะสั้น ๆ แต่ก็แสดงให้เห็นว่าหากไม่มีเหล่านักเรียนและคุณครูอยู่เติมเต็มแล้วตัวอาคารนั้น\nก็เป็นเพียงเปลือกนอกที่ตายซาก"
 
 # "It's like the school has become a private world for just the two of us, a desolate place filled with silence and chalk dust."
-"ราวกับว่าทั้งโรงเรียนได้กลายเป็นโลกส่วนตัวที่มีเพียงเราสองคน เป็นที่รกร้างที่มีเพียงความเงียบงันและผงชอล์ก"
+"เหมือนกับว่าทั้งโรงเรียนได้กลายเป็นโลกส่วนตัวที่มีเพียงเราสองคน เป็นที่รกร้างที่มีเพียงความเงียบงันและผงชอล์ก"
 
 scene bg school_staircase2_ss
 show rin basic_awayabsent_close_ss at center
