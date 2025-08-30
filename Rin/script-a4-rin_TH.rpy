@@ -630,7 +630,7 @@ hi "แค่นั้นใช่มั้ย ที่เธอต้องก
 "น้ำเสียงฉันโกรธจัดขึ้นมาอีกครั้งจนแม้แต่ฉันยังรู้สึกได้"
 
 # extend " Good."
-extend " ดี"
+extend " เยี่ยม"
 
 show rin basic_absent
 with charachange
