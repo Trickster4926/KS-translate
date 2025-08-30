@@ -594,7 +594,7 @@ show rin basic_deadpanupset
 with charachange
 
 # rin "I don't think I was thinking about anything. Why do you draw patterns in that dust on your night table?"
-rin "ฉันไม่คิดว่าฉันคิดอะไรอยู่ ทำไมนายนายถึงวาดลายกับฝุ่นบนโต๊ะหัวเตียงนั้นล่ะ"
+rin "ฉันไม่คิดว่าฉันคิดอะไรอยู่ ทำไมนายถึงวาดลายกับฝุ่นบนโต๊ะหัวเตียงนั้นล่ะ"
 
 show rin basic_awayabsent
 with charachange
