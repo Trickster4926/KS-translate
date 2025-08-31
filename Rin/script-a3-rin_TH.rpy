@@ -86,6 +86,7 @@ with shorttimeskip
 "คุณครูให้พวกเรามาล้อมวงกับสิ่งที่สนใจอยากวาดแล้วเน้นย้ำว่าเรื่องมุมมอง พื้นผิว และแสงเงานั้นเป็นจุดสำคัญของ\nกิจกรรมนี้"
 
 #show rin invis_close:
+#    xanchor 0.5 xpos 0.85
 #with None
 
 #show bg school_classroomart at bgleft
@@ -2225,6 +2226,7 @@ rin "ตอนนี้ฉันยังคุยเรื่องแบบน
 rin "เพราะงั้น… อย่าคุยเรื่องแบบนั้นเลยนะ"
 
 rin "เราเป็นเพื่อนกันนี่ ทำได้ใช่มั้ย"
+# "We are friends, right? So you can't do that."? - Raide
 #Could go either way. Which is right, Aura? -SC
 
 "ความเงียบหลังหมดคำพูดนั้นช่างเสียดแทงหู พอจะพูดอะไรต่อปากฉันก็ไม่อาจขยับ แล้วฉันจะเอาหน้าไปไว้ไหนได้อีก"
