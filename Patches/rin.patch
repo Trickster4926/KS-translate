@@ -1,5 +1,5 @@
 diff --git a/Rin/script-a2-rin_TH.rpy b/Rin/script-a2-rin_TH.rpy
-index e671d50..a465b51 100644
+index e671d50..797d5d0 100644
 --- a/Rin/script-a2-rin_TH.rpy
 +++ b/Rin/script-a2-rin_TH.rpy
 @@ -16,205 +16,205 @@ play music music_normal fadein 6.0
@@ -3862,7 +3862,7 @@ index e671d50..a465b51 100644
  with charachange
  
 -no "Oho? Our newest friend seems to have something on his mind. Speak up, my boy, speak up!"
-+no "โอ้? เพื่อนคนใหม่ล่าสุดของเราดูท่าจะมีอะไรน่าสนใจละ พูดมาเลยลูก ๆ"
++no "โอ้? เพื่อนคนใหม่ล่าสุดของเราดูท่าจะมีอะไรน่าสนใจละ พูดมาเลยหนุ่ม"
  
 -hi "Um, well… I don't know about anyone else, but I've always wondered why art exists in the first place."
 +hi "เอ่อ คือ… ผมไม่รู้ว่าคนอื่นคิดยังไงนะครับ แต่ผมสงสัยมานานแล้วว่าศิลปะมีไว้ทำไม"
@@ -9641,7 +9641,7 @@ index e671d50..a465b51 100644
  window hide
  
 diff --git a/Rin/script-a3-rin_TH.rpy b/Rin/script-a3-rin_TH.rpy
-index cd9111d..8f0e56e 100644
+index cd9111d..6a494d7 100644
 --- a/Rin/script-a3-rin_TH.rpy
 +++ b/Rin/script-a3-rin_TH.rpy
 @@ -8,82 +8,82 @@ with locationchange
@@ -15126,7 +15126,7 @@ index cd9111d..8f0e56e 100644
  nvl clear
  
 -rinbabble "I had no idea what it really means to change but I know now you have no idea what I've had to do and all the things that pass through and I think I forget I really don't they just build up inside and grow and grow and grow until they flow out like a flow of everything that has ever been wrong I can't take it I can't think of the things I want because there's only so many things that I can think four six seven doesn't matter it's never enough I have to let this out I have to destroy forget it and nothing else—"
-+rinbabble "ฉันไม่รู้ว่าเปลี่ยนคืออะไรแต่ฉันรู้ว่าตอนนี้นายไม่รู้ว่าฉันต้องทำอะไรและทุกอย่างที่ผ่านไปและฉันคิดว่าฉันลืมไปแล้วที่จริงฉันไม่\n\nได้ลืมสิ่งเหล่านั้นสะสมก่อตัวขึ้นสะสมสะสมสะสมจนล้นทะลักออกมาเป็นสายเหมือนสายทุกอย่างที่ผิดฉันทนไม่ไหวฉันคิดถึงสิ่ง\n\nที่ตัวเองต้องการไม่ออกเพราะฉันคิดได้มากแบบมีขีดจำกัดสี่หกเจ็ดอย่างไม่สำคัญไม่เคยพอฉันต้องปลอดปล่อยฉันต้องทำลาย\n\nลืมไปไม่ทำอะไร—"
++rinbabble "ฉันไม่รู้ว่าเปลี่ยนคืออะไรแต่ฉันรู้ว่าตอนนี้นายไม่รู้ว่าฉันต้องทำอะไรและทุกอย่างที่ผ่านไปและฉันคิดว่าฉันลืมไปแล้วที่จริงฉันไม่\n\nได้ลืมสิ่งเหล่านั้นสะสมก่อตัวขึ้นสะสมสะสมสะสมจนล้นทะลักออกมาเป็นสายเหมือนสายทุกอย่างที่ผิดฉันทนไม่ไหวฉันคิดถึงสิ่ง\n\nที่ตัวเองต้องการไม่ออกเพราะฉันคิดได้มากแบบมีขีดจำกัดสี่หกเจ็ดอย่างไม่สำคัญไม่เคยพอฉันต้องปลดปล่อยฉันต้องทำลาย\n\nลืมไปไม่ทำอะไร—"
  nvl clear
  
 -"Rin is mumbling her words into the air more than talking to me."
@@ -16305,7 +16305,7 @@ index cd9111d..8f0e56e 100644
  #it's a bad end.
  window hide
 diff --git a/Rin/script-a4-rin_TH.rpy b/Rin/script-a4-rin_TH.rpy
-index 1121c31..05033a3 100644
+index 1121c31..86ec507 100644
 --- a/Rin/script-a4-rin_TH.rpy
 +++ b/Rin/script-a4-rin_TH.rpy
 @@ -9,52 +9,52 @@ window show
@@ -22185,10 +22185,10 @@ index 1121c31..05033a3 100644
 +n "ฮะ ๆ"
  
 -n "Even though feelings are not governed by the constants of the universe, I can't help thinking that for some time now I've been a satellite to Rin's brightly shining planet."
-+n "ถึงความรู้สึกจะไม่ได้มีกฎของจักรวาลคอยควบคุม แต่ฉันก็อดคิดไม่ได้ว่าช่วงนี้ฉันก็เป็นดาวเทียมที่โคจรรอบดาวเคราห์\nของรินที่สุกสว่าง"
++n "ถึงความรู้สึกจะไม่ได้มีกฎของจักรวาลคอยควบคุม แต่ฉันก็อดคิดไม่ได้ว่าช่วงนี้ฉันก็เป็นดาวเทียมที่โคจร\nรอบดาวเคราะห์ของรินที่สุกสว่าง"
  
 -n "\nPlanet Rin."
-+n "\nดาวเคราห์ริน"
++n "\nดาวเคราะห์ริน"
  
 -n "\nThe thought makes me almost laugh, she really does seem to be from another planet at times, minus green skin and possibly some tentacles."
 +n "\nคิดแล้วก็แทบหลุดขำ บางทีเธอก็เหมือนมาจากต่างดาวจริง ๆ ไม่นับเรื่องผิวสีเขียว ๆ แล้วก็หนวดหยึย ๆ น่ะนะ"
@@ -23530,7 +23530,7 @@ index 1121c31..05033a3 100644
 +rin "ฮิซาโอะ นายต้องเลิกคิดมากได้แล้วนะ"
  
 -"Rin interrupts me before I get further, which is good because I don't know what I could have said."
-+"รินขัดจังหวะไม่ให้ฉันได้พูดอะไรต่อ แต่ก็ดี เพราะฉันไม่รู้ว่าฉันจะพูดออกไรออกไปอีก"
++"รินขัดจังหวะไม่ให้ฉันได้พูดอะไรต่อ แต่ก็ดี เพราะฉันไม่รู้ว่าฉันจะพูดอะไรออกไปอีก"
  
 -"Her voice, void of its usual spaciness, scolds me softly, without an edge."
 +"เสียงเธอที่ไม่มีความเหม่อลอยอย่างทุกทีดุฉันด้วยความอ่อนโยนอย่างไม่ทิ่มแทง"
@@ -24750,7 +24750,7 @@ index 1121c31..05033a3 100644
 +"แต่ภาพนี้เป็นสิ่งที่ฉันได้แต่เพียงมอง เป็นสิ่งที่ให้ฉันเก็บไว้เป็นความทรงจำ"
  
 -"Rin's sleeves are flapping freely in the wind, her hair wildly tousled by it, her skin touched by the setting sun."
-+"แขนเสื้อรินโบกสะบัดอย่างอิสระไปตามสายลม ผมของเธอถูกผมยีจนยุ่งเหยิง ผิวของเธอถูกอาทิตย์อัสดงอาบไล้"
++"แขนเสื้อรินโบกสะบัดอย่างอิสระไปตามสายลม ผมของเธอถูกลมยีจนยุ่งเหยิง ผิวของเธอถูกอาทิตย์อัสดงอาบไล้"
  
 -"Her sleek form that I've come to adore is quivering in the cool wind that carries the small white specks past her, each a beginning of a new flower."
 +"รูปร่างผอมเรียวที่ฉันเอ็นดูนั้นสั่นอยู่ในสายลมเย็นที่พัดพาให้จุดขาว ๆ ปลิวผ่านตัวเธอไป โดยแต่ละจุดนั้นจะกลาย\nไปเป็นดอกไม้ดอกใหม่"
