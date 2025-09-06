@@ -160,7 +160,6 @@ with charachange
 
 # li "Wonderful. It seems that we're decided, then."
 li "ดีเลย งั้นก็ตกลงตามนี้นะ"
-#  "ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   ""ก็พูดได้ไม่เต็มปากหรอกว่าก็แอบดีใจที่พยายามจะชวนกันขนาดนี้ แต่ก็แอบสงสัยนิดนึงว่าในสภานักเรียนเขาทำอะไรกันแน่   " exclude #  len"
 
 stop music fadeout 2.0
 
@@ -170,7 +169,8 @@ with shorttimeskip
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 2.0
 
-"I cast my eyes across the café as the three of us step in. As usual, there are only a handful of people around at most, and the noise level is a quiet background hum."
+# "I cast my eyes across the café as the three of us step in. As usual, there are only a handful of people around at most, and the noise level is a quiet background hum."
+"ฉันกวาดสายตาไปรอบ ๆ คาเฟขณะที่พวกเราสามคนก้าวไปข้างใน และเช่นเคย ที่นี่มีคนอยู่ไม่มากและเสียงรอบข้าง\nก็เป็นแค่เสียงกระซิบเบา ๆ เท่านั้น"
 
 scene bg suburb_shanghaiint at left
 show hanako emb_emb:
@@ -180,17 +180,20 @@ with charaenter
 
 play music music_dreamy fadein 6.0
 
-"The hold Lilly has on Hanako's arm remains just as it has been for the entire slow walk down the hill to the local town, though it's hard to say for which reason - for Lilly's guidance, or for Hanako's reassurance."
+# "The hold Lilly has on Hanako's arm remains just as it has been for the entire slow walk down the hill to the local town, though it's hard to say for which reason - for Lilly's guidance, or for Hanako's reassurance."
+"แขนของฮานาโกะยังคงอยู่ในมือของลิลลี่เหมือนเดิมตั้งแต่ตลอดทางที่เดินลงเขาไปยังเมืองอย่างช้า ๆ แต่ก็พูดยากว่าเป็น\nเพราะอะไร ระหว่างเพราะลิลลี่ต้องคอยนำทาง หรือเพราะฮานาโกะต้องการความอุ่นใจกันแน่"
 
 show lilly basic_smile
 with charachange
 
-"For a moment, Lilly removes her arm from Hanako's to retract her cane as Yuuko quickly skitters over to where we stand, but soon replaces it right back where it had been."
+# "For a moment, Lilly removes her arm from Hanako's to retract her cane as Yuuko quickly skitters over to where we stand, but soon replaces it right back where it had been."
+"ลิลลี่ก็ปล่อยแขนของฮานาโกะเพื่อรั้งไม้เท้าของตัวเองเอาไว้ไปสักพัก เมื่อยูโกะรีบเดินตรงมาที่เราทั้งสามคน\nแต่ไม่นานเธอก็กลับมาจับแขนของฮานาโกะอีกครั้งในที่เดิม"
 
 show yuukoshang closedhappy_up at tworight
 with charaenter
 
-yu "Welcome to the Shanghai! May I take your order?"
+# yu "Welcome to the Shanghai! May I take your order?"
+yu "ยินดีต้อนรับสู่เซี่ยงไฮ้ค่ะ! จะรับอะไรดีคะ"
 
 show yuukoshang neutral_up at Transform(ypos=1.25)
 with Dissolvemove(0.5)
@@ -198,29 +201,35 @@ with Dissolvemove(0.5)
 show yuukoshang neutral_down at tworight
 with dissolvecharamove
 
-"She gives a deep bow, her well-delivered and professional introduction putting her in a good mood. It's a nice change from the norm for Yuuko."
+# "She gives a deep bow, her well-delivered and professional introduction putting her in a good mood. It's a nice change from the norm for Yuuko."
+"เธอก้มโค้งคำนับอย่างนอบน้อม คำแนะนำที่ดูเป็นมืออาชีพทำให้เธออารมณ์ดีขึ้น เป็นการเปลี่ยนแปลงที่ดีจากอาการปกติของยูโกะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Just tea, please. Hanako, Hisao?"
+# li "Just tea, please. Hanako, Hisao?"
+li "ขอแค่ชาก็พอค่ะ แล้วฮานาโกะกับฮิซาโอะล่ะ?"
 
-hi "I'll have a slice of pie and a coffee."
+# hi "I'll have a slice of pie and a coffee."
+hi "ผมเอาเป็นพายหนึ่งชิ้นกับกาแฟแล้วกันครับ"
 
 show hanako basic_smile
 with charachange
 
-ha "Just… t-tea… please."
+# ha "Just… t-tea… please."
+ha "คะ…แค่ชา ค…ค่ะ"
 
 show yuukoshang smile_up
 with charachange
 
-yu "Coming right up. Please take any seat you wish, and I'll be back shortly."
+# yu "Coming right up. Please take any seat you wish, and I'll be back shortly."
+yu "ได้เลยค่ะ เชิญนั่งได้ตามสบายเลยนะคะ เดี๋ยวจะรีบมาค่ะ"
 
 hide yuukoshang
 with charaexit
 
-"Yuuko gives a smile and a nod before shuffling to the counter, and we make our way to some empty seats by the window in quick measure."
+# "Yuuko gives a smile and a nod before shuffling to the counter, and we make our way to some empty seats by the window in quick measure."
+"ยูโกะยิ้มและพยักหน้า ก่อนจะรีบเดินไปที่เคาน์เตอร์ และเราก็มุ่งหน้าไปนั่งที่ว่างริมหน้าต่างกันอย่างรวดเร็ว"
 
 hide hanako
 hide lilly
@@ -237,32 +246,39 @@ show hanako basic_smile_close:
     easein 1.0 ypos 1.09
 with charaenter
 
-"We slip into our seats, the girls on one side with Lilly's cane propped up beside them and I on the other. I realize that Hanako's not doing something that she so often does."
+# "We slip into our seats, the girls on one side with Lilly's cane propped up beside them and I on the other. I realize that Hanako's not doing something that she so often does."
+"พวกเราเข้าไปนั่งที่ของตัวเอง พวกสาว ๆ อยู่ฝั่งหนึ่งโดยมีไม้เท้าของลิลลี่อยู่ข้าง ๆ และฉันอยู่อีกฝั่ง ฉันเพิ่งสังเกตว่า\nฮานาโกะไม่ได้ทำอะไรแบบที่เธอทำบ่อย ๆ"
 
-"Rather than keeping her eyes pinned to the ground and hiding behind her blind escort, busily trying to convince herself that the world around them doesn't exist, she's merely keeping her eyes low and helping Lilly around."
+# "Rather than keeping her eyes pinned to the ground and hiding behind her blind escort, busily trying to convince herself that the world around them doesn't exist, she's merely keeping her eyes low and helping Lilly around."
+"แทนที่จะเอาแต่ก้มหน้ามองพื้นและคอยหลบอยู่ข้างหลังเพื่อนร่วมเดินที่ตาบอด พยายามทำเหมือนว่าโลกทั้งใบไม่มีอยู่จริง\nตอนนี้เธอกลับแค่ก้มหน้ามองต่ำและคอยช่วยเหลือลิลลี่อยู่"
 
-hi "Are you you okay, Lilly? You look tired."
+# hi "Are you you okay, Lilly? You look tired."
+hi "เป็นอะไรหรือเปล่าลิลลี่ เธอดูเหนื่อย ๆ นะ"
 
 show lilly basic_weaksmile_close:
     twoleft
     ypos 1.1
 with charachange
 
-"She lowers her head a little, looking somewhat embarrassed that she let it show."
+# "She lowers her head a little, looking somewhat embarrassed that she let it show."
+"เธอก้มหน้าลงเล็กน้อย เหมือนจะอาย ๆ ที่แสดงอาการออกมา"
 
-li "Class representative work can be very tiring, considering that it often means dealing with the Student Council."
+# li "Class representative work can be very tiring, considering that it often means dealing with the Student Council."
+li "งานหัวหน้าห้องนี่ก็เหนื่อยพอตัวเลยจ้ะ ยิ่งต้องไปยุ่งกับสภาบ่อย ๆ แล้วด้วย"
 
 show lilly basic_sleepy_close
 with charachange
 
-li "Very tiring indeed."
+# li "Very tiring indeed."
+li "เหนื่อยมากจริง ๆ จ้ะ"
 
 show hanako basic_normal_close:
     tworight
     ypos 1.09
 with charachange
 
-ha "How… do the other representatives go?"
+# ha "How… do the other representatives go?"
+ha "แล้ว… หัวหน้าคนอื่นเป็นไงบ้าง"
 
 show lilly basic_reminisce_close
 with charachange
@@ -815,16 +831,20 @@ show miki grinclosed:
     ypos 1.12
 with charachange
 
-mk "'Sup."
+# mk "'Sup."
+mk "'ไง"
 
-hi "Hi. Miura, wasn't it?"
+# hi "Hi. Miura, wasn't it?"
+hi "หวัดดีมิอูระ ใช่ไหมนะ?"
 
 show miki wink
 with charachange
 
-mk "Just call me Miki. Surnames are too stuffy."
+# mk "Just call me Miki. Surnames are too stuffy."
+mk "เรียกมิกิเถอะ นามสกุลดูทางการไปหน่อย"
 
-hi "Likewise, then."
+# hi "Likewise, then."
+hi "ถ้างั้นก็เช่นกัน"
 
 show miki smile
 with charachange
@@ -833,72 +853,90 @@ with charachange
 
 "Sure enough, the whistle is blown to begin the match and they get right back into it."
 
-hi "Not going to play?"
+# hi "Not going to play?"
+hi "ไม่ไปเล่นเหรอ"
 
 show miki grinclosed
 with charachange
 
-mk "Nah, just gonna rest for a bit."
+# mk "Nah, just gonna rest for a bit."
+mk "ไม่อะ ว่าจะพักสักหน่อย"
 
 show miki wink
 with charachange
 
-mk "What about you? You kinda looked like you wanted to play when you were watching us before."
+# mk "What about you? You kinda looked like you wanted to play when you were watching us before."
+mk "แล้วนายอะ ก่อนหน้านี้ที่นายมาดูเหมือนนายอยากเล่นเลย"
 
-"So someone did notice me after all."
+# "So someone did notice me after all."
+"ก็มีคนสังเกตเห็นฉันจริง ๆ แหละนะ"
 
-hi "It's kind of a long story."
+# hi "It's kind of a long story."
+hi "พอดีเรื่องมันยาวน่ะ"
 
 show miki grin
 with charachange
 
-"Her face says that I've piqued her interest."
+# "Her face says that I've piqued her interest."
+"สีหน้าเธอบ่งบอกว่าทำให้เธอสนใจเข้าแล้ว"
 
-hi "I'm in Yamaku because I've got a heart condition. I can't really play soccer any more."
+# hi "I'm in Yamaku because I've got a heart condition. I can't really play soccer any more."
+hi "ฉันมาที่ยามากุเพราะว่าเป็นโรคหัวใจน่ะ ก็เลยเล่นฟุตบอลไม่ได้แล้ว"
 
 show miki smile
 with charachange
 
-mk "Wanted to be a soccer player, did you?"
+# mk "Wanted to be a soccer player, did you?"
+mk "นายอยากเป็นนักฟุตบอลเหรอ"
 
-hi "No, I only really did it for fun. My friends played it, so I played it as well."
+# hi "No, I only really did it for fun. My friends played it, so I played it as well."
+hi "เปล่า ก็แค่เล่นเอาสนุกเฉย ๆ น่ะ พอดีเพื่อนเล่นก็เลยเล่นตามน่ะ"
 
-hi "Any of those guys playing around could have been me before my accident. But I don't feel like I have any real wish to go back to that, either. It's a little hard to explain."
+# hi "Any of those guys playing around could have been me before my accident. But I don't feel like I have any real wish to go back to that, either. It's a little hard to explain."
+hi "ถ้าไม่เกิดเรื่องกับฉันตอนนั้นฉันก็อาจจะลงไปเล่นเหมือนอย่างคนพวกนั้นก็ได้ แต่ก็ไม่ได้อยากกลับไปเมื่อตอนก่อนหน้านั้น\nเท่าไหร่ด้วยหรอก อธิบายไม่ถูกเท่าไหร่แฮะ"
 
 "I'm still decently physically built from the days when I played, even if my strength's largely left me by now, and I got on well with the other club members."
 
 "When I think about it, I should feel pretty bad watching people play when I can't any more. Yet I don't. Maybe it's a good thing; a sign that I've gotten over it and that I'm ready to become a new person."
 
-hi "Sorry, I'm kinda rambling."
+# hi "Sorry, I'm kinda rambling."
+hi "โทษที พูดไปเรื่อยเลย"
 
 show miki grinclosed
 with charachange
 
-mk "It's cool. I'm actually glad to hear that."
+# mk "It's cool. I'm actually glad to hear that."
+mk "เอาน่า เล่าให้ฟังงี้ก็ดีแล้ว"
 
 show miki smile
 with charachange
 
-mk "It sounds like you really have your stuff together. Some of the people that come to Yamaku are pretty messed up at first."
+# mk "It sounds like you really have your stuff together. Some of the people that come to Yamaku are pretty messed up at first."
+mk "ฟังดูเหมือนพวกนายได้ผ่านอะไรมาด้วยกันเลย บางคนที่เข้ามายามากุแรก ๆ ก็เริ่มได้ไม่ค่อยดีเท่าไหร่"
 
-hi "So you're a member of the track and field club, then?"
+# hi "So you're a member of the track and field club, then?"
+hi "งั้นเธอก็เป็นสมาชมรมกรีฑาละสิเนี่ย"
 
 show miki grin
 with charachange
 
-mk "Yup. Been in it since I first arrived."
+# mk "Yup. Been in it since I first arrived."
+mk "อื้ม ก็สมัครเข้าเลยตั้งแต่เข้ามาเรียนน่ะ"
 
-hi "Don't suppose you're friends with Emi? Short, fast runner, no legs? I don't think there are all that many female track and field members."
+# hi "Don't suppose you're friends with Emi? Short, fast runner, no legs? I don't think there are all that many female track and field members."
+hi "งั้นก็แปลว่าเป็นเพื่อนกับเอมิละสิเนี่ย คนที่ตัวเตี้ย ๆ วิ่งเร็ว ๆ ที่ไม่มีขาน่ะ ฉันว่าสมาชิกชมรมกรีฑาไม่น่ามีผู้หญิงเยอะเท่าไหร่"
 
 show miki grinclosed
 with charachange
 
-mk "Haha, Emi. Everyone knows about her, don't they."
+# mk "Haha, Emi. Everyone knows about her, don't they."
+mk "ฮ่าฮ่า เอมิน่ะเหรอ ทุกคนก็รู้จักเธอหมดนั่นแหละ"
 
 show miki smile
 with charachange
 
-mk "But nah, I tend to get on better with guys, so me and Emi don't really talk much. Anyway, what about you?"
+# mk "But nah, I tend to get on better with guys, so me and Emi don't really talk much. Anyway, what about you?"
+mk "แต่ไม่อะ พอดีว่าสนิทกับพวกผู้ชายมากกว่าน่ะ เพราะงั้นแล้วฉันกับเอมิเลยไม่ค่อยได้คุยกันน่ะ เอาเหอะ แล้วนายล่ะ"
 
 hi "Ah, well, I'm not really in any clubs. Real clubs, anyway."
 
