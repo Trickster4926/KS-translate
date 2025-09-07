@@ -938,37 +938,43 @@ with charachange
 # mk "But nah, I tend to get on better with guys, so me and Emi don't really talk much. Anyway, what about you?"
 mk "แต่ไม่อะ พอดีว่าสนิทกับพวกผู้ชายมากกว่าน่ะ เพราะงั้นแล้วฉันกับเอมิเลยไม่ค่อยได้คุยกันน่ะ เอาเหอะ แล้วนายล่ะ"
 
-hi "Ah, well, I'm not really in any clubs. Real clubs, anyway."
+# hi "Ah, well, I'm not really in any clubs. Real clubs, anyway."
+hi "อ่า ก็ ตอนนี้ก็ไม่ได้อยู่ในชมรมไหนหรอก แบบที่เป็นชมรมจริง ๆ อะนะ"
 
 show miki wink
 with charachange
 
-mk "You've been hanging around with Hanako and that blonde Amazon though, right?"
+# mk "You've been hanging around with Hanako and that blonde Amazon though, right?"
+mk "เห็นช่วงนี้นายอยู่กับฮานาโกะกับแม่สาวฝรั่งผมบลอนด์บ่อย ๆ เลยนี่"
 
 "Blonde Amazon… I suppose Lilly has the height to fit that description, if nothing else. I nod in response, without making too fine a point of things."
 
 show miki grinclosed
 with charachange
 
-mk "Then don't worry about it. As long as you've got some friends, you don't need to join a club."
+# mk "Then don't worry about it. As long as you've got some friends, you don't need to join a club."
+mk "งั้นก็ไม่ต้องห่วงไปหรอก อย่างน้อยนายก็มีเพื่อนแล้วนี่ ไม่ต้องเข้าชมรมก็ได้"
 
 "A loud whistling from the field attracts our attention. One of the players is on the ground, clutching his leg, and the others stop play to jog up to him, leaving Miki grimacing."
 
 show miki serious
 with charachange
 
-mk "Ouch, that looks painful. That guy really has bad luck."
+# mk "Ouch, that looks painful. That guy really has bad luck."
+mk "หูย คงเจ็บน่าดู นายนั่นดวงซวยจริง ๆ"
 
 "As she continues to look out onto the field, I can't help being reminded of her own injuries. Her left arm, ending in a stump rather than a hand, has been bandaged up for the entire time I've been in Yamaku, and her injury doesn't seem that new."
 
 "She turns to talk to me again and catches me looking. Both of us sit in awkward silence as she takes her bandaged arm and holds it in her lap with other remaining hand."
 
-hi "S-sorry. I guess I'm still a bit…"
+# hi "S-sorry. I guess I'm still a bit…"
+hi "ทะ-โทษที พอดีว่าฉันยัง…"
 
 show miki smile
 with charachange
 
-mk "It's fine. Really."
+# mk "It's fine. Really."
+mk "ไม่เป็นไรหรอกน่า"
 
 "Her tone is light, but neither of us says anything afterwards. Every disabled student here has their own way of dealing with their problems, and some finding their conditions troublesome is only natural. I'm included among them, after all."
 
@@ -979,52 +985,64 @@ mk "It's fine. Really."
 show miki whistle
 with charachange
 
-mk "Hanging out with Hanako and that blonde girl… you keep some pretty strange company."
+# mk "Hanging out with Hanako and that blonde girl… you keep some pretty strange company."
+mk "ไปอยู่ด้วยกันกับฮานาโกะกับแม่สาวผมบลอนด์… นายนี่ก็แปลกดีเหมือนกันนะ"
 
-hi "How so?"
+# hi "How so?"
+hi "ยังไง?"
 
 show miki serious
 with charachange
 
-mk "It's just that Hanako's kind of… I don't know."
+# mk "It's just that Hanako's kind of… I don't know."
+mk "ก็แค่ฮานาโกะค่อนข้าง… ไม่รู้สิ"
 
-hi "Shy?"
+# hi "Shy?"
+hi "ขี้อาย?"
 
-mk "No, it's not really that. It's just… she's got some issues, I think. I can't really put it in a nice way."
+# mk "No, it's not really that. It's just… she's got some issues, I think. I can't really put it in a nice way."
+mk "เปล่า ไม่ใช่อย่างนั้นหรอก ก็แค่… เธอมีปัญหานิดหน่อย คิดว่านะ ฉันก็ไม่รู้ว่าจะพูดยังไงให้ดูดีได้เหมือนกัน"
 
 show miki wink
 with charachange
 
-mk "Not that I don't think she's a nice person, though. She's perfectly nice."
+# mk "Not that I don't think she's a nice person, though. She's perfectly nice."
+mk "ไม่ใช่ว่าฉันว่าเธอเป็นคนไม่ดีนะ เธอน่ะเป็นคนดีเลยล่ะ"
 
 show miki serious
 with charachange
 
-mk "Just… hard to deal with."
+# mk "Just… hard to deal with."
+mk "ก็แค่… คุยด้วยยากน่ะ"
 
 "It sounds like Miki, or at least some other people in the class, have tried to get closer to Hanako in the past. And that it didn't go well."
 
 "I think her judgment is rather harsh, given that everyone, not just those in Yamaku, have their own issues. Then again, I haven't known Hanako for that long, so it wouldn't surprise me if there was some stuff I didn't know about."
 
-hi "I'll just take it as it comes. She's a nice person, and I think that should be all that matters."
+# hi "I'll just take it as it comes. She's a nice person, and I think that should be all that matters."
+hi "ฉันก็แค่ปล่อยให้เป็นอย่างที่ควรเป็นน่ะ เธอเป็นคนดีแค่นี้ก็พอแล้วล่ะ"
 
 "Miki's eyes narrow a little, and her smile spreads."
 
 show miki grin
 with charachange
 
-mk "You really like her, don't you?"
+# mk "You really like her, don't you?"
+mk "นายชอบเธอเข้าให้แล้วล่ะสิเนี่ย"
 
 label th_choiceH12:
 menu:
     with menueffect
 
-    "Miki certainly doesn't mince words."
+    # "Miki certainly doesn't mince words."
+    "มิกิพูดกันแบบไม่อ้อมค้อมเลยแฮะ"
 
-    "Admit it.":
+    # "Admit it.":
+    "ยอมรับไป":
         return m1
 
-    "Deny it.":
+    # "Deny it.":
+    "ปฎิเสธไป":
         return m2
 
 # Tell Miki
