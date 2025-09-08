@@ -1048,19 +1048,23 @@ menu:
 # Tell Miki
 label th_H12a:
 
-hi "To be completely honest… yeah, I do. I'd appreciate it if you didn't tell anyone."
+# hi "To be completely honest… yeah, I do. I'd appreciate it if you didn't tell anyone."
+hi "ถ้าให้พูดจริง ๆ ก็… อืม ชอบ หวังว่าเธอจะไม่เอาไปแพร่งพรายละกัน"
 
 show miki wink
 with charachange
 
-mk "Hey, whoa, you can trust me. No problems there."
+# mk "Hey, whoa, you can trust me. No problems there."
+mk "โห้ย เชื่อใจได้เลย อย่าได้ห่วง"
 
 show miki grinclosed
 with charachange
 
-mk "To be honest, I think it's kind of cute. If you want to go for it, don't let me stop you."
+# mk "To be honest, I think it's kind of cute. If you want to go for it, don't let me stop you."
+mk "ว่ากันตามตรง ฉันว่าก็น่ารักดีออก ถ้านายจะจีบก็เอาเลยอย่าได้เกรงใจ"
 
-hi "Thanks."
+# hi "Thanks."
+hi "ขอบใจ"
 
 "She may say that, but she was just talking about Hanako having “issues.” Still, I want to hold myself to the words I said. Hanako's problems don't matter; I'll deal with anything that comes up, because I want to help her."
 
@@ -1071,12 +1075,14 @@ hi "Thanks."
 # Deny it
 label th_H12b:
 
-hi "I don't think so. We're just friends."
+# hi "I don't think so. We're just friends."
+hi "คิดว่าไม่หรอก พวกเราก็แค่เพื่อนกันน่ะ"
 
 show miki serious
 with charachange
 
-mk "Aw. I thought I'd discovered something nice for a moment there. I understand; girls and guys don't need to be boyfriends and girlfriends, after all."
+# mk "Aw. I thought I'd discovered something nice for a moment there. I understand; girls and guys don't need to be boyfriends and girlfriends, after all."
+mk "โห่ ฉันนึกว่าได้เจออะไรดี ๆ แล้วเสียอีก ฉันเข้าใจ ผู้หญิงกับผู้ชายไม่จำเป็นต้องเป็นแฟนกันเสมอไปนี่นา"
 
 "What she says is true, even if I do have feelings for Hanako. Right now we are good friends, and I don't want to mess that up, but I also want to be more than that for her. It's hard."
 
@@ -1087,24 +1093,28 @@ label th_H12c:
 
 "Glancing at my watch shows that lunch break is ending in only a few minutes. Time to start heading back to class."
 
-hi "Lunch is about to end. Want to head back?"
+# hi "Lunch is about to end. Want to head back?"
+hi "จะหมดพักเที่ยงละ กลับกันเลยดีไหม"
 
 show miki smile
 with charachange
 
-mk "Yeah, we'd better."
+# mk "Yeah, we'd better."
+mk "อืม ก็คงงั้นแหละ"
 
 show miki smile at center
 with charamove
 
 "I pick myself up off the grass and dust myself off, offering a hand to Miki to help her up as well. She takes it and easily pulls herself up, showing the muscles moving in her toned bare arms in the process."
 
-hi "Come to think of it, why aren't you wearing the normal girls' blouse?"
+# hi "Come to think of it, why aren't you wearing the normal girls' blouse?"
+hi "พอมานึกดูแล้ว ทำไมเธอถึงไม่ใส่เสื้อนักเรียนหญิงแบบปกติล่ะ"
 
 show miki whistle
 with charachange
 
-mk "Eh, it's too hot and constricting. The boys' uniform is better, anyway."
+# mk "Eh, it's too hot and constricting. The boys' uniform is better, anyway."
+mk "อ่า มันร้อนแล้วก็อึดอัดเกินอะ เสื้อนักเรียนชายดีกว่าเยอะ"
 
 "She throws her arms around a bit to emphasize her point, which has the side effect of showing off one particular part of her body that would be especially constricted by the blouse."
 
@@ -1116,16 +1126,20 @@ with locationchange
 show miki smile at center
 with charaenter
 
-mk "It sounds like you're settling in well. That's a relief. It was pretty surprising to get a transfer student at this point in the year, considering the exams are coming up."
+# mk "It sounds like you're settling in well. That's a relief. It was pretty surprising to get a transfer student at this point in the year, considering the exams are coming up."
+mk "ดูท่านายก็ปรับตัวได้ดีนะ โล่งไปที ก็น่าแปลกอยู่แหละที่มีนักเรียนใหม่ย้ายมาช่วงนี้ ยิ่งช่วงใกล้สอบด้วย"
 
-hi "Don't remind me…"
+# hi "Don't remind me…"
+hi "อย่าย้ำสิ…"
 
 show miki grinclosed
 with charachange
 
-mk "Haha, don't worry about them. Just cram it and you'll be fine."
+# mk "Haha, don't worry about them. Just cram it and you'll be fine."
+mk "ฮ่าฮ่า อย่ากังวลไปเลย แค่อ่านแบบอัด ๆ เข้าไปก็น่าจะพอแล้วล่ะ"
 
-hi "That doesn't sound like good advice."
+# hi "That doesn't sound like good advice."
+hi "ฟังดูไม่ใช่คำแนะนำที่ดีเท่าไหร่นะ"
 
 show miki grin
 with charachange
@@ -1135,16 +1149,20 @@ with charachange
 show miki wink
 with charachange
 
-mk "You seem like a smart guy, and Mutou's taken to you well already. You're like a hand in a glove."
+# mk "You seem like a smart guy, and Mutou's taken to you well already. You're like a hand in a glove."
+mk "นายก็ดูท่าจะเก่งนี่ แถมครูมุโต้เข้ากับนายได้ดีด้วยนี่ เป็นคู่หูที่เหมาะสมเลยเชียว"
 
-hi "Now to work out whether that's a good thing or a bad thing."
+# hi "Now to work out whether that's a good thing or a bad thing."
+hi "ไม่รู้เหมือนกันนะว่านั่นเป็นเรื่องดีหรือเปล่า"
 
-hi "I still don't know what to make of this school. I've been here a few weeks already, but I still feel dazed at times."
+# hi "I still don't know what to make of this school. I've been here a few weeks already, but I still feel dazed at times."
+hi "ฉันยังไม่รู้ว่าจะทำตัวยังไงในโรงเรียนนี้ดี ฉันมาอยู่ที่นี่ได้สองสามสัปดาห์แล้วแต่บางทีฉันก็ยังรู้สึกงง ๆ อยู่เลย"
 
 show miki smile
 with charachange
 
-mk "You'll get used to it, just give it some time. It's only a high school, just like any other."
+# mk "You'll get used to it, just give it some time. It's only a high school, just like any other."
+mk "เดี๋ยวนายก็ชินน่า อาจจะใช้เวลาสักหน่อย ที่นี่ก็แค่โรงเรียนมัธยมปลายเหมือน ๆ ที่อื่นนั่นแหละ"
 
 "She makes it sound so simple, but I've never thought about it that way. To me, Yamaku symbolized a marked shift in my life. I was no longer normal; I was “different,” and was to be educated with other “different” people."
 
