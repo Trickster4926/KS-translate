@@ -283,21 +283,26 @@ ha "แล้ว… หัวหน้าคนอื่นเป็นไงบ
 show lilly basic_reminisce_close
 with charachange
 
-li "Better than I, but not by much. Shizune is a harsh taskmaster no matter whom she deals with."
+# li "Better than I, but not by much. Shizune is a harsh taskmaster no matter whom she deals with."
+li "สบายกว่าฉัน แต่ก็ไม่ขนาดนั้นจ้ะ ชิซูเนะมักจะเข้มงวดกับทุก ๆ คนเสมอเลยจ้ะ"
 
-hi "It doesn't sound like you particularly relish the job. Why do you do it in the first place, if it's that bad?"
+# hi "It doesn't sound like you particularly relish the job. Why do you do it in the first place, if it's that bad?"
+hi "ฟังดูเธอก็ไม่ค่อยชอบงานนี้นะ ทำไมตอนแรกถึงทำล่ะถ้ามันแย่ขนาดนั้น"
 
 show lilly basic_displeased_close
 with charachange
 
-li "Being a class representative is enjoyable, and I can deal with the responsibility well enough. It's just that the people involved are sometimes…"
+# li "Being a class representative is enjoyable, and I can deal with the responsibility well enough. It's just that the people involved are sometimes…"
+li "คือเป็นหัวหน้าห้องก็สนุกดีอยู่หรอก และฉันก็รับผิดชอบหน้าที่ได้ดีพอด้วย มีแค่บางคนที่เกี่ยวข้องนั่นแหละที่…"
 
-"She trails off, cutting her words at a rather opportune spot. It's hard to imagine Lilly cursing, but I imagine that if anyone could make her do so, it would be Shizune."
+# "She trails off, cutting her words at a rather opportune spot. It's hard to imagine Lilly cursing, but I imagine that if anyone could make her do so, it would be Shizune."
+"เธอตัดบทไปในช่วงที่พอเหมาะพอดี ปกติแทบคิดภาพที่ลิลลี่ด่าคนไม่ออกเลย แต่ถ้าจะให้นึกว่าใครจะทำให้ลิลลี่ต้องได้ด่า\nคน ๆ นั้นก็คงเป็นชิซูเนะนั่นแหละ"
 
 show hanako cover_worry_close
 with charachange
 
-"Hanako looks to be withering a bit in the light of such conflict, but before I can steer the topic away a little, she stands up."
+# "Hanako looks to be withering a bit in the light of such conflict, but before I can steer the topic away a little, she stands up."
+"ฮานาโกะดูซึม ๆ ไปจากการที่สองคนนั้นทะเลาะกัน แต่ก่อนที่ฉันจะได้เปลี่ยนเรื่องคุย เธอก็ลุกขึ้นมา"
 
 show hanako basic_worry_close at tworight
 with dissolvecharamove
@@ -305,41 +310,51 @@ with dissolvecharamove
 show lilly basic_surprised_close
 with charachange
 
-li "Hanako?"
+# li "Hanako?"
+li "ฮานาโกะ?"
 
 show hanako defarms_strain_close
 with charachange
 
-ha "I'll… be back in a bit."
+# ha "I'll… be back in a bit."
+ha "ดะ… เดี๋ยวฉันมานะ"
 
 hide hanako
 with charaexit
 
-"With that, she leaves for the restrooms. I suppose that's one way to deal with the situation, if that was indeed her motivation."
+# "With that, she leaves for the restrooms. I suppose that's one way to deal with the situation, if that was indeed her motivation."
+"พูดจบ เธอก็ออกไปเข้าห้องน้ำ คิดว่านั่นคงเป็นวิธีหนึ่งที่จะรับมือกับสถานการณ์แบบนี้ ถ้าเธอจงใจอะนะ"
 
 show bg suburb_shanghaiint at center
 show lilly basic_concerned_close at Position(xpos=0.5)
 with dissolvecharamove
 
-"Lilly, however, looks a little wounded."
+# "Lilly, however, looks a little wounded."
+"แต่ลิลลี่ดูท่าจะใจเสียหน่อย ๆ"
 
-hi "Don't worry about it. I don't think it was you."
+# hi "Don't worry about it. I don't think it was you."
+hi "อย่าห่วงไปเลยน่า ไม่น่าใช่เพราะเธอหรอก"
 
 show lilly basic_oops_close
 with charachange
 
-li "But…"
+# li "But…"
+li "แต่ว่า…"
 
-hi "I think she's been getting stronger recently. You've seen it yourself… right…?"
+# hi "I think she's been getting stronger recently. You've seen it yourself… right…?"
+hi "ฉันว่าช่วงนี้ฮานาโกะเองก็เข้มแข็งขึ้นแล้วนะ เธอเองก็เห็นแล้ว… นี่นะ?…"
 
-"That went a bit awry. Fortunately Lilly doesn't look offended, and by now I really shouldn't be quite so scared of stepping on that landmine around her."
+# "That went a bit awry. Fortunately Lilly doesn't look offended, and by now I really shouldn't be quite so scared of stepping on that landmine around her."
+"ฟังดูแปลก ๆ ไปหน่อย โชคดีที่ลิลลี่ไม่ได้รู้สึกอะไร และคราวหลังก็คงไม่ต้องมาพะวงกับเรื่องอะไรแบบนี้อีกแล้วละมั้ง"
 
 show lilly basic_sleepy_close
 with charachange
 
-li "Possibly. Sometimes… I find it hard to tell, though."
+# li "Possibly. Sometimes… I find it hard to tell, though."
+li "ก็คงใช่ บางทีก็… เดาใจไม่ค่อยถูกเหมือนกัน"
 
-"Silence reigns for a moment before two teacups, a pie, and a mug of steaming coffee appear in front of us."
+# "Silence reigns for a moment before two teacups, a pie, and a mug of steaming coffee appear in front of us."
+"ความเงียบเข้าครอบงำชั่วขณะ ก่อนที่ถ้วยชาสองใบ พายหนึ่งชิ้น และแก้วกาแฟร้อน ๆ จะปรากฏขึ้นตรงหน้าเรา"
 
 show bg suburb_shanghaiint at right
 show lilly basic_sleepy_close at Position(xpos=0.3)
@@ -348,48 +363,60 @@ with charamove
 show yuukoshang closedhappy_down at tworight
 with charaenter
 
-"I notice that Yuuko takes special care to place the teacup against the tip of Lilly's fingers, letting her know where it is."
+# "I notice that Yuuko takes special care to place the teacup against the tip of Lilly's fingers, letting her know where it is."
+"ฉันสังเกตเห็นว่ายูโกะนั้นใส่ใจวางถ้วยลงตรงปลายนิ้วของลิลลี่เพื่อให้เธอรู้ว่าวางไว้ตรงไหน"
 
 show yuukoshang closedhappy_up
 with charachange
 
-yu "Here you go."
+# yu "Here you go."
+yu "ได้แล้วค่ะ"
 
-hi "Thanks, Yuuko."
+# hi "Thanks, Yuuko."
+hi "ขอบคุณครับ คุณยูโกะ"
 
 show lilly basic_weaksmile_close
 with charachange
 
-li "Thank you."
+# li "Thank you."
+li "ขอบคุณค่ะ"
 
 hide yuukoshang
 with charaexit
 
-"With a quick and silent bow, the bespectacled waitress takes her leave."
+# "With a quick and silent bow, the bespectacled waitress takes her leave."
+"ด้วยการโค้งคำนับอย่างรวดเร็วและเงียบเชียบ พนักงานเสิร์ฟที่สวมแว่นก็เดินจากไป"
 
 show bg suburb_shanghaiint at center
 show lilly basic_weaksmile_close at Position(xpos=0.5)
 with charamove
 
-li "Ah, that's right. I was meaning to ask you something, and now would be the right time to do so."
+# li "Ah, that's right. I was meaning to ask you something, and now would be the right time to do so."
+li "อ๊ะ จริงสิ ว่าจะถามอะไรเธอสักหน่อย และตอนนี้ก็ได้จังหวะพอดีเลย"
 
-hi "I'm all ears."
+# hi "I'm all ears."
+hi "โอเค ตั้งใจฟังอยู่"
 
 show lilly basic_smileclosed_close
 with charachange
 
-li "Hanako's birthday is coming up, and I was hoping that you might accompany me for present shopping in the city this weekend."
+# li "Hanako's birthday is coming up, and I was hoping that you might accompany me for present shopping in the city this weekend."
+li "พอดีใกล้ถึงวันเกิดฮานาโกะแล้วน่ะ เลยอยากให้เธอเข้าตัวเมืองไปซื้อของช่วงสุดสัปดาห์นี้เป็นเพื่อนฉันหน่อยน่ะจ้ะ"
 
-"Hanako's birthday is soon? I suppose it would be a nice chance to cheer her up a bit. Like Yuuko, she always seems to be teetering on the edge of either panic or depression, and I've never seen her enjoy herself much outside of our chess games."
+# "Hanako's birthday is soon? I suppose it would be a nice chance to cheer her up a bit. Like Yuuko, she always seems to be teetering on the edge of either panic or depression, and I've never seen her enjoy herself much outside of our chess games."
+"ใกล้ถึงวันเกิดฮานาโกะแล้วเหรอ คงจะเป็นโอกาสดีที่ทำให้เธอได้ร่าเริงละนะ อาการฮานาโกะเหมือนยูโกะที่เดี๋ยวก็ลน\nเดี๋ยวก็เครียดเลย แถมไม่เคยเห็นฮานาโกะสนุกกับอะไรอย่างอื่นนอกจากตอนที่เล่นหมากรุกด้วยกันแล้วด้วย"
 
-"All that aside, learning the layout of the city better with a friend keeping me company sounds like a good way to spend a weekend."
+# "All that aside, learning the layout of the city better with a friend keeping me company sounds like a good way to spend a weekend."
+"นอกจากนั้น จะได้เรียนรู้เส้นทางในเมืองให้ดีขึ้นไปพร้อมกับมีเพื่อนคอยไปเป็นเพื่อนด้วยในช่วงสุดสัปดาห์ ซึ่งฟังดูดีเลยทีเดียว"
 
-hi "Sure, I'd be happy to. Have you got any plans for what to do for her birthday? A party or anything?"
+# hi "Sure, I'd be happy to. Have you got any plans for what to do for her birthday? A party or anything?"
+hi "อื้ม ได้สิ แล้วเธอมีแผนอะไรที่จะทำในวันเกิดไหมล่ะ แบบงานเลี้ยงหรืออะไรแบบนั้น"
 
 show lilly basic_weaksmile_close
 with charachange
 
-li "Hanako being Hanako, perhaps a low-key affair would be—"
+# li "Hanako being Hanako, perhaps a low-key affair would be—"
+li "ฮานาโกะก็ยังเป็นฮานาโกะแหละนะ จัดแบบเรียบง่ายก็น่าจะ—"
 
 show lilly basic_listen_close
 with charachange
@@ -841,7 +868,7 @@ show miki wink
 with charachange
 
 # mk "Just call me Miki. Surnames are too stuffy."
-mk "เรียกมิกิเถอะ นามสกุลดูทางการไปหน่อย"
+mk "เรียกมิกิเถอะ นามสกุลดูจะทางการเกินไปหน่อย"
 
 # hi "Likewise, then."
 hi "ถ้างั้นก็เช่นกัน"
