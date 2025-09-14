@@ -421,9 +421,11 @@ li "ฮานาโกะก็ยังเป็นฮานาโกะแห�
 show lilly basic_listen_close
 with charachange
 
-"Lilly suddenly cuts herself short, leaving me to wonder why as she brings her teacup to her lips and begins to sip."
+# "Lilly suddenly cuts herself short, leaving me to wonder why as she brings her teacup to her lips and begins to sip."
+"จู่ ๆ ลิลลี่ก็ตัดบทตัวเองลง พานให้ฉันสงสัยว่าทำไมจู่ ๆ เธอถึงยกถ้วยชาขึ้นมาจิบแทน"
 
-"After a few seconds, I notice Hanako walking up to us over her shoulder. Lilly's hearing must be very good indeed if it was the sound of the restroom door opening that tipped her off."
+# "After a few seconds, I notice Hanako walking up to us over her shoulder. Lilly's hearing must be very good indeed if it was the sound of the restroom door opening that tipped her off."
+"ผ่านไปสักพัก ก็เห็นฮานาโกะกำลังเดินมาจากข้างหลังเธอ ลิลลี่คงหูดีจริง ๆ ถ้าเทียบจากการที่เสียงเปิดประตูห้องน้ำ\nคือสิ่งที่ทำให้เธอรู้ตัวอะนะ"
 
 show bg suburb_shanghaiint at bgleft
 show lilly basic_listen_close at Position(xpos=0.3)
@@ -434,9 +436,11 @@ show hanako basic_normal_close:
     easein 1.0 ypos 1.09
 with charaenter
 
-"Hanako takes her seat once again, and wastes no time in drinking her tea. Soon the three of us are quietly eating and drinking as the sun sets."
+# "Hanako takes her seat once again, and wastes no time in drinking her tea. Soon the three of us are quietly eating and drinking as the sun sets."
+"ฮานาโกะกลับมานั่งที่ของเธออีกครั้งและดื่มชาต่อทันทีโดยไม่เสียเวลา เช่นนั้นแล้วเราสามคนก็กินดื่มกันอย่างเงียบ ๆ \nท่ามกลางอาทิตย์อัสดง"
 
-"It's a nice way to spend the remainder of the day's light, and it makes me appreciate the quiet and serene surroundings of Yamaku. I think I'm really beginning to like life here, as isolated as it may be."
+# "It's a nice way to spend the remainder of the day's light, and it makes me appreciate the quiet and serene surroundings of Yamaku. I think I'm really beginning to like life here, as isolated as it may be."
+"ซึ่งเป็นการใช้เวลาช่วงที่เหลือได้อย่างดีเลย และทำให้ฉันได้ชมเชยกับบรรยากาศที่เงียบและสงบของยามากุด้วย\nฉันว่าฉันเริ่มจะชอบชีวิตที่นี่แล้วจริง ๆ แม้ว่าจะดูเหมือนโดดเดี่ยวหน่อย ๆ ก็เถอะ"
 
 stop ambient fadeout 2.0
 
@@ -449,44 +453,56 @@ show hanako basic_smile_close:
     ypos 1.09
 with shorttimeskip
 
-"I finish off the last of my coffee and rest the mug on the table while the girls talk between themselves. The coffee here's a little bitter for my tastes, but still quite good. Better than what I can make for myself, in any case."
+# "I finish off the last of my coffee and rest the mug on the table while the girls talk between themselves. The coffee here's a little bitter for my tastes, but still quite good. Better than what I can make for myself, in any case."
+"ฉันกระดกกาแฟอึกสุดท้ายจนหมดแล้ววางแก้วลงบนโต๊ะขณะที่สาว ๆ คุยกันอยู่ กาแฟที่นี่ค่อนข้างขมไปหน่อยสำหรับฉัน\nแต่ก็ยังอร่อยอยู่ ยังไงก็อร่อยกว่าทำกินเองอยู่ดีแหละนะ"
 
-"The girls' discussion is mainly focused on their respective reading preferences, which does give me a little curiosity about a related topic."
+# "The girls' discussion is mainly focused on their respective reading preferences, which does give me a little curiosity about a related topic."
+"การสนทนาของพวกสาว ๆ ส่วนใหญ่จะเน้นไปที่ความชอบในการอ่านของแต่ละคน ซึ่งทำให้ฉันเริ่มอยากรู้เรื่องที่เกี่ยวข้อง\nขึ้นมา"
 
-hi "Hey Hanako, I was just wondering… aside from chess and reading, do you have any hobbies or things you like doing?"
+# hi "Hey Hanako, I was just wondering… aside from chess and reading, do you have any hobbies or things you like doing?"
+hi "นี่ฮานาโกะ ฉันอยากรู้ว่า… นอกจากเล่นหมากรุกกับอ่านหนังสือ เธอมีงานอดิเรกอื่น ๆ หรือชอบทำอะไรอีกหรือเปล่า"
 
 show hanako emb_timid_close
 with charachange
 
-"She's completely stopped in her tracks, looking quite surprised that anyone would be interested in asking such a question about her. It takes her a little time to formulate a response."
+# "She's completely stopped in her tracks, looking quite surprised that anyone would be interested in asking such a question about her. It takes her a little time to formulate a response."
+"เธอหยุดชะงักทันที ดูประหลาดใจที่ใครสักคนจะสนใจถามคำถามเกี่ยวกับเธอแบบนั้น เธอใช้เวลาสักพักเพื่อเรียบเรียงคำตอบ"
 
 show hanako emb_downsmile_close
 with charachange
 
-ha "Um… I guess… I like singing a l-little. I'm okay with c-computers as well, but I… don't use them all that much."
+# ha "Um… I guess… I like singing a l-little. I'm okay with c-computers as well, but I… don't use them all that much."
+ha "เอิ่ม… คิดว่า… ฉันชอบร้องเพลงนะ-นิดหน่อย แล้วก็คะ-คอมพิวเตอร์ก็พอได้ แต่ฉะ-ฉันก็ไม่ค่อยได้ใช้หรอก"
 
-"Singing's not exactly something I expected to hear. It's hard to imagine her singing voice, given how soft-spoken she is."
+# "Singing's not exactly something I expected to hear. It's hard to imagine her singing voice, given how soft-spoken she is."
+"เรื่องร้องเพลงนี่ผิดคาดเลยแฮะ นึกเสียงเธอตอนร้องเพลงไม่ออกเลยแฮะเมื่อมองจากการที่เธอพูดเบาขนาดนี้"
 
 show lilly basic_smile_close
 with charachange
 
-"Lilly, on the other hand, simply nods. She must already know all this, since she's been friends with Hanako for one year or so by now."
+# "Lilly, on the other hand, simply nods. She must already know all this, since she's been friends with Hanako for one year or so by now."
+"ในขณะที่ลิลลี่เองกลับพยักหน้าเฉย ๆ เธอต้องรู้อยู่แล้วแน่ ๆ ละ ก็เธอเป็นเพื่อนกับฮานาโกะมาปีกว่า ๆ แล้วนี่นะ"
 
 show hanako cover_bashful_close
 with charachange
 
-ha "W-what about… y-y…"
+# ha "W-what about… y-y…"
+ha "ละ-แล้ว นาย…ชอบอะ…"
 
-hi "Me?"
+# hi "Me?"
+hi "ฉันเหรอ?"
 
 show hanako basic_bashful_close
 with charachange
 
-"She hesitates before quickly flicking her head up and down. It's only logical that she'd want me to talk about my hobbies after she's told me hers."
+# "She hesitates before quickly flicking her head up and down. It's only logical that she'd want me to talk about my hobbies after she's told me hers."
+"เธอลังเลอยู่พักหนึ่ง ก่อนจะพยักหน้าอย่างรวดเร็ว ก็เป็นเรื่องปกติที่เธอจะอยากให้ฉันพูดถึงงานอดิเรกของฉันบ้าง\nหลังจากที่เธอเล่าเรื่องของเธอให้ฉันฟังแล้ว"
 
-hi "There's chess, obviously, but also… hmm…"
+# hi "There's chess, obviously, but also… hmm…"
+hi "แน่นอน ก็มีหมากรุกละหนึ่ง แล้วก็… อืม…"
 
-hi "There was soccer as well, though I can't really do that any more. Reading, which I picked up in hospital… um…"
+# hi "There was soccer as well, though I can't really do that any more. Reading, which I picked up in hospital… um…"
+hi "ก็มีเตะบอลด้วยแหละ ถึงแม้ตอนนี้จะกลับไปเตะอีกไม่ได้แล้วก็เถอะ แล้วก็อ่านหนังสือ ซึ่งฉันทำประจำในโรงพยาบาล… อืม…"
 
 show hanako basic_normal_close
 show lilly basic_sleepy_close
