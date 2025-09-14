@@ -1094,14 +1094,14 @@ ha "ฉัน… ไปคุยกับลิลลี่มา"
 show hanako basic_worry
 with charachange
 
-ha "ระ เรื่องวันนี้"
+ha "ระ-เรื่องวันนี้"
 
 hi "โอ้ ได้รายการของลิลลี่มาแล้วใช่ไหม งั้นไปหลังเลิกเรียนเลยแล้วกัน"
 
 show hanako emb_smile
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 hi "ฉันจะรอนะ"
 
@@ -1225,7 +1225,7 @@ with charaenter
 show hanako emb_timid_close
 with charachange
 
-ha "มะ มีอะไรเหรอ…"
+ha "มะ-มีอะไรเหรอ…"
 
 "คงไม่ต้องปิดบังแล้วสินะ…"
 
@@ -1234,14 +1234,14 @@ hi "โทษที เมื่อกี้มองดูเธอเหมื
 show hanako defarms_strain_close
 with charachange
 
-ha "มะ มะ หมายความว่าไง"
+ha "มะ- หม-หมายความว่าไง"
 
 hi "ฉันว่าเธออย่าเกร็งไปเลย เราก็ไม่ได้ไปไหนไกลสักหน่อย แถมแถวนี้ก็มีแค่นักเรียนด้วยนี่ จริงไหม"
 
 show hanako def_worry_close
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 "รู้สึกลำบากใจนิดหน่อยที่เห็นฮานาโกะดูกังวลมากขนาดนี้"
 
@@ -1250,7 +1250,7 @@ hi "แล้วเธอเองก็มาทุก ๆ สัปดาห�
 show hanako basic_worry_close
 with charachange
 
-ha "ชะ ใช่ กับลิลลี่"
+ha "ชะ-ใช่ กับลิลลี่"
 
 "แหงแซะ “กับลิลลี่” สงสัยจริง ๆ ว่าเธอเคยออกมาข้างนอกโดยไม่มีลิลลี่สักครั้งไหม"
 
@@ -1327,7 +1327,7 @@ window show
 show hanako emb_downtimid_close at center
 with charaenter
 
-ha "นะ นะ นาย ชะ ช่วย…"
+ha "นะ- น-นาย ชะ-ช่วย…"
 
 "ฉันใช้เวลาไม่นานก็เข้าใจสิ่งที่เธอจะสื่อ"
 
@@ -1387,14 +1387,14 @@ hi "ไม่ยากไปหน่อยเหรอ"
 show hanako emb_blushing_close_ss
 with charachange
 
-ha "กะ ก็ไม่ขนาดนั้น"
+ha "กะ-ก็ไม่ขนาดนั้น"
 
 hi "อื้ม ดีแล้ว สงสัยเธอต้องสอนฉันบ้างแล้วละ"
 
 show hanako emb_smile_close_ss
 with charachange
 
-ha "ดะ ได้สิ"
+ha "ดะ-ได้สิ"
 
 "ก็ดูท่าไม่ค่อยแน่ใจสักเท่าไหร่ว่าจะสอนให้จริงไหม แต่ให้จี้ถามก็ใช่เรื่อง"
 
@@ -1417,7 +1417,7 @@ hi "บอกเลย นี่ฉันอายเลยนะเนี่ย
 show hanako defarms_shock_close_ss
 with charachange
 
-ha "มะ ไม่นะ ฉันไม่ได้… ฉันแค่…"
+ha "มะ-ไม่นะ ฉันไม่ได้… ฉันแค่…"
 
 hi "ล้อเล่น ๆ"
 
@@ -1431,14 +1431,14 @@ hi "ขนไปไหวใช่ไหม"
 show hanako cover_bashful_close_ss
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 hi "แน่นะ โอเค งั้นไว้เจอกันพรุ่งนี้"
 
 show hanako basic_smile_close_ss
 with charachange
 
-ha "บะ บาย"
+ha "บะ-บาย"
 
 hide hanako
 with charaexit
@@ -1589,7 +1589,7 @@ show hanako emb_timid:
     ypos 1.17
 with charaenter
 
-ha "อะ อีกเดี๋ยวเธอก็มาแล้ว…"
+ha "อะ-อีกเดี๋ยวเธอก็มาแล้ว…"
 
 show hanako emb_downtimid
 with charachange
@@ -1607,7 +1607,7 @@ hi "ให้เดานะ เธอปิดฝาตอนข้าวยั
 show hanako emb_sad
 with charachange
 
-ha "ชะ ใช่ พอดีฉันรีบน่ะ…"
+ha "ชะ-ใช่ พอดีฉันรีบน่ะ…"
 
 "ฉันวางกล่องข้าวลงบนโต๊ะ"
 
@@ -1655,7 +1655,7 @@ hi "ไม่เลวนี่ เดาว่าใช้ของซื้อ
 show hanako emb_blushtimid
 with charachange
 
-ha "ชะ ใช่"
+ha "ชะ-ใช่"
 
 "สายตาของฮานาโกะจ้องมาที่ฉันราวกับขอความเห็นบางอย่าง"
 
@@ -1688,7 +1688,7 @@ hi "ก็อร่อยดี แค่นั้นก็พอแล้วน
 show hanako basic_smile
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 show lilly basic_smileclosed
 with charachange
@@ -1721,7 +1721,7 @@ li "ขอบคุณนะฮานาโกะ อิ่มมากเลย
 show hanako basic_smile
 with charachange
 
-ha "มะ ไม่หรอก… ต้องขอบคุณเธอเรื่องขนมปังต่างหาก…"
+ha "มะ-ไม่หรอก… ต้องขอบคุณเธอเรื่องขนมปังต่างหาก…"
 
 hi "นั่นสิ คงแย่แน่ ๆ ถ้าไม่มีมาน่ะ"
 
@@ -2006,7 +2006,7 @@ show hanako emb_timid:
     xanchor 0.5 xpos 0.9
 with dissolvecharamove
 
-ha "ฮะ ฮิซาโอะ"
+ha "ฮะ-ฮิซาโอะ"
 
 "ฮานาโกะเดินอ้อมพวกเราเพื่อออกจากห้องอย่างอาย ๆ ฉันพลันนึกขึ้นมาว่านี่อาจเป็นโอกาสเดียวที่ฉันจะหนีรอดไปได้"
 
@@ -2095,7 +2095,7 @@ hi "งั้นเดี๋ยวฉันตามไปนะ โอเค?"
 show hanako emb_smile
 with charachange
 
-ha "อะ โอเค"
+ha "อะ-โอเค"
 
 stop music fadeout 3.0
 
@@ -2642,7 +2642,7 @@ hi "…ช่างเถอะ เอาละ ไปห้องสมุด�
 show hanako basic_smile
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 play ambient sfx_crowd_indoors fadein 0.5
 
@@ -2678,7 +2678,7 @@ yu "เอ่อ น่าจะอยู่ที่หมวดสารคด
 show hanako emb_downsad
 with charachange
 
-ha "มะ ไม่เป็นไรค่ะ"
+ha "มะ-ไม่เป็นไรค่ะ"
 
 hi "คุณยูโกะ มีอะไรเหรอครับ"
 
@@ -2690,7 +2690,7 @@ yu "อ้าว ฮิซาโอะ… ฮานาโกะแค่จะ�
 show hanako emb_blushing
 with charachange
 
-ha "ปะ เปล่า…"
+ha "ปะ-เปล่า…"
 
 hi "หนังสือเรื่องความว่างเปล่าเหรอ ที่อยู่หมวดสารคดีอะนะ"
 
@@ -2716,7 +2716,7 @@ yu "หมากรุกน่ะ! เธอมาหาหนังสือ�
 show hanako defarms_shock
 with charachange
 
-ha "คะ คุณยูโกะ…"
+ha "คะ-คุณยูโกะ…"
 
 show yuuko panic_up
 with charachange
@@ -2757,7 +2757,7 @@ hi "อืม งั้นก็คงเป็นของเธอแล้ว
 show hanako cover_worry
 with charachange
 
-ha "ดะ ได้สิ ฉัน… ก่อนหน้านี้ฉันไม่เคยเล่นกับใครเลย นะ…นอกจากลิลลี่ ก็เลยว่าจะ…"
+ha "ดะ-ได้สิ ฉัน… ก่อนหน้านี้ฉันไม่เคยเล่นกับใครเลย นะ…นอกจากลิลลี่ ก็เลยว่าจะ…"
 
 "ตายละ ไม่ใช่ว่าจะตั้งใจเอาชนะฮานาโกะหรอก แต่ดูเหมือนเธอจะเก็บไปคิดมากซะแล้วสิ"
 
@@ -2858,7 +2858,7 @@ show bg school_library_ss at bgleft
 show yuuko smile_down_ss at twoleft
 with dissolvecharamove
 
-ha "ระ รบกวนด้วยค่ะ"
+ha "ระ-รบกวนด้วยค่ะ"
 
 hi "ของผมไม่ต้องครับ เดี๋ยวเอาไปคืนตอนเดินกลับแล้วกัน พอดีอ่านแล้วไม่ค่อยน่าสนใจเท่าที่คิดน่ะครับ"
 
@@ -2880,7 +2880,7 @@ yu "อ่า… ได้สักที กว่าจะติด พอด�
 show hanako basic_smile_ss
 with charachange
 
-ha "มะ ไม่เป็นไรค่ะ"
+ha "มะ-ไม่เป็นไรค่ะ"
 
 scene bg school_hallway2
 with locationchange
@@ -2940,14 +2940,14 @@ hi "อื้ม ฉันก็ด้วย ไม่ยักรู้ตั�
 show hanako basic_bashful
 with charachange
 
-ha "มะ ไม่มีปัญหา"
+ha "มะ-ไม่มีปัญหา"
 
 hi "ฉันก็จะกลับหอแล้วเหมือนกัน ขอเดินไปด้วยได้ไหม"
 
 show hanako emb_blushing
 with charachange
 
-ha "อะ โอเค"
+ha "อะ-โอเค"
 
 hide hanako
 with charaexit
@@ -2980,7 +2980,7 @@ hi "เอาละ ไว้เจอกันพรุ่งนี้ที่
 show hanako emb_smile_ss
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 hide hanako
 with charaexit
@@ -3488,7 +3488,7 @@ hi "อื้ม ขอบใจ"
 show hanagown smile
 with charachange
 
-ha "ดะ ด้วยความยินดี"
+ha "ดะ-ด้วยความยินดี"
 
 show lilly basic_smileclosed_paj
 with charachange
@@ -3730,19 +3730,19 @@ hi "ก็แบบ เราเป็นเพื่อนกันนี่น
 show hanagown normal_blush
 with charachange
 
-ha "ชะ ใช่ เราเป็น… เพื่อนกัน"
+ha "ชะ-ใช่ เราเป็น… เพื่อนกัน"
 
 hi "ถ้าอยากเจอกันหรือยังไงก็บอกได้เลย เรายังค้างกันเรื่องเล่นหมากรุกอีกรอบนะ จำได้ไหม"
 
 show hanagown distant
 with charachange
 
-ha "อะ อื้ม…"
+ha "อะ-อื้ม…"
 
 show hanagown normal
 with charaenter
 
-ha "ตะ แต่รอบนี้นายแพ้แน่…"
+ha "ตะ-แต่รอบนี้นายแพ้แน่…"
 
 hi "ถ้าชนะง่าย ๆ ก็ไม่สนุกน่ะสิ"
 
@@ -3751,7 +3751,7 @@ with charachange
 
 "ดูเหมือนว่าฮานาโกะจะหัวเราะเบา ๆ แต่อาจจะแค่ถอนหายใจออกมาเฉย ๆ ก็ได้"
 
-ha "ฝะ ฝันดีนะ ฮิซาโอะ…" 
+ha "ฝะ-ฝันดีนะ ฮิซาโอะ…" 
 
 show hanagown invis at tworight
 with Dissolvemove(0.5, time_warp=_ease_out_time_warp)
@@ -4235,7 +4235,7 @@ hi "ไงฮานาโกะ เป็นไงบ้าง"
 show ev hana_library_smile_std
 with charachange
 
-ha "สวัสดี ฮะ ฮิซาโอะ ก็สบายดี"
+ha "สวัสดี ฮะ-ฮิซาโอะ ก็สบายดี"
 
 "บางอย่างแปลกไป และพอผ่านไปสักพักฉันก็เห็นว่าบางอย่างที่ว่าคือ ฮานาโกะยิ้มอยู่"
 
@@ -4243,13 +4243,13 @@ ha "สวัสดี ฮะ ฮิซาโอะ ก็สบายดี"
 
 hi "ดีแล้วละ แล้วเล่มนั้นเป็นไง เห็นว่าสนุกน่าดูเลย"
 
-ha "กะ ก็ดี… คิดว่านะ"
+ha "กะ-ก็ดี… คิดว่านะ"
 
-ha "ฉันเพิ่งดะ ได้อ่านน่ะ ก็เลยมะ ไม่ค่อยรู้น่ะ"
+ha "ฉันเพิ่งดะ-ได้อ่านน่ะ ก็เลย มะ-ไม่ค่อยรู้น่ะ"
 
 hi "เข้าใจได้ เป็นไงเอามาเล่าด้วยนะ เผื่อเธออ่านจบแล้วจะได้ขอยืมมาอ่านบ้าง"
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 
 "เหลือเวลาสิบห้านาทีก่อนหมดพักเที่ยง ไม่พอที่ให้อ่านหนังสือสักเล่ม แต่ก็นานเกินกว่าจะยืนเฉย ๆ ไม่ทำอะไรเลย"
 
@@ -4316,7 +4316,7 @@ with charachange
 show hanako emb_downsad
 with charachange
 
-ha "ปะ เปล่า ตอนที่ฉันยะ ยังเด็กน่ะ"
+ha "ปะ-เปล่า ตอนที่ฉันยะ-ยังเด็กน่ะ"
 
 play music music_hanako
 
@@ -4331,7 +4331,7 @@ hi "ไม่เป็นไรฮานาโกะ ถ้าไม่อยา
 show hanako emb_sad
 with charachange
 
-ha "มะ ไม่ ฉันอยาก… ฉันจะต้องบอกนาย"
+ha "มะ-ไม่ ฉันอยาก… ฉันจะต้องบอกนาย"
 
 scene ev hanako_crayon1:
      truecenter zoom 1.0 subpixel True
@@ -4340,13 +4340,13 @@ with locationskip
 
 ha "ตอนที่ฉันยังเด็ก… บ้านฉันไฟไหม้"
 
-ha "ละ แล้วฉันก็ตะ ติดอยู่ในนั้น จนเกือบ… จนเกือบไม่รอดออกมาแล้ว…"
+ha "ละ-แล้ว ฉันก็ตะ-ติด อยู่ในนั้น จนเกือบ… จนเกือบไม่รอดออกมาแล้ว…"
 
 show ev hanako_crayon2:
      linear 8.0 zoom 1.05
 with charachange
 
-ha "จะ จากนั้น… ฉันก็ตัวคนเดียวมาตลอด…"
+ha "จะ-จากนั้น… ฉันก็ตัวคนเดียวมาตลอด…"
 
 scene bg school_library
 show hanako emb_downsad_close:
@@ -4361,26 +4361,26 @@ hi "ไม่เป็นไรฮานาโกะ เธอไม่ต้อ
 show hanako emb_sad_close
 with charachange
 
-ha "ตะ แต่… ฉันต้อง…"
+ha "ตะ-แต่… ฉันต้อง…"
 
 hi "ทำไมล่ะ ทำไมเธอถึงเล่าขึ้นมา"
 
 show hanako cover_distant_close
 with charachange
 
-ha "มะ เมื่อคืนลิลลี่เล่าเรื่องหัวใจขะ ของนายให้ฉันฟังน่ะ…"
+ha "มะ-เมื่อคืนลิลลี่เล่าเรื่องหัวใจ ขะ-ของนายให้ฉันฟังน่ะ…"
 
 show hanako cover_worry_close
 with charachange
 
-ha "ละ และฉะ… ฉันคิดว่ามันไม่ยะ ยุติธรรมน่ะ"
+ha "ละ-และฉะ… ฉันคิดว่ามันไม่ ยะ-ยุติธรรมน่ะ"
 
 hi "ยุติธรรม?"
 
 show hanako emb_blushing_close
 with charachange
 
-ha "ทะ ที่ฉันรู้เรื่องของนาย ตะ แต่นายไม่รู้เรื่องฉันน่ะ…"
+ha "ทะ-ที่ฉันรู้เรื่องของนาย ตะ-แต่นายไม่รู้เรื่องฉันน่ะ…"
 
 "ฉันบีบมือฮานาโกะเบา ๆ"
 
@@ -4395,7 +4395,7 @@ hi "ที่ฉันไม่ได้บอกลิลลี่ไปก็�
 show hanako cover_worry_close
 with charachange
 
-ha "จะ จริงเหรอ"
+ha "จ-จริงเหรอ"
 
 hi "อื้ม ซึ่งฉันก็ไม่ได้ข่าวคราวเธอมาสักพักแล้ว ฉันคิดว่าก็คงจบกันไปแล้วละ"
 
@@ -4437,19 +4437,19 @@ with charachange
 
 window show
 
-ha "ขะ ขอบคุณนะฮิซาโอะ"
+ha "ขะ-ขอบคุณนะฮิซาโอะ"
 
 show hanako emb_downtimid_close
 with charachange
 
-ha "ฉะ ฉันแทบไม่เคยเล่าเรื่องนี้ให้ใครฟังเลย"
+ha "ฉะ-ฉันแทบไม่เคยเล่าเรื่องนี้ให้ใครฟังเลย"
 
 hi "เอาจริง ๆ ฉันเองก็แทบไม่เคยเล่าเรื่อง… อะไรของฉันให้ใครฟังเลยเหมือนกัน"
 
 show hanako cover_smile_close
 with charachange
 
-ha "ถะ ถ้างั้นฉันก็จะไม่บอกคะ ใครเหมือนกัน"
+ha "ถะ-ถ้างั้น ฉันก็จะไม่บอก ค-ใครเหมือนกัน"
 
 hi "ตกลงตามนั้น"
 
@@ -4462,7 +4462,7 @@ hi "ถ้างั้น กลับห้องเรียนกันเล
 show hanako basic_bashful_close
 with charachange
 
-ha "อะ อื้ม"
+ha "อะ-อื้ม"
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
 
 window hide

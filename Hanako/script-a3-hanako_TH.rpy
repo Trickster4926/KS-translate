@@ -37,7 +37,7 @@ show hanako cover_bashful_close_ss
 with charachange
 
 # ha "S-stalemates don't count."
-ha "หมะ หมากอับไม่นับน่ะ"
+ha "หมะ-หมากอับไม่นับน่ะ"
 
 # hi "Damn. You're getting better at this every day."
 hi "แหม่ เธอนี่เก่งขึ้นทุกวันเลยนะ"
@@ -85,7 +85,7 @@ show hanako basic_bashful_close_ss
 with charachange
 
 # ha "S-see you."
-ha "จะ เจอกัน"
+ha "จ-เจอกัน"
 
 # hi "Later."
 hi "เจอกัน"
@@ -153,7 +153,7 @@ show hanako basic_smile
 with charachange
 
 # ha "I-it's… not all that much…"
-ha "กะ ก็… ไม่ได้เยอะขนาดนั้นหรอก"
+ha "กะ-ก็… ไม่ได้เยอะขนาดนั้นหรอก"
 
 show lilly behind_cheerful
 with charachange
