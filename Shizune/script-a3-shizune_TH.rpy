@@ -11,13 +11,17 @@ nvl show dissolve
 $ renpy.music.set_volume(0.5, 0.0, channel="music")
 play music music_normal fadein 3.0
 
-n "\n\nThe following days pass uneventfully and with surprising quickness. I find renewed motivation to learn sign language. It seems that I have a knack for learning sign, so it would be a waste to not do it, and falling behind would be even more unacceptable."
+# n "\n\nThe following days pass uneventfully and with surprising quickness. I find renewed motivation to learn sign language. It seems that I have a knack for learning sign, so it would be a waste to not do it, and falling behind would be even more unacceptable."
+n "\n\nวันถัดมานั้นผ่านไปโดยไม่มีอะไรเป็นพิเศษ ทั้งยังผ่านไปไวเหลือเชื่ออีกต่างหาก ชักรู้สึกอยากเรียนภาษามือขึ้นมา\nอีกแล้วสิ ดูท่าว่าฉันพอจะเรียนภาษามือได้ดีด้วย จะล้มเลิกไปก็คงเสียดายความสามารถ แล้วยิ่งถ้าเรียนตามไม่ทัน\nก็ยิ่งหนักเข้าไปอีก"
 
-n "Summer break is coming up. Even though I figured that student council work would see a drop-off proportional to how lethargic my classes are becoming, it doesn't happen that way. Every day, I get swamped under increasingly meaningless work."
+# n "Summer break is coming up. Even though I figured that student council work would see a drop-off proportional to how lethargic my classes are becoming, it doesn't happen that way. Every day, I get swamped under increasingly meaningless work."
+n "ใกล้ปิดเทอมฤดูร้อนแล้ว ทีแรกเห็นสภาพแต่ละวิชาที่เริ่มอืด ๆ แล้วก็นึกว่างานสภานักเรียนจะลดหลั่นลงตามไปบ้าง\nแต่ไม่เลย ทุก ๆ วันมีแต่งานไร้สาระอะไรไม่รู้ท่วมหัวไปหมด"
 
-n "Despite how much I want to, I don't have even a free second to talk to Shizune nowadays. Every time I look at her, her face is buried in some book of records or some stack of papers that need to be checked over in triplicate."
+# n "Despite how much I want to, I don't have even a free second to talk to Shizune nowadays. Every time I look at her, her face is buried in some book of records or some stack of papers that need to be checked over in triplicate."
+n "ใจจริงก็อยากคุยกับชิซูเนะแทบตาย แต่ทุกวันนี้แทบจะไม่มีเวลาว่างเลยสักวินาที พอหันไปมองทีไรก็เห็นเอาหน้าจม\nอยู่กับกองบันทึกหรือไม่ก็เอกสารอะไรที่ต้องตรวจดูซ้ำสามครั้ง"
 
-n "\n\nToday, I woke up early to come to school before everyone else, hoping to catch Shizune. She has a habit of coming in first thing in the morning, to be more punctual than all the other students. Unfortunately, I think I am earlier than her."
+# n "\n\nToday, I woke up early to come to school before everyone else, hoping to catch Shizune. She has a habit of coming in first thing in the morning, to be more punctual than all the other students. Unfortunately, I think I am earlier than her."
+n "\n\nวันนี้ฉันตื่นเช้าเพื่อมาโรงเรียนก่อนใครด้วยหวังว่าจะได้เจอกับชิซูเนะ ปกติเธอจะมาเช้าเป็นคนแรกตรงเวลากว่า\nใครคนอื่นเสมอเป็นนิสัย แต่โชคไม่ดีที่ดูเหมือนว่าฉันจะมาเช้ากว่าเธอเสียอีก"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -28,220 +32,280 @@ play sound sfx_doorclose
 
 window show
 
-"Hearing the student council room door click closed to my right tells me that isn't the case. I guess I got here just behind her."
+# "Hearing the student council room door click closed to my right tells me that isn't the case. I guess I got here just behind her."
+"เมื่อได้เสียงปิดประตูห้องสภานักเรียนที่ดังมาจากทางด้านขวาแล้วฉันก็ได้รู้ว่าไม่ใช่อย่างที่คิด สงสัยฉันคงจะมาช้ากว่า\nไปนิดหน่อย"
 
 play sound sfx_dooropen
 
 scene bg school_council
 with locationchange
 
-"I enter the room and tap Shizune on the shoulder to get her attention."
-# i don't get this sequence of events at all
+# "I enter the room and tap Shizune on the shoulder to get her attention."
+"ฉันเข้าไปในห้องแล้วแตะ ๆ ไหล่ให้เธอหันมา"
+#i don't get this sequence of events at all
 #You know how you remove the "X smiles" lines because they say things you should direct instead? This is how things look without them. For example, I expected to open at Hisao's room, and a series of BG changes until reaching the council room. -SC
 #I think I fixed it... somewhat?
 
 show shizu behind_smile at center
 with charaenter
 
-"Maybe she expects a conversation, which is why she puts down the carton of orange juice in her hand."
+# "Maybe she expects a conversation, which is why she puts down the carton of orange juice in her hand."
+"คงจะคิดว่าได้คุยถึงได้วางกล่องน้ำส้มที่ถืออยู่ในมือลง"
 
-ssh "Good morning."
+# ssh "Good morning."
+ssh "อรุณสวัสดิ์"
 
-his "Where's your better half?"
+# his "Where's your better half?"
+his "แล้วอีกครึ่งตัวเธอไปไหน?"
 
 show shizu adjust_frown
 with charachange
 
-ssh "We are separate individuals."
+# ssh "We are separate individuals."
+ssh "พวกเราไม่ใช่ร่างเดียวกันนะ"
 
-"Thinking about it, they must get that quite a bit. I can think of no other way to explain how ready she was with that answer."
+# "Thinking about it, they must get that quite a bit. I can think of no other way to explain how ready she was with that answer."
+"มาคิด ๆ ดูแล้ว คงจะมีคนล้ออย่างนั้นบ่อยอยู่เหมือนกัน ไม่งั้นคงไม่ตอบได้ฉับไวขนาดนี้หรอก"
 
 show shizu basic_normal
 with charachange
 
-ssh "You're here early. That's good, you can help me look over some handouts. They're going out later today."
+# ssh "You're here early. That's good, you can help me look over some handouts. They're going out later today."
+ssh "มาเช้านะ ดี ช่วยดูเอกสารพวกนี้ให้หน่อย เดี๋ยววันนี้จะต้องเอาไปแจก"
 
-his "I came here early specifically so I could see you without having to do work."
+# his "I came here early specifically so I could see you without having to do work."
+his "ฉันตั้งใจมาเช้าเพื่อที่จะได้เจอเธอตอนที่ไม่ต้องทำงานนะ"
 
 show shizu behind_smile
 with charachange
 
-ssh "According to Misha, being early isn't new for you."
+# ssh "According to Misha, being early isn't new for you."
+ssh "เห็นมิช่าบอกนายก็มาเช้าเป็นประจำนี่"
 
-his "It's not new for you either."
+# his "It's not new for you either."
+his "เธอก็มาเช้าประจำหรอก"
 
 show shizu adjust_happy
 with charachange
 
-ssh "Are you saying you want to race?"
+# ssh "Are you saying you want to race?"
+ssh "อยากแข่งเหรอ"
 
-"Shizune adjusts her glasses nonchalantly, a gesture that belies how giddy she is inside about the thought of having something very petty to take competitively and seriously. I think the smaller the matter is, the more it excites her."
+# "Shizune adjusts her glasses nonchalantly, a gesture that belies how giddy she is inside about the thought of having something very petty to take competitively and seriously. I think the smaller the matter is, the more it excites her."
+"ชิซูเนะดันแว่นสบาย ๆ เป็นท่าทางที่บ่งบอกว่าเธอตื่นเต้นเหลือเกินที่หยิบเรื่องเล็กน้อยขนาดนี้มาแข่งเอาจริงเอาจัง\nรู้สึกว่ายิ่งเรื่องเล็กเธอยิ่งตื่นเต้น"
 
-his "It's not a race. Do you want to make it a contest? I don't."
+# his "It's not a race. Do you want to make it a contest? I don't."
+his "เปล่าสักหน่อย เธออยากแข่งเหรอ ฉันไม่อยาก"
 
-"I almost forget to add the last part, the most important part."
+# "I almost forget to add the last part, the most important part."
+"เกือบลืมพูดส่วนที่สำคัญที่สุดลงท้ายแล้ว"
 
 show shizu behind_smile
 with charachange
 
-ssh "…Well, that's fine. There are too many days left in the school year, I'd get tired of it anyway."
+# ssh "…Well, that's fine. There are too many days left in the school year, I'd get tired of it anyway."
+ssh "…อืม เอาเถอะ ยังเหลือเวลาให้เรียนอีกตั้งหลายวัน เดี๋ยวฉันก็คงเบื่ออยู่ดี"
 
-"With that, Shizune picks up her juice and finishes it off. I wonder if she's going to try and shoot the empty container into the trash, but she doesn't. In fact, she seems puzzled as to why I seem so disappointed. I'd better get to the point."
+# "With that, Shizune picks up her juice and finishes it off. I wonder if she's going to try and shoot the empty container into the trash, but she doesn't. In fact, she seems puzzled as to why I seem so disappointed. I'd better get to the point."
+"แล้วเธอก็หยิบน้ำผลไม้ขึ้นมาดูดจนหมด จะโยนกล่องทิ้งลงถังขยะหรือเปล่านะ แต่ก็ไม่โยน เธอดูงง ๆ ที่ฉันดูผิดหวัง\nเข้าเรื่องเลยดีกว่า"
 
-his "I just wanted to talk. Our break is practically here, you know."
+# his "I just wanted to talk. Our break is practically here, you know."
+his "แค่อยากคุยน่ะ เนี่ย นี่ก็ปิดเทอมแล้ว"
 
-his "And we should spend more time together, anyway. I was thinking that we could do that over the summer."
+# his "And we should spend more time together, anyway. I was thinking that we could do that over the summer."
+his "แล้วเราก็ต้องอยู่ด้วยกันให้มากขึ้นด้วย เลยกะว่าปิดเทอมฤดูร้อนรอบนี้หาเวลามาอยู่ด้วยกันดีมั้ยนะ"
 
 show shizu adjust_blush
 with charachange
 
-"Shizune's face turns as red as mine must be, and she starts adjusting her glasses, flustered. What an all-purpose gesture. She taps her fingers together in thought, considering her next words carefully."
+# "Shizune's face turns as red as mine must be, and she starts adjusting her glasses, flustered. What an all-purpose gesture. She taps her fingers together in thought, considering her next words carefully."
+"หน้าชิซูเนะคงแดงพอ ๆ กับหน้าฉันตอนนี้ เธอดันแว่นดูลนลาน เป็นท่าทางที่สะดวกใช้จริง ๆ เธอเคาะนิ้วครุ่นคิด\nเลือกสรรคำ"
 
 show shizu basic_normal
 with charachange
 
-ssh "You mean like a date?"
+# ssh "You mean like a date?"
+ssh "แบบเดตอะไรอย่างนี้เหรอ"
 
-his "Just because we're going out somewhere, that instantly makes it a date?"
+# his "Just because we're going out somewhere, that instantly makes it a date?"
+his "แค่ไปเที่ยวด้วยกันก็นับว่าเป็นเดตเลยเหรอ"
 
 show shizu behind_blank
 with charachange
 
-ssh "It's not?"
+# ssh "It's not?"
+ssh "ก็ไม่ใช่เหรอ"
 
 show shizu adjust_frown
 with charachange
 
-ssh "I want it to be a date."
+# ssh "I want it to be a date."
+ssh "ฉันอยากให้เป็นเดต"
 
-his "Then it is one."
+# his "Then it is one."
+his "งั้นก็ได้"
 
 show shizu basic_happy
 with charachange
 
-"Shizune approvingly claps her hands once, before adding on to my statement:"
+# "Shizune approvingly claps her hands once, before adding on to my statement:"
+"ชิซูเนะตบมือพอใจ ก่อนจะเสริม"
 
 show shizu behind_blank
 with charachange
 
-ssh "But not today."
+# ssh "But not today."
+ssh "แต่ไม่ใช่วันนี้"
 
 show shizu basic_normal2
 with charachange
 
-ssh "I'm going away for a week to visit my family."
+# ssh "I'm going away for a week to visit my family."
+ssh "สัปดาห์นี้ฉันต้องไปเยี่ยมครอบครัว"
 
-"That is an oddly formal way of putting it, and for that reason, my interest is piqued. Maybe her family is the prim and proper, traditional kind, living in a giant old-timey mansion with a little stream and koi pond, where everyone wears kimonos all the time."
+# "That is an oddly formal way of putting it, and for that reason, my interest is piqued. Maybe her family is the prim and proper, traditional kind, living in a giant old-timey mansion with a little stream and koi pond, where everyone wears kimonos all the time."
+"ทำท่าเหมือนเป็นเรื่องทางการยังไงไม่รู้ และพอเห็นอย่างนั้นแล้วเลยรู้สึกสนใจขึ้นมา ครอบครัวเธอคงเป็นแนวคนดูดี\nมีสกุลแบบดั้งเดิม อยู่ในคฤหาสน์เก่า ๆ หลังใหญ่ที่มีน้ำไหลกับบ่อปลาคาร์ป แต่ละคนก็ใส่ชุดกิโมโนตลอด"
 
-"It's a wild assumption, but it's fun to speculate sometimes. I wonder if Shizune puts on the appearance of being a calm and mature good daughter like Lilly when she is with her family."
+# "It's a wild assumption, but it's fun to speculate sometimes. I wonder if Shizune puts on the appearance of being a calm and mature good daughter like Lilly when she is with her family."
+"อาจจะคิดไกลไป แต่เดาเล่น ๆ ก็เพลินดี พออยู่กับครอบครัวแล้วชิซูเนะจะวางตัวเป็นลูกสาวที่ใจเย็นและมีความ\nเป็นผู้ใหญ่อย่างลิลลี่มั้ยนะ"
 
-"I can't imagine it, but if there's even a possibility that it's true, then I must see it."
+# "I can't imagine it, but if there's even a possibility that it's true, then I must see it."
+"นึกภาพไม่ออกเลย แต่ถ้ามีโอกาสจะเป็นอย่างนั้นจริงฉันก็ต้องไปดูให้ได้"
 
-his "Only a week? It must not be that far of a trip, then."
+# his "Only a week? It must not be that far of a trip, then."
+his "สัปดาห์เดียวเองเหรอ งั้นก็คงไม่ไกลมากงั้นสิ"
 
 show shizu behind_frustrated
 with charachange
 
-ssh "Of course not, they're still in Japan, after all."
+# ssh "Of course not, they're still in Japan, after all."
+ssh "แหงสิ ก็อยู่ในญี่ปุ่นนี่แหละ"
 
-his "Really…"
+# his "Really…"
+his "จริงเหรอ…"
 
 show shizu adjust_happy
 with charachange
 
-ssh "It isn't like you can come with me. Is that what you're trying to say?"
+# ssh "It isn't like you can come with me. Is that what you're trying to say?"
+ssh "แต่ก็ใช่ว่านายจะไปด้วยได้หรอก อยากไปด้วยเหรอ"
 
-his "Why can't I?"
+# his "Why can't I?"
+his "ทำไมไปไม่ได้"
 
 show shizu basic_normal2
 with charachange
 
-ssh "It isn't like you would enjoy it."
+# ssh "It isn't like you would enjoy it."
+ssh "นายคงเบื่อ"
 
-his "You don't know that. It could be fun."
+# his "You don't know that. It could be fun."
+his "ใครจะไปรู้ อาจจะสนุกก็ได้"
 
-his "Ah, I almost forgot: you didn't answer my question. Are you going alone, or is Misha going with you? Does your family know sign?"
+# his "Ah, I almost forgot: you didn't answer my question. Are you going alone, or is Misha going with you? Does your family know sign?"
+his "เอ้อ เกือบลืม เธอยังไม่ได้ตอบคำถามฉันเลยนะ เธอจะไปคนเดียวหรือมิช่าไปด้วย ครอบครัวเธอรู้ภาษามือมั้ย"
 
 show shizu behind_blank
 with charachange
 
-ssh "Misha is coming along."
+# ssh "Misha is coming along."
+ssh "มิช่าไปด้วย"
 
-"The part of the question left unanswered is the most telling."
+# "The part of the question left unanswered is the most telling."
+"ส่วนคำถามที่ไม่ได้ตอบนั้นก็ชัดแล้วละ"
 
-"If Shizune's family can't communicate with her, I have to wonder what her childhood was like. She probably wrote everything on that pad she carries around and still produces out of nowhere sometimes."
+# "If Shizune's family can't communicate with her, I have to wonder what her childhood was like. She probably wrote everything on that pad she carries around and still produces out of nowhere sometimes."
+"ถ้าครอบครัวชิซูเนะสื่อสารกับเธอไม่ได้ วัยเด็กเธอจะเป็นยังไงเนี่ย คงจะเขียนใส่กระดาษสมุดเล่มนั้นที่ทุกวันนี้บางที\nเธอก็เอาออกมาใช้"
 
-"Usually, it's when neither Misha nor I are around. I can notice her from far away when she pulls it out like a last resort, grimacing the whole time."
+# "Usually, it's when neither Misha nor I are around. I can notice her from far away when she pulls it out like a last resort, grimacing the whole time."
+"ปกติก็ใช้ตอนที่มิช่าหรือฉันไม่อยู่ ฉันเหลือบเห็นไกล ๆ อยู่ตอนที่เธอทำหน้าเบ้ตอนต้องใช้เหมือนเป็นที่พึ่งสุดท้าย"
 
-his "If Misha is going, then I'm going to go, too."
+# his "If Misha is going, then I'm going to go, too."
+his "ถ้ามิช่าไปงั้นฉันก็ไปด้วย"
 
 show shizu basic_normal
 with charachange
 
-ssh "Do you like Misha?"
+# ssh "Do you like Misha?"
+ssh "นายชอบมิช่าเหรอ"
 
-his "It's the principle of the thing."
+# his "It's the principle of the thing."
+his "โดยหลักการแล้วฉันก็ต้องไปด้วยอยู่แล้วนี่"
 
-"I entertain the notion that Shizune might actually be jealous, but I doubt it. She usually wears her emotions pretty plainly on her face, and I don't see anything that would support my theory right now."
+# "I entertain the notion that Shizune might actually be jealous, but I doubt it. She usually wears her emotions pretty plainly on her face, and I don't see anything that would support my theory right now."
+"หรือจะหึงอยู่กันนะ คิดแล้วก็สนุกดี แต่คงไม่หรอก ปกติก็ทำหน้านิ่ง ๆ ตลอด ไม่เห็นจะมีอะไรที่บอกว่าหึงเลย"
 
 show shizu adjust_frown
 with charachange
 
-ssh "I think you're just bored."
+# ssh "I think you're just bored."
+ssh "นายแค่เบื่อเฉย ๆ เถอะ"
 
 show shizu behind_smile
 with charachange
 
-ssh "That's okay, though. All right, we'll all go together. It's what I hoped for in the first place."
+# ssh "That's okay, though. All right, we'll all go together. It's what I hoped for in the first place."
+ssh "แต่ไม่เป็นไร ก็ได้ ไปด้วยกันสามคนนี่แหละ ยังไงฉันก็อยากให้ไปกันหมดนี่แต่แรกอยู่แล้ว"
 
 show shizu adjust_smug
 with charachange
 
-ssh "You can't skip out on Student Council today to pack your bags, just because you're coming with us on such short notice, it's no excuse!"
+# ssh "You can't skip out on Student Council today to pack your bags, just because you're coming with us on such short notice, it's no excuse!"
+ssh "แต่จะโดดงานสภานักเรียนไปเก็บของไม่ได้นะ จะอ้างว่าเพิ่งมาบอกแบบกระชั้นชิดไม่ได้!"
 
-his "It's okay, I hardly have anything to pack anyway."
+# his "It's okay, I hardly have anything to pack anyway."
+his "ไม่เป็นไร ๆ ใช่ว่าฉันจะมีของให้เก็บเยอะ"
 
 show shizu basic_normal
 with charachange
 
-"Shizune pauses, tenting her fingers thoughtfully."
+# "Shizune pauses, tenting her fingers thoughtfully."
+"ชิซุูเนะนิ่งไปประกบนิ้วเข้าด้วยกันพลางคิด"
 
 show shizu behind_blank
 with charachange
 
-ssh "You must have come to this school on very short notice."
+# ssh "You must have come to this school on very short notice."
+ssh "นายคงมาโรงเรียนนี้แบบไม่ทันตั้งตัวเลยสินะ"
 
 #If seen A26b:
 
 label th_S17a:
 
-"It could be that she is thinking back to the time when she and Misha unexpectedly shoved themselves into my room and caught a glimpse of all my medicines. That was an awkward moment I'd like to forget, and I don't like revisiting it."
+# "It could be that she is thinking back to the time when she and Misha unexpectedly shoved themselves into my room and caught a glimpse of all my medicines. That was an awkward moment I'd like to forget, and I don't like revisiting it."
+"คงจะนึกถึงตอนที่เธอกับมิช่าเข้ามาบุกห้องฉันแล้วเห็นยาที่เรียงราย กระอักกระอ่วนเสียจนอยากลืม ไม่อยากนึกถึง\nเท่าไหร่เลยแฮะ"
 
-"The way she tiptoes around the issue even now only makes me more uncomfortable."
+# "The way she tiptoes around the issue even now only makes me more uncomfortable."
+"ยิ่งเธอทำทีอ้อมไปอ้อมมาไม่เลิกอย่างนี้แล้วฉันก็ยิ่งอึดอัด"
 
 #End conditionals
 label th_S17x:
 
-his "I did. It was kind of an on-the-spot decision. It worked out better than I expected, though."
+# his "I did. It was kind of an on-the-spot decision. It worked out better than I expected, though."
+his "อืม ค่อนข้างปุบปับเหมือนกัน แต่สุดท้ายก็ดีกว่าที่คิดละนะ"
 
-"I hope Shizune won't pursue the matter, and to my relief, she doesn't."
+# "I hope Shizune won't pursue the matter, and to my relief, she doesn't."
+"หวังว่าจะไม่ซักไซ้อะไรอีกนะ แล้วฉันก็โล่งที่เธอไม่อะไรต่อ"
 
 show shizu adjust_happy
 with charachange
 
-ssh "My home is in a particularly beautiful part of Saitama."
+# ssh "My home is in a particularly beautiful part of Saitama."
+ssh "บ้านฉันอยู่ไซตามะ แถวนั้นวิวดีมากเลย"
 
 show shizu behind_smile
 with charachange
 
-ssh "We'll be leaving early in the morning, so be ready. Let's talk about it more later, okay? For now, those handouts won't look over themselves, and you're going to help me."
+# ssh "We'll be leaving early in the morning, so be ready. Let's talk about it more later, okay? For now, those handouts won't look over themselves, and you're going to help me."
+ssh "เดี๋ยวจะออกรถกันแต่เช้า เตรียมตัวให้พร้อมด้วย ไว้ค่อยคุยกันเรื่องนี้อีกที ตอนนี้มาช่วยฉันดูเอกสารที่ต้องเอาไปแจก\nพวกนี้ก่อน"
 
 stop music fadeout 3.0
 
 hide shizu
 with charaexit
 
-"As Shizune dives into her work, pulling me along with her, I think that she seems almost, but not quite, excited to go."
+# "As Shizune dives into her work, pulling me along with her, I think that she seems almost, but not quite, excited to go."
+"ชิซูเนะทำงานต่อพลางลากฉันให้มาช่วยอีกแรง ดูเหมือนเธอก็ตื่นเต้นอยากไปเหมือนกัน"
 
 scene black
 with dissolve
