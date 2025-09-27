@@ -508,16 +508,21 @@ show hanako basic_normal_close
 show lilly basic_sleepy_close
 with charachange
 
-"This is surprisingly hard. Lilly and Hanako look a little put off by the direction this is taking, and the more I think about it, the more I am too."
+# "This is surprisingly hard. Lilly and Hanako look a little put off by the direction this is taking, and the more I think about it, the more I am too."
+"เอาจริง ๆ ก็ยากเกินคาดแฮะ ลิลลี่กับฮานาโกะเองก็ดูไม่ค่อยพอใจกับคำตอบแนวนี้สักเท่าไหร่ และพอยิ่งฉันคิดฉัน\nก็เริ่มไม่พอใจเหมือนกัน"
 
 show lilly basic_weaksmile_close
 with charachange
 
-li "It sounds as if you've picked up quite a few things since your accident."
+# li "It sounds as if you've picked up quite a few things since your accident."
+li "ดูเหมือนว่านายได้เรียนรู้หลายสิ่งหลายอย่างตั้งแต่เกิดเหตุการณ์นั้นนะ"
 
-"Lilly's candor is coated with probably the most positive spin one could put on what I said. Hanako, however, is silent."
+# "Lilly's candor is coated with probably the most positive spin one could put on what I said. Hanako, however, is silent."
+"ความจริงใจของลิลลี่ถูกเคลือบด้วยการมองในแง่บวกที่สุดเท่าที่จะเป็นไปได้ต่อสิ่งที่ฉันพูด แต่ฮานาโกะกลับเงียบไป"
 
-"If a situation becomes difficult, her reaction always seems to be withdrawing into silence, in order to prevent things getting worse. That, or physically retreating."
+# "If a situation becomes difficult, her reaction always seems to be withdrawing into silence, in order to prevent things getting worse. That, or physically retreating."
+"ถ้าสถานการณ์เริ่มยุ่งยากปฏิกิริยาของเธอดูเหมือนจะเป็นการถอยกลับไปเงียบเสมอ เพื่อป้องกันไม่ให้สถานการณ์แย่ลง\nหรือไม่ก็เป็นการถอยหนีทางกายภาพไปเลย"
+
 
 $ renpy.music.set_volume(0.2, 0.0, channel="sound")
 play sound sfx_phone
@@ -526,17 +531,20 @@ show lilly basic_surprised_close
 show hanako cover_worry_close
 with charachange
 
-"A soft ringing gives us pause. As Lilly reaches into her pocket, it becomes obvious that the sound's coming from her phone."
+# "A soft ringing gives us pause. As Lilly reaches into her pocket, it becomes obvious that the sound's coming from her phone."
+"เสียงกริ่งเบา ๆ ทำให้พวกเราชะงัก ขณะที่ลิลลี่ล้วงมือเข้าไปในกระเป๋า ก็เห็นได้ชัดว่าเสียงนั้นมาจากโทรศัพท์ของเธอ"
 
 show lilly basic_weaksmile_close
 with charachange
 
-li "Sorry…"
+# li "Sorry…"
+li "โทษทีจ้ะ…"
 
 show hanako basic_normal_close
 with charachange
 
-ha "I-it's okay…"
+# ha "I-it's okay…"
+ha "มะ-ไม่เป็นไร…"
 
 show lilly invis_close at Position(ypos=1.0)
 with dissolvecharamove
@@ -544,27 +552,34 @@ with dissolvecharamove
 hide lilly
 with None
 
-"Lilly gives a quick nod before shuffling out of her seat and taking the call a little distance away, to avoid disturbing the both of us."
+# "Lilly gives a quick nod before shuffling out of her seat and taking the call a little distance away, to avoid disturbing the both of us."
+"ลิลลี่พยักหน้าอย่างรวดเร็วก่อนจะลุกออกจากที่นั่งอย่างเงียบ ๆ และเดินไปรับสายในระยะที่ไกลออกไปเล็กน้อย\nเพื่อไม่ให้รบกวนพวกเราทั้งสองคน"
 
-hi "Must be nice to be popular."
+# hi "Must be nice to be popular."
+hi "เป็นคนดังนี่ดีจริง ๆ เลยนะ"
 
 show hanako cover_bashful_close
 with charachange
 
-"Hanako smiles, but doesn't take up the hook for further discussion."
+# "Hanako smiles, but doesn't take up the hook for further discussion."
+"ฮานาโกะยิ้ม แต่ไม่ได้ตอบกลับอะไรต่อ"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
 scene black
 with shuteye
 
-"I end up just sitting back and closing my eyes, relaxing as best I can."
+# "I end up just sitting back and closing my eyes, relaxing as best I can."
+"สุดท้ายฉันก็นั่งเอนหลังและหลับตาลง ผ่อนคลายให้ได้มากที่สุดเท่าที่จะทำได้"
 
-hi "It's nice and peaceful here. I wonder what it'd be like to have grown up somewhere like this, rather than in the city."
+# hi "It's nice and peaceful here. I wonder what it'd be like to have grown up somewhere like this, rather than in the city."
+hi "ที่นี่เงียบสงบและน่าอยู่จัง ผมสงสัยว่าการได้เติบโตในสถานที่แบบนี้คงเป็นอย่างไรนะ แทนที่จะเป็นในเมือง"
 
-ha "Y-you come from the city?"
+# ha "Y-you come from the city?"
+ha "นะ-นายมาจากในเมืองเหรอ?"
 
-"Looks like I've found something she wants to talk about."
+# "Looks like I've found something she wants to talk about."
+"ดูเหมือนว่าจะเจอเรื่องที่เธออยากจะคุยแล้ว"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -574,23 +589,29 @@ show hanako basic_smile_close:
     ypos 1.09
 with openeye
 
-hi "Yeah. You could say I was a city kid through and through."
+# hi "Yeah. You could say I was a city kid through and through."
+hi "อื้ม ก็พูดได้ว่าเป็นเด็กในเมืองแท้ ๆ เลย"
 
 show hanako basic_worry_close
 with charachange
 
-ha "I-it sounds like a lot changed…"
+# ha "I-it sounds like a lot changed…"
+ha "ฟะ-ฟังดูคงมีอะไรหลายอย่างแปลกตาสำหรับนายเลยสินะ…"
 
-hi "It did. I'm still not quite sure what to make of it all, though. It's a bit of a culture shock, in more ways than one."
+# hi "It did. I'm still not quite sure what to make of it all, though. It's a bit of a culture shock, in more ways than one."
+hi "ก็ใช่แหละ ฉันก็ยังไม่แน่ใจว่าจะปรับตัวนี้ยังไงดี ก็มีเรื่องของความแตกต่างทางวัฒนธรรมอยู่บ้าง ในหลาย ๆ ด้านเลย"
 
-hi "You must've gone through something like this when you first arrived at Yamaku, right? I'd imagine most new students would."
+# hi "You must've gone through something like this when you first arrived at Yamaku, right? I'd imagine most new students would."
+hi "เธอเองก็คงเจออะไรแบบนี้ตอนเข้ามายามากุใหม่ ๆ เหมือนกันใช่ไหม เดาว่านักเรียนใหม่ส่วนใหญ่ก็น่าจะเป็นแบบนั้น"
 
 show hanako basic_distant_close
 with charachange
 
-ha "N-not really…"
+# ha "N-not really…"
+ha "กะ-ก็ไม่ขนาดนั้น…"
 
-"Hanako gazes a little to the side, looking unwilling to go on. I tilt my head inquisitively, but a couple of seconds pass with no further answer."
+# "Hanako gazes a little to the side, looking unwilling to go on. I tilt my head inquisitively, but a couple of seconds pass with no further answer."
+"ฮานาโกะเสตาไปด้านข้างเล็กน้อย ดูเหมือนจะไม่เต็มใจที่จะพูดต่อ ฉันเอียงหัวด้วยความสงสัย แต่เวลาผ่านไปสักพัก\nโดยที่เธอไม่ตอบอะไรอีก"
 
 scene bg suburb_shanghaiint at bgright
 show hanako basic_distant_close:
@@ -603,46 +624,56 @@ with charaenter
 
 stop music fadeout 8.0
 
-li "But can't we deal with that on Monday? The fallout has hardly settled from the last…"
+# li "But can't we deal with that on Monday? The fallout has hardly settled from the last…"
+li "แต่เอาไว้จัดการเรื่องนั้นวันจันทร์ไม่ได้เหรอ? ผลกระทบจากงานล่าสุดยังไม่ได้จัดการเลย…"
 
 show lilly back_listen
 with charachange
 
-li "I understand. I'll try to talk her down. You know what she's like when she gets locked onto an idea."
+# li "I understand. I'll try to talk her down. You know what she's like when she gets locked onto an idea."
+li "เข้าใจแล้ว เดี๋ยวฉันจะลองไปคุยกับเธอดู ก็รู้ ๆ อยู่ว่าเธอเป็นยังไงเวลาที่เธอยึดติดอยู่กับความคิดใดความคิดหนึ่ง"
 
-li "Yes, thank you. I'll talk to you later, then. Goodbye."
+# li "Yes, thank you. I'll talk to you later, then. Goodbye."
+li "ได้ ๆ ขอบใจ ไว้ค่อยคุยกันใหม่ แค่นี้จ้ะ"
 
 show lilly basic_displeased
 with charachange
 
-"Lilly's conversation ends with the snap of her phone closing. She returns to our table, but doesn't take her seat."
+# "Lilly's conversation ends with the snap of her phone closing. She returns to our table, but doesn't take her seat."
+"บทสนทนาของลิลลี่จบลงพร้อมกับเสียงพับปิดโทรศัพท์ เธอเดินกลับมาที่โต๊ะของเรา แต่ไม่ได้นั่งลงที่ของเธอ"
 
-hi "Need to go?"
+# hi "Need to go?"
+hi "จะไปแล้วเหรอ?"
 
 show lilly basic_concerned
 with charachange
 
-li "Unfortunately. Class representative work calls once again."
+# li "Unfortunately. Class representative work calls once again."
+li "เกรงว่าคงเป็นอย่างนั้น งานของหัวหน้าห้องเรียกตัวอีกแล้วน่ะจ้ะ…"
 
 show hanako cover_worry_close
 with charachange
 
-ha "I-I can come with you."
+# ha "I-I can come with you."
+ha "ฉะ-ฉันไปด้วยได้นะ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "It's all right, Hanako. I'll just be going straight to the Student Council. There's no need to spoil a fine evening on my account."
+# li "It's all right, Hanako. I'll just be going straight to the Student Council. There's no need to spoil a fine evening on my account."
+li "ไม่เป็นไรหรอกฮานาโกะ ฉันจะตรงไปสภานักเรียนเลย เธอไม่ต้องเสียบรรยากาศยามเย็นดี ๆ แบบนี้เพราะเรื่องของฉันหรอก"
 
 show lilly basic_smile
 with charachange
 
-li "Besides, if you were to accompany me on my way back to the school, who would keep our poor Hisao company?"
+# li "Besides, if you were to accompany me on my way back to the school, who would keep our poor Hisao company?"
+li "นอกจากนี้ ถ้าเธอจะเดินไปเป็นเพื่อนฉันระหว่างทางกลับโรงเรียน แล้วใครจะอยู่เป็นเพื่อนฮิซาโอะผู้น่าสงสารของเราล่ะ?"
 
 show hanako basic_normal_close
 with charachange
 
-ha "Okay…"
+# ha "Okay…"
+ha "โอเค…"
 
 show lilly basic_weaksmile
 with charachange
