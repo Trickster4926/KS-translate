@@ -5648,30 +5648,36 @@ shi "…"
 show shizu adjust_frown_close
 with charachange
 
-ssh "You told me that everything was fine, but it wasn't true, was it?"
+# ssh "You told me that everything was fine, but it wasn't true, was it?"
+ssh "นายบอกฉันเองนี่ว่าทุกอย่างจะโอเค แต่ก็ไม่เป็นอย่างนั้นนี่ จริงไหมล่ะ?"
 
 show shizu behind_sad_close
 with charachange
 
-ssh "I can't believe it ever again, then."
+# ssh "I can't believe it ever again, then."
+ssh "ฉันคงเชื่อไม่ได้อีกต่อไปแล้วล่ะ"
 
-hi "All right."
+# hi "All right."
+hi "เอาเถอะ"
 
 show bg school_backexit at center
 show shizu invis_close:
     xpos 0.85
 with dissolvecharamove
 
-"Not even bothering to sign it, I stand up. My hands are in my pockets, fingering my loose change. The morning air is cold against my face."
+# "Not even bothering to sign it, I stand up. My hands are in my pockets, fingering my loose change. The morning air is cold against my face."
+"ฉันลุกขึ้นโดยไม่แม้แต่จะส่งภาษามืออีกต่อไป มือของฉันล้วงกระเป๋า นิ้วเขี่ยเศษเหรียญ อากาศยามเช้าเย็นยะเยือก\nปะทะใบหน้าของฉัน"
 
 scene ev shizu_badend:
     xalign 0.0 yalign 0.5 zoom 1.1 subpixel True
     acdc_warp 10.0 zoom 1.0
 with locationchange
 
-"As I look back at her, she seems very lonely. I'm reminded of myself. I've made that expression before. Maybe it's on my face right now. It feels like the image of such a lonely girl will stick in my mind forever."
+# "As I look back at her, she seems very lonely. I'm reminded of myself. I've made that expression before. Maybe it's on my face right now. It feels like the image of such a lonely girl will stick in my mind forever."
+"พอหันกลับไปหาเธอ เธอดูโดดเดี่ยวเหลือเกิน ทำให้ฉันนึกถึงตัวเอง ฉันเคยทำหน้าแบบนั้นมาก่อน บางทีตอนนี้ฉันอาจจะ\nกำลังทำหน้าแบบนั้นอยู่ก็ได้ รู้สึกเหมือนภาพเด็กสาวที่โดดเดี่ยวคนนี้จะติดอยู่ในใจฉันตลอดกาล"
 
-"Every moment where I could have prevented this, or solved the problem, comes back to me. It makes me smile in a way without amusement."
+# "Every moment where I could have prevented this, or solved the problem, comes back to me. It makes me smile in a way without amusement."
+"ทุก ๆ ช่วงเวลาที่ฉันสามารถป้องกัน หรือแก้ไขปัญหานี้ได้ย้อนกลับมาหาฉันอีกครั้ง ทำให้ฉันยิ้มออกมาโดยไม่มีความสุขเลย\nแม้แต่น้อย"
 
 stop music fadeout 4.0
 
