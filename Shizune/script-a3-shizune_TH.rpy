@@ -297,7 +297,7 @@ show shizu behind_smile
 with charachange
 
 # ssh "We'll be leaving early in the morning, so be ready. Let's talk about it more later, okay? For now, those handouts won't look over themselves, and you're going to help me."
-ssh "เดี๋ยวจะออกรถกันแต่เช้า เตรียมตัวให้พร้อมด้วย ไว้ค่อยคุยกันเรื่องนี้อีกที ตอนนี้มาช่วยฉันดูเอกสารที่ต้องเอาไปแจก\nพวกนี้ก่อน"
+ssh "เดี๋ยวต้องออกตัวกันแต่เช้า เตรียมตัวให้พร้อมด้วย ไว้ค่อยคุยเรื่องนี้อีกที ตอนนี้มาช่วยฉันดูเอกสารที่ต้องเอาไปแจก\nพวกนี้ก่อน"
 
 stop music fadeout 3.0
 
@@ -319,14 +319,17 @@ with locationchange
 
 play music music_daily fadein 0.5
 
-"When Shizune and Misha arrive early the next morning to pick me up, they are dressed in something other than the school uniform I've grown used to seeing them in."
+# "When Shizune and Misha arrive early the next morning to pick me up, they are dressed in something other than the school uniform I've grown used to seeing them in."
+"ชิซูเนะและมิช่ามารับฉันแต่เช้า ทั้งสองคนไม่ได้ใส่ชุดนักเรียนอย่างที่ฉันเคยเห็นจนชินตา"
 
 show shizu behind_blank_cas at center
 with charaenter
 
-"It makes sense, since we're on holiday, but it's still jarring. Shizune's dress is sharp and fashionable, almost too much for a quiet place like Yamaku. Thinking back to what she wore at the Tanabata festival, I'm starting to notice a trend with her."
+# "It makes sense, since we're on holiday, but it's still jarring. Shizune's dress is sharp and fashionable, almost too much for a quiet place like Yamaku. Thinking back to what she wore at the Tanabata festival, I'm starting to notice a trend with her."
+"ก็ถูกแล้วแหละ ปิดเทอมแล้วนี่นะ แต่ก็รู้สึกแปลกหน่อย ๆ ชิซูเนะแต่งตัวเนี้ยบมีสไตล์จนออกจะเด่นไปหน่อยกับโรงเรียน\nยามากุที่เงียบ ๆ แบบนี้ พอนึกถึงชุดที่เธอใส่วันทานาบาตะก็พอจะนึกภาพออกแล้วว่าเธอเป็นคนแต่งตัวยังไง"
 
-"All of her clothes are very tasteful and mature; very well thought out. So, then, I wonder why she herself is so immature."
+# "All of her clothes are very tasteful and mature; very well thought out. So, then, I wonder why she herself is so immature."
+"ทุกชุดที่เธอใส่นั้นถูกจัดมาอย่างดี ทั้งมีรสนิยมและมีความเป็นผู้ใหญ่ แล้วไหงตัวเธอถึงทำตัวเป็นเด็กอย่างนี้เนี่ย"
 
 show bg school_dormhallway at bgright
 show shizu behind_blank_cas at tworight
@@ -335,107 +338,133 @@ with charamove
 show misha perky_smile_cas at twoleft
 with charaenter
 
-"Well, at least Misha's clothes reflect her inner self on the outside."
+# "Well, at least Misha's clothes reflect her inner self on the outside."
+"แต่อย่างน้อยชุดมิช่าก็สะท้อนตัวตนเธอดีแหละนะ"
 
 show shizu adjust_frown_cas
 with charachange
 
-ssh "You're bringing so little."
+# ssh "You're bringing so little."
+ssh "เอาของมาน้อยจัง"
 
-hi "I said I would. I said there wasn't much to pack."
+# hi "I said I would. I said there wasn't much to pack."
+hi "ก็บอกแล้วนี่ว่าฉันมีของไม่เยอะ"
 
 show shizu basic_frown_cas
 with charachange
 
-"Shizune pouts and rocks her own, rather large collection of luggage with her foot as if embarrassed. Misha only has one suitcase with her, but it's almost larger than she is. She looks self-conscious about it as well."
+# "Shizune pouts and rocks her own, rather large collection of luggage with her foot as if embarrassed. Misha only has one suitcase with her, but it's almost larger than she is. She looks self-conscious about it as well."
+"ชิซูเนะทำแก้มป่องแล้วใช้เท้าโยกกองสัมภาระที่ค่อนข้างใหญ่นั้นไปมาดูอาย ๆ มิช่าเอากระเป๋าเดินทางมาใบเดียว\nแต่ขนาดกระเป๋านั้นใหญ่พอ ๆ กับตัวเธอ ดูจะรู้ตัวอยู่เหมือนกันว่ากระเป๋าตัวเองใบใหญ่แค่ไหน"
 
-"God, that suitcase is as big as a compact car. The pea green color is unsettling, too. It's like something used to transport bodies. The way they look right now makes me want to tease them a little."
+# "God, that suitcase is as big as a compact car. The pea green color is unsettling, too. It's like something used to transport bodies. The way they look right now makes me want to tease them a little."
+"ใหญ่พอ ๆ กับรถเก๋งเลยมั้ง สีก็เป็นสีเขียวอย่างกับถั่วจนชวนขนลุก เหมือนกระเป๋าที่เอาไว้ขนร่างคนเลย เห็นสภาพ\nแล้วก็อดหยอกไม่ได้"
 
-hi "Aw, that's bad luck for you and Misha, isn't it? Having to carry those huge bags. Gotta pack light next time, like me. Everything fits into one little suitcase."
+# hi "Aw, that's bad luck for you and Misha, isn't it? Having to carry those huge bags. Gotta pack light next time, like me. Everything fits into one little suitcase."
+hi "โธ่ ลำบากน่าดูเลยนะทั้งสองคน ขนกระเป๋ามาขนาดนั้น คราวหน้าเอาของมาน้อย ๆ หน่อยแล้วกัน แบบฉันเนี่ย\nกระเป๋าเล็ก ๆ ใบเดียวก็พอแล้ว"
 
 show misha hips_grin_cas
 with charachange
 
-mi "Like James Bond~!"
+# mi "Like James Bond~!"
+mi "เหมือนเจมส์บอนด์~!"
 
-hi "Yes, exactly like James Bond."
+# hi "Yes, exactly like James Bond."
+hi "ใช่ เหมือนเจมส์บอนด์"
 
 show shizu adjust_frown_cas
 with charachange
 
 shi "…"
 
-"Shizune gently tugs at her glasses in concentration."
+# "Shizune gently tugs at her glasses in concentration."
+"ชิซูเนะดันแว่นจดจ่อ"
 
 show shizu basic_normal_cas
 with charachange
 
-ssh "We should split the amount we carry equally."
+# ssh "We should split the amount we carry equally."
+ssh "มาแบ่งกันขนของดีกว่า"
 
 show misha sign_smile_cas
 with charachange
 
-mi "Wow~! That's a great idea, Shicchan~!"
+# mi "Wow~! That's a great idea, Shicchan~!"
+mi "โห~! ความคิดดีนี่ชิจัง~!"
 
-hi "What? No."
+# hi "What? No."
+hi "ฮะ? ไม่"
 
 show shizu adjust_smug_cas
 with charachange
 
-ssh "It would benefit us all."
+# ssh "It would benefit us all."
+ssh "ก็ได้ประโยชน์กันทุกคน"
 
 show misha cross_laugh_cas
 with charachange
 
-mi "Yup~! Wahaha~!"
+# mi "Yup~! Wahaha~!"
+mi "ช่าย~! วะฮ่าฮ่า~!"
 
-hi "I'm going to have to say no."
+# hi "I'm going to have to say no."
+hi "ฉันต้องขอปฏิเสธ"
 
 show shizu cross_angry_cas
 with charachange
 
-ssh "You're outvoted!"
+# ssh "You're outvoted!"
+ssh "นายเป็นเสียงข้างน้อยนะ!"
 
-"She almost lunges forth as she signs it. Terrifying."
+# "She almost lunges forth as she signs it. Terrifying."
+"ที่ทำภาษามือเมื่อกี้นี่แทบจะพุ่งเข้าใส่แล้ว น่ากลัว"
 
-hi "Ah, well. I was just kidding. I don't mind carrying a few extra. I just thought it would be fun to mess with you both."
+# hi "Ah, well. I was just kidding. I don't mind carrying a few extra. I just thought it would be fun to mess with you both."
+hi "เอ่อ เอาเหอะ หยอก ๆ ถือเพิ่มอีกนิดหน่อยฉันไม่อะไรหรอก แค่กะว่าหยอกเธอสองคนคงสนุกดี"
 
-hi "But, if you were going to try and make me carry it all, I was going to ride that giant green case down the mountain like a sled."
+# hi "But, if you were going to try and make me carry it all, I was going to ride that giant green case down the mountain like a sled."
+hi "แต่ถ้าจะให้ขนไปคนเดียวหมดนี่ฉันจะนั่งกระเป๋าสีเขียวใบใหญ่นั่นเป็นเลื่อนไหลลงเขาเลยนะ"
 
 show shizu adjust_smug_cas
 with charachange
 
 shi "…"
 
-"That seems to make Shizune laugh, and she holds a hand up to her mouth to hold it back. It's like she is hiding it. I wonder if she can laugh. If not, that might be why she does that. That kind of makes me feel sad."
+# "That seems to make Shizune laugh, and she holds a hand up to her mouth to hold it back. It's like she is hiding it. I wonder if she can laugh. If not, that might be why she does that. That kind of makes me feel sad."
+"ชิซูเนะดูจะขำพร้อมยกมือป้องปากกลั้นขำเหมือนซ่อนเอาไว้ เธอจะหัวเราะได้มั้ยนะ หรือที่ทำแบบนั้นก็เพราะหัวเราะ\nไม่ได้นั่นแหละ คิดตามแล้วก็หดหู่ยังไงไม่รู้"
 
 stop music fadeout 3.0
 
 scene bg city_station
 with locationskip
 
-"With that taken care of, we head for the train station, and a very uneventful ride follows. Shizune and Misha manage to fall asleep almost instantly, but I find myself unable to. That's never happened before. Maybe it's my medication."
+# "With that taken care of, we head for the train station, and a very uneventful ride follows. Shizune and Misha manage to fall asleep almost instantly, but I find myself unable to. That's never happened before. Maybe it's my medication."
+"พอจบเรื่องแล้วเราก็มายังสถานีรถไฟ จากนั้นก็นั่งรถไฟมาเรื่อย ๆ ตอนขึ้นรถไฟมาชิซูเนะกับมิช่าก็ผล็อยหลับ\nแทบจะทันที แต่ฉันหลับไม่ลง ปกติก็หลับได้แท้ ๆ น่าจะเพราะยามั้ง"
 
 scene bg shizu_houseext
 with shorttimeskip
 
 play music music_soothing fadein 0.5
 
-"When we arrive at Shizune's house, it's quite a bit larger than I'd envisioned it would be. I don't think huge would be much of an overstatement."
+# "When we arrive at Shizune's house, it's quite a bit larger than I'd envisioned it would be. I don't think huge would be much of an overstatement."
+"พอได้มาเห็นบ้านชิซูเนะแล้วก็รู้สึกว่าใหญ่กว่าที่คิดเอาไว้หน่อย ใช้คำว่ามโหฬารก็น่าจะไม่เกินจริงนัก"
 
-hi "You live in a mansion?"
+# hi "You live in a mansion?"
+hi "นี่เธออยู่คฤหาสน์เหรอ"
 
 show shizu cross_angry_cas at center
 with charaenter
 
-"Shizune indignantly stands up on her tiptoes so that we're at eye level, and frowns deeply, having had my comment translated to her by Misha. It's as if she's saying, “how can you even suggest such a thing?”"
+# "Shizune indignantly stands up on her tiptoes so that we're at eye level, and frowns deeply, having had my comment translated to her by Misha. It's as if she's saying, “how can you even suggest such a thing?”"
+"พอได้ฟังคำพูดฉันผ่านมิช่าแล้วชิซูเนะก็เขย่งเท้าให้ระดับสายตาเท่ากันแล้วขมวดคิ้วมองหน้าฉันอย่างไม่พอใจราวกับ\nจะบอกว่า “พูดอะไรอย่างนั้นออกมาได้ยังไง”"
 
 show shizu basic_frown_cas
 with charachange
 
-ssh "This is just a normal house. Nothing as ostentatious as a mansion."
+# ssh "This is just a normal house. Nothing as ostentatious as a mansion."
+ssh "ก็แค่บ้านธรรมดานั่นแหละ ไม่ได้หรูหราถึงขั้นคฤหาสน์หรอก"
 
-"I believe our definitions of those terms are quite different, then."
+# "I believe our definitions of those terms are quite different, then."
+"งั้นนิยามของเราสองคนก็คงไม่เหมือนกันละมั้ง"
 
 show bg shizu_houseext at bgright
 show shizu basic_frown_cas at tworight
@@ -444,17 +473,20 @@ with charamove
 show misha hips_grin_cas at twoleft
 with charaenter
 
-mi "Wahaha~. Hicchan, are you surprised? Do you want me to point out where you'll be staying?"
+# mi "Wahaha~. Hicchan, are you surprised? Do you want me to point out where you'll be staying?"
+mi "วะฮ่าฮ่า~ ฮิจัง ตกใจเหรอ อยากให้พาไปดูมั้ยว่านายจะได้นอนที่ไหน"
 
 show shizu behind_blank_cas
 with charachange
 
-ssh "I think we have a guest room, but I'm not sure if we have two. I'll check."
+# ssh "I think we have a guest room, but I'm not sure if we have two. I'll check."
+ssh "เหมือนจะมีห้องนอนสำหรับแขกอยู่นะ แต่ไม่แน่ใจว่ามีสองห้องหรือเปล่า เดี๋ยวไปดู"
 
 show misha sign_smile_cas
 with charachange
 
-mi "Hm~, it's no problem, though, Hicchan~! Shicchan and I can share a room if we have to. Well~, unless hers is being used for something else now."
+# mi "Hm~, it's no problem, though, Hicchan~! Shicchan and I can share a room if we have to. Well~, unless hers is being used for something else now."
+mi "อืม~ แต่ไม่เป็นไรหรอกนะฮิจัง~! ถ้าจำเป็นจริง ๆ ฉันนอนกับชิจังได้ ก็~ เว้นเสียแต่ว่าห้องนั้นจะไม่ว่างเพราะเอาไป\nทำอะไรอย่างอื่น"
 
 hide shizu
 with charaexit
@@ -464,117 +496,150 @@ with charaexit
 
 stop music fadeout 5.0
 
-"“Not sure?” I'm starting to think Shizune doesn't spend a lot of time at home. Before I can make a joke of it at her expense, Shizune vanishes into the house, and Misha goes with her, leaving me alone on the grounds."
+# "“Not sure?” I'm starting to think Shizune doesn't spend a lot of time at home. Before I can make a joke of it at her expense, Shizune vanishes into the house, and Misha goes with her, leaving me alone on the grounds."
+"“ไม่แน่ใจ”? หรือชิซูเนะจะไม่ค่อยได้อยู่บ้านกันนะ แต่ก่อนที่ฉันจะทันได้หยอกล้ออะไร ชิซูเนะก็หายแวบเข้าไปในบ้าน\nพร้อมมิช่าที่ตามไปติด ๆ ทิ้งให้ฉันยืนอยู่คนเดียว"
 
-"I don't want to follow them inside just yet. I put my bag down by the front door, and take the opportunity to look around the grounds, just making a quick lap around the house."
+# "I don't want to follow them inside just yet. I put my bag down by the front door, and take the opportunity to look around the grounds, just making a quick lap around the house."
+"ฉันวางกระเป๋าไว้ที่ประตูหน้าบ้านเพราะยังไม่อยากตามเข้าไปพลางถือโอกาสนี้เดินดูรอบ ๆ บ้าน"
 
 show hideaki bored at center
 with shorttimeskip
 
-"Even though it takes just a few minutes, when I get back the first thing I notice is that my bag is gone, and a tiny girl is in its place. She looks a lot like Shizune, although Shizune wouldn't wear red shorts and star-and-moon stockings."
+# "Even though it takes just a few minutes, when I get back the first thing I notice is that my bag is gone, and a tiny girl is in its place. She looks a lot like Shizune, although Shizune wouldn't wear red shorts and star-and-moon stockings."
+"ทั้งที่ไปไม่กี่นาที แต่กลับมากระเป๋าฉันก็ไม่อยู่แล้ว และมีผู้หญิงตัวเล็ก ๆ ที่ดูเหมือนชิซูเนะมาก ๆ คนหนึ่งมาแทนที่\nถึงชิซูเนะจะไม่ใส่กางเกงสีแดงกับถุงน่องลายดาวกับพระจันทร์แบบนั้นน่ะนะ"
 
-hi "Hi! Are you Shizune's little sister or something?"
+# hi "Hi! Are you Shizune's little sister or something?"
+hi "ไง! เธอเป็นน้องสาวชิซูเนะเหรอ"
 
 show hideaki normal
 with charachange
 
-hh "No. I'm her little brother. My name is Hideaki."
+# hh "No. I'm her little brother. My name is Hideaki."
+hh "เปล่าครับ ผมเป็นน้องชาย ชื่อฮิเดอากิ"
 
 show hideaki thinking
 with charachange
 
-hh "It's nice to meet you."
+# hh "It's nice to meet you."
+hh "ยินดีที่ได้รู้จักครับ"
 
 play music music_happiness fadein 2.0
 
-"The voice that responds is straightforward, monotone, and also definitely male. I feel embarrassed to the point where I could almost turn around and leave right now, if I could remember my way back to the train."
+# "The voice that responds is straightforward, monotone, and also definitely male. I feel embarrassed to the point where I could almost turn around and leave right now, if I could remember my way back to the train."
+"เสียงที่ตอบกลับมานั้นทื่อ ๆ และเรียบนิ่งที่ฟังดูแล้วยังไงก็เป็นผู้ชายแน่นอน อายจนแทบอยากเดินออกบ้านกลับไป\nเสียตอนนี้ ติดก็แต่จำทางไปสถานีรถไฟไม่ได้"
 
 show hideaki serious
 with charachange
 
-hh "Are you the second person that my sister brought with her?"
+# hh "Are you the second person that my sister brought with her?"
+hh "พี่เป็นคนที่สองที่พี่ชิซูเนะขนมาด้วยหรือเปล่าครับ"
 
-hi "“Brought with her?” I'm not luggage."
+# hi "“Brought with her?” I'm not luggage."
+hi "“ขนมาด้วย”? ฉันไม่ใช่กระเป๋านะ"
 
-hi "Anyway, I'm Hisao. Did you take my bag?"
+# hi "Anyway, I'm Hisao. Did you take my bag?"
+hi "แต่เอาเถอะ ฉันชื่อฮิซาโอะ แล้วนี่นายเก็บกระเป๋าฉันไปเหรอ"
 
 show hideaki triangle
 with charachange
 
-hh "Yes, it is my right to keep anything I find on my property."
+# hh "Yes, it is my right to keep anything I find on my property."
+hh "ครับ ผมเจออะไรก็ย่อมเป็นสิทธิ์ของผมที่จะเก็บ"
 
-hi "No, it's not. That's not how it works at all."
+# hi "No, it's not. That's not how it works at all."
+hi "ไม่ ไม่ได้สิ ใช่อย่างนั้นที่ไหนเล่า"
 
-"I guess even particularly well-spoken little kids believe in the law of finders keepers. Even though I call him little, he doesn't seem that much younger, now that I think about it. Maybe two or three years younger, at most."
+# "I guess even particularly well-spoken little kids believe in the law of finders keepers. Even though I call him little, he doesn't seem that much younger, now that I think about it. Maybe two or three years younger, at most."
+"แม้แต่เด็กที่พูดจาฉะฉานอย่างนี้ก็ยังเชื่อเรื่องใครเจอใครได้เหรอ ถึงตอนแรกฉันจะบอกว่าเป็นน้อง แต่พอดูแล้ว\nอายุก็ไม่น่าห่างกันเท่าไหร่ อย่างมากก็คงสักสองสามปี"
 
 show hideaki normal
 with charachange
 
-hh "I gave it to Shizune. It's inside. Are you on the Student Council?"
+# hh "I gave it to Shizune. It's inside. Are you on the Student Council?"
+hh "ผมเอาไปฝากพี่ชิซูเนะไว้ในบ้านแล้ว พี่เป็นสภานักเรียนด้วยเหรอครับ"
 
-hi "Yeah, how did you know? Does she bring it up often?"
+# hi "Yeah, how did you know? Does she bring it up often?"
+hi "อื้ม รู้ได้ไงเนี่ย พี่นายเล่าให้ฟังบ่อยเหรอ"
 
-"I almost said “does she talk about it often?” That could have been bad."
+# "I almost said “does she talk about it often?” That could have been bad."
+"เกือบหลุดปากไปว่า “พูดถึงบ่อยเหรอ” แล้ว ซึ่งน่าจะไม่ดีแน่"
 
 show hideaki bored
 with charachange
 
-hh "Yes, all the time. Do you get along with her?"
+# hh "Yes, all the time. Do you get along with her?"
+hh "ครับ ตลอดเลย สนิทกันดีเหรอครับ"
 
-hi "Get along? That's a weird question. I wouldn't be on the Student Council if I couldn't get along with her. What about you, do you two get along well?"
+# hi "Get along? That's a weird question. I wouldn't be on the Student Council if I couldn't get along with her. What about you, do you two get along well?"
+hi "สนิทกันดีมั้ยเหรอ ถามอะไรแปลก ๆ ไม่สนิทคงไม่มาเข้าสภานักเรียนหรอก แล้วนายล่ะ สนิทกับพี่นายดีมั้ย"
 
-"Even though he has a monotone voice, his face is as expressive as Shizune's, and belies how he really feels. It must run in the family. Looks like he isn't happy about my question, for whatever reason."
+# "Even though he has a monotone voice, his face is as expressive as Shizune's, and belies how he really feels. It must run in the family. Looks like he isn't happy about my question, for whatever reason."
+"ถึงเสียงจะเรียบ แต่สีหน้าบ่งบอกอารมณ์ที่รู้สึกจริง ๆ ได้คล้ายชิซูเนะเลย สงสัยเป็นกันทั้งบ้าน และเหมือนเขาจะไม่ปลื้ม\nกับคำถามนั้นสักเท่าไหร่"
 
 show hideaki thinking
 with charachange
 
-hh "I'm sorry. I was only asking because you both act so much alike."
+# hh "I'm sorry. I was only asking because you both act so much alike."
+hh "ขอโทษครับ ผมแค่ถามเพราะเห็นพี่ทำคัวคล้ายพี่ชิซูเนะมากเลย"
 
-"I don't know why, but it feels like he's teasing me. Unfortunately, it works. I don't like being compared to Shizune."
+# "I don't know why, but it feels like he's teasing me. Unfortunately, it works. I don't like being compared to Shizune."
+"ไม่รู้ทำไม แต่รู้สึกเหมือนล้อกันอยู่ ซึ่งก็ได้ผล ฉันไม่ชอบให้ใครมาเปรียบเทียบฉันกับชิซูเนะ"
 
-hi "You're a lot more like Shizune, but that's to be expected. I mistook you for her little sister, even. If you don't want people to make that mistake, you should dress more appropriately."
+# hi "You're a lot more like Shizune, but that's to be expected. I mistook you for her little sister, even. If you don't want people to make that mistake, you should dress more appropriately."
+hi "นายน่ะเหมือนพี่นายมากกว่านะ แต่ก็ไม่แปลกหรอกมั้ง นึกว่าเป็นน้องสาวด้วยซ้ำเนี่ย คราวหลังถ้าไม่อยากให้ใคร\nเข้าใจผิดก็แต่งตัวดี ๆ หน่อยนะ"
 
 show hideaki confused
 with charachange
 
-hh "I don't understand, my clothes are perfectly seasonal."
+# hh "I don't understand, my clothes are perfectly seasonal."
+hh "ไม่เห็นเข้าใจเลย เสื้อผ้าผมก็เข้ากับสภาพอากาศดีออก"
 
-hi "What's with the stockings?"
+# hi "What's with the stockings?"
+hi "แล้งถุงน่องนั่นคือ?"
 
 show hideaki angry_up
 with charachange
 
-hh "They are cool."
+# hh "They are cool."
+hh "เท่ออก"
 
 show hideaki disapproves
 with charachange
 
-hh "You act like my sister. Eventually people will start mistaking you for her."
+# hh "You act like my sister. Eventually people will start mistaking you for her."
+hh "พี่ทำตัวเหมือนพี่ชิซูเนะเลยนะครับ เดี๋ยวคนเข้าใจผิดว่าพี่เป็นพี่ชิซูเนะแน่"
 
-"I guess my comment hit him harder than I thought. That would explain this attempt at turning it around."
+# "I guess my comment hit him harder than I thought. That would explain this attempt at turning it around."
+"สงสัยจะจี้ใจดำได้แรงกว่าที่คิดถึงได้รีบเปลี่ยนเรื่องอย่างนี้"
 
-hi "I hate being compared to other people."
+# hi "I hate being compared to other people."
+hi "ฉันไม่ชอบให้ใครมาเปรียบเทียบฉันกับคนอื่น"
 
 show hideaki evil
 with charachange
 
-hh "Shizune doesn't like it when she is compared to others either."
+# hh "Shizune doesn't like it when she is compared to others either."
+hh "พี่ชิซูเนะก็ไม่ชอบให้ใครเอาตัวเองไปเปรียบเทียบกับคนอื่นเหมือนกัน"
 
-"I'd thought that Hideaki was a little more mature than Shizune, but they have the same competitive streak and inclination to provoke people. I wonder if he's like this because of Shizune, or if it's the other way around."
+# "I'd thought that Hideaki was a little more mature than Shizune, but they have the same competitive streak and inclination to provoke people. I wonder if he's like this because of Shizune, or if it's the other way around."
+"ก็นึกว่านิสัยจะโตกว่าชิซูเนะ ที่ไหนได้ ดันชอบหาเรื่องแข่งกับยั่วโมโหคนเก่งพอกัน นี่ใครติดนิสัยใครมากันแน่เนี่ย"
 
-hi "And neither do you, right? Okay, I get it. I shouldn't be so petty."
+# hi "And neither do you, right? Okay, I get it. I shouldn't be so petty."
+hi "นายก็คงไม่ชอบเหมือนกันใช่มั้ยล่ะ โอเค เข้าใจละ ฉันไม่น่ามาคิดเล็กคิดน้อยเลย"
 
 show hideaki normal
 with charachange
 
 stop music fadeout 4.0
 
-"Especially to little kids. Hideaki seems to accept this as an acknowledgment of defeat, which is something that I feel like I can't let go. Nevertheless, I'll just have to let it go while I have the chance."
+# "Especially to little kids. Hideaki seems to accept this as an acknowledgment of defeat, which is something that I feel like I can't let go. Nevertheless, I'll just have to let it go while I have the chance."
+"โดยเฉพาะกับเด็กเล็ก ฮิเดอากิดูจะยอมแพ้จนฉันอยากจะหาเรื่องอะไรต่อสักหน่อย แต่เอาเถอะ มีโอกาสได้จบ\nก็รีบ ๆ จบไป"
 
 scene bg shizu_living
 with locationchange
 
-"I can hear Misha's laughter bouncing through the halls the moment I step through the door to the house, and follow it into what I would guess is the living room. It holds more people than I'd expected."
+# "I can hear Misha's laughter bouncing through the halls the moment I step through the door to the house, and follow it into what I would guess is the living room. It holds more people than I'd expected."
+"พอเดินผ่านประตูบ้านเข้ามาก็ได้ยินเสียงหัวเราะมิช่าที่ดังก้องไปทั่วโถง ฉันเดินตามเสียงนั้นไปยังห้องที่น่าจะเป็น\nห้องนั่งเล่น แต่คนเยอะกว่าที่คิดแฮะ"
 
 show lilly basic_displeased_cas:
     center
@@ -596,85 +661,108 @@ with charaenter
 
 play music music_another fadein 4.0
 
-"Among them I spot a distinctive and familiar blonde ponytail. I'm more confused by why Lilly is here than surprised. Shizune seems just as surprised. Lilly doesn't look ecstatic about this chance meeting either."
+# "Among them I spot a distinctive and familiar blonde ponytail. I'm more confused by why Lilly is here than surprised. Shizune seems just as surprised. Lilly doesn't look ecstatic about this chance meeting either."
+"ในนั้นมีผมหางม้าสีบลอนด์ที่เด่นและคุ้นตาอยู่ ฉันงงก่อนที่จะทันได้แปลกใจว่าทำไมลิลลี่ถึงมาอยู่ที่นี่ ชิซูเนะก็ดู\nแปลกใจพอกัน ลิลลี่เองก็ดูจะไม่ยินดีเท่าไหร่นักที่เรื่องบังเอิญเป็นอย่างนี้"
 
-"Sitting next to Lilly is a tall, androgynous looking woman in a sharp suit. I'd like to assume that it's her older sister, but I don't want to risk it."
+# "Sitting next to Lilly is a tall, androgynous looking woman in a sharp suit. I'd like to assume that it's her older sister, but I don't want to risk it."
+"ข้าง ๆ ลิลลี่มีผู้หญิงที่ดูเหมือนทั้งชายทั้งหญิงใส่ชุดสูทอย่างเนี้ยบคนหนึ่งนั่งอยู่ คงจะเป็นพี่สาวของลิลลี่ละมั้ง\nแต่ก็อาจจะไม่ใช่ก็ได้"
 
 show lilly basic_listen_cas
 with charachange
 
-li "I didn't expect that you would arrive so early."
+# li "I didn't expect that you would arrive so early."
+li "มาถึงเร็วผิดคาดเลยนะ"
 
-"At first I think she's talking to me, but it turns out that she's referring to Shizune. I don't think Lilly even notices my presence. I've clearly walked in on them mid-conversation, and it looks like with her focus on Shizune, she couldn't hear me."
+# "At first I think she's talking to me, but it turns out that she's referring to Shizune. I don't think Lilly even notices my presence. I've clearly walked in on them mid-conversation, and it looks like with her focus on Shizune, she couldn't hear me."
+"ตอนแรกก็นึกว่าคุยกับฉัน แต่ที่จริงแล้วเธอคุยกับชิซูเนะอยู่ ลิลลี่น่าจะยังไม่รู้ด้วยซ้ำว่าฉันอยู่ด้วย ฉันคงเข้ามาจังหวะ\nที่กำลังคุยกันพอดี แถมดูจะจดจ่ออยู่กับชิซูเนะด้วย น่าจะไม่ได้ยินที่ฉันมา"
 
 show shizu basic_frown_cas
 with charachange
 
-ssh "I should have rearranged my entire schedule for you."
+# ssh "I should have rearranged my entire schedule for you."
+ssh "รู้ว่าเธอจะมาอย่างนี้ฉันเปลี่ยนแผนใหม่หมดเลยคงดี"
 
 show misha sign_smile_cas
 with charachange
 
-mi "Shicchan says: I should have rearranged my schedule just for you~!"
+# mi "Shicchan says: I should have rearranged my schedule just for you~!"
+mi "ชิจังบอกว่า รู้ว่าเธอจะมาอย่างนี้ฉันเปลี่ยนแผนใหม่หมดเลยคงดี~!"
 
 show lilly basic_displeased_cas
 with charachange
 
-li "That would have been nice, but I would not expect you to do such a thing."
+# li "That would have been nice, but I would not expect you to do such a thing."
+li "ก็คงดีแหละจ้ะ แต่ฉันคิดว่าเธอคงไม่ใช่คนที่จะเปลี่ยนแผนหรอก"
 
 show misha hips_smile_cas
 with charachange
 
-mi "Oh, hi, Hicchan~! You're finally here."
+# mi "Oh, hi, Hicchan~! You're finally here."
+mi "โอ๊ะ ไง ฮิจัง~! มาจนได้นะ"
 
-hi "Yeah. Hello, Lilly."
+# hi "Yeah. Hello, Lilly."
+hi "อื้ม สวัสดี ลิลลี่"
 
 show lilly basic_surprised_cas
 with charachange
 
-li "Oh, Hisao? This is quite a surprise. Akira, this is Hisao, a schoolmate. Hisao, this is Akira, my sister."
+# li "Oh, Hisao? This is quite a surprise. Akira, this is Hisao, a schoolmate. Hisao, this is Akira, my sister."
+li "อ้าว ฮิซาโอะเหรอ ไม่คิดว่าจะมาด้วยนะจ๊ะเนี่ย พี่ นี่ฮิซาโอะ เพื่อนร่วมโรงเรียนหนู ฮิซาโอะ นี่อากิระ พี่สาวฉัน"
 
 show akira basic_smile
 with charachange
 
-aki "Yo."
+# aki "Yo."
+aki "ไง"
 
-"She holds up her hand in a brief and quite casual gesture of greeting. So she is the older sister after all."
+# "She holds up her hand in a brief and quite casual gesture of greeting. So she is the older sister after all."
+"เธอโบกมือทักทายเร็ว ๆ อย่างเป็นกันเอง เป็นพี่สาวของลิลลี่จริง ๆ ด้วย"
 
 show akira basic_boo
 show lilly basic_weaksmile_cas
 with charachange
 
-aki "I hope we're not messing up any of your plans. Since we're only going to be here for one more day, Lilly and I thought she may as well come with me."
+# aki "I hope we're not messing up any of your plans. Since we're only going to be here for one more day, Lilly and I thought she may as well come with me."
+aki "หวังว่าไม่ได้มาทำแผนอะไรพังนะ เดี๋ยวจะอยู่ที่นี่อีกแค่วันเดียวแหละ ฉันกับลิลลี่ก็คิดว่ามาด้วยกันไปเลยคงไม่เสียหาย\nอะไร"
 
-"Akira turns to me, like she feels compelled to explain. I'm grateful for that."
+# "Akira turns to me, like she feels compelled to explain. I'm grateful for that."
+"อากิระหันมาทางฉันเหมือนอยากอธิบาย ซึ่งฉันก็ยินดีที่อุตส่าห์เล่า"
 
 show akira basic_ending
 with charachange
 
-aki "I suppose my position here would be best described as a babysitter."
+# aki "I suppose my position here would be best described as a babysitter."
+aki "หน้าที่ฉันตอนนี้ ถ้าจะให้ว่าแล้วก็คงเป็นพี่เลี้ยงเด็กละมั้ง"
 
 show hideaki disapproves
 with charachange
 
-"Akira ruffles Hideaki's hair as he carries on with his pastime of looking displeased."
+# "Akira ruffles Hideaki's hair as he carries on with his pastime of looking displeased."
+"อากิระยี ๆ ผมฮิเดอากิตอนเขากำลังทำหน้าบูดอย่างที่ชอบทำบ่อย ๆ ยามว่าง"
 
-hh "That is demeaning."
+# hh "That is demeaning."
+hh "หยามกันอยู่นะครับ"
 
 show akira basic_smile
 with charachange
 
-aki "Really? Maybe I'll change my title once you get a few more years on you. Or at least a few centimeters."
+# aki "Really? Maybe I'll change my title once you get a few more years on you. Or at least a few centimeters."
+aki "เหรอ งั้นเดี๋ยวไว้นายโตขึ้นฉันค่อยเปลี่ยนตำแหน่งแล้วกัน หรืออย่างน้อย ๆ ก็ไว้นายสูงขึ้นอีกสักสองสามเซนฯ"
 
-"They make an interesting pair, although Akira looks more like a lawyer than a babysitter. I'm still not really sure why both she and Lilly are here, though."
+# "They make an interesting pair, although Akira looks more like a lawyer than a babysitter. I'm still not really sure why both she and Lilly are here, though."
+"เป็นคู่ที่น่าสนใจดี แต่อากิระดู ๆ แล้วก็เหมือนทนายมากกว่าพี่เลี้ยงเด็กอีก แต่ฉันก็ยังไม่ค่อยแน่ใจเท่าไหร่ว่าทำไม\nทั้งสองคนถึงมาอยู่ที่นี่ได้"
 
-"Taking a glance around the room, there are tennis rackets, golf clubs, and even a stack of fishing poles and tackle boxes secreted here and there."
+# "Taking a glance around the room, there are tennis rackets, golf clubs, and even a stack of fishing poles and tackle boxes secreted here and there."
+"เมื่อมองไปรอบ ๆ ห้องก็เห็นทั้งไม้เทนนิสไม้กอล์ฟ แถมมีเบ็ดตกปลากับกล่องอุปกรณ์ทั้งหลายแหล่อีกต่างหาก"
 
-"Behind every chair, in every corner, and under every table there is some piece of outdoor hobbyist equipment. I pick up one of the fishing rods and play with it."
+# "Behind every chair, in every corner, and under every table there is some piece of outdoor hobbyist equipment. I pick up one of the fishing rods and play with it."
+"ที่พนักเก้าอี้ทุกตัว ที่หลืบบ้านทุกมุม ที่ใต้โต๊ะทุกตัว ทุกที่จะมีอุปกรณ์ที่เป็นกิจกรรมกลางแจ้งทั้งหมด ฉันคว้า\nคันเบ็ดมาคันหนึ่งแล้วจับ ๆ เล่น"
 
-hi "This is a nice house."
+# hi "This is a nice house."
+hi "บ้านสวยดีนะ"
 
-hi "Shizune, it looks like your dad has a lot of hobbies."
+# hi "Shizune, it looks like your dad has a lot of hobbies."
+hi "ชิซูเนะ พ่อเธอทำกิจกรรมหลายอย่างน่าดูเลยนะ"
 
 show misha sign_smile_cas
 with charachange
@@ -682,38 +770,47 @@ with charachange
 show misha perky_smile_cas
 with charachange
 
-"For a moment I forget to sign what I say, but Misha's already in the process of interpreting what I said for her. I'm still a little impressed at how automatic interpreting is for Misha."
+# "For a moment I forget to sign what I say, but Misha's already in the process of interpreting what I said for her. I'm still a little impressed at how automatic interpreting is for Misha."
+"ฉันลืมไปแวบหนึ่งว่าต้องทำภาษามือ แต่มิช่าก็แปลที่ฉันพูดไปแล้ว ฉันยังทึ่งอยู่หน่อย ๆ ที่มิช่าแปลได้อย่างอัตโนมัติ\nขนาดนั้น"
 
 show hideaki normal
 with charachange
 
-hh "Do you fish?"
+# hh "Do you fish?"
+hh "พี่ตกปลาด้วยเหรอครับ"
 
-hi "No, I don't know how. I kind of want to learn, as I heard it's relaxing."
+# hi "No, I don't know how. I kind of want to learn, as I heard it's relaxing."
+hi "เปล่าหรอก ฉันตกไม่เป็น แต่ก็อยากหัดอยู่นะ เห็นว่าผ่อนคลายดี"
 
 show shizu behind_blank_cas
 with charachange
 
-ssh "There is a river only a short drive away, my whole family knows how to fish. If you want, we could go there sometime."
+# ssh "There is a river only a short drive away, my whole family knows how to fish. If you want, we could go there sometime."
+ssh "แถวนี้มีแม่น้ำอยู่ด้วยนะ นั่งรถไปแป๊บเดียวก็ถึง ทั้งบ้านฉันตกปลาเป็นกันหมด ถ้านายอยากไปไว้จะพาไปด้วยกัน"
 
 show akira basic_laugh
 with charachange
 
-aki "You and Hideaki can fish? I didn't expect people your age to know, considering it's always seemed like a hobby for old men."
+# aki "You and Hideaki can fish? I didn't expect people your age to know, considering it's always seemed like a hobby for old men."
+aki "เธอกับฮิเดอากิตกปลาเป็นด้วยเหรอ ไม่คิดว่าคนรุ่นพวกเธอจะตกกันเป็น เห็นเหมือนเป็นอะไรที่คนแก่เขาทำกัน"
 
 show akira basic_ending
 with charachange
 
-aki "Y'know, Lilly is great at cooking. If we had some fresh fish…"
+# aki "Y'know, Lilly is great at cooking. If we had some fresh fish…"
+aki "เอ้อเนี่ย ลิลลี่เขาทำอาหารเก่งนะ ถ้าได้ปลาสด ๆ มาสักตัวสองตัว…"
 
-"It's not hard to follow Akira's train of thought."
+# "It's not hard to follow Akira's train of thought."
+"เห็นได้ไม่ยากว่าอากิระคิดอะไรอยู่"
 
 show lilly basic_displeased_cas
 with charachange
 
-li "If you want to eat fish, we could go to the store."
+# li "If you want to eat fish, we could go to the store."
+li "ถ้าพี่อยากกินปลาเดี๋ยวไปซื้อที่ร้านก็ได้"
 
-"Lilly's voice sounds slightly more authoritative than usual. She really doesn't seem to share her sister's enthusiasm for the idea."
+# "Lilly's voice sounds slightly more authoritative than usual. She really doesn't seem to share her sister's enthusiasm for the idea."
+"น้ำเสียงลิลลี่ฟังดูเคร่งกว่าปกติเล็กน้อย ดูท่าจะไม่เอาด้วยกับความคิดของพี่สาวเธอสักเท่าไหร่"
 
 show shizu basic_happy_cas
 with charachange
@@ -723,51 +820,62 @@ shi "…"
 show misha hips_grin_cas
 with charachange
 
-mi "It's more fun to go fishing; we could even make it like a game and try to see who catches the biggest one~! That would be exciting, right? Yeah~! Hicchan, what do you think? It sounds fun, doesn't it?"
+# mi "It's more fun to go fishing; we could even make it like a game and try to see who catches the biggest one~! That would be exciting, right? Yeah~! Hicchan, what do you think? It sounds fun, doesn't it?"
+mi "ไปตกปลาสนุกกว่านะ แถมตกแข่งกันได้ด้วยว่าใครจะตกได้ปลาตัวใหญ่กว่ากัน~! ตื่นเต้นน่าดูเลยใช่มั้ยล่ะ ใช่~!\nฮิจังว่าไง ฟังดูสนุกไปเลยใช่มั้ย"
 
-hi "Yeah, it definitely could be."
+# hi "Yeah, it definitely could be."
+hi "อื้ม ต้องสนุกแน่"
 
 show akira basic_smile
 with charachange
 
-aki "Sounds like a plan. I don't know how to fish either, so now's as good a time as any to learn."
+# aki "Sounds like a plan. I don't know how to fish either, so now's as good a time as any to learn."
+aki "งั้นก็ตามนั้นนะ ฉันก็ตกไม่เป็นเหมือนกัน หัดตกตอนนี้เลยนี่แหละดี"
 
 show akira basic_boo
 with charachange
 
-"Her eyes shift towards Lilly, who remains unmoved. This sours Akira's smile a bit, and makes me wonder why Lilly's being so obstinate about this."
+# "Her eyes shift towards Lilly, who remains unmoved. This sours Akira's smile a bit, and makes me wonder why Lilly's being so obstinate about this."
+"อากิระเหลือบมองลิลลี่ที่ยังนิ่งอยู่จนรอยยิ้มของเธอหดหายไปเล็กน้อย ทำไมลิลลี่ถึงได้ไม่อยากไปขนาดนั้นกันนะ"
 
 show hideaki normal
 with charachange
 
-hh "I don't think we have enough fishing equipment for everyone."
+# hh "I don't think we have enough fishing equipment for everyone."
+hh "คันเบ็ดไม่น่ามีพอนะครับ"
 
 show shizu behind_smile_cas
 with charachange
 
-ssh "We can take turns. It'll be a team battle."
+# ssh "We can take turns. It'll be a team battle."
+ssh "ผลัดกันตกก็ได้ แข่งแบบทีมไง"
 
 show hideaki confused
 with charachange
 
-hh "What is she saying?"
+# hh "What is she saying?"
+hh "พี่ชิซูเนะว่ายังไงนะครับ"
 
-hi "We can take turns. She also wants to make it a contest."
+# hi "We can take turns. She also wants to make it a contest."
+hi "ผลัดกันตกก็ได้ บอกว่าอยากแข่งกันด้วยน่ะ"
 
 show akira basic_laugh
 with charachange
 
-aki "Come on Lilly, we may as well make the most of it."
+# aki "Come on Lilly, we may as well make the most of it."
+aki "มาสิลิลลี่ ไหน ๆ ก็ไหน ๆ แล้ว"
 
 show akira basic_boo
 with charachange
 
-aki "So is this going to be a competition to see who can catch the biggest fish, or the most?"
+# aki "So is this going to be a competition to see who can catch the biggest fish, or the most?"
+aki "แล้วนี่จะแข่งขนาดปลาหรือจำนวนปลา"
 
 show shizu adjust_smug_cas
 with charachange
 
-ssh "It looks like the older sister understands better, as always."
+# ssh "It looks like the older sister understands better, as always."
+ssh "คนพี่นี่หัวไวกว่าเหมือนเดิมเลย"
 
 show shizu basic_normal_cas
 with charachange
@@ -777,12 +885,14 @@ shi "…"
 show misha sign_smile_cas
 with charachange
 
-mi "Shicchan says that she supposes Lilly would prefer to go to the store, right~? It's much less work, so it's natural that she would! Going fishing would be more fun, though, and save money. Akira, you have the right idea~!"
+# mi "Shicchan says that she supposes Lilly would prefer to go to the store, right~? It's much less work, so it's natural that she would! Going fishing would be more fun, though, and save money. Akira, you have the right idea~!"
+mi "ชิจังบอกว่า ลิลลี่คงจะอยากไปที่ร้านมากกว่าใช่มั้ย~ ที่อยากไปเพราะไม่ต้องวุ่นวายอะไรมาก! แต่ไปตกปลาสนุกกว่านะ\nแถมประหยัดด้วย อากิระคิดถูกแล้วละ~!"
 
 show akira basic_smile
 with charachange
 
-"Akira gives a gracious, if slightly stilted, smile. Shizune's praise wasn't her goal, after all."
+# "Akira gives a gracious, if slightly stilted, smile. Shizune's praise wasn't her goal, after all."
+"อากิระยิ้มขอบคุณแบบแกน ๆ เพราะยังไงก็ไม่ได้หวังให้ชิซูเนะชมนี่นะ"
 
 show lilly basic_sleepy_cas
 with charachange
@@ -792,39 +902,47 @@ li "…"
 show lilly basic_weaksmile_cas
 with charachange
 
-li "Isn't the river quite far away?"
+# li "Isn't the river quite far away?"
+li "แต่แม่น้ำอยู่ค่อนข้างไกลเลยนี่จ๊ะ"
 
 show akira basic_ending
 with charachange
 
-aki "I don't think it's that far, and I can drive if we have to. I'm okay with it, as long as you catch something."
+# aki "I don't think it's that far, and I can drive if we have to. I'm okay with it, as long as you catch something."
+aki "ไม่น่าไกลขนาดนั้นนะ ฉันขับรถไปส่งให้ก็ได้ สบายมาก ขอแค่ตกให้ได้เถอะ"
 
-hi "Can your car fit this many people, and a whole lot of fishing gear on top of that?"
+# hi "Can your car fit this many people, and a whole lot of fishing gear on top of that?"
+hi "แล้วรถพี่ยัดคนเยอะขนาดนี้ไหวเหรอครับ ไหนจะอุปกรณ์ตกปลาอีก"
 
 show akira basic_boo
 with charachange
 
-"She purses her lips as her fingers subtly move, counting up the amount of passengers and the required cargo. If we're going to be taking me, Shizune, Misha, Lilly, Akira, and Hideaki…"
+# "She purses her lips as her fingers subtly move, counting up the amount of passengers and the required cargo. If we're going to be taking me, Shizune, Misha, Lilly, Akira, and Hideaki…"
+"เธอเม้มปากแล้วขยับนิ้วนับจำนวนคนและของที่ต้องขนไป ถ้าจะไปก็จะมีฉัน ชิซูเนะ มิช่า ลิลลี่ อากิระ แล้วก็ฮิเดอากิ…"
 
 show akira basic_lost
 with charachange
 
-aki "Six people. Damn, my car can only take five."
+# aki "Six people. Damn, my car can only take five."
+aki "หกคน ให้ตาย รถฉันนั่งได้ห้าคนเอง"
 
 show akira basic_ending
 with charachange
 
-aki "Actually, if Hideaki sat on my lap, we could—"
+# aki "Actually, if Hideaki sat on my lap, we could—"
+aki "อันที่จริง ถ้าฮิเดอากินั่งตักฉัน เราก็—"
 
 show hideaki angry_up
 with charachange
 
-hh "I'm not sitting on your lap."
+# hh "I'm not sitting on your lap."
+hh "ผมไม่นั่งตักพี่"
 
 show akira basic_resigned
 with charachange
 
-aki "Aw."
+# aki "Aw."
+aki "โธ่"
 
 show shizu adjust_happy_cas
 with charachange
@@ -834,14 +952,17 @@ shi "…"
 show misha hips_smile_cas
 with charachange
 
-mi "Shicchan says that her father's car would be big enough."
+# mi "Shicchan says that her father's car would be big enough."
+mi "ชิจังบอกว่ารถพ่อน่าจะใหญ่พอ"
 
 show akira basic_lost
 with charachange
 
-aki "What, the Fuga? If he doesn't mind us using it, then I guess we have no other choice. Feels kinda bad forsaking my car, considering I won't have it for much longer."
+# aki "What, the Fuga? If he doesn't mind us using it, then I guess we have no other choice. Feels kinda bad forsaking my car, considering I won't have it for much longer."
+aki "หืม ไอ้นิสสันฟูก้าคันนั้นน่ะนะ ถ้าพ่อเธอไม่ว่าก็คงไม่มีทางเลือกอื่นแล้วแหละ รู้สึกผิดแฮะที่ต้องทิ้งรถตัวเองไว้ เดี๋ยวก็\nไม่ได้อยู่ด้วยกันแล้วแท้ ๆ"
 
-"Despite Lilly's obstinacy, and Hideaki's questions of whether or not we'd prefer to eat first than bet on a fish dinner that might fail to ever materialize, there is no way to dissuade Akira and Shizune as they agree on the transport plan."
+# "Despite Lilly's obstinacy, and Hideaki's questions of whether or not we'd prefer to eat first than bet on a fish dinner that might fail to ever materialize, there is no way to dissuade Akira and Shizune as they agree on the transport plan."
+"ถึงลิลลี่จะไม่ยอม และยังไม่แน่ใจกับคำตอบของคำถามจากฮิเดอากิว่าจะกินข้าวกันไปก่อนแทนที่จะหวังมื้อเย็นจากปลา\nที่อาจตกไม่ได้ดีหรือไม่ แต่ไม่มีใครอาจยั้งอากิระและชิซูเนะที่ตกลงเรื่องการเดินทางกันเรียบร้อยแล้ว"
 
 stop music fadeout 5.0
 
@@ -850,9 +971,11 @@ with shorttimeskip
 
 play ambient sfx_businterior fadein 1.0
 
-"My expectations of a somewhat relaxing drive through the countryside are fulfilled. Akira's driving is as smooth and peaceful as the surroundings, to the point where Misha falls asleep during the trip."
+# "My expectations of a somewhat relaxing drive through the countryside are fulfilled. Akira's driving is as smooth and peaceful as the surroundings, to the point where Misha falls asleep during the trip."
+"และฉันก็ได้นั่งรถชมวิวชนบทสบาย ๆ ดังใจหวัง อากิระขับรถได้นิ่มและชวนให้ผ่อนคลายไม่ต่างอะไรกับบรรยากาศ\nโดยรอบ นิ่มเสียจนมิช่าหลับไปตลอดทาง"
 
-"I thought this trip would have been rather too slow-paced for Shizune's liking, but she seems to genuinely enjoy it. Even with Hideaki awkwardly sandwiched between her and the door, she just keeps looking out of the window and smiling."
+# "I thought this trip would have been rather too slow-paced for Shizune's liking, but she seems to genuinely enjoy it. Even with Hideaki awkwardly sandwiched between her and the door, she just keeps looking out of the window and smiling."
+"ฉันนึกว่าความเร็วรถจะช้าไม่ทันใจชิซูเนะ แต่เธอก็ดูจะเพลินจริง ๆ เธอยิ้มมองไปทางหน้าต่างรถโดยที่ระหว่างเธอ\nกับประตูมีฮิเดอากิเบียดอยู่ตรงกลาง"
 
 stop ambient fadeout 0.5
 
@@ -861,18 +984,22 @@ with shorttimeskip
 
 play ambient sfx_parkambience fadein 0.5
 
-"The area surrounding the river is quite beautiful. Akira and Shizune head off for the river so quickly that we have no choice but to chase them. We would be left in the dust, otherwise."
+# "The area surrounding the river is quite beautiful. Akira and Shizune head off for the river so quickly that we have no choice but to chase them. We would be left in the dust, otherwise."
+"พื้นที่โดยรอบแม่น้ำก็สวยดี อากิระและชิซูเนะรีบรุดไปทางแม่น้ำเร็วเสียจนพวกเราต้องวิ่งตาม ไม่งั้นต้องถูกทิ้งห่าง\nไว้แน่ ๆ"
 
 show lilly basic_weaksmile_cas at left
 show hideaki bored at center
 show misha hips_grin_cas at right
 with charaenter
 
-"I can see Hideaki and Lilly are just humoring their siblings, Lilly being the more unenthusiastic of the two. Misha seems as happy as ever, though. Looks like she managed to latch onto some of Shizune and Akira's excitement."
+# "I can see Hideaki and Lilly are just humoring their siblings, Lilly being the more unenthusiastic of the two. Misha seems as happy as ever, though. Looks like she managed to latch onto some of Shizune and Akira's excitement."
+"ฮิเดอากิและลิลลี่ดูจะเป็นสีสันให้พี่ของตัวเองกันดี ถึงลิลลี่ดูจะไม่ได้ตื่นเต้นเท่าอีกคนก็เถอะ แต่มิช่าก็ดูเริงร่า\nเหมือนเคย ดูท่าจะดูดความตื่นเต้นจากชิซูเนะและอากิระมาได้บ้างแล้ว"
 
-"As for myself, I'd rather eat now, but the thought of fresh fish prepared by Lilly is appealing."
+# "As for myself, I'd rather eat now, but the thought of fresh fish prepared by Lilly is appealing."
+"ส่วนฉันอยากกินข้าวตอนนี้เลยมากกว่า แต่ก็อยากลองกินอาหารที่ทำจากปลาสด ๆ ด้วยฝีมือของลิลลี่เหมือนกัน"
 
-"The river is larger than I'd imagined, although very scenic and peaceful. Other than a small pier apparently built just to fish off of, this place looks untouched by civilization, and it makes me realize how much greenery I've seen lately."
+# "The river is larger than I'd imagined, although very scenic and peaceful. Other than a small pier apparently built just to fish off of, this place looks untouched by civilization, and it makes me realize how much greenery I've seen lately."
+"แม่น้ำกว้างกว่าที่คิดเอาไว้ แต่ก็สวยและสงบดี รอบ ๆ ไม่มีสิ่งปลูกสร้างใด ๆ นอกจากท่าน้ำที่ใช้ตกปลา จนฉันนึกได้ว่า\nช่วงนี้ได้เห็นธรรมชาติอยู่บ่อยครั้ง"
 
 show shizu invis at offscreenright
 show akira invis:
@@ -892,25 +1019,30 @@ show akira basic_smile:
     xpos 0.8
 with Dissolvemove(1.5)
 
-"Shizune pulls Misha away so that they can explain how to fish to Akira. Lilly and Hideaki are talking between themselves, so I decide to join the enthusiastic trio."
+# "Shizune pulls Misha away so that they can explain how to fish to Akira. Lilly and Hideaki are talking between themselves, so I decide to join the enthusiastic trio."
+"ชิซูเนะลากตัวมิช่าไปเพื่อสอนอากิระตกปลา ลิลลี่และฮิเดอากิคุยกันอยู่ ฉันจึงเข้าไปร่วมวงสามคนที่แสนตื่นเต้น\nกันนั้น"
 
 show akira basic_ending
 with charachange
 
-aki "Hmm… so which one of these lures should I use then? Can I use this cute little one?"
+# aki "Hmm… so which one of these lures should I use then? Can I use this cute little one?"
+aki "อืมม… แล้วฉันต้องใช้เหยื่อแบบไหนดี ใช้อันที่กระจุ๋มกระจิ๋มอันนี้ได้มั้ย"
 
 show shizu basic_frown_cas
 show misha sign_smile_cas
 with charachange
 
-mi "Wait, wait~! This is a contest, we need to pick teams first! Shicchan and I will be on one team, of course. Hicchan, you're going to be on our team too, won't you? We can be the Student Council team~!"
+# mi "Wait, wait~! This is a contest, we need to pick teams first! Shicchan and I will be on one team, of course. Hicchan, you're going to be on our team too, won't you? We can be the Student Council team~!"
+mi "เดี๋ยว เดี๋ยว~! เราจะแข่งกันก็ต้องจับกลุ่มกันก่อน! แน่นอนว่าฉันกับชิจังจะอยู่ทีมเดียวกัน ฮิจัง นายก็จะอยู่ทีมเราด้วย\nใช่มั้ย จะได้เป็นทีมสภานักเรียนไง~!"
 
-hi "Okay."
+# hi "Okay."
+hi "โอเค"
 
 show akira basic_laugh
 with charachange
 
-aki "All right, then. That makes me, Hideaki, and Lilly on the other team. Lilly, what should we call ourselves?"
+# aki "All right, then. That makes me, Hideaki, and Lilly on the other team. Lilly, what should we call ourselves?"
+aki "ได้ งั้นฉัน ฮิเดอากิ แล้วก็ลิลลี่จะอยู่ทีมเดียวกัน ลิลลี่ ชื่อทีมเอาอะไรดี"
 
 stop music fadeout 2.0
 
@@ -926,7 +1058,9 @@ show akira invis:
     xpos 1.5
 with Dissolvemove(0.5)
 
-$ doublespeak (li, hh, "I don't see why it matters.", "I don't think it matters.")
+# $ doublespeak (li, hh, "I don't see why it matters.", "I don't think it matters.")
+$ doublespeak (li, hh, "หนูไม่เห็นว่าจะสำคัญตรงไหน", "ผมว่าไม่สำคัญหรอก")
+
 
 play sound sfx_flash
 
@@ -945,69 +1079,87 @@ with Dissolvemove(0.5)
 show akira basic_lost
 with charachange
 
-aki "Team No-Enthusiasm it is…"
+# aki "Team No-Enthusiasm it is…"
+aki "ทีมห่อเหี่ยวเลี้ยวลงท่อแล้วกัน…"
 
 play music music_comedy fadein 0.5
 
-"Yet again, Akira's best efforts are rebuffed. Shizune and Misha, on the other hand, have no lack of enthusiasm whatsoever."
+# "Yet again, Akira's best efforts are rebuffed. Shizune and Misha, on the other hand, have no lack of enthusiasm whatsoever."
+"เป็นอีกครั้งที่ความพยายามของอากิระต้องถูกขัด ส่วนชิซูเนะและมิช่านั้นไม่ได้ห่อเหี่ยวหรืออะไรแม้แต่น้อย"
 
 show misha hips_smile_cas
 show shizu behind_frown_cas
 with charachange
 
-ssh "Hisao! You can be our point man, please try hard to catch as many, or the biggest, fish possible."
+# ssh "Hisao! You can be our point man, please try hard to catch as many, or the biggest, fish possible."
+ssh "ฮิซาโอะ! นายเปิดก่อนเลย ตกปลามาให้ได้เยอะ ๆ ใหญ่ ๆ เท่าที่ตกได้เลยนะ"
 
-hi "Why me? No one's even taught me how to fish yet."
+# hi "Why me? No one's even taught me how to fish yet."
+hi "ไหงเป็นฉันล่ะ ยังไม่มีใครมาสอนฉันตกปลาเลยนะ"
 
 show misha hips_grin_cas
 show shizu behind_blank_cas
 with charachange
 
-mi "We can do that now~."
+# mi "We can do that now~."
+mi "สอนตอนนี้เลยก็ได้~"
 
-"After a quick tutorial, Shizune immediately tries to draw us into a discussion about the strategy in a tag team fishing competition."
+# "After a quick tutorial, Shizune immediately tries to draw us into a discussion about the strategy in a tag team fishing competition."
+"หลังจากที่สอนคร่าว ๆ แล้วชิซูเนะก็ลากให้พวกเรามาคุยกันเรื่องแผนการแข่งตกปลาแบบทีมกัน"
 
-"Somehow, competition doesn't seem particularly applicable to a sport where you spend hours sitting down and hoping a fish bites a worm."
+# "Somehow, competition doesn't seem particularly applicable to a sport where you spend hours sitting down and hoping a fish bites a worm."
+"ซึ่งการแข่งดูจะใช้ไม่ได้กับกีฬาที่ต้องนั่งเป็นชั่วโมง ๆ หวังให้ปลางับหนอนสักเท่าไหร่"
 
 show shizu adjust_happy_cas
 with charachange
 
-ssh "It looks like Hideaki got stuck with the spare rod. You know it's just a string tied to a bamboo pole, right? That means when deciding the order, you should go against him."
+# ssh "It looks like Hideaki got stuck with the spare rod. You know it's just a string tied to a bamboo pole, right? That means when deciding the order, you should go against him."
+ssh "เหมือนฮิเดอากิจะได้คันเบ็ดสำรองที่เป็นสายเอ็นตกปลาผูกกับไม้ไผ่นะ แปลว่าถ้าจะต้องเลือกลำดับกันแข่ง นายต้อง\nไปตกกับเขา"
 
-hi "What, why me?"
+# hi "What, why me?"
+hi "ฮะ? ไหงเป็นฉันล่ะ"
 
 show misha sign_smile_cas
 with charachange
 
-mi "You have the least experience here, Hicchan~."
+# mi "You have the least experience here, Hicchan~."
+mi "ก็ฮิจังมีประสบการณ์การตกปลาน้อยสุดนี่นา~"
 
-hi "Yeah? So who's the best here? Shizune? Hideaki is your brother, he's probably just as good. He probably fishes all the time, since he lives closer to a lake. He might even be better."
+# hi "Yeah? So who's the best here? Shizune? Hideaki is your brother, he's probably just as good. He probably fishes all the time, since he lives closer to a lake. He might even be better."
+hi "อาฮะ? แล้วใครเก่งสุด? ชิซูเนะ? ฮิเดอากิเป็นน้องเธอนะ ก็คงจะเก่งพอกันนั่นแหละ แถมอาจตกปลาตลอดเพราะอยู่\nใกล้แม่น้ำเนี่ย เผลอ ๆ เก่งกว่าเธออีกมั้ง"
 
 show akira basic_annoyed
 with charachange
 
-aki "Watching you three makes my head hurt. You know I'm only hearing two thirds of a conversation, right? What's this about?"
+# aki "Watching you three makes my head hurt. You know I'm only hearing two thirds of a conversation, right? What's this about?"
+aki "ดูเธอสามคนคุยกันแล้วปวดหัว รู้ใช่มั้ยว่าฉันรับรู้แค่สองในสามส่วนของบทสนทนาเนี่ย คุยอะไรกัน"
 
-hi "Picking our lineup."
+# hi "Picking our lineup."
+hi "เลือกลำดับกันอยู่ครับ"
 
-"Akira makes a troubled face. She's getting impatient, which probably isn't too unreasonable."
+# "Akira makes a troubled face. She's getting impatient, which probably isn't too unreasonable."
+"อากิระทำหน้าเครียด ดูจะเริ่มทนไม่ไหวแล้ว ซึ่งก็พอจะเข้าใจได้แหละ"
 
 show shizu basic_sparkle_cas
 with charachange
 
-ssh "If you're impatient, that only makes me more excited. Now I want to play for higher stakes."
+# ssh "If you're impatient, that only makes me more excited. Now I want to play for higher stakes."
+ssh "ยิ่งเห็นรอไม่ไหวอย่างนี้ก็ยิ่งตื่นเต้นแล้วสิ อยากจะเล่นให้เดิมพันมากขึ้นแล้วสิ"
 
 show akira basic_lost
 with charachange
 
-aki "What's she saying?"
+# aki "What's she saying?"
+aki "เธอว่าไง"
 
-hi "She wants to play for higher stakes."
+# hi "She wants to play for higher stakes."
+hi "บอกว่าอยากเอาเดิมพันให้มากขึ้นน่ะ"
 
 show akira basic_laugh
 with charachange
 
-aki "I wouldn't be too hasty; we have beginner's luck twice over on our side, after all. The only way you'll be able to beat that is by catching a whole ocean."
+# aki "I wouldn't be too hasty; we have beginner's luck twice over on our side, after all. The only way you'll be able to beat that is by catching a whole ocean."
+aki "อย่าเพิ่งรีบนักสิ เรายังมีดวงมือใหม่อยู่ตั้งสองเท่าเลยนะ จะเอาชนะได้ก็คงต้องตกมาให้ได้ทั้งมหาสมุทรเลยแหละ"
 
 show shizu adjust_happy_cas
 with charachange
@@ -1017,82 +1169,100 @@ shi "…"
 show misha hips_grin_cas
 with charachange
 
-mi "This is a freshwater body of water, you marine biologist~."
+# mi "This is a freshwater body of water, you marine biologist~."
+mi "นี่มันน้ำจืดนะแม่นักชีววิทยาทางทะเล~"
 
-"A weird insult, delivered with unblinking and innocent good cheer. Akira doesn't seem bothered. She laughs it off, and Shizune looks like her usual mischievous self again. I'm glad they get along."
+# "A weird insult, delivered with unblinking and innocent good cheer. Akira doesn't seem bothered. She laughs it off, and Shizune looks like her usual mischievous self again. I'm glad they get along."
+"ด่าอะไรแปลก ๆ แถมพูดอย่างหน้าซื่อตาใสอย่างนั้นอีกต่างหาก อากิระดูจะไม่ว่าอะไรแล้วหัวเราะ ส่วนชิซูเนะก็กลับไป\nเป็นคนเจ้าเล่ห์อย่างเคย ดีจังที่สองคนนี้เข้ากันได้"
 
 show akira basic_smile
 with charachange
 
-aki "So are we going to pick teams, or what? I'm getting kinda hungry…"
+# aki "So are we going to pick teams, or what? I'm getting kinda hungry…"
+aki "แล้วนี่จะจับกลุ่มกันตกหรืออะไร ฉันชักหิวแล้วนะ…"
 
 show shizu basic_normal_cas
 with charachange
 
-ssh "Hisao, Misha, and I are on one team, and Lilly, Hideaki, and you are on the other, aren't you?"
+# ssh "Hisao, Misha, and I are on one team, and Lilly, Hideaki, and you are on the other, aren't you?"
+ssh "ฮิซาโอะ มิช่า แล้วก็ฉันจะอยู่ทีมเดียวกัน ส่วนลิลลี่ ฮิเดอากิ แล้วก็ทางนั้นอยู่อีกทีม ก็ตามนั้นนี่"
 
 show akira basic_ending
 with charachange
 
-aki "I suppose that's the most obvious arrangement. Wouldn't mixing it up a little be more fun, though? Eh?"
+# aki "I suppose that's the most obvious arrangement. Wouldn't mixing it up a little be more fun, though? Eh?"
+aki "ก็คงต้องอย่างนั้นแหละนะ แต่คละ ๆ กันหน่อยก็น่าสนุกออก เนอะ"
 
 show misha perky_smile_cas
 with charachange
 
-mi "Hmm~, you don't want to fish with your own sister?"
+# mi "Hmm~, you don't want to fish with your own sister?"
+mi "อืมม~ แล้วไม่อยากตกปลากับน้องสาวตัวเองเหรอ"
 
 show akira basic_boo
 with charachange
 
-aki "Well, neither of us know how to fish, so putting both of us on the same team is kinda…"
+# aki "Well, neither of us know how to fish, so putting both of us on the same team is kinda…"
+aki "ก็เราสองคนไม่มีใครตกปลาเป็นเลยนี่ จะให้อยู่ทีมเดียวกันมันก็…"
 
-"Well, it sounds like I've heard something kind of dangerous. I try to change the subject before Shizune can turn that incredulous look on her face into anything more."
+# "Well, it sounds like I've heard something kind of dangerous. I try to change the subject before Shizune can turn that incredulous look on her face into anything more."
+"แหม่ เหมือนจะได้ยินอะไรอันตรายเข้าแล้วสิ ฉันรีบเปลี่ยนเรื่องก่อนที่สีหน้าที่ไว้ใจไม่ได้ของชิซูเนะจะทันกลายเป็น\nอะไรอย่างอื่นที่มากกว่านั้น"
 
-hi "So, I guess you and Shizune know each other?"
+# hi "So, I guess you and Shizune know each other?"
+hi "แล้วนี่แปลว่าพี่รู้จักกับชิซูเนะงั้นสิครับ"
 
 show akira basic_smile
 with charachange
 
-aki "Sure do. We go way back."
+# aki "Sure do. We go way back."
+aki "รู้จักสิ รู้จักกันมานานแล้ว"
 
 show shizu basic_normal2_cas
 with charachange
 
-"Akira throws a knowing grin at Shizune. It's not until Misha's finished translating what she's said that Shizune gains a troubled face."
+# "Akira throws a knowing grin at Shizune. It's not until Misha's finished translating what she's said that Shizune gains a troubled face."
+"อากิระยิ้มให้ชิซูเนะเป็นเชิงว่ารู้กัน พอมิช่าแปลให้แล้วชิซูเนะก็ทำสีหน้าปั้นยากขึ้นมา"
 
-"Akira sure is different from Lilly. Aside from how they look, she's much more informal and laid back. I expected Lilly's family to all be proper and formal like her, so this is a surprise. But, I feel like she's easy to talk to."
+# "Akira sure is different from Lilly. Aside from how they look, she's much more informal and laid back. I expected Lilly's family to all be proper and formal like her, so this is a surprise. But, I feel like she's easy to talk to."
+"อากิระต่างกับลิลลี่จริง ๆ ไม่ใช่แค่รูปลักษณ์ภายนอก แต่รวมทั้งนิสัยที่ดูเป็นกันเองและสบาย ๆ กว่ามาก ฉันแปลกใจ\nเพราะคิดว่าคนในบ้านลิลลี่จะเป็นคนที่เรียบร้อยผู้ดีอย่างลิลลี่กันหมดเสียอีก แต่รู้สึกเหมือนจะคุยด้วยง่ายแฮะ"
 
 show akira basic_laugh
 with charachange
 
-aki "As much as I like talking about catching fish, we should probably actually do it sometime."
+# aki "As much as I like talking about catching fish, we should probably actually do it sometime."
+aki "ก็อยากคุยเรื่องตกปลาอยู่หรอกนะ แต่รีบ ๆ ตกกันจริง ๆ เลยดีกว่า"
 
 show shizu behind_blank_cas
 with charachange
 
-ssh "Would you suggest that there should be a lineup, like in baseball? Or should it be everyone-at-once, or a tag battle style?"
+# ssh "Would you suggest that there should be a lineup, like in baseball? Or should it be everyone-at-once, or a tag battle style?"
+ssh "จะให้มีรายชื่อคนตกแบบเบสบอล หรือจะตกทั้งสองทีมทีเดียวเลย หรือจะให้แข่งกันแบบคู่ต่อคู่ดี"
 
 show shizu basic_sparkle_cas
 with charachange
 
-ssh "Can everyone sit wherever they want, or do teams have to stick together? Do we call where we fish? What fish sizes will we be counting?"
+# ssh "Can everyone sit wherever they want, or do teams have to stick together? Do we call where we fish? What fish sizes will we be counting?"
+ssh "จะให้นั่งตรงไหนก็ได้ หรือให้ทีมเดียวกันนั่งติดกัน จะให้ประกาศจุดตกปลาด้วยมั้ย จะนับขนาดปลากันยังไงดี"
 
 show akira basic_lost
 with charachange
 
-"Seeing Akira groan after Misha dutifully translates for her, Shizune rubs her glasses, laughing silently."
+# "Seeing Akira groan after Misha dutifully translates for her, Shizune rubs her glasses, laughing silently."
+"ชิซูเนะจับแว่นแล้วหัวเราะอยู่เงียบ ๆ เมื่อเห็นอากิระโอดโอยหลังได้ฟังที่มิช่าแปลให้อย่างขันแข็ง"
 
 show shizu adjust_happy_cas
 with charachange
 
 stop music fadeout 4.0
 
-ssh "Never mind. Let's just fish, then."
+# ssh "Never mind. Let's just fish, then."
+ssh "ช่างเถอะ งั้นก็ตก ๆ เลยดีกว่า"
 
 show shizu behind_smile_cas
 with charachange
 
-ssh "It can be an individual contest."
+# ssh "It can be an individual contest."
+ssh "แข่งแบบหนึ่งต่อหนึ่งแล้วกัน"
 
 stop ambient fadeout 2.0
 
@@ -1101,108 +1271,158 @@ with shorttimeskip
 
 play music music_ease
 
-"I sit down, ready to fish, although I'm not feeling very confident. Everyone else is already sitting, except Akira, who takes a seat next to me and throws her line out after taking off her suit jacket and rolling up her sleeves."
+# "I sit down, ready to fish, although I'm not feeling very confident. Everyone else is already sitting, except Akira, who takes a seat next to me and throws her line out after taking off her suit jacket and rolling up her sleeves."
+"ฉันนั่งลงเตรียมตกปลา ถึงจะยังไม่มั่นใจเท่าไหร่ก็เถอะ ทุกคนนั่งกันหมดแล้วยกเว้นอากิระที่เพิ่งถอดชุดสูทออก\nแล้วพับแขนเสื้อก่อนจะมานั่งลงข้างฉันแล้วเหวี่ยงคันเบ็ด"
 
-"Misha and Hideaki end up sitting on the shore and fishing together, as there's not enough room on the pier for everyone. Truth be told, I'd rather be sitting next to Shizune, but Akira seems approachable enough."
+# "Misha and Hideaki end up sitting on the shore and fishing together, as there's not enough room on the pier for everyone. Truth be told, I'd rather be sitting next to Shizune, but Akira seems approachable enough."
+"มิช่าและฮิเดอากินั่งอยู่ริมตลิ่งตกปลาด้วยกันเพราะท่าน้ำไม่พอนั่ง เอาจริง ๆ ฉันอยากนั่งข้างชิซูเนะมากกว่า\nแต่อากิระก็พอเป็นคนที่คุยด้วยได้ละนะ"
 
-aki "Careful there, you're a little close. Don't tangle our lines, 'kay?"
+# aki "Careful there, you're a little close. Don't tangle our lines, 'kay?"
+aki "ระวังหน่อย ใกล้ไปแล้ว ห้ามให้สายพันกันนะ เค๊?"
 
-hi "So, you've never fished before?"
+# hi "So, you've never fished before?"
+hi "แล้วนี่พี่ไม่เคยตกปลามาก่อนเหรอครับ"
 
-aki "No, but I've seen a bit of it on TV. I always wanted to catch one of those big fish with a sword for a face. Marlin, I think."
+# aki "No, but I've seen a bit of it on TV. I always wanted to catch one of those big fish with a sword for a face. Marlin, I think."
+aki "ไม่อะ แต่เคยเห็นในโทรทัศน์อยู่ ฉันอยากตกปลาที่หัวเหมือนดาบนั่นมานานแล้ว ปลากระโทงมั้ง"
 
-li "If I recall correctly, those are from the ocean; they are saltwater fish."
+# li "If I recall correctly, those are from the ocean; they are saltwater fish."
+li "ถ้าจำไม่ผิด เหมือนปลาที่ว่าจะเป็นปลาน้ำเค็มอยู่ในมหาสมุทรนะ"
 
-aki "I know that. Why's everyone acting like I don't know the difference between freshwater and saltwater fish?"
+# aki "I know that. Why's everyone acting like I don't know the difference between freshwater and saltwater fish?"
+aki "รู้น่า ทำไมทุกคนถึงทำเหมือนฉันแยกปลาน้ำจืดกับปลาน้ำเค็มไม่ออกเนี่ย"
 
-li "If you aren't careful, you'll scare off the fish, saltwater or not."
+# li "If you aren't careful, you'll scare off the fish, saltwater or not."
+li "ระวังหน่อยนะ เดี๋ยวปลาก็ตกใจหนีไปหมดหรอก น้ำเค็มน้ำจืดก็ช่าง"
 
-"Akira's voice is somewhat loud between her attempts to both egg on Shizune and keep Lilly entertained, so she may have a point. My line doesn't seem to be picking up anything, but I don't know how much of that is down to Akira."
+# "Akira's voice is somewhat loud between her attempts to both egg on Shizune and keep Lilly entertained, so she may have a point. My line doesn't seem to be picking up anything, but I don't know how much of that is down to Akira."
+"อากิระพยายามจะโหมไฟให้ชิซูเนะและดึงให้ลิลลี่สนุกไปด้วย แต่เสียงออกจะดังไปหน่อย ก็คงถูกของลิลลี่ละนะ\nเหมือนเบ็ดฉันจะยังไม่กระตุกหรืออะไร แต่ไม่รู้ว่าฝั่งอากิระเป็นยังไงแล้วบ้าง"
 
-"Shizune does her best to relax in the sun, and pulls the look off very well, but I can tell that she'd be slightly put off by not knowing what's being talked about. Not having Misha around can be a real problem."
+# "Shizune does her best to relax in the sun, and pulls the look off very well,
+# but I can tell that she'd be slightly put off by not knowing what's being talked about. Not having Misha around can be a real problem."
+"ชิซูเนะทำทีเป็นอาบแดดอยู่สบาย ๆ ได้ดีทีเดียว แต่ฉันรู้ว่าเธอคงแอบหงุดหงิดที่ไม่รู้ว่าทางนี้คุยอะไรกันอยู่ ไม่มีมิช่า\nแล้วลำบากจริง ๆ"
 
-ssh "Hisao, what's the score so far? Are we winning? I hope we are, given that I've entrusted you with our team's success."
+# ssh "Hisao, what's the score so far? Are we winning? I hope we are, given that I've entrusted you with our team's success."
+ssh "ฮิซาโอะ คะแนนเท่าไหร่แล้ว นำอยู่หรือเปล่า หวังว่าจะนำอยู่นะ อุตส่าห์ฝากความหวังทีมไว้กับนาย"
 
-"I manage to do some awkward signing with creative placement of my rod. It's probably close to being gibberish in spoken terms."
+# "I manage to do some awkward signing with creative placement of my rod. It's probably close to being gibberish in spoken terms."
+"ฉันทำภาษามือแบบเก้ ๆ กัง ๆ โดยที่วางคันเบ็ดไว้แบบแปลก ๆ ถ้าเป็นเทียบการพูดแล้วก็คงแทบจับใจความไม่ได้"
 
-hi "You're like, right there. Can't you tell?"
+# hi "You're like, right there. Can't you tell?"
+hi "ก็เห็น ๆ กันอยู่นี่ ดูไม่ออกเหรอ"
 
-ssh "Disappointing; you let yourself get distracted. You have to stay focused."
+# ssh "Disappointing; you let yourself get distracted. You have to stay focused."
+ssh "น่าผิดหวังเสียจริง นายวอกแวกแล้ว นายต้องจดจ่อสิ"
 
-hi "Should have known. Well, it's 0-0 in any case."
+# hi "Should have known. Well, it's 0-0 in any case."
+hi "ขอโทษที เอาเถอะ คะแนนยัง 0-0"
 
-"Akira chuckles, although it's clear that really took the wind out of her sails."
+# "Akira chuckles, although it's clear that really took the wind out of her sails."
+"อากิระหัวเราะ ถึงจะเห็นจ๋อยไปตอนได้ยินคะแนนนั้นก็เถอะ"
 
-hi "Is it just numbers now, or are we keeping track of size, too?"
+# hi "Is it just numbers now, or are we keeping track of size, too?"
+hi "แล้วนี่จะนับจำนวนหรือวัดขนาดด้วย"
 
-ssh "Both; grading matters."
+# ssh "Both; grading matters."
+ssh "ทั้งคู่ ต้องคิดคะแนน"
 
-hi "Who's going to be grading them? Are you a certified fish judge?"
+# hi "Who's going to be grading them? Are you a certified fish judge?"
+hi "แล้วใครจะคิดคะแนน เธอมีใบรับรองกรรมการชั่งตวงวัดปลาหรือไง"
 
-"Shizune shakes her head to signify that she isn't."
+# "Shizune shakes her head to signify that she isn't."
+"ชิซูเนะสั่นหัวเป็นเชิงว่าไม่มี"
 
-ssh "…But it doesn't seem like it would be very hard. Tell Misha to stop flailing her hands around like that, it's scaring all the fish away. And ask Hideaki why he hasn't even bothered to cast yet."
+# ssh "…But it doesn't seem like it would be very hard. Tell Misha to stop flailing her hands around like that, it's scaring all the fish away. And ask Hideaki why he hasn't even bothered to cast yet."
+ssh "…แต่ก็ดูจะไม่ยากนี่ บอกมิช่าให้เลิกโบกมือไปมาอย่างนั้นได้แล้ว เดี๋ยวปลาก็หนีไปหมด แล้วบอกฮิเดอากิด้วยว่าทำไม\nยังไม่เหวี่ยงคันเบ็ดอีก"
 
-"I look over to the two and yell what Shizune said to them."
+# "I look over to the two and yell what Shizune said to them."
+"ฉันหันไปตะโกนบอกที่ชิซูเนะฝากบอก"
 
-mi "Shicchan, I think he's upset that he's stuck with the backup rod~!"
+# mi "Shicchan, I think he's upset that he's stuck with the backup rod~!"
+mi "ชิจัง เหมือนเขาจะไม่พอใจที่ได้ใช้คันเบ็ดสำรองนะ~"
 
-"Since Misha is largely unable to sign anything coherently right now, she only gets a puzzled look from Shizune for a reply. Shizune just sighs after I translate it for her."
+# "Since Misha is largely unable to sign anything coherently right now, she only gets a puzzled look from Shizune for a reply. Shizune just sighs after I translate it for her."
+"มิช่ายังไม่สามารถทำภาษามือได้อย่างสมบูรณ์เท่าไหร่ ชิซูเนะได้แต่มองด้วยความงงงัน เธอถอนหายใจหลังจากที่ฉัน\nแปลให้"
 
-aki "Hey, even if you're depressed about it, you've got to try. You could catch the big one, for all you know. But you won't catch anything unless you do!"
+# aki "Hey, even if you're depressed about it, you've got to try. You could catch the big one, for all you know. But you won't catch anything unless you do!"
+aki "นี่ จะหดหู่หรืออะไรก็ช่าง ต้องลองก่อนนะ อาจจะตกได้ตัวใหญ่เลยก็ได้ แต่ถ้าไม่ลองก็ตกไม่ได้อะไรเลยนะ"
 
-"I feel that at least half of her encouragement is because if Hideaki does catch “the big one,” she wants to be there to eat it, and having six people fishing just leads to better chances of catching something than having five."
+# "I feel that at least half of her encouragement is because if Hideaki does catch “the big one,” she wants to be there to eat it, and having six people fishing just leads to better chances of catching something than having five."
+"ฉันสัมผัสได้ว่าส่วนหนึ่งที่ส่งกำลังใจไปอย่างนั้นเพราะอากิระอยากกินด้วยถ้าฮิเดอากิตกได้ “ตัวใหญ่” มาจริง ๆ\nและการที่มีหกคนช่วยกันตกก็ย่อมมีโอกาสมากกว่าห้าคน"
 
-"The constant awkward shuffling I have to do to communicate with Shizune, not to mention her increasing fidgeting, make me think it might be good to give her a go at fishing."
+# "The constant awkward shuffling I have to do to communicate with Shizune, not to mention her increasing fidgeting, make me think it might be good to give her a go at fishing."
+"พอต้องสลับคันเบ็ดไปมาเพื่อสื่อสารกับชิซูเนะแล้วก็รู้สึกว่าน่าจะถึงเวลาแล้วที่ต้องเปลี่ยนตัวให้เธอมาตกบ้าง เห็น\nทำท่ายุกยิกอยูุ่ด้วย"
 
-hi "Hey guys, can we switch over now?"
+# hi "Hey guys, can we switch over now?"
+hi "นี่ทุกคน เปลี่ยนตัวกันได้หรือยัง"
 
-aki "Sure. Lilly?"
+# aki "Sure. Lilly?"
+aki "ได้ ลิลลี่?"
 
-li "No, no, please. I have no idea how to fish."
+# li "No, no, please. I have no idea how to fish."
+li "ไม่ ไม่ต้องหรอก หนูตกปลาไม่เป็น"
 
-"I sign what they say, given that I seem to have taken Misha's place as Shizune's interpreter right now."
+# "I sign what they say, given that I seem to have taken Misha's place as Shizune's interpreter right now."
+"ฉันทำภาษามือที่สองคนนี้คุยกัน เพราะเหมือนฉันจะต้องมาสวมบทมิช่าเป็นล่ามให้ชิซูเนะแล้ว"
 
-ssh "How magnanimous of you, Lilly."
+# ssh "How magnanimous of you, Lilly."
+ssh "ใจใหญ่ใจโตจังเลยนะลิลลี่"
 
-"Oh boy, here we go. I don't bother translating what she says for fear of sparking another fight."
+# "Oh boy, here we go. I don't bother translating what she says for fear of sparking another fight."
+"โอย เอาแล้วไง ฉันไม่แปลที่เธอบอกเพราะไม่อยากให้เกิดการวิวาทขึ้นอีก"
 
-hi "Shizune says you should at least try. It might even turn out to be fun."
+# hi "Shizune says you should at least try. It might even turn out to be fun."
+hi "ชิซูเนะบอกว่าลองหน่อยก็ดีนะ อาจจะสนุกก็ได้"
 
-li "Very well. Akira, how do you use this?"
+# li "Very well. Akira, how do you use this?"
+li "งั้นก็ได้ พี่ อันนี้ใช้ยังไงเหรอ"
 
-aki "It's pretty simple…"
+# aki "It's pretty simple…"
+aki "ง่ายนิดเดียว…"
 
-"I wonder how ethical it is to purposely completely change what Shizune said like that. At least it paid off."
+# "I wonder how ethical it is to purposely completely change what Shizune said like that. At least it paid off."
+"บิดเบือนสิ่งที่ชิซูเนะบอกอย่างนั้นมันผิดจริยธรรมมั้ยนะ แต่อย่างน้อยก็ไม่มีการวิวาทเกิดขึ้น"
 
 scene ev shizu_fishing_sl
 with shorttimeskip
 
-li "…I think I understand. What bait do you think would be the best to use? I'd prefer something that wouldn't hurt the fish too much."
+# li "…I think I understand. What bait do you think would be the best to use? I'd prefer something that wouldn't hurt the fish too much."
+li "…พอจะจับทางได้แล้วละ พี่ว่าเหยื่อแบบไหนดีสุดเหรอ หนูไม่อยากให้ปลาต้องเจ็บมาก"
 
-aki "If you're putting a hook through their mouth, I don't think the bait's going to hurt them much more."
+# aki "If you're putting a hook through their mouth, I don't think the bait's going to hurt them much more."
+aki "ถ้าเบ็ดมันจะเกี่ยวปาก ยังไงเหยื่อก็ไม่มีผลขนาดนั้นมั้ง"
 
-hi "And letting it go…? No, no, don't do that."
+# hi "And letting it go…? No, no, don't do that."
+hi "ตกแล้วจะปล่อยเหรอ… ไม่ ๆ อย่าทำอย่างนั้น"
 
-li "But if it isn't big, there's little point in killing it…"
+# li "But if it isn't big, there's little point in killing it…"
+li "แต่ถ้าไม่ใช่ปลาตัวใหญ่ ฆ่าแกงไปก็ไม่เห็นมีประโยชน์อะไรเลย"
 
-"With my hands freed, it's much easier for me to interpret what everyone's saying. Now Shizune's the one that has to deal with her hands being full, but she seems to take it in her stride."
+# "With my hands freed, it's much easier for me to interpret what everyone's saying. Now Shizune's the one that has to deal with her hands being full, but she seems to take it in her stride."
+"พอมือฉันว่างแล้วก็แปลสิ่งที่ทุกคนพูดได้ง่ายขึ้น คราวนี้เป็นชิซูเนะแทนที่มือไม่ว่าง แต่เธอก็ดูตื่นเต้นเอามาก ๆ"
 
-ssh "That's so arrogant. Okay, I'll only reel in the big ones too, from now on."
+# ssh "That's so arrogant. Okay, I'll only reel in the big ones too, from now on."
+ssh "อวดดีจังเลยนะ ได้ งั้นจากนี้ฉันจะตกเฉพาะตัวใหญ่ ๆ ก็แล้วกัน"
 
-aki "What's she saying?"
+# aki "What's she saying?"
+aki "เธอว่าไง"
 
-"Akira just sighs after I interpret for her."
+# "Akira just sighs after I interpret for her."
+"อากิระถอนหายใจเมื่อได้ฟังที่ฉันแปลให้"
 
-aki "No, I don't like that “only.” You know, a fish is a fish, and you take what you can get."
+# aki "No, I don't like that “only.” You know, a fish is a fish, and you take what you can get."
+aki "ไม่สิ คำว่า “เฉพาะ” มันยังไงอยู่นะ ปลามันก็คือปลามั้ย ตกได้อะไรก็ต้องเอาตัวนั้นเลย"
 
-"Unfortunately, Shizune can't hear her and Lilly doesn't seem to be paying much attention now."
+# "Unfortunately, Shizune can't hear her and Lilly doesn't seem to be paying much attention now."
+"แต่โชคไม่ดีที่ชิซูเนะไม่ได้ยิน ส่วนลิลลี่ก็ดูจะไม่สนใจเท่าไหร่"
 
-"Lilly's taking to fishing easily; it is a very relaxed activity, after all. It isn't long before they both catch a fish, and surprisingly, Lilly is just as interested in which is the bigger of the two as Shizune is."
+# "Lilly's taking to fishing easily; it is a very relaxed activity, after all. It isn't long before they both catch a fish, and surprisingly, Lilly is just as interested in which is the bigger of the two as Shizune is."
+"ลิลลี่จดจ่ออยู่กับการตกปลาไปแล้ว ก็นะ เป็นกิจกรรมที่ผ่อนคลายดีนี่นา ไม่นานทั้งสองคนก็ตกได้ ลิลลี่ดูจะอยากรู้\nพอ ๆ กับชิซูเนะว่าปลาของใครใหญ่กว่ากัน"
 
 stop music fadeout 3.0
 
-"As the hours pass, it seems like they're even starting to have fun."
+# "As the hours pass, it seems like they're even starting to have fun."
+"ผ่านไปสองสามชั่วโมงทั้งสองคนก็ดูจะสนุกกันขึ้นมาแล้ว"
 
 scene bg shizu_fishing_ss
 with shorttimeskip
@@ -1210,33 +1430,41 @@ with shorttimeskip
 play ambient sfx_parkambience fadein 4.0
 play music music_tranquil fadein 3.0
 
-"At the end of the day, we have several good-sized fish between us. Even Hideaki and Misha managed to catch one. No one brings up that we were competing to see who could catch more. I don't think it matters to anyone any more."
+# "At the end of the day, we have several good-sized fish between us. Even Hideaki and Misha managed to catch one. No one brings up that we were competing to see who could catch more. I don't think it matters to anyone any more."
+"จนสุดท้ายก็ได้ปลาที่ขนาดพอใช้ได้มาหลายตัว แม้แต่ฮิเดอากิและมิช่าก็ตกมาได้เหมือนกัน ไม่มีใครพูดถึงเรื่องที่\nตกปลาแข่งกันเลย คงไม่มีใครสนใจแล้วละนะ"
 
 show akira basic_smile_ss at center
 with charaenter
 
-"Shizune and Misha are talking between themselves some distance away, and Lilly and Hideaki are doing the same. I decide to take advantage of the quiet moment to talk with Akira."
+# "Shizune and Misha are talking between themselves some distance away, and Lilly and Hideaki are doing the same. I decide to take advantage of the quiet moment to talk with Akira."
+"ชิซูเนะและมิช่าคุยกันอยู่สองคนอยู่ห่าง ๆ ลิลลี่และฮิเดอากิก็เช่นกัน ฉันจึงถือโอกาสช่วงที่เงียบ ๆ นี้คุยกับอากิระ"
 
-hi "Lilly and Shizune got on well today. I didn't really expect it, after seeing how they act towards each other in school."
+# hi "Lilly and Shizune got on well today. I didn't really expect it, after seeing how they act towards each other in school."
+hi "วันนี้ทั้งลิลลี่กับชิซูเนะดูเข้ากันดีนะครับ ปกติเห็นอยู่ที่โรงเรียนก็ไม่ค่อยถูกกันเท่าไหร่แท้ ๆ ผิดคาดเลย"
 
 show akira basic_boo_ss
 with charachange
 
-"She gives an amused snort. It looks like she doesn't take their feuding as seriously as I do."
+# "She gives an amused snort. It looks like she doesn't take their feuding as seriously as I do."
+"เธอแค่นหัวเราะยิ้ม ๆ เหมือนจะไม่คิดมากเรื่องที่สองคนนี้ไม่ลงรอยกันอย่างฉันเท่าไหร่"
 
-aki "They've got their reasons. Lilly and I are going away for a while tomorrow, so we thought we'd just pop by."
+# aki "They've got their reasons. Lilly and I are going away for a while tomorrow, so we thought we'd just pop by."
+aki "สองคนนั้นก็มีเหตุผลของเขาแหละ เดี๋ยวพรุ่งนี้ลิลลี่กับฉันก็จะไม่ได้อยู่ที่นี่สักพักแล้ว เลยกะว่าจะแวบมาหน่อย"
 
 show akira basic_ending_ss
 with charachange
 
-aki "In the end, I'm glad we did."
+# aki "In the end, I'm glad we did."
+aki "ซึ่งก็ดีใจนะที่ได้มา"
 
-"After a brief silence, she stretches loudly and then claps her hands to get everyone's attention."
+# "After a brief silence, she stretches loudly and then claps her hands to get everyone's attention."
+"หลังจากที่เงียบไปสักพักเธอก็ยืดเส้นสายร้องโอดโอยแล้วตบมือดึงความสนใจจากทุกคน"
 
 show akira basic_smile_ss
 with charachange
 
-aki "Well, that looks like enough to feed everyone. We should be getting back, now."
+# aki "Well, that looks like enough to feed everyone. We should be getting back, now."
+aki "เอาละ น่าจะพอกินแล้วนะ กลับกันตอนนี้เลยดีกว่า"
 
 show bg shizu_fishing_ss at bgright
 show akira basic_smile_ss at tworight
@@ -1245,24 +1473,29 @@ with charamove
 show lilly basic_weaksmile_cas_ss at twoleft
 with charaenter
 
-"Lilly nods, but then hesitates. Even with her face clouding a bit, she still looks to be in a better mood than this morning. Akira really seems to know how to handle her, and defused her antipathy towards Shizune pretty well."
+# "Lilly nods, but then hesitates. Even with her face clouding a bit, she still looks to be in a better mood than this morning. Akira really seems to know how to handle her, and defused her antipathy towards Shizune pretty well."
+"ลิลลี่พยักหน้าก่อนจะทำท่าลังเล ถึงสีหน้าจะยังดูหม่น ๆ แต่ก็ดูอารมณ์ดีขึ้นกว่าตอนเช้า อากิระดูจะรู้วิธีรับมือเธอ\nกับนิสัยเย็นชาของเธอที่เป็นกับชิซูเนะได้ดีจริง ๆ"
 
 show akira basic_ending_ss
 with charachange
 
-aki "Today's catch looks delicious, I kinda wish I had some soy sauce so I could just eat it now."
+# aki "Today's catch looks delicious, I kinda wish I had some soy sauce so I could just eat it now."
+aki "ปลาวันนี้ดูน่าอร่อยนะ อยากได้โชยุมาจิ้มกินตอนนี้เลยจริง ๆ"
 
 show lilly basic_surprised_cas_ss
 with charachange
 
-li "I thought you wanted me to cook it…"
+# li "I thought you wanted me to cook it…"
+li "ไหนพี่บอกจะให้หนูเอาไปทำกับข้าว…"
 
 show akira basic_laugh_ss
 with charachange
 
-aki "You don't think eating it raw would be okay?"
+# aki "You don't think eating it raw would be okay?"
+aki "อ้าว กินดิบไม่ได้เหรอ"
 
-"Despite Akira's protests, or joking as I can't tell which, we decide to wait to at least cook the fish before eating it."
+# "Despite Akira's protests, or joking as I can't tell which, we decide to wait to at least cook the fish before eating it."
+"ถึงอากิระจะร้องประท้วง—หรือไม่ก็แค่หยอกเล่นเฉย ๆ เพราะฉันดูไม่ออกว่าพูดเล่นหรือพูดจริง—พวกเราก็ตัดสินใจว่า\nอย่างน้อยก็จะเอาไปทำกับข้าวก่อนกินกัน"
 
 stop ambient fadeout 2.0
 
@@ -1271,7 +1504,8 @@ with shorttimeskip
 
 stop music fadeout 3.0
 
-"It's already become pretty late while we were out, and by the time we arrive back at Shizune's house, it's a good time for dinner."
+# "It's already become pretty late while we were out, and by the time we arrive back at Shizune's house, it's a good time for dinner."
+"กว่าจะได้กลับกันก็เย็นมากแล้ว เมื่อมาถึงบ้านชิซูเนะก็ประจวบเหมาะได้จังหวะทานมื้อเย็นพอดี"
 
 scene black
 with dissolve
@@ -1285,334 +1519,436 @@ with locationchange
 
 play music music_pearly fadein 5.0
 
-"Some of my pills spilled out all over the bottom of my bag, which I didn't realize until minutes before I was set to go to bed last night. I spent quite a bit of time scraping them out of my luggage."
+# "Some of my pills spilled out all over the bottom of my bag, which I didn't realize until minutes before I was set to go to bed last night. I spent quite a bit of time scraping them out of my luggage."
+"ยาของฉันบางส่วนหกเกลื่อนอยู่ก้นกระเป๋า มารู้อีกทีก็ตอนที่ฉันเตรียมเข้านอน กว่าจะเก็บกวาดยาทั้งหมดได้\nก็ใช้เวลาพอสมควร"
 
-"By the time I get up, I'm already starting the day with a migraine from a combination of trouble falling asleep and waking up late."
+# "By the time I get up, I'm already starting the day with a migraine from a combination of trouble falling asleep and waking up late."
+"และเมื่อตื่นมาก็ปวดหัวรับวันกันเลยทีเดียว เพราะเมื่อคืนนอนไม่ค่อยหลับ แถมยังตื่นสายอีก"
 
 scene bg shizu_living
 show hideaki normal_up at center
 with locationchange
 
-"When I step into the living room, Hideaki is there finishing up his breakfast. His fork raised midway to his mouth, he seems unsure whether he should continue eating or greet me. Maybe I should back out of the room."
+# "When I step into the living room, Hideaki is there finishing up his breakfast. His fork raised midway to his mouth, he seems unsure whether he should continue eating or greet me. Maybe I should back out of the room."
+"พอเดินไปที่ห้องนั่งเล่นก็เห็นฮิเดอากิที่กำลังกินข้าวเช้าจนใกล้หมดแล้ว เขาถือส้อมค้างไว้ดูไม่แน่ใจว่าจะกินต่อหรือ\nทักทายฉันก่อนดี หรือฉันจะเดินหนีไปก่อนดีนะ"
 
 show hideaki triangle
 with charachange
 
-hh "Good morning."
+# hh "Good morning."
+hh "อรุณสวัสดิ์ครับ"
 
-hi "Morning."
-
-show hideaki thinking
-with charachange
-
-hh "What do you think we should have for breakfast?"
-
-hi "“We?” Aren't you eating breakfast right now?"
-
-show hideaki normal
-with charachange
-
-hh "Yes. Everyone else ate already."
-
-"Despite that, he repeats his question again. He's just trying to be nice. It's an odd way to show it, but I appreciate it nonetheless, and I am feeling pretty hungry."
-
-"I try to make some conversation with him while I'm getting my breakfast, to fill in the silence."
-
-hi "That fishing trip yesterday was fun. Do the Hakamichis and Satous often get together like that?"
-
-show hideaki bored
-with charachange
-
-hh "Not really."
-
-hi "I see."
-
-"I don't, really. There's a brief pause before Hideaki deigns to fill me in a little more."
+# hi "Morning."
+hi "อรุณ"
 
 show hideaki thinking
 with charachange
 
-hh "Family issues. Our fathers are brothers-in-law, and do not like each other."
+# hh "What do you think we should have for breakfast?"
+hh "เช้านี้เรากินอะไรกันดีครับ"
 
-"Hearing that gives me plenty to think about. It puts the way Shizune and Lilly deal with each other into context, and makes me even more wary of getting involved."
-
-hi "Ah. Family issues can be troublesome."
+# hi "“We?” Aren't you eating breakfast right now?"
+hi "“เรา”? ตอนนี้นายก็กินอยู่ไม่ใช่เหรอ"
 
 show hideaki normal
 with charachange
 
-"Hideaki simply nods as I sit at the table with my breakfast. I wish he were a little easier to converse with."
+# hh "Yes. Everyone else ate already."
+hh "ครับ ทุกคนกินหมดแล้ว"
 
-"While I'm eating, I notice that the house seems oddly quiet for a place with Misha in it. If Shizune and Misha ate breakfast already, it can't be because they're asleep. I ask Hideaki where they are."
+# "Despite that, he repeats his question again. He's just trying to be nice. It's an odd way to show it, but I appreciate it nonetheless, and I am feeling pretty hungry."
+"ถึงอย่างนั้นเขาก็ถามซ้ำอยู่ดี คงหวังดีแหละนะ ถึงการกระทำจะแปลกไปหน่อย แต่ฉันก็ยินดีแหละ ฉันเองก็หิวอยู่\nเหมือนกัน"
+
+# "I try to make some conversation with him while I'm getting my breakfast, to fill in the silence."
+"ฉันหาเรื่องคุยระหว่างที่ตัวเองหาอะไรกินเพื่อไม่ให้บรรยากาศเงียบไป"
+
+# hi "That fishing trip yesterday was fun. Do the Hakamichis and Satous often get together like that?"
+hi "เมื่อวานไปตกปลาสนุกมากเลย ปกติสองบ้านนี้ไปด้วยกันอย่างนั้นบ่อยมั้ย"
 
 show hideaki bored
 with charachange
 
-hh "Shizune and Misha left to run some errands for our dad. The local businesspeople love dealing with Misha, so he insisted."
+# hh "Not really."
+hh "ไม่เท่าไหร่ครับ"
 
-hi "Well, she's got a nice and cheerful personality. I can see why they would. Maybe you should start taking lessons from her, you could increase your business connections."
+# hi "I see."
+hi "เข้าใจละ"
+
+# "I don't, really. There's a brief pause before Hideaki deigns to fill me in a little more."
+"จริง ๆ ก็ไม่เข้าใจหรอก แล้วก็เงียบไปครู่หนึ่งก่อนฮิเดอากิจะเห็นควรว่าต้องเล่าเรื่องอะไรให้ฉันอีกหน่อย"
+
+show hideaki thinking
+with charachange
+
+# hh "Family issues. Our fathers are brothers-in-law, and do not like each other."
+hh "ปัญหาครอบครัวน่ะครับ พ่อของพวกเราเป็นพี่น้องบุญธรรมกัน แล้วก็ไม่ชอบพอกันเท่าไหร่"
+
+# "Hearing that gives me plenty to think about. It puts the way Shizune and Lilly deal with each other into context, and makes me even more wary of getting involved."
+"พอรู้อย่างนั้นแล้วฉันก็คิดอะไรอีกหลายอย่าง เบื้องหลังสาเหตุที่ชิซูเนะและลิลลี่ทำตัวอย่างนั้นใส่กันก็ปรากฏ ฉันยิ่ง\nรู้สึกว่าต้องระวังกับเรื่องนี้ขึ้นไปอีก"
+
+# hi "Ah. Family issues can be troublesome."
+hi "อ้อ บางทีปัญหาครอบครัวมันก็ยุ่งยากงั้นแหละนะ"
+
+show hideaki normal
+with charachange
+
+# "Hideaki simply nods as I sit at the table with my breakfast. I wish he were a little easier to converse with."
+"ฮิเดอากิพยักหน้ารับไม่ว่าอะไรจังหวะที่ฉันมานั่งกินข้าวเช้าที่โต๊ะ ถ้าเป็นคนคุยด้วยง่ายอีกหน่อยคงดี"
+
+# "While I'm eating, I notice that the house seems oddly quiet for a place with Misha in it. If Shizune and Misha ate breakfast already, it can't be because they're asleep. I ask Hideaki where they are."
+"ระหว่างที่กินฉันก็รู้สึกว่าถ้ามิช่าอยู่บ้านคงไม่เงียบขนาดนี้ ถ้าทั้งชิซูเนะและมิช่ากินข้าวเช้าไปแล้วก็แปลว่าต้องตื่นแล้ว\nฉันถามฮิเดอากิว่าสองคนนั้นไปไหน"
+
+show hideaki bored
+with charachange
+
+# hh "Shizune and Misha left to run some errands for our dad. The local businesspeople love dealing with Misha, so he insisted."
+hh "พี่ชิซูเนะกับพี่มิช่าออกไปทำธุระให้พ่อครับ นักธุรกิจท้องถิ่นเขาชอบคุยกับมิช่า พ่อเลยวานให้ไป"
+
+# hi "Well, she's got a nice and cheerful personality. I can see why they would. Maybe you should start taking lessons from her, you could increase your business connections."
+hi "ก็นะ เป็นคนร่าเริงสดใสดี พอเข้าใจได้แหละว่าทำไมถึงชอบ นายก็น่าจะดูมิช่าไว้บ้างนะ เผื่อจะได้เพิ่มเส้นสาย\nทางธุรกิจ"
 
 show hideaki confused
 with charachange
 
-hh "Are you serious?"
+# hh "Are you serious?"
+hh "เอาจริงเหรอครับ"
 
-"He sounds serious. I don't know what kind of business connections a little kid would need. Maybe he wants to have the best bake sale fundraiser ever."
+# "He sounds serious. I don't know what kind of business connections a little kid would need. Maybe he wants to have the best bake sale fundraiser ever."
+"น้ำเสียงเขาจริงจัง ฉันไม่รู้ว่าเด็กตัวเล็ก ๆ อย่างเขาจะเอาเส้นสายทางธุรกิจไปทำอะไร สงสัยอยากเป็นคนขายขนม\nหาเงินเข้าโรงเรียนรายใหญ่มั้ง"
 
-"It's a shame I'll eventually have to leave here and won't be around to see whatever he is planning."
+# "It's a shame I'll eventually have to leave here and won't be around to see whatever he is planning."
+"น่าเสียดายที่ฉันจะไม่ได้อยู่ดูว่าเขาวางแผนคิดจะทำอะไรกันแน่"
 
-"I wonder what kind of person Shizune's dad is again, other than relatively outdoorsy. What I know so far is that he asks his business partners and friends of his daughter to do favors for him."
+# "I wonder what kind of person Shizune's dad is again, other than relatively outdoorsy. What I know so far is that he asks his business partners and friends of his daughter to do favors for him."
+"จะว่าไปแล้ว พ่อของชิซูเนะเป็นคนแบบไหนกันนะ นอกจากที่ว่าเป็นคนชอบทำกิจกรรมนอกบ้านแล้ว ตอนนี้ก็รู้อีกว่า\nเป็นคนที่วานให้คู่ค้าทางธุรกิจกับเพื่อนของลูกสาวตัวเองไปทำงานให้"
 
-"I'm assuming he's extremely shy or extremely lazy. Maybe it's a rude call to make so early, but it would certainly explain a large chunk of Shizune's personality."
+# "I'm assuming he's extremely shy or extremely lazy. Maybe it's a rude call to make so early, but it would certainly explain a large chunk of Shizune's personality."
+"เดาว่าคงจะเป็นคนขี้อายมาก ๆ หรือไม่ก็ขี้เกียจมาก ๆ ก็หยาบคายอยู่หรอกที่ด่วนสรุปตัดสินไปอย่างนั้น แต่ถ้าเป็น\nอย่างนั้นจริง ก็จะคลายสงสัยไปได้พอสมควรเลยว่าทำไมบุคลิกชิซูเนะถึงเป็นอย่างนั้น"
 
 show hideaki triangle
 with charachange
 
-hh "Do you want to go anywhere?"
+# hh "Do you want to go anywhere?"
+hh "อยากไปที่ไหนมั้ยครับ"
 
-hi "Not really. Why, do you?"
+# hi "Not really. Why, do you?"
+hi "ไม่เท่าไหร่ ทำไม นายอยาก?"
 
 show hideaki normal
 with charachange
 
-hh "I thought there might be somewhere you would want to go. You don't want to do some sightseeing, or eat at a specific restaurant?"
+# hh "I thought there might be somewhere you would want to go. You don't want to do some sightseeing, or eat at a specific restaurant?"
+hh "ผมคิดว่าพี่อาจจะอยากไปที่ไหนสักที่ ไม่อยากไปเที่ยวหรือไปกินข้าวที่ร้านอาหารสักร้านเหรอครับ"
 
-hi "I don't know. I've never been here before."
+# hi "I don't know. I've never been here before."
+hi "ไม่รู้สิ พอดีไม่เคยมาแถวนี้"
 
 show hideaki thinking
 with charachange
 
-hh "I see."
+# hh "I see."
+hh "อย่างนี้นี่เอง"
 
-"I was just about to ask him about what Shizune was like when she was younger, but he's managed to sidetrack me with just one question. This appears to be as awkward a conversation for him as it is for me."
+# "I was just about to ask him about what Shizune was like when she was younger, but he's managed to sidetrack me with just one question. This appears to be as awkward a conversation for him as it is for me."
+"เมื่อกี้กำลังจะถามว่าตอนเด็ก ๆ ชิซูเนะเป็นยังไง แต่เขาก็ถามแทรกขึ้นมาก่อน เหมือนว่าต่างคนต่างก็รู้สึกเก้ ๆ กัง ๆ กับบทสนทนานี้"
 
-hi "You're sure eager to please today. Why are you being so nice? Are you showing your secret nice side now that your sister isn't around?"
+# hi "You're sure eager to please today. Why are you being so nice? Are you showing your secret nice side now that your sister isn't around?"
+hi "วันนี้นายพร้อมปรนนิบัติเหลือเกินนะ ทำไมทำตัวดีขนาดนี้ พอพี่นายไม่อยู่แล้วจะเผยด้านดี ๆ ที่ซ่อนไว้หรือไง"
 
 show hideaki bored
 with charachange
 
-hh "You're sort of right. Shizune wanted me to keep you company today."
+# hh "You're sort of right. Shizune wanted me to keep you company today."
+hh "ก็ประมาณนั้นแหละครับ พี่ชิซูเนะอยากให้ผมอยู่เป็นเพื่อนพี่"
 
-"I don't want to trouble him, and try to make him see that, but Hideaki is as stubborn as his sister and feels as if this is his duty. He also seems to be earnestly trying to be nice."
+# "I don't want to trouble him, and try to make him see that, but Hideaki is as stubborn as his sister and feels as if this is his duty. He also seems to be earnestly trying to be nice."
+"ฉันทำท่าให้เห็นว่าไม่อยากรบกวน แต่เขาก็เป็นคนรั้นพอ ๆ กับพี่ แถมยังทำเหมือนเป็นหน้าที่ของตัวเองอีก\nทั้งเหมือนจะพยายามทำตัวดีจริง ๆ ด้วย"
 
-"Quickly, I start to realize that Hideaki's idea of fun is fishing, collecting cameras, and making esoteric puns. Fishing is fun, but it's something I would rather do than discuss. The same goes for cameras; I'd rather handle them than collect them."
+# "Quickly, I start to realize that Hideaki's idea of fun is fishing, collecting cameras, and making esoteric puns. Fishing is fun, but it's something I would rather do than discuss. The same goes for cameras; I'd rather handle them than collect them."
+"และฉันก็ฉุกคิดได้ว่าคำว่าสนุกของฮิเดอากิคือการตกปลา สะสมกล้อง กับการเล่นมุกฝืด ๆ เข้าใจยาก ตกปลาก็สนุก\nอยู่หรอก แต่ได้ตกจริง ๆ คงดีกว่าคุยเฉย ๆ เรื่องกล้องก็เหมือนกัน ให้ฉันเอากล้องไปถ่ายรูปยังดีกว่าให้มา\nเก็บสะสมเฉย ๆ"
 
-"This is something Hideaki picks up on himself."
+# "This is something Hideaki picks up on himself."
+"ซึ่งฮิเดอากิก็เหมือนจะรู้ตัว"
 
 show hideaki normal_up
 with charachange
 
-hh "Are you bored?"
+# hh "Are you bored?"
+hh "เบื่อเหรอครับ"
 
-hi "I'm not bored at all."
+# hi "I'm not bored at all."
+hi "ไม่เบื่อเลย"
 
-"I almost yawn the words, so Hideaki ignores them entirely."
+# "I almost yawn the words, so Hideaki ignores them entirely."
+"พูดไปเมื่อกี้ก็เกือบหลุดหาวจนฮิเดอากิไม่เชื่อ"
 
 show hideaki sad
 with charachange
 
-hh "You are bored. Shizune said to be entertaining, and I think I don't know how to do that."
+# hh "You are bored. Shizune said to be entertaining, and I think I don't know how to do that."
+hh "พี่เบื่อ พี่ชิซูเนะบอกให้ผมทำตัวให้สนุก แต่ผมไม่รู้จะทำยังไง"
 
-hi "I am entertained."
+# hi "I am entertained."
+hi "ฉันสนุก"
 
 show hideaki serious
 with charachange
 
-hh "You don't sound entertained."
+# hh "You don't sound entertained."
+hh "ฟังดูไม่สนุกเลยนะครับ"
 
-hi "I am!"
+# hi "I am!"
+hi "สนุก!"
 
 show hideaki normal
 with charachange
 
-hh "Why do you yell? I hope you do not yell so much around Shizune."
+# hh "Why do you yell? I hope you do not yell so much around Shizune."
+hh "ตะโกนทำไมครับ พี่คงไม่ได้ตะโกนกับพี่ชิซูเนะบ่อย ๆ นะครับ"
 
-"It's hard to tell if he's joking. Either way, I'm a bit surprised. I try to play it off and change the subject."
+# "It's hard to tell if he's joking. Either way, I'm a bit surprised. I try to play it off and change the subject."
+"ไม่รู้ว่าเมื่อกี้พูดเล่นหรือเปล่า แต่ก็ตกใจหน่อย ๆ เหมือนกัน ฉันทำเนียน ๆ แล้วเปลี่ยนเรื่อง"
 
-hi "Do you just collect cameras, or are you into photography, too?"
+# hi "Do you just collect cameras, or are you into photography, too?"
+hi "นายสะสมกล้องอย่างเดียวหรือชอบถ่ายรูปด้วย"
 
 show hideaki bored
 with charachange
 
-hh "Not really. If I did, there would be more photos in this house than there currently are. What is there to take pictures of?"
+# hh "Not really. If I did, there would be more photos in this house than there currently are. What is there to take pictures of?"
+hh "ไม่เท่าไหร่ครับ ถ้าชอบจริงในบ้านคงมีรูปถ่ายเยอะกว่านี้ มีอะไรให้ถ่ายรูปด้วยเหรอครับ"
 
-hi "I don't know. Birds? Architecture? One of those restaurants you were talking about? I thought this city had tons of cool stuff. How can you live in a place with so much to do and do nothing?"
+# hi "I don't know. Birds? Architecture? One of those restaurants you were talking about? I thought this city had tons of cool stuff. How can you live in a place with so much to do and do nothing?"
+hi "ไม่รู้สิ นก? สถาปัตยกรรม? ร้านอาหารที่นายพูดถึง? เมืองนี้มีอะไรดี ๆ เยอะเลยนะ มาอยู่เฉย ๆ ได้ไงเนี่ย มีอะไรให้ทำ\nตั้งเยอะแยะ"
 
 show hideaki triangle
 with charachange
 
-hh "I thought you didn't know what there was to do here. Suddenly you have many ideas and are an authority on how interesting it is. You are like our board of tourism. Do you want to go watch birds or buildings?"
+# hh "I thought you didn't know what there was to do here. Suddenly you have many ideas and are an authority on how interesting it is. You are like our board of tourism. Do you want to go watch birds or buildings?"
+hh "ไหนบอกว่าไม่รู้ว่าเมืองนี้มีอะไรไงครับ ทำไมอยู่ ๆ ถึงรู้ขึ้นมาแล้วชี้นิ้วบอกได้ว่าน่าสนใจแค่ไหน ทำตัวเหมือนเป็น\nคณะกรรมการกรมการท่องเที่ยวเลย อยากไปดูนกดูตึกเหรอครับ"
 
-hi "Okay, okay, no need to get so mad."
+# hi "Okay, okay, no need to get so mad."
+hi "โอเค โอเค ไม่เห็นจะต้องอารมณ์เสียเลย"
 
 show hideaki normal
 with charachange
 
-hh "…I'm not mad. I just think that if you feel that strongly about it, then we should go to an amusement park."
+# hh "…I'm not mad. I just think that if you feel that strongly about it, then we should go to an amusement park."
+hh "…ผมไม่ได้อารมณ์เสีย ผมแค่คิดว่าถ้าพี่คิดอย่างนั้นจริง ๆ ก็ไปสวนสนุกกันดีกว่า"
 
-hi "Why?"
+# hi "Why?"
+hi "ทำไม"
 
 show hideaki confused
 with charachange
 
-hh "So that you can be amused. It will be fun."
+# hh "So that you can be amused. It will be fun."
+hh "พี่จะได้สนุก สนุกแน่ ๆ"
 
-"Will he have this same flat, un-fun expression on his face while we're riding roller coasters and drop towers? It would sure bring the fun levels down. The thought does not convince me that it's worth the trip."
+# "Will he have this same flat, un-fun expression on his face while we're riding roller coasters and drop towers? It would sure bring the fun levels down. The thought does not convince me that it's worth the trip."
+"ถ้าได้ไปนั่งรถไฟเหาะแล้วจะยังทำหน้านิ่ง ๆ เบื่อโลกแบบนี้อยู่หรือเปล่า ไม่งั้นคงไม่ได้สนุกเต็มที่เท่าไหร่ แค่คิดก็\nรู้สึกแล้วว่าถ้าไปไม่คุ้มแน่ ๆ"
 
-hi "I don't know, it always sounded to me like going to an amusement park meant you spend more time waiting in lines than actually doing stuff. You'd have to go earlier than this just to skip the lines."
+# hi "I don't know, it always sounded to me like going to an amusement park meant you spend more time waiting in lines than actually doing stuff. You'd have to go earlier than this just to skip the lines."
+hi "ไม่รู้สิ ฉันว่าไปสวนสนุกนี่เสียเวลาต่อแถวนานกว่าได้เล่นอะไรจริง ๆ อีก ถ้าไม่อยากไปต่อแถวนาน ๆ ก็ต้องไป\nให้เช้ากว่านี้"
 
 show hideaki normal
 with charachange
 
-hh "Have you ever been to one?"
+# hh "Have you ever been to one?"
+hh "เคยไปเหรอครับ"
 
-hi "No, but it seems like that is what it's like."
+# hi "No, but it seems like that is what it's like."
+hi "เปล่าหรอก แต่ก็ดูจะเป็นอย่างนั้น"
 
 show hideaki bored
 with charachange
 
-hh "…Fine. What about a regular park? There is one nearby that Shizune likes going to. Maybe she will be there, and I can unload you onto her."
+# hh "…Fine. What about a regular park? There is one nearby that Shizune likes going to. Maybe she will be there, and I can unload you onto her."
+hh "…ครับ งั้นสวนสาธารณะเป็นไง แถวนี้มีสวนสาธารณะที่พี่ชิซูเนะไปบ่อย ๆ ด้วย เผื่อเจอพี่ชิซูเนะที่นั่นแล้วผมจะได้\nส่งต่อพี่ให้พี่ชิซูเนะ"
 
-hi "What do you mean “unload?” I'm not luggage."
+# hi "What do you mean “unload?” I'm not luggage."
+hi "“ส่งต่อ” นี่คืออะไร ฉันไม่ใช่สัมภาระนะ"
 
 show hideaki triangle
 with charachange
 
-hh "You don't want to go to an amusement park. I don't know what to do."
+# hh "You don't want to go to an amusement park. I don't know what to do."
+hh "พี่ไม่อยากไปสวนสนุก ผมก็ไม่รู้จะทำยังไง"
 
-"He looks as though I've hurt his feelings by refusing to go with him. I am already rationalizing my decision. I don't like waiting in lines. It would be too much like a date. I'd rather go with Shizune. It would be too tiring."
+# "He looks as though I've hurt his feelings by refusing to go with him. I am already rationalizing my decision. I don't like waiting in lines. It would be too much like a date. I'd rather go with Shizune. It would be too tiring."
+"เหมือนที่ปฏิเสธไปเมื่อกี้จะเป็นการทำร้ายจิตใจเขาแล้ว แต่ฉันก็อธิบายเหตุผลไปแล้ว ฉันไม่ชอบไปยืนต่อแถวรอ\nจะเหมือนเป็นการเดตเสียมากกว่า ถ้าจะไปก็ไปกับชิซูเนะดีกว่า คงเหนื่อยแย่"
 
-hi "It's nothing personal, it's just that I kinda wanted Shizune to show me around town instead."
+# hi "It's nothing personal, it's just that I kinda wanted Shizune to show me around town instead."
+hi "ฉันก็ไม่ได้อะไรหรอก แค่ว่าฉันอยากให้ชิซูเนะเป็นคนพาฉันไปเที่ยวดูเมืองนี้มากกว่า"
 
 stop music fadeout 2.0
 
-"And I don't think that with my condition going to an amusement park would be such a hot idea."
+# "And I don't think that with my condition going to an amusement park would be such a hot idea."
+"แล้วโรคของฉันก็คงไม่ถูกกับสวนสนุกสักเท่าไหร่"
 
 scene bg shizu_park
 with locationskip
 
 play music music_soothing fadein 0.5
 
-"The park is close enough that their property could almost be considered an extension of it. Both it and Shizune's backyard look about the same, except that the park has benches and more people."
+# "The park is close enough that their property could almost be considered an extension of it. Both it and Shizune's backyard look about the same, except that the park has benches and more people."
+"สวนสาธารณะนั้นอยู่ใกล้จนคล้ายว่าเป็นส่วนหนึ่งของบ้าน ทั้งสวนหลังบ้านของชิซูเนะและที่นี่นั้นดูคล้ายกัน\nจะไม่เหมือนก็ตรงที่นี่มีม้านั่งกับคนเยอะกว่า"
 
-"That said, it's quite nice. There are even people out walking their dogs, and children flying kites that can be seen lazily drifting back and forth over trees in the distance. I could sit here in a relaxing and scenic place like this forever."
+# "That said, it's quite nice. There are even people out walking their dogs, and children flying kites that can be seen lazily drifting back and forth over trees in the distance. I could sit here in a relaxing and scenic place like this forever."
+"แต่บรรยากาศก็ดีใช้ได้ มีคนพาหมามาเดินเล่น มีเด็กที่เล่นว่าวที่ลอยเอื่อยไปมาตามต้นไม้อยู่ลิบ ๆ ทั้งภาพสวย ๆ\nกับบรรยากาศชวนผ่อนคลายอย่างนี้ทำให้รู้สึกว่าไม่อยากไปไหนเลย"
 
 show hideaki bored at center
 with charaenter
 
-"Hideaki, on the other hand, looks like he's extremely bored. I want to poke him to see if he is still alive. But, would he react either way?"
+# "Hideaki, on the other hand, looks like he's extremely bored. I want to poke him to see if he is still alive. But, would he react either way?"
+"ในขณะที่ฮิเดอากินั้นดูเบื่อเต็มกลืน อยากจิ้ม ๆ ดูว่าตายหรือยัง แต่ต่อให้ไม่ตายแล้วจะตอบสนองด้วยเหรอ"
 
-hi "Are you bored?"
+# hi "Are you bored?"
+hi "เบื่อเหรอ"
 
 show hideaki normal
 with charachange
 
-hh "No. Are you going to jog or play frisbee with dogs like everyone else? Is that what people do in parks?"
+# hh "No. Are you going to jog or play frisbee with dogs like everyone else? Is that what people do in parks?"
+hh "เปล่าครับ จะไปวิ่งหรือเล่นขว้างจานร่อนกับหมาอย่างคนอื่น ๆ เหรอครับ คนที่มาสวนสาธารณะเขาทำอย่างนั้นกัน\nใช่มั้ย"
 
-hi "Well, you go to parks to get back to nature and enjoy the atmosphere. That's why you jog in the park, instead of just on the sidewalk or something. You can jog anywhere."
+# hi "Well, you go to parks to get back to nature and enjoy the atmosphere. That's why you jog in the park, instead of just on the sidewalk or something. You can jog anywhere."
+hi "ก็ที่คนมาสวนสาธารณะก็เพื่อจะมาดื่มด่ำกับบรรยากาศธรรมชาตินี่แหละ คนถึงได้มาวิ่งที่สวนสาธารณะ ไม่ได้ไปวิ่ง\nตามทางเท้าหรือที่อื่น จริง ๆ ไอ้วิ่งน่ะวิ่งที่ไหนก็ได้"
 
-hi "I can't believe I am having this conversation. How can you not know this? You shouldn't have brought that up, it's too weird. Haven't you ever heard of “children should be seen, not heard?”"
+# hi "I can't believe I am having this conversation. How can you not know this? You shouldn't have brought that up, it's too weird. Haven't you ever heard of “children should be seen, not heard?”"
+hi "นี่ฉันต้องมาคุยเรื่องนี้จริง ๆ เหรอ ไม่รู้ได้ไงเนี่ย นายไม่น่าพูดเรื่องนั้นขึ้นมาเลย แปลกเกิน ไม่เคยได้ยินเหรอ\nที่เขาว่า “เด็กไม่ควรพูดมาก” น่ะ"
 
 show hideaki bored
 with charachange
 
-hh "Yes."
+# hh "Yes."
+hh "ครับ"
 
 show hideaki triangle
 with charachange
 
-hh "I lied. I'm bored. Would you like to play a game?"
+# hh "I lied. I'm bored. Would you like to play a game?"
+hh "ผมโกหก ผมเบื่อ อยากเล่นเกมมั้ยครับ"
 
-"I groan audibly enough to hope that he understands I don't want to. He doesn't care. In fact, he's already toying with a deck of playing cards."
+# "I groan audibly enough to hope that he understands I don't want to. He doesn't care. In fact, he's already toying with a deck of playing cards."
+"ฉันร้องโอดโอยดัง ๆ ให้พอที่จะทราบว่าฉันไม่อยากเล่น ซึ่งเขาไม่สนใจ อันที่จริง ตอนนี้ในมือเขาก็กำลังจับไพ่\nหนึ่งสำรับเล่นอยู่แล้ว"
 
 show hideaki serious
 with charachange
 
-hh "Why are you upset? That is why we are here."
+# hh "Why are you upset? That is why we are here."
+hh "ทำไมถึงอารมณ์ไม่ดีล่ะครับ ที่มาก็เพื่อเล่นนี่ครับ"
 
-hi "I thought we were here to look for Shizune."
+# hi "I thought we were here to look for Shizune."
+hi "ไหนบอกว่าจะมาหาชิซูเนะ"
 
 show hideaki happy
 with charachange
 
-hh "Exactly. That is why we should play a game. It's a Shizune trap. You can trap anything, including people."
+# hh "Exactly. That is why we should play a game. It's a Shizune trap. You can trap anything, including people."
+hh "ครับ เพราะงั้นถึงได้ต้องเล่นเกมไงครับ เป็นกับดักที่ใช้ดักพี่ชิซูเนะ เราจะดักอะไรก็ได้ แม้แต่คน"
 
 show hideaki thinking
 with charachange
 
-hh "If we compete against each other in the spirit of competition and in a sportsmanly manner, she will be drawn here to challenge the winner, like a shark. Then I will defeat her like a safari hunter. Then take a photo of the award ceremony."
+# hh "If we compete against each other in the spirit of competition and in a sportsmanly manner, she will be drawn here to challenge the winner, like a shark. Then I will defeat her like a safari hunter. Then take a photo of the award ceremony."
+hh "ถ้าแข่งกันด้วยจิตวิญญาณนักแข่งอย่างมีน้ำใจนักกีฬาแล้วพี่ชิซูเนะจะต้องมาท้าดวลกับผู้ชนะเหมือนอย่างฉลาม\nแน่ครับ จากนั้นผมก็จะกำราบเหมือนอย่างนักล่าสัตว์ป่า แล้วก็จะถ่ายรูปงานฉลองมอบรางวัล"
 
-"Sharks do not go around challenging people to games of chance like dojo breakers."
+# "Sharks do not go around challenging people to games of chance like dojo breakers."
+"ฉลามไม่ได้ไปท้าดวลใครต่อใครกับเกมวัดดวงอย่างพวกที่ชอบไปตะลอนท้าประลองตามแต่ละสำนักนะ"
 
-hi "When did you bring that camera? Anyway, no. I get enough games hanging out with your sister."
+# hi "When did you bring that camera? Anyway, no. I get enough games hanging out with your sister."
+hi "แล้วนี่เอากล้องมาตอนไหนเนี่ย แต่เอาเหอะ ไม่อะ แค่อยู่กับพี่นายฉันก็เล่นเกมมาเยอะพอแล้ว"
 
 show hideaki normal
 with charachange
 
-hh "No, come on. It will be fun. We can play chess."
+# hh "No, come on. It will be fun. We can play chess."
+hh "ไม่เอาน่าครับ สนุกแน่ หรือจะเล่นหมากรุกก็ได้"
 
-hi "Please, no. Besides, playing chess in the park is something old people do, like fishing. You're going to get old too fast if you keep doing all this old man stuff."
+# hi "Please, no. Besides, playing chess in the park is something old people do, like fishing. You're going to get old too fast if you keep doing all this old man stuff."
+hi "ขอร้องเถอะ แล้วมีแต่คนแก่หรอกที่มาเล่นหมากรุกในสวนสาธารณะเนี่ย ตกปลาก็มีแต่คนแก่ที่ตก ทำอะไรอย่างคนแก่\nแบบนั้นเดี๋ยวก็แก่เร็วหรอก"
 
 show hideaki darkside
 with charachange
 
-"Hideaki freezes like I've suddenly started speaking a foreign language. Maybe I've offended him again. Maybe he's secretly 50 years old and has just aged incredibly well. Him being Shizune's brother could be a cover story."
+# "Hideaki freezes like I've suddenly started speaking a foreign language. Maybe I've offended him again. Maybe he's secretly 50 years old and has just aged incredibly well. Him being Shizune's brother could be a cover story."
+"ฮิเดอากิตัวแข็งทื่อไปราวกับว่าฉันพูดภาษาต่างชาติอยู่ สงสัยคงไปจี้ใจดำอีกแล้ว จริง ๆ แล้วเขาอาจจะอายุ 50 ปีแล้ว\nแค่ว่ายังดูเด็กเฉย ๆ แล้วที่บอกว่าเป็นน้องนี่ก็อาจเป็นแค่เรื่องแต่งก็ได้"
 
 show hideaki disapproves
 with charachange
 
-hh "What about checkers, or go? Or even backgammon is fine, even though I don't like it. If board games aren't your thing, we can play card games. Anything other than seven card, because it is for wimps."
+# hh "What about checkers, or go? Or even backgammon is fine, even though I don't like it. If board games aren't your thing, we can play card games. Anything other than seven card, because it is for wimps."
+hh "งั้นหมากฮอสล่ะครับ หมากล้อม หรือจะแบ็กแกมมอนก็ได้ครับ ถึงผมจะไม่ชอบก็เถอะ ถ้าพี่ไม่ชอบเกมกระดาน งั้นเล่น\nเกมไพ่ก็ได้ครับ อะไรก็ได้ที่ไม่ใช่แข่งกันเรียงไพ่ เพราะมีแต่พวกกระจอกที่เล่นกันอย่างนั้น"
 
 show hideaki evil
 with charachange
 
-hh "Are you afraid that you will lose? If you can beat me I'll give you candy."
+# hh "Are you afraid that you will lose? If you can beat me I'll give you candy."
+hh "กลัวว่าจะแพ่เหรอครับ ถ้าพี่เอาชนะผมได้ผมจะให้ขนม"
 
-hi "Hideaki, you are just like Shizune. I'm starting to think this is all a pretense to play games."
+# hi "Hideaki, you are just like Shizune. I'm starting to think this is all a pretense to play games."
+hi "ฮิเดอากิ นายนี่เหมือนชิซูเนะเลย ฉันเริ่มคิดแล้วว่าหรือทั้งหมดนี่คือแผนที่จะได้มาเล่นเกมกัน"
 
 show hideaki thinking
 with charachange
 
-hh "No. That is not true."
+# hh "No. That is not true."
+hh "ไม่จริงสักหน่อยครับ"
 
-hi "You are! I bet that competitive streak is genetic. I'll sell you to science."
+# hi "You are! I bet that competitive streak is genetic. I'll sell you to science."
+hi "จริงสิ! พนันได้เลยว่าเชื้อชอบแข่งเนี่ยอยู่ในสายเลือดแล้ว เดี๋ยวต้องลองเอาไปขายให้พวกนักวิทยาศาสตร์\nวิเคราห์ดูแล้ว"
 
 show hideaki normal
 with charachange
 
-hh "No one can own a human being."
+# hh "No one can own a human being."
+hh "ไม่มีใครครอบครองมนุษย์ได้หรอกครับ"
 
-hi "How about I teach you some sign language instead?"
+# hi "How about I teach you some sign language instead?"
+hi "งั้นฉันจะสอนภาษามือให้ ว่าไง"
 
-hi "When Shizune asked me if I wanted to come here, we talked a little, and it seemed like you and your dad don't use sign language. I'm just guessing, but if you don't, I could teach you some. I'm not a master at it, though."
+# hi "When Shizune asked me if I wanted to come here, we talked a little, and it seemed like you and your dad don't use sign language. I'm just guessing, but if you don't, I could teach you some. I'm not a master at it, though."
+hi "ตอนที่ฉันขอชิซูเนะว่าจะมาด้วยก็ได้คุยกันหน่อยหนึ่งแล้วได้รู้ว่าทั้งนายกับพ่อนายไม่มีใครรู้ภาษามือเลย จริง ๆ\nก็แค่เดาว่างั้นนะ แต่ถ้านายไม่รู้จริง ๆ ฉันก็พอสอนให้ได้ แต่ไม่ได้เก่งอะไรขนาดนั้นนะ"
 
-hi "I think it might be good for you to move your arms more, anyway."
+# hi "I think it might be good for you to move your arms more, anyway."
+hi "คือยังไงการขยับแขนให้มากขึ้นอีกหน่อยก็น่าจะดีกับตัวนาย"
 
-"He barely moves his arms. Most of the time they just hang limply at his sides. How unnerving."
+# "He barely moves his arms. Most of the time they just hang limply at his sides. How unnerving."
+"เขาแทบไม่ขยับแขนเลย ส่วนใหญ่ก็แค่ปล่อยไว้เฉย ๆ อยู่ข้างลำตัว เห็นแล้วก็รู้สึกแปลก ๆ"
 
-"It's been bothering me that Shizune's entire family apparently doesn't know how to sign. I wonder what she did before she met Misha. Did they just hire translators for her? Did she write out everything on that pad she carries around?"
+# "It's been bothering me that Shizune's entire family apparently doesn't know how to sign. I wonder what she did before she met Misha. Did they just hire translators for her? Did she write out everything on that pad she carries around?"
+"ฉันอดคิดมากไม่ได้ที่ว่าทั้งบ้านชิซูเนะเหมือนจะไม่มีใครรู้ภาษามือเลย ก่อนที่จะมาเจอกับมิช่านี่อยู่กันยังไง\nจ้างล่ามเหรอ หรือเขียนใส่กระดาษสมุดที่พกติดตัวเล่มนั้น?"
 
-"The second is the most likely, or she could type it out on a phone. That would explain why she dislikes using the pad so much. Sad as it is, I can sort of see why Hideaki or her dad might not have bothered to learn sign language."
+# "The second is the most likely, or she could type it out on a phone. That would explain why she dislikes using the pad so much. Sad as it is, I can sort of see why Hideaki or her dad might not have bothered to learn sign language."
+"ซึ่งเหมือนจะเป็นอย่างที่สองมากกว่า หรือไม่ก็พิมพ์ผ่านโทรศัพท์เอา ซึ่งถ้าเป็นอย่างนั้นก็ไม่แปลกที่เธอจะไม่ชอบ\nใช้กระดาษ ถึงจะคิดแล้วจะหดหู่ แต่ฉันก็พอเข้าใจได้ว่าทำไมทั้งฮิเดอากิและพ่อของเธอไม่ได้กระตือรือร้นที่จะเรียน\nภาษามือเลย"
 
-"It probably was too much of a hassle at the time. It's very easy to think that. From what I've seen so far, though, neither of them hold it against each other or are too badly affected by it. It could be that I'm overthinking the situation."
+# "It probably was too much of a hassle at the time. It's very easy to think that. From what I've seen so far, though, neither of them hold it against each other or are too badly affected by it. It could be that I'm overthinking the situation."
+"ตอนนั้นก็คงมองว่าเป็นเรื่องยุ่งยากเกินไป ของแบบนี้จะมองว่าลำบากก็ไม่แปลกอะไรเลย แต่เท่าที่ดูก็ไม่เห็นว่าจะ\nเกลียดกันเพราะเรื่องนี้หรือคิดมากเรื่องนี้เท่าไหร่ ฉันอาจจะคิดมากไปเองก็ได้"
 
-hi "Come on. Well, to be honest, I'm still learning sign language myself. I brought all my books along with me so I can keep up, you know? Still, I can at least teach you the alphabet. It's pretty simple. This is “kite.”"
+# hi "Come on. Well, to be honest, I'm still learning sign language myself. I brought all my books along with me so I can keep up, you know? Still, I can at least teach you the alphabet. It's pretty simple. This is “kite.”"
+hi "เถอะน่า คือ เอาตรง ๆ ฉันก็ยังเรียนภาษามืออยู่เหมือนกัน เนี่ย ฉันขนหนังสือของฉันมาอ่านเพิ่มด้วย แต่อย่างน้อยฉัน\nก็พอจะสอนพวกตัวอักษรให้นายได้นะ ง่ายนิดเดียวเอง อย่างนี่คือคำว่า “ว่าว”"
 
-"I feel really corny right now, and even more so when Hideaki stares back at me blankly as if the entire concept of learning is alien to him."
+# "I feel really corny right now, and even more so when Hideaki stares back at me blankly as if the entire concept of learning is alien to him."
+"พูดไปก็ขนลุกกับตัวเอง ยิ่งพอฮิเดอากิเหม่อมองมาทางฉันราวกับว่าการเรียนรู้อะไรสักอย่างเป็นสิ่งประหลาดกับตัวเขา\nแล้วก็ยิ่งหนักกว่าเก่าอีก"
 
 show hideaki bored
 with charachange
 
-hh "Shizune liked flying kites here as well."
+# hh "Shizune liked flying kites here as well."
+hh "พี่ชิซูเนะก็ชอบมาเล่นว่าวที่นี่"
 
-"This is his attempt to salvage the conversation, and I'm happy to oblige."
+# "This is his attempt to salvage the conversation, and I'm happy to oblige."
+"เขาพยายามจะกอบกู้บทสนทนานี้ขึ้นมาให้ได้ ซึ่งฉันยินดียิ่งที่จะตามน้ำด้วย"
 
-hi "Fishing, and now kites, too? Shizune really likes all these relaxing hobbies?"
+# hi "Fishing, and now kites, too? Shizune really likes all these relaxing hobbies?"
+hi "ตกปลาไม่พอ เล่นว่าวอีกเหรอ ชิซูเนะชอบกิจกรรมชวนผ่อนคลายอะไรอย่างนี้จริงเหรอเนี่ย"
 
 show hideaki thinking
 with charachange
 
-hh "Fighter kites. Actually, about Shizune—{w=0.5}{nw}"
+# hh "Fighter kites. Actually, about Shizune—{w=0.5}{nw}"
+hh "เล่นว่าวแข่งกัน อันที่จริง เรื่องที่พี่ชิซูเนะ—{w=0.5}{nw}"
 
 stop music fadeout 0.3
 
@@ -1623,51 +1959,63 @@ show misha cross_grin_cas behind hideaki:
 show hideaki ohshit
 with vpunch
 
-"Hideaki freezes as Misha appears behind him and puts her hands over his eyes."
+# "Hideaki freezes as Misha appears behind him and puts her hands over his eyes."
+"ฮิเดอากิตัวแข็งทื่อไปทันทีที่มิช่าเข้ามาทางด้านหลังแล้วเอามือปิดตาเขา"
 
 play music music_comedy fadein 0.5
 
-mi "Hi hi~! Guess who~!"
+# mi "Hi hi~! Guess who~!"
+mi "ไง~! ทายซิใครเอ่ย~!"
 
-"He seemed to finally be loosening up, too."
+# "He seemed to finally be loosening up, too."
+"เหมือนเขาเองก็เริ่มผ่อนคลายลงแล้วด้วย"
 
-hi "Hi, Misha. Is Shizune with you?"
+# hi "Hi, Misha. Is Shizune with you?"
+hi "ไงมิช่า ชิซูเนะมาด้วยมั้ย"
 
-mi "Hicchan, no spoilers! Don't spoil it, don't ruin the surprise, okay~?"
+# mi "Hicchan, no spoilers! Don't spoil it, don't ruin the surprise, okay~?"
+mi "ฮิจัง ห้ามบอก! ห้ามเฉลย ห้ามทำความแตก โอเคนะ~"
 
 show hideaki thinking
 with charachange
 
-hh "Misha."
+# hh "Misha."
+hh "มิช่า"
 
 show bg shizu_park at bgright
 show hideaki normal at tworight
 show misha perky_confused_cas at twoleft
 with dissolvecharamove
 
-mi "Bingo~! That's right! But~, it was too easy, somehow."
+# mi "Bingo~! That's right! But~, it was too easy, somehow."
+mi "บิงโก~! ใช่แล้วละ! แต่~ เหมือนง่ายไปยังไงไม่รู้"
 
-"I don't know what she means by “somehow.”"
+# "I don't know what she means by “somehow.”"
+"ไม่เข้าใจว่า “ยังไงไม่รู้” ที่ว่านั่นคืออะไร"
 
 show misha hips_frown_cas
 with charachange
 
-mi "Too many people can tell it's me! I want to surprise someone! I thought for sure that Hideaki would be fooled~. Why weren't you, hm~?"
+# mi "Too many people can tell it's me! I want to surprise someone! I thought for sure that Hideaki would be fooled~. Why weren't you, hm~?"
+mi "มีคนทายว่าเป็นฉันถูกหลายคนเกินไปแล้ว! ฉันอยากจะเซอร์ไพรส์สักคน! อุตส่าห์คิดแล้วว่าต้องหลอกฮิเดอากิได้แน่~\nทำไมถึงหลอกไม่ได้นะ~"
 
 show hideaki bored
 with charachange
 
-hh "You are the only person who does that. You, and kidnappers."
+# hh "You are the only person who does that. You, and kidnappers."
+hh "มีพี่คนเดียวที่เล่นแบบนี้ มีพี่ แล้วก็แก๊งลักพาตัว"
 
 show misha cross_laugh_cas
 with charachange
 
-mi "Really? Wahaha~!"
+# mi "Really? Wahaha~!"
+mi "จริงเหรอ วะฮ่าฮ่า~!"
 
 show hideaki serious
 with charachange
 
-hh "Why do you laugh?"
+# hh "Why do you laugh?"
+hh "หัวเราะอะไรครับ"
 
 show shizu invis:
     center
@@ -1680,45 +2028,55 @@ show hideaki serious at Position(xpos=0.8)
 show shizu basic_angry_cas at Position(xpos=0.2)
 with dissolvecharamove
 
-ssh "Are you giving Hisao trouble? I thought you would take him somewhere more exciting than the park. It isn't even that far from home. You are so lazy."
+# ssh "Are you giving Hisao trouble? I thought you would take him somewhere more exciting than the park. It isn't even that far from home. You are so lazy."
+ssh "นี่ทำฮิซาโอะเขาปวดหัวหรือเปล่า นึกว่าจะพาไปที่ที่ชวนให้ตื่นเต้นกว่าสวนสาธารณะหน่อย แถมที่นี่ก็อยู่ใกล้บ้าน\nนิดเดียวเอง ขี้เกียจจริงเลยนะ"
 
 show misha hips_frown_cas
 with charachange
 
-mi "Hideaki, are you giving Hicchan trouble? You should have taken him somewhere more exciting! The park is too close to home, Shicchan says you're lazy~."
+# mi "Hideaki, are you giving Hicchan trouble? You should have taken him somewhere more exciting! The park is too close to home, Shicchan says you're lazy~."
+mi "ฮิเดอากิ นายทำฮิซาโอะเขาปวดหัวหรือเปล่า พาไปที่ที่ชวนให้ตื่นเต้นกว่านี้หน่อยสิ! สวนสาธารณะมันใกล้บ้านเกินไป\nชิจังบอกว่านายขี้เกียจละ~"
 
 show hideaki bored
 with charachange
 
-hh "He wanted to come here. Why are you so argumentative?"
+# hh "He wanted to come here. Why are you so argumentative?"
+hh "พี่ฮิซาโอะเขาอยากมาที่นี่ ทำไมพี่ถึงว่ากันอย่างนี้"
 
 show shizu behind_frown_cas
 with charachange
 
-ssh "I have to keep my little brother in line."
+# ssh "I have to keep my little brother in line."
+ssh "ฉันต้องคอยดูความประพฤติของน้องชายตัวเอง"
 
 show hideaki triangle
 with charachange
 
-hh "What is she saying?"
+# hh "What is she saying?"
+hh "พี่ชิซูเนะว่ายังไงนะครับ"
 
-hi "You must be kept in line."
+# hi "You must be kept in line."
+hi "ชิซูเนะต้องคอยดูความประพฤติของนาย"
 
 show hideaki serious
 with charachange
 
-hh "Really…"
+# hh "Really…"
+hh "จริงเล้ย…"
 
-"They're ready to go at each others' throats this quickly. On one hand, I've heard that siblings fighting so much isn't uncommon, and the fact that they fight at all proves there has to be some level of communication going on. So, it's nice they get along."
+# "They're ready to go at each others' throats this quickly. On one hand, I've heard that siblings fighting so much isn't uncommon, and the fact that they fight at all proves there has to be some level of communication going on. So, it's nice they get along."
+"มาถึงก็จะกัดกันซะแล้ว แต่ก็พอได้ยินมาอยู่บ้างว่าพี่น้องตีกันมันเรื่องปกติ แล้วถ้าทะเลาะกันได้ก็แปลว่าต้องสื่อสาร\nกันบ้างแหละ เข้ากันได้อย่างนี้ก็ดีแล้ว"
 
 scene bg shizu_houseext
 with locationskip
 
 stop music fadeout 4.0
 
-"They argue all the way back home. Misha translates for Shizune, and I for Hideaki. So it looks more like we're the ones arguing instead, except not really. Nobody could listen to Misha and believe that."
+# "They argue all the way back home. Misha translates for Shizune, and I for Hideaki. So it looks more like we're the ones arguing instead, except not really. Nobody could listen to Misha and believe that."
+"ทั้งคู่เถียงกันไม่หยุดหย่อนไปตลอดทาง มิช่าแปลให้ชิซูเนะ ส่วนฉันก็แปลให้ฮิเดอากิ เลยดูเหมือนว่าเราสองคนทะเลาะ\nกันแทน ซึ่งก็ไม่ค่อยเหมือนเท่าไหร่ ถ้าใครได้ยินมิช่าพูดก็คงไม่เชื่อเหมือนกัน"
 
-"The day got entertaining in the end, at least."
+# "The day got entertaining in the end, at least."
+"อย่างน้อยวันนี้ก็สนุกขึ้นมาละนะ"
 
 $ suppress_window_after_timeskip = True
 
@@ -1739,11 +2097,14 @@ with openeye
 
 window show
 
-"Despite having only been here for two days, it feels like it's been much longer. I wake up feeling more tired than refreshed. Maybe because I've been moving around almost constantly since I got here."
+# "Despite having only been here for two days, it feels like it's been much longer. I wake up feeling more tired than refreshed. Maybe because I've been moving around almost constantly since I got here."
+"ทั้งที่เพิ่งมาได้สองวัน แต่รู้สึกเหมือนนานกว่านั้นอีก ตื่นมาก็รู้สึกเพลียแทนที่จะสดชื่น คงเพราะตั้งแต่มาที่นี่แทบไม่ได้\nพักอยู่กับที่สักครั้งเลย"
 
-"Whatever the reason, it's making me get up unusually late each day. I like sleeping in, but it could be inconvenient if it ends up becoming a habit."
+# "Whatever the reason, it's making me get up unusually late each day. I like sleeping in, but it could be inconvenient if it ends up becoming a habit."
+"และไม่ว่าจะด้วยเหตุอันใด ฉันได้ตื่นสายกว่าปกติทุกวัน ฉันชอบนอนต่อนาน ๆ ก็จริง แต่ขืนทำจนติดเป็นนิสัย\nคงลำบากแน่"
 
-"I can hear a deep, male voice shouting loudly in the background. It must be Shizune's dad. Or maybe, with the size of this place, it's creditors. More likely the former, since the yelling doesn't seem angry, just loud."
+# "I can hear a deep, male voice shouting loudly in the background. It must be Shizune's dad. Or maybe, with the size of this place, it's creditors. More likely the former, since the yelling doesn't seem angry, just loud."
+"เหมือนได้ยินเสียงผู้ชายทุ้ม ๆ มาแว่ว ๆ ต้องเป็นพ่อชิซูเนะแน่ ๆ หรือไม่ก็เป็นเจ้าหนี้มั้ง ดูจากสภาพบ้านที่ใหญ่ขนาดนี้\nซึ่งน่าจะเป็นอย่างแรกมากกว่า เพราะเสียงตะโกนที่ว่าไม่ได้มีความโกรธมาด้วย แค่เสียงดังเฉย ๆ"
 
 scene bg shizu_living
 show hideaki normal:
@@ -1762,21 +2123,26 @@ with charaenter
 
 play music music_another fadein 0.5
 
-"Shizune, Misha, and Hideaki are sitting in the living room, having a one-sided conversation with a giant bear-man who alternates between shoveling away food from a plate balanced on his leg and twirling a sword."
+# "Shizune, Misha, and Hideaki are sitting in the living room, having a one-sided conversation with a giant bear-man who alternates between shoveling away food from a plate balanced on his leg and twirling a sword."
+"ชิซูเนะ มิช่า และฮิเดอากินั่งอยู่ในห้องนั่งเล่นฟังชายตัวโตคนหนึ่งที่ตักข้าวกินจากจานที่ตั้งอยู่บนขาพลางควงดาบ\nไปด้วยพล่ามอยู่"
 
-"From what Shizune and Hideaki are like, I'd expected their dad to be a very reserved, clean-cut, possibly androgynous person, so I'm pretty surprised. I'm surprised for a while, until he starts talking to me."
+# "From what Shizune and Hideaki are like, I'd expected their dad to be a very reserved, clean-cut, possibly androgynous person, so I'm pretty surprised. I'm surprised for a while, until he starts talking to me."
+"ดูจากท่าทางของชิซูเนะกับฮิเดอากิแล้วฉันก็คิดภาพไว้ว่าพ่อสองคนนี้คงจะเป็นคนเนี้ยบนิ้งรักษากิริยามารยาท\nอาจจะไม่ได้ดูเป็นลูกผู้ชายจ๋าขนาดนั้นด้วยซ้ำ ฉันเลยค่อนข้างแปลกใจที่ได้เห็นอย่างนี้ ฉันแปลกใจอยู่สักพัก\nจนเขาหันมาคุยกับฉัน"
 
 show jigoro laugh
 with charachange
 
-hx_ "Hello! You must be Shizune's other friend. Did you have a good night's rest? The guest rooms are a bit sparse, if there is anything you need, feel free to tell me."
+# hx_ "Hello! You must be Shizune's other friend. Did you have a good night's rest? The guest rooms are a bit sparse, if there is anything you need, feel free to tell me."
+hx_ "สวัสดี! เธอคงเป็นเพื่อนชิซูเนะอีกคนสินะ เมื่อคืนหลับสบายดีมั้ย ห้องนอนแขกค่อนข้างกว้าง ถ้าขาดเหลืออะไร\nก็บอกได้ไม่ต้องเกรงใจนะ"
 
-hi "Thanks. You must be Shizune's father. It's nice to meet you. I'm Shizune's classmate, Hisao Nakai."
+# hi "Thanks. You must be Shizune's father. It's nice to meet you. I'm Shizune's classmate, Hisao Nakai."
+hi "ขอบคุณครับ คุณคงเป็นพ่อของชิซูเนะสินะครับ ยินดีที่ได้รู้จักนะครับ ผมเพื่อนร่วมชั้นชิซูเนะ ชื่อฮิซาโอะ นากาอิครับ"
 
 show jigoro neutral
 with charachange
 
-hx_ "The pleasure is mine. I've wanted to meet you, after hearing that I would have a second guest in my house. Unexpected. You hear something like that, and obviously you want to see what that person is like. Would you like my business card?"
+# hx_ "The pleasure is mine. I've wanted to meet you, after hearing that I would have a second guest in my house. Unexpected. You hear something like that, and obviously you want to see what that person is like. Would you like my business card?"
+hx_ "ด้วยความยินดี พอได้ยินว่าบ้านฉันจะมีแขกอีกคนแล้วฉันก็อยากเจอเธอเหมือนกัน ไม่คาดฝันเลย ได้ยินอะไร\nอย่างนั้นแล้วก็ย่อมอยากเห็นหน้าค่าตาอยู่แล้วใช่มั้ย รับนามบัตรของฉันไว้ก่อนมั้ย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -1785,7 +2151,8 @@ show jigorocard:
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"He holds up a case full of them for a second and I can see that his name is Jigoro and that his office hours are from eight to six. They also say that he's a “consultant”. What a prepared guy, carrying his card case around in his own home."
+# "He holds up a case full of them for a second and I can see that his name is Jigoro and that his office hours are from eight to six. They also say that he's a “consultant”. What a prepared guy, carrying his card case around in his own home."
+"เขายื่นตลับที่มีนามบัตรตั้งกองอยู่ข้างใน แวบหนึ่งฉันเห็นในนามบัตรว่าเขาชื่อจิโกโร เข้างานแปดโมงเช้าถึงหกโมงเย็น\nทั้งมีเขียนไว้ว่าเป็น “ที่ปรึกษา” เตรียมพร้อมดีจริง ๆ ทั้งที่อยู่ในบ้านก็ยังพกตลับนามบัตรไว้ติดตัว"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -1800,137 +2167,177 @@ with None
 show jigoro smug
 with charachange
 
-hx "We're just sitting down to a slightly late lunch, you're just in time to join us. Good. Pick a place to sit down and I'll bring you a plate. I hope you don't mind eating bear liver."
+# hx "We're just sitting down to a slightly late lunch, you're just in time to join us. Good. Pick a place to sit down and I'll bring you a plate. I hope you don't mind eating bear liver."
+hx "พวกเราเพิ่งมานั่งกินข้าวเที่ยงที่เลยเที่ยงมานิดหน่อย เธอมาได้จังหวะพอดี ดี เลือกที่นั่งได้เลยนะ เดี๋ยวฉันไปเอาจาน\nมาให้ เธอกินตับหมีได้ใช่มั้ย"
 
-"I thought that bear liver was toxic. Either way, the thought of eating a bear liver doesn't appeal to me other than for the ability to tell people I've eaten bear liver. I suppose it wouldn't hurt to try it. But Shizune's dad merely laughs."
+# "I thought that bear liver was toxic. Either way, the thought of eating a bear liver doesn't appeal to me other than for the ability to tell people I've eaten bear liver. I suppose it wouldn't hurt to try it. But Shizune's dad merely laughs."
+"ไม่ใช่ว่าตับหมีมันเป็นพิษเหรอ แต่กินได้ไม่ได้ฉันก็ไม่เห็นว่ากินแล้วจะได้อะไรขึ้นมา นอกจากว่าจะเอาไปเล่ากับคนอื่น\nว่าตัวเองเคยกินตับหมีแล้ว ลองหน่อยคงไม่เสียหายมั้ง แต่พ่อของชิซูเนะก็หัวเราะขึ้นมา"
 
 show jigoro laugh
 with charachange
 
-hx "I'm just making a joke. Although, maybe it wouldn't be such a bad idea to cook up some bear livers for you kids. They will make you strong."
+# hx "I'm just making a joke. Although, maybe it wouldn't be such a bad idea to cook up some bear livers for you kids. They will make you strong."
+hx "แค่ล้อเล่นหรอก แต่ถ้าได้ตับหมีมาทำกับข้าวให้พวกเธอกินก็คงดีเหมือนกันนะ กินแล้วจะได้แข็งแรง"
 
 show jigoro neutral
 with charachange
 
-hx "We're actually having omelettes. I'll make you one right now. Is that unusual for you, having an omelette for lunch?"
+# hx "We're actually having omelettes. I'll make you one right now. Is that unusual for you, having an omelette for lunch?"
+hx "จริง ๆ จะกินไข่ทอดกัน เดี๋ยวไปทำให้ แปลกมากมั้ย เธอเคยกินไข่ทอดเป็นข้าวเที่ยงหรือเปล่า"
 
 show hideaki triangle
 with charachange
 
-hh "Very unusual."
+# hh "Very unusual."
+hh "แปลกมากครับ"
 
-hi "No, not at all."
+# hi "No, not at all."
+hi "ไม่ ไม่เลยครับ"
 
 hide jigoro
 with charaexit
 
-"Jigoro vanishes to where the kitchen must be. I'm surprised that despite living in this place, he has to cook my lunch. Maybe he only cooks because he likes to."
+# "Jigoro vanishes to where the kitchen must be. I'm surprised that despite living in this place, he has to cook my lunch. Maybe he only cooks because he likes to."
+"จิโกโรแวบหายไปทางที่น่าจะพาไปยังห้องครัว ฉันนึกแปลกใจที่เขามาทำข้าวเที่ยงให้ฉันทั้ง ๆ ที่บ้านออกจะหรูขนาดนี้\nอาจจะทำกับข้าวเพราะอยากทำมั้ง"
 
 show jigoro smug:
     center
     xpos 0.87
 with shorttimeskip
 
-"My steaming plate of food is done in a very short time. It smells really good."
+# "My steaming plate of food is done in a very short time. It smells really good."
+"กับข้าวที่ควันหอมฉุยลอยโขมงนั้นมาถึงในไม่กี่อึดใจ"
 
-hx "Are you in the Student Council, like Shizune? Is the Student Council that busy, that Shizune has to drag her friends along with her everywhere she goes?"
+# hx "Are you in the Student Council, like Shizune? Is the Student Council that busy, that Shizune has to drag her friends along with her everywhere she goes?"
+hx "เธออยู่สภานักเรียนเหมือนชิซูเนะหรือเปล่า สภานักเรียนงานเยอะถึงขั้นต้องลากเพื่อนติดตัวไปทุกที่ด้วยเลยเหรอ"
+
 
 show shizu behind_blank_cas at Position(xpos=0.12)
 with charachange
 
-ssh "Sometimes a vacation is just a vacation."
+# ssh "Sometimes a vacation is just a vacation."
+ssh "เที่ยวก็คือเที่ยวมั้ยล่ะคะ"
 
-hi "You're right about the student council part. I think we're just here for fun, though."
+# hi "You're right about the student council part. I think we're just here for fun, though."
+hi "ครับ ผมอยู่สภานักเรียน แต่ที่พวกเรามาที่นี่ก็มาเที่ยวเฉย ๆ แหละครับ"
 
 show jigoro neutral
 with charachange
 
-hx "I see. Is that right? When I was young, our student councils had so much work that I don't think we could have afforded going on vacation. It must be nice, having so much free time. Should give you plenty of time to think about your future."
+# hx "I see. Is that right? When I was young, our student councils had so much work that I don't think we could have afforded going on vacation. It must be nice, having so much free time. Should give you plenty of time to think about your future."
+hx "อย่างนี้นี่เอง งั้นเหรอ ตอนฉันเด็ก ๆ สภานักเรียนโรงเรียนฉันงานเยอะมาก คงไม่มีเวลาว่างมาเที่ยวได้หรอก มีเวลาว่าง\nเยอะอย่างนี้คงดีแน่ ๆ จะได้มีเวลามาคิดถึงเรื่องอนาคตตัวเองเยอะ ๆ ด้วย"
 
-"I do not like the direction this discussion is taking, and start thinking about how to avoid it."
+# "I do not like the direction this discussion is taking, and start thinking about how to avoid it."
+"รู้สึกลางไม่ดีขึ้นมาแล้ว ฉันเริ่มคิดว่าจะเบี่ยงประเด็นไปยังไงดี"
 
-hx "Have you thought about that? About what you want to do?"
+# hx "Have you thought about that? About what you want to do?"
+hx "เคยคิดบ้างมั้ย สิ่งที่ตัวเองอยากทำน่ะ"
 
-hi "No, I haven't given it much thought recently. What do you do, if you don't mind me asking? It must be something pretty cool, if it can get you a house like this."
+# hi "No, I haven't given it much thought recently. What do you do, if you don't mind me asking? It must be something pretty cool, if it can get you a house like this."
+hi "ไม่หรอกครับ ช่วงนี้ผมไม่ได้คิดมากเรื่องนั้นเท่าไหร่ จะว่าไป ผมถามหน่อยได้มั้ยครับว่าคุณทำงานอะไรอยู่ งานคงดี\nแน่ ๆ เลยถึงได้ซื้อบ้านอย่างนี้ได้"
 
 show jigoro angry
 with charachange
 
-hx "Why do you want to know that? Children aren't interested in business. What business of yours is my business? Suspicious. Are you some kinda tax man, boy?"
+# hx "Why do you want to know that? Children aren't interested in business. What business of yours is my business? Suspicious. Are you some kinda tax man, boy?"
+hx "เธอจะอยากรู้ไปทำไม เด็กน่ะไม่สนเรื่องอะไรอย่างนี้หรอก เรื่องอะไรเธอจะต้องรู้เรื่องของฉัน น่าสงสัย\nเป็นสรรพากรหรือเปล่าหนุ่ม"
 
-"I guess he really does not like being asked questions."
+# "I guess he really does not like being asked questions."
+"คงไม่ชอบให้ใครถามอะไรจริง ๆ แหละนะ"
 
 show misha hips_grin_cas
 with charachange
 
-mi "Hicchan isn't a tax collector's boy, I think~. Hicchan, what do your parents do? You never told us~!"
+# mi "Hicchan isn't a tax collector's boy, I think~. Hicchan, what do your parents do? You never told us~!"
+mi "ฮิจังคงไม่ใช่สรรพากรหนุ่มหรอกนะคะ~ ฮิจัง พ่อแม่นายทำงานอะไรเหรอ นายไม่เคยบอกเราเลย~!"
 
-hx "You, be quiet. Don't interrupt me. I hate being interrupted. Rude."
+# hx "You, be quiet. Don't interrupt me. I hate being interrupted. Rude."
+hx "เธอ เงียบไปเลย อย่าขัด ฉันไม่ชอบให้ใครมาขัด หยาบคาย"
 
 show misha perky_sad_cas
 with charachange
 
-mi "Aah~…"
+# mi "Aah~…"
+mi "แง~…"
 
 show shizu basic_normal2_cas at Position(xpos=0.08)
 with charachange
 
-"Shizune doesn't look too happy with this turn of events. Even with Misha unable to sign to her what's going on, she can read the mood easily. Her glare becomes more smoldering as Jigoro continues to rant."
+# "Shizune doesn't look too happy with this turn of events. Even with Misha unable to sign to her what's going on, she can read the mood easily. Her glare becomes more smoldering as Jigoro continues to rant."
+"ชิซูเนะดูจะไม่พอใจเท่าไหร่ที่เรื่องเป็นอย่างนี้ แม้มิช่าจะแปลบทสนทนาเป็นภาษามือให้ไม่ได้ แต่เธอก็ดูอารมณ์ออก\nได้อย่างง่ายดาย ยิ่งจิโกโรพูดพล่ามนานเรื่อย ๆ สายตาเธอเริ่มมีควันคุกรุ่นขึ้นมา"
 
-hx "One more thing. My fishing equipment. I came home and it was just in a big pile in the corner. Rods just stacked haphazardly on top of tackle."
+# hx "One more thing. My fishing equipment. I came home and it was just in a big pile in the corner. Rods just stacked haphazardly on top of tackle."
+hx "แล้วอีกอย่าง อุปกรณ์ตกปลาของฉันน่ะ ฉันกลับมาบ้านก็เห็นกองสุมกันอยู่ลวก ๆ อย่างนั้น คันเบ็ดก็ซ้อนเกลื่อน\nบนกองนั้นอีก"
 
 show hideaki thinking
 with charachange
 
-hh "That was me."
+# hh "That was me."
+hh "ผมเองครับ"
 
-"I can't remember if it actually was him. If it wasn't, I appreciate that he's willing to take one for the team. It doesn't matter because Jigoro ignores him without skipping a beat."
+# "I can't remember if it actually was him. If it wasn't, I appreciate that he's willing to take one for the team. It doesn't matter because Jigoro ignores him without skipping a beat."
+"ฉันจำไม่ได้แน่ว่าเป็นเขาจริงหรือเปล่า ถ้าไม่ใช่ฉันก็อยากขอบคุณที่อุตส่าห์ออกหน้าแทนคนอื่น ซึ่งเปล่าประโยชน์\nเพราะจิโกโรเมินฮิเดอากิไปแล้วพูดต่ออีก"
 
 show jigoro smug
 with charachange
 
-hx "Well, anyway, I'm glad that my fishing equipment could provide so much entertainment for my daughter's friends. Did not even tell me you were going to be using them. Those are expensive, custom-made poles. Not for dilettantes."
+# hx "Well, anyway, I'm glad that my fishing equipment could provide so much entertainment for my daughter's friends. Did not even tell me you were going to be using them. Those are expensive, custom-made poles. Not for dilettantes."
+hx "แต่เอาเถอะ ฉันก็ดีใจนะที่อุปกรณ์ตกปลาของฉันทำให้เพื่อนของลูกสาวฉันสนุกกันได้ขนาดนี้ เอาไปใช้ไม่เห็น\nบอกกล่าวกันเลย แพงนะไอ้พวกคันเบ็ดสั่งทำเนี่ย ไม่ใช่ของสำหรับคนที่จะมาตกปลาเล่น ๆ กัน"
 
-"I suddenly become aware of the eggshell fragments in my omelette. Is he just a bad cook? Does he eat them for the calcium? Were they purposely added there to give me even more discomfort?"
+# "I suddenly become aware of the eggshell fragments in my omelette. Is he just a bad cook? Does he eat them for the calcium? Were they purposely added there to give me even more discomfort?"
+"อยู่ ๆ ฉันก็เคี้ยวโดนเศษเปลือกไข่ที่อยู่ในไข่ทอด นี่ฝีมือทำกับข้าวห่วยจริงหรือใส่มาเพื่อเสริมแคลเซียม หรือจงใจใส่มา\nให้ฉันรู้สึกไม่ดีหนักกว่าเดิมกันแน่"
 
-"Though confused, I'm not as unnerved as I think I would normally be. Then again, my life has been pretty strange lately, and I keep running into all sorts of different people. Nothing surprises me any more."
+# "Though confused, I'm not as unnerved as I think I would normally be. Then again, my life has been pretty strange lately, and I keep running into all sorts of different people. Nothing surprises me any more."
+"ถึงจะงง ๆ แต่ฉันก็ไม่ได้ลนลานอย่างเมื่อก่อนแล้ว แต่ก็นะ ช่วงนี้ชีวิตฉันก็แปลก ๆ เจอคนมากหน้าหลายตา\nหลากประเภท ฉันคงไม่แปลกใจกับอะไรแล้ว"
 
 show jigoro angry
 with charachange
 
-hx "Didn't even properly clean them after use. Terrible."
+# hx "Didn't even properly clean them after use. Terrible."
+hx "ใช้เสร็จแล้วไม่ทำความสะอาดให้ดีอีก แย่จริง ๆ"
 
-hx "Do you even know how to fish? Unlikely. There are not enough poles here for all of you. How does that work? Did you all share? One person baits the hook, and another casts? Two people to reel? Incompetent."
+# hx "Do you even know how to fish? Unlikely. There are not enough poles here for all of you. How does that work? Did you all share? One person baits the hook, and another casts? Two people to reel? Incompetent."
+hx "ตกปลาเป็นหรือเปล่าเถอะ ไม่น่านะ แล้วคันเบ็ดก็มีไม่พอกับพวกเธอทุกคนด้วย ทำยังไงกัน แบ่งกันตก คนหนึ่ง\nเอาเหยื่อเกี่ยวเบ็ด อีกคนเหวี่ยงคันเบ็ด แล้วอีกสองคนเย่อปลาเหรอ โหลยโท่ยจริง ๆ"
 
-hi "Well, six of us went, so we couldn't all do it at the same time. First it was just me, Akira, Hideaki, and Misha."
+# hi "Well, six of us went, so we couldn't all do it at the same time. First it was just me, Akira, Hideaki, and Misha."
+hi "เอ่อ พอดีไปกันหกคนครับ เลยตกพร้อมกันไม่ได้ คนที่ได้ตกรอบแรกมีผม อากิระ ฮิเดอากิ แล้วก็มิช่า"
 
-hx "Stop talking. That sounds unspeakably dirty. I have had enough of your filth. How vulgar. Make sure that your statements are not so embarrassingly, carelessly worded next time."
+# hx "Stop talking. That sounds unspeakably dirty. I have had enough of your filth. How vulgar. Make sure that your statements are not so embarrassingly, carelessly worded next time."
+hx "หยุดพูดไปเลย ฟังดูสกปรกเหลือเกินนะ แค่พวกเธอก็สกปรกพอแล้ว หยาบคายเสียจริง คราวหน้าคราวหลังจะพูดอะไร\nก็ระวังอย่าพูดพล่อย ๆ ลอย ๆ แล้วกัน"
 
-hi "What…?"
+# hi "What…?"
+hi "ฮะ…?"
 
-hx "“What?” You are so disrespectful. Amazing. Are all delinquent types like this? Even the way you dress shows flippant disregard for authority. Sweater vest. Disgraceful…"
+# hx "“What?” You are so disrespectful. Amazing. Are all delinquent types like this? Even the way you dress shows flippant disregard for authority. Sweater vest. Disgraceful…"
+hx "“ฮะ”? ไม่มีมารยาทเลยนะ สุดยอด พวกเกเรเป็นอย่างนี้กันหมดเลยหรือไง เสื้อผ้าที่เธอใส่ยังไม่มีความเคารพ\nผู้หลักผู้ใหญ่เลย เสื้อกั๊กไหมพรมเนี่ยนะ อุจาดตาเสียจริง…"
 
-hi "Delinquent? I'm on the Student Council."
+# hi "Delinquent? I'm on the Student Council."
+hi "เกเรเหรอครับ แต่ผมอยู่สภานักเรียนนะ"
 
-"I'm hurt by his comment on my sweater vest, especially when it's coming from a guy in such a tacky shirt. I guess I can't really say anything, though. He has a sword. He might also kill bears."
+# "I'm hurt by his comment on my sweater vest, especially when it's coming from a guy in such a tacky shirt. I guess I can't really say anything, though. He has a sword. He might also kill bears."
+"ฉันเจ็บจี๊ดที่เขาพูดถึงเสื้อกั๊กไหมพรมของฉันอย่างนั้น เสื้อที่คนพูดใส่ก็เห่ยเถอะ แต่คงพูดอะไรไม่ได้อะนะ อีกคน\nมีดาบอยู่ เผลอ ๆ ใช้ฆ่าหมีด้วย"
 
 stop music fadeout 0.3
 play sound sfx_impact
 with vpunch
 
-"Misha loudly puts her plate down on the table."
+# "Misha loudly puts her plate down on the table."
+"มิช่ากระแทกจานเข้ากับโต๊ะดังปัง"
 
 show misha hips_smile_cas
 with charachange
 
-mi "That was delicious~! Shicchan and I are done now. Hicchan, you are too, right~? We should get going!"
+# mi "That was delicious~! Shicchan and I are done now. Hicchan, you are too, right~? We should get going!"
+mi "อร่อยมากเลย~! ชิจังกับหนูอิ่มแล้ว ฮิจัง นายก็อิ่มแล้วด้วยใช่มั้ย~ ไปกันดีกว่า!"
 
-"What a simple, yet effective exit strategy."
+# "What a simple, yet effective exit strategy."
+"เป็นกลยุทธ์เอาตัวรอดที่เรียบง่ายแต่ได้ผลดีจริง ๆ"
 
 scene bg shizu_houseext
 with locationchange
 
-"I barely have the time to put down my plate before they pull me up and out of there, and finally outside."
+# "I barely have the time to put down my plate before they pull me up and out of there, and finally outside."
+"ยังไม่ทันจัดแจงจานตัวเองดีฉันก็ถูกลากออกมาข้างนอกแล้ว"
 
 show shizu behind_frustrated_cas at tworight
 show misha perky_confused_cas at twoleft
@@ -1941,78 +2348,97 @@ shi "…"
 show misha sign_confused_cas
 with charachange
 
-mi "Unbelievable~! It's like I'm really watching an interrogation~! This is not a cop show! Guests definitely have responsibilities, but hasn't he ever heard of being a gracious host~? Really~!"
+# mi "Unbelievable~! It's like I'm really watching an interrogation~! This is not a cop show! Guests definitely have responsibilities, but hasn't he ever heard of being a gracious host~? Really~!"
+mi "ไม่อยากจะเชื่อเลย~! เหมือนมานั่งดูตำรวจซักผู้ร้ายเลย~! ทำเป็นละครสืบสวนไปได้! แขกก็มีหน้าที่ที่ต้องทำ\nจริงแหละ แต่ไม่เคยได้ยินเรื่องการเป็นเจ้าบ้านที่ดีหรือไง~ จริง ๆ เลย~!"
 
-"Misha attempts to sloppily mimic Shizune's angry, chopping gestures as best as she can. She has the expression down too, but the tone of her voice is the same as ever, thus lacking the anger necessary to bring it all together."
+# "Misha attempts to sloppily mimic Shizune's angry, chopping gestures as best as she can. She has the expression down too, but the tone of her voice is the same as ever, thus lacking the anger necessary to bring it all together."
+"มิช่าพยายามล้อท่าทางฟึดฟัดของชิซูเนะให้ใกล้เคียงที่สุด แม้แต่สีหน้าก็ยังคล้าย แต่น้ำเสียงเธอยังเป็นเช่นเคย\nคำพูดนั้นจึงยังดูโกรธไม่พอกับต้นทางเท่าไหร่"
 
 show misha hips_smile_cas
 with charachange
 
-mi "Wahaha~. Don't take it too hard, Hicchan~! Shicchan's dad does this to everyone, I think it's like a joke~."
+# mi "Wahaha~. Don't take it too hard, Hicchan~! Shicchan's dad does this to everyone, I think it's like a joke~."
+mi "วะฮ่าฮ่า~ อย่าเครียดไปเลยฮิจัง~! พ่อชิจังก็เป็นงี้กับทุกคนแหละ ฉันว่าน่าจะเหมือนหยอกเฉย ๆ นะ~"
 
-hi "That was the most aggressive joke possible."
+# hi "That was the most aggressive joke possible."
+hi "ช่างเป็นการหยอกที่รุนแรงสุด ๆ ไปเลยนะ"
 
-"I'm also not at all convinced that it was a joke, considering this hastily staged retreat, but this isn't a good moment to discuss how Shizune's father might be a jerk."
+# "I'm also not at all convinced that it was a joke, considering this hastily staged retreat, but this isn't a good moment to discuss how Shizune's father might be a jerk."
+"ฉันก็ไม่ค่อยเชื่อเท่าไหร่ว่าเมื่อกี้คือหยอก ดูจากการที่ต้องจัดฉากถอยทัพมาอย่างนี้ แต่ตอนนี้ก็ไม่ใช่เวลาจะมาคุย\nเรื่องนิสัยของพ่อชิซูเนะที่ใช้ไม่ได้"
 
 play music music_shizune fadein 4.0
 
 show misha sign_smile_cas
 with charachange
 
-mi "Hicchan, let's go shopping!"
+# mi "Hicchan, let's go shopping!"
+mi "ฮิจัง ไปซื้อของกันเถอะ!"
 
 show shizu adjust_happy_cas
 with charachange
 
-ssh "You haven't been to town yet, have you? It'll be fun. We can see the sights, and go to an amusement park, maybe eat at a good restaurant."
+# ssh "You haven't been to town yet, have you? It'll be fun. We can see the sights, and go to an amusement park, maybe eat at a good restaurant."
+ssh "นายยังไม่เคยมาตัวเมืองเลยใช่มั้ย ต้องสนุกแน่ อาจจะไปดูวิว ไปสวนสนุก หรือไม่ก็ไปกินข้าวที่ร้านอาหารดี ๆ สักที่"
 
-hi "We just had lunch."
+# hi "We just had lunch."
+hi "เราเพิ่งกินข้าวเที่ยงไปนะ"
 
-"Even though I didn't eat much."
+# "Even though I didn't eat much."
+"ถึงฉันจะกินไปไม่เยอะก็เถอะ"
 
 show shizu behind_smile_cas
 with charachange
 
-ssh "It's okay, in that case, we just have to make sure that today is so busy that by the time we're done, it will be time for dinner."
+# ssh "It's okay, in that case, we just have to make sure that today is so busy that by the time we're done, it will be time for dinner."
+ssh "ไม่เป็นไรหรอก ถ้างั้นก็แค่หาอะไรทำข้างนอกให้หมดวัน เอาให้พอกลับถึงบ้านแล้วได้กินข้าวเย็นพอดีเลย"
 
 show misha cross_grin_cas
 with charachange
 
-mi "It works out perfectly~! Come on, Hicchan~!"
+# mi "It works out perfectly~! Come on, Hicchan~!"
+mi "ลงตัวมาก ๆ เลย~! เถอะน่า ฮิจัง~!"
 
 show shizu behind_smile_cas_close at closeright
 show misha cross_smile_cas_close at closeleft
 with characlose
 
-"They immediately flank me and hook my arms with theirs, Shizune taking one arm and Misha taking the other. At first, we almost trip over each other. Shizune walks at a very brisk pace, and Misha has an unusually bouncy way of moving around."
+# "They immediately flank me and hook my arms with theirs, Shizune taking one arm and Misha taking the other. At first, we almost trip over each other. Shizune walks at a very brisk pace, and Misha has an unusually bouncy way of moving around."
+"ทั้งมิช่าและชิซูเนะเข้าประกบควงแขนฉันไว้ข้างละคน ตอนแรกแทบจะสะดุดขากันล้มแล้ว ชิซูเนะเดินเร็วมาก ส่วนมิช่า\nก็เดินโดดไปมาแบบพิลึก ๆ"
 
 scene bg shizu_park
 with locationchange
 
-"We get the hang of it soon enough, and I notice we're going to town by cutting through the park. It doesn't seem efficient, so I'm guessing this is the scenic route."
+# "We get the hang of it soon enough, and I notice we're going to town by cutting through the park. It doesn't seem efficient, so I'm guessing this is the scenic route."
+"ไม่นานพวกเราก็เดินจนจังหวะลงตัว เหมือนจะได้เข้าตัวเมืองด้วยการเดินลัดสวนสาธารณะไป ซึ่งดูไม่ใช่ทางที่เร็ว\nสักเท่าไหร่ คงหวังมาเดินกินลมชมวิวมั้ง"
 
-"Walking this way hinders how we can communicate with each other significantly. I can't talk to Shizune at all. Shizune and Misha are down to one handed gestures only. It feels nice, though, so I don't mind too much."
+# "Walking this way hinders how we can communicate with each other significantly. I can't talk to Shizune at all. Shizune and Misha are down to one handed gestures only. It feels nice, though, so I don't mind too much."
+"พอมาเดินอย่างนี้แล้วพวกเราก็สื่อสารกันแทบไม่ได้ ฉันคุยกับชิซูเนะไม่ได้เลย ส่วนชิซูเนะและมิช่าก็สื่อสารกันด้วย\nมือข้างเดียว แต่ก็รู้สึกดีเหมือนกัน ฉันจึงไม่ถืออะไรมากมาย"
 
-"When I make a crack about it to Misha, she responds with mild confusion."
+# "When I make a crack about it to Misha, she responds with mild confusion."
+"พอฉันบ่นเรื่องนี้ให้มิช่าฟังเธอก็ตอบมาด้วยความสับสนเล็กน้อย"
 
 show misha perky_confused_cas_close at closeleft
 with charaenter
 
-mi "Really, Hicchan~? Hm… If you really want Shicchan's attention, you can tell me, and then I can tap her on the shoulder for you."
+# mi "Really, Hicchan~? Hm… If you really want Shicchan's attention, you can tell me, and then I can tap her on the shoulder for you."
+mi "จริงเหรอฮิจัง~ อืม… ถ้าอยากให้ชิจังสนใจนายจริง ๆ ก็บอกฉันได้นะ เดี๋ยวฉันสะกิดไหล่ชิจังให้"
 
-hi "You could just let me go and I'll do it myself. How are you going to tap her on the shoulder from over there?"
+# hi "You could just let me go and I'll do it myself. How are you going to tap her on the shoulder from over there?"
+hi "ปล่อยให้ฉันทำเองก็ได้มั้ง เธออยู่ฝั่งนั้นแล้วจะสะกิดไหล่ยังไง"
 
 show misha hips_grin_cas_close
 with charachange
 
-mi "Like this~!"
+# mi "Like this~!"
+mi "แบบนี้~!"
 
 with vpunch
 
 show shizu behind_frustrated_cas_close behind misha at closeright
 with charachange
 
-"She suddenly stops in her tracks roughly, and tries to reach behind her back and across my shoulders to get Shizune's attention. She succeeds, but only because when Misha stopped, I had to as well or we'd all fall over."
+# "She suddenly stops in her tracks roughly, and tries to reach behind her back and across my shoulders to get Shizune's attention. She succeeds, but only because when Misha stopped, I had to as well or we'd all fall over."
+"จู่ ๆ เธอก็หยุดเดินแบบชะงักกึกแล้วเอื้อมแขนข้ามหลังฉันไปทางชิซูเนะให้เธอหันมาสนใจ ซึ่งได้ผล แต่เป็นเพราะฉัน\nต้องหยุดตามเธอไปด้วยต่างหาก ไม่งั้นได้สะดุดล้มทั้งแผงแน่"
 
 show misha hips_laugh_cas_close
 with charachange
@@ -2020,9 +2446,11 @@ with charachange
 show shizu adjust_blush_cas_close
 with charachange
 
-"Obviously, Shizune had to jerk to a halt too. The sight makes Misha let out one of her characteristic laughs, which shakes us around more, and Shizune starts flailing her free hand to get her to stop, which only causes her to laugh harder."
+# "Obviously, Shizune had to jerk to a halt too. The sight makes Misha let out one of her characteristic laughs, which shakes us around more, and Shizune starts flailing her free hand to get her to stop, which only causes her to laugh harder."
+"แน่นอนว่าชิซูเนะต้องชะงักไปอีกคนด้วย มิช่าหัวเราะด้วยเสียงอันเป็นเอกลักษณ์เฉพาะตัวของเธอที่ได้เห็นสภาพ\nพวกเราที่เป็นอย่างนี้ ซึ่งทำให้พวกเราโงนเงนหนักกว่าเก่าอีก ชิซูเนะใช้มืออีกข้างที่ว่างอยู่รีบส่งสัญญาณให้มิช่าหยุด\nแต่ยิ่งทำให้มิช่าหัวเราะดังกว่าเดิม"
 
-"It is pretty funny to watch her getting so flustered, and I start laughing too."
+# "It is pretty funny to watch her getting so flustered, and I start laughing too."
+"เห็นชิซูเนะลนลานแล้วก็ตลกดี ฉันจึงผสมโรงขำไปด้วย"
 
 stop music fadeout 2.0
 
@@ -2038,68 +2466,88 @@ with locationchange
 
 play music music_dreamy fadein 2.0
 
-"I've been neglecting my sign language studies, so I should probably spend some time studying up on it. Although, I think I've learned a lot just by osmosis. I'm very proud of that, and will have to be careful not to brag about it."
+# "I've been neglecting my sign language studies, so I should probably spend some time studying up on it. Although, I think I've learned a lot just by osmosis. I'm very proud of that, and will have to be careful not to brag about it."
+"ฉันทิ้งเรื่องเรียนภาษามือมาสักพักแล้ว หาเวลาเรียนสักหน่อยดีกว่า ถึงเหมือนจะเรียนรู้ผ่านการซึมซับมาเยอะแล้ว\nก็เถอะ แล้วก็ต้องคอยถ่อมตัวเอาไว้ห้ามอวดด้วย"
 
-"Most of the books I brought with me aren't manuals on learning sign language, but studies about different signing “dialects.” I know Shizune has some secret signals with Misha that only the two of them know the meaning of."
+# "Most of the books I brought with me aren't manuals on learning sign language, but studies about different signing “dialects.” I know Shizune has some secret signals with Misha that only the two of them know the meaning of."
+"หนังสือที่ฉันพกมาด้วยส่วนใหญ่ไม่ใช่คู่มือภาษามือ แต่เป็นหนังสือเรื่อง “ภาษาถิ่น” ของภาษามือแบบต่าง ๆ ฉันรู้\nว่าชิซูเนะกับมิช่ามีภาษาลับที่ใช้สื่อสารกันแค่สองคนอยู่"
 
-"After seeing a couple of them, this book caught my eye in the school library."
+# "After seeing a couple of them, this book caught my eye in the school library."
+"พอเห็นสองคนนั้นแล้วหนังสือเล่มนี้ที่อยู่ในห้องสมุดก็สะดุดตาขึ้นมา"
 
-"Maybe I should incorporate some examples into my own signing, to mess with them, because I'm pretty sure that they have started using their code words more when I started learning sign language. That will teach them."
+# "Maybe I should incorporate some examples into my own signing, to mess with them, because I'm pretty sure that they have started using their code words more when I started learning sign language. That will teach them."
+"น่าจะเอาไปใช้กับภาษามือของฉันเอาไว้แกล้งสองคนนั้นเล่นบ้าง เพราะฉันแน่ใจทีเดียวว่าพวกเธอใช้รหัสลับกัน\nมากกว่าเดิมตอนที่ฉันเริ่มเรียนภาษามือ เผื่อจะได้รู้สึกบ้าง"
 
-"After a quick break for a shower, I resume practicing my signing in the guest room mirror. Yesterday, I crashed my fingers against each other pretty hard. It still smarts, and I don't want a repeat of that to happen again."
+# "After a quick break for a shower, I resume practicing my signing in the guest room mirror. Yesterday, I crashed my fingers against each other pretty hard. It still smarts, and I don't want a repeat of that to happen again."
+"หลังจากที่อาบน้ำอยู่ไม่นานฉันก็กลับมาฝึกภาษามือกับกระจกในห้องนอนแขกต่อ เมื่อวานทำนิ้วตัวเองชนกันแรง\nจนเจ็บมาถึงตอนนี้ ต้องระวังไม่ให้เป็นอย่างนั้นอีก"
 
 play sound sfx_doorknock2
 
 show hideaki normal at center
 with charaenter
 
-"I hear knocking on the door behind me and turn to find Hideaki standing inside the doorway, staring at me. How polite of him to knock, but usually you don't open the door first."
+# "I hear knocking on the door behind me and turn to find Hideaki standing inside the doorway, staring at me. How polite of him to knock, but usually you don't open the door first."
+"ฉันหันไปมองเมื่อได้ยินเสียงเคาะประตูจากข้างหลัง ฮิเดอากิยืนจ้องฉันอยู่ตรงประตู มีมารยาทดีที่เคาะ แต่ปกติต้องรอ\nให้คนตอบก่อนค่อยเปิดประตูไม่ใช่เหรอ"
 
 show hideaki triangle
 with charachange
 
-hh "What are you doing?"
+# hh "What are you doing?"
+hh "ทำอะไรอยู่เหรอครับ"
 
-hi "I'm practicing sign language. How long have you been standing there?"
+# hi "I'm practicing sign language. How long have you been standing there?"
+hi "ฝึกภาษามืออยู่ มายืนตรงนั้นตั้งแต่ตอนไหนแล้ว"
 
 show hideaki thinking
 with charachange
 
-hh "I did not see anything."
+# hh "I did not see anything."
+hh "ผมไม่เห็นอะไรทั้งนั้น"
 
-"That isn't the point. I don't even know what he means by that. It's not like I was doing something that I would be ashamed to have people see me doing."
+# "That isn't the point. I don't even know what he means by that. It's not like I was doing something that I would be ashamed to have people see me doing."
+"ไม่ใช่ประเด็นสักหน่อย หมายความว่ายังไงเนี่ย ใช่ว่าฉันทำอะไรน่าอายจนไม่อยากให้คนมาเห็นสักหน่อย"
 
-"Although, sign language must look strange to most people. I'm only used to it from being around Shizune and Misha so much."
+# "Although, sign language must look strange to most people. I'm only used to it from being around Shizune and Misha so much."
+"แต่ก็นะ ภาษามือคงดูแปลกกับคนส่วนใหญ่แหละ ที่ฉันชินก็เพราะอยู่กับชิซูเนะกับมิช่าบ่อย ๆ เท่านั้นเอง"
 
-hi "I'm brushing up on my sign language, and reading about it too. Stuff like the history of it, even though they cover it in sign language class."
+# hi "I'm brushing up on my sign language, and reading about it too. Stuff like the history of it, even though they cover it in sign language class."
+hi "ฉันรื้อฟื้นทักษะภาษามือตัวเองอยู่ แล้วก็อ่านเรื่องภาษามือด้วย อย่างพวกความเป็นมา ถึงจะเคยเรียนตอนเรียน\nภาษามือในห้องแล้วก็เถอะ"
 
 show hideaki normal
 with charachange
 
-hh "Your school teaches sign language as a class?"
+# hh "Your school teaches sign language as a class?"
+hh "ที่โรงเรียนพี่สอนภาษามือด้วยเหรอครับ"
 
-hi "Yeah. One of the first things they brought up was that it's not very common to do that. I guess we're very international, or something."
+# hi "Yeah. One of the first things they brought up was that it's not very common to do that. I guess we're very international, or something."
+hi "อื้ม ตอนไปเรียนแรก ๆ เขาก็บอกอยู่ว่าไม่ค่อยมีโรงเรียนที่ไหนสอนภาษามือหรอก สงสัยโรงเรียนฉันจะมีความ\nเป็นสากลมาก ๆ เลยละมั้ง"
 
 show hideaki serious
 with charachange
 
-hh "It looks fun."
+# hh "It looks fun."
+hh "ดูสนุกนะครับ"
 
-hi "Well, I wouldn't call it fun."
+# hi "Well, I wouldn't call it fun."
+hi "ก็ ไม่เชิงสนุกหรอก"
 
 show hideaki bored
 with charachange
 
-hh "If you do not enjoy this, it seems like a lot of work to go through just to talk to my sister."
+# hh "If you do not enjoy this, it seems like a lot of work to go through just to talk to my sister."
+hh "ถ้าไม่สนุกก็คงน่าเบื่อแย่ที่ต้องลงทุนขนาดนี้เพื่อคุยกับพี่ชิซูเนะ"
 
-hi "Why does everyone keep saying that?"
+# hi "Why does everyone keep saying that?"
+hi "ทำไมถึงมีแต่คนพูดอย่างนั้น"
 
 show hideaki happy
 with charachange
 
-"Hideaki's mouth twitches like he was about to laugh, but he restrains himself. Come to think of it, he hasn't laughed once since I've met him. I could take it as a compliment that he doesn't laugh at me, but I'm curious to see it."
+# "Hideaki's mouth twitches like he was about to laugh, but he restrains himself. Come to think of it, he hasn't laughed once since I've met him. I could take it as a compliment that he doesn't laugh at me, but I'm curious to see it."
+"ปากของฮิเดอากิขยับเหมือนจะหัวเราะ แต่เขาก็กลั้นไว้ จะว่าไป ตั้งแต่เจอมายังไม่เคยเห็นหัวเราะเลย ก็นับว่าเป็นเรื่องดี\nแหละมั้งที่ไม่หัวเราะใส่กัน แต่อยากเห็นแฮะ"
 
-hi "Laugh."
+# hi "Laugh."
+hi "หัวเราะซิ"
 
 show hideaki thinking
 with charachange
@@ -2111,159 +2559,207 @@ hh "…"
 show hideaki bored
 with charachange
 
-hh "Why?"
+# hh "Why?"
+hh "ทำไม"
 
-"It was the fastest and most direct way I could think of towards accomplishing my goal."
+# "It was the fastest and most direct way I could think of towards accomplishing my goal."
+"ก็เพราะเป็นวิธีที่เร็วที่สุดและตรงที่สุดที่จะได้เห็นนายหัวเราะไง"
 #Hisao is mentally shrugging. Does it make sense now? Would you like a "I shrug." actually added to the beginning of the line? -SC
 
 show hideaki normal_up
 with charachange
 
-hh "Can you teach me sign language?"
+# hh "Can you teach me sign language?"
+hh "สอนภาษามือให้หน่อยได้มั้ยครับ"
 
-"He says it plainly, but his body language is nervous, showing that he clearly needs to put some effort in to ask. I guess Hideaki likes his sister after all. I'd think Misha is a lot more approachable though, so I wonder why he didn't ask her."
+# "He says it plainly, but his body language is nervous, showing that he clearly needs to put some effort in to ask. I guess Hideaki likes his sister after all. I'd think Misha is a lot more approachable though, so I wonder why he didn't ask her."
+"เขาพูดเสียงเรียบ แต่ดูท่าทางแล้วเหมือนตื่นเต้นอยู่ แปลว่ากว่าจะกล้าถามได้ก็ลำบากเหมือนกัน ฮิเดอากิคงชอบ\nพี่ตัวเองแหละนะ แต่ไม่รู้ทำไมถึงไม่ไปขอมิช่าที่น่าจะดูคุยด้วยง่ายกว่าแทน"
 
-"Secretly, I'm shouting “yes!” inside. I had thought he wanted to learn sign language and even brought it up, but he had evaded the subject skillfully. It turns out I was right after all. I don't really know why this makes me so pleased."
+# "Secretly, I'm shouting “yes!” inside. I had thought he wanted to learn sign language and even brought it up, but he had evaded the subject skillfully. It turns out I was right after all. I don't really know why this makes me so pleased."
+"ในใจโลดเต้นตอบว่า “ได้!” ไปก่อนแล้ว ฉันคิดอยู่ว่าเขาคงอยากเรียนภาษามือจนถึงขั้นถามออกไปแล้ว แต่เขาก็\nเบี่ยงประเด็นไปอย่างแนบเนียน แต่ฉันก็คิดถูกอะนะ ไม่รู้เหมือนกันว่าทำไมฉันถึงดีใจเหลือเกิน"
 
-hi "Sure."
+# hi "Sure."
+hi "ได้"
 
-"But now that I think about it, I'm not a sign language teacher. I don't even know where to start. In class, I'd be learning stuff gradually over a week. Does Hideaki expect me to teach him anything usable in a one-day crash course?"
+# "But now that I think about it, I'm not a sign language teacher. I don't even know where to start. In class, I'd be learning stuff gradually over a week. Does Hideaki expect me to teach him anything usable in a one-day crash course?"
+"แต่มาคิดดูอีกที ฉันไม่ใช่ครูสอนภาษามือนี่นา ไม่รู้จะเริ่มจากตรงไหนดี ถ้าเรียนในห้องแต่ละเรื่องจะค่อย ๆ มาตามขั้น\nในแต่ละสัปดาห์ นี่เขาคาดหวังให้ฉันรวบตึงสอนสิ่งที่มีประโยชน์ทีเดียวในวันเดียวเลยหรือเปล่า"
 
 show hideaki normal
 with shorttimeskip
 
 play music music_normal fadein 3.0
 
-"My teacher spent a couple days just giving a history of sign language. I decide to start off with that, to buy some time while I figure out how I can segue it into the hard stuff. Five minutes in, Hideaki raises his hand."
+# "My teacher spent a couple days just giving a history of sign language. I decide to start off with that, to buy some time while I figure out how I can segue it into the hard stuff. Five minutes in, Hideaki raises his hand."
+"ครูที่สอนฉันใช้เวลาไปสองวันสอนเรื่องความเป็นมาของภาษามือ เริ่มจากตรงนั้นแล้วกัน จะได้ยื้อเวลาให้ฉันคิดด้วยว่า\nจะเลี้ยวไปเรื่องอื่นที่ยากขึ้นยังไงดีด้วย ผ่านไปห้านาทีฮิเดอากิก็ยกมือขึ้น"
 
 show hideaki serious_up
 with charachange
 
-hh "I don't understand what you are doing."
+# hh "I don't understand what you are doing."
+hh "ผมไม่เข้าใจว่าพี่ทำอะไรอยู่"
 
-hi "Uh… well, you can't just jump into teaching, you know. You have to ease into it. It's like when you go swimming, you don't just jump in the lake like in some movie."
+# hi "Uh… well, you can't just jump into teaching, you know. You have to ease into it. It's like when you go swimming, you don't just jump in the lake like in some movie."
+hi "เอ่อ… ก็ จะสอนเลยก็ไม่ได้ใช่มั้ยล่ะ ต้องค่อย ๆ ไปทีละขั้น เหมือนตอนไปว่ายน้ำก็ใช่ว่าจะได้โดดลงทะเลสาบเลย\nอย่างในหนังที่ไหนล่ะ"
 
 show hideaki triangle
 with charachange
 
-hh "I do not swim."
+# hh "I do not swim."
+hh "ผมไม่ว่ายน้ำ"
 
-"It's like scientists managed to create a process to suck out all the hyperactive, infuriating, and childish qualities of a small child and then implant them into the dad, creating a raging jerk dad, and leaving behind Hideaki."
+# "It's like scientists managed to create a process to suck out all the hyperactive, infuriating, and childish qualities of a small child and then implant them into the dad, creating a raging jerk dad, and leaving behind Hideaki."
+"เหมือนมีนักวิทยาศาสตร์ได้คิดค้นกระบวนการสูบความกระตือรือร้น ความยั่วโมโห ความเป็นเด็กทุกอย่างออกจากเด็ก\nตัวเล็ก ๆ จนเหลือฮิเดอากิอย่างตอนนี้แล้วเอาไปปลูกถ่ายให้พ่อจนได้พ่อขี้โมโหอย่างนั้น"
 
-"I begin to feel claustrophobic, despite the fact that the guest room is three times bigger than my dorm room and there's just the two of us in here. It's all in my head, I know it, and I don't care. I still use it as an excuse to move the lesson outside."
+# "I begin to feel claustrophobic, despite the fact that the guest room is three times bigger than my dorm room and there's just the two of us in here. It's all in my head, I know it, and I don't care. I still use it as an excuse to move the lesson outside."
+"อยู่ ๆ ก็รู้สึกกลัวที่แคบขึ้นมา ทั้งที่ห้องนี้ก็กว้างกว่าห้องที่หอฉันตั้งสามเท่า แถมอยู่กันแค่สองคนอีก ฉันรู้ดีว่าฉัน\nคิดไปเอง แต่สนที่ไหนล่ะ ฉันใช้ความกลัวนี้เป็นข้ออ้างที่จะมาสอนนอกบ้าน"
 
 scene bg shizu_garden
 with locationskip
 
-"It's a lot easier to concentrate out here. Even the precious few seconds it took to relocate managed to allow me to sort my thoughts. There were no questions during this time. Hideaki can't seem to talk and walk at the same time."
+# "It's a lot easier to concentrate out here. Even the precious few seconds it took to relocate managed to allow me to sort my thoughts. There were no questions during this time. Hideaki can't seem to talk and walk at the same time."
+"อยู่ข้างนอกนี้แล้วสมาธิดีขึ้นเยอะ ขนาดเวลาที่ใช้ไปตอนเดินออกมาเปลี่ยนที่แป๊บ ๆ ก็มากพอให้ฉันจัดระเบียบ\nความคิดตัวเองได้แล้ว ตอนที่เดินกันอยู่ไม่มีคำถามอะไรเพราะเหมือนฮิเดอากิจะเดินไปด้วยคุยไปด้วยไม่ได้"
 
-"Eventually, however, I start to realize that if I'm going to teach him anything I have to keep the lesson constantly moving. The second there's an opening for it, he'll ask a question, which will lead to more questions. Then there's no end to it."
+# "Eventually, however, I start to realize that if I'm going to teach him anything I have to keep the lesson constantly moving. The second there's an opening for it, he'll ask a question, which will lead to more questions. Then there's no end to it."
+"แต่แล้วฉันก็นึกขึ้นได้ว่าถ้าจะสอนอะไรฉันก็ต้องสอนแบบเดินไปมาตลอด ตราบใดที่มีช่องให้เขาถามได้เขาก็จะถาม\nซึ่งจะมีคำถามอื่นตามมาอีกเรื่อย ๆ ไม่รู้จบ"
 
-"The second time he asks me why a certain hand motion means what it does, and I have to reach deep into my memory to look for etymology I don't know about a gesture I only knew about a month longer than him, I start looking for an out."
+# "The second time he asks me why a certain hand motion means what it does, and I have to reach deep into my memory to look for etymology I don't know about a gesture I only knew about a month longer than him, I start looking for an out."
+"พอเขาถามว่าทำไมท่านี้ถึงหมายความอย่างนี้เป็นครั้งที่สองฉันจึงเริ่มหาทางหนี ซึ่งท่าที่เขาถามเป็นท่าที่ฉันเพิ่งรู้\nมาได้ค่อนเดือน ฉันต้องขุดคุ้ยความทรงจำถึงที่มาของความหมายของท่านั้น ๆ"
 
-hi "Hideaki, let's take a break."
+# hi "Hideaki, let's take a break."
+hi "ฮิเดอากิ พักกันก่อนเถอะ"
 
 show hideaki bored
 with charachange
 
-hh "Okay."
+# hh "Okay."
+hh "ครับ"
 
 show hideaki serious
 with charachange
 
-hh "What is your school like?"
+# hh "What is your school like?"
+hh "โรงเรียนของพี่เป็นยังไงบ้างเหรอครับ"
 
-"This kid is like a little reporter, but it makes sense for someone his age to be curious, and this is one question I don't mind."
+# "This kid is like a little reporter, but it makes sense for someone his age to be curious, and this is one question I don't mind."
+"เด็กคนนี้ดูอย่างกับนักรายงานข่าวตัวน้อย แต่ก็ไม่แปลกที่เด็กรุ่นเขาจะเป็นคนขี้สงสัย และคำถามนี้ฉันก็ตอบให้ได้อยู่"
 
-hi "What's it like? I never really thought about it. It's on top of this mountain, so it feels kind of isolated and lonely up there sometimes, even though that's also why it has a pretty great view."
+# hi "What's it like? I never really thought about it. It's on top of this mountain, so it feels kind of isolated and lonely up there sometimes, even though that's also why it has a pretty great view."
+hi "เป็นยังไงเหรอ ไม่เคยคิดว่าเป็นยังไงเท่าไหร่เลยแฮะ ก็อยู่บนเขา บางครั้งก็รู้สึกเหมือนอยู่ตัวคนเดียวเหงา ๆ\nแต่วิวตรงนั้นก็สวยดีนะ"
 
-hi "The students there are interesting. Actually, I felt bad at first. You know what kind of school it is, right?"
+# hi "The students there are interesting. Actually, I felt bad at first. You know what kind of school it is, right?"
+hi "นักเรียนที่นั่นก็น่าสนใจดีด้วย จริง ๆ ทีแรกฉันก็รู้สึกไม่ดีแหละ นายรู้ใช่มั้ยว่าเป็นโรงเรียนอะไรน่ะ"
 
 show hideaki normal
 with charachange
 
-hh "Yes."
+# hh "Yes."
+hh "ครับ"
 
-hi "I felt bad because I didn't want to go there. I don't even remember exactly what I was thinking at the time. Probably it was something like, a school for crippled people would be a depressing place. They were telling me to go be forgotten there."
+# hi "I felt bad because I didn't want to go there. I don't even remember exactly what I was thinking at the time. Probably it was something like, a school for crippled people would be a depressing place. They were telling me to go be forgotten there."
+hi "ที่ฉันรู้สึกไม่ดีเพราะฉันไม่อยากไป ฉันก็จำไม่ค่อยได้แล้วว่าตอนนั้นคิดอะไรอยู่ อาจจะแบบว่า โรงเรียนคนพิการคงหดหู่\nแน่ ๆ แบบนั้นมั้ง อารมณ์เหมือนฉันจะถูกทิ้งไว้ที่โรงเรียนนั้น"
 
-hi "Then, everyone there was just living their lives, for the most part. So I felt even worse. It wasn't different at all, so I felt like kind of a jerk."
+# hi "Then, everyone there was just living their lives, for the most part. So I felt even worse. It wasn't different at all, so I felt like kind of a jerk."
+hi "แต่นักเรียนส่วนใหญ่ก็ใช้ชีวิตกันตามปกติ ซึ่งฉันยิ่งรู้สึกแย่เข้าไปอีก เพราะโรงเรียนนั้นไม่ได้ต่างจากที่อื่นเลย ฉันเลย\nรู้สึกว่าตัวเองเป็นคนงี่เง่า"
 
-hi "Shizune was the first person I met. She's in most of my classes. Misha, too, they're always together. I guess the school is accommodating enough to pair them up as much as possible. There's this girl in my class, Hanako, whom I feel bad for."
+# hi "Shizune was the first person I met. She's in most of my classes. Misha, too, they're always together. I guess the school is accommodating enough to pair them up as much as possible. There's this girl in my class, Hanako, whom I feel bad for."
+hi "ฉันเจอชิซูเนะเป็นคนแรก ส่วนใหญ่ก็ได้เรียนห้องเดียวกัน แล้วก็มิช่าด้วย สองคนนั้นอยู่ด้วยกันตลอด โรงเรียนก็คง\nพร้อมสนับสนุนพอที่จะให้สองคนนั้นได้อยู่ด้วยกันบ่อย ๆ เลยนั่นแหละ แล้วก็ห้องฉันมีผู้หญิงอีกคนที่ชื่อฮานาโกะ\nฉันสงสารคนนั้นนะ"
 
-hi "She has these burns, and seems to have a complex about them. But I think she looks fine. She's a cute girl. And friends with Lilly, too. You know Lilly, right? Does she bring up Hanako?"
+# hi "She has these burns, and seems to have a complex about them. But I think she looks fine. She's a cute girl. And friends with Lilly, too. You know Lilly, right? Does she bring up Hanako?"
+hi "คนนั้นมีแผลไฟไหม้ แล้วก็เหมือนจะมีปมกับแผลนั้นด้วย แต่ฉันว่าก็หน้าตาดีนะ น่ารักดี เป็นเพื่อนกับลิลลี่ด้วย\nนายรู้จักลิลลี่ใช่มั้ย ลิลลี่พูดถึงฮานาโกะบ้างหรือเปล่า"
 
 show hideaki thinking
 with charachange
 
-hh "Yes, sometimes."
+# hh "Yes, sometimes."
+hh "ครับ ก็มีบ้าง"
 
-hi "I'm trying to remember who else is interesting. We have a little track star ace who runs on these prosthetics."
+# hi "I'm trying to remember who else is interesting. We have a little track star ace who runs on these prosthetics."
+hi "นึกก่อนนะว่ามีใครที่น่าสนใจอีก แล้วก็มีนักวิ่งแข่งดาวเด่นที่ใส่ขาเทียม"
 
-hi "There's this one girl, Rin, who doesn't have arms, but she's a great painter. All her art has this harsh, alive quality. Have you ever been to Yamaku? You've probably seen some of it hanging around."
+# hi "There's this one girl, Rin, who doesn't have arms, but she's a great painter. All her art has this harsh, alive quality. Have you ever been to Yamaku? You've probably seen some of it hanging around."
+hi "แล้วก็ผู้หญิงที่ชื่อรินที่ไม่มีแขน แต่วาดรูปเก่งนะ ผลงานทุกชิ้นจะเน้นฝีแปรงหนัก ๆ แบบมีชีวิตชีวา นายเคยไป\nยามากุมั้ย น่าจะเคยเห็นงานของรินบ้างแหละ"
 
-hi "A little weird, sometimes, but I've always heard that artistic and creative types are like that. That reminds me, the guy who lives across the hall from me is pretty weird, too. But he can be interesting, at least."
+# hi "A little weird, sometimes, but I've always heard that artistic and creative types are like that. That reminds me, the guy who lives across the hall from me is pretty weird, too. But he can be interesting, at least."
+hi "บางครั้งก็ทำตัวแปลกหน่อย ๆ แต่ฉันเคยได้ยินมาว่าพวกหัวศิลป์ก็ประมาณนั้นแหละ จะว่าไป ผู้ชายที่อยู่หอชั้นเดียวกัน\nกับฉันก็แปลก ๆ เหมือนกัน แต่อย่างน้อยบางทีเขาก็ทำตัวน่าสนใจนะ"
 
 show hideaki normal
 with charachange
 
-hh "You are also interesting."
+# hh "You are also interesting."
+hh "พี่ก็น่าสนใจ"
 
-hi "Is that bad? And what's with that tone? What does that even mean? Are you saying I'm weird, Hideaki?"
+# hi "Is that bad? And what's with that tone? What does that even mean? Are you saying I'm weird, Hideaki?"
+hi "ไม่ดีเหรอ แล้วน้ำเสียงนั่นคืออะไร หมายความว่ายังไงเนี่ย นี่นายจะหาว่าฉันแปลกเหรอฮิเดอากิ"
 
 show hideaki triangle
 with charachange
 
-hh "You talk a lot."
+# hh "You talk a lot."
+hh "พี่พูดมาก"
 
-"My first instinct is to go on the defensive, but the more I think about it, he has a point."
+# "My first instinct is to go on the defensive, but the more I think about it, he has a point."
+"แวบแรกในหัวฉันคือเตรียมแย้งแล้ว แต่ยิ่งคิดก็ยิ่งรู้สึกว่าจริง"
 
-hi "That's right, I do talk a lot. I don't think I used to."
+# hi "That's right, I do talk a lot. I don't think I used to."
+hi "ก็จริง ฉันพูดมาก เหมือนเมื่อก่อนฉันไม่ได้พูดมากด้วย"
 
-hi "I think… It's probably because of all the time I spend around Shizune and Misha. Talking with them, I get caught up in all their circular logic and just how they do everything. I feel like I'm going to be drowned out, or left behind."
+# hi "I think… It's probably because of all the time I spend around Shizune and Misha. Talking with them, I get caught up in all their circular logic and just how they do everything. I feel like I'm going to be drowned out, or left behind."
+hi "ฉันว่า… คงจะเพราะได้อยู่กับชิซูเนะแล้วก็มิช่านี่แหละมั้ง พอได้คุยแล้วก็ต้องตามคำพูดที่วกไปวนมาหรือการกระทำ\nอะไรก็ช่างให้ทัน ไม่งั้นฉันก็กลายเป็นคนไม่มีปากมีเสียงหรือโดนดีดออกวงไปเลย"
 
 show hideaki confused
 with charachange
 
-hh "My sister can drown you out?"
+# hh "My sister can drown you out?"
+hh "พี่ชิซูเนะทำให้พี่เป็นคนไม่มีปากมีเสียงได้เหรอครับ"
 
-hi "It's not like she's literally talking over me and stuff, obviously. It's hard to explain. They have more energy than I do. It's like, an aggressiveness. I don't feel like I have to match it, but I want to. I think maybe your sister has that effect on people."
+# hi "It's not like she's literally talking over me and stuff, obviously. It's hard to explain. They have more energy than I do. It's like, an aggressiveness. I don't feel like I have to match it, but I want to. I think maybe your sister has that effect on people."
+hi "คือแหงแหละว่าไม่ได้หมายความว่าพูดเสียงดังกลบอะไรอย่างนั้นนะ อธิบายยากแฮะ สองคนนั้นมีพลังเยอะกว่าฉันน่ะ\nเหมือนมีความกระตือรือร้นอะไรอย่างนั้น คือฉันก็ไม่ได้อยากให้ตัวเองมีแรงเทียบเท่าสองคนนั้นหรอก แต่อีกใจก็อยาก\nเหมือนกัน พี่นายคงทำให้ทุกคนรู้สึกอย่างนั้นได้ละนะ"
 
 show hideaki thinking
 with charachange
 
 hh "…"
 
-hi "Do you look up to your sister?"
+# hi "Do you look up to your sister?"
+hi "นายนับถือพี่นายมั้ย"
 
 show hideaki normal_up
 with charachange
 
-"He stares at me blankly, tense and confused as to how to react to the question."
+# "He stares at me blankly, tense and confused as to how to react to the question."
+"เขาจ้องมองฉันเหม่อ ๆ เกร็ง ๆ เหมือนเลือกไม่ถูกว่าจะตอบสนองกับคำถามนั้นยังไงดี"
 
 show hideaki angry_up
 with charachange
 
 stop music fadeout 5.0
 
-hh "I will be better than Shizune."
+# hh "I will be better than Shizune."
+hh "ผมจะต้องเก่งกว่าพี่ชิซูเนะ"
 
-hi "Better at what?"
+# hi "Better at what?"
+hi "เก่งกว่าเรื่องอะไร"
 
 show hideaki angry
 with charachange
 
-hh "At… everything."
+# hh "At… everything."
+hh "เรื่อง… ทุกเรื่อง"
 
-hi "Like what?"
+# hi "Like what?"
+hi "เช่นอะไร"
 
 show hideaki triangle
 with charachange
 
-hh "I can do magic tricks."
+# hh "I can do magic tricks."
+hh "ผมเล่นกลได้"
 
-hi "You mean like telling people you've got their nose, or more like the kind of magic where you pull a rabbit out of your ass?"
+# hi "You mean like telling people you've got their nose, or more like the kind of magic where you pull a rabbit out of your ass?"
+hi "กลแบบที่ใช้หลอกว่าขโมยจมูกคนอื่นมาได้ หรือกลแบบที่ว่าดึงกระต่ายออกมาจากก้น?"
 
-"He doesn't look happy. Someday, I will see Hideaki laugh. I might just try tickling him, if I have to."
+# "He doesn't look happy. Someday, I will see Hideaki laugh. I might just try tickling him, if I have to."
+"ดูเหมือนเขาจะไม่พอใจเท่าไหร่ สักวันต้องเห็นเขาหัวเราะให้ได้ ถ้าจำเป็นจริง ๆ ก็คงต้องจักจี้เอาแล้วละ"
 
 play sound sfx_doorslam
 
@@ -2277,149 +2773,195 @@ with dissolvecharamove
 show jigoro neutral at tworight
 with charaenter
 
-"The back door flies open and Jigoro strides out of it, keeping his back straight and taking giant, slow, regal strides, like either a king or a huge jackass."
+# "The back door flies open and Jigoro strides out of it, keeping his back straight and taking giant, slow, regal strides, like either a king or a huge jackass."
+"ประตูเปิดออกพร้อมจิโกโรที่ยืดหลังตรงเดินอาด ๆ ออกมาท่าทางคล้ายราชาไม่ก็พวกกุ๊ยข้างถนน"
 
-"I try to turn away, using the train of logic that if I can't see him, he can't see me. Unfortunately, it doesn't pan out and he comes over so fast it's like he appeared out of the air over my shoulder."
+# "I try to turn away, using the train of logic that if I can't see him, he can't see me. Unfortunately, it doesn't pan out and he comes over so fast it's like he appeared out of the air over my shoulder."
+"ฉันรีบหันหน้าหนีด้วยคิดเอาว่าถ้าฉันไม่เห็นเขาแล้วเขาก็ไม่เห็นฉัน ซึ่งโชคไม่ดีที่ไม่เป็นไปตามนั้น เขาแวบมาอยู่\nข้างหลังฉันเหมือนเพิ่งโผล่มากลางอากาศ"
 
 show jigoro laugh
 with charachange
 
 play music music_happiness fadein 2.0
 
-hx "Oho. What's up here? What are you two doing, flailing your hands around? Playing cat's cradle like a bunch of girls?"
+# hx "Oho. What's up here? What are you two doing, flailing your hands around? Playing cat's cradle like a bunch of girls?"
+hx "โฮ่ มีอะไรกันพวกเธอสองคน เห็นสะบัดมือสะบัดแขนไปมา เล่นพันด้ายกันแบบพวกผู้หญิงอยู่เหรอ"
 
-hi "I'm teaching Hideaki some sign language. What about you, Mr. Hakamichi?"
+# hi "I'm teaching Hideaki some sign language. What about you, Mr. Hakamichi?"
+hi "ผมสอนภาษามือให้ฮิเดอากิอยู่น่ะครับ แล้วคุณล่ะครับ"
 
 show jigoro angry
 with charachange
 
-"He narrows his eyes suspiciously, as if he's not used to people being polite to him."
+# "He narrows his eyes suspiciously, as if he's not used to people being polite to him."
+"เขาหรี่ตาลงมองอย่างไม่ไว้วางใจราวกับไม่ชินที่มีคนทำตัวสุภาพด้วย"
 
-hx "I am writing an autobiography of my life and times. And by “writing” I mean I am dictating it to my biographer. Unfortunately, she is running late. Unprofessional."
+# hx "I am writing an autobiography of my life and times. And by “writing” I mean I am dictating it to my biographer. Unfortunately, she is running late. Unprofessional."
+hx "ฉันเขียนอัตชีวประวัติถึงชีวิตและยุคสมัยของฉันอยู่ ที่บอกว่า “เขียน” นี่คือฉันพูดแล้วให้คนเขียนเขียนตามนะ\nซึ่งแย่หน่อยที่เธอคนนั้นมาสาย ไม่มีความเป็นมืออาชีพเลย"
 
 show jigoro smug
 with charachange
 
-hx "Perhaps you should read it when it is published later this year. I can put you on the waiting list. Maybe it will give you the moral compass you seem to lack in your life, and inspire you to stop sucking."
+# hx "Perhaps you should read it when it is published later this year. I can put you on the waiting list. Maybe it will give you the moral compass you seem to lack in your life, and inspire you to stop sucking."
+hx "เดี๋ยวถ้าปีนี้ได้ตีพิมพ์แล้วเธอก็น่าจะอ่านด้วยนะ ฉันจองล่วงหน้าไว้ให้ได้ เผื่ออ่านแล้วชีวิตจะได้มีเข็มทิศทางศีลธรรม\nที่เหมือนเธอจะไม่มีขึ้นมา แล้วก็จะได้เลิกทำตัวห่วยแตกด้วย"
 
-"It can't be sustainable for him to be so casually insulting to everyone. Though, Hideaki is likely too detached to even notice, Shizune is deaf, and most of the insults must fly over Misha's head. But surely Akira must have an opinion on this."
+# "It can't be sustainable for him to be so casually insulting to everyone. Though, Hideaki is likely too detached to even notice, Shizune is deaf, and most of the insults must fly over Misha's head. But surely Akira must have an opinion on this."
+"คนเราไม่ควรจะมาลอยหน้าลอยตาด่าใครได้อย่างนี้หรือเปล่า แต่ฮิเดอากิก็ดูจะไม่ได้สนใจอะไร ส่วนชิซูเนะก็หูหนวก\nมิช่าก็คงไม่เข้าใจคำด่าสักเท่าไหร่ แต่อากิระต้องรู้สึกอะไรบ้างแหละ"
 
-"I try not to think about it. If he is doing this to psyche me out, then I have to stay calm or he wins. He must absolutely, definitely not win. This must be how Shizune feels."
+# "I try not to think about it. If he is doing this to psyche me out, then I have to stay calm or he wins. He must absolutely, definitely not win. This must be how Shizune feels."
+"อย่าไปสนใจเลย ถ้าจะใช้วิธีกดดันฉันก็ต้องเย็นไว้ไม่ให้เขาชนะได้ จะให้เขาชนะไม่ได้เด็ดขาด ชิซูเนะก็คงรู้สึกอย่างนี้\nเหมือนกันสินะ"
 
-hi "How old are you?"
+# hi "How old are you?"
+hi "คุณอายุเท่าไหร่เหรอครับ"
 
 show jigoro neutral
 with charachange
 
-hx "Forty-six."
+# hx "Forty-six."
+hx "สี่สิบหก"
 
-hi "That doesn't seem old enough to justify writing a biography. I mean, that's not even old. Don't most people start writing their memoirs a lot later than that?"
+# hi "That doesn't seem old enough to justify writing a biography. I mean, that's not even old. Don't most people start writing their memoirs a lot later than that?"
+hi "อายุก็ไม่น่ามากพอที่จะมาเขียนชีวประวัตินี่ครับ คือ ก็ไม่เห็นจะแก่ขนาดนั้นเลย คนจะมาเขียนรำลึกความทรงจำอีกที\nก็ตอนแก่ ๆ กว่านี้อีกไม่ใช่เหรอครับ"
 
 show jigoro angry
 with charachange
 
-hx "Shut up, boy. I am going to give you advice: do not talk about matters of age with people older than you. You are less than half my age, you have no right to talk about old. I have an ulcer older than you."
+# hx "Shut up, boy. I am going to give you advice: do not talk about matters of age with people older than you. You are less than half my age, you have no right to talk about old. I have an ulcer older than you."
+hx "เงียบไปเลยหนุ่ม ฉันขอแนะนำอะไรให้นะ ห้ามคุยเรื่องอายุกับคนที่แก่กว่า เธออายุยังไม่ถึงครึ่งอายุฉันด้วยซ้ำ\nเธอไม่มีสิทธิ์พูดว่าแก่หรือไม่แก่ แผลในปากฉันบางที่ยังมีมาก่อนเธอเกิดอีก"
 
-"He should get that checked out. He might have a point though, he is definitely older than I am."
+# "He should get that checked out. He might have a point though, he is definitely older than I am."
+"ไปหาหมอหน่อยก็ดีนะครับ แต่ก็คงถูกของเขาแหละมั้งที่ว่าตัวเองแก่กว่าฉันเนี่ย"
 
 show jigoro laugh
 with charachange
 
-hx "…Either way, even if we were the same age, I wouldn't have to explain myself to you, sweater vest."
+# hx "…Either way, even if we were the same age, I wouldn't have to explain myself to you, sweater vest."
+hx "…แต่เอาเถอะ ต่อให้อายุเท่ากัน ฉันก็ไม่เสียเวลามาแก้ต่างตัวเองให้เธอฟังหรอก พ่อหนุ่มเสื้อกั๊กไหมพรม"
 
-hi "Eugh."
+# hi "Eugh."
+hi "โอ๊ย"
 
 show jigoro angry
 with charachange
 
-hx "Why do you make that noise? Are you mad? Well, obviously. Good. Your sweater is terrible, and I want you to feel bad about it. The burn tells me it's working."
+# hx "Why do you make that noise? Are you mad? Well, obviously. Good. Your sweater is terrible, and I want you to feel bad about it. The burn tells me it's working."
+hx "ทำไมทำเสียงอย่างนั้น โมโหเหรอ แหงละ ดี เสื้อกั๊กของเธอมันห่วยแตก แล้วก็อยากให้เธอไม่อยากใส่ด้วย เห็นเจ็บ\nอย่างนี้แปลว่าเริ่มไม่อยากใส่แล้วละสิ"
 
-hi "I like my sweater."
+# hi "I like my sweater."
+hi "ผมชอบเสื้อกั๊กผม"
 
 show jigoro smug
 with charachange
 
-hx "I'm sure you like huffing glue, too. That doesn't make it right."
+# hx "I'm sure you like huffing glue, too. That doesn't make it right."
+hx ""
 
-hi "I don't huff glue. Where did you get the impression I do?"
+# hi "I don't huff glue. Where did you get the impression I do?"
+hi ""
 
 show hideaki normal
 with charachange
 
-hh "That is slander."
+# hh "That is slander."
+hh ""
 
-"I wonder how Hideaki knows what slander is. Maybe Jigoro is a lawyer. I can sort of see that, although I thought only TV lawyers were this antagonistic. I don't know if I should take the chance and ask if that's his job."
+# "I wonder how Hideaki knows what slander is. Maybe Jigoro is a lawyer. I can sort of see that, although I thought only TV lawyers were this antagonistic. I don't know if I should take the chance and ask if that's his job."
+""
 
-hi "He's right. It is slander. Are you a lawyer?"
+# hi "He's right. It is slander. Are you a lawyer?"
+hi ""
 
 show jigoro neutral
 with charachange
 
-hx "I was guessing, a guess based on the fact that you are stupid. It's like how you are assuming I am a lawyer, except you have no reason to think that. If you want to know what I do so badly, why don't you preorder my autobiography?"
+# hx "I was guessing, a guess based on the fact that you are stupid. It's like how you are assuming I am a lawyer, except you have no reason to think that. If you want to know what I do so badly, why don't you preorder my autobiography?"
+hx ""
 
 show jigoro angry
 with charachange
 
-hx "Now you are insulting my book, and, by extension, my entire life. What gives you the right to do that? Arrogant. I'm trying to think of how I could make you understand my struggle. Maybe by beating you. With my autobiography."
+# hx "Now you are insulting my book, and, by extension, my entire life. What gives you the right to do that? Arrogant. I'm trying to think of how I could make you understand my struggle. Maybe by beating you. With my autobiography."
+hx ""
 
-hx "I hope you walk away from the beating having learned a valuable lesson, like not making assumptions."
+# hx "I hope you walk away from the beating having learned a valuable lesson, like not making assumptions."
+hx ""
 
 show hideaki bored
 with charachange
 
-hh "Assault…"
+# hh "Assault…"
+hh ""
 
-"But he made an assumption too, that I huffed glue. I consider calling him out on this glaring example of hypocrisy, but I don't think it's worth it. He would probably explain his way out of it by saying “Shut up, boy.”"
+# "But he made an assumption too, that I huffed glue. I consider calling him out on this glaring example of hypocrisy, but I don't think it's worth it. He would probably explain his way out of it by saying “Shut up, boy.”"
+""
 
 show jigoro smug
 with charachange
 
-hx "Back in my day, children were seen and not heard, and to be an adult meant having experienced many hardships. With even a glance, people could instantly judge a man's character. Childhood existed only to temper you for adulthood."
+# hx "Back in my day, children were seen and not heard, and to be an adult meant having experienced many hardships. With even a glance, people could instantly judge a man's character. Childhood existed only to temper you for adulthood."
+hx ""
 
-hx "When you look at me, can you not see the catalogue of my experiences even at a glance?"
+# hx "When you look at me, can you not see the catalogue of my experiences even at a glance?"
+hx ""
 
-hi "Uh… maybe. Were you a swordfighter?"
+# hi "Uh… maybe. Were you a swordfighter?"
+hi ""
 
-"He could also be Hawaiian, and a werewolf."
+# "He could also be Hawaiian, and a werewolf."
+""
 
-hi "Wait, didn't you tell me before not to make assumptions? Now, you just asked me to assume stuff. And you're saying everyone when you were my age did it. And that had to be in, like, the '80s. That wasn't even that long ago!"
+# hi "Wait, didn't you tell me before not to make assumptions? Now, you just asked me to assume stuff. And you're saying everyone when you were my age did it. And that had to be in, like, the '80s. That wasn't even that long ago!"
+hi ""
 
-"I'm ready to give him a piece of my mind, for talking like he had to walk fifteen miles in the snow to ride a coal train, that he had to shovel coal into himself, before climbing up a mountain while fighting ogres to get to school."
+# "I'm ready to give him a piece of my mind, for talking like he had to walk fifteen miles in the snow to ride a coal train, that he had to shovel coal into himself, before climbing up a mountain while fighting ogres to get to school."
+""
 
-"But, now that I finally want a fight, Jigoro is happy to have a good thing going just continuing to ramble about how difficult it was growing up one generation ago, twirling his sword like a baton and stopping occasionally to yawn or check the time."
+# "But, now that I finally want a fight, Jigoro is happy to have a good thing going just continuing to ramble about how difficult it was growing up one generation ago, twirling his sword like a baton and stopping occasionally to yawn or check the time."
+""
 
-"The tardiness of his autobiographer is still foremost in his mind. That means the whole time he's been insulting me, he must have been doing it just to pass the time. To add insult to insult, his watch is also really nice."
+# "The tardiness of his autobiographer is still foremost in his mind. That means the whole time he's been insulting me, he must have been doing it just to pass the time. To add insult to insult, his watch is also really nice."
+""
 
 show jigoro angry
 with charachange
 
-hx "…When I was your age, kids had responsibilities. Not like today. Sickening. No one thinks about the consequences of their actions any more. They just do whatever they want, thinking no one will hold them accountable since they are young."
+# hx "…When I was your age, kids had responsibilities. Not like today. Sickening. No one thinks about the consequences of their actions any more. They just do whatever they want, thinking no one will hold them accountable since they are young."
+hx ""
 
-"It's odd, that description could fit Shizune and Misha. I thought something similar only yesterday. But it only fits them slightly."
+# "It's odd, that description could fit Shizune and Misha. I thought something similar only yesterday. But it only fits them slightly."
+""
 
-hx "Look at yourself. An amoral, directionless, delinquent glue-huffer, with a complete lack of etiquette and absolutely no fashion sense. You are tomorrow's Japan. Disgraceful. Is this the future of this once-great country?"
+# hx "Look at yourself. An amoral, directionless, delinquent glue-huffer, with a complete lack of etiquette and absolutely no fashion sense. You are tomorrow's Japan. Disgraceful. Is this the future of this once-great country?"
+hx ""
 
-hi "I know someone you would get along well with."
+# hi "I know someone you would get along well with."
+hi ""
 
-hx "Don't interrupt! Who? One of your friends? Why would I want to talk to some awful teenager? Have you even been listening? Why are you so rude, boy? Your attitude is not one that will make you a lot of friends."
+# hx "Don't interrupt! Who? One of your friends? Why would I want to talk to some awful teenager? Have you even been listening? Why are you so rude, boy? Your attitude is not one that will make you a lot of friends."
+hx ""
 
-hi "I wish you would stop giving me so much advice."
+# hi "I wish you would stop giving me so much advice."
+hi ""
 
-"Or at least, I wish he would give me advice that he would have the decency to adhere to himself."
+# "Or at least, I wish he would give me advice that he would have the decency to adhere to himself."
+""
 
 show jigoro neutral
 with charachange
 
-hx "Where have you been?"
+# hx "Where have you been?"
+hx ""
 
-hi "Huh?"
+# hi "Huh?"
+hi ""
 
 show jigoro angry
 with charachange
 
 stop music fadeout 3.0
 
-hx "Not you, idiot."
+# hx "Not you, idiot."
+hx ""
 
 show jigoro angry at Position(xpos=0.85)
 show hideaki normal at Position(xpos=0.45)
@@ -2433,35 +2975,44 @@ with charaenter
 
 shi "…"
 
-hi "Oops. I didn't notice you there."
+# hi "Oops. I didn't notice you there."
+hi ""
 
 show shizu adjust_happy_cas
 with charachange
 
-"Shizune smiles and gives a short wave. Her arrival made Jigoro stop talking, so I'm already happy to see her for that reason alone."
+# "Shizune smiles and gives a short wave. Her arrival made Jigoro stop talking, so I'm already happy to see her for that reason alone."
+""
 
 show shizu basic_normal2_cas
 with charachange
 
-ssh "Misha and I decided to go into town again. Hisao, I noticed you were looking at some clothes yesterday in a store window, and I thought I would go back and buy some of them for you. It was supposed to be a surprise, though."
+# ssh "Misha and I decided to go into town again. Hisao, I noticed you were looking at some clothes yesterday in a store window, and I thought I would go back and buy some of them for you. It was supposed to be a surprise, though."
+ssh ""
 
-"She looks annoyed that the surprise is ruined, even though she ruined it herself."
+# "She looks annoyed that the surprise is ruined, even though she ruined it herself."
+""
 
 show shizu behind_blank_cas
 with charachange
 
-ssh "Here you go!"
+# ssh "Here you go!"
+ssh ""
 
-hi "Thanks."
+# hi "Thanks."
+hi ""
 
 show shizu basic_normal_cas
 with charachange
 
-ssh "Misha wanted to cut her hair. I told her not to, but she said it was too hot for the summer."
+# ssh "Misha wanted to cut her hair. I told her not to, but she said it was too hot for the summer."
+ssh ""
 
-hi "Yeah? I don't know, that makes a lot of sense to me. It must be like an oven under there. I want to see it. Where is Misha, anyway?"
+# hi "Yeah? I don't know, that makes a lot of sense to me. It must be like an oven under there. I want to see it. Where is Misha, anyway?"
+hi ""
 
-mi "Over here~! Hi, Hicchan~! Hi, Mr. Shicchan's-father~! Hi, Hideaki~!"
+# mi "Over here~! Hi, Hicchan~! Hi, Mr. Shicchan's-father~! Hi, Hideaki~!"
+mi "~!~!~!~!"
 
 show jigoro smug
 with charachange
@@ -2492,109 +3043,139 @@ show bg shizu_garden:
     xpos 0.55
 with dissolvecharamove
 
-"Misha runs around us once in a wide circle before stopping next to Shizune."
+# "Misha runs around us once in a wide circle before stopping next to Shizune."
+""
 
-"For the first time, she hasn't put her hands over my eyes, although now I see she has bags of her own to carry, so it's not like she could have even if she wanted to. Although I am positive she's tried before."
+# "For the first time, she hasn't put her hands over my eyes, although now I see she has bags of her own to carry, so it's not like she could have even if she wanted to. Although I am positive she's tried before."
+""
 
-"Her meticulously styled curls are gone now, in favor of a much shorter, sportier look. Misha looks even happier than usual, probably because she knows she won't have to wake up at the crack of dawn every morning just to do her hair."
+# "Her meticulously styled curls are gone now, in favor of a much shorter, sportier look. Misha looks even happier than usual, probably because she knows she won't have to wake up at the crack of dawn every morning just to do her hair."
+""
 
 show jigoro angry
 with charachange
 
-hx "What is that haircut? You look like an intern. Your old haircut merely made you look like you were wearing a pink judge wig. Judge to intern is a huge demotion."
+# hx "What is that haircut? You look like an intern. Your old haircut merely made you look like you were wearing a pink judge wig. Judge to intern is a huge demotion."
+hx ""
 
 show shizu behind_frown_cas
 with charachange
 
-ssh "Hisao, is he saying something insulting? Tell him not to insult my friends!"
+# ssh "Hisao, is he saying something insulting? Tell him not to insult my friends!"
+ssh ""
 
-hi "Don't insult my friends."
+# hi "Don't insult my friends."
+hi ""
 
-hx "Which one of you is talking?"
+# hx "Which one of you is talking?"
+hx ""
 
-hi "Both of us. I agree with her."
+# hi "Both of us. I agree with her."
+hi ""
 
 show mishashort hips_smile_cas
 with charachange
 
-mi "Hehehe~! What do you think, Hicchan?"
+# mi "Hehehe~! What do you think, Hicchan?"
+mi ""
 
 show shizu adjust_frown_cas
 with charachange
 
-ssh "You should have kept it like it was."
+# ssh "You should have kept it like it was."
+ssh ""
 
 show mishashort perky_sad_cas
 with charachange
 
-mi "Aw~… Hicchan, you look disappointed, you don't like it either?"
+# mi "Aw~… Hicchan, you look disappointed, you don't like it either?"
+mi "~…"
 
-hi "Well, yeah, I'll admit I kind of liked your old haircut more, but I think this one is nice too. It suits you."
+# hi "Well, yeah, I'll admit I kind of liked your old haircut more, but I think this one is nice too. It suits you."
+hi ""
 
 show mishashort hips_grin_cas
 with charachange
 
-mi "Aw, thanks, Hicchan~!"
+# mi "Aw, thanks, Hicchan~!"
+mi "~!"
 
-hx "Touching. If you like it so much, maybe you two should trade."
+# hx "Touching. If you like it so much, maybe you two should trade."
+hx ""
 
-hi "You can't trade a haircut."
+# hi "You can't trade a haircut."
+hi ""
 
-hx "What a shame. Even her old haircut would suit you so much more than your current, slacker haircut. Awful. As for you…"
+# hx "What a shame. Even her old haircut would suit you so much more than your current, slacker haircut. Awful. As for you…"
+hx ""
 
 show jigoro laugh
 with charachange
 
-hx "Hmmm… Actually, this is much less garish than your other haircut. I like it."
+# hx "Hmmm… Actually, this is much less garish than your other haircut. I like it."
+hx ""
 
 show mishashort cross_laugh_cas
 with charachange
 
-mi "Ahahahaha~! Really? Thanks, Mr. Shizune's-dad~!"
+# mi "Ahahahaha~! Really? Thanks, Mr. Shizune's-dad~!"
+mi "~!~!"
 
 show jigoro angry
 with charachange
 
-hx "It's Mr. Hakamichi. Talk like a normal person."
+# hx "It's Mr. Hakamichi. Talk like a normal person."
+hx ""
 
 show mishashort perky_smile_cas
 with charachange
 
-mi "Hm~? I don't understand~! Okay, okay okay~! I'll call you Mr. Hakamichi!"
+# mi "Hm~? I don't understand~! Okay, okay okay~! I'll call you Mr. Hakamichi!"
+mi "~~!~!!"
 
-hx "Agh, it's like speaking to a slide whistle. Contemptible. Where's my biographer? Hideaki!"
+# hx "Agh, it's like speaking to a slide whistle. Contemptible. Where's my biographer? Hideaki!"
+hx "!"
 
 show jigoro invis
 show shizu basic_normal_cas
 show hideaki bored
 with charaexit
 
-"He starts quietly muttering to himself and walks off. I guess a wannabe-cranky old man like Jigoro would at the very least be hesitant to yell at girls. Suddenly, he doubles back, unable to resist his urge to have the last word."
+# "He starts quietly muttering to himself and walks off. I guess a wannabe-cranky old man like Jigoro would at the very least be hesitant to yell at girls. Suddenly, he doubles back, unable to resist his urge to have the last word."
+""
 
 show jigoro angry
 with charaenter
 
-hx "And another thing, you do not have to be so loud. I do not like being shouted at."
+# hx "And another thing, you do not have to be so loud. I do not like being shouted at."
+hx ""
 
 show mishashort hips_grin_cas
 with charachange
 
-mi "What? Shouting~? I'm not shouting~!"
+# mi "What? Shouting~? I'm not shouting~!"
+mi "~~!"
 
-"I can't think of anyone more unqualified to talk about what's garish or to chastise someone else on shouting at people. It's like a parade of hypocrisies and the hits just keep coming."
+# "I can't think of anyone more unqualified to talk about what's garish or to chastise someone else on shouting at people. It's like a parade of hypocrisies and the hits just keep coming."
+""
 
-"An unusual reaction seems to be taking place. Misha apparently finds Jigoro funny and laughs pretty much every time he says something, which only makes him berate her harder. I guess this is what they call a vicious circle."
+# "An unusual reaction seems to be taking place. Misha apparently finds Jigoro funny and laughs pretty much every time he says something, which only makes him berate her harder. I guess this is what they call a vicious circle."
+""
 
-"Misha's voice is punctuated with explosions of laughter and seems to come from everywhere. On the other hand Jigoro's is booming and directed like a cannon. In any case, they are both unbelievably loud."
+# "Misha's voice is punctuated with explosions of laughter and seems to come from everywhere. On the other hand Jigoro's is booming and directed like a cannon. In any case, they are both unbelievably loud."
+""
 
-"The more they talk to each other, the more they seem to play off each other's volume and get louder."
+# "The more they talk to each other, the more they seem to play off each other's volume and get louder."
+""
 
 show mishashort perky_sad_cas
 with charachange
 
-mi "Ow~! My ears hurt~!"
+# mi "Ow~! My ears hurt~!"
+mi "~!~!"
 
-hx "WHY ARE YOU SHOUTING?"
+# hx "WHY ARE YOU SHOUTING?"
+hx "!!"
 
 hide shizu
 with charaexit
@@ -2602,7 +3183,8 @@ with charaexit
 show black
 with hands_in
 
-"Shizune's hands wrap around my eyes from behind, something I'm so used to Misha doing that for the first time I find myself confused by it, since Misha is in front of me."
+# "Shizune's hands wrap around my eyes from behind, something I'm so used to Misha doing that for the first time I find myself confused by it, since Misha is in front of me."
+""
 
 show shizu adjust_happy_cas_close at center behind black
 show hideaki bored at center
@@ -2611,31 +3193,37 @@ with None
 hide black
 with hands_out
 
-"She lets go and holds a finger up to her lips."
+# "She lets go and holds a finger up to her lips."
+""
 
 show shizu behind_smile_cas_close
 with charachange
 
-ssh "What a perfect distraction! Now's our opportunity. Let's sneak off."
+# ssh "What a perfect distraction! Now's our opportunity. Let's sneak off."
+ssh "!"
 
-his "Why do we have to sneak off? Why not just walk off?"
+# his "Why do we have to sneak off? Why not just walk off?"
+his ""
 
 show shizu adjust_smug_cas_close
 with charachange
 
-ssh "It wouldn't be as fun."
+# ssh "It wouldn't be as fun."
+ssh ""
 
 show shizu basic_happy_cas_close
 with charachange
 
-ssh "It's decided: it's a secret mission. Escape without being detected. Extract Hideaki for bonus points."
+# ssh "It's decided: it's a secret mission. Escape without being detected. Extract Hideaki for bonus points."
+ssh ""
 
 hide shizu
 with charaexit
 
 stop music fadeout 3.0
 
-"Already, she has simplified the situation into a game. Shizune quietly slides away from the scene and begins edging towards the house. I walk towards it, normally."
+# "Already, she has simplified the situation into a game. Shizune quietly slides away from the scene and begins edging towards the house. I walk towards it, normally."
+""
 
 
 ########
