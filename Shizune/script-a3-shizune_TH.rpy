@@ -2854,106 +2854,106 @@ show jigoro smug
 with charachange
 
 # hx "I'm sure you like huffing glue, too. That doesn't make it right."
-hx ""
+hx "ฉันว่าเธอดมกาวด้วยแน่ ๆ แต่ใช่ว่าดมแล้วจะใส่ได้นะ"
 
 # hi "I don't huff glue. Where did you get the impression I do?"
-hi ""
+hi "ผมไม่ได้ดมกาวนะครับ ทำไมถึงคิดว่าผมดมกาวล่ะ"
 
 show hideaki normal
 with charachange
 
 # hh "That is slander."
-hh ""
+hh "หมิ่นประมาทนะครับ"
 
 # "I wonder how Hideaki knows what slander is. Maybe Jigoro is a lawyer. I can sort of see that, although I thought only TV lawyers were this antagonistic. I don't know if I should take the chance and ask if that's his job."
-""
+"ไปรู้เรื่องหมิ่นประมาทมาจากไหนเนี่ย จิโกโรอาจจะเป็นทนายละมั้ง ก็พอเห็นภาพอยู่ แต่นึกว่ามีแค่ทนายในโทรทัศน์\nที่ทำตัวเป็นศัตรูอย่างนี้ หรือจะถือโอกาสนี้ถามอาชีพที่เขาทำอยู่ดี"
 
 # hi "He's right. It is slander. Are you a lawyer?"
-hi ""
+hi "ใช่ครับ นี่คุณกำลังหมิ่นประมาทอยู่นะ เป็นทนายหรือเปล่า"
 
 show jigoro neutral
 with charachange
 
 # hx "I was guessing, a guess based on the fact that you are stupid. It's like how you are assuming I am a lawyer, except you have no reason to think that. If you want to know what I do so badly, why don't you preorder my autobiography?"
-hx ""
+hx "ฉันก็แค่เดา ดูความโง่ของเธอ เหมือนที่เธอเดาว่าฉันเป็นทนายนั่นแหละ เว้นก็แต่ว่าเธอเดามาแบบลอย ๆ ไม่มีเหตุผล\nอะไร ถ้าอยากรู้นักทำไมไม่สั่งจองหนังสืออัตชีวประวัติของฉันล่ะ"
 
 show jigoro angry
 with charachange
 
 # hx "Now you are insulting my book, and, by extension, my entire life. What gives you the right to do that? Arrogant. I'm trying to think of how I could make you understand my struggle. Maybe by beating you. With my autobiography."
-hx ""
+hx "แล้วนี่เธอกำลังดูถูกหนังสือฉัน ซึ่งหมายความว่าเธอดูถูกชีวิตฉันด้วย เธอมีสิทธิ์อะไรมาว่าอย่างนั้น จองหองจริง ๆ\nฉันคิดอยู่ว่าจะให้เธอรู้ซึ้งถึงความลำบากที่ฉันต้องผ่านมายังไงดี ตีน่าจะดี ตีด้วยหนังสือฉัน"
 
 # hx "I hope you walk away from the beating having learned a valuable lesson, like not making assumptions."
-hx ""
+hx "หวังว่าหลังจากที่เธอโดนตีแล้วจะได้เรียนรู้อะไรดี ๆ บ้างนะ เช่นว่าห้ามเดาอะไรไปก่อน"
 
 show hideaki bored
 with charachange
 
 # hh "Assault…"
-hh ""
+hh "ทำร้ายร่างกาย…"
 
 # "But he made an assumption too, that I huffed glue. I consider calling him out on this glaring example of hypocrisy, but I don't think it's worth it. He would probably explain his way out of it by saying “Shut up, boy.”"
-""
+"แต่เขาก็เดาไปก่อนว่าฉันดมกาวนี่ ฉันคิดอยู่ว่าจะท้วงตัวอย่างที่เห็นทนโท่อันนั้นดีมั้ย แต่ไม่น่าคุ้มหรอก เดี๋ยวก็คง\nแถไปว่า “เงียบไปเลยหนุ่ม”"
 
 show jigoro smug
 with charachange
 
 # hx "Back in my day, children were seen and not heard, and to be an adult meant having experienced many hardships. With even a glance, people could instantly judge a man's character. Childhood existed only to temper you for adulthood."
-hx ""
+hx "สมัยก่อนนะ เด็กน่ะไม่พูดมาก คนที่จะโตเป็นผู้ใหญ่ได้ต้องผ่านความลำบากร้อยพัน คนเรามองกันแวบเดียว\nก็ดูออกแล้วว่าเป็นคนยังไง วัยเด็กน่ะคือวัยที่จะมาผ่านฝึกฝนให้โตเป็นผู้ใหญ่"
 
 # hx "When you look at me, can you not see the catalogue of my experiences even at a glance?"
-hx ""
+hx "ตอนที่เธอมองฉันแวบแรกเธอไม่เห็นหรือไงว่าฉันผ่านอะไรมาบ้าง"
 
 # hi "Uh… maybe. Were you a swordfighter?"
-hi ""
+hi "เอ่อ… มั้งครับ เคยเป็นนักดาบเหรอครับ"
 
 # "He could also be Hawaiian, and a werewolf."
-""
+"ไม่ก็เป็นชาวฮาวาย แล้วก็เป็นมนุษย์หมาป่า"
 
 # hi "Wait, didn't you tell me before not to make assumptions? Now, you just asked me to assume stuff. And you're saying everyone when you were my age did it. And that had to be in, like, the '80s. That wasn't even that long ago!"
-hi ""
+hi "เดี๋ยวนะครับ แต่เพิ่งบอกไปหยก ๆ ไม่ใช่เหรอครับว่าห้ามเดาอะไรไปก่อนน่ะ แล้วไหงดันมาให้ผมเดาเนี่ย แล้วก็\nบอกอีกว่าสมัยก่อนคนรุ่นผมก็ทำแบบนี้กัน แต่สมัยก่อนของคุณที่ว่ามันก็แค่ช่วงยี่สิบปีที่แล้วนี่ครับ ก็ไม่ได้นาน\nขนาดนั้นสักหน่อย!"
 
 # "I'm ready to give him a piece of my mind, for talking like he had to walk fifteen miles in the snow to ride a coal train, that he had to shovel coal into himself, before climbing up a mountain while fighting ogres to get to school."
-""
+"ฉันละอยากจะแหวใส่เขาจริง ๆ มาโม้เหมือนว่าถ้าตัวเองจะไปโรงเรียนก็ต้องเดินยี่สิบกว่ากิโลเมตรไปขึ้นรถจักรไอน้ำที่\nตัวเองต้องตักถ่านเติมเอง แล้วจากนั้นก็ต้องไปปีนเขาสู้กับยักษ์อีก"
 
 # "But, now that I finally want a fight, Jigoro is happy to have a good thing going just continuing to ramble about how difficult it was growing up one generation ago, twirling his sword like a baton and stopping occasionally to yawn or check the time."
-""
+"แต่พอฉันอยากจะเถียงกลับขึ้นมาจริง ๆ เขาก็ดันพล่ามต่อถึงความลำเค็ญของชีวิตคนรุ่นตัวเองที่ผ่านมาพลาง\nควงดาบเป็นไม้คทา จะหยุดควงก็ตอนที่หาวไม่ก็ตอนที่ดูเวลา"
 
 # "The tardiness of his autobiographer is still foremost in his mind. That means the whole time he's been insulting me, he must have been doing it just to pass the time. To add insult to insult, his watch is also really nice."
-""
+"แต่สิ่งที่เขาคิดจริง ๆ ยังเป็นเรื่องคนเขียนอัตชีวประวัติที่มาช้า ซึ่งหมายความว่าเมื่อกี้ที่ด่าคือแค่ทำไปเพื่อฆ่าเวลาเล่น\nแล้วที่ฉันยิ่งรู้สึกแย่หนักคือนาฬิกาเขาก็สวยจริง ๆ"
 
 show jigoro angry
 with charachange
 
 # hx "…When I was your age, kids had responsibilities. Not like today. Sickening. No one thinks about the consequences of their actions any more. They just do whatever they want, thinking no one will hold them accountable since they are young."
-hx ""
+hx "…สมัยฉันอายุเท่าเธอ เด็ก ๆ น่ะต่างมีความรับผิดชอบ ไม่เหมือนทุกวันนี้ น่าปวดหัว ทำอะไรก็ไม่คิดถึงผลที่จะตามมา\nอยากทำอะไรก็ทำเพราะคิดว่าคงไม่มีใครมาต่อว่าอะไรได้เพราะเป็นเด็ก"
 
 # "It's odd, that description could fit Shizune and Misha. I thought something similar only yesterday. But it only fits them slightly."
-""
+"ฟังดูเหมือนชิซูเนะกับมิช่าแปลก ๆ เมื่อวานฉันก็คิดอะไรประมาณนี้ แต่เหมือนนิดหน่อยแค่นั้นแหละ"
 
 # hx "Look at yourself. An amoral, directionless, delinquent glue-huffer, with a complete lack of etiquette and absolutely no fashion sense. You are tomorrow's Japan. Disgraceful. Is this the future of this once-great country?"
-hx ""
+hx "ดูตัวเองซิเนี่ย เป็นดมกาวไร้ทิศทางไร้ศีลธรรม มารยาทก็ไม่มี หัวทางด้านการแต่งตัวก็ไม่ได้ เธอคืออนาคตของญี่ปุ่นนะ\nน่าขายหน้าจริง ๆ นี่น่ะเหรออนาคตของชาติที่เคยรุ่งเรือง"
 
 # hi "I know someone you would get along well with."
-hi ""
+hi "ผมพอรู้จักคนที่น่าจะอยู่กับคุณได้"
 
 # hx "Don't interrupt! Who? One of your friends? Why would I want to talk to some awful teenager? Have you even been listening? Why are you so rude, boy? Your attitude is not one that will make you a lot of friends."
-hx ""
+hx "อย่าขัด! ใคร เพื่อนเธอเหรอ ฉันจะลดตัวไปคุยกับวัยรุ่นเหลวแหลกทำไม เคยฟังใครบ้างมั้ย ทำไมหยาบคายอย่างนี้\nหนุ่ม นิสัยเธออย่างนี้คบใครไม่ได้หรอก"
 
 # hi "I wish you would stop giving me so much advice."
-hi ""
+hi "เลิกสอนผมสักทีเถอะครับ"
 
 # "Or at least, I wish he would give me advice that he would have the decency to adhere to himself."
-""
+"หรืออย่างน้อยก็สอนอะไรที่ตัวเขาเองพอจะทำได้บ้างน่ะ"
 
 show jigoro neutral
 with charachange
 
 # hx "Where have you been?"
-hx ""
+hx "ไปไหนมา"
 
 # hi "Huh?"
-hi ""
+hi "ฮะ?"
 
 show jigoro angry
 with charachange
@@ -2961,7 +2961,7 @@ with charachange
 stop music fadeout 3.0
 
 # hx "Not you, idiot."
-hx ""
+hx "ไม่ใช่เธอ เด็กโง่"
 
 show jigoro angry at Position(xpos=0.85)
 show hideaki normal at Position(xpos=0.45)
@@ -2976,43 +2976,43 @@ with charaenter
 shi "…"
 
 # hi "Oops. I didn't notice you there."
-hi ""
+hi "โอ๊ะ เพิ่งเห็น"
 
 show shizu adjust_happy_cas
 with charachange
 
 # "Shizune smiles and gives a short wave. Her arrival made Jigoro stop talking, so I'm already happy to see her for that reason alone."
-""
+"ชิซูเนะยิ้มโบกมือทักทายเล็กน้อย จิโกโรหยุดพูดเมื่อเธอมา ซึ่งทำให้ฉันดีใจมากที่เธอโผล่มา"
 
 show shizu basic_normal2_cas
 with charachange
 
 # ssh "Misha and I decided to go into town again. Hisao, I noticed you were looking at some clothes yesterday in a store window, and I thought I would go back and buy some of them for you. It was supposed to be a surprise, though."
-ssh ""
+ssh "มิช่ากับฉันไปเข้าตัวเมืองกันอีกรอบน่ะ เห็นเมื่อวานนายมองเสื้อผ้าตามร้าน ฉันเลยกะว่าจะกลับไปซื้อมาให้นาย\nสักหน่อย แต่จริง ๆ ทีแรกจะเก็บเป็นเซอร์ไพรส์น่ะนะ"
 
 # "She looks annoyed that the surprise is ruined, even though she ruined it herself."
-""
+"เธอดูไม่พอใจที่อดเซอร์ไพรส์ ถึงจะเป็นเธอเองที่เอามาบอกก็เถอะ"
 
 show shizu behind_blank_cas
 with charachange
 
 # ssh "Here you go!"
-ssh ""
+ssh "เอ้านี่!"
 
 # hi "Thanks."
-hi ""
+hi "ขอบใจ"
 
 show shizu basic_normal_cas
 with charachange
 
 # ssh "Misha wanted to cut her hair. I told her not to, but she said it was too hot for the summer."
-ssh ""
+ssh "มิช่าก็อยากตัดผม ฉันบอกว่าอย่าตัดเลย แต่มิช่าก็บอกว่าไว้ผมยาวกับหน้าร้อนแล้วมันร้อน"
 
 # hi "Yeah? I don't know, that makes a lot of sense to me. It must be like an oven under there. I want to see it. Where is Misha, anyway?"
-hi ""
+hi "หืม ไม่ยักรู้แฮะ แต่ก็เข้าใจได้นะ ไว้ยาวอย่างนั้นคงร้อนมากแน่ ๆ อยากเห็นเลยแฮะ ว่าแต่มิช่าอยู่ไหน"
 
 # mi "Over here~! Hi, Hicchan~! Hi, Mr. Shicchan's-father~! Hi, Hideaki~!"
-mi "~!~!~!~!"
+mi "ตรงนี้~! ไงฮิจัง~! ไงคะคุณพ่อชิซูเนะ~! ไงฮิเดอากิ~!"
 
 show jigoro smug
 with charachange
@@ -3044,97 +3044,97 @@ show bg shizu_garden:
 with dissolvecharamove
 
 # "Misha runs around us once in a wide circle before stopping next to Shizune."
-""
+"มิช่าวิ่งรอบพวกเราหนึ่งรอบแล้วมาหยุดยืนข้างชิซูเนะ"
 
 # "For the first time, she hasn't put her hands over my eyes, although now I see she has bags of her own to carry, so it's not like she could have even if she wanted to. Although I am positive she's tried before."
-""
+"เป็นครั้งแรกที่เธอโผล่มาแบบไม่ปิดตาฉันก่อน แต่ก็คงจะเพราะถุงข้าวของที่ถือมานั่นแหละ ต่อให้อยากทำอย่างนั้น\nมือก็คงไม่ว่างอยู่ดี แต่ฉันว่ามิช่าน่าจะเคยลองถือถุงปิดตาแล้วแหละ"
 
 # "Her meticulously styled curls are gone now, in favor of a much shorter, sportier look. Misha looks even happier than usual, probably because she knows she won't have to wake up at the crack of dawn every morning just to do her hair."
-""
+"ผมม้วนเป็นระเบียบไม่มีแล้ว เหลือแต่ทรงผมสั้น ๆ สายลุยมาแทน มิช่าดูจะมีความสุขกว่าปกติ น่าจะเพราะคิดว่าจากนี้\nไม่ต้องตื่นแต่ไก่โห่เพื่อมาทำผมแล้ว"
 
 show jigoro angry
 with charachange
 
 # hx "What is that haircut? You look like an intern. Your old haircut merely made you look like you were wearing a pink judge wig. Judge to intern is a huge demotion."
-hx ""
+hx "แล้วทรงผมนั่นอะไร ดูอย่างกับเด็กใหม่ ทรงผมเก่าเธอก็เหมือนวิกผมผู้พิพากษาสีชมพูแท้ ๆ ลดขั้นไกลมากนะ\nจากผู้พิพากษามาเป็นเด็กใหม่เนี่ย"
 
 show shizu behind_frown_cas
 with charachange
 
 # ssh "Hisao, is he saying something insulting? Tell him not to insult my friends!"
-ssh ""
+ssh "ฮิซาโอะ นี่เขาว่าใครอะไรอยู่หรือเปล่า บอกหน่อยว่าห้ามด่าเพื่อนฉัน!"
 
 # hi "Don't insult my friends."
-hi ""
+hi "อย่ามาว่าเพื่อนผมนะครับ"
 
 # hx "Which one of you is talking?"
-hx ""
+hx "คนไหนพูด"
 
 # hi "Both of us. I agree with her."
-hi ""
+hi "พวกเราสองคนนี่แหละครับ ผมก็คิดเหมือนชิซูเนะ"
 
 show mishashort hips_smile_cas
 with charachange
 
 # mi "Hehehe~! What do you think, Hicchan?"
-mi ""
+mi "เฮะ ๆ ๆ ~! ว่าไงล่ะฮิจัง"
 
 show shizu adjust_frown_cas
 with charachange
 
 # ssh "You should have kept it like it was."
-ssh ""
+ssh "เธอไม่น่าเปลี่ยนทรงผมเลยนะ"
 
 show mishashort perky_sad_cas
 with charachange
 
 # mi "Aw~… Hicchan, you look disappointed, you don't like it either?"
-mi "~…"
+mi "โธ่~… ฮิจัง นายดูผิดหวังนะ ไม่ชอบเหมือนกันเหรอ"
 
 # hi "Well, yeah, I'll admit I kind of liked your old haircut more, but I think this one is nice too. It suits you."
-hi ""
+hi "ก็ อืม บอกตรง ๆ ว่าฉันชอบทรงเก่ามากกว่า แต่ทรงนี้ก็เหมาะกับเธอดีนะ"
 
 show mishashort hips_grin_cas
 with charachange
 
 # mi "Aw, thanks, Hicchan~!"
-mi "~!"
+mi "อ๋า ขอบคุณนะฮิจัง~!"
 
 # hx "Touching. If you like it so much, maybe you two should trade."
-hx ""
+hx "ซาบซึ้งจริง ๆ ถ้าชอบมากก็แลกกันเลยสิ"
 
 # hi "You can't trade a haircut."
-hi ""
+hi "ทรงผมแลกกันได้ที่ไหนล่ะครับ"
 
 # hx "What a shame. Even her old haircut would suit you so much more than your current, slacker haircut. Awful. As for you…"
-hx ""
+hx "น่าเสียดาย ทรงผมเดิมของเธอยังจะเหมาะกับเธอกว่าทรงผมที่เหมือนคนไม่เอาไหนทรงนี้อีก แย่จริง ๆ ส่วนเธอ…"
 
 show jigoro laugh
 with charachange
 
 # hx "Hmmm… Actually, this is much less garish than your other haircut. I like it."
-hx ""
+hx "อืมมม… ที่จริง ทรงนี้ก็ดูบาดตาน้อยกว่าทรงเดิมนะ ฉันชอบ"
 
 show mishashort cross_laugh_cas
 with charachange
 
 # mi "Ahahahaha~! Really? Thanks, Mr. Shizune's-dad~!"
-mi "~!~!"
+mi "อะฮ่าฮ่าฮ่าฮ่า~! จริงเหรอคะ ขอบคุณค่ะคุณพ่อชิซูเนะ~!"
 
 show jigoro angry
 with charachange
 
 # hx "It's Mr. Hakamichi. Talk like a normal person."
-hx ""
+hx "คุณฮากามิจิ พูดให้เหมือนคนปกติหน่อย"
 
 show mishashort perky_smile_cas
 with charachange
 
 # mi "Hm~? I don't understand~! Okay, okay okay~! I'll call you Mr. Hakamichi!"
-mi "~~!~!!"
+mi "ขา~? ไม่เข้าใจค่ะ~! โอเค โอเค โอเค~! หนูจะเรียกคุณว่าคุณฮากามิจิ!"
 
 # hx "Agh, it's like speaking to a slide whistle. Contemptible. Where's my biographer? Hideaki!"
-hx "!"
+hx "โอย เหมือนคุยอยู่กับนกหวีดเลย น่ารังเกียจจริง ๆ แล้วนี่คนเขียนชีวประวัติฉันอยู่ไหน ฮิเดอากิ!"
 
 show jigoro invis
 show shizu basic_normal_cas
@@ -3142,40 +3142,40 @@ show hideaki bored
 with charaexit
 
 # "He starts quietly muttering to himself and walks off. I guess a wannabe-cranky old man like Jigoro would at the very least be hesitant to yell at girls. Suddenly, he doubles back, unable to resist his urge to have the last word."
-""
+"เขาพึมพำอยู่กับตัวเองแล้วเดินหนีไป แม้แต่ตาลุงขี้โม้เจ้าอารมณ์อย่างจิโกโรอย่างน้อยก็น่าจะมีความเกรงใจพอที่จะ\nไม่ตะคอกใส่เด็กผู้หญิงละนะ จู่ ๆ เขาก็ถอยมาเพราะอดที่จะพูดปิดท้ายไม่ได้"
 
 show jigoro angry
 with charaenter
 
 # hx "And another thing, you do not have to be so loud. I do not like being shouted at."
-hx ""
+hx "แล้วอีกอย่าง ไม่ต้องเสียงดังขนาดนั้น ฉันไม่ชอบให้ใครมาตะโกนใส่"
 
 show mishashort hips_grin_cas
 with charachange
 
 # mi "What? Shouting~? I'm not shouting~!"
-mi "~~!"
+mi "ขา? ตะโกนเหรอคะ~ หนูไม่ได้ตะโกนนะ~!"
 
 # "I can't think of anyone more unqualified to talk about what's garish or to chastise someone else on shouting at people. It's like a parade of hypocrisies and the hits just keep coming."
-""
+"สภาพคนที่ว่าคนอื่นเรื่องความบาดตากับเรื่องระดับเสียงนี่ก็ไม่ต่างกันเท่าไหร่นะ ยิ่งดูเหมือนยิ่งได้เห็นความย้อนแย้ง\nที่ไหลมาเรื่อย ๆ ไม่หยุด"
 
 # "An unusual reaction seems to be taking place. Misha apparently finds Jigoro funny and laughs pretty much every time he says something, which only makes him berate her harder. I guess this is what they call a vicious circle."
-""
+"แล้วก็เหมือนจะมีปฏิกิริยาเพี้ยน ๆ เกิดขึ้น ดูท่าว่ามิช่าจะขำจิโกโรจนหัวเราะแทบทุกครั้งที่เขาพูด แล้วพอหัวเราะ\nเขาก็ยิ่งว่าเธอหนักเข้าไปอีก นี่ละมั้งที่เขาเรียกว่าวงจรอุบาทว์"
 
 # "Misha's voice is punctuated with explosions of laughter and seems to come from everywhere. On the other hand Jigoro's is booming and directed like a cannon. In any case, they are both unbelievably loud."
-""
+"เสียงมิช่าจะถูกคั่นด้วยระเบิดหัวเราะที่มาจากทั่วทุกสารทิศ ส่วนฝั่งจิโกโรจะเป็นเสียงยิงตู้มต้ามแบบปืนใหญ่ ซึ่งเสียง\nทั้งคู่ก็หนวกหูเหลือเชื่อนั่นแหละ"
 
 # "The more they talk to each other, the more they seem to play off each other's volume and get louder."
-""
+"ยิ่งสองคนนั้นคุยกันก็ยิ่งเหมือนเร่งเสียงกันและกันให้ดังขึ้นเรื่อย ๆ"
 
 show mishashort perky_sad_cas
 with charachange
 
 # mi "Ow~! My ears hurt~!"
-mi "~!~!"
+mi "โอ๊ย~! เจ็บหู~!"
 
 # hx "WHY ARE YOU SHOUTING?"
-hx "!!"
+hx "ตะโกนทำไม!!"
 
 hide shizu
 with charaexit
@@ -3184,7 +3184,7 @@ show black
 with hands_in
 
 # "Shizune's hands wrap around my eyes from behind, something I'm so used to Misha doing that for the first time I find myself confused by it, since Misha is in front of me."
-""
+"ชิซูเนะเข้ามาทางข้างหลังฉันแล้วปิดตา ฉันชินการกระทำนี้กับมิช่าแล้วก็จริง แต่ฉันก็ตกใจเพราะตอนนี้มิช่า\nอยู่ตรงหน้าฉัน"
 
 show shizu adjust_happy_cas_close at center behind black
 show hideaki bored at center
@@ -3194,28 +3194,28 @@ hide black
 with hands_out
 
 # "She lets go and holds a finger up to her lips."
-""
+"เธอปล่อยมือแล้วใช้นิ้วตัวเองแตะที่ริมฝีปาก"
 
 show shizu behind_smile_cas_close
 with charachange
 
 # ssh "What a perfect distraction! Now's our opportunity. Let's sneak off."
-ssh "!"
+ssh "เบี่ยงความสนใจได้สวย! จังหวะนี้แหละคือโอกาสของเรา แอบหนีไปกันเถอะ"
 
 # his "Why do we have to sneak off? Why not just walk off?"
-his ""
+his "ทำไมต้องแอบหนีด้วย เดินหนีเฉย ๆ ไม่ได้เหรอ"
 
 show shizu adjust_smug_cas_close
 with charachange
 
 # ssh "It wouldn't be as fun."
-ssh ""
+ssh "ไม่งั้นก็ไม่สนุกน่ะสิ"
 
 show shizu basic_happy_cas_close
 with charachange
 
 # ssh "It's decided: it's a secret mission. Escape without being detected. Extract Hideaki for bonus points."
-ssh ""
+ssh "ตกลงตามนี้ ภารกิจนี้เป็นภารกิจลับ หนีโดยที่ห้ามให้ใครจับได้ ถ้าช่วยฮิเดอากิออกมาได้ด้วยจะได้คะแนนพิเศษ"
 
 hide shizu
 with charaexit
@@ -3223,7 +3223,7 @@ with charaexit
 stop music fadeout 3.0
 
 # "Already, she has simplified the situation into a game. Shizune quietly slides away from the scene and begins edging towards the house. I walk towards it, normally."
-""
+"เธอทำให้เรื่องนี้เป็นเกมไปแล้ว ชิซูเนะแอบหนีออกมาแล้วเลียบ ๆ ไปตามทางมายังบ้าน ส่วนฉันก็เดินเข้าบ้านตามปกติ"
 
 
 ########
