@@ -2209,7 +2209,7 @@ with shorttimeskip
 "กับข้าวที่ควันหอมฉุยลอยโขมงนั้นมาถึงในไม่กี่อึดใจ"
 
 # hx "Are you in the Student Council, like Shizune? Is the Student Council that busy, that Shizune has to drag her friends along with her everywhere she goes?"
-hx "เธออยู่สภานักเรียนเหมือนชิซูเนะหรือเปล่า สภานักเรียนงานเยอะถึงขั้นต้องลากเพื่อนติดตัวไปทุกที่ด้วยเลยเหรอ"
+hx "เธอเป็นสภานักเรียนเหมือนชิซูเนะหรือเปล่า สภานักเรียนงานเยอะถึงขั้นต้องลากเพื่อนติดตัวไปทุกที่ด้วยเลยเหรอ"
 
 
 show shizu behind_blank_cas at Position(xpos=0.12)
@@ -2219,7 +2219,7 @@ with charachange
 ssh "เที่ยวก็คือเที่ยวมั้ยล่ะคะ"
 
 # hi "You're right about the student council part. I think we're just here for fun, though."
-hi "ครับ ผมอยู่สภานักเรียน แต่ที่พวกเรามาที่นี่ก็มาเที่ยวเฉย ๆ แหละครับ"
+hi "ครับ ผมเป็นสภานักเรียน แต่ที่พวกเรามาที่นี่ก็มาเที่ยวเฉย ๆ แหละครับ"
 
 show jigoro neutral
 with charachange
@@ -2312,7 +2312,7 @@ hi "ฮะ…?"
 hx "“ฮะ”? ไม่มีมารยาทเลยนะ สุดยอด พวกเกเรเป็นอย่างนี้กันหมดเลยหรือไง เสื้อผ้าที่เธอใส่ยังไม่มีความเคารพ\nผู้หลักผู้ใหญ่เลย เสื้อกั๊กไหมพรมเนี่ยนะ อุจาดตาเสียจริง…"
 
 # hi "Delinquent? I'm on the Student Council."
-hi "เกเรเหรอครับ แต่ผมอยู่สภานักเรียนนะ"
+hi "เกเรเหรอครับ แต่ผมเป็นสภานักเรียนนะ"
 
 # "I'm hurt by his comment on my sweater vest, especially when it's coming from a guy in such a tacky shirt. I guess I can't really say anything, though. He has a sword. He might also kill bears."
 "ฉันเจ็บจี๊ดที่เขาพูดถึงเสื้อกั๊กไหมพรมของฉันอย่างนั้น เสื้อที่คนพูดใส่ก็เห่ยเถอะ แต่คงพูดอะไรไม่ได้อะนะ อีกคน\nมีดาบอยู่ เผลอ ๆ ใช้ฆ่าหมีด้วย"
@@ -4064,7 +4064,7 @@ show jigoro smug
 with charachange
 
 # hx "You are in the Student Council with Shizune, aren't you? What is your job there?"
-hx "เธออยู่สภานักเรียนกับชิซูเนะใช่มั้ย เธอมีหน้าที่อะไร"
+hx "เธอเป็นสภานักเรียนเหมือนชิซูเนะใช่มั้ย เธอมีหน้าที่อะไร"
 
 # hi "I don't think there are specific roles, other than president. Shizune is always trying to round people up to help out here and there. Usually we might get like, one person to pitch in, but otherwise the three of us do whatever needs to be done."
 hi "ก็ไม่มีหน้าที่อะไรตายตัวหรอกครับ นอกจากตำแหน่งประธานน่ะนะ ชิซูเนะจะคอยขอให้คนนั้นคนนี้มาช่วยตลอด\nปกติก็จะได้คนมาช่วยสักหนึ่งคน แต่นอกนั้นเราสามคนก็จะช่วยกันทำงานที่มีนั่นแหละครับ"
@@ -4259,7 +4259,7 @@ show jigoro invis at center
 with dissolvecharamove
 
 # "Picking up his sword and using it to pull himself to his feet, he turns and casually saunters out of the room. I want to throw my book after him, but I'm happy to finally be alone, even if I'm not in the mood to read any longer."
-"เขาใช้ดาบค้ำตัวเองลุกขึ้นยืนแล้วเดินออกไปสบาย ๆ อยากจะปาหนังสือไล่จริง ๆ แต่ได้อยู่คนเดียวสักทีก็ดีแล้วละ\nถึงจะไม่มีอารมณ์อ่านอะไรแล้วก็เถอะ"
+"เขาใช้ดาบค้ำตัวเองลุกขึ้นยืนแล้วเดินออกไปสบาย ๆ อยากจะปาหนังสือไล่หลังไปด้วยจริง ๆ แต่ได้อยู่คนเดียวเสียที\nก็ดีแล้วละ ถึงจะไม่มีอารมณ์อ่านอะไรแล้วก็เถอะ"
 
 scene black
 with dissolve
@@ -4269,16 +4269,19 @@ label th_S24:
 scene bg city_station
 with locationchange
 
-"Our return trip to the school keeps getting delayed in one way or another. Shizune and Misha come back so late that there's no use even leaving and we end up staying another day."
+# "Our return trip to the school keeps getting delayed in one way or another. Shizune and Misha come back so late that there's no use even leaving and we end up staying another day."
+"มีเหตุที่ทำให้เรากลับโรงเรียนช้าไปเรื่อย ๆ อย่างแรก ชิซูเนะและมิช่ากลับบ้านค่ำเสียจนออกบ้านไม่ได้อีกจนสุดท้าย\nต้องอยู่ต่ออีกวัน"
 
-"The morning after, we miss the train by a single minute and then the next two don't arrive. We miss the fourth train because I wandered off to get a drink in the meantime. Shizune wasn't very happy about that."
+# "The morning after, we miss the train by a single minute and then the next two don't arrive. We miss the fourth train because I wandered off to get a drink in the meantime. Shizune wasn't very happy about that."
+"เช้าวันรุ่งขึ้นก็ตกรถไฟไปหนึ่งนาที อีกสองขบวนต่อจากนั้นก็ไม่มา และตกขบวนที่สี่เพราะออกไปหาอะไรดื่ม ซึ่ง\nชิซูเนะไม่พอใจเท่าไหร่นัก"
 
 scene bg school_dormhisao
 with shorttimeskip
 
 play music music_dreamy fadein 2.0
 
-"By the time I finally get back to my room, I feel so tired, even though I spent most of the ride back sleeping. I can't say it's only because of today; this seems like a familiar symptom of traveling. It's not the first time it's happened."
+# "By the time I finally get back to my room, I feel so tired, even though I spent most of the ride back sleeping. I can't say it's only because of today; this seems like a familiar symptom of traveling. It's not the first time it's happened."
+"กว่าจะกลับถึงห้องก็เล่นเอาเหนื่อยทีเดียว ทั้งที่หลับมาเกือบตลอดทางแล้วแท้ ๆ จะว่าเป็นเรื่องที่เกิดแค่วันนี้ไม่ได้หรอก\nเพราะเหมือนได้เดินทางทีไรก็เป็นอย่างนี้ทุกที ครั้งนี้ไม่ใช่ครั้งแรกเลย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -4289,7 +4292,8 @@ with shuteye
 
 window show
 
-"If no one has beaten me to it, I could do a thesis on it, maybe get in a medical journal. “Returning From A Trip Syndrome.” Not very creative. I fall asleep before I can think of a better name."
+# "If no one has beaten me to it, I could do a thesis on it, maybe get in a medical journal. “Returning From A Trip Syndrome.” Not very creative. I fall asleep before I can think of a better name."
+"ถ้ายังไม่มีใครทำก็น่าจะเขียนวิทยานิพนธ์เรื่องนี้ได้ อาจจะเอาไปตีพิมพ์ลงวารสารการแพทย์ “กลุ่มอาการป่วยการเดินทาง”\nฟังดูไม่สร้างสรรค์เท่าไหร่ แต่ฉันก็ผล็อยหลับไปก่อนที่ทันจะได้คิดชื่อที่ดีกว่านั้น"
 
 window hide
 
@@ -4303,16 +4307,19 @@ $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
 window show
 
-"A loud knock on my door wakes me up only a few hours into my nap. I'm annoyed because I had just been in the middle of a dream that I can't remember, having been woken up in the middle of it. But I'm sure it was a good one."
+# "A loud knock on my door wakes me up only a few hours into my nap. I'm annoyed because I had just been in the middle of a dream that I can't remember, having been woken up in the middle of it. But I'm sure it was a good one."
+"งีบได้ไม่กี่ชั่วโมงก็มีเสียงเคาะประตูที่ทำฉันสะดุ้งตื่น ฉันนึกหงุดหงิดเพราะต้องตื่นตอนที่กำลังฝันอะไรสักอย่างซึ่งฉัน\nจำไม่ได้อยู่ แต่ต้องเป็นฝันที่ดีแน่ ๆ"
 
-"I briefly wonder who it could be, but it's not like I get many visitors, so I'm sure it's Kenji. I hope he is just rolling out the welcome wagon and not going to hit me up for money again. If that was the case I'd be almost touched."
+# "I briefly wonder who it could be, but it's not like I get many visitors, so I'm sure it's Kenji. I hope he is just rolling out the welcome wagon and not going to hit me up for money again. If that was the case I'd be almost touched."
+"ฉันคิดแวบหนึ่งว่าจะเป็นใครได้ แต่ก็ใช่ว่าจะมีคนมาหาฉันเยอะแยะขนาดนั้นน่ะนะ คงเป็นเคนจินั่นแหละ หวังว่าจะมา\nแค่ฉลองต้อนรับกลับแล้วไม่ได้มายืมเงินนะ ถ้ามาฉลองจริงนี่ฉันคงซึ้งเลยแหละ"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 scene black
 with shuteye
 
-"Not touched enough to fight off the urge to roll over and go back to sleep, though."
+# "Not touched enough to fight off the urge to roll over and go back to sleep, though."
+"แต่ก็ไม่ได้ซึ้งพอที่จะทำให้ฉันลุกไปจากที่นอนได้อะนะ"
 
 stop music fadeout 5.0
 
@@ -4325,9 +4332,11 @@ with openeye
 
 window show
 
-"A few hours after that, I wake up again and immediately spot an envelope on the floor."
+# "A few hours after that, I wake up again and immediately spot an envelope on the floor."
+"ไม่กี่ชั่วโมงให้หลังฉันก็ตื่นมาอีกครั้ง สายตาเหลือบไปเห็นซองจดหมายที่วางอยู่กับพื้น"
 
-"It must be something that came in the mail while I was away. That's Shizune and Misha's department, so I wonder if they dropped by to give it to me, or maybe someone filled in for them in their absence and told Kenji to pass it along…"
+# "It must be something that came in the mail while I was away. That's Shizune and Misha's department, so I wonder if they dropped by to give it to me, or maybe someone filled in for them in their absence and told Kenji to pass it along…"
+"คงมาอยู่ในกล่องจดหมายช่วงที่ฉันไม่อยู่มั้ง ซึ่งปกติชิซูเนะและมิช่าจะเป็นคนจัดการ สองคนนั้นแวะมาหย่อนให้\nที่ห้องฉันหรือเปล่านะ ไม่ก็ใครสักคนมารับหน้าที่ช่วงที่สองคนนั้นไม่อยู่แล้วฝากเคนจิเอามาให้…"
 
 show letter_insert:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
@@ -4337,14 +4346,18 @@ with Pause (1.0)
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
 play music music_rain fadein 4.0
 
-"When I pick it up, any remnants of sleepiness in me instantly vanish."
+# "When I pick it up, any remnants of sleepiness in me instantly vanish."
+"พอหยิบขึ้นมาดูฉันก็หายง่วงเป็นปลิดทิ้ง"
 
-"Even if the name of the sender wasn't on it, I would have known whom it was from by looking at the envelope itself, realizing why it looked so familiar. By recognizing the delicate handwriting addressing it."
+# "Even if the name of the sender wasn't on it, I would have known whom it was from by looking at the envelope itself, realizing why it looked so familiar. By recognizing the delicate handwriting addressing it."
+"แม้ไม่มีชื่อผู้ส่ง แต่ดูแค่ซองจดหมายฉันก็รู้แล้ว มิน่าละถึงได้คุ้นตาเหลือเกิน เพราะลายมือแสนบรรจงที่ใช้เขียนที่อยู่\nบนซองจดหมายนี่เอง"
 #This directly contradicts everyone else's take on things. I don't think it's worth changing though, since moving it back in time to the proper place would wreck what in our circles passes for "plot" forever. :p -SC
 
-"It's from Iwanako. At first, I can't believe it, but it wouldn't be too hard for her to track me down if she wanted to."
+# "It's from Iwanako. At first, I can't believe it, but it wouldn't be too hard for her to track me down if she wanted to."
+"อิวานาโกะเป็นคนส่งมา แวบแรกฉันยังไม่เชื่อ แต่ถ้าเธอจะตามที่อยู่ฉันจริง ๆ ก็คงไม่ยากอะไร"
 
-"Of course, I hadn't thought that she would want to. She was maybe my girlfriend for all of five seconds. After that, we barely spoke to each other."
+# "Of course, I hadn't thought that she would want to. She was maybe my girlfriend for all of five seconds. After that, we barely spoke to each other."
+"แน่ละ ฉันไม่คิดว่าเธอจะอยากลงทุนตามที่อยู่ฉันขนาดนั้น ก็เธอได้เป็นแฟนฉันสักห้าวินาทีได้เองมั้ง แล้วหลังจากนั้นก็\nแทบไม่ได้คุยกันเลย"
 
 show letter_insert:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -4354,94 +4367,119 @@ with Pause (1.0)
 hide letter_insert
 with None
 
-"It would be too easy to put this letter away somewhere and forget about it. A part of me wants to do that. Or throw it away, unread. Why I want to do these things, I don't know. It would be easy to do them. Easier than to read it."
+# "It would be too easy to put this letter away somewhere and forget about it. A part of me wants to do that. Or throw it away, unread. Why I want to do these things, I don't know. It would be easy to do them. Easier than to read it."
+"จะให้เก็บจดหมายนี้ไว้สักที่แล้วลืม ๆ ไปก็กระไรอยู่ ใจหนึ่งฉันก็อยากทำอย่างนั้น ไม่ก็ทิ้ง ๆ ไปเลยโดยที่ไม่ต้องเปิดอ่าน\nฉันเองก็ไม่รู้ว่าทำไมถึงอยากทำอย่างนั้น คงเพราะการทิ้งไปอย่างนั้นจะง่ายกว่าการเปิดอ่าน"
 
 scene ev hisao_letter_open
 with locationchange
 
-"Slitting the envelope open with the tip of a pen, I'm surprised by the length of the letter that spills out."
+# "Slitting the envelope open with the tip of a pen, I'm surprised by the length of the letter that spills out."
+"ฉันใช้ปลายปากกากรีดซองจดหมายให้เปิดออก แล้วก็ต้องตกใจกับความยาวของตัวจดหมายที่ออกมาจากซองนั้น"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 window hide
 
-$ written_note("Dear Hisao,\n\nHow are you? I hope you are well and happy at your new school. Everyone here misses you. Almost all of our second-year class got put together in class 3-1 for the final year, so we are pretty comfortable right from the beginning of the year. I'm sure you would've been assigned to this class as well.")
-
-$ written_note("The mood among the third-years seems to be very anxious about the final exams, even though they are so far away. The teachers are badgering us about it all the time - even old Mr. Tachibana who is, by the way, our homeroom teacher this year. Would you believe it? I was sure that he'd retire after our second year, but here he is, nagging everyone about studying for exams.\n")
-
-$ written_note("I think things like that are the main reason why the mood among the third-years is so nervous. I must admit that I'm somehow losing confidence in myself as well, even though I've always fared reasonably well in exams.\n\n\n\n\n")
-
+# $ written_note("Dear Hisao,\n\nHow are you? I hope you are well and happy at your new school. Everyone here misses you. Almost all of our second-year class got put together in class 3-1 for the final year, so we are pretty comfortable right from the beginning of the year. I'm sure you would've been assigned to this class as well.")
+$ written_note("ถึง ฮิซาโอะ\n\nเป็นยังไงบ้าง หวังว่านายจะสบายดีมีความสุขกับ\nโรงเรียนใหม่นะ คนที่นี่คิดถึงนายกัน พวก\nนักเรียนม. 5 พอได้ขึ้นชั้นมาอยู่ม. 6 ก็ได้ย้ายมาอยู่\nห้อง 3-1 กันเกือบหมด ก็เลยอยู่กันอย่างอบอุ่น\nแต่ต้นปีการศึกษาเลย ถ้านายยังอยู่ก็คงได้มาเรียน\nห้องเดียวกันเหมือนกัน")
+ 
+# $ written_note("The mood among the third-years seems to be very anxious about the final exams, even though they are so far away. The teachers are badgering us about it all the time - even old Mr. Tachibana who is, by the way, our homeroom teacher this year. Would you believe it? I was sure that he'd retire after our second year, but here he is, nagging everyone about studying for exams.\n")
+$ written_note("นักเรียนม. 6 ดูจะเครียดเรื่องสอบปลายภาคกัน\nถึงจะยังอีกนานก็เถอะ คุณครูก็เอาแต่ตามย้ำอยู่\nนั่นแหละ ขนาดครูทาจิบานะยังเป็นไปกับเขาเลย\nแล้วก็เนี่ย เชื่อมั้ยว่าปีนี้แกได้เป็นครูประจำชั้นห้อง\nของเราด้วยนะ ฉันก็กะไว้แล้วแท้ ๆ ว่ายังไงพอ\nขึ้นชั้นมา แกก็คงเกษียณไปแล้ว แต่ก็ไม่\nมายืนจิกหัวให้อ่านหนังสือสอบอยู่เนี่ย\n")
+ 
+# $ written_note("I think things like that are the main reason why the mood among the third-years is so nervous. I must admit that I'm somehow losing confidence in myself as well, even though I've always fared reasonably well in exams.\n\n\n\n\n")
+$ written_note("ฉันว่าเพราะอย่างนั้นแหละพวกม. 6 เลยร้อนรน\nกัน ฉันก็ต้องยอมรับเหมือนกันว่าฉันเองก็ชักจะ\nไม่มั่นใจขึ้นมาแล้ว ถึงปกติจะสอบได้คะแนนเยอะ\nพอตัวตลอดก็เถอะ\n\n\n\n\n")
+ 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
 window show
 
-"The small talk makes me feel nostalgic. It's almost like I'm in the hospital again. Every now and then Iwanako would drop by and give me the gist of what was going on in a class that, even then, I had an inkling that I would never return to."
+# "The small talk makes me feel nostalgic. It's almost like I'm in the hospital again. Every now and then Iwanako would drop by and give me the gist of what was going on in a class that, even then, I had an inkling that I would never return to."
+"พอเธอเล่าอย่างนี้แล้วก็ชวนให้คิดถึงรู้สึกเหมือนได้กลับไปอยู่โรงพยาบาลอีกครั้งเลย ตอนนั้นเธอจะคอยแวะมาเยี่ยม\nแล้วเล่าให้ฟังว่าในห้องเป็นยังไงบ้าง ซึ่งแม้แต่ตอนนั้นฉันก็รู้สึกได้แล้วว่าคงไม่ได้กลับไปอีก"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 window hide
 
-$ written_note("It's so weird to think we are already seniors, isn't it? Time has really flown past. I wonder where it went. The new first-years seem so young and somehow really innocent. I keep wondering if I was like them in my first year. I've been feeling nostalgic like this for the whole first trimester.\n\n\n")
+# $ written_note("It's so weird to think we are already seniors, isn't it? Time has really flown past. I wonder where it went. The new first-years seem so young and somehow really innocent. I keep wondering if I was like them in my first year. I've been feeling nostalgic like this for the whole first trimester.\n\n\n")
+$ written_note("แปลกเนอะ รู้ตัวอีกทีก็ม. 6 แล้ว เวลาผ่านไปไว\nจริง ๆ ผ่านไปไหนกันนะ นักเรียนม. 4 น่ะดูทั้ง\nยังเด็กแล้วก็ใสซื่อดี ตลอดเทอมแรกนี้ฉันเอาแต่\nย้อนคิดตลอดเลยแหละว่าสมัยอยู่ม. 4 ฉันก็เป็น\nอย่างนั้นด้วยหรือเปล่า\n\n\n")
 
 show ev hisao_letter_open:
     "ev hisao_letter_open_2" with locationchange
 with None
 $ ksgallery_unlock("ev hisao_letter_open_2")
 
-$ written_note("There are other things I want to say. I'm writing to you because I felt that there are things I should've said after the incident back in winter. I really regret that I wasn't able to say them in person, and I have no excuse for it.\n\n\n\n\n")
-
-$ written_note("The truth is, the times when I visited you at the hospital made me worried about you. I am not talking about your health. You seemed to become more distant and disheartened. It was natural after something like that happened, I'm sure, but somehow I got the feeling that you had given up on something back then. Happiness, maybe?\n")
-
-$ written_note("I wanted to somehow express my feelings, but the right words didn't come to me. I couldn't say anything to comfort you. I am really sorry for not being able to support you when it mattered the most, even though I like you so much. At least now, finally, I can be more honest.\n\n\n\n")
+# $ written_note("There are other things I want to say. I'm writing to you because I felt that there are things I should've said after the incident back in winter. I really regret that I wasn't able to say them in person, and I have no excuse for it.\n\n\n\n\n")
+$ written_note("ยังมีอย่างอื่นที่ฉันอยากพูดถึงอีก ฉันเขียนจดหมาย\nส่งมาหานายเพราะรู้สึกเหมือนพอเกิดเรื่องนั้นแล้ว\nฉันคงต้องพูดอะไรหน่อย ฉันเสียใจจริง ๆ ที่ฉันมา\nพูดกับนายต่อหน้าตรง ๆ ไม่ได้ และฉันก็ไม่มี\nข้อแก้ตัวอะไรทั้งนั้น\n\n\n\n\n")
+ 
+# $ written_note("The truth is, the times when I visited you at the hospital made me worried about you. I am not talking about your health. You seemed to become more distant and disheartened. It was natural after something like that happened, I'm sure, but somehow I got the feeling that you had given up on something back then. Happiness, maybe?\n")
+$ written_note("ที่จริงคือ ตอนฉันไปเยี่ยมนาย ฉันก็เป็นห่วงนาย\nขึ้นมา ไม่ได้หมายถึงสุขภาพนายนะ แต่นายดูทั้ง\nห่างเหินทั้งไร้เรี่ยวแรง ฉันรู้อยู่ว่าพอเกิดเรื่อง\nอย่างนั้นแล้วจะเป็นแบบนั้นไปก็คงไม่แปลก แต่\nตอนนั้นฉันรู้สึกเหมือนนายถอดใจกับอะไร\nบางอย่างไปแล้ว ความสุข ละมั้ง\n")
+ 
+# $ written_note("I wanted to somehow express my feelings, but the right words didn't come to me. I couldn't say anything to comfort you. I am really sorry for not being able to support you when it mattered the most, even though I like you so much. At least now, finally, I can be more honest.\n\n\n\n")
+$ written_note("ฉันอยากบอกความรู้สึกให้นายได้รู้ แต่ก็นึกหาคำ\nไม่ได้เสียที ฉันพูดอะไรปลอบใจนายไม่ได้เลย ฉัน\nขอโทษจริง ๆ ที่คอยเป็นแรงใจให้นายยามที่นาย\nต้องการแรงใจที่สุดไม่ได้ ทั้งที่ฉันชอบนายมาก\nแท้ ๆ แต่อย่างน้อยตอนนี้ฉันก็พูดตรง ๆ ขึ้นมา\nได้บ้างแล้ว")
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
 window show
 
-"What a convenient time for her to rediscover her sincerity. Well, even as I think that, I know she's right. “Distant and disheartened” is a good way to describe it. And maybe I had given up, too."
+# "What a convenient time for her to rediscover her sincerity. Well, even as I think that, I know she's right. “Distant and disheartened” is a good way to describe it. And maybe I had given up, too."
+"มาหาความจริงใจเจอได้ถูกเวลาจริง ๆ แต่ถึงอย่างนั้นก็เถอะ ฉันรู้ว่าเธอพูดถูก การที่เธอบอกว่าฉัน “ทั้งเหินห่าง\nทั้งไร้เรี่ยวแรง” ก็ถูกแล้ว ฉันเองก็คงถอดใจไปแล้วด้วย"
 
-"It weighs on my heart when I think back to when I was lying in the hospital, feeling so bitter when she finally stopped showing up. I wasn't surprised, and I had no right to be. How could she not stop coming when it was the only expectation I had of her?"
+# "It weighs on my heart when I think back to when I was lying in the hospital, feeling so bitter when she finally stopped showing up. I wasn't surprised, and I had no right to be. How could she not stop coming when it was the only expectation I had of her?"
+"พอคิดถึงตอนที่ฉันนอนอยู่ที่โรงพยาบาลแล้วในใจก็หนักอึ้งขึ้นมา ยังรู้สึกขมขื่นเมื่อนึกถึงเวลานั้นที่เธอไม่มาหาอีกเลย\nตอนนั้นฉันไม่แปลกใจเลย และไม่มีสิทธิ์อะไรจะแปลกใจด้วย ในเมื่อสิ่งเดียวที่ฉันคาดหวังกับเธอคือการที่เธอมาหา\nเธอจะไม่มาอีกเลยก็ไม่แปลก"
 
-"She dropped by only for all of six weeks after the incident. If I drifted away from her, it was because I could feel her already moving herself away from me the moment she showed up."
+# "She dropped by only for all of six weeks after the incident. If I drifted away from her, it was because I could feel her already moving herself away from me the moment she showed up."
+"เธอมาเยี่ยมฉันเป็นระยะเวลาหกสัปดาห์หลังเหตุการณ์ครั้งนั้นเท่านั้น ถ้าฉันออกห่างจากตัวเธอจริง ก็คงเพราะฉันเอง\nที่รู้สึกว่าเธอนั้นเริ่มเคลื่อนห่างออกจากฉันทันทีที่ได้เห็นหน้าเธอ"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 window hide
 
-$ written_note("If I could go back to those quiet days in February and March, I'd tell you to not give up on yourself. That's what I would say. Maybe you wouldn't have drifted so far away if I had just said something. I hope you've managed to get back on your feet on your own.\n\n\n\n")
-
-$ written_note("Now that the distance between us is also physical, it also feels more final, somehow. I wonder if we will meet again. Perhaps it's for the best if we don't? Still, if you would like to correspond with me, by all means write me back. I'd very much like to hear about your new school and how you are doing. I wish you all the best.\n\nSincerely, Iwanako")
+# $ written_note("If I could go back to those quiet days in February and March, I'd tell you to not give up on yourself. That's what I would say. Maybe you wouldn't have drifted so far away if I had just said something. I hope you've managed to get back on your feet on your own.\n\n\n\n")
+$ written_note("ถ้าฉันกลับไปช่วงเดือนกุมภาพันธ์กับเดือนมีนาคมที่\nเงียบสงบนั้นได้ฉันก็อยากบอกนายว่าอย่ายอมแพ้\nนะ ฉันจะบอกอย่างนั้น ถ้าฉันพูดอะไรบ้างนายคง\nไม่ออกเหินห่างไปขนาดนี้ ฉันอยากให้นายลุกขึ้น\nมายืนด้วยตัวเองให้ได้\n\n\n\n")
+ 
+# $ written_note("Now that the distance between us is also physical, it also feels more final, somehow. I wonder if we will meet again. Perhaps it's for the best if we don't? Still, if you would like to correspond with me, by all means write me back. I'd very much like to hear about your new school and how you are doing. I wish you all the best.\n\nSincerely, Iwanako")
+$ written_note("แล้วยิ่งทีนี้ห่างกายกันด้วยก็ยิ่งรู้สึกเหมือนเป็นจุด\nส่งท้ายจริง ๆ ยังไงไม่รู้ เราจะได้เจอกันอีกไหมนะ\nหรือถ้าไม่เจอกันอีกเลยจะดีกว่ากันนะ แต่ถ้ายัง\nอยากติดต่อกับฉันอยู่ก็เขียนส่งกลับมาได้เลยนะ\nฉันยินดีมากที่จะได้ฟังเรื่องโรงเรียนใหม่กับ\nชีวิตใหม่ของนาย ขอให้มีความสุขดีนะ\n\nจากใจ อิวานาโกะ")
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
 window show
 
-"It's a strange feeling. I know that I'm never going to hear from her again."
+# "It's a strange feeling. I know that I'm never going to hear from her again."
+"เป็นความรู้สึกที่ประหลาดดี ที่ได้รู้ว่าฉันจะไม่ได้รับข่าวคราวอะไรจากเธออีกแล้ว"
 
-"If she really wanted to keep in touch, she wouldn't have picked a medium like snail mail to do it through. If she could get my address, then my e-mail or phone number wouldn't have been much more work, had she wanted them. This is only a goodbye."
+# "If she really wanted to keep in touch, she wouldn't have picked a medium like snail mail to do it through. If she could get my address, then my e-mail or phone number wouldn't have been much more work, had she wanted them. This is only a goodbye."
+"ถ้าเธอยังอยากติดต่อกันจริง ๆ ก็คงไม่เลือกส่งจดหมายไปรษณีย์มาอย่างนี้ เพราะถ้าตามที่อยู่ฉันได้ เธอก็คงตาม\nอีเมลหรือเบอร์โทร. ฉันได้ด้วยถ้าจะตามจริง ๆ ที่ส่งจดหมายมาคราวนี้เธอก็แค่จะลากันเท่านั้น"
 
 stop music fadeout 4.0
 
-"I exhale, only just now becoming aware that I had been reading with bated breath. Now who's being distant, Iwanako? But maybe it really is for the best."
+# "I exhale, only just now becoming aware that I had been reading with bated breath. Now who's being distant, Iwanako? But maybe it really is for the best."
+"เมื่อถอนหายใจก็เพิ่งรู้ตัวว่าเมื่อกี้อ่านจดหมายแบบหายใจไม่เต็มปอดอยู่ ไหน ทีนี้ใครกันแน่ที่เหินห่าง อิวานาโกะ\nแต่ให้เป็นอย่างนี้ก็คงดีที่สุดแล้วจริง ๆ"
 
-"For her to pick up a pen and write this letter to me, it can only be because she felt guilty about how things ended. That she was hurt by how we floated out of each other's lives makes me feel a sort of wistful happiness."
+# "For her to pick up a pen and write this letter to me, it can only be because she felt guilty about how things ended. That she was hurt by how we floated out of each other's lives makes me feel a sort of wistful happiness."
+"ที่จับปากกามาเขียนจดหมายส่งมาหากันอย่างนี้ก็คงแค่เพราะรู้สึกผิดที่เรื่องจบไปอย่างนั้นน่ะแหละ พอคิดว่าเธอเอง\nก็เจ็บปวดที่เราสองคนลอยห่างออกจากวงโคจรของกันและกันอย่างนี้แล้วฉันก็รู้สึกสุขอย่างเศร้าสร้อยขึ้นมา"
 
-"I almost want to thank her, and I only don't because I know she wouldn't want me to reply."
+# "I almost want to thank her, and I only don't because I know she wouldn't want me to reply."
+"อยากจะขอบคุณเธอจริง ๆ แต่ก็ไม่ได้ขอบคุณเพราะรู้ว่าเธอคงไม่อยากให้ฉันเขียนตอบเธอไป"
 
 play sound sfx_doorknock
 
 scene bg school_dormhisao
 with locationchange
 
-"There's a knock at my door, then it opens anyway about a millisecond later. I forgot to lock it, stupidly."
+# "There's a knock at my door, then it opens anyway about a millisecond later. I forgot to lock it, stupidly."
+"เสียงเคาะประตูดังขึ้น ไม่กี่เสี้ยววินาทีถัดมาประตูก็เปิดออก โง่ลืมล็อกเสียได้"
 
-ke "Sup, man? Why's your door open?"
+# ke "Sup, man? Why's your door open?"
+ke "ไงพวก ไหงไม่ล็อกประตูเนี่ย"
 
-"I run to the door faster than is probably medically safe for me to do so I can prevent Kenji from seeing the mountains of pills just a couple feet away from him, blocked from his sight only by the door."
+# "I run to the door faster than is probably medically safe for me to do so I can prevent Kenji from seeing the mountains of pills just a couple feet away from him, blocked from his sight only by the door."
+"ฉันพุ่งตัวไปที่ประตูด้วยความเร็วเกินหมอกำหนดเพื่อกันไม่ให้เคนจิเห็นกองยาที่อยู่ห่างจากตรงหน้าเขาไปราวครึ่งเมตร\nซึ่งก่อนหน้านี้มีเพียงประตูที่กั้นไว้ไม่ให้เห็น"
 
-"Then there's the letter I'm holding. If he asks about it, I don't think I could make up anything convincing."
+# "Then there's the letter I'm holding. If he asks about it, I don't think I could make up anything convincing."
+"ตอนนี้ในมือฉันก็มีจดหมายอีก ถ้าเกิดเขาถามขึ้นมาฉันคงแต่งเรื่องอะไรที่น่าเชื่อไม่ได้แน่ ๆ"
 
-"About two feet away from him I realize that his vision is so bad that it was probably never an issue. He didn't even see me about to practically tackle him back through the door frame."
+# "About two feet away from him I realize that his vision is so bad that it was probably never an issue. He didn't even see me about to practically tackle him back through the door frame."
+"เมื่อเข้าใกล้เขาได้ราวครึ่งเมตรแล้วฉันก็ถึงคิดได้ว่าสายตาเขานั้นย่ำแย่ชนิดที่ว่าคงไม่ต้องห่วงว่าจะเห็นอะไรเข้า เขายัง\nไม่เห็นฉันที่พุ่งตัวเตรียมเข้าชนให้เขาถอยห่างจากประตูด้วยซ้ำ"
 
 scene bg school_dormhallway
 show kenji tsun_close at center
@@ -4449,278 +4487,363 @@ with locationchange
 
 play music music_kenji fadein 0.5
 
-ke "Hey, what the hell, man?"
+# ke "Hey, what the hell, man?"
+ke "เฮ้ย อะไรเนี่ย"
 
-hi "What are you talking about? Your room has a billion locks on it, yet you just barge right through other people's doors."
+# hi "What are you talking about? Your room has a billion locks on it, yet you just barge right through other people's doors."
+hi "พูดอะไรของนาย ห้องนายล็อกเป็นล้านชั้น แต่เวลาเข้าห้องคนอื่นดันบุกเข้ามาอย่างนี้เลยอะนะ"
 
-hi "You didn't even wait a second after knocking before you tried the door, it was like, simultaneous. You were already opening the door while you were knocking on it."
+# hi "You didn't even wait a second after knocking before you tried the door, it was like, simultaneous. You were already opening the door while you were knocking on it."
+hi "แล้วเคาะได้ไม่ถึงวิก็บิดลูกบิดมาก่อนแล้ว แทบจะเคาะแล้วบิดเปิดประตูเข้ามาเลยมั้ง"
 
 show kenji happy_close
 with charachange
 
-ke "See? That's exactly why I have all those locks. It's a cold and uncaring world out there, a gate crasher's world. Now you also understand."
+# ke "See? That's exactly why I have all those locks. It's a cold and uncaring world out there, a gate crasher's world. Now you also understand."
+ke "เห็นมั้ย เนี่ยฉันถึงได้ล็อกห้องตัวเองขนาดนั้น โลกมันโหดร้ายทารุณนะเว้ย โลกของคนพังประตู ทีนี้นายก็เข้าใจด้วย\nสักที"
 
 show kenji neutral_close
 with charachange
 
-ke "I just taught you a valuable lesson, dude. Knowledge is power. Why are you yelling at me? I'm a hero."
+# ke "I just taught you a valuable lesson, dude. Knowledge is power. Why are you yelling at me? I'm a hero."
+ke "ฉันให้บทเรียนอันล้ำค่าแก่นายไปนะ ความรู้คือพลัง ตะโกนใส่กันทำไม ฉันคือวีรบุรุษนะเว้ย"
 
 show kenji tsun_close
 with charachange
 
-ke "Look at you… you didn't even lock your door. The average woman could have killed you a billion times already, then replaced you with a female clone indistinguishable from the original. It almost happened to me."
+# ke "Look at you… you didn't even lock your door. The average woman could have killed you a billion times already, then replaced you with a female clone indistinguishable from the original. It almost happened to me."
+ke "แล้วดูเนี่ย… นายไม่ได้ล็อกประตูเลยด้วยซ้ำ ถ้าเป็นผู้หญิงทั่วไปคงฆ่านายตายไปเป็นพันล้านรอบแล้วหาร่างโคลนผู้หญิง\nที่เหมือนตัวต้นแบบทุกกระเบียดนิ้วมาอยู่แทน ฉันเคยเกือบเป็นอย่างนั้นมาแล้ว"
 
-"Ignoring the latter part, since it's too confusing, it's funny he should say that. He was unable to stop me from tackling him head-on, yet apparently a woman could have killed me a billion times. If this man is a hero, we are all doomed."
+# "Ignoring the latter part, since it's too confusing, it's funny he should say that. He was unable to stop me from tackling him head-on, yet apparently a woman could have killed me a billion times. If this man is a hero, we are all doomed."
+"ไอ้ท่อนหลัง ๆ ช่างก่อนเพราะฟังแล้วงง ๆ แต่ที่เหลือฟังแล้วก็ตลกดี ตัวเองก็หยุดฉันที่เข้ามาเบียดเขาไม่ได้ แล้วก็\nบอกว่าถ้าเป็นผู้หญิงคงฆ่าฉันไปพันล้านรอบ งี้ถ้าเขาเป็นวีรบุรุษจริง พวกเราคงตายห่ากันหมด"
 
 show kenji happy_close
 with charachange
 
-ke "What's that you've got there?"
+# ke "What's that you've got there?"
+ke "ที่ถืออยู่นั่นอะไร"
 
-"Somehow, he is able to see the letter still in my hand. With how I've been waving it around, that is no surprise. I fold it back up quickly, but take care not to whip it behind my back or anything else. That would be too suspicious."
+# "Somehow, he is able to see the letter still in my hand. With how I've been waving it around, that is no surprise. I fold it back up quickly, but take care not to whip it behind my back or anything else. That would be too suspicious."
+"แต่เขายังเห็นจดหมายที่อยู่ในมือฉันอยู่แฮะ แต่โบกไปมาขนาดนั้นจะเห็นก็ไม่แปลก ฉันรีบเก็บทันที แต่ก็คอยระวัง\nไม่ให้ขยับเป็นท่าเอามือไพล่หลังไว้หรืออะไร ไม่อย่างนั้นจะน่าสงสัยเกินไป"
 
-"It seems like I'm jumpier than I'd thought about Iwanako writing to me."
+# "It seems like I'm jumpier than I'd thought about Iwanako writing to me."
+"ดูท่าว่าฉันจะตื่นเต้นที่อิวานาโกะเขียนจดหมายมาหากว่าที่คิดเอาไว้อีก"
 
-hi "I got a letter."
+# hi "I got a letter."
+hi "จดหมาย"
 
 show kenji neutral_close
 with charachange
 
-ke "Oh, yeah, I put that there. I was sleeping, then I woke up because I heard explosions."
+# ke "Oh, yeah, I put that there. I was sleeping, then I woke up because I heard explosions."
+ke "อ้อ อืม ฉันเป็นคนเอาไปไว้ตรงนั้นเองแหละ ตอนนั้นฉันหลับอยู่แล้วก็สะดุ้งตื่นเพราะได้ยินเสียงระเบิด"
 
-ke "I put on my helmet and then peeked outside to see what was going on, but it was just that Student Council woman banging on your door. It was the one without pink hair."
+# ke "I put on my helmet and then peeked outside to see what was going on, but it was just that Student Council woman banging on your door. It was the one without pink hair."
+ke "ฉันใส่หมวกนิรภัยแล้วแอบดูว่าข้างนอกมีอะไรกัน แต่ที่แท้ก็แค่เสียงยัยสภานักเรียนคนนั้นมาทุบประตูนาย คนที่ผม\nไม่ใช่สีชมพูน่ะ"
 
 show kenji tsun_close
 with charachange
 
-ke "She was knocking so loudly that it was obvious she was filled with murderous rage. Rage at you. Then she somehow sensed me behind her, and I tried to escape, but it was too late. She caught me and started pointing at the door."
+# ke "She was knocking so loudly that it was obvious she was filled with murderous rage. Rage at you. Then she somehow sensed me behind her, and I tried to escape, but it was too late. She caught me and started pointing at the door."
+ke "เคาะดังจนรู้เลยว่าโกรธนายจนอยากฆ่าคนเลยแน่ ๆ แล้วจากนั้นก็เหมือนรู้ว่าฉันดูอยู่ ฉันพยายามหนีแล้วแต่ก็สายไป\nพอจับฉันได้ยัยนั่นก็ชี้ ๆ ไปที่ประตู"
 
-"I open my mouth to tell him that she's deaf, but decide not to. For various reasons."
+# "I open my mouth to tell him that she's deaf, but decide not to. For various reasons."
+"ฉันอ้าปากเตรียมบอกว่าเธอหูหนวก แต่แล้วก็ตัดใจไม่บอกไปด้วยเหตุผลหลายประการ"
 
-ke "I didn't really get it, and she got more and more pissed off, like an old man trying to use a touchscreen phone."
-
-show kenji happy_close
-with charachange
-
-ke "She was going to kill me. Kill me and replace me with a woman version of me. But then the sunlight reflected off my glasses and blinded her, saving my life."
-
-show kenji neutral_close
-with charachange
-
-ke "It was like, behold, optic blast. I don't get how someone with glasses can be hurt by glasses. She uses them too, she should be immune to their death rays… but whatever. She gave me this envelope with your name on it and just left."
+# ke "I didn't really get it, and she got more and more pissed off, like an old man trying to use a touchscreen phone."
+ke "ไม่เข้าใจเลย แล้วยิ่งดูโมโหขึ้นเรื่อย ๆ อีกต่างหาก สภาพอย่างกับคนแก่ใช้มือถือจอสัมผัส"
 
 show kenji happy_close
 with charachange
 
-ke "Clearly, she was out for blood, so I lied and said you were away. I think you were away, right? I've been trying to ask you if you wanted to help me with my homework for a week now, but kept getting no answer. …Welcome back, man!"
-
-hi "Thanks."
+# ke "She was going to kill me. Kill me and replace me with a woman version of me. But then the sunlight reflected off my glasses and blinded her, saving my life."
+ke "ตอนนั้นคือกะจะฆ่ากันแล้วแน่ ๆ ฆ่าแล้วเอาฉันที่เป็นร่างผู้หญิงมาแทน แต่แล้วแสงแดดก็สะท้อนจากแว่นฉันจนยัยนั่น\nมองไม่เห็น ฉันเลยรอดมาได้"
 
 show kenji neutral_close
 with charachange
 
-ke "Yeah, so she gave me this envelope and it had your name on it. I didn't want to hold on to it, because, what if it was a bomb? So I just shoved it under your door when she was gone."
+# ke "It was like, behold, optic blast. I don't get how someone with glasses can be hurt by glasses. She uses them too, she should be immune to their death rays… but whatever. She gave me this envelope with your name on it and just left."
+ke "แบบว่า จงดู ลำแสงแว่นตา ยังงงอยู่ว่าทำไมใส่แว่นแล้วแสงจากแว่นถึงยังมีผลอยู่ ใส่แว่นแล้วก็น่าจะทานลำแสงพิฆาต\nจากแว่นได้… แต่ช่างเหอะ ยัยนั่นให้จดหมายฉบับนี้ที่มีชื่อนายแปะอยู่แล้วก็เดินหนีไปเลย"
 
-ke "I was going to tell you, but you got back before I could. At least it's not a bomb."
+show kenji happy_close
+with charachange
 
-hi "Gee, thanks. I'm not going to help you out with your math homework, because, what if your math textbook is a bomb?"
+# ke "Clearly, she was out for blood, so I lied and said you were away. I think you were away, right? I've been trying to ask you if you wanted to help me with my homework for a week now, but kept getting no answer. …Welcome back, man!"
+ke "ชัดเลยว่าออกมาล่าเหยื่อแน่ ๆ ฉันเลยโกหกไปว่านายไม่อยู่ เหมือนนายจะไม่อยู่นี่ ฉันขอให้นายช่วยฉันทำการบ้าน\nมาเป็นสัปดาห์แล้วแต่ก็ไม่มีเสียงตอบรับอะไรเลย …ยินดีต้อนรับกลับพวก!"
+
+# hi "Thanks."
+hi "ขอบใจ"
+
+show kenji neutral_close
+with charachange
+
+# ke "Yeah, so she gave me this envelope and it had your name on it. I didn't want to hold on to it, because, what if it was a bomb? So I just shoved it under your door when she was gone."
+ke "เออ ยัยนั่นก็ยื่นซองจดหมายที่มีชื่อนายติดอยู่นี่มาให้ ฉันก็ไม่อยากถือไว้ เพราะแบบ เกิดเป็นระเบิดทำไง พอยัยนั่น\nเดินไปแล้วฉันก็เลยสอดไว้ใต้ประตูห้องนาย"
+
+# ke "I was going to tell you, but you got back before I could. At least it's not a bomb."
+ke "กะจะมาบอกนายอยู่ แต่นายก็กลับมาก่อน อย่างน้อยก็ไม่ใช่ระเบิดอะนะ"
+
+# hi "Gee, thanks. I'm not going to help you out with your math homework, because, what if your math textbook is a bomb?"
+hi "เออ ใจ แต่ฉันไม่ช่วยนายทำการบ้านคณิตหรอก เพราะแบบ เกิดหนังสือคณิตนายเป็นระเบิดทำไง"
 
 show kenji tsun_close
 with charachange
 
-"He looks devastated, and also like he's considering the possibility that it really could be a bomb. I guess it is possible, since no one really uses their math book all that much."
+# "He looks devastated, and also like he's considering the possibility that it really could be a bomb. I guess it is possible, since no one really uses their math book all that much."
+"เขาดูอึ้งไป แถมเหมือนจะเริ่มคิดแล้วด้วยว่าหนังสือจะเป็นระเบิดจริง ๆ ก็น่าจะเป็นไปได้แหละ ไม่ค่อยเห็นใคร\nใช้หนังสือคณิตกันเท่าไหร่เลยนี่"
 
 scene bg school_dormhisao
 with locationchange
 
-"I throw the letter on the dresser behind me and turn to leave, swinging the door shut behind me as I do. It collides against the tip of Kenji's shoe and bounces back open, while he hops around for a bit, acting like it hurt way more than it should have."
+# "I throw the letter on the dresser behind me and turn to leave, swinging the door shut behind me as I do. It collides against the tip of Kenji's shoe and bounces back open, while he hops around for a bit, acting like it hurt way more than it should have."
+"ฉันโยนจดหมายทิ้งไว้บนหลังตู้แล้วหันหลังมาพลางปิดประตู บานประตูชนเข้ากลับปลายรองเท้าเคนจิแล้วเด้งเปิดออก\nเขาโดดเหยง ๆ ทำท่าเหมือนเจ็บมากทั้งที่โดนไปแค่นั้น"
 
 show kenji neutral at center
 with charaenter
 
-"Before I know it, he's already inside my room. I'm powerless to stop him before he scoops up the letter, strangely ignoring the towers of pill bottles surrounding it."
+# "Before I know it, he's already inside my room. I'm powerless to stop him before he scoops up the letter, strangely ignoring the towers of pill bottles surrounding it."
+"รู้ตัวอีกทีเขาก็มาอยู่ในห้องฉันแล้ว ฉันไม่อาจหยุดเขาที่กำลังคว้าจดหมายมาได้อีก แปลกที่เขาไม่เห็นขวดยาที่ตั้ง\nเรียงอยู่รอบ ๆ จดหมายฉบับนั้น"
 
-hi "Don't just read mail that isn't your own."
+# hi "Don't just read mail that isn't your own."
+hi "อย่ามาเปิดอ่านจดหมายคนอื่นซี้ซั้วสิ"
 
 show kenji happy
 with charachange
 
-ke "C'mon, what is it? A love letter from your girlfriend? Did she include any photos? Sexy photos?"
+# ke "C'mon, what is it? A love letter from your girlfriend? Did she include any photos? Sexy photos?"
+ke "เออน่า จดหมายอะไรเนี่ย จดหมายรักจากแฟนนาย? มีรูปแนบมาด้วยมั้ยอะ? รูปยั่ว ๆ งี้?"
 
 play sound sfx_dropstuff
 stop music fadeout 4.0
 
-"Reclining against the dresser and paying no mind to the bottles he sends all over the floor by doing so, Kenji quietly reads through Iwanako's letter."
+# "Reclining against the dresser and paying no mind to the bottles he sends all over the floor by doing so, Kenji quietly reads through Iwanako's letter."
+"เขาพิงกับตู้ใบนั้นแล้วอ่านจดหมายจากอิวานาโกะอยู่เงียบ ๆ โดยไม่สนใจขวดยาที่เขาทำตกเกลื่อนกลาดเลย"
 
-"The process takes seemingly forever, and with how close he holds it up to his face, makes it look like he's trying to eat it."
+# "The process takes seemingly forever, and with how close he holds it up to his face, makes it look like he's trying to eat it."
+"ซึ่งอ่านนานเป็นชาติได้ แถมเอาหน้าจ่อจดหมายจนเหมือนอย่างกับว่าจะกินเข้าไปแล้ว"
 
 show kenji tsun
 with charachange
 
-ke "Who's “Iwanako?”"
+# ke "Who's “Iwanako?”"
+ke "“อิวานาโกะ” นี่ใคร"
 
-hi "My ex-girlfriend."
+# hi "My ex-girlfriend."
+hi "แฟนเก่าฉัน"
 
 play music music_night fadein 4.0
 
 show kenji neutral
 with charachange
 
-ke "Ex-girlfriend, huh? This is the breakup letter, then. I thought they were a myth."
+# ke "Ex-girlfriend, huh? This is the breakup letter, then. I thought they were a myth."
+ke "แฟนเก่าเหรอ งั้นก็จดหมายเลิกกันงั้นสิ นึกว่าของแบบนี้ไม่มีจริงเสียอีก"
 
-hi "No. I guess it is, but really, she's been my ex-girlfriend for a while. Anyway, I think I'm already over it."
+# hi "No. I guess it is, but really, she's been my ex-girlfriend for a while. Anyway, I think I'm already over it."
+hi "ไม่ใช่ คือก็คงใช่แหละ แต่ก็เป็นแฟนเก่ามาสักพักแล้ว เอาเหอะ ฉันว่าฉันก็ไม่อะไรกับเธอแล้วละ"
 
-"Kenji gives a thumbs up, clearly relieved that I'm not going to take this into an awkward direction, although I almost want to since I told him not to read it."
-
-show kenji happy
-with charachange
-
-ke "Yeah, that's a good attitude. It's all right, I had a bad breakup, too, but you can't let it get you down. I mean, just look at me."
-
-hi "Uhhhh…"
-
-ke "But, hey, she wrote you a letter. Maybe she wants to get back together, huh? It says right there, write her back. You should do it. Is she cute?"
-
-"For a guy who thinks feminists are working to enslave men everywhere, he really is interested in cute girls."
-
-hi "I have a girlfriend. Besides, look at the context, she doesn't want me to write back. Just because that's what it says, that isn't what she means."
-
-show kenji neutral
-with charachange
-
-ke "But that's what she wrote. This rock-fish-kid chick totally still wants you. It even says it right there."
-
-hi "I read it, I know what it says. I told you, you have to look at the context. She said I drifted away from her, and everything there shows she accepted that."
-
-hi "I think the reason she wrote to me is that she just wants to, I guess, part amicably. But we're done, she doesn't want to get back together or whatever you're thinking."
-
-"As I think about it more, it sounds to me like I'm just trying to make excuses for myself. That's not a good place to be."
-
-"I'm positive that she doesn't want me to write her back. I can live with that. If I were to write her back and get a less than desirable response, or no response, then I would just be crushed."
-
-"Perhaps the fear of that is why I'm trying to justify my decision. It could be, but I don't want to think about it. The thought is oddly repulsive."
-
-hi "Why is this such a big deal to you, anyway?"
+# "Kenji gives a thumbs up, clearly relieved that I'm not going to take this into an awkward direction, although I almost want to since I told him not to read it."
+"เคนจิยกนิ้วโป้งให้เป็นสัญญาณว่าเขาโล่งใจที่ฉันไม่เอาเรื่องนี้มาคุยแบบทำให้บรรยากาศต้องอึดอัด ทีแรกก็อยาก\nอยู่หรอก บอกแล้วนี่ว่าอย่าอ่าน"
 
 show kenji happy
 with charachange
 
-ke "Because you should write back to her. She wants you to. I want to see what the response is going to be."
+# ke "Yeah, that's a good attitude. It's all right, I had a bad breakup, too, but you can't let it get you down. I mean, just look at me."
+ke "เออ ต้องงี้สิ ไม่เป็นไรเว้ย ฉันก็เคยผ่านการเลิกแบบแย่ ๆ มาแล้วเหมือนกัน แต่อย่าไปเครียดกับมันมาก เนี่ย\nดูฉันนี่"
+
+# hi "Uhhhh…"
+hi "เอ้ออออ…"
+
+# ke "But, hey, she wrote you a letter. Maybe she wants to get back together, huh? It says right there, write her back. You should do it. Is she cute?"
+ke "แต่ก็ยังเขียนจดหมายมานี่ อาจจะอยากให้กลับไปคบกันก็ได้ เขียนไว้ด้วยนี่ว่าให้ตอบกลับด้วย เขียนตอบไปก็ดีนะ\nแล้วน่ารักมั้ย"
+
+# "For a guy who thinks feminists are working to enslave men everywhere, he really is interested in cute girls."
+"ช่างสนใจสาวน่ารักได้ผิดวิสัยคนที่คิดว่าพวกสตรีนิยมลงแรงกดขี่ผู้ชายทั่วโลกจริง ๆ"
+
+# hi "I have a girlfriend. Besides, look at the context, she doesn't want me to write back. Just because that's what it says, that isn't what she means."
+hi "ฉันมีแฟนแล้ว อีกอย่าง ดูบริบทด้วย เธออยากให้ฉันเขียนตอบจริง ๆ ที่ไหน ใช่ว่าเธอเขียนแล้วจะหมายความตรงตัว\nอย่างนั้นสักหน่อย"
 
 show kenji neutral
 with charachange
 
-ke "Damn, it doesn't even have to be a nice letter. That's cool too, but you could write an angry letter and call her out. That's my new attack strategy, I'm just going to call women out. You should try it."
+# ke "But that's what she wrote. This rock-fish-kid chick totally still wants you. It even says it right there."
+ke "แต่ก็เขียนไว้งั้นนี่ ยัยอีหว้าหน้าโค้กอะไรนี่ยังต้องการนายอยู่แน่ ๆ มีเขียนตรงนี้ด้วยเนี่ย"
 
-hi "Even if she wrote me a letter, you have to understand what that means. Writing someone a letter is different now. It's not something you just do. Not in this kind of situation."
+# hi "I read it, I know what it says. I told you, you have to look at the context. She said I drifted away from her, and everything there shows she accepted that."
+hi "อ่านแล้ว ฉันรู้น่าว่าเขียนว่าอะไรบ้าง ดูบริบทสิ เธอบอกว่าฉันออกห่างจากเธอ แล้วที่เขียนในนั้นทั้งหมดก็สื่อว่าเธอ\nทำใจยอมรับแล้ว"
 
-hi "You can pick up your phone and call someone across the world in an instant, and talk to them almost like they were there with you. Or send them an email; they'll be notified instantly that they got it and can reply back, just like that."
+# hi "I think the reason she wrote to me is that she just wants to, I guess, part amicably. But we're done, she doesn't want to get back together or whatever you're thinking."
+hi "ที่เขียนจดหมายฉบับนี้มาก็แค่อยากส่งลาแบบถนอมน้ำใจกันบ้างน่ะแหละ แต่เราสองคนจบกันแล้วจริง ๆ เธอไม่ได้\nอยากให้กลับไปคบกันหรืออะไรก็ช่างอย่างที่นายคิดหรอก"
 
-hi "A letter can be a personal thing, but she wanted to keep me at an arm's distance. It's not like I can pop over there and visit her."
+# "As I think about it more, it sounds to me like I'm just trying to make excuses for myself. That's not a good place to be."
+"ยิ่งคิดก็เหมือนยิ่งแก้ตัวให้ตัวเอง จะให้กลับไปก็คงไม่ได้แล้ว"
 
-hi "If I had her number, I could call her, or if I had her mail, I could mail her. If she really wanted to hear back from me, she would have dropped one of those in there."
+# "I'm positive that she doesn't want me to write her back. I can live with that. If I were to write her back and get a less than desirable response, or no response, then I would just be crushed."
+"ฉันมั่นใจว่าเธอไม่อยากให้ฉันเขียนตอบ ซึ่งฉันก็ทำใจได้ ถ้าเขียนตอบไปแล้วเธอส่งคำตอบอะไรที่ไม่น่าอ่านกลับมาอีก\nหรือไม่ตอบเลยฉันก็คงใจสลายเปล่า ๆ"
 
-"I feel silly for continuously reassuring myself that I'm not fazed by Iwanako writing to me, when it's so obvious that I am."
+# "Perhaps the fear of that is why I'm trying to justify my decision. It could be, but I don't want to think about it. The thought is oddly repulsive."
+"คงเพราะฉันกลัวอย่างนั้นฉันถึงได้หาข้ออ้างที่ไม่เขียนตอบไป อาจจะเป็นอย่างนั้น แต่ฉันไม่อยากคิดแล้ว แค่คิดก็รู้สึก\nรังเกียจขึ้นมาพิกล"
 
-show kenji tsun
+# hi "Why is this such a big deal to you, anyway?"
+hi "แล้วนายจะอะไรกับมันกันนักกันหนาฮะ?"
+
+show kenji happy
 with charachange
 
-ke "It could be like a gradual thing for her. She might be too shy to call you up. I remember my girlfriend would always send me text messages because she was so shy. It was annoying as hell, man."
-
-ke "I didn't really give a shit about phones so I didn't have the thing, and it turns out I had to pay for every single one. But I don't like phones so I couldn't even call her back to tell her to cut that out."
+# ke "Because you should write back to her. She wants you to. I want to see what the response is going to be."
+ke "เพราะนายควรเขียนตอบไปไง เธอก็อยากให้นายตอบ ฉันอยากรู้ว่าเธอจะตอบมาว่ายังไง"
 
 show kenji neutral
 with charachange
 
-ke "I did it anyway, though. I called her out. I even used a phone. It was literally the call out."
+# ke "Damn, it doesn't even have to be a nice letter. That's cool too, but you could write an angry letter and call her out. That's my new attack strategy, I'm just going to call women out. You should try it."
+ke "โห่ ไม่ต้องเขียนอะไรดี ๆ ก็ได้ ไม่เป็นไร เขียนแบบโกรธ ๆ แล้วนัดออกมาเจอกันเลย นี่แหละกลยุทธ์การจู่โจมแบบใหม่\nของฉัน ฉันจะนัดพวกผู้หญิงออกมาเจอกัน นายต้องลองบ้างนะ"
 
-hi "I guess it was."
+# hi "Even if she wrote me a letter, you have to understand what that means. Writing someone a letter is different now. It's not something you just do. Not in this kind of situation."
+hi "ต่อให้เขียนจดหมายมาก็จริง แต่นายต้องทำความเข้าใจด้วยนะว่าหมายความว่าอะไร ยุคนี้การเขียนจดหมายมัน\nไม่เหมือนเมื่อก่อนแล้ว มันไม่ใช่อะไรที่ทำไปงั้น ๆ ยิ่งกับเรื่องอย่างนี้อีก"
 
-"Even if he's right, it means that Iwanako still wants to keep her distance from me. She's “not ready” to chat with me comfortably."
+# hi "You can pick up your phone and call someone across the world in an instant, and talk to them almost like they were there with you. Or send them an email; they'll be notified instantly that they got it and can reply back, just like that."
+hi "เดี๋ยวนี้แค่ใช้โทรศัพท์ก็คุยกับคนที่อยู่คนละฟากโลกได้เหมือนนั่งอยู่ข้างกันแล้ว ส่งอีเมลก็ได้ เดี๋ยวก็แจ้งเตือนก็ไปโผล่\nที่คนรับว่ามีจดหมายเข้าแล้วก็ตอบกลับได้ ง่ายแค่นี้เอง"
 
-"Why? Am I some kind of freak? I'm not reassured by her actions anyway, in that case. Maybe I am overthinking it, but I just don't know."
+# hi "A letter can be a personal thing, but she wanted to keep me at an arm's distance. It's not like I can pop over there and visit her."
+hi "บางทีจดหมายมันเป็นเรื่องส่วนตัวก็จริง แต่เธออยากรักษาระยะกับฉันเอาไว้ ใช่ว่าฉันจะโผล่หัวไปแวะหาเธอได้เลย\nสักหน่อย"
 
-"Kenji can't think of anything to say to that, and the silence that follows is so awkward and thick that I start to count the seconds until he makes up a reason to leave and excuses himself."
+# hi "If I had her number, I could call her, or if I had her mail, I could mail her. If she really wanted to hear back from me, she would have dropped one of those in there."
+hi "ถ้าฉันมีเบอร์ก็โทร. ไปหาได้ หรือถ้ามีอีเมลก็ส่งไปหาได้ ถ้าอยากให้ฉันติดต่อกลับจริง ๆ เธอก็คงเขียนช่องทางติดต่อ\nอะไรสักอย่างแบบนั้นมาด้วย"
+
+# "I feel silly for continuously reassuring myself that I'm not fazed by Iwanako writing to me, when it's so obvious that I am."
+"รู้สึกงี่เง่าที่ต้องคอบปลอบใจตัวเองว่าไม่ได้หวั่นไหวอะไรที่อิวานาโกะเขียนจดหมายมาหา ทั้งที่ออกจะชัดว่าฉันหวั่นไหว"
 
 show kenji tsun
 with charachange
 
-ke "I miss her…"
+# ke "It could be like a gradual thing for her. She might be too shy to call you up. I remember my girlfriend would always send me text messages because she was so shy. It was annoying as hell, man."
+ke "เธออาจจะอยากให้ค่อยเป็นค่อยไปก็ได้นะ อาจจะแค่ไม่กล้าโทร. มาหานาย ยังจำได้เลยที่แฟนฉันชอบส่งข้อความ\nมาหาเพราะเป็นคนขี้อายมาก ๆ เนี่ย น่ารำคาญมากให้ตาย"
 
-hi "Your ex?"
+# ke "I didn't really give a shit about phones so I didn't have the thing, and it turns out I had to pay for every single one. But I don't like phones so I couldn't even call her back to tell her to cut that out."
+ke "แต่ฉันก็ไม่ได้อะไรกับโทรศัพท์น่ะนะ เลยไม่ใช้ แต่ฉันต้องมาจ่ายค่าส่งข้อความให้ทุกรอบอยู่ดี แต่พอดีฉันไม่ชอบ\nโทรศัพท์ก็เลยไม่ได้โทร. บอกให้เธอเลิกส่งมาสักที"
 
-ke "Yeah. Even if she was insane, it was nice being with her."
+show kenji neutral
+with charachange
 
-ke "My back hurts. If she were still around I could tell her to massage it. I don't know how to use an oven, either. I miss baked food. And we would go bowling in the hallway sometimes. I miss that, too. I had to bowl all by myself during that last festival."
+# ke "I did it anyway, though. I called her out. I even used a phone. It was literally the call out."
+ke "แต่สุดท้ายก็ได้โทร. ใช้โทรศัพท์นี่แหละโทร. บอกเลย"
 
-hi "You bowl in the hallway? You're going to hit someone."
+# hi "I guess it was."
+hi "อ้อเหรอ"
 
-ke "She used to say that all the time…"
+# "Even if he's right, it means that Iwanako still wants to keep her distance from me. She's “not ready” to chat with me comfortably."
+"ต่อให้เป็นอย่างเคนจิว่า ยังไงอิวานาโกะก็คงยังอยากรักษาระยะกับฉันอยู่ดีนั่นแหละ เพราะเธอยัง “ไม่พร้อม” ที่จะคุย\nกับฉันแบบสบาย ๆ"
 
-"Kenji sighs nostalgically, clearly not appreciating just how badly someone can get hurt by slipping on a bowling pin. Apparently, neither did his girlfriend, since she bowled with him. What a strange definition of love, but I guess it's something."
+# "Why? Am I some kind of freak? I'm not reassured by her actions anyway, in that case. Maybe I am overthinking it, but I just don't know."
+"ทำไม เพราะฉันเป็นพวกน่าเกลียดเหรอ ถ้างั้นการที่เธอทำอย่างนี้ก็ไม่ได้ทำให้ฉันสบายใจขึ้นมาเลย ฉันอาจจะ\nคิดมากไป แต่ไม่รู้สิ"
 
-hi "Maybe you should write her a letter. If she writes back, you can get married."
+# "Kenji can't think of anything to say to that, and the silence that follows is so awkward and thick that I start to count the seconds until he makes up a reason to leave and excuses himself."
+"เคนจิไม่รู้จะพูดต่อจากนั้นยังไงอีก ความเงียบที่ตามมาช่างอึดอัดรัดแน่นเสียจนฉันนับวินาทีอยู่ในใจ จนท้ายที่สุดเขาก็\nหาข้ออ้างปลีกตัวออกไป"
+
+show kenji tsun
+with charachange
+
+# ke "I miss her…"
+ke "คิดถึงเธอจัง…"
+
+# hi "Your ex?"
+hi "แฟนเก่านาย?"
+
+# ke "Yeah. Even if she was insane, it was nice being with her."
+ke "เออ ถึงจะบ้า แต่ตอนได้คบกันก็ดีนะ"
+
+# ke "My back hurts. If she were still around I could tell her to massage it. I don't know how to use an oven, either. I miss baked food. And we would go bowling in the hallway sometimes. I miss that, too. I had to bowl all by myself during that last festival."
+ke "ปวดหลังชะมัด ถ้ายังอยู่ฉันคงขอให้นวดให้ ฉันใช้เตาอบไม่เป็นด้วย คิดถึงอาหารแบบอบจัง แล้วบางทีก็จะไปเล่นโบว์ลิง\nกันที่โถงทางเดินด้วย คิดถึงอันนั้นเหมือนกัน งานเทศกาลล่าสุดนี่ฉันก็ต้องไปเล่นโบว์ลิงตัวคนเดียว"
+
+# hi "You bowl in the hallway? You're going to hit someone."
+hi "นี่ไปโบว์ลิงที่โถงทางเดินเหรอ เดี๋ยวก็ไปโดนใส่ใครเข้าหรอก"
+
+# ke "She used to say that all the time…"
+ke "เธอพูดงั้นตลอดเลย…"
+
+# "Kenji sighs nostalgically, clearly not appreciating just how badly someone can get hurt by slipping on a bowling pin. Apparently, neither did his girlfriend, since she bowled with him. What a strange definition of love, but I guess it's something."
+"เคนจิถอนหายใจหวนถวิล ชัดว่าเขาไม่ได้คิดเลยว่าคน ๆ หนึ่งจะบาดเจ็บได้หนักขนาดไหนถ้ามาเหยียบพินโบว์ลิงแล้ว\nลื่นล้ม ดูเหมือนแฟนเขาก็ไม่ได้คิดด้วย เป็นนิยามของคำว่ารักที่แปลกเหลือเกิน แต่รักก็คือรักแหละมั้ง"
+
+# hi "Maybe you should write her a letter. If she writes back, you can get married."
+hi "นายน่าจะเขียนจดหมายถึงเธอบ้างนะ ถ้าเธอเขียนตอบมานายก็จะได้แต่งงาน"
 
 stop music fadeout 0.3
 
 show kenji rage
 with charachange
 
-ke "Married?! No. No no no. No."
+# ke "Married?! No. No no no. No."
+ke "แต่งงาน?! ไม่ ไม่ ๆ ๆ ไม่"
 
-hi "Okay, fine. But why not? You clearly like her, even though you hate women."
+# hi "Okay, fine. But why not? You clearly like her, even though you hate women."
+hi "โอเค๊ แต่ทำไมไม่เขียนล่ะ นายก็ชอบเธออยู่ ขนาดว่านายเกลียดผู้หญิงแท้ ๆ"
 
 show kenji tsun
 with charachange
 
 play music music_kenji fadein 2.0
 
-ke "Feminists! Not women, feminists. There's a difference. There are non-feminist women. Damn, your discrimination is incredible. Correlation doesn't equal causation. Even if she is insane and a woman, it doesn't mean she is a feminist insane woman."
+# ke "Feminists! Not women, feminists. There's a difference. There are non-feminist women. Damn, your discrimination is incredible. Correlation doesn't equal causation. Even if she is insane and a woman, it doesn't mean she is a feminist insane woman."
+ke "พวกสตรีนิยม! ไม่ใช่ผู้หญิง พวกสตรีนิยม ไม่เหมือนกันสักหน่อย ผู้หญิงที่ไม่ใช่พวกสตรีนิยมก็มี นายนี่เป็นคน\nแบ่งแยกแบบนี้เหรอเนี่ย อะไรที่สัมพันธ์กันมันไม่ได้เป็นเหตุผลกันเสมอไปเว้ย เธอบ้าแล้วก็เป็นผู้หญิงก็จริง แต่ก็ไม่ได้\nหมายความว่าเธอจะเป็นผู้หญิงบ้าที่เป็นพวกสตรีนิยมนะ"
 
 show kenji neutral
 with charachange
 
-ke "It's like how the absence of evidence isn't the evidence of absence. If it's true, then by the relative property, the presence of evidence doesn't equal the evidence of presence."
+# ke "It's like how the absence of evidence isn't the evidence of absence. If it's true, then by the relative property, the presence of evidence doesn't equal the evidence of presence."
+ke "ก็เหมือนกับที่ว่าการไม่มีหลักฐานไม่ได้เป็นหลักฐานว่าไม่มีน่ะแหละ ถ้าจริงแล้ว ด้วยสมบัติถ่ายเท จะได้ว่า\nการมีหลักฐานไม่ได้เป็นหลักฐานว่ามี"
 
-hi "Actually, I think it is. And I don't think it's called the relative property."
+# hi "Actually, I think it is. And I don't think it's called the relative property."
+hi "ที่จริง มีหลักฐานแล้วก็ต้องแปลว่ามีหรือเปล่า แล้วก็ไม่น่าเรียกว่าสมบัติถ่ายเทนะ"
 
 show kenji tsun
 with charachange
 
-ke "No, shut up, it's mathematics! Are you saying math is wrong?"
+# ke "No, shut up, it's mathematics! Are you saying math is wrong?"
+ke "ไม่ หุบปากเลย คณิตศาสตร์นะเว้ย! นายจะบอกว่าคณิตศาสตร์ผิดเหรอ"
 
-"I think he is wrong."
+# "I think he is wrong."
+"เขาน่าจะผิดมากกว่านะ"
 
-"So even Kenji has someone that he likes. I'm tempted to ask why he and his ex broke up, or to dig for more information in general, but I shouldn't. Not only would it be prying, but he might reverse the question back to me."
+# "So even Kenji has someone that he likes. I'm tempted to ask why he and his ex broke up, or to dig for more information in general, but I shouldn't. Not only would it be prying, but he might reverse the question back to me."
+"แม้แต่เคนจิยังมีคนที่ชอบสินะ อยากถามเหมือนกันว่าทำไมถึงเลิกกัน ไม่ก็ถามขุดคุ้ยอะไรอีกก็ได้ แต่อย่าดีกว่า\nไม่ใช่แค่ว่าถามแล้วจะเป็นการสอดรู้เกินไป แต่เดี๋ยวเขาคงจะย้อนถามฉันอีก"
 
 stop music fadeout 8.0
 
-"This conversation makes me think about Shizune, although the thoughts I'm having are scattered and wispy. Just questions."
+# "This conversation makes me think about Shizune, although the thoughts I'm having are scattered and wispy. Just questions."
+"พอคุยแล้วก็คิดไปถึงชิซูเนะ ถึงความคิดที่ว่าจะกระจัดกระจายเลือนรางมีแต่คำถามก็เถอะ"
 
-"I wonder if I even had the chance to love Iwanako, and this whole situation with her still stings me, a sour note in the back of my mind."
+# "I wonder if I even had the chance to love Iwanako, and this whole situation with her still stings me, a sour note in the back of my mind."
+"ฉันได้ทันรักอิวานาโกะหรือเปล่านะ พอความสัมพันธ์หรืออะไร ๆ กับเธอเป็นอย่างนี้ไปแล้วฉันก็นึกเจ็บปวดอยู่ลึก ๆ"
 
-"I like Shizune much more. Yet it feels like I am chasing her, even now. I don't mind the chase, but I want to close that distance between us."
+# "I like Shizune much more. Yet it feels like I am chasing her, even now. I don't mind the chase, but I want to close that distance between us."
+"ฉันชอบชิซูเนะมากกว่ามาก แต่ยังรู้สึกเหมือนว่าแม้แต่ตอนนี้ฉันยังไล่ตามเธออยู่ ฉันไล่ตามได้ไม่เหนื่อยหรอก แต่ฉัน\nอยากให้ระยะระหว่างเราสองคนร่นลงใกล้กันกว่านี้"
 
-"Iwanako's letter is responsible, but I've also felt this way for a while. I've come closer, but it's not enough. I want to try again, right now."
+# "Iwanako's letter is responsible, but I've also felt this way for a while. I've come closer, but it's not enough. I want to try again, right now."
+"จดหมายของอิวานาโกะมีส่วนก็จริง แต่ฉันก็รู้สึกอย่างนี้มาสักพักแล้ว ได้เข้าใกล้แล้วแต่ยังใกล้ไม่พอ ฉันอยากลองใหม่\nตอนนี้เลย"
 
 hide kenji
 with charaexit
 
-"I tell Kenji to get out so I can change, and then head for the student council room."
+# "I tell Kenji to get out so I can change, and then head for the student council room."
+"ฉันบอกให้เคนจิออกไปเพราะจะเปลี่ยนชุด พอเสร็จแล้วฉันก็มุ่งไปยังห้องสภานักเรียน"
 
 scene bg school_courtyard
 with locationskip
 
-"The grounds are mostly deserted today, which is a shame, because it's so nice out."
+# "The grounds are mostly deserted today, which is a shame, because it's so nice out."
+"วันนี้ลานหน้าโรงเรียนดูค่อนข้างโล่ง น่าเสียดาย อากาศดีขนาดนี้แท้ ๆ"
 
 scene bg school_hallway3
 with locationskip
 
 play sound sfx_doorknock2
 
-"No one answers when I knock. I try to go in anyway, but it's locked. When I pull my hand away from the doorknob, it's covered in dust. It looks like no one's been here since we left."
+# "No one answers when I knock. I try to go in anyway, but it's locked. When I pull my hand away from the doorknob, it's covered in dust. It looks like no one's been here since we left."
+"ฉันเคาะประตูแล้วแต่ไม่มีเสียงตอบรับ พอลองบิดลูกบิดดูก็พบว่าประตูล็อกอยู่ เมื่อพลิกมือดูก็เห็นฝุ่นที่เกาะอยู่บน\nฝ่ามือ ดูท่าว่าตอนที่พวกเราไม่อยู่นั้นไม่มีใครมาที่ห้องนี้เลย"
 
-"Since I'm already out here and dressed, I might as well get something to eat in town. My wallet is back in my room, though."
+# "Since I'm already out here and dressed, I might as well get something to eat in town. My wallet is back in my room, though."
+"ไหน ๆ ก็เปลี่ยนชุดออกมาขนาดนี้แล้ว ไปเข้าเมืองหาอะไรกินแล้วกัน แต่กระเป๋าสตางค์ดันอยู่ที่ห้องนี่สิ"
 
 scene ev misha_sad:
      truecenter
@@ -4728,11 +4851,14 @@ scene ev misha_sad:
      easein 10.0 zoom 1.0
 with locationskip
 
-"On the way back there, I stumble across Misha sitting down behind the main building."
+# "On the way back there, I stumble across Misha sitting down behind the main building."
+"ตอนที่เดินกลับหอฉันเจอมิช่าที่นั่งอยู่หลังอาคารหลัก"
 
-"Her eyes are closed in sleep, and she looks very tranquil. It's always been hard to picture her not constantly bouncing around or hopping on the tips of her toes impatiently."
+# "Her eyes are closed in sleep, and she looks very tranquil. It's always been hard to picture her not constantly bouncing around or hopping on the tips of her toes impatiently."
+"เธอหลับตาพริ้มหลับอยู่ดูสงบ ปกติจะนึกสภาพเธอที่ไม่ได้เริงร่าหรือโดดเขย่งเท้าไปมาเหมือนรอไม่ได้ไม่ออกเลย"
 
-"My first instinct is to call out to her and ask her if she has seen Shizune, or if she wants to go to town with me, but now that I've seen her I don't feel like disturbing her. I leave her alone."
+# "My first instinct is to call out to her and ask her if she has seen Shizune, or if she wants to go to town with me, but now that I've seen her I don't feel like disturbing her. I leave her alone."
+"แวบแรกฉันอยากเรียกเธอแล้วถามว่าเห็นชิซูเนะหรือเปล่า ไม่ก็อาจจะชวนไปเข้าเมืองด้วยกัน แต่พอเห็นสภาพนี้แล้วก็\nไม่อยากกวน ฉันจึงปล่อยให้เธอหลับอยู่อย่างนั้น"
 
 scene black
 with dissolve
@@ -4752,13 +4878,17 @@ play music music_pearly
 nvl clear
 nvl show dissolve
 
-n "\n\n\nFor the first few days after I was back, I almost forgot that I was in the Student Council. I managed to pick up here and there that the Student Council usually gets swamped with work around the end of the break, but it didn't have to be the case."
+# n "\n\n\nFor the first few days after I was back, I almost forgot that I was in the Student Council. I managed to pick up here and there that the Student Council usually gets swamped with work around the end of the break, but it didn't have to be the case."
+n "\n\n\nวันแรก ๆ ฉันแทบลืมไปแล้วว่าตัวเองเป็นสภานักเรียน ฉันพอได้ยินมาบ้างว่าปกติช่วงเปิดเทอมสภานักเรียนจะมีงาน\nเข้ามาจนท่วมหัว แต่ดูท่าว่าจะไม่เป็นอย่างนั้นเสมอไป"
 
-n "The few times when I managed to catch Shizune or Misha, they were in too much of a hurry for me to get a chance to ask if they needed help. Anytime they weren't, I'd only be able to get ahold of Misha."
+# n "The few times when I managed to catch Shizune or Misha, they were in too much of a hurry for me to get a chance to ask if they needed help. Anytime they weren't, I'd only be able to get ahold of Misha."
+n "ฉันเห็นชิซูเนะไม่ก็มิช่าอยู่ไม่กี่ครั้ง ทั้งสองคนดูจะรีบร้อนเกินกว่าจะเปิดจังหวะให้ฉันได้เสนอตัวเข้าช่วย หรือถ้าเป็น\nช่วงที่สองคนนั้นไม่รีบฉันก็จะได้คุยกับแค่มิช่า"
 
-n "\nShizune would say something about how there was work, but it was so little that involving either Misha or I would only bore us."
+# n "\nShizune would say something about how there was work, but it was so little that involving either Misha or I would only bore us."
+n "\nชิซูเนะจะอ้างว่ามีงานต้องทำ แต่เป็นงานเล็กน้อยที่ถ้าฉันหรือมิช่าไปช่วยก็คงเบื่อกันก่อน"
 
-n "\n\nAfter awhile, the idea of having some free time again had started to grow on me, though there were still periods when I felt like I had too much of it."
+# n "\n\nAfter awhile, the idea of having some free time again had started to grow on me, though there were still periods when I felt like I had too much of it."
+n "\n\nผ่านไปพักหนึ่งฉันก็เริ่มรู้สึกอยากมีเวลาว่างขึ้นมาอีกแล้ว ถึงจะมีช่วงที่รู้สึกว่าว่างเกินไปอยู่ก็เถอะ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -4771,20 +4901,26 @@ with locationchange
 
 window show
 
-"Just when I was getting used to it, though, things changed again. Now I find myself back in the student council room, arguing with Shizune about whether tissue boxes make good ballot boxes or not."
+# "Just when I was getting used to it, though, things changed again. Now I find myself back in the student council room, arguing with Shizune about whether tissue boxes make good ballot boxes or not."
+"แต่พอฉันเริ่มชิน อะไร ๆ ก็เปลี่ยนไปอีก ตอนนี้ฉันมาเถียงกับชิซูเนะอยู่ในห้องสภานักเรียนว่ากล่องทิชชูใช้ทำ\nหีบบัตรเลือกตั้งได้หรือเปล่า"
 
-hi "I'm telling you, they work just fine, as long as we get the cube-shaped ones, not the rectangular ones."
+# hi "I'm telling you, they work just fine, as long as we get the cube-shaped ones, not the rectangular ones."
+hi "ก็บอกแล้วไงว่าใช้ได้ไม่มีปัญหาอะไร ขอแค่เป็นกล่องทรงลูกบาศก์ ไม่ใช่กล่องสี่เหลี่ยมด้านยาว"
 
-hi "Misha, can you sign that to her? I've kind of got my hands full. …On second thought, forget it."
+# hi "Misha, can you sign that to her? I've kind of got my hands full. …On second thought, forget it."
+hi "มิช่า แปลเป็นภาษามือให้หน่อย ฉันมือไม่ว่าง …แต่คิดอีกที ช่างเหอะ"
 
-"She is busy cutting out ballot slips, so if she were to make one errant movement she would probably send those scissors flying into someone's head."
+# "She is busy cutting out ballot slips, so if she were to make one errant movement she would probably send those scissors flying into someone's head."
+"เธอกำลังง่วนอยู่กับการตัดบัตรเลือกตั้ง ถ้าเกิดขยับมือไม้อะไรมั่วซั่วเดี๋ยวกรรไกรคงได้ปลิวเข้ามือใครสักคนแน่ ๆ"
 
-"I drop the box of poster paints I'm carrying onto my little table in the student council room, and cough as a wave of dust hits me in the face. It really has been a while."
+# "I drop the box of poster paints I'm carrying onto my little table in the student council room, and cough as a wave of dust hits me in the face. It really has been a while."
+"ฉันวางลังสีโปสเตอร์ที่ขนมากับโต๊ะตัวเล็ก ๆ ของฉันในห้องสภานักเรียน ฝุ่นที่ปลิวเข้าหน้าทำฉันไอ ผ่านไปนาน\nจนฝุ่นเขรอะเลยนะเนี่ย"
 
 show shizu behind_blank
 with charachange
 
-ssh "Do you think we should change the size of the ballot slips?"
+# ssh "Do you think we should change the size of the ballot slips?"
+ssh "ปรับขนาดบัตรเลือกตั้งดีมั้ย"
 
 show bg school_council at bgright
 show shizu behind_blank at tworight
@@ -4793,62 +4929,80 @@ with charamove
 show mishashort sign_confused at twoleft
 with charaenter
 
-mi "What~? But Shicchan, I already cut out so many of them…"
+# mi "What~? But Shicchan, I already cut out so many of them…"
+mi "หา~ แต่ว่านะชิจัง ฉันตัดไปเยอะแล้ว…"
 
 show shizu basic_normal
 with charachange
 
-ssh "We can make them smaller. It will be more efficient. We just have to shrink the font. More ballots will fit in a single box that way. We'll only need half the amount of paper, then."
+# ssh "We can make them smaller. It will be more efficient. We just have to shrink the font. More ballots will fit in a single box that way. We'll only need half the amount of paper, then."
+ssh "ทำให้เล็กลงหน่อย จะได้มีประสิทธิภาพกว่า ลดขนาดตัวอักษรลงด้วย จะได้ใส่บัตรเลือกตั้งในหีบได้เยอะ ๆ แล้วก็\nจะได้ประหยัดกระดาษไปครึ่งหนึ่งด้วย"
 
 show shizu behind_smile
 with charachange
 
-ssh "The format for voting can be changed. It could be more like a real election; then we might be able to get away with buying less boxes."
+# ssh "The format for voting can be changed. It could be more like a real election; then we might be able to get away with buying less boxes."
+ssh "หรือจะเปลี่ยนรูปแบบการเลือกตั้งด้วยก็ได้ อาจจะทำเหมือนเลือกตั้งจริง ๆ เลย จะได้ไม่ต้องซื้อกล่องมาเยอะด้วย"
 
 show shizu adjust_happy
 with charachange
 
-ssh "With the money left over, we can get a pizza, or maybe Chinese, or a cake, or three bowls of the new ramen bowl I want to try."
+# ssh "With the money left over, we can get a pizza, or maybe Chinese, or a cake, or three bowls of the new ramen bowl I want to try."
+ssh "พอเงินเหลือเราก็จะได้ซื้อพิซซ่า ไม่ก็อาหารจีน ไม่ก็เค้ก ไม่ก็ราเมงที่ฉันอยากลองชิมสักสามชาม"
 
-"Shizune excitedly rubs a finger along the frame of her glasses as she ponders more ways to cut even a half-yen of spending off of our budget."
+# "Shizune excitedly rubs a finger along the frame of her glasses as she ponders more ways to cut even a half-yen of spending off of our budget."
+"ชิซูเนะถูกรอบแว่นไปมาด้วยความตื่นเต้นพลางคิดหาวิธีประหยัดงบให้ได้แม้ครึ่งเยนก็ตาม"
 
-"Since I think she is the only one who even knows what our budget is, I'm scared to ask just how tiny is it for her to have to do this."
+# "Since I think she is the only one who even knows what our budget is, I'm scared to ask just how tiny is it for her to have to do this."
+"เธอน่าจะเป็นคนเดียวที่รู้ว่าเรามีงบอยู่เท่าไหร่ ฉันจึงไม่กล้าถามว่าจริง ๆ แล้วที่จัดเลือกตั้งนี่ใช้งบไปน้อยขนาดไหน"
 
-hi "What about all the ballot slips Misha already cut out?"
+# hi "What about all the ballot slips Misha already cut out?"
+hi "แล้วบัตรที่มิช่าตัดไปแล้วล่ะ"
 
 show shizu basic_happy
 with charachange
 
-ssh "Don't worry, don't worry. I can make them into memo pads and sell them in the school store."
+# ssh "Don't worry, don't worry. I can make them into memo pads and sell them in the school store."
+ssh "ไม่ต้องห่วง ๆ เดี๋ยวฉันจะเอาไปทำเป็นสมุดจดแล้วขายให้สหกรณ์โรงเรียนเอง"
 
 show mishashort perky_confused
 with charachange
 
-mi "Shicchan, they don't look very cute, though~…"
+# mi "Shicchan, they don't look very cute, though~…"
+mi "ชิจัง แต่ว่ามันดูไม่น่ารักเท่าไหร่เลยนะ~…"
 
 show shizu adjust_frown
 with charachange
 
-"Shizune seems to disagree. Now they're arguing, but it looks like it consists of nothing more than signing “Yes, they do” and “No, they don't” at each other until they're so tired of it they are just taking turns pointing at each other commandingly."
+# "Shizune seems to disagree. Now they're arguing, but it looks like it consists of nothing more than signing “Yes, they do” and “No, they don't” at each other until they're so tired of it they are just taking turns pointing at each other commandingly."
+"เหมือนชิซูเนะจะไม่เห็นด้วย และตอนนี้ทั้งสองคนก็เถียงกันแล้ว แต่เหมือนจะเถียงกันด้วยการบอกแค่ว่า “น่ารัก” กับ\n“ไม่น่ารัก” ใส่กันไปจนเหนื่อยแล้วเปลี่ยนมาใช้วิธีการชี้นิ้วสั่งใส่กันแทน"
 
-"It's strange, partly because it looks kind of ridiculous, but also because I've never seen them disagree."
+# "It's strange, partly because it looks kind of ridiculous, but also because I've never seen them disagree."
+"แปลกดี ส่วนหนึ่งก็เพราะดูไร้สาระ แต่ก็เพราะไม่เคยเห็นสองคนนี้ความเห็นไม่ตรงกันเลยด้วย"
 
-"Then again, both of them have looked very stressed these past few days."
+# "Then again, both of them have looked very stressed these past few days."
+"แต่ก็นะ ช่วงสองสามวันมานี้ก็ดูเครียด ๆ กันทั้งคู่"
 
-"Shizune has been increasingly absorbed in the idea of student council elections, though they're months away. I imagine this is how politicians act when they realize a regime change is imminent and their era is over."
+# "Shizune has been increasingly absorbed in the idea of student council elections, though they're months away. I imagine this is how politicians act when they realize a regime change is imminent and their era is over."
+"ชิซูเนะดูจะหมกมุ่นอยู่กับการเลือกตั้งสภานักเรียน ทั้งที่ก็เหลือเวลาอีกหลายเดือนแท้ ๆ นี่สินะนักการเมืองเวลารู้ตัว\nว่ายุคสมัยของตัวเองจะสิ้นสุดลงและใกล้ถึงเวลาเปลี่ยนระบอบการปกครองแล้ว"
 
-"I'm having trouble taking student council matters seriously at all, even now, as I practice my calligraphy on signs that won't go up for weeks, but I can understand why Shizune does."
+# "I'm having trouble taking student council matters seriously at all, even now, as I practice my calligraphy on signs that won't go up for weeks, but I can understand why Shizune does."
+"ขนาดตอนนี้ที่ฉันมานั่งคัดลายมือเขียนป้ายที่ต้องรออีกหลายสัปดาห์กว่าจะได้แปะ ฉันก็ยังไม่สามารถคิดจริงจัง\nกับเรื่องสภานักเรียนได้เท่าไหร่ แต่ก็เข้าใจว่าทำไมชิซูเนะถึงจริงจังกับเรื่องนี้"
 
-"After all, she has been Student Council president for three years. According to her dad, she has wanted the job for even longer. I guess three years is too short a career for her to leave feeling satisfied."
+# "After all, she has been Student Council president for three years. According to her dad, she has wanted the job for even longer. I guess three years is too short a career for her to leave feeling satisfied."
+"ก็เป็นประธานสภานักเรียนมาสามปีแล้วนี่นะ แถมเท่าที่ได้ยินพ่อเธอบอก เธอฝันอยากเป็นมาตั้งแต่ก่อนหน้านั้นอีก\nสงสัยสามปีคงยังไม่หนำใจเธอพอที่จะสละตำแหน่งนี้ได้"
 
-hi "Did the last Student Council go through this much trouble to make it a smooth transition for you?"
+# hi "Did the last Student Council go through this much trouble to make it a smooth transition for you?"
+hi "สภานักเรียนรุ่นก่อนเขาลงทุนให้ผลัดคนได้ราบรื่นกันขนาดนี้เลยเหรือเปล่า"
 
 show shizu behind_frustrated
 with charachange
 
-"Shizune makes a chagrined face that tells me they weren't very helpful at all."
+# "Shizune makes a chagrined face that tells me they weren't very helpful at all."
+"ชิซูเนะทำหน้าเบ้เป็นเชิงว่ารุ่นก่อนไม่ได้มีประโยชน์อะไรเท่าไหร่เลย"
 
-hi "I guess you're doing all this to set a good example, then?"
+# hi "I guess you're doing all this to set a good example, then?"
+hi "งั้นแสดงว่าที่เธอทำก็เพื่อจะเป็นตัวอย่างที่ดีสินะ"
 
 show shizu basic_frown
 with charachange
@@ -4858,11 +5012,14 @@ shi "…"
 show mishashort hips_frown
 with charachange
 
-mi "That only comes into play if they learn anything from it, Hicchan~! If they don't, I'll be hyper mad~! If they turn out to be the flaky type, I'll definitely be hard on them~."
+# mi "That only comes into play if they learn anything from it, Hicchan~! If they don't, I'll be hyper mad~! If they turn out to be the flaky type, I'll definitely be hard on them~."
+mi "ตัวอย่างที่ดีจะมีค่าก็ต่อเมื่อมีคนเอาอย่างเท่านั้นแหละฮิจัง~! ถ้าไม่เอาอย่างฉันละก็ฉันจะโกรธมาก~! ถ้าเป็นพวก\nไม่เอาไหนละก็ฉันจะจี้ให้หนักเลย~"
 
-"It doesn't sound very threatening when Misha is saying it."
+# "It doesn't sound very threatening when Misha is saying it."
+"พอมิช่าพูดแล้วก็ฟังดูไม่น่ากลัวเท่าไหร่เลยแฮะ"
 
-hi "So, you've already met them?"
+# hi "So, you've already met them?"
+hi "งั้นแสดงว่าเคยเจอกันแล้วงั้นสิ"
 
 show shizu adjust_smug
 with charachange
@@ -4872,51 +5029,64 @@ shi "…"
 show mishashort hips_grin
 with charachange
 
-mi "Ahaha~. Hicchan, there are no candidates yet~!"
+# mi "Ahaha~. Hicchan, there are no candidates yet~!"
+mi "อะฮ่าฮ่า~ ฮิจัง ยังไม่มีผู้สมัครรับเลือกตั้งเลย~!"
 
-hi "What? None?"
+# hi "What? None?"
+hi "ฮะ? ไม่มีเลย?"
 
 show shizu behind_smile
 show mishashort hips_smile
 with charachange
 
-ssh "Not even for Student Council president. That is why I am trying to drum up interest for the position. What do you think?"
+# ssh "Not even for Student Council president. That is why I am trying to drum up interest for the position. What do you think?"
+ssh "แม้แต่ตำแหน่งประธานสภานักเรียนก็ยังไม่มีเลย ฉันถึงได้พยายามกระตุ้นให้คนมาสนใจสมัครตำแหน่งนี้กัน คิดว่าไงล่ะ"
 
-"She proudly holds up a poster she has been working on herself. It looks very, uh, military."
+# "She proudly holds up a poster she has been working on herself. It looks very, uh, military."
+"เธอชูโปสเตอร์ที่ทำเองกับมือให้ดูด้วยความภูมิใจ ซึ่งดูสภาพ เอ่อ เหมือนหลุดมาจากค่ายทหาร"
 #i'm pretty tempted to pilfer kamifish's secret santa 2011 thing for a cutin here
 
-hi "You might be taking this a little too seriously, then."
+# hi "You might be taking this a little too seriously, then."
+hi "งั้นเธอก็จริงจังไปหน่อยแล้วมั้ง"
 
 show shizu adjust_frown
 with charachange
 
-"Shizune frowns and plays with her glasses, offended."
+# "Shizune frowns and plays with her glasses, offended."
+"เธอขมวดคิ้วแล้วจับกรอบแว่นเล่นด้วยความไม่พอใจ"
 
-ssh "Is that weird?"
+# ssh "Is that weird?"
+ssh "แปลกเหรอ"
 
-hi "Yes."
+# hi "Yes."
+hi "ใช่"
 
 show shizu behind_smile
 with charachange
 
-"She looks oddly happy that I'm disagreeing with her, and I think that if she weren't genuinely focused on what she was doing, she would try to argue with me just because it would be interesting to her."
+# "She looks oddly happy that I'm disagreeing with her, and I think that if she weren't genuinely focused on what she was doing, she would try to argue with me just because it would be interesting to her."
+"เธอดูมีความสุขแปลก ๆ ที่ฉันค้านเธอ ถ้าไม่ติดว่าเธอกำลังตั้งสมาธิทำอะไรอยู่แล้วคงมาเถียงกับฉันเพราะน่าสนใจดี\nแน่ ๆ"
 
 show shizu basic_normal
 with charachange
 
-ssh "What's weird about it?"
+# ssh "What's weird about it?"
+ssh "แปลกตรงไหน"
 
 show shizu adjust_smug
 with charachange
 
-"It looks like she will do that after all. But then, Shizune waves her hand dismissively, like she is trying to catch the words in the air and delete them. Instead, she catapults into insulting her future successors."
+# "It looks like she will do that after all. But then, Shizune waves her hand dismissively, like she is trying to catch the words in the air and delete them. Instead, she catapults into insulting her future successors."
+"ก็ดูท่าว่าจะเถียงอยู่ดีนั่นแหละ เธอโบกไม้โบกมือเป็นเชิงปฏิเสธราวกับว่าจะจับคำที่ลอยอยู่ในอากาศนั้นลบทิ้งไป\nและเธอก็เตรียมเปลี่ยนมาเป็นการตำหนิคนรุ่นถัดจากเธอแทน"
 
-hi "Well, one thing that's weird is that in my old school the elections would happen in about six months, since, you know, we're graduating in March. It's pretty weird to think about them so early."
+# hi "Well, one thing that's weird is that in my old school the elections would happen in about six months, since, you know, we're graduating in March. It's pretty weird to think about them so early."
+hi "ก็ ที่แปลกอย่างหนึ่งเลยก็คือถ้าเป็นที่โรงเรียนเก่าฉันก็ต้องอีกสักหกเดือนกว่าจะได้เลือกตั้ง เพราะ แบบ เราจะจบ\nช่วงเดือนมีนาใช่มั้ย จะมาคิดถึงการเลือกตั้งเอาเร็วขนาดนี้มันก็แปลกอยู่นะ"
 
 show shizu behind_blank
 with charachange
 
-ssh "It's a little different here."
+# ssh "It's a little different here."
+ssh "ไม่เหมือนกันสักหน่อย"
 
 show shizu adjust_frown
 with charachange
@@ -4926,72 +5096,93 @@ shi "…"
 show mishashort sign_smile
 with charachange
 
-mi "Hicchan, I'll be discouraged if we don't have any replacements when I have to go~! Shicchan says."
+# mi "Hicchan, I'll be discouraged if we don't have any replacements when I have to go~! Shicchan says."
+mi "ฮิจัง ฉันคงอ่อนใจแน่ถ้ายังไม่มีใครมาแทนตอนที่ฉันต้องไปน่ะ~! ชิจังว่างั้น"
 
 show mishashort hips_grin
 with charachange
 
-mi "But~!, it isn't like the school will stop running without a Student Council. It will be harder for them to hand out forms, though~!"
+# mi "But~!, it isn't like the school will stop running without a Student Council. It will be harder for them to hand out forms, though~!"
+mi "แต่~! ใช่ว่าไม่มีสภานักเรียนแล้วการจัดการอะไรของโรงเรียนจะชะงักไปเลยน่ะนะ แต่คงแจกเอกสารอะไรยากหน่อย~!"
 
 show mishashort cross_laugh
 with charachange
 
-mi "Hahaha~."
+# mi "Hahaha~."
+mi "ฮ่าฮ่าฮ่า~"
 
 show shizu basic_normal2
 show mishashort cross_smile
 with charachange
 
-"Shizune isn't laughing, however. Misha's joke causes her to flinch, as if she were stung. Though Misha didn't mean for it to come out that way, her quip had a callous cruelty to it in the end."
+# "Shizune isn't laughing, however. Misha's joke causes her to flinch, as if she were stung. Though Misha didn't mean for it to come out that way, her quip had a callous cruelty to it in the end."
+"แต่ชิซูเนะไม่ขำด้วย มุกของมิช่าทำชิซูเนะผงะไปราวกับว่าเจ็บใจขึ้นมา ถึงมิช่าจะไม่ได้ตั้งใจเสียดสี แต่คำพูดล้อที่ว่า\nก็ได้ผลเช่นนั้นโดยที่เธอไม่รู้ตัว"
 
 show shizu adjust_frown
 with charachange
 
-ssh "Hmph. I'm trying to get more people to run, but everyone is so lazy. They think they can take it easy just because there are no deadlines yet. Slackers, not taking the early game advantage."
+# ssh "Hmph. I'm trying to get more people to run, but everyone is so lazy. They think they can take it easy just because there are no deadlines yet. Slackers, not taking the early game advantage."
+ssh "ฮึ ฉันอุตส่าห์จะหาคนมาทำเยอะ ๆ แท้ ๆ แต่ทุกคนก็ขี้เกียจเหลือเกิน คิดว่าไม่เป็นไรเพราะยังอีกนานกว่าจะถึงเวลา\nขี้เกียจจริง ๆ ที่ไม่ยอมเดินเกมก่อน"
 
 show shizu cross_angry
 with charachange
 
-ssh "“Still” six months away? If they aren't making their move now, they don't deserve a vote!"
+# ssh "“Still” six months away? If they aren't making their move now, they don't deserve a vote!"
+ssh "ยังอีก “ตั้ง” หกเดือนเหรอ ถ้ายังไม่เริ่มทำอะไรตอนนี้ก็ไม่สมควรมีใครกาให้หรอก!"
 
 show mishashort sign_smile
 with charachange
 
-mi "Do they really think it's such an easy job that they can do everything at the last minute and just coast into the role~? Insulting~! Really~, really~!"
+# mi "Do they really think it's such an easy job that they can do everything at the last minute and just coast into the role~? Insulting~! Really~, really~!"
+mi "คิดเหรอว่าเป็นงานง่ายถึงขั้นที่จะมาปั่นเอานาทีสุดท้ายแล้วเดินลอยชายเข้ามารับตำแหน่งได้เลยน่ะ~ ดูถูกกันมาก~!\nจริง~ จริงเลย~!"
 
 show mishashort hips_frown
 with charachange
 
-mi "They're going to be eaten alive once they have to sit at this tiny desk and see just how much work they have to do~!"
+# mi "They're going to be eaten alive once they have to sit at this tiny desk and see just how much work they have to do~!"
+mi "ถ้าได้มานั่งที่โต๊ะเล็ก ๆ ตัวนี้แล้วเห็นกองงานเท่าภูเขาแล้วคงไม่เหลือสภาพแน่~!"
 
 show shizu behind_frustrated
 with charachange
 
-ssh "If this were a real election, they would be in deep trouble. I was reading about Japanese campaigning laws the other day. Only the bad ones, for some reason."
+# ssh "If this were a real election, they would be in deep trouble. I was reading about Japanese campaigning laws the other day. Only the bad ones, for some reason."
+ssh "ถ้าเป็นเลือกตั้งจริงคงไม่รอดแล้ว วันก่อนฉันไปอ่านพระราชบัญญัติการเลือกตั้งสมาชิกสภาผู้แทนราษฎรญี่ปุ่นมา\nแต่อ่านเฉพาะส่วนที่แย่นะ ไม่รู้ทำไมเหมือนกัน"
 
-hi "For some reason."
+# hi "For some reason."
+hi "ไม่รู้ทำไมเหมือนกัน"
 
-"For a second, Shizune was “talking” like her father there, and it was coming out of Misha's mouth. Creepy."
+# "For a second, Shizune was “talking” like her father there, and it was coming out of Misha's mouth. Creepy."
+"เมื่อกี้แวบหนึ่งชิซูเนะ “คุย” เหมือนอย่างกับพ่อเธอเลย แล้วดันออกมาจากปากมิช่าอีก ขนลุก"
 
-hi "Well, first off, shadow shogun, you can't really make that call. They'll be elected. Second, it's just a school election. It's not like running for city council, or the Diet. I don't think Japanese campaigning laws apply."
+# hi "Well, first off, shadow shogun, you can't really make that call. They'll be elected. Second, it's just a school election. It's not like running for city council, or the Diet. I don't think Japanese campaigning laws apply."
+hi "เอาละ อย่างแรกเลยนะครับท่านผู้กุมอำนาจอยู่เบื้องหลัง คุณไม่ใช่คนที่จะตัดสินใจเรื่องนั้นครับ เดี๋ยวคนจะเลือกตั้ง\nกันมาเอง อย่างที่สอง อันนี้มันแค่เลือกตั้งกันในโรงเรียนครับ เราไม่ได้จะเลือกตั้งสมาชิกสภาท้องถิ่นหรือรัฐสภากัน\nนะครับ พระราชบัญญัติการเลือกตั้งสส. ญี่ปุ่นอะไรนั่นไม่น่าเกี่ยวกันนะ"
 
-"Third, although I don't want to say it, I'm nervous that Shizune is so enthusiastic about this, talking of elections and votes."
+# "Third, although I don't want to say it, I'm nervous that Shizune is so enthusiastic about this, talking of elections and votes."
+"อย่างที่สาม ซึ่งฉันไม่อยากพูด คือฉันใจคอไม่ดีที่ชิซูเนะคุยเรื่องการเลือกตั้งและดูกระตือรือร้นกับเรื่องนี้เหลือเกิน"
 
-"According to her dad, she wasn't even elected herself. Come to think of it, I can't remember Shizune ever saying she was elected, either."
+# "According to her dad, she wasn't even elected herself. Come to think of it, I can't remember Shizune ever saying she was elected, either."
+"พ่อเธอบอกว่าเธอไม่ได้รับเลือกตั้งมาด้วยซ้ำ จะว่าไปแล้ว เหมือนชิซูเนะก็ไม่เคยบอกด้วยว่าตัวเองได้รับการเลือกตั้งมา\nเหมือนกัน"
 
-"Then, did she get this position by being recruited into the Student Council, and having it fall apart until she was the only one left? Somehow, I'd never considered it."
+# "Then, did she get this position by being recruited into the Student Council, and having it fall apart until she was the only one left? Somehow, I'd never considered it."
+"แล้วที่ได้ตำแหน่งนี้มาเพราะสมัครเข้าสภานักเรียนแล้วอยู่จนสภานักเรียนล่มจนเหลือแค่เธอคนเดียวเหรอ ไม่เคย\nลองคิดอย่างนั้นมาก่อนเลยแฮะ"
 
-"I don't know what to think about that, but it wouldn't surprise me. We're only three people strong now."
+# "I don't know what to think about that, but it wouldn't surprise me. We're only three people strong now."
+"ไม่รู้ว่าใช่อย่างนั้นหรือเปล่า แต่ถ้าใช่ก็คงไม่แปลก ตอนนี้เหลือแค่เราสามคนทรงอำนาจอยู่"
 
-"If the circumstances behind her becoming the Student Council president were that sad, I wonder if there will be a vote at all. Interest could just be that low; or nonexistent, really. Then all her energy would be going towards nothing."
+# "If the circumstances behind her becoming the Student Council president were that sad, I wonder if there will be a vote at all. Interest could just be that low; or nonexistent, really. Then all her energy would be going towards nothing."
+"ถ้าที่มาของตำแหน่งเธอมันจะหดหู่ขนาดนั้นแล้วจะได้จัดเลือกตั้งหรือเปล่า คงไม่ค่อยมีใครสนใจ หรือไม่ก็ไม่มีใคร\nสนใจเลย ซึ่งจะแปลว่าที่เธอทุ่มเทไปก็เสียเปล่า"
 
-"I slap an exclamation mark on the end of the poster I'm working on. It's a little plain, so I think adding one is okay. Actually, it still might be a little too plain. I make the mark twice as large."
+# "I slap an exclamation mark on the end of the poster I'm working on. It's a little plain, so I think adding one is okay. Actually, it still might be a little too plain. I make the mark twice as large."
+"ฉันเติมเครื่องหมายอัศเจรีย์ใส่โปสเตอร์ที่ฉันกำลังทำอยู่ เติมหน่อยคงไม่เป็นไรเพราะตัวโปสเตอร์ก็ดูเรียบไปหน่อย\nอันที่จริง เติมแล้วก็อาจจะยังดูเรียบไปหน่อยอยู่ดี ขยายขนาดขึ้นเป็นสองเท่าเลยดีกว่า"
 
-hi "I still say you need to slow down. If this stuff isn't going to be relevant for months, maybe you're working a little too hard on it. That's what I think. You're worrying too much."
+# hi "I still say you need to slow down. If this stuff isn't going to be relevant for months, maybe you're working a little too hard on it. That's what I think. You're worrying too much."
+hi "แต่นั่นแหละ เพลา ๆ ลงหน่อยก็ดีนะ ถ้ายังมีเวลาอีกหลายเดือนแล้วทุ่มขนาดนี้ก็เกินไปมั้ง ฉันคิดว่างั้นนะ เธอพะวงมากไปแล้ว"
 
-"I don't know how to sign the word “relevant.” I try, and only end up flicking a long line of paint where I didn't intend to. There is no way I can fix that."
+# "I don't know how to sign the word “relevant.” I try, and only end up flicking a long line of paint where I didn't intend to. There is no way I can fix that."
+"ฉันทำภาษามือคำว่า “พะวง” ไม่เป็น พอจะลองทำก็กลายเป็นว่ามือเผลอลากสีเป็นเส้นไปใส่ตรงที่ไม่ได้อยากใส่ จะแก้\nก็ไม่ได้แล้ว"
 
-hi "Misha, can you ask her that?"
+# hi "Misha, can you ask her that?"
+hi "มิช่า ฝากบอกให้หน่อยได้มั้ย"
 
 show mishashort sign_smile
 with charachange
@@ -4999,43 +5190,53 @@ with charachange
 show shizu adjust_happy
 with charachange
 
-"Shizune giggles silently, clenching her teeth so that no sound actually comes out."
+# "Shizune giggles silently, clenching her teeth so that no sound actually comes out."
+"ชิซูเนะขำอยู่เงียบ ๆ กัดฟันกลั้นเสียงเอาไว้"
 
 show shizu behind_blank
 with charachange
 
-ssh "Because there is a lot to worry about."
+# ssh "Because there is a lot to worry about."
+ssh "เพราะมีเรื่องให้พะวงหลายอย่างไง"
 
-hi "Like what?"
+# hi "Like what?"
+hi "เช่นอะไร"
 
 show shizu basic_normal
 with charachange
 
-ssh "Like… usually the boxes end up looking very pretty, so people take them. Have to plan for that."
+# ssh "Like… usually the boxes end up looking very pretty, so people take them. Have to plan for that."
+ssh "เช่น… กล่องมันจะสวยจนคนเอาไป ต้องวางแผนเผื่อไว้"
 
 show mishashort hips_grin
 with charachange
 
-mi "Wahaha~! We should make them funny-looking this time, then, so no one will take them! How about that, Shicchan~?"
+# mi "Wahaha~! We should make them funny-looking this time, then, so no one will take them! How about that, Shicchan~?"
+mi "วะฮ่าฮ่า~! งั้นคราวนี้ก็ต้องทำตลก ๆ ให้ไม่มีใครกล้าเอาไปเลย! เป็นไงชิจัง~"
 
-hi "We can draw some weird faces on them. Or we can put a little picture of Shizune on each one saying “Stealing is wrong.”"
+# hi "We can draw some weird faces on them. Or we can put a little picture of Shizune on each one saying “Stealing is wrong.”"
+hi "วาดหน้าคนหน้าอะไรเพี้ยน ๆ ติดก็ได้นะ ไม่ก็แปะรูปชิซูเนะใบเล็ก ๆ ไว้แล้วเขียนบนแต่ละใบว่า “ขโมยไม่ดีนะ”"
 
 show shizu behind_frown
 with charachange
 
-ssh "No. It's not funny! It's not the only problem, either. There is voter turnout, of course…"
+# ssh "No. It's not funny! It's not the only problem, either. There is voter turnout, of course…"
+ssh "ไม่ ไม่ตลก! ปัญหาไม่ได้มีแค่เรื่องนั้นด้วย ไหนจะเรื่องสัดส่วนคนที่ออกมาเลือกตั้งอีก…"
 
 show shizu basic_normal2
 with charachange
 
-ssh "…And then the worst case scenario would be not having any candidates."
+# ssh "…And then the worst case scenario would be not having any candidates."
+ssh "…แล้วกรณีที่แย่ที่สุดก็คือการที่ไม่มีผู้สมัครเลบ"
 
-"Although it seems she meant it jokingly, from the way she smiles as she signs it, that isn't how it comes out."
+# "Although it seems she meant it jokingly, from the way she smiles as she signs it, that isn't how it comes out."
+"ถึงดูเหมือนเธอจะพูดหยอกเล่น แต่ดูจากรอยยิ้มกับท่าทางในภาษามือแล้วดูท่าว่าจะจริงจัง"
 
 show mishashort cross_laugh
 with charachange
 
-"Even Misha understands that the possibility is very real, and though she tries to salvage the mood by punctuating Shizune's statement with a laugh, it doesn't work."
+# "Even Misha understands that the possibility is very real, and though she tries to salvage the mood by punctuating Shizune's statement with a laugh, it doesn't work."
+"แม้แต่มิช่ายังรู้ว่ามีความน่าจะเป็นที่จะเป็นอย่างนั้นจริง ๆ และแม้ตัวมิช่าจะพยายามคลายอารมณ์ที่ตึงเครียด\nด้วยการหัวเราะคั่นคำพูดของชิซูเนะแล้วก็บรรยากาศก็ยังไม่ดีขึ้น"
 
 show shizu behind_frustrated
 with charachange
@@ -5045,367 +5246,468 @@ shi "…"
 show shizu basic_angry
 with charachange
 
-ssh "What is wrong with both of you?"
+# ssh "What is wrong with both of you?"
+ssh "พวกเธอสองคนเป็นอะไรไป"
 
 show shizu adjust_frown
 with charachange
 
-ssh "I was just making a joke. There actually is some interest this year. If there wasn't, would I be doing all this work? I'm not stupid."
+# ssh "I was just making a joke. There actually is some interest this year. If there wasn't, would I be doing all this work? I'm not stupid."
+ssh "แค่ล้อเล่นหรอกน่า ที่จริงปีนี้ยังพอมีคนสนใจอยู่บ้าง ถ้าไม่มีฉันจะมาทำอะไรถึงขนาดนี้เหรอ ฉันก็ไม่ได้โง่สักหน่อย"
 
 show shizu behind_smile
 with charachange
 
-ssh "When the elections are over, I'll buy everyone dinner. I'm already planning it."
+# ssh "When the elections are over, I'll buy everyone dinner. I'm already planning it."
+ssh "ถ้าเลือกตั้งเสร็จแล้วเดี๋ยวฉันเลี้ยงข้าวเย็น กำลังวางแผนอยู่เลย"
 
-hi "Even the new Student Council?"
+# hi "Even the new Student Council?"
+hi "เลี้ยงสภารุ่นใหม่ด้วยเหรอ"
 
 show shizu adjust_smug
 with charachange
 
-ssh "No, they can buy their own celebration dinner. It will only be for the current Student Council. I'll be happy once I'm through having to do these thankless jobs all the time."
+# ssh "No, they can buy their own celebration dinner. It will only be for the current Student Council. I'll be happy once I'm through having to do these thankless jobs all the time."
+ssh "ไม่หรอก ถ้าพวกนั้นอยากกินมื้อเย็นฉลองก็ให้ซื้อกันเองเอา ที่ฉันเลีี้ยงรอบนี้เฉพาะรุ่นปัจจุบัน ถ้าจบงานเพื่อส่วนรวม\nพวกนี้ที่ต้องทำมาตลอดได้แล้วฉันก็จะโล่งสักที"
 
 show mishashort hips_grin
 with charachange
 
-mi "A dinner just for us~? Yay~! It's like a little party, Shicchan~!"
+# mi "A dinner just for us~? Yay~! It's like a little party, Shicchan~!"
+mi "มื้อเย็นของเราสามคนเหรอ~ เย้~! เหมือนงานเลี้ยงขนาดย่อมเลยชิจัง~!"
 
 stop music fadeout 3.0
 
-"Though her cheerfulness is obviously forced, I say nothing. For the rest of the period, which fortunately isn't very long, we work in silence."
+# "Though her cheerfulness is obviously forced, I say nothing. For the rest of the period, which fortunately isn't very long, we work in silence."
+"ถึงฉันจะเห็นชัดว่าจริง ๆ แล้วเธอฝืนทำร่าเริงแต่ก็ไม่ได้พูดอะไร เวลาทั้งคาบที่เหลือ—ซึ่งแย่หน่อยตรงที่เหลือไม่มาก\nแล้ว—เราก็ทำงานกันไปเงียบ ๆ"
 
 scene bg school_hallway3
 with shorttimeskip
 
 play music music_daily fadein 0.5
 
-"After classes, I find the student council room locked. It's strange, because Shizune was so busy earlier that I would expect her to continue working after school. It would be what she would normally do."
+# "After classes, I find the student council room locked. It's strange, because Shizune was so busy earlier that I would expect her to continue working after school. It would be what she would normally do."
+"พอเลิกเรียนแล้วมาดูที่ห้องสภานักเรียนก็เห็นว่าประตูล็อก แปลก เมื้อกี้ก็เห็นชิซูเนะยุ่งอยู่ นึกว่าจะเอางานมาทำต่อ\nหลังเลิกเรียนด้วย เพราะปกติจะเป็นอย่างนั้น"
 
-"Maybe she listened to my suggestion and decided to take a break. I'm hoping it's that simple."
+# "Maybe she listened to my suggestion and decided to take a break. I'm hoping it's that simple."
+"อาจจะฟังที่ฉันบอกเลยไปพักบ้าง หวังว่าเรื่องจะมีแค่นั้นนะ"
 
 scene bg school_courtyard_ss
 with locationskip
 
-"Feeling a little uneasy, I take a brief stroll around the school. It's only half-conscious; I can't remember when I started moving my feet, but I've already covered enough of the campus that I'm starting to feel tired. Not that that means anything, now."
+# "Feeling a little uneasy, I take a brief stroll around the school. It's only half-conscious; I can't remember when I started moving my feet, but I've already covered enough of the campus that I'm starting to feel tired. Not that that means anything, now."
+"ฉันเดินเล่นอยู่ในโรงเรียนสักหน่อยคลายความอึดอัดเล็กน้อยที่อยู้ในตัว ซึ่งขาก็ไปแบบกึ่งอัตโนมัติ ฉันจำไม่ได้ด้วยซ้ำ\nว่าเริ่มออกเดินตอนไหน แต่เหมือนจะเดินอยู่ในโรงเรียนเยอะพอที่จะทำให้เริ่มเหนื่อยแล้ว แต่ก็ใช่ว่าจะมีอะไรเป็นพิเศษ\nน่ะนะ"
 
-"Just a short stroll around the school grounds, and I'm already winded. Really pathetic."
+# "Just a short stroll around the school grounds, and I'm already winded. Really pathetic."
+"เดินเล่นนิด ๆ หน่อย ๆ อยู่ในโรงเรียนก็หอบรับประทานแล้ว น่าสมเพชจริง ๆ"
 
 scene bg school_hallway3
 with locationskip
 
-"Before I know it, I'm back in front of the student council office. There's someone else, too, this time."
+# "Before I know it, I'm back in front of the student council office. There's someone else, too, this time."
+"รู้ตัวอีกทีก็กลับมาอยู่ที่หน้าห้องสภานักเรียน แต่คราวนี้มีคนแล้ว"
 
 show mishashort hips_smile at center
 with charaenter
 
-mi "Hi, Hicchan~!"
+# mi "Hi, Hicchan~!"
+mi "ไงฮิจัง~!"
 
-hi "It's locked."
+# hi "It's locked."
+hi "ประตูล็อก"
 
-"Seeing a can of lemonade in her hand, I reflexively start looking for a vending machine nearby. I'm so thirsty."
+# "Seeing a can of lemonade in her hand, I reflexively start looking for a vending machine nearby. I'm so thirsty."
+"พอเห็นกระป๋องน้ำมะนาวในมือมิช่าแล้วตาก็สอดส่ายหาตู้ขายของแบบหยอดเหรียญไปโดยอัตโนมัติ ตอนนี้ฉันคอแห้ง\nเอามาก ๆ"
 
 show mishashort sign_smile
 with charachange
 
-mi "I know that, Hicchan~! Shicchan is somewhere else, I guess~!"
+# mi "I know that, Hicchan~! Shicchan is somewhere else, I guess~!"
+mi "รู้น่าฮิจัง~! ชิจังคงไม่อยู่ละมั้ง~!"
 
-hi "Weird."
+# hi "Weird."
+hi "แปลก"
 
 show mishashort hips_grin
 with charachange
 
-mi "Ahahaha~. We aren't stuck together, Hicchan~."
+# mi "Ahahaha~. We aren't stuck together, Hicchan~."
+mi "อะฮ่าฮ่าฮ่า~ เราสองคนไม่ได้ตัวติดกันสักหน่อยฮิจัง~"
 
-"Misha takes a long drink from her lemonade, eventually just tipping it over and pouring the rest into her mouth. I feel like I am being mocked."
+# "Misha takes a long drink from her lemonade, eventually just tipping it over and pouring the rest into her mouth. I feel like I am being mocked."
+"มิช่ากระดกดื่มน้ำมะนาวอึกใหญ่ จนสุดท้ายเธอจับกระป๋องดิ่งให้น้ำที่เหลืออยู่ข้างในไหลเข้าปากตัวเอง รู้สึกเหมือน\nโดนเยาะเย้ยยังไงไม่รู้"
 
 show mishashort perky_smile
 with charachange
 
-mi "Do you want one, Hicchan~?"
+# mi "Do you want one, Hicchan~?"
+mi "อยากดื่มบ้างเหรอฮิจัง~"
 
-hi "No, it's okay. I can't take someone else's drink, it's rude. Besides, you're making fun of me, aren't you? I just saw you inhale all of that."
+# hi "No, it's okay. I can't take someone else's drink, it's rude. Besides, you're making fun of me, aren't you? I just saw you inhale all of that."
+hi "ไม่เป็นไร ๆ ฉันดื่มอะไรของคนอื่นไม่ได้หรอก เสียมารยาทแย่ อีกอย่าง นี่เธอเยาะเย้ยกันใช่มั้ย เมื่อกี้เห็นสูบเอาจน\nหมดกระป๋องเลย"
 
 show mishashort sign_smile
 with charachange
 
-mi "I have another one in my bag~! I was prepared, see~, see~? I'm just like Shicchan~!"
+# mi "I have another one in my bag~! I was prepared, see~, see~? I'm just like Shicchan~!"
+mi "ยังมีในกระเป๋าฉันอีกกระป๋องนะ~! ฉันเตรียมไว้แล้ว เห็นมั้ย~ เห็นมั้ย~ เหมือนชิจังเลย~!"
 
-hi "She's a little too prepared. It's good some of that is rubbing off on you, anyway. After what, two years?"
+# hi "She's a little too prepared. It's good some of that is rubbing off on you, anyway. After what, two years?"
+hi "รายนั้นก็เป็นคนเตรียมพร้อมไปหน่อยอะ แต่อยู่ด้วยกันมาตั้ง เท่าไหร่นะ สองปี? เธอติดนิสัยมาบ้างก็ดีแล้วละ"
 
 show mishashort cross_laugh
 with charachange
 
-mi "Wahaha~!"
+# mi "Wahaha~!"
+mi "วะฮ่าฮ่า~!"
 
-"The way she stares at me as I drink it is a little disconcerting, but I'm too grateful to care much about it."
+# "The way she stares at me as I drink it is a little disconcerting, but I'm too grateful to care much about it."
+"พอเธอจ้องตอนฉันดื่มอยู่ก็แอบอึดอัดแฮะ แต่ช่างเถอะ ให้ดื่มนี่ก็บุญโขแล้ว"
 
-hi "You and Shizune always end up treating me to something. It's starting to embarrass me."
+# hi "You and Shizune always end up treating me to something. It's starting to embarrass me."
+hi "ทั้งเธอทั้งชิซูเนะได้เลี้ยงอะไรฉันตลอดเลย ชักอายแล้วสิ"
 
 show mishashort hips_smile
 with charachange
 
-mi "Really~, Hicchan? Ahaha~. Buy me lunch sometime, then, okay~? Then~!, we'll be even."
+# mi "Really~, Hicchan? Ahaha~. Buy me lunch sometime, then, okay~? Then~!, we'll be even."
+mi "จริงเหรอ~ ฮิจัง อะฮ่าฮ่า~ งั้นไว้เลี้ยงข้าวเที่ยงฉันบ้างนะ~ แล้วเรา~! จะได้เจ๊ากัน"
 
-hi "Well, it's funny you should say that. I was going to ask you if you wanted to eat in town…"
+# hi "Well, it's funny you should say that. I was going to ask you if you wanted to eat in town…"
+hi "เออ บังเอิญดีนะ ฉันกะจะชวนเธอเข้าเมืองไปกินข้าว…"
 
 show mishashort hips_grin
 with charachange
 
-mi "Yeah~ yeah~! I'm really hungry today, Hicchan! Thanks!"
+# mi "Yeah~ yeah~! I'm really hungry today, Hicchan! Thanks!"
+mi "อื้ม~ อื้ม~! วันนี้ฉันหิวมากเลยละฮิจัง! ขอบใจนะ!"
 
 show mishashort invis at tworight
 with dissolvecharamove
 
 stop music fadeout 3.0
 
-"…Yesterday. I was going to ask her yesterday. Misha cuts me off before I can finish the sentence, and I can't find an opening to correct her as she dashes enthusiastically around me, laughing, her arms flapping excitedly at her sides."
+# "…Yesterday. I was going to ask her yesterday. Misha cuts me off before I can finish the sentence, and I can't find an opening to correct her as she dashes enthusiastically around me, laughing, her arms flapping excitedly at her sides."
+"…เมื่อวาน ฉันกะจะชวนเมื่อวาน มิช่าแทรกก่อนที่ฉันจะทันได้พูดให้จบ และไม่มีช่องให้ฉันได้แก้เลยเพราะเธอโดดไป\nโดดมาอยู่รอบตัวฉันหัวเราะสะบัดแขนขาด้วยความตื่นเต้น"
 
 scene bg suburb_roadcenter_ss
 with locationskip
 
 play music music_dreamy fadein 2.0
 
-"I already have my wallet with me, so I start walking towards town with Misha trailing behind me, playing idly with her hands and loudly wondering to herself where we should go eat. At least, I think so. She could be asking me."
+# "I already have my wallet with me, so I start walking towards town with Misha trailing behind me, playing idly with her hands and loudly wondering to herself where we should go eat. At least, I think so. She could be asking me."
+"ฉันพกกระเป๋าสตางค์ติดตัวมาด้วยแล้วจึงเดินเข้าเมืองไปโดยที่มีมิช่าตามหลังอยู่ เธอจับมือตัวเองเล่นไปมาพลางถาม\nด้วยความสงสัยว่าจะไปกินที่ไหนดี ก็น่าจะถามฉันแหละนะ คงไม่ได้พูดกับตัวเองหรอก"
 
-hi "Do you have anywhere specific where you want to go?"
+# hi "Do you have anywhere specific where you want to go?"
+hi "เธออยากไปร้านไหนเป็นพิเศษมั้ย"
 
 show mishashort hips_smile_ss at center
 with charaenter
 
-mi "Hmmm~. I want to go to the teahouse, they have a really big parfait there."
+# mi "Hmmm~. I want to go to the teahouse, they have a really big parfait there."
+mi "อืมมม~ ฉันอยากไปที่โรงน้ำชานั้น ร้านนั้นมีพาร์เฟต์แก้วใหญ่ขายด้วย"
 
-hi "I saw you eat a parfait there last time, it looked really big."
+# hi "I saw you eat a parfait there last time, it looked really big."
+hi "เห็นเธอกินคราวที่แล้วก็ใหญ่จริง ๆ แหละ"
 
 show mishashort hips_grin_ss
 with charachange
 
-mi "No no no~! This one is really, really~ big! It's also really expensive~!"
+# mi "No no no~! This one is really, really~ big! It's also really expensive~!"
+mi "ไม่ ๆ ๆ ~! อันนี้ใหญ่ ใหญ๊~ ใหญ่! แพงมากด้วย~!"
 
-hi "Really, really~ expensive?"
+# hi "Really, really~ expensive?"
+hi "แพง แพ๊ง~ แพงมากเลยเหรอ"
 
 show mishashort cross_laugh_ss
 with charachange
 
-mi "Hahaha~! A little~…"
+# mi "Hahaha~! A little~…"
+mi "ฮ่าฮ่าฮ่า~! ก็นิดหน่อย~…"
 
-hi "Jeez. Well, you and Shizune paid for my food a bunch of times, so it's fine."
+# hi "Jeez. Well, you and Shizune paid for my food a bunch of times, so it's fine."
+hi "ดูพูดเข้า เอาเถอะ เธอกับชิซูเนะก็เลี้ยงฉันมาหลายรอบละ ไม่เป็นไรหรอก"
 
 show mishashort perky_confused_ss
 with charachange
 
-mi "Hicchan, I don't think I ever did that~. Are you sure it wasn't just Shicchan?"
+# mi "Hicchan, I don't think I ever did that~. Are you sure it wasn't just Shicchan?"
+mi "ฮิจัง ฉันว่าฉันไม่เคยเลี้ยงเลยนะ~ แน่ใจนะว่าคนที่เลี้ยงไม่ได้มีแค่ชิจัง"
 
-hi "Are you really arguing against a free meal? Don't worry about it."
+# hi "Are you really arguing against a free meal? Don't worry about it."
+hi "คนเขาเลี้ยงนี่จะไม่เอาจริงเหรอ ไม่ต้องคิดมากน่า"
 
 scene bg suburb_shanghaiint
 with locationskip
 
-"We go to the Shanghai, and are seated by a waitress who is surprisingly not Yuuko."
+# "We go to the Shanghai, and are seated by a waitress who is surprisingly not Yuuko."
+"เราตรงไปร้านเซี่ยงไฮ้แล้วนั่งรอพนักงานเสิร์ฟ ซึ่งน่าแปลกที่ไม่ใช่ยูโกะ"
 
-"Misha is very eager to eat that parfait, because she shouts her order as soon as she walks through the door. When it arrives, I can see that it is both very big and very expensive-looking."
+# "Misha is very eager to eat that parfait, because she shouts her order as soon as she walks through the door. When it arrives, I can see that it is both very big and very expensive-looking."
+"มิช่าดูจะหิวพาร์เฟต์มาก ๆ เพราะพอเดินเข้าร้านมาเธอก็สั่งทันที พอได้เห็นพาร์เฟต์ที่ว่ามาเสิร์ฟแล้วก็รู้สึกว่าดูใหญ่\nและแพงมากจริง ๆ"
 
 show mishashort perky_confused_close at center
 with charaenter
 
-mi "Aren't you going to order anything, Hicchan~? If you're hungry, we can share."
+# mi "Aren't you going to order anything, Hicchan~? If you're hungry, we can share."
+mi "จะไม่สั่งอะไรเลยจริงเหรอฮิจัง ถ้าหิวก็แบ่งกันกินได้นะ"
 
-hi "Nah. I don't like parfaits. I don't like pralin."
+# hi "Nah. I don't like parfaits. I don't like pralin."
+hi "ไม่อะ ฉันไม่ชอบพาร์เฟต์ ไม่ชอบถั่วบดด้วย"
 #http://en.wikibooks.org/wiki/Cookbook:Pralin vs. http://en.wikipedia.org/wiki/Granola I'm actually not too happy either way, but eh. -SC
 
 show mishashort sign_smile_close
 with charachange
 
-mi "You can pick it out~!"
+# mi "You can pick it out~!"
+mi "เขี่ยออกก็ได้นี่~!"
 
-hi "You can't just pick out pralin; don't be silly."
+# hi "You can't just pick out pralin; don't be silly."
+hi "ถั่วบดมันเขี่ยออกได้ที่ไหน พูดอะไรบ้า ๆ"
 
 show mishashort perky_smile_close
 with charachange
 
-"Even if I could, Misha is mashing her food together to the point where it is no longer possible. It also looks kind of gross."
+# "Even if I could, Misha is mashing her food together to the point where it is no longer possible. It also looks kind of gross."
+"ถึงตอนแรกจะเขี่ยได้ แต่มิช่าก็คนจนตอนนี้เขี่ยออกไม่ได้แล้ว ดูขยะแขยงหน่อย ๆ ด้วย"
 
-"I wonder if that many flavors can even blend together well. Can she really taste anything in that goop? She is acting like it's delicious, anyway."
+# "I wonder if that many flavors can even blend together well. Can she really taste anything in that goop? She is acting like it's delicious, anyway."
+"คนขนาดนั้นรสชาติจะไม่ตีกันแย่เหรอ ก้อนเหลว ๆ นั่นจะมีรสอะไรขึ้นมาได้จริงเหรอ แต่มิช่าก็กินด้วยท่าทีที่เหมือน\nจะอร่อย"
 
 show mishashort hips_grin_close
 with charachange
 
-mi "Mm~. Parfaits are the best~, I have sensitive teeth, so ice cream is a no-no~. Cake is too soft, though, and if there is too much icing, I get bored. Parfait is interesting."
+# mi "Mm~. Parfaits are the best~, I have sensitive teeth, so ice cream is a no-no~. Cake is too soft, though, and if there is too much icing, I get bored. Parfait is interesting."
+mi "อื้ม~ พาร์เฟต์เนี่ยสุดยอดเลย~ ฉันเสียวฟันเลยกินไอศกรีมไม่ได้~ เค้กก็นิ่มไป แล้วถ้ามีของแต่งหน้าเยอะไปฉันก็\nจะเบื่อ พาร์เฟต์นี่แหละน่าสนใจ"
 
 show mishashort perky_smile_close
 with charachange
 
-mi "How many cafés have parfaits here~? I think, ten! I've tried them all, I like this one the best. It has a little flan~!"
+# mi "How many cafés have parfaits here~? I think, ten! I've tried them all, I like this one the best. It has a little flan~!"
+mi "แถวนี้มีคาเฟที่ขายพาร์เฟต์กี่ที่กันนะ~ ฉันว่าน่าจะสิบที่! ฉันไปลองชิมมาหมดแล้ว ฉันชอบของร้านนี้ที่สุด มีฟลาน\nก้อนเล็ก ๆ ให้ด้วย!"
 
-hi "You sound like you're some kind of dessert expert."
+# hi "You sound like you're some kind of dessert expert."
+hi "นี่เธอเป็นผู้เชี่ยวชาญด้านขนมหวานหรือเปล่า"
 
 show mishashort hips_smile_close
 with charachange
 
-mi "Not just dessert~! I want to eat all kinds of delicious things~."
+# mi "Not just dessert~! I want to eat all kinds of delicious things~."
+mi "ไม่ใช่แค่ขนมหวาน~! ฉันอยากกินอะไรอร่อย ๆ หมดเลย~"
 
 show mishashort hips_grin_close
 with charachange
 
-mi "Someday, I'll have enough money to buy a two kilogram Matsusaka beef steak~!"
+# mi "Someday, I'll have enough money to buy a two kilogram Matsusaka beef steak~!"
+mi "สักวันฉันจะเก็บเงินซื้อสเต๊กเนื้อมัตสึซากะสักสองกิโลเลย~!"
 
-hi "That's like over a hundred thousand yen… I guess this kind of decadent food is kind of your hobby then, huh?"
+# hi "That's like over a hundred thousand yen… I guess this kind of decadent food is kind of your hobby then, huh?"
+hi "ซื้อขนาดนั้นราคาคงเป็นแสนเยนได้มั้ง… งั้นการกินอาหารทราม ๆ อะไรพวกนี้คงเป็นงานอดิเรกของเธองั้นสิ"
 
-"A hobby isn't something that should take months to learn about someone. I've been very rude, in retrospect. Also, that is one pricey hobby."
+# "A hobby isn't something that should take months to learn about someone. I've been very rude, in retrospect. Also, that is one pricey hobby."
+"สองสามเดือนคงจะน้อยไปหน่อยกับการดูว่าใครมีงานอดิเรกอะไร พอมาย้อนคิดดูแล้วก็เสียมารยาทมากเลยแฮะ\nแถมเป็นงานอดิเรกที่แพงเสียด้วย"
 
 show mishashort perky_confused_close
 with charachange
 
-mi "I guess so~! …Decadent~?"
+# mi "I guess so~! …Decadent~?"
+mi "มั้งนะ~!…ซาม ๆ ~?"
 
-hi "Yeah."
+# hi "Yeah."
+hi "อื้ม"
 
 show mishashort hips_grin_close
 with charachange
 
-"Misha giggles, raising her hand to her face. It looks like some ice cream accidentally got on her nose. She doesn't notice it. I can't stop noticing it. I wish she would wipe it off. I'm about to tell her about it, but she suddenly says,"
+# "Misha giggles, raising her hand to her face. It looks like some ice cream accidentally got on her nose. She doesn't notice it. I can't stop noticing it. I wish she would wipe it off. I'm about to tell her about it, but she suddenly says,"
+"มิช่าหัวเราะคิกคักยกมือขึ้นแตะหน้า เหมือนที่จมูกจะมีไอศกรีมติดอยู่แต่เธอยังไม่รู้ตัว ฉันละสายตาไปไม่ได้ เมื่อไหร่\nจะเช็ดสักทีนะ พอฉันจะบอกเธอก็โพล่งขึ้นมาว่า"
 
 show mishashort perky_confused_close
 with charachange
 
-mi "I don't know what that means."
+# mi "I don't know what that means."
+mi "ฉันไม่รู้ความหมายของคำนั้นอะ"
 
-hi "Oh. I guess that's a bad word, anyway. It has implications. Epicurean is better. It means, someone who enjoys eating nice food. That's the adjective, though. So, epicure is the word for it."
+# hi "Oh. I guess that's a bad word, anyway. It has implications. Epicurean is better. It means, someone who enjoys eating nice food. That's the adjective, though. So, epicure is the word for it."
+hi "อ้อ ก็คำไม่ค่อยดีเท่าไหร่หรอก มันสื่ออะไรหลายอย่าง ใช้คำว่าแสวงรสดีกว่า อารมณ์เหมือนการตามหาอะไรที่รสชาติ\nอร่อย ๆ มากิน ถ้าจะเติมเข้ามาให้เป็นการพูดถึงคนก็ นักแสวงรส งี้"
 
 show mishashort cross_laugh_close
 with charachange
 
-mi "Wahaha~!"
+# mi "Wahaha~!"
+mi "วะฮ่าฮ่า~!"
 
 show mishashort cross_grin_close
 with charachange
 
-mi "Hicchan, you're too wordy."
+# mi "Hicchan, you're too wordy."
+mi "ฮิจัง นายใช้คำยากไปนะ"
 
-hi "Sorry."
+# hi "Sorry."
+hi "ขอโทษที"
 
 show mishashort perky_smile_close
 with charachange
 
-mi "Hahaha~. I think that is what Shicchan likes about you."
+# mi "Hahaha~. I think that is what Shicchan likes about you."
+mi "ฮ่าฮ่าฮ่า~ แต่ฉันว่าชิจังชอบนายก็ตรงนี้แหละ"
 
-hi "Because I'm wordy? I need to buy some thesauruses, then."
+# hi "Because I'm wordy? I need to buy some thesauruses, then."
+hi "เพราะฉันใช้คำยากเหรอ งั้นเดี๋ยวต้องไปหาซื้อหนังสือรวมคำคล้ายแล้ว"
 
 show mishashort hips_grin_close
 with charachange
 
-mi "Wahaha~! No, not like that, Hicchan~!"
+# mi "Wahaha~! No, not like that, Hicchan~!"
+mi "วะฮ่าฮ่า~! ไม่ ไม่ใช่อย่างนั้นสักหน่อยฮิจัง~!"
 
-"I decide to order some coffee after all, but it takes a while to get the waitress to notice, and I think actually getting my coffee will take about as long."
+# "I decide to order some coffee after all, but it takes a while to get the waitress to notice, and I think actually getting my coffee will take about as long."
+"สุดท้ายฉันก็สั่งกาแฟ แต่ก็ต้องรอสักพักกว่าพนักงานจะเห็น และกว่าจะได้กาแฟก็คงนานพอกัน"
 
-"The tea shop is filling up. No surprise, as we've already been here for almost an hour while she was chipping at that dessert. I order my coffee to go, but Misha orders one as well, so it seems that we're going to be here longer than I thought."
+# "The tea shop is filling up. No surprise, as we've already been here for almost an hour while she was chipping at that dessert. I order my coffee to go, but Misha orders one as well, so it seems that we're going to be here longer than I thought."
+"คนเริ่มเข้ามาร้านน้ำชามากขึ้นเรื่อย ๆ ก็ไม่แปลก ตอนที่นั่งรอมิช่ากินของหวานนี่ก็อยู่มาเกือบชั่วโมงแล้ว ฉันสั่งกาแฟ\nแบบถือกลับบ้าน แต่มิช่าก็สั่งตาม ดูท่าว่าจะได้แช่อยู่ที่นี่นานกว่าที่คาดเอาไว้"
 
-hi "I really wish it was that easy. It's hard to talk to her lately."
+# hi "I really wish it was that easy. It's hard to talk to her lately."
+hi "ถ้ามันง่ายอย่างนั้นก็ดีสิ ช่วงนี้แทบไม่ได้คุยกับชิซูเนะเลย"
 
 show mishashort sign_smile_close
 with charachange
 
-mi "Shicchan's been busy because of the elections~!"
+# mi "Shicchan's been busy because of the elections~!"
+mi "ชิจังงานยุ่งเพราะเรื่องเลือกตั้งไง~!"
 
-hi "I know we can't have fun all the time. It's just that there's a lot I want to say to her, I think. I always screw up when the time comes, though. And I don't even have the time now. Because of the elections."
+# hi "I know we can't have fun all the time. It's just that there's a lot I want to say to her, I think. I always screw up when the time comes, though. And I don't even have the time now. Because of the elections."
+hi "ฉันรู้น่าว่าเราจะอยู่ด้วยกันสบาย ๆ ไปไม่ได้ตลอดหรอก แค่ว่าฉันมีเรื่องอยากบอกเธอเยอะไปหมด มั้งนะ แต่พอถึงเวลา\nฉันก็ไม่ได้พูด แล้วตอนนี้ก็ไม่มีเวลาด้วยแล้วเพราะเรื่องเลือกตั้งอีก"
 
-hi "They're not for a while, though."
+# hi "They're not for a while, though."
+hi "ทั้งที่เลือกตั้งก็อีกนาน"
 
 show mishashort hips_frown_close
 with charachange
 
-mi "Hicchan, do you think that Shicchan is avoiding you?"
+# mi "Hicchan, do you think that Shicchan is avoiding you?"
+mi "ฮิจัง นายคิดว่าชิจังหลบหน้านายเหรอ"
 
-"Misha sounds angry. That's to be expected, but I don't feel that way at all."
+# "Misha sounds angry. That's to be expected, but I don't feel that way at all."
+"น้ำเสียงมิช่าฟังดูโกรธ ซึ่งก็ไม่แปลก แต่ฉันไม่ได้คิดอย่างนั้นเลย"
 
-hi "No."
+# hi "No."
+hi "เปล่า"
 
 show mishashort perky_sad_close
 with charachange
 
-mi "Is that so~…"
+# mi "Is that so~…"
+mi "งั้นเหรอ~…"
 
-"The dreamy way in which she says it makes me think that Misha is disappointed with my answer. In that case, it could be how she feels. I'm uneasy asking such a question, but I trust Misha would answer it honestly. Otherwise, I wouldn't even dream of it."
+# "The dreamy way in which she says it makes me think that Misha is disappointed with my answer. In that case, it could be how she feels. I'm uneasy asking such a question, but I trust Misha would answer it honestly. Otherwise, I wouldn't even dream of it."
+"น้ำเสียงเลื่อนลอยของเธอทำให้ฉันคิดว่ามิช่าผิดหวังกับคำตอบของฉันหรือเปล่า ถ้างั้นเธอก็คงคิดว่าชิซูเนะหลบหน้า\nเธออยู่ จะถามก็กระดากปาก แต่หวังว่ามิช่าจะตอบตรง ๆ นะ เพราะฉันนึกภาพเธอโกหกไม่ออกเลย"
 
-hi "Do you?"
+# hi "Do you?"
+hi "แล้วเธอคิดงั้น?"
 
 show mishashort hips_smile_close
 with charachange
 
-mi "No, of course not, Hicchan~! But~! …It's frustrating, sometimes~. Shicchan has so much energy, and is always trying to make people feel as excited about things as she is~."
+# mi "No, of course not, Hicchan~! But~! …It's frustrating, sometimes~. Shicchan has so much energy, and is always trying to make people feel as excited about things as she is~."
+mi "ไม่ ไม่เลยฮิจัง~! แต่~! …บางทีมันก็น่าหงุดหงิด~ ชิจังน่ะมีพลังเยอะ แถมยังคอยโหมให้คนอื่นตื่นเต้นไปด้วย\nอยู่เรื่อยเลย~"
 
 show mishashort perky_sad_close
 with charachange
 
-mi "But it's like Shicchan doesn't know how to handle things when everyone gets really hyped up. Or~! I think that she wants to make sure nothing goes wrong. When I want to help out, Shicchan always pushes me away."
+# mi "But it's like Shicchan doesn't know how to handle things when everyone gets really hyped up. Or~! I think that she wants to make sure nothing goes wrong. When I want to help out, Shicchan always pushes me away."
+mi "แต่เหมือนชิจังไม่รู้จะรับมือยังไงต่อพอทุกคนตื่นเต้นกันมาก ๆ แล้ว หรือไม่ก็~! ฉันว่าชิจังอาจจะอยากให้ทุกอย่าง\nราบรื่นดี พอฉันเสนอตัวจะช่วย ชิจังก็ผลักไสฉันตลอดเลย"
 
-mi "It's frustrating."
+# mi "It's frustrating."
+mi "น่าหงุดหงิดนะ"
 
 show mishashort hips_grin_close
 with charachange
 
-mi "I'm just overthinking it, probably~! Right~?"
+# mi "I'm just overthinking it, probably~! Right~?"
+mi "ฉันแค่คิดมากไปเอง มั้ง~! ใช่มั้ย~"
 
-"Misha takes a big gulp from her cup of coffee, then sticks her tongue out."
+# "Misha takes a big gulp from her cup of coffee, then sticks her tongue out."
+"มิช่าดื่มกาแฟอึกใหญ่แล้วแลบลิ้น"
 
 show mishashort hips_laugh_close
 with charachange
 
-mi "Ow~! Hot~ hot~ hot~… thought it would have cooled down by now~!"
+# mi "Ow~! Hot~ hot~ hot~… thought it would have cooled down by now~!"
+mi "โอ๊ย~! ร้อน~ ร้อน~ ร้อน~… อุตส่าห์ทิ้งไว้ นึกว่าจะเย็นแล้ว~!"
 
-hi "Has it really been that long?"
+# hi "Has it really been that long?"
+hi "เพิ่งแป๊บเดียวเองไม่ใช่เหรอ"
 
-"I check my watch. It hasn't been very long at all, but looking outside, the sun is already starting to set."
+# "I check my watch. It hasn't been very long at all, but looking outside, the sun is already starting to set."
+"ฉันก้มมองนาฬิกาตัวเอง ยังผ่านไปไม่ทันเท่าไหร่เลย แต่พอหันมองนอกหน้าต่างก็เห็นว่าพระอาทิตย์คล้อยตกดินแล้ว"
 
-hi "Not really. Huh, it got dark out pretty quickly today, though, so I could understand why you might think that."
+# hi "Not really. Huh, it got dark out pretty quickly today, though, so I could understand why you might think that."
+hi "ก็ไม่นานนี่ อืม แต่ดูเหมือนวันนี้จะมืดเร็วพอตัวเลยนะ ก็คงไม่แปลกที่เธอจะนึกว่านานแล้ว"
 
 show mishashort perky_sad_close
 with charachange
 
-"At my words, Misha looks outside and yawns almost immediately. She looks sleepy. That's funny, because…"
+# "At my words, Misha looks outside and yawns almost immediately. She looks sleepy. That's funny, because…"
+"พอมิช่าได้ยินที่ฉันพูดแล้วเธอก็หันมองข้างนอกแล้วหาวแทบจะทันที สีหน้าดูง่วง ๆ ซึ่งตลกดี เพราะ…"
 
-hi "Are you sleepy? You were wide awake like, just two seconds ago."
+# hi "Are you sleepy? You were wide awake like, just two seconds ago."
+hi "ง่วงเหรอ แต่แบบ สองวินาทีเมื่อกี้เธอยังตื่นเต็มตาอยู่เลย"
 
 show mishashort sign_sad_close
 with charachange
 
-mi "I feel tired when it gets dark, Hicchan~."
+# mi "I feel tired when it gets dark, Hicchan~."
+mi "พอมืดแล้วฉันจะง่วงน่ะฮิจัง~"
 
-hi "Just like that? Are you a bird?"
+# hi "Just like that? Are you a bird?"
+hi "ง่าย ๆ งี้เลย? เป็นนกเหรอ"
 
 show mishashort perky_smile_close
 with charachange
 
-mi "Ahahaha~."
+# mi "Ahahaha~."
+mi "อะฮ่าฮ่าฮ่า~"
 
-"I pick up my own coffee and have a sip. It's not very hot at all, but very tasty. I down it as quickly as possible, because now I want to get back to my dorm room as well. Misha tries to emulate me, but it's still too hot for her."
+# "I pick up my own coffee and have a sip. It's not very hot at all, but very tasty. I down it as quickly as possible, because now I want to get back to my dorm room as well. Misha tries to emulate me, but it's still too hot for her."
+"ฉันยกถ้วยกาแฟขึ้นมาจิบ ซึ่งไม่ร้อนเท่าไหร่แต่อร่อยมาก ฉันรีบดื่มให้ไวที่สุด เพราะตอนนี้ฉันก็อยากกลับหอแล้ว\nเหมือนกัน มิช่าจะกระดกตามฉันบ้าง แต่เหมือนกาแฟจะยังเย็นไม่พอสำหรับเธอ"
 
-"While I wait for her to finish, I start to wonder what she meant back then about Shizune liking something about me. Suddenly, I'm very curious, but dragging that back up now feels like an unnecessary action."
+# "While I wait for her to finish, I start to wonder what she meant back then about Shizune liking something about me. Suddenly, I'm very curious, but dragging that back up now feels like an unnecessary action."
+"ในหัวฉันคิดไปถึงเรื่องที่มิช่าบอกว่าชิซูเนะชอบบางอย่างในตัวฉันระหว่างที่รอเธอดื่มกาแฟให้หมด อยู่ ๆ ก็อยากรู้\nขึ้นมาแบบมาก ๆ แต่จะให้ย้อนกลับมาถามเรื่องนี้อีกก็ดูจะวุ่นวายไปหน่อย"
 
 show mishashort hips_grin_close
 play sound sfx_impact
 with vpunch
 
-"I try to weigh the option again, but am interrupted by Misha slamming her empty cardboard cup down on the table with a loud pop."
+# "I try to weigh the option again, but am interrupted by Misha slamming her empty cardboard cup down on the table with a loud pop."
+"ฉันคิดอยู่ว่าสิ่งนั้นคืออะไรกันแน่ แต่แล้วเสียงถ้วยกระดาษเปล่าที่เคาะกับโต๊ะจากฝั่งมิช่าก็เข้ามาขัด"
 
 show mishashort cross_grin_close
 with charachange
 
-mi "Done~!"
+# mi "Done~!"
+mi "หมดแล้ว~!"
 
-"She lets out a short laugh, seeming very pleased with herself. Kind of like a toddler. I wonder if she had that drill-shaped haircut when she was little, too. Or was it something more like her current look? It would make more sense."
+# "She lets out a short laugh, seeming very pleased with herself. Kind of like a toddler. I wonder if she had that drill-shaped haircut when she was little, too. Or was it something more like her current look? It would make more sense."
+"เธอหัวเราะน้อย ๆ ดูพอใจกับตัวเอง เหมือนเด็กทารกเลย ตอนเด็กเธอจะทำผมทรงสว่านแบบนั้นเหมือนกันมั้ยนะ\nหรือเพิ่งมาทำทรงสว่านเอาตอนโต? น่าจะเป็นอย่างหลังมากกว่า"
 
-hi "I guess we should head back then. I can't see the waitress. Try not to fall asleep while I pay for the sundae, okay?"
+# hi "I guess we should head back then. I can't see the waitress. Try not to fall asleep while I pay for the sundae, okay?"
+hi "งั้นก็กลับกันดีกว่า แต่พนักงานไปไหนเนี่ย เดี๋ยวฉันไปจ่ายค่าซันเดให้ก่อน ห้ามหลับ โอเคนะ"
 
 show mishashort sign_smile_close
 with charachange
 
-mi "Not a sundae; It's a parfait, Hicchan."
+# mi "Not a sundae; It's a parfait, Hicchan."
+mi "ซันเดที่ไหนล่ะฮิจัง พาร์เฟต์ต่างหาก"
 
 show mishashort cross_laugh_close
 with charachange
 
-mi "Wahaha~."
+# mi "Wahaha~."
+mi "วะฮ่าฮ่า~"
 
-hi "You have ice cream on your nose."
+# hi "You have ice cream on your nose."
+hi "ไอศกรีมติดจมูกอยู่แน่ะ"
 
 stop music fadeout 2.0
 
@@ -5420,7 +5722,8 @@ with locationchange
 play sound sfx_paper
 play music music_normal fadein 3.0
 
-"In class the next afternoon, I'm two problems into a math logic worksheet when a folded up piece of paper hits me in the head. I'm sure I know whom it's from, but I quickly look around the classroom anyway, just in case."
+# "In class the next afternoon, I'm two problems into a math logic worksheet when a folded up piece of paper hits me in the head. I'm sure I know whom it's from, but I quickly look around the classroom anyway, just in case."
+"ฉันกำลังทำแบบฝึกหัดเรื่องตรรกะทางคณิตศาสตร์อยู่ในห้องเรียนยามบ่ายถัดจากวันนั้น เมื่อทำไปได้สองข้อก็มี\nก้อนกระดาษถูกโยนมาที่หัวฉัน ถึงจะรู้แล้วแหละว่าใครโยนมา แต่ฉันก็หันไปดูเพื่อความแน่ใจอีกที"
 
 show shizu invis at left
 with None
@@ -5429,84 +5732,109 @@ show bg school_scienceroom at left
 show shizu behind_blank at center
 with dissolvecharamove
 
-"No one in this classroom is good at acting casual. I can tell that everyone saw who threw it at me, and looking at the culprit herself it was obviously Shizune. She isn't even trying to be coy about it."
+# "No one in this classroom is good at acting casual. I can tell that everyone saw who threw it at me, and looking at the culprit herself it was obviously Shizune. She isn't even trying to be coy about it."
+"ในห้องเรียนไม่มีคนที่เก็บอาการเป็นเลยสักคน ฉันรู้ทันทีว่าทุกคนเห็นว่าใครโยนมา เพราะสายตาทุกคู่จับจ้องคนร้าย\nที่เห็น ๆ กันอยู่ว่าเป็นชิซูเนะ แถมยังไม่มีทีท่าว่าจะพยายามทำตัวให้เนียนด้วย"
 
-"The countryside is so different. At my old school I would have no idea who it was right now."
+# "The countryside is so different. At my old school I would have no idea who it was right now."
+"คนที่นี่ไม่เหมือนในเมืองเลย ถ้าเป็นที่โรงเรียนเก่าฉันคงยังไม่รู้ว่าใครเป็นคนโยนมากันแน่"
 
-"Opening up the note, it says:"
+# "Opening up the note, it says:"
+"พอคลี่กระดาษออกดูก็เห็นข้อความที่เขียนว่า"
 
 window hide
 
-$ written_note("Misha is absent! Help me out today after school!")
+# $ written_note("Misha is absent! Help me out today after school!")
+$ written_note("มิช่าไม่อยู่! เลิกเรียนแล้วมาช่วยงานหน่อย!")
 
 window show
 
-hi "I don't understand what's with the note, why can't you just use sign language?"
+# hi "I don't understand what's with the note, why can't you just use sign language?"
+hi "แล้วจะใช้กระดาษทำไม ใช้ภาษามือเอาไม่ง่ายกว่าเหรอ"
 
-"A large part of how I learned sign language was by copying Misha's style of signing her words as she speaks, so I end up blurting the sentence out loud as I sign it to Shizune. A slight laugh goes around the room. How awkward."
+# "A large part of how I learned sign language was by copying Misha's style of signing her words as she speaks, so I end up blurting the sentence out loud as I sign it to Shizune. A slight laugh goes around the room. How awkward."
+"ส่วนมากฉันก็รู้ภาษามือจากการเลียนแบบมิช่าที่พูดไปทำภาษามือไป ฉันจึงเปล่งเสียงประโยคนั้นออกมาพร้อม ๆ กับ\nการส่งภาษามือให้ชิซูเนะ มีคนในห้องหัวเราะคิกคักกัน น่าอายชะมัด"
 
-his "I'll help if I don't have to do a lot."
+# his "I'll help if I don't have to do a lot."
+his "ถ้างานไม่เยอะฉันก็จะช่วย"
 
 show shizu basic_angry
 with charachange
 
-ssh "That's silly, obviously if Misha is absent you have to help as much as two people."
+# ssh "That's silly, obviously if Misha is absent you have to help as much as two people."
+ssh "บ้าหรือเปล่า ถ้ามิช่าไม่อยู่ก็แปลว่านายต้องช่วยเป็นสองเท่าคนเลยสิ"
 
-"I don't know if that really means anything. After all, Misha was complaining yesterday mostly about how Shizune wouldn't let her help her. I don't do much as-is, either."
+# "I don't know if that really means anything. After all, Misha was complaining yesterday mostly about how Shizune wouldn't let her help her. I don't do much as-is, either."
+"มิช่าไม่อยู่แล้วงานจะเยอะขึ้นขนาดนั้นเลยเหรอ ก็เมื่อวานมิช่ายังบ่นอยู่เลยว่าชิซูเนะไม่ยอมให้ช่วยงานด้วย แล้วปกติ\nฉันก็ไม่ได้ทำอะไรเยอะอยู่แล้วด้วย"
 
-"After pretending to think it over for a bit, I write her a note back telling her I will. I'm actually happy that she asked me, because I've been meaning to talk to her for a while."
+# "After pretending to think it over for a bit, I write her a note back telling her I will. I'm actually happy that she asked me, because I've been meaning to talk to her for a while."
+"ฉันทำทีเป็นคิดอยู่พักหนึ่งก่อนจะเขียนตอบตกลงว่าจะไปช่วย จริง ๆ ก็ดีใจนะที่ขอให้ไปช่วย จะได้มีเวลาคุยกันด้วย"
 
-"It's a good opportunity, but I feel I should at least make it look like I'm putting up some resistance to the idea."
+# "It's a good opportunity, but I feel I should at least make it look like I'm putting up some resistance to the idea."
+"ก็เป็นโอกาสที่ดี แต่รู้สึกเหมือนต้องทำเป็นว่าไม่ค่อยอยากไปเท่าไหร่สักหน่อย"
 
 hide shizu
 with charaexit
 
-"I go back to my worksheet and immediately get stuck on the third problem. After trying to work around it, I casually toss my own note over to Shizune. It says:"
+# "I go back to my worksheet and immediately get stuck on the third problem. After trying to work around it, I casually toss my own note over to Shizune. It says:"
+"ฉันกลับมาทำแบบฝึกหัดต่อแล้วติดอยู่กับข้อที่สามทันที พอลองทำอยู่สักพักฉันก็ปากระดาษของตัวเองไปทางชิซูเนะ\nโดยที่ในนั้นเขียนว่า"
 
 window hide
 
-$ written_note("Why is Misha absent? And what's the answer to question 3?")
+# $ written_note("Why is Misha absent? And what's the answer to question 3?")
+$ written_note("มิช่าไปไหน แล้วข้อที่สามตอบอะไร")
 
 show shizu behind_blank at center
 with charaenter
 
 window show
 
-ssh "She told me that she was sick and her stomach hurt. Misha gets stomachaches a lot, but I wish she'd picked a better time for it this week."
+# ssh "She told me that she was sick and her stomach hurt. Misha gets stomachaches a lot, but I wish she'd picked a better time for it this week."
+ssh "มิช่าบอกว่าปวดท้องไม่สบายน่ะ มิช่าก็ปวดท้องบ่อยอยู่หรอก แต่ไม่น่ามาเป็นเอาวันนี้เลย"
 
 show shizu basic_normal2
 with charachange
 
-ssh "Use sign language."
+# ssh "Use sign language."
+ssh "ใช้ภาษามือสิ"
 
-"I'd think she has a stomachache because of the way she sucked down a parfait larger than her head the other day."
+# "I'd think she has a stomachache because of the way she sucked down a parfait larger than her head the other day."
+"ที่ปวดท้องก็คงเพราะสูบพาร์เฟต์ที่ใหญ่กว่าหัวเธอลงท้องไปเมื่อวานมั้ง"
 
-"If she gets them quite often, though, either it's a coincidence or she has a habit of eating things that can put her in debilitating pain."
+# "If she gets them quite often, though, either it's a coincidence or she has a habit of eating things that can put her in debilitating pain."
+"แต่ถ้าปวดท้องบ่อย งั้นก็คงแค่บังเอิญมาเป็นหลังไปกินเฉย ๆ หรือไม่ก็ชอบกินอะไรที่ทำให้ตัวเองต้องเจ็บไข้ได้ป่วย\nอยู่บ่อย ๆ"
 
-"I notice the teacher staring at us disapprovingly. I don't blame him. We're “talking” in class, and with sign language, in quite a visible and distracting way. I try clearing my throat to back out of our conversation, but Shizune doesn't get the hint."
+# "I notice the teacher staring at us disapprovingly. I don't blame him. We're “talking” in class, and with sign language, in quite a visible and distracting way. I try clearing my throat to back out of our conversation, but Shizune doesn't get the hint."
+"ฉันเห็นว่าครูกำลังจ้องมาทางเราด้วยสีหน้าที่ไม่ค่อยพอใจนัก ก็ว่าไม่ได้หรอก ตอนนี้เราก็กำลัง “คุยกัน” ในเวลาเรียน\nอยู่ด้วยการใช้ภาษามือที่ท่าทางออกจะรบกวนสมาธิคนอื่นอยู่เหมือนกัน ฉันกระแอมตัดบทสนทนา แต่ชิซูเนะไม่เข้าใจ\nสัญญาณที่ฉันทำ"
 
-"Well, obviously. Before I try to get the message across again with my hands, however, I can see Shizune notices what's up, she just doesn't care."
+# "Well, obviously. Before I try to get the message across again with my hands, however, I can see Shizune notices what's up, she just doesn't care."
+"ก็แหงอยู่แล้วแหละ แต่ก่อนที่ทันจะได้บอกชิซูเนะผ่านภาษามืออีกรอบฉันก็เห็นว่าจริง ๆ แล้วเธอรู้ว่าครูมองอยู่\nเพียงแต่ทำเป็นไม่สนใจ"
 
 show shizu adjust_smug
 with charachange
 
-ssh "Do you still want to know the answer to question 3? I will tell you, but you have to give me the answer for question 25."
+# ssh "Do you still want to know the answer to question 3? I will tell you, but you have to give me the answer for question 25."
+ssh "ยังอยากได้คำตอบข้อที่สามอยู่มั้ย เดี๋ยวฉันจะบอกให้ แต่ขอแลกกับคำตอบข้อที่ยี่สิบห้าจากนาย"
 
-his "Hey, I was just thinking about how a teacher who didn't know sign language could think we were abusing it and using it to cheat, if he were to assume the worst. I can't believe you're actually doing that! And, I'm not up to 25."
+# his "Hey, I was just thinking about how a teacher who didn't know sign language could think we were abusing it and using it to cheat, if he were to assume the worst. I can't believe you're actually doing that! And, I'm not up to 25."
+his "นี่ ครูไม่รู้ภาษามือก็จริง แต่เกิดครูระแวงว่าเราแอบใช้ภาษามือโกงกันจะทำยังไง นี่เธอจะเอาอย่างนั้นจริง ๆ เหรอ!\nแล้วฉันยังทำไม่ถึงข้อที่ยี่สิบห้าเลย"
 
 show shizu behind_frown
 with charachange
 
-ssh "You wanted to know what the answer to 3 was; you asked first. Hypocrite."
+# ssh "You wanted to know what the answer to 3 was; you asked first. Hypocrite."
+ssh "นายขอคำตอบข้อสามมาก่อนนะ ย้อนแย้งจริง ๆ"
 
-his "You're the Student Council president, you can't cheat."
+# his "You're the Student Council president, you can't cheat."
+his "เธอเป็นสภานักเรียนนี่ โกงได้ที่ไหนล่ะ"
 
-"I don't have time for this, and I think I'm trying the teacher's patience to the breaking point. I'd like to continue taking potshots at her while working on the math problems in front of me, but it would require at least two extra hands."
+# "I don't have time for this, and I think I'm trying the teacher's patience to the breaking point. I'd like to continue taking potshots at her while working on the math problems in front of me, but it would require at least two extra hands."
+"ไม่มีเวลามาเถียงต่อแล้ว แถมรู้สึกเหมือนครูก็เริ่มจะทนไม่ไหวแล้วเหมือนกัน อยากจะว่าชิซูเนะต่อไปพลางทำ\nแบบฝึกหัดคณิตที่อยู่ตรงหน้าไปพลางจริง ๆ แต่จะทำอย่างนั้นได้ก็ต้องมีมือเพิ่มอย่างน้อย ๆ อีกหนึ่งคู่"
 
 show shizu basic_normal
 with charachange
 
-"Shizune is a bit more creative, and gets around this limitation by using long, semi-broken strings of simpler words. I take a couple mental notes in between being dizzied by a couple of particularly long equations."
+# "Shizune is a bit more creative, and gets around this limitation by using long, semi-broken strings of simpler words. I take a couple mental notes in between being dizzied by a couple of particularly long equations."
+"ชิซูเนะทำได้อย่างแยบยลกว่าด้วยการคอยเว้นระยะส่งคำสั้น ๆ ที่เหมือนไม่ต่อเนื่องกัน ฉันคอยจดไว้ในหัวไปพร้อม ๆ\nกับความรู้สึกมึนหัวที่เกิดจากสมการสองสมการที่ยาวเป็นพิเศษ"
 
 show shizu adjust_smug
 with charachange
@@ -5514,83 +5842,107 @@ with charachange
 play sound sfx_impact2
 with vpunch
 
-"Right before the bell rings, she caps her pen and triumphantly slams it on her desk with an ear-popping crack that makes the whole room jump, quickly forgotten because everyone would rather go to lunch than question its origin."
+# "Right before the bell rings, she caps her pen and triumphantly slams it on her desk with an ear-popping crack that makes the whole room jump, quickly forgotten because everyone would rather go to lunch than question its origin."
+"ก่อนระฆังจะดังไม่กี่วินาทีชิซูเนะก็ปิดปลอกปากกาแล้วกระแทกเข้ากับโต๊ะด้วยเสียงอันดันจนทั้งห้องสะดุ้ง แต่หลังจากนั้น\nก็ไม่มีใครสนใจจะดูว่าเป็นเสียงอะไรเพราะทุกคนอยากพักเที่ยงกันแล้ว"
 
 stop music fadeout 6.0
 
 show shizu basic_normal_close at twoleft
 with characlose
 
-"After a couple brief stretches, she gets up and hovers around my left shoulder."
+# "After a couple brief stretches, she gets up and hovers around my left shoulder."
+"พอฉันยืดเส้นยืดสายอยู่สองสามครั้งชิซูเนะก็เดินมาอยู่ทางไหล่ซ้ายของฉัน"
 
 show shizu behind_frown_close
 with charachange
 
-ssh "Are you still not done? I was going to ask if you wanted me to hand in yours too, while I was up."
+# ssh "Are you still not done? I was going to ask if you wanted me to hand in yours too, while I was up."
+ssh "ยังไม่เสร็จอีกเหรอ กำลังจะมาถามว่าจะฝากส่งด้วยมั้ย ไหน ๆ ฉันก็ลุกมาแล้ว"
 
-his "Someone distracted me. I had to beg the teacher to give me nine minutes between now and the end of passing to finish it. It's not easy to solve this one-handed while having a conversation, by the way."
+# his "Someone distracted me. I had to beg the teacher to give me nine minutes between now and the end of passing to finish it. It's not easy to solve this one-handed while having a conversation, by the way."
+his "มีคนกวนสมาธิฉันน่ะสิ ฉันต้องขอครูต่อเวลาทำอีกเก้านาทีเนี่ย รู้มั้ยว่าลำบากมากนะที่ต้องทำมือเดียวแล้วอีกมือ\nใช้คุยด้วย"
 
-"He wasn't happy with the request, wanting to get out of here as much as I do."
+# "He wasn't happy with the request, wanting to get out of here as much as I do."
+"ครูเองก็ไม่ค่อยพอใจเท่าไหร่ที่ฉันขอต่อเวลาเพราะก็อยากรีบ ๆ ไปไม่ต่างกับฉัน"
 
-"Since I'm only one problem away from finishing, it looks like Shizune doesn't really believe me. The second that I'm done handing it in, I find myself being dragged to the student council room."
+# "Since I'm only one problem away from finishing, it looks like Shizune doesn't really believe me. The second that I'm done handing it in, I find myself being dragged to the student council room."
+"ชิซูเนะเหมือนจะไม่เชื่อเพราะฉันเหลือข้อสุดท้ายแล้ว ทันที่ที่ฉันทำเสร็จแล้วส่งก็ถูกลากตัวมาที่ห้องสภานักเรียน"
 
 scene bg school_council
 with locationskip
 
 play music music_happiness fadein 2.0
 
-"It's eerily and annoyingly clean. I can't find what I was working on yesterday."
+# "It's eerily and annoyingly clean. I can't find what I was working on yesterday."
+"ดูเรียบร้อยจนขนลุกน่ารำคาญ หาอะไรที่ทำค้างไว้เมื่อวานไม่เจอเลย"
 
-his "Where is everything?"
+# his "Where is everything?"
+his "ของอะไรไปไหนหมดเนี่ย"
 
 show shizu behind_blank at center
 with charaenter
 
-ssh "I did some cleaning."
+# ssh "I did some cleaning."
+ssh "ฉันเก็บกวาดนิดหน่อยน่ะ"
 
-his "That doesn't tell me anything. See, it's like you forgot where you even put the stuff you put away. Oh well, If I can't find it, I guess I'll just go home."
+# his "That doesn't tell me anything. See, it's like you forgot where you even put the stuff you put away. Oh well, If I can't find it, I guess I'll just go home."
+his "ไม่ได้ตอบคำถามเลย เนี่ย ขนาดเธอยังเหมือนไม่รู้เลยว่าเก็บอะไรไว้ที่ไหนบ้าง เอาเถอะ ถ้าไม่รู้ว่าอยู่ไหนฉันก็กลับละ"
 
 show shizu basic_normal2
 with charachange
 
-ssh "It's in the drawer right there."
+# ssh "It's in the drawer right there."
+ssh "อยู่ในลิ้นชักตรงนั้น"
 
-"Shizune sulks as I pull out the posters I was working on, and then shuffle them around a little, since she stacked them by color. It's not that I'm taunting her; I just have my own system, although I doubt she would believe me if I were to tell her."
+# "Shizune sulks as I pull out the posters I was working on, and then shuffle them around a little, since she stacked them by color. It's not that I'm taunting her; I just have my own system, although I doubt she would believe me if I were to tell her."
+"ชิซูเนะทำหน้าไม่พอใจแล้วดึงโปสเตอร์ที่ฉันทำค้างไว้ออกมาแล้วเขี่ย ๆ ไปมาเล็กน้อยเพราะเธอเรียงเอาไว้ตามสี\nก็ไม่ได้จะทำให้เธอรำคาญหรอก แค่ว่าฉันก็มีระบบการจัดการของฉัน แต่ถ้าบอกไปก็คงไม่เชื่ออะนะ"
 
-his "I like it when things are a little messy. It's more natural. And a time saver. It's all right where I left it, and I don't have to go looking through shelves just to find what I was working on yesterday."
+# his "I like it when things are a little messy. It's more natural. And a time saver. It's all right where I left it, and I don't have to go looking through shelves just to find what I was working on yesterday."
+his "ฉันชอบให้อะไร ๆ อยู่แบบไม่เป็นระเบียบบ้าง ทั้งเป็นธรรมชาติกว่าทั้งประหยัดเวลากว่า วางไว้ตรงนั้นก็ดีอยู่แล้ว จะได้\nไม่ต้องไปตามดูชั้นเก็บของว่าเมื่อวานทำอะไรค้างไว้อยู่"
 
 show shizu adjust_frown
 with charachange
 
-ssh "Lazy."
+# ssh "Lazy."
+ssh "ขี้เกียจจริง"
 
-his "That's not true. I'm not lazy, you just always go too far."
+# his "That's not true. I'm not lazy, you just always go too far."
+his "ไม่จริงสักหน่อย ฉันไม่ได้ขี้เกียจ เธอต่างหากที่เคร่งเกินไป"
 
-"I quickly glance at her desk. A memo pad neatly placed at one corner, behind it a small desk calendar with each box filled with notes in a neat, but microscopic handwriting. On the right, three boxes of pens, in blue, black, and red."
+# "I quickly glance at her desk. A memo pad neatly placed at one corner, behind it a small desk calendar with each box filled with notes in a neat, but microscopic handwriting. On the right, three boxes of pens, in blue, black, and red."
+"ฉันเหลือบมองโต๊ะเธอที่มีกระดาษวางอยู่มุมหนึ่งไว้อย่างเรียบร้อย ถัดจากนั้นมีปฏิทินตั้งโต๊ะที่ในช่องแต่ละวันมีลายมือ\nตัวเท่ามดเขียนไว้อยู่ ส่วนทางขวามีกล่องปากกาอยู่สามกล่องที่มีปากกาสีน้ำเงิน สีดำ และสีแดงแยกกันอยู่คนละกล่อง"
 
-his "Look, you even put the pens back in their original box at the end of each day, all color-coded and everything. I don't think that can even be called being a neat freak."
+# his "Look, you even put the pens back in their original box at the end of each day, all color-coded and everything. I don't think that can even be called being a neat freak."
+his "เนี่ย ขนาดปากกาเธอยังเก็บแยกสีไว้แต่ละกล่องทุกวันเลย เรียกแค่ว่าบ้าความเป็นระเบียบยังน้อยไปมั้ง"
 
 show shizu behind_frown
 with charachange
 
-ssh "What do you do with them, throw them in a mug on your desk?"
+# ssh "What do you do with them, throw them in a mug on your desk?"
+ssh "แล้วทีนายล่ะ จับ ๆ รวมใส่แก้วบนโต๊ะนั่นน่ะนะ"
 
-his "Hey, I think that's being organized enough."
+# his "Hey, I think that's being organized enough."
+his "เฮ้ย แค่นั้นก็เป็นระเบียบพอแล้วนี่"
 
 show shizu basic_frown
 with charachange
 
-ssh "You're so disorganized, you can't even comb your hair down properly."
+# ssh "You're so disorganized, you can't even comb your hair down properly."
+ssh "นายเป็นคนไร้ระเบียบมาก ผมยังไม่หวีให้เรียบร้อยเลย"
 
-his "That hurts…"
+# his "That hurts…"
+his "เจ็บนะ…"
 
-"It's not like I don't try; it just won't stay flat. I pick up a box of pens and quickly pop it open to see if she also puts them in so that they're all facing the same direction. She understands what I'm thinking, and doesn't look very amused."
+# "It's not like I don't try; it just won't stay flat. I pick up a box of pens and quickly pop it open to see if she also puts them in so that they're all facing the same direction. She understands what I'm thinking, and doesn't look very amused."
+"ไม่ใช่ว่าไม่หวีเลยสักหน่อย แค่ว่าผมมันไม่ยอมลู่ ฉันคว้ากล่องปากกามากล่องหนึ่งแล้วเปิดดูว่าเธอเก็บให้ปลายปากกา\nหันไปทางเดียวกันทุกด้ามหรือเปล่า เธอรู้ทันทีว่าฉันคิดอะไรอยู่และทำหน้าไม่พอใจ"
 
 play sound sfx_dropstuff
 
-"It turns out that the box wasn't closed properly on the bottom, and as soon as I pick it up, they immediately pour out of it like a waterfall."
+# "It turns out that the box wasn't closed properly on the bottom, and as soon as I pick it up, they immediately pour out of it like a waterfall."
+"และก้นกล่องปากกาปิดไม่สนิท ทันทีที่ฉันยกกล่องขึ้นมาปากกาทุกด้ามก็ร่วงกราวราวน้ำตก"
 
-his "My fault. I'll get them, don't worry."
+# his "My fault. I'll get them, don't worry."
+his "ขอโทษที เดี๋ยวเก็บให้เอง"
 
 stop music fadeout 4.0
 play sound sfx_impact
@@ -5598,247 +5950,315 @@ play sound sfx_impact
 show shizu adjust_blush_close
 with vpunch
 
-"I bend down to pick up the pens, forgetting that with her attention focused on them, she couldn't have possibly seen me signing to her. Shizune's head bumps into my chest; not very hard, but it unbalances me enough to make me fall over."
+# "I bend down to pick up the pens, forgetting that with her attention focused on them, she couldn't have possibly seen me signing to her. Shizune's head bumps into my chest; not very hard, but it unbalances me enough to make me fall over."
+"ฉันค้อมตัวลงจะเก็บปากกา แต่ลืมไปว่าชิซูเนะคงมองปากกาจนไม่ได้มองฉันที่ทำภาษามือบอกไปเมื่อครู่ หัวชิซูเนะ\nชนเข้ากับหน้าอกฉัน ไม่ได้ชนแรงมาก แต่ก็แรงพอที่จะทำให้ฉันทรงตัวไม่อยู่จนล้มลง"
 
 show shizu adjust_blush
 with charadistant
 
-"I laugh it off, and expect her to do the same. When she stiffens and backs away from me instead, a feeling of dread begins to creep over me."
+# "I laugh it off, and expect her to do the same. When she stiffens and backs away from me instead, a feeling of dread begins to creep over me."
+"ฉันหัวเราะกลบเกลื่อนด้วยหวังให้เธอหัวเราะตาม แต่เมื่อได้เห็นเธอที่ทำท่าเกร็ง ๆ แล้วถอยกรูดไปฉันก็เริ่มใจคอไม่ดีขึ้นมา"
 
-"That is a weird reaction. I start to think about why she would have such a strange reaction. It's pretty obvious: she just bumped headfirst into someone with a heart condition."
+# "That is a weird reaction. I start to think about why she would have such a strange reaction. It's pretty obvious: she just bumped headfirst into someone with a heart condition."
+"แปลก ทำไมถึงได้ทำท่าแปลก ๆ อย่างนั้น ค่อนข้างชัดแหละว่าเพราะหัวเธอโขกเข้ากับคนที่เป็นโรคหัวใจ"
 
 #if seen A26b:
 label th_S26a:
 
-"Shizune would know I have one, having seen the rows and rows of pills lining the edge of my dresser. Or at the very least, she would know I have something severe enough to require that much medication, but not visible at a glance."
+# "Shizune would know I have one, having seen the rows and rows of pills lining the edge of my dresser. Or at the very least, she would know I have something severe enough to require that much medication, but not visible at a glance."
+"ชิซูเนะคงรู้ว่าฉันเป็น เพราะเห็นขวดยาที่ตั้งเรียงรายอยู่บนหลังตู้ฉันขนาดนั้น หรืออย่างน้อย ๆ ก็คงรู้ว่าฉันเป็น\nอะไรสักอย่างที่รุนแรงจนต้องกินยามากขนาดนั้น ซึ่งอาการที่ว่าไม่ใช่อาการที่เห็นได้ชัด"
 
 #if not seen A26b:
 label th_S26b:
 
-"Shizune would know I have one, maybe thanks to the records her student council duties give her access to. Or at the very least, she would know I have something severe enough to need monitoring."
+# "Shizune would know I have one, maybe thanks to the records her student council duties give her access to. Or at the very least, she would know I have something severe enough to need monitoring."
+"ชิซูเนะคงรู้ว่าฉันเป็น อาจจะเพราะเธอเป็นสภานักเรียนเลยสามารถดูประวัติอะไรได้ หรืออย่างน้อย ๆ ก็คงรู้ว่าฉันเป็น\nอะไรสักอย่างที่รุนแรงจนต้องมีคนคอยจับตาดูอยู่เสมอ"
 
 #end conditionals
 label th_S26c:
 
-"So she is treating me like I'm made of glass. For her, it's the natural way to react. I haven't forgotten how she freaked out back when Emi knocked into me. Why would it be any different for her?"
+# "So she is treating me like I'm made of glass. For her, it's the natural way to react. I haven't forgotten how she freaked out back when Emi knocked into me. Why would it be any different for her?"
+"ถึงได้ทำเหมือนว่าฉันเปราะบางเหมือนแก้วอย่างนั้น จะเป็นอย่างนั้นก็ไม่แปลก ฉันยังจำได้เลยว่าเธอตกใจมากตอนที่\nเอมิชนเข้ากับฉัน"
 
 show shizu basic_normal
 with charachange
 
-"I'm sure she is remembering that, right now. I can see it on her face. She looks angry at herself."
+# "I'm sure she is remembering that, right now. I can see it on her face. She looks angry at herself."
+"เธอก็คงกำลังนึกถึงตอนนั้นอยู่เหมือนกัน สีหน้าเธอบ่งบอกว่าเธอโกรธตัวเองมาก"
 
-"It would be a good opportunity to bring up that time. Even though I don't want to drag that back up, it would be a good idea to. It would clear the air."
+# "It would be a good opportunity to bring up that time. Even though I don't want to drag that back up, it would be a good idea to. It would clear the air."
+"ก็คงเป็นโอกาสอันดีที่จะพูดถึงเรื่องเมื่อตอนนั้นอีก ถึงจะไม่อยากขุดขึ้นมาพูดเลยก็เถอะ แต่เอามาพูดหน่อยก็คงดี\nจะได้คลายบรรยากาศให้เครียดน้อยลงด้วย"
 
-"Still, I'm afraid, and end up saying nothing. Partly because as I imagine having to draw her attention from the floor, and then having to sign what kind of a cripple I am to her one gesture at a time, the idea begins to seem more and more depressing."
+# "Still, I'm afraid, and end up saying nothing. Partly because as I imagine having to draw her attention from the floor, and then having to sign what kind of a cripple I am to her one gesture at a time, the idea begins to seem more and more depressing."
+"แต่ฉันกลัว สุดท้ายก็ไม่ได้พูดอะไรเลย อาจจะเพราะฉันนึกภาพไปว่าต้องดึงความสนใจจากเธอมาแล้วก็ทำภาษามือ\nเล่าไปแบบตะกุกตะกักว่าฉันเป็นอะไร ยิ่งคิดก็ยิ่งหดหู่"
 
 hide shizu
 with charaexit
 
-"Taking a seat, I decide to just try and finish up these posters to get my mind off of it. There are some that I don't remember making. From the wall-to-wall text and ultra-neat handwriting, I can tell Shizune must have done these."
+# "Taking a seat, I decide to just try and finish up these posters to get my mind off of it. There are some that I don't remember making. From the wall-to-wall text and ultra-neat handwriting, I can tell Shizune must have done these."
+"ฉันจึงมานั่งแล้วทำโปสเตอร์ต่อให้เสร็จเพื่อเบนความสนใจของตัวเองไม่ให้คิดเรื่องนั้นอีก มีบางอย่างที่เหมือนฉัน\nไม่ได้ทำไว้โผล่มาด้วย ซึ่งดูจากตัวหนังสือที่เป็นระเบียบเนี้ยบนิ้งยืดยาวแล้วก็คงเป็นชิซูเนะนั่นแหละที่ทำ"
 
-"That means that the remainder must have been done by Misha. They are a lot more visual, with cute little stylized pictures of us on them. I don't know how I feel about being used as a mascot character, but I'm not really thrilled by it."
+# "That means that the remainder must have been done by Misha. They are a lot more visual, with cute little stylized pictures of us on them. I don't know how I feel about being used as a mascot character, but I'm not really thrilled by it."
+"ซึ่งแปลว่าส่วนที่เหลือที่เป็นงานภาพคือมิช่าทำ ซึ่งเป็นภาพวาดพวกเราสามคนน่ารัก ๆ ขนาดเล็ก ไม่รู้จะว่ายังไงดี\nกับการถูกจับไปเป็นตัวละครมาสคอต แต่ที่แน่ ๆ คือฉันรู้สึกว่าไม่น่าสนใจเท่าไหร่"
 
 scene bg school_council_ss
 with shorttimeskip
 
 play music music_tranquil fadein 3.0
 
-"Some time passes; long enough for the sun to start setting. I hear Shizune putting down her pen and cracking her knuckles methodically, one at a time. It's so loud in the silence of the room that I look up, wondering if she is trying to get my attention."
+# "Some time passes; long enough for the sun to start setting. I hear Shizune putting down her pen and cracking her knuckles methodically, one at a time. It's so loud in the silence of the room that I look up, wondering if she is trying to get my attention."
+"เวลาล่วงผ่านไป ผ่านไปนานจนพระอาทิตย์เริ่มตกดิน ชิซูเนะวางปากกาลงแล้วหักข้อนิ้วตัวเองเป็นจังหวะสม่ำเสมอ\nในห้องอันเงียบงันแห่งนี้ ซึ่งเสียงดังจนฉันต้องมองเธอ หรือทำเพื่อให้ฉันมองกันนะ"
 
 show shizu behind_blank_ss
 with charaenter
 
-"Although it wasn't what she intended, when she notices me looking at her, Shizune begins to sign without skipping a beat."
+# "Although it wasn't what she intended, when she notices me looking at her, Shizune begins to sign without skipping a beat."
+"แม้เธอจะไม่ได้ตั้งใจให้ฉันหันไปมอง แต่เมื่อเธอเห็นว่าฉันมองอยู่เธอก็ส่งภาษามือมาทันที"
 
 show shizu basic_normal_ss
 with charachange
 
-ssh "Let's take a break."
+# ssh "Let's take a break."
+ssh "พักกันเถอะ"
 
-his "I'm surprised you would say that."
+# his "I'm surprised you would say that."
+his "แทบไม่เคยเห็นเธอบอกอย่างนั้นเลยนะ"
 
 show shizu adjust_happy_ss
 with charachange
 
-ssh "It's okay. I'm almost done, anyway. And I'm hungry. Aren't you?"
+# ssh "It's okay. I'm almost done, anyway. And I'm hungry. Aren't you?"
+ssh "ไม่เป็นไรหรอก ฉันใกล้จะเสร็จแล้วด้วยแหละ หิวแล้วด้วย นายหิวมั้ย"
 
-his "A little."
+# his "A little."
+his "นิดหน่อย"
 
 show shizu basic_normal2_ss
 with charachange
 
-ssh "I'm really hungry."
+# ssh "I'm really hungry."
+ssh "ฉันหิวมาก"
 
-his "We could order something."
+# his "We could order something."
+his "สั่งอะไรมากินกันเถอะ"
 
 show shizu behind_smile_ss
 with charachange
 
-ssh "I was thinking of you. I already have something to eat."
+# ssh "I was thinking of you. I already have something to eat."
+ssh "ฉันถามเพราะห่วงนายเฉย ๆ ฉันมีอะไรกินแล้ว"
 
-his "Where?"
+# his "Where?"
+his "ไหน"
 
 show shizu adjust_smug_ss
 with charachange
 
-"She produces a cinnamon bun from under her desk, raising it to head level slowly, like a magician levitating a rock."
+# "She produces a cinnamon bun from under her desk, raising it to head level slowly, like a magician levitating a rock."
+"เธอหยิบขนมปังซินนามอนขึ้นมาจากใต้โต๊ะแล้วค่อย ๆ ชูขึ้นมาอยู่ตรงหน้าเธอราวนักมายากลที่เสกหินให้ลอย"
 
 show shizu behind_smile_ss
 with charachange
 
-ssh "But!"
+# ssh "But!"
+ssh "แต่!"
 
 show shizu basic_sparkle_ss
 with charachange
 
-ssh "There is only one. Not enough for both of us."
+# ssh "There is only one. Not enough for both of us."
+ssh "มีแค่ชิ้นเดียว ไม่พอกินสองคน"
 
-"Ah, how dramatic. I can tell what this means. A feeling of déjà vu briefly washes over me."
+# "Ah, how dramatic. I can tell what this means. A feeling of déjà vu briefly washes over me."
+"อืม ช่างน่าใจหายเสียจริง ฉันรู้ทันทีว่าหมายความว่าอะไร รู้สึกเหมือนเคยผ่านเรื่องแบบนี้มาแล้วเลยนะ"
 
-his "We could just split it."
+# his "We could just split it."
+his "แบ่งกันกินก็ได้"
 
 show shizu adjust_frown_ss
 with charachange
 
-ssh "That's. No. Fun. So boring. Let's play shogi for it."
+# ssh "That's. No. Fun. So boring. Let's play shogi for it."
+ssh "แล้ว มัน จะ สนุก ตรงไหน น่าเบื่อตาย เล่นโชงิแข่งกันดีกว่า"
 
-"She already has the board out. That desk must have everything in it."
+# "She already has the board out. That desk must have everything in it."
+"เธอเตรียมกระดานแล้วพร้อมสรรพ ใต้โต๊ะนั้นต้องมีทุกสิ่งอย่างอยู่แน่ ๆ"
 
-his "Not chess?"
+# his "Not chess?"
+his "ไม่เล่นหมากรุกเหรอ"
 
 show shizu behind_smile_ss
 with charachange
 
-ssh "Chess has boring promotions, this is better."
+# ssh "Chess has boring promotions, this is better."
+ssh "หมากรุกเลื่อนขั้นหมากได้น่าเบื่อจะตาย โชงิดีกว่า"
 
-his "I don't know about that. Well, I'm actually pretty decent at shogi, so this is fine."
+# his "I don't know about that. Well, I'm actually pretty decent at shogi, so this is fine."
+his "ไม่ยักรู้ เอาเถอะ ฉันก็เล่นโชงิเก่งพอตัวแหละ ได้เลย"
 
 show shizu basic_happy_ss
 with charachange
 
-ssh "Is that so? Okay, we can make it a little more interesting, then. Each move has to be completed in thirty seconds. You can add a rule, too."
+# ssh "Is that so? Okay, we can make it a little more interesting, then. Each move has to be completed in thirty seconds. You can add a rule, too."
+ssh "งั้นเหรอ โอเค งั้นเพิ่มความตื่นเต้นสักหน่อยดีกว่า เอาเป็นว่าแต่ละตาเดินให้เดินภายในสามสิบวินาที นายจะเพิ่มกฎอื่น\nอีกก็ได้นะ"
 
-his "No thanks, anything I could add would only hurt me more than it would help. A thirty-second time limit is already too tight for me."
+# his "No thanks, anything I could add would only hurt me more than it would help. A thirty-second time limit is already too tight for me."
+his "ไม่ละ ขอบใจ ฉันเพิ่มกฎไปเดี๋ยวฉันก็เสียเปรียบเปล่า ๆ แทนที่จะได้เปรียบ แค่สามสิบวินาทีฉันก็แทบคิดไม่ทันแล้ว"
 
-his "You're making me regret thinking it was all right to brag a little."
+# his "You're making me regret thinking it was all right to brag a little."
+his "นี่ฉันคิดผิดหรือคิดถูกเนี่ยที่โม้เธอไปหน่อย ๆ เมื่อกี้"
 
 scene bg school_council_ss
 show shizu basic_normal_close_ss at center
 with shorttimeskip
 
-"After Shizune wins the right to go first in a quick coin toss, she immediately starts playing with the aim of promoting all of her pieces as soon as possible. It seems like a very basic playstyle, and I can't help thinking it might be a trap of some sort."
+# "After Shizune wins the right to go first in a quick coin toss, she immediately starts playing with the aim of promoting all of her pieces as soon as possible. It seems like a very basic playstyle, and I can't help thinking it might be a trap of some sort."
+"ผลจากการโยนเหรียญบอกว่าชิซูเนะได้เริ่มก่อน เธอเริ่มเล่นโดยเล็งที่จะเลื่อนขั้นหมากทุกตัวให้ได้เร็วที่สุดเท่าที่\nจะทำได้ เหมือนจะเป็นแนวการเล่นแบบพื้นฐานสุด ๆ ก็จริง แต่ฉันก็อดคิดไม่ได้ว่าอาจจะเป็นกับดักหรืออะไรหรือเปล่า"
 
-"It's not, though. The draw of this game to Shizune appears to be the fact that she can upgrade her pieces, and steal mine. She's very good at it, but it makes her predictable. I end up doing a little better than I'd expected to."
+# "It's not, though. The draw of this game to Shizune appears to be the fact that she can upgrade her pieces, and steal mine. She's very good at it, but it makes her predictable. I end up doing a little better than I'd expected to."
+"แต่ก็ไม่มีกับดัก ดูเหมือนว่าชิซูเนะจะสนใจโชงิเพราะการเลื่อนขั้นหมากของตัวเองและการจับหมากของอีกฝ่าย เธอเล่น\nเก่งมาก แต่ความเก่งนั้นก็ทำให้เดาได้ว่าเธอจะเล่นอะไรต่อ ฉันเองก็เล่นได้ดีกว่าที่คาดไว้ด้วย"
 
-"The 30-second time limit is pretty painful, though. The game ends in a draw. At this point, I think you're supposed to either go for a rematch or tally the pieces for points."
+# "The 30-second time limit is pretty painful, though. The game ends in a draw. At this point, I think you're supposed to either go for a rematch or tally the pieces for points."
+"แต่เวลาคิดที่มีเพียงสามสิบวินาทีนั้นสาหัสเอาการ สุดท้ายก็เสมอ จริง ๆ ถ้าเสมอก็คงต้องเล่นอีกกระดาน หรือไม่ก็\nต้องนับแต้มจากหมาก"
 
-"Shizune doesn't want to go again in the interest of time, but winning on points clearly doesn't satisfy her."
+# "Shizune doesn't want to go again in the interest of time, but winning on points clearly doesn't satisfy her."
+"ชิซูเนะไม่อยากเสียเวลาเล่นต่อแล้ว แต่ก็ชัดว่าเธอไม่พอใจกับการชนะด้วยการนับแต้มจากหมาก"
 
 show shizu adjust_frown_close_ss
 with charachange
 
 stop music fadeout 4.0
 
-"She sits there, shifting a silver general from one edge to the other as she contemplates which of those two options she'll go for. It takes so long that I think she has forgotten about the bet."
+# "She sits there, shifting a silver general from one edge to the other as she contemplates which of those two options she'll go for. It takes so long that I think she has forgotten about the bet."
+"เธอนั่งจับเงินย้ายจากขอบกระดานมุมหนึ่งไปยังอีกมุมหนึ่งพลางคิดว่าจะเล่นต่อดีหรือไม่ เธอคิดอยู่นานเสียจน\nฉันคิดว่าน่าจะลืมไปแล้วว่าเดิมพันอะไรกันไว้"
 
-"Eventually, she stops fiddling with the shogi piece and puts it down."
+# "Eventually, she stops fiddling with the shogi piece and puts it down."
+"ในที่สุดเธอก็เลิกจับหมากเล่นแล้ววางลง"
 
 show shizu behind_blank_close_ss
 with charachange
 
-ssh "Is Misha angry at me?"
+# ssh "Is Misha angry at me?"
+ssh "มิช่าโกรธฉันเหรอ"
 
-"That really came out of nowhere."
+# "That really came out of nowhere."
+"อยู่ ๆ ก็ถามแบบไม่มีปี่มีกลองเลยแฮะ"
 
 play music music_pearly fadein 5.0
 
-"Shizune's frankness is disorienting, because with her, any kind of candor is a sign of total seriousness. There is no playful smile on her face, instead it's her usual stoic mask of concentration, ready to try and see if I'm about to tell her the truth."
+# "Shizune's frankness is disorienting, because with her, any kind of candor is a sign of total seriousness. There is no playful smile on her face, instead it's her usual stoic mask of concentration, ready to try and see if I'm about to tell her the truth."
+"ความตรงไปตรงมาของชิซูเนะนั้นชวนให้ขนหัวลุก เพราะเมื่อเธอว่าอะไรออกมาตรง ๆ แล้วแปลว่าเธอจริงจังมาก ๆ\nใบหน้าเธอไม่มีรอยยิ้มขี้เล่นใด ๆ แต่กลับเป็นสีหน้าอันจดจ่อเรียบนิ่งอย่างเช่นเคยที่รอดูว่าฉันจะบอกความจริงกับเธอ\nหรือไม่"
 
-"I'm upset that she thinks that I would tell her anything else, but I also know now that they have probably fought recently, out of my sight, and it makes me feel warm to know that they both care about each other so much."
+# "I'm upset that she thinks that I would tell her anything else, but I also know now that they have probably fought recently, out of my sight, and it makes me feel warm to know that they both care about each other so much."
+"ฉันน้อยใจที่เธอคิดว่าฉันอาจไม่ยอมบอกความจริง แต่ฉันก็รู้ว่าช่วงนี้ทั้งสองคนคงทะเลาะกันตอนที่ฉันไม่อยู่ด้วย\nซึ่งทำให้ฉันอบอุ่นใจขึ้นมาว่าทั้งสองคนต่างก็ห่วงกันและกันขนาดนี้"
 
-his "No. I strongly doubt it."
+# his "No. I strongly doubt it."
+his "ไม่ ฉันว่าไม่หรอก"
 
-his "Did you know that she thinks you're angry at her?"
+# his "Did you know that she thinks you're angry at her?"
+his "เธอรู้มั้ยว่ามิช่าคิดว่าเธอโกรธอยู่"
 
 show shizu behind_sad_close_ss
 with charachange
 
-"Shizune nods slowly and uncomfortably."
+# "Shizune nods slowly and uncomfortably."
+"ชิซูเนะพยักหน้าช้า ๆ คล้ายไม่สบายใจ"
 
 show shizu basic_normal2_close_ss
 with charachange
 
-ssh "Yes."
+# ssh "Yes."
+ssh "รู้"
 
-his "She was more roundabout with the question than you. Kind of surprising, because I thought that you were the one who liked playing games."
+# his "She was more roundabout with the question than you. Kind of surprising, because I thought that you were the one who liked playing games."
+his "มิช่าน่ะถามอ้อมกว่าเธออีกนะ ซึ่งฉันก็ตกใจเหมือนกัน เพราะฉันนึกว่าเธอเป็นพวกชอบวางแผนไม่ยอมบอกอะไรง่าย ๆ\nเสียอีก"
 
 show shizu behind_blank_close_ss
 with charachange
 
-ssh "Not all the time."
+# ssh "Not all the time."
+ssh "ก็ไม่เสมอไปหรอก"
 
 "…"
 
-his "Are you two having some kind of fight?"
+# his "Are you two having some kind of fight?"
+his "ทะเลาะกันหรืออะไร"
 
 show shizu adjust_frown_close_ss
 with charachange
 
-ssh "No."
+# ssh "No."
+ssh "เปล่า"
 
-"She is very quick to deny it, and not happy with the thought. I feel like I've stepped on a landmine."
+# "She is very quick to deny it, and not happy with the thought. I feel like I've stepped on a landmine."
+"เธอปฏิเสธทันควันและดูไม่พอใจที่ฉันถามอย่างนั้น เหมือนฉันไปเหยียบกับระเบิดเข้าให้แล้วสิ"
 
 show shizu behind_sad_close_ss
 with charachange
 
-ssh "Sorry. Actually, yes. Just a tiny one."
+# ssh "Sorry. Actually, yes. Just a tiny one."
+ssh "ขอโทษที จริง ๆ ก็ทะเลาะกันนิดหน่อยแหละ"
 
 show shizu behind_blank_close_ss
 with charachange
 
-ssh "I know that she has no interest in the Student Council. She only joined because of me. I'm still grateful. I'm so happy she's my friend. But I don't understand what she is upset about this time."
+# ssh "I know that she has no interest in the Student Council. She only joined because of me. I'm still grateful. I'm so happy she's my friend. But I don't understand what she is upset about this time."
+ssh "ฉันรู้ว่ามิช่าไม่ได้สนใจเรื่องสภานักเรียนหรอก ที่เข้ามาเป็นสภานักเรียนก็เพราะฉัน แค่นั้น แต่ฉันก็ยินดีนะ\nฉันดีใจมากที่มิช่าเป็นเพื่อนกับฉัน แต่ที่ผ่านมาฉันไม่รู้ว่ามิช่างอนเรื่องอะไรอยู่"
 
-his "Why don't you just ask her?"
+# his "Why don't you just ask her?"
+his "ทำไมไม่ถามมิช่าไปเลยล่ะ"
 
 show shizu basic_normal2_close_ss
 with charachange
 
-ssh "She won't tell me. I'll figure it out by myself, instead. I was sure that I was very perceptive, even if I can't hear. That was dumb. I know better now."
+# ssh "She won't tell me. I'll figure it out by myself, instead. I was sure that I was very perceptive, even if I can't hear. That was dumb. I know better now."
+ssh "มิช่าไม่ยอมบอกฉันหรอก เดี๋ยวฉันจะหาคำตอบเอาเอง ฉันเคยคิดว่าฉันเป็นคนประสาทไว ต่อให้จะหูหนวกก็ตาม\nแต่ฉันคิดตื้นไป ตอนนี้ฉันรู้ซึ้งแล้ว"
 
 show shizu behind_sad_close_ss
 with charachange
 
-ssh "It is probably something that is my fault."
+# ssh "It is probably something that is my fault."
+ssh "ฉันคงจะทำอะไรพลาดสักอย่างแหละ"
 
 stop music fadeout 8.0
 
-"Shizune doesn't elaborate further on what it could have been. I'm sure that it is because she does not fully understand the situation herself."
+# "Shizune doesn't elaborate further on what it could have been. I'm sure that it is because she does not fully understand the situation herself."
+"ชิซูเนะไม่ขยายความต่อว่าสิ่งที่พลาดนั้นจะเป็นอะไรได้บ้าง คงเพราะเธอเองก็ยังไม่เข้าใจสถานการณ์ตอนนี้ดี\nสักเท่าไหร่นั่นแหละ"
 
-"It's odd to think that Shizune, usually so sure of everything, could be scared by a little argument with a friend. But the more I think about it, the more it makes sense."
+# "It's odd to think that Shizune, usually so sure of everything, could be scared by a little argument with a friend. But the more I think about it, the more it makes sense."
+"คิดแล้วก็แปลกดีว่าชิซูเนะที่ปกติจะมั่นใจกับอะไร ๆ ทุกอย่างกลับมากลัวการทะเลาะเล็ก ๆ น้อย ๆ กับเพื่อนอย่างนี้\nแต่ยิ่งคิดก็ยิ่งรู้สึกว่าถูกแล้วที่เธอจะเป็นเช่นนี้"
 
-"They're a lot closer to each other than normal friends, and Shizune is pretty isolated from other people, in a way. The fact that she is deaf is no small part of it."
+# "They're a lot closer to each other than normal friends, and Shizune is pretty isolated from other people, in a way. The fact that she is deaf is no small part of it."
+"ทั้งสองคนสนิทกันกว่าที่เพื่อนโดยปกติมักจะสนิทกัน ชิซูเนะเองก็นับได้ว่าเป็นคนที่ปลีกแยกออกมาจากกลุ่มคนอื่น ๆ\nซึ่งความที่เธอหูหนวกนั้นก็เป็นปัจจัยสำคัญ"
 
-"But I get the feeling that she uses Misha as a buffer between other people of her own will, not just because it's been forced onto her. She can communicate well enough with her little pad. She just hates it."
+# "But I get the feeling that she uses Misha as a buffer between other people of her own will, not just because it's been forced onto her. She can communicate well enough with her little pad. She just hates it."
+"แต่ฉันรู้สึกว่าชิซูเนะเองจงใจใช้มิช่าเป็นตัวกั้นระหว่างตัวเองกับคนอื่น ไม่ใช่ว่าเธอถูกคนอื่นกันให้ปลีกแยกออกมา\nชิซูเนะเองก็ใช้สมุดจดเล่มเล็กนั้นสื่อสารกับคนอื่นได้ เพียงแต่เธอไม่ชอบ"
 
-"After such a long time of talking through another person, I guess you start to lose touch. It seems unavoidable. It isn't such a far-out idea to think that she isn't that great with people."
+# "After such a long time of talking through another person, I guess you start to lose touch. It seems unavoidable. It isn't such a far-out idea to think that she isn't that great with people."
+"พอสื่อสารผ่านคนกลางแล้วก็คงจะค่อย ๆ หลงลืมเรื่องปฏิสัมพันธ์กับผู้คนไปอย่างเลี่ยงไม่ได้ การที่เธอรับมือคนไม่เก่ง\nก็ไม่ใช่เรื่องที่จะเป็นไปไม่ได้เลย"
 
 hide shizu
 with charaexit
 
-"I return to working, kind of wanting to eat that cinnamon bun more as time drags on, but when I count the shogi pieces still left out on Shizune's table, I can tell at a glance she would win."
+# "I return to working, kind of wanting to eat that cinnamon bun more as time drags on, but when I count the shogi pieces still left out on Shizune's table, I can tell at a glance she would win."
+"ฉันทำงานต่อด้วยความหิวขนมปังซินนามอนที่เพิ่มขึ้นเรื่อย ๆ ตามเวลาที่ผ่านไป แต่พอเหลือบมองนับหมากที่ยังอยู่\nบนโต๊ะชิซูเนะแล้วฉันก็รู้ว่าเธอชนะ"
 
-"I'm also too hungry to concentrate if we were to have a rematch. Motivated by my desire to wrap up and eat something, I put the finishing touches on the last of the posters."
+# "I'm also too hungry to concentrate if we were to have a rematch. Motivated by my desire to wrap up and eat something, I put the finishing touches on the last of the posters."
+"ถ้าจะแข่งอีกรอบฉันก็คงหิวเกินกว่าที่จะตั้งสมาธิเล่นได้ ฉันรีบจัดการเก็บรายละเอียดโปสเตอร์ให้เสร็จด้วยความที่อยาก\nรีบ ๆ ไปหาอะไรกิน"
 
-his "Done. I think this many is enough. Too many can be a bad thing."
+# his "Done. I think this many is enough. Too many can be a bad thing."
+his "เสร็จแล้ว เท่านี้คงมากพอ เยอะไปเดี๋ยวไม่ดี"
 
 play music music_shizune fadein 3.0
 
 show shizu behind_blank_ss at center
 with charaenter
 
-ssh "Okay."
+# ssh "Okay."
+ssh "โอเค"
 
-his "That's it? Just “okay?”"
+# his "That's it? Just “okay?”"
+his "แค่นั้นน่ะนะ แค่ “โอเค” เหรอ"
 
 show shizu adjust_frown_ss
 with charachange
@@ -5848,210 +6268,273 @@ shi "…?"
 show shizu behind_blank_ss
 with charachange
 
-ssh "…I'll probably do some myself, after I'm done picking what voting format to go with."
+# ssh "…I'll probably do some myself, after I'm done picking what voting format to go with."
+ssh "…เดี๋ยวฉันคงทำเพิ่มอีกหลังคิดได้ว่าจะให้ลงคะแนนแบบไหนดี"
 
-his "Arrgghh. Too many posters is bad, too. Haven't you ever heard of oversaturation?"
+# his "Arrgghh. Too many posters is bad, too. Haven't you ever heard of oversaturation?"
+his "โอยยยย โปสเตอร์น่ะเยอะไปก็ไม่ดีนะ ไม่เคยได้ยินคำว่าเฝือเหรอ"
 
-his "I really think you're trying too hard."
+# his "I really think you're trying too hard."
+his "ฉันว่าเธอทุ่มเทหนักไปจริง ๆ นะ"
 
 show shizu basic_normal_ss
 with charachange
 
-"Tenting her fingers, Shizune looks like she could almost admit it."
+# "Tenting her fingers, Shizune looks like she could almost admit it."
+"ชิซูเนะประกบนิ้วเข้าหากัน สีหน้าเธอดูคล้ายยอมรับ"
 
 show shizu behind_blank_ss
 with charachange
 
-ssh "Maybe."
+# ssh "Maybe."
+ssh "มั้งนะ"
 
-his "It's what Misha thinks, too."
+# his "It's what Misha thinks, too."
+his "มิช่าก็คิดเหมือนกัน"
 
 show shizu basic_normal2_ss
 with charachange
 
-"I watch as her fingers continue uneasily twining around and pulling at each other in a miniature tug-of-war."
+# "I watch as her fingers continue uneasily twining around and pulling at each other in a miniature tug-of-war."
+"ฉันมองนิ้วเธอที่เกี่ยวกระหวัดดึงกันไปมาราวชักเย่อขนาดย่อม"
 
-his "I don't mind, but I asked around in a couple classes today and interest is low. It's like you said. So…"
+# his "I don't mind, but I asked around in a couple classes today and interest is low. It's like you said. So…"
+his "จริง ๆ ฉันไม่ได้คิดมากอะไรนะ แต่วันนี้ฉันไปถามคนมาสองสามห้องเรื่องเลือกตั้งแล้วก็ไม่ค่อยมีคนสนใจเท่าไหร่\nเหมือนอย่างที่เธอว่าเลย เพราะงั้น…"
 
 show shizu adjust_frown_ss
 with charachange
 
-ssh "Does that make it wrong?"
+# ssh "Does that make it wrong?"
+ssh "แล้วแปลว่าที่ฉันทำมันผิดเหรอ"
 
-his "No. But… it does make it kind of pointless."
+# his "No. But… it does make it kind of pointless."
+his "ไม่หรอก แต่… ทำขนาดนั้นแล้วมันก็เหมือนไม่ได้อะไรขึ้นมา"
 
 show shizu basic_angry_ss
 with charachange
 
-ssh "It's not."
+# ssh "It's not."
+ssh "ได้สิ"
 
-"Yeah, but to who? I doubt even Shizune truly believes that."
+# "Yeah, but to who? I doubt even Shizune truly believes that."
+"ได้ แต่ใครบ้างที่ว่าได้ ฉันว่าชิซูเนะเองก็คงไม่ได้คิดอย่างนั้นจริง ๆ หรอก"
 
 show shizu behind_frustrated_ss
 with charachange
 
-ssh "I'm not doing all this work just for my own ego."
+# ssh "I'm not doing all this work just for my own ego."
+ssh "ฉันไม่ได้ทุ่มทำไปเพื่ออีโก้ตัวเองสักหน่อย"
 
-his "That isn't what I mean."
+# his "That isn't what I mean."
+his "ฉันไม่ได้หมายความว่าอย่างนั้น"
 
-"The first chance to be alone with her in days, and I have already really cocked it up. Still, she doesn't actually look angry."
+# "The first chance to be alone with her in days, and I have already really cocked it up. Still, she doesn't actually look angry."
+"ไม่ได้อยู่ด้วยกันสองคนมาหลายวัน แต่พอมาคุยก็ดันทำเสียเรื่องเสียแล้ว แต่เธอก็ไม่ได้ดูโกรธอะไร"
 
-"It's more like she's frustrated that she can't express herself clearly enough. Since she's an expert in sign language, I wouldn't think that would be the case."
+# "It's more like she's frustrated that she can't express herself clearly enough. Since she's an expert in sign language, I wouldn't think that would be the case."
+"เหมือนเธอหงุดหงิดมากกว่าว่าสื่อเจตนาตัวเองได้ไม่ชัดพอ แต่เธอเองก็เป็นผู้เชี่ยวชาญด้านภาษามือ คงไม่ใช่อย่างนั้น"
 
-"I wonder what advantage being able to speak would offer her, and if she has ever thought about it."
+# "I wonder what advantage being able to speak would offer her, and if she has ever thought about it."
+"ถ้าเธอพูดได้แล้วจะมีอะไรที่ดีขึ้นมาอีกกันนะ เธอเคยคิดอะไรอย่างนั้นสักครั้งหรือเปล่า"
 
 show shizu basic_frown_ss
 with charachange
 
-ssh "It's another project of mine. Just like the festivals. I'm going to do it, because it's my job. It's just that a student council election isn't as fun as a festival, so no one cares."
+# ssh "It's another project of mine. Just like the festivals. I'm going to do it, because it's my job. It's just that a student council election isn't as fun as a festival, so no one cares."
+ssh "ก็แค่โครงการที่ฉันจะทำโครงการหนึ่ง เหมือนงานเทศกาลนั่นแหละ ฉันจะทำเพราะมันเป็นงานของฉัน เพียงแต่ว่า\nการเลือกตั้งสภานักเรียนมันไม่ได้สนุกเหมือนงานเทศกาล คนเลยไม่สนใจกัน"
 
-"She briefly touches her fingertips together, as if to say “but, maybe…” There is some truth to it, but Shizune doesn't want to say anything that could be boiled down into something so glib."
+# "She briefly touches her fingertips together, as if to say “but, maybe…” There is some truth to it, but Shizune doesn't want to say anything that could be boiled down into something so glib."
+"เธอแตะนิ้วเข้าหากันอยู่ครู่หนึ่งราวกับจะบอกว่า “แต่บางที ถ้า…” แต่ชิซูเนะก็ไม่ว่าอะไรต่อ เพราะสิ่งที่จะบอกนั้นจริง ๆ\nก็อาจจะเป็นอะไรที่สุดจะตื้นเขิน"
 
 show shizu behind_frown_ss
 with charachange
 
-ssh "But I don't care. I want to get people riled up, but it isn't about me. I don't want to be involved at all."
+# ssh "But I don't care. I want to get people riled up, but it isn't about me. I don't want to be involved at all."
+ssh "แต่ฉันไม่สนหรอก ฉันอยากให้คนตื่นตัวกัน แต่ไม่ใช่เพื่อฉัน ฉันไม่ได้อยากเข้าไปยุ่งเกี่ยวด้วยเลย"
 
-his "What do you mean? You go to like, every single festival."
+# his "What do you mean? You go to like, every single festival."
+his "หมายความว่ายังไง เธอก็ไปทุกงานเทศกาลเลยนี่"
 
 show shizu adjust_frown_ss
 with charachange
 
-"Shizune waves her hand in mock indignation."
+# "Shizune waves her hand in mock indignation."
+"ชิซูเนะโบกมือไม้ทำทีเป็นโมโห"
 
 show shizu behind_blank_ss
 with charachange
 
-ssh "Well… I have to have fun, too. But you know, it's not the same thing."
+# ssh "Well… I have to have fun, too. But you know, it's not the same thing."
+ssh "ก็… ฉันก็ต้องสนุกบ้างเหมือนกัน แต่เนี่ย มันไม่เหมือนกันสักหน่อย"
 
-"Her spirits seem to have improved, if she can manage to crack a joke."
+# "Her spirits seem to have improved, if she can manage to crack a joke."
+"ถ้าหยอกเล่นอะไรอย่างนี้ก็คงจะอารมณ์ดีขึ้นแล้วละนะ"
 
 show shizu basic_normal2_ss
 with charachange
 
-ssh "I don't want anyone to make a point of me being involved. It's a hassle. I don't want that responsibility."
+# ssh "I don't want anyone to make a point of me being involved. It's a hassle. I don't want that responsibility."
+ssh "ฉันไม่อยากให้ใครต้องมาคอยชูว่าฉันมีส่วนร่วมด้วย วุ่นวายจะตาย ฉันไม่อยากแบกรับอะไรอย่างนั้น"
 
 show shizu adjust_frown_ss
 with charachange
 
-ssh "Things are becoming too complicated now as-is. The more I try to hype up the elections, the more involved I have to be. No one wants to play their hand yet, and it doesn't feel like my time is over, even though it should."
+# ssh "Things are becoming too complicated now as-is. The more I try to hype up the elections, the more involved I have to be. No one wants to play their hand yet, and it doesn't feel like my time is over, even though it should."
+ssh "แค่นี้เรื่องก็ยุ่งยากพออยู่แล้ว ยิ่งฉันจะโหมเรื่องการเลือกตั้งเท่าไหร่ ฉันก็ยิ่งต้องเข้าไปมีส่วนร่วมมากเท่านั้น ตอนนี้\nยังไม่มีใครมีทีท่าว่าจะทำอะไร แล้วเวลาของฉันก็ยังไม่หมด ทั้งที่ควรจะหมดได้แล้วน่ะนะ"
 
 show shizu behind_frustrated_ss
 with charachange
 
-"Crossing her arms and leaning back, she grinds her teeth together in frustration."
+# "Crossing her arms and leaning back, she grinds her teeth together in frustration."
+"เธอกอดอกเอนตัวกัดฟันด้วยความหงุดหงิด"
 
 show shizu cross_angry_ss
 with charachange
 
-ssh "They're all so lazy; it's impossible to get them to do anything. Anywhere else, the elections would be an exciting event. It's illogical, why does everyone have to be so different? If only there was some way to punish them…"
+# ssh "They're all so lazy; it's impossible to get them to do anything. Anywhere else, the elections would be an exciting event. It's illogical, why does everyone have to be so different? If only there was some way to punish them…"
+ssh "ทุกคนขี้เกียจกันมาก ขอให้ทำอะไรนี่ก็ไม่เคยทำกันเลย ถ้าเป็นที่อื่นก็จะมองว่าการเลือกตั้งเนี่ยเป็นอะไรที่น่าตื่นเต้น\nไม่สมเหตุสมผลเลย ทำไมทุกคนถึงต้องต่างกันขนาดนี้ ถ้าลงโทษได้ก็ดีสิ…"
 
 show shizu adjust_angry_ss
 with charachange
 
-ssh "…Like chaining the school to their desks. Voting is mandatory. If you don't vote, you get whipped."
+# ssh "…Like chaining the school to their desks. Voting is mandatory. If you don't vote, you get whipped."
+ssh "…แบบล่ามโซ่ไว้กับโต๊ะอะไรงี้ ต้องลงคะแนน ถ้าไม่ลงคะแนนก็จะโบยเสีย"
 
-"Terrifying. I wonder how hypocritical it would be if I were to stay in bed on election day. With the flu. And a cold. And strep throat. And a sprained ankle."
+# "Terrifying. I wonder how hypocritical it would be if I were to stay in bed on election day. With the flu. And a cold. And strep throat. And a sprained ankle."
+"น่ากลัว งี้เดี๋ยวก็คงหาว่าแบ่งแยกแน่ถ้าเกิดว่าวันเลือกตั้งฉันข้อเท้าแพลงนอนบนเตียงเป็นทั้งหวัดทั้งไข้หวัดพร้อม\nอาการติดเชื้อในคอ"
 
-his "You should put yourself on one of these."
+# his "You should put yourself on one of these."
+his "เธอเอาหน้าตัวเองแปะโปสเตอร์บ้างก็ได้นะ"
 
-his "Not as punishment. Don't misunderstand."
+# his "Not as punishment. Don't misunderstand."
+his "แต่ไม่ใช่จะทำโทษนะ อย่าเข้าใจผิดล่ะ"
 
-"I hold up one of Misha's posters."
+# "I hold up one of Misha's posters."
+"ฉันชูโปสเตอร์ที่มิช่าทำขึ้นมาใบหนึ่ง"
 
-his "Like this. It's kind of a neat idea. Misha was on to something. It's a lot cuter than just text. I'd think you would like it. Having cute mascots would drum up some excitement."
+# his "Like this. It's kind of a neat idea. Misha was on to something. It's a lot cuter than just text. I'd think you would like it. Having cute mascots would drum up some excitement."
+his "แบบนี้ไง ความคิดเข้าท่าใช้ได้เลยนะ มิช่าคิดมาจากบ้านแล้ว น่ารักกว่าแบบที่มีแต่ข้อความเยอะ ฉันว่าเธอก็คงชอบ\nเหมือนกัน มีมาสคอตน่ารัก ๆ แล้วคนจะได้สนใจบ้างไง"
 
 show shizu basic_normal_ss
 with charachange
 
-ssh "Maybe if it's just Misha."
+# ssh "Maybe if it's just Misha."
+ssh "ถ้ามีแค่มิช่าคนก็คงสนใจอยู่"
 
-his "Why not me? Someone told me that this school has slightly more girls than boys… you have to cater to that demographic, too."
+# his "Why not me? Someone told me that this school has slightly more girls than boys… you have to cater to that demographic, too."
+his "แล้วฉันล่ะ มีคนบอกฉันว่าโรงเรียนนี้มีผู้หญิงเยอะกว่าผู้ชายอยู่นิดหน่อย… เราต้องเจาะกลุ่มเป้าหมายนั้นด้วย"
 
 show shizu adjust_blush_ss
 with charachange
 
-"Shizune giggles, audibly this time. I'm surprised, and when she sees my face, so is she. Her face flushes pink, embarrassed to have let out a sound. Which is really confusing, to say the least."
+# "Shizune giggles, audibly this time. I'm surprised, and when she sees my face, so is she. Her face flushes pink, embarrassed to have let out a sound. Which is really confusing, to say the least."
+"ชิซูเนะขำคิกคัก แต่คราวนี้มีเสียงแล้ว ฉันตกใจ พอเธอเห็นหน้าฉันเธอก็ตกใจเหมือนกัน หน้าเธอแดงเรื่อด้วย\nความอายที่ส่งเสียงออกมา ซึ่งจะว่างงก็งงอยู่"
 #Giggles? :/ -SC
 
-his "Why don't you put yourself on it?"
+# his "Why don't you put yourself on it?"
+his "แล้วเธอจะไม่แปะหน้าตัวเองบ้างเหรอ"
 
-"She just waves my question away."
+# "She just waves my question away."
+"เธอโบกมือเป็นเชิงปัดคำถามฉันทิ้ง"
 
 show shizu basic_angry_ss
 with charachange
 
-ssh "It's troublesome."
+# ssh "It's troublesome."
+ssh "วุ่นวาย"
 
-his "What do you mean, troublesome? Everyone knows that you're in the Student Council."
+# his "What do you mean, troublesome? Everyone knows that you're in the Student Council."
+his "วุ่นวายนี่คืออะไร ทุกคนก็รู้อยู่แล้วนี่ว่าเธอเป็นสภานักเรียน"
 
-"My stomach growls, making me realize that I'm hungrier than I'd thought. Shizune uses the moment to deflect my question by changing the subject."
+# "My stomach growls, making me realize that I'm hungrier than I'd thought. Shizune uses the moment to deflect my question by changing the subject."
+"ท้องฉันส่งเสียงร้องเป็นสัญญาณว่าจริง ๆ แล้วฉันหิวกว่าที่คิด เธอใช้จังหวะนี้ปัดคำถามฉันทิ้งด้วยการเปลี่ยนเรื่อง"
 
 show shizu behind_blank_ss
 with charachange
 
-ssh "Is something wrong?"
+# ssh "Is something wrong?"
+ssh "มีอะไรเหรอ"
 
-his "No. My stomach growled."
+# his "No. My stomach growled."
+his "เปล่า ท้องฉันร้อง"
 
 show shizu basic_normal_ss
 with charachange
 
-ssh "I see."
+# ssh "I see."
+ssh "อย่างนี้นี่เอง"
 
-"She looks at the forgotten pastry on her desk then frowns, finding it inadequate for two people."
+# "She looks at the forgotten pastry on her desk then frowns, finding it inadequate for two people."
+"เธอมองขนมที่วางแอ้งแม้งอยู่บนโต๊ะแล้วขมวดคิ้วด้วยเห็นว่าปริมาณไม่พอแบ่งสองคน"
 
 show shizu adjust_happy_ss
 with charachange
 
-ssh "Let's go to the Shanghai, if you are that hungry. It might be a little busy this late, but Yuuko is working there today. We will definitely get a table."
+# ssh "Let's go to the Shanghai, if you are that hungry. It might be a little busy this late, but Yuuko is working there today. We will definitely get a table."
+ssh "ถ้านายหิวขนาดนั้นก็ไปร้านเซี่ยงไฮ้กันเถอะ เย็นป่านนี้แล้วคนอาจจะเยอะหน่อย แต่วันนี้ยูโกะมาทำงานที่ร้าน ต้องมี\nโต๊ะว่างให้เราแน่นอน"
 
-"There is something worryingly underhanded in that smile."
+# "There is something worryingly underhanded in that smile."
+"เป็นรอยยิ้มที่เหมือนมีลับลมคมในยังไงชอบกล"
 
-his "I'll pass. I've already been there twice this week, back to back."
+# his "I'll pass. I've already been there twice this week, back to back."
+his "ขอผ่านแล้วกัน สัปดาห์นี้ฉันไปที่ร้านมาแล้วสองรอบติดเลย"
 #The first time doesn't show in script, but then again I suppose it doesn't have to. -SC
 
 show shizu basic_frown_ss
 with charachange
 
-"Shizune pouts, leaning back against her desk and scrunching up her posture in protest."
+# "Shizune pouts, leaning back against her desk and scrunching up her posture in protest."
+"เธอทำแก้มป่องแล้วนั่งยองพิงกับโต๊ะตัวเองเป็นการประท้วง"
 
-his "What?"
+# his "What?"
+his "อะไร"
 
 show shizu adjust_frown_ss
 with charachange
 
-ssh "I'm disappointed you said no."
+# ssh "I'm disappointed you said no."
+ssh "ฉันผิดหวังนะที่นายปฏิเสธ"
 
-his "Well, I can't agree with you on everything."
+# his "Well, I can't agree with you on everything."
+his "เออ ฉันก็ใช่ว่าจะเห็นด้วยกับเธอไปได้ทุกอย่างสักหน่อย"
 
 show shizu behind_frown_ss
 with charachange
 
-ssh "You don't give your opinion often enough, anyway. It would be easiest for me if it was like that, but not very interesting, right? There are some decisions you should disagree with me on, then. You have a duty to."
+# ssh "You don't give your opinion often enough, anyway. It would be easiest for me if it was like that, but not very interesting, right? There are some decisions you should disagree with me on, then. You have a duty to."
+ssh "นายก็ไม่ค่อยมีปากมีเสียงอยู่แล้วละนะ ถ้าเป็นอย่างนั้นก็คงสะดวกฉันดี แต่ก็ไม่น่าสนใจเท่าไหร่ จริงไหม งั้นก็เป็น\nหน้าที่ของนายที่ต้องต่อต้านกับตัวเลือกของฉันบ้าง"
 
-his "How am I supposed to know which is which?"
+# his "How am I supposed to know which is which?"
+his "แล้วฉันจะรู้ได้ยังไงว่าตัวเลือกไหนที่ฉันต้องต่อต้าน"
 
 show shizu basic_normal_ss
 with charachange
 
-ssh "It's easy."
+# ssh "It's easy."
+ssh "ง่ายนิดเดียว"
 
-his "No, it's not. Sometimes it's hard for me to tell whether you're joking or serious."
+# his "No, it's not. Sometimes it's hard for me to tell whether you're joking or serious."
+his "ไม่ ไม่ง่าย บางทีฉันก็ดูไม่ค่อยออกว่าเธอพูดเล่นหรือพูดจริง"
 
 stop music fadeout 9.0
 
-"Although, since she communicates entirely in sign language, that would seem pretty obvious. I wouldn't say that that's all there is to it, though."
+# "Although, since she communicates entirely in sign language, that would seem pretty obvious. I wouldn't say that that's all there is to it, though."
+"ถึงน่าจะเห็นได้ชัดว่าเป็นอย่างนั้นเพราะเธอสื่อสารผ่านภาษามืออย่างเดียวก็เถอะ แต่ฉันคิดว่าคงไม่ใช่แค่เพราะเรื่องนั้น\nหรอก"
 
-"I remember when I had my heart attack, Iwanako wouldn't stop talking, at first. Eventually, I wished that she would just shut up. Or I would have, if I hadn't been happy to have any kind of company at all. Gradually, I stopped being so grateful."
+# "I remember when I had my heart attack, Iwanako wouldn't stop talking, at first. Eventually, I wished that she would just shut up. Or I would have, if I hadn't been happy to have any kind of company at all. Gradually, I stopped being so grateful."
+"ฉันจำได้ว่าตอนที่อยู่โรงพยาบาลเพราะหัวใจวายรอบนั้น แรก ๆ อิวานาโกะพูดไม่หยุด จนฉันอยากให้เธอเงียบปาก\nไปเลย หรือถ้าฉันไม่ได้ยินดีที่ยังมีคนมาอยู่ด้วยบ้างแล้วฉันก็คงเงียบใส่ไปเหมือนกัน และความยินดีนั้นก็ค่อย ๆ หายไป"
 
-"When we talked, I felt like it was nothing more than ritualized exchanges of politeness. Iwanako tried extremely hard to obfuscate how she felt, which was that I was hopeless. In the end, her outer behavior matched her inner feelings."
+# "When we talked, I felt like it was nothing more than ritualized exchanges of politeness. Iwanako tried extremely hard to obfuscate how she felt, which was that I was hopeless. In the end, her outer behavior matched her inner feelings."
+"ทุกครั้งที่คุย ฉันรู้สึกเหมือนว่าเราคุยกันไปตามมารยาทเพียงเท่านั้น อิวานาโกะพยายามอย่างหนักเพื่อกลบเกลื่อน\nสิ่งที่เธอคิดอยู่ ที่เธอคิดว่าหวังอะไรกับฉันไม่ได้แล้ว จนท้ายที่สุด ท่าทีภายนอกของเธอก็ตรงกับความรู้สึกภายในของเธอ"
 
-"For that reason, I was able to accept it when one day she stopped showing up. I was no longer surprised by the time it happened. Even though she considered herself a master at hiding her feelings, I was not surprised."
+# "For that reason, I was able to accept it when one day she stopped showing up. I was no longer surprised by the time it happened. Even though she considered herself a master at hiding her feelings, I was not surprised."
+"และด้วยเหตุนั้นเอง ฉันจึงทำใจได้เมื่อถึงวันที่เธอไม่มาอีก ตอนนั้นฉันไม่แปลกใจเลย แม้เธอจะมองว่าตัวเองปกปิด\nความรู้สึกตัวเองเก่ง แต่ฉันก็ไม่แปลกใจเลย"
 
-"I've heard that games like shogi and chess can tell you a lot about a person. I wish I knew what Shizune thought they said about me."
+# "I've heard that games like shogi and chess can tell you a lot about a person. I wish I knew what Shizune thought they said about me."
+"ฉันเคยได้ยินมาว่าเกมจำพวกโชงิหรือหมากรุกนั้นบ่งบอกถึงตัวตนของคนหนึ่ง ๆ ได้มาก อยากรู้จังว่าชิซูเนะจะเห็นอะไร\nจากการเล่นของฉัน"
 
-"It could be that I'm a little more like Iwanako than I'd like to think, if I can only tie with Shizune by retreating. I suggest that we should order out."
+# "It could be that I'm a little more like Iwanako than I'd like to think, if I can only tie with Shizune by retreating. I suggest that we should order out."
+"ถ้าไม่มีทางอื่นที่ฉันจะชนะชิซูเนะได้นอกจากการถอนตัวแล้ว ฉันอาจจะเหมือนอิวานาโกะมากกว่าที่ฉันอยากจะคิดก็ได้\nฉันเสนอชิซูเนะให้สั่งอะไรมากินด้วยกัน"
 
 scene black
 with dissolve
