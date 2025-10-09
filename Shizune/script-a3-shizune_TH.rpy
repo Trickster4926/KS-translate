@@ -1248,7 +1248,7 @@ show akira basic_lost
 with charachange
 
 # "Seeing Akira groan after Misha dutifully translates for her, Shizune rubs her glasses, laughing silently."
-"ชิซูเนะจับแว่นแล้วหัวเราะอยู่เงียบ ๆ เมื่อเห็นอากิระโอดโอยหลังได้ฟังที่มิช่าแปลให้อย่างขันแข็ง"
+"ชิซูเนะถูแว่นหัวเราะอยู่เงียบ ๆ เมื่อเห็นอากิระโอดโอยหลังได้ฟังที่มิช่าแปลให้อย่างขันแข็ง"
 
 show shizu adjust_happy_cas
 with charachange
@@ -1298,8 +1298,7 @@ li "ระวังหน่อยนะ เดี๋ยวปลาก็ตก
 # "Akira's voice is somewhat loud between her attempts to both egg on Shizune and keep Lilly entertained, so she may have a point. My line doesn't seem to be picking up anything, but I don't know how much of that is down to Akira."
 "อากิระพยายามจะโหมไฟให้ชิซูเนะและดึงให้ลิลลี่สนุกไปด้วย แต่เสียงออกจะดังไปหน่อย ก็คงถูกของลิลลี่ละนะ\nเหมือนเบ็ดฉันจะยังไม่กระตุกหรืออะไร แต่ไม่รู้ว่าฝั่งอากิระเป็นยังไงแล้วบ้าง"
 
-# "Shizune does her best to relax in the sun, and pulls the look off very well,
-# but I can tell that she'd be slightly put off by not knowing what's being talked about. Not having Misha around can be a real problem."
+# "Shizune does her best to relax in the sun, and pulls the look off very well, but I can tell that she'd be slightly put off by not knowing what's being talked about. Not having Misha around can be a real problem."
 "ชิซูเนะทำทีเป็นอาบแดดอยู่สบาย ๆ ได้ดีทีเดียว แต่ฉันรู้ว่าเธอคงแอบหงุดหงิดที่ไม่รู้ว่าทางนี้คุยอะไรกันอยู่ ไม่มีมิช่า\nแล้วลำบากจริง ๆ"
 
 # ssh "Hisao, what's the score so far? Are we winning? I hope we are, given that I've entrusted you with our team's success."
