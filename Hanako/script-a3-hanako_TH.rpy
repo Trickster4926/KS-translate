@@ -678,17 +678,20 @@ ha "โอเค…"
 show lilly basic_weaksmile
 with charachange
 
-li "I can join you for tea again later tonight, if you'd like. I may well need it."
+# li "I can join you for tea again later tonight, if you'd like. I may well need it."
+li "คืนนี้ถ้าเธออยากให้ฉันไปร่วมวงน้ำชาด้วยอีกก็ชวนได้นะ เผื่อว่าฉันจะอยากดื่มด้วย"
 
 show lilly cane_weaksmile
 with charachange
 
-"We agree on that plan, and Lilly says her farewells to the both of us, taking her cane after Hanako passes it to her."
+# "We agree on that plan, and Lilly says her farewells to the both of us, taking her cane after Hanako passes it to her."
+"พวกเราตกลงตามนั้น และลิลลี่ก็บอกลาพวกเราและหยิบไม้เท้าที่ฮานาโกะยื่นให้"
 
 hide lilly
 with charaexit
 
-"Despite my offer to pay for Lilly's share, she insists on giving us her portion of the bill, and gives her regards to Yuuko as she takes her leave."
+# "Despite my offer to pay for Lilly's share, she insists on giving us her portion of the bill, and gives her regards to Yuuko as she takes her leave."
+"ถึงฉันจะบอกว่าจะจ่ายส่วนของลิลลี่ให้ก็เถอะ แต่เธอก็ไม่ยอมและจ่ายเงินให้ยูโกะก่อนออกไปอยู่ดี"
 
 play music music_dreamy fadein 4.0
 
@@ -698,20 +701,26 @@ show hanako basic_normal_close:
     ypos 1.09
 with charamove
 
-"And then… we're alone. It may be all well and good to leave Hanako and me alone to have some time together, but all it typically means is the two of us sitting near each other in silence for a while."
+# "And then… we're alone. It may be all well and good to leave Hanako and me alone to have some time together, but all it typically means is the two of us sitting near each other in silence for a while."
+"เช่นนั้นแล้ว… ก็เหลือแค่เราสองคน ปล่อยให้พวกเราอยู่ตามลำพังมันก็ดีหรอก แต่ก็แปลว่าพวกเราจะนั่งเงียบ ๆ โดยไม่พูดอะไรไปสักพักเลยละ"
 
-"I wonder what I must look like to Hanako. I never thought of myself as a scary person, but to have someone my own age acting this way around me makes me intensely self-aware, as if it's my fault that she's so troubled."
+# "I wonder what I must look like to Hanako. I never thought of myself as a scary person, but to have someone my own age acting this way around me makes me intensely self-aware, as if it's my fault that she's so troubled."
+"ฮานาโกะจะมองว่าฉันเป็นคนยังไงกันนะ ถึงฉันจะไม่เคยคิดว่าตัวเองเป็นคนน่ากลัว แต่พอมีคนรุ่นราวคราวเดียวกับฉันมาทำตัวอย่างนี้ตอนได้อยู่ด้วยกันแล้วก็เกร็งมาก ๆ เพราะรู้สึกอย่างกับว่าฉันเป็นต้นเหตุที่ทำให้ฮานาโกะรู้สึกอึดอัด"
 
-"She might get more used to people if she were to stop being so cloistered in Yamaku, but then again… when even people much older than her react so strongly after a single glance at her face, she may well feel the same way I do now."
+# "She might get more used to people if she were to stop being so cloistered in Yamaku, but then again… when even people much older than her react so strongly after a single glance at her face, she may well feel the same way I do now."
+"ถ้าฮานาโกะออกไปอยู่ที่อื่นที่ไม่ใช่ยามากุแล้วอาจจะชินกับคนขึ้นมาบ้าง แต่ก็นะ… ในเมื่อขนาดคนที่แก่กว่าเธอไปหลายปีแค่เห็นหน้าเธอแบบผ่าน ๆ ยังออกอาการชัดเลย ฮานาโกะก็คงรู้สึกเหมือนอย่างเดียวกันกับฉันนั่นแหละ"
 
-"It's a real catch-22. If she stays in Yamaku, she won't get used to socializing, but if she leaves, any efforts she might try would get thrown back at her by the people who can't deal with her scarring."
+# "It's a real catch-22. If she stays in Yamaku, she won't get used to socializing, but if she leaves, any efforts she might try would get thrown back at her by the people who can't deal with her scarring."
+"ซึ่งไม่ว่าจะทางไหนก็จะกลับมาที่ปัญหาเดิมอยู่ดี ถ้าฮานาโกะยังอยู่ที่ยามากุก็จะไม่ชินกับการเข้าสังคม แต่ถ้าไปอยู่ที่อื่น ต่อให้จะพยายามแล้วแต่ก็อาจจะถูกคนที่รับกับแผลเป็นของเธอไม่ได้กีดกันอยู่ดี"
 
-hi "Want to order something else to keep us going? We haven't had much of a dinner, after all."
+# hi "Want to order something else to keep us going? We haven't had much of a dinner, after all."
+hi "จะสั่งอะไรเพิ่มเพื่อนั่งต่อไหม? ไหน ๆ พวกเราก็ยังไม่ได้กินข้าวเย็นอยู่ด้วย"
 
 show hanako basic_smile_close
 with charachange
 
-"Hanako brightens and nods vigorously, glad that I brought up the topic for her. I catch Yuuko's gaze, and she dutifully comes over to take our orders."
+# "Hanako brightens and nods vigorously, glad that I brought up the topic for her. I catch Yuuko's gaze, and she dutifully comes over to take our orders."
+"ฮานาโกะยิ้มแล้วพยักหน้าหงึก ๆ ด้วยความดีใจที่ฉันชวนคุยเรื่องนี้ ฉันสบตากับยูโกะ แล้วเธอก็เดินเข้ามารับรายการของเราอย่างตั้งใจ"
 
 scene bg suburb_shanghaiint at bgright
 show hanako basic_smile_close:
@@ -722,25 +731,30 @@ with charamove
 show yuukoshang neutral_down at twoleft
 with charaenter
 
-yu "Would you like something else?"
+# yu "Would you like something else?"
+yu "จะรับอะไรเพิ่มดีคะ?"
 
-hi "I'll just have a sandwich special and a hot chocolate. Bit late for coffee by now. Hanako?"
+# hi "I'll just have a sandwich special and a hot chocolate. Bit late for coffee by now. Hanako?"
+hi "ผมเอาแซนด์วิชสเปเชียลกับช็อกโกแลตร้อนแล้วกันครับ กาแฟตอนนี้คงเย็นเกินไปหน่อย ฮานาโกะล่ะ?"
 
 show hanako cover_bashful_close
 with charachange
 
-ha "I-I'll… have the same…"
+# ha "I-I'll… have the same…"
+ha "อะ-เอา… เหมือนกันค่ะ…"
 
 hide yuukoshang
 with charaexit
 
-"With a nod and a bow, Yuuko turns on the ball of her foot and returns behind the counter, where she busies herself fishing out bread and condiments and working the machine to make our drinks."
+# "With a nod and a bow, Yuuko turns on the ball of her foot and returns behind the counter, where she busies herself fishing out bread and condiments and working the machine to make our drinks."
+"ยูโกะพยักหน้าแล้วโค้งตัวก่อนจะหมุนตัวเดินกลับไปที่เคาน์เตอร์เพื่อจัดแจงบรรดาขนมปังกับซอสต่าง ๆ และชงเครื่องดื่มให้พวกเรา"
 
 show yuukoshang smile_up at twoleft
 show hanako basic_bashful_close
 with charaenter
 
-"Not a word is said between us until Yuuko comes back. She smiles and gives us our food and drinks, before moving to a customer who's called for her attention."
+# "Not a word is said between us until Yuuko comes back. She smiles and gives us our food and drinks, before moving to a customer who's called for her attention."
+"ระหว่างเราไม่มีใครพูดอะไรออกมาจนยูโกะกลับมา เธอยิ้มและเสิร์ฟอาหารและเครื่องดื่มของเรา ก่อนที่จะไปหาลูกค้าที่เรียกเธอต่อ"
 
 hide yuukoshang
 with charaexit
