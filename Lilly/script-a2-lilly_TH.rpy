@@ -20,16 +20,16 @@ window show
 play music music_dreamy fadein 2.0
 
 # "It's the same alarm clock I had at home, one of the few remaining artifacts from my days before coming to Yamaku. I'd hoped that using it would help ease my transition into this new life."
-"เป็นนาฬิกาปลุกเรือนเดียวกับที่ฉันเคยใช้ตอนอยู่ที่บ้าน หนึ่งในสิ่งของไม่กี่อย่างที่หลงเหลือจากชีวิตเก่าก่อนที่จะย้ายมาที่ยามากุ\nนำมันมาที่นี่ด้วยความหวังว่าพอใช้แล้วมันอาจจะช่วยให้รู้สึกสบายใจและทำให้ปรับตัวเข้ากับชีวิตใหม่นี้ได้ง่ายขึ้น"
+"เป็นนาฬิกาปลุกเรือนเดียวกับที่ฉันเคยใช้ตอนอยู่ที่บ้านและเป็นหนึ่งในสิ่งของไม่กี่อย่างที่หลงเหลือจากชีวิตเก่า\nก่อนที่จะย้ายมาที่ยามากุ ฉันพกติดตัวมาด้วยหวังว่าจะช่วยให้ปรับตัวเข้ากับชีวิตใหม่นี้ได้ง่ายขึ้น"
 
 # "No such luck, though."
 "โชคไม่ดีที่มันไม่ได้ช่วยอะไร"
 
 # "Groggily dragging myself out of bed, I wipe the sleep out of my eyes, then reach over to my desk. I open a couple of the bottles of medication strewn across it, and swallow a few pills dry."
-"ฉันลุกขึ้นจากเตียงนอนอย่างเชื่องช้า ยกมือขึ้นมาปัดเอาความง่วงงุนออกจากดวงตา ก่อนจะเอื้อมไปเปิดฝาขวดยาที่เรียงรายอยู่บนโต๊ะแล้วเทเม็ดยาข้างในออกมา\nโยนพวกมันเข้าปากแล้วกลืนไปทั้งอย่างนั้น"
+"ฉันลุกขึ้นจากเตียงนอนอย่างเชื่องช้าขยี้ตาให้หายงัวเงียก่อนจะเอื้อมไปเปิดฝาขวดยาที่เรียงรายอยู่บนโต๊ะแล้วเท\nเม็ดยาออกมาโยนเข้าปากกลืนไปทั้งอย่างนั้น"
 
 # "By now, the process is starting to become automatic - something I should be glad for, given their purpose."
-"ทำแบบนี้ทุกวันจนกลายเป็นเรื่องอัตโนมัติไปแล้ว และก็ควรรู้สึกดีใจที่เป็นอย่างนั้นฉันถึงได้ยังมีชีวิตอยู่"
+"ฉันทำแบบนี้ทุกวันจนตอนนี้เริ่มทำโดยอัตโนมัติไปแล้ว ซึ่งควรยินดีที่ทำได้โดยอัตโนมัติ เพราะถ้าไม่ทำก็คงไม่ได้\nมีชีวิตอยู่แล้ว"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
@@ -37,7 +37,7 @@ scene bg school_dormbathroom
 with locationskip
 
 # "Feeling much more awake than before, I wander into the bathroom."
-"หลังจากรู้สึกตื่นตัวมากขึ้นกว่าเดิมแล้ว ฉันก็เดินไปเข้าห้องน้ำ"
+"พอหายง่วงแล้วฉันก็เดินไปเข้าห้องน้ำ"
 
 play ambient sfx_shower fadein 8.0
 
@@ -45,10 +45,10 @@ show steam
 with charaenter
 
 # "While the shower warms up, my mind begins to wander as my new daily routine begins once again."
-"ขณะที่น้ำอุ่นจากฝักบัวไหลลงมาบนหัว ใจของฉันก็เริ่มลอยออกไปในตอนที่กิจวัตรประจำวันใหม่ได้เริ่มต้นขึ้นอีกครั้ง"
+"ขณะที่น้ำอุ่นจากฝักบัวไหลลงมาบนหัว ใจของฉันก็เริ่มลอยออกไปในตอนที่กิจวัตรประจำวันใหม่ได้เริ่มต้นอีกครั้ง"
 
 # "The bright colors of the fireworks fill my mind, as do the two girls with whom I spent my time watching them. It feels strange to be moved so much by people I know so little about."
-"ภาพของดอกไม้ไฟหลากสีสันเป็นประกายประดับฟ้า กับเด็กสาวสองคนที่ฉันได้ใช้เวลาร่วมกันก็ปรากฏขึ้นในใจ\nพอคิดว่าทั้งที่เพิ่งจะได้รู้จักกันไม่นานแต่กลับทำให้เกิดความรู้สึกซาบซึ้งใจได้มากขนาดนี้ก็อดรู้สึกแปลก ๆ ไม่ได้"
+"ภาพของดอกไม้ไฟหลากสีสันเป็นประกายประดับฟ้ากับเด็กสาวสองคนที่ฉันได้ใช้เวลาร่วมกันก็ปรากฏขึ้นในใจ\nแปลกดี ทั้งที่เจอกันได้ไม่นานแต่ยังรู้สึกประทับใจได้ขนาดนี้"
 
 # "Then again, I suppose these aren't normal circumstances. At least I have someone to talk to, now, aside from my schoolmate next door."
 "อาจเป็นเพราะสถานการณ์ไม่ปกติ แต่อย่างน้อยตอนนี้ฉันก็มีคนที่สามารถพูดคุยด้วยได้แล้ว\nนอกจากนายเพื่อนร่วมสถาบันที่อาศัยอยู่ห้องข้าง ๆ คนนั้น"
@@ -59,7 +59,7 @@ hide steam
 with charaexit
 
 # "With the time left before school begins today waning, I begin to get ready for class."
-"ฉันใช้เวลาที่เหลืออยู่และกำลังหายไปก่อนที่โรงเรียนจะเริ่มในการเตรียมตัวสำหรับคาบเรียนแรก"
+"เวลาที่เหลือก่อนเข้าเรียนวันนี้หมดไปทุกขณะ ฉันรีบเตรียมตัวไปเรียน"
 
 $ renpy.music.set_volume(1.0, 3.0, channel="music")
 
@@ -67,41 +67,40 @@ scene bg school_scienceroom
 with shorttimeskip
 
 # "Walking through the door into the classroom, I notice that I'm still somewhat early. I see about five or six students milling around, most of them looking as if they'd rather be still in bed."
-"เมื่อเดินผ่านประตูเข้ามาในห้องเรียนแล้วถึงได้รู้ว่าตัวเองมาถึงค่อนข้างเช้า มองไปในห้องก็เห็นนักเรียนคนอื่นอีกห้าหรือหกคนนั่งอยู่เฉย ๆ\nมีสีหน้าเหมือนยังไม่อยากลุกขึ้นจากเตียงกันเกือบทุกคน"
+"เมื่อเดินผ่านประตูเข้ามาในห้องเรียนแล้วถึงรู้ตัวว่ามาค่อนข้างเช้า มองไปในห้องก็เห็นนักเรียนคนอื่นอีกประมาณ\nห้าหกคนมีสีหน้าเหมือนยังไม่อยากลุกขึ้นจากเตียงกันเกือบทุกคน"
 
 # "It's at times like this that I appreciate being a morning person. That said, two students in particular seem just as perky as always."
-"เพราะอะไรแบบนี้นี่แหละที่ทำให้ฉันรู้สึกขอบคุณที่ตัวเองเป็นคนตื่นเช้า แต่ถึงอย่างนั้นในห้องก็ยังมีนักเรียนอยู่สองคนที่มีท่าทีกระปรี้กระเป่าอยู่เช่นเคย"
+"เพราะอะไรแบบนี้นี่แหละที่ทำให้ฉันรู้สึกขอบคุณที่ตัวเองเป็นคนตื่นเช้า แต่ถึงอย่างนั้นในห้องก็ยังมีนักเรียนอยู่สองคน\nที่มีท่าทีกระปรี้กระเปร่าอยู่เช่นเคย"
 
 # hi "Hi Shizune, hi Misha."
-hi "สวัสดี ชิซูเนะ หวัดดี มิช่า"
+hi "ไง ชิซูเนะ ไง มิช่า"
 
 show shizu behind_blank at tworight
 show misha perky_smile at twoleft
 with charaenter
 
 # "I suddenly realize that my greeting would be lost on the former, so I quickly follow it up with a wave. She doesn't seem overly bothered."
-"ฉันนึกขึ้นได้ว่าอาจมีคนนึงที่ไม่ได้ยินคำทักทายนั้น จึงรีบยกมือขึ้นโบกทักทายตามไป แต่ก็ดูเหมือนว่าเธอคนนั้นจะไม่ได้รู้สึกไม่ดีอะไร"
+"ฉันนึกขึ้นได้ว่าคนที่ฉันทักเป็นคนแรกคงไม่ได้ยินคำทักทายนั้นจึงรีบยกมือขึ้นโบกทักทายตามไป แต่ก็เหมือนว่าเธอ\nจะไม่ได้คิดมากอะไร"
 
 # "Or interested, for that matter."
-"หรือบางทีก็แค่ไม่ได้สนใจอะไรแบบนั้น"
+"หรือไม่ได้สนใจเลยด้วยซ้ำ"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi "..."
+shi "…"
 
 show misha hips_grin
 with charachange
 
 # mi "Hello, Hicchan~! Are you feeling well?"
-mi "ดีจ้า ฮิจัง~!สบายดีมั้ยเอ่ย?"
+mi "สวัสดีฮิจัง~! สบายดีมั้ยเอ่ย"
 
 # "I can only assume her greeting comes from Shizune. It's hard to tell if she's speaking as herself or Shizune, sometimes."
-"ฉันได้แต่คิดเอาว่าชิซูเนะคงเป็นผู้ที่ฝากคำทักทายนั้นส่งมา เพราะบางครั้งฉันก็ดูไม่ออกว่ามิช่ากำัลงพูดถึงตัวเองหรือพูดแทนชิซูเนะอยู่"
+"ชิซูเนะน่าจะเป็นคนทักทายแหละ เดาเอาน่ะนะ เพราะบางครั้งก็ดูไม่ออกว่าที่พูดคือมิช่าพูดเองหรือแปลมาจากชิซูเนะ\nกันแน่"
 
 # hi "Better than most everyone else, I guess. You two seem bright and chipper."
-hi "ก็คงดีกว่าคนอื่น ๆ อยู่ละมั้ง พวกเธอเองก็ดูอารมณ์สดใสดีเหมือนกันนี่"
+hi "ก็คงดีกว่าคนอื่น ๆ อยู่ละมั้ง พวกเธอเองก็ดูร่าเริงสดใสดีนี่"
 
 show misha sign_smile
 with charachange
@@ -110,64 +109,71 @@ show misha perky_smile
 show shizu basic_frown
 with charachange
 
-"Misha signs this back to Shizune as I say it, eliciting a somewhat terse answer, if her sharp and rapid arm movements are any indication."
-# "มิช่าแปลคำพูดของฉันเป็นภาษามือแล้วส่งไปหาชิซูเนะ เลือกเอาเฉพาะส่วนที่เป็นใจความสำคัญส่งไป"
-# -----------------------------------------------"อย่างรวบรัด - รวบรัดตัดความ"
+# "Misha signs this back to Shizune as I say it, eliciting a somewhat terse answer, if her sharp and rapid arm movements are any indication."
+"พอฉันพูดแล้วมิช่าก็แปลเป็นภาษามือไปตาม ดูจากการขยับแขนที่รวดเร็วและปุบปับนั้นแล้วก็น่าจะเป็นการแปล\nแบบรวบรัด"
 
-"Considering that these two made such a big deal out of the festival preparations, I probably should've chosen my words more carefully."
-# "พอนึกขึ้นได้ว่าสองคนนี้ (made such a big deal out of the festival preparations) ก็ทำให้คิดได้ว่าทีหลังต้องระวัง/เลือกคำพูดของตัวเองให้ดี"
+# "Considering that these two made such a big deal out of the festival preparations, I probably should've chosen my words more carefully."
+"แต่ฉันน่าจะระวังคำพูดหน่อย เพราะสองคนนี้ก็เป็นคนที่ลงแรงทุ่มเตรียมงานเทศกาลไปมาก"
 
 show shizu behind_frown
 with charachange
 
-# shi "…!"
-shi "...!"
+shi "…!"
 
 show misha hips_grin
 with charachange
 
-mi "Since you're a new student, we've been cutting you some slack. Please don't expect this kind of task-dodging to be allowed in the future."
+# mi "Since you're a new student, we've been cutting you some slack. Please don't expect this kind of task-dodging to be allowed in the future."
+mi "ที่พวกเราปล่อยนายไปเพราะนายเป็นนักเรียนใหม่หรอกนะ แต่หลังจากนี้อย่าคิดว่าพวกเราจะให้นายอู้งานแบบนี้อีก"
 
-"Misha looks as if she's about to add her own comment, but quickly goes back to interpreting as Shizune continues, unabated."
+# "Misha looks as if she's about to add her own comment, but quickly goes back to interpreting as Shizune continues, unabated."
+"มิช่าเหมือนจะอยากพูดอะไรเสริมอีก แต่ก็ต้องแปลภาษามือจากชิซูเนะต่อทันที"
 
 show shizu basic_frown
 show misha sign_smile
 with charachange
 
-mi "While your contribution to class 3-2's stall is appreciated—"
+# mi "While your contribution to class 3-2's stall is appreciated—"
+mi "พวกเรายินดีที่นายช่วยแผงห้อง 3-2 แต่—"
 
-"Huh. Word sure got around quickly. That, or these two have their fingers on the pulse of the school."
+# "Huh. Word sure got around quickly. That, or these two have their fingers on the pulse of the school."
+"หืม ข่าวแพร่เร็วอยู่นะเนี่ย หรือไม่ก็สองคนนี้รู้ความเป็นไปของโรงเรียนเป็นเรื่องปกติอยู่แล้ว"
 
 show misha hips_frown
 with charachange
 
-mi "—we would prefer your efforts to be focused on the task at hand. Namely, your own class."
+# mi "—we would prefer your efforts to be focused on the task at hand. Namely, your own class."
+mi "—พวกเราอยากให้นายมาจัดการภาระหน้าที่ที่ต้องทำมากกว่า หรือก็คือ ห้องตัวเอง"
 
-"As much as I hate to admit it, they do have a point. Before I can respond, though, Shizune adds something more, which draws a smile from Misha."
-# "ถึงฉันจะไม่อยากยอมรับสักเท่าไหร่ แต่ก็ปฏิเสธไม่ได้ว่าที่พวกเธอว่ามาก็มีเหตุผล - แต่ก่อนที่จะได้พูดอะไรกลับไป(respond) ชิซูเนะก็ ---"
+# "As much as I hate to admit it, they do have a point. Before I can respond, though, Shizune adds something more, which draws a smile from Misha."
+"ถึงจะไม่อยากยอมรับสักเท่าไหร่ แต่ก็จริงของพวกเธอ แต่ชิซูเนะก็เสริมอะไรอีกสักอย่างก่อนฉันจะทันได้ตอบ พอมิช่าได้เห็นก็ทำหน้ายิ้ม ๆ"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi "..."
+shi "…"
 
 show misha perky_smile
 with charachange
 
-mi "Did you enjoy the festival, then~?"
+# mi "Did you enjoy the festival, then~?"
+mi "แล้วงานเทศกาลสนุกมั้ย~"
 
-"Lecture over, I guess."
+# "Lecture over, I guess."
+"เทศน์เสร็จแล้วมั้ง"
 
-hi "Yeah, it was good. Did you two enjoy it?"
+# hi "Yeah, it was good. Did you two enjoy it?"
+hi "อื้ม สนุกดี เธอสองคนล่ะ"
 
 show shizu behind_smile
 show misha hips_grin
 with charachange
 
-"Shizune gives a short nod as Misha grins and bounces her head up and down. The contrast, side-by-side, is amusing."
+# "Shizune gives a short nod as Misha grins and bounces her head up and down. The contrast, side-by-side, is amusing."
+"ชิซูเนะพยักหน้าน้อย ๆ ส่วนมิช่าโยกหัวขึ้นลงแรง ๆ พอได้เห็นสองท่าทีที่ขัดกันอยู่อย่างนี้แล้วก็ตลกดี"
 
-"Out of the corner of my eye, I notice more students starting to trickle into the classroom. A quick glance at my watch confirms that they're a few minutes late."
+# "Out of the corner of my eye, I notice more students starting to trickle into the classroom. A quick glance at my watch confirms that they're a few minutes late."
+"ภาพคนที่เริ่มทยอยเข้าห้องมาขยับอยู่ตรงหางตาฉัน พอเหลือบมองนาฬิกาก็เห็นว่าคาบเรียนเริ่มไปแล้วสองสามนาที"
 
 show hanako emb_downtimid at offscreenright
 with None
@@ -178,8 +184,8 @@ show hanako emb_downsmile at Transform(xpos=1.0, xanchor=0.7)
 show bg school_scienceroom at bgleft
 with charamove
 
-"I look over to Hanako's seat and realize that she's already there, and contentedly reading a book. It makes me wonder just how long she's been there without me noticing."
-# "ฉันมองไปทางที่นั่งของฮานาโกะก่อนจะพบว่าเธอกำลังก้มหน้าก้มตาอ่านหนังสืออยู่อย่างเงียบ ๆ อยู่อย่างนั้นตั้งแต่ตอนไหนก็ไม่รู้ ---"
+# "I look over to Hanako's seat and realize that she's already there, and contentedly reading a book. It makes me wonder just how long she's been there without me noticing."
+"พอมองไปที่โต๊ะของฮานาโกะก็เห็นเธอนั่งอ่านหนังสืออย่างสบายใจอยู่ตรงนั้น มานั่งนานหรือยังเนี่ย ไม่ทันสังเกตเลย"
 
 show misha hips_grin:
     ease 1.0 xpos 0.2
@@ -196,13 +202,16 @@ hide shizu
 hide hanako
 with Dissolve(1.0)
 
-"With heavy footsteps coming up the hallway signaling Mutou's arrival, our idle talking comes to an end and I take my seat next to Misha."
+# "With heavy footsteps coming up the hallway signaling Mutou's arrival, our idle talking comes to an end and I take my seat next to Misha."
+"เสียงฝีเท้าหนัก ๆ เป็นสัญญาณการมาถึงของมุโต้ บทสนทนาเรื่องเปื่อยของพวกเราเป็นอันต้องจบลง ฉันมานั่งอยู่\nข้างมิช่า"
 
-"As the door slides open, he strides through with a ponderous gait. His posture is even worse than usual, and his eyes are barely staying open. I guess my quip to Lilly and Hanako about the staff was misplaced."
+# "As the door slides open, he strides through with a ponderous gait. His posture is even worse than usual, and his eyes are barely staying open. I guess my quip to Lilly and Hanako about the staff was misplaced."
+"ครูเลื่อนเปิดประตูเข้ามาด้วยท่าทีเอื่อยเฉื่อย ท่ายืนของครูดูแย่กว่าทุกทีอีก ตาก็ปรือแทบไม่เปิดแล้ว สงสัยที่ฉันบ่น\nกับลิลลี่กับฮานาโกะเรื่องคนในโรงเรียนคงจะแรงไปหน่อย"
 
 play ambient sfx_paperruffling
 
-"Everyone opens their books as he reaches his desk, and the first class of the new week begins."
+# "Everyone opens their books as he reaches his desk, and the first class of the new week begins."
+"พอครูนั่งที่แล้วทุกคนก็เปิดหนังสือ และคาบเรียนแรกของสัปดาห์ก็เริ่มขึ้น"
 
 stop music fadeout 3.0
 stop ambient fadeout 0.5
@@ -214,7 +223,8 @@ play sound sfx_normalbell
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 2.0
 
-"I rub my eyes as the lunch bell rings out, glad for the temporary reprieve from work."
+# "I rub my eyes as the lunch bell rings out, glad for the temporary reprieve from work."
+"ฉันขยี้ตาเมื่อได้ยินเสียงระฆังพักเที่ยง อย่างน้อยก็ได้พักจากการทำงานสักหน่อยละนะ"
 
 show lilly basic_smileclosed at offscreenleft
 with None
@@ -223,9 +233,11 @@ show bg school_scienceroom at bgright
 show lilly cane_smileclosed at Transform(xanchor=0.2)
 with charamove
 
-"I'm entirely unsurprised when I look over to the door and see Lilly standing there, cane in hand, patiently waiting for Hanako."
+# "I'm entirely unsurprised when I look over to the door and see Lilly standing there, cane in hand, patiently waiting for Hanako."
+"เมื่อมองไปทางประตูก็เห็นลิลลี่ยืนอยู่ตรงนั้น ซึ่งฉันไม่แปลกใจเลย เธอยืนถือไม้เท้ารอฮานาโกะอย่างใจเย็น"
 
-"Considering her acceptance of my request to join them yesterday, I decide to spend my lunchtime with them rather than eat alone."
+# "Considering her acceptance of my request to join them yesterday, I decide to spend my lunchtime with them rather than eat alone."
+"ไหน ๆ เมื่อวานก็ตกลงให้อยู่ด้วยได้แล้ว ฉันจึงตัดสินใจไปกินข้าวเที่ยงกับพวกเธอแทนที่จะไปกินคนเดียว"
 
 show hanako emb_smile at Alphain(0.5), Slide(0.5,0.5,0.4,0.5,0.5)
 with Pause(0.5)
@@ -234,7 +246,8 @@ hide hanako
 hide lilly
 with charaexit
 
-"Hanako moves surprisingly fast to meet her companion, and the two enter the hallway before I can catch up."
+# "Hanako moves surprisingly fast to meet her companion, and the two enter the hallway before I can catch up."
+"ฮานาโกะเดินไปหาเพื่อนของเธออย่างรวดเร็วจนน่าตกใจ ทั้งสองคนเดินไปตามโถงทางเดินก่อนฉันจะทันได้ตามไป"
 
 stop ambient fadeout 1.0
 
@@ -247,12 +260,14 @@ with locationchange
 show hanako def_shock
 with vpunch
 
-"Lilly's head turns slightly, registering the sound of footsteps behind her. As Hanako notices and follows her lead, she almost jumps in surprise."
+# "Lilly's head turns slightly, registering the sound of footsteps behind her. As Hanako notices and follows her lead, she almost jumps in surprise."
+"ลิลลี่หันหน้ามาเล็กน้อยคอยฟังเสียงฝีเท้าที่ตามเธอมา พอฮานาโกะหันหน้ามามองตามก็แทบสะดุ้งด้วยความตกใจ"
 
 show hanako defarms_strain
 with charachange
 
-ha "Hi… Hisao?"
+# ha "Hi… Hisao?"
+hi "ฮิ… ฮิซาโอะ?"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play music music_normal fadein 2.0
@@ -260,27 +275,33 @@ play music music_normal fadein 2.0
 show hanako emb_blushtimid
 with charachange
 
-ha "I mean… um… hello, Hisao…"
+# ha "I mean… um… hello, Hisao…"
+hi "ไม่สิ… เอ่อ… สวัสดี ฮิซาโอะ…"
 
-hi "Hi. Sorry if I startled you."
+# hi "Hi. Sorry if I startled you."
+hi "ไง ถ้าตกใจก็ขอโทษทีนะ"
 
 show lilly cane_smile
 hide lillyprop
 with charachange
 
-"Lilly turns to greet me, helped in her orientation by Hanako."
+# "Lilly turns to greet me, helped in her orientation by Hanako."
+"ลิลลี่หันมาทักทายโดยมีฮานาโกะคอยนำทิศ"
 
 show lilly cane_smileclosed
 with charachange
 
-li "Good afternoon, Hisao. Are you joining us?"
+# li "Good afternoon, Hisao. Are you joining us?"
+li "ทิวาสวัสดิ์จ้ะฮิซาโอะ จะมาด้วยเหรอจ๊ะ"
 
-hi "If it's no trouble. There's not much else to do, really."
+# hi "If it's no trouble. There's not much else to do, really."
+hi "ถ้าไม่เป็นการรบกวนน่ะนะ ยังไงก็ไม่มีอะไรทำเท่าไหร่อยู่แล้ว"
 
 show lilly cane_smile
 with charachange
 
-"Lilly gives a small nod, as if to silently brush away any idea that it would be troubling in the least."
+# "Lilly gives a small nod, as if to silently brush away any idea that it would be troubling in the least."
+"ลิลลี่พยักหน้าน้อย ๆ ราวกับจะสื่อว่าไม่เป็นการรบกวนเลยแม้แต่น้อย"
 
 scene bg school_staircase2
 with locationchange
@@ -290,21 +311,26 @@ with Pause(0.3)
 scene bg school_hallway2
 with locationchange
 
-"We descend one set of stairs and walk down the hallway to the usual room, our pace somewhat quicker than usual thanks to Lilly using Hanako for direction, rather than her cane and the railings."
+# "We descend one set of stairs and walk down the hallway to the usual room, our pace somewhat quicker than usual thanks to Lilly using Hanako for direction, rather than her cane and the railings."
+"พวกเราเดินลงบันไดและมาตามโถงทางเดินมายังห้องประจำโดยใช้เวลาค่อนข้างน้อยเพราะลิลลี่มีฮานาโกะคอย\nนำทางอยู่ ไม่ได้ใช้เพียงไม้เท้าและราวเหล็กตามกำแพง"
 
 scene bg school_miyagi
 with locationchange
 
-"As expected, it's deserted. The sounds of the other clubs can only barely be heard as sunlight streams into the room from outside."
+# "As expected, it's deserted. The sounds of the other clubs can only barely be heard as sunlight streams into the room from outside."
+"ซึ่งโล่งตามคาด เสียงชมรมอื่นแว่วมาไกล ๆ แสงแดดสาดส่องห้องผ่านหน้าต่างมา"
 
-"Looking around the room, I notice a couple of empty easels propped up against a wall that I don't think were there before. The art club must use this room as extra storage."
+# "Looking around the room, I notice a couple of empty easels propped up against a wall that I don't think were there before. The art club must use this room as extra storage."
+"พอมองไปรอบ ๆ ห้องก็เห็นขาตั้งรูปวาดตั้งอยู่ตามกำแพงอยู่สองสามตัว เหมือนก่อนหน้านี้จะไม่มี ชมรมศิลปะ\nคงใช้ห้องนี้เป็นห้องเก็บของเพิ่มมั้ง"
 
 show hanako emb_smile
 with charaenter
 
-ha "Should I get the chess set out?"
+# ha "Should I get the chess set out?"
+ha "ให้ไปหยิบชุดหมากรุกมาให้มั้ย"
 
-"Hanako's voice seems less tense when she's directly addressing Lilly."
+# "Hanako's voice seems less tense when she's directly addressing Lilly."
+"เสียงฮานาโกะดูเกร็งน้อยลงเมื่อเธอพูดกับลิลลี่"
 
 show hanako emb_smile at tworight
 show bg school_miyagi at bgright
@@ -313,9 +339,11 @@ with charamove
 show lilly cane_weaksmile at twoleft
 with charaenter
 
-li "Yes. I'll make tea while you sort the pieces."
+# li "Yes. I'll make tea while you sort the pieces."
+li "จ้ะ เดี๋ยวฉันจะไปชงชาให้ระหว่างที่เธอจัดกระดานนะ"
 
-hi "Ah, I can do that for you, if you'd like."
+# hi "Ah, I can do that for you, if you'd like."
+hi "เอ้อ ให้ฉันชงให้ก็ได้นะ ถ้าเธอไม่ว่าอะไร"
 
 show lilly cane_surprised
 with charachange
@@ -325,12 +353,14 @@ with Pause(0.3)
 show lilly cane_planned
 with charachange
 
-"She ponders the offer for a moment before smiling, confirming that I've made the right choice. Her face is remarkably easy to read."
+# "She ponders the offer for a moment before smiling, confirming that I've made the right choice. Her face is remarkably easy to read."
+"เธอคิดอยู่เงียบ ๆ ก่อนจะยิ้มเป็นการยืนยันว่าฉันคิดถูกแล้วที่เสนอตัวช่วย สีหน้าเธอนั้นดูออกง่ายทีเดียว"
 
 show lilly cane_satisfied
 with charachange
 
-li "Very well. Thank you."
+# li "Very well. Thank you."
+li "ได้เลยจ้ะ ขอบคุณนะจ๊ะ"
 
 show lilly cane_satisfied:
     ease 0.5 ypos 1.3
@@ -342,11 +372,14 @@ hide lilly
 hide hanako
 with charaexit
 
-"She slides her retracted cane into the handle of her bag and sets it against one of the table legs, before taking a seat opposite Hanako."
+# "She slides her retracted cane into the handle of her bag and sets it against one of the table legs, before taking a seat opposite Hanako."
+"เธอถือไม้เท้าไว้กับมือจับกระเป๋าหิ้วก่อนจะหดไม้เท้าเข้ามาแล้ววางกระเป๋าไว้ที่ขาโต๊ะขาหนึ่ง ก่อนจะนั่งลงที่ฝั่งตรงข้าม\nฮานาโกะ"
 
-"As I prepare tea for the three of us, I can hear the small wooden pieces being set on the board. I wonder how good Lilly is at chess, given her circumstances."
+# "As I prepare tea for the three of us, I can hear the small wooden pieces being set on the board. I wonder how good Lilly is at chess, given her circumstances."
+"เสียงหมากไม้ที่ถูกจัดอยู่บนกระดานแว่วเข้าหูมาระหว่างที่ฉันชงชาให้พวกเราสามคน ลิลลี่จะเล่นหมากรุกได้เก่ง\nขนาดไหนกันนะ ยิ่งมองไม่เห็นหมากด้วย"
 
-"By the time I place the steaming teacups onto the table, Lilly and Hanako have already moved their first pieces as they nibble on sandwiches and rice balls from their respective bags."
+# "By the time I place the steaming teacups onto the table, Lilly and Hanako have already moved their first pieces as they nibble on sandwiches and rice balls from their respective bags."
+"กว่าฉันจะได้มาวางน้ำชาร้อน ๆ ที่ควันลอยฉุย ลิลลี่กับฮานาโกะต่างก็ขยับหมากตัวแรกกันไปแล้ว ทั้งสองคนต่าง\nกัดกินแซนด์วิชและข้าวปั้นที่แต่ละคนเตรียมมากัน"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
@@ -355,9 +388,11 @@ show chessboard:
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"I note that the chessboard they're using has holes in the middle of each square and pegs on the bottom of the pieces, and has each dark square slightly raised."
+# "I note that the chessboard they're using has holes in the middle of each square and pegs on the bottom of the pieces, and has each dark square slightly raised."
+"ฉันสังเกตเห็นว่าแต่ละช่องบนกระดานจะมีรูอยู่ ส่วนข้างใต้หมากแต่ละตัวจะมีหมุดที่นูนออกมา และช่องที่เป็นสีดำ\nจะนูนขึ้นมาเล็กน้อย"
 
-"Watching Lilly's fingers skating over the board, tracing out the positions of the pieces, makes me marvel a little at the simple ingenuity of the design. It must be specifically made for blind players."
+# "Watching Lilly's fingers skating over the board, tracing out the positions of the pieces, makes me marvel a little at the simple ingenuity of the design. It must be specifically made for blind players."
+"เมื่อได้เห็นลิลลี่กวาดนิ้วไปตามกระดานคลำหาตำแหน่งหมากแล้วฉันก็ทึ่งอยู่หน่อย ๆ กับการออกแบบที่เรียบง่ายแต่\nชาญฉลาดนี้ คงทำมาสำหรับคนตาบอดโดยเฉพาะ"
 
 $ renpy.music.set_volume(1.0, 5.0, channel="music")
 
@@ -368,7 +403,8 @@ with Pause (1.0)
 hide chessboard
 with None
 
-hi "Here you go."
+# hi "Here you go."
+hi "เอ้านี่"
 
 scene bg tearoom_everyone_noon
 show tearoom_hanae happy
@@ -377,220 +413,267 @@ show tearoom_hisaoe hsmile
 show tearoom_chess
 with locationskip
 
-"Hanako gives a small nod as I put down the cup next to her side of the board. Lilly's hand ventures sideways slightly, so I gently place the cup touching the tips of her fingers; a gesture she seems to appreciate."
+# "Hanako gives a small nod as I put down the cup next to her side of the board. Lilly's hand ventures sideways slightly, so I gently place the cup touching the tips of her fingers; a gesture she seems to appreciate."
+"เมื่อฉันวางถ้วยน้ำชาไว้ที่ข้างกระดานฝั่งฮานาโกะแล้วเธอก็พยักหน้าให้น้อย ๆ มือของลิลลี่เคลื่อนไปด้านข้างเล็กน้อย\nคล้ายเป็นการขอบคุณ ฉันจึงวางถ้วยน้ำชาเบา ๆ ให้แตะเข้ากับปลายนิ้วของเธอ "
 
 show tearoom_hisaoe outside
 with charachange
 
-"I finally take a seat and silently sip my tea as the two play. The contrast in their appearances while playing is interesting to watch."
+# "I finally take a seat and silently sip my tea as the two play. The contrast in their appearances while playing is interesting to watch."
+"และฉันก็นั่งลงดูทั้งสองคนเล่นหมากรุก สีหน้าพวกเธอที่แตกต่างกันตอนเล่นนั้นดูน่าสนใจทีเดียว"
 
 show tearoom_hanae open
 with charachange
 
-"Hanako looks closely at the board, her face one of focused concentration. Lilly, on the other hand, keeps her head level and maintains her calm neutrality."
+# "Hanako looks closely at the board, her face one of focused concentration. Lilly, on the other hand, keeps her head level and maintains her calm neutrality."
+"ฮานาโกะมองกระดานใกล้ ๆ ทำสีหน้าจดจ่อเต็มที่ ส่วนลิลลี่นั้นวางหน้าคล้ายมองตรงดูเรียบนิ่ง"
 
-"Lilly's gentle voice addresses both of us as she continues to play."
+# "Lilly's gentle voice addresses both of us as she continues to play."
+"ลิลลี่ทักฉันกับฮานาโกะขึ้นมาระหว่างที่เธอเดินหมาก"
 
 show tearoom_lillye smile
 with charachange
 
-li "How was class, now that the festival's over?"
+# li "How was class, now that the festival's over?"
+li "เลิกงานเทศกาลแล้วที่ห้องเป็นยังไงบ้างจ๊ะ"
 
 show tearoom_hanae shy
 show tearoom_hisaoe hthink
 with charachange
 
-"I look to Hanako to see whether she'll answer first, but see that she's doing the same."
+# "I look to Hanako to see whether she'll answer first, but see that she's doing the same."
+"ฉันหันไปดูว่าฮานาโกะจะตอบก่อนหรือเปล่า แต่เธอก็หันมาทางฉันเหมือนกัน"
 
 show tearoom_hisaoe sigh
 with charachange
 
-hi "Not… great. Half the class seemed to be dozing off, even including the teacher. Not to mention a test on top of all that."
+# hi "Not… great. Half the class seemed to be dozing off, even including the teacher. Not to mention a test on top of all that."
+hi "ไม่ค่อย… ดีเท่าไหร่ คนเกือบครึ่งห้องเหมือนจะนั่งสัปหงกกัน ครูก็ด้วย แล้วไหนจะมีสอบอีก"
 
 show tearoom_hanae happy
 with charachange
 
-"Hanako quietly adds her own agreement with this."
+# "Hanako quietly adds her own agreement with this."
+"ฮานาโกะทำท่าว่าเห็นด้วย"
 
 show tearoom_lillye ara
 with charachange
 
-li "I could imagine that being a bit difficult for you, being a transfer student."
+# li "I could imagine that being a bit difficult for you, being a transfer student."
+li "เธอเป็นนักเรียนใหม่ด้วย คงลำบากหน่อยนะจ๊ะ"
 
 show tearoom_hisaoe lsmile
 with charachange
 
-hi "Well, I think I did fine. Other than the shock of a test coming so early, science is probably my best subject."
+# hi "Well, I think I did fine. Other than the shock of a test coming so early, science is probably my best subject."
+hi "อืม ก็พอไหวอยู่นะ อาจจะมีตกใจที่ว่าสอบเร็วขนาดนี้ วิทย์นี่ฉันน่าจะถนัดสุดแล้วมั้ง"
 
 show tearoom_hisaoe hsmile
 with charachange
 
-hi "How'd you do, Hanako?"
+# hi "How'd you do, Hanako?"
+hi "แล้วเธอล่ะฮานาโกะ"
 
 show tearoom_hanae open
 with charachange
 
-ha "Me? Ah… okay… I guess…"
+# ha "Me? Ah… okay… I guess…"
+ha "ฉัน? เอ่อ… โอเค… ละมั้งนะ…"
 
-"Hanako's too sincere to be able to pull off lying very well. That much is obvious."
+# "Hanako's too sincere to be able to pull off lying very well. That much is obvious."
+"เห็นได้ชัดว่าฮานาโกะนั้นเป็นคนซื่อเกินไปจนโกหกไม่เนียนเท่าไหร่"
 
 show tearoom_lillye thinking
 with charachange
 
-"Lilly's smile slips very slightly. From her reaction, Hanako mustn't be skilled enough at academics to do very well without preparation."
+# "Lilly's smile slips very slightly. From her reaction, Hanako mustn't be skilled enough at academics to do very well without preparation."
+"ลิลลี่ยิ้มบาง ๆ ดูจากสีหน้าแล้วฮานาโกะคงเป็นจำพวกที่ถ้าไม่ได้เตรียมตัวอะไรแล้วคงเรียนหรือสอบไม่ค่อยได้เท่าไหร่"
 
 show tearoom_hisaoe lsmile
 with charachange
 
-hi "How did your class handle it, Lilly?"
+# hi "How did your class handle it, Lilly?"
+hi "แล้วห้องเธอล่ะลิลลี่"
 
 show tearoom_lillye giggle
 with charachange
 
-li "It went surprisingly well, actually. Only one student was absent, which was better than what the teacher expected."
+# li "It went surprisingly well, actually. Only one student was absent, which was better than what the teacher expected."
+li "ที่จริงก็ดีเหลือเชื่อเลยจ้ะ มีนักเรียนไม่มาหนึ่งคน ซึ่งก็ยังดีกว่าที่คุณครูเขาคิดไว้"
 
 show tearoom_hanae shy
 show tearoom_lillye smileclosed
 with charachange
 
-"With the topic all but run dry, the two concentrate on their chess game once again."
+# "With the topic all but run dry, the two concentrate on their chess game once again."
+"พอหมดเรื่องจะคุยแล้วทั้งสองคนก็จดจ่ออยู่กับหมากรุกอีกครั้ง"
 
 show tearoom_hisaoe relief
 with charachange
 
-"I can't say I've ever liked the idea of chess as a spectator sport, but given its unique nature, for once I'm rapt in watching the game unfold."
+# "I can't say I've ever liked the idea of chess as a spectator sport, but given its unique nature, for once I'm rapt in watching the game unfold."
+"ฉันเองก็ไม่เคยคิดมาก่อนว่าการดูหมากรุกนั้นจะสนุกได้ แต่เอกลักษณ์ของเกมนี้ก็ดึงดูดให้ฉันคอยจับตาดูกระดาน\nที่ดำเนินไปเรื่อย ๆ"
 
 show tearoom_hisaoe outside
 show tearoom_hanae sad
 with shorttimeskip
 
-"As time wears on, both of them demonstrate decent skill at playing the game. Having captured two more pawns than Hanako, Lilly has the upper hand, but only slightly."
+# "As time wears on, both of them demonstrate decent skill at playing the game. Having captured two more pawns than Hanako, Lilly has the upper hand, but only slightly."
+"ยิ่งเวลาผ่านไปฉันก็ได้เห็นทักษะของทั้งสองคนซึ่งดีในระดับหนึ่ง ลิลลี่ได้เปรียบกว่าฮานาโกะเล็กน้อยเนื่องจากเธอ\nได้กินเบี้ยมากกว่าอีกฝ่ายอยู่สองตัว"
 
 show tearoom_hanae open
 show tearoom_hisaoe hunsure
 with charachange
 
-"…until Hanako makes a strange move with her queen. Seizing upon this lapse in judgment, Lilly takes the piece with her knight."
+# "…until Hanako makes a strange move with her queen. Seizing upon this lapse in judgment, Lilly takes the piece with her knight."
+"…ซึ่งก็ได้เปรียบไปจนกระทั่งฮานาโกะเดินควีนมาแบบแปลก ๆ ลิลลี่ใช้ช่องโหว่จากการที่ฮานาโกะตัดสินใจพลาดนี้\nเข้ากินควีนด้วยม้าของเธอ"
 
 show tearoom_hanae shy
 with charachange
 
-"Without hesitation, Hanako moves a pawn to take Lilly's rook on the opposite side of the board, and promotes it to queen."
+# "Without hesitation, Hanako moves a pawn to take Lilly's rook on the opposite side of the board, and promotes it to queen."
+"และฮานาโกะก็เข้ากินเรือของลิลลี่ที่อยู่อีกฝั่งกระดานทันทีก่อนจะเลื่อนขั้นเป็นควีน"
 
 show tearoom_lillye thinking
 show tearoom_hisaoe lunsure
 with charachange
 
-"Lilly's face falters as her fingers move over the pieces and she realizes that she just fell to Hanako's trap. It's a little distracting to have the board traced out after each move, even if it's out of necessity."
+# "Lilly's face falters as her fingers move over the pieces and she realizes that she just fell to Hanako's trap. It's a little distracting to have the board traced out after each move, even if it's out of necessity."
+"ลิลลี่ผงะไปเมื่อเธอคลำกระดานแล้วรู้ตัวว่าตัวเองเข้าติดกับของฮานาโกะแล้ว การที่ต้องมาคลำกระดานทุกตาเดิน\nอย่างนี้แล้วก็คงเสียสมาธิอยู่หน่อย ๆ ถึงจะจำเป็นต้องทำก็เถอะ"
 
-"Judging by Hanako's lack of reaction, she must be used to this. She and Lilly must have played at least a few games of chess against each other, after all."
+# "Judging by Hanako's lack of reaction, she must be used to this. She and Lilly must have played at least a few games of chess against each other, after all."
+"ฮานาโกะน่าจะชินแล้ว ดูจากท่าทางของเธอที่ไม่เปลี่ยนไปเลย ก็ทั้งสองคนคงเลยเล่นหมากรุกด้วยกันมาบ้างแล้วนี่นะ"
 
-ha "Check."
+# ha "Check."
+ha "รุก"
 
 show tearoom_hisaoe hsmile
 with charachange
 
-hi "That's not bad at all. Nice, Hanako."
+# hi "That's not bad at all. Nice, Hanako."
+hi "ไม่เลวเลยนี่ เยี่ยมเลย ฮานาโกะ"
 
 show tearoom_hanae happy
 with charachange
 
-"The compliment causes her to flower into a surprised blush."
+# "The compliment causes her to flower into a surprised blush."
+"คำชมนั้นทำให้เธอตกใจจนหน้าแดง"
 
-ha "Th-thank you. I didn't… think it would work."
+# ha "Th-thank you. I didn't… think it would work."
+ha "ขะ ขอบคุณนะ ฉันไม่คิด… ว่าจะดักได้"
 
 show tearoom_hisaoe lsmile
 with charachange
 
-"I look over to Lilly, her fingers having just finished tracing out the position of her remaining pieces in an attempt to extricate her king from this bind."
+# "I look over to Lilly, her fingers having just finished tracing out the position of her remaining pieces in an attempt to extricate her king from this bind."
+"ฉันมองไปทางลิลลี่ที่เพิ่งยกมือจากการคลำหมากที่เหลืออยู่เพื่อหาทางออกให้คิงพ้นจากการบุกนี้"
 
-li "I think this is checkmate…"
+# li "I think this is checkmate…"
+li "เหมือนจะรุกจนแล้วนะ…"
 
 show tearoom_hisaoe loops
 with charachange
 
-hi "Hmm?"
+# hi "Hmm?"
+hi "หืม?"
 
 show tearoom_hisaoe relief
 with charachange
 
-"I take another look at the board to confirm."
+# "I take another look at the board to confirm."
+"ฉันมองกระดานอีกครั้งเป็นการยืนยัน"
 
-"Sure enough, her king has nowhere to escape without being threatened by another piece. My earlier question as to which of them is better at this has just been answered."
+# "Sure enough, her king has nowhere to escape without being threatened by another piece. My earlier question as to which of them is better at this has just been answered."
+"ก็ใช่ คิงของลิลลี่หนีไปโดยไม่ติดตาเดินของหมากของฮานาโกะไม่ได้แล้ว จากที่ฉันนึกสงสัยเมื่อครู่ คราวนี้ฉันก็ได้รู้\nว่าใครเก่งกว่าใคร"
 
 show tearoom_hisaoe sigh
 with charachange
 
-hi "So it is."
+# hi "So it is."
+hi "ใช่แล้ว"
 
 show tearoom_lillye weaksmile
 with charachange
 
-"Lilly gives a small sigh as Hanako smiles. From their reactions, this seems like a fairly usual result."
+# "Lilly gives a small sigh as Hanako smiles. From their reactions, this seems like a fairly usual result."
+"ลิลลี่ถอนหายใจเบา ๆ ส่วนฮานาโกะก็ยิ้ม ดูจากสีหน้าแต่ละคนแล้ว ผลคงจะออกมาเป็นอย่างนี้อยู่บ่อย ๆ"
 
 show tearoom_hisaoe lsmile
 with charachange
 
-hi "How long have you two been playing?"
+# hi "How long have you two been playing?"
+hi "เธอสองคนเล่นมานานแค่ไหนกันแล้วเหรอ"
 
 show tearoom_hisaoe hsmile
 show tearoom_hanae sad
 
 with charachange
 
-ha "Since… I was young."
+# ha "Since… I was young."
+ha "ตั้งแต่… ตอนฉันเป็นเด็ก"
 
 show tearoom_lillye smileclosed
 show tearoom_hisaoe lsmile
 with charachange
 
-"Lilly nods at Hanako's brief answer."
+# "Lilly nods at Hanako's brief answer."
+"ลิลลี่พยักหน้ากับคำตอบสั้น ๆ นั้นของฮานาโกะ"
 
 show tearoom_lillye smile
 with charachange
 
-li "Hanako taught me how to play soon after I met her. I can beat her every now and then… but that's a rarity. I don't seem to have the right mindset for it."
+# li "Hanako taught me how to play soon after I met her. I can beat her every now and then… but that's a rarity. I don't seem to have the right mindset for it."
+li "พอมาเจอกันได้สักพักฮานาโกะก็สอนฉันจ้ะ บางทีฉันก็ชนะเธอบ้าง… แต่ก็นาน ๆ ทีน่ะนะ ดูท่าว่าแนวคิดของฉัน\nจะนำทางให้เล่นไปจนชนะไม่ได้เท่าไหร่"
 
-"If Lilly came to Yamaku at the start of high school, and met Hanako when she moved to the dorms, that'd mean she's only been playing for about one year."
+# "If Lilly came to Yamaku at the start of high school, and met Hanako when she moved to the dorms, that'd mean she's only been playing for about one year."
+"ถ้าลิลลี่มาเรียนที่ยามากุตั้งแต่สมัยมัธยมปลายแล้วมาเจอฮานาโกะตอนย้ายมาอยู่ที่หอ แปลว่าคงเล่นมาได้ประมาณ\nปีเดียวเอง"
 
-"After seeing Hanako's level of play, I'm not too surprised Lilly has trouble beating her."
+# "After seeing Hanako's level of play, I'm not too surprised Lilly has trouble beating her."
+"ดูจากฝีมือการเล่นของฮานาโกะแล้ว ก็คงเป็นธรรมดาที่ลิลลี่จะเอาชนะฮานาโกะได้ยาก"
 
 show tearoom_hanae happy
 show tearoom_hisaoe hthink
 with charachange
 
-ha "But… she's better at languages than I am, so…"
+# ha "But… she's better at languages than I am, so…"
+ha "แต่ว่า… ลิลลี่เก่งภาษากว่าฉัน เพราะงั้น…"
 
 show tearoom_lillye ara
 show tearoom_hisaoe lthink
 with charachange
 
-"Lilly gives an appreciative, if slightly amused, smile at Hanako's quick reversal of her compliment."
+# "Lilly gives an appreciative, if slightly amused, smile at Hanako's quick reversal of her compliment."
+"ลิลลี่ยิ้ม ๆ เหมือนขอบคุณที่ฮานาโกะชมย้อนได้เร็วขนาดนั้น"
 
 show tearoom_lillye weaksmile
 with charachange
 
-li "Well, that's how it is."
+# li "Well, that's how it is."
+li "แหม คงงั้นแหละมั้งจ๊ะ"
 
 stop music fadeout 3.0
 play sound sfx_warningbell
 
-"Much to everyone's surprise, the bell suddenly rings, heralding an end to the lunch break."
+# "Much to everyone's surprise, the bell suddenly rings, heralding an end to the lunch break."
+"ทุกคนต่างตกใจที่อยู่ ๆ ระฆังที่ส่งสัญญาณว่าหมดพักเที่ยงดัง"
 
 show tearoom_lillye thinking
 show tearoom_hisaoe loops
 with charachange
 
-li "Hmm, that game lasted longer than I thought it did."
+# li "Hmm, that game lasted longer than I thought it did."
+li "อืมม เล่นนานกว่าที่คิดเลยนะเนี่ย"
 
-hi "Same. I guess we'd better get back to class."
+# hi "Same. I guess we'd better get back to class."
+hi "นั่นสิ คงต้องกลับไปเรียนแล้วละนะ"
 
 show tearoom_hanae shy
 show tearoom_lillye weaksmile
 show tearoom_hisaoe thinkclosed
 with charachange
 
-"Hanako's already in the middle of packing up, so I take Lilly's bag and offer it to her. To my surprise, she takes it and nods, but then places it back down on the table."
+# "Hanako's already in the middle of packing up, so I take Lilly's bag and offer it to her. To my surprise, she takes it and nods, but then places it back down on the table."
+"ฮานาโกะเริ่มเก็บข้าวของของตัวเองแล้ว ฉันจึงหยิบกระเป๋าส่งให้ลิลลี่ ฉันแปลกใจที่เธอพยักหน้ารับไว้แล้ววางกระเป๋า\nลงกับโต๊ะ"
 
 play music music_daily fadein 2.0
 
@@ -599,18 +682,23 @@ show lilly basic_smileclosed at twoleft
 show hanako basic_normal at tworight
 with locationskip
 
-li "Hisao, may I make a request?"
+# li "Hisao, may I make a request?"
+li "ฮิซาโอะ ขออะไรอย่างได้มั้ยจ๊ะ"
 
-hi "Sure, go ahead."
+# hi "Sure, go ahead."
+hi "อื้ม ได้สิ"
 
 show lilly basic_smile at twoleft
 with charachange
 
-li "Would you mind if I were to quickly feel your face?"
+# li "Would you mind if I were to quickly feel your face?"
+li "เธอจะว่าอะไรมั้ยถ้าฉันขอจับหน้าเธอหน่อย"
 
-hi "Oh, uh… no, go ahead. I don't mind."
+# hi "Oh, uh… no, go ahead. I don't mind."
+hi "อ้อ เอ่อ… ได้ จับเลย ฉันไม่ว่า"
 
-"The question takes me severely off guard, but once I regain my composure it seems sensible enough. So far Lilly's had no idea what I actually look like, and this would be her only way to find out."
+# "The question takes me severely off guard, but once I regain my composure it seems sensible enough. So far Lilly's had no idea what I actually look like, and this would be her only way to find out."
+"แวบแรกฉันตกใจกับคำขอนั้น แต่พอใจเย็นลงแล้วก็คิดได้ว่าเป็นคำขอที่ไม่ได้แปลกขนาดนั้น ตอนนี้ลิลลี่ยังไม่รู้ว่า\nหน้าตาฉันเป็นอย่างไร ซึ่งนี่เป็นวิธีเดียวที่เธอจะได้รู้"
 
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
@@ -618,15 +706,21 @@ $ renpy.music.set_volume(0.5, 1.0, channel="music")
 show ev lilly_touch_uni
 with GenericWhiteout(0.5,0.1,3.0)
 
-"Lilly raises her right hand, which I take in mine and guide to my face before letting go."
+# "Lilly raises her right hand, which I take in mine and guide to my face before letting go."
+"ลิลลี่ยกมือขวาขึ้นมือ ฉันจับมือเธอดึงมาแตะที่หน้าฉันเบา ๆ แล้วปล่อยมือ"
 
-"The room is entirely silent as Lilly's hand moves over and around my features, from my chin, to my cheeks, to everywhere else."
+# "The room is entirely silent as Lilly's hand moves over and around my features, from my chin, to my cheeks, to everywhere else."
+"มีเพียงความเงียบในห้อง มือของลิลลี่ขยับไปรอบ ๆ ใบหน้าของฉัน ตั้งแต่คาง ขึ้นมาที่จมูก และที่อื่น ๆ บนใบหน้า"
 
-"I expected this to feel a lot more disquieting than it does. I suppose that's because the action is entirely a matter of practicality, being functionally no different to simply looking at someone's face."
+# "I expected this to feel a lot more disquieting than it does.
+# I suppose that's because the action is entirely a matter of practicality, being functionally no different to simply looking at someone's face."
+"ทีแรกนึกว่าจะอึดอัดกว่านี้อีก แต่ที่ไม่อึดอัดก็คงเพราะการจับหน้าเป็นแค่วิธีการเท่านั้น ซึ่งเมื่อเทียบกันแล้วก็ไม่ต่าง\nอะไรกับการที่มองหน้าใครสักคนเฉย ๆ"
 
-"Her hand is soft, but what takes me by surprise is the length of her fingers, not to mention how sure even the slightest of her movements are. I have no doubt that her level of tactile feeling would be far beyond mine."
+# "Her hand is soft, but what takes me by surprise is the length of her fingers, not to mention how sure even the slightest of her movements are. I have no doubt that her level of tactile feeling would be far beyond mine."
+"มือของเธอนั้นนิ่ม แต่ที่ทำให้ฉันตกใจคือความยาวนิ้วเธอ และเธอสัมผัสได้แผ่วเบามากเสียจนไม่รู้ว่าเธอรู้สึกจริง ๆ\nหรือเปล่า ไม่ต้องสงสัยเลยว่าประสาทการสัมผัสของเธอนั้นคงดีกว่าฉันหลายเท่าตัว"
 
-"Her hand briefly runs once through my hair before retreating. I'm sure that every inch of my face has been committed to her memory. It's only now, too, that I realize Hanako has been silently watching the entire time."
+# "Her hand briefly runs once through my hair before retreating. I'm sure that every inch of my face has been committed to her memory. It's only now, too, that I realize Hanako has been silently watching the entire time."
+"เธอสางผมฉันหนึ่งครั้งก่อนจะถอนมือออกไป ทุกตารางนิ้วบนใบหน้าฉันคงถูกบนทึกไว้ในความทรงจำเธอหมดแล้วเป็นแน่แท้ และฉันก็เพิ่งจะรู้ตัวว่าเมื่อกี้ฮานาโกะคอยมองอยู่เงียบ ๆ มาตลอด"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -635,48 +729,60 @@ show hanako basic_distant at tworight
 show lilly basic_weaksmile_close at twoleft
 with whiteout
 
-li "Thank you for letting me do that, Hisao."
+# li "Thank you for letting me do that, Hisao."
+li "ขอบคุณที่ให้ฉันจับหน้านะฮิซาโอะ"
 
 show lilly basic_smile_close at twoleft
 with charachange
 
-li "And if I might add, I think you are quite handsome."
+# li "And if I might add, I think you are quite handsome."
+li "แล้วก็ขอชมหน่อยว่าเธอหล่อใช้ได้เลยนะ"
 
-"I blush a little at her remark, before raising a questioning eyebrow."
+# "I blush a little at her remark, before raising a questioning eyebrow."
+"ฉันหน้าแดงเล็กน้อยกับคำชมนั้นก่อนจะยักคิ้วด้วยความสงสัย"
 
-hi "But if you can't see, how…"
+# hi "But if you can't see, how…"
+hi "แต่ว่า เธอมองไม่เห็นนี่นา แล้ว…"
 
 show lilly basic_pout_close at twoleft
 with charachange
 
-li "Just because I can't see, that doesn't mean I don't have my own preferences."
+# li "Just because I can't see, that doesn't mean I don't have my own preferences."
+li "การที่ฉันมองไม่เห็นไม่ได้แปลว่าฉันจะไม่มีแนวที่ชอบหรอกนะจ๊ะ"
 
 show hanako emb_timid at tworight
 with charachange
 
-ha "Um, we'd better go now…"
+# ha "Um, we'd better go now…"
+ha "เอ่อ เราต้องรีบไปกันได้แล้วนะ…"
 
-hi "Yeah, that's a good point. I guess we'll see you later then, Lilly."
+# hi "Yeah, that's a good point. I guess we'll see you later then, Lilly."
+hi "อื้ม นั่นสินะ งั้นเจอกันนะลิลลี่"
 
 scene bg school_hallway2
 show lilly basic_smile at twoleft
 show hanako emb_smile at tworight
 with locationskip
 
-"Walking through the hallways back to our classrooms, I notice that Hanako seems quieter than before, but also more comfortable."
+# "Walking through the hallways back to our classrooms, I notice that Hanako seems quieter than before, but also more comfortable."
+"ระหว่างที่เดินไปตามโถงทางเดินฉันก็สังเกตเห็นว่าฮานาโกะดูเงียบกว่าปกติ แต่ก็ดูสบายใจขึ้นด้วย"
 
-"Lilly, her hand on Hanako's shoulder, seems to pick up on her assured pace as well, smiling as they walk."
+# "Lilly, her hand on Hanako's shoulder, seems to pick up on her assured pace as well, smiling as they walk."
+"ลิลลี่จับไหล่ฮานาโกะไว้ เหมือนว่าเธอเองก็จับจังหวะเดินให้สบายได้แล้วเช่นกัน เธอเดินไปพลางยิ้ม"
 
-"If I could spend the rest of my time at Yamaku like this, I don't think it'd be so bad. All that's needed for joy are small exchanges of happiness, after all."
+# "If I could spend the rest of my time at Yamaku like this, I don't think it'd be so bad. All that's needed for joy are small exchanges of happiness, after all."
+"การที่ต้องใช้เวลาที่เหลืออยู่ในรั้วยามากุเช่นนี้ไปจนจบก็คงไม่ใช่เรื่องที่แย่อะไร ยังไงเสีย แค่ได้ใช้เวลาอยู่ร่วมกัน\nอย่างมีความสุขเช่นนี้ฉันก็ยินดีมากแล้ว"
 
 scene bg school_scienceroom
 with locationskip
 
 play sound sfx_rumble
 
-"As I reach my desk and set my bag beside it, I realize something. Or rather, my stomach does."
+# "As I reach my desk and set my bag beside it, I realize something. Or rather, my stomach does."
+"พอฉันเดินมาถึงโต๊ะตัวเองแล้ววางกระเป๋าลงข้างโต๊ะก็นึกบางอย่างขึ้นได้ ไม่สิ เป็นท้องฉันที่นึกขึ้นได้มากกว่า"
 
-"I was so busy with those two, I forgot to buy lunch…"
+# "I was so busy with those two, I forgot to buy lunch…"
+"ฉันอยู่กับสองคนนั้นจนลืมซื้อข้าวเที่ยงไปเลย…"
 
 stop music fadeout 2.0
 
