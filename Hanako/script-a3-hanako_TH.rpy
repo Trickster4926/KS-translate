@@ -765,30 +765,38 @@ show hanako basic_bashful_close:
     ypos 1.09
 with dissolvecharamove
 
-"I give up on the prospect of having much of a conversation with my companion and decide to just enjoy the meal, small as it may be."
+# "I give up on the prospect of having much of a conversation with my companion and decide to just enjoy the meal, small as it may be."
+"ฉันไม่คาดหวังต่อแล้วว่าจะได้คุยอะไรมากมายกับเพื่อนร่วมโต๊ะคนนี้แล้วกินข้าวไปสบาย ๆ แม้จะไม่ใช่มื้อหรูหราอะไรก็ตาม"
 
-"It tastes nice, as does most of the food here. After having a few mouthfuls, I notice something's missing. Namely, the sound of Hanako eating."
+# "It tastes nice, as does most of the food here. After having a few mouthfuls, I notice something's missing. Namely, the sound of Hanako eating."
+"ซึ่งก็อร่อยดี อาหารส่วนใหญ่ที่นี่ก็อร่อยเหมือนกัน หลังจากกินไปสองสามคำ ฉันก็รู้สึกว่ายังขาดอะไรบางอย่างไป นั่นคือเสียงฮานาโกะที่กำลังกิน"
 
 show hanako basic_distant_close
 with charachange
 
-"Looking back to her, I see Hanako fidgeting a little behind her untouched sandwich."
+# "Looking back to her, I see Hanako fidgeting a little behind her untouched sandwich."
+"พอมองกลับไปยังเธอ ก็เห็นฮานาโกะกำลังนั่งอยู่ไม่สุขข้างหลังแซนด์วิชที่เธอยังไม่ได้กิน"
 
-hi "Not hungry?"
+# hi "Not hungry?"
+hi "ยังไม่หิวเหรอ"
 
 show hanako cover_worry_close
 with charachange
 
-"She shakes her head from side to side. Even as she does, the patch of hair she keeps over the right side of her face still does its job in hiding it almost entirely."
+# "She shakes her head from side to side. Even as she does, the patch of hair she keeps over the right side of her face still does its job in hiding it almost entirely."
+"เธอส่ายหัวไปมา แต่ถึงแม้เธอจะทำเช่นนั้น ผมที่ปรกใบหน้าส่วนขวาของเธอก็ยังคงทำหน้าที่ปกปิดแผลไว้ได้เกือบทั้งหมดอยู่ดี"
 
-ha "I-it's not that."
+# ha "I-it's not that."
+ha "มะ-ไม่ใช่อย่างนั้น"
 
-hi "Aw. I was all ready to have your share, too."
+# hi "Aw. I was all ready to have your share, too."
+hi "โห่ ฉันกะว่าจะกินส่วนของเธอสักหน่อย"
 
 show hanako basic_worry_close
 with charachange
 
-ha "You looked… t-troubled. I-is something… w-wrong?"
+# ha "You looked… t-troubled. I-is something… w-wrong?"
+ha "นายดู… ละ-ลำบากใจนะ มะ-มีอะไรหรือปะ-เปล่า?"
 
 "I'm startled by her thinking that I'm the one who looks troubled, but on second thought, she's probably right. My face may have given away my emotions without me noticing, and she's hardly a dim person; quite the opposite."
 
