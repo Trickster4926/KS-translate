@@ -33,7 +33,7 @@ play sound sfx_doorclose
 window show
 
 # "Hearing the student council room door click closed to my right tells me that isn't the case. I guess I got here just behind her."
-"เมื่อได้เสียงปิดประตูห้องสภานักเรียนที่ดังมาจากทางด้านขวาแล้วฉันก็ได้รู้ว่าไม่ใช่อย่างที่คิด สงสัยฉันคงจะมาช้ากว่า\nไปนิดหน่อย"
+"เมื่อได้ยินเสียงปิดประตูห้องสภานักเรียนที่ดังมาจากทางด้านขวาแล้วฉันก็ได้รู้ว่าไม่ใช่อย่างที่คิด สงสัยฉันคงจะมาช้ากว่า\nไปนิดหน่อย"
 
 play sound sfx_dooropen
 
@@ -41,7 +41,7 @@ scene bg school_council
 with locationchange
 
 # "I enter the room and tap Shizune on the shoulder to get her attention."
-"ฉันเข้าไปในห้องแล้วแตะ ๆ ไหล่ให้เธอหันมา"
+"ฉันเข้าไปในห้องแล้วแตะ ๆ ไหล่ ให้เธอหันมา"
 #i don't get this sequence of events at all
 #You know how you remove the "X smiles" lines because they say things you should direct instead? This is how things look without them. For example, I expected to open at Hisao's room, and a series of BG changes until reaching the council room. -SC
 #I think I fixed it... somewhat?
@@ -110,7 +110,7 @@ ssh "…อืม เอาเถอะ ยังเหลือเวลาใ�
 "แล้วเธอก็หยิบน้ำผลไม้ขึ้นมาดูดจนหมด จะโยนกล่องทิ้งลงถังขยะหรือเปล่านะ แต่ก็ไม่โยน เธอดูงง ๆ ที่ฉันดูผิดหวัง\nเข้าเรื่องเลยดีกว่า"
 
 # his "I just wanted to talk. Our break is practically here, you know."
-his "แค่อยากคุยน่ะ เนี่ย นี่ก็ปิดเทอมแล้ว"
+his "แค่อยากคุยน่ะ เนี่ย นี่ก็จะปิดเทอมแล้ว"
 
 # his "And we should spend more time together, anyway. I was thinking that we could do that over the summer."
 his "แล้วเราก็ต้องอยู่ด้วยกันให้มากขึ้นด้วย เลยกะว่าปิดเทอมฤดูร้อนรอบนี้หาเวลามาอยู่ด้วยกันดีมั้ยนะ"
@@ -1649,7 +1649,7 @@ with charachange
 hh "อย่างนี้นี่เอง"
 
 # "I was just about to ask him about what Shizune was like when she was younger, but he's managed to sidetrack me with just one question. This appears to be as awkward a conversation for him as it is for me."
-"เมื่อกี้กำลังจะถามว่าตอนเด็ก ๆ ชิซูเนะเป็นยังไง แต่เขาก็ถามแทรกขึ้นมาก่อน เหมือนว่าต่างคนต่างก็รู้สึกเก้ ๆ กัง ๆ กับบทสนทนานี้"
+"เมื่อกี้กำลังจะถามว่าตอนเด็ก ๆ ชิซูเนะเป็นยังไง แต่เขาก็ถามแทรกขึ้นมาก่อน เหมือนว่าต่างคนต่างก็รู้สึกเก้ ๆ กัง ๆ กับ\nบทสนทนานี้"
 
 # hi "You're sure eager to please today. Why are you being so nice? Are you showing your secret nice side now that your sister isn't around?"
 hi "วันนี้นายพร้อมปรนนิบัติเหลือเกินนะ ทำไมทำตัวดีขนาดนี้ พอพี่นายไม่อยู่แล้วจะเผยด้านดี ๆ ที่ซ่อนไว้หรือไง"
@@ -1884,7 +1884,7 @@ show hideaki evil
 with charachange
 
 # hh "Are you afraid that you will lose? If you can beat me I'll give you candy."
-hh "กลัวว่าจะแพ่เหรอครับ ถ้าพี่เอาชนะผมได้ผมจะให้ขนม"
+hh "กลัวว่าจะแพ้เหรอครับ ถ้าพี่เอาชนะผมได้ผมจะให้ขนม"
 
 # hi "Hideaki, you are just like Shizune. I'm starting to think this is all a pretense to play games."
 hi "ฮิเดอากิ นายนี่เหมือนชิซูเนะเลย ฉันเริ่มคิดแล้วว่าหรือทั้งหมดนี่คือแผนที่จะได้มาเล่นเกมกัน"
@@ -1896,7 +1896,7 @@ with charachange
 hh "ไม่จริงสักหน่อยครับ"
 
 # hi "You are! I bet that competitive streak is genetic. I'll sell you to science."
-hi "จริงสิ! พนันได้เลยว่าเชื้อชอบแข่งเนี่ยอยู่ในสายเลือดแล้ว เดี๋ยวต้องลองเอาไปขายให้พวกนักวิทยาศาสตร์\nวิเคราห์ดูแล้ว"
+hi "จริงสิ! พนันได้เลยว่าเชื้อชอบแข่งเนี่ยอยู่ในสายเลือดแล้ว เดี๋ยวต้องลองเอาไปขายให้พวกนักวิทยาศาสตร์\nวิเคราะห์ดูแล้ว"
 
 show hideaki normal
 with charachange
@@ -2931,7 +2931,7 @@ hx "…สมัยฉันอายุเท่าเธอ เด็ก ๆ �
 "ฟังดูเหมือนชิซูเนะกับมิช่าแปลก ๆ เมื่อวานฉันก็คิดอะไรประมาณนี้ แต่เหมือนนิดหน่อยแค่นั้นแหละ"
 
 # hx "Look at yourself. An amoral, directionless, delinquent glue-huffer, with a complete lack of etiquette and absolutely no fashion sense. You are tomorrow's Japan. Disgraceful. Is this the future of this once-great country?"
-hx "ดูตัวเองซิเนี่ย เป็นดมกาวไร้ทิศทางไร้ศีลธรรม มารยาทก็ไม่มี หัวทางด้านการแต่งตัวก็ไม่ได้ เธอคืออนาคตของญี่ปุ่นนะ\nน่าขายหน้าจริง ๆ นี่น่ะเหรออนาคตของชาติที่เคยรุ่งเรือง"
+hx "ดูตัวเองซิเนี่ย เป็นคนดมกาวไร้ทิศทางไร้ศีลธรรม มารยาทก็ไม่มี หัวทางด้านการแต่งตัวก็ไม่ได้ เธอคืออนาคตของญี่ปุ่น\nน่าขายหน้าจริง ๆ นี่น่ะเหรออนาคตของชาติที่เคยรุ่งเรือง"
 
 # hi "I know someone you would get along well with."
 hi "ผมพอรู้จักคนที่น่าจะอยู่กับคุณได้"
@@ -4550,7 +4550,7 @@ ke "เคาะดังจนรู้เลยว่าโกรธนาย�
 "ฉันอ้าปากเตรียมบอกว่าเธอหูหนวก แต่แล้วก็ตัดใจไม่บอกไปด้วยเหตุผลหลายประการ"
 
 # ke "I didn't really get it, and she got more and more pissed off, like an old man trying to use a touchscreen phone."
-ke "ไม่เข้าใจเลย แล้วยิ่งดูโมโหขึ้นเรื่อย ๆ อีกต่างหาก สภาพอย่างกับคนแก่ใช้มือถือจอสัมผัส"
+ke "ไม่เข้าใจเลย แล้วยิ่งดูโมโหขึ้นเรื่อย ๆ อีกต่างหาก สภาพอย่างกับคนแก่ ใช้มือถือจอสัมผัส"
 
 show kenji happy_close
 with charachange
@@ -5154,7 +5154,7 @@ hi "ไม่รู้ทำไมเหมือนกัน"
 "เมื่อกี้แวบหนึ่งชิซูเนะ “คุย” เหมือนอย่างกับพ่อเธอเลย แล้วดันออกมาจากปากมิช่าอีก ขนลุก"
 
 # hi "Well, first off, shadow shogun, you can't really make that call. They'll be elected. Second, it's just a school election. It's not like running for city council, or the Diet. I don't think Japanese campaigning laws apply."
-hi "เอาละ อย่างแรกเลยนะครับท่านผู้กุมอำนาจอยู่เบื้องหลัง คุณไม่ใช่คนที่จะตัดสินใจเรื่องนั้นครับ เดี๋ยวคนจะเลือกตั้ง\nกันมาเอง อย่างที่สอง อันนี้มันแค่เลือกตั้งกันในโรงเรียนครับ เราไม่ได้จะเลือกตั้งสมาชิกสภาท้องถิ่นหรือรัฐสภากัน\nนะครับ พระราชบัญญัติการเลือกตั้งสส. ญี่ปุ่นอะไรนั่นไม่น่าเกี่ยวกันนะ"
+hi "เอาละ อย่างแรกเลยนะครับท่านผู้กุมอำนาจอยู่เบื้องหลัง คุณไม่ใช่คนที่จะตัดสินใจเรื่องนั้นครับ เดี๋ยวคนจะเลือกตั้ง\nกันมาเอง อย่างที่สอง อันนี้มันแค่เลือกตั้งกันในโรงเรียนครับ เราไม่ได้จะเลือกตั้งสมาชิกสภาท้องถิ่นหรือรัฐสภากัน\nนะครับ พระราชบัญญัติการเลือกตั้งสส. ญี่ปุ่นอะไรนั่นไม่น่าเกี่ยวกันนะครับ"
 
 # "Third, although I don't want to say it, I'm nervous that Shizune is so enthusiastic about this, talking of elections and votes."
 "อย่างที่สาม ซึ่งฉันไม่อยากพูด คือฉันใจคอไม่ดีที่ชิซูเนะคุยเรื่องการเลือกตั้งและดูกระตือรือร้นกับเรื่องนี้เหลือเกิน"
@@ -5175,7 +5175,7 @@ hi "เอาละ อย่างแรกเลยนะครับท่า
 "ฉันเติมเครื่องหมายอัศเจรีย์ใส่โปสเตอร์ที่ฉันกำลังทำอยู่ เติมหน่อยคงไม่เป็นไรเพราะตัวโปสเตอร์ก็ดูเรียบไปหน่อย\nอันที่จริง เติมแล้วก็อาจจะยังดูเรียบไปหน่อยอยู่ดี ขยายขนาดขึ้นเป็นสองเท่าเลยดีกว่า"
 
 # hi "I still say you need to slow down. If this stuff isn't going to be relevant for months, maybe you're working a little too hard on it. That's what I think. You're worrying too much."
-hi "แต่นั่นแหละ เพลา ๆ ลงหน่อยก็ดีนะ ถ้ายังมีเวลาอีกหลายเดือนแล้วทุ่มขนาดนี้ก็เกินไปมั้ง ฉันคิดว่างั้นนะ เธอพะวงมากไปแล้ว"
+hi "แต่นั่นแหละ เพลา ๆ ลงหน่อยก็ดีนะ ถ้ายังมีเวลาอีกหลายเดือนแล้วทุ่มขนาดนี้ก็เกินไปมั้ง ฉันคิดว่างั้นนะ เธอพะวง\nมากไปแล้ว"
 
 # "I don't know how to sign the word “relevant.” I try, and only end up flicking a long line of paint where I didn't intend to. There is no way I can fix that."
 "ฉันทำภาษามือคำว่า “พะวง” ไม่เป็น พอจะลองทำก็กลายเป็นว่ามือเผลอลากสีเป็นเส้นไปใส่ตรงที่ไม่ได้อยากใส่ จะแก้\nก็ไม่ได้แล้ว"
@@ -5226,7 +5226,7 @@ show shizu basic_normal2
 with charachange
 
 # ssh "…And then the worst case scenario would be not having any candidates."
-ssh "…แล้วกรณีที่แย่ที่สุดก็คือการที่ไม่มีผู้สมัครเลบ"
+ssh "…แล้วกรณีที่แย่ที่สุดก็คือการที่ไม่มีผู้สมัครเลย"
 
 # "Although it seems she meant it jokingly, from the way she smiles as she signs it, that isn't how it comes out."
 "ถึงดูเหมือนเธอจะพูดหยอกเล่น แต่ดูจากรอยยิ้มกับท่าทางในภาษามือแล้วดูท่าว่าจะจริงจัง"
@@ -5564,7 +5564,7 @@ mi "วะฮ่าฮ่า~! ไม่ ไม่ใช่อย่างนั
 "สุดท้ายฉันก็สั่งกาแฟ แต่ก็ต้องรอสักพักกว่าพนักงานจะเห็น และกว่าจะได้กาแฟก็คงนานพอกัน"
 
 # "The tea shop is filling up. No surprise, as we've already been here for almost an hour while she was chipping at that dessert. I order my coffee to go, but Misha orders one as well, so it seems that we're going to be here longer than I thought."
-"คนเริ่มเข้ามาร้านน้ำชามากขึ้นเรื่อย ๆ ก็ไม่แปลก ตอนที่นั่งรอมิช่ากินของหวานนี่ก็อยู่มาเกือบชั่วโมงแล้ว ฉันสั่งกาแฟ\nแบบถือกลับบ้าน แต่มิช่าก็สั่งตาม ดูท่าว่าจะได้แช่อยู่ที่นี่นานกว่าที่คาดเอาไว้"
+"คนเริ่มเข้าโรงน้ำชามามากขึ้นเรื่อย ๆ ก็ไม่แปลก ตอนที่นั่งรอมิช่ากินของหวานนี่ก็อยู่มาเกือบชั่วโมงแล้ว ฉันสั่งกาแฟ\nแบบถือกลับบ้าน แต่มิช่าก็สั่งตาม ดูท่าว่าจะได้แช่อยู่ที่นี่นานกว่าที่คาดเอาไว้"
 
 # hi "I really wish it was that easy. It's hard to talk to her lately."
 hi "ถ้ามันง่ายอย่างนั้นก็ดีสิ ช่วงนี้แทบไม่ได้คุยกับชิซูเนะเลย"
@@ -5722,7 +5722,7 @@ play sound sfx_paper
 play music music_normal fadein 3.0
 
 # "In class the next afternoon, I'm two problems into a math logic worksheet when a folded up piece of paper hits me in the head. I'm sure I know whom it's from, but I quickly look around the classroom anyway, just in case."
-"ฉันกำลังทำแบบฝึกหัดเรื่องตรรกะทางคณิตศาสตร์อยู่ในห้องเรียนยามบ่ายถัดจากวันนั้น เมื่อทำไปได้สองข้อก็มี\nก้อนกระดาษถูกโยนมาที่หัวฉัน ถึงจะรู้แล้วแหละว่าใครโยนมา แต่ฉันก็หันไปดูเพื่อความแน่ใจอีกที"
+"ฉันกำลังทำแบบฝึกหัดเรื่องตรรกศาสตร์อยู่ในห้องเรียนยามบ่ายถัดจากวันนั้น เมื่อทำไปได้สองข้อก็มี\nก้อนกระดาษถูกโยนมาที่หัวฉัน ถึงจะรู้แล้วแหละว่าใครโยนมา แต่ฉันก็หันไปดูเพื่อความแน่ใจอีกที"
 
 show shizu invis at left
 with None
@@ -5842,7 +5842,7 @@ play sound sfx_impact2
 with vpunch
 
 # "Right before the bell rings, she caps her pen and triumphantly slams it on her desk with an ear-popping crack that makes the whole room jump, quickly forgotten because everyone would rather go to lunch than question its origin."
-"ก่อนระฆังจะดังไม่กี่วินาทีชิซูเนะก็ปิดปลอกปากกาแล้วกระแทกเข้ากับโต๊ะด้วยเสียงอันดันจนทั้งห้องสะดุ้ง แต่หลังจากนั้น\nก็ไม่มีใครสนใจจะดูว่าเป็นเสียงอะไรเพราะทุกคนอยากพักเที่ยงกันแล้ว"
+"ก่อนระฆังจะดังไม่กี่วินาทีชิซูเนะก็ปิดปลอกปากกาแล้วกระแทกเข้ากับโต๊ะด้วยเสียงอันดังจนทั้งห้องสะดุ้ง แต่หลังจากนั้น\nก็ไม่มีใครสนใจจะดูว่าเป็นเสียงอะไรเพราะทุกคนอยากพักเที่ยงกันแล้ว"
 
 stop music fadeout 6.0
 
@@ -6875,7 +6875,7 @@ show kenji neutral at center
 with dissolvecharamove
 
 # "He does come almost right back, so quickly that I suspect he knows about my secret vending machine."
-"เขาไปแล้วกลับมาแทบจะในทันที เร็วจนฉันสงสัยว่าเขารู้ตู้ขายของแบบหยอดเหรียญลับของฉันหรือเปล่า"
+"เขาไปแล้วกลับมาแทบจะในทันที เร็วจนฉันสงสัยว่าเขารู้พิกัดตู้ขายของแบบหยอดเหรียญลับของฉันหรือเปล่า"
 
 # ke "I got you one, too. Hope you like grape juice. We're even for the pizza, now."
 ke "ฉันซื้อมาเผื่อนายด้วย หวังว่านายจะชอบน้ำองุ่นนะ ทีนี้เราก็เจ๊ากันเรื่องพิซซ่าแล้ว"
@@ -7742,7 +7742,7 @@ mi "ไม่ดีใจเหรอที่ได้เจอฉัน~…"
 hi "ไม่ใช่อย่างนั้น ฉันแค่ตกใจน่ะ นี่ชิซูเนะนึกออกแล้วเหรอว่าจะให้ฉันช่วยอะไร"
 
 # hi "It's late, but… whatever. I guess it's good that I didn't change."
-hi "คือดึกแล้วแหละ แต่ก็… ช่างเหอะ ยังดีนะที่ไม่ได้เปลี่ยนชุด"
+hi "คือก็ค่ำแล้วแหละ แต่ก็… ช่างเหอะ ยังดีนะที่ไม่ได้เปลี่ยนชุด"
 
 show mishashort sign_smile
 with charachange
@@ -7804,7 +7804,7 @@ mi "ตอนฉันไปที่ห้องทำงานวันนี�
 hi "ไม่ใช่ฉันแล้วแหละ ฉันไม่เห็นด้วยซ้ำ"
 
 # hi "I think she's depressed that she won't be Student Council president any more in a few months."
-hi "ฉันว่าชิจังหดหู่ที่อีกไม่กี่เดือนก็จะไม่ได้เป็นสภานักเรียนแล้ว"
+hi "ฉันว่าชิซูเนะหดหู่ที่อีกไม่กี่เดือนก็จะไม่ได้เป็นสภานักเรียนแล้ว"
 
 show mishashort perky_confused_ss
 with charachange
