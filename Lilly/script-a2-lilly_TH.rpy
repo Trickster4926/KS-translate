@@ -796,14 +796,17 @@ label th_L2:
 scene bg school_dormhisao
 with locationchange
 
-"Saturday. My second most favorite day of the week."
+# "Saturday. My second most favorite day of the week."
+"วันเสาร์ วันที่ฉันชอบเป็นอันดับสอง"
 
-"This is almost entirely due to the fact that it is the day with the second least amount of school, with class ending at the beginning of lunch."
+# "This is almost entirely due to the fact that it is the day with the second least amount of school, with class ending at the beginning of lunch."
+"หลัก ๆ ที่ชอบก็เพราะวันนี้เป็นวันที่มีเรียนน้อยที่สุดเป็นอันดับสอง โดยจะเลิกเรียนก่อนพักเที่ยง"
 
 scene bg school_dormhallway
 with locationchange
 
-"I open my door confidently, myself being more than confident of being able to get enjoyment out of the fine weather and shorter class length."
+# "I open my door confidently, myself being more than confident of being able to get enjoyment out of the fine weather and shorter class length."
+"ฉันเปิดประตูด้วยความมั่นใจเป็นอย่างยิ่งว่าวันที่มีเรียนน้อยและอากาศดีเช่นนี้จะเป็นวันที่ดี"
 
 scene bg school_dormhallground
 with locationchange
@@ -811,15 +814,18 @@ with locationchange
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_footsteps_hard
 
-"I confidently stride down the hallway and down the stairs to the lobby of the male dorms."
+# "I confidently stride down the hallway and down the stairs to the lobby of the male dorms."
+"ฉันเดินอาด ๆ ไปตามโถงทางเดินลงบันไดไปที่โถงหอชายอย่างมั่นใจ"
 
 $ renpy.music.set_volume(0.6, 4.0, channel="ambient")
 
-"I confidently look behind me to see whose footsteps are approaching."
+# "I confidently look behind me to see whose footsteps are approaching."
+"ฉันหันไปมองว่าเสียงฝีเท้าที่ตามมาว่าเป็นใครอย่างมั่นใจ"
 
 $ renpy.music.set_volume(1.0, 4.0, channel="ambient")
 
-"I… lose my confidence in this day being enjoyable."
+# "I… lose my confidence in this day being enjoyable."
+"ฉัน… ไม่มั่นใจแล้วว่าวันนี้จะเป็นวันที่ดี"
 
 stop ambient
 play music music_kenji fadein 0.5
@@ -830,21 +836,26 @@ show kenji happy:
     easein 0.5 xpos 0.5
 with charaenter
 
-ke "Hey man. Sup?"
+# ke "Hey man. Sup?"
+ke "ไงพวก ทำไร"
 
-hi "Not much I guess, just looking forward to the afternoon. You?"
+# hi "Not much I guess, just looking forward to the afternoon. You?"
+hi "ไม่ทำไรมั้ง รอพักเที่ยงแหละ นายอะ"
 
 show kenji happy_close at center
 with characlose
 
-"He wraps an arm around my slumped shoulders far too comfortably. Something's up."
+# "He wraps an arm around my slumped shoulders far too comfortably. Something's up."
+"เขาจับไหล่ฉันที่หย่อนลงด้วยความคุ้นเคยที่ออกจะมากเกินไป ชักจะแปลก ๆ แล้ว"
 
 show kenji neutral_close
 with charachange
 
-ke "Let's step outside, shall we?"
+# ke "Let's step outside, shall we?"
+ke "ไปข้างนอกกัน"
 
-hi "I was just about to, before you stopped me."
+# hi "I was just about to, before you stopped me."
+hi "ก็กำลังจะไปเนี่ย แต่นายมาทักก่อน"
 
 show kenji tsun_close
 with charachange
@@ -852,9 +863,11 @@ with charachange
 scene bg school_dormext_full
 with locationchange
 
-"He doesn't take my reaction to his theatrics well. Ignoring him, I walk outside and start down the steps."
+# "He doesn't take my reaction to his theatrics well. Ignoring him, I walk outside and start down the steps."
+"เคนจิไม่ได้สนใจที่ฉันตอบไปเลยแม้แต่น้อย ฉันเมินเขาแล้วเดินมาตามบันได"
 
-"It doesn't take too long for him to catch up with me again. I wonder if he wants money, or to rant about another conspiracy. Maybe both."
+# "It doesn't take too long for him to catch up with me again. I wonder if he wants money, or to rant about another conspiracy. Maybe both."
+"ไม่นานนักเขาก็ตามมาจนทันกับฉัน นี่จะมายืมเงินหรือพล่ามเรื่องทฤษฎีสมคบคิดอีกล่ะเนี่ย คงจะทั้งสองอย่างมั้ง"
 
 show kenji tsun:
     center
@@ -862,186 +875,244 @@ show kenji tsun:
     easein 0.5 xpos 0.5
 with charaenter
 
-ke "I've got a bone to pick with you."
+# ke "I've got a bone to pick with you."
+ke "ฉันอยากจะท้วงอะไรนายหน่อย"
 
-hi "Uh huh."
+# hi "Uh huh."
+hi "อาฮะ"
 
-ke "It's about that blonde. You know who I'm talking about."
+# ke "It's about that blonde. You know who I'm talking about."
+ke "เรื่องยัยผมสีบลอนด์นั่น นายรู้ใช่มั้ยว่าฉันพูดถึงใคร"
 
-"Conspiracy it is. For a moment I contemplate feigning ignorance, but realize this will go quicker if I just let him get it all out."
+# "Conspiracy it is. For a moment I contemplate feigning ignorance, but realize this will go quicker if I just let him get it all out."
+"ทฤษฎีสมคบคิดสินะ ฉันนึกชั่งใจอยู่ครู่หนึ่งว่าจะทำเป็นไขสือไปเลยดีไหม แต่บอก ๆ ไปเลยน่าจะจบเรื่องได้เร็วกว่า"
 
-hi "Lilly? The one from your class?"
+# hi "Lilly? The one from your class?"
+hi "ลิลลี่ที่อยู่ห้องนายอะนะ"
 
 show kenji rage at center
 with vpunch
 
-ke "You're on first name terms with her?!"
+# ke "You're on first name terms with her?!"
+ke "นี่สนิทถึงขั้นเรียกชื่อกันแล้วเหรอ!"
 
-"He looks positively shocked at this development. Did he not expect me to be able to answer?"
+# "He looks positively shocked at this development. Did he not expect me to be able to answer?"
+"เขาตกตะลึงพรึงเพริดไปเมื่อได้ยินเช่นนั้น นี่คิดว่าฉันจะไม่ตอบหรือไง"
 
 show kenji tsun
 with charachange
 
-"He gathers himself and coughs into his fist. Dramatically, like everything he does."
+# "He gathers himself and coughs into his fist. Dramatically, like everything he does."
+"เขาตั้งสติแล้วกระแอมใส่กำปั้นตัวเองอย่างเล่นใหญ่ ตามปกติที่ทำอะไรก็เวอร์หมดนั่นแหละ"
 
-ke "Well, never mind that. I'm here to warn you. You know. Man to man."
+# ke "Well, never mind that. I'm here to warn you. You know. Man to man."
+ke "เออ ช่างเหอะ ฉันมาเตือนนาย เนี่ย ในฐานะลูกผู้ชายด้วยกันไง"
 
-hi "Warn me about what? Lilly?"
+# hi "Warn me about what? Lilly?"
+hi "เตือนเรื่องอะไร ลิลลี่เหรอ"
 
-ke "Yeah. You don't know her, man."
+# ke "Yeah. You don't know her, man."
+ke "เออ นายจะไปรู้จักอะไรยัยนั่น"
 
-"It's mostly true. I've only known her and Hanako for less than two weeks, and even then we've just been exchanging banal chatter about school as we while away lunch."
+# "It's mostly true. I've only known her and Hanako for less than two weeks, and even then we've just been exchanging banal chatter about school as we while away lunch."
+"ก็จริงอยู่ ฉันรู้จักลิลลี่กับฮานาโกะมาได้ยังไม่ถึงสองสัปดาห์เลย แล้วที่คุยกันแต่ละทีก็คุยแต่อะไรพื้น ๆ เรื่องโรงเรียน\nไปเรื่อยเปื่อยตอนกินข้าวเที่ยงด้วยกัน"
 
-hi "I'm pretty sure you don't either."
+# hi "I'm pretty sure you don't either."
+hi "ฉันว่านายก็ไม่น่ารู้จักเหมือนกันนะ"
 
-ke "That's not the point. You're the one spending inordinate amounts of time with her."
+# ke "That's not the point. You're the one spending inordinate amounts of time with her."
+ke "ฉันจะรู้จักมั้ยไม่ใช่ประเด็น นายนั่นแหละคือคนที่ใช้เวลามากเกินปกติกับยัยนั่น"
 
-"It distresses me that someone like Kenji, who's probably as far out of the loop as one could possibly get, knows about such a trivial fact as who I choose to befriend."
+# "It distresses me that someone like Kenji, who's probably as far out of the loop as one could possibly get, knows about such a trivial fact as who I choose to befriend."
+"คิดแล้วก็หดหู่ คนอย่างเคนจิที่สภาพน่าจะไม่รับรู้เรื่องข่าวสารบ้านเมืองอะไรสุด ๆ แล้วดันมารู้เรื่องหยุมหยิมอย่างเช่น\nว่าฉันไปเป็นเพื่อนกับใครคนไหนเนี่ย"
 
-"Then again… I am a transfer student, and she's not only the representative of their class, but also a tall blonde."
+# "Then again… I am a transfer student, and she's not only the representative of their class, but also a tall blonde."
+"แต่ก็นะ… ฉันย้ายมาใหม่ อีกฝั่งก็เป็นหัวหน้าห้อง แถมเป็นคนผมสีบลอนด์ที่ตัวสูงอีก"
 
-"Maybe I should appreciate this ranting as a warning that the rumor mill exists in this school, and that I'm firmly within it."
+# "Maybe I should appreciate this ranting as a warning that the rumor mill exists in this school, and that I'm firmly within it."
+"บางทีการที่เขาพล่ามก็คงจะนับเป็นการเตือนได้ว่าโรงเรียนนี้ยังมีพวกเรื่องข่าวลืออยู่ แถมกระสุนก็ตกใส่หัวฉันได้แน่ ๆ"
 
-hi "It's just lunch. Nothing special."
+# hi "It's just lunch. Nothing special."
+hi "ก็แค่กินข้าวเที่ยงน่า ไม่มีอะไรเป็นพิเศษหรอก"
 
 show kenji neutral
 with charachange
 
-ke "Look, man, under the bridge. See this bridge? You're under it. A man's gotta do what a man's gotta do to get intel."
+# ke "Look, man, under the bridge. See this bridge? You're under it. A man's gotta do what a man's gotta do to get intel."
+ke "เนี่ย พวก ที่ลับไง เห็นที่ลับตรงสะพานนั้นมั้ย นายอยู่ตรงที่ลับนั้นแหละ คนเราถ้าอยากได้ความลับต้องไปล้วงจากที่ลับเว้ย"
 
 show kenji tsun
 with charachange
 
-ke "I just want to make sure you don't end up too far under the bridge."
+# ke "I just want to make sure you don't end up too far under the bridge."
+ke "ฉันแค่จะเตือนไม่ให้นายหลงในที่ลับจนลึกเกินไป"
 
-hi "You're losing me, Kenji."
+# hi "You're losing me, Kenji."
+hi "ยังไงนะเคนจิ ฉันตามไม่ทันละ"
 
 show kenji happy
 with charachange
 
-ke "That's okay, lots of people get lost. That's why I'm here to help."
+# ke "That's okay, lots of people get lost. That's why I'm here to help."
+ke "ไม่เป็นไร มีหลายคนแหละที่ตามอะไรไม่ทัน ฉันถึงได้มาช่วยยังไงละ"
 
 scene bg school_gardens
 show kenji neutral
 with locationskip
 
-ke "Just be careful around her, okay? She looks all harmless on the outside, but I've heard shit. Bad shit."
+# ke "Just be careful around her, okay? She looks all harmless on the outside, but I've heard shit. Bad shit."
+ke "แค่ระวังตัวไว้ตอนอยู่กับยัยนั่นก็พอ ภายนอกอาจะดูไม่มีพิษภัย แต่ฉันได้ยินอะไรแย่ ๆ มาเยอะ"
 
 show kenji tsun
 with charachange
 
-ke "You know the Student Council, right?"
+# ke "You know the Student Council, right?"
+ke "นายรู้จักพวกสภานักเรียนใช่มั้ย"
 
-"He seems to involuntarily shudder as he says the words. Putting him and Shizune together in a room is an amusing mental exercise. I wonder if they've met."
+# "He seems to involuntarily shudder as he says the words. Putting him and Shizune together in a room is an amusing mental exercise. I wonder if they've met."
+"พอเขาพูดแล้วก็ตัวสั่นไปเหมือนไม่รู้ตัว คิดแล้วก็คงตลกดีถ้าจับเคนจิไปอยู่ในห้องเดียวกันกับชิซูเนะ สองคนนี้เคย\nเจอกันหรือยังนะ"
 
-hi "Yeah, Shizune and Misha are in my class. I seem to have dodged the draft, though."
+# hi "Yeah, Shizune and Misha are in my class. I seem to have dodged the draft, though."
+hi "อืม ชิซูเนะกับมิช่าเรียนอยู่ห้องเดียวกันกับฉัน แต่เหมือนฉันจะหนีความตายมาได้น่ะนะ"
 
 show kenji happy
 with charachange
 
-ke "Good man. Good man."
+# ke "Good man. Good man."
+ke "ดีแล้ว ดีแล้ว"
 
 show kenji tsun
 with charachange
 
-ke "But this blonde? She was there. In the Student Council. Right. Damn. There."
+# ke "But this blonde? She was there. In the Student Council. Right. Damn. There."
+ke "แต่ยัยผมสีบลอนด์นั่นน่ะนะเคยเป็นสภานักเรียน เป็น สภา นักเรียน"
 
-hi "I see. And?"
+# hi "I see. And?"
+hi "อ้อ แล้ว?"
 
-ke "And she's not there now."
+# ke "And she's not there now."
+ke "แล้วก็ไม่ได้เป็นแล้ว"
 
 stop music fadeout 3.0
 
 hi "…"
 
-ke "Seriously, think about it. Something must have gone down."
+# ke "Seriously, think about it. Something must have gone down."
+ke "เฮ้ย ลองคิดดูสิ มันต้องมีอะไรเกิดขึ้นแน่ ๆ"
 
-"I stop walking for a moment, giving the idea more thought than I probably should."
+# "I stop walking for a moment, giving the idea more thought than I probably should."
+"ฉันหยุดยืนอยู่ครู่หนึ่งพลางคิด ซึ่งคิดแล้วก็น่าจะเปลืองสมองไปเหมือนกัน"
 
-"It would explain that fight the two had, at least in part. Wait, no, not really. Even leaving the Student Council would need a catalyst."
+# "It would explain that fight the two had, at least in part. Wait, no, not really. Even leaving the Student Council would need a catalyst."
+"ซึ่งถ้าเป็นอย่างนั้น การที่สองคนนั้นทะเลาะกันส่วนหนึ่งก็คงมาจากเรื่องสภานักเรียน เดี๋ยว ไม่สิ ไม่น่าใช่นะ เพราะการ\nที่จะลาออกจากสภานักเรียนได้มันต้องมีจุดเปลี่ยนสักอย่าง"
 
-"In the end, it doesn't explain much at all. Other than the fact that their feud goes back some ways."
+# "In the end, it doesn't explain much at all. Other than the fact that their feud goes back some ways."
+"สุดท้ายแล้วก็ไม่ได้ความอะไรขึ้นมาเท่าไหร่ นอกจากได้รู้ว่าสองคนนี้ไม่ถูกกันมาแต่ไหนแต่ไรแล้ว"
 
-hi "I guess you have a point. I'm not seeing how that really affects me, though."
+# hi "I guess you have a point. I'm not seeing how that really affects me, though."
+hi "ก็คงถูกของนายมั้ง แต่ก็ไม่เห็นว่าจะเกี่ยวอะไรกับฉันสักหน่อย"
 
 show kenji neutral
 with charachange
 
-ke "Okay, now field this one. Lilly's foreign, obviously."
+# ke "Okay, now field this one. Lilly's foreign, obviously."
+ke "โอเค งั้นลองคิดตามนี้ดูนะ ลิลลี่เป็นคนต่างชาติ เห็น ๆ กันอยู่"
 
-hi "Obviously."
+# hi "Obviously."
+hi "เห็น"
 
-ke "Now, what nationality is she?"
+# ke "Now, what nationality is she?"
+ke "แล้วเป็นคนสัญชาติอะไร"
 
-"I open my mouth to give the answer, but realize that I have none. In fact, I've given the matter very little thought."
+# "I open my mouth to give the answer, but realize that I have none. In fact, I've given the matter very little thought."
+"ฉันอ้าปากเตรียมตอบ แต่แล้วก็นึกได้ว่าไม่มีคำตอบจะพูด ที่จริงฉันแทบไม่เคยคิดเรื่องนี้ด้วยซ้ำ"
 
-"Given that she has no accent and acts perfectly Japanese, I suppose it never really seemed important. Now that he mentions it though, I am rather curious."
+# "Given that she has no accent and acts perfectly Japanese, I suppose it never really seemed important. Now that he mentions it though, I am rather curious."
+"ฉันไม่ได้คิดว่าจะเป็นเรื่องสำคัญอะไรเพราะเห็นว่าลิลลี่ก็พูดไม่ติดสำเนียงต่างชาติ แถมทำตัวเป็นคนญี่ปุ่นตามปกติหมด\n แต่พอเคนจิถามแล้วก็อยากรู้ขึ้นมาเลยแฮะ"
 
-hi "To be honest, I don't know. Maybe English? They like tea."
+# hi "To be honest, I don't know. Maybe English? They like tea."
+hi "ว่าตามตรงฉันก็ไม่รู้เหมือนกัน อังกฤษมั้ง คนอังกฤษชอบชานี่"
 
-"I probably shouldn't resort to stereotypes, but that's the only lead I have."
+# "I probably shouldn't resort to stereotypes, but that's the only lead I have."
+"จริง ๆ ก็ไม่ควรใช้การเหมารวมอะไรอย่างนั้นมาเดาน่ะนะ แต่ก็พอจะเดาได้แค่นี้แหละ"
 
 show kenji happy
 with charachange
 
 play music music_kenji fadein 1.0
 
-ke "You're not thinking. Luckily, you have me here to think for you."
+# ke "You're not thinking. Luckily, you have me here to think for you."
+ke "นายได้ใช้สมองมั้ยเนี่ย โชคยังดีนะที่นายมีสมองฉันให้ใช้อยู่"
 
-hi "Gee, thanks."
+# hi "Gee, thanks."
+hi "เออ ขอบใจ"
 
-"He brushes off the quip effortlessly."
+# "He brushes off the quip effortlessly."
+"เขาไม่ได้รู้ตัวเลยว่าฉันประชดไป"
 
 show kenji neutral
 with charachange
 
-ke "Now answer me this: who has lots of social power, is filthy stinking rich - you know blondes are all rich, right? - has a long history of disputes and used to belong to a much larger organization?"
+# ke "Now answer me this: who has lots of social power, is filthy stinking rich - you know blondes are all rich, right? - has a long history of disputes and used to belong to a much larger organization?"
+ke "งั้นฉันจะถามก่อน คนที่ทั้งมีอำนาจ ทั้งรวย—นายรู้ใช่มั้ยว่าพวกผมสีบลอนด์น่ะรวยกันทั้งนั้น—ทั้งเคยมีเรื่องพิพาท\nทั้งหลายมายาวนาน ทั้งเคยอยู่องค์กรขนาดใหญ่ คือใคร"
 
-hi "The Roman Catholic Church?"
+# hi "The Roman Catholic Church?"
+hi "พวกโรมันคาทอลิก?"
 
 show kenji tsun
 with charachange
 
-ke "…Well okay, there's that."
+# ke "…Well okay, there's that."
+ke "…เอ่อ โอเค อันนั้นก็ใช่"
 
 show kenji neutral
 with charachange
 
-ke "But there's also the Mafia. Come on. Rich, foreign, there's no way she doesn't have connections to them."
+# ke "But there's also the Mafia. Come on. Rich, foreign, there's no way she doesn't have connections to them."
+ke "แต่อีกกลุ่มคือมาเฟียไง เนี่ย รวย เป็นคนต่างชาติ ยังไงยัยนั่นก็ต้องเกี่ยวกับพวกมาเฟียแน่ ๆ"
 
-"I have reason to doubt the logic of his deductions, but he shows no sign of stopping."
+# "I have reason to doubt the logic of his deductions, but he shows no sign of stopping."
+"ฉันว่าตรรกะการเชื่อมโยงของเขามันมีอะไรน่าสงสัยอยู่นะ แต่เขาก็ไม่มีทีท่าว่าจะหยุดพล่าม"
 
 scene bg school_hallway3
 show kenji neutral
 with locationskip
 
-ke "So do you know where I think she's from?"
+# ke "So do you know where I think she's from?"
+ke "แล้วรู้หรือยังว่าฉันคิดว่ายัยนั่นเป็นคนที่ไหน"
 
-hi "Italy?"
+# hi "Italy?"
+hi "อิตาลี?"
 
 show kenji tsun
 with charachange
 
-ke "Mainland Italy's small-time, dude. She has to be from Sicily. All those mafioso types come from there."
+# ke "Mainland Italy's small-time, dude. She has to be from Sicily. All those mafioso types come from there."
+ke "อิตาลีแผ่นดินใหญ่น่ะจิ๊บจ๊อยมาก ยัยนั่นน่ะต้องเป็นคนซิซิลีแน่ ๆ พวกมาเฟียจะอยู่กันที่นั่นหมด"
 
 show kenji happy
 with charachange
 
-ke "Wait, no, Russia. Damn, this could be bad. The Mafia there is serious business, man; Ex-KGB everywhere, paramilitaries, hardcore smuggling, and—"
+# ke "Wait, no, Russia. Damn, this could be bad. The Mafia there is serious business, man; Ex-KGB everywhere, paramilitaries, hardcore smuggling, and—"
+ke "เดี๋ยว ไม่สิ รัสเซียสิ ตายละ แย่แน่ ๆ ขบวนการมาเฟียในรัสเซียน่ะจริงจังกันมาก ไหนจะพวกที่เคยเป็นเคจีบี ไหนจะ\nพวกกำลังกึ่งทหาร ไหนจะพวกขนของเถื่อน แล้ว—"
 
-hi "Wait, wait, stop, just slow down a sec. What point are you trying to get at here?"
+# hi "Wait, wait, stop, just slow down a sec. What point are you trying to get at here?"
+hi "เดี๋ยว เดี๋ยว หยุด ช้าก่อน นี่นายกำลังจะสื่อว่าอะไร"
 
 show kenji neutral
 with charachange
 
-ke "You don't know what she'll do, man. I won't get in your way - agents don't operate like that - but I just want you to be careful."
+# ke "You don't know what she'll do, man. I won't get in your way - agents don't operate like that - but I just want you to be careful."
+ke "นายไม่รู้หรอกว่ายัยนั่นคิดจะทำอะไร ฉันจะไม่เข้าไปขัดขวางนายหรอก เพราะพวกตัวแทนไม่ได้ทำงานกันอย่างนั้น\nแต่ฉันแค่อยากให้นายระวังตัวไว้"
 
 show kenji tsun
 with charachange
 
-ke "When the time comes, we'll need all the help we can get. I don't want to lose you, comrade."
+# ke "When the time comes, we'll need all the help we can get. I don't want to lose you, comrade."
+ke "พอถึงเวลานั้น เราจะต้องรวบรวมกำลังมาให้ได้มากที่สุดเท่าที่จะหาได้ ฉันไม่อยากเสียนายไปหรอกนะสหาย"
 
-"Well, at least he's concerned for me. Kinda."
+# "Well, at least he's concerned for me. Kinda."
+"เอาเหอะ อย่างน้อยก็นับได้ว่าเขาห่วงฉันแหละ"
 
 stop music fadeout 4.0
 
@@ -1050,226 +1121,295 @@ show kenji tsun:
     easeout 0.5 xpos 0.6 alpha 0.0
 with None
 
-"I wave goodbye to him as we separate out to our respective classes, but I'm not sure that he sees the gesture."
+# "I wave goodbye to him as we separate out to our respective classes, but I'm not sure that he sees the gesture."
+"ฉันโบกมือลาเคนจิแยกย้ายกันไปเรียน แต่ฉันก็ไม่แน่ใจว่าเขาเห็นที่ฉันโบกมือหรือเปล่า"
 
 scene bg school_scienceroom
 with shorttimeskip
 
 play ambient sfx_crowd_indoors fadein 2.0
 
-"Piling my books into my bag, I catch a glimpse of the library books I'd borrowed last week. I might as well return them, considering they took all of two days to finish."
+# "Piling my books into my bag, I catch a glimpse of the library books I'd borrowed last week. I might as well return them, considering they took all of two days to finish."
+"พอจัดหนังสือใส่กระเป๋าก็เหลือบไปเห็นหนังสือที่ยืมมาจากห้องสมุดเมื่อสัปดาห์ที่แล้ว เอาไปคืนดีกว่า ยังไงอ่านแค่\nสองวันก็จบแล้ว"
 
-"I briefly consider inviting Hanako along to the library, but she's already gone. It'll probably be better for my studying if I'm alone anyway."
+# "I briefly consider inviting Hanako along to the library, but she's already gone. It'll probably be better for my studying if I'm alone anyway."
+"แวบหนึ่งฉันนึกจะชวนฮานาโกะไปห้องสมุดด้วย แต่เธอก็ไม่อยู่แล้ว แต่ยังไงอยู่คนเดียวน่าจะจดจ่อกับอ่านหนังสือเรียน\nได้ดีกว่าอยู่แล้วละนะ"
 
-"With a quick stretch and a wave to a couple of classmates who give the same to me, I make my way out of the classroom."
+# "With a quick stretch and a wave to a couple of classmates who give the same to me, I make my way out of the classroom."
+"ฉันบิดขี้เกียจแล้วโบกมือลาเพื่อนร่วมชั้นสองคนที่โบกมือตอบแล้วเดินออกมาจากห้องเรียน"
 
 stop ambient fadeout 1.0
 
 scene bg school_library
 with locationskip
 
-"As I open my bag and shove the books through the returns slot in the front counter, I notice a strange person behind the desk. Old and graying, she must be Yuuko's replacement when she's working at the café."
+# "As I open my bag and shove the books through the returns slot in the front counter, I notice a strange person behind the desk. Old and graying, she must be Yuuko's replacement when she's working at the café."
+"จังหวะที่เปิดกระเป๋าหยิบหนังสือเตรียมหย่อนตรงกล่องคืนหนังสือก็เหลือบไปเห็นคนมีอายุผมสีดอกเลาที่ดูแปลกตา\nคนหนึ่ง คงเป็นคนที่มาอยู่แทนช่วงที่ยูโกะทำงานที่คาเฟละมั้ง"
 
-"I begin looking for a free table, a task made somewhat difficult considering that, despite there not being many students in here, they're all sitting at their own tables."
+# "I begin looking for a free table, a task made somewhat difficult considering that, despite there not being many students in here, they're all sitting at their own tables."
+"ฉันกวาดตามองหาโต๊ะว่าง ซึ่งหาแทบไม่เจอทั้งที่คนน้อยเพราะทุกคนต่างนั่งโต๊ะใครโต๊ะมันกันหมด"
 
-"Noticing a familiar head of hair, I walk over to one near the Braille section."
+# "Noticing a familiar head of hair, I walk over to one near the Braille section."
+"พอเห็นทรงและสีผมที่คุ้นเคยฉันก็เดินไปที่ส่วนหนังสืออักษรเบรลล์"
 
 show lilly basic_smileclosed
 with charaenter
 
-"It's hard to tell whether Lilly's concentrating hard or not, her placid expression holding perfectly still as her finger slides across the dot-filled pages of her book."
+# "It's hard to tell whether Lilly's concentrating hard or not, her placid expression holding perfectly still as her finger slides across the dot-filled pages of her book."
+"ฉันดูแทบไม่ออกว่าลิลลี่ตั้งสมาธิอยู่หรือเปล่า เพราะเธอยังทำสีหน้าเรียบนิ่งพลางคลำไปตามหน้าหนังสือที่มีจุด\nตะปุ่มตะป่ำ"
 
-hi "Hi. Mind if I sit here?"
+# hi "Hi. Mind if I sit here?"
+hi "ไง ขอนั่งด้วยได้หรือเปล่า"
 
 show lilly basic_surprised
 with charachange
 
-li "Hmm? Oh, no problem at all…"
+# li "Hmm? Oh, no problem at all…"
+li "หืม อ้อ ได้สิ นั่งเลย…"
 
-"She trails off, evidently still focused on her business at hand."
+# "She trails off, evidently still focused on her business at hand."
+"เสียงเธอแผ่วลงแสดงให้เห็นว่ากำลังตั้งใจอ่านอยู่"
 
 play music music_lilly fadein 10.0
 
 show lilly basic_smile
 with charachange
 
-li "Ah, Hisao."
+# li "Ah, Hisao."
+li "อ้อ ฮิซาโอะ"
 
 show lilly basic_smileclosed
 with charachange
 
-"She gives a nod of greeting as I sit opposite her at the table, pluck a chemistry textbook out of my bag and quickly thumb to the chapter we're covering in class."
+# "She gives a nod of greeting as I sit opposite her at the table, pluck a chemistry textbook out of my bag and quickly thumb to the chapter we're covering in class."
+"เธอพยักหน้าทักทายระหว่างที่ฉันหย่อนตัวลงนั่งที่เก้าอี้ฝั่งตรงข้ามเธอ ฉันหยิบหนังสือวิชาเคมีออกมาจากกระเป๋า\nแล้วกรีดหน้าหาบทที่กำลังเรียนอยู่"
 
-"For a while, we sit there and read, each in our own way."
+# "For a while, we sit there and read, each in our own way."
+"เราต่างนั่งอ่านหนังสือของตัวเองกันอยู่พักหนึ่ง"
 
-"Seeing her reminds me of what Kenji said this morning, though. That and the fact that I've never seen someone read in Braille before makes me keep throwing glances at her."
+# "Seeing her reminds me of what Kenji said this morning, though. That and the fact that I've never seen someone read in Braille before makes me keep throwing glances at her."
+"แต่พอมองลิลลี่แล้วก็นึกถึงที่เคนจิพูดเมื่อเช้า แถมไม่เคยเห็นใครอ่านหนังสืออักษรเบรลล์มาก่อนด้วย ฉันจึงคอย\nเหลือบมองเธอเป็นระยะ ๆ"
 
-"I kind of feel guilty about it, given that she has no way to realize I'm doing so, so I decide to just ask her about it. Her lineage isn't exactly a state secret, after all, and there is another thing I've only just noticed from her movements."
+# "I kind of feel guilty about it, given that she has no way to realize I'm doing so, so I decide to just ask her about it. Her lineage isn't exactly a state secret, after all, and there is another thing I've only just noticed from her movements."
+"รู้สึกผิดอยู่เหมือนกันแฮะ เพราะมองยังไงลิลลี่ก็ไม่รู้ตัวอยู่แล้ว ถาม ๆ ไปเลยดีกว่า ยังไงเรื่องสายเลือดของลิลลี่ก็คงไม่ใช่\nความลับระดับชาติขนาดนั้น แล้วก็มีอีกอย่างที่เพิ่งสังเกตได้จากท่าทางด้วยเหมือนกัน"
 
-hi "Hey Lilly, mind if I ask a question?"
+# hi "Hey Lilly, mind if I ask a question?"
+hi "นี่ ลิลลี่ ขอถามอะไรหน่อยได้ไหม"
 
 show lilly basic_smile
 with charachange
 
-li "Not at all. Is anything wrong?"
+# li "Not at all. Is anything wrong?"
+li "ถามได้เลยจ้ะ มีอะไรหรือเปล่า"
 
-hi "I was just wondering… you're at least part foreign, right?"
+# hi "I was just wondering… you're at least part foreign, right?"
+hi "ฉันแค่สงสัยว่า… อย่างน้อย ๆ เธอก็ต้องมีเชื้อทางต่างชาติบ้างแหละ ใช่มั้ย"
 
 show lilly basic_giggle
 with charachange
 
-"She gives a small giggle before setting down her book."
+# "She gives a small giggle before setting down her book."
+"เธอหัวเราะน้อย ๆ ก่อนจะวางหนังสือลง"
 
 show lilly basic_cheerful
 with charachange
 
-li "I've always been amused at how squeamish people are about that. Akira's mentioned how much she and I look different from most others before."
+# li "I've always been amused at how squeamish people are about that. Akira's mentioned how much she and I look different from most others before."
+li "ฉันละแปลกใจจริง ๆ ที่พอมีคนถามเรื่องนี้ทีไรก็ชอบถามแบบอ้อม ๆ กัน พี่ก็เคยพูดอยู่เหมือนกันว่าเราสองคนลักษณะ\nดูไม่ค่อยเหมือนคนอื่นเท่าไหร่"
 
 show lilly basic_smile
 with charachange
 
-li "The details are a bit complicated, but I'm half Japanese, half Scottish."
+# li "The details are a bit complicated, but I'm half Japanese, half Scottish."
+li "รายละเอียดจริง ๆ ซับซ้อนอยู่นิดหน่อยนะ แต่ฉันเป็นลูกครึ่งญี่ปุ่น-สกอตแลนด์จ้ะ"
 
-"…Scottish? That was not exactly my first guess. It takes some effort to not blurt it out loud."
+# "…Scottish? That was not exactly my first guess. It takes some effort to not blurt it out loud."
+"…สกอตแลนด์เหรอ ผิดคาดไปหน่อยแฮะ ฉันต้องยั้งปากไว้ไม่ให้พูดออกไป"
 
-"I try to conjure images of the place in my mind. I think as far as the UK goes, Scotland isn't bad to live in… but I'm not really sure."
+# "I try to conjure images of the place in my mind. I think as far as the UK goes, Scotland isn't bad to live in… but I'm not really sure."
+"ฉันลองนึกภาพประเทศสกอตแลนด์ดู ถ้าอิงจากสหราชอาณาจักรแล้ว สกอตแลนด์ก็ไม่ได้แย่เท่าไหร่… แต่ไม่รู้สิ"
 
-"My first guess of England was surprisingly close, at least geographically. That does leave another question though."
+# "My first guess of England was surprisingly close, at least geographically. That does leave another question though."
+"ที่เดาไปทีแรกว่าอังกฤษนั้นนับว่าใกล้เกินคาดทีเดียว ถ้านับตามแผนที่น่ะนะ แต่ก็ยังมีอีกเรื่องที่คาใจอยู่"
 
-hi "But you have no accent…?"
+# hi "But you have no accent…?"
+hi "แต่ตอนเธอพูดก็ไม่ติดสำเนียงต่างชาติเลยนะ…?"
 
 show lilly basic_weaksmile
 with charachange
 
-li "That's where the details begin. I was born and raised in Japan, despite my mother being foreign."
+# li "That's where the details begin. I was born and raised in Japan, despite my mother being foreign."
+li "นี่แหละรายละเอียดที่ว่า แม่ฉันเป็นชาวต่างชาติก็จริง แต่ฉันเกิดและโตที่ญี่ปุ่นนี่แหละจ้ะ"
 
-hi "Ah, I get it."
+# hi "Ah, I get it."
+hi "อ้อ อย่างนี้นี่เอง"
 
-"Hold on, if she moved to the dorms simply due to Akira working longer hours…"
+# "Hold on, if she moved to the dorms simply due to Akira working longer hours…"
+"เดี๋ยวนะ ถ้าสาเหตุที่ลิลลี่ย้ายมาอยู่หอมีแค่เรื่องที่อากิระทำงานเยอะขึ้น…"
 
-hi "So they don't live near the school?"
+# hi "So they don't live near the school?"
+hi "แปลว่าพ่อแม่เธอไม่ได้อยู่แถวนี้เหรอ"
 
 show lilly basic_reminisce
 with charachange
 
-"She gives a small sigh, as if she didn't expect me to go any deeper. Was her previous frankness just a front?"
+# "She gives a small sigh, as if she didn't expect me to go any deeper. Was her previous frankness just a front?"
+"เธอถอนหายใจเล็กน้อยคล้ายไม่คิดว่าฉันจะถามต่อ ที่บอกอะไรตรง ๆ เมื่อกี้คือบอกเฉย ๆ โดยที่ไม่ได้อยากบอกจริง ๆ\nเหรอ"
 
-li "Not… exactly. It's been a long time since we've actually met."
+# li "Not… exactly. It's been a long time since we've actually met."
+li "ไม่… เชิงจ้ะ ฉันเองก็ไม่ได้เจอพวกท่านนานแล้ว"
 
-"I feel like I'm not getting the whole story, but I don't really want to go unduly prying into her situation. Her about-face shows she feels kind of awkward about it."
+# "I feel like I'm not getting the whole story, but I don't really want to go unduly prying into her situation. Her about-face shows she feels kind of awkward about it."
+"เหมือนลิลลี่ยังปิดบังอะไรไว้อยู่ แต่ฉันเองก็ไม่อยากซักไซ้เรื่องของเธออะไรให้มากเกินจำเป็นเหมือนกัน การที่ท่าที\nของเธอเปลี่ยนไปแบบกะทันหันนั้นก็แปลว่าเธอไม่ค่อยสบายใจจะเล่าเท่าไหร่"
 
-hi "So… do you speak much English? To be honest I don't know that much about Scotland, but at least I know that's the main language there."
+# hi "So… do you speak much English? To be honest I don't know that much about Scotland, but at least I know that's the main language there."
+hi "แล้ว… เธอได้พูดภาษาอังกฤษบ่อยมั้ย ว่าตามตรง ฉันก็ไม่รู้เรื่องประเทศสกอตแลนด์เท่าไหร่ แต่พอรู้อยู่ว่าที่นู่นเขาใช้\nภาษาอังกฤษเป็นภาษาราชการกัน"
 
-"It takes her a moment to collect herself, appreciating the change in topic."
+# "It takes her a moment to collect herself, appreciating the change in topic."
+"ลิลลี่รวมรวมความคิดอยู่สักพัก ดูเหมือนเธอจะยินดีที่ฉันเปลี่ยนเรื่อง"
 
 show lilly basic_smileclosed
 with charachange
 
-li "That's right. My family mostly used Japanese around the house when I was young, but they made sure Akira and I knew our Scottish side just as well."
+# li "That's right. My family mostly used Japanese around the house when I was young, but they made sure Akira and I knew our Scottish side just as well."
+li "ใช่จ้ะ ตอนฉันยังเด็ก ที่บ้านใช้ภาษาญี่ปุ่นก็เป็นส่วนใหญ่ก็จริง แต่พวกท่านก็คอยสอนฉันกับพี่ให้รู้จักวัฒนธรรม\nฝั่งสกอตแลนด์ด้วยเหมือนกัน"
 
 show lilly basic_smile
 with charachange
 
-li "I'm fluent in the language, but I'm also studying it in school. To keep my skills up and to have the qualifications on paper, mainly."
+# li "I'm fluent in the language, but I'm also studying it in school. To keep my skills up and to have the qualifications on paper, mainly."
+li "ฉันใช้ภาษาอังกฤษได้คล่องแล้ว แต่ก็มาเรียนที่โรงเรียนด้วย หลัก ๆ ที่เรียนก็เพราะจะได้เสริมทักษะแล้วก็จะได้ผ่าน\nการรับรองแบบเป็นรูปธรรมน่ะจ้ะ"
 
-hi "So you're bilingual? That's pretty impressive."
+# hi "So you're bilingual? That's pretty impressive."
+hi "แปลว่าเธอพูดได้สองภาษาเลยงั้นสิ น่าทึ่งจัง"
 
 show lilly basic_weaksmile
 with charachange
 
-li "I wouldn't go that far. Having parents who can speak the language is a large advantage, and English books in Braille aren't too hard to buy or import. With Yuuko's help, at least."
+# li "I wouldn't go that far. Having parents who can speak the language is a large advantage, and English books in Braille aren't too hard to buy or import. With Yuuko's help, at least."
+li "ไม่ขนาดนั้นหรอกจ้ะ ที่ฉันได้หลัก ๆ ก็เพราะมีพ่อแม่ที่พูดภาษาอังกฤษได้มากกว่า หนังสืออักษรเบรลล์ภาษาอังกฤษ\nก็หาซื้อหรือนำเข้าได้ไม่ยากเพราะมีคุณยูโกะช่วยจัดการให้ด้วยน่ะจ้ะ"
 
 show lilly basic_smileclosed
 with charachange
 
-li "There's a relatively high demand for local English teachers here anyway, which also helps give me some motivation to learn it well."
+# li "There's a relatively high demand for local English teachers here anyway, which also helps give me some motivation to learn it well."
+li "ยังไงถ้าเทียบ ๆ ดูแล้ว ครูภาษาอังกฤษดูจะเป็นที่ต้องการของที่นี่มากกว่าที่อื่นด้วย ซึ่งก็เป็นแรงใจให้ฉันตั้งใจเรียน\nได้ด้วยแหละจ้ะ"
 
-"Demand for English teachers? For a moment, I wonder why she brought this up."
+# "Demand for English teachers? For a moment, I wonder why she brought this up."
+"ครูภาษาอังกฤษเป็นที่ต้องการเหรอ ฉันนึกสงสัยอยู่แวบหนึ่งว่าทำไมถึงพูดเรื่องนี้"
 
-hi "You're planning to be an English teacher?"
+# hi "You're planning to be an English teacher?"
+hi "เธออยากเป็นครูภาษาอังกฤษเหรอ"
 
 show lilly basic_cheerful
 with charachange
 
-"She gives an enthusiastic nod."
+# "She gives an enthusiastic nod."
+"เธอพยักหน้าอย่างอารมณ์ดี"
 
-"It must be nice, having such a definite future in mind. I've never really given much thought to mine, so I'm kind of envious."
+# "It must be nice, having such a definite future in mind. I've never really given much thought to mine, so I'm kind of envious."
+"มีเป้าหมายในอนาคตที่ชัดเจนแบบนี้นี่ดีจังเลยนะ ฉันไม่ค่อยได้คิดถึงอนาคตตัวเองเท่าไหร่เลยนึกอิจฉาอยู่หน่อย ๆ"
 
-hi "Hmm…"
+# hi "Hmm…"
+hi "อืมม…"
 
 show lilly basic_smile
 with charachange
 
-li "What's wrong?"
+# li "What's wrong?"
+li "มีอะไรเหรอจ๊ะ"
 
-hi "It's just… I could see you as a teacher pretty easily. It suits you."
+# hi "It's just… I could see you as a teacher pretty easily. It suits you."
+hi "แบบว่า… ฉันนึกภาพเธอเป็นครูได้ชัดเลยนะ เหมาะดี"
 
 show lilly basic_emb
 with charachange
 
-"For a moment, she's speechless. She lowers her face a little and lets out a nervous giggle, something I've never seen her do before."
+# "For a moment, she's speechless. She lowers her face a little and lets out a nervous giggle, something I've never seen her do before."
+"เธออึ้งไปครู่หนึ่งก่อนจะก้มหน้าหัวเราะคิกคักอาย ๆ อย่างที่ฉันไม่เคยเห็นมาก่อน"
 
-"With Lilly's role as a class representative and her dependable nature, teaching does seem to be a line of work fitting her personality."
+# "With Lilly's role as a class representative and her dependable nature, teaching does seem to be a line of work fitting her personality."
+"เป็นทั้งหัวหน้าห้อง แถมยังเป็นคนพึ่งพาได้ การเป็นครูก็ดูจะเหมาะกับลักษณะนิสัยของลิลลี่ดี"
 
-hi "Sorry, that was probably a little much. It is true, though."
+# hi "Sorry, that was probably a little much. It is true, though."
+hi "ขอโทษทีนะ คงพูดเกินไปหน่อย แต่จริงนะ"
 
 show lilly basic_weaksmile
 with charachange
 
-"Waving her hand in front of her face dismissively, she quickly recovers."
+# "Waving her hand in front of her face dismissively, she quickly recovers."
+"เธอโบกมือปัด ๆ กลับมาทำหน้าตามปกติได้อย่างรวดเร็ว"
 
-li "It's not that, it's just that… only one person's ever said that to me before."
+# li "It's not that, it's just that… only one person's ever said that to me before."
+li "ไม่ใช่อย่างนั้นหรอกจ้ะ แค่ว่า… เคยมีคนพูดอย่างนั้นกับฉันแค่คนเดียวเอง"
 
 stop music fadeout 8.0
 
-"A short, somewhat awkward silence follows the discussion. Without knowing it, I ended up steering into a troublesome topic again."
+# "A short, somewhat awkward silence follows the discussion. Without knowing it, I ended up steering into a troublesome topic again."
+"ความเงียบอันน่าอึดอัดชั่วครู่ผ่านเข้ามา เผลอลากไปเข้าเรื่องวุ่นวายโดยไม่รู้ตัวอีกแล้วสิ"
 
-"I should try to cheer her up a little. It was me who went and got her brooding, after all."
+# "I should try to cheer her up a little. It was me who went and got her brooding, after all."
+"ทำอะไรให้ลิลลี่สดใสขึ้นหน่อยดีกว่า ก็ฉันเป็นคนทำให้หมองเองนี่นะ"
 
-hi "Want to go grab lunch at the cafeteria after this?"
+# hi "Want to go grab lunch at the cafeteria after this?"
+hi "เดี๋ยวไปกินข้าวเที่ยงที่โรงอาหารกันมั้ย"
 
-"It might perk her up a bit, or at least take her mind off her apparently complicated family situation."
+# "It might perk her up a bit, or at least take her mind off her apparently complicated family situation."
+"อาจจะพอช่วยให้อารมณ์ดีขึ้นหน่อย หรืออย่างน้อยความคิดก็จะได้ไม่ต้องจมอยู่กับเรื่องที่บ้านที่ดูจะซับซ้อนนั่น"
 
 show lilly basic_planned
 with charachange
 
-"Going by her smile, it seems to have the intended effect."
+# "Going by her smile, it seems to have the intended effect."
+"ยิ้มอย่างนี้แล้วแปลว่าแผนของฉันได้ผล"
 
 show lilly basic_ara
 with charachange
 
-li "I appreciate the thought, but the food there…"
+# li "I appreciate the thought, but the food there…"
+li "ขอบคุณที่ชวนจ้ะ แต่อาหารที่โรงอาหารมันออกจะ…"
 
-"Quite a quick redirection of the conversation. She does have a point though - the food there isn't the greatest."
+# "Quite a quick redirection of the conversation. She does have a point though - the food there isn't the greatest."
+"เปลี่ยนเรื่องเร็วเหมือนกัน แต่ก็ถูกของเธอ กับข้าวที่โรงอาหารก็ไม่ค่อยอร่อยเท่าไหร่"
 
-hi "Maybe the Shanghai? We could ask Hanako if she wants to come as well."
+# hi "Maybe the Shanghai? We could ask Hanako if she wants to come as well."
+hi "งั้นไปร้านเซี่ยงไฮ้กันมั้ย เดี๋ยวไปชวนฮานาโกะด้วยก็ได้"
 
 show lilly basic_surprised
 with charachange
 
-li "Ah…"
+# li "Ah…"
+li "อ๊ะ…"
 
-hi "What is it?"
+# hi "What is it?"
+hi "มีอะไรเหรอ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "I almost forgot, until you reminded me. Hanako's birthday is coming up soon, and I was going to go shopping in the city for a present tomorrow."
+# li "I almost forgot, until you reminded me. Hanako's birthday is coming up soon, and I was going to go shopping in the city for a present tomorrow."
+li "เกือบลืมไปเลย เธอพูดเมื่อกี้ฉันถึงนึกได้พอดี เดี๋ยวจะถึงวันเกิดฮานาโกะแล้ว แล้วพรุ่งนี้ฉันกะว่าจะเข้าตัวเมืองไปซื้อ\nของขวัญด้วย"
 
-hi "If that's an invitation, I'd be happy to accompany you."
+# hi "If that's an invitation, I'd be happy to accompany you."
+hi "จะชวนฉันไปด้วยเหรอ ถ้าชวนฉันก็ยินดีจะไปด้วยนะ"
 
-"The ability to get more used to the layout of the city would probably be a good thing. I have barely set foot in there, so I'd be hopelessly lost by myself."
+# "The ability to get more used to the layout of the city would probably be a good thing. I have barely set foot in there, so I'd be hopelessly lost by myself."
+"ทำความคุ้นเคยกับผังเมืองที่นี่ไว้ก็น่าจะดีเหมือนกัน ฉันเองก็เพิ่งมาได้ไม่นาน ถ้าไปตัวคนเดียวคงหลงแน่"
 
 show lilly basic_smile
 with charachange
 
-"She gives a nod, signaling that she happily approves of this plan for Sunday."
+# "She gives a nod, signaling that she happily approves of this plan for Sunday."
+"เธอพยักหน้าเป็นสัญญาณว่าตกลงให้ฉันไปด้วยกับเธอในวันอาทิตย์นี้"
 
-"We eventually get back to our books, though before I begin reading again I steal one last glance at her."
+# "We eventually get back to our books, though before I begin reading again I steal one last glance at her."
+"สุดท้ายเราก็อ่านหนังสือของตัวเองก่อนต่อ ฉันเหลือบมองลิลลี่อีกหนึ่งครั้งก่อนจะกลับมามองหนังสือตัวเอง"
 
-"Maybe I've been thinking on my situation too much. After all, everybody here would have their own unique circumstances."
+# "Maybe I've been thinking on my situation too much. After all, everybody here would have their own unique circumstances."
+"ฉันคงจะคิดมากไปกับสภาพตัวเองตอนนี้ ยังไงเสีย ทุกคนที่นี่ต่างก็มีเรื่องอะไรหลายอย่างแตกต่างกันไปของใครของมัน\nทั้งนั้น"
 
-"The chance to get outside and clear my head will probably do me good."
+# "The chance to get outside and clear my head will probably do me good."
+"ได้ออกไปสัมผัสอากาศข้างนอกให้หัวสมองโล่งก็คงดีเหมือนกัน"
 
 scene black
 with dissolve
@@ -1286,19 +1426,26 @@ with None
 scene bg city_street1 at Fullpan(16.0, "left")
 with locationchange
 
-"Bored of standing in place and watching the television in a shop window, I pull myself away from the tacky display with little effort."
+# "Bored of standing in place and watching the television in a shop window, I pull myself away from the tacky display with little effort."
+"ฉันเบื่อกับการยืนอยู่เฉย ๆ ดูโทรทัศน์ที่ตั้งอยู่ในร้านผ่านกระจกจึงเดินเอื่อย ๆ ปลีกตัวออกมา"
 
-"After living at Yamaku, the city seems like an entirely different world."
+# "After living at Yamaku, the city seems like an entirely different world."
+"พอได้อยู่ที่โรงเรียนยามากุแล้ว เมืองใหญ่ก็ดูเป็นอะไรที่เป็นเหมือนโลกอีกใบหนึ่งไปเลย"
 
-"No running in the halls. Calm and orderly conduct is to be used at all times in the classrooms. Students are to exit rooms after checking both directions for oncomers. Elevators are reserved for movement-impaired students. Single file on stairs."
+# "No running in the halls. Calm and orderly conduct is to be used at all times in the classrooms. Students are to exit rooms after checking both directions for oncomers. Elevators are reserved for movement-impaired students. Single file on stairs."
+"ห้ามวิ่งตามโถงทางเดิน ต้องทำตัวสงบเสงี่ยมเรียบร้อยตลอดเวลาแม้กระทั่งตอนอยู่ในห้องเรียน เวลาจะออกจากห้อง\nต้องดูซ้ายขวาว่ามีคนมาหรือไม่ มีเพียงผู้พิการทางการเคลื่อนไหวเท่านั้นที่ใช้ลิฟต์ได้ เวลาขึ้นลงบันไดต้องเดินเป็นแถว\nเรียงเดี่ยว"
 
-"Compared to such strict, almost regimental, standards, the city's shopping arcade might as well be a strange country."
+# "Compared to such strict, almost regimental, standards, the city's shopping arcade might as well be a strange country."
+"ถ้าให้เทียบกับมาตรฐานที่เคร่งครัดจนดูละม้ายคล้ายพวกกองทัพเช่นนั้นแล้ว ย่านการค้าในเมืองใหญ่นี้ก็เรียกได้ว่าเป็น\nแดนสนธยาเลยทีเดียว"
 
-"While the school may have its fair share of hustle and bustle during the festival, the outside world is much different."
+# "While the school may have its fair share of hustle and bustle during the festival, the outside world is much different."
+"แม้ช่วงเทศกาลโรงเรียนจะดูมีความวุ่นวายบ้างก็จริง แต่สภาพโลกภายนอกนั้นต่างจากที่โรงเรียนมาก"
 
-"It's strange. Having lived in a metropolitan city before my accident, this should feel more natural than Yamaku and the surrounding town ever could."
+# "It's strange. Having lived in a metropolitan city before my accident, this should feel more natural than Yamaku and the surrounding town ever could."
+"แปลกดี ทั้งที่ก่อนเกิดเรื่องครั้งนั้นฉันก็ใช้ชีวิตอยู่ในเมืองใหญ่มาตลอด ฉันต้องคุ้นเคยกับบรรยากาศอย่างนี้มากกว่าที่\nโรงเรียนยามากุสิ"
 
-"Yet it feels foreign, somehow. The elevated walkways and tall buildings, each adorned with billboards taller than any three people, don't do anything to distract me from the passing crowd's reactions."
+# "Yet it feels foreign, somehow. The elevated walkways and tall buildings, each adorned with billboards taller than any three people, don't do anything to distract me from the passing crowd's reactions."
+"แต่ไม่รู้ทำไมถึงรู้สึกไม่คุ้นชิน ทั้งทางเดินลอยฟ้า ตึกสูงแต่ละแห่งที่มีป้ายโฆษณาที่ติดอยู่สูงไปจากพื้นสักสามช่วงคน\nซึ่งไม่ได้ทำให้ฉันละความสนใจไปจากท่าทีของคนรอบ ๆ ตัวได้เลย"
 
 $ renpy.music.set_volume(0.7, 0.5, channel="ambient")
 
@@ -1309,45 +1456,59 @@ show lilly cane_smileclosed_cas_close:
 show bg city_street1 at left
 with Dissolve(1.0)
 
-"Lilly keeps one hand on my shoulder, the other holding her cane which taps the ground with a metronome-like steadiness. Looking over to her, that neutral smile of hers still holds."
+# "Lilly keeps one hand on my shoulder, the other holding her cane which taps the ground with a metronome-like steadiness. Looking over to her, that neutral smile of hers still holds."
+"มือของลิลลี่ข้างหนึ่งจับไหล่ฉันไว้ ส่วนมืออีกข้างนั้นถือไม้เท้าที่แตะไปตามทางเดินเป็นจังหวะสม่ำเสมออย่างเมโทรโนม\nพอหันไปมองก็เห็นว่าเธอยังยิ้มเรียบ ๆ เช่นเคย"
 
-"Having only seen her in school uniform, I'd not have recognized her as she sat on a bench waiting for me to come, if not for her cane propped up against it and her distinctive hair."
+# "Having only seen her in school uniform, I'd not have recognized her as she sat on a bench waiting for me to come, if not for her cane propped up against it and her distinctive hair."
+"ด้วยความที่เคยเห็นเธอแค่ตอนใส่ชุดนักเรียน ถ้าไม่เห็นไม้เท้ากับผมอันเป็นเอกลักษณ์นั้นฉันคงจำเธอที่นั่งรอฉันอยู่\nตรงม้านั่งไม่ได้แน่"
 
-"I can't tell whether they're glancing at her due to her height, her foreign looks, her obvious blindness, or all three. Not that any of those would make the situation any less uncomfortable than it is."
+# "I can't tell whether they're glancing at her due to her height, her foreign looks, her obvious blindness, or all three. Not that any of those would make the situation any less uncomfortable than it is."
+"ฉันไม่รู้ว่าที่คนมองลิลลี่นั้นเป็นเพราะความสูง เพราะหน้าตาที่เป็นฝรั่ง เพราะเธอตาบอด หรือเพราะทั้งสามอย่างนั้นกันแน่\nแต่จะเพราะอะไรฉันก็อึดอัดที่คนมองอยู่ดีนั่นแหละ"
 
 show lilly cane_smile_cas_close
 with charachange
 
-li "Do you have any ideas of where to look first, Hisao?"
+# li "Do you have any ideas of where to look first, Hisao?"
+li "อยากไปดูที่ไหนก่อนมั้ยจ๊ะฮิซาโอะ"
 
-"Her soft voice breaks me out of my line of thought."
+# "Her soft voice breaks me out of my line of thought."
+"เสียงอันนุ่มนวลของเธอดึงสติฉันออกมาจากความคิดเหล่านั้น"
 
-"I can't imagine that she's failing to notice the attention she garners, but she seems unfazed by it. I get the feeling she's the type to enjoy walking outside, so she might be used to it by now."
+# "I can't imagine that she's failing to notice the attention she garners, but she seems unfazed by it. I get the feeling she's the type to enjoy walking outside, so she might be used to it by now."
+"ยังไงเธอก็คงรู้ตัวแหละว่าคนต่างมองเธอกันอยู่ แต่เธอก็ดูไม่ร้อนใจอะไร ลิลลี่คงจะชอบออกมาเดินเล่นข้างนอกอยู่แล้ว\nถึงได้ชิน"
 
-hi "Not really. This is my first time in this city, so I've got no idea of where to go."
+# hi "Not really. This is my first time in this city, so I've got no idea of where to go."
+hi "ก็ไม่หรอก ฉันเพิ่งเคยมาเมืองนี้เป็นครั้งแรกเลยไม่รู้ว่าจะไปที่ไหนดี"
 
 show lilly cane_listen_cas_close
 with charachange
 
-"She furrows her brow in thought, planning a route for us to take. And, come to think of it, a way to communicate it."
+# "She furrows her brow in thought, planning a route for us to take. And, come to think of it, a way to communicate it."
+"เธอขมวดคิ้วครุ่นคิดวางแผนเส้นทางที่จะเดินไปด้วยกัน และ—จะว่าไปแล้ว—ก็น่าจะคิดอยู่ด้วยว่าจะบอกเส้นทางนั้น\nยังไง"
 
-"Something I'd noticed in the time I've been with her is how, when deep in thought, she lacks close to any form of body language to show it."
+# "Something I'd noticed in the time I've been with her is how, when deep in thought, she lacks close to any form of body language to show it."
+"เท่าที่อยู่กับลิลลี่มา อย่างหนึ่งที่ฉันสังเกตได้ก็คือเวลาที่เธอคิดจะไม่มีภาษากายอะไรแสดงออกมาเลย"
 
-"Her expression may change, but not a hint of movement shows. She seems to have little in the way of sweeping physical gestures in general though, so I've assumed it's part of her reserved nature."
+# "Her expression may change, but not a hint of movement shows. She seems to have little in the way of sweeping physical gestures in general though, so I've assumed it's part of her reserved nature."
+"สีหน้าเปลี่ยนก็จริง แต่จะไม่มีการเคลื่อนไหวใด ๆ เลย แต่ก็ดูเหมือนว่าเธอจะไม่ขยับตัวแสดงท่าทางอะไรแบบมาก ๆ\nอยู่แล้ว ก็คงจะเป็นความเรียบร้อยด้วยนิสัยของเธอนั่นแหละ"
 
 show lilly cane_weaksmile_cas_close
 with charachange
 
-li "Is there a large electronics store near here?"
+# li "Is there a large electronics store near here?"
+li "แถวนี้มีร้านเครื่องใช้ไฟฟ้าร้านใหญ่ ๆ มั้ยจ๊ะ"
 
-"I take a quick look around, mostly finding clothing stores. After a few seconds I notice a store with a bright blue sign some distance away that fits her description."
+# "I take a quick look around, mostly finding clothing stores. After a few seconds I notice a store with a bright blue sign some distance away that fits her description."
+"พอกวาดตามองรอบ ๆ ก็เห็นแต่ร้านขายเสื้อผ้าเป็นส่วนใหญ่ แต่ไม่นานฉันก็เห็นร้านที่มีป้ายสีฟ้าสว่าง ๆ อยู่ไกล ๆ\nที่น่าจะเป็นร้านที่ลิลลี่พูดถึง"
 
-hi "Yep, it's just a bit ahead of us. Should we go in that direction?"
+# hi "Yep, it's just a bit ahead of us. Should we go in that direction?"
+hi "อื้ม อยู่ใกล้ ๆ นี่เอง ไปทางนั้นกันมั้ย"
 
 show lilly cane_smile_cas_close
 with charachange
 
-"Thankfully, it's just the information she needed. With a nod we start off and head towards Lilly's unknown destination, landmarks being our guide."
+# "Thankfully, it's just the information she needed. With a nod we start off and head towards Lilly's unknown destination, landmarks being our guide."
+"โชคดีที่ลิลลี่ถามเพียงเท่านั้น เธอพยักหน้าแล้วพวกเราก็เดินไปยังจุดหมายของเธอที่ฉันไม่อาจทราบโดยมีร้านนั้น\nเป็นหมุดนำทาง"
 
 stop ambient fadeout 2.0
 
@@ -1356,19 +1517,23 @@ with shorttimeskip
 
 play music music_happiness fadein 2.0
 
-"Storeowner" "Here you go. One vanilla, one chocolate."
+# "Storeowner" "Here you go. One vanilla, one chocolate."
+thname("เจ้าของร้าน") "ได้แล้ว รสวานิลลาหนึ่ง รสช็อกโกแลตหนึ่ง"
 
 scene bg city_street2 at center
 with locationchange
 
-"I hand the money over the counter and take the cones to the railing that Lilly's sitting on."
+# "I hand the money over the counter and take the cones to the railing that Lilly's sitting on."
+"ฉันวางเงินไว้ที่เคาน์เตอร์หยิบไอศกรีมทั้งสองโคนนั้นแล้วเดินมายังราวเหล็กที่ลิลลี่นั่งอยู่"
 
-"I can't believe I let her trick me like this. She not only led me to an ice cream stall, but also got me to buy her some. At least she gave me the money for hers."
+# "I can't believe I let her trick me like this. She not only led me to an ice cream stall, but also got me to buy her some. At least she gave me the money for hers."
+"ไม่อยากจะเชื่อเลยว่าจะหลงกลอะไรอย่างนี้ หลอกพามาร้านขายไอศกรีมไม่พอแล้วยังฝากซื้ออีก ยังดีที่ว่าเธอให้เงิน\nค่าไอศกรีมของตัวเองมาด้วย"
 
 show lilly cane_smileclosed_cas at Transform(xanchor=0.5, xpos=0.2, ypos=0.2, yanchor=0.0)
 with charaenter
 
-"Sure enough, she's patiently waiting where I'd left her. I guess she was planning on making the day an event, rather than a simple shopping trip."
+# "Sure enough, she's patiently waiting where I'd left her. I guess she was planning on making the day an event, rather than a simple shopping trip."
+"และแน่นอนว่าเธอก็รอฉันอย่างใจเย็นอยู่ตรงที่ฉันปลีกตัวออกมา คงวางแผนจะมาเที่ยวมากกว่า ไม่ได้กะจะมาซื้อของ\nเฉย ๆ หรอก"
 
 show lilly cane_smileclosed_cas:
     ease 1.0 xpos 0.5 xanchor 0.5 ypos 0.15
@@ -1383,53 +1548,68 @@ show bg city_street2:
    ease 1.0 left
 with Dissolve(1.0)
 
-"I call out to her and slowly place the vanilla cone in her outstretched hands, being careful to make sure she has a good hold of it before letting go."
+# "I call out to her and slowly place the vanilla cone in her outstretched hands, being careful to make sure she has a good hold of it before letting go."
+"ฉันเรียกลิลลี่แล้วค่อย ๆ ส่งไอศกรีมรสวานิลลาให้เธอที่ยื่นมือออกมา พอแน่ใจแล้วว่าเธอถือเต็มไม้เต็มมือฉันจึงผละมือ"
 
-"At least her tastes are fairly normal. I was worried she'd ask for some weird flavor when she first asked."
+# "At least her tastes are fairly normal. I was worried she'd ask for some weird flavor when she first asked."
+"อย่างน้อยก็กินรสอะไรปกติละนะ ทีแรกก็คิดมากว่าจะสั่งให้ซื้อรสอะไรแปลก ๆ หรือเปล่า"
 
-hi "Here's the change."
+# hi "Here's the change."
+hi "นี่เงินทอน"
 
 show lilly basic_smileclosed_cas_close at Transform(xalign=0.5, ypos=0.15)
 with charachange
 
-li "It's okay, keep it."
+# li "It's okay, keep it."
+li "ไม่เป็นไรจ้ะ เธอเอาไปเถอะ"
 
-"I move to protest, but realize the futility of doing so over such a small amount. I slip the coin into my pocket, supplementing my meager allowance ever so slightly."
+# "I move to protest, but realize the futility of doing so over such a small amount. I slip the coin into my pocket, supplementing my meager allowance ever so slightly."
+"ฉันเตรียมจะยัดเยียดเงินนั้นกลับไป แต่ด้วยเศษเงินแค่นี้จะฝืนคืนไปก็คงเหนื่อยเปล่า ฉันเก็บเหรียญใส่กระเป๋ากางเกง\nซึ่งมีส่วนช่วยให้ค่าขนมอันนิดน้อยของฉันเพิ่มขึ้นมากระผีกหนึ่ง"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
-"Lilly shows no signs of wanting to get up, so I take a seat beside her and start eating my own ice cream."
+# "Lilly shows no signs of wanting to get up, so I take a seat beside her and start eating my own ice cream."
+"เมื่อลิลลี่ไม่มีท่าทีว่าจะลุกขึ้นฉันจึงนั่งลงข้างเธอแล้วกินไอศกรีมของตัวเองบ้าง"
 
-hi "The summer weather's nice. Hopefully it will hold out for a while."
+# hi "The summer weather's nice. Hopefully it will hold out for a while."
+hi "อากาศหน้าร้อนนี่ดีเนอะ อยากให้เป็นอย่างนี้ไปอีกสักพักเลย"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
-li "You too? I'm beginning to think I'm the only person who prefers winter."
+# li "You too? I'm beginning to think I'm the only person who prefers winter."
+li "เธอก็อีกคนเหรอเนี่ย หรือจะมีแค่ฉันคนเดียวจริง ๆ ที่ชอบหน้าหนาว"
 
-"I contemplate her statement for a long moment."
+# "I contemplate her statement for a long moment."
+"ฉันครุ่นคิดกับคำพูดของเธออยู่ครู่ใหญ่ ๆ"
 
-hi "Yeah, I think you might be."
+# hi "Yeah, I think you might be."
+hi "อื้ม คงงั้นแหละ"
 
 show lilly basic_pout_cas_close
 with charachange
 
-"It draws the intended reaction. She's cute when she's pouting."
+# "It draws the intended reaction. She's cute when she's pouting."
+"และได้ผลดังคาด พอลิลลี่ทำแก้มป่องแล้วน่ารักดี"
 
-hi "Still, I can't really imagine what's so good about winter. You can't go out without bundling up, and you still freeze anyway."
+# hi "Still, I can't really imagine what's so good about winter. You can't go out without bundling up, and you still freeze anyway."
+hi "แต่เอาจริง ๆ ฉันก็นึกไม่ออกเหมือนกันว่าหน้าหนาวมันดีตรงไหน ไปไหนทีก็ต้องใส่ชุดเป็นร้อย ๆ ชั้น แถมใส่แล้วใช่ว่า\nจะอุ่นขึ้นนะ"
 
 show lilly basic_reminisce_cas_close
 with charachange
 
-li "I used to live further north, where there'd be plenty of snow to play in, so it's a little nostalgic. I don't like the heat very much, either."
+# li "I used to live further north, where there'd be plenty of snow to play in, so it's a little nostalgic. I don't like the heat very much, either."
+li "ฉันเคยอยู่ทางเหนือที่มีหิมะตกเยอะ ๆ น่ะจ้ะ หน้าหนาวก็เลยเป็นอะไรที่ชวนให้คิดถึงขึ้นมา แถมฉันเองก็ไม่ค่อยชอบ\nอากาศร้อนเท่าไหร่ด้วย"
 
-hi "At least you can wear a skirt, so don't complain about that."
+# hi "At least you can wear a skirt, so don't complain about that."
+hi "อย่างน้อยพอเป็นหน้าร้อนก็ใส่กระโปรงได้นะ จะบ่นก็คงไม่ได้หรอก"
 
 show lilly basic_giggle_cas_close
 with charachange
 
-"She gives an amused giggle as we both get back to finishing off our already melting cones."
+# "She gives an amused giggle as we both get back to finishing off our already melting cones."
+"เธอยิ้มหัวเราะคิกคัก พวกเราต่างกินไอศกรีมที่เริ่มละลายแล้วของตัวเองกัน"
 
 play ambient sfx_crowd_outdoors fadein 2.0
 
@@ -1437,52 +1617,64 @@ hide lilly
 show crowd at left
 with shorttimeskip
 
-"I idly sit and watch the crowds going by as we eat, catching bits and pieces of conversation."
+# "I idly sit and watch the crowds going by as we eat, catching bits and pieces of conversation."
+"ฉันนั่งมองผู้คนที่เดินผ่านไปมาพลางกินไอศกรีมโดยมีบทสนทนากระท่อนกระแท่นลอยผ่านหู"
 
 show lilly basic_satisfied_cas_close at Transform(xalign=0.5, ypos=0.15)
 with charaenter
 
-"Looking to Lilly, I see her dutifully licking her ice cream from the top downwards, blissfully unaware of the fact that it's beginning to melt."
+# "Looking to Lilly, I see her dutifully licking her ice cream from the top downwards, blissfully unaware of the fact that it's beginning to melt."
+"พอหันไปมองก็เห็นลิลลี่ที่ยังคงเลียไอศกรีมกินจากบนลงล่างอย่างตั้งอกตั้งใจโดยไม่รู้เลยว่าตัวไอศกรีมนั้นเริ่มละลายแล้ว"
 
-hi "It's melting."
+# hi "It's melting."
+hi "ละลายแล้วแน่ะ"
 
 show lilly basic_surprised_cas_close
 with charachange
 
-li "Where?"
+# li "Where?"
+li "ตรงไหนเหรอ"
 
-hi "Um… down a bit?"
+# hi "Um… down a bit?"
+hi "เอ่อ… ล่าง ๆ หน่อย?"
 
 show lilly basic_listen_cas_close
 with charachange
 
-"She lowers her mouth from the top of the cone, but has no idea of exactly where the ice cream's dripping. What follows is a game of guiding her left and right until she finally finds it."
+# "She lowers her mouth from the top of the cone, but has no idea of exactly where the ice cream's dripping. What follows is a game of guiding her left and right until she finally finds it."
+"เธอขยับปากลงมาด้านล่างโคนแต่ยังไม่รู้ว่าส่วนที่ละลายจนหยดนั้นอยู่ตรงไหน หลังจากนั้นก็ต้องคอยบอกซ้ายขวา\nนำทางลิลลี่ไปจนถึงจุดนั้น"
 
-"To any onlooker, it must seem absolutely bizarre - a girl with her eyes closed turning her cone over and over as the guy next to her gives instructions. A strange variant of childhood blindfold games, maybe."
+# "To any onlooker, it must seem absolutely bizarre - a girl with her eyes closed turning her cone over and over as the guy next to her gives instructions. A strange variant of childhood blindfold games, maybe."
+"ใครมองก็คงเห็นว่าประหลาดที่มีผู้หญิงหลับตาหมุนโคนไอศกรีมไปเรื่อย ๆ โดยที่มีผู้ชายที่นั่งอยู่ข้าง ๆ คอยบอกทาง\nคงจะเหมือนเกมปิดตาที่เล่นกันสมัยเด็กแต่เป็นในรูปแบบที่แปลก ๆ ละมั้ง"
 
 show lilly basic_smileclosed_cas_close
 with shorttimeskip
 
-"In good time we finally finish our treats, and while away the time conversing casually."
+# "In good time we finally finish our treats, and while away the time conversing casually."
+"ไม่เร็วไม่ช้าเราก็กินไอศกรีมกันจนหมดพลางคุยอะไรฆ่าเวลาไปเรื่อยเปื่อย"
 
 stop music fadeout 3.0
 
 show lilly back_listen_cas_close
 with charachange
 
-"Caught mid-sentence, Lilly perks her head in her trademark manner. It's an unmistakable sign that something's caught her attention."
+# "Caught mid-sentence, Lilly perks her head in her trademark manner. It's an unmistakable sign that something's caught her attention."
+"ระหว่างที่คุยลิลลี่ก็เงยหน้าขึ้น เป็นท่าที่คล้ายท่าประจำตัวของเธอเวลามีอะไรสักอย่างที่ดึงความสนใจเธอไป"
 
 show lilly back_smileclosed_cas_close
 with charachange
 
-li "Ah…"
+# li "Ah…"
+li "อ๊ะ…"
 
-hi "What is it?"
+# hi "What is it?"
+hi "มีอะไรเหรอ"
 
 show lilly back_smile_cas_close
 with charachange
 
-li "Is Akira somewhere over there? I think I heard her."
+# li "Is Akira somewhere over there? I think I heard her."
+li "พี่ฉันอยู่แถวนั้นหรือเปล่า เหมือนได้ยินเสียงอยู่นะ"
 
 show lilly back_smile_cas_close at Transform(xpos=0.25)
 show crowd:
@@ -1496,25 +1688,31 @@ with dissolvecharamove
 #bgright: xpos 0.6 xanchor 0.5 ypos 1.0 yanchor 1.0
 
 
-"I raise an eyebrow as I look in the direction she's facing, somewhat doubtful of her ability to pick out Akira's lone voice in the din."
+# "I raise an eyebrow as I look in the direction she's facing, somewhat doubtful of her ability to pick out Akira's lone voice in the din."
+"ฉันเลิกคิ้วขึ้นพลางหันไปมองทางที่ลิลลี่หันหน้าไป ในใจยังนึกสงสัยว่าเธอจะหูดีถึงขั้นได้ยินเสียงอากิระที่ปะปนอยู่กับ\nเสียงอื้ออึงเหล่านี้ได้จริงหรือไม่"
 
 show akira basic_boo behind crowd:
     tworight
     xpos 0.78 ypos 1.13
 with charaenter
 
-"Sure enough though, a blonde girl in a suit can be seen through the tiny gaps between people walking every which way."
+# "Sure enough though, a blonde girl in a suit can be seen through the tiny gaps between people walking every which way."
+"แต่ที่เห็นนั่นไม่ผิดแน่ มีผู้หญิงผมบลอนด์ใส่ชุดสูทที่อยู่ท่ามกลางฝูงชนที่คลาคล่ำอยู่"
 
-"I raise a hand and wave, trying to catch her attention."
+# "I raise a hand and wave, trying to catch her attention."
+"ฉันยกมือโบกให้อากิระหันมา"
 
-hi "Satou! Hey, Satou!"
+# hi "Satou! Hey, Satou!"
+hi "ซาโต้! นี่ ซาโต้!"
 
 show akira basic_smile
 with charachange
 
-"She stops in her tracks and looks towards me, evidently noticing my calls. As she does, I notice someone walking beside her."
+# "She stops in her tracks and looks towards me, evidently noticing my calls. As she does, I notice someone walking beside her."
+"อากิระชะงักแล้วหันมามองเพราะได้ยินฉันเรียก เธอเดินมาพร้อมอีกคนที่ประกบมาด้วย"
 
-"I can't get a good look at whoever it is though, before the two begin walking towards where we are."
+# "I can't get a good look at whoever it is though, before the two begin walking towards where we are."
+"แต่ตอนที่มองไกล ๆ แล้วยังมองไม่ค่อยออกว่าคนนั้นเป็นใครกันแน่"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 play music music_ease fadein 4.0
@@ -1535,12 +1733,14 @@ with None
 show lilly back_smile_cas_close at Transform(yalign=1.0)
 with charamove
 
-"As they reach us, Lilly and I stand and dust ourselves off."
+# "As they reach us, Lilly and I stand and dust ourselves off."
+"พอสองคนนั้นเดินมาถึง ลิลลี่กับฉันก็ลุกขึ้นแล้วปัด ๆ ฝุ่นตามตัว"
 
 show lilly back_giggle_cas_close
 with charachange
 
-li "Akira?"
+# li "Akira?"
+li "พี่?"
 
 hide akira2
 show akira basic_laugh behind lilly:
@@ -1548,7 +1748,8 @@ show akira basic_laugh behind lilly:
     xpos 0.78 ypos 1.0
 with charachange
 
-aki "Hey, you two."
+# aki "Hey, you two."
+aki "ไงพวกเธอ"
 
 show lilly back_giggle_cas_close at Transform(xpos=0.1)
 show akira basic_smile at Transform(xanchor=0.5, xpos=0.6)
@@ -1559,76 +1760,96 @@ with dissolvecharamove
 show hideaki bored at right behind akira
 with charaenter
 
-"She nods towards me, a gesture which I quickly return. My gaze shifts towards the young girl next to her, and our eyes meet. As they do, Akira plops a hand onto her head, a move which doesn't seem to faze her."
+# "She nods towards me, a gesture which I quickly return. My gaze shifts towards the young girl next to her, and our eyes meet. As they do, Akira plops a hand onto her head, a move which doesn't seem to faze her."
+"อากิระพยักหน้าให้ฉัน ซึ่งฉันก็พยักหน้าตอบ สายตาฉันเลื่อนไปทางเด็กผู้หญิงที่อยู่ข้าง ๆ จนเราสองคนสบตากัน\nจังหวะนั้นอากิระก็เอามือวางไว้บนหัวเธอ แต่เธอดูจะไม่ยี่หระอะไร"
 
 show hideaki normal
 with charachange
 
-hh "I don't believe we've met. I'm Hideaki. Pleased to meet you, Hisao."
+# hh "I don't believe we've met. I'm Hideaki. Pleased to meet you, Hisao."
+hh "คงจะเพิ่งได้เจอกันเป็นครั้งแรกเลยสินะครับ ผมฮิเดอากิครับ ยินดีที่ได้พบนะครับพี่ฮิซาโอะ"
 
-"A guy's name, huh? Guess I just dodged a bullet there. He bows, somewhat restrained by Akira's hand being on his head."
+# "A guy's name, huh? Guess I just dodged a bullet there. He bows, somewhat restrained by Akira's hand being on his head."
+"ชื่อผู้ชายเหรอ เกือบไปแล้วมั้ยล่ะ เขาโค้งตัวด้วยความเก้ ๆ กัง ๆ เล็กน้อยเพราะอากิระจับหัวไว้อยู่"
 
 show lilly basic_smileclosed_cas_close at Transform(xpos=0.18)
 with charachange
 
-li "Oh, Hideaki's here too? Are you well?"
+# li "Oh, Hideaki's here too? Are you well?"
+li "อ้าว ฮิเดอากิก็มาด้วยเหรอ สบายดีหรือเปล่า"
 
 show hideaki thinking
 with charachange
 
-hh "Akira's been taking very good care of me, thank you."
+# hh "Akira's been taking very good care of me, thank you."
+hh "พี่อากิระดูแลผมดีมากเลยครับ ขอบคุณครับ"
 
 show akira basic_laugh
 show hideaki sad
 with charachange
 
-"Akira grins as if to affirm the point and rubs his head hard, dragging it around in a circular motion. His dreary face during this is somewhat amusing."
+# "Akira grins as if to affirm the point and rubs his head hard, dragging it around in a circular motion. His dreary face during this is somewhat amusing."
+"อากิระยิ้มราวกับยืนยันคำพูดนั้นพลางยีหัวฮิเดอากิแรง ๆ แบบวนเป็นวงกลม เห็นหน้าแหย ๆ ของฮิเดอากิตอนนี้แล้วก็\nตลกดีเหมือนกัน"
 
 show akira basic_smile
 with charachange
 
-aki "Uncle's out on business again, so I'm just taking him around town for today."
+# aki "Uncle's out on business again, so I'm just taking him around town for today."
+aki "คุณลุงเขาออกไปทำธุระอีกแล้วน่ะ วันนี้เลยพาน้องมันมาเที่ยว"
 
 show akira basic_boo
 with charachange
 
-aki "I'd have preferred to be spending the day on a date with my boyfriend, but…"
+# aki "I'd have preferred to be spending the day on a date with my boyfriend, but…"
+aki "ใจจริงก็อยากไปเดตกับแฟนมากกว่านะ แต่ว่า…"
 
 show hideaki closed_up
 with charachange
 
-"Hideaki gives a cough to try and redirect Akira's thoughts."
+# "Hideaki gives a cough to try and redirect Akira's thoughts."
+"ฮิเดอากิกระแอมคล้ายจะเบี่ยงประเด็นอากิระ"
 
-"As he does so, though, I find mine wandering. They're related? And further, as first cousins? I suppose that explains why she's taking care of him in any case."
+# "As he does so, though, I find mine wandering. They're related? And further, as first cousins? I suppose that explains why she's taking care of him in any case."
+"แต่ประเด็นในหัวฉันก็เบี่ยงไปแล้วเหมือนกัน สองคนนี้เป็นพี่น้องกันเหรอ หรือเป็นลูกพี่ลูกน้อง แต่ต้องเป็นอะไรกัน\nนั่นแหละอากิระถึงได้มาดูแลอย่างนี้"
 
-hi "Come to think of it, Hideaki, how did you know my name?"
+# hi "Come to think of it, Hideaki, how did you know my name?"
+hi "จะว่าไป ฮิเดอากิ นี่นายรู้ชื่อฉันได้ยังไง"
 
 show hideaki serious
 with charachange
 
-hh "Akira told me. Being a Yamaku student, I suppose you're disabled in some way?"
+# hh "Akira told me. Being a Yamaku student, I suppose you're disabled in some way?"
+hh "พี่อากิระบอกผม และการที่พี่ฮิซาโอะเรียนที่ยามากุ แปลว่าต้องพิการอะไรสักอย่างสินะครับ"
 
-hi "Not everyone in Yamaku's disabled…"
+# hi "Not everyone in Yamaku's disabled…"
+hi "ใช่ว่าทุกคนในยามากุจะพิการสักหน่อย…"
 
-"Which I only learned a handful of days ago. I give silent thanks to Shizune and Misha for their stream of information about how the school works."
+# "Which I only learned a handful of days ago. I give silent thanks to Shizune and Misha for their stream of information about how the school works."
+"ซึ่งฉันก็เพิ่งรู้มาเมื่อไม่กี่วันมานี้เอง ในใจฉันนึกขอบคุณชิซูเนะและมิช่าที่แบ่งปันข้อมูลเรื่องนอกในของโรงเรียน"
 
-"Because of them, I found out that since the school will accept practically anybody suffering from non-mental disabilities, it doesn't discriminate against healthy people either."
+# "Because of them, I found out that since the school will accept practically anybody suffering from non-mental disabilities, it doesn't discriminate against healthy people either."
+"เพราะสองคนนั้นฉันถึงได้รู้ว่าโรงเรียนนี้ไม่ได้กีดกันคนที่แข็งแรงดีออกไปด้วย เพราะยังไงโรงเรียนนี้ก็เปิดกว้างรับทุกคน\nที่พิการทางร่างกายอยู่แล้ว"
 
-"It seems unlikely that many in good health would enroll there though. While the standard of education is pretty high, it's extremely isolated and very much focused on helping disabled students."
+# "It seems unlikely that many in good health would enroll there though. While the standard of education is pretty high, it's extremely isolated and very much focused on helping disabled students."
+"แต่คนที่ร่างกายสมบูรณ์ดีก็คงไม่ค่อยไปเรียนที่ยามากุกันหรอก มาตรฐานการศึกษาในโรงเรียนสูงก็จริง แต่ตัวโรงเรียน\nค่อนข้างอยู่ไกลคน แถมโรงเรียนเองก็เน้นการให้ความช่วยเหลือกับนักเรียนที่พิการมากกว่า"
 
 show hideaki angry_up
 with charachange
 
-hh "You're dodging the question."
+# hh "You're dodging the question."
+hh "เลี่ยงคำถามเหรอครับ"
 
-"Damn, he's sharp."
+# "Damn, he's sharp."
+"หัวไวเกินไปละ"
 
-"Before I can say another word though, he decides to take a stab at it himself."
+# "Before I can say another word though, he decides to take a stab at it himself."
+"แต่ก่อนที่ฉันจะทันได้พูดอะไรเขาก็เปิดมาก่อน"
 
 show hideaki evil
 with charachange
 
-hh "If I were to call it myself… your heart?"
+# hh "If I were to call it myself… your heart?"
+hh "ถ้าให้ผมเดา… หัวใจใช่มั้ยครับ"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="music")
 $ renpy.music.set_volume(0.0, 0.5, channel="ambient")
@@ -1637,9 +1858,11 @@ show akira basic_lost
 show lilly basic_listen_cas_close
 with charachange
 
-"Akira looks mildly curiously at me, her interest piqued as well. That sure was a lucky guess."
+# "Akira looks mildly curiously at me, her interest piqued as well. That sure was a lucky guess."
+"อากิระมองฉันด้วยความสนใจเพราะเธอเองก็อยากรู้เหมือนกัน เดาแม่นจริง"
 
-hi "How did you…?"
+# hi "How did you…?"
+hi "นี่นาย…"
 
 $ renpy.music.set_volume(1.0, 10.0, channel="music")
 $ renpy.music.set_volume(0.5, 10.0, channel="ambient")
@@ -1647,50 +1870,62 @@ $ renpy.music.set_volume(0.5, 10.0, channel="ambient")
 show hideaki thinking
 with charachange
 
-hh "You show no missing limbs or deformities, so external disabilities are out."
+# hh "You show no missing limbs or deformities, so external disabilities are out."
+hh "แขนขาพี่ยังอยู่ครบ ร่างกายไม่มีบิดเบี้ยว เพราะงั้นตัดความพิการพวกนั้นออกไปได้"
 
 show hideaki serious
 with charachange
 
-hh "Considering the lack of any strange mannerisms, it's also unlikely that you'd have any mental disability."
+# hh "Considering the lack of any strange mannerisms, it's also unlikely that you'd have any mental disability."
+hh "แล้วพี่ก็ทำตัวปกติดี เพราะงั้นคงไม่ใช่ความพิการทางจิตด้วย"
 
 show lilly basic_planned_cas_close
 with charachange
 
-li "But Yamaku doesn't take mentally disabled students."
+# li "But Yamaku doesn't take mentally disabled students."
+li "แต่ยามากุไม่รับนักเรียนพิการทางจิตนะจ๊ะ"
 
 show hideaki bored
 with charachange
 
-hh "I know."
+# hh "I know."
+hh "ผมรู้ครับ"
 
 show hideaki serious_up
 with charachange
 
-hh "Leaving that aside, the only possibility left is that of internal disabilities."
+# hh "Leaving that aside, the only possibility left is that of internal disabilities."
+hh "พอตัดเรื่องนั้นออกไปด้วยแล้ว ความเป็นไปได้เดียวคือความพิการกับอวัยวะภายใน"
 
 show hideaki happy
 with charachange
 
-hh "I didn't know which one you might bear, so I guessed. Correctly, as it turns out. And your reaction confirmed my guess."
+# hh "I didn't know which one you might bear, so I guessed. Correctly, as it turns out. And your reaction confirmed my guess."
+hh "ผมไม่รู้ว่าพี่เป็นอะไรก็เลยเดา แล้วก็เดาถูก ปฏิกิริยาของพี่ก็ยืนยันด้วยว่าใช่"
 
 show akira basic_smile
 with charachange
 
-"More than a little bemused, I look to Akira. She grins and shrugs, obviously taking some enjoyment out of her partner's deductions."
+# "More than a little bemused, I look to Akira. She grins and shrugs, obviously taking some enjoyment out of her partner's deductions."
+"ฉันหันไปมองอากิระด้วยสีหน้าที่ไม่สบอารมณ์มากนัก เธอยิ้มแล้วยักไหล่ดูสนุกกับการอนุมานของอีกฝ่าย"
 
-"He's sharp, yes, but more than a little unsympathetic. Logical, but lacking in tact. His attitude reminds me of Shizune, in a way, as do his looks."
+# "He's sharp, yes, but more than a little unsympathetic. Logical, but lacking in tact. His attitude reminds me of Shizune, in a way, as do his looks."
+"ก็ฉลาดจริงแหละ แต่ออกจะขวานผ่าซากไปหน่อย มีเหตุผลดี แต่ยังขาดไหวพริบ เห็นการทำตัวอย่างนี้แล้วก็นึกถึง\nชิซูเนะเหมือนกัน หน้าตาก็คล้ายด้วย"
 
 show hideaki disapproves
 with charachange
 
-hh "May I ask why you're staring at me? Surely I'm not that unusual a specimen."
+# hh "May I ask why you're staring at me? Surely I'm not that unusual a specimen."
+hh "แล้วนี่จ้องผมทำไมเหรอครับ ผมไม่ใช่ตัวอย่างพิเศษนะครับ"
 
-"Does he not know how unusual he looks? I could overlook the spats and clothing as just being coincidental, but the ribbon in his hair really is too much."
+# "Does he not know how unusual he looks? I could overlook the spats and clothing as just being coincidental, but the ribbon in his hair really is too much."
+"นี่ไม่รู้ตัวเลยเหรอว่าตัวเองทำตัวเด่นแค่ไหนน่ะ ไอ้เสื้อผ้ากับถุงน่องน่ะพอเข้าใจได้ว่าอาจจะบังเอิญ แต่โบว์บนหัวนี่\nไม่ไหวเลยจริง ๆ"
 
-"This is entirely beside the point, though."
+# "This is entirely beside the point, though."
+"ซึ่งการแต่งตัวก็ไม่ได้เกี่ยวอะไรกับประเด็นจริง ๆ อะนะ"
 
-hi "Sorry. You just remind me of someone."
+# hi "Sorry. You just remind me of someone."
+hi "โทษที พอดีเห็นนายแล้วนึกถึงใครบางคน"
 
 play sound sfx_impact
 
@@ -1698,96 +1933,118 @@ show akira basic_boo
 show hideaki surprise_up
 with vpunch
 
-"Akira gives him a sharp jab with her elbow."
+# "Akira gives him a sharp jab with her elbow."
+"อากิระถองศอกใส่ฮิเดอากิ"
 
 show akira basic_laugh
 with charachange
 
-aki "Told ya you're not that much different from her."
+# aki "Told ya you're not that much different from her."
+aki "บอกแล้วไงว่านายก็เหมือน ๆ กับพี่นายน่ะแหละ"
 
 show hideaki closed_up
 with charachange
 
-"He coughs into his hand to try and maintain an upright and serious demeanor."
+# "He coughs into his hand to try and maintain an upright and serious demeanor."
+"เขากระแอมใส่กำปั้นแล้วทำท่าให้ดูจริงจังขึงขังไว้"
 
-hh "I see you've met my sister, then. Perhaps my full name might help you."
+# hh "I see you've met my sister, then. Perhaps my full name might help you."
+hh "แสดงว่าเจอพี่ผมแล้วด้วยสินะครับ งั้นถ้ารู้นามสกุลผมแล้วคงนึกออก"
 
 show hideaki serious
 with charachange
 
-hh "I am Hideaki Hakamichi. You are probably thinking of my sister, Shizune Hakamichi."
+# hh "I am Hideaki Hakamichi. You are probably thinking of my sister, Shizune Hakamichi."
+hh "ผมฮิเดอากิ ฮากามิจิครับ คงจะนึกถึงพี่สาวของผมที่ชื่อชิซูเนะ ฮากามิจิอยู่สินะครับ"
 
-"Oh, so he's Shizune's brother."
+# "Oh, so he's Shizune's brother."
+"อ้อ น้องชิซูเนะนี่เอง"
 
-"Wait a minute, if Hideaki is the son of Akira's uncle, and Shizune is his sister, then that means Lilly and Shizune's fathers are brothers-in-law. Therefore…"
+# "Wait a minute, if Hideaki is the son of Akira's uncle, and Shizune is his sister, then that means Lilly and Shizune's fathers are brothers-in-law. Therefore…"
+"เดี๋ยวนะ ถ้าฮิเดอากิเป็นลูกชายของลุงอากิระ แล้วชิซูเนะเป็นพี่ฮิเดอากิ แปลว่าพ่อของลิลลี่กับชิซูเนะเป็น\nพี่เขยน้องเขยกัน ดังนั้น…"
 
-hi "Lilly and Shizune are first cousins?"
+# hi "Lilly and Shizune are first cousins?"
+hi "ลิลลี่กับชิซูเนะเป็นลูกพี่ลูกน้องกัน?"
 
 show lilly basic_concerned_cas_close
 show akira basic_smile
 with charachange
 
-"Lilly groans in an uncharacteristically unrestrained manner. The reaction earns an amused smirk from her sister."
+# "Lilly groans in an uncharacteristically unrestrained manner. The reaction earns an amused smirk from her sister."
+"ลิลลี่ทำเสียงโอดครวญแบบเต็มที่ผิดวิสัย พออากิระเห็นปฏิกิริยาของลิลลี่แล้วก็ยิ้ม ๆ"
 
-"The enmity between the two just took on another meaning. I had thought it simply a matter of difficulty of communication between the two, but a family feud makes things much more complicated."
+# "The enmity between the two just took on another meaning. I had thought it simply a matter of difficulty of communication between the two, but a family feud makes things much more complicated."
+"ก็แปลว่าเรื่องที่สองคนนั้นไม่ถูกกันยังมีอีกด้านที่ไม่เคยเห็นอยู่ ทีแรกก็นึกว่าแค่มีปัญหาเรื่องการสื่อสารกัน แต่พอมี\nเรื่องครอบครัวมาเกี่ยวแล้วยิ่งทำให้อะไร ๆ ซับซ้อนขึ้นกว่าเดิม"
 
 
 show akira basic_laugh
 with charachange
 
-aki "You can choose your friends, but you can't choose your family."
+# aki "You can choose your friends, but you can't choose your family."
+aki "คนเราน่ะเลือกเพื่อนได้ แต่เลือกครอบครัวไม่ได้นะ"
 
 show akira basic_boo
 with charachange
 
-"She gives a halfhearted shrug. She mustn't give as much weight to the two's conflict as I do."
+# "She gives a halfhearted shrug. She mustn't give as much weight to the two's conflict as I do."
+"อากิระยักไหล่เนือย ๆ คงไม่ได้คิดมากเรื่องสองคนนั้นเท่าฉันละมั้ง"
 
 show akira basic_smile
 with charachange
 
-aki "Well, that's how it is. What're you two up to anyway on this fine day?"
+# aki "Well, that's how it is. What're you two up to anyway on this fine day?"
+aki "เอาเหอะ ก็ตามนั้นแหละ ว่าแต่เธอสองคนออกมาทำอะไรกันในวันฟ้าใสอย่างนี้"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
-li "We're shopping for Hanako's birthday present. The day will be coming up soon, so this is the last chance we'll have before school starts again for the week."
+# li "We're shopping for Hanako's birthday present. The day will be coming up soon, so this is the last chance we'll have before school starts again for the week."
+li "พอดีหนูออกมาหาซื้อของขวัญให้ฮานาโกะ ใกล้ถึงวันแล้วด้วย ถ้าพ้นวันนี้ไปก็จะไม่มีโอกาสได้ออกมาซื้อของแล้ว\nเพราะต้องกลับไปเรียน"
 
 stop music fadeout 7.0
 
 show akira basic_lost
 with charachange
 
-"Akira makes a strange face, as if Lilly had just said that the sky wasn't blue and the clouds not white."
+# "Akira makes a strange face, as if Lilly had just said that the sky wasn't blue and the clouds not white."
+"อากิระทำหน้าเหวอราวกับลิลลี่เพิ่งบอกว่าท้องฟ้าไม่ได้เป็นสีฟ้า ก้อนเมฆไม่ได้เป็นสีขาว"
 
-aki "Isn't her birthday on the tenth next month?"
+# aki "Isn't her birthday on the tenth next month?"
+aki "วันเกิดฮานาโกะมันวันที่สิบเดือนหน้านู่นเลยไม่ใช่เหรอ"
 
 show lilly basic_surprised_cas_close
 with charachange
 
-li "Yes… Why? Is something wrong?"
+# li "Yes… Why? Is something wrong?"
+li "อื้ม… ทำไมเหรอ มีอะไรหรือเปล่า"
 
 show akira basic_resigned
 with charachange
 
-"Akira's face seems to collapse. It's an utterly unbefitting expression for someone so rowdy and headstrong."
+# "Akira's face seems to collapse. It's an utterly unbefitting expression for someone so rowdy and headstrong."
+"อากิระทำสีหน้าเครียดหนัก เป็นสีหน้าที่ไม่เหมาะกับเธอซึ่งเป็นคนเฮฮาและหัวแข็งเอามาก ๆ"
 
-aki "The folks didn't call you yet?"
+# aki "The folks didn't call you yet?"
+aki "ที่บ้านยังไม่ได้ติดต่อมาเหรอ"
 
 show lilly basic_oops_cas_close
 show hideaki confused
 with charachange
 
-"As Lilly shakes her head cluelessly, I look at Hideaki to see if he knows anything about this. A simple shrug is his only answer."
+# "As Lilly shakes her head cluelessly, I look at Hideaki to see if he knows anything about this. A simple shrug is his only answer."
+"ลิลลี่สั่นหัวเป็นเชิงว่าไม่รู้เรื่อง ฉันเหลือบมองไปทางฮิเดอากิเผื่อจะรู้ว่ามีเรื่องอะไรกัน แต่เขาก็ยักไหล่ตอบ"
 
 show akira basic_boo
 with charachange
 
-"For a moment, Akira ponders what to do before smiling once again. The fact that she can hide her emotions so quickly and effectively is unsettling."
+# "For a moment, Akira ponders what to do before smiling once again. The fact that she can hide her emotions so quickly and effectively is unsettling."
+"อากิระคิดอยู่ครู่หนึ่งว่าจะเอายังไงต่อก่อนจะยิ้มอีกครั้ง ซ่อนอารมณ์ได้เก่งและแนบเนียนจนฉันใจคอไม่ดีขึ้นมาเลย"
 
 show akira basic_smile
 with charachange
 
-aki "Hey Shortie, sorry, but could you hang with Hisao for a while?"
+# aki "Hey Shortie, sorry, but could you hang with Hisao for a while?"
+aki "เฮ้ย โทษทีนะเจ้าเตี้ย อยู่กับฮิซาโอะไปก่อนนะ"
 
 $ renpy.music.set_volume(0.7, 2.0, channel="ambient")
 
@@ -1816,41 +2073,52 @@ hide lilly
 hide akira
 with None
 
-"He nods and waves her off, Akira placing an arm on Lilly's shoulder as she guides her away and out of earshot."
+# "He nods and waves her off, Akira placing an arm on Lilly's shoulder as she guides her away and out of earshot."
+"ฮิเดอากิพยักหน้าแล้วโบกมือลา อากิระโอบไหล่ลิลลี่นำทางไปให้พ้นระยะที่พวกเราจะได้ยิน"
 
-"And so, I'm alone with “Shortie.”"
+# "And so, I'm alone with “Shortie.”"
+"และฉันก็ถูกทิ้งให้อยู่กับ “เจ้าเตี้ย”"
 
-hi "So… nice weather, isn't it?"
+# hi "So… nice weather, isn't it?"
+hi "อากาศ… ดีเนอะ ว่ามั้ย"
 
 show hideaki thinking at center
 with charachange
 
-hh "It seems so."
+# hh "It seems so."
+hh "ก็ดีนะครับ"
 
 "…"
 
-hi "I guess they dumped us."
+# hi "I guess they dumped us."
+hi "โดนทิ้งแล้วสิ"
 
 show hideaki serious
 with charachange
 
-hh "Indeed."
+# hh "Indeed."
+hh "ครับ"
 
-"What a farcical attempt at smalltalk. I've got no idea of how to talk to this guy, and his robotic responses aren't helping. Blood and a stone come to mind."
+# "What a farcical attempt at smalltalk. I've got no idea of how to talk to this guy, and his robotic responses aren't helping. Blood and a stone come to mind."
+"เหมือนมาเล่นตลกกันสองคนเลย จะคุยกับเขายังไงดีเนี่ย ถามคำตอบคำเป็นหุ่นยนต์ไปได้ ไม่รู้จะเอายังไงต่อดี"
 
 show hideaki triangle
 with charachange
 
-"Without another word, he begins to rock on his feet in an obvious gesture of boredom with this discussion. He really is like a little kid, despite his serious demeanor."
+# "Without another word, he begins to rock on his feet in an obvious gesture of boredom with this discussion. He really is like a little kid, despite his serious demeanor."
+"แล้วเขาก็แกว่งขาเล่น เห็นได้ชัดว่าเบื่อที่ต้องคุย ทำตัวเป็นเด็กจริง ๆ ถึงท่าทางจะดูจริงจังก็เถอะ"
 
-"Suspecting the conversation over, I decide to accomplish what I came here to do in the first place."
+# "Suspecting the conversation over, I decide to accomplish what I came here to do in the first place."
+"พอเห็นว่าหมดเรื่องจะคุยแล้วฉันก็นึกจะไปทำสิ่งที่ได้ตั้งเป้าไว้แต่แรก"
 
-hi "I'm going to go search for a present. Coming?"
+# hi "I'm going to go search for a present. Coming?"
+hi "เดี๋ยวจะไปซื้อของขวัญ ไปด้วยมั้ย"
 
 show hideaki normal
 with charachange
 
-hh "Not much else to do."
+# hh "Not much else to do."
+hh "ไม่มีอะไรทำอยู่แล้วครับ"
 
 stop ambient fadeout 0.5
 
@@ -1860,29 +2128,38 @@ with shorttimeskip
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 2.0
 
-"In a little while, we come to a small shop beside a convenience store."
+# "In a little while, we come to a small shop beside a convenience store."
+"ไม่นานเราก็มาถึงร้านเล็ก ๆ ที่ตั้งอยู่ข้างร้านสะดวกซื้อ"
 
-"For once the store windows aren't filled with electronics and computer games, but dolls, stuffed bears and all manners of wood-crafted oddities."
+# "For once the store windows aren't filled with electronics and computer games, but dolls, stuffed bears and all manners of wood-crafted oddities."
+"เป็นร้านที่ตามหน้าต่างไม่ได้มีเครื่องใช้ไฟฟ้าหรือเกมคอมพิวเตอร์ แต่เป็นหุ่น ตุ๊กตาหมี และของเบ็ดเตล็ดทำมือ\nที่ทำด้วยไม้ทั้งหลาย"
 
-hi "Othello's… Antiques?"
+# hi "Othello's… Antiques?"
+hi "ร้านขายของเก่า… โอเทลโล่?"
 
-"An antique store? Well, if there's anything in this town that'd suit Hanako, I guess it'd be here."
+# "An antique store? Well, if there's anything in this town that'd suit Hanako, I guess it'd be here."
+"ร้านขายของเก่าเหรอ อืม ถ้าให้เทียบกับร้านอื่น ร้านนี้น่าจะเหมาะกับฮานาโกะที่สุดแล้วละมั้ง"
 
-"I reach for the old-looking door handle, but pull back at the last minute as I realize my companion's gone adrift."
+# "I reach for the old-looking door handle, but pull back at the last minute as I realize my companion's gone adrift."
+"ฉันยื่นมือเตรียมจับมือจับประตูที่ดูเก่า แต่ก็ไม่ได้จับเมื่อเห็นว่าคนที่มาด้วยไม่ได้ตามมา"
 
-hi "Not coming in?"
+# hi "Not coming in?"
+hi "ไม่เข้ามาด้วยเหรอ"
 
 show hideaki triangle at center
 with charaenter
 
-hh "I'll just be in the newsstand for a while. Don't mind me."
+# hh "I'll just be in the newsstand for a while. Don't mind me."
+hh "ผมจะไปดูแผงหนังสือพิมพ์สักหน่อย พี่ไปเถอะ"
 
-"His voice makes it painfully clear he has zero interest in what's in the store, and that he doesn't feel obligated to follow me."
+# "His voice makes it painfully clear he has zero interest in what's in the store, and that he doesn't feel obligated to follow me."
+"น้ำเสียงฮิเดอากิบอกชัดจนฉันซึมว่าเขาไม่ได้สนใจของในร้านเลย แถมไม่ได้มีใจจะตามมาด้วย"
 
 hide hideaki
 with charaexit
 
-"As he wanders off without another word, I push the thick wooden door and enter the store, a bell above me ringing out."
+# "As he wanders off without another word, I push the thick wooden door and enter the store, a bell above me ringing out."
+"พอเขาเดินออกไปแบบเงียบ ๆ แล้วฉันก็ผลักประตูไม้บานหนาเข้าร้านมา เสียงกระดิ่งที่อยู่บนหัวดังกริ๊ง"
 
 stop ambient fadeout 0.5
 play sound sfx_storebell
@@ -1892,41 +2169,54 @@ with locationskip
 
 play music music_soothing fadein 0.5
 
-"The musty smell of old books and wooden shelves is distinctly anachronistic."
+# "The musty smell of old books and wooden shelves is distinctly anachronistic."
+"กลิ่นอับของหนังสือกับชั้นไม้ให้ความรู้สึกเหมือนร้านนี้อยู่คนละยุค"
 
-"I look to the counter beside the door. The graying man behind it sits there silently, reading a tattered book. He certainly fits the look of the place."
+# "I look to the counter beside the door. The graying man behind it sits there silently, reading a tattered book. He certainly fits the look of the place."
+"ฉันมองไปทางเคาน์เตอร์ที่อยู่ข้างประตูซึ่งมีชายผมสีดอกเลาที่นั่งอ่านหนังสือเก่า ๆ อยู่เงียบ ๆ ท่าทางเขาดูเข้ากับ\nร้านนี้เป็นอย่างดี"
 
-"Slowly wandering through the aisles, the person I'm reminded of as I inspect each handcrafted or imported oddity in turn isn't Hanako."
+# "Slowly wandering through the aisles, the person I'm reminded of as I inspect each handcrafted or imported oddity in turn isn't Hanako."
+"ฉันเดินดูตามชั้นวางของไปเอื่อย ๆ คนที่ฉันนึกถึงเมื่อได้พินิจดูของทำมือหรือของเบ็ดเตล็ดนำเข้าแต่ละชิ้นกลับไม่ใช่\nฮานาโกะ"
 
-"Crouching down, I examine the ancient oak desk inside the shop window."
+# "Crouching down, I examine the ancient oak desk inside the shop window."
+"ฉันย่อตัวลงมองที่โต๊ะไม้โอ๊กโบราณที่อยู่ตรงหน้าต่างร้าน"
 
-"At least thirty dolls, all varying wildly in size and make. The only similarity between them is the long Victorian dresses they wear."
+# "At least thirty dolls, all varying wildly in size and make. The only similarity between them is the long Victorian dresses they wear."
+"มีตุ๊กตาอยู่อย่างน้อยสามสิบตัว แต่ละตัวต่างมีขนาดและลักษณะที่ไม่เหมือนกัน ลักษณะเดียวที่แต่ละตัวมีเหมือนกันคือ\nชุดเดรสวิกตอเรียนแบบยาว"
 
-"I turn the price tag of one that looks to be about waist-height."
+# "I turn the price tag of one that looks to be about waist-height."
+"ฉันพลิกป้ายราคาที่ติดอยู่บริเวณเอวของตุ๊กตาดู"
 
-"…It's not in my price bracket. At all."
+# "…It's not in my price bracket. At all."
+"…ไม่ได้อยู่ในกรอบราคาที่ตั้งเป้าไว้เลย แม้แต่น้อย"
 
-"I do the same to each of them, getting more and more depressed as they get smaller and smaller in size."
+# "I do the same to each of them, getting more and more depressed as they get smaller and smaller in size."
+"ฉันไล่พลิกดูแต่ละตัวที่เหลือ ยิ่งขนาดของตุ๊กตาที่ดูแต่ละตัวเล็กลงเรื่อย ๆ ก็ยิ่งเครียด"
 
-"That is, until I reach the very smallest one. It's affordable, just, yet of quality make and with long, auburn hair and a little blue dress."
+# "That is, until I reach the very smallest one. It's affordable, just, yet of quality make and with long, auburn hair and a little blue dress."
+"และฉันก็ไล่ดูราคามาจนถึงตัวที่เล็กที่สุด ซึ่งเป็นราคาที่จับต้องได้ แถมคุณภาพดี ตุ๊กตาตัวนั้นมีผมสีแดง ใส่ชุดเดรส\nสีฟ้าตัวเล็ก ๆ"
 
-"I decide that it's the kind of present Hanako would appreciate. Pretty-looking, and far from gaudy."
+# "I decide that it's the kind of present Hanako would appreciate. Pretty-looking, and far from gaudy."
+"ฮานาโกะต้องชอบของขวัญชิ้นนี้แน่นอน ดูน่ารัก และไม่ได้ดูฉูดฉาดรุงรังเกินไป"
 
-"After I carefully pick it up, I decide to keep looking around the store. I'm not sure whether it's because I like the atmosphere or out of simple curiosity."
+# "After I carefully pick it up, I decide to keep looking around the store. I'm not sure whether it's because I like the atmosphere or out of simple curiosity."
+"พอค่อย ๆ หยิบตุ๊กตาตัวนั้นมาแล้วฉันก็เดินดูของในร้านต่อ ไม่แน่ใจเหมือนกันว่าอยากดูเพราะชอบบรรยากาศร้าน\nหรือเพราะความอยากรู้เฉย ๆ"
 
 stop music fadeout 2.0
 
 show bg city_othello at left
 with None
 
-"Peeking around the corner before I go to the next aisle, I see that the shelves in this one are stocked with wooden toys; from toy cars to intricate automatons."
+# "Peeking around the corner before I go to the next aisle, I see that the shelves in this one are stocked with wooden toys; from toy cars to intricate automatons."
+"เมื่อหันมองไปรอบ ๆ ก่อนจะไปที่ชั้นวางของอีกที่ก็เห็นว่าชั้นวางของตรงนี้เป็นส่วนสำหรับของเล่นที่ทำด้วยไม้ มีตั้งแต่\nรถของเล่นไปจนถึงหุ่นที่มีกลไกใส่ไว้อย่างละเอียด"
 
 show musicbox closed:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"Tucked behind a line of nutcrackers, I notice a little plain wooden box. It feels surprisingly light as I pick it up with my free hand."
+# "Tucked behind a line of nutcrackers, I notice a little plain wooden box. It feels surprisingly light as I pick it up with my free hand."
+"ข้างหลังหุ่นนัตแครกเกอร์มีกล่องไม้เรียบ ๆ เล็ก ๆ วางอยู่หนึ่งกล่อง เมื่อใช้มือข้างที่ว่างจับมายกดูก็พบว่าเบากว่าที่คิด\nไว้มาก"
 
 show musicbox open:
     ypos 0.5 alpha 1.0
@@ -1934,13 +2224,17 @@ with charachange
 
 play music music_musicbox
 
-"The lid only needs the smallest movement to pop open, the little metal drum inside beginning to rotate immediately."
+# "The lid only needs the smallest movement to pop open, the little metal drum inside beginning to rotate immediately."
+"ฝากล่องเปิดออกได้อย่างง่ายดาย จานโลหะแผ่นเล็ก ๆ ที่อยู่ในกล่องเริ่มหมุนทันที"
 
-"For seconds on end, I simply stand there listening to the palm-sized melody."
+# "For seconds on end, I simply stand there listening to the palm-sized melody."
+"ฉันยืนนิ่งฟังท่วงทำนองที่ออกมาจากกล่องขนาดเท่าฝ่ามือนี้อยู่หลายวินาที"
 
-"As it plays, I take the tiny price tag in my fingers and bring it up to my face, the minuscule cursive writing taking some effort to read."
+# "As it plays, I take the tiny price tag in my fingers and bring it up to my face, the minuscule cursive writing taking some effort to read."
+"ระหว่างที่กล่องดนตรีนั้นเล่นอยู่ฉันก็พลิกดูป้ายราคา ตัวเลขที่เขียนด้วยลายมือแบบหวัดนั้นอ่านยากเล็กน้อย"
 
-"It's affordable… sort of."
+# "It's affordable… sort of."
+"ราคาก็… พอรับได้อยู่นะ"
 
 show musicbox closed
 with charachange
@@ -1956,17 +2250,20 @@ with Pause (1.0)
 hide musicbox
 with None
 
-"Grimacing slightly, I close the lid and make my way to the counter with doll and music box in hand."
+# "Grimacing slightly, I close the lid and make my way to the counter with doll and music box in hand."
+"ฉันทำหน้าเบ้เล็กน้อยก่อนจะปิดกล่องดนตรีแล้วหยิบไปพร้อมกับตุ๊กตาที่ถือมาด้วยไปที่เคาน์เตอร์"
 
 show shopkeep surprised at center
 with charaenter
 
-"When I lay the two on the counter, the man behind it sits up and takes stock of them. He doesn't hide very well his surprise at someone of my age buying them."
+# "When I lay the two on the counter, the man behind it sits up and takes stock of them. He doesn't hide very well his surprise at someone of my age buying them."
+"พอเอาของสองอย่างนั้นมาวางที่เคาน์เตอร์แล้วคนที่นั่งอยู่ก็ลุกขึ้นมาดู ดูสีหน้าก็รู้ว่าแปลกใจที่คนรุ่นฉันมาซื้อของ\nอย่างนี้"
 
 show shopkeep thinking
 with charachange
 
-"It's painful, but I hand over the money for the two and leave the store with a small opaque bag in hand."
+# "It's painful, but I hand over the money for the two and leave the store with a small opaque bag in hand."
+"ฉันจำใจยื่นเงินตามราคาของสองอย่างนั้นแล้วออกจากร้านมาพร้อมถุงทึบแสงใบเล็กในมือ"
 
 play ambient sfx_traffic fadein 0.5
 
@@ -1974,34 +2271,41 @@ scene bg city_street3
 show hideaki serious at center
 with locationchange
 
-"Hideaki being there takes me by surprise."
+# "Hideaki being there takes me by surprise."
+"ฉันแปลกใจที่เห็นฮิเดอากิยืนอยู่ตรงหน้า"
 
-hi "Oh… hi. I thought you'd be at the newsstand."
+# hi "Oh… hi. I thought you'd be at the newsstand."
+hi "อ้าว… ไง ไหนบอกจะไปแผงหนังสือพิมพ์"
 
 show hideaki bored
 with charachange
 
-hh "Akira gave me a call. She's waiting for us at the fountain with Lilly."
+# hh "Akira gave me a call. She's waiting for us at the fountain with Lilly."
+hh "พี่อากิระโทร. มา บอกว่ารออยู่ที่น้ำพุกับลิลลี่"
 
-"At least that solves the issue of trying to find them again."
+# "At least that solves the issue of trying to find them again."
+"อย่างน้อยก็ไม่ต้องไปเดินหาอีกรอบละนะ"
 
 $ renpy.music.set_volume(0.4, 0.5, channel="ambient")
 
 scene bg city_street2
 with locationskip
 
-"We head off back to the fountain. Hideaki's immaculate posture and presentation despite his appearance makes for a strange contrast even as we walk."
+# "We head off back to the fountain. Hideaki's immaculate posture and presentation despite his appearance makes for a strange contrast even as we walk."
+"พวกเราเดินกลับไปที่น้ำพุ ท่าทางและการแสดงออกอันเรียบร้อยของฮิเดอากินั้นดูขัดกับรูปลักษณ์ของเขาอย่าง\nประหลาด"
 
 show lilly cane_reminisce_cas at twoleft
 show akira basic_boo at tworight
 with charaenter
 
-"Lilly and Akira stand there waiting for us, their faces hard to read."
+# "Lilly and Akira stand there waiting for us, their faces hard to read."
+"ลิลลี่กับอากิระทำหน้านิ่ง ๆ ยืนรอพวกเราอยู๋"
 
 show akira basic_smile at tworight
 with charachange
 
-aki "Hey. You ready to go, Shortie?"
+# aki "Hey. You ready to go, Shortie?"
+aki "ไง พร้อมไปกันยัง เจ้าเตี้ย"
 
 show bg city_street2 at bgleft
 show lilly cane_reminisce_cas at left
@@ -2011,19 +2315,23 @@ with charamove
 show hideaki happy at right
 with charaenter
 
-"Hideaki's mood seems to improve as he rejoins her."
+# "Hideaki's mood seems to improve as he rejoins her."
+"ฮิเดอากิดูจะอารมณ์ดีขึ้นเมื่อได้กลับมาอยู่กับอากิระอีกครั้ง"
 
 show hideaki happy_up
 with charachange
 
-aki "Seeya Lilly, Hisao. Tell Hanako I said happy birthday."
+# aki "Seeya Lilly, Hisao. Tell Hanako I said happy birthday."
+aki "เจอกันลิลลี่ ฮิซาโอะ ฝากบอกสุขสันต์วันเกิดให้ฮานาโกะด้วย"
 
-hi "We will. Bye."
+# hi "We will. Bye."
+hi "ได้ครับ เจอกัน"
 
 show lilly cane_weaksmile_cas
 with charachange
 
-li "Goodbye, Akira."
+# li "Goodbye, Akira."
+li "ลาก่อนนะพี่"
 
 hide akira
 hide hideaki
@@ -2034,29 +2342,38 @@ show lilly cane_reminisce_cas at center
 show bg city_street2 at bgright
 with charamove
 
-"And with that, the two disappear into the fracas of the afternoon city crowd."
+# "And with that, the two disappear into the fracas of the afternoon city crowd."
+"และสองคนนั้นก็กลืนหายไปกับฝูงชนอันอื้ออึงในยามบ่าย"
 
-"Turning to Lilly, I notice she's carrying a small bag. It's now that I realize why her disposition felt different from before; while Lilly's typically the type to wear her emotions on her sleeve, her expression and tone are clouded and difficult to read."
+# "Turning to Lilly, I notice she's carrying a small bag. It's now that I realize why her disposition felt different from before; while Lilly's typically the type to wear her emotions on her sleeve, her expression and tone are clouded and difficult to read."
+"เมื่อหันไปมองลิลลี่ก็พบว่าเธอถือถุงใบเล็ก ๆ อยู่ และฉันก็เพิ่งรู้ตัวว่าทำไมท่าทีของเธอถึงดูแปลกไปจากทุกที ปกติลิลลี่\nจะเป็นคนที่รู้สึกยังไงก็แสดงออกอย่างนั้น แต่สีหน้าและน้ำเสียงของเธอนั้นจับอารมณ์ได้ยาก"
 
-"It's more than a little off-putting, but given the effort she's making to hide her emotions, I doubt she wants to be cornered on why she's feeling this way."
+# "It's more than a little off-putting, but given the effort she's making to hide her emotions, I doubt she wants to be cornered on why she's feeling this way."
+"ซึ่งฉันก็ค่อนข้างหงุดหงิดอยู่เหมือนกัน แต่การที่เธอพยายามซ่อนอารมณ์ขนาดนี้ก็แปลว่าคงไม่อยากให้ใครมาซักไซ้\nถามหาเหตุผลว่าทำไมต้องทำอย่างนี้หรอก"
 
-hi "Already bought Hanako a present?"
+# hi "Already bought Hanako a present?"
+hi "ได้ของขวัญให้ฮานาโกะแล้วเหรอ"
 
 show lilly cane_weaksmile_cas
 with charachange
 
-li "Yes. Have you?"
+# li "Yes. Have you?"
+li "จ้ะ เธอล่ะ"
 
-hi "Yeah."
+# hi "Yeah."
+hi "อื้ม"
 
 show lilly cane_sleepy_cas
 with charachange
 
-li "Shall we head back to the bus stop then?"
+# li "Shall we head back to the bus stop then?"
+li "งั้นไปที่ป้ายจอดรถกันเลยมั้ย"
 
-hi "Okay. There should be a bus back to Yamaku pretty soon."
+# hi "Okay. There should be a bus back to Yamaku pretty soon."
+hi "ได้ เดี๋ยวรถเที่ยวที่ไปยามากุน่าจะมาแล้วละ"
 
-"And with that, we begin to walk."
+# "And with that, we begin to walk."
+"แล้วเราสองคนก็ออกเดิน"
 
 $ renpy.music.set_volume(0.7, 0.5, channel="ambient")
 
@@ -2064,41 +2381,53 @@ scene bg city_street1
 show lilly cane_concerned_cas_close at twoleft
 with locationskip
 
-"It feels strange compared to before. Lilly's hand on my forearm feels unusually tense, and the whole atmosphere is extraordinarily awkward."
+# "It feels strange compared to before. Lilly's hand on my forearm feels unusually tense, and the whole atmosphere is extraordinarily awkward."
+"รู้สึกไม่เหมือนกับเมื่อกี้เลย ลิลลี่กำต้นแขนฉันแรงผิดปกติ บรรยากาศก็ชวนให้อึดอัดเอามาก ๆ"
 
-"The silence continues for a long while. I really don't like seeing her like this."
+# "The silence continues for a long while. I really don't like seeing her like this."
+"ความเงียบยังคงดำเนินไปอีกสักระยะหนึ่ง ไม่อยากเห็นลิลลี่เป็นอย่างนี้เลย"
 
 show lilly cane_sleepy_cas_close
 with charachange
 
-li "Hanako's birthday party is going to have to be held earlier. Is the fourth going to be all right for you?"
+# li "Hanako's birthday party is going to have to be held earlier. Is the fourth going to be all right for you?"
+li "เดี๋ยวจะจัดงานวันเกิดให้ฮานาโกะเร็วหน่อย วันที่สี่ได้มั้ยจ๊ะฮิซาโอะ"
 
-"I have no other possible obligations anyway, so I reflexively nod. Only afterwards do I remember that doing so is pointless, and quickly answer so by speech."
+# "I have no other possible obligations anyway, so I reflexively nod. Only afterwards do I remember that doing so is pointless, and quickly answer so by speech."
+"ยังไงฉันก็ปฏิเสธไม่ได้อยู่แล้วละ ฉันพยักหน้าตอบไปโดยอัตโนมัติ แต่ก็เพิ่งมาคิดได้ว่าพยักหน้าไปก็ยังไม่ใช่การตอบ\nจึงรีบออกปากตอบตกลงไปทันที"
 
-"She tries to collect herself, a task that looks almost pitiable in how plain it is to see how distant her thoughts are."
+# "She tries to collect herself, a task that looks almost pitiable in how plain it is to see how distant her thoughts are."
+"เธอทำตัวให้ดูปกติที่สุด ซึ่งออกจะยากสักหน่อย เพราะเห็นได้ชัดว่าใจเธอตอนนี้ไม่ได้อยู่กับตัวเลย"
 
 show lilly cane_weaksmile_cas_close
 with charachange
 
-li "Sorry, Hisao. You said the bus would be coming soon, right?"
+# li "Sorry, Hisao. You said the bus would be coming soon, right?"
+li "ขอโทษทีนะฮิซาโอะ เธอบอกว่าเดี๋ยวรถจะมาแล้วใช่มั้ย"
 
-hi "That's right."
+# hi "That's right."
+hi "ใช่"
 
-"But now that she says that, I have an idea."
+# "But now that she says that, I have an idea."
+"แต่พอลิลลี่ทักอย่างนั้นแล้วฉันก็นึกอะไรได้"
 
-hi "Actually, do you have anything to do later today?"
+# hi "Actually, do you have anything to do later today?"
+hi "เออนี่ บ่ายวันนี้เธอมีธุระอะไรมั้ย"
 
 show lilly cane_oops_cas_close
 with charachange
 
-li "I… don't believe so. Why do you ask?"
+# li "I… don't believe so. Why do you ask?"
+li "เหมือนจะ… ไม่นะ ถามทำไมเหรอจ๊ะ"
 
-hi "This is the point where I'd normally take your hand and rush you somewhere, but even without that, you'll have to trust me. Okay?"
+# hi "This is the point where I'd normally take your hand and rush you somewhere, but even without that, you'll have to trust me. Okay?"
+hi "ปกติตอนนี้ฉันคงจูงมือเธอรีบพาไปที่ไหนสักที่ แต่ฉันจะไม่รีบแล้วกัน แต่เชื่อฉันแล้วตามมาหน่อยนะ"
 
 show lilly cane_surprised_cas_close
 with charachange
 
-"I take her hand and gently lead her on, her distant face replaced by one of mild surprise and curiosity."
+# "I take her hand and gently lead her on, her distant face replaced by one of mild surprise and curiosity."
+"ฉันจับมือเธอไว้แล้วเดินนำทางเธอไปอย่างช้า ๆ สีหน้าเหม่อลอยของเธอแปรเปลี่ยนเป็นสีหน้าอันสงสัยและแปลกใจ\nเล็กน้อย"
 
 stop ambient fadeout 2.0
 
@@ -2108,110 +2437,143 @@ with shorttimeskip
 $ renpy.music.set_volume(1.0, 10.0, channel="ambient")
 play music music_another fadein 2.0
 
-"As the waitress sets the cup of tea and cup of coffee that I'd ordered onto the table, I thank her before she takes her leave."
+# "As the waitress sets the cup of tea and cup of coffee that I'd ordered onto the table, I thank her before she takes her leave."
+"ฉันขอบคุณพนักงานเสิร์ฟที่นำชุดถ้วยชาและกาแฟที่ฉันสั่งไปมาวางที่โต๊ะ"
 
-"Truth be told, I really lucked out in finding this café. I didn't really know where I was going, rather I was just looking for any café that looked relatively nice."
+# "Truth be told, I really lucked out in finding this café. I didn't really know where I was going, rather I was just looking for any café that looked relatively nice."
+"ว่ากันตามจริง ที่ฉันมาเจอคาเฟนี้ก็เป็นความบังเอิญหรอก ฉันไม่ได้มีเป้าหมายด้วยซ้ำว่าจะไปไหน แค่กะว่าจะหาคาเฟ\nที่ดูบรรยากาศดี ๆ"
 
-"Having managed to recover a little, Lilly tentatively sips at her cup as I take a long gulp of the coffee in front of me."
+# "Having managed to recover a little, Lilly tentatively sips at her cup as I take a long gulp of the coffee in front of me."
+"ลิลลี่ที่พอตั้งตัวได้บ้างแล้วค่อย ๆ จิบน้ำชาไปพร้อม ๆ กับฉันที่กระดกกาแฟดื่ม"
 
-"As I hoped, her face lights up as she realizes what flavor it is."
+# "As I hoped, her face lights up as she realizes what flavor it is."
+"และลิลลี่ก็ยิ้มออกมาอย่างที่ฉันหวังเมื่อเธอรู้ว่าเป็นชาอะไร"
 
 show lilly basic_weaksmile_cas_close at Transform(xalign=0.5, ypos=0.15, yanchor=0.0)
 with charaenter
 
-li "Ah… this is wonderful!"
+# li "Ah… this is wonderful!"
+li "อื้ม… เยี่ยมเลย!"
 
 show lilly basic_surprised_cas_close
 with charachange
 
-li "Hisao, how did you know that this was…?"
+# li "Hisao, how did you know that this was…?"
+li "ฮิซาโอะ… เธอรู้ได้ไงว่าฉัน…"
 
-"I'd asked for French vanilla black tea, hedging my bets that it would be her favorite flavor, or at least one she liked. While I don't really know much about tea, it sounded like one she might appreciate."
+# "I'd asked for French vanilla black tea, hedging my bets that it would be her favorite flavor, or at least one she liked. While I don't really know much about tea, it sounded like one she might appreciate."
+"ฉันสั่งชาดำวานิลลาฝรั่งเศสเป็นการหยั่งเชิงว่าอาจจะเป็นรสที่ลิลลี่ชอบที่สุด หรืออย่างน้อยก็อาจจะพอเป็นรสที่เธอ\nชอบดื่ม ถึงฉันไม่ได้เชี่ยวชาญเรื่องชา แต่ชื่อก็ฟังดูเป็นอะไรที่ลิลลี่น่าจะชอบ"
 
-"…on the basis of her liking vanilla ice cream. A tea connoisseur I am definitely not."
+# "…on the basis of her liking vanilla ice cream. A tea connoisseur I am definitely not."
+"…เดาจากการที่เธอสั่งไอศกรีมรสวานิลลา ฉันไม่ใช่ผู้คร่ำหวอดในวงการชาเลยสักนิด"
 
-hi "It was a lucky guess. You really like tea, don't you?"
+# hi "It was a lucky guess. You really like tea, don't you?"
+hi "แค่เดามั่ว ๆ แล้วถูกน่ะ เธอนี่ชอบชาจริงเลยนะ"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
-"She puts her teacup down and gives a tiny nod, that familiar small smile thankfully perched on her face once again."
+# "She puts her teacup down and gives a tiny nod, that familiar small smile thankfully perched on her face once again."
+"เธอวางถ้วยชาลงแล้วพยักหน้าน้อย ๆ ฉันโล่งใจที่รอยยิ้มอันคุ้นเคยนั้นปรากฏขึ้นบนใบหน้าลิลลี่อีกครั้ง"
 
 show lilly basic_smile_cas_close
 with charachange
 
-li "Drinking tea is… calming, I think."
+# li "Drinking tea is… calming, I think."
+li "พอได้ดื่มชาแล้ว… เหมือนใจมันสงบน่ะจ้ะ"
 
-hi "With the amount you drink, are you sure you're not addicted to it? Caffeine addiction's pretty common nowadays."
+# hi "With the amount you drink, are you sure you're not addicted to it? Caffeine addiction's pretty common nowadays."
+hi "ดื่มขนาดนี้แน่ใจนะว่าไม่ได้ติดชาน่ะ เดี๋ยวนี้คนติดกาเฟอีนก็มีกันเยอะแยะ"
 
 show lilly basic_giggle_cas_close
 with charachange
 
-li "Did I ever say I wasn't?"
+# li "Did I ever say I wasn't?"
+li "แล้วฉันบอกเหรอว่าฉันไม่ได้ติดน่ะ"
 
-"She lets out a giggle as my head drops. We all have our vices, I suppose, and there are worse things to be addicted to."
+# "She lets out a giggle as my head drops. We all have our vices, I suppose, and there are worse things to be addicted to."
+"เธอหัวเราะคิกคักจังหวะที่ฉันห้อยหัวลง คนเราต่างก็มีข้อเสียกันทั้งนั้นแหละมั้ง แถมยังมีอะไรอย่างอื่นที่แย่กว่าให้ติด\nอีกเยอะ"
 
-hi "French vanilla black tea, huh? I'll have to remember that."
+# hi "French vanilla black tea, huh? I'll have to remember that."
+hi "ชาดำวานิลลาฝรั่งเศสเหรอ จะจำไว้นะ"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
-"For a while, we both silently drink. It's comforting to have someone like her nearby in such new surroundings, even if it's just the two of us sitting in silence."
+# "For a while, we both silently drink. It's comforting to have someone like her nearby in such new surroundings, even if it's just the two of us sitting in silence."
+"พวกเรานั่งดื่มกันไปเงียบ ๆ พอมีคนอย่างลิลลี่อยู่ด้วยในสภาพแวดล้อมใหม่อย่างนี้แล้วก็อุ่นใจดี ถึงแค่จะมานั่งเงียบ ๆ\nกันสองคนเฉย ๆ ก็เถอะ"
 
-"I begin to wonder if this feeling is the same for her, until she sets down her cup."
+# "I begin to wonder if this feeling is the same for her, until she sets down her cup."
+"ชักอยากรู้แล้วสิว่าลิลลี่จะรู้สึกอย่างนี้เหมือนกันหรือเปล่า และเธอก็วางถ้วยชาลง"
 
 show lilly basic_emb_cas_close
 with charachange
 
-li "Hisao, do you mind if I ask you a slightly odd question?"
+# li "Hisao, do you mind if I ask you a slightly odd question?"
+li "ฮิซาโอะ ขอถามอะไรแปลก ๆ หน่อยได้มั้ยจ๊ะ"
 
-hi "That depends on the question, I guess."
+# hi "That depends on the question, I guess."
+hi "ก็อยู่ที่ว่าเธอจะถามอะไรละมั้ง"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
-li "I was wondering… what your favorite color is. Everyone has one, after all."
+# li "I was wondering… what your favorite color is. Everyone has one, after all."
+li "ฉันอยากรู้ว่า… สีที่เธอชอบที่สุดคือสีอะไรน่ะ ทุกคนต่างก็มีสีที่ชอบกันทั้งนั้นนี่นะ"
 
-"I almost reply before realizing why the seemingly mundane question is actually quite strange."
+# "I almost reply before realizing why the seemingly mundane question is actually quite strange."
+"จังหวะที่ฉันกำลังจะตอบก็ฉุกคิดได้ว่าทำไมคำถามที่ดูจืด ๆ อย่างนี้ถึงได้ค่อนข้างแปลก"
 
-hi "My favorite color? But…"
+# hi "My favorite color? But…"
+hi "สีที่ฉันชอบที่สุดเหรอ แต่ว่า…"
 
 show lilly basic_pout_cas_close
 with charachange
 
-"She gives a pouting look, wanting me to answer anyway. While the answer seems unavoidably wasted on her, there isn't any harm in giving it."
+# "She gives a pouting look, wanting me to answer anyway. While the answer seems unavoidably wasted on her, there isn't any harm in giving it."
+"เธอทำแก้มป่องคาดคั้นคำตอบจากฉัน ถึงจะตอบไปแล้วไม่มีค่าอะไร แต่ก็ไม่เสียหายอะไรหรอก"
 
-hi "I've always had a thing for green. I'd say that's my favorite."
+# hi "I've always had a thing for green. I'd say that's my favorite."
+hi "ฉันรู้สึกว่าชอบสีเขียวน่ะ นั่นแหละสีที่ฉันชอบที่สุด"
 
 show lilly basic_satisfied_cas_close
 with charachange
 
-li "Green, is it? What things do you think of when contemplating that color?"
+# li "Green, is it? What things do you think of when contemplating that color?"
+li "สีเขียวเหรอ พอคิดถึงสีเขียวแล้วจะนึกถึงอะไรเหรอจ๊ะ"
 
-hi "I suppose… grass fields and trees in summer. The Army as well, with camouflage."
+# hi "I suppose… grass fields and trees in summer. The Army as well, with camouflage."
+hi "ก็คง… ทุ่งหญ้ากับต้นไม้ในฤดูร้อนละมั้ง แล้วก็ทหารด้วย พวกชุดลายพราง"
 
 show lilly basic_planned_cas_close
 with charachange
 
-li "Men always seem to like the military."
+# li "Men always seem to like the military."
+li "ผู้ชายดูจะชอบเรื่องทหารกันทุกคนเลยนะ"
 
 show lilly basic_smile_cas_close
 with charachange
 
-li "But… that sounds like a nice color. A very nice color."
+# li "But… that sounds like a nice color. A very nice color."
+li "แต่ว่า… ฟังดูเป็นสีที่ดีจังเลยนะ เป็นสีที่ดีมาก ๆ"
 
-"She nods her head a little, as if approving of the choice. Considering how foreign the concept of color is to her mind, labeling it by association seems reasonable enough."
+# "She nods her head a little, as if approving of the choice. Considering how foreign the concept of color is to her mind, labeling it by association seems reasonable enough."
+"เธอพยักหน้าน้อย ๆ ราวกับเห็นด้วย ก็คงไม่แปลกอะไรกับการผูกสีไว้กับอะไรอย่างอื่น เพราะคำว่าสีนั้นนับได้ว่า\nเป็นอะไรที่ลิลลี่แทบไม่รู้จัก"
 
-hi "If everyone has a favorite color, then what's yours?"
+# hi "If everyone has a favorite color, then what's yours?"
+hi "ถ้าทุกคนมีสีที่ชอบที่สุดแล้ว เธอชอบสีอะไรล่ะ"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
-li "White. I'm told that's the color of snow, and of ice cream."
+# li "White. I'm told that's the color of snow, and of ice cream."
+li "สีขาวจ้ะ ฉันรู้มาว่าสีขาวเป็นสีของหิมะ แล้วก็ไอศกรีม"
 
-hi "You're no better than me then, if you only like that color because of a favorite food. I guess white is nice too, though."
+# hi "You're no better than me then, if you only like that color because of a favorite food. I guess white is nice too, though."
+hi "เนี่ย เธอก็ไม่ต่างจากฉันหรอก ชอบสีแค่เพราะเป็นของที่ชอบกินเนี่ย แต่สีขาวก็ดีเหมือนกันละนะ"
 
-hi "And speaking of colors, it'll be getting dark soon. Let me help you up."
+# hi "And speaking of colors, it'll be getting dark soon. Let me help you up."
+hi "พูดถึงสี เดี๋ยวจะมืดแล้ว ให้ฉันช่วยนะ"
 
 show lilly basic_smile_cas_close
 with charachange
@@ -2219,20 +2581,26 @@ with charachange
 show lilly basic_smile_cas_close at center
 with charamove
 
-"Lilly offers her hand, which I take in mine to help lever her up from her seat at the table. Its softness compared to mine takes me off guard, as I'm really not used to such casual contact."
+# "Lilly offers her hand, which I take in mine to help lever her up from her seat at the table. Its softness compared to mine takes me off guard, as I'm really not used to such casual contact."
+"ลิลลี่ยื่นมือมาให้ฉันจับดึงตัวเธอลุกขึ้นมาจากเก้าอี้ ฉันนึกตกใจกับความนุ่มของมือเธอที่สัมผัสกับมือของฉัน\nด้วยความที่ฉันไม่ชินกับการถูกเนื้อต้องตัวอย่างนี้เท่าไหร่"
 
-"It doesn't seem to bother her at all though. While it seems obvious why, it feels like just one more ladylike aspect to her."
+# "It doesn't seem to bother her at all though. While it seems obvious why, it feels like just one more ladylike aspect to her."
+"แต่ลิลลี่ก็ดูไม่ได้คิดมากอะไร และแม้เหตุผลจะเห็นได้ชัด ฉันก็ยังรู้สึกว่าสิ่งนี้เป็นแค่ความเป็นกุลสตรีอย่างหนึ่งของเธอ\nมากกว่า"
 
-"As her hand moves to her pocket, I quickly cut her off."
+# "As her hand moves to her pocket, I quickly cut her off."
+"ทันทีที่ลิลลี่เตรียมจับกระเป๋าสตางค์ของตัวเองฉันก็ตัดบททันที"
 
-hi "Don't worry, I'll pay for this."
+# hi "Don't worry, I'll pay for this."
+hi "ไม่เป็นไร ฉันเลี้ยงเอง"
 
 show lilly basic_cheerful_cas_close at center
 with charachange
 
-li "Oh. Thank you, Hisao."
+# li "Oh. Thank you, Hisao."
+li "อ้าว ขอบคุณนะจ๊ะฮิซาโอะ"
 
-"She gives an earnest smile at the gesture, a reward much greater than that of her words."
+# "She gives an earnest smile at the gesture, a reward much greater than that of her words."
+"เธอยิ้มจริงใจให้ฉันที่ปรามไว้ ซึ่งเป็นรางวัลที่มีค่ามากกว่าคำพูดของเธอเสียอีก"
 
 stop music fadeout 2.0
 
@@ -2242,41 +2610,52 @@ with shorttimeskip
 $ renpy.music.set_volume(0.2, 0.5, channel="ambient")
 play ambient sfx_cicadas fadein 0.5
 
-"By the time we step off the bus, it's well and truly dark."
+# "By the time we step off the bus, it's well and truly dark."
+"กว่าจะได้ลงจากรถบัสก็มืดค่ำเต็มที่แล้ว"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
 scene bg school_road_ni
 with locationskip
 
-"We make our way up the hill in silence, both of us behaving a little awkwardly, probably because of the day's events."
+# "We make our way up the hill in silence, both of us behaving a little awkwardly, probably because of the day's events."
+"พวกเราเดินขึ้นเขากันไปเงียบ ๆ ด้วยความอึดอัดเล็กน้อย คงเพราะเรื่องที่เกิดวันนี้แหละ"
 
-"While I'm still concerned over Lilly's withdrawn nature after meeting with her sister, the fact I managed to cheer her up even slightly feels like a personal victory."
+# "While I'm still concerned over Lilly's withdrawn nature after meeting with her sister, the fact I managed to cheer her up even slightly feels like a personal victory."
+"ถึงจะยังห่วงที่ลิลลี่ดูเว้นระยะจากฉันหลังจากที่เธอได้คุยกับพี่สาวของเธอแล้ว แต่ฉันก็รู้สึกประสบความสำเร็จที่พอจะ\nทำให้ลิลลี่ร่าเริงขึ้นได้บ้าง"
 
-"But… it feels like the air between us has changed. Maybe it's only a bit, but it's something I don't think either of us realized before."
+# "But… it feels like the air between us has changed. Maybe it's only a bit, but it's something I don't think either of us realized before."
+"แต่… รู้สึกเหมือนบรรยากาศระหว่างเราเปลี่ยนไป อาจจะเปลี่ยนไปเล็กน้อย แต่เป็นอะไรบางอย่างที่ฉันคิดว่าเราสองคน\nคงไม่เคยรู้ตัวมาก่อนเลย"
 
 show lilly cane_weaksmile_cas_ni at center
 with charaenter
 
-li "That was… a date, wasn't it?"
+# li "That was… a date, wasn't it?"
+li "สรุปวันนี้เรา… ไปเดตกันมาใช่มั้ยจ๊ะ"
 
-"It was. That doesn't elude either of us, the question's answer being so self-evident as to be rhetorical."
+# "It was. That doesn't elude either of us, the question's answer being so self-evident as to be rhetorical."
+"ใช่ เราสองคนต่างก็รู้ดี คำตอบของคำถามนั้นชัดเสียจนเหมือนถามแบบรำพึงมากกว่า"
 
-"Awkward as it may be, I don't think this feeling is bad. In fact, quite the opposite. I don't know what it is, I certainly can't be sure, but it feels like something a little more than friendship."
+# "Awkward as it may be, I don't think this feeling is bad. In fact, quite the opposite. I don't know what it is, I certainly can't be sure, but it feels like something a little more than friendship."
+"ถึงจะอึดอัด แต่ก็ไม่ใช่ความรู้สึกที่แย่อะไร กลับตรงกันข้ามด้วยซ้ำ ฉันไม่รู้ว่าสิ่งนี้คืออะไร ฉันไม่อาจรู้ได้แน่ แต่รู้สึก\nเหมือนเป็นอะไรที่ขยับขึ้นมาจากมิตรภาพเล็กน้อย"
 
-"Understanding? Empathy? Searching for words to adequately describe it is difficult. Nonetheless…"
+# "Understanding? Empathy? Searching for words to adequately describe it is difficult. Nonetheless…"
+"ความเข้าใจ? ความเห็นใจ? การจะหาคำที่เหมาะสมเพื่อมาอธิบายนั้นยากยิ่ง แต่แม้กระนั้นก็ตาม…"
 
-hi "Would you like do this again sometime, Lilly? Without shopping for presents?"
+# hi "Would you like do this again sometime, Lilly? Without shopping for presents?"
+hi "ไว้ไปด้วยกันอีกดีมั้ยลิลลี่ แบบที่ไม่ต้องไปหาซื้อของขวัญแล้วน่ะ?"
 
 show lilly cane_emb_cas_ni
 with charachange
 
-"The tentative question is met with the same look from Lilly as before. Her pale skin makes the rosy tint of her cheeks just slightly more noticeable and her face, though still pointed to the street ahead of her, lowers. Just a little."
+# "The tentative question is met with the same look from Lilly as before. Her pale skin makes the rosy tint of her cheeks just slightly more noticeable and her face, though still pointed to the street ahead of her, lowers. Just a little."
+"ลิลลี่ยังทำสีหน้าเช่นเดิมกับฉันที่โยนหินถามทางไปอย่างนั้น ใบหน้าขาวนวลของเธอทำให้สีแดงเรื่อนั้นเห็นได้ชัดขึ้น\nนิดหนึ่ง เธอยังคงมองทางข้างหน้าก้มหน้าต่ำเล็กน้อย"
 
 show lilly cane_cheerful_cas_ni
 with charachange
 
-li "…Okay."
+# li "…Okay."
+li "…ได้สิ"
 
 stop ambient fadeout 2.0
 
