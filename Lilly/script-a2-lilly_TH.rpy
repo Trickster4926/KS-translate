@@ -5707,21 +5707,26 @@ with dissolve
 
 nvl show dissolve
 
-n "\n\n\n\nI sweat profusely, awaiting the dreaded moment."
+# n "\n\n\n\nI sweat profusely, awaiting the dreaded moment."
+n "\n\n\n\nฉันรอช่วงเวลาแห่งความระทึกพร้อมเหงื่อที่ผุดพราย"
 #For some reason, this line doesn't seem to be justified to the left like the others, and for the life of me I can't figure out why. Halp? -SC
 
 $ renpy.music.set_volume(0.7, 0.0, channel="music")
 play music music_tension fadein 6.0
 
-n "Each tick of the clock tenses my muscles that much more, every minute making more hairs stand on end."
+# n "Each tick of the clock tenses my muscles that much more, every minute making more hairs stand on end."
+n "ทุกขณะที่เข็มนาฬิกาเดินยิ่งทำให้กล้ามเนื้อหดเกร็ง ทุกขณะที่นาทีผันผ่านยิ่งทำให้ขนลุกหนักขึ้น"
 
-n "It's coming for me, I can feel it."
+# n "It's coming for me, I can feel it."
+n "มันกำลังมาหาฉันแล้ว ฉันสัมผัสได้"
 
 play sound sfx_slide
 
-n "\n\n{image=vfx/reddash.png}{color=#FF0000}{b}Death.{/b}{/color}"
+# n "\n\n{image=vfx/reddash.png}{color=#FF0000}{b}Death.{/b}{/color}"
+n "\n\n{image=vfx/reddash.png}{color=#FF0000}{b}ความตาย{/b}{/color}"
 
-n "\n\nDeath in the form of a single sheet of paper."
+# n "\n\nDeath in the form of a single sheet of paper."
+n "\n\nความตายที่มาในรูปของกระดาษหนึ่งแผ่น"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
@@ -5733,125 +5738,164 @@ with locationchange
 
 window show
 
-"I take the small pile of papers from the student in front of me and pass it backwards after plucking off the top piece."
+# "I take the small pile of papers from the student in front of me and pass it backwards after plucking off the top piece."
+"ฉันคว้ากระดาษปึกบาง ๆ ที่คนข้างหน้าส่งมาแล้วหยิบแผ่นที่อยู่บนสุดออกก่อนจะส่งต่อไปข้างหลัง"
 
-"Looking to the top right of the page, I find my fears realized within that small red circle."
+# "Looking to the top right of the page, I find my fears realized within that small red circle."
+"พอมองมุมบนขวาของกระดาษก็พบกับความกลัวของฉันที่ปรากฏอยู่ในวงกลมสีแดงเล็ก ๆ วงนั้น"
 
 stop music
 play sound sfx_thunder
 with vpunch
 
-"Forty-three."
+# "Forty-three."
+"สี่สิบสามคะแนน"
 
-"I hang my head and sigh in resignation. Cursing under my breath, I can feel the aura of a similar sentiment rising from the entire class. It's strange, but that fact lifts my mood by a minuscule amount."
+# "I hang my head and sigh in resignation. Cursing under my breath, I can feel the aura of a similar sentiment rising from the entire class. It's strange, but that fact lifts my mood by a minuscule amount."
+"ฉันห้อยหัวลงถอนหายใจด้วยความหน่ายใจพลางพึมพำด้วยคำสบถ สัมผัสได้ว่าคนทั้งห้องก็อารมณ์ไม่ต่างกัน\nสักเท่าไหร่ แต่แปลกดีที่พอรู้อย่างนี้แล้วก็อารมณ์ดีขึ้นมาหน่อย ๆ"
 
-"Misery loves company, I suppose."
+# "Misery loves company, I suppose."
+"นี่ละมั้งที่เขาว่าคนเราชอบหาผู้ร่วมโชคชะตาเดียวกัน"
 
-"As the teacher opens her mouth, the room braces for the inevitable onslaught…"
+# "As the teacher opens her mouth, the room braces for the inevitable onslaught…"
+"จังหวะที่คุณครูเปิดปาก คนทั้งห้องต่างเตรียมใจกับดาบที่พร้อมฟันลงมาแบบเลี่ยงไม่ได้…"
 
 play music music_normal fadein 1.0
 
 play sound sfx_normalbell
 
-"…only to be saved at the last minute."
+# "…only to be saved at the last minute."
+"…ก่อนที่จะรอดมาได้แบบเส้นยาแดงผ่าแปด"
 
-"We quickly move to collect our bags and leave for lunch post-haste, but the teacher delivers a parting broadside."
+# "We quickly move to collect our bags and leave for lunch post-haste, but the teacher delivers a parting broadside."
+"พวกเราเก็บกระเป๋ากันอย่างรวดเร็วด้วยความที่อยากรีบไปกินข้าวเที่ยง คุณครูยังไม่วายดุด่าเป็นทิ้งทวน"
 
-"Teacher" "We'll be discussing the test scores next lesson. Needless to say, there will be quite some discussion to be had."
+# "Teacher" "We'll be discussing the test scores next lesson. Needless to say, there will be quite some discussion to be had."
+thname("คุณครู") "คาบหน้าเราจะมาคุยเรื่องคะแนนกัน ซึ่งไม่ต้องบอกก็คงรู้นะว่าต้องคุยกันอีกยาว"
 
-"A collective groan resounds from the class, now reduced to shuffling out dejectedly."
+# "A collective groan resounds from the class, now reduced to shuffling out dejectedly."
+"คนทั้งห้องประสานเสียงร้องโอดโอย ก่อนจะค่อย ๆ ทยอยออกไปพร้อมความละเหี่ยใจ"
 
 scene bg school_hallway3 at bgright
 with locationchange
 
-"I push the sheet into my bag as I walk along the hallway, crumpling it in the process. It's enough that such a troublesome letter ended up on my desk yesterday, and now this."
+# "I push the sheet into my bag as I walk along the hallway, crumpling it in the process. It's enough that such a troublesome letter ended up on my desk yesterday, and now this."
+"ฉันเดินไปตามโถงทางเดินพลางยัด ๆ กระดาษแผ่นนั้นใส่กระเป๋าจนยู่ยี่ไปหมด แค่จดหมายที่มาอยู่บนโต๊ะเมื่อวานก็\nวุ่นวายแล้ว ยังจะมีไอ้นี่อีก"
 
-hi "I hate English…"
+# hi "I hate English…"
+hi "เกลียดภาษาอังกฤษชะมัด…"
 
 stop music fadeout 0.7
 
-mystery "HI—{w=0.3}SA—{w=0.3}O!"
+# mystery "HI—{w=0.3}SA—{w=0.3}O!"
+mystery "ฮิ!—{w=0.3}ซา!—{w=0.3}โอะ!!"
 
-"A stern female voice gruffly calls out from behind me."
+# "A stern female voice gruffly calls out from behind me."
+"เสียงผู้หญิงที่ฟังดูเคร่งขรึมเรียกฉันด้วยเสียงยานคาง"
 
 play music music_tension
 
-"I freeze on the spot, my face becoming like stone. It's as if I can feel my brain disconnecting from my body."
+# "I freeze on the spot, my face becoming like stone. It's as if I can feel my brain disconnecting from my body."
+"ฉันชะงักไปทันที หน้านิ่งเหมือนถูกสาปให้เป็นหิน รู้สึกเหมือนสมองขาดการเชื่อมต่อไปจากร่างกายเลย"
 
-"My eyes slowly shift right, trying to catch a glimpse of the disembodied voice."
+# "My eyes slowly shift right, trying to catch a glimpse of the disembodied voice."
+"ฉันค่อย ๆ กลอกตาไปทางขวาเพื่อมองว่าเจ้าของเสียงที่ลอยมานั้นเป็นใคร"
 
 stop music fadeout 0.3
 
-"…nothing?"
+# "…nothing?"
+"…โบ๋เบ๋?"
 
-"My face begins to slip as time passes, and I decide to risk turning my head. Ever so slowly, I twist it to the—"
+# "My face begins to slip as time passes, and I decide to risk turning my head. Ever so slowly, I twist it to the—"
+"ฉันหน้าเสียไปเรื่อย ๆ ทุกขณะ จนต้องยอมเสี่ยงหันหน้ากลับไปข้างหน้าอย่างเชื่อง—"
 
 play sound sfx_impact
 
-hi "GYAAAAH!" with vpunch
+# hi "GYAAAAH!" with vpunch
+hi "ว้าาาาาก!!" with vpunch
 
-"I jump into the air and drop my bag, yelling out in surprise."
+# "I jump into the air and drop my bag, yelling out in surprise."
+"ฉันสะดุ้งโหยงจนกระเป๋าร่วงพร้อมส่งเสียงตกใจสุดขีด"
 
-"As I recover and regain my composure, I turn to see… I should have known."
+# "As I recover and regain my composure, I turn to see… I should have known."
+"พอกลับมาตั้งสติได้แล้วมองดูอีกทีก็… ทำไมถึงนึกไม่ได้นะ"
 
-hi "Emi."
+# hi "Emi."
+hi "เอมิ"
 
 play music music_running
 
 show emi excited_proud at center
 with charaenter
 
-emi "Gotcha, Hisao."
+# emi "Gotcha, Hisao."
+emi "ได้ตัวฮิซาโอะแล้ว"
 
-"She stands there with a mischievous grin on her face, hands forward and fingers pointed inwards. She was the one who jabbed my ribs with her fingers."
+# "She stands there with a mischievous grin on her face, hands forward and fingers pointed inwards. She was the one who jabbed my ribs with her fingers."
+"เอมิยื่นมือออกมาพร้อมงอนิ้วเข้าหาตัวเองพร้อมรอยยิ้มเจ้าเล่ห์ เมื่อกี้ก็เป็นคนจิ้มซี่โครงฉันแท้ ๆ"
 
-"I look down at her with a grimace, rubbing my hair in frustration."
+# "I look down at her with a grimace, rubbing my hair in frustration."
+"ฉันก้มมองทำหน้าเบ้ยีผมตัวเองด้วยความหัวเสีย"
 
-hi "That's no way to greet someone, you know."
+# hi "That's no way to greet someone, you know."
+hi "คนที่ไหนเขาทักทายกันอย่างนั้นหา"
 
 show emi sad_pout
 with charachange
 
-emi "You have no sense of humor."
+# emi "You have no sense of humor."
+emi "นายนี่ไม่ตลกเลย"
 
-hi "I left my sense of humor in my English class. Complain to the teacher if you want it given back to me."
+# hi "I left my sense of humor in my English class. Complain to the teacher if you want it given back to me."
+hi "พอดีลืมความตลกไว้ที่วิชาภาษาอังกฤษแล้วอะ ไปว่าครูนู่นนะถ้าอยากให้ฉันตลก"
 
 show emi sad_shy
 with charachange
 
-"She pulls her best puppy-dog eyes on me as she pouts. Lilly's managed to build up my resistance to the tactic, but Emi's short stature adds enough to the effect to make me relent."
+# "She pulls her best puppy-dog eyes on me as she pouts. Lilly's managed to build up my resistance to the tactic, but Emi's short stature adds enough to the effect to make me relent."
+"เธอทำแก้มป่องพร้อมสายตาที่ดูเหมือนลูกหมา ฉันอยู่กับลิลลี่จนมีภูมิคุ้มกันกับกลยุทธ์นี้แล้วก็จริง แต่ร่างเล็กของเอมิ\nยิ่งทำให้มีผลแรงขึ้นจนฉันยอมใจอ่อน"
 
-hi "So, how are things? I haven't seen you around for a while."
+# hi "So, how are things? I haven't seen you around for a while."
+hi "แล้วเป็นยังไงบ้าง ไม่ได้เจอกันนานเลยนะ"
 
 show emi basic_closedgrin
 with charachange
 
-emi "Same old, same old. I run so fast, nobody wants to join me on my morning runs."
+# emi "Same old, same old. I run so fast, nobody wants to join me on my morning runs."
+emi "ก็เดิม ๆ แหละ วิ่งเร็วจนไม่มีใครอยากมาวิ่งรอบเช้าด้วยเลย"
 
 show emi basic_annoyed
 with charachange
 
-emi "It's a real pain."
+# emi "It's a real pain."
+emi "เหนื่อยจริง ๆ"
 
-"Her modesty never fails to amuse me."
+# "Her modesty never fails to amuse me."
+"เห็นความถ่อมตัวของเอมิทีไรก็อดยิ้มแทบไม่ได้"
 
 show emi basic_grin
 with charachange
 
-emi "Although…"
+# emi "Although…"
+emi "แต่ว่านะ…"
 
-"Uh oh."
+# "Uh oh."
+"ชะอุ๊ย"
 
 show emi sad_shy
 with charachange
 
-emi "You know what I'm thinking, don't you Hisao?"
+# emi "You know what I'm thinking, don't you Hisao?"
+emi "นายรู้ใช่มั้ยว่าฉันคิดอะไรอยู่ ฮิซาโอะ"
 
-"Wearing my emotions on my sleeve is one of my worst habits. She's seen right through me."
+# "Wearing my emotions on my sleeve is one of my worst habits. She's seen right through me."
+"ไอ้การซ่อนอารมณ์ไม่เก่งนี่เป็นจุดอ่อนอย่างหนึ่งของฉันเลย นี่เห็นไปยันลิ้นไก่ฉันแล้วมั้ง"
 
-"Fortunately, I see somebody else approaching us that will give me an out."
+# "Fortunately, I see somebody else approaching us that will give me an out."
+"แต่โชคดีที่มีคนที่ฉันพอจะใช้เป็นทางรอดได้เดินมาพอดี"
 
-hi "Oh, hi Hanako."
+# hi "Oh, hi Hanako."
+hi "อ้าว ไง ฮานาโกะ"
 
 show emi sad_shy at twoleft
 show bg school_hallway3 at center
@@ -5860,64 +5904,78 @@ with charamove
 show hanako emb_downtimid at tworight
 with charaenter
 
-"I give her a welcoming wave, and try my best at looking like I haven't noticed Emi's pouting face. She gives a small wave back."
+# "I give her a welcoming wave, and try my best at looking like I haven't noticed Emi's pouting face. She gives a small wave back."
+"ฉันโบกมือทักทายฮานาโกะแล้วทำเป็นไม่เห็นเอมิที่ทำแก้มป่องอยู่ ฮานาโกะเองก็โบกมือตอบกลับน้อย ๆ"
 
 show hanako emb_smile
 with charachange
 
-ha "H-hello, Hisao… Emi."
+# ha "H-hello, Hisao… Emi."
+ha "สะ สวัสดี ฮิซาโอะ… เอมิ"
 
 show emi basic_closedgrin
 with charachange
 
-emi "Hey Hanako."
+# emi "Hey Hanako."
+emi "ไงฮานาโกะ"
 
-hi "I'll join you and Lilly in a sec."
+# hi "I'll join you and Lilly in a sec."
+hi "เดี๋ยวฉันจะไปหาเธอกับลิลลี่นะ"
 
-hi "Actually, speaking of lunchtime company, it's odd to see you without Rin, Emi."
+# hi "Actually, speaking of lunchtime company, it's odd to see you without Rin, Emi."
+hi "จะว่าไป พูดถึงเพื่อนกินข้าวเที่ยง พอไม่เห็นรินอยู่กับเธอแล้วแปลกตาไปเลยนะเอมิ"
 
 show emi basic_shock
 show hanako defarms_shock
 with vpunch
 
-emi "Ah! Rin!"
+# emi "Ah! Rin!"
+emi "อ๊ะ! ริน!"
 
 stop music fadeout 3.0
 
 hide emi
 with easeoutleft
 
-"Without a second word, she forgets all about us and bolts off up the hallway. She must've forgotten she was waiting for her."
+# "Without a second word, she forgets all about us and bolts off up the hallway. She must've forgotten she was waiting for her."
+"แล้วเธอก็ทิ้งพวกเราไปไม่พูดอะไรอีกแล้วพุ่งตัวไปตามโถงทางเดิน สงสัยลืมไปว่ารินรออยู่มั้ง"
 
-"Hanako and I stand speechless, only able to helplessly stand and watch this ball of seemingly boundless energy dash off."
+# "Hanako and I stand speechless, only able to helplessly stand and watch this ball of seemingly boundless energy dash off."
+"ฮานาโกะกับฉันได้แต่ยืนอึ้งมองก้อนพลังงานที่ดูล้นเหลือนี้พุ่งตัวออกไป"
 
 play music music_running
 
 show emi basic_closedgrin at left
 with easeinleft
 
-emi "Oh yeah, Hisao…"
+# emi "Oh yeah, Hisao…"
+emi "เอ้อ จริงสิ ฮิซาโอะ…"
 
-"She suddenly stops herself just before vanishing around the corner to the rooftop staircase, spinning around to meet our bemused faces."
+# "She suddenly stops herself just before vanishing around the corner to the rooftop staircase, spinning around to meet our bemused faces."
+"อยู่ ๆ เอมิก็หยุดจังหวะที่กำลังจะเลี้ยวตรงบันไดขึ้นดาดฟ้าพอดีแล้วหันมามองหน้าพวกเราที่ยังดูงง ๆ อยู่"
 
 show emi excited_proud
 with charachange
 
-emi "I hate English too."
+# emi "I hate English too."
+emi "ฉันก็เกลียดภาษาอังกฤษเหมือนกัน"
 
 stop music fadeout 4.0
 
 hide emi
 with easeoutleft
 
-"And with that, she disappears."
+# "And with that, she disappears."
+"แล้วเอมิก็หายตัวไป"
 
-"All I can do is hang my head and give a long sigh, thoroughly left in the dust."
+# "All I can do is hang my head and give a long sigh, thoroughly left in the dust."
+"ฉันได้แต่ห้อยหัวลงถอนหายใจพรืดให้กับเอมิที่ทิ้งไปไม่เห็นฝุ่น"
 
 show hanako basic_smile
 with charachange
 
-"As I hear a short giggle coming from behind me, I turn to see Hanako smiling at the corner my attacker rounded."
+# "As I hear a short giggle coming from behind me, I turn to see Hanako smiling at the corner my attacker rounded."
+"พอได้ยินเสียงหัวเราะคิกคักที่อยู่ข้างหลังฉันก็หันไปมอง ฮานาโกะยิ้มไปตรงหัวมุมที่คนร้ายของฉันเลี้ยวหนีไป"
 
 play music music_daily fadein 4.0
 
@@ -5925,65 +5983,82 @@ show hanako basic_smile at center
 show bg school_hallway3 at bgleft
 with charamove
 
-"I pick up my dropped bag from the floor and quickly dust it off."
+# "I pick up my dropped bag from the floor and quickly dust it off."
+"ฉันคว้ากระเป๋าตัวเองที่ตกอยู่ขึ้นมาปัด ๆ ฝุ่น"
 
-hi "Afternoon. Been busy?"
+# hi "Afternoon. Been busy?"
+hi "ทิวาสวัสดิ์ ช่วงนี้ยุ่ง?"
 
 show hanako def_worry
 with charachange
 
-ha "You don't… like English?"
+# ha "You don't… like English?"
+ha "นายไม่… ชอบภาษาอังกฤษเหรอ"
 
-hi "Hmm? Oh, uh, nah. I had a test on it a while back, and Emi caught me brooding about the results."
+# hi "Hmm? Oh, uh, nah. I had a test on it a while back, and Emi caught me brooding about the results."
+hi "หืม? อ้อ เอ่อ ไม่อะ คือก่อนหน้านี้มีสอบแล้วเอมิมาเห็นสภาพตอนฉันซึมกับคะแนนอยู่พอดี"
 
 show hanako emb_downsad
 with charachange
 
-ha "Ah, sorry…"
+# ha "Ah, sorry…"
+ha "อ๊ะ ขอโทษที…"
 
-"She averts her gaze, guilt written onto her face. A casual observer would think she'd just accidentally reminded me of a dead relative."
+# "She averts her gaze, guilt written onto her face. A casual observer would think she'd just accidentally reminded me of a dead relative."
+"ฮานาโกะเสตามองทางอื่นพร้อมสีหน้าที่รู้สึกผิด ถ้าคนที่ไม่รู้มาเห็นเข้าคงนึกว่าฮานาโกะเผลอพูดถึงญาติของฉัน\nที่ตายไปแล้ว"
 
-hi "Come on, it's not your fault. How're you doing in it?"
+# hi "Come on, it's not your fault. How're you doing in it?"
+hi "ไม่เอาน่า เธอไม่ผิดสักหน่อย แล้วเธอล่ะเป็นไงบ้าง"
 
 show hanako emb_sad
 with charachange
 
-"She looks up, though still avoids meeting my eyes."
+# "She looks up, though still avoids meeting my eyes."
+"ฮานาโกะเงยหน้าขึ้นมามองทว่ายังไม่ยอมสบตาตรง ๆ"
 
 show hanako basic_worry
 with charachange
 
-ha "All right, I… suppose."
+# ha "All right, I… suppose."
+ha "ก็ใช้ได้… ละมั้งนะ"
 
-"An awkward silence passes. They seem all too common around Hanako."
+# "An awkward silence passes. They seem all too common around Hanako."
+"แล้วความเงียบที่ชวนให้อึดอัดก็เข้าปกคลุม เหมือนพออยู่กับฮานาโกะแล้วจะเป็นอย่างนี้บ่อยเหมือนกัน"
 
 show hanako basic_bashful
 with charachange
 
-ha "Oh, Lilly asked if… you'd like to join us for lunch on the roof."
+# ha "Oh, Lilly asked if… you'd like to join us for lunch on the roof."
+ha "อ้อ ลิลลี่ฝากถามว่า… จะมากินข้าวเที่ยงที่ดาดฟ้าด้วยกันมั้ย"
 
-"I guess I don't exactly have any pressing engagements to attend to."
+# "I guess I don't exactly have any pressing engagements to attend to."
+"ฉันเองก็เหมือนจะไม่มีธุระเร่งด่วนอะไรละนะ"
 
-hi "Sure, I'll be right up."
+# hi "Sure, I'll be right up."
+hi "ได้ เดี๋ยวไป"
 
 show hanako cover_distant
 with charachange
 
-ha "Um, I'll… go get my lunch from the cafeteria now… then."
+# ha "Um, I'll… go get my lunch from the cafeteria now… then."
+ha "เอ่อ งั้น… ฉันขอไปซื้อข้าวเที่ยงที่โรงอาหารก่อน… นะ"
 
-hi "Go on. You don't need my approval to leave, you know."
+# hi "Go on. You don't need my approval to leave, you know."
+hi "ไปสิ ไม่ต้องขออนุญาตฉันหรอกน่า"
 
 show hanako basic_smile
 with charachange
 
-ha "O-okay. I'll… be going then."
+# ha "O-okay. I'll… be going then."
+ha "อะ โอเค งั้น… ฉันไปละ"
 
 hide hanako
 with charaexit
 
 stop music fadeout 5.0
 
-"She gives a skittish reply, a small nod and quickly makes off towards the cafeteria."
+# "She gives a skittish reply, a small nod and quickly makes off towards the cafeteria."
+"น้ำเสียงเธอฟังดูลนลาน ฮานาโกะพยักหน้าน้อย ๆ แล้วรีบมุ่งไปยังโรงอาหาร"
 
 play ambient sfx_crowd_indoors fadein 2.0
 
@@ -5999,9 +6074,11 @@ with None
 show bg school_hallway3 at center
 with dissolvecharamove
 
-"I guess she must've forgotten to bring lunch today. As I walk through the hallways, more and more students start to come out of classrooms and pass me, going in the same direction as Hanako went."
+# "I guess she must've forgotten to bring lunch today. As I walk through the hallways, more and more students start to come out of classrooms and pass me, going in the same direction as Hanako went."
+"สงสัยวันนี้คงลืมเอาข้าวเที่ยงมาละมั้ง พอเดินไปตามโถงทางเดินก็เห็นนักเรียนที่ออกมาจากห้องเรียนแล้วเดินผ่านไปมา\nมากขึ้นเรื่อย ๆ โดยมุ่งไปที่เดียวกันกับทางที่ฮานาโกะเดินไป"
 
-"By the time I manage to make it to the stairs, I'm having to push my way past a busily chatting throng of students."
+# "By the time I manage to make it to the stairs, I'm having to push my way past a busily chatting throng of students."
+"พอเดินมาจนถึงบันไดก็ต้องฝ่ากลุ่มนักเรียนที่คุยกันเสียงอื้ออึงอยู่"
 
 stop ambient fadeout 0.5
 
@@ -6011,7 +6088,8 @@ with locationchange
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_rooftop
 
-"I finally manage to get past the last of the crowd and round the staircase, slumping slightly in relief and slowing my pace before I open the door to the roof."
+# "I finally manage to get past the last of the crowd and round the staircase, slumping slightly in relief and slowing my pace before I open the door to the roof."
+"จนในที่สุดก็หลุดออกมาจากกลุ่มคนได้ ฉันเดินขึ้นบันไดมาห้อยแขนเล็กน้อยพลางถอนหายใจด้วยความโล่งแล้วลด\nความเร็วฝีเท้าลงก่อนจะเดินมาถึงที่ประตูดาดฟ้า"
 
 play sound sfx_door_creak
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
@@ -6020,9 +6098,11 @@ scene bg school_roof
 show white
 with locationchange
 
-hi "Ah, damn!"
+# hi "Ah, damn!"
+hi "โอ๊ย ให้ตาย!"
 
-"I momentarily avert my eyes, all but blinded by the harsh summer sun."
+# "I momentarily avert my eyes, all but blinded by the harsh summer sun."
+"ฉันเบือนหน้าหนีอยู่ครู่หนึ่งเพราะตาพร่าด้วยแสงอาทิตย์อันร้อนแรงยามฤดูร้อน"
 
 show white:
     alpha 1.0
@@ -6039,115 +6119,147 @@ show rin basic_absent behind white:
     ypos 1.17
 with charaenter
 
-mystery "Hmm?"
+# mystery "Hmm?"
+mystery "หืม?"
 
 play music music_soothing fadein 8.0
 
-"As I slowly regain my vision, the surroundings finally take form."
+# "As I slowly regain my vision, the surroundings finally take form."
+"ภาพโดยรอบเริ่มปรากฏขึ้นเมื่อตาค่อย ๆ หายพร่า"
 
-"Lilly, Emi and Rin sit together on the rooftop, the top of the hilltop forest around Yamaku visible past the fence around them, as if to frame the view."
+# "Lilly, Emi and Rin sit together on the rooftop, the top of the hilltop forest around Yamaku visible past the fence around them, as if to frame the view."
+"ลิลลี่ เอมิ แล้วก็รินนั่งอยู่ด้วยกันบนดาดฟ้า เบื้องหลังรั้วมีภาพหลังคาป่าที่ปกคลุมยอดเขารอบยามากุราวกับทำหน้าที่\nประดับภาพตรงหน้านี้"
 
 show emi basic_closedgrin
 with charachange
 
-emi "Ah, Hisao!"
+# emi "Ah, Hisao!"
+emi "อ้าว ฮิซาโอะ!"
 
 show lilly basic_smileclosed
 show rin basic_deadpannormal
 with charachange
 
-"Lilly and Rin give a quick nod of acknowledgment and a deep nod of greeting respectively."
+# "Lilly and Rin give a quick nod of acknowledgment and a deep nod of greeting respectively."
+"ลิลลี่พยักหน้าน้อย ๆ เป็นการรับรู้ ส่วนรินพยักหน้ายาว ๆ เป็นการทักทาย"
 #Not the reverse, Suriko? -SC
 
-"I start walking towards the rather mismatched trio, and can't help marveling at the speed with which Emi devours the rest of her half-eaten banana."
+# "I start walking towards the rather mismatched trio, and can't help marveling at the speed with which Emi devours the rest of her half-eaten banana."
+"ฉันเดินไปหาสามหน่อที่ดูจะไม่เข้าพวกกันเท่าไหร่ พอได้เห็นแล้วก็อดไม่ได้ที่จะทึ่งกับความเร็วในการสวาปามกล้วย\nอีกครึ่งลูกที่เหลืออยู่ของเอมิ"
 
-hi "Hey. Strange to see you three together like this."
+# hi "Hey. Strange to see you three together like this."
+hi "ไง ไม่ค่อยได้เห็นพวกเธอสามคนอยู่ด้วยกันอย่างนี้เท่าไหร่เลยนะ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "It seems to have been quite the day of coincidences; Emi and Rin decided to eat on the roof just as Hanako and I decided to."
+# li "It seems to have been quite the day of coincidences; Emi and Rin decided to eat on the roof just as Hanako and I decided to."
+li "ดูท่าว่าจะเป็นวันที่บังเอิญน่าดูเลยละจ้ะ เอมิกับรินมาทานมื้อเที่ยงที่ดาดฟ้าวันเดียวกันกับวันที่ฉันกับฮานาโกะอยากมา\nพอดี"
 
 show emi basic_annoyed
 with charachange
 
-emi "You stole it! This spot was ours!"
+# emi "You stole it! This spot was ours!"
+emi "เธอนั่นแหละหัวขโมย! ที่ตรงนี้เป็นของพวกเราต่างหาก!"
 
-hi "Simmer down, you can't steal a place in the school."
+# hi "Simmer down, you can't steal a place in the school."
+hi "ยอ ยอ ที่ในโรงเรียนมันขโมยกันได้ที่ไหน"
 
-"I plonk myself down beside Lilly, the four of us creating a semicircle."
+# "I plonk myself down beside Lilly, the four of us creating a semicircle."
+"ฉันหย่อนตัวลงนั่งข้างลิลลี่ พวกเราสี่คนนั่งด้วยกันเป็นรูปครึ่งวงกลม"
 
 show rin basic_deadpanupset
 with charachange
 
-rin "I think she is right."
+# rin "I think she is right."
+rin "ฉันคิดว่าเอมิพูดถูก"
 
-hi "You too?"
+# hi "You too?"
+hi "เธอก็ด้วยเหรอ"
 
 show rin basic_deadpan
 with charachange
 
-rin "The butterfly is her accomplice."
+# rin "The butterfly is her accomplice."
+rin "ผีเสื้อเป็นผู้สมรู้ร่วมคิดของลิลลี่"
 
-hi "The butter…"
+# hi "The butter…"
+hi "ผี…"
 
-"As I glance around, sure enough, a small yellow butterfly floats across my field of vision."
+# "As I glance around, sure enough, a small yellow butterfly floats across my field of vision."
+"พอกวาดตามองไปรอบ ๆ ก็พบกับผีเสื้อตัวเล็กสีเหลืองที่บินผ่านมา"
 
-hi "So tell me, how did this butterfly help Lilly “steal” this spot?"
+# hi "So tell me, how did this butterfly help Lilly “steal” this spot?"
+hi "งั้นบอกหน่อยว่าผีเสื้อตัวนี้มีส่วนร่วมในการ “ขโมย” ที่ตรงนี้ของลิลลี่ยังไง"
 
 show rin basic_lucid
 with charachange
 
-rin "It scouted out our conversation and told her."
+# rin "It scouted out our conversation and told her."
+rin "ผีเสื้อตัวนี้มาแอบดักฟังบทสนทนาของพวกเราแล้วเอาไปบอกลิลลี่"
 
-"I should've known better than to expect sound reasoning from Rin. Regardless, I guess it wouldn't hurt to play along."
+# "I should've known better than to expect sound reasoning from Rin. Regardless, I guess it wouldn't hurt to play along."
+"ไม่น่าไปคาดหวังคำว่าเหตุผลกับรินเลย แต่เอาเถอะ ตามน้ำไปสักหน่อยคงไม่เสียหาย"
 
-hi "You're telling me she can talk to butterflies?"
+# hi "You're telling me she can talk to butterflies?"
+hi "นี่จะบอกว่าลิลลี่พูดกับผีเสื้อได้?"
 
 show rin basic_awayabsent
 with charachange
 
-rin "There are people who can talk to horses, called horse whisperers."
+# rin "There are people who can talk to horses, called horse whisperers."
+rin "คนเลี้ยงม้าที่คุยกับม้ายังมีเลย"
 
 show rin basic_deadpanamused
 with charachange
 
-rin "Lilly must be a butterfly whisperer."
+# rin "Lilly must be a butterfly whisperer."
+rin "ลิลลี่ต้องเป็นคนเลี้ยงผีเสื้อแน่ ๆ"
 
-"I bury my head in my hands as Emi rounds on her strange companion. She doesn't seem to share Rin's sense of humor."
+# "I bury my head in my hands as Emi rounds on her strange companion. She doesn't seem to share Rin's sense of humor."
+"ฉันก้มหัวเอาหน้าแนบกับฝ่ามือ ส่วนเอมิหันไปแทรกเพื่อนแสนพิลึกของเธอ ดูท่าว่าเอมิจะไม่ค่อยขำกับอะไรอย่างริน\nสักเท่าไหร่"
 
 show emi basic_confused
 with charachange
 
-emi "Whisperers don't work like that."
+# emi "Whisperers don't work like that."
+emi "คนเลี้ยงสัตว์เขาไม่ได้คุยกับสัตว์จริง ๆ สักหน่อย"
 
-"Emi and Rin continue their banter as I turn to Lilly, who's busily finishing off her small box of curry and rice."
+# "Emi and Rin continue their banter as I turn to Lilly, who's busily finishing off her small box of curry and rice."
+"เอมิกับรินเถียงกันไปมา ฉันหันไปมองลิลลี่ที่กำลังง่วนอยู่กับการกินข้าวแกงกะหรี่ในกล่องข้าวเล็ก ๆ ใบนั้น"
 
-hi "So what brought you up here, anyway?"
+# hi "So what brought you up here, anyway?"
+hi "แล้วนึกยังไงถึงมานี่ล่ะ"
 
 show lilly basic_smile
 with charachange
 
-li "A little fresh air every now and again doesn't hurt."
+# li "A little fresh air every now and again doesn't hurt."
+li "นาน ๆ ทีได้มาสูดอากาศสดชื่นสักหน่อยก็ดีนะจ๊ะ"
 
 show emi basic_shock
 with charachange
 
-emi "Ah!"
+# emi "Ah!"
+emi "อ๊ะ!"
 
-"Emi breaks off from her vain attempts to introduce the concept of logic to Rin."
+# "Emi breaks off from her vain attempts to introduce the concept of logic to Rin."
+"เอมิที่กำลังพยายามอธิบายคำว่าตรรกะให้รินฟังอย่างสิ้นหวังอยู่นั้นหันขวับมาแทรก"
 
 show emi sad_annoyed
 with charachange
 
-emi "That was why we came up here too!"
+# emi "That was why we came up here too!"
+emi "พวกเราก็มาที่นี่เพราะเหตุผลอย่างนั้นเหมือนกัน!"
 
-"Something tells me it was her idea alone, and that Rin only got dragged up here on Emi's whim. Then again, the same could probably be said of Lilly and Hanako."
+# "Something tells me it was her idea alone, and that Rin only got dragged up here on Emi's whim. Then again, the same could probably be said of Lilly and Hanako."
+"ดูท่าแล้วเหมือนจะมีแค่เอมิที่คิดอย่างนั้นอยู่คนเดียวแล้วลากรินมามากกว่า แต่ก็นะ ฝั่งลิลลี่กับฮานาโกะก็คงไม่ต่างกัน\nสักเท่าไหร่"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Now, now. We can share."
+# li "Now, now. We can share."
+li "ใจเย็น ๆ นะจ๊ะ อยู่ด้วยกันก็ได้"
 
 $ renpy.music.set_volume(0.001, 1.0, channel="music")
 
@@ -6159,7 +6271,8 @@ show emi basic_hes
 show rin basic_awayabsent
 with charachange
 
-"The creaking of the door to the roof can be heard as soon as she says the words. A moment of silence falls over us as everyone's attention focuses on the figure appearing from it."
+# "The creaking of the door to the roof can be heard as soon as she says the words. A moment of silence falls over us as everyone's attention focuses on the figure appearing from it."
+"พอลิลลี่พูดจบก็มีเสียงเอี๊ยดดังมาจากประตูดาดฟ้า ทุกคนเงียบไปเพราะจดจ้องอยู่กับคนที่จะโผล่ออกมาจากประตู\nบานนั้น"
 
 show lilly basic_surprised:
     xanchor 0.5 xpos 0.4
@@ -6177,9 +6290,11 @@ show hanako basic_distant:
     ease 1.0 ypos 1.17
 with None
 
-"Hanako slowly walks over to us, her eyes pinned to the ground, silently ruing the attention she's attracting. She tenses, just barely, when her eyes meet Rin's."
+# "Hanako slowly walks over to us, her eyes pinned to the ground, silently ruing the attention she's attracting. She tenses, just barely, when her eyes meet Rin's."
+"ฮานาโกะค่อย ๆ เดินมองพื้นมาหาพวกเราอย่างเงียบ ๆ คล้ายนึกไม่อยากให้ทุกคนสนใจเธออย่างนี้ เธอเกร็งเล็กน้อย\nเมื่อสบตากับริน"
 
-"I can't help raising an eyebrow as she walks over to us and sits next to me, doing her utmost to avoid looking up even as she brings her cafeteria bread to her mouth."
+# "I can't help raising an eyebrow as she walks over to us and sits next to me, doing her utmost to avoid looking up even as she brings her cafeteria bread to her mouth."
+"ฉันอดไม่ได้ที่จะเลิกคิ้วให้กับฮานาโกะที่เดินมานั่งข้างฉันแล้วพยายามไม่เงยหน้ามองใครแม้กระทั่งตอนที่กำลังกิน\nขนมปังที่ซื้อมาจากโรงอาหารก็ตาม"
 
 show rin basic_absent
 show emi basic_grin
@@ -6187,7 +6302,8 @@ show hanako basic_normal:
     xanchor 0.0 xpos -0.06 ypos 1.17
 with charachange
 
-hi "So how do you and Emi know each other, anyways?"
+# hi "So how do you and Emi know each other, anyways?"
+hi "แล้วนี่เธอไปรู้จักกับเอมิได้ยังไงเหรอ"
 
 $ renpy.music.set_volume(1.0, 8.0, channel="music")
 
@@ -6195,64 +6311,78 @@ show lilly basic_smileclosed
 show rin basic_awayabsent
 with charachange
 
-li "Emi's somewhat well known around the school for her athletic ability. She's the fastest member of the track and field club by some margin, even beating Miki Miura at the track meet last week."
+# li "Emi's somewhat well known around the school for her athletic ability. She's the fastest member of the track and field club by some margin, even beating Miki Miura at the track meet last week."
+li "ความสามารถทางด้านกีฬาของเอมิน่ะเป็นที่รู้จักกันในโรงเรียนนี้อยู่พอสมควรเลยนะ เป็นคนที่วิ่งเร็วที่สุดในชมรมกรีฑา\nแล้วละ แถมงานแข่งวิ่งเมื่อสัปดาห์ที่แล้วยังวิ่งแซงมิกิ มิอูระได้ด้วยละ"
 
-"Miki Miura… ah, that tanned girl from the front of my class. Considering her height and toned body, being able to beat her is quite an accomplishment."
+# "Miki Miura… ah, that tanned girl from the front of my class. Considering her height and toned body, being able to beat her is quite an accomplishment."
+"มิกิ มิอูระ… อ้อ สาวผิวแทนที่นั่งหน้าห้องคนนั้นน่ะเอง ดูจากความสูงกับหุ่นมิกิแล้ว วิ่งแซงได้นี่ถือว่าเก่งเหมือนกัน"
 
 show emi excited_amused
 with charachange
 
-"Looking over to Emi, it's very clear she's well aware of this fact as she beams proudly."
+# "Looking over to Emi, it's very clear she's well aware of this fact as she beams proudly."
+"พอหันไปมองเอมิก็เห็นว่ากำลังยิ้มอยู่อย่างภาคภูมิ บ่งบอกว่าเธอเองก็รับรู้ถึงความเก่งนี้เช่นกัน"
 
 show emi excited_happy
 with charachange
 
-emi "So, Hisao. What was your score in English?"
+# emi "So, Hisao. What was your score in English?"
+emi "สรุป ฮิซาโอะ วิชาภาษาอังกฤษนายได้คะแนนเท่าไหร่"
 
-"Ouch."
+# "Ouch."
+"โอ๊ย"
 
 show rin basic_absent
 with charachange
 
-hi "No comment."
+# hi "No comment."
+hi "โนคอมเมนต์ครับ"
 
 show emi basic_annoyed
 show rin basic_awayabsent
 with charachange
 
-emi "Boo~."
+# emi "Boo~."
+emi "บู่ว~"
 
-"She puffs her cheeks and pouts, but it doesn't take long for her to bounce back."
+# "She puffs her cheeks and pouts, but it doesn't take long for her to bounce back."
+"เอมิทำแก้มป่องแกล้งงอน แต่สักพักก็คืนสภาพ"
 
 show emi excited_proud
 with charachange
 
-emi "All right, if I tell you mine, you have to tell me yours. Deal?"
+# emi "All right, if I tell you mine, you have to tell me yours. Deal?"
+emi "ก็ได้ ถ้าฉันบอกคะแนนตัวเองแล้วนายต้องบอกคะแนนของนายนะ ตามนั้น?"
 
 stop music fadeout 4.0
 
 show rin basic_absent
 with charachange
 
-hi "Fine, fine."
+# hi "Fine, fine."
+hi "ก็ได้ ๆ"
 
 show emi basic_closedhappy
 show rin basic_awayabsent
 with charachange
 
-emi "Okay, on the count of three, we both say our results."
+# emi "Okay, on the count of three, we both say our results."
+emi "โอเค งั้นพอนับสามแล้วบอกคะแนนพร้อมกันนะ"
 
 show emi excited_joy
 with charachange
 
-emi "One…{w=1.0} Two…{w=1.0} Three!{w=1.0}{nw}"
+# emi "One…{w=1.0} Two…{w=1.0} Three!{w=1.0}{nw}"
+emi "หนึ่ง…{w=1.0}สอง…{w=1.0}สาม!{w=1.0}{nw}"
 
 show emi basic_closedgrin
 with charachange
 
-$ doublespeak (hi, emi, "…", "Thirty-two!")
+# $ doublespeak (hi, emi, "…", "Thirty-two!")
+$ doublespeak (hi, emi, "…", "สามสิบสองคะแนน!")
 
-"I beam a mischievous grin."
+# "I beam a mischievous grin."
+"ฉันแสยะยิ้มเจ้าเล่ห์"
 
 play music music_comedy
 
@@ -6264,54 +6394,64 @@ with charachange
 with vpunch
 play sound sfx_impact
 
-emi "Ah! Evil! Evil, evil, evil, evil!"
+# emi "Ah! Evil! Evil, evil, evil, evil!"
+emi "โอ๊ย! ร้ายนัก! ร้าย ร้าย ร้าย ร้าย!"
 
 show rin basic_absent
 with charachange
 
-hi "You said it, not me. Still, the fact that you managed an even lower score than me is kind of amazing."
+# hi "You said it, not me. Still, the fact that you managed an even lower score than me is kind of amazing."
+hi "เธอพูดเองนี่ ฉันไม่ได้พูดสักหน่อย แต่ก็นะ สุดยอดเหมือนกันนะเนี่ยที่เธอยังจะได้คะแนนน้อยกว่าฉันอีก"
 
 show emi sad_grit
 show rin basic_awayabsent
 with charachange
 
-emi "Grr~!"
+# emi "Grr~!"
+emi "กรอด~!"
 
-"She looks and sounds like a small terrier growling at an intruder. I can't say it's the most threatening sight I've seen."
+# "She looks and sounds like a small terrier growling at an intruder. I can't say it's the most threatening sight I've seen."
+"ท่าทางกับน้ำเสียงเอมิดูคล้ายกับหมาเทอร์เรียที่แยกเขี้ยวใส่ผู้บุกรุก ซึ่งเป็นภาพที่ดูไม่ได้น่ากลัวขนาดนั้น"
 
 show lilly basic_displeased
 show hanako basic_normal
 with charachange
 
-li "Either way, scoring higher than thirty-two isn't something to boast about, much less scoring below it. For any subject."
+# li "Either way, scoring higher than thirty-two isn't something to boast about, much less scoring below it. For any subject."
+li "แต่ยังไงก็เถอะจ้ะ การได้คะแนนมากกว่าสามสิบสองคะแนนไม่ใช่อะไรที่จะเอามาพูดอวดกันได้นะ ยิ่งไม่ต้องพูดถึงคะแนน\nที่น้อยกว่านั้นเลย ไม่ว่าจะกับวิชาอะไรก็ตาม"
 
 show rin basic_absent
 with charachange
 
-hi "Yes, Lilly."
+# hi "Yes, Lilly."
+hi "ครับ ลิลลี่"
 
 show rin basic_awayabsent
 show emi sad_shy
 with charachange
 
-emi "Sorry, Lilly."
+# emi "Sorry, Lilly."
+emi "ขอโทษนะ ลิลลี่"
 
 show lilly basic_smile
 with charachange
 
-li "I could help you with your English, if you'd like. It would be my pleasure to—"
+# li "I could help you with your English, if you'd like. It would be my pleasure to—"
+li "หรือจะให้ฉันช่วยสอนวิชาภาษาอังกฤษก็ได้นะจ๊ะ ฉันยิน—"
 
 show emi basic_closedgrin
 with charachange
 
-emi "No, no, that's fine. But I appreciate the thought. Really."
+# emi "No, no, that's fine. But I appreciate the thought. Really."
+emi "ไม่ ๆ ไม่เป็นไร แต่ก็ขอบคุณนะที่เสนอ"
 
 show lilly basic_reminisce
 show hanako basic_smile
 show rin basic_deadpanamused
 with charachange
 
-"Lilly looks slightly deflated, her hopes of imparting her knowledge dashed. Judging from the badly hidden laughter of the rest of us, neither she nor Emi seem to have garnered too much pity."
+# "Lilly looks slightly deflated, her hopes of imparting her knowledge dashed. Judging from the badly hidden laughter of the rest of us, neither she nor Emi seem to have garnered too much pity."
+"ลิลลี่ดูหงอยไปเล็กน้อยจากการที่ความหวังในการถ่ายทอดความรู้ถูกดับลง แต่ดูจากสีหน้าคนอื่นที่แทบกลั้นขำไม่อยู่\nแล้ว ดูท่าว่าไม่ค่อยจะมีใครสงสารเอมิหรือลิลลี่สักเท่าไหร่"
 
 stop music fadeout 0.5
 $ renpy.music.set_volume(0.0, 4.0, channel="ambient")
@@ -6327,7 +6467,8 @@ with Dissolve (0.7)
 
 window show
 
-"As I sit happily laughing though, I feel my voice suddenly cut off as my chest clenches."
+# "As I sit happily laughing though, I feel my voice suddenly cut off as my chest clenches."
+"แต่ระหว่างที่นั่งเพลิน ๆ อยู่ก็รู้สึกว่าเสียงตัวเองขาดห้วงไปจังหวะเดียวกันกับตอนที่แน่นหน้าอกขึ้นมา"
 
 window hide
 
@@ -6340,7 +6481,8 @@ with Dissolve (0.7)
 
 window show
 
-"I sit in silence for a few seconds, all my concentration forced on my heartbeat. It's only a small pain, but the ache feels like it's growing."
+# "I sit in silence for a few seconds, all my concentration forced on my heartbeat. It's only a small pain, but the ache feels like it's growing."
+"ฉันนั่งเงียบอยู่สองสามวินาทีคอยจดจ่ออยู่กับจังหวะหัวใจเต้นของตัวเอง ถึงทีแรกจะไม่ได้ปวดมาก แต่ก็เหมือนยิ่ง\nปวดหนักขึ้นเรื่อย ๆ"
 
 play music music_tragic fadein 0.5
 
@@ -6364,7 +6506,8 @@ with Dissolve (0.2)
 
 window show
 
-"Breathe deeply… breathe deeply…"
+# "Breathe deeply… breathe deeply…"
+"หายใจเข้าลึก ๆ … หายใจเข้าลึก ๆ …"
 
 window hide
 
@@ -6377,19 +6520,22 @@ with Dissolve (0.2)
 
 window show
 
-"I glance upward to try and keep at least some of my attention on my surroundings, to see Emi suddenly freezing when she notices the expression of pain on my face out of the corner of her eye."
+# "I glance upward to try and keep at least some of my attention on my surroundings, to see Emi suddenly freezing when she notices the expression of pain on my face out of the corner of her eye."
+"ฉันแหงนหน้ามองเพื่อที่ว่าจะได้ยังพอรู้สภาพแวดล้อมบ้าง แต่ก็เหลือบไปเห็นเอมิที่ชะงักไปเมื่อเห็นว่าฉันทำหน้าเหยเก\nอยู่"
 
 show emi basic_hes
 with charachange
 
-emi "Hey, Hisao… are you okay?"
+# emi "Hey, Hisao… are you okay?"
+emi "นี่ ฮิซาโอะ… เป็นอะไรหรือเปล่า"
 
 show hanako def_worry
 show lilly basic_surprised
 show rin basic_deadpanupset
 with charachange
 
-hi "Yeah, I'm… fine…"
+# hi "Yeah, I'm… fine…"
+hi "เปล่า ไม่… ได้เป็นอะไร…"
 
 window hide
 
@@ -6402,7 +6548,8 @@ with Dissolve (0.2)
 
 window show
 
-"I look back down and redouble my efforts to try and stay calm, clenching my fists to try and dull the pain."
+# "I look back down and redouble my efforts to try and stay calm, clenching my fists to try and dull the pain."
+"ฉันก้มหน้าอีกครั้งแล้วแข็งใจอยู่นิ่ง ๆ ให้หนักขึ้นพลางกำหมัดด้วยหวังจะคลายความปวด"
 
 window hide
 
@@ -6426,39 +6573,49 @@ stop music fadeout 4.0
 
 window show
 
-"It takes a short time, but the pain, thankfully, begins to fade."
+# "It takes a short time, but the pain, thankfully, begins to fade."
+"โชคยังดีที่ไม่นานความปวดก็ทุเลาลง"
 
 $ renpy.music.set_volume(0.5, 4.0, channel="ambient")
 
-"When I look back up, there's only silence and pensive faces to be seen. I guess I'd better explain myself."
+# "When I look back up, there's only silence and pensive faces to be seen. I guess I'd better explain myself."
+"พอเงยหน้ากลับมามองอีกครั้งก็พบแต่เพียงความเงียบกับใบหน้าอันหวาดวิตก คงต้องอธิบายอะไรหน่อย"
 
 play music music_rain fadein 10.0
 
-hi "Arrhythmia. I'm fine, it's… just a heart flutter."
+# hi "Arrhythmia. I'm fine, it's… just a heart flutter."
+hi "หัวใจเต้นผิดจังหวะ ไม่เป็นไร แค่… เต้นผิดจังหวะนิดหน่อย"
 
 show lilly basic_listen
 with charachange
 
-li "Are you sure? Should we get the nurse?"
+# li "Are you sure? Should we get the nurse?"
+li "แน่ใจนะ ให้เรียกพยาบาลมั้ย"
 
 show hanako def_worry:
     ypos 1.0
 with ease
 
-"Taking her cue, Hanako quickly picks herself up and begins to dash to the door."
+# "Taking her cue, Hanako quickly picks herself up and begins to dash to the door."
+"ฮานาโกะรีบผุดลุกขึ้นแล้วเตรียมพุ่งไปทางประตูอย่างรู้งาน"
 
-hi "Hanako, stop. Lilly, I'm fine."
+# hi "Hanako, stop. Lilly, I'm fine."
+hi "ฮานาโกะ หยุด ลิลลี่ ฉันสบายดี"
 
 show rin basic_deadpan
 with charachange
 
-rin "You look like a wet, wrinkled tomato."
+# rin "You look like a wet, wrinkled tomato."
+rin "นายดูเหมือนมะเขือเทศเหี่ยวที่เปียกน้ำเลย"
 
-hi "Huh?"
+# hi "Huh?"
+hi "ฮะ?"
 
-"As I bring my hand to my forehead, I can feel the beads of sweat gathered on it and dab them off with my cuff."
+# "As I bring my hand to my forehead, I can feel the beads of sweat gathered on it and dab them off with my cuff."
+"พอเอามือมาแตะหน้าผากก็รู้สึกถึงเหงื่อที่ชื้นอยู่ ฉันใช้แขนเสื้อเช็ดออก"
 
-hi "Thanks. I told you, I'm fine. I'm just kind of… fragile, I guess."
+# hi "Thanks. I told you, I'm fine. I'm just kind of… fragile, I guess."
+hi "ขอบใจ บอกแล้วไงว่าสบายดี แค่… อ่อนแอนิดหน่อย ละมั้งนะ"
 
 show hanako basic_worry
 with charachange
@@ -6472,118 +6629,143 @@ show rin basic_deadpanupset
 show lilly basic_sleepy
 with charachange
 
-"The entire atmosphere's changed from one of gaiety to downcast faces, the situation being too awkward for anyone to know exactly how to react."
+# "The entire atmosphere's changed from one of gaiety to downcast faces, the situation being too awkward for anyone to know exactly how to react."
+"บรรยากาศแปรจากความร่าเริงเป็นความหมองไปแล้ว สถานการณ์ตอนนี้นั้นอึดอัดเกินไปจนทุกคนทำตัวไม่ถูก"
 
-"And of course, the whole thing is thanks to me. It just had to happen now, around others."
+# "And of course, the whole thing is thanks to me. It just had to happen now, around others."
+"และแน่นอนว่าทั้งหมดนี้เป็นเพราะฉัน ซึ่งอาการดันทะลึ่งมากำเริบตอนนี้ ตอนที่อยู่กับคนอื่นเสียนี่"
 
 stop music fadeout 8.0
 
 show lilly basic_weaksmile
 with charachange
 
-li "Oh, Emi?"
+# li "Oh, Emi?"
+li "อ้าว เอมิ"
 
 show emi basic_hes
 show rin basic_awayabsent
 with charachange
 
-emi "Hmm?"
+# emi "Hmm?"
+emi "หืม?"
 
-"She looks up, a box of juice halfway to her mouth."
+# "She looks up, a box of juice halfway to her mouth."
+"เอมิเงยหน้าขึ้นมองพร้อมกล่องน้ำผลไม้ที่อยู่ไม่ห่างจากปาก"
 
 show lilly basic_smileclosed
 with charachange
 
-li "I haven't told you of my score yet, have I?"
+# li "I haven't told you of my score yet, have I?"
+li "ฉันยังไม่ได้บอกคะแนนตัวเองเลยใช่มั้ยจ๊ะ"
 
 show emi basic_annoyed
 with charachange
 
-emi "Yeah, well. You're half-foreign, so your score doesn't count anyway."
+# emi "Yeah, well. You're half-foreign, so your score doesn't count anyway."
+emi "อื้ม แต่ก็นะ เธอเป็นลูกครึ่งนี่ คะแนนของเธอเอามาเทียบไม่ได้หรอก"
 
-"Lifting an eyebrow, I inquisitively turn to Lilly."
+# "Lifting an eyebrow, I inquisitively turn to Lilly."
+"ฉันเลิกคิ้วด้วยความสงสัยหันไปมองลิลลี่"
 
 show rin basic_absent
 with charachange
 
-hi "What was your test result, anyway?"
+# hi "What was your test result, anyway?"
+hi "แล้วได้คะแนนเท่าไหร่ล่ะ"
 
 show lilly basic_cheerful
 
-"She gives a cheeky grin."
+# "She gives a cheeky grin."
+"ลิลลี่ยิ้มทำหน้าทะเล้น"
 
 show rin basic_awayabsent
 show lilly basic_planned
 with charachange
 
-li "One hundred percent. Perfect score."
+# li "One hundred percent. Perfect score."
+li "หนึ่งร้อยคะแนนเต็มจ้ะ"
 
 play music music_lilly fadein 0.5
 
-"No way. All I can do is hang my mouth open in wonder."
+# "No way. All I can do is hang my mouth open in wonder."
+"บ้าน่า ฉันได้แต่อ้าปากค้างด้วยความอึ้ง"
 
-"Considering those tests are insane even for some native speakers, I can only imagine she's gone and done something like committing to mind part of the dictionary. A gift for rote memorization, maybe."
+# "Considering those tests are insane even for some native speakers, I can only imagine she's gone and done something like committing to mind part of the dictionary. A gift for rote memorization, maybe."
+"ข้อสอบที่ว่านี่เจ้าของภาษามาทำยังต้องร้อง ลิลลี่คงถึงขั้นไปท่องพจนานุกรมมาสักส่วนหนึ่งแล้วแน่ ๆ สงสัยจะมี\nพรสววรค์ทางด้านความจำละมั้ง"
 
 show rin basic_absent
 with charachange
 
-hi "That's…"
+# hi "That's…"
+hi "อะ…"
 
 show rin basic_awayabsent
 show emi sad_pout
 with charachange
 
-emi "See! Only someone part-foreign could get a score that good."
+# emi "See! Only someone part-foreign could get a score that good."
+emi "เห็นมั้ย! มีแต่ลูกครึ่งแหละที่ได้คะแนนเยอะขนาดนั้นน่ะ"
 
 show rin basic_absent
 with charachange
 
-hi "“See”…"
+# hi "“See”…"
+hi "“เห็น”…"
 
 show rin basic_awayabsent
 show emi basic_closedsweat
 with charachange
 
-emi "Er…"
+# emi "Er…"
+emi "เอ่อ…"
 
 show lilly basic_giggle
 show hanako basic_smile
 with charachange
 
-"Lilly and I grin at Emi's expense, her reaction identical to mine when I'd first tripped on that little landmine. Lilly's foreign ancestry does raise a point, though."
+# "Lilly and I grin at Emi's expense, her reaction identical to mine when I'd first tripped on that little landmine. Lilly's foreign ancestry does raise a point, though."
+"ลิลลี่กับฉันแสยะยิ้มที่เอมิผงะไป ปฏิกิริยาเหมือนตอนที่ฉันเผลอหลุดอะไรเล็ก ๆ น้อย ๆ แบบนั้นไปเปี๊ยบ แต่ที่พูดถึง\nเชื้อชาติของลิลลี่ก็มีส่วนถูกละนะ"
 
 show rin basic_absent
 with charachange
 
-hi "Ah, that's right. You leave tomorrow for Scotland, don't you?"
+# hi "Ah, that's right. You leave tomorrow for Scotland, don't you?"
+hi "อ้อ จริงสิ พรุ่งนี้เธอจะบินไปสกอตแลนด์แล้วนี่"
 
 show rin basic_awayabsent
 show lilly basic_smile
 with charachange
 
-li "That's correct. Emi heard some rumors about it; it seems word's spreading quickly, considering I only told a friend in my class a couple of days ago."
+# li "That's correct. Emi heard some rumors about it; it seems word's spreading quickly, considering I only told a friend in my class a couple of days ago."
+li "ใช่จ้ะ เอมิเองก็พอได้ยินข่าวลือมาบ้าง ดูเหมือนว่าข่าวจะแพร่เร็วมาก เพราะฉันก็เพิ่งบอกเพื่อนในห้องไปเมื่อสองสาม\nวันก่อนเอง"
 
 show emi sad_grin
 with charachange
 
-emi "It must be so nice to go halfway around the world on a holiday."
+# emi "It must be so nice to go halfway around the world on a holiday."
+emi "ได้หยุดไปเที่ยวอ้อมโลกนี่ดีจังเลยนะ"
 
 show emi excited_happy
 with charachange
 
-emi "Hey, could you buy me something while you're there?"
+# emi "Hey, could you buy me something while you're there?"
+emi "นี่ ฝากซื้ออะไรมาให้หน่อยได้มั้ย"
 
 show rin basic_absent
 with charachange
 
-hi "Don't be too shy now."
+# hi "Don't be too shy now."
+hi "โถ่ ไม่ต้องเกรงใจหรอกน่า"
 
 show lilly basic_giggle
 with charachange
 
-"Lilly gives a lighthearted giggle, evidently fully expecting Emi's bluntness."
+# "Lilly gives a lighthearted giggle, evidently fully expecting Emi's bluntness."
+"ลิลลี่หัวเราะคิกคักดูสนุก คงจะเดาไว้แล้วว่าเอมิต้องขออะไรตรง ๆ อย่างนั้นแหละ"
 
-"The rest of the lunch continues much the same as before, the jauntiness from before my heart flutter thankfully returning in full."
+# "The rest of the lunch continues much the same as before, the jauntiness from before my heart flutter thankfully returning in full."
+"ส่วนคนอื่นก็กินข้าวเที่ยงกันไปตามปกติ บรรยากาศอันสดใสก่อนหน้าที่อาการฉันจะกำเริบนั้นกลับคืนฟื้นมาแล้ว"
 
 stop music fadeout 8.0
 
@@ -6593,92 +6775,119 @@ show lilly basic_smileclosed:
     ypos 1.2
 with shorttimeskip
 
-"As everyone files off with the appropriate farewells, only Lilly and I are left."
+# "As everyone files off with the appropriate farewells, only Lilly and I are left."
+"เมื่อทุกคนต่างบอกลาตามสมควรและเดินออกไปกันแล้วก็เหลือเพียงลิลลี่กับฉัน"
 
-hi "Hey, Lilly?"
+# hi "Hey, Lilly?"
+hi "นี่ ลิลลี่?"
 
-"She packs the last of her things into her bag and clips it shut, before perking her head up slightly."
+# "She packs the last of her things into her bag and clips it shut, before perking her head up slightly."
+"ลิลลี่เก็บของชิ้นสุดท้ายใส่กระเป๋าแล้วปิดก่อนจะเงยหน้าขึ้นเล็กน้อย"
 
 show lilly basic_smile
 with charachange
 
-li "Hmm?"
+# li "Hmm?"
+li "หืม?"
 
-hi "Um… thanks for breaking the silence back there. I kind of wanted to stop it, but didn't really know how to."
+# hi "Um… thanks for breaking the silence back there. I kind of wanted to stop it, but didn't really know how to."
+hi "เอ่อ… ขอบคุณที่ตอนนั้นไม่ปล่อยให้บรรยากาศเงียบนะ ฉันก็อยากพูดอยู่เหมือนกัน แต่ไม่รู้จะพูดยังไงดี"
 
-"As much as I'd like to sound less morose about it, the letter from yesterday, screwing up a test so badly in class, and now my heart make things very hard indeed."
+# "As much as I'd like to sound less morose about it, the letter from yesterday, screwing up a test so badly in class, and now my heart make things very hard indeed."
+"ใจจริงก็ไม่ได้อยากพูดให้ดูหมองอย่างนี้หรอก แต่เจอทั้งเรื่องจดหมายเมื่อวาน เรื่องคะแนนสอบน้อย แล้วไหนจะเรื่อง\nหัวใจนี่อีก ไม่ไหวจริง ๆ"
 
 show lilly basic_weaksmile
 with charachange
 
-"She gives an indulgent smile and nods. I hope she hasn't picked up on it, but knowing her, it's unlikely that she hasn't."
+# "She gives an indulgent smile and nods. I hope she hasn't picked up on it, but knowing her, it's unlikely that she hasn't."
+"ลิลลี่ยิ้มอย่างใจกว้างแล้วพยักหน้า หวังว่าคงจับน้ำเสียงไม่ออกนะ แต่กับลิลลี่เสียอย่าง ยังไงก็คงรู้"
 
-li "Emi's strong, but only human. We do worry about you, Hisao."
+# li "Emi's strong, but only human. We do worry about you, Hisao."
+li "เอมิเข้มแข็งก็จริง แต่ยังไงเขาก็เป็นมนุษย์คนหนึ่งนะ พวกเราเป็นห่วงเธอนะฮิซาโอะ"
 
-hi "Hold on, why would I worry you?"
+# hi "Hold on, why would I worry you?"
+hi "เดี๋ยวก่อน ฉันมีอะไรให้เป็นห่วงด้วยเหรอ"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="ambient")
 
 show lilly basic_displeased
 with charachange
 
-"Her smiling face collapses, becoming uncomfortably serious."
+# "Her smiling face collapses, becoming uncomfortably serious."
+"รอยยิ้มของลิลลี่หายไป เธอทำสีหน้าจริงจังขึ้นมาจนชวนอึดอัด"
 
-li "Hisao, we are not ignorant of your situation."
+# li "Hisao, we are not ignorant of your situation."
+li "ฮิซาโอะ ไม่ใช่ว่าพวกเราจะไม่รู้เรื่องของเธอนะ"
 
-li "Unli…"
+# li "Unli…"
+li "ไม่เหมื…"
 
 show lilly basic_concerned
 with charachange
 
-"She suddenly cuts herself short, unsure of whether she should say what she intends to. I give a weak smile and rest my hand on her shoulder."
+# "She suddenly cuts herself short, unsure of whether she should say what she intends to. I give a weak smile and rest my hand on her shoulder."
+"อยู่ ๆ ลิลลี่ก็ตัดบททิ้งดื้อ ๆ เพราะไม่แน่ใจว่าจะพูดสิ่งที่ตั้งใจไว้ให้จบดีหรือไม่ ฉันยิ้มบาง ๆ แล้วเอามือวางไว้บนบ่าเธอ"
 
 play music music_twinkle fadein 10.0
 
-hi "Don't. It's enough that I worry about it. I don't want you all to shoulder my burden."
+# hi "Don't. It's enough that I worry about it. I don't want you all to shoulder my burden."
+hi "อย่าเลย ให้ฉันเป็นกังวลอยู่คนเดียวพอแล้ว ฉันไม่อยากให้พวกเธอต้องแบกรับภาระของฉันไปด้วย"
 
 show lilly basic_oops
 with charachange
 
-li "But…"
+# li "But…"
+li "แต่ว่า…"
 
-hi "If you all worry about it, I have to worry about your worrying. If… that makes sense."
+# hi "If you all worry about it, I have to worry about your worrying. If… that makes sense."
+hi "ถ้าพวกเธอเป็นห่วง เดี๋ยวฉันก็ต้องเป็นกังวลที่พวกเธอเป็นห่วงอีก พอจะ… เข้าใจหรือเปล่า"
 
-hi "I'm fine, okay?"
+# hi "I'm fine, okay?"
+hi "ฉันยังไหว โอเคนะ"
 
 show lilly basic_reminisce
 with charachange
 
-"For a moment she looks to be lost in thought, carefully pondering how to react."
+# "For a moment she looks to be lost in thought, carefully pondering how to react."
+"ลิลลี่ทำสีหน้าครุ่นคิดอยู่ครู่หนึ่งเพื่อพินิจว่าจะทำตัวยังไงต่อ"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Hisao, do you have any paper left from your food's packaging?"
+# li "Hisao, do you have any paper left from your food's packaging?"
+li "ฮิซาโอะ มีเศษกระดาษห่ออาหารเหลืออยู่หรือเปล่าจ๊ะ"
 
-hi "I… think so? I'll just check."
+# hi "I… think so? I'll just check."
+hi "น่าจะ… มีอยู่นะ? ขอดูแป๊บ"
 
 play sound sfx_rustling
 
-"I rummage around in my bag for the leftovers from lunch, eventually finding a paper square from my sandwich's package."
+# "I rummage around in my bag for the leftovers from lunch, eventually finding a paper square from my sandwich's package."
+"ฉันคุ้ยกระเป๋าหาเศษขยะจากการกินข้าวเที่ยงจนเจอแผ่นกระดาษสี่เหลี่ยมจัตุรัสที่ใช้ห่อแซนด์วิช"
 
-"My eyebrow raised and my expression rather quizzical, I gently place the square into Lilly's hand. Without another word, she brings her fingers around it to feel out its edges."
+# "My eyebrow raised and my expression rather quizzical, I gently place the square into Lilly's hand. Without another word, she brings her fingers around it to feel out its edges."
+"ฉันเลิกคิ้วขึ้นพร้อมทำสีหน้าอันงงงวยก่อนจะค่อย ๆ วางแผ่นกระดาษลงบนฝ่ามือของลิลลี่ เธอไล่จับกระดาษเพื่อ\nหาขอบอยู่โดยไม่พูดอะไร"
 
 show lilly basic_smile
 with charachange
 
-li "This should be large enough…"
+# li "This should be large enough…"
+li "เท่านี้น่าจะใหญ่พอ…"
 
-"With both of us seated on the roof, the minutes to the lesson ticking away, she proceeds to lay the item on the ground and begin her work in earnest."
+# "With both of us seated on the roof, the minutes to the lesson ticking away, she proceeds to lay the item on the ground and begin her work in earnest."
+"พวกเรานั่งอยู่บนดาดฟ้าโดยที่เวลาเข้าเรียนค่อย ๆ คืบคลานเข้ามา ลิลลี่วางแผ่นกระดาษลงกับพื้นแล้วลงมือทำ\nอย่างขะมักเขม้น"
 
 show lilly basic_smileclosed
 with charachange
 
-"Wrapped in silence, I watch her fingers move about on the small square with amazing dexterity. A small fold here, a larger fold there, her fingertips keep a slow but sure pace."
+# "Wrapped in silence, I watch her fingers move about on the small square with amazing dexterity. A small fold here, a larger fold there, her fingertips keep a slow but sure pace."
+"ฉันนั่งมองนิ้วลิลลี่ที่กำลังพับแผ่นกระดาษใบเล็ก ๆ อยู่เงียบ ๆ ด้วยความคล่องอันเหลือเชื่อ พับทบเล็กตรงนั้น พับ\nทบใหญ่ตรงนี้ นิ้วลิลลี่นั้นขยับไปอย่างช้า ๆ ทว่ามั่นคง"
 
-"Looking up, her expression is calm and placid. The fact her face is pointed well above the sheet in front of her makes the sight of her work all the more curious."
+# "Looking up, her expression is calm and placid. The fact her face is pointed well above the sheet in front of her makes the sight of her work all the more curious."
+"พอเงยหน้ามองก็พบกับใบหน้าอันเรียบนิ่งและเยือกเย็น ซึ่งน่าสนใจดีที่ว่าทั้งที่มือยังพับอยู่แต่เธอก็ยังตั้งหน้าตรง"
 
-"Her shoulders slump a bit after finishing one final fold, her work apparently done. It's only when she holds the item up in her hands that I realize what it is."
+# "Her shoulders slump a bit after finishing one final fold, her work apparently done. It's only when she holds the item up in her hands that I realize what it is."
+"ลิลลี่คลายไหล่ลงเล็กน้อยหลังพับทบสุดท้ายเสร็จเป็นการปิดท้าย กว่าจะดูออกว่ากำลังพับอะไรอยู่ก็ตอนที่เธอยกขึ้นมา\nให้ดู"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6693,17 +6902,23 @@ scene ev lilly_crane:
     ease 15.0 zoom 1.0
 with Dissolve(4.0)
 
-"A small origami crane."
+# "A small origami crane."
+"นกกระเรียนกระดาษขนาดเล็ก"
 
-"Light brown thanks to the packaging used, the result looks quite delicate and precise."
+# "Light brown thanks to the packaging used, the result looks quite delicate and precise."
+"สีน้ำตาลของกระดาษทำให้ผลงานนั้นดูประณีต"
 
-hi "You can do origami?"
+# hi "You can do origami?"
+hi "พับกระดาษเป็นด้วยเหรอ"
 
-li "I taught myself how to do it when I was younger. It improved my dexterity a bit."
+# li "I taught myself how to do it when I was younger. It improved my dexterity a bit."
+li "พอดีเคยหัดตอนยังเด็กน่ะจ้ะ ช่วยให้ใช้มือได้คล่องขึ้นเหมือนกัน"
 
-hi "Huh…"
+# hi "Huh…"
+hi "หืม…"
 
-"A little baffled, I carefully take the small bird from her pale cupped hands as if it would break from the slightest breath. It seems to be folded quite well, and holds its shape easily."
+# "A little baffled, I carefully take the small bird from her pale cupped hands as if it would break from the slightest breath. It seems to be folded quite well, and holds its shape easily."
+"ฉันหยิบนกกระดาษตัวเล็กนั้นมาจากอุ้งมือขาวของเธออย่างระมัดระวังราวกับกลัวว่าพอหายใจรดแล้วจะสลายไป ในใจ\nยังนึกทึ่งอยู่เล็กน้อย ดูเหมือนจะพับดีด้วย แถมอยู่ตัวอีกต่างหาก"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -6711,56 +6926,72 @@ scene bg school_roof
 show lilly cane_smile at center
 with locationskip
 
-"We both grab our bags and head out the door, Lilly extending her cane as she does so."
+# "We both grab our bags and head out the door, Lilly extending her cane as she does so."
+"พวกเราต่างเก็บกระเป๋าของตัวเองแล้วเดินไปที่ประตู ระหว่างนั้นลิลลี่ก็ยืดไม้เท้าออก"
 
 stop ambient fadeout 2.0
 
 scene bg school_hallway3
 with locationskip
 
-"I hold Lilly's handiwork up to my face for further inspection while we walk down the hallway, her hand running along the silver handrails for orientation."
+# "I hold Lilly's handiwork up to my face for further inspection while we walk down the hallway, her hand running along the silver handrails for orientation."
+"ระหว่างที่เดินไปตามโถงทางเดินฉันก็ยกงานฝีมือของลิลลี่ขึ้นมาพินิจใกล้ ๆ ส่วนลิลลี่ก็คอยใช้มือคลำราวเหล็กนำทาง"
 
-"If she taught herself origami to improve her dexterity, with the use of her hands meaning so much to her given her condition… ah, so that's it."
+# "If she taught herself origami to improve her dexterity, with the use of her hands meaning so much to her given her condition… ah, so that's it."
+"ถ้าลิลลี่หัดพับกระดาษเองเพื่อเพิ่มความคล่องของมือ และมือนั้นเป็นสิ่งสำคัญมากกับความพิการของเธอ… อ้อ อย่างนี้\nนี่เอง"
 
-"I smile as I realize the bird's meaning."
+# "I smile as I realize the bird's meaning."
+"ฉันยิ้มให้กับความหมายของนกตัวนี้"
 
-"“Everyone here has had to find their own ways of dealing with their conditions. You aren't alone here when you have problems.”"
+# "“Everyone here has had to find their own ways of dealing with their conditions. You aren't alone here when you have problems.”"
+"“ทุกคนที่นี่ต่างต้องหาวิธีปรับตัวกับความพิการของตัวเองทั้งนั้น ถ้ามีปัญหาอะไร เธอไม่ได้อยู่ตัวคนเดียวหรอกนะ”"
 
-hi "Thanks, Lilly. I appreciate this."
+# hi "Thanks, Lilly. I appreciate this."
+hi "ขอบคุณนะลิลลี่ ดีใจจัง"
 
 show lilly cane_cheerful
 with charaenter
 
-"She gives a sweet smile and a nod, not using words where none need be used, in her typical manner."
+# "She gives a sweet smile and a nod, not using words where none need be used, in her typical manner."
+"ลิลลี่ยิ้มหวานพยักหน้า เป็นปกติของเธอที่จะสงวนคำพูดในจังหวะที่ไม่ต้องมีคำพูดใด ๆ สื่อสารกัน"
 
 show lilly cane_smileclosed
 with charachange
 
-li "All I ask is that you take care of yourself, Hisao."
+# li "All I ask is that you take care of yourself, Hisao."
+li "ขอแค่เธอดูแลตัวเองฉันก็ดีใจแล้วละจ้ะ ฮิซาโอะ"
 
-hi "Don't worry, I will."
+# hi "Don't worry, I will."
+hi "ไม่ต้องห่วง จะดูแลอย่างดี"
 
 show lilly cane_smile
 with charachange
 
-li "Promise?"
+# li "Promise?"
+li "สัญญานะ"
 
-hi "Promise."
+# hi "Promise."
+hi "สัญญา"
 
 hide lilly
 with charaexit
 
 stop music fadeout 7.0
 
-"And with that, we part ways."
+# "And with that, we part ways."
+"แล้วเราก็เดินแยกทางกัน"
 
-"To be honest, I don't know what annoys me more - the fact that I could die at any moment, or the fact that everyone knows that."
+# "To be honest, I don't know what annoys me more - the fact that I could die at any moment, or the fact that everyone knows that."
+"ว่าตามตรง ระหว่างเรื่องที่ว่าฉันจะตายตอนไหนก็ได้ กับเรื่องที่ว่าทุกคนรู้ว่าฉันเป็นอะไร ฉันไม่แน่ใจเหมือนกันว่า\nอันไหนน่าหงุดหงิดมากกว่ากัน"
 
-"I guess I'll just take each day as it comes. As the unexpected present in my hand reminds me, I'm not alone here. Even though I may be like this, I'm not alone."
+# "I guess I'll just take each day as it comes. As the unexpected present in my hand reminds me, I'm not alone here. Even though I may be like this, I'm not alone."
+"คงต้องใช้ชีวิตไปเรื่อย ๆ แหละนะ ของขวัญซึ่งไม่คาดคิดในมือนี้เป็นเครื่องย้ำเตือนว่าฉันไม่ได้อยู่ตัวคนเดียว แม้ฉันจะ\nเป็นอย่างนี้ แต่ฉันก็ไม่ได้อยู่ตัวคนเดียว"
 
-"If they worry, if anyone worries, I'll smile."
+# "If they worry, if anyone worries, I'll smile."
+"ถ้าพวกเขา—หรือใครก็ตาม—เป็นห่วง ฉันจะยิ้ม"
 
-"I'll smile enough for all their worries to go away."
+# "I'll smile enough for all their worries to go away."
+"ฉันจะยิ้มจนความเป็นห่วงของพวกเขานั้นลบเลือน"
 
 scene black
 with dissolve
@@ -6778,16 +7009,19 @@ scene bg school_scienceroom
 show muto normal at center
 with locationchange
 
-"The moment the bell rings out, a collective sigh of relief comes from everyone."
+# "The moment the bell rings out, a collective sigh of relief comes from everyone."
+"พอเสียงระฆังดังทุกคนก็ถอนหายใจโล่งอกอย่างพร้อมเพรียงกัน"
 
 play music music_happiness fadein 2.0
 
-"Much of the morning's been taken up by a droning lecture on stoichiometry, a topic entirely unbefitting of the insufferable heat permeating the classroom."
+# "Much of the morning's been taken up by a droning lecture on stoichiometry, a topic entirely unbefitting of the insufferable heat permeating the classroom."
+"เวลาในช่วงเช้าหมดไปกับการสอนเอื่อย ๆ ของครูเรื่องปริมาณสัมพันธ์ ซึ่งเป็นเรื่องที่ไม่เหมาะกับห้องเรียนที่ร้อน\nตับแตกเป็นอย่างมาก"
 
 hide muto
 with charaexit
 
-"Knowing that attempting to teach anything more would be an exercise in futility, Mutou gives up and begins clearing the teaching materials from his desk for the day."
+# "Knowing that attempting to teach anything more would be an exercise in futility, Mutou gives up and begins clearing the teaching materials from his desk for the day."
+"ครูเองก็รู้ว่าถ้าจะสอนอะไรอีกก็คงไม่เข้าหัวใครแล้วจึงเลิกชั้นแล้วเก็บข้าวของของตัวเองจากโต๊ะเป็นอันสิ้นสุดการสอน"
 
 $ renpy.music.set_volume(0.7, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 0.5
@@ -6795,48 +7029,61 @@ play ambient sfx_crowd_indoors fadein 0.5
 show hanako basic_normal at center
 with charaenter
 
-"As meaningless banter starts filling the classroom, I notice Hanako getting up and coming to my desk. She's been a lot less withdrawn lately, something which gives me a small measure of satisfaction."
+# "As meaningless banter starts filling the classroom, I notice Hanako getting up and coming to my desk. She's been a lot less withdrawn lately, something which gives me a small measure of satisfaction."
+"เสียงนักเรียนคุยกันเริ่มดังจ้อกแจ้ก ฮานาโกะลุกจากโต๊ะมาหาฉัน ช่วงนี้เธอกล้าเข้าหามากขึ้นแล้ว เห็นอย่างนี้แล้วก็พอใจ\nขึ้นมาหน่อย ๆ เหมือนกัน"
 
 show hanako basic_smile
 with charachange
 
-ha "Hello, Hisao."
+# ha "Hello, Hisao."
+ha "สวัสดี ฮิซาโอะ"
 
-hi "Hey. Want to go pick up Lilly, then? It's close to the time when she'd need to get going if she's going to make the flight."
+# hi "Hey. Want to go pick up Lilly, then? It's close to the time when she'd need to get going if she's going to make the flight."
+hi "ไง งั้นไปหาลิลลี่กันเลยมั้ย ถ้าจะไปให้ทันเครื่องออกก็น่าจะต้องไปช่วงนี้แล้วละ"
 
 show hanako cover_worry
 with charachange
 
-ha "Um… about that…"
+# ha "Um… about that…"
+ha "เอ่อ… เรื่องนั้น…"
 
 show hanako basic_worry
 with charachange
 
-ha "She said she might be held up a bit by her classmates."
+# ha "She said she might be held up a bit by her classmates."
+ha "ลิลลี่บอกว่าเดี๋ยวคนในห้องอาจจะมาคุยด้วยนานหน่อย"
 
-"I suppose that makes sense. Her class usually gets off a little earlier than ours, so Lilly would normally have just come to our classroom. Her class must be sending her off."
+# "I suppose that makes sense. Her class usually gets off a little earlier than ours, so Lilly would normally have just come to our classroom. Her class must be sending her off."
+"ก็คงจะเป็นอย่างนั้นละนะ ปกติห้องลิลลี่จะเลิกเรียนเร็วกว่าห้องเรานิดหน่อย ลิลลี่ถึงได้เดินมาหาที่ห้องเราได้ สงสัย\nห้องลิลลี่จะอำลาอะไรกันอยู่"
 
-hi "Well, never mind. We can wait outside her classroom for once, right?"
+# hi "Well, never mind. We can wait outside her classroom for once, right?"
+hi "งั้นก็เอาเถอะ ไปรอที่ห้องลิลลี่สักครั้งก็คงไม่เสียหาย"
 
 show hanako emb_smile
 with charachange
 
-"She gives a small giggle before nodding, the two of us taking our things and leaving for 3-2's classroom."
+# "She gives a small giggle before nodding, the two of us taking our things and leaving for 3-2's classroom."
+"ฮานาโกะหัวเราะคิกคักแล้วพยักหน้า พอพวกเราเก็บของกันเสร็จแล้วจึงเดินมาที่ห้อง 3-2"
 
 stop ambient fadeout 1.0
 
 scene bg school_hallway3
 with locationchange
 
-"When we reach our destination, I stop in idle amusement at the scene inside."
+# "When we reach our destination, I stop in idle amusement at the scene inside."
+"พอมาถึงที่ห้องฉันก็หยุดยืนมองบรรยากาศในห้องอยู่ยิ้ม ๆ"
 
-"One of the shorter girls from the class has Lilly wrapped in an enthusiastic hug, her head no higher than Lilly's chin. Her other friends, of which there are several, are gathered around her as well. Lilly simply smiles kindly and hugs her back."
+# "One of the shorter girls from the class has Lilly wrapped in an enthusiastic hug, her head no higher than Lilly's chin. Her other friends, of which there are several, are gathered around her as well. Lilly simply smiles kindly and hugs her back."
+"ผู้หญิงตัวเตี้ย ๆ คนหนึ่งกำลังกอดลิลลี่อยู่แน่น หัวของเธอนั้นยังอยู่ต่ำกว่าคางลิลลี่ ส่วนเพื่อนคนอื่น ๆ ของเธอซึ่งมี\nมากมายหลายคนก็มายืนห้อมล้อม ลิลลี่เพียงยิ้มอย่างใจดีแล้วกอดกลับ"
 
-"I guess Lilly must be pretty popular. Compared to Shizune's harsh but fair dictatorship of 3-3, Lilly seems more like a mother figure for 3-2, to say nothing of her height and looks."
+# "I guess Lilly must be pretty popular. Compared to Shizune's harsh but fair dictatorship of 3-3, Lilly seems more like a mother figure for 3-2, to say nothing of her height and looks."
+"คนก็คงชอบลิลลี่พอสมควร ถ้าให้เทียบกับการปกครองแบบเผด็จการอันรุนแรงแต่เท่าเทียมของชิซูเนะจากห้อง 3-3\nแล้ว ลิลลี่ดูเหมือนเป็นแม่ของห้อง 3-2 มากกว่า ไหนจะความสูงกับรูปลักษณ์ของเจ้าตัวอีก"
 
-"Kenji's pointedly cool demeanor as he packs up his things at his seat in the back corner of the classroom is expected. He's no doubt far from a fan of the fuss being made about Lilly's leaving."
+# "Kenji's pointedly cool demeanor as he packs up his things at his seat in the back corner of the classroom is expected. He's no doubt far from a fan of the fuss being made about Lilly's leaving."
+"และเคนจิก็ทำท่าเคร่งขรึมเก็บของอยู่มุมหลังห้องดังคาด แน่นอนว่าเขาไม่ใช่คนที่จะมามัวพิรี้พิไรอะไรกับการที่ลิลลี่\nจะไปต่างประเทศ"
 
-"Looking beside me and seeing Hanako following my gaze, I decide to finally enter the room."
+# "Looking beside me and seeing Hanako following my gaze, I decide to finally enter the room."
+"พอเหลือบมองฮานาโกะที่อยู่ข้าง ๆ ก็เห็นว่ากำลังมองไปทางเดียวกัน ฉันจึงตัดสินใจเดินเข้าห้องไป"
 
 $ renpy.music.set_volume(0.7, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 0.5
@@ -6846,7 +7093,8 @@ show crowd at center
 show lilly basic_surprised at center
 with locationchange
 
-hi "'Afternoon, Lilly. It's just me and Hanako."
+# hi "'Afternoon, Lilly. It's just me and Hanako."
+hi "ทิวาสวัสดิ์ลิลลี่ ฉันกับฮานาโกะเองนะ"
 
 show lilly basic_surprised at twoleft
 show crowd at bgleft
@@ -6856,85 +7104,110 @@ with dissolvecharamove
 show hanako emb_downtimid at tworight
 with charaenter
 
-"Hanako withers noticeably when exposed to the din being made around Lilly. Try as she might, I doubt she'll ever completely get over her social anxiety."
+# "Hanako withers noticeably when exposed to the din being made around Lilly. Try as she might, I doubt she'll ever completely get over her social anxiety."
+"ฮานาโกะดูห่อเหี่ยวลงอย่างเห็นได้ชัดเมื่อปะทะกับความจอแจรอบตัวลิลลี่ ต่อให้จะพยายามยังไงก็คงหายขาดจาก\nอาการตื่นคนไม่ได้แหละนะ"
 
 show hanako emb_emb at tworight
 with charaenter
 
-ha "Hello…"
+# ha "Hello…"
+ha "สวัสดี…"
 
-"Lilly manages to work out our position reasonably well, her classmate detaching herself without a second word. A look of slight exasperation is written on Lilly's face, though I can't say I blame her."
+# "Lilly manages to work out our position reasonably well, her classmate detaching herself without a second word. A look of slight exasperation is written on Lilly's face, though I can't say I blame her."
+"ลิลลี่จับตำแหน่งของเราได้แม่นทีเดียว เพื่อนร่วมชั้นของเธอคนนั้นผละตัวออกโดยไม่พูดอะไรอีก สีหน้าลิลลี่บ่งบอก\nว่าเธอหงุดหงิดเล็กน้อย แต่จะให้ว่าก็คงไม่ได้"
 
 show lilly basic_smileclosed
 with charachange
 
-li "Hello Hisao, Hanako. Do we have much time before the flight leaves?"
+# li "Hello Hisao, Hanako. Do we have much time before the flight leaves?"
+li "สวัสดีจ้ะ ฮิซาโอะ ฮานาโกะ อีกนานมั้ยกว่าเครื่องจะออก"
 
-"I give a quick glance at my watch. Taking the trip to the airport into account, there's a good ten, maybe fifteen minutes left while still allowing for contingencies."
+# "I give a quick glance at my watch. Taking the trip to the airport into account, there's a good ten, maybe fifteen minutes left while still allowing for contingencies."
+"ฉันเหลือบมองนาฬิกาข้อมือ ถ้าเผื่อเวลาเดินทางไปสนามบินแล้วจะยังเหลือเวลาสักสิบหรือไม่ก็สิบห้านาที ซึ่งเวลาที่ว่า\nนั้นเผื่อเรื่องกะทันหันอะไรไว้แล้ว"
 
-hi "Yeah, we still have a few minutes to kill. I wouldn't worry about missing it yet."
+# hi "Yeah, we still have a few minutes to kill. I wouldn't worry about missing it yet."
+hi "ยังพอมีเวลาอยู่ น่าจะยังไม่ตกเครื่องหรอก"
 
-"Classmate" "Ah, is this Hanako?"
+# "Classmate" "Ah, is this Hanako?"
+thname("เพื่อนร่วมชั้นเรียน") "อ๊ะ ฮานาโกะเหรอ"
 
-"Uh oh. I think we've just inadvertently become entangled in Lilly's social web."
+# "Uh oh. I think we've just inadvertently become entangled in Lilly's social web."
+"ตายละ ดูท่าว่าพวกเราจะเข้ามาพัวพันกับวงสังคมของลิลลี่โดยไม่ได้ตั้งใจเสียแล้ว"
 
-"The girl is probably part of the legally-blind faction of the class like Kenji, given her almost windowpane-like spectacles. Her short, roughly-cut hair gives her a look that fits her excitable expression."
+# "The girl is probably part of the legally-blind faction of the class like Kenji, given her almost windowpane-like spectacles. Her short, roughly-cut hair gives her a look that fits her excitable expression."
+"ดูจากแว่นตาที่บานใหญ่เท่าหน้าต่างแล้ว เธอคนนี้น่าจะอยู่กลุ่มตาบอดตามกฎหมายเหมือนอย่างเคนจิ ผมของเธอที่\nตัดแบบสั้น ๆ ง่าย ๆ นั้นเข้ากับสีหน้าอันตื่นเต้นของเธอ"
 
 show hanako def_shock
 with charachange
 
-ha "H-hello… um…"
+# ha "H-hello… um…"
+ha "สะ สวัสดี… เอ่อ…"
 
-"She takes Hanako's hand and pulls it up and down enthusiastically. I really don't get how girls can be so social to someone they only know as the friend of a friend."
+# "She takes Hanako's hand and pulls it up and down enthusiastically. I really don't get how girls can be so social to someone they only know as the friend of a friend."
+"เธอจับมือฮานาโกะแล้วเขย่าขึ้นลงแรง ๆ ไม่เข้าใจเลยจริง ๆ ว่าพวกผู้หญิงเข้ากับคนที่รู้จักในฐานะเพื่อนของเพื่อน\nขนาดนี้ได้ยังไง"
 
-"While Hanako exchanges nervous greetings, I look around the room for my short and overdressed next-door neighbor. Try as I might, he seems to have slipped out of the classroom without anyone noticing."
+# "While Hanako exchanges nervous greetings, I look around the room for my short and overdressed next-door neighbor. Try as I might, he seems to have slipped out of the classroom without anyone noticing."
+"ระหว่างที่ฮานาโกะกำลังทักทายเธออย่างประหม่าอยู่ฉันก็สอดส่ายสายตามองไปรอบ ๆ ห้องเพื่อหาเพื่อนข้างห้องตัวเตี้ย\nที่แต่งตัวเวอร์ ๆ คนนั้น หายังไงก็ไม่เจอเลยแฮะ สงสัยแอบหนีโดยที่ไม่มีใครทันรู้ตัวไปแล้ว"
 
-"For a moment I try to think of possible career paths that could reasonably benefit from his single skill, before putting my mind to more pertinent matters."
+# "For a moment I try to think of possible career paths that could reasonably benefit from his single skill, before putting my mind to more pertinent matters."
+"แวบหนึ่งฉันคิดดูว่าทักษะนี้ของเขาพอจะเอาไปทำอาชีพอะไรได้บ้าง จากนั้นจึงเปลี่ยนไปคิดเรื่องที่สำคัญกว่าแทน"
 
 show lilly basic_smile
 show hanako cover_distant
 with charachange
 
-"Lilly seems pleased, if somewhat guarded, about the enthusiasm Hanako's suddenly excited from those around her. She might not see it, but Hanako's much less panicked about the affair than I'd anticipated."
+# "Lilly seems pleased, if somewhat guarded, about the enthusiasm Hanako's suddenly excited from those around her. She might not see it, but Hanako's much less panicked about the affair than I'd anticipated."
+"ลิลลี่ดูพอใจและเหมือนเตรียมรับมือกับความตื่นเต้นของคนรอบตัวเธอที่มีต่อฮานาโกะ แต่ลิลลี่ไม่เห็นว่าฮานาโกะนั้น\nไม่ได้ตื่นตระหนกมากเท่าที่ฉันคาดเอาไว้ด้วยซ้ำ"
 
-"Shuffling my way through the gaggle of classmates, I eventually manage to reach her."
+# "Shuffling my way through the gaggle of classmates, I eventually manage to reach her."
+"ฉันฝ่ากลุ่มคนที่ส่งเสียงอันเซ็งแซ่นั้นไปหาลิลลี่"
 
-hi "Don't worry, Hanako's fine."
+# hi "Don't worry, Hanako's fine."
+hi "ไม่ต้องห่วงหรอก ฮานาโกะยังปกติดี"
 
 show lilly basic_weaksmile
 with charachange
 
-li "Thank you. I thought she might be overwhelmed by them."
+# li "Thank you. I thought she might be overwhelmed by them."
+li "ขอบคุณจ้ะ ฉันก็เป็นห่วงว่าฮานาโกะเขาจะกลัวไปก่อน"
 
-"Classmate" "Don't worry, we'll be gentle!"
+# "Classmate" "Don't worry, we'll be gentle!"
+thname("เพื่อนร่วมชั้นเรียน") "ไม่ต้องห่วงนะ พวกเราไม่เล่นแรงหรอก!"
 
 show lilly basic_concerned
 with charachange
 
-"Both of us grimace in unison. Hanako's nervous grin stays plastered on her face as another couple of girls moves in to meet her."
+# "Both of us grimace in unison. Hanako's nervous grin stays plastered on her face as another couple of girls moves in to meet her."
+"พวกเราสองคนทำหน้าเบ้อย่างพร้อมเพรียงกัน ฮานาโกะยังคงยิ้มแหย ๆ เมื่อมีผู้หญิงอีกสองคนเดินเข้ามาหา"
 
-"It's kind of amazing that even just a month ago she'd never have been able to cope with a situation such as this. Even when I first met her, the two of us completely alone, she sprinted from the library."
+# "It's kind of amazing that even just a month ago she'd never have been able to cope with a situation such as this. Even when I first met her, the two of us completely alone, she sprinted from the library."
+"ทึ่งดีเหมือนกัน ถ้าเป็นเมื่อเดือนก่อนฮานาโกะคงรับมือกับสถานการณ์อย่างนี้ไม่ได้แน่ ๆ ขนาดตอนเจอกันครั้งแรก\nในห้องสมุดซึ่งอยู่กันแค่สองคนยังวิ่งหนีไปเลย"
 
-hi "So, got everything you need?"
+# hi "So, got everything you need?"
+hi "แล้วเรื่องข้าวของเรียบร้อยหรือยัง"
 
 show lilly basic_smile
 with charachange
 
-li "It's all packed. I just have to go by my room to pick it up on the way, and Hanako and I need to change."
+# li "It's all packed. I just have to go by my room to pick it up on the way, and Hanako and I need to change."
+li "เก็บเรียบร้อยแล้วจ้ะ ที่เหลือก็แค่แวะไปเอาของแล้วก็เปลี่ยนเสื้อผ้าที่ห้อง เดี๋ยวฮานาโกะจะเปลี่ยนด้วย"
 
-hi "I guess we'd better get going, then. Hanako?"
+# hi "I guess we'd better get going, then. Hanako?"
+hi "งั้นก็ไปกันเลยดีกว่า ปะ ฮานาโกะ"
 
 show hanako cover_bashful
 with charachange
 
-"Hanako's head flicks up towards us in a flash, her face rather unmistakably appreciating the chance to extricate herself from the small group gathered around her."
+# "Hanako's head flicks up towards us in a flash, her face rather unmistakably appreciating the chance to extricate herself from the small group gathered around her."
+"ฮานาโกะเงยหน้าขึ้นมามองพวกเราทันที สีหน้าของเธอบ่งบอกว่าดีใจที่มีโอกาสได้ปลีกตัวจากวงล้อมเล็ก ๆ ที่อยู่\nรอบตัวเธอเสียที"
 
 show hanako basic_bashful
 with charachange
 
 stop music fadeout 2.0
 
-ha "C-coming!"
+# ha "C-coming!"
+ha "ดะ ได้!"
 
 stop ambient fadeout 0.5
 
@@ -6945,49 +7218,59 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 1.0
 play music music_tranquil fadein 3.0
 
-"The long taxi ride to the airport is surprisingly pleasant, despite the three of us being rather squashed together to fit in the small back seat. On the other hand, maybe “despite” isn't the right word."
+# "The long taxi ride to the airport is surprisingly pleasant, despite the three of us being rather squashed together to fit in the small back seat. On the other hand, maybe “despite” isn't the right word."
+"นั่งรถแท็กซี่นี่เพลินกว่าที่คิด ทั้งที่พวกเราสามคนนั่งเบียดกันอยู่เบาะหลังตัวเล็ก ๆ แท้ ๆ แต่ถ้ามองอีกมุม จะใช้คำว่า\n“ทั้งที่” ก็ไม่น่าถูก"
 
-"Lilly pays the fare to the driver as we file out, Hanako's eyes flittering left and right. Thankfully there aren't too many people around, most of them being inside the main building rather than milling around outside."
+# "Lilly pays the fare to the driver as we file out, Hanako's eyes flittering left and right. Thankfully there aren't too many people around, most of them being inside the main building rather than milling around outside."
+"ลิลลี่จ่ายค่าโดยสารระหว่างที่พวกเรากำลังลงจากรถ ฮานาโกะทำตาล่อกแล่กไปมา โชคดีที่คนไม่มาก ส่วนใหญ่คน\nจะอยู่ในอาคารกัน ไม่ได้ออกมาเดินเรื่อยเปื่อยอยู่ข้างนอก"
 
 show akira basic_boo at tworight
 show hideaki bored:
     yalign 1.0 xanchor 0.5 xpos 0.9
 with charaenter
 
-"It isn't hard to spot Akira and Hideaki leaning against a fence while talking to pass the time. A large black travel bag, complete with wheels and travel handle, leans against the fence alongside them."
+# "It isn't hard to spot Akira and Hideaki leaning against a fence while talking to pass the time. A large black travel bag, complete with wheels and travel handle, leans against the fence alongside them."
+"ไม่นานก็เห็นอากิระกับฮิเดอากิที่ยืนพิงรั้วคุยกันฆ่าเวลาอยู่ ข้าง ๆ มีกระเป๋าเดินทางใบใหญ่ที่มีล้อและมือจับ"
 
 show hideaki surprise_up
 with charachange
 
-"Hideaki's the first to notice us, pointing us out to Akira who gives an overenthusiastic wave."
+# "Hideaki's the first to notice us, pointing us out to Akira who gives an overenthusiastic wave."
+"ฮิเดอากิเห็นพวกเราก่อนแล้วชี้ ๆ ให้อากิระดู เธอโบกมือทักทายหย็อย ๆ"
 
 show akira basic_laugh
 with charachange
 
-aki "Hey! He~y!"
+# aki "Hey! He~y!"
+aki "ไง! งา~ย!"
 
-"I grab Lilly's travel bag for her as we go to meet the two, earning a nod of appreciation."
+# "I grab Lilly's travel bag for her as we go to meet the two, earning a nod of appreciation."
+"ฉันถือกระเป๋าเดินทางของลิลลี่ไว้ระหว่างที่พวกเราเดินไปหาทั้งสองคน ลิลลี่พยักหน้าเป็นการขอบคุณ"
 
 show akira basic_smile
 show hideaki normal
 with charachange
 
-aki "I've got all my stuff here, you got yours? Plane ticket as well?"
+# aki "I've got all my stuff here, you got yours? Plane ticket as well?"
+aki "พี่เอาของมาครบแล้วนะ เธอเอามาครบหรือยัง เอาตั๋วเครื่องบินมาด้วยแล้วใช่มั้ย"
 
 show lilly basic_smileclosed_cas at twoleft
 with charaenter
 
-li "Don't worry, I have everything. You?"
+# li "Don't worry, I have everything. You?"
+li "ไม่ต้องห่วง หนูเอามาครบแล้ว พี่ล่ะ"
 
 show akira basic_laugh
 with charachange
 
-aki "Yep. All ready to go."
+# aki "Yep. All ready to go."
+aki "ครบ เรียบร้อย"
 
 show hideaki evil
 with charachange
 
-hh "Not without some problems along the way, I might add."
+# hh "Not without some problems along the way, I might add."
+hh "และผมขอบอกว่าไม่ได้เรียบร้อยแบบราบรื่นด้วย"
 
 play sound sfx_impact
 
@@ -6995,53 +7278,64 @@ show akira basic_kill
 show hideaki ohshit
 with vpunch
 
-"The snide remark has his head roughly dragged around by a very firmly clamped-on hand."
+# "The snide remark has his head roughly dragged around by a very firmly clamped-on hand."
+"คำพูดอันไม่เกรงใจของฮิเดอากินั้นทำให้หัวของเขาถูกหมุนไปมาด้วยมือที่คว้าไว้แน่น"
 
 show akira basic_boo
 show hideaki sad
 with charachange
 
-aki "Haha yeah, I kinda sorta forgot it was in my trousers' pocket. Trousers that I'd put in the wash…"
+# aki "Haha yeah, I kinda sorta forgot it was in my trousers' pocket. Trousers that I'd put in the wash…"
+aki "ฮ่า ๆ อืม พอดีลืมตั๋วเครื่องบินไว้ในกระเป๋ากางเกงแล้วเอาไปซักน่ะ…"
 
 show lilly basic_concerned_cas
 with charachange
 
-li "Oh no…"
+# li "Oh no…"
+li "ตายแล้ว…"
 
 show akira basic_laugh
 with charachange
 
-aki "Don't worry, don't worry. Did you know you can print out tickets if you order online nowadays? It's really cool."
+# aki "Don't worry, don't worry. Did you know you can print out tickets if you order online nowadays? It's really cool."
+aki "ไม่ต้องห่วง ๆ รู้มั้ยเดี๋ยวนี้ถ้าซื้อตั๋วออนไลน์แล้วจะปรินต์เมื่อไหร่ก็ได้น่ะ เจ๋งมากเลย"
 
 show hideaki bored
 with charachange
 
-"Hideaki's pained expression says that this wasn't a solution found quickly. It could have been worse, I guess."
+# "Hideaki's pained expression says that this wasn't a solution found quickly. It could have been worse, I guess."
+"พอเห็นฮิเดอากิที่ทำหน้าเอือม ๆ อยู่ก็รู้ว่าคงไม่ได้คิดได้อย่างนี้แต่แรก ก็ยังดีที่มีทางแก้ละนะ"
 
 show lilly basic_weaksmile_cas
 with charachange
 
-li "We'd better start off then. Check-in should be ready by now."
+# li "We'd better start off then. Check-in should be ready by now."
+li "งั้นไปกันเลยดีกว่า น่าจะเช็กอินได้แล้ว"
 
 show akira basic_lost
 with charachange
 
 stop music fadeout 2.0
 
-aki "Yeah, you're right."
+# aki "Yeah, you're right."
+aki "อื้ม นั่นสินะ"
 
-"There's a certain amount of wistfulness in both their voices. To say nothing of the people left behind, meeting their family again after all these years would be big for them."
+# "There's a certain amount of wistfulness in both their voices. To say nothing of the people left behind, meeting their family again after all these years would be big for them."
+"น้ำเสียงของทั้งสองคนฟังดูเศร้าสร้อยพอสมควร การได้เจอครอบครัวอีกครั้งในรอบหลายปีคงเป็นเรื่องสำคัญอยู่แล้ว\nยิ่งไม่ต้องพูดถึงคนที่อยู่อีกฝั่งเลย"
 
 show hanako emb_sad_cas at center
 with charaenter
 
 play music music_serene fadein 4.0
 
-ha "Lilly…"
+# ha "Lilly…"
+ha "ลิลลี่…"
 
-"Hanako wraps Lilly in a gentle hug to say goodbye, one which is warmly reciprocated. Lilly and I share a brief hug afterward, each of us saying our goodbyes."
+# "Hanako wraps Lilly in a gentle hug to say goodbye, one which is warmly reciprocated. Lilly and I share a brief hug afterward, each of us saying our goodbyes."
+"ฮานาโกะกอดลิลลี่เป็นการอำลา และลิลลี่ก็กอดกลับอย่างอบอุ่น จากนั้นฉันกับลิลลี่ก็กอดกันไม่นานมากแล้วบอกลา"
 
-"Beside us, Akira and Hideaki break off from a small hug and a word or two between them. It would probably look quite nice if not for the almost comical height difference between the two."
+# "Beside us, Akira and Hideaki break off from a small hug and a word or two between them. It would probably look quite nice if not for the almost comical height difference between the two."
+"นอกจากพวกเราแล้วก็ยังมีอากิระกับฮิเดอากิที่กอดกันเบา ๆ แล้วคุยกันสองสามคำก่อนจะผละจากกัน ก็คงจะเป็นภาพ\nที่ดีอยู่หรอก ถ้าไม่ติดที่ว่าส่วนสูงสองคนนี้ต่างกันจนดูตลกน่ะนะ"
 
 show lilly basic_smile_cas
 show akira basic_smile
@@ -7049,34 +7343,42 @@ show hanako emb_downtimid_cas
 show hideaki normal
 with charachange
 
-"Lilly takes ahold of her sister's arm once all that needs to be said in farewells is said, the two walking past the huge glass doors."
+# "Lilly takes ahold of her sister's arm once all that needs to be said in farewells is said, the two walking past the huge glass doors."
+"ลิลลี่จับแขนพี่สาวของเธอไว้เมื่อทุกคนต่างร่ำลากันเรียบร้อยแล้ว ทั้งสองคนเดินผ่านประตูกระจกบานใหญ่ไป"
 
 show lilly back_smileclosed_cas
 with charachange
 
-li "Goodbye Hisao, Hanako!"
+# li "Goodbye Hisao, Hanako!"
+li "ลาก่อนนะ ฮิซาโอะ ฮานาโกะ!"
 
 show akira basic_laugh
 with charachange
 
-aki "Seeya! Don't do anything stupid, Shortie!"
+# aki "Seeya! Don't do anything stupid, Shortie!"
+aki "เจอกัน! อย่าไปทำอะไรโง่ ๆ เข้าละ เจ้าเตี้ย!"
 
 hide lilly
 hide akira
 with charaexit
 
-"We wave at them until they disappear from sight in the throng of people moving about inside."
+# "We wave at them until they disappear from sight in the throng of people moving about inside."
+"พวกเราโบกมือลาไปจนทั้งสองคนกลืนหายไปกับฝูงชนที่เดินขวักไขว่อยู่ข้างใน"
 
-"And then… we're alone."
+# "And then… we're alone."
+"แล้ว… ก็เหลือเพียงเรา"
 
-hi "Well… that's that."
+# hi "Well… that's that."
+hi "ก็… ไปกันแล้วละ"
 
 show hideaki bored
 with charachange
 
-"I turn to see Hideaki already beginning to walk off."
+# "I turn to see Hideaki already beginning to walk off."
+"ฉันหันไปมองฮิเดอากิที่เดินนำออกไปก่อนแล้ว"
 
-hi "Seeya."
+# hi "Seeya."
+hi "เจอกัน"
 
 show hideaki bored_up
 with charachange
@@ -7088,38 +7390,50 @@ with dissolvecharamove
 hide hideaki
 with None
 
-"He throws a hand into the air, in a manner I'd expect of Akira. In the end, it's just Hanako and me left standing outside."
+# "He throws a hand into the air, in a manner I'd expect of Akira. In the end, it's just Hanako and me left standing outside."
+"เขายกมือลาด้วยท่าทางที่อากิระน่าจะเป็นคนทำมากกว่า จนสุดท้ายก็เหลือแค่ฉันกับฮานาโกะที่ยังยืนอยู่ที่เดิม"
 
 show hanako emb_timid_cas
 with charachange
 
-"I rest my hand on her shoulder. She absentmindedly gazes towards the front doors of the building, as if she might catch a glimpse of either of the two before they disappear."
+# "I rest my hand on her shoulder. She absentmindedly gazes towards the front doors of the building, as if she might catch a glimpse of either of the two before they disappear."
+"ฉันเอามือวางไว้กับไหล่ของฮานาโกะที่เหม่อมองไปทางประตูหน้าอาคารราวกับว่าจะได้เห็นภาพใครสักคนจากสองคนนั้น\nแบบราง ๆ ก่อนภาพนั้นจะหายไป"
 
-hi "Don't worry, the time'll pass fast."
+# hi "Don't worry, the time'll pass fast."
+hi "ไม่ต้องห่วงหรอก เดี๋ยวเดียวเวลาก็ผ่านไปแล้ว"
 
 show hanako basic_normal_cas
 with charachange
 
-"She hesitates for a moment, but eventually nods."
+# "She hesitates for a moment, but eventually nods."
+"ฮานาโกะลังเลอยู่ครู่หนึ่งก่อนจะพยักหน้า"
 
-"With the scorching heat of the summer sun beaming down on us, we make our way to the nearby bus stop."
+# "With the scorching heat of the summer sun beaming down on us, we make our way to the nearby bus stop."
+"พวกเราเดินไปที่ป้ายจอดรถที่อยู่ในละแวกนั้นท่ามกลางแดดฤดูร้อนที่สาดส่องแผดเผา"
 
 hide hanako
 with charaexit
 
-"It's strange, really. Just when I'd begun to see Lilly differently, she leaves on what almost feels like a pilgrimage to the past."
+# "It's strange, really. Just when I'd begun to see Lilly differently, she leaves on what almost feels like a pilgrimage to the past."
+"เอาเข้าจริง ๆ ก็แปลกเหมือนกัน พอได้เริ่มมองลิลลี่ในอีกมุมแล้ว เธอก็ออกเดินทางไปตามเส้นทางที่คล้ายเป็นการ\nย้อนรอยอดีต"
 
-"In a way, though, that's just what I've been doing since coming to Yamaku."
+# "In a way, though, that's just what I've been doing since coming to Yamaku."
+"แต่ในแง่หนึ่ง ฉันเองก็กำลังย้อนรอยอดีตตั้งแต่ตอนที่เข้าโรงเรียนนี้มาเหมือนกัน"
 
-"As much as I may reflect on everything that's happened to me, I really am hardly unique. Everyone has their own circumstances and separate paths to get where they are now."
+# "As much as I may reflect on everything that's happened to me, I really am hardly unique. Everyone has their own circumstances and separate paths to get where they are now."
+"แม้ฉันจะย้อนคะนึงถึงสิ่งต่าง ๆ ที่เกิดขึ้นในชีวิตฉัน แต่ก็ไม่ได้มีเพียงฉันคนเดียวที่เป็นเช่นนี้ ทุกคนต่างมีสถานการณ์\nและเส้นทางแปลกแยกต่าง ๆ ที่นำพาให้พวกเขาได้มาเป็นตัวเขาในตอนนี้"
 
-"Yet I still can't really work out how I should proceed. My life may have practically been reset, and I still can't find anything that satisfactorily fills the hole I still feel in myself."
+# "Yet I still can't really work out how I should proceed. My life may have practically been reset, and I still can't find anything that satisfactorily fills the hole I still feel in myself."
+"ทว่าฉันก็ยังนึกหาหนทางของตัวเองที่จะไปต่อจากนี้ไม่ได้ อาจนับได้ว่าชีวิตฉันต้องตั้งต้นจากศูนย์ใหม่ และฉันเอง\nก็ไม่อาจหาอะไรที่พอจะใช้มาเติมเต็มช่องว่างในหัวใจของฉันตอนนี้ได้"
 
-"Maybe Lilly's leaving will be a good thing for me. Without her to lean on, I'll need to do more for myself. I'll have to be there for Hanako as well."
+# "Maybe Lilly's leaving will be a good thing for me. Without her to lean on, I'll need to do more for myself. I'll have to be there for Hanako as well."
+"บางทีการออกเดินทางของลิลลี่อาจส่งผลดีต่อตัวฉัน เพราะเมื่อไม่มีเธอให้พึ่งแล้ว ฉันจะต้องยืนหยัดด้วยตัวเอง และต้อง\nเป็นที่พึ่งให้ฮานาโกะอีกด้วย"
 
-"It feels strange to have so much changing so quickly after my months in that hospital that seemed to exist so separately from reality, but that's all the more reason for me to keep focused."
+# "It feels strange to have so much changing so quickly after my months in that hospital that seemed to exist so separately from reality, but that's all the more reason for me to keep focused."
+"รู้สึกแปลกเหมือนกันที่อะไร ๆ เปลี่ยนแปลงไปรวดเร็วขนาดนี้ นับตั้งแต่ช่วงหลายเดือนตอนที่อยู่ในโรงพยาบาลที่ดู\nคล้ายจะเป็นคนละโลกกับโลกความเป็นจริง แต่แบบนี้แหละฉันยิ่งต้องตั้งใจเลย"
 
-"I can't let any opportunity slip out of my fingers in my attempt to rebuild my life."
+# "I can't let any opportunity slip out of my fingers in my attempt to rebuild my life."
+"ฉันจะปล่อยให้โอกาสใด ๆ ที่จะได้ก่อชีวิตตัวเองขึ้นใหม่อีกครั้งให้หลุดมือไปไม่ได้"
 
 stop music fadeout 3.0
 stop ambient fadeout 3.0
