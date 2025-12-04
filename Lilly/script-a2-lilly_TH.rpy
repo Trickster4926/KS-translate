@@ -267,7 +267,7 @@ show hanako defarms_strain
 with charachange
 
 # ha "Hi… Hisao?"
-hi "ฮิ… ฮิซาโอะ?"
+ha "ฮิ… ฮิซาโอะ?"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play music music_normal fadein 2.0
@@ -276,7 +276,7 @@ show hanako emb_blushtimid
 with charachange
 
 # ha "I mean… um… hello, Hisao…"
-hi "ไม่สิ… เอ่อ… สวัสดี ฮิซาโอะ…"
+ha "ไม่สิ… เอ่อ… สวัสดี ฮิซาโอะ…"
 
 # hi "Hi. Sorry if I startled you."
 hi "ไง ถ้าตกใจก็ขอโทษทีนะ"
@@ -707,7 +707,7 @@ show ev lilly_touch_uni
 with GenericWhiteout(0.5,0.1,3.0)
 
 # "Lilly raises her right hand, which I take in mine and guide to my face before letting go."
-"ลิลลี่ยกมือขวาขึ้นมือ ฉันจับมือเธอดึงมาแตะที่หน้าฉันเบา ๆ แล้วปล่อยมือ"
+"ลิลลี่ยกมือขวาขึ้นมา ฉันจับมือเธอดึงมาแตะที่หน้าฉันเบา ๆ แล้วปล่อยมือ"
 
 # "The room is entirely silent as Lilly's hand moves over and around my features, from my chin, to my cheeks, to everywhere else."
 "มีเพียงความเงียบในห้อง มือของลิลลี่ขยับไปรอบ ๆ ใบหน้าของฉัน ตั้งแต่คาง ขึ้นมาที่จมูก และที่อื่น ๆ บนใบหน้า"
@@ -720,7 +720,7 @@ with GenericWhiteout(0.5,0.1,3.0)
 "มือของเธอนั้นนิ่ม แต่ที่ทำให้ฉันตกใจคือความยาวนิ้วเธอ และเธอสัมผัสได้แผ่วเบามากเสียจนไม่รู้ว่าเธอรู้สึกจริง ๆ\nหรือเปล่า ไม่ต้องสงสัยเลยว่าประสาทการสัมผัสของเธอนั้นคงดีกว่าฉันหลายเท่าตัว"
 
 # "Her hand briefly runs once through my hair before retreating. I'm sure that every inch of my face has been committed to her memory. It's only now, too, that I realize Hanako has been silently watching the entire time."
-"เธอสางผมฉันหนึ่งครั้งก่อนจะถอนมือออกไป ทุกตารางนิ้วบนใบหน้าฉันคงถูกบนทึกไว้ในความทรงจำเธอหมดแล้วเป็นแน่แท้ และฉันก็เพิ่งจะรู้ตัวว่าเมื่อกี้ฮานาโกะคอยมองอยู่เงียบ ๆ มาตลอด"
+"เธอสางผมฉันหนึ่งครั้งก่อนจะถอนมือออกไป ทุกตารางนิ้วบนใบหน้าฉันคงถูกบันทึกไว้ในความทรงจำเธอหมดแล้วเป็นแน่แท้ และฉันก็เพิ่งจะรู้ตัวว่าเมื่อกี้ฮานาโกะคอยมองอยู่เงียบ ๆ มาตลอด"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -1703,7 +1703,7 @@ with charaenter
 "ฉันยกมือโบกให้อากิระหันมา"
 
 # hi "Satou! Hey, Satou!"
-hi "ซาโต้! นี่ ซาโต้!"
+hi "คุณซาโต้! ทางนี้ คุณซาโต้!"
 
 show akira basic_smile
 with charachange
@@ -2916,7 +2916,7 @@ show hanagown normal_blush
 with charachange
 
 # $ doublespeak (li, hi, "Happy birthday!")
-doublespeak (li,hi "สุขสันต์วันเกิด!")
+$ doublespeak (li, hi, "สุขสันต์วันเกิด!")
 
 # "Hanako silently sits looking at them for seconds on end, out of sheer surprise."
 "ฮานาโกะนั่งนิ่งมองของขวัญอยู่นานหลายวินาทีด้วยความประหลาดใจ"
@@ -3365,7 +3365,7 @@ show lilly basic_oops_paj
 with charachange
 
 # li "So soon? But you only just arrived…"
-li "จะไปแล้วเหรอ แต่พี่พึ่งมา…"
+li "จะไปแล้วเหรอ แต่พี่เพิ่งมา…"
 
 show akira basic_resigned
 with charachange
@@ -4554,7 +4554,7 @@ with charachange
 ha "อะ เอ่อ… ฉันจะเอานี่… มาให้นาย…"
 
 # hi "Hmm?"
-hi ""
+hi "หืม?"
 
 show hanako basic_worry
 with charachange
@@ -4672,7 +4672,7 @@ scene bg school_road_ss
 with locationchange
 
 # "I make a right turn and start my way towards the small town below, leaving a few students turning the other way to the bus station."
-"ฉันเลี้ยวขวาแล้วเดินมายังเมืองเล็ก ๆ ที่อยู่ด้านล่าง โดยที่ข้างหลังมีนักเรียนอยู่สองสามคนที่จะไปสถานีรถบัสซึ่งเลี้ยวไปอีกทาง"
+"ฉันเลี้ยวขวาแล้วเดินมายังเมืองเล็ก ๆ ที่อยู่ด้านล่าง โดยที่ข้างหลังมีนักเรียนอยู่สองสามคนที่จะไปสถานีรถบัสซึ่งเลี้ยวไป\nอีกทาง"
 
 # "I slip my right hand into my pocket as I walk in the orange sunlight of dusk."
 "ฉันล้วงกระเป๋ากางเกงเดินไปตามแสงอาทิตย์อัสดงสีส้ม"
@@ -4917,7 +4917,7 @@ show lilly cane_sleepy_ss
 with charachange
 
 # li "You do worry me sometimes."
-li "บางทีเห็นสภาพเธอแล้วฉันก็เป็นห่วงนะ"
+li "บางทีฟังดูสภาพเธอแล้วฉันก็เป็นห่วงนะ"
 
 # hi "I… worry you?"
 hi "เป็นห่วง… ฉัน?"
@@ -5642,7 +5642,7 @@ n "\n\n\nแม้ก่อนหน้านี้จะยังนึกไ�
 n "จดหมายนั้นจะทิ้งระยะระหว่างผู้ส่งกับผู้รับไว้ได้ในระยะที่พอดี ซึ่งไม่เหมือนกับโทรศัพท์ที่ต้องพูดคุยสนทนากัน และ\nไม่เหมือนกับอีเมลที่จะต้องตอบในทันที"
 
 # n "\nStatements such as “the third-years seem to be very anxious about the final exams,” and “it's so weird to think we are already seniors, isn't it?” are just smalltalk. Smalltalk that could have been achieved by simply replying to any of the messages I'd sent her while in hospital."
-n "\nประโยคจำพวก “นักเรียนม. 6 ดูจะเครียดเรื่องสอบปลายภาคกัน” กับ “แปลกเนอะ รู้ตัวอีกทีก็ม. 6 แล้ว” นั้นเป็นเพียง\nแค่การคุยเรื่อยเปื่อยเท่านั้น ซึ่งเป็นการคุยเรื่อยเปื่อยที่ถ้าเธอตอบข้อความที่ส่งไปหาตอนฉันอยู่ในโรงพยาลก็คุยได้"
+n "\nประโยคจำพวก “นักเรียนม. 6 ดูจะเครียดเรื่องสอบปลายภาคกัน” กับ “แปลกเนอะ รู้ตัวอีกทีก็ม. 6 แล้ว” นั้นเป็นเพียง\nแค่การคุยเรื่อยเปื่อยเท่านั้น ซึ่งเป็นการคุยเรื่อยเปื่อยที่ถ้าเธอตอบข้อความที่ส่งไปหาตอนฉันอยู่ในโรงพยาบาลก็คุยได้"
 
 # n "The ending, though, is the true reason she sent this. The last couple of lines, added almost as an afterthought."
 n "แต่ส่วนท้ายของจดหมายต่างหากคือเหตุผลที่แท้จริงที่เธอส่งจดหมายฉบับนี้มา สองบรรทัดสุดท้ายที่ใส่มาราวกับ\nเป็นการทิ้งทวน"
