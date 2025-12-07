@@ -667,7 +667,7 @@ show lilly basic_smile
 with charachange
 
 # li "Besides, if you were to accompany me on my way back to the school, who would keep our poor Hisao company?"
-li "นอกจากนี้ ถ้าเธอจะเดินไปเป็นเพื่อนฉันระหว่างทางกลับโรงเรียน แล้วใครจะอยู่เป็นเพื่อนฮิซาโอะผู้น่าสงสารของเราล่ะ?"
+li "นอกจากนี้ ถ้าเธอจะเดินไปเป็นเพื่อนฉันระหว่างทางกลับโรงเรียน แล้วใครจะอยู่เป็นเพื่อนฮิซาโอะผู้น่าสงสารของเราล่ะ"
 
 show hanako basic_normal_close
 with charachange
@@ -702,16 +702,16 @@ show hanako basic_normal_close:
 with charamove
 
 # "And then… we're alone. It may be all well and good to leave Hanako and me alone to have some time together, but all it typically means is the two of us sitting near each other in silence for a while."
-"เช่นนั้นแล้ว… ก็เหลือแค่เราสองคน ปล่อยให้พวกเราอยู่ตามลำพังมันก็ดีหรอก แต่ก็แปลว่าพวกเราจะนั่งเงียบ ๆ โดยไม่พูดอะไรไปสักพักเลยละ"
+"เช่นนั้นแล้ว… ก็เหลือแค่เราสองคน ปล่อยให้พวกเราอยู่ตามลำพังมันก็ดีหรอก แต่ก็แปลว่าพวกเราจะนั่งเงียบ ๆ \nโดยไม่พูดอะไรไปสักพักเลยละ"
 
 # "I wonder what I must look like to Hanako. I never thought of myself as a scary person, but to have someone my own age acting this way around me makes me intensely self-aware, as if it's my fault that she's so troubled."
-"ฮานาโกะจะมองว่าฉันเป็นคนยังไงกันนะ ถึงฉันจะไม่เคยคิดว่าตัวเองเป็นคนน่ากลัว แต่พอมีคนรุ่นราวคราวเดียวกับฉันมาทำตัวอย่างนี้ตอนได้อยู่ด้วยกันแล้วก็เกร็งมาก ๆ เพราะรู้สึกอย่างกับว่าฉันเป็นต้นเหตุที่ทำให้ฮานาโกะรู้สึกอึดอัด"
+"ฮานาโกะจะมองว่าฉันเป็นคนยังไงกันนะ ถึงฉันจะไม่เคยคิดว่าตัวเองเป็นคนน่ากลัว แต่พอมีคนรุ่นราวคราวเดียวกับฉันมา\nทำตัวอย่างนี้ตอนได้อยู่ด้วยกันแล้วก็เกร็งมาก ๆ เพราะรู้สึกอย่างกับว่าฉันเป็นต้นเหตุที่ทำให้ฮานาโกะรู้สึกอึดอัด"
 
 # "She might get more used to people if she were to stop being so cloistered in Yamaku, but then again… when even people much older than her react so strongly after a single glance at her face, she may well feel the same way I do now."
-"ถ้าฮานาโกะออกไปอยู่ที่อื่นที่ไม่ใช่ยามากุแล้วอาจจะชินกับคนขึ้นมาบ้าง แต่ก็นะ… ในเมื่อขนาดคนที่แก่กว่าเธอไปหลายปีแค่เห็นหน้าเธอแบบผ่าน ๆ ยังออกอาการชัดเลย ฮานาโกะก็คงรู้สึกเหมือนอย่างเดียวกันกับฉันนั่นแหละ"
+"ถ้าฮานาโกะออกไปอยู่ที่อื่นที่ไม่ใช่ยามากุแล้วอาจจะชินกับคนขึ้นมาบ้าง แต่ก็นะ… ในเมื่อขนาดคนที่แก่กว่าเธอไปหลายปี\nแค่เห็นหน้าเธอแบบผ่าน ๆ ยังออกอาการชัดเลย ฮานาโกะก็คงรู้สึกเหมือนอย่างเดียวกันกับฉันนั่นแหละ"
 
 # "It's a real catch-22. If she stays in Yamaku, she won't get used to socializing, but if she leaves, any efforts she might try would get thrown back at her by the people who can't deal with her scarring."
-"ซึ่งไม่ว่าจะทางไหนก็จะกลับมาที่ปัญหาเดิมอยู่ดี ถ้าฮานาโกะยังอยู่ที่ยามากุก็จะไม่ชินกับการเข้าสังคม แต่ถ้าไปอยู่ที่อื่น ต่อให้จะพยายามแล้วแต่ก็อาจจะถูกคนที่รับกับแผลเป็นของเธอไม่ได้กีดกันอยู่ดี"
+"ซึ่งไม่ว่าจะทางไหนก็จะกลับมาที่ปัญหาเดิมอยู่ดี ถ้าฮานาโกะยังอยู่ที่ยามากุก็จะไม่ชินกับการเข้าสังคม แต่ถ้าไปอยู่ที่อื่น\nต่อให้จะพยายามแล้วแต่ก็อาจจะถูกคนที่รับกับแผลเป็นของเธอไม่ได้กีดกันอยู่ดี"
 
 # hi "Want to order something else to keep us going? We haven't had much of a dinner, after all."
 hi "จะสั่งอะไรเพิ่มเพื่อนั่งต่อไหม? ไหน ๆ พวกเราก็ยังไม่ได้กินข้าวเย็นอยู่ด้วย"
@@ -720,7 +720,7 @@ show hanako basic_smile_close
 with charachange
 
 # "Hanako brightens and nods vigorously, glad that I brought up the topic for her. I catch Yuuko's gaze, and she dutifully comes over to take our orders."
-"ฮานาโกะยิ้มแล้วพยักหน้าหงึก ๆ ด้วยความดีใจที่ฉันชวนคุยเรื่องนี้ ฉันสบตากับยูโกะ แล้วเธอก็เดินเข้ามารับรายการของเราอย่างตั้งใจ"
+"ฮานาโกะยิ้มแล้วพยักหน้าหงึก ๆ ด้วยความดีใจที่ฉันชวนคุยเรื่องนี้ ฉันสบตากับยูโกะ แล้วเธอก็เดินเข้ามารับรายการ\nของเราอย่างตั้งใจ"
 
 scene bg suburb_shanghaiint at bgright
 show hanako basic_smile_close:
@@ -747,14 +747,14 @@ hide yuukoshang
 with charaexit
 
 # "With a nod and a bow, Yuuko turns on the ball of her foot and returns behind the counter, where she busies herself fishing out bread and condiments and working the machine to make our drinks."
-"ยูโกะพยักหน้าแล้วโค้งตัวก่อนจะหมุนตัวเดินกลับไปที่เคาน์เตอร์เพื่อจัดแจงบรรดาขนมปังกับซอสต่าง ๆ และชงเครื่องดื่มให้พวกเรา"
+"ยูโกะพยักหน้าแล้วโค้งตัวก่อนจะหมุนตัวเดินกลับไปที่เคาน์เตอร์เพื่อจัดแจงบรรดาขนมปังกับซอสต่าง ๆ และชงเครื่องดื่ม\nให้พวกเรา"
 
 show yuukoshang smile_up at twoleft
 show hanako basic_bashful_close
 with charaenter
 
 # "Not a word is said between us until Yuuko comes back. She smiles and gives us our food and drinks, before moving to a customer who's called for her attention."
-"ระหว่างเราไม่มีใครพูดอะไรออกมาจนยูโกะกลับมา เธอยิ้มและเสิร์ฟอาหารและเครื่องดื่มของเรา ก่อนที่จะไปหาลูกค้าที่เรียกเธอต่อ"
+"พวกเราไม่ได้คุยอะไรต่ออีกจนยูโกะกลับมา เธอยิ้มและเสิร์ฟอาหารและเครื่องดื่มของเรา ก่อนที่จะไปหาลูกค้าที่เรียกเธอต่อ"
 
 hide yuukoshang
 with charaexit
@@ -769,13 +769,13 @@ with dissolvecharamove
 "ฉันไม่คาดหวังต่อแล้วว่าจะได้คุยอะไรมากมายกับเพื่อนร่วมโต๊ะคนนี้แล้วกินข้าวไปสบาย ๆ แม้จะไม่ใช่มื้อหรูหราอะไรก็ตาม"
 
 # "It tastes nice, as does most of the food here. After having a few mouthfuls, I notice something's missing. Namely, the sound of Hanako eating."
-"ซึ่งก็อร่อยดี อาหารส่วนใหญ่ที่นี่ก็อร่อยเหมือนกัน หลังจากกินไปสองสามคำ ฉันก็รู้สึกว่ายังขาดอะไรบางอย่างไป นั่นคือเสียงฮานาโกะที่กำลังกิน"
+"ซึ่งก็อร่อยดี อาหารส่วนใหญ่ที่นี่ก็อร่อยเหมือนกัน หลังจากกินไปสองสามคำ ฉันก็รู้สึกว่ายังขาดอะไรบางอย่างไป\nนั่นคือเสียงฮานาโกะที่กำลังกิน"
 
 show hanako basic_distant_close
 with charachange
 
 # "Looking back to her, I see Hanako fidgeting a little behind her untouched sandwich."
-"พอมองกลับไปยังเธอ ก็เห็นฮานาโกะกำลังนั่งอยู่ไม่สุขข้างหลังแซนด์วิชที่เธอยังไม่ได้กิน"
+"พอมองกลับไปยังเธอ ก็เห็นฮานาโกะกำลังนั่งอยู่ไม่สุขข้างหลังแซนด์วิชที่เธอยังไม่ได้แตะ"
 
 # hi "Not hungry?"
 hi "ยังไม่หิวเหรอ"
@@ -784,10 +784,10 @@ show hanako cover_worry_close
 with charachange
 
 # "She shakes her head from side to side. Even as she does, the patch of hair she keeps over the right side of her face still does its job in hiding it almost entirely."
-"เธอส่ายหัวไปมา แต่ถึงแม้เธอจะทำเช่นนั้น ผมที่ปรกใบหน้าส่วนขวาของเธอก็ยังคงทำหน้าที่ปกปิดแผลไว้ได้เกือบทั้งหมดอยู่ดี"
+"เธอส่ายหัวไปมา แต่ถึงเธอจะทำอย่างนั้น ผมที่ปรกใบหน้าส่วนขวาของเธอก็ยังคงทำหน้าที่ปกปิดแผลไว้ได้เกือบทั้งหมดอยู่ดี"
 
 # ha "I-it's not that."
-ha "มะ-ไม่ใช่อย่างนั้น"
+ha "ปะ-เปล่าหรอก"
 
 # hi "Aw. I was all ready to have your share, too."
 hi "โห่ ฉันกะว่าจะกินส่วนของเธอสักหน่อย"
@@ -798,58 +798,77 @@ with charachange
 # ha "You looked… t-troubled. I-is something… w-wrong?"
 ha "นายดู… ละ-ลำบากใจนะ มะ-มีอะไรหรือปะ-เปล่า?"
 
-"I'm startled by her thinking that I'm the one who looks troubled, but on second thought, she's probably right. My face may have given away my emotions without me noticing, and she's hardly a dim person; quite the opposite."
+# "I'm startled by her thinking that I'm the one who looks troubled, but on second thought, she's probably right. My face may have given away my emotions without me noticing, and she's hardly a dim person; quite the opposite."
+"ฉันประหลาดใจที่เธอคิดว่าฉันนี่แหละที่ดูไม่สบายใจ แต่พอมาทบทวนดูแล้ว เธอก็น่าจะพูดถูก ใบหน้าฉันอาจจะเผย\nความรู้สึกออกมาโดยไม่รู้ตัวก็ได้ และเธอก็ไม่ใช่คนที่จะมองข้ามเรื่องพวกนี้เลย กลับกัน เธอเป็นคนช่างสังเกตด้วยซ้ำ"
 
-hi "We're friends, right?"
+# hi "We're friends, right?"
+hi "พวกเราเป็นเพื่อนกันนี่ ใช่ไหม"
 
 show hanako emb_downsad_close
 with charachange
 
-ha "Friends…"
+# ha "Friends…"
+ha "เพื่อน…"
 
-"From the tone of her voice and shrinking posture, it looks as though I've hit yet another landmine."
+# "From the tone of her voice and shrinking posture, it looks as though I've hit yet another landmine."
+"จากน้ำเสียงและท่าทีที่เธอห่อตัวลง ดูเหมือนว่าฉันพลาดไปอีกรอบละ"
 
-"This is another reason why interacting with her is difficult; the self-imposed psychological barriers she puts up between herself and others, including me and, most likely, even Lilly. It's a shame that—"
+# "This is another reason why interacting with her is difficult; the self-imposed psychological barriers she puts up between herself and others, including me and, most likely, even Lilly. It's a shame that—"
+"นี่เป็นอีกเหตุผลหนึ่งที่การมีปฏิสัมพันธ์กับเธอมันเป็นเรื่องยาก เพราะกำแพงทางจิตใจที่เธอก่อขึ้นระหว่างตัวเองกับคนอื่น\nซึ่งรวมถึงฉัน และน่าจะรวมถึงลิลลี่ด้วยซ้ำ น่าเสียดายที่—"
 
 show hanako basic_bashful_close
 with charachange
 
-ha "I-I think th-that we are…"
+# ha "I-I think th-that we are…"
+ha "กะ-ก็ คงงะ-งั้น นั่นแหละ…"
 
-"I'm a little taken off guard by Hanako's straightforward answer, all the more so since I was about to give up on getting any reply at all."
+# "I'm a little taken off guard by Hanako's straightforward answer, all the more so since I was about to give up on getting any reply at all."
+"คำตอบตรง ๆ ของฮานาโกะทำให้ฉันตั้งตัวไม่ทันหน่อย ๆ ยิ่งไปกว่านั้นคือ ฉันเกือบจะถอดใจว่าจะไม่ได้คำตอบอะไรเลยด้วยซ้ำ"
 
-hi "I see…"
+# hi "I see…"
+hi "นั่นสินะ…"
 
 show hanako basic_worry_close
 with charachange
 
-ha "A-am I wrong? S-sorry, I-I…"
+# ha "A-am I wrong? S-sorry, I-I…"
+ha "ฉะ-ฉันพูดอะไรผิดไปหรือเปล่า? ขะ-ขอโทษที พะ-พอดีฉัน…"
 
-hi "No, it's just… hearing confirmation of that from you is reassuring."
+# hi "No, it's just… hearing confirmation of that from you is reassuring."
+hi "เปล่า ๆ ก็แค่… พอได้ยินเธอว่างั้นก็โล่งใจ"
 
-hi "To pick up on what you said earlier: since coming to Yamaku, I've been a bit uneasy about how I should relate with others."
+# hi "To pick up on what you said earlier: since coming to Yamaku, I've been a bit uneasy about how I should relate with others."
+hi "แล้วก็ ที่เธอถามก่อนหน้านี้ก็ ตั้งแต่ที่ฉันเข้ามาที่ยามากุ ก็ลำบากใจนิดหน่อยเรื่องจะเข้ากับคนอื่นยังไงน่ะ"
 
-"I find myself chuckling a little. It's surprising how much of a relief that was. I can feel my face smiling as I pick up my cup of hot chocolate and bring it to my lips."
+# "I find myself chuckling a little. It's surprising how much of a relief that was. I can feel my face smiling as I pick up my cup of hot chocolate and bring it to my lips."
+"ฉันอดหัวเราะเล็กน้อยไม่ได้ น่าแปลกที่การได้ยินเธอพูดแบบแบบนั้นทำให้โล่งใจมากแค่ไหน ฉันรู้สึกว่าใบหน้าของตัวเอง\nกำลังยิ้มขณะที่หยิบแก้วช็อกโกแลตร้อนขึ้นมาจิบ"
 
-hi "Ouch! That's hot…"
+# hi "Ouch! That's hot…"
+hi "โอ๊ย! ร้อน…"
 
 show hanako emb_downsmile_close
 with charachange
 
-ha "Th-that's why…"
+# ha "Th-that's why…"
+ha "นะ-นั่นแหละว่าทำไม…"
 
 show hanako emb_smile_close
 with charachange
 
-ha "That's why I haven't eaten yet. I-I was waiting… for my drink to cool down first."
+# ha "That's why I haven't eaten yet. I-I was waiting… for my drink to cool down first."
+ha "ว่าทำไมฉันถึงยังไม่กิน พะ-เพราะฉันว่าจะรอ… ให้เครื่องดื่มเย็นลงก่อนน่ะ"
 
-hi "I guess I'll wait, then."
+# hi "I guess I'll wait, then."
+hi "งั้นเดี๋ยวฉันก็รอด้วยละกัน"
 
-"The both of us share a little chuckle. The situation isn't really that funny, but for some reason… it feels like laughing is the most natural thing to do right now."
+# "The both of us share a little chuckle. The situation isn't really that funny, but for some reason… it feels like laughing is the most natural thing to do right now."
+"เราสองคนหัวเราะออกมาพร้อมกันเบา ๆ จริง ๆ ก็ไม่ได้ตลกอะไรขนาดนั้นหรอก แต่ด้วยเหตุผลบางอย่าง… รู้สึกว่า\nการหัวเราะเป็นสิ่งที่ธรรมชาติที่สุดที่จะทำในตอนนี้"
 
-"I guess we were both a bit wound up about each other. I was so busy thinking Hanako was the one with something wrong, it took her to remind me that I was uneasy as well."
+# "I guess we were both a bit wound up about each other. I was so busy thinking Hanako was the one with something wrong, it took her to remind me that I was uneasy as well."
+"ฉันเดาว่าเราทั้งคู่ต่างก็มีความกังวลต่อกันหน่อย ๆ ฉันมัวแต่ยุ่งอยู่กับการคิดว่าฮานาโกะเป็นคนที่มีบางอย่างผิดปกติ\nจนกระทั่งเธอเข้ามาเตือนฉันว่าตัวฉันเองก็รู้สึกไม่สบายใจเช่นกัน"
 
-"But be that as it may… it still feels a little nice. A little nice to have someone thinking about me like that, in her own way."
+# "But be that as it may… it still feels a little nice. A little nice to have someone thinking about me like that, in her own way."
+"แต่ถึงอย่างนั้นก็เถอะ… ก็ยังรู้สึกดีอยู่หน่อย ๆ รู้สึกดีที่มีใครสักคนคิดถึงฉันแบบนั้น ในแบบของเธอเอง"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 stop music fadeout 8.0
@@ -857,38 +876,47 @@ stop music fadeout 8.0
 scene bg school_dormext_full_ni
 with shorttimeskip
 
-"Following a long, quiet trudge up the hill and into the school grounds, the two of us find ourselves between the two dormitories."
+# "Following a long, quiet trudge up the hill and into the school grounds, the two of us find ourselves between the two dormitories."
+"หลังจากที่เดินขึ้นเนินเขาอย่างเงียบ ๆ เป็นเวลานานและเข้ามาในบริเวณโรงเรียน เราสองคนก็มาถึงที่หอพักของเรา"
 
-"Regular night patrols pass between the male and female dormitory buildings, both for security and to quickly raise the alarm for any medical issues that may arise. The guard currently on duty notices us and gives a quick nod as he continues on his way."
+# "Regular night patrols pass between the male and female dormitory buildings, both for security and to quickly raise the alarm for any medical issues that may arise. The guard currently on duty notices us and gives a quick nod as he continues on his way."
+"การตรวจการณ์ยามค่ำคืนตามปกติจะผ่านไปมาระหว่างอาคารหอชายและหอหญิง ทั้งเพื่อความปลอดภัยและเพื่อแจ้งเตือน\nอย่างรวดเร็วสำหรับปัญหาทางการแพทย์ใด ๆ ที่อาจเกิดขึ้น ยามที่กำลังปฏิบัติหน้าที่สังเกตเห็นพวกเราและพยักหน้าให้เล็กน้อย\nขณะที่เขาเดินตรวจต่อ"
 
 show hanako emb_downtimid_ni at center
 with charaenter
 
-"A loud yawn escapes from Hanako's mouth before she has a chance to cover it. I have little doubt she's fairly tired by now."
+# "A loud yawn escapes from Hanako's mouth before she has a chance to cover it. I have little doubt she's fairly tired by now."
+"เสียงหาวดังออกมาจากปากของฮานาโกะก่อนที่เธอจะทันได้ปิดปาก เธอคงเหนื่อยพอตัวเลยละ"
 
-hi "I'd better be off to my room, then. See you tomorrow, Hanako."
+# hi "I'd better be off to my room, then. See you tomorrow, Hanako."
+hi "เดี๋ยวฉันกลับห้องละ เจอกันพรุ่งนี้ฮานาโกะ"
 
 show hanako emb_smile_ni
 with charachange
 
-ha "G-good night…"
+# ha "G-good night…"
+ha "ระ-ราตรีสวัสดิ์…"
 
 hide hanako
 with charaexit
 
-"We separate and begin to walk our separate ways, before I stop and look back."
+# "We separate and begin to walk our separate ways, before I stop and look back."
+"พวกเราแยกย้ายเดินไปตามทางของตัวเอง ก่อนที่ฉันจะหยุดและหันกลับไป"
 
 show hanako basic_smile_ni
 with charaenter
 
-"Hanako stands there, waving to me as she smiles. I smile and wave back to her, and after a few seconds, she turns and walks up the stairs to her dormitory building, disappearing through the door."
+# "Hanako stands there, waving to me as she smiles. I smile and wave back to her, and after a few seconds, she turns and walks up the stairs to her dormitory building, disappearing through the door."
+"ฮานาโกะยังคงยืนอยู่ เธอยิ้มและโบกมือให้ฉัน ฉันยิ้มและโบกมือกลับ และจากนั้นเธอก็หันกลับเดินขึ้นหอเธอและลับสายตาฉันไป"
 
 hide hanako
 with charaexit
 
-"These little moments we share between us feel like a small treasure. One thing is sure; I want to protect that small, delicate smile she so fleetingly wears around so few people."
+# "These little moments we share between us feel like a small treasure. One thing is sure; I want to protect that small, delicate smile she so fleetingly wears around so few people."
+"ช่วงเวลาเล็ก ๆ น้อย ๆ ที่เราได้ใช่ร่วมกันนี้ช่างรู้สึกล้ำค่าเหลือเกิน และสิ่งที่แน่นอนคือ ฉันต้องการปกป้องรอยยิ้มเล็ก ๆ\nที่บอบบางซึ่งเธอเผยให้เห็นอย่างแผ่วเบาให้เพียงไม่กี่คนนี้เอาไว้"
 
-"I wonder about these feelings I have when Hanako's around, and when I'm able to do things for her… whether they may be the seed for something beyond what we share now."
+# "I wonder about these feelings I have when Hanako's around, and when I'm able to do things for her… whether they may be the seed for something beyond what we share now."
+"ฉันละสงสัยเกี่ยวกับความรู้สึกนี้ที่ฉันมีเมื่อฮานาโกะอยู่ใกล้ ๆ และเมื่อฉันสามารถทำสิ่งต่าง ๆ ให้เธอได้… ว่าสิ่งเหล่านี้\nอาจเป็นบ่อเกิดสำหรับบางอย่างที่นอกเหนือไปจากสิ่งที่เราใช้เวลาร่วมกันอยู่ในตอนนี้หรือเปล่านะ"
 
 scene black
 with dissolve
