@@ -931,15 +931,19 @@ play music music_happiness fadein 2.0
 scene bg school_track
 with locationchange
 
-"The summertime sun is something to be savored, but when combined with the clean country air, it's all the better."
+# "The summertime sun is something to be savored, but when combined with the clean country air, it's all the better."
+"แสงอาทิตย์ในฤดูร้อนเป็นสิ่งที่ดีอยู่แล้ว แต่เมื่อรวมเข้ากับอากาศบริสุทธิ์ของชนบทแล้ว ก็ยิ่งดีขึ้นไปอีก"
 
-"The track and field club members are horsing around on the field ahead; some are playing with a soccer ball, others are talking, and a few laugh as two of them mock-fight with each other."
+# "The track and field club members are horsing around on the field ahead; some are playing with a soccer ball, others are talking, and a few laugh as two of them mock-fight with each other."
+"สมาชิกชมรมกรีฑาก็กำลังลงเล่นในสนามข้างหน้า บางคนกำลังเล่นฟุตบอล บางคนกำลังคุยกัน และบางส่วนหัวเราะเมื่อมี\nสองคนทำท่าต่อสู้กันอย่างสนุกสนาน"
 
-"None of them pay me any heed as I sit alone on the grass, underneath the shade of a particularly large tree. It's a nice and peaceful moment after a dreary day of schoolwork."
+# "None of them pay me any heed as I sit alone on the grass, underneath the shade of a particularly large tree. It's a nice and peaceful moment after a dreary day of schoolwork."
+"ไม่มีใครสนใจที่ฉันนั่งอยู่คนเดียวบนสนามหญ้าใต้ร่มเงาของต้นไม้ที่ใหญ่เป็นพิเศษ เป็นช่วงเวลาที่ดีและสงบเงียบหลังจาก\nที่ต้องผ่านวันเรียนที่แสนน่าเบื่อ"
 
 play ambient sfx_footsteps_soft fadein 4.0
 
-"I played soccer pretty often before my heart attack, so I had thought it would be really nostalgic to watch them. What I'm feeling now, though, is quite distinct from that emotion."
+# "I played soccer pretty often before my heart attack, so I had thought it would be really nostalgic to watch them. What I'm feeling now, though, is quite distinct from that emotion."
+"ก่อนที่ฉันจะหัวใจวาย ฉันเคยเล่นฟุตบอลบ่อยมาก เลยคิดว่าการได้ดูพวกเขาเล่นคงจะคิดถึงอดีต แต่สิ่งที่ฉันรู้สึกตอนนี้กลับ\nไม่ใช่แบบนั้น"
 
 stop ambient fadeout 0.3
 
@@ -948,7 +952,8 @@ show miki smile:
     easein 1.0 ypos 1.12
 with charaenter
 
-"I hear footsteps approaching from behind me, and I turn to my side to see one of my classmates taking a seat beside me. I'm taken off guard, as the two of us haven't talked much before, and I didn't think anyone would notice me here."
+# "I hear footsteps approaching from behind me, and I turn to my side to see one of my classmates taking a seat beside me. I'm taken off guard, as the two of us haven't talked much before, and I didn't think anyone would notice me here."
+"ฉันได้ยินเสียงฝีเท้าเดินเข้ามาจากข้างหลัง ฉันหันไปก็เจอเพื่อนร่วมชั้นคนนึงกำลังนั่งลงข้าง ๆ ฉันตกใจนิดหน่อยเพราะว่า\nเราสองคนก็ไม่ได้คุยกันบ่อยนัก แถมก็ไม่คิดว่าจะมีใครสังเกตฉันเสียอีก"
 
 show miki grinclosed:
     center
@@ -956,26 +961,28 @@ show miki grinclosed:
 with charachange
 
 # mk "'Sup."
-mk "'ไง"
+mk "ไง"
 
 # hi "Hi. Miura, wasn't it?"
-hi "หวัดดีมิอูระ ใช่ไหมนะ?"
+hi "หวัดดีมิอูระ ใช่ปะนะ?"
 
 show miki wink
 with charachange
 
 # mk "Just call me Miki. Surnames are too stuffy."
-mk "เรียกมิกิเถอะ นามสกุลดูจะทางการเกินไปหน่อย"
+mk "เรียกมิกิเถอะ นามสกุลดูจะทางการจ๋าเกินไปหน่อย"
 
 # hi "Likewise, then."
-hi "ถ้างั้นก็เช่นกัน"
+hi "ถ้างั้นก็เรียกชื่อฉันได้เลยเหมือนกัน"
 
 show miki smile
 with charachange
 
-"We both look back out to the field were the guys are playing. It looks like they're getting ready to have a second game, with people spreading out to their positions and the ball being carried to the center of the field."
+# "We both look back out to the field were the guys are playing. It looks like they're getting ready to have a second game, with people spreading out to their positions and the ball being carried to the center of the field."
+"เราทั้งคู่หันกลับไปยังสนามที่พวกนั้นกำลังเล่นกันอยู่ ดูเหมือนว่าพวกเขากำลังเตรียมตัวที่จะเริ่มเกมที่สอง โดยมีแต่ละคน\nกระจายตัวไปยังตำแหน่งของตน และมีการนำลูกบอลไปยังกลางสนาม"
 
-"Sure enough, the whistle is blown to begin the match and they get right back into it."
+# "Sure enough, the whistle is blown to begin the match and they get right back into it."
+"และแน่นอน เสียงนกหวีดถูกเป่าเพื่อเริ่มการแข่งขัน และพวกเขาก็กลับเข้าสู่เกมทันที"
 
 # hi "Not going to play?"
 hi "ไม่ไปเล่นเหรอ"
@@ -1019,9 +1026,11 @@ hi "เปล่า ก็แค่เล่นเอาสนุกเฉย �
 # hi "Any of those guys playing around could have been me before my accident. But I don't feel like I have any real wish to go back to that, either. It's a little hard to explain."
 hi "ถ้าไม่เกิดเรื่องกับฉันตอนนั้นฉันก็อาจจะลงไปเล่นเหมือนอย่างคนพวกนั้นก็ได้ แต่ก็ไม่ได้อยากกลับไปเมื่อตอนก่อนหน้านั้น\nเท่าไหร่ด้วยหรอก อธิบายไม่ถูกเท่าไหร่แฮะ"
 
-"I'm still decently physically built from the days when I played, even if my strength's largely left me by now, and I got on well with the other club members."
+# "I'm still decently physically built from the days when I played, even if my strength's largely left me by now, and I got on well with the other club members."
+"ร่างกายฉันก็ยังรูปร่างที่ดีพอสมควรนับจากวันที่ยังเล่นฟุตบอล ถึงแม้พละกำลังจะไปหมดแล้วก็เถอะ และฉันก็เข้ากันได้ดีกับ\nสมาชิกชมรมคนอื่น ๆ ด้วย"
 
-"When I think about it, I should feel pretty bad watching people play when I can't any more. Yet I don't. Maybe it's a good thing; a sign that I've gotten over it and that I'm ready to become a new person."
+# "When I think about it, I should feel pretty bad watching people play when I can't any more. Yet I don't. Maybe it's a good thing; a sign that I've gotten over it and that I'm ready to become a new person."
+"พอมาคิด ๆ ดูแล้ว จริง ๆ ฉันควรจะรู้สึกแย่ที่มาดูคนเล่นอะไรที่ฉันเล่นไม่ได้อีกแล้ว แต่ก็ไม่เป็นอย่างนั้น ซึ่งก็อาจจะเป็น\nเรื่องที่ดี เพราะนั่นแปลว่าฉันได้ก้าวข้ามผ่านอดีตตัวเองและพร้อมจะเป็นคนใหม่แล้ว"
 
 # hi "Sorry, I'm kinda rambling."
 hi "โทษที พูดไปเรื่อยเลย"
@@ -1048,7 +1057,7 @@ with charachange
 mk "อื้ม ก็สมัครเข้าเลยตั้งแต่เข้ามาเรียนน่ะ"
 
 # hi "Don't suppose you're friends with Emi? Short, fast runner, no legs? I don't think there are all that many female track and field members."
-hi "งั้นก็แปลว่าเป็นเพื่อนกับเอมิละสิเนี่ย คนที่ตัวเตี้ย ๆ วิ่งเร็ว ๆ ที่ไม่มีขาน่ะ ฉันว่าสมาชิกชมรมกรีฑาไม่น่ามีผู้หญิงเยอะเท่าไหร่"
+hi "งั้นก็แปลว่าเป็นเพื่อนกับเอมิละสิเนี่ย คนที่ตัวเตี้ย ๆ วิ่งเร็ว ๆ ที่ไม่มีขาน่ะ ฉันว่าสมาชิกชมรมกรีฑาไม่น่ามีผู้หญิงเยอะ\nเท่าไหร่"
 
 show miki grinclosed
 with charachange
@@ -1071,7 +1080,8 @@ with charachange
 # mk "You've been hanging around with Hanako and that blonde Amazon though, right?"
 mk "เห็นช่วงนี้นายอยู่กับฮานาโกะกับแม่สาวฝรั่งผมบลอนด์บ่อย ๆ เลยนี่"
 
-"Blonde Amazon… I suppose Lilly has the height to fit that description, if nothing else. I nod in response, without making too fine a point of things."
+# "Blonde Amazon… I suppose Lilly has the height to fit that description, if nothing else. I nod in response, without making too fine a point of things."
+"แม่สาวฝรั่งผมบลอนด์… ก็นะ ลิลลี่ก็คงตัวสูงพอที่จะเรียกแบบนั้นได้อยู่หรอก ถ้าไม่นับเรื่องอื่น ๆ ฉันพยักหน้าตอบรับ\nโดยไม่ได้ลงรายละเอียดอีก"
 
 show miki grinclosed
 with charachange
@@ -1079,17 +1089,20 @@ with charachange
 # mk "Then don't worry about it. As long as you've got some friends, you don't need to join a club."
 mk "งั้นก็ไม่ต้องห่วงไปหรอก อย่างน้อยนายก็มีเพื่อนแล้วนี่ ไม่ต้องเข้าชมรมก็ได้"
 
-"A loud whistling from the field attracts our attention. One of the players is on the ground, clutching his leg, and the others stop play to jog up to him, leaving Miki grimacing."
+# "A loud whistling from the field attracts our attention. One of the players is on the ground, clutching his leg, and the others stop play to jog up to him, leaving Miki grimacing."
+"เสียงนกหวีดดังลั่นจากสนามดึงความสนใจของเรา ผู้เล่นคนหนึ่งล้มลงกับพื้น กุมขาตัวเองไว้ และคนอื่น ๆ ก็หยุดเล่น\nเพื่อวิ่งไปหาเขา ทำให้มิกิขมวดคิ้วไปด้วย"
 
 show miki serious
 with charachange
 
 # mk "Ouch, that looks painful. That guy really has bad luck."
-mk "หูย คงเจ็บน่าดู นายนั่นดวงซวยจริง ๆ"
+mk "หูย คงเจ็บน่าดู หมอนั่นดวงซวยจริง ๆ"
 
-"As she continues to look out onto the field, I can't help being reminded of her own injuries. Her left arm, ending in a stump rather than a hand, has been bandaged up for the entire time I've been in Yamaku, and her injury doesn't seem that new."
+# "As she continues to look out onto the field, I can't help being reminded of her own injuries. Her left arm, ending in a stump rather than a hand, has been bandaged up for the entire time I've been in Yamaku, and her injury doesn't seem that new."
+"ขณะที่เธอยังคงมองออกไปยังสนาม ฉันก็อดไม่ได้ที่จะนึกถึงอาการบาดเจ็บของเธอ แขนซ้ายของเธอซึ่งลงท้ายด้วยตอแขน\nแทนที่จะเป็นมือ ถูกพันผ้าพันแผลมาตลอดช่วงเวลาที่ฉันอยู่ที่ยามากุ และของเธอดูเหมือนจะไม่ใช่แผลใหม่เลย"
 
-"She turns to talk to me again and catches me looking. Both of us sit in awkward silence as she takes her bandaged arm and holds it in her lap with other remaining hand."
+# "She turns to talk to me again and catches me looking. Both of us sit in awkward silence as she takes her bandaged arm and holds it in her lap with other remaining hand."
+"เธอหันกลับมาพูดคุยกับฉันอีกครั้งและจับได้ว่าฉันกำลังมองอยู่ เราทั้งคู่นั่งอยู่ในความเงียบที่อึดอัดขณะที่เธอใช้มืออีกข้างที่\nเหลืออยู่จับแขนที่พันผ้าพันแผลไว้บนตัก"
 
 # hi "S-sorry. I guess I'm still a bit…"
 hi "ทะ-โทษที พอดีว่าฉันยัง…"
@@ -1100,11 +1113,14 @@ with charachange
 # mk "It's fine. Really."
 mk "ไม่เป็นไรหรอกน่า"
 
-"Her tone is light, but neither of us says anything afterwards. Every disabled student here has their own way of dealing with their problems, and some finding their conditions troublesome is only natural. I'm included among them, after all."
+# "Her tone is light, but neither of us says anything afterwards. Every disabled student here has their own way of dealing with their problems, and some finding their conditions troublesome is only natural. I'm included among them, after all."
+"น้ำเสียงของเธอออกสบาย ๆ แต่ไม่มีใครพูดอะไรหลังจากนั้น นักเรียนที่มีความพิการทุกคนที่นี่ต่างก็มีวิธีรับมือกับปัญหาของ\nตัวเอง และการที่บางคนรู้สึกว่าอาการของตนเองเป็นปัญหาก็เป็นเรื่องปกติ ฉันเองก็เป็นหนึ่งในนั้นเช่นกัน"
 
-"The injured guy from the soccer game manages to get onto his feet with some help, and ends up hobbling off the field with one arm over the shoulder of another for support. Probably just pulled a muscle if he can still manage to walk."
+# "The injured guy from the soccer game manages to get onto his feet with some help, and ends up hobbling off the field with one arm over the shoulder of another for support. Probably just pulled a muscle if he can still manage to walk."
+"คนที่บาดเจ็บจากเกมฟุตบอลสามารถลุกขึ้นยืนได้ด้วยความช่วยเหลือเล็กน้อย และสุดท้ายก็เดินกะเผลกออกจากสนาม\nโดยมีแขนข้างหนึ่งพาดอยู่บนไหล่ของเพื่อนอีกคนเพื่อช่วยประคอง ถ้าเขายังพอเดินได้ ก็น่าจะแค่กล้ามเนื้อฉีก"
 
-"The whistle blows again, and the game continues once more with one less man on the field."
+# "The whistle blows again, and the game continues once more with one less man on the field."
+"เสียงนกหวีดดังขึ้นอีกครั้ง และเกมก็ดำเนินต่อไปโดยมีผู้เล่นลดลงไปหนึ่งคน"
 
 show miki whistle
 with charachange
@@ -1139,14 +1155,17 @@ with charachange
 # mk "Just… hard to deal with."
 mk "ก็แค่… คุยด้วยยากน่ะ"
 
-"It sounds like Miki, or at least some other people in the class, have tried to get closer to Hanako in the past. And that it didn't go well."
+# "It sounds like Miki, or at least some other people in the class, have tried to get closer to Hanako in the past. And that it didn't go well."
+"ฟังดูแล้วท่าทางมิกิ หรือไม่ก็ใครสักคนในชั้นเรียน คงพยายามที่จะเข้าหาฮานาโกะมาก่อน แต่ผลก็คงไม่ดีเท่าไหร่"
 
-"I think her judgment is rather harsh, given that everyone, not just those in Yamaku, have their own issues. Then again, I haven't known Hanako for that long, so it wouldn't surprise me if there was some stuff I didn't know about."
+# "I think her judgment is rather harsh, given that everyone, not just those in Yamaku, have their own issues. Then again, I haven't known Hanako for that long, so it wouldn't surprise me if there was some stuff I didn't know about."
+"ฉันว่าเธอตัดสินแรงไปหน่อย เมื่อมองถึงเรื่องที่ว่าทุกคน ไม่ใช่แค่คนในยามากุ ต่างก็มีปัญหาของตัวเองทั้งนั้น\nแต่ถึงอย่างนั้นฉันเองก็ไม่ได้รู้จักฮานาโกะมานานขนาดนั้น ก็คงไม่แปลกถ้าจะมีบางเรื่องที่ฉันไม่รู้เกี่ยวกับเธอ"
 
 # hi "I'll just take it as it comes. She's a nice person, and I think that should be all that matters."
 hi "ฉันก็แค่ปล่อยให้เป็นอย่างที่ควรเป็นน่ะ เธอเป็นคนดีแค่นี้ก็พอแล้วล่ะ"
 
-"Miki's eyes narrow a little, and her smile spreads."
+# "Miki's eyes narrow a little, and her smile spreads."
+"มิกิหรี่ตาลงเล็กน้อย ก่อนจะยิ้มออกมา"
 
 show miki grin
 with charachange
