@@ -103,7 +103,7 @@ with charaexit
 "ส่วนหนึ่งในใจฉันยังคงอยากเป็นส่วนหนึ่งของทีมอยู่ ตั้งแต่ฉันเคยเล่นฟุตบอลและกีฬาอื่น ๆ มาก่อนเกิดเหตุการณ์นั้น\nฉันว่าคงเป็นเรื่องปกติที่จะรู้สึกคิดถึงสิ่งที่ทำไม่ได้อีกแล้ว"
 
 # "But I have other reasons than that for my coming here so often, and I don't feel so bad about losing that part of myself because of them. Lilly is a good friend by now, but it's the small exchanges I have with Hanako that feel especially dear."
-"แต่การที่ฉันมาที่นี่บ่อย ๆ ก็มีเหตุผลอื่นด้วยแหละ แถมฉันก็ไม่ได้รู้สึกแย่กับการที่ต้องสูญเสียชีวิตส่วนนั้นไปเพราะเรื่องนั้นด้วย\nได้มีลิลลี่เป็นเพื่อนที่ดีก็ส่วนนึง แต่การได้แลกเปลี่ยนเรื่องราวเล็ก ๆ น้อย ๆ กับฮานาโกะต่างหากที่ทำให้ฉันรู้สึกพิเศษ"
+"แต่การที่ฉันมาที่นี่บ่อย ๆ ก็มีเหตุผลอื่นด้วยแหละ แถมฉันก็ไม่ได้รู้สึกแย่กับการที่ต้องสูญเสียชีวิตส่วนนั้นไปเพราะเรื่องนั้น\nด้วย ได้มีลิลลี่เป็นเพื่อนที่ดีก็ส่วนนึง แต่การได้แลกเปลี่ยนเรื่องราวเล็ก ๆ น้อย ๆ กับฮานาโกะต่างหากที่ทำให้ฉันรู้สึกพิเศษ"
 
 # "The small victories I feel every day as I see more of what she's like under her self-imposed shell. That's why I come here most of all."
 "ชัยชนะเล็ก ๆ ที่ฉันรู้สึกได้ในทุก ๆ วัน คือเมื่อฉันได้เห็นตัวตนที่แท้จริงของเธอที่ซ่อนอยู่ภายใต้เปลือกที่เธอสร้างขึ้นมา\nนั่นคือเหตุผลทั้งหมดว่าทำไมฉันถึงมาที่นี่บ่อยที่สุด"
@@ -202,7 +202,7 @@ show yuukoshang neutral_down at tworight
 with dissolvecharamove
 
 # "She gives a deep bow, her well-delivered and professional introduction putting her in a good mood. It's a nice change from the norm for Yuuko."
-"เธอก้มโค้งคำนับอย่างนอบน้อม คำแนะนำที่ดูเป็นมืออาชีพทำให้เธออารมณ์ดีขึ้น เป็นการเปลี่ยนแปลงที่ดีจากอาการปกติของยูโกะ"
+"เธอก้มโค้งคำนับอย่างนอบน้อม คำแนะนำที่ดูเป็นมืออาชีพทำให้เธออารมณ์ดีขึ้น เป็นการเปลี่ยนแปลงที่ดีจากอาการปกติของ\nยูโกะ"
 
 show lilly basic_smileclosed
 with charachange
@@ -502,7 +502,7 @@ with charachange
 hi "แน่นอน ก็มีหมากรุกละหนึ่ง แล้วก็… อืม…"
 
 # hi "There was soccer as well, though I can't really do that any more. Reading, which I picked up in hospital… um…"
-hi "ก็มีเตะบอลด้วยแหละ ถึงแม้ตอนนี้จะกลับไปเตะอีกไม่ได้แล้วก็เถอะ แล้วก็อ่านหนังสือ ซึ่งฉันทำประจำในโรงพยาบาล… อืม…"
+hi "ก็มีเตะบอลด้วยแหละ ถึงแม้ตอนนี้จะกลับไปเตะอีกไม่ได้แล้วก็เถอะ แล้วก็อ่านหนังสือ ซึ่งฉันทำประจำในโรงพยาบาล…\nอืม…"
 
 show hanako basic_normal_close
 show lilly basic_sleepy_close
@@ -532,7 +532,7 @@ show hanako cover_worry_close
 with charachange
 
 # "A soft ringing gives us pause. As Lilly reaches into her pocket, it becomes obvious that the sound's coming from her phone."
-"เสียงกริ่งเบา ๆ ทำให้พวกเราชะงัก ขณะที่ลิลลี่ล้วงมือเข้าไปในกระเป๋า ก็เห็นได้ชัดว่าเสียงนั้นมาจากโทรศัพท์ของเธอ"
+"เสียงเรียกเข้าเบา ๆ ทำให้พวกเราชะงัก ขณะที่ลิลลี่ล้วงมือเข้าไปในกระเป๋า ก็เห็นได้ชัดว่าเสียงนั้นมาจากโทรศัพท์\nของเธอ"
 
 show lilly basic_weaksmile_close
 with charachange
@@ -573,7 +573,7 @@ with shuteye
 "สุดท้ายฉันก็นั่งเอนหลังและหลับตาลง ผ่อนคลายให้ได้มากที่สุดเท่าที่จะทำได้"
 
 # hi "It's nice and peaceful here. I wonder what it'd be like to have grown up somewhere like this, rather than in the city."
-hi "ที่นี่เงียบสงบและน่าอยู่จัง ผมสงสัยว่าการได้เติบโตในสถานที่แบบนี้คงเป็นอย่างไรนะ แทนที่จะเป็นในเมือง"
+hi "ที่นี่เงียบสงบและน่าอยู่จัง ฉันละสงสัยว่าการได้เติบโตในสถานที่แบบนี้แทนที่จะเป็นในเมือง จะเป็นยังไง\nกันนะ"
 
 # ha "Y-you come from the city?"
 ha "นะ-นายมาจากในเมืองเหรอ?"
@@ -661,7 +661,7 @@ show lilly basic_weaksmile
 with charachange
 
 # li "It's all right, Hanako. I'll just be going straight to the Student Council. There's no need to spoil a fine evening on my account."
-li "ไม่เป็นไรหรอกฮานาโกะ ฉันจะตรงไปสภานักเรียนเลย เธอไม่ต้องเสียบรรยากาศยามเย็นดี ๆ แบบนี้เพราะเรื่องของฉันหรอก"
+li "ไม่เป็นไรหรอกฮานาโกะ ฉันจะตรงไปสภานักเรียนเลย เธอไม่ต้องเสียบรรยากาศยามเย็นดี ๆ แบบนี้เพราะเรื่องของ\nฉันหรอก"
 
 show lilly basic_smile
 with charachange
@@ -880,7 +880,7 @@ with shorttimeskip
 "หลังจากที่เดินขึ้นเนินเขาอย่างเงียบ ๆ เป็นเวลานานและเข้ามาในบริเวณโรงเรียน เราสองคนก็มาถึงที่หอพักของเรา"
 
 # "Regular night patrols pass between the male and female dormitory buildings, both for security and to quickly raise the alarm for any medical issues that may arise. The guard currently on duty notices us and gives a quick nod as he continues on his way."
-"การตรวจการณ์ยามค่ำคืนตามปกติจะผ่านไปมาระหว่างอาคารหอชายและหอหญิง ทั้งเพื่อความปลอดภัยและเพื่อแจ้งเตือน\nอย่างรวดเร็วสำหรับปัญหาทางการแพทย์ใด ๆ ที่อาจเกิดขึ้น ยามที่กำลังปฏิบัติหน้าที่สังเกตเห็นพวกเราและพยักหน้าให้เล็กน้อย\nขณะที่เขาเดินตรวจต่อ"
+"การตรวจการณ์ยามค่ำคืนตามปกติจะผ่านไปมาระหว่างอาคารหอชายและหอหญิง ทั้งเพื่อความปลอดภัยและเพื่อแจ้งเตือน\nอย่างรวดเร็วสำหรับปัญหาทางการแพทย์ใด ๆ ที่อาจเกิดขึ้น ยามที่กำลังปฏิบัติหน้าที่สังเกตเห็นพวกเราและพยักหน้าให้\nเล็กน้อย ขณะที่เขาเดินตรวจต่อ"
 
 show hanako emb_downtimid_ni at center
 with charaenter
@@ -907,7 +907,7 @@ show hanako basic_smile_ni
 with charaenter
 
 # "Hanako stands there, waving to me as she smiles. I smile and wave back to her, and after a few seconds, she turns and walks up the stairs to her dormitory building, disappearing through the door."
-"ฮานาโกะยังคงยืนอยู่ เธอยิ้มและโบกมือให้ฉัน ฉันยิ้มและโบกมือกลับ และจากนั้นเธอก็หันกลับเดินขึ้นหอเธอและลับสายตาฉันไป"
+"ฮานาโกะยังคงยืนอยู่ เธอยิ้มและโบกมือให้ฉัน ฉันยิ้มและโบกมือกลับ และจากนั้นเธอก็หันกลับเดินขึ้นหอเธอและลับสายตา\nฉันไป"
 
 hide hanako
 with charaexit
@@ -938,7 +938,7 @@ with locationchange
 "สมาชิกชมรมกรีฑาก็กำลังลงเล่นในสนามข้างหน้า บางคนกำลังเล่นฟุตบอล บางคนกำลังคุยกัน และบางส่วนหัวเราะเมื่อมี\nสองคนทำท่าต่อสู้กันอย่างสนุกสนาน"
 
 # "None of them pay me any heed as I sit alone on the grass, underneath the shade of a particularly large tree. It's a nice and peaceful moment after a dreary day of schoolwork."
-"ไม่มีใครสนใจที่ฉันนั่งอยู่คนเดียวบนสนามหญ้าใต้ร่มเงาของต้นไม้ที่ใหญ่เป็นพิเศษ เป็นช่วงเวลาที่ดีและสงบเงียบหลังจาก\nที่ต้องผ่านวันเรียนที่แสนน่าเบื่อ"
+"ไม่มีใครสนใจที่ฉันนั่งอยู่คนเดียวบนสนามหญ้าใต้ร่มเงาของต้นไม้ที่ใหญ่เป็นพิเศษ เป็นช่วงเวลาที่ดีและเงียบสงบหลังจาก\nที่ต้องผ่านวันเรียนที่แสนน่าเบื่อ"
 
 play ambient sfx_footsteps_soft fadein 4.0
 
