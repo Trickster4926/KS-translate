@@ -1209,11 +1209,14 @@ mk "ว่ากันตามตรง ฉันว่าก็น่ารั
 # hi "Thanks."
 hi "ขอบใจ"
 
-"She may say that, but she was just talking about Hanako having “issues.” Still, I want to hold myself to the words I said. Hanako's problems don't matter; I'll deal with anything that comes up, because I want to help her."
+# "She may say that, but she was just talking about Hanako having “issues.” Still, I want to hold myself to the words I said. Hanako's problems don't matter; I'll deal with anything that comes up, because I want to help her."
+"ถึงเธอจะพูดแบบนั้นก็เถอะ แต่เมื่อกี้เธอก็ยังพูดเองเลยว่าฮานาโกะ “มีปัญหา” แต่ก็นะ ฉันยังยืนยันคำเดิมว่าปัญหาของ\nฮานาโกะน่ะไม่สำคัญหรอก ไม่ว่าจะเกิดอะไรขึ้นก็ตามฉันจะรับมือเอง เพราะฉันอยากจะช่วยเธอ"
 
-"If there's even the smallest possibility that I can pull Hanako out of her depression and seclusion, then I should work towards that, no matter what. If she needs a prince, then I will be that prince."
+# "If there's even the smallest possibility that I can pull Hanako out of her depression and seclusion, then I should work towards that, no matter what. If she needs a prince, then I will be that prince."
+"ถ้ามีโอกาสแค่เพียงน้อยนิดที่จะช่วยดึงฮานาโกะออกมาจากการซึมเศร้าและเก็บตัวได้ ฉันก็จะทำโดยไม่สนใจอะไรทั้งนั้น\nถ้าเธอต้องการเจ้าชายสักคนละก็ ฉันก็จะเป็นเจ้าชายคนนั้นให้เอง"
 
-"As I think about the possibility of a relationship, I can see Miki grinning at me while watching my face. I'm no doubt blushing, and looking away from her only makes her laugh."
+# "As I think about the possibility of a relationship, I can see Miki grinning at me while watching my face. I'm no doubt blushing, and looking away from her only makes her laugh."
+"พอนึกถึงความเป็นไปได้ของความสัมพันธ์นั้นแล้ว ฉันก็เห็นมิกิกำลังมองหน้าฉันและยิ้มกว้างออกมา ฉันคงหน้าแดงอยู่อย่าง\nไม่ต้องสงสัย และยิ่งหลบหน้าเธอยิ่งทำให้เธอหัวเราะออกมา"
 
 # Deny it
 label th_H12b:
@@ -1227,14 +1230,17 @@ with charachange
 # mk "Aw. I thought I'd discovered something nice for a moment there. I understand; girls and guys don't need to be boyfriends and girlfriends, after all."
 mk "โห่ ฉันนึกว่าได้เจออะไรดี ๆ แล้วเสียอีก ฉันเข้าใจ ผู้หญิงกับผู้ชายไม่จำเป็นต้องเป็นแฟนกันเสมอไปนี่นา"
 
-"What she says is true, even if I do have feelings for Hanako. Right now we are good friends, and I don't want to mess that up, but I also want to be more than that for her. It's hard."
+# "What she says is true, even if I do have feelings for Hanako. Right now we are good friends, and I don't want to mess that up, but I also want to be more than that for her. It's hard."
+"ที่เธอพูดก็ถูก และต่อให้ฉันจะรู้สึกแบบนั้นจริง ๆ กับฮานาโกะ ยังไงตอนนี้พวกเราก็เป็นเพื่อนที่ดีต่อกันอยู่\nและฉันก็ไม่อยากจะทำมันพังลงด้วย แต่อีกใจนึงก็อยากเป็นมากกว่านั้นให้กับเธอ ยากจังแฮะ"
 
 # End splits
 label th_H12c:
 
-"Miki gives off a different vibe from the other girls. Talking to her feels more like talking to a guy than a woman. Her saying she prefers male company doesn't help to dispel that notion, either."
+# "Miki gives off a different vibe from the other girls. Talking to her feels more like talking to a guy than a woman. Her saying she prefers male company doesn't help to dispel that notion, either."
+"มิกินี่ต่างจากผู้หญิงคนอื่น ๆ เลยแฮะ การคุยกับเธอเหมือนได้คุยกับผู้ชายมากกว่าผู้หญิงเสียอีก ซึ่งต่อให้เธอจะบอกว่า\nสนิทกับพวกผู้ชายมากกว่าก็ยังอดคิดแบบนี้ไม่ได้อยู่ดี"
 
-"Glancing at my watch shows that lunch break is ending in only a few minutes. Time to start heading back to class."
+# "Glancing at my watch shows that lunch break is ending in only a few minutes. Time to start heading back to class."
+"พอเหลือบมองนาฬิกาข้อมือก็เห็นว่าอีกไม่กี่นาทีก็จะหมดพักเที่ยงแล้ว คงได้เวลากลับไปห้องเรียนแล้วละ"
 
 # hi "Lunch is about to end. Want to head back?"
 hi "จะหมดพักเที่ยงละ กลับกันเลยดีไหม"
@@ -1248,7 +1254,8 @@ mk "อืม ก็คงงั้นแหละ"
 show miki smile at center
 with charamove
 
-"I pick myself up off the grass and dust myself off, offering a hand to Miki to help her up as well. She takes it and easily pulls herself up, showing the muscles moving in her toned bare arms in the process."
+# "I pick myself up off the grass and dust myself off, offering a hand to Miki to help her up as well. She takes it and easily pulls herself up, showing the muscles moving in her toned bare arms in the process."
+"ฉันลุกขึ้นและปัดฝุ่นและหญ้าออก พร้อมยื่นมือให้มิกิเพื่อช่วยเธอลุกด้วย เธอยื่นมือมารับและดึงตัวเองขึ้นได้อย่างง่ายดาย\nซึ่งเผยให้เห็นมัดกล้ามเนื้อที่กำลังขยับบนแขนเปลือยที่ได้รูปของเธอในระหว่างลุก"
 
 # hi "Come to think of it, why aren't you wearing the normal girls' blouse?"
 hi "พอมานึกดูแล้ว ทำไมเธอถึงไม่ใส่เสื้อนักเรียนหญิงแบบปกติล่ะ"
@@ -1259,12 +1266,14 @@ with charachange
 # mk "Eh, it's too hot and constricting. The boys' uniform is better, anyway."
 mk "อ่า มันร้อนแล้วก็อึดอัดเกินอะ เสื้อนักเรียนชายดีกว่าเยอะ"
 
-"She throws her arms around a bit to emphasize her point, which has the side effect of showing off one particular part of her body that would be especially constricted by the blouse."
+# "She throws her arms around a bit to emphasize her point, which has the side effect of showing off one particular part of her body that would be especially constricted by the blouse."
+"เธอเหวี่ยงแขนไปมาเล็กน้อยเพื่อย้ำคำพูด ซึ่งทำให้เห็นส่วนหนึ่งของร่างกายของเธอที่เสื้อจะรัดเป็นพิเศษ"
 
 scene bg school_gardens
 with locationchange
 
-"The two of us start the walk back to the main building through the gardens, talking as we go."
+# "The two of us start the walk back to the main building through the gardens, talking as we go."
+"พวกเราเดินผ่านสวนกลับไปยังอาคารหลักพร้อมคุยไปด้วย"
 
 show miki smile at center
 with charaenter
@@ -1287,7 +1296,8 @@ hi "ฟังดูไม่ใช่คำแนะนำที่ดีเท�
 show miki grin
 with charachange
 
-"She claps my shoulder a couple of times as she grins. I don't think she takes school very seriously."
+# "She claps my shoulder a couple of times as she grins. I don't think she takes school very seriously."
+"เธอยิ้มพร้อมตบบ่าฉันสองสามที ฉันว่าเธอคงไม่ได้สนใจเรียนสักเท่าไหร่"
 
 show miki wink
 with charachange
@@ -1307,13 +1317,17 @@ with charachange
 # mk "You'll get used to it, just give it some time. It's only a high school, just like any other."
 mk "เดี๋ยวนายก็ชินน่า อาจจะใช้เวลาสักหน่อย ที่นี่ก็แค่โรงเรียนมัธยมปลายเหมือน ๆ ที่อื่นนั่นแหละ"
 
-"She makes it sound so simple, but I've never thought about it that way. To me, Yamaku symbolized a marked shift in my life. I was no longer normal; I was “different,” and was to be educated with other “different” people."
+# "She makes it sound so simple, but I've never thought about it that way. To me, Yamaku symbolized a marked shift in my life. I was no longer normal; I was “different,” and was to be educated with other “different” people."
+"เธอพูดฟังดูง่าย แต่ฉันไม่คิดแบบนั้นเลย สำหรับฉัน ยามากุเป็นสัญลักษณ์ของการเปลี่ยนแปลงครั้งใหญ่ในชีวิต\nฉันไม่ใช่คนปกติอีกต่อไปแล้ว ฉันเป็นคนที่ “แตกต่าง” และจะต้องร่วมเรียนกับคนที่ “แตกต่าง” คนอื่น ๆ "
 
-"And yet, I'm walking back to class and talking casually with a classmate during lunch, after watching some others play a soccer game - all perfectly normal. Maybe she has a point."
+# "And yet, I'm walking back to class and talking casually with a classmate during lunch, after watching some others play a soccer game - all perfectly normal. Maybe she has a point."
+"แต่ถึงอย่างนั้นก็เถอะ ฉันเองก็กำลังเดินกลับห้องเรียนพร้อมกับคุยกับเพื่อนร่วมชั้นตอนพักเที่ยงหลังจากได้ดูคนอื่นเล่นบอล\nอยู่ ซึ่งทุกอย่างก็ปกติดี บางทีเธอคงพูดถูก"
 
-"Maybe I should just look at Hanako in the same way. Everyone has their own issues; this is hardly something unique to Yamaku. After all, it's only a high school, just like any other."
+# "Maybe I should just look at Hanako in the same way. Everyone has their own issues; this is hardly something unique to Yamaku. After all, it's only a high school, just like any other."
+"บางทีฉันคงควรจะต้องมองฮานาโกะแบบนี้เหมือนกัน ทุก ๆ คนล้วนมีปัญหาของตัวเองทั้งนั้น ไม่ใช่เรื่องที่จะเจอได้\nเฉพาะในยามากุเลย สุดท้ายแล้ว ที่นี่ก็เป็นแค่โรงเรียนมัธยมปลาย เหมือนกับที่อื่น ๆ นั่นแหละ"
 
-"As we continue to talk, I find myself smiling. Miki and I are very different people in almost every way, but it feels good to have gotten to know another classmate a bit better."
+# "As we continue to talk, I find myself smiling. Miki and I are very different people in almost every way, but it feels good to have gotten to know another classmate a bit better."
+"ขณะที่เราคุยกันต่อไป ฉันก็ยิ้มออกมา มิกิกับฉันเป็นคนที่แตกต่างกันมากในแทบทุก ๆ ด้าน แต่การได้ทำความรู้จัก\nเพื่อนร่วมชั้นอีกคนหนึ่งให้ดีขึ้นสักนิด ก็ทำให้รู้สึกดีอยู่หน่อย ๆ "
 
 stop music fadeout 2.0
 
