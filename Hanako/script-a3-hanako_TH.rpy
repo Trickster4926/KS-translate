@@ -1345,15 +1345,20 @@ play ambient sfx_parkambience fadein 2.0
 scene bg misc_sky
 with locationchange
 
-"A light breeze blows the scent of early summer around my head while I wait for Lilly."
+# "A light breeze blows the scent of early summer around my head while I wait for Lilly."
+"สายลมแผ่วเบาพัดพากลิ่นอายของช่วงต้นหน้าร้อนมารอบ ๆ หัวฉันขณะที่กำลังรอลิลลี่"
 
-"Small white clouds litter the sky, breaking up the monotony of the blue."
+# "Small white clouds litter the sky, breaking up the monotony of the blue."
+"เมฆสีขาวเล็ก ๆ ปกคลุมท้องฟ้าทำลายความจำเจของสีท้องฟ้า"
 
-li "Hisao? Are you here?"
+# li "Hisao? Are you here?"
+li "ฮิซาโอะ? อยู่หรือเปล่า?"
 
-"Lilly's voice lilts on the breeze as if they were one and the same thing."
+# "Lilly's voice lilts on the breeze as if they were one and the same thing."
+"เสียงลิลลี่ลอยมาตามลมราวกับเป็นสิ่งเดียวกัน"
 
-"I stop gazing into the sky to examine Lilly."
+# "I stop gazing into the sky to examine Lilly."
+"ฉันหยุดมองท้องฟ้าเพื่อมาสังเกตลิลลี่"
 
 $ renpy.music.set_volume(0.8, 1.0, channel="ambient")
 
@@ -1361,62 +1366,80 @@ scene bg school_gate
 show lilly cane_surprised_cas at center
 with locationchange
 
-"With a peach off-the-shoulder sweater and tan ankle-length skirt, in addition to tan sandals, she's quite a nice sight."
+# "With a peach off-the-shoulder sweater and tan ankle-length skirt, in addition to tan sandals, she's quite a nice sight."
+"เสื้อสเวตเตอร์เปิดไหล่สีพีชและกระโปรงยาวถึงข้อเท้าสีแทน พร้อมรองเท้าแตะสีแทน เธอช่างน่ามองทีเดียว"
 
-hi "Yeah, I'm over here, Lilly. Near the gate."
+# hi "Yeah, I'm over here, Lilly. Near the gate."
+hi "อื้ม ฉันอยู่ตรงนี้ลิลลี่ ใกล้ ๆ ประตู"
 
-hi "Were you able to sneak away from Hanako?"
+# hi "Were you able to sneak away from Hanako?"
+hi "เธอหลบฮานาโกะออกมาได้ด้วยเหรอเนี่ย"
 
 show lilly cane_weaksmile_cas
 with charachange
 
-li "Yes. It's not uncommon for me to go out during weekends, so I don't think she noticed anything suspicious."
+# li "Yes. It's not uncommon for me to go out during weekends, so I don't think she noticed anything suspicious."
+li "ใช่ พอดีไม่ใช่เรื่องแปลกที่ฉันจะไปข้างนอกช่วงวันหยุดสุดสัปดาห์น่ะ เพราะงั้นแล้วฉันว่าเธอคงไม่สงสัยอะไรหรอก"
 
 show lilly cane_sleepy_cas
 with charachange
 
-li "That, and… she has someone she sees."
+# li "That, and… she has someone she sees."
+li "อีกอย่างก็… เธอต้องไปหาบางคนน่ะ"
 
-"Lilly purses her lips, as if she maybe shouldn't have continued. I find it a little hard to believe."
+# "Lilly purses her lips, as if she maybe shouldn't have continued. I find it a little hard to believe."
+"ลิลลี่เม้มปาก ราวกับว่าเธออาจจะไม่ควรพูดต่อ ฉันว่ามันยากที่จะเชื่อไปหน่อย"
 
-hi "Hanako's seeing someone? Really?"
+# hi "Hanako's seeing someone? Really?"
+hi "ฮานาโกะไปเจอใครบางคนอะนะ? จริงดิ?"
 
 show lilly cane_weaksmile_cas
 with charachange
 
-li "No, it's just… she sees a therapist every so often on weekends."
+# li "No, it's just… she sees a therapist every so often on weekends."
+li "เปล่า ก็แค่… เธอต้องไปหาจิตแพทย์ทุก ๆ สุดสัปดาห์น่ะ"
 
-hi "Oh. Well. That does make a lot of sense."
+# hi "Oh. Well. That does make a lot of sense."
+hi "อ๋อ เอ้อ งั้นก็เข้าใจได้"
 
 show lilly cane_reminisce_cas
 with charachange
 
-"Lilly rubs her arm uncomfortably, and after one look at her troubled expression, I quickly move to change the topic away from Hanako."
+# "Lilly rubs her arm uncomfortably, and after one look at her troubled expression, I quickly move to change the topic away from Hanako."
+"ลิลลี่ถูแขนของเธออย่างไม่สบายใจ และหลังจากที่ฉันเห็นสีหน้าที่ดูเป็นกังวลของเธอแล้ว ฉันจึงเปลี่ยนเรื่องออกจาก\nฮานาโกะอย่างไว"
 
-hi "Huh…"
+# hi "Huh…"
+hi "อืม…"
 
 show lilly cane_surprised_cas
 with charachange
 
-li "Yes?"
+# li "Yes?"
+li "อะไรเหรอ?"
 
-hi "I was just wondering… you can get around the city on your own?"
+# hi "I was just wondering… you can get around the city on your own?"
+hi "แค่สงสัยนิดหน่อยน่ะ… เธอเข้าตัวเมืองตัวคนเดียวได้ด้วยเหรอ"
 
 show lilly cane_listen_cas
 with charachange
 
-"Lilly sighs at my consternation surrounding the topic of her blindness. I'm my own worst enemy, sometimes."
+# "Lilly sighs at my consternation surrounding the topic of her blindness. I'm my own worst enemy, sometimes."
+"ลิลลี่ถอนหายใจให้กับอาการกังวลเวลาฉันคุยเรื่องเกี่ยวกับอาการตาบอดของเธอ บางทีฉันนี่แหละคือศัตรูตัวฉกาจของ\nตัวเอง"
 
-li "I can, yes. It's easier when I'm out with a friend or my sister, though."
+# li "I can, yes. It's easier when I'm out with a friend or my sister, though."
+li "ได้สิ แต่ก็ง่ายกว่าถ้าไปกับเพื่อนหรือพี่สาวน่ะ"
 
-"I wonder how Lilly gets along with her sister. Being an only child, it's hard to imagine what having a sibling would be like, so it makes me a little envious of her."
+# "I wonder how Lilly gets along with her sister. Being an only child, it's hard to imagine what having a sibling would be like, so it makes me a little envious of her."
+"ฉันละสงสัยว่าลิลลี่เข้ากันได้ดีกับพี่สาวของเธอแค่ไหน ในฐานะที่เป็นลูกคนเดียว มันยากที่จะจินตนาการว่าการมีพี่น้อง\nเป็นยังไง รู้สึกอิจฉาเธอนิดหน่อยเลยแฮะ"
 
-hi "Right. Well then, the bus arrives in a few minutes, so we should probably get a move on."
+# hi "Right. Well then, the bus arrives in a few minutes, so we should probably get a move on."
+hi "อื้ม เอาละ รถบัสจะมาในอีกไม่กี่นาที ฉันว่าเราเตรียมตัวดีกว่า"
 
 show lilly cane_weaksmile_cas
 with charachange
 
-li "Indeed; it's a long wait if we miss this one."
+# li "Indeed; it's a long wait if we miss this one."
+li "จริงด้วย ถ้าพลาดเที่ยวนี้ต้องรออีกนานเลย"
 
 stop music fadeout 6.0
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
