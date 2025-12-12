@@ -1447,29 +1447,36 @@ $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 scene bg school_road
 with locationchange
 
-"With that, we set off for the bus stop on the hill. It's only a small distance from the school gate, so it's very convenient."
+# "With that, we set off for the bus stop on the hill. It's only a small distance from the school gate, so it's very convenient."
+"เช่นนั้นแล้วเราจึงออกเดินทางไปยังป้ายรถเมล์บนเนินเขา ซึ่งอยู่ห่างจากประตูโรงเรียนแค่นิดเดียว เลยค่อนข้าง\nสะดวก"
 
-hi "It's a nice view from here. Coming from the city, I never really got to see scenery like this, let alone on a daily basis."
+# hi "It's a nice view from here. Coming from the city, I never really got to see scenery like this, let alone on a daily basis."
+hi "ตรงนี้วิวสวยดีแฮะ จากในตัวเมืองไม่เคยได้เห็นวิวทิวทัศน์แบบนี้เลยด้วยซ้ำ ไม่ต้องพูดถึงเรื่องได้เห็นทุกวัน"
 
 show lilly cane_smile_cas at center
 with charaenter
 
-li "This area is nice for me as well. It's tranquil, and away from the noises and smells of the city."
+# li "This area is nice for me as well. It's tranquil, and away from the noises and smells of the city."
+li "แถว ๆ นี้ก็ดีสำหรับฉันเหมือนกัน เงียบสงบ และห่างไกลจากเสียงและกลิ่นต่าง ๆ จากในตัวเมือง"
 
 show lilly back_listen_cas
 show lillyprop back_cane at center
 with charachange
 
-"Lilly's head perks up in a trademark gesture of hers, signifying that she's caught a sound."
+# "Lilly's head perks up in a trademark gesture of hers, signifying that she's caught a sound."
+"ลิลลี่เงยหน้าขึ้นอันเป็นท่าเอกลักษณ์ของเธอ ซึ่งเป็นสัญญาณว่าเธอได้ยินอะไรบางอย่าง"
 
 show lilly back_smile_cas
 with charachange
 
-li  "Oh, here comes the bus…"
+# li  "Oh, here comes the bus…"
+li "โอ๊ะ รถบัสมาแล้ว…"
 
-"I look down the road to see the bus trundling up the hill. Her hearing's quite a useful tool."
+# "I look down the road to see the bus trundling up the hill. Her hearing's quite a useful tool."
+"ฉันมองไปตามถนนแล้วเห็นรถบัสกำลังแล่นขึ้นมาตามเนิน ความหูดีของลิลลี่ก็เป็นประโยชน์ดีเหมือนกัน"
 
-"The bus only takes a short while to reach the bus stop, forcing its way up the road, and within a minute we are on our way to the city."
+# "The bus only takes a short while to reach the bus stop, forcing its way up the road, and within a minute we are on our way to the city."
+"รถบัสใช้เวลาไม่นานก็มาถึงป้ายรถเมล์ โดยเบียดเสียดขึ้นมาตามถนน และไม่ถึงนาทีเราก็มุ่งหน้าเข้าสู่ตัวเมือง"
 
 stop ambient fadeout 2.0
 
@@ -1480,11 +1487,14 @@ play music music_ease fadein 2.0
 $ renpy.music.set_volume(0.4, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 2.0
 
-"Walking around the city, I feel a distinct nostalgia. The smells, the traffic, the tall buildings everywhere… It's a lot like my native city, save for the raised walkways."
+# "Walking around the city, I feel a distinct nostalgia. The smells, the traffic, the tall buildings everywhere… It's a lot like my native city, save for the raised walkways."
+"พอได้เดินในตัวเมืองแล้วก็เกิดความรู้สึกคุ้นเคยขึ้นมา ทั้งกลิ่นอาย การจราจร ตึกระฟ้าดาษดื่น… เหล่านี้ต่างละม้าย\nคล้ายเมืองที่ฉันอาศัยอยู่ จะไม่เหมือนก็แต่ทางเดินลอยฟ้า"
 
-"It feels a little weird; walking around a city as casually as I would in a park, but with cars rushing around underneath me."
+# "It feels a little weird; walking around a city as casually as I would in a park, but with cars rushing around underneath me."
+"รู้สึกแปลกหน่อย ๆ แฮะ ที่ได้เดินรอบ ๆ ตัวเมืองสบาย ๆ เหมือนกับเดินอยู่ในสวนสาธารณะ แต่มีรถวิ่งไปมาอย่าง\nเร่งรีบอยู่ข้างล่าง"
 
-"As I'm busily pondering the engineering marvel that is the raised walkway, I get a surprise."
+# "As I'm busily pondering the engineering marvel that is the raised walkway, I get a surprise."
+"ขณะที่ฉันกำลังครุ่นคิดความทึ่งจากวิศวกรรมของทางเดินลอยฟ้า จู่ ๆ ฉันก็เจอเรื่องที่น่าตกใจ"
 
 show lilly cane_smileclosed_cas_close:
     center
@@ -1492,42 +1502,56 @@ show lilly cane_smileclosed_cas_close:
     easein 1.0 xpos 0.5
 with charaenter
 
-"It takes a moment for me to realize that Lilly has wrapped her arm around mine, extending her cane in front of her with her other hand."
+# "It takes a moment for me to realize that Lilly has wrapped her arm around mine, extending her cane in front of her with her other hand."
+"ฉันใช้เวลาสักพักจึงรู้ตัวได้ว่าลิลลี่ได้คล้องแขนเธอกับฉันแล้ว โดยที่มืออีกข้างของเธอยื่นไม้เท้าออกไปด้านหน้า"
 
-"For a moment I'm startled, but I manage to keep enough of a lid on it for Lilly not to notice. While it's not the first time that Lilly's relied on me for guidance, she'd only held onto my sleeve's cuff before."
+# "For a moment I'm startled, but I manage to keep enough of a lid on it for Lilly not to notice. While it's not the first time that Lilly's relied on me for guidance, she'd only held onto my sleeve's cuff before."
+"ฉันตกใจไปแวบนึง แต่ก็เก็บอาการไม่ให้ลิลลี่รู้ตัว ถึงแม้ว่านี่จะไม่ใช้ครั้งแรกที่เธอให้ฉันช่วยนำทาง แต่ปกติเธอจะจับ\nแค่แขนเสื้อฉันเท่านั้น"
 
-"It's logical that it would be easier for her to navigate a crowded and complex area such as the city while securely linked, but I'm far from being as used to this kind of contact as Lilly is."
+# "It's logical that it would be easier for her to navigate a crowded and complex area such as the city while securely linked, but I'm far from being as used to this kind of contact as Lilly is."
+"ตามหลักแล้วถ้าเธอควงแขนก็จะทำให้นำทางในที่คนพลุกพล่านโดยไม่หลงแหละ แต่ฉันไม่ชินเลยที่ถึงเนื้อต้องตัวกับลิลลี่\nขนาดนี้"
 
-"Finally realizing the growing silence between us as Lilly waits for me to get moving, I quickly kick my brain into gear."
+# "Finally realizing the growing silence between us as Lilly waits for me to get moving, I quickly kick my brain into gear."
+"พอฉันรู้ตัวว่าพวกเราเงียบระหว่างเดินมาสักพักแล้ว ฉันจึงรีบเปิดประเด็นคุย"
 
-hi "You know, it was quite a surprise that Hanako likes to sing. Have you ever heard her do that before?"
+# hi "You know, it was quite a surprise that Hanako likes to sing. Have you ever heard her do that before?"
+hi "เอ้อ ก็น่าแปลกอยู่นะที่ฮานาโกะชอบร้องเพลงน่ะ เธอเคยได้ยินฮานาโกะร้องหรือเปล่า"
 
 show lilly cane_smile_cas_close at center
 with charachange
 
-li "I have indeed. We've been to karaoke sessions several times, along with my sister. I can't say I take to the activity much, but the other two like it."
+# li "I have indeed. We've been to karaoke sessions several times, along with my sister. I can't say I take to the activity much, but the other two like it."
+li "เคยสิจ๊ะ พวกเรามักจะไปร้องคาราโอเกะกับพี่บ่อย ๆ น่ะ ฉันเองก็ไม่ได้ชอบร้องเพลงเท่าไหร่หรอกจ้ะ แต่ทั้งสองคน\nเขาชอบน่ะ"
 
-"Maybe Hanako doing karaoke is more fitting than I initially thought. Just her and those she knows, all alone in a little room."
+# "Maybe Hanako doing karaoke is more fitting than I initially thought. Just her and those she knows, all alone in a little room."
+"บางทีฮานาโกะคงชอบไปคาราโอเกะมากกว่าที่ฉันคิดไว้ตอนแรก อยู่ในห้องเล็ก ๆ ที่มีเพียงเธอกับเพื่อน ๆ ของเธอ"
 
-"It would give her a rare chance to let her guard down, with nobody else there to judge her."
+# "It would give her a rare chance to let her guard down, with nobody else there to judge her."
+"คงทำให้เธอลดกำแพงเธอลงได้บ้าง เพราะไม่มีใครไปตัดสินเธอ"
 
-hi "Maybe it would be nice to bring her into town for a karaoke birthday party, if she likes doing it."
+# hi "Maybe it would be nice to bring her into town for a karaoke birthday party, if she likes doing it."
+hi "ถ้าฮานาโกะชอบร้องเพลง พาไปคาราโอเกะตอนวันเกิดก็คงจะดีนะ"
 
 show lilly cane_sleepy_cas_close
 with charachange
 
-li "Hmm. I'm not sure she would deal very well with the excitement."
+# li "Hmm. I'm not sure she would deal very well with the excitement."
+li "อืม ฉันไม่แน่ใจว่าฮานาโกะจะรับมือกับความตื่นเต้นไหวหรือเปล่า"
 
-"I move to protest, but her face shows that she's mulling the proposal over some more. It takes quite some time for her to come to a conclusion."
+# "I move to protest, but her face shows that she's mulling the proposal over some more. It takes quite some time for her to come to a conclusion."
+"ฉันเตรียมจะค้าน แต่ลิลลี่ก็ทำหน้าเหมือนกำลังคิดอะไรอีกกับสิ่งที่ฉันเสนอไป กว่าเธอจะตัดสินใจได้ก็ใช้เวลานานพอตัว"
 
 show lilly cane_weaksmile_cas_close
 with charachange
 
-li "Then again, the best thing we can do for Hanako at this point is to try to create some pleasant birthday memories. Continually treating her as if she's abnormal won't help."
+# li "Then again, the best thing we can do for Hanako at this point is to try to create some pleasant birthday memories. Continually treating her as if she's abnormal won't help."
+li "แต่ก็นะ สิ่งที่เราทำได้ดีที่สุดตอนนี้คือสร้างความทรงจำดี ๆ ในวันเกิดให้กับฮานาโกะ ขืนทำเหมือนเธอเป็นคนไม่ปกติไปอีก\nก็คงไม่ได้อะไรขึ้นมา"
 
-hi "I think you're right; if she has something to remember apart from loss, then maybe she'll come around."
+# hi "I think you're right; if she has something to remember apart from loss, then maybe she'll come around."
+hi "ก็คงจะถูกของเธอ ถ้าฮานาโกะมีความทรงจำกับงานวันเกิดเป็นอย่างอื่นนอกจากความสูญเสียบ้าง ยังไงก็คงอยากมาแหละ"
 
-"If we bought her something nice that she could see every day then maybe she'd be able to take her mind off her past and remember that she has friends."
+# "If we bought her something nice that she could see every day then maybe she'd be able to take her mind off her past and remember that she has friends."
+"ถ้าซื้ออะไรดี ๆ ที่ฮานาโกะเอาไปตั้งให้เห็นได้ทุกวัน เธอคงจะไม่ต้องจมกับอดีตมากเกินไปและรู้ตัวว่ายังมีเพื่อนอยู่"
 
 "And in any case, I think Hanako can handle something like this. In the time I've spent beside her, I've learned that she isn't quite as frightfully fragile as I first thought she was."
 
