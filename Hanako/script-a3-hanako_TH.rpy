@@ -5431,11 +5431,14 @@ $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 window hide
 
-$ written_note("I wanted to somehow express my feelings, but the right words didn't come to me. I couldn't say anything to comfort you. I am really sorry for not being able to support you when it mattered the most, even though I like you so much. At least now, finally, I can be more honest.\n\n\n\n")
+# $ written_note("I wanted to somehow express my feelings, but the right words didn't come to me. I couldn't say anything to comfort you. I am really sorry for not being able to support you when it mattered the most, even though I like you so much. At least now, finally, I can be more honest.\n\n\n\n")
+$ written_note("ฉันอยากบอกความรู้สึกให้นายได้รู้ แต่ก็นึกหาคำ\nไม่ได้เสียที ฉันพูดอะไรปลอบใจนายไม่ได้เลย ฉัน\nขอโทษจริง ๆ ที่คอยเป็นแรงใจให้นายยามที่นาย\nต้องการแรงใจที่สุดไม่ได้ ทั้งที่ฉันชอบนายมาก\nแท้ ๆ แต่อย่างน้อยตอนนี้ฉันก็พูดตรง ๆ ขึ้นมา\nได้บ้างแล้ว")
 
-$ written_note("If I could go back to those quiet days in February and March, I'd tell you to not give up on yourself. That's what I would say. Maybe you wouldn't have drifted so far away if I had just said something. I hope you've managed to get back on your feet on your own.\n\n\n\n")
+# $ written_note("If I could go back to those quiet days in February and March, I'd tell you to not give up on yourself. That's what I would say. Maybe you wouldn't have drifted so far away if I had just said something. I hope you've managed to get back on your feet on your own.\n\n\n\n")
+$ written_note("ถ้าฉันกลับไปช่วงเดือนกุมภาพันธ์กับเดือนมีนาคมที่\nเงียบสงบนั้นได้ฉันก็อยากบอกนายว่าอย่ายอมแพ้\nนะ ฉันจะบอกอย่างนั้น ถ้าฉันพูดอะไรบ้างนายคง\nไม่ออกเหินห่างไปขนาดนี้ ฉันอยากให้นายลุกขึ้น\nมายืนด้วยตัวเองให้ได้\n\n\n\n")
 
-$ written_note("Now that the distance between us is also physical, it also feels more final, somehow. I wonder if we will meet again. Perhaps it's for the best if we don't? Still, if you would like to correspond with me, by all means write me back. I'd very much like to hear about your new school and how you are doing. I wish you all the best.\n\nSincerely, Iwanako")
+# $ written_note("Now that the distance between us is also physical, it also feels more final, somehow. I wonder if we will meet again. Perhaps it's for the best if we don't? Still, if you would like to correspond with me, by all means write me back. I'd very much like to hear about your new school and how you are doing. I wish you all the best.\n\nSincerely, Iwanako")
+$ written_note("แล้วยิ่งทีนี้ห่างกายกันด้วยก็ยิ่งรู้สึกเหมือนเป็นจุด\nส่งท้ายจริง ๆ ยังไงไม่รู้ เราจะได้เจอกันอีกไหมนะ\nหรือถ้าไม่เจอกันอีกเลยจะดีกว่ากันนะ แต่ถ้ายัง\nอยากติดต่อกับฉันอยู่ก็เขียนส่งกลับมาได้เลยนะ\nฉันยินดีมากที่จะได้ฟังเรื่องโรงเรียนใหม่กับ\nชีวิตใหม่ของนาย ขอให้มีความสุขดีนะ\n\nจากใจ อิวานาโกะ")
 
 window show
 
