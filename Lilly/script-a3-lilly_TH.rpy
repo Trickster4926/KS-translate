@@ -2762,7 +2762,7 @@ with charachange
 li "ก็นะ ที่นี่ไม่มีห้องนอนแขก เพราะงั้น…"
 
 # hi "The convertible futon, huh?"
-hi "นอนกับผ้าฟูตง เนอะ"
+hi "นอนกับฟูกฟูตง เนอะ"
 
 show lilly basic_concerned_cas
 with charachange
@@ -3736,27 +3736,38 @@ window show
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_cicadas fadein 2.0
 
-"I open my eyes groggily, completely bereft of energy."
+# "I open my eyes groggily, completely bereft of energy."
+"ฉันลืมตาขึ้นมาพร้อมอาการครั่นเนื้อครั่นตัวหมดเรี่ยวแรง"
 
-"For a while, I simply lie down lifelessly, staring at the ceiling as I review the events of the morning in an attempt to organize my thoughts."
+# "For a while, I simply lie down lifelessly, staring at the ceiling as I review the events of the morning in an attempt to organize my thoughts."
+"ฉันนอนแบ็งจ้องเพดานอยู่ครู่หนึ่งพลางนึกทบทวนถึงเหตุการณ์เมื่อเช้าเป็นการจัดระเบียบความคิด"
 
-"We went to walk to town. My heart nearly gave way. We came back. I took my pills. I slept."
+# "We went to walk to town. My heart nearly gave way. We came back. I took my pills. I slept."
+"เราเดินไปเมือง ฉันเกือบหัวใจวาย เรากลับมา ฉันกินยา ฉันหลับ"
 
-"I can only remember each period of time as a snapshot, but the timeline is clear enough. The memory of the girls' faces as I struggled to stand is an unpleasant one, stinging my feelings harshly."
+# "I can only remember each period of time as a snapshot, but the timeline is clear enough. The memory of the girls' faces as I struggled to stand is an unpleasant one, stinging my feelings harshly."
+"ฉันจำภาพเหตุการณ์ได้เป็นช่วง ๆ เท่านั้น แต่ยังจำลำดับได้ชัดเจนดีอยู่ ภาพสีหน้าของทั้งสองคนที่ได้เห็นสภาพฉัน\nที่แทบลุกยืนไม่ไหวนั้นทิ่มแทงในความรู้สึกจนเจ็บปวด"
 
-"If I look at the ceiling hard enough, I can imagine the tile edges and small dimples of the ceiling in the hospital. That fact alone is enough to make me sit up and try to pull myself together."
+# "If I look at the ceiling hard enough, I can imagine the tile edges and small dimples of the ceiling in the hospital. That fact alone is enough to make me sit up and try to pull myself together."
+"ถ้าเพ่งเพดานนาน ๆ ไปก็จะมีภาพฝ้าของโรงพยาบาลที่มีเหลี่ยมมุมพร้อมรอยยุบเล็ก ๆ ลอยมาซ้อนทับ เมื่อนึกได้ดังนั้น\nฉันจึงผุดลุกขึ้นนั่งแล้วตั้งสติ"
 
-"I scratch the back of my disheveled hair, glancing around the room. Lilly and Hanako are nowhere to be seen, and the television's turned off."
+# "I scratch the back of my disheveled hair, glancing around the room. Lilly and Hanako are nowhere to be seen, and the television's turned off."
+"ฉันเกาผมส่วนท้ายทอยอันยุ่งเหยิงพลางมองไปรอบ ๆ ห้อง ลิลลี่กับฮานาโกะไม่อยู่ โทรทัศน์ก็ปิดอยู่"
 
-"The clock above it says it's pretty late in the afternoon. The noticeably reddened sky outside the windows confirms it further."
+# "The clock above it says it's pretty late in the afternoon. The noticeably reddened sky outside the windows confirms it further."
+"นาฬิกาบนผนังบอกเวลาว่าตอนนี้บ่ายแก่ ๆ ฟ้าสีแดงฉานนอกหน้าต่างเน้นย้ำเวลาขณะนี้อีกทางหนึ่ง"
 
-"I turn and pick myself off the futon, swaying slightly as I put my arms out for balance. I suppose I'd better go look for the girls to see if they're… all right…"
+# "I turn and pick myself off the futon, swaying slightly as I put my arms out for balance. I suppose I'd better go look for the girls to see if they're… all right…"
+"ฉันบิดตัวแล้วลุกจากฟูกฟูตงขึ้นยืนพลางยืดแขนออกประคองตัวเองไม่ให้โซเซ คงต้องไปดูสองคนนั้นสักหน่อยว่า…\nโอเคดีมั้ย…"
 
-"As I look out the window, I faintly see something in the distance."
+# "As I look out the window, I faintly see something in the distance."
+"พอมองออกไปนอกหน้าต่างก็เห็นเงาบางอย่างอยู่รำไร"
 
-"Straining my eyes, I can just make out the shape of a person's figure. Her long blonde hair, swaying in the faint breeze, makes her almost seem to melt into the bright yellow of the wheat field."
+# "Straining my eyes, I can just make out the shape of a person's figure. Her long blonde hair, swaying in the faint breeze, makes her almost seem to melt into the bright yellow of the wheat field."
+"เมื่อเพ่งตามองก็เห็นเป็นเงาคน ผมยาวสีบลอนด์ที่ไหวไปตามสายลมทำให้ดูคล้ายว่าเธอนั้นกลืนเลือนไปกับทุ่งสาลี\nสีทองอร่าม"
 
-"Without a second thought, I leave the room to follow that lone apparition."
+# "Without a second thought, I leave the room to follow that lone apparition."
+"ฉันเดินออกห้องไปหาเงาที่ยืนโดดเดี่ยวอยู่ตรงนั้นในทันที"
 
 stop ambient fadeout 2.0
 play music music_innocence fadein 14.0
@@ -3764,89 +3775,116 @@ play music music_innocence fadein 14.0
 scene bg hok_wheat_ss at Fullpan(8.0)
 with Fade(0.5, 0.2, 3.0, color="#fff")
 
-"The brightness of the setting sun assaults my freshly woken eyes, forcing me to avert them until they adjust."
+# "The brightness of the setting sun assaults my freshly woken eyes, forcing me to avert them until they adjust."
+"แสงอาทิตย์เจิดจ้าแยงตาฉันที่ยังงัวเงียอยู่จนต้องหรี่ตารอให้ปรับตัวกับความสว่างได้"
 
-"The long, yellow strands of wheat brush against my legs as I wade through them, the densely-grown field making it hard to advance."
+# "The long, yellow strands of wheat brush against my legs as I wade through them, the densely-grown field making it hard to advance."
+"ฉันเดินฝ่าทุ่งสาลีเหลืองอร่ามสูงชะลูดซึ่งขึ้นอย่างแน่นหนาจนเดินลำบาก"
 
-"Regardless, my eyes stay fixed ahead, true to that solitary figure. Within minutes I reach her, meters behind her turned back."
+# "Regardless, my eyes stay fixed ahead, true to that solitary figure. Within minutes I reach her, meters behind her turned back."
+"แต่แม้กระนั้น สายตาของฉันยังคงจับจ้องอยู่ที่เงาโดดเดี่ยวตรงหน้านั้นไม่ไปไหน ผ่านไปสองสามนาทีฉันจึงเดินมาถึง\nในระยะที่อยู่ห่างจากแผ่นหลังของเธอไปไม่กี่เมตร"
 
-hi "Lilly?"
+# hi "Lilly?"
+hi "ลิลลี่?"
 
 scene bg hok_wheat_ss at right
 show lilly back_pout_cas_ss at center
 with charaenter
 
-"She simply nods."
+# "She simply nods."
+"ลิลลี่เพียงพยักหน้า"
 
-hi "Where's Hanako?"
+# hi "Where's Hanako?"
+hi "ฮานาโกะอยู่ไหน"
 
 show lilly back_listen_cas_ss
 with charachange
 
-li "She's in bed. She went to sleep after I calmed her down."
+# li "She's in bed. She went to sleep after I calmed her down."
+li "ฮานาโกะหลับอยู่ พอปลอบให้แล้วก็หลับไป"
 
-"She says it matter-of-factly and with as few words as possible, as if saying any more was strictly forbidden."
+# "She says it matter-of-factly and with as few words as possible, as if saying any more was strictly forbidden."
+"ลิลลี่พูดด้วยน้ำเสียงราบเรียบและยังไม่ใช้คำให้ฟุ่มเฟือย ราวกับว่าการจะพูดอะไรมากกว่านั้นเป็นสิ่งต้องห้าม"
 
-"There's something different about her. Her normally confident figure seems oddly fragile, her body offering no resistance to the breeze blowing her skirt."
+# "There's something different about her. Her normally confident figure seems oddly fragile, her body offering no resistance to the breeze blowing her skirt."
+"เธอดูแปลกไปจากทุกที ปกติตัวลิลลี่นั้นดูเป็นคนมั่นใจ ทว่าคราวนี้เธอดูเปราะบางอย่างประหลาด ร่างกายเธอไม่มีแม้\nแรงต้านสายลมที่พัดโบกกระโปรงของเธอ"
 
-"The strands of wheat sway from side to side while a deafening pause passes, the only sound being their rustling."
+# "The strands of wheat sway from side to side while a deafening pause passes, the only sound being their rustling."
+"ต้นสาลีลู่เอนไปตามลม สิ่งที่เข้ามาแทรกความเงียบในขณะนี้นั้นมีเพียงเสียงต้นสาลีเหล่านั้นที่เสียดสีกัน"
 
-"As we stand in the field alone, I know what I have to ask."
+# "As we stand in the field alone, I know what I have to ask."
+"พวกเรายืนอยู่กลางทุ่งสาลีกันตามลำพัง และฉันรู้แล้วว่าจะต้องถามอะไรต่อ"
 
-hi "What's wrong, Lilly? You're not acting like you usually do."
-
-show lilly back_sad_cas_ss
-with charachange
-
-li "Remember when I talked of my family, Hisao?"
-
-hi "Your family…"
-
-"I look downwards in thought, sifting through my scattered memories. The event seems to leap ready to hand when I search for it, rising to the surface as soon as it was recalled."
-
-hi "After Hanako's birthday party?"
-
-"She gives a single, simple nod."
-
-show lilly back_pout_cas_ss
-with charachange
-
-li "It was nice… back then. You and I, celebrating with Hanako. Simply sharing presents, talking, having fun together. It was almost as if we were a family. One small, misshapen family."
+# hi "What's wrong, Lilly? You're not acting like you usually do."
+hi "มีอะไรหรือเปล่าลิลลี่ เธอทำตัวแปลก ๆ นะ"
 
 show lilly back_sad_cas_ss
 with charachange
 
-li "I thought that could just go on forever. Just the three of us, happily together."
+# li "Remember when I talked of my family, Hisao?"
+li "จำตอนที่ฉันเล่าเรื่องครอบครัวให้เธอฟังได้มั้ยฮิซาโอะ"
 
-"She takes a long breath, a slight shakiness to it just barely audible through the moving air."
+# hi "Your family…"
+hi "ครอบครัวของเธอ…"
+
+# "I look downwards in thought, sifting through my scattered memories. The event seems to leap ready to hand when I search for it, rising to the surface as soon as it was recalled."
+"ฉันก้มหัวครุ่นคิดเสาะหาในท่ามกลางความทรงจำอันระเกะระกะ เหตุการณ์นั้นคล้ายลอยเด่นขึ้นมาจากกองเหล่านั้น\nทันทีที่ฉันย้อนระลึกถึง"
+
+# hi "After Hanako's birthday party?"
+hi "ตอนที่จัดงานวันเกิดให้ฮานาโกะแล้วน่ะเหรอ"
+
+# "She gives a single, simple nod."
+"ลิลลี่พยักหน้าสั้น ๆ หนึ่งครั้ง"
 
 show lilly back_pout_cas_ss
 with charachange
 
-li "Even if my family was so far away… as long as we were together, that was all I needed. I don't want to lose you, Hisao."
+# li "It was nice… back then. You and I, celebrating with Hanako. Simply sharing presents, talking, having fun together. It was almost as if we were a family. One small, misshapen family."
+li "ตอนนั้น… มันก็ดีนะ นายกับฉันฉลองด้วยกันกับฮานาโกะ ให้ของขวัญกัน คุยกัน สนุกด้วยกัน เหมือนว่าพวกเรา\nเป็นครอบครัวเลย ครอบครัวเล็ก ๆ ผิดรูปครอบครัวหนึ่ง"
 
-li "I didn't even realize how afraid I was of losing someone else until today. Until…"
+show lilly back_sad_cas_ss
+with charachange
 
-hi "I'm sorry, Lilly. I know my body's weak, but even then I make the most stupid of mistakes."
+# li "I thought that could just go on forever. Just the three of us, happily together."
+li "ฉันอยากให้เป็นอย่างนั้นไปตลอดกาลเลย เพียงเราสามคนอยู่ด้วยกันอย่างมีความสุข"
+
+# "She takes a long breath, a slight shakiness to it just barely audible through the moving air."
+"ลิลลี่ถอนหายใจยาว ความสั่นเครือในน้ำเสียงนั้นถูกลมที่พัดไหวกลบไปจนแทบสิ้น"
+
+show lilly back_pout_cas_ss
+with charachange
+
+# li "Even if my family was so far away… as long as we were together, that was all I needed. I don't want to lose you, Hisao."
+li "ถึงแม้ครอบครัวของฉันจะอยู่แสนไกล… แต่ขอแค่ตราบใดที่พวกเราอยู่ด้วยกัน ฉันก็ไม่ต้องการอะไรอีกแล้ว\nฉันไม่อยากเสียเธอไปเลย ฮิซาโอะ"
+
+# li "I didn't even realize how afraid I was of losing someone else until today. Until…"
+li "ฉันไม่เคยรู้เลยว่าฉันเองกลัวการสูญเสียใครสักคนไปแค่ไหน จนกระทั่ง…"
+
+# hi "I'm sorry, Lilly. I know my body's weak, but even then I make the most stupid of mistakes."
+hi "ขอโทษนะลิลลี่ ทั้งที่รู้อยู่แท้ ๆ ว่าร่างกายตัวเองอ่อนแอ แต่บางทีฉันก็ยังทำอะไรพลาดแบบโง่ ๆ อยู่เลย"
 
 stop music fadeout 4.0
 
 show lilly back_sad_cas_ss
 with charachange
 
-li "Don't apologize… please don't apologize…"
+# li "Don't apologize… please don't apologize…"
+li "ไม่จำเป็นเลย… ไม่จำเป็นต้องขอโทษหรอก…"
 
-hi "Lilly…?"
+# hi "Lilly…?"
+hi "ลิลลี่…"
 
 show lilly basic_concerned_cas_ss
 with charachange
 
-"She turns to face me, her pale cheeks stained with tears."
+# "She turns to face me, her pale cheeks stained with tears."
+"เธอหันมามองฉันพร้อมน้ำตาที่อาบสองแก้ม"
 
 show lilly basic_concerned_cas_close_ss
 with characlose
 
-"One misguided step after another she stumbles towards me, her arms held out in search of so much as a faint brush against me."
+# "One misguided step after another she stumbles towards me, her arms held out in search of so much as a faint brush against me."
+"ลิลลี่ก้าวพลาดติดกันสองสามก้าวจนสะดุดล้มเข้าหาฉัน เธอยื่นแขนออกมาเพื่อที่จะพยายามเสาะหาตัวฉันแม้เพียง\nเสี้ยวหนึ่งให้เจอ"
 
 play music music_romance fadein 2.0
 
@@ -3863,52 +3901,73 @@ with GenericWhiteout(1.0, 0.0, 4.0)
 
 window show
 
-"My heart doesn't race nor pound as I step towards Lilly, gently taking and steadying her in my arms as she quickly clutches to me, sobbing."
+# "My heart doesn't race nor pound as I step towards Lilly, gently taking and steadying her in my arms as she quickly clutches to me, sobbing."
+"ฉันเดินเข้าไปหาลิลลี่ด้วยใจที่ไม่ได้เต้นรัวแรงเป็นพิเศษแล้วคว้าพยุงตัวเธอไว้อย่างอ่อนโยนในจังหวะเดียวกันกับที่เธอ\nจับตัวฉันแน่นพลางร้องสะอึกสะอื้น"
 
-"With her face trembling against my shoulder, the next words from her mouth are the last I expected."
+# "With her face trembling against my shoulder, the next words from her mouth are the last I expected."
+"ลิลลี่ตัวสั่นซบอยู่กับไหล่ฉัน คำพูดต่อมาจากเธอนั้นเกินจากความคาดหมายของฉันไปไกล"
 
-li "I love you, Hisao. I love you, I love you, I love you, I love you, I love you!"
+# li "I love you, Hisao. I love you, I love you, I love you, I love you, I love you!"
+li "ฉันรักเธอนะฮิซาโอะ ฉันรักเธอ ฉันรักเธอ ฉันรักเธอ ฉันรักเธอ ฉันรักเธอ!"
 
-li "Don't go away, I beg of you. Never, ever go away. I love you, so please…!"
+# li "Don't go away, I beg of you. Never, ever go away. I love you, so please…!"
+li "อย่าไปไหนเลยนะ ขอร้องละ อย่าไปไหนอีกเลย ฉันรักเธอ ได้โปรด…!"
 
-"So… that's why she's been acting like this. That tender voice when I called her, her thoughtless concern at the slightest pain I might feel…"
+# "So… that's why she's been acting like this. That tender voice when I called her, her thoughtless concern at the slightest pain I might feel…"
+"มิน่าล่ะ… ลิลลี่ถึงได้ทำตัวอย่างนั้น ทั้งเสียงขานรับอันอ่อนโยนยามที่ฉันเรียกหา ทั้งความเป็นห่วงที่มีให้กับอาการ\nเจ็บป่วยแม้เพียงน้อยนิดของฉันโดยไม่คิดอะไร…"
 
-"After having been left in Japan without her family, and with only Akira, Hanako and me around, she was afraid of losing yet another person who was close to her. She was genuinely worried for me."
+# "After having been left in Japan without her family, and with only Akira, Hanako and me around, she was afraid of losing yet another person who was close to her. She was genuinely worried for me."
+"ลิลลี่ถูกครอบครัวทิ้งให้อยู่ที่ญี่ปุ่น โดยที่คนใกล้ชิดกับเธอมีเพียงอากิระ ฮานาโกะ แล้วก็ฉัน เธอจึงกลัวการที่จะต้อง\nสูญเสียคนที่สนิทกับเธอไปอีกคน ที่ผ่านมาลิลลี่นั้นเป็นห่วงฉันจริง ๆ"
 
-"It's a strange feeling. A mix of surprise and sorrow, yet also of the deepest gratitude I think I've ever felt. The only reaction I can muster among my conflicting emotions is a calm sigh."
+# "It's a strange feeling. A mix of surprise and sorrow, yet also of the deepest gratitude I think I've ever felt. The only reaction I can muster among my conflicting emotions is a calm sigh."
+"เป็นความรู้สึกที่ประหลาด มีทั้งความแปลกใจ เศร้าสร้อย และยังมีความรู้สึกยินดีอย่างถึงที่สุดเท่าที่เคยรู้สึกมาต่อเธอ\nในใจยังคงมีอารมณ์ที่ระคนกันอยู่ สิ่งเดียวที่ฉันพอจะตอบเธอได้มีเพียงเสียงถอนหายใจอย่างสงบเท่านั้น"
 
-hi "You idiot."
+# hi "You idiot."
+hi "ยัยบ๊อง"
 
-li "Hi… sao?"
+# li "Hi… sao?"
+li "ฮิ… ซาโอะ?"
 
-"For a fleeting moment, I feel her body become still. The only movement to be felt is the calm afternoon breeze."
+# "For a fleeting moment, I feel her body become still. The only movement to be felt is the calm afternoon breeze."
+"ร่างลิลลี่ที่ฉันสัมผัสอยู่แข็งค้างไปชั่วเสี้ยววินาทีหนึ่ง สิ่งเดียวที่ยังเคลื่อนไหวมีเพียงสายลมเอื่อยยามบ่าย"
 
-hi "I said it before, didn't I? It's only natural to feel concerned about those around you."
+# hi "I said it before, didn't I? It's only natural to feel concerned about those around you."
+hi "ฉันเคยบอกเธอไปแล้วนี่ว่าคนเราจะเป็นห่วงคนรอบตัวก็ไม่แปลก"
 
-hi "I'm still here, and I'll always be here, because I want to see you more each day. To share in your happiness, to support you in your sadness…"
+# hi "I'm still here, and I'll always be here, because I want to see you more each day. To share in your happiness, to support you in your sadness…"
+hi "ฉันยังอยู่ตรงนี้ และจะอยู่เคียงข้างเธอตลอดไป เพราะทุกวันฉันอยากเจอเธอให้บ่อยขึ้น เพื่อที่พอมีสุขแล้วก็จะได้ร่วมสุข\nมีทุกข์ก็จะได้ร่วมทุกข์…"
 
-hi "But most of all, I'll still be here because I want to see your smile. Your true smile."
+# hi "But most of all, I'll still be here because I want to see your smile. Your true smile."
+hi "แต่ที่สำคัญที่สุด ฉันจะอยู่เคียงข้างเธอ เพราะฉันอยากเห็นรอยยิ้มของเธอ รอยยิ้มที่แท้จริงของเธอ"
 
-"A single gust of wind rustles the long strands of wheat, a second's silence passes."
+# "A single gust of wind rustles the long strands of wheat, a second's silence passes."
+"ลมพัดมาวูบหนึ่งไล้ต้นสาลีที่สูงชะลูด พวกเราเงียบไปชั่วอึดใจหนึ่ง"
 
-hi "Smile when you want to smile. Cry when you want to cry. I love you, Lilly. So you don't have to hold back any more."
+# hi "Smile when you want to smile. Cry when you want to cry. I love you, Lilly. So you don't have to hold back any more."
+hi "ถ้าอยากยิ้มก็ยิ้มเลย ถ้าอยากร้องไห้ก็ร้องเลย ฉันรักเธอนะลิลลี่ ไม่ต้องฝืนตัวเองอีกแล้วนะ"
 
-"With that, her arms clutch my back as tightly as she can, her face buried beside mine."
+# "With that, her arms clutch my back as tightly as she can, her face buried beside mine."
+"แล้วเธอก็ซบหน้าเข้ากับไหล่ฉันพลางจับหลังฉันแน่นสุดแรง"
 
 scene ev lilly_wheat_small:
     xalign 0.5 yalign 0.5 zoom 1.1 subpixel True
     ease 16.0 zoom 1.0
 with whiteout
 
-"Her tears fall down my back and she cries unrestrainedly as the last of her resistance melts away."
+# "Her tears fall down my back and she cries unrestrainedly as the last of her resistance melts away."
+"น้ำตาเธอร่วงเผาะลงที่หลังฉัน เธอทิ้งความอดกลั้นทั้งหลายใด ๆ แล้วปล่อยให้ตัวเองร้องไห้เต็มที่"
 
-li "Hisao! Hisao! Hisao!"
+# li "Hisao! Hisao! Hisao!"
+li "ฮิซาโอะ! ฮิซาโอะ! ฮิซาโอะ!"
 
-"I close my eyes and bring my head down to her shoulder, holding her shaking frame tightly."
+# "I close my eyes and bring my head down to her shoulder, holding her shaking frame tightly."
+"ฉันหลับตาซบไหล่โอบร่างที่สั่นเทาของเธอไว้แน่น"
 
-hi "It's okay, Lilly. I'll never go away."
+# hi "It's okay, Lilly. I'll never go away."
+hi "ไม่เป็นไรนะลิลลี่ ฉันจะไม่ไปไหนอีกแล้ว"
 
-hi "I promise."
+# hi "I promise."
+hi "ฉันสัญญา"
 
 stop music fadeout 6.0
 
@@ -3919,168 +3978,218 @@ label th_L17:
 scene bg hok_lounge_ss
 with locationskip
 
-"We slowly walk back to the house, holding each other tightly as we take a seat inside. Lilly leans her head onto my shoulder as I put my arm around her waist."
+# "We slowly walk back to the house, holding each other tightly as we take a seat inside. Lilly leans her head onto my shoulder as I put my arm around her waist."
+"พวกเราค่อย ๆ เดินกลับมาที่บ้าน พอนั่งลงแล้วพวกเราก็กอดกันแน่น ลิลลี่เอาหัวซบไหล่ฉัน ส่วนฉันก็เอาแขนโอบเอว\nเธอไว้"
 
-"Neither of us has any want to break the silence."
+# "Neither of us has any want to break the silence."
+"ไม่มีใครต้องการที่จะพูดอะไร"
 
-"With her eyes shut it's hard to work out whether she's fallen asleep. Not that I mind: the warmth of her body leaning against me, the softness of her hand delicately held in mine…"
+# "With her eyes shut it's hard to work out whether she's fallen asleep. Not that I mind: the warmth of her body leaning against me, the softness of her hand delicately held in mine…"
+"ลิลลี่หลับตาจนฉันไม่รู้ว่าหลับอยู่หรือเปล่า ซึ่งฉันก็ไม่ถือหรอก ทั้งความอบอุ่นจากร่างกายเธอที่พิงฉัน ทั้งความนุ่มนวล\nจากมือเธอที่จับมือฉันไว้อย่างอ่อนโยน…"
 
-"For a long, long time we sit leaning against one another, sharing our warmth and feelings as night eventually begins to settle in."
+# "For a long, long time we sit leaning against one another, sharing our warmth and feelings as night eventually begins to settle in."
+"พวกเรานั่งพิงกันแบ่งปันความอบอุ่นและความรู้สึกของกันและกันอยู่นานสองนานจนค่ำคืนเริ่มคืบคลานเข้ามา"
 
-"Lilly's gentle, soft voice ends the silence."
+# "Lilly's gentle, soft voice ends the silence."
+"ลิลลี่เปล่งเสียงอันอ่อนโยนและนุ่มนวลขึ้นมาก่อน"
 
 show lilly basic_smileclosed_cas_close_ss at center
 with charaenter
 
 play music music_twinkle fadein 6.0
 
-li "Thank you, Hisao."
+# li "Thank you, Hisao."
+li "ขอบคุณนะฮิซาโอะ"
 
-hi "Thank you?"
+# hi "Thank you?"
+hi "ขอบคุณ?"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
-li "For returning my feelings."
+# li "For returning my feelings."
+li "ที่ตอบรับความรู้สึกของฉัน"
 
-hi "Did you think I wouldn't?"
+# hi "Did you think I wouldn't?"
+hi "คิดว่าฉันจะบอกปัดเหรอ"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
-li "There was the possibility."
+# li "There was the possibility."
+li "ก็ยังเป็นไปได้นี่นา"
 
-"I take a deep breath in thought. That much was only my fault."
+# "I take a deep breath in thought. That much was only my fault."
+"ฉันสูดหายใจลึกพลางครุ่นคิด ก็เป็นความผิดของฉันเองละนะ"
 
-hi "It's funny, actually. I was thinking of telling you about my own feelings sometime soon."
+# hi "It's funny, actually. I was thinking of telling you about my own feelings sometime soon."
+hi "แต่ก็ตลกดีนะ ฉันเองก็กะจะบอกรักเธออยู่เหมือนกัน"
 
-hi "I guess, in that way, you saved me the effort."
+# hi "I guess, in that way, you saved me the effort."
+hi "ก็คงนับได้ว่าเธอช่วยทุ่นแรงฉันไปได้ละมั้ง"
 
 show lilly basic_giggle_cas_close_ss
 with charachange
 
-"She raises her head a little and gives a tiny, amused giggle. I smile at how earnest it is, so girlish in its lightness. She collects herself soon afterward, her hair resting against my shoulder."
+# "She raises her head a little and gives a tiny, amused giggle. I smile at how earnest it is, so girlish in its lightness. She collects herself soon afterward, her hair resting against my shoulder."
+"ลิลลี่ยกหัวขึ้นเล็กน้อยก่อนจะหัวเราะคิกคักชอบใจ ฉันยิ้มให้กับความจริงใจในเสียงหัวเราะอันสดใสราวเด็กสาวนั้น\nแล้วเธอก็จัดแจงตัวเองให้ดูเรียบร้อยโดยที่ผมของเธอยังพาดอยู่บนบ่าฉัน"
 
-hi "Feeling a bit better?"
+# hi "Feeling a bit better?"
+hi "รู้สึกดีขึ้นหรือยัง"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
-"She gives a small nod."
+# "She gives a small nod."
+"ลิลลี่พยักหน้าน้อย ๆ"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
-li "You are thoughtful, Hisao. That's why I like you."
+# li "You are thoughtful, Hisao. That's why I like you."
+li "เธอเป็นคนจิตใจดีนะฮิซาโอะ นี่แหละฉันถึงได้ชอบเธอ"
 
-hi "I'm sorry I'm like this. As much as I didn't want to make you concerned for me, I couldn't do anything to prevent it."
+# hi "I'm sorry I'm like this. As much as I didn't want to make you concerned for me, I couldn't do anything to prevent it."
+hi "ขอโทษที่ฉันอ่อนแออย่างนี้นะ ถึงฉันจะไม่อยากให้เธอต้องมาห่วงฉันก็จริง แต่ฉันก็ทำอะไรกับความอ่อนแอนี้ไม่ได้เลย"
 
 show lilly basic_concerned_cas_close_ss
 with charachange
 
-li "Don't apologize for it. Please don't."
+# li "Don't apologize for it. Please don't."
+li "ไม่ต้องขอโทษหรอกจ้ะ อย่าเลย"
 
-hi "Lilly?"
+# hi "Lilly?"
+hi "ลิลลี่?"
 
 show lilly basic_reminisce_cas_close_ss
 with charachange
 
-li "Have I ever apologized for my blindness, even once? You can't help the way you were born, Hisao. There's no point in apologizing for who you are."
+# li "Have I ever apologized for my blindness, even once? You can't help the way you were born, Hisao. There's no point in apologizing for who you are."
+li "ฉันเคยขอโทษที่ฉันตาบอดสักครั้งหรือเปล่า คนเราน่ะเลือกเกิดไม่ได้หรอกนะฮิซาโอะ ขอโทษที่ตัวเราเป็นอย่างนั้นไป\nก็ไม่ได้อะไรขึ้นมาหรอก"
 
-"She says this with surprising conviction. In the end, it was perhaps this mentality which spurred her to befriend me in such a short time, in addition to her motherly instincts."
+# "She says this with surprising conviction. In the end, it was perhaps this mentality which spurred her to befriend me in such a short time, in addition to her motherly instincts."
+"น้ำเสียงเธอฟังดูเด็ดเดี่ยวเหลือเชื่อ สุดท้ายแล้ว ก็อาจเป็นความคิดเช่นนี้เองที่ทำให้เธอได้เป็นเพื่อนกับฉันได้อย่าง\nรวดเร็วขนาดนั้น กอปรกับสัญชาตญาณอย่างคนเป็นแม่ของเธอด้วย"
 
-"She did seem to become trusting very quickly, but I'd never questioned why. Now it seems obvious that she did so to help me as I went through one of the lowest points of my life."
+# "She did seem to become trusting very quickly, but I'd never questioned why. Now it seems obvious that she did so to help me as I went through one of the lowest points of my life."
+"ลิลลี่วางใจฉันตั้งแต่แรก ๆ ที่รู้จักกันก็จริง แต่ฉันก็ไม่เคยคิดจะถามหาเหตุผลเลย ทว่าตอนนี้คำตอบนั้นชัดเจนแล้วว่า\nที่เธอทำไปเพราะอยากช่วยฉันที่กำลังฝ่าฟันช่วงที่แย่ที่สุดช่วงหนึ่งในชีวิตอยู่"
 
-"I move to respond, but cut myself off as I feel her fingers run gently through my hair. I feel their soft and delicate touch moving downwards to trace the contours of my face, her palm finally settling on my cheek."
+# "I move to respond, but cut myself off as I feel her fingers run gently through my hair. I feel their soft and delicate touch moving downwards to trace the contours of my face, her palm finally settling on my cheek."
+"ฉันเตรียมจะพูดตอบ แต่ก็ต้องผงะไปเมื่อลิลลี่สางผมฉันเบา ๆ สัมผัสอันนุ่มนวลและแผ่วเบานั้นลากไปตามส่วนนูนเว้า\nบนใบหน้า จนสุดท้ายมาหยุดอยู่ที่แก้ม"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
-li "You are a beautiful person, Hisao. Please, don't ever apologize for that."
+# li "You are a beautiful person, Hisao. Please, don't ever apologize for that."
+li "เธอน่ะเป็นคนที่{i}งดงาม{/i}นะฮิซาโอะ อย่าได้ขอโทษเรื่องนั้นอีกเลย"
 
-"For a moment, I'm utterly speechless. I slowly bend my head down, placing a tender kiss on her light, voluminous hair."
+# "For a moment, I'm utterly speechless. I slowly bend my head down, placing a tender kiss on her light, voluminous hair."
+"ฉันนิ่งอึ้งไปครู่หนึ่งก่อนจะก้มหัวลงลงจุมพิตกลุ่มผมสลวยของเธออย่างแผ่วเบา"
 
-hi "We're a couple of right old fools, aren't we?"
+# hi "We're a couple of right old fools, aren't we?"
+hi "พวกเราสองคนนี่โง่เง่าสิ้นดีเลยเนอะ"
 
 show lilly basic_cheerful_cas_close_ss
 with charachange
 
-li "…We are."
+# li "…We are."
+li "…นั่นสินะ"
 
-"After a long calm, she speaks again."
+# "After a long calm, she speaks again."
+"หลังจากที่เงียบกันไปอีกพักหนึ่งลิลลี่ก็พูดขึ้นอีกครั้ง"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
-li "Hisao?"
+# li "Hisao?"
+li "ฮิซาโอะ?"
 
-hi "Yes?"
+# hi "Yes?"
+hi "ว่า"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
-li "I…"
+# li "I…"
+li "ถ้า…"
 
 stop music fadeout 4.0
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
-li "I wouldn't mind if you…"
+# li "I wouldn't mind if you…"
+li "ถ้าเธอจะ…"
 
-"I feel her hand tensing under mine, trembling slightly. My mouth opens, but try as I might I can't formulate a response to her proposition."
+# "I feel her hand tensing under mine, trembling slightly. My mouth opens, but try as I might I can't formulate a response to her proposition."
+"มือของเธอที่ฉันกุมอยู่นั้นสั่นเกร็งเล็กน้อย ฉันได้แต่อ้าปากโดยที่ไม่อาจนึกหาคำพูดใด ๆ มาตอบรับสิ่งที่เธอว่ามาได้"
 
-hi "Lilly…"
+# hi "Lilly…"
+hi "ลิลลี่…"
 
-"Before I can say another word, she slips her hand from under mine and tenderly holds the side of my face once more."
+# "Before I can say another word, she slips her hand from under mine and tenderly holds the side of my face once more."
+"ลิลลี่ดึงมือออกจากการเกาะกุมของฉันแล้วมาจับใบหน้าด้านข้างของฉันอีกครั้งอย่างนุ่มนวล"
 
 show lilly basic_pout_cas_close_ss
 with charachange
 
-li "Please."
+# li "Please."
+li "ขอร้องละ"
 
-"I give a peaceful smile, holding her hand against my cheek as I nod a single time."
+# "I give a peaceful smile, holding her hand against my cheek as I nod a single time."
+"ฉันยิ้มตอบอย่างผ่อนคลายพลางจับมือเธอที่อยู่บนแก้มฉันแล้วพยักหน้าหนึ่งครั้ง"
 
-hi "Okay."
+# hi "Okay."
+hi "ได้"
 
 play music music_heart fadein 0.5
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
-"As I look into her eyes, she leans towards me. Her delicate lips touch mine as she guides herself with her hand."
+# "As I look into her eyes, she leans towards me. Her delicate lips touch mine as she guides herself with her hand."
+"ฉันมองตาลิลลี่ในจังหวะที่เธอโน้มตัวเข้ามา ริมฝีปากลิลลี่ทาบเข้ากับริมฝีปากฉันระหว่างที่เธอใช้มือนำทาง"
 
-"She breaks off not a second later, faintly smiling."
+# "She breaks off not a second later, faintly smiling."
+"ผ่านไปชั่วอึดใจเธอก็ผละตัวออกแล้วคลี่ยิ้มจาง ๆ"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
-li "I love you, Hisao."
+# li "I love you, Hisao."
+li "ฉันรักเธอนะฮิซาโอะ"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
-"We kiss again, this time with both of us meeting the other."
+# "We kiss again, this time with both of us meeting the other."
+"เราจูบกันอีกครั้ง ทว่าคราวนี้เราสองคนหันตัวเข้าหากันเต็มที่"
 
-"While the previous kiss was one of love, this is one of lust, our tongues meeting and our breathing heavy. After precious seconds we part, both our faces well and truly flushed."
+# "While the previous kiss was one of love, this is one of lust, our tongues meeting and our breathing heavy. After precious seconds we part, both our faces well and truly flushed."
+"จูบครั้้งแรกนั้นเป็นความรัก และจูบครั้งนี้เป็นความใคร่ ลิ้นของเราสอดประสานกันอยู่ใต้ลมหายใจที่หอบหนัก\nหน้าของพวกเรานั้นแดงก่ำหลังจากที่ชั่วขณะอันหอมหวานนั้นจบลง"
 
-"Both of us bring our fingers to our lips in unison, recalling that fleeting feeling, rapidly becoming buried both by our urges and bashfulness."
+# "Both of us bring our fingers to our lips in unison, recalling that fleeting feeling, rapidly becoming buried both by our urges and bashfulness."
+"พวกเรายกมือขึ้นมาแตะปากพร้อม ๆ กันเพื่อระลึกถึงสัมผัสชั่วแล่นนั้น ทั้งแรงกระตุ้นและความเขินอายแล่นเข้ามา\nในความคิดพวกเราอย่างรวดเร็ว"
 
 show lilly basic_pout_cas_close_ss
 with charachange
 
-"Lilly is the first to shift uncomfortably, though."
+# "Lilly is the first to shift uncomfortably, though."
+"แต่เป็นฝั่งลิลลี่ที่ทำท่ากระมิดกระเมี้ยนก่อน"
 
-hi "What is it?"
+# hi "What is it?"
+hi "มีอะไรเหรอ"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
-li "Should we… get more comfortable?"
+# li "Should we… get more comfortable?"
+li "ไปที่… ที่มันสะดวกกว่านี้มั้ย"
 
-hi "Hmm? Ah, o-okay…"
+# hi "Hmm? Ah, o-okay…"
+hi "หืม? อ้อ อะ โอเค…"
 
-"Now that she mentions it, this futon would be a bit too narrow to do much on. Considering the thoughts running through both our minds, it's no small wonder one of us has any measure of foresight left."
+# "Now that she mentions it, this futon would be a bit too narrow to do much on. Considering the thoughts running through both our minds, it's no small wonder one of us has any measure of foresight left."
+"จะว่าไปแล้ว ฟูกฟูตงนี่ก็คงแคบเกินกว่าที่จะทำอะไรได้ถนัด แต่ด้วยสิ่งที่อยู่ในความคิดเราสองคนตอนนี้ ก็คง\nไม่แปลกที่ต่างคนต่างแทบไม่เหลือสมองส่วนที่มาจะคิดวางแผนอะไรแล้ว"
 
 show lilly invis:
     ypos 1.2
@@ -4089,83 +4198,108 @@ with dissolvecharamove
 hide lilly
 with vpunch
 
-"I take her hands and guide her sideways as I move, the brief and awkward dance ending with both of us tentatively sitting on the floor opposite each other."
+# "I take her hands and guide her sideways as I move, the brief and awkward dance ending with both of us tentatively sitting on the floor opposite each other."
+"ฉันจับมือเดินนำทางลิลลี่ไปด้านข้าง พวกเราเดินอย่างกระอักกระอ่วนโซเซกันไปมาอยู่ครู่หนึ่งก่อนจะมานั่งกับพื้น\nหันหน้าเข้าหากันอย่างเก้ ๆ กัง ๆ"
 
-"As I reach forward to pull her top up, she stops after she moves her hands to do the same."
+# "As I reach forward to pull her top up, she stops after she moves her hands to do the same."
+"พอยื่นมือไปหมายจะถกเสื้อของเธอขึ้น ลิลลี่ที่ยื่นมือมาเพื่อจะถอดเสื้อฉันด้วยก็ชะงักไป"
 
 show lilly basic_concerned_cas_close_ss:
     center
     ypos 1.17
 with charaenter
 
-li "You're shaking…"
+# li "You're shaking…"
+li "มือเธอสั่น…"
 
-"I pause for a moment and look at my hands."
+# "I pause for a moment and look at my hands."
+"ฉันนิ่งไปครู่หนึ่งแล้วก้มมองมือตัวเอง"
 
-"Sure enough, they're quivering slightly. Whether it's from nervousness or excitement, I'm not sure."
+# "Sure enough, they're quivering slightly. Whether it's from nervousness or excitement, I'm not sure."
+"ก็จริง มือฉันสั่นอยู่นิดหน่อย แต่ไม่รู้ว่าสั่นเพราะประหม่าหรือตื่นเต้นกันแน่"
 
-hi "Uh… I guess I am."
+# hi "Uh… I guess I am."
+hi "เอ่อ… ก็สั่นแหละ"
 
 show lilly basic_weaksmile_cas_close_ss
 with charachange
 
-li "So you're as nervous as I am, then?"
+# li "So you're as nervous as I am, then?"
+li "แปลว่าเธอก็ตื่นเต้นเหมือนกันงั้นสิ"
 
-"I withdraw my hands and sigh, steadying myself. We have plenty of time, so there's no need to rush this."
+# "I withdraw my hands and sigh, steadying myself. We have plenty of time, so there's no need to rush this."
+"ฉันชักมือกลับแล้วถอนหายใจเพื่อตั้งสติ ยังมีเวลาอีกเยอะ ไม่ต้องรีบ"
 
-hi "Sorry. It's my first time, so I'm a bit…"
+# hi "Sorry. It's my first time, so I'm a bit…"
+hi "ขอโทษที พอดีเพิ่งเคยทำเป็นครั้งแรก ก็เลย…"
 
 show lilly basic_cheerfulblush_cas_close_ss
 with charachange
 
-"She giggles shakily, all but confirming what I reasonably deduced by now."
+# "She giggles shakily, all but confirming what I reasonably deduced by now."
+"ลิลลี่หัวเราะคิกคักเสียงสั่น ซึ่งก็บ่งบอกว่าที่ฉันเดานั้นถูกแล้ว"
 
 show lilly basic_smile_cas_close_ss
 with charachange
 
-li "It's the same for me. I'm happy… we could share this together."
+# li "It's the same for me. I'm happy… we could share this together."
+li "ฉันก็เหมือนกัน ดีใจจัง… ที่ได้ทำเป็นครั้งแรกด้วยกัน"
 
-"I match her smile twofold, leaning forward and taking her body in my arms as she reaches to hug me back."
+# "I match her smile twofold, leaning forward and taking her body in my arms as she reaches to hug me back."
+"ฉันยิ้มกว้างไปกว่าลิลลี่สองเท่าก่อนจะโน้มตัวเข้าไปโอบเธอเอาไว้ ส่วนเธอเองก็กอดฉันกลับ"
 
-hi "I love you, Lilly."
+# hi "I love you, Lilly."
+hi "ฉันรักเธอนะลิลลี่"
 
 show lilly basic_smileclosed_cas_close_ss
 with charachange
 
-li "You already said that."
+# li "You already said that."
+li "เธอพูดไปแล้วนี่"
 
-"I can't help grinning. Even in such a situation, she still has her wits about her."
+# "I can't help grinning. Even in such a situation, she still has her wits about her."
+"ฉันอดยิ้มไม่ได้ สถานการณ์อย่างนี้แท้ ๆ แต่สติยังอยู่ดี"
 
 hide lilly
 with charaexit
 
-"Breaking our embrace, we decide to take off our own clothing. While it's easier this way, I don't doubt it's just an attempt to distract ourselves from our nerves."
+# "Breaking our embrace, we decide to take off our own clothing. While it's easier this way, I don't doubt it's just an attempt to distract ourselves from our nerves."
+"พวกเราผละออกจากกันแล้วต่างถอดเสื้อผ้าของตัวเอง ส่วนหนึ่งที่ทำอย่างนี้เพราะสะดวกกว่าก็จริง แต่อีกส่วนก็\nเป็นไปได้ว่าที่ทำไปเพราะจะได้ไม่ประหม่ากันมากด้วย"
 
-"With slightly stiff hands, I begin to slide the first button out from my shirt."
+# "With slightly stiff hands, I begin to slide the first button out from my shirt."
+"ฉันแกะกระดุมเสื้อเม็ดแรกด้วยมือที่ยังเกร็ง ๆ อยู่"
 
-"Once we remove the last of our clothes, which end up haphazardly piled behind us, my breath is taken by the sight in front of me."
+# "Once we remove the last of our clothes, which end up haphazardly piled behind us, my breath is taken by the sight in front of me."
+"พวกเราถอดเสื้อผ้ากองไว้แบบลวก ๆ ที่หลังแต่ละคน เมื่อถอดเสื้อผ้าชิ้นสุดท้ายแล้วฉันก็ต้องตะลึงกับภาพตรงหน้า"
 
 label th_L17h:
 
 show lilly behind_reminisce_nak_ss
 with charaenter
 
-"Her long, shapely legs, full hips and her breasts, plump but dainty… her slightly blushing face, delicate and reserved, is framed by the bangs of her hair."
+# "Her long, shapely legs, full hips and her breasts, plump but dainty… her slightly blushing face, delicate and reserved, is framed by the bangs of her hair."
+"ขายาวได้รูป สะโพกอิ่ม อกอวบกำลังดี… ผมที่ปรกใบหน้าอันบอบบางและเรียบร้อยที่มีสีแดงเรื่อ"
 
-"Her hands, tightly held behind her, only serve to further accentuate her chest. Her tall and pale body is beautiful when bared."
+# "Her hands, tightly held behind her, only serve to further accentuate her chest. Her tall and pale body is beautiful when bared."
+"มือของเธอที่จับกันแน่นไพล่หลังอยู่ยิ่งขับเน้นหน้าอกเธอให้เด่นชัด ร่างสูงขาวนวลของเธอยามเปลือยนั้นช่างงดงาม"
 
-"This girl in front of me, reserved yet playful, astute yet hospitable, is the girl I've fallen in love with."
+# "This girl in front of me, reserved yet playful, astute yet hospitable, is the girl I've fallen in love with."
+"ผู้หญิงตรงหน้าคนนี้—ที่เรียบร้อยทว่าขี้เล่น ที่หลักแหลมทว่าโอบอ้อมอารี—คือคนที่ฉันตกหลุมรัก"
 
-"I lean forward, delicately taking her shoulders in my hands."
+# "I lean forward, delicately taking her shoulders in my hands."
+"ฉันโน้มตัวเข้าไปจับไหล่เธอไว้"
 
 show lilly behind_listen_nak_close_ss
 with charachange
 
-"As I do, she brings her hands to my chest. With a slightly uneven breath, we lean into a deep kiss."
+# "As I do, she brings her hands to my chest. With a slightly uneven breath, we lean into a deep kiss."
+"จังหวะนั้นเองเธอก็ยื่นมือมาแตะที่หน้าอกฉัน แล้วเราก็โผเข้าจูบโดยที่ลมหายใจยังสั่นอยู่เล็กน้อย"
 
-"I feel one of Lilly's hands slowly slide up to my shoulder, it and her head very gently moving forwards. Assuming her intent, I lean back onto the floor."
+# "I feel one of Lilly's hands slowly slide up to my shoulder, it and her head very gently moving forwards. Assuming her intent, I lean back onto the floor."
+"มือของลิลลี่สัมผัสเลื่อนขึ้นมาที่ไหล่ฉัน เธอใช้มือดันไหล่และโน้มหัวเข้าหาช้า ๆ ฉันจึงเอนตัวลงนอนไปตามที่เธอ\nคงต้องการ"
 
-hi "Ah…"
+# hi "Ah…"
+hi "อ๊ะ…"
 
 scene evhunlock lilly_handjob_chest_normal_small
 show evh lilly_handjob_chest_normal:
@@ -4173,35 +4307,46 @@ show evh lilly_handjob_chest_normal:
     ease 8.0 xalign 0.4 yalign 0.2
 with whiteout
 
-"She lowers herself beside me, one hand stroking my hair as the other moves across my chest. The feeling of her breast against it is enough to excite me."
+# "She lowers herself beside me, one hand stroking my hair as the other moves across my chest. The feeling of her breast against it is enough to excite me."
+"ลิลลี่เอนตัวลงนอนข้าง ๆ ฉัน มือข้างหนึ่งสางผมฉัน ส่วนอีกข้างก็ไล้ไปมาตามหน้าอก สัมผัสจากหน้าอกเธอที่ถูก\nตัวฉันนั้นทำให้ฉันตื่นตัว"
 
-"This must be her way of taking in what I've already seen of her; despite her lack of sight, she engraves every detail of my bare body and chest into her mind."
+# "This must be her way of taking in what I've already seen of her; despite her lack of sight, she engraves every detail of my bare body and chest into her mind."
+"เธอคงทำเช่นนี้เพื่อเป็นการรับรู้ในสิ่งที่ฉันได้เห็นด้วยตาเมื่อครู่ไปแล้ว แม้เธอจะมองไม่เห็น แต่เธอจะสลักทุกรายละเอียด\nจากหน้าอกและร่างเปลือยเปล่าของฉันไว้ในใจมั่น"
 
-"When her middle finger falls into the slight recess of my chest scar, a lingering effect of my operation so many months ago, she slowly runs her hand down its length."
+# "When her middle finger falls into the slight recess of my chest scar, a lingering effect of my operation so many months ago, she slowly runs her hand down its length."
+"เธอลากนิ้วกลางไปตามรอยยุบตรงหน้าอกฉันซึ่งเป็นแผลเป็นจากการผ่าตัดเมื่อหลายเดือนที่แล้วอย่างช้า ๆ"
 
 show evhunlock lilly_handjob_chest_frown_small
 show evh lilly_handjob_chest_frown:
     xalign 0.4 yalign 0.2
 with charachange
 
-li "This is…"
+# li "This is…"
+li "นี่มัน…"
 
-hi "The scar, from my surgery. They had to do this in order to operate on my heart."
+# hi "The scar, from my surgery. They had to do this in order to operate on my heart."
+hi "แผลเป็นจากการผ่าตัดน่ะ หมอต้องผ่ารักษาหัวใจตรงนี้"
 
-"For a moment she's lost for words, the idea of such extensive scarring adding a new worry for her. Her expression changes from curiosity to apprehension."
+# "For a moment she's lost for words, the idea of such extensive scarring adding a new worry for her. Her expression changes from curiosity to apprehension."
+"เธอเงียบไปครู่หนึ่งด้วยความกังวลเรื่องแผลเป็นที่มีความยาวมากขนาดนี้ สีหน้าซึ่งเป็นห่วงผุดขึ้นแทนที่สีหน้าซึ่งสงสัย"
 
-li "Should we… really be doing this kind of thing…?"
+# li "Should we… really be doing this kind of thing…?"
+li "แล้วมาทำอะไรอย่างนี้… จะไม่เป็นอะไรใช่มั้ย…"
 
-"Those words bother me beyond what is rational. Lilly's face breaks my heart more than even her words possibly could, yet I don't even know the answer to her question."
+# "Those words bother me beyond what is rational. Lilly's face breaks my heart more than even her words possibly could, yet I don't even know the answer to her question."
+"คำพูดของเธอทำให้ฉันพะวงไปไกลเกินกว่าที่จะเรียกได้ว่าสมเหตุสมผล ใบหน้าของลิลลี่นั้นทำให้ฉันรู้สึกแย่ยิ่งกว่า\nคำพูดของเธอเสียอีก แต่ฉันเองก็ไม่มีคำตอบให้เธอเช่นกัน"
 
-"I can't let this condition dominate me forever. It may not even be medically advisable, but I outright refuse to live my life in such a prison."
+# "I can't let this condition dominate me forever. It may not even be medically advisable, but I outright refuse to live my life in such a prison."
+"แต่จะปล่อยให้อาการนี้คอยบงการชีวิตฉันไปตลอดไม่ได้ ฉันไม่ยอมใช้ชีวิตอยู่ในการจองจำนั้นหรอก แม้อาจจะเป็นอะไร\nที่หมออยากให้เลี่ยงก็ตาม"
 
-hi "It's okay, Lilly. This much will be okay."
+# hi "It's okay, Lilly. This much will be okay."
+hi "ไม่เป็นไรหรอกลิลลี่ ประมาณนี้ยังไหวอยู่"
 
 show evh lilly_handjob_chest_normal
 with charachange
 
-"Her troubled expression holds for a moment longer, but she eventually acquiesces, her hand moving to my lower chest and then my thigh."
+# "Her troubled expression holds for a moment longer, but she eventually acquiesces, her hand moving to my lower chest and then my thigh."
+"ลิลลี่ยังคงทำหน้าไม่สบายใจอยู่อีกพักหนึ่ง แต่สุดท้ายเธอก็ยอมเออออตามแล้วเลื่อนมือลงไปข้างล่างหน้าอกก่อนจะ\nขยับไปที่ต้นขา"
 
 show evh lilly_handjob_chest_normal:
     zoom 1.0 xalign 0.4 yalign 0.2
@@ -4213,119 +4358,157 @@ show evh lilly_handjob_stroke_normopen:
     ease 4.0 zoom 0.667 xalign 0.5 yalign 0.5
 with charachange
 
-"With a look of slight surprise, she slowly moves her hands downwards, her breath catching as she brushes the side of my lower hair."
+# "With a look of slight surprise, she slowly moves her hands downwards, her breath catching as she brushes the side of my lower hair."
+"ลิลลี่ทำหน้าประหลาดใจเล็กน้อยพลางเลื่อนมือลงต่ำไปอีก ลมหายใจเธอขาดห้วงไปเมื่อสัมผัสเข้ากับขนส่วนล่าง"
 
-"She tentatively moves her hand sideways, delicately touching the most honest part of my body."
+# "She tentatively moves her hand sideways, delicately touching the most honest part of my body."
+"เธอขยับมือเข้ามาอย่างกล้า ๆ กลัว ๆ แล้วแตะเข้ากับส่วนซึ่งตรงกับใจของฉันที่สุดอย่างเบามือ"
 
 show evh lilly_handjob_stroke_normshut_small:
     truecenter 
     zoom 1.0
 with charachange
 
-li "Th… this is…"
+# li "Th… this is…"
+li "นะ… นี่มัน…"
 
-hi "Y-yeah."
+# hi "Y-yeah."
+hi "อะ อื้ม"
 
-"Our nervousness peaks as the act begins, her hand gently patting up and down as lightly as if it would break if breathed upon."
+# "Our nervousness peaks as the act begins, her hand gently patting up and down as lightly as if it would break if breathed upon."
+"พวกเราประหม่าอย่างถึงขีดสุดเมื่อมาถึงจุดเริ่ม ลิลลี่ขยับมือสัมผัสขึ้นลงอย่างแผ่วเบาราวกับว่าสิ่งนั้นอาจแหลกสลาย\nหากเพียงหายใจรดใส่"
 
-"I'm not sure whether it's just to steady myself or because I want to steady her, but I take my free hand and hold the side of her face in it. The feeling of her hair and soft skin is nice, and it seems to lighten her mood a bit."
+# "I'm not sure whether it's just to steady myself or because I want to steady her, but I take my free hand and hold the side of her face in it. The feeling of her hair and soft skin is nice, and it seems to lighten her mood a bit."
+"ฉันเอื้อมมือไปจับใบหน้าด้านข้างของเธอ ซึ่งฉันเองก็ไม่แน่ใจเหมือนกันว่าทำไปเพื่อจะทำให้ตัวเองใจเย็นลง\nหรือจะปลอบให้ลิลลี่ใจเย็นลงกันแน่ สัมผัสจากผมและผิวนุ่มของเธอนั้นช่างรู้สึกดี และดูเหมือนเธอเองก็จะ\nรู้สึกผ่อนคลายลงเล็กน้อยด้วย"
 
-"The mere fact that I'm being touched by her is surprisingly erotic. I feel my body relaxing as I submit to the pleasure overwhelming me."
+# "The mere fact that I'm being touched by her is surprisingly erotic. I feel my body relaxing as I submit to the pleasure overwhelming me."
+"เพียงถูกเธอสัมผัสฉันก็รู้สึกร้อนรุ่มขึ้นมาเกินคาด ฉันคลายตัวให้หายเกร็งปล่อยให้ความหวามไหวแผ่ซ่านไปทั่วร่าง"
 
-"Long minutes pass in almost total silence, our heavy breathing the only sound to be heard in the house. Lilly's fingers stop affectionately stroking my hair and she opens her lips once again."
+# "Long minutes pass in almost total silence, our heavy breathing the only sound to be heard in the house. Lilly's fingers stop affectionately stroking my hair and she opens her lips once again."
+"หลายนาทีผ่านไปพร้อมความเงียบงัน โดยเสียงที่เติมเต็มภายในบ้านนั้นมีเพียงเสียงหายใจหอบของพวกเรา มือของลิลลี่\nซึ่งลูบไล้อยู่ที่ผมของฉันหยุดชะงัก เธอเปิดปากพูดอีกครั้ง"
 
 show evh lilly_handjob_stroke_flustopen_small
 with charachange
 
-li "Hisao…"
+# li "Hisao…"
+li "ฮิซาโอะ…"
 
-"I wait a second for the rest of the sentence, but none is forthcoming. She may be trying to take the lead, but she's still incredibly nervous."
+# "I wait a second for the rest of the sentence, but none is forthcoming. She may be trying to take the lead, but she's still incredibly nervous."
+"ฉันรอให้ลิลลี่พูดต่อ แต่ก็ไม่มีคำพูดใดตามมาอีก อาจจะพยายามนำอยู่ แต่ตัวเธอยังคงประหม่าหนัก"
 
-"I can't help smiling as I stroke her hair from her face a couple of times, reassuring her. As nervous as she may be, I'm thankful that Lilly's taking the lead. I'd probably be just as anxious as she if I were attending to her."
+# "I can't help smiling as I stroke her hair from her face a couple of times, reassuring her. As nervous as she may be, I'm thankful that Lilly's taking the lead. I'd probably be just as anxious as she if I were attending to her."
+"เห็นแล้วก็อดยิ้มไม่ได้ ฉันลูบผมเธอที่ปรกหน้าอยู่สองสามครั้ง ถึงจะประหม่าไปหน่อย แต่ฉันก็ยินดีให้เธอนำให้ ถ้าฉัน\nเป็นฝ่ายนำบ้างก็คงเกร็งพอกัน"
 
 show evh lilly_handjob_stroke_normopen_small
 with charachange
 
-hi "Okay."
+# hi "Okay."
+hi "ได้"
 
-"She pauses a moment before giving a small nod, sitting up and shifting her legs over mine. Once again my breath is stolen by the magnificent sight of her body over mine."
+# "She pauses a moment before giving a small nod, sitting up and shifting her legs over mine. Once again my breath is stolen by the magnificent sight of her body over mine."
+"ลิลลี่ชะงักไปครู่หนึ่งก่อนจะพยักหน้าแล้วขยับตัวลุกขึ้นนั่งเอาขาคร่อมตัวฉัน เป็นอีกครั้งที่ฉันต้องทึ่งกับกายอันงดงาม\nของเธอซึ่งอยู่บนตัวฉัน"
 
 show evh lilly_cowgirl_smile_small
 with whiteout
 
-"I can only look on frozen as she delicately lowers herself, resting her reddened lips over me. She slowly begins to move her hips downwards, her softness enveloping my consciousness."
+# "I can only look on frozen as she delicately lowers herself, resting her reddened lips over me. She slowly begins to move her hips downwards, her softness enveloping my consciousness."
+"ฉันได้แต่มองไม่วางตาปล่อยให้เธอค่อย ๆ ลดตัวลงให้กลีบกุหลาบสีหวานนั้นทาบทับตัวฉัน เธอขยับเอวลงต่ำอีกช้า ๆ\nให้ความอ่อนนุ่มของเธอเข้าครอบครองความรับรู้ของฉัน"
 
 show evh lilly_cowgirl_weaksmile_small
 with charachange
 
-"She takes a deep breath to collect herself, her face remaining steady. With her hands taking in my body in lieu of sight, the intimate situation muddles her usual efforts to compensate for lack of eye contact."
+# "She takes a deep breath to collect herself, her face remaining steady. With her hands taking in my body in lieu of sight, the intimate situation muddles her usual efforts to compensate for lack of eye contact."
+"ลิลลี่สูดหายใจลึกตั้งสติโดยที่ยังตั้งหน้าตรงอยู่ เธอใช้มือสัมผัสร่างกายของฉันแทนการมองเห็น ตามปกติแล้วเธอจะใช้\nสัมผัสนี้แทนสายตาได้ตามปกติ ทว่าเหตุการณ์แสนรัญจวนนี้ได้เข้ามาขัดขวางจนจดจ่อลำบาก"
 
-"She gradually lowers herself onto me, her knees and hands supporting her as she does. Her entire body tenses as I enter, her expression obviously one of stifled pain."
+# "She gradually lowers herself onto me, her knees and hands supporting her as she does. Her entire body tenses as I enter, her expression obviously one of stifled pain."
+"เธอลดตัวลงมาเรื่อย ๆ โดยใช้มือกับเข่ายันตัวไว้ พอฉันชำแรกเข้าไปทั้งร่างกายเธอก็เกร็งขึ้นมา สีหน้าเธอบอกชัด\nว่ากำลังกลั้นความเจ็บปวดอยู่"
 
-"Despite that, I can't help savoring the soft, warm feeling enveloping my consciousness, the surge of pleasure overcoming all my senses."
+# "Despite that, I can't help savoring the soft, warm feeling enveloping my consciousness, the surge of pleasure overcoming all my senses."
+"ถึงอย่างนั้นฉันก็อดที่จะดื่มด่ำไปกับสัมผัสอันอ่อนนุ่มและอุ่นร้อนที่เข้าครอบครองความรับรู้ คลื่นความหวามไหว\nเข้าสาดซัดทุกประสาทสัมผัส"
 
-"The last vestiges of it all but disappear inside her while her nails slightly scrape into my chest in an effort to stop herself from yelping in pain. A pained moan, too much for her to suppress completely, escapes from her lips."
+# "The last vestiges of it all but disappear inside her while her nails slightly scrape into my chest in an effort to stop herself from yelping in pain. A pained moan, too much for her to suppress completely, escapes from her lips."
+"ส่วนสุดท้ายที่เหลืออยู่ได้หลบหายเข้าไปในตัวเธอทั้งหมดแล้ว ลิลลี่จิกเล็บเข้ากับหน้าอกฉันเล็กน้อยเพื่อกลั้นเสียง\nไม่ให้ตัวเองร้องด้วยความเจ็บ เสียงครางอันเจ็บปวดซึ่งเกินกว่าที่เธอจะกลั้นไหวหลุดออกมาจากปากเธอ"
 
-"As I open my mouth to comfort her, I see the barely visible red drops from between her legs."
+# "As I open my mouth to comfort her, I see the barely visible red drops from between her legs."
+"จังหวะที่ฉันกำลังจะพูดปลอบเธอนั้นสายตาก็เหลือบไปเห็นหยดสีแดงหยดเล็ก ๆ ตรงหว่างขาเธอ"
 
-hi "Lilly, if it's too much…"
+# hi "Lilly, if it's too much…"
+hi "ลิลลี่ ถ้าเธอไม่ไหว…"
 
 scene evh lilly_cowgirl_strain_small
 with charachange
 
-"She clenches her mouth tightly, quickly and forcefully shaking her head from side to side in defiance. After a couple of seconds she relaxes her body slightly, though she's still obviously far from being comfortable."
+# "She clenches her mouth tightly, quickly and forcefully shaking her head from side to side in defiance. After a couple of seconds she relaxes her body slightly, though she's still obviously far from being comfortable."
+"เธอเม้มปากแน่นแล้วสั่นหัวปฏิเสธแรง ๆ ไปมา ไม่นานเธอก็คลายความเกร็งลงเล็กน้อย แต่ก็ชัดอยู่ว่ายังไม่ได้หายเกร็ง\nโดยสมบูรณ์"
 
-li "I… it's okay… I'm okay."
+# li "I… it's okay… I'm okay."
+li "ไม่… เป็นไร… ฉันยังไหว"
 
 scene evh lilly_cowgirl_frown_small
 with charachange
 
-"She swallows hard, trying to collect herself."
+# "She swallows hard, trying to collect herself."
+"ลิลลี่กลืนน้ำลายอึกใหญ่สงบใจตัวเอง"
 
-"Lifting herself slowly and bringing herself back down, she relaxes a little more as the feelings of pleasure begin to overtake those of pain."
+# "Lifting herself slowly and bringing herself back down, she relaxes a little more as the feelings of pleasure begin to overtake those of pain."
+"เธอยกตัวขึ้นช้า ๆ แล้วลดตัวลงอีกครั้ง เมื่อความสุขสมเข้าทับถมความเจ็บปวดเหล่านั้นเธอจึงคลายความเกร็งลงได้อีก\nเล็กน้อย"
 
 scene evh lilly_cowgirl_strain_small
 with charachange
 
-"Her breathing starts to match the same ragged patterns as mine, her body moving almost teasingly slowly. She looks as if she's slowly beginning to enjoy the act, my feelings finally reaching her."
+# "Her breathing starts to match the same ragged patterns as mine, her body moving almost teasingly slowly. She looks as if she's slowly beginning to enjoy the act, my feelings finally reaching her."
+"ลมหายใจของเธอเริ่มขาดห้วงไปเหมือนอย่างฉัน เธอขยับตัวได้ช้าจนฉันแทบขาดใจ ดูเหมือนว่าเธอเองก็เริ่มจะสุข\nไปกับกิจกรรมนี้แล้ว ความรู้สึกของฉันส่งไปถึงเธอเสียที"
 
-"I'm not sure if she's keeping herself at this speed for her sake or for mine, but either way… with this slow and steady pace, I think I can… keep my body in check. It's funny, in a way, that even now I'm depending on her."
+# "I'm not sure if she's keeping herself at this speed for her sake or for mine, but either way… with this slow and steady pace, I think I can… keep my body in check. It's funny, in a way, that even now I'm depending on her."
+"ฉันไม่แน่ใจนักว่าเธอทำความเร็วเท่านี้เพื่อตัวเธอเองหรือเพื่อฉันกันแน่ แต่จะเพื่อใคร… ถ้าทำแบบช้า ๆ เรื่อย ๆ แบบนี้\nร่างกายฉัน… น่าจะพอไหวอยู่ จะว่าไปแล้วก็ตลกดีที่แม้แต่ตอนนี้ฉันก็ยังต้องพึ่งเธออีก"
 
-"For us to be joined together like this, our feelings so close… it makes me glad. To be sharing our first moment together like this… is an almost… overwhelming… feeling…"
+# "For us to be joined together like this, our feelings so close… it makes me glad. To be sharing our first moment together like this… is an almost… overwhelming… feeling…"
+"ฉันดีใจ… ที่เราสองคนได้เชื่อมประสานถึงกันโดยที่ความรู้สึกนั้นตรงกัน ได้ทำครั้งแรกร่วมกันอย่างนี้… มันช่าง…\nสุขล้น… เหลือเกิน…"
 
-hi "I love you… Lilly…"
+# hi "I love you… Lilly…"
+hi "ฉันรักเธอนะ… ลิลลี่…"
 
 scene evh lilly_cowgirl_cry_small
 with charachange
 
-li "Hisao… Hisao…!"
+# li "Hisao… Hisao…!"
+li "ฮิซาโอะ… ฮิซาโอะ…!"
 
-"I can feel her body tensing, her breathing and movements becoming steadily less carefully controlled. I'm happy to be making her feel so good, but as my thoughts become increasingly focused, I can feel myself rapidly nearing my limit."
+# "I can feel her body tensing, her breathing and movements becoming steadily less carefully controlled. I'm happy to be making her feel so good, but as my thoughts become increasingly focused, I can feel myself rapidly nearing my limit."
+"ฉันสัมผัสได้ถึงร่างกายเธอที่หดเกร็ง ทั้งลมหายใจและการขยับตัวของเธอเร็วขึ้นเรื่อย ๆ ดีใจจริง ๆ ที่ฉันทำให้เธอ\nรู้สึกดีได้ขนาดนี้ แต่ยิ่งจดจ่อก็ยิ่งรู้สึกได้ถึงตัวฉันที่เข้าใกล้ขีดจำกัดอย่างรวดเร็ว"
 
 scene white
 with Dissolve(3.0)
 
-"Control of my body is instantaneously wrested from my mind as I grit my teeth hard, a loud moan escaping as I climax and my hips hit hers. Her body hunches over at the same moment, her breasts touching on my chest."
+# "Control of my body is instantaneously wrested from my mind as I grit my teeth hard, a loud moan escaping as I climax and my hips hit hers. Her body hunches over at the same moment, her breasts touching on my chest."
+"ฉันไม่อาจควบคุมร่างกายตัวเองได้อีกต่อไป ฉันกัดฟันกรอดครางต่ำเมื่อยกสะโพกเข้าหาตัวเธอแล้วปล่อยให้ตัวเอง\nไปถึงฝั่ง เธอเองก็โน้มตัวเข้ามาจนหน้าอกของเธอแนบกับหน้าอกของฉัน"
 
-"We stay locked in all-encompassing ecstasy for a brief moment, my mind completely taken by the feeling for a precious few seconds."
+# "We stay locked in all-encompassing ecstasy for a brief moment, my mind completely taken by the feeling for a precious few seconds."
+"พวกเราปล่อยให้ตัวเองติดตรึงไปกับความหวามไหวซึ่งแผ่ซ่านนั้นอยู่ครู่หนึ่ง ในสมองฉันเต็มไปด้วยความรู้สึกจาก\nชั่วขณะอันหอมหวานนั้น"
 
 scene evh lilly_cowgirl_weaksmile_small
 with charachange
 
-"It ends all too soon and our bodies collapse in exhaustion with Lilly barely staying on top of me."
+# "It ends all too soon and our bodies collapse in exhaustion with Lilly barely staying on top of me."
+"กิจกรรมจบลงไปอย่างรวดเร็ว ร่างของพวกเราทรุดลงด้วยความเหนื่อยอ่อน ลิลลี่ยังคงนอนทับอยู่บนตัวฉัน"
 
-"I lifelessly manage to wrap my arms around her limp, sweating body, and for minutes we simply lay there, silently savoring the contact with each other while we recover from the experience."
+# "I lifelessly manage to wrap my arms around her limp, sweating body, and for minutes we simply lay there, silently savoring the contact with each other while we recover from the experience."
+"ฉันยกแขนขึ้นโอบร่างอาบเหงื่อไร้เรี่ยวแรงของเธออย่างหมดแรง พวกเรานอนนิ่ง ๆ อยู่อย่างนั้นหลายนาที คอยดื่มด่ำ\nสัมผัสของกันและกันอยู่เงียบ ๆ พลางตั้งสติจากเหตุการณ์เมื่อครู่"
 
-"Neither of us had thought ourselves prepared for such a thing, of that much I'm certain."
+# "Neither of us had thought ourselves prepared for such a thing, of that much I'm certain."
+"สิ่งหนึ่งที่ฉันแน่ใจคือ พวกเราต่างไม่มีใครได้เตรียมใจกับเหตุการณ์เช่นนั้นเลย"
 
-"Entirely drained, far past the point of conversation, I look at her tired face. It looks as if the exertion, both physical and mental, has almost forced her to the verge of collapse."
+# "Entirely drained, far past the point of conversation, I look at her tired face. It looks as if the exertion, both physical and mental, has almost forced her to the verge of collapse."
+"ฉันมองใบหน้าอันอ่อนเพลียของเธอ ตอนนี้ฉันไม่มีแรงแม้แต่จะพูดคุยอะไรแล้ว ดูท่าว่าการที่เธอต้องออกแรงกาย\nและใช้ความคิดอย่างหนักนั้นจะทำให้เธออ่อนเปลี้ยจนแทบขยับตัวไม่ไหว"
 
-hi "I love you, Lilly."
+# hi "I love you, Lilly."
+hi "ฉันรักเธอนะลิลลี่"
 
 scene evh lilly_cowgirl_smile_small
 with charachange
 
-"She nods weakly, rubbing my hair with her left hand. If we could simply remain together like this for an eternity, it would be a paradise like no other."
+# "She nods weakly, rubbing my hair with her left hand. If we could simply remain together like this for an eternity, it would be a paradise like no other."
+"ลิลลี่พยักหน้าเบา ๆ พลางใช้มือซ้ายของเธอลูบหัวฉัน ถ้าหากเราสองคนอยู่ด้วยกันเช่นนี้ได้ไปชั่วนิรันดร์ เท่านั้น\nเราคงมีความสุขยิ่งกว่าอะไร"
 
 stop music fadeout 2.0
 
@@ -4342,17 +4525,23 @@ with locationchange
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_rain fadein 1.0
 
-"After being woken by a sound, I open my eyes with a measure of reluctance."
+# "After being woken by a sound, I open my eyes with a measure of reluctance."
+"ฉันลืมตาตื่นด้วยความไม่เต็มใจนักเพราะได้ยินเสียงบางอย่าง"
 
-"Turning my head to the left, I find the rain outside sweeps against the windows loudly. Spray after wind-blown spray lashes against the glass, as if trying its hardest to make up for the summer's previous heat."
+# "Turning my head to the left, I find the rain outside sweeps against the windows loudly. Spray after wind-blown spray lashes against the glass, as if trying its hardest to make up for the summer's previous heat."
+"พอหันมองไปทางด้านซ้ายก็เห็นฝนที่ซัดสาดใส่หน้าต่างจนเกิดเสียงซ่า ลมที่ตีม่านฝนเข้ามากระทบกับหน้าต่างนั้น\nพัดรุนแรงราวกับจะชดเชยความร้อนจากฤดูร้อนเมื่อก่อนหน้านี้"
 
-"I sit up in the futon, holding the back of my neck to try and subdue the pain from my awkward sleeping position."
+# "I sit up in the futon, holding the back of my neck to try and subdue the pain from my awkward sleeping position."
+"ฉันลุกขึ้นนั่งกับฟูกฟูตงแล้วนวด ๆ ท้ายทอยบรรเทาความปวดจากการนอนด้วยท่าที่ผิดธรรมชาติ"
 
-"By all accounts I should be lamenting the turn in the weather, given that this is our last day here. The events of yesterday refuse to stop flooding my mind, though."
+# "By all accounts I should be lamenting the turn in the weather, given that this is our last day here. The events of yesterday refuse to stop flooding my mind, though."
+"ถ้าว่าตามจริงแล้วฉันต้องเสียดายที่สภาพอากาศดันมาเป็นอย่างนี้ เพราะวันนี้เป็นวันสุดท้ายแล้วที่จะได้อยู่ที่นี่ แต่\nเหตุการณ์เมื่อวานยังคงวนเวียนอยู่ในความคิดไม่ไปไหน"
 
-"The feeling of holding Lilly's crying body in my arms. The rush of lust and hormones that flowed through us as we spent the night together. It seems almost futile to try and rationalize everything that happened."
+# "The feeling of holding Lilly's crying body in my arms. The rush of lust and hormones that flowed through us as we spent the night together. It seems almost futile to try and rationalize everything that happened."
+"ความรู้สึกที่ได้โอบกอดลิลลี่ที่ร้องไห้ ความรู้สึกที่ความใคร่กับฮอร์โมนแล่นพล่านไปทั่วตัวขณะที่เราได้หลับนอนด้วยกัน\nทุกอย่างที่เกิดขึ้นนั้นคงไม่อาจใช้เหตุผลอะไรมาอธิบายได้"
 
-"In an attempt to distract myself, I groan and lean over to retrieve my bag without standing. Pulling out one bottle after another, I take the daily regimen's worth of pills from their containers and swallow them without further ado."
+# "In an attempt to distract myself, I groan and lean over to retrieve my bag without standing. Pulling out one bottle after another, I take the daily regimen's worth of pills from their containers and swallow them without further ado."
+"ฉันร้องโอดโอยเอี้ยวตัวไปหยิบกระเป๋าโดยที่ไม่ลุกเพื่อเป็นการเบนความสนใจของตัวเองก่อนจะหยิบขวดยาต่าง ๆ\nออกมาแล้วเทเม็ดยาตามปริมาณที่ต้องกินเป็นประจำทุกวันออกมาจากแต่ละขวดและกลืนยาไปโดยทันที"
 
 $ renpy.music.set_volume(0.1, 1.0, channel="ambient")
 
@@ -4361,13 +4550,17 @@ nvl show dissolve
 
 nvl clear
 
-n "\n\n\n\nIt took a surprisingly short amount of time to get used to swallowing pills without water. That said, I suppose the same thing goes for getting used to living in a school for disabled students."
+# n "\n\n\n\nIt took a surprisingly short amount of time to get used to swallowing pills without water. That said, I suppose the same thing goes for getting used to living in a school for disabled students."
+n "\n\n\n\nฉันชินกับการกินยาโดยที่ไม่ต้องกินน้ำตามได้อย่างเร็วเหลือเชื่อ แต่ก็นะ ฉันเองก็ชินกับการอยู่ในโรงเรียนสำหรับ\nนักเรียนพิการได้อย่างเร็วเหลือเชื่อเหมือนกัน"
 
-n "Remembering Yamaku, I become all the more grateful for having the chance to get away, even if it's just for the shortest of times."
+# n "Remembering Yamaku, I become all the more grateful for having the chance to get away, even if it's just for the shortest of times."
+n "พอนึกถึงยามากุแล้วฉันก็นึกยินดีที่ได้ปลีกตัวออกมาจากตรงนั้น แม้จะเป็นเพียงระยะเวลาสั้น ๆ ก็ตาม"
 
-n "I appreciate the chance to spend time alone with Lilly and Hanako, away from the bustle of school life, even considering the latest complications."
+# n "I appreciate the chance to spend time alone with Lilly and Hanako, away from the bustle of school life, even considering the latest complications."
+n "ฉันรู้สึกยินดีที่ตัวเองมีโอกาสได้ใช้เวลาอยู่ห่างจากความวุ่นวายของชีวิตในโรงเรียนด้วยกันกับลิลลี่กับฮานาโกะ\nตามลำพัง ถึงจะมีเหตุการณ์อย่างเมื่อคืนเกิดขึ้นก็เถอะะ"
 
-n "I never thought I'd say it, but the idea of living away from the city in a nice, tranquil area is an inviting one. It's a thought that, barely a year ago, would have seemed simply ludicrous."
+# n "I never thought I'd say it, but the idea of living away from the city in a nice, tranquil area is an inviting one. It's a thought that, barely a year ago, would have seemed simply ludicrous."
+n "ฉันไม่เคยคิดเลยว่าตัวเองจะมาคิดอย่างนี้ได้ แต่ฉันอยากไปอาศัยอยู่ในพื้นที่ดี ๆ ที่เงียบสงบ อยู่ห่างไกลจากตัวเมือง\nซึ่งเป็นความคิดที่ถ้าตัวฉันเมื่อสักหนึ่งปีที่แล้วได้ยินก็คงบอกว่าไร้สาระ"
 
 $ renpy.music.set_volume(0.2, 1.0, channel="ambient")
 
@@ -4376,44 +4569,55 @@ nvl hide dissolve
 
 window show
 
-"A flash of pink, no doubt Hanako's gown, peeks from around the corner. Realizing I must look a sight since I've only just woken up, I slap the remaining pills into my mouth and run a hand through my hair."
+# "A flash of pink, no doubt Hanako's gown, peeks from around the corner. Realizing I must look a sight since I've only just woken up, I slap the remaining pills into my mouth and run a hand through my hair."
+"ตรงมุมผนังมีผ้าสีชมพูแวบออกมา ซึ่งก็คงเป็นชุดของฮานาโกะนั่นแหละ สภาพฉันที่เพิ่งตื่นตอนนี้คงดูไม่ได้แน่ ๆ\nฉันรีบยัดยาที่เหลือเข้าปากแล้วใช้มือสาง ๆ ผม"
 
 show hanagown smile_rn at center
 with charaenter
 
-ha "Good morning, Hisao."
+# ha "Good morning, Hisao."
+ha "อรุณสวัสดิ์ ฮิซาโอะ"
 
-hi "Ah, go— ack!"
+# hi "Ah, go— ack!"
+hi "อ๊ะ อรุ— อ่อก!"
 
 $ renpy.music.set_volume(0.0, 0.2, channel="ambient")
 
 with vpunch
 
-"I reply to her completely forgetting that I'm in the middle of swallowing a particularly large pill. Coughing and spluttering, I violently gag on it."
+# "I reply to her completely forgetting that I'm in the middle of swallowing a particularly large pill. Coughing and spluttering, I violently gag on it."
+"ฉันตอบฮานาโกะไปโดยยังไม่ทันนึกได้ว่ากำลังกลืนเม็ดยาที่ค่อนข้างใหญ่อยู่ ฉันสำลักไอค่อกแค่กไม่หยุด"
 
 show hanagown worry_rn
 with charachange
 
-ha "Ah, Hisao!"
+# ha "Ah, Hisao!"
+ha "อ๊ะ ฮิซาโอะ!"
 
 $ renpy.music.set_volume(0.2, 10.0, channel="ambient")
 
-"After sputtering loudly and tapping my chest a couple of times to force it down, I manage to recover."
+# "After sputtering loudly and tapping my chest a couple of times to force it down, I manage to recover."
+"พอไอโขลกไปพร้อมทุบหน้าอกตัวเองสองสามครั้งให้เม็ดยาหลุดลงไปแล้วฉันก็กลับมาตั้งตัวได้"
 
-hi "I'm fine. Sorry, forgot I was swallowing."
+# hi "I'm fine. Sorry, forgot I was swallowing."
+hi "ไม่เป็นไร ขอโทษที พอดีลืมว่ากินยาอยู่"
 
 play music music_happiness fadein 5.0
 
 show hanagown distant_rn
 with charachange
 
-ha "Sorry, I didn't mean to—"
+# ha "Sorry, I didn't mean to—"
+ha "ขอโทษนะ พอดีฉันไม่ได้ตั้ง—"
 
-"I hold my hand up, gesturing for Hanako to stop."
+# "I hold my hand up, gesturing for Hanako to stop."
+"ฉันยกมือปรามฮานาโกะ"
 
-hi "I gagged. It's my fault. 'Morning, Hanako."
+# hi "I gagged. It's my fault. 'Morning, Hanako."
+hi "ฉันสำลักเองน่า รุณสวัสดิ์ ฮานาโกะ"
 
-"She pauses a moment before bowing in reply."
+# "She pauses a moment before bowing in reply."
+"ฮานาโกะเงียบไปครู่หนึ่งแล้วโค้งตัวตอบ"
 
 show hanagown distant_rn at tworight
 show bg hok_lounge_rn at bgright
@@ -4422,70 +4626,91 @@ with charamove
 show lilly basic_sleepy_paj_rn at twoleft
 with charaenter
 
-"Walking, no, staggering in behind Hanako is the familiar figure of Lilly, also dressed in her pajamas. With her eyes full of sleep and hair bedraggled, she's a sight to behold."
+# "Walking, no, staggering in behind Hanako is the familiar figure of Lilly, also dressed in her pajamas. With her eyes full of sleep and hair bedraggled, she's a sight to behold."
+"ส่วนเงาลิลลี่อันคุ้นเคยที่เดิน ไม่สิ โซเซอยู่หลังฮานาโกะนั้นก็ใส่ชุดนอนเช่นกัน เธอทำตาปรือด้วยความงัวเงีย ผมเผ้า\nยังรุงรัง เป็นภาพที่น่าดูชมทีเดียว"
 
-hi "Hi, Lilly."
+# hi "Hi, Lilly."
+hi "ไงลิลลี่"
 
 show lilly basic_weaksmile_paj_rn at twoleft
 with charaenter
 
-li "Good morning… Hisao."
+# li "Good morning… Hisao."
+li "อรุณสวัสดิ์… ฮิซาโอะ"
 
-"For a while, a silence hangs in the air as neither of us knows what to do."
+# "For a while, a silence hangs in the air as neither of us knows what to do."
+"เราสามคนนิ่งเงียบค้างไปเพราะต่างคนต่างทำตัวไม่ถูก"
 
-"Given what happened last night, we both have more than enough reason to be finding the situation awkward; just how are we meant to react to meeting each other after something like… that?"
+# "Given what happened last night, we both have more than enough reason to be finding the situation awkward; just how are we meant to react to meeting each other after something like… that?"
+"เราสองคนต่างรู้สึกกระอักกระอ่วนกับสถานการณ์ในตอนนี้เพราะเรื่องเมื่อคืน เวลาอยู่ด้วยกันแล้วจะให้ทำตัวยังไง\nก็พวกเรา… กันไปแล้ว"
 
-"The best course of action would probably be to talk to Lilly alone, to set things in order."
+# "The best course of action would probably be to talk to Lilly alone, to set things in order."
+"ทางเลือกที่ดีที่สุดคงจะเป็นการคุยกับลิลลี่ตัวต่อตัวเพื่อจัดการให้อะไร ๆ ลงตัว"
 
-hi "Um, I'll… start making breakfast."
+# hi "Um, I'll… start making breakfast."
+hi "เอ่อ เดี๋ยวฉัน… ไปทำข้าวเช้านะ"
 
-"Lilly evidently catches on to my train of thought."
+# "Lilly evidently catches on to my train of thought."
+"ชัดว่าลิลลี่เองก็รู้ว่าฉันคิดอะไรอยู่"
 
 show lilly basic_smileclosed_paj_rn
 with charachange
 
-li "I'll help. Hanako, could you set the table?"
+# li "I'll help. Hanako, could you set the table?"
+li "เดี๋ยวฉันไปช่วยทำนะ ฮานาโกะ เธอไปจัดโต๊ะให้หน่อยได้หรือเปล่า"
 
-"She nods, her head disappearing into a cupboard as she quickly goes about her assigned task."
+# "She nods, her head disappearing into a cupboard as she quickly goes about her assigned task."
+"ฮานาโกะพยักหน้าแล้วมุดตู้เก็บของเพื่อทำตามหน้าที่ที่ได้รับมอบหมาย"
 
 $ renpy.music.set_volume(0.1, 0.5, channel="ambient")
 
 scene bg hok_kitchen_rn
 with locationchange
 
-"I rub a little more sleep out of my eyes as I wander over to the fridge and take out some milk, and Lilly grabs various brightly colored boxes from some of the lower cupboards to my side."
+# "I rub a little more sleep out of my eyes as I wander over to the fridge and take out some milk, and Lilly grabs various brightly colored boxes from some of the lower cupboards to my side."
+"ฉันขยี้ตาให้ตื่นตัวขึ้นอีกหน่อยพลางเดินไปหยิบนมในตู้เย็น ส่วนลิลลี่ก็หยิบกล่องสีสดใสหลายกล่องออกมาจาก\nตู้เก็บของด้านล่างตู้หนึ่งที่อยู่ข้างฉัน"
 
-"While we make the rather bland-looking meal, I whisper somewhat more quietly than usual. Knowing Lilly's hearing, she won't have any trouble catching what I say."
+# "While we make the rather bland-looking meal, I whisper somewhat more quietly than usual. Knowing Lilly's hearing, she won't have any trouble catching what I say."
+"พวกเราจัดแจงมื้ออาหารซึ่งดูค่อนข้างเรียบง่าย ฉันกระซิบเสียงแผ่วกว่าปกติคุยกับลิลลี่ เธอคงได้ยินแน่ ๆ ละ เพราะเธอ\nหูดีขนาดนั้น"
 
-hi "Are you okay, Lilly? After last night…"
+# hi "Are you okay, Lilly? After last night…"
+hi "ไหวมั้ยลิลลี่ เมื่อคืน…"
 
 show lilly basic_reminisce_paj_rn at center
 with charaenter
 
-"She gives a delicate nod, her expression weak."
+# "She gives a delicate nod, her expression weak."
+"ลิลลี่พยักหน้าเบา ๆ สีหน้าของเธอคล้ายไม่มีเรี่ยวแรง"
 
-"Though her tiredness surely plays a part, she seems genuinely unsure about what's happened between us, and how to move ahead. I can't say I blame her, considering my feelings are the same."
+# "Though her tiredness surely plays a part, she seems genuinely unsure about what's happened between us, and how to move ahead. I can't say I blame her, considering my feelings are the same."
+"ถึงส่วนหนึ่งจะเป็นเพราะความเหนื่อยอ่อนก็จริง แต่เธอก็ดูไม่แน่ใจจริง ๆ กับสิ่งที่เกิดขึ้นระหว่างเรา และไม่รู้ว่าจะต้อง\nทำยังไงต่อ จริง ๆ จะว่าเธอก็ไม่ได้หรอก เพราะฉันเองก็รู้สึกอย่างนั้นเหมือนกัน"
 
 show lilly basic_sad_paj_rn
 with charachange
 
-li "I'm sorry, Hisao. I wasn't thinking straight yesterday. I never stopped to consider you or Hanako, and I even went as far as…"
+# li "I'm sorry, Hisao. I wasn't thinking straight yesterday. I never stopped to consider you or Hanako, and I even went as far as…"
+li "ขอโทษนะฮิซาโอะ เมื่อวานสติฉันไม่อยู่กับตัวเลย ฉันไม่แม้แต่จะฉุกคิดถึงเธอหรือฮานาโกะ แล้วฉันยังถึงขั้น…"
 
-"She's winding herself up. With her hands and voice both tightening, I give her a gentle bump to try and lighten up the situation."
+# "She's winding herself up. With her hands and voice both tightening, I give her a gentle bump to try and lighten up the situation."
+"ลิลลี่ตระหนกหนัก น้ำเสียงเธอฟังดูเกร็ง มือของเธอก็เกร็งเช่นกัน ฉันถองศอกใส่เธอเบา ๆ ด้วยหวังไม่ให้บรรยากาศ\nเครียดเกินไป"
 
-hi "You don't have to apologize. I said I liked you as well, after all."
+# hi "You don't have to apologize. I said I liked you as well, after all."
+hi "ไม่ต้องขอโทษหรอก ฉันก็บอกแล้วนี่ว่าฉันก็ชอบเธอเหมือนกัน"
 
 show lilly basic_oops_paj_rn
 with charachange
 
-li "But I…"
+# li "But I…"
+li "แต่ฉัน…"
 
-"As her composure begins to falter, it becomes obvious there's no alternative."
+# "As her composure begins to falter, it becomes obvious there's no alternative."
+"ลิลลี่เริ่มร้อนรน แปลว่าฉันไม่มีทางเลือกอื่นแล้ว"
 
 show lilly basic_sad_paj_close_rn
 with characlose
 
-"Turning to Lilly, I gently embrace her tall frame. She offers no resistance at all, thankfully pulling back, just, from the edge of her emotions."
+# "Turning to Lilly, I gently embrace her tall frame. She offers no resistance at all, thankfully pulling back, just, from the edge of her emotions."
+"ฉันหันไปทางลิลลี่แล้วโอบกอดร่างสูงของเธอ เธอไม่ขัดขืนเลย และโชคดีที่เธอกลับมาใจเย็นลงได้ก่อนที่เธอจะ\nปั่นป่วนใจไปกว่านี้"
 
 show lilly basic_sad_paj_close_rn at twoleft
 show bg hok_kitchen_rn at bgleft
@@ -4494,7 +4719,8 @@ with charamove
 show hanagown normal_rn at tworight
 with charaenter
 
-"Despite our reassuring embrace lasting only a matter of seconds, I notice Hanako wordlessly watching. The plate in her hand hovers inches above the table, her action halted midway by the sight."
+# "Despite our reassuring embrace lasting only a matter of seconds, I notice Hanako wordlessly watching. The plate in her hand hovers inches above the table, her action halted midway by the sight."
+"แม้จะกอดปลอบลิลลี่อยู่ไม่นาน ฉันก็เห็นฮานาโกะที่กำลังมองเงียบ ๆ อยู่ เธอถือจานลอยค้างจากโต๊ะไปไม่กี่เซนติเมตร\nไม่ทันวางเพราะเห็นภาพเราสองคนกอดกันเสียก่อน"
 
 stop music fadeout 2.0
 
@@ -4509,91 +4735,114 @@ with shorttimeskip
 
 $ renpy.music.set_volume(0.2, 0.5, channel="ambient")
 
-"The clatter of utensils against plates is the only sound to be heard as we silently eat. Whereas before only two of us may have been unsure of ourselves, the entire situation has changed."
+# "The clatter of utensils against plates is the only sound to be heard as we silently eat. Whereas before only two of us may have been unsure of ourselves, the entire situation has changed."
+"พวกเรากินอาหารกันอย่างเงียบ ๆ โดยมีเพียงเสียงอุปกรณ์การกินที่กระทบกับจานดังแทรก ก่อนหน้านี้พวกเราสองคน\nคงไม่แน่ใจในความรู้สึกของตัวเอง แต่ตอนนี้สถานการณ์ได้เปลี่ยนไปแล้ว"
 
-"After weeks of blissful friendship, whiling away the days with shared meals and chatter with little meaning, the relationship of Lilly and me, no, that of all of us, has irreversibly changed."
+# "After weeks of blissful friendship, whiling away the days with shared meals and chatter with little meaning, the relationship of Lilly and me, no, that of all of us, has irreversibly changed."
+"มิตรภาพอันแสนสุขในช่วงหลายสัปดาห์ อยู่กินข้าวด้วยกันทุกวันคุยกันเรื่อยเปื่อยไม่มีสาระอะไร มิตรภาพระหว่างลิลลี่\nกับฉัน ไม่สิ ระหว่างเราสามคนได้เปลี่ยนแปลงไปอย่างไม่อาจย้อนคืน"
 
-"I can't take this."
+# "I can't take this."
+"ทนไม่ไหวแล้ว"
 
-hi "Lilly…"
+# hi "Lilly…"
+hi "ลิลลี่…"
 
 stop ambient fadeout 25.0
 
 show lilly basic_listen_paj_rn
 with charachange
 
-"She solemnly nods, gently laying her spoon onto the plate in front of her. Neither of us knows exactly how we regard each other, let alone how Hanako would view us."
+# "She solemnly nods, gently laying her spoon onto the plate in front of her. Neither of us knows exactly how we regard each other, let alone how Hanako would view us."
+"ลิลลี่พยักหน้าจริงจังแล้ววางช้อนลงบนจานตรงหน้าเธออย่างเบามือ เราสองคนต่างไม่รู้ว่าอีกฝ่ายมองตัวเองอย่างไร\nและไม่รู้ด้วยซ้ำว่าฮานาโกะจะมองตัวพวกเราอย่างไรด้วย"
 
 show lilly basic_weaksmile_paj_rn
 with charachange
 
-li "This might seem abrupt but… I've confessed to Hisao."
+# li "This might seem abrupt but… I've confessed to Hisao."
+li "ออกจะกะทันหันไปสักหน่อย แต่ว่า… ฉันสารภาพรักกับฮิซาโอะแล้วนะ"
 
 show hanagown distant_blush_rn
 with charachange
 
-"For a moment, Hanako looks almost confused; precisely the reaction I'd thought she would have. She eventually nods, her spoon still in her mouth as she does."
+# "For a moment, Hanako looks almost confused; precisely the reaction I'd thought she would have. She eventually nods, her spoon still in her mouth as she does."
+"ฮานาโกะดูค่อนข้างสับสนอยู่ครู่หนึ่ง ซึ่งฉันก็คิดไว้แล้วว่าเธอต้องทำหน้าอย่างนี้แน่ แต่สุดท้ายเธอก็พยักหน้าโดยที่ยัง\nคาบช้อนไว้ในปากอยู่"
 
 show hanagown normal_blush_rn
 with charachange
 
-ha "Did you accept?"
+# ha "Did you accept?"
+ha "แล้วนายรับรักมั้ย"
 
-hi "I did."
+# hi "I did."
+hi "รับ"
 
 show hanagown smile_rn
 with charachange
 
-"She gives a smile so large, and so earnest, I find myself blushing. I think it's the brightest I've ever seen her expression look."
+# "She gives a smile so large, and so earnest, I find myself blushing. I think it's the brightest I've ever seen her expression look."
+"ฮานาโกะยิ้มกว้างอย่างจริงใจจนฉันหน้าแดง รอยยิ้มนี้คงเป็นรอยยิ้มที่สดใสที่สุดเท่าที่ฉันเคยเห็นฮานาโกะยิ้มมาเลย"
 
 play music music_serene fadein 6.0
 
-ha "Then I'm happy. I'm really, really happy."
+# ha "Then I'm happy. I'm really, really happy."
+ha "งั้นก็ดีแล้วละ ฉันมีความสุขมาก ๆ เลย"
 
 show lilly basic_sleepy_paj_rn
 with charachange
 
-li "I'm sorry for not telling you anything about it before. Things have been…"
+# li "I'm sorry for not telling you anything about it before. Things have been…"
+li "ขอโทษที่ก่อนหน้านี้ไม่ได้บอกนะ พอดีเรื่องมัน…"
 
-"Hanako shakes her head from side to side emphatically, apparently forgetting in her rush that Lilly couldn't possibly notice."
+# "Hanako shakes her head from side to side emphatically, apparently forgetting in her rush that Lilly couldn't possibly notice."
+"ฮานาโกะสั่นหัวด้วยความเข้าใจ ซึ่งเหมือนเธอจะไม่ทันคิดว่าอย่างไรลิลลี่ก็คงมองไม่เห็น"
 
 show hanagown distant_blush_rn
 with charachange
 
-"She begins fiddling with her fingers, looking a little more nervous than she did before."
+# "She begins fiddling with her fingers, looking a little more nervous than she did before."
+"เธอจับนิ้วตัวเองเล่นดูประหม่ากว่าเมื่อครู่"
 
-ha "To be honest, I began to think you might like each other a while ago. At first I didn't really know what to think about it… but I…"
+# ha "To be honest, I began to think you might like each other a while ago. At first I didn't really know what to think about it… but I…"
+ha "เอาจริง ๆ ฉันก็คิดมาสักพักแล้วว่าเธอสองคนชอบกันหรือเปล่า ตอนแรกฉันก็ไม่รู้เหมือนกันว่าจะรู้สึกยังไงดี…\nแต่ฉัน…"
 
 show hanagown smile_rn
 with charachange
 
-ha "I decided in the end that… if my friends are happy, then I'm happy."
+# ha "I decided in the end that… if my friends are happy, then I'm happy."
+ha "ฉันก็คิดเอาว่า… ถ้าเพื่อนฉันมีความสุข ฉันก็มีความสุข"
 
-ha "I was really glad to have another friend when we met Hisao, so you finding love through him is even better… right?"
+# ha "I was really glad to have another friend when we met Hisao, so you finding love through him is even better… right?"
+ha "ฉันดีใจมากที่เราได้เพื่อนใหม่ตอนที่เจอฮิซาโอะ เพราะงั้น การที่เธอได้รู้จักคำว่ารักเพราะเขาก็ยิ่งดีไปอีก… ใช่มั้ย"
 
-"A feeling of relief at her acceptance of our relationship falls over me like a wave. The same happens to Lilly, judging by her expression."
+# "A feeling of relief at her acceptance of our relationship falls over me like a wave. The same happens to Lilly, judging by her expression."
+"ฉันโล่งใจเป็นอย่างมากที่ฮานาโกะยอมรับความสัมพันธ์ของพวกเรา ดูจากสีหน้าแล้ว ลิลลี่ก็คงรู้สึกไม่ต่างกัน"
 
 show lilly basic_weaksmile_paj_rn
 with charachange
 
-li "Thank you, Hanako. I really appreciate you being so understanding."
+# li "Thank you, Hanako. I really appreciate you being so understanding."
+li "ขอบคุณนะฮานาโกะ ฉันดีใจมากที่เธอเข้าใจ"
 
 show hanagown distant_rn
 with charachange
 
-"Lilly's voice still sounds slightly apologetic, or at least unsure. This doesn't escape Hanako, who appears lost in thought for a few moments before turning to me."
+# "Lilly's voice still sounds slightly apologetic, or at least unsure. This doesn't escape Hanako, who appears lost in thought for a few moments before turning to me."
+"น้ำเสียงลิลลี่ยังฟังดูคล้ายเป็นการขอโทษอยู่เล็กน้อย หรือไม่ก็เป็นความไม่แน่ใจ ซึ่งฮานาโกะที่เหมือนคิดอะไรอยู่ครู่หนึ่ง\nก็จับน้ำเสียงนั้นได้แล้วหันมาทางฉัน"
 
 show hanagown smile_rn
 with charachange
 
-ha "Hisao, do you mind if Lilly and I go outside for a bit?"
+# ha "Hisao, do you mind if Lilly and I go outside for a bit?"
+ha "ฮิซาโอะ ขอฉันกับลิลลี่ออกไปข้างนอกด้วยกันสักหน่อยได้มั้ย"
 
-hi "Ah, no, feel free…"
+# hi "Ah, no, feel free…"
+hi "อ้อ ได้สิ ตามสบาย…"
 
 show lilly basic_surprised_paj_rn
 with charachange
 
-li "Hanako?"
+# li "Hanako?"
+li "ฮานาโกะ?"
 
 show hanagown smile_rn at tworight
 with charamove
@@ -4608,19 +4857,26 @@ with charaexit
 stop ambient
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
-"Hanako gets up from her seat, taking Lilly's hand and almost dragging her from the table in her excitement. Considering Lilly's typically slow and steady pace, Hanako's haste makes her footing awkward and she almost loses her balance a couple of times."
+# "Hanako gets up from her seat, taking Lilly's hand and almost dragging her from the table in her excitement. Considering Lilly's typically slow and steady pace, Hanako's haste makes her footing awkward and she almost loses her balance a couple of times."
+"ฮานาโกะลุกจากเก้าอี้แล้วจับมือลากตัวลิลลี่ไปจากโต๊ะด้วยความตื่นเต้น ลิลลี่ซึ่งปกติจะเดินอย่างช้า ๆ และสม่ำเสมอนั้น\nเดินไปแบบแปลก ๆ จนแทบจะเสียการทรงตัวอยู่บ้างเมื่อฮานาโกะลากตัวไปด้วยความเร่งรีบ"
 
-"It's a pretty amusing sight, leaving me wordless as I watch them disappear out the door. It's only now that I realize the rain's stopped, being replaced by a sky seemingly all the more vivid and bright to make up for the morning's drab gray expanse."
+# "It's a pretty amusing sight, leaving me wordless as I watch them disappear out the door. It's only now that I realize the rain's stopped, being replaced by a sky seemingly all the more vivid and bright to make up for the morning's drab gray expanse."
+"ดูแล้วก็ตลกดี ฉันมองพวกเธอสองคนออกไปทางประตูเงียบ ๆ และฉันก็เพิ่งรู้ตัวว่าฝนหยุดแล้ว ท้องฟ้าใสสว่าง\nเข้ามาแทนที่ราวกับจะชดเชยความหมองหม่นจากผืนฟ้าเมื่อเช้านี้"
 
-"For Hanako, this must be a pretty big revelation. Lilly and I are really the only people she associates with, almost as if we were parents in her own's stead."
+# "For Hanako, this must be a pretty big revelation. Lilly and I are really the only people she associates with, almost as if we were parents in her own's stead."
+"ข่าวนี้คงเป็นข่าวใหญ่ทีเดียวสำหรับฮานาโกะ ลิลลี่กับฉันเป็นคนกลุ่มเดียวที่เธอคลุกคลีด้วยจนคล้ายว่าพวกเราเป็น\nพ่อแม่ที่เข้ามาทดแทนพ่อแม่จริง ๆ ของเธอ"
 
-"I suppose that might well be the best way to describe the relationship we share. A father, mother and daughter, all playing around in our little make-believe family as if it could last forever."
+# "I suppose that might well be the best way to describe the relationship we share. A father, mother and daughter, all playing around in our little make-believe family as if it could last forever."
+"ถ้าให้ว่าแล้ว ความสัมพันธ์ของพวกเราก็คงเป็นอย่างนั้นนั่นแหละ พ่อ แม่ ลูก อยู่เล่นเป็นครอบครัวด้วยกันราวกับว่า\nจะเล่นบทบาทเช่นนี้ไปได้ตลอดกาล"
 
-"It might be a strange dynamic, and one that certainly can't last for long… but maybe, just for this one small moment, it's okay."
+# "It might be a strange dynamic, and one that certainly can't last for long… but maybe, just for this one small moment, it's okay."
+"อาจจะเป็นความสัมพันธ์ที่พิลึก และเป็นความสัมพันธ์ที่อย่างไรก็อยู่ได้ไม่นาน… แต่ว่า เพียงได้เป็นอย่างนี้ ณ\nชั่วขณะนี้ ก็คงนับว่าดีแล้ว"
 
-"As I stand from the table and go to join Lilly and Hanako in the fields outside, I nod to myself in affirmation."
+# "As I stand from the table and go to join Lilly and Hanako in the fields outside, I nod to myself in affirmation."
+"ฉันลุกเดินออกจากโต๊ะไปหาลิลลี่กับฮานาโกะที่อยู่กลางทุ่งด้านนอกพลางพยักหน้าให้ความมั่นใจกับตัวเอง"
 
-"This one small moment of happiness, no matter how brief, will last with me, with all of us, forever."
+# "This one small moment of happiness, no matter how brief, will last with me, with all of us, forever."
+"ความสุข ณ ชั่วขณะสั้น ๆ นี้—ไม่ว่าจะสั้นเพียงใด—จะอยู่ในใจฉัน ในใจทุกคน ไปตลอดกาล"
 
 stop music fadeout 2.0
 
