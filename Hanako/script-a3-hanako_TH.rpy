@@ -1198,7 +1198,7 @@ show miki wink
 with charachange
 
 # mk "Hey, whoa, you can trust me. No problems there."
-mk "โห้ย เชื่อใจได้เลย อย่าได้ห่วง"
+mk "โห้ย เชื่อใจได้ อย่าได้ห่วง"
 
 show miki grinclosed
 with charachange
@@ -1553,77 +1553,98 @@ hi "ก็คงจะถูกของเธอ ถ้าฮานาโกะ
 # "If we bought her something nice that she could see every day then maybe she'd be able to take her mind off her past and remember that she has friends."
 "ถ้าซื้ออะไรดี ๆ ที่ฮานาโกะเอาไปตั้งให้เห็นได้ทุกวัน เธอคงจะไม่ต้องจมกับอดีตมากเกินไปและรู้ตัวว่ายังมีเพื่อนอยู่"
 
-"And in any case, I think Hanako can handle something like this. In the time I've spent beside her, I've learned that she isn't quite as frightfully fragile as I first thought she was."
+# "And in any case, I think Hanako can handle something like this. In the time I've spent beside her, I've learned that she isn't quite as frightfully fragile as I first thought she was."
+"ยังไงก็เถอะ ฉันว่าฮานาโกะคงรับมือเรื่องแบบนี้ได้ จากการที่ได้อยู่ข้าง ๆ เธอทำให้รู้ว่าเธอไม่ได้บอบบางขนาดนั้น"
 
-hi "So, shall we be off? I'm not really sure about the layout of this area."
+# hi "So, shall we be off? I'm not really sure about the layout of this area."
+hi "งั้น เราไปเลยดีไหม? ฉันไม่ค่อยชินทางแถวนี้เลยอะ"
 
 show lilly cane_smileclosed_cas_close
 with charachange
 
 stop music fadeout 6.0
 
-li "Very well. I might like to suggest having something to eat, first."
+# li "Very well. I might like to suggest having something to eat, first."
+li "ก็ดีนะ ฉันว่าจะหาอะไรกินก่อนด้วยน่ะ"
 
-hi "I haven't either, so that sounds like a good plan."
+# hi "I haven't either, so that sounds like a good plan."
+hi "ก็ดีนะ ฉันก็ยังไม่ได้กินอะไรมาเหมือนกัน"
 
 show lilly cane_cheerful_cas_close
 with charachange
 
-li "Make sure you choose a nice place, Hisao."
+# li "Make sure you choose a nice place, Hisao."
+li "ฝากเลือกร้านดี ๆ ด้วยละจ้ะ ฮิซาโอะ"
 
-"She gives a teasing smile, one that makes me smile reflexively in response even if she can't see that."
+# "She gives a teasing smile, one that makes me smile reflexively in response even if she can't see that."
+"เธอยิ้มหยอกออกมา ทำให้ฉันยิ้มตอบไปแม้เธอจะมองไม่เห็นก็ตาม"
 
-hi "I'll make very sure I do, don't worry about that."
+# hi "I'll make very sure I do, don't worry about that."
+hi "อย่าได้ห่วง จะพยายาม"
 
 stop ambient fadeout 1.0
 play music music_another fadein 4.0
 scene bg city_karaokeint
 with locationskip
 
-"Once inside, I order two slices of pie and accompanying cups of tea and take them back to our table."
+# "Once inside, I order two slices of pie and accompanying cups of tea and take them back to our table."
+"พอมาถึงในร้าน ฉันสั่งพายสองชิ้นกับชาสองถ้วยและนำมาที่โต๊ะของเรา"
 
 show lilly basic_smileclosed_cas_close:
     center
     ypos 1.1
 with charaenter
 
-"I'd pegged this café as the type to appeal to Lilly; small and quiet, but well-kept and somewhat upscale. Going by the dainty smile she wears, I… don't really know if I chose right."
+# "I'd pegged this café as the type to appeal to Lilly; small and quiet, but well-kept and somewhat upscale. Going by the dainty smile she wears, I… don't really know if I chose right."
+"ฉันเล็งคาเฟ่แห่งนี้ไว้ว่าน่าจะเป็นแบบที่ลิลลี่ชอบ เล็ก ๆ และสงบ แต่ก็ดูแลรักษาอย่างดีและดูมีระดับนิด ๆ \nดูจากที่เธอยิ้มอย่างอ่อน ๆ แล้ว ฉัน… ก็ไม่ค่อยแน่ใจจริง ๆ ว่าฉันเลือกถูกหรือเปล่า"
 
-"It's very, very rare to not see her smiling, after all."
+# "It's very, very rare to not see her smiling, after all."
+"ก็นาน ๆ ทีจะเห็นเธอไม่ยิ้มอะนะ"
 
-"Nevertheless, I take a seat near her at one of the corner tables and lay down our small meals."
+# "Nevertheless, I take a seat near her at one of the corner tables and lay down our small meals."
+"ยังไงก็เถอะ ฉันนั่งลงใกล้ ๆ เธอที่โต๊ะตรงมุมตัวหนึ่ง แล้ววางอาหารมื้อเล็ก ๆ ของเราลง"
 
 show lilly basic_planned_cas_close
 with charachange
 
-"Lilly gingerly brings her head over the slice of pie placed in front of her, delicately taking in the aroma."
+# "Lilly gingerly brings her head over the slice of pie placed in front of her, delicately taking in the aroma."
+"ลิลลี่ค่อย ๆ โน้มหัวลงไปเหนือพายที่วางอยู่ตรงหน้าเธอ พลางสูดดมกลิ่นหอมอย่างละเมียดละไม"
 
 show lilly basic_cheerful_cas_close
 with charachange
 
-li "Lemon pie, is it? Thank you, Hisao."
+# li "Lemon pie, is it? Thank you, Hisao."
+li "พายเลมอนใช่ไหมนะ ขอบใจนะ ฮิซาโอะ"
 
-hi "No problem. The tea's just next to it, so be careful not to knock it over."
+# hi "No problem. The tea's just next to it, so be careful not to knock it over."
+hi "ไม่เป็นไร ๆ ถ้วยชาตั้งอยู่ข้าง ๆ นะ ระวังชนหกด้วยละ"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
-"She nods appreciatively, but judging from the slightly weak smile she has, the warning wasn't really necessary. I suppose the sound must have tipped her off to its position."
+# "She nods appreciatively, but judging from the slightly weak smile she has, the warning wasn't really necessary. I suppose the sound must have tipped her off to its position."
+"เธอพยักหน้ารับอย่างยินดี แต่ดูจากรอยยิ้มอ่อน ๆ ของเธอแล้ว ฉันว่าคงไม่จำเป็นต้องเตือนหรอก เพราะเสียงวาง\nคงทำให้เธอรู้ตำแหน่งไปตั้งแต่แรกแล้ว"
 
-"We both tuck into our food without further ado, both of us remaining largely silent as we do so. Lilly isn't the type to appreciate discussion while eating, and I can't say I like it either."
+# "We both tuck into our food without further ado, both of us remaining largely silent as we do so. Lilly isn't the type to appreciate discussion while eating, and I can't say I like it either."
+"เราทั้งคู่ลงมือกินโดยไม่รอช้า และต่างฝ่ายต่างก็เงียบไปเป็นส่วนใหญ่ ลิลลี่คงไม่ใช่คนที่ชอบคุยระหว่างมื้ออาหาร\nซึ่งฉันเองก็ไม่ค่อยชอบเหมือนกัน"
 
-"Eventually we finish both our meals, and the last of our teacups follows in short order. Lilly's the first to break the silence."
+# "Eventually we finish both our meals, and the last of our teacups follows in short order. Lilly's the first to break the silence."
+"สุดท้ายพวกเราก็กินจนหมด และชาถ้วยสุดท้ายก็หมดตามไปในเวลาไม่นานนัก และลิลลี่ก็เป็นฝ่ายเอ่ยปากทำลาย\nความเงียบก่อน"
 
 show lilly basic_smile_cas_close
 with charachange
 
-li "That was very nice. I must say you've chosen quite well, Hisao."
+# li "That was very nice. I must say you've chosen quite well, Hisao."
+li "อร่อยมากเลย ขอชมเลยว่าเธอเลือกร้านได้ดีทีเดียว ฮิซาโอะ"
 
-hi "This is the first time I've really had much of a look around the city, so all I could really do is choose somewhere that looked nice."
+# hi "This is the first time I've really had much of a look around the city, so all I could really do is choose somewhere that looked nice."
+hi "เป็นครั้งแรกเลยที่ฉันดูทั่วเมืองขนาดนี้ เพื่อที่จะได้เลือกร้านที่ดูดีน่ะ"
 
-hi "Uh… damn. Sorry."
+# hi "Uh… damn. Sorry."
+hi "เอ่อ… คือ โทษที"
 
-"I feel really bad for inadvertently bringing up the subject of sight around Lilly, but she doesn't appear to mind much. Quite the opposite; she almost looks amused by my awkward attempt at an apology."
+# "I feel really bad for inadvertently bringing up the subject of sight around Lilly, but she doesn't appear to mind much. Quite the opposite; she almost looks amused by my awkward attempt at an apology."
+"ฉันรู้สึกผิดจริง ๆ ที่เผลอพูดเรื่องการมองเห็นขึ้นมาต่อหน้าลิลลี่โดยไม่ตั้งใจ แต่เธอก็ดูเหมือนจะไม่ได้ติดใจอะไรมากนัก\nออกจะตรงกันข้ามเสียด้วยซ้ำ เพราะเธอดูเหมือนจะขำกับความพยายามขอโทษอย่างเก้อเขินของฉันมากกว่า"
 
 show lilly basic_smileclosed_cas_close
 with charachange
