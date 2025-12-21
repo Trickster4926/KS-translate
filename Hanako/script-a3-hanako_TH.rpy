@@ -814,7 +814,7 @@ ha "เพื่อน…"
 "จากน้ำเสียงและท่าทีที่เธอห่อตัวลง ดูเหมือนว่าฉันพลาดไปอีกรอบละ"
 
 # "This is another reason why interacting with her is difficult; the self-imposed psychological barriers she puts up between herself and others, including me and, most likely, even Lilly. It's a shame that—"
-"นี่เป็นอีกเหตุผลหนึ่งที่การมีปฏิสัมพันธ์กับเธอมันเป็นเรื่องยาก เพราะกำแพงทางจิตใจที่เธอก่อขึ้นระหว่างตัวเองกับคนอื่น\nซึ่งรวมถึงฉัน และน่าจะรวมถึงลิลลี่ด้วยซ้ำ น่าเสียดายที่—"
+"นี่เป็นอีกเหตุผลหนึ่งที่การมีปฏิสัมพันธ์กับเธอเป็นเรื่องยาก เพราะกำแพงทางจิตใจที่เธอก่อขึ้นระหว่างตัวเองกับคนอื่น\nซึ่งรวมถึงฉัน และน่าจะรวมถึงลิลลี่ด้วยซ้ำ น่าเสียดายที่—"
 
 show hanako basic_bashful_close
 with charachange
@@ -1649,55 +1649,71 @@ hi "เอ่อ… คือ โทษที"
 show lilly basic_smileclosed_cas_close
 with charachange
 
-li "You are thoughtful, Hisao, but sometimes I fear that it gets the better of you. There is no need to change your speech on my account."
+# li "You are thoughtful, Hisao, but sometimes I fear that it gets the better of you. There is no need to change your speech on my account."
+li "เธอนี่ใส่ใจดีจังนะ ฮิซาโอะ แต่บางทีฉันเกรงว่าความช่างเกรงใจนั้นจะทำให้เธอลำบากใจเสียเอง เธอไม่จำเป็น\nต้องเปลี่ยนวิธีพูดเพียงเพราะเห็นแก่ฉันหรอกนะ"
 
-"Lilly truly is pretty comfortable in dealing with her condition. I still hasten to change the subject, as I can't really say that I share her confidence in the matter."
+# "Lilly truly is pretty comfortable in dealing with her condition. I still hasten to change the subject, as I can't really say that I share her confidence in the matter."
+"ลิลลี่ดูจะยอมรับความพิการตัวเองได้ดี แต่ถึงอย่างนั้น ฉันก็รีบเปลี่ยนประเด็นอยู่ดี เพราะฉันคงพูดไม่ได้เต็มปากว่า\nฉันเองจะรู้สึกยอมรับในเรื่องนี้ได้มากเท่าเธอ"
 
-hi "Have you lived here for very long? It seems like you have this place pretty much sorted out."
+# hi "Have you lived here for very long? It seems like you have this place pretty much sorted out."
+hi "เธออยู่ที่นี่มานานแล้วหรือยังนะ เหมือนเธอจะชินทางที่นี่มาก ๆ เลย"
 
 show lilly basic_planned_cas_close
 with charachange
 
-"She quickly waves her hand in front of her face to dismiss the notion."
+# "She quickly waves her hand in front of her face to dismiss the notion."
+"เธอรีบโบกมือไปมาตรงหน้าเพื่อเป็นการปฏิเสธ"
 
 show lilly basic_smile_cas_close
 with charachange
 
-li "It's nothing like that. I've attended Yamaku since the start of high school, but I didn't walk around the city very much because Akira, my sister, picked me up and dropped me off."
+# li "It's nothing like that. I've attended Yamaku since the start of high school, but I didn't walk around the city very much because Akira, my sister, picked me up and dropped me off."
+li "ไม่ใช่แบบนั้นหรอกจ้ะ ฉันเข้ายามากุตั้งแต่ขึ้นม.ปลาย แต่ก็ไม่ได้เดินในเมืองทั่วขนาดนั้น เพราะว่าอากิระพี่สาวฉัน\nมารับส่งตลอดจ้ะ"
 
-hi "Oh, right. You mentioned not living in the dormitories until recently."
+# hi "Oh, right. You mentioned not living in the dormitories until recently."
+hi "อ๋อ เอ้อ เธอเคยบอกว่าไม่ได้อยู่ที่หอ จนเมื่อไม่นานมานี้นี่นา"
 
-"It's quite a surprise. I'd just assumed she'd been living here since entering Yamaku at the least, which would give her a few years here."
+# "It's quite a surprise. I'd just assumed she'd been living here since entering Yamaku at the least, which would give her a few years here."
+"ค่อนข้างน่าตกใจเหมือนกัน เพราะฉันคิดไปเองว่าเธอมาอยู่ที่นี่ตั้งแต่เข้ายามากุ ซึ่งนั่นก็น่าจะทำให้เธออยู่ที่นี่มาได้หลายปี"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
-li "I've lived with my family for most of my life, then I was just together with my sister. With my family having moved to Inverness long before, and Akira working longer hours, I ended up having to move."
+# li "I've lived with my family for most of my life, then I was just together with my sister. With my family having moved to Inverness long before, and Akira working longer hours, I ended up having to move."
+li "ฉันอยู่กับครอบครัวมาเกือบตลอดเลยจ้ะ และหลังจากนั้นก็อยู่กับพี่สาวแค่สองคน แต่พอครอบครัวของฉันย้ายไปอยู่ที่\nอินเวอร์เนส และอากิระเองก็ต้องทำงานหนักขึ้น สุดท้ายฉันก็เลยจำเป็นต้องย้ายมาน่ะจ้ะ"
 
-hi "Inverness? Isn't that somewhere in Scotland?"
+# hi "Inverness? Isn't that somewhere in Scotland?"
+hi "อินเวอร์เนส? ไม่ใช่ว่าอยู่สกอตแลนด์เหรอ?"
 
 show lilly basic_surprised_cas_close
 with charachange
 
-li "Oh, did I not tell you? My family currently lives in Scotland, the birthplace of my mother. My father's side is mainly Japanese, though."
+# li "Oh, did I not tell you? My family currently lives in Scotland, the birthplace of my mother. My father's side is mainly Japanese, though."
+li "อ้าว ฉันยังไม่ได้บอกเธอเหรอเนี่ย? ครอบครัวฉันตอนนี้อยู่ที่สกอตแลนด์ บ้านเกิดของแม่ฉันน่ะ ส่วนฝั่งพ่อเป็นคนญี่ปุ่นน่ะจ้ะ"
 
-"Huh. The question of what gave Lilly her looks did cross my mind every now and again, but I'd never thought to ask. That answers that, then."
+# "Huh. The question of what gave Lilly her looks did cross my mind every now and again, but I'd never thought to ask. That answers that, then."
+"อืม คำถามที่ว่าอะไรทำให้ลิลลี่มีรูปร่างหน้าตาแบบนี้ก็เคยแวบเข้ามาในหัวฉันบางทีเหมือนกัน แต่ฉันก็ไม่เคยคิดที่จะถามเลย\nถ้าอย่างนั้น เรื่องนี้ก็กระจ่างแล้วล่ะ"
 
-hi "To be honest, I'd never have guessed. Considering you have no accent, I'm guessing you were born here?"
+# hi "To be honest, I'd never have guessed. Considering you have no accent, I'm guessing you were born here?"
+hi "เอาเข้าจริง ฉันไม่มีทางเดาถูกเลยนะเนี่ย ดูจากที่เธอไม่มีสำเนียงติดมาเลย เดาว่าเธอเกิดที่นี่ใช่ไหม"
 
 show lilly basic_giggle_cas_close
 with charachange
 
-li "Full marks. I am thankful for my heritage though, as without it I'd likely have not been taught English so early in my life."
+# li "Full marks. I am thankful for my heritage though, as without it I'd likely have not been taught English so early in my life."
+li "ถูกเผงเลยจ้ะ ....."
 
 show lilly basic_smile_cas_close
 with charachange
 
-li "And what of you, Hisao?"
+# li "And what of you, Hisao?"
+li "แล้วเธอล่ะจ๊ะ ฮิซาโอะ"
 
-hi "What about me?"
+# hi "What about me?"
+hi "ฉันเหรอ?"
 
-"She gives a moment's thought. She probably should have thought of what to ask me before switching the topic."
+# "She gives a moment's thought. She probably should have thought of what to ask me before switching the topic."
+"เธอนิ่งคิดอยู่ครู่หนึ่ง ดูเหมือนเธอควรจะคิดไว้ก่อนว่าจะถามอะไรฉันดี ก่อนที่จะตัดสินใจเปลี่ยนเรื่องคุย"
 
 show lilly basic_weaksmile_cas_close
 with charachange
