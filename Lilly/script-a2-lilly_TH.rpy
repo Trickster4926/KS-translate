@@ -2462,7 +2462,7 @@ with charachange
 li "ฮิซาโอะ… เธอรู้ได้ไงว่าฉัน…"
 
 # "I'd asked for French vanilla black tea, hedging my bets that it would be her favorite flavor, or at least one she liked. While I don't really know much about tea, it sounded like one she might appreciate."
-"ฉันสั่งชาดำวานิลลาฝรั่งเศสเป็นการหยั่งเชิงว่าอาจจะเป็นรสที่ลิลลี่ชอบที่สุด หรืออย่างน้อยก็อาจจะพอเป็นรสที่เธอ\nชอบดื่ม ถึงฉันไม่ได้เชี่ยวชาญเรื่องชา แต่ชื่อก็ฟังดูเป็นอะไรที่ลิลลี่น่าจะชอบ"
+"ฉันสั่งชาดำเฟรนช์วานิลลาเป็นการหยั่งเชิงว่าอาจจะเป็นรสที่ลิลลี่ชอบที่สุด หรืออย่างน้อยก็อาจจะพอเป็นรสที่เธอ\nชอบดื่ม ถึงฉันไม่ได้เชี่ยวชาญเรื่องชา แต่ชื่อก็ฟังดูเป็นอะไรที่ลิลลี่น่าจะชอบ"
 
 # "…on the basis of her liking vanilla ice cream. A tea connoisseur I am definitely not."
 "…เดาจากการที่เธอสั่งไอศกรีมรสวานิลลา ฉันไม่ใช่ผู้คร่ำหวอดในวงการชาเลยสักนิด"
@@ -2495,7 +2495,7 @@ li "แล้วฉันบอกเหรอว่าฉันไม่ได�
 "เธอหัวเราะคิกคักจังหวะที่ฉันห้อยหัวลง คนเราต่างก็มีข้อเสียกันทั้งนั้นแหละมั้ง แถมยังมีอะไรอย่างอื่นที่แย่กว่าให้ติด\nอีกเยอะ"
 
 # hi "French vanilla black tea, huh? I'll have to remember that."
-hi "ชาดำวานิลลาฝรั่งเศสเหรอ จะจำไว้นะ"
+hi "ชาดำเฟรนช์วานิลลาเหรอ จะจำไว้นะ"
 
 show lilly basic_smileclosed_cas_close
 with charachange
