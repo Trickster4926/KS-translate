@@ -1701,7 +1701,7 @@ show lilly basic_giggle_cas_close
 with charachange
 
 # li "Full marks. I am thankful for my heritage though, as without it I'd likely have not been taught English so early in my life."
-li "ถูกเผงเลยจ้ะ ....."
+li "ใช่แล้วจ้ะ แต่ฉันก็ดีใจนะที่ครอบครัวเป็นคนต่างชาติน่ะ ไม่อย่างนั้นฉันคงไม่ได้เรียนภาษาอังกฤษตั้งแต่ยังเด็กขนาดนั้นหรอก"
 
 show lilly basic_smile_cas_close
 with charachange
@@ -1718,29 +1718,38 @@ hi "ฉันเหรอ?"
 show lilly basic_weaksmile_cas_close
 with charachange
 
-li "I'll go with… what are your plans for the future?"
+# li "I'll go with… what are your plans for the future?"
+li "คงเริ่มจาก… เธอมีแผนสําหรับอนาคตยังไงบ้างจ๊ะ?"
 
-hi "To be honest, I haven't thought much about that recently."
+# hi "To be honest, I haven't thought much about that recently."
+hi "ว่าตามตรง ฉันไม่ได้คิดถึงเรื่องนั้นเท่าไหร่"
 
-hi "After my accident and subsequent months in hospital, enjoying my life here with you and Hanako has been enough for me."
+# hi "After my accident and subsequent months in hospital, enjoying my life here with you and Hanako has been enough for me."
+hi "หลังจากเหตุการณ์นั้นกับการอยู่ในโรงพยาบาลอีกหลายเดือน ทำให้ตอนนี้การได้มีความสุขกับชีวิตที่นี่กับเธอและฮานาโกะก็พอแล้ว"
 
-"In fact, I don't think I've thought at all about a “future” for some time now. It seems almost futile."
+# "In fact, I don't think I've thought at all about a “future” for some time now. It seems almost futile."
+"เอาจริง ๆ ฉันคิดว่าฉันไม่ได้นึกถึงเรื่อง “อนาคต”  ตัวเองมาสักพักแล้วล่ะ รู้สึกว่าเหมือนเป็นเรื่องที่เปล่าประโยชน์ยังไงก็ไม่รู้"
 
 show lilly basic_sleepy_cas_close
 with charachange
 
-li "This is your last year of school. After this, you will have to fend for yourself one way or the other."
+# li "This is your last year of school. After this, you will have to fend for yourself one way or the other."
+li "นี่เป็นปีสุดท้ายในโรงเรียนของเธอแล้วนะ หลังจากนี้ ไม่ว่ายังไงเธอก็ต้องยืนหยัดด้วยลำแข้งของตัวเองให้ได้แล้ว"
 
-hi "It's not like I don't know that, I just haven't put much thought into it since then…"
+# hi "It's not like I don't know that, I just haven't put much thought into it since then…"
+hi "ไม่ใช่ว่าไม่รู้หรอก แค่ไม่ได้คิดเรื่องนั้นเท่าไหร่…"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
-"She opens her mouth to continue, but gives a small sigh instead. She seems to have realized that she really doesn't know enough about my situation to go too deeply into this."
+# "She opens her mouth to continue, but gives a small sigh instead. She seems to have realized that she really doesn't know enough about my situation to go too deeply into this."
+"เธออ้าปากจะพูด แต่กลับถอนหายใจเบา ๆ แทน เธอดูเหมือนจะนึกได้ว่าเธอไม่ค่อยรู้เรื่องราวของฉันมากเท่าไหร่"
 
-li "Well, we all have our own pace. I just hope you'll take any chance you see."
+# li "Well, we all have our own pace. I just hope you'll take any chance you see."
+li "เอาเถอะจ้ะ คนเราต่างก็มีจังหวะชีวิตเป็นของตัวเอง ฉันแค่หวังว่าเธอจะคว้าทุกโอกาสที่ผ่านเข้ามาไว้นะ"
 
-hi "…I understand. I'll think about it."
+# hi "…I understand. I'll think about it."
+hi "…เข้าใจละ ฉันจะลองคิดดู"
 
 stop music fadeout 2.0
 
@@ -1751,35 +1760,44 @@ scene bg city_street2
 show lilly cane_smileclosed_cas_close
 with shorttimeskip
 
-"As we walk back out into the city, Lilly takes hold of my arm once again."
+# "As we walk back out into the city, Lilly takes hold of my arm once again."
+"พอเราเดินเข้าไปในตัวเมือง ลิลลี่ก็คว้าแขนฉันไว้อีกครั้ง."
 
 show lilly cane_smile_cas_close
 with charachange
 
-li "So, did you get any good ideas for a present?"
+# li "So, did you get any good ideas for a present?"
+li "เธอมีไอเดียดี ๆ สําหรับของขวัญไหม?"
 
-hi "To be honest, no. I've never been very good at picking them."
+# hi "To be honest, no. I've never been very good at picking them."
+hi "ว่ากันตามตรง ไม่เลย ฉันไม่เคยเลือกได้ดีเลย"
 
 show lilly cane_weaksmile_cas_close
 with charachange
 
-li "As absurd as it sounds, perhaps we should just… look around?"
+# li "As absurd as it sounds, perhaps we should just… look around?"
+li "อาจจะฟังดูแปลก ๆ แต่เราน่าจะ… ดูรอบ ๆ ดีไหม?"
 
-"Hearing Lilly utter those words throws me for a moment."
+# "Hearing Lilly utter those words throws me for a moment."
+"ได้ยินลิลลี่พูดคํานั้นออกมา ทำให้ฉันถึงกับอึ้งไปแวบนึง"
 
-hi "Er… right. How do we do that?"
+# hi "Er… right. How do we do that?"
+hi "เอ่อ… อาฮะ ยังไงล่ะ?"
 
 show lilly cane_cheerful_cas_close
 with charachange
 
-li "That's just the reaction I was expecting. It's simple; you can go window shopping, and just tell me what is around."
+# li "That's just the reaction I was expecting. It's simple; you can go window shopping, and just tell me what is around."
+li "ว่าแล้วว่าเธอต้องถาม ง่าย ๆ เลย เธอแค่ไปเดินดูของตามร้านค้าต่าง ๆ แล้วก็แค่คอยบอกฉันว่ามีอะไรอยู่รอบ ๆ บ้างก็พอ"
 
 show lilly cane_smileclosed_cas_close
 with charachange
 
-li "If something interesting comes up, then we might get an idea."
+# li "If something interesting comes up, then we might get an idea."
+li "ถ้ามีอะไรน่าสนใจ เราอาจจะได้ไอเดียก็ได้นะ"
 
-hi "Right… I'm still not so sure of this, but I'll take your word for it."
+# hi "Right… I'm still not so sure of this, but I'll take your word for it."
+hi "อืม… ไม่แน่ใจว่าจะไหวไหม แต่เอาตามนั้นก็ได้"
 
 show lilly cane_smile_cas_close
 with charachange
