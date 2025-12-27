@@ -649,7 +649,7 @@ with charachange
 "เขาชะงักไปอย่างเห็นได้ชัด"
 
 # ke "…Scotland?"
-ke "…สกอดแลนด์เหรอ"
+ke "…สกอตแลนด์เหรอ"
 
 # hi "Yeah, that was my reaction too. She can speak English fluently and everything."
 hi "อืม ตอนรู้ฉันก็สภาพนั้นแหละ แถมยังเก่งภาษาอังกฤษมากด้วย"
@@ -721,7 +721,7 @@ show kenji tsun
 with charachange
 
 # "He looks utterly devastated as he wolfs down several clumps of his soggy soy-soaked rice. It only takes a few mouthfuls before he pokes his chopsticks at me, stabbing the air repeatedly in revelation."
-"เขาทำสิ้นหวังสุดขีดพลางสวาปามก้อนข้าวชุ่มซีอิ๊ว กินไปได้ไม่กี่คำก็ชี้ตะเกียบมาทางฉันแล้วทำท่าจิ้มกลางอากาศ\nรัว ๆ คล้ายจะประกาศบางอย่าง"
+"เขาทำท่าสิ้นหวังสุดขีดพลางสวาปามก้อนข้าวชุ่มซีอิ๊ว กินไปได้ไม่กี่คำก็ชี้ตะเกียบมาทางฉันแล้วทำท่าจิ้มกลางอากาศ\nรัว ๆ คล้ายจะประกาศบางอย่าง"
 
 # ke "Why… mm… mm… would… mm…"
 ke "คน… หงุบ… หงุบ… ที่ไหน… อืม…"
@@ -954,7 +954,7 @@ play sound sfx_doorknock2
 "ฉันเคาะประตูอีกครั้งให้หนักมือขึ้นอีกเล็กน้อย"
 
 # "Still no answer. How strange."
-"ไม่มีเสียงตอบรับจากเลขหมายที่ท่านเรียก แปลกแฮะ"
+"ไม่มีเสียงตอบรับ แปลกแฮะ"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="sound")
 play sound sfx_dooropen
@@ -1169,7 +1169,7 @@ $ renpy.music.set_volume(0.5, 0.2, channel="music")
 mystery "{image=vfx/garbage.png} {image=vfx/garbage.png} Satou {image=vfx/garbage.png}?"
 
 # "English? Suddenly finding myself unprepared, I realize I can't understand a word she says, either due to my limited vocabulary or her heavy accent. I should have anticipated this, since according to Lilly, her mother is a native Scot."
-"ภาษาอังกฤษเหรอ ไปต่อไม่ถูกเลย ฟังไม่ออกเลยสักคำแฮะ คงเพราะฉันรู้คำศัพท์น้อยไม่ก็เพราะสำเนียง จริง ๆ น่าจะ\nคิดได้แต่แรกเพราะรู้มาจากลิลลี่แล้วว่าแม่เธอนั้นเป็นคนสก็อตแลนด์โดยกำเนิด"
+"ภาษาอังกฤษเหรอ ไปต่อไม่ถูกเลย ฟังไม่ออกเลยสักคำแฮะ คงเพราะฉันรู้คำศัพท์น้อยไม่ก็เพราะสำเนียง จริง ๆ น่าจะ\nคิดได้แต่แรกเพราะรู้มาจากลิลลี่แล้วว่าแม่เธอนั้นเป็นคนสกอตแลนด์โดยกำเนิด"
 
 # "I soldier on in the hope that she must know some Japanese, considering it's her daughter's native language."
 "ฉันดันทุรังไปต่อด้วยความหวังว่าเธอคงพอจะรู้ภาษาญี่ปุ่นบ้าง เพราะยังไงก็เป็นภาษาแม่ของลูกตัวเอง"
@@ -1918,7 +1918,7 @@ with charachange
 $ written_note(u"ตายแล้ว ไม่ดีนะ ไม่ดีนะ ฮิจัง!", text_args={"color":"#FF2AAA"})
 
 # $ written_note(u"I'm just going to meet Lilly with Hanako. I don't know what you've got going through your head.")
-$ written_note(u"ฉันแค่จะไปหาลิลลี่กับฮานาโกะเอง นี่คิดอะไรของเธอ\nอยู่เนี่ย")
+$ written_note(u"ฉันแค่จะไปหาลิลลี่กับฮานาโกะเอง นี่คิดอะไร\nของเธออยู่เนี่ย")
 
 show misha perky_smile_close
 with charachange
@@ -2171,7 +2171,7 @@ with charachange
 "อากิระเพียงแสยะยิ้มพลางยืดอกที่เธอมีอยู่พอประมาณ"
 
 # aki "I feel absolutely fine!"
-aki "สอบอมอยอหอ!"
+aki "สบ๊าย!"
 
 show lilly basic_sleepy_cas
 with charachange
@@ -2366,7 +2366,7 @@ show lilly basic_displeased_cas
 with charachange
 
 # li "Unfortunately the train schedule is against us. The next train to Hokkaido is at two in the afternoon."
-li "พอดีว่าเที่ยวรถไฟไม่เป็นใจเท่าไหร่น่ะจ้ะ ขาขึ้นไปฮอกไกโดอีกเที่ยวก็เป็นตอนบ่ายสองนู่นเลย"
+li "พอดีว่าเที่ยวรถไฟไม่เป็นใจเท่าไหร่น่ะจ้ะ ขาขึ้นไปฮกไกโดอีกเที่ยวก็เป็นตอนบ่ายสองนู่นเลย"
 
 # hi "Great. Just great."
 hi "เยี่ยม เยี่ยมจริง ๆ"
@@ -2600,7 +2600,7 @@ with charachange
 "ฮานาโกะยิ้มแป้น และลิลลี่ที่เหมือนจะจดจ่ออยู่กับหนังสือของตัวเองก็อมยิ้มอยู่ด้วยเหมือนกัน ทั้งสองคนดูจะชอบใจ\nเอามาก ๆ"
 
 # "For a moment I try to work out what Lilly's reading, but the cover is too faded to read beyond the fact that Roman letters are on it. A pity I can't read the Braille above the printed title."
-"ฉันเพ่งมองอยู่พักหนึ่งว่าลิลลี่อ่านอะไรอยู่ แต่ปกก็เลือนไปจนเห็นแค่ว่าที่พิมพ์อยู่นั้นเป็นอักษรภาษาอังกฤษ\nและน่าเสียดายที่ฉันอ่านอักษรเบรลล์ซึ่งพิมพ์อยู่บนตัวอักษรภาษาอังกฤษนั้นไม่ออก"
+"ฉันเพ่งมองอยู่พักหนึ่งว่าลิลลี่อ่านอะไรอยู่ แต่ปกก็เลือนไปจนเห็นแค่ว่าที่พิมพ์อยู่นั้นเป็นตัวอักษรภาษาอังกฤษ\nและน่าเสียดายที่ฉันอ่านอักษรเบรลล์ซึ่งพิมพ์อยู่บนตัวอักษรภาษาอังกฤษนั้นไม่ออก"
 
 # hi "What're you reading, Lilly? The title looks like it's in English."
 hi "อ่านอะไรอยู่เหรอลิลลี่ เหมือนชื่อจะเป็นภาษาอังกฤษใช่มั้ย"
@@ -3041,7 +3041,7 @@ menu:
         return m1
     
     # "Wave her off.":
-    "ไล่":
+    "บอกปัด":
         return m2
 
 
@@ -3135,7 +3135,7 @@ with charachange
 hi "มีอะไร… อ๊ะ"
 
 # "A small trickle of scarlet falls downward from her pale fingertip, the knife having cut just deep enough to draw blood."
-"ปลายนิ้วขาวของเธอมีหยดของเหลวสีชาดอยู่ มีดนั้นบาดจนได้เลือดพอดิบพอดี"
+"ปลายนิ้วขาวของเธอมีหยดของเหลวสีชาด มีดนั้นบาดจนได้เลือดพอดิบพอดี"
 
 # "With the television's sound masking my footsteps, she must not have noticed me coming. To compensate for having to use touch to guide everything she does during cooking, she must need to pay extra attention."
 "เสียงโทรทัศน์คงดังจนไม่ได้ยินเสียงฝีเท้าฉันแน่ ๆ แล้วยิ่งต้องจดจ่อกับการทำอาหารที่ต้องคอยใช้มือในการสัมผัส\nเพื่อนำทางอะไร ๆ อีก"
@@ -3692,7 +3692,7 @@ play sound sfx_impact
 with vpunch
 
 # "I screw up my brow in an effort to lever myself up, Hanako's arms quickly moving to catch me if I fall as I stumble a bit before regaining my balance."
-"ฉันขมวดคิ้วเรียกกำลังเพื่อหยัดตัวเองลุกขึ้นยืน ฮานาโกะรีบเข้ามาประคองไม่ให้ล้มอีกเพราะฉันยังมีอาการเซ ๆ อยู่\n จากนั้นฉันก็กลับมายืนได้ตามปกติ"
+"ฉันขมวดคิ้วเรียกกำลังเพื่อหยัดตัวเองลุกขึ้นยืน ฮานาโกะรีบเข้ามาประคองไม่ให้ล้มอีกเพราะฉันยังมีอาการเซ ๆ อยู่\nจากนั้นฉันก็กลับมายืนได้ตามปกติ"
 
 # "I look to Lilly and Hanako, worry written on both their faces. I feel awful. Utterly awful."
 "ฉันมองไปทางลิลลี่กับฮานาโกะที่ต่างมีสีหน้าว่าเป็นห่วง รู้สึกแย่ชะมัด แย่มาก ๆ"
@@ -3740,7 +3740,7 @@ play ambient sfx_cicadas fadein 2.0
 "ฉันลืมตาขึ้นมาพร้อมอาการครั่นเนื้อครั่นตัวหมดเรี่ยวแรง"
 
 # "For a while, I simply lie down lifelessly, staring at the ceiling as I review the events of the morning in an attempt to organize my thoughts."
-"ฉันนอนแบ็งจ้องเพดานอยู่ครู่หนึ่งพลางนึกทบทวนถึงเหตุการณ์เมื่อเช้าเป็นการจัดระเบียบความคิด"
+"ฉันนอนแบ็บจ้องเพดานอยู่ครู่หนึ่งพลางนึกทบทวนถึงเหตุการณ์เมื่อเช้าเป็นการจัดระเบียบความคิด"
 
 # "We went to walk to town. My heart nearly gave way. We came back. I took my pills. I slept."
 "เราเดินไปเมือง ฉันเกือบหัวใจวาย เรากลับมา ฉันกินยา ฉันหลับ"
@@ -4557,7 +4557,7 @@ n "\n\n\n\nฉันชินกับการกินยาโดยที่
 n "พอนึกถึงยามากุแล้วฉันก็นึกยินดีที่ได้ปลีกตัวออกมาจากตรงนั้น แม้จะเป็นเพียงระยะเวลาสั้น ๆ ก็ตาม"
 
 # n "I appreciate the chance to spend time alone with Lilly and Hanako, away from the bustle of school life, even considering the latest complications."
-n "ฉันรู้สึกยินดีที่ตัวเองมีโอกาสได้ใช้เวลาอยู่ห่างจากความวุ่นวายของชีวิตในโรงเรียนด้วยกันกับลิลลี่กับฮานาโกะ\nตามลำพัง ถึงจะมีเหตุการณ์อย่างเมื่อคืนเกิดขึ้นก็เถอะะ"
+n "ฉันรู้สึกยินดีที่ตัวเองมีโอกาสได้ใช้เวลาอยู่ห่างจากความวุ่นวายของชีวิตในโรงเรียนด้วยกันกับลิลลี่กับฮานาโกะ\nตามลำพัง ถึงจะมีเหตุการณ์อย่างเมื่อคืนเกิดขึ้นก็เถอะ"
 
 # n "I never thought I'd say it, but the idea of living away from the city in a nice, tranquil area is an inviting one. It's a thought that, barely a year ago, would have seemed simply ludicrous."
 n "ฉันไม่เคยคิดเลยว่าตัวเองจะมาคิดอย่างนี้ได้ แต่ฉันอยากไปอาศัยอยู่ในพื้นที่ดี ๆ ที่เงียบสงบ อยู่ห่างไกลจากตัวเมือง\nซึ่งเป็นความคิดที่ถ้าตัวฉันเมื่อสักหนึ่งปีที่แล้วได้ยินก็คงบอกว่าไร้สาระ"
@@ -4906,7 +4906,7 @@ n "ฉันอาจจะแค่คิดได้ว่าคราวน�
 n "ฮานาโกะ ลิลลี่ แล้วก็ฉันเดินเล่นด้วยกันข้างนอกสำรวจอาณาบริเวณรอบบ้านซึ่งกว้างกว่าที่คาด จากนั้นพวกเราก็มา\nพักผ่อนกันตอนบ่าย ดูโทรทัศน์ อ่านหนังสือ เล่นไพ่กัน"
 
 # n "It may not have been the most exciting finale to the trip, but such tranquil peacefulness is something to savor. Even after we return to the school tomorrow, I think I'll remember this little house in Hokkaido for a long time."
-n "อาจจะไม่ใช่การปิดท้ายวันหยุดที่หวือหวามากนัก แต่การได้อยู่อย่างสบายเงียบสงบเช่นนี้ก็เป็นอะไรที่ดีเช่นกัน แม้พรุ่งนี้\nเราจะต้องกลับไปที่โรงเรียนกันแล้ว แต่ฉันคงจะยังจดจำบ้านหลังเล็กที๋ฮกไกโดแห่งนี้ไปอีกนานแสนนาน"
+n "อาจจะไม่ใช่การปิดท้ายวันหยุดที่หวือหวามากนัก แต่การได้อยู่อย่างสบายเงียบสงบเช่นนี้ก็เป็นอะไรที่ดีเช่นกัน แม้พรุ่งนี้\nเราจะต้องกลับไปที่โรงเรียนกันแล้ว แต่ฉันคงจะยังจดจำบ้านหลังเล็กที่ฮกไกโดแห่งนี้ไปอีกนานแสนนาน"
 
 # n "It's a pity we only have a couple more hours to spend here before going to get the train back."
 n "น่าเสียดายที่อีกไม่กี่ชั่วโมงเราจะต้องขึ้นรถไฟขาล่องกลับกันแล้ว"
