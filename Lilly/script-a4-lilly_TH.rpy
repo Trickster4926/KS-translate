@@ -8895,74 +8895,94 @@ with dissolve
 
 "………"
 
-"What's… going on…?"
+# "What's… going on…?"
+"เกิด… อะไรขึ้น…"
 
-"As I slowly open my eyes, a bright, white light assaults my retinas."
+# "As I slowly open my eyes, a bright, white light assaults my retinas."
+"เมื่อค่อย ๆ ลืมตาขึ้นแสงจ้าสีขาวก็แยงตาฉัน"
 
-"For minutes I just lay where I am, mindlessly staring ahead while my scattered thoughts coalesce in my slowly waking mind."
+# "For minutes I just lay where I am, mindlessly staring ahead while my scattered thoughts coalesce in my slowly waking mind."
+"ฉันนอนอยู่นิ่ง ๆ สักสองสามนาทีพลางมองเหม่อระหว่างที่ความคิดอันกระจัดกระจายเริ่มเชื่อมประสานกันอยู่ในสมอง\nที่ค่อย ๆ ตื่นตัวขึ้นมา"
 
 show bg hosp_ceiling:
     alpha 0.0
     linear 5.0 alpha 1.0
 with None
 
-"Slowly but surely, the white begins to come into focus as a bare expanse begins to be drawn across my field of vision."
+# "Slowly but surely, the white begins to come into focus as a bare expanse begins to be drawn across my field of vision."
+"ภาพตรงหน้าเริ่มแผ่ขยายออกอย่างช้า ๆ และไม่ย้อนคืนพร้อมแสงสีขาว"
 
-"It's only when the light fixture comes into view that my mind clicks that this is the ceiling above me."
+# "It's only when the light fixture comes into view that my mind clicks that this is the ceiling above me."
+"เมื่อเห็นหลอดไฟฉันก็ถึงนึกขึ้นได้ว่าตรงนี้คือเพดานที่อยู่ข้างบน"
 
 scene bg hosp_room2
 with locationchange
 
-"Slowly levering myself up, I silently absorb through all my senses the details of the room I'm in."
+# "Slowly levering myself up, I silently absorb through all my senses the details of the room I'm in."
+"ฉันหยัดตัวลุกขึ้นนั่งช้า ๆ แล้วรับรู้รายละเอียดของห้องด้วยทุกประสาทสัมผัส"
 
-"The smell and taste of strong bleach hang in the air, lending the impression of a place just slightly too clean to be natural."
+# "The smell and taste of strong bleach hang in the air, lending the impression of a place just slightly too clean to be natural."
+"ในอากาศมีกลิ่นกับรสยาฆ่าเชื้อฉุนแรงจนรู้สึกว่าสถานที่นี้สะอาดเกินกว่าปกติไปเล็กน้อย"
 
-"Inoffensive pale peach-colored walls, all perfectly painted without a crack, stain or imperfection. A single framed painting hangs on the wall, perfectly straightened. Like the walls, it's as boring and inoffensive as can be."
+# "Inoffensive pale peach-colored walls, all perfectly painted without a crack, stain or imperfection. A single framed painting hangs on the wall, perfectly straightened. Like the walls, it's as boring and inoffensive as can be."
+"ผนังสีพีชสบายตาไร้ซึ่งรอยร้าว ไร้ซึ่งจุดด่าง และไร้ซึ่งความไม่สมบูรณ์ใด ๆ บนผนังมีรูปใส่กรอบแขวนอยู่อย่างตรงดิ่ง\nหนึ่งรูป ซึ่งรูปนั้นก็น่าเบื่อและดูสบายตาเหมือนอย่างผนัง"
 
-"My attention's grabbed by the translucent curtain waving across my vision, my eyes following it to the open window it covers."
+# "My attention's grabbed by the translucent curtain waving across my vision, my eyes following it to the open window it covers."
+"ม่านโปร่งแสงที่ไหวอยู่ตรงหางตาดึงความสนใจฉันไป ฉันหันไปมองทางหน้าต่างโล่งที่ม่านนั้นบังอยู่"
 
-"When I move my right arm to try to lift myself up and look through it, I feel the catheter dig in uncomfortably. It's only now, too, that I notice the cannula tubes winding around my cheeks and into my nose."
+# "When I move my right arm to try to lift myself up and look through it, I feel the catheter dig in uncomfortably. It's only now, too, that I notice the cannula tubes winding around my cheeks and into my nose."
+"พอจะใช้แขนหยัดตัวเองลุกขึ้นยืนเดินไปดูก็รู้สึกถึงหลอดสวนที่ฝังอยู่ชวนให้อึดอัด และฉันก็เพิ่งรู้ตัวตอนนี้เองว่ามี\nสายออกซิเจนที่พันรอบแก้มสอดอยู่ตรงจมูกด้วย"
 
-"After some fidgeting, I settle for just looking around the corner of the window."
+# "After some fidgeting, I settle for just looking around the corner of the window."
+"หลังจากที่ขยับตัวยุกยิกไปมาอยู่ครู่หนึ่งฉันก็ตัดใจมองแค่ตามกรอบหน้าต่าง"
 
 scene ev lilly_hospitalwindow
 with whiteout
 
-"Beyond the thick leaves of several large trees, I can see the greenery below, backing out onto a field. A customary island of green on the outskirts of the city."
+# "Beyond the thick leaves of several large trees, I can see the greenery below, backing out onto a field. A customary island of green on the outskirts of the city."
+"เบื้องหลังกลุ่มใบไม้ของต้นไม้ใหญ่หลายต้นมีพื้นที่สีเขียวอยู่เบื้องล่างซึ่งถัดจากนั้นไปเป็นสนาม เป็นพื้นที่สีเขียวแบบ\nเกาะลอยเดี่ยวที่มีพอเป็นพิธีในชานเมือง"
 
-"Judging by the sun outside, it's noon. Of which day, though, I'm not sure."
+# "Judging by the sun outside, it's noon. Of which day, though, I'm not sure."
+"ดูจากพระอาทิตย์ข้างนอกแล้ว ตอนนี้คงเป็นตอนเที่ยง แต่ฉันไม่แน่ใจว่าเป็นเที่ยงของวันไหนกันแน่"
 
-"So… I'm in a hospital once again."
+# "So… I'm in a hospital once again."
+"สรุปคือ… ฉันได้กลับมาอยู่ในโรงพยาบาลอีกครั้ง"
 
-"I let out a long, tired breath as I try to collect my scattered thoughts, my mind seemingly cast in a dozen directions all at once with as many emotions running through me."
+# "I let out a long, tired breath as I try to collect my scattered thoughts, my mind seemingly cast in a dozen directions all at once with as many emotions running through me."
+"ฉันถอนหายใจยืดยาวด้วยความอ่อนเพลียพลางเรียบเรียงความคิดที่กระจัดกระจายอยู่ จิตใจฉันเหมือนต่างพากันลอย\nไปหลายที่พร้อม ๆ กันพร้อมกับอารมณ์มากมายที่แล่นผ่าน"
 
 scene bg hosp_room2
 with locationchange
 
-"After slowly lying back down, I decide to start at the beginning; why I'm here."
+# "After slowly lying back down, I decide to start at the beginning; why I'm here."
+"หลังจากที่ค่อย ๆ เอนตัวลงนอนแล้วฉันก็เลือกเริ่มจากจุดตั้งต้น นั่นคือคำถามที่ว่าฉันมาที่นี่ได้ยังไง"
 
-"I cast my mind back, but I can't work out a smooth recollection of what happened. The events of last night… or whichever night it was… come back more as a series of snapshots than any cohesive memory."
+# "I cast my mind back, but I can't work out a smooth recollection of what happened. The events of last night… or whichever night it was… come back more as a series of snapshots than any cohesive memory."
+"ฉันนึกย้อนไป แต่ก็นึกสิ่งที่เกิดขึ้นได้ไม่ละเอียดมากนัก เหตุการณ์เมื่อคืนก่อน… หรือคืนไหนก็ช่าง… กลับมาเป็นแบบ\nฉากที่ต่อกันโดยไม่ได้มาแบบความทรงจำที่เป็นเนื้อเดียวกัน"
 
 scene bg school_dormhisao_ni_fb
 show origami_fb at center
 show noiseoverlay
 with flash
 
-"Lying on my bed looking at the origami bird."
+# "Lying on my bed looking at the origami bird."
+"นอนบนเตียงในห้องมองนกกระดาษ"
 
 scene bg shizu_houseext_lights_fb
 show hideaki serious_up_fb at center
 show noiseoverlay
 with flash
 
-"Talking to Hideaki outside the Hakamichi residence."
+# "Talking to Hideaki outside the Hakamichi residence."
+"คุยกับฮิเดอากิอยู่หน้าบ้านฮากามิจิ"
 
 scene bg hosp_ext_fb
 show crowd_still1_fb at center
 show noiseoverlay
 with flash
 
-"Running down the street, passing pedestrians and bumping into more and more of them."
+# "Running down the street, passing pedestrians and bumping into more and more of them."
+"วิ่งผ่านวิ่งชนคนเดินเท้าหลายคนเลียบถนนไป"
 
 scene bg hosp_ext_fb:
     xalign 0.5 yalign 0.52 rotate -6 zoom 1.2
@@ -8971,20 +8991,23 @@ show crowd_still2_fb:
 show noiseoverlay
 with flash
 
-"Falling."
+# "Falling."
+"ล้ม"
 
 scene ev lilly_airport_end_fb
 show noiseoverlay
 with flash
 
-"Looking up at the searingly bright airport entrance, seeing Lilly's back as I lay on the ground…"
+# "Looking up at the searingly bright airport entrance, seeing Lilly's back as I lay on the ground…"
+"นอนมองทางเข้าสนามบินสุดสว่างจ้าชวนแสบตาไล่หลังลิลลี่ไป…"
 
 "…"
 
 scene bg hosp_room2
 with fade
 
-"The silence of the private room suddenly feels overwhelming."
+# "The silence of the private room suddenly feels overwhelming."
+"อยู่ ๆ ความเงียบภายในห้องก็รู้สึกหนักหนาเกินทน"
 
 play music music_rain fadein 2.0
 
@@ -8992,63 +9015,88 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\nSo that's it. I had my chance to correct my mistake, and I blew it."
+# n "\nSo that's it. I had my chance to correct my mistake, and I blew it."
+n "\nนั่นสินะ ฉันมีโอกาสที่จะได้แก้ไขข้อผิดพลาดของตัวเองแล้วและทำพังไป"
 
-n "Whether I was at fault for neglecting my medication and disregarding to pace myself, or my body was for giving out so soon, it doesn't matter now."
+# n "Whether I was at fault for neglecting my medication and disregarding to pace myself, or my body was for giving out so soon, it doesn't matter now."
+n "จะเพราะฉันลืมกินยาและไม่ยอมลดฝีเท้าตัวเองลงหรือจะเพราะอาการของฉันกำเริบง่ายไปก็ไม่สำคัญแล้ว"
 
-n "All that matters is that, once again, I'm alone."
+# n "All that matters is that, once again, I'm alone."
+n "สิ่งสำคัญคือฉันต้องกลับมาอยู่ตัวคนเดียวอีกครั้ง"
 
-n "The pastel blue pillow yields with little resistance as I let myself fall back onto the bed, its starchy case, along with the starchy sheets, providing little comfort."
+# n "The pastel blue pillow yields with little resistance as I let myself fall back onto the bed, its starchy case, along with the starchy sheets, providing little comfort."
+n "พอทิ้งตัวลงกับเตียงหมอนสีฟ้าพาสเทลก็ยุบตัวลงไปดื้อ ๆ ปลอกกับผ้าปูเตียงสาก ๆ นั้นนอนไม่สบายเอาเสียเลย"
 
-n "Compared to the darkness of last night's events, the bright light of the room around me is striking. All it does, though, is emphasize how otherworldly places like this are."
+# n "Compared to the darkness of last night's events, the bright light of the room around me is striking. All it does, though, is emphasize how otherworldly places like this are."
+n "แสงสว่างในห้องนั้นขัดกับความมืดมิดจากเหตุการณ์เมื่อคืนก่อนโดยชัดเจน แต่ความสว่างในห้องนี้ก็ได้แต่เพียงย้ำว่า\nที่นี่นั้นเป็นที่ซึ่งปลึกแยกจากโลกภายนอกขนาดไหน"
 
-n "\nArrhythmia."
+# n "\nArrhythmia."
+n "\nโรคหัวใจเต้นผิดจังหวะ"
 
-n "\nA strange word. A foreign, alien one. One that you don't want to be in the same room with."
+# n "\nA strange word. A foreign, alien one. One that you don't want to be in the same room with."
+n "\nเป็นคำที่ฟังดูไม่น่าอภิรมย์ อยากหนีไปให้ห่าง"
 
-n "A rare condition. It causes the heart to act erratically and occasionally beat way too fast. It can be fatal."
-
-nvl clear
-
-n "\n“It was a miracle that you were able to go on so long without anything happening,” they said."
-
-n "And then, it did. My condition had taken away everything; my old school was of no importance any more. My home was reduced to a faraway place. Both my friends and my first love simply stopped visiting after a length of time."
-
-n "I became cynical and embittered. Distant and subdued. In my defense, no person could avoid that after such a thing happening to them, but nonetheless I left the hospital as a very definitely changed person."
-
-n "Things changed. I made new friends in Hanako, Shizune and Misha. I found a new sense of “home” in my dormitory, a new interest in science and the world around me, and I found a direction to my life that I had never felt before."
-
-n "\nBut I'd also discovered other things."
-
-n "The sense of isolation in Yamaku and its surrounds was not entirely unwelcome, the quiet giving a peace of mind I might not have found elsewhere, but it gave the area a feeling of being pushed out of the way, of being kept out of sight."
+# n "A rare condition. It causes the heart to act erratically and occasionally beat way too fast. It can be fatal."
+n "เป็นอาการที่พบไม่มากที่ทำให้หัวใจเต้นอย่างผิดปกติหรือเร็วเกินไป และเป็นอันตรายถึงชีวิต"
 
 nvl clear
 
-n "\n\nPeople in the streets would sometimes glance awkwardly, or quickly turn their heads as they realized they were staring. Even if my condition wasn't visible, my uniform was."
+# n "\n“It was a miracle that you were able to go on so long without anything happening,” they said."
+n "\nมีคนบอกฉันว่า “ปาฏิหาริย์มากที่อยู่มาได้ขนาดนี้โดยไม่เป็นอะไรเลย”"
 
-n "Even if it weren't, I was still different. I took seventeen pills a day, morning, midday and night. My scar, though hidden behind clothing, was still a permanent mark of my condition. And most of all, there was the very real possibility of death."
+# n "And then, it did. My condition had taken away everything; my old school was of no importance any more. My home was reduced to a faraway place. Both my friends and my first love simply stopped visiting after a length of time."
+n "แล้วก็เป็น อาการของฉันพรากทุกสิ่งไป โรงเรียนเก่าของฉันหมดความสำคัญไป บ้านของฉันกลายเป็นเพียงที่ซึ่งไกลห่าง\nเมื่อเวลาผ่านไปทั้งเพื่อนและรักแรกของฉันก็ไม่มาเยี่ยมอีกเลย"
 
-n "A bad fall. An absentminded hard hit on the back. A simple sprint taken too far. Anything could have set my heart off, and several times I teetered on the edge of the abyss even with all the care I took of myself."
+# n "I became cynical and embittered. Distant and subdued. In my defense, no person could avoid that after such a thing happening to them, but nonetheless I left the hospital as a very definitely changed person."
+n "ฉันกลายเป็นคนขวางโลกและมืดมน เหินห่างและเงียบขรึม ซึ่งฉันขอแก้ตัวว่าใคร ๆ ก็คงเป็นอย่างนั้นถ้าได้เจอกับ\nสถานการณ์อย่างฉัน แต่นั่นแหละ ตัวฉันหลังจากที่ออกมาจากโรงพยาบาลนั้นได้เปลี่ยนไปแล้วจริง ๆ"
 
-n "\nBut that was fine. I could have lived with all that."
+# n "Things changed. I made new friends in Hanako, Shizune and Misha. I found a new sense of “home” in my dormitory, a new interest in science and the world around me, and I found a direction to my life that I had never felt before."
+n "หลายสิ่งเปลี่ยนไป ฉันได้เป็นเพื่อนกับฮานาโกะ ชิซูเนะ แล้วก็มิช่า ฉันได้ยึดถือห้องพักตัวเองเป็น “บ้าน” ใหม่ ฉันหันมา\nสนใจวิทยาศาสตร์และโลกรอบตัว และฉันค้นพบเส้นทางชีวิตใหม่ซึ่งฉันไม่เคยสัมผัสมาก่อน"
 
-n "Because there was one final thing I'd found, or rather refound, after entering Yamaku."
+# n "\nBut I'd also discovered other things."
+n "\nแต่ฉันก็ได้สิ่งอื่นมาด้วย"
 
-n "\nWhich was once again snatched away before my eyes."
+# n "The sense of isolation in Yamaku and its surrounds was not entirely unwelcome, the quiet giving a peace of mind I might not have found elsewhere, but it gave the area a feeling of being pushed out of the way, of being kept out of sight."
+n "ความสันโดษกับความเงียบชวนให้ใจสงบที่ฉันไม่อาจหาที่ไหนได้อีกของยามากุนั้นเป็นอะไรที่ไม่พึงประสงค์นัก\nเป็นบรรยากาศที่ทำให้รู้สึกเหมือนที่ตรงนั้นถูกผลักไสและถูกเก็บซ่อนจากสายตาผู้คน"
 
 nvl clear
 
-n "\nIt's only now that I realize just how delicate my newfound sense of happiness was. Everything depended on her, the linchpin of my life since I first entered Yamaku as a sullen, confused and aimless transfer student."
+# n "\n\nPeople in the streets would sometimes glance awkwardly, or quickly turn their heads as they realized they were staring. Even if my condition wasn't visible, my uniform was."
+n "\n\nบางครั้งคนเดินถนนก็จะเหลือบมองด้วยท่าทีอึดอัด หรือไม่ก็จะเบือนหน้าหนีทันทีที่รู้ตัวว่าตัวเองจ้องอยู่ แม้อาการ\nของฉันจะไม่ใช่สิ่งซึ่งมองเห็นได้ แต่เครื่องแบบก็เป็นตัวบอกแทน"
 
-n "Lilly Satou was the one person I could depend upon above all others, and who reciprocated the love that I felt for her. But I failed her, and only realized it all too late."
+# n "Even if it weren't, I was still different. I took seventeen pills a day, morning, midday and night. My scar, though hidden behind clothing, was still a permanent mark of my condition. And most of all, there was the very real possibility of death."
+n "หรือต่อให้ไม่มีเรื่องชุด ฉันก็ต่างจากคนอื่น ๆ อยู่ดี ฉันต้องกินยาตอนเช้า ตอนเที่ยง และตอนค่ำ รวมสิบเจ็ดเม็ดต่อวัน\nแผลเป็นที่แม้จะอยู่ภายใต้ร่มผ้านั้นก็ยังเป็นร่องรอยถึงอาการฉัน และที่สำคัญที่สุด คือฉันมีโอกาสที่จะตายเมื่อไหร่ก็ได้\nจริง ๆ"
 
-n "I thought that I could just set my life up and continue that way forever, but the real world doesn't work like that. I finally realized the meaning of those words, only to be struck down as I confronted my failure to do so in time."
+# n "A bad fall. An absentminded hard hit on the back. A simple sprint taken too far. Anything could have set my heart off, and several times I teetered on the edge of the abyss even with all the care I took of myself."
+n "ล้มแรง ๆ ถูกตีหลังโดยไม่รู้ตัว วิ่งเร็วเกินไป เหล่านั้นต่างทำให้อาการกำเริบได้ และแม้ฉันจะดูแลตัวเองดีอย่างนี้แล้วก็ยัง\nไม่วายจะต้องมายืนหมิ่นเหม่อยู่ปากเหวความตายอยู่หลายครั้ง"
+
+# n "\nBut that was fine. I could have lived with all that."
+n "\nแต่ไม่เป็นไรหรอก ฉันใช้ชีวิตอยู่กับสิ่งเหล่านั้นได้อยู่แล้ว"
+
+# n "Because there was one final thing I'd found, or rather refound, after entering Yamaku."
+n "เพราะมีสิ่งสุดท้ายสิ่งหนึ่งซึ่งฉันได้ค้นพบ—หรือจะเรียกได้ว่าค้นพบอีกครั้ง—หลังจากที่ได้มาเรียนที่ยามากุ"
+
+# n "\nWhich was once again snatched away before my eyes."
+n "\nซึ่งถูกพรากไปต่อหน้าต่อตาฉันอีกครั้ง"
+
+nvl clear
+
+# n "\nIt's only now that I realize just how delicate my newfound sense of happiness was. Everything depended on her, the linchpin of my life since I first entered Yamaku as a sullen, confused and aimless transfer student."
+n "\nฉันเพิ่งรู้ตัวเอาตอนนี้เองว่าความสุขซึ่งฉันได้ค้นพบนั้นเปราะบางเพียงใด ทุกอย่างขึ้นอยู่กับเธอผู้เป็นเสาหลักของ\nชีวิตฉันตั้งแต่ได้เข้ามาเรียนที่ยามากุในฐานะนักเรียนที่ย้ายมาผู้หมองหม่น สับสน และไร้เป้าหมาย"
+
+# n "Lilly Satou was the one person I could depend upon above all others, and who reciprocated the love that I felt for her. But I failed her, and only realized it all too late."
+n "ลิลลี่ ซาโต้ คือคนที่ฉันพึ่งพาได้มากกว่าใคร ๆ และเป็นคนที่ตอบรับความรักของฉันที่มีให้เธอ แต่ฉันทำให้เธอผิดหวัง\nซึ่งกว่าฉันจะรู้ตัวก็สายไปเสียแล้ว"
+
+# n "I thought that I could just set my life up and continue that way forever, but the real world doesn't work like that. I finally realized the meaning of those words, only to be struck down as I confronted my failure to do so in time."
+n "ฉันคิดไปว่าจะวางแผนชีวิตตัวเองเอาไว้แล้วให้มันเป็นไปตามนั้นตลอดไป แต่ในโลกความเป็นจริงจะทำเช่นนั้นไม่ได้\nฉันเพิ่งรู้ซึ้งถึงความหมายของคำพูดเหล่านั้น และมารู้เอาตอนที่ต้องกล้ำกลืนความล้มเหลวจากการที่ไม่ได้รู้ซึ้งแต่แรก"
 
 n "\n…"
 
-n "\nThe surroundings I'm in now are all too familiar. It's as if Yamaku was but a dream, and I'm still recovering from my first major heart attack."
+# n "\nThe surroundings I'm in now are all too familiar. It's as if Yamaku was but a dream, and I'm still recovering from my first major heart attack."
+n "\nสภาพแวดล้อมที่ฉันอยู่ขณะนี้นั้นเป็นสิ่งที่ฉันคุ้นเคยดี ราวกับว่าตอนที่ได้อยู่ยามากุนั้นคือความฝัน และฉันยังคง\nนอนพักรักษาตัวจากอาการหัวใจวายครั้งแรกอยู่"
 
-n "Maybe that's why I feel so tired. It feels almost as if I've lived the entire last few months of my life in the space of minutes."
+# n "Maybe that's why I feel so tired. It feels almost as if I've lived the entire last few months of my life in the space of minutes."
+n "อาจจะเพราะอย่างนั้นฉันถึงได้เหนื่อย เพราะฉันรู้สึกเหมือนได้ใช้ชีวิตช่วงสองสามเดือนที่ผ่านมาในระยะเวลาเพียง\nสองสามนาทีเท่านั้น"
 
 nvl hide dissolve
 nvl clear
@@ -9058,7 +9106,8 @@ with shuteye
 
 window show
 
-"The weight of my eyelids closes my eyes, my physical and mental exhaustion letting me offer no resistance."
+# "The weight of my eyelids closes my eyes, my physical and mental exhaustion letting me offer no resistance."
+"เปลือกตาฉันหนักอึ้งเกินทาน ทั้งแรงกายแรงใจไม่มีให้ต่อต้าน"
 
 window hide
 with Pause(1.0)
@@ -9066,96 +9115,139 @@ with shorttimeskip
 with Pause(1.0)
 window show
 
-"Unintelligible mumbling from ahead of the bed stirs me out of my sleep."
+# "Unintelligible mumbling from ahead of the bed stirs me out of my sleep."
+"เสียงพึมพำงึมงำฟังไม่ได้ความดังแว่วมาจนฉันตื่น"
 
-"With my eyes still closed, I can focus and make out someone, presumably a nurse, bidding farewell to a doctor."
+# "With my eyes still closed, I can focus and make out someone, presumably a nurse, bidding farewell to a doctor."
+"ฉันหลับตาเงี่ยหูฟังคนหนึ่งที่น่าจะเป็นพยาบาลบอกลาหมอ"
 
 scene bg hosp_room2
 with openeye
 
-"As I open my eyes, I notice the door closing in my peripheral vision."
+# "As I open my eyes, I notice the door closing in my peripheral vision."
+"พอลืมตาขึ้นมาก็เห็นประตูที่กำลังปิดอยู่ตรงหางตา"
 
-"The doctor stands reading some notes off a clipboard held in his hand, carefully looking over the pages."
+# "The doctor stands reading some notes off a clipboard held in his hand, carefully looking over the pages."
+"คุณหมอยืนอ่านแผ่นกระดาษบนกระดานที่ถือมาพลางพลิกไปตามหน้ากระดาษ"
 
-"After consulting his obviously very important documents, he looks up and notices my gaze. It's now that I notice something slightly odd about his expression and general disposition, but I can't quite put my finger on it."
+# "After consulting his obviously very important documents, he looks up and notices my gaze. It's now that I notice something slightly odd about his expression and general disposition, but I can't quite put my finger on it."
+"หลังจากที่ไล่ดูเอกสารซึ่งชัดเจนว่าสำคัญมากนั้นแล้วหมอก็เงยหน้ามาเห็นว่าฉันมองอยู่ ฉันเพิ่งรู้สึกว่าสีหน้าท่าทาง\nของเขานั้นดูแปลกเล็กน้อย แต่ก็บอกไม่ถูกเหมือนกันว่าเพราะอะไร"
 
-"Doctor" "Ah, I see you're awake… Mr. Nakai."
+# "Doctor" "Ah, I see you're awake… Mr. Nakai."
+thname("หมอ") "อ้อ ตื่นแล้วเหรอ… คุณนากาอิ"
 
-"His quick glance to my bed end, to verify my name, shows that his documents obviously didn't have it written on them."
+# "His quick glance to my bed end, to verify my name, shows that his documents obviously didn't have it written on them."
+"คุณหมอเหลือบมองปลายเตียงฉันแวบหนึ่ง ซึ่งทำให้รู้ชัดว่าเอกสารที่ถือมานั้นไม่ได้มีชื่อฉันเขียนเอาไว้"
 
-"Doctor" "I must admit this is a bit unfortunate; your parents visited just earlier while you were asleep. I could notify them you're awake now, if you'd like."
+# "Doctor" "I must admit this is a bit unfortunate; your parents visited just earlier while you were asleep. I could notify them you're awake now, if you'd like."
+thname("หมอ") "จังหวะไม่ดีหน่อยนะ เมื่อกี้พ่อแม่เธอมาเยี่ยมตอนเธอหลับอยู่ แต่จะให้หมอไปบอกพ่อแม่เธอก็ได้นะว่าเธอตื่นแล้ว"
 
-hi "Um… thanks. That would be good."
+# hi "Um… thanks. That would be good."
+hi "เอ่อ… ขอบคุณครับ บอกให้หน่อยนะครับ"
 
-"I give a somewhat dazed reply, most likely the one he'd expect, before really thinking about what I'm saying."
+# "I give a somewhat dazed reply, most likely the one he'd expect, before really thinking about what I'm saying."
+"ฉันตอบไปด้วยสติที่ไม่เต็มร้อยโดยไม่ทันได้คิดอะไรให้จริงจัง ซึ่งก็น่าจะเดาไว้แล้วแหละว่าฉันจะตอบอย่างนั้น"
 
-"Doctor" "Not a problem."
+# "Doctor" "Not a problem."
+thname("หมอ") "ได้เลย"
 
-"Doctor" "If you have any questions you'd like to ask, I'll be happy to answer them. That is, unless you'd prefer to rest; the anaesthetic's still going to be affecting you a bit, I'm afraid."
+# "Doctor" "If you have any questions you'd like to ask, I'll be happy to answer them. That is, unless you'd prefer to rest; the anaesthetic's still going to be affecting you a bit, I'm afraid."
+thname("หมอ") "ถ้าอยากถามอะไรก็ถามหมอได้เลยนะ หรือถ้าอยากพักก่อนก็พักเลย เพราะหมอเกรงว่ายาชาน่าจะยังไม่หมดดี"
 
-"The anaesthetic… of course. That'd be why I felt so strange the first time I woke up."
+# "The anaesthetic… of course. That'd be why I felt so strange the first time I woke up."
+"ยาชา… นั่นสินะ มิน่าละตอนตื่นถึงได้รู้สึกแปลก ๆ"
 
-"I slowly shake my head, not wanting to dislodge any pipes or cause myself any more discomfort than necessary. The doctor politely puts down his clipboard in response."
+# "I slowly shake my head, not wanting to dislodge any pipes or cause myself any more discomfort than necessary. The doctor politely puts down his clipboard in response."
+"ฉันส่ายหน้าช้า ๆ ด้วยไม่อยากให้สายอะไรเคลื่อนและไม่อยากขยับตัวให้นอนไม่สบายตัวเกินความจำเป็น คุณหมอ\nวางกระดานที่ถืออยู่ลงอย่างสุภาพ"
 
-hi "I guess my main question is… what exactly happened?"
+# hi "I guess my main question is… what exactly happened?"
+hi "ที่ผมอยากถามเลยก็น่าจะ… เกิดอะไรขึ้นเหรอครับ"
 
-"Doctor" "To put it simply, you've unfortunately had another heart attack. While not as severe as your first, you were very lucky it occurred so close to a hospital."
+# "Doctor" "To put it simply, you've unfortunately had another heart attack. While not as severe as your first, you were very lucky it occurred so close to a hospital."
+thname("หมอ") "สรุปง่าย ๆ คือ เธอโชคร้ายหัวใจวายอีกรอบ ไม่ได้หนักเท่าตอนเธอเป็นครั้งแรกหรอก และยังดีที่เธออยู่ใกล้\nโรงพยาบาลด้วย"
 
-"Doctor" "After being stabilized, you were taken to the operating room. What followed was keyhole surgery in order to insert a temporary pacemaker."
+# "Doctor" "After being stabilized, you were taken to the operating room. What followed was keyhole surgery in order to insert a temporary pacemaker."
+thname("หมอ") "พอประคองอาการได้แล้วเธอก็ถูกส่งตัวไปที่ห้องผ่าตัด จากนั้นก็ผ่าตัดส่องกล้องเพื่อใส่เครื่องกระตุ้นไฟฟ้าหัวใจ\nแบบชั่วคราวเข้าไป"
 
-"Doctor" "All in all, the incident happened two days ago, with emergency treatment being carried out very soon afterward. Since then, we've kept you under close observation while you were asleep."
+# "Doctor" "All in all, the incident happened two days ago, with emergency treatment being carried out very soon afterward. Since then, we've kept you under close observation while you were asleep."
+thname("หมอ") "สรุปอีกทีคือ เรื่องนั้นเกิดเมื่อสองวันที่แล้ว จากนั้นไม่นานเธอก็ถูกส่งตัวไปรักษาโดยฉุกเฉิน แล้วพวกหมอก็คอยจับตาดู\nอาการเธออย่างใกล้ชิดตอนที่เธอหลับอยู่"
 
-hi "Will I be all right? Are there any lasting problems?"
+# hi "Will I be all right? Are there any lasting problems?"
+hi "แล้วผมจะเป็นอะไรหรือเปล่าครับ มีผลข้างเคียงระยะยาวอะไรหรือเปล่า"
 
-"Doctor" "Compared to the procedure carried out for your first heart attack, this was relatively minor."
+# "Doctor" "Compared to the procedure carried out for your first heart attack, this was relatively minor."
+thname("หมอ") "ถ้าให้เทียบกับการรักษาตอนที่เธอหัวใจวายครั้งแรกแล้ว ครั้งนี้ก็ยังไม่ใช่เรื่องใหญ่มาก"
 
-"Doctor" "While you will have to undergo surgery once more in a few days' time to remove the pacemaker, assuming there are no complications, there should be no lasting implications."
+# "Doctor" "While you will have to undergo surgery once more in a few days' time to remove the pacemaker, assuming there are no complications, there should be no lasting implications."
+thname("หมอ") "ถ้าช่วงนี้ไม่มีผลข้างเคียงอะไร อีกสักสองสามวันเธอจะได้เข้ารับการผ่าตัดอีกรอบเพื่อเอาเครื่องกระตุ้นไฟฟ้าหัวใจออก\nจากนั้นก็น่าจะไม่มีผลข้างเคียงระยะยาวอะไรแล้วละ"
 
-"He continues talking, the subject shifting to a repetition of facts about arrhythmia and my medications that I already know for the most part. I start to nod and feign interest, while my mind drifts."
+# "He continues talking, the subject shifting to a repetition of facts about arrhythmia and my medications that I already know for the most part. I start to nod and feign interest, while my mind drifts."
+"คุณหมอพูดต่อเรื่องการรักษากับอาการหัวใจเต้นผิดจังหวะของฉันซึ่งฟังดูซ้ำซากเพราะฉันพอจะรู้อยู่แล้ว ฉันพยักหน้า\nแสร้งทำเป็นฟังพลางคิดเรื่องอื่น"
 
-"I begin to think about how perfectly hung the inoffensive painting hanging on the wall behind his shoulder is, and how neat and sterile the surroundings are, even including the doctor himself."
+# "I begin to think about how perfectly hung the inoffensive painting hanging on the wall behind his shoulder is, and how neat and sterile the surroundings are, even including the doctor himself."
+"ฉันเริ่มคิดว่าภาพที่แขวนไว้อย่างสมบูรณ์แบบอยู่หลังคุณหมอนั้นดูสบายตาดี และคิดว่าสภาพแวดล้อมนั้นช่าง\nสะอาดตาและดูปลอดเชื้อ แม้แต่ตัวคุณหมอเองก็ด้วย"
 
-"Doctor" "If my mumbling bores you, you are quite welcome to say so, Mr. Nakai. Lord knows, I lose track of myself sometimes."
+# "Doctor" "If my mumbling bores you, you are quite welcome to say so, Mr. Nakai. Lord knows, I lose track of myself sometimes."
+thname("หมอ") "ถ้าเบื่อจะฟังหมอพล่ามก็บอกได้เลยนะคุณนากาอิ บางทีหมอก็พูดอะไรไปเรื่อย"
 
-"He gives a short chuckle at his self-deprecating joke as I grimace awkwardly, having been rather badly caught out."
+# "He gives a short chuckle at his self-deprecating joke as I grimace awkwardly, having been rather badly caught out."
+"คุณหมอแค่นหัวเราะเย้ยตัวเองกับคำพูดติดตลกนั้น ฉันทำหน้าแหย ๆ เพราะรู้สึกเหมือนโดนดุชอบกล"
 
-"The doctor's chuckle sounds different from that of the nurse at Yamaku though, come to think of it. As I ponder why, I realize why the man in front of me feels just that little bit “off”."
+# "The doctor's chuckle sounds different from that of the nurse at Yamaku though, come to think of it. As I ponder why, I realize why the man in front of me feels just that little bit “off”."
+"แต่จะว่าไปแล้ว เสียงหัวเราะของคุณหมอนั้นไม่เหมือนกับคุณพยาบาลที่ยามากุเลย พอลองคิดดูว่าเพราะอะไร ก็ถึงได้รู้\nว่าคนตรงหน้าฉันตอนนี้นั้น “แปลก” ไปเล็กน้อยเท่านั้น"
 
-"His smile is neat and sterile. He delivers his little joke perfectly, with a customary inoffensive chuckle."
+# "His smile is neat and sterile. He delivers his little joke perfectly, with a customary inoffensive chuckle."
+"รอยยิ้มของเขานั้นเนียนกริบสะอ้านตา เขาเลือกจังหวะพูดติดตลกได้อย่างลงตัว พร้อมแค่นหัวเราะเบา ๆ พอเป็นพิธี"
 
-"It is like, rather than talking to the man whose name is neatly printed on the nametag pinned to his lab coat, I'm merely interacting with an actor reading off a prerehearsed script, every action having been choreographed beforehand."
+# "It is like, rather than talking to the man whose name is neatly printed on the nametag pinned to his lab coat, I'm merely interacting with an actor reading off a prerehearsed script, every action having been choreographed beforehand."
+"รู้สึกราวกับว่าฉันไม่ได้คุยอยู่กับชายที่มีชื่อปักอยู่อย่างเรียบร้อยบนเสื้อกาวน์ แต่รู้สึกเหมือนคุยกับนักแสดงที่อ่านบท\nซึ่งซ้อมมาแล้วและทุกการกระทำมีการออกแบบมาล่วงหน้ามากกว่า"
 
-"I suppose he has to be this way though, being a doctor."
+# "I suppose he has to be this way though, being a doctor."
+"แต่คนเป็นหมอก็คงอย่างนี้ละมั้ง"
 
-"He has to keep his neat and sterile smile when chatting to the girl with cancer slowly spreading through her body, when reassuring the woman who'll surely die from childbirth, and with every other terminally and critically ill patient."
+# "He has to keep his neat and sterile smile when chatting to the girl with cancer slowly spreading through her body, when reassuring the woman who'll surely die from childbirth, and with every other terminally and critically ill patient."
+"เขาต้องรักษารอยยิ้มเนียนกริบสะอ้านตานี้ไว้ยามต้องคุยกับเด็กสาวที่มะเร็งลุกลามไปทั่วร่างอย่างช้า ๆ ยามที่ต้องปลอบ\nหญิงสาวที่จะต้องตายจากการคลอดลูก และยามที่ต้องอยู่กับผู้ป่วยซึ่งมีอาการขั้นรุนแรงหรือเป็นระยะสุดท้ายทุก ๆ คน"
 
-"That little bit of distance. That little bit of aloofness."
+# "That little bit of distance. That little bit of aloofness."
+"ระยะห่างเพียงเล็กน้อยนั้น ความเหินห่างเพียงเล็กน้อยนั้น"
 
-"It makes me wonder if I've been too harsh, especially considering it's a disposition far from being adopted only by people in his profession."
+# "It makes me wonder if I've been too harsh, especially considering it's a disposition far from being adopted only by people in his profession."
+"จนฉันนึกสงสัยว่าฉันมองเขาในแง่ร้ายเกินไปหรือเปล่า เพราะท่าทีเช่นนี้ไม่ได้มีเพียงแต่คนที่ประกอบอาชีพอย่างเขา\nเท่านั้นที่จะมี"
 
-"After all, the one I loved kept that same distance from others herself."
+# "After all, the one I loved kept that same distance from others herself."
+"เพราะยังไงเสีย คนที่ฉันรักก็รักษาระยะห่างนั้นกับคนอื่นเช่นกัน"
 
-"Looking up to the doctor again, I realize I've been in thought with my head bowed for some time."
+# "Looking up to the doctor again, I realize I've been in thought with my head bowed for some time."
+"พอเงยหน้ามองคุณหมออีกครั้งก็ถึงรู้ตัวว่าฉันก้มหน้าก้มตาครุ่นคิดอยู่สักพักแล้ว"
 
-"Doctor" "I understand you must still be tired. You've been through a lot, and as I mentioned before, the anaesthetic would still be affecting you."
+# "Doctor" "I understand you must still be tired. You've been through a lot, and as I mentioned before, the anaesthetic would still be affecting you."
+thname("หมอ") "หมอเข้าใจนะว่าเธอคงเหนื่อย เธอผ่านอะไรมาเยอะ แล้วไหนจะยาชาที่น่าจะยังไม่หมดอย่างที่หมอบอกไปเมื่อกี้อีก"
 
-"Doctor" "If you don't mind, I'll let you get some rest and tell your parents you've woken up for you."
+# "Doctor" "If you don't mind, I'll let you get some rest and tell your parents you've woken up for you."
+thname("หมอ") "ถ้าเธอไม่ว่าอะไร เดี๋ยวหมอจะปล่อยให้เธอนอนพักแล้วไปบอกพ่อแม่เธอให้ว่าตื่นแล้วนะ"
 
-hi "I think… that would be good. Thank you."
+# hi "I think… that would be good. Thank you."
+hi "บอก… ให้หน่อยนะครับ ขอบคุณครับ"
 
 stop music fadeout 6.0
 
-"He gives a curt nod before picking up his clipboard and making his way to the large white door in the corner of the room, closing it behind him with a thud."
+# "He gives a curt nod before picking up his clipboard and making his way to the large white door in the corner of the room, closing it behind him with a thud."
+"คุณหมอพยักหน้าสั้น ๆ แล้วหยิบกระดานนั้นเดินออกไปทางประตูบานใหญ่ที่อยู่มุมห้องแล้วปิดประตูเสียงดังปึง"
 
-"In the end, I'm alone again."
+# "In the end, I'm alone again."
+"สุดท้ายฉันก็กลับมาอยู่ตัวคนเดียวอีกครั้ง"
 
-"Lilly's gone. Akira's gone. Hanako would be traveling, and even my parents have already left the hospital."
+# "Lilly's gone. Akira's gone. Hanako would be traveling, and even my parents have already left the hospital."
+"ลิลลี่ไม่อยู่แล้ว อากิระไม่อยู่แล้ว ฮานาโกะคงไปเที่ยวอยู่ แม้แต่พ่อแม่ก็กลับไปแล้ว"
 
-"Four pale peach walls, one white ceiling, and a single open window to look out towards the world outside."
+# "Four pale peach walls, one white ceiling, and a single open window to look out towards the world outside."
+"ผนังพีชสีจางสี่ด้าน เพดานสีขาวหนึ่งด้าน หน้าต่างเปิดหนึ่งบานที่ใช้มองดูโลกภายนอก"
 
-"It's hard to think of the future when the past is crowded around you, claustrophobic in its neat, sterile, starchy, bleach-smelling grip."
+# "It's hard to think of the future when the past is crowded around you, claustrophobic in its neat, sterile, starchy, bleach-smelling grip."
+"พอมีอดีตซึ่งอยู่ในรูปของห้องปิดตายสากกระด้างสะอาดตาดูปลอดเชื้อที่มีกลิ่นน้ำยาฆ่าเชื้อซึ่งชวนให้รู้สึกหวาดกลัว\nที่แคบขึ้นมานี้แล้วก็คิดถึงเรื่องอนาคตแทบไม่ได้เลย"
 
-"Lost for what to do or focus on, I content myself with sleeping the time away as if this were all just another dream like Yamaku had been."
+# "Lost for what to do or focus on, I content myself with sleeping the time away as if this were all just another dream like Yamaku had been."
+"ฉันไม่รู้ว่าต้องทำสิ่งใดหรือต้องมองสิ่งใด จึงเพียงนอนหลับปล่อยให้เวลาไหลไปราวกับทั้งหมดนั้นเป็นแค่ความฝัน\nเป็นฝันเหมือนอย่างช่วงเวลาในยามากุ"
 
 scene black
 with dissolve
