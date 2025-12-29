@@ -2225,7 +2225,7 @@ with charachange
 play music music_musicbox
 
 # "The lid only needs the smallest movement to pop open, the little metal drum inside beginning to rotate immediately."
-"ฝากล่องเปิดออกได้อย่างง่ายดาย จานโลหะแผ่นเล็ก ๆ ที่อยู่ในกล่องเริ่มหมุนทันที"
+"ฝากล่องเปิดออกได้อย่างง่ายดาย โลหะทรงกระบอกขนาดเล็กที่อยู่ในกล่องเริ่มหมุนทันที"
 
 # "For seconds on end, I simply stand there listening to the palm-sized melody."
 "ฉันยืนนิ่งฟังท่วงทำนองที่ออกมาจากกล่องขนาดเท่าฝ่ามือนี้อยู่หลายวินาที"
