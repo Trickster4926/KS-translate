@@ -9988,10 +9988,10 @@ show evfg lilly_goodend:
 with whiteout
 
 # "As we set off towards the school, that wonderful smile engraves itself onto my memory. That wonderful smile that we both share."
-"ระหว่างที่เราเดินกลับโรงเรียนนั้น รอยยิ้มนั้นได้ถูกสลักเอาไว้ในความทรงจำของฉัน—รอยยิ้มแสนสวยงามที่เราสอง\nต่างยิ้มให้กัน"
+"ระหว่างที่เราเดินกลับโรงเรียนนั้น รอยยิ้มแสนสวยงามนั้นได้สลักตัวเองไว้ในความทรงจำของฉัน—รอยยิ้มแสนสวยงาม\nที่เราสองต่างยิ้มให้กัน"
 
 # "Our pasts may be scattered and at times overshadowed by sadness, but they're also an irrevocable part of our lives and personalities. Even if I could change a single thing, I wouldn't, because my past was what led me here."
-"แม้อดีตของเราจะเรี่ยรายไม่เรียบร้อย บางครั้งก็มีความเศร้าหมองทับถม แต่อดีตเหล่านั้นก็เป็นส่วนซึ่งเปลี่ยนแปลงไม่ได้\nส่วนหนึ่งของชีวิตกับนิสัยของเรา หรือต่อให้ฉันจะเปลี่ยนแปลงได้แม้สักอย่างหนึ่ง ฉันก็จะไม่เปลี่ยน เพราะอดีตคือ\nตัวที่นำพาฉันให้มายืนอยู่ตรงนี้"
+"แม้อดีตของเราจะเรี่ยรายไม่เรียบร้อย บางครั้งก็มีความเศร้าหมองทับถม แต่อดีตเหล่านั้นก็เป็นส่วนซึ่งเปลี่ยนแปลงไม่ได้\nส่วนหนึ่งของชีวิตกับนิสัยของเรา หรือต่อให้ฉันจะเปลี่ยนแปลงได้สักอย่างหนึ่ง ฉันก็จะไม่เปลี่ยน เพราะอดีตคือ\nตัวที่นำพาฉันให้มายืนอยู่ตรงนี้"
 
 # "That's why, even with all that's happened to us before, and all that may well befall us… together, we'll keep walking forwards."
 "เพราะอย่างนั้น ไม่ว่าก่อนหน้านี้จะเกิดอะไรขึ้นกับพวกเรา ไม่ว่าภายหน้านี้จะมีอะไรอุบัติกับพวกเรา… พวกเรา\nจะเดินหน้าไปด้วยกัน"
