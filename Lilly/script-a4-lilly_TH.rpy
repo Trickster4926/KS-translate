@@ -5011,7 +5011,7 @@ show heartattack residual
 with locationchange
 
 # "For a moment, everything goes blank. As the rush of newfound light assaults my eyes, my breathing slows from the brink of hyperventilation."
-"ภาพตรงหน้าขาวโพลนไปชั่วขณะ แสงส่องเข้ามาแยงตาหลังเอาผ้าคาดตาออก จังหวะหายใจของฉันเริ่มช้าลงจาก\nเมื่อครู่ที่หอบจนคล้ายหายใจเกิน"
+"ภาพตรงหน้าขาวโพลนไปชั่วขณะ แสงส่องเข้ามาแทงตาหลังเอาผ้าคาดตาออก จังหวะหายใจของฉันเริ่มช้าลงจาก\nเมื่อครู่ที่หอบจนคล้ายหายใจเกิน"
 
 window hide
 
@@ -5291,7 +5291,7 @@ scene bg school_hallway3
 with locationchange
 
 # "Apologizing profusely and quickly shuffling into the hallway as I fumble with the cover of my mobile phone, I glance at the screen."
-"ฉันขอโทษขอโพยแล้วรีบเดินฉับ ๆ ออกมาที่โถงทางเดินพลางจับเงอะ ๆ งะ ๆ อยู่กับฝาโทรศัพท์ก่อนจะเปิดออกมาดูจอ"
+"ฉันขอโทษขอโพยแล้วรีบเดินฉับ ๆ ออกมาที่โถงทางเดินพลางจับเงอะงะอยู่กับฝาโทรศัพท์ก่อนจะเปิดออกมาดูจอ"
 
 # "…Weird. It's a mobile number I don't recognize. Considering I can count the number of people with my number on one hand, I briefly wonder whether it's some telemarketer that lucked out."
 "…แปลก เบอร์แปลกแฮะ คนที่รู้เบอร์โทร. ของฉันนั้นนับด้วยมือข้างเดียวก็หมดแล้ว ฉันนึกสงสัยอยู่ครู่หนึ่งว่าหรือจะ\nเป็นเบอร์ที่โทร. มาขายของซึ่งบังเอิญมาลงที่เบอร์ฉันพอดี"
@@ -7894,7 +7894,7 @@ with charaexit
 "และก็เป็นเช่นทุกครั้งที่ฉันทำสิ่งแบบนี้ ฉันไม่รู้สาเหตุแน่ชัดว่าทำไมฉันหรือฮานาโกะโบกมือให้ลิลลี่ ในเมื่ออย่างไรเธอ\nก็มองไม่เห็น แต่เรื่องนั้นไม่สำคัญแล้วละ"
 
 # "Even after that black, shiny car goes down the hill and disappears into the dark night, we carry on waving and seeing Akira and Lilly off."
-"แม้รถสีดำเลื่อมคันนั้นจะลงเขาอันตรธานไปในค่ำคืนอันมืดมิดแล้วพวกเราก็ยังโบกมือลาอากิระกับลิลลี่ต่อ"
+"แม้รถสีดำวาวคันนั้นจะลงเขาอันตรธานไปในค่ำคืนอันมืดมิดแล้วพวกเราก็ยังโบกมือลาอากิระกับลิลลี่ต่อ"
 
 stop music fadeout 5.0
 
@@ -8109,7 +8109,7 @@ show yuuko worried_down_ss at center
 with locationchange
 
 # "The two of us look up at the awkwardly fidgeting figure in front of us. Some things never change."
-"เราสองคนเงยหน้ามองคนที่ยืนเก้ ๆ กัง ๆ ทำท่าเหมือนลังเลอยู่ บางอย่างมันก็เหมือนเดิมอยู่เสมอจริง ๆ"
+"เราสองคนเงยหน้ามองคนที่ยืนทำท่าประดักประเดิดอยู่ บางอย่างมันก็เหมือนเดิมอยู่เสมอจริง ๆ"
 
 show yuuko worried_up_ss
 with charachange
@@ -8899,7 +8899,7 @@ with dissolve
 "เกิด… อะไรขึ้น…"
 
 # "As I slowly open my eyes, a bright, white light assaults my retinas."
-"เมื่อค่อย ๆ ลืมตาขึ้นแสงจ้าสีขาวก็แยงตาฉัน"
+"เมื่อค่อย ๆ ลืมตาขึ้นแสงจ้าสีขาวก็แทงตาฉัน"
 
 # "For minutes I just lay where I am, mindlessly staring ahead while my scattered thoughts coalesce in my slowly waking mind."
 "ฉันนอนอยู่นิ่ง ๆ สักสองสามนาทีพลางมองเหม่อระหว่างที่ความคิดอันกระจัดกระจายเริ่มเชื่อมประสานกันอยู่ในสมอง\nที่ค่อย ๆ ตื่นตัวขึ้นมา"
@@ -9088,7 +9088,7 @@ n "\nฉันเพิ่งรู้ตัวเอาตอนนี้เอ
 n "ลิลลี่ ซาโต้ คือคนที่ฉันพึ่งพาได้มากกว่าใคร ๆ และเป็นคนที่ตอบรับความรักของฉันที่มีให้เธอ แต่ฉันทำให้เธอผิดหวัง\nซึ่งกว่าฉันจะรู้ตัวก็สายไปเสียแล้ว"
 
 # n "I thought that I could just set my life up and continue that way forever, but the real world doesn't work like that. I finally realized the meaning of those words, only to be struck down as I confronted my failure to do so in time."
-n "ฉันคิดไปว่าจะวางแผนชีวิตตัวเองเอาไว้แล้วให้มันเป็นไปตามนั้นตลอดไป แต่ในโลกความเป็นจริงจะทำเช่นนั้นไม่ได้\nฉันเพิ่งรู้ซึ้งถึงความหมายของคำพูดเหล่านั้น และมารู้เอาตอนที่ต้องกล้ำกลืนความล้มเหลวจากการที่ไม่ได้รู้ซึ้งแต่แรก"
+n "ฉันคิดไปว่าจะวางแผนชีวิตตัวเองเอาไว้แล้วให้มันเป็นไปตามนั้นตลอดไป แต่ในโลกความเป็นจริงจะทำเช่นนั้นไม่ได้\nฉันเพิ่งรู้ซึ้งถึงความหมายของคำพูดเหล่านั้น และมาสำเหนียกเอาตอนที่ต้องกล้ำกลืนความล้มเหลวจากการที่ไม่ได้รู้ซึ้งแต่แรก"
 
 n "\n…"
 
@@ -9140,10 +9140,10 @@ thname("หมอ") "อ้าว ตื่นแล้วนี่… คุณ
 "คุณหมอเหลือบมองปลายเตียงฉันแวบหนึ่ง ซึ่งทำให้รู้ชัดว่าเอกสารที่ถือมานั้นไม่ได้มีชื่อฉันเขียนเอาไว้"
 
 # "Doctor" "I must admit this is a bit unfortunate; your parents visited just earlier while you were asleep. I could notify them you're awake now, if you'd like."
-thname("หมอ") "จังหวะไม่ดีหน่อยนะ เมื่อกี้พ่อแม่เธอมาเยี่ยมตอนเธอยังไม่รู้สึกตัวอยู่ แต่จะให้หมอไปบอกพ่อแม่เธอก็ได้นะว่าเธอตื่นแล้ว"
+thname("หมอ") "จังหวะไม่ดีหน่อยนะ เมื่อกี้พ่อแม่เธอมาเยี่ยมตอนเธอยังไม่รู้สึกตัวอยู่ แต่จะให้หมอแจ้งพ่อแม่เธอก็ได้นะว่าเธอตื่นแล้ว"
 
 # hi "Um… thanks. That would be good."
-hi "เอ่อ… ขอบคุณครับ บอกให้หน่อยนะครับ"
+hi "เอ่อ… ขอบคุณครับ แจ้งให้หน่อยนะครับ"
 
 # "I give a somewhat dazed reply, most likely the one he'd expect, before really thinking about what I'm saying."
 "ฉันตอบไปด้วยสติที่ไม่เต็มร้อยโดยไม่ทันได้คิดอะไรให้จริงจัง ซึ่งก็น่าจะเดาไว้แล้วแหละว่าฉันจะตอบอย่างนั้น"
@@ -9224,10 +9224,10 @@ thname("หมอ") "ถ้าเบื่อจะฟังหมอพล่�
 thname("หมอ") "หมอเข้าใจนะว่าเธอคงเหนื่อย เธอผ่านอะไรมาเยอะ แล้วไหนจะยาชาที่น่าจะยังไม่หมดอย่างที่หมอบอกไปเมื่อกี้อีก"
 
 # "Doctor" "If you don't mind, I'll let you get some rest and tell your parents you've woken up for you."
-thname("หมอ") "ถ้าเธอไม่ว่าอะไร เดี๋ยวหมอจะปล่อยให้เธอนอนพักแล้วไปบอกพ่อแม่เธอให้ว่าตื่นแล้วนะ"
+thname("หมอ") "ถ้าเธอไม่ว่าอะไร เดี๋ยวหมอจะปล่อยให้เธอนอนพักแล้วแจ้งพ่อแม่เธอให้ว่าตื่นแล้วนะ"
 
 # hi "I think… that would be good. Thank you."
-hi "บอก… ให้หน่อยนะครับ ขอบคุณครับ"
+hi "แจ้ง… ให้หน่อยนะครับ ขอบคุณครับ"
 
 stop music fadeout 6.0
 
@@ -9348,7 +9348,7 @@ with charachange
 li "ฮิซาโอะ นั่นเธอเหรอ"
 
 # "Her voice is quiet and pensive, echoing her expression."
-"เสียงเธอแผ่วเบาและหมองหม่นสะท้อนก้องอารมณ์เธอ"
+"เสียงอันแผ่วเบาและหมองหม่นสะท้อนก้องอารมณ์เธอ"
 
 # hi "I thought you were…"
 hi "แต่เธอ…"
@@ -9419,7 +9419,7 @@ with charachange
 hi "ขอโทษนะลิลลี่ ฉันผิดเองที่มาอยู่ที่นี่ ฉันไม่น่าฝืนตัวเองขนาดนั้นเลย"
 
 # "I give a self-deprecating snort."
-"ฉันหัวเราะแห้ง ๆ เย้ยหยันตัวเอง"
+"ฉันหัวเราะฮึเป็นเชิงเย้ยหยันตัวเอง"
 
 # hi "After months of keeping myself together so nobody'd worry over me, I went and did something like this. I guess I'm pretty dumb."
 hi "อุตส่าห์ดูแลตัวเองอย่างดีมาตั้งหลายเดือนเพื่อที่จะได้ไม่ต้องให้ใครมาเป็นห่วง แต่ดันมาทำอะไรอย่างนี้เสียได้ ฉันนี่โง่\nเหมือนกันเนอะ"
@@ -9694,7 +9694,7 @@ show lilly basic_smileclosed_cas_close:
 with charaenter
 
 # "Lilly sits beside me, her eyes closed, as the gentle breeze flows through her hair."
-"ลิลลี่นั่งหลับตาอยู่ข้างฉันปล่อยให้สายลมพัดสางผมเธอไป"
+"ลิลลี่นั่งหลับตาอยู่ข้างฉันปล่อยให้สายลมพัดสางเรือนผมเธอ"
 
 # li "This is a nice area."
 li "ตรงนี้ดีนะ"
@@ -9861,7 +9861,7 @@ show akira basic_lost_close
 with charachange
 
 # aki "The place won't run itself, I'm afraid, and I think it's going to be just the same over there."
-aki "พี่เกรงว่าบริษัทมันจะไม่ทำงานด้วยตัวเองน่ะสิ บริษัทที่สกอตแลนด์ก็คงเหมือนกัน"
+aki "เกรงว่าบริษัทมันจะไม่ทำงานด้วยตัวเองน่ะสิ บริษัทที่สกอตแลนด์ก็คงเหมือนกัน"
 
 show akira basic_smile_close
 with charachange
@@ -9882,7 +9882,7 @@ show akira basic_smile_close at right
 with dissolvecharamove
 
 # "With a slight grunt, she lifts herself with her hands and stands up, dusting herself off as she does so."
-"อากิระหยัดตัวลุกขึ้นยืนพร้อมเสียงโอดโอยเล็กน้อยก่อนจะปัด ๆ ฝุ่นตามตัว"
+"อากิระยันตัวลุกขึ้นยืนพร้อมเสียงโอดโอยเล็กน้อยก่อนจะปัด ๆ ฝุ่นตามตัว"
 
 show akira basic_lost_close at right
 with charachange
@@ -9912,7 +9912,7 @@ with charachange
 li "ไม่เอาน่าพี่ ไม่ได้หนักหนาอะไรขนาดนั้นหรอก เดี๋ยวเดียวพี่ก็ได้มาหาพวกเราอีก"
 
 # "It is strange to have Lilly reassuring a doubting Akira for once. She really has changed."
-"แปลกดีเหมือนกันที่ได้เห็นลิลลี่ปลอบใจอากิระอย่างนี้สักครั้ง ลิลลี่เปลี่ยนไปแล้วจริง ๆ"
+"แปลกดีเหมือนกันที่ได้เห็นลิลลี่ปลอบใจอากิระที่ลังเลอย่างนี้สักครั้ง ลิลลี่เปลี่ยนไปแล้วจริง ๆ"
 
 show lilly basic_smile_cas_close
 with charachange
