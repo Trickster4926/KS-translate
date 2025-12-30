@@ -5,22 +5,22 @@ show hanako basic_distant_close_ss at center
 with locationchange
 
 # "The tint of the room slowly changes from the shine of the afternoon to the orange of dusk. A clock lazily ticks away the seconds, counting in the background, on the verge of hearing."
-"สีห้องค่อย ๆ เปลี่ยนจากแสงยามบ่ายเป็นสีส้มของยามเย็น นาฬิกาค่อย ๆ เดินไปอย่างเชื่องช้า เสียงดังติ๊กตอกนับวินาที\nไปเรื่อย ๆ โดยแทบจะไม่ได้ยินอยู่เบื้องหลัง"
+"สีห้องค่อย ๆ เปลี่ยนจากแสงยามบ่ายเป็นสีส้มของยามเย็น นาฬิกาค่อย ๆ เดินไปอย่างเชื่องช้า เสียงดังติ๊กตอกนับวินาที\nไปเรื่อย ๆ แว่วอยู่เบื้องหลัง"
 
 # "But no matter how long I wait, the outcome cannot be changed."
-"แต่ไม่ว่าฉันจะรอนานแค่ไหนก็ตาม ผลลัพธ์ก็ไม่ได้เปลี่ยนไปเลย"
+"แต่ไม่ว่าจะรอนานแค่ไหนผลลัพธ์ก็ไม่ได้เปลี่ยนไปเลย"
 
 # "The diminutive playing piece makes a small click against the board."
-"หมากตัวเล็ก ๆ วางลงบนกระดานแล้วเกิดเสียงกระทบเบา ๆ"
+"หมากตัวเล็ก ๆ ส่งเสียงกระทบเบา ๆ เมื่อถูกเคาะกับกระดาน"
 
 show hanako basic_normal_close_ss
 with charachange
 
 # "Like a wound spring, Hanako makes her move only moments after mine."
-"ฮานาโกะเดินหมากทันทีที่ฉันเดินเสร็จ ราวกับลานที่ไขไว้ตึง"
+"ฮานาโกะเดินหมากทันทีที่ฉันเดินเสร็จราวกับลานที่ไขไว้ตึง"
 
 # "It's embarrassing. In comparison to my five-minute moves, she seems to know exactly what she wants to do."
-"เมื่อเทียบกับที่ฉันใช้เวลาตั้งห้านาทีในการเดินก็น่าอายอยู่ อย่างกับเธอรู้อยู่แล้วว่าอยากจะเดินอะไรต่อ"
+"เทียบกับที่ฉันใช้เวลาตั้งห้านาทีในการเดินก็น่าอายอยู่ อย่างกับเธอรู้อยู่แล้วว่าอยากจะเดินอะไรต่อ"
 
 show hanako basic_smile_close_ss
 with charachange
@@ -31,34 +31,34 @@ play music music_tranquil fadein 3.0
 ha "รุกจน"
 
 # hi "Again… What does that make this? 3-2?"
-hi "อีกแล้วเหรอเนี่ย… คะแนนเท่าไหร่แล้วนะ? สามต่อสอง?"
+hi "อีกแล้วเหรอเนี่ย… คะแนนเท่าไหร่แล้วนะ สามต่อสอง?"
 
 show hanako cover_bashful_close_ss
 with charachange
 
 # ha "S-stalemates don't count."
-ha "หมะ-หมากอับไม่นับน่ะ"
+ha "หมะ หมากอับไม่นับนะ"
 
 # hi "Damn. You're getting better at this every day."
 hi "แหม่ เธอนี่เก่งขึ้นทุกวันเลยนะ"
 
 # "That, or she's been holding back. I'd never have thought it when I first met her, but she really has a knack for this game."
-"หรือจริง ๆ เธออาจจะแค่ออมมือให้ก่อนหน้านี้ ตอนที่เจอกันครั้งแรกไม่คิดเลยว่าเธอจะเล่นเกมนี้เก่งขนาดนี้"
+"หรือจริง ๆ ก่อนหน้านี้อาจจะแค่ออมมือให้ ตอนที่เจอกันครั้งแรกไม่คิดเลยว่าจะเล่นหมากรุกเก่งขนาดนี้"
 
 # "Chess seems to have become a popular pastime for the two of us; hiding away in the tea room, playing a game or two after classes."
-"ดูเหมือนหมากรุกจะกลายเป็นงานอดิเรกยอดนิยมของเราสองคนไปแล้ว ซ่อนตัวอยู่ในห้องชาเพื่อเล่นเกมสองสามเกมหลัง\nเลิกเรียน"
+"ดูเหมือนหมากรุกจะกลายเป็นงานอดิเรกยอดนิยมของเราสองคนไปแล้ว เราต่างเก็บตัวอยู่ในห้องน้ำชาเพื่อเล่นด้วยกัน\nสักสองสามเกมหลังเลิกเรียน"
 
 # "From here, the students outside can just barely be heard milling about. The everyday noises from below remind me a little of my life before Yamaku, though I'm by now well aware that it's a life I'll never get back to."
-"จากตรงนี้พอจะได้ยินเสียงนักเรียนที่อยู่ด้านนอกเดินกันไปมา เสียงชีวิตประจำวันจากข้างล่างทำให้ฉันนึกถึงชีวิตก่อนที่จะมา\nที่ยามากุ แต่ฉันก็รู้ดีอยู่แล้วว่าเป็นชีวิตที่ฉันไม่อาจหวนกลับไปได้อีก"
+"จากตรงนี้พอจะได้ยินเสียงนักเรียนที่อยู่ด้านนอกเดินกันไปมา เสียงชีวิตประจำวันจากข้างล่างทำให้ฉันนึกถึงชีวิตก่อนที่\nจะมาที่ยามากุ แต่ตอนนี้ฉันก็รู้ดีอยู่แล้วว่าเป็นชีวิตที่ไม่อาจหวนกลับไปได้อีก"
 
 # hi "Fancy another game?"
-hi "อีกเกมไหม?"
+hi "อีกเกมไหม"
 
 show hanako basic_worry_close_ss
 with charachange
 
 # ha "I… I have to finish my homework…"
-ha "ฉะ… ฉันต้องกลับไปทำการบ้านน่ะ"
+ha "ฉะ… ฉันต้องกลับไปทำการบ้านน่ะ…"
 
 # hi "Oh. Well, I'll see you tomorrow then."
 hi "โอ้ งั้นก็เจอกันพรุ่งนี้ละกัน"
@@ -70,7 +70,7 @@ with charachange
 ha "แต่… แล้วพวกนี้ล่ะ…"
 
 # "Hanako points to the tea set surrounding the mostly-empty chess board."
-"ฮานาโกะชี้ไปที่ชุดน้ำชาที่อยู่รอบกระดานหมากรุกที่เกือบจะว่างเปล่า"
+"ฮานาโกะชี้ไปที่ชุดน้ำชาที่อยู่รอบกระดานหมากรุกที่แทบไม่มีหมากอยู่แล้ว"
 
 # hi "Don't worry about that, I've got it."
 hi "ไม่ต้องห่วง เดี๋ยวจัดการเอง"
@@ -79,13 +79,13 @@ show hanako basic_normal_close_ss
 with charachange
 
 # ha "Oh… okay…"
-ha "โอ้… โอเค…"
+ha "อ้อ… โอเค…"
 
 show hanako basic_bashful_close_ss
 with charachange
 
 # ha "S-see you."
-ha "จ-เจอกัน"
+ha "จะ เจอกัน"
 
 # hi "Later."
 hi "เจอกัน"
@@ -97,19 +97,19 @@ with charaexit
 "ฮานาโกะออกไปตอนที่ฉันเริ่มเก็บกวาดห้อง"
 
 # "The occasional whistles and cheers from the sporting clubs outside become less frequent, eventually approaching silence."
-"เสียงนกหวีดและเสียงเชียร์เป็นช่วง ๆ จากชมรมกีฬาข้างนอกเริ่มเบาลงเรื่อย ๆ จนในที่สุดก็เข้าใกล้ความเงียบ"
+"เสียงนกหวีดและเสียงเชียร์เป็นช่วง ๆ จากชมรมกีฬาข้างนอกเริ่มเบาลงเรื่อย ๆ จนในที่สุดก็เงียบไป"
 
 # "A part of me still wants to be in some kind of team. Since I played soccer and other sports before my accident, I guess it's only normal to feel nostalgic about what I can't do any more."
-"ส่วนหนึ่งในใจฉันยังคงอยากเป็นส่วนหนึ่งของทีมอยู่ ตั้งแต่ฉันเคยเล่นฟุตบอลและกีฬาอื่น ๆ มาก่อนเกิดเหตุการณ์นั้น\nฉันว่าคงเป็นเรื่องปกติที่จะรู้สึกคิดถึงสิ่งที่ทำไม่ได้อีกแล้ว"
+"ใจหนึ่งฉันยังอยากร่วมทีมกีฬาอะไรสักอย่างอยู่ ก็ฉันเคยเล่นฟุตบอลและกีฬาอื่น ๆ มาก่อนเกิดเหตุการณ์นั้นนี่นะ\nคงปกติแหละที่จะรู้สึกคิดถึงสิ่งที่ทำไม่ได้อีกแล้ว"
 
 # "But I have other reasons than that for my coming here so often, and I don't feel so bad about losing that part of myself because of them. Lilly is a good friend by now, but it's the small exchanges I have with Hanako that feel especially dear."
-"แต่การที่ฉันมาที่นี่บ่อย ๆ ก็มีเหตุผลอื่นด้วยแหละ แถมฉันก็ไม่ได้รู้สึกแย่กับการที่ต้องสูญเสียชีวิตส่วนนั้นไปเพราะเรื่องนั้น\nด้วย ได้มีลิลลี่เป็นเพื่อนที่ดีก็ส่วนนึง แต่การได้แลกเปลี่ยนเรื่องราวเล็ก ๆ น้อย ๆ กับฮานาโกะต่างหากที่ทำให้ฉันรู้สึกพิเศษ"
+"แต่การที่ฉันมาที่นี่บ่อย ๆ ก็มีเหตุผลอื่นด้วยแหละ แถมฉันก็ไม่ได้รู้สึกแย่กับการที่ต้องสูญเสียชีวิตส่วนนั้นไปเพราะเรื่องนั้น\nได้มีลิลลี่เป็นเพื่อนที่ดีก็ส่วนหนึ่ง แต่การได้พูดคุยเล็ก ๆ น้อย ๆ กับฮานาโกะต่างหากที่ฉันรู้สึกว่าเป็นสิ่งพิเศษ"
 
 # "The small victories I feel every day as I see more of what she's like under her self-imposed shell. That's why I come here most of all."
-"ชัยชนะเล็ก ๆ ที่ฉันรู้สึกได้ในทุก ๆ วัน คือเมื่อฉันได้เห็นตัวตนที่แท้จริงของเธอที่ซ่อนอยู่ภายใต้เปลือกที่เธอสร้างขึ้นมา\nนั่นคือเหตุผลทั้งหมดว่าทำไมฉันถึงมาที่นี่บ่อยที่สุด"
+"ชัยชนะเล็ก ๆ ที่ฉันรู้สึกได้ในทุก ๆ วันคือเมื่อฉันได้เห็นตัวตนที่แท้จริงของเธอที่ซ่อนอยู่ภายใต้เปลือกที่เธอสร้างขึ้นมา\nหลัก ๆ ที่ฉันมาที่นี่ก็เพราะอย่างนั้นแหละ"
 
 # "As I'm putting away cups and saucers, I hear talking outside the door. Pausing for a moment to listen, I can make out that it's Hanako and Lilly, and decide to go outside to investigate."
-"ขณะที่ฉันกำลังเก็บถ้วยกับจานรอง ก็ได้ยินเสียงคนคุยกันอยู่หน้าประตู ฉันหยุดเพื่อฟังสักครู่ก็พอจับใจความได้ว่าเป็นเสียง\nของฮานาโกะกับลิลลี่ เลยตัดสินใจออกไปดูว่าเกิดอะไรขึ้น"
+"ขณะที่ฉันกำลังเก็บถ้วยกับจานรองก็ได้ยินเสียงคนคุยกันอยู่หน้าประตู พอหยุดฟังสักครู่ก็รู้ว่าเป็นเสียงของฮานาโกะ\nกับลิลลี่ ฉันเลยตัดสินใจออกไปดูว่าเกิดอะไรขึ้น"
 
 scene bg school_hallway2
 show lilly basic_weaksmile at twoleft
@@ -129,7 +129,7 @@ with charachange
 ha "อ๊ะ ฮิซาโอะ"
 
 # "Hanako turns to see me with a look of mild surprise as she notices my approach. Lilly must've caught her just as she was about to leave."
-"ฮานาโกะหันมามองฉันด้วยสีหน้าตกใจเล็กน้อยเมื่อเธอเห็นว่าฉันกำลังเดินเข้าไปหา ลิลลี่คงมาเจอเธอตอนที่เธอกำลังจะไปพอดี"
+"ฮานาโกะหันมามองฉันด้วยสีหน้าตกใจเล็กน้อยเมื่อเธอเห็นว่าฉันกำลังเดินเข้าไปหา ลิลลี่คงมาเจอเธอตอนที่ฮานาโกะ\nกำลังจะไปพอดี"
 
 show lilly basic_smile
 with charachange
@@ -144,16 +144,16 @@ show lilly basic_smileclosed
 with charachange
 
 # li "I was hoping, now that I've finished with my class representative duties for the day, that I might have the two of you accompany me for tea at the Shanghai. It would be nice to enjoy ourselves outside of the school, for a change."
-li "วันนี้ฉันทำงานส่วนของหัวหน้าห้องไปหมดแล้ว ก็เลยหวังว่าพวกเธอสองคนจะไปดื่มชากับฉันที่ร้านเซี่ยงไฮ้ได้นะ\nคงจะดีถ้าเราจะได้สนุกนอกโรงเรียนบ้างน่ะจ้ะ"
+li "พอดีวันนี้ฉันทำงานในฐานะหัวหน้าห้องเสร็จแล้วน่ะ ก็เลยคิดอยู่ว่าจะพาพวกเธอสองคนจะไปดื่มชากับฉันที่ร้านเซี่ยงไฮ้\nดีหรือเปล่าคงจะดีถ้าเราจะได้อยู่เพลิน ๆ ด้วยกันที่นอกโรงเรียนเป็นการเปลี่ยนบรรยากาศบ้างน่ะจ้ะ"
 
 # hi "I'd be up for it. I think Hanako had work to do, though…?"
-hi "ฉันไปได้แหละ แต่เห็นว่าฮานาโกะมีงานต้องทำนี่นะ…"
+hi "ฉันไปได้แหละ แต่เหมือนฮานาโกะมีงานต้องทำนี่…"
 
 show hanako basic_smile
 with charachange
 
 # ha "I-it's… not all that much…"
-ha "กะ-ก็… ไม่ได้เยอะขนาดนั้นหรอก"
+ha "กะ ก็… ไม่ได้เยอะขนาดนั้นหรอก"
 
 show lilly behind_cheerful
 with charachange
@@ -170,7 +170,7 @@ $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 2.0
 
 # "I cast my eyes across the café as the three of us step in. As usual, there are only a handful of people around at most, and the noise level is a quiet background hum."
-"ฉันกวาดสายตาไปรอบ ๆ คาเฟขณะที่พวกเราสามคนก้าวไปข้างใน และเช่นเคย ที่นี่มีคนอยู่ไม่มากและเสียงรอบข้าง\nก็เป็นแค่เสียงกระซิบเบา ๆ เท่านั้น"
+"ฉันกวาดสายตาไปรอบ ๆ คาเฟขณะที่พวกเราสามคนก้าวไปข้างใน และเช่นเคย ที่นี่มีคนอยู่ไม่มากและเสียงรอบข้าง\nก็เป็นแค่เสียงพึมพำเบา ๆ เท่านั้น"
 
 scene bg suburb_shanghaiint at left
 show hanako emb_emb:
@@ -181,13 +181,13 @@ with charaenter
 play music music_dreamy fadein 6.0
 
 # "The hold Lilly has on Hanako's arm remains just as it has been for the entire slow walk down the hill to the local town, though it's hard to say for which reason - for Lilly's guidance, or for Hanako's reassurance."
-"แขนของฮานาโกะยังคงอยู่ในมือของลิลลี่เหมือนเดิมตั้งแต่ตลอดทางที่เดินลงเขาไปยังเมืองอย่างช้า ๆ แต่ก็พูดยากว่าเป็น\nเพราะอะไร ระหว่างเพราะลิลลี่ต้องคอยนำทาง หรือเพราะฮานาโกะต้องการความอุ่นใจกันแน่"
+"แขนของฮานาโกะยังคงอยู่ในมือของลิลลี่เหมือนเดิมตั้งแต่ตลอดทางที่พวกเราเดินลงเขาไปยังเมืองอย่างช้า ๆ แต่ก็\nไม่แน่ใจเหมือนกันว่าเพราะอะไร เพราะลิลลี่ต้องคอยนำทางหรือเพราะฮานาโกะต้องการความอุ่นใจกันแน่"
 
 show lilly basic_smile
 with charachange
 
 # "For a moment, Lilly removes her arm from Hanako's to retract her cane as Yuuko quickly skitters over to where we stand, but soon replaces it right back where it had been."
-"ลิลลี่ก็ปล่อยแขนของฮานาโกะเพื่อรั้งไม้เท้าของตัวเองเอาไว้ไปสักพัก เมื่อยูโกะรีบเดินตรงมาที่เราทั้งสามคน\nแต่ไม่นานเธอก็กลับมาจับแขนของฮานาโกะอีกครั้งในที่เดิม"
+"ลิลลี่ปล่อยแขนของฮานาโกะไปไปสักพักเพื่อหดไม้เท้าเก็บไว้ระหว่างที่ยูโกะรีบเดินตรงมาที่เราทั้งสามคน แต่ไม่นาน\nเธอก็กลับมาจับแขนของฮานาโกะอีกครั้งในที่เดิม"
 
 show yuukoshang closedhappy_up at tworight
 with charaenter
@@ -202,13 +202,13 @@ show yuukoshang neutral_down at tworight
 with dissolvecharamove
 
 # "She gives a deep bow, her well-delivered and professional introduction putting her in a good mood. It's a nice change from the norm for Yuuko."
-"เธอก้มโค้งคำนับอย่างนอบน้อม คำแนะนำที่ดูเป็นมืออาชีพทำให้เธออารมณ์ดีขึ้น เป็นการเปลี่ยนแปลงที่ดีจากอาการปกติของ\nยูโกะ"
+"ยูโกะก้มโค้งคำนับอย่างนอบน้อม คำพูดต้อนรับที่ฟังดูฉะฉานและมีความเป็นมืออาชีพนั้นทำให้ตัวเธออารมณ์ดี ก็ดีกว่า\nตัวเธอตอนปกติบ้างละนะ"
 
 show lilly basic_smileclosed
 with charachange
 
 # li "Just tea, please. Hanako, Hisao?"
-li "ขอแค่ชาก็พอค่ะ แล้วฮานาโกะกับฮิซาโอะล่ะ?"
+li "ขอแค่ชาก็พอค่ะ แล้วฮานาโกะกับฮิซาโอะล่ะ"
 
 # hi "I'll have a slice of pie and a coffee."
 hi "ผมเอาเป็นพายหนึ่งชิ้นกับกาแฟแล้วกันครับ"
@@ -217,7 +217,7 @@ show hanako basic_smile
 with charachange
 
 # ha "Just… t-tea… please."
-ha "คะ…แค่ชา ค…ค่ะ"
+ha "แค่… ชะ ชา… ค่ะ"
 
 show yuukoshang smile_up
 with charachange
@@ -229,7 +229,7 @@ hide yuukoshang
 with charaexit
 
 # "Yuuko gives a smile and a nod before shuffling to the counter, and we make our way to some empty seats by the window in quick measure."
-"ยูโกะยิ้มและพยักหน้า ก่อนจะรีบเดินไปที่เคาน์เตอร์ และเราก็มุ่งหน้าไปนั่งที่ว่างริมหน้าต่างกันอย่างรวดเร็ว"
+"ยูโกะยิ้มและพยักหน้าก่อนจะรีบเดินไปที่เคาน์เตอร์ และเราก็มุ่งหน้าไปนั่งที่ว่างริมหน้าต่างกันอย่างรวดเร็ว"
 
 hide hanako
 hide lilly
@@ -247,10 +247,10 @@ show hanako basic_smile_close:
 with charaenter
 
 # "We slip into our seats, the girls on one side with Lilly's cane propped up beside them and I on the other. I realize that Hanako's not doing something that she so often does."
-"พวกเราเข้าไปนั่งที่ของตัวเอง พวกสาว ๆ อยู่ฝั่งหนึ่งโดยมีไม้เท้าของลิลลี่อยู่ข้าง ๆ และฉันอยู่อีกฝั่ง ฉันเพิ่งสังเกตว่า\nฮานาโกะไม่ได้ทำอะไรแบบที่เธอทำบ่อย ๆ"
+"พวกเราเข้าไปนั่งที่ของตัวเอง พวกสาว ๆ อยู่ฝั่งหนึ่งโดยมีไม้เท้าของลิลลี่อยู่ข้าง ๆ และฉันอยู่อีกฝั่ง เพิ่งสังเกตแฮะว่า\nฮานาโกะไม่ได้ทำอะไรแบบที่เธอทำบ่อย ๆ"
 
 # "Rather than keeping her eyes pinned to the ground and hiding behind her blind escort, busily trying to convince herself that the world around them doesn't exist, she's merely keeping her eyes low and helping Lilly around."
-"แทนที่จะเอาแต่ก้มหน้ามองพื้นและคอยหลบอยู่ข้างหลังเพื่อนร่วมเดินที่ตาบอด พยายามทำเหมือนว่าโลกทั้งใบไม่มีอยู่จริง\nตอนนี้เธอกลับแค่ก้มหน้ามองต่ำและคอยช่วยเหลือลิลลี่อยู่"
+"แทนที่จะเอาแต่ก้มหน้ามองพื้นและคอยหลบอยู่ข้างหลังเพื่อนร่วมเดินที่ตาบอดพยายามทำเหมือนว่าโลกรอบตัวไม่มีอยู่จริง\nตอนนี้เธอกลับแค่หลุบตาลงต่ำและคอยช่วยเหลือลิลลี่อยู่"
 
 # hi "Are you you okay, Lilly? You look tired."
 hi "เป็นอะไรหรือเปล่าลิลลี่ เธอดูเหนื่อย ๆ นะ"
@@ -296,13 +296,13 @@ with charachange
 li "คือเป็นหัวหน้าห้องก็สนุกดีอยู่หรอก และฉันก็รับผิดชอบหน้าที่ได้ดีพอด้วย มีแค่บางคนที่เกี่ยวข้องนั่นแหละที่…"
 
 # "She trails off, cutting her words at a rather opportune spot. It's hard to imagine Lilly cursing, but I imagine that if anyone could make her do so, it would be Shizune."
-"เธอตัดบทไปในช่วงที่พอเหมาะพอดี ปกติแทบคิดภาพที่ลิลลี่ด่าคนไม่ออกเลย แต่ถ้าจะให้นึกว่าใครจะทำให้ลิลลี่ต้องได้ด่า\nคน ๆ นั้นก็คงเป็นชิซูเนะนั่นแหละ"
+"ลิลลี่ตัดบทไปในช่วงที่พอเหมาะพอดี นึกภาพลิลลี่สบถไม่ค่อยออกแฮะ แต่ถ้าจะให้นึกว่าใครจะทำให้ลิลลี่ต้องได้ด่า\nคน ๆ นั้นก็คงเป็นชิซูเนะนั่นแหละ"
 
 show hanako cover_worry_close
 with charachange
 
 # "Hanako looks to be withering a bit in the light of such conflict, but before I can steer the topic away a little, she stands up."
-"ฮานาโกะดูซึม ๆ ไปจากการที่สองคนนั้นทะเลาะกัน แต่ก่อนที่ฉันจะได้เปลี่ยนเรื่องคุย เธอก็ลุกขึ้นมา"
+"ฮานาโกะดูซึม ๆ ไปจากการที่สองคนนั้นทะเลาะกัน แต่ก่อนที่ฉันจะทันได้เปลี่ยนเรื่องคุยฮานาโกะก็ลุกขึ้นมา"
 
 show hanako basic_worry_close at tworight
 with dissolvecharamove
@@ -323,7 +323,7 @@ hide hanako
 with charaexit
 
 # "With that, she leaves for the restrooms. I suppose that's one way to deal with the situation, if that was indeed her motivation."
-"พูดจบ เธอก็ออกไปเข้าห้องน้ำ คิดว่านั่นคงเป็นวิธีหนึ่งที่จะรับมือกับสถานการณ์แบบนี้ ถ้าเธอจงใจอะนะ"
+"พูดจบฮานาโกะก็ไปเข้าห้องน้ำ ก็คงเป็นวิธีหนึ่งที่จะรับมือกับสถานการณ์แบบนี้ละมั้ง ถ้าจงใจอะนะ"
 
 show bg suburb_shanghaiint at center
 show lilly basic_concerned_close at Position(xpos=0.5)
@@ -342,7 +342,7 @@ with charachange
 li "แต่ว่า…"
 
 # hi "I think she's been getting stronger recently. You've seen it yourself… right…?"
-hi "ฉันว่าช่วงนี้ฮานาโกะเองก็เข้มแข็งขึ้นแล้วนะ เธอเองก็เห็นแล้ว… นี่นะ?…"
+hi "ฉันว่าช่วงนี้ฮานาโกะเองก็เข้มแข็งขึ้นแล้วนะ เธอเองก็เห็นแล้วนี่… ใช่มั้ย…"
 
 # "That went a bit awry. Fortunately Lilly doesn't look offended, and by now I really shouldn't be quite so scared of stepping on that landmine around her."
 "ฟังดูแปลก ๆ ไปหน่อย โชคดีที่ลิลลี่ไม่ได้รู้สึกอะไร และคราวหลังก็คงไม่ต้องมาพะวงกับเรื่องอะไรแบบนี้อีกแล้วละมั้ง"
@@ -351,10 +351,10 @@ show lilly basic_sleepy_close
 with charachange
 
 # li "Possibly. Sometimes… I find it hard to tell, though."
-li "ก็คงใช่ บางทีก็… เดาใจไม่ค่อยถูกเหมือนกัน"
+li "ก็คงใช่ บางที… ฉันก็เดาใจไม่ค่อยถูกเหมือนกัน"
 
 # "Silence reigns for a moment before two teacups, a pie, and a mug of steaming coffee appear in front of us."
-"ความเงียบเข้าครอบงำชั่วขณะ ก่อนที่ถ้วยชาสองใบ พายหนึ่งชิ้น และแก้วกาแฟร้อน ๆ จะปรากฏขึ้นตรงหน้าเรา"
+"ความเงียบเข้าครอบงำชั่วขณะก่อนที่ถ้วยชาสองใบ พายหนึ่งชิ้นกับแก้วกาแฟร้อน ๆ จะปรากฏขึ้นตรงหน้าเรา"
 
 show bg suburb_shanghaiint at right
 show lilly basic_sleepy_close at Position(xpos=0.3)
@@ -364,7 +364,7 @@ show yuukoshang closedhappy_down at tworight
 with charaenter
 
 # "I notice that Yuuko takes special care to place the teacup against the tip of Lilly's fingers, letting her know where it is."
-"ฉันสังเกตเห็นว่ายูโกะนั้นใส่ใจวางถ้วยลงตรงปลายนิ้วของลิลลี่เพื่อให้เธอรู้ว่าวางไว้ตรงไหน"
+"ฉันสังเกตเห็นว่ายูโกะนั้นใส่ใจวางถ้วยลงตรงปลายนิ้วของลิลลี่เพื่อให้รู้ว่าวางไว้ตรงไหน"
 
 show yuukoshang closedhappy_up
 with charachange
@@ -395,13 +395,13 @@ with charamove
 li "อ๊ะ จริงสิ ว่าจะถามอะไรเธอสักหน่อย และตอนนี้ก็ได้จังหวะพอดีเลย"
 
 # hi "I'm all ears."
-hi "โอเค ตั้งใจฟังอยู่"
+hi "โอเค พร้อมฟัง"
 
 show lilly basic_smileclosed_close
 with charachange
 
 # li "Hanako's birthday is coming up, and I was hoping that you might accompany me for present shopping in the city this weekend."
-li "พอดีใกล้ถึงวันเกิดฮานาโกะแล้วน่ะ เลยอยากให้เธอเข้าตัวเมืองไปซื้อของช่วงสุดสัปดาห์นี้เป็นเพื่อนฉันหน่อยน่ะจ้ะ"
+li "พอดีใกล้ถึงวันเกิดฮานาโกะแล้วน่ะ เลยอยากชวนเธอเข้าตัวเมืองไปซื้อของช่วงสุดสัปดาห์นี้เป็นเพื่อนฉันหน่อยน่ะจ้ะ"
 
 # "Hanako's birthday is soon? I suppose it would be a nice chance to cheer her up a bit. Like Yuuko, she always seems to be teetering on the edge of either panic or depression, and I've never seen her enjoy herself much outside of our chess games."
 "ใกล้ถึงวันเกิดฮานาโกะแล้วเหรอ คงจะเป็นโอกาสดีที่ทำให้เธอได้ร่าเริงละนะ อาการฮานาโกะเหมือนยูโกะที่เดี๋ยวก็ลน\nเดี๋ยวก็เครียดเลย แถมไม่เคยเห็นฮานาโกะสนุกกับอะไรอย่างอื่นนอกจากตอนที่เล่นหมากรุกด้วยกันแล้วด้วย"
@@ -422,10 +422,10 @@ show lilly basic_listen_close
 with charachange
 
 # "Lilly suddenly cuts herself short, leaving me to wonder why as she brings her teacup to her lips and begins to sip."
-"จู่ ๆ ลิลลี่ก็ตัดบทตัวเองลง พานให้ฉันสงสัยว่าทำไมจู่ ๆ เธอถึงยกถ้วยชาขึ้นมาจิบแทน"
+"จู่ ๆ ลิลลี่ก็ตัดบทตัวเองปล่อยให้ฉันสงสัยว่าทำไมจู่ ๆ เธอถึงยกถ้วยชาขึ้นมาจิบแทน"
 
 # "After a few seconds, I notice Hanako walking up to us over her shoulder. Lilly's hearing must be very good indeed if it was the sound of the restroom door opening that tipped her off."
-"ผ่านไปสักพัก ก็เห็นฮานาโกะกำลังเดินมาจากข้างหลังเธอ ลิลลี่คงหูดีจริง ๆ ถ้าเทียบจากการที่เสียงเปิดประตูห้องน้ำ\nคือสิ่งที่ทำให้เธอรู้ตัวอะนะ"
+"ผ่านไปสักพักฉันก็เห็นฮานาโกะกำลังเดินมาจากข้างหลังเธอ ลิลลี่คงหูดีจริง ๆ ถ้าเสียงเปิดประตูห้องน้ำคือสิ่งที่\nทำให้เธอรู้ตัวอะนะ"
 
 show bg suburb_shanghaiint at bgleft
 show lilly basic_listen_close at Position(xpos=0.3)
@@ -440,7 +440,7 @@ with charaenter
 "ฮานาโกะกลับมานั่งที่ของเธออีกครั้งและดื่มชาต่อทันทีโดยไม่เสียเวลา เช่นนั้นแล้วเราสามคนก็กินดื่มกันอย่างเงียบ ๆ \nท่ามกลางอาทิตย์อัสดง"
 
 # "It's a nice way to spend the remainder of the day's light, and it makes me appreciate the quiet and serene surroundings of Yamaku. I think I'm really beginning to like life here, as isolated as it may be."
-"ซึ่งเป็นการใช้เวลาช่วงที่เหลือได้อย่างดีเลย และทำให้ฉันได้ชมเชยกับบรรยากาศที่เงียบและสงบของยามากุด้วย\nฉันว่าฉันเริ่มจะชอบชีวิตที่นี่แล้วจริง ๆ แม้ว่าจะดูเหมือนโดดเดี่ยวหน่อย ๆ ก็เถอะ"
+"ซึ่งเป็นการใช้เวลาช่วงที่เหลือได้อย่างดีเลย และทำให้ฉันได้เชยชมกับบรรยากาศที่เงียบและสงบของยามากุด้วย\nฉันว่าฉันเริ่มจะชอบชีวิตที่นี่แล้วจริง ๆ แม้ว่าจะดูเหมือนโดดเดี่ยวหน่อย ๆ ก็เถอะ"
 
 stop ambient fadeout 2.0
 
@@ -466,50 +466,50 @@ show hanako emb_timid_close
 with charachange
 
 # "She's completely stopped in her tracks, looking quite surprised that anyone would be interested in asking such a question about her. It takes her a little time to formulate a response."
-"เธอหยุดชะงักทันที ดูประหลาดใจที่ใครสักคนจะสนใจถามคำถามเกี่ยวกับเธอแบบนั้น เธอใช้เวลาสักพักเพื่อเรียบเรียงคำตอบ"
+"ฮานาโกะชะงักไปทันที ดูประหลาดใจที่ใครสักคนจะสนใจถามคำถามเกี่ยวกับตัวเองแบบนั้น เธอใช้เวลาสักพัก\nเพื่อเรียบเรียงคำตอบ"
 
 show hanako emb_downsmile_close
 with charachange
 
 # ha "Um… I guess… I like singing a l-little. I'm okay with c-computers as well, but I… don't use them all that much."
-ha "เอิ่ม… คิดว่า… ฉันชอบร้องเพลงนะ-นิดหน่อย แล้วก็คะ-คอมพิวเตอร์ก็พอได้ แต่ฉะ-ฉันก็ไม่ค่อยได้ใช้หรอก"
+ha "เอิ่ม… คิดว่า… ฉันชอบร้องเพลงนะ นิดหน่อย แล้วก็คะ คอมพิวเตอร์ก็พอได้ แต่ฉัน… ก็ไม่ค่อยได้ใช้หรอก"
 
 # "Singing's not exactly something I expected to hear. It's hard to imagine her singing voice, given how soft-spoken she is."
-"เรื่องร้องเพลงนี่ผิดคาดเลยแฮะ นึกเสียงเธอตอนร้องเพลงไม่ออกเลยแฮะเมื่อมองจากการที่เธอพูดเบาขนาดนี้"
+"เรื่องร้องเพลงนี่ผิดคาดเลยแฮะ เห็นพูดเบาอย่างนี้แล้วก็นึกเสียงตอนร้องเพลงไม่ออกเลย"
 
 show lilly basic_smile_close
 with charachange
 
 # "Lilly, on the other hand, simply nods. She must already know all this, since she's been friends with Hanako for one year or so by now."
-"ในขณะที่ลิลลี่เองกลับพยักหน้าเฉย ๆ เธอต้องรู้อยู่แล้วแน่ ๆ ละ ก็เธอเป็นเพื่อนกับฮานาโกะมาปีกว่า ๆ แล้วนี่นะ"
+"ในขณะที่ลิลลี่เองกลับพยักหน้าเฉย ๆ ต้องรู้อยู่แล้วแน่ ๆ ละ ก็เป็นเพื่อนกับฮานาโกะมาปีกว่า ๆ แล้วนี่นะ"
 
 show hanako cover_bashful_close
 with charachange
 
 # ha "W-what about… y-y…"
-ha "ละ-แล้ว นาย…ชอบอะ…"
+ha "ละ แล้ว… นะ นาย…"
 
 # hi "Me?"
-hi "ฉันเหรอ?"
+hi "ฉันเหรอ"
 
 show hanako basic_bashful_close
 with charachange
 
 # "She hesitates before quickly flicking her head up and down. It's only logical that she'd want me to talk about my hobbies after she's told me hers."
-"เธอลังเลอยู่พักหนึ่ง ก่อนจะพยักหน้าอย่างรวดเร็ว ก็เป็นเรื่องปกติที่เธอจะอยากให้ฉันพูดถึงงานอดิเรกของฉันบ้าง\nหลังจากที่เธอเล่าเรื่องของเธอให้ฉันฟังแล้ว"
+"ฮานาโกะลังเลอยู่พักหนึ่งก่อนจะพยักหน้าอย่างรวดเร็ว ก็เป็นเรื่องปกติที่เธอจะอยากให้ฉันพูดถึงงานอดิเรกของฉันบ้าง\nหลังจากที่เธอเล่าเรื่องของเธอให้ฉันฟังแล้ว"
 
 # hi "There's chess, obviously, but also… hmm…"
-hi "แน่นอน ก็มีหมากรุกละหนึ่ง แล้วก็… อืม…"
+hi "แน่นอน ก็มีหมากรุกละหนึ่ง แล้วก็… อืมม…"
 
 # hi "There was soccer as well, though I can't really do that any more. Reading, which I picked up in hospital… um…"
-hi "ก็มีเตะบอลด้วยแหละ ถึงแม้ตอนนี้จะกลับไปเตะอีกไม่ได้แล้วก็เถอะ แล้วก็อ่านหนังสือ ซึ่งฉันทำประจำในโรงพยาบาล…\nอืม…"
+hi "ก็มีเตะบอลด้วยแหละ ถึงแม้ตอนนี้จะกลับไปเตะอีกไม่ได้แล้วก็เถอะ แล้วก็อ่านหนังสือ ซึ่งฉันทำประจำในโรงพยาบาล…\nอ่า…"
 
 show hanako basic_normal_close
 show lilly basic_sleepy_close
 with charachange
 
 # "This is surprisingly hard. Lilly and Hanako look a little put off by the direction this is taking, and the more I think about it, the more I am too."
-"เอาจริง ๆ ก็ยากเกินคาดแฮะ ลิลลี่กับฮานาโกะเองก็ดูไม่ค่อยพอใจกับคำตอบแนวนี้สักเท่าไหร่ และพอยิ่งฉันคิดฉัน\nก็เริ่มไม่พอใจเหมือนกัน"
+"เอาจริง ๆ ก็ยากเกินคาดแฮะ ลิลลี่กับฮานาโกะเองก็ดูไม่ค่อยพอใจกับคำตอบแนวนี้สักเท่าไหร่ และพอยิ่งคิดฉัน\nก็ยิ่งไม่พอใจเหมือนกัน"
 
 show lilly basic_weaksmile_close
 with charachange
@@ -518,11 +518,10 @@ with charachange
 li "ดูเหมือนว่านายได้เรียนรู้หลายสิ่งหลายอย่างตั้งแต่เกิดเหตุการณ์นั้นนะ"
 
 # "Lilly's candor is coated with probably the most positive spin one could put on what I said. Hanako, however, is silent."
-"ความจริงใจของลิลลี่ถูกเคลือบด้วยการมองในแง่บวกที่สุดเท่าที่จะเป็นไปได้ต่อสิ่งที่ฉันพูด แต่ฮานาโกะกลับเงียบไป"
+"ใจจริงของลิลลี่ถูกเคลือบด้วยการมองในแง่บวกที่สุดเท่าที่จะเป็นไปได้ต่อสิ่งที่ฉันพูด แต่ฮานาโกะกลับเงียบไป"
 
 # "If a situation becomes difficult, her reaction always seems to be withdrawing into silence, in order to prevent things getting worse. That, or physically retreating."
-"ถ้าสถานการณ์เริ่มยุ่งยากปฏิกิริยาของเธอดูเหมือนจะเป็นการถอยกลับไปเงียบเสมอ เพื่อป้องกันไม่ให้สถานการณ์แย่ลง\nหรือไม่ก็เป็นการถอยหนีทางกายภาพไปเลย"
-
+"ถ้าสถานการณ์เริ่มยุ่งยาก ปฏิกิริยาของเธอดูเหมือนจะเป็นการถอยกลับไปเงียบเสมอเพื่อป้องกันไม่ให้สถานการณ์แย่ลง\nหรือไม่ก็เป็นการถอยหนีทางกายภาพไปเลย"
 
 $ renpy.music.set_volume(0.2, 0.0, channel="sound")
 play sound sfx_phone
@@ -532,19 +531,19 @@ show hanako cover_worry_close
 with charachange
 
 # "A soft ringing gives us pause. As Lilly reaches into her pocket, it becomes obvious that the sound's coming from her phone."
-"เสียงเรียกเข้าเบา ๆ ทำให้พวกเราชะงัก ขณะที่ลิลลี่ล้วงมือเข้าไปในกระเป๋า ก็เห็นได้ชัดว่าเสียงนั้นมาจากโทรศัพท์\nของเธอ"
+"เสียงเรียกเข้าเบา ๆ ทำให้พวกเราชะงัก ขณะที่ลิลลี่ล้วงมือเข้าไปในกระเป๋าก็เห็นได้ชัดว่าเสียงนั้นมาจากโทรศัพท์\nของเธอ"
 
 show lilly basic_weaksmile_close
 with charachange
 
 # li "Sorry…"
-li "โทษทีจ้ะ…"
+li "ขอโทษทีจ้ะ…"
 
 show hanako basic_normal_close
 with charachange
 
 # ha "I-it's okay…"
-ha "มะ-ไม่เป็นไร…"
+ha "มะ ไม่เป็นไร…"
 
 show lilly invis_close at Position(ypos=1.0)
 with dissolvecharamove
@@ -553,7 +552,7 @@ hide lilly
 with None
 
 # "Lilly gives a quick nod before shuffling out of her seat and taking the call a little distance away, to avoid disturbing the both of us."
-"ลิลลี่พยักหน้าอย่างรวดเร็วก่อนจะลุกออกจากที่นั่งอย่างเงียบ ๆ และเดินไปรับสายในระยะที่ไกลออกไปเล็กน้อย\nเพื่อไม่ให้รบกวนพวกเราทั้งสองคน"
+"ลิลลี่พยักหน้าสั้น ๆ ก่อนจะลุกออกจากที่นั่งอย่างเงียบ ๆ และเดินไปรับสายในระยะที่ไกลออกไปเล็กน้อยเพื่อไม่ให้\nรบกวนพวกเราทั้งสองคน"
 
 # hi "Must be nice to be popular."
 hi "เป็นคนดังนี่ดีจริง ๆ เลยนะ"
@@ -562,7 +561,7 @@ show hanako cover_bashful_close
 with charachange
 
 # "Hanako smiles, but doesn't take up the hook for further discussion."
-"ฮานาโกะยิ้ม แต่ไม่ได้ตอบกลับอะไรต่อ"
+"ฮานาโกะยิ้มแต่ไม่ได้ตอบกลับอะไรต่อ"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
@@ -570,16 +569,16 @@ scene black
 with shuteye
 
 # "I end up just sitting back and closing my eyes, relaxing as best I can."
-"สุดท้ายฉันก็นั่งเอนหลังและหลับตาลง ผ่อนคลายให้ได้มากที่สุดเท่าที่จะทำได้"
+"สุดท้ายฉันก็นั่งเอนหลังและหลับตาลงผ่อนคลายให้ได้มากที่สุดเท่าที่จะทำได้"
 
 # hi "It's nice and peaceful here. I wonder what it'd be like to have grown up somewhere like this, rather than in the city."
-hi "ที่นี่เงียบสงบและน่าอยู่จัง ฉันละสงสัยว่าการได้เติบโตในสถานที่แบบนี้แทนที่จะเป็นในเมือง จะเป็นยังไง\nกันนะ"
+hi "ที่นี่เงียบสงบและน่าอยู่จัง ฉันละสงสัยว่าถ้าได้เติบโตในสถานที่แบบนี้แทนที่จะเป็นในเมืองแล้วจะเป็นยังไงกันนะ"
 
 # ha "Y-you come from the city?"
-ha "นะ-นายมาจากในเมืองเหรอ?"
+ha "นะ นายมาจากในเมืองเหรอ?"
 
 # "Looks like I've found something she wants to talk about."
-"ดูเหมือนว่าจะเจอเรื่องที่เธออยากจะคุยแล้ว"
+"ดูเหมือนว่าจะเจอเรื่องที่ฮานาโกะอยากคุยแล้ว"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -596,22 +595,22 @@ show hanako basic_worry_close
 with charachange
 
 # ha "I-it sounds like a lot changed…"
-ha "ฟะ-ฟังดูคงมีอะไรหลายอย่างแปลกตาสำหรับนายเลยสินะ…"
+ha "ฟะ ฟังดูคงมีอะไรหลายอย่างแปลกตาสำหรับนายเลยสินะ…"
 
 # hi "It did. I'm still not quite sure what to make of it all, though. It's a bit of a culture shock, in more ways than one."
-hi "ก็ใช่แหละ ฉันก็ยังไม่แน่ใจว่าจะปรับตัวนี้ยังไงดี ก็มีเรื่องของความแตกต่างทางวัฒนธรรมอยู่บ้าง ในหลาย ๆ ด้านเลย"
+hi "ก็ใช่แหละ ฉันก็ยังไม่แน่ใจว่าจะปรับตัวนี้ยังไงดี ก็คงเป็นอาการปกติเวลาคนเราไปอยู่คนละสภาพแวดล้อมน่ะแหละ"
 
 # hi "You must've gone through something like this when you first arrived at Yamaku, right? I'd imagine most new students would."
-hi "เธอเองก็คงเจออะไรแบบนี้ตอนเข้ามายามากุใหม่ ๆ เหมือนกันใช่ไหม เดาว่านักเรียนใหม่ส่วนใหญ่ก็น่าจะเป็นแบบนั้น"
+hi "เธอเองก็คงเจออะไรแบบนี้ตอนเข้ามายามากุใหม่ ๆ เหมือนกันใช่ไหม นักเรียนใหม่ส่วนใหญ่ก็น่าจะเป็นแบบนั้นนะ"
 
 show hanako basic_distant_close
 with charachange
 
 # ha "N-not really…"
-ha "กะ-ก็ไม่ขนาดนั้น…"
+ha "กะ ก็ไม่ขนาดนั้น…"
 
 # "Hanako gazes a little to the side, looking unwilling to go on. I tilt my head inquisitively, but a couple of seconds pass with no further answer."
-"ฮานาโกะเสตาไปด้านข้างเล็กน้อย ดูเหมือนจะไม่เต็มใจที่จะพูดต่อ ฉันเอียงหัวด้วยความสงสัย แต่เวลาผ่านไปสักพัก\nโดยที่เธอไม่ตอบอะไรอีก"
+"ฮานาโกะเสตาไปด้านข้างเล็กน้อยเหมือนจะไม่เต็มใจที่จะพูดต่อ ฉันเอียงหัวด้วยความสงสัย แต่เธอไม่ตอบอะไรอีก\nอยู่สักพัก"
 
 scene bg suburb_shanghaiint at bgright
 show hanako basic_distant_close:
@@ -625,22 +624,22 @@ with charaenter
 stop music fadeout 8.0
 
 # li "But can't we deal with that on Monday? The fallout has hardly settled from the last…"
-li "แต่เอาไว้จัดการเรื่องนั้นวันจันทร์ไม่ได้เหรอ? ผลกระทบจากงานล่าสุดยังไม่ได้จัดการเลย…"
+li "เอาไว้จัดการเรื่องนั้นวันจันทร์ไม่ได้เหรอ เรื่องเก่าที่ค้างจากคราวก่อนยังจัดการไม่เรียบร้อยดีเลย…"
 
 show lilly back_listen
 with charachange
 
 # li "I understand. I'll try to talk her down. You know what she's like when she gets locked onto an idea."
-li "เข้าใจแล้ว เดี๋ยวฉันจะลองไปคุยกับเธอดู ก็รู้ ๆ อยู่ว่าเธอเป็นยังไงเวลาที่เธอยึดติดอยู่กับความคิดใดความคิดหนึ่ง"
+li "เข้าใจแล้วจ้ะ เดี๋ยวฉันจะลองไปคุยดู เธอก็รู้นี่ว่ารายนั้นเป็นพวกที่ถ้าได้ตั้งใจจะทำอะไรแล้วก็จะไปให้สุดน่ะ"
 
 # li "Yes, thank you. I'll talk to you later, then. Goodbye."
-li "ได้ ๆ ขอบใจ ไว้ค่อยคุยกันใหม่ แค่นี้จ้ะ"
+li "ได้จ้ะ ขอบใจนะ ไว้ค่อยคุยกันใหม่ แค่นี้จ้ะ"
 
 show lilly basic_displeased
 with charachange
 
 # "Lilly's conversation ends with the snap of her phone closing. She returns to our table, but doesn't take her seat."
-"บทสนทนาของลิลลี่จบลงพร้อมกับเสียงพับปิดโทรศัพท์ เธอเดินกลับมาที่โต๊ะของเรา แต่ไม่ได้นั่งลงที่ของเธอ"
+"บทสนทนาของลิลลี่จบลงพร้อมกับเสียงพับปิดโทรศัพท์ เธอเดินกลับมาที่โต๊ะของเราแต่ไม่ได้นั่งลงกับที่ตัวเอง"
 
 # hi "Need to go?"
 hi "จะไปแล้วเหรอ?"
@@ -649,25 +648,25 @@ show lilly basic_concerned
 with charachange
 
 # li "Unfortunately. Class representative work calls once again."
-li "เกรงว่าคงเป็นอย่างนั้น งานของหัวหน้าห้องเรียกตัวอีกแล้วน่ะจ้ะ…"
+li "เกรงว่าคงเป็นอย่างนั้นจ้ะ พอดีมีงานหัวหน้าห้องที่ฉันต้องไปจัดการอีกแล้ว…"
 
 show hanako cover_worry_close
 with charachange
 
 # ha "I-I can come with you."
-ha "ฉะ-ฉันไปด้วยได้นะ"
+ha "ฉะ ฉันไปด้วยได้นะ"
 
 show lilly basic_weaksmile
 with charachange
 
 # li "It's all right, Hanako. I'll just be going straight to the Student Council. There's no need to spoil a fine evening on my account."
-li "ไม่เป็นไรหรอกฮานาโกะ ฉันจะตรงไปสภานักเรียนเลย เธอไม่ต้องเสียบรรยากาศยามเย็นดี ๆ แบบนี้เพราะเรื่องของ\nฉันหรอก"
+li "ไม่เป็นไรหรอกฮานาโกะ ฉันจะตรงไปสภานักเรียนเลย เธอไม่ต้องเสียบรรยากาศยามเย็นดี ๆ แบบนี้เพราะเรื่อง\nของฉันหรอก"
 
 show lilly basic_smile
 with charachange
 
 # li "Besides, if you were to accompany me on my way back to the school, who would keep our poor Hisao company?"
-li "นอกจากนี้ ถ้าเธอจะเดินไปเป็นเพื่อนฉันระหว่างทางกลับโรงเรียน แล้วใครจะอยู่เป็นเพื่อนฮิซาโอะผู้น่าสงสารของเราล่ะ"
+li "แล้วอีกอย่าง ถ้าเธอจะเดินไปเป็นเพื่อนตอนฉันกลับโรงเรียน แล้วใครจะอยู่เป็นเพื่อนฮิซาโอะผู้น่าสงสารของเราล่ะ"
 
 show hanako basic_normal_close
 with charachange
@@ -691,7 +690,7 @@ hide lilly
 with charaexit
 
 # "Despite my offer to pay for Lilly's share, she insists on giving us her portion of the bill, and gives her regards to Yuuko as she takes her leave."
-"ถึงฉันจะบอกว่าจะจ่ายส่วนของลิลลี่ให้ก็เถอะ แต่เธอก็ไม่ยอมและจ่ายเงินให้ยูโกะก่อนออกไปอยู่ดี"
+"ถึงฉันเสนอตัวจะจ่ายส่วนของลิลลี่ให้ก็เถอะ แต่เธอก็ไม่ยอมแล้วไปจ่ายเงินบอกลายูโกะเดินออกไปอยู่ดี"
 
 play music music_dreamy fadein 4.0
 
@@ -702,7 +701,7 @@ show hanako basic_normal_close:
 with charamove
 
 # "And then… we're alone. It may be all well and good to leave Hanako and me alone to have some time together, but all it typically means is the two of us sitting near each other in silence for a while."
-"เช่นนั้นแล้ว… ก็เหลือแค่เราสองคน ปล่อยให้พวกเราอยู่ตามลำพังมันก็ดีหรอก แต่ก็แปลว่าพวกเราจะนั่งเงียบ ๆ \nโดยไม่พูดอะไรไปสักพักเลยละ"
+"และแล้ว… ก็เหลือแค่เราสองคน ปล่อยให้พวกเราอยู่ตามลำพังมันก็ดีหรอก แต่ก็แปลว่าพวกเราจะนั่งเงียบ ๆ \nโดยไม่พูดอะไรไปสักพักเลยละ"
 
 # "I wonder what I must look like to Hanako. I never thought of myself as a scary person, but to have someone my own age acting this way around me makes me intensely self-aware, as if it's my fault that she's so troubled."
 "ฮานาโกะจะมองว่าฉันเป็นคนยังไงกันนะ ถึงฉันจะไม่เคยคิดว่าตัวเองเป็นคนน่ากลัว แต่พอมีคนรุ่นราวคราวเดียวกับฉันมา\nทำตัวอย่างนี้ตอนได้อยู่ด้วยกันแล้วก็เกร็งมาก ๆ เพราะรู้สึกอย่างกับว่าฉันเป็นต้นเหตุที่ทำให้ฮานาโกะรู้สึกอึดอัด"
@@ -714,13 +713,13 @@ with charamove
 "ซึ่งไม่ว่าจะทางไหนก็จะกลับมาที่ปัญหาเดิมอยู่ดี ถ้าฮานาโกะยังอยู่ที่ยามากุก็จะไม่ชินกับการเข้าสังคม แต่ถ้าไปอยู่ที่อื่น\nต่อให้จะพยายามแล้วแต่ก็อาจจะถูกคนที่รับกับแผลเป็นของเธอไม่ได้กีดกันอยู่ดี"
 
 # hi "Want to order something else to keep us going? We haven't had much of a dinner, after all."
-hi "จะสั่งอะไรเพิ่มเพื่อนั่งต่อไหม? ไหน ๆ พวกเราก็ยังไม่ได้กินข้าวเย็นอยู่ด้วย"
+hi "จะสั่งอะไรเพิ่มไหม จะได้นั่งกันต่อ ไหน ๆ ก็ยังไม่ได้กินข้าวเย็นกันด้วย"
 
 show hanako basic_smile_close
 with charachange
 
 # "Hanako brightens and nods vigorously, glad that I brought up the topic for her. I catch Yuuko's gaze, and she dutifully comes over to take our orders."
-"ฮานาโกะยิ้มแล้วพยักหน้าหงึก ๆ ด้วยความดีใจที่ฉันชวนคุยเรื่องนี้ ฉันสบตากับยูโกะ แล้วเธอก็เดินเข้ามารับรายการ\nของเราอย่างตั้งใจ"
+"ฮานาโกะยิ้มแล้วพยักหน้าหงึก ๆ ด้วยความดีใจที่ฉันชวนคุยเรื่องนี้ ฉันสบตากับยูโกะ แล้วเธอก็เดินเข้ามารับรายการ\nของเราอย่างตั้งอกตั้งใจ"
 
 scene bg suburb_shanghaiint at bgright
 show hanako basic_smile_close:
@@ -732,16 +731,16 @@ show yuukoshang neutral_down at twoleft
 with charaenter
 
 # yu "Would you like something else?"
-yu "จะรับอะไรเพิ่มดีคะ?"
+yu "จะรับอะไรเพิ่มดีคะ"
 
 # hi "I'll just have a sandwich special and a hot chocolate. Bit late for coffee by now. Hanako?"
-hi "ผมเอาแซนด์วิชสเปเชียลกับช็อกโกแลตร้อนแล้วกันครับ กาแฟตอนนี้คงเย็นเกินไปหน่อย ฮานาโกะล่ะ?"
+hi "ผมเอาแซนด์วิชสเปเชียลกับช็อกโกแลตร้อนแล้วกันครับ กินกาแฟตอนนี้เดี๋ยวนอนไม่หลับ ฮานาโกะล่ะ"
 
 show hanako cover_bashful_close
 with charachange
 
 # ha "I-I'll… have the same…"
-ha "อะ-เอา… เหมือนกันค่ะ…"
+ha "อะ เอา… เหมือนกันค่ะ…"
 
 hide yuukoshang
 with charaexit
@@ -754,7 +753,7 @@ show hanako basic_bashful_close
 with charaenter
 
 # "Not a word is said between us until Yuuko comes back. She smiles and gives us our food and drinks, before moving to a customer who's called for her attention."
-"พวกเราไม่ได้คุยอะไรต่ออีกจนยูโกะกลับมา เธอยิ้มและเสิร์ฟอาหารและเครื่องดื่มของเรา ก่อนที่จะไปหาลูกค้าที่เรียกเธอต่อ"
+"พวกเราไม่ได้คุยอะไรต่ออีกจนยูโกะกลับมา เธอยิ้มพลางเสิร์ฟอาหารกับเครื่องดื่มของเราก่อนที่จะไปหาลูกค้า\nที่เรียกเธอต่อ"
 
 hide yuukoshang
 with charaexit
@@ -766,16 +765,16 @@ show hanako basic_bashful_close:
 with dissolvecharamove
 
 # "I give up on the prospect of having much of a conversation with my companion and decide to just enjoy the meal, small as it may be."
-"ฉันไม่คาดหวังต่อแล้วว่าจะได้คุยอะไรมากมายกับเพื่อนร่วมโต๊ะคนนี้แล้วกินข้าวไปสบาย ๆ แม้จะไม่ใช่มื้อหรูหราอะไรก็ตาม"
+"ฉันไม่คาดหวังต่อแล้วว่าจะได้คุยอะไรมากมายกับเพื่อนร่วมโต๊ะคนนี้แล้วกินข้าวไปสบาย ๆ แม้จะไม่ใช่มื้อหรูหราอะไร\nก็ตาม"
 
 # "It tastes nice, as does most of the food here. After having a few mouthfuls, I notice something's missing. Namely, the sound of Hanako eating."
-"ซึ่งก็อร่อยดี อาหารส่วนใหญ่ที่นี่ก็อร่อยเหมือนกัน หลังจากกินไปสองสามคำ ฉันก็รู้สึกว่ายังขาดอะไรบางอย่างไป\nนั่นคือเสียงฮานาโกะที่กำลังกิน"
+"ซึ่งก็อร่อยดี อาหารส่วนใหญ่ที่นี่ก็อร่อยเหมือนกัน พอกินไปสองสามคำก็รู้สึกว่ายังขาดอะไรบางอย่างไป หรือก็คือ\nฉันไม่ได้ยินเสียงฮานาโกะกินข้าวเลย"
 
 show hanako basic_distant_close
 with charachange
 
 # "Looking back to her, I see Hanako fidgeting a little behind her untouched sandwich."
-"พอมองกลับไปยังเธอ ก็เห็นฮานาโกะกำลังนั่งอยู่ไม่สุขข้างหลังแซนด์วิชที่เธอยังไม่ได้แตะ"
+"พอมองกลับไปก็เห็นฮานาโกะที่กำลังนั่งอยู่ไม่สุขเล็กน้อยอยู่หน้าแซนด์วิชที่เธอยังไม่ได้แตะ"
 
 # hi "Not hungry?"
 hi "ยังไม่หิวเหรอ"
@@ -784,22 +783,22 @@ show hanako cover_worry_close
 with charachange
 
 # "She shakes her head from side to side. Even as she does, the patch of hair she keeps over the right side of her face still does its job in hiding it almost entirely."
-"เธอส่ายหัวไปมา แต่ถึงเธอจะทำอย่างนั้น ผมที่ปรกใบหน้าส่วนขวาของเธอก็ยังคงทำหน้าที่ปกปิดแผลไว้ได้เกือบทั้งหมดอยู่ดี"
+"เธอส่ายหัวไปมา แต่ถึงเธอจะทำอย่างนั้น ผมที่ปรกใบหน้าส่วนขวาของเธอก็ยังคงทำหน้าที่ปกปิดแผลไว้ได้เกือบทั้งหมด\nอยู่ดี"
 
 # ha "I-it's not that."
-ha "ปะ-เปล่าหรอก"
+ha "ปะ เปล่าหรอก"
 
 # hi "Aw. I was all ready to have your share, too."
-hi "โห่ ฉันกะว่าจะกินส่วนของเธอสักหน่อย"
+hi "โห่ กะว่าจะกินของเธอสักหน่อย"
 
 show hanako basic_worry_close
 with charachange
 
 # ha "You looked… t-troubled. I-is something… w-wrong?"
-ha "นายดู… ละ-ลำบากใจนะ มะ-มีอะไรหรือปะ-เปล่า?"
+ha "นายดู… ละ ลำบากใจนะ มะ มีอะไร… หรือปะ เปล่า?"
 
 # "I'm startled by her thinking that I'm the one who looks troubled, but on second thought, she's probably right. My face may have given away my emotions without me noticing, and she's hardly a dim person; quite the opposite."
-"ฉันประหลาดใจที่เธอคิดว่าฉันนี่แหละที่ดูไม่สบายใจ แต่พอมาทบทวนดูแล้ว เธอก็น่าจะพูดถูก ใบหน้าฉันอาจจะเผย\nความรู้สึกออกมาโดยไม่รู้ตัวก็ได้ และเธอก็ไม่ใช่คนที่จะมองข้ามเรื่องพวกนี้เลย กลับกัน เธอเป็นคนช่างสังเกตด้วยซ้ำ"
+"ฉันประหลาดใจที่ฮานาโกะคิดว่าฉันนี่แหละที่ดูไม่สบายใจ แต่พอมาคิด ๆ ดูแล้ว เธอก็น่าจะพูดถูก ใบหน้าฉันอาจจะเผย\nความรู้สึกออกมาโดยไม่รู้ตัวก็ได้ และเธอก็ไม่ใช่คนที่จะมองข้ามเรื่องพวกนี้เลย กลับกัน เธอเป็นคนช่างสังเกต\nด้วยซ้ำ"
 
 # hi "We're friends, right?"
 hi "พวกเราเป็นเพื่อนกันนี่ ใช่ไหม"
@@ -820,10 +819,10 @@ show hanako basic_bashful_close
 with charachange
 
 # ha "I-I think th-that we are…"
-ha "กะ-ก็ คงงะ-งั้น นั่นแหละ…"
+ha "กะ ก็ คงงะ งั้น นั่นแหละ…"
 
 # "I'm a little taken off guard by Hanako's straightforward answer, all the more so since I was about to give up on getting any reply at all."
-"คำตอบตรง ๆ ของฮานาโกะทำให้ฉันตั้งตัวไม่ทันหน่อย ๆ ยิ่งไปกว่านั้นคือ ฉันเกือบจะถอดใจว่าจะไม่ได้คำตอบอะไรเลยด้วยซ้ำ"
+"คำตอบตรง ๆ ของฮานาโกะทำให้ฉันตั้งตัวไม่ทันหน่อย ๆ ยิ่งไปกว่านั้นคือ ฉันเกือบจะถอดใจว่าจะไม่ได้คำตอบอะไรเลย\nด้วยซ้ำ"
 
 # hi "I see…"
 hi "นั่นสินะ…"
@@ -832,13 +831,13 @@ show hanako basic_worry_close
 with charachange
 
 # ha "A-am I wrong? S-sorry, I-I…"
-ha "ฉะ-ฉันพูดอะไรผิดไปหรือเปล่า? ขะ-ขอโทษที พะ-พอดีฉัน…"
+ha "หระ หรือไม่ใช่ ขะ ขอโทษที พะ พอดีฉัน…"
 
 # hi "No, it's just… hearing confirmation of that from you is reassuring."
 hi "เปล่า ๆ ก็แค่… พอได้ยินเธอว่างั้นก็โล่งใจ"
 
 # hi "To pick up on what you said earlier: since coming to Yamaku, I've been a bit uneasy about how I should relate with others."
-hi "แล้วก็ ที่เธอถามก่อนหน้านี้ก็ ตั้งแต่ที่ฉันเข้ามาที่ยามากุ ก็ลำบากใจนิดหน่อยเรื่องจะเข้ากับคนอื่นยังไงน่ะ"
+hi "แล้วก็ ที่เธอถามว่าฉันลำบากใจอะไรหรือเปล่า คือตั้งแต่ที่ฉันเข้ามาที่ยามากุก็ลำบากใจนิดหน่อยเรื่องจะเข้ากับคนอื่น\nยังไงน่ะ"
 
 # "I find myself chuckling a little. It's surprising how much of a relief that was. I can feel my face smiling as I pick up my cup of hot chocolate and bring it to my lips."
 "ฉันอดหัวเราะเล็กน้อยไม่ได้ น่าแปลกที่การได้ยินเธอพูดแบบแบบนั้นทำให้โล่งใจมากแค่ไหน ฉันรู้สึกว่าใบหน้าของตัวเอง\nกำลังยิ้มขณะที่หยิบแก้วช็อกโกแลตร้อนขึ้นมาจิบ"
@@ -850,22 +849,22 @@ show hanako emb_downsmile_close
 with charachange
 
 # ha "Th-that's why…"
-ha "นะ-นั่นแหละว่าทำไม…"
+ha "นะ นั่นแหละ…"
 
 show hanako emb_smile_close
 with charachange
 
 # ha "That's why I haven't eaten yet. I-I was waiting… for my drink to cool down first."
-ha "ว่าทำไมฉันถึงยังไม่กิน พะ-เพราะฉันว่าจะรอ… ให้เครื่องดื่มเย็นลงก่อนน่ะ"
+ha "นั่นแหละฉันถึงยังไม่กิน พะ เพราะฉันว่าจะรอ… ให้เครื่องดื่มเย็นลงก่อนน่ะ"
 
 # hi "I guess I'll wait, then."
 hi "งั้นเดี๋ยวฉันก็รอด้วยละกัน"
 
 # "The both of us share a little chuckle. The situation isn't really that funny, but for some reason… it feels like laughing is the most natural thing to do right now."
-"เราสองคนหัวเราะออกมาพร้อมกันเบา ๆ จริง ๆ ก็ไม่ได้ตลกอะไรขนาดนั้นหรอก แต่ด้วยเหตุผลบางอย่าง… รู้สึกว่า\nการหัวเราะเป็นสิ่งที่ธรรมชาติที่สุดที่จะทำในตอนนี้"
+"เราสองคนหัวเราะออกมาพร้อมกันเบา ๆ จริง ๆ ก็ไม่ได้ตลกอะไรขนาดนั้นหรอก แต่ด้วยเหตุผลบางอย่าง… ฉันรู้สึกว่า\nการหัวเราะเป็นสิ่งที่ธรรมชาติที่สุดที่จะทำในตอนนี้"
 
 # "I guess we were both a bit wound up about each other. I was so busy thinking Hanako was the one with something wrong, it took her to remind me that I was uneasy as well."
-"ฉันเดาว่าเราทั้งคู่ต่างก็มีความกังวลต่อกันหน่อย ๆ ฉันมัวแต่ยุ่งอยู่กับการคิดว่าฮานาโกะเป็นคนที่มีบางอย่างผิดปกติ\nจนกระทั่งเธอเข้ามาเตือนฉันว่าตัวฉันเองก็รู้สึกไม่สบายใจเช่นกัน"
+"ฉันเดาว่าเราทั้งคู่ต่างก็มีความกังวลต่อกันหน่อย ๆ ฉันมัวแต่ยุ่งอยู่กับการคิดว่าฮานาโกะเป็นคนที่มีบางอย่างผิดปกติ\nจนกระทั่งเธอเข้ามาเตือนว่าตัวฉันเองก็รู้สึกไม่สบายใจเช่นกัน"
 
 # "But be that as it may… it still feels a little nice. A little nice to have someone thinking about me like that, in her own way."
 "แต่ถึงอย่างนั้นก็เถอะ… ก็ยังรู้สึกดีอยู่หน่อย ๆ รู้สึกดีที่มีใครสักคนคิดถึงฉันแบบนั้น ในแบบของเธอเอง"
@@ -880,43 +879,43 @@ with shorttimeskip
 "หลังจากที่เดินขึ้นเนินเขาอย่างเงียบ ๆ เป็นเวลานานและเข้ามาในบริเวณโรงเรียน เราสองคนก็มาถึงที่หอพักของเรา"
 
 # "Regular night patrols pass between the male and female dormitory buildings, both for security and to quickly raise the alarm for any medical issues that may arise. The guard currently on duty notices us and gives a quick nod as he continues on his way."
-"การตรวจการณ์ยามค่ำคืนตามปกติจะผ่านไปมาระหว่างอาคารหอชายและหอหญิง ทั้งเพื่อความปลอดภัยและเพื่อแจ้งเตือน\nอย่างรวดเร็วสำหรับปัญหาทางการแพทย์ใด ๆ ที่อาจเกิดขึ้น ยามที่กำลังปฏิบัติหน้าที่สังเกตเห็นพวกเราและพยักหน้าให้\nเล็กน้อย ขณะที่เขาเดินตรวจต่อ"
+"ยามตรวจการณ์กะกลางคืนจะเดินไปมาอยู่ตามหอชายกับหอหญิง ทั้งเพื่อความปลอดภัยและเผื่อว่าถ้ามีเรื่องฉุกเฉิน\nทางสุขภาพอะไรแล้วจะได้มีการแจ้งเตือนอย่างทันท่วงที ยามที่กำลังปฏิบัติหน้าที่สังเกตเห็นพวกเราและพยักหน้าให้\nเล็กน้อยก่อนจะเดินตรวจต่อ"
 
 show hanako emb_downtimid_ni at center
 with charaenter
 
 # "A loud yawn escapes from Hanako's mouth before she has a chance to cover it. I have little doubt she's fairly tired by now."
-"เสียงหาวดังออกมาจากปากของฮานาโกะก่อนที่เธอจะทันได้ปิดปาก เธอคงเหนื่อยพอตัวเลยละ"
+"เสียงหาวดังออกมาจากปากของฮานาโกะก่อนที่เธอจะทันได้ปิดปาก คงเหนื่อยพอตัวเลยละ"
 
 # hi "I'd better be off to my room, then. See you tomorrow, Hanako."
-hi "เดี๋ยวฉันกลับห้องละ เจอกันพรุ่งนี้ฮานาโกะ"
+hi "เดี๋ยวฉันกลับห้องละ เจอกันพรุ่งนี้นะฮานาโกะ"
 
 show hanako emb_smile_ni
 with charachange
 
 # ha "G-good night…"
-ha "ระ-ราตรีสวัสดิ์…"
+ha "ระ ราตรีสวัสดิ์…"
 
 hide hanako
 with charaexit
 
 # "We separate and begin to walk our separate ways, before I stop and look back."
-"พวกเราแยกย้ายเดินไปตามทางของตัวเอง ก่อนที่ฉันจะหยุดและหันกลับไป"
+"พวกเราแยกย้ายเดินไปตามทางของตัวเองก่อนที่ฉันจะหยุดและหันกลับไป"
 
 show hanako basic_smile_ni
 with charaenter
 
 # "Hanako stands there, waving to me as she smiles. I smile and wave back to her, and after a few seconds, she turns and walks up the stairs to her dormitory building, disappearing through the door."
-"ฮานาโกะยังคงยืนอยู่ เธอยิ้มและโบกมือให้ฉัน ฉันยิ้มและโบกมือกลับ และจากนั้นเธอก็หันกลับเดินขึ้นหอเธอและลับสายตา\nฉันไป"
+"ฮานาโกะยังคงยืนอยู่ เธอยิ้มและโบกมือให้ฉัน ฉันยิ้มและโบกมือกลับ และจากนั้นเธอก็หันกลับเดินขึ้นหอและลับจาก\nสายตาฉันไป"
 
 hide hanako
 with charaexit
 
 # "These little moments we share between us feel like a small treasure. One thing is sure; I want to protect that small, delicate smile she so fleetingly wears around so few people."
-"ช่วงเวลาเล็ก ๆ น้อย ๆ ที่เราได้ใช่ร่วมกันนี้ช่างรู้สึกล้ำค่าเหลือเกิน และสิ่งที่แน่นอนคือ ฉันต้องการปกป้องรอยยิ้มเล็ก ๆ\nที่บอบบางซึ่งเธอเผยให้เห็นอย่างแผ่วเบาให้เพียงไม่กี่คนนี้เอาไว้"
+"ช่วงเวลาเล็ก ๆ น้อย ๆ ที่เราได้ใช่ร่วมกันนี้ช่างรู้สึกล้ำค่าเหลือเกิน และสิ่งที่ฉันมั่นใจอย่างหนึ่งคือ ฉันต้องการปกป้อง\nรอยยิ้มเล็ก ๆ อันบอบบางซึ่งเธอเผยให้เห็นเพียงชั่วขณะให้เพียงไม่กี่คนนี้เอาไว้"
 
 # "I wonder about these feelings I have when Hanako's around, and when I'm able to do things for her… whether they may be the seed for something beyond what we share now."
-"ฉันละสงสัยเกี่ยวกับความรู้สึกนี้ที่ฉันมีเมื่อฮานาโกะอยู่ใกล้ ๆ และเมื่อฉันสามารถทำสิ่งต่าง ๆ ให้เธอได้… ว่าสิ่งเหล่านี้\nอาจเป็นบ่อเกิดสำหรับบางอย่างที่นอกเหนือไปจากสิ่งที่เราใช้เวลาร่วมกันอยู่ในตอนนี้หรือเปล่านะ"
+"ฉันละสงสัยจังว่าความรู้สึกนี้ที่ฉันมีเมื่อฮานาโกะอยู่ใกล้ ๆ และเมื่อฉันสามารถทำสิ่งต่าง ๆ ให้เธอได้นั้น… จะเป็น\nบ่อเกิดสำหรับบางอย่างที่นอกเหนือไปจากสิ่งที่เราเป็นอยู่ตอนนี้ได้หรือเปล่านะ"
 
 scene black
 with dissolve
