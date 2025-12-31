@@ -931,18 +931,18 @@ scene bg school_track
 with locationchange
 
 # "The summertime sun is something to be savored, but when combined with the clean country air, it's all the better."
-"แสงอาทิตย์ในฤดูร้อนเป็นสิ่งที่ดีอยู่แล้ว แต่เมื่อรวมเข้ากับอากาศบริสุทธิ์ของชนบทแล้ว ก็ยิ่งดีขึ้นไปอีก"
+"แสงอาทิตย์ในฤดูร้อนเป็นสิ่งที่ดีอยู่แล้ว แต่เมื่อรวมเข้ากับอากาศบริสุทธิ์ของชนบทแล้วก็ยิ่งดีขึ้นไปอีก"
 
 # "The track and field club members are horsing around on the field ahead; some are playing with a soccer ball, others are talking, and a few laugh as two of them mock-fight with each other."
-"สมาชิกชมรมกรีฑาก็กำลังลงเล่นในสนามข้างหน้า บางคนกำลังเล่นฟุตบอล บางคนกำลังคุยกัน และบางส่วนหัวเราะเมื่อมี\nสองคนทำท่าต่อสู้กันอย่างสนุกสนาน"
+"สมาชิกชมรมกรีฑากำลังลงเล่นในสนามที่อยู่ตรงหน้า บางคนกำลังเล่นฟุตบอล บางคนกำลังคุยกัน และบางส่วนหัวเราะ\nที่เห็นสองคนทำท่าต่อสู้กันอย่างสนุกสนาน"
 
 # "None of them pay me any heed as I sit alone on the grass, underneath the shade of a particularly large tree. It's a nice and peaceful moment after a dreary day of schoolwork."
-"ไม่มีใครสนใจที่ฉันนั่งอยู่คนเดียวบนสนามหญ้าใต้ร่มเงาของต้นไม้ที่ใหญ่เป็นพิเศษ เป็นช่วงเวลาที่ดีและเงียบสงบหลังจาก\nที่ต้องผ่านวันเรียนที่แสนน่าเบื่อ"
+"ไม่มีใครสนใจฉันที่นั่งหลบแดดอยู่คนเดียวบนสนามหญ้าใต้ต้นไม้ที่ใหญ่เป็นพิเศษ เป็นช่วงเวลาที่ดีและเงียบสงบหลังจาก\nที่ต้องผ่านวันเรียนที่แสนน่าเบื่อ"
 
 play ambient sfx_footsteps_soft fadein 4.0
 
 # "I played soccer pretty often before my heart attack, so I had thought it would be really nostalgic to watch them. What I'm feeling now, though, is quite distinct from that emotion."
-"ก่อนที่ฉันจะหัวใจวาย ฉันเคยเล่นฟุตบอลบ่อยมาก เลยคิดว่าการได้ดูพวกเขาเล่นคงจะคิดถึงอดีต แต่สิ่งที่ฉันรู้สึกตอนนี้กลับ\nไม่ใช่แบบนั้น"
+"ก่อนที่จะหัวใจวายฉันเคยเล่นฟุตบอลบ่อยมาก เลยคิดว่าการได้ดูพวกเขาเล่นคงจะทำให้คิดถึงอดีต แต่สิ่งที่ฉันรู้สึกตอนนี้\nกลับไม่ใช่แบบนั้น"
 
 stop ambient fadeout 0.3
 
@@ -952,7 +952,7 @@ show miki smile:
 with charaenter
 
 # "I hear footsteps approaching from behind me, and I turn to my side to see one of my classmates taking a seat beside me. I'm taken off guard, as the two of us haven't talked much before, and I didn't think anyone would notice me here."
-"ฉันได้ยินเสียงฝีเท้าเดินเข้ามาจากข้างหลัง ฉันหันไปก็เจอเพื่อนร่วมชั้นคนนึงกำลังนั่งลงข้าง ๆ ฉันตกใจนิดหน่อยเพราะว่า\nเราสองคนก็ไม่ได้คุยกันบ่อยนัก แถมก็ไม่คิดว่าจะมีใครสังเกตฉันเสียอีก"
+"ฉันได้ยินเสียงฝีเท้าเดินเข้ามาจากข้างหลัง พอหันไปก็เจอเพื่อนร่วมชั้นคนหนึ่งกำลังนั่งลงข้าง ๆ ฉันตกใจนิดหน่อยเพราะ\nเราสองคนก็ไม่ได้คุยกันบ่อยนัก แถมไม่คิดว่าจะมีใครสังเกตฉันเสียอีก"
 
 show miki grinclosed:
     center
@@ -978,10 +978,10 @@ show miki smile
 with charachange
 
 # "We both look back out to the field were the guys are playing. It looks like they're getting ready to have a second game, with people spreading out to their positions and the ball being carried to the center of the field."
-"เราทั้งคู่หันกลับไปยังสนามที่พวกนั้นกำลังเล่นกันอยู่ ดูเหมือนว่าพวกเขากำลังเตรียมตัวที่จะเริ่มเกมที่สอง โดยมีแต่ละคน\nกระจายตัวไปยังตำแหน่งของตน และมีการนำลูกบอลไปยังกลางสนาม"
+"เราทั้งคู่หันกลับไปยังสนามที่พวกนั้นกำลังเล่นกันอยู่ ดูเหมือนกำลังเตรียมตัวที่จะเริ่มเกมที่สองกัน โดยแต่ละคน\nกระจายตัวไปยังตำแหน่งของตัวเองแล้วนำลูกบอลไปกลางสนาม"
 
 # "Sure enough, the whistle is blown to begin the match and they get right back into it."
-"และแน่นอน เสียงนกหวีดถูกเป่าเพื่อเริ่มการแข่งขัน และพวกเขาก็กลับเข้าสู่เกมทันที"
+"และแน่นอน เมื่อมีเสียงนกหวีดถูกเป่าเริ่มการแข่งขันแล้วทุกคนก็กลับไปเล่นกันต่อทันที"
 
 # hi "Not going to play?"
 hi "ไม่ไปเล่นเหรอ"
@@ -999,7 +999,7 @@ with charachange
 mk "แล้วนายอะ ก่อนหน้านี้ที่นายมาดูเหมือนนายอยากเล่นเลย"
 
 # "So someone did notice me after all."
-"ก็มีคนสังเกตเห็นฉันจริง ๆ แหละนะ"
+"มีคนสังเกตเห็นฉันจริง ๆ สินะ"
 
 # hi "It's kind of a long story."
 hi "พอดีเรื่องมันยาวน่ะ"
@@ -1008,7 +1008,7 @@ show miki grin
 with charachange
 
 # "Her face says that I've piqued her interest."
-"สีหน้าเธอบ่งบอกว่าทำให้เธอสนใจเข้าแล้ว"
+"สีหน้ามิกิบ่งบอกว่าฉันทำให้สนใจเข้าแล้ว"
 
 # hi "I'm in Yamaku because I've got a heart condition. I can't really play soccer any more."
 hi "ฉันมาที่ยามากุเพราะว่าเป็นโรคหัวใจน่ะ ก็เลยเล่นฟุตบอลไม่ได้แล้ว"
@@ -1020,16 +1020,16 @@ with charachange
 mk "นายอยากเป็นนักฟุตบอลเหรอ"
 
 # hi "No, I only really did it for fun. My friends played it, so I played it as well."
-hi "เปล่า ก็แค่เล่นเอาสนุกเฉย ๆ น่ะ พอดีเพื่อนเล่นก็เลยเล่นตามน่ะ"
+hi "เปล่า ก็แค่เล่นเอาสนุกเฉย ๆ น่ะ พอดีเพื่อนเล่นก็เลยเล่นตาม"
 
 # hi "Any of those guys playing around could have been me before my accident. But I don't feel like I have any real wish to go back to that, either. It's a little hard to explain."
 hi "ถ้าไม่เกิดเรื่องกับฉันตอนนั้นฉันก็อาจจะลงไปเล่นเหมือนอย่างคนพวกนั้นก็ได้ แต่ก็ไม่ได้อยากกลับไปเมื่อตอนก่อนหน้านั้น\nเท่าไหร่ด้วยหรอก อธิบายไม่ถูกเท่าไหร่แฮะ"
 
 # "I'm still decently physically built from the days when I played, even if my strength's largely left me by now, and I got on well with the other club members."
-"ร่างกายฉันก็ยังรูปร่างที่ดีพอสมควรนับจากวันที่ยังเล่นฟุตบอล ถึงแม้พละกำลังจะไปหมดแล้วก็เถอะ และฉันก็เข้ากันได้ดีกับ\nสมาชิกชมรมคนอื่น ๆ ด้วย"
+"หุ่นฉันก็ยังพอใช้ได้เหมือนอย่างช่วงที่ยังเล่นอยู่ ถึงแม้พละกำลังส่วนมากจะไปหมดแล้วก็เถอะ และฉันก็เข้ากันได้ดีกับ\nสมาชิกชมรมคนอื่น ๆ ด้วย"
 
 # "When I think about it, I should feel pretty bad watching people play when I can't any more. Yet I don't. Maybe it's a good thing; a sign that I've gotten over it and that I'm ready to become a new person."
-"พอมาคิด ๆ ดูแล้ว จริง ๆ ฉันควรจะรู้สึกแย่ที่มาดูคนเล่นอะไรที่ฉันเล่นไม่ได้อีกแล้ว แต่ก็ไม่เป็นอย่างนั้น ซึ่งก็อาจจะเป็น\nเรื่องที่ดี เพราะนั่นแปลว่าฉันได้ก้าวข้ามผ่านอดีตตัวเองและพร้อมจะเป็นคนใหม่แล้ว"
+"พอมาคิด ๆ ดู จริง ๆ ฉันควรจะรู้สึกแย่ที่มาดูคนเล่นอะไรที่ฉันเล่นไม่ได้อีกแล้ว แต่ก็ไม่เป็นอย่างนั้น ซึ่งก็อาจจะเป็น\nเรื่องที่ดี เพราะแปลว่าฉันได้ก้าวข้ามผ่านอดีตตัวเองและพร้อมจะเป็นคนใหม่แล้ว"
 
 # hi "Sorry, I'm kinda rambling."
 hi "โทษที พูดไปเรื่อยเลย"
@@ -1044,16 +1044,16 @@ show miki smile
 with charachange
 
 # mk "It sounds like you really have your stuff together. Some of the people that come to Yamaku are pretty messed up at first."
-mk "ฟังดูเหมือนพวกนายได้ผ่านอะไรมาด้วยกันเลย บางคนที่เข้ามายามากุแรก ๆ ก็เริ่มได้ไม่ค่อยดีเท่าไหร่"
+mk "นายก็ดูท่าจะเป็นเรื่องเป็นราวเหมือนกันนี่ บางคนตอนที่ย้ายมายามากุใหม่ ๆ ก็วุ่นวายน่าดูเลยละ"
 
 # hi "So you're a member of the track and field club, then?"
-hi "งั้นเธอก็เป็นสมาชมรมกรีฑาละสิเนี่ย"
+hi "งั้นเธอก็เป็นสมาชิกชมรมกรีฑาละสิเนี่ย"
 
 show miki grin
 with charachange
 
 # mk "Yup. Been in it since I first arrived."
-mk "อื้ม ก็สมัครเข้าเลยตั้งแต่เข้ามาเรียนน่ะ"
+mk "อื้ม ตั้งแต่เข้ามาเรียนก็สมัครเลย"
 
 # hi "Don't suppose you're friends with Emi? Short, fast runner, no legs? I don't think there are all that many female track and field members."
 hi "งั้นก็แปลว่าเป็นเพื่อนกับเอมิละสิเนี่ย คนที่ตัวเตี้ย ๆ วิ่งเร็ว ๆ ที่ไม่มีขาน่ะ ฉันว่าสมาชิกชมรมกรีฑาไม่น่ามีผู้หญิงเยอะ\nเท่าไหร่"
@@ -1062,13 +1062,13 @@ show miki grinclosed
 with charachange
 
 # mk "Haha, Emi. Everyone knows about her, don't they."
-mk "ฮ่าฮ่า เอมิน่ะเหรอ ทุกคนก็รู้จักเธอหมดนั่นแหละ"
+mk "ฮ่าฮ่า เอมิน่ะเหรอ ทุกคนก็รู้จักหมดนั่นแหละ"
 
 show miki smile
 with charachange
 
 # mk "But nah, I tend to get on better with guys, so me and Emi don't really talk much. Anyway, what about you?"
-mk "แต่ไม่อะ พอดีว่าสนิทกับพวกผู้ชายมากกว่าน่ะ เพราะงั้นแล้วฉันกับเอมิเลยไม่ค่อยได้คุยกันน่ะ เอาเหอะ แล้วนายล่ะ"
+mk "แต่ไม่อะ พอดีว่าฉันสนิทกับพวกผู้ชายมากกว่าเลยไม่ค่อยได้ไปคุยกับเอมิเท่าไหร่ เอาเหอะ แล้วนายล่ะ"
 
 # hi "Ah, well, I'm not really in any clubs. Real clubs, anyway."
 hi "อ่า ก็ ตอนนี้ก็ไม่ได้อยู่ในชมรมไหนหรอก แบบที่เป็นชมรมจริง ๆ อะนะ"
@@ -1080,7 +1080,7 @@ with charachange
 mk "เห็นช่วงนี้นายอยู่กับฮานาโกะกับแม่สาวฝรั่งผมบลอนด์บ่อย ๆ เลยนี่"
 
 # "Blonde Amazon… I suppose Lilly has the height to fit that description, if nothing else. I nod in response, without making too fine a point of things."
-"แม่สาวฝรั่งผมบลอนด์… ก็นะ ลิลลี่ก็คงตัวสูงพอที่จะเรียกแบบนั้นได้อยู่หรอก ถ้าไม่นับเรื่องอื่น ๆ ฉันพยักหน้าตอบรับ\nโดยไม่ได้ลงรายละเอียดอีก"
+"แม่สาวฝรั่งผมบลอนด์… ก็นะ ลิลลี่ก็คงตัวสูงพอที่จะเรียกแบบนั้นได้อยู่หรอก ฉันพยักหน้าตอบรับโดยไม่ได้ลง\nรายละเอียดอะไรอีก"
 
 show miki grinclosed
 with charachange
@@ -1089,7 +1089,7 @@ with charachange
 mk "งั้นก็ไม่ต้องห่วงไปหรอก อย่างน้อยนายก็มีเพื่อนแล้วนี่ ไม่ต้องเข้าชมรมก็ได้"
 
 # "A loud whistling from the field attracts our attention. One of the players is on the ground, clutching his leg, and the others stop play to jog up to him, leaving Miki grimacing."
-"เสียงนกหวีดดังลั่นจากสนามดึงความสนใจของเรา ผู้เล่นคนหนึ่งล้มลงกับพื้น กุมขาตัวเองไว้ และคนอื่น ๆ ก็หยุดเล่น\nเพื่อวิ่งไปหาเขา ทำให้มิกิขมวดคิ้วไปด้วย"
+"เสียงนกหวีดดังลั่นจากสนามดึงความสนใจของเรา ผู้เล่นคนหนึ่งล้มลงกับพื้นกุมขาตัวเองไว้ และคนอื่น ๆ ก็หยุดเล่น\nเพื่อวิ่งไปหาเขา ทำให้มิกิขมวดคิ้วไปด้วย"
 
 show miki serious
 with charachange
@@ -1098,13 +1098,13 @@ with charachange
 mk "หูย คงเจ็บน่าดู หมอนั่นดวงซวยจริง ๆ"
 
 # "As she continues to look out onto the field, I can't help being reminded of her own injuries. Her left arm, ending in a stump rather than a hand, has been bandaged up for the entire time I've been in Yamaku, and her injury doesn't seem that new."
-"ขณะที่เธอยังคงมองออกไปยังสนาม ฉันก็อดไม่ได้ที่จะนึกถึงอาการบาดเจ็บของเธอ แขนซ้ายของเธอซึ่งลงท้ายด้วยตอแขน\nแทนที่จะเป็นมือ ถูกพันผ้าพันแผลมาตลอดช่วงเวลาที่ฉันอยู่ที่ยามากุ และของเธอดูเหมือนจะไม่ใช่แผลใหม่เลย"
+"ขณะที่มิกิยังคงมองออกไปยังสนามฉันก็อดไม่ได้ที่จะนึกถึงอาการบาดเจ็บของเธอ แขนซ้ายที่ส่วนปลายเป็นตอ\nแทนที่จะเป็นมือถูกพันด้วยผ้าพันแผลมาตลอดช่วงเวลาที่ฉันอยู่ที่ยามากุทั้งที่ดูเหมือนจะไม่ใช่แผลใหม่เลย"
 
 # "She turns to talk to me again and catches me looking. Both of us sit in awkward silence as she takes her bandaged arm and holds it in her lap with other remaining hand."
-"เธอหันกลับมาพูดคุยกับฉันอีกครั้งและจับได้ว่าฉันกำลังมองอยู่ เราทั้งคู่นั่งอยู่ในความเงียบที่อึดอัดขณะที่เธอใช้มืออีกข้างที่\nเหลืออยู่จับแขนที่พันผ้าพันแผลไว้บนตัก"
+"มิกิหันกลับมาคุยและเห็นว่าฉันกำลังมองอยู่ เราทั้งคู่นั่งอยู่ในความเงียบที่ชวนให้อึดอัดขณะที่มิกิใช้มืออีกข้างที่\nเหลืออยู่จับแขนที่พันผ้าพันแผลไว้บนตัก"
 
 # hi "S-sorry. I guess I'm still a bit…"
-hi "ทะ-โทษที พอดีว่าฉันยัง…"
+hi "ทะ โทษที พอดีว่าฉันยัง…"
 
 show miki smile
 with charachange
@@ -1113,13 +1113,13 @@ with charachange
 mk "ไม่เป็นไรหรอกน่า"
 
 # "Her tone is light, but neither of us says anything afterwards. Every disabled student here has their own way of dealing with their problems, and some finding their conditions troublesome is only natural. I'm included among them, after all."
-"น้ำเสียงของเธอออกสบาย ๆ แต่ไม่มีใครพูดอะไรหลังจากนั้น นักเรียนที่มีความพิการทุกคนที่นี่ต่างก็มีวิธีรับมือกับปัญหาของ\nตัวเอง และการที่บางคนรู้สึกว่าอาการของตนเองเป็นปัญหาก็เป็นเรื่องปกติ ฉันเองก็เป็นหนึ่งในนั้นเช่นกัน"
+"น้ำเสียงของเธอออกสบาย ๆ แต่ไม่มีใครพูดอะไรหลังจากนั้น นักเรียนที่มีความพิการทุกคนที่นี่ต่างก็มีวิธีรับมือกับ\nปัญหาของตัวเอง และการที่บางคนรู้สึกว่าอาการของตนเองเป็นปัญหาก็เป็นเรื่องปกติ ฉันเองก็เป็นหนึ่งในนั้นเช่นกัน"
 
 # "The injured guy from the soccer game manages to get onto his feet with some help, and ends up hobbling off the field with one arm over the shoulder of another for support. Probably just pulled a muscle if he can still manage to walk."
-"คนที่บาดเจ็บจากเกมฟุตบอลสามารถลุกขึ้นยืนได้ด้วยความช่วยเหลือเล็กน้อย และสุดท้ายก็เดินกะเผลกออกจากสนาม\nโดยมีแขนข้างหนึ่งพาดอยู่บนไหล่ของเพื่อนอีกคนเพื่อช่วยประคอง ถ้าเขายังพอเดินได้ ก็น่าจะแค่กล้ามเนื้อฉีก"
+"คนที่บาดเจ็บจากการเล่นฟุตบอลเมื่อครู่ลุกขึ้นยืนได้ด้วยความช่วยเหลือเล็กน้อย และสุดท้ายก็เดินกะเผลกออกจาก\nสนามโดยมีแขนข้างหนึ่งพาดอยู่บนไหล่ของเพื่อนอีกคนเพื่อช่วยประคอง ถ้ายังพอเดินได้ก็น่าจะแค่กล้ามเนื้อฉีก"
 
 # "The whistle blows again, and the game continues once more with one less man on the field."
-"เสียงนกหวีดดังขึ้นอีกครั้ง และเกมก็ดำเนินต่อไปโดยมีผู้เล่นลดลงไปหนึ่งคน"
+"เสียงนกหวีดดังขึ้นอีกครั้ง และเกมก็ดำเนินต่อไปโดยที่ผู้เล่นหายไปหนึ่งคน"
 
 show miki whistle
 with charachange
@@ -1128,25 +1128,25 @@ with charachange
 mk "ไปอยู่ด้วยกันกับฮานาโกะกับแม่สาวผมบลอนด์… นายนี่ก็แปลกดีเหมือนกันนะ"
 
 # hi "How so?"
-hi "ยังไง?"
+hi "ยังไง"
 
 show miki serious
 with charachange
 
 # mk "It's just that Hanako's kind of… I don't know."
-mk "ก็แค่ฮานาโกะค่อนข้าง… ไม่รู้สิ"
+mk "คือแบบฮานาโกะเขา… ไม่รู้สิ"
 
 # hi "Shy?"
 hi "ขี้อาย?"
 
 # mk "No, it's not really that. It's just… she's got some issues, I think. I can't really put it in a nice way."
-mk "เปล่า ไม่ใช่อย่างนั้นหรอก ก็แค่… เธอมีปัญหานิดหน่อย คิดว่านะ ฉันก็ไม่รู้ว่าจะพูดยังไงให้ดูดีได้เหมือนกัน"
+mk "เปล่า ไม่ใช่อย่างนั้นหรอก ก็แค่… มีปัญหานิดหน่อย คิดว่านะ ฉันก็ไม่รู้ว่าจะพูดยังไงให้ดูดีได้เหมือนกัน"
 
 show miki wink
 with charachange
 
 # mk "Not that I don't think she's a nice person, though. She's perfectly nice."
-mk "ไม่ใช่ว่าฉันว่าเธอเป็นคนไม่ดีนะ เธอน่ะเป็นคนดีเลยล่ะ"
+mk "ไม่ใช่ว่าฉันว่าเธอเป็นคนไม่ดีนะ ฮานาโกะน่ะเป็นคนดีเลยล่ะ"
 
 show miki serious
 with charachange
@@ -1155,36 +1155,36 @@ with charachange
 mk "ก็แค่… คุยด้วยยากน่ะ"
 
 # "It sounds like Miki, or at least some other people in the class, have tried to get closer to Hanako in the past. And that it didn't go well."
-"ฟังดูแล้วท่าทางมิกิ หรือไม่ก็ใครสักคนในชั้นเรียน คงพยายามที่จะเข้าหาฮานาโกะมาก่อน แต่ผลก็คงไม่ดีเท่าไหร่"
+"ฟังดูแล้วท่าทางมิกิหรือไม่ก็ใครสักคนในชั้นเรียนเคยพยายามเข้าหาฮานาโกะมาก่อนแล้วได้ผลที่ไม่ดีเท่าไหร่"
 
 # "I think her judgment is rather harsh, given that everyone, not just those in Yamaku, have their own issues. Then again, I haven't known Hanako for that long, so it wouldn't surprise me if there was some stuff I didn't know about."
-"ฉันว่าเธอตัดสินแรงไปหน่อย เมื่อมองถึงเรื่องที่ว่าทุกคน ไม่ใช่แค่คนในยามากุ ต่างก็มีปัญหาของตัวเองทั้งนั้น\nแต่ถึงอย่างนั้นฉันเองก็ไม่ได้รู้จักฮานาโกะมานานขนาดนั้น ก็คงไม่แปลกถ้าจะมีบางเรื่องที่ฉันไม่รู้เกี่ยวกับเธอ"
+"ฉันว่ามิกิพูดแรงไปหน่อย ก็ในเมื่อทุกคน—ไม่ใช่แค่คนในยามากุ—ต่างก็มีปัญหาของตัวเอง แต่ฉันเองก็ไม่ได้รู้จัก\nฮานาโกะมานานขนาดนั้น ก็คงไม่แปลกถ้าจะมีเรื่องของฮานาโกะบางอย่างที่ฉันไม่รู้"
 
 # hi "I'll just take it as it comes. She's a nice person, and I think that should be all that matters."
-hi "ฉันก็แค่ปล่อยให้เป็นอย่างที่ควรเป็นน่ะ เธอเป็นคนดีแค่นี้ก็พอแล้วล่ะ"
+hi "เป็นไงก็เป็นงั้นแหละ ขอแค่ฮานาโกะเป็นคนดีแค่นี้ก็คงพอแล้วล่ะ"
 
 # "Miki's eyes narrow a little, and her smile spreads."
-"มิกิหรี่ตาลงเล็กน้อย ก่อนจะยิ้มออกมา"
+"มิกิหรี่ตาลงเล็กน้อยก่อนจะหยัดยิ้ม"
 
 show miki grin
 with charachange
 
 # mk "You really like her, don't you?"
-mk "นายชอบเธอเข้าให้แล้วล่ะสิเนี่ย"
+mk "ชอบฮานาโกะเข้าให้แล้วสิเนี่ย"
 
 label th_choiceH12:
 menu:
     with menueffect
 
     # "Miki certainly doesn't mince words."
-    "มิกิพูดกันแบบไม่อ้อมค้อมเลยแฮะ"
+    "เป็นคนที่พูดกันแบบไม่อ้อมค้อมเลยแฮะ"
 
     # "Admit it.":
-    "ยอมรับไป":
+    "ยอมรับ":
         return m1
 
     # "Deny it.":
-    "ปฎิเสธไป":
+    "ปฎิเสธ":
         return m2
 
 # Tell Miki
@@ -1203,43 +1203,43 @@ show miki grinclosed
 with charachange
 
 # mk "To be honest, I think it's kind of cute. If you want to go for it, don't let me stop you."
-mk "ว่ากันตามตรง ฉันว่าก็น่ารักดีออก ถ้านายจะจีบก็เอาเลยอย่าได้เกรงใจ"
+mk "ใจจริงเลยนะ ฉันว่าก็น่ารักดีออก ถ้าจะจีบก็เอาเลยอย่าได้เกรงใจ"
 
 # hi "Thanks."
 hi "ขอบใจ"
 
 # "She may say that, but she was just talking about Hanako having “issues.” Still, I want to hold myself to the words I said. Hanako's problems don't matter; I'll deal with anything that comes up, because I want to help her."
-"ถึงเธอจะพูดแบบนั้นก็เถอะ แต่เมื่อกี้เธอก็ยังพูดเองเลยว่าฮานาโกะ “มีปัญหา” แต่ก็นะ ฉันยังยืนยันคำเดิมว่าปัญหาของ\nฮานาโกะน่ะไม่สำคัญหรอก ไม่ว่าจะเกิดอะไรขึ้นก็ตามฉันจะรับมือเอง เพราะฉันอยากจะช่วยเธอ"
+"ถึงจะพูดแบบนั้นก็เถอะ แต่เมื่อกี้ก็ยังพูดเองเลยว่าฮานาโกะมี “ปัญหา” แต่ก็นะ ฉันยังยืนยันคำเดิมว่าปัญหาของ\nฮานาโกะน่ะไม่สำคัญหรอก ไม่ว่าจะเกิดอะไรขึ้นฉันจะรับมือเอง เพราะฉันอยากช่วยฮานาโกะ"
 
 # "If there's even the smallest possibility that I can pull Hanako out of her depression and seclusion, then I should work towards that, no matter what. If she needs a prince, then I will be that prince."
-"ถ้ามีโอกาสแค่เพียงน้อยนิดที่จะช่วยดึงฮานาโกะออกมาจากการซึมเศร้าและเก็บตัวได้ ฉันก็จะทำโดยไม่สนใจอะไรทั้งนั้น\nถ้าเธอต้องการเจ้าชายสักคนละก็ ฉันก็จะเป็นเจ้าชายคนนั้นให้เอง"
+"ถ้ามีโอกาสแค่เพียงน้อยนิดที่จะช่วยดึงฮานาโกะออกมาจากอาการซึมเศร้าและเก็บตัวได้ ฉันก็จะทำโดยไม่สนใจอะไร\nทั้งนั้นถ้าเธอต้องการเจ้าชายสักคนละก็ ฉันก็จะเป็นเจ้าชายคนนั้นให้เอง"
 
 # "As I think about the possibility of a relationship, I can see Miki grinning at me while watching my face. I'm no doubt blushing, and looking away from her only makes her laugh."
-"พอนึกถึงความเป็นไปได้ของความสัมพันธ์นั้นแล้ว ฉันก็เห็นมิกิกำลังมองหน้าฉันและยิ้มกว้างออกมา ฉันคงหน้าแดงอยู่อย่าง\nไม่ต้องสงสัย และยิ่งหลบหน้าเธอยิ่งทำให้เธอหัวเราะออกมา"
+"ระหว่างที่กำลังนึกถึงความเป็นไปได้ของความสัมพันธ์นั้นก็เห็นมิกิที่กำลังมองหน้าฉันและยิ้มกว้างออกมา ฉันคง\nหน้าแดงอยู่อย่างไม่ต้องสงสัย และยิ่งฉันหลบหน้าก็ยิ่งทำให้เธอหัวเราะออกมา"
 
 # Deny it
 label th_H12b:
 
 # hi "I don't think so. We're just friends."
-hi "คิดว่าไม่หรอก พวกเราก็แค่เพื่อนกันน่ะ"
+hi "คิดว่าไม่หรอก ก็แค่เพื่อนกันน่ะ"
 
 show miki serious
 with charachange
 
 # mk "Aw. I thought I'd discovered something nice for a moment there. I understand; girls and guys don't need to be boyfriends and girlfriends, after all."
-mk "โห่ ฉันนึกว่าได้เจออะไรดี ๆ แล้วเสียอีก ฉันเข้าใจ ผู้หญิงกับผู้ชายไม่จำเป็นต้องเป็นแฟนกันเสมอไปนี่นา"
+mk "โห่ ฉันนึกว่าได้เจออะไรดี ๆ แล้วเสียอีก แต่เข้าใจนะ ผู้หญิงกับผู้ชายไม่จำเป็นต้องเป็นแฟนกันเสมอไปนี่นา"
 
 # "What she says is true, even if I do have feelings for Hanako. Right now we are good friends, and I don't want to mess that up, but I also want to be more than that for her. It's hard."
-"ที่เธอพูดก็ถูก และต่อให้ฉันจะรู้สึกแบบนั้นจริง ๆ กับฮานาโกะ ยังไงตอนนี้พวกเราก็เป็นเพื่อนที่ดีต่อกันอยู่\nและฉันก็ไม่อยากจะทำมันพังลงด้วย แต่อีกใจนึงก็อยากเป็นมากกว่านั้นให้กับเธอ ยากจังแฮะ"
+"ที่เธอพูดก็ถูก และต่อให้ฉันจะรู้สึกแบบนั้นจริง ๆ กับฮานาโกะ ยังไงตอนนี้พวกเราก็เป็นเพื่อนที่ดีต่อกันอยู่ และฉัน\nก็ไม่อยากจะทำมันพังลงด้วย แต่อีกใจหนึ่งก็อยากเป็นมากกว่านั้นสำหรับเธอ ยากจังแฮะ"
 
 # End splits
 label th_H12c:
 
 # "Miki gives off a different vibe from the other girls. Talking to her feels more like talking to a guy than a woman. Her saying she prefers male company doesn't help to dispel that notion, either."
-"มิกินี่ต่างจากผู้หญิงคนอื่น ๆ เลยแฮะ การคุยกับเธอเหมือนได้คุยกับผู้ชายมากกว่าผู้หญิงเสียอีก ซึ่งต่อให้เธอจะบอกว่า\nสนิทกับพวกผู้ชายมากกว่าก็ยังอดคิดแบบนี้ไม่ได้อยู่ดี"
+"มิกินี่ต่างจากผู้หญิงคนอื่น ๆ เลยแฮะ พอคุยแล้วเหมือนได้คุยกับผู้ชายมากกว่าผู้หญิงเสียอีก แล้วยิ่งเจ้าตัวบอกว่าชอบ\nอยู่กับเพื่อนผู้ชายมากกว่าก็ยิ่งทำให้รู้สึกอย่างนั้นมากขึ้นด้วย"
 
 # "Glancing at my watch shows that lunch break is ending in only a few minutes. Time to start heading back to class."
-"พอเหลือบมองนาฬิกาข้อมือก็เห็นว่าอีกไม่กี่นาทีก็จะหมดพักเที่ยงแล้ว คงได้เวลากลับไปห้องเรียนแล้วละ"
+"พอเหลือบมองนาฬิกาข้อมือก็เห็นว่าอีกไม่กี่นาทีจะหมดพักเที่ยงแล้ว คงได้เวลากลับไปห้องเรียนแล้วละ"
 
 # hi "Lunch is about to end. Want to head back?"
 hi "จะหมดพักเที่ยงละ กลับกันเลยดีไหม"
@@ -1254,10 +1254,10 @@ show miki smile at center
 with charamove
 
 # "I pick myself up off the grass and dust myself off, offering a hand to Miki to help her up as well. She takes it and easily pulls herself up, showing the muscles moving in her toned bare arms in the process."
-"ฉันลุกขึ้นและปัดฝุ่นและหญ้าออก พร้อมยื่นมือให้มิกิเพื่อช่วยเธอลุกด้วย เธอยื่นมือมารับและดึงตัวเองขึ้นได้อย่างง่ายดาย\nซึ่งเผยให้เห็นมัดกล้ามเนื้อที่กำลังขยับบนแขนเปลือยที่ได้รูปของเธอในระหว่างลุก"
+"ฉันลุกขึ้นและปัดฝุ่นและหญ้าออกพร้อมยื่นมือให้มิกิเพื่อช่วยเธอลุกด้วย มิกิยื่นมือมารับและดึงตัวเองขึ้นได้อย่างง่ายดาย\nซึ่งเผยให้เห็นมัดกล้ามเนื้อที่กำลังขยับบนแขนเปลือยได้รูปของเธอในระหว่างลุก"
 
 # hi "Come to think of it, why aren't you wearing the normal girls' blouse?"
-hi "พอมานึกดูแล้ว ทำไมเธอถึงไม่ใส่เสื้อนักเรียนหญิงแบบปกติล่ะ"
+hi "จะว่าไป ทำไมเธอถึงไม่ใส่เสื้อนักเรียนหญิงแบบปกติล่ะ"
 
 show miki whistle
 with charachange
@@ -1266,7 +1266,7 @@ with charachange
 mk "อ่า มันร้อนแล้วก็อึดอัดเกินอะ เสื้อนักเรียนชายดีกว่าเยอะ"
 
 # "She throws her arms around a bit to emphasize her point, which has the side effect of showing off one particular part of her body that would be especially constricted by the blouse."
-"เธอเหวี่ยงแขนไปมาเล็กน้อยเพื่อย้ำคำพูด ซึ่งทำให้เห็นส่วนหนึ่งของร่างกายของเธอที่เสื้อจะรัดเป็นพิเศษ"
+"เธอเหวี่ยงแขนไปมาเล็กน้อยเพื่อย้ำคำพูด ซึ่งทำให้เห็นส่วนหนึ่งของร่างกายที่ถ้าเป็นเสื้อนักเรียนหญิงแล้วจะปิดมิดชิด"
 
 scene bg school_gardens
 with locationchange
@@ -1278,7 +1278,7 @@ show miki smile at center
 with charaenter
 
 # mk "It sounds like you're settling in well. That's a relief. It was pretty surprising to get a transfer student at this point in the year, considering the exams are coming up."
-mk "ดูท่านายก็ปรับตัวได้ดีนะ โล่งไปที ก็น่าแปลกอยู่แหละที่มีนักเรียนใหม่ย้ายมาช่วงนี้ ยิ่งช่วงใกล้สอบด้วย"
+mk "ดูท่านายก็ปรับตัวได้ดีนะ โล่งไปที แปลกใจอยู่เหมือนกันนะที่มีนักเรียนใหม่ย้ายมาช่วงนี้ ยิ่งช่วงใกล้สอบด้วย"
 
 # hi "Don't remind me…"
 hi "อย่าย้ำสิ…"
@@ -1287,7 +1287,7 @@ show miki grinclosed
 with charachange
 
 # mk "Haha, don't worry about them. Just cram it and you'll be fine."
-mk "ฮ่าฮ่า อย่ากังวลไปเลย แค่อ่านแบบอัด ๆ เข้าไปก็น่าจะพอแล้วล่ะ"
+mk "ฮ่าฮ่า อย่ากังวลไปเลย อ่านคืนก่อนสอบเอาก็รอดแล้ว"
 
 # hi "That doesn't sound like good advice."
 hi "ฟังดูไม่ใช่คำแนะนำที่ดีเท่าไหร่นะ"
@@ -1296,37 +1296,37 @@ show miki grin
 with charachange
 
 # "She claps my shoulder a couple of times as she grins. I don't think she takes school very seriously."
-"เธอยิ้มพร้อมตบบ่าฉันสองสามที ฉันว่าเธอคงไม่ได้สนใจเรียนสักเท่าไหร่"
+"มิกิยิ้มพร้อมตบบ่าฉันสองสามที คงไม่ได้สนใจเรื่องเรียนสักเท่าไหร่ละมั้ง"
 
 show miki wink
 with charachange
 
 # mk "You seem like a smart guy, and Mutou's taken to you well already. You're like a hand in a glove."
-mk "นายก็ดูท่าจะเก่งนี่ แถมครูมุโต้เข้ากับนายได้ดีด้วยนี่ เป็นคู่หูที่เหมาะสมเลยเชียว"
+mk "นายก็ดูท่าจะเก่งนี่ แถมครูมุโต้เข้ากับนายได้ดีด้วย เป็นคู่หูที่เหมาะสมเลยเชียว"
 
 # hi "Now to work out whether that's a good thing or a bad thing."
-hi "ไม่รู้เหมือนกันนะว่านั่นเป็นเรื่องดีหรือเปล่า"
+hi "ไม่รู้เหมือนกันนะว่าเป็นเรื่องดีหรือเปล่า"
 
 # hi "I still don't know what to make of this school. I've been here a few weeks already, but I still feel dazed at times."
-hi "ฉันยังไม่รู้ว่าจะทำตัวยังไงในโรงเรียนนี้ดี ฉันมาอยู่ที่นี่ได้สองสามสัปดาห์แล้วแต่บางทีฉันก็ยังรู้สึกงง ๆ อยู่เลย"
+hi "ฉันยังไม่รู้ว่าจะทำตัวยังไงในโรงเรียนนี้ดี มาอยู่ที่นี่ได้สองสามสัปดาห์แล้วแต่บางทีก็ยังรู้สึกงง ๆ อยู่เลย"
 
 show miki smile
 with charachange
 
 # mk "You'll get used to it, just give it some time. It's only a high school, just like any other."
-mk "เดี๋ยวนายก็ชินน่า อาจจะใช้เวลาสักหน่อย ที่นี่ก็แค่โรงเรียนมัธยมปลายเหมือน ๆ ที่อื่นนั่นแหละ"
+mk "เดี๋ยวก็ชินน่า อาจจะใช้เวลาสักหน่อย ที่นี่ก็แค่โรงเรียนมัธยมปลายเหมือน ๆ ที่อื่นนั่นแหละ"
 
 # "She makes it sound so simple, but I've never thought about it that way. To me, Yamaku symbolized a marked shift in my life. I was no longer normal; I was “different,” and was to be educated with other “different” people."
-"เธอพูดฟังดูง่าย แต่ฉันไม่คิดแบบนั้นเลย สำหรับฉัน ยามากุเป็นสัญลักษณ์ของการเปลี่ยนแปลงครั้งใหญ่ในชีวิต\nฉันไม่ใช่คนปกติอีกต่อไปแล้ว ฉันเป็นคนที่ “แตกต่าง” และจะต้องร่วมเรียนกับคนที่ “แตกต่าง” คนอื่น ๆ "
+"มิกิพูดฟังดูง่าย แต่ฉันไม่คิดแบบนั้นเลย สำหรับฉัน ยามากุเป็นสัญลักษณ์ของการเปลี่ยนแปลงครั้งใหญ่ในชีวิต\nฉันไม่ใช่คนปกติอีกต่อไปแล้ว ฉันเป็นคนที่ “แตกต่าง” และจะต้องเรียนร่วมกับคนที่ “แตกต่าง” คนอื่น ๆ "
 
 # "And yet, I'm walking back to class and talking casually with a classmate during lunch, after watching some others play a soccer game - all perfectly normal. Maybe she has a point."
-"แต่ถึงอย่างนั้นก็เถอะ ฉันเองก็กำลังเดินกลับห้องเรียนพร้อมกับคุยกับเพื่อนร่วมชั้นตอนพักเที่ยงหลังจากได้ดูคนอื่นเล่นบอล\nอยู่ ซึ่งทุกอย่างก็ปกติดี บางทีเธอคงพูดถูก"
+"แต่ถึงอย่างนั้นก็เถอะ ฉันเองก็กำลังเดินกลับห้องเรียนพร้อมกับคุยกับเพื่อนร่วมชั้นตอนพักเที่ยงหลังจากที่ได้ดูคนอื่น\nเตะบอล ทุกอย่างก็ปกติดี มิกิคงจะพูดถูกแล้วละมั้ง"
 
 # "Maybe I should just look at Hanako in the same way. Everyone has their own issues; this is hardly something unique to Yamaku. After all, it's only a high school, just like any other."
-"บางทีฉันคงควรจะต้องมองฮานาโกะแบบนี้เหมือนกัน ทุก ๆ คนล้วนมีปัญหาของตัวเองทั้งนั้น ไม่ใช่เรื่องที่จะเจอได้\nเฉพาะในยามากุเลย สุดท้ายแล้ว ที่นี่ก็เป็นแค่โรงเรียนมัธยมปลาย เหมือนกับที่อื่น ๆ นั่นแหละ"
+"ฉันคงควรจะต้องมองฮานาโกะแบบนี้เหมือนกัน ทุก ๆ คนล้วนมีปัญหาของตัวเองทั้งนั้น ไม่ใช่เรื่องที่จะเจอได้\nเฉพาะในยามากุเลย สุดท้ายแล้ว ที่นี่ก็เป็นแค่โรงเรียนมัธยมปลาย เหมือนกับที่อื่น ๆ นั่นแหละ"
 
 # "As we continue to talk, I find myself smiling. Miki and I are very different people in almost every way, but it feels good to have gotten to know another classmate a bit better."
-"ขณะที่เราคุยกันต่อไป ฉันก็ยิ้มออกมา มิกิกับฉันเป็นคนที่แตกต่างกันมากในแทบทุก ๆ ด้าน แต่การได้ทำความรู้จัก\nเพื่อนร่วมชั้นอีกคนหนึ่งให้ดีขึ้นสักนิด ก็ทำให้รู้สึกดีอยู่หน่อย ๆ "
+"ขณะที่คุยกันไปฉันก็ยิ้มออกมา มิกิกับฉันเป็นคนที่แตกต่างกันมากในแทบทุก ๆ ด้าน แต่การได้ทำความรู้จัก\nเพื่อนร่วมชั้นอีกคนหนึ่งให้ดีขึ้นสักนิดก็ทำให้รู้สึกดีอยู่หน่อย ๆ "
 
 stop music fadeout 2.0
 
