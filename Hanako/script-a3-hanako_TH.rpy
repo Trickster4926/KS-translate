@@ -1345,19 +1345,19 @@ scene bg misc_sky
 with locationchange
 
 # "A light breeze blows the scent of early summer around my head while I wait for Lilly."
-"สายลมแผ่วเบาพัดพากลิ่นอายของช่วงต้นหน้าร้อนมารอบ ๆ หัวฉันขณะที่กำลังรอลิลลี่"
+"สายลมแผ่วเบาพัดพากลิ่นอายของช่วงต้นฤดูร้อนมารอบ ๆ หัวฉันขณะที่กำลังรอลิลลี่"
 
 # "Small white clouds litter the sky, breaking up the monotony of the blue."
-"เมฆสีขาวเล็ก ๆ ปกคลุมท้องฟ้าทำลายความจำเจของสีท้องฟ้า"
+"กลุ่มเมฆสีขาวก้อนเล็ก ๆ ปกคลุมท้องฟ้าทำลายความจำเจในผืนสีคราม"
 
 # li "Hisao? Are you here?"
-li "ฮิซาโอะ? อยู่หรือเปล่า?"
+li "ฮิซาโอะ? อยู่หรือเปล่า"
 
 # "Lilly's voice lilts on the breeze as if they were one and the same thing."
-"เสียงลิลลี่ลอยมาตามลมราวกับเป็นสิ่งเดียวกัน"
+"เสียงลิลลี่ลอยมาตามลมราวกับกลืนจนเป็นสิ่งเดียวกัน"
 
 # "I stop gazing into the sky to examine Lilly."
-"ฉันหยุดมองท้องฟ้าเพื่อมาสังเกตลิลลี่"
+"ฉันหยุดมองท้องฟ้าเพื่อมาพินิจลิลลี่"
 
 $ renpy.music.set_volume(0.8, 1.0, channel="ambient")
 
@@ -1366,7 +1366,7 @@ show lilly cane_surprised_cas at center
 with locationchange
 
 # "With a peach off-the-shoulder sweater and tan ankle-length skirt, in addition to tan sandals, she's quite a nice sight."
-"เสื้อสเวตเตอร์เปิดไหล่สีพีชและกระโปรงยาวถึงข้อเท้าสีแทน พร้อมรองเท้าแตะสีแทน เธอช่างน่ามองทีเดียว"
+"เสื้อปาดไหล่สีพีชกับกระโปรงยาวกรอมข้อเท้าสีน้ำตาลพร้อมรองเท้าแตะสีน้ำตาล เป็นภาพที่น่ามองทีเดียว"
 
 # hi "Yeah, I'm over here, Lilly. Near the gate."
 hi "อื้ม ฉันอยู่ตรงนี้ลิลลี่ ใกล้ ๆ ประตู"
@@ -1378,25 +1378,25 @@ show lilly cane_weaksmile_cas
 with charachange
 
 # li "Yes. It's not uncommon for me to go out during weekends, so I don't think she noticed anything suspicious."
-li "ใช่ พอดีไม่ใช่เรื่องแปลกที่ฉันจะไปข้างนอกช่วงวันหยุดสุดสัปดาห์น่ะ เพราะงั้นแล้วฉันว่าเธอคงไม่สงสัยอะไรหรอก"
+li "ใช่ พอดีปกติฉันก็ออกมาข้างนอกช่วงสุดสัปดาห์อยู่แล้ว เพราะงั้นฉันว่าฮานาโกะคงไม่สงสัยอะไรหรอก"
 
 show lilly cane_sleepy_cas
 with charachange
 
 # li "That, and… she has someone she sees."
-li "อีกอย่างก็… เธอต้องไปหาบางคนน่ะ"
+li "อีกอย่างก็… ฮานาโกะต้องไปหาใครบางคนน่ะ"
 
 # "Lilly purses her lips, as if she maybe shouldn't have continued. I find it a little hard to believe."
-"ลิลลี่เม้มปาก ราวกับว่าเธออาจจะไม่ควรพูดต่อ ฉันว่ามันยากที่จะเชื่อไปหน่อย"
+"ลิลลี่เม้มปากราวกับว่าเธออาจจะไม่ควรพูดต่อ รู้สึกไม่ค่อยอยากเชื่อเท่าไหร่แฮะ"
 
 # hi "Hanako's seeing someone? Really?"
-hi "ฮานาโกะไปเจอใครบางคนอะนะ? จริงดิ?"
+hi "ฮานาโกะเนี่ยนะจะไปหาใคร จริงเหรอ"
 
 show lilly cane_weaksmile_cas
 with charachange
 
 # li "No, it's just… she sees a therapist every so often on weekends."
-li "เปล่า ก็แค่… เธอต้องไปหาจิตแพทย์ทุก ๆ สุดสัปดาห์น่ะ"
+li "เปล่า คือฮานาโกะ… ต้องไปหาจิตแพทย์ทุก ๆ สุดสัปดาห์น่ะ"
 
 # hi "Oh. Well. That does make a lot of sense."
 hi "อ๋อ เอ้อ งั้นก็เข้าใจได้"
@@ -1405,7 +1405,7 @@ show lilly cane_reminisce_cas
 with charachange
 
 # "Lilly rubs her arm uncomfortably, and after one look at her troubled expression, I quickly move to change the topic away from Hanako."
-"ลิลลี่ถูแขนของเธออย่างไม่สบายใจ และหลังจากที่ฉันเห็นสีหน้าที่ดูเป็นกังวลของเธอแล้ว ฉันจึงเปลี่ยนเรื่องออกจาก\nฮานาโกะอย่างไว"
+"ลิลลี่ถูแขนของเธออย่างไม่สบายใจ และหลังจากที่ฉันเห็นสีหน้าที่ดูเป็นกังวลของเธอแล้วฉันจึงเปลี่ยนเรื่องออกจาก\nฮานาโกะด้วยความรวดเร็ว"
 
 # hi "Huh…"
 hi "อืม…"
@@ -1414,25 +1414,25 @@ show lilly cane_surprised_cas
 with charachange
 
 # li "Yes?"
-li "อะไรเหรอ?"
+li "อะไรเหรอ"
 
 # hi "I was just wondering… you can get around the city on your own?"
-hi "แค่สงสัยนิดหน่อยน่ะ… เธอเข้าตัวเมืองตัวคนเดียวได้ด้วยเหรอ"
+hi "แค่สงสัยนิดหน่อยน่ะ… ว่าเธอเข้าตัวเมืองตัวคนเดียวได้ด้วยเหรอ"
 
 show lilly cane_listen_cas
 with charachange
 
 # "Lilly sighs at my consternation surrounding the topic of her blindness. I'm my own worst enemy, sometimes."
-"ลิลลี่ถอนหายใจให้กับอาการกังวลเวลาฉันคุยเรื่องเกี่ยวกับอาการตาบอดของเธอ บางทีฉันนี่แหละคือศัตรูตัวฉกาจของ\nตัวเอง"
+"ลิลลี่ถอนหายใจให้กับอาการกังวลเวลาฉันคุยเรื่องเกี่ยวกับอาการตาบอดของเธอ บางทีคนที่พาฉันซวยก็คือตัวเอง\nนี่แหละนะ"
 
 # li "I can, yes. It's easier when I'm out with a friend or my sister, though."
-li "ได้สิ แต่ก็ง่ายกว่าถ้าไปกับเพื่อนหรือพี่สาวน่ะ"
+li "ได้สิ แต่ก็ง่ายกว่าถ้าไปกับเพื่อนหรือพี่น่ะ"
 
 # "I wonder how Lilly gets along with her sister. Being an only child, it's hard to imagine what having a sibling would be like, so it makes me a little envious of her."
-"ฉันละสงสัยว่าลิลลี่เข้ากันได้ดีกับพี่สาวของเธอแค่ไหน ในฐานะที่เป็นลูกคนเดียว มันยากที่จะจินตนาการว่าการมีพี่น้อง\nเป็นยังไง รู้สึกอิจฉาเธอนิดหน่อยเลยแฮะ"
+"ฉันละสงสัยว่าลิลลี่เข้ากันได้ดีกับพี่สาวของเธอแค่ไหน พอเป็นลูกคนเดียวแล้วก็จินตนาการไม่ค่อยออกเลยว่าการมี\nพี่น้องเป็นยังไง รู้สึกอิจฉาเธอนิดหน่อยเลยแฮะ"
 
 # hi "Right. Well then, the bus arrives in a few minutes, so we should probably get a move on."
-hi "อื้ม เอาละ รถบัสจะมาในอีกไม่กี่นาที ฉันว่าเราเตรียมตัวดีกว่า"
+hi "อื้ม เอาละ อีกไม่กี่นาทีรถบัสจะมาแล้ว รีบไปเตรียมตัวรอกันดีกว่า"
 
 show lilly cane_weaksmile_cas
 with charachange
@@ -1447,16 +1447,16 @@ scene bg school_road
 with locationchange
 
 # "With that, we set off for the bus stop on the hill. It's only a small distance from the school gate, so it's very convenient."
-"เช่นนั้นแล้วเราจึงออกเดินทางไปยังป้ายรถเมล์บนเนินเขา ซึ่งอยู่ห่างจากประตูโรงเรียนแค่นิดเดียว เลยค่อนข้าง\nสะดวก"
+"เช่นนั้นแล้วเราจึงออกเดินทางไปยังป้ายรถเมล์บนเนินเขาที่อยู่ห่างจากประตูโรงเรียนไม่ไกล ซึ่งสะดวกดี"
 
 # hi "It's a nice view from here. Coming from the city, I never really got to see scenery like this, let alone on a daily basis."
-hi "ตรงนี้วิวสวยดีแฮะ จากในตัวเมืองไม่เคยได้เห็นวิวทิวทัศน์แบบนี้เลยด้วยซ้ำ ไม่ต้องพูดถึงเรื่องได้เห็นทุกวัน"
+hi "ตรงนี้วิวสวยดีแฮะ พอโตมากับเมืองแล้วก็ไม่ค่อยได้เห็นภาพอย่างนี้เท่าไหร่ ไม่ต้องถามเลยว่าจะได้เห็นทุกวันหรือเปล่า"
 
 show lilly cane_smile_cas at center
 with charaenter
 
 # li "This area is nice for me as well. It's tranquil, and away from the noises and smells of the city."
-li "แถว ๆ นี้ก็ดีสำหรับฉันเหมือนกัน เงียบสงบ และห่างไกลจากเสียงและกลิ่นต่าง ๆ จากในตัวเมือง"
+li "ฉันก็ว่าแถวนี้ก็ดีเหมือนกัน เงียบสงบแถมห่างไกลจากเสียงกับกลิ่นต่าง ๆ ในตัวเมืองด้วย"
 
 show lilly back_listen_cas
 show lillyprop back_cane at center
@@ -1475,7 +1475,7 @@ li "โอ๊ะ รถบัสมาแล้ว…"
 "ฉันมองไปตามถนนแล้วเห็นรถบัสกำลังแล่นขึ้นมาตามเนิน ความหูดีของลิลลี่ก็เป็นประโยชน์ดีเหมือนกัน"
 
 # "The bus only takes a short while to reach the bus stop, forcing its way up the road, and within a minute we are on our way to the city."
-"รถบัสใช้เวลาไม่นานก็มาถึงป้ายรถเมล์ โดยเบียดเสียดขึ้นมาตามถนน และไม่ถึงนาทีเราก็มุ่งหน้าเข้าสู่ตัวเมือง"
+"ไม่นานรถบัสก็วิ่งมาตามถนนจนถึงป้าย และไม่ถึงนาทีเราก็มุ่งหน้าเข้าสู่ตัวเมือง"
 
 stop ambient fadeout 2.0
 
@@ -1490,10 +1490,10 @@ play ambient sfx_traffic fadein 2.0
 "พอได้เดินในตัวเมืองแล้วก็เกิดความรู้สึกคุ้นเคยขึ้นมา ทั้งกลิ่นอาย การจราจร ตึกระฟ้าดาษดื่น… เหล่านี้ต่างละม้าย\nคล้ายเมืองที่ฉันอาศัยอยู่ จะไม่เหมือนก็แต่ทางเดินลอยฟ้า"
 
 # "It feels a little weird; walking around a city as casually as I would in a park, but with cars rushing around underneath me."
-"รู้สึกแปลกหน่อย ๆ แฮะ ที่ได้เดินรอบ ๆ ตัวเมืองสบาย ๆ เหมือนกับเดินอยู่ในสวนสาธารณะ แต่มีรถวิ่งไปมาอย่าง\nเร่งรีบอยู่ข้างล่าง"
+"รู้สึกแปลกหน่อย ๆ แฮะ ที่ได้เดินรอบ ๆ ตัวเมืองสบาย ๆ เหมือนกับเดินอยู่ในสวนสาธารณะ แต่มีรถวิ่งขวักไขว่ไปมา\nอยู่ข้างล่าง"
 
 # "As I'm busily pondering the engineering marvel that is the raised walkway, I get a surprise."
-"ขณะที่ฉันกำลังครุ่นคิดความทึ่งจากวิศวกรรมของทางเดินลอยฟ้า จู่ ๆ ฉันก็เจอเรื่องที่น่าตกใจ"
+"ขณะที่กำลังครุ่นคิดความอัศจรรย์ของการวิศวกรรมทางเดินลอยฟ้าก็พลันเจอเรื่องที่น่าตกใจ"
 
 show lilly cane_smileclosed_cas_close:
     center
@@ -1505,28 +1505,28 @@ with charaenter
 "ฉันใช้เวลาสักพักจึงรู้ตัวได้ว่าลิลลี่ได้คล้องแขนเธอกับฉันแล้ว โดยที่มืออีกข้างของเธอยื่นไม้เท้าออกไปด้านหน้า"
 
 # "For a moment I'm startled, but I manage to keep enough of a lid on it for Lilly not to notice. While it's not the first time that Lilly's relied on me for guidance, she'd only held onto my sleeve's cuff before."
-"ฉันตกใจไปแวบนึง แต่ก็เก็บอาการไม่ให้ลิลลี่รู้ตัว ถึงแม้ว่านี่จะไม่ใช้ครั้งแรกที่เธอให้ฉันช่วยนำทาง แต่ปกติเธอจะจับ\nแค่แขนเสื้อฉันเท่านั้น"
+"ฉันตกใจไปแวบหนึ่งแต่ก็เก็บอาการไม่ให้ลิลลี่รู้ตัว ถึงแม้ว่านี่จะไม่ใช่ครั้งแรกที่เธอให้ฉันช่วยนำทาง แต่ปกติเธอจะจับ\nแค่แขนเสื้อฉันเท่านั้น"
 
 # "It's logical that it would be easier for her to navigate a crowded and complex area such as the city while securely linked, but I'm far from being as used to this kind of contact as Lilly is."
-"ตามหลักแล้วถ้าเธอควงแขนก็จะทำให้นำทางในที่คนพลุกพล่านโดยไม่หลงแหละ แต่ฉันไม่ชินเลยที่ถึงเนื้อต้องตัวกับลิลลี่\nขนาดนี้"
+"ตามหลักแล้วถ้าเธอควงแขนก็จะทำให้นำทางในที่คนพลุกพล่านได้โดยไม่หลงแหละ แต่ฉันไม่ชินเลยที่ถูกเนื้อต้องตัว\nกับลิลลี่ขนาดนี้"
 
 # "Finally realizing the growing silence between us as Lilly waits for me to get moving, I quickly kick my brain into gear."
-"พอฉันรู้ตัวว่าพวกเราเงียบระหว่างเดินมาสักพักแล้ว ฉันจึงรีบเปิดประเด็นคุย"
+"พอรู้ตัวว่าพวกเราเงียบระหว่างเดินมาสักพักแล้วจึงรีบเปิดประเด็นคุย"
 
 # hi "You know, it was quite a surprise that Hanako likes to sing. Have you ever heard her do that before?"
-hi "เอ้อ ก็น่าแปลกอยู่นะที่ฮานาโกะชอบร้องเพลงน่ะ เธอเคยได้ยินฮานาโกะร้องหรือเปล่า"
+hi "เอ้อ แปลกใจอยู่เหมือนกันนะที่ฮานาโกะชอบร้องเพลงน่ะ เธอเคยฟังฮานาโกะร้องเพลงหรือเปล่า"
 
 show lilly cane_smile_cas_close at center
 with charachange
 
 # li "I have indeed. We've been to karaoke sessions several times, along with my sister. I can't say I take to the activity much, but the other two like it."
-li "เคยสิจ๊ะ พวกเรามักจะไปร้องคาราโอเกะกับพี่บ่อย ๆ น่ะ ฉันเองก็ไม่ได้ชอบร้องเพลงเท่าไหร่หรอกจ้ะ แต่ทั้งสองคน\nเขาชอบน่ะ"
+li "เคยสิจ๊ะ พวกเราชอบไปร้องคาราโอเกะกับพี่บ่อย ๆ น่ะ ฉันเองก็ไม่ได้ชอบร้องเพลงเท่าไหร่หรอกจ้ะ แต่ทั้งสองคน\nเขาชอบน่ะ"
 
 # "Maybe Hanako doing karaoke is more fitting than I initially thought. Just her and those she knows, all alone in a little room."
-"บางทีฮานาโกะคงชอบไปคาราโอเกะมากกว่าที่ฉันคิดไว้ตอนแรก อยู่ในห้องเล็ก ๆ ที่มีเพียงเธอกับเพื่อน ๆ ของเธอ"
+"หรือฮานาโกะอาจจะชอบร้องเพลงมากกว่าที่ฉันคาดไว้ก็ได้ อยู่ในห้องเล็ก ๆ ที่มีเพียงเธอกับเพื่อน ๆ ของเธอ"
 
 # "It would give her a rare chance to let her guard down, with nobody else there to judge her."
-"คงทำให้เธอลดกำแพงเธอลงได้บ้าง เพราะไม่มีใครไปตัดสินเธอ"
+"คงเป็นไม่กี่ชั่วขณะที่ฮานาโกะจะได้ปล่อยตัวตามสบายบ้างเพราะไม่มีใครมาตัดสิน"
 
 # hi "Maybe it would be nice to bring her into town for a karaoke birthday party, if she likes doing it."
 hi "ถ้าฮานาโกะชอบร้องเพลง พาไปคาราโอเกะตอนวันเกิดก็คงจะดีนะ"
@@ -1535,7 +1535,7 @@ show lilly cane_sleepy_cas_close
 with charachange
 
 # li "Hmm. I'm not sure she would deal very well with the excitement."
-li "อืม ฉันไม่แน่ใจว่าฮานาโกะจะรับมือกับความตื่นเต้นไหวหรือเปล่า"
+li "อืมม ฮานาโกะเขาคงตื่นเต้นน่าดูเลยนะจ๊ะ"
 
 # "I move to protest, but her face shows that she's mulling the proposal over some more. It takes quite some time for her to come to a conclusion."
 "ฉันเตรียมจะค้าน แต่ลิลลี่ก็ทำหน้าเหมือนกำลังคิดอะไรอีกกับสิ่งที่ฉันเสนอไป กว่าเธอจะตัดสินใจได้ก็ใช้เวลานานพอตัว"
@@ -1550,13 +1550,13 @@ li "แต่ก็นะ สิ่งที่เราทำได้ดีท
 hi "ก็คงจะถูกของเธอ ถ้าฮานาโกะมีความทรงจำกับงานวันเกิดเป็นอย่างอื่นนอกจากความสูญเสียบ้าง ยังไงก็คงอยากมาแหละ"
 
 # "If we bought her something nice that she could see every day then maybe she'd be able to take her mind off her past and remember that she has friends."
-"ถ้าซื้ออะไรดี ๆ ที่ฮานาโกะเอาไปตั้งให้เห็นได้ทุกวัน เธอคงจะไม่ต้องจมกับอดีตมากเกินไปและรู้ตัวว่ายังมีเพื่อนอยู่"
+"ถ้าซื้ออะไรดี ๆ ที่ฮานาโกะเอาไปตั้งให้เห็นได้ทุกวันแล้วเธอคงจะไม่จมกับอดีตมากเกินไปและรู้ตัวว่ายังมีเพื่อนอยู่"
 
 # "And in any case, I think Hanako can handle something like this. In the time I've spent beside her, I've learned that she isn't quite as frightfully fragile as I first thought she was."
-"ยังไงก็เถอะ ฉันว่าฮานาโกะคงรับมือเรื่องแบบนี้ได้ จากการที่ได้อยู่ข้าง ๆ เธอทำให้รู้ว่าเธอไม่ได้บอบบางขนาดนั้น"
+"ยังไงก็เถอะ ฉันว่าฮานาโกะคงรับมือเรื่องแบบนี้ได้ จากการที่ได้อยู่ข้าง ๆ เธอทำให้รู้ว่าเธอไม่ได้บอบบางจนต้อง\nหวาดระแวงขนาดนั้น"
 
 # hi "So, shall we be off? I'm not really sure about the layout of this area."
-hi "งั้น เราไปเลยดีไหม? ฉันไม่ค่อยชินทางแถวนี้เลยอะ"
+hi "งั้นไปเลยดีไหม ฉันไม่ค่อยชินทางแถวนี้เลยอะ"
 
 show lilly cane_smileclosed_cas_close
 with charachange
@@ -1564,7 +1564,7 @@ with charachange
 stop music fadeout 6.0
 
 # li "Very well. I might like to suggest having something to eat, first."
-li "ก็ดีนะ ฉันว่าจะหาอะไรกินก่อนด้วยน่ะ"
+li "ได้เลยจ้ะ ฉันว่าจะหาอะไรกินก่อนด้วยน่ะ"
 
 # hi "I haven't either, so that sounds like a good plan."
 hi "ก็ดีนะ ฉันก็ยังไม่ได้กินอะไรมาเหมือนกัน"
@@ -1573,7 +1573,7 @@ show lilly cane_cheerful_cas_close
 with charachange
 
 # li "Make sure you choose a nice place, Hisao."
-li "ฝากเลือกร้านดี ๆ ด้วยละจ้ะ ฮิซาโอะ"
+li "ฝากเลือกร้านดี ๆ ด้วยนะจ๊ะฮิซาโอะ"
 
 # "She gives a teasing smile, one that makes me smile reflexively in response even if she can't see that."
 "เธอยิ้มหยอกออกมา ทำให้ฉันยิ้มตอบไปแม้เธอจะมองไม่เห็นก็ตาม"
@@ -1587,7 +1587,7 @@ scene bg city_karaokeint
 with locationskip
 
 # "Once inside, I order two slices of pie and accompanying cups of tea and take them back to our table."
-"พอมาถึงในร้าน ฉันสั่งพายสองชิ้นกับชาสองถ้วยและนำมาที่โต๊ะของเรา"
+"พอมาถึงในร้านฉันก็สั่งพายสองชิ้นกับชาสองถ้วยและนำมาที่โต๊ะของเรา"
 
 show lilly basic_smileclosed_cas_close:
     center
@@ -1595,19 +1595,19 @@ show lilly basic_smileclosed_cas_close:
 with charaenter
 
 # "I'd pegged this café as the type to appeal to Lilly; small and quiet, but well-kept and somewhat upscale. Going by the dainty smile she wears, I… don't really know if I chose right."
-"ฉันเล็งคาเฟ่แห่งนี้ไว้ว่าน่าจะเป็นแบบที่ลิลลี่ชอบ เล็ก ๆ และสงบ แต่ก็ดูแลรักษาอย่างดีและดูมีระดับนิด ๆ \nดูจากที่เธอยิ้มอย่างอ่อน ๆ แล้ว ฉัน… ก็ไม่ค่อยแน่ใจจริง ๆ ว่าฉันเลือกถูกหรือเปล่า"
+"ฉันเล็งคาเฟแห่งนี้ไว้ว่าน่าจะเป็นแบบที่ลิลลี่ชอบ ร้านเล็ก ๆ ดูสงบ แต่ก็มีการดูแลรักษาอย่างดีและดูมีระดับนิด ๆ \nดูจากการที่เธอยิ้มอ่อน ๆ แล้วฉัน… ก็ไม่ค่อยแน่ใจจริง ๆ ว่าฉันเลือกถูกหรือเปล่า"
 
 # "It's very, very rare to not see her smiling, after all."
 "ก็นาน ๆ ทีจะเห็นเธอไม่ยิ้มอะนะ"
 
 # "Nevertheless, I take a seat near her at one of the corner tables and lay down our small meals."
-"ยังไงก็เถอะ ฉันนั่งลงใกล้ ๆ เธอที่โต๊ะตรงมุมตัวหนึ่ง แล้ววางอาหารมื้อเล็ก ๆ ของเราลง"
+"ยังไงก็เถอะ ฉันนั่งลงใกล้ ๆ เธอที่โต๊ะตรงมุมตัวหนึ่งแล้ววางอาหารมื้อเล็ก ๆ ของเราลง"
 
 show lilly basic_planned_cas_close
 with charachange
 
 # "Lilly gingerly brings her head over the slice of pie placed in front of her, delicately taking in the aroma."
-"ลิลลี่ค่อย ๆ โน้มหัวลงไปเหนือพายที่วางอยู่ตรงหน้าเธอ พลางสูดดมกลิ่นหอมอย่างละเมียดละไม"
+"ลิลลี่ค่อย ๆ โน้มหัวลงไปเหนือพายที่วางอยู่ตรงหน้าเธอพลางสูดดมกลิ่นหอมอย่างละเมียดละไม"
 
 show lilly basic_cheerful_cas_close
 with charachange
@@ -1616,28 +1616,28 @@ with charachange
 li "พายเลมอนใช่ไหมนะ ขอบใจนะ ฮิซาโอะ"
 
 # hi "No problem. The tea's just next to it, so be careful not to knock it over."
-hi "ไม่เป็นไร ๆ ถ้วยชาตั้งอยู่ข้าง ๆ นะ ระวังชนหกด้วยละ"
+hi "เรื่องแค่นี้เอง ถ้วยชาตั้งอยู่ข้าง ๆ นะ ระวังทำหกด้วยละ"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
 # "She nods appreciatively, but judging from the slightly weak smile she has, the warning wasn't really necessary. I suppose the sound must have tipped her off to its position."
-"เธอพยักหน้ารับอย่างยินดี แต่ดูจากรอยยิ้มอ่อน ๆ ของเธอแล้ว ฉันว่าคงไม่จำเป็นต้องเตือนหรอก เพราะเสียงวาง\nคงทำให้เธอรู้ตำแหน่งไปตั้งแต่แรกแล้ว"
+"ลิลลี่พยักหน้ารับเป็นเชิงขอบคุณ แต่ดูจากรอยยิ้มอ่อน ๆ ของเธอแล้วฉันว่าคงไม่จำเป็นต้องเตือนหรอก เพราะเสียงวาง\nคงทำให้รู้ตำแหน่งไปตั้งแต่แรกแล้ว"
 
 # "We both tuck into our food without further ado, both of us remaining largely silent as we do so. Lilly isn't the type to appreciate discussion while eating, and I can't say I like it either."
-"เราทั้งคู่ลงมือกินโดยไม่รอช้า และต่างฝ่ายต่างก็เงียบไปเป็นส่วนใหญ่ ลิลลี่คงไม่ใช่คนที่ชอบคุยระหว่างมื้ออาหาร\nซึ่งฉันเองก็ไม่ค่อยชอบเหมือนกัน"
+"เราทั้งคู่ลงมือกินโดยไม่รอช้าและกินกันไปอย่างเงียบ ๆ ลิลลี่คงไม่ใช่คนที่ชอบคุยระหว่างมื้ออาหาร ซึ่งฉันเอง\nก็ไม่ค่อยชอบเหมือนกัน"
 
 # "Eventually we finish both our meals, and the last of our teacups follows in short order. Lilly's the first to break the silence."
-"สุดท้ายพวกเราก็กินจนหมด และชาถ้วยสุดท้ายก็หมดตามไปในเวลาไม่นานนัก และลิลลี่ก็เป็นฝ่ายเอ่ยปากทำลาย\nความเงียบก่อน"
+"สุดท้ายพวกเราก็กินจนหมด และชาถ้วยสุดท้ายก็หมดตามไปในเวลาไม่นานนัก ลิลลี่ก็เป็นฝ่ายเอ่ยปากทำลาย\nความเงียบก่อน"
 
 show lilly basic_smile_cas_close
 with charachange
 
 # li "That was very nice. I must say you've chosen quite well, Hisao."
-li "อร่อยมากเลย ขอชมเลยว่าเธอเลือกร้านได้ดีทีเดียว ฮิซาโอะ"
+li "อร่อยมาก ขอชมเลยว่าเธอเลือกร้านได้ดีทีเดียว ฮิซาโอะ"
 
 # hi "This is the first time I've really had much of a look around the city, so all I could really do is choose somewhere that looked nice."
-hi "เป็นครั้งแรกเลยที่ฉันดูทั่วเมืองขนาดนี้ เพื่อที่จะได้เลือกร้านที่ดูดีน่ะ"
+hi "ฉันเองก็เพิ่งได้มาดูเมืองทั่ว ๆ อย่างนี้ ก็คงต้องเลือกร้านที่ดูดีหน่อย ๆ แหละนะ"
 
 # hi "Uh… damn. Sorry."
 hi "เอ่อ… คือ โทษที"
@@ -1649,10 +1649,10 @@ show lilly basic_smileclosed_cas_close
 with charachange
 
 # li "You are thoughtful, Hisao, but sometimes I fear that it gets the better of you. There is no need to change your speech on my account."
-li "เธอนี่ใส่ใจดีจังนะ ฮิซาโอะ แต่บางทีฉันเกรงว่าความช่างเกรงใจนั้นจะทำให้เธอลำบากใจเสียเอง เธอไม่จำเป็น\nต้องเปลี่ยนวิธีพูดเพียงเพราะเห็นแก่ฉันหรอกนะ"
+li "เธอนี่ใส่ใจดีจังนะ ฮิซาโอะ แต่บางทีฉันเกรงว่าความช่างเกรงใจนั้นจะทำให้เธอลำบากใจเสียเอง เธอไม่จำเป็น\nต้องเปลี่ยนวิธีพูดเพื่อถนอมน้ำใจฉันหรอกนะ"
 
 # "Lilly truly is pretty comfortable in dealing with her condition. I still hasten to change the subject, as I can't really say that I share her confidence in the matter."
-"ลิลลี่ดูจะยอมรับความพิการตัวเองได้ดี แต่ถึงอย่างนั้น ฉันก็รีบเปลี่ยนประเด็นอยู่ดี เพราะฉันคงพูดไม่ได้เต็มปากว่า\nฉันเองจะรู้สึกยอมรับในเรื่องนี้ได้มากเท่าเธอ"
+"ลิลลี่ดูจะยอมรับความพิการตัวเองได้ดี แต่ถึงอย่างนั้นฉันก็รีบเปลี่ยนประเด็นอยู่ดี เพราะฉันคงพูดไม่ได้เต็มปากว่า\nฉันเองจะรู้สึกยอมรับในเรื่องนี้ได้มากเท่าเธอ"
 
 # hi "Have you lived here for very long? It seems like you have this place pretty much sorted out."
 hi "เธออยู่ที่นี่มานานแล้วหรือยังนะ เหมือนเธอจะชินทางที่นี่มาก ๆ เลย"
@@ -1661,46 +1661,46 @@ show lilly basic_planned_cas_close
 with charachange
 
 # "She quickly waves her hand in front of her face to dismiss the notion."
-"เธอรีบโบกมือไปมาตรงหน้าเพื่อเป็นการปฏิเสธ"
+"เธอรีบโบกมือไปมาตรงหน้าเป็นการปฏิเสธ"
 
 show lilly basic_smile_cas_close
 with charachange
 
 # li "It's nothing like that. I've attended Yamaku since the start of high school, but I didn't walk around the city very much because Akira, my sister, picked me up and dropped me off."
-li "ไม่ใช่แบบนั้นหรอกจ้ะ ฉันเข้ายามากุตั้งแต่ขึ้นม.ปลาย แต่ก็ไม่ได้เดินในเมืองทั่วขนาดนั้น เพราะว่าอากิระพี่สาวฉัน\nมารับส่งตลอดจ้ะ"
+li "ไม่ใช่แบบนั้นหรอกจ้ะ ฉันเข้ายามากุตั้งแต่ขึ้นม. ปลาย แต่ก็ไม่ได้เดินในเมืองทั่วขนาดนั้น เพราะว่าพี่สาวฉัน\nที่ชื่ออากิระมารับส่งตลอดจ้ะ"
 
 # hi "Oh, right. You mentioned not living in the dormitories until recently."
 hi "อ๋อ เอ้อ เธอเคยบอกว่าไม่ได้อยู่ที่หอ จนเมื่อไม่นานมานี้นี่นา"
 
 # "It's quite a surprise. I'd just assumed she'd been living here since entering Yamaku at the least, which would give her a few years here."
-"ค่อนข้างน่าตกใจเหมือนกัน เพราะฉันคิดไปเองว่าเธอมาอยู่ที่นี่ตั้งแต่เข้ายามากุ ซึ่งนั่นก็น่าจะทำให้เธออยู่ที่นี่มาได้หลายปี"
+"ค่อนข้างน่าตกใจเหมือนกัน เพราะฉันคิดไปเองว่าเธอมาอยู่ที่นี่ตั้งแต่เข้ายามากุแล้วอยู่มาได้สักสองสามปีเป็นอย่างต่ำ"
 
 show lilly basic_smileclosed_cas_close
 with charachange
 
 # li "I've lived with my family for most of my life, then I was just together with my sister. With my family having moved to Inverness long before, and Akira working longer hours, I ended up having to move."
-li "ฉันอยู่กับครอบครัวมาเกือบตลอดเลยจ้ะ และหลังจากนั้นก็อยู่กับพี่สาวแค่สองคน แต่พอครอบครัวของฉันย้ายไปอยู่ที่\nอินเวอร์เนส และอากิระเองก็ต้องทำงานหนักขึ้น สุดท้ายฉันก็เลยจำเป็นต้องย้ายมาน่ะจ้ะ"
+li "ฉันอยู่กับครอบครัวมาเกือบตลอดเลยจ้ะ จากนั้นก็อยู่กับพี่สาวแค่สองคน แต่พอครอบครัวของฉันย้ายไปอยู่ที่\nอินเวอร์เนสส์ บวกกับความที่พี่ฉันงานยุ่งขึ้นอีก สุดท้ายฉันก็เลยจำเป็นต้องย้ายมาน่ะจ้ะ"
 
 # hi "Inverness? Isn't that somewhere in Scotland?"
-hi "อินเวอร์เนส? ไม่ใช่ว่าอยู่สกอตแลนด์เหรอ?"
+hi "อินเวอร์เนสส์? ที่อยู่สกอตแลนด์น่ะนะ"
 
 show lilly basic_surprised_cas_close
 with charachange
 
 # li "Oh, did I not tell you? My family currently lives in Scotland, the birthplace of my mother. My father's side is mainly Japanese, though."
-li "อ้าว ฉันยังไม่ได้บอกเธอเหรอเนี่ย? ครอบครัวฉันตอนนี้อยู่ที่สกอตแลนด์ บ้านเกิดของแม่ฉันน่ะ ส่วนฝั่งพ่อเป็นคนญี่ปุ่นน่ะจ้ะ"
+li "อ้าว ฉันยังไม่ได้บอกเธอเหรอเนี่ย ครอบครัวฉันตอนนี้อยู่ที่สกอตแลนด์ บ้านเกิดของแม่ฉันน่ะ ส่วนฝั่งพ่อเป็นคนญี่ปุ่น\nน่ะจ้ะ"
 
 # "Huh. The question of what gave Lilly her looks did cross my mind every now and again, but I'd never thought to ask. That answers that, then."
 "อืม คำถามที่ว่าอะไรทำให้ลิลลี่มีรูปร่างหน้าตาแบบนี้ก็เคยแวบเข้ามาในหัวฉันบางทีเหมือนกัน แต่ฉันก็ไม่เคยคิดที่จะถามเลย\nถ้าอย่างนั้น เรื่องนี้ก็กระจ่างแล้วล่ะ"
 
 # hi "To be honest, I'd never have guessed. Considering you have no accent, I'm guessing you were born here?"
-hi "เอาเข้าจริง ฉันไม่มีทางเดาถูกเลยนะเนี่ย ดูจากที่เธอไม่มีสำเนียงติดมาเลย เดาว่าเธอเกิดที่นี่ใช่ไหม"
+hi "เอาจริง ๆ นะ ให้ตายฉันก็เดาไม่ถูก แล้วพูดได้แบบไม่ติดสำเนียงเลยอย่างนี้ เดาว่าเธอเกิดที่นี่ใช่ไหม"
 
 show lilly basic_giggle_cas_close
 with charachange
 
 # li "Full marks. I am thankful for my heritage though, as without it I'd likely have not been taught English so early in my life."
-li "ใช่แล้วจ้ะ แต่ฉันก็ดีใจนะที่ครอบครัวเป็นคนต่างชาติน่ะ ไม่อย่างนั้นฉันคงไม่ได้เรียนภาษาอังกฤษตั้งแต่ยังเด็กขนาดนั้นหรอก"
+li "ใช่แล้วจ้ะ แต่ฉันก็ดีใจนะที่ครอบครัวเป็นคนต่างชาติน่ะ ไม่อย่างนั้นฉันคงไม่ได้เรียนภาษาอังกฤษตั้งแต่ยังเด็กขนาดนั้น"
 
 show lilly basic_smile_cas_close
 with charachange
@@ -1709,40 +1709,40 @@ with charachange
 li "แล้วเธอล่ะจ๊ะ ฮิซาโอะ"
 
 # hi "What about me?"
-hi "ฉันเหรอ?"
+hi "ฉันเหรอ"
 
 # "She gives a moment's thought. She probably should have thought of what to ask me before switching the topic."
-"เธอนิ่งคิดอยู่ครู่หนึ่ง ดูเหมือนเธอควรจะคิดไว้ก่อนว่าจะถามอะไรฉันดี ก่อนที่จะตัดสินใจเปลี่ยนเรื่องคุย"
+"ลิลลี่นิ่งคิดอยู่ครู่หนึ่ง จริง ๆ ถ้าจะเปลี่ยนเรื่องคุยก็ต้องคิดเรื่องที่จะถามก่อนสิ"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
 # li "I'll go with… what are your plans for the future?"
-li "คงเริ่มจาก… เธอมีแผนสําหรับอนาคตยังไงบ้างจ๊ะ?"
+li "ขอถามว่า… เธอมีแผนสําหรับอนาคตยังไงบ้างจ๊ะ"
 
 # hi "To be honest, I haven't thought much about that recently."
 hi "ว่าตามตรง ฉันไม่ได้คิดถึงเรื่องนั้นเท่าไหร่"
 
 # hi "After my accident and subsequent months in hospital, enjoying my life here with you and Hanako has been enough for me."
-hi "หลังจากเหตุการณ์นั้นกับการอยู่ในโรงพยาบาลอีกหลายเดือน ทำให้ตอนนี้การได้มีความสุขกับชีวิตที่นี่กับเธอและฮานาโกะก็พอแล้ว"
+hi "ต้องเจอเรื่องอุบัติเหตุครั้งนั้นจนได้นอนโรงพยาบาลอยู่หลายเดือน ขอแค่ได้อยู่กับเธอแล้วก็ฮานาโกะก็พอใจแล้วละ"
 
 # "In fact, I don't think I've thought at all about a “future” for some time now. It seems almost futile."
-"เอาจริง ๆ ฉันคิดว่าฉันไม่ได้นึกถึงเรื่อง “อนาคต”  ตัวเองมาสักพักแล้วล่ะ รู้สึกว่าเหมือนเป็นเรื่องที่เปล่าประโยชน์ยังไงก็ไม่รู้"
+"เอาจริง ๆ ฉันว่าฉันไม่ได้นึกถึงเรื่อง “อนาคต”  ตัวเองมาสักพักแล้วละ เพราะรู้สึกเหมือนเป็นเรื่องที่เปล่าประโยชน์ยังไง\nไม่รู้"
 
 show lilly basic_sleepy_cas_close
 with charachange
 
 # li "This is your last year of school. After this, you will have to fend for yourself one way or the other."
-li "นี่เป็นปีสุดท้ายในโรงเรียนของเธอแล้วนะ หลังจากนี้ ไม่ว่ายังไงเธอก็ต้องยืนหยัดด้วยลำแข้งของตัวเองให้ได้แล้ว"
+li "ปีนี้ปีการศึกษาสุดท้ายของเธอแล้วนะ หลังจากนี้ ไม่ว่ายังไงเธอก็ต้องยืนหยัดด้วยลำแข้งของตัวเองให้ได้แล้ว"
 
 # hi "It's not like I don't know that, I just haven't put much thought into it since then…"
-hi "ไม่ใช่ว่าไม่รู้หรอก แค่ไม่ได้คิดเรื่องนั้นเท่าไหร่…"
+hi "ไม่ใช่ว่าไม่รู้หรอก แค่ว่าตั้งแต่ตอนนั้นมาก็ไม่ได้คิดเรื่องนั้นเท่าไหร่…"
 
 show lilly basic_weaksmile_cas_close
 with charachange
 
 # "She opens her mouth to continue, but gives a small sigh instead. She seems to have realized that she really doesn't know enough about my situation to go too deeply into this."
-"เธออ้าปากจะพูด แต่กลับถอนหายใจเบา ๆ แทน เธอดูเหมือนจะนึกได้ว่าเธอไม่ค่อยรู้เรื่องราวของฉันมากเท่าไหร่"
+"ลิลลี่อ้าปากจะพูดแต่กลับถอนหายใจเบา ๆ แทน ดูเหมือนจะนึกได้ว่าไม่ค่อยรู้เรื่องราวของฉันพอที่จะซักไซ้อะไรอีก\nเท่าไหร่"
 
 # li "Well, we all have our own pace. I just hope you'll take any chance you see."
 li "เอาเถอะจ้ะ คนเราต่างก็มีจังหวะชีวิตเป็นของตัวเอง ฉันแค่หวังว่าเธอจะคว้าทุกโอกาสที่ผ่านเข้ามาไว้นะ"
@@ -1760,43 +1760,43 @@ show lilly cane_smileclosed_cas_close
 with shorttimeskip
 
 # "As we walk back out into the city, Lilly takes hold of my arm once again."
-"พอเราเดินเข้าไปในตัวเมือง ลิลลี่ก็คว้าแขนฉันไว้อีกครั้ง."
+"พอเราเดินเข้าไปในตัวเมืองลิลลี่ก็คว้าแขนฉันไว้อีกครั้ง"
 
 show lilly cane_smile_cas_close
 with charachange
 
 # li "So, did you get any good ideas for a present?"
-li "เธอมีไอเดียดี ๆ สําหรับของขวัญไหม?"
+li "เธอพอจะรู้หรือยังว่าจะซื้ออะไรไปเป็นของขวัญ"
 
 # hi "To be honest, no. I've never been very good at picking them."
-hi "ว่ากันตามตรง ไม่เลย ฉันไม่เคยเลือกได้ดีเลย"
+hi "ว่ากันตามตรง ไม่อะ ฉันเลือกของขวัญไม่เก่งมาแต่ไหนแต่ไรแล้ว"
 
 show lilly cane_weaksmile_cas_close
 with charachange
 
 # li "As absurd as it sounds, perhaps we should just… look around?"
-li "อาจจะฟังดูแปลก ๆ แต่เราน่าจะ… ดูรอบ ๆ ดีไหม?"
+li "อาจจะฟังดูแปลก แต่ว่า… เดินดูกันไปเรื่อย ๆ ไหม"
 
 # "Hearing Lilly utter those words throws me for a moment."
-"ได้ยินลิลลี่พูดคํานั้นออกมา ทำให้ฉันถึงกับอึ้งไปแวบนึง"
+"พอได้ยินลิลลี่พูดคํานั้นออกมาก็ทำให้ฉันถึงกับอึ้งไปแวบหนึ่ง"
 
 # hi "Er… right. How do we do that?"
-hi "เอ่อ… อาฮะ ยังไงล่ะ?"
+hi "เอ่อ… อาฮะ ยังไงล่ะ"
 
 show lilly cane_cheerful_cas_close
 with charachange
 
 # li "That's just the reaction I was expecting. It's simple; you can go window shopping, and just tell me what is around."
-li "ว่าแล้วว่าเธอต้องถาม ง่าย ๆ เลย เธอแค่ไปเดินดูของตามร้านค้าต่าง ๆ แล้วก็แค่คอยบอกฉันว่ามีอะไรอยู่รอบ ๆ บ้างก็พอ"
+li "ว่าแล้วว่าเธอต้องถาม ง่าย ๆ เลย เธอแค่ไปเดินดูของตามร้านค้าต่าง ๆ แล้วก็แค่คอยบอกฉันว่ามีอะไรบ้างก็พอ"
 
 show lilly cane_smileclosed_cas_close
 with charachange
 
 # li "If something interesting comes up, then we might get an idea."
-li "ถ้ามีอะไรน่าสนใจ เราอาจจะได้ไอเดียก็ได้นะ"
+li "ถ้ามีอะไรน่าสนใจแล้วก็อาจจะนึกออก"
 
 # hi "Right… I'm still not so sure of this, but I'll take your word for it."
-hi "อืม… ไม่แน่ใจว่าจะไหวไหม แต่เอาตามนั้นก็ได้"
+hi "อืม… ไม่ค่อยแน่ใจเท่าไหร่แฮะ แต่จะเชื่อเธอแล้วกัน"
 
 show lilly cane_smile_cas_close
 with charachange
