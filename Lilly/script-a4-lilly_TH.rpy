@@ -166,7 +166,7 @@ mi "แต่นายก็ไปนี่ ไม่ค่อยได้เห
 hi "ก็นะ ถ้าจะพูดให้ถูก หน้าที่ฉันคือ “เบ๊หาบของ” มากกว่า ฉันไม่ได้ตื่นเต้นอะไรกับการเดินซื้อของขนาดนั้น\nเหมือนอย่างพวกเธอหรอก"
 
 # hi "Back to the exams; you studied after you got back from the days off, didn't you, Shizune?"
-hi "พูดถึงเรื่องสอบ ชิซูเนะ เธอเที่ยวเสร็จกับมาแล้วก็ยังอ่านหนังสืออยู่ใช่มั้ย"
+hi "พูดถึงเรื่องสอบ ชิซูเนะ เธอเที่ยวเสร็จกลับมาแล้วก็ยังอ่านหนังสืออยู่ใช่มั้ย"
 
 show shizu basic_normal2
 with charachange
@@ -1349,7 +1349,7 @@ show nurse neutral
 with charachange
 
 # "His brief episode of entertainment over, he claps his hands together and gets down to business. I take a seat as he gestures for me to do so."
-"หมดเวลาสนุกของแล้ว คุณพยาบาลตบมือแล้วทำท่าจริงจัง ฉันนั่งลงไปตามที่เขาผายมือเชิญชวน"
+"หมดเวลาสนุกแล้ว คุณพยาบาลตบมือแล้วทำท่าจริงจัง ฉันนั่งลงไปตามที่เขาผายมือเชิญชวน"
 
 # "I wish the classrooms had seats this comfortable. I can feel my mind wandering as my eyes quickly scan the room, distracted by all the small changes since I last came."
 "ถ้าเก้าอี้ที่ห้องเรียนนั่งสบายอย่างนี้ก็ดีสิ จิตใจฉันเริ่มล่องลอย สายตากวาดมองรอบห้องดูสิ่งเล็ก ๆ ที่เปลี่ยนไปนับจาก\nตอนที่ฉันมาครั้งล่าสุด"
@@ -2488,7 +2488,7 @@ hi "ก็สี่หน่อสนุกกันตามประสาเ�
 "ฉันรีบกลับมาตั้งสติก่อนที่ตัวเองจะเหม่อไปไกลกว่านี้ ภาพวันวานจากโรงเรียนเก่าเลือนหายไป ภาพท้องฟ้ายามค่ำคืน\nที่อยู่เหนือตัวเมืองอันสว่างไสวซึ่งอยู่นอกหน้าต่างเข้ามาแทน"
 
 # "Lilly's face is an odd mixture of curiosity and sympathy. Given her strict schooling, I suppose something like this would seem an interesting contrast to the only life she's known."
-"ลิลลี่ทำหน้าสงสัยใครรู้ ทว่ายังทำท่าคล้ายเข้าใจ ถ้าดูจากความเคร่งของโรงเรียนเก่าลิลลี่แล้ว เธอคงจะสนใจเรื่องอะไร\nอย่างนี้ซึ่งไม่เหมือนกับชีวิตแบบเดียวที่เธอเคยได้สัมผัสมา"
+"ลิลลี่ทำหน้าสงสัยใคร่รู้ ทว่ายังทำท่าคล้ายเข้าใจ ถ้าดูจากความเคร่งของโรงเรียนเก่าลิลลี่แล้ว เธอคงจะสนใจเรื่องอะไร\nอย่างนี้ซึ่งไม่เหมือนกับชีวิตแบบเดียวที่เธอเคยได้สัมผัสมา"
 
 show lilly basic_satisfied_che_close
 with charachange
@@ -2500,7 +2500,7 @@ li "โรงเรียนเก่าเธอฟังดูสนุกน�
 hi "ก็เป็นความทรงจำที่ดีนะ ถึงจะไม่ค่อยแน่ใจก็เถอะว่าที่คิดอย่างนี้มันเป็นเพราะความคิดถึงล้วน ๆ เลยหรือเปล่า"
 
 # hi "That's in the past though. I can't go back there now, but through my accident I found a new life I'd never have imagined leading."
-hi "แต่มันก็เป็นอดีตไปแล้วน่ะนะ จะให้กลับไปอยู่ตรงนั้นก็ไม่ได้แล้ว แต่อุบัติเหตุครั้งนั้นก็ทำให้ฉันได้มาเจอกับชีวิตใหม่ที่\nตัวฉันในอดีตคงคิดไม่ถึงเลยว่าจะต้องมาเจอ"
+hi "แต่มันก็เป็นอดีตไปแล้วน่ะนะ จะให้กลับไปอยู่ตรงนั้นก็ไม่ได้แล้ว แต่เหตุการณ์ครั้งนั้นก็ทำให้ฉันได้มาเจอกับชีวิตใหม่\nที่ตัวฉันในอดีตคงคิดไม่ถึงเลยว่าจะต้องมาเจอ"
 
 # hi "The peace and calm of Yamaku, a new direction for my future in science, the friendship of Shizune, Misha and Hanako, and most of all, you."
 hi "ทั้งความเงียบสงบของยามากุ ทั้งเส้นทางอนาคตใหม่ของฉันในเส้นทางวิทยาศาสตร์ ทั้งมิตรภาพกับชิซูเนะ มิช่า\nฮานาโกะ และที่สำคัญที่สุดเลยก็คือเธอ"
@@ -3201,7 +3201,7 @@ show pills:
 with Pause (1.0)
 
 # "Sometimes I wonder what these things are even good for, given all the troubles I've had since the initial accident. I can't even say that it doesn't hurt to take them, considering the side effects so far."
-"ดูจากเรื่องทั้งหลายที่ต้องเจอมาหลังจากอุบัติเหตุครั้งนั้น บางทีฉันก็สงสัยว่ายาพวกนี้ช่วยอะไรได้จริง ๆ หรือเปล่า\nจะบอกว่ากิน ๆ ไปก็ไม่เสียหายก็ไม่ได้ เพราะผลข้างเคียงก็ทำให้รู้สึกว่ากินไปแล้วเหมือนจะเสียหายเหมือนกัน"
+"ดูจากเรื่องทั้งหลายที่ต้องเจอมาหลังจากเหตุการณ์ครั้งนั้น บางทีฉันก็สงสัยว่ายาพวกนี้ช่วยอะไรได้จริง ๆ หรือเปล่า\nจะบอกว่ากิน ๆ ไปก็ไม่เสียหายก็ไม่ได้ เพราะผลข้างเคียงก็ทำให้รู้สึกว่ากินไปแล้วเหมือนจะเสียหายเหมือนกัน"
 
 # "Well, whatever. Doctor's orders are that I have to take them, and rationality suggests that I'd be well served to trust his judgment over mine."
 "แต่เอาเถอะ หมอสั่งให้กินก็ต้องกินละนะ แล้วความเป็นเหตุผลในตัวก็บอกฉันด้วยว่าเชื่อเขาจะดีกับตัวกว่าเชื่อตัวเอง"
@@ -3464,7 +3464,7 @@ show lilly cane_oops_close
 with charachange
 
 # "She suddenly looks very sheepish, my remark no doubt hitting home. Lilly's sense of pride really can be a double-edged sword."
-"อยู่ ๆ ลิลลี่ก็ทำท่าอาย ๆ ดูท่าว่าที่พูดไปจะจี้ใจดำทีเดียว ศักดิ์ศรีของลิลลี่นี่นับว่าเป็นดาบสองคมได้เลยนะเนี่ย"
+"อยู่ ๆ ลิลลี่ก็ทำท่าอาย ๆ ดูท่าว่าที่พูดไปจะจี้ใจดำทีเดียว ทิฐิของลิลลี่นี่นับว่าเป็นดาบสองคมได้เลยนะเนี่ย"
 
 show lilly cane_smile_close
 with charachange
@@ -4100,7 +4100,7 @@ li "งั้นก็ดีแล้วละจ้ะฮานาโกะ ย
 "คงจะเพราะฉันเริ่มให้ความสนใจกับสิ่งต่าง ๆ รอบตัวมากขึ้นเรื่อย ๆ ทุกอย่างเกิดขึ้นด้วยความเร็วที่เพิ่มขึ้นเรื่อย ๆ จน\nฉันรู้สึกราวกับว่าหากมองไม่ละเอียดพอแล้วฉันจะพลาดบางอย่างไป"
 
 # "With the exams, my newfound love life, trying to fit in some studying regarding my options for college and university, and my heart condition applying the brakes on everything at irritatingly random times, my brain's been in overdrive recently."
-"ช่วงนี้สมองของฉันต้องทำงานหนัก ด้วยว่ามีทั้งเรื่องสอบ ชีวิตรักที่เพิ่มเริ่มต้น การหาเวลาศึกษาเส้นทางการเรียนต่อ\nพร้อมหัวใจของฉันที่จะมาหยุดให้ฉันสะดุดเป็นพัก ๆ อย่างน่าหงุดหงิด"
+"ช่วงนี้สมองของฉันต้องทำงานหนัก ด้วยว่ามีทั้งเรื่องสอบ ชีวิตรักที่เพิ่งเริ่มต้น การหาเวลาศึกษาเส้นทางการเรียนต่อ\nพร้อมหัวใจของฉันที่จะมาหยุดให้ฉันสะดุดเป็นพัก ๆ อย่างน่าหงุดหงิด"
 
 # "It makes me appreciate the rare quiet times such as these."
 "จนฉันรู้สึกยินดีเหลือเกินที่ได้มีเวลาสงบ ๆ ซึ่งหาได้ยากเช่นนี้"
@@ -4654,7 +4654,7 @@ li "ฮิซาโอะ…"
 "…และสมาธิฉันก็กระเจิงอีกครั้งเมื่อแตะมาถึงชุดนอนที่รับกับส่วนโค้งเว้าของร่างกายเธอเป็นอย่างดี"
 
 # "If she's like this, then that means she has to be sitting against her bed and facing me. Now, to continue."
-"ถ้าอยู่ท่านี้ แปลว่าลิลลี่กำลังนั่งบนเตียงหันหน้ามาทางฉันอยู่ เอาละ ทีนี้ก็ไปต่อ"
+"ถ้าอยู่ท่านี้ แปลว่าลิลลี่กำลังนั่งพิงเตียงหันหน้ามาทางฉันอยู่ เอาละ ทีนี้ก็ไปต่อ"
 
 # "…All right, this must be her hip. If I just move slowly downwards…"
 "…โอเค ตรงนี้ต้องเป็นเอวแน่ ๆ ถ้าเลื่อนลงมาช้า ๆ …"
@@ -4721,7 +4721,7 @@ scene evh lilly_masturbate_come
 with flash
 
 # "No sooner do I realize how close to the edge Lilly's become, that her breath catches. Her eyes clasp shut as every muscle in her body seems to contract, and she unmistakably reaches her climax."
-"ไม่นานฉันก็เห็นว่าลิลลี่เข้าใกล้มากแล้ว และเธอก็สะอึกไปแล้วหลับตาแน่นทั้งตัวหดเกร็งชัดว่าเธอไปถึงฝั่งแล้ว"
+"ไม่นานฉันก็เห็นว่าลิลลี่เข้าใกล้ฝั่งมากแล้ว และเธอก็สะอึกไปแล้วหลับตาแน่นทั้งตัวหดเกร็งชัดว่าเธอไปถึงแล้ว"
 
 # "For only a scant few seconds she tightens, huddled in ecstasy before her body relaxes and a long, drained sigh comes from her lips."
 "ตัวของลิลลี่เกร็งอยู่ด้วยความรู้สึกอันวามไหวได้ชั่วขณะ จากนั้นเธอจึงคลายตัวพ่นลมหายใจยาวจากริมฝีปากเธอ"
@@ -7848,7 +7848,7 @@ with dissolvecharamove
 "แปลกที่ดันมารู้สึกเอาอย่างนี้ตอนที่ได้มองคนเดินออกไปจากยามากุ เป็นความรู้สึกอึดอัดอย่างตอนที่ฉันได้เดินผ่าน\nประตูเหล็กดัดสีดำซึ่งดูจะหรูหราเกินหน้าที่ไปมากบานนั้นเป็นครั้งแรก"
 
 # "As they leave, all of us know full well that our lives are irreversibly changing. I'd always told myself that I just have to take life as it comes, but everything's changing so fast, so suddenly."
-"ระหว่างที่พวกเราแยกจากกันน้น พวกเราต่างรู้ดีว่าชีวิตของเราจะเปลี่ยนไปแบบไม่อาจย้อนคืน ฉันบอกตัวเองเสมอ\nว่าจะต้องใช้ชีวิตไปตามสิ่งที่เกิด แต่ทุกอย่างก็เปลี่ยนไปอย่างรวดเร็วกะทันหันเหลือเกิน"
+"ระหว่างที่พวกเราแยกจากกันนั้น พวกเราต่างรู้ดีว่าชีวิตของเราจะเปลี่ยนไปแบบไม่อาจย้อนคืน ฉันบอกตัวเองเสมอ\nว่าจะต้องใช้ชีวิตไปตามสิ่งที่เกิด แต่ทุกอย่างก็เปลี่ยนไปอย่างรวดเร็วกะทันหันเหลือเกิน"
 
 # "In the end, Lilly's an irreplaceable part of the lives of both Hanako and me."
 "สุดท้ายแล้ว ลิลลี่ก็เป็นส่วนที่ไม่อาจมีอะไรมาแทนได้ในชีวิตของฮานาโกะกับฉัน"
@@ -8038,7 +8038,7 @@ hi "แล้วได้คิดเรื่องค่าเดินทา�
 ha "อื้ม คิดไว้หมดแล้วละ น่าจะลงตัวแล้ว นาโอมิบอกว่าวางแผนของฝั่งตัวเองไว้แล้วด้วยเหมือนกัน"
 
 # hi "You know that if you need anything you can just call, right? I gave you my number before. Any time of the day is fine."
-hi "เออเนี่ย ถ้าขาดเหลืออะไรก็โทร. หาฉันได้นะ เคยให้เบอร์ไปแล้วนี่ จะโทรมาตอนไหนก็ได้นะ"
+hi "เออเนี่ย ถ้าขาดเหลืออะไรก็โทร. หาฉันได้นะ เคยให้เบอร์ไปแล้วนี่ จะโทร. มาตอนไหนก็ได้นะ"
 
 show ev hana_library_smile
 with charachange
@@ -9028,7 +9028,7 @@ n "สิ่งสำคัญคือฉันต้องกลับมา�
 n "พอทิ้งตัวลงกับเตียงหมอนสีฟ้าพาสเทลก็ยุบตัวลงไปดื้อ ๆ ปลอกกับผ้าปูเตียงสาก ๆ นั้นนอนไม่สบายเอาเสียเลย"
 
 # n "Compared to the darkness of last night's events, the bright light of the room around me is striking. All it does, though, is emphasize how otherworldly places like this are."
-n "แสงสว่างในห้องนั้นขัดกับความมืดมิดจากเหตุการณ์เมื่อคืนก่อนโดยชัดเจน แต่ความสว่างในห้องนี้ก็ได้แต่เพียงย้ำว่า\nที่นี่นั้นเป็นที่ซึ่งปลึกแยกจากโลกภายนอกขนาดไหน"
+n "แสงสว่างในห้องนั้นขัดกับความมืดมิดจากเหตุการณ์เมื่อคืนก่อนโดยชัดเจน แต่ความสว่างในห้องนี้ก็ได้แต่เพียงย้ำว่า\nที่นี่นั้นเป็นที่ซึ่งปลีกแยกจากโลกภายนอกขนาดไหน"
 
 # n "\nArrhythmia."
 n "\nโรคหัวใจเต้นผิดจังหวะ"
@@ -9897,7 +9897,7 @@ show lilly basic_weaksmile_cas_close
 with charachange
 
 # li "I'll be okay, Akira."
-li "หนูอยู่ได้ค่ะพี่"
+li "หนูอยู่ได้น่าพี่"
 
 show akira basic_resigned_close
 with charachange
