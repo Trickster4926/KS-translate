@@ -2274,7 +2274,7 @@ hi "ฉันไม่เคยมาร้านอย่างนี้มา�
 "ก่อนที่ฉันจะทันได้พูดอะไรต่อก็มีบริกรร่างท้วมซึ่งใส่เสื้อกั๊กที่เห็นแล้วอึดอัดแทนเดินมารับรายการที่โต๊ะเรา"
 
 # hi "Provençal Tuna Salade Niçoise, please. Two."
-hi "‘{i}Provençal Tuna Salade Niçoise{/i}’ (สลัดนิสปลาทูน่าแบบพรอว็องส์) สองที่ครับ"
+hi "‘{size=18}{font=font/playtime.ttf}{i}Provençal{/i} {i}Tuna Salade Niçoise{/i}{/font}{/size}’ (สลัดนิสปลาทูน่าแบบพรอว็องส์) สองที่ครับ"
 
 # "I hope I didn't mess up the pronunciation of that too badly. Even if I did, he doesn't show it."
 "หวังว่าจะไม่ได้ออกเสียงเพี้ยนมากนะ หรือถ้าเพี้ยนจริงก็แปลว่าบริกรเก็บอาการได้เก่งมาก"
