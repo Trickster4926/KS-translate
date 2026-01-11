@@ -346,19 +346,19 @@ play music music_daily fadein 1.0
 nvl show dissolve
 
 # n "\n\nA guy casually prowling around the girls' dorm early in the morning is unacceptable, but asking Misha about sign language classes in front of Shizune would be just unthinkable."
-n "\n\nการที่ผู้ชายย่องเข้ามาเพ่นพ่านบริเวณหอหญิงแต่เช้าตรู่อย่างนี้นั้นเป็นสิ่งที่ยอมรับไม่ได้ก็จริง แต่ถ้าอย่าหวังเลยว่าจะให้\nไปถามเรื่องวิชาภาษามือกับมิช่าต่อหน้าชิซูเนะ"
+n "\n\nการที่ผู้ชายย่องเข้ามาป้วนเปี้ยนอยู่บริเวณหอหญิงแต่เช้าตรู่อย่างนี้นั้นเป็นสิ่งที่ยอมรับไม่ได้ก็จริง แต่ถ้าอย่าหวังเลยว่า\nฉันจะไปถามเรื่องวิชาภาษามือกับมิช่าต่อหน้าชิซูเนะ"
 
 # n "She has to come to school sometime. After all, we're in the same class, so she too has to take this test."
-n "เดี๋ยวก็คงมาเรียนแหละ เรียนอยู่ห้องเดียวกันนี่นะ ซึ่งแปลว่าจะต้องมาสอบรอบนี้เหมือนกันด้วย"
+n "สักพักก็คงมา เรียนอยู่ห้องเดียวกันนี่นะ ซึ่งแปลว่าจะต้องมาสอบรอบนี้เหมือนกันด้วย"
 
 # n "If I wait here, I'll be sure to see her sooner or later."
-n "ถ้ารออยู่ตรงนี้เดี๋ยวก็คงได้เจอแหละ"
+n "ถ้ารออยู่ตรงนี้เดี๋ยวก็ได้เจอแหละ"
 
 # n "I just hope she doesn't walk past me while I'm flipping through my notes."
 n "หวังว่าจะไม่เดินผ่านไปตอนที่ฉันกำลังอ่านสมุดจดอยู่นี่นะ"
 
 # n "\n\nIt turns out to be a pretty long wait. As students file into the school, I wonder if Misha is going to be late."
-n "\n\nซึ่งก็ต้องรอนานทีเดียว ระหว่างที่คนเริ่มทยอยเข้าโรงเรียนมาฉันก็นึกสงสัยว่ามิช่าจะเข้าเรียนสายหรือเปล่า"
+n "\n\nซึ่งก็ต้องรอนานทีเดียว ระหว่างที่คนเริ่มทยอยเข้าโรงเรียนมาฉันก็นึกสงสัยว่ามิช่าจะมาสายหรือเปล่า"
 
 # n "Eventually I catch sight of her. While she bounces across the grounds, it hits me that I'd have to be blind to miss her with her incredibly distinctive hair."
 n "จนในที่สุดมิช่าก็โผล่ออกมา พอเห็นมิช่าที่โลดโผนผ่านลานไปแล้วฉันก็นึกได้ว่าถ้าไม่เห็นผมที่โดดเด่นสะดุดตา\nของเธอฉันก็คงต้องตาบอดแล้ว"
@@ -429,7 +429,7 @@ show misha hips_grin
 with charachange
 
 # mi "Are you thinking of learning sign language, Hicchan?"
-mi "นี่นายนึกอยากเรียนภาษามือเหรอฮิจัง"
+mi "นี่ฮิจังนึกอยากเรียนภาษามือเหรอ"
 
 # hi "…Yeah."
 hi "…อืม"
@@ -486,7 +486,7 @@ stop music fadeout 4.0
 play sound sfx_warningbell
 
 # "The bell rings to signal the start of first period, cutting our conversation short. I guess I'll just ask a teacher after classes are through."
-"ระฆังดังเป็นสัญญาณว่าคาบแรกเริ่มแล้วจนเราสองคนต้องปิดบทสนทนาไป เดี๋ยวเลิกเรียนอะไรแล้วค่อยไปถามครู\nก็แล้วกัน"
+"ระฆังดังเป็นสัญญาณว่าคาบแรกเริ่มแล้ว เราสองคนต้องปิดบทสนทนาไป เดี๋ยวเลิกเรียนอะไรแล้วค่อยไปถามครู\nก็แล้วกัน"
 
 # "Her reaction was a little strange, but I forget about it as the day goes on."
 "ท่าทีมิช่าดูแปลกเล็กน้อย แต่เมื่อเวลาในวันนั้นผ่าน ๆ ไปแล้วฉันก็ลืมเรื่องนั้น"
@@ -504,87 +504,87 @@ with locationchange
 play sound sfx_normalbell
 
 # "The bell rings and the teacher at the front of the room gestures that classes are over for the day."
-""
+"เมื่อระฆังดังครูที่อยู่หน้าห้องก็ทำท่าบอกว่าเลิกเรียนแล้ว"
 
 play music music_normal fadein 3.0
 
 # "Although getting into this class was surprisingly easy, it's only been a few days and I'm still not used to the experience. The actual signing is easier to pick up than I expected, but most of my classmates are hard of hearing."
-""
+"ถึงจะเข้าเรียนได้ง่ายผิดคาด แต่ก็เพิ่งเรียนมาได้ไม่กี่วัน และฉันก็ยังไม่ชินกับการเรียนวิชานี้ด้วย การทำภาษามือ\nจริง ๆ แล้วนั้นง่ายกว่าที่ฉันคิด ทว่าคนในห้องส่วนใหญ่มีปัญหาทางการได้ยิน"
 
 # "On top of that, the teacher favors immersion. I haven't heard her speak since I asked if I could take the class. It's an alien concept, and really unnerving."
-""
+"และที่ยิ่งไปกว่านั้นคือครูชอบแนวการเรียนรู้แบบได้สัมผัสจริง ฉันไม่ได้ยินครูพูดสักคำเลยนับตั้งแต่ที่ฉันมาขอเข้าเรียน\nด้วย เป็นอะไรที่ประหลาดสำหรับฉันจนทำให้รู้สึกไม่ดี"
 
 scene bg school_hallway3
 with locationchange
 
 # "The moment I step out of the classroom, I hear a familiar laugh explode through the air a short distance to my left."
-""
+"ทันทีีที่เดินออกห้องมาก็ได้ยินเสียงหัวเราะอันคุ้นเคยดังระเบิดอยู่ไม่ไกลอยู่ทางซ้ายมือ"
 
 show misha hips_grin at center
 with charaenter
 
 # mi "Hi, Hicchan~!"
-mi ""
+mi "ไงฮิจัง~!"
 
 # "Misha's not in my sign language class, so this is the first time I've seen her in this context. I still don't know whether her not being in my class is good or bad."
-""
+"มิช่าไม่ได้เรียนวิชาภาษามือด้วยกันกับฉัน ครั้งนี้จึงเป็นครั้งแรกที่ได้เห็นมิช่าอยู่ตัวคนเดียวอย่างนี้ ซึ่งฉันก็ไม่รู้\nเหมือนกันว่าการที่มิช่าไม่ได้เรียนด้วยนั้นดีหรือไม่ดี"
 
 # "It would be more interesting with her in it, but the potential for awkward situations would increase drastically."
-""
+"ถ้ามิช่าเรียนด้วยก็คงน่าสนใจหน่อย แต่ก็มีโอกาสที่สถานการณ์อะไร ๆ จะอึดอัดสูงมาก"
 
 # hi "Hi."
-hi ""
+hi "ไง"
 
 show misha sign_smile
 with charachange
 
 # mi "It's a surprise to see you here, Hicchan! …Ah, that's right! You're taking sign language, aren't you~? Right~!"
-mi ""
+mi "แปลกจังที่มาเจอฮิจังตรงนี้! …อ้อ จริงสิ! นายเรียนภาษามือแล้วนี่ ใช่มั้ย~ ช่าย~!"
 
 show misha perky_smile
 with charachange
 
 # mi "What do you think of it so far, Hicchan?"
-mi ""
+mi "เป็นไงบ้างล่ะฮิจัง"
 
 # hi "It's not easy to learn a new language, but I think I'm getting the hang of it. Despite how different it is from other languages, it's still easier than English."
-hi ""
+hi "เรียนภาษาใหม่น่ะไม่ง่ายหรอก แต่ก็รู้สึกว่าเริ่มทำได้แล้วละ ถึงจะไม่เหมือนภาษาอื่นเลย แต่ก็ง่ายกว่าภาษาอังกฤษละนะ"
 
 show misha cross_grin
 with charachange
 
 # mi "Haha~! Really, Hicchan?"
-mi ""
+mi "ฮ่าฮ่า~! จริงเหรอฮิจัง"
 
 show misha cross_smile
 with charachange
 
 # mi "Hm~… I agree~!"
-mi ""
+mi "อืม~… เห็นด้วย~!"
 
 # "I was just joking, but she's apparently totally serious."
-""
+"เมื่อกี้พูดเล่นหรอก แต่เหมือนว่ามิช่าจะคิดว่าฉันพูดจริง"
 
 # "I wonder how Misha can effortlessly translate things to me while simultaneously having a conversation with Shizune in a different language like she does."
-""
+"มิช่าต้องคอยแปลอะไรให้ฉันฟังไปพลางคุยกับชิซูเนะโดยใช้คนละภาษา แล้วทำยังไงถึงได้สนทนาได้ราบรื่น\nขนาดนั้นกันนะ"
 
 # "Until now, I've taken for granted how amazing it is."
-""
+"ก่อนหน้านี้ฉันไม่เคยฉุกคิดเลยว่าสิ่งที่มิช่าทำนั้นน่าทึ่งขนาดไหน"
 
 # "Someone bumps into my shoulder and apologizes. It's getting kind of crowded here, what with it being the end of the day and all."
-""
+"มีคนมาชนเข้ากับไหล่ฉันแล้วขอโทษ คนเริ่มเยอะแล้วเพราะเป็นเวลาเลิกเรียน"
 
 # hi "I think we should talk somewhere else instead of the hallway. Let's go to the roof or something."
-hi ""
+hi "ไปคุยที่อื่นแทนที่จะยืนอยู่ตรงโถงทางเดินอย่างนี้กันเถอะ ดาดฟ้าหรืออะไรงี้"
 
 show misha sign_smile
 with charachange
 
 # mi "Okay~!"
-mi ""
+mi "โอเค~!"
 
 # "I decide to continue talking on the way. It's surprisingly quiet enough to carry on a conversation while doing so."
-""
+"ฉันเดินไปพลางคุยไปพลาง บรรยากาศนั้นเงียบจนคุยกันได้อย่างง่ายเหลือเชื่อ"
 
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 1.0
@@ -595,10 +595,10 @@ with locationchange
 stop music fadeout 5.0
 
 # hi "It's still taking me some time to get used to having to look at the teacher constantly. I guess I took all those years of simply listening to the lectures while I doodled for granted. It makes taking notes a lot more difficult, too."
-hi ""
+hi "ฉันก็ปรับตัวเองให้พยายามมองครูตลอดเวลาอยู่ สงสัยสมัยก่อนที่เรียนฉันคงแค่ฟัง ๆ ครูแล้วเอาแต่วาดเล่นอะไรไม่รู้มั้ง\nแล้วพอมองครูตลอดก็จะจดอะไรได้ยากด้วย"
 
 # hi "The introductory class is small, and I'm already behind. I guess I have a lot of stuff to do."
-hi ""
+hi "วิชาที่เป็นขั้นเบื้องต้นก็คนน้อย แถมฉันก็เรียนไม่ทันอีกต่างหาก คงมีอะไรที่ต้องทำอีกเยอะ"
 
 play sound sfx_door_creak
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
@@ -607,10 +607,10 @@ scene bg school_roof
 with locationchange
 
 # hi "Yeah, this is much better."
-hi ""
+hi "เอ้อ แบบนี้สิค่อยดีหน่อย"
 
 # "I turn around to look back at Misha and see her staring at me with her hands on her hips and her cheeks puffed outwards."
-""
+"พอหันไปมองก็เห็นว่ามิช่ายืนเท้าสะเอวทำแก้มป่องจ้องมาอยู่"
 
 show misha hips_frown
 with charaenter
@@ -618,244 +618,243 @@ with charaenter
 play music music_happiness fadein 4.0
 
 # mi "Hicchan, you're behind? That's not good at all!"
-mi ""
+mi "ฮิจังเรียนไม่ทันเหรอ ไม่ดีเลยนะ!"
 
 # hi "I started the class a week later than everyone else. It's not that bad."
-hi ""
+hi "ก็ฉันมาเข้าเรียนช้ากว่าคนอื่นไปหนึ่งสัปดาห์ แต่ไม่ได้แย่ขนาดนั้นหรอก"
 
 show misha sign_smile
 with charachange
 
 # mi "Okay, Hicchan, let's review what you learned, then~! I'll tutor you, okay~?"
-mi ""
+mi "โอเคฮิจัง งั้นมาทบทวนกันดีกว่า~! เดี๋ยวสอนให้เอง โอเคนะ~"
 
 # "This is the first time I've heard “I'll tutor you” used outside of dirty movies; I'm not nearly as turned on as I'd have expected."
-""
+"เป็นครั้งแรกที่ฉันได้ยินวลี “เดี๋ยวสอนให้เอง” โดยที่ไม่ได้เป็นหนังอย่างว่า และฉันก็ไม่ได้รู้สึกตื่นตัวเหมือนที่คาด\nเอาไว้เลย"
 
 # hi "I don't know if I need a tutor yet."
-hi ""
+hi "ฉันยังไม่แน่ใจเลยว่าต้องการคนมาสอนให้หรือยัง"
 
 show misha perky_sad
 with charachange
 
 # mi "Aw…"
-mi ""
+mi "โธ่…"
 
 # "She looks more disappointed than usual. It makes me feel awkward to see her making that kind of face."
-""
+"มิช่าดูผิดหวังกว่าทุกทีจนฉันอึดอัดที่เห็นเธอทำหน้าอย่างนั้น"
 
 show misha hips_frown
 with charachange
 
 # mi "I want to be a sign language teacher, Hicchan! But~, it would really be great if I could try tutoring someone in it, first. Even if it's for a little while, the experience would be valuable."
-mi ""
+mi "ฉันอยากเป็นครูสอนภาษามือละฮิจัง! แต่ว่า~ ถ้าได้ลองสอนใครสักคนก่อนก็คงดีมากเลย ถึงจะแค่ลองสอนไม่นาน\nแต่ประสบการณ์ที่ได้คงมีค่ามากเลยละ"
 
 # hi "Ah, well, yeah, that's true."
-hi ""
+hi "เอ่อ เอ้อ อืม ก็จริง"
 
 # hi "I didn't know you wanted to be a sign language teacher."
-hi ""
+hi "ไม่ยักรู้ว่าเธออยากเป็นครูสอนภาษามือ"
 
 # "It's hard to believe she isn't intentionally trying to make me feel guilty, because she's very good at it."
-""
+"ไม่ค่อยอยากเชื่อเลยว่ามิช่าไม่ได้จงใจจะพูดให้ฉันรู้สึกผิด เพราะมิช่าทำให้ฉันรู้สึกผิดได้เก่งมาก"
 
-# "Still, it makes sense. She's very good at sign language already from what I've seen, and certainly has the voice for dealing with the hearing impaired. I never saw her as the teaching type, though."
-""
+# "Still, it makes sense. She's very good at sign language already from what I've seen,  and certainly has the voice for dealing with the hearing impaired. I never saw her as the teaching type, though."
+"แต่ก็สมเหตุสมผลอยู่ เท่าที่เห็นแค่นี้มิช่าก็เก่งภาษามือสุด ๆ แล้ว และแน่แท้ว่าเสียงดังฟังชัดพอที่จะอยู่กับคนที่\nมีปัญหาทางการได้ยิน แต่ฉันไม่เคยนึกภาพมิช่าในฐานะครูเลย"
 
 show misha hips_grin
 with charachange
 
 # mi "Hahaha~! It's the reason why I wanted to go to this school, Hicchan!"
-mi ""
+mi "ฮ่าฮ่าฮ่า~! เพราะแบบนี้แหละฉันถึงได้อยากมาเรียนที่นี่น่ะฮิจัง!"
 
 show misha sign_smile
 with charachange
 
 # mi "It's also really expensive to attend here, you know. Because I want to be a sign language teacher, I have reduced tuition fees. If it wasn't for that, I don't know if I'd be able to keep going here."
-mi ""
+mi "ก็เนี่ย ค่าเทอมโรงเรียนนี้น่ะแพงมาก เพราะฉันอยากเป็นครูสอนภาษามือถึงได้รับส่วนลดค่าเทอม ถ้าไม่ได้\nส่วนลดนะ ฉันไม่รู้ว่าจะยังจ่ายไหวอยู่หรือเปล่า"
 
 # hi "I see. It's not that I think you would be bad at tutoring, it's just that I don't know if I need it just yet."
-hi ""
+hi "อย่างนี้นี่เอง ไม่ใช่ว่าฉันคิดว่าเธอสอนไม่ดีนะ แค่ยังไม่แน่ใจว่าต้องให้ใครมาสอนหรือยัง"
 
 show misha perky_sad
 with charachange
 
 # mi "You're right, Hicchan, you're smart."
-mi ""
+mi "ถูกของฮิจัง นายฉลาดนี่"
 
 # hi "Well, no, that just makes me sound arrogant."
-hi ""
+hi "เอ้อ ไม่สิ พูดงั้นแล้วเหมือนอวดเก่งเลย"
 
 # hi "All right, please tutor me."
-hi ""
+hi "ก็ได้ สอนฉันทีสิ"
 
 show misha cross_laugh
 with charachange
 
 # mi "Ahahaha~! Really? Okay~! Okay okay okay~! Yay~! Thanks, Hicchan~! I'll do my best!"
-mi ""
+mi "อะฮ่าฮ่าฮ่า~! จริงเหรอ โอเค~! โอเค โอเค โอเค~! เย้~! ขอบใจนะฮิจัง~! จะทำให้เต็มที่เลย!"
 
 show misha sign_smile
 with charachange
 
 # mi "Let's start right now~!"
-mi ""
+mi "มาเริ่มกันเลย~!"
 
 # hi "Too soon."
-hi ""
+hi "เร็วไป"
 
 show misha perky_sad
 with charachange
 
-# "…"
-""
+"…"
 
 # mi "I miss Shicchan~…"
-mi ""
+mi "คิดถึงชิจังจัง~…"
 
 # hi "Didn't you just see her this morning?"
-hi ""
+hi "ก็เพิ่งเจอหน้ากันไปเช้านี้ไม่ใช่เหรอ"
 
 show misha sign_smile
 with charachange
 
 # mi "But it's hard to talk to her in class, Hicchan! There's no Student Council today, either~."
-mi ""
+mi "แต่ตอนเรียนแทบไม่ได้คุยกันเลยน่ะสิฮิจัง! วันนี้ก็ไม่มีสภานักเรียนด้วย~"
 
 # hi "Well, there have been exams all week. I'd be kind of mad if there was still Student Council; I'll be glad when they are over."
-hi ""
+hi "ก็สอบทั้งสัปดาห์นี่ ถ้ายังมีสภานักเรียนอีกฉันก็คงโกรธอะ ถ้าหลุดพ้นอะไรทั้งหมดแล้วคงโล่งน่าดู"
 
 show misha perky_confused
 with charachange
 
 # mi "When it's back, you're not going to skip out, right, Hicchan?"
-mi ""
+mi "ถ้ากลับมามีสภานักเรียนอีกรอบฮิจังคงไม่โดดใช่มั้ย"
 
 # hi "Of course. I'm in it, after all."
-hi ""
+hi "ไม่โดดสิ ก็ฉันเป็นสภานักเรียนนี่"
 
 # hi "Don't worry, I'm not going to just suddenly stop showing up. A promise is a promise."
-hi ""
+hi "ไม่ต้องห่วงหรอก ฉันไม่หายไปดื้อ ๆ แน่นอน สัญญาแล้วก็ต้องทำ"
 
 # "Misha pauses for a second, not looking very convinced."
-""
+"มิช่าเว้นช่วงไปแวบหนึ่งพร้อมสีหน้าที่เหมือนไม่ค่อยเชื่อ"
 
 show misha sign_smile
 with charachange
 
 # mi "Shicchan takes the Student Council very seriously, Hicchan. Now that you've joined, she works harder than before since she wants to make a good impression."
-mi ""
+mi "ชิจังน่ะจริงจังกับสภานักเรียนมากเลยนะฮิจัง แถมพอนายได้เป็นสภานักเรียนด้วยชิจังก็ยิ่งทำงานหนักกว่าเก่า\nเพราะอยากให้ฮิจังประทับใจ"
 
 show misha hips_frown
 with charachange
 
 # mi "Some other people joined, at first, but they stopped coming soon after. Shicchan tried to get more people interested in the Student Council but wasn't successful."
-mi ""
+mi "ตอนแรกก็พอจะมีคนมาเป็นสภานักเรียนอยู่หรอก แต่แป๊บ ๆ ก็ไม่มากัน ชิจังก็พยายามทำให้คนหันมาสนใจ\nสภานักเรียนนะ แต่ก็ไม่ประสบความสำเร็จเลย"
 #This directly contradicts both A22's and Suriko's current take on the Student Council. It's okay as long as it's understood that the extra help only lasted one or two weeks at most. Thus edited to clarify. -SC
 
 show misha perky_sad
 with charachange
 
 # mi "Even when someone would join, they'd stop coming eventually. They'd make excuses and just put it off more and more until they stopped coming altogether."
-mi ""
+mi "หรือพอมีคนมาร่วม เดี๋ยวเดียวก็ไม่มาอีกแล้ว อ้างนู่นอ้างนี่ไม่ยอมมาสักทีจนหายหน้าหายตาไปเลย"
 
 show misha sign_smile
 with charachange
 
 # mi "However… I believe that you really mean it, Hicchan."
-mi ""
+mi "แต่ว่า… ฉันเชื่อว่าฮิจังจริงจังนะ"
 
 # "My eyes stay focused on her hands, tilting and moving almost of their own free will, softly signing everything she is saying to herself as she speaks."
-""
+"ตาฉันจดจ้องอยู่ที่มือมิช่าที่ขยับไปทางนั้นทีทางนี้ทีโดยอัตโนมัติเป็นการกึ่ง ๆ ทำภาษามือแปลไปตามสิ่งที่ตัวเองพูด"
 
-# play music music_happiness fadein 3.0
+#play music music_happiness fadein 3.0
 
 show misha perky_smile
 with charachange
 
 # mi "When you said you would join, she was really happy."
-mi ""
+mi "ตอนที่ฮิจังบอกว่าจะเข้าร่วมน่ะชิจังดีใจมากเลยนะ"
 
 show misha hips_smile
 with charachange
 
 # mi "Shicchan thinks you're interesting, Hicchan. An uninteresting person won't have the drive needed to join. Even if they do, a person that isn't interesting will quit soon after."
-mi ""
+mi "ชิจังมองว่าฮิจังน่ะน่าสนใจ คนที่ไม่น่าสนใจคงไม่มีกะจิตกะใจจะมาร่วมหรอก หรือต่อให้มาร่วม คนที่ไม่น่าสนใจก็จะ\nอยู่ได้ไม่นาน"
 
 # mi "That's what Shicchan said."
-mi ""
+mi "ชิจังว่างั้นนะ"
 
 show misha hips_grin
 with charachange
 
 # mi "So~! It's my duty to make sure you keep going~!"
-mi ""
+mi "เพราะงั้น~! ก็เป็นหน้าที่ของฉันที่ต้องคอยดึงให้นายอยู่ต่อ~!"
 
 # hi "Is that why you want to tutor me? You're kind of sneaky."
-hi ""
+hi "เพราะงี้เหรอถึงได้อยากสอนฉัน เจ้าเล่ห์เหมือนกันนะเธอเนี่ย"
 
 show misha cross_laugh
 with charachange
 
 # mi "Really, Hicchan? That's the first time anyone has said that about me~! Wahahaha~!"
-mi ""
+mi "จริงเหรอฮิจัง ไม่เคยมีคนบอกว่าฉันเจ้าเล่ห์เลยนะ~! วะฮ่าฮ่าฮ่า~!"
 
 # "There's no chance that I would avoid student council work now."
-""
+"จะให้เลี่ยงงานสภานักเรียนตอนนี้คงไม่ทันแล้ว"
 
 # "Thinking back over the past few days, I've started to realize that the only reason I joined in the first place was because of Shizune; her competitiveness and force of will are alluring."
-""
+"พอลองย้อนนึกถึงเมื่อไม่กี่วันที่ผ่านมาก็นึกได้ว่าที่ฉันมาเข้าร่วมสภานักเรียนเลยก็เพราะชิซูเนะนั่นแหละ ความ\nชอบแข่งขันกับพลังใจของเธอนั้นดึงดูดฉัน"
 
 # "I can't tell Misha that, though."
-""
+"แต่จะบอกมิช่าว่างั้นไม่ได้หรอก"
 
 show misha sign_smile
 with charachange
 
 # mi "Okay, Hicchan, let's review what you learned in class today~!"
-mi ""
+mi "โอเคฮิจัง งั้นมาทบทวนสิ่งที่นายเรียนไปวันนี้กันดีกว่า~!"
 
 # hi "You don't even know what I learned in class today."
-hi ""
+hi "เธอยังไม่รู้เลยนะว่าวันนี้ฉันเรียนอะไร"
 
 show misha hips_grin
 with charachange
 
 # mi "Hm~, you're right, Hicchan~! Okay, let's start with the basics, then~! I'll just teach you everything from the beginning~!"
-mi ""
+mi "อืม~ ถูกของฮิจัง~! โอเค งั้นเริ่มจากพื้นฐานก่อนแล้วกัน~! ฉันจะสอนทุกอย่างให้ตั้งแต่ศูนย์เลย~!"
 
 # hi "You're kidding, right?"
-hi ""
+hi "นี่ล้อเล่นใช่มั้ยเนี่ย"
 
 show misha perky_confused
 with charachange
 
 # mi "Huh~?"
-mi ""
+mi "หา~?"
 
 # hi "You're serious? That's like, days of lessons, and we're not even learning on the same level…"
-hi ""
+hi "เอาจริงเหรอ คือ ไอ้ที่ว่าน่ะต้องเรียนกันหลายคาบเลยนะ แล้วฉันกับเธอก็เรียนคนละระดับกันอีก…"
 
 show misha sign_smile
 with charachange
 
 # mi "It's like riding a bike, Hicchan~! You never forget the basics! Wahaha~!"
-mi ""
+mi "ก็เหมือนกับการขี่จักรยานแหละน่าฮิจัง~! เรื่องพื้นฐานน่ะไม่ลืมหรอก! วะฮ่าฮ่า~!"
 
 show misha sign_confused
 with charachange
 
 # mi "I don't know how to ride a bike, though~…"
-mi ""
+mi "แต่ฉันขี่จักรยานไม่เป็นนะ~…"
 
 # "Oh no."
-""
+"ตายละหวา"
 
 show misha hips_grin
 with charachange
 
 # mi "Right, right~. I want to be a teacher one day, so of course I know what I'm doing… Okay~! Okay okay okay~! We're starting~!"
-mi ""
+mi "จริงสิ จริงสิ~ ฉันอยากเป็นครูนี่ เพราะงั้นฉันก็ต้องเชี่ยวชาญเรื่องนี้อยู่แล้ว… โอเค~! โอเค โอเค โอเค~! จะเริ่มละนะ~!"
 
 stop music fadeout 3.0
 
@@ -863,43 +862,43 @@ show misha perky_confused
 with charachange
 
 # mi "Uh…"
-mi ""
+mi "เอ่อ…"
 
 show misha sign_confused
 with charachange
 
 # mi "…Mmm~…"
-mi ""
+mi "…อืมม~…"
 
 show misha perky_sad
 with charachange
 
 # mi "Ahahaha~…"
-mi ""
+mi "อะฮ่าฮ่าฮ่า~…"
 
 # "She looks like she's trying very hard, so this could be bad. Well, learning a language is vastly different from teaching it, and the first step is usually the hardest part. Honestly, I couldn't do any better."
-""
+"มิช่าทำท่าเหมือนกำลังพยายามอย่างหนักหน่วง ซึ่งไปได้ไม่สวยแน่ ก็นะ การเรียนภาษากับการสอนภาษา\nมันคนละเรื่องกันเลย และส่วนมากก้าวแรกก็เป็นก้าวที่ยากที่สุดด้วย ว่าตามตรง ฉันก็ไม่ต่างกันเท่าไหร่หรอก"
 
 # "Still…"
-""
+"แต่ว่า…"
 
 show misha sign_confused
 with charachange
 
 # mi "Um… Sign language was formally introduced in the 18th century by a Frenchman named… ah… whose name I can't pronounce, and he started the first public school for the deaf in 1755, but the unwritten history of sign language is said to…"
-mi ""
+mi "เอ่อ… ในศตวรรษที่ 18 ได้มีชายชาวฝรั่งเศสที่ชื่อ… อ่า… ชื่อที่ฉันอ่านไม่ออก นำภาษามือมาใช้อย่างเป็นทางการ\nซึ่งเขาก่อตั้งโรงเรียนรัฐสำหรับคนหูหนวกในปีค.ศ. 1755 แต่ประวัติศาสตร์ของภาษามือที่ไม่ได้มีการจดบันทึกไว้นั้น\nว่ากันว่า…"
 
 show misha sign_sad
 with charachange
 
 # mi "I don't really know where to start. Sorry~… Well~, what better place to start than the history of sign language? Right~? Right~!"
-mi ""
+mi "ฉันไม่รู้ว่าจะเริ่มตรงไหนดีอะ ขอโทษที~… ก็นะ~ ถ้าจะเริ่มก็ต้องเริ่มที่ประวัติภาษามือนี่แหละ ใช่มั้ย~ ช่าย~!"
 
 show misha hips_grin
 with charachange
 
 # mi "No, wait, maybe the alphabet. Okay~, the alphabet it is, then!"
-mi ""
+mi "ไม่สิ เดี๋ยว เริ่มที่ตัวหนังสือน่าจะดีกว่า โอเค~ งั้นก็มาดูตัวหนังสือกัน!"
 
 play music music_another fadein 0.5
 
@@ -907,34 +906,34 @@ show misha sign_smile
 with charachange
 
 # mi "Okay, Hicchan~! This is pretty basic stuff, although some people think that this is all of signing, and forget there are all kinds of specific gestures and words."
-mi ""
+mi "โอเคฮิจัง~! เรื่องนี้เป็นเรื่องพื้นฐานเลย ถึงคนส่วนใหญ่จะมองว่าภาษามือก็มีแค่นี้แหละ แล้วก็ลืม ๆ ไปว่ายังมีคำ\nกับท่าทางที่เจาะจงอื่น ๆ อีกเยอะ"
 
 show misha hips_smile
 with charachange
 
 # mi "Although you can't really get anywhere else without the basics! This is A. Do you see it? Now, you try!"
-mi ""
+mi "แต่ถ้าไม่มีพื้นฐานก็จะทำอะไรไม่ได้หรอกนะ! อันนี้กอไก่ เห็นมั้ย ทีนี้นายลองทำบ้าง!"
 
 # hi "I already know this, though."
-hi ""
+hi "อันนี้ฉันรู้อยู่แล้วนี่"
 
 # "I humor her anyway."
-""
+"แต่ฉันก็ตามน้ำมิช่าไป"
 
 show misha hips_grin
 with charachange
 
 # mi "Hahaha! Yeah, that's it!"
-mi ""
+mi "ฮ่าฮ่าฮ่า! อื้ม แบบนั้นแหละ!"
 
 show misha sign_smile
 with charachange
 
 # mi "Now, this is B, and this is C."
-mi ""
+mi "ทีนี้ อันนี้ขอไข่ แล้วก็อันนี้คอควาย"
 
 # "Misha makes one symbol with each hand, without specifying which is which."
-""
+"มิช่าทำมือข้างละตัวอักษรโดยที่ไม่ได้บอกว่าข้างไหนเป็นตัวอะไร"
 
 show misha perky_smile
 with charachange
@@ -946,40 +945,40 @@ show misha hips_grin
 with charachange
 
 # mi "And now D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, VWXY 'n' Z~!"
-mi ""
+mi "ทีนี้ก็ฆอระฆัง ตอเต่า ถอถุง ฐอฐาน ฒอผู้เฒ่า ฑอมณโฑ ฏอปฏัก สอเสือ ศอศาลา ษอฤๅษี ซอโซ่ พอพาน ปอปลา\nผอผึ้ง ภอสำเภา หอหีบ ฮอนกฮูก บอใบไม้ รอเรือ วอแหวน ดอเด็ก ฎอชฎา ฟอฟัน ฝอฝา ลอลิง ฬอจุฬา จอจาน ยอยักษ์\nญอหญิง มอม้า นอหนู ณอเณร งองู ทอทหาร ธอธง ฉอฉิ่ง ชอช้าง ฌอเฌอ อออ่าง สระอิ อี อึ อือ ไม้โอ ไม้มลาย\nไม้ม้วน ไม้ยมก ไม้เอก โท ตรี จัตวา สระอำ อะ อุ เอ ทัณฑฆาต ไม้ไต่คู้ สระอา อู แอ ฤ ไม้หันอากาศ ไปยาลน้อย~!"
 
 # "Yeah, this is bad."
-""
+"อืม ไปได้ไม่สวยจริง ๆ"
 
 # hi "Do you think Shizune wants to do some student council work today anyway? We could go."
-hi ""
+hi "เธอว่าวันนี้ชิซูเนะอยากทำงานสภานักเรียนหรือเปล่า ไปช่วยกันดีมั้ย"
 
 show misha sign_smile
 with charachange
 
 # mi "Of course not, Hicchan~!! Come on, I'll do it again! A, B, C, D, E, F, G, H, I, J, K… Your turn~!"
-mi ""
+mi "ไม่เลยฮิจัง~!! เร็ว ๆ เดี๋ยวทำอีกรอบ! กอไก่ ขอไข่ คอควาย ฆอระฆัง ตอเต่า ถอถุง ฐอฐาน ฒอผู้เฒ่า ฑอมณโฑ\nฏอปฏัก… ตานาย~!"
 
 # hi "So there's really no student council work that needs doing, or anything like that?"
-hi ""
+hi "สรุปคือไม่มีงานสภานักเรียนอะไรเทือกนั้นให้ทำเลยเหรอ"
 
 show misha hips_smile
 with charachange
 
 # mi "What are you talking about, Hicchan? Come on, sign, sign~!"
-mi ""
+mi "พูดอะไรของนายน่ะฮิจัง เร็วสิ มือน่ะมือ~!"
 
 # hi "Like this?"
-hi ""
+hi "แบบนี้เหรอ"
 
 show misha sign_smile
 with charachange
 
 # mi "No, like this!"
-mi ""
+mi "ไม่ใช่ แบบนี้ต่างหาก!"
 
 # hi "Like…"
-hi ""
+hi "แบบ…"
 
 show misha perky_smile
 with charachange
@@ -988,54 +987,54 @@ show misha sign_smile
 with charachange
 
 # mi "This~!"
-mi ""
+mi "นี้~!"
 
 # hi "Uh… huh…"
-hi ""
+hi "อ่า… ฮะ…"
 
 show misha perky_sad
 with charachange
 
 # mi "I wish Shicchan was here, this would be so much easier with her. Hahaha, that's how sign language is taught most of the time, anyway, with two instructors~! Did you know that, Hicchan?"
-mi ""
+mi "ถ้าชิจังอยู่ด้วยก็ดีสิ จะได้สอนง่ายขึ้นเยอะเลย ฮ่าฮ่าฮ่า ก็นะ ปกติภาษามือสอนกันแบบนั้นนี่นา แบบว่าใช้สองคน\nสอนน่ะ~! ฮิจังรู้มั้ย"
 
 # hi "No."
-hi ""
+hi "ไม่"
 
 # "I let my brain run through what this would be like if Shizune were here."
-""
+"ฉันปล่อยให้สมองคิดไปว่าถ้าชิซูเนะอยู่ตรงนี้ด้วยแล้วจะเป็นยังไง"
 
-# "…"
-""
+"…"
 
 show misha hips_frown
 with charachange
 
 # mi "Hicchan~! Are you paying attention?"
-mi ""
+mi "ฮิจัง~! นี่นายฟังอยู่หรือเปล่า"
 
 # hi "Yeah."
-hi ""
+hi "อืม"
 
 show misha sign_smile
 with charachange
 
 # mi "Shicchan says that sign language is different from any other, because you have to think about everything before you say it. That means every word has more weight, Hicchan. Every single one is more important than normal."
-mi ""
+mi "ชิจังบอกว่าภาษามือไม่เหมือนภาษาอื่น ๆ ตรงที่ต้องคิดทุกอย่างก่อนพูดออกไป แปลว่าทุกคำจะมีน้ำหนักขึ้นนะฮิจัง\nทุก ๆ คำจะสำคัญกว่าคำในภาษาโดยปกติ"
 
 show misha cross_smile
 with charachange
 
 # mi "So~, pay attention, please."
-mi ""
+mi "เพราะงั้น~ โปรดตั้งใจฟังด้วย"
 
 show misha sign_smile
 with charachange
 
-"She continues her basic rundown of the basics of sign language. Eventually she starts talking about stuff I start to recognize." 
+# "She continues her basic rundown of the basics of sign language. Eventually she starts talking about stuff I start to recognize." 
+"มิช่ายังสอนภาษามือขั้นพื้นฐานต่อไปจนกระทั่งฉันเริ่มคุ้นหูกับสิ่งที่เธอพูดขึ้นมาแล้ว"
 
 # "In the end, I'm impressed. It took a bit of stumbling to get there, but as a teacher, she's pretty good when she's serious."
-""
+"สุดท้ายฉันก็ประทับใจกับมิช่า ถึงจะตะกุกตะกักไปบ้าง แต่ถ้าว่าเรื่องหน้าที่ครูแล้ว พอมิช่าเอาจริงก็ใช้ได้เหมือนกัน"
 
 stop music fadeout 4.0
 
@@ -1044,7 +1043,7 @@ show misha sign_smile_ss at center
 with shorttimeskip
 
 # "After awhile I start to notice that it's getting late, so I thank Misha, bid her goodbye, and go back to my dorm."
-""
+"สักพักพอเห็นว่าเริ่มเย็นแล้วจึงขอบคุณมิช่าแล้วบอกลากลับมาที่หอตัวเอง"
 
 stop ambient fadeout 1.0
 
@@ -1052,7 +1051,7 @@ scene bg school_dormhisao_ss
 with locationskip
 
 # "I learned a lot today."
-""
+"วันนี้ได้เรียนรู้อะไรเยอะเลย"
 
 scene black
 with dissolve
