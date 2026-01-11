@@ -14,22 +14,22 @@ nvl show dissolve
 play music music_dreamy fadein 5.0
 
 # n "\n\nThe next morning, I recall what a perfect night last night was. So much so that I can't stop thinking about it."
-n ""
+n "\n\nเช้าวันถัดมาฉันนึกถึงค่ำคืนอันสมบูรณ์แบบที่ผ่านมา ซึ่งสมบูรณ์แบบเสียจนฉันมัวแต่นึกถึงเวลานั้น"
 
 # n "It's probably not the most appropriate time to reminisce, since I have a test first period."
-n ""
+n "อาจจะเป็นจังหวะเหมาะที่สุดแล้วที่จะมาย้อนรำลึก เพราะคาบแรกมีสอบ"
 
 # n "Ah, it's so unfair. How can they do this? They hold a festival that is the culmination of what has to be at least a few weeks' worth of work on a Sunday, and then follow up with exams starting the very next morning?"
-n ""
+n "เฮ้อ ไม่ยุติธรรมเลย ทำแบบนี้ได้ยังไง มาจัดงานเทศกาลที่ต้องตระเตรียมกันมาสองสามสัปดาห์ในวันอาทิตย์ แล้วเช้า\nวันถัดมาก็สอบเลยเนี่ยนะ"
 
 # n "It's got to be some kind of sick joke."
-n ""
+n "ล้อกันเล่นหรือเปล่า"
 
 # n "I'm not too worried about it, but I wonder if they really couldn't have held off on this for at least another week."
-n ""
+n "ฉันก็ไม่ได้กังวลอะไรหรอก แต่เลื่อนไปอีกอย่างน้อยสักสัปดาห์ไม่ได้เหรอ"
 
 # n "\n\nWell, at least the weather this morning is nice enough that I can study outside before class."
-n ""
+n "\n\nเอาเถอะ อย่างน้อยเช้านี้ก็อากาศดีพอที่จะมานั่งอ่านหนังสือข้างนอกก่อนเข้าคาบเรียน"
 
 nvl hide dissolve
 
@@ -41,22 +41,21 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nIt's a lot more refreshing out here than it would be in the classroom. Not to mention with how quiet it is, I'm starting to think that everyone else will be sleeping in pretty late today."
-n ""
+n "\n\nข้างนอกนั้นปลอดโปร่งกว่าในห้องเรียนมาก ทั้งยังเงียบจนฉันเริ่มคิดว่าวันนี้ทุกคนนอนตื่นสายกันน่าดู"
 
 # n "I put down the notes I'm reviewing for a second and stare out at the school grounds, still littered with festival stalls."
-n ""
+n "ฉันวางสมุดจดที่กำลังอ่านอยู่แล้วมองไปที่ลานหน้าโรงเรียนที่ยังมีแผงจากงานเทศกาลอยู่"
 
 # n "Looking at them now in the daytime, without paper lanterns or crowds of people to draw my attention away from them, I notice something peculiar."
-n ""
+n "พอได้ดูตอนกลางวันโดยที่ไม่มีโคมกระดาษกับฝูงชนที่คอยดึงความสนใจไปจากตัวแผงแล้วฉันก็รู้สึกว่ามีอะไรบางอย่าง\nประหลาด ๆ"
 
 # n "A lot of the stalls that Shizune, Misha, and I visited last night also happen to be ones that we worked on."
-n ""
+n "แผงหลายแผงที่ฉันไปแวะด้วยกันกับชิซูเนะกับมิช่านั้นเป็นแผงที่พวกเราช่วยกันทำ"
 
-# n "\n…"
-n ""
+n "\n…"
 
 # n "\nThat's cute. Did Shizune come up with this? It had to be intentional, especially knowing her. Did she hope that I would catch on and see the fruit of our labors?"
-n ""
+n "\nน่ารักดีแฮะ ชิซูเนะเป็นคนคิดเหรอ ต้องจงใจแน่ ๆ ยิ่งชิซูเนะเป็นคนอย่างนั้นด้วย หวังให้ฉันได้สังเกตเห็นผลงาน\nที่พวกเราลงแรงทำกันเหรอ"
 
 play sound sfx_footsteps_soft fadein 5.0
 stop music fadeout 4.0
@@ -69,48 +68,46 @@ with charaenter
 window show
 
 # "I hear footsteps crunching the grass behind me and turn around. I feel slightly paranoid, but all I find is Shizune standing there with an innocuous look on her face."
-""
+"พอได้ยินเสียงฝีเท้าที่ย่ำหญ้าอยู่ฉันก็หันไปมอง พอเห็นชิซูเนะที่ยืนอยู่ตรงนั้นก็รู้สึกระแวงขึ้นมาเล็กน้อย แต่เธอก็เพียง\nทำหน้าซื่อ"
 
 play music music_shizune fadein 1.0
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # hi "Good morning."
-hi ""
+hi "อรุณสวัสดิ์"
 
 # "Why do I keep forgetting that she can't hear me?"
-""
+"ทำไมฉันถึงลืมอยู่เรื่อยเลยนะว่าชิซูเนะไม่ได้ยินฉันน่ะ"
 
 # "It's probably because I've gotten so used to Misha translating for both of us that I haven't actually run into many situations where I was forced to acknowledge Shizune's deafness and the problems that could stem from it."
-""
+"อาจจะเพราะฉันชินไปแล้วกับการที่มิช่าคอยเป็นคนแปลให้เราสองคนจนฉันไม่ต้องเผชิญหน้ากับการรับรู้ว่าชิซูเนะ\nเป็นคนหูหนวกและไม่ต้องเจอปัญหาเรื่องการสื่อสารด้วย"
 
 # "I think yesterday was the first."
-""
+"เมื่อวานน่าจะเป็นครั้งแรก"
 
 # "I give her a wave anyway. I can do at least this much, but I'm not even going to pretend for a minute that I could hold up a conversation with her, considering my ignorance of sign language."
-""
+"แต่ฉันก็โบกมือให้ชิซูเนะไป อย่างน้อยก็พอทำได้เท่านี้ละนะ แต่ฉันจะไม่ทำเป็นว่าฉันสื่อสารกับเธอได้เลย เพราะฉัน\nไม่รู้ภาษามือ"
 
 # "Would it be rude to just go back to my notes? I don't really know what else I could do."
-""
+"ถ้ากลับไปอ่านสมุดจดเมื่อกี้ต่อจะเป็นการหยาบคายมั้ยนะ ฉันก็ไม่รู้เหมือนกันว่าจะทำอะไรดี"
 
 # hi "Where's Misha?"
-hi ""
+hi "มิช่าอยู่ไหนเหรอ"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # hi "Not just because I can't understand you. You two are always together anyway, so I'm not used to seeing you apart."
-hi ""
+hi "ไม่ใช่แค่เรื่องว่าขาดคนแปลหรอก แต่พอดีปกติเธอสองคนก็อยู่ด้วยกันตลอด เลยไม่ชินที่เห็นพวกเธอแยกกันอยู่น่ะ"
 
 # "I know it's silly but for some reason talking to her makes me feel less awkward."
-""
+"รู้แหละว่าบ้า แต่พอได้คุยกับชิซูเนะแล้วก็รู้สึกอึดอัดน้อยลงยังไงไม่รู้"
 
 show shizu basic_normal2
 with charachange
@@ -122,28 +119,28 @@ show shizu behind_blank
 with charachange
 
 # "Surprisingly, she doesn't get mad at all. She starts signing; but it's different than usual. Shizune's hands move more slowly, and the gestures are simpler."
-""
+"ฉันแปลกใจที่ชิซูเนะไม่โกรธเลย เธอเริ่มทำภาษามือ แต่ดูต่างไปจากทุกที มือของเธอขยับไปช้า ๆ และก็เป็นท่าที่\nไม่ซับซ้อนมากด้วย"
 
 # "I quickly realize that this isn't sign language at all, but she's still attempting to communicate with me."
-""
+"ฉันนึกขึ้นได้ทันทีว่าสิ่งนี้นั้นไม่ใช่ภาษามือเลย แต่ชิซูเนะก็ยังพยายามที่จะสื่อสารกับฉัน"
 
 # hi "So is this the sign language equivalent of breaking it down into layman's terms?"
-hi ""
+hi "ถ้าให้เทียบกับภาษาพูดแล้วก็เหมือนการใช้คำง่าย ๆ มาอธิบายใช่มั้ย"
 
 show shizu behind_frown
 with charachange
 
 # "I'm terrified that if I attempt to gesticulate back, I'd just look like a total dumbass. The look on Shizune's face tells me that she is starting to think that trying to have any kind of back and forth like this is not exactly the best way to accomplish things."
-""
+"ฉันกลัวว่าถ้าได้ลองขยับมืออะไรตอบกลับไปแล้วก็จะดูเป็นคนโง่ขึ้นมาทันที สีหน้าของชิซูเนะบ่งบอกว่าการจะโต้ตอบ\nกันไปมาอย่างตอนนี้นั้นคงไม่ใช่ตัวเลือกที่ดีที่สุด"
 
 # "There has to be a better way."
-""
+"ต้องมีวิธีที่ดีกว่านี้สิ"
 
 # "Writing on a pad? Well, I do have paper and a pencil. What else, though?"
-""
+"เขียนลงสมุดเหรอ ก็มีกระดาษกับดินสออยู่นะ แล้วมีอะไรอีก"
 
 # "Cell phones? I don't really have much use for mine here, so I barely carry it around, and I don't know if Shizune even has one."
-""
+"โทรศัพท์เหรอ พอมาอยู่นี่แล้วฉันก็แทบไม่ได้ใช้เลยไม่ค่อยได้พกติดตัวเลย แล้วก็ไม่รู้ด้วยว่าชิซูเนะมีโทรศัพท์\nหรือเปล่า"
 
 show shizu adjust_happy
 with charachange
@@ -152,26 +149,27 @@ show shizu basic_normal
 with charachange
 
 # "She takes the initiative, holding up a finger to ask for a pause before pulling out a pad and pen from her bag and writing a single word on it:"
-""
+"ชิซูเนะเป็นฝ่ายเริ่มก่อน เธอชูนิ้วขึ้นมาเป็นการขอจังหวะแล้วควักสมุดกับปากกาออกมาจากกระเป๋าแล้วเขียน\nคำคำหนึ่ง"
 
 window hide
 
-$ written_note("Hello.")
+# $ written_note("Hello.")
+$ written_note("สวัสดี")
 
 show shizu basic_normal2
 with charachange
 
 window show
 
-# shi "…"
-shi ""
+shi "…"
 
 # "I stare blankly at her and receive a similar but somehow more intimidating stare in response. She nudges the pad in my direction forcefully, clearly wanting me to reply."
-""
+"ฉันทำหน้านิ่งมองชิซูเนะ ซึ่งเธอก็ทำหน้าคล้ายกัน แต่เป็นการจ้องตอบแบบกดดันมากกว่า ชิซูเนะชี้ ๆ สมุดมาทางฉัน\nแรง ๆ เป็นการบอกชัดว่ารอฉันตอบอยู่"
 
 window hide
 
-$ written_note("Good morning.")
+# $ written_note("Good morning.")
+$ written_note("อรุณสวัสดิ์")
 
 show shizu behind_smile
 with charachange
@@ -179,65 +177,70 @@ with charachange
 window show
 
 # "Shizune beams with a disproportionate amount of happiness. She starts twirling her pen triumphantly as she thinks about where to go from here."
-""
+"ชิซูเนะยิ้มแฉ่งดูมีความสุขเกินพอดี เธอขีด ๆ เขียน ๆ ด้วยความฮึกเหิมพลางคิดว่าจะเอายังไงต่อ"
 
 # hi "Oh, come on, it's not like we just invented fire."
-hi ""
+hi "โธ่เธอ พวกเราไม่ใช่มนุษย์ถ้ำที่เพิ่งค้นพบไฟนะ"
 
 show shizu basic_frown
 with charachange
 
 # "Shizune pushes up her glasses curtly, as if she had heard me, and then starts writing at a furious pace."
-""
+"ชิซูเนะดันแว่นจริงจังราวกับว่าได้ยินที่ฉันพูดแล้วเขียนด้วยความรวดเร็ว"
 
 window hide
 
-$ written_note("Use the notepad! Write write write write write write write write write write write write write write write write write write write write write!")
+# $ written_note("Use the notepad! Write write write write write write write write write write write write write write write write write write write write write!")
+$ written_note("ใช้สมุด! เขียน เขียน เขียน เขียน เขียน\nเขียน เขียน เขียน เขียน เขียน เขียน\nเขียน เขียน เขียน เขียน เขียน เขียน\nเขียน เขียน เขียน เขียน!")
 
 window show
 
 # "I'm confused; am I supposed to take it from her and write “okay” now?"
-""
+"ไม่เข้าใจ ตอนนี้ฉันต้องหยิบสมุดมาเขียนว่า “โอเค” เหรอ"
 
 # "This is about the furthest thing I could imagine from a smooth, flowing conversation. It makes me envy the ease with which Misha is able to communicate with Shizune."
-""
+"วิธีนี้ไม่ใช่วิธีที่ฉันจะคิดว่าใช้สนทนากันได้อย่างราบรื่นเลย อิจฉาแฮะที่มิช่าสื่อสารกับชิซูเนะได้คล่องขนาดนั้น"
 
 window hide
 
 show shizu behind_blank
 with charachange
 
-$ written_note("Are you studying for the test?")
+# $ written_note("Are you studying for the test?")
+$ written_note("อ่านเตรียมสอบอยู่เหรอ")
 
 window show
 
 # "I'm pretty sure I can get away with answering simple yes or no questions like this with nods."
-""
+"ถ้าคำถามง่าย ๆ ที่มีตัวเลือกแค่ใช่กับไม่อย่างนี้แค่พยักหน้าตอบก็คงได้อยู่"
 
 window hide
 
 show shizu adjust_smug
 with charachange
 
-$ written_note("You are here very early; most people sleep in late after the festival. That means you are abnormal.")
+# $ written_note("You are here very early; most people sleep in late after the festival. That means you are abnormal.")
+$ written_note("มาเช้าจังนะ ปกติคนอื่นพอมีงานเทศกาลแล้วจะนอนตื่นสายกัน แปลว่านายไม่ปกติ")
 
 window show
 
 # "…Is that so?"
-""
+"…งั้นเหรอ"
 
 window hide
 
-$ written_note("You're here too.")
+# $ written_note("You're here too.")
+$ written_note("เธอก็ตื่นเช้าเหมือนกันนี่")
 
 window show
 
 # "Before handing that response back to her, though, I remember what I'd noticed earlier, and add:"
-""
+"แต่ก่อนที่ฉันจะทันได้ยื่นคำตอบนั้นกลับไปให้ฉันก็นึกถึงสิ่งที่สังเกตได้เมื่อก่อนหน้าแล้วเสริมไปว่า"
 
 window hide
 
-$ written_note("You're here too.\n\nYesterday was fun. I noticed today that I built a lot of the stalls we went to. Maybe that's why they were so familiar. Was this another game?")
+# $ written_note("You're here too.\n\nYesterday was fun. I noticed today that I built a lot of the stalls we went to. Maybe that's why they were so familiar. Was this another game?")
+$ written_note("เธอก็ตื่นเช้าเหมือนกันนี่\n\nเมื่อวานสนุกมากเลย แต่เพิ่งมาเห็นวันนี้\nว่าแผงที่ไปแวะกันเมื่อวานหลายแผง\nเป็นแผงที่ฉันทำ ถึงว่ารู้สึกคุ้น ๆ\nนี่เธอวางแผนอีกแล้วเหรอ")
 
 show shizu behind_frown
 with charachange
@@ -245,21 +248,23 @@ with charachange
 window show
 
 # "She shakes her head from side to side indignantly."
-""
+"ชิซูเนะสั่นหัวไปมาด้วยความไม่พอใจ"
 
 window hide
 
-$ written_note("No tricks.")
+# $ written_note("No tricks.")
+$ written_note("เปล่าเลย")
 
 show shizu basic_normal2
 with charachange
 
-$ written_note("I thought that because you had made those stalls, they were the most important ones. We had to visit them, because everyone should be able to appreciate the fruit of their labors. I wanted you to be able to see and enjoy what you had done.")
+# $ written_note("I thought that because you had made those stalls, they were the most important ones. We had to visit them, because everyone should be able to appreciate the fruit of their labors. I wanted you to be able to see and enjoy what you had done.")
+$ written_note("ฉันก็เห็นว่าแผงที่นายทำน่ะคือแผงที่สำคัญ\nที่สุด ที่เราต้องไปแวะเพราะคนเราควรที่จะได้\nชื่นชมผลงานที่มาจากน้ำพักน้ำแรงของตัวเอง\nฉันอยากให้นายได้เห็นแล้วสนุกไปกับสิ่งที่ตัวเอง\nทำขึ้นมา")
 
 window show
 
 # "I'm sort of touched. Still, I have to wonder why she would go so out of her way, and I ask as much in my response."
-""
+"ซาบซึ้งเหมือนกัน แต่ก็สงสัยอยู่ดีว่าทำไมถึงต้องลงทุนขนาดนั้น ฉันจึงถามอย่างนั้นไป"
 
 window hide
 
@@ -268,39 +273,41 @@ with charachange
 
 stop music fadeout 3.0
 
-$ written_note("Because you were depressed.")
+# $ written_note("Because you were depressed.")
+$ written_note("ก็เห็นนายเครียด ๆ")
 
 window show
 
 # "I want to say that I was depressed for days, but stop. It's true, I was moping quite a bit, and not being too subtle about it half the time, either, so it's possible that she knew. Was everything she did just to cheer me up, then?"
-""
+"อยากจะบอกไปว่าฉันก็เครียดมาตั้งนานแล้ว แต่ก็ยั้งมือไว้ ก็จริง ใจฉันแห้งเหี่ยวอยู่ระยะหนึ่งเลย แถมทำหน้าไปตาม\nความรู้สึกทั้งอย่างนั้นเลยด้วย จะรู้ก็ไม่น่าแปลกอะไร งั้นแปลว่าทุกอย่างที่ชิซูเนะทำคือหวังจะให้ฉันสดใสขึ้นเหรอ"
 
 # hi "Thanks."
-hi ""
+hi "ขอบใจนะ"
 
 # "I mumble it before I can catch myself, but Shizune doesn't seem to care. I write it down instead, and she nods once, as if unused to it."
-""
+"พอพึมพำออกไปแล้วถึงนึกขึ้นได้ แต่ชิซูเนะก็ดูไม่ถืออะไร ฉันเขียนคำนั้นลงไปแทน เธอพยักหน้ารับหนึ่งครั้งราวกับ\nไม่ชินกับคำนี้"
 
 # "The silence between us grows more vast with each passing second, and there's nothing I can do to break it. Having to write everything down on paper kind of destroys any hope of trying to be casual."
-""
+"ยิ่งเวลาผ่านไปความเงียบระหว่างเราก็ยิ่งรู้สึกหนักขึ้น และฉันก็ไม่มีวิธีที่จะทำลายความเงียบนี้ได้เลย พอต้องเขียน\nทุกอย่างใส่กระดาษอย่างนี้แล้วก็เหมือนถูกปิดกั้นไม่ให้ทำตัวเป็นกันเองได้เลย"
 
 window hide
 
 show shizu adjust_happy
 with charachange
 
-$ written_note("Good luck on the exam.")
+# $ written_note("Good luck on the exam.")
+$ written_note("ขอให้โชคดีกับการสอบนะ")
 
 window show
 
 # "Shizune pushes the pad right in front of my eyes, breaking my concentration. Taking the initiative again, as always."
-""
+"ชิซูเนะยื่นสมุดมาตรงหน้าฉันจนสมาธิฉันหลุด เป็นฝ่ายเริ่มอีกแล้ว เหมือนเคยเลยนะ"
 
 hide shizu
 with charaexit
 
 # "As she walks into the school building, I can't help feeling a little sad."
-""
+"พอชิซูเนะเดินไปที่อาคารเรียนฉันก็อดรู้สึกเศร้าหน่อย ๆ ไม่ได้"
 
 window hide
 
@@ -309,22 +316,22 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nThat felt like the longest twenty minutes of my life, and all because it's so alien to me to have a face-to-face conversation with someone by passing notes to each other that I can't help coming up blank most of the time."
-n ""
+n "\n\nรู้สึกเหมือนเป็นยี่สิบนาทีที่นานที่สุดในชีวิตฉันเลย ซึ่งก็เป็นผลจากการที่ฉันไม่ชินกับการสนทนากับใครบางคน\nซึ่ง ๆ หน้าโดยที่ต้องส่งกระดาษให้กันไปมาอย่างนี้จนมีหลายจังหวะที่ฉันไม่รู้จะเขียนอะไรดี"
 
 # n "It makes me want to learn sign language."
-n ""
+n "ซึ่งทำให้ฉันอยากเรียนภาษามือขึ้นมาเลย"
 
 # n "That's easier said than done. Although in a school like Yamaku, they might very well have sign language classes. In that case, there would be little reason not to pursue this."
-n ""
+n "ไอ้พูดน่ะมันง่าย แต่ก็นะ โรงเรียนอย่างยามากุยังไงก็คงมีวิชาภาษามือให้เรียนแหละ ถ้างั้นก็คงแทบไม่มีเหตุผลอะไร\nที่ฉันจะต้องพับแผนนี้ทิ้ง"
 
 # n "The only person who I can think to ask, at the moment, is Misha."
-n ""
+n "คนคนเดียวที่ฉันคิดว่าคงจะพอถามเรื่องนี้ได้ด้วยคือมิช่า"
 
 # n "How badly do I want to know this? There's two options: Wait until after class, or go look for her now."
-n ""
+n "แล้วฉันอยากรู้มากหรือเปล่า ตอนนี้มีสองตัวเลือก หนึ่งคือรอเลิกเรียนก่อน สองคือไปหามิช่าเดี๋ยวนี้เลย"
 
 # n "I guess I'll go now, but I'm not certain where she is. My best bet would be to start searching for her in the girls' dorm, though. After all, if she wasn't with Shizune, that's probably the only place where she would be."
-n ""
+n "ไปตอนนี้เลยแล้วกัน ซึ่งฉันก็ยังไม่รู้ว่ามิช่าอยู่ที่ไหน ถ้าจะให้ดีที่สุดก็คงต้องไปตามหาที่หอหญิงก่อน เพราะถ้าไม่ได้อยู่\nกับชิซูเนะแล้ว ที่เดียวที่มิช่าน่าจะอยู่ตอนนี้คือหอหญิง"
 
 nvl hide dissolve
 
@@ -339,22 +346,22 @@ play music music_daily fadein 1.0
 nvl show dissolve
 
 # n "\n\nA guy casually prowling around the girls' dorm early in the morning is unacceptable, but asking Misha about sign language classes in front of Shizune would be just unthinkable."
-n ""
+n "\n\nการที่ผู้ชายย่องเข้ามาเพ่นพ่านบริเวณหอหญิงแต่เช้าตรู่อย่างนี้นั้นเป็นสิ่งที่ยอมรับไม่ได้ก็จริง แต่ถ้าอย่าหวังเลยว่าจะให้\nไปถามเรื่องวิชาภาษามือกับมิช่าต่อหน้าชิซูเนะ"
 
 # n "She has to come to school sometime. After all, we're in the same class, so she too has to take this test."
-n ""
+n "เดี๋ยวก็คงมาเรียนแหละ เรียนอยู่ห้องเดียวกันนี่นะ ซึ่งแปลว่าจะต้องมาสอบรอบนี้เหมือนกันด้วย"
 
 # n "If I wait here, I'll be sure to see her sooner or later."
-n ""
+n "ถ้ารออยู่ตรงนี้เดี๋ยวก็คงได้เจอแหละ"
 
 # n "I just hope she doesn't walk past me while I'm flipping through my notes."
-n ""
+n "หวังว่าจะไม่เดินผ่านไปตอนที่ฉันกำลังอ่านสมุดจดอยู่นี่นะ"
 
 # n "\n\nIt turns out to be a pretty long wait. As students file into the school, I wonder if Misha is going to be late."
-n ""
+n "\n\nซึ่งก็ต้องรอนานทีเดียว ระหว่างที่คนเริ่มทยอยเข้าโรงเรียนมาฉันก็นึกสงสัยว่ามิช่าจะเข้าเรียนสายหรือเปล่า"
 
 # n "Eventually I catch sight of her. While she bounces across the grounds, it hits me that I'd have to be blind to miss her with her incredibly distinctive hair."
-n ""
+n "จนในที่สุดมิช่าก็โผล่ออกมา พอเห็นมิช่าที่โลดโผนผ่านลานไปแล้วฉันก็นึกได้ว่าถ้าไม่เห็นผมที่โดดเด่นสะดุดตา\nของเธอฉันก็คงต้องตาบอดแล้ว"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -368,97 +375,96 @@ with charaenter
 window show
 
 # mi "Hi, Hicchan~! Good morning~!"
-mi ""
+mi "ไงฮิจัง~! อรุณสวัสดิ์~!"
 
 # hi "'Morning."
-hi ""
+hi "รุณสวัสดิ์"
 
 # "I don't have a lot of time left before class starts, so I cut directly to the chase."
-""
+"อีกเดี๋ยวก็จะถึงเวลาเข้าเรียนแล้ว ฉันจึงเข้าเรื่องทันที"
 
 # hi "Hey, can I ask you a question?"
-hi ""
+hi "นี่ ขอถามอะไรหน่อยได้มั้ย"
 
 show misha perky_smile
 with charachange
 
 # mi "A question? Hm~… Okay, Hicchan~! Sure~ sure~! I have time, but only because I'm late!"
-mi ""
+mi "ถามเหรอ อืม~… ได้สิฮิจัง~! ได้~ ได้~! ฉันยังมีเวลาอยู่ แต่เพราะฉันตื่นสายหรอกนะ!"
 
 # hi "What does that mean?"
-hi ""
+hi "หมายความว่าไง"
 
 show misha hips_grin
 with charachange
 
 # mi "Haha~. I should have woken up earlier, but I was so tired~… if I had, I would have to study, but since I didn't, it won't hurt~! What is it, Hicchan?"
-mi ""
+mi "ฮ่าฮ่า~ จริง ๆ ฉันควรตื่นเช้ากว่านี้ แต่ฉันเพลียมาก~… ถ้าตื่นเช้าก็จะได้อ่านหนังสือ แต่ในเมื่อไม่ได้อ่านแล้ว\nก็ไม่เป็นไรหรอก~! มีอะไรล่ะฮิจัง"
 
 # hi "Well, there are sign language classes here, right?"
-hi ""
+hi "คือ โรงเรียนนี้มีสอนวิชาภาษามือใช่มั้ย"
 
 show misha hips_smile
 with charachange
 
 # mi "Yup~! They're electives! Why do you want to know, Hicchan?"
-mi ""
+mi "อื้ม~! เป็นวิชาเลือกน่ะ! ว่าแต่จะอยากรู้ไปทำไมเหรอฮิจัง"
 
 # "For some reason that question briefly makes me panic."
-""
+"อยู่ ๆ พอได้ยินคำถามนี้แล้วก็รู้สึกเลิ่กลั่กไปแวบหนึ่ง"
 
 # hi "No reason. It sounds interesting, but I guess it's too late to sign up now, right?"
-hi ""
+hi "อยากรู้เฉย ๆ ก็ฟังดูน่าสนใจดี แต่จะให้ไปลงเรียนตอนนี้ก็คงช้าไปใช่มั้ย"
 
 # "I'm not exactly being too subtle here, but Misha never seems to pick up on things like that anyway, so I'm probably being more cautious than is necessary."
-""
+"ที่พูดไปเมื่อกี้ก็ค่อนข้างชัดอยู่ว่าเจตนาคืออะไร แต่มิช่าก็ดูจะเป็นคนที่ไม่ได้รับรู้เจตนาอะไรพวกนั้นอยู่แล้ว ฉันคง\nระวังตัวมากเกินความจำเป็นไปแหละ"
 
 show misha sign_smile
 with charachange
 
 # mi "Hm~? Ah, well, Hicchan, I've heard there are fewer and fewer students taking sign language every year. So! If you want to, I'm sure they will let you in~!"
-mi ""
+mi "หืม~ อ้อ ก็นะฮิจัง ฉันได้ยินมาว่ายิ่งนานปีไปคนมาเข้าเรียนก็ยิ่งน้อยลง เพราะงั้น! ถ้านายอยากลงเขาก็คงให้ลงแหละ~!"
 
 show misha hips_grin
 with charachange
 
 # mi "Are you thinking of learning sign language, Hicchan?"
-mi ""
+mi "นี่นายนึกอยากเรียนภาษามือเหรอฮิจัง"
 
 # hi "…Yeah."
-hi ""
+hi "…อืม"
 
 show misha perky_smile
 with charachange
 
 # mi "If you learned sign language, Hicchan, that would make Shicchan really happy~. If you want, we can go to the teachers' office after school. They'll probably let you in."
-mi ""
+mi "ถ้าฮิจังเรียนภาษามือนะ ชิจังคงดีใจมากเลยละ~ งั้นเลิกเรียนแล้วให้ฉันพาไปห้องพักครูได้นะ เขาน่าจะรับนายแหละ"
 
 # hi "That would be great."
-hi ""
+hi "ได้ก็ดีเลย"
 
 # hi "Don't tell Shizune that I want to learn it, though."
-hi ""
+hi "แต่อย่าเอาไปบอกชิซูเนะนะว่าฉันจะเรียนภาษามือ"
 
 show misha perky_confused
 with charachange
 
 # mi "Why not?"
-mi ""
+mi "ทำไมเหรอ"
 
 # hi "So it can be a surprise. Besides, it'll look bad if you tell her this morning, and then I find out in the afternoon that I can't take the classes."
-hi ""
+hi "จะได้เก็บเป็นเซอร์ไพรส์ไง อีกอย่าง ถ้าเอาไปบอกเช้านี้ แล้วเกิดบ่ายมาฉันลงไม่ได้เดี๋ยวก็ดูไม่ดีอีก"
 
 show misha perky_smile
 with charachange
 
 # mi "Aw~. You're right, Hicchan. Still, this will be hard~… It's such good news…"
-mi ""
+mi "โธ่~ ถูกของฮิจัง แต่คงอดใจยากน่าดู~… ข่าวดีขนาดนี้…"
 
 # hi "I'm in the Student Council, so I might as well try learning it. Even if it's just the basics, it'd be a step up from nothing. Besides, Shizune and I can't keep relaying everything through you as if you were a phone or something, right?"
-hi ""
+hi "ฉันเป็นสภานักเรียนนี่นะ เรียนไว้หน่อยก็ดี ต่อให้จะรู้แบบงู ๆ ปลา ๆ แต่ก็ดีกว่าไม่รู้เลยน่ะนะ แล้วจะให้ฉันกับชิซูเนะ\nเอาแต่ส่งต่อทุกอย่างถึงกันผ่านเธอเหมือนเธอเป็นโทรศัพท์อะไรอย่างนั้นก็คงไม่ได้ใช่มั้ยล่ะ"
 
-# "…"
-""
+"…"
 
 with Pause(2.0)
 
@@ -466,25 +472,24 @@ show misha hips_laugh
 with charachange
 
 # mi "Wahaha~!"
-mi ""
+mi "วะฮ่าฮ่า~!"
 
 show misha hips_grin
 with charachange
 
 # mi "You're right, Hicchan~!"
-mi ""
+mi "ฮิจังพูดถูก~!"
 
-# "…"
-""
+"…"
 
 stop music fadeout 4.0
 play sound sfx_warningbell
 
 # "The bell rings to signal the start of first period, cutting our conversation short. I guess I'll just ask a teacher after classes are through."
-""
+"ระฆังดังเป็นสัญญาณว่าคาบแรกเริ่มแล้วจนเราสองคนต้องปิดบทสนทนาไป เดี๋ยวเลิกเรียนอะไรแล้วค่อยไปถามครู\nก็แล้วกัน"
 
 # "Her reaction was a little strange, but I forget about it as the day goes on."
-""
+"ท่าทีมิช่าดูแปลกเล็กน้อย แต่เมื่อเวลาในวันนั้นผ่าน ๆ ไปแล้วฉันก็ลืมเรื่องนั้น"
 
 scene black
 with dissolve
