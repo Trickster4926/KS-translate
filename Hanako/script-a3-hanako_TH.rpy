@@ -2865,7 +2865,7 @@ hi "เอาละ จะบอกให้ก็ได้ ฉันไปเ�
 hi "ลิลลี่กับฉันน่ะ… เอ่อ… งานวันเกิดฮานาโกะ… พวกเรา…"
 
 # "The cat is out of the bag. But it looks like Hanako is taking it a little better than I thought she would."
-"ความแตกจนได้ แต่เหมือนฮานาโกะจะรับฟังด้วยความเข้าใจกว่าที่ฉันคาดไปเล็กน้อย*********"
+"ความแตกจนได้ แต่เหมือนจะพอรับได้กว่าที่ฉันคาดไปเล็กน้อย"
 
 show misha perky_confused_close
 show shizu adjust_blush_close at Position(xpos=0.85)
@@ -4341,19 +4341,25 @@ label th_H16:
 scene bg school_scienceroom
 with locationchange
 
-"Hanako is more noticeable in her absence than when she is in the room."
+# "Hanako is more noticeable in her absence than when she is in the room."
+"การที่ฮานาโกะขาดเรียนไปยิ่งทำให้สังเกตได้ง่ายกว่าตอนที่เธออยู่เสียอีก"
 
-"I feel her empty desk calling out for me. I find myself peering over my shoulder endlessly, hoping that I'm hallucinating and that Hanako will magically appear."
+# "I feel her empty desk calling out for me. I find myself peering over my shoulder endlessly, hoping that I'm hallucinating and that Hanako will magically appear."
+"รู้สึกเหมือนโต๊ะเรียนที่ว่างเปล่าของเธอกำลังร้องเรียกหาฉัน ฉันเผลอเหลียวมองข้ามไหล่ตัวเองซ้ำแล้วซ้ำเล่า\nด้วยความหวังลม ๆ แล้ง ๆ ว่าตัวเองแค่ตาฝาดไป และฮานาโกะจะปรากฏตัวขึ้นมาราวกับมีเวทมนตร์"
 
-"She makes sure she's as small a presence as possible when she attends class, and although she had been getting better recently, that fact never changed."
+# "She makes sure she's as small a presence as possible when she attends class, and although she had been getting better recently, that fact never changed."
+"เธอพยายามทำตัวให้ไร้ตัวตนที่สุดเท่าที่จะทำได้เวลาเข้าเรียน และถึงแม้ว่าช่วงหลังมานี้อาการของเธอจะเริ่มดีขึ้นบ้างแล้ว\nแต่ความจริงที่ว่าก็ไม่เคยเปลี่ยนไป"
 
-"Nobody ever pays her any heed in class, and now that she's not here, they don't notice her absence. It's as if she just never existed."
+# "Nobody ever pays her any heed in class, and now that she's not here, they don't notice her absence. It's as if she just never existed."
+"ไม่มีใครในชั้นเรียนสนใจเธอตั้งแต่แรก และพอตอนนี้เธอหายไป พวกเขาก็ไม่ได้สังเกตว่าเธอหายไป ราวกับเธอ\nไม่มีตัวตนตั้งแต่แรก"
 
-"Lilly did say that her skipping class wasn't an unusual thing before I met her, but it's still very off-putting."
+# "Lilly did say that her skipping class wasn't an unusual thing before I met her, but it's still very off-putting."
+"ลิลลี่เคยเล่าว่าเธอโดดเรียนเป็นเรื่องปกติตั้งแต่ก่อนฉันจะได้มาเจอเธอแล้ว แต่ก็ยังรู้สึกแปลก ๆ อยู่ดี"
 
 play sound sfx_normalbell
 
-"The bells heralding the end of school make me jump in my seat. It's only now that I notice Misha is prodding me in the side with her mechanical pencil to get my attention."
+# "The bells heralding the end of school make me jump in my seat. It's only now that I notice Misha is prodding me in the side with her mechanical pencil to get my attention."
+"เสียงระฆังบอกเวลาเลิกเรียนทำเอาฉันถึงกับสะดุ้งตัวโยน แล้วก็เพิ่งจะมารู้สึกตัวเอาตอนนี้ว่า มิช่ากำลังเอาดินสอกดจิ้ม\nสีข้างฉันรัว ๆ เพื่อเรียกความสนใจอยู่"
 
 show shizu invis:
     center
@@ -4370,43 +4376,56 @@ with dissolvecharamove
 
 play music music_normal fadein 3.0
 
-mi "Hello… is anybody in there~?"
+# mi "Hello… is anybody in there~?"
+mi ""
 
-hi "Hey, stop that."
+# hi "Hey, stop that."
+hi "นี่ หยุดเลยนะ"
 
 show misha hips_grin_close
 with charachange
 
-mi "Ah! There we are! Welcome back to Earth, Hicchan~!"
+# mi "Ah! There we are! Welcome back to Earth, Hicchan~!"
+mi ""
 
-hi "What are you talking about?"
+# hi "What are you talking about?"
+hi "พูดอะไรของเธอน่ะ"
 
 show misha hips_smile_close
 with charachange
 
-mi "You keep on dazing off into space; I was beginning to think that you might be trying to contact alien life."
+# mi "You keep on dazing off into space; I was beginning to think that you might be trying to contact alien life."
+mi ""
 
-"I really didn't get much sleep last night, so I don't doubt Misha's words. I'm not sure whether it was due to my medicines' side effects, Hanako's panic attack yesterday, my worrying about her in general, or all three."
+# "I really didn't get much sleep last night, so I don't doubt Misha's words. I'm not sure whether it was due to my medicines' side effects, Hanako's panic attack yesterday, my worrying about her in general, or all three."
+"เมื่อคืนฉันแทบไม่ได้นอนเลย ไม่แปลกที่มิช่าจะพูดแบบนั้น ไม่แน่ใจเหมือนกันว่าเป็นเพราะผลข้างเคียงจากยา\nหรือเพราะฮานาโกะแพนิกกำเริบเมื่อวานนี้ หรือเพราะความเป็นห่วงเธอเป็นทุนเดิมอยู่แล้ว หรืออาจจะ\nเป็นเพราะทั้งสามอย่างรวมกัน"
 
-"I yawn tiredly before resting my chin in my palm, having been reminded of how badly I slept."
+# "I yawn tiredly before resting my chin in my palm, having been reminded of how badly I slept."
+"ฉันหาวอย่างอ่อนแรงก่อนจะเท้าคางลง ย้ำเตือนว่านอนไม่พอขนาดไหน"
 
 show misha perky_confused_close
 with charachange
 
-mi "Hey, are you really all right? Yesterday kinda rattled me as well…"
+# mi "Hey, are you really all right? Yesterday kinda rattled me as well…"
+mi "นี่ นายไหวจริง ๆ ใช่ไหมเนี่ย? เรื่องเมื่อวานก็ทำฉันตกใจอยู่เหมือนกัน…"
 
-hi "Yeah… yeah, I guess. I wanted to speak to Hanako again, though."
+# hi "Yeah… yeah, I guess. I wanted to speak to Hanako again, though."
+hi "เออ… เออ ไหวแหละ ฉันแค่อยากคุยกับฮานาโกะสักหน่อยน่ะ"
 
 show misha perky_smile_close
 with charachange
 
-mi "Did you see her last night?"
+# mi "Did you see her last night?"
+mi "เมื่อคืนนายได้ไปหาเธอหรือเปล่าล่ะ"
 
-hi "Yeah, Lilly and I talked to her."
+# hi "Yeah, Lilly and I talked to her."
+hi "อื้ม ลิลลี่กับฉันไปคุยกับฮานาโกะ"
 
-hi "Um, this may sound a bit weird, but can you tell Shizune “thank you?” From both me… and Lilly."
+# hi "Um, this may sound a bit weird, but can you tell Shizune “thank you?” From both me… and Lilly."
+hi "เอ่อ อาจจะฟังดูแปลกหน่อย ๆ แต่ช่วยฝากบอกชิซูเนะว่า “ขอบคุณ” ให้ทีสิ ทั้งจากฉัน… กับลิลลี่เลย"
 
-"I know Lilly technically didn't thank Shizune, but I could tell by her reaction last night that she wanted to. At least, that's how it works out in my head."
+# "I know Lilly technically didn't thank Shizune, but I could tell by her reaction last night that she wanted to. At least, that's how it works out in my head."
+"ฉันรู้แหละว่าจริง ๆ แล้วลิลลี่ก็ไม่ได้ขอบคุณชิซูเนะหรอก แต่ดูจากปฏิกิริยาของเธอที่อยากจะขอบคุณเมื่อวาน อย่างน้อยก็เท่าที่ฉันคิดได้อะนะ"
 
 show shizu adjust_blush
 with charachange
@@ -4419,28 +4438,35 @@ shi "…"
 show misha sign_confused_close
 with charachange
 
-mi "Er… I think what Shicchan is trying to say is “you're welcome.”"
+# mi "Er… I think what Shicchan is trying to say is “you're welcome.”"
+mi "เอ่อ… ฉันว่าชิจังพยายามจะบอกว่า “ด้วยความยินดี” ละ"
 
-"The furious signing and Shizune's reddened cheeks tell me that what she said was entirely different. Her blatantly flustered expression is amusing enough to make me chuckle."
+# "The furious signing and Shizune's reddened cheeks tell me that what she said was entirely different. Her blatantly flustered expression is amusing enough to make me chuckle."
+"การรัวภาษามืออย่างบ้าคลั่งและแก้มที่ขึ้นสีระเรื่อของชิซูเนะบอกให้ฉันรู้ว่าสิ่งที่เธอพูดเป็นคนละเรื่องกันเลย ท่าทาง\nลนลานอย่างเห็นได้ชัดของเธอมันน่าเอ็นดูเสียจนทำให้ฉันเผลอหลุดหัวเราะออกมา"
 
 show misha perky_confused_close
 with charachange
 
-mi "What's so funny, Hicchan~? Was it something we said?"
+# mi "What's so funny, Hicchan~? Was it something we said?"
+mi "มีอะไรน่าขำเหรอฮิจัง~? ใช่เรื่องที่เราพูดหรือเปล่า?"
 
-hi "No, no, that's not it. I was simply thinking about how cute Shizune can be at times."
+# hi "No, no, that's not it. I was simply thinking about how cute Shizune can be at times."
+hi "เปล่า ๆ ไม่ใช่แบบนั้น ฉันแค่คิดว่าบางทีชิซูเนะก็น่ารักดีเหมือนกันนะ"
 
 show misha cross_laugh_close
 with charachange
 
-mi "Wahahaha~! You're right~! Shicchan is really cute when she tries not to be!"
+# mi "Wahahaha~! You're right~! Shicchan is really cute when she tries not to be!"
+mi "วะฮ่าฮ่าฮ่า~! นายพูดถูก~! ชิจังน่ะน่ารักเวลาที่พยายามทำตัวให้ไม่น่ารักล่ะ!"
 
-"I notice that Misha decides not to sign her response to Shizune. Maybe Shizune's rage is enough of a counter to any quantity of “cute.”"
+# "I notice that Misha decides not to sign her response to Shizune. Maybe Shizune's rage is enough of a counter to any quantity of “cute.”"
+"ฉันสังเกตว่ามิช่าหยุดการส่งภาษามือให้ชิซูเนะ บางทีความเกรี้ยวกราดของชิซูเนะอาจจะรุนแรงพอที่จะกลบความ\n“น่ารัก” ไปจนหมด"
 
 show shizu adjust_frown
 with charachange
 
-"Nevertheless, Shizune quickly calms down and signs something else to Misha."
+# "Nevertheless, Shizune quickly calms down and signs something else to Misha."
+"อย่างไรก็ตาม ชิซูเนะกลับมาสงบสติอารมณ์ได้อย่างรวดเร็ว และเริ่มส่งภาษามือหามิช่า"
 
 show shizu behind_smile
 with charachange
@@ -4450,20 +4476,26 @@ shi "…"
 show misha perky_smile_close
 with charachange
 
-mi "Oh~? Okay… Hicchan, Shicchan wants you to come and have dinner with us."
+# mi "Oh~? Okay… Hicchan, Shicchan wants you to come and have dinner with us."
+mi "โอ๊ะ~? โอเค… ฮิจัง ชิจังอยากให้นายมากินข้าวเย็นกับพวกเราน่ะ"
 
-hi "Dinner, eh?"
+# hi "Dinner, eh?"
+hi "ข้าวเย็นเหรอ เอ…"
 
-"Turning away from them a bit, lest I be swayed by their pleading smiles, I begin to mull it over."
+# "Turning away from them a bit, lest I be swayed by their pleading smiles, I begin to mull it over."
+"ฉันเบือนหน้าหนีจากพวกเธอเล็กน้อย เพราะเกรงว่าจะใจอ่อนให้กับรอยยิ้มออดอ้อนนั่น แล้วคิดทบทวนดูอีกรอบ"
 
-"The invitation certainly is tempting. A takeaway dinner with two cute girls is not a bad thing, after all. The thought of Hanako locked up in her room, though, keeps dancing on the edge of my mind."
+# "The invitation certainly is tempting. A takeaway dinner with two cute girls is not a bad thing, after all. The thought of Hanako locked up in her room, though, keeps dancing on the edge of my mind."
+"เป็นคำเชิญชวนที่น่าไปจริง ๆ ก็ได้ไปกินมื้อเย็นข้างนอกกับสาวน่ารักสองคนนี่นะ แต่ก็อดคิดไม่ได้ว่าถ้าไปแล้วฮานาโกะ\nจะต้องเก็บตัวอยู่ในห้องคนเดียว"
 
-hi "Sorry, I'll have to pass."
+# hi "Sorry, I'll have to pass."
+hi "โทษที รอบนี้ต้องขอผ่านก่อน"
 
 show misha perky_sad_close
 with charachange
 
-mi "Awww…"
+# mi "Awww…"
+mi "อ่าโธ่…"
 
 show shizu behind_frown
 with charachange
