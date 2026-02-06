@@ -4500,25 +4500,30 @@ mi "อ่าโธ่…"
 show shizu behind_frown
 with charachange
 
-"Misha doesn't sign my response, but Shizune picks up on it easily enough and grimaces in disappointment."
+# "Misha doesn't sign my response, but Shizune picks up on it easily enough and grimaces in disappointment."
+"มิช่าไม่ได้ทำภาษามือที่ฉันตอบไป แต่ชิซูเนะก็ดูออกง่าย ๆ และทำหน้าผิดหวัง"
 
 show shizu basic_normal2
 with charachange
 
-"She moves her arms, assumedly beginning some form of either protest or coercion, but stops herself and taps Misha's shoulder twice. Once Misha gives Shizune her attention, the only statement Shizune has on the matter is a shrug."
+# "She moves her arms, assumedly beginning some form of either protest or coercion, but stops herself and taps Misha's shoulder twice. Once Misha gives Shizune her attention, the only statement Shizune has on the matter is a shrug."
+"เธอขยับแขนเตรียมจะทำอะไรบางอย่าง เดาว่าน่าจะเป็นการประท้วงหรือข่มขู่ แต่เธอก็หยุดไปก่อนและไปแตะไหล่\nมิช่าสองที พอมิช่ารู้ตัวแล้วเธอก็แค่ยักไหล่ให้มิช่าเท่านั้น"
 
 show misha perky_confused_close
 with charachange
 
-mi "Oh well. It's your choice, Hicchan."
+# mi "Oh well. It's your choice, Hicchan."
+mi "เอาเถอะ แล้วแต่นายเลยฮิจัง"
 
-hi "I promise I'll join you two another time, if that helps."
+# hi "I promise I'll join you two another time, if that helps."
+hi "ฉันสัญญาว่าเดี๋ยวรอบหน้าจะไปด้วย ถ้ามันจะช่วยให้พวกเธอรู้สึกดีขึ้นน่ะนะ"
 
 show misha perky_smile_close
 show shizu behind_blank
 with charachange
 
-"Misha perks up at this, but Shizune doesn't share her reaction. With a flick of the head to signal for Misha to follow her away, Shizune simply raises her hand to silently wave me goodbye."
+# "Misha perks up at this, but Shizune doesn't share her reaction. With a flick of the head to signal for Misha to follow her away, Shizune simply raises her hand to silently wave me goodbye."
+"มิช่าดูร่าเริงขึ้นมาทันทีที่ได้ยินแบบนั้น แต่ชิซูเนะไม่ได้แสดงท่าทีใด ๆ เธอแค่สะบัดหัวเป็นสัญญาณให้มิช่าเดินตามออกไป\nและชิซูเนะก็ชูมือขึ้นโบกลาฉันไปเงียบ ๆ "
 
 hide misha
 hide shizu
@@ -4526,18 +4531,23 @@ with charaexit
 
 stop music fadeout 3.0
 
-"As the two make their way out the door, I return the gesture until they're out of sight."
+# "As the two make their way out the door, I return the gesture until they're out of sight."
+"ขณะที่ทั้งสองคนกำลังเดินพ้นประตูห้องออกไป ฉันก็โบกมือตอบกลับไปจนกระทั่งพวกเธอลับสายตาไป"
 
-"I didn't think they would be so disappointed, and it makes me feel a little bad for ditching them. Still, I have things to do."
+# "I didn't think they would be so disappointed, and it makes me feel a little bad for ditching them. Still, I have things to do."
+"ก็ไม่คิดว่าพวกเธอจะผิดหวังขนาดนั้นและทำให้ฉันรู้สึกผิดเลยที่ทิ้งพวกเธอไป แต่ก็นะ ฉันเองก็มีสิ่งที่ต้องทำ"
 
 scene bg school_girlsdormhall at right
 with shorttimeskip
 
-"The girls' dormitory is especially rowdy today, with a number of girls loudly playing games and watching the television in the common room on the first floor. I can hear their voices even now, standing in front of Hanako's door."
+# "The girls' dormitory is especially rowdy today, with a number of girls loudly playing games and watching the television in the common room on the first floor. I can hear their voices even now, standing in front of Hanako's door."
+"วันนี้หอหญิงนั้นคึกคักเป็นพิเศษ มีกลุ่มเด็กผู้หญิงเล่นเกมเสียงดังและดูทีวีกันในห้องส่วนกลางชั้นหนึ่ง ฉันได้ยินเสียง\nพวกเธอแม้กระทั่งตอนนี้ที่ยืนอยู่หน้าประตูห้องฮานาโกะ"
 
-"It's an odd contrast to the emptiness of the floor she's on. The voices from below make the emptiness feel all the more lonely."
+# "It's an odd contrast to the emptiness of the floor she's on. The voices from below make the emptiness feel all the more lonely."
+"เมื่อเทียบกับความโหวงเหวงของชั้นที่เธออยู่ก็รู้สึกขัดกันอย่างน่าประหลาด เสียงจอกแจกจอแจจากชั้นล่างยิ่งทำให้\nความโหวงเหวงตรงนี้ดูเงียบเหงายิ่งขึ้น"
 
-"I had hopes Hanako would be in class today, especially after the talk Lilly and I had with her last night, but I feel like I shouldn't hold it against her. It was a pretty awful episode, and to have experienced it firsthand must be all the worse."
+# "I had hopes Hanako would be in class today, especially after the talk Lilly and I had with her last night, but I feel like I shouldn't hold it against her. It was a pretty awful episode, and to have experienced it firsthand must be all the worse."
+"ฉันแอบหวังว่าวันนี้ฮานาโกะจะมาเรียน โดยเฉพาะหลังจากที่ฉันกับลิลลี่ได้เปิดใจคุยกับเธอเมื่อคืนนี้ แต่ฉันก็รู้สึกว่า\nไม่ควรจะไปว่าอะไรเธอหรอก เพราะเหตุการณ์ที่เกิดขึ้นนั้นค่อนข้างแย่ทีเดียว และการที่เธอต้องเผชิญด้วยตัวเองแบบนั้น ความรู้สึกคงจะแย่กว่าที่เห็นอีกหลายเท่า"
 
 scene bg school_dormhanako_ni
 show hanagown worry_close:
@@ -4550,11 +4560,14 @@ with locationchange
 
 play sound sfx_doorknock2
 
-"Not knowing what state she's in, I take a small breath before giving a few sharp knocks on her brown door."
+# "Not knowing what state she's in, I take a small breath before giving a few sharp knocks on her brown door."
+"ด้วยไม่รู้เลยว่าตอนนี้เธออยู่ในสภาพแบบไหน ฉันหายใจเข้าลึก ๆ ก่อนจะเคาะลงไปบนประตูไม้สีน้ำตาลของเธอสองสาม\nครั้งด้วยจังหวะที่หนักแน่น"
 
-"All I can do is stand and wait, doing my best not to feel anxious."
+# "All I can do is stand and wait, doing my best not to feel anxious."
+"สิ่งที่ทำได้ตอนนี้คือยืนรอ โดยพยายามที่จะไม่กังวลมากเกินไป"
 
-"As the seconds wear on, I begin to think she might be asleep and didn't hear me knocking. The door handle rattles a little before I can raise my hand to knock again, though."
+# "As the seconds wear on, I begin to think she might be asleep and didn't hear me knocking. The door handle rattles a little before I can raise my hand to knock again, though."
+"เมื่อเวลาผ่านไปหลายวินาที ฉันคิดว่าเธออาจจะหลับอยู่และไม่ได้ยินฉันเคาะ แต่ก่อนที่ฉันจะได้ยกมือขึ้นเพื่อเคาะอีกครั้ง\nที่จับประตูก็ส่งเสียงขยับกุกกักขึ้นมาเสียก่อน"
 
 play sound sfx_dooropen
 
