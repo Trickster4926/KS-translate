@@ -912,7 +912,7 @@ show misha hips_smile
 with charachange
 
 # mi "Although you can't really get anywhere else without the basics! This is A. Do you see it? Now, you try!"
-mi "แต่ถ้าไม่มีพื้นฐานก็จะทำอะไรไม่ได้หรอกนะ! อันนี้กอไก่ เห็นมั้ย ทีนี้นายลองทำบ้าง!"
+mi "แต่ถ้าไม่มีพื้นฐานก็จะทำอะไรไม่ได้หรอกนะ! อันนี้ “อะ” เห็นมั้ย ทีนี้นายลองทำบ้าง!"
 
 # hi "I already know this, though."
 hi "อันนี้ฉันรู้อยู่แล้วนี่"
@@ -930,7 +930,7 @@ show misha sign_smile
 with charachange
 
 # mi "Now, this is B, and this is C."
-mi "ทีนี้ อันนี้ขอไข่ แล้วก็อันนี้คอควาย"
+mi "ทีนี้ อันนี้ “อิ” แล้วก็อันนี้ “อุ”"
 
 # "Misha makes one symbol with each hand, without specifying which is which."
 "มิช่าทำมือข้างละตัวอักษรโดยที่ไม่ได้บอกว่าข้างไหนเป็นตัวอะไร"
@@ -945,7 +945,7 @@ show misha hips_grin
 with charachange
 
 # mi "And now D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, VWXY 'n' Z~!"
-mi "ทีนี้ก็ฆอระฆัง ตอเต่า ถอถุง ฐอฐาน ฒอผู้เฒ่า ฑอมณโฑ ฏอปฏัก สอเสือ ศอศาลา ษอฤๅษี ซอโซ่ พอพาน ปอปลา\nผอผึ้ง ภอสำเภา หอหีบ ฮอนกฮูก บอใบไม้ รอเรือ วอแหวน ดอเด็ก ฎอชฎา ฟอฟัน ฝอฝา ลอลิง ฬอจุฬา จอจาน ยอยักษ์\nญอหญิง มอม้า นอหนู ณอเณร งองู ทอทหาร ธอธง ฉอฉิ่ง ชอช้าง ฌอเฌอ อออ่าง สระอิ อี อึ อือ ไม้โอ ไม้มลาย\nไม้ม้วน ไม้ยมก ไม้เอก โท ตรี จัตวา สระอำ อะ อุ เอ ทัณฑฆาต ไม้ไต่คู้ สระอา อู แอ ฤ ไม้หันอากาศ ไปยาลน้อย~!"
+mi "“เอะโอะ คะคิคุเคะโคะ ซะชิซุเซะโซะ ตะจิสึเตะโตะ นะนินุเนะโนะ วะโวะ” แล้วก็ “อึง” ~!"
 
 # "Yeah, this is bad."
 "อืม ไปได้ไม่สวยจริง ๆ"
@@ -1881,7 +1881,7 @@ shi "…"
 "ชิซูเนะขยับนิ้วเล็กน้อยอยู่บนกล่อง อยากแบกให้แทนจริง ๆ แต่คงไม่ให้หรอก ชิซูเนะรีบทำภาษามือเท่าที่พอจะทำได้\nก่อนจะชะงักไปเล็กน้อยคล้ายอยากเสริมอะไรอีก"
 
 # "I'm sure that what she means is “thank you.” I'm glad that I was able to catch it."
-"ฉันมั่นใจว่าที่บอกนั้นคือคำว่า “ขอบคุณ” ดีใจจังที่อ่านออก"
+"ฉันมั่นใจว่าที่เธอบอกนั้นคือคำว่า “ขอบคุณ” ดีใจจังที่อ่านออก"
 
 scene black
 with dissolve
@@ -1905,22 +1905,22 @@ $ renpy.music.set_volume(0.5, 0.0, channel="music")
 play music music_normal fadein 0.5
 
 # n "\n\nThe sign language teacher says I'm pretty good."
-n ""
+n "\n\nครูภาษามือบอกว่าฉันเก่งทีเดียว"
 
 # n "I try not to think about it too much, but the truth is I'm poring over it so much lately that it's hard not to keep coming back to it at least a couple times a day. I guess I am picking it up faster than expected, but it's still not enough."
-n ""
+n "ฉันห้ามใจไม่ให้นึกถึงคำชมนั้นมากไป แต่กระนั้นช่วงนี้ฉันก็ดีใจมากอยู่ดีจนถึงขั้นที่ว่าต้องนึกถึงอย่างน้อยวันละสองหน\nคงจะจับทางได้เร็วกว่าที่คิดละนะ แต่ก็ยังไม่พอหรอก"
 
 # n "I understand it just fine; understanding it is simple. Well, I have to put my mind to it to read it, but it's easy enough when I do."
-n ""
+n "ฉันอ่านภาษามือได้เพราะไม่ยากมาก คือต้องตั้งใจมองแหละ แต่ก็อ่านได้อยู่"
 
 # n "The signing itself is doable, I just need a little more practice. However, trying to do both at the same time, even at half the speed Misha does it? It's impossible."
-n ""
+n "แล้วก็พอทำภาษามือได้ด้วย แค่ต้องฝึกอีกหน่อย แต่จะให้ทำทั้งสองอย่างไปพร้อม ๆ กันให้เร็วได้สักครึ่งมิช่าน่ะนะ\nไม่มีทาง"
 
 # n "Where I'm at now is good for my level, but in order to reach a point where I'll be able to really converse with Shizune, I'll need more work."
-n ""
+n "สำหรับฉันตอนนี้ก็นับว่าดีแล้ว แต่ถ้าจะให้ดีจนถึงขั้นสนทนากับชิซูเนะได้นั้นฉันต้องเรียนรู้อีกมาก"
 
 # n "\nI'm doing my best to get to that point one step at a time by doing as much studying as I can squeeze in during lunch."
-n ""
+n "\nฉันพยายามคอยไปให้ถึงจุดนั้นทีละก้าวโดยเจียดช่วงพักเที่ยงมาอ่านหนังสือ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -1931,16 +1931,15 @@ nvl hide dissolve
 window show
 
 # "I look up from “Introduction to Japanese Sign Language” to check if Shizune or Misha are around."
-""
+"ฉันเงยหน้าจากหนังสือ “ภาษามือญี่ปุ่นเบื้องต้น” เพื่อดูว่าชิซูเนะหรือมิช่าอยู่ด้วยหรือเปล่า"
 
 # "Of course, since this is taking up my lunch hour, I've had to avoid them for a few days now. What's more, I'll have to continue doing so if I want to keep Shizune from finding out."
-""
+"และแน่นอนว่าเมื่อเวลาพักเที่ยงหมดไปกับสิ่งนี้ ฉันต้องเลี่ยงสองคนนั้นไปสักสองสามวัน ยิ่งไปกว่านั้น ฉันต้องแอบ\nอยู่อย่างนี้ถ้าไม่อยากให้ชิซูเนะรู้เข้า"
 
 # "My back to the corner, scanning the area every ten minutes, I feel like some kind of criminal trying to evade capture."
-""
+"พอต้องหันหลังให้กำแพงพลางคอยมองไปรอบ ๆ ทุก ๆ สิบนาทีแล้วก็รู้สึกเหมือนเป็นอาชญากรหนีการจับกุมเลย"
 
-# "…"
-""
+"…"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -1951,25 +1950,25 @@ nvl show dissolve
 nvl clear
 
 # n "\n\nEvery chance she gets, Misha asks me why I want to hide the fact I'm learning sign language from Shizune."
-n ""
+n "\n\nมิช่าจะถามฉันทุกครั้งว่าทำไมถึงไม่อยากบอกชิซูเนะว่าเรียนภาษามืออยู่"
 
 # n "Looking back on it, there really wasn't any reason, but now I think I know."
-n ""
+n "พอย้อนมองดูแล้วก็ไม่ได้มีเหตุผลอะไรหรอก แต่ตอนนี้ฉันว่าฉันรู้แล้วละ"
 
 # n "If I want Shizune to be able to treat me as a true equal, sign language is an important step towards that goal."
-n ""
+n "ถ้าอยากให้ชิซูเนะมองว่าฉันอยู่ในระดับเดียวกันจริง ๆ ก้าวสำคัญก็คือเรื่องภาษามือ"
 
 # n "If I want to be able to treat Shizune as an equal, then sign language is an important step towards that goal."
-n ""
+n "ถ้าฉันอยากมองว่าชิซูเนะอยู่ในระดับเดียวกันจริง ๆ ก้าวสำคัญก็คือเรื่องภาษามือ"
 
 # n "Another important step is to make sure she doesn't know, so that when we're able to finally speak on equal terms, I'll be fully ready, able to do it right, not like some dilettante."
-n ""
+n "อีกก้าวสำคัญคือการปิดไม่ให้ชิซูเนะรู้ เพราะเมื่อไหร่ที่เราคุยกันได้แบบเสมอกันจริง ๆ ฉันจะได้พร้อมแล้วทำอะไรให้มัน\nถูกต้อง ไม่ได้ทำแบบขอไปที"
 
 # n "Anything less, I think, would be insulting. She would see it the same way."
-n ""
+n "ฉันมองว่าถ้าทำไม่ได้ถึงขั้นนั้นก็คงน่าโมโห ชิซูเนะก็คงคิดอย่างนั้นเหมือนกัน"
 
 # n "\nSo to me, this is the only option. Especially now that I've decided to be so resolute with it."
-n ""
+n "\nเพราะงั้น นี่คือทางเลือกเดียวสำหรับฉัน แล้วยิ่งฉันหมายมั่นปั้นมือมาขนาดนี้แล้วด้วย"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -1980,45 +1979,45 @@ nvl hide dissolve
 window show
 
 # "Shizune has a huge aura. It's very easy to see her coming, or even to sense her coming. Mostly because Misha's hair lights up any crowd she's in like a beacon, and you can hear her laughing from a mile away."
-""
+"ชิซูเนะเป็นคนที่แผ่รังสีแรงมาก สามารถจับได้ทั้งว่ากำลังมาหรือกำลังจะมาจากระยะไกล หลัก ๆ ก็เพราะผมมิช่าที่ไม่ว่า\nจะอยู่กับกลุ่มคนไหน ๆ ก็จะเด่นหราเหมือนเป็นเครื่องบอกตำแหน่งที่มาพร้อมเสียงหัวเราะซึ่งมาแต่ไกล"
 
 # "Although, even if Misha weren't with her, it would be the same. Her directness and efficiency are core parts of her, so it's no surprise that they come across in the way she walks as well."
-""
+"แต่ถึงมิช่าไม่อยู่ด้วยก็จะจับสังเกตได้เหมือนกัน นิสัยหลัก ๆ ของชิซูเนะคือเป็นคนตรง ๆ และรวบรัดตัดตอน จึงไม่แปลก\nที่นิสัยเหล่านั้นจะส่งผ่านมายังการเดินของเจ้าตัวด้วย"
 
 # "Due to all these factors, I'm able to put away all my things and put on my best casual face long before they see me and head my way."
-""
+"และเพราะตัวแปรพวกนั้นฉันถึงซ่อนของทั้งหมดปั้นหน้าปกติได้ก่อนที่สองคนนั้นจะเห็นฉันแล้วเดินมาหา"
 
 show shizu behind_smile at tworight
 show misha perky_smile at twoleft
 with charaenter
 
 # hi "Hi."
-hi ""
+hi "ไง"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "Student Councilll."
-ssh ""
+ssh "สภานักเรียนนน"
 
 show misha hips_grin
 with charachange
 
 # mi "Student Council~!"
-mi ""
+mi "สภานักเรียน~!"
 
 # "“Student Council” was the first thing I asked to learn; it seemed like it would come in handy."
-""
+"ฉันขอให้สอนคำว่า “สภานักเรียน” เป็นอย่างแรกเพราะดูจะเป็นประโยชน์ดี"
 
 # hi "Yeah, I've been dodging it for a while now, huh?"
-hi ""
+hi "อืม ไม่ได้ไปทำมาสักพักแล้วนี่นะ"
 
 show misha sign_smile
 show shizu behind_smile
 with charachange
 
 # mi "Yup~!"
-mi ""
+mi "อื้ม~!"
 
 show shizu behind_smile_close at closeright
 show misha perky_smile_close at closeleft
@@ -2033,45 +2032,45 @@ with charamove
 stop music fadeout 3.0
 
 # "Shizune sits down in front of me to my right, and Misha to my left. It was a mistake putting myself in the corner; now I'm, well, cornered."
-""
+"ชิซูเนะนั่งอยู่ตรงหน้าเยื้องไปทางขวา ส่วนมิช่าเยื้องไปทางซ้าย ผิดเองแหละที่มานั่งตรงมุมเพราะโดนต้อนจนมุมจนได้"
 
 scene bg school_lobby
 with shorttimeskip
 
 # "In the end, I'm dragged off to the student council room, but I don't mind. I was starting to miss them a bit, anyway."
-""
+"สุดท้ายฉันก็โดนลากตัวมาที่ห้องสภานักเรียน แต่ก็ไม่ถือหรอก คิดถึงห้องนั้นขึ้นมาหน่อย ๆ แล้วเหมือนกัน"
 
 # "In some ways this makes it easier: satisfied with having caught me, Shizune doesn't ask me where I've been all this time."
-""
+"จะว่าทางสะดวกก็ว่าได้ เพราะชิซูเนะพอใจที่ได้ตัวฉันแล้วจึงไม่ได้ถามว่าก่อนหน้านี้ไปอยู่ไหนมา"
 
 # "Once I stand before the door, I wonder what could be so important that they're so eager to pull me back in."
-""
+"พอมายืนอยู่ตรงหน้าประตูแล้วฉันก็นึกสงสัยว่าเรื่องอะไรสำคัญนักหนาถึงต้องลากฉันมาด้วย"
 
 scene bg school_council at bgright
 with locationchange
 
 # hi "Games."
-hi ""
+hi "เกม"
 
 play music music_another fadein 0.5
 
 # "There are more games out than books. This at last explains why every time I come here there are stacks of books piled on every table and occasionally parts of the floor: they need the room to put all these games somewhere."
-""
+"มีเกมเยอะกว่าหนังสืออีก ซึ่งก็ทำให้รู้ว่าทำไมทุกครั้งที่มาถึงได้มีหนังสือกองอยู่บนโต๊ะทุกตัว หรือบางทีก็ไปกองอยู่\nกับพื้น เพราะต้องหาที่เก็บเกมพวกนี้นั่นเอง"
 
 show misha cross_laugh
 with charaenter
 
 # mi "Hahaha~!"
-mi ""
+mi "ฮ่าฮ่าฮ่า~!"
 
 show misha hips_grin
 with charachange
 
 # mi "It's boring playing against each other so much, Hicchan. So, it's your turn, okay? Okay~! It's settled then~!"
-mi ""
+mi "เล่นกันสองคนเบื่อแล้วอะฮิจัง เพราะงั้นก็ตานายบ้าง โอเคนะ โอเค~! ตกลงตามนั้น~!"
 
 # hi "I didn't even say anything!"
-hi ""
+hi "ยังไม่ได้พูดอะไรเลย!"
 
 show shizu invis at right behind misha
 with None
@@ -2084,351 +2083,341 @@ with dissolvecharamove
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Hicchan, this is one of the last days we'll be able to take it easy like this for a while. So~, it's especially important that we make the most of it, don't you think?"
-mi ""
+mi "ฮิจัง อีกเดี๋ยวก็จะไม่ได้อยู่สบาย ๆ เหมือนช่วงนี้แล้วนะ เพราะงั้น~ ต้องกอบโกยสนุกไปกับเวลานี้ให้เยอะ ๆ ว่ามั้ยล่ะ"
 
 show misha cross_smile
 with charachange
 
 # mi "Tanabata will be coming up soon, and we'll have to put in a lot of work for that, too."
-mi ""
+mi "อีกเดี๋ยวก็จะถึงวันงานทานาบาตะแล้ว ซึ่งเราก็ต้องทำงานกันหนักอีก"
 
 show misha hips_grin
 show shizu behind_smile
 with charachange
 
 # mi "So, for now, play with us~!"
-mi ""
+mi "เพราะงั้น ตอนนี้ก็มาเล่นกันเถอะ~!"
 
 # "Come to think of it, it's true. I hadn't even noticed because I've been so wrapped up in wanting to learn sign language. Right on the heels of one festival, a bigger one appears."
-""
+"จะว่าไปแล้วก็จริง ฉันไม่ทันได้สังเกตเพราะมัวแต่วุ่นอยู่กับการเรียนภาษามือ งานเก่ายังไม่ทันจบดีก็จะมีงานใหม่เสียแล้ว"
 
 # "I wonder if Shizune will try and rope a couple new members in to help with that one as well."
-""
+"ชิซูเนะจะไปลากสมาชิกใหม่มาช่วยงานนี้ด้วยหรือเปล่านี้"
 
 # hi "You're right."
-hi ""
+hi "ถูกของเธอ"
 
 show misha cross_laugh
 with charachange
 
 # mi "Hahaha~! Yay~! Hicchan agrees~! Let's celebrate!"
-mi ""
+mi "ฮ่าฮ่าฮ่า~! เย้~! ฮิจังเห็นด้วยละ~! มาฉลองกัน!"
 
 show shizu basic_happy
 with charachange
 
 # ssh "I know, we should play a game."
-ssh ""
+ssh "รู้แล้ว เล่นเกมกันดีกว่า"
 
 show misha sign_smile
 with charachange
 
 # mi "Let's play a game to celebrate, Hicchan~!"
-mi ""
+mi "เล่นเกมฉลองกันดีกว่าฮิจัง~!"
 
 # hi "I don't know, that kind of thing usually ends badly for me."
-hi ""
+hi "ไม่รู้สิ ปกติเล่นเกมทีไรฉันจบไม่สวยตลอด"
 
 show misha perky_sad
 with charachange
 
 # mi "Hicchan is worried about the stakes~."
-mi ""
+mi "ฮิจังคิดมากเรื่องเดิมพันละ~"
 
 # "Misha makes a very disappointed face. It's hard to tell if she's mocking me, since her expressions are so exaggerated by default. She's an “all-out” kind of girl."
-""
+"มิช่าทำหน้าผิดหวังสุดขีด ไม่รู้เหมือนกันว่ากำลังล้อกันหรือเปล่า เพราะปกติมิช่าก็ทำหน้าเวอร์ ๆ ไปอยู่แล้ว เป็นผู้หญิง\nที่ “สุดโต่ง” เลยแหละ"
 
 # "I turn my head to Shizune. Now, this person, she is definitely mocking me."
-""
+"ฉันหันไปมองชิซูเนะ โอเค อันนี้แหละล้อกันแน่ ๆ"
 
 # hi "Hey, stop that. But, yes, I'll play with you if you tell me what's at stake first."
-hi ""
+hi "เฮ้ย ไม่เอาน่า แต่เออ ถ้าบอกว่าเดิมพันคืออะไรก่อนฉันถึงจะยอมเล่นด้วย"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_grin
 with charachange
 
 # mi "How very Japanese, putting the consequences above everything else."
-mi ""
+mi "เป็นคนญี่ปุ่นแท้ ๆ เลยนะ คิดถึงเรื่องผลที่ตามมาก่อนอะไรเลยเนี่ย"
 
 show misha sign_smile
 with charachange
 
 # mi "Hicchan, have you ever heard of the expression “missing the forest for the trees?”"
-mi ""
+mi "ฮิจังเคยได้ยินประโยคที่ว่า “ถ้ามองต้นไม้ก็จะไม่เห็นป่า” หรือเปล่า"
 
 # hi "No."
-hi ""
+hi "ไม่อะ"
 
 # "That's a lie. But I have my pride, which is currently feeling wounded."
-""
+"โกหกหรอก แต่ฉันก็มีศักดิ์ศรีของฉัน ศักดิ์ศรีที่ตอนนี้โดนเล่นงานอยู่"
 
 # hi "Okay, I'll play, but I want to pick the game."
-hi ""
+hi "โอเค เล่นก็เล่น แต่ขอเลือกเกมนะ"
 
 show shizu adjust_happy
 show misha perky_smile
 with charachange
 
 # "Misha nods."
-""
+"มิช่าพยักหน้า"
 
 # hi "Additionally, I pick the punishment if you lose."
-hi ""
+hi "แล้วก็ขอเลือกบทลงโทษถ้าพวกเธอแพ้ด้วย"
 
 show shizu cross_angry
 with charachange
 
 # "Shizune makes an X with her arms. That either means “denied” or that she's about to use her special attack."
-""
+"ชิซูเนะยกแขนขึ้นมาขัดกันเป็นกากบาท ซึ่งไม่รู้ว่าจะสื่อว่า “ขอปฏิเสธ” หรือกำลังจะปล่อยพลังพิเศษกันแน่"
 
 # hi "Aha, now who's afraid of consequences?"
-hi ""
+hi "เหอะ ๆ แล้วมาล้อฉันว่ากลัวผลกระทบที่จะตามมาเนี่ยนะ"
 
 show shizu behind_frown
 with charachange
 
 # ssh "How vengeful, still thinking so spitefully about a playful little joke."
-ssh ""
+ssh "เจ้าคิดเจ้าแค้นจริงนะ แค่หยอกเล่นนิดหน่อยก็เคืองขนาดนี้"
 
 show shizu basic_frown
 with charachange
 
 # ssh "If a … bit you, you would probably bite back."
-ssh ""
+ssh "ถ้า … กัดนาย นายก็คงกัดตอบ"
 
 # "Shizune signs a word that I don't quite catch."
-""
+"ชิซูเนะทำภาษามือเป็นคำคำหนึ่งที่ฉันอ่านไม่ออก"
 
 show misha hips_frown
 with charachange
 
 # mi "Hicchan is so vengeful~, even though it was just a playful little joke. If an armadillo bit you, you would probably bite back!"
-mi ""
+mi "ฮิจังเจ้าคิดเจ้าแค้นจัง~ หยอกเล่นนิดหน่อยเอง ถ้าตัวลิ่นกัดนาย นายก็คงกัดตอบ!"
 
 # hi "Armadillo?"
-hi ""
+hi "ตัวลิ่น?"
 
 show misha sign_smile
 with charachange
 
 # mi "It's foolish to bite an armadillo back, Hicchan!"
-mi ""
+mi "คนสติดีที่ไหนเขากัดตัวลิ่นกลับกันล่ะฮิจัง!"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_laugh
 with charachange
 
 # mi "But Hicchan would do it anyway, you see~! Hahaha!"
-mi ""
+mi "แต่ฮิจังก็จะกัดอยู่ดีนี่นะ~! ฮ่าฮ่าฮ่า!"
 
 # hi "I see."
-hi ""
+hi "งั้นเหรอ"
 
 show shizu adjust_smug
 with charachange
 
 # "Shizune adjusts her glasses with a small flourish of her hand."
-""
+"ชิซูเนะขยับมือเล็กน้อยมาดันแว่น"
 
 show shizu behind_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Hicchan, we didn't have anything planned at all if you were to win or lose, you just assumed there would be something like that~."
-mi ""
+mi "ฮิจัง เราไม่ได้วางแผนไว้เลยด้วยซ้ำว่าถ้าแพ้หรือชนะแล้วจะได้หรือเสียอะไร นายแค่คิดไปเองว่ามันจะเป็นอย่างนั้น~"
 
 # hi "I wonder why."
-hi ""
+hi "นั่นสินะ ใครกันที่ทำให้ระแวง"
 
 show misha hips_grin
 with charachange
 
 # mi "Hm~, me too~! But, oh well~! There isn't. Does that change your mind, Hicchan?"
-mi ""
+mi "อืม~ นั่นสินะ~! แต่เอาเถอะ~! ก็ไม่มีอะไรแบบนั้นหรอก รู้อย่างนี้แล้วฮิจังจะเปลี่ยนใจมั้ย"
 
 # hi "Well… yes."
-hi ""
+hi "ก็… อืม"
 
 show misha hips_laugh
 with charachange
 
 # "Misha windmills her arm at high speed to show her joy. Weird habit. This is the kind of thing you could only see in the student council room, occupied only by three people."
-""
+"มิช่าควงแขนด้วยความเร็วสูงเพื่อแสดงความดีใจ พิลึกคน ของแบบนี้จะได้เห็นก็แค่ตอนที่อยู่ด้วยกันในห้องสภานักเรียน\nแค่สามคนนี่แหละ"
 
 # "Anywhere else she would end up socking someone in the face."
-""
+"เพราะถ้าไปทำที่อื่นหมัดมิช่าคงไปเข้าเบ้าหน้าใครสักคนแล้ว"
 
 show misha hips_grin
 with charachange
 
 # mi "Yay yay~! Let's start right now~!"
-mi ""
+mi "เย้ เย้~! มาเริ่มกันเลย~!"
 
 # hi "Not just yet."
-hi ""
+hi "ยังก่อน"
 
 show misha hips_smile
 with charachange
 
-# mi "…"
-mi ""
+mi "…"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
-# mi "…"
-mi ""
+mi "…"
 
-# shi "…"
-shi ""
+shi "…"
 
 # hi "Okay, okay."
-hi ""
+hi "โอเค ๆ"
 
 # hi "However, we have to all be able to play. That's my condition."
-hi ""
+hi "แต่ขอแค่เป็นอะไรที่เล่นด้วยกันได้ทุกคนนะ"
 
 # hi "I don't like games where one person is clearly the ace player right off the bat, or games where only two people can play so one of us has to sit back. It has to be something the three of us can play equally."
-hi ""
+hi "ฉันไม่ชอบเกมที่ถ้าเล่นแล้วจะรู้เลยว่าใครเก่ง แล้วก็ไม่เอาเกมที่เล่นกันแค่สองคนด้วยนะ ไม่งั้นจะเหลือเศษ ต้องเป็น\nอะไรที่เราสามคนเล่นด้วยกันได้อย่างเท่าเทียม"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Checkers?"
-mi ""
+mi "หมากฮอส?"
 
 # "The instant she says it, Misha takes out a bag of checkers and places them on the table."
-""
+"มิช่าพูดปุ๊บก็หยิบถุงหมากฮอสมาวางไว้บนโต๊ะปั๊บ"
 
 # hi "Only two people can play that. I told you—"
-hi ""
+hi "มันเล่นได้แค่สองคนนี่ ก็บอกว่า—"
 
 show misha hips_grin
 with charachange
 
 # mi "Okay okay~! Hicchan, how about… Monopoly?"
-mi ""
+mi "โอเค โอเค~! ฮิจัง งั้น… เกมเศรษฐีล่ะ"
 
 # "A Monopoly box slowly edges towards me, and I take it out of Misha's hands and put it under my chair."
-""
+"กล่องเกมเศรษฐีคืบคลานเข้ามาใกล้ ฉันคว้าออกมาจากมือมิช่ามาวางไว้ที่ใต้เก้าอี้"
 
 # hi "I don't like games that revolve around luck of the draw; they're too much about chance and not about skill. Also, stop jumping the gun with these games!"
-hi ""
+hi "ฉันไม่ชอบเกมที่ใช้ดวงล้วน ๆ ของแบบนี้มันแทบไม่ได้ใช้ฝีมือเลย แล้วก็เลิกเสนอเกมขึ้นมาแบบส่งเดชสักที!"
 
 show misha perky_confused
 with charachange
 
 # mi "Luck is kind of a skill, you know."
-mi ""
+mi "ดวงก็เป็นฝีมือชนิดหนึ่งนะ"
 
 # hi "No, no it's not!"
-hi ""
+hi "ไม่ ไม่เลย!"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "It can be if you're consistently lucky~! Right~?"
-mi ""
+mi "ถ้าดวงดีตลอดก็นับว่าเป็นฝีมือได้นะ~! ใช่มั้ย~"
 
 # hi "Once at that point it's something else entirely."
-hi ""
+hi "ถ้าดวงมันจะดีขนาดนั้นก็เรื่องของเธอเลยเถอะ"
 
 show shizu adjust_happy
 show misha hips_grin
 with charachange
 
 # mi "Hm~, hm~ hm~ hm~~. Baccarat? Marbles? Life? Snakes and Ladders? Roulette? Blackjack? Paper football? Trivial Pursuit?"
-mi ""
+mi "ฮืม~ ฮืม~ ฮืม~ ฮืม~ บาร์คารา? ดีดลูกแก้ว? {i}เดอะ เกม ออฟ ไลฟ์{/i} (The Game of Life)? รูเล็ต? แบล็กแจ็ก?\nฟุตบอลกระดาษ? {i}ทริเวียล เพอร์ซูท{/i} (Trivial Pursuit)?"
 
 # "Misha begins to excitedly name a bunch of games as if she were reading from a list."
-""
+"มิช่าไล่รายชื่อแต่ละเกมมาอย่างตื่นเต้นราวกับว่ากำลังอ่านโพยอยู่"
 
 # "With each suggestion, a new box, board, and pieces appear around her, a bizarre catalogue of games ranging from children's fare to serious, polished-looking gambling instruments that look very out of place in this humble room."
-""
+"ทุกชื่อที่โผล่มาจะมีกล่อง กระดาษ หรือชิ้นส่วนต่าง ๆ โผล่มารอบตัวมิช่า เป็นชุดอุปกรณ์แสนประหลาดที่มีตั้งแต่ของ\nที่ดูเหมือนของเล่นเด็กไปยันอุปกรณ์สำหรับการพนันอย่างจริงจังที่ดูผิดที่ผิดทางกับห้องเรียบ ๆ นี้"
 
 show misha sign_smile
 with charachange
 
 # mi "Three way chess?"
-mi ""
+mi "หมากรุกสามทาง?"
 
 # hi "Is that even possible?"
-hi ""
+hi "มันมีด้วยเหรอ"
 
 show shizu behind_smile
 with charachange
 
 # ssh "Let's try."
-ssh ""
+ssh "มาลองเล่นกัน"
 
 show misha cross_laugh
 with charachange
 
 # mi "Yes yes~, let's try it, definitely~! Ahahahaha~!"
-mi ""
+mi "ใช่ ใช่~ มาลองเล่นกัน มาเถอะ~! อะฮ่าฮ่าฮ่าฮ่า~!"
 
 show shizu basic_happy
 show misha hips_grin
 with charachange
 
 # "They pull a chessboard from behind them with a flourish like two junior magicians. Well, magic does require some deft sleight of hand, and they've got that in spades."
-""
+"ทั้งสองคนหยิบกระดานหมากรุกออกมาโดยแทบไม่ได้ขยับตัวเลย ดูไปก็คล้ายนักมายากลตัวน้อยสองคน ก็นะ มายากล\nต้องอาศัยกลฝีมือ ซึ่งก็เป็นอะไรที่สองคนนี้มีเหลือ ๆ อยู่แล้ว"
 
 # "I'm not surprised. Nevertheless, it is still somehow unsettling."
-""
+"ก็ไม่ได้แปลกใจหรอก แต่ก็รู้สึกขนลุกอย่างบอกไม่ถูกอยู่ดี"
 
 # hi "Stop doing that!"
-hi ""
+hi "เลิกทำแบบนั้นสักที!"
 
 stop music fadeout 2.0
 
 # ha "E-excuse me…?"
-ha ""
+ha "ขะ ขอโทษนะ…"
 
 show shizu basic_normal
 show misha perky_confused
 with charachange
 
 # "A very timid voice manages to make me look up."
-""
+"เสียงอาย ๆ นั้นทำให้ฉันต้องหันไปมอง"
 
 show hanako invis at offscreenright
 with None
@@ -2441,75 +2430,73 @@ show hanako emb_downtimid:
 with dissolvecharamove
 
 # ha "I l-lost my ID card, and someone told me… I could find out where to get a new one here. If I'm interrupting s-something, I can come back later."
-ha ""
+ha "พอดี ฉะ ฉันทำบัตรประจำตัวหาย แล้วมีคนบอกว่า… ให้มาถามกับสภานักเรียน ถ้าฉันมา ขะ ขัด ไว้ฉันค่อยมาทีหลัง\nก็ได้"
 
 show hanako emb_timid
 with charachange
 
 # "Hanako's eyes drift across the room, taking in the landscape of piled-up record books, haphazardly scattered chairs, and overturned board games."
-""
+"ฮานาโกะกวาดตามองรอบห้องที่มีทั้งเอกสารบันทึกทั้งหลายแหล่กองอยู่ ทั้งเก้าอี้ที่วางอยู่อย่างระเกะระกะ ทั้งบอร์ดเกม\nที่วางเรี่ยราด"
 
 # "I guess this isn't exactly the image an organized, tightly run Student Council like ours should be giving off."
-""
+"สภานักเรียนที่ทำงานกันอย่างเป็นระบบและจริงจังอย่างเรา ๆ คงไม่ควรให้ใครมาเห็นภาพแบบนี้สินะ"
 
 # hi "Hello."
-hi ""
+hi "สวัสดี"
 
 # "It's the only thing I can think of to break the ice. Unfortunately, it just seems to startle her further."
-""
+"เป็นคำเดียวที่ฉันพอจะนึกออกเป็นการทักทายไม่ให้เกร็งเกินไป แต่ดูเหมือนจะยิ่งทำให้ฮานาโกะตกใจหนักกว่าเก่า"
 
 show hanako def_worry
 with charachange
 
-# ha "…"
-ha ""
+ha "…"
 
 show hanako def_strain
 with charachange
 
 # ha "Ah…{w=0.5} my ID card…{w=0.5} I…"
-ha ""
+ha "เอ่อ…{w=0.5} บัตรประจำตัว…{w=0.5} ฉัน…"
 
 show misha sign_smile
 with charachange
 
 # mi "You're in our class, aren't you, right? Right~! So~! Don't be so timid, okay? Come on!"
-mi ""
+mi "เราอยู่ห้องเดียวกันใช่มั้ย ใช่~! เพราะงั้น~! ไม่ต้องเกรงใจหรอก นะ!"
 
 show shizu behind_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_grin
 with charachange
 
 # mi "Yup, even though we're your seniors, it's not like we'll bite!"
-mi ""
+mi "อื้ม เป็นรุ่นพี่ก็ใช่ว่าจะกัดเธอสักหน่อย"
 
 # hi "We're not her seniors, we're in the same class."
-hi ""
+hi "รุ่นพี่ที่ไหน ก็อยู่ห้องเดียวกันเนี่ย"
 
 play music music_happiness fadein 3.0
 
 # "Still, I am grateful to them for stepping in."
-""
+"แต่ฉันก็ดีใจที่ทั้งสองคนมาเสนอตัวช่วย"
 
 show misha hips_smile
 with charachange
 
 # mi "What is it you said you want? An ID card, right~? Right~!"
-mi ""
+mi "บอกว่าจะเอาอะไรนะ บัตรประจำตัวใช่มั้ย~ ใช่~!"
 
 show hanako basic_distant
 with charachange
 
 # ha "Yes."
-ha ""
+ha "อื้ม"
 
 # "Her eyes slide away from Misha. Being shy, it's no wonder she's not the best at keeping eye contact. I follow where she's looking, and notice her gaze stop on the chessboard on the table."
-""
+"ฮานาโกะหลบตามิช่า เป็นคนขี้อายนี่นะ ไม่แปลกที่จะไม่ค่อยสบตาใคร พอมองตามฮานาโกะไปก็เห็นว่าเธอกำลังมอง\nกระดานหมากรุกบนโต๊ะอยู่"
 
 show hanako basic_normal
 with charachange
@@ -2518,74 +2505,72 @@ show hanako basic_distant
 with charachange
 
 # "Hanako's eyes widen, just for a moment. Shizune notices as well."
-""
+"ฮานาโกะทำตาโตอยู่แวบหนึ่ง ซึ่งชิซูเนะเห็นแล้ว"
 
 show shizu basic_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_smile
 with charachange
 
 # mi "Do you like chess?"
-mi ""
+mi "ชอบหมากรุกเหรอ"
 
 show hanako defarms_strain
 with charachange
 
 # ha "Eh!?"
-ha ""
+ha "เอ๊ะ!?"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…!"
-shi ""
+shi "…!"
 
 show misha hips_smile
 with charachange
 
 # mi "You like chess, don't you~? Yeah, you do, definitely~!"
-mi ""
+mi "ชอบหมากรุกใช่มั้ย~ ใช่ ชอบ~!"
 
 show misha hips_grin
 show shizu adjust_happy
 with charachange
 
 # mi "Do~{w=0.2} you~{w=0.2} want~{w=0.2} to~{w=0.2} play~?"
-mi ""
+mi "เธอ~{w=0.2} อยาก~{w=0.2} เล่น~{w=0.2} รึ~{w=0.2} เปล่า~"
 
 # "Hesitation. She might make a break for it. I refuse to get involved in this; it won't end well."
-""
+"ฮานาโกะลังเล ไม่แน่ว่าอาจจะวิ่งหนีไปเลยก็ได้ จะไม่ขอยุ่งด้วยแล้วกัน จบไม่สวยแน่ ๆ"
 
 show hanako basic_normal
 with charachange
 
 # "To my amazement, Hanako seems to be considering the idea very seriously. She touches the tips of her fingers together pensively, mulling the thought over."
-""
+"แล้วฉันก็ต้องแปลกใจที่ฮานาโกะชั่งใจจริงจัง เธอจับปลายนิ้วตัวเองทำท่าครุ่นคิดอย่างหนัก"
 
 # "That level of consideration is more or less a confirmation."
-""
+"ซึ่งถ้าพิจารณาขนาดนี้ก็คงแปลว่าตกลงแล้วแหละ"
 
 show misha sign_smile
 with charachange
 
 # mi "We're having our lunch break, so you'll have to wait anyway. Why not play with us in the meantime~? Come on, it'll be fun, really fun~! You like chess, don't you? I can tell, really really, it's obvious, so~! Please~, will you?"
-mi ""
+mi "พอดีพักเที่ยงกันอยู่ ยังไงเธอก็ต้องรออยู่ดี ระหว่างรอก็เล่นไปเลยไง~ เถอะน่า สนุกมาก ๆ เลยนะ~! เธอชอบหมากรุก\nใช่มั้ย ฉันรู้นะ ชัดมาก มาก มากเลยละ~! นะ~ มาเล่นกัน"
 
 show hanako cover_distant
 with charachange
 
 # ha "Okay…"
-ha ""
+ha "โอเค…"
 
 show misha cross_laugh
 with charachange
 
 # mi "Wahaha~! Yay~! Success, success, okay okay okay~! That's great~!"
-mi ""
+mi "วะฮ่าฮ่า~! เย้~! สำเร็จ สำเร็จ โอเค โอเค โอเค~! เยี่ยมเลย~!"
 
 scene ev shizu_chess_large:
     subpixel True xanchor 1140 yanchor 1100 xpos 400 ypos 300 zoom 1.0
@@ -2595,33 +2580,33 @@ with flash
 #really should replace this with something that is a bit more aggressive
 
 # "The chessboard is set up."
-""
+"กระดานหมากรุกจัดเรียบร้อยแล้ว"
 
 # "The opening move is important."
-""
+"ตาเดินแรกนั้นสำคัญ"
 
 show ev shizu_chess_large:
     ease 1.0 xpos 400 xanchor 1400 yanchor 400 ypos 300
     acdc_warp 10.0 xanchor 1300
 
 # "However, Shizune doesn't seem to care."
-""
+"แต่ชิซูเนะดูจะไม่ใส่ใจอะไร"
 
 show ev shizu_chess_large:
     ease 0.5 xanchor 800 yanchor 360
     easein 10.0 xanchor 700 yanchor 360
 
 # "Hanako ponders her moves carefully, sliding pieces forward just a little bit, then pulling them back in uncertainty, second-guessing herself over and over again."
-""
+"ฮานาโกะค่อย ๆ คิดก่อนจะเดินแต่ละตา เธอดันหมากไปข้างหน้าเล็กน้อย ก่อนจะชักกลับด้วยความไม่แน่ใจ ชั่งน้ำหนัก\nแต่ละตัวเลือกซ้ำแล้วซ้ำเล่า"
 
 # "She's really into this game; you can't call her a casual player. Definitely an enthusiast."
-""
+"ฮานาโกะให้ความสำคัญกับหมากรุกมาก ไม่ใช่แค่คนที่นาน ๆ ทีจะเล่นแน่ ยังไงก็เป็นคนที่เล่นแบบจริงจังแน่นอน"
 
 # "Shizune can't take her lightly; no matter what she does, Hanako has an appropriate response."
-""
+"ชิซูเนะจะประมาทไม่ได้ ไม่ว่าจะเดินตาไหน ฮานาโกะก็ตอบโต้ได้อย่างเหมาะสมเสมอ"
 
 # "Yet there's something wrong about the pacing of this game."
-""
+"แต่การดำเนินเกมมีบางอย่างชอบกลอยู่"
 
 scene ev shizu_chess_base:
     subpixel True truecenter zoom 1.05
@@ -2629,10 +2614,10 @@ scene ev shizu_chess_base:
 with flash
 
 # "Shizune moves too quickly. No, not even too quickly, but with illogical speed. It's like she isn't even thinking about what she'll do next. Either Shizune is in the realm of supercomputers, or she isn't taking this game very seriously."
-""
+"ชิซูเนะเดินเร็วเกินไป ไม่สิ ไม่ใช่แค่เร็วเกินไป เร็วจนไม่อาจเข้าใจได้ เหมือนไม่ได้คิดเลยว่าจะทำอะไรต่อ ซึ่งก็มีอยู่\nไม่กี่อย่าง ถ้าไม่เพราะชิซูเนะเก่งจนอยู่ในระดับซูเปอร์คอมพิวเตอร์แล้ว ก็คงเพราะไม่ได้จริงจังกับเกมนี้มาก"
 
 # "Or maybe Hanako just isn't very good."
-""
+"หรือไม่ก็เพราะฮานาโกะไม่ได้เก่งมาก"
 
 scene ev shizu_chess_base
 show sc_shiz normal:
@@ -2640,16 +2625,16 @@ show sc_shiz normal:
 with charachange
 
 # "Shizune forces an exchange of pawns."
-""
+"ชิซูเนะบังคับแลกเบี้ย"
 
 scene ev shizu_chess_base3
 with charachange
 
 # "Hanako's turns take increasing amounts of time as the game goes on, and it hasn't even been going on that long. Suddenly it all becomes clear: Shizune has a lot more time to think about her next move because Hanako takes forever to move a piece."
-""
+"ยิ่งเกมดำเนินไปฮานาโกะก็ยิ่งใช้เวลาคิดมากขึ้น ซึ่งยังไม่ได้เดินเกมไปไกลขนาดนั้นด้วยซ้ำ อยู่ ๆ ฉันก็เข้าใจสักที\nว่าชิซูเนะมีเวลาคิดตาเดินถัดไปมากเพราะกว่าฮานาโกะจะขยับหมากสักตัวนั้นต้องใช้เวลาเป็นชาติ"
 
 # "Despite that, it's an interesting game."
-""
+"แต่ก็เป็นเกมที่น่าสนใจดี"
 
 window hide
 
@@ -2660,53 +2645,52 @@ $ renpy.music.set_volume(0.5, 1.0, channel="music")
 nvl show dissolve
 
 # n "\n\nBlack knight to f6."
-n ""
+n "\n\nม้าดำไป f6"
 
 # n "Bishop to d3."
-n ""
+n "บิชอบไป d3"
 
 # n "Since they're both playing seriously, no one is toying with the other. There is no clearly dominant player, at least for now. Maybe this is helped by the fact that they aren't very close to each other, from what I can see."
-n ""
+n "เพราะทั้งสองคนต่างเล่นกันอย่างจริงจัง จึงไม่มีใครประมาทเลย ตอนนี้ยังดูไม่ออกว่าใครกันแน่ที่ได้เปรียบ เท่าที่เห็น\nก็อาจจะเพราะทั้งสองคนไม่ค่อยสนิทกันด้วย"
 
 # n "Shizune is a mysterious opponent to Hanako, and Hanako is an enigma to Shizune. Hanako's furrowed brow shows that she is into the game. She wants to really win, and Shizune always wants to win."
-n ""
+n "ชิซูเนะเป็นคู่แข่งลึกลับสำหรับฮานาโกะ ส่วนฮานาโกะก็เป็นปริศนาสำหรับชิซูเนะ คิ้วฮานาโกะที่ขมวดอยู่แสดงให้เห็น\nว่าเธอใส่ใจกับเกมนี้มาก ฮานาโกะอยากชนะจริง ๆ ส่วนชิซูเนะก็อยากชนะมาตลอดอยู่แล้ว"
 
 # n "Their lack of familiarity is a little depressing, but it is giving life to the game, and allowing them to see each other as good competition."
-n ""
+n "ถึงจะเครียดเล็กน้อยที่ทั้งสองคนดูไม่ค่อยทำท่าสนิทสนมกันเลย แต่สิ่งนั้นก็ทำให้เกมนี้มีชีวิตขึ้นมา และยังทำให้\nต่างคนต่างมองว่าอีกฝ่ายคือคู่แข่งที่ดี"
 
 # n "Maybe they might even end up being friends over it, or at the very least, rivals in chess. It's an optimistic thought."
-n ""
+n "อาจจะได้มาเป็นเพื่อนกันเพราะเรื่องนี้ก็ได้ หรืออย่างน้อย ๆ ก็จะได้เป็นคู่แข่งหมากรุกกัน ฉันคิดบวกอย่างนั้น"
 
 # n "Although remembering playing Risk against Shizune, she doesn't want to just crush people for the fun of it."
-n ""
+n "แต่เท่าที่จำได้ตอนเคยเล่นเกมริสก์กับชิซูเนะ เธอไม่ใช่คนที่จะเอาชนะคนอื่นแบบเล่น ๆ แน่นอน"
 
 nvl clear
 
 # n "\n\n\nThe game continues."
-n ""
+n "\n\n\nเกมยังดำเนินต่อ"
 
 # n "Shizune plays twelve moves in four minutes. What a scary opponent."
-n ""
+n "ชิซูเนะเดินได้สิบสองตาภายในสี่นาที เป็นคู่แข่งที่น่ากลัวจริง ๆ"
 
 # n "But Hanako holds her own, even though her king is being chased around the board a bit."
-n ""
+n "แต่ฮานาโกะยังพอรับมือได้อยู่ แม้คิงของเธอจะถูกไล่ต้อนไปมาเล็กน้อย"
 
 # n "Pawn to h6."
-n ""
+n "เบี้ยไป h6"
 
 # n "White knight to e6."
-n ""
+n "ม้าขาวไป e6"
 
 # n "The end is near."
-n ""
+n "ใกล้จบแล้ว"
 
-# n "\n\n…"
-n ""
+n "\n\n…"
 
 stop music fadeout 3.0
 
 # n "The game ends."
-n ""
+n "แล้วเกมก็จบลง"
 
 nvl clear
 
@@ -2720,14 +2704,13 @@ with locationchange
 
 window show
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "That was a really good game~!"
-mi ""
+mi "เป็นเกมที่สนุกมากเลยนะ~!"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
 play music music_ease fadein 5.0
@@ -2736,46 +2719,44 @@ show hanako cover_bashful
 with charachange
 
 # ha "T-thanks…"
-ha ""
+ha "ขะ ขอบคุณนะ…"
 
 show shizu behind_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "It was really close~, I thought I would lose. You're very skilled."
-mi ""
+mi "เกือบไปแล้ว~ นึกว่าจะแพ้แล้วเสียอีก เธอเล่นเก่งมากเลย"
 
 # "Magnanimous in victory, and extending a hand to the defeated. Maybe it's because Hanako is taking her defeat so well."
-""
+"แม้ชนะแต่ก็ไม่เหลิง ชิซูเนะยื่นมือไปยังผู้แพ้ อาจจะเพราะฮานาโกะน้อมรับความพ่ายแพ้ได้เป็นอย่างดี"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_smile
 with charachange
 
 # mi "This is a fun game, but it took so long. Almost the whole period!"
-mi ""
+mi "สนุกมากเลย แต่ก็นานมาก เกือบหมดคาบแน่ะ!"
 
 # mi "Chess is too formulaic, especially at this level. How about some advanced rules~?"
-mi ""
+mi "หมากรุกมันมีรูปแบบซ้ำ ๆ เกินไป ยิ่งถ้าเก่งกันระดับนี้แล้ว งั้นเพิ่มกฎขั้นสูงกันหน่อยมั้ย~"
 
 # hi "What?"
-hi ""
+hi "ฮะ?"
 
 show hanako cover_worry
 with charachange
 
 # ha "Ad… vanced…?"
-ha ""
+ha "ขั้น… สูง…?"
 
 show shizu basic_sparkle
 with charachange
@@ -2786,35 +2767,34 @@ with charachange
 show shizu basic_happy
 with charachange
 
-# shi "… … …"
-shi ""
+shi "… … …"
 
 show misha hips_smile
 with charachange
 
 # mi "Yeah, yeah~! Like speed chess, or chess with additional pieces, or maybe we can pair up and play tag team chess, with one or two boards, your choice! C'mon c'mon c'mon c'mon it'll be fun, really, really~! Regular chess is so slow, too methodical, it's boring."
-mi ""
+mi "ช่าย ช่าย~! อย่างหมากรุกความเร็วสูง หรือหมากรุกแบบเพิ่มตัวหมาก หรือไม่ก็จับคู่กันเล่นหมากรุกแบบทีม สักหนึ่ง\nหรือสองกระดาน แล้วแต่เธอเลย! มาเถอะ มา มา มา สนุกนะ จริง ๆ ~! หมากรุกธรรมดามันยืดยาด ตายตัว น่าเบื่อ"
 
 show misha hips_grin
 with charachange
 
 # mi "I want to play chess that rewards quick thinking, and daring! Any one of these, comparing chess to it is like comparing checkers to go, or tic-tac-toe to shogi, right? Right~!"
-mi ""
+mi "ฉันอยากเล่นหมากรุกที่ให้ความสำคัญกับการคิดเร็วกับความเด็ดขาด ของที่ว่าไปน่ะ ถ้าให้เทียบกับหมากรุก ก็เหมือน\nการเทียบหมากฮอสกับโกะ เหมือนการเทียบเอ็กซ์โอกับโชงิ ใช่มั้ย ใช่~!"
 
 show misha cross_laugh
 with charachange
 
 # mi "Wahahaha~! Even laser chess might be more exciting, pick something, pick~!"
-mi ""
+mi "วะฮ่าฮ่าฮ่า~! หรือจะหมากรุกเลเซอร์ก็ได้นะ ตื่นเต้นดีเหมือนกัน เลือกมาสิ เลือก~!"
 
 show hanako defarms_strain
 with charachange
 
 # ha "Aaaah…"
-ha ""
+ha "อาาาา…"
 
 # "Like a deer in the headlights. Many emotions spring up in me, watching Hanako's mind reel in front of the chessboard as if she's about to faint. The dominant one is amusement, but I move a little closer in case she might really topple over."
-""
+"ฮานาโกะทำหน้าตาตื่น พอเห็นฮานาโกะที่จิตใจจะแหลกสลายล้มพับไปกับกระดานแล้วก็มีหลากความรู้สึกเอ่อขึ้นมา\nหลัก ๆ คือตลก แต่ฉันก็ขยับตัวไปใกล้ ๆ เผื่อจะเป็นลมขึ้นมาจริง ๆ"
 
 scene ev shizu_chess_base2:
     subpixel True truecenter zoom 1.05
@@ -2822,13 +2802,13 @@ scene ev shizu_chess_base2:
 with flash
 
 # "The board is set up again, but this time, it's not even close."
-""
+"ทั้งสองคนจัดกระดานอีกครั้ง แต่คราวนี้แทบจะเรียกไม่ได้เลยว่าเป็นการแข่งขัน"
 
 # "Hanako can't even make a move out of fear of her hand colliding with Shizune's. She's all over the board. It's an onslaught. Anywhere Hanako wants to put a piece, Shizune is already there."
-""
+"ฮานาโกะไม่กล้าแม้จะเดินหมากเพราะกลัวจะขยับมือไปชนเข้ากับมือชิซูเนะ ชิซูเนะครองกระดาน นับว่าเป็นการล่า\nได้เลย ไม่ว่าฮานาโกะจะเดินหมากไปทางไหน ที่ตรงนั้นชิซูเนะก็จะรออยู่ก่อนแล้ว"
 
 # "It's the fastest game I've seen in my life."
-""
+"เป็นเกมที่เร็วที่สุดเท่าที่เคยเห็นมาเลย"
 
 scene bg school_council
 show shizu basic_sparkle at center
@@ -2837,31 +2817,31 @@ show hanako defarms_strain at right
 with locationchange
 
 # mi "Let's change the rules and play again~! Best out of six, like Kasparov and Deep Blue~!"
-mi ""
+mi "เปลี่ยนกฎแล้วมาเล่นกันอีกรอบดีกว่า~! แข่งกันหกรอบแล้วดูว่าใครชนะเยอะสุด เหมือนครั้งที่ดีปบลูพบคาสปารอฟ\nไง~!"
 
 hide hanako
 with easeoutright
 
 # "Hanako excuses herself and flees from the room."
-""
+"ฮานาโกะขอตัวหนีออกห้องไป"
 
 show shizu basic_normal
 show misha perky_confused
 with dissolve
 
 # mi "Huh? Wait!"
-mi ""
+mi "ฮะ? เดี๋ยว!"
 
 hide misha
 with charaexit
 
 # mi "Ah, didn't she want to know where she could get a new ID? Excuse me! Hello~? Come back, please! Wait, wait~! Wait~!"
-mi ""
+mi "เอ่อ ไม่ใช่ว่าจะมาถามเรื่องบัตรประจำตัวใหม่เหรอ ขอโทษนะ! ฮัลโหล~ ได้โปรด กลับมาก่อน! เดี๋ยว เดี๋ยว~! เดี๋ยว~!"
 
 stop music fadeout 3.0
 
 # "Strangely, the farther Misha goes away, the louder the sound of her voice seems to grow."
-""
+"แปลกดี ยิ่งมิช่าไปไกลเสียงก็ดูจะดังขึ้น"
 
 show bg school_council at bgright
 show shizu basic_normal at tworight
@@ -2871,222 +2851,213 @@ show misha perky_sad at twoleft
 with charaenter
 
 # mi "I couldn't catch her~…"
-mi ""
+mi "ตามไม่ทันเลย~…"
 
 show shizu adjust_happy
 with charachange
 
 play music music_normal fadein 3.0
 
-# shi "…"
-shi ""
+shi "…"
 
 # "Shizune pats her on the shoulder reassuringly."
-""
+"ชิซูเนะตบบ่ามิช่าเป็นการปลอบใจ"
 
 # hi "There, there."
-hi ""
+hi "โอ๋ ๆ"
 
 show misha hips_smile
 with charachange
 
 # mi "There, there~!"
-mi ""
+mi "โอ๋ ๆ ~!"
 
 # hi "You're pretty cheerful for someone who needed a pat on the shoulder."
-hi ""
+hi "เธอนี่ร่าเริงเกินกว่าจะให้ใครมาตบไหล่เลยนะ"
 
 show misha cross_laugh
 with charachange
 
 # mi "Ahahaha~!"
-mi ""
+mi "อะฮ่าฮ่าฮ่า~!"
 
-# "…"
-""
+"…"
 
 show shizu basic_normal2
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Hicchan, do you hate games where luck is involved?"
-mi ""
+mi "ฮิจัง นายไม่ชอบเกมที่ใช้ดวงเหรอ"
 
 # "A question out of nowhere, but it feels like an important one."
-""
+"อยู่ ๆ ก็ถามขึ้นมา แต่เหมือนจะเป็นคำถามสำคัญ"
 
 # "If it wasn't, why would Shizune be looking at me, watching for my reaction? Even as I glance in her direction, she tries to pretend she isn't doing so, putting on a casual air by spinning a chess piece in her fingers."
-""
+"เพราะถ้าไม่สำคัญ ทำไมชิซูเนะจะต้องรอดูว่าฉันจะมีปฏิกิริยายังไงด้วย พอหันไปมองก็ทำเป็นเหมือนไม่ได้มองฉันอยู่\nทำทีใช้นิ้วหมุนหมากไปดูสบาย ๆ"
 
 show misha hips_grin
 with charachange
 
 # mi "“I don't like games that revolve around luck of the draw,” right? That was you, Hicchan~."
-mi ""
+mi "“ฉันไม่ชอบเกมที่ใช้ดวงล้วน ๆ ” ฮิจังว่างั้นนี่~"
 
 # hi "Yeah. Revolving around luck isn't the same as just having luck involved, though. I don't hate games just for having an element of luck. Most games have an element of luck to them anyway. It's what keeps them interesting."
-hi ""
+hi "อื้ม แต่ใช้ดวงล้วน ๆ กับใช้ดวงบ้างมันไม่เหมือนกันนะ ฉันไม่ได้เกลียดเกมที่ใช้ดวงบ้างหรอก ยังไงหลาย ๆ เกมมันก็\nต้องใช้ดวงนิดหน่อยอยู่แล้ว เพราะดวงนี่แหละคือสิ่งที่ทำให้เกมมันน่าสนใจขึ้นมา"
 
 # hi "I think a game where you know from the beginning how far you can go is boring. Then it's not a game, isn't it? Just going through motions."
-hi ""
+hi "ฉันว่าเกมที่เรารู้ว่าจะจบยังไงตั้งแต่เริ่มเล่นน่ะน่าเบื่อเกินไป ไม่งั้นมันก็ไม่ใช่เกมน่ะสิ มันก็แค่การไหลไปตามน้ำเฉย ๆ"
 
 # hi "For a game where you have little to no control, I don't think I could get into something like that."
-hi ""
+hi "แต่เกมที่เราควบคุมอะไรแทบไม่ได้หรือไม่ได้เลยฉันว่าฉันก็คงเล่นไม่สนุกเหมือนกัน"
 
 show shizu behind_smile
 with charachange
 
 # ssh "I see."
-ssh ""
+ssh "อย่างนี้นี่เอง"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "That girl isn't very good at chess."
-mi ""
+mi "เธอคนนั้นน่ะเล่นหมากรุกไม่ค่อยเก่งนะ"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Chess is a formulaic game. So~! It's a game that isn't suited for her… There was nothing formulaic about her. Someone who plays chess like that, looking only at the next piece, playing so shallowly, can't be called a serious chess player."
-mi ""
+mi "หมากรุกน่ะเป็นเกมสูตรสำเร็จนะ เพราะงั้น~! เกมนี้ไม่เหมาะกับฮานาโกะ… เพราะฮานาโกะไม่ใช่คนที่มีสูตรเลย\nคนที่เล่นหมากรุกแบบตื้นเขินมองแค่หมากในตาถัดไปน่ะเรียกว่าคนเล่นหมากรุกแบบจริงจังไม่ได้หรอก"
 
 show misha perky_smile
 with charachange
 
 # mi "Anyone who loves chess to the point where their eyes sparkle like that when they see a chessboard would be the kind of person who would study the game."
-mi ""
+mi "คนที่รักหมากรุกจนถ้าแค่ได้เห็นกระดานแล้วก็ตาเป็นประกายอย่างนั้นน่ะคือคนที่จะศึกษาหมากรุกอย่างจริงจังเลย"
 
 # mi "If you study it just casually, you can learn to see at least two moves ahead, even against pros."
-mi ""
+mi "อย่างน้อยถ้าศึกษาไว้บ้างก็จะหัดมองได้สักสองตาเดินถัดไปเป็นขั้นต่ำ ถึงจะต้องเล่นกับคนเก่ง ๆ ก็เถอะ"
 
 show misha hips_frown
 with charachange
 
 # mi "Why would someone who loves the game so much… with that enthusiasm… know so little about it? Even less than someone with just a passing interest in it?"
-mi ""
+mi "ทั้งที่ชอบขนาดนั้นแท้ ๆ … แล้วก็มีใจรักมาก… แต่ทำไมถึงกลับแทบไม่รู้อะไรเลย รู้น้อยกว่าคนที่แค่สนใจหมากรุก\nแบบผ่าน ๆ เสียอีก"
 
 # "Shizune puts down the piece in her hand. It's a rook."
-""
+"ชิซูเนะวางหมากที่ถืออยู่ลง หมากนั้นคือเรือ"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "Her feelings are real, but her feelings for the game aren't real. Do you understand, Hicchan~?"
-mi ""
+mi "ฮานาโกะน่ะมีใจรักจริงนะ แต่ไม่ได้รักเกมจริง ๆ ฮิจังเข้าใจหรือเปล่า~"
 
 show misha perky_smile
 with charachange
 
 # mi "There is no luck in chess~! It's very important to realize that. Luck in games is good because it gives everyone a chance. Just enough to matter, but not so much that skill is penalized. Chess is boring because it's not a game; to me, it seems like formulas."
-mi ""
+mi "หมากรุกน่ะไม่มีคำว่าดวง~! จุดนี้สำคัญมาก ต้องตระหนักไว้ ดวงในเกมน่ะดี เพราะดวงจะให้โอกาสกับทุกคน ใช้เป็น\nตัวแปรได้ แต่ก็ไม่ได้ใช้ดวงมากไปจนลดความสำคัญของฝีมือลง หมากรุกมันน่าเบื่อเพราะมันไม่ใช่เกม ฉันมองว่า\nหมากรุกมันเหมือนสูตรมากกว่า"
 
 show misha sign_smile
 with charachange
 
 # mi "Hanako isn't the kind of person who would love something like that either~."
-mi ""
+mi "ฮานาโกะก็ไม่ใช่คนที่จะชอบอะไรอย่างนั้นเหมือนกัน~"
 
 show shizu adjust_angry
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_frown
 with charachange
 
 # mi "If you value something, you fight. Struggle is proof of precs— preciousness? I think so, at least. Or~! You concede immediately~! Since it's so precious that it stops your thinking. The first is a passionate love. The second is a gentle love."
-mi ""
+mi "ถ้าเราให้ค่ากับอะไรเราก็ต้องสู้ การดิ้นรนน่ะคือหลักฐานถึงความซง— ทรงคุณค่า? ฉันคิดว่างั้นนะ หรือ~! เราจะ\nยอมถอยทันที~! เพราะมันล้ำค่าจนเราคิดอะไรไม่ออกเลย อย่างแรกคือความรักแบบมุ่งมั่น อย่างหลังคือความรัก\nแบบอ่อนโยน"
 
 show shizu basic_normal2
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
-mi "I tried to fight her, chasing around her king, and trying to bait her. I didn't succeed though, because she stuck to only what would work." 
+# mi "I tried to fight her, chasing around her king, and trying to bait her. I didn't succeed though, because she stuck to only what would work." 
+mi "ฉันลองสู้กับฮานาโกะดู ลองไล่คิงแล้วก็ล่อให้ติดกับ แต่ก็ไม่สำเร็จ เพราะฮานาโกะยึดติดกับตาเดินที่จะใช้ได้เท่านั้น"
 
 # mi "The trickiest moments were when she moved the fastest. That means she knew exactly how to deal with those situations."
-mi ""
+mi "จังหวะที่คิดหนักที่สุดคือตอนที่ฮานาโกะเดินเร็วที่สุด เพราะแปลว่าฮานาโกะรู้แล้วว่าจะต้องรับมือกับสถานการณ์นั้น ๆ\nยังไง"
 
 show misha sign_smile
 with charachange
 
 # mi "That means someone taught her. Do you understand, Hicchan~?"
-mi ""
+mi "แปลว่ามีคนสอนฮานาโกะมา ฮิจังเข้าใจมั้ย~"
 
 # hi "Not really."
-hi ""
+hi "ไม่ค่อย"
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_grin
 with charachange
 
 # mi "If you love chess that much, but you can't give it your all, it's because you love the memories attached to it and not the game; it's too precious to her to see as a tool for true competition."
-mi ""
+mi "ถ้าชอบหมากรุกขนาดนั้นแต่ทุ่มเทให้เต็มที่ไม่ได้ ก็แปลว่ารักเพราะมีีความทรงจำร่วมกับมัน ไม่ได้มีใจรักหมากรุกจริง ๆ\nฮานาโกะมองว่าหมากรุกล้ำค่าเกินกว่าจะใช้เป็นการแข่งขันจริงจังได้"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_smile
 with charachange
 
 # mi "Due to that, you can't become friends over it. Not without words."
-mi ""
+mi "และเพราะอย่างนั้น เราจะใช้หมากรุกมาผูกมิตรกันโดยไม่มีการสื่อสารอะไรไม่ได้"
 
 stop music fadeout 5.0
 
 # "Well, your way of making friends isn't the kind of way that works on everyone, Shizune."
-""
+"วิธีผูกมิตรของเธอไม่ใช่อะไรที่จะใช้ได้กับทุกคนสักหน่อย ชิซูเนะ"
 
 # "The look on her face isn't one of sadness, at least as far as I can tell, but her words are very sad."
-""
+"เท่าที่ดูชิซูเนะก็ไม่ได้ทำหน้าเศร้า แต่คำพูดนั้นดูเศร้าเอามาก ๆ"
 
 # hi "Hey, let's play a game."
-hi ""
+hi "นี่ มาเล่นกันสักตาดีกว่า"
 
 # hi "While the board is still here."
-hi ""
+hi "ไหน ๆ กระดานก็ยังอยู่"
 
 play sound sfx_warningbell
 
 # "But the bell rings and cuts me off."
-""
+"แต่เสียงระฆังก็ดังตัดบทฉันไป"
 
 scene black
 with dissolve
