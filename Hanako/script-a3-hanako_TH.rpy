@@ -4567,7 +4567,7 @@ play sound sfx_doorknock2
 "สิ่งที่ทำได้ตอนนี้คือยืนรอ โดยพยายามที่จะไม่กังวลมากเกินไป"
 
 # "As the seconds wear on, I begin to think she might be asleep and didn't hear me knocking. The door handle rattles a little before I can raise my hand to knock again, though."
-"เมื่อเวลาผ่านไปหลายวินาที ฉันคิดว่าเธออาจจะหลับอยู่และไม่ได้ยินฉันเคาะ แต่ก่อนที่ฉันจะได้ยกมือขึ้นเพื่อเคาะอีกครั้ง\nที่จับประตูก็ส่งเสียงขยับกุกกักขึ้นมาเสียก่อน"
+"เวลาผ่านไปหลายวินาที ฉันคิดว่าเธออาจจะหลับอยู่และน่าจะไม่ได้ยินเสียงเคาะ แต่ก่อนที่ฉันจะได้ยกมือขึ้นเพื่อเคาะอีกครั้ง\nที่จับประตูก็ส่งเสียงขยับกุกกักขึ้นมาเสียก่อน"
 
 play sound sfx_dooropen
 
@@ -4575,18 +4575,23 @@ show hanako_door_door:
    xpos -0.05
 with charamove
 
-"The door opens a sliver, an eye appearing in the gap only just large enough for it to peer through. I'm sure this girl would install a peephole in her dormitory door, if only such a thing was allowed."
+# "The door opens a sliver, an eye appearing in the gap only just large enough for it to peer through. I'm sure this girl would install a peephole in her dormitory door, if only such a thing was allowed."
+"ประตูแง้มออกมาเพียงเล็กน้อย ดวงตาข้างหนึ่งมองลอดมาผ่านช่องที่พอจะมองผ่านได้ ฉันมั่นใจว่าฮานาโกะคงจะติดช่องตาแมวที่ประตูหอของเธอถ้าทำได้"
 
-"I just stand and smile at her. I don't think words would really help here, after all."
+# "I just stand and smile at her. I don't think words would really help here, after all."
+"ฉันยืนยิ้มให้เธออยู่อย่างนั้น คำพูดคงจะไม่ช่วยอะไรในสถานการณ์แบบนี้หรอก"
 
-"The act is returned in kind, with Hanako wordlessly looking at me. The gap's not wide enough to see her expression, and I can only guess what she's thinking."
+# "The act is returned in kind, with Hanako wordlessly looking at me. The gap's not wide enough to see her expression, and I can only guess what she's thinking."
+"เธอยิ้มตอบ มองมาที่ฉันโดยไม่พูดอะไร ช่องไม่กว้างพอที่จะเห็นสีหน้าของเธอ และฉันก็ได้แต่เดาว่าเธอกำลังคิดอะไรอยู่"
 
-"Time passes as we look at each other, the only sound being the disembodied gaiety from the ground floor."
+# "Time passes as we look at each other, the only sound being the disembodied gaiety from the ground floor."
+"เวลาผ่านไปขณะที่เรามองหน้ากัน เสียงเดียวที่ได้ยินคือความสนุกสนานจากชั้นล่างที่ปลีกแยกจากพวกเรา"
 
 hide hanagown
 with charaexit
 
-"I'm not sure how long it takes, but eventually the eye moves away. I keep wondering whether she'll let me in or shut me out until the door slowly begins to creak open."
+# "I'm not sure how long it takes, but eventually the eye moves away. I keep wondering whether she'll let me in or shut me out until the door slowly begins to creak open."
+"ไม่แน่ใจว่าผ่านไปนานแค่ไหน แต่ในที่สุดดวงตาก็หลบไป ฉันสงสัยว่าเธอจะให้ฉันเข้าไปหรือจะปิดประตูใส่ จนกระทั่งประตูเริ่มส่งเสียงเอี๊ยดออกมาอย่างช้า ๆ"
 
 play sound sfx_door_creak
 
@@ -4605,67 +4610,92 @@ with silentwhiteout
 
 play music music_comfort
 
-"Now that I have a full view of her and her bedroom behind, the first thing I notice is that Hanako's hair is quite damp. She's recently showered, which is made even more obvious by the scent of shampoo wafting towards me."
+# "Now that I have a full view of her and her bedroom behind, the first thing I notice is that Hanako's hair is quite damp. She's recently showered, which is made even more obvious by the scent of shampoo wafting towards me."
+"ตอนนี้ฉันมองเห็นเธอและห้องนอนของเธออย่างเต็มตา สิ่งแรกที่สังเกตเห็นคือผมของฮานาโกะเปียกชื้น เธอเพิ่งจะอาบน้ำมา\nซึ่งยิ่งชัดเจนขึ้นไปอีกด้วยกลิ่นแชมพูที่ลอยมาแตะจมูกฉัน"
 
-"The look on her face seems one of curiosity, as if she's not really sure what to make of me. Even so, I'm not really all that sure of what she's thinking."
+# "The look on her face seems one of curiosity, as if she's not really sure what to make of me. Even so, I'm not really all that sure of what she's thinking."
+"ดูเหมือนว่าเธอจะมีท่าทางสงสัยอยู่บนใบหน้า ราวกับว่าเธอไม่แน่ใจว่าควรจะคิดยังไงกับฉัน แต่ถึงอย่างนั้นฉันก็ไม่แน่ใจเลยว่าเธอกำลังคิดอะไรอยู่"
 
-"It feels as if she's gone away for a long time, and having now returned, neither of us knows what to say to the other."
+# "It feels as if she's gone away for a long time, and having now returned, neither of us knows what to say to the other."
+"รู้สึกเหมือนว่าเธอหายไปนานมาก และเมื่อกลับมาเจอกัน พวกเราก็ไม่รู้จะพูดอะไรกับอีกฝ่ายเลย"
 
 show hanagown distant
 with charachange
 
-"Hanako realizes she's staring, looking away awkwardly before turning to the side and gazing at her feet. I decide to take it as an invitation and step past her into the room, closing the door behind me as I do so."
+# "Hanako realizes she's staring, looking away awkwardly before turning to the side and gazing at her feet. I decide to take it as an invitation and step past her into the room, closing the door behind me as I do so."
+"ฮานาโกะรู้ตัวว่าเธอกำลังจ้องอยู่ จึงหลบสายตาไปอย่างอึดอัดก่อนจะหันไปทางอื่นและจ้องลงไปที่เท้าของเธอ ฉันถือว่านั่นเป็นคำเชิญเข้าไป และเดินผ่านเธอเข้าไปในห้องพร้อมกับปิดประตู"
 
-"I can see her hands fiddling in the folds of the oversized gown that hangs from her shoulders. I try to concentrate on what I want to say, but the scent from her addles my senses."
+# "I can see her hands fiddling in the folds of the oversized gown that hangs from her shoulders. I try to concentrate on what I want to say, but the scent from her addles my senses."
+"กลิ่นหอมจากเธอทำให้ฉันรู้สึกสับสนไปหมด ฉันพยายามจะตั้งสมาธิคิดถึงสิ่งที่อยากจะพูด แต่ก็ไม่สามารถทำได้เลย"
 
-"To my surprise, it's not me, but Hanako that breaks the silence."
+# "To my surprise, it's not me, but Hanako that breaks the silence."
+"ที่น่าประหลาดใจคือ ไม่ใช่ฉัน แต่กลับเป็นฮานาโกะที่ทำลายความเงียบ"
 
 show hanagown normal
 with charachange
 
-ha "Why…"
+# ha "Why…"
+ha "ทำไมกันล่ะ…"
 
-hi "Because… uh…"
+# hi "Because… uh…"
+hi "ก็… เอ่อ…"
 
-"…Why did I come here?"
+# "…Why did I come here?"
+"ทำไมฉันถึงมาอยู่ที่นี่กันนะ?"
 
-"I was worried about Hanako, so I came to her room. She let me in, as I had hoped, and then… what? What did I mean to do? What did I mean to say?"
+# "I was worried about Hanako, so I came to her room. She let me in, as I had hoped, and then… what? What did I mean to do? What did I mean to say?"
+"ฉันเป็นห่วงฮานาโกะเลยมาอยู่ที่นี่ เธอให้ฉันเข้ามาอย่างที่หวังไว้ แล้ว… แล้วไงต่อ ฉันตั้งใจจะทำอะไร? ฉันตั้งใจจะพูดอะไร?"
 
-"Why didn't I think this through before coming here…"
+# "Why didn't I think this through before coming here…"
+"ทำไมไม่คิดให้รอบคอบก่อนจะมาที่นี่วะ…"
 
-"I want to make up for what I feel I caused, at least partly. I want to try and remove the distance I feel between us since then, and to see her happy. How can I do that when I don't know the first thing about her?"
+# "I want to make up for what I feel I caused, at least partly. I want to try and remove the distance I feel between us since then, and to see her happy. How can I do that when I don't know the first thing about her?"
+"ฉันอยากจะชดเชยในสิ่งที่รู้สึกว่าฉันเป็นต้นเหตุ อย่างน้อยก็บางส่วน ฉันอยากจะพยายามลดระยะห่างที่รู้สึกว่ามีอยู่ระหว่างเราตั้งแต่ตอนนั้น และอยากจะเห็นเธอมีความสุข แต่จะให้ทำได้ยังไง ในเมื่อฉันไม่รู้จักเธอเลยแม้แต่น้อย"
 
-"I wonder… I wonder if this is how Iwanako felt when she saw me lying in that sterile, pastel blue hospital bed."
+# "I wonder… I wonder if this is how Iwanako felt when she saw me lying in that sterile, pastel blue hospital bed."
+"ฉันสงสัย… ว่าฮานาโกะรู้สึกแบบนี้เหมือนกับที่อิวานาโกะรู้สึกตอนที่เห็นฉันนอนอยู่บนเตียงโรงพยาบาลสีฟ้าอ่อนนั่นหรือเปล่า"
 
-hi "I uh… I… um…"
+# hi "I uh… I… um…"
+hi "เอ่อ… ฉัน… เอ่อ…"
 
-"A deep sigh steadies my nerves a little and ends my stammering. I don't think I've ever felt this nervous around someone before. When I'm like this, I don't think I can lie. Even if I could bring myself to, Hanako would see through it right away."
+# "A deep sigh steadies my nerves a little and ends my stammering. I don't think I've ever felt this nervous around someone before. When I'm like this, I don't think I can lie. Even if I could bring myself to, Hanako would see through it right away."
+"การถอนหายใจลึก ๆ ช่วยให้ฉันรู้สึกมั่นใจขึ้นนิดหน่อยและหยุดการพูดติดอ่างของฉันได้ ฉันไม่คิดว่าฉันเคยรู้สึกประหม่าแบบนี้กับใครมาก่อนเลย เมื่อฉันเป็นแบบนี้ ฉันไม่คิดว่าฉันจะโกหกได้เลย ถึงจะพยายาม ฮานาโกะก็จะจับได้อยู่ดี"
 
-hi "I don't know. I just… wanted to see you, I guess."
+# hi "I don't know. I just… wanted to see you, I guess."
+hi "ไม่รู้หรอกสิ ก็แค่… อยากจะเจอเธอแค่นั้นเอง ละมั้ง"
 
 show hanagown smile
 with charachange
 
-"Her fingers stop moving, giving me a little surprise. Looking up to her face, she gives a sweet smile and a nod. That was a satisfactory answer for her?"
+# "Her fingers stop moving, giving me a little surprise. Looking up to her face, she gives a sweet smile and a nod. That was a satisfactory answer for her?"
+"นิ้วของเธอหยุดเคลื่อนไหว ทำให้ฉันรู้สึกประหลาดใจเล็กน้อย เมื่อมองขึ้นไปที่ใบหน้าของเธอ เธอยิ้มหวาน ๆ และพยักหน้า นั่นเป็นคำตอบที่เธอพอใจแล้วเหรอ?"
 
-ha "Um… since you're here…"
+# ha "Um… since you're here…"
+ha "เอ่อ… ไหน ๆ นายก็มาแล้ว…"
 
 show hanagown distant_blush
 with charachange
 
-ha "I'd like to… play a game of chess with you…"
+# ha "I'd like to… play a game of chess with you…"
+ha "ฉันอยากจะ… เล่นหมากรุกกับนาย…"
 
-"I almost hang my head in disbelief that all she wants to do, after I've been winding myself up so much, is play a game. Looking at her face though, a tentative smile perched upon it, I realize that this is more than that."
+# "I almost hang my head in disbelief that all she wants to do, after I've been winding myself up so much, is play a game. Looking at her face though, a tentative smile perched upon it, I realize that this is more than that."
+"ฉันเกือบจะก้มหน้าลงด้วยความไม่อยากจะเชื่อเลยว่า สิ่งที่เธออยากจะทำหลังจากที่ฉันเครียดมาขนาดนี้คือแค่เล่นเกม แต่พอมองไปที่ใบหน้าของเธอที่มีรอยยิ้มน้อย ๆ อยู่นั้น ฉันก็รู้ว่าไม่ใช่แค่นั้น"
 
-"She could have not bothered answering the door. She could have shut it as soon as she saw my face. She could have asked me to leave."
+# "She could have not bothered answering the door. She could have shut it as soon as she saw my face. She could have asked me to leave."
+"เธอเลือกที่จะไม่มาเปิดประตูให้ฉันก็ได้ เลือกที่จะปิดประตูใส่ฉันตั้งแต่เห็นหน้าฉันก็ได้ หรือเลือกที่จะบอกให้ฉันออกไปก็ได้"
 
-"She could have rejected me at many points, but she didn't. Now, with this calm face, she wants me to play the same game that we played when we first really spent time alone together."
+# "She could have rejected me at many points, but she didn't. Now, with this calm face, she wants me to play the same game that we played when we first really spent time alone together."
+"เธออาจจะปฏิเสธฉันได้หลายครั้ง แต่เธอก็ไม่ได้ทำแบบนั้น ตอนนี้ด้วยใบหน้าที่ดูสงบของเธอ เธออยากจะเล่นเกมเดียวกันกับที่เราเล่นตอนที่เราใช้เวลาร่วมกันเป็นครั้งแรก"
 
-"A feeling of relief washes over me."
+# "A feeling of relief washes over me."
+"ความโล่งใจเข้ามาเยือนฉัน"
 
-"Everything will be all right. Hanako has let me into her world. As long as we can be together like this, I think everything will be all right."
+# "Everything will be all right. Hanako has let me into her world. As long as we can be together like this, I think everything will be all right."
+"ทุกอย่างจะโอเค ฮานาโกะได้ให้ฉันเข้ามาในโลกของเธอแล้ว ตราบใดที่เราสามารถอยู่ด้วยกันแบบนี้ได้ ฉันคิดว่าทุกอย่างจะไปได้ดี"
 
-hi "It would be my pleasure."
+# hi "It would be my pleasure."
+hi "ด้วยความยินดีเลย"
 
 stop music fadeout 2.0
 
