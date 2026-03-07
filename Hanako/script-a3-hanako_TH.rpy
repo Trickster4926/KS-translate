@@ -4709,40 +4709,52 @@ label th_H17:
 scene bg school_girlsdormhall
 with locationchange
 
-"The day of Hanako's birthday party is finally here."
+# "The day of Hanako's birthday party is finally here."
+"ในที่สุดก็ถึงวันเกิดของฮานาโกะแล้ว"
 
-"To be honest, I'm looking forward to seeing Hanako and Lilly in their pajamas again. Hanako's gown has grown on me as looking rather cute, though a bit conservative, and Lilly's shorts and thin silken top are a lovely combination."
+# "To be honest, I'm looking forward to seeing Hanako and Lilly in their pajamas again. Hanako's gown has grown on me as looking rather cute, though a bit conservative, and Lilly's shorts and thin silken top are a lovely combination."
+"ว่าตามตรง ฉันตั้งตารอที่จะได้เห็นฮานาโกะและลิลลี่ในชุดนอนอีกครั้ง ชุดนอนของฮานาโกะดูน่ารักดี ถึงจะดูเรียบร้อยไปหน่อยก็เถอะ ส่วนชุดของลิลลี่ที่เป็นกางเกงขาสั้นกับเสื้อบาง ๆ ที่ทำจากผ้าไหมนั้นก็เป็นชุดที่เข้ากันดีมาก"
 
-"But the event is stained a little with the memory of Hanako's reaction to it."
+# "But the event is stained a little with the memory of Hanako's reaction to it."
+"แต่ปฏิกิริยาของฮานาโกะต่อเรื่องนี้ทำให้ดูไม่ค่อยดีเท่าไหร่"
 
-"I still don't really understand what happened, only being able to vaguely guess at the possible reasons for it, but I don't think finding the answer will be as straightforward as asking her."
+# "I still don't really understand what happened, only being able to vaguely guess at the possible reasons for it, but I don't think finding the answer will be as straightforward as asking her."
+"ฉันยังไม่ค่อยเข้าใจเลยว่าเกิดอะไรขึ้น แค่เดาได้นิดหน่อยถึงสาเหตุที่เป็นไปได้ แต่ฉันไม่คิดว่าการหาคำตอบจะง่ายเหมือนแค่ถามเธอหรอก"
 
 play sound sfx_doorknock2
 
-"With that in mind, I knock on the door next to Hanako's."
+# "With that in mind, I knock on the door next to Hanako's."
+"คิดได้เช่นนั้นแล้ว ฉันจึงเคาะประตูข้าง ๆ ห้องของฮานาโกะ"
 
-li "Is that you, Hisao?"
+# li "Is that you, Hisao?"
+li "ฮิซาโอะใช่ไหมจ๊ะ?"
 
-hi "Yeah, it's me."
+# hi "Yeah, it's me."
+hi "อื้ม ฉันเอง"
 
-"I can hear the pitter-patter of footsteps coming to the door, followed by the sound of the lock snapping open. I don't think I've ever seen Lilly's door locked before, and it makes me a little suspicious."
+# "I can hear the pitter-patter of footsteps coming to the door, followed by the sound of the lock snapping open. I don't think I've ever seen Lilly's door locked before, and it makes me a little suspicious."
+"ฉันได้ยินเสียงฝีเท้าเดินมาที่ประตู ตามด้วยเสียงของกลอนที่ถูกปลดออก จำไม่ยักได้ว่าเคยเห็นประตูของลิลลี่ถูกล็อกมาก่อนเลย ทำให้ฉันสงสัยนิดหน่อย"
 
-"Once the door opens, the sight is… a little underwhelming for a birthday party."
+# "Once the door opens, the sight is… a little underwhelming for a birthday party."
+"เมื่อประตูเปิดออกมา สิ่งที่เห็นก็… ดูไม่ค่อยน่าตื่นเต้นสำหรับงานวันเกิดเท่าไหร่"
 
 play music music_ease fadein 1.0
 
 scene ev lilly_bedroom
 with locationchange
 
-"Hanako returns to her seat at the table with a quick smile and a nod, leaving me to close and, assuming they wanted it to be kept that way, lock the door."
+# "Hanako returns to her seat at the table with a quick smile and a nod, leaving me to close and, assuming they wanted it to be kept that way, lock the door."
+"ฮานาโกะกลับไปนั่งที่โต๊ะด้วยรอยยิ้มและพยักหน้าอย่างรวดเร็ว ทิ้งให้ฉันเป็นคนปิดและล็อกประตูเหมือนเดิม เพราะคิดว่าพวกเธอคงอยากให้เป็นแบบนั้น"
 
-"As I do so, I realize that the scene before me is that of an evening tea party, just like any other between the two. Somehow, I don't think I should be surprised."
+# "As I do so, I realize that the scene before me is that of an evening tea party, just like any other between the two. Somehow, I don't think I should be surprised."
+"ในขณะที่ฉันล็อกประตู ฉันก็รู้ตัวว่าฉากที่อยู่ตรงหน้าฉันนั้นเหมือนกับงานเลี้ยงน้ำชายามเย็นธรรมดา ๆ ระหว่างสองคนนี้เลย ไม่รู้ทำไม แต่ฉันไม่คิดว่าควรจะรู้สึกแปลกใจเลย"
 
 scene ev lilly_bedroom_large:
     ypos 0 xpos -860
 with locationchange
 
-"To my relief, Hanako looks relatively calm. The break from class has probably done her good, and given her time to wind down a bit."
+# "To my relief, Hanako looks relatively calm. The break from class has probably done her good, and given her time to wind down a bit."
+"ฉันโล่งใจที่เห็นฮานาโกะดูค่อนข้างสงบขึ้นแล้ว การหยุดเรียนไปคงจะช่วยให้เธอได้ผ่อนคลายลงได้บ้าง"
 
 scene bg school_dormlilly
 show lilly basic_smileclosed_paj:
@@ -4753,44 +4765,58 @@ show hanagown distant:
     ypos 1.17
 with locationchange
 
-"I take a seat between the two at the low table in the center of Lilly's room, the brightly-colored teapot steaming away between us."
+# "I take a seat between the two at the low table in the center of Lilly's room, the brightly-colored teapot steaming away between us."
+"ฉันนั่งลงระหว่างทั้งสองที่โต๊ะเตี้ยตรงกลางห้องของลิลลี่ กาน้ำสีสันสดใสส่งไอน้ำลอยขึ้นระหว่างเรา"
 
-"A tall brown bag close by Lilly's side catches my attention. I covertly try to glance inside it a couple of times, but can't get a good look from here."
+# "A tall brown bag close by Lilly's side catches my attention. I covertly try to glance inside it a couple of times, but can't get a good look from here."
+"กระเป๋าสีน้ำตาลสูงใกล้ ๆ ข้างลิลลี่ดึงดูดความสนใจของฉัน ฉันพยายามแอบมองข้างในหลายครั้ง แต่ก็เห็นได้ไม่ค่อยชัดจากตรงนี้"
 
-"Looking to Hanako, it seems like she's as curious about it as I am."
+# "Looking to Hanako, it seems like she's as curious about it as I am."
+"พอมองไปที่ฮานาโกะ เหมือนว่าเธอจะอยากรู้อยากเห็นพอ ๆ กับฉันเลย"
 
-hi "Hey, Lilly?"
+# hi "Hey, Lilly?"
+hi "นี่ ลิลลี่"
 
-"Lilly finishes off the teacup raised to her lips before setting it down and giving me her attention."
+# "Lilly finishes off the teacup raised to her lips before setting it down and giving me her attention."
+"ลิลลี่ดื่มน้ำชาจนหมดถ้วยก่อนจะวางถ้วยลงและหันมาสนใจฉัน"
 
 show lilly basic_smile_paj
 with charachange
 
-li "Yes?"
+# li "Yes?"
+li "ว่าไงจ๊ะ?"
 
-hi "I was just wondering about that brown bag…"
+# hi "I was just wondering about that brown bag…"
+hi "ฉันแค่สงสัยเกี่ยวกับกระเป๋าสีน้ำตาลนั่นน่ะ…"
 
-"She pauses for a moment, then gives a slightly cheeky smile."
+# "She pauses for a moment, then gives a slightly cheeky smile."
+"ลิลลี่นิ่งไปสักพักก่อนจะยิ้มเจ้าเล่ห์นิด ๆ"
 
 show lilly basic_cheerful_paj
 with charachange
 
-li "That would be Akira's present. Unfortunately, she said she was working and can't join us."
+# li "That would be Akira's present. Unfortunately, she said she was working and can't join us."
+li "นั่นคงเป็นของขวัญจากพี่อากิระน่ะ น่าเสียดายที่เธอบอกว่าเธอกำลังทำงานอยู่และมาด้วยไม่ได้"
 
-"Lilly leans over and feels out the item inside before raising her arm."
+# "Lilly leans over and feels out the item inside before raising her arm."
+"ลิลลี่โน้มตัวไปข้างหน้าและสัมผัสกับสิ่งของข้างในก่อนจะยกแขนเธอขึ้นมา"
 
-"I raise an eyebrow as two items, not one, rise from the bag. The glass necks are grasped by Lilly on either side of her middle finger. So this is why she had her door locked."
+# "I raise an eyebrow as two items, not one, rise from the bag. The glass necks are grasped by Lilly on either side of her middle finger. So this is why she had her door locked."
+"ฉันขมวดคิ้วเมื่อเห็นว่าสิ่งที่ยกขึ้นมานั้นไม่ใช่แค่หนึ่งชิ้น แต่เป็นสองชิ้น คอขวดแก้วถูกจับโดยลิลลี่ทั้งสองข้างของนิ้วกลาง สิ่งนี้เองคือเหตุผลที่เธอล็อกประตูไว้"
 
 show wine:
     yalign 0.5 xanchor 0.0 xpos 1.0 alpha 0.0
     easein 1.0 alpha 1.0 xanchor 1.0
 with Pause(1.0)
 
-ha "Wine…"
+# ha "Wine…"
+ha "ไวน์…"
 
-"There are two small thuds as the bottles are brought to rest on the table; one red, one white. I want to believe that it's fake, non-alcoholic wine, but if it was, there wouldn't be any need to be this circumspect."
+# "There are two small thuds as the bottles are brought to rest on the table; one red, one white. I want to believe that it's fake, non-alcoholic wine, but if it was, there wouldn't be any need to be this circumspect."
+"มีเสียงตุบเล็ก ๆ สองครั้งเมื่อขวดถูกวางลงบนโต๊ะ ขวดหนึ่งเป็นไวน์แดง อีกขวดเป็นไวน์ขาว ฉันอยากจะเชื่อว่ามันเป็นไวน์ปลอมที่ไม่มีแอลกอฮอล์ แต่ถ้าเป็นแบบนั้นจริง ๆ ก็คงไม่จำเป็นต้องระวังขนาดนี้"
 
-hi "Alcohol? Seriously? Are you sure this is a good idea?"
+# hi "Alcohol? Seriously? Are you sure this is a good idea?"
+hi "เครื่องดื่มแอลกอฮอล์? เอาจริงดิ คิดดีแล้วใช่ไหมเนี่ย"
 
 show lilly basic_smileclosed_paj
 with charachange
