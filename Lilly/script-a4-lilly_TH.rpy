@@ -224,7 +224,7 @@ show misha hips_smile_close
 with charachange
 
 # mi "Oh, ah, so what did you do over the weekend, Hicchan?"
-mi "อ้อ เอ้อ แล้ววันตอนหยุดนายไปทำอะไรมาล่ะ ฮิจัง"
+mi "อ้อ เอ้อ แล้วตอนวันหยุดนายไปทำอะไรมาล่ะ ฮิจัง"
 
 # hi "Just took a trip up north with Lilly and Hanako. It was pretty nice."
 hi "เพิ่งขึ้นเหนือไปเที่ยวกับลิลลี่แล้วก็ฮานาโกะมาเลย ก็สนุกดี"
@@ -325,7 +325,7 @@ with charachange
 "ลิลลี่ลืมตาขึ้นช้า ๆ เหมือนตอนที่ฉันเจอเธอเป็นครั้งแรก เธอยังนั่งนิ่งอยู่แล้วทักทายฉันด้วยน้ำเสียงอันเยือกเย็น"
 
 # li "Good morning, Hisao."
-li "อรุณสวัสด์จ้ะฮิซาโอะ"
+li "อรุณสวัสดิ์จ้ะฮิซาโอะ"
 
 # hi "It's afternoon, I think."
 hi "เหมือนจะบ่ายแล้วนะ"
@@ -1420,7 +1420,7 @@ nk "ตั้งแต่มาเรียนที่นี่ ครั้ง
 hi "ก่อนหน้านั้นก็มีปวดจี๊ด ๆ อยู่บ้างครั้งสองครั้งครับ แต่ก็แค่รู้สึกแน่น ๆ นิดหน่อย ไม่ได้หนักเหมือนครั้งนี้"
 
 # "He leans back in his chair, briefly resembling a white-coated Poirot as he mulls over the mysterious case of the heart flutter."
-"คุณพยาบาลเอนตัวพิงพนักเก้าอี้ แวบหนึ่งลักษณะเขาดูคล้ายนักสืบปัวโรต์ที่ใส่ชุดขาวผู้ซึ่งกำลังพิเคราห์คดีปริศนา\nเรื่องหัวใจเต้นผิดจังหวะ"
+"คุณพยาบาลเอนตัวพิงพนักเก้าอี้ แวบหนึ่งลักษณะเขาดูคล้ายนักสืบปัวโรต์ที่ใส่ชุดขาวผู้ซึ่งกำลังพิเคราะห์คดีปริศนา\nเรื่องหัวใจเต้นผิดจังหวะ"
 
 # "Moving his lips from side to side to show he's thinking, his nonexistent mustache wiggling, he eventually comes to a conclusion."
 "เขาเม้มปากไปมาทำท่าครุ่นคิดพลางกระดิกหนวดที่มองไม่เห็นอยู่ จนในที่สุดเขาก็ได้ข้อสรุป"
@@ -4724,7 +4724,7 @@ with flash
 "ไม่นานฉันก็เห็นว่าลิลลี่เข้าใกล้ฝั่งมากแล้ว และเธอก็สะอึกไปแล้วหลับตาแน่นทั้งตัวหดเกร็งชัดว่าเธอไปถึงแล้ว"
 
 # "For only a scant few seconds she tightens, huddled in ecstasy before her body relaxes and a long, drained sigh comes from her lips."
-"ตัวของลิลลี่เกร็งอยู่ด้วยความรู้สึกอันวามไหวได้ชั่วขณะ จากนั้นเธอจึงคลายตัวพ่นลมหายใจยาวจากริมฝีปากเธอ"
+"ตัวของลิลลี่เกร็งอยู่ด้วยความรู้สึกอันวามไหวชั่วขณะ จากนั้นเธอจึงคลายตัวพ่นลมหายใจยาวจากริมฝีปากเธอ"
 
 scene bg school_dormlilly
 with locationchange
@@ -5862,7 +5862,7 @@ li "ฮิซาโอะ มีที่ที่จะไปแล้วเห
 hi "ร้านเซี่ย—"
 
 # "The rest of my voice is completely drowned out by an even heavier burst of rain."
-"ประโยคส่วนที่เหลือถูกกลบด้วยเสียงฝนที่ซัดสาดลงมาหนักกว่าเด่า"
+"ประโยคส่วนที่เหลือถูกกลบด้วยเสียงฝนที่ซัดสาดลงมาหนักกว่าเก่า"
 
 show lilly basic_sad_cas_close_rn
 with charachange
@@ -6089,7 +6089,7 @@ with charachange
 "ลิลลี่แสยะยิ้มออกมาเล็กน้อยเพราะรู้ดีว่าไล่ต้อนฉันให้จนมุมสำเร็จแล้ว ซึ่งทำให้ฉันยิ่งลำบากใจที่จะพูดประโยคถัดไป\nขึ้นไปอีก"
 
 # hi "It was just… Akira and I were talking."
-hi "คือ… ฉันไปคุยกับอากิระมา"
+hi "คือ… ฉันไปคุยกับพี่อากิระมา"
 
 show lilly basic_surprised_cas_close
 with charachange
@@ -6107,7 +6107,7 @@ with charachange
 li "เธอสองคนดูเข้ากันดีจังเลยนะ"
 
 # hi "Well, I do think she's a pretty cool person to talk with. It'd be nice if any of the teachers were anything like her."
-hi "ก็ เป็นคนที่คุยด้วยสนุกดีนะ ถ้ามีครูสักคนในโรงเรียนเป็นอย่างสักเสี้ยวอากิระได้คงดี"
+hi "ก็ เป็นคนที่คุยด้วยสนุกดีนะ ถ้ามีครูสักคนในโรงเรียนเป็นอย่างสักเสี้ยวพี่เขาได้คงดี"
 
 show lilly basic_sleepy_cas_close
 with charachange
@@ -6134,10 +6134,10 @@ li "เปล่าหึงสักหน่อย!"
 "แต่หลังจากนี้ฉันก็ต้องเผชิญหน้ากับจุดประสงค์จริง ๆ ที่ฉันพาลิลลี่มาที่นี่"
 
 # hi "Don't worry, it was mostly just everyday stuff. That said, there was something Akira mentioned that I wanted to talk to you about."
-hi "ไม่ต้องห่วงหรอก ส่วนมากก็แค่คุยเรื่องดินฟ้าอากาศกันนั่นแหละ แต่เรื่องนี้ฉันได้ยินอากิระเล่ามาเลยอยากเอามา\nคุยกับเธอ"
+hi "ไม่ต้องห่วงหรอก ส่วนมากก็แค่คุยเรื่องดินฟ้าอากาศกันนั่นแหละ แต่เรื่องนี้ฉันได้ยินพี่เธอเล่ามาเลยอยากเอามา\nคุยกับเธอ"
 
 # hi "When you went to see your family in Inverness a while back, she said…"
-hi "ตอนที่เธอไปหาครอบครัวเธอที่อินเวอร์เนสส์น่ะ อากิระเล่าว่า…"
+hi "ตอนที่เธอไปหาครอบครัวเธอที่อินเวอร์เนสส์น่ะ พี่เขาเล่าว่า…"
 
 show lilly basic_reminisce_cas_close
 with charachange
@@ -6184,7 +6184,7 @@ with charachange
 li "บอกให้ฉันเดินด้วยตัวเองแท้ ๆ แต่ชอบมาขัดจังหวะแบบนี้อยู่เรื่อยเลย…"
 
 # hi "I don't think you should blame Akira here. She's just looking out for you, and it's not like I can't understand her concern over this."
-hi "ฉันว่ามันไม่ใช่ความผิดของอากิระเลยนะ อากิระก็แค่เป็นห่วงเธอ ซึ่งฉันก็พอจะเข้าใจนะว่าทำไมถึงเป็นห่วง"
+hi "ฉันว่ามันไม่ใช่ความผิดของพี่อากิระเลยนะ พี่เขาก็แค่เป็นห่วงเธอ ซึ่งฉันก็พอจะเข้าใจอยู่ว่าทำไมถึงเป็นห่วง"
 
 show lilly basic_weaksmile_cas_close
 with charachange
@@ -6392,7 +6392,7 @@ show kenji happy:
 with charaenter
 
 # "Sure enough, the opening of the door opposite mine heralds the arrival of a bespectacled Kenji."
-"ตามคาด ประตูห้องตรงข้ามที่เปิดนั้นเป็นการป่าวร้องการมาถึงของเคนจิผู้สวมแว่น"
+"ตามคาด ประตูห้องใกล้ ๆ กันที่เปิดนั้นเป็นการป่าวร้องการมาถึงของเคนจิผู้สวมแว่น"
 
 # ke "Hey man, what's…"
 ke "ไงพวก สบา…"
@@ -6401,7 +6401,7 @@ show kenji tsun at center
 with charachange
 
 # ke "Woah dude, you look awful, I think. You okay?"
-ke "โหพวก สภาพดูไม่ได้เลยนะ เหมือนจะนะ ไหวเปล่า"
+ke "โหพวก สภาพดูไม่ได้เลย เหมือนจะนะ ไหวเปล่า"
 
 # "He really has a knack for making any situation better."
 "หมอนี่มันเก่งเรื่องการคลายบรรยากาศจริง ๆ"
@@ -8543,7 +8543,7 @@ hh "พี่ฮิซาโอะ? มาทำอะไรเหรอคร�
 "ครั้งนี้น่าจะเป็นน้ำเสียงที่มีอารมณ์อยู่ในนั้นเยอะที่สุดเท่าที่ฉันเคยได้ยินเขาพูดมาแล้ว แต่ก็ใช่ว่าจะเป็นมาตรฐานที่สูง\nอะไรขนาดนั้นหรอก"
 
 # hi "Akira told me that she and Lilly would be staying here before they left for their flight."
-hi "อากิระบอกมาว่าจะมาอยู่ที่นี่กับลิลลี่ก่อนจะไปขึ้นเครื่อง"
+hi "พี่อากิระบอกมาว่าจะมาอยู่ที่นี่กับลิลลี่ก่อนจะไปขึ้นเครื่อง"
 
 # hi "I need to talk to Lilly, just one last time. Are they still here?"
 hi "ฉันต้องคุยกับลิลลี่ ครั้งนี้ครั้งสุดท้ายแล้วละ สองคนนั้นยังอยู่ที่นี่มั้ย"

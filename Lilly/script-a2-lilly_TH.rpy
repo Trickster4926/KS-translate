@@ -1028,7 +1028,7 @@ ke "แล้วเป็นคนสัญชาติอะไร"
 "ฉันอ้าปากเตรียมตอบ แต่แล้วก็นึกได้ว่าไม่มีคำตอบจะพูด ที่จริงฉันแทบไม่เคยคิดเรื่องนี้ด้วยซ้ำ"
 
 # "Given that she has no accent and acts perfectly Japanese, I suppose it never really seemed important. Now that he mentions it though, I am rather curious."
-"ฉันไม่ได้คิดว่าจะเป็นเรื่องสำคัญอะไรเพราะเห็นว่าลิลลี่ก็พูดไม่ติดสำเนียงต่างชาติ แถมทำตัวเป็นคนญี่ปุ่นตามปกติหมด\n แต่พอเคนจิถามแล้วก็อยากรู้ขึ้นมาเลยแฮะ"
+"ฉันไม่ได้คิดว่าจะเป็นเรื่องสำคัญอะไรเพราะเห็นว่าลิลลี่ก็พูดไม่ติดสำเนียงต่างชาติ แถมทำตัวเป็นคนญี่ปุ่นตามปกติหมด\nแต่พอเคนจิถามแล้วก็อยากรู้ขึ้นมาเลยแฮะ"
 
 # hi "To be honest, I don't know. Maybe English? They like tea."
 hi "ว่าตามตรงฉันก็ไม่รู้เหมือนกัน อังกฤษมั้ง คนอังกฤษชอบชานี่"
@@ -1133,7 +1133,7 @@ play ambient sfx_crowd_indoors fadein 2.0
 "พอจัดหนังสือใส่กระเป๋าก็เหลือบไปเห็นหนังสือที่ยืมมาจากห้องสมุดเมื่อสัปดาห์ที่แล้ว เอาไปคืนดีกว่า ยังไงอ่านแค่\nสองวันก็จบแล้ว"
 
 # "I briefly consider inviting Hanako along to the library, but she's already gone. It'll probably be better for my studying if I'm alone anyway."
-"แวบหนึ่งฉันนึกจะชวนฮานาโกะไปห้องสมุดด้วย แต่เธอก็ไม่อยู่แล้ว แต่ยังไงอยู่คนเดียวน่าจะจดจ่อกับอ่านหนังสือเรียน\nได้ดีกว่าอยู่แล้วละนะ"
+"แวบหนึ่งฉันนึกจะชวนฮานาโกะไปห้องสมุดด้วย แต่เธอก็ไม่อยู่แล้ว แต่ยังไงอยู่คนเดียวน่าจะจดจ่อกับการอ่าน\nหนังสือเรียนได้ดีกว่าอยู่แล้วละนะ"
 
 # "With a quick stretch and a wave to a couple of classmates who give the same to me, I make my way out of the classroom."
 "ฉันบิดขี้เกียจแล้วโบกมือลาเพื่อนร่วมชั้นสองคนที่โบกมือตอบแล้วเดินออกมาจากห้องเรียน"
@@ -1403,7 +1403,7 @@ with charachange
 "เธอพยักหน้าเป็นสัญญาณว่าตกลงให้ฉันไปด้วยกับเธอในวันอาทิตย์นี้"
 
 # "We eventually get back to our books, though before I begin reading again I steal one last glance at her."
-"สุดท้ายเราก็อ่านหนังสือของตัวเองก่อนต่อ ฉันเหลือบมองลิลลี่อีกหนึ่งครั้งก่อนจะกลับมามองหนังสือตัวเอง"
+"สุดท้ายเราก็อ่านหนังสือของตัวเองกันต่อ ฉันเหลือบมองลิลลี่อีกหนึ่งครั้งก่อนจะกลับมามองหนังสือตัวเอง"
 
 # "Maybe I've been thinking on my situation too much. After all, everybody here would have their own unique circumstances."
 "ฉันคงจะคิดมากไปกับสภาพตัวเองตอนนี้ ยังไงเสีย ทุกคนที่นี่ต่างก็มีเรื่องอะไรหลายอย่างแตกต่างกันไปของใครของมัน\nทั้งนั้น"
@@ -2649,7 +2649,7 @@ show lilly cane_emb_cas_ni
 with charachange
 
 # "The tentative question is met with the same look from Lilly as before. Her pale skin makes the rosy tint of her cheeks just slightly more noticeable and her face, though still pointed to the street ahead of her, lowers. Just a little."
-"ลิลลี่ยังทำสีหน้าเช่นเดิมกับฉันที่โยนหินถามทางไปอย่างนั้น ใบหน้าขาวนวลของเธอทำให้สีแดงเรื่อนั้นเห็นได้ชัดขึ้น\nนิดหนึ่ง เธอยังคงมองทางข้างหน้าก้มหน้าต่ำเล็กน้อย"
+"ลิลลี่ยังทำสีหน้าเช่นเดิมกับฉันที่โยนหินถามทางไปอย่างนั้น ใบหน้าขาวนวลของเธอทำให้สีแดงเรื่อนั้นเห็นได้ชัดขึ้น\nนิดหนึ่ง เธอยังคงไม่หันมาพลางหน้าก้มหน้าต่ำเล็กน้อย"
 
 show lilly cane_cheerful_cas_ni
 with charachange
@@ -3917,7 +3917,7 @@ show lilly basic_concerned_paj_close
 with charachange
 
 # li "I haven't met my family in six years. I don't even know how to act around them any more."
-li "ฉันไม่ได้เจอหน้าครอบครัวตัวเองมาหกปีแล้วจ้ะ ลืมไปแล้วด้วยซ้ำว่าจะต้องทำตัวกับพวกเขายังไง"
+li "ฉันไม่ได้อยู่กับครอบครัวตัวเองมาหกปีแล้วจ้ะ ลืมไปแล้วด้วยซ้ำว่าจะต้องทำตัวกับพวกท่านยังไง"
 
 # "Wait… what? My mouth hangs open as I try to process what she said."
 "เดี๋ยว… อะไรนะ ฉันอ้าปากค้าง สมองก็พลางคิดตาม"
@@ -3964,7 +3964,7 @@ show lilly basic_weaksmile_paj_close
 with charachange
 
 # li "Don't be. It feels strange, really. We're being summoned there for her, yet we've barely met before. I can't even remember the sound of her voice."
-li "ไม่เป็นไรจ้ะ เอาจริง ๆ ก็รู้สึกแปลกเหมือนกันนะที่เรียกให้พวกเราไปหา ทั้งที่แทบไม่ได้เจอหน้าท่านเลยแท้ ๆ ฉันจำเสียง\nท่านไม่ได้แล้วด้วยซ้ำ"
+li "ไม่เป็นไรจ้ะ เอาจริง ๆ ก็รู้สึกแปลกเหมือนกันนะที่เรียกให้พวกเราไปหา ทั้งที่แทบไม่ได้อยู่ด้วยกันเลยแท้ ๆ ฉันจำเสียง\nท่านไม่ได้แล้วด้วยซ้ำ"
 
 # "Equally strange is the total lack of antipathy she feels towards her family for doing such a thing. I can't help feeling slightly humbled."
 "ที่แปลกพอกันคือลิลลี่ดูไม่ได้นึกรำคาญครอบครัวเธอที่วานอะไรอย่างนี้เลย เห็นอย่างนี้แล้วก็อดชื่นชมไม่ได้"
@@ -5317,7 +5317,7 @@ show lilly cane_weaksmile_close_ni
 with charachange
 
 # li "I'm sure you are. I think I can forgive you just this once, though."
-li "น่าเชื่อถือจ้ะ แต่ฉันคงให้อภัยเธอให้ได้แค่ครั้งนี้ครังเดียว"
+li "น่าเชื่อถือจ้ะ แต่ฉันคงให้อภัยเธอให้ได้แค่ครั้งนี้ครั้งเดียว"
 
 # hi "Forgive? What for, exactly?"
 hi "ให้อภัย? เรื่องอะไรล่ะ"

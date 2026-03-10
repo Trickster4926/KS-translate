@@ -1841,7 +1841,7 @@ n "\n\nตั้งแต่ที่โทร. หาลิลลี่คร�
 n "ฉันเพิ่งมาเรียนที่นี่ได้เดือนกว่า ๆ แต่โรงเรียนแห่งนี้กลับกลายเป็นบ้านหลังที่สองไปแล้ว ฉันได้รู้จักคนใหม่ ๆ ได้เพื่อน\nใหม่ ๆ คุ้นชินกับวิถีชีวิตและวัฒนธรรมของโรงเรียนนี้ และยังคุ้นเคยกับความพิเศษของเพื่อนร่วมชั้นแล้ว"
 
 # n "To become used to a school where disabilities are the norm, rather than the rare exception, still catches me off guard sometimes when I think on it. The same school that's populated by burn victims, amputees, the blind, the deaf and all manner of disabilities inbetween."
-n "พอคิดดูแล้วก็น่าตกใจเหมือนกันที่ฉันชินกับการอยู่โรงเรียนที่ความพิการนั้นเป็นเรื่องปกติ ไม่ใช่ข้อยกเว้นพิเศษอะไร\nโรงเรียนที่มีนักเรียนที่เป็นแผลไฟไหม้ ไม่มีแขนขา ตาบอด หูนวก และความพิการทั้งหลายทุกรูปแบบ"
+n "พอคิดดูแล้วก็น่าตกใจเหมือนกันที่ฉันชินกับการอยู่โรงเรียนที่ความพิการนั้นเป็นเรื่องปกติ ไม่ใช่ข้อยกเว้นพิเศษอะไร\nโรงเรียนที่มีนักเรียนที่เป็นแผลไฟไหม้ ไม่มีแขนขา ตาบอด หูหนวก และความพิการทั้งหลายทุกรูปแบบ"
 
 # n "If someone had described this school to me before I'd come, I'd have shrugged it off as an overactive imagination. Even when I first arrived I felt like the Dutch, coming to this strange new land for the first time."
 n "ถ้ามีคนมาบรรยายเรื่องโรงเรียนนี้ให้ฟังก่อนที่ฉันจะมาจริง ๆ ฉันคงไม่ใส่ใจคิดไปว่าที่พูดนั้นคิดเกินจริงไปหรือเปล่า\nขนาดตอนที่ฉันมาเป็นครั้งแรกยังรู้สึกตัวเองเหมือนเป็นชาวฮอลันดาที่มาเหยียบแผ่นดินใหม่อันน่าพิศวงนี้\nเป็นครั้งแรกเลย"
@@ -3333,7 +3333,7 @@ with charachange
 "นิ้วขาวของเธอยามต้องแสงแดดนั้นดูคล้ายว่าเรืองแสงอยู่เบื้องหลังผิวแก้วที่สะท้อนแสงขาวอ่อนโยน"
 
 # "Her fingers are definitely longer than mine, the kind I'd think more suited to a pianist than a teacher. She'd likely have done well if she'd learned how to play."
-"นิ้วลิลลี่นั้นยาวกว่านิ้วฉันอย่างเห็นได้ฉัน เป็นนิ้วที่รู้สึกว่าน่าจะเหมาะกับการเป็นนักเปียโนมากกว่าการเป็นครู"
+"นิ้วลิลลี่นั้นยาวกว่านิ้วฉันอย่างเห็นได้ชัด เป็นนิ้วที่รู้สึกว่าน่าจะเหมาะกับการเป็นนักเปียโนมากกว่าการเป็นครู"
 
 hide lilly
 with charaexit
