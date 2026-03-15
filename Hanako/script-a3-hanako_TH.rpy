@@ -4821,15 +4821,20 @@ hi "เครื่องดื่มแอลกอฮอล์? เอาจ�
 show lilly basic_smileclosed_paj
 with charachange
 
-"Lilly smiles politely and giggles. I'm not really convinced that she is."
+# "Lilly smiles politely and giggles. I'm not really convinced that she is."
+"ลิลลี่ยิ้มอย่างสุภาพและหัวเราะคิกคัก ฉันไม่ค่อยเชื่อว่าเธอจะคิดดีแล้วจริง ๆ "
 
-li "These would be the present from my sister. I know it's a bit questionable, but a little shouldn't hurt."
+# li "These would be the present from my sister. I know it's a bit questionable, but a little shouldn't hurt."
+li "นี่เป็นของขวัญจากพี่น่ะ ฉันรู้ว่ามันอาจจะดูไม่ค่อยดีเท่าไหร่ แต่นิดหน่อยคงไม่เป็นไร"
 
-"If Lilly took serious issue with it, I don't think she'd have agreed quite so easily. That aside, I had Akira squared as the serious and responsible type, maybe like an older Lilly, but it looks like I was wrong. We aren't even legally able to drink yet."
+# "If Lilly took serious issue with it, I don't think she'd have agreed quite so easily. That aside, I had Akira squared as the serious and responsible type, maybe like an older Lilly, but it looks like I was wrong. We aren't even legally able to drink yet."
+"ถ้าลิลลี่จริงจังกับเรื่องนี้จริง ๆ ฉันว่าเธอไม่น่าจะยอมรับง่าย ๆ แบบนี้ แล้วก็นะ ฉันคิดว่าอากิระน่าจะเป็นคนที่จริงจังและรับผิดชอบมาก ๆ แบบลิลลี่ที่โตกว่า แต่ดูเหมือนว่าฉันจะคิดผิด แถมพวกเราเองก็ยังไม่ถึงวัยที่สามารถดื่มได้ด้วยซ้ำ"
 
-hi "Well, in that case, I won't complain. They don't look bad, either."
+# hi "Well, in that case, I won't complain. They don't look bad, either."
+hi "ถ้าจะว่าแบบนั้นก็ไม่ขอเถียงละกัน แถมก็ดูไม่เลวด้วยนะ"
 
-"I'm no connoisseur, but at least the bottles look nice. Apart from a surreptitious glass of wine or two given from my father at family dinners, I haven't really had enough to know what's what."
+# "I'm no connoisseur, but at least the bottles look nice. Apart from a surreptitious glass of wine or two given from my father at family dinners, I haven't really had enough to know what's what."
+"ฉันไม่ใช่คนที่ชอบดื่มไวน์เป็นพิเศษ แต่ก็อย่างน้อยขวดก็ดูดีนะ นอกจากจะเคยแอบดื่มไวน์จากพ่อที่โต๊ะอาหารตอนครอบครัวมารวมตัวกันแล้ว ฉันก็ยังไม่เคยดื่มมากพอที่จะรู้ว่าอะไรเป็นอะไรเลย"
 
 show hanagown smile
 with None
@@ -4841,14 +4846,17 @@ with Pause(1.0)
 hide wine
 with None
 
-"That, and I can't really say that I'm a total straight edge. Going by Hanako's expression, she's thinking the same, and it's her birthday anyway."
+# "That, and I can't really say that I'm a total straight edge. Going by Hanako's expression, she's thinking the same, and it's her birthday anyway."
+"นั่นแหละ และฉันก็ไม่สามารถพูดได้ว่าฉันเป็นคนที่ไม่ดื่มเลยสักนิดเดียว และจากสีหน้าของฮานาโกะ ดูเหมือนว่าเธอก็คิดแบบเดียวกัน และยังไงก็เป็นวันเกิดของเธอด้วย"
 
 show lilly basic_smile_paj
 with charachange
 
-li "Shall I open one?"
+# li "Shall I open one?"
+li "งั้นฉันเปิดเลยดีไหม"
 
-hi "Sure. I'll get some—{w=0.3}{nw}"
+# hi "Sure. I'll get some—{w=0.3}{nw}"
+hi "เอาสิ เดี๋ยวฉันไปเอา—{w=0.3}{nw}"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="music")
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
@@ -4858,21 +4866,25 @@ show lilly basic_displeased_paj
 show hanagown worry
 with vpunch
 
-"My heart skips as I hear three sharp bangs coming from Lilly's door. Hanako's head flicks around, and Lilly's eyes close as she listens intently. None of us want to be busted for this."
+# "My heart skips as I hear three sharp bangs coming from Lilly's door. Hanako's head flicks around, and Lilly's eyes close as she listens intently. None of us want to be busted for this."
+"หัวใจฉันเต้นแรงเมื่อได้ยินเสียงเคาะประตูของลิลลี่ดังขึ้นสามครั้ง ฮานาโกะหันไปทางประตูทันที และลิลลี่ก็หลับตาลงอย่างตั้งใจฟัง พวกเราต่างไม่อยากถูกจับได้เพราะเรื่องนี้เลย"
 
 show lilly basic_oops_paj
 with charachange
 
-li "Who is it?"
+# li "Who is it?"
+li "ใครน่ะ?"
 
-mystery "Lemme in, I'm cold!"
+# mystery "Lemme in, I'm cold!"
+mystery "ให้ฉันเข้าไปหน่อย ฉันหนาว!"
 
 show lilly basic_weaksmile_paj
 with charachange
 
 $ renpy.music.set_volume(1.0, 6.0, channel="music")
 
-"Lilly lets out a resigned sigh before motioning for Hanako to open the door."
+# "Lilly lets out a resigned sigh before motioning for Hanako to open the door."
+"ลิลลี่ถอนหายใจอย่างปลง ๆ ก่อนจะส่งสัญญาณให้ฮานาโกะไปเปิดประตู"
 
 show hanagown invis at tworight
 with dissolvecharamove
@@ -4880,15 +4892,20 @@ with dissolvecharamove
 hide hanagown
 with None
 
-"She obediently gets up and fusses with her gown before moving, apparently still not quite sure of who it is, but trusting enough in Lilly to do as she requests."
+# "She obediently gets up and fusses with her gown before moving, apparently still not quite sure of who it is, but trusting enough in Lilly to do as she requests."
+"เธอลุกขึ้นและจัดแจงชุดของเธอก่อนที่จะเดินไป ดูเหมือนว่าเธอยังไม่แน่ใจว่าใครอยู่ข้างนอก แต่ก็เชื่อใจลิลลี่พอที่จะทำตามที่เธอสั่ง"
 
-"I can just see a blonde, dark-suited figure become visible over Hanako's shoulder as she opens the door."
+# "I can just see a blonde, dark-suited figure become visible over Hanako's shoulder as she opens the door."
+"สิ่งที่ฉันเห็นคือเงาของคนที่มีผมสีบลอนด์และชุดสูทสีเข้มปรากฏขึ้นเหนือไหล่ของฮานาโกะเมื่อเธอเปิดประตูออกมา"
 
-mystery "Happy birthday, Hanako."
+# mystery "Happy birthday, Hanako."
+mystery "สุขสันต์วันเกิดฮานาโกะ"
 
-ha "Th-thank you… Akira…"
+# ha "Th-thank you… Akira…"
+ha "ขะ-ขอบคุณค่ะ… พี่อากิระ…"
 
-"Hanako gives a small bow while twiddling her fingers in front of her. So, this is Lilly's elusive sister."
+# "Hanako gives a small bow while twiddling her fingers in front of her. So, this is Lilly's elusive sister."
+"ฮานาโกะโค้งเล็กน้อยพร้อมกับเอามือมาบิดไปมาอยู่ข้างหน้า นี่คงเป็นพี่สาวที่ลิลลี่พูดถึง"
 
 show bg school_dormlilly at bgleft
 show lilly basic_weaksmile_paj:
@@ -4906,40 +4923,50 @@ show akira basic_smile:
     xpos 0.95
 with dissolvecharamove
 
-"Akira follows Hanako to the table after shutting the door behind her, giving me plenty of time to have a good look at her."
+# "Akira follows Hanako to the table after shutting the door behind her, giving me plenty of time to have a good look at her."
+"อากิระปิดประตูข้างหลังเธอและตามฮานาโกะมาที่โต๊ะ ทำให้ฉันมีเวลามากพอที่จะมองเธออย่างละเอียด"
 
-"She looks to be about the same height as Hanako, and has short blonde hair that's quite roughly cut. That, in addition to her rather modest breasts, masculine suit and deep voice, gives her quite an androgynous effect."
+# "She looks to be about the same height as Hanako, and has short blonde hair that's quite roughly cut. That, in addition to her rather modest breasts, masculine suit and deep voice, gives her quite an androgynous effect."
+"เธอสูงพอ ๆ กับฮานาโกะ และมีผมสีบลอนด์สั้นที่ดูเหมือนจะถูกตัดอย่างหยาบ ๆ และนอกจากผมแล้ว หน้าอกที่ค่อนข้างเล็ก ชุดสูทที่ดูแมน ๆ และเสียงที่ค่อนข้างทุ้มก็ยิ่งทำให้เธอดูเป็นคนที่ไม่ชัดเจนทางเพศมากขึ้นไปอีก"
 
 show akira basic_ending at Position(ypos=1.18)
 with dissolvecharamove
 
-"Without further ado, she plops herself down on the side of the table across from me."
+# "Without further ado, she plops herself down on the side of the table across from me."
+"โดยที่ไม่พูดอะไรเพิ่มเติม เธอก็ลงนั่งที่ฝั่งตรงข้ามฉันที่โต๊ะเลย"
 
 show lilly basic_smile_paj
 with charachange
 
-li "It's nice to have your company after all, Akira. Did work let you off?"
+# li "It's nice to have your company after all, Akira. Did work let you off?"
+li "ดีใจที่ได้เจอนะพี่ พี่ทำงานเสร็จแล้วเหรอ?"
 
 show akira basic_boo
 with charachange
 
-aki "Yep. I have to go back there in a bit, but I managed to get enough of a break to drive down."
+# aki "Yep. I have to go back there in a bit, but I managed to get enough of a break to drive down."
+aki "ช่าย จริง ๆ ต้องกลับไปทำงานอีกนิดหน่อยแหละ แต่ก็ว่างพอที่จะขับแวะมาที่นี่ได้"
 
 show akira basic_smile
 with charachange
 
-aki "So… this would be Hisao, then?"
+# aki "So… this would be Hisao, then?"
+aki "นาย… คงจะเป็นฮิซาโอะ ใช่ไหม?"
 
-"A confident smile gets thrown in my direction, so I nod politely in return. Considering she just jumped straight to using my first name, she's much more informal than her appearance would suggest."
+# "A confident smile gets thrown in my direction, so I nod politely in return. Considering she just jumped straight to using my first name, she's much more informal than her appearance would suggest."
+"ยิ้มมั่นใจถูกส่งมาทางฉัน ฉันจึงพยักหน้าอย่างสุภาพตอบกลับไป พิจารณาจากที่เธอใช้ชื่อของฉันเลย เธอดูไม่เป็นทางการเท่าที่รูปลักษณ์ของเธอบ่งบอกเลย"
 
-"Wait, if she already knows who I am, that must mean that Lilly's talked about me with her. I wonder what she said."
+# "Wait, if she already knows who I am, that must mean that Lilly's talked about me with her. I wonder what she said."
+"เดี๋ยวนะ ถ้าเธอรู้จักฉันแล้ว แปลว่าลิลลี่เคยเล่าเรื่องฉันให้เธอฟังแล้วสิ ชักสงสัยแฮะว่าเล่าอะไรไปบ้าง"
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "Sorry for not introducing you, Hisao. This is Akira Satou, my elder sister."
+# li "Sorry for not introducing you, Hisao. This is Akira Satou, my elder sister."
+li "ขอโทษที่ไม่ได้แนะนำตัวให้นะ ฮิซาโอะ นี่อากิระ ซาโต้ พี่สาวฉันเอง"
 
-hi "I see. Nice to meet you."
+# hi "I see. Nice to meet you."
+hi "ยินดีที่ได้รู้จักครับ"
 
 show akira basic_ending
 show hanagown worry:
