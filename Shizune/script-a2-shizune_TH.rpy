@@ -3080,25 +3080,25 @@ $ renpy.music.set_volume(0.5, 0.0, channel="music")
 play music music_daily fadein 0.5
 
 # n "\n\nThings have returned to normal. Well, I transferred in at a pretty unusual time, and I can hardly say that I had a normal first few weeks here. I guess it's more like things have calmed down, and reached normality."
-n ""
+n "\n\nหลาย ๆ อย่างกลับสู่สภาพปกติ ย้ายมาเข้ากลางคันอย่างนี้ก็ทำให้ช่วงสองสามสัปดาห์แรกวุ่นวายเอามาก ๆ\nใช้คำว่าอะไร ๆ ลงตัวแล้วกลับสู่สภาพปกติน่าจะดีกว่า"
 
 # n "I've been here longer than I thought."
-n ""
+n "เผลอแป๊บเดียวก็ผ่านไปแล้วหลายวัน"
 
 # n "It's hard not to think about all the stuff I must have missed in this school before my arrival, or the things that might have happened in my old school since I've been gone."
-n ""
+n "ฉันอดคิดไม่ได้ว่าช่วงก่อนที่ฉันจะย้ายมาโรงเรียนนี้จะมีอะไรบ้าง และอดคิดไม่ได้ด้วยว่าตั้งแต่ย้ายออกมาแล้วที่\nโรงเรียนเก่าจะมีอะไรบ้าง"
 
 # n "I wonder where these feelings come from, since I didn't leave much behind."
-n ""
+n "ความรู้สึกพวกนี้มันมาจากไหนกันนะ ทั้งที่ฉันก็ไม่ได้ผูกพันอะไรกับของเก่าขนาดนั้น"
 
 # n "I have a lot more here that I like. If that wasn't the case, then I wouldn't even bother with something like Student Council, or Shizune and Misha. I would be hard pressed to care about anything, if this school was how I imagined it would be."
-n ""
+n "ฉันชอบที่นี่มากกว่าด้วยซ้ำ ไม่งั้นฉันคงไม่มาเฉียดสภานักเรียนหรือมาวุ่นวายกับชิซูเนะกับมิช่าหรอก ถ้าโรงเรียนนี้\nเป็นอย่างที่เคยคิดไว้จริงฉันคงไม่อยากสนใจอะไรเลย"
 
 # n "So even this feeling of a daily routine makes me glad, in a way."
-n ""
+n "เพราะงั้น แม้แต่ความรู้สึกเป็นกิจวัตรอย่างนี้ก็นับว่าทำให้ฉันยินดีได้เหมือนกัน"
 
 # n "I dread the amount of work that's going to hit me in Student Council after school, enough to want to consider stepping out on my duties, just this once. Yet it's nice to feel like there is something I can do."
-n ""
+n "แค่คิดถึงปริมาณงานสภานักเรียนหลังเลิกเรียนแล้วก็ชวนให้สยองจนถึงขั้นที่ฉันคิดจะถอนตัวจากหน้าที่ตัวเอง\nสักครั้ง แต่พอมีอะไรให้ทำแล้วก็รู้สึกดีเหมือนกัน"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -3111,13 +3111,13 @@ show shizu basic_normal
 with charaenter
 
 # "Shizune drops a stack of attendance sheets next to me."
-""
+"ชิซูเนะวางกองกระดาษเช็กชื่อลงที่ข้างฉัน"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "Thanks again for helping out."
-ssh ""
+ssh "ยังไงก็ขอบคุณที่มาช่วยนะ"
 
 
 show shizu adjust_happy at tworight
@@ -3128,198 +3128,195 @@ show misha hips_grin at twoleft
 with charaenter
 
 # mi "Thanks again, Hicchan~!"
-mi ""
+mi "ยังไงก็ขอบคุณนะฮิจัง~!"
 
 # "Sure is a lot of work, though. I had to skip out on sign language class again, but now I'm at a level where I can understand most of Shizune and Misha's conversations with each other, so I'm not too bothered by it."
-""
+"แต่งานก็เยอะจริง ๆ น่ะแหละ ต้องโดดเรียนคาบภาษามือมาอีกแล้ว แต่ตอนนี้ฉันก็พอจะดูออกแล้วว่าชิซูเนะกับมิช่า\nคุยอะไรกันบ้าง เลยไม่ได้อะไรเท่าไหร่แล้ว"
 
 # "Shizune still doesn't know that, though. I'm determined to keep things that way until I'm very sure of my skills. Perhaps it's a little childish of me."
-""
+"แต่ชิซูเนะก็ยังไม่รู้ว่าฉันเรียนภาษามืออยู่ ฉันตั้งใจไว้ว่าจะยังไม่บอกจนกว่าฉันจะมั่นใจกับทักษะของตัวเองแล้วจริง ๆ\nฟังดูแล้วก็งี่เง่าเหมือนกัน"
 
 show shizu behind_frown
 with charachange
 
 # ssh "Tanabata is in less than five days, but they're only going to start building the stalls tomorrow."
-ssh ""
+ssh "อีกไม่ถึงห้าวันก็ถึงวันงานทานาบาตะแล้ว แต่คนอื่นกะจะเริ่มตั้งแผงกันเอาวันพรุ่งนี้"
 
 show misha sign_smile
 with charachange
 
 # mi "Hicchan, we might have to help out with building stalls again starting tomorrow."
-mi ""
+mi "ฮิจัง ตั้งแต่วันพรุ่งนี้เป็นต้นไปเราอาจต้องไปช่วยทำแผงอีกแล้วนะ"
 
 # hi "Why? What was the point of taking them apart then? That took days, didn't it?"
-hi ""
+hi "ไหงงั้น แล้วจะมาไล่รื้อทิ้งเป็นวัน ๆ กันทำไม"
 
 show misha hips_grin
 with charachange
 
 # mi "Yup! That's right~! Even though Hicchan wasn't there for it~."
-mi ""
+mi "ช่าย! ถูกต้อง~! ถึงฮิจังจะไม่ได้อยู่ช่วยรื้อแผงก็เถอะนะ~"
 
 # hi "I would have helped out if you asked."
-hi ""
+hi "ก็ทำไมไม่มาขอให้ไปช่วยเล่า"
 
 show shizu basic_normal
 with charachange
 
 # ssh "It wouldn't have made sense to bore you with cleanup duty after you enjoyed the festival so much."
-ssh ""
+ssh "สนุกกับงานเทศกาลอย่างนั้นแล้วจะลากให้นายมาช่วยรื้อแผงงก ๆ อีกก็ใช่ที่"
 
 show misha hips_smile
 with charachange
 
 # mi "It wouldn't have made sense to bore you with making you clean up right after the festival, it would have ruined the fun."
-mi ""
+mi "จะให้มานั่งรื้อแผงงก ๆ หลังสนุกกับงานเทศกาลแล้วก็ใช่ที่ เดี๋ยวก็ไม่สนุกกันพอดี"
 
 show shizu behind_smile
 with charachange
 
 # ssh "Besides…"
-ssh ""
+ssh "อีกอย่าง…"
 
 show misha hips_grin
 with charachange
 
 # mi "Ahahaha~! Hicchan is lazy anyway, you would have tried to run away again~! Shicchan doesn't like playing foxhound."
-mi ""
+mi "อะฮ่าฮ่าฮ่า~! ฮิจังน่ะขี้เกียจด้วย เดี๋ยวก็คงชิ่งอยู่ดี~! ชิจังไม่ชอบเล่นวิ่งไล่จับนะ"
 
 # hi "That stings."
-hi ""
+hi "โอ๊ย"
 
 show shizu adjust_smug
 with charachange
 
 # "Shizune covers her mouth with her hand and starts shaking. It takes me a second to realize she's laughing, mostly because she's doing so completely soundlessly."
-""
+"ชิซูเนะเอามือปิดปากตัวสั่น สักพักฉันถึงรู้ตัวว่ากำลังขำอยู่ ที่เพิ่งรู้ตัวก็เพราะชิซูเนะขำแบบไม่มีเสียงเลยด้วย"
 
 # "It's a little strange to see, but more or less the same good-spirited kind as Misha's, without being eardrum-piercing."
-""
+"เห็นแล้วก็รู้สึกแปลก ๆ เหมือนกัน แต่ก็เป็นการหัวเราะที่เป็นเชิงบวกเหมือนอย่างมิช่าน่ะแหละ ถ้าไม่นับเรื่องเสียงดัง\nระดับแก้วหูระเบิดน่ะนะ"
 
 show misha sign_smile
 show shizu adjust_happy
 with charachange
 
 # mi "Hm~, that's a good question, though, Hicchan."
-mi ""
+mi "อืม~ แต่ก็ถามได้ดีนะฮิจัง"
 
 # hi "Huh?"
-hi ""
+hi "เหอ?"
 
 show misha hips_grin
 with charachange
 
 # mi "Stalls~!"
-mi ""
+mi "แผง~!"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "It's a storage issue. The school doesn't have anywhere to store so many stalls, since each one is pretty large. They won't pay for outside storage either, so this is what they decided on. It's inefficient, but cheaper."
-ssh ""
+ssh "พอดีไม่มีที่เก็บน่ะ โรงเรียนนี้ไม่มีที่ให้เก็บแผงเยอะขนาดนั้น เพราะแต่ละแผงก็ใหญ่พอสมควร แล้วทางโรงเรียนก็\nไม่ยอมออกค่าโกดังนอกโรงเรียนให้ด้วย เลยลงความเห็นกันว่าเอาอย่างนี้ ไม่ได้เป็นทางเลือกที่ประหยัดเวลา\nกับแรงเท่าไหร่ แต่ก็ไม่ต้องใช้เงินมากเท่าแบบนั้น"
 
 show misha sign_smile
 with charachange
 
 # mi "Because~! the school doesn't have anywhere to store that many stalls, Hicchan."
-mi ""
+mi "เพราะ~! โรงเรียนไม่มีที่เก็บแผงเยอะขนาดนั้นไงล่ะฮิจัง"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_confused
 with charachange
 
 # mi "Ah, yeah yeah~, right, they do, but they don't want to pay~! Sorry, Shicchan~…"
-mi ""
+mi "อ้อ ใช่ ๆ ~ มีแหละ แต่ไม่อยากจ่ายเงิน~! ขอโทษทีนะชิจัง~…"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "It's because of the previous generation."
-ssh ""
+ssh "เพราะรุ่นก่อนหน้าน่ะแหละ"
 
 show shizu behind_frustrated
 with charachange
 
 # ssh "The leadership decided that outside storage costs had risen too much, and the Student Council before us was too weak-willed to tell them that it's stupid to have to build and disassemble sixty stalls twice every year."
-ssh ""
+ssh "เบื้องบนเห็นว่าค่าโกดังนอกโรงเรียนเริ่มแพงเกินไปแล้ว แถมสภานักเรียนรุ่นก่อนหน้าก็หัวอ่อนเกิน ไม่กล้า\nบอกเขาไปว่าไอ้การต้องมานั่งประกอบกับรื้อแผงร่วมหกสิบแผงปีละสองหนเนี่ยมันไร้สาระ"
 
 show shizu adjust_angry
 with charachange
 
-# shi "…!"
-shi ""
+shi "…!"
 
 show misha cross_grin
 with charachange
 
 # mi "Okay~!!"
-mi ""
+mi "โอเค~!!"
 
 show shizu behind_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_smile
 with charachange
 
 # mi "Hicchan, let's eat something~! It feels like we've been working all day~…"
-mi ""
+mi "ฮิจัง ไปหาอะไรกินกันเถอะ~! เหมือนทำงานมาแล้วทั้งวันเลย~…"
 
 # hi "We have. Now that I think about it, I am hungry. I would have had lunch, but it was really crowded today for some reason, so I decided it wasn't worth the trouble."
-hi ""
+hi "ก็จริง จะว่าไปก็ชักหิวแล้วสิ ทีแรกก็กะจะไปกินข้าวเที่ยงอยู่ แต่ไม่รู้ทำไมคนถึงได้เต็มโรงอาหาร เลยขี้เกียจ\nแล้วไม่กินเลย"
 
 show misha cross_laugh
 with charachange
 
 # mi "Ahahaha~! It was like that today because they had some especially interesting things for sale on the side."
-mi ""
+mi "อะฮ่าฮ่าฮ่า~! ที่วันนี้คนเยอะขนาดนั้นเพราะมีของที่น่าสนใจเป็นพิเศษขายด้วยยังไงล่ะ"
 
 # hi "Like what? No, don't tell me. I guess it doesn't matter, since I won't be able to eat them anyway."
-hi ""
+hi "เช่นอะไร ช่างเหอะ ไม่ต้องบอกละ ยังไงก็ไม่สำคัญเพราะฉันคงไม่ได้กินอยู่แล้ว"
 
 show shizu adjust_smug
 show misha hips_grin
 with charachange
 
 # "Shizune looks oddly pleased with herself. I wonder what the context of that could be."
-""
+"ชิซูเนะดูพอใจแปลก ๆ เพราะอะไรกันนะ"
 
 show shizu behind_smile
 with charachange
 
 # ssh "I prepared ahead of time for this."
-ssh ""
+ssh "ฉันเตรียมไว้เพื่อการนี้โดยเฉพาะเลยละ"
 
 # "Beaming with self-satisfaction, she produces a wide assortment of food from her bag. I can immediately see that ninety percent of it or more was taken from the lunch room."
-""
+"ชิซูเนะยิ้มกระหยิ่มพลางหยิบของกินหลากชนิดออกมาจากกระเป๋า ดูแล้วก็รู้ทันทีว่าร้อยละเก้าสิบในนั้นก็เอามาจาก\nโรงอาหาร"
 
 stop music fadeout 5.0
 
 # "There's a lot, as well. Isn't there a limit on how much a person can buy?"
-""
+"แถมมีเยอะด้วย ไม่ใช่ว่าเขาจำกัดการซื้อต่อคนด้วยเหรอ"
 
 # "That means these gains are definitely ill-gotten."
-""
+"แปลว่าพวกนี้ต้องเป็นเงิน (ของกิน) สกปรกแน่ ๆ"
 
 # hi "The veal cutlet bread is always sold out in the first minute of lunch. I'm impressed you managed to obtain one."
-hi ""
+hi "ปกติขนมปังไส้เนื้อลูกวัวทอดนี่ขายหมดก่อนใครเลยนะ ทึ่งจริง ๆ ที่ไปซื้อมาได้"
 
 # hi "Thank you."
-hi ""
+hi "ขอบคุณนะ"
 
 show misha perky_smile
 show shizu basic_sparkle
 with charachange
 
 # "I reach for it quickly, but Shizune immediately makes a grab for it as well."
-""
+"ฉันรีบเอื้อมมือไปคว้า ทว่าชิซูเนะก็หยิบด้วย"
 
 play music music_another fadein 0.5
 
@@ -3327,182 +3324,180 @@ show shizu basic_happy_close
 with characlose
 
 # "Her hand goes slack for a second when it touches mine, but she immediately pushes forth with redoubled effort, that blazing, competitive spirit flashing dangerously in her eyes. Her fingers pry at mine, searching for an opening."
-""
+"พอมือเราแตะกันเธอก็ชะงักมือไปแวบหนึ่ง แต่หลังจากนั้นเธอก็เข้ามาคว้าด้วยแรงที่มากกว่าเก่า จิตวิญญาณ\nการแข่งขันอันแรงกล้านั้นลุกโชนอยู่อย่างน่ากลัวในดวงตาเธอ มือเธองัดแงะมือฉันคอยหาช่องว่าง"
 
 # "I don't budge an inch, prepared to fight for this bread with my life. I might never have another chance to eat this."
-""
+"ฉันไม่กระดิกเลยแม้แต่น้อยพร้อมถวายชีวิตให้ขนมปังชิ้นนี้ ขืนปล่อยไปคงไม่มีโอกาสได้กินขนมปังนี้แล้วแน่ ๆ"
 
 # "I am fully aware that if we continue like this, we could crush the bread, greatly reducing its edibility."
-""
+"แต่ฉันก็รู้ดีว่าถ้าขืนยังงัดกันแบบนี้ต่อไปแล้วขนมปังจะยิ่งเละจนไม่น่ากินไปอีก"
 
 # hi "Misha… Tell her that unless she lets go, the bread is going to be crushed."
-hi ""
+hi "มิช่า… บอกชิซูเนะหน่อยว่าถ้าไม่ปล่อยมือเดี๋ยวขนมปังก็เละหมดหรอก"
 
 show misha perky_confused
 with charachange
 
 # mi "Hmmmmm? Why can't you do it yourself?"
-mi ""
+mi "หืมมมมมมม ก็บอกเองสิ"
 
 # "I'm startled she can so nonchalantly let slip that I could communicate with Shizune just fine if I wanted to. I almost consider the possibility it was intentional, but I'm sure she was just distracted trying to tear the wrapper off a juice box straw."
-""
+"ตกใจนะเนี่ยที่เห็นมิช่าปล่อยเรื่องที่ว่าฉันใช้ภาษามือคุยกับชิซูเนะได้หลุดออกมาง่าย ๆ อย่างนี้ ทีแรกก็คิดอยู่ว่าจงใจ\nหรือเปล่า แต่ที่จริงน่าจะเพราะมิช่าเองก็กำลังง่วนอยู่กับการแกะซองหลอดที่ติดอยู่กับกล่องน้ำผลไม้มากกว่า"
 
 # hi "Isn't it obvious? I can't let go of the bread."
-hi ""
+hi "ไม่เห็นหรือไงเนี่ยว่าฉันปล่อยขนมปังไม่ได้"
 
 show misha sign_smile
 with charachange
 
 # mi "I can't tell Shicchan that, then."
-mi ""
+mi "งั้นก็บอกชิจังให้ไม่ได้หรอก"
 
 show misha hips_grin
 with charachange
 
 # "She puts her palms up to the sky and shrugs, a wide grin on her face."
-""
+"มิช่าหงายมือยักไหล่พลางแสยะยิ้ม"
 
 # hi "Why not?"
-hi ""
+hi "ไหงงั้น"
 
 show misha sign_smile
 with charachange
 
 # mi "Because~! You have a stake in this, so I can't trust you~! If Shicchan wants to reply, she has to let go of the bread, and then you win. Who knows, who knows, maybe that's what you want, Hicchan?"
-mi ""
+mi "เพราะว่า~! ฮิจังก็มีส่วนได้ส่วนเสียกับการแข่งนี้เหมือนกัน เพราะงั้นฉันเชื่อใจไม่ได้หรอก~! ถ้าชิจังอยากตอบ\nชิจังก็ต้องปล่อยขนมปัง แล้วฮิจังก็จะชนะ ไม่แน่นะ ไม่แน่นะ ว่าฮิจังจะอยากให้เป็นอย่างนั้น"
 
 show misha cross_smile
 with charachange
 
 # mi "It wouldn't be fair, so I'm going to be neutral! Like Switzerland~!"
-mi ""
+mi "ถ้าเป็นแบบนั้นก็จะไม่ยุติธรรม เพราะงั้นฉันจะวางตัวเป็นกลาง! เหมือนสวิตเซอร์แลนด์~!"
 
 # hi "Switzerland?"
-hi ""
+hi "สวิตเซอร์แลนด์?"
 
 show misha perky_smile
 with charachange
 
 # mi "Do you know about Switzerland?"
-mi ""
+mi "ฮิจังรู้เรื่องสวิตเซอร์แลนด์ไหม"
 
 # hi "Of course I do… it's neutral, they're neutral."
-hi ""
+hi "รู้สิ… สวิตเซอร์แลนด์วางตัวเป็นกลาง"
 
 show shizu basic_sparkle_close
 with charachange
 
 # "Shizune stares at me cockily, the tip of her tongue sticking out slightly from between her teeth as she continues to tug firmly at the veal cutlet bread between us."
-""
+"ชิซูเนะจ้องฉันด้วยความผยอง เธอออกแรงจับขนมปังไส้เนื้อทอดนี้จนฉันเห็นลิ้นเธอที่แลบอยู่ระหว่างฟัน"
 
 show shizu adjust_happy
 with charadistant
 
 # "Suddenly, she lets go and holds her hands up, palms facing outwards. The universal gesture of peace."
-""
+"ทันใดนั้นชิซูเนะก็ปล่อยมือแล้วยกมือขึ้นสองข้างหันฝ่ามือออกจากตัวอันเป็นสัญญาณสงบศึก"
 
 show shizu behind_blank
 with charadistant
 
 # ssh "This seems like a poor way to settle this, doesn't it? And we might crush the bread."
-ssh ""
+ssh "ใช้วิธีนี้ไม่ดีเลยนะว่าไหม เดี๋ยวขนมปังจะเละอีก"
 
 show shizu behind_frown
 with charadistant
 
 # "She glares, and her passive expression quickly plummets into a disapproving grimace."
-""
+"ชิซูเนะจ้องพร้อมเปลี่ยนสีหน้าจากการตั้งรับเป็นหน้าบึ้งดูไม่พอใจอย่างรวดเร็ว"
 
 show shizu adjust_angry
 with charadistant
 
-# shi "…!"
-shi ""
+shi "…!"
 
 show misha hips_frown
 with charachange
 
 # mi "Hicchan! Drop the bread! We are negotiating now!"
-mi ""
+mi "ฮิจัง! ปล่อยขนมปังนะ! เราเจรจากันอยู่!"
 
 # "I drop the bread reluctantly."
-""
+"ฉันปล่อยขนมปังอย่างไม่เต็มใจนัก"
 
 show misha perky_smile
 show shizu behind_blank
 with charachange
 
 # "Misha's hand darts in from the side, her fingers drumming across the table as it makes its way over."
-""
+"มือของมิช่าพุ่งออกมา เธอใช้นิ้วพรมเคาะกับโต๊ะไปพลางเลื่อนมือเข้ามา"
 
 show misha hips_grin_close
 with characlose
 
 # mi "Ah~! Haha~! Don't mind me, I don't even really like veal. I'll just take this sandwich right here~! And something to drink, too…"
-mi ""
+mi "อ๋อ~! ฮ่าฮ่า~! ไม่ต้องสนใจฉันหรอก ฉันไม่ได้ชอบเนื้อลูกวัวขนาดนั้น ฉันจะเอาแซนด์วิชอันนี้~! แล้วก็อะไร\nมาเอาไว้ดื่มสักหน่อย…"
 
 show misha perky_smile
 with charadistant
 
 # "Picking them up cautiously, she immediately retreats."
-""
+"มิช่าค่อย ๆ หยิบของกินไปแล้วถอนมือออกทันที"
 
 # "She has the right idea. I could just pick something else, there are lots of delicious things here. The chicken katsudon bread is also a popular seller, ranking high in taste and demand. But I've already eaten one before."
-""
+"ก็ถูกของมิช่า ฉันจะกินอย่างอื่นก็ได้ มีของอร่อยอีกตั้งเยอะแยะ ขนมปังข้าวไก่ทอดก็ขายดีเหมือนกัน มีแต่คน\nอยากกินเพราะอร่อย แต่เคยกินแล้วอะ"
 
 show shizu basic_angry
 with charachange
 
 # ssh "You're so immature, Hisao. This wouldn't be a problem if you would pick something else. The chicken katsudon bread is delicious."
-ssh ""
+ssh "โต ๆ กันแล้วนะฮิซาโอะ นายเลือกกินอย่างอื่นไปก็จบเรื่องแล้ว ขนมปังข้าวไก่ทอดก็อร่อยนะ"
 
 show misha hips_smile
 with charadistant
 
 # mi "You're so immature, Hicchan. Why don't you pick the chicken katsudon bread instead? It's delicious~!"
-mi ""
+mi "โต ๆ กันแล้วนะฮิจัง ทำไมไม่เลือกขนมปังข้าวไก่ทอดแทนล่ะ อร่อยนะ~!"
 
 # hi "But I have already eaten that."
-hi ""
+hi "แต่ฉันเคยกินแล้วนี่"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_frown
 with charachange
 
 # mi "Hicchan~! Why are you so obsessed with eating the veal cutlet bread, spe—ci—fi—cal—ly?"
-mi ""
+mi "ฮิจัง~! ทำไมถึงได้ดื้อ—ด้าน? ยึดติดกับขนมปังเนื้อลูกวัวทอดขนาดนั้น"
 
 # hi "It's hard to get normally. Rare things are more delicious."
-hi ""
+hi "ปกติแทบหาซื้อไม่ได้เลยนี่นา ของหายากน่ะยิ่งอร่อย"
 
 show shizu basic_frown
 with charachange
 
 # ssh "You are acting like a child."
-ssh ""
+ssh "ทำตัวเป็นเด็กไปได้"
 
 show misha cross_frown
 with charachange
 
 # mi "You're acting like a kid, Hicchan."
-mi ""
+mi "ทำตัวเป็นเด็กไปได้ฮิจัง"
 
 # hi "Why don't you eat the chicken bread?"
-hi ""
+hi "งั้นเธอก็กินขนมปังข้าวไก่ทอดนั่นสิ"
 
 show shizu adjust_blush
 with charachange
 
 # ssh "That's not important."
-ssh ""
+ssh "ไม่ใช่ประเด็น"
 
 # "Turning bright red, she smiles cunningly and continues."
-""
+"ชิซูเนะหน้าแดงแสยะยิ้มเหมือนมีแผนร้ายแล้วเสริมอีก"
 
 stop music fadeout 6.0
 
@@ -3511,22 +3506,22 @@ show misha perky_smile
 with charachange
 
 # ssh "There is no reasoning with you. So it looks like there is only one way to settle this: we are going to play for it."
-ssh ""
+ssh "ดูท่าว่าจะคุยกันด้วยเหตุผลไม่ได้ แปลว่าทางออกมีทางเดียว เราต้องเล่นเกมแข่งกัน"
 
 show misha sign_smile
 with charachange
 
 # mi "That doesn't matter: we'll play for it instead~!"
-mi ""
+mi "ไม่สำคัญ เรามาเล่นเกมแข่งกันดีกว่า~!"
 
 # "Somehow, I expected this. It's the logical conclusion."
-""
+"ใจหนึ่งก็กะไว้แล้วแหละว่าจะเป็นอย่างนี้ ดูจากสถานการณ์ก่อนหน้าแล้ว"
 
 # "Shizune has been studying for a long time, pretty much continuously up until now. With our finals over, I guess that surplus energy has to go somewhere."
-""
+"ชิซูเนะอ่านหนังสือมาหลายวันแทบไม่ได้หยุดหย่อน พอสอบปลายภาคเสร็จแล้วอย่างนี้ก็คงมีแรงเหลือละนะ"
 
 # hi "Play what?"
-hi ""
+hi "จะเล่นอะไร"
 
 hide misha
 with None
@@ -3537,135 +3532,132 @@ show shizu behind_blank_close
 with characlose
 
 # ssh "The oldest game known to man, upon which the fate of nations has been known to rest: Rock, Paper, Scissors."
-ssh ""
+ssh "เกมทีเก่าแก่ที่สุดในประวัติศาสตร์มนุษย์ เกมที่เคยใช้ชี้ชะตาระดับชาติ เกมเป่ายิ้งฉุบ"
 
 show misha sign_smile
 with charachange
 
 # mi "We'll play Rock, Paper, Scissors."
-mi ""
+mi "มาเล่นเป่ายิ้งฉุบกัน"
 
 show misha perky_confused
 with charachange
 
 # mi "Really? That sounds so serious, Shicchan…"
-mi ""
+mi "จริงเหรอ ฟังดูจริงจังน่าดูเลยนะชิจัง"
 
 play music music_shizune fadein 1.0
 
 # "There is no humor in her expression, she is dead set on this."
-""
+"สีหน้าเธอไม่มีคำว่าหยอกเล่นเลยแม้แต่น้อย ชิซูเนะเอาจริง"
 
 # hi "Okay, okay."
-hi ""
+hi "โอเค ๆ"
 
 show shizu adjust_happy_close
 with charachange
 
 # "She draws her hand back, and I mirror her."
-""
+"ชิซูเนะง้างมือ ส่วนฉันก็ง้างตาม"
 
 # hi "Go!"
-hi ""
+hi "ฉุบ!"
 
 show shizu basic_angry_close
 with charachange
 
 # "We both put out rock. A draw. I had thought I had the perfect plan. Rock is unbeatable. Shizune frowns, deeply upset by this unexpected turn of events. Not as planned?"
-""
+"เราสองคนออกค้อนเหมือนกัน เสมอ ก็นึกว่าเป็นทางที่สมบูรณ์แบบแล้วแท้ ๆ ค้อนน่ะแข็งแกร่งสุดแล้ว ชิซูเนะ\nขมวดคิ้วไม่พอใจเป็นอย่างมากที่ผลออกมาเป็นแบบนี้ ไม่ได้คิดไว้สินะ"
 
 show shizu adjust_angry_close
 with charachange
 
 # ssh "Again!"
-ssh ""
+ssh "ฉุบ!"
 
 show shizu basic_frown_close
 with charachange
 
 # "Two papers."
-""
+"เสมอกระดาษ"
 
 # hi "Damn."
-hi ""
+hi "โธ่เว้ย"
 
 show shizu adjust_angry_close
 with charachange
 
 # ssh "Again!!"
-ssh ""
+ssh "ฉุบ!!"
 
 show shizu basic_frown_close
 with charachange
 
 # "We both throw out two rocks again, but a third hand is among us representing scissors."
-""
+"เราสองคนออกค้อนเหมือนกันอีกแล้ว แต่มีอีกมือหนึ่งที่ออกกรรไกรมา"
 
 show misha hips_grin
 with charachange
 
 # mi "This looks like fun, can I play?"
-mi ""
+mi "ดูน่าสนุกจัง ขอเล่นด้วยได้มั้ย"
 
 show misha cross_laugh
 with charachange
 
 # mi "Hahahaha~!"
-mi ""
+mi "ฮ่าฮ่าฮ่าฮ่า~!"
 
 show shizu behind_frown_close
 with charachange
 
-# ssh "… … …"
-ssh ""
+ssh "… … …"
 
 show misha perky_smile
 with charachange
 
 # mi "It's a duel, Shicchan?"
-mi ""
+mi "การประชันงั้นเหรอชิจัง"
 
 show shizu adjust_angry_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_confused
 with charachange
 
 # mi "Eh~, dueling conduct? Hm~… You're right, you're right~! I really don't know…"
-mi ""
+mi "เอ๋~ มารยาทการประชันเหรอ อืม~… ถูกของชิจัง ถูกของชิจัง~! พอดีฉันไม่รู้…"
 
 show shizu cross_angry_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_confused
 with charachange
 
 # "The faster she signs, the harder it is to follow. In fact, it looks like even Misha is having trouble keeping up."
-""
+"ยิ่งทำภาษามือเร็วก็ยิ่งอ่านยาก ซึ่งแม้แต่มิช่าก็เหมือนจะเริ่มตามไม่ค่อยทันแล้ว"
 
 # hi "What's she talking about?"
-hi ""
+hi "เมื่อกี้ว่าไง"
 
 show shizu adjust_angry_close
 with charachange
 
 # ssh "One more time!"
-ssh ""
+ssh "อีกรอบ!"
 
 show shizu basic_frown_close
 with charachange
 
 # "We tie again. Every time, Shizune demands a rematch, eventually skipping that step altogether and throwing rock, paper, or scissors out with increasingly reckless abandon."
-""
+"เสมออีกแล้ว เสมอทุกรอบที่ชิซูเนะสั่งให้เอาใหม่ นานเข้าก็ไม่ง้างมือกันแล้วออกค้อน กระดาษ กรรไกรมารวดเดียว\nด้วยความเร็วที่เพิ่มขึ้นเรื่อย ๆ"
 
 # "Even playing completely randomly, we continue to tie. This is a mathematical longshot."
-""
+"แม้จะออกมือมาแบบสุ่มแล้วก็ยังเสมอกันอยู่ดี โอกาสหนึ่งในเท่าไหร่เนี่ย"
 
 stop music fadeout 8.0
 
@@ -3673,34 +3665,33 @@ show misha hips_grin
 with charachange
 
 # "Misha hovers above us, watching it all and laughing each time we draw. After sixteen rounds, Shizune pushes her chair away from the table and stands up."
-""
+"มิช่าชะเง้อตัวมองพวกเราพร้อมหัวเราะทุกครั้งที่เราเสมอกัน ผ่านไปสิบหกรอบชิซูเนะก็ดันเก้าอี้ออกจากโต๊ะแล้วยืนขึ้น"
 
 show shizu behind_blank_close
 with charachange
 
-# shi "…!"
-shi ""
+shi "…!"
 
 show misha hips_smile
 with charachange
 
 # mi "Enough of this, Hicchan~! I see what I have been doing wrong, this will all be over in the next round, so brace yourself, okay~? Okay~!"
-mi ""
+mi "พอเถอะฮิจัง~! ฉันรู้แล้วว่าฉันพลาดตรงไหน รอบหน้าจะเป็นรอบจบศึกแล้วแน่นอน เตรียมใจไว้ให้ดีล่ะ โอเคนะ~\nโอเค~"
 
 show misha sign_smile
 with charachange
 
 # mi "I have studied your thought processes and~ I see how you play. I'm anticipating your next move and will combat it expertly."
-mi ""
+mi "ฉันอ่านวิธีคิดของนายจน~ รู้แล้วว่าจะออกอะไรยังไง ฉันจะอ่านรอว่ารอบหน้านายจะออกอะไรแล้วเตรียมตัวรับไว้\nอย่างดีเลย"
 
 # "This is all news to me, as I can't remember what we are doing this over."
-""
+"ไม่ยักรู้ ฉันลืมไปแล้วด้วยซ้ำว่าเราเป่ายิ้งฉุบกันทำไม"
 
 show shizu adjust_happy_close
 with charachange
 
 # "Shizune grins confidently, a look of fearless daring on her face. Her cool eyes flash with pure competitive spirit as she draws her hand back, goading me wordlessly to do the same."
-""
+"ชิซูเนะยิ้มอย่างมั่นใจพร้อมทำสีหน้าไม่หวาดหวั่น นัยน์ตาสงบฉายแววนักสู้ เธอง้างมือเป็นเชิงให้ฉันทำตาม"
 
 # "Her form is amazing, like a professional bowler or something, just to throw a hand motion."
 ""
