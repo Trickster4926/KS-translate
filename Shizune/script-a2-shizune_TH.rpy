@@ -3694,13 +3694,13 @@ with charachange
 "ชิซูเนะยิ้มอย่างมั่นใจพร้อมทำสีหน้าไม่หวาดหวั่น นัยน์ตาสงบฉายแววนักสู้ เธอง้างมือเป็นเชิงให้ฉันทำตาม"
 
 # "Her form is amazing, like a professional bowler or something, just to throw a hand motion."
-""
+"ท่าทางของเธอสุดยอดมาก เหมือนนักโบว์ลิ่งมืออาชีพหรืออะไรสักอย่างเลยแค่จะออกมือมา"
 
 show shizu basic_happy_close
 with charachange
 
 # "Two papers."
-""
+"เสมอกระดาษ"
 
 play music music_comedy
 
@@ -3708,55 +3708,55 @@ show shizu cross_stunned_close
 with charachange
 
 # "Shizune's body immediately goes slack, and she rubs her temples with a look of exasperation on her face as she lets out a sigh so long it sounds like a tire deflating. I realize I've gotten a lot hungrier in the time we've been doing this."
-""
+"ร่างของชิซูเนะคลายลงทันที เธอเอามือถูขมับด้วยสีหน้าหงุดหงิดพร้อมถอนหายใจยาวจนฟังดูเหมือนยางรถรั่ว ฉันรู้สึกว่าตัวเองหิวขึ้นมากในช่วงเวลาที่เราเล่นกันอยู่"
 
 # hi "We can just split it."
-hi ""
+hi "เราแบ่งกันกินก็ได้นะ"
 
 show shizu behind_blank_close
 with charachange
 
 # "I break the bread in half and offer one half of it to Shizune. She takes it."
-""
+"ฉันหักขนมปังออกเป็นสองชิ้นแล้วยื่นให้ชิซูเนะ เธอรับไป"
 
 show shizu adjust_happy_close
 with charachange
 
 # ssh "Thank you."
-ssh ""
+ssh "ขอบคุณนะ"
 
 # "She looks at the bread in her hand, studying it."
-""
+"เธอมองขนมปังในมือของเธออย่างพินิจพิเคราะห์"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "But this feels hollow, somehow."
-ssh ""
+ssh "รู้สึกว่าแอบกลวงนะ"
 
 show shizu basic_normal2_close
 with charachange
 
 # "Regardless of how she feels, she still eats it."
-""
+"แต่ไม่ว่าเธอจะรู้สึกอย่างไรก็ตาม เธอก็กินอยู่ดี"
 
 # "All of a sudden, I see Misha observing the scene out of the corner of my eye."
-""
+"ทันใดนั้น ฉันเห็นมิช่ากำลังสังเกตการณ์อยู่มุมตาของฉัน"
 
 show misha hips_grin
 with charachange
 
 # mi "Hicchan~… That was very romantic, I think."
-mi ""
+mi "ฮิจัง~… นั่นโรแมนติกมากเลยนะ ฉันว่า"
 
 # hi "Oh, come on."
-hi ""
+hi "โธ่ ไม่เอาน่า"
 
 show misha cross_laugh
 with charachange
 
 # mi "Wahahahahaha~!"
-mi ""
+mi "วะฮ่าฮ่าฮ่าฮ่าฮ่า~!"
 
 show misha hips_smile
 with charachange
@@ -3764,10 +3764,10 @@ with charachange
 stop music fadeout 5.0
 
 # "She laughs and takes a bite of her second sandwich."
-""
+"เธอหัวเราะแล้วกัดขนมปังชิ้นที่สองของเธอ"
 
 # "We eat in silence for a while, Shizune and I managing to avoid any other contests. And then, we go back to work."
-""
+"พวกเรากินกันเงียบ ๆ อยู่พักหนึ่ง ชิซูเนะกับฉันก็หลีกเลี่ยงการแข่งกันอื่น ๆ ได้ แล้วก็กลับไปทำงานต่อ"
 
 scene bg school_council_ss
 with shorttimeskip
@@ -3775,40 +3775,40 @@ with shorttimeskip
 play music music_tranquil fadein 3.0
 
 # "As I finish up the day's usual filing, I think to myself that this might be Shizune's way of trying to start this week on a high note."
-""
+"เมื่อฉันทำงานเอกสารประจำวันเสร็จ ฉันคิดในใจว่านี่อาจเป็นวิธีของชิซูเนะในการเริ่มสัปดาห์นี้ด้วยความสดใส"
 
 # "After all, tomorrow is when the real work will begin, and with her hands literally full building stalls, she won't be able to “talk” very much."
-""
+"อย่างไรก็ตาม พรุ่งนี้คือวันที่งานจริงจะเริ่มขึ้น และด้วยมือของเธอที่เต็มไปด้วยการสร้างบูธ เธอจะไม่สามารถ “พูด” ได้มากนัก"
 
 # "It will likely be pretty dull and tiring, like it was the first time around. I'm appreciative of her effort, in that case. It's nice to have days like this, as a way of enjoying yourself before the days ahead. I think that was her idea as well."
-""
+"คงจะน่าเบื่อและเหนื่อยเหมือนครั้งแรก ฉันซาบซึ้งในความพยายามของเธอ ในกรณีนั้น มันก็ดีที่จะมีวันที่แบบนี้ เป็นวิธีหนึ่งในการสนุกสนานก่อนวันที่จะมาถึง ฉันคิดว่านั่นก็เป็นไอเดียของเธอเช่นกัน"
 
 # "…I also remember that I still have to get rid of Kenji's package. The damn thing is bulky, and somehow I've never been able to track him down since I picked it up."
-""
+"ฉันยังจำได้ว่าฉันต้องกำจัดพัสดุของเคนจิอยู่ พัสดุชิ้นนั้นใหญ่โต และด้วยเหตุผลบางอย่างฉันไม่เคยสามารถตามหาเขาได้ตั้งแต่ที่ฉันหยิบมันขึ้นมา"
 
 scene bg school_lobby_ss
 with locationchange
 
 # "After Student Council is adjourned for the day, I walk towards the vending machines to look for something to drink, parting from Shizune and Misha. It's a short trip, but after even just a few seconds I start to get the feeling I'm not alone."
-""
+"หลังจากสภานักเรียนเลิกประชุม ฉันเดินแยกกับชิซูเนะและมิช่าไปที่ตู้ขายของอัตโนมัติเพื่อหาอะไรดื่ม เป็นการเดินทางสั้น ๆ แต่หลังจากแค่ไม่กี่วินาทีฉันก็เริ่มรู้สึกว่าฉันไม่ได้อยู่คนเดียว"
 
 scene black
 with hands_in
 
 # "A pair of hands cover my eyes."
-""
+"มีมือคู่หนึ่งปิดตาฉันอยู่"
 
 # mi "Guess who~!"
-mi ""
+mi "ทายซิ ใครเอ่ย~!"
 
 # hi "Shizune?"
-hi ""
+hi "ชิซูเนะเหรอ?"
 
 # mi "Wahahaha~! It's me, Hicchan~!"
-mi ""
+mi "วะฮ่าฮ่าฮ่า~! ฉันเองฮิจัง~!"
 
 # hi "Yeah, I know."
-hi ""
+hi "อืม รู้อยู่แล้วล่ะ"
 
 scene bg school_lobby_ss
 with hands_out
@@ -3819,116 +3819,116 @@ show misha hips_frown_close_ss at Slide(0.3, 0.5, 0.5, 0.5, 1.0)
 with Dissolve(1.0)
 
 # mi "Then why did you say it was Shicchan~? It's okay to be wrong sometimes, Hicchan~! You're too proud."
-mi ""
+mi "แล้วทำไมถึงตอบว่าชิจังล่ะ~? บางทีผิดบ้างก็ไม่เป็นไรนะฮิจัง~! นายดูหยิ่งเกินไปแล้ว"
 
 show misha sign_smile_close_ss at center
 with charachange
 
 # mi "Anyway~, after Student Council, you don't usually have any plans, right~? So, you're just going to go straight to your dorm?"
-mi ""
+mi "อย่างไรก็เถอะ หลังจากสภานักเรียน นายมักจะไม่มีแผนอะไรใช่ไหม~? งั้น นายก็จะกลับไปที่หอพักเลยใช่ไหม~?"
 
 # hi "Where else would I go?"
-hi ""
+hi "แล้วจะให้ไปไหนล่ะ?"
 
 show misha hips_grin_close_ss
 with charachange
 
 # mi "Okay, that's great~! That's great, Hicchan~! I wanted to talk to you today, so this works out perfectly!"
-mi ""
+mi "โอเคดีเลย~! ดีมากฮิจัง~! ฉันอยากจะคุยกับนายวันนี้เลยนะเนี่ย เหมาะเจาะพอดีเลย!"
 
 # "Two high school students, alone after classes in a quiet, empty building. As the sun dyes the sky a romantic amber color, the cute girl says that she wants to talk."
-""
+"นักเรียนมัธยมปลายสองคน อยู่กันตามลำพังหลังเลิกเรียนในอาคารที่เงียบและว่างเปล่า ขณะที่พระอาทิตย์ย้อมท้องฟ้าเป็นสีส้มโรแมนติก สาวน้อยน่ารักพูดว่าอยากจะคุยด้วย"
 
 # "What a secretive and appealing situation, my imagination is buzzing. It's likely not going to be anywhere near as exciting as I am making it out to be, but it's fun to play it up that way."
-""
+"ช่างเป็นสถานการณ์ที่ลึกลับและน่าสนใจจริง ๆ จินตนาการของฉันกำลังทำงานอย่างเต็มที่ มันอาจจะไม่ได้ตื่นเต้นอย่างที่ฉันคิดไว้หรอก แต่ก็สนุกที่จะจินตนาการไปแบบนั้น"
 
 play sound sfx_can
 show misha perky_confused_close_ss
 with Dissolve(0.2)
 
 # "The popping sound of my canned coffee opening destroys any chance of maintaining such a cheesy mood, sounding louder than I'd have ever thought imaginable, amplified by the context of the situation. I sigh in disappointment and relief."
-""
+"เสียงป๊อปของการเปิดกาแฟกระป๋องของฉันทำลายโอกาสในการรักษาบรรยากาศที่โรแมนติกนั้นไปหมด เสียงดังเกินกว่าที่ฉันเคยคิดไว้ และยิ่งทวีความดังขึ้นด้วยบริบทของสถานการณ์ ฉันถอนหายใจด้วยความผิดหวังและโล่งใจ"
 
 # hi "So, what is it?"
-hi ""
+hi "แล้ว จะคุยเรื่องอะไรล่ะ?"
 
 show misha perky_smile_close_ss
 with charachange
 
 # mi "Hm? Oh! Actually~… I'm a little behind in some of my classes, and if I don't catch up, it could be a problem~! I can't put it off any longer."
-mi ""
+mi "หืม? อ๋อ! จริง ๆ แล้ว~… ฉันตามเรียนไม่ทันในบางวิชาอยู่ ถ้าฉันไม่ตามให้ทันอาจจะเป็นปัญหาได้~! และฉันก็ปล่อยไว้ไม่ได้แล้วด้วย"
 
 show misha perky_sad_close_ss
 with charachange
 
 # mi "My teachers say that I have to really start taking things seriously, so I should listen, especially~ because this is the third time."
-mi ""
+mi "ครูของฉันบอกว่าฉันต้องเริ่มจริงจังกับเรื่องนี้มากขึ้น ดังนั้นฉันควรฟัง โดยเฉพาะ~ เพราะนี่เป็นครั้งที่สามแล้ว"
 
 # mi "Sorry~! I'm sorry, Hicchan."
-mi ""
+mi "ขอโทษนะ~! ขอโทษจริง ๆ ฮิจัง"
 
 # hi "Why are you apologizing?"
-hi ""
+hi "ทำไมถึงขอโทษล่ะ?"
 
 show misha sign_sad_close_ss
 with charachange
 
 # mi "I won't be able to help you or Shicchan with Student Council for a few days~. It'll only be for two or three days, really! I'll definitely try and come back as soon as possible! But~…"
-mi ""
+mi "ฉันจะไม่สามารถช่วยนายกับชิจังในสภานักเรียนได้สักสองสามวันนะ~ แค่สองสามวันจริง ๆ! ฉันจะพยายามกลับมาให้เร็วที่สุดเลย! แต่~…"
 
 # "I can't say I'm happy about this. It's supposed to be getting really busy this week too, isn't it? That's some unfortunate timing. For a second I want to ask if maybe Shizune could pull some strings to get her out of it."
-""
+"ฉันไม่สามารถบอกได้ว่าฉันดีใจเรื่องนี้เลย มันควรจะยุ่งมากในสัปดาห์นี้ด้วยใช่ไหม? ช่างเป็นช่วงเวลาที่โชคร้ายจริง ๆ สำหรับวินาทีหนึ่งฉันอยากจะถามว่าอาจจะให้ชิซึเนะช่วยดึงบางสิ่งออกมาให้เธอได้ไหม"
 
 # "But Misha looks so genuinely apologetic about it. It would be pretty dickish of me to say something like that."
-""
+"แต่มิช่าดูจะรู้สึกผิดจริง ๆ มันคงจะเป็นเรื่องแย่ถ้าฉันพูดอะไรแบบนั้นออกไป"
 
 # "Besides, if she says it's something that can't be put off any longer, I'm inclined to believe her, considering how surprisingly serious she can be with student council duties."
-""
+"นอกจากนี้ ถ้าเธอบอกว่านี่เป็นเรื่องที่ปล่อยไว้ไม่ได้แล้ว ฉันก็พอจะเชื่อเธอได้อยู่ เพราะเธอสามารถจริงจังกับหน้าที่ในสภานักเรียนได้อย่างน่าเหลือเชื่อ"
 
 # hi "Yeah, I see. It's okay. You managed with just Shizune and yourself last year, didn't you? So I'm sure I'll be able to as well. Don't worry about it."
-hi ""
+hi "อื้ม เข้าใจละ ไม่เป็นไรนะ เธอกับชิจังจัดการได้เมื่อปีที่แล้วนี่ ฉันก็มั่นใจว่าฉันก็จะทำได้เหมือนกัน ไม่ต้องเป็นห่วง"
 
 show misha hips_grin_close_ss
 with charachange
 
 # mi "Really? Thank you, Hicchan~! Really~! Yay yay~! I didn't know Hicchan would take it so well~! I thought you would be worried, with how there's going to be so~ much work, with Tanabata coming up and everything~!"
-mi ""
+mi "จริงเหรอ? ขอบคุณนะ ฮิจัง~! จริง ๆ นะ~! เย้ เย้~! ฉันไม่คิดว่าฮิจังจยอมง่ายขนาดนี้~! ฉันคิดว่านายจะกับงานที่จะมีมากมายในช่วงเทศกาลทานาบาตะและอีกหลาย ๆ อย่าง~!"
 
 # "Damn, she knows me oddly well."
-""
+"แม่ง เธอรู้จักฉันดีจังเลยแฮะ"
 
 show misha sign_smile_close_ss
 with charachange
 
 # mi "…But~! Hicchan is so composed~! I'm glad~…"
-mi ""
+mi "…แต่~! ฮิจังดูใจเย็นมากเลยนะ~! ฉันดีใจจัง~…"
 
 # hi "Haha, yeah. You're sort of right, I was thinking about it, but it's not that big a deal. I'm not going to freak out over that."
-hi ""
+hi "ฮ่าฮ่า อื้ม เธอพูดถูก ฉันเองก็คิดเรื่องนี้อยู่เหมือนกัน แต่ก็ไม่ใช่เรื่องใหญ่ขนาดนั้น ฉันจะไม่ตื่นตระหนกกับเรื่องนี้หรอก"
 
 # hi "It's going to be a little annoying passing that pad back and forth to talk to Shizune, though."
-hi ""
+hi "แต่คงน่ารำคาญน่าดูเลยที่ต้องส่งสมุดไปมาเพื่อคุยกับชิซูเนะ"
 
 show misha hips_frown_close_ss
 with charachange
 
 # mi "Hicchan, just tell Shicchan that you can use sign language too! I don't understand why you won't."
-mi ""
+mi "ฮิจัง ก็บอกชิจังไปสิว่านายก็ใช้ภาษามือได้! ฉันไม่เข้าใจเลยว่าทำไมถึงไม่ยอมบอก"
 
 # hi "Not yet. I can understand most things already, but I want to be really sure. Heh, actually, I wouldn't mind. The secrecy is killing me too, and it would be nice to be able to talk to her in a real conversation."
-hi ""
+hi "ยังก่อน ตอนนี้ฉันก็พอเข้าใจเกือบทุกอย่างแล้ว แต่ฉันอยากจะแน่ใจจริง ๆ ก่อน เฮะ จริง ๆ แล้วฉันก็ไม่ว่าอะไรหรอกนะ ความลับนี่มันก็ทำให้ฉันอึดอัดเหมือนกัน แล้วมันก็คงจะดีถ้าได้คุยกับเธอแบบจริง ๆ จัง ๆ"
 
 # hi "Don't worry, I'm going to have to tell her eventually. I want to. Actually, I'm trying to think of a good opportunity for it."
-hi ""
+hi "ไม่ต้องห่วงหรอก ยังไงฉันก็ต้องบอกเธออยู่แล้ว ฉันอยากบอกนะ จริง ๆ แล้วฉันกำลังหาโอกาสดี ๆ อยู่"
 
 show misha hips_smile_close_ss
 with charachange
 
 # mi "That won't be a problem, Hicchan~!"
-mi ""
+mi "นั่นไม่เป็นปัญหาหรอกฮิจัง~!"
 
 # hi "Why not?"
-hi ""
+hi "ทำไมล่ะ?"
 
 stop music fadeout 3.0
 
@@ -3936,71 +3936,71 @@ show misha sign_smile_close_ss
 with charachange
 
 # mi "Well~, because I… kind of… told Shicchan that you could understand her. She was worried about the same thing, that you wouldn't be able to understand each other~! So~! I was worried, but it worked out fine in the end after all~!"
-mi ""
+mi "ก็~ เพราะว่าฉัน… เผลอ… บอกชิจังไปแล้วว่านายเข้าใจเธอได้ เธอก็กังวลเรื่องเดียวกันนั่นแหละ ว่าพวกนายจะไม่สามารถเข้าใจกันได้~! เพราะงั้น~! ฉันก็เลยกังวล แต่สุดท้ายมันก็ออกมาดีนี่นา~!"
 
 show misha sign_confused_close_ss
 with charachange
 
 # mi "Hahaha?"
-mi ""
+mi "ฮ่าฮ่าฮ่า?"
 
 # "I lose it."
-""
+"ฉันสติแตก"
 
 play music music_running
 
 # hi "AAAAAAAAAAHHH!!"
-hi ""
+hi "อ๊าาาาาาาาาาาา!!"
 
 # hi "Do you know how stupid I look now? I sat there for like half the damn day acting like I couldn't read sign language, and are you seriously telling me that she knew the whole time I could?"
-hi ""
+hi "เธอรู้ไหมว่าตอนนี้ฉันดูโง่ขนาดไหน? ฉันนั่งทำเป็นอ่านภาษามือไม่ออกมาตั้งครึ่งค่อนวัน แล้วนี่เธอกำลังจะบอกฉันจริง ๆ เหรอว่าเธอรู้มาตลอดว่าฉันทำได้?"
 
 # hi "She was probably thinking, “this guy is a complete jackass, pretending he can't understand me.” I just made a total ass of myself."
-hi ""
+hi "เธอคงคิดว่า “ไอ้หมอนี่มันงี่เง่าสิ้นดี ทำเป็นไม่เข้าใจฉัน” ฉันทำตัวเองให้ดูเป็นตัวตลกสิ้นดี"
 
 # hi "How could you let me do this?!"
-hi ""
+hi "เธอปล่อยให้ฉันทำแบบนี้ได้ยังไง?!"
 
 show misha hips_frown_close_ss
 with charachange
 
 # "Misha frowns, seeming lost for words on realizing that I'm taking this differently than she might have expected. She doesn't speak again until after seeing that I've calmed down."
-""
+"มิช่าขมวดคิ้ว ดูเหมือนจะพูดอะไรไม่ออกเมื่อรู้ว่าฉันรับเรื่องนี้ต่างจากที่เธอคาดไว้ เธอไม่พูดอะไรอีกจนกระทั่งเห็นว่าฉันใจเย็นลงแล้ว"
 
 show misha hips_smile_close_ss
 with charachange
 
 # mi "…But, Hicchan, I think this is definitely for the best~!"
-mi ""
+mi "…แต่ ฮิจัง ฉันว่านี่มันดีที่สุดแล้วนะ~!"
 
 # "She says without batting an eye, having waited patiently through my panic to say it."
-""
+"เธอพูดโดยไม่กระพริบตา หลังจากที่รออย่างอดทนให้ฉันหายตื่นตระหนก"
 
 # "The cheerful delivery of her words makes it seem like she sliced out the time between when she dropped the bomb on me and now. It's pretty funny, in a way."
-""
+"การพูดอย่างร่าเริงของเธอทำให้ดูเหมือนว่าเธอตัดช่วงเวลาที่เธอทิ้งระเบิดใส่ฉันออกไป มันก็ตลกดีเหมือนกันนะ"
 
 # hi "You have such a one track mind, you know that?"
-hi ""
+hi "เธอมีความคิดแบบทางเดียวจริง ๆ นะ รู้ตัวไหม?"
 
 show misha hips_grin_close_ss
 with charachange
 
 # mi "Yes~!"
-mi ""
+mi "ใช่~!"
 
 stop music fadeout 4.0
 
 # "The damage is done. If Misha can believe that things will work out with such unflinching surety, then maybe it's worth giving it a chance."
-""
+"ความเสียหายได้เกิดขึ้นแล้ว ถ้ามิช่าเชื่อว่าทุกอย่างจะคลี่คลายไปด้วยความมั่นใจขนาดนั้น บางทีมันก็อาจจะคุ้มค่าที่จะลองดู"
 
 # "And if things don't work out, I'll run as fast as I possibly can…"
-""
+"และถ้ามันไม่เป็นผล ฉันจะวิ่งให้เร็วที่สุดเท่าที่จะทำได้…"
 
 # "To try and make it up to me anyway just in case, she offers to buy me another drink from the vending machine. It's a very small token of apology, but I suppose it's the thought that counts, and her thoughts are sincere."
-""
+"เพื่อเป็นการไถ่โทษเผื่อไว้ เธอเสนอที่จะซื้อเครื่องดื่มให้ฉันอีกกระป๋องจากตู้ขายของอัตโนมัติ มันเป็นสัญลักษณ์ของการขอโทษที่เล็กน้อยมาก แต่ฉันคิดว่ามันอยู่ที่เจตนา และเจตนาของเธอก็จริงใจ"
 
 # "Plus it's a free drink, so I accept."
-""
+"แถมมันก็เป็นเครื่องดื่มฟรีด้วย ฉันเลยรับไว้"
 
 scene black
 with dissolve
