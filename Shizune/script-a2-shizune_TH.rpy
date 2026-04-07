@@ -957,7 +957,7 @@ show misha sign_smile
 with charachange
 
 # mi "Of course not, Hicchan~!! Come on, I'll do it again! A, B, C, D, E, F, G, H, I, J, K… Your turn~!"
-mi "ไม่เลยฮิจัง~!! เร็ว ๆ เดี๋ยวทำอีกรอบ! กอไก่ ขอไข่ คอควาย ฆอระฆัง ตอเต่า ถอถุง ฐอฐาน ฒอผู้เฒ่า ฑอมณโฑ\nฏอปฏัก… ตานาย~!"
+mi "ไม่เลยฮิจัง~!! เร็ว ๆ เดี๋ยวทำอีกรอบ! อะอิอุเอะโอะ ซะชิซุเซะโซะ… ตานาย~!"
 
 # hi "So there's really no student council work that needs doing, or anything like that?"
 hi "สรุปคือไม่มีงานสภานักเรียนอะไรเทือกนั้นให้ทำเลยเหรอ"
@@ -995,7 +995,7 @@ hi "อ่า… ฮะ…"
 show misha perky_sad
 with charachange
 
-# mi "I wish Shicchan was here, this would be so much easier with her. Hahaha, that's how sign language is taught most of the time, anyway, with two instructors~! Did you know that, Hicchan?"
+# mi "I wish Shicchan was here, this would be so much easier with her. Hahaha, that's how sign language is taught most of the time,anyway, with two instructors~! Did you know that, Hicchan?"
 mi "ถ้าชิจังอยู่ด้วยก็ดีสิ จะได้สอนง่ายขึ้นเยอะเลย ฮ่าฮ่าฮ่า ก็นะ ปกติภาษามือสอนกันแบบนั้นนี่นา แบบว่าใช้สองคน\nสอนน่ะ~! ฮิจังรู้มั้ย"
 
 # hi "No."
@@ -4435,7 +4435,7 @@ scene bg school_dormhisao
 with vpunch
 
 # "The first thing I do this morning is trip once again over Kenji's package as I get out of bed, finding myself diving headfirst into the floor before I'm even fully awake."
-""
+"สิ่งที่ฉันทำเป็นอย่างแรกในตอนเช้านี้คือการสะดุดกล่องพัสดุของเคนจิตอนที่ลุกจากเตียงจนล้มหัวคะมำก่อนจะ\nทันได้ตื่นเต็มตาด้วยซ้ำอีกหน"
 
 show kenjibox:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
@@ -4443,7 +4443,7 @@ show kenjibox:
 with Pause (1.0)
 
 # "I want to smack this thing with the first blunt object I can find, like I'm going for a home run, but I don't even have the energy for that this early in the morning… and it would likely damage whatever's inside. And that would be mean."
-""
+"อยากจะคว้าของแข็งอะไรใกล้มือมาทุบไอ้กล่องนี่เหมือนจะทำโฮมรันสักที แต่ฉันไม่มีแรงจะมาทำอะไรแบบนั้น\nในเวลาเช้าตรู่อย่างนี้หรอก… แถมทุบไปของในกล่องก็พังอีก ไม่ดี ๆ"
 
 show kenjibox:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -4457,7 +4457,7 @@ scene bg school_dormhallway
 with locationchange
 
 # "I slide it into the hallway. It sails along the smooth floor with little difficulty and stops with a soft and almost inaudible bump on colliding with Kenji's door. Immediately, a dozen locks unbolt in succession like a mounting symphony."
-""
+"ฉันเลื่อนพัสดุนั้นไปตามโถงทางเดิน กล่องไหลไปกับพื้นเรียบอย่างง่ายดายก่อนจะไปชนกับประตูห้องเคนจิดังตุบซึ่งเบา\nจนแทบไม่ได้ยิน ทันใดนั้นก็มีเสียงปลดล็อกหลาย ๆ ชั้นตามติดกันมาเหมือนเป็นเพลงจากวงประสานเสียงที่เล่น\nอยู่เบื้องหลัง"
 
 play music music_kenji fadein 0.5
 
@@ -4465,143 +4465,144 @@ show kenji tsun at Slide(0.4, 0.5, 0.5, 0.5, 0.5)
 with charaenter
 
 # ke "Who is it?"
-ke ""
+ke "ใครน่ะ"
 
 # "He says, as he blindly steps forward into the hallway anyway, somehow stepping over the box in a way that would be uncharacteristically, impressively graceful if it weren't for the fact I know it was wholly accidental."
-""
+"เคนจิพูดพลางเดินเข้ามาที่โถงทางเดินไม่สนสี่สนแปดและเดินเหยียบกล่องด้วยท่าทางที่ดูสง่างามน่าประทับใจผิดวิสัย\nเจ้าตัว แต่ฉันรู้หรอกว่าที่เหยียบน่ะไม่ได้ตั้งใจเลย"
 
 # hi "It's me, I got your mail. You're standing over it."
-hi ""
+hi "ฉันเอง เอาพัสดุมาให้แล้วนะ นายเหยียบอยู่แน่ะ"
 
 show kenji happy at center
 with charachange
 
 # ke "I know. Thanks a lot, man."
-ke ""
+ke "รู้ ขอบใจมากพวก"
 
 # hi "…Yeah, whatever."
-hi ""
+hi "…เออเอาเหอะ"
 
 # hi "So what's in it?"
-hi ""
+hi "แล้วอะไรอยู่ในนั้น"
 
 show kenji tsun
 with charachange
 
 # "He cringes, instantly turning very defensive and agitated."
-""
+"เคนจิผงะไปด้วยท่าทีหงุดหงิดพร้อมแก้ต่าง"
 
 # ke "It's nothing."
-ke ""
+ke "ไม่มีอะไรหรอก"
 
 # hi "Come on, tell me, I'm curious."
-hi ""
+hi "บอกมาเหอะน่า อยากรู้"
 
 # hi "And you know, I almost broke my neck falling over it, and before that I had to carry the stupidly large box around with it blocking my vision, crossing roads with it in front of me… I think you can at least tell me what's inside in return."
-hi ""
+hi "แล้วเนี่ย ฉันสะดุดเจ้ากล่องนี่จนเกือบคอหักแล้วนะ แถมก่อนหน้านั้นตอนที่แบกกล่องใหญ่ ๆ ของนายเนี่ยฉันก็\nมองอะไรไม่เห็นเลย ต้องข้ามถนนทั้งอย่างนั้นน่ะ… อย่างน้อยบอกหน่อยว่าอะไรอยู่ในนั้นเป็นการตอบแทนก็ยังดีนะ"
 
 # ke "It's secret stuff. I can't tell you, because then it wouldn't be very secret and shit. It's nothing important."
-ke ""
+ke "ความลับ บอกไม่ได้หรอก บอกก็ไม่ลับไม่ลมไม่คมไม่ในแล้วสิ ไม่ใช่อะไรสลักสำคัญหรอก"
 
 # hi "Well, if it's nothing important, you can tell me."
-hi ""
+hi "เออ ถ้าไม่สำคัญก็บอกมาสิ"
 
 # ke "If it's nothing important, why do you have to know?"
-ke ""
+ke "ถ้าไม่สำคัญแล้วทำไมนายต้องรู้ด้วย"
 
 # hi "Why is that wrong?"
-hi ""
+hi "แล้วมันผิดตรงไหน"
 
 # ke "Why do you have to know?"
-ke ""
+ke "แล้วทำไมนายต้องรู้ด้วย"
 
 # hi "Why can't I know?"
-hi ""
+hi "แล้วทำไมฉันจะรู้ไม่ได้"
 
 show kenji neutral
 with charachange
 
 # ke "Why are you answering my questions with questions?"
-ke ""
+ke "แล้วทำไมนายตอบคำถามฉันด้วยคำถาม"
 
 # hi "Why won't you answer my first question?"
-hi ""
+hi "แล้วทำไมนายไม่ตอบคำถามแรกฉันก่อน"
 
 # ke "Why won't you answer my last question?!"
-ke ""
+ke "แล้วทำไมนายไม่ตอบคำถามล่าสุดของฉันก่อน!"
 
 # "I realize our voices are getting higher with each reply. Down the hall, a door pops open and someone sticks his head out quizzically to see what is going on."
-""
+"แล้วฉันก็นึกได้ว่าเสียงเราดังขึ้นทุกประโยคที่โต้ตอบกัน มีคนหนึ่งที่เปิดประตูแล้วชะเง้อหัวออกมาที่โถงทางเดิน\nแล้วมองด้วยความงุนงงว่าเกิดอะไรขึ้น"
 
 # "We must look like such tools, but I bet I'm the only one out of the two of us with enough shame to realize it."
-""
+"คงดูเหมือนไอ้บ้าสองตัวแน่ ๆ แต่น่าจะมีแค่ฉันคนเดียวแหละที่หน้าไม่ด้านพอจะรู้ตัว"
 
 # hi "Fine, you can take it to your grave. I have to get ready for school anyway."
-hi ""
+hi "ก็ได้ เก็บไว้เป็นความลับยันวันตายนายแล้วกัน เดี๋ยวฉันต้องเตรียมตัวไปเรียนด้วย"
 
 show kenji tsun
 with charachange
 
 # ke "Damn, no. Why are you so hasty to leave? Stick around a little. You want some coffee? It's been a while. You know, I thought you were dead since you were so slow with the package delivery."
-ke ""
+ke "เฮ้ย ไม่สิ จะรีบไปไหน อยู่ต่ออีกหน่อยสิ กาแฟไหม ไม่ได้เจอกันนาน เนี่ย ฉันนึกว่านายตายไปแล้ว ก็รออยู่ว่า\nพัสดุไม่มาสักที"
 
 # hi "You're lucky I was willing to do package delivery in the first place, smartass!"
-hi ""
+hi "บุญหัวนายแค่ไหนแล้วที่ฉันยอมไปรับพัสดุให้เนี่ย ไอ้เบื๊อก!"
 
 show kenji neutral
 with charachange
 
 # ke "Whoa, calm down. Man, you are so confrontational. Is it because of the Student Council thing? I hear you hang out with them now."
-ke ""
+ke "เฮ้ย ใจเย็น โห เลือดร้อนนะนายเนี่ย เพราะสภานักเรียนหรือเปล่า ได้ยินว่าเดี๋ยวนี้นายไปอยู่กับพวกนั้น"
 
 # hi "You heard it from me. When I told you."
-hi ""
+hi "ก็ฉันเล่าเอง นายได้ยินจากฉันนี่แหละ"
 
 # ke "Really?"
-ke ""
+ke "จริงเหรอ"
 
-ke "Yeah, well, whatever, man. The point is they are terrible." 
+# ke "Yeah, well, whatever, man. The point is they are terrible."
+ke "เออเอาเหอะ เรื่องคือพวกนั้นมันเลว"
 
 show kenji tsun
 with charachange
 
 # ke "You're the new guy, so of course you wouldn't know, but around here she's a very divisive figure. Before you came here, she tried to institute a badge policy. It's a long story, so maybe you should sit down."
-ke ""
+ke "นายไม่รู้แน่นอนเพราะเพิ่งมาใหม่ว่ายัยนั่นน่ะคนเกลียดขี้หน้ากันขนาดไหน ก่อนหน้าที่นายจะมายัยนั่นเคยเสนอ\nนโยบายเหรียญตรา เรื่องมันยาว นายนั่งก่อนก็ดี"
 
 # "I look around for a chair, but can't find one as we are in a goddamn hallway. I raise a finger and start thinking that maybe I should tell him that, but he's already started talking. Not wanting to waste the arm movement, I look at my watch instead."
-""
+"ฉันหันซ้ายหันขวามองหาเก้าอี้ แต่ก็ไม่เจอเพราะที่นี่แม่งคือโถงทางเดิน ฉันยกนิ้วขึ้นหมายจะบอกเคนจิ แต่เขาก็\nเริ่มเล่าไปแล้ว ซึ่งไหน ๆ ก็ยกมือมาแล้วฉันจึงมองนาฬิกาข้อมือแทน"
 
 # ke "It would have been a real reign of terror, if it had happened."
-ke ""
+ke "ถ้าเกิดขึ้นจริง คงเป็นสมัยแห่งความน่าสะพรึงกลัวของแท้เลย"
 
 # hi "Wait, you're judging her based on something that didn't even happen?"
-hi ""
+hi "เดี๋ยว นี่ไปตัดสินกับเรื่องที่ยังไม่เกิดขึ้นด้วยซ้ำน่ะนะ"
 
 stop music fadeout 8.0
 
 # ke "Yes. Anyway, her idea was like merit badges, but there would also be demerit badges."
-ke ""
+ke "ใช่ แต่เอาเถอะ ที่ยัยนั่นคิดไว้คือเหรียญตราบุญ แล้วก็จะมีเหรียญตราบาปด้วย"
 
 # hi "What would those do?"
-hi ""
+hi "แล้วมันใช้ทำอะไรยังไง"
 
 show kenji neutral
 with charachange
 
 # ke "I don't know, it never happened. It seemed bad, though, so when I heard about it I didn't leave my room for a few weeks."
-ke ""
+ke "ไม่รู้ ก็ไม่เคยเกิดขึ้นนี่ แต่ดูแล้วน่าจะไม่ดีนะ ตอนที่ได้ข่าวฉันไม่ยอมออกจากห้องอยู่สองสามสัปดาห์เลย"
 
 # hi "So you heard there would be massive change and hid in your room, trying to just ride the change out."
-hi ""
+hi "ก็คือนายได้ข่าวว่าจะมีการเปลี่ยนแปลงครั้งใหญ่แล้วซ่อนตัวอยู่ในห้อง กะจะคอยให้การเปลี่ยนแปลงนี้ผ่านไป"
 
 show kenji tsun
 with charachange
 
 # ke "Nah, I decided to do something about it. I found the student council office after a while and marched right in with a list of demands and a bunch of people I grabbed in order to make myself look like I had supporters."
-ke ""
+ke "ไม่ ฉันคิดจะลงมือทำอะไรสักอย่าง พอหาเจอว่าห้องสภานักเรียนอยู่ที่ไหนฉันก็บุกไปถึงที่พร้อมรายการความจำนง\nกับคนที่ฉันพาติดสอยห้อยตามมาให้ดูเหมือนว่ามีคนสนับสนุนฉันด้วย"
 
 # hi "Wait, so not only did it not happen, but no one even cared?"
-hi ""
+hi "เดี๋ยว ไม่เคยเกิดขึ้นไม่พอ นี่ยังไม่มีใครสนใจด้วย?"
 
 show kenji rage
 with charachange
@@ -4609,37 +4610,37 @@ with charachange
 play music music_tension
 
 # "Kenji doesn't hear me, having gotten a good momentum going. Wrapped up in the energy of his own ranting, he starts to completely flip out and flail his arms, appearing to wildly throw gang signs."
-""
+"เคนจิไม่สนใจฉันแล้วด้วยอยู่ในสถานะที่กำลังคุยอย่างลื่นไหล พลังแห่งการพล่ามเสริมให้มือไม้ของเขาโบกสะบัดไปมา\nเหมือนทำท่าทางอย่างนักเลงอะไรสักอย่าง"
 
 # ke "I walked up to the desk and said to her, “Hey you, fascist woman! What is this badge idea? How out of touch can you be, here in your ivory tower, smugly looking down upon us like we're just a bunch of idiots? Who do you think you are?”"
-ke ""
+ke "ฉันเดินไปที่โต๊ะแล้วบอก “เฮ้ย ยัยฟาสซิสต์! ไอ้เรื่องเหรียญตรานี่มันอะไรกัน ไม่มองความเป็นจริงบ้างหรือไง วัน ๆ\nอยู่แต่บนหอคอยงาช้าง ดูถูกเหมือนว่าพวกเราเป็นพวกโง่งั้นแหละ ตัวเองเป็นใครใหญ่มาจากไหนฮะ”"
 
 # ke "“Your level of elitism is terrible, you're probably one of those outrageous rich people who have chaffeurs drive them around slums so they can point and laugh…”"
-ke ""
+ke "“จะทำตัวสูงส่งเหลือเกินนะ เธอคงจะเป็นอย่างคนรวยล้นฟ้าพวกนั้นที่ให้คนขับรถพาตัวเองไปตามย่านชุมชนแออัด\nแล้วก็คอยชี้นิ้วหัวเราะเยาะสินะ…”"
 
 # ke "“…and only drink pricey coffee beans shat out by the last living dinosaur and brewed in a solid gold skull.”"
-ke ""
+ke "“…แล้วก็ดื่มแต่กาแฟราคาแพงที่ไดโนเสาร์ตัวสุดท้ายของโลกอึออกมาแล้วสกัดในกะโหลกทองของแท้”"
 
 # ke "“And how could you? Go open up a history book; don't you know that the bourgeoisie are always overthrown in a bloody revolution for shit like this? Stupid! You're an idiot!”"
-ke ""
+ke "“กล้าดียังไง ไปเปิดหนังสือประวัติศาสตร์ดูเสียบ้าง ไม่รู้เหรอว่าที่พวกกระฎุมพีถูกโค่นด้วยการปฏิวัติก็เพราะ\nเรื่องแบบนี้ โง่! โง่สิ้นดี!”"
 
 # ke "“Sure, the revolutionaries usually end up turning everything into an utter clusterfuck later on, but a maniac is the only kind of person who would create a policy like this…”"
-ke ""
+ke "“จริงอยู่ว่าไอ้พวกที่ทำการปฏิวัติจะทำอะไรหลายอย่างพังพินาศย่อยยับหลังปฏิวัติแล้ว แต่ใครคิดนโยบายแบบนี้ได้\nก็คงเสียสติไปแล้ว…”"
 
 # ke "“…it's like something I would create to make people suffer, only real and you want to institutionalize it! Where will this desecration of our rights end? We are people! This is not justice!”"
-ke ""
+ke "“…ดูยังไงก็เป็นของที่เหมือนสร้างมาเพื่อทรมานคนชัด ๆ แล้วนี่เธออยากจะเอาออกมาใช้จริง! จะลิดรอนสิทธิ์\nกันไปถึงไหน เราคือประชาชนนะ! สิ่งนี้ไม่ใช่ความยุติธรรม!”"
 
 show kenji neutral
 with charachange
 
 # ke "That's what I said."
-ke ""
+ke "ว่างั้นอะนะ"
 
 show kenji rage
 with charachange
 
 # ke "Then I added a cry of “They can take our things, but they'll never take our freeeeeedoooooom!” to appeal to the masses like in that movie about the life of William Wallace where they took his things but not his freedom, and then killed him."
-ke ""
+ke "แล้วฉันก็ตะโกนเสริมไปว่า “ถึงจะพรากสิ่งของของเราไปได้ แต่จะไม่มีวันพรากอิสรภาพของเราไปด้าาาาาาาาาย!”\nให้ฝูงชนเฮกันตามเหมือนอย่างในหนังที่สะท้อนชีวิตของวิลเลียม วอลเลซที่ถูกพรากสิ่งของไปหลายอย่างแต่อิสรภาพ\nยังอยู่กับตัวแล้วก็ถูกฆ่า"
 
 stop music fadeout 5.0
 
@@ -4647,16 +4648,16 @@ show kenji tsun
 with charachange
 
 # ke "…But she just ignored me and didn't even look up from writing in her little paper shit."
-ke ""
+ke "…แต่ยัยนั่นก็เมิน ไม่ละสายตาจากกระดาษแผ่นเล็ก ๆ ที่กำลังเขียนอยู่ด้วย"
 
 # ke "Maybe I overwhelmed her with my logic, so badly that she just retreated into denial. Maybe she is just an asshole. Either way, she didn't reply, and the future refused to change."
-ke ""
+ke "สงสัยจะรับตรรกะของฉันไม่ไหวจนต้องถอยกรูดไปไม่ยอมรับ หรืออาจจะเป็นคนไม่ดีอยู่แล้ว แต่นั่นแหละ ยัยนั่น\nไม่ตอบ อนาคตก็ไม่เปลี่ยนแปลง"
 
 # ke "To top it off, on the way back I realized I had lost my student ID somewhere. This is the story of my life. A constant and seemingly futile struggle. Like trying to climb up a brick wall with sponges for hands."
-ke ""
+ke "แค่นั้นไม่พอ ตอนขากลับฉันเพิ่งรู้ตัวว่าทำบัตรนักเรียนหล่นหาย นี่แหละเรื่องราวของชีวิตฉัน ต้องดิ้นรน\nอย่างคล้ายเปล่าประโยชน์ตลอดเวลา เหมือนการปีนกำแพงอิฐที่ที่จับทำจากฟองน้ำ"
 
 # hi "Hey, you said nothing changed, but she didn't make everyone wear a bunch of stupid badges. So, it did change."
-hi ""
+hi "นี่ นายบอกว่าไม่มีอะไรเปลี่ยน แต่ยัยนั่นที่ว่าก็ไม่ได้ไปบังคับให้ทุกคนติดเหรียญตราโง่ ๆ นี่ เพราะงั้นก็ถือว่าเปลี่ยน\nแล้วนะ"
 
 play music music_kenji fadein 0.5
 
@@ -4664,10 +4665,10 @@ show kenji happy
 with charachange
 
 # ke "Yeah, that's true. Okay, maybe they're not so bad, then."
-ke ""
+ke "เออ ก็จริง โอเค งั้นก็อาจจะไม่ได้เป็นคนเลวขนาดนั้นมั้งนะ"
 
 # "I guess that counts for something, if I can get Kenji to admit that maybe two women may not be so bad after all. I'll take it. Especially if it allows me to slip out of this conversation; I didn't realize how much time had gone by."
-""
+"ฉันนี่ก็ใช้ได้เหมือนกัน มีฝีมือในการโน้มน้าวให้เคนจิยอมรับได้ว่าผู้หญิงสองคนก็ไม่ได้แย่ขนาดนั้น ตามนั้นแล้วกัน\nฉันจะได้มีจังหวะปลีกตัวจากบทสนทนานี้ด้วย เวลาผ่านไปนานมากแล้วโดยไม่ทันรู้ตัว"
 
 stop music fadeout 2.0
 
@@ -4675,7 +4676,7 @@ scene bg school_dormext_full
 with locationchange
 
 # "I try to run through my usual morning routine as quickly as possible. I check my watch again as I leave the dorms and see that I'm already late."
-""
+"ฉันรีบทำกิจวัตรยามเช้าให้รวดเร็วที่สุด พอเหลือบมองนาฬิกาข้อมือก่อนออกหอก็เห็นว่าสายแล้ว"
 
 scene bg school_scienceroom
 with shorttimeskip
@@ -4683,73 +4684,73 @@ with shorttimeskip
 play music music_daily fadein 1.0
 
 # "Fortunately, the rest of the day goes more smoothly, and after classes are over, I head to meet with Shizune again."
-""
+"โชคดีที่นอกจากเรื่องเมื่อเช้าก็ไม่มีอะไรแล้ว พอเลิกเรียนก็ไปหาชิซูเนะอีกครั้ง"
 
 scene bg school_gardens2
 with locationskip
 
 # "Behind the school, I catch her leaning against a completed stand with parts of it still flecked with bits of paper and tape, remnants of signs from the last time it was used. Absentmindedly spinning a nail in her hand, she hasn't noticed me yet."
-""
+"เมื่อมาถึงข้างหลังโรงเรียนก็เห็นชิซูเนะที่กำลังยืนพิงแผงหนึ่งที่ทำเสร็จแล้ว ตามตัวแผงมีรอยกระดาษกับเทปกาว\nแปะปะอยู่ซึ่งเป็นร่องรอยจากการใช้ครั้งที่แล้ว เธอใช้นิ้วควงตะปูเหม่อ ๆ ไม่ทันสังเกตเห็นฉันที่เดินมา"
 
 # "The temptation to sneak up on her is unbearable. Years of watching foreign wildlife documentaries have prepared me for this. I'm downwind, conditions are favorable. However, the more I think about it, the more it seems like a bad idea."
-""
+"เห็นแล้วก็อดใจแทบไม่ไหว อยากย่องเข้าไปหาเหลือเกิน นี่แหละ ฉันดูสารคดีสัตว์ป่ารอบโลกมาหลายปีเพื่อการนี้\nโดยเฉพาะ ตำแหน่งนับว่าดีเพราะฉันอยู่เหนือลม แต่ยิ่งคิดก็ยิ่งรู้สึกว่าอย่าทำเลยดีกว่า"
 
 # "If get caught halfway I'll look like an idiot, and if she doesn't know it's me, I could end up with an injury. Either way, I'll also look a little insensitive. So, it would probably be best not to try anything funny… as disappointing as it is."
-""
+"ถ้าแผนล้มเหลวกลางทางก็ดูเป็นคนโง่ และถ้าไม่รู้ว่าเป็นฉันก็มีสิทธิ์เจ็บตัว ซึ่งจะทางไหน สุดท้ายฉันก็จะดูเป็นคน\nใจร้ายหน่อย ๆ อยู่ดี เพราะงั้น อย่าคิดลองเล่นอะไรพิเรนทร์ ๆ เลย… ถึงจะอยากเล่นมาก ๆ ก็เถอะ"
 
 show shizu adjust_blush at center
 with charaenter
 
 # "I walk in front of her, startling her a little."
-""
+"ฉันเดินไปยืนอยู่ตรงหน้าชิซูเนะ เธอตกใจเล็กน้อย"
 
 # his "Why so surprised? Did I catch you slacking off?"
-his ""
+his "สะดุ้งอะไรขนาดนั้น นี่แอบอู้เหรอ"
 
 show shizu behind_blank
 with charachange
 
 # ssh "No, I was taking a break."
-ssh ""
+ssh "เปล่า แค่พักอยู่"
 
 # his "You don't look like you even broke a sweat. That's some break there, president."
-his ""
+his "เหมือนเหงื่อยังไม่ออกเลยด้วยซ้ำ พักสบายน่าดูเลยนะท่านประธาน"
 
 show shizu behind_frustrated
 with charachange
 
 # "Shizune's eyes dart back and forth momentarily, and I think I've managed to fluster her."
-""
+"ชิซูเนะทำตาล่อกแล่กอยู่ครู่หนึ่ง ดูท่าจะไล่ต้อนสำเร็จ"
 
 # "There's exasperation on her face, and a little tension as well, but she can't back down; that would be unthinkable for her. Her fingers dance across each other impatiently."
-""
+"เธอทำหน้าหงุดหงิดเจือความเครียดเล็กน้อย แต่จะถอยไม่ได้ ชิซูเนะไม่ใช่คนแบบนั้นเลย นิ้วเธอที่ชนกันขยับไปมา\nอย่างกระวนกระวายใจ"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "You're acting competitive today. Are you trying to get my blood boiling? Do you want to make it a contest? We'll race to see who can construct the most stalls by sundown."
-ssh ""
+ssh "วันนี้ทำตัวเป็นนักสู้น่าดูเลยนะ จะยั่วโมโหกันเหรอ อยากแข่งกันมั้ยล่ะ แข่งกันว่าใครจะทำแผงได้เยอะสุด\nก่อนพระอาทิตย์ตกดิน"
 
 # his "No, no! I'm teasing you. That's okay, it's not a real Student Council if you can't tease the Student Council president a little. You agree, don't you?"
-his ""
+his "ไม่ ไม่ใช่! ฉันหยอกเล่นเฉย ๆ ไม่เป็นไรหรอก เป็นสมาชิกสภานักเรียนก็ต้องหยอกประธานนักเรียนได้บ้างสิ\nว่างั้นไหม"
 
 show shizu behind_frown
 with charachange
 
 # ssh "That isn't in the student council charter, so it isn't true."
-ssh ""
+ssh "ในกฎบัตรสภานักเรียนไม่มีระบุไว้นะ เพราะงั้นไม่จริงหรอก"
 
 # his "There is no charter!"
-his ""
+his "มีกฎบัตรที่ไหนเล่า!"
 
 # "At least, I don't think there is. The only thing they pledge loyalty to are a stack of takeout menus."
-""
+"รู้สึกเหมือนจะไม่มีนะ ที่ถวายสัตย์ปฏิญาณด้วยก็มีแค่กองรายการอาหารที่สั่งได้"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "Anyway, it's good that you're finally here, even if you could have been earlier. Pick up a hammer and we'll resume where we left off."
-ssh ""
+ssh "แต่เอาเถอะ มาก็ดีแล้ว แต่ถ้ามาเร็วกว่านี้จะดีกว่า ไปหยิบค้อนแล้วทำงานกันต่อได้แล้ว"
 
 hide shizu
 with charaexit
@@ -4757,107 +4758,107 @@ with charaexit
 play ambient sfx_stallbuilding fadein 0.5
 
 # "As we work assembling stalls again, I slowly realize that it's really much less work than I would have expected. In fact, according to Shizune, we should be done by the end of the day with a little luck."
-""
+"ระหว่างที่กำลังประกอบแผงอยู่ฉันก็เริ่มระลึกได้ว่างานที่ต้องทำมีน้อยกว่าที่คาดไว้ และเอาเข้าจริง ชิซูเนะก็บอกว่า\nมีโอกาสอยู่หน่อย ๆ เหมือนกันที่จะปิดงานวันนี้ได้เลย"
 
 # "The last time I did something like this for them, it took her, Misha, and myself almost four days to do it. It can't be just my imagination."
-""
+"ครั้งล่าสุดที่ไปช่วยตอนนั้นทำกันสามคนกับมิช่ายังต้องใช้เวลาถึงสี่วัน ฉันไม่ได้รู้สึกไปเองแน่ ๆ ละ"
 
 stop ambient fadeout 2.0
 
 # his "You know, this doesn't seem like that much work."
-his ""
+his "เออ งานก็ดูไม่ได้เยอะขนาดนั้นนะ"
 
 show shizu behind_blank at center
 with charaenter
 
 # ssh "Because it isn't."
-ssh ""
+ssh "ก็เพราะมีไม่เยอะไง"
 
 play ambient sfx_parkambience fadein 10.0
 
 # "That answer leaves me wanting a little more. Knowing that it isn't the best, Shizune puts down her hammer to elaborate."
-""
+"เป็นคำตอบที่ชวนให้อยากถามต่อเหลือเกิน ชิซูเนะเองก็รู้ว่าตอบแค่นั้นไม่พอจึงวางค้อนลงแล้วขยายความ"
 
 show shizu basic_happy
 with charachange
 
 # ssh "It would be impossible for two people to do that much work in less than a week. The truth is that I don't dismantle half the stalls, I just store them someplace else. Actually, more like I hide them in plain sight."
-ssh ""
+ssh "ถ้างานเยอะขนาดนั้น แค่สองคนทำคงไม่เสร็จในหนึ่งสัปดาห์หรอก จริง ๆ แล้วฉันยังไม่ได้รื้อแผงอีกครึ่งจำนวน\nแค่เอาไปเก็บไว้ที่อื่นเฉย ๆ ไม่สิ ต้องบอกว่าเอาไปพรางตัวไว้ไม่ให้ใครเห็นมากกว่า"
 
 show shizu adjust_smug
 with charachange
 
 # "She waggles a finger mischievously."
-""
+"ชิซูเนะส่ายนิ้วอย่างเจ้าเล่ห์"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "But that's a secret, and it's not proper to reveal the tricks of the trade."
-ssh ""
+ssh "แต่วิธีการนั้นเป็นความลับ ความลับทางการค้าน่ะเขาห้ามเปิดเผยกัน"
 
 # his "You're not a magician."
-his ""
+his "เธอไม่ใช่นักมายากลสักหน่อย"
 
 show shizu behind_smile
 with charachange
 
 # "Winking, she takes out two plastic containers from her bag, then puts them down on a nearby board before raising her hands slightly as if to say “ta-da!”"
-""
+"ชิซูเนะขยิบตาพลางหยิบกล่องพลาสติกสองกล่องออกมาจากกระเป๋ามาวางไว้ที่แผ่นไม้ที่อยู่ใกล้ ๆ แล้วชูมือขึ้นคล้ายจะ\nบอกว่า “แต่นแต๊น!”"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "I made lunch today for both of us."
-ssh ""
+ssh "วันนี้ฉันทำข้าวเที่ยงมาเผื่อนายด้วย"
 
 show shizu behind_smile
 with charachange
 
 # ssh "You can have this one. The food shifted in my bag and now some of it is mixed together."
-ssh ""
+ssh "กล่องนี้ของนาย กล่องมันอยู่ในกระเป๋าจนข้าวข้างในเคลื่อนไปรวมกันแล้ว"
 
 # "She hands me one of the containers. I open it. It looks delicious, if a little simple. She hands me a pair of chopsticks, as if she had just remembered to, and I eat what looks like some grilled beef."
-""
+"ชิซูเนะยื่นกล่องใบหนึ่งมาให้ฉัน พอเปิดดูก็เห็นอาหารหน้าตาน่ากิน ทั้งยังดูเรียบง่าย เธอยื่นตะเกียบมาให้เหมือนเพิ่ง\nนึกขึ้นได้ ฉันคีบส่วนที่เหมือนจะเป็นเนื้อวัวย่างเข้าปาก"
 
 # his "It's very tasty."
-his ""
+his "อร่อยมากเลย"
 
 # his "You don't like your food touching other food?"
-his ""
+his "เธอไม่ชอบให้กับข้าวเคลื่อนไปรวมกันเหรอ"
 
 show shizu basic_normal
 with charachange
 
 # ssh "I do not."
-ssh ""
+ssh "ไม่"
 
 # his "You're very picky."
-his ""
+his "เรื่องมากนะเธอเนี่ย"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Sometimes I mix my food on my own, but not always, and not everything. I don't like it when it's done for me. What is important is the choice."
-ssh ""
+ssh "บางครั้งฉันก็เอามารวมกันเอง แต่ก็ไม่ได้ทำทุกครั้งหรอก แล้วก็ไม่ได้ทำกับทุกอย่างด้วย ฉันไม่ชอบเวลาที่มันรวมกัน\nให้เอง สิ่งสำคัญคือการได้เลือก"
 
 show shizu basic_normal
 with charachange
 
 # "She points decisively to emphasize it, and then breaks her chopsticks apart to eat her own meal."
-""
+"ชิซูเนะชี้นิ้วหนักแน่นเป็นการเน้นย้ำก่อนจะบิตะเกียบออกแล้วกินอาหารของตัวเองบ้าง"
 
 # "As I continue to eat, I notice two things. The first is that almost everything I'm eating besides the rice is fried. Even the vegetables are fried."
-""
+"ตอนที่กำลังกินก็สังเกตเห็นสองอย่าง อย่างแรกคือแทบทุกอย่างที่ฉันกินนั้นเป็นของทอดทั้งหมด ยกเว้นข้าวน่ะนะ\nแม้แต่ผักก็ทอด"
 
 # "And there's so much meat. Does she eat this kind of stuff all the time? I wonder how she manages to stay so thin in spite of it."
-""
+"แล้วแถมยังมีแต่เนื้อด้วย นี่กินของแบบนี้เป็นประจำเลยเหรอ ถ้าเป็นงั้นจริงแล้วทำไมไม่อ้วนเลย"
 
 # "The second thing I notice is that I can't talk to her while eating. Talking with your mouth full is a little rude anyway, but with our hands holding our chopsticks and bowls, communication between us is impossible. Just like yesterday."
-""
+"อย่างที่สองคือฉันจะคุยกับชิซูเนะตอนกินไม่ได้ การพูดทั้งที่ยังมีข้าวเต็มปากก็เสียมารยาทอยู่หน่อย ๆ อยู่แล้ว\nแต่มือของเราก็ต้องใช้ถือตะเกียบกับกล่องข้าว จึงทำให้การสื่อสารระหว่างเรานั้นเป็นไปไม่ได้เลยเหมือนอย่างเมื่อวาน"
 
 # "Even though we're spending time together, even though I took the time to learn sign language, it feels like I'm talking to her less. Despite that, it also feels like I'm understanding her more."
-""
+"ถึงจะได้ใช้เวลาอยู่ด้วยกัน ถึงฉันจะลงทุนเรียนภาษามือมาแล้ว ฉันกลับรู้สึกว่าได้คุยกับชิซูเนะน้อยลงอีก แต่แม้กระนั้น\nก็รู้สึกเหมือนกันว่าได้เข้าใจเธอมากขึ้น"
 
 stop music fadeout 4.0
 
@@ -4869,234 +4870,233 @@ show lilly cane_smileclosed at twoleft
 with charaenter
 
 # "I hear the sound of something tapping against one of the stands and look up to see Lilly standing off to my side, feeling her way around with her cane."
-""
+"พอหันไปมองตามเสียงที่เหมือนมีบางอย่างเคาะแผงหนึ่งที่ทำไว้ก็เห็นลิลลี่ที่ยืนอยู่ข้าง ๆ กำลังใช้ไม้เท้านำทางมา"
 
 # hi "Hi."
-hi ""
+hi "ไง"
 
 # "I narrowly catch myself before I can say “didn't see you there.”"
-""
+"เกือบหลุดปากพูดไปแล้วไงว่า “เมื่อกี้ไม่ทันเห็นเธอเลย”"
 
 show lilly cane_surprised
 with charachange
 
 # li "Oh, Hisao, is that you? I thought that I smelled something delicious cooking, and wondered who it might be."
-li ""
+li "อ้าว ฮิซาโอะเหรอจ๊ะ พอดีได้กลิ่นอะไรหอม ๆ น่ากินแล้วอยากรู้ว่าใครเอาข้าวมากินกันนะ"
 
 show shizu behind_frustrated
 with charachange
 
 # ssh "What is she saying?"
-ssh ""
+ssh "เธอว่าไง"
 
 play music music_happiness fadein 6.0
 
 # "It's hard to move my hands in parallel to saying something completely different to Lilly. This has to be why Misha just signs everything all the time. A bit sillier, but it seems like it would simplify things a lot."
-""
+"จะให้ขยับมือแปลความหมายเป็นอะไรที่ไม่เหมือนกับที่ลิลลี่พูดเลยนี่ยากแฮะ เพราะแบบนี้สินะมิช่าถึงได้แปล ๆ\nทุกอย่างไปเลย ถึงจะดูบ้าบอไปหน่อย แต่ก็น่าจะทำให้อะไร ๆ ง่ายขึ้นเยอะ"
 
 show shizu basic_happy
 with charachange
 
 # "Shizune tents her fingers delightedly at my translation, as if from hearing a joke."
-""
+"ชิซูเนะกางนิ้วมาชนกันอย่างสบายอารมณ์เมื่อได้เห็นที่ฉันแปลให้ราวกับว่าได้ฟังเรื่องตลก"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "All of this food was cooked hours ago, but for someone as slow as yourself, who can't even turn in a piece of paper without being a week late, I guess your perception of time would have to be a little different!"
-ssh ""
+ssh "ของพวกนี้ทำเมื่อไม่กี่ชั่วโมงที่แล้วเอง แต่การรับรู้เวลาของคนยืดยาดอย่างเธอที่ส่งเอกสารทีไรก็ต้องส่งช้า\nไปสัปดาห์หนึ่งตลอดคงไม่เหมือนกันอยู่แล้วแหละนะ!"
 
 # hi "That's… not very nice."
-hi ""
+hi "คำพูดคำจา… รุนแรงจังนะ"
 
 show lilly cane_displeased
 with charachange
 
 # "A frown crosses Lilly's face in response to a reply to something she didn't hear."
-""
+"ลิลลี่ขมวดคิ้วเป็นการตอบกลับประโยคที่เธอไม่ได้รับรู้ด้วย"
 
 # hi "Ah, sorry. I'm just having a late lunch here. The Student Council president cooked everything."
-hi ""
+hi "เอ่อ ขอโทษที พอดีกินข้าวเที่ยงเบี่ยงบ่าย ๆ อยู่น่ะ ประธานนักเรียนเขาทำเองหมดเลย"
 
 show lilly cane_reminisce
 with charachange
 
 # li "Is the Student Council president here right now?"
-li ""
+li "ประธานนักเรียนอยู่ด้วยเหรอ"
 
 # hi "She's right here."
-hi ""
+hi "อยู่ตรงนี้"
 
 show lilly cane_listen
 with charachange
 
 # li "I apologize, I didn't notice. Normally her level of presence is much higher. I was not aware that the Student Council serves lunch outdoors, why wasn't I invited? I think that it is good to have enough free time to be able to do things like this, however."
-li ""
+li "ขอโทษทีจ้ะ ไม่ทันสังเกตเลย ปกติรังสีของชิซูเนะจะชัดมาก ไม่รู้เลยว่าสภานักเรียนเขากินข้าวเที่ยงกันข้างนอกด้วย\nทำไมไม่ชวนฉันด้วยล่ะ แต่เอาเถอะ มีเวลาว่างมาทำอะไรแบบนี้บ้างก็ดีแล้วละจ้ะ"
 
 show shizu behind_frustrated
 with charachange
 
 # ssh "What is she saying?"
-ssh ""
+ssh "เธอว่าไง"
 
-# "…"
-""
+"…"
 
 show shizu basic_angry
 with charachange
 
 # ssh "If I were to invite you anywhere, you would just show up late."
-ssh ""
+ssh "ถ้าฉันชวนไปไหนเธอก็คงมาสายแหละ"
 
 # "But Shizune's words are outside of Lilly's perception, a fact that is by the second increasingly maddening to her."
-""
+"ทว่าลิลลี่ไม่อาจรับรู้คำตอบของชิซูเนะได้ ซึ่งยิ่งทำให้เจ้าตัวหงุดหงิดไปทุกขณะ"
 
 show shizu behind_frown
 with charachange
 
 # ssh "Translate for me completely, please."
-ssh ""
+ssh "โปรดแปลที่ฉันบอกไปให้หมดด้วย"
 
 # "What polite phrasing. It's a shame she's essentially asking me to let her fully release the dogs of war. Still, I can't just do nothing. The feeling of being unable to even respond and be understood is so isolating. She would never forgive me."
-""
+"ขอได้สุภาพเหลือเกินนะ น่าเสียดายที่คำขอที่ว่านั้นไม่ต่างอะไรกับการปล่อยระเบิดพลังทำลายล้างสูง แต่จะให้อยู่เฉย ๆ\nก็ไม่ได้ ความรู้สึกที่ไม่อาจตอบอะไรและไม่อาจให้อีกฝ่ายเข้าใจได้นั้นโดดเดี่ยวเหลือแสน คงไม่ให้อภัยแน่ ๆ"
 
 # "I'll just try to soften her words a little."
-""
+"เอาเป็นว่าลองลดความแรงของคำพูดหน่อยแล้วกัน"
 
 # hi "Well, actually, this was all cooked a while ago."
-hi ""
+hi "คือ จริง ๆ กับข้าวพวกนี้เพิ่งทำมาไม่นานนี้เอง"
 
 show lilly cane_weaksmile
 with charachange
 
 # li "Really? That's nice."
-li ""
+li "จริงเหรอจ๊ะ ดีแล้วจ้ะ"
 
 show shizu cross_angry
 with charachange
 
 # ssh "Turn over here, it's very disrespectful to not look at the person you're speaking to. That isn't the way a prim and proper lady should conduct herself."
-ssh ""
+ssh "หันมาทางนี้ คุยกับใครก็ต้องมองหน้าเขาสิ เสียมารยาทหมด กุลสตรีผู้เรียบร้อยไม่ควรทำตัวอย่างนี้นะ"
 
 # hi "Half of what I'm saying is really what Shizune is saying. She doesn't like it when people don't look in her direction when she's trying to make a point. She's, uh, to the right of my voice."
-hi ""
+hi "สิ่งที่ฉันจะบอกต่อไปนี้มีคำพูดชิซูเนะอยู่ครึ่งเดียวนะ ชิซูเนะไม่ชอบเวลาคนไม่มองตอนที่กำลังบอกหรืออธิบายอะไร\nชิซูเนะอยู่ตรง เอ่อ ขวามือถัดจากเสียงฉัน"
 
 # "Although in this case I can understand why Lilly wouldn't. This is a very awkward situation and it's daunting being the sole conduit for dialogue between the two of them."
-""
+"ถึงฉันจะเข้าใจก็เถอะว่าทำไมลิลลี่ไม่ยอมมองหน้า กระอักกระอ่วนแฮะ แถมลำบากอีกที่ต้องเป็นสื่อกลางคนเดียว\nให้สองคนนี้เนี่ย"
 
 # "Truthfully, I had forgotten what happened the last time they butted heads like this. It's clear Shizune remembers, and Lilly is being pretty hostile herself, in her own way."
-""
+"ว่าตามตรง ฉันลืมแล้วว่าครั้งล่าสุดที่สองคนนี้ปะทะกันอย่างนี้เกิดอะไรขึ้น ซึ่งชัดว่าชิซูเนะจำได้ ส่วนลิลลี่ก็ออกตัวแรง\nในแบบของเธอเหมือนกัน"
 
 show lilly cane_displeased
 with charachange
 
 # li "I'm sorry, such formalities slipped my mind completely. I forgot that the Student Council president is the type of person who would demand such respect and adherence to the rules at all times."
-li ""
+li "ขอโทษทีจ้ะ ลืมมารยาทที่ว่าไปเสียสนิทเลย ลืมว่าประธานนักเรียนเป็นคนที่ต้องให้คนเคารพทั้งคนทั้งกฎตลอดเวลา"
 
 show lilly cane_listen
 with charachange
 
 # li "I suppose student government requires you to keep a tight ship. Then again, she certainly has time for her own fun as well, so that must not be completely true."
-li ""
+li "การบริหารนักเรียนคงทำให้ต้องอยู่แบบเคร่งครัดมาก แต่ก็นะ ถ้ายังมีเวลามาเถลไถลแบบนี้ได้ก็แปลว่าคง\nไม่ใช่อย่างนั้นเสียทีเดียว"
 
 show shizu adjust_angry
 with charachange
 
 # ssh "Student Council is not a dictatorship, nor a zero-sum game!"
-ssh ""
+ssh "สภานักเรียนไม่ได้ใช้ระบอบเผด็จการหรือคิดแบบระบบเกมผลรวมเป็นศูนย์นะ!"
 
 play sound sfx_snap
 
 # "Shizune points at Lilly with her finger out like the barrel of a gun and snaps her fingers explosively, causing her to flinch and become visibly upset."
-""
+"ชิซูเนะชี้นิ้วใส่ลิลลี่ราวกับเอาปากกระบอกปืนจ่อก่อนจะดีดนิ้วเสียงดังลั่นจนลิลลี่สะดุ้งและทำสีหน้าไม่พอใจ"
 
 show lilly back_listen
 show lillyprop back_cane at twoleft
 with charachange
 
 # li "Is that so? Then that makes it more impressive that you have been a part of it for so long, playing it as though it were one. I admire the fact that you are so tenacious. To manage it all, you must be so responsible as well."
-li ""
+li "งั้นเหรอ ก็ยิ่งน่าประทับใจไปใหญ่เลย เพราะเธอก็เป็นสมาชิกคนหนึ่งที่ทำตัวเหมือนกับว่าเป็นแบบนั้นจริง ๆ\nขอชื่นชมเลยที่เธอทนทายาดเหลือแสน ทำได้ขนาดนี้แปลว่าเธอมีความรับผิดชอบสูงเหมือนกัน"
 
 show shizu behind_frown
 with charachange
 
 # ssh "Not as much as I would like to be. You can't complain about yourself, though, can you?"
-ssh ""
+ssh "ยังไม่สูงเท่าที่ตั้งเป้าไว้หรอก แต่เธอก็ไม่ต่างกันนี่ ใช่ไหม"
 
 show shizu cross_rage
 with charachange
 
 # ssh "You're very responsible; actions like requesting a deadline to be extended and then running all the way through to the next deadline? That's the very model of responsibility!"
-ssh ""
+ssh "เธอมีความรับผิดชอบสูงมาก อะไรนะ มาขอให้เลื่อนกำหนดส่งแล้วก็อืดอาดจนถึงเวลากำหนดส่งที่ขอเลื่อนไว้ค่อยส่ง\nนี่แหละแบบอย่างของคนมีความรับผิดชอบเลย!"
 
 # hi "Shizune is happy to hear that. But, apparently you're pretty responsible yourself, she says."
-hi ""
+hi "ชิซูเนะขอบคุณที่ชม แต่เหมือนว่าเธอเองก็มีความรับผิดชอบด้วยเหมือนกัน ว่างั้น"
 
 show lilly cane_surprised
 hide lillyprop
 with charachange
 
 # li "Does she really?"
-li ""
+li "ว่าอย่างนั้นจริงเหรอ"
 
 # hi "More or less…"
-hi ""
+hi "ก็ว่างั้นจริง…"
 
 # "Lilly doesn't seem very happy."
-""
+"ลิลลี่ดูจะไม่ยินดีสักเท่าไหร่"
 
 # hi "We're not holding a cookout, we're just taking a little lunch break. We're actually out here building stalls for the festival."
-hi ""
+hi "แต่เราไม่ได้มาทำกับข้าวกินข้างนอกด้วยนะ แค่พักกินข้าวเที่ยงกันเฉย ๆ ที่ออกมานี่ก็มาทำแผงสำหรับงานเทศกาล\nครั้งถัดไปน่ะ"
 
 show shizu behind_frown
 with charachange
 
 # ssh "You wouldn't know, since you never go outside. Did you run out of tea?"
-ssh ""
+ssh "คนไม่เคยออกไปไหนอย่างเธอคงไม่รู้สินะ ชาหมดแล้วเหรอ"
 
 # hi "Are you going into town? Shopping?"
-hi ""
+hi "จะไปเข้าเมืองเหรอ ไปซื้อของหรือเปล่า"
 
 show lilly back_devious
 show lillyprop back_cane at twoleft
 with charachange
 
 # li "No. As I said before, I was just passing by, in case you did not hear. I would hate to interrupt the Student Council president. You're not doing anything now, but you must both be very busy."
-li ""
+li "เปล่าจ้ะ อย่างที่บอกนั่นแหละว่าฉันแค่เดินผ่านมาเฉย ๆ ย้ำเผื่อไม่ได้ยินนะ ฉันไม่อยากมารบกวนประธานนักเรียนหรอก\nถึงตอนนี้จะไม่ได้ทำอะไร แต่พวกเธอคงจะยุ่งกันมาก"
 
 show lilly cane_listen
 hide lillyprop
 with charachange
 
 # li "In any case, Hisao, I'm sure that the Student Council president will be able to find or make work for the both of you if she needs to."
-li ""
+li "แต่ยังไงก็เถอะนะจ๊ะฮิซาโอะ ฉันมั่นใจว่าประธานนักเรียนคงหาหรือสร้างงานมาให้ทำกันได้ถ้าจำเป็นจริง ๆ"
 
 show shizu cross_rageclosed
 with charachange
 
 # ssh "I'll devour you!"
-ssh ""
+ssh "ฉันจะเขมือบหัวเธอ!"
 
 # hi "Yeah, very busy."
-hi ""
+hi "อืม ยุ่งมากเลย"
 
 # "“Devour” is a hard word. I'm pleased that I can read it. This isn't time to celebrate, though, not over that. Instead, it looks like they might stop squabbling. I would drink to that."
-""
+"คำว่า “เขมือบ” เป็นคำยาก ฉันนึกดีใจที่อ่านออก แต่ตอนนี้ไม่ใช่เวลาจะมาฉลองกับเรื่องนั้น ไอ้ที่น่าชนแก้วฉลองน่ะ\nคือเรื่องที่ว่าสองคนนี้เหมือนจะเลิกกัดกันแล้วต่างหาก"
 
 show lilly cane_listen
 with charachange
 
 # li "Have a nice day, Hisao. Goodbye, Student Council president."
-li ""
+li "ขอให้เป็นวันที่ดีนะจ๊ะฮิซาโอะ ลาก่อนนะประธานนักเรียน"
 
 # hi "Thanks, you too."
-hi ""
+hi "ขอบใจ เธอก็ด้วยนะ"
 
 show shizu basic_frown
 with charachange
 
 # ssh "Stay classy."
-ssh ""
+ssh "ทำตัวสูงส่งเข้าไว้ล่ะ"
 
 hide lilly
 with charaexit
@@ -5108,13 +5108,13 @@ with dissolvecharamove
 stop music fadeout 4.0
 
 # "As soon as Lilly leaves, Shizune dives into the remains of her lunch as quickly as possible, as if each bite she shovels away is a means to forgetting any of this ever happened."
-""
+"ทันทีที่ลิลลี่ปลีกตัวไปชิซูเนะก็กลับมาจ้วงข้าวกินต่อด้วยความรวดเร็วราวกับว่าแต่ละคำคือการช่วยให้ลืม\nเหตุการณ์เมื่อครู่ให้หมดสิ้น"
 
 hide shizu
 with charaexit
 
 # "When she is done, she heads right back to hammering with the same mindset. It's good that she's working off her frustration, but now it doesn't look like she is in any mood to talk any more."
-""
+"พอกินเสร็จก็กลับไปทำงานลงค้อนต่อด้วยอารมณ์เดิม ก็ดีอยู่หรอกที่ระบายความหงุดหงิดได้ แต่ตอนนี้เหมือน\nไม่มีอารมณ์จะคุยแล้วเลย"
 
 show bg school_gardens2_ss
 with shorttimeskip
@@ -5122,56 +5122,56 @@ with shorttimeskip
 play music music_tranquil fadein 3.0
 
 # "About two hours later, she stops, having mowed through the rest of the stalls nonstop in that time."
-""
+"สองชั่วโมงผ่านไปชิซูเนะก็หยุดเมื่อไล่จัดการแผงที่เหลืออยู่จนหมดแล้ว"
 
 # "It still feels hard to approach her, and I think about how easily a conversation can die. After it took so long to be able to get her alone and speak to her directly, it almost hurts."
-""
+"แต่ก็ยังไม่ค่อยกล้าคุยด้วยเท่าไหร่อยู่ดี แล้วก็นึกขึ้นมาว่าบทมันจะไม่คุยกันก็ไม่คุยกันไปอย่างนี้เลย อุตส่าห์รอเวลา\nที่จะได้อยู่ด้วยกันสองต่อสองมาคุยกันตรง ๆ อย่างนี้แล้วแท้ ๆ แอบเจ็บปวดอยู่เหมือนกัน"
 
 show shizu basic_normal_ss at center
 with charaenter
 
 # ssh "Your translation was good."
-ssh ""
+ssh "แปลดีนะ"
 #After seeing the Bad End, I'm calling this a hint left for players to figure out that yes, Shizune can read lips. -SC
 
 # his "Really?"
-his ""
+his "จริงเหรอ"
 
 show shizu adjust_happy_ss
 with charachange
 
 # ssh "First class!"
-ssh ""
+ssh "เป็นแนวหน้าเลย!"
 
 # "She punctuates it with a thumbs up."
-""
+"ชิซูเนะยกนิ้วโป้งย้ำ"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "…For your level."
-ssh ""
+ssh "…ถ้าเทียบกับคนกลุ่มเดียวกันกับนาย"
 
 show shizu basic_normal_ss
 with charachange
 
 # ssh "There aren't many deaf people in the school, and sign language classes have been on the edge of getting cut for a while now. I'm sure you don't have many classmates, am I right?"
-ssh ""
+ssh "โรงเรียนนี้ไม่ค่อยมีคนหูหนวกเท่าไหร่ วิชาภาษามือก็อยู่ในสภาพร่อแร่ใกล้ปิดมาสักพักแล้ว ในห้องคง\nไม่ค่อยมีคนเรียนด้วยเลยใช่ไหม"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "If you're only learning sign language now, your speed is going to be limited. That is why interest in it wanes, because it takes more effort than normal just to communicate. I imagine it's the same with all languages."
-ssh ""
+ssh "ถ้ามาเรียนภาษามือเอาป่านนี้ก็จะเรียนรู้ได้ช้าพอสมควร เพราะแบบนี้คนที่สนใจถึงได้มีน้อยลงเรื่อย ๆ แค่จะสื่อสารกัน\nก็ต้องใช้ความคิดมากกว่าปกติ ภาษาอื่น ๆ ก็คงเป็นอย่างนี้เหมือนกัน"
 
 show shizu basic_normal2_ss
 with charachange
 
 # ssh "In such a situation, conversations in sign language are less … than they would inherently be to start with."
-ssh ""
+ssh "พอเป็นแบบนี้แล้ว บทสนทนาภาษามือที่จะเกิดขึ้นมาตาม … ก็จะลดน้อยลงไปด้วย"
 
 # his "I don't understand that word. Less what?"
-his ""
+his "ฉันอ่านคำนั้นไม่ออก ตามอะไรนะ"
 
 show shizu behind_blank_ss
 with charachange
@@ -5180,16 +5180,16 @@ show shizu basic_normal2_ss
 with charachange
 
 # ssh "Sp—{w=0.2}on—{w=0.2}ta—{w=0.2}ne—{w=0.2}ou—{w=0.2}s."
-ssh ""
+ssh "ธ—{w=0.2}รร—{w=0.2}ม—{w=0.2}ช—{w=0.2}า—{w=0.2}ติ"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "Misha is the only person who can really capture it."
-ssh ""
+ssh "คนที่ถ่ายทอดได้จริง ๆ มีแค่มิช่าแหละ"
 
 # his "Yeah, that's definitely true."
-his ""
+his "อืม ก็จริงนะ"
 
 show shizu behind_sad_ss
 with charachange
@@ -5198,97 +5198,97 @@ show shizu behind_blank_ss
 with charachange
 
 # "Her expression changes for a second, and changes back too quickly to digest, but I get the feeling that this isn't meant to be pursued."
-""
+"สีหน้าชิซูเนะเปลี่ยนไปแวบหนึ่ง ก่อนจะเปลี่ยนกลับโดยที่ฉันไม่ทันได้ประมวลผล แต่รู้สึกว่าคงจะเป็นเรื่องที่ไม่ควร\nไปซักไซ้"
 
 # "What I really want to know about is…"
-""
+"ที่อยากรู้จริง ๆ คือ…"
 
 # his "Why do you and Lilly fight so much?"
-his ""
+his "ทำไมเธอถึงทะเลาะกันกับลิลลี่บ่อยขนาดนั้น"
 
 show shizu basic_frown_ss
 with charachange
 
 # "Tensing a little and visibly frowning, Shizune tents her fingers and overlays them repeatedly as if shuffling an invisible deck of cards."
-""
+"ชิซูเนะเกร็งเล็กน้อยพร้อมขมวดคิ้วอย่างเห็นได้ชัดพลางเอานิ้วมาประกบกันแล้ววางซ้อนกันไปมาราวกับกำลัง\nสับไพ่ล่องหนอยู่"
 
 show shizu behind_frustrated_ss
 with charachange
 
 # ssh "Two fights that you know of aren't worth calling “so much.” If you had been here last year you could say that."
-ssh ""
+ssh "สองรอบในการรับรู้นายนี่นับว่า “บ่อย” ไม่ได้หรอกนะ ถ้าปีที่แล้วนายอยู่ด้วยก็คงว่างั้นได้อยู่หรอก"
 
 # his "I heard it was a rough year. Something about how you tried to institute a badge policy."
-his ""
+his "ได้ยินมาว่าเป็นปีที่หนักน่าดู เรื่องที่ว่าเธอจะใช้นโยบายเหรียญตรานั่นอีก"
 
 show shizu cross_wut_ss
 with charachange
 
 # his "Ha ha, surprised? Well, I want to hear more about that later, definitely, but… you don't like Lilly very much, do you? Don't dodge my question."
-his ""
+his "ฮะฮะ แปลกใจสินะ เอาเถอะ แน่ละว่าเดี๋ยวอยากคุยเรื่องนั้นอยู่เหมือนกัน แต่… เธอไม่ชอบลิลลี่มาก ๆ เลยใช่ไหม\nห้ามเลี่ยงคำถามนะ"
 
 show shizu behind_frustrated_ss
 with charachange
 
 # ssh "I'm not dodging anything."
-ssh ""
+ssh "ฉันไม่ได้เลี่ยงอะไรสักหน่อย"
 
 show shizu basic_angry_ss
 with charachange
 
 # ssh "She was part of the Student Council until last year. We didn't get along very well. She wanted to keep doing things like the old Student Council did. The old Student Council was just so ineffectual. It was stupid, and insulting."
-ssh ""
+ssh "ลิลลี่เป็นสมาชิกสภานักเรียนมาจนถึงรุ่นปีที่แล้ว เราเข้ากันไม่ค่อยได้ ลิลลี่อยากจะทำงานเหมือนอย่างรุ่นที่แล้วทำ\nซึ่งสภานักเรียนรุ่นที่แล้วน่ะไม่มีประสิทธิภาพเลย โง่งมจนน่าโมโห"
 
 show shizu behind_frown_ss
 with charachange
 
 # ssh "I wanted to do more, and we had a fight."
-ssh ""
+ssh "ฉันอยากจะลงแรงให้มากกว่านั้นอีก แล้วเราก็ทะเลาะกัน"
 
 show shizu basic_frown_ss
 with charachange
 
 # ssh "A lot of fights."
-ssh ""
+ssh "หลายครั้งด้วย"
 
 show shizu adjust_angry_ss
 with charachange
 
 # ssh "She couldn't do anything on time."
-ssh ""
+ssh "ลิลลี่ไม่เคยทำอะไรตรงเวลาเลย"
 
 show shizu behind_frustrated_ss
 with charachange
 
 # ssh "Then, she said that what I wanted to do was meaningless, just extra busywork. Does this look like meaningless busywork to you?"
-ssh ""
+ssh "แล้วก็มาบอกกันว่าสิ่งที่ฉันอยากทำน่ะไร้ความหมาย เพิ่มงานให้ยุ่งยากไปอีก ซึ่งเนี่ยเหรอที่ว่างานยุ่งยาก\nไร้ความหมาย"
 
 # "Shizune gestures around us."
-""
+"ชิซูเนะผายมือไปรอบ ๆ"
 
 show shizu basic_frown_ss
 with charachange
 
 # ssh "What's really meaningless is a Student Council that doesn't do anything. Weak, lazy, and boring. Especially boring!"
-ssh ""
+ssh "ที่ไร้ความหมายจริง ๆ น่ะคือสภานักเรียนที่ไม่ทำอะไรเลยต่างหาก อ่อนด้อย ขี้เกียจ น่าเบื่อ น่าเบื่อน่ะ\nประเด็นเลย!"
 
 show shizu adjust_angry_ss
 with charachange
 
 # ssh "I couldn't get excited over sitting in a room with nothing to do, that's just a waste of time. Why would I even be there? It didn't get my blood flowing. Arguing with her does that!"
-ssh ""
+ssh "ให้นั่งอยู่ในห้องเฉย ๆ ไม่ทำอะไรเลยนี่มันน่าตื่นเต้นตรงไหน เปลืองเวลาเปล่า ๆ ให้มาทำอะไร อยู่แบบนี้แล้วเลือด\nมันไม่สูบฉีดเลย ทะเลาะกับลิลลี่สิถึงค่อยตื่นตัวหน่อย!"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "If she could have been that motivated before, she wouldn't have to put so much dedication into being my enemy. But if she shows that much spirit, it's not a complete loss. At least it's something! It's still exciting."
-ssh ""
+ssh "ถ้าก่อนหน้านั้นลิลลี่กระตือรือร้นอยากทำหน้าที่จริง ๆ ก็คงไม่ทุ่มเทกับการทำตัวเป็นปฏิปักษ์กับฉันอย่างนี้หรอก\nแต่การแสดงจิตวิญญาณออกมาให้เห็นขนาดนั้นก็นับว่าเป็นประโยชน์อยู่แหละนะ ก็ยังดี! น่าตื่นเต้นเหมือนกัน"
 
 # his "I see."
-his ""
+his "อย่างนี้นี่เอง"
 
 # his "And what about the badge thing?"
-his ""
+his "แล้วเรื่องเหรียญตรานั่นล่ะ"
 
 show shizu adjust_happy_ss
 with charachange
@@ -5296,19 +5296,19 @@ with charachange
 stop music fadeout 4.0
 
 # "She laughs, covering her mouth with her hand as if to hide it. Her laughter is the only thing she regularly tries to hide."
-""
+"ชิซูเนะหัวเราะยกมือป้องปากปกปิด อย่างเดียวที่เธอจะคอยปิดไว้คือการหัวเราะของตัวเอง"
 
 show shizu behind_smile_ss
 with charachange
 
 # ssh "That was just a joke."
-ssh ""
+ssh "อันนั้นพูดเล่นเฉย ๆ"
 
 show shizu adjust_happy_ss
 with charachange
 
 # ssh "Having a little fun sometimes is important, too."
-ssh ""
+ssh "บางครั้งคนเราก็ต้องมีการเล่นสนุกบ้าง"
 
 stop ambient fadeout 0.5
 
