@@ -3790,7 +3790,7 @@ scene bg school_lobby_ss
 with locationchange
 
 # "After Student Council is adjourned for the day, I walk towards the vending machines to look for something to drink, parting from Shizune and Misha. It's a short trip, but after even just a few seconds I start to get the feeling I'm not alone."
-"พอเลิกสภานักเรียนแล้วฉันก็ปลีกตัวจากชิซูเนะกับมิช่าเดินมาที่ตู้ขายของแบบหยอดเหรียญหมายจะหาอะไรดื่ม\nถึงจะเดินมาไม่ไกล แต่ผ่านไปไม่กี่วินาทีก็รู้สึกเหมือนมีใครตามมาด้วย"
+"พอถึงเวลาสลายตัวของสมาชิกสภานักเรียนแล้วฉันก็ปลีกตัวจากชิซูเนะกับมิช่าเดินมาที่ตู้ขายของแบบหยอดเหรียญ\nหมายจะหาอะไรดื่มถึงจะเดินมาไม่ไกล แต่ผ่านไปไม่กี่วินาทีก็รู้สึกเหมือนมีใครตามมาด้วย"
 
 scene black
 with hands_in
@@ -5325,21 +5325,21 @@ with locationchange
 play music music_normal fadein 0.5
 
 # "The next day, I end up having to hunt around a bit at the start of lunch when I find that my usual vending machine near the dormitory buildings is sold out of my usual favorite canned coffee. The detour takes longer than I expected."
-""
+"วันถัดมาฉันต้องไปเดินตระเวนเล็กน้อยช่วงก่อนจะไปกินข้าวเที่ยงเมื่อเห็นว่ากาแฟกระป๋องที่ดื่มประจำในตู้ขายของ\nแบบหยอดเหรียญที่อยู่ข้างหอนั้นหมด ต้องเดินอ้อมมาจนใช้เวลานานกว่าที่คาดเอาไว้"
 
 scene bg school_gardens
 with locationchange
 
 # "Things have been so hectic lately that it takes some time for me to register why something smells different as I walk through the school gardens back to the cafeteria. The grass has been freshly mowed."
-""
+"ช่วงนี้อะไรหลายอย่างวุ่นวายจนสมองฉันไม่ทันรับรู้ว่าทำไมถึงได้กลิ่นแปลก ๆ ตอนที่เดินผ่านสวนในโรงเรียนเพื่อกลับ\nไปที่โรงอาหาร เขาเพิ่งตัดหญ้าใหม่นี่เอง"
 
 # "The realization makes me pause and watch for a bit. The odd group of students chatting or playing around on the grass and a couple of teachers conversing on the path ahead make for a very idyllic scene."
-""
+"เมื่อเห็นดังนั้นฉันจึงหยุดเดินแล้วกวาดตามอง มีนักเรียนจับกลุ่มกันอยู่สองสามที่ บ้างก็คุยกัน บ้างก็เล่นสนุกอยู่\nกับสนามหญ้า มีครูสองคนที่เดินไปคุยไปอยู่ตรงทางเดินข้างหน้า เหล่านี้ช่างเป็นภาพที่งดงาม"
 
 stop music fadeout 2.0
 
 # "Unfortunately, a feeling of imminent dread starts creeping up on me after a while. The feeling that I'm not alone."
-""
+"โชคไม่ดีที่ผ่านไปได้สักพักก็สัมผัสได้ถึงภัยอันตรายที่คืบคลานเข้ามา สัมผัสได้ว่าฉันไม่ได้อยู่ตัวคนเดียว"
 
 play music music_kenji fadein 0.5
 
@@ -5347,183 +5347,183 @@ show kenji neutral at center
 with charaenter
 
 # ke "Hey, Hisao, is that you?"
-ke ""
+ke "ไง ฮิซาโอะ นั่นนายหรือเปล่า"
 
 # hi "Yeah, it's me."
-hi ""
+hi "อืม ฉันเอง"
 
 # "I guess I should be happy it's him and not, say, a slasher. Kenji begins talking as if he's having a conversation with someone other than me."
-""
+"ก็นับว่ายังดีละมั้งที่เป็นเคนจิ ไม่ใช่มือมีดหรืออะไรทำนองนั้น เคนจิเริ่มพูดราวกับว่าสนทนากับใครก็ไม่รู้ที่ไม่ใช่ฉัน"
 
 show kenji happy
 with charachange
 
 # ke "Knew it. That haircut is unmistakable. No normal person would have a haircut like that."
-ke ""
+ke "ว่าแล้ว ทรงผมเด่นมาแต่ไกล คนปกติเขาไม่ตัดผมทรงนั้นกันหรอก"
 
 # "Unconsciously, I start touching the back of my head. Once I realize what I'm doing, I feel insulted, yet too surprised to even get indignant about it."
-""
+"มือฉันไปจับท้ายทอยโดยอัตโนมัติ พอรู้ตัวว่ามือขยับไปก็รู้สึกหงุดหงิดขึ้นมา แต่ก็โกรธไม่ได้เต็มที่เพราะยังตกใจอยู่"
 
 # hi "Yeah… What are you doing here?"
-hi ""
+hi "เออ… แล้วมาทำอะไรที่นี่"
 
 show kenji neutral
 with charachange
 
 # ke "Measuring the temperature."
-ke ""
+ke "มาวัดอุณหภูมิ"
 
 show kenji happy
 with charachange
 
 # ke "Winter will come soon. It will be too cold for women to go out and have their Sex and the City-style power lunches, followed by obstructive human wave formation walks in crowded urban areas."
-ke ""
+ke "เดี๋ยวก็จะฤดูหนาวแล้ว ซึ่งเป็นฤดูที่อุณหภูมิจะต่ำเกินกว่าที่พวกผู้หญิงไปประชุมกินข้าวเที่ยงกันข้างนอก\nอย่างในหนังเรื่อง{i}เซ็กส์ แอนด์ เดอะ ซิตี้{/i}แล้วไปเดินจับกลุ่มเกะกะคนอื่นในเมืองอันเนืองแน่นได้"
 
 # ke "When this happens, man will be able to walk the streets unfettered once again, and reclaim what is his heritage."
-ke ""
+ke "พอเป็นอย่างนี้แล้วพวกผู้ชายก็จะเดินตามท้องถนนได้อย่างไร้ขีดจำกัดใด ๆ และทวงคืนสิ่งซึ่งเป็นสมบัติของตัวเองได้"
 
 show kenji neutral
 with charachange
 
 # ke "In order to prepare for that day, I've been eating nothing but pizzas for the past week, to store energy."
-ke ""
+ke "และฉันเตรียมการรอวันนั้นด้วยการกินแต่พิซซ่ามาตลอดหนึ่งสัปดาห์ที่ผ่านมาเพื่อกักตุนพลังงานไว้"
 
 # hi "Okay."
-hi ""
+hi "โอเค"
 
 # hi "That's what bears do."
-hi ""
+hi "มีแต่หมีนะที่ทำอย่างนั้น"
 
 show kenji happy
 with charachange
 
 # ke "So? There is much we can learn from the bear."
-ke ""
+ke "แล้วไง หมีน่ะมีอะไรให้เอาอย่างเยอะแยะ"
 
 # "Kenji nods, emphatically agreeing with himself."
-""
+"เคนจิพยักหน้าเน้นย้ำเห็นด้วยกับตัวเอง"
 
 show kenji neutral
 with charachange
 
 # ke "Okay, so check this shit out: I was in town today, buying milk. They had a new clerk, some hipster girl with a baseball cap with two hockey sticks on it. I'll call her hipster hockey baseball hat girl."
-ke ""
+ke "โอเค มีอะไรจะเล่า วันนี้ฉันไปเข้าเมืองซื้อนมมา ที่ร้านมีพนักงานคนใหม่ เป็นผู้หญิงแนว ๆ ใส่หมวกเบสบอล\nที่มีลายเป็นไม้ฮ็อกกี้สองอัน ขอเรียกว่ายัยแนวหมวกฮ็อกกี้"
 
 # ke "I noticed the milk didn't have a price tag, so I told her to get over there and label that milk, for future generations."
-ke ""
+ke "ฉันเห็นว่านมไม่ได้ติดป้ายราคาเลยเรียกให้มาติดราคาเผื่อคนรุ่นหลังให้หน่อย"
 
 # "He was in town today? He must have cut his morning classes. I want to scold him, but his verbal torrent prevents me from getting a word in."
-""
+"วันนี้เคนจิไปเข้าเมืองมาเหรอ แปลว่าต้องโดดเรียนช่วงเช้าแน่ ๆ อยากจะด่าอยู่นะ แต่ฉันก็ฝ่ากระแสคำพูด\nอันเชี่ยวกรากของเขาไม่ได้เลย"
 
 show kenji tsun
 with charachange
 
 # ke "She told me not to bother her, because she was sick. Sick? Sick!? We live in a society, here. You can't just opt out of human interaction because you're sick. Do you know how much effort it takes me to even get up in the morning?"
-ke ""
+ke "ยัยนั่นบอกว่าอย่ามากวน พอดีไม่สบาย ไม่สบาย? ไม่สบาย!? นี่สังคมเป็นอะไรกันไปแล้ว ไม่สบายไม่ได้แปลว่า\nจะปฏิสัมพันธ์กับคนอื่นไม่ได้นะ รู้มั้ยว่าเช้านี้ฉันต้องออกแรงแค่ไหนกว่าจะแงะตัวเองออกจากเตียงได้"
 
 show kenji rage
 with charachange
 
 # ke "I still do, though, and I got up that morning to go down there and buy milk, not to have my vital questions just brushed aside by some hipster doofus college girl who wears a {b}hockey baseball cap{/b} to work. {b}Indoors{/b}."
-ke ""
+ke "แต่เช้านั้นฉันก็ตื่นอยู่ดีอะนะ ซึ่งฉันตื่นมาเพื่อมาซื้อนมที่ร้าน ไม่ใช่เพื่อมาให้ยัยเด็กแนวงี่เง่าเรียนมหา’ลัยที่ใส่\n“หมวกเบสบอล” มาทำงาน “ในร่ม” เมินคำถามสำคัญของฉันอย่างนั้น"
 
 show kenji tsun
 with charachange
 
 # ke "Anyway, I was just trying to uphold the integrity of her products. A milk carton without a price tag? When I see something like that, it just leads to questions. Important questions. It's her job to answer them, dammit."
-ke ""
+ke "แต่นั่นแหละ ฉันแค่จะรักษาความดีพร้อมของสินค้าของยัยนั่นก็เท่านั้นเอง กล่องนมไม่ติดป้ายราคาเนี่ยนะ พอฉัน\nเห็นอะไรอย่างนั้นแล้วจะตั้งคำถาม คำถามสำคัญด้วย และหน้าที่ของยัยนั่นคือการตอบคำถามที่ว่า ปัดโธ่"
 
 # ke "That's the problem with women, they have no sense of duty."
-ke ""
+ke "นี่แหละคือข้อเสียของผู้หญิง ผู้หญิงน่ะไม่มีความรับผิดชอบ"
 
 show kenji neutral
 with charachange
 
 # ke "I get diarrhea a lot, but you don't see me complaining about it. I soldier on and do what I have to do anyway, because that's what being a man is all about. Even if you have diarrhea, you keep going, for the dream of a better tomorrow."
-ke ""
+ke "ฉันท้องเสียบ่อย ๆ แต่นายก็ไม่เคยเห็นฉันบ่นเลยใช่ไหม ฉันกัดฟันทำหน้าที่ของตัวเองต่อไป นี่แหละคือ\nความเป็นชายชาตรี ต่อให้จะท้องเสียก็ต้องเดินหน้าต่อไป เพื่อวันข้างหน้าที่ดีกว่า"
 
 # hi "You know, frequent diarrhea is bad."
-hi ""
+hi "เอ่อ ท้องเสียบ่อย ๆ มันไม่ดีนะ"
 
 # hi "Maybe you should stop drinking so much milk."
-hi ""
+hi "เพลา ๆ การดื่มนมของนายบ้างก็ดี"
 
 # ke "I can't do that, it's what allows me to maintain my awesome strength. And in this world… a man's strength is the only thing that can't be browbeaten out of him by an increasingly pussywhipped society."
-ke ""
+ke "ไม่ได้หรอก การดื่มนมน่ะทำให้ฉันสดใสแข็งแรง ยิ่งทุกวันนี้… ลูกผู้ชายจะปล่อยให้สังคมที่{i}นม{/i}ชักจะ\nเป็นใหญ่เรื่อย ๆ กดทับจนพลังของตัวเองจนหมดสิ้นไม่ได้"
 
 show kenji happy
 with charachange
 
 # ke "That's why I walk around leaving open jars of olives everywhere. Sometimes just to show that I can."
-ke ""
+ke "นี่แหละฉันถึงได้วางโหลมะกอกที่เปิดฝาแล้วไว้ทั่วห้อง เพื่อแสดงให้เห็นว่าฉันทำแบบนี้ก็ได้นะ"
 
 # hi "Do you refrigerate after opening?"
-hi ""
+hi "นี่เปิดฝาแล้วเก็บเข้าตู้เย็นหรือเปล่า"
 
 show kenji tsun
 with charachange
 
 # ke "What? Man, I don't know, that's not important."
-ke ""
+ke "ฮะ? โถ่ จะไปรู้เหรอ ไม่สำคัญหรอก"
 
 # hi "You have to refrigerate after opening. Even elementary school kids know that."
-hi ""
+hi "เปิดฝาแล้วก็ต้องแช่ตู้เย็นสิ เด็กอนุบาลยังรู้เลย"
 
 show kenji neutral
 with charachange
 
 # ke "They can't get the jar open in the first place, so it doesn't matter."
-ke ""
+ke "แล้วเด็กอนุบาลเปิดฝาโหลได้ที่ไหน พูดอะไรไร้สาระ"
 
 # hi "Ah, that's true."
-hi ""
+hi "เออ ก็จริง"
 
 show kenji happy
 with charachange
 
 # ke "I'm a genius."
-ke ""
+ke "ฉันมันอัจฉริยะ"
 
 # "He self-assuredly rubs his chin, which is something I imagined scientists did, until I met Mutou and was tremendously let down."
-""
+"เคนจิลูบคางยอตัวเอง ซึ่งเป็นท่าที่ฉันคิดว่านักวิทยาศาสตร์คงทำกัน จนกระทั่งได้มาเจอกับครูมุโต้และต้องเป็นอัน\nผิดหวังอย่างแรงไป"
 
 show kenji neutral
 with charachange
 
 # ke "Anyway, I can't go to that store again, since it's clearly been compromised by bitches. Unless… I disguise myself. Maybe change to a different pair of glasses."
-ke ""
+ke "แต่นั่นแหละ ฉันจะไปที่ร้านนั้นซ้ำสองไม่ได้แล้ว เพราะชัดว่าเป็นร้านที่ไม่สมบูรณ์เพราะมียัยพวกนี้อาศัยอยู่\nเว้นเสียแต่ว่า… ฉันจะพรางตัวเข้าไป อาจจะเปลี่ยนแว่นเอา"
 
 # hi "Worst disguise ever."
-hi ""
+hi "โคตรจะไม่เนียน"
 
 show kenji tsun
 with charachange
 
 # ke "Pffft, it's been working flawlessly all these years. I don't even need glasses to see. They're for effect. Also, to protect my identity. I'm like Superman."
-ke ""
+ke "หึ วิธีนี้น่ะเนียนมาก ฉันใช้มาหลายปีแล้ว ที่จริงฉันไม่ต้องใส่แว่นก็มองเห็น ที่ใส่นี่ก็เอาเท่เฉย ๆ หรอก แล้วก็ใส่\nเพื่อปกปิดตัวตนด้วย เหมือนซูเปอร์แมนไง"
 
 # hi "Worst disguise ever."
-hi ""
+hi "โคตรจะไม่เนียน"
 
 show kenji happy
 with charachange
 
 # ke "I'm telling you, when people see my school ID, they can't even recognize me."
-ke ""
+ke "จะบอกอะไรให้ ตอนคนอื่นเห็นรูปในบัตรนักเรียนฉันยังไม่รู้เลยว่าเป็นฉัน"
 
 # hi "Really? Let me see."
-hi ""
+hi "จริงดิ ไหนขอดูหน่อย"
 
 show kenji neutral
 with charachange
 
 # ke "Can't do that. I can't go around showing my ID to everyone. It was made long ago. In a different time. I had hippie hair."
-ke ""
+ke "ไม่ได้เว้ย จะให้ฉันเที่ยวเอาบัตรนักเรียนให้ใครต่อใครดูได้ไง บัตรมันออกนานแล้ว คนละยุคกัน ตอนนั้นฉันผมยาว"
 
 stop music fadeout 2.0
 
 # "While I'm trying to imagine that, Kenji takes his glasses off."
-""
+"ระหว่างที่กำลังนึกภาพตามเคนจิก็ถอดแว่นออก"
 
 $ ksgallery_unlock("evul kenji_glasses_closed")
 scene evbg kenji_glasses:
@@ -5541,54 +5541,54 @@ play music music_friendship
 #yeah I'm making a joke here
 
 # "He squints as soon as they're off his face, which makes him look even more tired than he already does. He was right; he does look very different. Kind of like he hasn't slept in years. Not different enough for it to be a good disguise, though."
-""
+"เคนจิหรี่ตาทันทีที่ถอดแว่น ซึ่งยิ่งทำให้สภาพดูอิดโรยหนักเข้าไปอีก จริงอย่างที่เขาว่า พอถอดแว่นแล้วดู\nไม่เหมือนเดิมเลย เหมือนอดนอนมาสองสามปีได้ แต่ก็ไม่ได้ต่างถึงขั้นจะพรางตัวได้เนียนอะนะ"
 
 # hi "You need more sleep."
-hi ""
+hi "นอนบ้างเถอะ"
 
 $ ksgallery_unlock("evul kenji_glasses_frown")
 show evmg kenji_glasses_frown at kenji_mg_out
 with charachange
 
 # ke "Nah."
-ke ""
+ke "ไม่อะ"
 
 # hi "You look like you need it."
-hi ""
+hi "สภาพอย่างนายนี่ควรนอนนะ"
 
 $ ksgallery_unlock("evul kenji_glasses_normal")
 show evmg kenji_glasses_normal at kenji_mg_out
 with charachange
 
 # ke "No way. These are just the eyes of a man who has seen things. A shaman's eyes. Terrible things, that you can't imagine."
-ke ""
+ke "ไม่ได้ นี่น่ะคือตาของคนที่เห็นอะไรมาแล้วหลายอย่าง ตาหมอผี ตาที่เห็นอะไรเลวร้ายเกินจินตนาการนาย"
 
 # ke "Like when I made a ship in a bottle and my mom sat on it. There was blood and shreds of floral print everywhere. That's what life experience is."
-ke ""
+ke "อย่างตอนที่ฉันทำเรือในขวดแล้วแม่นั่งทับ ทั้งเลือดทั้งลายดอกหล่นเกลื่อน นี่แหละประสบการณ์ชีวิต"
 
 # "Kenji doesn't seem very horrified, even though I think this is actually the first thing he told me about himself that could have been legitimately traumatic."
-""
+"เคนจิดูจะไม่ได้สยองมากนัก ถึงฉันจะรู้สึกว่าเป็นครั้งแรกเลยที่เขาเล่าเรื่องตัวเองแล้วเป็นเหตุการณ์ที่ตามหลอกหลอน\nเขาได้จริง ๆ"
 
 # "He's also talking about thirty degrees to my left, so I guess his blindness is real. I wave a hand in front of him anyway, to little effect."
-""
+"แถมยังหันหน้าคลาดจากฉันไปสามสิบองศา ก็คงจะตาบอดจริง ๆ น่ะแหละ พอลองโบกมือตรงหน้าดูเคนจิก็แทบ\nไม่ตอบสนองอะไร"
 
 # ke "Man, I hope you realize I'm just joking."
-ke ""
+ke "เออ นายคงรู้นะว่าฉันแค่พูดเล่นน่ะ"
 
 # "I laugh, pretending that I did. Somehow, looking him in the eyes is more difficult than usual."
-""
+"ฉันหัวเราะแสร้งเป็นรู้ว่าเขาพูดเล่น แต่ไม่รู้ทำไมถึงมองตาเคนจิไม่ค่อยได้เลย"
 
 show evmg kenji_glasses_closed at kenji_mg_out
 with charachange
 
 # ke "Want some trivia? People with small eyes wear big glasses."
-ke ""
+ke "รู้ไว้ใช่ว่า คนที่ตาเล็กจะใส่แว่นใหญ่"
 
 # hi "I've read that somewhere. It's because it makes your eyes look less beady."
-hi ""
+hi "เหมือนเคยอ่านเจออยู่ เพราะตาจะได้ไม่ดูเล็กเกินไป"
 
 # ke "Really? I didn't know that."
-ke ""
+ke "จริงเหรอ ไม่รู้เลย"
 
 stop music
 $ renpy.music.set_volume(0.5, 0.0, channel="sound")
@@ -5602,81 +5602,81 @@ with locationchange
 $ renpy.music.set_volume(1.0, 2.0, channel="sound")
 
 # "He puts his glasses back on, and I feel oddly relieved for a moment until I remember that I still have to deal with him, glasses or not."
-""
+"เคนจิใส่แว่นอีกรอบ ฉันโล่งใจพิลึกอยู่ครู่หนึ่งจนนึกได้ว่ายังต้องรับมือกับเขาอยู่ ไม่ว่าเขาจะใส่แว่นอยู่หรือไม่ก็ตาม"
 
 play music music_kenji fadein 2.0
 
 # ke "Well, anyway… This artist girl wanted to paint my portrait once, I think. I had to talk to her like five times before she started making sense."
-ke ""
+ke "เออ นั่นแหละ… มียัยศิลปินคนหนึ่งอยากวาดรูปเหมือนฉัน เหมือนจะนะ ต้องคุยสักห้ารอบได้กว่าจะรู้เรื่อง"
 
 # "Must have been Rin, I suppose."
-""
+"คงเป็นรินละมั้ง"
 
 # hi "What'd she look like?"
-hi ""
+hi "ลักษณะหน้าตาคนที่ว่านี่เป็นไง"
 
 show kenji neutral
 with charachange
 
 # ke "I don't know. A woman with sandals."
-ke ""
+ke "ไม่รู้ ก็เป็นผู้หญิงใส่รองเท้าแตะ"
 
 # "I was hoping he'd say something more specific, like “she had no arms.” Rin does wear sandals, but I feel like the chance of there being another freespirited female art student wearing sandals besides her is reasonably high."
-""
+"ฉันคาดหวังว่าเคนจิจะบอกอะไรที่เจาะจงกว่านี้หน่อย อย่าง “ไม่มีแขน” งี้ รินใส่รองเท้าแตะก็จริง แต่รู้สึกว่าก็น่าจะ\nมีคนอื่นอยู่เหมือนกันที่เป็นนักเรียนศิลปะซึ่งเป็นสาวรักอิสระและใส่รองเท้าแตะ"
 
 show kenji happy
 with charachange
 
 # ke "I was thinking, sure. Someday, after I burn all documentation that I exist, it might be okay to leave a portrait behind, so that people can look at it and remember the savior of mankind. They'll need it to model the statue."
-ke ""
+ke "ทีแรกก็คิดอยู่ว่า ก็ได้ สักวัน พอฉันเผาเอกสารที่บ่งชี้ถึงตัวตนของฉันหมดแล้ว เหลือรูปเหมือนไว้ต่างหน้าหน่อยก็ดี\nคนจะได้มองแล้วจดจำว่านี่คือผู้กอบกู้มนุษยชาติ จะได้เอาไปเป็นแบบปั้นอนุเสาวรีย์"
 
 show kenji neutral
 with charachange
 
 # ke "Then I thought about it some more and had to turn her down. It was tempting, but she wanted it for some school thing. It would be displayed."
-ke ""
+ke "แล้วพอคิดไปเรื่อย ๆ ก็ปฏิเสธไป ถึงฉัันจะอยากได้รูป แต่เหมือนยัยนั่นจะเอาไปเป็นงานโรงเรียนมั้ง ต้องเอาไป\nจัดแสดง"
 
 show kenji tsun
 with charachange
 
 # ke "People would ask who I was, only I haven't saved society yet, so it would be pointless. And then if someone recognized me, I'd have to explain myself."
-ke ""
+ke "คนจะถามว่าฉันเป็นใคร ซึ่งฉันยังไม่ได้ช่วยสังคมเลย เพราะงั้นก็เปล่าประโยชน์ แล้วถ้าเกิดมีคนจำได้ฉันก็ต้องมา\nแจกแจงอีก"
 
 # ke "That's already a chain of events I don't want to deal with. I don't want to get mixed up in some weird situation; shit like that always happens. Sticking out is a surefire way to get put on a list."
-ke ""
+ke "ซึ่งฉันไม่อยากรับมือกับเหตุการณ์พวกนั้นที่จะตามมา ไม่อยากไปข้องเกี่ยวกับสถานการณ์สุดพิลึกพิลั่น เป็นงี้\nตลอดแหละ ทำตัวเด่นแล้วโดนหมายหัวแน่นอน"
 
 show kenji neutral
 with charachange
 
 # ke "That's why I make such a careful effort to blend in with people in my daily life. Until I can make my move."
-ke ""
+ke "นี่แหละฉันถึงได้รอบคอบกับการทำตัวให้กลืนไปกับคนที่ฉันต้องเจอทุก ๆ วัน ต้องอยู่แบบนี้ไปจนกว่าฉันจะเดินเกมได้"
 
 # hi "Sure."
-hi ""
+hi "ครับ"
 
 # hi "What list?"
-hi ""
+hi "หมายหัวเรื่องอะไร"
 
 # ke "There are many lists."
-ke ""
+ke "หลายเรื่อง"
 
 show kenji happy
 with charachange
 
 # ke "So what are you doing here, anyway?"
-ke ""
+ke "ว่าแต่นายมาทำอะไรที่นี่"
 
 # hi "Nothing. I kind of got here by accident."
-hi ""
+hi "ไม่ทำอะไร บังเอิญมาอยู่ตรงนี้เฉย ๆ"
 
 # ke "Happens to me all the time. Well, hope that works out for you. I think I'm going to go back to my dorm room. I need to set my TV to record my shows."
-ke ""
+ke "ฉันก็เป็นแบบนี้ตลอดเหมือนกัน เออ ขอให้อาการนี้หายโดยเร็วนะ ฉันว่าจะกลับไปหอฉันแล้ว ต้องตั้งค่าโทรทัศน์\nรอบันทึกรายการที่จะดูไว้"
 
 # hi "You have TV?"
-hi ""
+hi "นายมีโทรทัศน์ด้วย?"
 
 # ke "Yes, you should come over sometime, we can watch the game. In high definition."
-ke ""
+ke "มี ไว้ว่าง ๆ ก็แวะมาบ้าง จะได้ดูกีฬาด้วยกัน ความคมชัดระดับเอชดีเลย"
 
 stop music fadeout 4.0
 
@@ -5684,10 +5684,10 @@ hide kenji
 with charaexit
 
 # "Before I can ask him what he's talking about, he's gone. He left like he came: with zero respect towards other people. Kind of amazing."
-""
+"ยังไม่ทันได้ถามว่าพูดถึงอะไรเคนจิก็หายไปแล้ว คนอะไรไปไม่ลามาไม่ไหว้ จะว่าทึ่งก็ทึ่งนะ"
 
 # "Now that Kenji is gone, I resume looking aimlessly at the school gardens in their summer splendor. It's no use, he ruined them for me."
-""
+"เมื่อเขาไปแล้วฉันก็กลับมาดูสวนในโรงเรียนซึ่งงามระยับด้วยบรรยากาศหน้าร้อนโดยไม่มีเป้าหมายอะไร เปล่าประโยชน์\nเคนจิมาทำเสียอารมณ์หมด"
 
 scene bg school_cafeteria
 with locationchange
@@ -5696,19 +5696,19 @@ $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 1.0
 
 # "When I get back to the cafeteria, exhausted but alive, I think of eating lunch with Shizune again, but find her sitting at a table with Misha already."
-""
+"พอกลับมาที่โรงอาหารในสภาพเจียนตายก็นึกจะไปกินข้าวเที่ยงกับชิซูเนะอีกครั้ง แต่ก็เห็นว่าเธอนั่งอยู่กับมิช่าแล้ว"
 
 # "If it were anyone else, I would think how they were too far away for me to hear them. This is Shizune and Misha, however."
-""
+"ถ้าเป็นคนอื่นฉันคงคิดว่าสองคนนั้นอยู่ไกลเกินกว่าที่ฉันจะได้ยินเสียงคุยกัน แต่เมื่อเป็นชิซูเนะกับมิช่าแล้วฉัน\nไม่ได้คิดแบบนั้น"
 
 # "If I wanted to, I could “eavesdrop” on their conversation easily. What a dirty thing to think about, but it's there. …I don't want to, though."
-""
+"ถ้าฉันจะ “แอบฟัง” บทสนทนาพวกเธอแล้วก็ทำได้ง่าย ๆ เลย คิดอะไรต่ำตมเป็นบ้า แต่ก็คิดอยู่ดี …ซึ่งก็ไม่ได้อยากทำ\nอะนะ"
 
 # "They must have a lot of catching up to do, even if it's only been a few days. I'm inclined to just leave them alone so they can do just that."
-""
+"คงมีเรื่องให้คุยเยอะแยะ ถึงจะผ่านมาแค่ไม่กี่วันก็เถอะ ฉันเริ่มคิดแล้วว่าหรือจะไม่สนใจแล้วปล่อยให้คุยกันเต็มที่ดี"
 
 # "However, the second they see me, they wave me over."
-""
+"แต่สองคนนั้นก็โบกมือทักทายทันทีที่เห็นฉัน"
 
 show misha hips_grin at twoleft
 show shizu basic_normal at tworight
@@ -5718,292 +5718,288 @@ stop ambient fadeout 5.0
 play music music_shizune fadein 1.0
 
 # mi "Hi, Hicchan~!"
-mi ""
+mi "ไงฮิจัง~!"
 
 # "Hearing her voice again even after such a short time apart is jarring, and I wince."
-""
+"แม้ไม่ได้เจอกันไม่นาน แต่พอได้ยินเสียงมิช่าอีกครั้งก็รู้สึกแปลก ๆ จนฉันผงะ"
 
 # "These past few days, I had forgotten that communication with Shizune is almost entirely silent, and concentrating on getting it right, I had tuned out even ambient noise."
-""
+"สองสามวันที่ผ่านมาฉันลืมไปเลยว่าบรรยากาศตอนสื่อสารกับชิซูเนะนั้นเงียบสนิท และฉันยังต้องจดจ่ออยู่กับ\nการใช้ภาษามือให้ถูกจนหูไม่รับรู้เสียงโดยรอบ"
 
 # "Well, I'll get used to it again. I'm glad she is back."
-""
+"เอาเถอะ เดี๋ยวจะปรับตัวใหม่อีกรอบ แค่กลับมาก็ดีใจแล้ว"
 
 show misha sign_smile
 with charachange
 
 # mi "I'm done making up all my work~! Just in time~, I won't have to miss the festival. Wahaha~."
-mi ""
+mi "ฉันจัดการเรื่องงานของฉันเสร็จแล้ว~! ทันเวลาพอดีเลย~ ไม่ต้องอดไปเที่ยวงานเทศกาลแล้ว วะฮ่าฮ่า~"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "If they really tried to enforce that, I would pull you out on student council business."
-ssh ""
+ssh "ถ้าจะกักตัวไม่ให้มาเที่ยวงานเทศกาลจริง ๆ ฉันก็จะอ้างเรื่องงานสภานักเรียนดึงตัวเธอมาอยู่ดี"
 
 show misha perky_confused
 with charachange
 
 # mi "If they really really tried to enforce that, you would pull me out on student council business~?"
-mi ""
+mi "ถ้าจะกักตัวไม่ให้มาเที่ยวงานเทศกาลจริง ๆ เธอก็จะอ้างเรื่องงานสภานักเรียนดึงตัวฉันมาอยู่ดี~?"
 
 # hi "That's abuse of power."
-hi ""
+hi "ใช้อำนาจในทางที่มิชอบนะนั่นน่ะ"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_frown
 with charachange
 
 # mi "No it isn't, Hicchan~!"
-mi ""
+mi "ไม่ใช่สักหน่อยฮิจัง~!"
 
 show misha sign_smile
 with charachange
 
 # mi "Shicchan says that if there were only two Student Council members overseeing the festival, it would be a problem, wouldn't it? Yeah~, definitely! It has to be at least three! It's for the good of everyone, it's perfectly reasonable, it's necessary~!"
-mi ""
+mi "ชิจังบอกว่าถ้ามีแค่สมาชิกสภานักเรียนสองคนมารับหน้าที่ดูแลงานเทศกาลก็คงยุ่งยากแน่ ว่าไหม ช่าย~ ใช่เลย!\nอย่างน้อยต้องมีสามคน! เผื่อผลประโยชน์ของทุกคน สมเหตุสมผลมาก เป็นเรื่องจำเป็นเลย~!"
 
 show shizu adjust_happy
 show misha perky_smile
 with charachange
 
 # "Shizune leans across the table a bit as Misha delivers her slightly disturbing, militaristic justifications in a childish, bubbly, up-and-down tone."
-""
+"ชิซูเนะโน้มตัวเข้าหาโต๊ะเล็กน้อยระหว่างที่มิช่ากำลังอ้างเหตุผลเผด็จการที่ฟังแล้วชวนให้ใจคอไม่ดีเล็กน้อย\nด้วยน้ำเสียงสูงต่ำเริงร่าราวสาวน้อย"
 
 # "Shizune looks so happy, though, tenting her fingers and trying to hold back a laugh as Misha pouts more seriously on her behalf."
-""
+"แต่ชิซูเนะดูจะมีความสุขมาก เธอประกบนิ้วเข้าหากันพลางกลั้นขำ ส่วนมิช่าทำแก้มป่องเพื่อถ่ายทอดความจริงจังเพิ่ม"
 
 # hi "If you say so."
-hi ""
+hi "จำเป็นก็จำเป็น"
 
 # "I'm actually happy right now, that we can talk so easily to each other. All three of us."
-""
+"ตอนนี้ฉันก็มีความสุขที่คุยได้แบบสบาย ๆ อย่างนี้ด้วยกันสามคน"
 
 # "In the beginning I thought that I might have found myself in a bad situation. I was sure that Shizune would hate getting saddled with being tour guide for the new guy."
-""
+"ตอนแรกฉันคิดว่าตัวเองจะต้องตกที่นั่งลำบากเพราะมั่นใจว่าชิซูเนะคงไม่ชอบกับการถูกยัดเยียดให้มารับหน้าที่\nคนนำทางให้เด็กใหม่"
 
 # "I didn't want to be that kind of burden, either. It would be awkward even if she weren't deaf and mute, too."
-""
+"ฉันก็ไม่อยากเป็นภาระแบบนั้นด้วย ต่อให้ชิซูเนะไม่ใช่คนหูหนวกและเป็นใบ้ก็คงเป็นอะไรที่อึดอัดอยู่ดี"
 
 # "Just now, she said that we would all have to be at the festival, the whole Student Council. I don't think that the Student Council has any real jurisdiction over Tanabata. It's only Shizune's way of saying that she wants us to spend it together."
-""
+"เมื่อกี้ชิซูเนะบอกว่าพวกเราซึ่งเป็นสมาชิกสภานักเรียนทุกคนจะไปเที่ยวงานเทศกาลด้วยกัน ฉันคิดว่าสภานักเรียน\nไม่ได้มีสิทธิ์จัดการงานทานาบาตะจริง ๆ หรอก ชิซูเนะคงแค่จะบอกกลาย ๆ ว่าอยากให้มาเที่ยวด้วยกันเฉย ๆ "
 
 # "It's nice to have friends."
-""
+"มีเพื่อนก็ดีเหมือนกัน"
 
 # "It's a simple thought, but one that makes me genuinely happy, that we could slip into being such with so much ease. Despite the roundabout way in which she said it, I'm glad that Shizune thinks it strongly enough to express it at all."
-""
+"เป็นความคิดที่ไม่ได้มีอะไรซับซ้อนแต่ทำให้ฉันมีความสุขได้จริง ๆ ความคิดที่ว่าเรานั้นแทรกตัวเข้าไปยังชีวิตกันและกัน\nได้อย่างง่ายดายเช่นนั้น ถึงจะอ้อมค้อมไปหน่อย แต่ฉันก็ดีใจที่ชิซูเนะคิดจริงจังพอที่จะบอกออกมาให้ได้รับรู้"
 
 show shizu basic_normal
 with charachange
 
 # ssh "Why did you wait until we waved you over to come sit with us?"
-ssh ""
+ssh "ทำไมถึงต้องรอให้โบกมือก่อนถึงมานั่งด้วยกัน"
 
 # "A question out of nowhere. Shizune's eyes are expectant as Misha repeats her message. I feel like teasing her."
-""
+"อยู่ ๆ ชิซูเนะก็ถามขึ้นมา สายตาเธอที่คาดคั้นคำตอบจากฉันมาพร้อมกับคำพูดที่มิช่าส่งต่อมาให้ อยากลองหยอกดูแฮะ"
 
 # hi "You want me to sit with you that badly?"
-hi ""
+hi "อยากให้นั่งด้วยขนาดนั้นเชียว?"
 
 show shizu behind_blank
 with charachange
 
 # ssh "We're in the Student Council. We should sit together as much as possible. It's logic."
-ssh ""
+ssh "เราเป็นสมาชิกสภานักเรียนนะ ต้องตัวติดกันเข้าไว้สิ ไม่เห็นแปลกตรงไหน"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "Anyone would jump at the chance to sit with two cute girls anyway."
-ssh ""
+ssh "อีกอย่าง เป็นใครก็คงอยากมานั่งกับสาวน่ารักสองคนด้วย"
 
 # "She pauses, in case I might say something like “You're not that cute!” and instantly lock myself into an obvious no-win situation. When I don't take the bait, Shizune becomes more energetic and continues."
-""
+"ชิซูเนะเว้นช่วงไปเผื่อฉันแทรกอีกว่า “เธอไม่ได้น่ารักขนาดนั้นสักหน่อย!” เป็นการปิดหนทางเอาชนะของตัวเองในทันที\nพอฉันไม่ตกหลุมที่เธอขุดไว้แล้วชิซูเนะจะดูกระตือรือร้นขึ้นก่อนจะพูดต่อ"
 
 show shizu basic_happy
 with charachange
 
 # ssh "You're abnormal."
-ssh ""
+ssh "นายนี่แปลก"
 
 # "Well, I didn't expect her to end it like that."
-""
+"เอ่อ ก็ไม่ได้คิดว่าจะปิดด้วยคำพูดนั้นนะ"
 
 # hi "You're too quick to call other people abnormal. So arrogant."
-hi ""
+hi "ไม่ทันไรก็ว่าคนอื่นแปลกแล้ว มั่นหน้านะเธอเนี่ย"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "You're too quick to call other people arrogant. That makes you arrogant, and arrogance is also abnormal. You're double-abnormal."
-ssh ""
+ssh "ไม่ทันไรนายก็ว่าคนอื่นมั่นหน้าเหมือนกัน ซึ่งแปลว่านายก็มั่นหน้า และความมั่นหน้าคือความแปลก นายนี่\nแปลกซ้ำซ้อนจริง"
 
 # hi "It doesn't work that way. It's a sliding scale."
-hi ""
+hi "ของแบบนี้ซ้ำซ้อนได้ที่ไหน มันต้องไล่ระดับต่ำสูงไปสิ"
 
 show misha hips_grin
 with charachange
 
 # mi "Hahaha~."
-mi ""
+mi "ฮ่าฮ่าฮ่า~"
 
 # "Leaning on her arm, Misha closes her eyes and lets out a low, slow laugh like a chuckle."
-""
+"มิช่ากอดอกวางแขนกับโต๊ะหลับตาพลางหัวเราะออกมาช้า ๆ เสียงต่ำ"
 
 # hi "Don't laugh…"
-hi ""
+hi "อย่าขำสิ…"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Don't laugh in this kind of situation."
-ssh ""
+ssh "คนเขาเครียดก็อย่าขำสิ"
 
 # "I notice that Misha signs everything I say to Shizune anyway, even though I'm signing myself. This is redundant, but it's an unconscious action for Misha. On the other hand I can't stop."
-""
+"ฉันเพิ่งเห็นว่ามิช่าแปลทุกอย่างที่ฉันพูดเป็นภาษามือให้ชิซูเนะทั้งที่ฉันก็ทำภาษามืออยู่แล้วด้วยความเคยชินของเจ้าตัว\nส่วนฉันก็หยุดใช้ภาษามือไม่ได้จนเกิดความซ้ำซ้อนอย่างนี้"
 
 # "If I let myself take it easy and sign less just because Misha is back, then what was all this for? I don't want to risk losing familiarity with how to sign either. My hands are pretty slow to speak on my behalf as it is."
-""
+"ถ้าฉันจะทิ้งเรื่องภาษามือเพราะมิช่ากลับมาแล้วที่ฉันพยายามมาก็สูญเปล่าสิ ฉันก็อยากให้ตัวเองชินกับภาษามือด้วย\nเพราะยังใช้ได้ไม่คล่องเต็มที่เลย"
 
 show misha sign_smile
 with charachange
 
 # mi "Hicchan, you and Shicchan talk to each other much more now~! Back and forth, it's really funny too! Like an old married couple, right~ right~?"
-mi ""
+mi "เดี๋ยวนี้ฮิจังคุยกับชิจังบ่อยขึ้นนะ~! โต้ตอบไปมาดูตลกดี! เหมือนคู่ที่แต่งงานกันมานานแล้วเลย เนอะ~ เนอะ~"
 
 # "What a loaded comment, in so many ways. Although, because it's Misha, it can't have been on purpose."
-""
+"เป็นคำพูดที่สื่อความหมายได้หลากหลายเหลือเกิน แต่ถ้าคนพูดเป็นมิช่าก็คงไม่ได้มีอะไรไปมากกว่านั้นหรอก"
 
 # hi "That's not a compliment."
-hi ""
+hi "แบบนั้นไม่ใช่คำชมนะ"
 
 # "Shizune doesn't react to Misha trying to pair the two of us up. Maybe she didn't see it. Sometimes it does happen, I've noticed. I still wonder if it's really that simple, and why I care so much, but I don't want to think about it too hard."
-""
+"ชิซูเนะไม่ตอบสนองอะไรกับการที่มิช่าจับคู่เราสองคนเข้าด้วยกัน หรือไม่ก็ไม่ทันเห็น ฉันเพิ่งสังเกตว่าบางครั้งชิซูเนะ\nก็ไม่ได้เห็นที่มิช่าทำภาษามือ แต่ก็ยังสงสัยอยู่ดีว่าคำพูดเมื่อกี้ไม่ได้มีนัยอะไรจริง ๆ เหรอ และสงสัยว่าทำไมฉันถึงคาใจ\nขนาดนี้ แต่ก็ไม่อยากคิดมากเกินไป"
 
 # "I want to leave. I keep thinking that I'm hogging Misha's time with Shizune, and it could be that Misha cut in just now on purpose, feeling that way too. I doubt that either of them will let me leave, though. In some ways they're too nice."
-""
+"ไม่อยากอยู่ตรงนี้แล้ว ฉันเอาแต่คิดว่าตัวเองมาแย่งเวลาที่สองคนนี้จะได้อยู่ด้วยกันไป คิดว่าเมื่อกี้มิช่าจงใจแทรก\nเพราะรู้สึกว่าฉันมาขัดจังหวะ แต่สองคนนี้คงไม่มีใครยอมให้ฉันไปอะนะ บางทีจะว่าเป็นคนดีเกินไปก็ว่าได้"
 
 # hi "Anyway, Shizune, if you really want to know, I didn't want to sit here because I didn't want to intrude."
-hi ""
+hi "แต่นั่นแหละ ชิซูเนะ ถ้าเธออยากรู้เหตุผลจริง ๆ ที่ฉันไม่อยากมานั่งตรงนี้เพราะไม่อยากมาขัดจังหวะน่ะ"
 
 # hi "I thought that because of Misha being away for supplementary lessons or whatever, you two would have a lot to talk about, and I should just leave you alone to catch up. That's why I thought I would just hang back."
-hi ""
+hi "เห็นว่ามิช่าต้องไปเรียนพิเศษหรืออะไรนั่นด้วยเลยคิดว่าเธอสองคนน่าจะมีเรื่องให้คุยเยอะแยะ ปล่อยให้คุยกันสองคน\nไปเลยน่าจะดีกว่า เพราะแบบนี้แหละฉันถึงได้ปลีกตัวออกมา"
 
 # hi "Don't worry, Misha, I'm not trying to monopolize Shizune."
-hi ""
+hi "ไม่ต้องห่วงหรอกนะมิช่า ฉันไม่ได้จะผูกขาดชิซูเนะไว้คนเดียวหรอก"
 
 show misha cross_laugh
 with charachange
 
 # mi "Wahaha~! Hicchan! It's not like that~."
-mi ""
+mi "วะฮ่าฮ่า~! ฮิจัง! ไม่ใช่อย่างนั้นเลย~"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "You're so considerate, Hicchan! Shicchan is sorry~ and apologizes."
-mi ""
+mi "ฮิจังนี่ขี้เกรงใจนะ! ชิจังรู้สึกผิด~ และต้องขอโทษด้วย"
 
 # hi "I don't really think it's worth apologizing over, so, don't worry about it. Hey, don't you both think that since Misha is back, we should go celebrate somehow? I think so."
-hi ""
+hi "ฉันว่าไม่ใช่อะไรที่ต้องมาขอโทษขอโพยกันหรอก ไม่ต้องไปคิดมาก นี่ พวกเธอคิดแบบนี้มั้ยว่าเราไปฉลองที่มิช่า\nกลับมากันดีกว่า ฉันคิดนะ"
 
 show misha cross_frown
 with charachange
 
 # mi "Hicchan~! Usually, having to make up work isn't something to celebrate over."
-mi ""
+mi "ฮิจัง~! การต้องไปทำงานชดเชยน่ะไม่ใช่เรื่องที่จะมาฉลองกันนะ"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "No, it's a good idea."
-ssh ""
+ssh "เดี๋ยว ไปฉลองก็ดีนะ"
 
 # hi "The timing is perfect, and Shizune said that the Student Council should have a little fun too sometimes. You've probably heard that too, right, Misha? It should be fine."
-hi ""
+hi "จังหวะเหมาะพอดีเลย ชิซูเนะก็เคยบอกด้วยว่าสภานักเรียนควรหาเวลามาสนุกกันบ้าง น่าจะเคยบอกเธอด้วยนะมิช่า\nใช่ไหม ไม่เป็นไรหรอก"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # hi "Actually, wait a second. Didn't you have to make up work because you were missing so many classes to begin with? So, skipping out to celebrate would be kind of stupid. Maybe the timing isn't perfect, like I said, but we could go after school."
-hi ""
+hi "ไม่สิ เดี๋ยว ที่ต้องไปทำงานชดเชยนี่ก็เพราะขาดเรียนบ่อยนี่ ถ้าจะให้โดดเรียนเพื่อไปฉลองอีกก็คงไม่ค่อยดีเท่าไหร่\nจังหวะอาจไม่ได้เหมาะอย่างที่บอกแหละ แต่เลิกเรียนแล้วค่อยไปก็ได้"
 
 show misha sign_smile
 with charachange
 
 # mi "Where should we go?"
-mi ""
+mi "แล้วจะไปไหนกันดี"
 
 # "Misha speaks Shizune's question to her aloud before she even stops to think it over, both of them completely ignoring me."
-""
+"มิช่าเปล่งเสียงย้ำคำถามจากชิซูเนะก่อนที่จะทันได้คิดคำตอบเสียอีก ทั้งสองคนนั้นไม่ได้สนใจฉันแล้ว"
 
 # hi "Hey, listen to me, two-man shortsighted Student Council team!"
-hi ""
+hi "นี่ ฟังฉันสิ กลุ่มสภานักเรียนมองการณ์ใกล้ที่มีกันแค่สองคน!"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_grin
 with charachange
 
 # mi "Wahaha~! Hicchan, you're a part of this team, too!"
-mi ""
+mi "วะฮ่าฮ่า~! ฮิจัง นายก็เป็นสมาชิกในกลุ่มนี้เหมือนกันนะ!"
 
 # hi "Ah, yeah. I guess I am."
-hi ""
+hi "เอ่อ อื้ม ก็คงใช่"
 
 show misha hips_smile
 with charachange
 
 # mi "Yeah yeah~! You are, Hicchan!"
-mi ""
+mi "ใช่ ช่าย~! ใช่เลยฮิจัง!"
 
 show shizu behind_smile
 with charachange
 
 # ssh "So forgetful, and troublesome. I feel sorry for the girl who falls in love with you."
-ssh ""
+ssh "ขี้ลืมนะนายเนี่ย เป็นภาระแท้ ๆ ใครมาชอบนี่คงโชคร้ายน่าดู"
 
 show misha sign_smile
 with charachange
 
 # mi "So~! Where do you think we should go?"
-mi ""
+mi "แล้ว~! นายคิดว่าเราควรไปที่ไหนกันดีล่ะ"
 
 # "I'm laughing in spite of myself, wanting to point out how Misha seems so enthusiastic now, when she was the one who was most apprehensive about it just a few seconds ago. For whatever reason, I can't bring myself to do it. But, this is okay, too."
-""
+"ฉันหัวเราะไปโดยไม่รู้ตัว ในใจนึกอยากบอกว่าตอนนี้มิช่าดูกระตือรือร้นทั้งที่ก่อนหน้านี้ไม่กี่วินาทีก็เธอแท้ ๆ ที่คิดมาก\nนั่นนี่ ซึ่งไม่รู้ทำไมถึงพูดไม่ออก แต่เอาเถอะ"
 
 stop music fadeout 4.0
 
 # "After a short discussion on where to go, it seems like the only place all three of us know and are willing to travel to is the Shanghai."
-""
+"หลังจากที่ปรึกษากันอยู่ครู่หนึ่งแล้วว่าจะไปที่ไหนกันดีก็ได้คำตอบว่าที่เดียวที่เราทั้งสามคนรู้ทางไปและเต็มใจอยากไป\nคือร้านเซี่ยงไฮ้"
 
 # "A teahouse doesn't look like a bad place to celebrate, especially because I'm sure they sell cake there, and cake is the most celebratory food."
-""
+"ฉลองที่โรงน้ำชาก็ไม่แย่เหมือนกัน แถมฉันยังจำได้ว่าร้านนี้มีเค้กให้สั่งด้วย และเค้กก็เป็นของหวานที่เหมาะ\nกับการฉลองที่สุด"
 
 scene bg suburb_shanghaiext
 with shorttimeskip
 
 # "I haven't seen Yuuko in a while, either, and neither have the girls. For all these reasons, plus the fact that it's so close, I end up standing in front of the little tea shop with Shizune and Misha before I know it."
-""
+"แล้วทั้งฉันกับสองสาวก็ไม่ได้เจอหน้ายูโกะมาสักพักแล้วด้วย ด้วยเหตุผลเหล่านี้—และด้วยระยะทางที่ใกล้โรงเรียน—\nรู้ตัวอีกทีฉันก็มายืนอยู่หน้าคาเฟเล็ก ๆ กับชิซูเนะกับมิช่าแล้ว"
 
 play sound sfx_storebell
 
@@ -6014,12 +6010,12 @@ show yuukoshang neutral_down at center
 with charaenter
 
 # yu "Welcome!"
-yu ""
+yu "ยินดีต้อนรับค่ะ!"
 
 play music music_dreamy fadein 2.0
 
 # "It's been a while since I heard Yuuko's voice, so I'm surprised all over again by the energy she puts into her greetings. Kind of like an extremely nervous Misha."
-""
+"เพราะไม่ได้ยินเสียงยูโกะมาพักใหญ่แล้วฉันจึงแปลกใจขึ้นมาอีกครั้งกับน้ำเสียงทักทายอันเปี่ยมพลัง เหมือนว่า\nประหม่ามาก ๆ ที่ได้เจอมิช่า"
 
 show yuukoshang neutral_down at tworight
 show bg suburb_shanghaiint at bgright
@@ -6029,28 +6025,28 @@ show misha perky_smile at twoleft
 with charaenter
 
 # mi "Hi~! But~! you don't have to do that all the time if it's just us."
-mi ""
+mi "ไงคะ~! แต่ถ้ามีแค่พวกหนูที่มาไม่ต้องทักขนาดนั้นก็ได้"
 
 show yuukoshang worried_up
 with charachange
 
 # yu "Yes I do…"
-yu ""
+yu "ต้องทักสิ…"
 
 show misha sign_confused
 with charachange
 
 # mi "But—"
-mi ""
+mi "แต่—"
 
 show misha cross_laugh
 with charachange
 
 # mi "Okay~! Okay~! If you say so, Yuuko! Hahahahaha~!"
-mi ""
+mi "โอเค~! โอเค~! ทักก็ทักนะยูโกะ! ฮ่าฮ่าฮ่าฮ่าฮ่า~!"
 
 # "I take this moment to glance around the teahouse and notice that it is as empty as ever. It's lunch time; essentially the peak hour for an establishment of this type. And yet, it's as barren as ever. I don't understand. There has to be a reason for this."
-""
+"ระหว่างนี้ฉันก็มองไปรอบ ๆ โรงน้ำชาที่ยังว่างเปล่าเหมือนเคย ตอนนี้เป็นเวลามื้อเที่ยงที่ลูกค้าควรจะแน่นตาม\nร้านอาหารอะไรทำนองนี้แล้ว แต่ร้านนี้ก็ยังเงียบเหงาเช่นเคย ไม่เข้าใจเลย ต้องมีเหตุผลอะไรแน่ ๆ"
 
 show yuukoshang worried_up at center
 show misha hips_smile at left
@@ -6062,22 +6058,22 @@ show shizu behind_blank_close:
 with charaenter
 
 # "Shizune gently taps my arm to get my attention."
-""
+"ชิซูเนะสะกิดไหล่ดึงความสนใจฉัน"
 
 show shizu adjust_happy_close
 with charachange
 
 # ssh "What do you want to get?"
-ssh ""
+ssh "นายจะเอาอะไร"
 
 show yuukoshang neurotic_up
 with charachange
 
 # "Yuuko looks a little agitated after Misha automatically relays the question."
-""
+"ยูโกะตื่นตัวขึ้นมาเล็กน้อยเมื่อได้ฟังที่มิช่าส่งต่อคำถามออกมาโดยอัตโนมัติ"
 
 # yu "N-no, I'm supposed to… ask that… Is there anything that I can do for you?"
-yu ""
+yu "มะ ไม่ใช่สิ ฉันสิที่ต้อง… เป็นคนถาม… จะรับอะไรดีคะ"
 #I think the sitting sprite animation should actually happen here. -SC
 
 show shizu behind_smile_close:
@@ -6088,13 +6084,13 @@ with dissolvecharamove
 
 
 # hi "Just some coffee for now, I guess. Thanks."
-hi ""
+hi "งั้นกาแฟก่อนแล้วกันครับ"
 
 show yuukoshang neutral_down
 with charachange
 
 # "The dedication Yuuko has towards her waitressing duties is sort of admirable. So is the speed at which she whisks slices of cake and our drinks to our table when we order."
-""
+"นับถือเหมือนกันที่ยูโกะทุ่มเทกับหน้าที่บริกรขนาดนี้ และนับถือด้วยที่ใช้เวลาไม่นานนักก็ได้เค้กกับเครื่องดื่ม\nที่พวกเราสั่งกันไปมาวางอยู่ที่โต๊ะ"
 
 hide yuukoshang
 with charachange
@@ -6108,113 +6104,112 @@ show misha perky_smile:
 with charamove
 
 # "Then again, we're the only customers here. Who knows what it would be like with a full house."
-""
+"แต่ก็นะ ทั้งร้านมีแค่พวกเรา นึกภาพไม่ออกเลยว่าถ้าลูกค้าเต็มร้านสภาพจะเป็นยังไง"
 
 # "Shizune and Misha immediately dig into their cakes with gusto, probably because they can't talk with utensils in their hands."
-""
+"ชิซูเนะกับมิช่ารีบจ้วงกินเค้กของตัวเองทันที อาจจะเพราะพอมีอุปกรณ์ในมือแล้วจะคุยกันไม่ได้ละมั้ง"
 
 # "The whole point of sharing a meal with friends like this is being able to talk over it, after all. It makes sense that it would be the same with them."
-""
+"ยังไงเสีย ส่วนหลัก ๆ ของการที่มากินอะไรด้วยกันกับเพื่อนแบบนี้คือการคุยกันไปด้วย ถ้าสองคนนี้จะคิดแบบนั้นด้วย\nก็ไม่แปลก"
 
 # "I'm barely halfway through my cake when I hear their forks clinking as they set them down on their empty plates."
-""
+"ฉันเพิ่งกินไปได้ราวครึ่งก้อนก็ได้ยินเสียงส้อมของสองคนนั้นที่กระทบกับจานที่ว่างเปล่าแล้ว"
 
 # hi "It's not healthy to inhale your food."
-hi ""
+hi "สูบกินอย่างนั้นมันไม่ดีกับสุขภาพนะ"
 
 show misha hips_grin
 with charachange
 
 # mi "Hahaha~! Hicchan sounds like an old man~!"
-mi ""
+mi "ฮ่าฮ่าฮ่า~! ฮิจังบ่นอะไรเป็นคนแก่ไปได้~!"
 
 # "I cringe and instantly feel like I've been punched."
-""
+"ฉันทำหน้าเบ้ไปทันที ในใจรู้สึกเหมือนโดนหมัดตรง"
 
 show shizu adjust_happy_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Are you going to wear a yukata tomorrow, Hicchan?"
-mi ""
+mi "วันพรุ่งนี้ฮิจังจะใส่ชุดยูกาตะไหม"
 
 # hi "No, I don't even have one. Well, even if I did, I'm not the kind of guy who does stuff like that."
-hi ""
+hi "ไม่อะ ไม่มีด้วยซ้ำ คือ ต่อให้มีฉันก็ไม่ใช่พวกที่จะใส่ชุดอะไรแบบนั้นหรอก"
 
 # hi "What about you? Are you two going to dress up?"
-hi ""
+hi "แล้วพวกเธอสองคนล่ะ จะแต่งตัวไปสวย ๆ เลยไหม"
 
 show shizu behind_blank_close
 show misha perky_smile
 with charachange
 
 # ssh "Of course."
-ssh ""
+ssh "แหงสิ"
 
 # hi "What do you mean “of course?” You didn't dress up last time."
-hi ""
+hi "“แหงสิ” นี่คืออะไร คราวที่แล้วก็ใส่ชุดตามปกติมานี่"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "One time is not a trend! It's a completely different situation anyway. Aside from not being Tanabata, the festival was on school grounds; students should wear their uniform on school grounds."
-ssh ""
+ssh "แค่ครั้งเดียวใช่ว่าจะนับเป็นแนวโน้มได้สักหน่อย! อีกอย่างก็เป็นงานเทศกาลคนละแบบด้วย ครั้งก่อนไม่ใช่\nงานทานาบาตะ แล้วก็จัดในโรงเรียนด้วย เวลาอยู่ในโรงเรียนนักเรียนก็ควรใส่ชุดนักเรียนสิ"
 
 # "Clearly a joke, but her delivery isn't any different from the usual. That isn't normal, but her sense of humor never was, and I'm used to it."
-""
+"ชัดแหละว่าพูดเล่น แต่ท่าทีการสื่อสารก็เป็นเหมือนเวลาคุยเรื่องทั่วไป ซึ่งเป็นอะไรที่แปลก แต่ฉันชินแล้วกับมุกพิลึก ๆ\nแบบนี้ของชิซูเนะ"
 
 # "I guess her way of saying outrageous things seriously is a little better than if she were to say serious things outrageously."
-""
+"ชิซูเนะน่าจะถนัดกับการพูดอะไรหลุดโลกแบบจริงจังเก่งกว่าการพูดอะไรจริงจังแบบหลุดโลกอยู่หน่อย ๆ"
 
 # "What's more troubling in any case is that I've started to associate a voice with her signing, and it's clashing with how Misha says out loud everything Shizune signs anyway. I feel disoriented."
-""
+"และที่เป็นปัญหาเลยก็คือฉันเริ่มนึกเสียงตามไปกับภาษามือของชิซูเนะแล้ว และเสียงนี้ก็ตีกับเสียงที่มิช่าแปลภาษามือ\nจากชิซูเนะให้ มึน ๆ แฮะ"
 
 show shizu behind_smile_close
 with charachange
 
 # ssh "I'll dress up this time!"
-ssh ""
+ssh "คราวนี้ฉันจะแต่งตัวสวย ๆ ไป!"
 
 show misha sign_smile
 with charachange
 
 # mi "I'll dress up this time~! You'll see, Hicchan!"
-mi ""
+mi "คราวนี้ฉันจะแต่งตัวสวย ๆ ไป~! รอชมได้เลยฮิจัง!"
 
 show misha hips_smile
 with charachange
 
 # mi "Not just Shicchan, but me too~!"
-mi ""
+mi "ไม่ใช่แค่ชิจังนะ ฉันก็ด้วย~!"
 
 show misha hips_grin
 with charachange
 
 # mi "Maybe~ I'll change my hairstyle, too."
-mi ""
+mi "แล้วฉันก็น่าจะ~ ทำผมทรงใหม่ด้วย"
 
 # hi "Don't do that, I can't really imagine you looking differently."
-hi ""
+hi "อย่านะ ฉันนึกภาพเธอที่ไม่เหมือนปกติไม่ออกเลย"
 
 show shizu adjust_happy_close
 with charachange
 
 # "Shizune wags a finger and smiles."
-""
+"ชิซูเนะส่ายนิ้วยิ้ม ๆ"
 
 show shizu adjust_smug_close
 with charachange
 
 # ssh "Such a quick and firm disapproval. What if I were to change my hairstyle?"
-ssh ""
+ssh "อย่าเพิ่งปัดตกอย่างนั้นสิ ถ้าฉันเปลี่ยนทรงผมบ้างล่ะเป็นไง"
 
 # hi "Maybe you should grow your hair out and make it look like drills."
-hi ""
+hi "ปล่อยผมยาวแล้วทำทรงสว่านบ้างก็น่าจะดีนะ"
 
 show shizu behind_blank_close:
     xpos 1.0 xanchor 0.8
@@ -6227,62 +6222,61 @@ show yuukoshang neutral_up at center behind misha
 with charaenter
 
 # "She looks unamused. Luckily, I see Yuuko making her way over, likely to clear our plates or ask if we need anything from her."
-""
+"ชิซูเนะทำหน้าบูดบึ้ง โชคดีที่ยูโกะเดินมาพอดี คงจะมาเก็บจานหรือมารอบริการอะไรเพิ่ม"
 
 # hi "Yuuko, are you doing anything for Tanabata?"
-hi ""
+hi "วันทานาบาตะนี้คุณยูโกะมีแผนจะทำอะไรไหมครับ"
 
 show yuukoshang panic_up
 with charachange
 
 # yu "Huh?"
-yu ""
+yu "ฮะ?"
 
 # "It's like she was practicing how to most smoothly ask if I needed a refill of coffee while walking over, but she has no idea what to do having been asked a question first. I feel bad."
-""
+"ดูสภาพเหมือนกำลังซ้อมอยู่ว่าจะเดินผ่านมาแล้วถามว่าจะให้เติมกาแฟเพิ่มไหมยังไงให้ดูเป็นธรรมชาติที่สุด แต่พอฉัน\nถามคำถามก่อนเลยไม่รู้ว่าต้องทำยังไงต่อดี รู้สึกผิดเลยแฮะ"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "Yes, I'm… working…"
-yu ""
+yu "อ่าฮะ ทำ… งาน…"
 
 show misha perky_sad
 with charachange
 
 # mi "Yuuko~, they make you work on holidays? Awwww…"
-mi ""
+mi "ยูโกะ~ วันหยุดยังต้องทำงานอีกเหรอ โธ่…"
 
 show yuukoshang neutral_down
 with charachange
 
 # yu "W-we have the most business on holidays, and sometimes tourists. I don't mind. I have to do my best."
-yu ""
+yu "วะ วันหยุดน่ะมีลูกค้าเยอะที่สุดแล้ว บางทีก็เป็นนักท่องเที่ยวด้วย ฉันไม่ถือหรอก จะทำให้เต็มที่เลย"
 
 show shizu adjust_happy_close
 show misha perky_smile
 with charachange
 
 # ssh "I understand completely. So admirable."
-ssh ""
+ssh "เข้าใจดีเลยละค่ะ น่านับถือมาก"
 
 # "Shizune nods her head in solidarity, feeling a kind of kinship with Yuuko through their shared determination to be the best, although for her it's a matter of pride whereas Yuuko might just feel that she really, really needs this job and maybe a raise."
-""
+"ชิซูเนะพยักหน้าเห็นด้วยพร้อมความรู้สึกที่เป็นคนหมู่เดียวกันที่มีความมุมานะในการทำอะไรให้เต็มที่ ถึงจะเป็น\nคนละสาเหตุกันก็เถอะ ชิซูเนะมุ่งมั่นเพราะศักดิ์ศรี ในขณะที่ของยูโกะน่าจะเป็นความอยากเกาะงานนี้ไว้ให้แน่นที่สุด\nพลางคอยการขึ้นเงินเดือนด้วย"
 
 # hi "The most business, huh? So, how many people on average during a holiday?"
-hi ""
+hi "ลูกค้าเยอะที่สุดงั้นเหรอ แล้วเฉลี่ยวันหยุดมีลูกค้ากี่คนเหรอครับ"
 
 show yuukoshang neurotic_up
 with charachange
 
 # yu "Ah, well…"
-yu ""
+yu "เอ่อ ก็…"
 
 show yuukoshang worried_up
 with charachange
 
-# yu "…"
-yu ""
+yu "…"
 
 hide yuukoshang
 with charaexit
@@ -6296,179 +6290,175 @@ show misha perky_smile:
 with dissolvecharamove
 
 # "Yuuko walks away and starts cleaning a cup of swizzle sticks. That isn't polite. This is not what a proper waitress would do! Nevertheless, I sort of got my answer anyway. Clearly, business is scarce at best."
-""
+"ยูโกะเดินหนีไปล้างแท่งคนเครื่องดื่มที่วางอยู่ในกระบอก หยาบคายนะเนี่ย บริกรที่ดีต้องไม่ทำแบบนีี้สิ! แต่เอาเถอะ\nแบบนี้ก็เป็นการตอบกลาย ๆ เหมือนกัน ชัดว่าเต็มที่ร้านนี้ก็คงมีลูกค้าสักห้าหกคน"
 
 # "I start to wonder again how the Shanghai remains open at all. Maybe this eclectic style of teahouse is a trend that was outrageously successful before I got here but isn't any more, and they're just keeping it like this while they retool."
-""
+"เริ่มสงสัยแล้วว่าร้านเซี่ยงไฮ้นี้ยังเปิดให้บริการอยู่ได้ยังไง หรือโรงน้ำชาที่การออกแบบดูเป็นลูกครึ่งแบบนี้จะเป็นกระแส\nที่เคยประสบความสำเร็จอย่างมากตอนก่อนที่ฉันจะทันได้มาที่นี่และตอนนี้ก็ไม่นิยมแล้ว โดยระหว่างปรับโฉมใหม่\nก็ให้ร้านอยู่แบบนี้ไปพลาง ๆ"
 
 # "Maybe the owner is rich and is involved in some sort of bet with someone else or a crazy scheme to see who can lose the most money. Maybe I just conveniently miss mobs of customers by seconds each visit."
-""
+"หรือเจ้าของเป็นคนรวยแล้วไปพนันหรือพัวพันกับแผนบ้า ๆ อะไรสักอย่างกับคนอื่นเพื่อตัดสินว่าใครจะเสียเงิน\nมากกว่ากัน หรือฉันอาจจะแค่คลาดกับลูกค้ากลุ่มใหญ่ ๆ ไปไม่กี่วินาทีทุกครั้งที่ฉันมาร้านนี้เฉย ๆ"
 
 # "Or maybe this place is just a front for arms dealers."
-""
+"หรืออาจเป็นการเปิดร้านบังหน้าธุรกิจค้าอาวุธ"
 
 # hi "Since there's no one else here, why don't you sit down with us?"
-hi ""
+hi "ไหน ๆ ก็ไม่มีลูกค้าอยู่แล้ว มานั่งด้วยกันไหมครับ"
 
 # "We can talk about economic infeasibility. …But Yuuko doesn't take the bait, shaking her head from side to side emphatically."
-""
+"จะได้มาคุยกันเรื่องว่าจำนวนลูกค้ามันประคองธุรกิจได้ยังไง …แต่ยูโกะก็สั่นหัวแรง ๆ ไม่ตกหลุมที่ฉันขุดไว้"
 
 show misha hips_grin
 with charachange
 
 # mi "I've never really celebrated Tanabata before, or dressed up for anything like this~! I'll finally be able to wear my yukata. Yay yay~!"
-mi ""
+mi "ฉันไม่เคยฉลองเทศกาลทานาบาตะหรือแต่งตัวสวย ๆ อะไรอย่างนี้มาก่อนเลย~! จะได้ใส่ชุดยูกาตะของตัวเองแล้ว\nเย้ เย้~!"
 
 # hi "What do you mean never? What about last year?"
-hi ""
+hi "ไม่เคยนี่หมายความว่ายังไง แล้วปีก่อนล่ะ"
 
 show misha sign_smile
 with charachange
 
 # mi "Hm~… last year, Shicchan, me, and the 3-2 class rep ran a stall for the festival! It was a soba stall, I think~? Yeah, it was~! Yup!"
-mi ""
+mi "อืม~… ปีก่อนชิจัง ฉัน แล้วก็หัวหน้าห้อง 3-2 ต้องทำแผงในงานเทศกาลน่ะ! เหมือนจะเป็นแผงบะหมี่โซบะมั้งนะ~\nใช่ ๆ ~! ใช่แล้ว!"
 
 show shizu adjust_blush_close
 with charachange
 
 # "The blind class rep of 3-2 must be Lilly. I'm surprised they were able to work together on anything, but Misha would likely be the best possible buffer for that kind of thing, with how innocent she is."
-""
+"หัวหน้าห้อง 3-2 ที่เป็นคนตาบอดน่าจะเป็นลิลลี่นั่นแหละ แปลกใจอยู่ที่สามคนนี้มาร่วมแรงร่วมใจทำอะไรด้วยกันได้\nแต่มิช่าน่าจะเป็นตัวกันชนกับเรื่องแบบนี้ได้ดีที่สุดเพราะเป็นคนใสซื่อมาก"
 
 show misha hips_grin
 with charachange
 
 # mi "Shicchan cooked, and Lilly took the orders, and I translated for them~!"
-mi ""
+mi "ชิจังเป็นคนทำ ลิลลี่รับรายการจากลูกค้า ส่วนฉันก็เป็นคนแปลให้~!"
 
 show misha hips_smile
 with charachange
 
 # mi "Shicchan kept saying, “It's so inefficient~! Misha~! Why do you have to be the middleman? As in~, why is there a middleman in the first place? Huh~? It would be fine if I did the cooking and you took orders! It doesn't make sense at all!”"
-mi ""
+mi "ชิจังเอาแต่บอกว่า “วุ่นวายมากเลย~! มิช่า~! ทำไมเธอต้องเป็นคนกลางด้วย คือ~ ทำไมต้องมีคนกลาง หา~?\nให้ฉันเป็นคนทำแล้วเธอเป็นคนรับรายการก็จบแล้ว! ไม่สมเหตุสมผลเลย!”"
 
 show misha sign_smile
 with charachange
 
 # mi "But~! I think everyone had fun in the end. Right, Shicchan~?"
-mi ""
+mi "แต่~! สุดท้ายทุกคนก็สนุกกันนะ เนอะ ชิจัง~"
 
 show shizu behind_frustrated_close
 with charachange
 
-# shi "… … …"
-shi ""
+shi "… … …"
 
 # "Shizune adjusts her glasses grudgingly, causing Misha to break into laughter."
-""
+"ชิซูเนะดันแว่นพร้อมอารมณ์โกรธแค้นจนมิช่าหลุดหัวเราะ"
 
 show misha hips_grin
 with charachange
 
 # mi "It was the old Student Council's idea~! That's why~!"
-mi ""
+mi "ก็สภานักเรียนรุ่นก่อนเป็นคนคิดน่ะสิ~! ถึงได้เป็นแบบนี้~!"
 
 # hi "So, what was the last Student Council like, then?"
-hi ""
+hi "แล้วสภานักเรียนรุ่นก่อนเป็นยังไงเหรอ"
 
 # "Shizune finally decides to step in again, or it's more like she can't stop herself."
-""
+"ชิซูเนะเข้ามาเสริมอีกครั้ง หรือไม่ก็น่าจะคุมตัวเองไม่อยู่แล้วมากกว่า"
 
 show shizu basic_angry_close
 with charachange
 
 # ssh "Terrible."
-ssh ""
+ssh "ห่วยแตก"
 
 # "That was blunt. She ends with a chopping motion, as if passing judgment on them. I hope she's going to elaborate a little."
-""
+"ขวานผ่าซากดีแฮะ ชิซูเนะฟาดแขนตัดคำนั้นราวกับลงคำพิพากษากับสภารุ่นก่อน ขยายความเพิ่มหน่อยก็ดีนะ"
 
 show shizu adjust_angry_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_confused
 with charachange
 
 # mi "At universities and some private schools, student councils can have control over millions of yen to budget and distribute as needed! Wow~! Really? Millions? Ah, right~! And they are much more involved in school activities, too, Hicchan!"
-mi ""
+mi "กับมหาวิทยาลัยหรือโรงเรียนเอกชนบางที่นะ สภานักเรียนจะมีอำนาจดูแลงบหลายล้านเยน เอาไปแจกจ่าย\nตามความจำเป็นได้ด้วย! โห~! จริงเหรอ หลายล้านเลยเหรอ อ้อ จริงสิ~! แล้วก็สภานักเรียนจะมีส่วนร่วมกับกิจกรรม\nของโรงเรียนมากกว่านี้เยอะด้วยนะฮิจัง!"
 
 # "From Misha's tone, it seems like this is newer to her than it is to me."
-""
+"ฟังจากน้ำเสียงแล้วมิช่าน่าจะเพิ่งรู้อะไรหลายอย่างหลังฉันเสียอีก"
 
 show misha hips_frown
 with charachange
 
 # mi "This school's Student Council was like a joke in comparison~! Don't give people positions of power if they don't have any power at all! What's the point~?"
-mi ""
+mi "ให้เทียบแล้วสภานักเรียนของโรงเรียนนี้น่ะกระจอกไปเลย~! อย่าเอาคนมานั่งตำแหน่งทรงอำนาจโดยที่เจ้าตัว\nไม่มีอำนาจอะไรสิ! ทำไปเพื่ออะไร~"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "So…"
-ssh ""
+ssh "นี่แหละ…"
 
 show misha sign_smile
 with charachange
 
 # mi "…I wanted us to have more and more work~! It was hard to convince the school and the other Student Council members to allow it. Actually~, a lot of the work you've seen us do really is work that I took on, which is what Lilly was talking about."
-mi ""
+mi "…ฉันเลยอยากให้เราทำงานอีกเยอะ ๆ ~! ไปอธิบายให้สมาชิกสภานักเรียนคนอื่นก็แทบไม่มีใครฟังเลย อันที่จริง~\nงานหลายอย่างที่นายเห็นเราทำกันอยู่ก็เป็นงานที่ฉันรับมาเอง ที่ลิลลี่พูดถึงก็คืออันนี้นี่แหละ"
 
 show misha hips_grin
 with charachange
 
 # mi "If it wasn't for Shicchan, the Student Council would just file attendance reports day in and day out~!"
-mi ""
+mi "ถ้าไม่มีชิจัง สภานักเรียนก็คงได้แต่จัดเก็บบันทึกขาดลามาสายไปวัน ๆ ~!"
 
 show misha cross_laugh
 with charachange
 
 # mi "Hahaha~! Would you prefer that, Hicchan?"
-mi ""
+mi "ฮ่าฮ่าฮ่า~! หรือฮิจังจะเอาอย่างนั้น"
 
 show misha sign_smile
 with charachange
 
 # mi "Of course, Hicchan, as soon as the workload started going up, most of the Student Council stopped coming."
-mi ""
+mi "ซึ่งแน่นอนแหละนะฮิจังว่าพองานเริ่มเยอะขึ้นแล้วสภานักเรียนหลายคนก็ไม่มาอีกเลย"
 
 show misha hips_laugh
 with charachange
 
 # mi "Wahahaha~!"
-mi ""
+mi "วะฮ่าฮ่าฮ่า~!"
 
 show shizu basic_normal2_close
 show misha hips_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # "Shizune's fingers fold over each other carefully. It looks like she wants to add something, but she can't bring herself to."
-""
+"นิ้วมือชิซูเนะทับซ้อนกันไปมาช้า ๆ เหมือนเจ้าตัวจะอยากเสริมอะไรอีกแต่ก็ทำไม่ได้"
 
 # "Like she said, sign language gives you a little more time to think about what you “say.” I guess she feels like she can't talk about this."
-""
+"อย่างที่ชิซูเนะเคยบอกแหละนะว่าภาษามือจะให้เวลาคิดว่าจะ “พูด” อะไรดี ในใจคงรู้สึกว่าเป็นเรื่องที่คุยไม่ได้"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "That was then, and this is now. Let's just have fun tomorrow."
-ssh ""
+ssh "อดีตก็ส่วนอดีต ตอนนี้คือปัจจุบัน วันพรุ่งนี้ก็มาสนุกกัน"
 
 # "That is what she finally settles for."
-""
+"สุดท้ายชิซูเนะก็ส่งประโยคนี้มา"
 
 # hi "Yeah."
-hi ""
+hi "อื้ม"
 
 show shizu adjust_happy_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_smile
 with charachange
@@ -6476,46 +6466,46 @@ with charachange
 stop music fadeout 5.0
 
 # mi "Okay~! Then, Student Council is ad—jour—ned? for today~!"
-mi ""
+mi "โอเค~! งั้นวันนี้เราสภานักเรียนก็ส—ลาย—ตัว? กันได้~!"
 
 show misha hips_grin
 with charachange
 
 # mi "It has to be adjourned excitingly, because today was a good day."
-mi ""
+mi "ต้องสลายตัวกันแบบตื่นเต้น ๆ หน่อย เพราะวันนี้วันดี!"
 
 show misha cross_laugh
 with charachange
 
 # mi "Ahahaha~!"
-mi ""
+mi "อะฮ่าฮ่าฮ่า~!"
 
 scene bg school_road_ss
 with shorttimeskip
 
 # "School seems to be over by the time we leave the teahouse, as I can see students coming down from the school as we walk up the road towards it."
-""
+"ดูท่าว่าพวกเราคงออกจากโรงน้ำชามาตอนโรงเรียนเลิกแล้ว เพราะระหว่างที่เดินไปตามถนนกลับโรงเรียนก็เห็นนักเรียน\nที่เดินออกมาจากโรงเรียน"
 
 # "A couple people wearing our school uniform look at Shizune as she walks by, and I wonder if they recognize her as the Student Council president or if their eyes are just being drawn to Misha's head."
-""
+"มีคนที่ใส่ชุดนักเรียนสองคนมองชิซูเนะตอนเดินสวนกัน ไม่รู้ว่าจำประธานนักเรียนได้หรือแค่มองเพราะความเด่น\nของผมมิช่า"
 
 # "It's impossible not to overhear the chatter in the air, and the topic is more often than not plans for Tanabata. I wonder how many of them will be using or going to the stalls that I reassembled."
-""
+"เสียงจอแจจากผู้คนโดยรอบลอยเข้าหูมาอย่างเลี่ยงไม่ได้ ใจความส่วนมากก็เป็นเรื่องแผนเที่ยวงานเทศกาลทานาบาตะ\nในวันพรุ่งนี้ จะมีกี่คนกันนะที่จะได้มาใช้หรือแวะแผงที่ฉันเป็นคนประกอบ"
 
 # "It makes me feel a little pride, an emotion I've never felt doing something for school."
-""
+"ภูมิใจขึ้นมาหน่อย ๆ เหมือนกัน ไม่เคยรู้สึกอย่างนี้กับการทำบางอย่างเพื่อโรงเรียนเลย"
 
 # "Maybe this is how Shizune feels as well. I almost want to ask, but it seems stupid to want to do so."
-""
+"ชิซูเนะเองก็คงรู้สึกแบบนี้เหมือนกัน อยากถามอยู่เหมือนกัน แต่จะให้ถามแบบนั้นก็คงบ้าบอ"
 
 scene bg school_courtyard_ss
 with locationskip
 
 # "So I just hold on to the thought as the three of us walk onto campus and then separate; Shizune to the student council room, and Misha and me to our dorms."
-""
+"ฉันจึงเก็บคำถามนั้นไว้ในใจไประหว่างที่เราสามคนเดินกลับโรงเรียนก่อนจะแยกย้ายกัน ชิซูเนะจะไปที่ห้องสภานักเรียน\nส่วนมิช่ากับฉันจะกลับหอ"
 
 # "It isn't until they're gone that I realize I again didn't ask when and where they wanted to meet up tomorrow."
-""
+"ตอนที่สองคนนั้นไปแล้วฉันถึงนึกได้อีกรอบว่ายังไม่ได้ถามว่าพรุ่งนี้จะให้ไปเจอกันที่ไหน"
 
 $ suppress_window_after_timeskip = True
 
