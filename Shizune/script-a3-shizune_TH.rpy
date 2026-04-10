@@ -5214,7 +5214,7 @@ with charachange
 mi "วะฮ่าฮ่า~! งั้นคราวนี้ก็ต้องทำตลก ๆ ให้ไม่มีใครกล้าเอาไปเลย! เป็นไงชิจัง~"
 
 # hi "We can draw some weird faces on them. Or we can put a little picture of Shizune on each one saying “Stealing is wrong.”"
-hi "วาดหน้าคนหน้าอะไรเพี้ยน ๆ ติดก็ได้นะ ไม่ก็แปะรูปชิซูเนะใบเล็ก ๆ ไว้แล้วเขียนบนแต่ละใบว่า “ขโมยไม่ดีนะ”"
+hi "วาดหน้าคนหน้าอะไรเพี้ยน ๆ ติดก็ได้นะ ไม่ก็แปะรูปชิซูเนะใบเล็ก ๆ ไว้แล้วเขียนบนกล่องแต่ละใบว่า “ขโมยไม่ดีนะ”"
 
 show shizu behind_frown
 with charachange
