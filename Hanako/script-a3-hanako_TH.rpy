@@ -4975,38 +4975,46 @@ show hanagown worry:
     ease 0.1 ypos 1.17
 with Dissolve(0.1)
 
-"The person in question loudly claps her hands together, making Hanako jump a little bit."
+# "The person in question loudly claps her hands together, making Hanako jump a little bit."
+""
 
 show akira basic_lost
 with charachange
 
-"Akira notices this, and looks uneasy for a fraction of a second before getting back into her stride."
+# "Akira notices this, and looks uneasy for a fraction of a second before getting back into her stride."
+""
 
 show akira basic_smile
 with charachange
 
-"Only now do I realize that Akira hasn't paid Hanako's scars any undue attention. Hanako also seems to be comfortable, if not exactly relaxed, around Akira."
+# "Only now do I realize that Akira hasn't paid Hanako's scars any undue attention. Hanako also seems to be comfortable, if not exactly relaxed, around Akira."
+""
 
 show akira basic_laugh
 with charachange
 
-aki "Well then, I assume the presents got through? No point in waiting, considering Hisao and the birthday girl look like they're pretty eager."
+# aki "Well then, I assume the presents got through? No point in waiting, considering Hisao and the birthday girl look like they're pretty eager."
+aki ""
 
 show lilly basic_cheerful_paj
 with charachange
 
-"Lilly giggles as I awkwardly turn away, a little embarrassed by the fact that I couldn't hide my interest. Hanako's eyes are telling me that she wants to try the wine together with me, though, so I settle for a look of badly feigned indifference."
+# "Lilly giggles as I awkwardly turn away, a little embarrassed by the fact that I couldn't hide my interest. Hanako's eyes are telling me that she wants to try the wine together with me, though, so I settle for a look of badly feigned indifference."
+""
 
 show lilly basic_smile_paj
 show akira basic_smile
 show hanagown distant
 with charachange
 
-"Akira manages to uncork the first bottle with small effort, and Hanako goes to get some glasses before I get to pour the four of them full of white wine."
+# "Akira manages to uncork the first bottle with small effort, and Hanako goes to get some glasses before I get to pour the four of them full of white wine."
+""
 
-"I heard somewhere that white wine has less alcohol than red wine, so I think it would be the best to start with."
+# "I heard somewhere that white wine has less alcohol than red wine, so I think it would be the best to start with."
+""
 
-hi "Here's to Hanako, and to Lilly's trip."
+# hi "Here's to Hanako, and to Lilly's trip."
+hi ""
 
 show lilly basic_giggle_paj
 show akira basic_laugh
@@ -5017,38 +5025,48 @@ $ doublespeak (li, aki, "Cheers!")
 show hanagown smile
 with charachange
 
-ha "C-cheers…"
+# ha "C-cheers…"
+ha ""
 
 show lilly basic_smileclosed_paj
 show akira basic_smile
 with charachange
 
-"After the traditional raising of the glasses we all take sips of the pale yellow liquid. It's nothing like the stuff I've had with my parents, with the fruitiness of the flavor almost entirely hiding the taste of alcohol."
+# "After the traditional raising of the glasses we all take sips of the pale yellow liquid. It's nothing like the stuff I've had with my parents, with the fruitiness of the flavor almost entirely hiding the taste of alcohol."
+""
 
-"Maybe this is what proper wine is supposed to taste like. Then again, it's possible that Akira just chose a wine which would be suited to our tastes, since none of us are used to alcohol yet."
+# "Maybe this is what proper wine is supposed to taste like. Then again, it's possible that Akira just chose a wine which would be suited to our tastes, since none of us are used to alcohol yet."
+""
 
-"Or at least, I hope none of us are."
+# "Or at least, I hope none of us are."
+""
 
-hi "This isn't too bad. I was expecting something… harsher."
+# hi "This isn't too bad. I was expecting something… harsher."
+hi ""
 
 show akira basic_ending
 with charachange
 
-aki "If you hadn't liked it, I have a few other varieties you could have chosen from."
+# aki "If you hadn't liked it, I have a few other varieties you could have chosen from."
+aki ""
 
-hi "You sound like you know your stuff when it comes to wines."
+# hi "You sound like you know your stuff when it comes to wines."
+hi ""
 
 show akira basic_smile
 with charachange
 
-aki "Only a bit; I'm more of a beer kind of person."
+# aki "Only a bit; I'm more of a beer kind of person."
+aki ""
 
 show akira basic_laugh
 with charachange
 
-aki "I have the drinking side down pat, though."
+# aki "I have the drinking side down pat, though."
+aki ""
 
-"As if to prove her point, she refills her glass before bringing it to her lips and flicking her head back."
+# "As if to prove her point, she refills her glass before bringing it to her lips and flicking her head back."
+""
 
 stop music fadeout 6.0
 
@@ -5056,113 +5074,143 @@ show akira basic_smile
 show hanagown normal
 with charachange
 
-"Hanako and I silently watch as the whole glassful disappears down Akira's throat. I can't decide whether to be impressed or put off, but I certainly don't have any urge to imitate the act."
+# "Hanako and I silently watch as the whole glassful disappears down Akira's throat. I can't decide whether to be impressed or put off, but I certainly don't have any urge to imitate the act."
+""
 
 show lilly basic_displeased_paj
 with charachange
 
-"Lilly grimaces slightly at her sister's boast. I note that she is sipping from her glass as she does so, though."
+# "Lilly grimaces slightly at her sister's boast. I note that she is sipping from her glass as she does so, though."
+""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "Anyway, now that Akira's gift has been opened and sampled, shall we move onto ours?"
+# li "Anyway, now that Akira's gift has been opened and sampled, shall we move onto ours?"
+li ""
 
 show hanagown worry
 with charachange
 
-ha "G-gifts?"
+# ha "G-gifts?"
+ha ""
 
 play music music_twinkle fadein 6.0
 
 show lilly basic_smile_paj
 with charachange
 
-li "That's right, we got you presents. It's your birthday, after all."
+# li "That's right, we got you presents. It's your birthday, after all."
+li ""
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "This is from me."
+# li "This is from me."
+li ""
 
-"Lilly pulls out the carefully-wrapped doll from under the table and passes it to Hanako."
+# "Lilly pulls out the carefully-wrapped doll from under the table and passes it to Hanako."
+""
 
-"Hanako handles the present as if it was glassware, carefully turning it over to remove the tape that binds the wrapping. Eventually the paper falls from the doll, revealing the emerald green of the doll's dress."
+# "Hanako handles the present as if it was glassware, carefully turning it over to remove the tape that binds the wrapping. Eventually the paper falls from the doll, revealing the emerald green of the doll's dress."
+""
 
 show hanagown normal_blush
 with charachange
 
-ha "It's… beautiful."
+# ha "It's… beautiful."
+ha ""
 
-"I'm not sure what reaction I was expecting from Hanako. The near-total lack of dolls in her room made me think that she didn't care about them, but the look in her eyes now is something different."
+# "I'm not sure what reaction I was expecting from Hanako. The near-total lack of dolls in her room made me think that she didn't care about them, but the look in her eyes now is something different."
+""
 
-"She turns the doll around with the same delicacy she afforded the wrapping, as if she was expecting it to fall apart in her hands."
+# "She turns the doll around with the same delicacy she afforded the wrapping, as if she was expecting it to fall apart in her hands."
+""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "I'm glad that you like it. Hisao picked it out, to be honest."
+# li "I'm glad that you like it. Hisao picked it out, to be honest."
+li ""
 
-"Hanako suddenly remembers that she is not alone in the room, and shifts her focus from the doll."
+# "Hanako suddenly remembers that she is not alone in the room, and shifts her focus from the doll."
+""
 
 show hanagown smile
 with charachange
 
-ha "Y-yes, I like it. Th-thank you, Lilly and H-Hisao."
+# ha "Y-yes, I like it. Th-thank you, Lilly and H-Hisao."
+ha ""
 
-hi "Actually, I got you something else…"
+# hi "Actually, I got you something else…"
+hi ""
 
-"I reach into my bag and remove the wrapped chess set."
+# "I reach into my bag and remove the wrapped chess set."
+""
 
-hi "Here. Happy birthday."
+# hi "Here. Happy birthday."
+hi ""
 
 show hanagown normal
 with charachange
 
-"Hanako carefully sits Lilly's doll next to her and opens my present with the same care that she showed Lilly's."
+# "Hanako carefully sits Lilly's doll next to her and opens my present with the same care that she showed Lilly's."
+""
 
 #insert in
 
-"Before long, the checkered squares of the chessboard are visible, and Hanako gently runs her fingers across the carved surfaces."
+# "Before long, the checkered squares of the chessboard are visible, and Hanako gently runs her fingers across the carved surfaces."
+""
 
 show hanagown normal_blush
 with charachange
 
-ha "Oh!"
+# ha "Oh!"
+ha ""
 
-"Almost by accident she triggers the catch to the lid, startling herself in the process. She opens it and retrieves one of the gray pieces."
+# "Almost by accident she triggers the catch to the lid, startling herself in the process. She opens it and retrieves one of the gray pieces."
+""
 
-"She seems as absorbed in the chess pieces as she was in the doll before."
+# "She seems as absorbed in the chess pieces as she was in the doll before."
+""
 
-hi "They're coral. Natural coral, undyed. Or so I'm told."
+# hi "They're coral. Natural coral, undyed. Or so I'm told."
+hi ""
 
 show hanagown smile
 with charachange
 
-ha "Thank you, Hisao…"
+# ha "Thank you, Hisao…"
+ha ""
 
-hi "No problem. It's your birthday, after all."
+# hi "No problem. It's your birthday, after all."
+hi ""
 
 show hanagown distant
 with charachange
 
-ha "That's right… my birthday…"
+# ha "That's right… my birthday…"
+ha ""
 
-"Once again Hanako's reaction seems a little off, but she carefully closes the board lid."
+# "Once again Hanako's reaction seems a little off, but she carefully closes the board lid."
+""
 
 show akira basic_lost
 with charachange
 
 #insert out
 
-"I notice Akira's smile beginning to look very strained. I wonder if she knows anything about what happened in class, given that she seems to be treading on eggshells around Hanako."
+# "I notice Akira's smile beginning to look very strained. I wonder if she knows anything about what happened in class, given that she seems to be treading on eggshells around Hanako."
+""
 
-hi "I'll have to play you again sometime."
+# hi "I'll have to play you again sometime."
+hi ""
 
 show hanagown smile
 with charachange
 
-ha "I'll… make sure I'll play you first…"
+# ha "I'll… make sure I'll play you first…"
+ha ""
 #Note: yes it's a joke, not a mistake. -SC & Suriko
 
 show ev hanako_presents2:
@@ -5171,11 +5219,14 @@ show ev hanako_presents2:
     acdc_warp 10.0 zoom 1.0
 with whiteout
 
-"She takes the doll she received from Lilly and holds it to her chest together with the small chessboard, putting the piece on top."
+# "She takes the doll she received from Lilly and holds it to her chest together with the small chessboard, putting the piece on top."
+""
 
-"The act seems to settle her down somewhat, and we just sit in silence for a while."
+# "The act seems to settle her down somewhat, and we just sit in silence for a while."
+""
 
-"I think it's one of the few times I've seen her genuinely happy, cradling the friendship of two people to her chest as tightly as she can."
+# "I think it's one of the few times I've seen her genuinely happy, cradling the friendship of two people to her chest as tightly as she can."
+""
 
 show akira basic_boo
 show lilly basic_smile_paj
@@ -5184,100 +5235,126 @@ with None
 hide ev
 with locationchange
 
-ha "Thank you, Lilly. Thank you, Hisao."
+# ha "Thank you, Lilly. Thank you, Hisao."
+ha ""
 
 show hanagown worry_blush
 with charachange
 
-"In the process of thanking us, Hanako drops the chess piece and fumbles a bit in her rush to retrieve it."
+# "In the process of thanking us, Hanako drops the chess piece and fumbles a bit in her rush to retrieve it."
+""
 
 show hanagown distant
 with charachange
 
-"Once she finds it, Hanako puts the chess set down and nervously gulps at her wine. It's as if the real world suddenly rushed back into her consciousness, and her fastest escape from it was in a glass."
+# "Once she finds it, Hanako puts the chess set down and nervously gulps at her wine. It's as if the real world suddenly rushed back into her consciousness, and her fastest escape from it was in a glass."
+""
 
-hi "Hey, easy there, you shouldn't drink it that fast…"
+# hi "Hey, easy there, you shouldn't drink it that fast…"
+hi ""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "It is a party, Hisao…"
+# li "It is a party, Hisao…"
+li ""
 
-"Despite saying this, there is a slightly concerned edge to her voice. Eventually acquiescing, Lilly proceeds to follow Hanako's lead, though not as eagerly."
+# "Despite saying this, there is a slightly concerned edge to her voice. Eventually acquiescing, Lilly proceeds to follow Hanako's lead, though not as eagerly."
+""
 
-"She looks to be taking small sips from her glass and letting the wine settle on her tongue before swallowing. I decide that this is probably the best approach and do the same myself."
+# "She looks to be taking small sips from her glass and letting the wine settle on her tongue before swallowing. I decide that this is probably the best approach and do the same myself."
+""
 
-hi "Since this is kind of a going-away party for you as well, I hope you enjoy your trip at least a little, Lilly. Hopefully your aunt will be okay."
+# hi "Since this is kind of a going-away party for you as well, I hope you enjoy your trip at least a little, Lilly. Hopefully your aunt will be okay."
+hi ""
 
 show hanagown worry
 with charachange
 
-ha "I-I hope your aunt is okay too, Lilly…"
+# ha "I-I hope your aunt is okay too, Lilly…"
+ha ""
 
 show lilly basic_surprised_paj
 with charachange
 
-"Lilly and I are slightly taken aback by Hanako's fervor to wish Lilly well, despite her own familial situation. I'm a little impressed."
+# "Lilly and I are slightly taken aback by Hanako's fervor to wish Lilly well, despite her own familial situation. I'm a little impressed."
+""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "My my, thank you both. I'll be sure to convey your thoughts to my family when I meet them."
+# li "My my, thank you both. I'll be sure to convey your thoughts to my family when I meet them."
+li ""
 
 show akira basic_smile
 with charachange
 
-aki "It'll all be fine in the end, Lilly. Don't worry about it."
+# aki "It'll all be fine in the end, Lilly. Don't worry about it."
+aki ""
 
-"Since the room's mood has become noticeably more sullen, I decide to try and move things along."
+# "Since the room's mood has become noticeably more sullen, I decide to try and move things along."
+""
 
-hi "Well then, shall we start on the cake?"
+# hi "Well then, shall we start on the cake?"
+hi ""
 
 show hanagown normal
 show lilly basic_smileclosed_paj
 show akira basic_ending
 with charachange
 
-"My tentative suggestion has the intended effect, everyone lightening up considerably."
+# "My tentative suggestion has the intended effect, everyone lightening up considerably."
+""
 
 show hanagown normal_blush
 with charachange
 
-ha "Y-yes, please…"
+# ha "Y-yes, please…"
+ha ""
 
 show lilly basic_surprised_paj
 with charachange
 
-li "Cake? I didn't know there was any cake…"
+# li "Cake? I didn't know there was any cake…"
+li ""
 
-hi "I picked one up before I came, along with some snacks."
+# hi "I picked one up before I came, along with some snacks."
+hi ""
 
 show lilly basic_giggle_paj
 with charachange
 
-li "Well done, Hisao. At least one of us remembered to bring one."
+# li "Well done, Hisao. At least one of us remembered to bring one."
+li ""
 
-"Everyone seems to welcome the distraction, so I retrieve the cake from my bag and start cutting it up."
+# "Everyone seems to welcome the distraction, so I retrieve the cake from my bag and start cutting it up."
+""
 
-"Mixing wine and chocolate cake isn't something that I thought would work well, but none of us seem to mind. Conversation is temporarily suspended as we start to eat."
+# "Mixing wine and chocolate cake isn't something that I thought would work well, but none of us seem to mind. Conversation is temporarily suspended as we start to eat."
+""
 
-"I was initially wary of this idea; after Hanako's panic attack I expected the worst from tonight, but I think Lilly's idea of giving her good memories of her birthday is working. That, and also having it shared with her going-away party."
+# "I was initially wary of this idea; after Hanako's panic attack I expected the worst from tonight, but I think Lilly's idea of giving her good memories of her birthday is working. That, and also having it shared with her going-away party."
+""
 
-"From Hanako's reaction to her gifts, I can tell she was really appreciative."
+# "From Hanako's reaction to her gifts, I can tell she was really appreciative."
+""
 
 show lilly basic_smileclosed_paj
 show akira basic_smile
 show hanagown drunknormal
 with shorttimeskip
 
-"Hanako tries to pour herself another glass of wine, but ends up spilling some on the table. She's had a couple by now, so considering that she's never had alcohol before, it's no wonder if she's feeling a bit light-headed."
+# "Hanako tries to pour herself another glass of wine, but ends up spilling some on the table. She's had a couple by now, so considering that she's never had alcohol before, it's no wonder if she's feeling a bit light-headed."
+""
 
 show hanagown drunksad
 with charachange
 
-ha "S-sorry Lilly… I didn't mean to make a mess… I…"
+# ha "S-sorry Lilly… I didn't mean to make a mess… I…"
+ha ""
 
-hi "Don't worry, I've got it…"
+# hi "Don't worry, I've got it…"
+hi ""
 
 $ ksgallery_unlock("unlock_ev lilly_hanako_hug_end")
 show ev lilly_hanako_hug:
@@ -5285,15 +5362,20 @@ show ev lilly_hanako_hug:
     easein 12.0 yanchor 0.0 ypos -0.15
 with whiteout
 
-"Lilly reaches sideways and gently takes the fussing Hanako in her arms, giving me pause."
+# "Lilly reaches sideways and gently takes the fussing Hanako in her arms, giving me pause."
+""
 
-li "It's okay, Hanako. I'm just happy you're here."
+# li "It's okay, Hanako. I'm just happy you're here."
+li ""
 
-"Hanako gives only a faint nod in response. It's fitting, I suppose, that Lilly would be the one to support her like this. I have no idea what Hanako would be like if she hadn't."
+# "Hanako gives only a faint nod in response. It's fitting, I suppose, that Lilly would be the one to support her like this. I have no idea what Hanako would be like if she hadn't."
+""
 
-"Seeing the two like this makes me appreciate the fact that I'm privy to such an intimate moment. Even Akira can't help but smile at the sight."
+# "Seeing the two like this makes me appreciate the fact that I'm privy to such an intimate moment. Even Akira can't help but smile at the sight."
+""
 
-"I never would have thought I'd manage to find new friends so quickly, and I'm all the more thankful that of all people, these two are the two I befriended."
+# "I never would have thought I'd manage to find new friends so quickly, and I'm all the more thankful that of all people, these two are the two I befriended."
+""
 
 stop music fadeout 3.0
 
@@ -5308,16 +5390,20 @@ with None
 hide ev
 with locationchange
 
-"They slowly break off from one another, Hanako regaining herself somewhat while I quickly get myself back on task."
+# "They slowly break off from one another, Hanako regaining herself somewhat while I quickly get myself back on task."
+""
 
-"I find a towel among Lilly's tea set and start mopping up the spillage. By the time I finish, however, Hanako and Lilly have managed to uncork the other bottle and have topped off their glasses."
+# "I find a towel among Lilly's tea set and start mopping up the spillage. By the time I finish, however, Hanako and Lilly have managed to uncork the other bottle and have topped off their glasses."
+""
 
 show akira basic_ending
 with charachange
 
-aki "Looks like you're enjoying the wine, then. Just don't go too crazy with it after this, mind."
+# aki "Looks like you're enjoying the wine, then. Just don't go too crazy with it after this, mind."
+aki ""
 
-"We all dutifully nod and agree, but her reminder feels a bit silly given that she's the one supplying underage people with alcohol."
+# "We all dutifully nod and agree, but her reminder feels a bit silly given that she's the one supplying underage people with alcohol."
+""
 
 play music music_comedy fadein 0.5
 
@@ -5326,15 +5412,20 @@ show hanagown drunkgiggle at Position(xpos=0.5)
 show akira basic_boo
 with shorttimeskip
 
-"The second glass of wine goes down a lot quicker than the first, and before any of us notice, the second bottle is empty. While Akira is helping us finish them off, Hanako looks to be almost equaling her in the amount she's had."
+# "The second glass of wine goes down a lot quicker than the first, and before any of us notice, the second bottle is empty. While Akira is helping us finish them off, Hanako looks to be almost equaling her in the amount she's had."
+""
 
-"My head feels a little light, but I think I've managed to gauge my own tolerance surprisingly well. Hanako smiles lazily, toying with her doll's hair. I think it's a pretty safe bet that she… hasn't moderated herself as well as I."
+# "My head feels a little light, but I think I've managed to gauge my own tolerance surprisingly well. Hanako smiles lazily, toying with her doll's hair. I think it's a pretty safe bet that she… hasn't moderated herself as well as I."
+""
 
-"I don't think it was Hanako's intention to get this drunk, but it seems that the alcohol hit her all at once. She has a very light frame, something which wouldn't help her handle her booze well, either."
+# "I don't think it was Hanako's intention to get this drunk, but it seems that the alcohol hit her all at once. She has a very light frame, something which wouldn't help her handle her booze well, either."
+""
 
-"Lilly cradles her glass, running a finger around the rim. Her cheeks are rosy, but she's managing to avoid looking woefully drunk. Akira is, as I somewhat expected, largely unaffected."
+# "Lilly cradles her glass, running a finger around the rim. Her cheeks are rosy, but she's managing to avoid looking woefully drunk. Akira is, as I somewhat expected, largely unaffected."
+""
 
-"Her smile might be a little wider than before, though. Maybe."
+# "Her smile might be a little wider than before, though. Maybe."
+""
 
 show hanagown drunkgiggle:
     ease 0.1 ypos 1.15
@@ -5344,35 +5435,44 @@ with None
 show hanagown drunkpout
 with charachange
 
-"Hanako suddenly hiccups and accidentally knocks over the doll."
+# "Hanako suddenly hiccups and accidentally knocks over the doll."
+""
 
 show hanagown drunksad
 with charachange
 
-ha "I… think I should maybe go to bed. T-thank you, Hisao, thanks Lilly and Aaaakiraaaa."
+# ha "I… think I should maybe go to bed. T-thank you, Hisao, thanks Lilly and Aaaakiraaaa."
+ha ""
 
-"She slurs Akira's name pretty hard, barely avoiding breaking out into a giggle midway through. She's completely plastered, and I can't decide whether I should feel a little bad or not for being amused at the state she's in."
+# "She slurs Akira's name pretty hard, barely avoiding breaking out into a giggle midway through. She's completely plastered, and I can't decide whether I should feel a little bad or not for being amused at the state she's in."
+""
 
-"It really is bizarre to see her acting so carefree. A shame that it's only with the help of alcohol."
+# "It really is bizarre to see her acting so carefree. A shame that it's only with the help of alcohol."
+""
 
 show akira basic_ending at Position(ypos=1.0)
 with dissolvecharamove
 
-aki "Here, let me give you a hand."
+# aki "Here, let me give you a hand."
+aki ""
 
-"Akira begins to get up to help Hanako out, but she's stopped when Lilly gives a sharp cough."
+# "Akira begins to get up to help Hanako out, but she's stopped when Lilly gives a sharp cough."
+""
 
 show lilly basic_planned_paj
 with charachange
 
-li "Hisao, would you please?"
+# li "Hisao, would you please?"
+li ""
 
 show akira basic_lost
 with charachange
 
-"Akira looks a little surprised, and I have to admit that I am as well. I don't mind the request at all, let alone when it's said with such a smile… it just comes rather unexpectedly."
+# "Akira looks a little surprised, and I have to admit that I am as well. I don't mind the request at all, let alone when it's said with such a smile… it just comes rather unexpectedly."
+""
 
-hi "S-sure. No problem."
+# hi "S-sure. No problem."
+hi ""
 
 hide hanagown
 with None
@@ -5388,7 +5488,8 @@ with dissolvecharamove
 
 stop music fadeout 4.0
 
-"I pick up the chess set and help Hanako stand up. I do feel somewhat responsible for her considering that, other than Akira, I'm probably the most sober person in the room. She nurses the doll in one hand and offers me the other."
+# "I pick up the chess set and help Hanako stand up. I do feel somewhat responsible for her considering that, other than Akira, I'm probably the most sober person in the room. She nurses the doll in one hand and offers me the other."
+""
 
 #the following is weird on purpose, drunk etc
 
@@ -5424,7 +5525,8 @@ show bg school_dormhanako_ni:
     ease 1.0 center
 with Dissolve(1.0)
 
-"We stumble out of the door, into the hallway, and into Hanako's room, Hanako bumping into me a number of times on the way."
+# "We stumble out of the door, into the hallway, and into Hanako's room, Hanako bumping into me a number of times on the way."
+""
 
 play sound sfx_switch
 
@@ -5432,19 +5534,23 @@ scene bg school_dormhanako
 show hanagown drunkgiggle_close at center
 with Dissolve(0.2)
 
-"Inside the room, I flick on the light as Hanako turns her attention towards a shelf on her dresser. An elegant doll is sitting on it, staring into the bare room."
+# "Inside the room, I flick on the light as Hanako turns her attention towards a shelf on her dresser. An elegant doll is sitting on it, staring into the bare room."
+""
 
 show hanagown drunksmile_close
 with charachange
 
-ha "There you go… you'll be safe in here…"
+# ha "There you go… you'll be safe in here…"
+ha ""
 
 show ev hanako_dolls
 with locationchange
 
-"Hanako gingerly places the doll next to the other one and straightens its dress."
+# "Hanako gingerly places the doll next to the other one and straightens its dress."
+""
 
-"They sit in silence, hair and clothes perfectly arranged. Just like the teapot in Lilly's room, they serve as a distinct contrast to the dull whites and grays that permeate her bedroom."
+# "They sit in silence, hair and clothes perfectly arranged. Just like the teapot in Lilly's room, they serve as a distinct contrast to the dull whites and grays that permeate her bedroom."
+""
 
 #"Hanako slides the door closed. I balk a little at the thought of shutting them away, but I suppose it makes sense. Hanako loves Lilly's dolls, so she protects them as best she can."
 
@@ -5459,9 +5565,11 @@ show hanagown drunkdistant:
     ease 1.0 ypos 1.0
 with charadistant
 
-"Satisfied that her dolls, her only two real possessions, are safe, Hanako takes a step back and stands up, staggering severely. I step forward to catch her if need be, but she regains her balance without my help."
+# "Satisfied that her dolls, her only two real possessions, are safe, Hanako takes a step back and stands up, staggering severely. I step forward to catch her if need be, but she regains her balance without my help."
+""
 
-"For a while, both of us stand in silence as Hanako looks downwards toward the cupboard."
+# "For a while, both of us stand in silence as Hanako looks downwards toward the cupboard."
+""
 
 show hanagown drunkdistant:
     ease 1.0 xpos 0.48
@@ -5470,14 +5578,17 @@ show hanagown drunkdistant:
 with Pause(0.5)
 
 
-"After a minute or two she begins to sway a little from side to side. It's very off-putting."
+# "After a minute or two she begins to sway a little from side to side. It's very off-putting."
+""
 
-hi "Are you… going to be all right?"
+# hi "Are you… going to be all right?"
+hi ""
 
 show hanagown drunksmile at center
 with dissolvecharamove
 
-"Hanako raises her head, and turns around to me as if she's only just remembered that I'm also in the room."
+# "Hanako raises her head, and turns around to me as if she's only just remembered that I'm also in the room."
+""
 
 show hanagown drunksmile_close:
    ease 1.0 ypos 1.05
@@ -5486,63 +5597,84 @@ with vpunch
 stop music fadeout 0.3
 play sound sfx_pillow
 
-"What's unexpected is that she takes two steps towards me and wraps her arms around my body, her head coming to rest against my chest."
+# "What's unexpected is that she takes two steps towards me and wraps her arms around my body, her head coming to rest against my chest."
+""
 
 play music music_heart fadein 0.5
 
-"I can feel my heart beating as all of my senses feel like they're coming alive again after their deadening through the previous drinking."
+# "I can feel my heart beating as all of my senses feel like they're coming alive again after their deadening through the previous drinking."
+""
 
-"The smell of wine on her breath, the feeling of her fingers through my clothing, the scent of her hair underneath my chin…"
+# "The smell of wine on her breath, the feeling of her fingers through my clothing, the scent of her hair underneath my chin…"
+""
 
-"My hands remain out in front of me, not daring to touch her. The temptation is there to hug her, to embrace her, to tell her everything will be fine… but this feels wrong. Really, really wrong."
+# "My hands remain out in front of me, not daring to touch her. The temptation is there to hug her, to embrace her, to tell her everything will be fine… but this feels wrong. Really, really wrong."
+""
 
-hi "Hanako…"
+# hi "Hanako…"
+hi ""
 
 show hanagown drunknormal_close at Position(ypos=1.05)
 with charachange
 
-ha "But I want to staaaay with you and Lillyyyy."
+# ha "But I want to staaaay with you and Lillyyyy."
+ha ""
 
-"Hanako's slurring reminds me a bit of Misha. She probably wouldn't be pleased to hear that."
+# "Hanako's slurring reminds me a bit of Misha. She probably wouldn't be pleased to hear that."
+""
 
-hi "You know I can't. You're a girl and I'm a guy, after all, and Lilly needs to sleep."
+# hi "You know I can't. You're a girl and I'm a guy, after all, and Lilly needs to sleep."
+hi ""
 
 show hanagown drunkpout_close
 with charachange
 
-"She gives a disappointed groan. It's so strange for her to act so forward."
+# "She gives a disappointed groan. It's so strange for her to act so forward."
+""
 
-hi "Don't worry, I'll see you again tomorrow, okay?"
+# hi "Don't worry, I'll see you again tomorrow, okay?"
+hi ""
 
-"I decide to rest a hand on her head to reassure her, deciding that this is as far as I'll allow myself to go in terms of physical contact with her while she's in this state."
+# "I decide to rest a hand on her head to reassure her, deciding that this is as far as I'll allow myself to go in terms of physical contact with her while she's in this state."
+""
 
-"Hanako's head nuzzles against my chest. It makes me feel all the more uneasy with the situation, and as her arms tighten around my back, I quickly decide to bail out."
+# "Hanako's head nuzzles against my chest. It makes me feel all the more uneasy with the situation, and as her arms tighten around my back, I quickly decide to bail out."
+""
 
-"I rest my hands on her shoulders and give a firm but gentle push. Her grip tightens a little as I do so, but she eventually breaks off."
+# "I rest my hands on her shoulders and give a firm but gentle push. Her grip tightens a little as I do so, but she eventually breaks off."
+""
 
 show hanagown drunkworry_close
 with charachange
 
-ha "I don't want you to go…"
+# ha "I don't want you to go…"
+ha ""
 
-hi "Hanako, please. Akira and Lilly are going to start thinking weird stuff if I take too long here."
+# hi "Hanako, please. Akira and Lilly are going to start thinking weird stuff if I take too long here."
+hi ""
 
-"It's perfectly true, too. I really don't want to take any chances, and I feel very uncomfortable right now."
+# "It's perfectly true, too. I really don't want to take any chances, and I feel very uncomfortable right now."
+""
 
-"I shouldn't try to read anything into the way she's acting right now. I read that aside from alcohol lowering inhibitions, people can react to getting drunk in many different ways that don't necessarily reflect reality."
+# "I shouldn't try to read anything into the way she's acting right now. I read that aside from alcohol lowering inhibitions, people can react to getting drunk in many different ways that don't necessarily reflect reality."
+""
 
-"And even without that, there are plenty of ways to interpret what she's saying. As long as she's safe, I'm going to try and get out of her room as soon as possible."
+# "And even without that, there are plenty of ways to interpret what she's saying. As long as she's safe, I'm going to try and get out of her room as soon as possible."
+""
 
 show hanagown drunkworry_close:
     ease 0.1 ypos 1.03
     ease 0.1 ypos 1.05
 with Pause(0.2)
 
-"Hanako hiccups again, looking a right mess as she stands and looks downcast in the center of the room."
+# "Hanako hiccups again, looking a right mess as she stands and looks downcast in the center of the room."
+""
 
-"Her personality changed as she drank more and more, and now, all alone in her room with me, her previous brightness seems to have left her. Was she just acting upbeat to make sure we didn't worry?"
+# "Her personality changed as she drank more and more, and now, all alone in her room with me, her previous brightness seems to have left her. Was she just acting upbeat to make sure we didn't worry?"
+""
 
-"Even if she was… what could I possibly do for her, since I do exactly the same thing in regards to my own condition?"
+# "Even if she was… what could I possibly do for her, since I do exactly the same thing in regards to my own condition?"
+""
 
 show hanagown drunkworry_close:
     ease 1.0 ypos 1.1 alpha 0.0
@@ -5551,25 +5683,30 @@ with Pause(1.0)
 hide hanagown
 with None
 
-"Distancing myself from my thoughts, I eventually manage to corral Hanako towards her bed, though her attempts to tame the wild sheets on it end up accomplishing little."
+# "Distancing myself from my thoughts, I eventually manage to corral Hanako towards her bed, though her attempts to tame the wild sheets on it end up accomplishing little."
+""
 
-hi "Sorry about tonight, Hanako. I know you probably won't remember any of this, but… happy birthday. I'm sorry I couldn't do more for you."
+# hi "Sorry about tonight, Hanako. I know you probably won't remember any of this, but… happy birthday. I'm sorry I couldn't do more for you."
+hi ""
 
-"She looks up at me for a moment. I have no idea if what I said actually got through to her, but any chance to ask is lost as her eyes peacefully close."
+# "She looks up at me for a moment. I have no idea if what I said actually got through to her, but any chance to ask is lost as her eyes peacefully close."
+""
 
 play sound sfx_switch
 
 scene bg school_dormhanako_ni
 with Dissolve(0.2)
 
-"I sigh in relief before quietly backing away from her and leaving the room, flicking the light switch off as I go."
+# "I sigh in relief before quietly backing away from her and leaving the room, flicking the light switch off as I go."
+""
 
 stop music fadeout 4.0
 
 scene bg school_girlsdormhall
 with locationchange
 
-"I hesitate a little before opening the door to Lilly's room again, quickly rehearsing what I should say if I get questioned about Hanako. After a few seconds, I still can't come up with anything."
+# "I hesitate a little before opening the door to Lilly's room again, quickly rehearsing what I should say if I get questioned about Hanako. After a few seconds, I still can't come up with anything."
+""
 
 scene bg school_dormlilly
 show lilly basic_smileclosed_paj:
@@ -5580,44 +5717,58 @@ show akira basic_smile:
     ypos 1.18
 with locationchange
 
-"I open the door and make sure to close it behind me, lest any passing students catch a glimpse of the wine, before turning my attention to the two girls at the low table."
+# "I open the door and make sure to close it behind me, lest any passing students catch a glimpse of the wine, before turning my attention to the two girls at the low table."
+""
 
-"Akira's casually smiling, as is Lilly. I welcome the change from the mood in Hanako's room."
+# "Akira's casually smiling, as is Lilly. I welcome the change from the mood in Hanako's room."
+""
 
 show lilly basic_smile_paj
 with charachange
 
-li "Is that you, Hisao?"
+# li "Is that you, Hisao?"
+li ""
 
-hi "Yeah. I got Hanako to her bed; she's sleeping now."
+# hi "Yeah. I got Hanako to her bed; she's sleeping now."
+hi ""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "That's good. I have to admit I hadn't thought that she'd drink quite so much."
+# li "That's good. I have to admit I hadn't thought that she'd drink quite so much."
+li ""
 
 show akira basic_lost
 with charachange
 
-aki "Hey, it's fine. She's all safe and tucked up in bed now. With the way she is…"
+# aki "Hey, it's fine. She's all safe and tucked up in bed now. With the way she is…"
+aki ""
 
-"She awkwardly trails off, though Lilly and I would hardly protest. For someone so anxious and fearful, drinking would give an easy out from those constant feelings."
+# "She awkwardly trails off, though Lilly and I would hardly protest. For someone so anxious and fearful, drinking would give an easy out from those constant feelings."
+""
 
 play music music_night fadein 4.0
 
-"I wish I could do more for her. I feel useless."
+# "I wish I could do more for her. I feel useless."
+""
 
-"Looking at Lilly, I think back to what I asked myself in town. My relationship with her is that of a friend, and has only ever felt that way, but now I think I know why."
+# "Looking at Lilly, I think back to what I asked myself in town. My relationship with her is that of a friend, and has only ever felt that way, but now I think I know why."
+""
 
-"Lilly's been there for both Hanako and me since I first met her, but she's like that for everyone, trying to do her best to make them feel better."
+# "Lilly's been there for both Hanako and me since I first met her, but she's like that for everyone, trying to do her best to make them feel better."
+""
 
-"With that in mind, then what's the bond between me and Hanako?"
+# "With that in mind, then what's the bond between me and Hanako?"
+""
 
-"After rescuing our relationship following the panic attack I inadvertently triggered during class, I feel like we're back to being friends, but she's on my mind more and more."
+# "After rescuing our relationship following the panic attack I inadvertently triggered during class, I feel like we're back to being friends, but she's on my mind more and more."
+""
 
-"I can't say I view any other girl in quite the same way, but maybe it's just a normal reaction to someone acting like this."
+# "I can't say I view any other girl in quite the same way, but maybe it's just a normal reaction to someone acting like this."
+""
 
-hi "Say, Akira?"
+# hi "Say, Akira?"
+hi ""
 
 show akira basic_boo
 with charachange
@@ -5625,58 +5776,70 @@ with charachange
 show akira basic_smile
 with charachange
 
-"She yawns before looking at me. It is getting pretty late."
+# "She yawns before looking at me. It is getting pretty late."
+""
 
-hi "You know about what happened with Hanako, don't you?"
+# hi "You know about what happened with Hanako, don't you?"
+hi ""
 
 show akira basic_resigned
 with charachange
 
-aki "Yeah. Lilly told me."
+# aki "Yeah. Lilly told me."
+aki ""
 
 show akira basic_boo
 with charachange
 
-aki "I negotiated pretty hard for a break so I could come down and help make her birthday a bit brighter. We get along pretty well."
+# aki "I negotiated pretty hard for a break so I could come down and help make her birthday a bit brighter. We get along pretty well."
+aki ""
 
-"It's surprising to hear that from someone as extroverted as her, but if Hanako came to know her through Lilly, maybe she had time to get used to Akira."
+# "It's surprising to hear that from someone as extroverted as her, but if Hanako came to know her through Lilly, maybe she had time to get used to Akira."
+""
 
 show akira basic_smile at tworight
 with dissolvecharamove
 
-aki "And on that note, I'd better get going. I'm already going to be a bit late as it is."
+# aki "And on that note, I'd better get going. I'm already going to be a bit late as it is."
+aki ""
 
 show lilly basic_oops_paj
 with charachange
 
-li "But it's already so late…"
+# li "But it's already so late…"
+li ""
 
 show akira basic_boo
 with charachange
 
-aki "Sorry. We got a bunch of work dropped on us, so overtime it is."
+# aki "Sorry. We got a bunch of work dropped on us, so overtime it is."
+aki ""
 
 show akira invis:
     xpos 0.8
 with dissolvecharamove
 
-"She levers herself up with a grunt and heads past me towards the door. Just before she leaves, she turns back towards us."
+# "She levers herself up with a grunt and heads past me towards the door. Just before she leaves, she turns back towards us."
+""
 
 show akira basic_lost:
     tworight
 with dissolvecharamove
 
-aki "You haven't forgotten about the time for the flight and all the rest?"
+# aki "You haven't forgotten about the time for the flight and all the rest?"
+aki ""
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "Don't worry, I have everything ready. It's just a matter of packing when it gets closer to the time to leave."
+# li "Don't worry, I have everything ready. It's just a matter of packing when it gets closer to the time to leave."
+li ""
 
 show akira basic_ending
 with charachange
 
-aki "'Atta girl. I'll see you guys later, then."
+# aki "'Atta girl. I'll see you guys later, then."
+aki ""
 
 show akira invis:
     xpos 0.8
@@ -5685,138 +5848,180 @@ with dissolvecharamove
 hide akira
 with None
 
-"And with that, she disappears through the door with her hand held high in farewell."
+# "And with that, she disappears through the door with her hand held high in farewell."
+""
 
 show lilly basic_smileclosed_paj at Position(xpos=0.5)
 show bg school_dormlilly at bgright
 with charamove
 
-hi "Your sister is… something, all right."
+# hi "Your sister is… something, all right."
+hi ""
 
 show lilly basic_giggle_paj
 with charachange
 
-"I probably should have thought that comment through before saying it. Regardless, Lilly seems quite amused at my appraisal."
+# "I probably should have thought that comment through before saying it. Regardless, Lilly seems quite amused at my appraisal."
+""
 
-hi "You okay after all that drinking? Not wasted and just hiding it well?"
+# hi "You okay after all that drinking? Not wasted and just hiding it well?"
+hi ""
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "I assure you, I am quite all right. I can moderate myself. You seem quite self-possessed as well, if I do say so myself."
+# li "I assure you, I am quite all right. I can moderate myself. You seem quite self-possessed as well, if I do say so myself."
+li ""
 
-hi "Yeah, well, I guess your moderation applies to me as well."
+# hi "Yeah, well, I guess your moderation applies to me as well."
+hi ""
 
-"With a little hesitation, I take a seat at the table in front of Lilly. I want to address this directly, if for no other reason than to settle my own thoughts."
+# "With a little hesitation, I take a seat at the table in front of Lilly. I want to address this directly, if for no other reason than to settle my own thoughts."
+""
 
-hi "I've been meaning to ask this, but it took me a while to make up my mind…"
+# hi "I've been meaning to ask this, but it took me a while to make up my mind…"
+hi ""
 
-hi "Do you have any idea about what triggered that panic attack? I gathered it was something to do with her birthday, but I don't know anything more."
+# hi "Do you have any idea about what triggered that panic attack? I gathered it was something to do with her birthday, but I don't know anything more."
+hi ""
 
-hi "Even Akira was being really careful around her, so I assume she knows as well."
+# hi "Even Akira was being really careful around her, so I assume she knows as well."
+hi ""
 
 show lilly basic_reminisce_paj
 with charachange
 
-"Lilly's smile drops, the gaiety of the birthday party now well and truly over."
+# "Lilly's smile drops, the gaiety of the birthday party now well and truly over."
+""
 
-li "To be honest, I'm not sure of all of the details myself."
+# li "To be honest, I'm not sure of all of the details myself."
+li ""
 
-li "Hanako told you that she was in a house fire. She told me as much, after we met and spent a lot of time together."
+# li "Hanako told you that she was in a house fire. She told me as much, after we met and spent a lot of time together."
+li ""
 
 show lilly basic_concerned_paj
 with charachange
 
-li "Other than that… she quite simply never told me."
+# li "Other than that… she quite simply never told me."
+li ""
 
-hi "She never told you…"
+# hi "She never told you…"
+hi ""
 
 show lilly basic_sad_paj
 with charachange
 
-li "Assuming the worst, what does she have to look back upon? A life of isolation and possibly even the death of her family? Maybe even going as far as blaming her existence for their deaths?"
+# li "Assuming the worst, what does she have to look back upon? A life of isolation and possibly even the death of her family? Maybe even going as far as blaming her existence for their deaths?"
+li ""
 
-"Even thinking about what little I know of Hanako's past is bleak. To have lived through all that, and to live on with those memories, must be infinitely worse."
+# "Even thinking about what little I know of Hanako's past is bleak. To have lived through all that, and to live on with those memories, must be infinitely worse."
+""
 
-"Lilly looks similarly depressed, but I can see her rebuild at least some of her composure before my eyes."
+# "Lilly looks similarly depressed, but I can see her rebuild at least some of her composure before my eyes."
+""
 
-"I get the feeling that both of us are talking more frankly than we might otherwise do thanks to the wine, but it feels like just talking this out is a good thing anyway."
+# "I get the feeling that both of us are talking more frankly than we might otherwise do thanks to the wine, but it feels like just talking this out is a good thing anyway."
+""
 
-hi "I feel kind of helpless about it. When it's put like that, what can I possibly do for her?"
+# hi "I feel kind of helpless about it. When it's put like that, what can I possibly do for her?"
+hi ""
 
 show lilly basic_sleepy_paj
 with charachange
 
-li "I'm not wholly sure I should tell you this, but Hanako told me that you visited her the day after we both went to check on her."
+# li "I'm not wholly sure I should tell you this, but Hanako told me that you visited her the day after we both went to check on her."
+li ""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "I must admit that I did not predict she would take such a step so quickly after what happened, nor did I expect you to. I think it was a nice gesture on your part."
+# li "I must admit that I did not predict she would take such a step so quickly after what happened, nor did I expect you to. I think it was a nice gesture on your part."
+li ""
 
-hi "It wasn't much, really."
+# hi "It wasn't much, really."
+hi ""
 
-hi "It's just… at times like this, I sometimes think it would be better if we never had to leave Yamaku, or at least this town. Things are so much easier without others around."
+# hi "It's just… at times like this, I sometimes think it would be better if we never had to leave Yamaku, or at least this town. Things are so much easier without others around."
+hi ""
 
-"I didn't expect Lilly to look quite so troubled at what I say, and for a while she looks lost in thought."
+# "I didn't expect Lilly to look quite so troubled at what I say, and for a while she looks lost in thought."
+""
 
 show lilly basic_oops_paj
 with charachange
 
-"She moves to speak, but stops herself as soon as she does, and rethinks. It's a bit off-putting."
+# "She moves to speak, but stops herself as soon as she does, and rethinks. It's a bit off-putting."
+""
 
 show lilly basic_reminisce_paj
 with charachange
 
-li "I think…"
+# li "I think…"
+li ""
 
 show lilly basic_smile_paj
 with charachange
 
-li "Tell me, do you have anything planned for Friday evening?"
+# li "Tell me, do you have anything planned for Friday evening?"
+li ""
 
-hi "Friday evening? No…"
+# hi "Friday evening? No…"
+hi ""
 
-hi "Isn't your flight to Scotland the next day? I don't think it would be a good idea to tire yourself out before you even get there."
+# hi "Isn't your flight to Scotland the next day? I don't think it would be a good idea to tire yourself out before you even get there."
+hi ""
 
 show lilly basic_weaksmile_paj
 with charachange
 
-li "I'll be all right, you needn't worry about me. I'd do this tomorrow evening, but I imagine Hanako will be feeling rather off for a while."
+# li "I'll be all right, you needn't worry about me. I'd do this tomorrow evening, but I imagine Hanako will be feeling rather off for a while."
+li ""
 
-"The thought of how she's going to be tomorrow makes me grimace. Maybe we should count our blessings that she didn't end up simply throwing up from drinking so much while having such a low tolerance."
+# "The thought of how she's going to be tomorrow makes me grimace. Maybe we should count our blessings that she didn't end up simply throwing up from drinking so much while having such a low tolerance."
+""
 
-hi "Well, I'm going to be able to attend whatever you are planning. What is it?"
+# hi "Well, I'm going to be able to attend whatever you are planning. What is it?"
+hi ""
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "Nothing unusual, I assure you. Just a little excursion."
+# li "Nothing unusual, I assure you. Just a little excursion."
+li ""
 
 show lilly basic_cheerful_paj
 with charachange
 
-li "And you'd better be off, Hisao. I can't imagine it's long at all until curfew is here."
+# li "And you'd better be off, Hisao. I can't imagine it's long at all until curfew is here."
+li ""
 
-"Oh damn, curfew. I'd completely forgotten."
+# "Oh damn, curfew. I'd completely forgotten."
+""
 
-"I look at the clock next to Lilly's bed, but it seems to be some oddity without written numerals. Which I suppose makes sense, given Lilly's condition."
+# "I look at the clock next to Lilly's bed, but it seems to be some oddity without written numerals. Which I suppose makes sense, given Lilly's condition."
+""
 
-"Not wanting to risk a haughty security patrol giving me a scolding, I get up and decide to go to my dorm as she says."
+# "Not wanting to risk a haughty security patrol giving me a scolding, I get up and decide to go to my dorm as she says."
+""
 
-hi "Well then. I guess I'll see you and Hanako tomorrow, assuming the both of you manage to get up in the morning."
+# hi "Well then. I guess I'll see you and Hanako tomorrow, assuming the both of you manage to get up in the morning."
+hi ""
 
 show lilly basic_smileclosed_paj
 with charachange
 
-li "Thank you for your concern, Hisao. Until then."
+# li "Thank you for your concern, Hisao. Until then."
+li ""
 
 scene bg school_girlsdormhall
 with locationchange
 
-"With that, I make my way out of her door and into the hallway."
+# "With that, I make my way out of her door and into the hallway."
+""
 
-"I hope her idea will be a good one."
+# "I hope her idea will be a good one."
+""
 
 stop music fadeout 2.0
 
@@ -5832,44 +6037,57 @@ with dissolve
 
 play sound sfx_doorknock
 
-"The hammering of a fist against the door feels like a nail being pounded into my head."
+# "The hammering of a fist against the door feels like a nail being pounded into my head."
+""
 
-"Once, twice, three times, I let out a long, annoyed breath and bear it while pressing my eyelids shut, fervently hoping for whoever it is to just go away."
+# "Once, twice, three times, I let out a long, annoyed breath and bear it while pressing my eyelids shut, fervently hoping for whoever it is to just go away."
+""
 
-"I feel pretty damn awful. My face feels like it's cast out of lead, my arms feel heavy, and I feel very queasy. It's been like this since I woke up half an hour ago, and I can't summon the energy to pick myself up out of bed."
+# "I feel pretty damn awful. My face feels like it's cast out of lead, my arms feel heavy, and I feel very queasy. It's been like this since I woke up half an hour ago, and I can't summon the energy to pick myself up out of bed."
+""
 
-"So… this is what they call a hangover."
+# "So… this is what they call a hangover."
+""
 
-"I wonder if perhaps this is the best treatment for teenagers who desperately want to try drinking as a way to feel like an adult. Considering how unpleasant this is, it's not something I want to repeat."
+# "I wonder if perhaps this is the best treatment for teenagers who desperately want to try drinking as a way to feel like an adult. Considering how unpleasant this is, it's not something I want to repeat."
+""
 
 play sound sfx_doorknock
 
-"A series of thumps rings out again, reverberating around the small room. I wish they'd just give up already; I have no intention of getting out of bed for them."
+# "A series of thumps rings out again, reverberating around the small room. I wish they'd just give up already; I have no intention of getting out of bed for them."
+""
 
-"Seconds pass, turning to minutes. Since no more knocks are coming from the door, whoever it was must have left. Thank goodness."
+# "Seconds pass, turning to minutes. Since no more knocks are coming from the door, whoever it was must have left. Thank goodness."
+""
 
 play music music_dreamy fadein 2.0
 
 scene bg school_dormhisao
 with openeye
 
-"Looking to my clock, the time when I really should think about getting dressed and ready for class is approaching. I don't think I can manage it, though."
+# "Looking to my clock, the time when I really should think about getting dressed and ready for class is approaching. I don't think I can manage it, though."
+""
 
-"I hate cutting class, but I don't think I'm going to be able to get much done at this rate. I can tell I look like a mess without needing to look in the mirror to confirm it, too."
+# "I hate cutting class, but I don't think I'm going to be able to get much done at this rate. I can tell I look like a mess without needing to look in the mirror to confirm it, too."
+""
 
 scene bg school_hallway3
 with shorttimeskip
 
-"The morning rush is giving me enough time to stand outside the classroom for a little while without looking too suspicious. I hope that Mutou doesn't ask any awkward questions about my not attending school yesterday."
+# "The morning rush is giving me enough time to stand outside the classroom for a little while without looking too suspicious. I hope that Mutou doesn't ask any awkward questions about my not attending school yesterday."
+""
 
-"I was sick, that much is true, it's just the reasons for it that I have to hide."
+# "I was sick, that much is true, it's just the reasons for it that I have to hide."
+""
 
-"Confident I can get by with a tactical omission of certain truths, I stride into the classroom doing my best to appear normal."
+# "Confident I can get by with a tactical omission of certain truths, I stride into the classroom doing my best to appear normal."
+""
 
 scene bg school_scienceroom
 with locationchange
 
-"The instant I open the door and take a single step in, I can feel a dozen eyes looking at me. There is no way I'm imagining this; they're not even making any attempt to hide it."
+# "The instant I open the door and take a single step in, I can feel a dozen eyes looking at me. There is no way I'm imagining this; they're not even making any attempt to hide it."
+""
 
 show hanako emb_emb:
     tworight
@@ -5879,20 +6097,26 @@ with charaenter
 show hanako emb_downtimid
 with charachange
 
-"My eyes take a quick sweep around the classroom, and I spot Hanako. We make eye contact momentarily, before she looks down and stares very hard at her desk."
+# "My eyes take a quick sweep around the classroom, and I spot Hanako. We make eye contact momentarily, before she looks down and stares very hard at her desk."
+""
 
-"Did she spill the beans? Mutou may be okay as far as teachers go, but underage drinking on campus is not exactly something that would be taken lightly."
+# "Did she spill the beans? Mutou may be okay as far as teachers go, but underage drinking on campus is not exactly something that would be taken lightly."
+""
 
-"I look to him with some trepidation."
+# "I look to him with some trepidation."
+""
 
 show muto normal at twoleft
 with charaenter
 
-mu "Feeling better today?"
+# mu "Feeling better today?"
+mu ""
 
-hi "Yeah. Thank you."
+# hi "Yeah. Thank you."
+hi ""
 
-"He motions for me to take my seat, my legs feeling like sticks as they carry me there. This is going to be a long day."
+# "He motions for me to take my seat, my legs feeling like sticks as they carry me there. This is going to be a long day."
+""
 
 scene bg school_scienceroom at bgleft
 with shorttimeskip
@@ -5900,25 +6124,31 @@ with shorttimeskip
 stop music fadeout 2.0
 play sound sfx_normalbell
 
-"As soon as the lunchbell rings, I'm on my way to Hanako's desk to ask her what's going on."
+# "As soon as the lunchbell rings, I'm on my way to Hanako's desk to ask her what's going on."
+""
 
-hi "Hanako… did you tell…?"
+# hi "Hanako… did you tell…?"
+hi ""
 
 show hanako emb_emb:
    center
    ypos 1.15
 with charaenter
 
-"She looks up at me and shakes her head. That's a big relief."
+# "She looks up at me and shakes her head. That's a big relief."
+""
 
 show hanako emb_downtimid
 with charachange
 
-ha "It's just…"
+# ha "It's just…"
+ha ""
 
-hi "Just…?"
+# hi "Just…?"
+hi ""
 
-mi "Well hello there, Hicchan. It's nice to see you again today~!"
+# mi "Well hello there, Hicchan. It's nice to see you again today~!"
+mi ""
 
 show bg school_scienceroom at bgright
 show hanako emb_downtimid:
@@ -5932,134 +6162,170 @@ with charaenter
 
 play music music_happiness fadein 2.0
 
-"I grimace and turn towards the unmistakable voice coming from behind me. That was way too upbeat a tone of voice to feel comfortable, even from Misha."
+# "I grimace and turn towards the unmistakable voice coming from behind me. That was way too upbeat a tone of voice to feel comfortable, even from Misha."
+""
 
-"Misha's happy smile is nothing out of the usual. Shizune's, though, is a very bad sign. The one she wears has become notched into my brain as her “I have got you seven ways from Sunday” smile."
+# "Misha's happy smile is nothing out of the usual. Shizune's, though, is a very bad sign. The one she wears has become notched into my brain as her “I have got you seven ways from Sunday” smile."
+""
 
-hi "Hi Shizune, Misha. You uh… you look happy to see me."
+# hi "Hi Shizune, Misha. You uh… you look happy to see me."
+hi ""
 
 show shizu adjust_smug
 with charachange
 
-shi "…?"
+# shi "…?"
+shi ""
 
 show misha hips_grin
 with charachange
 
-mi "Not feeling well yesterday, Hicchan~?"
+# mi "Not feeling well yesterday, Hicchan~?"
+mi ""
 
-hi "No, no I wasn't. But I'm feeling better now, at least."
+# hi "No, no I wasn't. But I'm feeling better now, at least."
+hi ""
 
 show shizu behind_smile
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha cross_smile
 with charachange
 
-mi "That's good to know, Hicchan."
+# mi "That's good to know, Hicchan."
+mi ""
 
-"Why do I get the feeling that Shizune is leading me into a trap?"
+# "Why do I get the feeling that Shizune is leading me into a trap?"
+""
 
-hi "You sound like you're not being completely serious."
+# hi "You sound like you're not being completely serious."
+hi ""
 
 show shizu adjust_happy
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha hips_smile
 with charachange
 
-mi "Oh no, Hicchan, we're genuinely pleased that you're all better now~."
+# mi "Oh no, Hicchan, we're genuinely pleased that you're all better now~."
+mi ""
 
 show shizu basic_happy
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
-"Shizune is positively overflowing with happiness. There's only one reason why she would be like this. Oh no."
+# "Shizune is positively overflowing with happiness. There's only one reason why she would be like this. Oh no."
+""
 
 show misha perky_smile
 with charachange
 
-mi "In fact, we were quite worried about you. After all…"
+# mi "In fact, we were quite worried about you. After all…"
+mi ""
 
 show misha sign_smile
 with charachange
 
-mi "You, Hanako and Lilly were all absent from class on the same day."
+# mi "You, Hanako and Lilly were all absent from class on the same day."
+mi ""
 
-"Yep, she's got us. So thoroughly that all I can do is sigh in defeat."
+# "Yep, she's got us. So thoroughly that all I can do is sigh in defeat."
+""
 
-hi "I guess you have your own theories about this. Could you just kinda… not tell anyone?"
+# hi "I guess you have your own theories about this. Could you just kinda… not tell anyone?"
+hi ""
 
 show misha cross_smile
 with charachange
 
-mi "It's a bit late for that, Hicchan~."
+# mi "It's a bit late for that, Hicchan~."
+mi ""
 
-"I suppose she's right, considering the looks I got as I entered class. Still, things only seem to be at the level of vague suspicion rather than outright accusations, so we'll probably be fine."
+# "I suppose she's right, considering the looks I got as I entered class. Still, things only seem to be at the level of vague suspicion rather than outright accusations, so we'll probably be fine."
+""
 
 show hanako emb_downsad
 with charachange
 
-"Hanako's face sinks a little further. Such attention is troublesome enough for me, let alone for her. Going by Shizune and Misha's reactions, I think they notice this as well."
+# "Hanako's face sinks a little further. Such attention is troublesome enough for me, let alone for her. Going by Shizune and Misha's reactions, I think they notice this as well."
+""
 
 show shizu basic_angry
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha hips_frown
 with charachange
 
-mi "The only reason why we're giving you such a hard time is that you ignored us yesterday morning~!"
+# mi "The only reason why we're giving you such a hard time is that you ignored us yesterday morning~!"
+mi ""
 
-"Yesterday morning? It takes a while to recollect what happened then, given the haze induced by the generally awful state I was in at the time."
+# "Yesterday morning? It takes a while to recollect what happened then, given the haze induced by the generally awful state I was in at the time."
+""
 
-hi "Oh, right, the knocking. That was you two?"
+# hi "Oh, right, the knocking. That was you two?"
+hi ""
 
 show shizu behind_frown
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha cross_frown
 with charachange
 
-mi "It was, and you left us there for ages after we'd taken all the effort of coming to your dormitory early in the morning."
+# mi "It was, and you left us there for ages after we'd taken all the effort of coming to your dormitory early in the morning."
+mi ""
 
-hi "Sorry, I was having a… problem with nausea? A problem with nausea."
+# hi "Sorry, I was having a… problem with nausea? A problem with nausea."
+hi ""
 
-"They're not buying it. I can't blame them."
+# "They're not buying it. I can't blame them."
+""
 
 show shizu behind_frustrated
 with charachange
 
-"Shizune's head drops in resignation before she reaches into her pocket."
+# "Shizune's head drops in resignation before she reaches into her pocket."
+""
 
-"Something white and yellow can be seen sticking out a little, and as she pulls it out, it turns out to be an envelope with very bright decorations on it."
+# "Something white and yellow can be seen sticking out a little, and as she pulls it out, it turns out to be an envelope with very bright decorations on it."
+""
 
 show letter_insert:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"Since she points it towards me, I duly take it."
+# "Since she points it towards me, I duly take it."
+""
 
-mi "This is what we were trying so hard to give you, Hicchan! You don't check your…"
+# mi "This is what we were trying so hard to give you, Hicchan! You don't check your…"
+mi ""
 
 stop music fadeout 5.0
 
-"I tune out the sound of Misha's voice as my eyes register what's written on the envelope."
+# "I tune out the sound of Misha's voice as my eyes register what's written on the envelope."
+""
 
 stop music fadeout 0.3
 
-hi "Iwanako…"
+# hi "Iwanako…"
+hi ""
 
-"I stare at the envelope for a moment, before suddenly remembering that there are people around me."
+# "I stare at the envelope for a moment, before suddenly remembering that there are people around me."
+""
 
 show misha cross_smile
 show shizu behind_blank
@@ -6074,24 +6340,29 @@ with Pause (1.0)
 hide letter_insert
 with None
 
-"There's a very strange, somewhat invasive feeling about their expressions. I kind of want to be alone right now."
+# "There's a very strange, somewhat invasive feeling about their expressions. I kind of want to be alone right now."
+""
 
 show hanako emb_sad
 with charachange
 
-ha "Iwanako…?"
+# ha "Iwanako…?"
+ha ""
 
-hi "It's nothing. Thank you for bringing me this, you two."
+# hi "It's nothing. Thank you for bringing me this, you two."
+hi ""
 
 show misha hips_grin
 with charachange
 
-mi "I should think so, after what we went through to get it to you~."
+# mi "I should think so, after what we went through to get it to you~."
+mi ""
 
 show misha hips_frown
 with charachange
 
-"I step back and say my goodbyes. Misha theatrically pouts even as I go out the door, but Shizune and Hanako remain very visibly curious about my reaction. I hope they won't interrogate me on this later."
+# "I step back and say my goodbyes. Misha theatrically pouts even as I go out the door, but Shizune and Hanako remain very visibly curious about my reaction. I hope they won't interrogate me on this later."
+""
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_parkambience fadein 2.0
@@ -6101,28 +6372,37 @@ with locationskip
 
 play music music_serene fadein 2.0
 
-"The smell of the gardens is, as always, a very pleasant sensation. Some of the most visible signs of how well-funded this school is, aside from its sheer size, are the expanse and condition of the grounds."
+# "The smell of the gardens is, as always, a very pleasant sensation. Some of the most visible signs of how well-funded this school is, aside from its sheer size, are the expanse and condition of the grounds."
+""
 
-"A good number of students can be seen eating lunch, chatting, and playing on the bright green lawns. Even some of the staff is enjoying the summer here, keeping watch over the students and idly walking along the long concrete paths."
+# "A good number of students can be seen eating lunch, chatting, and playing on the bright green lawns. Even some of the staff is enjoying the summer here, keeping watch over the students and idly walking along the long concrete paths."
+""
 
-"I'd never seen a sight like this in my home city. On excursions, maybe, but certainly never in the school or anywhere near where I lived."
+# "I'd never seen a sight like this in my home city. On excursions, maybe, but certainly never in the school or anywhere near where I lived."
+""
 
-"Even the bench I sit on to read is warmer thanks to the summertime sun, reminding me of why I haven't worn the school blazer even once yet."
+# "Even the bench I sit on to read is warmer thanks to the summertime sun, reminding me of why I haven't worn the school blazer even once yet."
+""
 
 show letter_open_insert:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
     easein 1.0 ypos 0.5 alpha 1.0
 with Pause (1.0)
 
-"Considering this, the sunflowers and splashes of vibrant yellow coloring adorning the paper are quite appropriate for the time. If only the words written on it were as well."
+# "Considering this, the sunflowers and splashes of vibrant yellow coloring adorning the paper are quite appropriate for the time. If only the words written on it were as well."
+""
 
-"Here I was, thinking I'd managed to get over her, when this troublesome thing shows up."
+# "Here I was, thinking I'd managed to get over her, when this troublesome thing shows up."
+""
 
-"Her handwriting looks vaguely familiar at best, and only now that I see it again I remember that she used to write in pink pen a lot. She was always very girly, for lack of a better term."
+# "Her handwriting looks vaguely familiar at best, and only now that I see it again I remember that she used to write in pink pen a lot. She was always very girly, for lack of a better term."
+""
 
-"But she was also quite fragile. I never knew if I liked this aspect of her or not, though with the arrival of this letter, that question seems to have become largely moot."
+# "But she was also quite fragile. I never knew if I liked this aspect of her or not, though with the arrival of this letter, that question seems to have become largely moot."
+""
 
-"The letter begins with not much more than an update on the state of things going on in her life. My old class had a good start to the school year, many are anxious about the exams that will be coming up in the future, etcetera."
+# "The letter begins with not much more than an update on the state of things going on in her life. My old class had a good start to the school year, many are anxious about the exams that will be coming up in the future, etcetera."
+""
 
 play sound sfx_paper
 
@@ -6130,7 +6410,8 @@ hide letter_open_insert
 show letter_open_insert_2
 with charachange
 
-"But it ends on a very personal, if brief, note. It feels a bit like she wrote most of the letter just to try and soften the blow from the ending."
+# "But it ends on a very personal, if brief, note. It feels a bit like she wrote most of the letter just to try and soften the blow from the ending."
+""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6149,11 +6430,14 @@ window show
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
-"And so, that's that. Our relationship is over. Nice, neat, and tidy, with no ambiguity."
+# "And so, that's that. Our relationship is over. Nice, neat, and tidy, with no ambiguity."
+""
 
-"I hadn't held on to any illusions that it could ever begin anew. The last time she visited me, neither of us said a thing, except for the one word she said as she left for the last time. “Goodbye.”"
+# "I hadn't held on to any illusions that it could ever begin anew. The last time she visited me, neither of us said a thing, except for the one word she said as she left for the last time. “Goodbye.”"
+""
 
-"Be that as it may… this feels more final. The capstone on an experiment that both of us tried, and failed at."
+# "Be that as it may… this feels more final. The capstone on an experiment that both of us tried, and failed at."
+""
 
 show letter_open_insert_2:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -6163,150 +6447,194 @@ with Pause (1.0)
 hide letter_open_insert_2
 with None
 
-"A loud shout draws my eyes away from the letter. It's just some students horsing around, with one of the teachers standing nearby coming over to talk to them."
+# "A loud shout draws my eyes away from the letter. It's just some students horsing around, with one of the teachers standing nearby coming over to talk to them."
+""
 
 mystery "Are you okay?"
 
 show yuuko neutral_down at center
 with charaenter
 
-"A tentative voice comes from my side. For a moment I assume it to be Hanako, but it's actually Yuuko."
+# "A tentative voice comes from my side. For a moment I assume it to be Hanako, but it's actually Yuuko."
+""
 
-hi "Oh, hello Yuuko. I thought you'd be in the library."
+# hi "Oh, hello Yuuko. I thought you'd be in the library."
+hi ""
 
 show yuuko closedhappy_up
 with charachange
 
-"She gives a cheerful smile, one quite fitting the atmosphere, and flourishes the empty wrapper of a roll in her hand. She must have someone else covering for her while she grabbed something to eat."
+# "She gives a cheerful smile, one quite fitting the atmosphere, and flourishes the empty wrapper of a roll in her hand. She must have someone else covering for her while she grabbed something to eat."
+""
 
-"It reminds me that I haven't had anything to eat yet. I don't feel hungry though, and skipping one lunch won't hurt."
+# "It reminds me that I haven't had anything to eat yet. I don't feel hungry though, and skipping one lunch won't hurt."
+""
 
 show yuuko smile_up
 with charachange
 
-yu "Mind if I sit here?"
+# yu "Mind if I sit here?"
+yu ""
 
-hi "Sure, go ahead."
+# hi "Sure, go ahead."
+hi ""
 
 show yuuko neutral_down at Position(ypos=1.15)
 with dissolvecharamove
 
-"I quickly slide the letter back into its envelope, slipping it inside my bag propped against the side of the bench as Yuuko takes a seat. She drops the wrapper into a bin beside us."
+# "I quickly slide the letter back into its envelope, slipping it inside my bag propped against the side of the bench as Yuuko takes a seat. She drops the wrapper into a bin beside us."
+""
 
-"Without much else to do, I lean back and take what enjoyment I can from the sun, silently reflecting on the letter."
+# "Without much else to do, I lean back and take what enjoyment I can from the sun, silently reflecting on the letter."
+""
 
-"The lush lawns, the clear blue skies… everything looks so different from the way it did back then. Even the school's surroundings, from the hill it's on to the woods around it, are completely opposite to the urban scenery I remember."
+# "The lush lawns, the clear blue skies… everything looks so different from the way it did back then. Even the school's surroundings, from the hill it's on to the woods around it, are completely opposite to the urban scenery I remember."
+""
 
-"Maybe this is what it's like to feel homesick. Then again, it's not an outright bad sensation; the feel of the area around Yamaku, while very different, is also nice. I think I could get used to it."
+# "Maybe this is what it's like to feel homesick. Then again, it's not an outright bad sensation; the feel of the area around Yamaku, while very different, is also nice. I think I could get used to it."
+""
 
 show yuuko smile_down
 with charachange
 
-yu "Hey, Hisao?"
+# yu "Hey, Hisao?"
+yu ""
 
-hi "Yeah?"
+# hi "Yeah?"
+hi ""
 
 show yuuko worried_down
 with charachange
 
-yu "You didn't answer my question from before. I wasn't going to say anything, but you still look troubled."
+# yu "You didn't answer my question from before. I wasn't going to say anything, but you still look troubled."
+yu ""
 
 show yuuko panic_up
 with charachange
 
-yu "If you don't want to say anything though, that's okay, I don't mind at all. Um, s-sorry for asking something strange like that…"
+# yu "If you don't want to say anything though, that's okay, I don't mind at all. Um, s-sorry for asking something strange like that…"
+yu ""
 
-hi "I don't mind."
+# hi "I don't mind."
+hi ""
 
-hi "It's just… I got a letter from someone I knew before I came to Yamaku. It made me think about some things."
+# hi "It's just… I got a letter from someone I knew before I came to Yamaku. It made me think about some things."
+hi ""
 
-hi "I thought I'd managed to get over most of the problems that my accident caused, but now I'm not really so sure. I kinda wish I'd never seen it."
-
-show yuuko worried_up
-with charachange
-
-yu "I don't think that's good, Hisao."
-
-show yuuko neutral_down
-with charachange
-
-yu "When my boyfriend left me, he did so very suddenly, and never let me know why. At first I was very depressed about it, but I decided to forgive him."
-
-hi "You forgave him? Couldn't he at least have talked properly with you about it?"
-
-yu "He was always one of those people that found it difficult to come close to others."
-
-yu "In the end, I decided that I fell in love with him for a reason. He was a good person, and I think that if I had been in his position, I would probably have found it just as hard to try and talk to him."
-
-hi "I don't… really see the connection to the letter I got."
+# hi "I thought I'd managed to get over most of the problems that my accident caused, but now I'm not really so sure. I kinda wish I'd never seen it."
+hi ""
 
 show yuuko worried_up
 with charachange
 
-yu "I mean that… um, how should I put this…"
-
-yu "It must have been very hard for that person to send that letter, and if they did, I think they must have thought very hard about exactly what to say."
-
-"Iwanako managed to write this letter and bring a final close to our relationship; something that I'd never managed to do."
-
-"Whereas here I am, trying to protect and help Hanako as best I can, especially with Lilly leaving for a while, and I'm not even able to deal with my own problems."
+# yu "I don't think that's good, Hisao."
+yu ""
 
 show yuuko neutral_down
 with charachange
 
-yu "Does that make sense?"
+# yu "When my boyfriend left me, he did so very suddenly, and never let me know why. At first I was very depressed about it, but I decided to forgive him."
+yu ""
 
-"She's taken my nonresponse and furrowed brow as doubt. She really reads faces too much, just like a certain other person."
+# hi "You forgave him? Couldn't he at least have talked properly with you about it?"
+hi ""
 
-hi "Yeah, that makes sense."
+# yu "He was always one of those people that found it difficult to come close to others."
+yu ""
 
-hi "The letter was just kind of a shock, really. I think I'd tried to fool myself into thinking that my life reset when I came into Yamaku, but now I'm suddenly aware that it didn't. I'm at a bit of a loss about how to deal with these feelings."
+# yu "In the end, I decided that I fell in love with him for a reason. He was a good person, and I think that if I had been in his position, I would probably have found it just as hard to try and talk to him."
+yu ""
+
+# hi "I don't… really see the connection to the letter I got."
+hi ""
+
+show yuuko worried_up
+with charachange
+
+# yu "I mean that… um, how should I put this…"
+yu ""
+
+# yu "It must have been very hard for that person to send that letter, and if they did, I think they must have thought very hard about exactly what to say."
+yu ""
+
+# "Iwanako managed to write this letter and bring a final close to our relationship; something that I'd never managed to do."
+""
+
+# "Whereas here I am, trying to protect and help Hanako as best I can, especially with Lilly leaving for a while, and I'm not even able to deal with my own problems."
+""
+
+show yuuko neutral_down
+with charachange
+
+# yu "Does that make sense?"
+yu ""
+
+# "She's taken my nonresponse and furrowed brow as doubt. She really reads faces too much, just like a certain other person."
+""
+
+# hi "Yeah, that makes sense."
+hi ""
+
+# hi "The letter was just kind of a shock, really. I think I'd tried to fool myself into thinking that my life reset when I came into Yamaku, but now I'm suddenly aware that it didn't. I'm at a bit of a loss about how to deal with these feelings."
+hi ""
 
 show yuuko worried_down
 with charachange
 
-yu "I think that's something I can't really help you with. Sorry."
+# yu "I think that's something I can't really help you with. Sorry."
+yu ""
 
-hi "It's fine. I think being able to talk with you helped me get things sorted out a bit better in my head, so thank you anyway."
+# hi "It's fine. I think being able to talk with you helped me get things sorted out a bit better in my head, so thank you anyway."
+hi ""
 
 show yuuko closedhappy_down
 with charachange
 
-"She nods and smiles sweetly. Yuuko is a nice girl, so it's a shame she's so highly strung so often."
+# "She nods and smiles sweetly. Yuuko is a nice girl, so it's a shame she's so highly strung so often."
+""
 
 play sound sfx_warningbell
 
 show yuuko panic_up
 with vpunch
 
-"The school bell ringing out startles us both."
+# "The school bell ringing out startles us both."
+""
 
-yu "Ah, I was supposed to be back before the bell!"
+# yu "Ah, I was supposed to be back before the bell!"
+yu ""
 
-hi "Oops…"
+# hi "Oops…"
+hi ""
 
 show yuuko worried_up at center
 with  Dissolvemove(0.3)
 
-"She jumps off the bench and almost races off without a second word, but turns on her heel as she remembers she was talking to me just now."
+# "She jumps off the bench and almost races off without a second word, but turns on her heel as she remembers she was talking to me just now."
+""
 
 show yuuko neutral_up
 with charachange
 
-yu "I'll see you later, Hisao. Cheer up, okay?"
+# yu "I'll see you later, Hisao. Cheer up, okay?"
+yu ""
 
-hi "I'll try to. Thanks, Yuuko."
+# hi "I'll try to. Thanks, Yuuko."
+hi ""
 
 stop music fadeout 9.0
 
 hide yuuko
 with charaexit
 
-"With a quick bow, Yuuko takes her leave and begins her rush to the library. Her flight catches the curious eyes of a few passing students, who are unenthusiastically trudging back to their classes after their fun."
+# "With a quick bow, Yuuko takes her leave and begins her rush to the library. Her flight catches the curious eyes of a few passing students, who are unenthusiastically trudging back to their classes after their fun."
+""
 
-"Reluctantly standing from the bench, I dust myself off and join them."
+# "Reluctantly standing from the bench, I dust myself off and join them."
+""
 
-"Even while I walk through the gardens back to the main building, the thought of the letter in my bag doesn't stray far from my mind."
+# "Even while I walk through the gardens back to the main building, the thought of the letter in my bag doesn't stray far from my mind."
+""
 
 stop ambient fadeout 2.0
 stop music fadeout 2.0
@@ -6324,11 +6652,14 @@ play ambient sfx_traffic fadein 1.0
 scene bg city_street2_ni
 with locationchange
 
-"The feeling of walking through the streets is one of very deep nostalgia. While Yamaku may be like the reverse of where I've lived in the past, the city at night is amazingly familiar."
+# "The feeling of walking through the streets is one of very deep nostalgia. While Yamaku may be like the reverse of where I've lived in the past, the city at night is amazingly familiar."
+""
 
-"My eyes are moving constantly from the bright electronic screens glowing high in the night sky, to the street lamps piercing the darkness with their light, to the businessmen enjoying themselves after work and the busily talking couples on dates."
+# "My eyes are moving constantly from the bright electronic screens glowing high in the night sky, to the street lamps piercing the darkness with their light, to the businessmen enjoying themselves after work and the busily talking couples on dates."
+""
 
-"Even if I didn't want to, I can't help soaking in every aspect of the city. I savor its familiarity like a sweet candy sitting on my tongue."
+# "Even if I didn't want to, I can't help soaking in every aspect of the city. I savor its familiarity like a sweet candy sitting on my tongue."
+""
 
 show akira basic_boo_ni:
     center
@@ -6338,9 +6669,11 @@ show lilly cane_smileclosed_cas_ni:
     xpos 0.41
 with charaenter
 
-"Lilly is walking to my left with her cane swaying to and fro, holding onto her sister's arm for guidance while talking to her."
+# "Lilly is walking to my left with her cane swaying to and fro, holding onto her sister's arm for guidance while talking to her."
+""
 
-"Compared to traveling by taxi or bus, being driven by Akira in her rather nice car was a much more enjoyable experience."
+# "Compared to traveling by taxi or bus, being driven by Akira in her rather nice car was a much more enjoyable experience."
+""
 
 show hanako invis_close:
     center
@@ -6357,43 +6690,56 @@ show lilly cane_smileclosed_cas_ni:
 show hanako basic_distant_cas_close_ni at tworight
 with dissolvecharamove
 
-"Maybe not for the person on my right, though. While Lilly was used to her sister's driving style, and I quite liked a bit of excitement, Hanako was holding very tightly to the door for most of the trip."
+# "Maybe not for the person on my right, though. While Lilly was used to her sister's driving style, and I quite liked a bit of excitement, Hanako was holding very tightly to the door for most of the trip."
+""
 
 show hanako basic_smile_cas_close_ni
 with charachange
 
-ha "E-everything looks so p-pretty at night…"
+# ha "E-everything looks so p-pretty at night…"
+ha ""
 
 show hanako emb_downtimid_cas_close_ni
 with charachange
 
-"Hanako quickly looks down yet again as she accidentally catches someone's gaze."
+# "Hanako quickly looks down yet again as she accidentally catches someone's gaze."
+""
 
-hi "Yeah, it does."
+# hi "Yeah, it does."
+hi ""
 
-"My answer isn't very thoughtful, since I'm distracted by so many thoughts that I find it hard to keep up on smalltalk."
+# "My answer isn't very thoughtful, since I'm distracted by so many thoughts that I find it hard to keep up on smalltalk."
+""
 
-"One of those distractions, aside from the city sights, is how Hanako looks."
+# "One of those distractions, aside from the city sights, is how Hanako looks."
+""
 
-"This is the first time I've seen her in something other than her school uniform or her pajamas. It gave me pause when I first saw her outfit, when we met up at the school gate."
+# "This is the first time I've seen her in something other than her school uniform or her pajamas. It gave me pause when I first saw her outfit, when we met up at the school gate."
+""
 
-"Considering how much her head is lowered when people walk near us, I imagine that the hat she wears is more than a fashion statement."
+# "Considering how much her head is lowered when people walk near us, I imagine that the hat she wears is more than a fashion statement."
+""
 
-"While initially I was wary of Lilly's plan to take us out into the city, when night fell it became obvious she had thought about this. Not many people have paid Hanako much heed, since the darkness hides her scarring well."
+# "While initially I was wary of Lilly's plan to take us out into the city, when night fell it became obvious she had thought about this. Not many people have paid Hanako much heed, since the darkness hides her scarring well."
+""
 
-hi "So… we're in the city. Any ideas on what to do?"
+# hi "So… we're in the city. Any ideas on what to do?"
+hi ""
 
 show akira basic_smile_ni
 with charachange
 
-"Akira beams a smile. Something tells me that she's the one who is making this particular decision, even if her sister may have proposed the outing in the first place."
+# "Akira beams a smile. Something tells me that she's the one who is making this particular decision, even if her sister may have proposed the outing in the first place."
+""
 
 show akira basic_ending_ni
 with charachange
 
-aki "You'll see. Just follow us."
+# aki "You'll see. Just follow us."
+aki ""
 
-"I nod, and try my best to stifle a grimace. After what happened during Hanako's birthday party, I don't trust Akira's judgment all that much."
+# "I nod, and try my best to stifle a grimace. After what happened during Hanako's birthday party, I don't trust Akira's judgment all that much."
+""
 
 $ renpy.music.set_volume(0.1, 1.0, channel="ambient")
 $ renpy.music.set_volume(0.1, 0.0, channel="music")
@@ -6402,39 +6748,50 @@ play music music_jazz fadein 14.0
 scene bg city_street3_ni
 with locationchange
 
-"We keep walking, and I notice that we're passing more and more cafés, restaurants, and other eateries."
+# "We keep walking, and I notice that we're passing more and more cafés, restaurants, and other eateries."
+""
 
-"Every once in a while a drunken man in a suit comes out of a bar, usually being supported by another, but for the most part the customers around this part of the city look young and fashionable."
+# "Every once in a while a drunken man in a suit comes out of a bar, usually being supported by another, but for the most part the customers around this part of the city look young and fashionable."
+""
 
-"Different kinds of music come and go as we pass by each business. The discord created by the overlaps should be grating, but it reminds me so strongly of the times I spent in the city with my old friends that I don't mind."
+# "Different kinds of music come and go as we pass by each business. The discord created by the overlaps should be grating, but it reminds me so strongly of the times I spent in the city with my old friends that I don't mind."
+""
 
-"Hanako and I have started to drift a little apart from Lilly and Akira. That comes to a stop when I hear a soft thud from beside me."
+# "Hanako and I have started to drift a little apart from Lilly and Akira. That comes to a stop when I hear a soft thud from beside me."
+""
 
 show hanako defarms_shock_cas_ni
 with vpunch
 
-ha "S-s-sorry…!"
+# ha "S-s-sorry…!"
+ha ""
 
-"By the time she rights herself from her apologetic bow, the middle-aged businessman she bumped into is walking away after mumbling a half-hearted apology."
+# "By the time she rights herself from her apologetic bow, the middle-aged businessman she bumped into is walking away after mumbling a half-hearted apology."
+""
 
 show hanako emb_downtimid_cas_ni
 with charachange
 
-"Hanako looks a little put off by the experience, and as she quickly skips ahead to match my pace, I notice her head hanging low once more. She probably bumped into him because she was looking downwards and not where she was going."
+# "Hanako looks a little put off by the experience, and as she quickly skips ahead to match my pace, I notice her head hanging low once more. She probably bumped into him because she was looking downwards and not where she was going."
+""
 
 show hanako emb_timid_cas_close_ni
 with charachange
 
-"I step to the side a little and put one hand on her far shoulder, drawing her closer."
+# "I step to the side a little and put one hand on her far shoulder, drawing her closer."
+""
 
-ha "Hisao?"
+# ha "Hisao?"
+ha ""
 
-hi "It's okay. You can walk closer to me if you want."
+# hi "It's okay. You can walk closer to me if you want."
+hi ""
 
 show hanako emb_smile_cas_close_ni
 with charachange
 
-"Hanako hesitates, but eventually nods in assent."
+# "Hanako hesitates, but eventually nods in assent."
+""
 
 stop ambient fadeout 1.0
 $ renpy.music.set_volume(0.5, 10.0, channel="music")
@@ -6453,57 +6810,75 @@ with locationskip
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_crowd_outdoors fadein 2.0
 
-"After a couple of times when I'd thought we had arrived at Akira's destination, we reach our target. By now we're below the elevated walkways, and past the most garish and brightly-lit places."
+# "After a couple of times when I'd thought we had arrived at Akira's destination, we reach our target. By now we're below the elevated walkways, and past the most garish and brightly-lit places."
+""
 
-"I'm a bit surprised. The average age of those around us is distinctly older, and the smell of cigarette smoke is pretty thick. The area is far from seedy though, and it's a little amusing to see Lilly's reaction to the smell of the smoke."
+# "I'm a bit surprised. The average age of those around us is distinctly older, and the smell of cigarette smoke is pretty thick. The area is far from seedy though, and it's a little amusing to see Lilly's reaction to the smell of the smoke."
+""
 
-"While it's masked by the low talking of those around us, jazz music can be heard emanating from inside. Looking up at the dimly-lit sign, it becomes obvious why."
+# "While it's masked by the low talking of those around us, jazz music can be heard emanating from inside. Looking up at the dimly-lit sign, it becomes obvious why."
+""
 
-hi "A jazz club. I have to admit, this isn't what I expected."
+# hi "A jazz club. I have to admit, this isn't what I expected."
+hi ""
 
 show lilly cane_giggle_cas_ni
 with charachange
 
-"Lilly gives an amused snort and a smile."
+# "Lilly gives an amused snort and a smile."
+""
 
 show lilly cane_smileclosed_cas_ni
 with charachange
 
-li "Somehow I feel like I should have known it, Akira."
+# li "Somehow I feel like I should have known it, Akira."
+li ""
 
-"As we talk outside, I notice more and more odd sideways glances directed our way. People awkwardly catch themselves staring and look away, but that just makes it more obvious."
+# "As we talk outside, I notice more and more odd sideways glances directed our way. People awkwardly catch themselves staring and look away, but that just makes it more obvious."
+""
 
-"I had noticed this occasionally when we were walking, but it's more pronounced now."
+# "I had noticed this occasionally when we were walking, but it's more pronounced now."
+""
 
-"I've never experienced anything like that in my life. An average-looking Japanese teenage guy, just a little taller than normal, isn't the type to draw attention without making an effort."
+# "I've never experienced anything like that in my life. An average-looking Japanese teenage guy, just a little taller than normal, isn't the type to draw attention without making an effort."
+""
 
 show akira basic_laugh_ni
 with charachange
 
-aki "Hey, c'mon. Just because you're teenagers, doesn't mean you can't have a taste. Right?"
+# aki "Hey, c'mon. Just because you're teenagers, doesn't mean you can't have a taste. Right?"
+aki ""
 
-hi "Well… I don't really mind the music, if that's what you mean."
+# hi "Well… I don't really mind the music, if that's what you mean."
+hi ""
 
 show hanako cover_bashful_cas_close_ni
 with charachange
 
-ha "I-I… don't mind it… either…"
+# ha "I-I… don't mind it… either…"
+ha ""
 
-"She's only just managing to force the words out. It contrasts heavily to when we're alone in Yamaku, and it disappoints me a little that she's so highly strung for what's supposed to be a good time out on the town."
+# "She's only just managing to force the words out. It contrasts heavily to when we're alone in Yamaku, and it disappoints me a little that she's so highly strung for what's supposed to be a good time out on the town."
+""
 
-"It's hard to read Hanako's face as she keeps looking downwards. It's little wonder if she doesn't often come out into the city because of this, and it makes me a little thankful that my own scarring is easily hidden."
+# "It's hard to read Hanako's face as she keeps looking downwards. It's little wonder if she doesn't often come out into the city because of this, and it makes me a little thankful that my own scarring is easily hidden."
+""
 
-"Lilly has a similar way of attracting people's gazes, but the reason for it is clearly different. She hardly looks like a native, and the same can be said for her sister. That much is far more noticeable than her blindness, from a distance."
+# "Lilly has a similar way of attracting people's gazes, but the reason for it is clearly different. She hardly looks like a native, and the same can be said for her sister. That much is far more noticeable than her blindness, from a distance."
+""
 
-"She may not be able to see this for herself, but I have little doubt she can hear the odd whispered phrase from people who think they're out of earshot."
+# "She may not be able to see this for herself, but I have little doubt she can hear the odd whispered phrase from people who think they're out of earshot."
+""
 
-"Be that as it may, she doesn't seem to show any sign of either annoyance or pleasure at the attention."
+# "Be that as it may, she doesn't seem to show any sign of either annoyance or pleasure at the attention."
+""
 
 hide akira
 hide lilly
 with charaexit
 
-"Akira's still as confident as ever, though. Flashing a smile, she strides in with Lilly by her side and the two of us following behind."
+# "Akira's still as confident as ever, though. Flashing a smile, she strides in with Lilly by her side and the two of us following behind."
+""
 
 stop ambient fadeout 1.0
 $ renpy.music.set_volume(1.0, 10.0, channel="music")
@@ -6517,18 +6892,23 @@ with locationchange
 $ renpy.music.set_volume(0.8, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 1.0
 
-"I had expected my eyes to need adjusting to the light inside, but it's not much brighter than outside."
+# "I had expected my eyes to need adjusting to the light inside, but it's not much brighter than outside."
+""
 
-"The music we'd heard is clearer now, mixed in with the sound of glasses moving on the tables and counter, and the husky chatter of the patrons. Looking to my right reveals the music's source, a jazz group playing beyond some tables."
+# "The music we'd heard is clearer now, mixed in with the sound of glasses moving on the tables and counter, and the husky chatter of the patrons. Looking to my right reveals the music's source, a jazz group playing beyond some tables."
+""
 
-"The patrons seem to be mostly men, and though there's a handful of women, nobody looks under thirty. Aside from us, of course."
+# "The patrons seem to be mostly men, and though there's a handful of women, nobody looks under thirty. Aside from us, of course."
+""
 
-"It feels a little like we've stepped into the 1920s, and the atmosphere is quite agreeable. I'm not completely comfortable simply because of my age, but were I older, I would probably feel quite at home."
+# "It feels a little like we've stepped into the 1920s, and the atmosphere is quite agreeable. I'm not completely comfortable simply because of my age, but were I older, I would probably feel quite at home."
+""
 
 show hanako basic_smile_cas_close at tworight
 with charaenter
 
-"Hanako seems a bit more relaxed now, probably due to nobody looking at her. Everybody's talking between themselves, drinking, or watching the band."
+# "Hanako seems a bit more relaxed now, probably due to nobody looking at her. Everybody's talking between themselves, drinking, or watching the band."
+""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 
@@ -6538,7 +6918,8 @@ show akira basic_smile behind crowd:
 hide crowd
 with Dissolve(1.0)
 
-"Akira casually takes a seat at the counter without even glancing around. She's probably come here before."
+# "Akira casually takes a seat at the counter without even glancing around. She's probably come here before."
+""
 
 show lilly basic_smileclosed_cas:
     twoleft
@@ -6546,45 +6927,55 @@ show lilly basic_smileclosed_cas:
     easein 1.0 ypos 1.1
 with Dissolve(1.0)
 
-"Lilly retracts her cane, feeling out the bar stool and the edge of the counter before taking a seat beside her sister. The bartender takes a brief break from polishing a glass to watch her, before putting it down and coming over."
+# "Lilly retracts her cane, feeling out the bar stool and the edge of the counter before taking a seat beside her sister. The bartender takes a brief break from polishing a glass to watch her, before putting it down and coming over."
+""
 
-"Bartender" "Good evening, ladies. What'll it be?"
+# "Bartender" "Good evening, ladies. What'll it be?"
+thname("Bartender") ""
 
 show akira basic_ending:
     center
     ypos 1.06
 with charachange
 
-aki "Just a scotch, thanks. Lilly?"
+# aki "Just a scotch, thanks. Lilly?"
+aki ""
 
 show lilly basic_cheerful_cas:
     twoleft
     xpos 0.25 ypos 1.1
 with charachange
 
-li "May I have a glass of cham—{w=0.5}{nw}"
+# li "May I have a glass of cham—{w=0.5}{nw}"
+li ""
 
 show lilly basic_surprised_cas
 show akira basic_boo
 with vpunch
 
-"A black-suited elbow hits her side sharply."
+# "A black-suited elbow hits her side sharply."
+""
 
 show lilly basic_weaksmile_cas
 with charachange
 
-li "Orange juice, please."
+# li "Orange juice, please."
+li ""
 
-"Bartender" "No problem, coming right up."
+# "Bartender" "No problem, coming right up."
+""
 
-"The bartender starts to pour their drinks. A couple of seconds pass before Akira suddenly remembers that Hanako and I are indeed here, and turns around to us."
+# "The bartender starts to pour their drinks. A couple of seconds pass before Akira suddenly remembers that Hanako and I are indeed here, and turns around to us."
+""
 
 show akira basic_smile
 with charachange
 
-aki "You two want anything, or are you just gonna stand there?"
+# aki "You two want anything, or are you just gonna stand there?"
+aki ""
 
-"Hanako seems to be getting a bit restless. No matter where we're going to seat ourselves, there's going to be people right next to her, and I don't think she looks convincingly older than twenty, unlike Lilly."
+# "Hanako seems to be getting a bit restless. No matter where we're going to seat ourselves, there's going to be people right next to her, and I don't think she looks convincingly older than twenty, unlike Lilly."
+""
 
 show bg city_clubint:
     xpos 0.4
@@ -6596,26 +6987,32 @@ show hanako basic_smile_cas_close:
     xpos 0.5
 with charamove
 
-"Looking around, there's a games section to our right. A couple of billiards tables can be seen in the corner, and nobody's using them either."
+# "Looking around, there's a games section to our right. A couple of billiards tables can be seen in the corner, and nobody's using them either."
+""
 
-"I glance to Hanako, about to ask her if she'd like to play, but she's already looking longingly in the same direction. Maybe it says something that we can get by with so few words nowadays."
+# "I glance to Hanako, about to ask her if she'd like to play, but she's already looking longingly in the same direction. Maybe it says something that we can get by with so few words nowadays."
+""
 
-hi "We'll go play pool over there."
+# hi "We'll go play pool over there."
+hi ""
 
 show akira basic_boo
 with charachange
 
-"Akira leans back to see past me, before shrugging and sitting back up."
+# "Akira leans back to see past me, before shrugging and sitting back up."
+""
 
 show lilly basic_giggle_cas
 with charachange
 
-li "It seems you'll have to put up with only me for company. How unfortunate."
+# li "It seems you'll have to put up with only me for company. How unfortunate."
+li ""
 
 show akira basic_smile
 with charachange
 
-aki "Have fun, you two."
+# aki "Have fun, you two."
+aki ""
 
 $ renpy.music.set_volume(0.8, 1.0, channel="music")
 stop ambient fadeout 14.0
@@ -6623,142 +7020,183 @@ stop ambient fadeout 14.0
 hide hanako
 with charaexit
 
-"We turn and set off for the abandoned corner, with Hanako taking the lead."
+# "We turn and set off for the abandoned corner, with Hanako taking the lead."
+""
 
-"The prospect of a nice, quiet game away from everyone makes her walk noticeably faster. Her eyes stay firmly fixed on her prize."
+# "The prospect of a nice, quiet game away from everyone makes her walk noticeably faster. Her eyes stay firmly fixed on her prize."
+""
 
 scene bg city_clubpool
 with locationchange
 
-"The table's full-size and well-lit despite the surrounding darkness, thanks to the bright overhead lights. A huge painting of… something… covers the wall."
+# "The table's full-size and well-lit despite the surrounding darkness, thanks to the bright overhead lights. A huge painting of… something… covers the wall."
+""
 
-"There aren't many people milling about this corner of the club, and I can see Hanako becoming a little less tense as a result."
+# "There aren't many people milling about this corner of the club, and I can see Hanako becoming a little less tense as a result."
+""
 
 show hanako basic_smile_cas at center
 with charaenter
 
-ha "You… kn-know how to play?"
+# ha "You… kn-know how to play?"
+ha ""
 
-hi "I'm no expert, but yeah, I do."
+# hi "I'm no expert, but yeah, I do."
+hi ""
 
 show hanako basic_bashful_cas
 with charachange
 
-ha "Then um… eight-ball?"
+# ha "Then um… eight-ball?"
+ha ""
 
-hi "Sure."
+# hi "Sure."
+hi ""
 
 hide hanako
 with charaexit
 
-"Hanako gets the chalk and two cues from a set of hooks against one of the walls, while I fetch the balls from the table's pockets and grab the rack from a shelf underneath."
+# "Hanako gets the chalk and two cues from a set of hooks against one of the walls, while I fetch the balls from the table's pockets and grab the rack from a shelf underneath."
+""
 
-"She patiently waits as I get the table set up. After slotting the final ball into the rack and doing some last adjustments, I end up having to fight my perfectionist urges in getting the bottom row of balls exactly perpendicular with the edges."
+# "She patiently waits as I get the table set up. After slotting the final ball into the rack and doing some last adjustments, I end up having to fight my perfectionist urges in getting the bottom row of balls exactly perpendicular with the edges."
+""
 
-"With the balls arranged and ready for play, I step back and take my cue from her outstretched arm. I carry out a quick inspection of the tip before I'm satisfied that it's in good condition."
+# "With the balls arranged and ready for play, I step back and take my cue from her outstretched arm. I carry out a quick inspection of the tip before I'm satisfied that it's in good condition."
+""
 
-hi "So you've played before?"
+# hi "So you've played before?"
+hi ""
 
 show hanako cover_bashful_cas
 with charaenter
 
-ha "Once… or twice. I j-just kind of… know the rules."
+# ha "Once… or twice. I j-just kind of… know the rules."
+ha ""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
-"The air between us feels a little awkward. She's still pretty nervous; understandably, given that we're in public."
+# "The air between us feels a little awkward. She's still pretty nervous; understandably, given that we're in public."
+""
 
-"Eventually the silence becomes too much even for Hanako, and she begins to quietly stammer."
+# "Eventually the silence becomes too much even for Hanako, and she begins to quietly stammer."
+""
 
 $ renpy.music.set_volume(0.8, 1.0, channel="music")
 
 show hanako basic_worry_cas
 with charachange
 
-ha "Wh-who'll… b-break?"
+# ha "Wh-who'll… b-break?"
+ha ""
 
-"I think for a moment before reaching into my pocket and drawing a coin."
+# "I think for a moment before reaching into my pocket and drawing a coin."
+""
 
-hi "I'll take heads, you're tails."
+# hi "I'll take heads, you're tails."
+hi ""
 
-"After a nod of agreement from Hanako, I flick the coin up in the air, catch it, and flip it over onto the back of my left hand."
+# "After a nod of agreement from Hanako, I flick the coin up in the air, catch it, and flip it over onto the back of my left hand."
+""
 
-hi "Looks like it's you that gets to break."
+# hi "Looks like it's you that gets to break."
+hi ""
 
 $ ksgallery_unlock("ev hanako_billiards_distant")
 scene ev hanako_billiards_break
 with locationchange
 
-"Hanako nods again, before taking up her position at the end of the table."
+# "Hanako nods again, before taking up her position at the end of the table."
+""
 
-"She's not usually this quiet around me, but I'm not wholly sure if it's because of the tidbit of information about her past that slipped out moments ago."
+# "She's not usually this quiet around me, but I'm not wholly sure if it's because of the tidbit of information about her past that slipped out moments ago."
+""
 
 scene bg city_clubpool
 with flash
 
 play sound sfx_billiards_break
 
-"The cue comes back in a practiced gesture before smacking dead into the center of the cue ball with a thud. The white ball skates across the smooth green expanse before smashing into the carefully-arranged balls at the other end."
+# "The cue comes back in a practiced gesture before smacking dead into the center of the cue ball with a thud. The white ball skates across the smooth green expanse before smashing into the carefully-arranged balls at the other end."
+""
 
-"Balls skitter across the table at high speed. The break was good, with the balls being nicely distributed around the table. My eyes are already flicking from one to another to pick out the easiest candidates to pocket."
+# "Balls skitter across the table at high speed. The break was good, with the balls being nicely distributed around the table. My eyes are already flicking from one to another to pick out the easiest candidates to pocket."
+""
 
 play sound sfx_billiards
 
-"Hanako retreats from the side and I take my shot."
+# "Hanako retreats from the side and I take my shot."
+""
 
 show hanako basic_smile_cas at center
 with charaenter
 
-ha "Well done."
+# ha "Well done."
+ha ""
 
-"It's only after Hanako says this that I realize the ball I was shooting at was sunk."
+# "It's only after Hanako says this that I realize the ball I was shooting at was sunk."
+""
 
-"I look at her and notice a small smile on her face. It's nice how playing games seems to loosen her up a little."
+# "I look at her and notice a small smile on her face. It's nice how playing games seems to loosen her up a little."
+""
 
-hi "Guess I'm stripes, then."
+# hi "Guess I'm stripes, then."
+hi ""
 
 show hanako cover_distant_cas
 with charachange
 
-"I take a step back and let her take the next shot, but she doesn't advance to the table. Rather, she looks down a little and rubs her arm."
+# "I take a step back and let her take the next shot, but she doesn't advance to the table. Rather, she looks down a little and rubs her arm."
+""
 
-"By now I can identify this as one of her gestures that mean she wants to say something, but isn't sure enough of herself to do it."
+# "By now I can identify this as one of her gestures that mean she wants to say something, but isn't sure enough of herself to do it."
+""
 
-hi "What's up?"
+# hi "What's up?"
+hi ""
 
 show hanako cover_bashful_cas
 with charachange
 
-ha "It's just… you had a… n-nice smile. Do you like… playing this?"
+# ha "It's just… you had a… n-nice smile. Do you like… playing this?"
+ha ""
 
-"I sigh and lean back against the table."
+# "I sigh and lean back against the table."
+""
 
-hi "I like playing, yeah. I think I was smiling because it's really nostalgic, though."
+# hi "I like playing, yeah. I think I was smiling because it's really nostalgic, though."
+hi ""
 
 show hanako def_worry_cas
 with charachange
 
-"Hanako tilts her head quizzically."
+# "Hanako tilts her head quizzically."
+""
 
-hi "Me and my friends used to play pool in the game centers near where we lived pretty often, and at night too."
+# hi "Me and my friends used to play pool in the game centers near where we lived pretty often, and at night too."
+hi ""
 
 show hanako basic_worry_cas
 with charachange
 
-ha "W-wouldn't your parents…"
+# ha "W-wouldn't your parents…"
+ha ""
 
-hi "My parents both worked, so they didn't mind me not being in the house. I stayed on top of schoolwork pretty easily as well, so there was plenty of time to do other stuff at night."
+# hi "My parents both worked, so they didn't mind me not being in the house. I stayed on top of schoolwork pretty easily as well, so there was plenty of time to do other stuff at night."
+hi ""
 
 show hanako basic_distant_cas
 with charachange
 
-"Our conversation dies down, with Hanako's timidity getting the better of her. In response, I get off the table and let her take her turn shooting."
+# "Our conversation dies down, with Hanako's timidity getting the better of her. In response, I get off the table and let her take her turn shooting."
+""
 #Variant play is happening here: usually one side shoots until some kind of foul happens, there's no taking turns. -SC
 
 scene ev hanako_billiards_smile
 with locationchange
 
-"There aren't many solids in easy positions, so Hanako bends down and takes a while to line herself up properly."
+# "There aren't many solids in easy positions, so Hanako bends down and takes a while to line herself up properly."
+""
 
 scene ev hanako_billiards_smile_close:
     truecenter
@@ -6766,252 +7204,324 @@ scene ev hanako_billiards_smile_close:
     easein 6.0 zoom 0.8
 with flash
 
-"Hanako's expression is the same as when we play chess; a relaxed but focused concentration. Athletes sometimes talk about getting into a zone where nothing unnecessary enters their mind, and I wonder if that's something she can do."
+# "Hanako's expression is the same as when we play chess; a relaxed but focused concentration. Athletes sometimes talk about getting into a zone where nothing unnecessary enters their mind, and I wonder if that's something she can do."
+""
 
-"Her posture is good. Better than mine, to be sure. It's very close to a textbook method of playing, whereas I tend to contort myself into whatever position I feel is most natural for the shot I'm taking."
+# "Her posture is good. Better than mine, to be sure. It's very close to a textbook method of playing, whereas I tend to contort myself into whatever position I feel is most natural for the shot I'm taking."
+""
 
 scene ev hanako_billiards_serious
 with locationchange
 
-"She lines up the cue. The cue comes back, and she does a couple of practice movements to make sure she's lined up correctly."
+# "She lines up the cue. The cue comes back, and she does a couple of practice movements to make sure she's lined up correctly."
+""
 
-"Hanako takes games so seriously. It's the only real hobby I know she has, outside of reading. It feels good to be able to share this kind of experience with her."
+# "Hanako takes games so seriously. It's the only real hobby I know she has, outside of reading. It feels good to be able to share this kind of experience with her."
+""
 
 scene bg city_clubpool
 with flash
 
 play sound sfx_billiards
 
-"She takes the shot after careful consideration, and the cue ball zooms off towards a ball sitting at a slightly awkward angle near a corner."
+# "She takes the shot after careful consideration, and the cue ball zooms off towards a ball sitting at a slightly awkward angle near a corner."
+""
 
-"Hanako's careful preparation pays off as the cue ball hits and sends the ball rolling towards the corner pocket. For a moment it looks like it'll stop just on the lip of the hole, but it eventually tilts just enough to drop in."
+# "Hanako's careful preparation pays off as the cue ball hits and sends the ball rolling towards the corner pocket. For a moment it looks like it'll stop just on the lip of the hole, but it eventually tilts just enough to drop in."
+""
 
-hi "Man, that was a hard shot. If you can pull that off, I don't think I have much hope."
+# hi "Man, that was a hard shot. If you can pull that off, I don't think I have much hope."
+hi ""
 
 show hanako emb_emb_cas at center
 with charaenter
 
-ha "I'm not… th-that good…"
+# ha "I'm not… th-that good…"
+ha ""
 
-hi "It's not just the shot though; even when lining it up you looked really serious. You're like this with chess, too."
+# hi "It's not just the shot though; even when lining it up you looked really serious. You're like this with chess, too."
+hi ""
 
 show hanako emb_downsmile_cas
 with charachange
 
-"The praise makes her a little flustered. She sets the cue against the table and stands, turning to me."
+# "The praise makes her a little flustered. She sets the cue against the table and stands, turning to me."
+""
 
-ha "I just… like those kinds of things…"
+# ha "I just… like those kinds of things…"
+ha ""
 
-"Her fingers are twisting and turning tightly."
+# "Her fingers are twisting and turning tightly."
+""
 
 show hanako emb_downtimid_cas
 with charachange
 
-ha "When I was in the orphanage… I just…  k-kept doing the things I liked… before."
+# ha "When I was in the orphanage… I just…  k-kept doing the things I liked… before."
+ha ""
 
-ha "If I p-played games with the others, th-that was enough for the helpers there, so…"
+# ha "If I p-played games with the others, th-that was enough for the helpers there, so…"
+ha ""
 
-"I'd never thought about it that way. Staff at an orphanage would naturally want to have everyone socialize at least a little."
+# "I'd never thought about it that way. Staff at an orphanage would naturally want to have everyone socialize at least a little."
+""
 
-hi "If it's okay for me to ask… what was it like for you at the orphanage?"
+# hi "If it's okay for me to ask… what was it like for you at the orphanage?"
+hi ""
 
 show hanako emb_sad_cas
 with charachange
 
-ha "W-why do you want to know?"
+# ha "W-why do you want to know?"
+ha ""
 
-"I've touched a nerve, but the fact that she responded at all shows there's at least a chance she'll answer my question. Before, she likely would just have shrunk away from it without a word."
+# "I've touched a nerve, but the fact that she responded at all shows there's at least a chance she'll answer my question. Before, she likely would just have shrunk away from it without a word."
+""
 
 show hanako emb_blushing_cas
 with charachange
 
-ha "I'll… tell you, but…"
+# ha "I'll… tell you, but…"
+ha ""
 
-hi "But…?"
+# hi "But…?"
+hi ""
 
 show hanako cover_worry_cas
 with charachange
 
-ha "Could you… t-tell me who I-Iwa… n-nako… is?"
+# ha "Could you… t-tell me who I-Iwa… n-nako… is?"
+ha ""
 
 $ renpy.music.set_volume(0.2, 1.0, channel="music")
 
-hi "Iwanako…? Oh, the letter."
+# hi "Iwanako…? Oh, the letter."
+hi ""
 
-"I wonder how long she's been waiting for the right opportunity to ask me this. I'm surprised, but don't hesitate. Sharing information is naturally a matter of give and take."
+# "I wonder how long she's been waiting for the right opportunity to ask me this. I'm surprised, but don't hesitate. Sharing information is naturally a matter of give and take."
+""
 
 $ renpy.music.set_volume(1.0, 8.0, channel="music")
 $ renpy.music.set_volume(0.4, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 8.0
 
-hi "She's… someone I used to like."
+# hi "She's… someone I used to like."
+hi ""
 
 show hanako basic_normal_cas
 with charachange
 
-"Her nervousness subsided, at least for the time it took to ask. Her curiosity is getting the better of her, and I feel a bit uncomfortable to be questioned on this, of all matters."
+# "Her nervousness subsided, at least for the time it took to ask. Her curiosity is getting the better of her, and I feel a bit uncomfortable to be questioned on this, of all matters."
+""
 
-"There's no way I could spill out all my feelings about Iwanako here. I don't even know myself what my feelings regarding her are, even after talking to Yuuko earlier, and I want to avoid the subject around Hanako."
+# "There's no way I could spill out all my feelings about Iwanako here. I don't even know myself what my feelings regarding her are, even after talking to Yuuko earlier, and I want to avoid the subject around Hanako."
+""
 
 show hanako def_worry_cas
 with charachange
 
-"Hanako doesn't look overly satisfied with the awkward ending to the discussion, but thinks better of continuing it. She was only just managing to ask me in the first place, without knowing that I wouldn't want to talk about it."
+# "Hanako doesn't look overly satisfied with the awkward ending to the discussion, but thinks better of continuing it. She was only just managing to ask me in the first place, without knowing that I wouldn't want to talk about it."
+""
 
-"I move to finally take my own shot. The lack of talking between us is filled by the chatter of other patrons and the band at the other end of the club."
+# "I move to finally take my own shot. The lack of talking between us is filled by the chatter of other patrons and the band at the other end of the club."
+""
 
 hide hanako
 with charaexit
 
-"Spying a shot that doesn't look too difficult, I try and shoot for it."
+# "Spying a shot that doesn't look too difficult, I try and shoot for it."
+""
 
 play sound sfx_billiards
 
-"The cue ball taps the ball, and the trajectory is about right, but I put in too much power. It grazes the corner of the hole and moves off to the side, just skirting the pocket."
+# "The cue ball taps the ball, and the trajectory is about right, but I put in too much power. It grazes the corner of the hole and moves off to the side, just skirting the pocket."
+""
 
-"I grit my teeth a little. I was pretty good at this game, and it's frustrating to have deteriorated so much."
+# "I grit my teeth a little. I was pretty good at this game, and it's frustrating to have deteriorated so much."
+""
 
-"I step back and let Hanako take her turn, glancing towards the counter where Lilly and Akira are sitting. They're talking busily between themselves, and seem to be having a good time."
+# "I step back and let Hanako take her turn, glancing towards the counter where Lilly and Akira are sitting. They're talking busily between themselves, and seem to be having a good time."
+""
 
 scene ev hanako_billiards_serious
 with locationchange
 
-"I turn back to Hanako as she takes her shot. With the same face as before, she lines herself up and sharply pushes the cue."
+# "I turn back to Hanako as she takes her shot. With the same face as before, she lines herself up and sharply pushes the cue."
+""
 
 scene bg city_clubpool
 with flash
 
 play sound sfx_billiards
 
-"Just as before, she sinks the ball she was aiming for. It drops into the side pocket more cleanly than her last, though. It looks as if she's getting a bit more into the groove of the game."
+# "Just as before, she sinks the ball she was aiming for. It drops into the side pocket more cleanly than her last, though. It looks as if she's getting a bit more into the groove of the game."
+""
 
-hi "Nicely done."
+# hi "Nicely done."
+hi ""
 
-"She hesitates for a moment, and begins to address me without turning her head."
+# "She hesitates for a moment, and begins to address me without turning her head."
+""
 
 scene ev hanako_billiards_smile_med
 with locationchange
 
-ha "The orphanage… was nice. It felt a bit like Yamaku does… and the staff was r-really kind."
+# ha "The orphanage… was nice. It felt a bit like Yamaku does… and the staff was r-really kind."
+ha ""
 
 show ev hanako_billiards_distant_med
 with charachange
 
-ha "But as th-the years went on, I realized something. I was d-different."
+# ha "But as th-the years went on, I realized something. I was d-different."
+ha ""
 
-"It feels strange to hear her speak so candidly about herself. She's audibly forcing the words out. It reminds me of when she insisted she tell me about the fire."
+# "It feels strange to hear her speak so candidly about herself. She's audibly forcing the words out. It reminds me of when she insisted she tell me about the fire."
+""
 
-"Hanako must feel that she has to tell me of such things, if I'm willing to tell her about my own past."
+# "Hanako must feel that she has to tell me of such things, if I'm willing to tell her about my own past."
+""
 
-"Her grip on the cue tightens as she continues to speak."
+# "Her grip on the cue tightens as she continues to speak."
+""
 
 $ ksgallery_unlock("ev hanako_billiards_timid")
 show ev hanako_billiards_timid_med
 with charachange
 
-ha "M-most of the children there were up for adoption, just like I was. But unlike me… they gradually left, o-one by one. By the time I went to Yamaku, I was… among the oldest children there."
+# ha "M-most of the children there were up for adoption, just like I was. But unlike me… they gradually left, o-one by one. By the time I went to Yamaku, I was… among the oldest children there."
+ha ""
 
-ha "For a while, I h-helped with some of the y-younger children, b-but eventually…"
+# ha "For a while, I h-helped with some of the y-younger children, b-but eventually…"
+ha ""
 
 scene bg city_clubpool
 with locationchange
 
-"I lay a hand on her shoulder. She's forcing herself by now."
+# "I lay a hand on her shoulder. She's forcing herself by now."
+""
 
-hi "It's okay."
+# hi "It's okay."
+hi ""
 
 show hanako emb_blushtimid_cas_close at center
 with charaenter
 
-"She looks mildly surprised for a moment, but then nods before setting down her cue and turning towards me."
+# "She looks mildly surprised for a moment, but then nods before setting down her cue and turning towards me."
+""
 
 show hanako basic_worry_cas_close
 with charachange
 
-ha "Do you… really think so?"
+# ha "Do you… really think so?"
+ha ""
 
-hi "Yeah, I think so. Even while Lilly's away, I'll be around to protect you, right?"
+# hi "Yeah, I think so. Even while Lilly's away, I'll be around to protect you, right?"
+hi ""
 
 show hanako basic_normal_cas_close
 with charachange
 
-"Hanako looks at me for a long time, and I'm taken a bit off guard."
+# "Hanako looks at me for a long time, and I'm taken a bit off guard."
+""
 
-"Her expression hasn't changed from before, still looking somewhat maudlin, and silences between us aren't unusual. I think it's the fact that she's holding such prolonged eye contact that makes this feel a bit odd."
+# "Her expression hasn't changed from before, still looking somewhat maudlin, and silences between us aren't unusual. I think it's the fact that she's holding such prolonged eye contact that makes this feel a bit odd."
+""
 
-"It feels as if she's judging me. It's a very strange, vaguely uncomfortable feeling."
+# "It feels as if she's judging me. It's a very strange, vaguely uncomfortable feeling."
+""
 
-hi "Hanako…?"
+# hi "Hanako…?"
+hi ""
 
 show hanako cover_smile_cas_close
 with charachange
 
-ha "I-I understand. Thank you."
+# ha "I-I understand. Thank you."
+ha ""
 
-"She smiles and looks away a little, but it feels stilted. Hanako isn't very good at faking emotions, and this is no exception."
+# "She smiles and looks away a little, but it feels stilted. Hanako isn't very good at faking emotions, and this is no exception."
+""
 
 hide hanako
 with charaexit
 
-"I move to the table and take my turn to try and distract myself, but it doesn't seem to work. Does she think I'm not up to the task of helping her? Is she disappointed in me?"
+# "I move to the table and take my turn to try and distract myself, but it doesn't seem to work. Does she think I'm not up to the task of helping her? Is she disappointed in me?"
+""
 
-"I'm probably overthinking this. While her silences are just an accepted fact of life by now, sometimes I do wish she'd speak more."
+# "I'm probably overthinking this. While her silences are just an accepted fact of life by now, sometimes I do wish she'd speak more."
+""
 
 play sound sfx_billiards
 
-"With a thud, I send the white sphere careening down the table into my target."
+# "With a thud, I send the white sphere careening down the table into my target."
+""
 
 show hanako def_strain_cas at center
 with charachange
 
-ha "Ah…"
+# ha "Ah…"
+ha ""
 
-"Hanako sees what's happening just as I do. The ball hits hard, with the striped ball I'd intended to sink veering off towards the eight ball."
+# "Hanako sees what's happening just as I do. The ball hits hard, with the striped ball I'd intended to sink veering off towards the eight ball."
+""
 
-"Sure enough, as both Hanako and I look on and bite our lips, they connect and the black ball rolls leisurely into a corner pocket."
+# "Sure enough, as both Hanako and I look on and bite our lips, they connect and the black ball rolls leisurely into a corner pocket."
+""
 
 show hanako basic_smile_cas
 with charachange
 
-"All I can do is sigh. It looks like Hanako is smiling again though, so maybe it wasn't for naught."
+# "All I can do is sigh. It looks like Hanako is smiling again though, so maybe it wasn't for naught."
+""
 
-hi "That was an awful shot, you win. It seems I'm getting pretty rusty after all this time."
+# hi "That was an awful shot, you win. It seems I'm getting pretty rusty after all this time."
+hi ""
 
 hide hanako
 with charaexit
 
-"Hanako bends down and begins to shoot the remaining balls into the closest pockets. I almost ask if we could play another game, but a quick check of my watch confirms that the night is getting pretty late."
+# "Hanako bends down and begins to shoot the remaining balls into the closest pockets. I almost ask if we could play another game, but a quick check of my watch confirms that the night is getting pretty late."
+""
 
-"Lilly and Akira appear to be still drinking at the counter. Seems like we'll have to drag them away."
+# "Lilly and Akira appear to be still drinking at the counter. Seems like we'll have to drag them away."
+""
 
-ha "Um, Hisao…"
+# ha "Um, Hisao…"
+ha ""
 
 scene ev hanako_billiards_distant
 with locationchange
 
-"I turn back to Hanako, who's still looking over the pool table shooting balls. Her voice sounds different from before."
+# "I turn back to Hanako, who's still looking over the pool table shooting balls. Her voice sounds different from before."
+""
 
 scene ev hanako_billiards_smile
 with charachange
 
-ha "I'm… here for you as well…"
+# ha "I'm… here for you as well…"
+ha ""
 
 stop ambient fadeout 2.0
 
-hi "Ah…"
+# hi "Ah…"
+hi ""
 
-"I suddenly find myself blushing. It's only natural that she'd respond this way, given what I said earlier, but it's still a shock to actually hear it."
+# "I suddenly find myself blushing. It's only natural that she'd respond this way, given what I said earlier, but it's still a shock to actually hear it."
+""
 
 scene ev hanako_billiards_smile_close:
     xalign 0.0 yalign 0.0 zoom 0.8 subpixel True
     acdc_warp 20.0 zoom 1.0
 with locationchange
 
-"Just what is my relationship with this girl? I want to protect her, to make her happy… I'm not really sure that it's something like love, but I don't think these are the same kinds of feelings I have for Lilly, either."
+# "Just what is my relationship with this girl? I want to protect her, to make her happy… I'm not really sure that it's something like love, but I don't think these are the same kinds of feelings I have for Lilly, either."
+""
 
-"I feel sorry for her, having gone through so much in her life. Her parents died in a housefire, and she lived in an orphanage for much of her childhood… I can't even imagine that kind of life."
+# "I feel sorry for her, having gone through so much in her life. Her parents died in a housefire, and she lived in an orphanage for much of her childhood… I can't even imagine that kind of life."
+""
 
-"But I feel like there's so little I can do for her, especially now that Lilly is going to be leaving the country."
+# "But I feel like there's so little I can do for her, especially now that Lilly is going to be leaving the country."
+""
 
 stop music fadeout 10.0
 
@@ -7028,51 +7538,63 @@ show lilly cane_smileclosed_cas_ni:
 show hanako basic_normal_cas_close_ni at tworight
 with locationskip
 
-"Hanako and I finish tidying up the table and cues, and pick up Lilly and Akira on our way out of the club."
+# "Hanako and I finish tidying up the table and cues, and pick up Lilly and Akira on our way out of the club."
+""
 
-"It feels like something changed between Hanako and me. I can't quite place what it is, but Hanako is acting differently now. I feel like we're further apart, if anything."
+# "It feels like something changed between Hanako and me. I can't quite place what it is, but Hanako is acting differently now. I feel like we're further apart, if anything."
+""
 
 show akira basic_smile_ni
 with charachange
 
-aki "So, you enjoy yourselves?"
+# aki "So, you enjoy yourselves?"
+aki ""
 
 show hanako emb_smile_cas_close_ni
 with charachange
 
-"Hanako and I both nod and agree. The game was good, and we both did learn more about each other, so it's a honest answer."
+# "Hanako and I both nod and agree. The game was good, and we both did learn more about each other, so it's a honest answer."
+""
 
 show lilly cane_sleepy_cas_ni
 with charachange
 
-"Lilly appears to be a little distracted."
+# "Lilly appears to be a little distracted."
+""
 
-hi "Worried about the trip, Lilly?"
+# hi "Worried about the trip, Lilly?"
+hi ""
 
-"She pauses before sighing and smiling weakly."
+# "She pauses before sighing and smiling weakly."
+""
 
 show lilly cane_weaksmile_cas_ni
 with charachange
 
-li "A little. It means quite a bit."
+# li "A little. It means quite a bit."
+li ""
 
 show akira basic_laugh_ni
 show lilly cane_surprised_cas_ni
 with vpunch
 
-"The comment earns her a clap on the shoulder from her sister. Hanako smiles back, too."
+# "The comment earns her a clap on the shoulder from her sister. Hanako smiles back, too."
+""
 
 show hanako basic_smile_cas_close_ni
 with charachange
 
-ha "You'll be okay, Lilly. I hope you can enjoy your time over there."
+# ha "You'll be okay, Lilly. I hope you can enjoy your time over there."
+ha ""
 
 show lilly cane_smile_cas_ni
 with charachange
 
-li "Thank you, Hanako. I'll try to. It will be nice to be back with my family, after all, no matter for how brief a time it may be."
+# li "Thank you, Hanako. I'll try to. It will be nice to be back with my family, after all, no matter for how brief a time it may be."
+li ""
 
-"With that, the four of us begin the walk to the carpark where Akira's car is. We continue to talk between ourselves, but it's mostly just smalltalk."
+# "With that, the four of us begin the walk to the carpark where Akira's car is. We continue to talk between ourselves, but it's mostly just smalltalk."
+""
 
 stop ambient fadeout 2.0
 stop music fadeout 2.0
@@ -7091,42 +7613,51 @@ show lilly basic_smile_cas at twoleft
 show hanako basic_normal_cas at tworight
 with locationchange
 
-hi "Right then. Are you taking the bus, Lilly?"
+# hi "Right then. Are you taking the bus, Lilly?"
+hi ""
 
 show lilly basic_smileclosed_cas
 with charachange
 
-"Lilly motions to a large suitcase standing beside her."
+# "Lilly motions to a large suitcase standing beside her."
+""
 
 show lilly basic_weaksmile_cas
 with charachange
 
-li "I'll have to take this with me, so I've booked a taxi. It'll meet us at the school gates in about five minutes."
+# li "I'll have to take this with me, so I've booked a taxi. It'll meet us at the school gates in about five minutes."
+li ""
 
-hi "Ah, I see."
+# hi "Ah, I see."
+hi ""
 
 show lilly basic_sleepy_cas:
     ypos 1.1
 with dissolvecharamove
 
-"Lilly reaches down and feels out the handle of her suitcase. Its weight causes her some difficulty, so I quickly offer to take it myself."
+# "Lilly reaches down and feels out the handle of her suitcase. Its weight causes her some difficulty, so I quickly offer to take it myself."
+""
 
 show lilly basic_smileclosed_cas at twoleft
 with dissolvecharamove
 
-li "That is awfully kind of you, Hisao."
+# li "That is awfully kind of you, Hisao."
+li ""
 
-"She has no qualms about accepting, and I end up picking it up. It's not what I'd call light, but it's not exactly heavy, either. I don't think I'll have too much trouble carrying it."
+# "She has no qualms about accepting, and I end up picking it up. It's not what I'd call light, but it's not exactly heavy, either. I don't think I'll have too much trouble carrying it."
+""
 
 show lilly basic_weaksmile_cas
 with charachange
 
-li "Well, thank you then. We should hurry though, if the taxi leaves then it will take quite a while to book a new one. Are you ready, Hanako?"
+# li "Well, thank you then. We should hurry though, if the taxi leaves then it will take quite a while to book a new one. Are you ready, Hanako?"
+li ""
 
 show hanako cover_worry_cas at tworight
 with charachange
 
-ha "Y-yeah. Let's go."
+# ha "Y-yeah. Let's go."
+ha ""
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_parkambience fadein 2.0
@@ -7134,30 +7665,38 @@ play ambient sfx_parkambience fadein 2.0
 scene bg school_gate at bgright
 with locationskip
 
-"We rush to the gate as fast as we can, only to find that the taxi has yet to arrive."
+# "We rush to the gate as fast as we can, only to find that the taxi has yet to arrive."
+""
 
-hi "Well, nothing like a bit of exercise in the morning. The nurse told me that I should be doing that."
+# hi "Well, nothing like a bit of exercise in the morning. The nurse told me that I should be doing that."
+hi ""
 
 show lilly basic_weaksmile_cas at center
 with charaenter
 
-li "I think he probably had other things in mind, Hisao. And probably with more regularity. Do you intend to be helping people with their luggage every day?"
+# li "I think he probably had other things in mind, Hisao. And probably with more regularity. Do you intend to be helping people with their luggage every day?"
+li ""
 
-hi "I guess not. Looks like we've got a bit to wait anyway. How long should we wait for the taxi before calling them again?"
+# hi "I guess not. Looks like we've got a bit to wait anyway. How long should we wait for the taxi before calling them again?"
+hi ""
 
 show lilly basic_smileclosed_cas
 with charachange
 
-li "I would say another ten minutes, but they've never let me down before. There's probably just a little traffic."
+# li "I would say another ten minutes, but they've never let me down before. There's probably just a little traffic."
+li ""
 
-hi "Okay then."
+# hi "Okay then."
+hi ""
 
-hi "So how long is the flight to Scotland?"
+# hi "So how long is the flight to Scotland?"
+hi ""
 
 show lilly basic_smile_cas
 with charachange
 
-li "About sixteen hours, if I remember correctly. It's a bit hard to tell with the changing time zones."
+# li "About sixteen hours, if I remember correctly. It's a bit hard to tell with the changing time zones."
+li ""
 
 show bg school_gate at center
 show lilly basic_smile_cas at twoleft
@@ -7166,112 +7705,142 @@ with charamove
 show hanako defarms_worry_cas at tworight
 with charaenter
 
-ha "So long…"
+# ha "So long…"
+ha ""
 
-"It's now that I realize Hanako's been unusually quiet, even for her. She doesn't handle stress well, so she's looking really uptight."
+# "It's now that I realize Hanako's been unusually quiet, even for her. She doesn't handle stress well, so she's looking really uptight."
+""
 
-hi "Yeah, I can't imagine being on a plane for that long."
+# hi "Yeah, I can't imagine being on a plane for that long."
+hi ""
 
-"I've only ever flown on a short family holiday up north, so it really is quite hard to fathom. If Hanako's spent so much of her childhood at an orphanage, she's probably traveled very little, let alone flown."
+# "I've only ever flown on a short family holiday up north, so it really is quite hard to fathom. If Hanako's spent so much of her childhood at an orphanage, she's probably traveled very little, let alone flown."
+""
 
 show lilly basic_weaksmile_cas
 with charachange
 
-li "It's not too bad. I'll spend most of it either asleep or catching up on my English. I hardly use that here so I need to refamiliarize myself with it a little."
+# li "It's not too bad. I'll spend most of it either asleep or catching up on my English. I hardly use that here so I need to refamiliarize myself with it a little."
+li ""
 
 show hanako cover_worry_cas
 with charachange
 
-ha "W-will your accent… be a problem?"
+# ha "W-will your accent… be a problem?"
+ha ""
 
 show lilly basic_smile_cas
 with charachange
 
-li "I wouldn’t worry about that too much. It may be an issue initially, but I should be fine once I get used to it."
+# li "I wouldn’t worry about that too much. It may be an issue initially, but I should be fine once I get used to it."
+li ""
 
 show hanako basic_worry_cas at Position(ypos=1.14)
 show lilly basic_smileclosed_cas at Position(ypos=1.17)
 with dissolvecharamove
 
-"We all move to sit down on the small bench beside the school gate in silence."
+# "We all move to sit down on the small bench beside the school gate in silence."
+""
 
-"Strangely enough, even though I know that Lilly is going away, I can't think of anything to say to her. Lilly is a reliable person, so it might be because she isn't the one that I'm thinking of most."
+# "Strangely enough, even though I know that Lilly is going away, I can't think of anything to say to her. Lilly is a reliable person, so it might be because she isn't the one that I'm thinking of most."
+""
 
 show hanako emb_downsad_cas
 with charachange
 
-"Lilly might not be able to see it, but Hanako's chewing her fingernails nervously. I move to talk to her, but can hear an engine straining up the hill before I get the chance."
+# "Lilly might not be able to see it, but Hanako's chewing her fingernails nervously. I move to talk to her, but can hear an engine straining up the hill before I get the chance."
+""
 
-hi "Ah, I think the taxi is on its way…"
+# hi "Ah, I think the taxi is on its way…"
+hi ""
 
 show lilly basic_cheerful_cas
 with charachange
 
-li "Well spotted Hisao, I only just heard it as well."
+# li "Well spotted Hisao, I only just heard it as well."
+li ""
 
-"A small wave of pride washes over me. To have noticed something at the same time as Lilly must mean that I've become more aware of my surroundings."
+# "A small wave of pride washes over me. To have noticed something at the same time as Lilly must mean that I've become more aware of my surroundings."
+""
 
-"Anyway, we won't have to call the taxi company, nor worry about missing Lilly's plane."
+# "Anyway, we won't have to call the taxi company, nor worry about missing Lilly's plane."
+""
 
 show hanako basic_worry_cas at tworight
 show lilly basic_smileclosed_cas at twoleft
 with dissolvecharamove
 
-"Once the taxi stops where we're standing, the driver rolls down a window and leans over. After confirming that, yes, Lilly is the same Lilly Satou that booked the trip, we sort out her luggage."
+# "Once the taxi stops where we're standing, the driver rolls down a window and leans over. After confirming that, yes, Lilly is the same Lilly Satou that booked the trip, we sort out her luggage."
+""
 
 hide lilly
 with charaexit
 
-"The driver opens the trunk of the taxi and takes Lilly's suitcase, with Lilly climbing into the back seat as he loads it into the trunk and slams it shut."
+# "The driver opens the trunk of the taxi and takes Lilly's suitcase, with Lilly climbing into the back seat as he loads it into the trunk and slams it shut."
+""
 
-"After getting back into his seat and shutting the doors, he waits for us to say our farewells."
+# "After getting back into his seat and shutting the doors, he waits for us to say our farewells."
+""
 
 show hanako emb_downtimid_cas
 with charachange
 
-ha "Have a safe trip, Lilly."
+# ha "Have a safe trip, Lilly."
+ha ""
 
-hi "Take care of yourself."
+# hi "Take care of yourself."
+hi ""
 
-"Hanako looks understandably downcast, and that much is obvious even in her voice."
+# "Hanako looks understandably downcast, and that much is obvious even in her voice."
+""
 
-li "Of course I will. I'll be back before long, don't worry. There will still be another person here for you too, won't there, Hisao?"
+# li "Of course I will. I'll be back before long, don't worry. There will still be another person here for you too, won't there, Hisao?"
+li ""
 
-hi "Yeah, of course."
+# hi "Yeah, of course."
+hi ""
 
 show hanako emb_blushtimid_cas_close
 with characlose
 
-"I turn and smile to Hanako, putting my hand on her shoulder."
+# "I turn and smile to Hanako, putting my hand on her shoulder."
+""
 
 show hanako emb_downtimid_cas_close
 with charachange
 
-"She only manages to keep eye contact with me for a couple of seconds, her cheeks red all the while, before turning back to Lilly."
+# "She only manages to keep eye contact with me for a couple of seconds, her cheeks red all the while, before turning back to Lilly."
+""
 
-hi "See you, Lilly."
+# hi "See you, Lilly."
+hi ""
 
 show hanako basic_worry_cas_close
 with charachange
 
-ha "Good bye!"
+# ha "Good bye!"
+ha ""
 
 stop music fadeout 6.0
 
-"Lilly gives her farewells to the both of us with a fair measure of reluctance. Without further ado, the driver starts the engine once more and they begin the journey down the hill, and towards the airport."
+# "Lilly gives her farewells to the both of us with a fair measure of reluctance. Without further ado, the driver starts the engine once more and they begin the journey down the hill, and towards the airport."
+""
 
-"The two of us stand at the gates for a long time even after they've disappeared from sight, not really knowing what to do."
+# "The two of us stand at the gates for a long time even after they've disappeared from sight, not really knowing what to do."
+""
 
 show bg school_gate at bgleft
 show hanako basic_worry_cas_close at center
 with charamove
 
-hi "So, what do you want to do?"
+# hi "So, what do you want to do?"
+hi ""
 
 show hanako def_worry_cas_close
 with charachange
 
-ha "I… don't know."
+# ha "I… don't know."
+ha ""
 
 label th_choiceH20:
 menu:
@@ -7293,27 +7862,35 @@ with None
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 
-"The bus stop, standing by the school gates like a mute sentinel, puts a strange idea in my mind."
+# "The bus stop, standing by the school gates like a mute sentinel, puts a strange idea in my mind."
+""
 
-hi "Do you want to head into town and look for a bookshop or something? We have the rest of the day free."
+# hi "Do you want to head into town and look for a bookshop or something? We have the rest of the day free."
+hi ""
 
-"It's a long shot, as Hanako doesn't like going into the city. I count the fact that we managed to get her out there even when it was so dark as a small miracle, but I genuinely want to spend more time with her."
+# "It's a long shot, as Hanako doesn't like going into the city. I count the fact that we managed to get her out there even when it was so dark as a small miracle, but I genuinely want to spend more time with her."
+""
 
-"Anyway, she's likely to just refuse and go back to…"
+# "Anyway, she's likely to just refuse and go back to…"
+""
 
 show hanako basic_smile_cas_close
 with charachange
 
-ha "Okay."
+# ha "Okay."
+ha ""
 
-hi "Really?"
+# hi "Really?"
+hi ""
 
 show hanako basic_bashful_cas_close
 with charachange
 
-ha "R-really. Let's go."
+# ha "R-really. Let's go."
+ha ""
 
-"I can't work out why Hanako has decided to agree with me, but I'm not about to ask her to change her mind."
+# "I can't work out why Hanako has decided to agree with me, but I'm not about to ask her to change her mind."
+""
 
 stop ambient fadeout 2.0
 
@@ -7324,72 +7901,93 @@ with shorttimeskip
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_crowd_outdoors fadein 2.0
 
-"Stepping off the bus, I immediately notice that a lot of people are around us. In hindsight, it should have been obvious; of course lots of people will be downtown on a Saturday afternoon."
+# "Stepping off the bus, I immediately notice that a lot of people are around us. In hindsight, it should have been obvious; of course lots of people will be downtown on a Saturday afternoon."
+""
 
 show hanako emb_downtimid_cas_close at center
 with charaenter
 
-"Hanako retreats close to my side, and I can feel her hand clutching my arm tightly. Her body is held against mine and her head is bowed so low that her hat hides most of her scarring."
+# "Hanako retreats close to my side, and I can feel her hand clutching my arm tightly. Her body is held against mine and her head is bowed so low that her hat hides most of her scarring."
+""
 
-hi "So uh, where shall we go? A bookshop?"
+# hi "So uh, where shall we go? A bookshop?"
+hi ""
 
-"Hanako's present and my other general living expenses have pretty much drained my budget, but I should be able to afford a few books. They're something I try to reserve a few funds for anyway."
+# "Hanako's present and my other general living expenses have pretty much drained my budget, but I should be able to afford a few books. They're something I try to reserve a few funds for anyway."
+""
 
-"For a second I think Hanako didn't hear me, but then I look to my side and notice her nodding almost imperceptibly."
+# "For a second I think Hanako didn't hear me, but then I look to my side and notice her nodding almost imperceptibly."
+""
 
 show hanako emb_smile_cas_close
 with charachange
 
-ha "O-okay. D-do you know of one?"
+# ha "O-okay. D-do you know of one?"
+ha ""
 
-hi "Actually, I do. We passed a few when Lilly and I were looking for your presents…"
+# hi "Actually, I do. We passed a few when Lilly and I were looking for your presents…"
+hi ""
 
 show hanako emb_downsad_cas_close
 with charachange
 
-"Hanako's expression clouds a fraction. I've got to remember to stop bringing up her birthday."
+# "Hanako's expression clouds a fraction. I've got to remember to stop bringing up her birthday."
+""
 
 show hanako emb_timid_cas_close
 with charachange
 
-ha "You both… spent a lot of time?"
+# ha "You both… spent a lot of time?"
+ha ""
 
-"Or maybe I misjudged the situation."
+# "Or maybe I misjudged the situation."
+""
 
-hi "We wanted to make sure we got the right present, after all."
+# hi "We wanted to make sure we got the right present, after all."
+hi ""
 
 show hanako emb_smile_cas_close
 with charachange
 
-"Hanako smiles and blushes a bit. It's a small treasure when she does."
+# "Hanako smiles and blushes a bit. It's a small treasure when she does."
+""
 
-hi "Anyway, there should be a bookshop just up ahead, do you want to check it out?"
+# hi "Anyway, there should be a bookshop just up ahead, do you want to check it out?"
+hi ""
 
 show hanako basic_bashful_cas_close
 with charachange
 
-ha "S-sure."
+# ha "S-sure."
+ha ""
 
 scene bg city_street1
 show crowd
 with locationchange
 
-"The crowds start to build as we head towards the bookshop along the raised walkways. Hanako latches her other arm onto me as well, making our progress a little slower."
+# "The crowds start to build as we head towards the bookshop along the raised walkways. Hanako latches her other arm onto me as well, making our progress a little slower."
+""
 
-"As we walk, the sound of the traffic makes me think of a possible distraction for her."
+# "As we walk, the sound of the traffic makes me think of a possible distraction for her."
+""
 
-hi "I was wondering, Hanako… have you thought yet about when you're going to learn to drive?"
+# hi "I was wondering, Hanako… have you thought yet about when you're going to learn to drive?"
+hi ""
 
 show hanako cover_worry_cas_close
 with charachange
 
-ha "D-driving?"
+# ha "D-driving?"
+ha ""
 
-hi "Yeah. You're kind of lucky, in a way; there aren't a whole lot of students in Yamaku that are allowed to drive."
+# hi "Yeah. You're kind of lucky, in a way; there aren't a whole lot of students in Yamaku that are allowed to drive."
+hi ""
 
-"It's not the best topic of conversation, but I want to try and distract Hanako from the situation. She's really highly strung right now."
+# "It's not the best topic of conversation, but I want to try and distract Hanako from the situation. She's really highly strung right now."
+""
 
-"Then again, all I've really done is make her feel awkward, since she's probably never thought about it. I wish I hadn't said anything."
+# "Then again, all I've really done is make her feel awkward, since she's probably never thought about it. I wish I hadn't said anything."
+""
 
 stop ambient fadeout 0.5
 
@@ -7399,25 +7997,32 @@ with locationchange
 $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 1.0
 
-"Before long we are before one of the bookshops Lilly and I passed by during our search."
+# "Before long we are before one of the bookshops Lilly and I passed by during our search."
+""
 
-hi "What kind of self-respecting bookshop closes on Saturdays?"
+# hi "What kind of self-respecting bookshop closes on Saturdays?"
+hi ""
 
 show hanako def_worry_cas_close at center
 with charaenter
 
-ha "Bookshops… don't make much money any more, because of the Internet. Maybe they just had to close over weekends?"
+# ha "Bookshops… don't make much money any more, because of the Internet. Maybe they just had to close over weekends?"
+ha ""
 
-"She seems pretty knowledgeable about technology. I guess it's a pursuit that would lend itself well to someone who enjoys solitude."
+# "She seems pretty knowledgeable about technology. I guess it's a pursuit that would lend itself well to someone who enjoys solitude."
+""
 
-hi "Huh, I guess that makes sense… it's easier to find books online. Anyway, it looks like this idea is shot. Anything else you'd like to do?"
+# hi "Huh, I guess that makes sense… it's easier to find books online. Anyway, it looks like this idea is shot. Anything else you'd like to do?"
+hi ""
 
 show hanako emb_smile_cas_close
 with charachange
 
-ha "I-if it's not… not a bother… could you show me where you bought my present?"
+# ha "I-if it's not… not a bother… could you show me where you bought my present?"
+ha ""
 
-hi "Sure, not a problem. It's not far from here."
+# hi "Sure, not a problem. It's not far from here."
+hi ""
 
 hide hanako
 with charaexit
@@ -7425,23 +8030,29 @@ with charaexit
 show bg city_street3 at right
 with charamove_slow
 
-"I head off in the direction of the store, only half-sure of its exact location. I don't want a repeat of the last time; spending half the day walking around aimlessly."
+# "I head off in the direction of the store, only half-sure of its exact location. I don't want a repeat of the last time; spending half the day walking around aimlessly."
+""
 
-hi "Here we are, Othello's Antiques."
+# hi "Here we are, Othello's Antiques."
+hi ""
 
 show hanako basic_normal_cas_close at center
 with charaenter
 
-ha "I-it's small."
+# ha "I-it's small."
+ha ""
 
-hi "Well, yes. It took Lilly and me some time to find it."
+# hi "Well, yes. It took Lilly and me some time to find it."
+hi ""
 
 show hanako basic_distant_cas_close
 with charachange
 
-ha "Can we go in?"
+# ha "Can we go in?"
+ha ""
 
-hi "I don't see why not; it's open."
+# hi "I don't see why not; it's open."
+hi ""
 
 stop ambient fadeout 0.5
 play sound sfx_storebell
@@ -7450,28 +8061,35 @@ play music music_soothing fadein 0.5
 scene bg city_othello
 with locationchange
 
-"Hanako pushes through the door and enters before me. Once again, the store is empty save for the store owner."
+# "Hanako pushes through the door and enters before me. Once again, the store is empty save for the store owner."
+""
 
 show shopkeep neutral at center
 with charaenter
 
-"His face drops a little when he sees me."
+# "His face drops a little when he sees me."
+""
 
-sk "Oh, you're not here for a return are you? Wait, that's not the girl you had with you last time…"
+# sk "Oh, you're not here for a return are you? Wait, that's not the girl you had with you last time…"
+sk ""
 
-hi "Er, no, we're not here to return anything. We were just in town and wanted to have another look in here."
+# hi "Er, no, we're not here to return anything. We were just in town and wanted to have another look in here."
+hi ""
 
 show shopkeep thinking
 with charachange
 
-"The store owner considers this for quite a long time. I guess he's not used to high school students coming to his shop on a regular basis."
+# "The store owner considers this for quite a long time. I guess he's not used to high school students coming to his shop on a regular basis."
+""
 
 show shopkeep happy
 with charachange
 
-sk "Might this be the friend you bought gifts for?"
+# sk "Might this be the friend you bought gifts for?"
+sk ""
 
-hi "That's right. They were presents for her."
+# hi "That's right. They were presents for her."
+hi ""
 
 show shopkeep happy at twoleft
 show bg city_othello at bgleft
@@ -7480,36 +8098,44 @@ with charamove
 show hanako defarms_strain_cas_close at tworight
 with charaenter
 
-"The store owner turns to Hanako, who freezes on the spot like a deer caught in the headlights."
+# "The store owner turns to Hanako, who freezes on the spot like a deer caught in the headlights."
+""
 
 show shopkeep surprised
 with charachange
 
-"He moves to address her, but stops before doing so, looking a little taken aback."
+# "He moves to address her, but stops before doing so, looking a little taken aback."
+""
 
 show shopkeep thinking
 with charachange
 
-"He catches himself staring and looks to the side, addressing us indirectly. His expression is awkward and tense, as is his entire body."
+# "He catches himself staring and looks to the side, addressing us indirectly. His expression is awkward and tense, as is his entire body."
+""
 
-"I want to be mad at him, but I know full well that I had the same instinctive reaction when I first saw her. First surprise, then curiosity, then an awkward look away as I dealt with what I'd seen."
+# "I want to be mad at him, but I know full well that I had the same instinctive reaction when I first saw her. First surprise, then curiosity, then an awkward look away as I dealt with what I'd seen."
+""
 
 show hanako emb_downsad_cas_close
 with charachange
 
-"Hanako looks less panicked than before… but I think the feeling she's giving off now is worse. It's not anger, nor annoyance. If anything, it's one of apology."
+# "Hanako looks less panicked than before… but I think the feeling she's giving off now is worse. It's not anger, nor annoyance. If anything, it's one of apology."
+""
 
 show shopkeep neutral
 with charachange
 
-sk "You're lucky there, young lady. To have friends that care about you as much as they do."
+# sk "You're lucky there, young lady. To have friends that care about you as much as they do."
+sk ""
 
 show hanako emb_downtimid_cas_close
 with charachange
 
-ha "Th-thank you…"
+# ha "Th-thank you…"
+ha ""
 
-"If I hadn't spent so much time with Hanako I wouldn't even have realized that she said anything. Then again, the store owner's mumble was hardly clear either, thanks in part to being directed away from us."
+# "If I hadn't spent so much time with Hanako I wouldn't even have realized that she said anything. Then again, the store owner's mumble was hardly clear either, thanks in part to being directed away from us."
+""
 
 hide hanako
 with charaexit
@@ -7519,55 +8145,71 @@ show shopkeep invis:
     xpos 0.6 alpha 0.0
 with dissolvecharamove
 
-"Hanako strikes out into the store, gazing in wonder at the various items on display. She finds the doll section, and spends lingering minutes studying each and every one."
+# "Hanako strikes out into the store, gazing in wonder at the various items on display. She finds the doll section, and spends lingering minutes studying each and every one."
+""
 
-"It's a side of Hanako I've only barely been introduced to. I was astonished when Lilly said she liked dolls, and even more so to find her “collection” sitting on her dresser."
+# "It's a side of Hanako I've only barely been introduced to. I was astonished when Lilly said she liked dolls, and even more so to find her “collection” sitting on her dresser."
+""
 
 show hanako basic_normal_cas_close at center
 with charaenter
 
-"She looks a little better now that she's distracted and out of the store owner's sight, but I'm still quite put off by the whole experience."
+# "She looks a little better now that she's distracted and out of the store owner's sight, but I'm still quite put off by the whole experience."
+""
 
-"I might have my own problems, but I've never had strangers react to me like that, as if I was something completely alien to them."
+# "I might have my own problems, but I've never had strangers react to me like that, as if I was something completely alien to them."
+""
 
 show hanako basic_smile_cas_close
 with charachange
 
-ha "This is a nice shop."
+# ha "This is a nice shop."
+ha ""
 
-hi "Yeah, it's not what I expected. Do you want to buy something?"
+# hi "Yeah, it's not what I expected. Do you want to buy something?"
+hi ""
 
 show hanako cover_worry_cas_close
 with charachange
 
-ha "I-I didn't bring any money."
+# ha "I-I didn't bring any money."
+ha ""
 
-hi "Well, we can always come again."
+# hi "Well, we can always come again."
+hi ""
 
-"Now that I know where to find it, that is."
+# "Now that I know where to find it, that is."
+""
 
 show hanako cover_bashful_cas_close
 with charachange
 
-ha "W-we can?"
+# ha "W-we can?"
+ha ""
 
-hi "Of course. We can come here as often as you'd like."
+# hi "Of course. We can come here as often as you'd like."
+hi ""
 
 show hanako basic_bashful_cas_close
 with charachange
 
-ha "Th-thank you."
+# ha "Th-thank you."
+ha ""
 
-hi "You don't need to thank me; I almost forgot where this place was."
+# hi "You don't need to thank me; I almost forgot where this place was."
+hi ""
 
-"I don't really think either of us completely believes in what we're saying, but rather, we're just repeating what we think we should say."
+# "I don't really think either of us completely believes in what we're saying, but rather, we're just repeating what we think we should say."
+""
 
 show hanako emb_smile_cas_close
 with charachange
 
-ha "C-can we go back to the school now?"
+# ha "C-can we go back to the school now?"
+ha ""
 
-hi "Sure thing. Let's go."
+# hi "Sure thing. Let's go."
+hi ""
 
 stop music fadeout 5.0
 play ambient sfx_traffic fadein 2.0
@@ -7575,48 +8217,61 @@ play ambient sfx_traffic fadein 2.0
 scene bg city_street3 at right
 with locationchange
 
-"As we leave for the bus stop, I see the store owner peek through the curtain at the back of the shop."
+# "As we leave for the bus stop, I see the store owner peek through the curtain at the back of the shop."
+""
 
-"I'm not really sure what that glance he gives to her says. It feels a bit weird, and the fact that Hanako didn't see it is both a relief and a bit frustrating."
+# "I'm not really sure what that glance he gives to her says. It feels a bit weird, and the fact that Hanako didn't see it is both a relief and a bit frustrating."
+""
 
 stop ambient fadeout 2.0
 
 scene bg school_dormext_full
 with shorttimeskip
 
-"Hanako and I stop walking once we reach the concrete area between the dormitory buildings. There was barely a word said between us on the way back from the city."
+# "Hanako and I stop walking once we reach the concrete area between the dormitory buildings. There was barely a word said between us on the way back from the city."
+""
 
 show hanako basic_bashful_cas at center
 with charaenter
 
-ha "Well then, goodbye."
+# ha "Well then, goodbye."
+ha ""
 
-hi "Do you want to have some tea or something? How about a game?"
+# hi "Do you want to have some tea or something? How about a game?"
+hi ""
 
 show hanako emb_emb_cas
 with charachange
 
-"Hanako shakes her head embarrassedly."
+# "Hanako shakes her head embarrassedly."
+""
 
-ha "I… I'm tired. Maybe later? I've got homework…"
+# ha "I… I'm tired. Maybe later? I've got homework…"
+ha ""
 
-"She sounds a little depressed. Hanako obviously does want to do more, but I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons."
+# "She sounds a little depressed. Hanako obviously does want to do more, but I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons."
+""
 
-hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
+# hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
+hi ""
 
 show hanako basic_smile_cas
 with charachange
 
-ha "See you, Hisao."
+# ha "See you, Hisao."
+ha ""
 
 hide hanako
 with charaexit
 
-"Before I can say goodbye, Hanako has turned and begun walking towards the entrance to the female dormitory building."
+# "Before I can say goodbye, Hanako has turned and begun walking towards the entrance to the female dormitory building."
+""
 
-"I look at the door she disappears through for a bit, before going off towards my own dorms."
+# "I look at the door she disappears through for a bit, before going off towards my own dorms."
+""
 
-"Today was a tiring day."
+# "Today was a tiring day."
+""
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
@@ -7630,57 +8285,71 @@ with None
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 
-hi "I don't know about you, but I think I'm going to try and take a nap. My head is killing me."
+# hi "I don't know about you, but I think I'm going to try and take a nap. My head is killing me."
+hi ""
 
 show hanako basic_distant_cas_close
 with charachange
 
-"Judging by Hanako's instant relief, I can only assume that I've guessed right. I don't think she wants to be out and about."
+# "Judging by Hanako's instant relief, I can only assume that I've guessed right. I don't think she wants to be out and about."
+""
 
 hide hanako
 with charaexit
 
-"Wordlessly, she turns and heads back through the school gate."
+# "Wordlessly, she turns and heads back through the school gate."
+""
 
 scene bg school_dormext_full
 with locationskip
 
-"We walk all the way back to the dorms together, stopping awkwardly at the spot where we need to part."
+# "We walk all the way back to the dorms together, stopping awkwardly at the spot where we need to part."
+""
 
 show hanako cover_distant_cas at center
 with charaenter
 
-ha "Well then, g-goodbye."
+# ha "Well then, g-goodbye."
+ha ""
 
-hi "Do you want to have some tea or something, later? How about a game?"
+# hi "Do you want to have some tea or something, later? How about a game?"
+hi ""
 
 show hanako emb_timid_cas
 with charachange
 
-"Hanako shakes her head embarrassedly."
+# "Hanako shakes her head embarrassedly."
+""
 
 show hanako emb_downtimid_cas
 with charachange
 
-ha "I… I'm tired. Maybe tomorrow? I've got homework…"
+# ha "I… I'm tired. Maybe tomorrow? I've got homework…"
+ha ""
 
-"I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons, after all."
+# "I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons, after all."
+""
 
-hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
+# hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
+hi ""
 
 show hanako emb_downsmile_cas
 with charachange
 
-ha "See you, Hisao."
+# ha "See you, Hisao."
+ha ""
 
 hide hanako
 with charaexit
 
-"Before I can say goodbye, Hanako has turned and begun walking towards the entrance to the female dormitory building."
+# "Before I can say goodbye, Hanako has turned and begun walking towards the entrance to the female dormitory building."
+""
 
-"I look at the door she disappears through for a bit, before going off towards my own dorms."
+# "I look at the door she disappears through for a bit, before going off towards my own dorms."
+""
 
-"Tomorrow will be a better day."
+# "Tomorrow will be a better day."
+""
 
 stop ambient fadeout 1.0
 $ renpy.music.set_volume(1.0, 2.0, channel="ambient")
