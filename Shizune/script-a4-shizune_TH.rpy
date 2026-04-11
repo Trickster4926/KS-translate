@@ -10,7 +10,7 @@ window show
 play music music_happiness fadein 2.0
 
 # "Only a day later, the weekend has already arrived. I drop a heavy stack of books on the librarian's desk, not meaning to slam them, but they weigh so much that it happens anyway."
-""
+"ผ่านไปหนึ่งวันก็เป็นวันสุดสัปดาห์แล้ว ฉันวางหนังสือกองใหญ่ไว้กับโต๊ะบรรณารักษ์โดยไม่ได้จงใจกระแทก แต่น้ำหนัก\nของหนังสือก็ทำให้เกิดเสียงดังอยู่ดี"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 play sound sfx_impact
@@ -27,40 +27,40 @@ show yuuko panic_up:
 with None
 
 # "Yuuko bolts out of her chair with enough force to dislodge her glasses. She barely holds on to them."
-""
+"ยูโกะพุ่งตัวออกมาจากเก้าอี้อย่างรวดเร็วเสียจนแว่นเบี้ยว เธอจับ ๆ แว่นไว้ไม่ให้หลุด"
 
 show yuuko neutral_up
 with charachange
 
 # yu "Oh, hi."
-yu ""
+yu "อ้าว ไง"
 
 # hi "Sorry. I'm here to return all those books I was supposed to."
-hi ""
+hi "ขอโทษครับ ผมมาคืนหนังสือพวกนั้นตามกำหนด"
 
 show yuuko worried_down
 with charachange
 
 # yu "That's great, but I wish you had brought them back sooner. It wouldn't be a problem if the library had more copies of everything, but it doesn't… and they act like that's my fault."
-yu ""
+yu "ดีแล้ว แต่เอามาคืนเร็วหน่อยก็ดีนะ ถ้าห้องสมุดมีหนังสือทุกเรื่องหลาย ๆ เล่มหน่อยก็ไม่มีปัญหาอะไรหรอก\nแต่มันไม่ใช่อย่างนั้นน่ะสิ… แล้วพวกนั้นก็ทำเหมือนเป็นความผิดฉันด้วย"
 
 # hi "“They?”"
-hi ""
+hi "“พวกนั้น”?"
 
 show yuuko panic_down
 with charachange
 
 # yu "Other students. They can be… um, pretty pushy."
-yu ""
+yu "นักเรียนคนอื่นน่ะ บางคนก็… เอ่อ ตื๊อมาก"
 
 # hi "Sorry. It just kind of slipped my mind. It's been a pretty rough couple of days."
-hi ""
+hi "ขอโทษครับ พอดีผมลืมน่ะ ช่วงสองสามวันมานี้มีอะไรหลายอย่างเลย"
 
 show yuuko worried_down
 with charachange
 
 # yu "Oh… Um, I suppose you don't want to talk about it…"
-yu ""
+yu "เอ้อ… เอ่อ เธอคงไม่อยากเล่าสินะ…"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -69,30 +69,30 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nYuuko meekly turns to the task of logging all the books I've brought back as returned, treating them with extreme care and precision, like she's a bomb disposal technician rather than a librarian."
-n ""
+n "\n\nยูโกะหันไปเช็กอินหนังสือที่ฉันเอามาคืนอาย ๆ ด้วยความทะนุถนอมอย่างยิ่งยวดเหมือนไม่ใช่บรรณารักษ์\nแต่เป็นหน่วยเก็บกู้วัตถุระเบิด"
 
 # n "Over the past couple of days, I've been thinking about something Misha said. Of course, I'd thought about everything she said, but one thing in particular keeps coming back. She talked about how she didn't want to miss people or think about being apart from them any more."
-n ""
+n "สองสามวันมานี้ฉันเอาแต่นึกทบทวนถึงสิ่งที่มิช่าพูด แน่ละว่าฉันคิดถึงทุกคำพูดของมิช่า แต่มีคำพูดหนึ่งที่ฉันยัง\nคาใจอยู่ ที่เธอบอกว่าไม่อยากให้คนหายไปจากชีวิตและไม่อยากต้องแยกจากใครอีก"
 
 # n "When I recalled those words, they stopped me cold, like a sharp slap across the cheek. In just a few months, we'll be graduating. Misha and Shizune were nearly inseparable, but after graduation, they might never see each other again. I wonder if that thought is what started all of this."
-n ""
+n "พอนึกถึงคำนั้นแล้วฉันก็ต้องสะอึกเหมือนโดนตบหน้าหนึ่งฉาด อีีกไม่กี่เดือนเราก็จะเรียนจบแล้ว มิช่ากับชิซูเนะ\nตัวติดกันยิ่งกว่าอะไรดี แต่พอเรียนจบแล้วทั้งสองคนอาจไม่ได้เจอกันอีกเลยก็ได้ หรือเพราะรู้ว่าจะเป็นอย่างนั้น\nถึงต้องทำแบบนี้"
 
 # n "If Misha were to try and talk to Shizune about it, Shizune likely wouldn't think about it at all. It would sadden her, and for that reason, she would try and toss it away. For someone like Shizune, who is so quick to suppress her worries, it would be easy."
-n ""
+n "ถ้ามิช่าเอาเรื่องนี้ไปคุยกับชิซูเนะแล้วชิซูเนะก็คงไม่ได้คิดอะไรแล้วปัดความคิดนั้นทิ้งไปเพราะจะทำให้หมอง ซึ่งก็ไม่ยาก\nสำหรับคนอย่างชิซูเนะที่กลบความกังวลในใจได้อย่างรวดเร็ว"
 
 nvl clear
 
 # n "\n\nMisha turned out to be more sensitive than she seemed. It would have crushed her, even more so because Shizune's reaction could come off as pretty cold. I don't know if that's how Shizune handled it, but it seems likely, and I can understand why she would act that way."
-n ""
+n "\n\nกลายเป็นว่ามิช่านั้นอ่อนไหวกว่าที่เห็น เรื่องนี้คงทำให้มิช่าใจสลาย และจะยิ่งสลายหนักไปอีกด้วยปฏิกิริยาของชิซูเนะ\nที่ดูเย็นชา ฉันไม่รู้ว่าชิซูเนะจะตอบกลับแบบนั้นหรือเปล่า แต่ก็เป็นไปได้ว่าจะเป็นอย่างนั้น และเข้าใจด้วยว่าเพราะอะไร"
 
 # n "I can also understand why Misha would be troubled by the thought of drifting away from someone who is such an important part of her. I'd never thought about graduation until that moment."
-n ""
+n "และเข้าใจด้วยว่าทำไมมิช่าถึงคิดมากกับการที่ต้องแยกทางกันจากคนที่เป็นส่วนสำคัญของเธอ ก่อนหน้านั้น\nฉันไม่เคยคิดเรื่องเรียนจบเลย"
 
 # n "Then I began to think things like, “Has it really only been less than a year?” I started thinking of everyone I've met. Not only Shizune and Misha, but everyone else. They were fond thoughts. Then, I thought of losing them. Suddenly, I could understand Misha's anxieties."
-n ""
+n "แล้วฉันก็ไพล่คิดต่อว่า “ยังผ่านไปไม่ถึงปีเหรอ” ฉันนึกถึงคนทุกคนที่เคยเจอกัน ไม่ใช่แค่ชิซูเนะกับมิช่า แต่คิดถึง\nทุกคนเลย เป็นความคิดอันอบอุ่น แล้วฉันก็คิดว่าต้องเสียทุกคนไป ทันใดนั้นเองฉันก็เข้าใจถึงความกังวลของมิช่า"
 
 # n "\nIt could be nice to talk to someone about it."
-n ""
+n "ถ้าได้เอาไปคุยกับใครสักคนคงดี"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -101,243 +101,243 @@ nvl clear
 window show
 
 # hi "Actually, I kind of want to."
-hi ""
+hi "จริง ๆ ก็อยากเล่าอยู่นะครับ"
 
 show yuuko worried_up
 with charachange
 
 # yu "With whom?"
-yu ""
+yu "กับใครล่ะ"
 
 # "I can sense an obvious tinge of apprehension in her voice."
-""
+"ฉันสัมผัสได้ถึงความหวาดหวั่นที่เจืออยู่ในน้ำเสียง"
 
 # hi "With you."
-hi ""
+hi "กับคุณยูโกะ"
 
 show yuuko neurotic_up
 with charachange
 
 # yu "Ah… Really? Are you sure? W-why me?"
-yu ""
+yu "เอ่อ… จริงเหรอ แน่ใจนะ ทะ ทำไมเป็นฉันล่ะ"
 
 # hi "Because you're an adult."
-hi ""
+hi "เพราะคุณเป็นผู้ใหญ่"
 
 show yuuko neurotic_down
 with charachange
 
 # yu "That's it? Ahhhh… that's…"
-yu ""
+yu "แค่นั้นเหรอ เอ่ออออ… คือ…"
 
 # "Wincing, she fidgets a little in her seat, trying to get comfortable in a pretty uncomfortable-looking way. I guess this means she's okay with it."
-""
+"ยูโกะทำหน้าแหยแล้วบิดตัวปรับมุมให้เข้าที่ซึ่งดูเหมือนจะไม่เข้าที่อยู่กับที่นั่ง น่าจะแปลว่าพร้อมรับฟังละนะ"
 
 # hi "Is it hard, being an adult?"
-hi ""
+hi "การเป็นผู้ใหญ่นี่ลำบากมั้ยครับ"
 
 show yuuko cry_down
 with charachange
 
 # yu "Yes."
-yu ""
+yu "ลำบาก"
 
 show yuuko panic_down
 with charachange
 
 # yu "I don't think I'm that old, though… It's surprising that students now, l-like Shizune and you, wear stuff like perfumes or cologne… I never did. I still don't use them…"
-yu ""
+yu "แต่ฉันว่าตัวเองก็ไม่ได้แก่ขนาดนั้นนะ… ฉันแปลกใจจริง ๆ ที่เดี๋ยวนี้นักเรียนอย่าง ชะ ชิซูเนะหรือเธอใส่น้ำหงน้ำหอม\nหรือโคโลญอะไรแบบนี้… ฉันไม่เคยใส่เลยแม้แต่ครั้งเดียว…"
 
 show yuuko worried_up
 with charachange
 
 # yu "Um, by the way, you're not wearing your grape cologne today."
-yu ""
+yu "เอ่อ จะว่าไป วันนี้เธอไม่ได้ใส่โคโลญกลิ่นองุ่นมานี่นา"
 
 # hi "Yeah, it wasn't working out for me."
-hi ""
+hi "ครับ พอดีรู้สึกว่าไม่เหมาะน่ะ"
 
 show yuuko worried_down
 with charachange
 
 # yu "Oh, that's good. I thought the same thing… Sorry."
-yu ""
+yu "อ้อ ดีแล้ว ฉันก็ว่างั้นแหละ… ขอโทษที"
 
 # "Yuuko looks genuinely sorry, and I feel a pang of guilt. I smile, despite myself. A tiny lie like that can come back to bite me in the butt."
-""
+"ยูโกะดูรู้สึกผิดจริง ๆ จนฉันพลอยรู้สึกผิดไปด้วย ฉันยิ้มออกมาไม่รู้ตัว โกหกอะไรเล็ก ๆ น้อย ๆ แบบนั้นไปยังมาแว้งกัด\nกันได้นะ"
 
 # "For Misha, trying to conceal how she felt in order to put on a happy face for Shizune for so long must have been crushing."
-""
+"มิช่าคงเหนื่อยน่าดูที่ต้องอำพรางความรู้สึกตัวเองเพื่อจะได้ยิ้มแย้มให้ชิซูเนะมานานขนาดนี้"
 
 # hi "Someone I know brought up that we're going to be graduating, and I realized that I've never thought about it before."
-hi ""
+hi "คนรู้จักผมคนหนึ่งมาบอกว่าเราจะเรียนจบแล้วนะ ผมเลยนึกได้ว่าก่อนหน้านั้นผมไม่เคยคิดเรื่องนี้เลย"
 
 # hi "I feel stupid that I could go so long and never think about these things. I've met a lot of great people, and I've never thought about what it's going to be like to graduate and maybe never see them again."
-hi ""
+hi "ผมรู้สึกตัวเองโง่ที่อยู่มานานขนาดนี้โดยไม่คิดเรื่องพวกนั้นเลย เจอคนดี ๆ หลายคน แต่ไม่เคยคิดเลยว่าหลังจาก\nเรียนจบแล้วต้องหายหน้าหายตากันไปแล้วจะเป็นยังไง"
 
 show yuuko neutral_down
 with charachange
 
 # yu "There are still ways you could keep in touch…"
-yu ""
+yu "เรียนจบแล้วก็ยังติดต่อกันได้นี่…"
 
 # hi "Yeah, I guess. I feel childish. I know everyone is going through the same thing, probably. I bet you hear this kind of problem a lot."
-hi ""
+hi "ก็คงงั้นมั้งครับ รู้สึกเหมือนตัวเองงอแงเป็นเด็กเลย ผมรู้แหละว่าทุกคนก็คงคิดแบบนี้กันทั้งนั้น คุณคงต้องมานั่งฟัง\nอะไรแบบนี้บ่อยน่าดู"
 
 show yuuko worried_down
 with charachange
 
 # yu "N-no… I haven't been working here that long…"
-yu ""
+yu "มะ ไม่นะ… ฉันไม่ได้ทำงานที่นี่มานานขนาดนั้น…"
 
 show yuuko worried_up
 with charachange
 
 # yu "I worried about the same thing when I graduated from high school. Um, I didn't go to school here, though. I also miss my friends… and I wish I had kept in touch with them better. I should have tried harder."
-yu ""
+yu "ตอนฉันเรียนจบมัธยมฉันก็กลัวแบบนั้นเหมือนกัน เอ่อ แต่ฉันไม่ได้เรียนที่นี่นะ ฉันก็คิดถึงเพื่อนเหมือนกัน…\nถ้าติดต่อกันให้มากกว่านี้ก็คงดี ฉันน่าจะพยายามให้มากกว่านี้"
 
 # "Yuuko isn't really helping me feel better, and she clams up quickly when she sees it on my face."
-""
+"ยูโกะไม่ได้ช่วยให้ฉันรู้สึกดีขึ้นเท่าไหร่ ซึ่งเธอก็สงบตัวเองลงได้เมื่อเห็นสีหน้าฉันที่บอกแบบนั้น"
 
 # hi "I don't want to look back and have those same regrets."
-hi ""
+hi "ผมไม่อยากมองย้อนกลับไปแล้วมานั่งเสียใจแบบนั้นน่ะครับ"
 
 # hi "I wonder if Shizune even thinks about that kind of stuff. Because she goes on sometimes, about how she doesn't want to live with any regrets."
-hi ""
+hi "ผมไม่รู้ว่าชิซูเนะจะคิดเรื่องพวกนั้นด้วยซ้ำหรือเปล่า เพราะก็เจ้าตัวก็เคยเล่าเป็นบางครั้งเหมือนกันว่าอยากใช้ชีวิต\nแบบที่ไม่ต้องเสียใจทีหลัง"
 
 show yuuko panic_up
 with charachange
 
 # yu "Wow… That sounds impossible, to me…"
-yu ""
+yu "โห… ฉันว่า… ฟังดูเป็นไปไม่ได้เลยนะ"
 
 # "I nod, only halfway wanting to agree."
-""
+"ฉันพยักหน้ากึ่ง ๆ เห็นด้วย"
 
 show yuuko closedhappy_up
 with charachange
 
 # yu "Even so… I think that is kind of admirable, too… Kind of brave. Don't you think so?"
-yu ""
+yu "แต่ถึงอย่างนั้น… ฉันว่าก็น่านับถือเหมือนกันนะ… เป็นคนกล้าหาญ เธอว่างั้นมั้ย"
 
 # hi "“Brave” is a new way to put it."
-hi ""
+hi "ได้มองมุมใหม่เลยนะครับเนี่ย ที่บอกว่า “กล้าหาญ” น่ะ"
 
 show yuuko neutral_down
 with charachange
 
 # "Yuuko shakes her head insistently."
-""
+"ยูโกะสั่นหัวยืนกราน"
 
 # yu "It's true, though. And also kind of intimidating…"
-yu ""
+yu "แต่จริงนะ แล้วก็น่าเกรงขามด้วย…"
 
 # hi "Geez. You shouldn't be intimidated by high schoolers."
-hi ""
+hi "โห่ คนอย่างคุณไม่ต้องกลัวเด็กมัธยมหรอกครับ"
 
 show yuuko worried_up
 with charachange
 
 # yu "I'll try…"
-yu ""
+yu "จะพยายามนะ…"
 
 hide yuuko
 with charaexit
 
 # "She turns away to start folding a sticky note over and over. Pretty idle behavior for a university student, but more importantly, I wonder if I said the wrong thing to her."
-""
+"ยูโกะหันไปพับโพสต์อิตซ้ำแล้วซ้ำเล่า เด็กมหาวิทยาลัยเขาทำอะไรแบบนี้แก้มือว่างกันสินะ แต่ที่สำคัญกว่านั้นคือฉัน\nอยากรู้ว่าไปพูดอะไรสะกิดใจเข้าหรือเปล่า"
 
 # "Being around Shizune for so long, I can't stop reading as much as I can into every moment of silence."
-""
+"พออยู่กับชิซูเนะนานเข้าฉันก็อดไม่ได้ที่จะตีความทุกอย่างทุกครั้งที่คนเงียบไป"
 
 # "If Yuuko were the type of person who didn't get intimidated by high schoolers, it probably wouldn't be so easy to talk to her."
-""
+"ถ้ายูโกะเป็นคนที่ไม่กลัวเด็กมัธยมแล้วฉันก็คงมาคุยสบาย ๆ แบบนี้ไม่ได้หรอก"
 
 # "It's all too easy to want to shed some negative quality of yours. When I think of everyone I know, it's those qualities that I like the best."
-""
+"คนเราต่างก็อยากขจัดคุณสมบัติด้านลบของตัวเองกันทั้งนั้น แต่พอนึกถึงทุกคนที่ฉันรู้จักแล้วกลับเห็นว่าเป็น\nคุณสมบัติเหล่านั้นเองที่ฉันชอบที่สุด"
 
 show yuuko worried_up at center
 with charaenter
 
 # yu "Um…"
-yu ""
+yu "เอ่อ…"
 
 show yuuko smile_down
 with charachange
 
 # yu "I don't think I really regret it. I thought, as long as I could remember the good times, that was enough."
-yu ""
+yu "แต่ฉันว่าฉันไม่ได้เสียใจอะไรขนาดนั้นหรอก ตราบใดที่ยังนึกถึงวันเวลาดี ๆ ได้ แค่นั้นก็พอแล้วละ"
 
 show yuuko worried_down
 with charachange
 
 # yu "I don't know. …Sorry."
-yu ""
+yu "ไม่รู้สิ …ขอโทษที"
 
 # "I notice a couple students starting to trickle into the library, and decide that my time is up."
-""
+"ฉันเห็นนักเรียนสองสามคนทยอยเข้าห้องสมุดมา พอแค่นี้ก่อนแล้วกัน"
 
 # hi "No, that was helpful."
-hi ""
+hi "ไม่หรอกครับ ช่วยได้เยอะเลย"
 
 # hi "I feel like two of my friends are fighting because one of them is taking the fact that we might not see each other again after we graduate really hard. And the other is probably being stoic about it, which only makes it worse."
-hi ""
+hi "ผมรู้สึกเหมือนเพื่อนทะเลาะกันเพราะเพื่อนคนหนึ่งคิดมากว่าหลังเรียนจบแล้วจะไม่ได้เจอกันอีก ส่วนอีกคนก็\nเหมือนจะไม่เดือดร้อนอะไร เรื่องเลยยิ่งแย่ไปใหญ่"
 
 # hi "I don't get how I'm supposed to handle this kind of situation. It doesn't seem like the kind of problem where I'll have to end up taking a side, but it could turn out that way, and then I have no idea what I'm going to do."
-hi ""
+hi "ผมไม่รู้ว่าจะต้องรับมือกับสถานการณ์แบบนี้ยังไง ถึงจะดูเหมือนว่าเป็นเรื่องที่ผมไม่ต้องเลือกข้าง แต่สุดท้ายสักวัน\nก็อาจต้องเลือกอยู่ดี ซึ่งถ้าเป็นอย่างนั้นจริงผมก็ไม่รู้ต้องทำตัวยังไง"
 
 show yuuko neutral_down
 with charachange
 
 # yu "You should tell them they shouldn't fight."
-yu ""
+yu "บอกไปสิว่าอย่าทะเลาะกัน"
 
 # hi "I know. Fighting is bad."
-hi ""
+hi "รู้น่าครับ ทะเลาะกันมันไม่ดี"
 
 # hi "It's not Shizune and Misha, by the way."
-hi ""
+hi "แล้วก็ไม่ได้พูดถึงชิซูเนะกับมิช่านะครับ"
 
 show yuuko worried_up
 with charachange
 
 # yu "Okay… Um, I wasn't really thinking that, though…"
-yu ""
+yu "โอเค… เอ่อ แต่ฉันไม่ได้คิดแบบนั้นเลยนะ"
 
 # "How embarrassing. Even though I knew it would be, I still feel my cheeks redden, and even so, I still said something so transparent and blatantly a lie. But it could be that sometimes that is the right way."
-""
+"น่าอายชะมัด รู้อยู่ว่าน่าอายแต่ก็ยังหน้าแดง แถมโกหกทนโท่อะไรแบบนั้นไปหน้าตาเฉย แต่บางทีก็คงต้องเลือกพูด\nอย่างนี้แหละ"
 
 # hi "Do you have any books about people who have to make hard decisions?"
-hi ""
+hi "พอจะมีหนังสือเกี่ยวกับคนที่ต้องเลือกอะไรที่น่าหนักใจมั้ยครับ"
 
 show yuuko happy_down
 with charachange
 
 # yu "We have a lot of self-help books…"
-yu ""
+yu "ที่นี่มีหนังสือพัฒนาตนเองเยอะแยะเลย…"
 
 # "It's funny that I can find that surprising, because I wouldn't have only a few months ago."
-""
+"ตลกดีที่ฉันแปลกใจ เพราะสองสามเดือนก่อนฉันก็คงไม่รู้สึกแปลกอะไร"
 
 # hi "I meant “about,” not “for.” There aren't many, right?"
-hi ""
+hi "ผมถามว่า “เกี่ยวกับ” ไม่ใช่ “สำหรับ” นะครับ คงไม่มีไม่เยอะใช่มั้ย"
 
 show yuuko worried_down
 with charachange
 
 # yu "Yes. Um, not many, I mean."
-yu ""
+yu "อื้ม เอ่อ หมายถึง มีไม่เยอะ"
 
 stop music fadeout 3.0
 
 # "Though I feel a bit apprehensive about it, I want to talk to Shizune. I don't understand why I feel nervous about it, and that disgusts me a little."
-""
+"ถึงในใจจะยังวิตกอยู่ แต่ฉันก็ยังอยากคุยกับชิซูเนะ ไม่เข้าใจเลยว่าทำไมถึงประหม่าจนนึกแขยงขึ้นมา"
 
 scene bg school_council
 with locationskip
 
 # "It also motivates me to look for her, right then and there, although I don't have to look very hard. She's in the student council room, as always."
-""
+"ซึ่งก็ทำให้ฉันอยากตามหาตัวเธอด้วยแบบปัจจุบันทันที ถึงไม่ต้องลงแรงมากก็เถอะ เพราะอยู่ที่ห้องสภานักเรียนอย่าง\nเคยน่ะแหละ"
 
 play music music_pearly fadein 5.0
 
@@ -345,219 +345,219 @@ show shizu behind_blank at center
 with charaenter
 
 # "Worryingly, Misha isn't with her. When Shizune notices me and looks up from her paperwork, the first thing I ask is where she is."
-""
+"พอเห็นมิช่าอยู่ด้วยแล้วฉันก็ใจเสีย สิ่งแรกที่ฉันทำหลังจากชิซูเนะเห็นฉันแล้วละสายตาจากเอกสารคือการถาม\nว่ามิช่าอยู่ไหน"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "I don't know."
-ssh ""
+ssh "ไม่รู้สิ"
 
 # "There is so much uncertainty in her answer that I can't let it go just like that."
-""
+"เป็นคำตอบที่เต็มไปด้วยความลังเลจนฉันปล่อยผ่านไปเฉย ๆ ไม่ได้"
 
 # his "She's missing a lot of school."
-his ""
+his "มิช่าขาดเรียนหลายครั้งแล้วนะ"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "Are you the attendance police?"
-ssh ""
+ssh "นี่นายเป็นตำรวจตรวจการเช็กชื่อหรือยังไง"
 
 # his "That's really strange, coming from the Student Council president."
-his ""
+his "แปลกนะที่คนอย่างประธานนักเรียนพูดอะไรแบบนั้นน่ะ"
 
 show shizu adjust_smug
 with charachange
 
 # "Shizune hides a laugh behind a cupped hand, and I start to think that I might be worrying for nothing, but then her laughter slowly fades away to a more serious and pensive expression."
-""
+"ชิซูเนะยกมือป้องปากหัวเราะ ฉันคิดไปว่าตัวเองอาจคิดมากไปเอง ทว่ารอยยิ้มนั้นก็จางลงแปรเป็นสีหน้าจริงจังครุ่นคิด"
 
 show shizu basic_normal
 with charachange
 
 # ssh "You're right."
-ssh ""
+ssh "ก็จริง"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Yesterday,"
-ssh ""
+ssh "เมื่อวาน"
 
 show shizu adjust_happy
 with charachange
 
 # "I catch the hint of a knowing smile on her face when she sees my poorly-hidden panic at the word. Despite her best efforts, she can't help being satisfied in eliciting surprise from everyone else, to the very end."
-""
+"ฉันเห็นรอยยิ้มกรุ้มกริ่มบาง ๆ ของชิซูเนะเมื่อเธอเห็นสีหน้าตื่นตระหนกของฉันที่ปิดไว้ไม่มิดเมื่อได้ยินคำนั้น\nไม่ว่าอย่างไร ถึงจะพยายามขนาดไหนก็อดที่จะรู้สึกพึงใจไม่ได้กับการทำให้คนอื่นตกใจสินะ"
 
 # "Even then, I can see that she has bigger concerns from how quickly her smile vanishes."
-""
+"แต่ฉันก็ดูออกอยู่ว่าชิซูเนะมีเรื่องให้ต้องกังวลใจที่หนักกว่าจากการที่รอยยิ้มเธอหายไปอย่างรวดเร็ว"
 
 show shizu basic_angry
 with charachange
 
 # ssh "…before either of you noticed me, I saw what you were saying. I'm not stupid."
-ssh ""
+ssh "…ฉันเห็นนะว่านายพูดอะไรก่อนที่พวกเธอสองคนจะเห็นฉันเสียอีก ฉันไม่ได้โง่นะ"
 
 show shizu behind_frown
 with charachange
 
 # ssh "If I hadn't, I could still see through Misha while we were walking back. Even if she hadn't told me everything later. She didn't make a big deal out of it, but any way you look at it, it's my fault, isn't it?"
-ssh ""
+ssh "หรือต่อให้ฉันไม่เห็น ฉันก็ดูออกจากท่าทางมิช่าตอนเดินกลับด้วยกันอยู่ดี ถึงเจ้าตัวจะไม่ได้เล่าทุกอย่างก็เถอะ\nมิช่าไม่ได้บ่นอะไรก็จริง แต่ดูยังไงก็ความผิดฉันสินะ"
 
 # his "What did she tell you?"
-his ""
+his "มิช่าบอกอะไร"
 
 show shizu adjust_frown
 with charachange
 
 # "Shizune winces at the question, though it's clear she's been expecting it. She follows it up with a very grand gesture."
-""
+"ชิซูเนะผงะไปกับคำถามนั้น ถึงจะชัดก็เถอะว่าเธอรู้อยู่แล้วว่าฉันจะถาม จากนั้นจึงทำภาษามือแบบกว้าง ๆ"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "A lot."
-ssh ""
+ssh "หลายอย่าง"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "Like, that I can be selfish, and confusing. I try too hard to bring people around me, and then push them away."
-ssh ""
+ssh "เช่นว่าบางทีฉันก็เห็นแก่ตัว เข้าใจยาก ฝืนพาคนอื่นเข้ามาในชีวิตแล้วผลักไสออกไป"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "I didn't know what I should do. I thought she was right to mention all of those things, so I just agreed with her, but that only made things worse."
-ssh ""
+ssh "ฉันไม่รู้ว่าควรทำยังไงดี ฉันคิดว่ามิช่าก็พูดถูกเหมือนกันเลยบอกเห็นด้วยไป แต่ยิ่งทำให้เรื่องไปกันใหญ่"
 
 show shizu behind_sad
 with charachange
 
 # ssh "I don't understand."
-ssh ""
+ssh "ไม่เห็นเข้าใจเลย"
 
 # "Adjusting her glasses, she looks pretty tired. I hope it isn't because she's been busy avoiding Misha, but I can't help considering the possibility, seeing where this conversation is going."
-""
+"ชิซูเนะดันแว่นด้วยท่าทีอ่อนล้า หวังว่าจะไม่ใช่เพราะต้องคอยหลบหน้ามิช่าหรอกนะ แต่ก็อดคิดไม่ได้อยู่ดี\nว่าจะเป็นเช่นนั้นจากหลายอย่างที่เธอบอก"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "It's true. Even the Student Council being this small, and us always being swamped with work, is my fault. I might have even ended up driving a lot of people off, and away from the Student Council, acting like that."
-ssh ""
+ssh "ก็จริงแหละว่าทั้งที่สภานักเรียนก็มีกันแค่นี้แต่งานสุมท่วมหัวน่ะเป็นความผิดฉัน แล้วก็น่าจะเพราะฉันทำตัว\nอย่างนั้นคนอื่นถึงกระเจิงไปจากฉันหมด ไปจากสภานักเรียนด้วย"
 
 # "Shizune wags a finger mischievously, acknowledging that “might” is an understatement. However, from how wearily she does it, it's obvious the humor is only to put me at ease, and therefore not genuine."
-""
+"ชิซูเนะส่ายนิ้วซุกซนเป็นการรับรู้ว่าการใช้คำว่า “น่าจะ” นั้นยังน้อยไป แต่ดูจากท่าทีที่เหมือนทำผ่าน ๆ อย่างนั้นแล้ว\nเหมือนว่าจะทำให้ดูตลกให้ฉันสบายใจมากกว่า ไม่ได้เป็นอะไรที่มาจากใจจริง"
 
 show shizu basic_normal
 with charachange
 
 # ssh "Like Lilly, for instance. She was the first person to join when I started trying to recruit people again after everyone else left, because they couldn't stand me, I guess."
-ssh ""
+ssh "ยกตัวอย่างเช่นลิลลี่ ลิลลี่เป็นคนแรกที่มาเข้าร่วมสภานักเรียนอีกครั้งหลังจากที่ทุกคนออกไป—น่าจะเพราะ\nอยู่กับฉันไม่ได้ละมั้งนะ—แล้วฉันกำลังตามหาสมาชิกใหม่อยู่"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "We managed to put together the last festival, and even ran a booth together at the last minute."
-ssh ""
+ssh "พวกเราจัดงานเทศกาลครั้งสุดท้ายกันได้ ตั้งแผงด้วยกันเอาวินาทีสุดท้ายอีกต่างหาก"
 
 show shizu behind_frown
 with charachange
 
 # ssh "But I didn't like her because I thought she was selfish, always holding us up in order to tend to one friend of hers or another, and leaving Misha and me alone to sort out things involving the whole school by ourselves."
-ssh ""
+ssh "แต่ฉันไม่ชอบลิลลี่เพราะฉันมองว่าเธอเห็นแก่ตัว เอาแต่รั้งพวกเราเพื่อไปช่วยเพื่อนคนนั้นคนนี้แล้วปล่อยให้มิช่า\nกับฉันจัดการเรื่องงานโรงเรียนกันอยู่สองคน"
 
 show shizu cross_angry
 with charachange
 
 # ssh "If there were any problem she was going through, she would leave us high and dry while she panicked over it, and wouldn't come back until it was solved."
-ssh ""
+ssh "ถ้าเจอปัญหาอะไรก็จะปล่อยให้เราลอยเท้งเต้งกลางทะเลโดยที่ตัวเองมัวแต่ตระหนก จะกลับมาอีกทีก็ตอนที่เรื่อง\nคลี่คลายแล้ว"
 
 show shizu adjust_angry
 with charachange
 
 # ssh "She would focus on it one hundred percent, and be too preoccupied to focus on any student council work!"
-ssh ""
+ssh "จะจดจ่ออยู่กับมันเต็มที่เลย จมอยู่กับมันจนตั้งใจทำงานสภานักเรียนไม่ได้!"
 
 show shizu behind_frustrated
 with charachange
 
 # ssh "That was the worst, to me, that she could be so nice and still take so many people for granted. Why even join the Student Council, then? It seemed so shortsighted and selfish, don't you think?"
-ssh ""
+ssh "ฉันมองว่าแบบนั้นน่ะแย่ที่สุดเลย ที่เป็นคนดีขนาดนั้นแต่กลับไม่คิดถึงคนอื่นให้จริงจัง แล้วจะมาเข้าร่วมสภานักเรียน\nทำไม คิดตื้น ๆ แถมยังเห็นแก่ตัวด้วย นายว่างั้นมั้ยล่ะ"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "But, it's actually me who's that way."
-ssh ""
+ssh "แต่จริง ๆ แล้วฉันต่างหากที่เป็นแบบนั้น"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "Like Misha said, always trying to pull people close to me and then shutting them out."
-ssh ""
+ssh "อย่างที่มิช่าบอกนั่นแหละว่าฉันเอาแต่คอยดึงคนเข้ามาในชีวิตแล้วกีดกันทุกคนออกไป"
 
 show shizu behind_sad
 with charachange
 
 # ssh "That is how I've treated her, which makes me a bad friend. And it feels like I did the same thing to you, then, so I guess I'm a bad girlfriend, too, even if Misha says that you might as well replace her."
-ssh ""
+ssh "ฉันทำแบบนั้นกับมิช่า ซึ่งแปลว่าฉันเป็นเพื่อนที่แย่ แล้วฉันก็รู้สึกเหมือนว่าทำอย่างเดียวกันกับนายด้วย ซึ่ง\nแปลว่าฉันก็คงเป็นแฟนที่แย่เหมือนกัน ถึงมิช่าจะบอกก็เถอะว่าให้นายมาอยู่แทนตัวเองไปเลยก็ได้นะ"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "I'm angry that I screwed things up enough for it to get this out of hand. All I wanted was to…"
-ssh ""
+ssh "ฉันโกรธที่ฉันทำพลาดจนอะไร ๆ มันเละเทะขนาดนี้ ฉันก็แค่อยากจะ…"
 
 stop music fadeout 3.0
 
 # "She pauses to look for the right words, tenting her fingers in concentration."
-""
+"ชิซูเนะเว้นจังหวะนึกหาคำที่เหมาะระหว่างที่กางนิ้วชนกันเพื่อตั้งสมาธิ"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Make people happy, I think."
-ssh ""
+ssh "ทำให้ทุกคนมีความสุข มั้งนะ"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "Even though that seems like a simple way to put it."
-ssh ""
+ssh "ฟังดูไม่ซับซ้อนดีเนอะ"
 
 # "As she rests her head against her hand, Shizune's bangs fall delicately across her eyes, hidden behind those polished glasses reflecting just the tiniest bit of light."
-""
+"ชิซูเนะเอนหัวยกมือมาแนบหูไว้ หน้าม้าปรกตาเธอ เบื้องหลังแว่นใสนั้นสะท้อนแสงเลือนราง"
 
 # "It may be wrong to think so, but right now, she seems especially beautiful. Like a more complete person."
-""
+"ถึงอาจจะไม่ควรคิดแบบนี้ แต่ฉันมองว่าตอนนี้ชิซูเนะดูงดงามเป็นพิเศษ เหมือนเป็นคนที่สมบูรณ์ขึ้น"
 
 # "It feels like this is my first chance to respond to her outpouring of emotions. Replacing Misha as Shizune's interpreter? Misha must be joking."
-""
+"ตอนนี้น่าจะเป็นโอกาสแรกที่ฉันจะได้ตอบกลับอารมณ์ของชิซูเนะที่ไหลบ่าออกมา ให้อยู่เป็นล่ามชิซูเนะแทนมิช่าเหรอ\nมิช่าคงพูดเล่นแน่ ๆ"
 
 # "It took all my energy to keep up with her just now, her signing filled with gestures that I've never seen before."
-""
+"แค่เมื่อกี้ฉันก็เสียพลังงานไปหมดสิ้นแค่กับการจนอ่านทุกอย่างจากชิซูเนะ มีแต่ท่าที่ฉันไม่เคยเห็นเต็มไปหมด"
 
 # "Likely, they're habits picked up from Misha, and developed from years of them being together. I could never replace someone so close to her."
-""
+"คงเป็นนิสัยที่ติดมาจากมิช่าละมั้ง อยู่ด้วยกันมานานหลายปีขนาดนั้น ฉันคงไม่อาจทดแทนคนที่ใกล้ชิดกับชิซูเนะ\nขนาดนั้นได้หรอก"
 
 # his "I like you because I like you, not because I got tricked into it by you."
-his ""
+his "ฉันชอบเธอเพราะเธอเป็นเธอ ไม่ใช่เพราะเธอหลอกฉันให้ชอบ"
 
 # "Despite how hard she tried, anyway. I continue to stare back into her eyes, as sharp as ever. The first time I saw them, they had seemed a bit intimidating to me. Like the eyes of a predator. That hasn't changed, which I find reassuring."
-""
+"แต่ก็จริงอยู่ว่าชิซูเนะล่อหลอกฉันหลายรอบน่ะนะ ฉันจ้องสายตาอันเฉียบคบไม่เปลี่ยนแปลงของชิซูเนะนั้นกลับ\nครั้งแรกที่ได้เห็นนั้นฉันกลัวอยู่เล็กน้อย เป็นสายตาที่เหมือนอย่างนักล่า ซึ่งตอนนี้ก็ยังเป็นเช่นเดิม และทำให้ฉันสบายใจ\nขึ้นมา"
 
 show shizu basic_normal
 with charachange
 
 # ssh "I still want to make everyone happy."
-ssh ""
+ssh "แต่ฉันก็ยังอยากให้ทุกคนมีความสุขอยู่ดี"
 
 # his "Starting with Misha?"
-his ""
+his "เริ่มด้วยมิช่าก่อนเหรอ"
 
 play music music_shizune fadein 6.0
 
@@ -565,44 +565,44 @@ show shizu basic_frown
 with charachange
 
 # "Shizune looks a bit annoyed that I would imply she would start with anyone else, and smiles confidently, as though a friend's sadness is a physical opponent she can just strangle into submission."
-""
+"ชิซูเนะดูหงุดหงิดเล็กน้อยที่ฉันใช้คำพูดเหมือนจะบอกว่าตัวเองจะเริ่มด้วยคนอื่นก่อนจะยิ้มอย่างมั่นใจราวกับ\nความเศร้าของเพื่อนนั้นคือศัตรูที่มีกายเนื้อแล้วรัดคอให้สยบยอมได้"
 
 show shizu behind_frustrated
 with charachange
 
 # ssh "Of course; obviously; naturally."
-ssh ""
+ssh "แหงสิ แน่นอนอยู่แล้ว ต้องเป็นแบบนั้นแหละ"
 
 #see report
 show shizu adjust_noglasses
 with charachange
 
 # "Taking off her glasses, she leans back in her chair and lets out a sigh. It's the first time I've seen her without them on, but I don't get a good look before she slips them back on."
-""
+"ชิซูเนะถอดแว่นเอนตัวพิงพนักเก้าอี้ถอนหายใจ ครั้งแรกเลยที่เห็นชิซูเนะตอนไม่ใส่แว่น แต่ยังไม่ทันได้ดูให้ดีเธอก็กลับ\nไปใส่แว่นแล้ว"
 
 show shizu behind_smile
 with charachange
 
 # ssh "But, I'm too tired to start today. First thing tomorrow."
-ssh ""
+ssh "แต่จะเริ่มวันนี้ก็ไม่ไหว เหนื่อย ค่อยเริ่มพรุ่งนี้แล้วกัน"
 
 show shizu basic_normal
 with charachange
 
 # ssh "Do you want to help?"
-ssh ""
+ssh "นายอยากช่วยมั้ย"
 
 # his "Yeah."
-his ""
+his "อืม"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "And… I have other student council stuff you could help me with, while you're at it."
-ssh ""
+ssh "แล้วก็… ไหน ๆ ก็ไหน ๆ ฉันมีงานสภานักเรียนอย่างอื่นจะให้นายช่วยด้วย"
 
 # "Although it turns out that there isn't much other work at all."
-""
+"ถึงงานที่ว่านั้นจริง ๆ จะไม่ได้มีมากก็ตาม"
 
 stop music fadeout 2.0
 $ suppress_window_after_timeskip = True
