@@ -634,10 +634,10 @@ window show
 play sound sfx_doorknock
 
 # "There's no school today, so I expected to be able to sleep in late. Unfortunately, I'm awakened by someone mercilessly pounding on my door at eight in the morning."
-""
+"วันนี้ไม่มีเรียน ฉันจึงคาดไว้ว่าคงนอนต่อได้ โชคไม่ดีที่เสียงทุบประตูปึงปังอย่างไร้ปรานีนั้นมาปลุกฉันตอนแปดโมงเช้า"
 
 # "At first, I think it could be Kenji, but when my shouts of annoyance go unanswered, I realize it's Shizune."
-""
+"แวบแรกฉันคิดว่าอาจเป็นเคนจิ แต่เมื่อตะโกนตอบกลับด้วยความรำคาญแล้วไม่ได้คำตอบจึงรู้ว่าเป็นชิซูเนะ"
 
 play sound sfx_dooropen
 
@@ -651,41 +651,41 @@ show shizu behind_blank at center
 with charadistant
 
 # "She immediately backs away from the door when I open it, quickly concealing something behind her back. Kind of ominous."
-""
+"ชิซูเนะถอยกรูดไปเมื่อฉันเปิดประตูรีบซ่อนอะไรบางอย่างไว้ข้างหลัง รู้สึกไม่ค่อยดีเลยแฮะ"
 
 # his "What's that? Is it a surprise? I don't really like surprises."
-his ""
+his "นั่นอะไร เซอร์ไพรส์เหรอ ฉันไม่ค่อยชอบเซอร์ไพรส์เท่าไหร่นะ"
 
 show shizu behind_frown
 with charachange
 
 # "The displeased expression on her face says that she wants me to stop being such a wet blanket, but she's too busy fumbling with what's behind her back to sign it."
-""
+"สีหน้าไม่พอใจของชิซูเนะบ่งบอกว่าฉันควรเลิกทำให้คนอื่นหมดสนุกได้แล้ว แต่เธอก็ไม่อาจทำภาษามืออะไรได้ด้วยมือ\nที่ยังถืออะไรไว้ข้างหลังอยู่"
 
 show shizu adjust_smug
 with charachange
 
 # "It must be frustrating for her, because seconds later, she swings the object out, proudly, and also a little dangerously."
-""
+"คงหงุดหงิดน่าดู เพราะสองสามวินาทีให้หลังชิซูเนะก็ยื่นของที่ว่านั้นออกมาอย่างภาคภูมิจนแทบจะชนหน้าฉันอยู่แล้ว"
 
 show shizu basic_happy
 with charachange
 
 #see report
 # ssh "Ta-da. A picnic basket. We can have lunch together, the three of us."
-ssh ""
+ssh "แต่นแต๊น ตะกร้าปิกนิกละ มากินมื้อเที่ยงด้วยกันสามคนดีกว่า"
 
 # "It's not really a basket, it looks more like a plastic bag. Taking a quick look inside, I can see that most of the food inside is also store-bought, not homemade. Some items still have the price stickers on."
-""
+"ไม่ใช่ตะกร้าจริง ๆ หรอก เหมือนถุงพลาสติกมากกว่า พอมองแวบหนึ่งก็เห็นว่าของในนั้นส่วนมากก็ซื้อมาจากร้าน\nไม่ใช่ของทำเอง บางอย่างยังมีป้ายราคาติดอยู่เลย"
 
 # "There's a very diverse selection here, though. Even a tiny tin of caviar. I'm slowly becoming more impressed with this lunch. I pick a grape out of there and pop it in my mouth."
-""
+"แต่ในนั้นก็มีอะไรหลากหลายดี มีแม้กระทั่งคาเวียร์กระป๋องเล็ก ๆ ด้วย ชักสนใจขึ้นมาแล้วสิ ฉันบิองุ่นมาหนึ่งลูก\nเข้าปากกิน"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "Don't just take things like that! I spent all night perfecting this final weapon."
-ssh ""
+ssh "อย่าหยิบเล่นแบบนั้นสิ! ฉันตัดแต่งอาวุธสุดยอดนี้อยู่ทั้งคืนเลยนะ"
 
 show shizu adjust_frown:
     ease 0.5 ypos 1.2
@@ -700,130 +700,129 @@ show shizu basic_normal:
 with charachange
 
 # "Shizune places it down on the ground to free up her hands, and immediately starts playfully tapping it between her feet like a soccer ball. Definitely not what you should do to anything you're going to call a “final weapon.”"
-""
+"ชิซูเนะวางถุงลงกับพื้นให้มือว่างแล้วใช้เท้าเขี่ยเล่นเหมือนลูกฟุตบอลทันที อันนี้ก็น่าจะไม่ใช่อะไรที่ควรทำกับของ\nที่จะมาเรียกว่า “อาวุธสุดยอด” ได้นะ"
 
 show shizu adjust_happy at center
 with charachange
 
 # ssh "All part of my “get-Misha-to-stop-being-so-depressed” plan. I stayed up all last night working on it."
-ssh ""
+ssh "ทุกอย่างคือแผน “ให้มิช่าเลิกซึมเศร้า” ฉันนั่งทำอยู่ทั้งคืนเลยนะ"
 
 show shizu behind_smile
 with charachange
 
-# ssh " When we tried to order in last time, Misha barely got anything, and used it as an excuse to leave early. I won't let her get off so easily this time. The food is already here. She'll have to sit down and eat with us."
-ssh ""
+# ssh "When we tried to order in last time, Misha barely got anything, and used it as an excuse to leave early. I won't let her get off so easily this time. The food is already here. She'll have to sit down and eat with us."
+ssh "คราวที่แล้วตอนจะสั่งอะไรมากินมิช่าก็แทบไม่สั่งอะไรเลยแล้วอ้างหาเรื่องปลีกตัวไปก่อน คราวนี้ไม่ปล่อยไป\nง่าย ๆ แน่ อาหารอยู่ตรงนี้แล้ว ยังไงก็ต้องมานั่งกินด้วยกัน"
 
 show shizu basic_happy
 with charachange
 
 # ssh "It's the perfect bait. Doesn't everything look irresistible? I tried to make it myself, but I don't know how to make it look all fancy, so I ended up buying everything. Still looks delicious, doesn't it? It should be."
-ssh ""
+ssh "นี่แหละกับดักสุดสมบูรณ์แบบ ทุกอย่างดูน่ากินมากเลยใช่มั้ยล่ะ ฉันลองทำเองแล้วแต่ไม่รู้จะทำยังไงให้ดูสวยดี\nก็เลยซื้อทุกอย่างเอา แต่ก็ดูน่าอร่อยใช่มั้ย ควรจะแหละ"
 
 # "She's very perky today, juiced up on the thought of cheering Misha up. Although it's odd to see her so happy about it, I know that she's just as unsure now as she was yesterday."
-""
+"วันนี้ชิซูเนะกระตือรือร้นเหลือเกินกับแผนที่จะทำให้มิช่าร่าเริง แต่ก็แปลกที่ดูมีความสุขขนาดนี้ ทั้งที่ก็เหมือนจะยัง\nไม่แน่ใจไม่ต่างจากเมื่อวานเลย"
 
 # "The only thing that has changed is that by viewing it as another sort of challenge for herself, she can put her worries aside and throw herself into it recklessly."
-""
+"อย่างเดียวที่เปลี่ยนไปคือชิซูเนะตัดความกังวลไปได้แล้วและทุ่มสุดตัวด้วยการมองว่าสิ่งนี้คือภารกิจอย่างหนึ่งที่จะได้\nท้าทายตัวเอง"
 
 # "It has worked well enough for Shizune so far. It wouldn't surprise me if it's the only way she knows how to live."
-""
+"ก็ดูจะเป็นไปได้ด้วยดี ฉันจะไม่แปลกใจเลยถ้าจะบอกว่าชิซูเนะใช้ชีวิตเป็นแค่ด้วยวิธีนี้วิธีเดียว"
 
 # his "It's a little early, though…"
-his ""
+his "แต่จะเช้าไปหน่อยมั้ย…"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "It's already eight in the morning, that's late! Even Misha gets up at eight or nine. She goes to bed at 7:00 p.m., but that isn't important."
-ssh ""
+ssh "แปดโมงเช้าแล้ว สายแล้วนะ! มิช่ายังตื่นตอนแปดเก้าโมง นอนตอนหนึ่งทุ่ม แต่ไม่สำคัญ"
 
 # his "It's very important."
-his ""
+his "อันนั้นน่ะแหละสำคัญมาก"
 
 show shizu basic_normal_close
 with characlose
 
 # "Shizune ignores me, gagging my hands by taking them in hers instead of a more proper rebuttal. The way she lingers against me a moment longer than expected feels really comforting."
-""
+"ชิซูเนะเมินฉันแล้วปิดปากด้วยการจับมือแทนที่จะแย้งอะไรกลับให้ดีกว่านี้ ฉันอุ่นใจขึ้นมาเมื่อเห็นว่าเธอลังเลไม่กล้าจับ\nอยู่นานกว่าที่คาดไว้"
 
 show shizu adjust_happy_close
 with charachange
 
 # ssh "The point is, she's awake right now, walking around somewhere. Let's go find her."
-ssh ""
+ssh "ประเด็นคือมิช่าตื่นแล้วและออกไปเดินอยู่สักที่ ไปตามหามิช่ากัน"
 
 scene bg school_courtyard at bgleft
 with locationskip
 
 # "She sprints out the door impatiently, and her gusto as she drags me along looking for Misha makes me feel more like I'm following a hunter on a safari than looking for a mutual friend."
-""
+"ชิซูเนะพุ่งตัวออกจากประตูด้วยความรีบร้อน แรงที่เธอใช้ลากฉันให้ไปตามหามิช่าด้วยทำให้ตัวเองรู้สึกเหมือนว่าไม่ได้\nไปตามหาเพื่อนแต่กำลังติดตามนักล่าที่ท่องป่าชมสัตว์ตามแอฟริกาอยู่"
 
 # "We don't have to look very hard. Even cropped short, her pink hair stands out. The fact that she's just meandering around the grounds out in the open makes it even easier. Now I'm sounding like a safari hunter."
-""
+"ซึ่งไม่ต้องหาให้เหนื่อยเลย ผมสีชมพูเธอนั้นเด่นแม้จะตัดแล้ว และยิ่งออกมาเดินตามที่โล่งอย่างนี้ก็เจอตัวง่ายขึ้นไปอีก\nเอาละ นี่ฉันจะกลายเป็นนักล่าแทนแล้ว"
 
 show shizu adjust_happy_close at tworight
 with charaenter
 
-# shi "…!"
-shi ""
+shi "…!"
 
 # hi "Misha!"
-hi ""
+hi "มิช่า!"
 
 show mishashort hips_smile at twoleft behind shizu
 with charaenter
 
 # mi "Huh~?"
-mi ""
+mi "หา~?"
 
 # hi "We were just looking for you."
-hi ""
+hi "กำลังหาตัวอยู่เลย"
 
 show shizu behind_smile_close
 with charachange
 
 # ssh "It's a good day for a picnic, you should join us. We even have caviar; not sturgeon, of course, but really tasty."
-ssh ""
+ssh "วันนี้วันดี มาปิกนิกกัน เธอก็มาด้วยสิ มีคาเวียร์ด้วยนะ แน่ละว่าไม่ใช่ของปลาสเตอร์เจียน แต่อร่อยมากเลยนะ"
 
 show mishashort perky_confused
 with charachange
 
 # mi "Caviar? Surgeon?"
-mi ""
+mi "คาเวียร์? สตอเจีย?"
 
 # "Apparently finding it annoying to have to explain anything at length with only one hand, Shizune gives up quickly."
-""
+"ดูเหมือนว่าจะรำคาญที่ต้องอธิบายอะไรยาว ๆ ด้วยมือเดียว ชิซูเนะยอมแพ้แล้วตอบสั้น ๆ"
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "Fish eggs."
-ssh ""
+ssh "ไข่ปลา"
 
 show mishashort sign_confused
 with charachange
 
 # mi "What?"
-mi ""
+mi "อะไรนะ"
 
 show shizu behind_smile_close
 with charachange
 
 # ssh "It tastes good."
-ssh ""
+ssh "อร่อยนะ"
 
 show mishashort cross_smile
 with charachange
 
 # mi "Sorry, Shicchan, I think I'll pass for today."
-mi ""
+mi "ขอโทษทีนะชิจัง แต่วันนี้ขอผ่าน"
 
 show shizu basic_angry_close
 with charachange
 
 # "When Misha starts to walk away, Shizune holds the bag out towards me, needing me to take it so that her hands can be free."
-""
+"พอมิช่าทำท่าจะเดินหนีชิซูเนะก็ยื่นถุงให้ฉันถือแล้วตัวเองจะได้มือว่าง"
 
 hide shizu
 with None
@@ -850,55 +849,54 @@ show bg school_courtyard at Position(xpos=0.43)
 with dissolvecharamove
 
 # "As soon as it's out of her hands, she darts in front of Misha, cutting her off."
-""
+"พอถุงพ้นมือไปแล้วชิซูเนะก็พุ่งตัวไปขวางมิช่าไว้ทันที"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "I made so much food, though."
-ssh ""
+ssh "แต่ฉันทำมาเยอะเลยนะ"
 
 show mishashort perky_sad
 with charachange
 
 # mi "Sorry, I'm just not hungry right now."
-mi ""
+mi "ขอโทษที ตอนนี้ยังไม่หิว"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show shizu behind_frown
 with charachange
 
 # ssh "When are you going to be hungry, then?"
-ssh ""
+ssh "แล้วเมื่อไหร่จะหิว"
 
 show mishashort hips_frown
 with charachange
 
 # mi "Shicchan, that's impossible to know~."
-mi ""
+mi "ชิจัง ฉันจะไปรู้ได้ยังไงล่ะ~"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "You can guess."
-ssh ""
+ssh "ก็เดาได้นี่"
 
 # "The tension between them infuriates Shizune, and she's trying to deal with it by trying to tear through it. But that approach isn't going to work."
-""
+"ความตึงเครียดระหว่างทั้งสองคนพาให้ชิซูเนะเดือดดาล เธอกำลังรับมือด้วยการตื๊ออยู่ แต่วิธีแบบนั้นไม่ได้ผลหรอก"
 
 # "I'd thought, and hoped, that Misha had gotten herself together, but I guess she was just cut too deep by what happened."
-""
+"ฉันคิดว่า—และหวังว่า—มิช่าคงตั้งสติได้บ้างแล้ว แต่ดูท่าคงจะเจ็บหนักมากกับเรื่องที่เกิดขึ้น"
 
 # "In that case, it's really out of anyone's hands. I believe that Shizune might understand that, on some level. If she didn't, she wouldn't have any doubts at all."
-""
+"ถ้าอย่างนั้นไม่ว่าใครก็คงช่วยไม่ได้ ฉันเชื่อว่าชิซูเนะคงเข้าใจอยู่บ้าง เพราะถ้าไม่เข้าใจก็คงไม่ลังเลหรอก"
 
 # "Because she can't speak, though, I've learned to notice her hesitation. It's very clear; she might as well be screaming."
-""
+"แต่เพราะเธอพูดไม่ได้นั่นแหละฉันถึงหัดสังเกตเวลาที่เธอลังเล เห็นชัดว่าตอนนี้เธออยากจะกรีดร้องแทบตาย"
 
 show mishashort sign_smile
 with charachange
@@ -909,16 +907,16 @@ with charaexit
 stop music fadeout 5.0
 
 # "Misha waves her hands in front of her, not wanting to continue the discussion any further, and quickly slips away. Shizune fumes silently, reluctant to let her go but having no way to keep her here."
-""
+"มิช่าโบกมือตรงหน้าชิซูเนะด้วยไม่อยากสนทนาต่ออีกแล้วแวบหายไปอย่างรวดเร็ว ชิซูเนะโมโหอยู่เงียบ ๆ เพราะ\nไม่อยากปล่อยมิช่าไป แต่ก็ไม่มีวิธีใดที่จะรั้งได้"
 
 # "As Misha's back grows smaller in the distance, I wonder where she's heading off to. Is Shizune wondering the same thing, as she bites her lip in frustration?"
-""
+"แผ่นหลังมิช่าหดเล็กลงเมื่อระยะทิ้งห่างออกไป จะไปไหนกันนะ ชิซูเนะที่ยืนกัดริมฝีปากด้วยความหัวเสียจะสงสัย\nเหมือนกันหรือเปล่า"
 
 # "I want to touch her reassuringly on the shoulder, but I stop myself, not knowing if it's the right thing to do."
-""
+"ฉันอยากไปตบบ่าปลอบใจแต่ก็ยั้งตัวเองไว้เพราะไม่รู้ว่าควรทำหรือไม่"
 
 # "Not because she looks fragile, vulnerable, or sad. It's the opposite. After a while, her expression belies no emotion at all. Only contemplation. Suddenly, she whirls around."
-""
+"ไม่ใช่เพราะชิซูเนะดูเปราะบาง บอบบาง หรือเศร้าสร้อย กลับกันเลยต่างหาก ผ่านไปสักพักสีหน้าเธอก็ไร้อารมณ์\nเหลือเพียงความครุ่นคิด ทันใดนั้นเองเธอก็หมุนตัวมา"
 
 play music music_dreamy fadein 4.0
 
@@ -927,54 +925,54 @@ show bg school_courtyard at right
 with dissolvecharamove
 
 # ssh "Now all this food is going to go to waste."
-ssh ""
+ssh "แล้วทีนี้อาหารพวกนี้ก็จะเสียเปล่า"
 
 # his "Yeah."
-his ""
+his "อืม"
 
 show shizu behind_sad
 with charachange
 
 # ssh "That makes me mad."
-ssh ""
+ssh "เศร้าจัง"
 
 # "Although it's obvious Shizune is more hurt than mad. The bag dangling from my hand feels like it's filled with lead."
-""
+"แต่ก็ชัดแหละนะว่าตอนนี้ชิซูเนะไม่ได้โกรธแต่เจ็บปวดอยู่ ถุงที่ฉันถืออยู่นั้นหนักราวกับว่ามีตะกั่วใส่ไว้"
 
 show shizu behind_blank
 with charachange
 
-$ doublespeak(ssh, his, "Let's go on a date.", "Let's use it, then.")
+# $ doublespeak(ssh, his, "Let's go on a date.", "Let's use it, then.")
+$ doublespeak(ssh, his, "ไปเดตกันเถอะ", "งั้นก็กินกันเถอะ")
 
 show shizu adjust_blush
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show shizu basic_normal
 with charachange
 
 # ssh "Where do you want to go?"
-ssh ""
+ssh "นายอยากไปไหน"
 
 # his "I don't know."
-his ""
+his "ไม่รู้สิ"
 
 show shizu behind_blank
 with charachange
 
 # ssh "The roof."
-ssh ""
+ssh "ดาดฟ้า"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "It's my favorite spot."
-ssh ""
+ssh "ที่โปรดฉัน"
 
 # "A wry smile appears on her face, disappearing just as quickly."
-""
+"ชิซูเนะยิ้มแห้ง ๆ รอยยิ้มนั้นหายไปอย่างรวดเร็ว"
 
 play ambient sfx_rooftop fadein 1.0
 
@@ -983,205 +981,204 @@ show shizu behind_frown_close at center
 with shorttimeskip
 
 # "On the roof, I immediately crack open the caviar, ignoring a derisive look from Shizune all the while. I end up putting it down immediately."
-""
+"พอมาถึงดาดฟ้าแล้วฉันก็เปิดกระป๋องคาเวียร์ทันทีโดยไม่ได้สนใจสายตาหยามเหยียดของชิซูเนะ ฉันวางกระป๋องลง\nทันที"
 
 # his "Where are the toast points?"
-his ""
+his "แล้วไหนขนมปังปิ้งสามเหลี่ยมที่จะมากินคู่กัน"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "I didn't make any. Like I told you, I bought everything."
-ssh ""
+ssh "ไม่ได้ทำ ก็บอกแล้วไงว่าฉันซื้อมาทุกอย่าง"
 
 # his "Not toast points, though…"
-his ""
+his "แต่ถ้าไม่มีขนมปังปิ้งสามเหลี่ยมมันก็…"
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "Why is that important? Anyway, they don't sell just toast points. That would be stupid."
-ssh ""
+ssh "แล้วมันสำคัญตรงไหน แต่นั่นแหละ ไม่มีร้านไหนขายขนมปังปิ้งสามเหลี่ยมแบบแยกหรอก เขาคงไม่บ้า\nขนาดนั้น"
 
 # his "I bet they do."
-his ""
+his "ฉันว่ามี"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "Maybe in stores for the exceptionally lazy, but not here. Why don't you use a tortilla chip?"
-ssh ""
+ssh "ถ้าร้านสำหรับคนที่ขี้เกียจเป็นพิเศษก็อาจจะมี แต่ที่นี่ไม่มี ใช้ตอร์ติยาชิปก็ได้นี่"
 
 # his "A tortilla chip is not the same."
-his ""
+his "ตอร์ติยาชิปมันไม่เหมือนกันกับขนมปังปิ้งสามเหลี่ยมสักหน่อย"
 
 show shizu basic_frown_close
 with charachange
 
 # ssh "They're both triangles. Stop being such a princess. I didn't know there was a proper way to eat caviar, this is the first I'm hearing of it."
-ssh ""
+ssh "ก็เป็นสามเหลี่ยมเหมือนกันแหละน่า เลิกเรื่องมากเป็นเจ้าหญิงได้แล้ว ฉันไม่รู้ว่าคาเวียร์เขากินกันยังไง เพิ่งเคยได้ยิน\nเป็นครั้งแรกเนี่ย"
 
 # his "It's not the same thing at all."
-his ""
+his "มันไม่เหมือนกันเลย"
 
 show shizu adjust_smug_close
 with charachange
 
 # "I can't be decadent like this. And anyway, how can she not know? She lives in a huge mansion. Shizune takes the opportunity to scoop half the tin onto a single chip in the meantime."
-""
+"ฉันไม่ยอมทำตัวไร้อารยธรรมหรอก แล้วนี่ไม่รู้ได้ยังไง อยู่ในคฤหาสน์หลังใหญ่อย่างนั้น ชิซูเนะอาศัยจังหวะนี้\nใช้ชิปหนึ่งแผ่นคว้านคาเวียร์ไปครึ่งกระป๋อง"
 
 # his "Hey!"
-his ""
+his "นี่!"
 
 # "I'm sure it doesn't even taste good like that."
-""
+"ทำแบบนั้นต้องไม่อร่อยแน่ ๆ"
 
 show shizu behind_smile_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # "There is too much food here for two people. Because we can't communicate with each other while we eat, both Shizune and I have a lot of time to sit in silence and think about the fact that Misha, the person she set all this up for, isn't here."
-""
+"ของพวกนี้กินกันสองคนไม่หมดหรอก และเพราะเวลากินเราสื่อสารกันไม่ได้ ทั้งชิซูเนะกับฉันจึงมีเวลาเหลือเฟือ\nให้ตระหนักว่ามิช่า—คนที่ชิซูเนะวางแผนเพื่อเอาใจโดยเฉพาะ—ไม่อยู่ตรงนี้"
 
 show shizu basic_angry_close
 with charachange
 
 # ssh "It's annoying that she isn't here. I can't even enjoy my meal like this."
-ssh ""
+ssh "มิช่าไม่อยู่แล้วหงุดหงิด กินไม่อร่อยเลย"
 
 # "I stare at the paper cup next to her, still half-full of juice."
-""
+"ฉันจ้องแก้วกระดาษที่วางอยู่ข้างชิซูเนะซึ่งยังมีน้ำผลไม้อยู่ครึ่งหนึ่ง"
 
 # his "I thought you didn't want all this food to go to waste."
-his ""
+his "ไหนบอกว่าไม่อยากให้เสียเปล่าไง"
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "I wanted Misha to be here, too. That was the whole point. I wasn't able to accomplish what I wanted to, so it doesn't taste good."
-ssh ""
+ssh "ฉันอยากให้มิช่าอยู่ตรงนี้ด้วย นั่นน่ะคือใจความหลัก ฉันทำไม่ได้ตามเป้าที่ตั้งไว้ อาหารเลยไม่อร่อย"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "You should eat it. Eat more."
-ssh ""
+ssh "นายก็กินสิ กินอีก"
 
 # his "I want the fried things, though. You keep eating them all, even though you say they don't taste good."
-his ""
+his "แต่ฉันอยากกินของทอดอะ เธอก็เอาแต่กินทั้งที่บอกว่าไม่อร่อย"
 
 show shizu basic_normal_close
 with charachange
 
 # ssh "Fried things are always delicious. There is always an exception for them."
-ssh ""
+ssh "ของทอดน่ะอร่อยเสมอ ของทอดคือข้อยกเว้นสำหรับทุกอย่าง"
 
 # his "You'll get fat."
-his ""
+his "เดี๋ยวก็อ้วนหรอก"
 
 # his "I think you're being too aggressive."
-his ""
+his "ฉันว่าเธอรุกหนักไปนะ"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "It's like I told you yesterday, I'm only trying to cheer her up."
-ssh ""
+ssh "ก็อย่างที่บอกเมื่อวานน่ะแหละว่าฉันแค่อยากให้มิช่าร่าเริงเฉย ๆ"
 
 # his "Yeah, but it seems more like you're planning a military campaign."
-his ""
+his "ก็ใช่ แต่มันดูเหมือนว่าเธอกำลังรณรงค์เรื่องการทหารอยู่น่ะ"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "I'm only trying to take it seriously."
-ssh ""
+ssh "ฉันก็แค่จะทำให้มันจริงจัง"
 
 show shizu behind_sad_close
 with charachange
 
 # ssh "…And this is the only way I know how to do it seriously."
-ssh ""
+ssh "…แล้วฉันก็ทำอะไรแบบจริงจังเป็นแค่วิธีนี้ด้วย"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "I feel so powerless. I hate it. I can't even yell at her, too, even though I want to. Yelling is for serious occasions, right?"
-ssh ""
+ssh "ฉันรู้สึกว่าตัวเองทำอะไรไม่ได้เลย ไม่ชอบเลย จะตะโกนใส่ก็ไม่ได้ทั้งที่อยากตะโกนมาก การตะโกนเอาไว้ใช้กับ\nเรื่องจริงจังใช่มั้ย"
 
 # his "Yeah."
-his ""
+his "อืม"
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "You should yell at Misha for me. You can tell her that I want her to stop being so down. Even if she feels sad and alone, it's no reason to stay gloomy forever."
-ssh ""
+ssh "นายน่าจะตะโกนใส่มิช่านะ บอกหน่อยว่าฉันอยากให้เลิกทำตัวหมองสักที ถึงจะทั้งเศร้าทั้งโดดเดี่ยว แต่ก็\nไม่มีเหตุผลอะไรที่จะต้องทำตัวหม่นอย่างนั้นไปตลอด"
 
 # his "Why don't you?"
-his ""
+his "แล้วทำไมเธอไม่ว่าเอง"
 
 show shizu basic_frown_close
 with charachange
 
 # ssh "I already did."
-ssh ""
+ssh "บอกไปแล้ว"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "Over a game of dice."
-ssh ""
+ssh "ด้วยเกมทอดลูกเต๋า"
 
 show shizu basic_happy_close
 with charachange
 
 # ssh "Under-Over, to be exact. I won! Five times!"
-ssh ""
+ssh "ทายว่าจะออกสูงหรือต่ำ ฉันชนะละ! ชนะห้ารอบ!"
 
 # "Only the two of them would take so much pride in winning games of pure chance."
-""
+"คงมีแค่สองคนนี้แหละที่ภูมิใจกับเกมที่ว่ากันด้วยโอกาสล้วน ๆ"
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "Then, I tried to talk to her, but it didn't go so well, obviously."
-ssh ""
+ssh "แล้วฉันก็ลองคุยกับมิช่า ซึ่งชัดว่าไปได้ไม่สวยเท่าไหร่"
 
 # his "Well, so did I. I tried and failed."
-his ""
+his "ฉันก็เหมือนกันน่ะแหละ ลองแล้วก็ล้มเหลว"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "My goal has always been to do everything better, though."
-ssh ""
+ssh "แต่เป้าหมายของฉันคือการทำให้ตัวเองเก่งขึ้นในทุก ๆ ด้าน"
 
 # his "Yeah, your one-upmanship is really something."
-his ""
+his "อืม นิสัยชอบเอาชนะคนอื่นของเธอนี่รุนแรงจริง ๆ"
 
 show shizu behind_frustrated_close
 with charachange
 
 # ssh "But I failed too…"
-ssh ""
+ssh "แต่ฉันก็ยังล้มเหลว…"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "That's why I want your help."
-ssh ""
+ssh "ฉันถึงได้อยากให้นายช่วย"
 
 show shizu behind_sad_close
 with charachange
 
 # ssh "I don't understand what I'm supposed to do any more."
-ssh ""
+ssh "ฉันไม่รู้แล้วว่าจะต้องทำยังไง"
 
 # "For someone like Shizune, who has only ever interacted with the world by locking horns with every obstacle in her path, understanding only goes so far."
-""
+"สำหรับคนอย่างชิซูเนะที่ใช้ชีวิตอยู่ในโลกนี้ด้วยการพุ่งเข้าชนทุกอุปสรรคที่ขวางทางนั้น ต่อให้รู้ไปก็คงไม่ช่วยอะไร"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 $ renpy.music.set_volume(0.5, 2.0, channel="ambient")
@@ -1195,35 +1192,35 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nI want to tell her that she doesn't have to worry. That she is great at cheering people up, because she managed to cheer me up, my first week here."
-n ""
+n "\n\nฉันอยากบอกชิซูเนะว่าไม่ต้องกังวลไป บอกว่าเธอน่ะเก่งกับการทำให้คนอื่นร่าเริง เพราะชิซูเนะทำให้ฉัน\nร่าเริงขึ้นได้กับการมาอยู่ที่นี่ในสัปดาห์แรก"
 
 # n "In retrospect, I must have looked like kind of a dick, being in such a sour mood from the moment I came here. Even though I don't think I was being unreasonable."
-n ""
+n "พอลองย้อนนึกดูแล้ว ฉันคงจะดูเป็นคนไม่ดีเหมือนกัน เพิ่งมาถึงก็ทำอารมณ์บูดมาแต่ไกล แต่ก็ใช่ว่าฉันจะทำตัว\nไม่มีเหตุผลเลยน่ะนะ"
 
 # n "Even having months to digest it, finding out that you have a heart defect like I did is hard to deal with. I'd had had much less time to mull over suddenly being transferred to Yamaku, on top of that."
-n ""
+n "ถึงจะมีเวลาเป็นเดือน ๆ แต่การจะให้ทำใจว่าหัวใจตัวเองอ่อนแออย่างฉันนั้นก็ไม่ง่าย และซ้ำร้าย ฉันยิ่งมีเวลา\nให้ทำใจว่าจะต้องย้ายมาอยู่โรงเรียนยามากุแบบกะทันหันน้อยกว่านั้นเสียอีก"
 
 # n "\n\nSpending the festival with Shizune really helped me out of a rut. I was happy, enough to forget that the entire time it had felt as though she were manipulating me. I understand now that I had allowed myself to be manipulated."
-n ""
+n "\n\nฉันหลุดมาจากหล่มได้เพราะได้เที่ยวงานเทศกาลกับชิซูเนะ ฉันมีความสุข มีความสุขพอที่จะลืมความรู้สึกว่าชิซูเนะ\nวางแผนล่อหลอกฉัน ตอนนี้ฉันเข้าใจแล้วว่าฉันปล่อยให้ตัวเองถูกล่อหลอกไปแล้ว"
 
 nvl clear
 
 # n "\n\nEven though I felt like I was at the bottom of the world, I still wanted to have a normal life again, I'm sure, because I enjoy what I have now. I think it must be the same for everyone. Including Misha. Everyone wants someone there to pull them up, out of their self-pity."
-n ""
+n "\n\nแม้ฉันจะรู้สึกเหมือนโลกพร้อมดับสูญสิ้น ฉันก็ยังอยากใช้ชีวิตอย่างปกติ ที่ฉันมั่นใจก็เพราะตอนนี้ฉันพอใจกับสิ่งที่\nเป็นอยู่ ทุกคนก็คงเหมือนกัน มิช่าเองก็ด้วย ทุกคนต่างอยากมีใครสักคนที่จะดึงตัวเองให้หลุดพ้นจากความสมเพช\nตัวเอง"
 
 # n "It's just that Misha always wanted Shizune to be that person, but because they can't be together, I think Misha feels that she can't accept Shizune's hand. And that frustrates Shizune. But if she could cheer up a stranger like me, then she'll die trying with Misha."
-n ""
+n "และเพราะมิช่าอยากให้ชิซูเนะเป็นคนนั้นมาตลอด แต่ทั้งสองคนกลับอยู่ด้วยกันไม่ได้ ฉันเลยคิดว่ามิช่า\nคงจะรู้สึกว่าตัวเองไม่อาจคว้ามือชิซูเนะที่ยื่นมาช่วยไว้ได้ ซึ่งทำให้ชิซูเนะหงุดหงิด แต่ถ้าชิซูเนะทำให้คนแปลกหน้าอย่างฉันร่าเริง\nขึ้นได้ เธอก็คงทุ่มชีวิตตัวเองเพื่อจะทำแบบเดียวกันกับมิช่าด้วย"
 
 # n "\nI can see it in her eyes, too. Though she tries to treat it like any other problem in her life, Shizune cannot do that with Misha's depression. Her thought processes are entirely different, in some ways more careful, in some ways more reckless and frenetic. She cares that much more."
-n ""
+n "\nแววตาเธอฉายแววชัดเช่นกัน ทว่าชิซูเนะกลับใช้วิธีเดียวกันกับที่เธอใช้จัดการปัญหาอื่น ๆ ในชีวิต ซึ่งเธอ\nไม่อาจทำอย่างนั้นกับความเศร้าของมิช่าได้ ความคิดความอ่านของเธอนั้นต่างออกไป ในแง่หนึ่งก็รอบคอบ แต่ในอีกแง่\nก็บ้าบิ่นมุทะลุ ชิซูเนะให้ความใส่ใจกับปัญหานี้ถึงเพียงนั้น"
 
 nvl clear
 
 # n "\n\n\n\n\nI end up not saying anything. Partly because sitting next to her like this, just the two of us, is pleasant enough in itself that I don't want to interrupt the moment with a question."
-n ""
+n "\n\n\n\n\nสุดท้ายฉันก็ไม่ได้พูดอะไร ส่วนหนึ่งก็เพราะฉันพอใจแล้วแค่กับการได้นั่งข้างเธออยู่ตามลำพังจนไม่อยาก\nจะขัดจังหวะนี้ด้วยคำถาม"
 
 # n "\n\nAnd partly for a more cowardly reason. I've started to think they weren't, but I don't know if her actions that day might not have been an afterthought, or even a fluke, just a collection of coincidences. I don't know if that would change anything, but I'm uncomfortable thinking about it."
-n ""
+n "\n\nอีกส่วนก็เป็นอะไรที่ฟังดูขี้ขลาด ฉันไม่รู้ว่าการกระทำของเธอในวันนั้นคือความคิดตกค้างหรือเปล่า หรืออาจจะบังเอิญ\nบังเอิญซ้อนบังเอิญ ซึ่งฉันก็เริ่มคิดว่าคงไม่ใช่ ฉันไม่รู้ว่าเหตุการณ์นั้นจะเปลี่ยนแปลงอะไรได้หรือเปล่า แต่แค่นึกถึง\nก็ไม่สบายใจแล้ว"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 $ renpy.music.set_volume(1.0, 2.0, channel="ambient")
@@ -1239,16 +1236,16 @@ window show
 stop music fadeout 5.0
 
 # "The fence behind me trembles slightly, and I turn to see that it's because Shizune has fallen asleep leaning against it. Considering she was up all night, it's not surprising."
-""
+"รั้วที่ฉันพิงอยู่สั่นเล็กน้อย พอหันไปมองก็เห็นว่าเป็นเพราะชิซูเนะผล็อยหลับพิงอยู่กับรั้ว ก็ไม่แปลกหรอก ไม่ได้นอน\nทั้งคืนเลยนี่นะ"
 
 # "Where does all that motivation come from? Not just in regards to Misha. I'm cynical, so it's hard for me to just accept that anyone can simply be that strong."
-""
+"ไปเอาแรงฮึดขนาดนั้นมาจากไหน ไม่ใช่แค่เรื่องมิช่าด้วย ฉันเป็นคนขวางโลก จึงไม่อาจยอมรับได้ว่าจะมีใครสักคน\nที่เข้มแข็งขนาดนั้นจริง ๆ"
 
 # "My first thought was that maybe it's because she hates herself. It's very plausible."
-""
+"ฉันคิดไปก่อนว่าเธอคงจะเกลียดตัวเอง ดูเป็นไปได้มาก ๆ"
 
 # "Leaning against her, I feel sad knowing that that might be the case. But it could be that we're similar in that we both want to be better people."
-""
+"พอได้เอนตัวพิงแล้วก็เศร้าขึ้นมาเมื่อคิดว่าคงเป็นเช่นนั้นจริง แต่ก็คงเป็นเพราะเราคล้ายกันตรงที่ว่าเราต่างอยาก\nปรับปรุงตัวให้ดีขึ้น"
 
 stop ambient fadeout 2.0
 
