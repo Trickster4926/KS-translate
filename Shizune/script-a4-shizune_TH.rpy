@@ -887,7 +887,7 @@ with charachange
 ssh "ก็เดาได้นี่"
 
 # "The tension between them infuriates Shizune, and she's trying to deal with it by trying to tear through it. But that approach isn't going to work."
-"ความตึงเครียดระหว่างทั้งสองคนพาให้ชิซูเนะเดือดดาล เธอกำลังรับมือด้วยการตื๊ออยู่ แต่วิธีแบบนั้นไม่ได้ผลหรอก"
+"ความตึงเครียดระหว่างทั้งสองคนพาให้ชิซูเนะเลือดเดือด เธอกำลังรับมือด้วยการตื๊ออยู่ แต่วิธีแบบนั้นไม่ได้ผลหรอก"
 
 # "I'd thought, and hoped, that Misha had gotten herself together, but I guess she was just cut too deep by what happened."
 "ฉันคิดว่า—และหวังว่า—มิช่าคงตั้งสติได้บ้างแล้ว แต่ดูท่าคงจะเจ็บหนักมากกับเรื่องที่เกิดขึ้น"
@@ -1271,62 +1271,62 @@ window show
 play music music_daily fadein 8.0
 
 # "It seems like I ate too much yesterday, because I wake up in the morning feeling just nauseous enough for it to be a problem."
-""
+"ดูท่าว่าเมื่อวานคงกินมากไป เพราะเช้านี้ตื่นมาก็คลื่นไส้จนทนไม่ไหว"
 
 # "I really can't postpone going into town for shopping, though. So despite wanting to roll over and sleep it away, I force myself to get up and dress instead."
-""
+"แต่จะเลื่อนการเข้าเมืองไปซื้อของก็ไม่ได้ เพราะอย่างนั้นฉันถึงกลั้นความอยากที่จะพลิกตัวนอนต่อแล้วลุกขึ้นมา\nแต่งตัว"
 
 scene bg suburb_roadcenter
 with locationskip
 
 # "Somewhere between buying toothpaste and a few other groceries, I end up walking it off. Then, I feel hungry. After stopping for breakfast, it hits me how much time has gone by."
-""
+"ระหว่างที่เดินไปซื้อยาสีฟันกับของกินของใช้อย่างอื่นอาหารในท้องก็ย่อยหมดพอดีจนหิวขึ้นมา พอแวะซื้ออาหารเช้า\nแล้วก็เพิ่งรู้ตัวว่าเวลาผ่านไปนานมากแล้ว"
 
 # "I hadn't expected to be out this long at all. I'm not even sure if I bothered to lock my door. I should really get back."
-""
+"ไม่ได้คิดเลยว่าจะออกมาข้างนอกนานขนาดนี้ ไม่แน่ใจด้วยซ้ำว่าล็อกประตูห้องแล้วหรือยัง ต้องรีบกลับแล้ว"
 
 scene bg school_dormhallway
 show hideaki bored at center
 with locationskip
 
 # "When I get back to the dorm, I see Hideaki standing in front of my room from the entrance. I can think of few things more unexpected, and I can't help thinking I might have a heart attack just from the surprise. Fortunately, it doesn't happen."
-""
+"พอกลับมาที่หอก็เห็นฮิเดอากิยืนอยู่ตรงหน้าประตูห้อง ฉันพอจะนึกต่อได้ว่าจะเกิดอะไรที่เหนือความคาดหมายอีก\nและอดคิดไม่ได้ว่าฉันคงจะหัวใจวายไปด้วยความตกใจ โชคดีที่ไม่เป็นอย่างนั้น"
 
 show hideaki normal
 with charachange
 
 # "As soon as he sees me, he says hello in his usual detached way. I'm a little slow to reply to him, so he repeats the greeting, without missing a beat."
-""
+"ทันทีที่ฮิเดอากิเห็นฉันก็ทักทายด้วยน้ำเสียงเนือย ๆ เช่นเคย ฉันตอบช้าไป เขาจึงทักซ้ำอีกรอบทันที"
 
 show hideaki triangle
 with charachange
 
 # hh "Hello."
-hh ""
+hh "สวัสดี"
 
 show hideaki normal
 with charachange
 
 # hh "Is something wrong?"
-hh ""
+hh "มีอะไรหรือเปล่า"
 
 # hi "I'm just surprised to see you here."
-hi ""
+hi "แค่ตกใจที่เห็นนายอยู่ตรงนี้"
 
 # "Not as surprised as I could have been, since it's impossible to mistake him for anyone else. I'd recognize those weird clothes anywhere. Come to think of it, I've really surrounded myself with distinctive-looking people lately."
-""
+"ซึ่งก็ไม่ได้ตกใจสุดขีดขนาดนั้น เพราะยังไงก็รู้แหละว่าเป็นเขาแน่นอนไม่ใช่ใครอื่น ชุดแปลกตาแบบนี้อยู่ที่ไหนก็ดูออก\nจะว่าไป เดี๋ยวนี้ฉันพาแต่คนลักษณะเด่น ๆ มาอยู่รอบตัวฉันเต็มไปหมดเลย"
 
 show hideaki confused
 with charachange
 
 # "Hideaki's head lolls slightly to one side, a little too easily."
-""
+"ฮิเดอากิเอียงคอเล็กน้อยจนหัวไหลไปดื้อ ๆ"
 
 # hh "Why? Is it unusual to see someone's family come to see them?"
-hh ""
+hh "ทำไมครับ ปกติไม่ค่อยมีญาติมาแวะหานักเรียนเหรอ"
 
 # hi "Well… yeah, actually."
-hi ""
+hi "ก็… เอ่อ ก็ใช่"
 
 show hideaki surprise_up
 with charachange
@@ -1335,157 +1335,157 @@ show hideaki bored
 with charachange
 
 # "So, Hideaki isn't such a robot after all. In fact, it's almost as if he's more caught off guard by the fact he even can be caught off guard, but he recovers quickly."
-""
+"สรุปฮิเดอากิก็ไม่ได้เป็นเหมือนหุ่นยนต์ขนาดนั้น ที่จริงเหมือนเขาจะตกใจกับการที่ตัวเองตกใจได้มากกว่าเสียอีก\nแต่ครู่เดียวเขาก็ตั้งสติได้"
 
 # "Nevertheless, in that brief moment, he looks his age. That uncomfortable side of his seems like the more honest, and I wouldn't mind seeing more of it."
-""
+"แต่แม้กระนั้น จังหวะสั้น ๆ ที่ฮิเดอากิตกใจอยู่นั้นท่าทีเขาก็ดูสมวัย มุมอึดอัดของเขาน่าจะเป็นตัวตนจริง ๆ ซึ่งถ้าได้เห็น\nบ่อยกว่านี้ก็คงดี"
 
 # "Not so much, though, that I'd go out of my way to pry. Only Shizune would be that zealous. That my thoughts get so far is proof she is rubbing off on me."
-""
+"แต่ก็ไม่ได้อยากถึงขั้นจะไปเค้นอะไรกับเขาน่ะนะ มีแต่ชิซูเนะแหละที่กล้าพอจะทำอย่างนั้น แค่การที่ฉันคิดอย่างนี้\nก็เป็นหลักฐานว่าฉันติดนิสัยชิซูเนะมาแล้ว"
 
 # hi "I'd think that you'd have a reason, that's all."
-hi ""
+hi "แค่คิดว่าคงมีสาเหตุอะไรที่นายมาน่ะ"
 
 show hideaki triangle
 with charachange
 
 # hh "There is one."
-hh ""
+hh "มีหนึ่งสาเหตุครับ"
 
 # hi "See? Anyway, we can talk while we're looking for her. That's why you're here, right?"
-hi ""
+hi "เห็นมั้ย เอาเถอะ ไว้ค่อยคุยกันตอนตามหาตัวแล้วกัน ที่มาก็มาหาชิซูเนะใช่มั้ย"
 
 show hideaki normal_up
 with charachange
 
 # hh "Shizune is in the student council room. I was looking for you. We might take a trip soon, a family trip. Do you think she would want to come with us?"
-hh ""
+hh "พี่ชิซูเนะอยู่ที่ห้องสภานักเรียน ผมหาพี่อยู่ เดี๋ยวพวกเราอาจต้องไปเที่ยว เที่ยวแบบครอบครัว พี่คิดว่าพี่ชิซูเนะ\nจะอยากมาด้วยมั้ยครับ"
 
 # hi "Yeah, I don't know. She's kind of been on the warpath lately, with a lot of stuff. And once she's focused on something, she won't just drop it. …I guess you would know that."
-hi ""
+hi "เออ ไม่รู้สิ ช่วงนี้เห็นมุ่งมั่นเหลือเกินกับอะไรหลายอย่าง แล้วถ้าชิซูเนะได้จดจ่อกับอะไรแล้วจะกัดไม่ปล่อยเลย …แต่\nนายคงรู้อยู่แล้วมั้ง"
 
 show hideaki closed_up
 with charachange
 
 # hh "Mm."
-hh ""
+hh "อื้ม"
 
 scene bg school_courtyard
 with locationskip
 
 # "Hideaki looks much more at ease walking around than I did my first week."
-""
+"ฮิเดอากิดูจะคุ้นชินกับการเดินในโรงเรียนกว่าฉันตอนเพิ่งมาสัปดาห์แรกเสียอีก"
 
 # hi "So, this isn't your first time here?"
-hi ""
+hi "แล้วนี่เพิ่งเคยมาครั้งแรกเหรอ"
 
 # "Just throwing it out there. Of course, completely ignoring the surrounding environment could just run in the family. It'd explain why Hideaki seems so distant from Shizune. I get the feeling there's more to it than just her deafness."
-""
+"แค่โยนหินถามทางเฉย ๆ และแน่นอนว่าโดนเมิน ไอ้ความไม่สนโลกนี่น่าจะเป็นกันทั้งบ้าน ซึ่งก็น่าจะเป็นสาเหตุ\nว่าทำไมฮิเดอากิถึงดูห่างเหินกับชิซูเนะด้วย ฉันรู้สึกว่าไม่ได้เป็นแค่เพราะชิซูเนะหูหนวกหรอก"
 
 show hideaki bored at center
 with charaenter
 
 # hh "No, but this is the first time I could walk around so much. It is kind of weird here. I bumped into a person who told me women are not allowed in the dorms."
-hh ""
+hh "เคยมาครับ แต่เพิ่งเคยเดินเยอะขนาดนี้ ที่นี่แปลกนะครับ ผมเจอคนหนึ่งที่บอกว่าห้ามผู้หญิงเข้าหอนะ"
 
 show hideaki disapproves
 with charachange
 
 # hh "After I told him I am not a woman, he told me I was misleading, and then accused me of being an assassin."
-hh ""
+hh "พอบอกว่าผมไม่ใช่ผู้หญิงแล้วก็บอกว่าผมทำให้เขว กล่าวหาว่าผมเป็นผู้ลอบสังหาร"
 
 show hideaki normal
 with charachange
 
 # hh "I was warned that he was not only invincible, but strong enough to probably destroy the building with a punch, or at least knock over the painting hanging in the hallway. By the way, that painting is actually screwed to the wall."
-hh ""
+hh "เขาเตือนผมว่าเขาแข็งแกร่งสุด ๆ แข็งแกร่งพอที่จะต่อยให้ตึกทลายได้ หรืออย่างน้อย ๆ ก็ชกรูปที่แขวนอยู่ตรง\nโถงทางเดินให้ล้มได้ ว่าแต่นะครับ รูปนั้นจริง ๆ แล้วเขายึดสกรูไว้กับกำแพง"
 
 # hi "Yeah, that's the guy across the hall from me. He's okay."
-hi ""
+hi "อืม ไอ้คนที่อยู่ห้องตรงข้ามฉันน่ะแหละ ก็เป็นคนปกติดี"
 
 show hideaki triangle
 with charachange
 
 # hh "I see. Oh, you left your door open. It was unlocked when I came here."
-hh ""
+hh "อย่างนี้นี่เอง อ้อ พี่เปิดประตูทิ้งไว้ ตอนผมมาลูกบิดไม่ได้ล็อก"
 
 # "I'm a little annoyed that Hideaki knows that. The only way he could is if he had opened my door. But the feeling passes."
-""
+"รำคาญหน่อย ๆ ที่ฮิเดอากิรู้ว่าไม่ได้ล็อกประตู เพราะวิธีเดียวที่จะรู้ได้คือเขาต้องเปิดประตูฉันแล้ว แต่ความรำคาญ\nก็หายไปฉับพลัน"
 
 # hi "It doesn't matter."
-hi ""
+hi "ไม่สำคัญ"
 
 # hi "I have nothing to hide, or steal."
-hi ""
+hi "ฉันไม่มีอะไรจะซ่อนหรือให้ขโมย"
 
 show hideaki happy_up
 with charachange
 
 # hh "Your soccer ball is really nice."
-hh ""
+hh "ลูกบอลสวยนะครับ"
 
 # hi "That's one of the things that doesn't matter."
-hi ""
+hi "อันนั้นก็ของที่ไม่สำคัญอย่างหนึ่ง"
 
 show hideaki serious
 with charachange
 
 # hh "If you are a soccer player, a soccer ball is very important."
-hh ""
+hh "ถ้าเป็นนักฟุตบอล ลูกบอลสำคัญนะครับ"
 
 # "I guess it is. The thought makes me smile."
-""
+"คงงั้น ฉันคิดตามแล้วยิ้ม ๆ"
 
 show bg school_lobby
 show hideaki closed_up at center
 with locationskip
 
 # hh "I'm here because my father bought a new phone, and he wanted to update Shizune, in case she needs to call him. I thought that you should know, too, since you're her boyfriend, aren't you?"
-hh ""
+hh "ผมมาที่นี่เพราะพ่อซื้อโทรศัพท์ใหม่แล้วพ่ออยากบอกให้พี่ชิซูเนะรู้ด้วยเผื่อต้องโทร. หาพ่อ ผมก็รู้สึกว่าพี่ควรจะ\nได้รับรู้ด้วยเพราะพี่เป็นแฟนพี่ชิซูเนะ ใช่มั้ยครับ"
 
 # hi "Yeah…"
-hi ""
+hi "อืม…"
 
 # hi "…Why?"
-hi ""
+hi "…ทำไม"
 
 show hideaki bored
 with charachange
 
 # hh "Just in case there is something wrong, or she needs anything."
-hh ""
+hh "เผื่อว่ามีอะไรเกิดขึ้นหรือพี่ชิซูเนะขาดเหลืออะไร"
 
 # "It isn't what I meant, but I'll go along."
-""
+"ไม่ได้ถามถึงเรื่องนั้น แต่ตามน้ำไปแล้วกัน"
 
 # hi "Even if she did, she probably wouldn't call."
-hi ""
+hi "ต่อให้ขาดเหลือจริง ๆ ก็คงไม่โทร. มาหาหรอก"
 
 show hideaki triangle
 with charachange
 
 # hh "That is how she is."
-hh ""
+hh "พี่ชิซูเนะเป็นแบบนั้นแหละครับ"
 
 # hi "Well, if you know… Coming all the way here for that, though? He could have updated her via e-mail."
-hi ""
+hi "เออ ก็รู้นี่… แต่ถ่อมาถึงนี่เพราะเรื่องโทรศัพท์เนี่ยนะ แจ้งผ่านอีเมลก็ได้มั้ง"
 
 show hideaki closed_up
 with charachange
 
 # hh "He does not like using e-mails."
-hh ""
+hh "พ่อผมไม่ชอบใช้อีเมล"
 
 # hi "That's so old-fashioned. Don't tell me he still does business through regular mail, or something."
-hi ""
+hi "หัวโบราณเป็นบ้า นี่อย่าบอกนะว่าพ่อนายยังใช้จดหมายหรืออะไรแบบนั้นติดต่อสื่อสารเรื่องธุรกิจกันน่ะ"
 
 stop music fadeout 3.0
 
 # "Silence. Now it's my turn to feel awkward. Is Hideaki taking it literally, or did I hit the mark?"
-""
+"เงียบ ทีนี้เป็นตาฉันที่อึดอัดบ้าง นี่ฮิเดอากิตีความไปแบบตรงตัวหรือว่าฉันพูดถูกกันแน่"
 
 # "Nah. I'm sure that what it really comes down to is that he does want to see his daughter and stay in contact with her. In the end, they are still family, after all. Even though they play at being at each other's throats."
-""
+"ไม่อะ ฉันว่าจริง ๆ แล้วก็แค่ว่าพ่อเขาอยากเห็นหน้าลูกสาวตัวเองบ้างไม่ให้ขาดการติดต่อไปน่ะแหละ ยังไงเสีย\nก็เป็นครอบครัวกัน ถึงท่าทีเหมือนจะฆ่าแกงกันแล้วก็เถอะ"
 
 scene bg school_council
 show jigoro smug at tworight
@@ -1495,91 +1495,89 @@ with locationskip
 play music music_happiness fadein 2.0
 
 # "The door to the student council room is open, and Hideaki and I walk in on Jigoro in mid-rant. He sees us, but decides that it's not something worth stopping rambling at Shizune over. This is really shaking my faith in my previous assumption."
-""
+"ประตูห้องสภานักเรียนเปิดอยู่ ฮิเดอากิกับฉันเดินเข้าไปจังหวะที่จิโกโรกำลังพล่ามอยู่พอดี เขาเห็นอยู่ว่าพวกเรามา\nแต่เห็นว่าไม่สำคัญพอที่จะหยุดการพล่ามของตัวเองให้ชิซูเนะฟัง ชักไม่แน่ใจแล้วสิว่าที่เดาไปว่าเขาอยากมาเจอ\nลูกสาวตัวเองนี่จริงหรือเปล่า"
 
 show jigoro angry
 with charachange
 
 # hx "When I was in the Student Council, our room was smaller. Colder, too. Like working out of a meat locker. Not like you spoiled kids. What a waste. Sitting here in your giant room, doing nothing."
-hx ""
+hx "ตอนพ่อยังเป็นสมาชิกสภานักเรียนนะ ห้องแคบกว่านี้อีก หนาวกว่านี้ด้วย เหมือนอยู่ในตู้แช่เนื้อเลย ไม่เหมือนพวก\nเสียคนอย่างเธอ เสียของจริง ๆ นั่งอยู่ในห้องโอ่โถงแบบนี้แต่ไม่ทำอะไร"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # hx "Aren't there only three of you? That makes having so many desks only seem like an unnecessary display of mindless decadence. Appalling. You must use the desks you need, and not one more. It is part of my code."
-hx ""
+hx "พวกเธอมีกันแค่สามคนไม่ใช่เหรอ แล้วมีโต๊ะเยอะอย่างนี้ก็เห็นเลยว่าเป็นพวกชอบความหรูหราไร้ความคิด ทั้งที่\nไม่จำเป็นต้องให้ใครเห็นแบบนี้เลย ห่วยแตกจริง ๆ ต้องใช้โต๊ะเท่าที่จำเป็น ห้ามเกินมาแม้แต่ตัวเดียว ประมวลกฎหมาย\nของฉันว่าไว้อย่างนั้น"
 
 # "It may be odd of me to think so, but… hearing only one half of a conversation is pretty strange. Also, that's some code."
-""
+"อาจจะแปลกที่คิดอย่างนี้ แต่… การได้มาฟังบทสนทนาแค่ครึ่งเดียวนี่ประหลาดมาก แล้วก็ประมวลกฎหมายอะไรล่ะนั่น"
 
 # "Now that I've arrived, he changes the subject, and starts talking about the reason he's here."
-""
+"พอฉันมาแล้วจิโกโรก็เปลี่ยนเรื่องแล้วพูดถึงสาเหตุที่มาที่นี่แทน"
 
 show jigoro neutral
 with charachange
 
 # hx "Hideaki and I are going on a trip."
-hx ""
+hx "ฮิเดอากิกับฉันจะไปเที่ยวกัน"
 
 show shizu basic_normal2
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show jigoro angry
 with charachange
 
 # hx "What are you doing? Does everyone who uses sign language mumble while they do it?"
-hx ""
+hx "ทำอะไรน่ะ ทุกคนที่ใช้ภาษามือเป็นชอบพึมพำไปพลางทำภาษามือกันทุกคนเลยเหรอ"
 
 # hi "No, but I'm just an amateur. It helps me think. It's kind of like force of habit."
-hi ""
+hi "ไม่หรอกครับ แต่ผมก็แค่มือใหม่ ช่วยให้สมองผมทำงานด้วย เหมือนเป็นความเคยชินน่ะครับ"
 
 # hx "Just an amateur… unbelievable… Fine."
-hx ""
+hx "แค่มือใหม่… ไม่อยากจะเชื่อ… ก็ได้"
 
 # "He turns back to Shizune just in time to catch her shaking her head from side to side."
-""
+"จิโกโรหันไปทันจังหวะที่ชิซูเนะส่ายหน้าพอดี"
 
 show jigoro neutral
 with charachange
 
 # hx "Are you sure you won't be coming along?"
-hx ""
+hx "แน่ใจนะว่าจะไม่ไปด้วยกัน"
 
 show shizu adjust_frown
 with charachange
 
 # "She reiterates the gesture."
-""
+"ชิซูเนะทำท่าย้ำ"
 
 show jigoro angry
 with charachange
 
 # hx "Fine."
-hx ""
+hx "ก็ได้"
 
 show jigoro neutral
 with charachange
 
 # hx "Can you tell her to call me if she needs anything?"
-hx ""
+hx "ฝากบอกหน่อยว่าถ้าขาดเหลืออะไรก็ให้โทร. มา"
 
 # hi "Yes."
-hi ""
+hi "ได้ครับ"
 
 # hi "I really think sending an e-mail would have been easier, though."
-hi ""
+hi "แต่ผมว่าส่งอีเมลเอาน่าจะง่ายกว่านะครับ"
 
 show jigoro angry
 with charachange
 
 # hx "I'm not going to read e-mails on my phone. If she won't speak, she can call Hideaki. I suppose if I have to be reached, you would have to call me, or that other girl would have to call me. …Hmph. Actually, all three of you can just call Hideaki."
-hx ""
+hx "ฉันไม่อ่านอีเมลในโทรศัพท์ฉันหรอก ถ้าไม่ยอมพูดก็โทร. หาฮิเดอากิเอา แต่ยังไงถ้าจะติดต่อฉันไม่เธอก็ยัยอีกคนนั่น\nต้องโทร. หาฉันอยู่ดี …ฮึ จริง ๆ พวกเธอสามคนโทร. หาฮิเดอากิเลยก็ได้"
 
 hide jigoro
 with charaexit
@@ -1587,10 +1585,10 @@ with charaexit
 stop music fadeout 3.0
 
 # "And with that, he swiftly turns and leaves, Hideaki trailing behind him. A long trip, for something that took five minutes."
-""
+"แล้วเขาก็หมุนตัวขวับก่อนจะเดินจากไปโดยมีฮิเดอากิตามไปด้วย ถ่อมาตั้งไกลเพื่อคุยธุระห้านาทีเนี่ยนะ"
 
 # "Neither of them can express their feelings very well. In Shizune's case, I have to question whether she would if she could. It explains a lot, but she doesn't seem unhappy with the arrangement. Even so, I wonder if she might be."
-""
+"ไม่มีใครที่แสดงอารมณ์ของตัวเองได้ชัดเลย ส่วนกับชิซูเนะฉันต้องถามว่าต่อให้แสดงอารมณ์ได้แล้วจะทำหรือเปล่า\nฉันพอจะเห็นอยู่ว่าชิซูเนะเองก็ดูไม่ได้ไม่พอใจกับแผนนั้น ถึงอย่างนั้นก็ยังสงสัยอยู่ว่าเธอคิดแบบนั้นจริง ๆ หรือ"
 
 play sound sfx_doorclose
 with Pause(1.0)
@@ -1601,67 +1599,67 @@ with dissolvecharamove
 play music music_normal fadein 3.0
 
 # "When the door closes behind them, leaving Shizune and me by ourselves, she lets out a deep breath that seems to echo in the silence of the room."
-""
+"พอประตูปิดลงทิ้งให้เหลือเพียงชิซูเนะกับฉันอยู่กันตามลำพังแล้วเธอก็ถอนหายใจยืดยาวที่ดูจะสะท้อนก้องในห้อง\nอันเงียบงัน"
 
 show shizu behind_frown
 with charachange
 
 # ssh "It's totally ridiculous asking me to go on a trip. The timing couldn't be worse, it overlaps the student council elections, for one. Second, I haven't even cheered up Misha. If you consider that, it's annoying to even have anything else to think about."
-ssh ""
+ssh "จะมาชวนฉันไปเที่ยวนี่บ้าไปแล้วหรือเปล่า จังหวะนรกสุด ๆ อย่างแรกเลยคือเวลาไปทับซ้อนกับช่วงเลือกตั้ง\nสภานักเรียน อย่างที่สองคือฉันยังทำให้มิช่าร่าเริงไม่ได้ด้วย ถ้ามองสองอย่างนี้แล้ว จะให้มีอะไรมาหนักหัวอีกก็คง\nน่ารำคาญ"
 
 # his "Yeah, but you might be too focused on all of that stuff right now."
-his ""
+his "อืม แต่เธออาจจะจดจ่อกับเรื่องพวกนั้นมากไปก็ได้"
 
 show shizu adjust_frown
 with charachange
 
 # "Shizune adjusts her glasses roughly."
-""
+"ชิซูเนะดันแว่นแบบผ่าน ๆ"
 
 show shizu behind_frown
 with charachange
 
 # ssh "Completely, one hundred percent right. The minute I decided I was going to cheer up Misha, everything else went on the back burner, I suppose."
-ssh ""
+ssh "ถูกต้องตรงเป๊ะเลย ทันทีที่ฉันคิดจะทำให้มิช่าร่าเริง ฉันก็ต้องวางอะไรอย่างอื่นไว้ก่อนหมด มั้งนะ"
 
 # his "I think your dad might care about you more than he lets on."
-his ""
+his "ฉันว่าพ่อก็เป็นห่วงเธอกว่าที่เห็นนะ"
 
 show shizu basic_normal
 with charachange
 
 # ssh "I know."
-ssh ""
+ssh "ฉันรู้"
 
 # his "So, then, it could be a good idea—"
-his ""
+his "งั้น เนี่ย ถ้าเธอ—"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "No."
-ssh ""
+ssh "ไม่"
 
 # "And then again, more firmly, as if for both of us."
-""
+"และย้ำอีกครั้งอย่างหนักแน่นกว่าเก่าราวกับว่าย้ำให้ตัวเองไปด้วย"
 
 show shizu cross_angry
 with charachange
 
 # ssh "No."
-ssh ""
+ssh "ไม่"
 
 show shizu basic_frown
 with charachange
 
 # ssh "After coming this far, I can't take a break. A vacation would be jarring. It would be like waking up in a different life. Yesterday was like my vacation. So now we have to go all-in."
-ssh ""
+ssh "ฉันมาขนาดนี้แล้วจะพักไม่ได้ จะไปเที่ยวคงไม่ดีแน่ คงเหมือนตื่นมาใช้ชีวิตครั้งใหม่เลย เมื่อวานเหมือนการพักแล้ว\nคราวนี้เราเลยต้องเทหมดหน้าตัก"
 
 show shizu behind_blank
 with charachange
 
 # ssh "I'm sorry, but it's just how I am."
-ssh ""
+ssh "ขอโทษที ฉันก็เป็นอย่างนี้แหละ"
 
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
 
@@ -1670,50 +1668,50 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nI remember what Yuuko said, that she found Shizune brave, in a kind of way. I think I understand what she meant, and I have to agree. Even though it could also be called recklessness, and foolishness, and pointless stubbornness, I guess you could call it “bravery” too."
-n ""
+n "\n\nฉันนึกถึงที่ยูโกะบอกว่าตัวเองรู้สึกว่าในแง่หนึ่งแล้วชิซูเนะนั้นกล้าหาญ ฉันว่าฉันพอจะเข้าใจแล้วว่าหมายความ\nว่าอย่างไร และเห็นด้วยกับยูโกะด้วย ถึงอาจจะเรียกได้ว่าเป็นความบ้าบิ่น ความโง่เง่า และความรั้นแบบไร้ประโยชน์ แต่ก็คง\nเรียกว่าเป็น “ความกล้าหาญ” ได้เช่นกัน"
 
 # n "However, I can see that there is a fundamental flaw in Shizune's thinking that I hadn't noticed until now."
-n ""
+n "แต่ฉันเห็นข้อผิดพลาดร้ายแรงของกระบวนการคิดของชิซูเนะที่ก่อนหน้านี้ฉันไม่เคยสังเกตเลย"
 
 # n "\nI'm sure that Shizune has reflected longer, and more arduously than I could, about where she messed up to create such a bad situation between her and Misha. However, as typical for her, she wouldn't let it hold her back and immediately set out to fix the problem."
-n ""
+n "\nฉันมั่นใจว่าชิซูเนะตกตะกอนมานานกว่าและเข้มข้นกว่าฉันว่าตัวเองทำพลาดตรงไหนจนสถานการณ์ระหว่างเธอ\nกับมิช่าถึงได้แย่ขนาดนี้ ทว่าด้วยนิสัยของชิซูเนะ เธอไม่ยอมให้ความคิดนั้นมาฉุดรั้งตัวเองและมุ่งแก้ปัญหาทันที"
 
 # n "This completely ignores a large part of the problem: Misha herself. Moving from critical introspection to holding Misha up as part of a goal causes the person to get lost in the shuffle. Shizune has “said” a lot in the past few days, but nothing about how Misha feels."
-n ""
+n "ซึ่งวิธีคิดแบบนี้จะไม่ได้มองส่วนที่ใหญ่ที่สุดของปัญหานี้ ซึ่งคือตัวของมิช่าเอง การเปลี่ยนสภาพจากการใคร่ครวญ\nสะท้อนคิดมาเป็นการจับมิช่ามาเป็นเป้าหมายทำให้เจ้าตัวหลงลืมอะไรบางอย่างไป สองสามวันมานี้ชิซูเนะ “พูด” มาก\nก็จริง แต่ไม่เคยพูดถึงความรู้สึกมิช่าเลย"
 
 nvl clear
 
 # n "\n\nShizune's way of thinking is abnormal. Few normal people would reject a friend, and then expect things to go back to the way they were so easily. Shizune does, because she sees life as, if I had to put it simply, capable of being segmented and compartmentalized."
-n ""
+n "\n\nแนวคิดของชิซูเนะนั้นเพี้ยนไปจากปกติ คงมีไม่กี่คนที่จะบอกปัดเพื่อนตัวเองแล้วคาดหวังให้อะไร ๆ กลับไปเป็นดังเดิม\nอย่างง่ายดาย ชิซูเนะคิดเช่นนั้นเพราะเธอมองว่าชีวิตนั้น—ถ้าให้ว่ากันง่าย ๆ แล้วก็คงเป็นคำว่า—ตัดแยกและ\nแบ่งเป็นส่วนได้"
 
 # n "Misha, like anyone else, sees it as a whole experience. A long, continuous journey, where one moment of heartache can follow you forever."
-n ""
+n "มิช่านั้นก็เหมือนอย่างทุกคนที่มองเป็นประสบการณ์ก้อนเดียว เป็นการเดินทางต่อเนื่องยาวนานที่แม้แต่ช่วงเวลา\nชวนเจ็บปวดใจเพียงครั้งเดียวก็ตามหลอกหลอนได้ตลอดกาล"
 
 # n "For Shizune, an event is an event, and few of them cross over. Life is compartmentalized around triumphs, failures, and decisions, where each one stands as its own story. It's why the thought of a vacation is jarring to her. It's why she can only appreciate people's immediate emotions."
-n ""
+n "ส่วนชิซูเนะ เหตุการณ์หนึ่งคือเหตุการณ์หนึ่ง โดยมีเพียงไม่กี่เหตุการณ์ที่ซ้อนทับกัน ชีวิตตัดแยกตามความสำเร็จ\nความล้มเหลว และทางเลือก โดยที่แต่ละอย่างนั้นนับว่าเป็นเรื่องราวแยกขาดจากกัน เพราะเหตุนี้เองชิซูเนะจึงมองว่า\nการเที่ยวนั้นเป็นสิ่งรบกวน เพราะเหตุนี้เองชิซูเนะจึงเข้าใจอารมณ์คนเพียงผิวเผิน"
 
 # n "It's exactly how someone obsessed with living in the moment would think, really."
-n ""
+n "จริง ๆ ก็เหมือนกับความคิดของคนที่ยึดติดกับการใช้ชีวิตอยู่กับปัจจุบันทุกกระเบียดนิ้วเลย"
 
 # n "Likewise, Shizune can see Misha as a friend, but I doubt that she has ever thought of Misha as anything more until recently. Or questioned anything about her. “Misha is Misha” would be enough for her, even if to Misha it must be unbelievably stifling."
-n ""
+n "และในทำนองเดียวกัน ชิซูเนะมองว่ามิช่าเป็นเพื่อนก็จริง แต่ฉันไม่แน่ใจว่าเธอจะเคยมองมิช่าเป็นอะไรมากกว่านั้น\nหรือเปล่า ไม่รู้ว่าเคยนึกสงสัยอะไรเรื่องมิช่าหรือไม่ สำหรับชิซูเนะ แค่คิดว่า “มิช่าก็คือมิช่า” ก็พอแล้ว ซึ่งมิช่าคงรู้สึกอึดอัด\nจนแทบหายใจไม่ออก"
 
 nvl clear
 
 # n "\nShizune is just Shizune to herself. It's likely she doesn't even think about the aftereffects of her actions in the long term, as long as they stir up other people's lives. To Misha, though, I'm sure it made her seem almost heroic. Like Yuuko admiring her bravery, and even myself."
-n ""
+n "\nส่วนชิซูเนะก็มองตัวเองว่าชิซูเนะก็คือชิซูเนะ เป็นไปได้ว่าเธอไม่เคยคิดถึงผลที่ตามมาจากการกระทำของตัวเอง\nในระยะยาวด้วยซ้ำ คิดว่าขอแค่ให้ชีวิตคนอื่นมีอะไรขึ้นมาก็พอแล้ว แต่ฉันว่ามิช่าคงมองว่าความคิดแบบนั้นแหละที่ทำให้\nชิซูเนะดูเท่ เหมือนกับการที่ยูโกะ—แม้กระทั่งฉัน—ชื่นชมความกล้าหาญของชิซูเนะ"
 
 # n "And Shizune's thoughts on that sentiment are that it was good she could touch someone's life. But it ends there. It's easy to captivate; much harder to nurture. On to the next thing. Thinking of life in terms of almost completely isolated events has a tendency to isolate a person, too."
-n ""
+n "และชิซูเนะก็มองว่าแนวคิดแบบนั้นดี ดีตรงที่ได้เข้าไปสัมผัสชีวิตใครสักคน แต่มันก็แค่นั้น ทำให้คนอื่นประทับใจได้\nง่ายก็จริง แต่การจะทำให้งอกเงยขึ้นมานั้นยากยิ่งกว่า และเรื่องถัดมา การมองชีวิตเป็นเหตุการณ์แยกขาดจากกัน\nโดยสมบูรณ์นั้นมีแนวโน้มจะทำให้คนหนึ่ง ๆ ปลีกแยกออกมาด้วย"
 
 # n "Though she's trying to remedy it now, the point remains: There is simply no way Shizune could have avoided hurting Misha. Her emotional investment in Shizune was something Shizune couldn't account for, so she didn't. Combined with her personality, it was inevitable."
-n ""
+n "แม้ตอนนี้ชิซูเนะจะลุกขึ้นมาแก้ไขแล้ว แต่ปัญหาหลักก็ยังอยู่เหมือนเดิม อย่างไรชิซูเนะก็ต้องทำให้มิช่าเจ็บอยู่ดี\nความรู้สึกของมิช่าที่ผูกพันกับชิซูเนะนั้นเป็นสิ่งที่ชิซูเนะไม่อาจนำมาพิจารณาร่วมได้ เธอจึงตัดทิ้งไป และยิ่งชิซูเนะ\nเป็นคนแบบนั้นด้วยแล้ว อย่างไรก็เลี่ยงไม่ได้"
 
 # n "Both of them have pretty much told me all of that in bits and pieces over the past couple months I've known them."
-n ""
+n "ทั้งสองต่างก็บอกใบ้ทุกอย่างแล้วตลอดช่วงสองสามเดือนที่ได้รู้จักกันมา"
 
 # n "\nIn the middle of considering their differences, an idea begins to take shape in my mind."
-n ""
+n "\nระหว่างที่พินิจความต่างของพวกเธออยู่นั้นความคิดหนึ่งก็ก่อตัวขึ้นในหัว"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -1722,33 +1720,33 @@ nvl clear
 window show
 
 # his "Are you working on your plan right now? This second?"
-his ""
+his "กำลังคิดอยู่หรือเปล่า แผนสองเนี่ย"
 
 # his "Your cheer-up-Misha plan."
-his ""
+his "แผนทำให้มิช่าร่าเริง"
 
 show shizu basic_happy
 with charachange
 
 # ssh "Of course. I was thinking about it the whole time I was being yelled at."
-ssh ""
+ssh "แหงสิ ฉันคิดอยู่ตลอดเลยตอนที่พ่อฉันมาตะโกน"
 
 show shizu adjust_happy
 with charachange
 
 # "Flicking her glasses up the bridge of her nose with an oddly triumphant air, she taps her finger against her temple."
-""
+"ชิซูเนะดันแว่นที่สันจมูกด้วยรังสีผู้มีชัยดูแปลก ๆ เธอใช้นิ้วแตะหน้าผาก"
 
 show shizu behind_smile
 with charachange
 
 # ssh "It's multitasking!"
-ssh ""
+ssh "แบ่งสมองทำหลายหน้าที่ไง!"
 
 stop music fadeout 4.0
 
 # "Really? Isn't it more like you're able to concentrate on something like that because you can't hear? Well, whatever. When I ask her what she thinks of mine, it turns out we've both arrived at a similar idea."
-""
+"จริงเหรอ ไม่ใช่ว่าเพราะไม่ได้ยินเลยมีสมาธิมาจดจ่อกับอะไรแบบนั้นหรอกเหรอ เอ้อ เอาเถอะ พอถามชิซูเนะ\nว่าแผนฉันเป็นไงแล้วก็ได้รู้ว่าเราทั้งสองคนต่างคิดเหมือนกัน"
 
 scene black
 with dissolve
@@ -2383,7 +2381,8 @@ stop music fadeout 4.0
 # hi "Come on."
 hi ""
 
-"I grab her hand as I wave Yuuko over with the other to pay for our food. " 
+# "I grab her hand as I wave Yuuko over with the other to pay for our food."
+"" 
 
 show mishashort sign_confused_close
 with charachange
