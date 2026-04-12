@@ -131,7 +131,7 @@ with charachange
 yu "แค่นั้นเหรอ เอ่ออออ… คือ…"
 
 # "Wincing, she fidgets a little in her seat, trying to get comfortable in a pretty uncomfortable-looking way. I guess this means she's okay with it."
-"ยูโกะทำหน้าแหยแล้วบิดตัวปรับมุมให้เข้าที่ซึ่งดูเหมือนจะไม่เข้าที่อยู่กับที่นั่ง น่าจะแปลว่าพร้อมรับฟังละนะ"
+"ยูโกะทำหน้าเจื่อนแล้วบิดตัวปรับมุมให้เข้าที่ซึ่งดูเหมือนจะไม่เข้าที่อยู่กับที่นั่ง น่าจะแปลว่าพร้อมรับฟังละนะ"
 
 # hi "Is it hard, being an adult?"
 hi "การเป็นผู้ใหญ่นี่ลำบากมั้ยครับ"
@@ -1761,13 +1761,13 @@ with locationchange
 play music music_pearly fadein 5.0
 
 # "Although it makes me feel kind of uneasy, since we're talking about a human being, the first step is to corner Misha."
-""
+"ถึงฉันจะรู้สึกไม่ค่อยดีเท่าไหร่เพราะเป้าหมายที่ว่านี้เป็นมนุษย์—ขั้นแรกคือการไล่ต้อนมิช่า"
 
 # "Though the situation is a little too much like something out of a cop drama for me, it's come to this because talking to her normally is proving to be near impossible."
-""
+"แต่สถานการณ์ตอนนี้เหมือนอย่างในหนังตำรวจมากกว่า ที่เป็นเช่นนี้เพราะเรารู้แล้วว่าการจะคุยกับมิช่าตามปกตินั้น\nแทบเป็นไปไม่ได้"
 
 # "But we do have classes together. Even the very first class of the day."
-""
+"ทว่าเราก็ได้เรียนห้องเดียวกัน วิชาแรกของวันเลยด้วย"
 
 show shizu invis:
     center
@@ -1783,82 +1783,81 @@ show bg school_scienceroom at center
 with dissolvecharamove
 
 # "Although it takes a while for the announcement to come, the second that I hear we're going to be working in groups today, Shizune and I try to make sure Misha is in ours."
-""
+"แม้จะประกาศช้าไปหน่อย แต่ทันทีที่ได้ยินว่าวันนี้จะได้ทำงานกลุ่มกันแล้วชิซูเนะกับฉันก็ลากมิช่าให้มาอยู่กลุ่มเดียวกัน"
 
 # hi "You know, I think Mutou assigns a suspiciously large amount of group work and self-study, don't you think so?"
-hi ""
+hi "เออเนี่ย ฉันว่าครูสั่งงานกลุ่มกับงานที่ให้ศึกษาด้วยตัวเองบ่อยจนน่าสงสัยเลยนะ ว่างั้นมั้ย"
 
 show mishashort perky_smile_close
 with charachange
 
 # mi "Hm~, but it's easy, so it's ok, right~?"
-mi ""
+mi "อืมม~ แต่งานก็ไม่ได้ยากนี่ ไม่เป็นไรหรอก ใช่มั้ย~"
 
 # hi "Yeah? There's other stuff that I've been thinking about lately, that might not be okay, though."
-hi ""
+hi "อาฮะ? แต่ช่วงนี้ฉันคิดเรื่องอย่างอื่นอยู่น่ะ อันนี้น่าจะเป็น"
 
 # "Misha nods after each sentence, then brushes it all aside."
-""
+"มิช่าพยักหน้าตามแต่ละประโยคแล้วทำเป็นไม่สนใจ"
 
 show mishashort sign_confused_close
 with charachange
 
 # mi "I thought about it, and~… I don't do enough work when I work with you and Shicchan! So, I'm going to try harder today. So~!, don't distract me, Hicchan~. I have to stay focused~."
-mi ""
+mi "ฉันไปคิดมาแล้ว แล้วก็~… พอฉันอยู่กับนายแล้วก็ชิจังฉันแทบไม่ได้ทำงานเลย! วันนี้ฉันจะทำงานให้เยอะขึ้น\nเพราะงั้น~! อย่ากวนกันนะฮิจัง~ ฉันต้องตั้งใจทำ~"
 
 show shizu behind_frustrated
 with charachange
 
 # "That was an annoyingly transparent dodge. Shizune doesn't look too happy either, since Misha didn't bother to sign any of it, opting to twirl a pen in her hands instead."
-""
+"เป็นการเลี่ยงที่เห็นชัดเสียจนน่าหงุดหงิด ชิซูเนะก็ดูไม่พอใจเท่าไหร่เพราะมิช่าไม่ได้ทำภาษามือเลยแต่ควงปากกา\nในมือแทน"
 
 # "From the shaky way she was doing it, I'm sure it was so she wouldn't sign anything inadvertently."
-""
+"มือที่ควงสั่นอย่างนั้นก็แปลว่าทำไปเพราะจะได้ไม่เผลอทำภาษามืออะไรไป"
 
 # "From the way Misha looks, distracted and uneasy, I doubt it's because she wants to keep Shizune out of the loop for any malicious reason. Although, it's still obviously a way of distancing Shizune from herself."
-""
+"ดูจากท่าทีของมิช่าที่เหม่อ ๆ และอึดอัดแล้วเธอคงไม่ได้จงใจกีดกันชิซูเนะออกด้วยเหตุผลไม่ดีอะไรหรอก แต่ก็ชัดอยู่ดี\nว่ามิช่ากำลังทำให้ชิซูเนะเบนความสนใจไปจากตัวเอง"
 
 # hi "Shizune wants to talk to you."
-hi ""
+hi "ชิซูเนะอยากคุยกับเธอ"
 
 show mishashort perky_sad_close
 with charachange
 
-# mi "…"
-mi ""
+mi "…"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "Can't it wait until later, Hicchan?"
-mi ""
+mi "ไว้ค่อยคุยไม่ได้เหรอฮิจัง"
 
 show shizu basic_angry
 with charachange
 
 # ssh "No."
-ssh ""
+ssh "ไม่"
 
 # hi "Why not now?"
-hi ""
+hi "ทำไมคุยตอนนี้ไม่ได้"
 
 show mishashort sign_confused_close
 with charachange
 
 # mi "We're in the middle of class~…"
-mi ""
+mi "ก็เราเรียนอยู่~…"
 
 # "Now she's spinning a pen in each hand. I'm beginning to think her signing has turned into a kind of nervous tic for her. This isn't a good replacement, although the sight of her dual wielding is pretty impressive."
-""
+"คราวนี้มิช่าควงปากกาข้างละด้าม ชักสงสัยแล้วว่าหรือการทำภาษามือจะเป็นประสาทอัตโนมัติของมิช่าไปแล้ว\nซึ่งการควงปากกาชดเชยส่วนนั้นได้ไม่ดีเท่าไหร่ แต่ภาพที่เธอควงปากกาสองมือนั้นน่าประทับใจทีเดียว"
 
 # hi "After class, then."
-hi ""
+hi "งั้นไว้เลิกเรียนนะ"
 
 scene bg school_scienceroom at bgleft
 with shorttimeskip
 
 # "After class, I don't waste a second bringing it back up."
-""
+"พอเลิกเรียนแล้วฉันก็ไม่รอช้าถามมิช่าอีกรอบทันที"
 
 show shizu invis:
     center
@@ -1874,43 +1873,42 @@ show bg school_scienceroom at center
 with dissolvecharamove
 
 # "As everyone else files out of the classroom, leaving the three of us alone, Misha takes increasingly longer glances in every direction except forward."
-""
+"พอทุกคนออกจากห้องกันไปหมดแล้วเหลือแค่เราสามคนมิช่าก็มองไปทางอื่นที่ไม่ใช่ตรงหน้านานขึ้นทุกขณะ"
 
 # hi "Do you want to get something to eat?"
-hi ""
+hi "ไปหาอะไรกินกันมั้ย"
 
 show mishashort hips_frown_close
 with charachange
 
 # mi "Why do you and Shicchan keep asking me if I want to eat something~? ~Hicchan?"
-mi ""
+mi "ทำไมทั้งนายทั้งชิจังถึงเอาแต่ถามฉันว่าอยากกินอะไรมั้ยตลอดเลย~ ~ฮิจัง"
 
 # hi "Because we're all headed to the cafeteria, and we haven't eaten together in a long time. So, why not?"
-hi ""
+hi "เพราะเราจะไปโรงอาหารกัน แล้วเราก็ไม่ได้กินข้าวด้วยกันนานแล้วด้วย ก็ไปกินข้าวกัน"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "Is this about the Student Council?"
-mi ""
+mi "เรื่องสภานักเรียนหรือเปล่า"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show mishashort perky_sad_close
 with charachange
 
 # "Taking Shizune's lack of a reply as admission, Misha sighs."
-""
+"มิช่าถือว่าการที่ชิซูเนะไม่ตอบคือการยอมรับแล้วถอนหายใจ"
 
 show mishashort hips_frown_close
 with charachange
 
 # mi "Shicchan, is that all you ever think about?"
-mi ""
+mi "ชิจัง ในหัวเธอมีแต่เรื่องนี้เหรอ"
 
 stop music fadeout 5.0
 
@@ -1918,62 +1916,62 @@ hide mishashort
 with charaexit
 
 # "Before Shizune can reply, she leaves. I have to say, I'm not left feeling very confident after what's just happened."
-""
+"ก่อนที่ชิซูเนะจะทันได้ตอบมิช่าก็จากไป ต้องบอกเลยว่าพอเห็นเป็นแบบนี้ก็ไม่ค่อยมั่นใจแล้ว"
 
 show shizu behind_blank at center
 show bg school_scienceroom at bgleft
 with charamove
 
 # "Neither of us were expecting it to go smoothly, but it would have been nice."
-""
+"เราสองคนต่างไม่มีใครคาดหวังว่ามันจะเป็นไปอย่างราบรื่น แต่ถ้าราบรื่นก็คงดี"
 
 show shizu adjust_frown
 with charachange
 
 # "Reading my mind, Shizune curls a finger around her glasses for awhile before signing."
-""
+"เมื่อเห็นว่าฉันคิดอะไรชิซูเนะก็จับแว่นอยู่ครู่หนึ่งก่อนทำภาษามือ"
 
 show shizu basic_angry
 with charachange
 
 # ssh "I know what you're thinking, but no, it's not that I think we should give her some space now. I told you I wouldn't give up so easily."
-ssh ""
+ssh "ฉันรู้นะว่านายคิดอะไรอยู่ แต่ไม่เลย ที่ปล่อยไปไม่ใช่เพราะฉันอยากให้พื้นที่กับมิช่า ฉันบอกแล้วว่าจะไม่ยอมแพ้\nง่าย ๆ หรอก"
 
 # his "Yeah, well, now I'm starting to wonder if it's not too soon."
-his ""
+his "อ่า อืม ฉันชักสงสัยแล้วว่าหรือจะสายไปแล้ว"
 
 show shizu behind_frown
 with charachange
 
 # ssh "Cold feet?"
-ssh ""
+ssh "กลัวขึ้นมาแล้วเหรอ"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "Well, I'm not going to. That would be giving up on her."
-ssh ""
+ssh "เอาเถอะ ฉันไม่กลัวหรอก ฉันจะไล่ตามมิช่าต่อไป"
 
 show shizu behind_blank
 with charachange
 
 # ssh "There's a fine line between helping someone and smothering them. But I just want Misha to pull herself together and stop acting so weird."
-ssh ""
+ssh "ระหว่างการจะช่วยใครสักคนกับการบีบคั้นน่ะคั่นด้วยเส้นบาง ๆ เท่านั้น แต่ฉันก็แค่อยากให้มิช่าตั้งสติแล้วเลิก\nทำตัวแปลก ๆ สักที"
 
 show shizu basic_normal
 with charachange
 
 # ssh "I know she can do it. Even if she wants to try, people don't change overnight. If they could, the world would be a much easier place."
-ssh ""
+ssh "ฉันรู้ว่ามิช่าทำได้ แต่คนเราใช้เวลาแค่ชั่วข้ามคืนเปลี่ยนตัวเองไม่ได้หรอก ต่อให้พยายามแค่ไหนก็เถอะ ถ้าทำได้\nโลกนี้ก็คงสงบสุขขึ้นเยอะ"
 
 # his "Okay, you win."
-his ""
+his "โอเค เธอชนะ"
 
 # his "Then I guess this is the part where we split up and look for her."
-his ""
+his "งั้นก็แปลว่าตอนนี้เราต้องแยกกันตามหามิช่า"
 
 # "Though I'm the only one who is really supposed to find her."
-""
+"ถึงเอาเข้าจริง ๆ แล้วก็มีแค่ฉันแหละที่ควรตามหา"
 
 show shizu adjust_happy
 with charachange
@@ -1981,67 +1979,67 @@ with charachange
 play music music_tranquil fadein 3.0
 
 # ssh "If I run into her first, I'll call your cell phone."
-ssh ""
+ssh "ถ้าฉันเจอมิช่าก่อนแล้วจะโทร. หานะ"
 
 # "Smiling, Shizune takes out her cell phone, turning it on to prepare. I notice that she has an extremely high number of unread messages, and looking at her expression, so does she. Twirling it around by the strap a couple of times, she grimaces."
-""
+"ชิซูเนะยิ้มแล้วหยิบโทรศัพท์ออกมาเปิดเตรียมไว้ ฉันเห็นว่ามีข้อความที่ยังไม่ได้อ่านหลายข้อความ สีหน้าชิซูเนะ\nบอกว่าเธอเองก็เห็นเช่นกัน เธอหมุนโทรศัพท์เล่นกับสายคล้องอยู่สองสามครั้งพลางทำหน้าเบ้"
 
 show shizu behind_frown
 with charachange
 
 # ssh "I don't like using this thing."
-ssh ""
+ssh "ไม่ชอบใช้เจ้านี่เลย"
 
 show shizu basic_angry
 with charachange
 
 # ssh "Why can't I just snap my fingers?"
-ssh ""
+ssh "ทำไมถึงดีดนิ้วเอาไม่ได้นะ"
 
 # his "And then what? I'm not a dog. And it doesn't travel as far as a phone signal."
-his ""
+his "แล้วไงต่อ ฉันไม่ใช่หมานะ แล้วเสียงดีดนิ้วก็ส่งได้ไม่ไกลเท่าสัญญาณโทรศัพท์ด้วย"
 
 show shizu behind_smile
 with charachange
 
 # his "You're having a lot of fun with this, aren't you?"
-his ""
+his "สนุกน่าดูเลยนะเธอ"
 
 # "Shaking her head from side to side, she continues."
-""
+"ชิซูเนะสั่นหัวแล้วเสริมอีก"
 
 show shizu adjust_happy
 with charachange
 
 # ssh "It's obvious where she will go. You can't look for her on the school grounds, she would want to go as far away as she can."
-ssh ""
+ssh "ชัดแล้วว่ามิช่าจะไปที่ไหน ไปตามหาที่ลานโรงเรียนไม่เจอแน่ มิช่าต้องอยากไปให้ไกลที่สุด"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Check the tea shop? It's usually empty this early; Misha loves to go there if she feels like skipping class, and she loves the parfaits they have there."
-ssh ""
+ssh "ไปโรงน้ำชามั้ย ปกติเช้า ๆ แบบนี้จะไม่มีคน มิช่าชอบโดดเรียนไปที่ร้านนั้น แล้วก็ชอบพาร์เฟต์ร้านนั้นด้วย"
 
 # "“You really know a lot about her.” But she would overthink it, and turn it into something that would seem a lot more backhanded than it actually is, so I choose to just nod and leave instead, until I feel her holding on to my sleeve."
-""
+"“รู้เรื่องมิช่าดีจังนะ” แต่ขืนบอกไปคงคิดมากแล้วเก็บไปคิดว่ามีนัยแฝงอะไรลึกกว่านั้นอีก ฉันจึงเพียงพยักหน้า\nแล้วเดินออกไปจนกระทั่งรู้สึกได้ว่าชิซูเนะจับแขนเสื้อไว้อยู่"
 
 show shizu basic_normal_close
 with characlose
 
 # hi "What?"
-hi ""
+hi "อะไร"
 
 # "I say instinctively, forgetting that she can't hear me."
-""
+"ฉันตอบไปตามสัญชาตญาณโดยลืมไปว่าอีกฝ่ายไม่ได้ยิน"
 
 show shizu behind_smile_close
 with charachange
 
 # ssh "It feels nice that I don't have to do it all by myself any more, because I can trust you. I'm really happy."
-ssh ""
+ssh "พอไม่ต้องทำทุกอย่างเองแล้วรู้สึกดีนะ เพราะฉันเชื่อใจนายได้ด้วย มีความสุขมากเลย"
 
 # "It makes me happy to hear it. I can't think of a way to respond, and end up only nodding again."
-""
+"รู้แบบนี้แล้วก็ดีใจแฮะ ฉันไม่รู้จะตอบอย่างไรจึงพยักหน้าไปอีกครั้ง"
 
 play ambient sfx_crowd_indoors fadein 2.0
 
@@ -2054,16 +2052,16 @@ show crowd
 with locationskip
 
 # "Heading outside, I catch a glimpse of pink hair behind some other girl's head, and as I head that way, I realize that this isn't the way you go if you want to leave school."
-""
+"เมื่อออกมาข้างนอกก็เห็นผมสีชมพูที่อยู่ข้างหลังนักเรียนหญิงคนอื่นอยู่ไว ๆ พอลองตามไปก็เห็นว่าไม่ใช่ทางเดิน\nออกโรงเรียน"
 
 # "It's the way to the student council room. If I wanted to avoid Shizune, I wouldn't head there."
-""
+"เป็นทางไปห้องสภานักเรียน ถ้าเป็นฉันแล้วฉันไม่อยากเจอหน้าชิซูเนะคงไม่ไปที่นั่นแน่"
 
 # "It's strange that Misha would be going in that direction, then. Maybe she wants to talk things over with Shizune."
-""
+"งั้นก็แปลกว่าทำไมมิช่าถึงไปทางนั้น หรือจะมีเรื่องอยากคุยกับชิซูเนะ"
 
 # "In which case, I have to wonder if letting things play out naturally would be such a bad idea after all, especially if it seems to be going in a good direction."
-""
+"ถ้าอย่างนั้นฉันก็ต้องมาคิดแล้วว่าหรือการปล่อยให้อะไร ๆ เป็นไปตามธรรมชาติก็คงไม่แย่เหมือนกัน และยิ่งเหมือนว่า\nจะเป็นไปในทางที่ดีด้วย"
 
 show mishashort invis as mishafront:
     center
@@ -2083,23 +2081,23 @@ show mishashort hips_smile at center
 with None
 
 # "Suddenly, Misha stops and spins around, catching me by surprise."
-""
+"อยู่ ๆ มิช่าก็หยุดเดินแล้วหมุนตัวมาจนฉันตกใจ"
 
 show mishashort hips_grin
 with charachange
 
 # mi "Surprise~, Hicchan~! Were you looking for me? I had a feeling~!"
-mi ""
+mi "เซอร์ไพรส์~ ฮิจัง~! ตามหาฉันอยู่เหรอ ก็ว่าอยู่ต้องใช่แน่ ๆ ~!"
 
 # "I was going to say “Hey, I was just looking for you”, but I suppose that's no good now."
-""
+"ฉันเกือบจะพูดไปว่า “เอ้า กำลังตามหาตัวอยู่เลย” แต่พูดตอนนี้คงไม่ดีแน่"
 
 show mishashort hips_grin:
     easeout 0.7 xpos 1.0 alpha 0.0
 with Pause(0.7)
 
 # "She isn't even finished with her sentence before she blows past me, heading for the exit. I have to admit that Misha is infuriatingly sharper than I'd expected. Also, surprisingly fast."
-""
+"ยังพูดไม่ทันจบประโยคด้วยซ้ำมิช่าก็เดินสวนฉันไปที่ทางออกแล้ว ต้องยอมรับเลยว่ามิช่านั้นฉลาดขึ้นกว่าที่ฉันคาด\nจนน่าหงุดหงิด แถมยังเร็วเหลือเชื่อด้วย"
 
 stop ambient fadeout 2.0
 
@@ -2107,48 +2105,48 @@ scene bg school_courtyard
 with locationskip
 
 # "Although it's more physical activity than I think I should be getting, I manage to catch up with her halfway to the gate."
-""
+"ฉันตามมิช่ามาจนถึงประตู แม้สิ่งนี้อาจจะเป็นการขยับตัวที่เกินกว่าร่างกายฉันรับไหวก็ตาม"
 
 # hi "You're really being the rudest woman in the world right now."
-hi ""
+hi "นี่เธอทำตัวเป็นผู้หญิงที่หยาบคายที่สุดในโลกเลยนะ"
 
 # hi "Can you just stop trying to run away for one second? I want to talk to you."
-hi ""
+hi "เลิกวิ่งหนีสักวินาทีได้มั้ย ฉันอยากคุยกับเธอ"
 
 show mishashort cross_smile at center
 with charaenter
 
 # "Misha turns on her heel, looking mildly amused, and raises her hands as if to tell me to go on. Now that I've got her attention, though, it's hard to think of the right thing to say."
-""
+"มิช่าหมุนส้นเท้ามาด้วยสีหน้าชอบใจก่อนจะยกมือขึ้นเป็นเชิงให้ฉันพูดต่อ แต่พอมิช่าสนใจแล้วฉันกลับนึก\nไม่ค่อยออกว่าจะพูดอะไรดี"
 
 # hi "Where are you going now?"
-hi ""
+hi "นี่เธอจะไปไหน"
 
 show mishashort sign_smile
 with charachange
 
 # mi "The Shanghai~."
-mi ""
+mi "ร้านเซี่ยงไฮ้~"
 
 # hi "Can I go with you, then?"
-hi ""
+hi "งั้นขอไปด้วยได้มั้ย"
 
 show mishashort perky_confused
 with charachange
 
 # "Waiting for her to answer feels like an eternity. It's almost as if I can hear my wristwatch ticking off the individual seconds."
-""
+"ฉันรอให้มิช่าตอบอยู่นานเหมือนรอเป็นชาติ เงียบราวกับว่าได้ยินเสียงเข็มนาฬิกาข้อมือที่เดินอยู่ทุกวินาทีเลย"
 
 show mishashort hips_smile
 with charachange
 
 # mi "Okay, then, Hicchan."
-mi ""
+mi "โอเค ก็ได้ ฮิจัง"
 
 stop music fadeout 3.0
 
 # "I get the sense that she only agreed because she doesn't want to argue any more today."
-""
+"รู้สึกเหมือนที่ยอมตอบตกลงก็เพราะวันนี้เธอเบื่อจะเถียงแล้ว"
 
 scene bg suburb_shanghaiint
 show mishashort perky_smile:
@@ -2165,43 +2163,42 @@ show mishashort perky_confused:
 with Pause(0.3)
 
 # "When we get there, a couple comes in after us, causing Misha to jump slightly at the noise."
-""
+"พอไปถึงแล้วก็มีคนอีกสองคนที่เดินตามเข้ามา มิช่าสะดุ้งกับเสียงนั้นเล็กน้อย"
 
 show mishashort perky_smile_close at Position(ypos=1.1)
 with dissolvecharamove
 
 # "Seeing that it isn't Shizune, she relaxes again, smiling almost as usual to order a parfait from Yuuko, and sliding into the nearest booth."
-""
+"พอเห็นว่าไม่ใช่ชิซูเนะก็คลายความเกร็งลง ยิ้มอย่างเกือบจะเหมือนตามปกติสั่งพาร์เฟต์กับยูโกะแล้วผลุบนั่งลง\nกับโต๊ะใกล้ ๆ"
 
 # hi "You ran off too fast. You could have at least waited to see what she was going to say."
-hi ""
+hi "เธอรีบหนีไปนะ อย่างน้อยก็รอก่อนสิว่าชิซูเนะจะบอกอะไรอีก"
 
 show mishashort hips_frown_close
 with charachange
 
 # "Misha's angry reaction tells me it could be that she was afraid of what Shizune might say."
-""
+"ท่าทีโกรธของมิช่าบอกฉันว่าเธอคงจะกลัวว่าชิซูเนะจะพูดอะไรต่อ"
 
 # mi "Why are you both doing this, Hicchan?"
-mi ""
+mi "ทำไมเธอสองคนถึงทำกันแบบนี้ล่ะฮิจัง"
 
 # hi "Because Shizune still wants to be your friend. I guess that for her it's kinda like launching a nuclear missile from a submarine, you need two keys to do it."
-hi ""
+hi "เพราะชิซูเนะยังอยากเป็นเพื่อนกับเธอไง ชิซูเนะคงมองว่าเหมือนการยิงมิสไซล์จากเรือดำน้ำที่ต้องใช้กุญแจสองดอก\nน่ะแหละ"
 
 show mishashort perky_confused_close
 with charachange
 
-# mi "…"
-mi ""
+mi "…"
 
 # hi "What else can she do, though?"
-hi ""
+hi "แล้วจะให้ชิซูเนะทำยังไงล่ะ"
 
 # "She isn't automatically signing whatever she hears or says any more, and I'm sure that is the reason Shizune's been having so much trouble with her."
-""
+"มิช่าไม่ทำภาษามือตามสิ่งที่ได้ยินหรือพูดโดยอัตโนมัติแล้ว และนี่แหละคงเป็นสาเหตุว่าทำไมช่วงนี้ชิซูเนะถึงได้รับมือ\nกับมิช่าลำบากเหลือเกิน"
 
 # hi "If she tried to just talk it over, you wouldn't listen."
-hi ""
+hi "พอชิซูเนะจะคุยกับเธอ เธอก็ไม่ยอมฟัง"
 
 show mishashort perky_sad_close
 with charachange
@@ -2209,189 +2206,188 @@ with charachange
 play music music_night fadein 6.0
 
 # "Misha's guilty expression tells me I've hit the mark."
-""
+"สีหน้ารู้สึกผิดของมิช่าบอกว่าฉันพูดจี้ใจดำพอดี"
 
 # hi "Do you really hate Shizune that much?"
-hi ""
+hi "เกลียดชิซูเนะขนาดนั้นเลยเหรอ"
 
 show mishashort sign_confused_close
 with charachange
 
 # mi "No, Hicchan. I told you that."
-mi ""
+mi "ไม่ใช่เลยฮิจัง ฉันเคยบอกแล้วนี่"
 
 show mishashort perky_confused_close
 with charachange
 
 # "She answers without even flinching, idly playing with a spoon."
-""
+"มิช่าตอบทันทีไม่แม้แต่ลังเลพลางจับช้อนเล่น"
 
 # hi "Yeah, I know."
-hi ""
+hi "อืม รู้"
 
 # hi "I'm sure she knows it too, but I wonder if it might be easier if you did."
-hi ""
+hi "ฉันมั่นใจว่าชิซูเนะก็รู้เหมือนกัน แต่ถ้าเธอเกลียด ๆ ไปเลยเรื่องอาจจะลงตัวกว่านี้ก็ได้มั้ง"
 
 # hi "The only thing she's really thought about for the last week is how to make you happy. Since Shizune is still attached to you. Yesterday, though, she thought that maybe it would be easiest for you if you just hated her."
-hi ""
+hi "ตลอดหนึ่งสัปดาห์ที่ผ่านมาชิซูเนะเอาแต่คิดว่าจะทำให้เธอมีความสุขยังไงดี เพราะชิซูเนะยังผูกพันกับเธออยู่\nแต่เมื่อวานชิซูเนะคิดแล้วว่าปล่อยให้เธอเกลียดไปเลยคงดีกว่า"
 
 # hi "Since you didn't tell her you hate her, Shizune thinks that you can both still be friends. She's like that, only thinking in extremes."
-hi ""
+hi "เพราะเธอไม่เคยบอกชิซูเนะเลยว่าเกลียด ชิซูเนะถึงคิดว่าพวกเธอสองคนยังเป็นเพื่อนกันได้ ยัยนั่นก็เป็นงี้แหละ\nคิดเป็นแต่อะไรแบบสุดโต่ง"
 
 # "Her parfait is starting to melt, the ingredients coming together in tiny rivers that remind me of the growing roots of a tree being shown through time-lapse photography."
-""
+"พาร์เฟต์ของมิช่าเริ่มละลาย วัตถุดิบไหลมารวมกันในสายน้ำเล็ก ๆ ที่ชวนให้ฉันนึกถึงภาพแบบย่นเวลาของรากไม้\nที่แตกแขนงออกไป"
 
 show mishashort cross_frown_close
 with charachange
 
 # mi "That's stupid. Shicchan isn't that stupid, Hicchan. Don't be ridiculous~."
-mi ""
+mi "บ้าน่า ชิจังไม่โง่ขนาดนั้นหรอกฮิจัง อย่ามาพูดอะไรไร้สาระ~"
 
 # hi "It's got nothing to do with intelligence. Smart people can do stupid things. And anyway, isn't it true? I was terrified last week when we talked, but at the end, I was relieved because it sounded like things might go back to normal."
-hi ""
+hi "เรื่องนี้ไม่เกี่ยวกับความฉลาดเลย คนฉลาดก็ทำอะไรโง่ ๆ ได้เหมือนกัน ก็แล้วมันไม่จริงเหรอ สัปดาห์ก่อน\nตอนเราคุยกันฉันกลัวมาก แต่สุดท้ายก็โล่งเพราะดูเหมือนอะไร ๆ จะกลับเป็นปกติแล้ว"
 
 # hi "I wasn't expecting you two to have a fight right after."
-hi ""
+hi "ฉันไม่คิดเลยว่าหลังจากนั้นเธอสองคนจะทะเลาะกัน"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "It wasn't a fight, Hicchan. It was just me yelling at her."
-mi ""
+mi "ไม่ได้ทะเลาะกันสักหน่อยฮิจัง ฉันแค่ตะโกนใส่ชิจังเอง"
 
 # "I've noticed that Misha's voice never really changes in tone, just volume. It's so low with guilt that I can hardly believe it came from her."
-""
+"ฉันสังเกตว่าน้ำเสียงมิช่าไม่เปลี่ยนเลย มีแค่ระดับเสียงเท่านั้นที่ต่าง เป็นเสียงอันเบาที่เต็มไปด้วยความรู้สึกผิดราวกับว่า\nคนพูดไม่ใช่มิช่าเลย"
 
 # hi "Either way, I was happy, because I thought you and her could still be friends. Since she needs you."
-hi ""
+hi "แต่เอาเถอะ ตอนนั้นฉันมีความสุขเพราะคิดว่าเธอกับชิซูเนะยังเป็นเพื่อนกันได้ เพราะชิซูเนะขาดเธอไม่ได้"
 
 show mishashort sign_confused_close
 with charachange
 
 # mi "Hm~. No she doesn't, Hicchan."
-mi ""
+mi "อืม~ ขาดได้สิฮิจัง"
 
 # hi "So? How do you know that? There's a lot of things Shizune doesn't…"
-hi ""
+hi "แล้ว? รู้ได้ยังไง หลายอย่างชิซูเนะก็ไม่ได้…"
 
 # "Vocalize? Say? Talk about? I'm afraid if I say the wrong thing, it'll ruin the mood. I get to finally have a conversation with her and don't want to screw it up. I wonder if this is the first time she's had an honest conversation with me."
-""
+"ออกปาก? พูด? คุย? ฉันกลัวว่าถ้าพูดอะไรพลาดไปแล้วจะทำลายบรรยากาศหมด มีโอกาสได้คุยกับมิช่าแล้ว\nฉันก็ไม่อยากทำพลาด ครั้งนี้ครั้งแรกเลยหรือเปล่านะที่มิช่าเปิดอกคุยกับฉัน"
 
 # hi "Just because she didn't tell you doesn't mean she doesn't like you."
-hi ""
+hi "แค่เพราะไม่เคยบอกไม่ได้แปลว่าไม่ชอบสักหน่อย"
 
 show mishashort hips_frown_close
 with charachange
 
 # mi "That doesn't make sense…"
-mi ""
+mi "ไม่เห็นจะสมเหตุสมผลเลย…"
 
 # hi "Yes, it does. Otherwise, she would argue back."
-hi ""
+hi "สมเหตุสมผลสิ ไม่งั้นชิซูเนะก็คงเถียงกลับแล้ว"
 
 show mishashort hips_grin_close
 with charachange
 
 # mi "Wahaha~."
-mi ""
+mi "วะฮ่าฮ่า~"
 
 # hi "You don't think so? She picks fights with everyone, so why not you? Obviously, because you're her friend, and she values you. And Shizune is hurt, too."
-hi ""
+hi "เธอไม่คิดงั้นเหรอ ชิซูเนะหาเรื่องคนไปทั่ว แล้วทำไมไม่หาเรื่องเธอด้วย แน่นอน ก็เธอเป็นเพื่อนไง แล้วชิซูเนะก็ให้ค่า\nกับเธอด้วย และชิซูเนะก็เจ็บปวดด้วย"
 
 # hi "She's just awful at showing her feelings. Usually does it the wrong way, too. But she still likes you."
-hi ""
+hi "ชิซูเนะก็แค่แสดงความรู้สึกไม่เก่ง แล้วหลายครั้งก็แสดงผิดวิธีด้วย แต่ชิซูเนะยังชอบเธออยู่นะ"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "Hicchan, do you remember when I said I didn't want to hate Shicchan, or upset her? The truth is~, I ended up doing both. Now it's like there's, like, an awkwardness between us. It's hard to explain."
-mi ""
+mi "ฮิจัง จำได้มั้ยตอนที่ฉันบอกว่าไม่อยากเกลียดชิจัง ไม่อยากทำให้ชิจังโกรธ ความจริงคือ~ ฉันก็ทำไปทั้งสองอย่างเลย\nแล้วตอนนี้ก็เหมือน แบบว่า ความสัมพันธ์ของเรามันกระอักกระอ่วน อธิบายยากนะ"
 
 # hi "Both of you are so stubborn. You were talking about how you didn't want to drift apart from Shizune, but then you're going to let it happen."
-hi ""
+hi "เธอสองคนนี่รั้นจริง ๆ เธอเคยบอกว่าไม่อยากแยกจากชิซูเนะ แต่เธอก็ปล่อยให้เป็นแบบนั้น"
 
 # hi "And Shizune is just as bad. She wants to be your friend, but respects you too much to be as aggressive as she'd be with anyone else."
-hi ""
+hi "ชิซูเนะก็พอกัน อยากเป็นเพื่อนกับเธอ แต่ก็เคารพเธอจนไม่ได้รุกหนักเท่าที่ทำกับคนอื่น"
 
 # "And I'm sure that Misha interprets Shizune giving her space as a lack of caring."
-""
+"และฉันก็มั่นใจว่ามิช่าตีความการให้พื้นที่ของชิซูเนะนั้นเป็นการไม่ใยดี"
 
 show mishashort perky_sad_close
 with charachange
 
 # mi "I screwed up already, Hicchan. It'll happen again~, I'm sure. When I think about it that way, I don't know what I'm supposed to do. It feels like either way, I'll end up making things worse. Then, it might be better if I didn't do anything at all, right~?"
-mi ""
+mi "ฉันทำพลาดไปแล้วละฮิจัง แล้วก็จะมีพลาดซ้ำสองอีก~ ฉันมั่นใจเลย พอคิดอย่างนั้นแล้วฉันก็ไม่รู้จะทำยังไงดี\nเหมือนไม่ว่าเลือกทางไหนก็ทำให้อะไรแย่ลงไปอีกเหมือนเดิม ถ้างั้นแล้วไม่ทำอะไรเลยสักอย่างก็น่าจะดีกว่าใช่มั้ยล่ะ~"
 
 # hi "Don't be ridiculous. Why would you even think that way in the first place? Be more positive."
-hi ""
+hi "พูดอะไรไร้สาระ ไปเอาความคิดแบบนั้นมาจากไหน มองให้มันดีกว่านั้นสิ"
 
 # "“It should be easy for you,” I want to say, but that would be presumptuous."
-""
+"“อย่างเธอน่าจะมองได้ไม่ยากนะ” อยากพูดอยู่ แต่น่าจะเป็นการอวดดีเกินไป"
 
 show mishashort hips_smile_close
 with charachange
 
 # mi "Hicchan~, I never knew you were so optimistic. I never expected it."
-mi ""
+mi "ฮิจัง~ ไม่ยักรู้ว่านายเป็นคนคิดบวกขนาดนี้ คิดไม่ถึงเลยนะเนี่ย"
 
-# hi "…"
-hi ""
+hi "…"
 
 show mishashort perky_smile_close
 with charachange
 
 # mi "You always act so gloomy when I try and surprise you."
-mi ""
+mi "ฮิจังเอาแต่ทำตัวซึมตอนที่ฉันมาทำให้ตกใจเล่น"
 
 # hi "No, this is a recent thing. Really. I just hate it when people give up easily now."
-hi ""
+hi "เปล่าหรอก ฉันเพิ่งมาเป็นแบบนี้ จริง ๆ นะ ฉันไม่ชอบเวลาคนถอดใจกับอะไรง่าย ๆ"
 
 show mishashort cross_grin_close
 with charachange
 
 # mi "Haha~."
-mi ""
+mi "ฮ่าฮ่า~"
 
 show mishashort perky_smile_close
 with charachange
 
 # mi "“Now,” huh~…?"
-mi ""
+mi "“เพิ่ง” เหรอ~…"
 
 # hi "It makes me mad when people give up. I used to think that giving up was kind of like running away, since that's how people always describe it, but now that I think about it, it's usually more like throwing something away."
-hi ""
+hi "ฉันโมโหเวลาคนยอมแพ้ ฉันเคยคิดว่าการยอมแพ้เหมือนการวิ่งหนี เพราะคนก็พูดแบบนั้นกันมาตลอด แต่พอลอง\nมาคิดดี ๆ แล้วมันเหมือนการโยนอะไรบางอย่างทิ้งมากกว่า"
 
 # hi "When you run away from something, you can think of it as still being there. So, I was in the hospital, and I didn't just want to run away from my problems, I wanted to never think about them again."
-hi ""
+hi "พอเราวิ่งหนีจากอะไรบางอย่าง เราก็ยังนึกถึงว่าสิ่งนั้นยังมีอยู่ได้ เพราะงั้น ตอนที่ฉันอยู่โรงพยาบาล ฉันไม่ได้แค่\nอยากจะวิ่งหนีจากปัญหา แต่ฉันไม่อยากจะคิดถึงมันอีกเลย"
 
 # "Misha eats a spoonful of her gray ice cream goo. Did she only just remember it was there now, or could it be she likes it that way?"
-""
+"มิช่าตักกินก้อนไอศกรีมเหลว ๆ หนึ่งช้อน เพิ่งนึกได้หรือไงว่าตัวเองสั่งมา หรือจะชอบกินเละ ๆ แบบนี้กันแน่"
 
 # hi "Anyway, my point is, you can't do that. People are too sentimental to just throw their memories out like that."
-hi ""
+hi "แต่นั่นแหละ ที่ฉันจะบอกคือ เธอทำแบบนั้นไม่ได้ คนเราน่ะไม่ได้ใจไม้ไส้ระกำกันถึงขั้นจะทิ้งความทรงจำไปดื้อ ๆ\nอย่างนั้นได้"
 
 # hi "It's impossible. Shizune can't think of life in terms of anything but winning and losing; don't you think she wishes she didn't have to remember the parts where she loses?"
-hi ""
+hi "เป็นไปไม่ได้หรอก ชิซูเนะมองชีวิตเป็นแค่ว่าได้มาหรือสูญเสียก็จริง แต่เธอไม่คิดเหรอว่าชิซูเนะก็ไม่อยากนึกถึง\nส่วนที่ต้องสูญเสียเหมือนกัน"
 
 # hi "You can't pick and choose, though. That's like wanting to live in a bubble. The worst part is, your way of thinking is so wasteful. It's making you so pessimistic you're afraid of everything."
-hi ""
+hi "เราหยิบจับเลือกอะไรตามใจไม่ได้หรอก ถ้าคิดแบบนั้นก็ไม่ต่างอะไรกับการอยากใช้ชีวิตอยู่แบบปิดไม่รับรู้อะไร\nแล้วที่แย่ที่สุดคือความคิดแบบเธอน่ะไม่ทำให้ได้อะไรขึ้นมาเลย รังแต่จะทำให้เธอมองโลกในแง่ลบจนกลัวไปหมดทุกอย่าง"
 
 stop music fadeout 4.0
 
 # hi "Come on."
-hi ""
+hi "ไปกัน"
 
 # "I grab her hand as I wave Yuuko over with the other to pay for our food."
-"" 
+"ฉันจับมือมิช่าไว้แล้วใช้อีกมือโบกเรียกยูโกะให้มาคิดเงิน" 
 
 show mishashort sign_confused_close
 with charachange
 
 # mi "Where are we going now?"
-mi ""
+mi "นี่เราจะไปไหน"
 
 # hi "Back to school before lunch is over, but I want to check out a few places before then."
-hi ""
+hi "กลับไปที่โรงเรียนก่อนหมดพักเที่ยง แต่ก่อนกลับฉันอยากไปแวะที่อื่นสักหน่อย"
 
 scene bg school_gate:
    right
@@ -2402,16 +2398,16 @@ with locationskip
 play music music_comfort
 
 # "Although I start feeling tired even after doing what could be described as on the level of a brisk jog at best, Misha and I eventually make it to the gate of the school with a little over ten minutes to spare."
-""
+"เมื่อออกไป—อย่างดีก็คงเรียกได้ว่า—วิ่งเหยาะ ๆ กับมิช่าจนเริ่มเหนื่อยแล้วเราก็กลับมาที่ประตูหน้าโรงเรียน ยังทันอยู่\nเหลือเวลาอีกประมาณสิบนาที"
 
 # hi "I didn't even want to really come to this school, you know. I didn't have a choice. When I got to this gate, I'm sure a part of me was thinking, “What a depressing place.”"
-hi ""
+hi "เนี่ย ฉันไม่อยากมาเรียนที่นี่เลย ฉันเลือกไม่ได้ พอมาถึงที่ประตูนี้ ในใจตอนนั้นฉันต้องคิดว่า “เป็นที่ที่ชวนหดหู่\nเหลือเกิน” แน่ ๆ"
 
 # hi "It doesn't look depressing at all, though. Well, I still thought I had everything figured out. I felt practically like another person."
-hi ""
+hi "ซึ่งไม่ได้ดูหดหู่เลยนะ แต่ก็ ฉันยังคิดอยู่นะว่าฉันจัดการอะไรลงตัวหมดแล้ว รู้สึกเหมือนตัวเองเป็นคนละคนเลย"
 
 # hi "If I could, I'd go back and tell myself to stop thinking he can write everything off at a glance, and acting like his life is already over, and he can never have fun again."
-hi ""
+hi "ถ้าเป็นไปได้ฉันก็อยากย้อนเวลากลับไปบอกตัวเองให้เลิกปฏิเสธทุกอย่างทั้งที่ได้เห็นแค่เสี้ยวเดียว เลิกทำตัวเหมือน\nชีวิตจบสิ้นแล้ว เลิกทำเหมือนว่าจะไม่ได้สนุกอีกแล้ว"
 
 scene bg school_gardens:
    right
@@ -2420,13 +2416,13 @@ scene bg school_gardens:
 with locationskip
 
 # "The school grounds are still littered with quite a few people. It's lunchtime, so it's typical."
-""
+"ตรงลานหน้าโรงเรียนยังพอมีคนอยู่ประปราย ซึ่งไม่แปลกเพราะเป็นเวลาพักเที่ยง"
 
 # hi "This is where you and Shizune had me helping you put together two festivals. What a lot of hard work. I thought, “I don't have time for this.”"
-hi ""
+hi "ที่นี่แหละที่เธอกับชิซูเนะลากฉันให้มาช่วยจัดงานเทศกาล ทุ่มเทจริง ๆ ตอนนั้นฉันคิด “จะมามัวแต่ทำอะไรแบบนี้\nได้ยังไง”"
 
 # hi "When I look back on it, though, I didn't do all that much. I also didn't have anything better to do. I'd have just spent the time alone."
-hi ""
+hi "แต่พอลองย้อนมองดูแล้วฉันก็ไม่ได้ทำอะไรมากขนาดนั้น แถมก็ไม่มีอะไรจะทำอยู่แล้วด้วย ถ้าไม่ทำก็คงได้แต่\nอยู่ตัวคนเดียว"
 
 scene bg school_scienceroom:
    right
@@ -2435,197 +2431,197 @@ scene bg school_scienceroom:
 with locationskip
 
 # "I drag her to our homeroom next, which is empty except for Mutou trying to eat a sandwich before classes resume."
-""
+"ฉันลากมิช่าไปที่ห้องเรียนประจำเป็นที่ถัดไป ซึ่งไม่มีคนอื่นอยู่เลยนอกจากครูที่นั่งกินแซนด์วิชรอถึงเวลาเข้าเรียน\nอีกรอบ"
 
 # hi "Every time I thought of either of you, I wished you would leave me alone. Whether it was here, or…"
-hi ""
+hi "ทุกครั้งที่ฉันนึกถึงพวกเธอคนใดคนหนึ่งฉันก็นึกอยากให้เธอสองคนปล่อยฉันไปได้แล้ว ไม่ว่าจะที่นี่หรือ…"
 
 scene bg school_lobby
 with locationskip
 
 # "Leaving Mutou to his lunch, we head for the nearby vending machine, and I grab a soda while I still have five minutes to drink it. I've spent an entire lunch period with Misha; longer than both Shizune and I have managed to find to talk to her in days."
-""
+"พวกเราปล่อยให้ครูกินมื้อเที่ยงต่อไปแล้วมุ่งหน้าไปยังตู้ขายของแบบหยอดเหรียญที่อยู่ใกล้ ๆ ฉันซื้อน้ำอัดลม\nมาหนึ่งกระป๋องแล้วใช้เวลาห้านาทีที่เหลือดื่มจนหมด ฉันอยู่กับมิช่าตลอดช่วงพักเที่ยง ซึ่งนานกว่าเวลาที่ทั้งชิซูเนะ\nกับฉันได้มาคุยกับมิช่าในช่วงสองสามวันนี้เสียอีก"
 
 # hi "…Following me to the cafeteria, or trying to corner me after half my classes."
-hi ""
+hi "…ตามมาถึงโรงอาหาร หรือเลิกเรียนมาไล่ต้อนฉัน"
 
 # hi "I never realized we only talked like four times. It really was all in my head. I only barely realized it now."
-hi ""
+hi "ฉันไม่เคยรู้ตัวเลยว่าพวกเราคุยกันได้สี่ครั้งเอง ฉันคิดไปเองว่าหลายครั้ง เพิ่งมารู้ตัวก็ตอนนี้เอง"
 
 show mishashort hips_smile at center
 with charaenter
 
 # mi "I remember that, Hicchan. But~, I know where all of these places are, too."
-mi ""
+mi "ฉันจำได้นะฮิจัง แต่ว่า~ ฉันรู้อยู่แล้วนี่ว่าที่พวกนี้อยู่ตรงไหน"
 
 # hi "Wait, let me finish my guided tour. Since we're running out of time. By the way, do you want a soda?"
-hi ""
+hi "เดี๋ยวสิ ขอฉันนำทางให้เสร็จก่อน ใกล้หมดเวลาแล้ว จะว่าไป เอาน้ำอัดลมสักกระป๋องมั้ย"
 
 scene bg school_staircase2
 with locationchange
 
 # "Making our way to the stairwell, I'm glad that I don't have to pull her by the hand any more."
-""
+"พวกเรามาถึงขั้นบันได ฉันนึกดีใจที่ไม่ต้องดึงมือลากแขนกันแล้ว"
 
 # hi "You get dizzy on stairs, right?"
-hi ""
+hi "เธอเวียนหัวกับบันไดใช่มั้ย"
 
 show mishashort perky_sad_close at twoleft
 with charaenter
 
 # mi "Yeah~."
-mi ""
+mi "อื้ม~"
 
 # hi "I guess just here is good enough, then."
-hi ""
+hi "งั้นอยู่แค่ตรงนี้แล้วกัน"
 
 show mishashort perky_sad_close:
     ease 1.0 ypos 1.2
 with Pause(1.0)
 
 # "I lean against the wall as Misha sits down on the steps, across from me."
-""
+"ฉันยืนพิงกำแพง ส่วนมิช่าก็นั่งที่ขั้นบันไดอยู่ตรงข้ามกันกับฉัน"
 
 # hi "Do you ever miss the people you went to school with in elementary school, or middle school?"
-hi ""
+hi "เธอเคยคิดถึงคนที่เรียนด้วยกันสมัยประถมหรือมัธยมต้นหรือเปล่า"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "No."
-mi ""
+mi "ไม่"
 
 # "That was fast. She didn't even have to think about it. I find myself cringing reflexively."
-""
+"ตอบเร็วแฮะ ไม่ต้องคิดเลยด้วยซ้ำ ฉันทำหน้าเบ้ไปโดยอัตโนมัติ"
 
 # hi "I had more friends in my old school, but I don't talk to them any more. It almost feels like that was another lifetime ago. Which is sad, really."
-hi ""
+hi "ที่โรงเรียนเก่าน่ะฉันมีเพื่อนเยอะกว่านี้ แต่ก็ไม่ได้คุยกันแล้วละ รู้สึกเหมือนตอนนั้นเป็นชาติที่แล้วเลย ซึ่งเอาจริง ๆ\nก็น่าเศร้านะ"
 
 # hi "Sometimes I want to talk to them again, but I know I can't. I'm scared, and embarrassed, things like that. They're too far away for me to go see them. Then I think about calling them, but I don't know most of their numbers."
-hi ""
+hi "บางครั้งก็อยากไปคุยอีกรอบ แต่ฉันรู้ดีว่าคุยไม่ได้แล้ว ฉันกลัว อาย อะไรแบบนั้น อยู่ไกลเกินกว่าจะไปเจอหน้ากันได้\nแล้วก็คิดว่าโทร. ดีไหมนะ แต่ฉันก็แทบไม่มีเบอร์โทร. ใครเลย"
 
 # hi "And I left on a sour note. So why would they want to see me again?"
-hi ""
+hi "แล้วก็ใช่ว่าฉันจะจากมาแบบสวย ๆ ด้วย เรื่องอะไรพวกนั้นจะอยากเจอฉันอีก"
 
 # hi "It feels like I should just forget about it, but I still think about it anyway and regret that I didn't try harder to stay in touch somehow."
-hi ""
+hi "รู้สึกเหมือนว่าลืม ๆ ไปเสียเถอะ แต่ฉันก็ยังนึกถึงอยู่ดี แล้วไม่รู้ทำไมถึงรู้สึกผิดที่ไม่พยายามติดต่อพวกนั้น\nให้ดีกว่านี้"
 
 # hi "And I start to think that maybe feeling like I should forget about it is wrong. It would be an insult to all those people I had fun with and a waste of all the good times."
-hi ""
+hi "แล้วฉันก็เริ่มคิดว่า หรือความรู้สึกที่ว่าลืม ๆ ไปเสียเถอะน่ะไม่ถูกต้อง คิดแบบนั้นก็คงเป็นการดูถูกทุกคนที่เคยสนุก\nด้วยกันมา เป็นการเอาช่วงเวลาดี ๆ ทั้งหลายนั้นไปทิ้งให้เสียเปล่า"
 
 # hi "Like I said before, even if there are some bad times, too, it's all right if you can look back on them as happy memories."
-hi ""
+hi "อย่างที่ฉันเคยบอกนั่นแหละ ถึงจะมีจังหวะที่อะไร ๆ มันไม่ดีบ้าง แต่ก็ไม่ผิดหรอกถ้าเราจะมองย้อนนับว่าสิ่งเหล่านั้น\nเป็นความทรงจำแสนสุข"
 
 # hi "But I didn't even think about it then. So, it was like I woke up one day and realized I had no friends. I just let myself lose all my friends, and it felt awful. I'd really hate it if you and Shizune ended up the same way. That's all."
-hi ""
+hi "แต่ตอนนั้นฉันคิดไม่ได้ เลยเป็นความรู้สึกประมาณว่าวันหนึ่งตื่นมาแล้วรู้ตัวว่าไม่เหลือเพื่อนแล้ว ฉันปล่อยให้เพื่อน\nห่างหายไปดื้อ ๆ ซึ่งฉันรู้สึกแย่มาก ฉันไม่อยากให้เธอกับชิซูเนะกลายเป็นแบบนั้นไปเหมือนกัน แค่นั้นแหละ"
 
 show mishashort perky_sad_close
 with charachange
 
 # mi "“That's all~.”"
-mi ""
+mi "แค่นั้นแหละ~"
 
 # hi "It makes me sad to think that you'll do the same thing and push away your friend. Especially because you're not far away from Shizune; I mean, you even live in the same dorm."
-hi ""
+hi "พอคิดว่าเธอจะทำเหมือนกันแล้วผลักไสเพื่อนไปแล้วฉันก็เศร้าขึ้นมา แล้วยิ่งเธอไม่ได้อยู่ไกลจากชิซูเนะด้วย ก็เนี่ย\nอยู่หอเดียวกันด้วยซ้ำ"
 
 # mi "Friend, hm~…"
-mi ""
+mi "เพื่อน อืมม~…"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "Aren't you my friend, too, Hicchan?"
-mi ""
+mi "ฮิจังก็เป็นเพื่อนฉันเหมือนกันนี่"
 
 # hi "Yeah."
-hi ""
+hi "อืมฮึ"
 
 # hi "You slept through all of it, but the fireworks were really nice way back, at the festival."
-hi ""
+hi "ดอกไม้ไฟที่งานเทศกาลตอนนั้นสวยมากเลยนะ แต่เธอหลับอยู่"
 
 # hi "My first time seeing fireworks like that. And my first time really seeing the sky in a while. And, I'd never really looked at the stars before then, either."
-hi ""
+hi "เป็นครั้งแรกเลยที่ฉันได้เห็นดอกไม้ไฟแบบนั้น แล้วก็ได้เห็นท้องฟ้าแบบเต็มตาเป็นครั้งแรกเลยหลังจากที่ไม่ได้เห็น\nมานาน ก่อนหน้านั้นฉันก็ไม่เคยตั้งใจดูดาวด้วย"
 
 # "I had thumbed through a book about them while I was in the hospital, though, and learned a lot."
-""
+"แต่ตอนอยู่โรงพยาบาลฉันก็อ่านเรื่องดาวแล้วเรียนรู้อะไรหลายอย่างมาแล้วน่ะนะ"
 
 # "Like that stars aren't just burning, they're more like a constant chain of explosions, so far away that some of the stars I'd be seeing would have been burnt out for thousands of years already."
-""
+"เช่นว่าดาวฤกษ์ไม่ได้เกิดแค่จากการเผาไหม้ แต่เป็นการระเบิดต่อเนื่องแบบลูกโซ่ อยู่ห่างจากโลกมาก บางดวงที่เห็น\nตัวจริงก็ดับไปเป็นพัน ๆ ปีแล้ว"
 
 # "It's that their light would only just then be reaching Earth. I saw a mockup comparing the size of the planet to our sun, and then that to other suns. Japan wasn't even visible on the tiny Earth in that book."
-""
+"ที่เป็นแบบนั้นเพราะแสงเพิ่งเดินทางมาถึงโลก ฉันเคยเห็นแผนภาพที่เทียบขนาดดาวเคราะห์กับดวงอาทิตย์\nกับดวงอาทิตย์ดวงอื่นอยู่ มองญี่ปุ่นบนภาพโลกใบเล็กที่อยู่ในหนังสือเล่มนั้นไม่เห็นด้วยซ้ำ"
 
 # hi "You know what I'd never realized?"
-hi ""
+hi "เธอรู้มั้ยว่าตอนนั้นฉันไม่รู้อะไร"
 
 show mishashort perky_smile_close
 with charachange
 
 # "She looks at me expectantly."
-""
+"มิช่ามองรอคำตอบจากฉัน"
 
 # hi "They're amazingly shiny."
-hi ""
+hi "ไม่รู้ว่ามันส่องสว่างเหลือเชื่อ"
 
 show mishashort hips_grin_close
 with charachange
 
 # mi "Ahahaha~."
-mi ""
+mi "อะฮ่าฮ่าฮ่า~"
 
 # hi "It's true."
-hi ""
+hi "จริง ๆ นะ"
 
 show mishashort perky_confused_close
 with charachange
 
 # mi "Why're you doing this, Hicchan?"
-mi ""
+mi "นายทำแบบนี้ทำไมฮิจัง"
 
 # hi "Doing what?"
-hi ""
+hi "ทำอะไร"
 
 show mishashort cross_frown_close
 with charachange
 
 # mi "I'm not stupid."
-mi ""
+mi "ฉันไม่ได้โง่นะ"
 
 # hi "I don't know. A bunch of reasons. Because you're Shizune's friend? And I liked how close you were? And maybe I'm trying to tell you that we all have our low points, but giving up is stupid. Anyway, it seems worth the trouble."
-hi ""
+hi "ไม่รู้สิ ก็หลายเหตุผล เพราะเธอเป็นเพื่อนชิซูเนะ? เพราะเห็นว่าเธอสองคนสนิทกันดี? แล้วก็อาจจะเพราะอยาก\nบอกเธอว่าคนเราต่างมีจุดตกอับในชีวิตกันบ้าง แต่จะถอดใจยอมแพ้เลยก็ไร้สาระ นั่นแหละ ก็ดูคุ้มที่จะลงแรงดี"
 
 show mishashort sign_smile_close
 with charachange
 
 # mi "That's the only reason?"
-mi ""
+mi "แค่นั้นเองเหรอ"
 
 # hi "And you're my friend."
-hi ""
+hi "แล้วก็เพราะเธอเป็นเพื่อนฉัน"
 
 show mishashort hips_smile_close
 with charachange
 
 # mi "That's it?"
-mi ""
+mi "แค่นั้น?"
 
 # hi "Can't I do something for no reason?"
-hi ""
+hi "ขอฉันทำอะไรแบบไม่มีเหตุผลไม่ได้หรือไง"
 
 show mishashort hips_grin_close
 with charachange
 
 # mi "Wahaha~. You can, you can~, but~, I want to know."
-mi ""
+mi "วะฮ่าฮ่า~ ได้สิ ได้สิ~ แต่ว่า~ ฉันอยากรู้นี่นา"
 
 # hi "Well, what else do you want to hear?"
-hi ""
+hi "แล้วอยากให้บอกว่าอะไรอีกล่ะ"
 
 play sound sfx_warningbell
 stop music fadeout 3.0
 
 # "The bell rings before Misha can reply, so she ends up laughing instead."
-""
+"ระฆังดังก่อนที่มิช่าจะทันได้ตอบ เธอจึงหัวเราะแทน"
 
 scene black
 with dissolve
