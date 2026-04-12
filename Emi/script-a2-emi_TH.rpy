@@ -1396,23 +1396,30 @@ play sound sfx_normalbell
 
 "Another day of class has finally dragged itself to a close."
 
-"Unexpectedly, I managed to stay awake for the whole day."
 
-"I'm pretty sure that counts as a miracle."
+# "Unexpectedly, I managed to stay awake for the whole day."
+"ไม่คิดไม่ฝันเลยว่าตัวเองจะลืมตาตื่นได้จนหมดวัน"
 
-"My legs seem unwilling to stand up for a moment."
+# "I'm pretty sure that counts as a miracle."
+"ให้เรียกว่าเป็นปาฏิหาริย์ได้เลย"
 
-"I guess the run took a lot out of me."
+# "My legs seem unwilling to stand up for a moment."
+"ขาทั้งสองของฉันเหมือนขัดขืนที่จะยืนขึ้น"
+
+# "I guess the run took a lot out of me."
+"การวิ่งคงดึงเอาแรงออกไปจากฉันจนหมดแล้ว"
 
 scene bg school_hallway3
 with locationchange
 
-"I head down the hallway and make my way to my room."
+# "I head down the hallway and make my way to my room."
+"ฉันเดินไปตามโถงทางทางเดิน มุ่งหน้าไปยังห้องของตัวเอง"
 
 scene bg school_dormhisao
 with locationskip
 
-"I sit down and half-heartedly chip away at my homework for a while, feeling like a vulture picking at a particularly unsavory carcass."
+# "I sit down and half-heartedly chip away at my homework for a while, feeling like a vulture picking at a particularly unsavory carcass."
+"ฉันนั่งลงแล้วทำการจัดแยกการบ้านของตัวเองอยู่พักหนึ่ง รู้สึกเหมือนตัวเองเป็นอีแร้งที่กำลังเลือกสรรกินซากที่ต่างก็ไม่น่าพิสมัยทั้งสิ้นแม้แต่ชิ้นเดียว"
 
 "It knows this is what it eats, but it's not sure that it shouldn't be ordering takeout instead."
 
@@ -1422,39 +1429,52 @@ hi "Now let's see… what was I supposed to be looking over again?"
 
 "I know it's a losing battle, but I fight it anyway."
 
-"Halfway through my math homework, I put my pencil down."
+# "Halfway through my math homework, I put my pencil down."
+"หลังจากทำการบ้านวิชาคณิตศาสตร์ไปได้ครึ่งนึง ฉันก็วางดินสอของตัวเองลง"
 
-"This isn't working. I need a distraction."
+# "This isn't working. I need a distraction."
+"ไม่ไหว ฉันรู้สึกต้องการสิ่งบันเทิงใจอย่างยิ่งยวด"
 
-"Unfortunately, my options for distractions are rather slim."
+# "Unfortunately, my options for distractions are rather slim."
+"โชคไม่ดีที่ฉันมีตัวเลือกไม่มากนัก"
 
-"I'm not in the mood to read, right now."
+# "I'm not in the mood to read, right now."
+"ตอนนี้ก็ไม่รู้สึกอยากอ่านหนังสือด้วย"
 
-"Kenji is, unusually, out of his room at the moment."
+# "Kenji is, unusually, out of his room at the moment."
+"ส่วนเคนจิก็ออกไปข้างนอก"
 
-"If I go to the student council room, I'll just end up doing work for those two."
+# "If I go to the student council room, I'll just end up doing work for those two."
+"ถ้าไปที่ห้องสภานักเรียนก็คงหนีชะตาต้องช่วยงานสองคนนั้นไม่พ้น"
 
 "And heaven only knows where everyone else is, except for…"
+"ส่วนคนอื่น ๆ นอกจากนั้นก็คงมีแค่สวรรค์ที่รู้ว่าอยู่ไหนกัน เว้นแต่..."
 
-"Well, I suppose that's an option."
+# "Well, I suppose that's an option."
+"อืม คิดว่าเป็นตัวเลือกนึงได้อยู่แหละ"
 
-"I grab my shoes and head for the track. Emi's probably down there."
+# "I grab my shoes and head for the track. Emi's probably down there."
+"ฉันสวมรองเท้าแล้วมุ่งหน้าไปยังสนามวิ่ง เอมิคงอยู่ที่นั่น"
 
 play music music_tranquil fadein 3.0
 
 scene bg school_track_ss
 with locationskip
 
-"Track practice is just ending as I arrive at the track."
+# "Track practice is just ending as I arrive at the track."
+"การซ้อมวื่งเพิ่งจบลงพอดีกับตอนที่ฉันเดินมาถึงที่สนาม"
 
-"The sun's beginning to dip low in the sky."
+# "The sun's beginning to dip low in the sky."
+"ดวงอาทิตย์บนฟ้าเริ่มคล้อยต่ำลงแล้ว"
 
-"Has it really gotten that late already?"
+# "Has it really gotten that late already?"
+"มืดค่ำขนาดนี้แล้วเหรอเนี่ย?"
 
 show emi basic_grin_gym_ss at center
 with charaenter
 
-emi "What are you doing down here, Hisao?"
+# emi "What are you doing down here, Hisao?"
+emi "ลงมาทำอะไรอยู่นี่ล่ะ ฮิซาโอะ?"
 
 show emi excited_proud_gym_ss
 with charachange
@@ -1463,7 +1483,7 @@ with charachange
 emi "แอบมาส่องฉันเหรอ?"
 
 # "I give a shrug. To be honest, I'm not sure why I'm down here."
-"ฉันยักไหล่ ที่จริงก็ไม่รู้ด้วยซ้ำว่ามาที่นี่ทำไม"
+"ฉันยักไหล่ตอบกลับไป ที่จริงก็ไม่รู้ด้วยซ้ำว่ามาที่นี่ทำไม"
 
 # hi "I didn't have anything better to do."
 hi "ไม่มีอะไรดีกว่านี้ให้ทำก็เลยมาที่นี่น่ะ"
@@ -1472,7 +1492,7 @@ hi "ไม่มีอะไรดีกว่านี้ให้ทำก็�
 "พูดอย่างนั้นก็คงไม่ผิดนัก"
 
 # "At the moment, Emi's the only person I can think of who I could visit."
-"เอมิเป็นเพียงคนเดียวที่ฉันคิดว่าสามารถมาหาเธอได้"
+"เอมิเป็นเพียงคนเดียวที่ฉันคิดว่าสามารถมาหาเธอได้ในเวลานี้"
 
 show emi basic_annoyed_gym_ss
 with charachange
@@ -1516,7 +1536,8 @@ hi "ไม่ได้หมายความว่าอย่างนั้�
 # hi "Why would I stalk you anyway? It's not like you require stalking."
 hi "ฉันจะตามสตอล์กเธอทำไม? ไม่ใช่ว่าเธอมีความจำเป็นที่จะต้องถูกติดตามสักหน่อย"
 
-hi "If you're not asleep or in class, you're down here, right?"
+# hi "If you're not asleep or in class, you're down here, right?"
+hi "เธอน่ะถ้าไม่ได้นอนอยู่หรือว่าอยู่ในห้องเรียน ก็มีแต่ต้องมาที่นี่เท่านั้น ใช่มั้ยล่ะ?"
 
 "Emi laughs at this comment."
 
