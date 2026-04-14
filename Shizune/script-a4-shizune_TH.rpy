@@ -3630,34 +3630,34 @@ with locationchange
 play music music_ease
 
 # hi "…And remember, you have to take this job seriously. Too many people think you can just slack off, and that it isn't important. That is a dangerous way of thinking."
-hi ""
+hi "…และอย่าลืมว่าขอให้จริงจังกับงานนี้ มีหลายคนคิดว่าจะอู้ยังไงก็ได้เพราะเป็นเรื่องไม่สำคัญ ซึ่งเป็นความคิดที่\nอันตรายมาก"
 
 show mishashort cross_frown_close_ss
 with charachange
 
 # mi "Definitely~. You can't take it too seriously~! If you aren't always thinking big, thinking positive, and if you show any signs of weakness, people will start to think you're incompetent, you know~."
-mi ""
+mi "ใช่เลย~ ไม่มีคำว่าจริงจังเกินไปหรอกนะ~! ถ้าไม่ฝันให้ใหญ่ ไม่คิดให้บวก ออกอาการว่าอ่อนแอ คนจะคิดว่าเรา\nเป็นพวกไม่มีน้ำยาเอาได้นะ~"
 
 show mishashort sign_confused_close_ss
 with charachange
 
 # mi "And soon you won't be able to do anything because your power is going to be delegated off to others piece by piece, and you'll be left with nothing. That's what happened last time~."
-mi ""
+mi "แล้วไม่นานอำนาจของเราก็จะหายไปเพราะตกไปอยู่กับคนอื่นทีละเล็กละน้อย สุดท้ายเราก็จะไม่เหลืออะไรเลย\nคราวที่แล้วก็เป็นแบบนั้น~"
 
 show mishashort hips_grin_close_ss
 with charachange
 
 # mi "So~! Remember~, it may seem like an easy job, but a lot of carnage can happen in this room. Ahaha~. And~, out of it. Dealing with school staff, too! Even trying to get a budget report from a class rep can be a fight to the death~, sometimes."
-mi ""
+mi "เพราะงั้น~! จำไว้~ อาจดูเหมือนเป็นงานง่าย ๆ แต่ในห้องนี้ก็อาจมีการถล่มกันเกิดขึ้นได้ อะฮ่าฮ่า~ แล้วก็~\nนอกห้องก็เกิดได้ด้วย ไหนจะต้องรับมือกับคนของทางโรงเรียนอีก! แม้แต่การไปขอรายงานงบประมาณจากหัวหน้าห้อง\nก็อาจกลายเป็นศึกชิงเลือดกันได้เลยนะ~ บางที"
 
 # hi "…Yeah. It's kill or be killed. There are no friends in the pits and you take no prisoners. …Are you sure about this? Is this right?"
-hi ""
+hi "…ใช่ หลักการของที่นี่คือไม่ฆ่าก็ถูกฆ่า ***** …เธอแน่ใจแล้วเหรอ ให้พูดแบบนี้ใช่มั้ย"
 
 show shizu basic_angry_close_ss
 with charachange
 
 # ssh "You don't seem excited enough, I have to make sure it's getting through properly. Once more, with feeling!"
-ssh ""
+ssh "นายยังดูตื่นเต้นไม่พอนะ ฉันต้องดูให้แน่ใจว่าข้อความที่จะสื่อน่ะส่งผ่านไปโดยสมบูรณ์หรือยัง อีกรอบ\nใส่อารมณ์เข้าไป!"
 
 show aoi_keiko:
     yalign 1.0 xanchor 0.5 xpos 0.0 alpha 0.0
@@ -3674,22 +3674,22 @@ show aoi_keiko:
 with Dissolvemove(0.5)
 
 # "Shizune twists her hands like a maestro for emphasis, visibly intimidating the two girls standing at attention in front of us. To think this all started because one of them asked if she wasn't taking her job too seriously."
-""
+"ชิซูเนะบิดมืออย่างวาทยกรเป็นการเน้น ซึ่งทำให้สองสาวที่อยู่ตรงหน้าเรานั้นมีท่าทีกลัวอย่างเห็นได้ชัด เหลือเชื่อมาก\nเพราะเรื่องทั้งหมดนี้เกิดขึ้นแค่เพราะมีคนหนึ่งถามว่าตัวเองจริงจังกับงานนี้ไปมั้ย"
 
 # ssh "Do you understand!?"
-ssh ""
+ssh "เข้าใจมั้ย!"
 
 # hi "Do you understand? Pretend I'm shouting it."
-hi ""
+hi "เข้าใจมั้ย แกล้งทำเป็นว่าฉันตะโกนนะ"
 
 # "Aoi" "Okay, okay! Aaargh! This Student Council is so weird."
-""
+thname ("อาโออิ") "โอเค โอเค! อ๊าาาา! สภานักเรียนที่นี่แปลกจัง"
 
 # "Keiko" "Yes, sir."
-""
+thname ("เคโกะ") "ค่ะท่าน"
 
 # hi "“Sir?” Who are you guys talking to, anyway?"
-hi ""
+hi "“ท่าน”? นี่พวกเธอคุยกับใครอยู่เนี่ย"
 
 play sound sfx_flash
 
@@ -3701,7 +3701,7 @@ show aoi_keiko:
 with Dissolvemove(0.5)
 
 # ssh "It's not weird! You have to think of it as a job. If you want, think of it like they are paying you with the right to use this great office."
-ssh ""
+ssh "ไม่แปลกสักหน่อย! พวกเธอต้องมองว่าเป็นงานสิ หรือจะมองว่าเป็นงานที่เขาให้ผลตอบแทนเป็นการให้สิทธิ์\nใช้สำนักงานอันยิ่งใหญ่แห่งนี้ก็ได้"
 
 play sound sfx_flash
 
@@ -3714,13 +3714,13 @@ show aoi_keiko:
 with Dissolvemove(0.5)
 
 # hi "You want another lecture?"
-hi ""
+hi "อยากให้พูดอีกมั้ย"
 
 # "Aoi" "Noooo…"
-""
+thname ("อาโออิ") "ม่าาาาาย…"
 
 # ssh "You can go now."
-ssh ""
+ssh "ไปได้"
 
 stop music fadeout 5.0
 
@@ -3731,10 +3731,10 @@ show mishashort perky_smile_ss:
 with shorttimeskip
 
 # "Just like that, the hour-long student council orientation is over. Personally, I thought it was about fifty minutes too long, and also found it funny that it incorporated a tour of a school that we have all been going to for a while, but I guess it didn't hurt."
-""
+"และแล้วการปฐมนิเทศสภานักเรียนที่กินเวลาไปหนึ่งชั่วโมงก็สิ้นสุดลง แต่ฉันรู้สึกว่านานเกินกว่าความจำเป็น\nไปสักห้าสิบนาทีได้ แล้วก็ตลกดีที่ในการปฐมนิเทศมีการพาเดินตระเวนรอบโรงเรียนอย่างที่พวกเราทำกันมาสักพักแล้ว\nแต่ก็คงไม่เสียหายอะไรมั้ง"
 
 # "I expect Shizune to fall back into her chair, since she has been on edge all day, but she doesn't. She continues pacing the room restlessly."
-""
+"ฉันคิดไว้ว่าชิซูเนะคงหย่อนตัวลงนั่งที่เก้าอี้เพราะยืนอย่างจดจ่อมาทั้งวันแล้ว แต่ก็ไม่นั่ง เธอยังคงเดินไปรอบห้อง\nอย่างกระวนกระวายใจ"
 
 show shizu invis:
     center
@@ -3747,7 +3747,7 @@ show shizu adjust_frown_ss at tworight
 with dissolvecharamove
 
 # ssh "They still have a long way to go! Right now, they're a joke."
-ssh ""
+ssh "ยังอีกนานเลยกว่าจะใช้ได้! ตอนนี้สภาพยังเหลวเป๋วอยู่"
 
 show mishashort sign_confused_ss:
     twoleft
@@ -3755,22 +3755,22 @@ show mishashort sign_confused_ss:
 with charachange
 
 # mi "Eh?"
-mi ""
+mi "เอ๊ะ"
 
 # hi "What?"
-hi ""
+hi "อะไร"
 
 show shizu behind_frustrated_ss
 with charachange
 
 # ssh "They think they can be the new Student Council? They're so unfocused. You can really see the lack of experience. This was our best year yet; I don't think they have what it takes to be our follow-up act."
-ssh ""
+ssh "คิดเหรอว่าจะมาเป็นสภานักเรียนรุ่นใหม่ได้ ไม่มีเป้าหมายชัดเจนเลย เห็นแล้วก็รู้ว่ายังขาดประสบการณ์ ปีนี้เป็นปี\nที่ดีที่สุดแล้ว ฉันว่าพวกนั้นยังไม่ดีพอจะมาสานต่อจากเราได้"
 
 show shizu basic_frown_ss
 with charachange
 
 # ssh "And I know there are more of them than those two girls. Where are they? They're like the heavily-marketed but mediocre, big-budget, critically-panned sequel to the acclaimed, low-budget sleeper hit."
-ssh ""
+ssh "และฉันรู้ว่ายังมีคนอื่นอีกนอกจากสองคนนั้น อยู่ไหนกันหมด สองคนนั้นดูแล้วเหมือนหนังภาคต่อทุ่มทุนสร้าง\nที่ทำการตลาดหนัก ๆ แต่มีแต่คนด่า ซึ่งหนังภาคก่อนหน้าเป็นหนังดีทุนต่ำที่มีแต่คนยกย่องแถมไม่ได้ทำการตลาด\nอะไรมากมายเลย"
 
 show mishashort perky_confused_ss
 show shizu behind_blank_ss:
@@ -3778,125 +3778,125 @@ show shizu behind_blank_ss:
 with dissolvecharamove
 
 # "Eventually, she does stop and sit down."
-""
+"สุดท้ายชิซูเนะก็นั่งพัก"
 
 # hi "Are you going to miss it?"
-hi ""
+hi "เธอคงจะคิดถึงสภานักเรียนน่าดูเลยสินะ"
 
 show shizu basic_normal_ss
 with charachange
 
 # ssh "Obviously."
-ssh ""
+ssh "แหงสิ"
 
 show mishashort perky_sad_ss
 with charachange
 
 # mi "Hm~… I'd be happier if I didn't have to leave, too."
-mi ""
+mi "อืม~… ฉันก็เหมือนกัน ฉันคงมีความสุขกว่านี้ถ้าได้อยู่ต่อ"
 
 show mishashort hips_smile_ss
 with charachange
 
 # mi "I like being in the Student Council, even if it can be tiring, too."
-mi ""
+mi "ฉันชอบอยู่ในสภานักเรียนนะ ถึงบางทีจะอยู่แล้วเหนื่อยก็เถอะ"
 
 # hi "Yeah, it's definitely tiring."
-hi ""
+hi "อืม เหนื่อยจริงแหละ"
 
 show mishashort hips_grin_ss
 with charachange
 
 # mi "Only because Shicchan is always trying to do more than she has to~."
-mi ""
+mi "ก็เพราะชิจังคอยทำอะไรเกินกว่าความจำเป็นตลอดเลย~"
 
 show shizu adjust_frown_ss
 with charachange
 
 # ssh "You're forgetting that if I did the bare minimum, we wouldn't do anything all year except hand out flyers, collect surveys, and plan the next student council election so the next Student Council could sit around for another year of doing nothing."
-ssh ""
+ssh "พวกเธอลืมนึกไปนะว่าถ้าฉันทำแค่เท่าที่จำเป็นเราก็คงแทบไม่ต้องทำอะไรเลยตลอดปีการศึกษา จะมีก็แต่\nแจกเอกสาร ทำแบบสำรวจ แล้วก็วางแผนสำหรับการเลือกตั้งสภานักเรียนรุ่นถัดไปเพื่อให้รุ่นถัดไปที่ว่าเข้ามานั่งอยู่เฉย ๆ\nไปอีกปี"
 
 show shizu behind_frown_ss
 with charachange
 
 # ssh "Asking me to let that happen? Don't be ridiculous. In a Student Council like that there wouldn't even be any power to play around with."
-ssh ""
+ssh "แล้วคนอย่างฉันมีเหรอจะปล่อยให้เป็นอย่างนั้น พูดอะไรไร้สาระ สภานักเรียนแบบนั้นน่ะไม่มีอำนาจอะไรให้ใช้\nได้หรอก"
 
 show shizu adjust_happy_ss
 with charachange
 
 # ssh "I'm just happy that even though I clearly need to ride them harder, those two aren't bad. Not there yet, but the new Student Council should be in good hands."
-ssh ""
+ssh "แต่ฉันก็ดีใจนะที่สองคนนั้นก็ไม่ได้แย่ ถึงฉันจะยังกดดันไม่พอก็เถอะ ยังไม่ดีพอ แต่สภานักเรียนรุ่นใหม่ก็ดูจะ\nมั่นคงละนะ"
 
 # hi "How can you tell?"
-hi ""
+hi "รู้ได้ยังไง"
 
 show shizu behind_smile_ss
 with charachange
 
 # ssh "After the festival, they asked me if we could also organize a Halloween event, like a haunted house or something along those lines. They had a bunch of other ideas, as well."
-ssh ""
+ssh "หลังเลิกงานเทศกาลแล้วพวกนั้นก็มาถามว่าให้จัดงานวันฮาโลวีนด้วยได้มั้ย เหมือนจะเป็นบ้านผีสิงหรืออะไร\nนี่แหละมั้ง แล้วก็คิดจะทำอะไรอย่างอื่นหลายอย่างด้วย"
 
 show shizu adjust_smug_ss
 with charachange
 
 # ssh "Of course my response was “no.” I had Misha tell them to do it themselves, if they wanted it so badly. They were angry, for some reason."
-ssh ""
+ssh "ซึ่งแน่นอนว่าฉันตอบว่า “ไม่” ฉันฝากมิช่าให้บอกว่าไปทำกันเองนะถ้าอยากให้มีขนาดนั้น แต่ไม่รู้ทำไมถึงโกรธ"
 
 show mishashort cross_laugh_ss
 with charachange
 
 # mi "Ahaha~."
-mi ""
+mi "อะฮ่าฮ่า~"
 
 # hi "Of course they'd be angry if you said that."
-hi ""
+hi "พูดแบบนั้นก็โกรธสิ"
 
 # "And Misha delivering the message wouldn't help."
-""
+"แล้วยิ่งให้มิช่าเป็นคนพูดด้วย"
 
 show mishashort cross_smile_ss
 show shizu behind_blank_ss
 with charachange
 
 # ssh "I was angry too."
-ssh ""
+ssh "ฉันก็โกรธเหมือนกัน"
 
 show shizu basic_frown_ss
 with charachange
 
 # ssh "All of a sudden, they want so much. If they wanted a haunted house, or a traditional-style café, or a trip to the beach, or whatever other cliché thing, why didn't they try to organize it before? It was like they were taking advantage of me."
-ssh ""
+ssh "อยู่ ๆ ก็มาเรียกร้องอะไรเยอะแยะ ถ้าอยากได้บ้านผีสิง คาเฟตามแบบดั้งเดิม ทริปเที่ยวทะเล หรืออะไรก็ช่าง\nที่โรงเรียนอื่นเขาทำกัน ทำไมก่อนหน้านี้ไม่ลองจัดกันเองล่ะ คงกะจะมายืมแรงฉันให้ทำสิท่า"
 
 show shizu behind_frown_ss
 with charachange
 
 # ssh "I worked hard to organize those festivals, and in return they came to me with “That was nice, but can you do this now? How about doing this? It's what I really want.”"
-ssh ""
+ssh "ฉันลงแรงไปตั้งเยอะกับการจัดงานเทศกาลพวกนี้ แล้วมาตอบแทนกันด้วยการบอกว่า “เยี่ยมเลย งั้นเดี๋ยวทำนี่อีกสิ\nอันนี้เป็นไง อันนี้แหละที่อยากได้มาก”"
 
 show mishashort sign_smile_ss
 with charachange
 
 # mi "Shicchan was wrong~, though."
-mi ""
+mi "แต่ชิจังคิดผิด~ นะ"
 
 show shizu basic_happy_ss
 with charachange
 
 # ssh "Right. They wanted to join the Student Council so they could make it happen. I made them feel jealous and riled them up. That can be a kind of motivation too."
-ssh ""
+ssh "ใช่ พวกนั้นมาเป็นสภานักเรียนเพราะอยากทำให้สิ่งเหล่านั้นเกิดขึ้นได้ ฉันยั่วโมโหทำให้พวกนั้นอิจฉา ซึ่งก็นับว่า\nเป็นแรงกระตุ้นได้เหมือนกัน"
 
 show shizu adjust_happy_ss
 with charachange
 
 # ssh "The desire to do something great spreads, even if it's to show me up. They decided to take me up on the challenge nonetheless."
-ssh ""
+ssh "ความปรารถนาที่จะทำสิ่งดี ๆ ก็แพร่กระจายไป ถึงจะเป็นการทำเพื่อแสดงให้เห็นว่าตัวเองดีกว่าฉันก็เถอะ แต่ยังไง\nพวกนั้นก็รับคำท้าฉันละนะ"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "I'm impressed. Well, for now. I would have to see how it plays out a little longer in order to know for sure."
-ssh ""
+ssh "ฉันประทับใจมาก เท่าที่เห็นน่ะนะ ยังไงก็ต้องรอดูอีกสักระยะให้แน่ใจว่าจะออกหัวหรือออกก้อย"
 
 play sound sfx_snap
 
@@ -3907,100 +3907,99 @@ show mishashort perky_confused_ss:
 with vpunch
 
 # "She snaps her fingers suddenly, which sends Misha almost bolting out of her seat. Interesting, I guess it is impossible to get used to."
-""
+"อยู่ ๆ ชิซูเนะก็ดีดนิ้วจนมิช่าพุ่งตัวลุกจากที่นั่ง น่าสนใจดี ดังขนาดนี้ฟังกี่รอบก็คงไม่ชิน"
 
 show shizu basic_happy_ss
 with charachange
 
 # ssh "That's right! We were going to have a party to celebrate passing the reins to the new Student Council, weren't we? Why not have that now? Or at least plan it now, and have it tomorrow."
-ssh ""
+ssh "จริงด้วย! เราจะจัดงานเลี้ยงฉลองที่ได้ส่งไม้ต่อให้สภานักเรียนรุ่นใหม่กันนี่ งั้นจัดตอนนี้เลยมั้ยล่ะ หรืออย่างน้อย\nจะวางแผนไว้ตอนนี้แล้วค่อยจัดวันพรุ่งนี้ดี"
 
 # hi "But they're not even in charge yet. In fact, that's the first thing you told them: “You're not in charge yet.” It seems premature."
-hi ""
+hi "แต่พวกนั้นยังไม่ได้เข้ามาเป็นเลยด้วยซ้ำนะ แล้วเธอก็บอกก่อนเลยด้วยว่า “พวกเธอยังไม่ได้เป็นสภานักเรียนนะ” จะจัดตอนนี้เลยก็ดูเร็วไปหน่อย"
 
 show shizu adjust_frown_ss
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "Misha, what do you think?"
-ssh ""
+ssh "มิช่า เธอว่าไง"
 
 show mishashort hips_smile_ss
 with charachange
 
 # mi "Hmmm~, I agree, it's too early. Plus~, I don't think I could go anyway. Sorry~! In fact, I was going to leave right now."
-mi ""
+mi "อืมมม~ ฉันเห็นด้วยนะว่ายังเร็วไป อีกอย่าง~ ฉันน่าจะไปร่วมไม่ได้ด้วย ขอโทษทีนะ~! ที่จริงก็จะไปตอนนี้\nแล้วแหละ"
 
 # ssh "Why not?"
-ssh ""
+ssh "ทำไมมาร่วมไม่ได้"
 
 show mishashort hips_grin_ss
 with charachange
 
 # mi "No~ comment~!"
-mi ""
+mi "โน~ คอมเมนต์~!"
 
 show shizu adjust_frown_ss
 with charachange
 
 # ssh "Come on, tell me."
-ssh ""
+ssh "ไม่เอาน่า บอกฉันมา"
 
 show mishashort perky_confused_ss
 with charachange
 
 # mi "Well… okay~!"
-mi ""
+mi "เอ่อ… ก็ได้~!"
 
 # "Way to not crack under pressure, Misha."
-""
+"ทนแรงกดดันได้ดีจริงเลยนะมิช่า"
 
 show mishashort sign_confused_ss
 with charachange
 
 # mi "I thought about it, and~… Even if I didn't want to go, I would say yes~! Usually~. It's the kind of person I am. I really should stop doing that, and this is a good place to start, I think."
-mi ""
+mi "ฉันไปคิดมาแล้ว แล้วก็~… ต่อให้ฉันไม่อยากไปฉันก็จะตอบตกลงอยู่ดี~! ปกตินะ~ ฉันเป็นคนแบบนั้นแหละ\nฉันต้องเลิกทำแบบนั้นสักที แล้วคราวนี้แหละคือจุดเริ่มต้นที่ดีเลย คิดว่านะ"
 
 show mishashort perky_sad_ss
 with charachange
 
 # mi "If it's a celebration to say goodbye, I don't want it. It would be too sad~. I want to do something else instead. And after all, Hicchan, you and Shicchan will still be here tomorrow. It doesn't seem right."
-mi ""
+mi "ต่อให้เป็นงานเลี้ยงอำลาฉันก็ไม่อยากร่วมหรอก คงเศร้าแย่เลย~ ฉันอยากทำอย่างอื่นมากกว่า แล้วยังไงเสีย พรุ่งนี้\nทั้งฮิจังกับชิจังก็ยังอยู่ จะจัดงานเลี้ยงแบบนั้นก็ยังไงอยู่"
 
 show mishashort hips_grin_ss
 with charachange
 
 # mi "Besides, I have other school things I have to do today~! I can't drop them just like that."
-mi ""
+mi "อีกอย่าง วันนี้ฉันมีธุระเรื่องโรงเรียนอย่างอื่นต้องไปจัดการอีก~! จะให้ทิ้งไปดื้อ ๆ เลยไม่ได้หรอก"
 
 show shizu adjust_frown_ss
 with charachange
 
 # ssh "We can postpone it."
-ssh ""
+ssh "เลื่อนไปก่อนก็ได้นี่"
 
 show mishashort hips_frown_ss
 with charachange
 
 # mi "No. No early goodbyes~!"
-mi ""
+mi "ไม่ ไม่ลาล่วงหน้า~!"
 
 # "She looks very firm as she says this."
-""
+"มิช่าพูดด้วยท่าทีหนักแน่น"
 
 # hi "Aren't you going to go now, though?"
-hi ""
+hi "แล้วไหนบอกจะไปแล้ว"
 
 show mishashort hips_grin_ss
 with charachange
 
 # mi "Hm~? Oh, that's right~! Wahaha~!"
-mi ""
+mi "หืม~ อ้อ จริงด้วย~! วะฮ่าฮ่า~!"
 
 show mishashort perky_smile_ss at twoleft
 with Dissolvemove(0.7)
@@ -4009,19 +4008,19 @@ show mishashort sign_smile_ss
 with charachange
 
 # mi "Okay, besides now, no too-early goodbyes, okay?"
-mi ""
+mi "โอเค ไม่นับเรื่องเมื่อกี้ ไม่เอาการลาล่วงหน้านะ โอเคนะ"
 
 show shizu behind_blank_ss
 with charachange
 
 # ssh "I get it."
-ssh ""
+ssh "เข้าใจแล้ว"
 
 show mishashort hips_grin_ss
 with charachange
 
 # mi "Okay, later~!"
-mi ""
+mi "โอเค เจอกัน~!"
 
 stop music fadeout 4.0
 
@@ -4044,14 +4043,14 @@ show shizu behind_blank_ss:
 with None
 
 # "With that, it's just Shizune and me left alone in the student council room."
-""
+"แล้วในห้องสภานักเรียนแห่งนี้ก็เหลือเพียงชิซูเนะกับฉันอยู่ตามลำพัง"
 
 play music music_dreamy fadein 4.0
 
 with Pause(2.0)
 
 # "Sunset slowly changes to night as we sit in silence, both searching for something to say."
-""
+"อาทิตย์อัสดงคล้อยต่ำเปลี่ยนเวลาผ่านเป็นกลางคืน พวกเราต่างนั่งกันเงียบ ๆ นึกหาเรื่องคุย"
 
 show bg school_council_ni at bgleft
 show shizu adjust_frown:
@@ -4060,70 +4059,70 @@ show shizu adjust_frown:
 with Dissolvemove(0.5)
 
 # ssh "Would it really be that bad?"
-ssh ""
+ssh "มันไม่ดีขนาดนั้นเลยเหรอ"
 
 # his "Yeah. I didn't think about it like that, but Misha's right. Parties set a mood, and it would be a sad one. A sad party doesn't sound like a whole lot of fun."
-his ""
+his "อืม ฉันก็ไม่เคยคิดมุมนั้นหรอก แต่มิช่าพูดถูกนะ งานเลี้ยงเป็นตัวกำหนดอารมณ์ ซึ่งอารมณ์ที่ว่าคือความเศร้าด้วย\nและงานเลี้ยงเศร้า ๆ ก็ฟังดูไม่ค่อยสนุกเท่าไหร่เลยนะ"
 
 show shizu basic_angry
 with charachange
 
 # ssh "Why would it be sad?"
-ssh ""
+ssh "ทำไมถึงเศร้าล่ะ"
 
 # "Is it a trick question? I'm sure of it. Shizune's eyes pierce into mine, waiting for my answer with a detached, analytical stare that I haven't seen in a while, but feels familiar anyway."
-""
+"ถามหยั่งเชิงหรือเปล่า ต้องใช่แน่ ๆ ชิซูเนะมองเข้ามาในตาฉันรอคำตอบด้วยสายตาเรียบนิ่งเพ่งพินิจที่ฉันไม่ได้เห็น\nมาสักพักแล้ว แต่ก็เป็นสายตาที่คุ้นเคยดี"
 
 # "I consider my answer carefully, but also what it means for her to ask me."
-""
+"ฉันพิจารณาคำตอบอย่างถี่ถ้วนพลางคิดไปถึงเจตนาของชิซูเนะที่ถามด้วย"
 
 # "It could be that Shizune finds it depressing as well. Or it could be that she doesn't understand why anyone would find it depressing. Both are equally plausible."
-""
+"อาจจะเพราะชิซูเนะเองก็เศร้าเหมือนกัน หรืออาจจะเพราะไม่เข้าใจว่าทำไมคนถึงคิดว่าเศร้า ทั้งสองทางดูจะเป็นไปได้\nเท่า ๆ กัน"
 
 # his "I had a thought that when you graduate, that's it. It's going to be the end of the Student Council. I was wondering if you had the same idea."
-his ""
+his "ฉันมีความคิดพอเรียนจบแล้วก็คือจบกันเลย เป็นจุดจบของสภานักเรียนด้วย ฉันอยากรู้ว่าเธอคิดเหมือนกันหรือเปล่า"
 
 show shizu behind_frown
 with charachange
 
 # ssh "Don't be stupid. I look forward to it. I won't be a student any more, so the expectations are going to be completely different. People's expectations of me, and my expectations about everything else. It seems exciting!"
-ssh ""
+ssh "ถามอะไรโง่ ๆ ฉันตั้งตาคอยจะตาย ฉันจะไม่ได้เป็นนักเรียนแล้ว ความคาดหวังอะไรก็จะเปลี่ยนไป ทั้ง\nความคาดหวังจากคนอื่นที่มีต่อฉัน ทั้งความคาดหวังจากฉันที่มีต่ออย่างอื่น น่าตื่นเต้นจะตายไป!"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "As for the Student Council, it should be in good enough hands. I don't have anything to be sad about."
-ssh ""
+ssh "ส่วนเรื่องสภานักเรียนฉันก็เห็นว่าน่าจะมั่นคงพอแล้ว ไม่ต้องมีอะไรให้เศร้าอีก"
 
 # his "I don't think you're being honest. You looked upset about having to give the Student Council up not even a few weeks ago. It wasn't about leaving it to a bunch of newbies either, it was having to stop doing student council work at all."
-his ""
+his "ฉันว่าเธอไม่ได้รู้สึกแบบนั้นจริง ๆ หรอก เมื่อสองสามสัปดาห์ก่อนยังเห็นซึม ๆ ที่ต้องลาจากสภานักเรียนไป\nไม่ใช่เพราะต้องยกให้พวกหน้าใหม่ด้วย แต่เพราะจะไม่ได้ทำงานสภานักเรียนแล้วนี่แหละ"
 
 show shizu behind_smile
 with charachange
 
 # "Unexpectedly, Shizune smiles."
-""
+"ฉันแปลกใจที่ชิซูเนะยิ้ม"
 
 # his "So, you're not disagreeing."
-his ""
+his "ก็คือไม่เถียงสินะ"
 
 # his "Then it doesn't make sense. Why would you want to have a party about it?"
-his ""
+his "งั้นก็ไม่เห็นจะสมเหตุสมผลเลย ทำไมเธอถึงอยากจัดงานเลี้ยงอำลาล่ะ"
 
 show shizu basic_normal
 with charachange
 
 # ssh "I'm trying to get over it. Besides… Goodbye celebrations are very important. People say the first step is the most crucial, but following it through and finishing cleanly are just as important, right?"
-ssh ""
+ssh "ฉันก็ทำใจให้ลืมอยู่ อีกอย่าง… งานเลี้ยงอำลาน่ะสำคัญมากนะ คนชอบบอกว่าก้าวแรกนั้นสำคัญ แต่การทำ\nไปให้ตลอดรอดฝั่งและลงจอดอย่างสวยงามน่ะก็สำคัญเหมือนกันนะ ใช่มั้ย"
 
 # his "I guess that is true."
-his ""
+his "ก็คงจริง"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "Anyway, I don't consider it goodbye. But it's still an event. You still have to go through the proper motions."
-ssh ""
+ssh "แต่นั่นแหละ ฉันไม่ได้มองว่าเป็นการอำลาหรอก ก็เป็นเหตุการณ์เหตุการณ์หนึ่งที่ยังต้องเคลื่อนไปตามรูปแบบ\nที่เหมาะสมเหมือนกัน"
 
 show shizu behind_blank
 with charachange
@@ -4131,34 +4130,34 @@ with charachange
 stop music fadeout 4.0
 
 # ssh "Aren't you going to?"
-ssh ""
+ssh "แล้วนายจะอยู่เฉย ๆ เหรอ"
 
 # his "Aren't I going to what?"
-his ""
+his "หมายถึงอะไร"
 
 show shizu basic_normal
 with charachange
 
 # ssh "Kiss me, of course."
-ssh ""
+ssh "นายจะไม่จูบฉันเหรอ"
 
 # his "Is that “the proper motions?”"
-his ""
+his "นี่เหรอ “การเคลื่อนไปตามรูปแบบที่เหมาะสม” ที่ว่า"
 
 show shizu behind_blank
 with charachange
 
 # ssh "It would be normal, wouldn't it? The natural thing to do."
-ssh ""
+ssh "ก็ปกตินี่ ใช่มั้ย ต้องเป็นแบบนั้นอยู่แล้ว"
 
 # "It's time to act decisively. If I don't, I'm sure my heart will explode."
-""
+"จะมามัวอ้ำอึ้งไม่ได้แล้ว ขืนชักช้าหัวใจฉันน่าจะระเบิดก่อน"
 
 show shizu adjust_blush_close
 with charachange
 
 # "I kiss her immediately, so quickly that I don't even have time to enjoy it. Even though she was prepared for it, Shizune blushes a deep red. I feel a similar heat rising in my neck and cheeks."
-""
+"ฉันจูบชิซูเนะทันที เร็วจนฉันไม่ทันได้ลิ้มรสจูบเต็มที่ เธอหน้าแดงก่ำทั้งที่เตรียมใจไว้แล้ว ฉันรู้สึกว่าทั้งคอกับแก้มตัวเอง\nก็ร้อนผ่าวไม่ต่างกัน"
 
 play music music_one fadein 4.0
 
@@ -4166,28 +4165,28 @@ scene evh shizu_undressing_clothed_stare
 with whiteout
 
 # "I move in for another kiss, but as I do so, she moves backwards at the same time and impishly jumps onto the cabinet behind her. Alone, in the total silence of the room, we just look at each other for a while."
-""
+"ฉันขยับเข้าไปจูบอีกครั้ง แต่ในขณะเดียวกันชิซูเนะก็ถอยแล้วปีนขึ้นไปอยู่ที่ตู้ข้างหลังอย่างซุกซน พวกเราซึ่งอยู่กัน\nตามลำพังในห้องเงียบสงัดแห่งนี้มองหน้ากันอยู่พักใหญ่"
 
 show evh shizu_undressing_clothed_kiss
 with charachange
 
 # "This time, I kiss her more deeply. Her lips are light and dry, and open a tiny bit. I'm only able to appreciate the sensation for a moment before Shizune starts kissing me back forcefully."
-""
+"คราวนี้ฉันจูบชิซูเนะให้หนักหน่วงขึ้น ริมฝีปากเธอซึ่งไม่อวบอิ่มมากและแห้งกร้านเผยอออก ฉันดื่มด่ำกับสัมผัสนั้น\nได้ขณะหนึ่งก่อนที่ชิซูเนะจะจูบฉันกลับอย่างรุนแรง"
 
 # "Her bangs brush against my closed eyelids as I let myself sink deeper into the kiss. I can feel the shape of her body through her clothes, which only makes me hold Shizune tighter."
-""
+"หน้าม้าชิซูเนะระอยู่กับเปลือกตาที่ปิดอยู่ของฉันผู้ซึ่งปล่อยให้ตัวเองจมจ่อมไปกับการจูบครั้งนี้ ฉันสัมผัสได้ถึง\nทรวดทรงของเธอที่อยู่ภายใต้เสื้อผ้าจนยิ่งอยากกอดให้แน่นขึ้นอีก"
 
 show evh shizu_undressing_clothed_blush
 with charachange
 
 # "It takes some effort for the both of us to draw back from each other. We're both blushing, both from the kiss and thoughts of what's to come, and I'm far from the only one breathing a little heavier."
-""
+"เราต่างต้องห้ามใจอยู่พอสมควรกว่าจะผละจากกันได้ เราทั้งคู่หน้าแดงเหมือนกันจากการจูบกับสิ่งที่จะเกิดขึ้นต่อจากนี้\nและฉันก็ไม่ใช่คนเดียวที่หายใจหอบกว่าปกติเล็กน้อย"
 
 # "As Shizune begins to take off my tie, I start undoing her blouse. It takes a while to figure it out. I'd never really thought about how our school's blouses work before."
-""
+"ฉันถอดเสื้อชิซูเนะออกไประหว่างที่เธอแกะเน็กไทฉัน ซึ่งต้องใช้เวลาสักพักกว่าจะถอดได้เพราะฉันไม่เคยคิดเลย\nว่าชุดนักเรียนหญิงจะใส่หรือถอดอย่างไร"
 
 # "Shizune's blouse is a little tight on her, and her arms get stuck for a moment because of it. I find myself peeling it off of her, although with the way she's trying to wriggle out of it at the same time, it isn't easy. The sight is a little comical."
-""
+"เสื้อชิซูเนะคับเล็กน้อยจนแขนติดเสื้ออยู่ครู่หนึ่ง ฉันต้องถกเสื้อออกจากตัวให้โดยที่เธอสะบัดตัวให้หลุดไปพลาง\nนับว่าไม่ง่ายเลย เป็นภาพที่ดูชวนขันพิลึก"
 
 play sound sfx_rustling
 
@@ -4195,46 +4194,46 @@ show evh shizu_undressing_unclothed_closed
 with charachange
 
 # "Once Shizune's arms are free, she slides out of her shirt, her skirt falling around her knees with it after she unhitches it and works it off her legs. The only thing covering her now are her bra and panties."
-""
+"พอชิซูเนะผลุบแขนออกจากเสื้อจนเป็นอิสระแล้วกระโปรงก็ร่วงไปอยู่ที่หัวเข่าหลังจากเธอปลดแล้วเขย่าขาออก ตอนนี้\nทั้งตัวเธอมีเพียงเสื้อชั้นในกับกางเกงในปกปิด"
 
 # "Her figure is curvaceous and taut, and the healthy color of her skin contrasts with the black of her underwear. It's a wonderful sight, especially against the background of the moonlight through the window."
-""
+"รูปร่างโค้งเว้าของชิซูเนะดูเกร็ง ผิวอมชมพูตัดกับชั้นในสีดำ เป็นภาพที่งดงาม ยิ่งมีแสงจันทร์ที่ส่องลอดหน้าต่าง\nอาบด้วยแล้ว"
 
 show evh shizu_undressing_unclothed_blush
 with charachange
 
 # "She looks at my chest and works the buttons of my shirt one by one. The process is greatly slowed by my hands moving up and down her thighs. It's a little amusing to play with her like this."
-""
+"ชิซูเนะมองหน้าอกฉันแล้วแกะกระดุมทีละเม็ด มือเธอแกะได้ช้ามากเพราะฉันลูบต้นขาเธออยู่ พอหยอกเล่นแบบนี้แล้ว\nก็สนุกเหมือนกัน"
 
 show evh shizu_undressing_unclothed_kiss
 with charachange
 
 # "Eventually, finally, my shirt falls to the ground. Shizune surprises me by quickly pulling me in for a deep kiss without warning, but I quickly return the gesture."
-""
+"สุดท้าย ท้ายที่สุด เสื้อของฉันก็ร่วงผล็อยลงไปกับพื้นจนได้ ชิซูเนะดึงตัวฉันเข้าไปจูบโดยไม่ให้สัญญาณล่วงหน้า\nใด ๆ ทั้งสิ้นจนฉันตกใจ แต่ฉันก็รีบจูบกลับทันที"
 
 show evh shizu_undressing_unclothed_talk
 with charachange
 
 # ssh "Why are you bolder today than on the roof?"
-ssh ""
+ssh "ทำไมวันนี้ถึงกล้ากว่าตอนอยู่บนดาดฟ้า"
 
 # ssh "Or in your room?"
-ssh ""
+ssh "หรือตอนอยู่ที่ห้อง"
 
 # "I try to think of a good answer, but it isn't easy. How would I be able to respond to that even if I could? There's no way to, unless I were to say that bureaucracy really puts me in the mood."
-""
+"ฉันเค้นหัวนึกหาคำตอบเหมาะ ๆ แต่ก็ไม่ง่ายเลย ต่อให้มีคำตอบแล้วจะตอบว่ายังไง ไม่ได้หรอก เว้นเสียแต่จะบอกว่า\nฉันมีอารมณ์กับการปกครองโดยอำนาจรัฐน่ะนะ"
 
 # "My shirt having been disposed of, Shizune moves on to my belt, and I decide to help her undo it instead of answering her question. I don't think it would do much good to at this point."
-""
+"เมื่อถอดเสื้อแล้วชิซูเนะก็ย้ายมาจัดการที่เข็มขัดต่อ ฉันช่วยเธอปลดเข็มขัดแทนที่จะตอบคำถามนั้น ตอบไปตอนนี้\nก็คงไม่ได้อะไรขึ้นมาหรอก"
 
 scene bg school_council_ni
 with locationchange
 
 # "It's not hard to get off, and falls to the ground with a metallic clunk. I move in for another kiss and begin to slide my hand up her side, but she suddenly lurches forwards, making me stumble backward."
-""
+"ซึ่งก็ถอดไม่ยาก กางเกงร่วงลงพร้อมเสียงโลหะที่กระทบกัน ฉันโน้มตัวเข้าไปจูบชิซูเนะอีกครั้งแล้วเลื่อนมือไปตามสีข้าง\nแต่เธอก็งอตัวจนฉันเสียสมดุลถอยออกมา"
 
 # "The stiff edge of the table behind me was the furthest thing from my mind, until I feel it stabbing into my lower back. I hadn't even noticed it was there. It makes me grab Shizune a little tighter as we fall back onto the surface of the table."
-""
+"ฉันลืมไปเลยว่าข้างหลังฉันมีโต๊ะอยู่ มานึกก็ได้ตอนที่หลังไปชนเข้ากับขอบแข็ง ๆ นี่เอง ไม่ทันได้สังเกตด้วยซ้ำ\nพอเราสองคนล้มลงไปอยู่บนโต๊ะแล้วฉันก็กอดชิซูเนะให้แน่นขึ้นอีกเล็กน้อย"
 
 label th_S35h:
 
@@ -4242,19 +4241,19 @@ show evh shizu_pushdown
 with charachange
 
 # "I hold back a sigh as Shizune victoriously holds herself above me. She's won again."
-""
+"ฉันห้ามใจตัวเองไม่ให้ถอนหายใจเมื่อชิซูเนะขึ้นคร่อมฉันอย่างมีชัย เธอชนะอีกแล้ว"
 
 # "I'm distracted until Shizune's bra falls on me, seemingly like it dropped out of the sky. I end up laughing, despite how hard I try not to, and it's contagious enough that Shizune starts to as well."
-""
+"ฉันยังเหม่ออยู่จนกระทั่งเสื้อชั้นในชิซูเนะร่วงใส่หน้าฉันเหมือนร่วงจากฟ้า ฉันหัวเราะทั้งที่ฝืนกลั้นแล้ว และเธอ\nก็หัวเราะตามฉันไปด้วย"
 
 # "Freed from her bra, her breasts are larger than I'd thought, even though they were noticeably large through her shirt already. She picks up her bra with her fingers and flicks it off as my hands move over her body."
-""
+"พอไม่มีเสื้อชั้นในมาบังแล้วก็เห็นว่าหน้าอกชิซูเนะนั้นใหญ่กว่าที่คิด ถึงปกติตอนใส่เสื้อจะดูใหญ่อยู่แล้วก็เถอะ เธอใช้นิ้ว\nเกี่ยวเสื้อชั้นในขึ้นมาแล้วโยนทิ้งไประหว่างที่มือฉันเลื่อนไปตามร่างกายเธอ"
 
 # "Straddling me with her knees on the table, Shizune slips her underwear off, with my hands moving from her hips unconsciously to help her. I catch a glimpse of my watch. It's only been a few minutes, but it felt like so much longer."
-""
+"ชิซูเนะที่นั่งชันเข่าคร่อมฉันอยู่เลื่อนกางเกงในออก ฉันผละมือจากเอวเธอมาช่วยถอดโดยอัตโนมัติและเหลือบไปเห็น\nนาฬิกาข้อมือตัวเอง เพิ่งผ่านไปไม่กี่นาทีแต่รู้สึกเหมือนผ่านมานานมากแล้วเลยแฮะ"
 
 # "She eases herself downwards, closer and closer until our bare chests are touching, her breasts feeling strange against the scar over my heart."
-""
+"เธอโน้มตัวเข้ามาหาฉันเรื่อย ๆ จนหน้าอกเปลือยเราแตะกัน สัมผัสจากหน้าอกเธอที่ถูกกับแผลเป็นตรงหน้าอกฉันนั้น\nแปลกดี"
 
 window hide
 
@@ -4266,161 +4265,161 @@ with Pause(7.0)
 window show
 
 # "When Shizune sits up, I feel myself slipping inside, slowly enveloped by her below as her breasts lift away from my torso. An attack from two fronts, I think dryly considering the situation. How like her."
-""
+"เมื่อชิซูเนะดึงตัวกลับขึ้นไปอยู่ท่านั่งแล้วก็รู้สึกได้ว่าตัวเองสอดใส่เข้าไปแล้ว ส่วนล่างของเธอโอบรับฉันไว้ช้า ๆ ทุกขณะ\nที่หน้าอกเธอเคลื่อนออกไปจากตัวฉัน โจมตีสองทางเลยเหรอ ฉันคิดได้อย่างใจเย็นทั้งที่อยู่ในสภาพนี้ สมเป็น\nชิซูเนะจริง ๆ"
 
 show evh shizu_straddle_tease
 with charachange
 
 # ssh "I should just stop now, and leave you stewing in your lust."
-ssh ""
+ssh "หยุดแล้วปล่อยให้นายอารมณ์ค้างอยู่แบบนี้น่าจะดี"
 
 # "She says, as she starts grinding herself against me, causing me to blink at the sudden pleasure. Very funny, Shizune. I soon lose track of my thoughts."
-""
+"เธอพูดก่อนจะบดเอวเข้ากับตัวฉันจนต้องหลับตาจากอารมณ์หวามไหวที่แล่นขึ้นมา ตลกมากชิซูเนะ ไม่นานฉันก็เริ่ม\nคิดอะไรไม่ออกแล้ว"
 
 show evh shizu_straddle_closed
 with charachange
 
 # shi "…sss."
-shi ""
+shi "…อึก"
 
 # "Shizune bites her lip to muffle her voice from coming out. An unwanted voice. This is the most I've ever heard of it, and she blushes once she realizes she let it slip out."
-""
+"ชิซูเนะกัดปากตัวเองกลั้นเสียงที่ตัวเองไม่ต้องการไว้ เป็นครั้งแรกที่ฉันได้ยินเธอส่งเสียงมากขนาดนี้ และเธอก็แก้มแดง\nเมื่อรู้ตัวว่าปล่อยให้เสียงหลุดปากออกมา"
 
 # "To cover it up, Shizune drives herself against me harder, causing me to jolt against her, driving my erection deeper into her."
-""
+"ชิซูเนะดันตัวเองลงมาแรงกว่าเดิมเป็นการกลบเกลื่อนจนฉันสะดุ้งแล้วดันความแข็งขืนเข้าไปลึกกว่าเก่า"
 
 # "I thrust my hips towards her at the sudden sensation of movement, and Shizune fights against me, trying to pin me back down when I manage to pull my arms out from under me."
-""
+"ฉันยกเอวเข้าไปหาตัวชิซูเนะตอบสนองที่เธอขยับตัวแบบกะทันหันอย่างนั้น และชิซูเนะก็ไม่ยอมแล้วจับมือฉันกดไว้\nตอนที่ฉันดึงมือออกจากหลังมาได้แล้ว"
 
 show evh shizu_straddle_smile
 with charachange
 
 # "In that moment, her hips thrust back with even greater force in response."
-""
+"จังหวะนั้นเธอตอบโต้ด้วยการโยกเอวลงมาแรงให้กว่าเดิม"
 
 # "The sound of Shizune's soft, restrained moans, and the sight of her bountiful breasts moving up and down each time her hips buckle against mine, grow more arousing with time in the stillness of the student council room."
-""
+"เสียงครางอันอ่อนนุ่มของชิซูเนะที่เธอกลั้นไว้ ภาพอกอิ่มที่ขยับขึ้นลงทุกครั้งที่เอวเธอโยกเข้าออกกับตัวฉัน เหล่านี้\nยิ่งยั่วเย้าฉันไปทุกขณะในห้องสภานักเรียนอันสงัดงันแห่งนี้"
 
 # shi "Mmphh…"
-shi ""
+shi "อื้ม…"
 
 # shi "…nn…"
-shi ""
+shi "…อื้อ…"
 
 # "I almost can't take it any more. The pleasurable sensations welling up between my legs, multiplied by the pressure of Shizune's weight on top of me, make it hard for me to think. My hips start bucking by themselves."
-""
+"ฉันแทบทนไม่ไหวแล้ว ความเสียวซ่านเอ่อขึ้นตรงบริเวณหว่างขาฉัน ซึ่งยิ่งทบขึ้นไปอีกหลายเท่าตัวด้วยน้ำหนัก\nของชิซูเนะที่กดทับจนสมองฉันแทบไม่ทำงานแล้ว เอวฉันขยับไปโดยอัตโนมัติ"
 
 # "Shizune's hands push mine down onto the table. Every motion of hers is a push of some kind."
-""
+"ชิซูเนะจับมือฉันกดไว้กับโต๊ะ ทุกการขยับของเธอยิ่งเป็นการกดทับฉัน"
 
 # "The table under us rattles under our combined weight. I doubt it would collapse, but the noise is really something."
-""
+"โต๊ะขยับจนเสียงดังตึงตังไปตามน้ำหนักตัวเราสองคน ยังไงก็คงไม่พังง่าย ๆ แต่เสียงดังมาก"
 
 show evh shizu_straddle_come
 with charachange
 
 # "Not that Shizune notices. Her pace only grows faster, until it feels as though she might shove me across the table with how forceful she is being. Without warning, her movements come to a final crescendo."
-""
+"ซึ่งชิซูเนะไม่รู้หรอก เธอเพิ่มความเร็วขึ้นเรื่อย ๆ จนเหมือนตัวฉันจะโดนดันทะลุโต๊ะไปด้วยแรงขนาดนี้ และบทเพลง\nของเธอก็บรรเลงมาจนถึงช่วงสุดท้ายโดยไม่มีสัญญาณเตือนใด ๆ"
 
 scene bg school_council_ni
 with locationchange
 with vpunch
 
 # "Suddenly, she stops, almost falling onto me with enough speed that if she didn't catch herself, it would probably have knocked us unconscious. The worst situation possible, if someone happened to walk in while we were knocked out."
-""
+"อยู่ ๆ ชิซูเนะก็หยุดขยับแล้วล้มตัวลงกับฉันด้วยความเร็วชนิดที่ว่าถ้าเธอไม่ประคองตัวเองไว้แล้วฉันคงจะโดนกระแทก\nจนหมดสติไปได้ ซึ่งคงไม่ดีแน่หากมีคนมาเห็นตอนที่เราสลบกันอยู่"
 
 # "I'm surprised, but not enough to forget that we're both naked and the sudden, painful interruption that just happened."
-""
+"ฉันตกใจ แต่ยังไม่ลืมว่าเราทั้งสองคนยังเปลือยอยู่ และยังไม่ลืมถึงจังหวะที่ชะงักไปจนเจ็บแบบกะทันหันเมื่อครู่นั้น"
 
 # "Why did this have to happen? Was it intentional, to leave me stewing in my own lust? Shizune lets out her breath sheepishly, realizing it at the same time as I do."
-""
+"ทำไมถึงเป็นแบบนี้ไปได้ จงใจจะปล่อยให้ฉันอารมณ์ค้างเหรอ ชิซูเนะถอนหายใจอาย ๆ และเพิ่งรู้ตัวถึงการกระทำนั้น\nพร้อมกันกับตอนที่ฉันสังเกตเห็น"
 
 show shizu behind_blank_nak
 with charaenter
 
 # ssh "Sorry, I tripped, or slipped, or something like that."
-ssh ""
+ssh "ขอโทษที ฉันสะดุด ลื่น หรืออะไรแบบนั้นแหละ"
 
 # his "I had a thought, is the door unlocked?"
-his ""
+his "เพิ่งนึกอะไรด้ ประตูล็อกหรือยัง"
 
 hide shizu
 with charaexit
 
 # "She quickly gets off the table and bolts over to check, and locks it, unlocks it, and locks it again, pulling on the knob just to make sure. When she's finally sure, she makes an out-of-place motion with her hands."
-""
+"ชิซูเนะรีบลงจากโต๊ะแล้วพุ่งไปดูประตูก่อนจะล็อก ปลดล็อก ล็อกอีกรอบ และบิดลูกบิดเพื่อความแน่ใจอีกครั้ง พอมั่นใจ\nจริง ๆ แล้วเธอก็ทำท่าที่ดูจะไม่เข้ากับสถานการณ์ขึ้นมา"
 
 show shizu behind_smile_nak
 with charaenter
 
 # ssh "Safe!"
-ssh ""
+ssh "ปลอดภัย!"
 
 # his "I'm glad you can take things so lightly."
-his ""
+his "เห็นเธอทำอะไรได้แบบไม่คิดมากแบบนี้แล้วฉันก็ดีใจ"
 
 show shizu behind_frown_nak
 with charachange
 
 # ssh "I didn't do it on purpose. Why don't you take the lead, then?"
-ssh ""
+ssh "ฉันไม่ได้จงใจสักหน่อย งั้นทำไมนายไม่นำบ้างล่ะ"
 
 show shizu behind_smilelow_nak
 with charachange
 
 # ssh "Come on."
-ssh ""
+ssh "มาสิ"
 
 hide shizu
 with charaexit
 
 # "I grab Shizune by the shoulders and try to put her onto the table instead. Her brow scrunches in displeasure as the edge of the table pokes her in the back, just as it did to me. She opts to help herself up onto it."
-""
+"ฉันจับไหล่ชิซูเนะไว้แล้วดันให้นอนลงกับโต๊ะ เธอขมวดคิ้วด้วยความไม่สบายตัวตอนที่ขอบโต๊ะชนเข้ากับข้างหลัง\nเหมือนกับฉันเมื่อครู่แล้วเลือกที่จะขยับตัวขึ้นไปนอนอยู่บนโต๊ะเอง"
 
 scene evh shizu_table_smile
 with dissolve
 
 # "This is also the first time I've seen Shizune lying down unclothed. The contours of her collarbone and breasts are beautiful, and my eyes follow them down to her shapely hips. A delicate hourglass figure."
-""
+"ครั้งนี้ยังเป็นครั้งแรกที่ฉันได้เห็นชิซูเนะนอนเปลือยเปล่า เส้นเงาตามกระดูกไหปลาร้ากับหน้าอกเธอนั้นช่างสวยงาม\nสายตาฉันมองไปตามสองสิ่งนั้นแล้วเลื่อนลงมาที่เอวได้รูป เป็นหุ่นทรงนาฬิกาทราบอันบอบบาง"
 
 # "I run my hands along the curve of her body, from her shoulders on down."
-""
+"ฉันไล้นิ้วไปตามส่วนโค้งเว้าของร่างกายเธอไล่ตั้งแต่ไหล่ลงมา"
 
 # "I slowly insert myself into Shizune up to the hilt. An intense warmth and tightness immediately surround me, and I start pistoning into her to pick up where we left off before."
-""
+"ฉันค่อย ๆ สอดใส่ตัวเองเข้าไปภายในชิซูเนะจนสุดทาง ความอุ่นกับความคับแน่นเข้าโอบล้อมทันทีก่อนฉันจะ\nขยับตัวเข้าออกเพื่อสานต่อจากการกระทำก่อนหน้า"
 
 # "Her body feels so hot against my skin, each time our hips meet with each thrust, and where we're holding each other. I feel like I'll be scalded by her body heat."
-""
+"สัมผัสจากร่ายกายเธอที่ส่งผ่านผิวฉันมานั้นร้อนผ่าว ไม่ว่าจะตอนที่เอวเรากระทบกันหรือตอนที่เรากอดกัน\nอุณหภูมิร่างกายเธอสูงจนคล้ายจะเผาฉันได้"
 
 # "On top of that, I feel more sensitive now than before, and find myself pushing into Shizune harder to make up for it."
-""
+"ยิ่งไปกว่านั้น ตอนนี้ฉันประสาทไวกว่าก่อนหน้านี้อีก ฉันต้องดันตัวเองให้เข้าไปลึกขึ้นเป็นการชดเชย"
 
 scene evh shizu_table_normal
 with charachange
 
 # "My hand glides around the curve of her thigh and I carefully tease her with my hand as well, almost losing my balance when she reacts strongly, snapping upwards and back into my groin and nearly pushing us both to the floor."
-""
+"ฉันเลื่อนมือไปตามส่วนโค้งเว้าบนต้นขาเธอพลางใช้มือหยอกเย้าไปด้วย ชิซูเนะดิ้นตอบสนองอย่างรุนแรงจนฉันแทบ\nเสียสมดุล เธอขยับตัวขึ้นและลงมากระทบกับหว่างขาฉันจนเกือบล้มลงไปกับพื้นกันทั้งคู่"
 
 # "Moving my hands up, I grab her prominent breasts and fondle them as I've always wanted to. They feel even larger than they appear, and overflow my hands, soft and perfectly shaped."
-""
+"ฉันขยับมือขึ้นมาจับเนินอกชิซูเนะแล้วบีบขยำอย่างที่นึกอยากมานานแล้ว พอได้จับแล้วก็ล้นมือ รู้สึกว่าใหญ่กว่า\nที่ตาเห็นอีก ทั้งนุ่มและทรงสวย"
 
 # "She squirms under me as I flick my fingers over her nipples, and twists her arms around mine instead, gripping my fingers and drawing me closer. It feels like I'm wrestling her; the lock is inescapable."
-""
+"ชิซูเนะบิดตัวทุกครั้งที่ฉันใช้นิ้วเขี่ยส่วนยอดนั้น เธอใช้แขนโอบแขนฉันไว้แล้วจับมือดึงตัวฉันเข้ามา จับแน่น\nจนดิ้นไม่หลุดเหมือนกำลังเล่นมวยปล้ำกันอยู่เลย"
 
 # "From the first time our hands met, I guess we were connected."
-""
+"เราคงเชื่อมถึงกันตั้งแต่ครั้งแรกที่จับมือกันแล้วละนะ"
 
 # "Whether it's through her pulling me from one student council event to another, or holding hands as lovers, I think it's been the same, the confidence that comes across in the way she grasps my hand."
-""
+"ไม่ว่าจะตอนที่ชิซูเนะลากฉันจากงานสภานักเรียนหนึ่งไปอีกงานหนึ่ง ไม่ว่าจะตอนจับมือกันแบบคนรัก ฉันคิดว่า\nมีสิ่งหนึ่งที่ไม่เปลี่ยนไป นั่นคือความมั่นใจของเธอที่ส่งผ่านมาจากการจับมือ"
 
 # "Her hands writhe across the surface of the table, and grabbing onto it, she hooks her legs around my back, pressing us closer together, connecting us even more closely and entrapping me inside her."
-""
+"ชิซูเนะบิดขยับมือไปทั่วพื้นที่โต๊ะก่อนจะจับขอบเอาไว้ เธอใช้ขาเกี่ยวเอวรั้งล็อกตัวฉันให้อยู่ภายในเธอและชิดเข้ามา\nจนเราเชื่อมสนิทถึงกันกว่าเดิม"
 
 show evh shizu_table_comeopen
 with charachange
 
 # "Her inner walls are so hot and tight, and with her pushing up against me, the friction only increases, sending me over the top."
-""
+"พื้นผิวภายในเธอนั้นทั้งร้อนผ่าวและคับแน่น เมื่อชิซูเนะดันตัวเข้าหาฉันก็ยิ่งเพิ่มแรงเสียดสีขึ้นจนฉันไปถึงฝั่ง"
 
 show evh shizu_table_comeclosed
 with whiteout
@@ -4428,10 +4427,10 @@ with whiteout
 stop music fadeout 4.0
 
 # "All too soon, the feeling ends. All I can do afterwards is stay inside of her with my hands holding the table, both for lack of energy and because her legs are still locking me in. For Shizune's part, she smiles almost dreamily."
-""
+"เพียงชั่วขณะหนึ่งความรู้สึกนั้นก็หายไป พอเสร็จแล้วฉันได้แต่นิ่งอยู่ภายในเธอโดยที่จับมือวางไว้กับโต๊ะ ด้วยเพราะ\nทั้งเหนื่อยอ่อนกับทั้งขาเธอที่ยังโอบฉันไว้อยู่ ส่วนชิซูเนะยิ้มชวนฝันอยู่"
 
 # "The sight makes me smile as well. Her legs slowly fall, allowing me to extract myself."
-""
+"เป็นภาพที่ชวนให้ฉันยิ้มตามไปด้วย ชิซูเนะค่อย ๆ ลดขาลงต่ำให้ฉันถอนตัวออกได้"
 
 label th_S35x:
 
@@ -4439,67 +4438,67 @@ scene bg school_council_ni
 with locationchange
 
 # "Exhausted, I lean back against a desk and try to regain my breath before putting my clothes back on."
-""
+"ฉันพิงโต๊ะด้วยความหมดแรงพลางหายใจให้เต็มที่อีกครั้งก่อนจะใส่เสื้อผ้ากลับดังเดิม"
 
 # "I notice a dull, hot throbbing in my chest as I button my shirt back up. It puts a bad aftertaste on everything that just happened."
-""
+"เมื่อติดกระดุมเสื้อก็สัมผัสได้ถึงใจที่เต้นตุบ ๆ อยู่อย่างร้อนผ่าว เป็นความรู้สึกปิดท้ายแด่เหตุการณ์ทั้งหลายก่อนหน้า\nที่ไม่ดีเลยเสียจริง"
 
 show shizu behind_smile_nak
 with charaenter
 
 # ssh "It was a lucky break that Misha couldn't be here, wasn't it?"
-ssh ""
+ssh "โชคดีไปเนอะที่มิช่าอยู่ด้วยไม่ได้"
 
 # his "You're in an unusually joking mood today."
-his ""
+his "วันนี้เธอพูดติดตลกผิดปกตินะ"
 
 # his "I wonder what she had to do."
-his ""
+his "อยากรู้จังว่าติดธุระอะไร"
 
 show shizu behind_blank_nak
 with charachange
 
 # "Shizune traces the air lazily with a finger and points to the door."
-""
+"ชิซูเนะลากนิ้วอยู่กลางอากาศอย่างเอื่อยเฉื่อยแล้วชี้ไปที่ประตู"
 
 # ssh "Go see for yourself."
-ssh ""
+ssh "ไปดูเองสิ"
 
 # his "Why don't you just tell me?"
-his ""
+his "ทำไมไม่บอกกันล่ะ"
 
 show shizu behind_smile_nak
 with charachange
 
 # ssh "It's more interesting if you see for yourself. Seeing is believing."
-ssh ""
+ssh "ไปดูเองจะน่าสนใจกว่านะ สิบปากว่าไม่เท่าตาเห็น"
 
 # his "Sure. Clever. Maybe I will. What about you, are you going to stay here all day? It's getting late."
-his ""
+his "ได้ พูดได้ดี ไว้จะไปดู แล้วเธอล่ะ จะอยู่ที่นี่ทั้งวันเลยหรือไง นี่ก็เริ่มค่ำแล้วนะ"
 
 show shizu behind_blank_nak
 with charachange
 
 # ssh "It feels like my last day as Student Council president, so maybe I'll sleep here tonight. It could be the last chance I have to sleep at my desk, like after a long day trying to meet a deadline."
-ssh ""
+ssh "รู้สึกเหมือนวันนี้จะเป็นวันสุดท้ายที่จะได้เป็นประธานนักเรียนแล้วเลย ขอค้างคืนที่นี่แล้วกัน เป็นโอกาสสุดท้าย\nที่จะได้หลับที่โต๊ะตัวเองเหมือนอย่างที่ฉันทำเวลาอยู่ต้องทำงานยาว ๆ ให้ทันก่อนส่ง"
 
 # his "That's weird."
-his ""
+his "พิลึกคน"
 
 # his "I'll sleep in my bed."
-his ""
+his "เดี๋ยวฉันไปหลับที่เตียงตัวเองแล้วกัน"
 
 # ssh "Sleeping sitting up is a skill. A very useful one."
-ssh ""
+ssh "การหลับตอนนั่งน่ะเป็นทักษะชนิดหนึ่งนะ เป็นทักษะที่มีประโยชน์มาก"
 
 # his "Right."
-his ""
+his "โอเค"
 
 scene bg school_lobby_ni
 with locationchange
 
 # "For a moment after I leave the room, I actually do consider seeing what Misha is up to, just because Shizune made it sound so secretive, as if she were building a time machine or something. But in the end I decide not to."
-""
+"พอออกจากห้องมาได้สักพักฉันก็ชั่งใจอีกทีว่าจะไปดูว่ามิช่าทำอะไรอยู่ดีไหม เพราะชิซูเนะบอกอย่างกับว่า\nเป็นความลับเหมือนกำลังสร้างไทม์แมชชีนหรืออะไรแบบนั้นอยู่เลย แต่สุดท้ายฉันก็ตัดใจไม่ไปดู"
 
 
 #****************************
