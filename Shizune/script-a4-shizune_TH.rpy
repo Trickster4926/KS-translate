@@ -4509,31 +4509,31 @@ scene bg school_courtyard_ni
 with locationskip
 
 # "The night air is pleasant at this time of year. It's refreshing and a little humid, but not so chilly as to make it uncomfortable to stay outside for a while. It's late enough for the courtyard to be all but deserted, too."
-""
+"ช่วงนี้ของทุกปีอากาศตอนกลางคืนนั้นจะเย็นสบาย สดชื่นและชื้นเล็กน้อย แต่ก็ไม่เย็นจนเมื่ออยู่ข้างนอกนาน ๆ\nแล้วหนาว ตอนนี้ก็ค่ำมากจนที่สวนไม่มีใครอยู่เลย"
 
 # "After Shizune and I said our farewells to each other, I'd set out to return to my dormitory room. I didn't even make it all the way there, though, before getting distracted."
-""
+"พอฉันลาชิซูเนะมาแล้วฉันก็คิดจะกลับมาที่หอ แต่ยังเดินไปไม่ถึงด้วยซ้ำก็มีบางอย่างมากวนใจก่อน"
 
 # "It doesn't seem like a bad idea to go see what Misha is up to. I have nothing better to do. No homework. I'm out of anything worth reading. On top of that, I simply want to know."
-""
+"ไปดูว่ามิช่าทำอะไรอยู่ก็น่าจะไม่เสียหายอะไร ยังไงก็ไม่มีอะไรทำอยู่แล้ว การบ้านก็ไม่มี หนังสือก็ไม่รู้จะอ่านอะไร\nยิ่งไปกว่านั้นคือฉันอยากรู้นี่แหละ"
 
 scene bg school_lobby_ni
 with locationchange
 
 # "This isn't my first time being in the main building after hours, but usually, it's as I'm leaving the place with Shizune and Misha after a long day at the Student Council. Not entering it alone."
-""
+"ครัั้งนี้ไม่ใช่ครั้งแรกที่ฉันมาอยู่ในอาคารหลักนอกเวลาทำการ แต่ปกติฉันจะเดินออกมาพร้อมชิซูเนะกับมิช่า\nหลังทำงานสภานักเรียนกันยาว ๆ ไม่ใช่เข้ามาคนเดียวแบบนี้"
 
 # "The atmosphere is quiet, a word I would not normally use to describe these halls. It's a little creepy. A light starts flickering up ahead. This seems like a horror movie moment waiting to happen."
-""
+"บรรยากาศนั้นเงียบ ซึ่งเป็นคำที่ปกติฉันจะไม่ใช่พูดถึงโถงทางเดิน ดูชวนขนหัวลุกหน่อย ๆ หลอดไฟเริ่มติด ๆ ดับ ๆ\nชักจะดูเหมือนฉากในหนังผีแล้วสิ"
 
 play sound sfx_rustling
 with vpunch
 
 # "Feeling a hand on my shoulder, I stiffen reflexively."
-""
+"พอมีบางอย่างมาจับบ่าฉันก็ยืดตัวตรงแหน็วไปโดยอัตโนมัติ"
 
 # "It's not Misha, or else there would be hands clamped over my eyes and a sing-song “guess who” accompanying them. So, who is it? I hope it's not Kenji, or at least that it's someone I know, or this will take a turn for the weird."
-""
+"ไม่ใช่มิช่า เพราะไม่งั้นคงมีมือมาปิดตาพร้อมคำพูดแบบใส่ทำนองว่า “ทายซิใครเอ่ย” แล้วใครกันล่ะ หวังว่าจะไม่ใช่\nเคนจินะ หรืออย่างน้อยก็ขอให้เป็นคนที่ฉันรู้จักเถอะ ไม่งั้นคงดูแปลก ๆ แน่"
 
 show shizu invis_close at tworight
 with None
@@ -4544,74 +4544,74 @@ with dissolvecharamove
 play music music_happiness fadein 4.0
 
 # "Whoever it is quickly slips in front of me. It's Shizune."
-""
+"ใครคนนั้นผลุบตัวมาอยู่ตรงหน้าฉัน ชิซูเนะนี่เอง"
 
 # hi "What are you doing here?"
-hi ""
+hi "มาทำอะไรที่นี่"
 
 # "I'm so relieved that I forget to sign it."
-""
+"ฉันโล่งใจเสียจนลืมทำภาษามือ"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # "Shizune puts a finger up to her lips. I guess even though she can't hear, she has some idea of what loudness is, and can tell from my expression that I was being loud. And apparently, being loud isn't a good thing right now."
-""
+"ชิซูเนะยกนิ้วมาแตะที่ริมฝีปากตัวเอง ถึงจะไม่ได้ยินแต่ก็คงพอรู้สินะว่าความดังเบาคืออะไร และคงดูสีหน้าออก\nว่าฉันเสียงดังอยู่ ซึ่งดูเหมือนว่าการส่งเสียงดังตอนนี้จะไม่ใช่เรื่องดีเสียด้วย"
 
 # "But then, why is Misha her interpreter?"
-""
+"แล้วทำไมมิช่าถึงมาเป็นล่ามให้ชิซูเนะล่ะ"
 
 # his "Oh, very funny. Why are you here?"
-his ""
+his "โห ตลกมาก เธอมาที่นี่ทำไม"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # ssh "I was waiting for you to come see. I knew you would show up. It took you a while, though."
-ssh ""
+ssh "ฉันรอให้นายมาดูอยู่ ฉันรู้ว่านายจะต้องมา แต่ก็นานอยู่เหมือนกันนะเนี่ย"
 
 # his "You've been waiting here?"
-his ""
+his "นี่เธอรออยู่ตรงนี้?"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "Yes, but that isn't important. We have to be stealthy, if we don't want Misha to detect us. Tell me if I'm not being stealthy enough, okay?"
-ssh ""
+ssh "ใช่ แต่เรื่องนั้นไม่สำคัญหรอก เราต้องแอบเข้าไป ไม่งั้นเดี๋ยวมิช่ารู้ว่าพวกเรามา ถ้าฉันไม่เนียนพอก็บอก\nหน่อยนะ"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # "With that, Shizune starts slowly tiptoeing through the middle of the hall. I pat her on the shoulder to get her attention."
-""
+"แล้วชิซูเนะก็เริ่มย่องข้ามผ่านโถงทางเดินไป ฉันแตะไหล่เธอเพื่อให้หันมา"
 
 # his "That's not stealthy."
-his ""
+his "ไม่เนียนนะ"
 
 # his "Why do we have to be stealthy?"
-his ""
+his "แล้วทำไมต้องทำตัวเนียนด้วย"
 
 show shizu behind_frustrated_close_ni
 with charachange
 
 # "She refuses to answer, probably because signing and walking stealthily at the same time doesn't look easy."
-""
+"ชิซูเนะไม่ยอมตอบ คงเพราะการทำภาษามือไปพลางเดินแบบย่อง ๆ ไปพลางนั้นไม่ง่ายเท่าไหร่"
 
 scene bg school_hallway3_ni
 with locationskip
 
 # "Before I know it, we're in front of our homeroom."
-""
+"รู้ตัวอีกทีพวกเราก็มาถึงที่ห้องเรียนประจำแล้ว"
 
 stop music fadeout 0.5
 play sound sfx_snap
 with vpunch
 
 # "Suddenly, a sound like the crack of a whip pierces the air, followed by a familiar expression of frustration."
-""
+"อยู่ ๆ ก็มีเสียงเหมือนแส้หวดผ่านอากาศ ตามมาด้วยน้ำเสียงที่ฟังดูเอือมระอา"
 
 # "I'm sure a sound like that isn't good for my heart. Not to mention, everything sounds about a million times louder with how silent it is. It's coming from inside the room, and I sidle up to Shizune to get a look inside."
-""
+"ฉันมั่นใจว่าเสียงแบบนั้นไม่ดีต่อใจฉันแน่ ๆ แล้วยิ่งไม่ต้องพูดถึงว่าความเงียบยิ่งทำให้เสียงทุกอย่างดังขึ้นเป็นล้านเท่า\nเสียงเหล่านั้นดังมาจากในห้อง ฉันเดินเลียบ ๆ เคียง ๆ ตามชิซูเนะชะเง้อมองข้างใน"
 
 scene ev misha_nightclass:
     center
@@ -4622,13 +4622,13 @@ with silentwhiteout
 play music music_comedy fadein 0.5
 
 # mu "Can you stop throwing your pencil, please? How do you even throw a pencil that loudly?"
-mu ""
+mu "เธอเลิกปาดินสอสักทีได้ไหม ครูขอร้องละ นี่ปายังไงให้เสียงดังได้ขนาดนั้น"
 
 # ssh "He looks very flustered."
-ssh ""
+ssh "ครูดูหงุดหงิดมากเลยละ"
 
 # "What an understatement. I sympathize with Mutou. I was able to hear Misha's pen break the sound barrier even through a wall and a thick classroom door. It probably blew out his eardrums and left an imprint on the wall."
-""
+"แค่คำว่าหงุดหงิดยังน้อยไป ฉันเข้าใจครูมาก ๆ ทั้งที่มีกำแพงกับประตูห้องเรียนหนา ๆ กั้นฉันยังได้ยินเสียงปากกามิช่า\nที่พุ่งผ่านกำแพงเสียงเลย สงสังคงทำแก้วหูครูแตกพร้อมทำกำแพงเป็นรอยไปแล้วมั้ง"
 
 show ev misha_nightclass:
     ease 1.0 xpos 0.23 xanchor 0.0
@@ -4637,68 +4637,68 @@ show ovl misha_nightclass_aperture:
 with None
 
 # mi "I'm not throwing it~, when I get nervous, I like to spin it around, but~, then I forget I'm holding onto it, and—"
-mi ""
+mi "หนูไม่ได้ปานะ~ พอหนูประหม่าหนูก็จะควงเล่น แต่~ หนูจะลืมว่าถือไว้ในมืออยู่แล้ว แล้วก็—"
 
 # mu "It doesn't matter, either way, there shouldn't be pencils flying around. I get enough of that during regular school hours, I don't need it after hours."
-mu ""
+mu "ช่างเรื่องนั้นเถอะ เรื่องคือมันไม่ควรมีดินสอพุ่งไปมาแบบนั้น แค่ตอนสอนตอนกลางวันครูก็เห็นจนเอือมแล้ว\nครูไม่อยากมาเห็นตอนค่ำอีก"
 
 # mi "R-right~! Sorry."
-mi ""
+mi "คะ ค่ะ~! ขอโทษค่ะ"
 
 # mu "Whatever, just stop throwing, or releasing, or dropping things, please. Teachers have work, too."
-mu ""
+mu "เอาเถอะ เลิกปา ปล่อย หรือทำอะไรตก ครูขอร้องละ ครูก็มีงานที่ต้องทำเหมือนกัน"
 
 scene bg school_hallway3_ni
 show shizu behind_blank_close_ni at center
 with locationchange
 
 # "I notice Shizune watching the same scene I am. Mutou is yelling at the top of his lungs, and Misha is being Misha."
-""
+"ฉันเห็นว่าชิซูเนะก็กำลังดูภาพเดียวกันกับฉันอยู่ ครูตะโกนสุดเสียง ส่วนมิช่าก็ทำตัวเป็นมิช่า"
 
 # "I can hear them reasonably well through the door. But Shizune obviously can't hear anything at all. So, I wonder what watching this is like for her."
-""
+"ฉันได้ยินเสียงทั้งสองคนชัดพอสมควรแม้จะมีประตูกั้น แต่แน่นอนว่าชิซูเนะไม่ได้ยินอะไรเลย อยากรู้จัง\nว่าพอมาดูอะไรแบบนี้แล้วจะรู้สึกยังไงกันนะ"
 
 # "She must know, since she understands well enough to want me to see it too, but I have to wonder if she ever feels like she's missing out on something, having to work that much harder to understand what she's observing."
-""
+"คงรู้แหละ เพราะเข้าใจจนถึงขั้นอยากให้ฉันมาดูด้วย แต่ก็ยังสงสัยอยู่ดีว่าจะรู้สึกเหมือนพลาดอะไรไปหรือเปล่าที่ต้อง\nตั้งสมาธิมากขนาดนั้นเพื่อทำความเข้าใจสิ่งที่ตัวเองกำลังสังเกตการณ์อยู่"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # ssh "It looks like she is taking supplementary lessons. Is she?"
-ssh ""
+ssh "เหมือนจะเรียนพิเศษอยู่ ใช่มั้ยนะ"
 
 # his "Yeah."
-his ""
+his "อืม"
 
 # "I answer, despite knowing the question is completely rhetorical."
-""
+"ฉันตอบทั้งที่รู้ดีว่าคำถามนั้นเป็นการถามลอย ๆ"
 
 show shizu behind_smile_close_ni
 with charachange
 
 # ssh "Misha told me she really wants to be a sign language teacher in the future. If she can get a recommendation, she can study overseas for it. That is why she is working so hard. Her grades were always kind of on the low side."
-ssh ""
+ssh "มิช่าบอกว่าพอโตขึ้นแล้วอยากเป็นครูสอนภาษามือมาก ๆ ถ้าโรงเรียนมีจดหมายแนะนำตัวให้ก็ไปเรียนต่างประเทศ\nได้ด้วย นี่แหละมิช่าถึงได้ทุ่มเทหนักมาก เพราะผลการเรียนของมิช่าน่ะค่อนไปทางต่ำตลอดเลย"
 
 # his "Now I feel guilty. I haven't even thought about what I'm going to do yet."
-his ""
+his "รู้สึกผิดขึ้นมาเลยแฮะ ฉันยังไม่ได้คิดเลยว่าจะไปทำอะไรต่อ"
 
 show shizu adjust_smug_close_ni
 with charachange
 
 # ssh "Neither have I!"
-ssh ""
+ssh "ฉันก็เหมือนกัน!"
 
 # "The cheerful way that she signs it is very unlike her, and is very obviously false."
-""
+"ท่าทีการส่งภาษามืออันร่าเริงนั้นไม่สมเป็นชิซูเนะเลย และชัดมากว่าไม่ได้เป็นความจริง"
 
 show shizu basic_normal2_close_ni
 with charachange
 
 # ssh "Let's get out of here, we don't want to be seen. It would be a problem if we were caught standing out here like idiots."
-ssh ""
+ssh "ไปกันเถอะ เดี๋ยวมีคนมาเห็น ถ้าเขาเห็นเรายืนอยู่เหมือนคนบ้าสองคนแบบนี้คงไม่ดีแน่"
 
 # his "Where? The student council room?"
-his ""
+his "ไปไหน ห้องสภานักเรียนเหรอ"
 
 show shizu adjust_happy_close_ni
 with charachange
@@ -4709,22 +4709,22 @@ show shizu invis_close at tworight
 with dissolvecharamove
 
 # "Shaking her head, she slips into the classroom across the hall instead."
-""
+"ชิซูเนะสั่นหัวแล้วเคลื่อนตัวไปยังห้องเรียนที่อยู่อีกฟากโถงทางเดิน"
 
 scene bg school_room34_ni
 with locationchange
 
 # his "Great hiding place."
-his ""
+his "ที่ซ่อนเนียนดีนี่"
 
 show shizu behind_blank_ni at center
 with charaenter
 
 # ssh "You're unusually sarcastic, lately. With the door closed it's a good one. Anyway, wasn't it interesting?"
-ssh ""
+ssh "ช่วงนี้นายประชดบ่อยผิดปกตินะ มีประตูปิดก็ใช้ได้แล้ว แล้วนายว่าน่าสนใจดีมั้ยล่ะ"
 
 # his "Yes, but I'm not really surprised."
-his ""
+his "ก็น่าสนใจ แต่ไม่แปลกใจเท่าไหร่"
 
 play sound sfx_doorclose
 
@@ -4733,7 +4733,7 @@ show shizu adjust_smug_ni at Position(ypos=1.1)
 with dissolvecharamove
 
 # "I close the door behind us, prompting Shizune to laugh soundlessly as she slides into a chair. For a second, it depresses me. I want to hear her real laugh."
-""
+"ฉันเดินเข้ามาแล้วปิดประตู ชิซูเนะหัวเราะอยู่เงียบ ๆ พลางนั่งลงกับเก้าอี้ ฉันนึกหดหู่อยู่แวบหนึ่งเพราะอยากได้ยิน\nเสียงหัวเราะจริง ๆ ของเธอ"
 
 show shizu behind_smile_ni
 with charachange
@@ -4741,384 +4741,384 @@ with charachange
 play music music_innocence fadein 10.0
 
 # ssh "I was. I've been looking down on Misha. I didn't think she had a goal at all. But it turns out that I was wrong, I made a careless assumption. I thought Misha was as aimless as I was. I was stupid. I lost."
-ssh ""
+ssh "ฉันแปลกใจนะ เพราะฉันเอาแต่ดูถูกมิช่า คิดว่าเป็นคนไม่มีเป้าหมาย แต่กลายเป็นว่าฉันคิดผิด สมมติอะไร\nแบบส่งเดชไปอย่างนั้น ฉันคิดว่ามิช่าเป็นคนไร้เป้าหมายเหมือน ๆ กับฉัน ฉันมันโง่ ฉันแพ้แล้ว"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # "Shizune pauses to crack her knuckles, then folds her hands over each other, and leans forward in her chair. In the abnormal quiet of the building, I can hear Mutou yelling at Misha again even across a hallway and through two doors."
-""
+"ชิซูเนะเว้นช่วงหักข้อนิ้วตัวเองแล้ววางมือทับกันโน้มตัวเข้าหาโต๊ะ ฉันได้ยินเสียงครูตะคอกใส่มิช่าอีกรอบอยู่ในอาคาร\nที่เงียบผิดปกติอย่างนี้ทั้งที่อยู่อีกฟากของโถงทางเดินและมีประตูกั้นอยู่สองบาน"
 
 # "Shizune's eyes are locked on mine, unblinking behind the gleaming lenses of her glasses, observing my reaction to her words."
-""
+"ชิซูเนะจ้องตาฉัน นัยน์ตาประกายแสงเบื้องหลังเลนส์แว่นตานั้นสังเกตปฏิกิริยาฉันที่มีต่อคำบอกเล่าของเธอ"
 
 # "This is a test. Her opinion of people is rarely formed from how they respond to questions; it's how they respond to statements that counts."
-""
+"สิ่งนี้คือแบบทดสอบ ชิซูเนะแทบไม่ได้มองคนจากปฏิกิริยาที่มีต่อคำถาม แต่มองจากปฏิกิริยาที่มีต่อประโยค\nเป็นส่วนใหญ่"
 
 # "In hindsight, it makes sense. Shizune's inability to speak, as well as just her personality in general, means that anything she “says” is a big commitment on her part. Everything."
-""
+"พอย้อนนึกดูแล้วก็สมเหตุสมผลอยู่ เนื่องจากชิซูเนะพูดไม่ได้กับทั้งด้วยนิสัยของเจ้าตัว ทำให้ทุกสิ่งที่ “พูด” นั้น\nคือสิ่งสำคัญสำหรับเธอ ทุกอย่างเลย"
 
 # "For that reason, I sometimes doubt she says anything without a hidden agenda behind it."
-""
+"และเพราะอย่างนี้เองบางครั้งฉันก็นึกเคลือบแคลงว่าสิ่งที่ชิซูเนะพูดนั้นมีเจตนาแอบแฝงอะไรหรือเปล่า"
 
 # "That sounds remarkably paranoid. Even Kenji would think so. Unfortunately, I'm so caught up in thinking about it that I forget to give her an answer. She takes it as there not being one. There was an invisible time limit to this test, shorter than usual."
-""
+"ฟังดูเป็นคนขี้ระแวงเอามาก ๆ แม้แต่เคนจิก็คงรู้สึกแบบนั้น โชคไม่ดีที่ฉันมัวแต่คิดถึงประโยคนั้นจนลืมให้คำตอบ\nกับชิซูเนะไป เธอถือเอาว่าฉันไม่มีคำตอบให้ แบบทดสอบนั้นมีตัวจับเวลาล่องหนอยู่ ซึ่งคราวนี้ให้เวลาน้อยกว่าปกติ"
 
 show shizu adjust_smug_close_ni
 with charachange
 
 # ssh "Just as I thought."
-ssh ""
+ssh "ว่าแล้วเชียว"
 
 # his "What do you mean?"
-his ""
+his "หมายความว่ายังไง"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "You don't agree?"
-ssh ""
+ssh "นายไม่เห็นด้วยเหรอ"
 
 # his "Not really, it's not that. I don't get it."
-his ""
+his "ก็ไม่เชิง ไม่ใช่แบบนั้นหรอก ฉันแค่ไม่เข้าใจ"
 
 show shizu basic_normal2_close_ni
 with charachange
 
 # ssh "I want to force my will on people."
-ssh ""
+ssh "ฉันอยากให้คนอื่นทำอะไรตามใจฉัน"
 
 # "How refreshingly honest."
-""
+"ซื่อตรงได้อย่างแปลกใหม่เหลือเกิน"
 
 show shizu behind_frown_close_ni
 with charachange
 
 # ssh "Don't give me a weird look like that. It's not like that was always my intention."
-ssh ""
+ssh "อย่ามองฉันแปลก ๆ อย่างนั้นสิ ฉันก็ไม่ได้มีเจตนาแบบนั้นตลอดสักหน่อย"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # ssh "At first, I was just bored. I wanted to see someone's passion for something. Then I could try and beat them. I wanted to test their ability or their convictions."
-ssh ""
+ssh "ทีแรกฉันก็แค่เบื่อ ฉันอยากเห็นคนที่มีใจรักกับการทำอะไรบางอย่างแล้วก็จะได้ลองเอาชนะ ฉันอยากทดสอบ\nฝีมือหรือไม่ก็ความมุมานะของคนที่ว่านั้น"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "But it was impossible, no one has any passion for anything in this school. They just want to keep to themselves."
-ssh ""
+ssh "แต่ก็ทำแบบนั้นไม่ได้ ในโรงเรียนนี้ไม่มีใครมีใจรักกับการทำอะไรเลย ทุกคนต่างอยากเก็บแรงขับนั้นไว้กับตัว"
 
 show shizu behind_frustrated_close_ni
 with charachange
 
 # ssh "I can't believe it. It's too boring that way. I thought that there was no way these drab people could be for real. It goes beyond not wanting to make waves."
-ssh ""
+ssh "ไม่อยากจะเชื่อเลย แบบนั้นก็น่าเบื่อเกินไปสิ ฉันเคยคิดว่าคนเรามันคงไม่จืดชืดได้ถึงขนาดนั้นจริง ๆ หรอก\nคงไม่ใช่แค่ว่าอยากอยู่เฉย ๆ ไม่ไปวุ่นวายกับอะไร"
 
 show shizu adjust_angry_close_ni
 with charachange
 
 # ssh "They had to have some interests. They had to be hiding something. I wanted to expose it, and reveal it, and drag it out."
-ssh ""
+ssh "ต้องมีสิ่งที่สนใจสิ ต้องซ่อนอะไรอยู่แน่ ๆ ฉันอยากดึงผ้าคลุมออกมา เปิดมันออกมา ลากมันออกมา"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "One of the most successful ways to get people to open up to you, and cheer them up, is to open up with a story about yourself. And then you ease them into telling you about themselves."
-ssh ""
+ssh "วิธีหนึ่งที่ทำให้คนอื่นเปิดใจกับเราแล้วให้กำลังใจได้ดีที่สุดคือเริ่มจากการเปิดใจด้วยเรื่องราวของตัวเราเองก่อน\nแล้วก็ค่อย ๆ ให้เขาเปิดใจเล่าเรื่องตัวเองบ้าง"
 
 show shizu adjust_happy_close_ni
 with charachange
 
 # ssh "It's like give and take, but with an element of manipulation, which makes it interesting."
-ssh ""
+ssh "เหมือนการให้กับการรับน่ะแหละ เพียงแต่อันนี้สอดไส้การชักใยที่ทำให้น่าสนใจขึ้นมาด้วย"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "I can't do that. If I attempt to have Misha talk about me, for me, it makes me seem arrogant. The message has to go through a messenger. I'm standing next to Misha, telling her to tell someone about me."
-ssh ""
+ssh "ฉันทำแบบนั้นไม่ได้ ถ้าฉันจะลองให้มิช่าเล่าเรื่องของฉันแทนฉันก็จะรู้สึกว่าตัวเองน่ะอวดดี สารต้องส่งผ่าน\nคนส่งสาร แล้วฉันมายืนอยู่ข้างมิช่าบอกให้มิช่าบอกคนอื่นถึงเรื่องของฉัน"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "You don't have to be able to read sign language to see that. If I were forced to sit through that, I would think I was arrogant, too."
-ssh ""
+ssh "ไม่ต้องอ่านภาษามือออกก็ดูออก ถ้าฉันต้องจำใจมานั่งฟังฉันก็จะคิดว่าฉันน่ะอวดดีเหมือนกัน"
 
 show shizu basic_angry_close_ni
 with charachange
 
 # ssh "I was frustrated; I couldn't figure out a way to have a conversation with anyone but Misha. No one would open up to me."
-ssh ""
+ssh "ฉันหงุดหงิดเพราะนอกจากมิช่าแล้วฉันก็ไม่รู้จะคุยกับคนอื่นยังไงดี ไม่มีใครยอมเปิดใจให้ฉันเลย"
 
 show shizu behind_frown_close_ni
 with charachange
 
 # ssh "I came to the conclusion that I can't make people confide in me, or believe in me. I can only hope to create things, and show them to people, and hope they make them happy. Or I could be more forceful and hope it would eventually stick to someone."
-ssh ""
+ssh "จนฉันก็สรุปเอาว่าฉันคงทำให้คนอื่นไว้ใจฉันไม่ได้ ที่ฉันจะทำได้ก็มีแค่สร้างสิ่งหนึ่ง เอาสิ่งนั้นไปให้คนอื่นดู แล้วก็\nหวังว่าพวกเขาจะมีความสุข หรือฉันจะยัดเยียดให้มากกว่านั้นแล้วหวังว่าสักวันคนจะประทับใจ"
 
 # "I guess that would be me. Feels vaguely depressing."
-""
+"ก็คงจะเป็นฉันนั่นแหละ รู้สึกหดหู่ขึ้นมาหน่อย ๆ แฮะ"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # ssh "Somewhere along the line, I think I started to ignore Misha, or see her as less of a person, or something like that. I took her for granted, I think would be the best way to put it. It was like she was just an extension of myself."
-ssh ""
+ssh "แล้วฉันว่าระหว่างนั้นฉันเริ่มเมินมิช่าไป ไม่ได้มองเป็นคนคนหนึ่ง หรืออะไรแบบนั้น ฉันไม่ได้มองมิช่าให้จริงจัง\nใช้คำนี้น่าจะดีที่สุด เหมือนว่ามิช่าเป็นแค่ส่วนเสริมของตัวฉัน"
 
 show shizu behind_sad_close_ni
 with charachange
 
 # ssh "I forgot that the whole time, Misha was there, opening up to me, and giving a hundred percent every day."
-ssh ""
+ssh "ฉันลืมไปว่ามิช่าอยู่เคียงข้างฉันเปิดใจให้ฉันแบบเต็มร้อยเสมอมา"
 
 show shizu basic_angry_close_ni at center
 with Dissolvemove(0.7)
 
 # ssh "I missed what I was looking for, because it was in plain sight. How stupid of me. I really did become arrogant. That's why I've lost. I'm more shortsighted than I was back then. I went in reverse."
-ssh ""
+ssh "ฉันคลาดกับสิ่งที่ฉันกำลังมองหาเพราะเป็นสิ่งที่เห็นกันจะจะตา ฉันมันโง่ กลายเป็นคนอวดดีไปจริง ๆ เพราะอย่างนี้\nฉันถึงได้แพ้ ฉันไม่ได้เป็นคนมองการณ์ไกลอย่างแต่ก่อน ความคิดฉันกลับด้านไป"
 
 # "She's pacing back and forth now, almost brooding, yet still filled with so much energy that she can't stand to stop moving."
-""
+"ชิซูเนะโยกตัวไปมาด้วยท่าทีหมอง ๆ ทว่ายังมีแรงเหลือมากจนอดอยู่นิ่ง ๆ ไม่ได้"
 
 # "If you got her to hold two wires I'm sure Shizune could power a light bulb. It's odd that I could have such a lighthearted thought while she's being so serious."
-""
+"ถ้าเอาสายไฟสองเส้นให้ชิซูเนะจับแล้วคงเอามาต่อให้หลอดไฟติดได้ แปลกดีที่ฉันคิดอะไรเพลิน ๆ แบบนี้ได้ทั้งที่เธอ\nกำลังจริงจังอยู่"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "And in spite of that, Misha tells me that I'm her inspiration. Isn't that ridiculous? I'm not the kind of person who can inspire others."
-ssh ""
+ssh "ถึงอย่างนั้นมิช่าก็ยังบอกฉันว่าฉันคือแรงบันดาลใจของเธอ บ้าดีเนอะ ฉันไม่ใช่คนที่จะไปเป็นแรงบันดาลใจให้ใคร\nได้เลย"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "Even if a person who inspires you is flawed, it can be acceptable. I've thought about this. There is even acceptable hypocrisy."
-ssh ""
+ssh "เรายังรับได้ต่อให้คนที่เป็นแรงบันดาลใจให้เรานั้นจะมีข้อเสีย ฉันไปลองคิดมาแล้วนะ ความย้อนแย้งบางอย่าง\nเราก็รับได้"
 
 show shizu basic_normal2_close_ni
 with charachange
 
 # ssh "For instance… If your hero was an athlete, but unsportsmanlike, they could still be respected for their athletic ability, even if they had shortcomings as a person."
-ssh ""
+ssh "ยกตัวอย่างเช่น… ถ้าพระเอกของเราเป็นนักกีฬาแต่ไม่มีน้ำใจนักกีฬา คนจะยังนับถือทักษะทางด้านกีฬา\nของคนนั้น ต่อให้จะมีนิสัยเสียก็ตาม"
 
 play sound sfx_snap
 show shizu adjust_angry_close_ni
 with charachange
 
 # ssh "However,"
-ssh ""
+ssh "แต่ว่า"
 
 # "She snaps her fingers briskly. It sounds like a thunderclap in the empty room, and Shizune takes a few seconds to stretch her fingers. Come to think of it, this is the most she has ever signed."
-""
+"ชิซูเนะดีดนิ้วรุนแรงจนฟังดูคล้ายมีฟ้าผ่าในห้องอันว่างเปล่าแห่งนี้ก่อนจะพักเหยียดนิ้วอยู่ครู่หนึ่ง จะว่าไปแล้ว ครั้งนี้\nเป็นครั้งแรกเลยที่เธอทำภาษามือเยอะขนาดนี้"
 
 show shizu cross_angry_close_ni
 with charachange
 
 # ssh "If someone like me has no goals, it would be totally unacceptable. It'd be the worst kind of hypocrisy. And hypocrites don't deserve responsibility over anything, they can't even manage themselves."
-ssh ""
+ssh "การที่คนอย่างฉันไม่มีเป้าหมายน่ะเป็นสิ่งที่ยอมรับไม่ได้หรอกนะ เป็นความย้อนแย้งแบบสุดกู่ และคนย้อนแย้ง\nก็ไม่สมควรจะมีหน้าที่รับผิดชอบอะไรเพราะแม้แต่จะจัดการตัวเองยังทำไม่ได้"
 
 # "How incredibly pessimistic. It makes me angry to think about it."
-""
+"มองโลกในแง่ลบเสียจริง คิดตามแล้วก็โมโห"
 
 # "I would hate myself just a few months ago. This must be how I looked to others."
-""
+"ถ้าเป็นสองสามเดือนก่อนฉันคงเกลียดตัวเองไปแล้ว คนอื่นคงมองฉันเป็นแบบนี้สินะ"
 
 # "And, funny enough, it was Shizune and Misha who convinced me to stop. Without them I'm sure things would be much different, and not for the better. "
-""
+"ซึ่งก็ตลกดีที่ชิซูเนะกับมิช่าเป็นคนทำให้ฉันเลิกทำตัวแบบนั้นได้ ถ้าไม่ได้สองคนนี้ฉันคิดว่าอะไรหลายอย่าง\nคงต่างไปจากตอนนี้มาก ๆ และไม่ได้ต่างไปในทางที่ดีด้วย"
 
 # "Lately, I feel as though we pass around our miseries as much as we're supported by each other, but I think it just comes with the territory of having friends and being close to someone."
-""
+"ช่วงนี้ฉันรู้สึกว่าเราต่างก็ส่งต่อความสิ้นหวังของกันและกันไปพอ ๆ กันกับการหนุนกันและกัน แต่ฉันว่าสุดท้ายมันก็คือ\nเรื่องของการมีเพื่อนกับการได้สนิทกับใครสักคนนั่นแหละ"
 
 # his "You're the leader anyway."
-his ""
+his "แต่เธอก็เป็นผู้นำนี่"
 
 show shizu behind_frown_close_ni
 with charachange
 
 # ssh "That is only because no one else wants to be."
-ssh ""
+ssh "เพราะไม่มีใครอยากเป็นหรอก"
 
 # his "But that means you still are, since people are putting their trust in you anyway. In fact, doesn't that make it more important?"
-his ""
+his "แต่ก็แปลว่าเธอยังเป็นผู้นำอยู่ เพราะคนอื่นก็ยังวางใจให้เธอรับหน้าที่นี้ ซึ่งที่จริง แบบนี้มันก็ยิ่งสำคัญเลย\nไม่ใช่เหรอ"
 
 # his "Either way, you are the leader, you are the inspirational figure or whatever you want to call it. You're responsible for what you tame."
-his ""
+his "แต่จะยังไงก็เถอะ เธอคือผู้นำ เป็นผู้ซึ่งเป็นแรงบันดาลใจให้ผู้คนหรืออะไรแล้วแต่เธอจะเรียก เธอจะต้องรับผิดชอบ\nต่อทุกสิ่งที่เธอมีความสัมพันธ์ด้วย"
 
 # his "I read that in a book somewhere."
-his ""
+his "ฉันเคยอ่านเจอจากที่ไหนสักที่น่ะ"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # ssh "That's clever."
-ssh ""
+ssh "คมดีนะ"
 
 # "Shizune only seems to show what she's feeling on her face when she wants to, but I don't think she's being sarcastic."
-""
+"ชิซูเนะเหมือนจะแสดงอารมณ์ผ่านสีหน้าได้ก็ต่อเมื่ออยากจะแสดงให้เห็นเท่านั้น แต่ฉันคิดว่าเธอคงไม่ได้ประชดหรอก"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "I don't want to “tame” anyone, though."
-ssh ""
+ssh "แต่ฉันไม่ได้อยาก “มีความสัมพันธ์” กับใครขนาดนั้นนะ"
 
 # his "Being the leader and being looked up to, then. Same thing."
-his ""
+his "งั้นก็เปลี่ยนเป็นการเป็นผู้นำให้คนนับถือแล้วกัน เหมือน ๆ กันนั่นแหละ"
 
 show shizu behind_frustrated_close_ni
 with charachange
 
 # ssh "I never wanted to be the leader, it just ends up that way."
-ssh ""
+ssh "ฉันไม่ได้อยากเป็นผู้นำเลย แค่ปล่อยไปตามน้ำแล้วมันมาลงเอยเอง"
 
 # his "I don't believe that, all you do is try to grab more and more responsibility."
-his ""
+his "ไม่เชื่อหรอก เธอก็เอาแต่คว้าภาระมาใส่ตัวเรื่อย ๆ"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "Wait, wait. I wasn't going to tell you that I don't enjoy it. I don't care about being the leader, but I don't mind. I don't care about being the best, but I don't mind. You're right, though, about me wanting responsibility."
-ssh ""
+ssh "เดี๋ยว ๆ ฉันไม่ได้บอกว่าฉันไม่ชอบ ฉันไม่ได้สนใจการเป็นผู้นำก็จริง แต่ฉันก็ไม่ถือเหมือนกัน ฉันไม่ได้สนใจ\nการเป็นที่หนึ่ง แต่ฉันก็ไม่ถือเหมือนกัน แต่ถูกของนายที่ว่าฉันอยากได้ภาระน่ะ"
 
 show shizu basic_happy_close_ni
 with charachange
 
 # ssh "Of course I want more responsibility. Having responsibility makes me feel alive. That's why I joined the Student Council: If there is no pressure, I just can't stand it."
-ssh ""
+ssh "แน่ละว่าฉันอยากรับภาระให้มากขึ้น การมีหน้าที่ที่ต้องรับผิดชอบน่ะทำให้ฉันรู้สึกกระปรี้กระเปร่าขึ้นมา\nนี่แหละฉันถึงได้มาเป็นสมาชิกสภานักเรียน ถ้าไม่มีแรงกดดันอะไรเลยฉันก็อยู่เฉยไม่ได้หรอก"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "Even so, now I'm the leader. I always thought being the leader meant you give orders, but it really is more."
-ssh ""
+ssh "ถึงอย่างนั้นตอนนี้ฉันก็มาเป็นผู้นำ ฉันเคยคิดมาตลอดว่าผู้นำคือคนสั่ง แต่จริง ๆ แล้วมันมีอะไรมากกว่านั้น"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "It's about having a goal. If I don't have a goal, then it's pointless. People would only be following me for my own enjoyment. It would be selfish."
-ssh ""
+ssh "สิ่งสำคัญคือการมีเป้าหมาย ถ้าฉันไม่มีเป้าหมายก็เปล่าประโยชน์ สิ่งที่คนจะทำตามฉันก็มีแค่สิ่งที่เป็นความอยาก\nของตัวฉันเอง ซึ่งเป็นอะไรที่เห็นแก่ตัวมาก"
 
 # "It's a strangely moral viewpoint for a person who seems to love one-upping others so much."
-""
+"เป็นมุมมองของคนที่ชอบเอาชนะคนอื่นที่มีศีลธรรมมากพิลึก"
 
 show shizu basic_normal2_close_ni
 with charachange
 
 # "Resting her chin on her tented fingers, Shizune looks disarmingly childish as she thinks hard about her problem. The expression on her face is a little comical, because it's too obvious, and therefore, very unlike her."
-""
+"ภาพที่ชิซูเนะเอาคางเกยนิ้วที่มาประกบกันพลางขบคิดถึงปัญหาตัวเองนั้นดูเป็นเด็กไร้พิษภัยใด ๆ สีหน้าเธอ\nดูตลกเล็กน้อยเพราะเป็นสีหน้าที่ชัดเจนมากจนไม่สมกับเป็นชิซูเนะ"
 
 # his "It comes with the job. I think you'd have to be a leader. You wouldn't be satisfied with anything else, you would just get bored."
-his ""
+his "มันก็มาพร้อมกับภาระหน้าที่นั่นแหละ ฉันว่ายังไงเธอก็ต้องเป็นผู้นำ เพราะไม่งั้นเธอจะเป็นอะไรก็คงไม่พอใจ\nเพราะจะเบื่อก่อน"
 
 show shizu basic_frown_close_ni
 with charachange
 
 # "Shizune doesn't reply, but from her annoyed expression, I think I've guessed correctly."
-""
+"ชิซูเนะไม่ตอบ แต่เดาจากสีหน้าหงุดหงิดนั้นแล้วฉันคงเดาถูกสินะ"
 
 # his "I've been thinking that I need a little direction, too."
-his ""
+his "ฉันก็คิด ๆ อยู่ว่าฉันเองก็ควรมีทิศทางชีวิตบ้าง"
 
 show shizu adjust_happy_close_ni
 with charachange
 
 # ssh "Were you told that it's important to contribute to society?"
-ssh ""
+ssh "มีคนบอกนายเหรอว่านายต้องทำตัวให้เป็นประโยชน์กับสังคมน่ะ"
 
 # "What an unusual response. It's so out of nowhere that I don't know how to respond. And it also bothers me, though I don't know why. Possibly because it doesn't seem like something that would come from her."
-""
+"ตอบได้แปลกจริง เป็นประโยคที่มาแบบลอย ๆ จนฉันไม่รู้จะตอบยังไงดี และไม่รู้ว่าทำไมฉันถึงข้องใจกับประโยคนั้นนัก\nอาจจะเพราะเป็นอะไรที่ฉันไม่คิดว่าชิซูเนะจะเป็นคนบอกมั้ง"
 
 # "So I start to think that it isn't Shizune's thought at all. I wonder who told her that. Well, it was probably her dad. But there is a chance that she came up with it on her own. If so, would it be because she can't hear?"
-""
+"ฉันเลยเริ่มคิดว่าหรือจริง ๆ แล้วจะไม่ใช่ความคิดของเจ้าตัวเลย ใครบอกมากันนะ ก็นะ คงเป็นพ่อละมั้ง แต่ก็\nมีโอกาสเหมือนกันที่เธอจะเป็นคนคิดเอง ถ้างั้นก็เป็นเพราะชิซูเนะฟังอะไรไม่ได้เหรอ"
 
 # his "Why do you say that?"
-his ""
+his "ทำไมถึงบอกแบบนั้น"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "Just because."
-ssh ""
+ssh "ก็อยาก"
 
 # his "I don't believe it."
-his ""
+his "ไม่เชื่อ"
 
 # his "I guess that's right, though."
-his ""
+his "แต่ก็คงจริงละนะ"
 
 show shizu basic_normal_close_ni
 with charachange
 
 # ssh "I see."
-ssh ""
+ssh "อย่างนี้นี่เอง"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "I don't know if it's the same for me. I hate it."
-ssh ""
+ssh "ฉันก็ไม่รู้ว่าฉันเป็นแบบนั้นเหมือนกันหรือเปล่า ไม่ชอบเลย"
 
 # "I think everyone wants a purpose. Looking back, it makes sense that Shizune doesn't have one. All that energy would otherwise have been directed at something."
-""
+"ฉันคิดว่าคนเราต่างก็ต้องการจุดมุ่งหมาย พอมองย้อนไปแล้ว การที่ชิซูเนะไม่มีจุดมุ่งหมายเลยนั้นก็สมเหตุสมผล\nไม่อย่างนั้นพลังทั้งหมดของเธอก็คงถูกนำไปทุ่มให้กับอะไรบางอย่างแล้ว"
 
 # "Since she had nothing to channel it towards, Shizune lashed out in all directions. Reminds me of a downed power line flailing in a storm: Furious and incandescent, but aimless and dangerous. Just like Shizune."
-""
+"และเพราะไม่มีบางอย่างให้ทุ่มใส่ ชิซูเนะจึงปล่อยพลังทั้งหมดไปคนละทิศละทาง ฉันนึกถึงสายไฟที่ขาดแล้วสะบัดอยู่\nท่ามกลางพายุ รุนแรงและสว่างวาบทว่าไร้ทิศทางและอันตรายเหมือนอย่างชิซูเนะ"
 
 # "I want to say that this is why she feels the need to turn everything into a competition, but… that's probably just how she is. Having a goal to put that energy towards is just the next level."
-""
+"ก็อยากจะคิดต่อไปอยู่หรอกว่าเพราะแบบนี้ชิซูเนะถึงได้อยากทำให้ทุกอย่างกลายเป็นการแข่งขัน แต่ว่า… เธออาจจะ\nเป็นแบบนี้อยู่แล้วก็ได้ การมีเป้าหมายให้ทุ่มเทก็เป็นแค่ขั้นถัดไปจากนั้น"
 
 show shizu behind_blank_close_ni
 with charachange
 
-ssh "How about this? I could go into business. My family is well connected, so it shouldn't be too hard. …That comes off sounding a little unethical and nepotistic, doesn't it?" 
+# ssh "How about this? I could go into business. My family is well connected, so it shouldn't be too hard. …That comes off sounding a little unethical and nepotistic, doesn't it?" 
+ssh "งั้นแบบนี้เป็นไง ฉันจะทำธุรกิจ ครอบครัวฉันก็มีเส้นสาย น่าจะทำได้ไม่ยากมาก …ฟังดูไม่ซื่อตรงเลยเนอะ รับฝาก\nโดยเส้นสายอะไรแบบนี้ ว่ามั้ย"
 
 # his "A little."
-his ""
+his "นิดหน่อย"
 
 show shizu adjust_frown_close_ni
 with charachange
 
 # ssh "I won't coast, though. I'll work hard, until I'm at the very apex."
-ssh ""
+ssh "แต่ฉันจะไม่ทำแบบหยิบหย่งหรอก ฉันจะทุ่มสุดตัวจนกว่าจะไปถึงจุดสูงสุด"
 
 # ssh "When I have as much money as possible, so much that it'll be like I won't know what to do with it, I'll move on to the next step. After sitting on it for a while, of course, like a fairy tale dragon."
-ssh ""
+ssh "พอฉันมีเงินเยอะมาก ๆ แบบสุดกำลังเท่าที่จะหาได้แล้ว—เยอะแบบไม่รู้จะเอาไปทำอะไรดี—ฉันก็จะขยับไป\nขั้นถัดไป แต่แน่นอนว่าต้องอยู่นิ่ง ๆ สักพักก่อนเหมือนอย่างมังกรในเทพนิยาย"
 
 # his "You want to be…?"
-his ""
+his "เธออยากเป็น…?"
 
 show shizu basic_happy_close_ni
 with charachange
 
 # ssh "A philanthropist!"
-ssh ""
+ssh "นักการกุศล!"
 
-# hi "…"
-hi ""
+hi "…"
 
 show shizu adjust_smug_close_ni
 with charachange
 
 # ssh "Tsk tsk. What were you thinking? That I want to be a miser?"
-ssh ""
+ssh "ชิ ๆ นี่นายคิดอะไรอยู่ คิดว่าฉันจะเป็นพวกโกยแล้วไม่แบ่งเหรอ"
 
 show shizu behind_blank_close_ni
 with charachange
 
 # ssh "Well, it's true, it is a part of the plan. Don't sell me short and stop there, though."
-ssh ""
+ssh "ก็จริง ตรงนั้นคือส่วนหนึ่งของแผนเหมือนกัน แต่อย่าดูถูกกันแล้วคิดว่าฉันจะหยุดแค่ตรงนั้นนะ"
 
 stop music fadeout 8.0
 
 # "Shizune still looks uneasy. Of course; even if she did seem to resolve her problem quickly, no one can get over their anxieties that fast. No one can solve their problems that easily."
-""
+"ชิซูเนะยังดูไม่สบายใจ แน่ละว่าดูจะคลี่คลายปัญหาของตัวเองได้เร็วจริง แต่ก็ไม่มีใครหรอกที่จะหายวิตกได้เร็วขนาดนั้น\nไม่มีใครที่จะแก้ปัญหาของตัวเองได้ง่ายขนาดนั้น"
 
 # "The important thing is, it looks as though she has her heart set on trying. It's still hard to tell whether that drive of hers comes from a good or bad place."
-""
+"ทว่าสิ่งสำคัญคือดูท่าว่าชิซูเนะจะยังตั้งใจพยายามต่อไป ฉันยังดูไม่ออกว่าต้นทางแรงขับเคลื่อนของเธอนั้นเป็นแหล่งที่ดี\nหรือไม่ดี"
 
 # "But she has something to hold on to now. I can genuinely believe that she does. I'm happy for her. And at the same time, I feel a little cold. I'm the one who's behind. Now, I'm the only one without a goal."
-""
+"แต่ตอนนี้ชิซูเนะก็มีีอะไรให้ยึดเหนี่ยวแล้ว ฉันเชื่อได้อย่างสนิทใจ ดีใจแทนจริง ๆ และในขณะเดียวกันก็รู้สึกเย็นเยียบ\nขึ้นมาหน่อย ๆ ฉันยังรั้งท้ายอยู่ ตอนนี้เหลือแค่ฉันแล้วที่ยังไม่มีเป้าหมาย"
 
 $ suppress_window_after_timeskip = True
 
