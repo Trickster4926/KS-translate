@@ -6070,27 +6070,27 @@ scene bg school_scienceroom
 with locationchange
 
 # "The next day, Misha is back in class, although still looking pretty sullen. Not that I was expecting her to magically feel better; that would be asking the impossible considering what happened."
-""
+"วันถัดมามิช่ากลับมาเข้าเรียนแล้ว แม้จะยังดูซึม ๆ พอสมควร ซึ่งฉันก็ไม่ได้คาดหวังว่ามิช่าจะรู้สึกดีขึ้นโดยมหัศจรรย์\nหรอก ถ้าดูจากเรื่องที่เกิดแล้วจะให้หวังแบบนั้นคงเป็นไปไม่ได้"
 
 # "This time it's Shizune who's out. At first, it almost makes me laugh that suddenly whenever one is in class the other isn't. But thinking about it, there's nothing funny at all about it. In fact, I find it hard to concentrate on my work because of it."
-""
+"แต่คราวนี้เป็นชิซูเนะที่ไม่อยู่แทน ทีแรกฉันก็เกือบจะขำอยู่แล้วที่อยู่ ๆ พอมีคนหนึ่งอยู่ในห้องอีกคนจะไม่อยู่\nแต่พอคิดแล้วก็ไม่ใช่เรื่องน่าขำเลย ที่จริง ฉันไม่มีสมาธิทำงานเพราะเรื่องนี้ด้วยซ้ำ"
 
 # "It could be that she's just sick. Or she could simply be skipping class. It could also be something more serious, and I'm tempted to ask Misha if she knows, but I end up doing nothing."
-""
+"อาจจะแค่ไม่สบาย หรือไม่ก็แค่โดดเรียนเฉย ๆ หรือไม่ก็อาจเป็นอะไรที่หนักหนากว่านั้น ในใจนึกอยากถามมิช่า\nว่ารู้หรือเปล่า แต่สุดท้ายก็ไม่ทำอะไร"
 
 # "I don't regret stepping in yesterday, scared that Misha would do something rash."
-""
+"เมื่อวานฉันไม่นึกเสียใจเลยที่เข้าไปช่วยด้วยกลัวว่ามิช่าจะบุ่มบ่ามทำอะไรลงไป"
 
 play sound sfx_normalbell
 
 # "But now I feel like I should give her some space. Eventually, the bell rings, and Misha gets up for lunch along with everyone else. I decide to eat lunch in an empty classroom today… just not this one."
-""
+"แต่ตอนนี้ฉันกลับรู้สึกว่าควรให้พื้นที่กับมิช่าอีกหน่อย จนในที่สุดระฆังก็ดังแล้วมิช่าก็ลุกขึ้นไปกินข้าวเที่ยงพร้อม ๆ กัน\nกับคนอื่น วันนี้ฉันคิดจะกินข้าวอยู่ในห้องเรียนที่ไม่มีใคร… แต่ไม่ใช่ห้องนี้"
 
 scene bg school_hallway3
 with locationchange
 
 # "Unfortunately, a lot of other students seem to have the same idea, so there aren't a whole lot of empty classrooms to go around. Finally, as I'm about to give up on the idea, I find a dark one at the end of the hall."
-""
+"โชคไม่ดีที่นักเรีนนคนอื่น ๆ ก็เหมือนคิดจะทำแบบเดียวกัน จึงไม่ค่อยมีห้องเรียนที่ว่างให้อยู่ได้ สุดท้ายพอจะ\nเลิกล้มความคิดก็มาเจอกับห้องมืด ๆ ห้องหนึ่งที่อยู่ตรงสุดโถงทางเดิน"
 
 scene bg school_miyagi
 show lilly back_surprise:
@@ -6099,37 +6099,37 @@ show lilly back_surprise:
 with locationchange
 
 # "On turning the lights on, however, I find out that this one isn't empty either. Lilly's head turns in my direction, which freaks me out before I realize she probably heard me flipping the light switch."
-""
+"แต่เมื่อเปิดไฟก็เห็นว่าห้องนี้ก็ไม่ว่างเหมือนกัน ลิลลี่หันหัวมาทางฉันจนฉันสะดุ้งตกใจก่อนจะนึกได้ว่าคงได้ยินเสียงฉัน\nกดสวิตช์ไฟ"
 
 show lilly basic_listen
 with charachange
 
 # li "Hello."
-li ""
+li "สวัสดีจ้ะ"
 
 # hi "Hey, Lilly. I didn't think anyone else would be here."
-hi ""
+hi "ไงลิลลี่ ไม่คิดว่าจะมีคนอยู่ด้วยนะเนี่ย"
 
 show lilly basic_weaksmile
 with charachange
 
 # li "Is that you, Hisao?"
-li ""
+li "ใช่ฮิซาโอะหรือเปล่า"
 
 # hi "Yeah, but you probably knew that already."
-hi ""
+hi "อื้ม แต่เธอคงรู้อยู่แล้วละ"
 
 # "I turn to leave, which prompts Lilly to quickly speak up."
-""
+"ฉันตั้งท่าจะเดินออกห้องจนกระทั่งลิลลี่รีบพูดขึ้นมา"
 
 show lilly basic_smile
 with charachange
 
 # li "You don't have to leave so quickly. We can both have lunch in the same room. As a matter of fact, I would prefer to eat with someone else."
-li ""
+li "ไม่เห็นต้องรีบไปเลยนี่จ๊ะ เรากินข้าวเที่ยงด้วยกันในห้องนี้ก็ได้ แล้วฉันก็ชอบกินข้าวกับคนอื่นมากกว่าด้วย"
 
 # "I'm about to ask her how she knew I was here to eat lunch, but brush it aside. It's just simple common sense, and I don't want to seem too easily impressed."
-""
+"ฉันกำลังจะถามว่ารู้ได้ยังไงว่าฉันจะมากินข้าวเที่ยง แต่ก็ตัดใจไม่ถามไป เป็นเรื่องง่าย ๆ ที่ใคร ๆ ก็คงคิดได้ แล้วฉันก็\nไม่อยากทำตัวเหมือนเป็นคนที่ประทับใจกับอะไรง่าย ๆ ด้วย"
 
 show lilly basic_smile_close:
     center
@@ -6137,46 +6137,46 @@ show lilly basic_smile_close:
 with characlose
 
 # "I take a seat at the desk in front of Lilly, after reversing it to face hers. I've heard that our minds fill in a lot of what we see based on how we remember seeing it once before, or our expectations."
-""
+"ฉันนั่งลงที่โต๊ะตรงหน้าลิลลี่หลังจากที่ฉันพลิกให้หันหน้าเข้ามาชนกับโต๊ะลิลลี่แล้ว เคยได้ยินมาว่าสมองคนเราช่วยเสริม\nภาพอะไรหลายอย่างที่เราเห็นโดยใช้ความจำที่เคยเห็นมาก่อนหรือการคาดหมายเป็นฐาน"
 
 # "Mostly for efficiency, so as to not have to process everything you look at individually."
-""
+"ซึ่งหลัก ๆ ก็เพื่อการทุ่นแรงจะได้ไม่ต้องประมวลผลทุกอย่างที่มองเห็นไปเสียทั้งหมด"
 
 # "Lilly never seems to stop to question any noise. So, I wonder, is it because her mind is filling in context every time? Or does she not care and just sort of accept things as they fall into place?"
-""
+"ลิลลี่ดูจะไม่นึกสงสัยเสียงอะไรเลยสักครั้ง ฉันจึงสงสัยว่าเป็นเพราะสมองช่วยเสริมบริบทให้ทุกครั้งหรือเปล่า หรือแค่\nไม่สนใจแล้วยอมรับอะไรทุกอย่างไปตามนั้นเลย"
 
 # "On her desk there are just a few cookies and a thermos of tea. She must be one of those light lunch types. I bite into my sandwich. Some of the ingredients spill out the back end."
-""
+"บนโต๊ะมีเพียงคุกกี้อยู่จำนวนหนึ่งกับกระบอกเก็บอุณหภูมิที่ใส่น้ำชาไว้ คงเป็นพวกที่ไม่กินมื้อเที่ยงเยอะสินะ ฉันกัด\nแซนด์วิชกิน ไส้บางส่วนทะลักออกอีกฟาก"
 
 show lilly basic_ara_close
 with charachange
 
 # li "We haven't spoken in a long time, I'm surprised that you still remember my name."
-li ""
+li "ไม่ได้คุยกันเสียนาน แปลกใจนะจ๊ะเนี่ยที่ยังจำชื่อกันได้"
 
 # hi "Mmphffmm?"
-hi ""
+hi "อืมมหืมม?"
 
 show lilly basic_smileclosed_close
 with charachange
 
 # li "It must be very busy in the Student Council."
-li ""
+li "งานสภานักเรียนคงยุ่งน่าดูเลยนะจ๊ะ"
 
 # hi "It's different every week. Some weeks are pretty slow, some weeks I consider taking a sick day."
-hi ""
+hi "ก็แล้วแต่แหละ บางสัปดาห์ก็เอื่อยหน่อย บางสัปดาห์ก็นั่งคิดว่าจะขอวันลาป่วยดีไหม"
 
 # "Hold on, Lilly, I need a second to catch my breath from inhaling that sandwich."
-""
+"แป๊บนะลิลลี่ ขอเวลาพักหายใจจากการสูบแซนด์วิชอันนั้นก่อน"
 
 show lilly basic_smile_close
 with charachange
 
 # li "And how has it been lately?"
-li ""
+li "แล้วช่วงนี้เป็นยังไงบ้าง"
 
 # hi "Unpredictable."
-hi ""
+hi "คาดเดาไม่ได้"
 
 play sound sfx_snap
 
@@ -6184,202 +6184,202 @@ show lilly basic_oops_close
 with vpunch
 
 # "I snap my fingers, which, from her facial expression, upsets her a lot."
-""
+"ฉันดีดนิ้ว ซึ่งดูจากสีหน้าแล้วลิลลี่คงไม่พอใจมาก"
 
 show lilly basic_reminisce_close
 with charachange
 
 # li "I think that you have been hanging out around those two too much."
-li ""
+li "ฉันว่าเธออยู่กับสองคนนั้นบ่อยไปแล้วนะ"
 
 # hi "I guess it is one of Shizune's trademarks. Personally, I like it."
-hi ""
+hi "น่าจะเป็นเอกลักษณ์หนึ่งของชิซูเนะเลย ฉันชอบนะ"
 
 show lilly basic_displeased_close
 with charachange
 
 # li "I ignore it."
-li ""
+li "ฉันจะเมินจ้ะ"
 
 # "Her tone doesn't change even slightly, but Lilly's mood has obviously dipped."
-""
+"น้ำเสียงลิลลี่ไม่เปลี่ยนไปเลยแม้แต่น้อย แต่ชัดว่าเธออารมณ์เสียแล้ว"
 
 # hi "Doesn't seem like it would be easy to. I've been trying to figure out how she can make it so loud, but I think I'm damaging my knuckles."
-hi ""
+hi "น่าจะเมินยากหน่อยนะ ฉันกำลังลอง ๆ ดูอยู่ว่าดีดยังไงให้ได้ดังขนาดนั้น แต่เหมือนจะทำข้อนิ้วฉันพังไปเรื่อย ๆ\nเลย"
 
 show lilly behind_displeased_close
 with charachange
 
 # li "Even if it were loud enough to break the windows, I would ignore it. I'm not a trained seal; I have that luxury."
-li ""
+li "ต่อให้ดังถึงขั้นกระจกหน้าต่างแตกฉันก็จะเมินจ้ะ ฉันไม่ใช่แมวน้ำที่เขาฝึกกัน ฉันไม่ได้ต่ำขนาดนั้น"
 
 # hi "Are you still mad about that?"
-hi ""
+hi "เธอยังโกรธอยู่เหรอ"
 
 # "I ask the question as carefully and diplomatically as possible, although in the end I'm only asking to satisfy my curiosity."
-""
+"ฉันถามไปอย่างรอบคอบและวางตัวให้เป็นกลางที่สุดเท่าที่จะทำได้ ถึงเอาเข้าจริง ๆ แล้วฉันจะถามด้วยความสงสัย\nของตัวเองอย่างเดียวก็เถอะ"
 
 show lilly basic_weaksmile_close
 with charachange
 
 # li "No, of course not, although I don't like Shizune."
-li ""
+li "ไม่ ไม่หรอกจ้ะ ถึงฉันจะไม่ชอบชิซูเนะก็เถอะ"
 
 show lilly basic_reminisce_close
 with charachange
 
 # li "We were in the Student Council together for a brief time."
-li ""
+li "เราเคยอยู่ด้วยกันในสภานักเรียนอยู่พักหนึ่ง"
 
 # hi "I heard."
-hi ""
+hi "เคยได้ยินมาอยู่"
 
 show lilly basic_sleepy_close
 with charachange
 
 # li "I wish you hadn't been so quick to join."
-li ""
+li "ฉันไม่อยากให้เธอรีบเข้าร่วมสภานักเรียนขนาดนั้นเลย"
 
 show lilly basic_listen_close
 with charachange
 
 # li "I don't like the way Shizune runs the Student Council. Did you know that she scared off most of the old members? That is why I think she tries to surround herself with people who won't oppose her."
-li ""
+li "ฉันไม่ชอบที่ชิซูเนะใช้วิธีนั้นมาขับเคลื่อนสภานักเรียนเลย เธอรู้มั้ยว่าชิซูเนะทำสมาชิกรุ่นเก่าหลายคนกระเจิง\nไปหมด เพราะอย่างนี้ฉันถึงได้คิดว่าชิซูเนะกำลังจะทำให้รอบตัวมีแต่คนที่ไม่ยอมต่อต้านตัวเอง"
 
 show lilly basic_reminisce_close
 with charachange
 
 # li "And they don't. It's like a dependency bubble."
-li ""
+li "ซึ่งคนพวกนั้นก็ไม่ต่อต้าน อยู่แบบนั้นก็เหมือนอยู่ในฟองสบู่ที่มีแต่คนหนุน"
 
 # "I'm sure that Shizune is aware of what Lilly is saying. After all, I can remember her specifically denying it a couple times, which I'd always thought was strange."
-""
+"ฉันมั่นใจว่าชิซูเนะรู้ดีถึงสิ่งที่ลิลลี่กำลังพูดอยู่ ก็ยังจำได้อยู่ว่าชิซูเนะปฏิเสธเรื่องนี้โดยเฉพาะไปแล้วสองครั้ง ซึ่งฉัน\nก็รู้สึกแหม่ง ๆ มาตลอด"
 
 # "They say that the more specific a denial is, the more likely it is that the allegations are true. In this case, I think I'd disagree. Shizune is the one subject on which her opinion could be called less than objective."
-""
+"เขาว่ากันว่ายิ่งคนเราปฏิเสธอะไรโดยเจาะจงมากเท่าไหร่ ก็ยิ่งเป็นไปได้ว่าข้อกล่าวหานั้นจะเป็นจริง แต่กับกรณีนี้\nฉันขอค้าน เพราะความเห็นของชิซูเนะคงนับไม่ได้ว่าเป็นอะไรที่เป็นกลางนัก"
 
 # hi "Did you tell her that?"
-hi ""
+hi "เธอบอกชิซูเนะว่างั้นเหรอ"
 
 show lilly basic_displeased_close
 with charachange
 
 # li "Very often."
-li ""
+li "หลายครั้งเลยจ้ะ"
 
 # "Lilly stops to polish off the last of her tea. I'm running behind on finishing my own lunch and take advantage of the pause to eat as much as possible."
-""
+"ลิลลี่เว้นช่วงไปเพื่อจิบชาอึกสุดท้าย ฉันจะกินข้าวเที่ยงหมดช้ากว่าเธอไปแล้วจึงอาศัยจังหวะพักนี้กินให้เยอะที่สุด\nเท่าที่จะทำได้"
 
 show lilly basic_sleepy_close
 with charachange
 
 # li "All of her friends are related to the Student Council, like Misha."
-li ""
+li "เพื่อนของชิซูเนะหลายคนก็วนเวียนอยู่กับสภานักเรียนอย่างมิช่านี่แหละจ้ะ"
 
 # li "I heard things are touchy between her and Misha. Did they have a fight?"
-li ""
+li "ฉันได้ยินมาว่าความสัมพันธ์ของชิซูเนะกับมิช่าค่อนข้างอ่อนไหว สองคนนั้นทะเลาะกันเหรอจ้ะ"
 
 # hi "Not really."
-hi ""
+hi "ไม่เชิง"
 
 show lilly basic_surprised_close
 with charachange
 
 # li "Is that so?"
-li ""
+li "งั้นหรอกเหรอ"
 
 show lilly basic_reminisce_close
 with charachange
 
 # li "Either way, there is no point in attempting to force them to make up. Always try to confront everything head-on is what Shizune would do, but it doesn't work in the real world. At some point, it's just being stubborn, not bravery or good intentions."
-li ""
+li "แต่เอาเถอะจ้ะ ฝืนให้สองคนนั้นคืนดีกันไปก็คงไม่ได้อะไรขึ้นมา ชิซูเนะเป็นคนที่จะพุ่งเข้าชนกับปัญหาทุกอย่าง\nทุกครั้ง แต่โลกความเป็นจริงทำแบบนั้นไม่ได้หรอกจ้ะ บางครั้งทำแบบนั้นไปก็เป็นได้แค่ความรั้น ไม่ใช่ความกล้าหาญ\nหรือเจตนาดี"
 
 # hi "That's a little general, don't you think?"
-hi ""
+hi "เหมารวมไปหน่อยนะ เธอว่าไหม"
 
 show lilly basic_smileclosed_close
 with charachange
 
 # li "Hm, I suppose."
-li ""
+li "อืมม มั้งนะจ๊ะ"
 
 show lilly basic_weaksmile_close
 with charachange
 
 # li "What do you think is the best to have with tea? Cookies, or scones? I like them both, in different ways. I couldn't possibly choose."
-li ""
+li "เธอคิดว่าชาต้องกินกับอะไรถึงจะดีที่สุดเหรอจ๊ะ คุกกี้หรือสโคน ฉันชอบทั้งสองอย่าง ชอบคนละแบบ เลือกไม่ได้เลย"
 
 show lilly basic_displeased_close
 with charachange
 
 # li "I don't like people who constantly force me to pick sides or want to turn everything into a contest."
-li ""
+li "ฉันไม่ชอบคนที่บังคับให้ฉันต้องเลือกข้างหรือทำให้ทุกอย่างเป็นการแข่งขันตลอด"
 
 # li "When I joined the Student Council, I thought it would just mean helping everything run smoothly and helping people out, like being the class representative."
-li ""
+li "ตอนฉันมาเข้าร่วมสภานักเรียนฉันก็คิดว่าถ้าเป็นแล้วก็คงแค่ได้มาช่วยทำให้อะไร ๆ ดำเนินไปอย่างราบรื่นขึ้น\nกับมาช่วยทุกคน เช่นการเป็นหัวหน้าห้อง"
 
 show lilly basic_reminisce_close
 with charachange
 
 # li "Instead, every day consisted of having Shizune stomp around, using Misha like a megaphone, to talk about how we had to outdo the last Student Council, and create more and more events, and make them increasingly larger."
-li ""
+li "แต่กลับกลายเป็นว่าวัน ๆ มีแต่ชิซูเนะมาไล่จิกหัวใช้มิช่าเหมือนเป็นโทรโข่งป่าวประกาศว่าเราต้องทำให้ดีกว่า\nสภานักเรียนรุ่นก่อน สร้างงานขึ้นมาอีกเยอะ ๆ ให้แต่ละงานใหญ่ขึ้นเรื่อย ๆ"
 
 # hi "But then the two of you basically want the same thing. All that stuff makes things exciting. I didn't really get it at first, but it's not some ego project. People like fireworks, and soba huts, candied apples, and dress-up days, or whatever."
-hi ""
+hi "งั้นเอาเข้าจริงแล้วเธอสองคนก็มองหาสิ่งเดียวกันนี่ ทำอะไร ๆ ให้ทุกอย่างน่าตื่นเต้นขึ้นน่ะ ทีแรกฉันก็\nไม่ค่อยเข้าใจ แต่มันไม่ใช่โครงการที่ทำมาเพื่ออีโก้ตัวเองโดยเฉพาะหรอกนะ ทุกคนก็ชอบดอกไม้ไฟ แผงบะหมี่\nแอปเปิลเคลือบน้ำตาล วันแต่งชุดสวยงาม หรืออะไรก็ช่างเถอะ"
 
 # hi "The more the Student Council does, the more responsibility the school gives us. It means extra work, but in a way, it also means more freedom."
-hi ""
+hi "ยิ่งสภานักเรียนทำอะไรหลายอย่าง ทางโรงเรียนก็จะให้ภาระเรามามากขึ้น และหมายความว่างานจะเยอะขึ้นก็จริง\nแต่ในแง่หนึ่งก็แปลว่าเราได้ทำอะไรอย่างอิสระขึ้นด้วย"
 
 # hi "You have the pull to do things like organize a big festival, and they'll think you're capable enough to handle it instead of just rejecting it instantly."
-hi ""
+hi "เราจะได้มีอำนาจทำสิ่งต่าง ๆ อย่างเช่นการจัดงานเทศกาลใหญ่ ๆ ทางโรงเรียนก็จะมองว่าเรามีความสามารถ\nมากพอที่จะจัดการได้ แทนที่จะปัดตกไปทันทีที่เสนอ"
 
 # hi "Anyway, I want that too, now. It's got its share of pointless busywork, but there are moments that make it worth it when everything comes together. It gives me something to do. If I were to just go to school day in, day out, I think I'd explode."
-hi ""
+hi "แต่นั่นแหละ ฉันก็อยากได้แบบนั้นเหมือนกัน ถึงจะมีงานยุ่งยากเปล่าประโยชน์เพิ่มมาบ้าง แต่พอทุกอย่างมันสำเร็จ\nออกมาได้แล้วก็คุ้มค่าอยู่ ฉันก็จะได้มีอะไรให้ทำ ถ้าฉันต้องมาโรงเรียนเฉย ๆ วันแล้ววันเล่าฉันคงตายก่อนพอดี"
 
 show lilly basic_weaksmile_close
 with charachange
 
 # li "I think Yamaku is much more easygoing than other schools."
-li ""
+li "ฉันคิดว่ายามากุน่ะปล่อยอิสระกว่าโรงเรียนอื่นมาก"
 
 # "Yamaku isn't other schools, though."
-""
+"แต่ยามากุไม่ใช่โรงเรียนอื่นนะ"
 
 # "I start slipping into another, familiar mentality. In some ways, it's almost too easygoing."
-""
+"ฉันเผลอเอามุมมองเรื่องความคุ้นเคยมาใช้อีกแล้ว ในแง่หนึ่งก็แทบจะเรียกได้ว่าปล่อยอิสระมากไป"
 
 # "And if I were a different person I'm sure that I would find how easygoing it was to be stifling, though in any other school, such easiness would just be the normal flow of life."
-""
+"และถ้าฉันไม่ใช่ฉันตอนนี้ฉันคงจะรู้สึกว่าความปล่อยอิสระนี้ชวนให้อึดอัด แต่ถ้าได้อยู่โรงเรียนอื่น ๆ แล้วความอิสระนั้น\nคงเป็นแค่แนวทางการดำเนินชีวิตตามปกติ"
 
 # "But here, the uneventfulness would be compounded. It would feel different, because I'm not a normal person, after all."
-""
+"แต่{i}ความมีอะไร{/i}ของที่นี่นั้นเป็นสิ่งที่ประกอบสร้างขึ้นมา จะรู้สึกว่าไม่ใช่สิ่งปกติ เพราะฉันก็ไม่ใช่คนปกตินี่นะ"
 
 # "I'd be reminded of it every time I heard the blood beating in my temples. I'd feel patronized and weak, and my bitterness would only grow."
-""
+"เสียงชีพจรที่เต้นอยู่ตรงขมับนั้นเป็นสิ่งเตือนฉันทุกครั้งทำให้รู้สึกด้อยและอ่อนแอ คอยเพิ่มความขื่นขมให้ทับถม\nกันมากขึ้น"
 
 # hi "Yeah, sure."
-hi ""
+hi "อ่า อืม"
 
 # hi "The point is, I think I understand what it's all about now. You're really giving Shizune too much of a hard time."
-hi ""
+hi "ประเด็นคือฉันรู้สึกว่าตอนนี้ฉันเข้าใจความหมายของงานสภานักเรียนแล้ว เธอน่ะก็ใจร้ายกับชิซูเนะเกินไปนะ"
 
 show lilly basic_sleepy_close
 with charachange
 
 # li "That might be true, but when it comes to how she treats individual people, she doesn't do very well."
-li ""
+li "ก็อาจจะจริงนะ แต่เรื่องการปฏิบัติกับใครสักคนของชิซูเนะนี่ใช้ไม่ค่อยได้เลยนะจ๊ะ"
 
 # "Unfortunately, that one is a little harder to argue."
-""
+"โชคไม่ดีที่เรื่องนั้นเถียงยากหน่อย"
 
 show lilly basic_smile_close
 with charachange
 
 # li "Do you have the time? I like to go to class ten minutes before the bell."
-li ""
+li "พอทราบไหมจ๊ะว่าตอนนี้กี่โมงแล้ว ฉันจะเข้าเรียนก่อนระฆังดังสิบนาทีน่ะ"
 
 # hi "Then you're right on time if you go now."
-hi ""
+hi "งั้นถ้าไปตอนนี้ก็ทันพอดี"
 
 show lilly invis_close at center
 with dissolvecharamove
@@ -6387,10 +6387,10 @@ with dissolvecharamove
 stop music fadeout 4.0
 
 # "Excusing herself, Lilly leaves, and I sit listening to the clicking of her cane on the floor fading into the mumble of other students having conversations in the other classrooms and in the hall."
-""
+"ลิลลี่ขอตัวปลีกไปก่อน ส่วนฉันนั่งฟังเสียงไม้เท้าที่กระทบกับพื้นของเธอซึ่งค่อย ๆ กลืนหายไปกับเสียงจอแจ\nของนักเรียนคนอื่น ๆ ที่คุยกันอยู่ในห้องเรียนกับโถงทางเดิน"
 
 # "I feel exhausted, and completely forget that I wanted to talk to Shizune today."
-""
+"ฉันอ่อนล้าจนลืมเสียสนิทว่าวันนี้ฉันอยากคุยกับชิซูเนะ"
 
 scene black
 with dissolve
