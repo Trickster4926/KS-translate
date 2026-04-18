@@ -3636,7 +3636,7 @@ show mishashort cross_frown_close_ss
 with charachange
 
 # mi "Definitely~. You can't take it too seriously~! If you aren't always thinking big, thinking positive, and if you show any signs of weakness, people will start to think you're incompetent, you know~."
-mi "ใช่เลย~ ไม่มีคำว่าจริงจังเกินไปหรอกนะ~! ถ้าไม่ฝันให้ใหญ่ ไม่คิดให้บวก ออกอาการว่าอ่อนแอ คนจะคิดว่าเรา\nเป็นพวกไม่มีน้ำยาเอาได้นะ~"
+mi "ใช่เลย~ ไม่มีคำว่าจริงจังเกินไปหรอกนะ~! ถ้าไม่คิดให้ใหญ่ ไม่คิดแง่บวก แสดงความอ่อนแอ คนจะคิดว่าเรา\nเป็นพวกไม่มีน้ำยาเอาได้นะ~"
 
 show mishashort sign_confused_close_ss
 with charachange
@@ -3651,7 +3651,7 @@ with charachange
 mi "เพราะงั้น~! จำไว้~ อาจดูเหมือนเป็นงานง่าย ๆ แต่ในห้องนี้ก็อาจมีการถล่มกันเกิดขึ้นได้ อะฮ่าฮ่า~ แล้วก็~\nนอกห้องก็เกิดได้ด้วย ไหนจะต้องรับมือกับคนของทางโรงเรียนอีก! แม้แต่การไปขอรายงานงบประมาณจากหัวหน้าห้อง\nก็อาจกลายเป็นศึกชิงเลือดกันได้เลยนะ~ บางที"
 
 # hi "…Yeah. It's kill or be killed. There are no friends in the pits and you take no prisoners. …Are you sure about this? Is this right?"
-hi "…ใช่ หลักการของที่นี่คือไม่ฆ่าก็ถูกฆ่า ***** …เธอแน่ใจแล้วเหรอ ให้พูดแบบนี้ใช่มั้ย"
+hi "…ใช่ หลักการของที่นี่คือไม่ฆ่าก็ถูกฆ่า อย่าผูกมิตรกับใครและอย่ารับเชลย …เธอแน่ใจแล้วเหรอ ให้พูดแบบนี้\nใช่มั้ย"
 
 show shizu basic_angry_close_ss
 with charachange
@@ -6404,19 +6404,19 @@ scene bg school_hallway3
 with locationchange
 
 # "After classes the next day, I instantly head towards the student council room to talk to Shizune."
-""
+"วันถัดมา พอเลิกเรียนแล้วฉันก็มุ่งไปยังห้องสภานักเรียนทันทีหมายจะคุยกับชิซูเนะ"
 
 # "Even though she's in class, trying to cut her off and have a conversation with her near the doorway or out in the hall could be a little obstructive."
-""
+"ถึงจะอยู่ในห้องเดียวกัน แต่จะให้ไปดักรอแล้วเปิดประเด็นตรงประตูหรือที่โถงทางเดินก็คงเกะกะคนอื่น"
 
 scene bg school_lobby
 with locationchange
 
 # "Better to try and meet up with her at the student council room. I take my time heading there, getting a juice from the vending machine on the way."
-""
+"ไปรอเจอที่ห้องสภานักเรียนน่าจะดีที่สุด ฉันค่อย ๆ เดินไปไม่เร่งร้อน โดยระหว่างทางก็แวะซื้อน้ำผลไม้\nจากตู้ขายของแบบหยอดเหรียญ"
 
 # "I also go over what I want to say to her in my head. It's nothing too important, only a few questions about upcoming events."
-""
+"และทวนสิ่งที่อยากบอกชิซูเนะอยู่ในหัวไปด้วย ไม่ใช่อะไรสลักสำคัญนัก แค่คำถามสองสามข้อเรื่องงานที่ใกล้เข้ามา"
 
 scene bg school_council
 with locationchange
@@ -6424,76 +6424,75 @@ with locationchange
 play music music_rain fadein 8.0
 
 # "The door is unlocked when I get there. I'd think the room was empty too, if I couldn't see Shizune's bag perched on her desk, with the top of her head peeking from behind it. It looks as though she's built herself a little fort."
-""
+"พอไปถึงก็เห็นว่าประตูไม่ได้ล็อก และคงจะคิดว่าในห้องไม่มีคนด้วยถ้าไม่เห็นกระเป๋าชิซูเนะที่วางอยู่บนโต๊ะกับหัวเธอ\nที่โผล่ออกมาจากกระเป๋า เหมือนสร้างปราการขนาดย่อมให้ตัวเองไว้เลย"
 
 show shizu basic_normal at center
 with charaenter
 
 # "Shizune gives a wave from behind her bag, before picking it up with a finger and moving it out of the way."
-""
+"ชิซูเนะโบกมือให้ทั้งที่กระเป๋ายังบังอยู่ก่อนจะใช้นิ้วเกี่ยวยกขึ้นมาย้ายออกไป"
 
 # "But after that, she immediately goes back to tapping her pen against the desk and staring into a checklist as if it held the meaning of life itself in it."
-""
+"แต่หลังจากนั้นก็หันไปเคาะปากกากับโต๊ะแล้วจ้องรายการบนแผ่นกระดาษราวกับว่าในนั้นเขียนความหมาย\nของชีวิตเอาไว้"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "What do you need?"
-ssh ""
+ssh "ต้องการอะไร"
 
 # his "I wanted to see if there was anything I could help with. Like all that over there, what are those?"
-his ""
+his "จะมาดูว่ามีอะไรที่พอช่วยได้หรือเปล่า อย่างกองพวกนั้นน่ะคืออะไรเหรอ"
 
 # "I point to the medium-sized stack of folders beside her, but she waves her hand dismissively."
-""
+"ฉันชี้ไปที่กองซองเอกสารขนาดพอสมควรที่อยู่ข้างชิซูเนะ แต่เธอก็โบกมือเป็นเชิงบอกปัด"
 
 show shizu behind_blank
 with charachange
 
 # ssh "I can handle it myself."
-ssh ""
+ssh "ฉันจัดการเองได้"
 
 # his "Then what about the elections?"
-his ""
+his "แล้วเรื่องเลือกตั้งล่ะ"
 
 # his "Also, where's Misha?"
-his ""
+his "แล้วนี่มิช่าอยู่ไหน"
 
 show shizu behind_sad
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "It's going okay. And I told Misha that I was going to handle everything myself."
-ssh ""
+ssh "ไม่เป็นไรหรอกน่า แล้วก็ฉันบอกมิช่าแล้วด้วยว่าฉันจัดการทุกอย่างเองได้"
 
 # his "Why?"
-his ""
+his "ทำไม"
 
 # "Shizune spins a pen in her hand slowly, working it between each of her fingers, like a needle through a patch of cloth."
-""
+"ชิซูเนะหมุนปากกาในมือช้า ๆ โดยใช้ร่องระหว่างนิ้วส่งแรงไปดูคล้ายเข็มที่กำลังเคลื่อนตัวเย็บผ้าอยู่"
 
 show shizu behind_blank
 with charachange
 
 # ssh "No reason."
-ssh ""
+ssh "ไม่มีสาเหตุ"
 
 # his "Really?"
-his ""
+his "จริงเหรอ"
 
 show shizu adjust_frown
 with charachange
 
 # ssh "No reason."
-ssh ""
+ssh "ไม่มีสาเหตุ"
 
 # "She signs it again for emphasis, to shut down the notion that there's anything more behind it. But there is, since she's definitely not acting normally."
-""
+"ชิซูเนะทำภาษามืออีกรอบเป็นการย้ำชัดไม่ให้คิดต่อได้ว่ามีอะไรมากกว่านั้น แต่มีสิ เพราะตอนนี้เธอไม่ได้ทำตัว\nตามปกติเลย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6502,13 +6501,13 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\n\n“What's with the silent treatment?” is the phrase that immediately springs to mind, even though it is hardly the time for humor. It does describe how I feel. We can't communicate normally, so I appreciate the few ways we can. To be shut out like this hurts."
-n ""
+n "\n\n\n\n“เงียบใส่นี่คืออะไร” เป็นประโยคที่ผุดขึ้นมาในหัวฉันทันที ทั้งที่ตอนนี้ไม่ใช่เวลาจะมาตลกเลยแท้ ๆ เพราะเป็นประโยค\nที่ใช้บรรยายความรู้สึกฉันได้ เราสื่อสารกันตามปกติไม่ได้ ฉันถึงได้ให้ค่ากับช่องทางการสื่อสารไม่กี่อย่างที่เรามี\nพอโดนกีดออกมาแบบนี้แล้วก็เจ็บปวด"
 
 # n "It's obvious that whatever her reasons, it's going to be pretty much impossible to talk to Shizune today. Beyond just being stubborn, she seems depressed, but with the way our conversation is going already, I don't see myself being able to find out what she's depressed about."
-n ""
+n "ชัดว่าไม่ว่าจะด้วยเหตุผลกลใดก็ตามแต่ วันนี้คงคุยกับชิซูเนะไม่ได้แล้วแน่ ๆ แค่ทำตัวรั้นไม่พอแล้วยังเหมือนจะหดหู่ด้วย\nแต่ดูจากทิศทางลมบทสนทนาของเราแล้ว ฉันคงสืบต่อไม่ได้แน่ว่าเครียดเรื่องอะไรอยู่"
 
 # n "\nSomehow, that only makes me want to find out more. And that means I have to ask Misha. The problem is, I don't really know where Misha goes in her spare time."
-n ""
+n "\nไม่รู้ทำไมฉันถึงยิ่งอยากรู้ไปใหญ่ ซึ่งแปลว่าฉันต้องไปถามมิช่า เรื่องคือ ฉันไม่รู้ว่าเวลาว่างมิช่าจะไปอยู่ที่ไหน"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 stop music fadeout 3.0
@@ -6522,7 +6521,7 @@ with shorttimeskip
 window show
 
 # "After asking way more people than I should if they've noticed a girl with bright pink hair around, and getting way more negative answers than expected, I finally find a couple who have seen her."
-""
+"หลังจากที่ไปไล่ถามหลายคน—ซึ่งก็หลายคนเกินกว่าที่ฉันควรจะถาม—ว่าเห็นผู้หญิงที่ผมสีชมพูสว่าง ๆ\nแถวนี้หรือเปล่าพร้อมได้คำตอบว่าไม่—ซึ่งได้มาเยอะกว่าที่คาด—แล้วฉันก็เจอกับคนคู่หนึ่งที่เห็นมิช่าเสียที"
 
 scene bg school_cafeteria
 show mishashort perky_smile at center
@@ -6531,85 +6530,85 @@ with locationchange
 play music music_moonlight fadein 8.0
 
 # "By the time I reach the cafeteria, where Misha has apparently been this entire time, I've been around the whole school twice, and am very tired. I realize I've passed by her before, and just didn't see her behind a pillar."
-""
+"ก่อนจะมาถึงโรงอาหารที่เหมือนจะเป็นที่ที่มิช่ามานั่งแช่อยู่นานแล้วนั้นฉันเดินวนทั่วโรงเรียนไปแล้วสองรอบ\nและเหนื่อยมาก ฉันนึกขึ้นได้ว่าเคยเดินผ่านมิช่ามาแล้วเพียงแต่ไม่เห็นเพราะเสาบังอยู่"
 
 # hi "Why are you better at finding me than I am at finding you?"
-hi ""
+hi "ทำไมเธอถึงหาตัวฉันเก่งกว่าฉันที่หาตัวเธอไม่เก่งอีก"
 
 show mishashort hips_smile
 with charachange
 
 # mi "You were looking for me, Hicchan?"
-mi ""
+mi "ฮิจังตามหาฉันอยู่เหรอ"
 
 show mishashort hips_grin
 with charachange
 
 # mi "Hm~… Who knows~? I think it's just coincidence."
-mi ""
+mi "อืมม~… ใครจะไปรู้~ ฉันว่าก็แค่บังเอิญแหละ"
 
 # hi "You know, the whole point of coincidences is that they aren't consistent."
-hi ""
+hi "นี่นะ ถ้ามันเกิดบ่อยขนาดนั้นก็ไม่เรียกว่าบังเอิญมั้ง"
 
 show mishashort cross_laugh
 with charachange
 
 # mi "Hahaha~."
-mi ""
+mi "ฮ่าฮ่าฮ่า~"
 
 # hi "Are you having a really late lunch?"
-hi ""
+hi "นี่กินข้าวเที่ยงตอนไม่เที่ยงมาก ๆ อยู่เหรอ"
 
 show mishashort sign_smile
 with charachange
 
 # mi "I didn't get to eat at lunchtime, so yeah~! But~, not too much, so I can still have dinner."
-mi ""
+mi "ใช่แล้ว~! เพราะฉันไม่ได้กินข้าวเที่ยง แต่ว่า~ กินไม่เยอะนะ จะได้เผื่อพื้นที่ไปกินข้าวเย็น"
 
 show mishashort perky_smile
 with charachange
 
 # mi "Did you want to talk to me about something, Hicchan?"
-mi ""
+mi "ฮิจังมีเรื่องจะคุยกับฉันเหรอ"
 
 # "I don't waste any time."
-""
+"ฉันไม่รอช้า"
 
 # hi "Yeah. The reason I'm here… Did you notice Shizune has been kind of moody today?"
-hi ""
+hi "อืม ที่มาก็จะคุยนี่แหละ… เธอสังเกตมั้ยว่าวันนี้ชิซูเนะดูอารมณ์ไม่ดี"
 
 show mishashort perky_confused
 with charachange
 
 # mi "I wanted to ask you the same thing, Hicchan~."
-mi ""
+mi "ฉันก็อยากจะถามฮิจังเหมือนกันนั่นแหละ~"
 
 show mishashort perky_sad
 with charachange
 
 # mi "Well~, except, she's been this way for a couple of days now."
-mi ""
+mi "ซึ่ง~ ที่จะไม่เหมือนก็คือว่าชิจังเป็นแบบนี้มาสองสามวันแล้ว"
 
 # hi "I see."
-hi ""
+hi "งั้นเหรอ"
 
 show mishashort sign_confused
 with charachange
 
 # mi "Hicchan, do you think it's because of something I did? Do you think I got upset at Shicchan, like last time?"
-mi ""
+mi "ฮิจังว่าเป็นเพราะฉันทำอะไรหรือเปล่า คิดว่าฉันโกรธชิจังเหมือนคราวที่แล้วมั้ย"
 
 # hi "No. She seems angrier at me, anyway."
-hi ""
+hi "ไม่หรอก เหมือนชิซูเนะจะโกรธฉันด้วยซ้ำ"
 
 # "I'm not lying, I really don't. Unfortunately, my attempts to assure her of that don't seem to be going so well. In her own way, Misha is pretty stubborn, too."
-""
+"ฉันไม่ได้โกหก ไม่ได้โกหกเลยจริง ๆ โชคไม่ดีที่เหมือนว่าการจะปลอบใจชิซูเนะของฉันไปได้ไม่ค่อยสวยเท่าไหร่\nส่วนมิช่าก็รั้นในแบบของเธอเองเหมือนกัน"
 
 scene bg school_dormhisao_ss
 with locationskip
 
 # "Eventually, I just head back to my dorm. The last few days have been nothing but a continuously frustrating experience, and they left me drained. I feel tired enough that I decide to take a nap, hoping that maybe I'll figure things out in my sleep."
-""
+"ท้ายที่สุดฉันก็กลับหอ สองสามวันที่ผ่านมามีแต่อะไรชวนให้หงุดหงิดไม่หยุดหย่อนจนฉันล้าไปหมด ฉันเพลีย\nจนนึกจะงีบเผื่อว่าพอหลับแล้วจะคิดอะไรออก"
 
 stop music fadeout 3.0
 
@@ -6630,69 +6629,69 @@ window show
 play music music_night fadein 1.0
 
 # "When I wake up, I feel more refreshed, but still without clarity. The only thing that has changed is that it's dark outside."
-""
+"พอตื่นมาแล้วก็รู้สึกสดชื่นขึ้นทว่ายังคงมืดแปดด้านเช่นเดิม สิ่งเดียวที่เปลี่ยนคือสีท้องฟ้านอกหน้าต่างที่เปลี่ยน\nเป็นสีดำ"
 
 # "From opening the window a little, I can tell the weather is still kind of nice. After dry-swallowing my nighttime pills, I take a little walk to the vending machines."
-""
+"เมื่อเปิดหน้าต่างดูก็รู้ว่าอากาศดีเหมือนกัน ฉันกลืนยารอบค่ำไปแบบไม่กินน้ำตามแล้วเดินออกมา\nที่ตู้ขายของแบบหยอดเหรียญ"
 
 scene bg school_lobby_ni
 with locationskip
 
 # "They're out of everything I'd normally get, so I mash my hand against the buttons until something pops out."
-""
+"ของที่ซื้อประจำนั้นหมด ฉันจึงใช้มือกดปุ่มมั่ว ๆ ไปจนได้บางอย่างมา"
 
 scene bg school_courtyard_ni
 with locationchange
 
 # "The lights are off in the main building, including the student council room. Just an offhand observation."
-""
+"อาคารหลักปิดไฟแล้ว รวมทั้งห้องสภานักเรียนด้วย แค่สังเกตอะไรไปงั้นแหละ"
 
 play sound sfx_rustling
 
 # "As I'm thinking to myself, I hear a rustling behind me. I've seen this movie before, and that is a very ominous sound to hear, alone at night."
-""
+"ระหว่างที่คิดอะไรเพลิน ๆ อยู่ก็มีเสียงซ่อกแซ่กบางอย่างอยู่ข้างหลัง ฉันเคยดูหนังเรื่องนี้มาก่อน และเสียงนี้เป็นเสียง\nที่พอมาได้ยินตอนอยู่คนเดียวยามกลางคืนแล้วเป็นลางที่ไม่ดีมาก"
 
 show kenji happy_ni at center
 with charaenter
 
 # "Luckily, it's just Kenji, and he wanders out of the bushes in an unusually cheery mood."
-""
+"โชคดีที่เป็นแค่เคนจิ เขาโผล่ออกมาจากพุ่มไม้ด้วยอารมณ์สดใสผิดวิสัย"
 
 # ke "Hey."
-ke ""
+ke "ไง"
 
 # hi "What the hell? Do you just creep up on people at night and casually go “hey” a lot?"
-hi ""
+hi "อะไรเนี่ย ปกติชอบไปแอบย่องหาคนอื่นแล้วทัก “ไง” ลอย ๆ แบบนี้ตลอดเลยเหรอ"
 
 show kenji neutral_ni
 with charachange
 
 # ke "No, that'd be weird. I knew it was you. I have extremely good night vision. Maybe it's because I'm superhuman."
-ke ""
+ke "ไม่ดิ แบบนั้นก็แปลกแย่ ฉันรู้อยู่แล้วว่าเป็นนาย ตาฉันมองตอนกลางคืนได้ชัดมากเลยนะ อาจจะเพราะฉัน\nเป็นยอดมนุษย์"
 
 # hi "What are you doing here, then?"
-hi ""
+hi "แล้วนายมาทำอะไรที่นี่"
 
 show kenji tsun_ni
 with charachange
 
 # ke "I could ask you the same thing. What are YOU doing here?"
-ke ""
+ke "ฉันสิต้องถามนาย {b}นาย{/b}มาทำอะไรที่นี่"
 
 # "I consider just telling him the truth, but quickly decide against it. It would take too long to explain."
-""
+"ฉันนึกจะบอกความจริงไปแต่ก็ปัดทิ้งไปด้วยความรวดเร็ว ไม่งั้นต้องอธิบายอีกยาว"
 
 # hi "Howling at the moon."
-hi ""
+hi "มาหอนในคืนจันทร์เต็มดวง"
 
 show kenji neutral_ni
 with charachange
 
 # ke "I do that too, sometimes. The moon isn't out tonight, though."
-ke ""
+ke "บางทีฉันก็ทำแบบนั้นเหมือนกันนะ แต่วันนี้ไม่มีพระจันทร์นี่"
 
 # "I barely even hear him, feeling a bit resentful at the interruption."
-""
+"หูฉันแทบไม่ได้ยินเคนจิแล้วด้วยเคืองหน่อย ๆ ที่เขามาขัดอารมณ์"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6701,16 +6700,16 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nI lied to Shizune through my teeth that nothing was wrong. Or, to be more exact, I lied through my hands. And at the exact same time, I was carrying on an entirely different conversation with Misha."
-n ""
+n "\n\nฉันกัดฟันโกหกชิซูเนะไปว่าทุกอย่างยังปกติดี หรือถ้าจะพูดให้ถูกก็คือเกร็งมือโกหก และในขณะเดียวกันฉันก็คุย\nกับมิช่าด้วยคนละเรื่องกันเลย"
 
 # n "That conversation, understandably, could upset Shizune. But there was no way that she could have heard it. Even Misha's hands, usually signing all her thoughts, were completely still. Even if they weren't, I was standing in front of her, blocking them from Shizune's view."
-n ""
+n "ซึ่งก็เข้าใจได้ว่าบทสนทนานั้นอาจทำให้ชิซูเนะโกรธได้ แต่ยังไงก็คงไม่ได้ยินหรอก แม้แต่มือมิช่าที่ปกติจะทำภาษามือ\nไปตามความคิดตัวเองทุกอย่างยังอยู่นิ่ง หรือต่อให้ทำภาษามือก็ยังมีฉันที่ยืนอยู่ตรงหน้ามิช่าบังชิซูเนะอยู่"
 
 # n "The only way that Shizune could listen in on that conversation would be if she could read lips. Pretty much the first thing I'd asked about when taking sign language was about lip reading, just out of curiosity. It's not easy, nor is it perfect… so I'd never considered it until now."
-n ""
+n "ทางเดียวที่ชิซูเนะจะฟังบทสนทนานั้นได้ก็มีแต่การอ่านจากริมฝีปาก ซึ่งเป็นสิ่งแรก ๆ ที่ฉันถามด้วยความสงสัย\nตอนเรียนภาษามือ การอ่านริมฝีปากนั้นไม่ง่าย ไม่ได้สมบูรณ์แบบ… ที่ผ่านมาจึงไม่ได้คิดถึงเรื่องนี้เลย"
 
 # n "\nIt would make sense, and the room for misunderstandings while reading lips wouldn't help."
-n ""
+n "\nซึ่งก็สมเหตุสมผล และยิ่งการอ่านริมฝีปากอาจทำให้เข้าใจผิดไปกันใหญ่ได้อีก"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -6719,28 +6718,28 @@ nvl clear
 window show
 
 # ke "…So I realized that I could use the cover of darkness to buy milk. Usually, I only go out when it's raining or I can shroud myself in a sea of bikers, or tourists. This is much more consistent… I'm spending too much money on milk now, though."
-ke ""
+ke "…ฉันจึงคิดได้ว่าออกมาซื้อนมใต้ผืนฟ้าอันมืดมิดนี้ดีกว่า ปกติฉันจะออกไปข้างนอกตอนฝนตกหรือตอนที่มี\nรถจักรยานยนหรือนักท่องเที่ยวเยอะ ๆ เพื่อพรางตัว แต่แบบนี้แหละจะแน่นอนกว่า… แต่ตอนนี้ฉันเอาเงินไปลงกับการซื้อนม\nมากไปแล้ว"
 
 show kenji happy_ni
 with charachange
 
 # ke "You seem kind of mopey or out of it or something. Don't think too hard, a man has to be all about action! You can think about stuff all day, but changing the situation around by doing something is the best way."
-ke ""
+ke "นายดูหงอย ๆ จิตใจไม่ค่อยอยู่กับเนื้อกับตัวหรืออะไรแบบนั้นเลยนะ อย่าไปคิดมาก เกิดเป็นลูกผู้ชายมันต้อง\nลงมือทำ! คิดน่ะนั่งคิดทั้งวันก็ได้ แต่ทางที่ดีที่สุดในการจะเปลี่ยนสถานการณ์สักอย่างน่ะคือการลงมือทำ"
 
 # ke "I do things all the time without thinking about it. That's why in middle school they called me “causes many problems.” I thought it was cool; sounds like an Indian name."
-ke ""
+ke "ฉันทำอะไรโดยไม่ต้องคิดตลอดเลย นี่แหละตอนมัธยมต้นคนถึงได้เรียกฉันว่า “ตัวสร้างเรื่องมากมาย” ฉันว่าเท่ดีนะ\nเหมือนชื่อคนอินเดียเลย"
 
 # hi "I'm not really in the mood."
-hi ""
+hi "ฉันไม่มีอารมณ์จะมาตลกนะ"
 
 show kenji neutral_ni
 with charachange
 
 # ke "Having a bad day?"
-ke ""
+ke "มีเรื่องอะไรงั้นเหรอ"
 
 # hi "Yeah, I don't know. I'm kind of distracted right now."
-hi ""
+hi "อืม ไม่รู้สิ ตอนนี้รู้สึกเหม่อ ๆ ยังไงไม่รู้"
 
 stop music fadeout 7.0
 
@@ -6748,12 +6747,13 @@ hide kenji
 with dissolve
 
 # "So distracted that it doesn't hit me until he leaves that his was actually kind of sound advice. I think Shizune would have given me the same suggestion. By then, it's too late to thank him politely."
-""
+"เหม่อจนถึงขั้นที่กว่าจะนึกได้ว่าคำแนะนำของเคนจินั้นก็ฟังดูดีก็คือตอนที่เขาเดินจากไปแล้ว ชิซูเนะก็คงจะแนะนำ\nแบบนั้นเหมือนกัน แต่ตอนนี้ก็สายไปแล้วที่จะขอบคุณเขาอย่างสุภาพ"
 
 # "I already responded in the rudest tone possible. I just feel like an ass."
-""
+"ฉันตอบด้วยท่าทีสุดหยาบคายไปแล้ว รู้สึกเหมือนตัวเองเป็นคนไม่ดีเลย"
 
-"In retrospect, these past few days I've regretted every action I've taken. The worst part is that I haven't taken the time to stew over them, and in doing so, learn from them. This only leads to - has led to - more regrets." 
+# "In retrospect, these past few days I've regretted every action I've taken. The worst part is that I haven't taken the time to stew over them, and in doing so, learn from them. This only leads to - has led to - more regrets." 
+"แต่พอย้อนคิดดูแล้วช่วงสองสามวันมานี้ฉันก็นึกเสียใจกับทุกอย่างที่ทำลงไป ที่แย่ที่สุดคือฉันยังไม่ได้มีเวลามาครุ่นคิด\nจนได้เรียนรู้ถึงการกระทำเหล่านั้น ซึ่งยิ่งทำให้มีเรื่องต้องเสียใจ—ทุกขณะจวบจนตอนนี้—มากขึ้นไปอีีก"
 
 scene black
 with dissolve
@@ -6769,7 +6769,8 @@ with locationchange
 
 play sound sfx_doorknock2
 
-# "The next morning, as I'm getting dressed, I hear a knock at my door. Quickly putting on the rest of my clothes, I open it, without really stopping to think about who could be behind it."
+# "The next morning, as I'm getting dressed, I hear a knock at my door. Quickly putting on the rest of my clothes, I open it,
+# without really stopping to think about who could be behind it."
 ""
 
 scene bg school_dormhallway
@@ -6874,7 +6875,8 @@ ssh ""
 hide shizu
 with charaexit
 
-# "I don't respond, and Shizune heads towards the door, slowly enough that I can tell she wants me to follow her. Her hands are folded behind her back, which is arched against them as though she is about to bend over backwards at any second."
+# "I don't respond, and Shizune heads towards the door, slowly enough that I can tell she wants me to follow her. Her hands are folded behind her back,
+# which is arched against them as though she is about to bend over backwards at any second."
 ""
 
 scene bg school_courtyard
@@ -6943,7 +6945,8 @@ ssh ""
 show shizu adjust_frown_close
 with charachange
 
-# ssh "I wanted to be better than her, so I made countless posters until I ended up with the best possible one. I had to be the best and have the greatest one. In the end, everyone liked my poster the most of all, even the teacher."
+# ssh "I wanted to be better than her, so I made countless posters until I ended up with the best possible one. I had to be the best and have the greatest one.
+# In the end, everyone liked my poster the most of all, even the teacher."
 ssh ""
 
 show shizu basic_normal_close
@@ -6976,13 +6979,15 @@ ssh ""
 show shizu behind_sad_close
 with charachange
 
-# ssh "It's the worst feeling. Especially when I feel like I've done nothing right and everything wrong. Like recently. It's the worst kind of failure. I feel like a failure on every level."
+# ssh "It's the worst feeling. Especially when I feel like I've done nothing right and everything wrong. Like recently. It's the worst kind of failure.
+# I feel like a failure on every level."
 ssh ""
 
 show shizu basic_normal2_close
 with charachange
 
-# ssh "I wish I could wipe away everything I've done and just be alone, since all I've done is mess with Misha for two years. And jerk you around for a year for selfish reasons."
+# ssh "I wish I could wipe away everything I've done and just be alone, since all I've done is mess with Misha for two years.
+# And jerk you around for a year for selfish reasons."
 ssh ""
 
 # his "It's fine."
@@ -6991,7 +6996,8 @@ his ""
 show shizu adjust_frown_close
 with charachange
 
-# ssh "No, it's not. You don't understand. I was just thinking about it; everything I do feels like I have to beat someone else. Everyone else, even. If that is how it is, then what are my relationships with people? They almost feel the same."
+# ssh "No, it's not. You don't understand. I was just thinking about it; everything I do feels like I have to beat someone else. Everyone else, even.
+# If that is how it is, then what are my relationships with people? They almost feel the same."
 ssh ""
 
 # "I can see where this is going."
@@ -7039,7 +7045,8 @@ shi ""
 # "It's very like her, to be roundabout even now, but ultimately without excuses."
 ""
 
-# "All my emotions simmer inside me. I see a kettle in front of me, water rolling inside it, so close that I can touch it and feel the heat radiating off of it. I'm glad for the distraction, because I know there's no recourse or bargaining possible."
+# "All my emotions simmer inside me. I see a kettle in front of me, water rolling inside it, so close that I can touch it and feel the heat radiating off of it.
+# I'm glad for the distraction, because I know there's no recourse or bargaining possible."
 ""
 
 show shizu adjust_frown_close
@@ -7070,7 +7077,8 @@ scene ev shizu_badend:
     acdc_warp 10.0 zoom 1.0
 with locationchange
 
-# "As I look back at her, she seems very lonely. I'm reminded of myself. I've made that expression before. Maybe it's on my face right now. It feels like the image of such a lonely girl will stick in my mind forever."
+# "As I look back at her, she seems very lonely. I'm reminded of myself. I've made that expression before. Maybe it's on my face right now.
+# It feels like the image of such a lonely girl will stick in my mind forever."
 "พอหันกลับไปหาเธอ เธอดูโดดเดี่ยวเหลือเกิน ทำให้ฉันนึกถึงตัวเอง ฉันเคยทำหน้าแบบนั้นมาก่อน บางทีตอนนี้ฉันอาจจะ\nกำลังทำหน้าแบบนั้นอยู่ก็ได้ รู้สึกเหมือนภาพเด็กสาวที่โดดเดี่ยวคนนี้จะติดอยู่ในใจฉันตลอดกาล"
 
 # "Every moment where I could have prevented this, or solved the problem, comes back to me. It makes me smile in a way without amusement."
