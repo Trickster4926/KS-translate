@@ -8670,10 +8670,9 @@ with charachange
 mi "ช่วงสองสามวันมานี้น่ะฉันเอาแต่คิดเรื่องนั้นไม่ไปไหนเลย แล้วฉันก็ไม่อยากเกลียดใครด้วย ไม่ว่าจะนายหรือชิจัง งี่เง่า\nใช่มั้ยล่ะฮิจังที่ฉันรู้สึกอย่างนั้นน่ะ ฉันไม่อยากคิดเรื่องอะไรพวกนั้นอีกแล้ว"
 
 # mi "And missing people, and being apart from them; I'm tired of it, and don't want to think about it any more."
-mi "ไม่อยากคิดถึงใคร ไม่อยากแยกจากใคร ฉันเหนื่อยแล้ว ฉันไม่อยากคิดแล้ว"
+mi "ไม่อยากคิดถึงใคร ไม่อยากแยกจากใคร ฉันเหนื่อยแล้ว ฉันไม่อยากคิดถึงมันแล้ว"
 
-# mi "I already did, though. So~! …I'm still really the worst kind of person. I wasn't thinking that it would be better if Hicchan had never come to this school.
-# I was thinking… wouldn't it be better if I just died?"
+# mi "I already did, though. So~! …I'm still really the worst kind of person. I wasn't thinking that it would be better if Hicchan had never come to this school. I was thinking… wouldn't it be better if I just died?"
 mi "แต่ฉันก็คิดไปแล้ว เพราะงั้น~! …ฉันก็ยังเป็นคนที่แย่ที่สุดในโลก ฉันไม่ได้คิดเรื่องที่จะเกิดถ้าฮิจังไม่มาโรงเรียนนี้หรอกนะ\nแต่ฉันคิดว่า… ถ้าฉันตาย ๆ ไปเลยก็คงดีเสียกว่า"
 
 
@@ -8807,7 +8806,7 @@ label th_S29xbc:
 hi "ฟังก่อนนะ"
 
 # hi "Shizune is the opposite of how I was. She has always wanted to draw people closer to her. That's the only reason Shizune was interested in me in the first place, I think. And I think I was determined to not let that happen, in a way."
-hi "ส่วนชิซูเนะเป็นคนละอย่างกับฉันเลย เธออยากจะดึงให้คนได้มาเข้าใกล้เธอ ฉันว่าแรกเริ่มเดิมทีที่ชิซูเนะสนใจฉันก็คง\nเพราะแค่นั้นแหละ แล้ว ในแง่หนึ่ง จะว่าตอนนั้นฉันตั้งเป้าว่าจะไม่ให้ตัวเองถูกลากไปก็ว่าได้"
+hi "ชิซูเนะเป็นคนละแบบกับฉันเลย เธออยากจะดึงให้คนได้มาเข้าใกล้เธอ ฉันว่าแรกเริ่มเดิมทีที่ชิซูเนะสนใจฉันก็คง\nเพราะแค่นั้นแหละ แล้ว ในแง่หนึ่ง จะว่าตอนนั้นฉันตั้งเป้าว่าจะไม่ให้ตัวเองถูกลากไปก็ว่าได้"
 
 # "Misha casts her eyes downwards, understanding perfectly."
 "มิช่าหลุบมองต่ำรับฟังด้วยความเข้าใจ"

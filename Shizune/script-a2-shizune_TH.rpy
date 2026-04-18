@@ -220,7 +220,7 @@ show shizu adjust_smug
 with charachange
 
 # $ written_note("You are here very early; most people sleep in late after the festival. That means you are abnormal.")
-$ written_note("มาเช้าจังนะ ปกติคนอื่นพอมีงานเทศกาลแล้วจะนอนตื่นสายกัน แปลว่านายไม่ปกติ")
+$ written_note("มาเช้าจังนะ ปกติคนอื่นพอมีงานเทศกาลแล้วจะ\nนอนตื่นสายกัน แปลว่านายไม่ปกติ")
 
 window show
 
@@ -346,7 +346,7 @@ play music music_daily fadein 1.0
 nvl show dissolve
 
 # n "\n\nA guy casually prowling around the girls' dorm early in the morning is unacceptable, but asking Misha about sign language classes in front of Shizune would be just unthinkable."
-n "\n\nการที่ผู้ชายย่องเข้ามาป้วนเปี้ยนอยู่บริเวณหอหญิงแต่เช้าตรู่อย่างนี้นั้นเป็นสิ่งที่ยอมรับไม่ได้ก็จริง แต่ถ้าอย่าหวังเลยว่า\nฉันจะไปถามเรื่องวิชาภาษามือกับมิช่าต่อหน้าชิซูเนะ"
+n "\n\nการที่ผู้ชายย่องเข้ามาป้วนเปี้ยนอยู่บริเวณหอหญิงแต่เช้าตรู่อย่างนี้นั้นเป็นสิ่งที่ยอมรับไม่ได้ก็จริง แต่อย่าหวังเลยว่า\nฉันจะไปถามเรื่องวิชาภาษามือกับมิช่าต่อหน้าชิซูเนะ"
 
 # n "She has to come to school sometime. After all, we're in the same class, so she too has to take this test."
 n "สักพักก็คงมา เรียนอยู่ห้องเดียวกันนี่นะ ซึ่งแปลว่าจะต้องมาสอบรอบนี้เหมือนกันด้วย"
@@ -1590,7 +1590,7 @@ hi "ก็ไม่เชิงบังคับหรอกมั้ง แต
 "ฟังดูโรแมนติกชอบกลจนฉันยังหน้าแดงเรื่อ รู้สึกเหมือนเป็นคนบ้าเลย"
 
 # hi "Although, I still don't know why you joined. It should have been the first thing I asked, in retrospect, but I'm really curious. I'll have to remember to ask Misha sometime."
-hi "แต่ฉันก็ไม่รู้นะว่าทำไมเธอถึงมาเป็น พอย้อนนึกดูแล้วฉันน่าจะถามเธออย่างนั้นแต่แรกเลยด้วยซ้ำ อยากรู้มากเลยไว้เดี๋ยวต้องไปถามมิช่าแล้ว"
+hi "แต่ฉันก็ไม่รู้นะว่าทำไมเธอถึงมาเป็น พอย้อนนึกดูแล้วฉันน่าจะถามเธออย่างนั้นแต่แรกเลยด้วยซ้ำ อยากรู้มากเลย\nไว้เดี๋ยวต้องไปถามมิช่าแล้ว"
 
 show shizu behind_blank
 with charachange
@@ -1796,7 +1796,7 @@ with charachange
 "ก็แปลว่าแพ้แล้วสินะ"
 
 # "She doesn't look very happy. Does she think I did it on purpose to make her lose? If she does, she isn't making a big deal out of it. All's fair in love and war."
-"ชิซูเนะดูไม่ค่อยพอใจเท่าไหร่ นี่คิดว่าฉันจงใจทำให้แพ้เหรอ แต่แพ้แล้วก็ดูไม่เดือดร้อนอะไรเลยแฮะ ก็นะ ยามรัก\nกับยามสงครามน่ะทำอะไรก็ไม่ผิดหรอก"
+"ชิซูเนะดูไม่ค่อยพอใจเท่าไหร่ นี่คิดว่าฉันจงใจทำให้แพ้เหรอ แต่แพ้แล้วก็ดูไม่เดือดร้อนอะไรเลยแฮะ ก็นะ ยามรัก\nยามรบน่ะทำอะไรก็ไม่ผิดหรอก"
 
 show shizu basic_frown
 with charadistant
@@ -1840,7 +1840,7 @@ with shorttimeskip
 "ชิซูเนะอาจจะรับมือกับอะไร ๆ อย่างนี้แหละ คือเปลี่ยนให้เป็นเกมไปเลย แต่ก็ไม่แน่ใจเหมือนกันว่าเป็นอย่างนั้น\nจริงหรือเปล่า"
 
 # "It seems futile to try to psychoanalyze Shizune. In the short time we've known each other, I've been surprised on a fair number of occasions."
-"พอจะลองวิเคราห์จิตใจเธอดูก็เหมือนจะดูไม่ออก เท่าที่รู้จักกันมาในระยะเวลาสั้น ๆ นี้ฉันต้องประหลาดใจกับอะไร\nหลายอย่าง"
+"พอจะลองวิเคราะห์จิตใจเธอดูก็เหมือนจะดูไม่ออก เท่าที่รู้จักกันมาในระยะเวลาสั้น ๆ นี้ฉันต้องประหลาดใจกับอะไร\nหลายอย่าง"
 
 show shizu basic_normal2 at centertremble_nl
 with None
@@ -1920,7 +1920,7 @@ n "แล้วก็พอทำภาษามือได้ด้วย แ�
 n "สำหรับฉันตอนนี้ก็นับว่าดีแล้ว แต่ถ้าจะให้ดีจนถึงขั้นสนทนากับชิซูเนะได้นั้นฉันต้องเรียนรู้อีกมาก"
 
 # n "\nI'm doing my best to get to that point one step at a time by doing as much studying as I can squeeze in during lunch."
-n "\nฉันพยายามคอยไปให้ถึงจุดนั้นทีละก้าวโดยเจียดช่วงพักเที่ยงมาอ่านหนังสือ"
+n "\nฉันพยายามคอยไปให้ถึงจุดนั้นทีละก้าวโดยเจียดเวลาช่วงพักเที่ยงมาอ่านหนังสือ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -2108,7 +2108,7 @@ mi "เพราะงั้น ตอนนี้ก็มาเล่นกั
 "จะว่าไปแล้วก็จริง ฉันไม่ทันได้สังเกตเพราะมัวแต่วุ่นอยู่กับการเรียนภาษามือ งานเก่ายังไม่ทันจบดีก็จะมีงานใหม่เสียแล้ว"
 
 # "I wonder if Shizune will try and rope a couple new members in to help with that one as well."
-"ชิซูเนะจะไปลากสมาชิกใหม่มาช่วยงานนี้ด้วยหรือเปล่านี้"
+"ชิซูเนะจะไปลากสมาชิกใหม่มาช่วยงานนี้ด้วยหรือเปล่านี่"
 
 # hi "You're right."
 hi "ถูกของเธอ"
@@ -3717,7 +3717,7 @@ show shizu behind_blank_close
 with charachange
 
 # "I break the bread in half and offer one half of it to Shizune. She takes it."
-"ฉันบิขนมปังออกเป็นสองท่อนแล้วแบ่งครึ่งหนึ่งในชิซูเนะ ซึ่งเธอก็รับไว้"
+"ฉันบิขนมปังออกเป็นสองท่อนแล้วแบ่งครึ่งหนึ่งให้ชิซูเนะ ซึ่งเธอก็รับไว้"
 
 show shizu adjust_happy_close
 with charachange
@@ -3778,7 +3778,7 @@ play music music_tranquil fadein 3.0
 "ระหว่างที่กำลังเก็บงานเรื่องเอกสารที่ทำเป็นประจำฉันก็นึกได้ว่าที่ชิซูเนะทำอย่างนี้อาจจะเพราะอยากให้เราเริ่มสัปดาห์\nกันแบบกระตือรือร้นก็ได้"
 
 # "After all, tomorrow is when the real work will begin, and with her hands literally full building stalls, she won't be able to “talk” very much."
-"ยังไงเสีย ของจริงคือตั้งแต่วันพรุ่งนี้เป็นต้นไปต่างห่าง แล้วก็จะไม่มีมือมา “คุย” เพราะต้องลงมือทำแผง"
+"ยังไงเสีย ของจริงคือตั้งแต่วันพรุ่งนี้เป็นต้นไปต่างหาก แล้วก็จะไม่มีมือมา “คุย” เพราะต้องลงมือทำแผง"
 
 # "It will likely be pretty dull and tiring, like it was the first time around. I'm appreciative of her effort, in that case. It's nice to have days like this, as a way of enjoying yourself before the days ahead. I think that was her idea as well."
 "คงจะชวนให้เอื่อยเฉื่อยเมื่อยล้าเหมือนอย่างครั้งแรก ถ้าวางแผนไว้งั้นจริงฉันก็อยากขอบคุณที่อุตส่าห์ทำแบบนี้\nเหมือนกัน ได้พักผ่อนหย่อนใจก่อนไปลุยงานแบบนี้นั้นนับว่าดีทีเดียว น่าจะคิดแบบนั้นแหละ"
@@ -3880,7 +3880,7 @@ mi "ฉันคงไปช่วยงานสภานักเรียน�
 "เป็นข่าวที่ไม่ค่อยดีเท่าไหร่เลยแฮะ แล้วสัปดาห์นี้เหมือนงานจะเยอะมากด้วย จังหวะไม่ดีเลยจริง ๆ แวบหนึ่งฉันคิดไปว่า\nชิซูเนะพอจะมีช่องทางอะไรดึงตัวมิช่าให้กลับมาช่วยงานได้หรือเปล่า"
 
 # "But Misha looks so genuinely apologetic about it. It would be pretty dickish of me to say something like that."
-"แต่มิช่าก็ดูรู้สึกผิดจริง ๆ จะให้พูดอะไรอย่างนั้นก็คงเป็นคนเหี้ยไปหน่อย"
+"แต่มิช่าก็ดูรู้สึกผิดจริง ๆ จะให้พูดอะไรอย่างนั้นก็คงเป็นคนไม่ดีไปหน่อย"
 
 # "Besides, if she says it's something that can't be put off any longer, I'm inclined to believe her, considering how surprisingly serious she can be with student council duties."
 "อีกอย่าง ถ้ามิช่าบอกว่าเลื่อนไปไม่ได้แล้วจริง ๆ ก็คงต้องเชื่อ เพราะมิช่าจริงจังกับเรื่องงานสภานักเรียนมาก"
