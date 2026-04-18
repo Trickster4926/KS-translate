@@ -6769,127 +6769,124 @@ with locationchange
 
 play sound sfx_doorknock2
 
-# "The next morning, as I'm getting dressed, I hear a knock at my door. Quickly putting on the rest of my clothes, I open it,
-# without really stopping to think about who could be behind it."
-""
+# "The next morning, as I'm getting dressed, I hear a knock at my door. Quickly putting on the rest of my clothes, I open it, without really stopping to think about who could be behind it."
+"เช้าวันถัดมาขณะที่กำลังแต่งตัวอยู่ก็มีเสียงเคาะประตู ฉันรีบใส่เสื้อผ้าที่เหลือให้เรียบร้อยแล้วมาเปิดประตู\nโดยไม่คิดเลยว่าจะเป็นใครได้บ้าง"
 
 scene bg school_dormhallway
 show shizu basic_normal
 with locationchange
 
 # "It turns out to be Shizune."
-""
+"ปรากฏว่าเป็นชิซูเนะ"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Misha told me that you were looking for me."
-ssh ""
+ssh "มิช่าบอกว่านายตามหาตัวฉันอยู่"
 
 # "I'm a bit hurt that I don't even get a “good morning,” but it's not too big a deal."
-""
+"เจ็บปวดนิดหน่อยที่ไม่มีแม้แต่คำทักทายว่า “อรุณสวัสดิ์” แต่ก็ไม่ใช่เรื่องใหญ่อะไร"
 
 # his "I was."
-his ""
+his "ใช่"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "But you found me yesterday."
-ssh ""
+ssh "แต่เมื่อวานนายเจอฉันแล้ว"
 
 # "Shizune's fingers trace a crack in the wall. It seems like she's trying her best to look distant."
-""
+"ชิซูเนะลากนิ้วไปตามรอยแตกบนกำแพง เหมือนจะทำท่าให้ดูเหม่อที่สุดอยู่"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "Well, I didn't make it easy, did I?"
-ssh ""
+ssh "อืม ฉันก็ซ่อนตัวไม่ให้เจอง่าย ๆ นี่นะ"
 
 # his "It's all right."
-his ""
+his "ไม่เป็นไรหรอก"
 
 show shizu behind_blank
 with charachange
 
 # ssh "That's why I'm here. We can talk today. Although… I kind of want to go somewhere else."
-ssh ""
+ssh "นี่แหละฉันถึงได้มาที่นี่ วันนี้เรามาคุยกันเถอะ แต่… ฉันอยากจะไปคุยที่อื่น"
 
 # his "What about class?"
-his ""
+his "แล้วไม่ไปเรียนเหรอ"
 
 show shizu adjust_smug
 with charachange
 
 # ssh "It's fine, it's fine."
-ssh ""
+ssh "ไม่เป็นไร ๆ"
 
 show shizu basic_normal2
 with charachange
 
 # ssh "How about we take a walk around the school? Everywhere except the main building is going to be deserted. The first period bell should be ringing right now."
-ssh ""
+ssh "เดินรอบ ๆ โรงเรียนกันดีมั้ย นอกจากอาคารหลักแล้วที่อื่นก็น่าจะไม่มีคนเลย ตอนนี้ระฆังเข้าเรียนคาบแรก\nน่าจะดังแล้ว"
 
 # "I take a quick glance at my watch and see that she's right."
-""
+"เมื่อเหลือบมองนาฬิกาก็เห็นว่าชิซูเนะพูดถูก"
 
 # his "Okay."
-his ""
+his "โอเค"
 
 stop music fadeout 6.0
 
 show shizu basic_angry
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # his "Is there something wrong?"
-his ""
+his "มีอะไรหรือเปล่า"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Why do you think there is something wrong?"
-ssh ""
+ssh "ทำไมนายถึงคิดว่ามีอะไร"
 
 # his "Because you're obviously upset. I could just tell."
-his ""
+his "ก็เห็นอยู่ว่าเธออารมณ์ไม่ดี ฉันดูออกนะ"
 
 # his "It's what I wanted to talk to you about."
-his ""
+his "นั่นแหละที่ฉันอยากคุยด้วย"
 
 show shizu basic_normal2
 with charachange
 
 # "Shizune quickly cracks her knuckles while I sign to her."
-""
+"ชิซูเนะหักข้อนิ้วระหว่างที่ฉันส่งภาษามือให้"
 
 show shizu behind_blank
 with charachange
 
 # ssh "Apparently, I'm easier to read than I'd thought. I was trying hard to hide it. Can you tell what I'm thinking right now?"
-ssh ""
+ssh "เหมือนว่าฉันจะดูออกง่ายกว่าที่คิด ฉันพยายามจะซ่อนสีหน้าแล้วนะ แล้วบอกหน่อยได้มั้ยว่าตอนนี้ฉันคิดอะไรอยู่"
 
 hide shizu
 with charaexit
 
-# "I don't respond, and Shizune heads towards the door, slowly enough that I can tell she wants me to follow her. Her hands are folded behind her back,
-# which is arched against them as though she is about to bend over backwards at any second."
-""
+# "I don't respond, and Shizune heads towards the door, slowly enough that I can tell she wants me to follow her. Her hands are folded behind her back, which is arched against them as though she is about to bend over backwards at any second."
+"ฉันไม่ตอบ ส่วนชิซูเนะก็เดินไปที่ประตูอย่างเชื่องช้าจนฉันดูออกว่าอยากให้ตามไปด้วย เธอประสานมือ\nแล้วยืดออกข้างหลังและแอ่นตัวจนดูเหมือนพร้อมจะหงายหลังมาได้ทุกเมื่อ"
 
 scene bg school_courtyard
 with locationchange
 
 # "Outside, I see Shizune is right. The school is completely deserted. Although it's not my first time seeing the school like this, it's kind of eerie."
-""
+"พอออกมาข้างนอกก็เห็นว่าชิซูเนะพูดถูกแล้ว บริเวณโรงเรียนไม่มีใครอยู่เลย ถึงจะไม่ได้มาเห็นแบบนี้เป็นครั้งแรก\nก็เถอะ ชวนให้รู้สึกหลอน ๆ อยู่เหมือนกัน"
 
 scene bg school_backexit at right
 with locationchange
 
 # "Shizune acts almost as though I'm not there, browsing a vending machine and taking a slow and winding path until we end up behind the main building."
-""
+"ชิซูเนะทำเหมือนว่าฉันไม่ได้อยู่ตรงนี้ เธอแวะตู้ขายของแบบหยอดเหรียญแล้วเดินเอื่อย ๆ ไปตามเส้นทางคดเคี้ยว\nจนมาถึงที่ด้านหลังอาคารหลัก"
 
 show shizu invis_close at tworight
 with None
@@ -6899,7 +6896,7 @@ show shizu basic_normal_close:
 with dissolvecharamove
 
 # "Finally, she leans against a wall and faces me, but it's like I've forgotten how to start a conversation."
-""
+"สุดท้ายเธอก็เอนตัวพิงกำแพงหันหน้ามาหาฉัน และฉันก็รู้สึกเหมือนตัวเองลืมแล้วว่าจะต้องเปิดบทสนทนาอย่างไร"
 
 play music music_sadness fadein 8.0
 
@@ -6907,153 +6904,147 @@ show shizu behind_blank_close
 with charachange
 
 # ssh "There is a saying. “You don't know how much you've screwed up until you screw up.”"
-ssh ""
+ssh "เคยมีคนว่าไว้ว่า “เราจะไม่รู้ว่าเราพลาดหนักแค่ไหนจนกว่าจะได้ทำพลาด”"
 
 # his "Who says that?"
-his ""
+his "ใครที่ว่า"
 
 show shizu basic_normal2_close
 with charachange
 
 # ssh "I guess it's me."
-ssh ""
+ssh "ก็ฉันละมั้ง"
 
 show shizu basic_angry_close
 with charachange
 
 # "Reconsidering her train of thought, she waves her hands in frustration."
-""
+"ชิซูเนะย้อนนึกไปตามกระบวนความคิดตัวเองก่อนจะโบกไม้โบกมือด้วยความหงุดหงิด"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "Okay, I'll put it differently."
-ssh ""
+ssh "โอเค เอาใหม่นะ"
 
 show shizu basic_normal_close
 with charachange
 
 # ssh "When I was younger, we had to make posters for Earth Day in school. There was another girl in my class whom everyone considered the best artist."
-ssh ""
+ssh "ตอนฉันยังเด็ก ที่โรงเรียนให้พวกเราทำโปสเตอร์สำหรับวันโลก และมีเด็กผู้หญิงอีกคนในห้องเดียวกันที่ทุกคน\nต่างมองว่าวาดรูปเก่งที่สุด"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "It wasn't because she could draw better than everyone else, it was how much she could fit into a single picture."
-ssh ""
+ssh "ไม่ใช่เพราะวาดสวยกว่าคนอื่นหรืออะไร แต่เป็นเพราะเธอคนนั้นจับอะไรหลายอย่างลงมาใส่ในรูปรูปเดียวได้"
 
 show shizu adjust_frown_close
 with charachange
 
-# ssh "I wanted to be better than her, so I made countless posters until I ended up with the best possible one. I had to be the best and have the greatest one.
-# In the end, everyone liked my poster the most of all, even the teacher."
-ssh ""
+# ssh "I wanted to be better than her, so I made countless posters until I ended up with the best possible one. I had to be the best and have the greatest one. In the end, everyone liked my poster the most of all, even the teacher."
+ssh "ฉันอยากจะเก่งกว่าเธอคนนั้น ฉันเลยนั่งทำโปสเตอร์หลาย ๆ แผ่นจนได้แผ่นที่ดีที่สุด ฉันต้องเป็นที่หนึ่ง\nและเก่งกว่าใคร สุดท้ายทุกคนก็ชอบโปสเตอร์ของฉันที่สุด แม้แต่ครูก็ด้วย"
 
 show shizu basic_normal_close
 with charachange
 
 # ssh "A week later, it was meaningless. I threw it in the trash."
-ssh ""
+ssh "สัปดาห์ถัดมาของแบบนั้นก็ไม่มีความหมายอะไร ฉันโยนทิ้งลงถังขยะไป"
 
 show shizu behind_blank_close
 with charachange
 
 # ssh "I think I've told you something like this before."
-ssh ""
+ssh "เหมือนฉันเคยเล่าอะไรแบบนี้ให้นายไปแล้วนะ"
 
 # his "Yeah."
-his ""
+his "อืม"
 
 show shizu basic_angry_close
 with charachange
 
 # ssh "When I feel like I'm finished, I wish I could just wipe the slate clean. Whether I succeed or not. I put Misha through a lot, and even dragged you into it."
-ssh ""
+ssh "ฉันรู้สึกว่าพอเรื่องมันเสร็จสิ้นแล้วก็อยากจะกวาดทุกอย่างทิ้งหมดเลย ไม่ว่าจะสำเร็จหรือไม่ก็ตาม ฉันทำให้\nมิช่าต้องเจอเรื่องอะไรหลายอย่าง แถมยังลากนายเข้ามาด้วย"
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "And every point where I could have solved this silly situation, or prevented it from happening in the first place, keeps coming back to me."
-ssh ""
+ssh "แล้วฉันก็เอาแต่นึกถึงทุกโอกาสที่ฉันจะแก้ไขหรือป้องกันไม่ให้สถานการณ์บ้าบอแบบนี้เกิดขึ้นได้"
 
 show shizu behind_sad_close
 with charachange
 
-# ssh "It's the worst feeling. Especially when I feel like I've done nothing right and everything wrong. Like recently. It's the worst kind of failure.
-# I feel like a failure on every level."
-ssh ""
+# ssh "It's the worst feeling. Especially when I feel like I've done nothing right and everything wrong. Like recently. It's the worst kind of failure. I feel like a failure on every level."
+ssh "เป็นความรู้สึกที่แย่ที่สุดเลย โดยเฉพาะยิ่งถ้ารู้สึกด้วยว่าทำอะไรก็ไม่ถูก ทำอะไรก็พลาดไปทุกอย่าง เหมือน\nช่วงนี้แหละ เป็นความล้มเหลวที่แย่ที่สุด รู้สึกว่าตัวเองล้มเหลวในทุก ๆ แง่"
 
 show shizu basic_normal2_close
 with charachange
 
-# ssh "I wish I could wipe away everything I've done and just be alone, since all I've done is mess with Misha for two years.
-# And jerk you around for a year for selfish reasons."
-ssh ""
+# ssh "I wish I could wipe away everything I've done and just be alone, since all I've done is mess with Misha for two years. And jerk you around for a year for selfish reasons."
+ssh "ฉันอยากจะให้ทุกอย่างที่ฉันทำกลายเป็นเรื่องที่ไม่เคยเกิดขึ้นแล้วไปปลีกตัวอยู่คนเดียว เพราะที่ผ่านมา\nฉันก็ทำให้มิช่าต้องวุ่นวายมาถึงสองปี ลากนายไปไหนมาตั้งหนึ่งปีด้วยเหตุผลที่เห็นแก่ตัวมาก"
 
 # his "It's fine."
-his ""
+his "ไม่เป็นไรหรอก"
 
 show shizu adjust_frown_close
 with charachange
 
-# ssh "No, it's not. You don't understand. I was just thinking about it; everything I do feels like I have to beat someone else. Everyone else, even.
-# If that is how it is, then what are my relationships with people? They almost feel the same."
-ssh ""
+# ssh "No, it's not. You don't understand. I was just thinking about it; everything I do feels like I have to beat someone else. Everyone else, even. If that is how it is, then what are my relationships with people? They almost feel the same."
+ssh "เป็น เป็นสิ นายไม่เข้าใจ ฉันเพิ่งไปคิดมานะ ฉันจะทำอะไรก็เหมือนว่าฉันต้องเอาชนะใครสักคน ทุกคนเลยด้วยซ้ำ\nถ้าเป็นอย่างนั้นแล้วความสัมพันธ์ระหว่างฉันกับคนอื่นคืออะไรกัน มันก็เหมือน ๆ กันไปหมด"
 
 # "I can see where this is going."
-""
+"ฉันพอจะเดาออกแล้วว่าบทสนทนานี้จะเป็นยังไงต่อไป"
 
 show shizu behind_sad_close
 with charachange
 
 # ssh "The point is that I've messed up so many people by being selfish, and now I want to be away from other people for a while."
-ssh ""
+ssh "เรื่องคือฉันทำให้หลายคนต้องพังมาแล้วเพราะความเห็นแก่ตัวของฉัน ตอนนี้ฉันเลยอยากปลีกตัวห่างจากคนอื่น\nสักพัก"
 
 # his "Even me?"
-his ""
+his "กับฉันก็ด้วยเหรอ"
 
 # "There's a pause."
-""
+"ชิซูเนะเว้นช่วงไป"
 
 show shizu basic_normal_close
 with charachange
 
 # ssh "Yes."
-ssh ""
+ssh "ใช่"
 
 # "Followed by an even longer pause, this time from me."
-""
+"และคราวนี้เป็นฉันที่เว้นช่วงอีกนานกว่าเดิม"
 
 # his "I see."
-his ""
+his "งั้นเหรอ"
 
 # his "That's the most selfish thing you could do."
-his ""
+his "ทำแบบนั้นน่ะเห็นแก่ตัวที่สุดแล้วละ"
 
 # his "It's just you making another decision by yourself."
-his ""
+his "เพราะเธอก็ตัดสินใจอะไรตามใจตัวเองเหมือนเดิม"
 
 show shizu basic_normal2_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # "For a minute, it looks as though she's considering the best way to respond, but in the end, she simply nods. Which, I think, is the best way to respond anyway."
-""
+"ชิซูเนะทำท่าคล้ายคิดอยู่ว่าจะต้องตอบอย่างไรให้ดีที่สุดอยู่ครู่หนึ่ง แต่สุดท้ายก็เพียงพยักหน้า ซึ่งฉันก็คิดว่า\nเป็นคำตอบที่ดีที่สุดแล้ว"
 
 # "It's very like her, to be roundabout even now, but ultimately without excuses."
-""
+"สมเป็นชิซูเนะดีที่อ้อมค้อมเอาจนวินาทีสุดท้ายโดยไร้ซึ่งข้ออ้างใด ๆ"
 
-# "All my emotions simmer inside me. I see a kettle in front of me, water rolling inside it, so close that I can touch it and feel the heat radiating off of it.
-# I'm glad for the distraction, because I know there's no recourse or bargaining possible."
-""
+# "All my emotions simmer inside me. I see a kettle in front of me, water rolling inside it, so close that I can touch it and feel the heat radiating off of it. I'm glad for the distraction, because I know there's no recourse or bargaining possible."
+"อารมณ์หลากหลายไหลระคนอยู่ในตัวฉัน ฉันเห็นกาน้ำร้อนตรงหน้าที่มีน้ำเดือดอยู่ข้างในอยู่ตรงหน้า ซึ่งอยู่ใกล้\nจนฉันเอามือเข้าไปอังแล้วสัมผัสถึงความร้อนที่แผ่ออกมาได้ ฉันดีใจที่มีอะไรคอยดึงความสนใจอยู่ด้วยรู้ว่าตอนนี้\nคงขอร้องหรือต่อรองอะไรไม่ได้แล้ว "
 
 show shizu adjust_frown_close
 with charachange
 
 # ssh "You told me that everything was fine, but it wasn't true, was it?"
-ssh "นายบอกฉันเองนี่ว่าทุกอย่างจะโอเค แต่ก็ไม่เป็นอย่างนั้นนี่ จริงไหมล่ะ?"
+ssh "นายบอกฉันว่าทุกอย่างจะลงตัว แต่ก็ไม่เป็นอย่างนั้นนี่ จริงไหม"
 
 show shizu behind_sad_close
 with charachange
@@ -7070,19 +7061,18 @@ show shizu invis_close:
 with dissolvecharamove
 
 # "Not even bothering to sign it, I stand up. My hands are in my pockets, fingering my loose change. The morning air is cold against my face."
-"ฉันลุกขึ้นโดยไม่แม้แต่จะส่งภาษามืออีกต่อไป มือของฉันล้วงกระเป๋า นิ้วเขี่ยเศษเหรียญ อากาศยามเช้าเย็นยะเยือก\nปะทะใบหน้าของฉัน"
+"ฉันลุกขึ้นโดยไม่แม้แต่จะส่งภาษามืออีกต่อไปแล้วล้วงกระเป๋าใช้นิ้วเขี่ยเศษเหรียญ อากาศยามเช้าเย็นยะเยือก\nปะทะใบหน้าของฉัน"
 
 scene ev shizu_badend:
     xalign 0.0 yalign 0.5 zoom 1.1 subpixel True
     acdc_warp 10.0 zoom 1.0
 with locationchange
 
-# "As I look back at her, she seems very lonely. I'm reminded of myself. I've made that expression before. Maybe it's on my face right now.
-# It feels like the image of such a lonely girl will stick in my mind forever."
-"พอหันกลับไปหาเธอ เธอดูโดดเดี่ยวเหลือเกิน ทำให้ฉันนึกถึงตัวเอง ฉันเคยทำหน้าแบบนั้นมาก่อน บางทีตอนนี้ฉันอาจจะ\nกำลังทำหน้าแบบนั้นอยู่ก็ได้ รู้สึกเหมือนภาพเด็กสาวที่โดดเดี่ยวคนนี้จะติดอยู่ในใจฉันตลอดกาล"
+# "As I look back at her, she seems very lonely. I'm reminded of myself. I've made that expression before. Maybe it's on my face right now. It feels like the image of such a lonely girl will stick in my mind forever."
+"พอหันกลับไปหาเธอก็เห็นว่าชิซูเนะดูอ้างว้างเหลือเกิน ฉันนึกถึงตัวเองที่เคยทำหน้าแบบนั้นมาก่อน ตอนนี้\nฉันก็อาจจะทำหน้าแบบนั้นอยู่เหมือนกันก็ได้ รู้สึกราวกับว่าภาพเด็กสาวผู้โดดเดี่ยวคนนี้จะฝังแน่นอยู่ในใจฉันตลอดกาล"
 
 # "Every moment where I could have prevented this, or solved the problem, comes back to me. It makes me smile in a way without amusement."
-"ทุก ๆ ช่วงเวลาที่ฉันสามารถป้องกัน หรือแก้ไขปัญหานี้ได้ย้อนกลับมาหาฉันอีกครั้ง ทำให้ฉันยิ้มออกมาโดยไม่มีความสุขเลย\nแม้แต่น้อย"
+"ฉันไพล่นึกถึงทุกจังหวะที่ฉันจะป้องกันไม่ให้เรื่องนี้เกิดขึ้นได้ นึกถึงทุกจังหวะที่ฉันจะแก้ไขปัญหานี้ได้ เหล่านั้น\nทำให้ฉันยิ้มออกมาโดยไม่มีความสุขเลย"
 
 stop music fadeout 4.0
 
