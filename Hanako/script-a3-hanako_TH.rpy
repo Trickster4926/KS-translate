@@ -6040,27 +6040,27 @@ with dissolve
 play sound sfx_doorknock
 
 # "The hammering of a fist against the door feels like a nail being pounded into my head."
-""
+"เสียงมือที่เคาะประตูนั้นให้ความรู้สึกเหมือนว่าหัวโดนตอกตะปูอยู่"
 
 # "Once, twice, three times, I let out a long, annoyed breath and bear it while pressing my eyelids shut, fervently hoping for whoever it is to just go away."
-""
+"หนึ่งครั้ง สองครั้ง สามครั้ง ฉันถอนหายใจด้วยความรำคาญฝืนหลับตาทนเสียงนั้นไปและหวังใจเป็นอย่างยิ่ง\nว่าคนที่มาเคาะนั้นจะไสหัวไปเสียที"
 
 # "I feel pretty damn awful. My face feels like it's cast out of lead, my arms feel heavy, and I feel very queasy. It's been like this since I woke up half an hour ago, and I can't summon the energy to pick myself up out of bed."
-""
+"รู้สึกไม่ดีเลย หน้าก็เหมือนมีตะกั่วเคลือบ แขนก็หนักอึ้ง รู้สึกคลื่นเหียนอยากอาเจียนแทบตาย เป็นอย่างนี้ตั้งแต่ตื่นมา\nเมื่อหนึ่งชั่วโมงก่อนแล้ว แรงจะแงะตัวเองออกจากเตียงก็ไม่มี"
 
 # "So… this is what they call a hangover."
-""
+"นี่… สินะที่เขาเรียกว่าเมาค้าง"
 
 # "I wonder if perhaps this is the best treatment for teenagers who desperately want to try drinking as a way to feel like an adult. Considering how unpleasant this is, it's not something I want to repeat."
-""
+"หรือนี่คือบทลงโทษที่สาสมแล้วกับเด็กวัยรุ่นที่กระเหี้ยนกระหือรืออยากลองดื่มให้ตัวเองรู้สึกเป็นผู้ใหญ่ เล่นเสียยับขนาดนี้\nฉันคงไม่อยากเจอแบบนี้อีกเป็นครั้งที่สองแน่ ๆ"
 
 play sound sfx_doorknock
 
 # "A series of thumps rings out again, reverberating around the small room. I wish they'd just give up already; I have no intention of getting out of bed for them."
-""
+"เสียงเคาะประตูรัว ๆ ดังก้องไปทั่วห้องเล็ก ๆ นี้อีกครั้ง ล่าถอยไปสักทีเถอะ ให้ตายฉันก็ไม่ลุกไปเจอหน้าหรอก"
 
 # "Seconds pass, turning to minutes. Since no more knocks are coming from the door, whoever it was must have left. Thank goodness."
-""
+"หลายวินาทีผ่านไปจนกลายเป็นหลายนาที ไม่มีเสียงเคาะประตูแล้วก็แปลว่าต้องไปแล้วแหละ โล่งไปที"
 
 play music music_dreamy fadein 2.0
 
@@ -6068,28 +6068,29 @@ scene bg school_dormhisao
 with openeye
 
 # "Looking to my clock, the time when I really should think about getting dressed and ready for class is approaching. I don't think I can manage it, though."
-""
+"พอดูนาฬิกาก็เห็นว่าใกล้ถึงเวลาทที่ฉันต้องแต่งตัวเตรียมไปเข้าเรียนแล้ว แต่ไม่น่าทันหรอก"
 
-# "I hate cutting class, but I don't think I'm going to be able to get much done at this rate. I can tell I look like a mess without needing to look in the mirror to confirm it, too."
-""
+# "I hate cutting class, but I don't think I'm going to be able to get much done at this rate. I can tell I look like a mess without needing to look
+# in the mirror to confirm it, too."
+"ไม่อยากโดดเรียนเลย แต่ไปสภาพอย่างนี้ก็คงไม่ได้อะไรขึ้นมาเท่าไหร่ ไม่ต้องส่องกระจกดูก็รู้ว่าสภาพตัวเองตอนนี้\nดูไม่ได้แน่ ๆ"
 
 scene bg school_hallway3
 with shorttimeskip
 
 # "The morning rush is giving me enough time to stand outside the classroom for a little while without looking too suspicious. I hope that Mutou doesn't ask any awkward questions about my not attending school yesterday."
-""
+"ด้วยกลุ่มคนมากมายที่กรูกันมายามเช้าทำให้ฉันมายืนอยู่หน้าห้องสักพักหนึ่งแบบเนียน ๆ ได้ หวังว่าครู\nจะไม่ถามอะไรแปลก ๆ ที่ว่าเมื่อวานฉันขาดเรียนไปนะ"
 
 # "I was sick, that much is true, it's just the reasons for it that I have to hide."
-""
+"ฉันไม่สบายจริง แต่ที่ต้องปกปิดคือสาเหตุที่ไม่สบาย"
 
 # "Confident I can get by with a tactical omission of certain truths, I stride into the classroom doing my best to appear normal."
-""
+"ฉันเตรียมเดินอาด ๆ เข้าไปในห้องเรียนโดยทำท่าให้ดูปกติอย่างสุดความสามารถพร้อมความมั่นใจว่าฉันจะใช้กลวิธี\nปกปิดความจริงบางส่วนได้อย่างแยบยล"
 
 scene bg school_scienceroom
 with locationchange
 
 # "The instant I open the door and take a single step in, I can feel a dozen eyes looking at me. There is no way I'm imagining this; they're not even making any attempt to hide it."
-""
+"ทันทีที่เปิดประตูและเหยียบก้าวแรกเข้าห้องเรียนไปก็สัมผัสได้ถึงสายตาหลายคู่ที่มองฉันอยู่ ไม่ได้คิดไปเองแน่นอน\nแต่ละคนก็มองมาแบบเปิดเผยเลยด้วย"
 
 show hanako emb_emb:
     tworight
@@ -6100,25 +6101,25 @@ show hanako emb_downtimid
 with charachange
 
 # "My eyes take a quick sweep around the classroom, and I spot Hanako. We make eye contact momentarily, before she looks down and stares very hard at her desk."
-""
+"เมื่อกวาดตามองรอบห้องก็เห็นฮานาโกะ เราสบตากันแวบหนึ่งก่อนที่เธอจะก้มมองจับจ้องโต๊ะตัวเอง"
 
 # "Did she spill the beans? Mutou may be okay as far as teachers go, but underage drinking on campus is not exactly something that would be taken lightly."
-""
+"ฮานาโกะเอาความลับไปแพร่งพรายแล้วเหรอ ครูอาจจะพอรับได้ในฐานะครูอยู่ แต่การที่ผู้เยาว์มาดื่มกันในสถาบัน\nการศึกษานั้นไม่ใช่อะไรที่คนจะมองว่าเป็นเรื่องธรรมดาแน่ ๆ"
 
 # "I look to him with some trepidation."
-""
+"ฉันหันไปมองครูด้วยความกริ่งเกรง"
 
 show muto normal at twoleft
 with charaenter
 
 # mu "Feeling better today?"
-mu ""
+mu "วันนี้ค่อยยังชั่วแล้วเหรอ"
 
 # hi "Yeah. Thank you."
-hi ""
+hi "ครับ ขอบคุณครับ"
 
 # "He motions for me to take my seat, my legs feeling like sticks as they carry me there. This is going to be a long day."
-""
+"ครูทำท่าบุ้ยใบ้ให้ไปนั่งที่ ขาที่พาฉันมาอยู่ตรงนี้นั้นเหมือนกลายเป็นแท่งไม้ไปแล้ว วันนี้ต้องอ่วมเอาการแน่ ๆ"
 
 scene bg school_scienceroom at bgleft
 with shorttimeskip
@@ -6127,10 +6128,10 @@ stop music fadeout 2.0
 play sound sfx_normalbell
 
 # "As soon as the lunchbell rings, I'm on my way to Hanako's desk to ask her what's going on."
-""
+"ทันทีที่ระฆังพักเที่ยงดังฉันก็ไปที่โต๊ะฮานาโกะเพื่อถามถึงสิ่งที่เกิดขึ้น"
 
 # hi "Hanako… did you tell…?"
-hi ""
+hi "ฮานาโกะ… นี่เธอบอก…?"
 
 show hanako emb_emb:
    center
@@ -6138,19 +6139,19 @@ show hanako emb_emb:
 with charaenter
 
 # "She looks up at me and shakes her head. That's a big relief."
-""
+"ฮานาโกะเงยหน้ามองฉันแล้วสั่นหัว โล่งเหมือนยกภูเขาออกจากอกเลย"
 
 show hanako emb_downtimid
 with charachange
 
 # ha "It's just…"
-ha ""
+ha "แค่ว่า…"
 
 # hi "Just…?"
-hi ""
+hi "แค่ว่า…?"
 
 # mi "Well hello there, Hicchan. It's nice to see you again today~!"
-mi ""
+mi "อ้าวไงฮิจัง ดีใจนะที่วันนี้ได้เจอกันอีก~!"
 
 show bg school_scienceroom at bgright
 show hanako emb_downtimid:
@@ -6165,145 +6166,139 @@ with charaenter
 play music music_happiness fadein 2.0
 
 # "I grimace and turn towards the unmistakable voice coming from behind me. That was way too upbeat a tone of voice to feel comfortable, even from Misha."
-""
+"ฉันทำหน้าเบ้แล้วหันไปทางเสียงที่ได้ยินที่ไหนก็รู้ว่าเป็นใครซึ่งดังมาจากข้างหลัง น้ำเสียงร่าเริงเกินไปจนใจคอไม่ดีเลย\nต่อให้คนพูดจะเป็นมิช่าก็เถอะ"
 
 # "Misha's happy smile is nothing out of the usual. Shizune's, though, is a very bad sign. The one she wears has become notched into my brain as her “I have got you seven ways from Sunday” smile."
-""
+"รอยยิ้มแสนสุขของมิช่านั้นไม่ได้แปลกอะไร แต่รอยยิ้มของชิซูเนะนั้นเป็นสัญญาณที่ไม่ดีเลย เป็นรอยยิ้มที่สมองฉัน\nสลักไว้ว่าแปลว่า “ชักแม่น้ำทั้งหกก็ไม่รอดแน่เอ็ง”"
 
 # hi "Hi Shizune, Misha. You uh… you look happy to see me."
-hi ""
+hi "ไงชิซูเนะ ไงมิช่า เธอ เอ่อ… ดูดีใจที่ได้เจอฉันนะ"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…?"
-shi ""
+shi "…?"
 
 show misha hips_grin
 with charachange
 
 # mi "Not feeling well yesterday, Hicchan~?"
-mi ""
+mi "เมื่อวานไม่สบายเหรอฮิจัง~"
 
 # hi "No, no I wasn't. But I'm feeling better now, at least."
-hi ""
+hi "อืม ไม่สบาย แต่อย่างน้อยตอนนี้ก็ดีขึ้นแล้วละ"
 
 show shizu behind_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_smile
 with charachange
 
 # mi "That's good to know, Hicchan."
-mi ""
+mi "ดีขึ้นก็ดีแล้วละฮิจัง"
 
 # "Why do I get the feeling that Shizune is leading me into a trap?"
-""
+"ทำไมถึงรู้สึกเหมือนชิซูเนะกำลังลากฉันให้ไปติดกับอยู่เลยกันนะ"
 
 # hi "You sound like you're not being completely serious."
-hi ""
+hi "ที่พูดนี่เหมือนไม่ได้มาจากใจเลยนะ"
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "Oh no, Hicchan, we're genuinely pleased that you're all better now~."
-mi ""
+mi "พูดจริงนะฮิจัง เราดีใจจริง ๆ นะที่ตอนนี้นายหายดีแล้ว~"
 
 show shizu basic_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # "Shizune is positively overflowing with happiness. There's only one reason why she would be like this. Oh no."
-""
+"ชิซูเนะออกอาการชัดว่ามีความสุขจนตัวลอยแล้ว และมีเหตุผลเดียวเท่านั้นที่ชิซูเนะจะมีท่าทีเช่นนี้ ไม่นะ"
 
 show misha perky_smile
 with charachange
 
 # mi "In fact, we were quite worried about you. After all…"
-mi ""
+mi "เราเป็นห่วงนายมากเลยนะ ก็เนี่ย…"
 
 show misha sign_smile
 with charachange
 
 # mi "You, Hanako and Lilly were all absent from class on the same day."
-mi ""
+mi "ทั้งนาย ฮานาโกะ แล้วก็ลิลลี่ ต่างก็ขาดเรียนไปวันเดียวกันเลย"
 
 # "Yep, she's got us. So thoroughly that all I can do is sigh in defeat."
-""
+"อืม เรียบร้อย เรียบร้อยชนิดที่ว่าฉันได้แต่ถอนหายใจยอมรับความพ่ายแพ้"
 
 # hi "I guess you have your own theories about this. Could you just kinda… not tell anyone?"
-hi ""
+hi "งั้นเธอคงพอเดาอะไรได้แล้วสินะ รบกวนพวกเธอแบบว่า… อย่าเอาไปบอกใครได้มั้ย"
 
 show misha cross_smile
 with charachange
 
 # mi "It's a bit late for that, Hicchan~."
-mi ""
+mi "ช้าไปต๋อยนะฮิจัง~"
 
 # "I suppose she's right, considering the looks I got as I entered class. Still, things only seem to be at the level of vague suspicion rather than outright accusations, so we'll probably be fine."
-""
+"คงจริงอย่างเธอว่า ดูจากสายตาแต่ละคนที่มองมาตอนฉันเดินเข้าห้อง แต่ก็นะ ยังเหมือนว่าแค่สงสัย ๆ กันอยู่\nไม่ถึงขั้นตั้งข้อกล่าวหากันขนาดนั้น น่าจะไม่เป็นไร"
 
 show hanako emb_downsad
 with charachange
 
 # "Hanako's face sinks a little further. Such attention is troublesome enough for me, let alone for her. Going by Shizune and Misha's reactions, I think they notice this as well."
-""
+"ฮานาโกะก้มหน้างุดลงไปอีก คนให้ความสนใจกันแค่นี้ฉันยังเดือดร้อน กับฮานาโกะยิ่งแล้วใหญ่ ดูจากปฏิกิริยาแล้ว\nชิซูเนะกับมิช่าก็น่าจะจับสังเกตได้เหมือนกัน"
 
 show shizu basic_angry
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_frown
 with charachange
 
 # mi "The only reason why we're giving you such a hard time is that you ignored us yesterday morning~!"
-mi ""
+mi "ที่เราจี้หนักขนาดนี้ก็เพราะเมื่อวานตอนเช้านายเมินพวกเรา~!"
 
 # "Yesterday morning? It takes a while to recollect what happened then, given the haze induced by the generally awful state I was in at the time."
-""
+"เมื่อวานตอนเช้าเหรอ ฉันย้อนระลึกพักหนึ่งว่าตอนนั้นเกิดอะไรขึ้นด้วยตอนนั้นสมองยังทำงานได้ไม่เต็มที่"
 
 # hi "Oh, right, the knocking. That was you two?"
-hi ""
+hi "อ้อ จริงสิ เสียงเคาะประตู พวกเธอเองหรอกเหรอ"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_frown
 with charachange
 
 # mi "It was, and you left us there for ages after we'd taken all the effort of coming to your dormitory early in the morning."
-mi ""
+mi "ใช่ แล้วก็ปล่อยให้เรารอเป็นชาติทั้งที่อุตส่าห์ถ่อมาถึงหอแต่เช้าตรู่เลย"
 
 # hi "Sorry, I was having a… problem with nausea? A problem with nausea."
-hi ""
+hi "ขอโทษที พอดีตอนนั้น… เหมือนจะคลื่นไส้? เหมือนจะคลื่นไส้อยู่น่ะ"
 
 # "They're not buying it. I can't blame them."
-""
+"ไม่เชื่อ ก็ไม่แปลกละนะ"
 
 show shizu behind_frustrated
 with charachange
 
 # "Shizune's head drops in resignation before she reaches into her pocket."
-""
+"ชิซูเนะก้มหน้าด้วยความระอาก่อนจะขยับมือไปล้วงกระเป๋า"
 
 # "Something white and yellow can be seen sticking out a little, and as she pulls it out, it turns out to be an envelope with very bright decorations on it."
-""
+"บางอย่างที่เป็นสีขาว ๆ เหลือง ๆ แลบออกมา พอชิซูเนะดึงออกมาถึงเห็นว่าเป็นซองจดหมายที่มีของสีสันฉูดฉาด\nประดับ"
 
 show letter_insert:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
@@ -6311,23 +6306,23 @@ show letter_insert:
 with Pause (1.0)
 
 # "Since she points it towards me, I duly take it."
-""
+"เมื่อยื่นมาให้ฉันก็รับไว้"
 
 # mi "This is what we were trying so hard to give you, Hicchan! You don't check your…"
-mi ""
+mi "นี่แหละของที่จะเอามาให้ฮิจังน่ะ! นายไม่ได้ไปดู…"
 
 stop music fadeout 5.0
 
 # "I tune out the sound of Misha's voice as my eyes register what's written on the envelope."
-""
+"หูฉันตัดเสียงมิช่าไปเมื่อตามองสิ่งที่เขียนอยู่บนซองจดหมาย"
 
 stop music fadeout 0.3
 
 # hi "Iwanako…"
-hi ""
+hi "อิวานาโกะ…"
 
 # "I stare at the envelope for a moment, before suddenly remembering that there are people around me."
-""
+"ฉันมองซองจดหมายอยู่ครู่หนึ่งก่อนฉุกคิดได้ว่ายังมีคนอยู่ด้วย"
 
 show misha cross_smile
 show shizu behind_blank
@@ -6343,28 +6338,28 @@ hide letter_insert
 with None
 
 # "There's a very strange, somewhat invasive feeling about their expressions. I kind of want to be alone right now."
-""
+"แต่ละคนทำสีหน้าชวนให้รู้สึกเหมือนถูกบุกรุกชอบกล ตอนนี้อยากอยู่คนเดียวมากกว่า"
 
 show hanako emb_sad
 with charachange
 
 # ha "Iwanako…?"
-ha ""
+ha "อิวานาโกะ…?"
 
 # hi "It's nothing. Thank you for bringing me this, you two."
-hi ""
+hi "ไม่มีอะไรหรอก ขอบคุณนะที่พวกเธอเอามาให้"
 
 show misha hips_grin
 with charachange
 
 # mi "I should think so, after what we went through to get it to you~."
-mi ""
+mi "ก็สมควรได้รับคำขอบคุณละนะ ลำบากลำบนกว่าจะเอามาให้ได้เนี่ย~"
 
 show misha hips_frown
 with charachange
 
 # "I step back and say my goodbyes. Misha theatrically pouts even as I go out the door, but Shizune and Hanako remain very visibly curious about my reaction. I hope they won't interrogate me on this later."
-""
+"ฉันปลีกตัวออกมาแล้วบอกลา มิช่าทำแก้มป่องแบบเห็นชัดระหว่างที่ฉันเดินออกไปทางประตู แต่ชิซูเนะกับฮานาโกะ\nยังดูสงสัยกับปฏิกิริยาของฉัน หวังว่าจะไม่มาซักไซ้อะไรทีหลังนะ"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_parkambience fadein 2.0
@@ -6375,16 +6370,16 @@ with locationskip
 play music music_serene fadein 2.0
 
 # "The smell of the gardens is, as always, a very pleasant sensation. Some of the most visible signs of how well-funded this school is, aside from its sheer size, are the expanse and condition of the grounds."
-""
+"กลิ่นของสวนนั้นชวนให้รู้สึกดีเช่นเคย สิ่งบ่งชี้อย่างหนึ่งถึงฐานะอันอู้ฟู่ของโรงเรียนนี้นอกจากขนาดแล้วก็มีสภาพ\nกับพื้นที่สวนนี่แหละ"
 
 # "A good number of students can be seen eating lunch, chatting, and playing on the bright green lawns. Even some of the staff is enjoying the summer here, keeping watch over the students and idly walking along the long concrete paths."
-""
+"นักเรียนจำนวนหนึ่งกำลังกินข้าวเที่ยงกันอยู่ บ้างก็คุยกัน บ้างก็เล่นกันอยู่ในสนามหญ้าเขียวขจีนี้ แม้แต่คนงาน\nของโรงเรียนบางคนยังออกมาเดินไปตามทางคอนกรีตยืดยาวรับแดดหน้าร้อนคอยสังเกตการณ์นักเรียน"
 
 # "I'd never seen a sight like this in my home city. On excursions, maybe, but certainly never in the school or anywhere near where I lived."
-""
+"ฉันไม่เคยเห็นภาพอย่างนี้ที่เมืองที่ฉันอาศัยอยู่เลย ถ้าเป็นตอนไปเที่ยวละก็อาจจะได้เห็น แต่ถ้าเป็นตามโรงเรียน\nหรือละแวกที่ฉันอยู่แล้วไม่มีแน่นอน"
 
 # "Even the bench I sit on to read is warmer thanks to the summertime sun, reminding me of why I haven't worn the school blazer even once yet."
-""
+"แม้แต่ม้านั่งที่ฉันนั่งอยู่ก็อุ่น ๆ ด้วยแดดหน้าร้อน จนฉันนึกได้ว่าเพราะอากาศแบบนี้เองฉันถึงไม่ได้ใส่เสื้อแขนยาว\nของโรงเรียนเลยสักครั้ง"
 
 show letter_open_insert:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
@@ -6392,19 +6387,19 @@ show letter_open_insert:
 with Pause (1.0)
 
 # "Considering this, the sunflowers and splashes of vibrant yellow coloring adorning the paper are quite appropriate for the time. If only the words written on it were as well."
-""
+"ดังนี้แล้ว ดอกทานตะวันกับสีเหลืองสดที่ประดับกระดาษนั้นจึงนับว่าเข้ากับช่วงเวลานี้ทีเดียว ถ้าเนื้อหาข้างใน\nเป็นไปตามนั้นด้วยคงดี"
 
 # "Here I was, thinking I'd managed to get over her, when this troublesome thing shows up."
-""
+"แล้วจดหมายเจ้าปัญหานี่ก็มาตอนที่ฉันคิดว่าทำใจกับเรื่องของเธอไปได้แล้ว"
 
 # "Her handwriting looks vaguely familiar at best, and only now that I see it again I remember that she used to write in pink pen a lot. She was always very girly, for lack of a better term."
-""
+"ลายมือเธอนั้นพอจะคุ้นตาอยู่บ้าง และเพิ่งนึกได้ตอนเห็นนี่เองว่าเจ้าตัวชอบเขียนอะไรด้วยปากกาหมึกชมพู ฉันไม่รู้\nจะเอาคำไหนมาอธิบายดี แต่เอาเป็นว่าเธอเป็นคนที่มีความเป็นผู้หญิงมาก ๆ"
 
 # "But she was also quite fragile. I never knew if I liked this aspect of her or not, though with the arrival of this letter, that question seems to have become largely moot."
-""
+"ทว่าก็เป็นคนที่ค่อนข้างเปราะบาง ฉันไม่รู้ว่าฉันชอบตัวเธอมุมนี้หรือเปล่า แต่ก็ไม่รู้จะสงสัยไปทำไมเมื่อจดหมายนี้\nมาอยู่ในมือแล้ว"
 
 # "The letter begins with not much more than an update on the state of things going on in her life. My old class had a good start to the school year, many are anxious about the exams that will be coming up in the future, etcetera."
-""
+"ส่วนแรกของจดหมายก็มีแค่เรื่องข่าวคราวความเป็นไปของชีวิตเธอ ห้องที่ฉันเคยอยู่มีเหตุการณ์ประเดิมปีการศึกษาได้ดี\nหลายคนวิตกเรื่องข้อสอบที่จะได้สอบกัน ฯลฯ"
 
 play sound sfx_paper
 
@@ -6413,7 +6408,7 @@ show letter_open_insert_2
 with charachange
 
 # "But it ends on a very personal, if brief, note. It feels a bit like she wrote most of the letter just to try and soften the blow from the ending."
-""
+"แต่ลงท้ายด้วยเรื่องที่เป็นส่วนตัวแบบสั้น ๆ แอบคิดอยู่เหมือนกันว่าที่เขียน ๆ มาตั้งแต่ต้นก็เพื่อซับแรงกระแทก\nจากส่วนท้ายของจดหมายหรือเปล่า"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6433,13 +6428,13 @@ window show
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
 # "And so, that's that. Our relationship is over. Nice, neat, and tidy, with no ambiguity."
-""
+"เป็นเช่นนั้น ความสัมพันธ์ของเราจบลงแล้ว สวยงาม ชัดเจน เรียบง่าย ไร้ซึ่งความคลุมเครือ"
 
 # "I hadn't held on to any illusions that it could ever begin anew. The last time she visited me, neither of us said a thing, except for the one word she said as she left for the last time. “Goodbye.”"
-""
+"ฉันไม่ได้คิดฝันอยู่แล้วว่าจะเริ่มต้นกันใหม่ได้ ครั้งสุดท้ายที่อิวานาโกะมาเยี่ยมฉันต่างคนต่างก็ไม่พูดอะไร เว้นเสีย\nก็แต่คำพูดสุดท้ายที่เธอพูดก่อนจากไปไม่กลับมาอีก “ลาก่อน”"
 
 # "Be that as it may… this feels more final. The capstone on an experiment that both of us tried, and failed at."
-""
+"แต่แม้กระนั้น… มีจดหมายแบบนี้แล้วก็ให้ความรู้สึกตัดขาดขึ้น เป็นปัจฉิมบทแด่สิ่งที่เราสองคนได้พยายามแล้ว\nและล้มเหลว"
 
 show letter_open_insert_2:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -6450,150 +6445,151 @@ hide letter_open_insert_2
 with None
 
 # "A loud shout draws my eyes away from the letter. It's just some students horsing around, with one of the teachers standing nearby coming over to talk to them."
-""
+"เสียงตะโกนดึงสายตาฉันออกไปจากจดหมาย ซึ่งมาจากนักเรียนที่วิ่งเล่นกันโดยมีครูคนหนึ่งที่ยืนอยู่แถวนั้นเดิน\nเข้ามาคุยด้วย"
 
-mystery "Are you okay?"
+# mystery "Are you okay?"
+mystery "เป็นอะไรหรือเปล่า"
 
 show yuuko neutral_down at center
 with charaenter
 
 # "A tentative voice comes from my side. For a moment I assume it to be Hanako, but it's actually Yuuko."
-""
+"เสียงที่ฟังดูไม่ค่อยแน่ใจนั้นดังอยู่ข้าง ๆ แวบหนึ่งฉันคิดไปว่าคงเป็นฮานาโกะ แต่จริง ๆ แล้วเป็นยูโกะต่างหาก"
 
 # hi "Oh, hello Yuuko. I thought you'd be in the library."
-hi ""
+hi "อ้าว สวัสดีครับคุณยูโกะ นึกว่าจะอยู่ที่ห้องสมุดเสียอีก"
 
 show yuuko closedhappy_up
 with charachange
 
 # "She gives a cheerful smile, one quite fitting the atmosphere, and flourishes the empty wrapper of a roll in her hand. She must have someone else covering for her while she grabbed something to eat."
-""
+"ยูโกะยิ้มร่าเริงสมกับบรรยากาศแล้วชูห่อขนมปังโรลที่กินหมดแล้วให้ดู สงสัยคงให้ใครสักคนไปเฝ้าแทนระหว่างที่\nออกมาหาอะไรกิน"
 
 # "It reminds me that I haven't had anything to eat yet. I don't feel hungry though, and skipping one lunch won't hurt."
-""
+"ซึ่งก็ทำให้ฉันนึกได้ว่าตัวเองยังไม่ได้กินอะไรเลย แต่ตอนนี้ก็ไม่หิว อดข้าวเที่ยงไปสักมื้อคงไม่เป็นไรหรอก"
 
 show yuuko smile_up
 with charachange
 
 # yu "Mind if I sit here?"
-yu ""
+yu "ขอนั่งด้วยได้ไหม"
 
 # hi "Sure, go ahead."
-hi ""
+hi "อ้อ เชิญครับ"
 
 show yuuko neutral_down at Position(ypos=1.15)
 with dissolvecharamove
 
 # "I quickly slide the letter back into its envelope, slipping it inside my bag propped against the side of the bench as Yuuko takes a seat. She drops the wrapper into a bin beside us."
-""
+"ฉันรีบเก็บจดหมายกลับเข้าซองแล้วหย่อนใส่กระเป๋าที่วางอยู่ข้างม้านั่งระหว่างที่ยูโกะกำลังนั่ง เธอทิ้งซองขนม\nที่ถังขยะข้าง ๆ"
 
 # "Without much else to do, I lean back and take what enjoyment I can from the sun, silently reflecting on the letter."
-""
+"ด้วยไม่มีอะไรให้ทำฉันจึงเอนตัวอาบแดดพลางนึกถึงจดหมายฉบับนั้นอยู่เงียบ ๆ"
 
 # "The lush lawns, the clear blue skies… everything looks so different from the way it did back then. Even the school's surroundings, from the hill it's on to the woods around it, are completely opposite to the urban scenery I remember."
-""
+"สวนเขียวชอุ่ม ฟ้าสีครามสดใส… ทุกอย่างดูไม่เหมือนตอนนั้นเลย แม้แต่สภาพแวดล้อมของโรงเรียน—ตั้งแต่ยอดเขา\nที่โรงเรียนนี้ตั้งอยู่ไปยันป่าโดยรอบ—ยังตรงกันข้ามกับภาพตามชานเมืองในความทรงจำ"
 
 # "Maybe this is what it's like to feel homesick. Then again, it's not an outright bad sensation; the feel of the area around Yamaku, while very different, is also nice. I think I could get used to it."
-""
+"หรือนี่จะเป็นสิ่งที่เขาเรียกว่าอาการคิดถึงบ้าน แต่ก็นะ ไม่ใช่ว่าอยู่ที่นี่แล้วรู้สึกไม่ดีหรอก บริเวณโดยรอบยามากุ\nก็ดีเหมือนกันแม้จะต่างจากที่เดิม ฉันน่าจะอยู่จนชินได้"
 
 show yuuko smile_down
 with charachange
 
 # yu "Hey, Hisao?"
-yu ""
+yu "นี่ ฮิซาโอะ"
 
 # hi "Yeah?"
-hi ""
+hi "ครับ?"
 
 show yuuko worried_down
 with charachange
 
 # yu "You didn't answer my question from before. I wasn't going to say anything, but you still look troubled."
-yu ""
+yu "เมื่อกี้เธอยังไม่ได้ตอบคำถามฉันเลยนะ ฉันกะจะไม่พูดถึงแล้วนะ แต่ก็เห็นเธอดูเครียด ๆ"
 
 show yuuko panic_up
 with charachange
 
 # yu "If you don't want to say anything though, that's okay, I don't mind at all. Um, s-sorry for asking something strange like that…"
-yu ""
+yu "แต่ถ้าไม่อยากเล่าก็ไม่เป็นไรนะ ฉันไม่ถือหรอก เอ่อ ขะ-ขอโทษที่ถามอะไรแปลก ๆ อย่างนั้นนะ…"
 
 # hi "I don't mind."
-hi ""
+hi "ผมไม่ถือหรอกครับ"
 
 # hi "It's just… I got a letter from someone I knew before I came to Yamaku. It made me think about some things."
-hi ""
+hi "แค่ว่า… ผมได้จดหมายจากที่คนที่ผมรู้จักก่อนมาที่ยามากุน่ะ พออ่านแล้วผมก็ย้อนคิดถึงอะไร ๆ"
 
 # hi "I thought I'd managed to get over most of the problems that my accident caused, but now I'm not really so sure. I kinda wish I'd never seen it."
-hi ""
+hi "ผมเคยคิดว่าผมทำใจยอมรับปัญหาจากอุบัติเหตุครั้งนั้นได้หมดแล้ว แต่ตอนนี้ผมชักไม่แน่ใจ ลึก ๆ ผมก็ไม่อยาก\nมารับรู้เนื้อหาในจดหมายนี้เลย"
 
 show yuuko worried_up
 with charachange
 
 # yu "I don't think that's good, Hisao."
-yu ""
+yu "ฉันว่าไม่ดีเลยนะฮิซาโอะ"
 
 show yuuko neutral_down
 with charachange
 
 # yu "When my boyfriend left me, he did so very suddenly, and never let me know why. At first I was very depressed about it, but I decided to forgive him."
-yu ""
+yu "แฟนฉันทิ้งฉันไปแบบกะทันหันมาก ไม่เคยบอกให้รู้ด้วยว่าเพราะอะไร ทีแรกฉันก็หดหู่มาก แต่แล้วก็ทำใจให้อภัยได้"
 
 # hi "You forgave him? Couldn't he at least have talked properly with you about it?"
-hi ""
+hi "ให้อภัยเหรอครับ อย่างน้อยถ้ามาคุยกันให้เป็นเรื่องเป็นราวก็ยังดีนะครับ"
 
 # yu "He was always one of those people that found it difficult to come close to others."
-yu ""
+yu "เขาเป็นคนที่สนิทกับใครไม่เป็นมาแต่ไหนแต่ไรแล้วน่ะ"
 
 # yu "In the end, I decided that I fell in love with him for a reason. He was a good person, and I think that if I had been in his position, I would probably have found it just as hard to try and talk to him."
-yu ""
+yu "สุดท้ายฉันเลยคิดว่าคงมีสาเหตุที่ฉันรักเขาแหละ เขาเป็นคนดีนะ แล้วก็คิดด้วยว่าถ้าสลับตำแหน่งมาเป็นฉันบ้าง\nฉันก็คงลำบากใจที่จะต้องคุยกับเขาเหมือนกัน"
 
 # hi "I don't… really see the connection to the letter I got."
-hi ""
+hi "ผมยังไม่… เข้าใจว่าเรื่องนี้มันเกี่ยวกับจดหมายของผมยังไง"
 
 show yuuko worried_up
 with charachange
 
 # yu "I mean that… um, how should I put this…"
-yu ""
+yu "คือฉันจะบอกว่า… เอ่อ จะว่ายังไงดี…"
 
 # yu "It must have been very hard for that person to send that letter, and if they did, I think they must have thought very hard about exactly what to say."
-yu ""
+yu "คนที่ส่งจดหมายมาน่ะคงลำบากใจมาก ซึ่งถ้าลำบากใจจริง ฉันว่าคนนั้นคงคิดจนหัวแตกเลยว่าจะเขียนอะไรดี"
 
 # "Iwanako managed to write this letter and bring a final close to our relationship; something that I'd never managed to do."
-""
+"อิวานาโกะเขียนจดหมายฉบับนี้เพื่อปิดท้ายความสัมพันธ์ของเราได้ เป็นสิ่งที่ฉันคงไม่มีวันทำได้"
 
 # "Whereas here I am, trying to protect and help Hanako as best I can, especially with Lilly leaving for a while, and I'm not even able to deal with my own problems."
-""
+"ฉันนี่นะ คอยปกป้องฮานาโกะสุดความสามารถ แล้วยิ่งลิลลี่จะไม่อยู่สักพักหนึ่งด้วย แต่กลับจัดการปัญหาของตัวเอง\nยังไม่ได้เลย"
 
 show yuuko neutral_down
 with charachange
 
 # yu "Does that make sense?"
-yu ""
+yu "เธอเข้าใจไหม"
 
 # "She's taken my nonresponse and furrowed brow as doubt. She really reads faces too much, just like a certain other person."
-""
+"ยูโกะถือเอาว่าการที่ฉันไม่ตอบและขมวดคิ้วคือการไม่เห็นด้วย อ่านสีหน้ามากไปแล้วนะ เหมือนคนคนนั้นเลย"
 
 # hi "Yeah, that makes sense."
-hi ""
+hi "อื้ม เข้าใจครับ"
 
 # hi "The letter was just kind of a shock, really. I think I'd tried to fool myself into thinking that my life reset when I came into Yamaku, but now I'm suddenly aware that it didn't. I'm at a bit of a loss about how to deal with these feelings."
-hi ""
+hi "จริง ๆ ผมก็ตกใจเหมือนกันที่มีจดหมายมา ผมว่าตอนที่มายามากุใหม่ ๆ ผมคอยหลอกตัวเองว่าต้องเริ่มชีวิตใหม่\nแต่อยู่ ๆ ก็มีบางอย่างมาสะกิดว่าไม่ได้เริ่มใหม่เลย ผมเลยยังสับสนนิดหน่อยว่าจะจัดการกับความรู้สึกพวกนี้ยังไงดี"
 
 show yuuko worried_down
 with charachange
 
 # yu "I think that's something I can't really help you with. Sorry."
-yu ""
+yu "ฉันว่าฉันคงช่วยเธอเรื่องนั้นไม่ได้ ขอโทษทีนะ"
 
 # hi "It's fine. I think being able to talk with you helped me get things sorted out a bit better in my head, so thank you anyway."
-hi ""
+hi "ไม่เป็นไรหรอกครับ ผมว่าการได้มาคุยกับคุณอย่างนี้ก็ช่วยให้ผมได้จัดระเบียบความคิดให้มันดีขึ้นหน่อยเหมือนกัน\nยังไงก็ขอบคุณนะครับ"
 
 show yuuko closedhappy_down
 with charachange
 
 # "She nods and smiles sweetly. Yuuko is a nice girl, so it's a shame she's so highly strung so often."
-""
+"ยูโกะพยักหน้ายิ้มหวาน เป็นคนดีนะ เสียดายติดที่ตระหนกอะไรบ่อยไปหน่อย"
 
 play sound sfx_warningbell
 
@@ -6601,28 +6597,28 @@ show yuuko panic_up
 with vpunch
 
 # "The school bell ringing out startles us both."
-""
+"เสียงระฆังที่ดังทำเราทั้งสองคนตกใจ"
 
 # yu "Ah, I was supposed to be back before the bell!"
-yu ""
+yu "อ๊ะ ที่จริงฉันต้องไปก่อนระฆังดัง!"
 
 # hi "Oops…"
-hi ""
+hi "โอ๊ะ…"
 
 show yuuko worried_up at center
 with  Dissolvemove(0.3)
 
 # "She jumps off the bench and almost races off without a second word, but turns on her heel as she remembers she was talking to me just now."
-""
+"ยูโกะเด้งตัวลุกขึ้นตั้งท่าพุ่งตัวออกไปไม่พูดอะไรอีก แต่ก็หมุนส้นเท้ามาเมื่อนึกได้ว่าเมื่อครู่คุยกับฉันอยู่"
 
 show yuuko neutral_up
 with charachange
 
 # yu "I'll see you later, Hisao. Cheer up, okay?"
-yu ""
+yu "ไว้เจอกันนะฮิซาโอะ ร่าเริงเข้าไว้ล่ะ"
 
 # hi "I'll try to. Thanks, Yuuko."
-hi ""
+hi "จะพยายามครับ ขอบคุณนะครับคุณยูโกะ"
 
 stop music fadeout 9.0
 
@@ -6630,13 +6626,13 @@ hide yuuko
 with charaexit
 
 # "With a quick bow, Yuuko takes her leave and begins her rush to the library. Her flight catches the curious eyes of a few passing students, who are unenthusiastically trudging back to their classes after their fun."
-""
+"ยูโกะค้อมตัวให้เล็กน้อยแล้วรีบมุ่งหน้าไปห้องสมุดทันที นักเรียนบางคนที่กำลังเดินกลับห้องเรียนตัวเองกัน\nอย่างเอื่อยเฉื่อยหลังจากที่ได้สนุกกันแล้วหันมามองเธอที่พุ่งตัวไป"
 
 # "Reluctantly standing from the bench, I dust myself off and join them."
-""
+"ฉันลุกจากม้านั่งอย่างอิดออดก่อนจะปัด ๆ เนื้อตัวแล้วตามคนอื่นไป"
 
 # "Even while I walk through the gardens back to the main building, the thought of the letter in my bag doesn't stray far from my mind."
-""
+"เรื่องจดหมายฉบับนั้นในกระเป๋ายังไปไม่ไกลห่างจากความคิดนักแม้แต่ตอนกำลังเดินผ่านสวนกลับไปที่อาคารหลัก"
 
 stop ambient fadeout 2.0
 stop music fadeout 2.0
