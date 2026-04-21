@@ -6651,13 +6651,13 @@ scene bg city_street2_ni
 with locationchange
 
 # "The feeling of walking through the streets is one of very deep nostalgia. While Yamaku may be like the reverse of where I've lived in the past, the city at night is amazingly familiar."
-""
+"การได้มาเดินในตัวเมืองเช่นนี้นั้นเป็นสิ่งที่ชวนให้นึกถึงอดีตได้มากอย่างหนึ่ง ภาพของยามากุนั้นเป็นแบบสวนทาง\nกับที่ที่ฉันเคยอยู่ในอดีต ส่วนตัวเมืองยามค่ำคืนนั้นช่างชวนให้รู้สึกคุ้นเคยดีมาก ๆ"
 
 # "My eyes are moving constantly from the bright electronic screens glowing high in the night sky, to the street lamps piercing the darkness with their light, to the businessmen enjoying themselves after work and the busily talking couples on dates."
-""
+"ตาของฉันไล่มองตั้งแต่ป้ายไฟฟ้าที่ส่องสว่างอยู่สูงลิบในผืนฟ้าราตรี ไฟถนนที่เปล่งแสงฝ่าความมืดมิด\nเหล่าพนักงานบริษัทที่พักผ่อนหย่อนใจหลังเวลางาน ไปจนถึงคู่รักที่มาเดตและคุยกันอยู่"
 
 # "Even if I didn't want to, I can't help soaking in every aspect of the city. I savor its familiarity like a sweet candy sitting on my tongue."
-""
+"ฉันอดใจไม่ได้ที่จะปล่อยให้ตัวเองกำซาบทุกมุมทุกด้านของตัวเมือง ต่อให้จะไม่ได้ตั้งใจมาก็ตาม ฉันดื่มด่ำ\nไปกับความคุ้นเคยนี้ราวกับกำลังอมลูกอมหวาน ๆ ไว้ในปาก"
 
 show akira basic_boo_ni:
     center
@@ -6668,10 +6668,10 @@ show lilly cane_smileclosed_cas_ni:
 with charaenter
 
 # "Lilly is walking to my left with her cane swaying to and fro, holding onto her sister's arm for guidance while talking to her."
-""
+"ลิลลี่ซึ่งเดินอยู่ทางซ้ายมือฉันกำลังเดินเคาะไม้เท้าไปเรื่อย ๆ พลางจับแขนพี่สาวตัวเองเป็นการนำทางและคุยกับเธอ\nไปด้วย"
 
 # "Compared to traveling by taxi or bus, being driven by Akira in her rather nice car was a much more enjoyable experience."
-""
+"ถ้าให้เทียบกับการนั่งแท็กซี่หรือรถประจำทางแล้ว ให้อากิระขับรถที่ค่อนข้างหรูนั้นมาจะรู้สึกสบายมากกว่า"
 
 show hanako invis_close:
     center
@@ -6689,55 +6689,55 @@ show hanako basic_distant_cas_close_ni at tworight
 with dissolvecharamove
 
 # "Maybe not for the person on my right, though. While Lilly was used to her sister's driving style, and I quite liked a bit of excitement, Hanako was holding very tightly to the door for most of the trip."
-""
+"แต่คนที่อยู่ทางขวามือฉันน่าจะไม่สบายด้วยเท่าไหร่ ลิลลี่ชินกับการขับรถของพี่สาวตัวเองแล้ว ฉันก็พอจะชอบอะไร\nที่ตื่นเต้นเล็กน้อย แต่ฮานาโกะเกาะประตูรถไว้แน่นมาตลอดทาง"
 
 show hanako basic_smile_cas_close_ni
 with charachange
 
 # ha "E-everything looks so p-pretty at night…"
-ha ""
+ha "พะ-พอเป็นตอนกลางคืนแล้วอะ-อะไรก็ดูสวยไปหมด…"
 
 show hanako emb_downtimid_cas_close_ni
 with charachange
 
 # "Hanako quickly looks down yet again as she accidentally catches someone's gaze."
-""
+"ฮานาโกะหลุบตามองต่ำทันทีที่เผลอไปสบตาใครคนอื่นเข้าอีกครั้ง"
 
 # hi "Yeah, it does."
-hi ""
+hi "อื้ม นั่นสิ"
 
 # "My answer isn't very thoughtful, since I'm distracted by so many thoughts that I find it hard to keep up on smalltalk."
-""
+"ฉันตอบไปแบบส่งเดชเพราะมัวแต่คิดอะไรหลายอย่างจนไม่มีสมาธิมาคุยอะไรเรื่อยเปื่อย"
 
 # "One of those distractions, aside from the city sights, is how Hanako looks."
-""
+"หลายอย่างที่ว่านั้น—นอกจากทิวทัศน์ของตัวเมืองแล้ว—ก็มีเรื่องเสื้อผ้าหน้าผมของฮานาโกะเป็นอย่างหนึ่ง"
 
 # "This is the first time I've seen her in something other than her school uniform or her pajamas. It gave me pause when I first saw her outfit, when we met up at the school gate."
-""
+"เป็นครั้งแรกเลยที่ได้เห็นฮานาโกะใส่ชุดอื่นนอกจากชุดนักเรียนกับชุดนอน พอเห็นชุดนี้ครั้งแรกที่หน้าประตูโรงเรียน\nฉันถึงกับชะงักไป"
 
 # "Considering how much her head is lowered when people walk near us, I imagine that the hat she wears is more than a fashion statement."
-""
+"ดูจากการที่ฮานาโกะก้มหน้าต่ำเมื่อมีคนเดินใกล้ ๆ แล้ว หมวกนั้นน่าจะไม่ได้ใส่มาแค่เพื่อความเท่"
 
 # "While initially I was wary of Lilly's plan to take us out into the city, when night fell it became obvious she had thought about this. Not many people have paid Hanako much heed, since the darkness hides her scarring well."
-""
+"ตอนแรกฉันยังกังวลอยู่ว่าดีแล้วหรือที่ลิลลี่พาพวกเรามาเที่ยวกันในตัวเมืองแบบนี้ แต่เมื่อถึงเวลาค่ำก็เห็นชัดว่าลิลลี่\nคิดมาดีแล้ว เพราะไม่ค่อยมีคนสนใจฮานาโกะมากนักด้วยมีความมืดคอยปกปิดแผลเป็นฮานาโกะไว้อย่างดีอยู่"
 
 # hi "So… we're in the city. Any ideas on what to do?"
-hi ""
+hi "โอเค… มาถึงตัวเมืองแล้ว จะทำอะไรกันล่ะ"
 
 show akira basic_smile_ni
 with charachange
 
 # "Akira beams a smile. Something tells me that she's the one who is making this particular decision, even if her sister may have proposed the outing in the first place."
-""
+"อากิระยิ้มแฉ่ง สัมผัสได้ว่าเธอนั่นแหละที่เป็นคนเลือกกิจกรรมนี้เอง ถึงต่อให้จะเป็นฝ่ายน้องที่เสนอแผนให้ออกมาเที่ยวกัน\nเป็นคนแรกก็เถอะ"
 
 show akira basic_ending_ni
 with charachange
 
 # aki "You'll see. Just follow us."
-aki ""
+aki "ไปดูเดี๋ยวก็รู้ ตามมาเถอะ"
 
 # "I nod, and try my best to stifle a grimace. After what happened during Hanako's birthday party, I don't trust Akira's judgment all that much."
-""
+"ฉันพยักหน้าฝืนตัวเองไม่ให้ทำหน้าเบ้ไป พอได้เห็นสิ่งที่เกิดกับงานวันเกิดฮานาโกะแล้วฉันก็ไม่ค่อยเชื่อการตัดสินใจ\nของอากิระเท่าไหร่"
 
 $ renpy.music.set_volume(0.1, 1.0, channel="ambient")
 $ renpy.music.set_volume(0.1, 0.0, channel="music")
@@ -6747,49 +6747,49 @@ scene bg city_street3_ni
 with locationchange
 
 # "We keep walking, and I notice that we're passing more and more cafés, restaurants, and other eateries."
-""
+"ระหว่างที่เดินไปเรื่อย ๆ ก็เห็นว่าเราเดินผ่านคาเฟ ร้านอาหาร ร้านกินดื่มอื่น ๆ มากมาย"
 
 # "Every once in a while a drunken man in a suit comes out of a bar, usually being supported by another, but for the most part the customers around this part of the city look young and fashionable."
-""
+"นาน ๆ ครั้งก็จะมีคนเมาใส่ชุดสูทเดินออกมาจากบาร์ซึ่งมักจะมีคนหิ้วปีกมาด้วย แต่ลูกค้าของร้านในละแวกนี้ส่วนใหญ่\nก็ดูยังไม่แก่และมีรสนิยม"
 
 # "Different kinds of music come and go as we pass by each business. The discord created by the overlaps should be grating, but it reminds me so strongly of the times I spent in the city with my old friends that I don't mind."
-""
+"เมื่อเดินผ่านสถานบริการแต่ละที่ก็จะได้ยินเสียงดนตรีต่างชนิดกันออกไป เสียงที่ตีกันมั่วเช่นนี้คงทำให้รำคาญ ทว่า\nก็เป็นเสียงที่ชวนให้นึกถึงช่วงเวลาที่เคยอยู่ด้วยกันกับเพื่อนในตัวเมือง ฉันจึงไม่ได้ถืออะไร"
 
 # "Hanako and I have started to drift a little apart from Lilly and Akira. That comes to a stop when I hear a soft thud from beside me."
-""
+"ฮานาโกะกับฉันเดินเริ่มเดินห่างจากลิลลี่กับอากิระเล็กน้อย ซึ่งก็หยุดห่างไปเมื่อฉันได้ยินเสียงดังตุบอยู่ข้าง ๆ"
 
 show hanako defarms_shock_cas_ni
 with vpunch
 
 # ha "S-s-sorry…!"
-ha ""
+ha "ขะ-ขะ-ขอโทษค่ะ…!"
 
 # "By the time she rights herself from her apologetic bow, the middle-aged businessman she bumped into is walking away after mumbling a half-hearted apology."
-""
+"กว่าฮานาโกะจะจัดแจงตัวเองค้อมตัวขอโทษได้นั้นพนักงานบริษัทวัยกลางคนที่เธอไปเดินชนก็เดินจากไปพลางพึมพำ\nคำขอโทษแบบลอย ๆ แล้ว"
 
 show hanako emb_downtimid_cas_ni
 with charachange
 
 # "Hanako looks a little put off by the experience, and as she quickly skips ahead to match my pace, I notice her head hanging low once more. She probably bumped into him because she was looking downwards and not where she was going."
-""
+"ฮานาโกะดูอึดอัดกับเหตุการณ์นี้เล็กน้อย ฉันเห็นว่าเธอยิ่งก้มหน้างุดลงกว่าเดิมตอนที่รีบเร่งฝีเท้ามาให้ทันฉัน\nคงจะไปเดินชนเพราะมัวแต่มองพื้นไม่ได้มองทางข้างหน้า"
 
 show hanako emb_timid_cas_close_ni
 with charachange
 
 # "I step to the side a little and put one hand on her far shoulder, drawing her closer."
-""
+"ฉันเดินหลบมุมเล็กน้อยแล้ววางมือไว้บนบ่าอีกฟากรั้งตัวฮานาโกะเข้ามา"
 
 # ha "Hisao?"
-ha ""
+ha "ฮิซาโอะ?"
 
 # hi "It's okay. You can walk closer to me if you want."
-hi ""
+hi "ไม่เป็นไรน่า มาเดินใกล้ ๆ ฉันก็ได้"
 
 show hanako emb_smile_cas_close_ni
 with charachange
 
 # "Hanako hesitates, but eventually nods in assent."
-""
+"ฮานาโกะลังเล แต่สุดท้ายก็พยักหน้าตกลง"
 
 stop ambient fadeout 1.0
 $ renpy.music.set_volume(0.5, 10.0, channel="music")
@@ -6809,74 +6809,74 @@ $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_crowd_outdoors fadein 2.0
 
 # "After a couple of times when I'd thought we had arrived at Akira's destination, we reach our target. By now we're below the elevated walkways, and past the most garish and brightly-lit places."
-""
+"ฉันเดินมาจนคิดว่าถึงร้านที่อากิระจะพามาแล้วสองรอบ สุดท้ายเราก็มาถึงที่หมายจนได้ ตอนนี้เราอยู่บริเวณ\nใต้ทางเดินลอยฟ้าและเดินผ่านละแวกที่มีการประดับประดากับไฟส่องสว่างมาหมดแล้ว"
 
 # "I'm a bit surprised. The average age of those around us is distinctly older, and the smell of cigarette smoke is pretty thick. The area is far from seedy though, and it's a little amusing to see Lilly's reaction to the smell of the smoke."
-""
+"ฉันแปลกใจนิดหน่อยที่เห็นว่าอายุเฉลี่ยของคนโดยรอบนั้นแก่กว่าอย่างเห็นได้ชัด ที่ร้านมีกลิ่นควันบุหรี่ฉุน\nแต่ไม่ใช่ร้านที่ดูโทรมอะไรเลย ฉันนึกขันเล็กน้อยเมื่อเห็นท่าทีของลิลลี่ต่อกลิ่นบุหรี่"
 
 # "While it's masked by the low talking of those around us, jazz music can be heard emanating from inside. Looking up at the dimly-lit sign, it becomes obvious why."
-""
+"ฉันได้ยินเสียงดนตรีแจ๊สแว่วมาจากในร้านแม้จะมีเสียงคุยกันเบา ๆ ของคนรอบตัวกลบอยู่บ้างก็ตาม พอแหงนหน้า\nมองป้ายไฟสลัวก็กระจ่างว่าเพราะอะไร"
 
 # hi "A jazz club. I have to admit, this isn't what I expected."
-hi ""
+hi "บาร์แจ๊ส ยอมรับเลยนะครับเนี่ยว่าคาดไม่ถึงจริง ๆ"
 
 show lilly cane_giggle_cas_ni
 with charachange
 
 # "Lilly gives an amused snort and a smile."
-""
+"ลิลลี่แค่นหัวเราะชอบใจแล้วยิ้ม"
 
 show lilly cane_smileclosed_cas_ni
 with charachange
 
 # li "Somehow I feel like I should have known it, Akira."
-li ""
+li "ไม่รู้ทำไมถึงรู้สึกว่าหนูน่าจะเดาได้แต่แรกแล้วนะพี่"
 
 # "As we talk outside, I notice more and more odd sideways glances directed our way. People awkwardly catch themselves staring and look away, but that just makes it more obvious."
-""
+"ระหว่างที่คุยกันอยู่นอกร้านฉันก็สังเกตเห็นคนที่เริ่มเหลือบมองมากันแปลก ๆ แล้ว แต่ละคนต่างทำทีเหมือนไม่ได้มอง\nแล้วเบือนหน้าหนีแบบเก้ ๆ กัง ๆ แต่ยิ่งทำแบบนี้ก็ยิ่งดูออกไปใหญ่"
 
 # "I had noticed this occasionally when we were walking, but it's more pronounced now."
-""
+"ตอนที่เดินอยู่ฉันก็พอจะสังเกตได้บ้างแล้ว แต่ตอนนี้ยิ่งเห็นชัดเจนขึ้น"
 
 # "I've never experienced anything like that in my life. An average-looking Japanese teenage guy, just a little taller than normal, isn't the type to draw attention without making an effort."
-""
+"ฉันไม่เคยประสบพบเจออะไรแบบนี้มาก่อนในชีวิต วัยรุ่นญี่ปุ่นหน้าตาบ้าน ๆ ที่ตัวสูงกว่าปกตินิดหน่อยไม่ใช่คนที่จะ\nดึงดูดสายตาคนอื่นได้ง่ายนัก"
 
 show akira basic_laugh_ni
 with charachange
 
 # aki "Hey, c'mon. Just because you're teenagers, doesn't mean you can't have a taste. Right?"
-aki ""
+aki "เฮ้ย ไม่เอาน่า เป็นวัยรุ่นก็ใช่ว่าจะมาลิ้มรสไม่ได้สักหน่อย จริงไหม"
 
 # hi "Well… I don't really mind the music, if that's what you mean."
-hi ""
+hi "เอ่อ… ผมก็พอฟังแนวนี้ได้นะครับ ถ้าพี่หมายถึงดนตรีอะนะ"
 
 show hanako cover_bashful_cas_close_ni
 with charachange
 
 # ha "I-I… don't mind it… either…"
-ha ""
+ha "ฉะ-ฉัน… ก็ไม่ถือ… เหมือนกัน"
 
 # "She's only just managing to force the words out. It contrasts heavily to when we're alone in Yamaku, and it disappoints me a little that she's so highly strung for what's supposed to be a good time out on the town."
-""
+"ฮานาโกะแทบพูดออกมาไม่เป็นคำแล้ว ซึ่งไม่เหมือนกับสภาพตอนที่อยู่ด้วยกันตามลำพังในยามากุเลย\nฉันผิดหวังเล็กน้อยที่เธอมาตระหนกตอนที่เราออกมาเที่ยวสนุกกันในตัวเมืองอย่างนี้"
 
 # "It's hard to read Hanako's face as she keeps looking downwards. It's little wonder if she doesn't often come out into the city because of this, and it makes me a little thankful that my own scarring is easily hidden."
-""
+"พอก้มหน้าแล้วดูสีหน้าแทบไม่ออกเลยแฮะ ก็คงไม่แปลกเท่าไหร่ที่ไม่ค่อยเข้ามาในตัวเมืองถ้าเป็นแบบนี้ ซึ่งฉัน\nก็รู้สึกยินดีหน่อย ๆ ที่แผลเป็นของฉันนั้นซ่อนได้ง่าย"
 
 # "Lilly has a similar way of attracting people's gazes, but the reason for it is clearly different. She hardly looks like a native, and the same can be said for her sister. That much is far more noticeable than her blindness, from a distance."
-""
+"ลิลลี่เองก็ทำให้คนมองได้เหมือน ๆ กัน แต่ชัดว่าเป็นเพราะคนละสาเหตุกัน ลิลลี่ดูเหมือนไม่ใช่คนญี่ปุ่นเลย\nพี่สาวของเธอเองก็ด้วย และลักษณะนี้นั้นเด่นกว่าความเป็นคนตาบอดของเธอมากเมื่อมองจากระยะไกล"
 
 # "She may not be able to see this for herself, but I have little doubt she can hear the odd whispered phrase from people who think they're out of earshot."
-""
+"อาจจะไม่ได้เห็นกับตาว่าคนมอง แต่อย่างไรลิลลี่ก็ต้องได้ยินคนที่ซุบซิบอะไรแปลก ๆ กันเพราะคิดว่าอยู่พ้น\nจากระยะได้ยินแน่นอน"
 
 # "Be that as it may, she doesn't seem to show any sign of either annoyance or pleasure at the attention."
-""
+"ถึงอย่างนั้น ลิลลี่ก็ดูจะไม่แสดงท่าทีว่ารำคาญหรือยินดีกับความสนใจเหล่านั้นเลย"
 
 hide akira
 hide lilly
 with charaexit
 
 # "Akira's still as confident as ever, though. Flashing a smile, she strides in with Lilly by her side and the two of us following behind."
-""
+"แต่อากิระก็ยังมั่นใจเหมือนเคย เธอฉีกยิ้มแล้วเดินเข้าไปพร้อมลิลลี่ที่ประกบด้วยโดยมีเราสองคนเดินตามไป"
 
 stop ambient fadeout 1.0
 $ renpy.music.set_volume(1.0, 10.0, channel="music")
@@ -6891,22 +6891,22 @@ $ renpy.music.set_volume(0.8, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 1.0
 
 # "I had expected my eyes to need adjusting to the light inside, but it's not much brighter than outside."
-""
+"ฉันเตรียมใจไว้ว่าต้องปรับตากับความสว่างภายในร้าน ทว่าก็ไม่ได้สว่างกว่าข้างนอกเท่าไหร่"
 
 # "The music we'd heard is clearer now, mixed in with the sound of glasses moving on the tables and counter, and the husky chatter of the patrons. Looking to my right reveals the music's source, a jazz group playing beyond some tables."
-""
+"ฉันได้ยินเสียงดนตรีเมื่อครู่ชัดขึ้น เคล้ากับเสียงแก้วที่ขยับไปมาตามโต๊ะกับเคาน์เตอร์ ทั้งเสียงจ้อกแจ้กของเหล่าลูกค้า\nเมื่อหันไปมองด้านขวาก็พบกับต้นทางของเสียงดนตรีนั้น ถัดไปอีกสองสามโต๊ะข้างในมีวงดนตรีแจ๊สที่เล่นอยู่"
 
 # "The patrons seem to be mostly men, and though there's a handful of women, nobody looks under thirty. Aside from us, of course."
-""
+"ลูกค้าส่วนใหญ่เหมือนจะเป็นผู้ชาย แต่ก็ยังมีผู้หญิงบ้างประปราย โดยที่ไม่มีใครดูอายุน้อยกว่าสามสิบเลย แน่ละ\nว่าไม่นับพวกเรา"
 
 # "It feels a little like we've stepped into the 1920s, and the atmosphere is quite agreeable. I'm not completely comfortable simply because of my age, but were I older, I would probably feel quite at home."
-""
+"เหมือนเราก้าวมาอยู่ยุคปีค.ศ. 1920 บรรยากาศในร้านชวนให้พึงใจทีเดียว ฉันยังเกร็ง ๆ อยู่บ้างเพราะยังเป็นวัยรุ่นอยู่\nแต่ถ้าแก่กว่านี้อีกหน่อยก็คงอยู่แช่ในร้านได้สบายแฮเลยทีเดียว"
 
 show hanako basic_smile_cas_close at tworight
 with charaenter
 
 # "Hanako seems a bit more relaxed now, probably due to nobody looking at her. Everybody's talking between themselves, drinking, or watching the band."
-""
+"ตอนนี้ฮานาโกะดูจะผ่อนคลายลงบ้างแล้ว อาจจะเพราะไม่มีใครมองอยู่ ทุกคนต่างคุยกันกับกลุ่มตัวเอง บ้างก็ดื่ม\nบ้างก็ดูวงดนตรี"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 
@@ -6917,7 +6917,7 @@ hide crowd
 with Dissolve(1.0)
 
 # "Akira casually takes a seat at the counter without even glancing around. She's probably come here before."
-""
+"อากิระนั่งลงที่เก้าอี้หน้าเคาน์เตอร์อย่างสบาย ๆ ไม่แม้แต่จะมองไปรอบ ๆ คงจะเคยมาแล้วแหละมั้ง"
 
 show lilly basic_smileclosed_cas:
     twoleft
@@ -6926,10 +6926,10 @@ show lilly basic_smileclosed_cas:
 with Dissolve(1.0)
 
 # "Lilly retracts her cane, feeling out the bar stool and the edge of the counter before taking a seat beside her sister. The bartender takes a brief break from polishing a glass to watch her, before putting it down and coming over."
-""
+"ลิลลี่หดเก็บไม้เท้าแล้วจับไปตามเก้าอี้บาร์กับมุมเคาน์เตอร์แล้วนั่งลงข้าง ๆ พี่สาวตัวเอง บาร์เทนเดอร์หยุดมือ\nที่เช็ดแก้วอยู่หันมามองเธอก่อนจะวางแก้วแล้วมาบริการ"
 
 # "Bartender" "Good evening, ladies. What'll it be?"
-thname("Bartender") ""
+thname("บาร์เทนเดอร์") "สายัณห์สวัสดิ์ครับคุณผู้หญิง รับอะไรดีครับ"
 
 show akira basic_ending:
     center
@@ -6937,7 +6937,7 @@ show akira basic_ending:
 with charachange
 
 # aki "Just a scotch, thanks. Lilly?"
-aki ""
+aki "เอาเป็นสกอตช์แล้วกันค่ะ เธอล่ะ"
 
 show lilly basic_cheerful_cas:
     twoleft
@@ -6945,35 +6945,35 @@ show lilly basic_cheerful_cas:
 with charachange
 
 # li "May I have a glass of cham—{w=0.5}{nw}"
-li ""
+li "ขอแชม—{w=0.5}{nw}"
 
 show lilly basic_surprised_cas
 show akira basic_boo
 with vpunch
 
 # "A black-suited elbow hits her side sharply."
-""
+"คนใส่ชุดสูทดำถองศอกลิลลี่แรง ๆ"
 
 show lilly basic_weaksmile_cas
 with charachange
 
 # li "Orange juice, please."
-li ""
+li "ขอน้ำส้มค่ะ"
 
 # "Bartender" "No problem, coming right up."
-""
+thname("บาร์เทนเดอร์") "ได้ครับ สักครู่นะครับ"
 
 # "The bartender starts to pour their drinks. A couple of seconds pass before Akira suddenly remembers that Hanako and I are indeed here, and turns around to us."
-""
+"บาร์เทนเดอร์เริ่มเทเครื่องดื่มให้ทั้งสองคน ผ่านไปสักสองสามวินาทีอากิระถึงฉุกคิดได้ว่ายังมีฮานาโกะกับฉันยืนหัวโด่\nอยู่ตรงนี้แล้วหันมา"
 
 show akira basic_smile
 with charachange
 
 # aki "You two want anything, or are you just gonna stand there?"
-aki ""
+aki "พวกเธอสองคนจะเอาอะไรมั้ย หรือจะยืนอยู่อย่างนั้นแหละ?"
 
 # "Hanako seems to be getting a bit restless. No matter where we're going to seat ourselves, there's going to be people right next to her, and I don't think she looks convincingly older than twenty, unlike Lilly."
-""
+"ฮานาโกะดูเริ่มตระหนกเล็กน้อย ไม่ว่าจะนั่งที่ไหนก็ต้องนั่งติดกับคนอื่น และฮานาโกะก็ดูไม่แก่กว่ายี่สิบไม่เหมือน\nอย่างลิลลี่ด้วย"
 
 show bg city_clubint:
     xpos 0.4
@@ -6986,31 +6986,31 @@ show hanako basic_smile_cas_close:
 with charamove
 
 # "Looking around, there's a games section to our right. A couple of billiards tables can be seen in the corner, and nobody's using them either."
-""
+"เมื่อหันมองรอบ ๆ ก็เห็นว่าทางขวามือมีพื้นที่นันทนาการอยู่ ตรงมุมหนึ่งมีโต๊ะบิลเลียดอยู่สองตัว แถมไม่มีใครเล่น\nอยู่ด้วย"
 
 # "I glance to Hanako, about to ask her if she'd like to play, but she's already looking longingly in the same direction. Maybe it says something that we can get by with so few words nowadays."
-""
+"ฉันเหลือบมองฮานาโกะเตรียมถามว่าอยากเล่นหรือเปล่า แต่เธอก็มองไปทางนั้นตาละห้อยแล้ว เดี๋ยวนี้\nไม่ต้องพูดอะไรมากก็รู้ใจกัน อาจนับได้ว่าความสัมพันธ์ระหว่าเราดีขึ้นแล้ว"
 
 # hi "We'll go play pool over there."
-hi ""
+hi "เดี๋ยวพวกผมไปสอยคิวกันตรงนั้นนะครับ"
 
 show akira basic_boo
 with charachange
 
 # "Akira leans back to see past me, before shrugging and sitting back up."
-""
+"อากิระเอนตัวมองข้ามไหล่ฉันไปก่อนจะยักไหล่แล้วนั่งหลังตรงตามเดิม"
 
 show lilly basic_giggle_cas
 with charachange
 
 # li "It seems you'll have to put up with only me for company. How unfortunate."
-li ""
+li "ดูท่าว่าพี่จะมีแค่หนูอยู่ด้วยเป็นเพื่อนนะ น่าเสียดาย"
 
 show akira basic_smile
 with charachange
 
 # aki "Have fun, you two."
-aki ""
+aki "เล่นให้สนุกนะพวกเธอ"
 
 $ renpy.music.set_volume(0.8, 1.0, channel="music")
 stop ambient fadeout 14.0
@@ -7019,66 +7019,66 @@ hide hanako
 with charaexit
 
 # "We turn and set off for the abandoned corner, with Hanako taking the lead."
-""
+"พวกเราหมุนตัวเดินไปยังมุมที่ไม่มีใครนั้นโดยมีฮานาโกะนำทางไป"
 
 # "The prospect of a nice, quiet game away from everyone makes her walk noticeably faster. Her eyes stay firmly fixed on her prize."
-""
+"ฮานาโกะเดินเร็วขึ้นอย่างเห็นได้ชัดเมื่อรู้ว่าจะได้เล่นพูลอยู่เงียบ ๆ ห่างจากคนอื่น สายตาเธอจดจ้องที่หมายไว้มั่น"
 
 scene bg city_clubpool
 with locationchange
 
 # "The table's full-size and well-lit despite the surrounding darkness, thanks to the bright overhead lights. A huge painting of… something… covers the wall."
-""
+"เป็นโต๊ะขนาดมาตรฐาน มีไฟด้านบนส่องสว่างให้อย่างดีแม้โดยรอบจะมืดสลัว มีภาพ… อะไรสักอย่าง… ใหญ่ ๆ\nที่ปิดตรงกำแพงอยู่"
 
 # "There aren't many people milling about this corner of the club, and I can see Hanako becoming a little less tense as a result."
-""
+"ตรงนี้ไม่ค่อยมีคนเพ่นพ่านมากนัก ฉันเห็นว่าฮานาโกะคลายความเกร็งลงบ้างเพราะเหตุนี้"
 
 show hanako basic_smile_cas at center
 with charaenter
 
 # ha "You… kn-know how to play?"
-ha ""
+ha "นาย… ละ-เล่นเป็นไหม"
 
 # hi "I'm no expert, but yeah, I do."
-hi ""
+hi "ไม่ได้เล่นเก่งหรอก แต่ก็เป็นอยู่"
 
 show hanako basic_bashful_cas
 with charachange
 
 # ha "Then um… eight-ball?"
-ha ""
+ha "งั้น เอ่อ… เล่นพูลแปดลูกไหม"
 
 # hi "Sure."
-hi ""
+hi "ย่อมได้"
 
 hide hanako
 with charaexit
 
 # "Hanako gets the chalk and two cues from a set of hooks against one of the walls, while I fetch the balls from the table's pockets and grab the rack from a shelf underneath."
-""
+"ฮานาโกะหยิบชอล์กกับไม้คิวมาสองแท่งจากที่กลุ่มไม้ที่แขวนอยู่กับกำแพงฝั่งหนึ่ง ส่วนฉันก็ล้วงลูกจากถุงตาข่าย\nที่อยู่กับโต๊ะแล้วหยิบกรอบสามเหลี่ยมที่อยู่ตรงชั้นวางใต้โต๊ะออกมา"
 
 # "She patiently waits as I get the table set up. After slotting the final ball into the rack and doing some last adjustments, I end up having to fight my perfectionist urges in getting the bottom row of balls exactly perpendicular with the edges."
-""
+"ฮานาโกะคอยอย่างใจเย็นให้ฉันได้จัดเตรียมให้เรียบร้อย พอหย่อนลูกสุดท้ายใส่กรอบสามเหลี่ยมและปรับให้เข้าที่\nสักเล็กน้อยแล้วฉันก็ต้องกัดฟันด้วยความขัดใจไม่จัดลูกแถวสุดท้ายให้ตั้งฉากกับขอบโต๊ะพอดี"
 
 # "With the balls arranged and ready for play, I step back and take my cue from her outstretched arm. I carry out a quick inspection of the tip before I'm satisfied that it's in good condition."
-""
+"เมื่อจัดลูกได้พร้อมเล่นแล้วฉันก็ถอยออกมาหยิบไม้คิวที่ฮานาโกะยื่นให้ ฉันดูหัวคิวแบบผ่าน ๆ ให้แน่ใจว่า\nสภาพยังดีอยู่"
 
 # hi "So you've played before?"
-hi ""
+hi "เคยเล่นเหรอ"
 
 show hanako cover_bashful_cas
 with charaenter
 
 # ha "Once… or twice. I j-just kind of… know the rules."
-ha ""
+ha "ครั้ง… หรือสองครั้งนี่แหละ ฉันก็พะ-พอจะ… รู้กฎอยู่"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 # "The air between us feels a little awkward. She's still pretty nervous; understandably, given that we're in public."
-""
+"บรรยากาศระหว่างเราชวนให้อึดอัดเล็กน้อย ฮานาโกะยังเกร็ง ๆ อยู่ ซึ่งก็เข้าใจได้เพราะอยู่นอกโรงเรียน"
 
 # "Eventually the silence becomes too much even for Hanako, and she begins to quietly stammer."
-""
+"จนสุดท้ายแม้แต่ฮานาโกะก็ทนความเงียบไม่ไหวพูดอึกอักออกมาเบา ๆ"
 
 $ renpy.music.set_volume(0.8, 1.0, channel="music")
 
@@ -7086,29 +7086,29 @@ show hanako basic_worry_cas
 with charachange
 
 # ha "Wh-who'll… b-break?"
-ha ""
+ha "คะ-ใครจะ… แทงเปิดดี"
 
 # "I think for a moment before reaching into my pocket and drawing a coin."
-""
+"ฉันคิดอยู่ครู่หนึ่งก่อนล้วงกระเป๋าควักเหรียญออกมา"
 
 # hi "I'll take heads, you're tails."
-hi ""
+hi "ฉันหัว เธอก้อย"
 
 # "After a nod of agreement from Hanako, I flick the coin up in the air, catch it, and flip it over onto the back of my left hand."
-""
+"พอฮานาโกะพยักหน้าตกลงแล้วฉันก็ดีดเหรียญขึ้นไปในอากาศก่อนจะรับไว้แล้วพลิกมาไว้ที่หลังมือซ้าย"
 
 # hi "Looks like it's you that gets to break."
-hi ""
+hi "ดูท่าว่าเธอจะได้แทงเปิดละ"
 
 $ ksgallery_unlock("ev hanako_billiards_distant")
 scene ev hanako_billiards_break
 with locationchange
 
 # "Hanako nods again, before taking up her position at the end of the table."
-""
+"ฮานาโกะพยักหน้าอีกรอบแล้วตั้งท่าเตรียมอยู่ที่ปลายโต๊ะ"
 
 # "She's not usually this quiet around me, but I'm not wholly sure if it's because of the tidbit of information about her past that slipped out moments ago."
-""
+"ปกติเวลาฮานาโกะอยู่กับฉันจะไม่ได้เงียบขนาดนี้ แต่ก็ไม่แน่ใจเหมือนกันว่าเป็นเพราะเรื่องในอดีตที่หลุดออกมา\nจากปากเมื่อครู่หรือเปล่า"
 
 scene bg city_clubpool
 with flash
@@ -7116,85 +7116,85 @@ with flash
 play sound sfx_billiards_break
 
 # "The cue comes back in a practiced gesture before smacking dead into the center of the cue ball with a thud. The white ball skates across the smooth green expanse before smashing into the carefully-arranged balls at the other end."
-""
+"ฮานาโกะชักไม้คิวลองเล็งเตรียมก่อนจะแทงเข้ามาที่ลูกคิวบอลเต็มแรงดังปึก ลูกสีขาวนั้นไหลไปตาม\nพื้นเรียบสีเขียวก่อนจะกระทบกับลูกที่จัดไว้อย่างดีตรงอีกฟาก"
 
 # "Balls skitter across the table at high speed. The break was good, with the balls being nicely distributed around the table. My eyes are already flicking from one to another to pick out the easiest candidates to pocket."
-""
+"ลูกหลายลูกวิ่งกระจายอยู่บนโต๊ะด้วยความเร็วสูง นับว่าแทงเปิดได้ดีทีเดียว แต่ละลูกเคลื่อนไปอยู่ตามจุดต่าง ๆ บนโต๊ะ\nอย่างสม่ำเสมอ ตาฉันมองไปตามแต่ละลูกเพื่อหาลูกที่แทงลงหลุมได้ง่ายที่สุด"
 
 play sound sfx_billiards
 
 # "Hanako retreats from the side and I take my shot."
-""
+"ฮานาโกะถอนตัวออกจากขอบโต๊ะ ส่วนฉันก็เข้ามาแทงต่อ"
 
 show hanako basic_smile_cas at center
 with charaenter
 
 # ha "Well done."
-ha ""
+ha "เก่งนี่"
 
 # "It's only after Hanako says this that I realize the ball I was shooting at was sunk."
-""
+"ฉันรู้ตัวว่าลูกที่ฉันตบไปนั้นลงหลุมแล้วก็ตอนที่ฮานาโกะพูด"
 
 # "I look at her and notice a small smile on her face. It's nice how playing games seems to loosen her up a little."
-""
+"พอหันไปมองก็เห็นว่าฮานาโกะยิ้มน้อย ๆ อยู่ ดีเหมือนกันที่พอได้มาเล่นแล้วดูจะหายเกร็งบ้าง"
 
 # hi "Guess I'm stripes, then."
-hi ""
+hi "งั้นฉันก็คงได้เก็บลูกลายสินะ"
 
 show hanako cover_distant_cas
 with charachange
 
 # "I take a step back and let her take the next shot, but she doesn't advance to the table. Rather, she looks down a little and rubs her arm."
-""
+"ฉันถอยออกมาให้ฮานาโกะเข้ามาแทน เธอไม่เดินเข้ามาที่โต๊ะแต่กลับก้มหน้าเล็กน้อยแล้วถู ๆ แขนตัวเอง"
 
 # "By now I can identify this as one of her gestures that mean she wants to say something, but isn't sure enough of herself to do it."
-""
+"ตอนนี้ฉันดูออกแล้วว่าท่านี้คืออาการเมื่ออยากพูดอะไรบางอย่างแต่ยังไม่แน่ใจว่าจะพูดดีหรือเปล่า"
 
 # hi "What's up?"
-hi ""
+hi "มีอะไรเหรอ"
 
 show hanako cover_bashful_cas
 with charachange
 
 # ha "It's just… you had a… n-nice smile. Do you like… playing this?"
-ha ""
+ha "แค่ว่า… เห็นนาย… ยะ-ยิ้ม ๆ น่ะ ชอบ… เล่นเหรอ"
 
 # "I sigh and lean back against the table."
-""
+"ฉันถอนหายใจแล้วเอนตัวพิงโต๊ะ"
 
 # hi "I like playing, yeah. I think I was smiling because it's really nostalgic, though."
-hi ""
+hi "อาฮะ ชอบเล่น ฉันว่าที่ยิ้มน่าจะเพราะเป็นอะไรที่ชวนให้คิดถึงดี"
 
 show hanako def_worry_cas
 with charachange
 
 # "Hanako tilts her head quizzically."
-""
+"ฮานาโกะเอียงคอสงสัย"
 
 # hi "Me and my friends used to play pool in the game centers near where we lived pretty often, and at night too."
-hi ""
+hi "ฉันกับเพื่อนชอบไปเล่นพูลด้วยกันที่อาร์เคตใกล้บ้านน่ะ ไปเล่นกันตอนกลางคืนด้วย"
 
 show hanako basic_worry_cas
 with charachange
 
 # ha "W-wouldn't your parents…"
-ha ""
+ha "ละ-แล้วพ่อแม่…"
 
 # hi "My parents both worked, so they didn't mind me not being in the house. I stayed on top of schoolwork pretty easily as well, so there was plenty of time to do other stuff at night."
-hi ""
+hi "พ่อแม่ฉันทำงานกันทั้งคู่ เลยไม่ได้อะไรที่ฉันไม่อยู่บ้าน แถมผลการเรียนฉันก็ดีอยู่แล้วแบบไม่ต้องทำอะไรมาก\nเลยมีเวลาไปทำอย่างอื่นตอนกลางคืนแบบเหลือ ๆ เลย"
 
 show hanako basic_distant_cas
 with charachange
 
 # "Our conversation dies down, with Hanako's timidity getting the better of her. In response, I get off the table and let her take her turn shooting."
-""
+"บทสนทนาของเราจบลงเมื่อฮานาโกะไม่กล้าพูดอะไรอีก ฉันจึงย้ายตัวออกจากโต๊ะให้ฮานาโกะเข้ามาแทงบ้าง"
 #Variant play is happening here: usually one side shoots until some kind of foul happens, there's no taking turns. -SC
 
 scene ev hanako_billiards_smile
 with locationchange
 
 # "There aren't many solids in easy positions, so Hanako bends down and takes a while to line herself up properly."
-""
+"เนื่องจากไม่มีลูกสีลูกไหนที่ตบได้ง่ายเลยฮานาโกะจึงต้องโน้มตัวแล้วจัดท่าตัวเองอยู่สักพัก"
 
 scene ev hanako_billiards_smile_close:
     truecenter
@@ -7203,19 +7203,19 @@ scene ev hanako_billiards_smile_close:
 with flash
 
 # "Hanako's expression is the same as when we play chess; a relaxed but focused concentration. Athletes sometimes talk about getting into a zone where nothing unnecessary enters their mind, and I wonder if that's something she can do."
-""
+"สีหน้าฮานาโกะตอนนี้เหมือนอย่างตอนที่เธอเล่นหมากรุก เป็นสีหน้าที่ผ่อนคลายทว่าตั้งสมาธิจดจ่อ บางครั้งนักกีฬา\nก็เล่าว่าตัวเองต้องจำกัดความคิดไม่ให้ฟุ้งซ่านไปเรื่องอื่นที่ไม่จำเป็น หรือว่าฮานาโกะจะทำแบบนั้นได้ด้วยนะ"
 
 # "Her posture is good. Better than mine, to be sure. It's very close to a textbook method of playing, whereas I tend to contort myself into whatever position I feel is most natural for the shot I'm taking."
-""
+"ท่าของฮานาโกะนั้นนับว่าสวย ที่แน่ ๆ คือสวยกว่าฉันแล้ว แทบจะเป็นวิธีเล่นตามตำราเลย ส่วนฉันก็จะบิดตัวเอง\nไปตามท่าที่รู้สึกว่าจะใช้ตบลูกที่เล็งได้อย่างเป็นธรรมชาติที่สุด"
 
 scene ev hanako_billiards_serious
 with locationchange
 
 # "She lines up the cue. The cue comes back, and she does a couple of practice movements to make sure she's lined up correctly."
-""
+"ฮานาโกะตั้งไม้คิวเพื่อเล็งก่อนจะลองชักเข้าออกสองสามครั้งเพื่อดูว่าตำแหน่งตรงแล้ว"
 
 # "Hanako takes games so seriously. It's the only real hobby I know she has, outside of reading. It feels good to be able to share this kind of experience with her."
-""
+"ฮานาโกะจริงจังกับการเล่นมาก เป็นงานอดิเรกของฮานาโกะที่ฉันรู้นอกจากการอ่านหนังสือ พอได้มาแบ่งปัน\nประสบการณ์อย่างนี้ร่วมกันแล้วฉันก็ดีใจ"
 
 scene bg city_clubpool
 with flash
@@ -7223,129 +7223,129 @@ with flash
 play sound sfx_billiards
 
 # "She takes the shot after careful consideration, and the cue ball zooms off towards a ball sitting at a slightly awkward angle near a corner."
-""
+"พอพินิจให้รอบคอบดีแล้วฮานาโกะก็แทง ลูกคิวบอลพุ่งไปยังลูกที่อยู่ตรงมุมซึ่งดูจะลงหลุมยากเล็กน้อย"
 
 # "Hanako's careful preparation pays off as the cue ball hits and sends the ball rolling towards the corner pocket. For a moment it looks like it'll stop just on the lip of the hole, but it eventually tilts just enough to drop in."
-""
+"การเล็งอย่างดีของฮานาโกะนั้นเป็นผล ลูกคิวบอลกระทบกับลูกนั้นลงหลุมตรงมุมไป แวบหนึ่งดูเหมือนลูกนั้นจะหยุด\nอยู่ตรงปากหลุม แต่สุดท้ายก็กลิ้งตกหลุมได้พอดี"
 
 # hi "Man, that was a hard shot. If you can pull that off, I don't think I have much hope."
-hi ""
+hi "โห ตบยากนะนั่น ถ้าเธอตบลูกนั้นได้ฉันว่าฉันน่าจะชนะเธอยากแล้วแหละ"
 
 show hanako emb_emb_cas at center
 with charaenter
 
 # ha "I'm not… th-that good…"
-ha ""
+ha "ฉันไม่ได้… กะ-เก่งขนาดนั้น…"
 
 # hi "It's not just the shot though; even when lining it up you looked really serious. You're like this with chess, too."
-hi ""
+hi "ไม่ใช่แค่ว่าตบยากนะ ตอนเธอเตรียมแทงก็ดูจริงจังด้วย ตอนเล่นหมากรุกเธอก็เป็นแบบนี้เหมือนกัน"
 
 show hanako emb_downsmile_cas
 with charachange
 
 # "The praise makes her a little flustered. She sets the cue against the table and stands, turning to me."
-""
+"คำชมนั้นทำให้ฮานาโกะขวยเขินเล็กน้อย เธอวางไม้คิวไว้กับโต๊ะแล้วยืนขึ้นหันมาทางฉัน"
 
 # ha "I just… like those kinds of things…"
-ha ""
+ha "ฉันแค่… ชอบอะไรแบบนั้นน่ะ…"
 
 # "Her fingers are twisting and turning tightly."
-""
+"ฮานาโกะขยับนิ้วบิดไปมาแรง ๆ"
 
 show hanako emb_downtimid_cas
 with charachange
 
 # ha "When I was in the orphanage… I just…  k-kept doing the things I liked… before."
-ha ""
+ha "ตอนฉันอยู่สถานรับเลี้ยงเด็กกำพร้า… ฉันแค่… ทะ-ทำอะไรที่เคย… ชอบ"
 
 # ha "If I p-played games with the others, th-that was enough for the helpers there, so…"
-ha ""
+ha "ขอแค่ฉันละ-เล่นเกมกับคนอื่นแล้ว พะ-พี่ ๆ ที่อยู่ที่นั่นก็พอใจแล้ว เพราะงั้น…"
 
 # "I'd never thought about it that way. Staff at an orphanage would naturally want to have everyone socialize at least a little."
-""
+"ไม่เคยมองมุมนี้เลยแฮะ แต่ปกติคนที่ทำงานที่สถานรับเลี้ยงเด็กกำพร้าก็ย่อมอยากให้ทุกคนอยากเข้าสังคม\nกันสักหน่อยอยู่แล้วนี่นะ"
 
 # hi "If it's okay for me to ask… what was it like for you at the orphanage?"
-hi ""
+hi "ถ้าเธอไม่ว่าอะไร ขอถามหน่อยได้มั้ย… ว่าที่สถานรับเลี้ยงเด็กกำพร้าที่เธออยู่เป็นยังไงบ้าง"
 
 show hanako emb_sad_cas
 with charachange
 
 # ha "W-why do you want to know?"
-ha ""
+ha "ยะ-อยากรู้ไปทำไมเหรอ"
 
 # "I've touched a nerve, but the fact that she responded at all shows there's at least a chance she'll answer my question. Before, she likely would just have shrunk away from it without a word."
-""
+"ไปถามเรื่องอะไรไม่ดีเข้าให้แล้วสิ แต่แค่ตอบมาอย่างนี้ก็แปลว่ามีโอกาสที่จะตอบคำถามของฉันอยู่ ถ้าเป็นเมื่อก่อน\nคงจะเงียบไปไม่ยอมพูดอะไรเลย"
 
 show hanako emb_blushing_cas
 with charachange
 
 # ha "I'll… tell you, but…"
-ha ""
+ha "จะ… เล่าให้ฟังนะ แต่…"
 
 # hi "But…?"
-hi ""
+hi "แต่…?"
 
 show hanako cover_worry_cas
 with charachange
 
 # ha "Could you… t-tell me who I-Iwa… n-nako… is?"
-ha ""
+ha "นาย… บะ-บอกหน่อยได้มั้ยว่าอะ-อิวา… นะ-นาโกะ… เป็นใคร"
 
 $ renpy.music.set_volume(0.2, 1.0, channel="music")
 
 # hi "Iwanako…? Oh, the letter."
-hi ""
+hi "อิวานาโกะ…? อ๋อ จดหมายนั่นน่ะเหรอ"
 
 # "I wonder how long she's been waiting for the right opportunity to ask me this. I'm surprised, but don't hesitate. Sharing information is naturally a matter of give and take."
-""
+"นี่เตรียมหาจังหวะถามฉันมาตั้งแต่ตอนไหนแล้วเนี่ย ฉันนึกแปลกใจแต่ก็ไม่ลังเล การให้ข้อมูลนั้นย่อมมีการแลกเปลี่ยน\nเป็นธรรมดา"
 
 $ renpy.music.set_volume(1.0, 8.0, channel="music")
 $ renpy.music.set_volume(0.4, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 8.0
 
 # hi "She's… someone I used to like."
-hi ""
+hi "เป็น… คนที่ฉันเคยชอบ"
 
 show hanako basic_normal_cas
 with charachange
 
 # "Her nervousness subsided, at least for the time it took to ask. Her curiosity is getting the better of her, and I feel a bit uncomfortable to be questioned on this, of all matters."
-""
+"ฮานาโกะหายประหม่าแล้วเมื่อเทียบกับก่อนหน้านี้ที่ยังไม่กล้าถาม ความอยากรู้ของเธอเพิ่มมากขึ้นจนฉันอึดอัด\nที่ต้องตอบคำถามนี้ทั้งที่มีเรื่องอื่นตอบได้เยอะแยะ"
 
 # "There's no way I could spill out all my feelings about Iwanako here. I don't even know myself what my feelings regarding her are, even after talking to Yuuko earlier, and I want to avoid the subject around Hanako."
-""
+"ตอนนี้ยังไงก็เปิดเผยความรู้สึกทั้งหมดที่ฉันมีต่ออิวานาโกะให้ฟังไม่ได้แน่ ๆ ฉันไม่รู้ด้วยซ้ำว่าตัวเองรู้สึกอย่างไรกับเธอ\nต่อให้ก่อนหน้านี้จะได้คุยกับยูโกะแล้วก็ตาม และฉันก็อยากจะเลี่ยงเรื่องนี้ตอนคุยกับฮานาโกะด้วย"
 
 show hanako def_worry_cas
 with charachange
 
 # "Hanako doesn't look overly satisfied with the awkward ending to the discussion, but thinks better of continuing it. She was only just managing to ask me in the first place, without knowing that I wouldn't want to talk about it."
-""
+"ฮานาโกะดูจะไม่พอใจเท่าไหร่ที่บทสนทนาจบลงไปแบบกระอักกระอ่วนอย่างนั้น แต่ก็ตัดใจไม่สาวความต่อ เธอเองก็แค่\nถามด้วยความอยากรู้เฉย ๆ โดยที่ไม่รู้ว่าฉันไม่อยากเล่าเรื่องนี้"
 
 # "I move to finally take my own shot. The lack of talking between us is filled by the chatter of other patrons and the band at the other end of the club."
-""
+"ฉันสลับเข้ามาแทงอีก เสียงคุยระหว่างเราที่เงียบไปถูกแทนที่ด้วยเสียงจอแจของลูกค้าและเสียงจากวงดนตรี\nที่อยู่อีกฟากในร้าน"
 
 hide hanako
 with charaexit
 
 # "Spying a shot that doesn't look too difficult, I try and shoot for it."
-""
+"ฉันมองหาลูกที่ตบได้ไม่ยากมากแล้วลองดู"
 
 play sound sfx_billiards
 
 # "The cue ball taps the ball, and the trajectory is about right, but I put in too much power. It grazes the corner of the hole and moves off to the side, just skirting the pocket."
-""
+"ลูกคิวชนเข้ากับลูกนั้น องศาได้แล้ว แต่ฉันออกแรงมากไปหน่อย ลูกนั้นแฉลบเข้ากับมุมหลุมแล้วเฉี่ยวหลุมไหลออกไป\nที่ขอบโต๊ะแทน"
 
 # "I grit my teeth a little. I was pretty good at this game, and it's frustrating to have deteriorated so much."
-""
+"ฉันกัดฟันเบา ๆ นึกหงุดหงิดที่เคยเล่นเก่งพอตัวแต่ฝีมือตกไปขนาดนี้แล้ว"
 
 # "I step back and let Hanako take her turn, glancing towards the counter where Lilly and Akira are sitting. They're talking busily between themselves, and seem to be having a good time."
-""
+"ฉันถอยออกมาให้ฮานาโกะเข้ามาแทนพลางเหลือบมองไปยังเคาน์เตอร์ที่ลิลลี่กับอากิระนั่งอยู่ สองคนนั้น\nกำลังคุยกันอยู่ดูเพลิดเพลิน"
 
 scene ev hanako_billiards_serious
 with locationchange
 
 # "I turn back to Hanako as she takes her shot. With the same face as before, she lines herself up and sharply pushes the cue."
-""
+"ฉันหันกลับมามองฮานาโกะที่เตรียมตบ เธอทำสีหน้าแบบเดิมดัดตัวให้ตรงแล้วแทงไม้คิวเข้าไปแรง ๆ"
 
 scene bg city_clubpool
 with flash
@@ -7353,159 +7353,159 @@ with flash
 play sound sfx_billiards
 
 # "Just as before, she sinks the ball she was aiming for. It drops into the side pocket more cleanly than her last, though. It looks as if she's getting a bit more into the groove of the game."
-""
+"ฮานาโกะตบลูกที่เล็งอยู่ให้ลงหลุมได้เหมือนเดิม แต่ลูกนั้นลงหลุมข้างได้สวยกว่าลูกก่อนหน้านี้ ดูท่าว่าจะเริ่มคุ้นมือ\nขึ้นมาบ้างแล้ว"
 
 # hi "Nicely done."
-hi ""
+hi "ตบได้สวย"
 
 # "She hesitates for a moment, and begins to address me without turning her head."
-""
+"ฮานาโกะลังเลอยู่ขณะหนึ่งก่อนจะเรียกฉันโดยไม่หันหน้ามา"
 
 scene ev hanako_billiards_smile_med
 with locationchange
 
 # ha "The orphanage… was nice. It felt a bit like Yamaku does… and the staff was r-really kind."
-ha ""
+ha "ที่สถานรับเลี้ยงเด็กกำพร้า… ก็ดีนะ ให้ความรู้สึกคล้าย ๆ ยามากุ… แล้วก็พวกพี่ ๆ จะ-ใจดีมาก"
 
 show ev hanako_billiards_distant_med
 with charachange
 
 # ha "But as th-the years went on, I realized something. I was d-different."
-ha ""
+ha "แต่ผ่านไปละ-หลายปีฉันก็นึกขึ้นได้ ว่าฉันมะ-ไม่เหมือนคนอื่น"
 
 # "It feels strange to hear her speak so candidly about herself. She's audibly forcing the words out. It reminds me of when she insisted she tell me about the fire."
-""
+"รู้สึกแปลก ๆ ที่ได้ยินฮานาโกะบรรยายตัวเองตรง ๆ อย่างนี้ ฟังออกเลยว่ากว่าจะออกมาได้แต่ละคำนั้นลำบาก นึกถึง\nตอนที่ฮานาโกะยืนกรานจะเล่าเรื่องไฟไหม้ครั้งนั้นให้ฟังขึ้นมาเลย"
 
 # "Hanako must feel that she has to tell me of such things, if I'm willing to tell her about my own past."
-""
+"คงคิดว่าต้องเล่าเรื่องแบบนี้ให้ฉันฟังบ้างหลังจากที่ฉันเล่าเรื่องในอดีตของตัวเองให้ฟังแล้ว"
 
 # "Her grip on the cue tightens as she continues to speak."
-""
+"ฮานาโกะกำไม้คิวแน่นขึ้นพลางพูดต่อ"
 
 $ ksgallery_unlock("ev hanako_billiards_timid")
 show ev hanako_billiards_timid_med
 with charachange
 
 # ha "M-most of the children there were up for adoption, just like I was. But unlike me… they gradually left, o-one by one. By the time I went to Yamaku, I was… among the oldest children there."
-ha ""
+ha "สะ-ส่วนใหญ่ก็เป็นเด็กที่ให้คนมารับเป็นลูกบุญธรรมได้เหมือนอย่างฉัน แต่คนอื่นก็ทยอยออกจากบ้านกันไป\nทะ-ทีละคน… ไม่เหมือนฉัน กว่าฉันจะได้มาเรียนที่ยามากุ ตอนนั้นฉัน… ก็เป็นเด็กที่อยู่ในกลุ่มโตสุดในบ้านแล้ว"
 
 # ha "For a while, I h-helped with some of the y-younger children, b-but eventually…"
-ha ""
+ha "ฉันอยู่ชะ-ช่วยดูแลเด็กที่อายุนะ-น้อยกว่าบางคนอยู่พักหนึ่ง ตะ-แต่สุดท้าย…"
 
 scene bg city_clubpool
 with locationchange
 
 # "I lay a hand on her shoulder. She's forcing herself by now."
-""
+"ฉันจับบ่าฮานาโกะ ตอนนี้เธอฝืนตัวเองแล้ว"
 
 # hi "It's okay."
-hi ""
+hi "ไม่เป็นไรนะ"
 
 show hanako emb_blushtimid_cas_close at center
 with charaenter
 
 # "She looks mildly surprised for a moment, but then nods before setting down her cue and turning towards me."
-""
+"ฮานาโกะดูประหลาดใจเล็กน้อยแวบหนึ่ง"
 
 show hanako basic_worry_cas_close
 with charachange
 
 # ha "Do you… really think so?"
-ha ""
+ha "นายว่างั้น… เหรอ"
 
 # hi "Yeah, I think so. Even while Lilly's away, I'll be around to protect you, right?"
-hi ""
+hi "อื้ม ว่างั้นแหละ ช่วงที่ลิลลี่ไม่อยู่ก็ยังมีฉันคอยปกป้องเธอไง จริงไหม"
 
 show hanako basic_normal_cas_close
 with charachange
 
 # "Hanako looks at me for a long time, and I'm taken a bit off guard."
-""
+"ฮานาโกะมองฉันเนิ่นนานจนฉันไม่ทันตั้งตัว"
 
 # "Her expression hasn't changed from before, still looking somewhat maudlin, and silences between us aren't unusual. I think it's the fact that she's holding such prolonged eye contact that makes this feel a bit odd."
-""
+"สีหน้าของเธอยังดูเศร้าสร้อยไม่เปลี่ยนไปจากเมื่อครู่ และการที่เราสองคนต่างเงียบนั้นก็ไม่ใช่เรื่องแปลกอะไร ที่ฉัน\nรู้สึกแปลกอยู่นิดหน่อยคงเป็นเพราะฮานาโกะสบตากับฉันอยู่นานมาก"
 
 # "It feels as if she's judging me. It's a very strange, vaguely uncomfortable feeling."
-""
+"รู้สึกเหมือนกำลังพินิจฉันอยู่เลย เป็นความรู้สึกที่ประหลาดซึ่งเจือด้วยความอึดอัด"
 
 # hi "Hanako…?"
-hi ""
+hi "ฮานาโกะ…?"
 
 show hanako cover_smile_cas_close
 with charachange
 
 # ha "I-I understand. Thank you."
-ha ""
+ha "ขะ-เข้าใจแล้ว ขอบคุณนะ"
 
 # "She smiles and looks away a little, but it feels stilted. Hanako isn't very good at faking emotions, and this is no exception."
-""
+"ฮานาโกะยิ้มแล้วเบือนหน้าหนีเล็กน้อยทว่ายังคงเกร็งอยู่ เธอเป็นคนที่ทำแสร้งเรื่องการแสดงอารมณ์ไม่เก่ง ครั้งนี้\nก็เช่นกัน"
 
 hide hanako
 with charaexit
 
 # "I move to the table and take my turn to try and distract myself, but it doesn't seem to work. Does she think I'm not up to the task of helping her? Is she disappointed in me?"
-""
+"ฉันเข้ามาที่โต๊ะเมื่อถึงตาตัวเองเพื่อเบนความสนใจของตัวเองไปเรื่องอื่น แต่ดูเหมือนจะไม่ได้ผล ฮานาโกะมองว่าฉัน\nไม่เหมาะสมที่จะช่วยเธอเหรอ ฮานาโกะผิดหวังในตัวฉันงั้นเหรอ"
 
 # "I'm probably overthinking this. While her silences are just an accepted fact of life by now, sometimes I do wish she'd speak more."
-""
+"ฉันอาจจะคิดมากไป ถึงฉันจะรู้แล้วว่าความเงียบจากเธอนั้นเป็นเรื่องปกติสามัญ แต่บางทีฉันก็อยากให้เธอพูด\nให้มากกว่านี้บ้างเหมือนกัน"
 
 play sound sfx_billiards
 
 # "With a thud, I send the white sphere careening down the table into my target."
-""
+"ฉันแทงทรงกลมสีขาวดังตุบให้เลื่อนไปตามโต๊ะไปยังเป้าหมายของฉัน"
 
 show hanako def_strain_cas at center
 with charachange
 
 # ha "Ah…"
-ha ""
+ha "อ๊ะ…"
 
 # "Hanako sees what's happening just as I do. The ball hits hard, with the striped ball I'd intended to sink veering off towards the eight ball."
-""
+"ฮานาโกะเห็นสิ่งที่เกิดขึ้นตรงหน้าพร้อม ๆ กันกับฉัน ลูกลายลูกนั้นที่ฉันหมายจะให้ลงหลุมโดนชนเข้าไปเต็มแรง\nแล้วไหลไปทางลูกหมายเลข 8"
 
 # "Sure enough, as both Hanako and I look on and bite our lips, they connect and the black ball rolls leisurely into a corner pocket."
-""
+"ไม่ผิดดังคาด ฮานาโกะกับฉันยืนกัดปากมองภาพนั้น ทั้งสองลูกชนกันจนลูกสีดำกลิ้งลงหลุมมุมไป"
 
 show hanako basic_smile_cas
 with charachange
 
 # "All I can do is sigh. It looks like Hanako is smiling again though, so maybe it wasn't for naught."
-""
+"ฉันได้แต่ถอนหายใจ แต่เหมือนฮานาโกะจะกลับมายิ้มแล้ว ก็คงไม่ได้เสียเปล่าละนะ"
 
 # hi "That was an awful shot, you win. It seems I'm getting pretty rusty after all this time."
-hi ""
+hi "ตบได้บัดซบมาก เธอชนะแล้วแหละ ดูท่าว่าไม่ได้เล่นนานแล้วสนิมเกาะหมด"
 
 hide hanako
 with charaexit
 
 # "Hanako bends down and begins to shoot the remaining balls into the closest pockets. I almost ask if we could play another game, but a quick check of my watch confirms that the night is getting pretty late."
-""
+"ฮานาโกะโน้มตัวอีกครั้งแล้วตบลูกอื่นที่เหลืออยู่ให้ลงหลุมที่อยู่ใกล้ ๆ ฉันเกือบถามแล้วว่าเล่นอีกเฟรมไหม\nแต่เมื่อเหลือบมองนาฬิกาก็เห็นว่าตอนนี้ค่อนข้างดึกมากแล้ว"
 
 # "Lilly and Akira appear to be still drinking at the counter. Seems like we'll have to drag them away."
-""
+"เหมือนลิลลี่กับอากิระจะยังนั่งดื่มกันที่เคาน์เตอร์อยู่ สงสัยพวกเราคงต้องได้ลากสองคนนั้นออกจากร้านแล้ว"
 
 # ha "Um, Hisao…"
-ha ""
+ha "เอ่อ ฮิซาโอะ"
 
 scene ev hanako_billiards_distant
 with locationchange
 
 # "I turn back to Hanako, who's still looking over the pool table shooting balls. Her voice sounds different from before."
-""
+"ฉันหันกลับไปมองฮานาโกะที่ยังมองโต๊ะคอยตบลูกอื่นอยู่ น้ำเสียงเธอเปลี่ยนไปจากเมื่อครู่"
 
 scene ev hanako_billiards_smile
 with charachange
 
 # ha "I'm… here for you as well…"
-ha ""
+ha "นาย… ก็ยังมีฉันนะ…"
 
 stop ambient fadeout 2.0
 
 # hi "Ah…"
-hi ""
+hi "อ่า…"
 
 # "I suddenly find myself blushing. It's only natural that she'd respond this way, given what I said earlier, but it's still a shock to actually hear it."
-""
+"อยู่ ๆ ฉันก็หน้าแดง ดูจากสิ่งที่ฉันเล่าไปเมื่อครู่แล้วฮานาโกะจะบอกแบบนี้ก็ไม่แปลก แต่พอมาได้ยินกับหูก็ยังอึ้ง ๆ\nอยู่เหมือนกัน"
 
 scene ev hanako_billiards_smile_close:
     xalign 0.0 yalign 0.0 zoom 0.8 subpixel True
@@ -7513,13 +7513,13 @@ scene ev hanako_billiards_smile_close:
 with locationchange
 
 # "Just what is my relationship with this girl? I want to protect her, to make her happy… I'm not really sure that it's something like love, but I don't think these are the same kinds of feelings I have for Lilly, either."
-""
+"ฉันเป็นอะไรกับเธอคนนี้ ฉันอยากปกป้องเธอ อยากทำให้เธอมีความสุข… ฉันไม่แน่ใจนักว่าสิ่งนี้เรียกว่ารักหรือเปล่า\nแต่ก็ไม่น่าใช่ความรู้สึกเดียวกันกับที่ฉันมีต่อลิลลี่แน่ ๆ"
 
 # "I feel sorry for her, having gone through so much in her life. Her parents died in a housefire, and she lived in an orphanage for much of her childhood… I can't even imagine that kind of life."
-""
+"ฉันสงสารเธอที่ต้องผ่านอะไรมามากมายในชีวิต พ่อแม่ตายเพราะเหตุไฟไหม้บ้าน ใช้ชีวิตวัยเด็กส่วนใหญ่อยู่กับ\nสถานรับเลี้ยงเด็กกำพร้า… ฉันนึกภาพชีวิตแบบนั้นไม่ออกเลย"
 
 # "But I feel like there's so little I can do for her, especially now that Lilly is going to be leaving the country."
-""
+"แต่ก็รู้สึกว่าฉันคงช่วยอะไรเธอได้ไม่มาก ยิ่งตอนนี้ที่ลิลลี่จะต้องบินไปต่างประเทศด้วยแล้ว"
 
 stop music fadeout 10.0
 
@@ -7537,62 +7537,62 @@ show hanako basic_normal_cas_close_ni at tworight
 with locationskip
 
 # "Hanako and I finish tidying up the table and cues, and pick up Lilly and Akira on our way out of the club."
-""
+"ฮานาโกะกับฉันเก็บกวาดโต๊ะกับไม้คิวให้เรียบร้อยแล้วไปเรียกลิลลี่กับอากิระให้ออกจากร้านมาด้วยกัน"
 
 # "It feels like something changed between Hanako and me. I can't quite place what it is, but Hanako is acting differently now. I feel like we're further apart, if anything."
-""
+"รู้สึกเหมือนบางอย่างระหว่างฮานาโกะกับฉันนั้นเปลี่ยนไป ตอนนี้ฮานาโกะทำตัวไม่เหมือนเดิมแล้ว\nแต่บอกไม่ถูกเหมือนกันว่าไม่เหมือนเดิมยังไง เหมือนว่าเราอยู่ห่างจากกันกว่าเดิมด้วยซ้ำ"
 
 show akira basic_smile_ni
 with charachange
 
 # aki "So, you enjoy yourselves?"
-aki ""
+aki "สนุกมั้ยพวกเธอ"
 
 show hanako emb_smile_cas_close_ni
 with charachange
 
 # "Hanako and I both nod and agree. The game was good, and we both did learn more about each other, so it's a honest answer."
-""
+"ฮานาโกะกับฉันพยักหน้าตอบรับ ซึ่งก็ไม่ได้โกหกเพราะสนุกจริง ๆ และเราต่างก็ได้เรียนรู้กันและกันให้มากขึ้นด้วย"
 
 show lilly cane_sleepy_cas_ni
 with charachange
 
 # "Lilly appears to be a little distracted."
-""
+"ลิลลี่ดูจะเหม่อเล็กน้อย"
 
 # hi "Worried about the trip, Lilly?"
-hi ""
+hi "คิดมากเรื่องเดินทางเหรอลิลลี่"
 
 # "She pauses before sighing and smiling weakly."
-""
+"เธอเว้นช่วงไปก่อนจะถอนหายใจแล้วยิ้มบาง ๆ"
 
 show lilly cane_weaksmile_cas_ni
 with charachange
 
 # li "A little. It means quite a bit."
-li ""
+li "นิดหน่อยจ้ะ เพราะเป็นเรื่องสำคัญเหมือนกัน"
 
 show akira basic_laugh_ni
 show lilly cane_surprised_cas_ni
 with vpunch
 
 # "The comment earns her a clap on the shoulder from her sister. Hanako smiles back, too."
-""
+"เมื่อพูดเช่นนั้นแล้วพี่สาวเธอจึงตบบ่า ฮานาโกะก็ยิ้มกลับให้เช่นกัน"
 
 show hanako basic_smile_cas_close_ni
 with charachange
 
 # ha "You'll be okay, Lilly. I hope you can enjoy your time over there."
-ha ""
+ha "เธอทำได้อยู่แล้วน่าลิลลี่ ไปอยู่ที่นู่นก็ขอให้สนุกนะ"
 
 show lilly cane_smile_cas_ni
 with charachange
 
 # li "Thank you, Hanako. I'll try to. It will be nice to be back with my family, after all, no matter for how brief a time it may be."
-li ""
+li "ขอบคุณจ้ะฮานาโกะ จะพยายามนะ ยังไงเสียก็ได้กลับไปอยู่กับครอบครัวด้วย ถึงจะอยู่ไม่นานมากก็เถอะ"
 
 # "With that, the four of us begin the walk to the carpark where Akira's car is. We continue to talk between ourselves, but it's mostly just smalltalk."
-""
+"แล้วเราสี่คนก็เดินไปลานจอดรถที่อากิระจอดรถไว้ พวกเราคุยกันไประหว่างเดิน แต่ส่วนมากก็คุยกันเรื่อยเปื่อย\nไม่มีอะไร"
 
 stop ambient fadeout 2.0
 stop music fadeout 2.0
