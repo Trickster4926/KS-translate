@@ -7612,50 +7612,50 @@ show hanako basic_normal_cas at tworight
 with locationchange
 
 # hi "Right then. Are you taking the bus, Lilly?"
-hi ""
+hi "โอเค เธอจะนั่งรถบัสไปใช่ไหมลิลลี่"
 
 show lilly basic_smileclosed_cas
 with charachange
 
 # "Lilly motions to a large suitcase standing beside her."
-""
+"ลิลลี่ผายมือไปที่กระเป๋าเดินทางใบใหญ่ข้างตัว"
 
 show lilly basic_weaksmile_cas
 with charachange
 
 # li "I'll have to take this with me, so I've booked a taxi. It'll meet us at the school gates in about five minutes."
-li ""
+li "ฉันต้องขนเจ้านี่ไปด้วยเลยจองรถแท็กซี่ไว้แล้วน่ะจ้ะ เดี๋ยวอีกห้านาทีเขาจะมารับที่หน้าประตูโรงเรียน"
 
 # hi "Ah, I see."
-hi ""
+hi "อ้อ อย่างนี้นี่เอง"
 
 show lilly basic_sleepy_cas:
     ypos 1.1
 with dissolvecharamove
 
 # "Lilly reaches down and feels out the handle of her suitcase. Its weight causes her some difficulty, so I quickly offer to take it myself."
-""
+"ลิลลี่ยื่นมือลงไปจับตามที่จับกระเป๋า น้ำหนักของกระเป๋าทำเอาเธอลำบากอยู่บ้าง ฉันจึงรีบเสนอตัวเข้าช่วย"
 
 show lilly basic_smileclosed_cas at twoleft
 with dissolvecharamove
 
 # li "That is awfully kind of you, Hisao."
-li ""
+li "มีน้ำใจดีจริงเลยนะจ๊ะฮิซาโอะ"
 
 # "She has no qualms about accepting, and I end up picking it up. It's not what I'd call light, but it's not exactly heavy, either. I don't think I'll have too much trouble carrying it."
-""
+"เธอไม่ว่าอะไรที่ฉันช่วย ฉันจึงถือกระเป๋าให้ ไม่ได้เบาหวิว แต่ก็ไม่ได้หนักมาก น่าจะถือไปได้ไม่มีปัญหาอะไรมาก"
 
 show lilly basic_weaksmile_cas
 with charachange
 
 # li "Well, thank you then. We should hurry though, if the taxi leaves then it will take quite a while to book a new one. Are you ready, Hanako?"
-li ""
+li "โอเค ขอบคุณจ้ะ เราต้องรีบไปกันได้แล้ว ถ้าแท็กซี่รอบนี้ไปกว่าจะจองได้อีกเที่ยวคงต้องรอสักพักเลย\nพร้อมหรือยังฮานาโกะ"
 
 show hanako cover_worry_cas at tworight
 with charachange
 
 # ha "Y-yeah. Let's go."
-ha ""
+ha "อะ-อื้ม ไปกัน"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_parkambience fadein 2.0
@@ -7664,37 +7664,37 @@ scene bg school_gate at bgright
 with locationskip
 
 # "We rush to the gate as fast as we can, only to find that the taxi has yet to arrive."
-""
+"เรารีบไปยังประตูหน้าโรงเรียนให้เร็วที่สุด ทว่ารถแท็กซี่ยังไม่มา"
 
 # hi "Well, nothing like a bit of exercise in the morning. The nurse told me that I should be doing that."
-hi ""
+hi "อืม ออกกำลังกายตอนเช้าก็ดีเหมือนกันนะ คุณพยาบาลก็แนะนำให้ฉันทำแบบนั้นด้วย"
 
 show lilly basic_weaksmile_cas at center
 with charaenter
 
 # li "I think he probably had other things in mind, Hisao. And probably with more regularity. Do you intend to be helping people with their luggage every day?"
-li ""
+li "ฉันว่าเขาน่าจะไม่ได้หมายถึงอะไรแบบนี้นะฮิซาโอะ แล้วก็อาจจะอยากให้ออกกำลังกายเป็นประจำกว่านี้ด้วย\nหรือว่าเธอจะช่วยคนถือกระเป๋าทุกวันเลยจ๊ะ"
 
 # hi "I guess not. Looks like we've got a bit to wait anyway. How long should we wait for the taxi before calling them again?"
-hi ""
+hi "ไม่น่า แต่เหมือนจะต้องได้รออีกหน่อยนะ รอนานเท่าไหร่ค่อยโทร. อีกรอบดี"
 
 show lilly basic_smileclosed_cas
 with charachange
 
 # li "I would say another ten minutes, but they've never let me down before. There's probably just a little traffic."
-li ""
+li "สักสิบนาทีแล้วกันจ้ะ แต่ปกติก็มาตรงเวลานะ รอบนี้อาจจะรถติดนิดหน่อย"
 
 # hi "Okay then."
-hi ""
+hi "โอเค ได้"
 
 # hi "So how long is the flight to Scotland?"
-hi ""
+hi "ว่าแต่บินกี่ชั่วโมงจะถึงสกอตแลนด์เหรอ"
 
 show lilly basic_smile_cas
 with charachange
 
 # li "About sixteen hours, if I remember correctly. It's a bit hard to tell with the changing time zones."
-li ""
+li "ประมาณสิบหกชั่วโมงจ้ะ ถ้าจำไม่ผิดนะ พอข้ามเขตเวลาแล้วก็นับยากหน่อย"
 
 show bg school_gate at center
 show lilly basic_smile_cas at twoleft
@@ -7704,150 +7704,152 @@ show hanako defarms_worry_cas at tworight
 with charaenter
 
 # ha "So long…"
-ha ""
+ha "นานจัง…"
 
 # "It's now that I realize Hanako's been unusually quiet, even for her. She doesn't handle stress well, so she's looking really uptight."
-""
+"ฉันเพิ่งรู้ตัวตอนนี้เองว่าฮานาโกะเงียบไปผิดวิสัย ต่อให้ปกติจะเป็นคนเงียบอยู่แล้วก็ตาม เธอเป็นคนที่รับมือ\nกับความเครียดได้ไม่เก่งจึงดูเกร็งมาก"
 
 # hi "Yeah, I can't imagine being on a plane for that long."
-hi ""
+hi "อื้ม นึกภาพไม่ออกเลยว่าถ้าต้องนั่งเครื่องนานขนาดนั้นจะเป็นยังไง"
 
 # "I've only ever flown on a short family holiday up north, so it really is quite hard to fathom. If Hanako's spent so much of her childhood at an orphanage, she's probably traveled very little, let alone flown."
-""
+"ฉันเคยก็แต่นั่งเที่ยวบินสั้นขึ้นเหนือไปกับครอบครัวช่วงวันหยุด จึงไม่รู้เรื่องอะไรกับการที่ต้องนั่งนานขนาดนั้นเลย\nถ้าตอนเด็กฮานาโกะอยู่แต่กับสถานรับเลี้ยงเด็กกำพร้าแล้วก็คงแทบไม่ได้ไปไหน ยิ่งขึ้นเครื่องไม่ต้องพูดถึง"
 
 show lilly basic_weaksmile_cas
 with charachange
 
 # li "It's not too bad. I'll spend most of it either asleep or catching up on my English. I hardly use that here so I need to refamiliarize myself with it a little."
-li ""
+li "ก็ไม่ได้แย่หรอกจ้ะ ส่วนมากก็จะหลับหรือไม่ก็อ่านหนังสือภาษาอังกฤษ อยู่ญี่ปุ่นฉันแทบไม่ได้ใช้เลย ก็เลยต้องทำตัว\nให้ชินกับภาษาอังกฤษเสียหน่อย"
 
 show hanako cover_worry_cas
 with charachange
 
 # ha "W-will your accent… be a problem?"
-ha ""
+ha "ถะ-ถ้าพูดติดสำเนียง… จะเป็นอะไรมั้ย"
 
 show lilly basic_smile_cas
 with charachange
 
 # li "I wouldn’t worry about that too much. It may be an issue initially, but I should be fine once I get used to it."
-li ""
+li "ฉันไม่ห่วงเรื่องสำเนียงมากหรอกจ้ะ แรก ๆ อาจจะเป็นปัญหาหน่อย แต่ถ้าฉันชินแล้วก็น่าจะไม่เป็นไร"
 
 show hanako basic_worry_cas at Position(ypos=1.14)
 show lilly basic_smileclosed_cas at Position(ypos=1.17)
 with dissolvecharamove
 
 # "We all move to sit down on the small bench beside the school gate in silence."
-""
+"พวกเรานั่งที่ม้านั่งตัวเล็ก ๆ ที่อยู่ข้างประตูหน้าโรงเรียนกันเงียบ ๆ"
 
 # "Strangely enough, even though I know that Lilly is going away, I can't think of anything to say to her. Lilly is a reliable person, so it might be because she isn't the one that I'm thinking of most."
-""
+"แต่แปลกที่ทั้งที่รู้ว่าลิลลี่จะเดินทางไปต่างประเทศแล้วฉันก็ยังไม่รู้ว่าจะพูดอะไรดี อาจจะเพราะลิลลี่เป็นคนที่พึ่งพาได้\nฉันถึงไม่ได้นึกถึงเธอเป็นลำดับแรก"
 
 show hanako emb_downsad_cas
 with charachange
 
 # "Lilly might not be able to see it, but Hanako's chewing her fingernails nervously. I move to talk to her, but can hear an engine straining up the hill before I get the chance."
-""
+"ลิลลี่มองไม่เห็นว่าฮานาโกะกำลังกัดเล็บตัวเองอยู่ด้วยความประหม่า ฉันเตรียมจะคุยกับเธอแต่ก็ได้ยินเสียงเครื่องยนต์\nที่กำลังเดินทางขึ้นเขามาขัดจังหวะก่อน"
 
 # hi "Ah, I think the taxi is on its way…"
-hi ""
+hi "อ๊ะ เหมือนแท็กซี่จะมาแล้ว…"
 
 show lilly basic_cheerful_cas
 with charachange
 
 # li "Well spotted Hisao, I only just heard it as well."
-li ""
+li "หูดีนะฮิซาโอะ ฉันก็เพิ่งได้ยินเหมือนกัน"
 
 # "A small wave of pride washes over me. To have noticed something at the same time as Lilly must mean that I've become more aware of my surroundings."
-""
+"ฉันนึกกระหยิ่มน้อย ๆ การที่ฉันจับสังเกตอะไรได้พร้อมกันกับลิลลี่นั้นแปลว่าฉันเริ่มมีความรับรู้ถึงสิ่งรอบข้าง\nมากขึ้นแล้ว"
 
 # "Anyway, we won't have to call the taxi company, nor worry about missing Lilly's plane."
-""
+"แต่นั่นแหละ เราไม่ต้องโทร. ไปที่บริษัทแท็กซี่แล้ว ไม่ต้องกลัวว่าลิลลี่จะตกเครื่องด้วย"
 
 show hanako basic_worry_cas at tworight
 show lilly basic_smileclosed_cas at twoleft
 with dissolvecharamove
 
 # "Once the taxi stops where we're standing, the driver rolls down a window and leans over. After confirming that, yes, Lilly is the same Lilly Satou that booked the trip, we sort out her luggage."
-""
+"เมื่อแท็กซี่มาถึงจุดที่เรายืนอยู่แล้วคนขับก็เลื่อนกระจกรถลงแล้วโน้มตัวเข้ามา หลังจากที่ตอบรับว่าลิลลี่นั้น\nคือคนเดียวกันกับลิลลี่ ซาโต้ที่จองรถไว้แล้วเราก็ช่วยกันจัดเตรียมกระเป๋าของลิลลี่"
 
 hide lilly
 with charaexit
 
 # "The driver opens the trunk of the taxi and takes Lilly's suitcase, with Lilly climbing into the back seat as he loads it into the trunk and slams it shut."
-""
+"คนขับเปิดฝากระโปรงท้ายแล้วขนกระเป๋าเดินทางของลิลลี่ไป ลิลลี่เข้าไปนั่งที่เบาะหลังระหว่างที่คนขับทยอย\nเก็บสัมภาระใส่กระโปรงท้ายก่อนจะปิดฝา"
 
 # "After getting back into his seat and shutting the doors, he waits for us to say our farewells."
-""
+"พอคนขับกลับไปนั่งในรถและปิดประตูแล้วก็รอให้เราได้อำลากัน"
 
 show hanako emb_downtimid_cas
 with charachange
 
 # ha "Have a safe trip, Lilly."
-ha ""
+ha "เดินทางปลอดภัยนะลิลลี่"
 
 # hi "Take care of yourself."
-hi ""
+hi "ดูแลตัวเองด้วย"
 
 # "Hanako looks understandably downcast, and that much is obvious even in her voice."
-""
+"ฮานาโกะดูหมองไป ซึ่งก็ไม่แปลก ความหมองนั้นสะท้อนมาในน้ำเสียงด้วย"
 
 # li "Of course I will. I'll be back before long, don't worry. There will still be another person here for you too, won't there, Hisao?"
-li ""
+li "ได้เลยจ้ะ เดี๋ยวเดียวฉันก็กลับมาแล้ว ไม่ต้องห่วง ยังมีคนอยู่กับเธอที่นี่อีกคนนี่นา ใช่ไหมจ๊ะฮิซาโอะ"
 
 # hi "Yeah, of course."
-hi ""
+hi "อื้ม ใช่แล้ว"
 
 show hanako emb_blushtimid_cas_close
 with characlose
 
 # "I turn and smile to Hanako, putting my hand on her shoulder."
-""
+"ฉันส่งยิ้มให้ฮานาโกะแล้ววางมือไว้บนบ่าเธอ"
 
 show hanako emb_downtimid_cas_close
 with charachange
 
 # "She only manages to keep eye contact with me for a couple of seconds, her cheeks red all the while, before turning back to Lilly."
-""
+"ฮานาโกะสบตาฉันได้เพียงสองสามวินาทีก่อนจะหน้าแดงก่ำแล้วหันกลับไปมองลิลลี่"
 
 # hi "See you, Lilly."
-hi ""
+hi "เจอกันนะลิลลี่"
 
 show hanako basic_worry_cas_close
 with charachange
 
 # ha "Good bye!"
-ha ""
+ha "ลาก่อน!"
 
 stop music fadeout 6.0
 
 # "Lilly gives her farewells to the both of us with a fair measure of reluctance. Without further ado, the driver starts the engine once more and they begin the journey down the hill, and towards the airport."
-""
+"ลิลลี่บอกลาเราสองคนด้วยความอ้ำอึ้งพอสมควร คนขับไม่รอช้าสตาร์ตรถอีกรอบแล้วขับรถลงเขาไปยังสนามบิน"
 
 # "The two of us stand at the gates for a long time even after they've disappeared from sight, not really knowing what to do."
-""
+"เราสองคนยืนที่ประตูมองอยู่นานสองนานแม้รถจะลับสายตาไปแล้วด้วยไม่รู้ว่าจะต้องทำอย่างไรต่อดี"
 
 show bg school_gate at bgleft
 show hanako basic_worry_cas_close at center
 with charamove
 
 # hi "So, what do you want to do?"
-hi ""
+hi "แล้วเธออยากทำอะไรไหม"
 
 show hanako def_worry_cas_close
 with charachange
 
 # ha "I… don't know."
-ha ""
+ha "ไม่… รู้สิ"
 
 label th_choiceH20:
 menu:
     with menueffect
 
-    "Do you want to go into the city?":
+    # "Do you want to go into the city?":
+    "อยากไปเข้าตัวเมืองด้วยกันไหม":
         return m1
 
-    "How about we call it a day?":
+    # "How about we call it a day?":
+    "วันนี้พอแค่นี้ก่อนไหม":
         return m2
 
 #---------------
@@ -7861,34 +7863,34 @@ with None
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 
 # "The bus stop, standing by the school gates like a mute sentinel, puts a strange idea in my mind."
-""
+"ป้ายจอดรถที่ตั้งอยู่ดูคล้ายจ่าเฉยนั้นทำให้ฉันนึกอะไรแปลก ๆ ขึ้นมาได้"
 
 # hi "Do you want to head into town and look for a bookshop or something? We have the rest of the day free."
-hi ""
+hi "ไปเข้าเมืองแวะดูร้านหนังสือหรืออะไรดีไหม วันนี้ก็ว่างทั้งวันเลย"
 
 # "It's a long shot, as Hanako doesn't like going into the city. I count the fact that we managed to get her out there even when it was so dark as a small miracle, but I genuinely want to spend more time with her."
-""
+"แทบจะหวังให้ตอบตกลงไม่ได้เลยเพราะฮานาโกะไม่ชอบเข้าตัวเมือง แค่พาออกไปตัวเมืองตอนกลางคืนมืด ๆ แบบนั้น\nก็นับได้ว่าเป็นปาฏิหาริย์เล็ก ๆ แล้ว แต่ฉันอยากใช้เวลาอยู่กับฮานาโกะให้มากกว่านี้จริง ๆ"
 
 # "Anyway, she's likely to just refuse and go back to…"
-""
+"แต่นั่นแหละ เดี๋ยวก็คงปฏิเสธแล้วก็กลับไป…"
 
 show hanako basic_smile_cas_close
 with charachange
 
 # ha "Okay."
-ha ""
+ha "โอเค"
 
 # hi "Really?"
-hi ""
+hi "จริงเหรอ"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # ha "R-really. Let's go."
-ha ""
+ha "จะ-จริงสิ ไปกัน"
 
 # "I can't work out why Hanako has decided to agree with me, but I'm not about to ask her to change her mind."
-""
+"ฉันนึกไม่ออกว่าเหตุผลอันใดที่จะทำให้ฮานาโกะยอมตกลงได้ แต่ฉันจะไม่ถามว่าจะเปลี่ยนใจไหมหรอก"
 
 stop ambient fadeout 2.0
 
@@ -7900,92 +7902,92 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_crowd_outdoors fadein 2.0
 
 # "Stepping off the bus, I immediately notice that a lot of people are around us. In hindsight, it should have been obvious; of course lots of people will be downtown on a Saturday afternoon."
-""
+"พอลงจากรถบัสแล้วก็เห็นผู้คนมากมายที่อยู่รอบตัว พอย้อนนึกดูแล้วก็น่าจะรู้แต่แรก บ่ายวันเสาร์อย่างไรคนในเมือง\nก็ต้องเยอะอยู่แล้ว"
 
 show hanako emb_downtimid_cas_close at center
 with charaenter
 
 # "Hanako retreats close to my side, and I can feel her hand clutching my arm tightly. Her body is held against mine and her head is bowed so low that her hat hides most of her scarring."
-""
+"ฮานาโกะเข้ามาอยู่ชิดกับฉัน สัมผัสได้ถึงแรงเกาะแน่นที่อยู่ตรงแขนเลย เธอเกาะฉันไว้แน่นพลางก้มหน้าต่ำจนหมวก\nบังแผลเป็นแทบทั้งหมด"
 
 # hi "So uh, where shall we go? A bookshop?"
-hi ""
+hi "แล้ว เอ่อ จะไปไหนกันดี ร้านหนังสือ"
 
 # "Hanako's present and my other general living expenses have pretty much drained my budget, but I should be able to afford a few books. They're something I try to reserve a few funds for anyway."
-""
+"กระเป๋าสตางค์ฉันแบนไปหมดแล้วด้วยค่าของขวัญฮานาโกะกับค่ากินค่าอยู่ แต่น่าจะพอซื้อหนังสือสักสองสามเล่ม\nได้อยู่ เพราะฉันก็กันเงินบางส่วนไว้เผื่อซื้ออะไรบางอย่างด้วย"
 
 # "For a second I think Hanako didn't hear me, but then I look to my side and notice her nodding almost imperceptibly."
-""
+"แวบหนึ่งฉันคิดไปว่าฮานาโกะไม่ได้ยินที่ฉันถาม แต่เมื่อหันไปมองก็เห็นว่าเธอพยักหน้าเบา ๆ ชนิดที่ว่า\nแทบดูไม่ออก"
 
 show hanako emb_smile_cas_close
 with charachange
 
 # ha "O-okay. D-do you know of one?"
-ha ""
+ha "อะ-โอเค นะ-นายรู้ที่ใช่มั้ย"
 
 # hi "Actually, I do. We passed a few when Lilly and I were looking for your presents…"
-hi ""
+hi "ก็รู้อยู่ ตอนที่ลิลลี่กับฉันมาหาซื้อของขวัญให้เธอก็เดินผ่านอยู่สองสามร้าน"
 
 show hanako emb_downsad_cas_close
 with charachange
 
 # "Hanako's expression clouds a fraction. I've got to remember to stop bringing up her birthday."
-""
+"ฮานาโกะทำหน้าหม่นไปเล็กน้อย ต้องจำใส่สมองไว้แล้วว่าห้ามพูดถึงเรื่องวันเกิด"
 
 show hanako emb_timid_cas_close
 with charachange
 
 # ha "You both… spent a lot of time?"
-ha ""
+ha "นายกับลิลลี่… อยู่ด้วยกันนานเลยเหรอ"
 
 # "Or maybe I misjudged the situation."
-""
+"หรือฉันอาจจะตีความสถานการณ์ผิดไป"
 
 # hi "We wanted to make sure we got the right present, after all."
-hi ""
+hi "ก็อยากให้แน่ใจนี่นะว่าจะได้ของขวัญที่เธอถูกใจ"
 
 show hanako emb_smile_cas_close
 with charachange
 
 # "Hanako smiles and blushes a bit. It's a small treasure when she does."
-""
+"ฮานาโกะยิ้มพร้อมหน้าที่ขึ้นสีแดงเรื่อ เป็นภาพที่ล้ำค่าเหลือเกิน"
 
 # hi "Anyway, there should be a bookshop just up ahead, do you want to check it out?"
-hi ""
+hi "แต่นั่นแหละ ไม่ไกลจากนี้เหมือนจะมีร้านหนังสืออยู่ จะไปดูไหม"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # ha "S-sure."
-ha ""
+ha "ดะ-ได้"
 
 scene bg city_street1
 show crowd
 with locationchange
 
 # "The crowds start to build as we head towards the bookshop along the raised walkways. Hanako latches her other arm onto me as well, making our progress a little slower."
-""
+"ยิ่งเดินไปตามทางเดินลอยฟ้าคนก็ยิ่งเพิ่มจำนวนมากขึ้น ฮานาโกะเกาะแขนอีกข้างฉันหนึบจนเราเดินได้ช้าลง\nเล็กน้อย"
 
 # "As we walk, the sound of the traffic makes me think of a possible distraction for her."
-""
+"ระหว่างที่เดินอยู่นั้นก็มีเสียงการจราจรที่ทำให้ฉันนึกถึงเรื่องสักอย่างที่พอจะเบนความสนใจฮานาโกะได้"
 
 # hi "I was wondering, Hanako… have you thought yet about when you're going to learn to drive?"
-hi ""
+hi "จะว่าไป ฮานาโกะ… เธอเคยคิดไหมว่าจะไปเรียนขับรถเมื่อไหร่"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "D-driving?"
-ha ""
+ha "ขะ-ขับรถ"
 
 # hi "Yeah. You're kind of lucky, in a way; there aren't a whole lot of students in Yamaku that are allowed to drive."
-hi ""
+hi "อื้ม ในแง่หนึ่งเธอก็โชคดีนะ เพราะนักเรียนในยามากุน่ะแทบไม่มีคนที่ขับรถได้เลย"
 
 # "It's not the best topic of conversation, but I want to try and distract Hanako from the situation. She's really highly strung right now."
-""
+"ถึงจะไม่ใช่หัวข้อสนทนาที่ดีที่สุด แต่ฉันอยากลองเบนความสนใจฮานาโกะจากสภาพรอบข้าง ตอนนี้\nเธอตระหนกมาก"
 
 # "Then again, all I've really done is make her feel awkward, since she's probably never thought about it. I wish I hadn't said anything."
-""
+"แต่ก็นะ ที่พูดไปนี่น่าจะทำให้กระอักกระอ่วนมากกว่า เพราะคงจะไม่เคยคิดถึงเรื่องนั้นเหมือนกัน ไม่น่า\nพูดอะไรออกไปเลย"
 
 stop ambient fadeout 0.5
 
@@ -7996,31 +7998,31 @@ $ renpy.music.set_volume(0.2, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 1.0
 
 # "Before long we are before one of the bookshops Lilly and I passed by during our search."
-""
+"ไม่นานเราก็เดินมาถึงร้านหนังสือที่ลิลลี่กับฉันเดินผ่านตอนมาหาซื้อของขวัญ"
 
 # hi "What kind of self-respecting bookshop closes on Saturdays?"
-hi ""
+hi "ร้านหนังสือดี ๆ ที่ไหนปิดกันวันเสาร์วะเนี่ย"
 
 show hanako def_worry_cas_close at center
 with charaenter
 
 # ha "Bookshops… don't make much money any more, because of the Internet. Maybe they just had to close over weekends?"
-ha ""
+ha "เดี๋ยวนี้… ร้านหนังสือทำเงินไม่ค่อยได้แล้วเพราะมีอินเทอร์เน็ตน่ะ อาจจะปิดเฉพาะช่วงสุดสัปดาห์หรือเปล่า"
 
 # "She seems pretty knowledgeable about technology. I guess it's a pursuit that would lend itself well to someone who enjoys solitude."
-""
+"ดูจะเชี่ยวชาญเรื่องเทคโนโลยีดีนะ กับคนที่ชอบอยู่อย่างสันโดษแล้วก็คงเป็นเรื่องที่เข้ากันดี"
 
 # hi "Huh, I guess that makes sense… it's easier to find books online. Anyway, it looks like this idea is shot. Anything else you'd like to do?"
-hi ""
+hi "หืม ก็คงจริง… หาหนังสือตามอินเทอร์เน็ตก็ง่ายกว่าด้วย เอาเถอะ ดูท่าว่าแผนนี้จะล่มแล้ว อยากทำอะไรอย่างอื่น\nอีกไหม"
 
 show hanako emb_smile_cas_close
 with charachange
 
 # ha "I-if it's not… not a bother… could you show me where you bought my present?"
-ha ""
+ha "ถะ-ถ้าไม่… เป็นการรบกวน… พาไปร้านที่นายซื้อของขวัญให้หน่อยได้ไหม"
 
 # hi "Sure, not a problem. It's not far from here."
-hi ""
+hi "ได้ ไม่มีปัญหา อยู่ไม่ไกลจากตรงนี้มากด้วย"
 
 hide hanako
 with charaexit
@@ -8029,28 +8031,28 @@ show bg city_street3 at right
 with charamove_slow
 
 # "I head off in the direction of the store, only half-sure of its exact location. I don't want a repeat of the last time; spending half the day walking around aimlessly."
-""
+"ฉันมุ่งหน้าไปยังทิศที่ร้านตั้งอยู่ทั้งที่ยังไม่มั่นใจเต็มร้อยว่าร้านอยู่ตรงไหน ไม่เอาแล้วนะกับการที่ต้องเดินไป\nแบบไร้จุดหมายอยู่ครึ่งวันเนี่ย"
 
 # hi "Here we are, Othello's Antiques."
-hi ""
+hi "ถึงแล้ว ร้านขายของเก่าโอเทลโล่"
 
 show hanako basic_normal_cas_close at center
 with charaenter
 
 # ha "I-it's small."
-ha ""
+ha "ละ-เล็กจัง"
 
 # hi "Well, yes. It took Lilly and me some time to find it."
-hi ""
+hi "ก็เล็กแหละ ลิลลี่กับฉันเดินอยู่สักพักเลยกว่าจะหาเจอ"
 
 show hanako basic_distant_cas_close
 with charachange
 
 # ha "Can we go in?"
-ha ""
+ha "เข้าไปได้ไหม"
 
 # hi "I don't see why not; it's open."
-hi ""
+hi "ทำไมจะไม่ได้ ก็เปิดอยู่นี่"
 
 stop ambient fadeout 0.5
 play sound sfx_storebell
@@ -8060,34 +8062,34 @@ scene bg city_othello
 with locationchange
 
 # "Hanako pushes through the door and enters before me. Once again, the store is empty save for the store owner."
-""
+"ฮานาโกะผลักประตูเข้าร้านไปก่อนฉัน ร้านยังไม่มีคน—นอกจากเจ้าของร้าน—เหมือนเดิม"
 
 show shopkeep neutral at center
 with charaenter
 
 # "His face drops a little when he sees me."
-""
+"เจ้าของร้านทำหน้าหมองไปเล็กน้อยเมื่อเห็นฉัน"
 
 # sk "Oh, you're not here for a return are you? Wait, that's not the girl you had with you last time…"
-sk ""
+sk "อ้าว ไม่ได้มาคืนของใช่ไหม เดี๋ยว ที่พามานี่คนละคนกับคราวที่แล้วนี่…"
 
 # hi "Er, no, we're not here to return anything. We were just in town and wanted to have another look in here."
-hi ""
+hi "เอ่อ เปล่าครับ พวกผมไม่ได้มาคืนอะไร แค่มาเข้าตัวเมืองแล้วอยากมาดูที่ร้านอีกรอบน่ะครับ"
 
 show shopkeep thinking
 with charachange
 
 # "The store owner considers this for quite a long time. I guess he's not used to high school students coming to his shop on a regular basis."
-""
+"เจ้าของร้านพิจารณาคำพูดนั้นอยู่พักใหญ่ สงสัยคงไม่ชินกับการที่นักเรียนมัธยมมาเข้าร้านนี้เป็นประจำ"
 
 show shopkeep happy
 with charachange
 
 # sk "Might this be the friend you bought gifts for?"
-sk ""
+sk "แม่หนูคนนี้หรือเปล่าที่เธอว่าจะซื้อของขวัญให้"
 
 # hi "That's right. They were presents for her."
-hi ""
+hi "ใช่ครับ ของขวัญให้เธอคนนี้แหละ"
 
 show shopkeep happy at twoleft
 show bg city_othello at bgleft
@@ -8097,43 +8099,43 @@ show hanako defarms_strain_cas_close at tworight
 with charaenter
 
 # "The store owner turns to Hanako, who freezes on the spot like a deer caught in the headlights."
-""
+"เจ้าของร้านหันไปมองฮานาโกะที่ผงะไปไม่ต่างอะไรกับกวางที่กำลังมองไฟหน้ารถยนต์"
 
 show shopkeep surprised
 with charachange
 
 # "He moves to address her, but stops before doing so, looking a little taken aback."
-""
+"เขาตั้งท่าจะทักฮานาโกะแต่ก็ชะงักไปพร้อมสีหน้าที่ดูตกใจเล็กน้อย"
 
 show shopkeep thinking
 with charachange
 
 # "He catches himself staring and looks to the side, addressing us indirectly. His expression is awkward and tense, as is his entire body."
-""
+"เมื่อรู้ตัวว่าตัวเองกำลังจ้องอยู่ก็เบือนหน้าหนีแล้วไม่มองตาพวกเรา สีหน้าเขาดูกระอักกระอ่วนและเกร็ง\nไปพร้อม ๆ กันกับทั้งตัว"
 
 # "I want to be mad at him, but I know full well that I had the same instinctive reaction when I first saw her. First surprise, then curiosity, then an awkward look away as I dealt with what I'd seen."
-""
+"ก็อยากจะโมโหอยู่หรอก แต่ฉันรู้อยู่แก่ใจว่าตัวเองก็มีท่าทีแบบนั้นไปโดยสัญชาตญาณเมื่อได้เห็นฮานาโกะ\nเป็นครั้งแรกเหมือนกัน เริ่มด้วยความแปลกใจ ตามด้วยความสงสัย ปิดท้ายด้วยการไม่มองหน้าพลางประมวลผล\nสิ่งที่ได้เห็นไป"
 
 show hanako emb_downsad_cas_close
 with charachange
 
 # "Hanako looks less panicked than before… but I think the feeling she's giving off now is worse. It's not anger, nor annoyance. If anything, it's one of apology."
-""
+"ฮานาโกะดูไม่ตื่นตระหนกเท่าเมื่อก่อนแล้ว… แต่ฉันว่าอารมณ์ที่เธอแสดงออกอยู่นั้นยิ่งแย่กว่าเก่า ไม่ใช่ความโกรธ\nไม่ใช่ความรำคาญ หากแต่เป็นการขอโทษ"
 
 show shopkeep neutral
 with charachange
 
 # sk "You're lucky there, young lady. To have friends that care about you as much as they do."
-sk ""
+sk "เธอนี่โชคดีนะแม่หนูที่มีเพื่อนคอยดูแลให้อย่างสุดใจแบบนี้"
 
 show hanako emb_downtimid_cas_close
 with charachange
 
 # ha "Th-thank you…"
-ha ""
+ha "ขะ-ขอบคุณค่ะ"
 
 # "If I hadn't spent so much time with Hanako I wouldn't even have realized that she said anything. Then again, the store owner's mumble was hardly clear either, thanks in part to being directed away from us."
-""
+"ถ้าฉันไม่ได้อยู่กับฮานาโกะบ่อยขนาดนี้ฉันคงไม่รู้ตัวด้วยซ้ำว่าเมื่อกี้พูดอยู่ แต่ก็นะ ฉันก็แทบไม่ได้ยินเสียงเจ้าของร้าน\nที่อยู่ในคอเหมือนกัน ส่วนหนึ่งก็เพราะไม่ยอมมองหน้ากันตรง ๆ นี่แหละ"
 
 hide hanako
 with charaexit
@@ -8144,70 +8146,70 @@ show shopkeep invis:
 with dissolvecharamove
 
 # "Hanako strikes out into the store, gazing in wonder at the various items on display. She finds the doll section, and spends lingering minutes studying each and every one."
-""
+"ฮานาโกะเดินสำรวจในร้านพลางมองของที่จัดวางไว้หลายอย่างด้วยความสนใจ เมื่อเจอส่วนที่เป็นตุ๊กตาแล้วก็แช่\nอยู่นานหลายนาทีคอยดูตุ๊กตาทุกตัวอย่างละเอียด"
 
 # "It's a side of Hanako I've only barely been introduced to. I was astonished when Lilly said she liked dolls, and even more so to find her “collection” sitting on her dresser."
-""
+"เป็นมุมหนึ่งของฮานาโกะที่ฉันเพิ่งได้มาเห็นไม่นานมานี้ ฉันประหลาดใจเมื่อลิลลี่บอกว่าฮานาโกะชอบตุ๊กตา\nและยิ่งประหลาดใจไปอีกเมื่อเห็น “ชุดสะสม” ที่ตั้งอยู่บนตู้ของเธอ"
 
 show hanako basic_normal_cas_close at center
 with charaenter
 
 # "She looks a little better now that she's distracted and out of the store owner's sight, but I'm still quite put off by the whole experience."
-""
+"ฮานาโกะดูจะอารมณ์ดีขึ้นแล้วเมื่อมีอย่างอื่นให้สนใจและอยู่พ้นระยะสายตาเจ้าของร้าน แต่ฉันยังรู้สึกใจคอไม่ดี\nกับเหตุการณ์เมื่อครู่อยู่พอสมควร"
 
 # "I might have my own problems, but I've never had strangers react to me like that, as if I was something completely alien to them."
-""
+"ฉันมีความผิดปกติของตัวเองอยู่ก็จริง แต่ฉันไม่เคยเจอคนแปลกหน้าที่ทำทีแบบนั้นใส่ราวกับว่าเป็นตัวอะไรสักอย่าง\nที่ไม่เคยรู้จักมาก่อนเลย"
 
 show hanako basic_smile_cas_close
 with charachange
 
 # ha "This is a nice shop."
-ha ""
+ha "ร้านนี้ดีนะ"
 
 # hi "Yeah, it's not what I expected. Do you want to buy something?"
-hi ""
+hi "อื้ม ก่อนเข้ามาก็ไม่คิดเหมือนกันว่าจะเป็นร้านดี ๆ แบบนี้ จะซื้ออะไรไหม"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "I-I didn't bring any money."
-ha ""
+ha "ฉะ-ฉันไม่มีเงินติดตัวเลย"
 
 # hi "Well, we can always come again."
-hi ""
+hi "อืม งั้นไว้ค่อยมาใหม่ก็ได้"
 
 # "Now that I know where to find it, that is."
-""
+"มาใหม่ได้เพราะตอนนี้รู้แล้วว่าร้านอยู่ตรงไหนน่ะนะ"
 
 show hanako cover_bashful_cas_close
 with charachange
 
 # ha "W-we can?"
-ha ""
+ha "ดะ-ได้เหรอ"
 
 # hi "Of course. We can come here as often as you'd like."
-hi ""
+hi "ได้สิ เธออยากมาบ่อยเท่าไหร่ก็ตามใจเลย"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # ha "Th-thank you."
-ha ""
+ha "ขะ-ขอบคุณนะ"
 
 # hi "You don't need to thank me; I almost forgot where this place was."
-hi ""
+hi "ไม่ต้องขอบคุณฉันหรอก ฉันก็เกือบลืมแล้วว่าร้านนี้อยู่ที่ไหนเนี่ย"
 
 # "I don't really think either of us completely believes in what we're saying, but rather, we're just repeating what we think we should say."
-""
+"ฉันว่าเราสองคนต่างก็ไม่ได้พูดอะไรจากความรู้สึกจริง ๆ เท่าไหร่ แค่พูดสิ่งที่คิดว่าควรพูดซ้ำ ๆ ใส่กันมากกว่า"
 
 show hanako emb_smile_cas_close
 with charachange
 
 # ha "C-can we go back to the school now?"
-ha ""
+ha "งะ-งั้นกลับโรงเรียนกันเลยมั้ย"
 
 # hi "Sure thing. Let's go."
-hi ""
+hi "ได้ ไปกัน"
 
 stop music fadeout 5.0
 play ambient sfx_traffic fadein 2.0
@@ -8216,10 +8218,10 @@ scene bg city_street3 at right
 with locationchange
 
 # "As we leave for the bus stop, I see the store owner peek through the curtain at the back of the shop."
-""
+"พอออกจากร้านเตรียมไปที่ป้ายจอดรถก็เห็นเจ้าของร้านที่เหลือบมองพวกเราผ่านผ้าม่านหลังร้าน"
 
 # "I'm not really sure what that glance he gives to her says. It feels a bit weird, and the fact that Hanako didn't see it is both a relief and a bit frustrating."
-""
+"ฉันไม่แน่ใจนักว่าสายตาที่เจ้าของร้านมองฮานาโกะหมายความว่าอย่างไร รู้สึกแปลก ๆ ฉันทั้งโล่งใจทั้งหงุดหงิดนิด ๆ\nที่ฮานาโกะไม่เห็น"
 
 stop ambient fadeout 2.0
 
@@ -8227,49 +8229,50 @@ scene bg school_dormext_full
 with shorttimeskip
 
 # "Hanako and I stop walking once we reach the concrete area between the dormitory buildings. There was barely a word said between us on the way back from the city."
-""
+"ฮานาโกะกับฉันหยุดเดินเมื่อมาถึงบริเวณระหว่างหอพักสองหลังที่ปูด้วยคอนกรีต ตลอดทางตั้งแต่ที่เรา\nออกจากตัวเมืองกันมาจนถึงโรงเรียนเราแทบไม่ได้พูดอะไรกันเลย"
 
 show hanako basic_bashful_cas at center
 with charaenter
 
 # ha "Well then, goodbye."
-ha ""
+ha "ขอตัวก่อนนะ ละ-ลาก่อน"
 
 # hi "Do you want to have some tea or something? How about a game?"
-hi ""
+hi "ไปดื่มชาหรืออะไรด้วยกันไหม หรือเล่นอะไรกันดี"
 
 show hanako emb_emb_cas
 with charachange
 
 # "Hanako shakes her head embarrassedly."
-""
+"ฮานาโกะสั่นหัวอาย ๆ"
 
 # ha "I… I'm tired. Maybe later? I've got homework…"
-ha ""
+ha "ฉัน… ฉันเพลียน่ะ ไว้พรุ่งนี้ได้ไหม พอดีมีการบ้านด้วย…"
 
-# "She sounds a little depressed. Hanako obviously does want to do more, but I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons."
-""
+# "She sounds a little depressed.
+# Hanako obviously does want to do more, but I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons."
+"******เศร้า ๆ ****ยังไงก็คงต้องมีงานที่ต้องไปจัดการอยู่ละนะ ก็ขาดเรียนไปสองสามวันเหมือนกัน"
 
 # hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
-hi ""
+hi "อ้อ การบ้าน ขอบคุณที่เตือนนะ ฉันก็มีที่ต้องทำเป็นตั้งเลย งั้นเจอกันพรุ่งนี้นะ"
 
 show hanako basic_smile_cas
 with charachange
 
 # ha "See you, Hisao."
-ha ""
+ha "เจอกันนะฮิซาโอะ"
 
 hide hanako
 with charaexit
 
 # "Before I can say goodbye, Hanako has turned and begun walking towards the entrance to the female dormitory building."
-""
+"ฉันยังไม่ทันได้บอกลาฮานาโกะก็หันไปเดินเข้าไปยังทางเข้าหอหญิงแล้ว"
 
 # "I look at the door she disappears through for a bit, before going off towards my own dorms."
-""
+"ฉันมองประตูที่ฮานาโกะเดินลับตาไปอยู่พักหนึ่งก่อนจะกลับหอตัวเอง"
 
 # "Today was a tiring day."
-""
+"วันนี้เป็นวันที่เหนื่อยเหลือเกิน"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
@@ -8284,70 +8287,70 @@ with None
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 
 # hi "I don't know about you, but I think I'm going to try and take a nap. My head is killing me."
-hi ""
+hi "ฉันไม่รู้ว่าเธอจะว่ายังไง แต่ฉันขอตัวไปงีบก่อนละ ตอนนี้ปวดหัวเหมือนจะตายให้ได้เลย"
 
 show hanako basic_distant_cas_close
 with charachange
 
 # "Judging by Hanako's instant relief, I can only assume that I've guessed right. I don't think she wants to be out and about."
-""
+"ดูจากการที่ฮานาโกะโล่งใจในฉับพลันแล้วนั้นแปลว่าฉันน่าจะเดาถูก ยังไงก็คงไม่อยากออกไปเที่ยวที่ไหนหรอก"
 
 hide hanako
 with charaexit
 
 # "Wordlessly, she turns and heads back through the school gate."
-""
+"ฮานาโกะหันกลับเดินเข้าประตูโรงเรียนไปไม่พูดอะไร"
 
 scene bg school_dormext_full
 with locationskip
 
 # "We walk all the way back to the dorms together, stopping awkwardly at the spot where we need to part."
-""
+"พวกเราเดินกลับหอไปด้วยกันก่อนจะมาชะงักกันแบบเก้ ๆ กัง ๆ เมื่อถึงจุดที่ต้องแยกทางกัน"
 
 show hanako cover_distant_cas at center
 with charaenter
 
 # ha "Well then, g-goodbye."
-ha ""
+ha "ขอตัวก่อนนะ ละ-ลาก่อน"
 
 # hi "Do you want to have some tea or something, later? How about a game?"
-hi ""
+hi "ไว้ไปดื่มชาหรืออะไรด้วยกันไหม หรือเล่นอะไรกันดี"
 
 show hanako emb_timid_cas
 with charachange
 
 # "Hanako shakes her head embarrassedly."
-""
+"ฮานาโกะสั่นหัวอาย ๆ"
 
 show hanako emb_downtimid_cas
 with charachange
 
 # ha "I… I'm tired. Maybe tomorrow? I've got homework…"
-ha ""
+ha "ฉัน… ฉันเพลียน่ะ ไว้พรุ่งนี้ได้ไหม พอดีมีการบ้านด้วย…"
 
 # "I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons, after all."
-""
+"ยังไงก็คงต้องมีงานที่ต้องไปจัดการอยู่ละนะ ก็ขาดเรียนไปสองสามวันเหมือนกัน"
 
 # hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
-hi ""
+hi "อ้อ การบ้าน ขอบคุณที่เตือนนะ ฉันก็มีที่ต้องทำเป็นตั้งเลย งั้นเจอกันพรุ่งนี้นะ"
 
 show hanako emb_downsmile_cas
 with charachange
 
 # ha "See you, Hisao."
-ha ""
+ha "เจอกันนะฮิซาโอะ"
 
 hide hanako
 with charaexit
 
 # "Before I can say goodbye, Hanako has turned and begun walking towards the entrance to the female dormitory building."
-""
+"ฉันยังไม่ทันได้บอกลาฮานาโกะก็หันไปเดินเข้าไปยังทางเข้าหอหญิงแล้ว"
 
 # "I look at the door she disappears through for a bit, before going off towards my own dorms."
-""
+"ฉันมองประตูที่ฮานาโกะเดินลับตาไปอยู่พักหนึ่งก่อนจะกลับหอตัวเอง"
 
 # "Tomorrow will be a better day."
-""
+"พรุ่งนี้จะต้องเป็นวันที่ดีกว่า"
 
 stop ambient fadeout 1.0
 $ renpy.music.set_volume(1.0, 2.0, channel="ambient")
