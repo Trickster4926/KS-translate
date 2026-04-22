@@ -8146,10 +8146,10 @@ show shopkeep invis:
 with dissolvecharamove
 
 # "Hanako strikes out into the store, gazing in wonder at the various items on display. She finds the doll section, and spends lingering minutes studying each and every one."
-"ฮานาโกะเดินสำรวจในร้านพลางมองของที่จัดวางไว้หลายอย่างด้วยความสนใจ เมื่อเจอส่วนที่เป็นตุ๊กตาแล้วก็แช่\nอยู่นานหลายนาทีคอยดูตุ๊กตาทุกตัวอย่างละเอียด"
+"ฮานาโกะเดินสำรวจในร้านพลางมองของที่จัดวางไว้หลายอย่างด้วยความอัศจรรย์ใจ เมื่อเจอส่วนที่เป็นตุ๊กตาแล้วก็แช่\nอยู่นานหลายนาทีคอยดูตุ๊กตาทุกตัวอย่างละเอียด"
 
 # "It's a side of Hanako I've only barely been introduced to. I was astonished when Lilly said she liked dolls, and even more so to find her “collection” sitting on her dresser."
-"เป็นมุมหนึ่งของฮานาโกะที่ฉันเพิ่งได้มาเห็นไม่นานมานี้ ฉันประหลาดใจเมื่อลิลลี่บอกว่าฮานาโกะชอบตุ๊กตา\nและยิ่งประหลาดใจไปอีกเมื่อเห็น “ชุดสะสม” ที่ตั้งอยู่บนตู้ของเธอ"
+"เป็นมุมหนึ่งของฮานาโกะที่ฉันเพิ่งได้มาเห็นไม่นานมานี้ ฉันประหลาดใจเมื่อลิลลี่บอกว่าฮานาโกะชอบตุ๊กตา\nและยิ่งประหลาดใจไปอีกเมื่อเห็น “ชุดของสะสม” ที่ตั้งอยู่บนตู้ของเธอ"
 
 show hanako basic_normal_cas_close at center
 with charaenter
@@ -8249,9 +8249,8 @@ with charachange
 # ha "I… I'm tired. Maybe later? I've got homework…"
 ha "ฉัน… ฉันเพลียน่ะ ไว้พรุ่งนี้ได้ไหม พอดีมีการบ้านด้วย…"
 
-# "She sounds a little depressed.
-# Hanako obviously does want to do more, but I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons."
-"******เศร้า ๆ ****ยังไงก็คงต้องมีงานที่ต้องไปจัดการอยู่ละนะ ก็ขาดเรียนไปสองสามวันเหมือนกัน"
+# "She sounds a little depressed. Hanako obviously does want to do more, but I suppose she would have a bit of schoolwork to catch up on; she's missed a few days of lessons."
+"น้ำเสียงฮานาโกะฟังดูเศร้า ๆ ชัดว่ายังอยากทำอะไรให้มากกว่านี้ แต่ยังไงก็คงต้องมีงานที่ต้องไปจัดการอยู่ละนะ\nก็ขาดเรียนไปสองสามวันเหมือนกัน"
 
 # hi "Ah, homework. Thanks for reminding me; I've got a stack to do as well. I guess I'll see you tomorrow."
 hi "อ้อ การบ้าน ขอบคุณที่เตือนนะ ฉันก็มีที่ต้องทำเป็นตั้งเลย งั้นเจอกันพรุ่งนี้นะ"

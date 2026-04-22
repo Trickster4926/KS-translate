@@ -867,40 +867,40 @@ with locationchange
 play music music_pearly
 
 # "Once again, Hanako doesn't turn up for class. Try as I might to concentrate on other matters, this fact continues to distract me throughout the entire school day, and even as I walk through the school gardens to the dormitories."
-""
+"ฮานาโกะไม่มาเข้าเรียนอีกแล้ว ฉันลองปรับให้สมองไปจดจ่อกับเรื่องอื่น แต่เรื่องนี้ก็ยังดึงสมาธิฉันไปตลอดทั้งวัน\nที่เรียนจนกระทั่งตอนที่เดินผ่านสวนในโรงเรียนกลับหอ"
 
 # "I don't think today being her birthday is a coincidence, either. I don't know the link between the two events though, nor do I have any idea on what she's feeling."
-""
+"และการที่วันนี้เป็นวันเกิดของฮานาโกะด้วยก็ไม่ใช่เรื่องบังเอิญแน่นอน แต่ฉันก็ไม่รู้ว่าทั้งสองเหตุการณ์เกี่ยวข้องกัน\nอย่างไร ไม่รู้ด้วยว่าฮานาโกะรู้สึกว่ายังไงบ้าง"
 
 # "Were it physical pain, I could at least provide some limited comfort. With something like this though, I have no idea where to start."
-""
+"ถ้าเป็นอาการเจ็บป่วยทางกายฉันก็อาจพอช่วยเยียวยาอะไรให้ได้บ้าง แต่พอเป็นเรื่องแบบนี้แล้วฉันไม่รู้เลยว่าจะเริ่ม\nจากตรงไหนดี"
 
 # "I run the people I know through my head, thinking about whether they could help. Shizune and Misha don't know that much about Hanako, and what little they do know they can't tell me. Same for the nurse."
-""
+"ฉันไล่ย้อนนึกถึงคนที่ฉันรู้จักว่ามีใครที่จะช่วยได้หรือเปล่า ชิซูเนะกับมิช่าไม่รู้เรื่องฮานาโกะขนาดนั้น ซึ่งส่วนที่รู้\nก็บอกฉันไม่ได้ คุณพยาบาลก็เหมือนกัน"
 
 # "In the end, there's only one person that knows Hanako well and would be willing to tell me anything."
-""
+"สุดท้ายก็มีเพียงคนเดียวที่รู้จักฮานาโกะดีพอและพร้อมที่จะบอกฉันทุกอย่าง"
 
 scene bg school_dormhisao
 with shorttimeskip
 
 # "Entering my dormitory room, I notice something that takes me off guard; it's starting to feel familiar."
-""
+"เมื่อเข้าห้องมาแล้วฉันก็ต้องแปลกใจว่าตัวเองเริ่มคุ้นเคยกับที่นี่แล้ว"
 
 # "With everything that's going on around me, I'm thankful that this room's started to finally be somewhere I can relax a little. When I'd first entered Yamaku, it felt immediately foreign in every way, from the untouched neatness to the way it smelled."
-""
+"ฉันนึกยินดีที่ห้องนี้ได้กลายเป็นที่ที่ฉันพอจะพักใจได้บ้างแล้วด้วยต้องเจอกับเรื่องราวร้อยแปดพันเก้า ตอนที่\nมายามากุครั้งแรกฉันรู้สึกว่าห้องนี้เป็นสิ่งประหลาดทันที ตั้งแต่ความเรียบร้อยจากการที่ไม่มีคนอยู่ไปจนถึงกลิ่นในห้อง"
 
 # "Focusing back on the task at hand, I throw my bag onto the bed as I open the top drawer of my desk."
-""
+"ฉันโยนกระเป๋าไว้ที่เตียงแล้วกลับมาสนใจกับสิ่งที่ต้องทำด้วยการเปิดลิ้นชักโต๊ะตัวบนสุด"
 
 # "Before she left, Lilly told me the number to call her on while in Scotland and I wrote it down. In hindsight, I wonder if she knew something like this could happen."
-""
+"ลิลลี่บอกเบอร์โทร. ไว้ก่อนไปสกอตแลนด์ ซึ่งฉันก็จดไว้ แต่จะว่าไปแล้ว ที่บอกไว้เพราะรู้ว่าจะเกิดเรื่องแบบนี้\nหรือเปล่านะ"
 
 # "Now that she's out of reach, I realize just how much both Hanako and I have relied on her for guidance."
-""
+"พอลิลลี่ไม่อยู่ด้วยแล้วถึงนึกได้ว่าทั้งฮานาโกะทั้งฉันต้องพึ่งพาให้ลิลลี่เป็นคนนำทางบ่อยแค่ไหน"
 
 # "I dig around drawer after drawer, looking for that damned piece of paper. Eventually, thankfully, I find it nestled under a borrowed library book."
-""
+"ฉันเปิดลิ้นชักที่โต๊ะตัวแล้วตัวเล่าหาว่าตัวเองเก็บไอ้กระดาษแผ่นนั้นไว้ที่ไหน โชคดีที่สุดท้ายก็เจอ หนังสือที่ยืม\nมาจากห้องสมุดทับไว้อยู่"
 
 scene bg school_dormhisao_blurred
 show phone mobile:
@@ -910,10 +910,10 @@ with locationchange
 with Pause (0.5)
 
 # "I probably should have just entered it directly into my cell phone, come to think of it. Without further ado, I enter the numbers and anxiously press the call button."
-""
+"จะว่าไปแล้ว บันทึกใส่โทรศัพท์ไปเลยเสียก็สิ้นเรื่อง ฉันกดไปตามปุ่มตัวเลขในทันทีแล้วกดโทร. ด้วยความร้อนใจ"
 
 # "Eventually the phone picks up, a feminine voice I don't recognize on the other end. It's probably Lilly's mother."
-""
+"ในที่สุดก็มีคนรับสาย ปลายสายเป็นเสียงผู้หญิงคนหนึ่งที่ฉันไม่คุ้นหู อาจจะแม่ลิลลี่มั้ง"
 
 stop music fadeout 1.0
 
@@ -921,147 +921,147 @@ stop music fadeout 1.0
 mystery "{image=vfx/garbage.png} {image=vfx/garbage.png} Satou {image=vfx/garbage.png}?"
 
 # "English? Suddenly finding myself unprepared, I realize I can't understand a word she says, either due to my limited vocabulary or her heavy accent. I should have anticipated this, since according to Lilly, her mother is a native Scot."
-""
+"ภาษาอังกฤษเหรอ ไปต่อไม่ถูกเลย ฟังไม่ออกเลยสักคำแฮะ คงเพราะฉันรู้คำศัพท์น้อยไม่ก็เพราะสำเนียง จริง ๆ น่าจะ\nคิดได้แต่แรกเพราะรู้มาจากลิลลี่แล้วว่าแม่เธอนั้นเป็นคนสกอตแลนด์โดยกำเนิด"
 
 # "I soldier on in the hope that she must know some Japanese, considering it's her daughter's native language."
-""
+"ฉันดันทุรังไปต่อด้วยความหวังว่าเธอคงพอจะรู้ภาษาญี่ปุ่นบ้าง เพราะยังไงก็เป็นภาษาแม่ของลูกตัวเอง"
 
 # hi "Um, it's Hisao Nakai… speaking…"
-hi ""
+hi "เอ่อ ฮิซาโอะ นากาอิ… นะครับ…"
 
 # "An enthusiastic sound of realization can be heard as she recognizes the language. My feeling of relief is immense."
-""
+"พอรู้ว่าเป็นภาษาอะไรเธอก็ทำเสียงตื่นเต้น ตอนนี้ฉันโล่งใจอย่างกับยกภูเขาออกจากอก"
 
 # "Mrs. Satou" "Ah, you must be one of Lilly's friends from school, correct?"
-""
+thname("คุณนายซาโต้") "อ้อ เธอคงเป็นเพื่อนที่โรงเรียนของลิลลี่ใช่มั้ย"
 
 # "Even so, her accent means I have to concentrate to work out what she's saying."
-""
+"ถึงอย่างนั้นก็เถอะ ฉันยังต้องเงี่ยหูฟังให้ดีเพราะยังมีติดสำเนียงอยู่"
 
 # hi "Yes, that's right. Pleased to speak to you, Mrs. Satou."
-hi ""
+hi "ครับ ใช่ครับ ยินดีที่ได้รู้จักนะครับ คุณนายซาโต้"
 
 # "Mrs. Satou" "It's so nice of her to find someone so polite! Lilly dear, it's for you!"
-""
+thname("คุณนายซาโต้") "มีเพื่อนมารยาทงามอย่างนี้ด้วย! ลิลลี่ มีคนโทร. หาลูกแน่ะ!"
 
 # "Her mother seems nice, if a little overenthusiastic given the mundane situation."
-""
+"ก็ดูเป็นคนดีนะ ถึงออกจะตื่นเต้นไปหน่อยกับเรื่องธรรมดา ๆ อย่างนี้ก็เถอะ"
 
 # "There's a small silence as Lilly takes her time getting to the phone. In the distance, I can just make out her mother scolding her playfully for just getting up."
-""
+"ก่อนที่ลิลลี่จะมารับโทรศัพท์นั้นปลายสายเงียบไปครู่หนึ่ง ฉันได้ยินเสียงแม่ลิลลี่ที่กึ่งดุกึ่งกระเซ้าเจ้าตัวที่เพิ่งตื่นอยู่แว่ว ๆ"
 
 # li "Hello, Lilly speaking."
-li ""
+li "สวัสดีค่ะ ลิลลี่นะคะ"
 
 # hi "You sound awful."
-hi ""
+hi "เสียงฟังดูไม่ไหวเลยนะ"
 
 # "She makes a sound somewhere between a dying animal and a yawn."
-""
+"ลิลลี่ทำเสียงหาวโอดโอยคล้ายสัตว์ใกล้ตาย"
 
 # "The one thing I did remember to check before calling was the time zone. It'd be pretty late in the morning over there, so she really has no excuse."
-""
+"ก่อนโทร. ฉันดูเรื่องเขตเวลาแล้วเรียบร้อย ตอนนี้ที่สกอตแลนด์ก็เข้าช่วงสายพอสมควรแล้ว เพราะงั้นจะอ้างอะไร\nก็คงไม่ได้อีก"
 
 # hi "Not feeling well?"
-hi ""
+hi "ไม่สบายเหรอ"
 
 # li "Just tired. What time is it there?"
-li ""
+li "แค่เพลียนิดหน่อยจ้ะ ที่ญี่ปุ่นกี่โมงแล้วเหรอ"
 
 # hi "Late afternoon. School finished for the day not long ago."
-hi ""
+hi "บ่ายแก่ ๆ เพิ่งเลิกเรียนมาเมื่อกี้เอง"
 
 # li "Hanako's not well, is she?"
-li ""
+li "ฝั่งฮานาโกะคงไม่โอเคใช่มั้ย"
 
 play music music_drama 
 
 # "That was quick. My assumption that she must have known something like this could happen seems to have been on the mark."
-""
+"ตัดเข้าเรื่องเร็วแฮะ ดูท่าจะเดาถูกว่าลิลลี่ต้องรู้ว่าจะเกิดเรื่องแบบนี้แน่"
 
 # hi "How did you know?"
-hi ""
+hi "รู้ได้ยังไง"
 
 # li "Because today is her birthday. I'd hoped she might have gotten at least a little better after coming to know you, but…"
-li ""
+li "ก็วันนี้วันเกิดฮานาโกะนี่นา ทีแรกฉันก็หวังอยู่นะว่าพอฮานาโกะได้สนิทกับเธอแล้วจะดีขึ้น แต่ว่า…"
 
 # li "How is she right now?"
-li ""
+li "ตอนนี้ฮานาโกะเป็นยังไงบ้าง"
 
 # hi "She missed school today and yesterday. I still have to check up on her today. To be honest, after seeing how she was when I talked to her yesterday… I'm pretty anxious."
-hi ""
+hi "ฮานาโกะขาดเรียนไปวันนี้กับเมื่อวานน่ะ เดี๋ยววันนี้ต้องไปหาอีกที ว่าตามตรง ดูจากสภาพฮานาโกะตอนฉัน\nไปคุยด้วยเมื่อวานแล้ว… ฉันก็หวั่น ๆ ใจอยู่เหมือนกัน"
 
 # hi "I really have no idea what to make of it. Has this happened in the past? Is it related to her scarring in some way?"
-hi ""
+hi "ฉันจนปัญญาไม่รู้จริง ๆ ว่าจะทำยังไงดี เมื่อก่อนเคยมีแบบนี้มั้ย เกี่ยวอะไรกับแผลเป็นหรือเปล่า"
 
 # li "Unfortunately so. Roughly the same thing happened last year when her birthday came up."
-li ""
+li "เกรงว่าจะเป็นอย่างนั้นจ้ะ วันเกิดฮานาโกะเมื่อปีที่แล้วก็มีเรื่องประมาณนี้เหมือนกัน"
 
 # li "As far as I can tell, it's because her parents died in the accident that caused her scarring, and Hanako blames herself for their deaths."
-li ""
+li "เท่าที่พอจะนึกออก คงเป็นเพราะพ่อแม่ฮานาโกะท่านเสียชีวิตไปพร้อม ๆ กับตอนที่เกิดอุบัติเหตุที่ทำให้เกิดแผลเป็น\nฮานาโกะเลยโทษตัวเองว่าตัวเองเป็นต้นเหตุที่ทำให้ทั้งสองคนจากไป"
 
 # "What she says does seem to make sense. If she's blaming herself on her birthday, she may well be ruing that she was ever born."
-""
+"ที่พูดมาก็มีเหตุผล ถ้าถึงวันเกิดแล้วฮานาโกะโทษตัวเอง ก็คงหมายความได้ว่าเธอกำลังนึกเสียใจที่ตัวเองเกิดมา"
 
 # "Hanako had mentioned her stay in the orphanage to me. Maybe I should take some heart that she trusts me enough to tell me such a thing."
-""
+"ฮานาโกะเคยเล่าเรื่องตอนที่อยู่สถานรับเลี้ยงเด็กกำพร้าให้ฟัง คงนับว่าเป็นเรื่องที่ดีละนะที่เชื่อใจพอที่จะเล่า\nอะไรแบบนั้นให้ฟังได้"
 
 # "Lilly seeming so in the dark about it though, almost to the extent that I am, is a surprise."
-""
+"แต่ที่ฉันแปลกใจก็คือ ลิลลี่ดูจะไม่ค่อยรู้เรื่องรู้ราวอะไรพอ ๆ กันกับฉันด้วยเช่นกัน"
 
 # hi "So that's why she lives in the student dormitories, as well. Has she told you any more about the accident?"
-hi ""
+hi "ก็คงเป็นเหตุผลที่ฮานาโกะมาอยู่หอในด้วยละนะ ฮานาโกะเคยเล่าเรื่องอุบัติเหตุที่ว่าอะไรให้ฟังอีกหรือเปล่า"
 
 # li "As close as we've come… she's very barely told me anything about what happened. What I know about it is largely conjecture."
-li ""
+li "เราสองคนสนิทกันขนาดนี้ก็จริง… แต่ฮานาโกะแทบไม่เคยเล่าให้ฟังเลยว่าเกิดอะไรขึ้นบ้าง ที่ฉันรู้ส่วนใหญ่ก็เป็นแค่\nการคาดการณ์เท่านั้นแหละจ้ะ"
 
 # "She sounds depressed, almost defeated. Considering the trauma Hanako must have gone through, I really can't fault Lilly for not knowing. Nevertheless, she still seems to consider it a personal failing."
-""
+"น้ำเสียงลิลลี่ฟังดูเศร้าหมองค่อนไปทางเหนื่อยอ่อน แต่ถ้าคิดดูว่าฮานาโกะต้องผ่านเหตุการณ์สะเทือนขวัญอะไรมาบ้าง\nลิลลี่จะไม่รู้ก็ไม่แปลก แต่เหมือนลิลลี่จะยังมองว่าเป็นฝั่งตัวเองที่ยังพยายามไม่พออยู่ดี"
 
 # hi "Don't blame yourself, Lilly. With everything she's gone through…"
-hi ""
+hi "อย่าโทษตัวเองเลยลิลลี่ ฮานาโกะก็ผ่านอะไรมาขนาดนั้น…"
 
 # "There's a long silence from the other end of the line. I begin to wonder if the call cut out before the voice at the other end speaks once again."
-""
+"ปลายสายเงียบอยู่นานจนชักสงสัยแล้วว่าหรือสายจะตัดไปแล้ว แต่เสียงจากปลายสายก็ดังขึ้นอีกครั้ง"
 
 # li "There is another person, though, that has been a subject of worry for me as of late."
-li ""
+li "แต่มีอีกคนนะที่ช่วงนี้ฉันก็เป็นห่วงอยู่เหมือนกัน"
 
 # hi "Oh?"
-hi ""
+hi "หืม?"
 
 # "I run through the people she could be talking about in my head. The only friends she seems to keep very close are Hanako and me, though there is Akira as well…"
-""
+"ฉันลองไล่นึกดูว่าคนที่ลิลลี่พูดถึงจะเป็นใครได้บ้าง เพื่อนที่ลิลลี่สนิทด้วยจริง ๆ ก็เหมือนจะมีแค่ฮานาโกะกับฉัน หรือว่า\nอากิระ…"
 
 # li "That person is you, Hisao."
-li ""
+li "คนที่ว่าก็คือเธอนี่แหละจ้ะฮิซาโอะ"
 
 # "There's another silence on the line, but this time it's caused by me."
-""
+"เกิดความเงียบขึ้นในสายอีกครั้ง แต่คราวนี้มาจากฉัน"
 
 # "Making others worry about me is something I've very actively tried to avoid since coming to Yamaku. Indeed, even my interaction with Hanako has helped stave off any major health problems thanks to our relaxed and slow-paced lives."
-""
+"ตั้งแต่ฉันมายามากุฉันก็พยายามเลี่ยงไม่ให้คนอื่นต้องมาเป็นห่วงอยู่เสมอ แม้แต่การที่ฉันอยู่กับฮานาโกะก็ช่วยให้ฉัน\nพ้นจากปัญหาเรื่องสุขภาพที่ร้ายแรงได้ด้วยว่าพวกเราใช้ชีวิตกันแบบสบาย ๆ ไม่เร่งรีบ"
 
 # hi "Uh… huh. What is there to worry about over me?"
-hi ""
+hi "อ่า… ฮะ ฉันมีอะไรให้เป็นห่วงด้วยเหรอ"
 
 # li "I apologize; I didn't mean any offense."
-li ""
+li "ขอโทษทีจ้ะ ไม่ได้ตั้งใจจะตำหนิอะไรเธอนะ"
 
 # hi "Sorry, I was just taken a bit off guard. Still, isn't Hanako a bigger problem at the moment?"
-hi ""
+hi "โทษที ๆ พอดีเมื่อกี้ไม่ได้ตั้งตัว แต่ตอนนี้ปัญหาที่ใหญ่กว่าน่าจะเป็นเรื่องฮานาโกะไม่ใช่เหรอ"
 
 # li "For some time now I've thought that the both of you may be feeding into each other's more worrying habits. I tried to amend this before leaving, but it seems to have done little."
-li ""
+li "ฉันคิดมาสักพักแล้วว่าเธอสองคนจะยิ่งทำให้นิสัยที่ชวนให้เป็นห่วงของกันและกันย่ำแย่เข้าไปอีก ก่อนเดินทาง\nฉันก็ลองบรรเทาอาการนี้ดูแล้ว แต่เหมือนจะไม่ได้ผลสักเท่าไหร่"
 
 # hi "“Worrying habits?”"
-hi ""
+hi "“นิสัยที่ชวนให้เป็นห่วง” เหรอ"
 
 # li "When I asked you about what you had in mind for the future, your answer was very similar to what Hanako has said in the past when that question was posed to her."
-li ""
+li "ตอนฉันถามเธอว่าจะเอายังไงกับอนาคต คำตอบของเธอคล้ายกับตอนที่ฮานาโกะตอบคำถามนี้มาก"
 
 # li "It is well and good to want to protect her, but I fear that treating Hanako like this, as if she were a daughter or someone in need of special care, is only going to achieve the opposite."
-li ""
+li "ที่เธออยากปกป้องฮานาโกะน่ะก็ดีแล้ว แต่ฉันเกรงว่าถ้ายังปฏิบัติกับฮานาโกะเหมือนเป็นลูกสาวหรือคนที่ต้อง\nได้รับการดูแลเป็นพิเศษอย่างนี้รังแต่จะทำให้ได้ผลตรงกันข้าม"
 
 #right now the ending just hinges on this one choice. the previous ones don't even matter at all.
 #the best you get is to choose your bad end and small alternatives later
@@ -1070,87 +1070,90 @@ label th_choiceH22:
 menu:
     with menueffect
 
-    "The situation got effectively turned on its head. After everything that's happened, this is the first time I find myself doubting Lilly's judgment."
+    # "The situation got effectively turned on its head. After everything that's happened, this is the first time I find myself doubting Lilly's judgment."
+    "เหตุการณ์กลับตาลปัตรไปเสียแล้ว มีเรื่องอะไรหลายอย่างเกิดขึ้นแล้วก็จริง แต่หนนี้เป็นครั้งแรกที่ฉันนึกเคลือบแคลง\nกับการพินิจของลิลลี่"
 
-    "Agree with Lilly.":
+    # "Agree with Lilly.":
+    "เห็นด้วยกับลิลลี่":
         return m1
         
-    "Trust my own judgment.":
+    # "Trust my own judgment.":
+    "เชื่อการพินิจของตัวเอง":
         return m2
 
 label th_H22a:
 
 # "I don't want to admit it, but she may have a point. Something else bugs me, though."
-""
+"ก็คงจริงอย่างลิลลี่ว่า ถึงจะไม่อยากยอมรับเลยก็เถอะ แต่ฉันยังมีอย่างอื่นที่คาใจอยู่"
 
 # hi "And you tried to… “amend” this?"
-hi ""
+hi "แล้วเธอก็ลอง… “บรรเทา”?"
 
 # hi "Wait… our outing into the city?"
-hi ""
+hi "เดี๋ยว… ที่ไปเที่ยวกันในตัวเมืองวันนั้น?"
 
 # li "Quite astute. I thought that it might help if I dragged both of you out of Yamaku and into the wider world. I am thankful you became closer for it, though."
-li ""
+li "หัวไวมากจ้ะ ฉันคิดว่าถ้าลากพวกเธอสองคนออกจากยามากุไปพบกับโลกที่กว้างขึ้นแล้วอาจช่วยอะไรได้บ้าง\nแต่ฉันก็ดีใจนะที่หลังจากนั้นเธอสองคนก็สนิทกัน"
 
 # "So she noticed that. I suppose she may well have been paying attention to us, and her hearing's incredibly good; quite likely good enough to have picked up what we were talking about, if she tried."
-""
+"สังเกตได้ด้วยสินะ ก็น่าจะกำลังจับสังเกตเราสองคนอยู่นั่นแหละ แล้วหูลิลลี่ก็ดีมากด้วย ดีชนิดที่ว่าถ้าจะเงี่ยหูฟัง\nเสียอย่างแล้วก็จะได้ยินสิ่งที่เราคุยกันแน่นอน"
 
 # hi "This sounds more and more like you were manipulating us."
-hi ""
+hi "ยิ่งฟังยิ่งเหมือนว่าเธอวางแผนหลอกพวกเราเลยนะ"
 
 # "Silence. It's a harsh way of putting it, but I have no intention of stepping back from those words."
-""
+"เงียบ เป็นคำที่แรง แต่ฉันไม่ถอนคำพูดหรอก"
 
 # li "I'm sorry. I was just… worried about you."
-li ""
+li "ขอโทษจ้ะ ฉันแค่… เป็นห่วงเธอ"
 
 # hi "It's fine. I guess there are more important things anyway."
-hi ""
+hi "ไม่เป็นไร ยังไงก็คงมีเรื่องที่สำคัญกว่าละนะ"
 
 # "It's not a total surprise that she'd do such a thing. Her motherly nature can be slightly overbearing at times, but she does have the best of intentions."
-""
+"ก็ไม่ได้แปลกใจนักว่าลิลลี่จะทำอะไรแบบนี้ บางครั้งความเป็นแม่ชอบดูแลของเธออาจจะมากไป แต่ทุกอย่างล้วน\nมาจากเจตนาดีทั้งนั้น"
 
 # hi "So you think I should think about myself more instead of trying to cater to Hanako?"
-hi ""
+hi "สรุปคือเธอคิดว่าฉันควรจะคิดถึงตัวเองก่อนแทนที่จะไปดูแลฮานาโกะเหรอ"
 
 # li "That largely sums it up. Again, I'm sorry for not telling you this in a clearer way before going behind your back."
-li ""
+li "รวม ๆ ก็ประมาณนั้นจ้ะ ยังไงก็ขอโทษนะจ๊ะที่ไม่ได้บอกให้ชัด ๆ ก่อนแล้วแอบไปวางแผนลับหลังอย่างนั้น"
 
 # li "I know I am at least as guilty of being overprotective of Hanako as you, but I fear that you are neglecting yourself in your efforts to give Hanako happiness."
-li ""
+li "ฉันรู้ว่าฉันเองก็ผิดอยู่บ้างที่คอยประคบประหงมฮานาโกะเหมือน ๆ กันกับเธอ แต่ฉันเกรงว่าเธอจะมัวแต่\nมอบความสุขให้ฮานาโกะจนไม่ได้ดูแลตัวเอง"
 
 # hi "Do you really think Hanako will be okay?"
-hi ""
+hi "เธอคิดว่าฮานาโกะจะไม่เป็นไรจริง ๆ เหรอ"
 
 # li "She isn't as fragile as you think. I don't know exactly what experiences she's lived through, or what feelings she has in her mind, but she has managed to work her way through them until now."
-li ""
+li "ฮานาโกะไม่ใช่คนเปราะบางขนาดนั้นอย่างที่เธอคิดหรอกจ้ะ ฉันก็ไม่รู้รายละเอียดว่าฮานาโกะต้องผ่านอะไรมาบ้าง\nไม่รู้ว่าในใจรู้สึกอย่างไร แต่ฮานาโกะก็ก้าวผ่านทุกอย่างมาได้จนตอนนี้แล้ว"
 
 # li "It's also my hope that giving her a little space will allow her to decide what she truly wants for herself, and give her the initiative to reach out for it."
-li ""
+li "แล้วฉันเองก็หวังด้วยว่าถ้าให้พื้นที่กับฮานาโกะแล้วเจ้าตัวอาจจะตัดสินใจได้ว่าสิ่งที่ต้องการจริง ๆ คืออะไร\nแล้วค่อยเรียกร้องเอง"
 
 # li "Please have faith in Hanako. That's all I ask."
-li ""
+li "ได้โปรดเชื่อมั่นในตัวฮานาโกะเถอะจ้ะ ฉันขอแค่นี้แหละ"
 
 # hi "I'll… I guess I'll think about it for a while."
-hi ""
+hi "ได้… เดี๋ยวฉันคงต้องเก็บไปคิดสักพัก"
 
 # li "That's good. Being rash won't get you anywhere."
-li ""
+li "ดีแล้วจ้ะ บุ่มบ่ามไปก็ไม่ได้อะไรขึ้นมาหรอก"
 
 # li "I know that at times you may doubt your relationship to Hanako, but she does…"
-li ""
+li "ฉันรู้ว่าบางทีเธออาจยังไม่แน่ใจเรื่องความสัมพันธ์ของเธอกับฮานาโกะ แต่ฮานาโกะน่ะ…"
 
 # "Lilly cuts herself off and takes a moment to reconsider her words."
-""
+"ลิลลี่ตัดบทตัวเองไปแล้วเว้นช่วงเพื่อเลือกสรรคำพูด"
 
 # li "Please keep in mind that I wouldn't have befriended you if I hadn't thought you a fundamentally good person. You're a good friend, both to myself and to Hanako."
-li ""
+li "อย่าลืมนะว่าที่ฉันมาเป็นเพื่อนกับเธอก็เพราะฉันคิดว่าจริง ๆ แล้วเธอเป็นคนดี เธอก็เป็นเพื่อนที่ดีต่อทั้งฉัน\nทั้งฮานาโกะ"
 
 # hi "Thank you. That helps."
-hi ""
+hi "ขอบคุณนะ ค่อยโล่งใจหน่อย"
 
 # "We share some smalltalk to try and lighten the atmosphere, but it feels very stilted. There's a lot I don't know about Lilly's stay in Scotland, but after such a heavy subject, I want to be alone for a bit to think."
-""
+"เราคุยเรื่อยเปื่อยกันบ้างหวังคลายบรรยากาศ แต่รู้สึกเหมือนกำลังฝืนอยู่มาก ๆ ฉันยังไม่รู้ว่าที่ลิลลี่เดินทาง\nไปสกอตแลนด์ครั้งนี้มีอะไรหรือเป็นอย่างไรบ้าง แต่พอคุยเรื่องหนัก ๆ กันแบบนั้นแล้วฉันก็อยากมานั่งคิด\nอยู่ตัวคนเดียวสักพัก"
 
 stop music fadeout 8.0
 
@@ -1170,28 +1173,28 @@ hide phone
 with None
 
 # "After a few minutes, we end up saying our goodbyes and I set my phone on my desk."
-""
+"ผ่านไปสองสามนาทีเราก็บอกลากัน ฉันวางโทรศัพท์ลงกับโต๊ะ"
 
 # "Compared to Hanako's situation, mine feels utterly mundane. I still have both of my parents, I had a reasonably normal childhood, and unlike many in Yamaku, my condition isn't immediately visible to the public."
-""
+"ถ้าให้เทียบกับฮานาโกะแล้วชีวิตฉันตอนนี้ช่างเอื่อยเฉื่อย พ่อแม่ฉันก็ยังอยู่ ชีวิตวัยเด็กก็ปกติดี และอาการของฉัน\nก็ไม่ได้ปรากฏแก่สายตาคนอื่นทันที ไม่เหมือนอย่างนักเรียนหลาย ๆ คนในยามากุ"
 
 # "But then again… isn't this just an attempt to justify the way I've been acting towards her?"
-""
+"แต่ว่า… ที่ฉันคิดแบบนี้มันก็แค่การหาข้ออ้างให้ฉันทำตัวแบบนั้นกับฮานาโกะได้นี่"
 
 # "That may well be what our pasts were like, but when it comes to the future I still have no idea what I want to do. In school I've just concentrated on each day's work, and I've put off more and more things to cater to Hanako."
-""
+"อดีตของพวกเราเป็นเช่นนั้น แต่พอพูดถึงเรื่องอนาคตแล้วฉันก็ยังไม่รู้ว่าจะทำอะไร ฉันเรียนโดยจดจ่ออยู่กับภาระงาน\nในแต่ละวันโดยเอาแต่ผัดสิ่งต่าง ๆ ที่คิดจะทำเพื่อดูแลฮานาโกะออกไปเรื่อย ๆ"
 
 # "I recall the words Mutou told me after Hanako's breakdown; about the purpose of Yamaku and my education. In hindsight, he was probably trying to push exactly the same thing."
-""
+"ฉันย้อนนึกถึงคำพูดที่ครูพูดกับฉันหลังจากที่ฮานาโกะแพนิกกำเริบครั้งนั้นที่ว่าด้วยจุดประสงค์ของยามากุ\nกับการศึกษาของฉัน พอลองมาคิดดูตอนนี้แล้วครูก็น่าจะต้องการบอกสิ่งเดียวกันกับสิ่งที่ลิลลี่พูด"
 
 # "Just what have I been doing in the time since my heart attack? If I ever did manage to get Hanako out of her room and to open up, what then?"
-""
+"พอฉันหัวใจวายแล้วเอาเวลาหลังจากนั้นไปทำอะไรหมด ถ้าฉันทำให้ฮานาโกะออกมาจากห้องแล้วเปิดใจได้\nแล้วจะเอายังไงต่อ"
 
 # "I look out of my dormitory window as the sun slowly sets. It's a nice sight, but what I really savor is the quiet as the students return to their dormitory rooms."
-""
+"ฉันหันมองไปทางหน้าต่างห้องดูพระอาทิตย์ที่คล้อยตกดิน เป็นภาพที่สวยงาม แต่สิ่งที่ฉันดื่มด่ำอยู่เป็นความเงียบ\nในระหว่างที่นักเรียนต่างกลับห้องของตัวเองกัน"
 
 # "All I want to do now is think. I'm not sure how much time I have, but I want to work out where I'll go from here."
-""
+"ตอนนี้ฉันอยากคิดก่อน ไม่รู้ว่าฉันเหลือเวลาอีกเท่าไหร่ แต่ฉันอยากคิดวางแผนว่านับจากนี้จะทำอะไรต่อไป"
 
 scene black
 with dissolve
@@ -1204,19 +1207,19 @@ label th_H22b:
 stop music fadeout 5.0
 
 # "I listen carefully to what Lilly has to say, but I can't bring myself to agree with her."
-""
+"ฉันตั้งใจฟังสิ่งที่ลิลลี่พูด แต่ฟังอย่างไรก็เห็นด้วยไม่ลง"
 
 # "Hanako is a delicate person at the best of times, and after what happened when her birthday was brought up, I think this is the very last situation where we should be leaving her alone if she's deliberately secluding herself."
-""
+"ตอนที่ฮานาโกะปกติดีก็เป็นคนบอบบางอยู่แล้ว และพอได้เห็นสิ่งที่เกิดขึ้นหลังจากมีการพูดถึงวันเกิดของเธอ\nฉันก็คิดว่าตอนนี้ไม่ใช่สถานการณ์ที่เราจะปล่อยให้ฮานาโกะอยู่คนเดียวได้ถ้าเธอเป็นคนปลีกตัวออกไปเอง"
 
 # "It feels like Lilly has a very definite image of how best to deal with Hanako in her mind, though. Not just now, but in all the time that I've known the two."
-""
+"แต่ฉันรู้สึกเหมือนลิลลี่จะมีแผนในหัวชัดว่าจะต้องรับมือกับฮานาโกะอย่างไร ไม่ใช่แค่ตอนนี้หรอก แต่เป็นทุกครั้ง\nเท่าที่ฉันรู้จักทั้งสองคนมาเลย"
 
 # "I mull over the best course of action in my head, and find myself trying to verbally agree with Lilly as softly and as ambivalently as I can."
-""
+"ฉันครุ่นคิดถึงทางออกที่ดีที่สุดในหัวแล้วพูดตอบเห็นด้วยกับลิลลี่ไปอย่างนุ่มนวลและก้ำกึ่งที่สุดเท่าที่จะทำได้"
 
 # "We make some smalltalk afterwards, but neither of us really has much stomach for it in the light of recent events. We say our goodbyes before I hang up."
-""
+"จากนั้นเราก็คุยกันเรื่อยเปื่อย แต่เราทั้งสองคนต่างไม่มีใครมีอารมณ์จะคุยเท่าไหร่ด้วยเหตุการณ์ที่เกิดขึ้นล่าสุดนี้\nเราบอกลากันก่อนฉันจะกดวางสาย"
 
 show phone mobile:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -1234,11 +1237,11 @@ hide phone
 with None
 
 # "I want to talk to Hanako myself, to help her as best I can. The best thing for her right now would be to have someone close to her, not to be left alone."
-""
+"ฉันอยากจะไปคุยกับฮานาโกะด้วยตัวเองเพื่อจะได้ช่วยให้สุดความสามารถ สิ่งที่ดีกับตัวฮานาโกะที่สุดในตอนนี้\nคือการที่มีคนอยู่เคียงข้าง ไม่ใช่การถูกทิ้งไว้คนเดียว"
 
-# no black, this connects directly
+#no black, this connects directly
 
-# To H23, Rage End
+#To H23, Rage End
 
 
 label th_H22c:
@@ -1246,25 +1249,25 @@ label th_H22c:
 stop music fadeout 5.0
 
 # "I listen carefully to what Lilly has to say, but I can't bring myself to agree with her."
-""
+"ฉันตั้งใจฟังสิ่งที่ลิลลี่พูด แต่ฟังอย่างไรก็เห็นด้วยไม่ลง"
 
 # "I want to be with Hanako more. I want to be a better friend to her, to support her when she needs support, and to be there when she most needs people. I think that now is one of those times."
-""
+"ฉันอยากอยู่กับฮานาโกะให้มากกว่านี้ อยากจะเป็นเพื่อนที่ดีกว่านี้สำหรับเธอ คอยเป็นกำลังให้ยามที่เธอต้องการ\nคอยอยู่เคียงข้างยามที่เธออยากอยู่กับใครสักคน ซึ่งฉันคิดว่าตอนนี้แหละคือช่วงเวลาที่ว่าเหล่านั้น"
 
 # "The memory of the store owner we met in town together still puts me off. Anyone who takes even the slightest glance at Hanako ends up staring, and to fault them for it would be completely hypocritical, given my own reaction."
-""
+"ฉันยังไม่สบายใจกับความทรงจำของเจ้าของร้านคนนั้นที่เราเจอตอนไปเที่ยวในตัวเมืองด้วยกัน ใครที่\nได้เห็นฮานาโกะแม้เพียงมองผ่าน ๆ เป็นต้องจ้องมอง แต่หากจะกล่าวโทษพวกเขาเหล่านั้นแล้วก็คงเป็นอะไร\nที่ย้อนแย้ง เพราะฉันเองก็มีปฏิกิริยาแบบเดียวกัน"
 
 # "I don't like my own scarring either, but at least I can cover it up with something as simple as a shirt. I can't imagine a life where every day would be spent trying to hide myself as much as possible."
-""
+"ฉันก็ไม่ชอบแผลเป็นของตัวเองเหมือนกัน แต่อย่างน้อยก็ปกปิดได้ง่าย แค่ใส่เสื้อก็จบแล้ว ฉันนึกภาพไม่ออกเลย\nว่าชีวิตที่ต้องปกปิดร่างกายตัวเองให้มิดชิดที่สุดอยู่ทุกวันนั้นเป็นอย่างไร"
 
 # "And on top of that, Hanako doesn't even have people around her that would support her no matter what she looks like. I live away from my parents, but I can still contact and visit them when I wish."
-""
+"และยิ่งไปกว่านั้นฮานาโกะก็ไม่มีคนรอบตัวที่จะคอยสนับสนุนเธอโดยไม่สนว่ารูปลักษณ์จะเป็นอย่างไรด้วย ฉันอยู่ห่าง\nจากพ่อแม่ก็จริง แต่ถ้าจะติดต่อหรือไปหาก็ย่อมทำได้"
 
 # "I mull over the best course of action in my head, and find myself trying to verbally agree with Lilly as softly and as ambivalently as I can."
-""
+"ฉันครุ่นคิดถึงทางออกที่ดีที่สุดในหัวแล้วพูดตอบเห็นด้วยกับลิลลี่ไปอย่างนุ่มนวลและก้ำกึ่งที่สุดเท่าที่จะทำได้"
 
 # "We make some smalltalk afterwards, but the both of us don't really have much stomach for it in the light of recent events. We say our goodbyes before I hang up."
-""
+"จากนั้นเราก็คุยกันเรื่อยเปื่อย แต่เราทั้งสองคนต่างไม่มีใครมีอารมณ์จะคุยเท่าไหร่ด้วยเหตุการณ์ที่เกิดขึ้นล่าสุดนี้\nเราบอกลากันก่อนฉันจะกดวางสาย"
 
 show phone mobile:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -1282,7 +1285,7 @@ hide phone
 with None
 
 # "There is at least one thing I can do for Hanako. If I make this small gesture for her, I can only hope that she allows me to come that little bit closer."
-""
+"ยังมีอย่างหนึ่งที่ฉันพอจะทำเพื่อฮานาโกะได้ ถ้าส่งสัญญาณเล็ก ๆ นี้ให้เธอแล้วฉันก็คงได้แต่เฝ้าหวังว่าเธอจะเปิดใจ\nให้ฉันใกล้ชิดกับเธอให้มากขึ้นอีกสักเล็กน้อย"
 
 # To H24, Sad End
 
