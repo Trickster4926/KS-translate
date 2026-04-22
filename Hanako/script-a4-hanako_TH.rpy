@@ -6,13 +6,13 @@ with locationchange
 play music music_normal fadein 3.0
 
 # "I woke up, took my pills, had a nice shower, quickly slipped on my uniform, ate a tasty breakfast, grabbed my bag, and headed off, all as per my usual daily routine."
-""
+"ฉันตื่นมากินยา อาบน้ำให้สดชื่น สวมชุดนักเรียน กินมื้อเช้าอร่อย ๆ คว้ากระเป๋าเดินไปเรียนตามปกติที่ทำเป็นกิจวัตร\nประจำวัน"
 
 # "It was only after arriving in class that the normality of the day was thrown off."
-""
+"พอมาถึงห้องแล้วก็พบกับสิ่งที่ทำให้ความปกตินั้นหายไป"
 
 # "After taking my seat, I watched my classmates trickle into the room over the next hour, until every empty seat was eventually taken, other than Hanako's."
-""
+"ฉันนั่งกับที่มองเพื่อนร่วมชั้นเรียนทยอยเข้าห้องมาอยู่ราวหนึ่งชั่วโมงจนกระทั่งทุกที่นั่งที่ว่างอยู่นั้นมีคนนั่งจนเต็ม\nเว้นก็แต่ที่โต๊ะฮานาโกะ"
 
 stop music fadeout 10.0
 
@@ -28,32 +28,32 @@ show evfg hanako_emptyclassroom:
 with whiteout
 
 # "I can never get used to the idea that she just doesn't show up to class every now and again. It feels all the more worrying now as well, given that Lilly's left."
-""
+"ฉันทำใจให้ชินกับการที่ฮานาโกะขาดเรียนไปบ้างเป็นบางครั้งไม่ได้เลย และยิ่งตอนนี้ลิลลี่ไม่อยู่ด้วยแล้วก็ยิ่ง\nชวนให้กังวลไปใหญ่"
 
 # "As Mutou continues to drone on, I find my gaze flicking every so often over to her seat, as if she might appear there any moment now. Nobody else seems to care at all about her absence, but they have little reason to."
-""
+"ระหว่างที่ครูสอนไปเอื่อย ๆ เรื่อย ๆ สายตาฉันก็เหล่มองไปที่โต๊ะฮานาโกะอยู่บ่อย ๆ ราวกับว่าเธออาจปรากฏตัวขึ้น\nณ ขณะนั้นเลยก็ได้ ไม่มีใครดูจะสนใจที่เธอขาดไปมากนัก ซึ่งก็เพราะไม่มีความจำเป็นต้องสนใจนั่นแหละ"
 
 # "Hanako being absent from class, after all, is perfectly normal. Or at least, it was. Her attendance hasn't been all that bad from what I've seen in my time here, but it was apparently much more spotty beforehand."
-""
+"เพราะยังไงเสียการที่ฮานาโกะขาดเรียนนั้นเป็น—หรืออย่างน้อย ๆ ก็เคยเป็น—เรื่องปกติสามัญ ตั้งแต่ที่ฉันมาเรียน\nก็เห็นเธอขาดเรียนไม่บ่อยขนาดนั้น แต่เหมือนว่าก่อนหน้านี้จะหายไปบ่อยกว่า"
 
 # "This is also an ominous time for her to be gone. It's the day before her birthday, and my suspicions are starting to rise, after the breakdown she had in class when it was mentioned."
-""
+"และการที่ฮานาโกะหายไปตอนนี้นั้นก็ไม่ใช่สัญญาณที่ดีด้วย เป็นวันก่อนถึงวันเกิดฮานาโกะ และฉันก็ยิ่งกังขา\nหนักขึ้นไปอีกหลังจากที่เธอแพนิกในห้องตอนพูดถึงเรื่องวันเกิด"
 
 # "An increasing amount of my thoughts is taken up by how I can help her, but in the end, I feel like I can't do anything."
-""
+"ฉันคิดหาทางช่วยฮานาโกะจนเรื่องนั้นกินพื้นที่สมองมากขึ้นไปเรื่อย ๆ แต่สุดท้ายก็รู้สึกว่าตัวเองทำอะไรไม่ได้เลย"
 
 scene bg school_scienceroom
 with silentwhiteout
 play sound sfx_normalbell
 
 # "The bell heralding the beginning of lunchtime rings out, shaking me out of my thoughts. A collective sigh of relief can be heard from the class, though Mutou looks quite put off."
-""
+"ระฆังซึ่งป่าวร้องถึงเวลาเริ่มพักเที่ยงดังขึ้นดึงสติให้ฉันหลุดจากห้วงความคิด ฉันได้ยินเสียงคนทั้งห้องที่ถอนหายใจ\nเป็นเชิงโล่งอกพร้อม ๆ กัน แต่ครูดูจะหงุดหงิดอยู่บ้าง"
 
 # "He dislikes being interrupted in the middle of his exciting lectures, after all."
-""
+"ครูไม่ชอบให้อะไรมารบกวนการสอนสุดตื่นเต้นของตัวเองนี่นะ"
 
 # "Just when I'm wondering what I should do on lunch break, given that Hanako and Lilly aren't here, the solution presents itself."
-""
+"จังหวะที่กำลังคิดอยู่ว่าพักเที่ยงนี้จะทำอะไรดีเพราะฮานาโกะกับลิลลี่ไม่อยู่ด้วยแล้วนั้นคำตอบก็ปรากฏกาย"
 
 show shizu invis:
     tworight
@@ -70,31 +70,29 @@ with dissolvecharamove
 play music music_shizune fadein 5.0
 
 # mi "'Afternoon, Hicchan~!"
-mi ""
+mi "ทิวาหวัดฮิจัง~!"
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # hi "'Afternoon Misha, Shizune. You both look as bright as ever."
-hi ""
+hi "ทิวาหวัดมิช่า ชิซูเนะ ดูสดใสเช่นเคยเลยนะ"
 
 show shizu basic_normal2
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Shicchan wants to know if you'd like to have lunch with us today~?"
-mi ""
+mi "ชิจังถามว่าวันนี้นายอยากไปกินข้าวเที่ยงด้วยกันกับพวกเราไหม~"
 
 # hi "Sure. It'll be good to have some company."
-hi ""
+hi "ได้ มีเพื่อนกินก็ดีเหมือนกัน"
 
 scene bg school_cafeteria
 show crowd
@@ -104,19 +102,19 @@ $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_crowd_indoors fadein 1.0
 
 # "The cafeteria hums with activity, much like my old school's did. Yamaku is different, though, in how… strangely civilized the lunchtime rush is."
-""
+"โรงอาหารนั้นเต็มไปด้วยเสียงดังเซ็งแซ่เหมือนที่โรงเรียนเก่าฉัน แต่ยามากุนั้นต่างตรงที่… ฝูงชนยามพักเที่ยงนั้น\nดูมีอารยธรรมอย่างน่าประหลาด"
 
 # "What one would expect to be an unruly mob chomping at the bit to get to the serving area is, rather, a neat and organized line."
-""
+"ภาพที่คิดว่าจะได้เห็นต้องเป็นคนที่ยกโขยงกรูกันเข้ามาให้ถึงบริเวณแจกจ่ายอาหาร ไม่ใช่คนที่ต่อแถวกัน\nอย่างเป็นระเบียบเรียบร้อยเช่นนี้"
 
 # "There's a small amount of jostling, and people's heads are often craning around to check on what's happening up ahead, but it's pretty subdued."
-""
+"ถึงจะมีการเบียดเสียดบ้าง บางทีก็มีคนที่ชะเง้อชะแง้แลดูว่าข้างหน้ามีอะไร แต่เหล่านั้นก็ยังไม่ทำให้ดูวุ่นวายนัก"
 
 # "This is due, no doubt, to the very serious rules regarding such matters in this school. The same strict discipline is observed when students move in the hallways, or come to and from their dormitories and the school gate."
-""
+"ซึ่งแน่แท้ว่าเป็นเพราะกฎของยามากุที่เอาจริงเอาจังกับเรื่องทำนองนี้ การยึดถือวินัยอย่างเคร่งครัดนี้ยังพบได้\nเวลาที่นักเรียนเดินตามโถงทางเดินหรือจากหอไปยังประตูหน้าโรงเรียน"
 
 # "While the reasons for it may be slightly off-putting, I've come to quite like this sense of order that's enforced in the school."
-""
+"เหตุผลอาจจะฟังดูแปลกเล็กน้อย แต่ฉันก็เริ่มชอบความมีระเบียบที่โรงเรียนนี้ใช้แล้ว"
 
 show shizu behind_smile:
     tworight
@@ -132,317 +130,309 @@ with charaexit
 $ renpy.music.set_volume(0.4, 7.0, channel="ambient")
 
 # "I didn't really like being told by Shizune and Misha to get their lunches, though. I feel a little used as I take a seat at the table where they're sitting, plunking their food down in front of them."
-""
+"แต่ฉันไม่ชอบกับการโดนชิซูเนะกับมิช่าสั่งให้มาเอาข้าวเที่ยงเลยอะนะ ฉันนั่งลงตรงโต๊ะที่ทั้งสองคนนั่งอยู่\nพร้อมความรู้สึกเหมือนโดนใช้หน่อย ๆ ก่อนจะวางถาดอาหารของแต่ละคนให้ตรงหน้าเสียงดังปึก"
 
 # "Sweet bread and strawberry milk for Misha, a bowl of ramen and juice for Shizune. I heave a sigh of relief as I put it all down, after the significant difficulty I had carrying it all in addition to my own lunch."
-""
+"ขนมปังหวานกับนมรสสตรอว์เบอร์รีของมิช่า ราเมงหนึ่งชามกับน้ำผลไม้ของชิซูเนะ เมื่อวางแล้วฉันก็ถอนหายใจ\nเฮือกใหญ่เพราะกว่าจะขนทั้งหมดนี่รวมทั้งอาหารของตัวเองด้วยได้นั้นเล่นเอาลำบากมาก"
 
 show misha hips_grin
 with charachange
 
 # mi "Thank you~!"
-mi ""
+mi "ขอบคุณนะ~!"
 
 show shizu behind_smile
 with charachange
 
 # "Misha claps her hands together before popping open the wrapper and digging into her bread ravenously. Shizune simply gives an appreciative nod before giving her steaming ramen a stir and blowing on it a little to cool it down."
-""
+"มิช่าตบมือแล้วแกะห่อขนมและกินขนมปังอย่างหิวโหย ส่วนชิซูเนะเพียงพยักหน้าเป็นเชิงขอบคุณก่อนจะ\nคนราเมงในชามแล้วเป่าเบา ๆ ให้เย็นลง"
 
 # "I open my own lunch, another packet of sweet bread, and take a bite before washing it down with some juice. The bread is very sweet, so much so that I end up forcing myself to stomach it just to get the experience over with."
-""
+"ฉันแกะของกินของตัวเองบ้างซึ่งเป็นขนมปังหวานเช่นกันแล้วกินหนึ่งคำและตามด้วยน้ำผลไม้ ขนมปังนั้นหวานมาก\nจนฉันต้องฝืนกินให้รีบหมด ๆ ไป"
 
 # "Midway through, I decide to take a break from the difficult task and ask what's on my mind."
-""
+"แต่กินไปได้สักพักฉันก็พักจากการฝืนอันยากเย็นนั้นแล้วถามสิ่งที่คาใจอยู่"
 
 # hi "So, I'm guessing you two had a reason to drag me down here? You two seem to always have an ulterior motive, after all."
-hi ""
+hi "แล้วที่ลากฉันมานี่มีเหตุผลอะไรอยู่ใช่ไหม ปกติเธอสองคนทำอะไรแล้วชอบมีเจตนาแอบแฝงตลอด"
 
 show misha sign_confused
 with charachange
 
 # mi "What are you faying, Hiffan~! We mon't hafe any uffer mofiffe~."
-mi ""
+mi "อู้ดอาไออะอิ๊อัง~! เอาไอ่อีเอดอะอาแอบแอ๋งซู้กอ่อย~"
 
 show shizu basic_angry
 with charachange
 
 # "Her mouth is full of sweet bread as she speaks. It's a pretty unpleasant sight. Shizune looks a little grossed out, before going back to eating her ramen."
-""
+"ปากมิช่าตอนพูดนั้นอัดแน่นไปด้วยขนมปังหวาน เป็นภาพที่ไม่น่ามองเลย ชิซูเนะทำหน้าขยะแขยงเล็กน้อย\nก่อนจะหันไปกินราเมงต่อ"
 
 show shizu basic_normal
 show misha perky_smile
 with charachange
 
 # "I wait until Misha swallows what she has in her mouth before speaking again."
-""
+"ฉันรอให้มิช่ากลืนอะไรก็ตามที่อยู่ในปากนั้นจนหมดก่อนค่อยพูดอีกรอบ"
 
 # hi "You're not buttering me up to make me work with you after school?"
-hi ""
+hi "เธอไม่ได้เอาใจฉันเพื่อที่จะได้ให้ฉันไปช่วยงานพวกเธอตอนเลิกเรียนใช่ไหม"
 
 show misha hips_smile
 with charachange
 
 # mi "Nope!"
-mi ""
+mi "ไม่!"
 
 # hi "Not trying to extract information from me that I might not want to give?"
-hi ""
+hi "ไม่ได้จะรีดเค้นข้อมูลอะไรที่ฉันไม่อยากบอก?"
 
 show misha cross_smile
 with charachange
 
 # mi "Nuh-uh!"
-mi ""
+mi "ม่ายช่าย!"
 
 # hi "…Fine. You win. I guess you just wanted to eat lunch with someone as intelligent and handsome as me, then."
-hi ""
+hi "…เออ ยอม งั้นก็คงแค่อยากมากินข้าวเที่ยงด้วยกันกับคนที่ทั้งหล่อทั้งหัวดีอย่างฉันสินะ"
 
 show misha cross_grin
 with charachange
 
 # mi "That's it, Hicchan~! You got it~!"
-mi ""
+mi "ใช่แล้วฮิจัง~! ตามนั้นเลย~!"
 
 # "Shizune looks unimpressed as Misha finishes signing our conversation, and sucks in the last of a long noodle as she signs her own thoughts."
-""
+"ชิซูเนะดูจะไม่ปลื้มกับบทสนทนาของเราเมื่อได้เห็นที่มิช่าแปลให้แล้ว เธอกินเส้นราเมงยาว ๆ ที่อยู่ในปากให้หมด\nแล้วส่งภาษามือบ้าง"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Shicchan says you shouldn't be so suspicious of us~. She's just doing her duty as a class representative, after all~."
-mi ""
+mi "ชิจังบอกว่าไม่ต้องสงสัยพวกเราขนาดนั้นหรอก~ ชิจังก็แค่ทำหน้าที่ของตัวเองในฐานะหัวหน้าห้องเท่านั้นเอง~"
 
 # hi "How is she… err… are you doing that?"
-hi ""
+hi "แล้วมันเป็นการทำหน้าที่ของชิซู… เอ่อ เธอในฐานะหัวหน้าห้องยังไง"
 
 # "As much as I hate to admit it, it looks as if I still have trouble communicating with Shizune."
-""
+"ถึงจะไม่ค่อยอยากยอมรับสักเท่าไหร่ แต่ดูท่าว่าฉันจะยังมีปัญหากับการสื่อสารกับชิซูเนะอยู่"
 
 # "It should be a simple matter of keeping eye contact with her and addressing Shizune instead of Misha in my speech, but when somebody else is doing the talking for her, it's a surprisingly difficult task."
-""
+"ที่จริงก็น่าจะไม่ใช่เรื่องยาก แค่สบตากับมิช่าแล้วใช้คำพูดให้เหมือนคุยกับชิซูเนะก็พอ แต่พอมีคนพูดแทนให้ชิซูเนะ\nแล้วกลับเป็นอะไรที่ยากเหลือเชื่อ"
 
 show shizu basic_normal2
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "It's the class representative's job to ensure everybody's doing all right in class, isn't it~?"
-mi ""
+mi "หน้าที่ของหัวหน้าห้องคือการดูให้แน่ใจว่าทุกคนในห้องยังโอเคดีอยู่ไง จริงไหม~"
 
 # hi "Not… really…"
-hi ""
+hi "ไม่… น่า…"
 
 # hi "Wait, how is making me get your food ensuring that I'll go well in class?"
-hi ""
+hi "เดี๋ยว ไอ้การที่ใช้ให้ฉันไปเอาของกินให้นี่มันเกี่ยวกับความโอเคของฉันยังไง"
 
 show shizu adjust_frown
 with charachange
 
 # "Shizune huffs and adjusts her glasses disapprovingly."
-""
+"ชิซูเนะพ่นลมดังฮึแล้วดันแว่นด้วยความไม่พอใจ"
 
 show shizu behind_frown
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_frown
 with charachange
 
 # mi "So this is the thanks we get for giving you companionship during lunchtime?"
-mi ""
+mi "นี่เหรอคำขอบคุณของนายที่เราอุตส่าห์มากินข้าวเที่ยงเป็นเพื่อนน่ะ"
 
 $ renpy.music.set_volume(0.0, 3.0, channel="music")
 
 # "That's a total dodge of the question. Wait, hang on…"
-""
+"จะเลี่ยงคำถามไกลไปไหน เดี๋ยว เดี๋ยวนะ…"
 
 # hi "How did you know that I…?"
-hi ""
+hi "นี่เธอรู้ได้ไงว่าฉัน…"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "Lilly's away and Hanako is absent, and since those two are the only people you hang around with…"
-mi ""
+mi "ลิลลี่ไม่อยู่ ฮานาโกะก็ขาดเรียน แล้วคนที่นายอยู่ด้วยบ่อย ๆ ก็มีแค่สองคนนั้น เพราะงั้น…"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha cross_smile
 with charachange
 
 # mi "You also made it kind of obvious to see~…"
-mi ""
+mi "นายเองก็ออกอาการชัดเหมือนกันด้วย~…"
 
 $ renpy.music.set_volume(1.0, 3.0, channel="music")
 
 # "Ouch. I may well have done so, but she didn't need to rub it in. Maybe this is payback for before."
-""
+"โอ๊ย ก็คงออกอาการจริง แต่ไม่เห็นต้องซ้ำเติมกันอย่างนี้เลย สงสัยคงเป็นการเอาคืนที่ว่าเมื่อกี้แน่ ๆ"
 
 # hi "Right. Well, thanks. I appreciate it, and that isn't sarcasm."
-hi ""
+hi "อืม ขอบคุณนะ ขอบคุณจริง ๆ ไม่ได้ประชดด้วย"
 
 show shizu basic_normal
 show misha perky_smile
 with charachange
 
 # "The two nod, and we get back to finishing our meals. It feels a little embarrassing to be accompanied just because they noticed I was lonely, but it isn't as if they're strangers either."
-""
+"ทั้งสองคนพยักหน้า พวกเรากินมื้อเที่ยงกันต่อให้หมด แอบอายอยู่เหมือนกันที่พวกเธอมากินข้าวเป็นเพื่อนด้วย\nเพราะเห็นว่าฉันเหงา ๆ แต่ก็ใช่ว่าจะเป็นคนอื่นไกลที่ไหนนี่นะ"
 
 # "It isn't long before I finish the last of my bread and start on the last of my juice, and as I do so, I find my mind wandering back to what I'd been thinking about before the two interrupted my train of thought."
-""
+"ไม่นานฉันก็กินขนมปังหมดและดื่มน้ำผลไม้อึกสุดท้ายตาม ระหว่างนั้นก็ไพล่นึกไปถึงเรื่องที่คิดอยู่ก่อนหน้า\nที่ทั้งสองคนจะเข้ามาขัด"
 
 # "It feels like I'm the only one in the class that so much as acknowledges Hanako not being there. It felt like this the other times she skipped class, but now it's even more acutely annoying."
-""
+"รู้สึกเหมือนทั้งห้องจะมีแค่ฉันที่ใส่ใจรับรู้ว่าฮานาโกะไม่มา คราวอื่นที่ฮานาโกะขาดเรียนไปฉันก็รู้สึกแบบนี้เหมือนกัน\nแต่หนนี้ยิ่งชวนให้หงุดหงิดเป็นพิเศษ"
 
 # "Does nobody care if she's happy or not? Have they just written off any possibility of helping to make her better? Even Mutou doesn't try to keep her in class, and I'm still not wholly convinced by his reasoning."
-""
+"ไม่มีใครสนเลยเหรอว่าฮานาโกะจะเป็นตายร้ายดียังไง ทุกคนถอดใจแล้วเหรอว่ายังไงก็คงช่วยให้ฮานาโกะรู้สึกดีขึ้นไม่ได้\nแม้แต่ครูยังยอมปล่อยให้ออกห้องไปได้ง่าย ๆ และฉันก็รู้สึกว่าเหตุผลของครูยังฟังไม่ค่อยขึ้นสักเท่าไหร่"
 
 show misha perky_smile
 with charachange
 
 # mi "Hey Hicchan, is your juice past its expiry date?"
-mi ""
+mi "นี่ฮิจัง น้ำผลไม้หมดอายุแล้วเหรอ"
 
 # hi "What?"
-hi ""
+hi "ฮะ?"
 
 show misha hips_grin
 with charachange
 
 # mi "You were pulling a weird face, like this~."
-mi ""
+mi "เห็นนายทำหน้าแปลก ๆ แบบนี้~"
 
 show misha perky_confused
 show shizu adjust_happy
 with charachange
 
 # "As if it were needed, Misha mimics my own expression. Her exaggeration makes me grimace, though Shizune at least takes some amusement from it."
-""
+"มิช่าทำสีหน้าล้อกับฉันคล้ายว่าต้องทำประกอบคำพูดตัวเองด้วย ฉันหน้าเบ้ไปเมื่อเห็นมิช่าทำหน้าเวอร์ ๆ แบบนั้น\nแต่ชิซูเนะดูจะชอบใจอยู่บ้าง"
 
 # hi "I was just thinking about Hanako."
-hi ""
+hi "แค่คิดถึงเรื่องฮานาโกะอยู่น่ะ"
 
 show misha hips_smile
 with charachange
 
 # mi "Oh?"
-mi ""
+mi "อื๋อ?"
 
 show shizu basic_happy
 with charachange
 
 # "Misha's interest is piqued, and so is Shizune's, once my words are interpreted for her."
-""
+"มิช่าสนใจอยากรู้ขึ้นมา ชิซูเนะก็ไม่ต่างกันเมื่อมิช่าแปลให้แล้ว"
 
 # hi "I'm just worried about her being absent so often. Especially now, though, what with her birthday coming around."
-hi ""
+hi "แค่คิดมากที่ว่าฮานาโกะขาดเรียนไปบ่อย ๆ น่ะ ยิ่งตอนนี้ใกล้ถึงวันเกิดฮานาโกะแล้วด้วย"
 
 show misha perky_sad
 show shizu behind_sad
 with charachange
 
 # "The memories of that incident in class are still fresh in their minds. Their faces alone are telling that much."
-""
+"ความทรงจำจากเหตุการณ์ในห้องเมื่อครั้งนั้นยังชัดเจนอยู่ในใจของทั้งสองคน ดูแค่สีหน้าก็รู้แล้ว"
 
 # hi "Do you know anything about Hanako? Anything that might help?"
-hi ""
+hi "เธอพอรู้อะไรเรื่องฮานาโกะไหม แบบที่พอจะมีประโยชน์น่ะ"
 
 show misha perky_confused
 show shizu behind_blank
 with charachange
 
 # "Misha shrugs and looks to Shizune, who mulls on this for a while."
-""
+"มิช่ายักไหล่แล้วหันไปทางชิซูเนะที่ครุ่นคิดอยู่ครู่หนึ่ง"
 
 show shizu basic_normal2
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha perky_smile
 with charachange
 
 # mi "The only people she's ever talked to for more than a sentence or two are you and Lilly."
-mi ""
+mi "คนที่ฮานาโกะคุยด้วยมากกว่าประโยคสองประโยคก็มีนายกับลิลลี่นี่แหละ"
 
 # "Shizune may not be able to convey Lilly's name in a derisive tone of speech, but I feel as if it comes through in her sign language. The effect is lost, however, after Misha's interpretation."
-""
+"ชิซูเนะอาจถ่ายทอดน้ำเสียงเย้ยหยันตอนพูดชื่อลิลลี่ไม่ได้ก็จริง แต่เหมือนจะสัมผัสได้ผ่านภาษามืออยู่\nซึ่งความรู้สึกส่วนนั้นหายไปเมื่อมิช่าแปลออกมาแล้ว"
 
 show shizu behind_blank
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "There are a couple of things we know about Hanako as Student Council members, thanks to the records that pass through our hands, but we can't say anything about what's in them."
-mi ""
+mi "มีอยู่อย่างสองอย่างเรื่องฮานาโกะที่เราในฐานะสภานักเรียนรู้เพราะได้เห็นบันทึกข้อมูลที่ผ่านมือเรามา แต่เรา\nจะบอกไม่ได้ว่าในนั้นมีอะไรบ้าง"
 
 # hi "Understandable."
-hi ""
+hi "เข้าใจได้"
 
 # "It sounds a lot like the nurse's “patient confidentiality.” Every time I find someone that knows something about Hanako's past, it turns up being a dead end."
-""
+"ฟังดูเหมือนหลัก “ความลับของคนไข้” ของคุณพยาบาลมาก ๆ ทุกครั้งที่เจอคนที่รู้เรื่องอดีตของฮานาโกะ\nก็กลายเป็นว่าต้องเจอกับทางตันแทน"
 
 # "The only way I'll ever find out is by asking her. I don't know if she'll let me know such things, but if it's for her sake, I have to at least try."
-""
+"ทางเดียวที่จะรู้ได้คือต้องถามฮานาโกะ ไม่รู้ว่าจะยอมบอกหรือเปล่า แต่ต้องลองสักตั้ง เพื่อตัวของเธอเอง"
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "Don't worry about it, Hicchan~. It happens every year, after all~."
-mi ""
+mi "อย่าคิดมากน่าฮิจัง~ ก็เป็นแบบนี้ทุกปีนั่นแหละ~"
 
 # "That doesn't remove my sense of worry at all. I still feel a little at fault for what happened in class, but this feels like it goes further, even without their confirmation of that fact."
-""
+"ไม่ได้ช่วยให้หายกังวลเลย ยังรู้สึกผิดอยู่หน่อย ๆ กับเรื่องที่เกิดขึ้นในห้องวันนั้น แต่เหมือนว่าจะต้องมีอะไรที่ลึกลงไป\nกว่านั้น ถึงจะยังไม่ได้รับการยืนยันก็เถอะ"
 
 show misha perky_confused
 show shizu behind_blank
 with charachange
 
 # "Misha notes my troubled expression, her own usually happy and reassuring face dropping."
-""
+"มิช่าเห็นว่าฉันทำหน้าเครียด สีหน้าสุขใจชวนให้สบายใจอย่างทุกทีหายไป"
 
 # mi "Everyone has problems they have to deal with, right, Hicchan?"
-mi ""
+mi "ทุกคนต่างก็มีปัญหาของตัวเองที่ต้องรับมือกันทั้งนั้นแหละ จริงไหมฮิจัง"
 
 # hi "Yeah. I just wish I could help Hanako more with hers."
-hi ""
+hi "อืม แค่ว่าอยากช่วยอะไรให้มันได้มากกว่านี้น่ะ"
 
 # "With that, the conversation trails off on a depressing note."
-""
+"แล้วบทสนทนาก็ปิดท้ายไปด้วยความหม่นหมอง"
 
 stop music fadeout 4.0
 
@@ -450,10 +440,10 @@ show misha hips_grin
 with charachange
 
 # "Eventually Misha manages to pick the mood back up through her usual bright and bubbly antics, but my mind remains focused on Hanako."
-""
+"สุดท้ายมิช่าก็กลับมาทำตัวสดใสร่าเริงตามปกติได้ แต่ในใจฉันยังวนอยู่กับเรื่องฮานาโกะ"
 
 # "I'll go check on her later."
-""
+"ไว้ไปแวะหาแล้วกัน"
 
 stop ambient fadeout 1.0
 
@@ -461,13 +451,13 @@ scene bg school_dormhallway
 with shorttimeskip
 
 # "I make sure my door is locked after dropping off my school bag."
-""
+"เมื่อวางกระเป๋าลงแล้วฉันก็ดูให้แน่ใจว่าล็อกประตูแล้ว"
 
 # "The dorms are quiet. Mutou kept me occupied longer than I expected, discussing my studies after classes ended and pressing on me some worksheets to give to Hanako almost as an afterthought."
-""
+"ในหอนั้นเงียบเชียบ ครูรั้งฉันไว้นานกว่าที่คาดโดยคุยเรื่องการเรียนหลังเลิกเรียนแล้วและฝากใบงานให้ฮานาโกะ\nเหมือนเพิ่งนึกขึ้นได้"
 
 # "Absorbed in thought, I'm late in registering the shadow that appears in front of me. Looking up reveals the owner of said shadow."
-""
+"ฉันจมอยู่กับความคิดจนไม่ทันได้รับรู้ถึงเงาที่ปรากฏอยู่ต่อหน้าฉัน พอเงยหน้ามองก็เห็นเจ้าของเงานั้น"
 
 show kenji happy at center
 with charaenter
@@ -475,233 +465,233 @@ with charaenter
 play music music_kenji fadein 0.5
 
 # ke "Hey, man. Haven't seen you in a while."
-ke ""
+ke "ไงพวก ไม่เจอกันนานเลยนะ"
 
 # hi "Oh. Hi."
-hi ""
+hi "อ้าว ไง"
 
 show kenji tsun
 with charachange
 
 # ke "What's with that response?"
-ke ""
+ke "ตอบแบบนั้นคืออะไร"
 
 # "My absentminded greeting visibly annoys him. I'd probably have had the same reaction."
-""
+"ชัดว่าเคนจิหงุดหงิดที่ฉันตอบไปเหม่อ ๆ แบบนั้น เป็นฉันก็คงหงุดหงิดเหมือนกัน"
 
 # hi "Sorry, just thinking about a lot of stuff."
-hi ""
+hi "ขอโทษที พอดีคิดอะไรหลายอย่าง"
 
 # ke "“Thinking” is a pretty poor excuse to not be aiding the war effort."
-ke ""
+ke "“คิด” นี่ไม่ใช่ข้ออ้างที่จะไม่ไปช่วยรบที่ดีเลยนะ"
 
 # hi "And how goes the war?"
-hi ""
+hi "แล้วสงครามเป็นไงบ้าง"
 
 show kenji neutral
 with charachange
 
 # ke "I am preparing. Right now I need money to help with those preparations."
-ke ""
+ke "กำลังเตรียมการอยู่ ตอนนี้ฉันต้องการเงินเพื่อไปใช้กับการเตรียมการพวกนั้น"
 
 # hi "If you want me to loan you money, just say it."
-hi ""
+hi "จะมาขอยืมเงินก็บอกมาเหอะ"
 
 show kenji happy
 with charachange
 
 # ke "No man, I'm good."
-ke ""
+ke "ไม่ละ ไม่เป็นไร"
 
 # hi "You're… good? You don't want my money?"
-hi ""
+hi "ไม่… เป็นไร? ไม่เอาเงินฉันเหรอ"
 
 show kenji tsun
 with charachange
 
 # ke "Hey man, don't look so surprised. It's insulting."
-ke ""
+ke "เฮ้ยพวก ไม่เห็นต้องตกใจขนาดนั้นเลย โกรธนะเนี่ย"
 
 show kenji neutral
 with charachange
 
 # ke "I'm pretty big in the competitive bowling scene, but yesterday, I found some guys who didn't know that."
-ke ""
+ke "ฉันมีชื่อในวงการโบว์ลิงอยู่พอสมควรเลยนะ แต่เมื่อวานเจอกับคนที่ไม่รู้ว่าใครใหญ่ว่ะ"
 
 # hi "I'm fairly sure that betting would be against the school rules…"
-hi ""
+hi "เหมือนว่าการพนันมันผิดกฎโรงเรียนนะ…"
 
 show kenji tsun
 with charachange
 
 # ke "School rules don't matter; this is a war situation. People these days, they have no appreciation for what war means."
-ke ""
+ke "กฎโรงเรียนไม่สำคัญหรอก นี่น่ะคือภาวะสงคราม คนสมัยนี้ไม่รู้จักคำว่าสงครามกันดีเท่าไหร่แล้ว"
 
 # hi "So what do you need this money for, dare I ask?"
-hi ""
+hi "งั้นขอเรียนถามหน่อยว่าจะเอาเงินก้อนนี้ไปทำอะไร"
 
 show kenji neutral
 with charachange
 
 # ke "Non-perishable canned food. Building materials; mostly corrugated iron and wood panels. First aid kit. Camping heater. Portable radio. Sleeping bag. Flashlight. Mechanical clock."
-ke ""
+ke "อาหารกระป๋องที่เสียยาก วัสดุสำหรับการก่อสร้าง หลัก ๆ ก็แผ่นเหล็กลูกฟูกกับแผ่นไม้ ชุดปฐมพยาบาล ฮีตเตอร์\nสำหรับการตั้งแคมป์ วิทยุพกพา ถุงนอน ไฟฉาย นาฬิกาแบบใช้เฟือง"
 
 # "At first it strikes me as a rather random assortment of objects and materials, but after a few seconds, it clicks."
-""
+"แวบแรกก็รู้สึกว่าเป็นแค่วัตถุกับวัสดุที่มาคละรวม ๆ กัน แต่ผ่านไปสองสามวินาทีถึงร้องอ๋อ"
 
 # hi "Isn't that a list of materials for a fallout shelter?"
-hi ""
+hi "นี่มันรายการของที่ต้องใช้กับที่กำบังฝุ่นกัมมันตรังสีนี่"
 
 show kenji happy
 with charachange
 
 # ke "Ah, so you've read a Protect and Survive booklet. It's good to see someone so knowledgeable about how to protect themselves."
-ke ""
+ke "อ้อ นายเองก็อ่านจุลสาร{i}โพรเทกต์แอนด์เซอร์ไวฟ์{/i}เหมือนกันสินะ ดีใจจริง ๆ ที่เห็นคนรู้เรื่องการเอาตัวรอด\nดีอย่างนี้"
 #"Protect and Survive" is British stuff from the eighties. Thus I'm deeming it entirely suitable as a reference work for Kenji in 2010 Japan. Bravo. :3. -SC
 
 # hi "You don't seriously think…"
-hi ""
+hi "นี่นายคงไม่ได้คิดจะ…"
 
 show kenji neutral
 with charachange
 
 # ke "It's a non-zero possibility."
-ke ""
+ke "แต่ความเป็นไปได้ก็ไม่ใช่ศูนย์เลยสักหน่อย"
 
 # hi "No, I'm pretty sure there's zero possibility of that ever happening."
-hi ""
+hi "ไม่อะ ฉันว่าความเป็นไปได้ที่จะเกิดเรื่องนั้นมันเป็นศูนย์แหละ"
 
 show kenji happy
 with charachange
 
 # "He slowly and dramatically raises an eyebrow. Well, as dramatically as one can raise an eyebrow."
-""
+"เคนจิเลิกคิ้วขึ้นแบบเล่นใหญ่ เอ่อ ก็เล่นใหญ่เท่าที่คนเราจะเลิกคิ้วได้อะนะ"
 
 # hi "The chance is, I don't know, zero point one to the trillionth place. It's infinitesimal. Besides, where can you build a fallout shelter anyway? Certainly not on campus."
-hi ""
+hi "ความเป็นไปได้มันเท่ากับ ไม่รู้สิ หนึ่งในล้านล้านมั้ง น้อยแบบเป็นค่าที่เข้าใกล้ศูนย์มาก ๆ น่ะ อีกอย่าง จะไปสร้าง\nที่กำบังฝุ่นกัมมันตรังสีตรงไหน ไม่ใช่ในโรงเรียนแน่ ๆ ละ"
 
 show kenji neutral
 with charachange
 
 # ke "It's my summer holiday project while I'm at home. My dad said I can do it."
-ke ""
+ke "เป็นโครงการปิดเทอมฤดูร้อนของฉันตอนอยู่บ้านไง พ่ออนุญาตด้วย"
 
 # hi "Really?"
-hi ""
+hi "จริงเหรอ"
 
 # ke "Yeah. He thought it'll improve my crafting skills and manual dexterity. Or something."
-ke ""
+ke "ใช่ พ่อบอกว่าทักษะการประดิษฐ์กับความคล่องแคล่วงของมือจะได้พัฒนาขึ้น หรืออะไรประมาณนั้นแหละ"
 
 # "Knowing Kenji, his dad probably just thought it might keep him out of his hair for a while."
-""
+"ดูจากท่าทางเคนจิแล้วพ่อเขาคงแค่อยากปัดให้พ้นรำคาญไปพักหนึ่ง"
 
 # "Still, it does make me wonder what his parents are like. Maybe they're totally normal, and Kenji is just an aberration. On the other hand, maybe this kind of paranoia and fearful survivalism runs in the family."
-""
+"แต่พ่อแม่เขาจะเป็นคนยังไงกันนะ อาจจะเป็นคนปกติแต่เคนจิเป็นความไม่ปกติก็ได้ หรือไม่ก็อาจจะหวาดระแวง\nคอยคิดแต่เรื่องเอาตัวรอดแบบนี้กันทั้งบ้าน"
 
 show kenji happy
 with charachange
 
 # ke "Hey, want to help me build it? You look like the type to be handy with tools. If I had your help, we could make a really badass bunker instead of just a fallout shelter."
-ke ""
+ke "นี่ จะมาช่วยสร้างมั้ย นายดูเป็นคนถนัดเรื่องเครื่องมืดดีนะ ถ้านายมาช่วยเราก็จะได้สร้างหลุมหลบภัยเจ๋ง ๆ\nแทนที่จะเป็นแค่ที่กำบังฝุ่นกำมันตรังสีไง"
 
 # "I doubt that. Playing soccer before my accident gave me good footwork, but I've never really tried my hand at anything approaching real handiwork."
-""
+"เหรอวะ ฉันได้ฝึกฝีเท้าจากการเล่นฟุตบอลเมื่อครั้งก่อนเกิดอุบัติเหตุครั้งนั้นก็จริง แต่ไม่เคยทำอะไรที่เป็นงานฝีมือ\nจริง ๆ เลย"
 
 # hi "I'm not, really. I'm busy over the holidays anyway, I'm afraid."
-hi ""
+hi "ไม่อะ ไม่เลย แล้วเกรงว่าตอนปิดเทอมฉันจะยุ่งด้วย"
 
 show kenji tsun
 with charachange
 
 # ke "A shame. If the feminists ever get a hold of the launch codes, I fear that so few will be prepared."
-ke ""
+ke "น่าเสียดาย ถ้าพวกสตรีนิยมได้รหัสยิงนิวเคลียร์แล้วละก็คงมีไม่กี่คนเท่านั้นที่เตรียมตัวพร้อมแล้ว"
 
 # hi "And your fallout shelter will protect you from a nuclear bomb explosion, in the case that this does happen?"
-hi ""
+hi "แล้วที่กำบังฝุ่นกำมันตรังสีของนายก็จะปกป้องนายจากระเบิดนิวเคลียร์ได้ถ้าเหตุการณ์นั้นเกิดขึ้นจริง?"
 
 # ke "A fallout shelter isn't meant to protect against the blast. That's what a blast shelter is for."
-ke ""
+ke "ที่กำบังฝุ่นใช้กันแรงระเบิดไม่ได้ อันนั้นต้องเป็นที่กำบังแรงระเบิดต่างหาก"
 
 # ke "I thought you knew better."
-ke ""
+ke "เรื่องแค่นี้นายน่าจะรู้สิ"
 
 # hi "My mistake…"
-hi ""
+hi "ขอโทษที…"
 
 show kenji neutral
 with charachange
 
 # ke "My home's pretty far away from any major military sites, so the fallout following a nuclear exchange is a bigger concern than the blast itself."
-ke ""
+ke "บ้านฉันอยู่ไกลจากฐานที่มั่นทางการทหารใหญ่ ๆ มาก เพราะงั้นเรื่องที่น่าเป็นกังวลกว่าคือฝุ่นกัมมันตรังสี\nจากสงครามนิวเคลียร์ ไม่ใช่แรงระเบิด"
 
 show kenji happy
 with charachange
 
 # ke "What this'll do is keep the dust and other particulates away from me, my food supply, and my sleeping area. It's gotta last me at least fourteen days, though."
-ke ""
+ke "ที่กำบังจะกันฝุ่นกับอนุภาคอื่น ๆ ไม่ให้มาถูกตัวฉัน เสบียงฉัน ที่นอนฉัน แต่อย่างน้อยต้องอยู่ให้ได้ครบสี่สิบวัน"
 
 # hi "Fourteen days is a pretty long time."
-hi ""
+hi "สี่สิบวันก็นานเหมือนกันนะ"
 
 show kenji neutral
 with charachange
 
 # ke "It is. I need one liter of water a day for drinking, two optimally so that I can wash as well. Toiletry is easy enough; just garbage bags and a bin placed outside the shelter area. Food means canned supplies, of course."
-ke ""
+ke "นาน ฉันต้องเตรียมน้ำวันละหนึ่งลิตรไว้สำหรับดื่ม อย่างดีก็วันละสองเพื่อจะได้เอามาใช้ล้างเนื้อตัวด้วย\nเรื่องทำธุระส่วนตัวก็ไม่ยาก แค่ใส่เตรียมถังกับถุงขยะไว้นอกบริเวณที่กำบังก็พอ และแน่นอนว่ากินอาหารกระป๋อง"
 
 # hi "Of course. And the radio is for outside communication?"
-hi ""
+hi "อืมฮึ แล้ววิทยุก็เอาไว้รับส่งข่าวคราวสินะ"
 
 # ke "Right, right. So I can pick up government alerts on what's going on outside. I need a mechanical clock rather than an electric one in case the electromagnetic pulse from a nuclear airburst fries it, too."
-ke ""
+ke "ใช่ ๆ จะได้รู้ว่าข้างนอกเกิดอะไรขึ้นบ้างจากประกาศของทางรัฐบาล ฉันต้องใช้นาฬิกาแบบเฟือง ไม่ใช่แบบใช้ไฟฟ้า\nเผื่อว่ามีนิวเคลียร์ระเบิดกลางอากาศแล้วมีคลื่นแม่เหล็กไฟฟ้ามาทำระบบไฟฟ้าพังด้วย"
 
 # ke "There's all the other stuff I need as well, like extra clothing, matches, and candles. I think I still have time to gather it all, though. Maybe."
-ke ""
+ke "แล้วก็มีของอย่างอื่นที่ฉันต้องใช้อีก เช่นเสื้อผ้าสำรอง ไม้ขีดไฟ เทียน แต่ฉันว่ายังมีเวลาให้เตรียมทันอยู่ น่าจะนะ"
 
 # "As much as I hate to say it, I'm a little impressed. He's really researched this and thought it through. Then again, I don't know if I want to live in a post-apocalyptic world with only people like Kenji having survived."
-""
+"ถึงจะไม่ค่อยอยากยอมรับเท่าไหร่ แต่ประทับใจหน่อย ๆ อยู่ที่เคนจิค้นคว้าเรื่องนี้มาแบบทะลุปรุโปร่ง แต่ก็นะ\nไม่รู้เหมือนกันว่าฉันจะอยากอยู่ในโลกหลังการล่มสลายที่มีแต่คนอย่างเคนจิเหลือรอดหรือเปล่า"
 
 # hi "It sounds like you really know what you're doing."
-hi ""
+hi "ฟังดูรู้ดีจังเลยนะ"
 
 show kenji happy
 with charachange
 
 # ke "Damn right I do."
-ke ""
+ke "รู้สิวะ"
 
 # "It must be hard, living in constant fear like this. He hardly ever socializes either, so the fact he went bowling with others is in itself something of a surprise."
-""
+"คงลำบากมากที่ต้องอยู่อย่างหวาดกลัวตลอดอย่างนี้ ปกติก็แทบไม่ได้ปฏิสัมพันธ์กับใครด้วย ฉันจึงนึกแปลกใจอยู่\nที่เคนจิไปโบว์ลิงกับคนอื่น"
 
 # "This mentality reminds me a little of a certain someone. Thankfully, her fear of others doesn't manifest in such a distinctly eccentric way."
-""
+"ความคิดแบบนี้ทำให้ฉันนึกถึงใครบางคนขึ้นมา ซึ่งโชคยังดีที่ความกลัวผู้คนของเธอนั้นไม่ได้มาในรูปแบบ\nที่พิลึกกึกกือเช่นนี้"
 
 # "One thing I know for sure is that I certainly can't tell him exactly why I haven't been hanging around with him much recently."
-""
+"แต่ที่แน่ ๆ คือฉันจะบอกเคนจิไม่ได้ว่าเพราะอะไรช่วงนี้ฉันถึงไม่ค่อยได้เจอหน้าเขา"
 
 # hi "It's late. I have stuff to do. I'll think about making a fallout shelter or something, though."
-hi ""
+hi "เย็นแล้ว เดี๋ยวฉันมีธุระอีก แต่จะเก็บเรื่องการสร้างที่กำบังฝุ่นกำมันตรังสีอะไรนั่นไปคิดแล้วกัน"
 
 show kenji neutral
 with charachange
 
 # ke "Yeah, all right, that's cool. A man has to do what he's gotta do, after all."
-ke ""
+ke "เออ ได้ ๆ เยี่ยม ลูกผู้ชายย่อมต้องทำตามหน้าที่นี่นะ"
 
 # ke "You should hang out with me sometime, by the way. You're a cool dude. Cool dudes should hang out together, right?"
-ke ""
+ke "จะว่าไป ไว้ว่าง ๆ ไปเที่ยวกับฉันบ้างนะ นายเจ๋งดี คนเจ๋ง ๆ ต้องอยู่ด้วยกันสิ จริงไหม"
 
 # "For some reason, that compliment actually feels kinda nice. The situation with Hanako being what it is, though, means that I probably won't be able to fulfill his request. For now, at least."
-""
+"ไม่รู้ทำไม แต่คำชมนั้นทำให้ฉันดีใจอยู่เหมือนกัน แต่เนื่องด้วยสถานการณ์ที่ฮานาโกะเป็นอย่างนี้ก็แปลว่าฉันคง\nทำตามคำขอเคนจิไม่ได้ อย่างน้อยก็สักพัก"
 
 # hi "That'd be good. I'll talk to you later about it when I can."
-hi ""
+hi "ก็ดี ไว้มีเวลามาคุยกัน"
 
 show kenji happy
 with charachange
 
 # ke "Cool. Later, dude."
-ke ""
+ke "เจ๋ง เจอกันพวก"
 
 stop music fadeout 3.0
 
@@ -709,10 +699,10 @@ hide kenji
 with charaexit
 
 # "He retreats to his dormitory room."
-""
+"เคนจิล่าถอยกลับไปที่ห้องตัวเอง"
 
 # "I had better go see Hanako."
-""
+"ไปแวะหาฮานาโกะดีกว่า"
 
 stop ambient fadeout 1.0
 
@@ -726,36 +716,36 @@ show hanako_door_door at left
 with locationskip
 
 # "I stand outside of the door to Hanako's room, hoping that she isn't in too much of a state as I nervously clutch the worksheets Mutou asked me to pass on to her."
-""
+"ฉันยืนอยู่หน้าห้องฮานาโกะพลางหวังว่าเธอจะไม่เป็นอะไรมากโดยในมือกำใบงานที่ครูฝากมาอย่างประหม่า"
 
 # "It's one more reason to visit her, and it gives me something to talk about, so I suppose I should be thankful to him for giving me the task."
-""
+"เป็นอีกสาเหตุที่ต้องมาหาด้วย และจะได้มีเรื่องคุย เพราะงั้นก็คงต้องขอบคุณครูที่ฝากฉันมา"
 
 play sound sfx_doorknock2
 
 # "With a long breath to steady myself, I rap my knuckles on the door in front of me."
-""
+"ฉันสูดหายใจลึก ๆ ตั้งสติแล้วเคาะประตูตรงหน้า"
 
 # "…Silence. I listen intently for any sound of shuffling coming from inside, but I can't hear a thing."
-""
+"…เงียบ ฉันเงี่ยหูฟังว่าพอจะมีเสียงอะไรขยับหรือเปล่า แต่ก็ไม่ได้ยินอะไร"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="sound")
 play sound sfx_hammer
 
 # "I knock on the door again, slightly harder."
-""
+"ฉันเคาะประตูอีกครั้งให้หนักมือขึ้นอีกเล็กน้อย"
 
 # "Still no answer. How strange."
-""
+"ไม่มีเสียงตอบรับ แปลกแฮะ"
 
 # "Scratching my head, I make one last attempt at getting her to answer as I knock on the door one final time."
-""
+"ฉันเกาหัวแกรก ๆ พลางลองเคาะเรียกให้ฮานาโกะตอบเป็นครั้งสุดท้าย"
 
 # hi "Hanako, it's just me. Mutou said to give you some stuff."
-hi ""
+hi "ฮานาโกะ ฉันเอง ครูฝากเอกสารมาให้แน่ะ"
 
 # "For a while, the attempt seems just as unsuccessful as the last. Just before I slip the sheets under her door, though, I hear the handle rattling."
-""
+"ความเงียบซึ่งบ่งบอกว่าความพยายามนั้นล้มเหลวไม่ต่างจากครั้งก่อนนั้นตามมาอยู่ชั่วขณะ แต่จังหวะที่ฉันกำลังจะสอด\nแผ่นกระดาษเข้าทางช่องตีนประตูก็ได้ยินเสียงลูกบิดขยับ"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 play sound sfx_dooropen
@@ -767,64 +757,64 @@ with charamove
 play music music_moonlight fadein 4.0
 
 # "As the door opens halfway, I quickly try to see how Hanako's faring. It's a task made somewhat more difficult by her oversized gown hiding so much of her body."
-""
+"ประตูเปิดออกกึ่งหนึ่ง ฉันรีบมองสำรวจสภาพฮานาโกะ ซึ่งก็มองยากเพราะเสื้อคลุมที่หลวมโพรกนั้นปกปิด\nร่างกายเธอไปเสียเกือบหมด"
 
 # "She doesn't look sick, or at least not immediately so. To be honest, I'd have preferred that to her expression right now. She looks terribly tired, and appears to be barely acknowledging my presence."
-""
+"ฮานาโกะดูจะสบายดี อย่างน้อยก็ด้วยสภาพร่างกายน่ะนะ แต่ว่าตามตรง ฉันยอมเห็นฮานาโกะตอนไม่สบายดีกว่า\nต้องมาเห็นสีหน้าของฮานาโกะตอนนี้ เธอดูอิดโรย และเหมือนแทบจะไม่รับรู้ถึงตัวตนฉันแล้ว"
 
 # hi "Hi, Hanako. Mutou wanted me to give you these since you weren't in class today."
-hi ""
+hi "ไง ฮานาโกะ พอดีวันนี้เธอไม่ได้เข้าเรียน ครูเลยฝากอันนี้มาให้"
 
 # "I hold out the loose sheets, which she tentatively takes in her hands. The way she moves is devoid of thought. Her posture is slumped, in an unusual manner for someone that's so often tense and wound up."
-""
+"ฉันยื่นแผ่นกระดาษให้ ฮานาโกะก็รับไปแบบอึก ๆ อัก ๆ ท่าทางการขยับตัวของเธอนั้นดูเหมือนไม่ได้มีความตั้งใจอะไร\nท่าทีอ่อนล้าผิดวิสัยคนที่ปกติจะเกร็งตัวยึดอยู่บ่อย ๆ"
 
 show hanagown distant_close
 with charachange
 
 # "Even her eyes keep looking away from mine, doing their best to avoid eye contact. I move my head a little to try and get a better look, but she just ends up turning away."
-""
+"ฮานาโกะยังเอาแต่เสตามองทางอื่นไม่ยอมสบตาสุดความสามารถ ฉันชะเง้อหัวเพื่อดูให้เต็มตาอีกหน่อย ทว่าเธอ\nก็หันหน้าหนีไป"
 
 # hi "Are you… okay? If you're feeling sick or anything, I could go get a nurse."
-hi ""
+hi "ไหว… หรือเปล่า ถ้าไม่สบายหรืออะไรให้ฉันเรียกพยาบาลมาก็ได้นะ"
 
 # "It feels almost pitiful to put on such a routine “get well soon” act. I can't think of anything else I could possibly do for her, though."
-""
+"พอมาทำตัวแบบ “หายไว ๆ นะ” อย่างนี้แล้วก็รู้สึกสมเพชเหมือนกัน แต่ก็ไม่รู้แล้วว่าจะทำยังไงให้ฮานาโกะดีขึ้นได้อีก"
 
 show hanagown normal_close
 with charachange
 
 # "She seems to collect herself a little at the notion… but only a little. Her head remains turned away, but her eyes move towards me."
-""
+"ฮานาโกะดูจะใจเย็นลงเมื่อพิจารณาตัวเลือกนั้น… แต่ก็เย็นลงแค่นิดหน่อย เธอยังคงหันหน้าหนีอยู่เหมือนเดิม\nแต่ตาเธอมองมาที่ฉัน"
 
 # ha "I'm fine."
-ha ""
+ha "ฉันสบายดี"
 
 # "An awkward silence follows. As it lingers, I notice that the sleeves and the cuffs of her gown bear slightly damp stains. Her cheeks are a bit red, too. Has she been crying?"
-""
+"และความเงียบอันน่าอึดอัดก็ตามมา ระหว่างที่เงียบกันไปนั้นฉันก็เห็นว่าแขนเสื้อกับปลายแขนเสื้อชุดนอนนั้น\nมีรอยเปียก ๆ อยู่ แก้มก็แดง ๆ ด้วย ร้องไห้มาเหรอเนี่ย"
 
 # hi "I see."
-hi ""
+hi "เข้าใจละ"
 
 # "I hesitate a little before coming out with the words I really came here to say."
-""
+"ฉันลังเลอยู่เล็กน้อยก่อนจะพูดในสิ่งที่ฉันตั้งใจจะมาพูด"
 
 # hi "Would you like me to stay? I don't have anything urgent to do at the moment, so it wouldn't be any trouble."
-hi ""
+hi "อยากให้อยู่เป็นเพื่อนไหม ตอนนี้ฉันก็ไม่มีอะไรเร่งด่วนที่ต้องทำ ไม่เป็นการรบกวนฉันหรอก"
 
 show hanagown distant_close
 with charachange
 
 # "Her eyes slide away from me, and I lose any hope for an improvement of her mood. I wait for a response, but she doesn't say anything, nor give any kind of gesture. She just stands there, looking away from me."
-""
+"ฮานาโกะเสตาหนีไปจนฉันหมดหวังที่จะทำให้เธอรู้สึกดีขึ้นได้ ฉันรอคำตอบทว่าเธอก็ไม่พูดหรือมีท่าทีอะไร\nแค่ยืนอยู่เฉย ๆ ไม่มองหน้ากัน"
 
 # hi "Hanako…?"
-hi ""
+hi "ฮานาโกะ…?"
 
 # "She slowly shakes her head."
-""
+"เธอสั่นหัวช้า ๆ"
 
 # hi "Okay. Um… good night, then."
-hi ""
+hi "โอเค เอ่อ… งั้นก็ราตรีสวัสดิ์"
 
 stop music fadeout 3.0
 
@@ -835,10 +825,10 @@ with charamove
 play sound sfx_doorclose
 
 # "With that, Hanako steps back and closes her door without a second word."
-""
+"แล้วฮานาโกะก็ถอยกลับเข้าห้องไปแล้วปิดประตูไม่พูดอะไรอีก"
 
 # "More than a little worried, I retreat back to my room."
-""
+"ฉันกลับมาที่ห้องตัวเองพร้อมความกังวลที่ไม่น้อยเลย"
 
 # Timeskip
 scene bg school_dormhallway
@@ -848,13 +838,13 @@ $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_footsteps_hard
 
 # "Wandering up the hallway, I keep mulling over what happened. It felt like Hanako was only half there, as if I was interacting with a robot that was just doing what it was programmed to without any real thought."
-""
+"ฉันเดินไปตามโถงทางเดินพลางคิดถึงเหตุการณ์นั้น เหมือนจิตใจฮานาโกะไม่ได้อยู่กับตัว ราวกับว่าฉันกำลังปฏิสัมพันธ์\nอยู่กับหุ่นยนต์ที่ทำตามแค่สิ่งที่ได้รับการตั้งค่ามาให้ทำอย่างไม่คิดอะไรเลย"
 
 # "She was a husk of a person."
-""
+"ฮานาโกะเป็นเพียงเปลือกที่ว่างเปล่า"
 
 # "This is frustrating. I had hoped that meeting Hanako would help the situation, but I feel like it's only made it harder to understand her. How am I supposed to try and help her when she quite literally shuts me out like that?"
-""
+"หงุดหงิดชะมัด ก็คิดว่าถ้าได้เจอฮานาโกะแล้วอะไร ๆ จะดีขึ้นเสียอีก แต่เหมือนจะยิ่งทำให้ฉันเข้าใจเธอได้ยากไปอีก\nถ้ากีดกันกันแบบนี้แล้วฉันจะช่วยได้ยังไง"
 
 stop ambient fadeout 0.3
 
@@ -862,7 +852,7 @@ scene bg school_dormhisao_ni
 with locationchange
 
 # "I don't even bother to turn on the light, opting instead to simply change into my pajamas, quickly choke down my evening pills, and collapse onto my bed."
-""
+"ฉันไม่มีแก่ใจจะเปิดไฟในห้อง จึงเพียงเปลี่ยนเสื้อผ้าเป็นชุดนอนและกรอกยารอบเย็นเข้าปากแล้วล้มตัวลงกับที่นอน"
 
 scene black
 with shuteye
