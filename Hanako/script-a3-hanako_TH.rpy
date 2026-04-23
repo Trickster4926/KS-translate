@@ -7086,7 +7086,7 @@ show hanako basic_worry_cas
 with charachange
 
 # ha "Wh-who'll… b-break?"
-ha "คะ-ใครจะ… แทงเปิดดี"
+ha "คะ-ใครจะ… ทะ-แทงเปิดดี"
 
 # "I think for a moment before reaching into my pocket and drawing a coin."
 "ฉันคิดอยู่ครู่หนึ่งก่อนล้วงกระเป๋าควักเหรียญออกมา"
@@ -7464,7 +7464,7 @@ ha "อ๊ะ…"
 "ฮานาโกะเห็นสิ่งที่เกิดขึ้นตรงหน้าพร้อม ๆ กันกับฉัน ลูกลายลูกนั้นที่ฉันหมายจะให้ลงหลุมโดนชนเข้าไปเต็มแรง\nแล้วไหลไปทางลูกหมายเลข 8"
 
 # "Sure enough, as both Hanako and I look on and bite our lips, they connect and the black ball rolls leisurely into a corner pocket."
-"ไม่ผิดดังคาด ฮานาโกะกับฉันยืนกัดปากมองภาพนั้น ทั้งสองลูกชนกันจนลูกสีดำกลิ้งลงหลุมมุมไป"
+"ไม่ผิดดังคาด ฮานาโกะกับฉันยืนกัดปากมองภาพนั้น ทั้งสองลูกชนกันจนลูกสีดำกลิ้งเอื่อย ๆ ลงหลุมมุมไป"
 
 show hanako basic_smile_cas
 with charachange
