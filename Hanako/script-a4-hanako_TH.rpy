@@ -1306,44 +1306,44 @@ play sound sfx_hammer
 play music music_tragic fadein 0.5
 
 # "I rap my knuckles thrice on Hanako's door. As expected, there's no answer. I briefly consider knocking again, but I know full well that I'd get just the same result if I did."
-""
+"ฉันเคาะประตูห้องฮานาโกะสามครั้ง ไม่มีเสียงตอบรับตามคาด ฉันนึกชั่งใจครู่หนึ่งว่าจะเคาะอีกครั้งดีไหม แต่ก็รู้ดี\nว่าต่อให้เคาะไปก็คงได้ผลอย่างเดิม"
 
 # "Resting my hand on Hanako's door handle, I try and prepare what I want to say to her. Try as I might, I can't really think of anything worth saying. I want to comfort her, yes, but I have no idea how to do that."
-""
+"ฉันจับมือจับประตูห้องฮานาโกะพลางคิดเตรียมไว้ว่าจะพูดอะไรกับเธอดี แต่เค้นสมองเท่าไหร่ก็นึกเรื่องที่จะพูดไม่ออก\nจริงอยู่ว่าฉันอยากปลอบเธอ แต่ก็ไม่รู้ว่าจะต้องทำอย่างไร"
 
 # "That alone is almost enough to stop me. I told Lilly that I would, though, so I feel I have to follow through, whether I'm confident about it or not."
-""
+"คิดแค่นั้นฉันก็ไม่อยากไปต่อแล้ว แต่ในเมื่อบอกลิลลี่ไปแล้วฉันก็ต้องไปให้สุดทาง ไม่ว่าจะแน่ใจหรือไม่ก็ตาม"
 
 # "I turn the handle downwards, with a large amount of hesitation. It doesn't move far though, due to the door being locked."
-""
+"ฉันบิดมือจับลงทั้งที่ในใจยังเต็มไปด้วยความลังเล แต่ก็บิดได้ไม่มากเพราะประตูล็อกไว้"
 
 # hi "Hanako…"
-hi ""
+hi "ฮานาโกะ…"
 
 # "So she really has locked me out. After everything that happened between us, and the time that we spent together… she's shut me out completely."
-""
+"ก็คือกีดฉันออกแล้ว ทุกเหตุการณ์ที่เราผ่านมาด้วยกัน ช่วงเวลาที่เราได้อยู่ด้วยกัน… เธอกลับปิดกั้นฉันไปโดยสมบูรณ์"
 
 # hi "Um… I don't know if you can hear me, but…"
-hi ""
+hi "เอ่อ… ไม่รู้ว่าเธอได้ยินหรือเปล่า แต่ว่า…"
 
 # hi "I just want to talk to you a bit. If you can hear me, could you unlock the door?"
-hi ""
+hi "ฉันอยากคุยกับเธอหน่อย ถ้าได้ยินก็มาเปิดประตูให้หน่อยได้ไหม"
 
 with Pause(4.0)
 
 play sound sfx_lock
 
 # "I wait in silence. Minutes pass, but eventually I hear footsteps coming to the door and the lock being worked."
-""
+"ฉันรออยู่เงียบ ๆ ผ่านไปหลายนาทีก็มีเสียงฝีเท้าเดินมาที่ประตู ตามด้วยเสียงปลดล็อก"
 
 # "At least she's willing to hear me out. That's one good thing."
-""
+"อย่างน้อยก็ยังดีที่ยอมรับฟังกันละนะ"
 
 # hi "I… I don't really know what to say, but… I just wanted to see you. I wanted to make sure you're all right."
-hi ""
+hi "ฉัน… ฉันไม่รู้ว่าจะพูดอะไรดี แต่… ฉันอยากเจอเธอ อยากดูให้แน่ใจว่าเธอไม่เป็นอะไร"
 
 # "I take a breath before pushing the handle down and opening the door. If she unlocked it without raising any protest, it should be fine for me to go in."
-""
+"ฉันสูดหายใจแล้วบิดมือจับเปิดประตู ถ้าปลดล็อกให้โดยไม่แย้งอะไรก็คงแปลว่าเข้าไปได้"
 
 play sound sfx_door_creak
 
@@ -1363,7 +1363,7 @@ show hanagown distant:
 with silentwhiteout
 
 # "Hanako is sitting on the side of her bed, her face sullen as though deep in thought. Her room is as stark as ever, and right now, she seems to perfectly suit the mood it gives off."
-""
+"ฮานาโกะนั่งอยู่ที่ริมเตียงพร้อมสีหน้าหม่นหมองคล้ายกำลังคิดอะไรอยู่ ห้องยังคงเปล่าเปลือยเช่นเคย และตอนนี้เธอ\nก็ดูเข้ากันกับอารมณ์ของห้องมาก"
 
 show hanagown normal
 with charachange
@@ -1372,25 +1372,25 @@ show hanagown worry at center
 with Dissolvemove(0.2)
 
 # "Eventually, her eyes slowly move to the door. As soon as she notices my presence, she darts off her bed and jumps to her feet, facing me straight-on."
-""
+"จนในที่สุดฮานาโกะก็ค่อย ๆ เหล่ตามามองที่ประตู ทันทีที่เห็นว่าฉันเข้ามาก็เด้งตัวออกจากเตียงลุกขึ้นยืน\nประจันหน้าฉัน"
 
 # "Her oversized gown makes this gesture look all the more sweeping as it freely moves about her light frame."
-""
+"ชุดนอนหลวมโพรกที่พลิ้วไปตามร่างบางของเธออย่างอิสระนั้นยิ่งทำให้การขยับตัวของเธอนั้นดูยิ่งใหญ่"
 
 # ha "Wh-what are you…?"
-ha ""
+ha "นะ-นี่นาย…"
 
 # "I quickly regret coming in as I look at her. She looks depressed, but there's a tinge of anger behind it. So, she can make this kind of expression as well."
-""
+"ฉันนึกเสียใจที่เข้ามาทันทีที่เห็นหน้าฮานาโกะ เธอดูเศร้า แต่ก็มีความโกรธเจืออยู่ด้วย ทำสีหน้าแบบนี้เป็นด้วยสินะ"
 
 # hi "I… I just wanted to check that you were all right. I thought it would be okay, since you unlocked the door."
-hi ""
+hi "ฉัน… ฉันแค่อยากมาดูว่าเธอโอเคดีหรือเปล่า เห็นปลดล็อกประตูก็นึกว่าให้เข้ามาได้"
 
 show hanagown distant_blush
 with charachange
 
 # "Hanako opens her mouth to speak, but quickly closes it again before looking away."
-""
+"ฮานาโกะอ้าปากจะพูด แต่ก็ปิดปากไปแล้วเบือนหน้าหนี"
 
 show hanagown distant_blush:
     center
@@ -1398,204 +1398,204 @@ show hanagown distant_blush:
 with charamove
 
 # "We stand in silence for a while, before she steps back and sits down on the side of her bed. I'm not sure whether she's frustrated with me and resigned to the fact that I'm here, or genuinely okay with me being in her room."
-""
+"เรายืนอยู่เงียบ ๆ กันพักหนึ่งก่อนที่ฮานาโกะจะถอยกลับไปนั่งที่ริมเตียง ฉันไม่แน่ใจว่าเธอหงุดหงิดแล้วทำใจยอมรับ\nให้ฉันอยู่ในห้องไปหรือให้ฉันอยู่ในห้องได้จริง ๆ"
 
 # "Once again, I find myself completely unable to work out how she feels. It's annoying."
-""
+"เป็นอีกครั้งที่ฉันเดาใจไม่ถูกเลยว่าฮานาโกะรู้สึกอย่างไรอยู่ น่ารำคาญชะมัด"
 
 # "I end up walking to her desk chair and taking a seat. I do it slowly, to allow her time to raise any issue she might have with me sticking around, but she doesn't say anything. All she does is stare at the ground, not moving a muscle."
-""
+"ฉันเดินไปที่โต๊ะฮานาโกะแล้วนั่งลงที่เก้าอี้โดยค่อย ๆ ทำทุกอิริยาบถเพื่อให้เวลาเธอได้ท้วงติงถ้าไม่อยากให้ฉัน\nอยู่ด้วย แต่เธอก็ไม่พูดอะไร ฮานาโกะเอาแต่จ้องกับพื้นอยู่นิ่ง ๆ ไม่ไหวติง"
 
 # "After sitting with my front to the chair's back, I take a better look at Hanako. She appears pale, but her cheeks look red. I'm not sure she's been eating well, either, given how thin her frame looks."
-""
+"พอนั่งแบบหันหน้าเข้าพนักพิงแล้วฉันก็มองฮานาโกะให้ชัด ๆ ดูซีด ๆ แต่แก้มแดงอยู่ ไม่แน่ใจด้วยว่าได้กินอะไร\nให้เป็นเรื่องเป็นราวหรือเปล่าเพราะผ่ายผอมไปขนาดนี้"
 
 # "Lilly might have said it would be better if I kept more of a distance from her, but it's hard to think of that as the correct way to deal with Hanako when she looks like this."
-""
+"ลิลลี่พูดว่าให้รักษาระยะห่างกับฮานาโกะไว้จะดีกว่าก็จริง แต่ฉันก็แทบไม่อยากเชื่อเลยว่าวิธีนั้นจะถูกต้องแล้ว\nกับการรับมือฮานาโกะในสภาพนี้"
 
 # "She keeps looking at the ground without a word, as if waiting for me to say something. It's entirely reasonable, since I'm the one who came into her room."
-""
+"ฮานาโกะก้มหน้ามองพื้นไม่พูดอะไรคล้ายรอให้ฉันพูดอะไรบางอย่าง ซึ่งก็สมเหตุสมผลเพราะฉันเป็นคนเข้ามา\nในห้องเธอเอง"
 
 # hi "Want to go out somewhere? Going down the hill to town might be a bit much, but we could at least go for a walk outside."
-hi ""
+hi "อยากออกไปไหนไหม เดินลงเขาไปอาจจะไกลหน่อย แต่อย่างน้อยไปเดินข้างนอกกันก็ได้"
 
 show hanagown worry_blush
 with charachange
 
 # ha "Why… do you want to do that?"
-ha ""
+ha "ทำไม… ถึงอยากเดิน"
 
 # hi "I was just thinking that it might help you a bit. You spend so much time inside, your skin's going to get as pale as Lilly's before long."
-hi ""
+hi "แค่คิดว่าเดินแล้วเธออาจจะรู้สึกดีขึ้นหน่อยน่ะ เอาแต่อยู่ในห้องแบบนี้เดี๋ยวผิวได้ซีดเหมือนลิลลี่พอดี"
 
 show hanagown distant_blush
 with charachange
 
 # "I snort in amusement, expecting Hanako to do the same, but she gives no reaction; she just goes back to looking at the ground."
-""
+"ฉันแค่นหัวเราะหวังให้ฮานาโกะหัวเราะตาม แต่เธอก็ไม่ตอบสนองอะไร เพียงแต่กลับไปก้มมองพื้นเหมือนเดิม"
 
 # ha "If you don't want to go… I-I don't want to go either."
-ha ""
+ha "ถ้านายไม่อยากไป… ฉะ-ฉันก็ไม่อยากไป"
 
 # hi "It's fine. I played soccer and hung out with friends after school a lot before coming to Yamaku, so I like being outdoors."
-hi ""
+hi "ไม่เป็นไรน่า ก่อนที่มายามากุนี่ฉันก็เล่นฟุตบอลกับไปเฮฮากับเพื่อนหลังเลิกเรียนออกจะบ่อย นี่แหละ\nฉันถึงได้ชอบอยู่ข้างนอก"
 
 # "Hanako shows no visible reaction. It's hard to talk to her when the discussion is so one-sided."
-""
+"ฮานาโกะไม่แสดงปฏิกิริยาใด ๆ ให้เห็น พอพูดอยู่ฝ่ายเดียวแล้วก็คุยลำบากแฮะ"
 
 # hi "We could go to the library… uh, if it wasn't closed by about now. The gardens would be fine, though."
-hi ""
+hi "จะไปห้องสมุดกันก็ได้นะ… เอ่อ ถ้าตอนนี้มันยังไม่ปิดอะนะ หรือจะไปที่สวนก็ได้เหมือนกัน"
 
 # "She begins to play with her hair. It's distracting, and strikes me as a little unusual for her."
-""
+"ฮานาโกะเริ่มจับผมเล่น เห็นแล้วเสียสมาธิและยังดูไม่สมเป็นเธออยู่หน่อย ๆ"
 
 # "Then again, since the incident in class happened, I've been tiptoeing around her for fear of hurting her like that again. Actively trying to get her outside might be a good thing."
-""
+"แต่ก็นะ ตั้งแต่ที่เกิดเรื่องในห้องครั้งนั้นฉันก็ระวังตัวกับฮานาโกะตลอดเพราะกลัวว่าจะไปทำร้ายเธอแบบนั้นอีก\nการชวนให้ฮานาโกะออกไปข้างนอกบ่อย ๆ อาจเป็นสิ่งที่ดีก็ได้"
 
 # "I lean forward a bit more in the chair and give her a slightly forced smile, to try and lighten the mood a little."
-""
+"ฉันโน้มตัวเข้าไปอีกแล้วยิ้มฝืน ๆ ให้ฮานาโกะด้วยหวังว่าจะช่วยให้บรรยากาศผ่อนคลายลงบ้าง"
 
 # hi "There wouldn't be anyone around by now, so you wouldn't have to worry about someone getting in our way. It could be a little date or something."
-hi ""
+hi "ตอนนี้น่าจะไม่มีใครอยู่ข้างนอก เพราะงั้นก็ไม่ต้องกลัวว่าจะมีใครมาขัด นับเป็นเดตเล็ก ๆ หรืออะไรแบบนั้นก็ได้"
 
 show hanagown normal
 with charachange
 
 # "I give a small chuckle, but catch myself as Hanako stops playing with her hair and grips the bed tightly. Hanako's mouth moves, but try as I might, I can't pick out what she's mumbling."
-""
+"ฉันแค่นหัวเราะเบา ๆ แต่ก็ต้องชะงักไปเมื่อเห็นว่าฮานาโกะหยุดจับผมแล้วกำเตียงแน่น เธอขยับปาก แต่ต่อให้\nเงี่ยหูฟังเท่าไหร่ก็ฟังไม่ออกว่าพึมพำอะไรอยู่"
 
 # hi "Hanako?"
-hi ""
+hi "ฮานาโกะ"
 
 # ha "You… don't understand…"
-ha ""
+ha "นาย… ไม่เข้าใจ…"
 
 # "Even now, I can only barely understand what she says. It feels like she's trying to make her presence as small as possible; that's incredibly natural for her to do in class or around others, but it hurts when she tries it around me."
-""
+"ตอนนี้ฉันก็ยังแทบฟังไม่รู้เรื่องด้วยซ้ำว่าฮานาโกะพูดอะไร เหมือนเธอกำลังย่อส่วนตัวตนตัวเองให้เล็กที่สุดเท่าที่\nจะทำได้ ซึ่งเธอก็ทำแบบนี้ประจำตอนอยู่ในห้องเรียนหรือตอนอยู่กับคนอื่น แต่พอมาทำกับฉันแล้วฉันก็เจ็บปวดขึ้นมา"
 
 # hi "I told you, it's fine. It's just a little walk, nobody'll notice us."
-hi ""
+hi "ก็บอกแล้วไงว่าไม่เป็นไรหรอก แค่เดินกันนิดหน่อย ไม่มีใครเห็นหรอก"
 
 # "I get out of the chair and walk towards the door, turning back to invite Hanako along. Once again, she doesn't respond at all to what I say."
-""
+"ฉันลุกจากเก้าอี้เดินไปที่ประตูแล้วหันมาชวนให้ฮานาโกะตามมาด้วย แต่เธอก็ไม่ตอบสนองอะไรกับสิ่งที่ฉันพูด\nเหมือนเดิม"
 
 show hanagown distant
 with charachange
 
 # ha "I don't…"
-ha ""
+ha "ฉันไม่…"
 
 # hi "Going outside for a bit is good for clearing your head."
-hi ""
+hi "ออกไปสูดอากาศข้างนอกแล้วสมองจะได้ปลอดโปร่งไง"
 
 # ha "Why do you… want to do this…"
-ha ""
+ha "ทำไมนาย… ถึงอยากทำแบบนี้…"
 
 # hi "Because I want to help you."
-hi ""
+hi "เพราะอยากช่วยเธอไง"
 
 # ha "I don't… want… help. Did you just come here… to try and get me out…?"
-ha ""
+ha "ฉันไม่… อยากให้ใคร… มาช่วย นายมาที่นี่แค่เพื่อจะ… ลากฉันออกไปข้างนอกเหรอ…"
 
 # hi "I don't mind. I think everyone needs help sometimes. When I was trying to get through my first days at Yamaku, you and Lilly helped me a lot."
-hi ""
+hi "ไม่เห็นเป็นไรเลย ฉันว่าคนเราบางทีก็ต้องให้คนอื่นมาช่วยบ้าง ตอนฉันมาอยู่ที่ยามากุใหม่ ๆ ก็ได้เธอกับลิลลี่นี่แหละ\nช่วยไว้"
 
 # hi "Besides, I'm not exactly busy."
-hi ""
+hi "อีกอย่าง ฉันก็ไม่ได้มีธุระอะไรด้วย"
 
 # ha "I don't w-want to go. I'm… fine."
-ha ""
+ha "ฉันไม่ยะ-อยากไป ไม่… เป็นไร"
 
 # hi "I don't really think it's healthy to stay indoors that long. The sun's still got a little life in it, so it's not too late to have at least a little walk."
-hi ""
+hi "ฉันว่าเอาแต่หมกตัวอยู่ในห้องแบบนี้นาน ๆ มันไม่ดีต่อร่างกายนะ ตอนนี้ยังพอมีแดดอยู่ ไปเดินกันสักหน่อย\nก็ยังทัน"
 
 # hi "I could probably use a bit of exercise anyway, to help wake me up. I've got some homework to get done, and it wouldn't be good to fall asleep halfway through doing it."
-hi ""
+hi "ฉันก็จะได้ออกกำลังกายสักหน่อยให้หายง่วง ยังมีการบ้านที่ต้องทำอีก ขืนหลับไปตอนทำการบ้านคงไม่ดีแน่"
 
 show hanagown normal
 with charachange
 
 # ha "Then… go."
-ha ""
+ha "งั้นก็… ไปสิ"
 
 # hi "By myself?"
-hi ""
+hi "ไปแค่ฉัน?"
 
 # "She nods."
-""
+"ฮานาโกะพยักหน้า"
 
 # hi "Well, I'm not really against that, but… are you sure? I swung by to invite you to come with me."
-hi ""
+hi "อืม ก็ไม่ได้อะไรหรอก แต่ว่า… แน่ใจนะ ฉันแวะมาชวนเธอออกไปเดินด้วยกันเนี่ย"
 
 show hanagown distant
 with charachange
 
 # ha "I'm fine. You can go."
-ha ""
+ha "ไม่เป็นไร นายไปเถอะ"
 
 # hi "Come on, just a small walk."
-hi ""
+hi "ไม่เอาน่า เดินนิดหน่อยเอง"
 
 # ha "Please, just go. I-I'm fine here."
-ha ""
+ha "ขอร้องละ ไปเถอะ ฉะ-ฉันอยู่ที่นี่ได้"
 
 # hi "…Hanako?"
-hi ""
+hi "…ฮานาโกะ?"
 
 # "I try to look at her face to gauge her feelings, but her expression is wooden. As if it was so carefully arranged, that a single movement might cause it to collapse."
-""
+"ฉันลองมองหน้าฮานาโกะดูว่าเธอรู้สึกอย่างไร แต่สีหน้าของเธอนั้นแข็งทื่อราวกับว่าจัดวางมาอย่างดีแล้ว\nและหากมีอะไรเคลื่อนแม้เพียงเล็กน้อยก็พังได้"
 
 # hi "Well, if you want to stay here… maybe we could play a game?"
-hi ""
+hi "งั้นถ้าอยากอยู่ที่นี่… เล่นเกมกันไหม"
 
 # ha "Just leave. Please. I don't… want to do anything right now."
-ha ""
+ha "ไปเถอะ ขอร้องละ ตอนนี้ฉัน… ไม่อยากทำอะไร"
 
 # hi "Surely there's something you want to do. It must be boring, sitting here in your room alone."
-hi ""
+hi "ต้องมีอะไรที่เธออยากทำสิ นั่งอยู่ในห้องคนเดียวแบบนี้เบื่อตายชัก"
 
 # ha "I want you to go."
-ha ""
+ha "ฉันอยากให้นายไป"
 
 # hi "Come on, you don't have to be like that. I just want to spend some time with you. Lilly and I are worried, so…"
-hi ""
+hi "ไม่เอาน่า อย่าพูดแบบนั้นสิ ฉันแค่อยากใช้เวลาอยู่กับเธอสักหน่อย ลิลลี่กับฉันก็เป็นห่วงเธอ…"
 
 show hanagown worry_blush
 with charachange
 
 # ha "You… talked to her?"
-ha ""
+ha "นาย… คุยกับลิลลี่?"
 
 # hi "Uh… yeah. We were… on the phone, just a little while ago. We're both really worried about you."
-hi ""
+hi "อ่า… อื้ม คุย… โทรศัพท์กันน่ะ เมื่อกี้นี่เอง เราสองคนเป็นห่วงเธอมากนะ"
 
 show hanagown irritated
 with charachange
 
 # "Hanako mumbles to herself again. It's increasingly disturbing."
-""
+"ฮานาโกะพึมพำกับตัวเองอีกครั้ง ยิ่งดูยิ่งชวนขนลุกเรื่อย ๆ"
 
 # hi "Hanako…?"
-hi ""
+hi "ฮานาโกะ…?"
 
 # ha "I'm telling you… please, go away. You don't understand anything…"
-ha ""
+ha "ขอร้องละ… ได้โปรดเถอะ ไป นายไม่เข้าใจอะไรหรอก…"
 
 # hi "If we just had a talk, you could tell me what I don't understand. I just want to protect you, I don't really see…"
-hi ""
+hi "ถ้าคุยกันเธอก็จะได้บอกฉันไงว่าฉันยังไม่เข้าใจอะไร ฉันอยากปกป้องเธอนะ ฉันไม่รู้ว่า…"
 
 # ha "Get… out, p-please…"
-ha ""
+ha "ออก… ไป ขะ-ขอร้อง…"
 
 # hi "Just locking yourself in your room again isn't going to help anything, Hanako. Please…"
-hi ""
+hi "อุดอู้อยู่แต่ในห้องมันไม่ได้ทำให้อะไรดีขึ้นมาหรอกฮานาโกะ ขอร้อง…"
 
 stop music fadeout 2.0
 
 # "Silence."
-""
+"เงียบ"
 
 # hi "Hanako, I just want to help you—{w=0.3}{nw}"
-hi ""
+hi "ฮานาโกะ ฉันแค่อยากจะช่วยเธอ—{w=0.3}{nw}"
 
 scene ev hanako_rage:
     truecenter
@@ -1608,61 +1608,68 @@ with flash
 play music music_rain
 
 # "She suddenly storms off her bed, turning to me with an expression that takes me completely off guard."
-""
+"ฮานาโกะพุ่งตัวออกมาจากเตียงแล้วมองฉันด้วยสีหน้าที่ทำให้ต้องตกตะลึง"
 
-ha "Get out of my room, get out of my room, get out of my room…!" with vpunch
+# ha "Get out of my room, get out of my room, get out of my room…!" with vpunch
+ha "ออกไปจากห้องฉันนะ ออกไปจากห้องฉันนะ ออกไปจากห้องฉันนะ…!" with vpunch
 
 # "Hanako yells at me with such force that, for the first time in a long time, I feel genuinely frightened. I… I have no idea how to react to this, and from Hanako of all people."
-""
+"ฮานาโกะตะเบ็งเสียงดังชนิดที่ว่าฉันพรั่นพรึงขึ้นมาจริง ๆ ซึ่งฉันไม่ได้สัมผัสความรู้สึกแบบนี้มานานแล้ว ฉัน…\nฉันไม่รู้ว่าจะต้องไปยังไงต่อ ยิ่งต้นทางมาจากฮานาโกะด้วย"
 
-ha "Leave! I'm telling you, go!" with vpunch
+# ha "Leave! I'm telling you, go!" with vpunch
+ha "ออกไป! ฉันบอกให้ไปไง!" with vpunch
 
 # hi "B-but… I was just trying to… help you…"
-hi ""
+hi "ตะ-แต่… ฉันแค่จะ… ช่วยเธอ…"
 
-ha "I know I need help! I know I'm broken! I don't need you to tell me that!" with vpunch
+# ha "I know I need help! I know I'm broken! I don't need you to tell me that!" with vpunch
+ha "รู้น่าว่าฉันต้องให้คนอื่นมาช่วย! รู้น่าว่าฉันมันแหลกสลาย! ไม่ต้องบอกกันก็ได้!" with vpunch
 
 # hi "I never said you were broken, or anything like that!"
-hi ""
+hi "ฉันไม่เคยบอกว่าเธอแหลกสลายหรืออะไรเลยนะ!"
 
-ha "It's written on your face, it's written on Lilly's face, it's written on everybody's faces!" with vpunch
+# ha "It's written on your face, it's written on Lilly's face, it's written on everybody's faces!" with vpunch
+ha "แต่สีหน้านายบอกงั้นนี่ สีหน้าลิลลี่ก็บอกงั้น สีหน้าทุกคนก็บอกงั้น!" with vpunch
 
-ha "I see a therapist every week, Lilly dotes on me as if I were her child, and now… even you!" with vpunch
+# ha "I see a therapist every week, Lilly dotes on me as if I were her child, and now… even you!" with vpunch
+ha "ฉันต้องพบจิตแพทย์ทุกสัปดาห์ ลิลลี่ก็เอาใจฉันเหมือนเป็นลูก แล้วทีนี้… นายยังจะ!" with vpunch
 
-ha "Nothing's changed, nothing at all! I hate Lilly, and I… I hate you more than anyone…!" with vpunch
+# ha "Nothing's changed, nothing at all! I hate Lilly, and I… I hate you more than anyone…!" with vpunch
+ha "เหมือนเดิม เหมือนเดิมทุกอย่าง! ฉันเกลียดลิลลี่ แล้วฉัน… ฉันก็เกลียดนายกว่าใครด้วย…!" with vpunch
 
 # "Her face moves in strange, almost grotesque ways. I've never seen someone completely lose it before, but it looks like the usually quiet and withdrawn girl in front of me is going into just such a destructive cycle before my eyes."
-""
+"หน้าฮานาโกะบิดเบี้ยวไปชวนสยอง ฉันไม่เคยเห็นใครตบะแตกแบบนี้มาก่อน เหมือนว่าหญิงสาวที่ปกติจะเป็นคนเงียบ ๆ\nและเก็บตัวตรงหน้าฉันคนนี้จะเข้าสู่โหมดทำลายล้างต่อหน้าต่อตาฉันแล้ว"
 
 # "I don't know what to do. I have no idea what I should say or do."
-""
+"ฉันไม่รู้ว่าต้องทำอย่างไร ไม่รู้เลยว่าควรจะพูดหรือทำอะไรดี"
 
-ha "Go! Leave me alone! Get out of here!" with vpunch
+# ha "Go! Leave me alone! Get out of here!" with vpunch
+ha "ไป! ไสหัวไป! ออกไปได้แล้ว!" with vpunch
 
 # "I take a step back, then another, and then another. My retreat is only halted when I feel the door against my back."
-""
+"ฉันถอยไปหนึ่งก้าว สองก้าว และสามก้าว ฉันต้องหยุดเมื่อหลังชนประตูแล้ว"
 
 # "I can't fix this situation. Nothing I say would change anything, now. I feel like I'm in a strange and deeply unsettling foreign world. I don't want to be here any more."
-""
+"ฉันแก้ไขสถานการณ์นี้ไม่ได้แล้ว ตอนนี้ไม่ว่าจะพูดอะไรไปก็คงไม่มีอะไรเปลี่ยน รู้สึกราวกับว่าตัวเอง\nอยู่ในโลกแปลกแยกที่ประหลาดชวนให้อึดอัดเป็นอย่างมาก ฉันไม่อยากอยู่ตรงนี้แล้ว"
 
 # "The door handle fights my clumsy attempts to open the door without turning my back to Hanako. Eventually, thankfully, the handle moves downwards. I open the door as fast as I can and almost leap backwards through it."
-""
+"ฉันตีกับมือจับประตูพยายามเปิดโดยไม่หันหลังให้ฮานาโกะอย่างเก้ ๆ กัง ๆ โชคดีที่ในที่สุดก็บิดได้จนได้ ฉันรีบ\nเปิดประตูแล้วโดดพุ่งถอยหลังออกมา"
 
 # "As I go through, I keep my eyes on the girl in front of me."
-""
+"ระหว่างที่ออกมาฉันยังคงจ้องเด็กสาวตรงหน้า"
 
 # "She's not broken. Hanako isn't broken. If she was broken, then I'm just as broken as she is after all that's happened to me. Lilly only ever did the best by her, and I only ever tried to protect her as best I could."
-""
+"เธอไม่ได้แหลกสลาย ฮานาโกะไม่ได้แหลกสลาย ถ้าเธอแหลกสลายจริงฉันก็คงแหลกสลายพอ ๆ กันกับเธอ\nจากเหตุการณ์ในอดีตทั้งหลาย ลิลลี่ก็ทำสุดเท่าที่ตัวเองจะทำได้ ส่วนฉันก็แค่เพียงปกป้องเธอสุดความสามารถ"
 
 scene ev hanako_rage_sad:
     zoom 1.0
 with charachange
 
 # "Hanako looks down, all her energy spent. Now that I've stepped out of her room, the worst of her fury is gone."
-""
+"ฮานาโกะก้มหน้าหมดแรง ความโกรธที่ขึ้นถึงขีดสุดของเธอลดลงมาแล้วหลังจากที่ฉันออกมาจากห้อง"
 
 # "But even now, I can't bring myself to argue with her. It's not just the deep shock at what she said… it feels like something else is stopping me. Something deep, that makes me feel physically sick."
-""
+"แต่ตอนนี้ฉันก็ยังไม่กล้าเถียงฮานาโกะ ไม่ใช่แค่เพราะตกใจกับคำพูดของเธอ… แต่เพราะรู้สึกว่ามีบางอย่างที่ห้ามฉันไว้\nบางอย่างลึก ๆ ในใจที่ทำให้ฉันรู้สึกไม่สบายตัวขึ้นมา"
 
 show bg school_dormhanako_ni:
    center
@@ -1681,7 +1688,7 @@ with flash
 stop music fadeout 4.0
 
 # "Without a word, I slowly shut the door. The creak of the old hinges sounds almost deafening."
-""
+"ฉันปิดประตูช้า ๆ ไม่พูดอะไร เสียงเอี๊ยดจากบานพับเก่า ๆ นั้นดังเสียดหู"
 
 play sound sfx_doorclose
 
@@ -1690,19 +1697,19 @@ show hanako_door_door at left
 show hanako_door_base at right
 with ease
 # "With a final thud, the wooden door closes. The Hanako that I felt I knew disappears behind it, and only faint orange slivers of light peek around the very edges."
-""
+"แล้วประตูไม้บานนั้นก็ปิดลงพร้อมเสียงดังปึง ฮานาโกะที่ฉันเคยคิดว่ารู้จักหายไปในประตูบานนั้น มีเพียงแสงสีแสดอ่อน ๆ\nที่ส่องลอดตามขอบประตูออกมา"
 
 scene bg school_girlsdormhall
 with locationchange
 
 # "I feel numb. Without anything else to do, I begin the walk back to my dormitory room, mechanically placing one foot in front of the other while barely registering a thing around me."
-""
+"ฉันรู้สึกชาดิก ด้วยไม่มีอะไรให้ทำแล้วฉันจึงเดินกลับหอ ขาข้างหนึ่งของฉันก้าวนำขาอีกข้างไปโดยอัตโนมัติ สมองฉัน\nแทบไม่รับรู้สภาพแวดล้อมแล้ว"
 
 # "My mind keeps ticking, questioning everything that I thought I knew about Hanako."
-""
+"ในใจฉันตั้งคำถามถึงทุกเรื่องของฮานาโกะที่ฉันเคยคิดว่าตัวเองรู้"
 
 # "But one thing is not questioned; that shutting that door brought a close to more than that single visit."
-""
+"แต่อย่างหนึ่งที่แน่แท้ไม่ต้องตั้งคำถาม คือการปิดประตูบานนั้นไม่ได้เป็นการตัดจบเพียงการแวะมาหาของฉันเท่านั้น"
 
 #------------------------
 
@@ -1716,19 +1723,19 @@ with locationchange
 play music music_night fadein 4.0
 
 # "After talking to Lilly at the end of the school day, I sat at my desk and looked out the window, idly watching students leaving the school building. Usually they left in groups, but even when they left alone, they'd say goodbye to their friends first."
-""
+"หลังจากที่คุยกับลิลลี่ตอนเลิกเรียนแล้วฉันก็มานั่งมองหน้าต่างที่โต๊ะดูนักเรียนที่เดินออกจากอาคารเรียน ปกติ\nจะออกมากันเป็นกลุ่ม หรือถ้าออกมาคนเดียวก็จะบอกลาเพื่อนก่อน"
 
 # "It's completely normal. Something that I would have missed completely, had it been any other day, because it's so mundane."
-""
+"เป็นเรื่องปกติสามัญ เป็นเรื่องที่ถ้าเป็นตัวฉันในวันอื่น ๆ ได้มามองแล้วละก็คงไม่เห็น เพราะไม่ได้มีอะไรขนาดนั้น"
 
 # "But it's also something Hanako has never had in the time that I've known her. As I stand outside of Hanako's door for the second time in as many days, that fact doesn't leave my mind."
-""
+"แต่ก็เป็นเรื่องที่ฮานาโกะไม่เคยเจอเลยเท่าที่ฉันรู้จักเธอมา ฉันยืนอยู่หน้าห้องฮานาโกะเป็นครั้งที่สองเหมือนอย่าง\nวันอื่น ๆ โดยที่ในหัวยังคงมีเรื่องนั้นอยู่"
 
 # "I hold two plates in my hands. On each is… not exactly the most hearty of meals, but I want to be sure that Hanako is at least feeding herself. It may also be a way to gain a little leverage in getting her to let me in."
-""
+"ในมือฉันมีจานอยู่สองใบ ในจานแต่ละใบนั้น… ไม่ได้เป็นอาหารที่ดีเด่อะไร แต่ฉันก็อยากทำให้แน่ใจว่าอย่างน้อย ๆ\nฮานาโกะก็ได้กินข้าวบ้าง แถมอาจจะใช้เป็นสิ่งเล็ก ๆ น้อย ๆ ที่เธอจะรับไว้พิจารณาเพื่อมาเปิดประตูให้ฉันด้วย"
 
 # "Lilly and I have tried our best to be there for her. Ever since she broke down in class, I've dearly wanted to protect Hanako. Such a thing happening to her again, or even something worse, is something I don't want to think about."
-""
+"ลิลลี่กับฉันคอยสนับสนุนฮานาโกะสุดความสามารถ ตั้งแต่ที่แพนิกกำเริบในห้องครั้งนั้นฉันก็อยากปกป้องฮานาโกะ\nให้เต็มที่ ฉันไม่แม้แต่จะอยากนึกภาพเลยว่าถ้าเหตุการณ์ทำนองนั้นหรือเลวร้ายยิ่งกว่าอีกเกิดกับเธอจะเป็นอย่างไร"
 
 scene bg school_dormhanako_ni
 show hanagown distant_close:
@@ -1741,24 +1748,24 @@ with locationchange
 play sound sfx_doorknock2
 
 # "The door gives a solid series of thuds as I knock on it while carefully propping up one plate on my other arm. I doubt Hanako will open it for me, so all I can really hope to accomplish is to attract her attention."
-""
+"ประตูสะท้อนเสียงกึก ๆ เมื่อฉันใช้มือเคาะโดยที่วางจานใบหนึ่งไว้กับแขนอีกข้างอย่างระมัดระวัง ฮานาโกะคงไม่มา\nเปิดให้หรอก ตอนนี้ฉันได้แต่หวังว่าอย่างน้อยก็จะได้ดึงความสนใจเธอบ้าง"
 
 # hi "'Evening, Hanako. It's just me."
-hi ""
+hi "สายัณห์หวัดฮานาโกะ ฉันเอง"
 
 # "I pause for a moment to see if she will respond, but the fact that she doesn't isn't very surprising."
-""
+"ฉันเว้นช่วงไปรอดูว่าฮานาโกะจะตอบหรือเปล่า แต่ก็ไม่ได้แปลกใจนักเมื่อเธอไม่ตอบจริง ๆ"
 
 # hi "I… I have some food for the both of us. Could I come in?"
-hi ""
+hi "ฉัน… ฉันเอาของกินมากินด้วยกันด้วย ขอเข้าไปหน่อยได้ไหม"
 
 # "For what feels like a very long time, some muffled voices from the floor below are the only sound to be heard."
-""
+"เวลาผ่านไปเนิ่นนานโดยมีเพียงเสียงอู้อี้ที่ดังมาจากชั้นล่างที่ดังอยู่"
 
 play sound sfx_lock
 
 # "Then I can hear the sound of bare feet on the floor coming up to the door, and I have to stifle a sigh of relief as I hear the door's lock being worked."
-""
+"แล้วฉันก็ได้ยินเสียงเท้าเปล่าที่เดินมาทางประตู ฉันต้องห้ามตัวเองไม่ให้ถอนหายใจด้วยความโล่งอกเมื่อได้ยินเสียง\nปลดล็อกประตู"
 
 play sound sfx_dooropen
 
@@ -1767,25 +1774,25 @@ show hanako_door_door:
 with charamove
 
 # "When Hanako opens the door, I look at her intently."
-""
+"พอฮานาโกะเปิดประตูแล้วฉันก็จ้องมองเธอ"
 
 show hanagown normal_close
 with charachange
 
 # "She looks up momentarily to the plate in my left hand. It's a modest curry dish I quickly made from a packet."
-""
+"ฮานาโกะมองมาที่จานในมือซ้ายฉันแวบหนึ่ง ในนั้นเป็นแกงกะหรี่ที่ฉันอุ่นมาจากซองสำเร็จรูป"
 
 show hanagown distant_close
 with charachange
 
 # "Her eyes move to the plate in my right hand, which holds the same thing, before looking down again."
-""
+"เธอเหลือบมองไปที่จานในมือขวาฉันซึ่งเป็นแกงกะหรี่เหมือนกันก่อนจะก้มหน้าลง"
 
 hide hanagown
 with charaexit
 
 # "As she shuffles back into her room, I realize that I haven't said a word to her. I glumly follow her in, slightly embarrassed by having been so wrapped up in observing her."
-""
+"ระหว่างที่ฮานาโกะเดินกลับเข้าห้องไปฉันก็เพิ่งนึกได้ว่ายังไม่ได้พูดกับเธอ ฉันเดินตามไปด้วยท่าทีหมอง ๆ\nพลางนึกอายเล็กน้อยที่มัวแต่มองเธอจนไม่ได้พูดอะไร"
 
 play sound sfx_door_creak
 
@@ -1802,10 +1809,10 @@ scene bg school_dormhanako
 with silentwhiteout
 
 # "More than ever, the gray and stark atmosphere of Hanako's room feels like a reflection of her personality. The voices from outside become completely inaudible, and the silence inside oppressive, once I close the door."
-""
+"บรรยากาศสีเทาทึมในห้องฮานาโกะดูจะสะท้อนลักษณะตัวตนของเธอได้ดีกว่าทุกครั้ง ตอนนี้ไม่ได้ยินเสียง\nจากนอกห้องแล้ว และเมื่อปิดประตูก็เกิดความเงียบที่ชวนให้รู้สึกกดดัน"
 
 # "Walking to the far end of the room, I place the two plates on her desk. I'm thankful that she let me in, but as I turn to face her, I can't help having second thoughts about coming to see her."
-""
+"ฉันเดินไปอีกฟากของห้องแล้ววางจานทั้งสองใบลงที่โต๊ะฮานาโกะ แม้จะโล่งใจที่ให้เข้ามาได้ แต่พอหันไปมองเธอ\nแล้วฉันก็อดคิดไม่ได้ว่าดีแล้วจริงหรือที่มาหา"
 
 show hanagown distant:
     center
@@ -1813,82 +1820,82 @@ show hanagown distant:
 with charaenter
 
 # "I don't believe Lilly was right, though. Looking at Hanako like this, I can only think that giving her space is the last thing we should be doing. I don't want to imagine it, but she may do something very foolish."
-""
+"แต่ก็ไม่อยากเชื่อลิลลี่อยู่ดี เห็นสภาพฮานาโกะอย่างนี้แล้วฉันก็รู้สึกว่าการให้พื้นที่กับเธอคือสิ่งที่ไม่ควรทำเลยต่างหาก\nขืนปล่อยไว้เธออาจทำอะไรที่โง่เง่าลงไปก็ได้ ไม่อยากจินตนาการเลย"
 
 # hi "Um… it's just an instant meal, but it should be filling."
-hi ""
+hi "เอ่อ… คือก็เป็นแค่อาหารสำเร็จรูปแหละ แต่น่าจะกินให้อิ่มได้อยู่นะ"
 
 # "I take a plate in my hand, offering it to her. She wordlessly takes it and sits on the side of her bed. I take a seat in her chair, and the familiar sound of eating rings in the room as we dig in with the forks that were stuck into the rice."
-""
+"ฉันคว้าจานใบหนึ่งมายื่นให้ฮานาโกะ เธอรับไปเงียบ ๆ แล้วนั่งลงที่ริมเตียง ฉันนั่งลงกับเก้าอี้ที่โต๊ะ จากนั้น\nก็มีเสียงส้อมซึ่งฉันเสียบไว้ในข้าวกระทบกับจานยามทานอาหารอันคุ้นเคยที่ดังสะท้อนอยู่ในห้องตามมา"
 
 # "The curry itself tastes… okay. I wouldn't expect much more from a packet whose brand I didn't recognize, so it not being horrible is at least something."
-""
+"รสชาติแกงกะหรี่ก็… ใช้ได้ ฉันไม่ได้คาดหวังอะไรกับของสำเร็จรูปยี่ห้อที่ฉันไม่รู้จักหรอก อย่างน้อย\nไม่ได้รสชาติห่วยแตกก็โชคดีแล้ว"
 
 # "Eating takes the edge off the fact that she isn't talking. Neither of us really likes to talk while we're eating, and this reminds me of the lunchtimes we so often spent together."
-""
+"พอได้กินแล้วก็ช่วยเบนสมาธิไปจากความเงียบของฮานาโกะได้บ้าง เราต่างไม่มีใครชอบพูดตอนกินข้าว ชวนให้นึกถึง\nช่วงพักเที่ยงที่เราอยู่ด้วยกันบ่อย ๆ"
 
 # hi "It's kind of nice, eating together like this."
-hi ""
+hi "ได้กินข้าวด้วยกันแบบนี้ก็ดีเหมือนกันนะ"
 
 show hanagown worry
 with charachange
 
 # "Hanako looks at me quizzically. It's at least a better expression than what she's been wearing this far."
-""
+"ฮานาโกะมองฉันด้วยความสงสัย ซึ่งอย่างน้อยก็ดีกว่าสีหน้าที่ฉันเห็นตลอดเมื่อครู่น่ะนะ"
 
 # hi "We became friends mainly over sharing lunch breaks, so it's nice to go back to those times a bit."
-hi ""
+hi "หลัก ๆ ที่เราได้เป็นเพื่อนกันก็เพราะอยู่กินข้าวตอนพักเที่ยงด้วยกันนี่แหละ ฉันก็ดีใจที่ได้มาทำอะไร\nเหมือนตอนนั้นบ้าง"
 
 # "She hesitates for a couple of seconds, and I find myself grimacing. Did I say something wrong?"
-""
+"ฮานาโกะลังเลอยู่แวบหนึ่ง ฉันทำหน้าเบ้ไปด้วยความสงสัยว่าพูดอะไรพลาดไปหรือเปล่า"
 
 show hanagown smile
 with charachange
 
 # "Eventually she smiles and nods. I would normally be very encouraged by this, but her smile looks strange. I can't quite put my finger on why."
-""
+"จนสุดท้ายฮานาโกะก็ยิ้มพยักหน้า ปกติฉันคงใจชื้นขึ้นมา แต่รอยยิ้มเธอนั้นดูแปลก ๆ ซึ่งบอกไม่ถูกเหมือนกัน\nว่าเพราะอะไรถึงรู้สึกแบบนั้น"
 
 # ha "Everything's… the same as before, isn't it?"
-ha ""
+ha "ยัง… เหมือนเดิมเลยเนอะ"
 
 # hi "Y-yeah. Of course it is."
-hi ""
+hi "อะ-อื้ม ก็เหมือนน่ะสิ"
 
 # hi "You've still got Lilly and me to help you and protect you, and once she gets back, everything will be just like she never left."
-hi ""
+hi "เธอยังมีลิลลี่กับฉันที่คอยปกป้องอยยู่ แล้วพอลิลลี่กลับมาแล้วทุกอย่างก็จะกลับเป็นเหมือนเดิม เหมือนว่าลิลลี่\nไม่เคยหายไปไหนเลย"
 
 show hanagown distant
 with charachange
 
 # "Hanako nods again, her expression remaining exactly the same as before. She feels like a different Hanako from the one I'd first seen when I entered her room, and it's vaguely off-putting."
-""
+"ฮานาโกะพยักหน้าอีกรอบด้วยสีหน้าที่ยังเหมือนเดิม เหมือนเป็นคนละคนกับคนที่ฉันเจอตอนเพิ่งเข้าห้องมาเลย\nชักใจคอไม่ดีแล้วสิ"
 
 # "Both of us go back to finishing off our dinners after the short exchange. Despite Hanako looking happier than before, my eyes keep flicking to her as if to reassure myself of this fact."
-""
+"หลังจากที่คุยกันนิดหน่อยแล้วเราก็หันไปกินข้าวกันต่อ ทั้งที่ฮานาโกะดูจะสดใสขึ้นแล้วฉันก็ยังอดเหลือบมองเธอ\nเป็นระยะ ๆ ไม่ได้ราวกับจะดูให้แน่ใจว่าเป็นแบบนั้นจริง ๆ"
 
 # "Before long, the last of Hanako's curry is cleared. I finish the last of mine as she puts the empty plate on the desk, and place my own empty plate and used fork on top of hers."
-""
+"ไม่นานฮานาโกะก็กินแกงกะหรี่จนหมด เธอหยิบจานมาวางที่โต๊ะจังหวะที่ฉันกินคำสุดท้ายพอดีแล้ววางจานเปล่า\nของตัวเองกับส้อมที่ใช้แล้วไว้บานจานของฮานาโกะ"
 
 # "I briefly wonder what I should say, desperately wanting to avoid another awkward silence or the prospect of leaving her room after so short a time, but Hanako is the one to speak up first."
-""
+"ฉันเค้นสมองคิดอยู่ครู่หนึ่งว่าจะพูดอะไรดีด้วยไม่อยากให้เกิดความเงียบอันน่าอึดอัดนั้นอีก และยังไม่อยาก\nออกจากห้องไปทั้งที่เพิ่งเข้ามาด้วย แต่ฮานาโกะเป็นฝ่ายพูดขึ้นมาก่อน"
 
 show hanagown worry_blush
 with charachange
 
 # ha "I… I was wondering… since y-you're here…"
-ha ""
+ha "ฉัน… ฉันคิดอยู่ว่า… ไหน ๆ นะ-นายก็มานี่แล้ว…"
 
 # "She quickly goes to one of her drawers, and after a minimum of fussing around, pulls out her chessboard."
-""
+"ฮานาโกะรีบเดินไปที่ลิ้นชักตัวหนึ่ง พอคุ้ยอยู่ได้สักพักก็คว้ากระดานหมากรุกออกมา"
 
 show hanagown smile
 with charachange
 
 # ha "W-would you… like to play…?"
-ha ""
+ha "มะ-มาเล่น… ด้วยกันไหม…"
 
 # "This time, I can't stifle the sigh of relief that escapes my lips."
-""
+"คราวนี้ฉันเผลอปล่อยให้ตัวเองถอนหายใจด้วยความโล่งอกออกมา"
 
 hide hanagown
 with charaexit
@@ -1897,10 +1904,10 @@ show bg school_dormhanako at left
 with charamove_slow
 
 # "I hastily agree, and Hanako promptly busies herself setting up while I get off the chair and take a seat on her bed."
-""
+"ฉันเออออตกลงไป ฮานาโกะเตรียมกระดานทันทีในระหว่างที่ฉันลุกจากเก้าอี้ไปนั่งที่เตียงเธอ"
 
 # "Once again, Hanako is willing to let me into her world, with so simple a gesture as a game shared between us. I guess I was just winding myself up for no reason."
-""
+"เป็นอีกครั้งที่ฮานาโกะยอมให้ฉันได้เข้ามายังโลกของเธอด้วยสิ่งง่าย ๆ อย่างการเล่นเกมระหว่างเรา ฉันคง\nคิดมากไปเองสินะ"
 
 show hanagown smile_close:
     center
@@ -1909,22 +1916,22 @@ show hanagown smile_close:
 with Dissolve(1.0)
 
 # "After the board is laid down on the bed between us, we finish placing our respective pieces on it."
-""
+"พอวางกระดานลงบนเตียงตรงกลางระหว่างเราแล้วเราก็จัดวางหมากของฝั่งตัวเอง"
 
 # "Throughout our friendship, we've never exchanged that many words. When we're like this, though, I see that perhaps we never really needed to. Just a simple book, or board, or meal between us is enough to bridge that distance."
-""
+"เราเป็นเพื่อนกันมาโดยแทบไม่ได้คุยอะไรกันเลย แต่เมื่อได้อยู่อย่างนี้แล้วฉันก็เข้าใจว่าเราคงไม่จำเป็นต้องใช้คำพูดใด ๆ\nแค่หนังสือ กระดาน หรือมื้ออาหารระหว่างเรา เหล่านั้นก็เพียงพอแล้วที่จะร่นระยะนั้นเข้ามา"
 
 # "I make the first move, just as I've always done. This is the way our friendship was, and this is the way it will probably always be."
-""
+"ฉันเป็นฝ่ายเริ่มก่อนเหมือนอย่างเคย มิตรภาพของเราเป็นเช่นนี้ และคงจะเป็นอย่างนี้ตลอดไป"
 
 # "Something definitely feels different about her, though, and I can't quite grasp what it is. I look at Hanako intently, but I can't work out anything from her expression."
-""
+"แต่ฉันรู้สึกว่าฮานาโกะเปลี่ยนไปแล้วจริง ๆ อย่างบอกไม่ถูก ฉันจดจ้องฮานาโกะแต่ก็อ่านสีหน้าเธอไม่ออกเลย"
 
 # "As physically close as we may be, it feels like we're further apart than ever. Hanako is a fragile person, though, and I would never want to hurt her."
-""
+"แม้ตัวเราจะอยู่ใกล้กันอย่างนี้ แต่ฉันกลับรู้สึกว่าเราอยู่ห่างจากกันกว่าทุกที แต่ฮานาโกะเป็นคนเปราะบาง\nฉันไม่อยากทำร้ายเธอเลย"
 
 # "That was also the way things always were, and the way things between us will probably always be."
-""
+"อะไร ๆ ก็เป็นมาอย่างนี้เสมอ และอะไร ๆ ระหว่างเราคงจะเป็นเช่นนี้ตลอดไป"
 
 stop music fadeout 2.0
 
