@@ -6393,7 +6393,7 @@ with Pause (1.0)
 "แล้วจดหมายเจ้าปัญหานี่ก็มาตอนที่ฉันคิดว่าทำใจกับเรื่องของเธอไปได้แล้ว"
 
 # "Her handwriting looks vaguely familiar at best, and only now that I see it again I remember that she used to write in pink pen a lot. She was always very girly, for lack of a better term."
-"ลายมือเธอนั้นพอจะคุ้นตาอยู่บ้าง และเพิ่งนึกได้ตอนเห็นนี่เองว่าเจ้าตัวชอบเขียนอะไรด้วยปากกาหมึกชมพู ฉันไม่รู้\nจะเอาคำไหนมาอธิบายดี แต่เอาเป็นว่าเธอเป็นคนที่มีความเป็นผู้หญิงมาก ๆ"
+"ลายมือเธอนั้นพอจะคุ้นตาอยู่บ้าง และเพิ่งนึกได้ตอนเห็นนี่เองว่าเมื่อก่อนเจ้าตัวชอบเขียนอะไรด้วยปากกาหมึกสีชมพู\nฉันไม่รู้จะเอาคำไหนมาอธิบายดี แต่เอาเป็นว่าเธอเป็นคนที่มีความเป็นผู้หญิงมาก ๆ"
 
 # "But she was also quite fragile. I never knew if I liked this aspect of her or not, though with the arrival of this letter, that question seems to have become largely moot."
 "ทว่าก็เป็นคนที่ค่อนข้างเปราะบาง ฉันไม่รู้ว่าฉันชอบตัวเธอมุมนี้หรือเปล่า แต่ก็ไม่รู้จะสงสัยไปทำไมเมื่อจดหมายนี้\nมาอยู่ในมือแล้ว"

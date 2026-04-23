@@ -2268,79 +2268,79 @@ with locationchange
 play music music_dreamy fadein 2.0
 
 # "My pen busily scrawls onto a slowly filling page of my notebook. My other hand remains on the page of a reference book I borrowed from the library, marking my spot as my eyes flicker to and fro."
-""
+"ปากกาฉันขีดไปตามหน้าสมุดที่ค่อย ๆ ถูกทับถมด้วยเส้นหมึก มืออีกข้างฉันวางไว้ที่หน้าหนังสืออ้างอิงที่ฉันยืม\nมาจากห้องสมุดพลางไล่มองเลื่อนนิ้วไปตามจุดต่าง ๆ"
 
 # "As I work, I occasionally mark red circles or underlines onto the photocopied sheets of paper that lie on the table in front of me."
-""
+"ระหว่างนั้นฉันก็จะใช้ปากกาแดงวงหรือขีดเส้นใต้ตามแผ่นกระดาษที่ถ่ายเอกสารมาซึ่งวางอยู่บนโต๊ะตรงหน้า"
 
 # "Wanting a change of scenery from the library and to avoid the distractions of the classroom, I decided to make use of the Shanghai for some quiet study time."
-""
+"ด้วยอยากเปลี่ยนบรรยากาศจากห้องสมุดและไม่อยากอยู่ในห้องเรียนให้เสียสมาธิฉันจึงมาที่ร้านเซี่ยงไฮ้\nเพื่อมาอ่านหนังสือเงียบ ๆ"
 
 # "It ended up being nice and quiet as expected, and being able to get coffee while I study is a nice bonus."
-""
+"ซึ่งก็อยู่สบายและเงียบอย่างที่คิด แถมยังสั่งกาแฟมาดื่มไประหว่างที่อ่านได้ด้วย"
 
 # "Hanako may have returned to her normal self since she came out of her room, but I've done quite the opposite. Daily routine may have returned to us, but I feel as if I'm a different person."
-""
+"ฮานาโกะกลับเป็นคนเดิมหลังจากที่ออกห้องมาแล้วก็จริง แต่ฉันกลับทำตรงกันข้าม เราอาจกลับไปใช้ชีวิตตามกิจวัตร\nประจำวันได้แล้วก็จริง แต่ฉันรู้สึกเหมือนตัวเองเป็นคนละคน"
 
 # "Maybe I'm not. It's only been a few days, after all, since I decided I wanted to try and get out of the rut I'd found myself in after my accident. But I want to change, and I'm now actively working towards that goal."
-""
+"หรืออาจจะเป็นคนละคนจริง ๆ เพราะผ่านมาได้สองสามวันแล้วที่ฉันลุกขึ้นมาตะกายตัวออกจากหล่มที่ฉันติดอยู่\nตั้งแต่เกิดอุบัติเหตุครั้งนั้น ฉันอยากเปลี่ยนแปลงตัวเอง และตอนนี้ฉันก็ทำสิ่งต่าง ๆ เพื่อเป้าหมายนั้นอยู่ไม่ขาด"
 
 # "Or at least, I would like to think that I am."
-""
+"อาจจะไม่ใช่แบบนั้นเลย แต่อย่างน้อยฉันก็คิดว่าตัวเองกำลังทำอยู่"
 
 # hi "Ugh, this is impossible. Brute-forcing this isn't going to work."
-hi ""
+hi "โอย ไม่ได้ มัวแต่ฝืนทำแบบนี้ไม่ได้แน่"
 
 # "What's more, I have another piece of writing I have to do after this. I fear that's going to be no easier."
-""
+"ยิ่งไปกว่านั้นฉันยังมีงานเขียนอีกชิ้นที่ต้องทำ และเกรงว่างานนั้นจะไม่ได้ง่ายไปกว่านี้ด้วย"
 
 # yu "Um…"
-yu ""
+yu "เอ่อ…"
 
 # "I look up in mild surprise to the source of the tentative voice."
-""
+"ฉันเงยหน้าขึ้นด้วยความประหลาดใจเล็กน้อยเพื่อมองต้นเสียงอ้ำอึ้งนั้น"
 
 show yuukoshang worried_up at center
 with charaenter
 
 # "Yuuko stands at the head of the table with a damp towel in hand, clearly having taken the opportunity to clean the tables while no other patrons were around. She looks curious, her eyes as much on my work as on me."
-""
+"ยูโกะยืนอยู่อีกฟากโต๊ะ ในมือถือผ้าขนหนูเปียกอยู่ซึ่งแสดงชัดว่าเธอถือจังหวะที่ลูกค้าคนอื่นไม่อยู่คอยเช็ดโต๊ะ\nสายตาเธอที่มองงานของฉันสลับกับตัวฉันนั้นดูสงสัย"
 
 # hi "What's the matter?"
-hi ""
+hi "มีอะไรเหรอครับ"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "I was just wondering… what sort of work are you having so much trouble with?"
-yu ""
+yu "พอดีอยากรู้น่ะ… ว่าเธอทำอะไรอยู่เหรอ เห็นเครียดมาก"
 
 # hi "Oh. It's just history. I'm fine with science and math, so I'm trying to get my other subjects up to par."
-hi ""
+hi "อ๋อ วิชาประวัติศาสตร์น่ะครับ คือผมทำวิชาวิทยาศาสตร์กับคณิตศาสตร์ได้เลยจะลองฝึกให้วิชาอื่นถนัดขึ้นมา\nพอ ๆ กันบ้าง"
 
 show yuukoshang happy_up
 with charachange
 
 # "Yuuko looks positively delighted at this development. I feel like I just chose the right answer on some big quiz show."
-""
+"ยูโกะดูดีใจมากที่เรื่องเป็นแบบนี้ รู้สึกเหมือนตอบคำถามในรายการเกมโชว์ดัง ๆ สักรายการถูกเลย"
 
 show yuukoshang closedhappy_down
 with charachange
 
 # yu "Oh! I think I can help you with that!"
-yu ""
+yu "โอ้! ฉันน่าจะพอช่วยได้นะ!"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "Um, if you don't mind… of course…"
-yu ""
+yu "เอ่อ ถ้าเธอไม่ว่าอะไร… น่ะนะ…"
 
 # "I briefly consider turning down the offer in order to not cause her too much trouble, but she looks too excited about this for me to do it. It would be mean to shoot her down like that, after such a reaction."
-""
+"แวบหนึ่งฉันคิดจะบอกปัดข้อเสนอนั้นไปด้วยไม่อยากรบกวนยูโกะมาก แต่เธอดูตื่นเต้นมากจนฉันปฏิเสธไม่ลง\nทำท่าขนาดนี้แล้วไม่ตอบรับก็คงใจดำเกินไปหน่อย"
 
 # hi "If you're willing to help, I'd really appreciate it."
-hi ""
+hi "ถ้าเต็มใจผมก็ยินดีครับ"
 
 show yuukoshang closedhappy_up
 with charachange
@@ -2349,7 +2349,7 @@ hide yuukoshang
 with charaexit
 
 # "She claps her hands together and quickly deposits her towel on the counter, before returning and taking a seat across from me."
-""
+"ยูโกะตบมือทันทีแล้วรีบไปวางผ้าขนหนูไว้ที่เคาน์เตอร์ก่อนจะกลับมานั่งตรงหน้าฉัน"
 
 show yuukoshang invis at center
 with None
@@ -2358,136 +2358,137 @@ show yuukoshang smile_down at Position(ypos=1.15)
 with dissolvecharamove
 
 # "I take my notebook off the top of the textbook and hand it over for her to peruse."
-""
+"ฉันหยิบสมุดที่วางอยู่บนหนังสือยื่นให้ยูโกะได้ดู"
 
 show yuukoshang neutral_up
 with charachange
 
 # yu "So you're studying the Edo Period?"
-yu ""
+yu "เรียนยุคเอโดะอยู่เหรอ"
 
 # hi "Yeah. I'm not really much good at this, though."
-hi ""
+hi "ครับ แต่ไม่ค่อยถนัดเท่าไหร่"
 
 show yuukoshang worried_up
 with charachange
 
 # "She takes the textbook and reads a few pages from a random section near the middle for a bit, but the aura of enthusiasm she'd been radiating previously is rapidly sapping away."
-""
+"ยูโกะหยิบหนังสือไปเปิดหน้ากลาง ๆ อ่านอยู่สองสามหน้า แววความตื่นเต้นที่เธอเปล่งออกมาเมื่อกี้จางหาย\nไปอย่างรวดเร็ว"
 
 # hi "I'm guessing this isn't the kind of history you were expecting?"
-hi ""
+hi "ไม่ใช่ประวัติศาสตร์แบบเดียวกันกับที่คิดไว้สินะครับ"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "Unfortunately not. My main area is European history, especially in the classical era. Sorry."
-yu ""
+yu "เกรงว่าจะไม่ ฉันถนัดประวัติศาสตร์ยุโรปมากกว่า โดยเฉพาะยุคคลาสสิกน่ะ ขอโทษทีนะ"
 
 # "She looks a bit downcast, but as she carefully closes the book and lays it back down on the table, her face perks up again."
-""
+"ยูโกะดูหมองไปเล็กน้อย แต่พอเธอปิดหนังสืออย่างเบามือแล้ววางไว้กับโต๊ะแล้วเธอก็ทำหน้าสดใสเหมือนเดิม"
 
 show yuukoshang smile_down
 with charachange
 
 # yu "Would you like another cup of coffee?"
-yu ""
+yu "รับกาแฟอีกแก้วไหม"
 
 # hi "Hmm? Oh, yeah, sure."
-hi ""
+hi "หืม? อ้อ ครับ รับ"
 
 show yuukoshang invis at center
 with dissolvecharamove
 
 # "I reach forward and get my book back as Yuuko gets up, takes my mug, and slowly walks to the counter to make another brew."
-""
+"ฉันเอื้อมไปหยิบหนังสือ ยูโกะลุกขึ้นหยิบแก้วฉันเดินไปที่เคาน์เตอร์ชงกาแฟให้ใหม่"
 
 # "As usual, she's absolutely silent as she does this; every ounce of her concentration is focused on not tripping over or dropping the plain white mug."
-""
+"ยูโกะเงียบสนิทไปทุกการกระทำเหมือนเคยเพราะต้องตั้งสมาธิอย่างแน่วแน่ระวังไม่ให้สะดุดหรือทำแก้วสีขาวนั้นตก"
 
 # "I take the opportunity to lay back and relax for a bit, the hum of the coffee machine filling the otherwise quiet air."
-""
+"ฉันถือโอกาสนี้เอนตัวผ่อนคลายเสียหน่อย บรรยากาศเงียบงันมีเพียงเสียงเครื่องทำกาแฟที่เข้ามาแทรก"
 
 # "It's small details like that which make me realize how much I've come to appreciate the little things in life."
-""
+"รายละเอียดเล็ก ๆ เช่นนี้เองที่ทำให้ฉันระลึกได้ว่าตัวเองจับสังเกตสิ่งเล็ก ๆ รอบตัวได้แล้ว"
 
 # "The peace and quiet of the local town, the discipline and order of Yamaku, the green of the trees that were so rare in my home city, the relaxed pace at which the aging residents live their lives…"
-""
+"ความสงบเงียบในเมืองชนบท ความมีวินัยเป็นระเบียบในยามากุ ต้นไม้เขียวชอุ่มที่พบได้ยากในเมืองที่ฉันจากมา\nผู้สูงอายุในท้องที่ที่ใช้ชีวิตกันแบบไม่เร่งร้อน…"
 
 # "Everything feels so… certain. It's comforting."
-""
+"ทุกอย่างมันช่าง… มั่นคง ชวนให้สบายใจ"
 
 # "I can feel myself beginning to nod off, when the sound of the mug coming to rest on the table grabs my attention. Seems like it arrived not a moment too soon."
-""
+"ฉันเกือบจะม่อยหลับไปแล้วถ้าไม่มีเสียงแก้วกาแฟที่วางบนโต๊ะมาดึงความสนใจฉันก่อน ดูท่าจะมาได้จังหวะพอดีเลย"
 
 show yuukoshang neutral_down at Position(ypos=1.15)
 with dissolvecharamove
 
 # "Yuuko takes her previous seat once again as I pick myself up and bring a hand around the mug to check its temperature. It's just a little too hot to drink right away, so I blow on it a little."
-""
+"ยูโกะนั่งลงที่เดิม ฉันยืดตัวนั่งตรงแล้วใช้มือแตะ ๆ แก้วเพื่อดูเรื่องอุณหภูมิ เมื่อเห็นว่ายังเย็นไม่พอที่จะดื่มได้ทันที\nจึงเป่าเบา ๆ"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "It's a shame you don't like history all that much. I sort of guessed you might be more into science."
-yu ""
+yu "น่าเสียดายนะที่เธอไม่ได้สนใจประวัติศาสตร์ขนาดนั้น แต่ก็พอเดาไว้แล้วละนะว่าเธอคงชอบวิทยาศาสตร์มากกว่า"
 
 # hi "How so?"
-hi ""
+hi "ทำไมเหรอครับ"
 
 show yuukoshang smile_up
 with charachange
 
 # yu "You've nearly read out the science fiction section of the library already. It wasn't hard to notice."
-yu ""
+yu "เธออ่านหนังสือหมวดนิยายวิทยาศาสตร์เกือบหมดแล้วนี่ ดูได้ไม่ยากหรอก"
 
 # hi "You do have a good point, there. Well, what can I say? You've pegged me just about right."
-hi ""
+hi "ก็ถูกนะครับ เอ่อ จะให้แก้ตัวยังไงล่ะ คุณเดาทางผมแม่นขนาดนี้"
 
 show yuukoshang neutral_down
 with charachange
 
 # hi "You sound like you really take an interest in history though, especially considering how specific you were about it. Do you study in that area, or something? Go on digs overseas?"
-hi ""
+hi "แต่คุณยูโกะก็ฟังดูสนใจประวัติศาสตร์มากเลยนะครับ ยิ่งเห็นพูดเจาะจงแบบนั้นอีก เรียนประวัติศาสตร์\nหรืออะไรแบบนั้นเหรอครับ ไปอยู่ต่างประเทศงี้"
 
 show yuukoshang closedhappy_up
 with charachange
 
 # "She giggles nervously at the thought."
-""
+"ยูโกะหัวเราะคิกคักเมื่อคิดตาม"
 
 show yuukoshang neurotic_down
 with charachange
 
 # yu "I'd like to visit the Mediterranean sometime and see the old architecture and art for myself, but I don't think I could trust myself to handle such delicate things."
-yu ""
+yu "ถ้ามีโอกาสฉันก็อยากไปดูศิลปะกับสถาปัตยกรรมโบราณที่แถบเมดิเตอร์เรเนียนเหมือนกันนะ แต่ฉันว่าตัวเอง\nคงอยู่กับของเปราะบางแบบนั้นไม่ได้หรอก"
 
 show yuukoshang neutral_down
 with charachange
 
 # yu "I'm saving up to formally study it in university, although I also read up on it whenever I have free time outside of work."
-yu ""
+yu "ฉันเก็บเงินไว้ไปเรียนให้เป็นเรื่องเป็นราวในมหาวิทยาลัยอยู่ แต่พอว่างจากงานแล้วฉันก็ไปหาของพวกนี้อ่าน\nเหมือนกัน"
 
 # "So Miki was right about her university aspirations. Considering how she fares as a waitress, a more theoretical path may suit Yuuko better. It's nice to hear that she has some ambitions though, considering how hard she works."
-""
+"สรุปคือจริงอย่างมิกิว่าที่ยูโกะอยากเรียนมหาวิทยาลัย ดูจากการทำงานในฐานะบริกรแล้ว เส้นทางภาคทฤษฎี\nน่าจะเหมาะกับเธอมากกว่า แต่ก็ดีใจที่เห็นว่าเธอมีจุดมุ่งหมายอะไรบ้าง เพราะเป็นคนขยันขนาดนี้"
 
-# "I nod and take a careful sip of my coffee. By now it's cooled to the right temperature, so I begin to drink while keeping an eye on the book below, trying to read at the same time."
-""
+# "I nod and take a careful sip of my coffee. By now it's cooled to the right temperature, so I begin to drink while keeping an eye on the book below,
+# trying to read at the same time."
+"ฉันพยักหน้าแล้วจิบกาแฟช้า ๆ ตอนนี้กาแฟเย็นได้ที่แล้วฉันจึงดื่มไปพลางมองหนังสือที่วางอยู่ข้างล่างอ่านไปด้วย"
 
 # "A few minutes pass quietly, Yuuko looking out the window and watching the world go by while I have my coffee and study."
-""
+"เวลาผ่านไปสองสามนาทีอย่างเงียบเชียบ ยูโกะมองโลกที่ดำเนินไปผ่านทางหน้าต่าง ส่วนฉันดื่มกาแฟไปอ่านหนังสือไป"
 
 show yuukoshang closedhappy_up
 with charachange
 
 # "A movement catches my eye, and I look up to see Yuuko smiling and waving to someone outside. Following her gaze surprisingly reveals the someone to be Hanako."
-""
+"ฉันสะดุดตาเข้ากับบางอย่างที่ขยับอยู่ พอเงยหน้ามองก็เห็นยูโกะที่ยิ้มโบกมือทักทายใครบางคนที่อยู่ข้างนอก\nฉันมองตามสายตาเธอไปแล้วต้องแปลกใจเมื่อเห็นว่าคนนั้นคือฮานาโกะ"
 
 # "She is looking at us from the side of the street across from where we are. Her usually all-too-visible timidity is largely absent, probably thanks to there being so few people around right now."
-""
+"ฮานาโกะยืนมองเราอยู่จากอีกฝั่งถนน ความอายที่ฉายชัดโดยปกติของเธอนั้นแทบไม่มีอยู่ อาจจะเพราะตอนนี้\nไม่ค่อยมีคนมาก"
 
 # "Evidently she decides to join us, as after a little wave, she gives a quick glance up and down the street and crosses towards the side that the café is on."
-""
+"ฮานาโกะโบกมือหย็อย ๆ แล้วก้ม ๆ เงย ๆ มองถนนก่อนจะข้ามมาฝั่งที่คาเฟนี้ตั้งอยู่ คงจะอยากมาร่วมวงด้วยละนะ"
 
 $ renpy.music.set_volume(0.3, 0.0, channel="sound")
 play sound sfx_storebell
@@ -2505,46 +2506,46 @@ show hanako basic_normal at tworight
 with dissolvecharamove
 
 # "The familiar doorbell to the Shanghai rings out as Hanako enters and makes her way to the table we're sitting at."
-""
+"ฮานาโกะเข้ามาพร้อมเสียงกระดิ่งของร้านเซี่ยงไฮ้อันคุ้นเคย เธอเดินมาที่โต๊ะที่พวกเรานั่งอยู่"
 
 show hanako cover_distant at Position(ypos=1.15)
 with dissolvecharamove
 
 # ha "H-hello…"
-ha ""
+ha "สะ-สวัสดี…"
 
 show yuukoshang smile_down
 with charachange
 
 # yu "Good afternoon."
-yu ""
+yu "ทิวาสวัสดิ์"
 
 # hi "Hi, Hanako. What's up?"
-hi ""
+hi "ไงฮานาโกะ ทำอะไรอยู่เหรอ"
 
 show hanako emb_smile
 with charachange
 
 # ha "N-nothing… just… g-going for a walk… since the weather was nice."
-ha ""
+ha "มะ-ไม่มีอะไร… แค่… เห็นว่าอากาศดี… เลยอะ-ออกมาเดินนิดหน่อย"
 
 # hi "Yeah, I get what you mean. I'm glad I decided to study here instead of the library."
-hi ""
+hi "อื้ม ก็จริงนะ คิดถูกจริง ๆ ที่วันนี้มาอ่านหนังสือที่นี่แทนที่ห้องสมุด"
 
 # "It's comfortable in here thanks to that, better than the sometimes quite stuffy library. I look to Yuuko, who nods in response."
-""
+"ในร้านก็อยู่สบายเพราะอากาศดีด้วย ดีกว่าห้องสมุดที่บางทีก็อึดอัด ฉันหันไปมองยูโกะที่พยักหน้าตอบ"
 
 show yuukoshang neutral_down
 with charachange
 
 # yu "It's nice. It's just a shame that summer can't last forever."
-yu ""
+yu "เห็นด้วย เสียดายที่หน้าร้อนอยู่ไม่ครบตลอดปี"
 
 show yuukoshang neurotic_up
 with charachange
 
 # yu "Oh wait, sorry, um, would you like a drink?"
-yu ""
+yu "เอ๊ะ เดี๋ยว ขอโทษที เอ่อ รับอะไรดีคะ"
 
 show hanako basic_smile
 with charachange
@@ -2553,49 +2554,49 @@ show yuukoshang neutral_down
 with charachange
 
 # "Hanako shakes her head. Thankfully, it's enough to calm Yuuko back down."
-""
+"ฮานาโกะสั่นหัว โชคดีที่แค่นั้นยูโกะก็สงบลงได้แล้ว"
 
 show hanako basic_bashful
 with charachange
 
 # ha "H-how are you going with studying?"
-ha ""
+ha "อะ-อ่านหนังสือเป็นไงบ้าง"
 
 # hi "Okay… ish."
-hi ""
+hi "ก็พอ… ได้"
 
 # hi "Oh yeah, have you talked with Lilly?"
-hi ""
+hi "เอ้อ แล้วเธอได้คุยกับลิลลี่หรือยัง"
 
 show yuukoshang smile_up
 with charachange
 
 # yu "I'm interested too; how is she doing?"
-yu ""
+yu "ฉันก็อยากรู้เหมือนกัน ลิลลี่เป็นยังไงบ้าง"
 
 show hanako cover_worry
 with charachange
 
 # ha "Sh-she's enjoying it… I think."
-ha ""
+ha "กะ-ก็เหมือนจะ… สนุกนะ"
 
 # "I… think that's all we're going to get out of her. Being around Yuuko is tensing her up."
-""
+"ฉัน… ว่าเราคงได้รู้แค่นี้แหละถ้าถามฮานาโกะ พออยู่กับยูโกะแล้วฮานาโกะก็เกร็ง"
 
 show yuukoshang closedhappy_down
 with charachange
 
 # yu "Ah, it would be so nice to travel to Scotland."
-yu ""
+yu "เฮ้อ ได้บินไปสกอตแลนด์คงดี"
 
 show yuukoshang happy_down
 with charachange
 
 # yu "Green fields, castles, lovely small towns, men in kilts, interesting history…"
-yu ""
+yu "ทุ่งสีเขียว ปราสาท เมืองเล็ก ๆ อันอบอุ่น ผู้ชายใส่กระโปรงคิลต์ ประวัติศาสตร์อันน่าสนใจ…"
 
 # "I can't say I see the appeal of men in kilts, myself. It does seem like a picturesque place, though."
-""
+"ฉันไม่ค่อยสนใจผู้ชายใส่กระโปรงคิลต์สักเท่าไหร่ แต่ก็น่าจะเป็นสถานที่ที่ทิวทัศน์สวยดี"
 
 play sound sfx_storebell
 
@@ -2604,7 +2605,7 @@ show yuukoshang panic_up
 with vpunch
 
 # "As we talk, the jingle of the doorbell rings again. Hanako is startled, noticing Yuuko's panicked expression at the prospect that she might leave customers to wait a handful of seconds, due to her chatter with us."
-""
+"ระหว่างที่คุยอยู่นั้นเสียงกระดิ่งประตูก็ดังขึ้นอีกครั้ง ฮานาโกะตกใจเมื่อเห็นยูโกะที่ลนลานเพราะคิดว่าตัวเอง\nมัวแต่คุยกับพวกเราจนอาจทำให้ลูกค้าต้องรออยู่ประมาณสองสามวินาที"
 
 show yuukoshang worried_down at twoleft
 with Dissolvemove(0.3)
@@ -2615,13 +2616,13 @@ hide yuukoshang
 with charaexit
 
 # "Yuuko gives us a quick bow, then hastily skitters over and greets the new customers, an elderly man and his wife. I watch her for a bit, craning my head around to get a good view."
-""
+"ยูโกะค้อมตัวเล็กน้อยแล้วรีบพุ่งตัวไปต้อนรับลูกค้าใหม่ที่เป็นชายแก่กับภรรยาของเขา ฉันมองยูโกะอยู่ครู่หนึ่ง\nพลางชะเง้อหน้ามองไปรอบ ๆ ร้าน"
 
 show hanako def_worry
 with charachange
 
 # "Hanako is staring at me with her one visible eye."
-""
+"ฮานาโกะจ้องฉันด้วยตาข้างหนึ่งที่ผมไม่ได้ปรกอยู่"
 
 show hanako def_worry:
      center
@@ -2633,58 +2634,58 @@ show hanako emb_downtimid
 with charachange
 
 # "She averts her head in embarrassment as I turn to make eye contact."
-""
+"เธอหันหน้าหนีด้วยความอายเมื่อฉันหันไปสบตาด้วย"
 
 # hi "I was just thinking that it's nice to have ambitions for the future. Yuuko was telling me a little about her university aspirations before."
-hi ""
+hi "พอดีคิดอยู่น่ะว่าการมีจุดมุ่งหมายในอนาคตนี่มันดีจังนะ เมื่อกี้ยูโกะก็เล่าเรื่องที่จะเข้ามหา’ลัยให้ฟังนิดหน่อย"
 
 show hanako emb_timid
 with charachange
 
 # ha "Oh."
-ha ""
+ha "อ้อ"
 
 # hi "It's a shame. If she wasn't so neurotic and overworked, I think she could be a really happy person."
-hi ""
+hi "น่าเสียดายนะ ถ้าไม่ใช่คนขี้ตระหนกที่ต้องทำงานหนักแบบนี้คงเป็นคนที่มีความสุขมาก ๆ เลย"
 
 # "As much as I'd like to play host to Hanako and entertain her a bit, I do need to study as well. To be honest, I don't think the distraction from Yuuko helped either."
-""
+"ถึงอยากจะเป็นเพื่อนคุยสนุก ๆ ให้ฮานาโกะอยู่ แต่ฉันเองก็ต้องอ่านหนังสือเหมือนกัน แต่ว่าตามตรง พอยูโกะ\nมากวนแล้วฉันก็ไม่ค่อยมีสมาธิแล้วด้วย"
 
 # hi "Sorry if I'm a bit distracted. I need to try and get this done, otherwise I'm going to flunk the history exams pretty hard."
-hi ""
+hi "ขอโทษนะถ้าคุยไปแบบเหม่อ ๆ น่ะ พอดีต้องจัดการเจ้านี่ให้เสร็จก่อน ไม่งั้นเดี๋ยวคะแนนวิชาประวัติศาสตร์\nตกฮวบแน่"
 
 # "I'm left running my hand through my hair in frustration. That letter needs doing as well, once I get back to my dormitory room."
-""
+"ฉันขยี้ผมด้วยความหัวเสีย เดี๋ยวพอกลับหอแล้วต้องไปจัดการกับจดหมายนั่นด้วย"
 
 # hi "I hope I have more luck with that than this. Damn."
-hi ""
+hi "หวังว่าจะทำไอ้นั่นได้ดีกว่างานนี้นะ ให้ตาย"
 
 show hanako emb_downtimid
 with charachange
 
 # ha "W-what with?"
-ha ""
+ha "อะ-ไอ้นั่นคืออะไรเหรอ"
 
 # hi "Oh, uh… I was going to… write to Iwanako. Right now though, this is more important."
-hi ""
+hi "อ้อ เอ่อ… พอดีจะ… เขียนจดหมายถึงอิวานาโกะน่ะ แต่ตอนนี้อันนี้สำคัญกว่า"
 
 # "All I've done is rattle myself. I can't focus on the work in front of me when my stomach is slowly turning at the prospect of actually attempting to write her back, after all this time."
-""
+"ฉันยิ่งทำตัวเองร้อนใจไปอีก พอท้องไส้ปั่นป่วนเมื่อนึกถึงว่าต้องเขียนกลับไปหาอิวานาโกะจริง ๆ ทั้งที่ผ่านมา\nนานขนาดนี้แล้วก็ไม่มีสมาธิจะมาจดจ่อกับงานตรงหน้าเลย"
 
 # "I force myself to concentrate on the book, picking up my pen once I have a quick sip of coffee."
-""
+"ฉันฝืนตัวเองให้จดจ่ออยู่กับหนังสือแล้วจิบกาแฟก่อนจับปากกา"
 
 show hanako basic_distant
 with charachange
 
 # "After a few seconds, Hanako stops silently watching me and leans back in her seat, relaxing as much as she ever seems to be able to, looking out the window to pass the time."
-""
+"ผ่านไปสองสามวินาทีฮานาโกะก็เลิกมองฉันแบบเงียบ ๆ แล้วเอนตัวพิงพนักทำท่าผ่อนคลายที่สุดซึ่งฉันก็เคยเห็น\nว่าเธอผ่อนคลายได้ที่สุดก็ประมาณนี้แล้วมองออกไปนอกหน้าต่างฆ่าเวลา"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 stop music fadeout 3.0
 
 # "We stay like this for a long time before leaving for the dormitories together. I'm surprised she had the patience to wait me out."
-""
+"เรานั่งด้วยกันอย่างนั้นอยู่นานก่อนจะออกร้านแล้วกลับหอ ฉันนึกประหลาดใจที่ฮานาโกะใจเย็นพอจะรอจนฉันออกมา"
 
 scene ev hisao_letter_open
 with shorttimeskip
@@ -2692,40 +2693,40 @@ with shorttimeskip
 play music music_night fadein 1.0
 
 # "Iwanako's letter lies on my desk beside a blank sheet of lined paper and an unused envelope. The tapping of my pen is the only thing to be heard this late at night."
-""
+"จดหมายของอิวานาโกะวางบนโต๊ะฉันอยู่ข้างกระดาษตีเส้นเปล่ากับซองจดหมายที่ยังไม่ได้ใช้ ค่ำคืนนี้มีเพียง\nเสียงกดปากกาที่ดังก้องอยู่"
 
 # "As I feared, my second task for the day turns out to be just as difficult as the first, if not harder."
-""
+"และภาระที่สองของวันนี้ก็ยากพอ ๆ กันกับภาระแรก—หรือไม่ก็อาจยากกว่า—อย่างที่หวั่นใจไว้"
 
 # "It's been so many months since we even saw each other. Even so, I can still remember what she looked like, what she sounded like, and what she acted like. By now, though, the little details are beginning to slip away."
-""
+"เราไม่ได้เจอหน้ากันมานานหลายเดือนมากแล้ว ถึงอย่างนั้นฉันก็ยังจำได้ว่าเธอหน้าตาเป็นอย่างไร เสียงเป็นอย่างไร\nกิริยาท่าทีเป็นอย่างไร แต่ตอนนี้ฉันก็ลืม ๆ รายละเอียดบางส่วนไปบ้างแล้ว"
 
 # "When I first saw her letter, I barely recognized her handwriting at all. Even the pink pen she always used was forgotten until her writing reminded me of it."
-""
+"ตอนที่ได้เห็นจดหมายของเธอเป็นครั้งแรกฉันแทบจำลายมือไม่ได้ด้วยซ้ำ ลืมไปแล้วว่าปกติเธอใช้ปากกา\nหมึกสีชมพูเขียนจนนึกได้ก็ตอนที่เห็นลายมือของเธอ"
 
 # "I wonder why she didn't use it for the letter; she used to write everything with it. Maybe she thinks it's too immature now."
-""
+"อยากรู้จังว่าทำไมถึงไม่เขียนจดหมายฉบับนี้ด้วยปากกาสีชมพู ทั้งที่เมื่อก่อนก็ใช้เขียนทุกอย่าง อาจจะเพราะตอนนี้\nมองว่าเป็นอะไรที่ดูเป็นเด็ก ๆ ละมั้ง"
 
 # "I should be thinking about myself, and about what I want to communicate to her. My mind can't stop concentrating on her, though. On the past we shared before it was taken away so suddenly."
-""
+"ที่จริงตอนนี้ฉันควรคิดถึงเรื่องตัวเองกับคิดว่าจะสื่อสารอะไรกับเธอบ้าง แต่ใจฉันยังจดจ่ออยู่กับเธอไม่หยุด จดจ่อ\nอยู่กับอดีตที่เราเคยอยู่ด้วยกันก่อนที่ช่วงเวลานั้นจะถูกพรากไปอย่างกะทันหัน"
 
 # "The bright and slightly garish decorations suit her sense of aesthetics. Picking up the letter to take a closer look at it, I give a long sigh."
-""
+"ของประดับสดใสดูบาดตาเล็กน้อยนั้นสมกับรสนิยมของตัวเธอจริง ๆ ฉันหยิบจดหมายขึ้นมาดูใกล้ ๆ\nแล้วถอนหายใจพรืด"
 
 # "This is the last link binding me to my past. Iwanako didn't suddenly cease to exist when she left my hospital room for the last time, but I needed this letter to remind me of that."
-""
+"สิ่งนี้เป็นพันธะสุดท้ายที่ยังตรึงฉันไว้กับอดีต ฉันต้องให้จดหมายนี้มาเป็นสิ่งเตือนว่าอิวานาโกะไม่ได้หายตัวไปทันที\nหลังจากที่ออกจากห้องในโรงพยาบาลนั้นไปเป็นครั้งสุดท้าย"
 
 # "I had all those feelings neatly filed away. I felt as if I didn't need them, that I could just begin life completely anew. It was easier that way."
-""
+"ฉันเก็บความรู้สึกเหล่านั้นไว้ในลิ้นชักเรียบร้อยแล้ว ฉันคิดว่าตัวเองคงไม่ต้องการความรู้สึกเหล่านั้น คิดว่าคง\nเริ่มชีวิตใหม่ตั้งแต่ต้นได้ ทำแบบนั้นแล้วอะไร ๆ จะง่ายขึ้น"
 
 # "In the end, I suppose that was a rather naive thing to think. Sooner or later, my past would have caught up with me one way or the other."
-""
+"สุดท้ายแล้วฉันคงคิดง่ายเกินไปสินะที่คิดแบบนั้น ไม่ช้าก็เร็ว สักวันอดีตจะต้องหวนกลับมาหาตัวฉัน\nไม่ทางใดก็ทางหนึ่ง"
 
 # "But what am I supposed to say to her? “Thank you for bringing me closure?” All the letter did was end the sense of closure I'd previously felt."
-""
+"แต่จะให้ฉันพูดกับเธอว่ายังไงล่ะ “ขอบคุณที่พูดส่งท้ายกันนะ” จดหมายฉบับนี้ก็ทำได้เพียงแค่ย้ำชัดถึงความรู้สึก\nว่าทุกสิ่งจบลงไปแล้วที่ฉันเคยรู้สึก"
 
 # "Try as I might, I can't write so much as a single word down on the paper in front of me. I can't even think of what exactly I want to say."
-""
+"ไม่ว่าจะคิดหนักแค่ไหนฉันก็เขียนลงบนกระดาษตรงหน้านี้ไม่ได้เลยแม้แต่คำเดียว คิดไม่ออกด้วยซ้ำว่าต้องพูดอะไร"
 
 stop music fadeout 4.0
 
@@ -2733,16 +2734,16 @@ scene bg school_dormhisao_ss
 with locationchange
 
 # "Putting the letter down on top of the blank sheet, I gather the materials together and file them away in my drawer."
-""
+"ฉันวางจดหมายฉบับนั้นไว้บนกระดาษเปล่าแล้วรวบของทุกอย่างใส่ลิ้นชักไว้"
 
 # "The clunk the desk makes as it closes makes me momentarily tense in frustration, before I get up to go grab a drink from the vending machine on the first floor."
-""
+"เสียงดังกึงจากโต๊ะเมื่อดันลิ้นชักเข้าไปแล้วทำให้ฉันตัวเกร็งขึ้นมาแวบหนึ่งด้วยความหงุดหงิด ฉันลุกขึ้น\nไปซื้อเครื่องดื่มจากตู้ขายของแบบหยอดเหรียญที่อยู่ชั้นหนึ่ง"
 
 scene bg school_dormhallway
 with locationchange
 
 # "I tried, but I couldn't do it. After all the time that's passed, I still don't know how to deal with Iwanako."
-""
+"ฉันพยายามแล้วแต่ก็ทำไม่ได้ ผ่านมานานขนาดนี้แล้วฉันก็ยังไม่รู้ว่าจะต้องรับมือเรื่องอิวานาโกะอย่างไร"
 
 scene black
 with dissolve
