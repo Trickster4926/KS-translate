@@ -1948,171 +1948,171 @@ scene bg school_scienceroom at bgright
 with locationchange
 
 # "Since talking to Lilly yesterday, I've wanted to try and move on from the listlessness I've felt ever since coming to Yamaku."
-""
+"ตั้งแต่คุยกับลิลลี่มาเมื่อวานฉันก็อยากทำตัวให้หลุดพ้นจากความเอื่อยเฉื่อยที่เป็นมาตลอดตอนที่อยู่ยามากุ"
 
 # "But even if I try to concentrate on the book in front of me, Hanako's empty seat at the back of the classroom looms larger than life. Every time I start getting focused, my eyes flick over to her desk again and my mind starts spinning."
-""
+"แต่ไม่ว่าจะพยายามจดจ่อกับหนังสือตรงหน้ามากเท่าไหร่ โต๊ะฮานาโกะที่ว่างอยู่นั้นยังเบียดสมาธิฉันได้ ทุกครั้ง\nที่เริ่มตั้งสมาธิได้แล้วตาฉันก็จะเหลือบไปทางโต๊ะฮานาโกะอีกรอบพาให้ฉันหัวหมุน"
 
 show miki smile at center
 with charaenter
 
 # "Once more my eyes drift over to it, but this time my vision is blocked by a certain other classmate."
-""
+"ฉันเหลือบไปมองที่โต๊ะฮานาโกะอีกครั้ง แต่คราวนี้มีเพื่อนร่วมห้องคนหนึ่งมาบดบังวิสัยทัศน์"
 
 # hi "Oh, hey Miki."
-hi ""
+hi "อ้าว ไงมิกิ"
 
 show miki grinclosed
 with charachange
 
 # mk "Maybe you should just have lunch. I can hear your stomach growling from my desk."
-mk ""
+mk "ไปกินข้าวเที่ยงเหอะ เสียงท้องร้องของนายดังมาถึงโต๊ะฉันเลยเนี่ย"
 
 play music music_happiness
 
 # "I let my head drop in disappointment. She seems to take some amusement from my reaction, and hops up onto my desk. Her grin as she sits on it reminds me of the Cheshire Cat."
-""
+"ฉันก้มหัวลงด้วยความผิดหวัง ดูท่าจะชอบใจที่เห็นฉันเป็นแบบนี้ มิกิโดดขึ้นนั่งกับโต๊ะฉันแล้วฉีกยิ้ม\nชวนให้นึกถึงแมวเชสเชียร์"
 
 show miki grin_close
 with characlose
 
 # mk "So, whatcha' workin' on?"
-mk ""
+mk "แล้วนี่ทำไรอยู่"
 
 # hi "Some math. I have a decent handle on it, but I just wanted to revise."
-hi ""
+hi "คณิต พอจะเข้าใจอยู่นะ แต่อยากทบทวนอีกหน่อย"
 
 show miki whistle_close
 with charachange
 
 # mk "Oh really? Lemme see that."
-mk ""
+mk "จริงดิ ขอดูหน่อย"
 
 # "Before I can object, she grabs my mathematics book with her hand. She scans the page I was on, holding it open with the one hand she has, her left arm sitting uselessly on her lap."
-""
+"ยังไม่ทันได้แย้งอะไรมิกิก็คว้าหนังสือคณิตศาสตร์ไปแล้ว เธอดูหน้าที่ฉันเปิดไว้อยู่ด้วยมือข้างหนึ่งที่มีอยู่\nส่วนแขนข้างซ้ายวางอยู่บนตักนิ่ง ๆ"
 
 # "In my time here at Yamaku, I've noticed that the other students have a wide range of adjustment to their disabilities, on a purely practical level. Miki is one of those who seem to have some trouble."
-""
+"เท่าที่อยู่ยามากุมาฉันเห็นว่าความสามารถในการปรับตัวเข้ากับความพิการของนักเรียนแต่ละคนนั้นแตกต่างกันมาก\nถ้าว่ากันด้วยเฉพาะการใช้ชีวิตตามปกติน่ะนะ มิกิจะอยู่ในกลุ่มที่ยังปรับตัวได้ไม่คล่องนัก"
 
 # "The stump of her left arm tends to be either hanging by her side, slipped into a pocket, or otherwise put out of the way. Sometimes she has a difficult time doing common tasks, which makes her visibly quite frustrated."
-""
+"ท่อนแขนข้างซ้ายของมิกิจะอยู่แนบลำตัวเฉย ๆ บ้าง อยู่ในกระเป๋าเสื้อบ้าง หรือไม่ก็ไพล่หลังไว้ บางทีก็จะมีปัญหา\nกับการทำอะไรในทุก ๆ วัน ซึ่งเธอจะทำสีหน้าชัดว่าหงุดหงิดพอสมควร"
 
 # "I feel a little bad for thinking this way, but I'm thankful that Hanako and I don't have disabilities affecting our freedom of movement to that extent."
-""
+"รู้สึกผิดอยู่ที่คิดแบบนี้ แต่ฉันก็ดีใจที่ฮานาโกะกับฉันไม่ได้มีความพิการที่มีผลต่อการเคลื่อนไหวมากขนาดนั้น"
 
 # "Then again… if Miki's problem worsened, at least she wouldn't have a real possibility of dying."
-""
+"แต่ก็นะ… ถ้าอาการของมิกิหนักกว่านี้ อย่างน้อยก็ไม่ได้ถึงขั้นใกล้ตาย"
 
 show miki smile_close
 with charachange
 
 # "My attention is refocused as she thumbs through a few pages, skimming their contents. With such casual interest in the subject matter, it's clear by now that she won't be any help."
-""
+"ฉันหันกลับมาสนใจมิกิอีกครั้งเมื่อเธอเปิดไปตามแต่ละหน้าดูเนื้อหาคร่าว ๆ สนใจแค่ผ่าน ๆ แบบนี้ก็ชัดแล้วละ\nว่าคงช่วยอะไรไม่ได้หรอก"
 
 # hi "I'm guessing you're not too interested in this stuff?"
-hi ""
+hi "ไม่ค่อยชอบอะไรแบบนี้งั้นสิ"
 
 show miki angry_close
 with charachange
 
 # mk "Screw math. It's boring as hell."
-mk ""
+mk "ช่างหัวคณิต น่าเบื่อจะตาย"
 
 # "She puts the book back in front of me with indifference. Her eyes move to the notebook beside it that I'd been working out practice equations on."
-""
+"มิกิวางหนังสือคืนที่ตรงหน้าฉันอย่างไม่ยี่หระ เธอเลื่อนตามองมาที่สมุดข้าง ๆ ที่ฉันกำลังทำแบบฝึกหัดอยู่"
 
 show miki confused_close
 with charachange
 
 # mk "Wait, you're actually able to work that stuff out?"
-mk ""
+mk "เดี๋ยว นี่นายทำได้จริงดิ"
 
 # hi "Yeah."
-hi ""
+hi "อืม"
 
 show miki wink_close
 with charachange
 
 # mk "Wow. I've never talked to a computer with legs before."
-mk ""
+mk "โห ไม่เคยคุยกับคอมฯ เดินได้เลยนะเนี่ย"
 
 # hi "Thanks… I think. At least I'm doing better in this than history."
-hi ""
+hi "ขอบใจ… มั้ง อย่างน้อยก็ดีกว่าวิชาประวัติศาสตร์อะนะ"
 
 show miki grin_close
 with charachange
 
 # mk "Think it's worth asking that librarian for help? I heard she's shooting for uni."
-mk ""
+mk "ไปให้บรรณารักษ์คนนั้นช่วยก็น่าจะได้นะ เห็นว่าอยากเข้ามหา’ลัยเหมือนกัน"
 
 # hi "Ah, Yuuko? Maybe. I don't know what she wants to study, though."
-hi ""
+hi "อ้อ ยูโกะเหรอ มั้งนะ แต่ไม่รู้ว่ายูโกะจะเรียนคณะอะไรนี่สิ"
 
 # hi "So what about you? Got anything you're thinking of doing after you graduate?"
-hi ""
+hi "ว่าแต่เธอเถอะ เรียนจบแล้วจะไปทำอะไรต่อล่ะ"
 
 show miki grinclosed_close
 with charachange
 
 # mk "Me? Nah, not really. Just enjoying it while it lasts."
-mk ""
+mk "ฉันเหรอ ไม่อะ ไม่ได้คิด แค่ใช้ชีวิตให้สนุกเต็มที่ก่อน"
 
 # "She looks a little awkward when asked about her future, and absentmindedly rubs her left forearm. I kind of want to ask her about it, but I don't think I know her well enough to do so."
-""
+"มิกิดูกระอักกระอ่วนไปเล็กน้อยตอนที่ฉันถามเรื่องอนาคตพลางลูบต้นแขนข้างซ้ายเหม่อ ๆ อยากจะถามต่อ\nอยู่เหมือนกัน แต่ฉันคงไม่ได้รู้จักเธอดีพอที่จะถามแบบนั้น"
 
 show miki serious_close
 with charachange
 
 # "The conversation peters out, and I lean back in my chair, giving up on the prospect of studying. Miki notices my tired expression and looks oddly serious."
-""
+"บทสนทนาจบลงเพียงเท่านั้น ฉันเอนตัวพิงพนักถอดใจเรื่องอ่านหนังสือแล้ว มิกิเห็นฉันที่ดูอ่อนล้าจึงทำสีหน้า\nจริงจังแปลก ๆ ขึ้นมา"
 
 # mk "Thinking about Hanako?"
-mk ""
+mk "คิดถึงฮานาโกะอยู่เหรอ"
 
 # hi "It's that obvious?"
-hi ""
+hi "ชัดขนาดนั้นเลยเชียว?"
 
 show miki wink_close
 with charachange
 
 # mk "You've been glancing at her seat, and you've been pretty quiet. Not too hard to connect the dots."
-mk ""
+mk "ก็เห็นเอาแต่มองโต๊ะฮานาโกะ แล้วนายก็เงียบ ๆ ด้วย เดาได้ไม่ยากหรอก"
 
 # hi "I'm just worried about her."
-hi ""
+hi "แค่เป็นห่วงน่ะ"
 
 show miki serious_close
 with charachange
 
 # mk "Yeah, I can see why you would be. She can get… weird, sometimes."
-mk ""
+mk "อืม ก็พอจะรู้นะนายว่าเป็นห่วงเพราะอะไร บางทีฮานาโกะก็ทำตัว… แปลก ๆ เหมือนกัน"
 
 # "She sounds put off, but I can't blame her. Hanako was a hard person to interact with before she warmed up to me, even with Lilly around to help. I haven't known her for that long either, so some of her habits would still be unknown to me."
-""
+"น้ำเสียงมิกิฟังดูอึดอัด แต่ก็ว่าไม่ได้หรอก ก่อนที่ฮานาโกะจะเปิดใจให้ฉันเธอก็เป็นคนที่ปฏิสัมพันธ์ด้วยยากแม้จะมีลิลลี่\nคอยช่วยอยู่ด้วยก็ตามที ฉันเองก็ไม่ได้รู้จักฮานาโกะมานานขนาดนั้น อาจจะมีนิสัยบางอย่างที่ฉันยังไม่รู้ก็ได้"
 
 # "My face becomes troubled. If I hadn't developed feelings for her, this would be at least a little easier to deal with."
-""
+"ฉันทำหน้ายุ่ง ถ้าฉันไม่ได้มีความรู้สึกอะไรต่อฮานาโกะแล้วเรื่องนี้ก็คงจะรับมือง่ายขึ้นมาอีกหน่อย"
 
 show miki whistle_close
 with charachange
 
 # mk "Ah, I mean, no offense. She isn't a bad person, I know that much."
-mk ""
+mk "อ่า คือ ไม่ได้จะว่าอะไรนะ ฉันรู้น่าว่าฮานาโกะก็ไม่ใช่คนไม่ดีหรอก"
 
 # told miki about love
 label th_H25a:
 
 # hi "I know, I didn't take it that way. It's just harder to deal with when, well, you know. You have feelings for someone."
-hi ""
+hi "เข้าใจ ฉันก็ไม่ได้ถืออะไรหรอก แค่ว่าพอ แบบ มีความรู้สึกต่อใครสักคนแล้วมันก็รับมือยากน่ะ"
 
 show miki serious_close
 with charachange
 
 # mk "Yeah, I can imagine that. It's hard to forget something like what happened to her during class, too."
-mk ""
+mk "อืม พอจะนึกออกอยู่ แถมจะให้ลืมเรื่องอย่างที่เกิดในห้องตอนนั้นก็คงยากด้วย"
 
 # "I wish she hadn't reminded me of that. She just confirmed that it was clearly noticed by others in the room as well."
-""
+"ไม่น่ามาสะกิดใจกันเลย ยิ่งแบบนี้ก็เป็นการยืนยันว่าคนอื่นในห้องก็สังเกตเห็นด้วยเหมือนกัน"
 
 # end conditional
 label th_H25c:
@@ -2121,16 +2121,16 @@ show miki smile_close
 with charachange
 
 # mk "Come on, don't get that down. She's done this before, you've just gotta wait it out."
-mk ""
+mk "ไม่เอาน่า อย่าไปซึมอย่างนั้น ฮานาโกะก็เคยเป็นแบบนี้มาก่อนแล้ว นายแค่รอไปก็พอ"
 
 # "She locks herself in her room and acts like an empty husk of a person for a sizable amount of time, ever since she entered Yamaku if not before then as well, and I'm not supposed to be concerned about that?"
-""
+"ฮานาโกะขังตัวเองไว้ในห้องแล้วทำท่าเหมือนตัวเองเป็นแค่เปลือกที่ว่างเปล่าอยู่ระยะหนึ่งแบบนั้น ซึ่งเป็นแบบนี้\nมาตั้งแต่เข้าเรียนที่ยามากุหรืออาจจะก่อนหน้านั้นด้วย แล้วแบบนี้จะไม่ให้เป็นห่วงได้ยังไง"
 
 # "Well, I might think that, but there's nothing that I can do. I can't force her to come out, and she does see a therapist, so it's not like she isn't getting any help for her issues."
-""
+"โอเค ฉันคิดว่างั้นก็จริง แต่ก็ใช่ว่าจะทำอะไรได้ จะบังคับให้ออกมาจากห้องก็ไม่ได้ แล้วยังไงฮานาโกะก็พบจิตแพทย์\nอยู่แล้วด้วย ไม่ใช่ว่าจะไม่มีคนมาช่วยเรื่องปัญหาของเธอเลยสักหน่อย"
 
 # "Maybe it's natural to think that way when you're so powerless to help someone. “That's just the way she is, and you just have to deal with it.”"
-""
+"พอช่วยอะไรใครสักคนไม่ได้แล้วจะคิดแบบนี้ก็คงไม่แปลก “เธอก็เป็นแบบนี้แหละ ทำใจยอมรับไปเสีย”"
 
 show bg school_scienceroom at center
 show miki smile_close at twoleft
@@ -2139,7 +2139,7 @@ with charamove
 stop music fadeout 3.0
 
 # "As I mull things over, I notice a movement out of the corner of my eye. I glance to see who it is, and end up doing a doubletake."
-""
+"ระหว่างที่ครุ่นคิดอะไรหลายอย่างก็เห็นบางอย่างขยับอยู่ที่หางตา เมื่อเหลือบมองว่าใครมาก็ต้องดูให้แน่ใจอีกครั้ง"
 
 show hanako invis:
     right
@@ -2150,13 +2150,13 @@ show hanako basic_normal at right
 with dissolvecharamove
 
 # "Sure enough, it's Hanako. She walks through the door just as she would any normal school day, and begins to move towards her seat in her usual silent and humble manner."
-""
+"ฮานาโกะไม่ผิดแน่ เธอเดินผ่านประตูเข้ามาเหมือนมาเรียนตามปกติแล้วเดินมาที่โต๊ะตัวเองด้วยท่าทีสงบเสงี่ยม\nไร้เสียงใด ๆ เช่นเคย"
 
 show hanako emb_downtimid
 with charachange
 
 # "She looks at me for a moment before blushing and looking away in embarrassment, which makes me realize that I was staring at her. I feel sorry for that, but not doing it is hard after all that's happened."
-""
+"ฮานาโกะมองฉันแวบหนึ่งก่อนจะหน้าแดงแล้วเบือนหน้าหนีไปด้วยความอาย ซึ่งฉันก็เพิ่งรู้ตัวว่าจ้องเธออยู่ รู้สึกผิด\nเลยแฮะ แต่จะห้ามตัวเองก็คงยาก เกิดเรื่องอะไรตั้งขนาดนั้น"
 
 hide hanako
 with charaexit
@@ -2168,46 +2168,46 @@ show miki grinclosed_close at center
 with dissolvecharamove
 
 # "The girl sitting on my desk looks to me, grinning."
-""
+"สาวที่นั่งโต๊ะฉันอยู่หันมามองแสยะยิ้ม"
 
 show miki grin_close
 with charachange
 
 # mk "See? Your sweetheart's back already. What did I tell ya?"
-mk ""
+mk "เห็นมะ หวานใจนายกลับมาแล้ว ก็บอกแล้วไง"
 
 # hi "You be quiet."
-hi ""
+hi "เงียบไปเลยเธอ"
 
 # "It might only be meant as a joke, but she hits close enough to make me quite uncomfortable."
-""
+"ถึงจะพูดเล่น แต่ก็จี้ใจดำจนฉันขัดเขินขึ้นมาเหมือนกัน"
 
 show miki smile
 with charadistant
 
 # "As we talk, someone calls Miki's name from the door. She jumps down from her vantage point on my desk before turning to me."
-""
+"ระหว่างที่คุยกันก็มีคนมาที่ประตูเรียกมิกิ เธอโดดลงจากมุมสูงบนโต๊ะฉันแล้วหันมามอง"
 
 show miki grin
 with charachange
 
 # mk "Gotta go, Hisao. Remember to eat sometime, will ya?"
-mk ""
+mk "ไปละนะฮิซาโอะ กินข้าวกินปลาบ้างนะ"
 
 # hi "Fine, I will. See you."
-hi ""
+hi "อืม ได้ เจอกัน"
 
 hide miki
 with charaexit
 
 # "She gives a casual salute before jogging over to the door, where a male student in gym uniform is waiting for her. Probably someone from the track and field club."
-""
+"มิกิทำท่าบอกลาสบาย ๆ แล้ววิ่งเหยาะ ๆ ไปที่ประตูซึ่งมีนักเรียนชายใส่ชุดพละยืนอยู่ คงจะเป็นคนในชมรมกรีฑาละมั้ง"
 
 show bg school_scienceroom at right
 with charamove_slow
 
 # "Seizing the opportunity, I get up and make my way to Hanako's desk."
-""
+"ฉันอาศัยจังหวะนี้ลุกขึ้นเดินไปที่โต๊ะฮานาโกะ"
 
 show hanako emb_timid:
     center
@@ -2215,43 +2215,43 @@ show hanako emb_timid:
 with charaenter
 
 # ha "H-hello…"
-ha ""
+ha "สะ-สวัสดี"
 
 # hi "Hi, Hanako. What's up?"
-hi ""
+hi "ไงฮานาโกะ ทำไรอยู่"
 
 show hanako emb_downtimid
 with charachange
 
 # ha "N-nothing…"
-ha ""
+ha "มะ-ไม่ได้ทำอะไร…"
 
 # "Maybe talking to her this soon after she came back to class was a bad move."
-""
+"สงสัยการรีบคุยทันทีที่ฮานาโกะกลับมาเข้าเรียนเลยอาจไม่ใช่เรื่องที่ดีเท่าไหร่"
 
 # hi "Want to go come with me and grab something from the cafeteria? I'm pretty hungry."
-hi ""
+hi "ไปหาอะไรกินที่โรงอาหารด้วยกันไหม ฉันหิวแล้ว"
 
 show hanako cover_worry
 with charachange
 
 # ha "But… I thought you were studying."
-ha ""
+ha "แต่… นายอ่านหนังสืออยู่ไม่ใช่เหรอ"
 
 # "Studying can wait. Turning up for class after all this time must have taken some courage for Hanako, so the least I can do is stay with her."
-""
+"ไว้ค่อยอ่านก็ได้ กว่าจะมาเข้าเรียนได้คงต้องใช้ความกล้าเป็นอย่างมากทีเดียวกับฮานาโกะที่ผ่านช่วงเวลานั้นมา\nอย่างน้อยฉันก็อยากอยู่เคียงข้างเธอ"
 
 # "“That's just the way she is, and you just have to deal with it” is the way Miki, and probably the class as a whole, views Hanako. I can do more for her, though. I want to do more for her."
-""
+"“เธอก็เป็นแบบนี้แหละ ทำใจยอมรับไปเสีย” เป็นแนวคิดที่มิกิและอาจจะคนทั้งห้องด้วยใช้มองฮานาโกะ แต่ฉัน\nยังทำเพื่อเธอได้มากกว่านั้น ฉันอยากทำเพื่อเธอให้มากกว่านั้น"
 
 # hi "After being distracted by Miki, I don't think I'm going to get any work done. Come on, let's go."
-hi ""
+hi "มิกิมากวนสมาธิจนฉันไม่น่าทำอะไรได้แล้วละ เถอะน่า ไปกัน"
 
 show hanako basic_bashful at center
 with dissolvecharamove
 
 # "She hesitates, but eventually gets up and joins me as we begin walking. These may be small steps for her, but the fact that she's finally out of her room of her own volition lifts a large weight off my shoulders."
-""
+"ฮานาโกะชั่งใจก่อนจะลุกขึ้นเดินตามฉันไปด้วยกัน อาจเป็นก้าวเล็ก ๆ สำหรับเธอ แต่แค่เธอตั้งใจมาเข้าเรียน\nด้วยตัวเองแบบนี้ฉันก็สบายใจขึ้นมากแล้ว"
 
 stop music fadeout 2.0
 
