@@ -3078,37 +3078,37 @@ $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 2.0
 
 # "The heat of the summertime sun beats down on my sweating brow. Dabbing with a handkerchief doesn't help too much in making me any more comfortable."
-""
+"ความร้อนจากแดดฤดูร้อนส่องกระทบคิ้วเปียกเหงื่อของฉัน ใช้ผ้าเช็ดหน้าเช็ดเหงื่อแล้วก็ไม่ได้ช่วยให้รู้สึกสบายตัว\nขึ้นมาเท่าไหร่เลย"
 
 # "Giving up on the idea of getting more done today, I stop and lean against one of the overpass fences, resting my bag on the ground."
-""
+"ฉันล้มเลิกความคิดที่จะไปทำอะไรต่อแล้ววางกระเป๋าลงกับพืื้นยืนพิงรั้วทางยกระดับ"
 
 # "The stores in the town below Yamaku are well-stocked and offer enough variety for me to get by, but at least an occasional shopping trip to the city is something that can't really be avoided."
-""
+"ร้านในเมืองข้างล่างยามากุนั้นมีของครบครันและหลากหลายพอให้ฉันอยู่ได้แล้วก็จริง แต่อย่างไรบางครั้งก็เลี่ยงไม่ได้\nที่จะต้องเข้ามาซื้อของในตัวเมือง"
 
 # "I've been here a few times, now. The city's layout is getting more familiar, and the nostalgia from its atmosphere is beginning to wear off."
-""
+"ฉันมาที่นี่สองสามครั้งได้แล้วจนเริ่มชินกับผังเมืองขึ้นมาและความรู้สึกชวนคิดถึงเริ่มจางลงไป"
 
 # "I realize that I've begun to wheeze. I sound like an old man that's overexerted himself, and having to connect that to the fact that I'm the source is a bit disturbing."
-""
+"ฉันเริ่มหืดขึ้นคอแล้ว ฟังดูอย่างกับคนแก่ที่ฝืนออกแรงมากไปเลย แล้วยิ่งฉันเป็นคนทำเสียงแบบนั้นอีก\nก็ยิ่งทำให้รู้สึกขนลุกขึ้นมา"
 
 # "I put a hand on my chest and concentrate for a bit to make sure I haven't gone far enough to cause any further problems."
-""
+"ฉันทาบมือไว้กับหน้าอกแล้วตั้งสมาธิเล็กน้อยให้แน่ใจว่าอาการตอนนี้ยังไม่ถึงขั้นที่จะเป็นปัญหาอะไรอีก"
 
 # "Thankfully, my heart is acting normally. There's no dull pain, and the beating is regular, albeit fast-paced, as I recover from overdoing things in this kind of heat."
-""
+"โชคดีที่หัวใจฉันยังปกติ ไม่ได้ปวดหนึบ จังหวะยังสม่ำเสมอถึงจะเร็วอยู่ ฉันพักให้หายเหนื่อยจากการทำอะไรเกินตัว\nท่ามกลางอากาศร้อน ๆ แบบนี้"
 
 # "I hate my body. It's frustrating to be held back, even more to be held back by fear of my life being ended, when doing something as simple as walking around the city for a while."
-""
+"ไม่ชอบร่างกายตัวเองเลย พอมีอะไรมาฉุดไว้แล้วก็หงุดหงิด ยิ่งสิ่งที่ฉุดนั้นคือความกลัวว่าชีวิตจะจบลงแล้วด้วย ทั้งที่\nก็แค่มาเดินในตัวเมืองอยู่แป๊บ ๆ เท่านั้นเอง"
 
 $ renpy.music.set_volume(0.2, 0.0, channel="sound")
 play sound sfx_phone
 
 # "As I ponder on my health, I feel my pocket vibrating. By the time my phone's begun to ring, my hand is already fishing for it."
-""
+"ระหว่างที่ใคร่ครวญถึงเรื่องสุขภาพตัวเองอยู่กระเป๋ากางเกงก็สั่นขึ้นมา กว่าเสียงเรียกเข้าจะดังฉันก็ตะปบมือ\nหาโทรศัพท์ไปก่อนแล้ว"
 
 # "A glance at the screen shows a caller number I don't recognize. Strange."
-""
+"เมื่อมองหน้าจอโทรศัพท์ก็เห็นว่าเป็นเบอร์โทร. ที่ไม่คุ้นเลย แปลก"
 
 $ renpy.music.set_volume(0.1, 2.0, channel="ambient")
 $ renpy.music.set_volume(0.5, 2.0, channel="music")
@@ -3121,57 +3121,57 @@ with locationchange
 with Pause (0.5)
 
 # "Shrugging, I press the button to answer the call and bring the phone to my ear."
-""
+"ฉันยักไหล่ก่อนจะกดรับสายแล้วยกโทรศัพท์ขึ้นมาไว้ข้างหู"
 
 # hi "Hello, Hisao Nakai speaking."
-hi ""
+hi "ฮัลโหลครับ ฮิซาโอะ นากาอิครับ"
 
 mystery "…"
 
 # "The sound of a couple of short breaths can be heard, but no actual speech is forthcoming."
-""
+"เสียงหายใจเข้าออกสองสามทีดังลอดมา แต่ไม่มีคำพูดใด ๆ"
 
 # hi "Hello?"
-hi ""
+hi "ฮัลโหล?"
 
 # ha "H… Hisao?"
-ha ""
+ha "ฮะ… ฮิซาโอะ?"
 
 # "It's Hanako. Her voice is really easy to place, even if I've never heard it over a phone before."
-""
+"ฮานาโกะน่ะเอง เสียงฮานาโกะฟังออกง่ายมาก ถึงจะไม่เคยได้ยินเสียงเธอผ่านโทรศัพท์มาก่อนก็ตาม"
 
 # hi "Hanako? Sorry, I wasn't expecting you to call. What's up?"
-hi ""
+hi "ฮานาโกะเหรอ ขอโทษที พอดีไม่คิดว่าเธอจะโทร. มา มีอะไรเหรอ"
 
 # ha "U-um… I… um…"
-ha ""
+ha "อะ-เอ่อ… ฉัน… เอ่อ…"
 
 # ha "If… if you're not busy… I-I was wondering if y-you would… l-like to… m—"
-ha ""
+ha "ถ้า… นายไม่ติดธุระอะไร… ฉะ-ฉันไม่รู่ว่านะ-นาย… จะ-จะมา… เจอ—"
 
 # hi "Meet up?"
-hi ""
+hi "เจอกัน?"
 
 # ha "Yes! U-um… I mean…"
-ha ""
+ha "อื้ม! อะ-เอ่อ… คือ…"
 
 # "She sounds really wound up about this. I can hear muffled voices in the background, and it's about time for afternoon tea, so I guess she'll want me to meet her at the Shanghai or something."
-""
+"ฮานาโกะฟังดูตื่นเต้นมาก ฉันได้ยินเสียงอู้อี้แว่ว ๆ มาด้วย ตอนนี้ก็ถึงเวลาดื่มชายามบ่ายแล้ว อาจจะอยากให้ไปเจอกัน\nที่ร้านเซี่ยงไฮ้หรืออะไรมั้ง"
 
 # hi "That sounds fine. Are you at the Shanghai?"
-hi ""
+hi "ก็ได้นะ อยู่ที่ร้านเซี่ยงไฮ้เหรอ"
 
 # ha "I-I'm in… the city…"
-ha ""
+ha "ฉะ-ฉันอยู่… ในตัวเมือง…"
 
 # "Hanako's here? Alone? That's a surprise. It's little wonder she's like this, if she's surrounded by people and entirely by herself."
-""
+"ฮานาโกะมาที่นี่? ตัวคนเดียว? ทึ่งแฮะ ก็ไม่แปลกเลยที่เธอจะเป็นแบบนี้ถ้ามาตัวคนเดียวแล้วรอบตัวมีแต่ผู้คน"
 
 # hi "That works out well; I'm just wandering around there now. Where are you?"
-hi ""
+hi "ได้สิ ตอนนี้ฉันก็อยู่แถว ๆ นี้แหละ เธออยู่ไหน"
 
 # "Hanako manages to stammer out the street name, address, and some basic directions to where she is. Luckily It's not too far, so I agree to see her soon before hanging up."
-""
+"ฮานาโกะบอกชื่อถนน ที่อยู่ กับทางไปแบบคร่าว ๆ ว่าอยู่ตรงไหนแบบอึก ๆ อัก ๆ โชคดีที่อยู่ไม่ไกลจากตรงนี้มาก\nฉันจึงตอบตกลงว่าเดี๋ยวจะไปหาก่อนวางสาย"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
@@ -3188,10 +3188,10 @@ with locationchange
 stop music fadeout 5.0
 
 # "I look up to the sky. The summer heat is beating down."
-""
+"ฉันแหงนหน้ามองท้องฟ้า ความร้อนจากฤดูร้อนเริ่มลดระดับลงแล้ว"
 
 # "This is the first time Hanako's asked for us to do something together beyond a simple board game, and the first time, at least since I've known her, that she's come to the city by herself. Maybe this means that Lilly was right."
-""
+"เป็นครั้งแรกเลยที่ฮานาโกะชวนไปทำอะไรนอกเหนือจากการแค่เล่นบอร์ดเกมด้วยกัน และเป็นครั้งแรกด้วยที่\n—อย่างน้อยก็เท่าที่รู้จักกันมา—เธอเข้าตัวเมืองตัวคนเดียว ซึ่งอาจจะแปลว่าลิลลี่พูดถูกแล้วก็ได้"
 
 scene bg city_karaokeint
 with shorttimeskip
@@ -3202,27 +3202,27 @@ $ renpy.music.set_volume(0.4, 0.0, channel="ambient")
 play ambient sfx_crowd_outdoors fadein 2.0
 
 # "By the time I manage to stagger up to the café where Hanako is, I've started to wheeze again. I'm sweating so much that I feel like a melting popsicle, and can barely hold the bag in my hand."
-""
+"กว่าจะเดินตุปัดตุเป๋มาจนถึงคาเฟที่ฮานาโกะอยู่ได้ฉันก็หืดขึ้นคออีกรอบแล้ว เหงื่อท่วมตัวจนเหมือนเป็นไอศกรีม\nที่กำลังละลาย แทบไม่มีแรงถือกระเป๋าแล้วด้วย"
 
 # "I need to sit down, badly."
-""
+"ฉันต้องนั่ง ไม่ไหวแล้ว"
 
 # "The tables outside are all occupied by busily chatting couples and girls gossiping between themselves. The contrast between the different age groups and fashions of the people here and the people from the town near Yamaku is striking."
-""
+"โต๊ะข้างนอกทุกตัวต่างมีคู่รักที่คุยกันไม่หยุดหรือไม่ก็กลุ่มสาว ๆ ที่คุยกันอย่างออกรสนั่งอยู่กันหมดแล้ว เห็นได้ชัด\nว่าอายุและรสนิยมการแต่งตัวของคนที่นี่นั้นต่างจากคนในเมืองในละแวกยามากุโดยสิ้นเชิง"
 
 # "I scan over the people sitting at the tables, but I can't see Hanako. She did say she was sitting outside, so I must just be missing her. Not difficult, given how small she usually tries to make her presence."
-""
+"ฉันกวาดตาไปตามคนที่นั่งอยู่แต่ละโต๊ะแต่ก็ไม่เห็นฮานาโกะ เห็นบอกว่านั่งอยู่ข้างนอก ฉันอาจจะไม่ทันได้สังเกตก็ได้\nซึ่งก็เป็นไปได้เพราะปกติฮานาโกะจะทำตัวลีบตลอด"
 
 # "I look around again, more slowly this time, taking particular care to see if I can find Hanako's hat. It's pretty distinctive, and I'd be very surprised if she wasn't wearing it."
-""
+"ฉันมองไปรอบ ๆ อีกครั้ง แต่คราวนี้เลื่อนหัวให้ช้าลงแล้วตั้งใจมองว่าหมวกฮานาโกะอยู่ตรงไหน หมวกใบนั้นเป็นหมวก\nที่เด่นพอตัว และถ้าฮานาโกะไม่ใส่มาแล้วฉันก็คงจะแปลกใจมาก"
 
 # "There she is. Sure enough, her head is kept low and the table she's sitting at is right beside the building in an inconspicuous corner."
-""
+"อยู่นั่นไง ใช่แล้ว ฮานาโกะนั่งก้มหัวต่ำอยู่ตรงโต๊ะข้าง ๆ อาคารซึ่งเป็นมุมอับ"
 
 $ renpy.music.set_volume(0.2, 4.0, channel="ambient")
 
 # "I walk up to where she is and make sure that I have her attention before I sit, lest I give her a scare. She notices me, and gives a small wave as I arrive at her table."
-""
+"ฉันเดินไปที่โต๊ะที่ฮานาโกะนั่งอยู่แล้วดูให้แน่ใจว่าเธอรู้แล้วว่าฉันมาก่อนจะนั่งเพื่อไม่ให้เธอตกใจ พอฮานาโกะ\nเห็นฉันแล้วเธอก็โบกมือให้เบา ๆ ระหว่างที่ฉันเดินไปหา"
 
 show hanako basic_worry_cas_close:
     center
@@ -3230,22 +3230,22 @@ show hanako basic_worry_cas_close:
 with charaenter
 
 # ha "A-are you feeling okay?"
-ha ""
+ha "นะ-นายไหวมั้ย"
 
 # "I try my best to laugh it off, but doing so just makes me more out of breath."
-""
+"ฉันทำท่าจะหัวเราะบอกปัดไป แต่ยิ่งทำแบบนั้นก็ยิ่งหอบไปใหญ่"
 
 # hi "Not very fit these days. Don't mind me."
-hi ""
+hi "เดี๋ยวนี้ไม่ค่อยฟิตเลย ไม่ต้องสนใจฉันหรอก"
 
 show hanako basic_distant_cas_close
 with charachange
 
 # "Hanako nods, but still looks a bit put off."
-""
+"ฮานาโกะพยักหน้าทั้งที่ยังทำสีหน้ารู้สึกแปลก ๆ"
 
 # "Now that I can get a good look at her face, something about her seems a bit different. I'm not sure if my eyes are playing tricks on me, but she looks kind of nice."
-""
+"พอได้มาดูชัด ๆ แล้วก็รู้สึกว่าฮานาโกะเปลี่ยนไปเล็กน้อย ไม่รู้ว่าฉันหลอนไปเองหรือเปล่า แต่ฮานาโกะดูดีใช้ได้เลย"
 
 show hanako basic_normal_cas_close
 with charachange
@@ -3254,154 +3254,154 @@ show hanako basic_distant_cas_close
 with charachange
 
 # "Her eyes move upwards to look at me, before quickly flicking down again. I begin to think this is going to be a rather quiet meeting, but a waitress thankfully arrives and sets down a cup of tea in front of Hanako."
-""
+"ฮานาโกะเหล่ตาขึ้นมามองฉันก่อนจะกลับไปมองพื้นเหมือนเดิม ชักคิดแล้วว่าคงจะได้กลายเป็นนัดเงียบแล้วแน่ ๆ\nแต่โชคดีที่บริกรมาวางถ้วยชาลงตรงหน้าฮานาโกะให้พอดี"
 
 show hanako emb_downtimid_cas_close
 with charachange
 
 # "Hanako almost automatically turns slightly away and lowers the side of her head. It's an amazingly practiced motion, and does a good job of its intended purpose - hiding her scars from someone who's leaning in close."
-""
+"ฮานาโกะหันไปมองเล็กน้อยในทันทีก่อนจะบิดขมับลง เป็นท่าทางที่เป็นธรรมชาติอย่างน่าทึ่งและทำหน้าที่\nในการปกปิดแผลเป็นไม่ให้คนที่โน้มตัวเข้ามาเห็นได้เป็นอย่างดีตามที่ตั้งใจไว้"
 
 # "Her right arm is still laying on the table though, with the scarring on the back of her hand quite visible. It catches the waitress's eye, and I move to quickly distract her."
-""
+"แต่แขนขวาฮานาโกะที่มีแผลเป็นซึ่งเห็นได้ชัดอยู่หลังมือยังอยู่บนโต๊ะ บริกรสะดุดตาเข้ากับแผลเป็นนั้นฉันจึงรีบ\nเข้ามาขัดทันที"
 
 # hi "Excuse me, may I place an order?"
-hi ""
+hi "ขอโทษนะครับ ขอสั่งอะไรหน่อยได้ไหม"
 
 # "The waitress nods and gives me a couple of seconds to look at the menu."
-""
+"บริกรพยักหน้าแล้วรอให้ฉันดูรายการของกิน"
 
 # hi "Could I have a mango smoothie, please?"
-hi ""
+hi "ขอมะม่วงปั่นหนึ่งที่ครับ"
 
 # "She gives a nod before almost enthusiastically bouncing inside. Everything is so different in the city, in more ways than one."
-""
+"เธอพยักหน้าแล้วเดินกลับเข้าไปในร้านอย่างกระตือรือร้น พอเป็นในตัวเมืองแล้วอะไร ๆ ก็ไม่เหมือนเดิม ไม่ใช่แค่\nในแง่ใดแง่หนึ่ง"
 
 show hanako emb_timid_cas_close
 with charachange
 
 # "Hanako looks back up towards me and adjusts her hat a little. If she noticed the waitress staring at her scars, she doesn't show it."
-""
+"ฮานาโกะเงยหน้าขึ้นมามองแล้วจัดหมวกเบา ๆ ถ้าสมมติเธอรู้ตัวว่าบริกรคนเมื่อกี้มองแผลเป็นจริง ๆ ก็แปลว่าเธอ\nเก็บอาการเก่งมาก"
 
 # ha "N-not coffee…?"
-ha ""
+ha "มะ-ไม่สั่งกาแฟเหรอ…"
 
 # hi "I think I'd die from this heat if I had something like coffee right now."
-hi ""
+hi "ร้อนแบบนี้ขืนกินกาแฟก็ได้ซี้แหงก่อนพอดี"
 
 show hanako emb_downtimid_cas_close
 with charachange
 
 # "Resting my head in my hand, I look to my quiet companion. She seems taken aback; a very unexpected reaction to my lame joke. An unwelcome emotion bubbles up inside me as I realize her reason why."
-""
+"ฉันนั่งเท้าคางมองเพื่อนร่วมโต๊ะพูดน้อยของฉัน ฮานาโกะดูจะตกใจ ซึ่งฉันไม่ได้คิดเลยว่าเธอจะมีท่าทีแบบนี้กับมุกฝืด ๆ\nของฉัน พอนึกได้ว่าเป็นเพราะอะไรก็มีอารมณ์อันไม่พึงประสงค์ก่อตัวขึ้นในใจ"
 
 # "Unlike most in Yamaku, indeed, unlike anyone there that I'm aware of, my condition goes beyond limiting the activities I can do. Or to be more precise, breaching those limits could have much more grave consequences."
-""
+"อาการของฉันนั้นไม่เหมือนคนอื่นในยามากุ—และแน่แท้ว่าไม่เหมือนกับใครคนอื่นเท่าที่ฉันพอรู้จักด้วย—ตรงที่ว่า\nอาการของฉันไม่ได้จำกัดแค่กิจกรรมที่ฉันทำได้ หรือจะพูดให้เจาะจงก็คือ การฝืนขีดจำกัดที่ว่านั้นอาจทำให้เกิดผล\nที่ร้ายแรงยิ่งกว่าตามมาได้"
 
 # "Thankfully, it's something that's very rarely come up since I entered Yamaku. I thought that it was so rare that Hanako and Lilly might not think of it at all. It turns out that I was wrong."
-""
+"โชคดีที่อาการของฉันแทบไม่กำเริบเลยตั้งแต่มาอยู่ที่ยามากุ ฉันนึกว่าเกิดน้อยจนฮานาโกะกับลิลลี่อาจลืมไปแล้ว\nด้วยซ้ำ แต่ดูท่าว่าจะคิดผิด"
 
 # "Hanako silently drinks her tea while I wait for my drink, confirming that it's the right temperature with a small sip before she begins in earnest."
-""
+"ฮานาโกะดื่มชาอยู่เงียบ ๆ โดยจิบดูก่อนว่าเย็นพอดื่มได้หรือยังก่อนจะดื่มไประหว่างที่ฉันรอเครื่องดื่มของตัวเอง"
 
 # "I feel guilty for being the cause of an uncomfortable silence, since in the past I've been kind of hard on Hanako for those."
-""
+"รู้สึกผิดเลยแฮะที่ทำบรรยากาศเงียบไปแบบอึดอัดอย่างนี้ ยิ่งที่ผ่านมาฉันทำแบบนี้กับฮานาโกะบ่อย ๆ ด้วย"
 
 # "Eventually the same waitress as before bounces up, handing me my drink. I gather change from my pocket and drop it into her waiting hand, before she goes off to attend to another customer. My eyes linger on her as she walks away."
-""
+"จนในที่สุดบริกรคนเดิมก็โผล่มาพร้อมเครื่องดื่มของฉัน ฉันล้วงเศษเงินในกระเป๋าใส่มือเธอที่ยื่นมารอรับเงิน จากนั้นเธอก็เดินไปบริการลูกค้าคนอื่นต่อ ฉันมองตามเธอที่เดินออกไป"
 
 show hanako emb_sad_cas_close
 with charachange
 
 # ha "Do you think that she looks… pretty…?"
-ha ""
+ha "นายว่าเขา… น่ารักเหรอ…"
 
 # "Hanako is following my gaze, her eyes taking in the waitress that served us. I can feel my blood slowly going to my cheeks as I rest my smoothie back on the table."
-""
+"ฮานาโกะมองตามสายตาฉันไปและมองบริกรที่มาเสิร์ฟเครื่องดื่มให้เรา ฉันวางแก้วมะม่วงปั่นลงพร้อมความรู้สึก\nที่เหมือนเลือดค่อย ๆ เดินขึ้นมาที่แก้ม"
 
 # hi "Nah, can't really say that I'm really into that look. She just looked a lot like an old friend I knew before my heart attack."
-hi ""
+hi "ไม่อะ ไม่ค่อยตรงสเป็กเท่าไหร่ แค่ว่าหน้าเหมือนเพื่อนเก่าที่รู้จักกันก่อนฉันหัวใจวายรอบนั้นน่ะ"
 
 show hanako basic_worry_cas_close
 with charachange
 
 # ha "Did you… have many friends?"
-ha ""
+ha "นาย… มีเพื่อนเยอะเหรอ"
 
 # hi "I had a few at my previous school, though I wouldn't say a lot. The four of us just hung around together after school and stuff."
-hi ""
+hi "ที่โรงเรียนเก่าก็มีอยู่บ้าง ไม่ได้เยอะหรอก ส่วนมากเราสี่คนก็ไปเฮฮากันตามประสาหลังเลิกเรียนน่ะ"
 
 show hanako basic_normal_cas_close
 with charachange
 
 # ha "Do you still talk to them?"
-ha ""
+ha "ยังคุยกับพวกนั้นอยู่มั้ย"
 
 # "I shake my head."
-""
+"ฉันสั่นหัว"
 
 # hi "No. We gradually lost contact while I was stuck in the hospital."
-hi ""
+hi "ไม่อะ พวกเราค่อย ๆ ขาดการติดต่อกันไปตอนฉันนอนโรงพยาบาล"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "You're not… saddened by that? Or angry?"
-ha ""
+ha "นายไม่… เศร้าเหรอ ไม่โกรธเลยเหรอ"
 
 # "Hanako looks genuinely surprised. I guess it's the right reaction."
-""
+"ฮานาโกะดูประหลาดใจจริง ๆ แต่จะคิดแบบนั้นก็คงไม่แปลก"
 
 # hi "Well, life did move on for them while I was stuck in the ward. I was pretty sore about it at the time, but now it's just a bunch of nice memories."
-hi ""
+hi "ก็นะ ชีวิตพวกนั้นก็เดินหน้าต่อช่วงที่ฉันต้องนอนอยู่โรงพยาบาล ตอนนั้นฉันก็เจ็บใจอยู่ แต่ตอนนี้มันก็เป็นแค่\nความทรงจำดี ๆ เท่านั้นละ"
 
 # hi "Besides, once I came to Yamaku I found new friends as well."
-hi ""
+hi "อีกอย่าง พอมายามากุแล้วฉันก็ได้เพื่อนใหม่ด้วย"
 
 # "That's quite a whitewash of what my feelings were back then. I went through some dark times during my stay at the hospital, and I really am glad that Hanako and Lilly were around to help me after I left it."
-""
+"คำพูดนั้นยังนับว่าน้อยถ้าเทียบกับความรู้สึกตอนนั้นจริง ๆ ตอนอยู่โรงพยาบาลนั้นถือว่าเป็นช่วงมืดบอดของชีวิตฉันเลย\nก็ว่าได้ และฉันก็ดีใจที่ได้ฮานาโกะกับลิลลี่คอยอยู่ช่วยฉันหลังจากที่ฉันออกจากโรงพยาบาลแล้ว"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # "Hanako blushes as we both get down to enjoying our drinks. She seems to have calmed down since I arrived, and I've started to feel a little better now that I've had the chance to rest a bit, so this is getting to be a nice outing already."
-""
+"ฮานาโกะหน้าแดง เราสองคนต่างดื่มเครื่องดื่มของตัวเองกันต่อ เหมือนว่าตั้งแต่ฉันมาหาฮานาโกะดูจะใจเย็นลงบ้างแล้ว\nฉันเองพอได้พักหายใจหายคอแล้วก็รู้สึกดีขึ้นหน่อย ๆ ด้วย แบบนี้สิค่อยสมเป็นการออกมาเที่ยวข้างนอกดี ๆ"
 
 # "Even if she's calmer than before, though, she's still fidgeting a bit. She runs her hand down one of her bangs as I try to think of something to say."
-""
+"แต่ถึงจะสงบลงกว่าเมื่อครู่แล้วฮานาโกะก็ยังทำท่ากระมิดกระเมี้ยน เธอลูบไปตามผมหน้าม้าข้างหนึ่ง ฉันลองคิดดูว่า\nจะพูดอะไรดี"
 
 # hi "That's right. I was going to ask…"
-hi ""
+hi "จริงสิ ว่าจะถาม…"
 
 show hanako emb_timid_cas_close
 with charachange
 
 # "Hanako tilts her head quizzically."
-""
+"ฮานาโกะเอียงคอด้วยความฉงน"
 
 # hi "I didn't know you had a mobile phone. How'd you get my number?"
-hi ""
+hi "ไม่ยักรู้ว่าเธอมีโทรศัพท์ด้วย เอาเบอร์โทร. ฉันมาจากไหนเหรอ"
 
 show hanako emb_smile_cas_close
 with charachange
 
 # ha "L-Lilly… gave it… to me."
-ha ""
+ha "ละ-ลิลลี่… บอก… มา"
 
 # "I should have guessed."
-""
+"ไม่น่าถาม"
 
 # hi "You know, you could have just asked; I'd have given it to you."
-hi ""
+hi "เนี่ย เธอถามฉันเอาก็ได้ ยังไงก็เต็มใจให้อยู่แล้ว"
 
 # hi "Want to exchange email addresses?"
-hi ""
+hi "แลกที่อยู่อีเมลกันไหม"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # "Hanako nods, setting down her drink and fishing out her phone from her pocket as I do the same."
-""
+"ฮานาโกะพยักหน้าแล้ววางเครื่องดื่มก่อนจะคุ้ยหาโทรศัพท์ในกระเป๋าออกมา ส่วนฉันก็คุ้ยของตัวเอง"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -3411,10 +3411,10 @@ show hanaphone:
 with Pause (1.0)
 
 # "It's, surprisingly, the same model as mine. Pink, though."
-""
+"ฉันต้องประหลาดใจเมื่อโทรศัพท์ของเธอนั้นเป็นรุ่นเดียวกันกับฉัน ไม่เหมือนก็ตรงที่ของเธอเป็นสีชมพู"
 
 # hi "Nice phone."
-hi ""
+hi "สวยนี่"
 
 show hanako basic_smile_cas_close
 with None
@@ -3430,154 +3430,154 @@ hide hanaphone
 with None
 
 # "She looks to me with a curious expression, before noticing my phone and giggling. It's one of the very few times I've seen Hanako let her guard down enough to do such a thing."
-""
+"ฮานาโกะมองฉันด้วยความสงสัยก่อนจะเห็นโทรศัพท์ฉันแล้วหัวเราะคิกคัก ฉันแทบไม่เคยเห็นเธอปล่อยตัวสบาย\nให้ตัวเองหัวเราะอะไรแบบนี้ได้เลย"
 
 show hanako cover_bashful_cas_close
 with charachange
 
 # ha "I didn't pick it out myself, though."
-ha ""
+ha "แต่ฉันไม่ได้เป็นคนเลือกเองนะ"
 
 # hi "Oh?"
-hi ""
+hi "หืม?"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # ha "It was a present, from Lilly."
-ha ""
+ha "เป็นของขวัญจากลิลลี่น่ะ"
 
 show hanako emb_emb_cas_close
 with charachange
 
 # ha "I never really needed a phone, and I couldn't afford one. She bought me one for Christmas, though, saying that we could use it to keep in touch."
-ha ""
+ha "ฉันไม่จำเป็นต้องใช้โทรศัพท์ขนาดนั้น แถมไม่มีเงินซื้อด้วย แต่ลิลลี่ก็ซื้อมาให้ตอนวันคริสต์มาส บอกว่า\nจะได้ติดต่อกันสะดวก"
 
 # "They see each other basically every day anyway, both in and out of school…"
-""
+"ยังไงก็เจอหน้ากันแทบทุกวันอยู่แล้ว ไม่ว่าจะในหรือนอกโรงเรียน"
 
 # "Then again, Lilly does have her class representative duties and other friends that she talks with. It'd probably help for situations like this, too, when she's gone away for a while."
-""
+"แต่ก็นะ ลิลลี่ก็มีภาระหน้าที่ในฐานะหัวหน้าห้องอยู่เหมือนกัน ไหนจะมีเพื่อนคนอื่นที่ต้องคุยด้วยอีก แล้วก็จะได้\nเป็นประโยชน์กับสถานการณ์แบบนี้ที่เธออยู่ด้วยไม่ได้สักพักด้วย"
 
 # hi "Lilly's a very special person to you, isn't she?"
-hi ""
+hi "ลิลลี่คงเป็นคนสำคัญสำหรับเธอน่าดูเลยนะ"
 
 show hanako emb_downsmile_cas_close
 with charachange
 
 # ha "She is. I… love her… very much."
-ha ""
+ha "อื้ม ฉัน… รักลิลลี่… มากเลยละ"
 
 # "Hanako looks down and smiles as she thinks of her. None of my friendships were as deep as theirs, and I have to admit to myself that I'm a little jealous of their relationship."
-""
+"ฮานาโกะก้มหน้ายิ้มพลางคิดถึงลิลลี่ มิตรภาพของฉันไม่เคยมีมิตรภาพไหนที่แน่นแฟ้นเท่าพวกเธอสองคนเลย\nต้องยอมรับว่าฉันเองก็อิจฉาหน่อย ๆ กับความสัมพันธ์ของทั้งสองคนเหมือนกัน"
 
 # "We tell each other our email addresses and thumb them into our respective phones, and I get Hanako's number from earlier and put it into my contacts list."
-""
+"พวกเราบอกที่อยู่อีเมลของตัวเองให้กันและกันและกดบันทึกใส่โทรศัพท์ของตัวเอง ฉันบันทึกเบอร์โทร.\nของฮานาโกะจากเมื่อครู่เข้ามาในสมุดรายชื่อ"
 
 show hanako basic_smile_cas_close
 with charachange
 
 # ha "…Done. That makes three, now."
-ha ""
+ha "…เรียบร้อย ทีนี้ก็มีสามคนแล้ว"
 
 # hi "Three?"
-hi ""
+hi "สามคน?"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # ha "Lilly, Akira and you."
-ha ""
+ha "ลิลลี่ พี่อากิระ แล้วก็นาย"
 
 # hi "Ah, Akira. She's an interesting person, isn't she?"
-hi ""
+hi "อ้อ อากิระ ก็เป็นคนที่น่าสนใจดีนะ ว่าไหม"
 
 show hanako emb_smile_cas_close
 with charachange
 
 # ha "She is. She's also really nice, though. Her suit makes her… look a bit cool."
-ha ""
+ha "อื้ม แถมเป็นคนดีมาก ๆ ด้วย ชุดสูทก็… ดูเท่"
 
 # hi "I'm a little surprised you know each other well, what with her job taking up so much of her time."
-hi ""
+hi "ฉันยังแปลกใจอยู่เหมือนกันนะที่เธอสองคนรู้จักกันดีขนาดนั้น แล้วไหนพี่อากิระจะติดงานบ่อย ๆ ด้วยอีก"
 
 show hanako emb_downsmile_cas_close
 with charachange
 
 # "Hanako looks down a little and takes another sip of her drink. If I wasn't looking intently at her face, I'd miss the small smile perched on it. I guess when she knows so few people, those she knows must mean a lot to her."
-""
+"ฮานาโกะก้มหน้าเล็กน้อยแล้วจิบชาอีกรอบ ถ้าไม่ได้จดจ้องอยู่ละก็ฉันคงไม่เห็นรอยยิ้มจาง ๆ ที่อยู่บนใบหน้าเธอแน่\nพอรู้จักคนไม่มากแล้วก็คงแปลว่าทุกคนต่างสำคัญกับเธอมากสินะ"
 
 # ha "How many… do you have?"
-ha ""
+ha "แล้วนาย… มีกี่คนเหรอ"
 
 # hi "Me? About nine or ten."
-hi ""
+hi "ฉันเหรอ สักเก้าคนสิบคนนี่แหละ"
 
 # "I hesitate to go into them for fear of rubbing in the fact that Hanako doesn't have parents, or apparently even close relatives. Two of those are Shizune and Misha, too, which is another can of worms."
-""
+"ฉันลังเลไม่อยากไล่รายชื่อแต่ละคนด้วยกลัวว่าจะเป็นการซ้ำเติมเรื่องที่ว่าฮานาโกะไม่มีพ่อแม่—หรืออาจจะไม่มี\nญาติสนิทเลยก็ได้—อีกสองคนในรายการนั้นเป็นชิซูเนะกับมิช่า ซึ่งก็เป็นเรื่องที่ต้องต่อความกันอีกยืดยาวเหมือนกัน"
 
 # hi "I imagine that Lilly would have more than both of us put together, probably."
-hi ""
+hi "แต่ฉันว่าลิลลี่น่าจะมีเยอะกว่าของพวกเราสองคนรวมกันเสียอีกนะ"
 
 show hanako basic_smile_cas_close
 with charachange
 
 # "Hanako gives a childish giggle, and I can't help smiling. It's a good feeling that she's gotten this comfortable around me; at times like this, I feel like I'm getting close to talking to her true self."
-""
+"ฮานาโกะหัวเราะคิกคักเป็นเด็ก ๆ จนฉันอดยิ้มไม่ได้ พอเห็นว่าอยู่กับฉันได้แบบไม่เกร็งแล้วก็ดีใจ เป็นแบบนี้แล้วรู้สึก\nเหมือนได้คุยกับตัวตนของเธอจริง ๆ เลย"
 
 # hi "Do you mind if I ask something that I've been wondering?"
-hi ""
+hi "ขอถามอะไรหน่อยได้ไหม พอดีอยากรู้มานานแล้วน่ะ"
 
 show hanako basic_normal_cas_close
 with charachange
 
 # "Hanako shakes her head as she takes a last sip of her tea, finishing it off."
-""
+"ฮานาโกะสั่นหัวพลางจิบชาไปจนหมดถ้วย"
 
 # hi "You don't seem very jealous of Lilly having lots of friends. Don't you want to make some more friends yourself, or get to know some of hers?"
-hi ""
+hi "เธอดูไม่อิจฉาที่ลิลลี่มีเพื่อนเยอะเท่าไหร่เลย ไม่อยากหาเพื่อนเพิ่มหรือไปรู้จักกับเพื่อนลิลลี่บ้างเหรอ"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "I'm not jealous. I… don't like people, so I don't mind not having many friends."
-ha ""
+ha "ฉันไม่อิจฉาเลย ฉัน… ไม่ชอบคนน่ะ เลยไม่อะไรกับการที่มีเพื่อนน้อย"
 
 # "That's… really not the answer that I was expecting. She doesn't look fearful or sad as she says this, but rather, quite serious."
-""
+"เป็น… คำตอบที่ไม่ได้คาดไว้เลย ฮานาโกะพูดโดยไม่ได้มีสีหน้าที่หวาดหลัวหรือเศร้าเลย กลับดูจริงจังด้วยซ้ำ"
 
 show hanako cover_distant_cas_close
 with charachange
 
 # ha "I…"
-ha ""
+ha "ฉัน…"
 
 # "Hanako rubs her arm awkwardly, having taken my quietness as a reason to continue. I'm not really sure what I should say, so I end up simply giving her my attention in silence."
-""
+"ฮานาโกะถูแขนตัวเองดูกระอักกระอ่วน เธอถือเอาว่าที่ฉันเงียบไปคือให้พูดต่อ ฉันไม่รู้ว่าจะต้องพูดอะไรดีถึงได้เพียง\nมองเงียบ ๆ ด้วยความสนใจ"
 
 # ha "In middle school, I got bullied… a lot. I was called names, and got excluded from work groups and sports teams. There were… worse things, too."
-ha ""
+ha "ตอนม. ต้น ฉันโดนแกล้ง… บ่อยมาก โดนแปะฉายาเสีย ๆ หาย ๆ โดนกันไม่ให้ทำงานกลุ่มด้วย โดนกัน\nไม่ให้ร่วมทีมเล่นกีฬาด้วย แล้วยัง… มีอะไรที่แย่กว่านั้นอีก"
 
 # hi "And that's what made you not like other people?"
-hi ""
+hi "เพราะแบบนี้เธอถึงได้ไม่ชอบคนอื่น?"
 
 # "She shakes her head."
-""
+"ฮานาโกะสั่นหัว"
 
 show hanako emb_timid_cas_close
 with charachange
 
 # ha "That was… elementary school."
-ha ""
+ha "ฉันไม่ชอบคน… มาตั้งแต่ประถมแล้ว"
 
 # "I feel bad for bringing this up now. Adults have enough problems dealing with Hanako's scarring; children would be all the worse."
-""
+"รู้สึกผิดเลยแฮะที่ยกเรื่องนี้ขึ้นมาคุย แค่คนโตยังรับมือกับแผลเป็นฮานาโกะไม่ค่อยจะได้ ยิ่งเด็กไม่ต้องพูดถึง"
 
 # "I had assumed that the way she tried to make her presence not felt was just to avoid people staring at her, or because she was afraid of them; certainly not because she genuinely didn't want to interact with them in the first place as well."
-""
+"ฉันเคยคิดว่าที่ฮานาโกะทำตัวลีบบ่อย ๆ นั้นเป็นแค่เพราะไม่อยากให้คนจ้องมองหรือเพราะกลัว และที่แน่ ๆ คือไม่ได้คิด\nว่าเป็นเพราะเธอไม่อยากปฏิสัมพันธ์กับผู้คนจริง ๆ"
 
 # "I notice the condensation from my neglected smoothie forming a little puddle around the bottom of the cup, so I take the opportunity to finish it off."
-""
+"เมื่อเห็นว่าก้อนมะม่วงปั่นที่ฉันไม่ได้แตะเริ่มละลายจนเป็นของเหลวอยู่ก้นแก้วแล้วจึงถือจังหวะนี้กินจนหมด"
 
 stop music fadeout 5.0
 
@@ -3585,30 +3585,30 @@ show hanako emb_downtimid_cas_close
 with charachange
 
 # "As I drink, she begins to fiddle with her phone. It looks like she's remembered the people around her again, and begun to tense up."
-""
+"ระหว่างที่ดื่มฮานาโกะก็เริ่มกดโทรศัพท์เล่น ดูท่าว่าจะนึกขึ้นได้ว่ารอบตัวมีคนอยู่ถึงได้เริ่มเกร็ง"
 
 # "It isn't exactly a cheap phone - I had to save up for quite a while to afford one when I got mine. If Lilly went to a private school, she probably wouldn't have too much trouble getting one for a present, though."
-""
+"ไม่ใช่โทรศัพท์ถูก ๆ ด้วย ตอนที่จะซื้อฉันต้องเก็บเงินอยู่พักใหญ่เหมือนกัน แต่ถ้าลิลลี่เรียนโรงเรียนเอกชนได้\nก็คงไม่เดือดร้อนอะไรกับการที่ต้องซื้อโทรศัพท์เครื่องนี้ให้เป็นของขวัญ"
 
 # "Watching her fiddle with it gives me an idea…"
-""
+"ฉันนึกอะไรได้เมื่อเห็นฮานาโกะที่เล่นโทรศัพท์อยู่…"
 
 # hi "Hey Hanako, wait for me. I'll be right back."
-hi ""
+hi "นี่ ฮานาโกะ รอฉันก่อนนะ เดี๋ยวมา"
 
 $ renpy.music.set_volume(0.4, 4.0, channel="ambient")
 
 # "I put the now empty cup down, slip my phone into my pocket, and begin to move off, carefully stepping around the bag I'd placed beside my feet. Thankfully, sitting around while talking to Hanako has helped me feel a lot better than before."
-""
+"ฉันวางแก้วที่ตอนนี้มะม่วงปั่นพร่องไปหมดแล้วลง เก็บโทรศัพท์ใส่กระเป๋า ตั้งท่าเตรียมลุกออกเดินระวังไม่ให้เหยียบ\nกระเป๋าที่วางอยู่ข้างเท้า โชคดีที่พอได้นั่งพักอยู่คุยกับฮานาโกะแล้วก็มีแรงขึ้นมากว่าเมื่อครู่มาก"
 
 show hanako defarms_worry_cas_close
 with charachange
 
 # ha "Wait, w-what? Wh-where are you going?"
-ha ""
+ha "เดี๋ยว อะ-อะไรนะ นะ-นายจะไปไหน"
 
 # hi "Just stay here, I'll be back in a bit!"
-hi ""
+hi "เธออยู่นี่แหละ แป๊บเดียวเดี๋ยวมา!"
 
 $ renpy.music.set_volume(0.0, 1.0, channel="ambient")
 
@@ -3618,7 +3618,7 @@ with shorttimeskip
 
 $ renpy.music.set_volume(0.2, 0.3, channel="ambient")
 # "As much as I'd have liked to have jogged back, I know full well that I couldn't. I end up walking back to the café, a little blue bag in my right hand."
-""
+"แม้จะอยากวิ่งตอนขากลับมาแค่ไหนแต่ก็รู้ดีว่าวิ่งไม่ได้ สุดท้ายจึงได้แต่เดินกลับมาที่เคาเฟพร้อมถุงสีฟ้าใบเล็กในมือ"
 
 show hanako defarms_worry_cas_close
 with charachange
@@ -3626,28 +3626,28 @@ with charachange
 play music music_another fadein 3.0
 
 # "Hanako notices me quickly, looking about as confused as she did when I left. I deposit the diminutive bag in front of her and sit back down."
-""
+"ฮานาโกะเห็นฉันทันทีที่กลับมาพร้อมสีหน้างงงวยเหมือนตอนที่ฉันเดินออกไป ฉันวางถุงขนาดย่อมนั้นไว้ตรงหน้าเธอ\nก่อนจะนั่งลง"
 
 show hanako basic_worry_cas_close
 with charachange
 
 # ha "Is this…?"
-ha ""
+ha "นี่คือ…?"
 
 # hi "It's for you. You can open it."
-hi ""
+hi "ให้ เปิดดูเลย"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "B-but…"
-ha ""
+ha "ตะ-แต่"
 
 # hi "Go on."
-hi ""
+hi "เปิดเลย"
 
 # "She looks very unsure about it, but eventually gives in, slowly opens the bag and picks its contents out."
-""
+"ฮานาโกะทำหน้าไม่แน่ใจมาก ๆ แต่สุดท้ายก็ยอมทำตามที่บอก เธอค่อย ๆ เปิดถุงแล้วหยิบของข้างในออกมา"
 
 show phonestrap:
     alpha 0.0 xalign 0.5 yanchor 0.5 ypos 0.7 subpixel True
@@ -3657,16 +3657,16 @@ with Pause (1.0)
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
 # "A silver chain phone strap dangles from her fingers, ending in a delicate flower. It isn't exactly a masterwork of jewelry, but it's about as much as I could afford."
-""
+"สายประดับโทรศัพท์ที่เป็นโซ่สีเงินห้อยออกมาจากมือฮานาโกะ ตรงส่วนปลายมีดอกไม้สวย ๆ ประดับอยู่ ถึงไม่ใช่\nเพชรน้ำหนึ่งหรืออะไร แต่ฉันก็เลือกของเท่าที่พอจะมีกำลังซื้อให้ได้"
 
 show hanako cover_bashful_cas_close
 with None
 
 # "Hanako's eyes light up when she looks at it. It's the kind of reaction I was hoping for."
-""
+"ฮานาโกะทำตาลุกวาวทันทีที่เห็น เป็นท่าทีที่ฉันคาดหวังไว้เลยละ"
 
 # "The summer sun's light glints off the silver as it twists to and fro a little. It's not too ostentatious, but still looks a little charming. I think it suits her well."
-""
+"แสงแดดสะท้อนวิบวับตอนที่สายโซ่เงินนั้นเคลื่อนไปมา ดูสวยโดยที่ไม่ได้อลังการจนเกินไป เหมาะกับฮานาโกะดีทีเดียว"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -3679,34 +3679,34 @@ hide phonestrap
 with None
 
 # "Hanako lowers the phone strap to the table and looks to me once more."
-""
+"ฮานาโกะวางสายประดับโทรศัพท์ลงกับโต๊ะแล้วมองฉันอีกรอบ"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "But… it's not… Christmas, or my birthday…"
-ha ""
+ha "แต่… วันนี้ไม่ใช่… วันคริสต์มาสหรือวันเกิดฉัน…"
 
 # hi "It's fine, don't worry about it. I just thought it might be nice to have something to decorate your phone with."
-hi ""
+hi "ไม่เป็นไรน่า เรื่องแค่นี้เอง แค่เห็นว่าถ้ามีอะไรประดับโทรศัพท์เธอบ้างคงดี"
 
 show hanako basic_worry_cas_close
 with charachange
 
 # ha "I-I don't have anything to give to you…"
-ha ""
+ha "ฉะ-ฉันไม่มีอะไรจะให้…"
 
 # hi "I told you, it's fine. Friends can give things to each other like this sometimes, right?"
-hi ""
+hi "บอกแล้วไงว่าไม่เป็นไร เพื่อนกันให้ของแบบนี้กันบ้างก็ไม่แปลก เนอะ"
 
 show hanako emb_downsmile_cas_close
 with charachange
 
 # ha "Friends…"
-ha ""
+ha "เพื่อน…"
 
 # "Hanako lowers her face so much that I can't see her expression. She eventually nods, before taking her phone and fiddling with the strap to attach it properly."
-""
+"ฮานาโกะก้มหน้างุดจนฉันไม่เห็นสีหน้าเธอ สุดท้ายเธอก็พยักหน้าแล้วหยิบโทรศัพท์กับจับสายประดับไปมาหาวิธีติด"
 
 show hanako emb_smile_cas_close
 with charachange
@@ -3719,10 +3719,10 @@ show hanaphonestrap:
 with Pause (1.0)
 
 # "She looks to me and smiles as she holds up her phone, now adorned with a little flower."
-""
+"ฮานาโกะมองฉันแล้วยิ้มพลางชูโทรศัพท์ที่ตอนนี้มีดอกไม้ดอกเล็ก ๆ ประดับอยู่แล้ว"
 
 # ha "Thank you… Hisao."
-ha ""
+ha "ขอบคุณนะ… ฮิซาโอะ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -3735,25 +3735,25 @@ hide hanaphonestrap
 with None
 
 # "Her smile proves infectious."
-""
+"รอยยิ้มของเธอพาให้ฉันยิ้มตาม"
 
 # "Out of the corner of my eye, I notice a couple getting up and leaving. That reminds me that the bus back to the town below Yamaku will be coming soon."
-""
+"ฉันเห็นคู่รักคู่หนึ่งที่ลุกจากโต๊ะเดินออกไปอยู่ตรงหางตาจนนึกได้ว่าใกล้ถึงเวลาที่รถบัสเที่ยวกลับไปเมืองที่อยู่\nล่างยามากุจะมาแล้ว"
 
 # hi "I guess I'd better be going if I want to catch the next bus back to town. You coming as well?"
-hi ""
+hi "ต้องไปแล้วละ พอดีจะขึ้นรถเที่ยวกลับเมือง จะไปด้วยไหม"
 
 show hanako def_worry_cas_close
 with charachange
 
 # ha "Ah, y-yes."
-ha ""
+ha "อ๊ะ อะ-อื้ม"
 
 show hanako invis_close at center
 with dissolvecharamove
 
 # "She hastily nods before carefully putting her phone back into her pocket and getting out of her chair. I do the same and pick up the bag I'd left beside me on the way out."
-""
+"ฮานาโกะรีบพยักหน้าแล้วเก็บโทรศัพท์ใส่กระเป๋าอย่างเบามือแล้วลุกจากเก้าอี้ ฉันลุกตามแล้วหยิบกระเป๋าที่วางไว้ข้าง ๆ\nตอนที่เดินออกมา"
 
 stop ambient fadeout 1.0
 stop music fadeout 3.0
@@ -3766,10 +3766,10 @@ $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_traffic fadein 1.0
 
 # "We walk side by side as we make our way to the bus station, exchanging no words between us. Hanako's gaze is firmly locked ahead of her, though she looks very happy with herself."
-""
+"เราเดินเคียงกันไปจนถึงสถานีรถบัสโดยไม่คุยอะไรกัน ฮานาโกะมองทางข้างหน้าเขม็ง ดูจะมีความสุขมาก ๆ"
 
 # "I'm not sure what I should say to her, but I'm also not sure that I need to say anything. The fact that Hanako is happy, and happy because of me, is enough to make the load on my arm feel light as a feather."
-""
+"ฉันไม่แน่ใจว่าจะต้องพูดอะไรกับเธอดี ไม่แน่ใจด้วยว่าจำเป็นต้องพูดหรือเปล่า แค่ฮานาโกะมีความสุขได้เพราะฉัน\nก็ทำให้แขนฉันที่แบกของอยู่นั้นเบาหวิวดุจขนนกขึ้นมาแล้ว"
 
 stop ambient fadeout 2.0
 

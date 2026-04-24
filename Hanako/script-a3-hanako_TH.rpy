@@ -6070,8 +6070,7 @@ with openeye
 # "Looking to my clock, the time when I really should think about getting dressed and ready for class is approaching. I don't think I can manage it, though."
 "พอดูนาฬิกาก็เห็นว่าใกล้ถึงเวลาทที่ฉันต้องแต่งตัวเตรียมไปเข้าเรียนแล้ว แต่ไม่น่าทันหรอก"
 
-# "I hate cutting class, but I don't think I'm going to be able to get much done at this rate. I can tell I look like a mess without needing to look
-# in the mirror to confirm it, too."
+# "I hate cutting class, but I don't think I'm going to be able to get much done at this rate. I can tell I look like a mess without needing to look in the mirror to confirm it, too."
 "ไม่อยากโดดเรียนเลย แต่ไปสภาพอย่างนี้ก็คงไม่ได้อะไรขึ้นมาเท่าไหร่ ไม่ต้องส่องกระจกดูก็รู้ว่าสภาพตัวเองตอนนี้\nดูไม่ได้แน่ ๆ"
 
 scene bg school_hallway3
