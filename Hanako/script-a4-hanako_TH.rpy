@@ -3787,34 +3787,34 @@ with locationchange
 play music music_normal fadein 2.0
 
 # "Finally reaching the classroom after the usual walk from the dormitories, I step inside. My eyes immediately turn to the third seat from the left in the back row; Hanako's seat."
-""
+"ฉันเดินจากหอมาจนถึงห้องเรียนอย่างทุกทีแล้วเดินเข้าไป สายตาฉันหันไปมองที่โต๊ะที่สามนับจากทางซ้าย\nของแถวหลังสุดซึ่งเป็นโต๊ะฮานาโกะทันที"
 
 # "It's empty, and after glancing around the classroom, it looks like she isn't here yet. The two girls from the newspaper club are here in the two seats to the left of Hanako's, as are Shizune and Misha, but that's about it."
-""
+"ว่างเปล่า และเมื่อมองไปรอบ ๆ ห้องก็เห็นว่าคงจะยังไม่มา สองสาวจากชมรมหนังสือพิมพ์นั่งอยู่ที่โต๊ะถัดจากฮานาโกะ\nไปทางซ้าย ชิซูเนะกับมิช่าก็อยู่ แต่ก็เท่านั้น"
 
 # "We exchange morning greetings before I take my seat. I have to admit that this is a bit of a relief. This gives me at least a few more minutes to think."
-""
+"เราทักทายยามเช้ากันก่อนฉันเดินมานั่งที่ ค่อยโล่งใจขึ้นมาหน่อยเพราะจะได้มีเวลาคิดอีกสักพัก"
 
 # "Not that I haven't been doing so previously; ever since our trip to town, Hanako's been on my mind."
-""
+"ตั้งแต่ที่นัดเจอกันในตัวเมืองครั้งนั้นฉันก็เอาแต่คิดถึงฮานาโกะ ถึงก่อนหน้านี้จะคิดอยู่แล้วก็เถอะ"
 
 # "I still don't know what to make of my relationship to Hanako. I like her, I can admit that much to myself. I want to protect and shield her from the pain she feels. I really don't think my feelings are just those of friendship any more."
-""
+"ฉันยังไม่รู้ว่าจะต้องมองความสัมพันธ์ของตัวเองกับฮานาโกะเป็นอะไร ฉันชอบฮานาโกะ ส่วนนี้ฉันยอมรับ ฉันอยาก\nปกป้องและคุ้มกันเธอให้พ้นจากความเจ็บปวด ความรู้สึกของฉันคงไม่ใช่แค่คำว่าเพื่อนแล้ว"
 
 # "But that said… I feel like I don't even know her."
-""
+"แต่ถึงอย่างนั้น… ฉันก็รู้สึกเหมือนตัวเองไม่ได้รู้จักฮานาโกะด้วยซ้ำ"
 
 # "If I made a move on her, how would she take it? Is she in an emotional state that allows her to make a reasonable decision about a relationship? How would she cope with anything that might happen afterwards?"
-""
+"ถ้าฉันเดินหน้าต่อแล้วฮานาโกะจะคิดอย่างไร สภาพจิตใจเธอคงที่พอจะตัดสินใจเรื่องความสัมพันธ์ของเราได้\nอย่างสมเหตุสมผลหรือเปล่า ถ้าหลังจากนั้นเกิดอะไรขึ้นอีกแล้วเธอจะรับได้ไหม"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 play ambient sfx_footsteps_hard fadein 4.0
 
 # "There's also the possibility that I'm just completely misinterpreting Hanako; not a difficult thing to do with someone whose social skills seem to be so underdeveloped."
-""
+"หรือฉันอาจจะตีความฮานาโกะไปผิดก็ได้อีกต่างหาก ซึ่งก็เป็นแบบนั้นได้ไม่ยากเลยเมื่ออีกฝ่ายเป็นคนที่ไม่มีทักษะ\nทางสังคมขนาดนั้น"
 
 # "The sound of footsteps comes up to the door, making me perk up."
-""
+"เสียงฝีเท้าที่เดินมาทางประตูทำให้ฉันต้องหันไปมอง"
 
 stop ambient fadeout 0.3
 
@@ -3827,7 +3827,7 @@ show miki whistle at right
 with dissolvecharamove
 
 # "It ends up just being Miki."
-""
+"ปรากฏว่าเป็นมิกิ"
 
 show miki smile
 with charachange
@@ -3836,7 +3836,7 @@ show miki invis at Position (xpos=0.9)
 with dissolvecharamove
 
 # "She barely acknowledges my existence when I accidentally make eye contact with her. I'm about to look away, but another person comes in not long after she takes her seat."
-""
+"มิกิแทบไม่ได้รับรู้ถึงตัวตนฉันตอนที่เผลอไปสบตาเข้า ฉันจะเบือนหน้าหนีแล้วแต่ก็มีเสียงอีกคนเดินตามมาไม่นาน\nหลังจากที่เธอนั่งที่"
 
 show hanako invis:
     right
@@ -3849,13 +3849,13 @@ with dissolvecharamove
 stop music fadeout 2.0
 
 # "I feel myself freeze as I see Hanako enter. This isn't a rational reaction, but I have no idea about how I should act or what I should say to her."
-""
+"ฉันชะงักไปเมื่อเห็นว่าฮานาโกะเข้ามา ไม่แปลกที่ฉันจะชะงัก แต่ฉันไม่รู้ว่าจะต้องทำตัวยังไงหรือพูดอะไรกับฮานาโกะ"
 
 show hanako emb_timid
 with charachange
 
 # "For a moment, our eyes meet."
-""
+"เราสบตากันแวบหนึ่ง"
 
 show hanako emb_downtimid
 with charachange
@@ -3864,7 +3864,7 @@ show hanako invis at Position (xpos=0.9)
 with dissolvecharamove
 
 # "And then, just as quickly, she looks away and moves to her seat without saying a single word."
-""
+"แล้วเธอก็มองไปทางอื่นด้วยความรวดเร็วก่อนจะนั่งที่ไม่พูดอะไร"
 
 scene bg school_library_ss
 with shorttimeskip
@@ -3872,22 +3872,22 @@ with shorttimeskip
 play music music_tranquil fadein 3.0
 
 # "As is now usual for the period following classes, my face is buried deep in a book that I find thoroughly uninteresting."
-""
+"ตอนนี้หน้าฉันจมอยู่กับหนังสือที่ฉันรู้สึกว่าไม่น่าสนใจเอาเสียเลย ซึ่งกลายเป็นเรื่องปกติไปแล้วกับช่วงเวลา\nหลังเลิกแต่ละคาบ"
 
 # "Studying is not something that comes naturally to me. I didn't study a lot before coming to Yamaku, and until now I've largely managed to coast through on talent alone. It's frustrating that I can't do that any more."
-""
+"การเรียนไม่ใช่ทางของฉันแต่แรก ก่อนมายามากุฉันก็ไม่ได้ตั้งใจเรียนขนาดนั้น และที่ผ่านมาได้จนตอนนี้ส่วนใหญ่\nก็พึ่งพรสวรรค์ที่ติดตัวมาทั้งนั้น พอทำได้แค่นี้แล้วก็รู้สึกหงุดหงิด"
 
 # "Judging by the faces of the other few students in the library, I don't think I'm alone in my distaste for this. Misery loves company, I suppose."
-""
+"ดูจากสีหน้านักเรียนคนอื่นสองสามคนที่อยู่ในห้องสมุดแล้ว คงไม่ได้มีแค่ฉันสินะที่หน่ายใจกับเรื่องนี้ นี่ละมั้งที่เขาว่า\nคนเราชอบหาผู้ร่วมโชคชะตาเดียวกัน"
 
 # "I decided to spend lunchtime with Hanako, since we haven't had lunch together for a while now. I may as well have spent the time studying, though; aside from pathetically small snippets of smalltalk, there was barely a word said between us."
-""
+"ฉันคิดจะไปกินข้าวเที่ยงกับฮานาโกะเพราะไม่ได้กินด้วยกันมาสักพักแล้ว แต่ก็อาจเจียดเวลานั้นมาอ่านหนังสือได้\nเหมือนกัน เพราะเราก็แทบไม่ได้คุยอะไรกันเลยนอกเสียจากการคุยเรื่อยเปื่อย ๆ เล็กน้อย ๆ"
 
 # "Why does she keep doing this to me? I just want to protect her, to be there for her, but every time I feel like we're coming closer, we end up further away."
-""
+"ทำไมถึงทำแบบนี้กับฉันกัน ฉันแค่อยากปกป้องฮานาโกะ อยากอยู่เคียงข้างฮานาโกะ แต่ทุกครั้งที่เหมือนจะได้\nเข้าใกล้ชิดแล้วเราก็กลับห่างออกจากกันไปอีก"
 
 # ha "A-are you busy…?"
-ha ""
+ha "ยะ-ยุ่งอยู่หรือเปล่า…"
 
 $ renpy.music.set_volume(0.0, 0.3, channel="music")
 
@@ -3895,110 +3895,110 @@ show hanako defarms_shock_ss at center
 with vpunch
 
 # hi "Hanako!?"
-hi ""
+hi "ฮานาโกะ!?"
 
 # "My head whips around in surprise, causing her to retreat in fright."
-""
+"ฉันหันหัวเหลียวซ้ายแลขวาด้วยความตกใจจนฮานาโกะสะดุ้งถอยกรูด"
 
 show hanako emb_downsad_ss
 with charachange
 
 # "That was bad timing. If I hadn't been thinking about her at that very moment, I probably wouldn't have been nearly so startled."
-""
+"จังหวะบัดซบสิ้นดี ถ้าไม่ได้คิดถึงฮานาโกะอยู่ฉันก็คงไม่ตกใจขนาดนี้หรอก"
 
 $ renpy.music.set_volume(1.0, 5.0, channel="music")
 
 # hi "Sorry, you just startled me."
-hi ""
+hi "ขอโทษที พอดีตกใจเธอนิดหน่อย"
 
 # "I find myself staring at her longer than I should, so I go back to the text lying on the table in front of me. I feel more like I'm just staring at the words rather than actually reading."
-""
+"ฉันจ้องฮานาโกะนานเกินความจำเป็น จึงหันกลับไปมองหนังสือที่อยู่บนโต๊ะตรงหน้า รู้สึกเหมือนไม่ได้อ่านแต่จ้องคำ\nไปเป็นคำ ๆ มากกว่า"
 
 # "I get the feeling Hanako can notice this as well, so I sigh and close the book."
-""
+"ฮานาโกะก็น่าจะดูออกด้วย ฉันถอนหายใจแล้วปิดหนังสือ"
 
 # hi "What's up?"
-hi ""
+hi "มีอะไร"
 
 show hanako emb_sad_ss
 with charachange
 
 # ha "I was just… w-wondering what you were r-reading…"
-ha ""
+ha "แค่… ยะ-อยากรู้ว่านายอะ-อ่านอะไรอยู่…"
 
 # "She looks a little downcast after my reaction to seeing her. Giving up on the prospect of getting any more work done, I get up and return the book to its place on a nearby shelf."
-""
+"ฮานาโกะดูหมองไปเล็กน้อยเมื่อเห็นปฏิกิริยาของฉันหลังจากเห็นเธอ ฉันล้มเลิกความคิดที่จะอ่านต่อแล้วลุกขึ้น\nนำหนังสือไปเก็บที่ชั้นใกล้ ๆ"
 
 # hi "Just an English textbook."
-hi ""
+hi "หนังสือภาษาอังกฤษน่ะ"
 
 show hanako basic_normal_ss
 with charachange
 
 # ha "H-has it helped?"
-ha ""
+ha "พะ-พอรู้เรื่องขึ้นมาไหม"
 
 # hi "It helped me realize that I don't like English, yeah."
-hi ""
+hi "อืม รู้เรื่องว่าฉันไม่เก่งภาษาอังกฤษอะนะ"
 
 show hanako basic_smile_ss
 with charachange
 
 # "Hanako gives a small giggle. I may muse on the strange state of our friendship, but I do know that such little gestures are things that I wouldn't see were I not at least some distance closer to her than when we first met."
-""
+"ฮานาโกะหัวเราะคิกคัก ฉันคิดมากเรื่องสถานะสุดพิลึกของความสัมพันธ์เราก็จริง แต่ฉันก็รู้ดีว่าถ้าฉันไม่สนิทกับเธอ\nเข้ามาสักหน่อยนับตั้งแต่ที่ได้เจอกันครั้งแรกแล้วคงไม่ได้เห็นท่าทีเล็ก ๆ น้อย ๆ แบบนี้"
 
 # "I look at her for a moment, thinking about what I do and don't know about her. It's a slightly depressing topic."
-""
+"ฉันมองฮานาโกะอยู่ขณะหนึ่งพลางคิดว่าฉันรู้และไม่รู้อะไรเรื่องเธอบ้าง ซึ่งเป็นหัวข้อที่ชวนหดหู่หน่อย ๆ"
 
 show hanako basic_worry_ss
 with charachange
 
 # ha "I-is something… wrong?"
-ha ""
+ha "มะ-มีอะไร… เหรอ"
 
 stop music fadeout 5.0
 
 # "If I want to know more about her, maybe I should stop being so evasive about it."
-""
+"ถ้าอยากรู้จักฮานาโกะให้มากกว่านี้ฉันก็คงต้องเลิกอ้อมไปอ้อมมาสักที"
 
 # "Talking with Lilly as an equal rather than being constantly in fear of causing her to become upset worked fine, so I should just try a straightforward approach with Hanako as well."
-""
+"การคุยกับลิลลี่ในฐานะเพื่อน ๆ กันแทนที่จะมามัวกลัวว่าจะทำให้อีกฝ่ายต้องเศร้าขึ้นมาก็ดูจะใช้ได้ เพราะงั้น\nก็ใช้วิธีคุยตรง ๆ แบบนี้นี่แหละกับฮานาโกะด้วย"
 
 # hi "Hey Hanako, do you mind if I ask you a question?"
-hi ""
+hi "นี่ ฮานาโกะ จะว่าอะไรไหมถ้าขอถามเธออย่าง"
 
 show hanako cover_worry_ss
 with charachange
 
 # ha "I-I don't mind."
-ha ""
+ha "มะ-ไม่ว่า"
 
 # hi "I… want to know what your life was like. Your life before coming to Yamaku."
-hi ""
+hi "ฉัน… อยากรู้ว่าชีวิตเธอเป็นยังไงน่ะ ชีวิตก่อนจะมายามากุ"
 
 show hanako emb_blushing_ss
 with charachange
 
 # "She hesitates. I briefly consider backing off, but she seems to be taking the question quite seriously."
-""
+"ฮานาโกะลังเล ฉันนึกจะถอยไม่ถามต่อแล้ว แต่เธอดูจะชั่งใจกับคำถามนั้นอย่างจริงจัง"
 
 # "I sit and watch her, silently letting her take her time. She's not making eye contact with me, and looks almost as if she's arguing with herself into letting herself open up to me more."
-""
+"ฉันนั่งมองฮานาโกะเงียบ ๆ ปล่อยให้เธอใช้เวลาคิด เธอไม่สบตากับฉันเลย ทั้งทำสีหน้าเหมือนกำลังเถียงกับตัวเอง\nว่าจะเปิดใจกับฉันให้มากกว่านี้ดีไหม"
 
 # "Her answer finally comes in a stiff, almost reluctant nod. She looks far more tense than she did before I'd asked."
-""
+"สุดท้ายฮานาโกะก็ตอบรับด้วยการพยักหน้าหงึกคล้ายไม่แน่ใจ ดูเกร็งกว่าตอนก่อนที่ฉันถามอีก"
 
 show hanako basic_worry_ss
 with charachange
 
 # ha "Okay. B-but in return… you have to t-tell me about your life as well…"
-ha ""
+ha "โอเค ตะ-แต่… นายจะต้องละ-เล่าเรื่องชีวิตนายให้ฟังก่อนนะ…"
 
 hide hanako
 with charaexit
 
 # "I nod, and follow her as she begins to walk out the library so we can talk."
-""
+"ฉันพยักหน้าแล้วเดินตามเธอที่ออกจากห้องสมุดไปเพื่อจะได้คุยกัน"
 
 scene bg school_hallway3
 show hanako basic_normal at center
@@ -4007,206 +4007,207 @@ with locationchange
 play music music_serene fadein 0.5
 
 # "By now most of the students have already left the main building, so apart from a few people hovering around club rooms, the hallways are largely empty."
-""
+"ตอนนี้นักเรียนหลายคนออกจากอาคารหลักไปกันแล้ว โถงทางเดินจึงแทบไม่มีใคร ยกเว้นคนบางคนที่ยังวนเวียน\nอยู่ตามห้องชมรม"
 
 # hi "I guess… we'll start with coming to Yamaku."
-hi ""
+hi "งั้น… เริ่มที่ตอนได้มายามากุแล้วกัน"
 
 # hi "Let's see… I was in the hospital when my parents first told me about Yamaku Academy."
-hi ""
+hi "นึกก่อนนะ… ตอนที่พ่อแม่บอกว่าจะได้มาเรียนยามากุเป็นตอนที่ฉันอยู่ที่โรงพยาบาล"
 
 # hi "The doctors told me I shouldn't go to my old school any more. My parents agreed and persuaded me to apply for Yamaku, even though it would mean living away from them for the first time."
-hi ""
+hi "หมอบอกว่าฉันไม่ควรกลับไปเรียนที่เดิมแล้ว พ่อแม่ฉันก็ตกลงแล้วหว่านล้อมให้ฉันเข้าเรียนที่ยามากุ ซึ่งก็แปลว่า\nฉันจะต้องใช้ชีวิตอยู่ห่างจากพ่อแม่เป็นครั้งแรกเลย"
 
 show hanako cover_worry
 with charachange
 
 # ha "It must have… been hard for you."
-ha ""
+ha "คง… ลำบากมากเลยสินะ"
 
 # hi "Well… yeah, I have to admit that it was. My parents both work long hours and full-time, so having to live reasonably independently wasn't anything new to me. It was the fact that I was going to a school for disabled students that hit hardest, I think."
-hi ""
+hi "อืม… ก็ใช่ ยอมรับเลยว่าลำบาก แต่พ่อแม่ฉันก็ทำงานหนักแบบเต็มเวลา เพราะงั้นฉันก็พอจะชินแล้วกับการใช้ชีวิต\nอยู่ตัวคนเดียว ที่คิดหนักที่สุดน่าจะเป็นเรื่องที่ว่าฉันต้องไปเรียนที่โรงเรียนสำหรับคนพิการนี่แหละ"
 
 # hi "And you?"
-hi ""
+hi "แล้วเธอล่ะ"
 
 scene bg school_staircase2
 show hanako emb_downtimid_close at right
 with locationchange
 
 # "A small group of chatting girls passes us as we near the stairs, with Hanako pressing herself tightly to my side until we reach the ground floor. She doesn't usually come this close while just walking in the school, so I'm left a little put off."
-""
+"กลุ่มเด็กสาวสองสามคนเดินผ่านเราไปตอนที่เราเดินใกล้ถึงบันได ฮานาโกะแนบตัวชิดกับฉันไปจนถึงชั้นล่าง\nฉันรู้สึกแปลก ๆ ขึ้นมาหน่อยเพราะปกติแค่เดินในโรงเรียนเธอจะไม่อยู่ใกล้ขนาดนี้"
 
 show hanako emb_downsad_close
 with charachange
 
 # ha "The staff at the o-orphanage offered me some options on what I could do. Middle school… hadn't been good, so I thought that Yamaku might be better."
-ha ""
+ha "พี่ ๆ ที่บะ-บ้านก็เสนอตัวเลือกว่าให้เลือกอะไรได้บ้าง ที่เรียนตอนมัธยมต้น… ก็ไม่ค่อยดีเท่าไหร่ เลยคิดว่ามาเรียน\nที่ยามากุน่าจะดีกว่า"
 
 # ha "It was isolated, and I thought it might be easier to get by here with most of the others being disabled."
-ha ""
+ha "โรงเรียนนี้อยู่ไกลจากบ้านคน แล้วก็คิดว่าน่าจะใช้ชีวิตที่นี่ได้ง่ายกว่าเพราะคนอื่นหลายคนที่มาเรียนก็พิการ"
 
 scene bg school_lobby_ss
 with locationchange
 
 # "It's pretty ironic that the reasons Hanako looked forward to Yamaku are the exact reasons I hated the idea. To me, it felt like I was being shunted somewhere away from society, and everyone I knew. To Hanako, that was probably an inviting prospect."
-""
+"ย้อนแย้งดีที่สาเหตุที่ฮานาโกะอยากมาที่ยามากุนั้นคือสาเหตุที่ฉันไม่อยากมายามากุ ฉันมองว่าโรงเรียนนี้ทำให้รู้สึก\nเหมือนตัวเองปลีกแยกออกจากสังคม ออกจากทุกคนที่ฉันรู้จัก ซึ่งฮานาโกะอาจมองว่าสิ่งนี้คือเรื่องที่ดีก็ได้"
 
 # hi "What was life like at the orphanage?"
-hi ""
+hi "ชีวิตที่สถานรับเลี้ยงเด็กกำพร้ามันเป็นยังไงเหรอ"
 
 show hanako emb_timid_ss at center
 with charaenter
 
 # ha "It was… okay. The staff there were nice, and they took care of us. The children there didn't talk to me much, but I didn't really want to talk with them either, so I didn't mind."
-ha ""
+ha "ก็… โอเคนะ พี่ ๆ เขาก็ดี คอยดูแลพวกเรา เด็กคนอื่นในบ้านไม่ค่อยคุยกับฉันเท่าไหร่ แต่ฉันก็ไม่อะไรเพราะไม่ได้\nอยากคุยกับคนอื่นอยู่แล้ว"
 
 show hanako emb_downsmile_ss
 with charachange
 
 # ha "The orphanage had a little library, so I started to read to pass the time. The staff didn't mind it, because it made me easier to handle than many of the other children."
-ha ""
+ha "ที่บ้านนั้นมีห้องสมุดย่อม ๆ ด้วย ฉันเลยเริ่มหันมาอ่านหนังสือฆ่าเวลา พี่ ๆ ก็ไม่ว่าอะไรเพราะแบบนี้จะได้รับมือ\nกับฉันง่ายกว่าเด็กคนอื่น"
 
 # hi "You didn't make any friends there?"
-hi ""
+hi "เธอไม่มีเพื่อนอยู่ที่บ้านนั้นเลยเหรอ"
 
 show hanako basic_worry_ss
 with charachange
 
 # ha "No. I think… my life was on hold… during that time. I knew that, but I didn't mind."
-ha ""
+ha "ไม่เลย ฉันว่า… ตอนนั้น… ชีวิตฉันชะงักไป ฉันรู้แหละ แต่ก็ไม่ได้อะไร"
 
 # "To think her life was on hold for all that time, though… depending on when the fire happened, that was a huge chunk of her life. No parents, no friends, apparently no relatives…"
-""
+"แต่ชีวิตชะงักไปตลอดช่วงนั้นเลยเหรอเนี่ย… แล้วก็เป็นช่วงที่กินเวลาในชีวิตไปหลายปีด้วย แล้วแต่ว่าเหตุการณ์\nไฟไหม้ครั้งนั้นเกิดขึ้นเมื่อไหร่ ไม่มีพ่อแม่ ไม่มีเพื่อน และเหมือนจะไม่มีญาติด้วย…"
 
 scene bg school_courtyard_ss
 with locationchange
 
 # "We walk through the door into the courtyard. I expect to need to avert my eyes from the sun, but by now it's well into sunset."
-""
+"เราเดินออกจากประตูมายังลาน ฉันนึกว่าจะต้องหรี่ตารับแสงแดด แต่ตอนนี้ก็เย็นย่ำมากแล้ว"
 
 show hanako emb_timid_ss at center
 with charaenter
 
 # "Hanako's eyes keep flicking to me, so I look away from her for a bit."
-""
+"ฮานาโกะเหลือบมองฉันไม่หยุด ฉันจึงเบือนหน้าหนีบ้าง"
 
 # ha "What was it like in the hospital?"
-ha ""
+ha "ที่โรงพยาบาลเป็นไงบ้างเหรอ"
 
 # "I quickly clear my thoughts and try to refocus them."
-""
+"ฉันจัดสมองให้โล่งด้วยความรวดเร็วแล้วตั้งสมาธิอีกรอบ"
 
 # "I hesitate for a bit, but I know that I have to tell her. We're close enough for her to feel comfortable telling me this, so it's only fair that I reciprocate."
-""
+"ฉันลังเลเล็กน้อย แต่อย่างไรก็ต้องบอกละนะ เราสนิทกันพอที่ฮานาโกะจะเล่าเรื่องนี้ให้ฟังได้แล้ว เพราะงั้นฉันก็ต้อง\nตอบรับด้วยการเล่าให้ฟังบ้าง"
 
 # hi "It was okay at times, but at others, it was pretty bad. At the beginning, everyone sent their sympathies, and came to visit often. It was just like breaking an arm or something."
-hi ""
+hi "บางครั้งก็พอได้ บางครั้งก็ไม่ไหวเหมือนกัน แรก ๆ ทุกคนก็เห็นอกเห็นใจฉันมาเยี่ยมฉันบ่อย ๆ เหมือนว่าฉัน\nแขนหักหรืออะไรงั้นแหละ"
 
 # hi "Meeting all my friends was one of the good times. Iwanako came in often as well; more often than anyone else."
-hi ""
+hi "ตอนที่ได้เจอเพื่อนทุกคนก็เป็นช่วงเวลาที่ดีนะ อิวานาโกะก็มาเยี่ยมบ่อยเหมือนกัน บ่อยกว่าใครเลยแหละ"
 
 # hi "But there were bad times, too. When my friends slowly stopped visiting, I began to realize how grave my situation was. It reminded me that this wasn't just a broken limb, but that I was now a different person than before."
-hi ""
+hi "แต่ช่วงเวลาที่ไม่ดีก็มีเหมือนกัน ตอนที่เพื่อนเริ่มไม่มาเยี่ยมแล้วฉันก็ค่อย ๆ ระลึกได้ว่าสถานการณ์ของฉัน\nมันร้ายแรงขนาดไหน เตือนให้ฉันคิดได้ว่าฉันไม่ได้แค่แขนขาหัก แต่กลายเป็นคนละคนกับเมื่อก่อนไปแล้ว"
 
 # hi "Even the times Iwanako would spend with me became torturous. By the end, we were reduced to silence, whereas before, she'd be talking constantly."
-hi ""
+hi "แม้แต่ตอนที่อิวานาโกะมาอยู่ด้วยฉันก็เริ่มอึดอัด สุดท้ายก็เงียบกันไป ทั้งที่ก่อนหน้านี้อิวานาโกะจะพูดจ้อ\nตลอดเลย"
 
 # "But that's how Iwanako always was. She may have been a fragile person, but she would talk constantly to try and hide that fact. Not about anything in particular, just… talk."
-""
+"แต่อิวานาโกะเป็นแบบนั้นอยู่แล้ว ถึงจะเป็นคนเปราะบาง แต่เธอก็แค่พูดไม่หยุดเพื่อจะปกปิดว่าตัวเองเป็นคนแบบนั้น\nไม่ได้พูดเรื่องอะไรเป็นพิเศษ แค่… พูดเฉย ๆ"
 
 # hi "I think the three lowest points would have been when my parents told me I wouldn't be going to my old school any more, my birthday passing while in the hospital, and… when Iwanako left for the last time."
-hi ""
+hi "ฉันว่าจุดต่ำสุดในชีวิตฉันมีอยู่สามที่ หนึ่งคือตอนที่พ่อแม่บอกฉันว่าฉันจะไม่ได้กลับไปเรียนที่เดิมแล้ว สองคือ\nเวลาถึงวันเกิดตอนที่ฉันอยู่ในโรงพยาบาล และสาม… ตอนที่อิวานาโกะจากฉันไปไม่กลับมาเลย"
 
 scene bg school_gardens_ss
 with locationchange
 
 # "We leave the school buildings behind us as we begin to follow the main path through the gardens. There may have been the odd bystander in the school buildings, but outside, we're practically alone."
-""
+"เราเดินมาตามทางหลักที่ผ่านสวนโดยทิ้งอาคารเรียนไว้เบื้องหลัง ตามอาคารเรียนอาจมีคนอยู่บ้าง แต่ข้างนอกนั้น\nนับได้ว่ามีเพียงเราสองคนเท่านั้น"
 
 show hanako basic_worry_ss at center
 with charaenter
 
 # ha "What was your middle school like?"
-ha ""
+ha "โรงเรียนม. ต้นนายเป็นยังไงเหรอ"
 
 # hi "I liked it. I grew up in a really metropolitan area, and the middle school was nearby, so it was pretty crowded. I didn't mind it, probably because I'm used to being in crowds and around lots of other people."
-hi ""
+hi "ก็ชอบนะ ฉันโตมากับเมืองกรุง แล้วโรงเรียนม. ต้นนั้นก็อยู่ใกล้บ้านด้วย คนเยอะทีเดียวละ ฉันก็ไม่ได้อะไร คงเพราะ\nฉันชินกับการอยู่กับฝูงชนผู้คนมากมายแล้ว"
 
-# hi "I got good grades, and I played soccer with my friends. I spent a fair bit of time hanging out with them after school as well. Did get teased a bit over my hair, though."
-hi ""
+# hi "I got good grades, and I played soccer with my friends. I spent a fair bit of time hanging out with them after school as well.
+# Did get teased a bit over my hair, though."
+hi "ผลการเรียนฉันก็ดี ฉันเล่นฟุตบอลกับเพื่อนด้วย แล้วพอเลิกเรียนก็ไปสังสรรค์ด้วยกันบ่อยเหมือนกัน แต่พวกนั้น\nชอบล้อเรื่องผมฉัน"
 
 show hanako def_worry_ss
 with charachange
 
 # ha "Your hair?"
-ha ""
+ha "ผมนาย?"
 
 # "I grimace a little as I put a hand over my hair to cover it."
-""
+"ฉันทำหน้าเบ้พลางยกมือมาปิดผมไว้"
 
 # hi "I'd keep getting tufts and strands that refused to flatten or stay where I wanted them, and my mother wouldn't let me just get my hair shaved. It had a habit of popping out, no matter how much I tried to brush it down."
-hi ""
+hi "มันจะมีผมที่ชอบชี้ตลอดไม่ยอมลู่ไปกับผมเส้นอื่นทั้งที่ไม่อยากให้ชี้ แม่ก็ไม่ยอมให้ฉันตัดผมเกรียนด้วย\nหวีให้มันเรียบเท่าไหร่ ๆ มันก็จะเด้งขึ้นมาตลอดอยู่ดี"
 
 show hanako basic_smile_ss
 with charachange
 
 # ha "It still does, a little."
-ha ""
+ha "ตอนนี้มันก็ชี้อยู่หน่อย ๆ นะ"
 
 # hi "I was worried I'd get that reply."
-hi ""
+hi "กลัวอยู่พอดีว่าเธอจะทักงั้น"
 
 show hanako cover_worry_ss
 with charachange
 
 # ha "S-sorry, I didn't mean to…!"
-ha ""
+ha "ขะ-ขอโทษ ฉันไม่ได้ตั้งใจ…!"
 
 # "I give a mild laugh and wave it off."
-""
+"ฉันหัวเราะเบา ๆ แล้วบอกปัดไป"
 
 # hi "It's fine, I know it still does."
-hi ""
+hi "ไม่เป็นไรน่า รู้แหละว่ายังชี้อยู่"
 
 # "It feels strange to have someone act so interested in my past. If it were anyone else I'd think they were just acting polite, but that's something I really don't think Hanako would do. Or if she did, she'd do it so badly that it would be obvious."
-""
+"รู้สึกแปลกดีพอมีคนมาสนใจเรื่องอดีตของฉันขนาดนี้ ถ้าเป็นคนอื่นฉันคงคิดว่าแค่ถามไปตามมารยาท แต่ฮานาโกะ\nไม่ทำอย่างนั้นหรอก หรือถ้าจะทำแบบนั้นจริงก็คงไม่เนียนจนดูออกชัดว่าแค่ถามตามมารยาท"
 
 scene bg school_dormhallground
 show hanako emb_downtimid_close at right
 with locationskip
 
 # "There are a number of girls in the common room on the ground floor, and Hanako presses herself to my side once more as we pass them. I expect her to break off, but instead she continues to cling onto me as we walk towards the stairway."
-""
+"ในห้องส่วนกลางที่ชั้นล่างของหอนั้นมีเด็กสาวอยู่จำนวนหนึ่ง ฮานาโกะแนบตัวเข้ามาชิดกับฉันตอนที่พวกเรา\nเดินผ่าน ฉันคิดว่าเดี๋ยวก็คงปล่อย แต่เธอก็แนบอยู่อย่างนั้นไปตลอดทางที่ขึ้นบันได"
 
 stop music fadeout 5.0
 
 # "Something about the way she's holding onto me feels… different from the usual."
-""
+"รู้สึกว่าการที่ฮานาโกะจับแขนครั้งนี้… ต่างไปจากทุกทียังไงไม่รู้"
 
 scene bg school_girlsdormhall
 with locationchange
 
 # "I'm left deep in thought as we walk up the stairs and down the hallway. It's only when we stop that I look up and realize that I've been following her without question."
-""
+"ฉันจมอยู่กับความคิดตัวเองไประหว่างที่เราเดินขึ้นบันไดมายังโถงทางเดิน พอเราหยุดเดินแล้วฉันเงยหน้าขึ้นมอง\nถึงนึกได้ว่าฉันตามฮานาโกะมาโดยไร้ซึ่งข้อกังขาใด ๆ เลย"
 
 # hi "Why did we come to your dormitory room?"
-hi ""
+hi "ทำไมเราถึงมาที่ห้องเธอกันนะ"
 
 show hanako basic_distant_close at center
 with charaenter
 
 # "She looks straight at the door, without so much as a glance in my direction."
-""
+"ฮานาโกะมองตรงไปที่ประตูไม่แม้แต่จะหันมามองทางฉัน"
 
 # hi "Hanako?"
-hi ""
+hi "ฮานาโกะ?"
 
 show hanako basic_normal_close
 with charachange
 
 # "She moves to answer, but stops herself."
-""
+"ฮานาโกะตั้งท่าจะตอบแต่ก็ยั้งตัวเองไว้"
 
 hide hanako
 with charaexit
@@ -4214,23 +4215,23 @@ with charaexit
 play sound sfx_dooropen
 
 # "Instead, she silently breaks from my side, opens her door, and steps inside."
-""
+"เธอกลับผละออกจากฉันเงียบ ๆ เปิดประตูเดินเข้าไปข้างใน"
 
 # "I look up and down the hallway, a bit lost as to exactly what I should do. Shrugging, I decide to follow her since I don't have any reason to do otherwise."
-""
+"ฉันมองโถงทางเดินไปมาด้วยยังงง ๆ ว่าควรทำอย่างไรต่อ ฉันยักไหล่แล้วเดินตามเข้าไป ก็ไม่มีเหตุผลอะไรที่ฉัน\nจะต้องกลับหอตัวเองนี่นะ"
 
 scene bg school_dormhanako_ss
 show hanako basic_normal_ss at center
 with locationchange
 
 # "Hanako stands in the middle of her room and looks straight at me. It's unnerving when she does this, as it's such an unusual action for her. I open my mouth to speak, but she preempts me."
-""
+"ฮานาโกะยืนอยู่กลางห้องมองตรงมาที่ฉัน ฉันกระอักกระอ่วนทุกทีที่เธอมองแบบนี้เพราะปกติเธอจะไม่ทำ\nฉันอ้าปากจะพูดแต่เธอก็ขัดก่อน"
 
 # ha "Could you… close and lock the door?"
-ha ""
+ha "รบกวน… ปิดแล้วล็อกประตูให้หน่อยได้ไหม"
 
 # "Hanako's hand reaches for her chest, grabbing her blouse at her heart."
-""
+"ฮานาโกะยกมือขึ้นมาที่หน้าอกแล้วกำเสื้อบริเวณนั้นไว้"
 
 hide hanako
 with charaexit
@@ -4241,40 +4242,40 @@ with Pause (0.8)
 play sound sfx_lock
 
 # "I turn and lock the door shut, then freeze."
-""
+"ฉันหันไปปิดประตูแล้วต้องชะงัก"
 
 # "The atmosphere is beginning to feel quite strange. This feeling is only made more profound when I hear the curtains being pulled behind me."
-""
+"บรรยากาศตอนนี้ชักแปลก ๆ แล้ว และยิ่งแปลกไปใหญ่เมื่อได้ยินเสียงรูดผ้าม่านปิดอยู่ข้างหลังฉัน"
 
 # "It's going to be night soon. We're a guy, and a girl, in a bedroom. She's closing the curtains, and I'm shutting and locking the door. She can't… she can't really have that in mind… can she?"
-""
+"ไม่นานก็จะค่ำแล้ว ฉันเป็นชาย เธอเป็นหญิง สองเราในห้องนอน เธอปิดผ้าม่าน ฉันปิดและล็อกประตู เธอคงไม่…\nไม่ได้คิดแบบนั้น… ใช่ไหม"
 
 # "I gulp and turn around very, very slowly. Hanako is in the center of the room, but hasn't turned back to face me."
-""
+"ฉันกลืนน้ำลายแล้วหันหน้าไปอย่างเชื่องช้า ฮานาโกะอยู่กลางห้องแต่ยังไม่หันหน้ามาทางฉัน"
 
 show hanako emb_downtimid_ss at center
 with charaenter
 
 # ha "You told me about your past, so I have to tell you mine."
-ha ""
+ha "นายเล่าเรื่องอดีตให้ฉันฟังแล้ว ตาฉันเล่าเรื่องอดีตของฉันบ้าง"
 
 # "She takes a deep, shuddering breath, and pauses for a number of seconds. Her hands move to her ribbon and begin to tug, all but confirming my thoughts."
-""
+"ฮานาโกะสูดหายใจลึกตัวสั่นแล้วเว้นช่วงไปสองสามวินาที เธอขยับมือมาดึงโบว์ที่เสื้อ ซึ่งยิ่งย้ำว่าสิ่งที่ฉันคิดนั้น\nถูกแล้ว"
 
 # hi "H-Hanako…"
-hi ""
+hi "ฮะ-ฮานาโกะ…"
 
 show hanako emb_timid_ss
 with charachange
 
 # ha "P-please… don't say anything."
-ha ""
+ha "ยะ-อย่า… เพิ่งพูดอะไรนะ"
 
 # "I obediently stay hushed as she slips off her ribbon and continues to unbutton her blouse, before working the clip on her bra. The process is slow. Perhaps it just feels slow because of what she's doing. I'm not sure."
-""
+"ฉันเงียบตามเธอสั่ง ฮานาโกะปลดโบว์ออกแล้วเริ่มแกะกระดุมเสื้อก่อนจะปลดตะขอเสื้อชั้นใน ซึ่งแต่ละอย่างเป็นไป\nอย่างช้า ๆ หรืออาจจะรู้สึกว่าช้าเพราะเป็นการถอดเสื้อผ้าก็ได้ ไม่แน่ใจ"
 
 # "Frozen to the spot, all I can do is watch as Hanako, hands trembling, unclips her skirt and lets it drop to the ground."
-""
+"ฉันได้แต่ยืนอยู่กับที่มองฮานาโกะที่ปลดกระโปรงมือสั่น ๆ ก่อนจะปล่อยทิ้งลงกับพื้น"
 
 play music music_hanako fadein 1.0
 
@@ -4282,10 +4283,10 @@ scene ev hanako_scars:
 with whiteout
 
 # "Finally, she takes her blouse in her hands and draws it off, her bra falling from her shoulders. And so, Hanako stands in the middle of the room all but bared, save for her stockings and underwear."
-""
+"จนในที่สุดเธอก็จับเสื้อถอดออกมาและปล่อยให้เสื้อชั้นในไหลออกจากบ่า เหลือเพียงฮานาโกะที่ยืนอยู่กลางห้อง\nด้วยกายที่มีเพียงถุงน่องและกางเกงในปกปิดอยู่"
 
 # ha "This is me. All… of me."
-ha ""
+ha "นี่คือฉัน ตัวฉัน… ทั้งหมด"
 
 show ev hanako_scars_large:
     xalign 0.0 yalign 1.0 subpixel True
@@ -4293,104 +4294,104 @@ show ev hanako_scars_large:
 with locationchange
 
 # "My eyes are immediately drawn to the scarring on her back. The skin on her right side is of a similar texture to that of her face, but it's also stretched taut and covering a much larger area. The scarring is by far the worst on the shoulder, buttock, and thigh."
-""
+"ตาฉันมองไปที่แผลเป็นตรงแผ่นหลังของฮานาโกะทันที ผิวตามลำตัวซีกขวาของเธอคล้ายกับผิวบนหน้า แต่เป็นรอย\nที่ลากยาวกว่าและกินพื้นที่เยอะกว่า ส่วนที่เป็นแผลเป็นหนักที่สุดเห็นจะเป็นบริเวณไหล่ ก้น กับต้นขา"
 
 # "Just as my heart attack redefined my life… this is the event that redefined Hanako's."
-""
+"นี่คือเหตุการณ์ที่กำหนดความเป็นตัวของฮานาโกะขึ้นมาใหม่… เหมือนอย่างที่เหตุการณ์หัวใจวายของฉัน\nกำหนดชีวิตฉัน"
 
 # "If I'd seen this when I first met her, I'd have been shocked. Not only at the sight, but also at the idea that something like this was survivable."
-""
+"ถ้าฉันเพิ่งเจอฮานาโกะแล้วได้เห็นรอยแผลเป็นนี้ฉันคงตกใจ ไม่ใช่แค่เพราะภาพที่เห็น แต่ตกใจว่ารอดจากเหตุการณ์\nที่ทำให้เกิดแผลขนาดนี้มาได้ด้วย"
 
 # "But after having had time to get used to the idea, and after seeing the scars on her face, hands and collar, my reaction is more measured. My reaction right now is not due to her scarring, but to her body."
-""
+"แต่พอมีเวลาทำใจให้ชินและได้เห็นแผลเป็นบนหน้า มือ กับคอบ่อย ๆ แล้วฉันก็ไม่ได้ออกอาการอะไรมาก ที่ฉัน\nตอบสนองอยู่ตอนนี้ไม่ใช่เพราะแผลเป็น แต่เป็นเพราะร่างกายเธอต่างหาก"
 
 # ha "The fire happened when I was eight years old. It was night, and we were sleeping when it started."
-ha ""
+ha "เหตุการณ์ไฟไหม้ครั้งนั้นเกิดขึ้นตอนฉันอายุได้แปดขวบ ซึ่งเกิดเมื่อตอนกลางคืนที่พวกเราหลับกันอยู่"
 
 # "Hanako's voice trembles, the shaking of her blouse giving away the fact that her hands are doing just the same."
-""
+"เสียงฮานาโกะสั่นเครือ เสื้อที่สั่นอยู่นั้นบ่งบอกว่ามือเธอก็สั่นด้วยเช่นกัน"
 
 # ha "I… curled up into a ball… when the fire swept over me. My mother… tried to shield me. Th-that's the only reason… I lived…"
-ha ""
+ha "ฉัน… นอนขดตัว… ตอนที่ไฟโหมเข้ามา แม่ฉัน… คอยกันไฟไม่ให้ถูกตัวฉัน พะ-เพราะแบบนี้ฉันถึง… ได้รอด…"
 
 # "Hanako's eyes begin to moisten, her voice cracking under the combined pressure of exposing herself to me like this, and reliving those painful memories from so long ago."
-""
+"ฮานาโกะน้ำตารื้น เสียงเธอสั่นด้วยความกดดันที่ต้องเปิดเผยตัวเองให้ฉันได้เห็นเช่นนี้กับการที่ต้องย้อนนึกถึง\nความทรงจำอันเจ็บปวดเมื่อนานมาแล้ว"
 
 # "I want to say something, anything, to make her feel better. I can't, though. I feel completely useless when faced with a situation like this. She's forcing herself to come so close, yet it's at times like this that I feel most distant to her."
-""
+"ฉันอยากจะพูด พูดอะไรก็ได้ พูดให้ฮานาโกะรู้สึกดีขึ้น แต่ก็พูดไม่ออก พอเป็นสถานการณ์แบบนี้แล้วฉันก็รู้สึกว่า\nตัวเองไร้ค่า เธอฝืนตัวเองเพื่อที่จะให้ได้เข้ามาใกล้ชิดฉัน แต่ก็กลับเป็นช่วงเวลาเช่นนี้ที่ฉันจะรู้สึกอยู่ห่างจากเธอ\nมากที่สุด"
 
 # ha "I'm sorry… for making you see this."
-ha ""
+ha "ขอโทษ… ที่ต้องให้นายมาเห็นอะไรแบบนี้นะ"
 
 # "There's no point in denying the obvious. I think what I should say now, and what Hanako wants me to say now, is the truth. What I genuinely, honestly, believe."
-""
+"คงไม่ต้องปฏิเสธอะไรกับสิ่งที่รู้กันอยู่แล้ว สิ่งที่ฉันควรจะพูดตอนนี้ซึ่งเป็นสิ่งที่ฮานาโกะอยากให้พูดนั้นเป็นความจริง\nเป็นสิ่งที่ฉันเชืื่อสุดใจและมาจากใจจริง"
 
 # hi "It doesn't matter. You're a wonderful person, Hanako. Your body doesn't change that."
-hi ""
+hi "ไม่สำคัญหรอก เธอน่ะเป็นคนที่ดีนะฮานาโกะ ร่างกายเธอจะเป็นยังไงก็ไม่เกี่ยวกันเลย"
 
 # "She looks at me for a long time, her breathing uneven as she tries to remain steady amidst the emotions we're both feeling. It feels less like she's looking at me than she's looking through me."
-""
+"ฮานาโกะมองฉันเนิ่นนาน ลมหายใจของเธอสั่น ๆ เธอพยายามตั้งสติกับอารมณ์ทั้งหลายที่เราทั้งสองคนต่างรู้สึก\nเหมือนว่าเธอไม่ได้มองมาที่ฉัน แต่มองผ่านเข้ามายังฉัน"
 
 # "I slowly walk towards her, and gently place my hands on her shoulders as she lets go of her blouse. She gasps a little; not in fright, but in simple startlement."
-""
+"ฉันค่อย ๆ เดินไปหาฮานาโกะแล้ววางไหล่บนบ่าตอนที่เธอปล่อยเสื้อ เธอสะดุ้งเฮือก แต่ก็ด้วยความตกใจไม่ใช่ความกลัว"
 
 # "Being so close to her causes my mind to become a jumble of feelings. The scarring on her shoulder, plain to see and leather-like to the touch, conflicts strangely with her otherwise soft skin and silky dark hair."
-""
+"เมื่อได้อยู่ใกล้เธอแล้วอารมณ์ฉันก็รวนไปหมด แผลเป็นที่เธอเปิดให้เห็นนั้นสัมผัสคล้ายหนังสัตว์ ซึ่งขัดกับผิวอ่อนนุ่ม\nกับผมสีเข้มลื่นสลวยของเธออย่างประหลาด"
 
 # "Hanako is a girl, with all that entails. She's taller than usual for a woman, but still has curves in all the right places. The nape of her neck, just visible thanks to her hair slung over her shoulder, is alluring."
-""
+"ฮานาโกะเป็นเด็กผู้หญิง ซึ่งก็มีความเป็นผู้หญิงตามสมควร เธอสูงกว่าผู้หญิงโดยทั่วไป แต่ก็มีส่วนโค้งเว้าตามแต่ละส่วน\nอย่างเหมาะเจาะ ต้นคอเธอที่เปิดให้เห็นเพราะผมไปเคลียบ่าแล้วนั้นช่างมีสเน่ห์"
 
 # ha "I know… that I'm not pretty… like Lilly. I just… wanted you… to see me. The real me."
-ha ""
+ha "ฉันรู้… ว่าฉันไม่ได้สวย… เหมือนอย่างลิลลี่ ฉันแค่… อยากให้นาย… ได้เห็นฉัน เห็นตัวตนจริง ๆ ของฉัน"
 
 # hi "I've already seen the real you, though. You didn't need to take off your clothes for that."
-hi ""
+hi "แต่ฉันได้เห็นตัวตนของเธอจริง ๆ แล้วนี่นา ไม่เห็นต้องถอดเสื้อผ้าเลย"
 
 scene bg school_dormhanako_ss
 show hanagown stockworry_blush_close_ss at center
 with locationchange
 
 # "Her lips are open, just a little. She lets out a sharp breath as, without thinking, I breathlessly lean forwards and press my lips to hers."
-""
+"เธอเผยอปากออกพ่นลมออกมาโดยไม่ทันได้คิดอะไร ฉันโน้มตัวเข้าไปประทับริมฝีปากพลางกลั้นหายใจ"
 
 # "The kiss only lasts for a fleeting moment before our faces part, our breathing quick and nervous. The feeling of Hanako's mouth lingers, and her eyes remain locked to mine."
-""
+"เราจูบกันอยู่เพียงชั่วขณะหนึ่งก่อนจะผละจากกัน ลมหายใจของเราถี่ขึ้นด้วยความประหม่า สัมผัสจากริมฝีปากเธอ\nยังคงค้างอยู่ ฮานาโกะยังคงมองฉันไม่วางตา"
 
 show hanagown stockdistant_blush_ss at center
 with charachange
 
 # "Trembling a little myself, I remove my tie and begin undoing the buttons of my shirt. Hanako remains standing where she is, looking at the ground in front of her rather than watching me undress."
-""
+"ฉันปลดเน็กไทตัวเองแล้วเริ่มแกะกระดุมเสื้อด้วยมือที่สั่นอยู่หน่อย ๆ ไม่ต่างกันกับฮานาโกะ เธอยังยืนมองพื้นอยู่ที่เดิม\nไม่ได้มองฉันตอนถอดเสื้อผ้า"
 
 # "On the one hand, I'm thankful for that. I've always been somewhat self-conscious of my body, but my scarring has made that quite a lot worse. On the other, though, this atmosphere feels very strange."
-""
+"ใจหนึ่งฉันก็นึกยินดีที่ไม่มองเพราะปกติฉันก็อาย ๆ กับร่างกายตัวเองอยู่แล้ว ยิ่งมีแผลเป็นฉันยิ่งอายไปใหญ่ แต่อีกใจ\nฉันก็รู้สึกว่าตอนนี้บรรยากาศนั้นแปลกมาก"
 
 show hanagown stocknormal_blush_ss at center
 with charachange
 
 # "My shirt falls to the floor in a heap, as untidy and crumpled as Hanako's blouse and skirt. Hanako's entire body visibly flinches at the sound of the zipper on my trousers being pulled down."
-""
+"เสื้อฉันร่วงลงไปกองกับพื้นแบบลวก ๆ เหมือนกันกับกองเสื้อกับกระโปรงของฮานาโกะ เธอสะดุ้งตัวโยนเมื่อได้ยิน\nเสียงรูดซิปกับเสียงกางเกงฉันที่ถกลง"
 
 # "My trousers join my shirt on Hanako's floor next to the bed, as do my socks in short measure. I hesitate before taking off my boxers, and end up leaving them on."
-""
+"ฉันวางกางเกงไว้กับพื้นข้างเตียงฮานาโกะ ไม่นานถุงเท้าฉันก็ตามไป ฉันนึกลังเลขึ้นมาเมื่อจะถอดบ็อกเซอร์\nแต่สุดท้ายก็ใส่ไว้"
 
 # "They represent one last hurdle I don't think I can overcome quite yet. Sheer embarrassment stops me, along with not wanting Hanako getting even more worked up. My unease about the situation has also left me needing my own stimulation."
-""
+"เป็นสิ่งแทนถึงอุปสรรคขั้นสุดท้ายที่ฉันรู้สึกว่ายังก้าวข้ามไปไม่ได้ ฉันไม่ยอมไปต่อเพราะอาย และเพราะไม่อยาก\nให้ฮานาโกะตระหนกไปมากกว่านี้ และฉันก็ต้องการอะไรมากระตุ้นให้หายอึดอัดจากสถานการณ์นี้ด้วย"
 
 show hanagown stockdistant_blush_ss at center
 with charachange
 
 # hi "Hanako…"
-hi ""
+hi "ฮานาโกะ…"
 
 hide hanagown
 with charaexit
 
 # "She gives a nod without so much as glancing at me, and makes her way to the bed as I do. She walks as if her legs were wooden sticks. I'd find it amusing if I weren't doing exactly the same thing."
-""
+"ฮานาโกะพยักหน้าไม่แม้แต่จะมองหน้าเดินไปยังเตียงพร้อม ๆ กันกับฉัน เธอเดินเหมือนกับว่าขาตัวเอง\nเป็นท่อนไม้แข็ง ๆ ซึ่งฉันคงจะขำอยู่ถ้าตัวเองก็ไม่เป็นเหมือนกัน"
 
 # "I take the initiative, turning around and sitting on the side of the bed. I look to her face to invite her to take a seat either next to me or in front of me, but end up awkwardly looking down to stop myself from staring at her body."
-""
+"ฉันเป็นฝ่ายเริ่มก่อนโดยการหันตัวนั่งลงที่ริมเตียง ฉันมองหน้าฮานาโกะเป็นการเชื้อเชิญให้มานั่งข้าง ๆ หรือนั่งที่ตัก\nแต่สุดท้ายฉันก็ต้องก้มหน้าลงอย่างกระอักกระอ่วนเพื่อไม่ให้ตัวเองต้องจ้องร่างกายฮานาโกะ"
 
 label th_H29h:
 
@@ -4398,188 +4399,188 @@ scene evh hanako_bed_boobs_glance
 with whiteout
 
 # "Nevertheless, she takes her cue and reluctantly sits between my legs. As she does, a rush of sensations hits me all at once."
-""
+"แต่ถึงอย่างนั้นฮานาโกะก็เข้ามานั่งตักฉันอย่างรู้กัน ความรู้สึกทั้งหลายแผ่ซ่านทั่วตัวทันทีที่เธอนั่ง"
 
 # "The feeling of her behind against my crotch is the most obvious, but her scent is just as strong. She's worked up a slight sweat already from her nervousness, and the smell and feeling of her hair is washed across my face."
-""
+"สัมผัสจากเธอผ่านเป้ากางเกงนั้นชัดที่สุด แต่กลิ่นของเธอก็ชัดพอกัน เหงื่อเธอเริ่มออกบ้างด้วยความประหม่าแล้ว\nทั้งกลิ่นและสัมผัสจากผมเธอกระจายไปทั่วหน้าฉัน"
 
 # "I try to put on a smile to try and make the situation a bit more comfortable for her, but it feels really stilted. Deciding to try and move things along, one hand finds itself on her breast as the other rests on her leg."
-""
+"ฉันลองปั้นยิ้มให้ฮานาโกะไม่ต้องอึดอัดเกินไป แต่ก็กลายเป็นรอยยิ้มเจื่อน ๆ ฉันตัดสินใจเดินหน้าต่อด้วยการ\nยกมือข้างหนึ่งขึ้นมาจับหน้าอกฮานาโกะ ส่วนอีกข้างวางไว้ที่ขาเธอ"
 
 show evh hanako_bed_boobs_blush
 with charachange
 
 # "Her lips purse tightly together as she tries, unsuccessfully, to suppress a squeal of surprise at the action."
-""
+"ฮานาโกะเม้มปากแน่นหมายจะยั้งเสียงร้องสะดุ้งแต่ก็กลั้นไม่อยู่"
 
 # hi "Sorry, I didn't mean to startle you."
-hi ""
+hi "ขอโทษที ไม่ได้ตั้งใจจะทำให้เธอตกใจน่ะ"
 
 # "Hanako takes a breath and shakes her head as her only reply."
-""
+"ฮานาโกะสูดหายใจแล้วเพียงสั่นหัวตอบ"
 
 # "A gulp comes from deep in my throat, before beginning to move my hand around, feeling and massaging her breast and nipple. It feels really nice, giving way underneath my palm with just a little firmness."
-""
+"ฉันกลืนน้ำลายดังเอื๊อกก่อนจะขยับมือไปสัมผัสและคลึงหน้าอกกับส่วนยอด เป็นสัมผัสที่ละมุน หน้าอกเธอยุบ\nไปตามฝ่ามือที่จับโดยมีแรงต้านเล็กน้อย"
 
 # "For a while I don't think it's helping her get into the mood at all, but slowly her eyelids begin to lower. Her breathing slows to a more rhythmic pattern, and her body begins to relax into mine."
-""
+"ฉันคิดอยู่ครู่หนึ่งว่าทำไปแล้วฮานาโกะคงไม่ได้มีอารมณ์ด้วย แต่เธอก็หรี่ตาลงช้า ๆ จังหวะหายใจของเธอเริ่มคงที่\nทั้งตัวเธอค่อย ๆ ผ่อนเกร็งอยู่บนตักฉัน"
 
 # "It's newly satisfying to be able to make Hanako feel like this; definitely better than the feeling of her body alone. I can sense a little hard bump brushing against my fingers that wasn't there before, too."
-""
+"เป็นอะไรที่ชวนให้พอใจได้แบบแปลกใหม่ดีที่ทำให้ฮานาโกะรู้สึกแบบนี้ได้ ดีกว่าสัมผัสจากร่างกายเธอเสียอีก ฉันยังรู้สึก\nได้ถึงจุดนูนเล็ก ๆ ที่ขัดกับนิ้วฉันซึ่งก่อนหน้านี้ไม่มีอยู่ด้วย"
 
 ###
 show evh hanako_bed_crotch_blush
 with charachange
 
 # "I slowly move my hand downwards, trying not to surprise her too much. She gives no protest, and my fingers soon begin to move up and down the soft groove between her legs."
-""
+"ฉันค่อย ๆ เลื่อนมือลงต่ำด้วยไม่อยากให้ฮานาโกะต้องตกใจมาก เธอไม่ขัดขืนอะไร นิ้วฉันขยับขึ้นลงตามร่องอ่อนนุ่ม\nตรงระหว่างขาเธอ"
 
 # "Her body is pressed against mine by now, a thin sheen of sweat on both of us. She feels warm, and all this has more than served to arouse me, as well as her."
-""
+"ตัวฮานาโกะแนบชิดกับฉัน ผิวเราทั้งสองคนต่างมีเหงื่อเคลือบอยู่บาง ๆ ทั้งความอุ่นและอะไรทั้งหลายนั้นมากเกินพอ\nที่จะทำให้ฉันมีอารมณ์ขึ้นมา เธอเองก็ด้วย"
 
 # "Hanako gives a small gasp, my fingers pressing a little harder and moving a little faster almost instinctively. The girl in front of me, the girl pressing against me… I want her. All of her."
-""
+"ฮานาโกะร้องออกมาเบา ๆ เมื่อฉันออกแรงกดนิ้วอีกเล็กน้อยและขยับให้เร็วขึ้นอีกหน่อยไปตามสัญชาตญาณ\nเด็กสาวที่อยู่ตรงหน้าฉัน ที่นั่งทับฉัน… ฉันต้องการเธอ ต้องการทุกอย่างที่เป็นเธอ"
 
 show evh hanako_bed_crotch_glance
 with charachange
 
 # "I stop moving my fingers, making Hanako give a long breath of relief from the feelings welling up inside of her. Her face looks to mine a little, silent, but expectant."
-""
+"ฉันหยุดนิ้วให้ฮานาโกะได้ถอนหายใจยาวพักจากความรู้สึกที่สะสมขึ้นอยู่ในตัวเรื่อย ๆ เธอเหลือบมามองฉันเงียบ ๆ\nด้วยความคาดหวังบางอย่าง"
 
 # "All I do is nod. I don't know which one of us is more apprehensive right now."
-""
+"ฉันได้แต่พยักหน้ารับ ไม่รู้เหมือนกันว่าฉันหรือเธอที่ตื่นเต้นกว่ากัน"
 
 scene bg school_dormhanako_ss
 with locationchange
 
 # "I push myself back onto the bed, extricating myself from Hanako with a certain amount of reluctance. For her part, she slides back and lies down with her head on her pillow, breathing heavily all the while."
-""
+"ฉันผละตัวเองออกจากฮานาโกะเข้ามาที่เตียงด้วยความยากลำบากเล็กน้อย ส่วนเธอก็ขยับตัวออกแล้วนอน\nหนุนหมอนพร้อมลมหายใจหอบหนัก"
 
 scene evh hanako_missionary_underwear
 with whiteout
 
 # "Hanako lying in front of me, her panties darkened, her chest heaving, her face flushed, and her eyes looking into mine… her scars just make her look all the more unique. I'm left without words that she'd allow me to see her like this."
-""
+"ฮานาโกะนอนอยู่ต่อหน้าฉัน กางเกงในเธอสีเข้มขึ้น หน้าอกของเธอขยับขึ้นลง ใบหน้าแดงฉ่า ตามองฉัน…\nแผลเป็นนั้นยิ่งทำให้เธอดูมีเอกลักษณ์ ฉันถึงกับไม่รู้จะพูดอะไรเมื่อเธอให้ฉันได้เห็นเธอในสภาพนี้"
 
 # "I bring myself closer to her, closing my hands on her waist. I wait for her to nod before taking a delicate hold of her stockings, taking them up a bit as gently as I can manage."
-""
+"ฉันเข้าไปใกล้ ๆ แล้ววางมือไว้ที่เอวเธอ ฉันรอให้ฮานาโกะพยักหน้าก่อนแล้วถึงค่อย ๆ จับถุงน่องนั้นแล้วดึงขึ้น\nอย่างเบามือที่สุด"
 
 # "I don't think I can get them off without tearing them, so I end up leaving them on her legs and moving her panties aside."
-""
+"ฉันคงถอดถุงน่องออกหมดแบบไม่ให้ขาดไม่ได้ สุดท้ายจึงถกขึ้นมาไว้ที่ขาแล้วจับกางเกงในเลื่อนออกด้านข้าง"
 
 # "Hanako lies practically naked on the bed; her most delicate parts and the scarring of her body are now plain to see."
-""
+"เรียกได้ว่าตอนนี้เธอนอนเปลือยอยู่บนเตียงแล้ว ทั้งส่วนที่บอบบางที่สุดกับส่วนที่เป็นแผลเป็นของเธอปรากฏให้เห็น\nทั้งหมด"
 
 # "Bringing my fingers to her crotch, I stroke her a little more, causing her breath to catch. She should be okay if she's this aroused, so I open my boxers and move myself up a little on the bed."
-""
+"ฉันยื่นนิ้วไปวางไว้ที่หว่างขาเธอแล้วคลึงอีกเล็กน้อยจนลมหายใจเธอขาดห้วง ถ้าตื่นตัวขนาดนี้แล้วน่าจะใช้ได้\nฉันถอดบ็อกเซอร์แล้วย้ายตัวเข้ามาที่ด้านในเตียง"
 
 # "Hanako's entire body tenses as I bring myself closer to her, her eyes widening. She's… scared?"
-""
+"พอฉันขยับเข้าใกล้ฮานาโกะแล้วทั้งตัวเธอก็เกร็งพร้อมดวงตาเบิกโพลง เธอ… กลัวเหรอ"
 
 # "I take a long breath, before realizing something I should have thought of before. I close my eyes and concentrate deeply."
-""
+"ฉันสูดหายใจลึก ๆ ก่อนจะนึกอะไรที่ควรนึกได้ตั้งแต่ก่อนหน้านี้แล้ว ฉันหลับตาแล้วตั้งสติ"
 
 # "My heart thumps away as I focus my mind on its beating. It's faster than usual, of course, but the beat is regular. I… think… I can keep it in check, if I take this slowly."
-""
+"ฉันจดจ่ออยู่กับหัวใจที่เต้นอยู่ เต้นรัวกว่าปกติ แต่จังหวะยังสม่ำเสมออยู่ ฉัน… ว่า… น่าจะพอไหว ถ้าทำแบบค่อย ๆ"
 
 # ha "Are you… okay…?"
-ha ""
+ha "นายไหว… หรือเปล่า…"
 
 # "I open my eyes and look at her. I guess that must have looked pretty worrying to someone else watching me."
-""
+"ฉันลืมตามองฮานาโกะ ท่าทีเมื่อกี้ของฉันคงดูน่าเป็นห่วงพอตัวเลยสินะ"
 
 # hi "I'm okay. I was just making sure that I was."
-hi ""
+hi "ไหว แค่ดูให้แน่ใจเฉย ๆ น่ะว่าตัวเองยังไหว"
 
 # "She hesitates a little before nodding. She looks a little less afraid than before, so maybe showing her that I was also worried helped reassure her."
-""
+"ฮานาโกะยังลังเลอยู่หน่อย ๆ แต่ก็พยักหน้า เธอไม่ได้ดูกลัวเท่าเมื่อครู่แล้ว อาจจะเพราะเห็นว่าฉันเองก็กังวลเหมือนกัน\nแล้วถึงได้สบายใจขึ้นมา"
 
 # "I lean over her and press my lips to hers, our tongues tentatively touching. I can feel her body becoming less tense under mine, so it's getting both of us back into the right mood."
-""
+"ฉันโน้มตัวเข้าไปทาบทับริมฝีปากกับเธอ ลิ้นเราสัมผัสกันแบบกล้า ๆ กลัว ๆ ตัวเธอที่อยู่ข้างใต้ฉันนั้นเริ่ม\nคลายความเกร็งลง เราทั้งสองเริ่มกลับมามีอารมณ์กันอีกครั้ง"
 
 # "Then I remember something and pull back."
-""
+"แล้วฉันก็นึกอะไรได้ก่อนจะถอนตัวออกมา"
 
 # "I lean over the side of the bed to where my trousers are, my hand reaching for the back pocket. I feel around blind for a few seconds, until a little foil square brushes just underneath my fingertip."
-""
+"ฉันเอี้ยวตัวไปหากางเกงที่กองอยู่ข้างเตียงแล้วเอื้อมไปที่กระเป๋าหลังคลำ ๆ หาบางอย่างจนปลายนิ้ว\nสัมผัสเข้ากับซองสีเงินขนาดเล็ก"
 
 # "I quickly pull it out and right myself on the bed, sitting back from Hanako a little and fiddling with the packet. It takes a little while for everything to go on correctly, but eventually the rubber sleeve covers what it should, fitting snugly."
-""
+"ฉันหยิบออกมาทันทีแล้วจัดแจงตัวเองกลับมานั่งท่าเดิมห่างจากฮานาโกะเล็กน้อยก่อนจะจับซองนั้นไปมา ต้องงม\nอยู่สักพักกว่าทุกอย่างจะลงตัวถูกต้อง สุดท้ายถุงยางก็มาครอบอยู่กับสิ่งที่ควรครอบตามหน้าที่อย่างพอดิบพอดี"
 
 # "My slight confusion at my first time trying to work a condom seems to have amused her a little, and as I position myself over her, we share a small nervous laugh. Now, though, I need to try and concentrate."
-""
+"ดูท่าว่าฮานาโกะจะชอบใจอยู่บ้างที่เห็นฉันใส่ถุงยางครั้งแรกนั้นแบบไม่ค่อยเป็น และเมื่อฉันตั้งท่าเตรียมแล้วเราก็\nหัวเราะเบา ๆ กันอย่างกระอักกระอ่วน แต่ตอนนี้ต้องตั้งสมาธิแล้ว"
 
 # "I look down and try to get my knees and waist in what I think are the right places, and take my penis in my slightly shaking hand. Hanako's face is looking at mine, but her eyes are pointed down at where our crotches meet."
-""
+"ฉันก้มมองแล้วจัดให้เข่ากับเอวอยู่ในตำแหน่งที่คิดว่าน่าจะใช่แล้วจับของตัวเองด้วยมือที่ยังสั่น ๆ หน้าของฮานาโกะ\nอยู่ตรงกับหน้าฉัน แต่ตาเธอมองตรงที่หว่างขาของเราสองคน"
 
 # "With a short breath, I position the head and push my hips forward."
-""
+"ฉันสูดหายใจตื้น จ่อตรงส่วนปลายแล้วดันเอวไปข้างหน้า"
 
 scene evh hanako_missionary_closed
 with charachange
 
 # ha "Aahn…!"
-ha ""
+ha "อ๊า…!"
 
 # "In one stroke, I push myself fully inside of her. The rush of sensations and emotions fills my head, and Hanako yelps in pain."
-""
+"ฉันดุนตัวเองเข้าไปข้างในเธอทั้งหมดรวดเดียว สัมผัสกับอารมณ์ทุกอย่างไหลบ่าเข้ามาในสมอง ส่วนฮานาโกะ\nร้องด้วยความเจ็บ"
 
 # "Looking at her face makes me feel uneasy. I mistakenly pushed too hard and too fast, and caused her more pain than necessary. Neither of us really knows what we're doing, and the last thing I wanted was to hurt her."
-""
+"พอมองหน้าเธอแล้วฉันก็อึดอัด ฉันเผลอดันแรงและเร็วเกินไปจนฮานาโกะต้องเจ็บเกินความจำเป็น เราต่างไม่รู้\nว่าต้องทำอย่างไร และสิ่งที่ฉันอยากเลี่ยงที่สุดเลยคือการทำให้เธอเจ็บ"
 
 scene evh hanako_missionary_open
 with charachange
 
 # "Hanako opens her eyes again and looks towards me. She must have seen how troubled I look, as she tries her best to put on a happy face. It's not very convincing at all."
-""
+"ฮานาโกะลืมตาอีกครั้งมองมาทางฉัน คงเห็นว่าฉันทำหน้าลำบากใจอยู่ถึงได้ปั้นสีหน้าให้ดูมีความสุขขนาดนั้น\nซึ่งไม่เนียนเอาเสียเลย"
 
 # "I look down and begin, slowly, to move my hips again after giving her a few moments to recover."
-""
+"ฉันก้มมองแล้วค่อย ๆ เริ่มขยับเอวอีกครั้งหลังจากที่เว้นช่วงให้ฮานาโกะได้พักแล้ว"
 
 # "The movement feels really unnatural, and I can feel muscles moving all over my lower body that I haven't felt moving in this way before."
-""
+"เป็นการขยับที่ไม่เป็นธรรมชาติเอามาก ๆ รู้สึกว่ากล้ามเนื้อร่างกายส่วนล่างได้ขยับในแบบที่ไม่เคยขยับมาก่อนเลย"
 
 # "I know I'm putting stress on my heart that I probably shouldn't, as well, and with every movement I keep track of my heart's beat."
-""
+"และฉันก็รู้ด้วยว่าฉันทำให้หัวใจต้องทำงานหนักเกินสมควร ฉันคอยจับสังเกตจังหวะหัวใจทุกครั้งที่ขยับตัว"
 
 # "The feeling inside of Hanako is soft and warm, and if not for the condom deadening a little of the sensation, I doubt I'd be able to last very long at all. Her soft gasps and constant movements don't help at all, either."
-""
+"สัมผัสภายในฮานาโกะนั้นทั้งนุ่มทั้งอุ่น ซึ่งถ้าไม่มีถุงยางคอยซับความรู้สึกไปหน่อย ๆ แล้วฉันคงทนได้ไม่นานแน่\nทั้งการขยับตัวเรื่อย ๆ กับเสียงร้องอ่อนหวานของเธอนั้นช่วยเร้าอารมณ์เข้าไปอีก"
 
 scene evh hanako_missionary_clench
 with charachange
 
 # "For Hanako's part, the look of pain doesn't really seem to be dissipating as I'd hoped. Her scar tissue causes one side of her body to move a little differently from the other, and strands of her hair are by now sticking to her face."
-""
+"สีหน้าที่ดูเจ็บ ๆ ของฮานาโกะนั้นไม่ได้หายไปอย่างที่หวังไว้ ผิวหนังส่วนที่เป็นแผลเป็นซีกหนึ่งของเธอนั้นเขยื้อน\nไม่เหมือนกับอีกซีก และเส้นผมยังระหน้าเธอไปหมด"
 
 # "I put my arms around her body and lift it up a little. After some squirming for the both of us, we try positioning ourselves a bit differently to minimize her pain."
-""
+"ฉันโอบตัวยกเธอขึ้นมาเล็กน้อย เราเขยิบตัวไปมาอยู่ครู่หนึ่งจัดท่าให้ต่างจากเดิมเพื่อไม่ให้ฮานาโกะต้องเจ็บมาก"
 
 # "With my hands holding her legs, both of us are moving in less and less measured movements by now. The smell of Hanako fills my senses, and from this position, I'm not stressing my body quite as much."
-""
+"เราสองคนขยับตัวได้แบบสบายขึ้นเรื่อย ๆ โดยมีฉันจับขาเธอไว้ กลิ่นฮานาโกะแทรกเข้ามาในความรับรู้ ท่านี้\nทำให้ฉันไม่ต้องออกแรงมากด้วย"
 
 # "My sense of time seems distorted, and I feel like I'm starting to get faint from hyperventilating. I want Hanako to feel good, though, and I can't stop now that we've reached this point."
-""
+"เหมือนสมองส่วนรับรู้เวลาจะเพี้ยนไปแล้ว และเหมือนจะหายใจเกินจนคล้ายจะเป็นลมให้ได้ แต่ฉันก็อยากให้ฮานาโกะ\nรู้สึกดี มาถึงขั้นนี้แล้วจะให้หยุดก็คงไม่ได้"
 
 # "A new wave of pleasure suddenly begins to wash over me. My feelings are beginning to well up, and I don't think I can control them any more. I speed up, concentrating less and less on pacing myself."
-""
+"ความหวามไหวเข้าถาโถมในฉับพลัน ความรู้สึกเริ่มก่อตัวขึ้นเรื่อย ๆ จนฉันแทบคุมไม่อยู่แล้ว ฉันเร่งการขยับ\nโดยเริ่มไม่ได้สนใจกับการผ่อนจังหวะให้เหมาะกับตัวเอง"
 
 # "Every time it feels like we've found a rhythm, we lose it in our movements. From the sounds she's making, I don't think this position's helped Hanako feel much better, and I don't think I'm going to be able to hold her much longer, either."
-""
+"ทุกครั้งที่เหมือนจะได้จังหวะลงตัวแล้วตัวเราก็เคลื่อนจนจังหวะนั้นหายไป ท่านี้ไม่น่าช่วยให้ฮานาโกะรู้สึกดีขึ้นเท่าไหร่\nและฉันก็น่าจะกลั้นได้อีกไม่นานแล้วด้วย"
 
 # "I turn and lay her back down on the bed, both of us well beyond the point of doing anything but reaching the end."
-""
+"ฉันวางตัวฮานาโกะลงกับเตียง ตอนนี้สิ่งที่เราทั้งสองทำต่างมีเพียงการไปให้ถึงที่หมายเท่านั้น"
 
 # "One thrust after another, I begin to feel that point coming, frantically tensing myself to try and stave it off for as long as I can."
-""
+"เมื่อกระแทกเข้าไปเรื่อย ๆ ก็เริ่มสัมผัสได้ว่าใกล้เต็มที ฉันเกร็งสุดชีวิตยื้อไว้ให้นานที่สุดเท่าที่จะทำได้"
 
 # hi "Hanako…!"
-hi ""
+hi "ฮานาโกะ…!"
 
 scene evh hanako_missionary_closed
 with charachange
 
 # "Hanako gives a small shriek as my mind blanks. My waist hits hers with a fair amount of force as I hit the point of climax, and I can feel myself twitching inside of her. Her body twists and turns under mine, only heightening the feelings of euphoria."
-""
+"ฮานาโกะร้องเสียงแหลมเล็ก หัวสมองฉันว่างเปล่า เอวฉันกระทบเข้ากับเธออย่างหนักเมื่อฉันถึงฝั่งแล้วและยังรู้สึก\nถึงตัวเองที่กระตุกอยู่ข้างใน เธอบิดตัวไปมาจนทำให้ฉันเสียวซ่านขึ้นไปอีก"
 
 window hide
 
@@ -4592,10 +4593,10 @@ with Dissolve(3.0)
 window show
 
 # "And then, after a couple of seconds… it ends."
-""
+"และผ่านไปสองสามวินาที… ทุกอย่างก็สิ้นสุดลง"
 
 # "The sound of Hanako's breathing and my own rings in my ears, almost painfully loudly. Hanako holds an arm over her face, her mouth open and gulping in air."
-""
+"ทั้งเสียงหายใจของฮานาโกะกับเสียงจี๊ดในแก้วหูนั้นดังเสียดหู ฮานาโกะยกแขนขึ้นมาก่ายหน้าพลางสูดหายใจ\nทางปาก"
 
 stop music fadeout 10.0
 
@@ -4603,13 +4604,13 @@ show white:
     linear 10.0 alpha 0.0
 
 # "As I hold myself over her, suddenly my arms almost give way and my vision distorts, as if someone's grabbed it and pulled sideways. I let myself fall sideways onto the bed beside the panting Hanako, for fear of falling onto her instead."
-""
+"ระหว่างที่คร่อมฮานาโกะนั้นอยู่ ๆ แขนฉันก็เปลี้ยราวกับมีใครมาชักแขนออกและภาพตรงหน้าบิดเบี้ยวไป\nฉันทิ้งตัวลงนอนข้างฮานาโกะที่หอบอยู่ด้วยกลัวว่าจะหมดแรงล้มทับตัวเธอไปก่อน"
 
 # "We both lie beside each other, naked and pressed against one another in order to fit on a bed made for a single person. My eyes try to focus on the ceiling, to not much success. Pulling a blanket over us to stave off the cold is all I can do."
-""
+"เรานอนเคียงเบียดเสียดแนบกายเปลือยเข้าหากันให้นอนอยู่บนเตียงสำหรับนอนคนเดียวได้ ฉันพยายามจะจดจ้อง\nแค่ตรงเพดานแต่ก็มองได้ไม่นาน จึงเพียงชักผ้าห่มมาคลุมคลายความหนาวให้เราสองคน"
 
 # "The only sound in the room is that of our breathing. The sweat that had accumulated on my body feels uncomfortable. We're both physically and emotionally exhausted, and a complete mess all over."
-""
+"ในห้องมีเพียงเสียงหายใจของเราสองคน เหงื่อท่วมตัวจนฉันนอนได้ไม่สบายตัว ทั้งร่างกายและจิตใจเรา\nอ่อนล้ายุ่งเหยิงไปหมด"
 
 window hide
 
@@ -4623,7 +4624,7 @@ with Dissolve (0.8)
 window show
 
 # "My vision slowly begins to return to normal as I continue to stare at the ceiling, but my limbs still feel like jelly. I try to concentrate on my chest, and find its beat irregular and mildly painful."
-""
+"ฉันจ้องเพดานจนภาพที่เห็นเริ่มกลับมาเป็นปกติ แต่แขนขาฉันยังอ่อนเหมือนบวบต้ม หัวใจที่เต้นอย่างไม่สม่ำเสมอนั้น\nทำให้เสียดเจ็บขึ้นมาเล็กน้อยเมื่อตั้งสมาธิไปที่หน้าอก"
 
 window hide
 
@@ -4637,7 +4638,7 @@ with Dissolve (0.8)
 window show
 
 # "This is a dangerous time. I have to think this through and not panic, lest I make my situation any worse."
-""
+"ตอนนี้อันตราย ต้องคิดให้รอบคอบอย่างไม่ตื่นตระหนก ไม่อย่างนั้นแล้วอะไร ๆ จะต้องแย่กว่านี้แน่"
 
 window hide
 
@@ -4651,10 +4652,10 @@ with Dissolve (0.8)
 window show
 
 # "With a huge effort, I take control of my erratic breathing, forcing myself to make long, deep breaths. I count half a dozen before I start to feel physically calm again, and press my hand to my chest to assure myself."
-""
+"ฉันคุมจังหวะหายใจตัวเองที่เพี้ยนไปอย่างสุดความสามารถด้วยการสูดหายใจเข้าลึก ๆ พอนับหนึ่งไปถึงหกแล้ว\nถึงรู้สึกค่อยยังชั่วบ้าง จากนั้นจึงกดหน้าอกเป็นการบรรเทาอาการ"
 
 # "My heartbeat's back to normal. I'm okay."
-""
+"หัวใจฉันกลับมาเป็นปกติแล้ว โอเคแล้ว"
 
 scene ev hanako_after_worry
 with locationchange
@@ -4662,25 +4663,25 @@ with locationchange
 play music music_twinkle fadein 1.0
 
 # "I turn my face towards Hanako, who's already looking at me. Her expression looks pretty dazed, but underneath that, there's definitely a look of concern. She's realized what happened."
-""
+"ฉันหันไปมองฮานาโกะที่มองฉันอยู่ก่อนแล้ว สีหน้าเธอดูเหม่อ ๆ ทว่าเห็นชัดว่ามีความกังวลแฝงอยู่ เธอรู้ว่าเมื่อครู่\nเกิดอะไรขึ้น"
 
 # hi "I'm… okay. Everything's… back to normal."
-hi ""
+hi "ฉัน… โอเคแล้ว ทุกอย่าง… กลับมาเป็นปกติแล้ว"
 
 # "I find myself barely able to get the words out between breaths. I don't think sex would tire a normal body out this much, so I have no doubt my condition's at least partially at fault. Why did my body have to do this right now?"
-""
+"ฉันหอบหนักจนแทบพูดไม่เป็นคำ ไม่คิดเลยว่าเซ็กส์จะทำให้เพลียได้ขนาดนี้ อาการของฉันก็คงมีส่วนด้วยแน่นอน\nทำไมร่างกายฉันถึงมาเป็นแบบนี้เอาตอนนี้นะ"
 
 scene ev hanako_after_smile
 with charachange
 
 # "All thoughts of my heart, though, are pushed aside as I see the wide smile forming on Hanako's face."
-""
+"แต่รอยยิ้มที่ผุดขึ้นบนใบหน้าฮานาโกะก็ปัดเป่าทุกความคิดเรื่องหัวใจให้พ้นไปจากสมอง"
 
 # "As always, I smile back without another thought. Hanako's smile has always been infectious in its almost childlike sweetness and earnesty, something that sets her apart from anyone else I know."
-""
+"ฉันยิ้มกลับไปไม่คิดอะไรเหมือนอย่างเคย รอยยิ้มของฮานาโกะนั้นช่างจริงใจและหวานล้ำเหมือนเด็ก ๆ จนทำให้\nอดยิ้มตามไม่ได้ เป็นสิ่งที่ทำให้ฮานาโกะนั้นแตกต่างจากคนอื่นที่ฉันเคยรู้จักมา"
 
 # "Right now… we don't need words. Everything we want to communicate to each other, we can share just fine without them."
-""
+"ตอนนี้… เราไม่ต้องการคำพูดใด ๆ ทุกอย่างที่เราอยากสื่อสารนั้นส่งถึงกันและกันได้โดยไม่ต้องใช้คำพูด"
 
 stop music fadeout 2.0
 
