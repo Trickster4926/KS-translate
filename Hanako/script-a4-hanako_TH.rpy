@@ -4696,7 +4696,7 @@ scene black
 with dissolve
 
 # hi "Mmh…"
-hi ""
+hi "อือ…"
 
 play music music_pearly
 
@@ -4704,98 +4704,98 @@ scene bg school_dormhanako at left
 with openeye
 
 # "My eyes feel heavy as they slowly open, the light from outside making me blink a bit to let them get adjusted. My body feels like lead, and my head feels just as heavy."
-""
+"เปลือกตาฉันที่ค่อย ๆ เปิดออกนั้นหนักอึ้ง แสงที่ส่องจากข้างนอกเข้ามาทำให้ฉันต้องกะพริบตาสองสามครั้ง\nเป็นการปรับตา ทั้งตัวก็เหมือนมีตะกั่วถ่วง หัวก็หนัก ๆ เหมือนกัน"
 
 # "Waking up to an unfamiliar ceiling is an uncomfortable feeling. It reminds me of the first time I awoke to the dimpled white tile ceiling of the hospital."
-""
+"ตื่นมาแล้วเห็นเพดานที่ไม่คุ้นตาแล้วก็รู้สึกอึดอัดแปลก ๆ นึกถึงตอนที่ตื่นมาเจอเพดานสีขาวที่มีรอยยุบ\nในห้องของโรงพยาบาลเป็นครั้งแรกเลย"
 
 # "It's only after spending a few seconds staring up at it that I realize where I am. This is Hanako's dormitory room."
-""
+"จ้องอยู่ได้สองสามวินาทีถึงนึกออกว่าตัวเองอยู่ที่ไหน ที่นี่คือห้องฮานาโกะ"
 
 # "I feel as though my heart stopped again, as the events of last night rush through my head, blood rushes to my cheeks, and I shut my eyes once more."
-""
+"รู้สึกราวกับหัวใจจะหยุดเต้นอีกครั้งเมื่อเหตุการณ์เมื่อคืนเล่นซ้ำในสมอง เลือดสูบฉีดเข้ามาที่แก้ม ฉันหลับตาลง\nอีกครั้ง"
 
 # "There's very little point to getting myself worked up this early though, so I try to push such things out of my mind for now."
-""
+"เช้ามาก็อย่าเพิ่งกระวนกระวายอะไรเลยดีกว่า ฉันคอยปัดความคิดนั้นทิ้งไปจากหัวก่อน"
 
 # "I roll my head to the side to see if Hanako's where she was when I drifted off to sleep. All that's there now is an empty space on the bed, and the room beyond."
-""
+"ฉันหันหัวไปด้านข้างมองไปตรงที่ที่ฮานาโกะเคยอยู่ตอนก่อนฉันจะผล็อยหลับไป ซึ่งตอนนี้ตรงนั้นเหลือเพียงเตียง\nที่ว่างเปล่า ในห้องก็ไม่มีใคร"
 
 # "I sluggishly sit up and rub my eyes, before pinching the bridge of my nose and looking around the room."
-""
+"ฉันลุกขึ้นนั่งแบบเอื่อย ๆ มาขยี้ตาบีบสันจมูกแล้วมองไปรอบ ๆ ห้อง"
 
 show bg school_dormhanako at right
 with charamove_slow
 
 # "The only person here is me. I'm still bereft of my clothes, and after a quick scan of the floor for them, I notice that they're neatly folded in a corner of the room. Try as I might, I can't see Hanako's anywhere."
-""
+"ในห้องนี้มีแค่ฉันที่ยังไม่มีเสื้อผ้าติดตัว พอกวาดตามองหารอบ ๆ ห้องก็เห็นว่าเสื้อผ้าของฉันวางพับไว้อย่างดีอยู่ตรง\nมุมหนึ่งของห้อง แต่หาเท่าไหร่ก็หาฮานาโกะไม่เจอ"
 
 # "The foil packet for the condom's been removed too, presumably put into the bin."
-""
+"ไม่มีซองถุงยางสีเงินแล้วด้วย อาจจะอยู่ในถังขยะแล้ว"
 
 # "With a great yawn, I get myself out of bed and quickly look for some underwear. I grimace a little at the prospect of putting my boxers back on after yesterday's efforts did a job on them, but I don't have much choice."
-""
+"ฉันหาวหวอดใหญ่ลุกออกจากเตียงมองหาชุดชั้นใน ฉันหน้าเบ้ไปเล็กน้อยเมื่อคิดว่าต้องใส่บ็อกเซอร์ที่ผ่านศึกเมื่อวาน\nมาจนบอบช้ำตัวเดิม แต่ก็ใช่ว่าจะมีทางเลือกอื่นละนะ"
 
 # "Taking advantage of the fact that I have some time without anyone around, I get myself dressed for the coming school day in short order."
-""
+"ฉันถือเอาจังหวะที่ตอนนี้ไม่มีใครอยู่ด้วยรีบแต่งตัวเตรียมไปเข้าเรียน"
 
 # "And then… I'm alone."
-""
+"และแล้ว… ก็ไม่มีใคร"
 
 # "Without anything more to busy myself with, my mind becomes focused on the fact that I'm standing in another person's bedroom after we spent the night together, but there's not a single sign of her around."
-""
+"เมื่อไม่มีอะไรอย่างอื่นให้คิดให้ทำแล้วสมองฉันก็จดจ่ออยู่กับเรื่องที่ว่าตอนนี้ฉันอยู่ในห้องนอนคนอื่นที่ฉัน\nนอนค้างอ้างแรมด้วย ซึ่งไม่มีวี่แววว่าเธอคนนั้นอยู่แถวนี้เลย"
 
 play sound sfx_rumble
 
 # "My gut proves to be more helpful than my brain at working out this riddle. With a loud growl, it reminds me that she may well just be getting breakfast."
-""
+"ดูท่าว่าท้องไส้จะช่วยฉันได้มากกว่าสมองในการไขปริศนานี้ พอได้ยินเสียงท้องร้องแล้วก็นึกได้ว่าฮานาโกะคงแค่\nออกไปหาข้าวเช้ากิน"
 
 # "I would have liked to wake up next to her, but… maybe it's a good thing that I have a few moments alone."
-""
+"ก็อยากจะตื่นมาแล้วเจอฮานาโกะอยู่ข้าง ๆ อยู่หรอก แต่ว่า… ให้ฉันได้อยู่ตัวคนเดียวบ้างก็คงดีเหมือนกัน"
 
 # "Hanako's room, as always, is quite bleak in appearance. There are precious few decorations, and practically no personal artifacts that aren't hidden away in cupboards and drawers."
-""
+"ห้องฮานาโกะยังเปล่าเปลือยเหมือนเช่นเคย มีของตกแต่งล้ำค่าอยู่บ้าง ไม่มีของใช้ส่วนตัวอะไรที่ไม่ได้เก็บไว้ในตู้\nหรือลิ้นชักเลย"
 
 # "She's lived here for three years, but the room looks as if it's barely been occupied for a single day."
-""
+"ฮานาโกะอยู่ที่นี่มาสามปีแล้ว แต่สภาพห้องเหมือนเพิ่งมาอยู่ได้แทบไม่ถึงวันด้วยซ้ำ"
 
 # "I shouldn't overthink this. She might just like living this way, as some do. Having the ability to put such low stock in physical possessions does have its advantages, but even so, it feels a little disconcerting given her past."
-""
+"ไม่ควรไปคิดอะไรมากสิ ฮานาโกะอาจจะใช้ชีวิตอยู่อย่างนี้ คนอื่นที่อยู่แบบนี้ก็คงมี การอยู่แบบไม่ต้องมีของใช้ส่วนตัว\nมากมายก็มีประโยชน์อยู่เหมือนกัน แต่ถึงอย่างนั้น พอนึกถึงอดีตของฮานาโกะแล้วได้มาเห็นสภาพนี้ก็รู้สึก\nไม่สบายใจเหมือนกัน"
 
 # "She said she viewed herself as having had her life on hold while at the orphanage. She certainly lives as if she still does, but… after what happened last night, it's pretty hard to imagine that she still thinks that way."
-""
+"ฮานาโกะเคยบอกว่าตัวเองมองว่าชีวิตชะงักไปตอนที่อยู่สถานรับเลี้ยงเด็กกำพร้า ซึ่งเธอก็ยังใช้ชีวิตเหมือนอย่าง\nตอนอยู่ที่นั่นนั่นแหละ แต่ว่า… พอได้เห็นเธอเมื่อคืนที่ผ่านมาแล้วฉันก็ไม่ค่อยจะเชื่อว่าฮานาโกะยังคิดแบบนั้นอยู่\nจริง ๆ"
 
 play sound sfx_dooropen
 
 # "The sound of the doorhandle cracks through my thoughts, and I turn to face it."
-""
+"เสียงลูกบิดแทรกเข้ามาในความคิด ฉันหันไปมอง"
 
 show hanako basic_normal at center
 with charaenter
 
 # "Sure enough, Hanako comes through and shuts the door behind her. She has what seem to be two microwaved instant meals in her hands, so this is a little difficult."
-""
+"เป็นฮานาโกะดังคาด เธอเดินเข้ามาแล้วปิดประตู ในมือเหมือนจะมีอาหารสำเร็จรูปที่อุ่นไมโครเวฟมา คงลำบาก\nอยู่หน่อย ๆ"
 
 # hi "Good morning, Hanako."
-hi ""
+hi "อรุณสวัสดิ์ฮานาโกะ"
 
 show hanako basic_bashful
 with charachange
 
 # ha "M… 'morning."
-ha ""
+ha "ระ… รุณหวัด"
 
 # "She gives a little bow before making her way to her desk, setting down both plates. I can now see them to be small satay dishes, their contents steaming, with a fork stuck inside the rice of each."
-""
+"ฮานาโกะก้มหัวเล็กน้อยก่อนเดินมาวางจานทั้งสองใบที่โต๊ะ ตอนนี้ฉันเห็นแล้วว่าในจานเป็นสะเต๊ะกับข้าวที่มีส้อม\nเสียบไว้อยู่ซึ่งมีควันลอยฉุย"
 
 show hanako basic_distant at Position(ypos=1.15)
 with dissolvecharamove
 
 # "I give thanks to her for bringing them in, and we each take one and get down to eating. She sits on her desk chair, while I sit on the side of the bed."
-""
+"ฉันขอบคุณฮานาโกะที่นำข้าวเช้ามาให้ เราหยิบไปคนละจานแล้วกินกัน เธอนั่งอยู่ที่โต๊ะ ส่วนฉันนั่งอยู่ที่ริมเตียง"
 
 # "I don't like talking while eating, so the silence between us isn't annoying in and of itself. It's the fact that it only exists because we don't quite know what to say to each other that's off-putting."
-""
+"ฉันไม่คุยตอนกินข้าวอยู่แล้ว ที่น่าหงุดหงิดจึงไม่ใช่ความเงียบในตอนนี้เพียงอย่างเดียว แต่ที่รู้สึกแปลก ๆ เพราะเรา\nต่างไม่รู้จะพูดอะไรกันต่างหาก"
 
 show hanako basic_normal
 with charachange
@@ -4804,53 +4804,53 @@ show hanako basic_distant
 with charachange
 
 # "Hanako glances towards me every so often as she eats. I only notice her doing so because I'm doing just the same thing."
-""
+"ฮานาโกะกินไปพลางเหลือบมองฉันไปพลางอยู่บ่อย ๆ และที่ฉันรู้ก็เพราะฉันก็ทำเหมือนกัน"
 
 # "We're eating together as if we were a couple. We even had sex last night; a first for the both of us. Something feels… wrong, though."
-""
+"เรากินข้าวด้วยกันเหมือนว่าเราเป็นแฟนกัน เมื่อคืนเรามีอะไรกัน—ซึ่งต่างเป็นครั้งแรกของเราสองคน—แล้วด้วย\nแต่เหมือน… มีอะไรผิดที่ผิดทางไป"
 
 # "Maybe that's why we can't say even a word to each other as we finish our plates and leave them in the sink."
-""
+"อาจจะเพราะอย่างนี้เราถึงไม่พูดอะไรกันแล้วกินอาหารในจานตัวเองไปจนหมดแล้วเก็บจานไว้ที่อ่างล้างจาน"
 
 scene bg school_girlsdormhall
 with locationchange
 
 # "Maybe that's why we leave Hanako's room without holding hands, or making smalltalk."
-""
+"อาจจะเพราะอย่างนี้เราถึงออกมาจากห้องฮานาโกะโดยไม่จับมือกันหรือคุยเรื่อยเปื่อยกัน"
 
 # "Maybe that's why it feels as if we're further apart than we've ever been before."
-""
+"อาจจะเพราะอย่างนี้ถึงรู้สึกเหมือนว่าเราอยู่ห่างจากกันกว่าทุกที"
 
 # timeskip
 scene bg school_scienceroom at left
 with locationskip
 
 # "We enter the classroom together, neither of us so much as glancing at each other. Just after we do so, I realize that this may have been a mistake. Shizune lifts her eyebrow at the sight, her suspicions raised."
-""
+"เราเข้าห้องเรียนพร้อมกันโดยไม่แม้แต่จะเหลือบมองกัน ทันทีที่เข้าไปฉันก็ระลึกได้ว่าทำพลาดไปแล้ว ชิซูเนะเลิกคิ้ว\nด้วยความสงสัยที่เห็นเราสองคนมาด้วยกัน"
 
 show hanako cover_distant at center
 with charaenter
 
 # "We reach the center aisle between the classroom's desks and look to each other. I'm not quite sure what I should say. Does she want me to address her as a girlfriend? I didn't think our relationship was… Oh. That's why this feels so strange."
-""
+"เราเดินมาถึงทางเดินที่อยู่ระหว่างโต๊ะนักเรียนแล้วมองตากัน ฉันไม่แน่ใจนักว่าควรพูดอะไรดี อยากให้เรียก\nว่าเป็นแฟนหรือเปล่า ฉันว่าความสัมพันธ์ของเรามันยัง… อ้อ มิน่าล่ะถึงได้รู้สึกแปลกขนาดนี้"
 
 # hi "S-see you."
-hi ""
+hi "จะ-เจอกัน"
 
 show hanako cover_bashful
 with charachange
 
 # ha "Okay."
-ha ""
+ha "โอเค"
 
 hide hanako
 with charaexit
 
 # "I awkwardly hold up a hand as we part and take our seats at our respective desks."
-""
+"ฉันยกมือโบกให้เธออย่างกระอักกระอ่วนก่อนจะแยกกันไปนั่งที่ของตัวเอง"
 
 # "I can't even look back to her out of embarrassment. I feel like the gulf between Hanako and me is because of me."
-""
+"ฉันไม่กล้าหันไปมองฮานาโกะด้วยซ้ำเพราะอาย ที่ระหว่างฮานาโกะกับฉันมีช่องว่างอยู่ก็น่าจะเพราะฉันนี่แหละ"
 
 show shizu invis:
     center
@@ -4869,19 +4869,19 @@ show muto normal:
 with dissolvecharamove
 
 # "Shizune begins to make her way towards me, but then Mutou enters the room."
-""
+"ชิซูเนะตั้งท่าจะเดินมาหาฉัน แต่ครูก็เข้าห้องมาก่อน"
 
 show shizu invis at Position(xpos=-0.1)
 with dissolvecharamove
 
 # "I'm thankful for his arrival being so well-timed, drawing Shizune and her questioning away, to wait for another time."
-""
+"ฉันนึกโล่งใจที่ครูมาช่วยยื้อชิซูเนะกับการซักไซ้จากเธอไว้ไปทีหลังได้ตรงจังหวะขนาดนี้"
 
 # "I wouldn't have been able to answer her, anyway."
-""
+"ซึ่งยังไงฉันก็คงตอบชิซูเนะไม่ได้อยู่ดี"
 
 # "I like Hanako, but I've never told her what my feelings for her are. Hanako never said she saw me as anything beyond a friend, either. Yet, despite that, we slept together."
-""
+"ฉันชอบฮานาโกะ แต่ไม่เคยบอกให้เธอได้รับรู้ถึงความรู้สึกของฉันเลย ฮานาโกะก็ไม่เคยบอกเหมือนกันว่ามองฉัน\nเป็นมากกว่าเพื่อน แต่แม้กระนั้นเราก็หลับนอนด้วยกัน"
 
 stop music fadeout 2.0
 
@@ -4891,16 +4891,16 @@ with shorttimeskip
 play sound sfx_normalbell
 
 # "The bell to signal the beginning of lunch rings out. Mutou is taken a little off guard, his chemistry lecture being cut off midsentence, much to his chagrin."
-""
+"ระฆังบอกเวลาพักเที่ยงดังขึ้น ครูสะดุ้งเล็กน้อยด้วยไม่อยากให้การสอนวิชาเคมีของตัวเองถูกตัดกลางคันอย่างนี้"
 
 # "For the entirety of the class, his rambling has passed through one ear and out the other as my mind mulls over the question of Hanako. I can't get her out of my mind, and by now I've managed to wind myself up about it."
-""
+"เนื้อหาที่ครูสอนมาทั้งคาบนั้นเข้าหูซ้ายทะลุหูขวาไปหมดแล้ว โดยที่ในหัวฉันตั้งคำถามกับเรื่องฮานาโกะอยู่\nฉันสลัดเธอออกไปจากใจไม่ได้เลย และตอนนี้ฉันก็เครียดขึ้นมาแล้วด้วย"
 
 # "I realize that she never said yes to what we did. She didn't say no either, but… would she have been able to? She's extremely submissive at the best of times, and no doubt it took her a gargantuan effort to show me her scarring."
-""
+"ฉันฉุกคิดได้ว่าฮานาโกะไม่เคยตอบตกลงกับสิ่งที่เราทำลงไปเลย แต่ก็ไม่ได้ปฏิเสธด้วย แต่ว่า… จะปฏิเสธได้ด้วยเหรอ\nตอนปกติก็เป็นคนที่ยอมอะไรง่าย ๆ อยู่แล้ว และชัดว่าเธอต้องรวบรวมความกล้ามามากแค่ไหนที่จะเปิดแผลเป็นให้ฉันดูได้"
 
 # "I decide to try and at least make conversation with her. That would be better than the monosyllabic communication that's been the most we've managed between each other so far today."
-""
+"ฉันตัดสินใจว่าอย่างน้อย ๆ ก็ไปลองคุยดูก่อนแล้วกัน คงจะดีกว่าการสื่อสารพยางค์เดียวที่เราใช้กันมาตั้งแต่ตอนเช้า\nของวันนี้"
 
 show bg school_scienceroom at bgleft
 with charamove_slow
@@ -4911,34 +4911,34 @@ show hanako emb_downtimid:
 with charaenter
 
 # "I walk to her desk intending to chat, but she awkwardly blushes and looks down even before I've come up to her."
-""
+"ฉันเดินไปที่โต๊ะฮานาโกะหมายจะคุยด้วย แต่ยังไม่ทันไปถึงเธอก็ก้มหน้าแดง ๆ นั้นด้วยท่าทีกระอักกระอ่วน"
 
 play music music_rain fadein 4.0
 
 # "I take a breath to speak, but find myself lost for words. What in the world should I say to her?"
-""
+"ฉันสูดหายใจเตรียมพูด แต่ก็ไม่มีคำไหนผุดขึ้นมาในหัว จะให้พูดกับฮานาโกะว่าอะไรเล่า"
 
 # "Hearing approaching footsteps, I turn to see Shizune and Misha already making their way towards us, no doubt with the intent to start asking troublesome things."
-""
+"พอหันไปตามเสียงฝีเท้าที่ใกล้เข้ามาก็เห็นชิซูเนะกับมิช่าที่เดินมาทางเรา แน่แท้ว่าจะต้องมาถามอะไรชวนลำบากใจ\nแน่นอน"
 
 # "A couple of other classmates are looking at us and gossiping between themselves as they throw sidelong glances. They must also have noticed Hanako and me coming in together earlier."
-""
+"เพื่อนร่วมชั้นบางคนก็หันมามองทางเราพลางซุบซิบอะไรกันอยู่โดยเหล่ตามองมา คงจะเห็นที่ฮานาโกะกับฉัน\nเข้ามาด้วยกันเมื่อกี้สินะ"
 
 # "I open my mouth to reassure Hanako, but she preempts me."
-""
+"ฉันอ้าปากเตรียมปลอบฮานาโกะ แต่เธอก็ขัดก่อน"
 
 show hanako def_strain
 with charachange
 
 # ha "I… I…"
-ha ""
+ha "ทะ… ทะ…"
 
 show hanako defarms_strain:
     center
 with Dissolvemove(0.3)
 
 # ha "Ivegottogodosomething!"
-ha ""
+ha "โทษทีมีธุระ!"
 
 show hanako defarms_strain:
    easeout 0.5 alpha 0.0 xpos 0.0 xanchor 1.0
@@ -4948,19 +4948,19 @@ hide hanako
 with None
 
 # "She gets out of her chair and dashes for the door. A couple of the books and pens that were on her desk are sent falling to the floor in her rush."
-""
+"ฮานาโกะลุกจากเก้าอี้พุ่งไปที่ประตู หนังสือกับปากกาที่วางอยู่บนโต๊ะหล่นตกพื้นไปด้วยความรีบของเธอ"
 
 # "Not many people seem to care about this event. A few look around to see what all the fuss is about, but go back to what they were previously doing soon after."
-""
+"ไม่มีใครดูจะสนใจเหตุการณ์นี้เท่าไหร่ คนอื่น ๆ แค่มองว่ามีเรื่องอะไรกันแล้วหันกลับไปทำสิ่งที่กำลังทำอยู่กันต่อ"
 
 # "I'm left despairingly looking at the door that Hanako disappeared out of. The idea of running after her passes through my mind, but I'm fairly sure that Hanako can run faster than I can."
-""
+"ฉันมองไปทางประตูที่ฮานาโกะออกไปด้วยความสิ้นหวัง แวบหนึ่งฉันคิดว่าจะวิ่งตามไปดีไหม แต่ยังไงฮานาโกะ\nก็คงวิ่งเร็วกว่าฉันแหละ"
 
 # "And besides… what would I say to her once I caught up, anyway?"
-""
+"แล้วอีกอย่าง… ต่อให้ตามทันแล้วจะพูดอะไร"
 
 # "Eventually, I simply crouch down and begin picking up the items that had fallen to the ground from her desk. I feel low in every way, reduced to this as students pass by me on their way out of the room."
-""
+"สุดท้ายฉันก็เพียงย่อตัวลงเก็บของที่ตกจากโต๊ะฮานาโกะ รู้สึกว่าตัวเองต่ำต้อยเหลือเกินที่ต้องมาก้มเก็บของแบบนี้\nต่อหน้าคนอื่นที่เดินออกห้องไป"
 
 show shizu invis_close:
     tworight
@@ -4975,22 +4975,21 @@ show misha perky_smile_close at twoleft
 with dissolvecharamove
 
 # "I feel a tap on my shoulder. I look up to see Shizune and Misha looking at me, curiosity about the situation written on their faces, mixed with a slightly apologetic look at the idea that they were partially responsible for what just happened."
-""
+"มีใครบางคนมาแตะไหล่ฉัน เมื่อเงยหน้ามองก็เห็นชิซูเนะกับมิช่าที่มองฉันอยู่ด้วยสีหน้าสงสัยถึงเรื่องที่เกิดขึ้น\nและเจือด้วยความรู้สึกผิดที่คิดว่าตัวเองคงมีส่วนผิดกับเหตุการณ์เมื่อครู่นั้น"
 
 show shizu basic_normal2_close
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_confused_close 
 with charachange
 
 # mi "Hicchan, if we can help at all…"
-mi ""
+mi "ฮิจัง ถ้ามีอะไรที่เราพอจะช่วยได้…"
 
 # "I just shake my head. This isn't a matter for them, and from Shizune's expression and the tone of Misha's voice, I think they know the same thing."
-""
+"ฉันเพียงสั่นหัวตอบ เรื่องนี้ไม่ใช่เรื่องของสองคนนั้น และดูสีหน้าชิซูเนะกับฟังน้ำเสียงมิช่าแล้วก็รู้ว่าทั้งสองคนก็คงรู้\nเหมือนกัน"
 
 show shizu behind_blank_close
 with charachange
@@ -5002,10 +5001,10 @@ hide shizu
 with charaexit
 
 # "Shizune acknowledges my response, and gives a solemn bow before making her way out of the room. Misha soon follows her out, obediently following her role as Shizune's shadow."
-""
+"ชิซูเนะรับทราบที่ฉันตอบไปแล้วโค้งตัวให้อย่างจริงจังก่อนจะเดินออกห้องไป มิช่าเดินตามไปทันทีในฐานะเงา\nของชิซูเนะอย่างว่าง่าย"
 
 # "I pick myself up, books and pens in hand, and place them inside Hanako's desk. With the classroom now empty, I end up just leaning against her desk and thinking to myself in silence."
-""
+"ฉันหยิบหนังสือกับปากกาแล้วลุกขึ้นยืนมาวางไว้บนโต๊ะฮานาโกะ พอในห้องไม่มีใครแล้วฉันก็ยืนพิงโต๊ะฮานาโกะ\nพลางครุ่นคิดอยู่กับตัวเอง"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -5014,36 +5013,36 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nIt feels like there's a complete emotional disconnect between Hanako and me. We haven't known each other for all that long, and despite wanting to start going out with her, I really don't know that much about how Hanako views things."
-n ""
+n "\n\nเหมือนว่าอารมณ์ระหว่างฮานาโกะกับฉันยังไม่สัมพันธ์กันเลย เราไม่ได้รู้จักกันมานานขนาดนั้น และถึงฉันจะอยาก\nคบกับฮานาโกะ ฉันก็ไม่ได้รู้มากว่าเธอมองอะไร ๆ เป็นอย่างไรบ้าง"
 
 # n "I've been studying as hard as I can for exams, but I still don't feel like I have any real sense of direction behind it. I tried to be a friend to Hanako, even if I couldn't tell her my feelings, and all we've done is drive each other apart."
-n ""
+n "ฉันอ่านหนังสืออย่างหนักเพื่อเตรียมสอบ แต่เอาเข้าจริงแล้วฉันก็ไม่ได้รู้สึกว่าทำไปโดยมีทิศทางอะไรเลย ฉันคอย\nผูกสัมพันธ์เป็นเพื่อนกับฮานาโกะต่อให้ฉันจะบอกความรู้สึกกับเธอไม่ได้ ทว่าสิ่งที่ฉันทำรังแต่จะถ่างระยะให้เราห่าง\nออกจากกันไปอีก"
 
 # n "\nI couldn't even write a letter back to the one girl who ever loved me, Iwanako."
-n ""
+n "\nแม้แต่จะเขียนจดหมายถึงเด็กสาวที่เคยรักฉัน—อิวานาโกะ—ยังเขียนไม่ได้เลยด้วยซ้ำ"
 
 # n "\nWhat should I do… what can I do… I simply don't know the answer to either of those questions. I do know that nobody else can help me with them."
-n ""
+n "\nต้องทำยังไง… ฉันทำอะไรได้บ้าง… ฉันตอบคำถามสองข้อนั้นไม่ได้เลย ซึ่งฉันรู้ว่าไม่มีใครจะมาช่วยคิดคำตอบ\nให้ได้หรอก"
 
 # n "Just going back to the way things were would be enough to make me happy, but I know that it can never happen. Something changed between us last night. Maybe it changed beforehand, and it just came to a head then."
-n ""
+n "แค่อะไร ๆ กลับไปเป็นเหมือนอย่างเดิมฉันก็มีความสุขแล้ว แต่ฉันก็รู้ดีว่าคงเป็นไปไม่ได้ บางอย่างระหว่างเรา\nได้เปลี่ยนไปแล้วเมื่อคืน อาจจะเปลี่ยนตั้งแต่ก่อนหน้านั้นแล้วแต่มาถึงจุดพลิกผันจริง ๆ เอาเมื่อตอนนั้น"
 
 nvl clear
 
 # n "\n\nI know that there's a wall that Hanako has between me and her. I've been hitting that wall every time I've tried to interact with her on any level."
-n ""
+n "\n\nฉันรู้ว่าฮานาโกะตั้งกำแพงกั้นระหว่างฉันกับเธอไว้อยู่ ทุกครั้งที่ฉันจะปฏิสัมพันธ์กับเธอไม่ว่าจะทางไหน\nก็จะชนเข้ากับกำแพงนั้นตลอด"
 
 # n "But now I'm beginning to think that I have my own wall between us just as much as she does. She had to practically drag my past out of me, and mine was much less traumatic than hers."
-n ""
+n "แต่ตอนนี้ฉันชักคิดแล้วว่าฉันเองก็ตั้งกำแพงไว้หนาพอ ๆ กันกับฮานาโกะ เธอต้องฉุดฉันให้พ้นจากอดีต ซึ่งความสาหัส\nของอดีตฉันนั้นแทบเทียบไม่ได้กับอดีตของฮานาโกะเลยด้วยซ้ำ"
 
 # n "I want to say it's because I haven't had long to adjust since my heart attack, but I know full well that it would just be an excuse."
-n ""
+n "ก็อยากจะพูดอยู่หรอกว่าที่ฉันยังอยู่แบบนี้เป็นเพราะฉันไม่มีเวลาให้ปรับตัวได้มากเท่าไหร่ตั้งแต่ที่หัวใจวายครั้งนั้น\nแต่ก็รู้อยู่เต็มอกว่าความคิดนั้นก็เป็นแค่ข้ออ้าง"
 
 # n "The one time I can recall when it really felt like she was opening up to me of her own accord, when we were playing billiards in the city, I was the one who stopped her from going further."
-n ""
+n "ครั้งเดียวที่จำได้ว่ารู้สึกว่าฮานาโกะเปิดใจให้ฉันด้วยความสมัครใจจริง ๆ คือตอนที่เล่นบิลเลียดกันในตัวเมืองตอนนั้น\nเป็นฉันเองที่หยุดเธอไว้ไม่ให้เล่าไปมากกว่านั้น"
 
 # n "\n\nI want to know Hanako better. I want to save our friendship, if not begin a real relationship with her."
-n ""
+n "\n\nฉันอยากจะรู้จักฮานาโกะให้ดีกว่านี้ ฉันอยากจะกอบกู้มิตรภาพของเรา หรือจะเริ่มความสัมพันธ์จริง ๆ สักครั้ง\nกับเธอก็ได้"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -5052,12 +5051,12 @@ nvl clear
 window show
 
 # "My mind begins to tick as I sit against her desk, thinking to myself in the empty classroom that we've spent so much time in together."
-""
+"ฉันพิงโต๊ะฮานาโกะไปพลางนึกคิด คิดอยู่กับตัวเองในห้องเรียนซึ่งไม่มีใครห้องนี้ที่เราได้ใช้เวลาอยู่ร่วมกันบ่อย ๆ"
 
 stop music fadeout 2.0
 
 # "I have to talk to Hanako."
-""
+"ฉันต้องไปคุยกับฮานาโกะ"
 
 #*********************
 
