@@ -11,23 +11,32 @@ nvl show dissolve
 $ renpy.music.set_volume(0.5, 0.0, channel="music")
 play music music_normal fadein 3.0
 
-n "\n\n\nMy head's in a spin all through Mutou's class."
+# n "\n\n\nMy head's in a spin all through Mutou's class."
+n ""
 
-n "I'm going to have dinner."
+# n "I'm going to have dinner."
+n ""
 
-n "With Emi."
+# n "With Emi."
+n ""
 
-n "Who wants to be my girlfriend, no less."
+# n "Who wants to be my girlfriend, no less."
+n ""
 
-n "A date…"
+# n "A date…"
+n ""
 
-n "And then she kissed me."
+# n "And then she kissed me."
+n ""
 
-n "That kiss. I keep going back to it, playing it over in my mind again and again."
+# n "That kiss. I keep going back to it, playing it over in my mind again and again."
+n ""
 
-n "Everything about that moment felt so right."
+# n "Everything about that moment felt so right."
+n ""
 
-n "\nMy mind drifts off, lost in thoughts of Emi."
+# n "\nMy mind drifts off, lost in thoughts of Emi."
+n ""
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -38,47 +47,62 @@ window show
 show muto normal
 with charaenter
 
-mu "Nakai? Hello?"
+# mu "Nakai? Hello?"
+mu ""
 
-"It seems like I've drifted a bit too far."
+# "It seems like I've drifted a bit too far."
+""
 
-hi "Huh? What?"
+# hi "Huh? What?"
+hi ""
 
 show muto irritated
 with charachange
 
-mu "Egad! You've contracted some kind of amnesia!"
+# mu "Egad! You've contracted some kind of amnesia!"
+mu ""
 
-mu "Someone get the nurse!"
+# mu "Someone get the nurse!"
+mu ""
 
-"The class chuckles at Mutou's antics."
+# "The class chuckles at Mutou's antics."
+""
 
-hi "Sorry, sir."
+# hi "Sorry, sir."
+hi ""
 
 show muto normal
 with charachange
 
-mu "Hmm, won't happen again and all that, right?"
+# mu "Hmm, won't happen again and all that, right?"
+mu ""
 
-hi "Exactly."
+# hi "Exactly."
+hi ""
 
-"Mutou brightens considerably."
+# "Mutou brightens considerably."
+""
 
 show muto smile
 with charachange
 
-mu "Well! Lovely to hear!"
+# mu "Well! Lovely to hear!"
+mu ""
 
-mu "I'd hate to have my star pupil slacking off, after all."
+# mu "I'd hate to have my star pupil slacking off, after all."
+mu ""
 
 hide muto
 with charaexit
 
-"I've been doing well, but I hardly qualify as a star pupil, I think."
+# "I've been doing well, but I hardly qualify as a star pupil, I think."
+""
 
-"I'm fairly certain that this class is the sort that everyone does well in. It's just memorizing formulas."
+# "I'm fairly certain that this class is the sort that everyone does well in. It's just memorizing formulas."
+""
 
-"True to my word, I manage to pay attention for the rest of the class."
+# "True to my word, I manage to pay attention for the rest of the class."
+""
 
 stop music fadeout 2.0
 
@@ -87,220 +111,297 @@ with shorttimeskip
 
 play sound sfx_normalbell
 
-mu "Nakai, may I have a word with you?"
+# mu "Nakai, may I have a word with you?"
+mu ""
 
-"I wonder if I'm in trouble for earlier."
+# "I wonder if I'm in trouble for earlier."
+""
 
-hi "Uh, sure."
+# hi "Uh, sure."
+hi ""
 
-hi "Am I in trouble?"
+# hi "Am I in trouble?"
+hi ""
 
 show muto irritated
 with charachange
 
-"Mutou looks genuinely confused for a moment."
+# "Mutou looks genuinely confused for a moment."
+""
 
-mu "Beg your pardon?"
+# mu "Beg your pardon?"
+mu ""
 
-"He tilts his head to one side and thinks for a moment."
+# "He tilts his head to one side and thinks for a moment."
+""
 
 show muto smile
 with charachange
 
-mu "Oh, that! No, no, you're not in any sort of trouble."
+# mu "Oh, that! No, no, you're not in any sort of trouble."
+mu ""
 
-mu "There's just a question I want to ask you."
+# mu "There's just a question I want to ask you."
+mu ""
 
-hi "What's that?"
+# hi "What's that?"
+hi ""
 
 show muto normal
 with charachange
 
-mu "Nothing terrible, I was just wondering what your plans for after graduation are."
+# mu "Nothing terrible, I was just wondering what your plans for after graduation are."
+mu ""
 
 play music music_another fadein 2.0
 
-mu "Are you going to university?"
+# mu "Are you going to university?"
+mu ""
 
-hi "Yeah, I guess. I can't really see a reason not to go."
+# hi "Yeah, I guess. I can't really see a reason not to go."
+hi ""
 
-mu "Given any thought to what you'll study?"
+# mu "Given any thought to what you'll study?"
+mu ""
 
-hi "Not really, no. I figure I'll come up with something when I get there."
+# hi "Not really, no. I figure I'll come up with something when I get there."
+hi ""
 
 show muto smile
 with charachange
 
-"Mutou laughs."
+# "Mutou laughs."
+""
 
-mu "Taking things as they come, eh?"
+# mu "Taking things as they come, eh?"
+mu ""
 
-mu "I'd argue against it, but that's how I did things when I went to university."
+# mu "I'd argue against it, but that's how I did things when I went to university."
+mu ""
 
-mu "Well, not really."
+# mu "Well, not really."
+mu ""
 
-mu "I knew I'd go into a science, I just wasn't sure which one."
+# mu "I knew I'd go into a science, I just wasn't sure which one."
+mu ""
 
-mu "Ended up with physics, but could just as well have gone for astronomy or what have you."
+# mu "Ended up with physics, but could just as well have gone for astronomy or what have you."
+mu ""
 
 show muto irritated
 with charachange
 
-mu "Actually I did go for chemistry first, but there were all sorts of things…"
+# mu "Actually I did go for chemistry first, but there were all sorts of things…"
+mu ""
 
-"Mutou trails off, and frowns slightly."
+# "Mutou trails off, and frowns slightly."
+""
 
-"It takes a minute for him to recover his train of thought, and I wait patiently for him to continue."
+# "It takes a minute for him to recover his train of thought, and I wait patiently for him to continue."
+""
 
 show muto normal
 with charachange
 
-mu "So anyway, I did a lot of physics as well, because I had an interest in that, but I wasn't sure if it was for me."
+# mu "So anyway, I did a lot of physics as well, because I had an interest in that, but I wasn't sure if it was for me."
+mu ""
 
 show muto smile
 with charachange
 
-mu "So I went back to chemistry, and here we are. Yes?"
+# mu "So I went back to chemistry, and here we are. Yes?"
+mu ""
 
 show muto smile
 with charachange
 
-"He smiles at me enthusiastically, as if waiting for me to confirm that yes, here is were we are."
+# "He smiles at me enthusiastically, as if waiting for me to confirm that yes, here is were we are."
+""
 
-"Somehow I get the feeling that Mutou had a plan for this conversation, but I'll be damned if I can figure it out."
+# "Somehow I get the feeling that Mutou had a plan for this conversation, but I'll be damned if I can figure it out."
+""
 
-hi "I'm sorry, I'm not following you."
+# hi "I'm sorry, I'm not following you."
+hi ""
 
-"Mutou frowns and rubs his chin a bit, looking perplexed. He then snaps his fingers as if he's remembered what the point of all this was."
+# "Mutou frowns and rubs his chin a bit, looking perplexed. He then snaps his fingers as if he's remembered what the point of all this was."
+""
 
-mu "Right! Yes! You!"
+# mu "Right! Yes! You!"
+mu ""
 
-hi "Me?"
+# hi "Me?"
+hi ""
 
-mu "Yes! You should look into studying one of the sciences!"
+# mu "Yes! You should look into studying one of the sciences!"
+mu ""
 
-mu "You're fantastic at it."
+# mu "You're fantastic at it."
+mu ""
 
-mu "Unless you'd rather just go into math."
+# mu "Unless you'd rather just go into math."
+mu ""
 
 show muto irritated
 with charachange
 
-"Mutou makes a sour face."
+# "Mutou makes a sour face."
+""
 
-mu "Not a big fan of straight math. I always liked the experiments more than the proofs."
+# mu "Not a big fan of straight math. I always liked the experiments more than the proofs."
+mu ""
 
-hi "You're saying I should study science at university?"
+# hi "You're saying I should study science at university?"
+hi ""
 
-"Mutou seems thrown off balance by my question."
-
-show muto normal
-with charachange
-
-mu "Well, sort of."
-
-show muto smile
-with charachange
-
-mu "You could also join the science club!"
-
-mu "Trouble is, there's not actually a science club."
-
-mu "But there could be!"
-
-mu "You could even be a charter member!"
-
-mu "A founding father!"
-
-mu "Of course, you'd need to find other members."
+# "Mutou seems thrown off balance by my question."
+""
 
 show muto normal
 with charachange
 
-mu "Well, only if you wanted to."
-
-mu "We could just start it up with the two of us."
-
-mu "And um."
+# mu "Well, sort of."
+mu ""
 
 show muto smile
 with charachange
 
-mu "I could give you things to read, and we could talk about them."
+# mu "You could also join the science club!"
+mu ""
 
-mu "Er, and I could help you get ready for university and such as well."
+# mu "Trouble is, there's not actually a science club."
+mu ""
+
+# mu "But there could be!"
+mu ""
+
+# mu "You could even be a charter member!"
+mu ""
+
+# mu "A founding father!"
+mu ""
+
+# mu "Of course, you'd need to find other members."
+mu ""
+
+show muto normal
+with charachange
+
+# mu "Well, only if you wanted to."
+mu ""
+
+# mu "We could just start it up with the two of us."
+mu ""
+
+# mu "And um."
+mu ""
+
+show muto smile
+with charachange
+
+# mu "I could give you things to read, and we could talk about them."
+mu ""
+
+# mu "Er, and I could help you get ready for university and such as well."
+mu ""
 
 show muto irritated
 with charachange
 
-mu "Wait!"
+# mu "Wait!"
+mu ""
 
-"Mutou rummages around in his briefcase and tosses me a book."
+# "Mutou rummages around in his briefcase and tosses me a book."
+""
 
 show muto smile
 with charachange
 
-mu "Read that."
+# mu "Read that."
+mu ""
 
-mu "If it's interesting, then we can talk about it."
+# mu "If it's interesting, then we can talk about it."
+mu ""
 
-"“A Brief History of Time?”"
+# "“A Brief History of Time?”"
+""
 
-"I don't know if I actually want to read this, but Mutou seems pretty excited about it."
+# "I don't know if I actually want to read this, but Mutou seems pretty excited about it."
+""
 
-hi "What's it about?"
+# hi "What's it about?"
+hi ""
 
 show muto normal
 with charachange
 
-mu "Time. Space. Space-time. Black holes and such."
+# mu "Time. Space. Space-time. Black holes and such."
+mu ""
 
-mu "And it's not that dense. Just to see if that sort of thing's interesting for you, you understand."
+# mu "And it's not that dense. Just to see if that sort of thing's interesting for you, you understand."
+mu ""
 
-mu "Hang around after class, and we can either discuss it, or I can show you how to make explosives in the lab."
+# mu "Hang around after class, and we can either discuss it, or I can show you how to make explosives in the lab."
+mu ""
 
 show muto smile
 with charachange
 
-"He waves a hand at my quizzical expression."
+# "He waves a hand at my quizzical expression."
+""
 
-mu "Joking, sorry."
+# mu "Joking, sorry."
+mu ""
 
-mu "Still, I've kept you here long enough for now."
+# mu "Still, I've kept you here long enough for now."
+mu ""
 
-mu "Think about science as a career path, Nakai. I think you'd enjoy it."
+# mu "Think about science as a career path, Nakai. I think you'd enjoy it."
+mu ""
 
-hi "Uh, okay. I will. Thank you for the book."
+# hi "Uh, okay. I will. Thank you for the book."
+hi ""
 
 stop music fadeout 14.0
 
 scene bg school_hallway3
 with locationchange
 
-"I leave the classroom and look up at the clock; quite a chunk of time to kill until Emi's out of practice."
+# "I leave the classroom and look up at the clock; quite a chunk of time to kill until Emi's out of practice."
+""
 
-"Guess I'll give this book a look; I should probably shower as well."
+# "Guess I'll give this book a look; I should probably shower as well."
+""
 
-"Showering before a date's only proper, right?"
+# "Showering before a date's only proper, right?"
+""
 
-"I head back to the dorms."
+# "I head back to the dorms."
+""
 
 scene bg school_dormhisao
 with locationskip
 
-"I wonder where I'm supposed to meet Emi, anyway."
+# "I wonder where I'm supposed to meet Emi, anyway."
+""
 
-"She said “after practice,” but she didn't say where I should find her."
+# "She said “after practice,” but she didn't say where I should find her."
+""
 
-"I guess I can just swing by the track; that's probably best, anyway."
+# "I guess I can just swing by the track; that's probably best, anyway."
+""
 
-"If she needs a shower, I can just wait for her in her room or something."
+# "If she needs a shower, I can just wait for her in her room or something."
+""
 
-"Or in the hallway, I guess; that would be better as well."
+# "Or in the hallway, I guess; that would be better as well."
+""
 
-"I take a quick shower, remembering to take my medication once I hop out."
+# "I take a quick shower, remembering to take my medication once I hop out."
+""
 
-"Now, for a look at this book."
+# "Now, for a look at this book."
+""
 
 stop music
 
@@ -316,194 +417,256 @@ with None
 scene bg school_dormhisao
 with vpunch
 
-"I wake with a start."
+# "I wake with a start."
+""
 
-"Shit! What time is it?"
+# "Shit! What time is it?"
+""
 
-"A glance at the clock reveals that I've been asleep for nearly an hour."
+# "A glance at the clock reveals that I've been asleep for nearly an hour."
+""
 
-hi "Thank goodness."
+# hi "Thank goodness."
+hi ""
 
-"Emi's practice should be finishing up soon."
+# "Emi's practice should be finishing up soon."
+""
 
-"I throw on some casual clothes and head for the track."
+# "I throw on some casual clothes and head for the track."
+""
 
 scene bg school_track
 with locationskip
 
-"Somehow I get the feeling we won't be doing anything fancy for dinner."
+# "Somehow I get the feeling we won't be doing anything fancy for dinner."
+""
 
-"Emi doesn't strike me as a very fancy sort of person."
+# "Emi doesn't strike me as a very fancy sort of person."
+""
 
-"Still, I suppose there's a lot I have yet to know about Emi."
+# "Still, I suppose there's a lot I have yet to know about Emi."
+""
 
-"Despite our newfound closeness, I still feel like I don't know her as well as I should."
+# "Despite our newfound closeness, I still feel like I don't know her as well as I should."
+""
 
-"Ah well, I have lots of time to fix that."
+# "Ah well, I have lots of time to fix that."
+""
 
-"To be honest, I'm looking forward to getting to know her more."
+# "To be honest, I'm looking forward to getting to know her more."
+""
 
-"I'm so caught up in my own thoughts that I hardly register that I'm already at the track."
+# "I'm so caught up in my own thoughts that I hardly register that I'm already at the track."
+""
 
-"Emi is nowhere to be found."
+# "Emi is nowhere to be found."
+""
 
-"I don't even see any signs of the track team."
+# "I don't even see any signs of the track team."
+""
 
-"This could be embarrassing."
+# "This could be embarrassing."
+""
 
-"I turn to head toward the girls' dormitory when I hear a shout."
+# "I turn to head toward the girls' dormitory when I hear a shout."
+""
 
-emi "Hey, Hisao!"
+# emi "Hey, Hisao!"
+emi ""
 
 play music music_emi fadein 1.0
 
 show emicas smile at center
 with charaenter
 
-"I turn around to see Emi making a beeline for me with a gym bag slung over her shoulder."
+# "I turn around to see Emi making a beeline for me with a gym bag slung over her shoulder."
+""
 
-"She's changed into some decidedly more casual clothing; a pair of shorts and an olive green top."
+# "She's changed into some decidedly more casual clothing; a pair of shorts and an olive green top."
+""
 
-"Her running blades have been replaced by more realistic-looking legs that probably wouldn't fool anyone."
+# "Her running blades have been replaced by more realistic-looking legs that probably wouldn't fool anyone."
+""
 
-"Emi doesn't seem to care about that, a fact which makes me smile."
+# "Emi doesn't seem to care about that, a fact which makes me smile."
+""
 
 show emicas happy
 with charachange
 
-emi "Hey, you came!"
+# emi "Hey, you came!"
+emi ""
 
 show emicas closedsmile
 with charachange
 
-emi "I mean I figured you would, but still…"
+# emi "I mean I figured you would, but still…"
+emi ""
 
 show emicas closedsmile_up_close
 with characlose
 
-"I suddenly find myself wrapped in a rather affectionate hug, and it proves to be impossible for me to keep what must be the world's largest grin off my face."
+# "I suddenly find myself wrapped in a rather affectionate hug, and it proves to be impossible for me to keep what must be the world's largest grin off my face."
+""
 
-hi "Well, of course I came!"
+# hi "Well, of course I came!"
+hi ""
 
-hi "I'd be crazy not to, right?"
+# hi "I'd be crazy not to, right?"
+hi ""
 
-"Emi ponders for a moment."
+# "Emi ponders for a moment."
+""
 
 show emicas grin_up_close
 with charachange
 
-emi "You know, that's true."
+# emi "You know, that's true."
+emi ""
 
 show emicas wink_up_close
 with charachange
 
-emi "I mean I'm pretty amazing, after all."
+# emi "I mean I'm pretty amazing, after all."
+emi ""
 
-"I shrug in response."
+# "I shrug in response."
+""
 
-hi "I certainly think so."
+# hi "I certainly think so."
+hi ""
 
 show emicas blush_up_close
 with charachange
 
-"It's an offhand remark, which is why I'm surprised to see that it seems to have caught Emi by surprise."
+# "It's an offhand remark, which is why I'm surprised to see that it seems to have caught Emi by surprise."
+""
 
 show emicas smile_up_close
 with charachange
 
-"She blushes and smiles warmly at me before planting a kiss on my lips."
+# "She blushes and smiles warmly at me before planting a kiss on my lips."
+""
 
-"Now it's my turn to be surprised."
+# "Now it's my turn to be surprised."
+""
 
 show emicas grin
 with charadistant
 
-"Emi steps back, resting her weight on her back heel, looking pleased with herself."
+# "Emi steps back, resting her weight on her back heel, looking pleased with herself."
+""
 
-"My brain fumbles for an appropriate response."
+# "My brain fumbles for an appropriate response."
+""
 
-hi "…"
+# hi "…"
+hi ""
 
-hi "I should compliment you more often."
+# hi "I should compliment you more often."
+hi ""
 
 show emicas happy_up
 with vpunch
 
-"Emi laughs and gives me a playful shove."
+# "Emi laughs and gives me a playful shove."
+""
 
 show emicas closedsmile
 with charachange
 
-emi "Jerk."
+# emi "Jerk."
+emi ""
 
 show emicas weaksmile_up_close
 with characlose
 
-"I throw an arm around Emi's shoulders and am pleased when she immediately leans into me as if it were the most natural thing in the world."
+# "I throw an arm around Emi's shoulders and am pleased when she immediately leans into me as if it were the most natural thing in the world."
+""
 
-hi "So, where to?"
+# hi "So, where to?"
+hi ""
 
 show emicas awayfrown_up_close
 with charachange
 
-emi "I'm not actually sure."
+# emi "I'm not actually sure."
+emi ""
 
 show emicas neutral_up_close
 with charachange
 
-emi "Where do people go on dates around here, anyway?"
+# emi "Where do people go on dates around here, anyway?"
+emi ""
 
-"That's a damned good question."
+# "That's a damned good question."
+""
 
-hi "I've got no idea."
+# hi "I've got no idea."
+hi ""
 
-hi "Why don't we just head down to the Aura-Mart and grab something portable?"
+# hi "Why don't we just head down to the Aura-Mart and grab something portable?"
+hi ""
 
-"Emi's face brightens at this idea."
+# "Emi's face brightens at this idea."
+""
 
 show emicas happy_up_close
 with charachange
 
-emi "A picnic!"
+# emi "A picnic!"
+emi ""
 
 show emicas wink_up_close
 with charachange
 
-emi "I think you're on to something, Hisao."
+# emi "I think you're on to something, Hisao."
+emi ""
 
 scene bg school_gate
 with locationskip
 
-"Emi snakes her arm around my waist, and we begin to head for the front gate."
+# "Emi snakes her arm around my waist, and we begin to head for the front gate."
+""
 
-"I'm entirely unsure of what I'm meant to do in this situation, but at least Emi seems to be equally clueless."
+# "I'm entirely unsure of what I'm meant to do in this situation, but at least Emi seems to be equally clueless."
+""
 
 scene bg suburb_roadcenter
 with locationskip
 
-"Despite the relaxing feeling of being with Emi, I still can't help feeling a little tense."
+# "Despite the relaxing feeling of being with Emi, I still can't help feeling a little tense."
+""
 
-"What if I do something wrong?"
+# "What if I do something wrong?"
+""
 
-"I'd hate to make an ass out of myself."
+# "I'd hate to make an ass out of myself."
+""
 
 scene bg suburb_konbiniext
 with locationchange
 
-"The trip to the Aura-Mart is accompanied by Emi's chatter about how practice went."
+# "The trip to the Aura-Mart is accompanied by Emi's chatter about how practice went."
+""
 
-"I keep quiet for the most part, merely enjoying the warmth of being around Emi."
+# "I keep quiet for the most part, merely enjoying the warmth of being around Emi."
+""
 
-"We get a few odd looks from passersby, but I don't mind."
+# "We get a few odd looks from passersby, but I don't mind."
+""
 
-"We wind up buying some bread and instant noodles, realizing too late that we cannot actually cook the latter in the park."
+# "We wind up buying some bread and instant noodles, realizing too late that we cannot actually cook the latter in the park."
+""
 
 show emicas weaksmile
 with charaenter
 
-emi "Oh well. I'll make it for lunch or something."
+# emi "Oh well. I'll make it for lunch or something."
+emi ""
 
-hi "That'll work."
+# hi "That'll work."
+hi ""
 
 stop music fadeout 2.0
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
@@ -512,20 +675,24 @@ play ambient sfx_parkambience fadein 2.0
 scene bg suburb_park
 with locationskip
 
-"The park is located after a brief loss of direction that I blame entirely on Emi."
+# "The park is located after a brief loss of direction that I blame entirely on Emi."
+""
 
-"She, of course, blames me."
+# "She, of course, blames me."
+""
 
 show emicas smile:
     center
     easein 1.0 ypos 1.13
 with charaenter
 
-"We find a spot beneath a tree and sit down. I lean back against the trunk, Emi sits across from me."
+# "We find a spot beneath a tree and sit down. I lean back against the trunk, Emi sits across from me."
+""
 
 play music music_ease fadein 3.0
 
-hi "I guess we should have brought a blanket or something to sit on, huh?"
+# hi "I guess we should have brought a blanket or something to sit on, huh?"
+hi ""
 
 show emicas smile_up:
     ypos 1.13
@@ -534,310 +701,403 @@ with Dissolve(0.2)
 show emicas smile
 with charachange
 
-"Emi shrugs."
+# "Emi shrugs."
+""
 
 show emicas closedsmile
 with charachange
 
-emi "I don't mind."
+# emi "I don't mind."
+emi ""
 
-hi "Neither do I."
+# hi "Neither do I."
+hi ""
 
 show emicas grin_up
 with charachange
 
-"Emi tosses me a package of bread and we dig in."
+# "Emi tosses me a package of bread and we dig in."
+""
 
-"Curry bread. Interesting."
+# "Curry bread. Interesting."
+""
 
-"I guess I wasn't really paying attention to what I grabbed in the store."
+# "I guess I wasn't really paying attention to what I grabbed in the store."
+""
 
 show emicas wink_up
 with charachange
 
-emi "Hey, Hisao. You look like your bread's a little spicy."
+# emi "Hey, Hisao. You look like your bread's a little spicy."
+emi ""
 
-"I shake my head, trying in vain to keep an image of manliness."
+# "I shake my head, trying in vain to keep an image of manliness."
+""
 
-hi "Nah, it's hardly spicy at all."
+# hi "Nah, it's hardly spicy at all."
+hi ""
 
 show emicas closedsmile_up
 with charachange
 
-emi "I see, I see. That must be why your face has gotten so red."
+# emi "I see, I see. That must be why your face has gotten so red."
+emi ""
 
-hi "Yes, exactly. The lack of spice has uh… gotten my blood up."
+# hi "Yes, exactly. The lack of spice has uh… gotten my blood up."
+hi ""
 
-hi "Because of the disappointment."
+# hi "Because of the disappointment."
+hi ""
 
 show emicas happy
 with charachange
 
-"Emi laughs and swallows the last of her bread."
+# "Emi laughs and swallows the last of her bread."
+""
 
 show emicas wink
 with charachange
 
-emi "Well, if you can't handle it, I'll be glad to take it off of your hands."
+# emi "Well, if you can't handle it, I'll be glad to take it off of your hands."
+emi ""
 
-hi "Hey, just because you wolfed down yours so quickly doesn't mean I'm just going to give you mine."
+# hi "Hey, just because you wolfed down yours so quickly doesn't mean I'm just going to give you mine."
+hi ""
 
 show emicas pout
 with charachange
 
-"Emi mock-pouts, causing me to nearly choke on my bread with laughter."
+# "Emi mock-pouts, causing me to nearly choke on my bread with laughter."
+""
 
-emi "Aw, come on Hisao!"
+# emi "Aw, come on Hisao!"
+emi ""
 
 show emicas awayfrown
 with charachange
 
-emi "Aren't you supposed to be concerned with making sure I've got enough to eat now?"
+# emi "Aren't you supposed to be concerned with making sure I've got enough to eat now?"
+emi ""
 
-emi "We're dating, you know!"
+# emi "We're dating, you know!"
+emi ""
 
 show emicas pout
 with charachange
 
-emi "Though…"
+# emi "Though…"
+emi ""
 
-"Emi looks troubled all of a sudden."
+# "Emi looks troubled all of a sudden."
+""
 
 show emicas frown_up
 with charachange
 
-emi "I can't say I feel any different."
+# emi "I can't say I feel any different."
+emi ""
 
-hi "Hmm? What do you mean by that?"
+# hi "Hmm? What do you mean by that?"
+hi ""
 
 show emicas awayfrown
 with charachange
 
-emi "What makes this a date?"
+# emi "What makes this a date?"
+emi ""
 
-emi "It's just what we would have done anyway, really."
+# emi "It's just what we would have done anyway, really."
+emi ""
 
-emi "But this should feel different because before when we had lunch we were friends, and now we're a level above friends."
+# emi "But this should feel different because before when we had lunch we were friends, and now we're a level above friends."
+emi ""
 
-hi "You sound like Rin."
+# hi "You sound like Rin."
+hi ""
 
 show emicas happy
 with charachange
 
-"Laughter escapes, and Emi grins."
+# "Laughter escapes, and Emi grins."
+""
 
 show emicas closedsmile_up
 with charachange
 
-emi "Well, she might've put the thought into my mind."
+# emi "Well, she might've put the thought into my mind."
+emi ""
 
 show emicas closedsmile
 with charachange
 
-emi "We've talked about that sort of thing before."
+# emi "We've talked about that sort of thing before."
+emi ""
 
-hi "Really? About me?"
+# hi "Really? About me?"
+hi ""
 
 show emicas grin
 with charachange
 
-emi "Not really. Just… stuff, really."
+# emi "Not really. Just… stuff, really."
+emi ""
 
 show emicas neutral
 with charachange
 
-emi "Rin thinks that the change of a label from “friend” to “girlfriend” seems arbitrary most of the time."
+# emi "Rin thinks that the change of a label from “friend” to “girlfriend” seems arbitrary most of the time."
+emi ""
 
-emi "Like there's no difference between the two."
+# emi "Like there's no difference between the two."
+emi ""
 
-hi "I can think of at least one, you know."
+# hi "I can think of at least one, you know."
+hi ""
 
-hi "You don't tend to kiss your friends quite as much."
+# hi "You don't tend to kiss your friends quite as much."
+hi ""
 
 show emicas blush
 with charachange
 
-"For the second time today, Emi blushes slightly and giggles."
+# "For the second time today, Emi blushes slightly and giggles."
+""
 
 show emicas closedsmile
 with charachange
 
-emi "I suppose you're right."
+# emi "I suppose you're right."
+emi ""
 
-hi "Exactly. I'm always right about things like this."
+# hi "Exactly. I'm always right about things like this."
+hi ""
 
 show emicas weaksmile_up
 with charachange
 
-"Emi rolls her eyes and chuckles."
+# "Emi rolls her eyes and chuckles."
+""
 
-emi "Guess you're pretty smart, huh?"
+# emi "Guess you're pretty smart, huh?"
+emi ""
 
-"I nod in agreement."
+# "I nod in agreement."
+""
 
-hi "Yep."
+# hi "Yep."
+hi ""
 
-hi "Even Mutou thinks so. He thinks I should go into some scientific study after graduation."
+# hi "Even Mutou thinks so. He thinks I should go into some scientific study after graduation."
+hi ""
 
 show emicas neutral
 with charachange
 
-"Emi raises an eyebrow."
+# "Emi raises an eyebrow."
+""
 
-emi "Oh really?"
+# emi "Oh really?"
+emi ""
 
-hi "Yeah, I'm thinking I actually might do just that."
+# hi "Yeah, I'm thinking I actually might do just that."
+hi ""
 
-"Really, the more I consider the idea, the more it appeals to me."
+# "Really, the more I consider the idea, the more it appeals to me."
+""
 
-"I make a mental note to look into it a little more closely."
+# "I make a mental note to look into it a little more closely."
+""
 
-hi "So what are you thinking of doing after graduation?"
+# hi "So what are you thinking of doing after graduation?"
+hi ""
 
-hi "Still planning on running?"
+# hi "Still planning on running?"
+hi ""
 
 show emicas awayfrown
 with charachange
 
-"Emi shrugs, seeming almost a bit hesitant."
+# "Emi shrugs, seeming almost a bit hesitant."
+""
 
 show emicas frown
 with charachange
 
-emi "I dunno. If I'm good enough and I can find a team, I guess?"
+# emi "I dunno. If I'm good enough and I can find a team, I guess?"
+emi ""
 
-hi "You mean you aren't sure?"
+# hi "You mean you aren't sure?"
+hi ""
 
 show emicas neutral
 with charachange
 
-emi "I haven't… really thought about it, to be honest."
+# emi "I haven't… really thought about it, to be honest."
+emi ""
 
-hi "Really?"
+# hi "Really?"
+hi ""
 
-hi "You probably should, you know. Graduation isn't that far off."
+# hi "You probably should, you know. Graduation isn't that far off."
+hi ""
 
 show emicas awayfrown
 with charachange
 
-"Emi fidgets a little nervously."
+# "Emi fidgets a little nervously."
+""
 
-emi "Yeah, well… it's far enough, right?"
+# emi "Yeah, well… it's far enough, right?"
+emi ""
 
 show emicas neutral
 with charachange
 
-emi "Besides, I've got other things to think about."
+# emi "Besides, I've got other things to think about."
+emi ""
 
 show emicas grin_up_close
 with vpunch
 
-"There's a mischievous flash behind Emi's eyes, and I suddenly find myself gloriously pinned against the tree."
+# "There's a mischievous flash behind Emi's eyes, and I suddenly find myself gloriously pinned against the tree."
+""
 
 show emicas smile_up_close
 with charachange
 
-emi "Like making sure this is a real date, right?"
+# emi "Like making sure this is a real date, right?"
+emi ""
 
 show emicas closedsmile_up_close
 with charachange
 
-emi "I mean if we don't kiss then it's not a date at all, right?"
+# emi "I mean if we don't kiss then it's not a date at all, right?"
+emi ""
 
 hi "I suppose s— mmmph." with vpunch
 
-"Strawberries and curry. Not the best combination, but I don't think I mind."
+# "Strawberries and curry. Not the best combination, but I don't think I mind."
+""
 
 show emicas grin
 with charadistant
 
-"Emi sits back on my legs and grins again."
+# "Emi sits back on my legs and grins again."
+""
 
-emi "There. Science would approve, right?"
+# emi "There. Science would approve, right?"
+emi ""
 
-"I have the oddest mental image of Mutou nodding seriously and making a mark on some checklist."
+# "I have the oddest mental image of Mutou nodding seriously and making a mark on some checklist."
+""
 
-"I can't help laughing at the idea."
+# "I can't help laughing at the idea."
+""
 
 show emicas neutral
 with charachange
 
-emi "Well I'll admit, this is the first time I've ever witnessed a kiss being met with laughter."
+# emi "Well I'll admit, this is the first time I've ever witnessed a kiss being met with laughter."
+emi ""
 
-emi "Should I feel offended?"
+# emi "Should I feel offended?"
+emi ""
 
-hi "Heh, no, no."
+# hi "Heh, no, no."
+hi ""
 
-hi "I'm sure science approves."
+# hi "I'm sure science approves."
+hi ""
 
 show emicas happy_up
 with charachange
 
-"Emi beams at me, and I find it increasingly difficult to keep my brain functioning properly."
+# "Emi beams at me, and I find it increasingly difficult to keep my brain functioning properly."
+""
 
-emi "Oh good!"
+# emi "Oh good!"
+emi ""
 
-"It is at this point I notice that Emi has stolen the remainder of my curry bread while I was otherwise occupied with images of teachers wielding clipboards."
+# "It is at this point I notice that Emi has stolen the remainder of my curry bread while I was otherwise occupied with images of teachers wielding clipboards."
+""
 
-hi "Hey!"
+# hi "Hey!"
+hi ""
 
 show emicas blush
 with charachange
 
-"Emi tries to look innocent, but considering she's just crammed the last bits of my bread into her mouth it does not appear to be working."
+# "Emi tries to look innocent, but considering she's just crammed the last bits of my bread into her mouth it does not appear to be working."
+""
 
-emi "Mmph? F'orry, couln't refisft."
+# emi "Mmph? F'orry, couln't refisft."
+emi ""
 
-hi "Thief!"
+# hi "Thief!"
+hi ""
 
 show emicas neutral
 with charachange
 
-"A shrug from my companion is all I get in response."
+# "A shrug from my companion is all I get in response."
+""
 
-hi "You used your feminine wiles on me!"
+# hi "You used your feminine wiles on me!"
+hi ""
 
-"I wasn't that hungry anyway, but I still feel that the point needs to be made."
+# "I wasn't that hungry anyway, but I still feel that the point needs to be made."
+""
 
 show emicas pout
 with charachange
 
-"Emi seems confused by the phrase “feminine wiles,” but the understanding dawns on her features after a moment's thought."
+# "Emi seems confused by the phrase “feminine wiles,” but the understanding dawns on her features after a moment's thought."
+""
 
 show emicas angry_up
 with charachange
 
-emi "Wasn't anything of the sort!"
+# emi "Wasn't anything of the sort!"
+emi ""
 
 show emicas frown_up
 with charachange
 
-emi "You were laughing! Feminine wiles don't involve laughing!"
+# emi "You were laughing! Feminine wiles don't involve laughing!"
+emi ""
 
-"I guess I can't argue with this."
+# "I guess I can't argue with this."
+""
 
-hi "That doesn't change your thievery."
+# hi "That doesn't change your thievery."
+hi ""
 
 show emicas happy
 with charachange
 
-"Emi laughs at my injured tone and gives me a playful shove."
+# "Emi laughs at my injured tone and gives me a playful shove."
+""
 
 show emicas closedsmile
 with charachange
 
-emi "Fine, you can have the instant noodles."
+# emi "Fine, you can have the instant noodles."
+emi ""
 
-hi "Are you kidding? That stuff's terrible!"
+# hi "Are you kidding? That stuff's terrible!"
+hi ""
 
-hi "If anything, you should definitely eat it as punishment!"
+# hi "If anything, you should definitely eat it as punishment!"
+hi ""
 
 show emicas wink
 with charachange
 
-"Another laugh from the girl sitting on my legs."
+# "Another laugh from the girl sitting on my legs."
+""
 
-"…Both of which have fallen asleep by now."
+# "…Both of which have fallen asleep by now."
+""
 
 show expression im.Composite((295,1200), (0,0), "sprites/emicas/emicas_wink.png") as emicas:
    xalign 0.5 yanchor 0.5 ypos 1.13 subpixel True
@@ -854,49 +1114,67 @@ with Pause(0.6)
 hide emicas
 with vpunch
 
-"I twitch one leg to try waking it up, which has the unintended effect of unbalancing Emi, who falls to the side with a startled “Eep!”"
+# "I twitch one leg to try waking it up, which has the unintended effect of unbalancing Emi, who falls to the side with a startled “Eep!”"
+""
 
-hi "Whoops! Sorry about that."
+# hi "Whoops! Sorry about that."
+hi ""
 
-hi "Legs fell asleep on me."
+# hi "Legs fell asleep on me."
+hi ""
 
-"Emi remains on the ground, giggling."
+# "Emi remains on the ground, giggling."
+""
 
-"I stand up a little shakily, feeling the nerves in my legs return to normal."
+# "I stand up a little shakily, feeling the nerves in my legs return to normal."
+""
 
-"My eyes wander over the scenery before fixing on the figure of Emi, who has yet to get up."
+# "My eyes wander over the scenery before fixing on the figure of Emi, who has yet to get up."
+""
 
 scene ev emi_parkback:
     xalign 0.5 yalign 0.5 zoom 1.1 subpixel True
     ease 10.0 zoom 1.0
 with locationchange
 
-"Her hair is splayed out around her head, her arms are spread, and laughter is bubbling up through her mouth."
+# "Her hair is splayed out around her head, her arms are spread, and laughter is bubbling up through her mouth."
+""
 
-"Everything about Emi seems condensed into this one image."
+# "Everything about Emi seems condensed into this one image."
+""
 
-"Her energy, her spirit, her childish giggling."
+# "Her energy, her spirit, her childish giggling."
+""
 
-"The urge to lay down on the grass with her rises swiftly from the back of my mind to the forefront of my thoughts, and indeed I am convinced that I would love nothing more than to do just that."
+# "The urge to lay down on the grass with her rises swiftly from the back of my mind to the forefront of my thoughts, and indeed I am convinced that I would love nothing more than to do just that."
+""
 
-"Unfortunately the sun has set, and it is probably time for us to get back to the dormitories."
+# "Unfortunately the sun has set, and it is probably time for us to get back to the dormitories."
+""
 
-"While Emi may be happy to stay out here all night, I don't think I have that ability."
+# "While Emi may be happy to stay out here all night, I don't think I have that ability."
+""
 
-"Besides, homework soon beckons."
+# "Besides, homework soon beckons."
+""
 
-"It wouldn't make sense to start thinking about things like university and then slack off, would it?"
+# "It wouldn't make sense to start thinking about things like university and then slack off, would it?"
+""
 
-"I extend a hand to Emi to help her up."
+# "I extend a hand to Emi to help her up."
+""
 
-hi "We should probably get going."
+# hi "We should probably get going."
+hi ""
 
 show ev emi_parkback_frown
 with charachange
 
-"Emi makes a sour face."
+# "Emi makes a sour face."
+""
 
-emi "You're right."
+# emi "You're right."
+emi ""
 
 scene bg suburb_park
 with locationchange
@@ -907,69 +1185,88 @@ show emicas weaksmile_close:
     easein 0.5 ypos 1.0
 with charaenter
 
-"She grabs my proffered hand, and I pull her to her feet and into a hug."
+# "She grabs my proffered hand, and I pull her to her feet and into a hug."
+""
 
-"This time I'm the one who kisses her, unable to resist having Emi against me."
+# "This time I'm the one who kisses her, unable to resist having Emi against me."
+""
 
-hi "Seems a shame to leave, you know."
+# hi "Seems a shame to leave, you know."
+hi ""
 
 show emicas closedsmile_close
 with charachange
 
-emi "Yeah, it does."
+# emi "Yeah, it does."
+emi ""
 
 show emicas grin_up_close
 with charachange
 
-emi "But if we don't get back to the school soon, we'll probably get into trouble."
+# emi "But if we don't get back to the school soon, we'll probably get into trouble."
+emi ""
 
-"Emi pokes me in the ribs playfully."
+# "Emi pokes me in the ribs playfully."
+""
 
 show emicas wink_up_close
 with charachange
 
-emi "And you need to do your homework, I'm sure."
+# emi "And you need to do your homework, I'm sure."
+emi ""
 
-hi "Sadly, you're absolutely right."
+# hi "Sadly, you're absolutely right."
+hi ""
 
 hide emicas
 with charaexit
 
-"I throw my arm around her shoulders, and we make the trek back to the school, accompanied by occasional bouts of laughter as our conversation jumps from subject to subject."
+# "I throw my arm around her shoulders, and we make the trek back to the school, accompanied by occasional bouts of laughter as our conversation jumps from subject to subject."
+""
 
-"Everything from running, to school, to the peculiar way that one of the cafeteria workers smells."
+# "Everything from running, to school, to the peculiar way that one of the cafeteria workers smells."
+""
 
 stop ambient fadeout 2.0
 
 scene bg school_dormext_full
 with locationskip
 
-"All too soon we find ourselves outside of the girls' dormitory building."
+# "All too soon we find ourselves outside of the girls' dormitory building."
+""
 
 show emicas closedsmile at center
 with charaenter
 
-emi "Well, I guess I'll be going, then."
+# emi "Well, I guess I'll be going, then."
+emi ""
 
-hi "I guess so, huh?"
+# hi "I guess so, huh?"
+hi ""
 
 show emicas grin_up
 with charachange
 
-"Emi grins at me again with that mischievous look."
+# "Emi grins at me again with that mischievous look."
+""
 
-emi "Are you going to be able to survive without me?"
+# emi "Are you going to be able to survive without me?"
+emi ""
 
-"I laugh."
+# "I laugh."
+""
 
-hi "I'm sure I'll manage."
+# hi "I'm sure I'll manage."
+hi ""
 
 show emicas pout_up
 with charachange
 
-emi "How terrible! Aren't you supposed to say something like “I'll be counting the seconds you are away?”"
+# emi "How terrible! Aren't you supposed to say something like “I'll be counting the seconds you are away?”"
+emi ""
 
-hi "Nah, I don't think so."
+# hi "Nah, I don't think so."
+hi ""
 
 show emicas closedsmile_close
 with characlose
@@ -977,44 +1274,56 @@ with characlose
 show emicas weaksmile
 with charadistant
 
-"Emi pulls me down into a quick goodbye kiss and steps back, looking unexpectedly shy."
+# "Emi pulls me down into a quick goodbye kiss and steps back, looking unexpectedly shy."
+""
 
-emi "Thanks for dinner."
+# emi "Thanks for dinner."
+emi ""
 
-emi "I really had fun."
+# emi "I really had fun."
+emi ""
 
 show emicas closedsmile
 with charadistant
 
-emi "Honestly, I did."
+# emi "Honestly, I did."
+emi ""
 
-hi "So did I."
+# hi "So did I."
+hi ""
 
-hi "I think we shall have to do it again, sometime."
+# hi "I think we shall have to do it again, sometime."
+hi ""
 
 show emicas happy
 with charadistant
 
-"Emi laughs at my deadpan delivery and nods."
+# "Emi laughs at my deadpan delivery and nods."
+""
 
-emi "See you bright and early tomorrow morning, right?"
+# emi "See you bright and early tomorrow morning, right?"
+emi ""
 
 show emicas wink
 with charadistant
 
-emi "You've gotta run off that bread, after all."
+# emi "You've gotta run off that bread, after all."
+emi ""
 
-hi "Of course. Despite the fact that you ate most of it."
+# hi "Of course. Despite the fact that you ate most of it."
+hi ""
 
 show emicas smile_up
 with charadistant
 
-emi "Yes, despite that."
+# emi "Yes, despite that."
+emi ""
 
 show emicas grin_up
 with charadistant
 
-emi "See you later, Hisao!"
+# emi "See you later, Hisao!"
+emi ""
 
 stop music fadeout 3.0
 
@@ -1025,15 +1334,19 @@ with dissolvecharamove
 hide emicas
 with None
 
-"As Emi turns to head inside, I notice something weird."
+# "As Emi turns to head inside, I notice something weird."
+""
 
-"Something so weird that I'm surprised I didn't notice it earlier."
+# "Something so weird that I'm surprised I didn't notice it earlier."
+""
 
-"She's limping slightly, favoring the left leg."
+# "She's limping slightly, favoring the left leg."
+""
 
 play music music_pearly fadein 8.0
 
-hi "Hey, Emi!"
+# hi "Hey, Emi!"
+hi ""
 
 show emicas invis at tworight
 with None
@@ -1042,21 +1355,26 @@ show bg school_dormext_full at bgleft
 show emicas neutral at center
 with dissolvecharamove
 
-emi "Hmm?"
+# emi "Hmm?"
+emi ""
 
-hi "Is your leg okay?"
+# hi "Is your leg okay?"
+hi ""
 
 show emicas awayfrown
 with charachange
 
-"Emi looks confused, or at least fakes confusion."
+# "Emi looks confused, or at least fakes confusion."
+""
 
 show emicas frown
 with charachange
 
-emi "What are you talking about?"
+# emi "What are you talking about?"
+emi ""
 
-hi "Your right leg. You're limping."
+# hi "Your right leg. You're limping."
+hi ""
 
 show emicas blush
 with charachange
@@ -1064,49 +1382,62 @@ with charachange
 show emicas frown
 with charachange
 
-"There's the briefest flash of concern on Emi's face."
+# "There's the briefest flash of concern on Emi's face."
+""
 
-"Either she didn't want me to know, or she didn't think I'd notice - or, I prefer to think, she just didn't realize it."
+# "Either she didn't want me to know, or she didn't think I'd notice - or, I prefer to think, she just didn't realize it."
+""
 
 show emicas neutral_up
 with charachange
 
-emi "Oh, that."
+# emi "Oh, that."
+emi ""
 
-"She shrugs casually."
+# "She shrugs casually."
+""
 
 show emicas awayfrown
 with charachange
 
-emi "Must've gotten knocked a little out of alignment during the picnic."
+# emi "Must've gotten knocked a little out of alignment during the picnic."
+emi ""
 
 show emicas wink
 with charachange
 
-emi "No idea what would have caused that, of course."
+# emi "No idea what would have caused that, of course."
+emi ""
 
-"I think back to being pinned under the tree."
+# "I think back to being pinned under the tree."
+""
 
-hi "Ah."
+# hi "Ah."
+hi ""
 
-hi "You should have told me! We could have stopped and fixed it, you know."
+# hi "You should have told me! We could have stopped and fixed it, you know."
+hi ""
 
-"Emi waves a hand airily."
+# "Emi waves a hand airily."
+""
 
 show emicas smile_up
 with charachange
 
-emi "Nah, it's not that big of a deal."
+# emi "Nah, it's not that big of a deal."
+emi ""
 
 show emicas weaksmile_up
 with charachange
 
-emi "Don't worry about it, okay Hisao?"
+# emi "Don't worry about it, okay Hisao?"
+emi ""
 
 show emicas closedsmile_up
 with charachange
 
-emi "It's fine."
+# emi "It's fine."
+emi ""
 
 #Choice Tiem
 #1. Press
@@ -1128,45 +1459,57 @@ menu:
 label th_E17a:
 #If you press:
 
-hi "Are you absolutely sure?"
+# hi "Are you absolutely sure?"
+hi ""
 
-hi "You don't want to go ahead and adjust it before heading up the stairs?"
+# hi "You don't want to go ahead and adjust it before heading up the stairs?"
+hi ""
 
-hi "You could get hurt if you don't, right?"
+# hi "You could get hurt if you don't, right?"
+hi ""
 
 show emicas awayfrown_up
 with charachange
 
-emi "I said it was fine, Hisao."
+# emi "I said it was fine, Hisao."
+emi ""
 
 show emicas frown
 with charachange
 
-emi "Seriously, don't worry about it."
+# emi "Seriously, don't worry about it."
+emi ""
 
 show emicas weaksmile
 with charachange
 
-emi "I've got some experience in these matters, after all."
+# emi "I've got some experience in these matters, after all."
+emi ""
 
-hi "Yeah, I suppose so."
+# hi "Yeah, I suppose so."
+hi ""
 
-"Emi grins reassuringly."
+# "Emi grins reassuringly."
+""
 
 show emicas grin
 with charachange
 
-emi "Honestly, Hisao, I appreciate the concern but I really am okay."
+# emi "Honestly, Hisao, I appreciate the concern but I really am okay."
+emi ""
 
 
 label th_E17b:
 #If you rest
 
-"Well, she's probably fine."
+# "Well, she's probably fine."
+""
 
-"I imagine she'd say something if it was really a problem."
+# "I imagine she'd say something if it was really a problem."
+""
 
-"Heck, she'd probably get annoyed if I kept bringing it up."
+# "Heck, she'd probably get annoyed if I kept bringing it up."
+""
 
 
 label th_E17x:
@@ -1174,38 +1517,49 @@ label th_E17x:
 show emicas smile
 with charachange
 
-emi "Now really, I need to get going."
+# emi "Now really, I need to get going."
+emi ""
 
 show emicas wink_up
 with charachange
 
-emi "Your attempts to keep me around are doomed to fail!"
+# emi "Your attempts to keep me around are doomed to fail!"
+emi ""
 
-hi "Heh, of course."
+# hi "Heh, of course."
+hi ""
 
-hi "Just prolonging the goodbye, I suppose."
+# hi "Just prolonging the goodbye, I suppose."
+hi ""
 
-"Another grin lights up Emi's face."
+# "Another grin lights up Emi's face."
+""
 
 show emicas happy_up
 with charachange
 
-emi "Goodnight, Hisao."
+# emi "Goodnight, Hisao."
+emi ""
 
-hi "Goodnight."
+# hi "Goodnight."
+hi ""
 
 hide emicas
 with charaexit
 
 stop music fadeout 5.0
 
-"As she limps inside, I find myself hoping she's okay despite her assurances that she's fine."
+# "As she limps inside, I find myself hoping she's okay despite her assurances that she's fine."
+""
 
-"I think I can call this a successful first date."
+# "I think I can call this a successful first date."
+""
 
-"Hell, any day that ends with Emi pinning me under a tree to kiss me can't be bad, can it?"
+# "Hell, any day that ends with Emi pinning me under a tree to kiss me can't be bad, can it?"
+""
 
-"I head back to my room, mentally thank the gods that Kenji doesn't ambush me in the hallway, and get started on my homework."
+# "I head back to my room, mentally thank the gods that Kenji doesn't ambush me in the hallway, and get started on my homework."
+""
 
 scene black
 with dissolve
@@ -1220,152 +1574,201 @@ with locationchange
 
 play music music_night fadein 5.0
 
-"The morning is far too early for my taste."
+# "The morning is far too early for my taste."
+""
 
-"It doesn't help that I had trouble sleeping last night."
+# "It doesn't help that I had trouble sleeping last night."
+""
 
-"There were simply too many things to think about. My mind refused to slow down."
+# "There were simply too many things to think about. My mind refused to slow down."
+""
 
-"Instead I replayed the rooftop, the park, and everything else over and over in my mind."
+# "Instead I replayed the rooftop, the park, and everything else over and over in my mind."
+""
 
-"There's a small part of my mind that is still paranoid that this has all been some kind of joke."
+# "There's a small part of my mind that is still paranoid that this has all been some kind of joke."
+""
 
-"That I'll meet up with Emi at the track, and she'll act like nothing happened yesterday."
+# "That I'll meet up with Emi at the track, and she'll act like nothing happened yesterday."
+""
 
-"Pushing these thoughts to the back of my mind, I throw on my running clothes and open the door."
+# "Pushing these thoughts to the back of my mind, I throw on my running clothes and open the door."
+""
 
 scene bg school_track
 show emi basic_grin_gym at center
 with locationskip
 
-"Emi's waiting for me with her usual smile."
+# "Emi's waiting for me with her usual smile."
+""
 
 show emi basic_annoyed_gym
 with charachange
 
-emi "You're late!"
+# emi "You're late!"
+emi ""
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "Or at least, you're not early today."
+# emi "Or at least, you're not early today."
+emi ""
 
 show emi excited_hesitant_gym
 with charachange
 
-emi "Are you tired or something?"
+# emi "Are you tired or something?"
+emi ""
 
-"I find myself ruefully rubbing the back of my head."
+# "I find myself ruefully rubbing the back of my head."
+""
 
-hi "Something like that, yeah."
+# hi "Something like that, yeah."
+hi ""
 
-hi "Lots to think about and all that."
+# hi "Lots to think about and all that."
+hi ""
 
 show emi basic_closedgrin_gym
 with charachange
 
-"Emi giggles at my mild understatement."
+# "Emi giggles at my mild understatement."
+""
 
 show emi basic_grin_gym
 with charachange
 
-emi "Yeah, I didn't sleep that well either."
+# emi "Yeah, I didn't sleep that well either."
+emi ""
 
 show emi excited_proud_gym
 with charachange
 
-emi "I was actually glad you weren't early, 'cause I wasn't early either."
+# emi "I was actually glad you weren't early, 'cause I wasn't early either."
+emi ""
 
-"I wonder if the same thing kept us awake."
+# "I wonder if the same thing kept us awake."
+""
 
-"The image of her weeping face passes through my mind."
+# "The image of her weeping face passes through my mind."
+""
 
-hi "What kept you up?"
+# hi "What kept you up?"
+hi ""
 
 show emi sad_shy_gym
 with charachange
 
-"Emi's expression falters, but she quickly notices my curiosity and forces a smile."
+# "Emi's expression falters, but she quickly notices my curiosity and forces a smile."
+""
 
 show emi sad_grin_gym
 with charachange
 
-emi "Nothing important."
+# emi "Nothing important."
+emi ""
 
-"She's obviously not telling me something."
+# "She's obviously not telling me something."
+""
 
-"The question is, should I press the issue?"
+# "The question is, should I press the issue?"
+""
 
-"Something's clearly been bothering her for a while."
+# "Something's clearly been bothering her for a while."
+""
 
-"I want to help her, but would it just come off as me being nosy?"
+# "I want to help her, but would it just come off as me being nosy?"
+""
 
-"She's got to know I care about her, though."
+# "She's got to know I care about her, though."
+""
 
-hi "Are you sure?"
+# hi "Are you sure?"
+hi ""
 
-hi "If something's bothering you, I'm here to help you sort it out."
+# hi "If something's bothering you, I'm here to help you sort it out."
+hi ""
 
 show emi basic_closedhappy_gym
 with charachange
 
-"Emi laughs then, but it's not her usual laugh. There's an edge to it that seems almost bitter."
+# "Emi laughs then, but it's not her usual laugh. There's an edge to it that seems almost bitter."
+""
 
 show emi sad_grin_gym
 with charachange
 
-emi "Sort it out?"
+# emi "Sort it out?"
+emi ""
 
-emi "I'm not sure it can be sorted out, Hisao."
+# emi "I'm not sure it can be sorted out, Hisao."
+emi ""
 
-"An almost grim smile crosses her lips."
+# "An almost grim smile crosses her lips."
+""
 
-"It's like a smile of resignation."
+# "It's like a smile of resignation."
+""
 
 show emi sad_pout_gym
 with charachange
 
-emi "I don't think you could help me, anyway."
+# emi "I don't think you could help me, anyway."
+emi ""
 
-"That hurts."
+# "That hurts."
+""
 
-"I don't want to say that it hurts to her, but it does."
+# "I don't want to say that it hurts to her, but it does."
+""
 
-"Doesn't she realize I want to be there for her when things go wrong?"
+# "Doesn't she realize I want to be there for her when things go wrong?"
+""
 
-hi "Well, I won't push you on the matter."
+# hi "Well, I won't push you on the matter."
+hi ""
 
-hi "But I'm here for you if you decide later that you'd like to talk about it."
+# hi "But I'm here for you if you decide later that you'd like to talk about it."
+hi ""
 
-hi "It might help."
+# hi "It might help."
+hi ""
 
 show emi sad_shy_gym
 with charachange
 
-"I can see the debate raging behind Emi's eyes."
+# "I can see the debate raging behind Emi's eyes."
+""
 
-"It seems like she wants to tell me, but she's not sure whether or not she can."
+# "It seems like she wants to tell me, but she's not sure whether or not she can."
+""
 
-hi "Hey, forget about it for now, okay?"
+# hi "Hey, forget about it for now, okay?"
+hi ""
 
-hi "We've got running to do."
+# hi "We've got running to do."
+hi ""
 
-"The mention of running, something that she can handle, brings Emi back to her usual self."
+# "The mention of running, something that she can handle, brings Emi back to her usual self."
+""
 
 show emi basic_closedhappy_gym
 with charachange
 
-emi "Right!"
+# emi "Right!"
+emi ""
 
 show emi basic_grin_gym
 with charachange
 
-emi "Hurry up and stretch out, Hisao!"
+# emi "Hurry up and stretch out, Hisao!"
+emi ""
 
 show emi excited_proud_gym
 with charachange
 
-emi "We've got to get moving!"
+# emi "We've got to get moving!"
+emi ""
 
 play ambient sfx_emipacing
 
@@ -1374,7 +1777,8 @@ with easeoutleft
 
 stop ambient fadeout 3.0
 
-"She takes off like a shot, far quicker than I'm used to."
+# "She takes off like a shot, far quicker than I'm used to."
+""
 
 scene bg school_track_on
 with locationchange
@@ -1382,41 +1786,58 @@ with locationchange
 scene bg school_track_running
 with Dissolve(2.0)
 
-"Still, I try to keep pace with her, recklessly testing my limits."
+# "Still, I try to keep pace with her, recklessly testing my limits."
+""
 
-"It gives me a feeling of freedom, like my heart is no longer important."
+# "It gives me a feeling of freedom, like my heart is no longer important."
+""
 
-"I find myself wanting to laugh, filled with the feeling of moving beyond what I once called my boundaries."
+# "I find myself wanting to laugh, filled with the feeling of moving beyond what I once called my boundaries."
+""
 
-"The nurse's warnings to not overdo things echo in my mind, and I disregard them."
+# "The nurse's warnings to not overdo things echo in my mind, and I disregard them."
+""
 
-"This feeling I have, this willingness to risk a heart attack for something so trivial as a morning run, feels out of character for me."
+# "This feeling I have, this willingness to risk a heart attack for something so trivial as a morning run, feels out of character for me."
+""
 
-"But is it?"
+# "But is it?"
+""
 
-"Or rather, should it be?"
+# "Or rather, should it be?"
+""
 
-"I've got a weak heart, sure."
+# "I've got a weak heart, sure."
+""
 
-"It'll never be capable of the kind of speed and endurance Emi's capable of."
+# "It'll never be capable of the kind of speed and endurance Emi's capable of."
+""
 
-"Though I probably wouldn't be able to get that good even if I had a healthy heart."
+# "Though I probably wouldn't be able to get that good even if I had a healthy heart."
+""
 
 stop music fadeout 6.0
 
-"As we round the final bend, I feel my legs screaming in protest, but for the first time, I ignore them."
+# "As we round the final bend, I feel my legs screaming in protest, but for the first time, I ignore them."
+""
 
-"I accelerate to finish at a sprint, nearly catching up to Emi."
+# "I accelerate to finish at a sprint, nearly catching up to Emi."
+""
 
-"That was never going to happen, of course."
+# "That was never going to happen, of course."
+""
 
-"Still, I feel surprisingly good."
+# "Still, I feel surprisingly good."
+""
 
-"Oh sure, my legs feel like they're about to catch fire, and I'm having trouble staying upright."
+# "Oh sure, my legs feel like they're about to catch fire, and I'm having trouble staying upright."
+""
 
-"But there's been a shift of some sort today."
+# "But there's been a shift of some sort today."
+""
 
-"And it's all thanks to the girl grinning at the finish line, waiting for me."
+# "And it's all thanks to the girl grinning at the finish line, waiting for me."
+""
 
 scene bg school_track_on
 show emi basic_grin_gym at center
@@ -1424,150 +1845,193 @@ with locationchange
 
 play music music_emi fadein 1.0
 
-hi "That felt a little faster than usual."
+# hi "That felt a little faster than usual."
+hi ""
 
-"My comment is met with a grin and a shrug."
+# "My comment is met with a grin and a shrug."
+""
 
 show emi excited_proud_gym
 with charachange
 
-emi "Can't have you think I was going to go soft on you, now can I?"
+# emi "Can't have you think I was going to go soft on you, now can I?"
+emi ""
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "But you managed to handle it just fine."
+# emi "But you managed to handle it just fine."
+emi ""
 
-hi "Well, I couldn't have done it without you."
+# hi "Well, I couldn't have done it without you."
+hi ""
 
 show emi basic_confused_gym_close
 with characlose
 
-"Still feeling the high from the run and moved by a surge of gratitude, I seize Emi in a hug."
+# "Still feeling the high from the run and moved by a surge of gratitude, I seize Emi in a hug."
+""
 
-hi "Thanks."
+# hi "Thanks."
+hi ""
 
-hi "Really, I'm not just saying that."
+# hi "Really, I'm not just saying that."
+hi ""
 
-hi "I'm in your debt."
+# hi "I'm in your debt."
+hi ""
 
 show emi basic_hes_gym_close
 with charachange
 
-"Emi seems flustered by my words, squirming uncomfortably."
+# "Emi seems flustered by my words, squirming uncomfortably."
+""
 
-emi "Don't be silly, Hisao."
+# emi "Don't be silly, Hisao."
+emi ""
 
 show emi basic_grin_gym_close
 with charachange
 
-emi "Someone had to haul you out here, didn't they?"
+# emi "Someone had to haul you out here, didn't they?"
+emi ""
 
 show emi basic_closedgrin_gym_close
 with charachange
 
-emi "And it's not like you're not doing anything for me, right?"
+# emi "And it's not like you're not doing anything for me, right?"
+emi ""
 
 show emi basic_grin_gym_close
 with charachange
 
-emi "I needed a running partner, remember?"
+# emi "I needed a running partner, remember?"
+emi ""
 
 show emi basic_shock_gym_close
 with charachange
 
-"I shake my head, still pointedly not letting go of Emi, who stops squirming and merely looks up at me with a quickly deepening blush that almost seems out of character."
+# "I shake my head, still pointedly not letting go of Emi, who stops squirming and merely looks up at me with a quickly deepening blush that almost seems out of character."
+""
 
-hi "No, that's not true."
+# hi "No, that's not true."
+hi ""
 
-hi "You wanted a running partner, but you didn't need one."
+# hi "You wanted a running partner, but you didn't need one."
+hi ""
 
-hi "If I hadn't shown up the day after the festival, you would still run, right?"
+# hi "If I hadn't shown up the day after the festival, you would still run, right?"
+hi ""
 
-hi "But it doesn't work the other way around."
+# hi "But it doesn't work the other way around."
+hi ""
 
-hi "I only managed to make it out a few times before the festival."
+# hi "I only managed to make it out a few times before the festival."
+hi ""
 
-hi "And without you, I probably wouldn't have made it out at all after that."
+# hi "And without you, I probably wouldn't have made it out at all after that."
+hi ""
 
 show emi basic_closedgrin_gym_close
 with charachange
 
-"Emi smiles at me and prods my chest with one finger."
+# "Emi smiles at me and prods my chest with one finger."
+""
 
 show emi excited_proud_gym_close
 with charachange
 
-emi "You are pretty lazy, Hisao."
+# emi "You are pretty lazy, Hisao."
+emi ""
 
-hi "Hey, I was giving you a compliment!"
+# hi "Hey, I was giving you a compliment!"
+hi ""
 
 show emi sad_grin_gym_close
 with charachange
 
-emi "Well… you're welcome, I guess."
+# emi "Well… you're welcome, I guess."
+emi ""
 
-hi "I'll pay you back somehow."
+# hi "I'll pay you back somehow."
+hi ""
 
 show emi basic_hes_gym_close
 with charachange
 
-emi "Oh, uh, well…"
+# emi "Oh, uh, well…"
+emi ""
 
 show emi basic_closedgrin_gym_close
 with charachange
 
-emi "That's not necessary, you know."
+# emi "That's not necessary, you know."
+emi ""
 
 show emi basic_happyblush_gym_close
 with charachange
 
-emi "I mean I kinda like you, Hisao."
+# emi "I mean I kinda like you, Hisao."
+emi ""
 
 show emi sad_grin_gym_close
 with charachange
 
-emi "And being able to run with you in the mornings isn't exactly a bad deal for me either, so…"
+# emi "And being able to run with you in the mornings isn't exactly a bad deal for me either, so…"
+emi ""
 
-"For someone who gets so much praise, she seems unused to gratitude."
+# "For someone who gets so much praise, she seems unused to gratitude."
+""
 
-"I can't think of anything else to say, so we fall silent."
+# "I can't think of anything else to say, so we fall silent."
+""
 
-"I become aware of Emi's breathing, of the dampness of her clothing, and of the scent of her."
+# "I become aware of Emi's breathing, of the dampness of her clothing, and of the scent of her."
+""
 
-"Coming off of anyone else, it would stink."
+# "Coming off of anyone else, it would stink."
+""
 
-"Coming off of Emi, it fits her in a way nothing else could."
+# "Coming off of Emi, it fits her in a way nothing else could."
+""
 
-"Her skin is cool, slick with sweat, and a breeze causes goosebumps to rise."
+# "Her skin is cool, slick with sweat, and a breeze causes goosebumps to rise."
+""
 
 show emi excited_amused_gym_close
 with charachange
 
-"Almost without thinking about it, I lean down and meet Emi's mouth which has already moved to meet my own."
+# "Almost without thinking about it, I lean down and meet Emi's mouth which has already moved to meet my own."
+""
 
-"Her lips are soft, and she hums happily as we kiss, sending vibrations from her mouth to mine."
+# "Her lips are soft, and she hums happily as we kiss, sending vibrations from her mouth to mine."
+""
 
-"There's a startling rightness to everything about this moment. We fit one another perfectly."
+# "There's a startling rightness to everything about this moment. We fit one another perfectly."
+""
 
 show emi basic_grin_gym_close
 with charachange
 
-"The kiss ends, and I finally let my arms drop back to my sides."
+# "The kiss ends, and I finally let my arms drop back to my sides."
+""
 
 show emi basic_closedgrin_gym_close
 with charachange
 
-"Emi is smiling warmly at me and giggles again."
+# "Emi is smiling warmly at me and giggles again."
+""
 
 show emi basic_closedhappy_gym
 with charadistant
 
-emi "Come on Hisao, we'd better go see the nurse."
+# emi "Come on Hisao, we'd better go see the nurse."
+emi ""
 
 stop music fadeout 1.0
 
-"Then it happens."
+# "Then it happens."
+""
 
 show emi basic_closedhappy_gym:
    ease 0.25 ypos 1.05
@@ -1579,92 +2043,120 @@ show emi excited_sad_gym:
    ease 0.25 ypos 1.0
 with Dissolve(0.25)
 
-"As she turns to begin walking, she gives out a tiny yelp and stumbles forward."
+# "As she turns to begin walking, she gives out a tiny yelp and stumbles forward."
+""
 
-hi "Emi!"
+# hi "Emi!"
+hi ""
 
 play music music_rain fadein 2.0
 
 show emi excited_sad_gym_close
 with characlose
 
-"I leap to steady her and notice with some concern that she's favoring the same leg as last night."
+# "I leap to steady her and notice with some concern that she's favoring the same leg as last night."
+""
 
-hi "Your leg…"
+# hi "Your leg…"
+hi ""
 
 show emi basic_hes_gym
 with charadistant
 
-"Emi seems panicked and pushes away from me."
+# "Emi seems panicked and pushes away from me."
+""
 
-emi "It's fine!"
+# emi "It's fine!"
+emi ""
 
-"My expression must seem hurt, because she hastens to apologize."
+# "My expression must seem hurt, because she hastens to apologize."
+""
 
 show emi basic_shock_gym
 with charachange
 
-emi "Sorry! Sorry!"
+# emi "Sorry! Sorry!"
+emi ""
 
-emi "Didn't mean to push you like that!"
+# emi "Didn't mean to push you like that!"
+emi ""
 
 show emi basic_closedsweat_gym
 with charachange
 
-emi "I was just…"
+# emi "I was just…"
+emi ""
 
-"She stumbles for something to say."
+# "She stumbles for something to say."
+""
 
 show emi sad_depressed_gym
 with charachange
 
-emi "It's nothing, really."
+# emi "It's nothing, really."
+emi ""
 
-hi "Hey, don't worry about it."
+# hi "Hey, don't worry about it."
+hi ""
 
-"She's so flustered, I decide to shrug the whole thing off."
+# "She's so flustered, I decide to shrug the whole thing off."
+""
 
-"But there's a cold feeling in the pit of my stomach now that won't go away."
+# "But there's a cold feeling in the pit of my stomach now that won't go away."
+""
 
-"I tried to step in and help her, and she pushed me away."
+# "I tried to step in and help her, and she pushed me away."
+""
 
-"Smiling, I shove those thoughts to the back of my mind and concentrate on Emi."
+# "Smiling, I shove those thoughts to the back of my mind and concentrate on Emi."
+""
 
-hi "I just don't want you getting hurt, that's all."
+# hi "I just don't want you getting hurt, that's all."
+hi ""
 
 show emi sad_pout_gym
 with charachange
 
-emi "You don't have to worry about me, honest."
+# emi "You don't have to worry about me, honest."
+emi ""
 
 show emi sad_grin_gym
 with charachange
 
-emi "I'm fine!"
+# emi "I'm fine!"
+emi ""
 
-"Yes, you say that, but I don't believe you."
+# "Yes, you say that, but I don't believe you."
+""
 
 
 label th_E18a:
 #If you pressed
 
-"Why won't you tell me what's wrong?"
+# "Why won't you tell me what's wrong?"
+""
 
-"It's like she gets offended by my trying to help."
+# "It's like she gets offended by my trying to help."
+""
 
-"What am I supposed to make of that?"
+# "What am I supposed to make of that?"
+""
 
 
 label th_E18b:
 #If you didn't press
 
-"I keep worrying about you regardless, and not saying anything yesterday just makes me feel guilty about today."
+# "I keep worrying about you regardless, and not saying anything yesterday just makes me feel guilty about today."
+""
 
-"I should have at least asked."
+# "I should have at least asked."
+""
 
-"Would she have reacted the same way last night?"
+# "Would she have reacted the same way last night?"
+""
 
-"Guess I'll never know now."
+# "Guess I'll never know now."
+""
 
 
 label th_E18x:
@@ -1674,75 +2166,94 @@ stop music fadeout 2.0
 scene bg school_nursehall
 with locationskip
 
-"I'm still trying to sort out what happened on the track as we arrive in front of the nurse's office."
+# "I'm still trying to sort out what happened on the track as we arrive in front of the nurse's office."
+""
 
-"Emi raises her hand to knock, hesitates and turns to me smiling guiltily."
+# "Emi raises her hand to knock, hesitates and turns to me smiling guiltily."
+""
 
 show emi sad_grin_gym:
     yalign 1.0 xanchor 0.5 xpos 0.47
     easein 0.5 center
 with charaenter
 
-emi "Hey, can you do me a favor?"
+# emi "Hey, can you do me a favor?"
+emi ""
 
-hi "Of course."
+# hi "Of course."
+hi ""
 
 show emi excited_proud_gym at center
 with charachange
 
-emi "Can you tell the nurse that I'll see him later?"
+# emi "Can you tell the nurse that I'll see him later?"
+emi ""
 
 show emi basic_grin_gym
 with charachange
 
-emi "I just remembered that I've got some… stuff to take care of before class."
+# emi "I just remembered that I've got some… stuff to take care of before class."
+emi ""
 
 show emi sad_grin_gym
 with charachange
 
-emi "So I really need to get moving."
+# emi "So I really need to get moving."
+emi ""
 
 show emi sad_shyblush_gym
 with charachange
 
-"I peer at her closely, and she fidgets under my stare."
+# "I peer at her closely, and she fidgets under my stare."
+""
 
-"Yeah, she's clearly just avoiding the nurse."
+# "Yeah, she's clearly just avoiding the nurse."
+""
 
-"That leg of hers…"
+# "That leg of hers…"
+""
 
-"Well, whatever. I said I'd help, and so I will."
+# "Well, whatever. I said I'd help, and so I will."
+""
 
-"But I'll make damn sure she sees the nurse before the day's out."
+# "But I'll make damn sure she sees the nurse before the day's out."
+""
 
-hi "Yeah, okay. I'll let him know."
+# hi "Yeah, okay. I'll let him know."
+hi ""
 
 show emi excited_smile_gym
 with charachange
 
-"Emi looks like I've just given her a pony on Christmas."
+# "Emi looks like I've just given her a pony on Christmas."
+""
 
 show emi excited_joy_gym
 with charachange
 
-emi "Thank you so much!"
+# emi "Thank you so much!"
+emi ""
 
 show emi excited_amused_gym
 with charachange
 
-emi "You're the best, Hisao!"
+# emi "You're the best, Hisao!"
+emi ""
 
 show emi excited_amused_gym_close
 with characlose
 
-"I am rewarded for my complicity in her lie by a kiss that makes it all worth it, or so I tell myself."
+# "I am rewarded for my complicity in her lie by a kiss that makes it all worth it, or so I tell myself."
+""
 
 hide emi
 with charaexit
 
-"As Emi heads out of the building, trying hard not to let her limp show, I knock on the door of the office."
+# "As Emi heads out of the building, trying hard not to let her limp show, I knock on the door of the office."
+""
 
-nk "Ah, Hisao. Come on in."
+# nk "Ah, Hisao. Come on in."
+nk ""
 
 play music music_nurse fadein 1.0
 
@@ -1750,176 +2261,232 @@ scene bg school_nurseoffice
 show nurse neutral at center
 with locationchange
 
-nk "I don't see Emi with you."
+# nk "I don't see Emi with you."
+nk ""
 
 show nurse fabulous
 with charachange
 
-nk "She's not sick again, is she?"
+# nk "She's not sick again, is she?"
+nk ""
 
-"From the tone of his voice, I don't think the nurse is expecting me to say “Yes, she's ill.”"
+# "From the tone of his voice, I don't think the nurse is expecting me to say “Yes, she's ill.”"
+""
 
-hi "Er, she said that she'd forgotten to do something, and so she had to skip out, but she'll see you later today."
+# hi "Er, she said that she'd forgotten to do something, and so she had to skip out, but she'll see you later today."
+hi ""
 
 show nurse concern
 with charachange
 
-"The nurse heaves an exasperated sigh."
+# "The nurse heaves an exasperated sigh."
+""
 
-nk "Honestly, that girl…"
+# nk "Honestly, that girl…"
+nk ""
 
-hi "Hmm?"
+# hi "Hmm?"
+hi ""
 
 show nurse neutral
 with charachange
 
-nk "She's been avoiding me."
+# nk "She's been avoiding me."
+nk ""
 
-nk "Yesterday she was in and out of here without even taking off her prosthetics. And now this."
+# nk "Yesterday she was in and out of here without even taking off her prosthetics. And now this."
+nk ""
 
-"Well, at least it's not just me Emi doesn't want worrying."
+# "Well, at least it's not just me Emi doesn't want worrying."
+""
 
-"That's a… comfort, I guess."
+# "That's a… comfort, I guess."
+""
 
-"Still, I feel like I should say something about her leg. I said I'd lie for her, but she really needs to see him."
+# "Still, I feel like I should say something about her leg. I said I'd lie for her, but she really needs to see him."
+""
 
-hi "Now that you mention it, she was limping pretty badly today."
+# hi "Now that you mention it, she was limping pretty badly today."
+hi ""
 
-hi "And last night as well."
+# hi "And last night as well."
+hi ""
 
 show nurse concern
 with charachange
 
-"The nurse's eyes narrow at the words “last night.”"
+# "The nurse's eyes narrow at the words “last night.”"
+""
 
-nk "And what exactly were you two doing last night?"
+# nk "And what exactly were you two doing last night?"
+nk ""
 
-hi "We were uh, on a date."
+# hi "We were uh, on a date."
+hi ""
 
 show nurse fabulous
 with charachange
 
-"The nurse raises his eyebrows as if surprised."
+# "The nurse raises his eyebrows as if surprised."
+""
 
-nk "Really? Interesting."
+# nk "Really? Interesting."
+nk ""
 
-hi "Huh?"
+# hi "Huh?"
+hi ""
 
 show nurse neutral
 with charachange
 
-nk "Oh, nothing."
+# nk "Oh, nothing."
+nk ""
 
-"His gaze turns thoughtful, and then he grins at me."
+# "His gaze turns thoughtful, and then he grins at me."
+""
 
 show nurse grin
 with charachange
 
-nk "You don't think you could use some of that boyfriend charm to get her to come see me today, could you?"
+# nk "You don't think you could use some of that boyfriend charm to get her to come see me today, could you?"
+nk ""
 
-hi "Of course!"
+# hi "Of course!"
+hi ""
 
-hi "I was planning on doing that anyway."
+# hi "I was planning on doing that anyway."
+hi ""
 
-hi "I think she's really hurt and just pretending she isn't."
+# hi "I think she's really hurt and just pretending she isn't."
+hi ""
 
 show nurse neutral
 with charachange
 
-nk "Hmm, yes. She does that."
+# nk "Hmm, yes. She does that."
+nk ""
 
-nk "Afraid I'll make her stop running."
+# nk "Afraid I'll make her stop running."
+nk ""
 
-hi "Will you?"
+# hi "Will you?"
+hi ""
 
 show nurse concern
 with charachange
 
-nk "I don't like to, but if it's bad enough that she's been limping, well…"
+# nk "I don't like to, but if it's bad enough that she's been limping, well…"
+nk ""
 
-nk "I guess I'll have to see what's wrong for myself before I make that call."
+# nk "I guess I'll have to see what's wrong for myself before I make that call."
+nk ""
 
-hi "I see."
+# hi "I see."
+hi ""
 
-"Emi, not allowed to run? Perish the thought."
+# "Emi, not allowed to run? Perish the thought."
+""
 
-"I don't know if she'd be able to function without running."
+# "I don't know if she'd be able to function without running."
+""
 
-"No wonder she's reluctant to admit anything's wrong."
+# "No wonder she's reluctant to admit anything's wrong."
+""
 
-hi "Well, I'll make sure she sees you."
-
-show nurse neutral
-with charachange
-
-nk "Good. Oh, and before I forget…"
-
-show nurse grin
-with charachange
-
-"He grins at me again in what feels like a vaguely threatening manner."
-
-nk "Don't forget that I know what medications you're on."
+# hi "Well, I'll make sure she sees you."
+hi ""
 
 show nurse neutral
 with charachange
 
-nk "You be careful around Emi, got it?"
-
-"Wow. He looks serious, too."
-
-hi "Got it."
-
-hi "Don't hurt Emi. Wouldn't dream of it."
+# nk "Good. Oh, and before I forget…"
+nk ""
 
 show nurse grin
 with charachange
 
-nk "Grand!"
+# "He grins at me again in what feels like a vaguely threatening manner."
+""
+
+# nk "Don't forget that I know what medications you're on."
+nk ""
+
+show nurse neutral
+with charachange
+
+# nk "You be careful around Emi, got it?"
+nk ""
+
+# "Wow. He looks serious, too."
+""
+
+# hi "Got it."
+hi ""
+
+# hi "Don't hurt Emi. Wouldn't dream of it."
+hi ""
+
+show nurse grin
+with charachange
+
+# nk "Grand!"
+nk ""
 
 show nurse fabulous
 with charachange
 
-nk "I'd hate for you to be late."
+# nk "I'd hate for you to be late."
+nk ""
 
-hi "Huh?"
+# hi "Huh?"
+hi ""
 
 show nurse grin
 with charachange
 
-nk "Late, as in the late Hisao Nakai."
+# nk "Late, as in the late Hisao Nakai."
+nk ""
 
 show nurse concern
 with charachange
 
-"He frowns briefly, dissatisfied."
+# "He frowns briefly, dissatisfied."
+""
 
-nk "Sounded better in my head…"
+# nk "Sounded better in my head…"
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "Well, at any rate."
+# nk "Well, at any rate."
+nk ""
 
 show nurse grin
 with charachange
 
-nk "Get out of here before you miss your first class!"
+# nk "Get out of here before you miss your first class!"
+nk ""
 
-nk "You've got things to do, I'm sure. Shoo!"
+# nk "You've got things to do, I'm sure. Shoo!"
+nk ""
 
 stop music fadeout 6.0
 
-"As I leave, I notice the nurse pulling out his phone and dialing a number."
+# "As I leave, I notice the nurse pulling out his phone and dialing a number."
+""
 
 show nurse concern
 with charachange
 
-nk "Meiko, your daughter's being a pain in the ass again…"
+# nk "Meiko, your daughter's being a pain in the ass again…"
+nk ""
 
-"I'd better head back to my room, or I really will be late."
+# "I'd better head back to my room, or I really will be late."
+""
 
-"Hey, wasn't he supposed to check my heart rate?"
+# "Hey, wasn't he supposed to check my heart rate?"
+""
 
 
 ################################
@@ -1930,9 +2497,11 @@ with shorttimeskip
 
 play sound sfx_normalbell
 
-"The lunch bell sounds, and I bring myself out of the stupor I slipped into during the morning's classes."
+# "The lunch bell sounds, and I bring myself out of the stupor I slipped into during the morning's classes."
+""
 
-"My lack of sleep last night, coupled with the increased pace of this morning's run, has left me a little exhausted."
+# "My lack of sleep last night, coupled with the increased pace of this morning's run, has left me a little exhausted."
+""
 
 $ renpy.music.set_volume(0.15, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 1.0
@@ -1940,9 +2509,11 @@ play ambient sfx_rooftop fadein 1.0
 scene bg school_staircase1
 with locationskip
 
-"Despite that, I find myself skipping stairs up to the roof."
+# "Despite that, I find myself skipping stairs up to the roof."
+""
 
-"There's a thrill of excitement now, in addition to the pleasure one gets from eating lunch with one's friends."
+# "There's a thrill of excitement now, in addition to the pleasure one gets from eating lunch with one's friends."
+""
 
 play sound sfx_door_creak
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
@@ -1950,160 +2521,206 @@ $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 scene bg school_roof
 with locationchange
 
-"True, both Emi and Rin are still my friends, but Emi has become more than that now."
+# "True, both Emi and Rin are still my friends, but Emi has become more than that now."
+""
 
-"Rin is back in her usual spot on the roof, almost as if she'd never been absent."
+# "Rin is back in her usual spot on the roof, almost as if she'd never been absent."
+""
 
 scene ev rin_roof_boredom
 show hisao rin_roof
 with locationchange
 
-hi "Feeling better, I take it?"
+# hi "Feeling better, I take it?"
+hi ""
 
 show ev rin_roof_surprised
 with charachange
 
-"A raised eyebrow is my reward for speaking."
+# "A raised eyebrow is my reward for speaking."
+""
 
-rin "Better than what?"
+# rin "Better than what?"
+rin ""
 
 play music music_rin fadein 6.0
 
-hi "Er, better than you felt yesterday."
+# hi "Er, better than you felt yesterday."
+hi ""
 
 show ev rin_roof_nonchalant
 with charachange
 
-"Rin gives my question some serious thought."
+# "Rin gives my question some serious thought."
+""
 
-rin "I'm not sure."
+# rin "I'm not sure."
+rin ""
 
-rin "I think I might have felt rather good for some of yesterday, but it's all fuzzy."
+# rin "I think I might have felt rather good for some of yesterday, but it's all fuzzy."
+rin ""
 
-hi "Too much cold medicine?"
+# hi "Too much cold medicine?"
+hi ""
 
 show ev rin_roof_doubt
 with charachange
 
-rin "Well, I was asleep. And that usually is pretty good."
+# rin "Well, I was asleep. And that usually is pretty good."
+rin ""
 
 show ev rin_roof_boredom
 with charachange
 
-rin "But I can't remember what it feels like to be asleep, because I'm not conscious for it."
+# rin "But I can't remember what it feels like to be asleep, because I'm not conscious for it."
+rin ""
 
-rin "It's a real problem."
+# rin "It's a real problem."
+rin ""
 
 show ev rin_roof_nonchalant
 with charachange
 
-rin "Then again, if I knew how good it felt I might not sleep any more."
+# rin "Then again, if I knew how good it felt I might not sleep any more."
+rin ""
 
-rin "But this way I keep trying so I guess that's how I can keep from being overtired."
+# rin "But this way I keep trying so I guess that's how I can keep from being overtired."
+rin ""
 
-hi "An eternal mystery to keep you sleeping at night?"
+# hi "An eternal mystery to keep you sleeping at night?"
+hi ""
 
 show ev rin_roof_boredom
 with charachange
 
-rin "Maybe mystery's the wrong word. Intangibility might be the proper way to describe it."
+# rin "Maybe mystery's the wrong word. Intangibility might be the proper way to describe it."
+rin ""
 
-hi "I see."
+# hi "I see."
+hi ""
 
-"No, I don't see at all. I have no idea what she's talking about, but that's okay, since I rarely do."
+# "No, I don't see at all. I have no idea what she's talking about, but that's okay, since I rarely do."
+""
 
 show ev rin_roof_doubt
 with charachange
 
-rin "Do you remember what sleeping feels like?"
+# rin "Do you remember what sleeping feels like?"
+rin ""
 
-rin "Like yesterday, do you remember what you felt like sleeping yesterday?"
+# rin "Like yesterday, do you remember what you felt like sleeping yesterday?"
+rin ""
 
-hi "Well, I actually didn't get a lot of sleep yesterday."
+# hi "Well, I actually didn't get a lot of sleep yesterday."
+hi ""
 
 show ev rin_roof_nonchalant
 with charachange
 
-rin "Hmm."
+# rin "Hmm."
+rin ""
 
-rin "Maybe that's because you remember subconsciously."
+# rin "Maybe that's because you remember subconsciously."
+rin ""
 
-hi "Actually, I think I was worrying about Emi."
+# hi "Actually, I think I was worrying about Emi."
+hi ""
 
 show ev rin_roof_surprised
 with charachange
 
-rin "Doesn't Emi worry enough about herself?"
+# rin "Doesn't Emi worry enough about herself?"
+rin ""
 
-"I hadn't considered that, but it gives me pause."
+# "I hadn't considered that, but it gives me pause."
+""
 
-hi "True, but would she ask for help if she needed it?"
+# hi "True, but would she ask for help if she needed it?"
+hi ""
 
 show ev rin_roof_doubt
 with charachange
 
-"Rin frowns, and I raise an eyebrow. Will I get a proper answer?"
+# "Rin frowns, and I raise an eyebrow. Will I get a proper answer?"
+""
 
-rin "Probably not. Is there something she should be asking for help with?"
+# rin "Probably not. Is there something she should be asking for help with?"
+rin ""
 
-hi "Her leg, for starters."
+# hi "Her leg, for starters."
+hi ""
 
-"This seems to catch Rin's interest."
+# "This seems to catch Rin's interest."
+""
 
 show ev rin_roof_disgust
 with charachange
 
-rin "Leg?"
+# rin "Leg?"
+rin ""
 
-hi "It's hurt, but she won't see the nurse about it."
+# hi "It's hurt, but she won't see the nurse about it."
+hi ""
 
-"Rin shakes her head in disapproval."
-
-show ev rin_roof_doubt
-with charachange
-
-rin "You have to make her."
-
-show ev rin_roof_nonchalant
-with charachange
-
-rin "Like she makes me go to class. For her own good."
-
-rin "Otherwise she could lose her legs again, and that's just too weird."
-
-rin "Losing things twice."
+# "Rin shakes her head in disapproval."
+""
 
 show ev rin_roof_doubt
 with charachange
 
-rin "Especially if you don't find them again to begin with."
-
-rin "Unless prosthetics are the same as finding something."
+# rin "You have to make her."
+rin ""
 
 show ev rin_roof_nonchalant
 with charachange
 
-rin "But that's a different kind of lost, isn't it?"
+# rin "Like she makes me go to class. For her own good."
+rin ""
 
-hi "I think so."
+# rin "Otherwise she could lose her legs again, and that's just too weird."
+rin ""
+
+# rin "Losing things twice."
+rin ""
+
+show ev rin_roof_doubt
+with charachange
+
+# rin "Especially if you don't find them again to begin with."
+rin ""
+
+# rin "Unless prosthetics are the same as finding something."
+rin ""
+
+show ev rin_roof_nonchalant
+with charachange
+
+# rin "But that's a different kind of lost, isn't it?"
+rin ""
+
+# hi "I think so."
+hi ""
 
 show ev rin_roof_boredom
 with charachange
 
-rin "Hmm. I wonder…"
+# rin "Hmm. I wonder…"
+rin ""
 
 stop music fadeout 0.5
 
 show emi rin_roof
 with charaenter
 
-emi "Wonder what?"
+# emi "Wonder what?"
+emi ""
 
 scene bg school_roof
 show emi basic_grin at center
 with locationchange
 
-"Emi seems to have snuck up on Rin and me, though Rin doesn't seem especially surprised. Which is itself unsurprising, I suppose."
+# "Emi seems to have snuck up on Rin and me, though Rin doesn't seem especially surprised. Which is itself unsurprising, I suppose."
+""
 
 show bg school_roof at bgleft
 show emi basic_grin at twoleft
@@ -2115,349 +2732,432 @@ show rin basic_deadpannormal:
     easein 0.5 ypos 1.2
 with charaenter
 
-"Rin manages to sit herself upright quite expertly, throwing her upper body forward and using her momentum to right herself."
+# "Rin manages to sit herself upright quite expertly, throwing her upper body forward and using her momentum to right herself."
+""
 
 show rin basic_absent:
     ypos 1.2
 with charachange
 
-hi "Your leg. How's it feel?"
+# hi "Your leg. How's it feel?"
+hi ""
 
 show emi sad_annoyed
 show rin basic_awayabsent
 with charachange
 
-"That earns me a frown and a bit of a glare."
+# "That earns me a frown and a bit of a glare."
+""
 
-emi "It's okay, I think."
+# emi "It's okay, I think."
+emi ""
 
 show emi sad_shy
 with charachange
 
-emi "Not worth worrying about."
+# emi "Not worth worrying about."
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "Tell that to the nurse."
+# hi "Tell that to the nurse."
+hi ""
 
-hi "He's quite insistent that you visit him, you know."
+# hi "He's quite insistent that you visit him, you know."
+hi ""
 
 show emi sad_pout
 show rin basic_awayabsent
 with charachange
 
-"Emi pouts like I've just told her she's been grounded."
+# "Emi pouts like I've just told her she's been grounded."
+""
 
-emi "He worries too much."
+# emi "He worries too much."
+emi ""
 
 show emi basic_grin
 with charachange
 
-emi "It's not a big deal, just a little soreness."
+# emi "It's not a big deal, just a little soreness."
+emi ""
 
-"I try to resist rolling my eyes in exasperation."
+# "I try to resist rolling my eyes in exasperation."
+""
 
 show rin basic_absent
 with charachange
 
-hi "If it's nothing, then you should have no problem seeing him, right?"
+# hi "If it's nothing, then you should have no problem seeing him, right?"
+hi ""
 
 show emi basic_annoyed
 show rin basic_awayabsent
 with charachange
 
-"Emi narrows her eyes suspiciously."
+# "Emi narrows her eyes suspiciously."
+""
 
-emi "Did he put you up to this?"
+# emi "Did he put you up to this?"
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "Well, maybe. A little."
+# hi "Well, maybe. A little."
+hi ""
 
-hi "But that's not the point. I would have reminded you to see him anyway."
+# hi "But that's not the point. I would have reminded you to see him anyway."
+hi ""
 
-hi "It would be terrible to see you really hurt and not doing anything about it."
+# hi "It would be terrible to see you really hurt and not doing anything about it."
+hi ""
 
-hi "That would make it worse, and I don't really want to see you hurt, you know?"
+# hi "That would make it worse, and I don't really want to see you hurt, you know?"
+hi ""
 
-hi "Call me crazy, but I kinda would prefer to see you happy and healthy."
+# hi "Call me crazy, but I kinda would prefer to see you happy and healthy."
+hi ""
 
 show emi sad_grin
 show rin basic_awayabsent
 with charachange
 
-"With each statement, Emi's frown fades a little more, until eventually she's grinning, albeit a little shyly."
+# "With each statement, Emi's frown fades a little more, until eventually she's grinning, albeit a little shyly."
+""
 
 play music music_daily fadein 4.0
 
-emi "Well, if you're going to put it that way, then I guess I'll have to see him."
+# emi "Well, if you're going to put it that way, then I guess I'll have to see him."
+emi ""
 
 show emi excited_proud
 with charachange
 
-emi "Otherwise you'll keep worrying, and then I'll never hear the end of it, right?"
+# emi "Otherwise you'll keep worrying, and then I'll never hear the end of it, right?"
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "That's right. I'll keep bugging you about it, and that might put a damper on our dates."
+# hi "That's right. I'll keep bugging you about it, and that might put a damper on our dates."
+hi ""
 
 #"I launch into a series of back-and-forths, playing the role of myself and Emi."
 
-hi "“How's the food, Hisao?” “Talk to the nurse, Emi.”"
+# hi "“How's the food, Hisao?” “Talk to the nurse, Emi.”"
+hi ""
 
-hi "“How was your day, Hisao?” “Talk to the nurse, Emi.”"
+# hi "“How was your day, Hisao?” “Talk to the nurse, Emi.”"
+hi ""
 
-hi "“Hisao, I think I'm ready to go all the w—” “{b}Talk to the nurse, Emi.{/b}”"
+# hi "“Hisao, I think I'm ready to go all the w—” “{b}Talk to the nurse, Emi.{/b}”"
+hi ""
 
-hi "See? It doesn't work that well."
+# hi "See? It doesn't work that well."
+hi ""
 
 show emi basic_closedhappy
 show rin basic_awayabsent
 with charachange
 
-"Emi giggles at my high-pitched rendition of her own voice and gives me an affectionate shove."
+# "Emi giggles at my high-pitched rendition of her own voice and gives me an affectionate shove."
+""
 
 show emi excited_amused
 with vpunch
 
-emi "My voice isn't that high, jerk."
+# emi "My voice isn't that high, jerk."
+emi ""
 
 show rin basic_deadpan
 show emi excited_circle
 with charachange
 
-rin "I thought it was pretty accurate."
+# rin "I thought it was pretty accurate."
+rin ""
 
 with Pause(3.0)
 
-"Emi and I stare at Rin for a while before I burst into laughter."
+# "Emi and I stare at Rin for a while before I burst into laughter."
+""
 
 show emi sad_annoyed
 show rin basic_awayabsent
 with charachange
 
-"Emi crosses her arms and huffs, mock-offended."
+# "Emi crosses her arms and huffs, mock-offended."
+""
 
 show emi sad_angry
 with charachange
 
-emi "You're both jerks."
+# emi "You're both jerks."
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "Such vile calumnies from you, young woman."
+# hi "Such vile calumnies from you, young woman."
+hi ""
 
-hi "I'm stunned that you would call me, of all people, a jerk."
+# hi "I'm stunned that you would call me, of all people, a jerk."
+hi ""
 
-hi "Honestly, I just… I don't know what to think."
+# hi "Honestly, I just… I don't know what to think."
+hi ""
 
 show emi basic_annoyed
 show rin basic_awayabsent
 with charachange
 
-"Emi sticks her tongue out at me."
+# "Emi sticks her tongue out at me."
+""
 
-emi "You ass."
+# emi "You ass."
+emi ""
 
 show emi basic_grin
 with charachange
 
-emi "So Rin, how's the art club these days?"
+# emi "So Rin, how's the art club these days?"
+emi ""
 
 show rin basic_surprised
 with charachange
 
-"Rin, seemingly as surprised by this sudden change of topic as I am, takes a minute to think before answering."
+# "Rin, seemingly as surprised by this sudden change of topic as I am, takes a minute to think before answering."
+""
 
 show rin basic_lucid
 with charachange
 
-rin "I believe it is okay."
+# rin "I believe it is okay."
+rin ""
 
 show rin basic_deadpancontemplation
 with charachange
 
-rin "Although Nomiya keeps telling me to work harder."
+# rin "Although Nomiya keeps telling me to work harder."
+rin ""
 
 show rin relaxed_nonchalant
 with charachange
 
-rin "But I don't think he understands my methods."
+# rin "But I don't think he understands my methods."
+rin ""
 
 show emi sad_annoyed
 with charachange
 
-emi "He always struck me as slightly creepy."
+# emi "He always struck me as slightly creepy."
+emi ""
 
 show rin basic_lucid
 with charachange
 
-"Rin ponders this statement for a while."
+# "Rin ponders this statement for a while."
+""
 
 show rin basic_awayabsent
 with charachange
 
-rin "I've never really noticed."
+# rin "I've never really noticed."
+rin ""
 
 show rin basic_deadpancontemplation
 with charachange
 
-rin "But I don't pay much attention to him most days, so maybe that's why."
+# rin "But I don't pay much attention to him most days, so maybe that's why."
+rin ""
 
-hi "How often do you meet?"
+# hi "How often do you meet?"
+hi ""
 
 show emi basic_closedgrin
 with charachange
 
-emi "Thinking of joining, Hisao?"
+# emi "Thinking of joining, Hisao?"
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "What? Nah, I've already decided to join a club."
+# hi "What? Nah, I've already decided to join a club."
+hi ""
 
 show emi excited_happy
 show rin basic_awayabsent
 with charachange
 
-emi "Really? Which one?"
+# emi "Really? Which one?"
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "Well, it's not really much of a club, to be honest…"
+# hi "Well, it's not really much of a club, to be honest…"
+hi ""
 
 show emi excited_proud
 show rin basic_awayabsent
 with charachange
 
-emi "Oh, you joined the tea club?"
+# emi "Oh, you joined the tea club?"
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "No, I uh… joined the science club… I think."
+# hi "No, I uh… joined the science club… I think."
+hi ""
 
 show emi basic_confused
 show rin basic_awayabsent
 with charachange
 
-"Emi looks highly confused."
+# "Emi looks highly confused."
+""
 
-emi "We have a science club?"
+# emi "We have a science club?"
+emi ""
 
 show rin basic_absent
 with charachange
 
-hi "Er, not really. It's just me."
+# hi "Er, not really. It's just me."
+hi ""
 
 show emi basic_closedhappy
 show rin basic_awayabsent
 with charachange
 
-emi "Hisao, that's not a club. That's sitting in your room reading books."
+# emi "Hisao, that's not a club. That's sitting in your room reading books."
+emi ""
 
-hi "No, I mean it's just me and Mutou."
+# hi "No, I mean it's just me and Mutou."
+hi ""
 
-hi "I'm just the only student so far."
+# hi "I'm just the only student so far."
+hi ""
 
 show emi basic_confused
 show rin basic_lucid
 with charachange
 
-emi "Mutou? Really?"
+# emi "Mutou? Really?"
+emi ""
 
-"A thought strikes her."
+# "A thought strikes her."
+""
 
 show emi basic_happy
 with charachange
 
-emi "Oh, is that what you were talking about yesterday? Your meeting with Mutou?"
+# emi "Oh, is that what you were talking about yesterday? Your meeting with Mutou?"
+emi ""
 
-hi "Yeah, that was our first meeting, I guess."
+# hi "Yeah, that was our first meeting, I guess."
+hi ""
 
 show emi basic_closedgrin
 with charachange
 
-"Emi giggles."
+# "Emi giggles."
+""
 
 show emi basic_grin
 with charachange
 
-emi "Nerd."
+# emi "Nerd."
+emi ""
 
-hi "Hey, I can't help being clever."
+# hi "Hey, I can't help being clever."
+hi ""
 
 show emi excited_proud
 with charachange
 
-emi "You know, I could have used your help years ago."
+# emi "You know, I could have used your help years ago."
+emi ""
 
-emi "You should've had your heart attack earlier in life, Hisao."
+# emi "You should've had your heart attack earlier in life, Hisao."
+emi ""
 
-"I laugh, and then realize this is probably one of the very rare times I've laughed about my heart attack."
+# "I laugh, and then realize this is probably one of the very rare times I've laughed about my heart attack."
+""
 
-hi "Hindsight…"
+# hi "Hindsight…"
+hi ""
 
 show emi sad_grin
 with charachange
 
-emi "Yeah…"
+# emi "Yeah…"
+emi ""
 
 play sound sfx_warningbell
 
-"The ringing of the bell ends our conversation."
+# "The ringing of the bell ends our conversation."
+""
 
-hi "Hmm, guess we'd better go."
+# hi "Hmm, guess we'd better go."
+hi ""
 
 show emi basic_grin
 with charachange
 
-emi "Yeah, I guess so."
+# emi "Yeah, I guess so."
+emi ""
 
 show emi excited_amused:
     xpos 0.45
 with dissolvecharamove
 
-emi "Come on Rin, you too."
+# emi "Come on Rin, you too."
+emi ""
 
 show rin basic_surprised
 with vpunch
 
-"Rin has apparently begun to doze off, so Emi gives her a sharp bump."
+# "Rin has apparently begun to doze off, so Emi gives her a sharp bump."
+""
 
 show rin basic_deadpanupset
 with charachange
 
-rin "I almost had it."
+# rin "I almost had it."
+rin ""
 
 show emi basic_closedgrin
 with charachange
 
-emi "Sorry, but you need to go to class."
+# emi "Sorry, but you need to go to class."
+emi ""
 
 show rin relaxed_nonchalant at tworight
 with dissolvecharamove
 
-rin "I disagree, but maybe if I nap in class I'll get it this time."
+# rin "I disagree, but maybe if I nap in class I'll get it this time."
+rin ""
 
 show rin relaxed_boredom
 with charachange
 
-rin "Changing location is sometimes helpful for that kind of thing."
+# rin "Changing location is sometimes helpful for that kind of thing."
+rin ""
 
-"Neither Emi or I bother asking what “it” is."
+# "Neither Emi or I bother asking what “it” is."
+""
 
 stop music fadeout 3.0
 stop ambient fadeout 2.0
 scene bg school_hallway3
 with locationskip
 
-"As we arrive at my classroom, Emi gives me a quick kiss and heads down the hallway, Rin in tow."
+# "As we arrive at my classroom, Emi gives me a quick kiss and heads down the hallway, Rin in tow."
+""
 
 show shizu behind_blank:
     tworight
@@ -2469,199 +3169,260 @@ show misha perky_smile:
     easein 0.5 twoleft
 with charaenter
 
-"I turn to enter the classroom, to be met by the duo of Shizune and Misha."
+# "I turn to enter the classroom, to be met by the duo of Shizune and Misha."
+""
 
 play music music_shizune fadein 1.0
 
 show shizu adjust_happy
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
-"Misha seems to be fighting a losing battle to keep from breaking into a fit of giggles while she translates Shizune's latest rant."
+# "Misha seems to be fighting a losing battle to keep from breaking into a fit of giggles while she translates Shizune's latest rant."
+""
 
 show misha hips_grin
 with charachange
 
-mi "While we are pleased, nay thrilled, to see how well you've managed to make new friends and forge relationships - and with such a cutie too, Hicchan~…"
+# mi "While we are pleased, nay thrilled, to see how well you've managed to make new friends and forge relationships - and with such a cutie too, Hicchan~…"
+mi ""
 
-"I think that last part was probably Misha."
+# "I think that last part was probably Misha."
+""
 
 show shizu basic_normal
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha hips_frown
 with charachange
 
-mi "We nevertheless feel compelled to politely remind you that public displays of affection are strictly forbidden - really? That's disappointing, Shicchan - by section eight of the code of conduct laid out in the student handbook."
+# mi "We nevertheless feel compelled to politely remind you that public displays of affection are strictly forbidden - really? That's disappointing, Shicchan - by section eight of the code of conduct laid out in the student handbook."
+mi ""
 
 show shizu adjust_smug
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha sign_smile
 with charachange
 
-mi "In this case, however, ignorance of the law may be your excuse, as we are feeling lenient…"
+# mi "In this case, however, ignorance of the law may be your excuse, as we are feeling lenient…"
+mi ""
 
 show shizu behind_smile
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha hips_smile
 with charachange
 
-mi "…and the paperwork required to punish the both of you would only add to the already mountainous volume of work which confronts us, the sole members of the Student Council - and besides, you two are adorable together~!"
+# mi "…and the paperwork required to punish the both of you would only add to the already mountainous volume of work which confronts us, the sole members of the Student Council - and besides, you two are adorable together~!"
+mi ""
 
 show shizu adjust_happy
 with charachange
 
-shi "…"
+# shi "…"
+shi ""
 
 show misha hips_grin
 with charachange
 
-mi "Therefore consider this a formal warning, and please refrain from such displays in the future. At least when Shizune can see you, Hicchan~!"
+# mi "Therefore consider this a formal warning, and please refrain from such displays in the future. At least when Shizune can see you, Hicchan~!"
+mi ""
 
-"This whole spiel is so patently ridiculous that I can't help but reply in the same pompous manner."
+# "This whole spiel is so patently ridiculous that I can't help but reply in the same pompous manner."
+""
 
-hi "Well, I for one feel enlightened."
+# hi "Well, I for one feel enlightened."
+hi ""
 
-hi "I apologize profusely for my rash actions and will strive to contain my baser impulses which, I fear, impel me toward such inappropriate displays of public affection."
+# hi "I apologize profusely for my rash actions and will strive to contain my baser impulses which, I fear, impel me toward such inappropriate displays of public affection."
+hi ""
 
-hi "It is hardly my wish to burden an already overworked Student Council with such petty matters, and will do my best to make your lives easier in this matter in the future."
+# hi "It is hardly my wish to burden an already overworked Student Council with such petty matters, and will do my best to make your lives easier in this matter in the future."
+hi ""
 
-hi "At least, when Shizune's watching."
+# hi "At least, when Shizune's watching."
+hi ""
 
-"This last line is delivered with a wink to Misha, who finally loses control of her laughter."
+# "This last line is delivered with a wink to Misha, who finally loses control of her laughter."
+""
 
 show misha cross_laugh
 with charachange
 
-mi "Wahaha~!"
+# mi "Wahaha~!"
+mi ""
 
 show misha cross_grin
 with charachange
 
-mi "Well said, Hicchan~!"
+# mi "Well said, Hicchan~!"
+mi ""
 
-"Chuckling a little myself, we enter the classroom."
+# "Chuckling a little myself, we enter the classroom."
+""
 
 stop music fadeout 2.0
 scene bg school_scienceroom
 with shorttimeskip
 
-"Class is uneventful, and after the final bell rings, I find myself alone with Mutou again."
+# "Class is uneventful, and after the final bell rings, I find myself alone with Mutou again."
+""
 
 show muto smile at center
 with charaenter
 
-mu "So, it looks like we've all assembled for the second meeting of the Science Club."
+# mu "So, it looks like we've all assembled for the second meeting of the Science Club."
+mu ""
 
 play music music_another fadein 2.0
 show muto normal
 with charachange
 
-mu "Or is it the first? What do you think, should we count yesterday as a meeting?"
+# mu "Or is it the first? What do you think, should we count yesterday as a meeting?"
+mu ""
 
-hi "Well, we did form the club yesterday, didn't we?"
+# hi "Well, we did form the club yesterday, didn't we?"
+hi ""
 
-hi "That seems like club business, so we can safely call yesterday a meeting."
+# hi "That seems like club business, so we can safely call yesterday a meeting."
+hi ""
 
 show muto smile
 with charachange
 
-"Mutou smiles in his usual stilted and awkward way. I wonder if the muscles in his face are just not shaped correctly to let him smile naturally."
+# "Mutou smiles in his usual stilted and awkward way. I wonder if the muscles in his face are just not shaped correctly to let him smile naturally."
+""
 
-mu "You really do have a knack for this, I think. Logical thought processes, that is."
+# mu "You really do have a knack for this, I think. Logical thought processes, that is."
+mu ""
 
-hi "I guess so?"
+# hi "I guess so?"
+hi ""
 
 show muto normal
 with charachange
 
-mu "A scientist speaks with authority, Hisao. The answer here is “Yes, I do.”"
+# mu "A scientist speaks with authority, Hisao. The answer here is “Yes, I do.”"
+mu ""
 
-mu "When the world wants to know how it works, we tell it. Even if all we've got is a decent hypothesis."
+# mu "When the world wants to know how it works, we tell it. Even if all we've got is a decent hypothesis."
+mu ""
 
 show muto smile
 with charachange
 
-mu "But we must sound certain anyway, because we're the authorities on the subject, right?"
+# mu "But we must sound certain anyway, because we're the authorities on the subject, right?"
+mu ""
 
-"He chuckles, to go along with his awkward smile at his awkward joke. I'm doing my best not to grimace, but I don't think I'm being too successful."
+# "He chuckles, to go along with his awkward smile at his awkward joke. I'm doing my best not to grimace, but I don't think I'm being too successful."
+""
 
 show muto normal
 with charachange
 
-mu "That's entirely false, of course."
+# mu "That's entirely false, of course."
+mu ""
 
-mu "We know a lot, sure, but nobody's an expert on how the world works, if only because nobody can be sure. With no certainty, there are no experts."
+# mu "We know a lot, sure, but nobody's an expert on how the world works, if only because nobody can be sure. With no certainty, there are no experts."
+mu ""
 
-mu "But we like to pretend, sometimes."
+# mu "But we like to pretend, sometimes."
+mu ""
 
-hi "There's some things we can be certain of, right?"
+# hi "There's some things we can be certain of, right?"
+hi ""
 
-mu "Yes… but no."
+# mu "Yes… but no."
+mu ""
 
-mu "We know gravity's there, for example."
+# mu "We know gravity's there, for example."
+mu ""
 
-"To illustrate, Mutou picks up a pencil and drops it."
+# "To illustrate, Mutou picks up a pencil and drops it."
+""
 
-mu "See? Still there. But it's good to check every once in a while."
+# mu "See? Still there. But it's good to check every once in a while."
+mu ""
 
-mu "That's why you'll still see researchers mucking about with gravity."
+# mu "That's why you'll still see researchers mucking about with gravity."
+mu ""
 
 show muto smile
 with charachange
 
-mu "We're pretty sure we know how it works, but there's always a chance that something isn't how we think it is."
+# mu "We're pretty sure we know how it works, but there's always a chance that something isn't how we think it is."
+mu ""
 
-mu "So you check, and check, and check. That's science in a nutshell, Hisao."
+# mu "So you check, and check, and check. That's science in a nutshell, Hisao."
+mu ""
 
-"The whole time I've listened feeling rather spellbound. Mutou seems to really be passionate about this stuff… I think. It's hard to tell, sometimes."
+# "The whole time I've listened feeling rather spellbound. Mutou seems to really be passionate about this stuff… I think. It's hard to tell, sometimes."
+""
 
-"How the world works…"
+# "How the world works…"
+""
 
-"How humans work."
+# "How humans work."
+""
 
-"How the universe works."
+# "How the universe works."
+""
 
-"All these questions to be answered."
+# "All these questions to be answered."
+""
 
-"And, depending on what I go into, maybe I could even figure out a way to fix my heart. That said, I don't think that's a real priority for me."
+# "And, depending on what I go into, maybe I could even figure out a way to fix my heart. That said, I don't think that's a real priority for me."
+""
 
-"Besides, as we start discussing the book he gave me yesterday, I find myself more and more interested in that than my heart condition."
+# "Besides, as we start discussing the book he gave me yesterday, I find myself more and more interested in that than my heart condition."
+""
 
 show muto normal
 with shorttimeskip
 
-"Before we even realize it, an hour's gone by."
+# "Before we even realize it, an hour's gone by."
+""
 
-mu "Well, let's call this meeting over for now, okay?"
+# mu "Well, let's call this meeting over for now, okay?"
+mu ""
 
-mu "We'll have another meeting… tomorrow, or uh… the day after."
+# mu "We'll have another meeting… tomorrow, or uh… the day after."
+mu ""
 
-"He considers this for a moment."
+# "He considers this for a moment."
+""
 
-mu "Call it the day after. I've got a lot of grading to do."
+# mu "Call it the day after. I've got a lot of grading to do."
+mu ""
 
-hi "Okay. See you then."
+# hi "Okay. See you then."
+hi ""
 
 scene bg school_hallway3
 with locationchange
 
 stop music fadeout 5.0
 
-"As I exit the classroom, I realize that I don't really have anything to do tonight."
+# "As I exit the classroom, I realize that I don't really have anything to do tonight."
+""
 
-"Emi and I didn't make plans, so…"
+# "Emi and I didn't make plans, so…"
+""
 
-"I guess I'll go to the library. It beats doing homework in my room, anyway."
+# "I guess I'll go to the library. It beats doing homework in my room, anyway."
+""
 
 scene black
 with locationskip_in
@@ -2674,287 +3435,373 @@ play music music_happiness fadein 2.0
 scene bg school_library
 with locationskip_out
 
-"The library always seems cooler than the rest of the building."
+# "The library always seems cooler than the rest of the building."
+""
 
-"Probably to keep the books from getting damaged by excessive heat and humidity."
+# "Probably to keep the books from getting damaged by excessive heat and humidity."
+""
 
-"Books are sturdy objects, but if you want to keep them in good condition it takes a little effort."
+# "Books are sturdy objects, but if you want to keep them in good condition it takes a little effort."
+""
 
-"I've got several books that are so well-worn the pages are barely clinging to the spine."
+# "I've got several books that are so well-worn the pages are barely clinging to the spine."
+""
 
-"It seems impossible for them to still be usable, but if you handle them with care…"
+# "It seems impossible for them to still be usable, but if you handle them with care…"
+""
 
-"I make my way to the main desk, where I spot Yuuko busying herself with something or another."
+# "I make my way to the main desk, where I spot Yuuko busying herself with something or another."
+""
 
 show yuuko neutral_up at center
 with charaenter
 
-"She smiles at me as I enter and waves."
+# "She smiles at me as I enter and waves."
+""
 
 show yuuko closedhappy_down
 with charachange
 
-yu "Hello, Hisao."
+# yu "Hello, Hisao."
+yu ""
 
 show yuuko happy_down
 with charachange
 
-yu "Good to see you again! What are you looking for this time?"
+# yu "Good to see you again! What are you looking for this time?"
+yu ""
 
-hi "Nothing in particular, I guess. I just didn't really feel like going back to my room, is all."
+# hi "Nothing in particular, I guess. I just didn't really feel like going back to my room, is all."
+hi ""
 
 show yuuko neutral_down
 with charachange
 
-"Yuuko nods."
+# "Yuuko nods."
+""
 
 show yuuko smile_up
 with charachange
 
-yu "Well, if you're unoccupied, maybe you could help me look for something?"
+# yu "Well, if you're unoccupied, maybe you could help me look for something?"
+yu ""
 
-hi "Sure, what do you need?"
+# hi "Sure, what do you need?"
+hi ""
 
 stop music fadeout 5.0
 
 show yuuko worried_up
 with charachange
 
-"Yuuko brings a finger to her lips and looks around furtively."
+# "Yuuko brings a finger to her lips and looks around furtively."
+""
 
-"She seems to be looking for eavesdroppers."
+# "She seems to be looking for eavesdroppers."
+""
 
-yu "Come closer."
+# yu "Come closer."
+yu ""
 
 show yuuko worried_up_close
 with characlose
 
-"I take a few hesitant steps forward while feeling distinctly unnerved."
+# "I take a few hesitant steps forward while feeling distinctly unnerved."
+""
 
-"Yuuko lowers her voice to a confidential whisper."
+# "Yuuko lowers her voice to a confidential whisper."
+""
 
 show yuuko neutral_up_close
 with charachange
 
-yu "I'm on the trail of the Yamaku Cat Burglar."
+# yu "I'm on the trail of the Yamaku Cat Burglar."
+yu ""
 
 play music music_tension fadein 0.5
 
-hi "The what?"
+# hi "The what?"
+hi ""
 
 show yuuko panic_up_close
 with charachange
 
-yu "Shh! The walls have ears, Hisao!"
+# yu "Shh! The walls have ears, Hisao!"
+yu ""
 
-yu "Or they might."
+# yu "Or they might."
+yu ""
 
 show yuuko worried_down_close
 with charachange
 
-yu "But listen! Those missing books, remember them?"
+# yu "But listen! Those missing books, remember them?"
+yu ""
 
-hi "Er, yeah?"
+# hi "Er, yeah?"
+hi ""
 
 show yuuko worried_up_close
 with charachange
 
-yu "Well, they weren't missing! They were stolen!"
+# yu "Well, they weren't missing! They were stolen!"
+yu ""
 
-yu "I'm convinced of it!"
+# yu "I'm convinced of it!"
+yu ""
 
-hi "I remember you saying something of the sort earlier, but how do you know?"
+# hi "I remember you saying something of the sort earlier, but how do you know?"
+hi ""
 
-"Yuuko leans in closer and, if possible, whispers even lower."
+# "Yuuko leans in closer and, if possible, whispers even lower."
+""
 
 show yuuko closedhappy_down_close
 with charachange
 
-yu "Because I found one of his hiding places!"
+# yu "Because I found one of his hiding places!"
+yu ""
 
-hi "You did what?"
+# hi "You did what?"
+hi ""
 
-"Yuuko looks triumphant."
+# "Yuuko looks triumphant."
+""
 
 show yuuko happy_up_close
 with charachange
 
-yu "Found one of his stashes! It was under one of the stairwells in the boy's dorm!"
+# yu "Found one of his stashes! It was under one of the stairwells in the boy's dorm!"
+yu ""
 
-yu "Three books I'd been looking for, all there!"
+# yu "Three books I'd been looking for, all there!"
+yu ""
 
 show yuuko closedhappy_up_close
 with charachange
 
-yu "I'd suspected a thief before, but this proves it!"
+# yu "I'd suspected a thief before, but this proves it!"
+yu ""
 
-hi "So did you take back the books?"
+# hi "So did you take back the books?"
+hi ""
 
 show yuuko panic_up_close
 with charachange
 
-"Yuuko looks as if I've just suggested she walk around naked."
+# "Yuuko looks as if I've just suggested she walk around naked."
+""
 
-yu "Are you nuts?"
+# yu "Are you nuts?"
+yu ""
 
 show yuuko worried_down_close
 with charachange
 
-yu "He can't know I'm on to him! He might go to ground and evade capture!"
+# yu "He can't know I'm on to him! He might go to ground and evade capture!"
+yu ""
 
-hi "Uh… huh. So what do you need my help with, then?"
+# hi "Uh… huh. So what do you need my help with, then?"
+hi ""
 
-"Yuuko casts another glance around the library and leans in closer."
+# "Yuuko casts another glance around the library and leans in closer."
+""
 
 show yuuko neutral_down_close
 with charachange
 
-yu "You've got to spy for me."
+# yu "You've got to spy for me."
+yu ""
 
-hi "Spy?"
+# hi "Spy?"
+hi ""
 
-yu "Yeah, like when you're in the dorms, you know."
+# yu "Yeah, like when you're in the dorms, you know."
+yu ""
 
 show yuuko closedhappy_down_close
 with charachange
 
-yu "Keep an eye out for suspicious activity."
+# yu "Keep an eye out for suspicious activity."
+yu ""
 
-"What constitutes suspicious, anyway?"
+# "What constitutes suspicious, anyway?"
+""
 
-"I mean Kenji's a pretty suspicious dude, but I'll wager he barely goes to class, much less sneaks into the library to pilfer books."
+# "I mean Kenji's a pretty suspicious dude, but I'll wager he barely goes to class, much less sneaks into the library to pilfer books."
+""
 
-"Still, what's the harm in saying yes? At the least it'll get me out of this weird conversation."
+# "Still, what's the harm in saying yes? At the least it'll get me out of this weird conversation."
+""
 
-hi "Yeah, I can do that. No problem."
+# hi "Yeah, I can do that. No problem."
+hi ""
 
 show yuuko closedhappy_down
 with charadistant
 
-"Yuuko straightens up and claps excitedly."
+# "Yuuko straightens up and claps excitedly."
+""
 
-yu "Great!"
+# yu "Great!"
+yu ""
 
 show yuuko worried_down
 with charachange
 
-yu "Now, hurry up and talk about something else in case someone comes in!"
+# yu "Now, hurry up and talk about something else in case someone comes in!"
+yu ""
 
 stop music fadeout 2.0
 
 show yuuko happy_down
 with charachange
 
-yu "How's the school treating you?"
+# yu "How's the school treating you?"
+yu ""
 
-hi "Er, pretty well, actually."
+# hi "Er, pretty well, actually."
+hi ""
 
-hi "I've been running in the mornings with—"
+# hi "I've been running in the mornings with—"
+hi ""
 
 show yuuko closedhappy_up
 with charachange
 
-yu "Emi Ibarazaki, right?"
+# yu "Emi Ibarazaki, right?"
+yu ""
 
 play music music_comedy fadein 2.0
 
-hi "Uh, yeah."
+# hi "Uh, yeah."
+hi ""
 
-hi "How'd you know?"
+# hi "How'd you know?"
+hi ""
 
 show yuuko smile_down
 with charachange
 
-yu "I served you two in the teahouse, remember?"
+# yu "I served you two in the teahouse, remember?"
+yu ""
 
 show yuuko closedhappy_down
 with charachange
 
-yu "I deduced that if you were going to run with anyone, it would probably be her."
+# yu "I deduced that if you were going to run with anyone, it would probably be her."
+yu ""
 
-"She looks pleased with herself."
+# "She looks pleased with herself."
+""
 
-hi "Impressive."
+# hi "Impressive."
+hi ""
 
-hi "Anyway, yes. We've been running in the mornings."
+# hi "Anyway, yes. We've been running in the mornings."
+hi ""
 
-hi "And uh, we kinda started dating."
+# hi "And uh, we kinda started dating."
+hi ""
 
 show yuuko closedhappy_up
 with charachange
 
-"Yuuko claps her hands together excitedly."
+# "Yuuko claps her hands together excitedly."
+""
 
-yu "Really? That's great!"
+# yu "Really? That's great!"
+yu ""
 
-yu "I'll bet you two are great together!"
+# yu "I'll bet you two are great together!"
+yu ""
 
 show yuuko neutral_down
 with charachange
 
-yu "I love seeing people find one another like that, you know?"
+# yu "I love seeing people find one another like that, you know?"
+yu ""
 
-yu "I even thought to myself when you walked into the Shanghai that one time, “I wonder if that kid will wind up with one of those girls.”"
+# yu "I even thought to myself when you walked into the Shanghai that one time, “I wonder if that kid will wind up with one of those girls.”"
+yu ""
 
-hi "…Really?"
+# hi "…Really?"
+hi ""
 
-"Yuuko doesn't seem to notice my somewhat weirded out tone and nods affirmatively."
+# "Yuuko doesn't seem to notice my somewhat weirded out tone and nods affirmatively."
+""
 
 show yuuko closedhappy_down
 with charachange
 
-yu "Yup! I could tell that you'd wind up with one of them, you know."
+# yu "Yup! I could tell that you'd wind up with one of them, you know."
+yu ""
 
 show yuuko neutral_down
 with charachange
 
-yu "I've got an eye for that sort of thing."
+# yu "I've got an eye for that sort of thing."
+yu ""
 
 show yuuko worried_down
 with charachange
 
-yu "Of course…"
+# yu "Of course…"
+yu ""
 
-"Her expression droops slightly."
+# "Her expression droops slightly."
+""
 
-yu "I'm not so good at it myself."
+# yu "I'm not so good at it myself."
+yu ""
 
-hi "Aw, I'm sure that's not true."
+# hi "Aw, I'm sure that's not true."
+hi ""
 
 show yuuko neutral_down
 with charachange
 
-yu "Oh, it's true."
+# yu "Oh, it's true."
+yu ""
 
-yu "I met this guy once…"
+# yu "I met this guy once…"
+yu ""
 
 show yuuko smile_down
 with charachange
 
-yu "We got along really great, but it turned out he was younger than me."
+# yu "We got along really great, but it turned out he was younger than me."
+yu ""
 
 show yuuko neutral_up
 with charachange
 
-yu "And that was kinda weird, but not terribly so."
+# yu "And that was kinda weird, but not terribly so."
+yu ""
 
-yu "What was really weird was that he disappeared one day, and I've not seen him since then."
+# yu "What was really weird was that he disappeared one day, and I've not seen him since then."
+yu ""
 
-hi "Huh. That does seem kind of odd."
+# hi "Huh. That does seem kind of odd."
+hi ""
 
 show yuuko worried_up
 with charachange
 
-yu "Doesn't it?"
+# yu "Doesn't it?"
+yu ""
 
 show yuuko neurotic_down
 with charachange
 
-yu "I hope it wasn't something I did…"
+# yu "I hope it wasn't something I did…"
+yu ""
 
-"I feel compelled to reassure her."
+# "I feel compelled to reassure her."
+""
 
-hi "I'm sure it wasn't."
+# hi "I'm sure it wasn't."
+hi ""
 
 stop music fadeout 4.0
 
@@ -2963,12 +3810,14 @@ play sound sfx_phone
 show yuuko panic_up
 with vpunch
 
-"I intend to try and calm her down further, but the both of us jump in surprise at the ringing suddenly coming from my pocket."
+# "I intend to try and calm her down further, but the both of us jump in surprise at the ringing suddenly coming from my pocket."
+""
 
 show yuuko worried_down
 with charachange
 
-"Yuuko sighs to steady herself as I pull the phone from my pocket. I feel a little sheepish for indirectly causing the incident."
+# "Yuuko sighs to steady herself as I pull the phone from my pocket. I feel a little sheepish for indirectly causing the incident."
+""
 
 scene bg school_library_yuuko_blurred
 show phone mobile:
@@ -2977,40 +3826,56 @@ show phone mobile:
 with locationchange
 with Pause (0.5)
 
-hi "Emi? What's up?"
+# hi "Emi? What's up?"
+hi ""
 
-emi "Oh thank God I haven't called your phone before so I didn't know if this number would work or whether you would pick up and I can't—"
+# emi "Oh thank God I haven't called your phone before so I didn't know if this number would work or whether you would pick up and I can't—"
+emi ""
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 play music music_pearly fadein 2.0
 
-hi "Woah there Emi, slow down."
+# hi "Woah there Emi, slow down."
+hi ""
 
-hi "What's wrong?"
+# hi "What's wrong?"
+hi ""
 
-"There's a pause on the other side of the line, during which I can hear Emi trying to control her breathing in order to calm down."
+# "There's a pause on the other side of the line, during which I can hear Emi trying to control her breathing in order to calm down."
+""
 
-"Something's got her terribly agitated, and it's starting to agitate me."
+# "Something's got her terribly agitated, and it's starting to agitate me."
+""
 
-emi "Can you just…"
+# emi "Can you just…"
+emi ""
 
-emi "Can you stop by?"
+# emi "Can you stop by?"
+emi ""
 
-emi "Like, now? Or shortly after now?"
+# emi "Like, now? Or shortly after now?"
+emi ""
 
-emi "I really, really need to talk to you."
+# emi "I really, really need to talk to you."
+emi ""
 
-"There's a tone of pleading in the last sentence that I don't think I've ever heard from her."
+# "There's a tone of pleading in the last sentence that I don't think I've ever heard from her."
+""
 
-hi "Of course, I'll be right there."
+# hi "Of course, I'll be right there."
+hi ""
 
-hi "Hold steady, okay?"
+# hi "Hold steady, okay?"
+hi ""
 
-"In my increasingly agitated state I've apparently started saying things that don't quite make sense."
+# "In my increasingly agitated state I've apparently started saying things that don't quite make sense."
+""
 
-emi "Okay. I'll be okay."
+# emi "Okay. I'll be okay."
+emi ""
 
-hi "See you soon."
+# hi "See you soon."
+hi ""
 
 show phone mobile:
     alpha 1.0 xalign 0.5 yanchor 0.5 ypos 0.5 subpixel True
@@ -3030,187 +3895,245 @@ with None
 
 with charaexit
 
-"I press the button to end the call before slipping the phone back into my pocket, apologize to Yuuko for running off, and run off."
+# "I press the button to end the call before slipping the phone back into my pocket, apologize to Yuuko for running off, and run off."
+""
 
 scene bg school_girlsdormhall
 with locationskip
 
-"Perhaps at some point I would have stopped to think about the time, or how suspicious it looks for a guy to enter the girls' dorm at this hour."
+# "Perhaps at some point I would have stopped to think about the time, or how suspicious it looks for a guy to enter the girls' dorm at this hour."
+""
 
-"Except right now I'm just concerned with getting to Emi and finding out what's wrong and how I can help her."
+# "Except right now I'm just concerned with getting to Emi and finding out what's wrong and how I can help her."
+""
 
 play sound sfx_doorknock2
 
-"I knock on the door and am greeted with a subdued “Come in.”"
+# "I knock on the door and am greeted with a subdued “Come in.”"
+""
 
 scene bg school_dormemi at left
 with locationchange
 
-"Something is very wrong as I stare at the scene before me."
+# "Something is very wrong as I stare at the scene before me."
+""
 
-"Emi's there, yes."
+# "Emi's there, yes."
+""
 
-"But she's in a wheelchair."
+# "But she's in a wheelchair."
+""
 
-"And her legs are missing. I glance around the room and see them sitting in a corner, looking like they've been thrown there."
+# "And her legs are missing. I glance around the room and see them sitting in a corner, looking like they've been thrown there."
+""
 
 show emiwheel weaksmile at center
 with charaenter
 
-"Emi responds to my entrance with a lopsided grin that is both pleased to see me and completely, utterly heartbroken."
+# "Emi responds to my entrance with a lopsided grin that is both pleased to see me and completely, utterly heartbroken."
+""
 
-emi "Hi, Hisao."
+# emi "Hi, Hisao."
+emi ""
 
-"It looks like she's been crying, but if she was, she's stopped now."
+# "It looks like she's been crying, but if she was, she's stopped now."
+""
 
-"I notice that I'm a little out of breath, having taken the stairs two at a time in order to get here."
+# "I notice that I'm a little out of breath, having taken the stairs two at a time in order to get here."
+""
 
-"My heart doesn't seem to mind the strain, though. I file this happy fact away for later consideration."
+# "My heart doesn't seem to mind the strain, though. I file this happy fact away for later consideration."
+""
 
-"Like when I am not staring somewhat dumbstruck at my girlfriend in a wheelchair."
+# "Like when I am not staring somewhat dumbstruck at my girlfriend in a wheelchair."
+""
 
-"Realizing I've still not responded to her greeting, my brain lurches into gear."
+# "Realizing I've still not responded to her greeting, my brain lurches into gear."
+""
 
-hi "Emi? What happened?"
+# hi "Emi? What happened?"
+hi ""
 
 show emiwheel pout
 with charachange
 
-emi "Guess I should've listened to you, Hisao."
+# emi "Guess I should've listened to you, Hisao."
+emi ""
 
 show emiwheel sad
 with charachange
 
-emi "My leg's got a nasty infection. I'm not allowed to run on it for at least a couple of weeks."
+# emi "My leg's got a nasty infection. I'm not allowed to run on it for at least a couple of weeks."
+emi ""
 
-"She gives a bitter laugh that shouldn't be coming from her."
+# "She gives a bitter laugh that shouldn't be coming from her."
+""
 
 show emiwheel frown
 with charachange
 
-emi "Heh, I can't even walk on it."
+# emi "Heh, I can't even walk on it."
+emi ""
 
-emi "I could have used a crutch and kept one of my legs, but I didn't see the point."
+# emi "I could have used a crutch and kept one of my legs, but I didn't see the point."
+emi ""
 
 show emiwheel awayfrown
 with charachange
 
-emi "Why hop? You can't run on one leg."
+# emi "Why hop? You can't run on one leg."
+emi ""
 
 show emiwheel pout
 with charachange
 
-emi "At least this way I can still, I dunno, roll fast or something."
+# emi "At least this way I can still, I dunno, roll fast or something."
+emi ""
 
-hi "Y-yeah, that's good, right?"
+# hi "Y-yeah, that's good, right?"
+hi ""
 
-"My awkward attempt to look on the bright side seems appreciated, but not really effective."
+# "My awkward attempt to look on the bright side seems appreciated, but not really effective."
+""
 
-"Emi shrugs again."
+# "Emi shrugs again."
+""
 
 show emiwheel awayfrown
 with charachange
 
-emi "It's just… kind of a nuisance."
+# emi "It's just… kind of a nuisance."
+emi ""
 
 show emiwheel frown
 with charachange
 
-emi "I mean, we can't even eat up on the roof now. No wheelchair access."
+# emi "I mean, we can't even eat up on the roof now. No wheelchair access."
+emi ""
 
-hi "Yeah, but that's not a big deal, right?"
+# hi "Yeah, but that's not a big deal, right?"
+hi ""
 
-hi "I mean we can still eat together, and that's the important thing."
+# hi "I mean we can still eat together, and that's the important thing."
+hi ""
 
 show emiwheel weaksmile
 with charachange
 
-"That lopsided grin again. It hurts to look at."
+# "That lopsided grin again. It hurts to look at."
+""
 
-emi "I suppose so, yeah."
+# emi "I suppose so, yeah."
+emi ""
 
 show emiwheel frown
 with charachange
 
-emi "But like I said, it's a nuisance."
+# emi "But like I said, it's a nuisance."
+emi ""
 
 show emiwheel awayfrown
 with charachange
 
-emi "I mean, I haven't really used a wheelchair in…"
+# emi "I mean, I haven't really used a wheelchair in…"
+emi ""
 
 stop music fadeout 10.0
 
-"She thinks for a minute."
+# "She thinks for a minute."
+""
 
 show emiwheel pout
 with charachange
 
-emi "Maybe seven years? Something like that, anyway."
+# emi "Maybe seven years? Something like that, anyway."
+emi ""
 
-emi "A long time."
+# emi "A long time."
+emi ""
 
 show emiwheel weaksmile
 with charachange
 
-emi "I'm afraid I'm a bit out of practice."
+# emi "I'm afraid I'm a bit out of practice."
+emi ""
 
-hi "Well, fortunately it's only temporary, right?"
+# hi "Well, fortunately it's only temporary, right?"
+hi ""
 
-"Emi nods."
+# "Emi nods."
+""
 
 show emiwheel neutral
 with charachange
 
-emi "Oh yeah, of course."
+# emi "Oh yeah, of course."
+emi ""
 
-emi "It's not like I've lost 'em permanently."
+# emi "It's not like I've lost 'em permanently."
+emi ""
 
 show emiwheel awayfrown
 with charachange
 
-emi "But it's a pain in the ass all the same."
+# emi "But it's a pain in the ass all the same."
+emi ""
 
-"I nod sympathetically."
+# "I nod sympathetically."
+""
 
-"There's not much else I can do, after all."
+# "There's not much else I can do, after all."
+""
 
-"What am I gonna do, say “I told you so?”"
+# "What am I gonna do, say “I told you so?”"
+""
 
-"Although I {b}did{/b} tell her to get that leg looked at."
+# "Although I {b}did{/b} tell her to get that leg looked at."
+""
 
-"But by the time I noticed, it was too late anyway."
+# "But by the time I noticed, it was too late anyway."
+""
 
-hi "Do you need help with anything?"
+# hi "Do you need help with anything?"
+hi ""
 
-hi "Er, that is, can I help with anything?"
+# hi "Er, that is, can I help with anything?"
+hi ""
 
 show emiwheel closedsmile
 with charachange
 
-"Emi shakes her head and there's a bit of her usual grin back."
+# "Emi shakes her head and there's a bit of her usual grin back."
+""
 
-emi "Nah, I can manage fine by myself."
+# emi "Nah, I can manage fine by myself."
+emi ""
 
 show emiwheel grin
 with charachange
 
-emi "Although if you want to help me over to my bed, it would save me the trouble of rolling over there myself."
+# emi "Although if you want to help me over to my bed, it would save me the trouble of rolling over there myself."
+emi ""
 
-"I blush, in spite of myself."
+# "I blush, in spite of myself."
+""
 
-"Emi giggles."
+# "Emi giggles."
+""
 
 play music music_heart fadein 0.5
 
 show emiwheel wink
 with charachange
 
-emi "You're such a prude, Hisao."
+# emi "You're such a prude, Hisao."
+emi ""
 
-hi "I'm not a prude! I just wouldn't want to take advantage of a young woman such as yourself."
+# hi "I'm not a prude! I just wouldn't want to take advantage of a young woman such as yourself."
+hi ""
 
-hi "It's ungentlemanly."
+# hi "It's ungentlemanly."
+hi ""
 
 hide emiwheel
 with charaexit
@@ -3218,7 +4141,8 @@ with charaexit
 show bg school_dormemi at right
 with charamove
 
-"I wheel Emi's chair to her bed, and easily scoop her up and deposit her there. She quickly sorts herself out and sits on the side."
+# "I wheel Emi's chair to her bed, and easily scoop her up and deposit her there. She quickly sorts herself out and sits on the side."
+""
 
 show emi basic_grin:
     center
@@ -3226,9 +4150,11 @@ show emi basic_grin:
     easein 0.5 ypos 1.1
 with charaenter
 
-"She's actually a little heavier than she looks. It would be rude of me to observe this aloud, of course."
+# "She's actually a little heavier than she looks. It would be rude of me to observe this aloud, of course."
+""
 
-hi "Man, you're kind of heavy."
+# hi "Man, you're kind of heavy."
+hi ""
 
 play sound sfx_pillow
 show comic vfx2
@@ -3244,102 +4170,135 @@ show comic vfx2:
     easeout 0.5 yanchor 0.3 alpha 0.0
 with Pause(0.5)
 
-"Emi hits me with a pillow."
+# "Emi hits me with a pillow."
+""
 
 show emi basic_closedgrin
 with charachange
 
-emi "Ass."
+# emi "Ass."
+emi ""
 
-hi "Just sayin', is all."
+# hi "Just sayin', is all."
+hi ""
 
-hi "Must be all that running."
+# hi "Must be all that running."
+hi ""
 
 show emi sad_shy
 with charachange
 
-"At the mention of running Emi's grin falters slightly."
+# "At the mention of running Emi's grin falters slightly."
+""
 
 show emi sad_pout
 with charachange
 
-emi "Heh, well I guess I won't have to worry about that for a bit, huh?"
+# emi "Heh, well I guess I won't have to worry about that for a bit, huh?"
+emi ""
 
 show emi sad_grin
 with charachange
 
-emi "Maybe I'll lose some weight."
+# emi "Maybe I'll lose some weight."
+emi ""
 
-hi "That's what you do to lose weight, right? Cease physical activity?"
+# hi "That's what you do to lose weight, right? Cease physical activity?"
+hi ""
 #Not really, but this is just Hisao grasping at straws. Leave this in. -SC + HM
 
 show emi basic_closedgrin
 with charachange
 
-emi "I'm pretty sure that's what the nurse would recommend."
+# emi "I'm pretty sure that's what the nurse would recommend."
+emi ""
 
-hi "Speaking of which, are you going to still be showing up in the mornings?"
+# hi "Speaking of which, are you going to still be showing up in the mornings?"
+hi ""
 
-hi "I'd hate to run alo—"
+# hi "I'd hate to run alo—"
+hi ""
 
 show emi sad_depressed
 with charachange
 
-emi "Ah, shit…"
+# emi "Ah, shit…"
+emi ""
 
-"Emi's sudden interjection, more a disquieted muttering than anything too profane, causes me to look over in shock."
+# "Emi's sudden interjection, more a disquieted muttering than anything too profane, causes me to look over in shock."
+""
 
-"She's leaning forward, trying to cover the fact that she's crying by covering her eyes with a hand."
+# "She's leaning forward, trying to cover the fact that she's crying by covering her eyes with a hand."
+""
 
-"Of course, the subdued sobbing makes it pretty obvious that she's crying."
+# "Of course, the subdued sobbing makes it pretty obvious that she's crying."
+""
 
-hi "Hey, I'm sorry."
+# hi "Hey, I'm sorry."
+hi ""
 
-hi "Forget I said anything, okay?"
+# hi "Forget I said anything, okay?"
+hi ""
 
 show emi sad_depressed_close at center
 with characlose
 
-"I place a hand gingerly around her and pull her close."
+# "I place a hand gingerly around her and pull her close."
+""
 
-"I can think of nothing else to say or do. How do you comfort someone who's just lost their legs again?"
+# "I can think of nothing else to say or do. How do you comfort someone who's just lost their legs again?"
+""
 
 show emi sad_pout_close
 with charachange
 
-"Emi wraps me in a hug and stays that way for a while."
+# "Emi wraps me in a hug and stays that way for a while."
+""
 
-hi "Sorry."
+# hi "Sorry."
+hi ""
 
-hi "I'm pretty bad at this whole comforting thing, I guess."
+# hi "I'm pretty bad at this whole comforting thing, I guess."
+hi ""
 
-emi "Don't say that."
+# emi "Don't say that."
+emi ""
 
-emi "I'm fine, really."
+# emi "I'm fine, really."
+emi ""
 
-"Her voice is slightly muffled by my chest. I pat her head reassuringly."
+# "Her voice is slightly muffled by my chest. I pat her head reassuringly."
+""
 
-hi "That's the spirit, right?"
+# hi "That's the spirit, right?"
+hi ""
 
-hi "You'll get through this fine, I know it."
+# hi "You'll get through this fine, I know it."
+hi ""
 
-hi "Besides, I'm here to help you, remember?"
+# hi "Besides, I'm here to help you, remember?"
+hi ""
 
 show emi sad_shy_close
 with charachange
 
-"Emi lifts her head and stares at me with tear-stained eyes."
+# "Emi lifts her head and stares at me with tear-stained eyes."
+""
 
 show emi sad_grin_close
 with charachange
 
-emi "Can you? Can you really?"
+# emi "Can you? Can you really?"
+emi ""
 
-"She's grinning lopsidedly, and something sparkles in her gaze."
+# "She's grinning lopsidedly, and something sparkles in her gaze."
+""
 
-"I can't tell if I'm being mocked or not."
+# "I can't tell if I'm being mocked or not."
+""
 
-hi "Of course. I mean sure, you're a bit heavy, but -{w=0.5}{nw}"
+# hi "Of course. I mean sure, you're a bit heavy, but -{w=0.5}{nw}"
+hi ""
 
 play sound sfx_impact
 
@@ -3348,100 +4307,129 @@ with vpunch
 
 extend " mmph!"
 
-"My witty comment is cut off by the sudden press of Emi's lips on mine. I'm caught off guard, and am rewarded by hitting my head on the wall behind her bed."
+# "My witty comment is cut off by the sudden press of Emi's lips on mine. I'm caught off guard, and am rewarded by hitting my head on the wall behind her bed."
+""
 
-hi "Ow."
+# hi "Ow."
+hi ""
 
 show emi basic_hes
 with charadistant
 
-"Emi pulls back, trying to look concerned rather than like she's about to laugh."
+# "Emi pulls back, trying to look concerned rather than like she's about to laugh."
+""
 
-emi "Are you okay?"
+# emi "Are you okay?"
+emi ""
 
 show emi excited_proud
 with charachange
 
-emi "Sorry!"
+# emi "Sorry!"
+emi ""
 
-"I rub my head ruefully and grin back at her."
+# "I rub my head ruefully and grin back at her."
+""
 
-hi "Caught me off guard, there."
+# hi "Caught me off guard, there."
+hi ""
 
-hi "Is that going to become a habit? Am I going to be lectured by Shizune and Misha more?"
+# hi "Is that going to become a habit? Am I going to be lectured by Shizune and Misha more?"
+hi ""
 
-"At the mention of the duo, Emi giggles."
+# "At the mention of the duo, Emi giggles."
+""
 
 show emi basic_closedgrin
 with charachange
 
-emi "Honestly, those two…"
+# emi "Honestly, those two…"
+emi ""
 
 show emi basic_grin
 with charachange
 
-emi "If I didn't know why, I'd be utterly confused as to why she hangs around with someone so bossy."
+# emi "If I didn't know why, I'd be utterly confused as to why she hangs around with someone so bossy."
+emi ""
 
-hi "Which one are we talking about?"
+# hi "Which one are we talking about?"
+hi ""
 
 show emi basic_closedhappy
 with charachange
 
-emi "You know exactly which one, Hisao. Misha's hardly bossy."
+# emi "You know exactly which one, Hisao. Misha's hardly bossy."
+emi ""
 
-hi "So what's the reason, then?"
+# hi "So what's the reason, then?"
+hi ""
 
 show emi basic_confused
 with charachange
 
-emi "Huh?"
+# emi "Huh?"
+emi ""
 
-hi "The reason why Misha hangs around Shizune."
+# hi "The reason why Misha hangs around Shizune."
+hi ""
 
 show emi basic_closedgrin
 with charachange
 
-"Emi waves my question off with a smile."
+# "Emi waves my question off with a smile."
+""
 
-emi "No idea."
+# emi "No idea."
+emi ""
 
-hi "I see."
+# hi "I see."
+hi ""
 
 show emi basic_grin
 with charachange
 
-emi "Anyway, you seem to be forgetting the original question, don't you?"
+# emi "Anyway, you seem to be forgetting the original question, don't you?"
+emi ""
 
-hi "Oh yeah, I guess I am."
+# hi "Oh yeah, I guess I am."
+hi ""
 
-hi "You wouldn't mind giving a guy a little warning, would you?"
+# hi "You wouldn't mind giving a guy a little warning, would you?"
+hi ""
 
-hi "Otherwise I'm liable to wind up with a concussion."
+# hi "Otherwise I'm liable to wind up with a concussion."
+hi ""
 
-"I emphasize the point by rubbing at the back of my head."
+# "I emphasize the point by rubbing at the back of my head."
+""
 
 show emi excited_amused
 with charachange
 
-"Emi giggles madly."
+# "Emi giggles madly."
+""
 
-emi "You could wear a helmet."
+# emi "You could wear a helmet."
+emi ""
 
 show emi excited_proud
 with charachange
 
-emi "Some kids here do, you know."
+# emi "Some kids here do, you know."
+emi ""
 
 stop music fadeout 1.0
 
-hi "Or I could just take revenge!"
+# hi "Or I could just take revenge!"
+hi ""
 
 play sound sfx_pillow
 
 show emi excited_circle
 with vpunch
 
-"I grab a pillow from beside me and whack Emi over the head."
+# "I grab a pillow from beside me and whack Emi over the head."
+""
 
 show expression im.Composite((295,1200), (0,0), "sprites/emi/emi_excited_circle.png") as emi:
    xalign 0.5 yanchor 0.5 ypos 1.0 subpixel True
@@ -3460,7 +4448,8 @@ play sound sfx_impact
 hide emi
 with vpunch
 
-"Emi topples off the bed and lands on the floor with a thump."
+# "Emi topples off the bed and lands on the floor with a thump."
+""
 
 show emi sad_pout:
    center
@@ -3468,22 +4457,29 @@ show emi sad_pout:
    ease 1.0 ypos 1.0
 with Dissolve(1.0)
 
-"Her arms promptly reappear on the bed, and she manages to pull herself back up."
+# "Her arms promptly reappear on the bed, and she manages to pull herself back up."
+""
 
-"She really has a surprising amount of strength in that little body."
+# "She really has a surprising amount of strength in that little body."
+""
 
-"Her face is turned downwards and away from mine, making me think I might have accidentally hurt her."
+# "Her face is turned downwards and away from mine, making me think I might have accidentally hurt her."
+""
 
-hi "Emi? You okay?"
+# hi "Emi? You okay?"
+hi ""
 
-hi "You didn't hit your—{w=0.3}{nw}"
+# hi "You didn't hit your—{w=0.3}{nw}"
+hi ""
 
 show emi excited_smile_close
 with vpunch
 
-"A hand shoots up and grabs my collar. She pulls me in with a sharp tug, her face now barely an inch away from mine as she grins cheekily."
+# "A hand shoots up and grabs my collar. She pulls me in with a sharp tug, her face now barely an inch away from mine as she grins cheekily."
+""
 
-hi "Emi…?"
+# hi "Emi…?"
+hi ""
 
 show emi excited_smile_close:
    subpixel True
@@ -3498,26 +4494,32 @@ play sound sfx_impact
 scene black
 with Dissolve(0.75)
 
-"She gives me a sharp headbutt, our foreheads making quite a loud thud."
+# "She gives me a sharp headbutt, our foreheads making quite a loud thud."
+""
 
 scene bg school_dormemi at right
 show emi basic_closedgrin at center
 with openeye
 
-"I sit back and rub my now sore head as Emi smirks victoriously."
+# "I sit back and rub my now sore head as Emi smirks victoriously."
+""
 
 show emi basic_grin
 with charachange
 
-emi "How's {b}that{/b} for revenge?"
+# emi "How's {b}that{/b} for revenge?"
+emi ""
 
 play music music_running
 
-hi "No fair!"
+# hi "No fair!"
+hi ""
 
-hi "You can't take revenge for revenge!"
+# hi "You can't take revenge for revenge!"
+hi ""
 
-"For someone missing most of her legs, Emi's surprisingly agile."
+# "For someone missing most of her legs, Emi's surprisingly agile."
+""
 
 show emi basic_grin:
     center
@@ -3530,14 +4532,17 @@ with Pause(0.5)
 hide emi
 with None
 
-"I swipe at her, but she deftly rolls out of the way and lands a hit with her pillow."
+# "I swipe at her, but she deftly rolls out of the way and lands a hit with her pillow."
+""
 
-"Of course, the odds are against her. I can stand up, for starters."
+# "Of course, the odds are against her. I can stand up, for starters."
+""
 
 scene black
 with vpunch
 
-"Oof!"
+# "Oof!"
+""
 
 window hide
 
@@ -3551,53 +4556,71 @@ with Pause(6.0)
 
 window show
 
-"Guess I can't, after all. Emi seems to have effectively tripped me up, and is now sitting primly astride me as I lay on my back. I'm not even sure how she managed it."
+# "Guess I can't, after all. Emi seems to have effectively tripped me up, and is now sitting primly astride me as I lay on my back. I'm not even sure how she managed it."
+""
 
-emi "I win!"
+# emi "I win!"
+emi ""
 
-"Her eyes twinkle mischievously. I've been thoroughly defeated, and by a girl that's a fraction of my size, at that."
+# "Her eyes twinkle mischievously. I've been thoroughly defeated, and by a girl that's a fraction of my size, at that."
+""
 
-"Then again, being defeated doesn't seem quite so bad. Emi being positioned over my waist isn't something that I, or my body, can ignore easily."
+# "Then again, being defeated doesn't seem quite so bad. Emi being positioned over my waist isn't something that I, or my body, can ignore easily."
+""
 
 scene bg school_dormemi
 with locationchange
 
-"I open my lips to speak, but Emi's head darts downwards before I can get so much as a word out. I give no resistance as she presses her mouth to mine, not that I'd want to."
+# "I open my lips to speak, but Emi's head darts downwards before I can get so much as a word out. I give no resistance as she presses her mouth to mine, not that I'd want to."
+""
 
-"This is… different, somehow."
+# "This is… different, somehow."
+""
 
-"She pulls back, nips at my lower lip, and reinitiates the embrace. Her tongue darts inside my mouth, exploring. I can feel a warmth spreading through my body as my heart begins to beat faster."
+# "She pulls back, nips at my lower lip, and reinitiates the embrace. Her tongue darts inside my mouth, exploring. I can feel a warmth spreading through my body as my heart begins to beat faster."
+""
 
-"My mind starts to go foggy, and I become vaguely aware of my hand traveling up Emi's blouse. Emi gasps as I reach a breast, then there's a giggle, and then—"
+# "My mind starts to go foggy, and I become vaguely aware of my hand traveling up Emi's blouse. Emi gasps as I reach a breast, then there's a giggle, and then—"
+""
 
 scene evh emi_grinding_victory
 with locationchange
 
-"I stare up at a grinning Emi."
+# "I stare up at a grinning Emi."
+""
 
-emi "Told you. That makes my second win, now."
+# emi "Told you. That makes my second win, now."
+emi ""
 
-hi "What? That doesn't count; you used feminine wiles."
+# hi "What? That doesn't count; you used feminine wiles."
+hi ""
 
 show evh emi_grinding_wink
 with charachange
 
-emi "“All's fair in love and war,” right?"
+# emi "“All's fair in love and war,” right?"
+emi ""
 
-emi "Ha, and you're even blushing! I didn't know you were a blusher, Hisao."
+# emi "Ha, and you're even blushing! I didn't know you were a blusher, Hisao."
+emi ""
 
-hi "You were blushing too, you know. Probably because of your prudish ways."
+# hi "You were blushing too, you know. Probably because of your prudish ways."
+hi ""
 
-"Even I've got to admit this is a stupid thing to say to a woman who is currently straddling me and has been, up until a few seconds ago, playing tonsil hockey with me."
+# "Even I've got to admit this is a stupid thing to say to a woman who is currently straddling me and has been, up until a few seconds ago, playing tonsil hockey with me."
+""
 
 show evh emi_grinding_grin
 with charachange
 
-emi "A prude, am I?"
+# emi "A prude, am I?"
+emi ""
 
-emi "Well then, let's see who blushes first, shall we?"
+# emi "Well then, let's see who blushes first, shall we?"
+emi ""
 
-"I'm not sure whether the tone of her voice terrifies or arouses me, but that question is quickly made rather moot."
+# "I'm not sure whether the tone of her voice terrifies or arouses me, but that question is quickly made rather moot."
+""
 
 label th_E20h:
 
@@ -3607,101 +4630,134 @@ with charachange
 show evh emi_grinding_half_grin
 with charachange
 
-"In a motion of practiced ease, she peels her blouse off and tosses it carelessly aside. Her bra and skirt quickly follow it onto the floor."
+# "In a motion of practiced ease, she peels her blouse off and tosses it carelessly aside. Her bra and skirt quickly follow it onto the floor."
+""
 
-emi "Ha!"
+# emi "Ha!"
+emi ""
 
-"I fight the urge to blush. It's a rather hard task."
+# "I fight the urge to blush. It's a rather hard task."
+""
 
-hi "Escalation, is it?"
+# hi "Escalation, is it?"
+hi ""
 
 show evh emi_grinding_off_yawn
 with charachange
 
-"My own shirt follows suit, albeit with some difficulty thanks to my position. Emi mock-yawns."
+# "My own shirt follows suit, albeit with some difficulty thanks to my position. Emi mock-yawns."
+""
 
-emi "You'll have to try harder than th—"
+# emi "You'll have to try harder than th—"
+emi ""
 
 show evh emi_grinding_off_closesurprise
 with charachange
 stop music fadeout 3.0
 
-emi "Ah…!"
+# emi "Ah…!"
+emi ""
 
-"My hands gently caress Emi's bare skin, causing her to shiver. It would seem that my hands are acting on their own, again. If our position had let me, I'd probably have finished her undressing for her."
+# "My hands gently caress Emi's bare skin, causing her to shiver. It would seem that my hands are acting on their own, again. If our position had let me, I'd probably have finished her undressing for her."
+""
 
-"I start to say something about how Emi's starting to blush, but both of us are very rapidly reaching the edge of something very barely holding us back. Conversation grinds to a halt, and I feel my arms losing energy."
+# "I start to say something about how Emi's starting to blush, but both of us are very rapidly reaching the edge of something very barely holding us back. Conversation grinds to a halt, and I feel my arms losing energy."
+""
 
 play music music_one fadein 0.5
 
-"Neither of us, however, is prepared for this sudden new sensation."
+# "Neither of us, however, is prepared for this sudden new sensation."
+""
 
 show evh emi_grinding_off_closearoused
 with charachange
 
-"An indescribable heat surges through me, coming from both myself and, it seems, Emi as well."
+# "An indescribable heat surges through me, coming from both myself and, it seems, Emi as well."
+""
 
-"With one hand on my chest to steady herself, and another holding mine to make sure that I can't have my way with her body again, she looks quite pleased with herself."
+# "With one hand on my chest to steady herself, and another holding mine to make sure that I can't have my way with her body again, she looks quite pleased with herself."
+""
 
 show evh emi_grinding_off_aroused
 with charachange
 
-"And then, after a moment's hesitation, she moves."
+# "And then, after a moment's hesitation, she moves."
+""
 
-"And she moves again."
+# "And she moves again."
+""
 
-"And again."
+# "And again."
+""
 
-"As she moves, Emi's breath hitches. My breathing is starting to come faster, and more raggedly as well."
+# "As she moves, Emi's breath hitches. My breathing is starting to come faster, and more raggedly as well."
+""
 
-"Emi's body shivers and shudders against mine, and I can feel her starting to lose her balance. It must be harder for her to keep steady because she's missing her legs."
+# "Emi's body shivers and shudders against mine, and I can feel her starting to lose her balance. It must be harder for her to keep steady because she's missing her legs."
+""
 
 show evh emi_grinding_off_closesurprise
 with charachange
 
-"I steady her as best as I can, cupping my hands around her backside. It's firm and taut."
+# "I steady her as best as I can, cupping my hands around her backside. It's firm and taut."
+""
 
-"Makes sense, considering how much she runs. The potential power in those muscles makes them flex as she responds to my touch."
+# "Makes sense, considering how much she runs. The potential power in those muscles makes them flex as she responds to my touch."
+""
 
-"What I fail to take into account is the fact that my attempt to steady Emi kind of slides her forward and, well… It feels amazing."
+# "What I fail to take into account is the fact that my attempt to steady Emi kind of slides her forward and, well… It feels amazing."
+""
 
 show evh emi_grinding_off_arousedclosed
 with charachange
 
-"Her panties slide easily against my trousers, and it doesn't take us long to figure out a rhythm."
+# "Her panties slide easily against my trousers, and it doesn't take us long to figure out a rhythm."
+""
 
-"But Emi refuses to keep to it, going now fast, now slow, now pausing for what feels like an eternity. I'm not sure whether she's doing this to toy with me, or if it's to make her feel better, but I'm well past caring."
+# "But Emi refuses to keep to it, going now fast, now slow, now pausing for what feels like an eternity. I'm not sure whether she's doing this to toy with me, or if it's to make her feel better, but I'm well past caring."
+""
 
-"The heat between us is growing more intense, and I can't hold back a gasp. The noise only seems to drive Emi along."
+# "The heat between us is growing more intense, and I can't hold back a gasp. The noise only seems to drive Emi along."
+""
 
-"I begin to punctuate her movements with some of my own, which causes her modest breasts to bounce in time with my movements. Her breath begins to come faster as we continue, my own breathing becoming equally quick."
+# "I begin to punctuate her movements with some of my own, which causes her modest breasts to bounce in time with my movements. Her breath begins to come faster as we continue, my own breathing becoming equally quick."
+""
 
-"With her eyes closed, her lips purse expectantly. I just manage to lift myself up for a few moments. Our mouths seeking one another, her chest sliding against mine as our sweat mingles."
+# "With her eyes closed, her lips purse expectantly. I just manage to lift myself up for a few moments. Our mouths seeking one another, her chest sliding against mine as our sweat mingles."
+""
 
-"As I flop back down, my trousers are soaked with sweat. I would take them off if it didn't mean stopping what we're doing."
+# "As I flop back down, my trousers are soaked with sweat. I would take them off if it didn't mean stopping what we're doing."
+""
 
-"And I don't want to stop what we're doing, stop this growing pressure, this tickling in the back of my brain."
+# "And I don't want to stop what we're doing, stop this growing pressure, this tickling in the back of my brain."
+""
 
-"Emi is sliding faster and faster, panting heavily, her voice seemingly unable to convey what she's feeling. Her body, on the other hand, is doing a fine job."
+# "Emi is sliding faster and faster, panting heavily, her voice seemingly unable to convey what she's feeling. Her body, on the other hand, is doing a fine job."
+""
 
 show evh emi_grinding_off_come
 with charachange
 
-"Suddenly she moves a little more erratically as my own breath hitches in my throat, ending in a final desperate thrust that sends me over the edge into a surging feeling I didn't know existed."
+# "Suddenly she moves a little more erratically as my own breath hitches in my throat, ending in a final desperate thrust that sends me over the edge into a surging feeling I didn't know existed."
+""
 
 scene white
 with Dissolve(3.0)
 
-"My mind blanks, fills with white noise, and I succumb to the feeling of climax. For a few seconds, everything else in the world falls away except for this amazing feeling of Emi and I, together."
+# "My mind blanks, fills with white noise, and I succumb to the feeling of climax. For a few seconds, everything else in the world falls away except for this amazing feeling of Emi and I, together."
+""
 
 show evh emi_grinding_off_end
 with Dissolve(1.0)
 
-"And then… it passes. The white noise clears, and I am left staring up into the eyes of the girl atop me."
+# "And then… it passes. The white noise clears, and I am left staring up into the eyes of the girl atop me."
+""
 
-"For a few minutes, neither of us speaks. The sound of our breathing fills the room, our chests heaving from the experience."
+# "For a few minutes, neither of us speaks. The sound of our breathing fills the room, our chests heaving from the experience."
+""
 
-"She eventually, reluctantly, shifts off of me and sits against the wall. I join her."
+# "She eventually, reluctantly, shifts off of me and sits against the wall. I join her."
+""
 
 label th_E20x:
 
@@ -3711,23 +4767,29 @@ with locationchange
 show eminude smile_close
 with charachange
 
-emi "So… did I blush?"
+# emi "So… did I blush?"
+emi ""
 
-hi "I didn't notice."
+# hi "I didn't notice."
+hi ""
 
-hi "Did I?"
+# hi "Did I?"
+hi ""
 
 show eminude neutral_close
 with charachange
 
-"Emi shrugs, still breathing a little heavily."
+# "Emi shrugs, still breathing a little heavily."
+""
 
 show eminude weaksmile_close
 with charachange
 
-emi "Didn't notice either."
+# emi "Didn't notice either."
+emi ""
 
-hi "Well, maybe we should—"
+# hi "Well, maybe we should—"
+hi ""
 
 play sound sfx_dooropen
 
@@ -3740,9 +4802,11 @@ show rin basic_deadpan behind eminude:
 show eminude blush_close
 with vpunch
 
-rin "I need to use your window."
+# rin "I need to use your window."
+rin ""
 
-"My first instinct is to hide, but then I realize that I'm still utterly exhausted and sitting next to a topless Emi, so there's no running anyway."
+# "My first instinct is to hide, but then I realize that I'm still utterly exhausted and sitting next to a topless Emi, so there's no running anyway."
+""
 
 show rin basic_awayabsent:
     right alpha 1.0
@@ -3754,78 +4818,97 @@ with charachange
 show rin basic_awayabsent
 with charachange
 
-"Rin's eyes pass over Emi, and me, and focus on the window."
+# "Rin's eyes pass over Emi, and me, and focus on the window."
+""
 
 show rin basic_deadpannormal
 with charachange
 
-rin "There was a cloud."
+# rin "There was a cloud."
+rin ""
 
 play music music_comedy fadein 0.5
 
 show eminude neutral_close
 with charachange
 
-emi "A cloud?"
+# emi "A cloud?"
+emi ""
 
 show rin basic_lucid
 with charachange
 
-"Rin nods."
+# "Rin nods."
+""
 
 show rin relaxed_nonchalant
 with charachange
 
-rin "I was watching it from my window, but it didn't stay in my window."
+# rin "I was watching it from my window, but it didn't stay in my window."
+rin ""
 
 show rin negative_spaciness
 with charachange
 
-rin "So I need to use your window."
+# rin "So I need to use your window."
+rin ""
 
 show eminude closedsmile_close
 with charachange
 
-"Emi shifts a little, causing me to cough in order to cover up a giggle of my own."
+# "Emi shifts a little, causing me to cough in order to cover up a giggle of my own."
+""
 
-emi "How long do you need the window for?"
+# emi "How long do you need the window for?"
+emi ""
 
-emi "We're uh."
+# emi "We're uh."
+emi ""
 
 show eminude wink_close
 with charachange
 
-emi "Busy."
+# emi "Busy."
+emi ""
 
-"This time I can't contain my laughter."
+# "This time I can't contain my laughter."
+""
 
 show rin negative_annoyed
 with dissolvecharamove
 
-"Rin ignores both Emi and me and peers out the window."
+# "Rin ignores both Emi and me and peers out the window."
+""
 
 show rin basic_deadpanupset
 with charachange
 
-"Her shoulders slump, and she looks disappointed."
+# "Her shoulders slump, and she looks disappointed."
+""
 
-rin "Hmm."
+# rin "Hmm."
+rin ""
 
-rin "It changed into something else."
+# rin "It changed into something else."
+rin ""
 
-rin "Disappointing."
+# rin "Disappointing."
+rin ""
 
 show eminude grin_close
 with charachange
 
-"Emi is having trouble keeping a straight face."
+# "Emi is having trouble keeping a straight face."
+""
 
-emi "Sorry to hear that, Rin."
+# emi "Sorry to hear that, Rin."
+emi ""
 
 show eminude pout_close
 with charachange
 
-emi "Could we have a little privacy now, please?"
+# emi "Could we have a little privacy now, please?"
+emi ""
 
 show rin relaxed_nonchalant
 with charachange
@@ -3841,37 +4924,46 @@ play sound sfx_doorclose
 hide rin
 with None
 
-"Rin shrugs, as if to say “Can you?” and hooks her foot around the door, pulling it closed behind her."
+# "Rin shrugs, as if to say “Can you?” and hooks her foot around the door, pulling it closed behind her."
+""
 
 show eminude happy_close
 with charachange
 
-"We both dissolve into raucous laughter, unable to deal with Rin's bizarrely timed visit any other way."
+# "We both dissolve into raucous laughter, unable to deal with Rin's bizarrely timed visit any other way."
+""
 
-"After our laughter dies down, I look to Emi. We're both a total mess."
+# "After our laughter dies down, I look to Emi. We're both a total mess."
+""
 
 stop music fadeout 5.0
 
-hi "Well."
+# hi "Well."
+hi ""
 
 show eminude neutral_close
 with charachange
 
-"Emi raises an eyebrow."
+# "Emi raises an eyebrow."
+""
 
-emi "Well?"
+# emi "Well?"
+emi ""
 
-hi "Again?"
+# hi "Again?"
+hi ""
 
 show eminude wink_close
 with charachange
 
-"Emi grins and laughs, and then she nods."
+# "Emi grins and laughs, and then she nods."
+""
 
 show eminude grin_close
 with charachange
 
-emi "We should probably ditch the clothes, this time."
+# emi "We should probably ditch the clothes, this time."
+emi ""
 
 $ suppress_window_after_timeskip = True
 
@@ -3892,205 +4984,270 @@ with openeye
 
 window show
 
-"The sunlight breaks through my window shortly before my alarm ruins the morning silence."
+# "The sunlight breaks through my window shortly before my alarm ruins the morning silence."
+""
 
 play music music_dreamy fadein 6.0
 
-"I feel sore."
+# "I feel sore."
+""
 
-"The events of the previous evening suddenly intrude upon my consciousness, and I find myself blushing."
+# "The events of the previous evening suddenly intrude upon my consciousness, and I find myself blushing."
+""
 
-"That was an eventful evening - and it explains perfectly the soreness in my lower back."
+# "That was an eventful evening - and it explains perfectly the soreness in my lower back."
+""
 
-"The walk back, as I recall, had been rather tense."
+# "The walk back, as I recall, had been rather tense."
+""
 
-"My trousers having been… soiled, I had washed them off in the bathroom before going back to my room."
+# "My trousers having been… soiled, I had washed them off in the bathroom before going back to my room."
+""
 
-"But there was still a fairly obvious-looking stain on the front."
+# "But there was still a fairly obvious-looking stain on the front."
+""
 
-"Fortunately for me, the only person I ran into on my way back was Kenji."
+# "Fortunately for me, the only person I ran into on my way back was Kenji."
+""
 
-"And he didn't notice a thing."
+# "And he didn't notice a thing."
+""
 
-"Well, apart from my being in the general vicinity."
+# "Well, apart from my being in the general vicinity."
+""
 
-"Of course he'd asked how the night went, and whether or not I'd learned anything of importance."
+# "Of course he'd asked how the night went, and whether or not I'd learned anything of importance."
+""
 
-"I don't even know if I opened my mouth to answer; I was too tired to care."
+# "I don't even know if I opened my mouth to answer; I was too tired to care."
+""
 
-"And this morning, I'll admit that I'm feeling pretty worn out."
+# "And this morning, I'll admit that I'm feeling pretty worn out."
+""
 
-"Still, Emi had promised to meet me at the track, and I'd hate to disappoint."
+# "Still, Emi had promised to meet me at the track, and I'd hate to disappoint."
+""
 
 scene bg school_track
 show emiwheel weaksmile at center
 with locationskip
 
-"She is indeed waiting for me when I arrive."
+# "She is indeed waiting for me when I arrive."
+""
 
-"Doing her best to look cheery, despite the fact that she's sitting in a wheelchair."
+# "Doing her best to look cheery, despite the fact that she's sitting in a wheelchair."
+""
 
-"I wave to her and begin stretching."
+# "I wave to her and begin stretching."
+""
 
-hi "You're early."
+# hi "You're early."
+hi ""
 
 show emiwheel frown
 with charachange
 
-"Emi frowns and shakes her head."
+# "Emi frowns and shakes her head."
+""
 
 show emiwheel angry
 with charachange
 
-emi "Ridiculous."
+# emi "Ridiculous."
+emi ""
 
-emi "{b}You're{/b} late."
+# emi "{b}You're{/b} late."
+emi ""
 
 show emiwheel grin
 with charachange
 
-emi "Overslept, Hisao?"
+# emi "Overslept, Hisao?"
+emi ""
 
 show emiwheel wink
 with charachange
 
-emi "All tuckered out?"
+# emi "All tuckered out?"
+emi ""
 
-"Well, at least she seems more like her old self."
+# "Well, at least she seems more like her old self."
+""
 
-"And as expected, she doesn't seem that shy about mentioning our… previous activities."
+# "And as expected, she doesn't seem that shy about mentioning our… previous activities."
+""
 
-hi "Hey, you're lucky I could show up at all."
+# hi "Hey, you're lucky I could show up at all."
+hi ""
 
-hi "All that cardiovascular activity last night, I nearly thought I'd have to see the nurse afterwards."
+# hi "All that cardiovascular activity last night, I nearly thought I'd have to see the nurse afterwards."
+hi ""
 
 show emiwheel wink
 with charachange
 
-"Emi laughs out loud, then her face suddenly becomes concerned."
+# "Emi laughs out loud, then her face suddenly becomes concerned."
+""
 
 show emiwheel blush
 with charachange
 
 stop music fadeout 8.0
 
-emi "Hey, that's not uh…"
+# emi "Hey, that's not uh…"
+emi ""
 
-emi "I mean, you're not…"
+# emi "I mean, you're not…"
+emi ""
 
-hi "Go on, spit it out."
+# hi "Go on, spit it out."
+hi ""
 
 show emiwheel awayfrown
 with charachange
 
-emi "It's just that it would be hard to explain if you had an episode while we were…"
+# emi "It's just that it would be hard to explain if you had an episode while we were…"
+emi ""
 
-hi "Oh."
+# hi "Oh."
+hi ""
 
-hi "{b}Oh.{/b}"
+# hi "{b}Oh.{/b}"
+hi ""
 
-"Now that she mentions it, it really is a legitimate concern."
+# "Now that she mentions it, it really is a legitimate concern."
+""
 
-"I certainly hadn't thought of it last night, of course - other, more pressing concerns had been at hand."
+# "I certainly hadn't thought of it last night, of course - other, more pressing concerns had been at hand."
+""
 
-hi "Well, I don't think anything we, er, {b}do{/b} is going to be any more of a strain than these morning runs, and I handle those fine, so…"
+# hi "Well, I don't think anything we, er, {b}do{/b} is going to be any more of a strain than these morning runs, and I handle those fine, so…"
+hi ""
 
 show emiwheel frown
 with charachange
 
-"Emi considers this point."
+# "Emi considers this point."
+""
 
 show emiwheel evil
 with charachange
 
-"A devious light appears in her eyes."
+# "A devious light appears in her eyes."
+""
 
 play music music_emi fadein 2.0
 
-emi "Say…"
+# emi "Say…"
+emi ""
 
-hi "Hmm?"
+# hi "Hmm?"
+hi ""
 
 show emiwheel grin
 with charachange
 
-"The light vanishes, and Emi grins ruefully at me."
+# "The light vanishes, and Emi grins ruefully at me."
+""
 
-"I can't help but feel vaguely suspicious."
+# "I can't help but feel vaguely suspicious."
+""
 
 show emiwheel happy
 with charachange
 
-emi "I seem to have forgotten a pair of gloves."
+# emi "I seem to have forgotten a pair of gloves."
+emi ""
 
-hi "What do you need gloves for?"
+# hi "What do you need gloves for?"
+hi ""
 
 show emiwheel smile
 with charachange
 
-"Emi indicates the chair upon which she is seated."
+# "Emi indicates the chair upon which she is seated."
+""
 
-emi "For this, of course!"
+# emi "For this, of course!"
+emi ""
 
 show emiwheel wink
 with charachange
 
-emi "Sure, regular moving around is all well and good without 'em, but I want to be able to get a good workout."
+# emi "Sure, regular moving around is all well and good without 'em, but I want to be able to get a good workout."
+emi ""
 
 show emiwheel grin
 with charachange
 
-emi "And to get that kind of speed, you gotta have gloves if you don't want blisters."
+# emi "And to get that kind of speed, you gotta have gloves if you don't want blisters."
+emi ""
 
-hi "So what, are you wussing out on me then? Do I have to go it alone?"
+# hi "So what, are you wussing out on me then? Do I have to go it alone?"
+hi ""
 
 show emiwheel awayfrown
 with charachange
 
-"Emi thinks for a minute - or pretends to think."
+# "Emi thinks for a minute - or pretends to think."
+""
 
 show emiwheel closedsmile
 with charachange
 
-emi "Hmm… if I remember right, there's a spare pair or two in the track shed."
+# emi "Hmm… if I remember right, there's a spare pair or two in the track shed."
+emi ""
 
-"So she does seriously want to do it, then."
+# "So she does seriously want to do it, then."
+""
 
-"But in her normal school uniform? I'd have expected her to wear her gym outfit for something like this."
+# "But in her normal school uniform? I'd have expected her to wear her gym outfit for something like this."
+""
 
-hi "Wait, what are they doing there?"
+# hi "Wait, what are they doing there?"
+hi ""
 
 show emiwheel frown
 with charachange
 
-"Emi looks askance at me."
+# "Emi looks askance at me."
+""
 
-emi "Seriously? You can't think of why a shed full of track supplies at a school for the disabled would have racing gloves?"
+# emi "Seriously? You can't think of why a shed full of track supplies at a school for the disabled would have racing gloves?"
+emi ""
 
-"Well, when she puts it that way, I suppose that makes perfect sense."
+# "Well, when she puts it that way, I suppose that makes perfect sense."
+""
 
-hi "Hey, I'm still getting used to this place. Give me a break, huh?"
+# hi "Hey, I'm still getting used to this place. Give me a break, huh?"
+hi ""
 
 show emiwheel grin
 with charachange
 
-emi "I guess I can let it slide this time."
+# emi "I guess I can let it slide this time."
+emi ""
 
 show emiwheel wink
 with charachange
 
-emi "Now come on, I'll need your help."
+# emi "Now come on, I'll need your help."
+emi ""
 
-"I can't imagine what for, but then again I didn't have a clue why racing gloves would be in the shed, so I'm not willing to press the issue."
+# "I can't imagine what for, but then again I didn't have a clue why racing gloves would be in the shed, so I'm not willing to press the issue."
+""
 
 scene bg school_sportsstoreext
 with locationchange
 
-"Emi navigates her way to the shed easily enough, though I can hear her grumbling under her breath."
+# "Emi navigates her way to the shed easily enough, though I can hear her grumbling under her breath."
+""
 
-"It's actually kinda cute."
+# "It's actually kinda cute."
+""
 
-"I hurry a little to reach the door first. Opening it will be easier for me than for her."
+# "I hurry a little to reach the door first. Opening it will be easier for me than for her."
+""
 
 play sound sfx_door_creak
 
@@ -4101,9 +5258,11 @@ show emiwheel neutral:
 with charaenter
 
 
-"The door opens, and Emi starts to wheel inside, only to come to a sudden halt at the doorway."
+# "The door opens, and Emi starts to wheel inside, only to come to a sudden halt at the doorway."
+""
 
-"It seems the doorsill is slightly too high for her to get over by herself."
+# "It seems the doorsill is slightly too high for her to get over by herself."
+""
 
 show emiwheel awayfrown:
 with charachange
@@ -4120,33 +5279,41 @@ show emiwheel awayfrown:
     ease 0.2 xpos 0.5
 with Pause(1.0)
 
-"She makes a few runs at it, unsuccessfully, before crossing her eyes and glaring at the offending object."
+# "She makes a few runs at it, unsuccessfully, before crossing her eyes and glaring at the offending object."
+""
 
 show emiwheel angry at center
 with charaenter
 
-emi "Stupid wheelchair."
+# emi "Stupid wheelchair."
+emi ""
 
 show emiwheel frown
 with charachange
 
-emi "Hisao, can you give me a hand here?"
+# emi "Hisao, can you give me a hand here?"
+emi ""
 
-hi "Sure, no problem."
+# hi "Sure, no problem."
+hi ""
 
 scene bg school_sportsstoreroom
 with locationchange
 
-"It's a simple enough matter for me to bump Emi over the doorway, jostling her slightly."
+# "It's a simple enough matter for me to bump Emi over the doorway, jostling her slightly."
+""
 
 show emiwheel blush_close_ni at center
 with charaenter
 
-emi "Hey, easy there!"
+# emi "Hey, easy there!"
+emi ""
 
-hi "Whoops! Sorry."
+# hi "Whoops! Sorry."
+hi ""
 
-"It's at about this time that I fail to notice where I'm going and run Emi's chair into a mat."
+# "It's at about this time that I fail to notice where I'm going and run Emi's chair into a mat."
+""
 
 play sound sfx_impact
 
@@ -4159,21 +5326,29 @@ with vpunch
 hide emiwheel
 with None
 
-"She gives a startled yelp and topples forward out of her chair."
+# "She gives a startled yelp and topples forward out of her chair."
+""
 
-"There's a moment of silence as I gaze in horror upon what I've done, and Emi glares at me."
+# "There's a moment of silence as I gaze in horror upon what I've done, and Emi glares at me."
+""
 
-emi "Hisao…"
+# emi "Hisao…"
+emi ""
 
-hi "Yes?"
+# hi "Yes?"
+hi ""
 
-emi "Promise me you'll never work at a hospital."
+# emi "Promise me you'll never work at a hospital."
+emi ""
 
-hi "Sorry! I didn't mean to!"
+# hi "Sorry! I didn't mean to!"
+hi ""
 
-"Emi giggles, and holds up a hand."
+# "Emi giggles, and holds up a hand."
+""
 
-emi "Would you kindly help me back into my chair, Hisao?"
+# emi "Would you kindly help me back into my chair, Hisao?"
+emi ""
 
 show emi basic_closedgrin_close_ni:
     center
@@ -4181,11 +5356,13 @@ show emi basic_closedgrin_close_ni:
     easein 0.5 ypos 1.0
 with charaenter
 
-"As I bend down to pick up Emi, she grins in triumph and pulls me into a kiss that quickly has us both entirely unconcerned about getting her back into the chair."
+# "As I bend down to pick up Emi, she grins in triumph and pulls me into a kiss that quickly has us both entirely unconcerned about getting her back into the chair."
+""
 
 play sound sfx_door_creak
 
-"In fact, as I move to a more comfortable position, I confess that the chair is pushed out the door, which, startled by the passage, swings shut."
+# "In fact, as I move to a more comfortable position, I confess that the chair is pushed out the door, which, startled by the passage, swings shut."
+""
 
 play sound sfx_rustling
 
@@ -4193,273 +5370,354 @@ hide emi
 show eminude smile_close_ni at center
 with charachange
 
-"Well, at least we've got privacy now, which is a good thing as my hands work quickly to remove Emi's blouse and skirt."
+# "Well, at least we've got privacy now, which is a good thing as my hands work quickly to remove Emi's blouse and skirt."
+""
 
-"I'm startled to discover that she's forgotten to put her bra on today. Did she plan this?"
+# "I'm startled to discover that she's forgotten to put her bra on today. Did she plan this?"
+""
 
 show eminude blush_close_ni
 with charachange
 
-"Her arms hook under mine and rest on my shoulders as I kiss my way down Emi's neck, pausing to give special attention to a spot right where the neck meets the shoulder that I'd found last night."
+# "Her arms hook under mine and rest on my shoulders as I kiss my way down Emi's neck, pausing to give special attention to a spot right where the neck meets the shoulder that I'd found last night."
+""
 
-emi "Y-you've gotten pretty good at th-hee!"
+# emi "Y-you've gotten pretty good at th-hee!"
+emi ""
 
-hi "I do try."
+# hi "I do try."
+hi ""
 
 show eminude frown_close_ni
 with charachange
 
-"Emi pushes on my chest, insistently, and I draw back with a puzzled expression."
+# "Emi pushes on my chest, insistently, and I draw back with a puzzled expression."
+""
 
-emi "I've got a confession, Hisao."
+# emi "I've got a confession, Hisao."
+emi ""
 
-hi "Oh?"
+# hi "Oh?"
+hi ""
 
-"Having pulled back, I decide instead to focus my attention on her breasts."
+# "Having pulled back, I decide instead to focus my attention on her breasts."
+""
 
 show eminude blush_close_ni
 with vpunch
 
-"As she attempts to speak, her words are interspersed with giggles that I find incredibly cute."
+# "As she attempts to speak, her words are interspersed with giggles that I find incredibly cute."
+""
 
 show eminude wink_close_ni
 with charachange
 
-emi "I don't ac-hee hee hee-actually w-woah! Wear gloves."
+# emi "I don't ac-hee hee hee-actually w-woah! Wear gloves."
+emi ""
 
-"My own reply is rather mumbled onto her chest instead of being addressed to her face."
+# "My own reply is rather mumbled onto her chest instead of being addressed to her face."
+""
 
-hi "Should've known…"
+# hi "Should've known…"
+hi ""
 
-"Words quickly become irrelevant."
+# "Words quickly become irrelevant."
+""
 
 show eminude closedsmile_close_ni
 with vpunch
 
-"Emi's movements are almost frantic, as if she's been holding something back since we met this morning, and now she has an outlet."
+# "Emi's movements are almost frantic, as if she's been holding something back since we met this morning, and now she has an outlet."
+""
 
-"I'm very nearly caught off guard by her aggressiveness, feeling her nearly rip my shirt off, the way she seems to vie to be in the dominant position."
+# "I'm very nearly caught off guard by her aggressiveness, feeling her nearly rip my shirt off, the way she seems to vie to be in the dominant position."
+""
 
-"For my part, I confess that I'm caught up in her attitude as well, fighting back, rolling and wrestling even as I caress her breasts, even as her fingers dig into my shoulders, and I lose track of where we are."
+# "For my part, I confess that I'm caught up in her attitude as well, fighting back, rolling and wrestling even as I caress her breasts, even as her fingers dig into my shoulders, and I lose track of where we are."
+""
 
 show eminude blush_ni
 with vpunch
 
-"So much so that I roll right off the mat and land on something small and rather hard."
+# "So much so that I roll right off the mat and land on something small and rather hard."
+""
 
-hi "Ow!"
+# hi "Ow!"
+hi ""
 
 show eminude weaksmile_ni
 with charachange
 
-"Emi, still flushed and breathing a little heavily, peers at me and bursts into laughter."
+# "Emi, still flushed and breathing a little heavily, peers at me and bursts into laughter."
+""
 
-emi "I'm sorry, I'm sorry. Are you all right?"
+# emi "I'm sorry, I'm sorry. Are you all right?"
+emi ""
 
-hi "Yeah, I think so. Not sure what I landed on, though…"
+# hi "Yeah, I think so. Not sure what I landed on, though…"
+hi ""
 
-"I reach under my back and pull the offending object out, inspecting it closely."
+# "I reach under my back and pull the offending object out, inspecting it closely."
+""
 
 stop music fadeout 0.2
 
-"“Personal lubricant. Lemon-flavored.”"
+# "“Personal lubricant. Lemon-flavored.”"
+""
 
-"Wait, what?"
+# "Wait, what?"
+""
 
 play music music_running
 
 show eminude happy_ni
 with charachange
 
-"Emi's eyes shoot upwards and she begins, if possible, to laugh even harder."
+# "Emi's eyes shoot upwards and she begins, if possible, to laugh even harder."
+""
 
-hi "Somehow, I don't think this is… this isn't track-related."
+# hi "Somehow, I don't think this is… this isn't track-related."
+hi ""
 
 show eminude closedsmile_ni
 with charachange
 
-emi "Oh man, I know whose that is!"
+# emi "Oh man, I know whose that is!"
+emi ""
 
-hi "What?"
+# hi "What?"
+hi ""
 
 show eminude wink_ni
 with charachange
 
-emi "It's the track captain's!"
+# emi "It's the track captain's!"
+emi ""
 
-"Ah, my old nemesis. Or, kind of."
+# "Ah, my old nemesis. Or, kind of."
+""
 
-hi "How d'you know it's his?"
+# hi "How d'you know it's his?"
+hi ""
 
 show eminude awayfrown_ni
 with charachange
 
-"It appears that I've asked a stupid question, or at least Emi thinks so."
+# "It appears that I've asked a stupid question, or at least Emi thinks so."
+""
 
 show eminude frown_ni
 with charachange
 
-emi "Because he's the one who told me the track shed was a good place for… what did he call them?"
+# emi "Because he's the one who told me the track shed was a good place for… what did he call them?"
+emi ""
 
 show eminude pout_ni
 with charachange
 
-emi "“Clandestine encounters.”"
+# emi "“Clandestine encounters.”"
+emi ""
 
-hi "Oh? He invite you to one or something?"
+# hi "Oh? He invite you to one or something?"
+hi ""
 
 show eminude happy_ni
 with charachange
 
-"Emi bursts into more laughter."
+# "Emi bursts into more laughter."
+""
 
-"I confess the sight of a naked Emi laughing is oddly beautiful."
+# "I confess the sight of a naked Emi laughing is oddly beautiful."
+""
 
-"I feel an eagerness to end conversation and get back to what we were doing, despite my rather pointed questioning."
+# "I feel an eagerness to end conversation and get back to what we were doing, despite my rather pointed questioning."
+""
 
 show eminude closedsmile_ni
 with charachange
 
-emi "Hisao, the track captain's gay."
+# emi "Hisao, the track captain's gay."
+emi ""
 
-"Huh."
+# "Huh."
+""
 
-hi "Really? And here I initially thought you two were a couple."
+# hi "Really? And here I initially thought you two were a couple."
+hi ""
 
 show eminude awayfrown_ni
 with charachange
 
-emi "Well… I did have a crush on him when I first joined up, but he wasn't interested."
+# emi "Well… I did have a crush on him when I first joined up, but he wasn't interested."
+emi ""
 
 show eminude frown_ni
 with charachange
 
-emi "Obviously."
+# emi "Obviously."
+emi ""
 
 show eminude neutral_ni
 with charachange
 
-emi "But we are good friends, I guess."
+# emi "But we are good friends, I guess."
+emi ""
 
 show eminude grin_ni
 with charachange
 
-emi "I mean he told me about all this, you know."
+# emi "I mean he told me about all this, you know."
+emi ""
 
-hi "I hesitate to ask,"
+# hi "I hesitate to ask,"
+hi ""
 
-"And really, I do. But I ask anyway."
+# "And really, I do. But I ask anyway."
+""
 
-hi "But what does he need the uh… lube for, anyway?"
+# hi "But what does he need the uh… lube for, anyway?"
+hi ""
 
-hi "I mean, he doesn't… er…"
+# hi "I mean, he doesn't… er…"
+hi ""
 
-"How the hell does Emi always manage to not blush?"
+# "How the hell does Emi always manage to not blush?"
+""
 
 show eminude wink_ni
 with charachange
 
-emi "Obviously he uses it for, you know."
+# emi "Obviously he uses it for, you know."
+emi ""
 
 show eminude evil_ni
 with charachange
 
-emi "Anal."
+# emi "Anal."
+emi ""
 
-"I try to suppress a snicker."
+# "I try to suppress a snicker."
+""
 
-"I fail."
+# "I fail."
+""
 
 show eminude happy_ni
 with charachange
 
-"Emi's giggling too."
+# "Emi's giggling too."
+""
 
-hi "And he {b}tells{/b} you about all this?"
+# hi "And he {b}tells{/b} you about all this?"
+hi ""
 
 show eminude awayfrown_ni
 with charachange
 
-"Emi shrugs."
+# "Emi shrugs."
+""
 
 show eminude neutral_ni
 with charachange
 
-emi "Yeah, of course."
+# emi "Yeah, of course."
+emi ""
 
 stop music fadeout 10.0
 
 show eminude closedsmile_ni
 with charachange
 
-emi "He's kinda wild about the whole thing."
+# emi "He's kinda wild about the whole thing."
+emi ""
 
-emi "Says it's a feeling that can't be beat."
+# emi "Says it's a feeling that can't be beat."
+emi ""
 
-hi "Uh… huh."
+# hi "Uh… huh."
+hi ""
 
-"The air in the track shed seems charged with some kind of horrible curiosity."
+# "The air in the track shed seems charged with some kind of horrible curiosity."
+""
 
-hi "That's interesting."
+# hi "That's interesting."
+hi ""
 
-hi "I suppose I'll have to take his word for it."
-
-show eminude neutral_ni
-with charachange
-
-emi "Well…"
-
-"Birds outside stop chirping."
-
-"The wind dies down."
-
-"Somewhere, a man is drinking a cup of coffee. He freezes with the cup at his lips."
+# hi "I suppose I'll have to take his word for it."
+hi ""
 
 show eminude neutral_ni
 with charachange
 
-emi "We could…"
+# emi "Well…"
+emi ""
+
+# "Birds outside stop chirping."
+""
+
+# "The wind dies down."
+""
+
+# "Somewhere, a man is drinking a cup of coffee. He freezes with the cup at his lips."
+""
+
+show eminude neutral_ni
+with charachange
+
+# emi "We could…"
+emi ""
 
 extend " maybe…"
 
 show eminude blush_ni
 with charachange
 
-emi "Try it."
+# emi "Try it."
+emi ""
 
 play music music_one fadein 5.0
 
-"My jaw suddenly and spontaneously unhinges and hits the floor."
+# "My jaw suddenly and spontaneously unhinges and hits the floor."
+""
 
-hi "W-what?"
+# hi "W-what?"
+hi ""
 
-"Emi is finally blushing, rubbing the back of her head ruefully."
+# "Emi is finally blushing, rubbing the back of her head ruefully."
+""
 
 show eminude pout_ni
 with charachange
 
-emi "Well, it's just that we really can't… do what we did last night, you know?"
+# emi "Well, it's just that we really can't… do what we did last night, you know?"
+emi ""
 
-emi "It would be a little… it wouldn't be safe, you know?"
+# emi "It would be a little… it wouldn't be safe, you know?"
+emi ""
 
 show eminude weaksmile_ni
 with charachange
 
-emi "I mean it wasn't exactly a great idea last night."
+# emi "I mean it wasn't exactly a great idea last night."
+emi ""
 
 show eminude closedsmile_ni
 with charachange
 
-emi "So you know, we could try this to see if it uh…"
+# emi "So you know, we could try this to see if it uh…"
+emi ""
 
-hi "Is as good?"
+# hi "Is as good?"
+hi ""
 
 show eminude weaksmile_ni
 with charachange
 
-emi "Well uh, yeah. Basically."
+# emi "Well uh, yeah. Basically."
+emi ""
 
-hi "Huh."
+# hi "Huh."
+hi ""
 
 label th_E21h:
 
@@ -4470,155 +5728,206 @@ show evh_l emi_shed_up
 show evh_r emi_shed_down
 with shorttimeskip
 
-emi "Careful!"
+# emi "Careful!"
+emi ""
 
-hi "Are you sure about this?"
+# hi "Are you sure about this?"
+hi ""
 
-"I'm positioned behind Emi, who is looking back over her shoulder, looking a little flushed."
+# "I'm positioned behind Emi, who is looking back over her shoulder, looking a little flushed."
+""
 
-"Well obviously once we decided to go ahead with this idea, we had to get back into the mood."
+# "Well obviously once we decided to go ahead with this idea, we had to get back into the mood."
+""
 
-"That accomplished, we emptied the bottle of lube and…"
+# "That accomplished, we emptied the bottle of lube and…"
+""
 
-"Here we are."
+# "Here we are."
+""
 
 show emi emi_shed_hesitant
 with charachange
 
-emi "Yes, I'm sure! Come on, before I calm down and think too much about this."
+# emi "Yes, I'm sure! Come on, before I calm down and think too much about this."
+emi ""
 
-"Emi's breathing is still coming a little heavily, and her response is almost impatient."
+# "Emi's breathing is still coming a little heavily, and her response is almost impatient."
+""
 
-"Which is to be expected, I suppose. We were both so close, and this is kind of delaying things."
+# "Which is to be expected, I suppose. We were both so close, and this is kind of delaying things."
+""
 
-"I think we've both gone temporarily insane."
+# "I think we've both gone temporarily insane."
+""
 
-"At least that's going to be my claim from here on out."
+# "At least that's going to be my claim from here on out."
+""
 
-"I try hard not to think about the specifics of what I'm about to get myself into."
+# "I try hard not to think about the specifics of what I'm about to get myself into."
+""
 
-"There's no way this is going to be very clean."
+# "There's no way this is going to be very clean."
+""
 
 show evh emi_shed_base2
 show hisao emi_shed_closed
 with charachange
 
-"Taking a breath that is as much for me as it is for her, I enter slowly."
+# "Taking a breath that is as much for me as it is for her, I enter slowly."
+""
 
-"There's a lot of resistance, and it's like both our bodies are reluctant to actually go through with it."
+# "There's a lot of resistance, and it's like both our bodies are reluctant to actually go through with it."
+""
 
 show emi emi_shed_shock
 with hpunch
 
-"Emi's whole body tenses, and as I'm only partially in by this point, it feels surprisingly good, if a bit odd."
+# "Emi's whole body tenses, and as I'm only partially in by this point, it feels surprisingly good, if a bit odd."
+""
 
-"Emi, on the other hand, looks uncomfortable."
+# "Emi, on the other hand, looks uncomfortable."
+""
 
-"The expression is almost comical."
+# "The expression is almost comical."
+""
 
 show hisao emi_shed_neutral
 with charachange
 
-hi "Should I stop?"
+# hi "Should I stop?"
+hi ""
 
-"Emi's breath hitches in her throat, and it seems to take a few seconds longer than it should to formulate a reply."
+# "Emi's breath hitches in her throat, and it seems to take a few seconds longer than it should to formulate a reply."
+""
 
 show emi emi_shed_closed
 with charachange
 
-emi "N-no, keep going. It just feels weird."
+# emi "N-no, keep going. It just feels weird."
+emi ""
 
-"She giggles."
+# "She giggles."
+""
 
-"I can't blame her. I'm surprised that I even managed to form a sentence."
+# "I can't blame her. I'm surprised that I even managed to form a sentence."
+""
 
 show hisao emi_shed_closed
 with charachange
 
-"It's… hot."
+# "It's… hot."
+""
 
-"Feels exceedingly odd."
+# "Feels exceedingly odd."
+""
 
-"The lube glistens unnaturally."
+# "The lube glistens unnaturally."
+""
 
-"It makes me uncomfortable."
+# "It makes me uncomfortable."
+""
 
-"I continue to work my way inside her, working slowly and listening carefully to Emi's breathing."
+# "I continue to work my way inside her, working slowly and listening carefully to Emi's breathing."
+""
 
 show evh emi_shed_base3
 show emi emi_shed_hesitant
 with charachange
 
-"I reach my limit and pause. Emi looks back again, biting her lower lip."
+# "I reach my limit and pause. Emi looks back again, biting her lower lip."
+""
 
-emi "Are you going to try moving, or are we just going to sit here feeling silly?"
+# emi "Are you going to try moving, or are we just going to sit here feeling silly?"
+emi ""
 
 show hisao emi_shed_neutral
 with charachange
 
-hi "No, I just wanted to give you a chance to adjust."
+# hi "No, I just wanted to give you a chance to adjust."
+hi ""
 
-"This doesn't make any sense."
+# "This doesn't make any sense."
+""
 
-"How did we even decide to do this?"
+# "How did we even decide to do this?"
+""
 
 show emi emi_shed_grin
 with charachange
 
-emi "I don't think there's really any adjusting to this, Hisao."
+# emi "I don't think there's really any adjusting to this, Hisao."
+emi ""
 
 show emi emi_shed_hesitant
 with charachange
 
-emi "Try moving. Maybe it'll feel better?"
+# emi "Try moving. Maybe it'll feel better?"
+emi ""
 
-"She sounds doubtful, but certainly unwilling to admit defeat now that we've come so far."
+# "She sounds doubtful, but certainly unwilling to admit defeat now that we've come so far."
+""
 
 show emi emi_shed_closed
 with charachange
 
-"I begin a slow motion that seems to work well for both myself and Emi, as she closes her eyes in an attempt to concentrate on this new feeling."
+# "I begin a slow motion that seems to work well for both myself and Emi, as she closes her eyes in an attempt to concentrate on this new feeling."
+""
 
-"As I begin to find a rhythm, I begin to feel that familiar falling-away sensation I got yesterday."
+# "As I begin to find a rhythm, I begin to feel that familiar falling-away sensation I got yesterday."
+""
 
 show hisao emi_shed_closed
 with charachange
 
-"I close my eyes and try to lose myself in the feeling, except…"
+# "I close my eyes and try to lose myself in the feeling, except…"
+""
 
-"It doesn't seem right."
+# "It doesn't seem right."
+""
 
-"Emi's not making any noise."
+# "Emi's not making any noise."
+""
 
-"I learned very quickly yesterday that Emi is somewhat less than quiet when she's enjoying herself."
+# "I learned very quickly yesterday that Emi is somewhat less than quiet when she's enjoying herself."
+""
 
 show hisao emi_shed_neutral
 with charachange
 
-"As I open my eyes, I see that Emi's trying to get into things, but it just doesn't seem to be working for her."
+# "As I open my eyes, I see that Emi's trying to get into things, but it just doesn't seem to be working for her."
+""
 
-"Her eyes are closed, and she's biting her lip, but it seems to be out of toleration rather than enjoyment."
+# "Her eyes are closed, and she's biting her lip, but it seems to be out of toleration rather than enjoyment."
+""
 
-"A sort of “well, this was a failure, but hopefully it'll be over soon” look."
+# "A sort of “well, this was a failure, but hopefully it'll be over soon” look."
+""
 
-"I'm caught in a bit of a situation here."
+# "I'm caught in a bit of a situation here."
+""
 
-"In truth, I don't want to stop."
+# "In truth, I don't want to stop."
+""
 
-"But at the same time, it doesn't seem to be doing much for Emi - or if it is, it's coming on far slower than I am."
+# "But at the same time, it doesn't seem to be doing much for Emi - or if it is, it's coming on far slower than I am."
+""
 
-"I feel bad. I want Emi to enjoy this, too."
+# "I feel bad. I want Emi to enjoy this, too."
+""
 
 show evh_r emi_shed_up
 show emi emi_shed_shock
 with charachange
 
-"I reach one arm around to tease at Emi's chest, which startles her."
+# "I reach one arm around to tease at Emi's chest, which startles her."
+""
 
 show hisao emi_shed_sweat
 with charachange
 
-"This in turn causes her to tighten around me considerably, causing a wave of pleasure to blindside me."
+# "This in turn causes her to tighten around me considerably, causing a wave of pleasure to blindside me."
+""
 
 show evh emi_shed_base4
 show hisao emi_shed_neutral
@@ -4626,23 +5935,29 @@ show emi emi_shed_closed
 show evh_l emi_shed_down
 with charachange
 
-"My gasp seems to amuse Emi, but her grin quickly turns to a gasp as I move my other hand casually down her front and begin to stroke gently at the soft patch of hair between her legs."
+# "My gasp seems to amuse Emi, but her grin quickly turns to a gasp as I move my other hand casually down her front and begin to stroke gently at the soft patch of hair between her legs."
+""
 
-"The motion of my own hips increases as my hand's ministrations to Emi's front bring back the gasps and yelps that I'm used to."
+# "The motion of my own hips increases as my hand's ministrations to Emi's front bring back the gasps and yelps that I'm used to."
+""
 
 show hisao emi_shed_sweat
 with charachange
 
-"I concentrate only on the feelings of my hands, one now slick and sliding, the other on skin soft and responsive, goosebumps on her flesh, shivers and sweats, as her own building climax causes her to tighten, until finally I can't possibly—"
+# "I concentrate only on the feelings of my hands, one now slick and sliding, the other on skin soft and responsive, goosebumps on her flesh, shivers and sweats, as her own building climax causes her to tighten, until finally I can't possibly—"
+""
 
-"NoIcan'tpossibly"
+# "NoIcan'tpossibly"
+""
 
 show hisao emi_shed_closed
 with charachange
 
-"OhgodI'msorryEmiI'mgoingto"
+# "OhgodI'msorryEmiI'mgoingto"
+""
 
-"I give a final thrust, my fingers tense around Emi's nipples, dive between her legs."
+# "I give a final thrust, my fingers tense around Emi's nipples, dive between her legs."
+""
 
 window hide
 
@@ -4654,13 +5969,15 @@ with GenericWhiteout(0.5,1.0,4.0)
 
 window show
 
-"Emi's back spasms and she arches up, a high, girlish cry that echoes off the walls, and I feel the wave of my own climax annihilate all other sensations in my body."
+# "Emi's back spasms and she arches up, a high, girlish cry that echoes off the walls, and I feel the wave of my own climax annihilate all other sensations in my body."
+""
 
 show evh_l emi_shed_up
 show evh_r emi_shed_down
 with charachange
 
-"Emi's arms give out and she falls forward, rather violently disengaging us and pulling something dear to me in the process."
+# "Emi's arms give out and she falls forward, rather violently disengaging us and pulling something dear to me in the process."
+""
 
 label th_E21x:
 
@@ -4669,251 +5986,323 @@ play sound sfx_impact
 scene bg school_sportsstoreroom
 with vpunch
 
-"The sudden switch from pleasure to pain causes me to lose my balance, and I fall forward on top of Emi."
+# "The sudden switch from pleasure to pain causes me to lose my balance, and I fall forward on top of Emi."
+""
 
 stop music fadeout 2.0
 
-emi "Ow!"
+# emi "Ow!"
+emi ""
 
-hi "Ow."
+# hi "Ow."
+hi ""
 
-"I quickly roll off Emi and prop myself up, breathing heavily and trying to ignore the pain in my crotch."
+# "I quickly roll off Emi and prop myself up, breathing heavily and trying to ignore the pain in my crotch."
+""
 
-"Emi yelps a little as she rolls over. She grabs a couple of the tissues we'd kept handy earlier, and cleans up before getting her panties back on and awkwardly leaning against a wall."
+# "Emi yelps a little as she rolls over. She grabs a couple of the tissues we'd kept handy earlier, and cleans up before getting her panties back on and awkwardly leaning against a wall."
+""
 
-"Still breathing heavily, I decide to sit against the wall next to her. The feeling of the cool concrete against my sweating back is a welcome sensation."
+# "Still breathing heavily, I decide to sit against the wall next to her. The feeling of the cool concrete against my sweating back is a welcome sensation."
+""
 
 show eminude sad_close_ni at center
 with charaenter
 
-emi "That {b}hurt{/b} at the end!"
+# emi "That {b}hurt{/b} at the end!"
+emi ""
 
-hi "Yeah, I uh…"
+# hi "Yeah, I uh…"
+hi ""
 
-hi "This was probably not a great idea."
+# hi "This was probably not a great idea."
+hi ""
 
-"Emi squirms in order to try and sit down beside me without too much pain. Judging by her wincing, it doesn't really work."
+# "Emi squirms in order to try and sit down beside me without too much pain. Judging by her wincing, it doesn't really work."
+""
 
 show eminude pout_close_ni
 with charachange
 
-emi "Yeah, I'm going to have words with the captain."
+# emi "Yeah, I'm going to have words with the captain."
+emi ""
 
 show eminude angry_close_ni
 with charachange
 
-emi "He was clearly lying."
+# emi "He was clearly lying."
+emi ""
 
 play music music_ease
 
-"The utter and absolute ridiculousness of the situation suddenly hits, and I begin laughing."
+# "The utter and absolute ridiculousness of the situation suddenly hits, and I begin laughing."
+""
 
 show eminude happy_close_ni
 with charachange
 
-"Emi shakes her head and begins laughing with me."
+# "Emi shakes her head and begins laughing with me."
+""
 
 show eminude grin_close_ni
 with charachange
 
-emi "Hey, Hisao."
+# emi "Hey, Hisao."
+emi ""
 
-hi "Yeah?"
+# hi "Yeah?"
+hi ""
 
 show eminude pout_close_ni
 with charachange
 
-emi "We're never doing this again, right?"
+# emi "We're never doing this again, right?"
+emi ""
 
-hi "Yeah, I think my curiosity is satisfied on this one."
+# hi "Yeah, I think my curiosity is satisfied on this one."
+hi ""
 
-"Emi nods, satisfied."
+# "Emi nods, satisfied."
+""
 
 show eminude closedsmile_close_ni
 with charachange
 
-emi "Good."
+# emi "Good."
+emi ""
 
 show eminude smile_close_ni
 with charachange
 
-emi "I think we should maybe stick to the basics, don't you?"
+# emi "I think we should maybe stick to the basics, don't you?"
+emi ""
 
 show eminude blush_close_ni
 with charachange
 
-emi "I mean most of this is new to me anyway."
+# emi "I mean most of this is new to me anyway."
+emi ""
 
-hi "What d'you mean, “most?”"
+# hi "What d'you mean, “most?”"
+hi ""
 
 show eminude grin_close_ni
 with charachange
 
-"Emi grins impishly."
+# "Emi grins impishly."
+""
 
 show eminude closedsmile_close_ni
 with charachange
 
-emi "I'll never tell."
+# emi "I'll never tell."
+emi ""
 
-"An unpleasant thought strikes me."
+# "An unpleasant thought strikes me."
+""
 
-"Even more unpleasant is the thought of having to ask Emi about it."
+# "Even more unpleasant is the thought of having to ask Emi about it."
+""
 
-"Still, after what we've just done, it should be a cakewalk."
+# "Still, after what we've just done, it should be a cakewalk."
+""
 
-hi "Hey, is there a sink?"
+# hi "Hey, is there a sink?"
+hi ""
 
-hi "I'd kinda like to, er."
+# hi "I'd kinda like to, er."
+hi ""
 
-hi "Wash off a little."
+# hi "Wash off a little."
+hi ""
 
 show eminude blush_close_ni
 with charachange
 
-"Emi's jaw drops."
+# "Emi's jaw drops."
+""
 
-emi "In the {b}sink{/b}?"
+# emi "In the {b}sink{/b}?"
+emi ""
 
-hi "Well, there's not really anywhere else to do it, is there?"
+# hi "Well, there's not really anywhere else to do it, is there?"
+hi ""
 
-hi "And it uh… I want to avoid a smell."
+# hi "And it uh… I want to avoid a smell."
+hi ""
 
-hi "That the nurse might notice."
+# hi "That the nurse might notice."
+hi ""
 
-"This is the most awkward conversation I have ever had."
+# "This is the most awkward conversation I have ever had."
+""
 
 show eminude closedsmile_close_ni
 with charachange
 
-emi "You're right."
+# emi "You're right."
+emi ""
 
 show eminude grin_close_ni
 with charachange
 
-emi "Yeah, there's uh… It's on the back wall."
+# emi "Yeah, there's uh… It's on the back wall."
+emi ""
 
 show eminude smile_close_ni
 with charachange
 
-emi "There might be some soap, too."
+# emi "There might be some soap, too."
+emi ""
 
-hi "Thanks."
+# hi "Thanks."
+hi ""
 
 hide eminude
 with charaexit
 
-"There is in fact a little hand soap, which is better than nothing."
+# "There is in fact a little hand soap, which is better than nothing."
+""
 
-"No towel, though. Guess I'll just have to drip dry."
+# "No towel, though. Guess I'll just have to drip dry."
+""
 
 show eminude grin_ni at center
 with charaenter
 
-emi "All finished?"
+# emi "All finished?"
+emi ""
 
-hi "Yeah, that'll do for now. It's not like I'm not going to take a shower after we see the nurse."
+# hi "Yeah, that'll do for now. It's not like I'm not going to take a shower after we see the nurse."
+hi ""
 
 show eminude weaksmile_ni
 with charachange
 
-emi "Glad to hear it."
+# emi "Glad to hear it."
+emi ""
 
 show eminude wink_ni
 with charachange
 
-emi "Now help me find my clothes. You tossed 'em somewhere."
+# emi "Now help me find my clothes. You tossed 'em somewhere."
+emi ""
 
-hi "Hey, you were no better! How am I supposed to explain that hole in my shirt, hmm?"
+# hi "Hey, you were no better! How am I supposed to explain that hole in my shirt, hmm?"
+hi ""
 
 show eminude closedsmile_ni
 with charachange
 
-emi "Heh, sorry. I got a little excited earlier."
+# emi "Heh, sorry. I got a little excited earlier."
+emi ""
 
 scene bg school_sportsstoreroom
 with shorttimeskip
 
-"It takes some time, but finally we're both more or less clothed."
+# "It takes some time, but finally we're both more or less clothed."
+""
 
-"There's a frantic moment where neither of us knows where Emi's wheelchair is, but I recall it going through the door and rescue it."
+# "There's a frantic moment where neither of us knows where Emi's wheelchair is, but I recall it going through the door and rescue it."
+""
 
 show emiwheel neutral_close_ni at center
 with charaenter
 
-emi "Now be more careful going through the door this time, would you?"
+# emi "Now be more careful going through the door this time, would you?"
+emi ""
 
 show emiwheel awayfrown_close_ni
 with charachange
 
-emi "Bumps are not my friend right now."
+# emi "Bumps are not my friend right now."
+emi ""
 
-hi "I am so sorry we tried this."
+# hi "I am so sorry we tried this."
+hi ""
 
 show emiwheel grin_close_ni
 with charachange
 
-"Emi shrugs and grins."
+# "Emi shrugs and grins."
+""
 
 show emiwheel wink_close_ni
 with charachange
 
-emi "Well, it was worth a shot, right?"
+# emi "Well, it was worth a shot, right?"
+emi ""
 
 show emiwheel closedsmile_close_ni
 with charachange
 
-emi "And anyway, it was good exercise, right?"
+# emi "And anyway, it was good exercise, right?"
+emi ""
 
-"Can't argue that."
+# "Can't argue that."
+""
 
 scene bg school_nursehall
 with shorttimeskip
 
-"As we make our way up to the nurse's office, I notice that Emi keeps shifting uncomfortably in her seat."
+# "As we make our way up to the nurse's office, I notice that Emi keeps shifting uncomfortably in her seat."
+""
 
 show emiwheel awayfrown
 with charachange
 
-emi "God, this feels weird."
+# emi "God, this feels weird."
+emi ""
 
 show emiwheel neutral
 with charachange
 
-emi "Good thing I'm in a wheelchair, Hisao."
+# emi "Good thing I'm in a wheelchair, Hisao."
+emi ""
 
-hi "Why's that?"
+# hi "Why's that?"
+hi ""
 
 show emiwheel weaksmile
 with charachange
 
-emi "Because, now I don't have to explain to the nurse why I'm walking funny."
+# emi "Because, now I don't have to explain to the nurse why I'm walking funny."
+emi ""
 
-hi "Oh."
+# hi "Oh."
+hi ""
 
-hi "We're never doing this again."
+# hi "We're never doing this again."
+hi ""
 
 scene bg school_nurseoffice
 show nurse fabulous at center
 with locationchange
 
-"The nurse is at least kind enough to not comment on the marks that Emi left on my shoulders."
+# "The nurse is at least kind enough to not comment on the marks that Emi left on my shoulders."
+""
 
-"Nor does he say a word about Emi's constant shifting about in her wheelchair."
+# "Nor does he say a word about Emi's constant shifting about in her wheelchair."
+""
 
-"Either he didn't notice, or he didn't want to notice."
+# "Either he didn't notice, or he didn't want to notice."
+""
 
-"All the same, I'm going to have to make sure he didn't slip cyanide into my medication for a little while."
+# "All the same, I'm going to have to make sure he didn't slip cyanide into my medication for a little while."
+""
 
-"Just to be safe."
+# "Just to be safe."
+""
 
 stop music fadeout 4.0
 scene bg school_dormhisao
 with locationskip
 
-"I shower for longer than usual, just to be sure I'm clean of our little “experiment”, and then collapse on my bed."
+# "I shower for longer than usual, just to be sure I'm clean of our little “experiment”, and then collapse on my bed."
+""
 
-"Class is in twenty minutes, so I can probably afford a nap."
+# "Class is in twenty minutes, so I can probably afford a nap."
+""
 
 scene black
 with shuteye
@@ -4930,46 +6319,62 @@ with Pause(5.0)
 
 play sound sfx_doorknock
 
-"Knock knock."
+# "Knock knock."
+""
 
-"Who's there?"
-
-play sound sfx_doorknock
-
-"Knock knock."
-
-"That's not how the joke goes at all."
+# "Who's there?"
+""
 
 play sound sfx_doorknock
 
-"Knock knock."
+# "Knock knock."
+""
 
-"I already said who's there!"
+# "That's not how the joke goes at all."
+""
 
-"More importantly, what time is it?"
+play sound sfx_doorknock
 
-"Even more importantly, what day…?"
+# "Knock knock."
+""
+
+# "I already said who's there!"
+""
+
+# "More importantly, what time is it?"
+""
+
+# "Even more importantly, what day…?"
+""
 
 scene bg school_dormhisao
 with openeyefast
 
-"I am suddenly catapulted into wakefulness by both the fact that the knocking still hasn't stopped and the fact that it's noon."
+# "I am suddenly catapulted into wakefulness by both the fact that the knocking still hasn't stopped and the fact that it's noon."
+""
 
-"On a school day."
+# "On a school day."
+""
 
-"Now fully awake, I can remember why I was napping."
+# "Now fully awake, I can remember why I was napping."
+""
 
-"Better not give that excuse to Mutou."
+# "Better not give that excuse to Mutou."
+""
 
-"“Sorry I wasn't in class, I was experimenting sexually with my girlfriend and it tired me out.”"
+# "“Sorry I wasn't in class, I was experimenting sexually with my girlfriend and it tired me out.”"
+""
 
-"Yeah, that'll go over well."
+# "Yeah, that'll go over well."
+""
 
 play sound sfx_doorknock
 
-"I wonder how long this knocking is going to continue."
+# "I wonder how long this knocking is going to continue."
+""
 
-"Guess I ought to answer the door."
+# "Guess I ought to answer the door."
+""
 
 play sound sfx_dooropen
 
@@ -4977,188 +6382,255 @@ scene bg school_dormhallway
 show kenji tsun at center
 with locationchange
 
-"I'm strangely unsurprised to see Kenji on the other side."
+# "I'm strangely unsurprised to see Kenji on the other side."
+""
 
-"Though it appears that Kenji is surprised to see me."
+# "Though it appears that Kenji is surprised to see me."
+""
 
-ke "What the hell are you doing here, man?"
+# ke "What the hell are you doing here, man?"
+ke ""
 
 play music music_kenji fadein 0.5
 
-hi "Well, I was sleeping."
+# hi "Well, I was sleeping."
+hi ""
 
 show kenji neutral
 with charachange
 
-"Kenji nods in understanding."
+# "Kenji nods in understanding."
+""
 
 show kenji happy
 with charachange
 
-ke "Knocked out. I see."
+# ke "Knocked out. I see."
+ke ""
 
 show kenji tsun
 with charachange
 
-ke "I told you to be careful around that Ibarazaki chick, man."
+# ke "I told you to be careful around that Ibarazaki chick, man."
+ke ""
 
-ke "This is the sort of thing that happens when you aren't cautious."
+# ke "This is the sort of thing that happens when you aren't cautious."
+ke ""
 
-"He makes an attempt to look at the back of my head."
+# "He makes an attempt to look at the back of my head."
+""
 
 show kenji neutral
 with charachange
 
-ke "Did she hit you with something?"
+# ke "Did she hit you with something?"
+ke ""
 
-ke "Or was it a drug?"
+# ke "Or was it a drug?"
+ke ""
 
-hi "Stop trying to touch me."
+# hi "Stop trying to touch me."
+hi ""
 
 with flash
 
-"Kenji produces a flashlight and shines it in my eyes."
+# "Kenji produces a flashlight and shines it in my eyes."
+""
 
-ke "You got a concussion?"
+# ke "You got a concussion?"
+ke ""
 
-hi "I wasn't knocked out!"
+# hi "I wasn't knocked out!"
+hi ""
 
 show kenji happy
 with charachange
 
-ke "Maybe you just don't remember."
+# ke "Maybe you just don't remember."
+ke ""
 
-"This conversation isn't going anywhere."
+# "This conversation isn't going anywhere."
+""
 
-hi "No, I just had a tiring morning and fell asleep."
+# hi "No, I just had a tiring morning and fell asleep."
+hi ""
 
 show kenji tsun
 with charachange
 
-ke "Whatever, man."
+# ke "Whatever, man."
+ke ""
 
-ke "If you want to be in denial about this, I guess I can't stop you."
+# ke "If you want to be in denial about this, I guess I can't stop you."
+ke ""
 
-ke "But you gotta watch out for that girl, man. She's not safe."
+# ke "But you gotta watch out for that girl, man. She's not safe."
+ke ""
 
-hi "What?"
+# hi "What?"
+hi ""
 
 show kenji rage
 with charachange
 
-ke "She's not safe to be around; she's one of their most sinister agents!"
+# ke "She's not safe to be around; she's one of their most sinister agents!"
+ke ""
 
-ke "If you're not careful, there's no telling what could happen!"
+# ke "If you're not careful, there's no telling what could happen!"
+ke ""
 
-ke "She's brought down stronger men than you, you know!"
+# ke "She's brought down stronger men than you, you know!"
+ke ""
 
-hi "What the hell are you talking about?"
+# hi "What the hell are you talking about?"
+hi ""
 
-hi "She's not an agent of anything, and she didn't knock me out, okay?"
+# hi "She's not an agent of anything, and she didn't knock me out, okay?"
+hi ""
 
-hi "I also highly doubt that she's brought down anyone at all."
+# hi "I also highly doubt that she's brought down anyone at all."
+hi ""
 
 show kenji tsun
 with charachange
 
-"Kenji looks almost offended."
+# "Kenji looks almost offended."
+""
 
-"I have no idea why."
+# "I have no idea why."
+""
 
-ke "You don't believe me?"
+# ke "You don't believe me?"
+ke ""
 
-ke "That's cold, man. Real cold."
+# ke "That's cold, man. Real cold."
+ke ""
 
-ke "I'm just trying to look out for you. That's what friends do, you know."
+# ke "I'm just trying to look out for you. That's what friends do, you know."
+ke ""
 
-"We're friends? I had no idea."
+# "We're friends? I had no idea."
+""
 
-"Then again, I wonder if Kenji knows what being a friend even entails."
+# "Then again, I wonder if Kenji knows what being a friend even entails."
+""
 
-"I feel something like pity for him, standing there before me."
+# "I feel something like pity for him, standing there before me."
+""
 
-"Maybe he does think he's looking out for me."
+# "Maybe he does think he's looking out for me."
+""
 
-hi "I know, I know."
+# hi "I know, I know."
+hi ""
 
-hi "I'm sorry about that. Thanks for the warning."
+# hi "I'm sorry about that. Thanks for the warning."
+hi ""
 
-"I hold out my hand as a sign of peace."
+# "I hold out my hand as a sign of peace."
+""
 
 show kenji neutral_close
 with characlose
 
-"Kenji shakes it gingerly, like my hand could possibly be on fire."
+# "Kenji shakes it gingerly, like my hand could possibly be on fire."
+""
 
-"There's an awkward silence for a few seconds before Kenji remembers that he's still shaking my hand."
-
-show kenji happy_close
-with charachange
-
-ke "Anyway, I need a favor."
-
-hi "What kind of favor? I'm out of money…"
-
-ke "No you aren't. You've got money kept in your desk drawer under a black notebook. For emergencies."
-
-hi "Did you ransack my room?"
-
-show kenji neutral_close
-with charachange
-
-ke "That's not important."
-
-ke "I don't need money, anyway."
-
-"He adopts a very serious tone."
-
-show kenji tsun_close
-with charachange
-
-ke "I'm about to undertake a major op."
-
-ke "It'll blow the whole conspiracy wide open if I'm right."
-
-ke "But it's dangerous, so I need you to do something for me in case I don't come back."
-
-hi "Uh, sure man. Anything."
-
-"What the hell is he planning on doing?"
-
-"Should I be telling someone about this?"
-
-show kenji neutral_close
-with charachange
-
-ke "If I go missing, wait three days and then mail my journal off to the newspapers."
-
-ke "It's hidden in my room under a false bottom in one of my desk drawers."
-
-hi "How do I get into your room? I don't have a key."
-
-show kenji tsun_close
-with charachange
-
-"Kenji looks at me like I'm crazy."
-
-ke "So pick the lock. You know how to do that, right?"
-
-ke "It's an important skill to learn at a young age!"
-
-hi "Uh, yeah, of course I know how."
-
-hi "I'll be sure to uh, do that for you. If you go missing."
-
-"I don't think I want to read Kenji's journal."
-
-"Either way, Kenji seems pretty happy that I've agreed to do this thing for him."
+# "There's an awkward silence for a few seconds before Kenji remembers that he's still shaking my hand."
+""
 
 show kenji happy_close
 with charachange
 
-ke "Great, man. Great."
+# ke "Anyway, I need a favor."
+ke ""
 
-ke "I'll see you around, I got stuff to do."
+# hi "What kind of favor? I'm out of money…"
+hi ""
+
+# ke "No you aren't. You've got money kept in your desk drawer under a black notebook. For emergencies."
+ke ""
+
+# hi "Did you ransack my room?"
+hi ""
+
+show kenji neutral_close
+with charachange
+
+# ke "That's not important."
+ke ""
+
+# ke "I don't need money, anyway."
+ke ""
+
+# "He adopts a very serious tone."
+""
+
+show kenji tsun_close
+with charachange
+
+# ke "I'm about to undertake a major op."
+ke ""
+
+# ke "It'll blow the whole conspiracy wide open if I'm right."
+ke ""
+
+# ke "But it's dangerous, so I need you to do something for me in case I don't come back."
+ke ""
+
+# hi "Uh, sure man. Anything."
+hi ""
+
+# "What the hell is he planning on doing?"
+""
+
+# "Should I be telling someone about this?"
+""
+
+show kenji neutral_close
+with charachange
+
+# ke "If I go missing, wait three days and then mail my journal off to the newspapers."
+ke ""
+
+# ke "It's hidden in my room under a false bottom in one of my desk drawers."
+ke ""
+
+# hi "How do I get into your room? I don't have a key."
+hi ""
+
+show kenji tsun_close
+with charachange
+
+# "Kenji looks at me like I'm crazy."
+""
+
+# ke "So pick the lock. You know how to do that, right?"
+ke ""
+
+# ke "It's an important skill to learn at a young age!"
+ke ""
+
+# hi "Uh, yeah, of course I know how."
+hi ""
+
+# hi "I'll be sure to uh, do that for you. If you go missing."
+hi ""
+
+# "I don't think I want to read Kenji's journal."
+""
+
+# "Either way, Kenji seems pretty happy that I've agreed to do this thing for him."
+""
+
+show kenji happy_close
+with charachange
+
+# ke "Great, man. Great."
+ke ""
+
+# ke "I'll see you around, I got stuff to do."
+ke ""
 
 stop music fadeout 5.0
 
@@ -5169,44 +6641,58 @@ with Pause(0.5)
 hide kenji
 with None
 
-"And he's gone, dashing down the hallway."
+# "And he's gone, dashing down the hallway."
+""
 
-"He made it seem so final."
+# "He made it seem so final."
+""
 
-"I hope I don't have to carry out his final wishes."
+# "I hope I don't have to carry out his final wishes."
+""
 
 scene bg school_dormhisao
 with locationchange
 
 play sound sfx_doorclose
 
-"Shaking my head, I close my door and walk back to my bed."
+# "Shaking my head, I close my door and walk back to my bed."
+""
 
-"Guess I should go to class, if only to catch the last half of the day."
+# "Guess I should go to class, if only to catch the last half of the day."
+""
 
-"But I've come this far without going to class today…"
+# "But I've come this far without going to class today…"
+""
 
-"And I did want to read more of that Hawking book Mutou lent me…"
+# "And I did want to read more of that Hawking book Mutou lent me…"
+""
 
-"I'm sure he'll understand."
+# "I'm sure he'll understand."
+""
 
 with shorttimeskip
 
 play sound sfx_hammer
 
-"Knock knock."
+# "Knock knock."
+""
 
-"This time the noise jerks my attention away from my book."
+# "This time the noise jerks my attention away from my book."
+""
 
-"An experience not unlike being woken up."
+# "An experience not unlike being woken up."
+""
 
-hi "Who's there?"
+# hi "Who's there?"
+hi ""
 
-emi "Me! Aren't you glad?"
+# emi "Me! Aren't you glad?"
+emi ""
 
 play music music_emi fadein 4.0
 
-"The voice is muffled through the door, but unmistakably Emi's."
+# "The voice is muffled through the door, but unmistakably Emi's."
+""
 
 play sound sfx_dooropen
 
@@ -5214,36 +6700,44 @@ scene bg school_dormhallway
 show emiwheel smile at center
 with locationchange
 
-"I hop up and open the door, smiling broadly."
+# "I hop up and open the door, smiling broadly."
+""
 
-hi "Hey! Nice to see you again!"
+# hi "Hey! Nice to see you again!"
+hi ""
 
 show emiwheel grin
 with charachange
 
-"Emi grins back, staring up at me from her wheelchair."
+# "Emi grins back, staring up at me from her wheelchair."
+""
 
 show emiwheel closedsmile
 with charachange
 
-emi "Yeah, you would have seen me earlier, but the damned elevator wasn't working."
+# emi "Yeah, you would have seen me earlier, but the damned elevator wasn't working."
+emi ""
 
 show emiwheel pout
 with charachange
 
-emi "Had to wait for them to fix it."
+# emi "Had to wait for them to fix it."
+emi ""
 
 show emiwheel awayfrown
 with charachange
 
-emi "You'd think they could keep it in better order, but nooo…"
+# emi "You'd think they could keep it in better order, but nooo…"
+emi ""
 
-"I chuckle a bit at her vexed expression and invite her in."
+# "I chuckle a bit at her vexed expression and invite her in."
+""
 
 scene bg school_dormhisao
 with locationchange
 
-"She wheels in easily, and with my help she hops onto my bed."
+# "She wheels in easily, and with my help she hops onto my bed."
+""
 
 show emi basic_closedgrin:
     center
@@ -5251,239 +6745,310 @@ show emi basic_closedgrin:
     easein 0.5 ypos 1.1
 with charaenter
 
-emi "There. Much more comfortable than that stupid chair."
+# emi "There. Much more comfortable than that stupid chair."
+emi ""
 
 show emi basic_grin:
     ypos 1.1
 with charachange
 
-"A sigh of contentment hangs in the air, and for a minute we both just stare at one another."
+# "A sigh of contentment hangs in the air, and for a minute we both just stare at one another."
+""
 
-"It's at that point that I notice the circles under Emi's eyes."
+# "It's at that point that I notice the circles under Emi's eyes."
+""
 
-"They're not that dark, but they definitely weren't there before."
+# "They're not that dark, but they definitely weren't there before."
+""
 
-"Before I can ask about them, Emi fixes me with a mischievous stare."
+# "Before I can ask about them, Emi fixes me with a mischievous stare."
+""
 
 show emi excited_happy
 with charachange
 
-emi "So, I couldn't help but notice you weren't at lunch today."
+# emi "So, I couldn't help but notice you weren't at lunch today."
+emi ""
 
-emi "In fact, I don't think I saw you at all."
+# emi "In fact, I don't think I saw you at all."
+emi ""
 
 show emi excited_proud
 with charachange
 
-emi "What happened, hmmm?"
+# emi "What happened, hmmm?"
+emi ""
 
-hi "Fell asleep."
+# hi "Fell asleep."
+hi ""
 
-hi "I actually didn't wake up until lunch, and only then because Kenji woke me up."
+# hi "I actually didn't wake up until lunch, and only then because Kenji woke me up."
+hi ""
 
 show emi excited_amused
 with charachange
 
-emi "What had you so tired, hmm?"
+# emi "What had you so tired, hmm?"
+emi ""
 
-hi "Strenuous workout this morning. Slightly uncomfortable, too."
+# hi "Strenuous workout this morning. Slightly uncomfortable, too."
+hi ""
 
 show emi basic_closedhappy
 with charachange
 
-"Emi coughs, a half-laughing, half-embarrassed noise."
+# "Emi coughs, a half-laughing, half-embarrassed noise."
+""
 
 show emi basic_happy
 with charachange
 
-emi "Remind me not to do that again."
+# emi "Remind me not to do that again."
+emi ""
 
-hi "No problem. It wasn't exactly great for me either, to be honest."
+# hi "No problem. It wasn't exactly great for me either, to be honest."
+hi ""
 
-hi "We'll just avoid that from now on."
+# hi "We'll just avoid that from now on."
+hi ""
 
-hi "Are you, er, still sore?"
+# hi "Are you, er, still sore?"
+hi ""
 
 show emi basic_confused
 with charachange
 
-"Emi stares at me in disbelief."
+# "Emi stares at me in disbelief."
+""
 
-hi "What? It's a legitimate question!"
+# hi "What? It's a legitimate question!"
+hi ""
 
 show emi sad_grin
 with charachange
 
-emi "Of all the questions I never thought I'd be asked, that's one of them."
+# emi "Of all the questions I never thought I'd be asked, that's one of them."
+emi ""
 
-hi "Well, I didn't ever expect to have to ask it, so we're even."
+# hi "Well, I didn't ever expect to have to ask it, so we're even."
+hi ""
 
 show emi basic_closedhappy
 with charachange
 
-"Emi laughs at this."
+# "Emi laughs at this."
+""
 
-emi "I guess so, huh?"
+# emi "I guess so, huh?"
+emi ""
 
 stop music fadeout 5.0
 
 show emi sad_shy
 with charachange
 
-emi "Well, since you asked, yes. I'm still a little sore."
+# emi "Well, since you asked, yes. I'm still a little sore."
+emi ""
 
 show emi sad_pout
 with charachange
 
-emi "We're never doing that again."
+# emi "We're never doing that again."
+emi ""
 
-hi "No arguments from here."
+# hi "No arguments from here."
+hi ""
 
-"A yawn escapes her, and I raise an eyebrow."
+# "A yawn escapes her, and I raise an eyebrow."
+""
 
-hi "Tired?"
+# hi "Tired?"
+hi ""
 
 show emi sad_grin
 with charachange
 
-"Emi nods sleepily."
+# "Emi nods sleepily."
+""
 
 play music music_serene fadein 8.0
 
 show emi sad_depressed
 with charachange
 
-emi "Haven't slept well."
+# emi "Haven't slept well."
+emi ""
 
-"Not sleeping well?"
+# "Not sleeping well?"
+""
 
-"I can tell that she didn't mean to tell me this either, because she gives a little start like she's just been caught lying and hastens to add,"
+# "I can tell that she didn't mean to tell me this either, because she gives a little start like she's just been caught lying and hastens to add,"
+""
 
 show emi basic_closedgrin
 with charachange
 
-emi "It's not a big deal, though."
+# emi "It's not a big deal, though."
+emi ""
 
-hi "What's the trouble?"
+# hi "What's the trouble?"
+hi ""
 
 show emi basic_grin
 with charachange
 
-"Emi shrugs and refuses to elaborate."
+# "Emi shrugs and refuses to elaborate."
+""
 
-hi "Stressed over exams?"
+# hi "Stressed over exams?"
+hi ""
 
-"Another shrug, but after a pause, Emi nods hesitantly."
+# "Another shrug, but after a pause, Emi nods hesitantly."
+""
 
 show emi sad_shy
 with charachange
 
-emi "Er, yeah, I guess."
+# emi "Er, yeah, I guess."
+emi ""
 
-emi "Actually, that's why I stopped by."
+# emi "Actually, that's why I stopped by."
+emi ""
 
-"She begins to look more and more miserable."
+# "She begins to look more and more miserable."
+""
 
-"Not so you'd notice, of course; but her eyes are on her lap, she's fidgeting and her voice is quiet."
+# "Not so you'd notice, of course; but her eyes are on her lap, she's fidgeting and her voice is quiet."
+""
 
 show emi sad_pout
 with charachange
 
-emi "We uh, we need to stop hanging out so much."
+# emi "We uh, we need to stop hanging out so much."
+emi ""
 
-hi "Huh? Why?"
+# hi "Huh? Why?"
+hi ""
 
-"Emi takes a deep breath, like she's been practicing this."
+# "Emi takes a deep breath, like she's been practicing this."
+""
 
 show emi sad_shy
 with charachange
 
-emi "Because you're too much fun to be around."
+# emi "Because you're too much fun to be around."
+emi ""
 
-emi "And I can't concentrate when you're near me."
+# emi "And I can't concentrate when you're near me."
+emi ""
 
-emi "With exams coming up soon, I just… can't have that distraction."
+# emi "With exams coming up soon, I just… can't have that distraction."
+emi ""
 
 show emi sad_depressed
 with charachange
 
-emi "Otherwise my grades will be pretty lousy, I'm afraid."
+# emi "Otherwise my grades will be pretty lousy, I'm afraid."
+emi ""
 
-hi "I could help you study…"
+# hi "I could help you study…"
+hi ""
 
 show emi sad_grin
 with charachange
 
-"She smiles at me, clearly unhappy with the situation."
+# "She smiles at me, clearly unhappy with the situation."
+""
 
-emi "I'd love it if you could, but we wouldn't actually study, would we?"
+# emi "I'd love it if you could, but we wouldn't actually study, would we?"
+emi ""
 
 show emi sad_shy
 with charachange
 
-emi "I mean even now, I'm trying to have a conversation with you but I kinda just want to, uh…"
+# emi "I mean even now, I'm trying to have a conversation with you but I kinda just want to, uh…"
+emi ""
 
 show emi sad_shyblush
 with charachange
 
-emi "Not converse."
+# emi "Not converse."
+emi ""
 
-hi "Ah."
+# hi "Ah."
+hi ""
 
-hi "Overwhelmed by my rugged manliness. I understand."
+# hi "Overwhelmed by my rugged manliness. I understand."
+hi ""
 
 show emi basic_grin
 with charachange
 
-"That earns me a grin, at least."
+# "That earns me a grin, at least."
+""
 
-"Emi shakes her head."
+# "Emi shakes her head."
+""
 
 show emi basic_closedgrin
 with charachange
 
-emi "Idiot. You're full of yourself."
+# emi "Idiot. You're full of yourself."
+emi ""
 
-hi "Well, I am pretty irresistible."
+# hi "Well, I am pretty irresistible."
+hi ""
 
 show emi sad_shyblush
 with charachange
 
-emi "Er, more or less. I guess."
+# emi "Er, more or less. I guess."
+emi ""
 
 show emi sad_grin
 with charachange
 
-emi "So that's the situation, Hisao."
+# emi "So that's the situation, Hisao."
+emi ""
 
-emi "I have too much fun around you, and if I'm going to go into exams prepared, I need to be alone."
+# emi "I have too much fun around you, and if I'm going to go into exams prepared, I need to be alone."
+emi ""
 
-hi "Hey, that's okay."
+# hi "Hey, that's okay."
+hi ""
 
-"It really seems to have been bothering her."
+# "It really seems to have been bothering her."
+""
 
-"Besides, it's only a couple of weeks. And we'll still see each other in the mornings, and at lunch."
+# "Besides, it's only a couple of weeks. And we'll still see each other in the mornings, and at lunch."
+""
 
-hi  "We can just hang out at school, no problem."
+# hi  "We can just hang out at school, no problem."
+hi ""
 
-hi "And after exams, we'll go on a date to celebrate their being over, okay?"
+# hi "And after exams, we'll go on a date to celebrate their being over, okay?"
+hi ""
 
 show emi basic_closedgrin
 with charachange
 
-"Emi grins, pleased by this proposal."
+# "Emi grins, pleased by this proposal."
+""
 
 show emi basic_happy
 with charachange
 
-emi "Yeah, sure! That sounds great!"
+# emi "Yeah, sure! That sounds great!"
+emi ""
 
 show emi excited_amused_close at center
 with characlose
 
-"As if to signal the end of the conversation, she leans in and kisses me."
+# "As if to signal the end of the conversation, she leans in and kisses me."
+""
 
-"The rest of the night is not spent worrying about exams."
+# "The rest of the night is not spent worrying about exams."
+""
 
 stop music fadeout 2.0
 
@@ -5505,57 +7070,81 @@ with locationchange
 nvl clear
 nvl show dissolve
 
-n "\n\nIt's weird how easily Emi and I can keep from seeing one another after class now."
+# n "\n\nIt's weird how easily Emi and I can keep from seeing one another after class now."
+n ""
 
-n "Actually, I'd venture to say that it's vaguely disturbing."
+# n "Actually, I'd venture to say that it's vaguely disturbing."
+n ""
 
-n "As easily as we'd come together, we seem to have split apart without much trouble."
+# n "As easily as we'd come together, we seem to have split apart without much trouble."
+n ""
 
-n "Well, I guess that's not exactly true."
+# n "Well, I guess that's not exactly true."
+n ""
 
-n "We'd both been pretty bummed after that last night together."
+# n "We'd both been pretty bummed after that last night together."
+n ""
 
-n "And we get to see each other every morning for our runs (and just our runs, I might add)."
+# n "And we get to see each other every morning for our runs (and just our runs, I might add)."
+n ""
 
-n "Lunch, too. I especially enjoy lunchtime with her."
+# n "Lunch, too. I especially enjoy lunchtime with her."
+n ""
 
-n "We have plenty of time to talk about everything outside of school, whereas the morning runs have become increasingly businesslike."
+# n "We have plenty of time to talk about everything outside of school, whereas the morning runs have become increasingly businesslike."
+n ""
 
-n "I think it's because Emi wants to make up for our foolery in the storage shed."
+# n "I think it's because Emi wants to make up for our foolery in the storage shed."
+n ""
 
-n "But no matter how much we joke at lunch, I can't help feeling a little worried about her."
-
-nvl clear
-
-n "\n\nShe seems distracted more often, and I've caught her fidgeting nervously more than once."
-
-n "Never figured her to be someone who cared that deeply about exams, but they certainly seem to be taking their toll."
-
-n "Even though they haven't even started."
-
-n "This is just the run up, the deep breath before the plunge."
-
-n "Tomorrow, the real trials begin."
-
-n "Or the real exams, anyway."
-
-n "As for me, I actually don't feel that worried about exams at all."
-
-n "I'm not sure why. I mean, they're pretty important; my scores here will determine my odds of getting into a good university."
-
-n "Hell, if I'm too cavalier now, it could spell doom for my academic career."
-
-n "But going into them, I feel confident that I'll come out the other side okay."
+# n "But no matter how much we joke at lunch, I can't help feeling a little worried about her."
+n ""
 
 nvl clear
 
-n "\n\n\n\n\n\nMutou thinks I've got the science examination locked up, at any rate."
+# n "\n\nShe seems distracted more often, and I've caught her fidgeting nervously more than once."
+n ""
 
-n "Or as he says, “The last thing that should give you trouble is my exam, Hisao. It's way beneath your talents.”"
+# n "Never figured her to be someone who cared that deeply about exams, but they certainly seem to be taking their toll."
+n ""
 
-n "Then again, it is Mutou who's telling me this."
+# n "Even though they haven't even started."
+n ""
 
-n "His praise of me carries the veiled implication that anything less than perfect from me would be a disappointment, which has actually caused me to fret more than I should about the exam."
+# n "This is just the run up, the deep breath before the plunge."
+n ""
+
+# n "Tomorrow, the real trials begin."
+n ""
+
+# n "Or the real exams, anyway."
+n ""
+
+# n "As for me, I actually don't feel that worried about exams at all."
+n ""
+
+# n "I'm not sure why. I mean, they're pretty important; my scores here will determine my odds of getting into a good university."
+n ""
+
+# n "Hell, if I'm too cavalier now, it could spell doom for my academic career."
+n ""
+
+# n "But going into them, I feel confident that I'll come out the other side okay."
+n ""
+
+nvl clear
+
+# n "\n\n\n\n\n\nMutou thinks I've got the science examination locked up, at any rate."
+n ""
+
+# n "Or as he says, “The last thing that should give you trouble is my exam, Hisao. It's way beneath your talents.”"
+n ""
+
+# n "Then again, it is Mutou who's telling me this."
+n ""
+
+# n "His praise of me carries the veiled implication that anything less than perfect from me would be a disappointment, which has actually caused me to fret more than I should about the exam."
+n ""
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -5567,13 +7156,17 @@ with locationchange
 
 window show
 
-"It's for that reason that I find myself in the library after class, poring over the textbook."
+# "It's for that reason that I find myself in the library after class, poring over the textbook."
+""
 
-"Pretty simple things to look over; some formulas of velocity, a few bits about friction…"
+# "Pretty simple things to look over; some formulas of velocity, a few bits about friction…"
+""
 
-"A walk in the park compared to my dreaded English exam. Never was good with languages…"
+# "A walk in the park compared to my dreaded English exam. Never was good with languages…"
+""
 
-"As I flip through my notes one more time, my mind begins to wander."
+# "As I flip through my notes one more time, my mind begins to wander."
+""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -5581,23 +7174,32 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n\nAfter these exams are over, things should get easier."
+# n "\n\n\nAfter these exams are over, things should get easier."
+n ""
 
-n "Soon we'll be graduated."
+# n "Soon we'll be graduated."
+n ""
 
-n "Then off to college, hopefully."
+# n "Then off to college, hopefully."
+n ""
 
-n "I remember my abortive attempt to find out what Emi plans to do after high school."
+# n "I remember my abortive attempt to find out what Emi plans to do after high school."
+n ""
 
-n "Hmm, she avoided the subject pretty deftly, as I recall."
+# n "Hmm, she avoided the subject pretty deftly, as I recall."
+n ""
 
-n "Heck, it seems that just about every time I push too hard, she dances around the subject."
+# n "Heck, it seems that just about every time I push too hard, she dances around the subject."
+n ""
 
-n "Or distracts me through… other means."
+# n "Or distracts me through… other means."
+n ""
 
-n "Like a few days ago at lunch, when Rin wasn't around…"
+# n "Like a few days ago at lunch, when Rin wasn't around…"
+n ""
 
-n "Heh."
+# n "Heh."
+n ""
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -5610,306 +7212,411 @@ stop music fadeout 0.2
 show yuuko happy_up
 with vpunch
 
-yu "I've done it!"
+# yu "I've done it!"
+yu ""
 
-"I'm startled from my reverie by Yuuko's triumphant shout."
+# "I'm startled from my reverie by Yuuko's triumphant shout."
+""
 
-hi "Gah!"
+# hi "Gah!"
+hi ""
 
 show yuuko panic_up
 with charachange
 
-"Yuuko seems mortified at my sudden starting."
+# "Yuuko seems mortified at my sudden starting."
+""
 
 play music music_happiness fadein 2.0
 
-yu "Oh my god!"
+# yu "Oh my god!"
+yu ""
 
 show yuuko panic_down
 with charachange
 
-yu "I'm so sorry! I just got - and I really wasn't - and it's just that—"
+# yu "I'm so sorry! I just got - and I really wasn't - and it's just that—"
+yu ""
 
-"As she stutters, I move to quickly calm her down before she gets too agitated."
+# "As she stutters, I move to quickly calm her down before she gets too agitated."
+""
 
-hi "Woah, hey."
+# hi "Woah, hey."
+hi ""
 
-"My words seem ineffective."
+# "My words seem ineffective."
+""
 
-"Yuuko continues to work herself into a complete frenzy."
+# "Yuuko continues to work herself into a complete frenzy."
+""
 
 show yuuko panic_up
 with charachange
 
-yu "And it's a library and I shouldn't be—"
+# yu "And it's a library and I shouldn't be—"
+yu ""
 
-hi "Easy there, just calm down."
+# hi "Easy there, just calm down."
+hi ""
 
 show yuuko cry_down
 with charachange
 
-yu "And really I'm setting a bad example, and now I'll get fired because I can't do anything right—"
+# yu "And really I'm setting a bad example, and now I'll get fired because I can't do anything right—"
+yu ""
 
 hi "YUUKO!" with vpunch
 
 show yuuko worried_up
 with charachange
 
-"Shouting seems to work, though I draw the ire of several other students studying in the library."
+# "Shouting seems to work, though I draw the ire of several other students studying in the library."
+""
 
-"Yuuko snaps to attention, like a soldier who's just heard the captain bark an order."
+# "Yuuko snaps to attention, like a soldier who's just heard the captain bark an order."
+""
 
 show yuuko neurotic_up
 with charachange
 
-yu "Sorry! Sorry!"
+# yu "Sorry! Sorry!"
+yu ""
 
-hi "Calm down, it's okay."
+# hi "Calm down, it's okay."
+hi ""
 
-hi "You just startled me a little, and that's only because I was daydreaming instead of studying."
+# hi "You just startled me a little, and that's only because I was daydreaming instead of studying."
+hi ""
 
-hi "So really, you got me back on task."
+# hi "So really, you got me back on task."
+hi ""
 
-"This is a complete lie. But it seems to work."
+# "This is a complete lie. But it seems to work."
+""
 
 show yuuko worried_down
 with charachange
 
-"Yuuko takes a deep breath and seems to calm down a little."
+# "Yuuko takes a deep breath and seems to calm down a little."
+""
 
-"Though she keeps shifting around with a nervous energy that seems awfully familiar."
+# "Though she keeps shifting around with a nervous energy that seems awfully familiar."
+""
 
-hi "So, what's got you so excited anyway?"
+# hi "So, what's got you so excited anyway?"
+hi ""
 
 show yuuko neutral_up_close
 with characlose
 
-yu "The Yamaku Cat Burglar!"
+# yu "The Yamaku Cat Burglar!"
+yu ""
 
-"To her credit, Yuuko manages to convey her intense excitement in a whisper."
+# "To her credit, Yuuko manages to convey her intense excitement in a whisper."
+""
 
 show yuuko closedhappy_up_close
 with charachange
 
-yu "I think I know who it is!"
+# yu "I think I know who it is!"
+yu ""
 
 show yuuko happy_down_close
 with charachange
 
-yu "I got an anonymous tip as to their identity!"
+# yu "I got an anonymous tip as to their identity!"
+yu ""
 
-yu "So I did some spying, and I think the tipster was right!"
+# yu "So I did some spying, and I think the tipster was right!"
+yu ""
 
-hi "Oh really? And who was this er, burglar?"
+# hi "Oh really? And who was this er, burglar?"
+hi ""
 
 show yuuko worried_down_close
 with charachange
 
-"Yuuko shuts her mouth, shaking her head decisively."
+# "Yuuko shuts her mouth, shaking her head decisively."
+""
 
-yu "Nope, I can't tell you that."
+# yu "Nope, I can't tell you that."
+yu ""
 
-hi "Why not?"
+# hi "Why not?"
+hi ""
 
 show yuuko worried_up_close
 with charachange
 
-yu "It's between me and the burglar."
+# yu "It's between me and the burglar."
+yu ""
 
-yu "I can't risk you warning him that I'm on to his game."
+# yu "I can't risk you warning him that I'm on to his game."
+yu ""
 
-yu "He could tip his hand early and blow town."
+# yu "He could tip his hand early and blow town."
+yu ""
 
-yu "Then I'm left with no perp."
+# yu "Then I'm left with no perp."
+yu ""
 
-"When did Yuuko start talking like a hard-boiled detective?"
+# "When did Yuuko start talking like a hard-boiled detective?"
+""
 
-hi "I wouldn't warn them! Why would I care?"
+# hi "I wouldn't warn them! Why would I care?"
+hi ""
 
 show yuuko neutral_down
 with charadistant
 
-yu "If you've got to ask that question, then you don't need to know."
+# yu "If you've got to ask that question, then you don't need to know."
+yu ""
 
-hi "That doesn't make any sense, but okay."
+# hi "That doesn't make any sense, but okay."
+hi ""
 
-hi "Congratulations, I guess?"
+# hi "Congratulations, I guess?"
+hi ""
 
 show yuuko closedhappy_down
 with charachange
 
-yu "Thanks!"
+# yu "Thanks!"
+yu ""
 
 show yuuko worried_up
 with charachange
 
-yu "Uh, what for?"
+# yu "Uh, what for?"
+yu ""
 
-hi "The uh, cat burglar thing?"
+# hi "The uh, cat burglar thing?"
+hi ""
 
 show yuuko smile_down
 with charachange
 
-"Yuuko nods and smiles appreciatively."
+# "Yuuko nods and smiles appreciatively."
+""
 
-yu "So! Studying for exams?"
+# yu "So! Studying for exams?"
+yu ""
 
-hi "Well, that was the plan. I'm not having much luck, though."
+# hi "Well, that was the plan. I'm not having much luck, though."
+hi ""
 
 show yuuko worried_down
 with charachange
 
-yu "Really? Is it because you can't find a book?"
+# yu "Really? Is it because you can't find a book?"
+yu ""
 
 show yuuko panic_up
 with charachange
 
-yu "I'm really sorry!"
+# yu "I'm really sorry!"
+yu ""
 
-yu "I've been meaning to clean the shelves up for weeks now, but I keep getting distracted!"
+# yu "I've been meaning to clean the shelves up for weeks now, but I keep getting distracted!"
+yu ""
 
-yu "I'm so sorry!"
+# yu "I'm so sorry!"
+yu ""
 
-hi "Woah, wait."
+# hi "Woah, wait."
+hi ""
 
-hi "It's not that. I've got my book right here."
+# hi "It's not that. I've got my book right here."
+hi ""
 
-"To illustrate the point and hopefully calm Yuuko down, I show her the textbook in front of me."
+# "To illustrate the point and hopefully calm Yuuko down, I show her the textbook in front of me."
+""
 
-hi "My mind just keeps wandering, is all."
+# hi "My mind just keeps wandering, is all."
+hi ""
 
 show yuuko worried_up
 with charachange
 
-yu "Is it because of the noise in here?"
+# yu "Is it because of the noise in here?"
+yu ""
 
-yu "I'm trying to be more strict about the noise levels, but I can't bring myself to yell at people…"
+# yu "I'm trying to be more strict about the noise levels, but I can't bring myself to yell at people…"
+yu ""
 
 show yuuko worried_down
 with charachange
 
-yu "I mean aren't their lives hard enough without me throwing my authority around?"
+# yu "I mean aren't their lives hard enough without me throwing my authority around?"
+yu ""
 
-hi "No, it's not the noise level either, I promise."
+# hi "No, it's not the noise level either, I promise."
+hi ""
 
-hi "I'm just…"
+# hi "I'm just…"
+hi ""
 
-"Hell, I don't know."
+# "Hell, I don't know."
+""
 
-"Worried about Emi."
+# "Worried about Emi."
+""
 
-"Worried about us."
+# "Worried about us."
+""
 
-"Worried about what happens after we graduate."
+# "Worried about what happens after we graduate."
+""
 
-hi "Emi's been kind of weird, lately."
+# hi "Emi's been kind of weird, lately."
+hi ""
 
 show yuuko worried_up
 with charachange
 
-yu "What do you mean?"
+# yu "What do you mean?"
+yu ""
 
-hi "Well, you know how we're dating now?"
+# hi "Well, you know how we're dating now?"
+hi ""
 
-hi "I just don't know that we're actually, you know…"
+# hi "I just don't know that we're actually, you know…"
+hi ""
 
-hi "A couple. Or at least I don't know that we're beyond friends."
+# hi "A couple. Or at least I don't know that we're beyond friends."
+hi ""
 
-"Though friends normally don't do the sort of things we do."
+# "Though friends normally don't do the sort of things we do."
+""
 
-"Physically we're a couple."
+# "Physically we're a couple."
+""
 
-"Coupling, at least."
+# "Coupling, at least."
+""
 
-hi "It's like every time I try to find out more about her, or about what she wants to do with her life, she dodges the question."
+# hi "It's like every time I try to find out more about her, or about what she wants to do with her life, she dodges the question."
+hi ""
 
-hi "Like the other day, I was talking to her at lunch about some schools I've been looking into."
+# hi "Like the other day, I was talking to her at lunch about some schools I've been looking into."
+hi ""
 
-hi "And I asked her, “Have you looked into any schools lately?”"
+# hi "And I asked her, “Have you looked into any schools lately?”"
+hi ""
 
-hi "She shrugs in response, says no, and when I ask why not, she says that she doesn't think that far ahead."
+# hi "She shrugs in response, says no, and when I ask why not, she says that she doesn't think that far ahead."
+hi ""
 
-hi "I asked why she had that policy, and she…"
+# hi "I asked why she had that policy, and she…"
+hi ""
 
-"I suddenly realize what I'm about to start describing, and wisely decide to clam up."
+# "I suddenly realize what I'm about to start describing, and wisely decide to clam up."
+""
 
 show yuuko neutral_up
 with charachange
 
-yu "She what?"
+# yu "She what?"
+yu ""
 
-hi "Er, she changed the subject."
+# hi "Er, she changed the subject."
+hi ""
 
-hi "Wouldn't talk about it."
+# hi "Wouldn't talk about it."
+hi ""
 
 show yuuko neutral_down
 with charachange
 
-yu "Maybe it's an uncomfortable subject for her?"
+# yu "Maybe it's an uncomfortable subject for her?"
+yu ""
 
-yu "Or she just doesn't think it needs explaining."
+# yu "Or she just doesn't think it needs explaining."
+yu ""
 
-hi "Yeah, but it's not just that."
+# hi "Yeah, but it's not just that."
+hi ""
 
-hi "Every time I try to find out what's been bothering her, she changes the subject too."
+# hi "Every time I try to find out what's been bothering her, she changes the subject too."
+hi ""
 
-hi "It's like she likes being with me, but not getting close to me."
+# hi "It's like she likes being with me, but not getting close to me."
+hi ""
 
-"Now that I've said it out loud, I feel worse."
+# "Now that I've said it out loud, I feel worse."
+""
 
-"Yuuko digests this bit of information."
+# "Yuuko digests this bit of information."
+""
 
 show yuuko worried_down
 with charachange
 
-yu "You know, it seems to me that you're more serious about this than she is."
+# yu "You know, it seems to me that you're more serious about this than she is."
+yu ""
 
-"I can almost feel my stomach twist into a knot."
+# "I can almost feel my stomach twist into a knot."
+""
 
-"She's right."
+# "She's right."
+""
 
-"That's exactly what it seems like."
+# "That's exactly what it seems like."
+""
 
-hi "But is that really what's going on? I mean…"
+# hi "But is that really what's going on? I mean…"
+hi ""
 
 show yuuko panic_up
 with charachange
 
-yu "Sorry! I'm just talking nonsense!"
+# yu "Sorry! I'm just talking nonsense!"
+yu ""
 
-yu "You shouldn't take my advice, you barely know me!"
+# yu "You shouldn't take my advice, you barely know me!"
+yu ""
 
 show yuuko cry_down
 with charachange
 
-yu "I'm just the librarian, and I'm single so you can imagine I can't know what I'm talking about!"
+# yu "I'm just the librarian, and I'm single so you can imagine I can't know what I'm talking about!"
+yu ""
 
-hi "No, I think…"
+# hi "No, I think…"
+hi ""
 
-hi "I think you have a point."
+# hi "I think you have a point."
+hi ""
 
-"As much as it hurts to even consider it."
+# "As much as it hurts to even consider it."
+""
 
-"Yuuko seems to try desperately to find a way to soften the blow somewhat."
+# "Yuuko seems to try desperately to find a way to soften the blow somewhat."
+""
 
 show yuuko neutral_down
 with charachange
 
-yu "Er, look."
+# yu "Er, look."
+yu ""
 
 show yuuko smile_down
 with charachange
 
-yu "I'm probably wrong, but if you want to be sure of how obviously wrong I am, maybe you should just talk to her?"
+# yu "I'm probably wrong, but if you want to be sure of how obviously wrong I am, maybe you should just talk to her?"
+yu ""
 
-yu "Get some time alone and just ask about it."
+# yu "Get some time alone and just ask about it."
+yu ""
 
 show yuuko closedhappy_down
 with charachange
 
-yu "And don't let her change the subject, either!"
+# yu "And don't let her change the subject, either!"
+yu ""
 
-hi "Yeah, maybe I should do that."
+# hi "Yeah, maybe I should do that."
+hi ""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -5917,29 +7624,41 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\nOr maybe I should just enjoy what I have."
+# n "\n\nOr maybe I should just enjoy what I have."
+n ""
 
-n "We have fun hanging out, after all."
+# n "We have fun hanging out, after all."
+n ""
 
-n "And the runs are nice, and the other activities are nice, and talking to her is nice…"
+# n "And the runs are nice, and the other activities are nice, and talking to her is nice…"
+n ""
 
-n "Do I really need to get closer to her? What I've got right now is pretty good."
+# n "Do I really need to get closer to her? What I've got right now is pretty good."
+n ""
 
-n "But that's silly."
+# n "But that's silly."
+n ""
 
-n "I want to get closer to her."
+# n "I want to get closer to her."
+n ""
 
-n "I want to be able to help her out with whatever is bothering her."
+# n "I want to be able to help her out with whatever is bothering her."
+n ""
 
-n "But… maybe I should wait until after exams are over."
+# n "But… maybe I should wait until after exams are over."
+n ""
 
-n "Maybe she'll brighten up once the stress has passed."
+# n "Maybe she'll brighten up once the stress has passed."
+n ""
 
-n "If she does, then I don't need to worry about it any more."
+# n "If she does, then I don't need to worry about it any more."
+n ""
 
-n "But if she doesn't, well."
+# n "But if she doesn't, well."
+n ""
 
-n "I'll cross that bridge when I come to it."
+# n "I'll cross that bridge when I come to it."
+n ""
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -5949,12 +7668,14 @@ window show
 
 stop music fadeout 5.0
 
-"I thank Yuuko for her advice and head back to my room."
+# "I thank Yuuko for her advice and head back to my room."
+""
 
 scene bg school_hallway2
 with locationchange
 
-"Maybe I'll be able to concentrate more on my studies in there."
+# "Maybe I'll be able to concentrate more on my studies in there."
+""
 
 scene black
 with dissolve
@@ -5967,28 +7688,38 @@ scene bg school_hallway3
 with locationskip
 play music music_tranquil fadein 3.0
 
-"I leave the room after finishing my final exam and breathe a sigh of relief."
+# "I leave the room after finishing my final exam and breathe a sigh of relief."
+""
 
-"As I'd hoped, the exams weren't so bad. I managed to breeze through just about everything but the English final."
+# "As I'd hoped, the exams weren't so bad. I managed to breeze through just about everything but the English final."
+""
 
-"And even that was acceptable."
+# "And even that was acceptable."
+""
 
-"I wonder how Emi did."
+# "I wonder how Emi did."
+""
 
-"Even more so, how she's doing; she looked terrible at lunch today."
+# "Even more so, how she's doing; she looked terrible at lunch today."
+""
 
-"I mean, she was pretty happy to be out of her wheelchair, but she was so exhausted."
+# "I mean, she was pretty happy to be out of her wheelchair, but she was so exhausted."
+""
 
-"Something's been wearing her down, and I'm starting to really doubt that it was just the exams."
+# "Something's been wearing her down, and I'm starting to really doubt that it was just the exams."
+""
 
-"Should I confront her about this, though?"
+# "Should I confront her about this, though?"
+""
 
-"My musing is interrupted by a tap on the shoulder."
+# "My musing is interrupted by a tap on the shoulder."
+""
 
 show muto smile at center
 with charaenter
 
-mu "Hey, Hisao."
+# mu "Hey, Hisao."
+mu ""
 
 label th_choiceE24:
 menu:
@@ -6008,12 +7739,14 @@ label th_E24a:
 
 #if a
 
-hi "Yeah, I've got some time. Nowhere important to be or anything like that."
+# hi "Yeah, I've got some time. Nowhere important to be or anything like that."
+hi ""
 
 show muto normal
 with charachange
 
-"Mutou raises an eyebrow as if questioning my statement, then beckons me back into the classroom."
+# "Mutou raises an eyebrow as if questioning my statement, then beckons me back into the classroom."
+""
 
 hide muto
 with charaexit
@@ -6024,170 +7757,230 @@ with locationchange
 show muto normal at center
 with charaenter
 
-mu "I wanted to get some feedback from you, if I could."
+# mu "I wanted to get some feedback from you, if I could."
+mu ""
 
-mu "I know that this course wasn't quite up to your level…"
+# mu "I know that this course wasn't quite up to your level…"
+mu ""
 
-hi "Don't worry about it. The science club activities more than made up for it."
-
-show muto smile
-with charachange
-
-mu "Hmm, did they?"
-
-show muto normal
-with charachange
-
-mu "Well in fact, that's what I wanted to talk to you about."
-
-mu "Do you think that was a worthwhile activity? Just for my own reference."
-
-hi "Well yeah, it was a great way to go further than we did in class. It was definitely worthwhile."
+# hi "Don't worry about it. The science club activities more than made up for it."
+hi ""
 
 show muto smile
 with charachange
 
-"Mutou seems delighted by my response."
-
-mu "That's great! Exactly the sort of thing I was hoping for."
-
-mu "You know, Hisao, I'm glad you came here. It's always good to have a student who really gets into the subject you teach."
-
-mu "In a way, it makes dealing with the rest of the students more tolerable."
-
-mu "You're a bright kid, too. You took to this stuff like a duck to water, or some other such simile."
-
-hi "Er, thanks."
-
-hi "You were a great help. Especially with that college stuff."
+# mu "Hmm, did they?"
+mu ""
 
 show muto normal
 with charachange
 
-mu "There's one more thing, Hisao."
+# mu "Well in fact, that's what I wanted to talk to you about."
+mu ""
 
-mu "A bit of advice, from one scientist to another."
+# mu "Do you think that was a worthwhile activity? Just for my own reference."
+mu ""
 
-hi "What's that?"
-
-mu "What does a scientist do?"
-
-hi "Observe the world around him."
+# hi "Well yeah, it was a great way to go further than we did in class. It was definitely worthwhile."
+hi ""
 
 show muto smile
 with charachange
 
-mu "Exactly. Good."
+# "Mutou seems delighted by my response."
+""
+
+# mu "That's great! Exactly the sort of thing I was hoping for."
+mu ""
+
+# mu "You know, Hisao, I'm glad you came here. It's always good to have a student who really gets into the subject you teach."
+mu ""
+
+# mu "In a way, it makes dealing with the rest of the students more tolerable."
+mu ""
+
+# mu "You're a bright kid, too. You took to this stuff like a duck to water, or some other such simile."
+mu ""
+
+# hi "Er, thanks."
+hi ""
+
+# hi "You were a great help. Especially with that college stuff."
+hi ""
 
 show muto normal
 with charachange
 
-mu "A simple question, but one that most people can't seem to answer. That's the essence of a scientist, Hisao."
+# mu "There's one more thing, Hisao."
+mu ""
 
-mu "We observe what's there, and try to figure it out."
+# mu "A bit of advice, from one scientist to another."
+mu ""
 
-mu "But what if there's something you can't figure out?"
+# hi "What's that?"
+hi ""
 
-mu "What's a scientist to do if he can't observe something?"
+# mu "What does a scientist do?"
+mu ""
 
-mu "How, for example, can we talk about quarks when nobody has ever actually seen one? Or black holes when observing them directly is impossible?"
+# hi "Observe the world around him."
+hi ""
 
-hi "Well, scientific equipment's pretty advanced…"
+show muto smile
+with charachange
+
+# mu "Exactly. Good."
+mu ""
+
+show muto normal
+with charachange
+
+# mu "A simple question, but one that most people can't seem to answer. That's the essence of a scientist, Hisao."
+mu ""
+
+# mu "We observe what's there, and try to figure it out."
+mu ""
+
+# mu "But what if there's something you can't figure out?"
+mu ""
+
+# mu "What's a scientist to do if he can't observe something?"
+mu ""
+
+# mu "How, for example, can we talk about quarks when nobody has ever actually seen one? Or black holes when observing them directly is impossible?"
+mu ""
+
+# hi "Well, scientific equipment's pretty advanced…"
+hi ""
 
 show muto irritated
 with charachange
 
-"Mutou irritably waves away my response."
+# "Mutou irritably waves away my response."
+""
 
-mu "No, that's not it at all."
+# mu "No, that's not it at all."
+mu ""
 
-mu "Those are tools, I'm trying to give you a philosophy."
-
-show muto normal
-with charachange
-
-mu "Think. If you can't observe something directly, then how can you observe it?"
-
-hi "Uh, guess?"
-
-mu "How? How would you guess the movement of a quark? What is your guess based on?"
-
-"Of course."
-
-"I should have thought of it earlier."
-
-hi "The things it affects."
-
-show muto smile
-with charachange
-
-"Mutou claps his hands together excitedly and whoops."
-
-mu "Yes, exactly. Good."
-
-mu "Remember that, Hisao."
+# mu "Those are tools, I'm trying to give you a philosophy."
+mu ""
 
 show muto normal
 with charachange
 
-mu "If you can't examine something directly, it's because you're looking at it wrong."
+# mu "Think. If you can't observe something directly, then how can you observe it?"
+mu ""
 
-mu "You have to look at it differently if you want to uncover the truth. And if it eludes you, then look at what it leaves behind."
+# hi "Uh, guess?"
+hi ""
 
-mu "That is the essence of being a scientist. We never stop looking for the answer. Never take anything for granted."
+# mu "How? How would you guess the movement of a quark? What is your guess based on?"
+mu ""
 
-mu "Observe, experiment, and observe some more."
+# "Of course."
+""
 
-mu "There's a lot of stuff out there that makes no sense, Hisao. Your job is to get it to make sense."
+# "I should have thought of it earlier."
+""
 
-mu "If nothing else, I hope you've learned that here."
-
-hi "I think I can remember that."
+# hi "The things it affects."
+hi ""
 
 show muto smile
 with charachange
 
-"Mutou smiles, satisfied."
+# "Mutou claps his hands together excitedly and whoops."
+""
 
-mu "Good. Now go enjoy your time off. You've earned it."
+# mu "Yes, exactly. Good."
+mu ""
+
+# mu "Remember that, Hisao."
+mu ""
+
+show muto normal
+with charachange
+
+# mu "If you can't examine something directly, it's because you're looking at it wrong."
+mu ""
+
+# mu "You have to look at it differently if you want to uncover the truth. And if it eludes you, then look at what it leaves behind."
+mu ""
+
+# mu "That is the essence of being a scientist. We never stop looking for the answer. Never take anything for granted."
+mu ""
+
+# mu "Observe, experiment, and observe some more."
+mu ""
+
+# mu "There's a lot of stuff out there that makes no sense, Hisao. Your job is to get it to make sense."
+mu ""
+
+# mu "If nothing else, I hope you've learned that here."
+mu ""
+
+# hi "I think I can remember that."
+hi ""
+
+show muto smile
+with charachange
+
+# "Mutou smiles, satisfied."
+""
+
+# mu "Good. Now go enjoy your time off. You've earned it."
+mu ""
 
 stop music fadeout 8.0
 
 scene bg school_hallway3
 with locationchange
 
-"I leave the room feeling a little confused."
+# "I leave the room feeling a little confused."
+""
 
-"What brought that on?"
+# "What brought that on?"
+""
 
-"Although…"
+# "Although…"
+""
 
-"Am I going about this thing with Emi the wrong way?"
+# "Am I going about this thing with Emi the wrong way?"
+""
 
-"If she won't tell me, then can I go about it some other way?"
+# "If she won't tell me, then can I go about it some other way?"
+""
 
 #if b
 
 label th_E24b:
 
-hi "Actually, I've got something I need to do…"
+# hi "Actually, I've got something I need to do…"
+hi ""
 
 show muto normal
 with charachange
 
-mu "Yeah? Oh well."
+# mu "Yeah? Oh well."
+mu ""
 
-mu "I wanted to get some feedback on the science club from you. But we can do that later, I guess."
+# mu "I wanted to get some feedback on the science club from you. But we can do that later, I guess."
+mu ""
 
-mu "Enjoy your break, you hear?"
+# mu "Enjoy your break, you hear?"
+mu ""
 
-hi "Thanks, I will."
+# hi "Thanks, I will."
+hi ""
 
-"I'd really love to chat with Mutou, but I've got other things on my mind."
+# "I'd really love to chat with Mutou, but I've got other things on my mind."
+""
 
-"Specifically, what to do about Emi."
+# "Specifically, what to do about Emi."
+""
 
-"Can I really just confront her?"
+# "Can I really just confront her?"
+""
 
 #end split
 
@@ -6196,7 +7989,8 @@ label th_E24c:
 scene bg school_dormhisao
 with locationskip
 
-"The question keeps spinning in my head even after I made my way back to my room."
+# "The question keeps spinning in my head even after I made my way back to my room."
+""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6204,25 +7998,35 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\nWhat if she gets angry about it?"
+# n "\n\nWhat if she gets angry about it?"
+n ""
 
-n "Besides, what if it's nothing?"
+# n "Besides, what if it's nothing?"
+n ""
 
-n "If I go in and refuse to leave until she tells me what's wrong or something, won't that come off as clingy?"
+# n "If I go in and refuse to leave until she tells me what's wrong or something, won't that come off as clingy?"
+n ""
 
-n "I don't want to start a fight or anything over something like this."
+# n "I don't want to start a fight or anything over something like this."
+n ""
 
-n "Maybe I should just drop the matter and see how she is tomorrow before I do anything."
+# n "Maybe I should just drop the matter and see how she is tomorrow before I do anything."
+n ""
 
-n "Would it be so bad to just let it go?"
+# n "Would it be so bad to just let it go?"
+n ""
 
-n "It's not like we don't enjoy each other's company."
+# n "It's not like we don't enjoy each other's company."
+n ""
 
-n "But odd as it sounds, I really want to… help her."
+# n "But odd as it sounds, I really want to… help her."
+n ""
 
-n "I don't even know what with or if there's anything at all she needs help for."
+# n "I don't even know what with or if there's anything at all she needs help for."
+n ""
 
-n "But I want to."
+# n "But I want to."
+n ""
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -6235,7 +8039,8 @@ nvl hide dissolve
 
 window show
 
-"Suddenly, a knock at my door rouses me."
+# "Suddenly, a knock at my door rouses me."
+""
 
 play sound sfx_dooropen
 
@@ -6243,128 +8048,172 @@ scene bg school_dormhallway
 show kenji neutral at center
 with locationchange
 
-"I open it to see Kenji."
+# "I open it to see Kenji."
+""
 
-hi "Oh, it's you."
+# hi "Oh, it's you."
+hi ""
 
 play music music_kenji
 
 show kenji tsun
 with charachange
 
-ke "It's me? That's it?"
+# ke "It's me? That's it?"
+ke ""
 
-ke "If you had any idea what I'd been through, what I'd done, you'd be happier to see me, dude."
+# ke "If you had any idea what I'd been through, what I'd done, you'd be happier to see me, dude."
+ke ""
 
-ke "I mean that was some epic, you-may-never-see-me-again shit."
+# ke "I mean that was some epic, you-may-never-see-me-again shit."
+ke ""
 
-ke "And here you're just acting like I went down to the store for some milk."
+# ke "And here you're just acting like I went down to the store for some milk."
+ke ""
 
 show kenji happy
 with charachange
 
-ke "You're a cold man, Hisao. I really respect that."
+# ke "You're a cold man, Hisao. I really respect that."
+ke ""
 
-hi "Uh, thanks, I guess."
+# hi "Uh, thanks, I guess."
+hi ""
 
 show kenji neutral
 with charachange
 
-ke "It's smart to play it safe, you know. Don't show any emotion."
+# ke "It's smart to play it safe, you know. Don't show any emotion."
+ke ""
 
-ke "Keep your cards close to your chest."
+# ke "Keep your cards close to your chest."
+ke ""
 
-ke "Unless it's time to show your cards, or you have bad cards."
+# ke "Unless it's time to show your cards, or you have bad cards."
+ke ""
 
-ke "Then you should fold or collect your winnings."
+# ke "Then you should fold or collect your winnings."
+ke ""
 
 show kenji happy
 with charachange
 
-ke "Do you understand?"
+# ke "Do you understand?"
+ke ""
 
-hi "Yeah, that makes perfect sense."
+# hi "Yeah, that makes perfect sense."
+hi ""
 
-hi "I take it the uh, mission went well?"
+# hi "I take it the uh, mission went well?"
+hi ""
 
 show kenji tsun
 with charachange
 
-ke "Woah, awfully nosy of you, isn't it?"
+# ke "Woah, awfully nosy of you, isn't it?"
+ke ""
 
-ke "You can't just go saying things like that! Things are at a delicate stage!"
+# ke "You can't just go saying things like that! Things are at a delicate stage!"
+ke ""
 
-ke "One wrong move, and BAM! The invasion succeeds!"
+# ke "One wrong move, and BAM! The invasion succeeds!"
+ke ""
 
-hi "I thought you were going to blow the conspiracy wide open?"
+# hi "I thought you were going to blow the conspiracy wide open?"
+hi ""
 
-ke "It's bigger than I thought; I need to update my charts."
+# ke "It's bigger than I thought; I need to update my charts."
+ke ""
 
-ke "And probably change some of the puppets around."
+# ke "And probably change some of the puppets around."
+ke ""
 
 show kenji happy
 with charachange
 
-ke "You wanna help? I've got some whiskey from… somewhere."
+# ke "You wanna help? I've got some whiskey from… somewhere."
+ke ""
 
-ke "You can fill me in on everything your investigation has turned up."
+# ke "You can fill me in on everything your investigation has turned up."
+ke ""
 
-hi "Er, better not. I'm uh… supposed to meet her today."
+# hi "Er, better not. I'm uh… supposed to meet her today."
+hi ""
 
-hi "Gotta go do that. Can't raise suspicion."
+# hi "Gotta go do that. Can't raise suspicion."
+hi ""
 
 show kenji neutral
 with charachange
 
-"Kenji nods in approval."
+# "Kenji nods in approval."
+""
 
-ke "Still keeping it close to the chest, eh? Okay man, I respect that."
+# ke "Still keeping it close to the chest, eh? Okay man, I respect that."
+ke ""
 
-ke "Good luck."
+# ke "Good luck."
+ke ""
 
-hi "Er, thanks."
+# hi "Er, thanks."
+hi ""
 
 hide kenji
 with charaexit
 
 stop music fadeout 4.0
 
-"I'm just going to pretend, for the sake of my own sanity, that he's wishing me luck in talking to Emi."
+# "I'm just going to pretend, for the sake of my own sanity, that he's wishing me luck in talking to Emi."
+""
 
-"And if I squint, that whole card analogy he was talking about works here."
+# "And if I squint, that whole card analogy he was talking about works here."
+""
 
-"Time to lay it all on the table."
+# "Time to lay it all on the table."
+""
 
-"Or see if I can't get Emi to do so, rather."
+# "Or see if I can't get Emi to do so, rather."
+""
 
-"With a sense of something approaching purpose, I head for Emi's room."
+# "With a sense of something approaching purpose, I head for Emi's room."
+""
 
 scene bg school_girlsdormhall
 with locationskip
 
 play sound sfx_doorknock2
 
-"I hop up the stairs leading to her room and knock on her door."
+# "I hop up the stairs leading to her room and knock on her door."
+""
 
-emi "W-who's there?"
+# emi "W-who's there?"
+emi ""
 
 play music music_drama fadein 8.0
 
-"Huh. That's odd. Her voice sounds a little choked."
+# "Huh. That's odd. Her voice sounds a little choked."
+""
 
-hi "Hey, it's me. Thought I'd stop by."
+# hi "Hey, it's me. Thought I'd stop by."
+hi ""
 
-emi "Hisao?"
+# emi "Hisao?"
+emi ""
 
-emi "Come on in!"
+# emi "Come on in!"
+emi ""
 
-"I reach down to open the door, only to find that it's locked."
+# "I reach down to open the door, only to find that it's locked."
+""
 
-"More and more curious."
+# "More and more curious."
+""
 
-hi "Er, your door's locked."
+# hi "Er, your door's locked."
+hi ""
 
-emi "Oh yeah, sorry. Gimme a minute."
+# emi "Oh yeah, sorry. Gimme a minute."
+emi ""
 
 show emi basic_grin:
     tworight
@@ -6372,96 +8221,126 @@ show emi basic_grin:
     easein 0.5 tworight
 with charaenter
 
-"In a few minutes, Emi opens the door, grinning."
+# "In a few minutes, Emi opens the door, grinning."
+""
 
-emi "Sorry, I had to put my legs on. I was napping."
+# emi "Sorry, I had to put my legs on. I was napping."
+emi ""
 
-"Despite her grin, there's something definitely off."
+# "Despite her grin, there's something definitely off."
+""
 
-"Emi's eyes are slightly red, and it looks like she's been crying."
+# "Emi's eyes are slightly red, and it looks like she's been crying."
+""
 
-hi "Hey, no problem."
+# hi "Hey, no problem."
+hi ""
 
-hi "Er, are you okay?"
+# hi "Er, are you okay?"
+hi ""
 
 show emi sad_shy at tworight
 with charachange
 
-emi "Huh? Yeah, I'm fine!"
+# emi "Huh? Yeah, I'm fine!"
+emi ""
 
-hi "It's just that you look like you've been crying…"
+# hi "It's just that you look like you've been crying…"
+hi ""
 
-"Oh yeah, Hisao. You're off to a great start on this one."
+# "Oh yeah, Hisao. You're off to a great start on this one."
+""
 
 show emi sad_grin at tworight
 with charachange
 
-emi "What? Nah, I'm fine. I'm just happy to see you."
+# emi "What? Nah, I'm fine. I'm just happy to see you."
+emi ""
 
 scene ev emi_firstkiss
 with flash
 
-"She punctuates this with a long kiss that continues as the door slams shut behind us."
+# "She punctuates this with a long kiss that continues as the door slams shut behind us."
+""
 
-"I know what she wants to do now, and I'm also painfully aware of how badly I want to do it too, but…"
+# "I know what she wants to do now, and I'm also painfully aware of how badly I want to do it too, but…"
+""
 
 scene bg school_dormemi at left
 show emi excited_amused_close at center
 with locationchange
 
-"I break the kiss with a wrench of self control that nearly kills me."
+# "I break the kiss with a wrench of self control that nearly kills me."
+""
 
-hi "Hey, wait."
+# hi "Hey, wait."
+hi ""
 
 show emi basic_confused_close
 with charachange
 
-"Emi's eyes crinkle in confusion."
+# "Emi's eyes crinkle in confusion."
+""
 
-emi "Huh? Wait for what?"
+# emi "Huh? Wait for what?"
+emi ""
 
-hi "We need to talk."
+# hi "We need to talk."
+hi ""
 
 show emi sad_grin_close
 with charachange
 
-emi "Isn't that supposed to be my line?"
+# emi "Isn't that supposed to be my line?"
+emi ""
 
 show emi sad_shy_close
 with charachange
 
-emi "And never a good thing to say?"
+# emi "And never a good thing to say?"
+emi ""
 
-"She's got a point."
+# "She's got a point."
+""
 
-"It's usually the lead-in to a breakup."
+# "It's usually the lead-in to a breakup."
+""
 
-"Or the prelude to a fight."
+# "Or the prelude to a fight."
+""
 
-hi "Maybe it can be a good thing this time."
+# hi "Maybe it can be a good thing this time."
+hi ""
 
-hi "Er, that's the hope, anyway."
+# hi "Er, that's the hope, anyway."
+hi ""
 
 show emi sad_shyblush_close
 with charachange
 
-emi "Uh… huh."
+# emi "Uh… huh."
+emi ""
 
 show emi basic_grin_close
 with charachange
 
-emi "Can we at least get onto the bed? It's my first day back on these things, and I'm still readjusting."
+# emi "Can we at least get onto the bed? It's my first day back on these things, and I'm still readjusting."
+emi ""
 
 show emi basic_closedgrin_close
 with charachange
 
-emi "Plus the nurse said I should try to be on them less often, since running puts such a strain on them."
+# emi "Plus the nurse said I should try to be on them less often, since running puts such a strain on them."
+emi ""
 
-hi "Can't argue with that."
+# hi "Can't argue with that."
+hi ""
 
-"It's a trap, we both know it, and we both don't care."
+# "It's a trap, we both know it, and we both don't care."
+""
 
-"Then again, it's awfully hard to get angry while in bed with the object of your affections, so maybe there's that motivation too."
+# "Then again, it's awfully hard to get angry while in bed with the object of your affections, so maybe there's that motivation too."
+""
 
 hide emi
 with charaexit
@@ -6475,163 +8354,219 @@ show emi basic_grin_close:
     easein 0.5 ypos 1.1
 with charaenter
 
-"I set Emi's legs by the bedside and sit down next to her, throwing an arm around her shoulders."
+# "I set Emi's legs by the bedside and sit down next to her, throwing an arm around her shoulders."
+""
 
-"In silence, we just enjoy being able to be in this position again for a few minutes."
+# "In silence, we just enjoy being able to be in this position again for a few minutes."
+""
 
-"Then, of course, I need to ruin it by opening my mouth."
+# "Then, of course, I need to ruin it by opening my mouth."
+""
 
-hi "Look, I know that… that you've been having kind of a rough time of it lately."
+# hi "Look, I know that… that you've been having kind of a rough time of it lately."
+hi ""
 
-hi "And I want to help you out."
+# hi "And I want to help you out."
+hi ""
 
-hi "I thought it was just exams getting to you, but now I come to your room and you've been crying, and that kills me."
+# hi "I thought it was just exams getting to you, but now I come to your room and you've been crying, and that kills me."
+hi ""
 
-hi "But I can't do anything if you won't talk to me about it."
+# hi "But I can't do anything if you won't talk to me about it."
+hi ""
 
 show emi basic_closedgrin_close:
      ypos 1.1
 with charachange
 
-emi "I told you, I'm fine."
+# emi "I told you, I'm fine."
+emi ""
 
-hi "No, you aren't. It's obvious something's eating at you."
+# hi "No, you aren't. It's obvious something's eating at you."
+hi ""
 
-hi "You can tell me, you know."
+# hi "You can tell me, you know."
+hi ""
 
-"There's the slightest increase in tension in Emi's voice."
+# "There's the slightest increase in tension in Emi's voice."
+""
 
 show emi sad_shy_close
 with charachange
 
-emi "Why is my saying I'm fine not good enough?"
+# emi "Why is my saying I'm fine not good enough?"
+emi ""
 
 show emi sad_annoyed_close
 with charachange
 
-emi "You're concerned, I get that. That's cool."
+# emi "You're concerned, I get that. That's cool."
+emi ""
 
-emi "But I'm fine, and it's nothing that you need to worry about."
+# emi "But I'm fine, and it's nothing that you need to worry about."
+emi ""
 
-hi "Not sleeping and spacing out more than Rin doesn't strike me as “being fine.”"
+# hi "Not sleeping and spacing out more than Rin doesn't strike me as “being fine.”"
+hi ""
 
-hi "I just… I want to help."
+# hi "I just… I want to help."
+hi ""
 
-emi "Uh-huh."
+# emi "Uh-huh."
+emi ""
 
-hi "Yeah, I don't like seeing you like this."
+# hi "Yeah, I don't like seeing you like this."
+hi ""
 
-hi "I want you to be happy, you know?"
+# hi "I want you to be happy, you know?"
+hi ""
 
 show emi basic_annoyed_close
 with charachange
 
-"I get the feeling that came out wrong, because Emi fixes me with an icy stare."
+# "I get the feeling that came out wrong, because Emi fixes me with an icy stare."
+""
 
-emi "So you want to fix me, Hisao?"
+# emi "So you want to fix me, Hisao?"
+emi ""
 
-"She's definitely getting angry now."
+# "She's definitely getting angry now."
+""
 
 show emi sad_grit_close
 with charachange
 
-emi "Wanna swoop in on your white charger and save the day?"
+# emi "Wanna swoop in on your white charger and save the day?"
+emi ""
 
-emi "Stop the nightmares, the phantom limb pains?"
+# emi "Stop the nightmares, the phantom limb pains?"
+emi ""
 
 show emi sad_angry_close
 with charachange
 
-emi "Restore what's lost?"
+# emi "Restore what's lost?"
+emi ""
 
 show emi sad_depressed_close
 with charachange
 
-"Her voice catches in her throat, and the tears start to flow."
+# "Her voice catches in her throat, and the tears start to flow."
+""
 
-emi "Well you {b}can't{/b}."
+# emi "Well you {b}can't{/b}."
+emi ""
 
 show emi sad_pout_close
 with charachange
 
-emi "Nobody can."
+# emi "Nobody can."
+emi ""
 
-emi "Nobody will."
+# emi "Nobody will."
+emi ""
 
-"I'm so stunned by her sudden verbal assault that I remain quiet."
+# "I'm so stunned by her sudden verbal assault that I remain quiet."
+""
 
-"Neither of us says anything for a while."
+# "Neither of us says anything for a while."
+""
 
-"I'm surprised that Emi tightens her grip on me rather than pushing me away."
+# "I'm surprised that Emi tightens her grip on me rather than pushing me away."
+""
 
-"After a deep breath, she starts talking again."
+# "After a deep breath, she starts talking again."
+""
 
 show emi sad_shy_close
 with charachange
 
-emi "Look, I'm sorry."
+# emi "Look, I'm sorry."
+emi ""
 
 show emi sad_depressed_close
 with charachange
 
-emi "I just… there's these nightmares."
+# emi "I just… there's these nightmares."
+emi ""
 
-emi "About the accident."
+# emi "About the accident."
+emi ""
 
-"Ah. The accident. I should've known."
+# "Ah. The accident. I should've known."
+""
 
-"It took her legs, after all, but it never comes up, of course."
+# "It took her legs, after all, but it never comes up, of course."
+""
 
 show emi sad_pout_close
 with charachange
 
-emi "And I usually deal with them fine, because I can run."
+# emi "And I usually deal with them fine, because I can run."
+emi ""
 
-emi "Running clears my head like nothing else."
+# emi "Running clears my head like nothing else."
+emi ""
 
-emi "I don't have to worry about anything while I'm running."
+# emi "I don't have to worry about anything while I'm running."
+emi ""
 
-emi "I just concentrate on breathing, on the rhythm of things."
+# emi "I just concentrate on breathing, on the rhythm of things."
+emi ""
 
-emi "It's easier that way. Life's easier that way."
+# emi "It's easier that way. Life's easier that way."
+emi ""
 
 show emi sad_shy_close
 with charachange
 
-emi "Just keep moving forwards, you know? Nothing else matters, just getting around the next curve."
+# emi "Just keep moving forwards, you know? Nothing else matters, just getting around the next curve."
+emi ""
 
-emi "And then it's the next curve, and the next, and the next, until I can't go any more, or think any more, or do anything but slow down and walk until I catch my breath again."
+# emi "And then it's the next curve, and the next, and the next, until I can't go any more, or think any more, or do anything but slow down and walk until I catch my breath again."
+emi ""
 
-emi "After something like that, nothing else matters."
+# emi "After something like that, nothing else matters."
+emi ""
 
 show emi basic_annoyed_close
 with charachange
 
-emi "But I've been stuck in that goddamned wheelchair for too long. So, no outlet."
+# emi "But I've been stuck in that goddamned wheelchair for too long. So, no outlet."
+emi ""
 
 show emi sad_shy_close
 with charachange
 
-emi "Today it just kinda boiled over a little."
+# emi "Today it just kinda boiled over a little."
+emi ""
 
-hi "You could have talked to me about it, you know."
+# hi "You could have talked to me about it, you know."
+hi ""
 
-hi "You didn't have to go it alone."
+# hi "You didn't have to go it alone."
+hi ""
 
 show emi sad_grin_close
 with charachange
 
-"Emi smiles sadly, like she's trying to explain to a child that all fire burns."
+# "Emi smiles sadly, like she's trying to explain to a child that all fire burns."
+""
 
-emi "Yeah, I did. And I do."
+# emi "Yeah, I did. And I do."
+emi ""
 
-hi "But why?"
+# hi "But why?"
+hi ""
 
-hi "Why do you have to keep going through this alone?"
+# hi "Why do you have to keep going through this alone?"
+hi ""
 
-hi "Why can't you just trust me enough to let me help you?"
+# hi "Why can't you just trust me enough to let me help you?"
+hi ""
 
-"That smile again."
+# "That smile again."
+""
 
 show emi excited_amused_close
 with charachange
@@ -6639,65 +8574,89 @@ with charachange
 show emi sad_grin_close
 with charachange
 
-"Emi leans in and kisses me on my cheek, an almost motherly gesture."
+# "Emi leans in and kisses me on my cheek, an almost motherly gesture."
+""
 
-"She leaves her mouth close to my ear, as she confesses this one thing to me."
+# "She leaves her mouth close to my ear, as she confesses this one thing to me."
+""
 
 show emi sad_shy_close
 with charachange
 
-emi "Because, Hisao."
+# emi "Because, Hisao."
+emi ""
 
-emi "I've already had everything I knew ripped away from me once."
+# emi "I've already had everything I knew ripped away from me once."
+emi ""
 
 show emi sad_depressed_close
 with charachange
 
-emi "I don't know what I'd do if it happened again."
+# emi "I don't know what I'd do if it happened again."
+emi ""
 
-"She pauses, as if uncertain as to whether or not she should continue."
+# "She pauses, as if uncertain as to whether or not she should continue."
+""
 
-"I can feel a violent churning in my gut."
+# "I can feel a violent churning in my gut."
+""
 
-"She continues."
+# "She continues."
+""
 
 show emi sad_shy_close
 with charachange
 
-emi "So I can't rely on you."
+# emi "So I can't rely on you."
+emi ""
 
-emi "Or the nurse."
+# emi "Or the nurse."
+emi ""
 
-emi "Or anyone else."
+# emi "Or anyone else."
+emi ""
 
 show emi sad_pout_close
 with charachange
 
-emi "Just me."
+# emi "Just me."
+emi ""
 
-emi "That's how it's got to be."
+# emi "That's how it's got to be."
+emi ""
 
-"Having delivered this short speech, she looks down and covers her mouth with the back of her hand."
+# "Having delivered this short speech, she looks down and covers her mouth with the back of her hand."
+""
 
-"The conversation is clearly over. I search for something to say, but can't think of anything."
+# "The conversation is clearly over. I search for something to say, but can't think of anything."
+""
 
-hi "I…"
+# hi "I…"
+hi ""
 
-hi "Maybe I should go, for now."
+# hi "Maybe I should go, for now."
+hi ""
 
-hi "I've got… stuff."
+# hi "I've got… stuff."
+hi ""
 
-"Emi doesn't even look up."
+# "Emi doesn't even look up."
+""
 
-"She sounds tired, or relieved."
+# "She sounds tired, or relieved."
+""
 
-"I can't tell which."
+# "I can't tell which."
+""
 
-emi "Okay, Hisao."
+# emi "Okay, Hisao."
+emi ""
 
-emi "Go take care of that stuff."
+# emi "Go take care of that stuff."
+emi ""
 
-emi "I'll see you tomorrow."
+# emi "I'll see you tomorrow."
+emi ""
 
 hide emi
 with charaexit
@@ -6707,14 +8666,17 @@ with Pause(0.2)
 show bg school_dormemi at left
 with charamove
 
-"I get off the bed and head for the door, pausing at the doorway."
+# "I get off the bed and head for the door, pausing at the doorway."
+""
 
-hi "Hey, Emi…"
+# hi "Hey, Emi…"
+hi ""
 
 show emi sad_shy at tworight
 with charaenter
 
-emi "Yeah?"
+# emi "Yeah?"
+emi ""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6722,25 +8684,35 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\nA thousand things I want to say."
+# n "\n\nA thousand things I want to say."
+n ""
 
-n "I'm too mixed up to say any of them, though."
+# n "I'm too mixed up to say any of them, though."
+n ""
 
-n "After her admitting that she'll never let me close, I feel like {b}my{/b} world's just been ripped out from me."
+# n "After her admitting that she'll never let me close, I feel like {b}my{/b} world's just been ripped out from me."
+n ""
 
-n "What happened in that accident?"
+# n "What happened in that accident?"
+n ""
 
-n "I know she lost her legs, but that's never seemed to bother her."
+# n "I know she lost her legs, but that's never seemed to bother her."
+n ""
 
-n "What happened there?"
+# n "What happened there?"
+n ""
 
-n "What scares a girl so badly that she won't accept help, even from someone she loves?"
+# n "What scares a girl so badly that she won't accept help, even from someone she loves?"
+n ""
 
-n "I don't know."
+# n "I don't know."
+n ""
 
-n "\nBut I want to know."
+# n "\nBut I want to know."
+n ""
 
-n "I want to know so badly that being denied that answer feels like a knife in my guts."
+# n "I want to know so badly that being denied that answer feels like a knife in my guts."
+n ""
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -6748,15 +8720,20 @@ nvl clear
 nvl hide dissolve
 window show
 
-emi "Hisao?"
+# emi "Hisao?"
+emi ""
 
-emi "You were saying?"
+# emi "You were saying?"
+emi ""
 
-"I'm still standing in the doorway."
+# "I'm still standing in the doorway."
+""
 
-hi "…Nothing."
+# hi "…Nothing."
+hi ""
 
-hi "Never mind."
+# hi "Never mind."
+hi ""
 
 scene bg school_girlsdormhall
 with locationchange
@@ -6764,69 +8741,89 @@ with locationchange
 play sound sfx_doorclose
 stop music fadeout 6.0
 
-"And I'm closing the door."
+# "And I'm closing the door."
+""
 
-"And walking down the hallway."
+# "And walking down the hallway."
+""
 
-"Down the stairs."
+# "Down the stairs."
+""
 
 scene bg school_dormext_full_ni
 with locationskip
 
-"Out the door."
+# "Out the door."
+""
 
-"Into the dark."
+# "Into the dark."
+""
 
 scene bg school_dormhisao_ni
 with locationskip
 
 play music music_night fadein 1.0
 
-"Somehow I wander back to my own room. My brains are doing a mile a minute, going nowhere fast."
+# "Somehow I wander back to my own room. My brains are doing a mile a minute, going nowhere fast."
+""
 
 window hide
 nvl clear
 nvl show dissolve
 
-n "\n\nI can't figure out how to deal with this."
+# n "\n\nI can't figure out how to deal with this."
+n ""
 
-n "I thought that moving forward was a good thing."
+# n "I thought that moving forward was a good thing."
+n ""
 
-n "Dwelling less on a past that I can't change. Living in the present and looking at the future."
+# n "Dwelling less on a past that I can't change. Living in the present and looking at the future."
+n ""
 
-n "\n\nAfter this… thing with Emi, I'm not sure any more."
+# n "\n\nAfter this… thing with Emi, I'm not sure any more."
+n ""
 
-n "She was saying the truth. It's simpler to look at the next curve, ignoring the path gone by."
+# n "She was saying the truth. It's simpler to look at the next curve, ignoring the path gone by."
+n ""
 
-n "No worry about the opponent left behind. No care for the spectators on the sidelines."
+# n "No worry about the opponent left behind. No care for the spectators on the sidelines."
+n ""
 
-n "And unfortunately, no time to watch out for lagging teammates either."
+# n "And unfortunately, no time to watch out for lagging teammates either."
+n ""
 
 nvl clear
 nvl hide dissolve
 window show
 
-"I throw myself down on the bed, looking at one corner of my ceiling as if the answers I want were written there."
+# "I throw myself down on the bed, looking at one corner of my ceiling as if the answers I want were written there."
+""
 
-"No such luck, of course."
+# "No such luck, of course."
+""
 
 window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n\n\n\nShe's literally running away from something - but have I not been doing the same thing, trying my best to forget about my hospitalization?"
+# n "\n\n\n\n\nShe's literally running away from something - but have I not been doing the same thing, trying my best to forget about my hospitalization?"
+n ""
 
-n "I am getting better, but my health isn't going to magically fix itself."
+# n "I am getting better, but my health isn't going to magically fix itself."
+n ""
 
-n "\nEmi has two legs instead of a heart to deal with, but those aren't going to magically fix themselves either."
+# n "\nEmi has two legs instead of a heart to deal with, but those aren't going to magically fix themselves either."
+n ""
 
-n "\nMaybe this is just as fixed as the both of us can get."
+# n "\nMaybe this is just as fixed as the both of us can get."
+n ""
 
 nvl clear
 nvl hide dissolve
 window show
 
-"The room becomes darker and darker, until I can't really tell I'm looking at a corner any more."
+# "The room becomes darker and darker, until I can't really tell I'm looking at a corner any more."
+""
 
 #####################
 
@@ -6835,49 +8832,68 @@ label th_E25:
 scene bg school_dormhisao
 with shorttimeskip
 
-"The morning comes too soon, on the heels of a sleepless night."
+# "The morning comes too soon, on the heels of a sleepless night."
+""
 
-"Is this how Emi's been spending her nights?"
+# "Is this how Emi's been spending her nights?"
+""
 
-"Staring at the wall, or ceiling. Trying to stop thinking about whatever it is."
+# "Staring at the wall, or ceiling. Trying to stop thinking about whatever it is."
+""
 
-"Her, in my case."
+# "Her, in my case."
+""
 
-"That clenched feeling in my gut is still there."
+# "That clenched feeling in my gut is still there."
+""
 
 window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n“I can't rely on you.”"
+# n "\n\n“I can't rely on you.”"
+n ""
 
-n "\nWords spoken so casually."
+# n "\nWords spoken so casually."
+n ""
 
-n "Almost like she were teasing me, or chastising me for suggesting that the Earth is flat."
+# n "Almost like she were teasing me, or chastising me for suggesting that the Earth is flat."
+n ""
 
-n "\n“That's how it's got to be.”"
+# n "\n“That's how it's got to be.”"
+n ""
 
-n "\nThe way it's got to be sucks."
+# n "\nThe way it's got to be sucks."
+n ""
 
-n "I'm feeling so miserable that I very nearly decide to skip the run."
+# n "I'm feeling so miserable that I very nearly decide to skip the run."
+n ""
 
-n "That would be stupid, though. It's not something I should do just to see her."
+# n "That would be stupid, though. It's not something I should do just to see her."
+n ""
 
-n "Sure, that was the original reason, but it's something more now."
+# n "Sure, that was the original reason, but it's something more now."
+n ""
 
 nvl clear
 
-n "\n\n\n\nI've started to enjoy the running itself."
+# n "\n\n\n\nI've started to enjoy the running itself."
+n ""
 
-n "There are worse ways to get the blood flowing, anyway."
+# n "There are worse ways to get the blood flowing, anyway."
+n ""
 
-n "Never thought I'd say it after that first week or so, but—"
+# n "Never thought I'd say it after that first week or so, but—"
+n ""
 
-n "\nI feel a lot better after a run, like no matter what else I do today, I've at least done that one thing."
+# n "\nI feel a lot better after a run, like no matter what else I do today, I've at least done that one thing."
+n ""
 
-n "It wakes me up, too, and Emi herself said that running always clears her mind. Maybe it'll help clear mine."
+# n "It wakes me up, too, and Emi herself said that running always clears her mind. Maybe it'll help clear mine."
+n ""
 
-n "\nI hope so."
+# n "\nI hope so."
+n ""
 
 nvl clear
 nvl hide dissolve
@@ -6887,72 +8903,93 @@ with locationskip
 
 window show
 
-"The morning is cool and clear, if a bit humid. Summer's making itself known, it seems."
+# "The morning is cool and clear, if a bit humid. Summer's making itself known, it seems."
+""
 
-"Emi's already stretching out when I arrive, and greets me with a smile and a wave."
+# "Emi's already stretching out when I arrive, and greets me with a smile and a wave."
+""
 
 show emi basic_closedgrin_gym at center
 with charaenter
 
-emi "Hey, Hisao!"
+# emi "Hey, Hisao!"
+emi ""
 
-"The sight of her so chipper is like a kick in the nuts."
+# "The sight of her so chipper is like a kick in the nuts."
+""
 
-"How can she be so happy after yesterday?"
+# "How can she be so happy after yesterday?"
+""
 
 show emi excited_amused_gym_close
 with characlose
 
-"I give a half wave and am surprised to receive a hug."
+# "I give a half wave and am surprised to receive a hug."
+""
 
 show emi sad_shy_gym_close
 with charachange
 
-emi "Hey, about last night."
+# emi "Hey, about last night."
+emi ""
 
-"Here it comes."
+# "Here it comes."
+""
 
 stop music fadeout 1.0
 
 show emi basic_grin_gym_close
 with charachange
 
-emi "I wanted to say thanks."
+# emi "I wanted to say thanks."
+emi ""
 
 show emi excited_happy_gym_close
 with charachange
 
-emi "I actually managed to get some sleep for the first time in a while, and I think it's because of our talk."
+# emi "I actually managed to get some sleep for the first time in a while, and I think it's because of our talk."
+emi ""
 
 show emi basic_closedgrin_gym_close
 with charachange
 
-emi "So, thanks."
+# emi "So, thanks."
+emi ""
 
 play music music_rain fadein 4.0
 
-"How could she sleep better after our chat?"
+# "How could she sleep better after our chat?"
+""
 
-"She basically told me that she wouldn't get any closer to me."
+# "She basically told me that she wouldn't get any closer to me."
+""
 
-"And that let her sleep well?"
+# "And that let her sleep well?"
+""
 
-"Excuse me, but what the hell?"
+# "Excuse me, but what the hell?"
+""
 
-"Emi either doesn't notice my bafflement or chooses not to notice."
+# "Emi either doesn't notice my bafflement or chooses not to notice."
+""
 
-"No telling with her any more."
+# "No telling with her any more."
+""
 
-hi "Oh, no problem. Glad it helped."
+# hi "Oh, no problem. Glad it helped."
+hi ""
 
-"The venom that threatens to drip into my voice is controlled for now, but I think I'd better start running now, before I do anything stupid."
+# "The venom that threatens to drip into my voice is controlled for now, but I think I'd better start running now, before I do anything stupid."
+""
 
 scene bg school_track_on
 with locationchange
 
-"Emi seems equally willing to get started, and before long we're darting around the track."
+# "Emi seems equally willing to get started, and before long we're darting around the track."
+""
 
-"I can tell she feels more relaxed."
+# "I can tell she feels more relaxed."
+""
 
 scene ev emi_run_face:
     truecenter
@@ -6960,123 +8997,170 @@ scene ev emi_run_face:
     acdc_warp 20.0 zoom 1.1
 with flash
 
-"Her running has gone back to the more graceful movements I remember from when I first watched her."
+# "Her running has gone back to the more graceful movements I remember from when I first watched her."
+""
 
-"It's a stark contrast to the almost brutal way she's been hurling herself around the track these past few days."
+# "It's a stark contrast to the almost brutal way she's been hurling herself around the track these past few days."
+""
 
-"Our talk really does seem to have helped her."
+# "Our talk really does seem to have helped her."
+""
 
-"A pity it couldn't help me."
+# "A pity it couldn't help me."
+""
 
-"I get into the rhythm of the running, thinking back to when I couldn't afford thinking about anything else but keeping my breathing steady and legs moving."
+# "I get into the rhythm of the running, thinking back to when I couldn't afford thinking about anything else but keeping my breathing steady and legs moving."
+""
 
-"Guess those days are gone."
+# "Guess those days are gone."
+""
 
-"At least for the first couple of laps."
+# "At least for the first couple of laps."
+""
 
 scene bg school_track_running
 with Dissolve(2.0)
 
-"Annoyed at the lack of success I'm having with clearing my head, I increase the pace."
+# "Annoyed at the lack of success I'm having with clearing my head, I increase the pace."
+""
 
-"Ah, there's the burning sensation in my legs."
+# "Ah, there's the burning sensation in my legs."
+""
 
-"The breaths coming ragged in my chest, the pounding of my heart. Which I still need to be careful about."
+# "The breaths coming ragged in my chest, the pounding of my heart. Which I still need to be careful about."
+""
 
-"But it does seem to have gotten stronger; I can feel it pumping blood through my veins."
+# "But it does seem to have gotten stronger; I can feel it pumping blood through my veins."
+""
 
-"The sound thrums in my ears, but instead of being panicked as I was that day in the snow, I'm instead filled with elation."
+# "The sound thrums in my ears, but instead of being panicked as I was that day in the snow, I'm instead filled with elation."
+""
 
-"Yes, it's working! My heart, that fatal flaw that landed me here, has improved."
+# "Yes, it's working! My heart, that fatal flaw that landed me here, has improved."
+""
 
-"I'm able to keep going now, and maybe one day I'll be able to stop worrying as much."
+# "I'm able to keep going now, and maybe one day I'll be able to stop worrying as much."
+""
 
-"Right now, it doesn't matter that I have no idea what to do about Emi and me."
+# "Right now, it doesn't matter that I have no idea what to do about Emi and me."
+""
 
-"All that matters is that my arms and legs continue to pump in concert with one another."
+# "All that matters is that my arms and legs continue to pump in concert with one another."
+""
 
-"Nothing else."
+# "Nothing else."
+""
 
 show bg school_track_on
 with locationchange
 
-"As I hit the final stretch, I remind myself that running really does help, though not as much as I'd hoped."
+# "As I hit the final stretch, I remind myself that running really does help, though not as much as I'd hoped."
+""
 
-"I do feel better, and as I walk a few laps to cool down, I begin to remember last night in a slightly less emotional manner."
+# "I do feel better, and as I walk a few laps to cool down, I begin to remember last night in a slightly less emotional manner."
+""
 
-"Emi wants me to stay distant from her."
+# "Emi wants me to stay distant from her."
+""
 
-"I can't bring myself to do so."
+# "I can't bring myself to do so."
+""
 
-"There's got to be a way around this, some kind of middle ground I can reach."
+# "There's got to be a way around this, some kind of middle ground I can reach."
+""
 
-"Not sure what that middle ground is, though."
+# "Not sure what that middle ground is, though."
+""
 
-"Damn, I was almost feeling optimistic."
+# "Damn, I was almost feeling optimistic."
+""
 
 show emi excited_joy_gym at center
 with charaenter
 
-emi "Nice run, Hisao! You've really improved!"
+# emi "Nice run, Hisao! You've really improved!"
+emi ""
 
-"Nice run. That's all I can hope for now, isn't it?"
+# "Nice run. That's all I can hope for now, isn't it?"
+""
 
-"Congratulations, Hisao. You're pathetic."
+# "Congratulations, Hisao. You're pathetic."
+""
 
-"I gotta change my attitude."
+# "I gotta change my attitude."
+""
 
-hi "Well, you know. I am pretty awesome."
+# hi "Well, you know. I am pretty awesome."
+hi ""
 
-"And yet I just keep saying things that I don't mean."
+# "And yet I just keep saying things that I don't mean."
+""
 
-"Any second now I'll be as good at hiding my problems as Emi is."
+# "Any second now I'll be as good at hiding my problems as Emi is."
+""
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "I like to think so."
+# emi "I like to think so."
+emi ""
 
-"Why does she do this to me? Say something like that with such real affection in her voice that it makes my heart leap?"
+# "Why does she do this to me? Say something like that with such real affection in her voice that it makes my heart leap?"
+""
 
-"She doesn't mean it. She can't."
+# "She doesn't mean it. She can't."
+""
 
-"I must be doing a worse job than I thought, because Emi peers closely at me."
+# "I must be doing a worse job than I thought, because Emi peers closely at me."
+""
 
 show emi basic_confused_gym
 with charachange
 
-emi "Hey, you feeling okay?"
+# emi "Hey, you feeling okay?"
+emi ""
 
 show emi basic_hes_gym
 with charachange
 
-emi "Maybe we should get to the nurse, huh?"
+# emi "Maybe we should get to the nurse, huh?"
+emi ""
 
-hi "Yeah, I'd hate to keel over on you."
+# hi "Yeah, I'd hate to keel over on you."
+hi ""
 
-"Emi looks a little shocked at my bitter tone."
+# "Emi looks a little shocked at my bitter tone."
+""
 
 show emi basic_shock_gym
 with charachange
 
-emi "Don't say things like that!"
+# emi "Don't say things like that!"
+emi ""
 
 show emi sad_shy_gym
 with charachange
 
-emi "You've already done it once before, you know."
+# emi "You've already done it once before, you know."
+emi ""
 
-"Why does she act so affectionate?"
+# "Why does she act so affectionate?"
+""
 
-"She doesn't really care, I thought she made that clear."
+# "She doesn't really care, I thought she made that clear."
+""
 
-"But despite all of that I find myself apologizing, even though I shouldn't have to. Even though she's probably just putting on an act."
+# "But despite all of that I find myself apologizing, even though I shouldn't have to. Even though she's probably just putting on an act."
+""
 
-hi "Sorry, heh."
+# hi "Sorry, heh."
+hi ""
 
-hi "Come on, let's see the nurse."
+# hi "Come on, let's see the nurse."
+hi ""
 
-"I can't get myself to calm down the whole time."
+# "I can't get myself to calm down the whole time."
+""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -7084,17 +9168,23 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n\n\nEvery time it feels like I've gotten over what happened last night, Emi does something or says something that shows affection, and I'm back to the beginning."
+# n "\n\n\n\nEvery time it feels like I've gotten over what happened last night, Emi does something or says something that shows affection, and I'm back to the beginning."
+n ""
 
-n "The image of her ending that conversation haunts me."
+# n "The image of her ending that conversation haunts me."
+n ""
 
-n "It was like the final twist of the knife that left me feeling bereft of any hope that Emi and I could be more than what we are."
+# n "It was like the final twist of the knife that left me feeling bereft of any hope that Emi and I could be more than what we are."
+n ""
 
-n "And what are we at this point? Little more than friends who happen to fuck."
+# n "And what are we at this point? Little more than friends who happen to fuck."
+n ""
 
-n "And really, it's not like I don't enjoy the time I spend with her. Said so the other day myself."
+# n "And really, it's not like I don't enjoy the time I spend with her. Said so the other day myself."
+n ""
 
-n "I very nearly didn't even bring anything up with her, was just gonna hop on in there and let it ride, wasn't I?"
+# n "I very nearly didn't even bring anything up with her, was just gonna hop on in there and let it ride, wasn't I?"
+n ""
 
 stop music fadeout 2.0
 
@@ -7106,11 +9196,14 @@ with shorttimeskip
 
 window show
 
-"With this running through my head, I find myself in front of the nurse's office, still brooding as he checks out Emi."
+# "With this running through my head, I find myself in front of the nurse's office, still brooding as he checks out Emi."
+""
 
-"Emi comes bounding out of the door, gives me a kiss, and darts off to shower, I assume."
+# "Emi comes bounding out of the door, gives me a kiss, and darts off to shower, I assume."
+""
 
-"Meanwhile, the nurse beckons me into his office to give me the ritual once-over."
+# "Meanwhile, the nurse beckons me into his office to give me the ritual once-over."
+""
 
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
 play music music_nurse fadein 0.5
@@ -7119,74 +9212,95 @@ scene bg school_nurseoffice
 show nurse neutral at center
 with locationchange
 
-nk "Any problems today?"
+# nk "Any problems today?"
+nk ""
 
-hi "Nah. I even pushed it a little harder today than I have in the past, and I seemed able to handle it."
+# hi "Nah. I even pushed it a little harder today than I have in the past, and I seemed able to handle it."
+hi ""
 
 show nurse grin
 with charachange
 
-nk "That's uncharacteristically risky coming from you, Hisao."
+# nk "That's uncharacteristically risky coming from you, Hisao."
+nk ""
 
-nk "You've been hanging out with Emi too much. She's rubbed off on you, and not necessarily in a good way."
+# nk "You've been hanging out with Emi too much. She's rubbed off on you, and not necessarily in a good way."
+nk ""
 
-"At the mention of Emi's name, I can't help but frown unhappily in spite of my efforts at control."
+# "At the mention of Emi's name, I can't help but frown unhappily in spite of my efforts at control."
+""
 
 show nurse fabulous
 with charachange
 
-nk "Well, now. This is new, don't you think?"
+# nk "Well, now. This is new, don't you think?"
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "Last I checked, your usual response to Emi's name was a grin, not a frown."
+# nk "Last I checked, your usual response to Emi's name was a grin, not a frown."
+nk ""
 
 show nurse concern
 with charachange
 
-nk "What exactly happened between you two? Because Emi doesn't seem to be in on it, whatever it is."
+# nk "What exactly happened between you two? Because Emi doesn't seem to be in on it, whatever it is."
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "She looked more relaxed than I've seen her in weeks, which is unusual for this time of the year."
+# nk "She looked more relaxed than I've seen her in weeks, which is unusual for this time of the year."
+nk ""
 
-hi "What do you mean by that?"
+# hi "What do you mean by that?"
+hi ""
 
 show nurse fabulous
 with charachange
 
-nk "By what?"
+# nk "By what?"
+nk ""
 
-hi "“For this time of year.” I keep trying to find out what's been bothering her, but she clams up as soon as I broach the subject."
+# hi "“For this time of year.” I keep trying to find out what's been bothering her, but she clams up as soon as I broach the subject."
+hi ""
 
-hi "Then last night, she said—"
+# hi "Then last night, she said—"
+hi ""
 
 show nurse neutral
 with charachange
 
-nk "Let me guess. She won't tell you, because she says she can't trust you?"
+# nk "Let me guess. She won't tell you, because she says she can't trust you?"
+nk ""
 
-nk "And now you're crushed, because you thought that the two of you were so much more than she seems to think, right?"
+# nk "And now you're crushed, because you thought that the two of you were so much more than she seems to think, right?"
+nk ""
 
-hi "Er, more or less."
+# hi "Er, more or less."
+hi ""
 
-hi "How the heck did you know?"
+# hi "How the heck did you know?"
+hi ""
 
 show nurse grin
 with charachange
 
-nk "Hisao, I'm the nurse. It's my job to know these things."
+# nk "Hisao, I'm the nurse. It's my job to know these things."
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "Plus, I've known Emi for long enough to know that she'd try to do something like this; it's just like her."
+# nk "Plus, I've known Emi for long enough to know that she'd try to do something like this; it's just like her."
+nk ""
 
-"He says this in the sort of half-affectionate, half-frustrated tone that would seem more appropriate if he had a cigarette dangling from his lips."
+# "He says this in the sort of half-affectionate, half-frustrated tone that would seem more appropriate if he had a cigarette dangling from his lips."
+""
 
-"As it is, he seems willing to make do with a pen."
+# "As it is, he seems willing to make do with a pen."
+""
 
 show nurse fabulous
 with charachange
@@ -7210,123 +9324,159 @@ label th_E25a:
 
 #If A
 
-"What was it Mutou said yesterday?"
+# "What was it Mutou said yesterday?"
+""
 
-"If you can't observe the thing, then observe what's around it?"
+# "If you can't observe the thing, then observe what's around it?"
+""
 
-"Worth a shot."
+# "Worth a shot."
+""
 
-"The nurse knows Emi better than I do, I'll wager."
+# "The nurse knows Emi better than I do, I'll wager."
+""
 
-hi "Sure, I'm open to suggestions."
+# hi "Sure, I'm open to suggestions."
+hi ""
 
-hi "Honestly, I'm kind of lost."
+# hi "Honestly, I'm kind of lost."
+hi ""
 
-hi "I've got no idea how to deal with this."
-
-show nurse grin
-with charachange
-
-nk "I never would have guessed."
-
-"He grins while he says this. I think he's kidding."
-
-show nurse neutral
-with charachange
-
-nk "Look, here's the deal: Emi is… stubborn."
+# hi "I've got no idea how to deal with this."
+hi ""
 
 show nurse grin
 with charachange
 
-nk "You should know that by now, and if you don't then you're pretty unobservant, but I'm giving you the benefit of the doubt here."
+# nk "I never would have guessed."
+nk ""
 
-hi "I'm so grateful."
+# "He grins while he says this. I think he's kidding."
+""
 
 show nurse neutral
 with charachange
 
-nk "Anyway, if she's decided that she doesn't want to talk about what happened, then she's not going to talk about what's happened."
+# nk "Look, here's the deal: Emi is… stubborn."
+nk ""
 
-nk "Has she said anything about what's been bothering her? Even a hint?"
+show nurse grin
+with charachange
 
-hi "Well, she did say she'd been having nightmares about the accident…"
+# nk "You should know that by now, and if you don't then you're pretty unobservant, but I'm giving you the benefit of the doubt here."
+nk ""
+
+# hi "I'm so grateful."
+hi ""
+
+show nurse neutral
+with charachange
+
+# nk "Anyway, if she's decided that she doesn't want to talk about what happened, then she's not going to talk about what's happened."
+nk ""
+
+# nk "Has she said anything about what's been bothering her? Even a hint?"
+nk ""
+
+# hi "Well, she did say she'd been having nightmares about the accident…"
+hi ""
 
 show nurse fabulous
 with charachange
 
-nk "Really? You're making progress, then. That's good."
+# nk "Really? You're making progress, then. That's good."
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "Well, I guess I can fill you in on this without violating my strict non-interference policy when it comes to Emi making stupid decisions."
+# nk "Well, I guess I can fill you in on this without violating my strict non-interference policy when it comes to Emi making stupid decisions."
+nk ""
 
 show nurse concern
 with charachange
 
-nk "The anniversary of her accident is coming up soon."
+# nk "The anniversary of her accident is coming up soon."
+nk ""
 
-nk "She gets depressed around this time, because it was a pretty traumatic event, considering what she lost."
+# nk "She gets depressed around this time, because it was a pretty traumatic event, considering what she lost."
+nk ""
 
-hi "That's the other thing. She acted like she lost more than just her legs. What happened?"
+# hi "That's the other thing. She acted like she lost more than just her legs. What happened?"
+hi ""
 
 show nurse fabulous
 with charachange
 
-nk "Whoa! Nope, not going there. You'll have to ask someone else about that, because that's a whole can of worms I'm not about to open."
+# nk "Whoa! Nope, not going there. You'll have to ask someone else about that, because that's a whole can of worms I'm not about to open."
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "If Emi wants you to know, she'll tell you in her own time."
+# nk "If Emi wants you to know, she'll tell you in her own time."
+nk ""
 
-nk "You've just got to be patient, that's all."
+# nk "You've just got to be patient, that's all."
+nk ""
 
-hi "Why are you even helping me with all this?"
+# hi "Why are you even helping me with all this?"
+hi ""
 
 show nurse grin
 with charachange
 
-nk "Because you're good for her. She trusts you, even if you don't think she does."
+# nk "Because you're good for her. She trusts you, even if you don't think she does."
+nk ""
 
-nk "And you've got the best chance out of anyone at this school right now to help her through this time of year."
+# nk "And you've got the best chance out of anyone at this school right now to help her through this time of year."
+nk ""
 
 show nurse neutral
 with charachange
 
-nk "She won't accept my help, but she might accept yours if you don't screw it up."
+# nk "She won't accept my help, but she might accept yours if you don't screw it up."
+nk ""
 
 show nurse fabulous
 with charachange
 
-nk "So don't screw it up, got it?"
+# nk "So don't screw it up, got it?"
+nk ""
 
 #if b
 
 label th_E25b:
 
-"Advice? About what? I don't think there's anything I can actually do about this."
+# "Advice? About what? I don't think there's anything I can actually do about this."
+""
 
-hi "Not really. I don't think there's anything you can say that'll help."
+# hi "Not really. I don't think there's anything you can say that'll help."
+hi ""
 
 show nurse neutral
 with charachange
 
-nk "You never know, Hisao."
+# nk "You never know, Hisao."
+nk ""
 
-hi "No, I think I've got a pretty good idea."
+# hi "No, I think I've got a pretty good idea."
+hi ""
 
-hi "Emi's just being stubborn about some things, and it's bothering me, but I'll get over it."
+# hi "Emi's just being stubborn about some things, and it's bothering me, but I'll get over it."
+hi ""
 
-hi "Don't worry about us."
+# hi "Don't worry about us."
+hi ""
 
 show nurse concern
 with charachange
 
-"The nurse doesn't seem to believe me, but shrugs."
+# "The nurse doesn't seem to believe me, but shrugs."
+""
 
-nk "Have it your way, kiddo."
+# nk "Have it your way, kiddo."
+nk ""
 
 #end split
 
@@ -7335,16 +9485,20 @@ label th_E25c:
 $ renpy.music.set_volume(0.3, 0.0, channel="sound")
 play sound sfx_hammer
 
-"I open my mouth to respond but a knocking sound at the door interrupts me."
+# "I open my mouth to respond but a knocking sound at the door interrupts me."
+""
 
-emi "Hey, you guys still in there?"
+# emi "Hey, you guys still in there?"
+emi ""
 
 show nurse grin
 with charachange
 
-nk "Just a moment, Emi."
+# nk "Just a moment, Emi."
+nk ""
 
-nk "Give us a second to get our pants back on."
+# nk "Give us a second to get our pants back on."
+nk ""
 
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 play sound sfx_doorslam
@@ -7359,44 +9513,56 @@ show nurse grin at twoleft
 show emi basic_annoyed_gym at tworight
 with dissolvecharamove
 
-"The door bursts open and Emi glares knives at the nurse."
+# "The door bursts open and Emi glares knives at the nurse."
+""
 
-emi "Asshole."
+# emi "Asshole."
+emi ""
 
 show nurse fabulous
 with charachange
 
-nk "Didn't mean to get your hopes up."
+# nk "Didn't mean to get your hopes up."
+nk ""
 
-hi "Hey, can we… leave me out of this?"
+# hi "Hey, can we… leave me out of this?"
+hi ""
 
-hi "Anyway, what's up, Emi? Forget something?"
+# hi "Anyway, what's up, Emi? Forget something?"
+hi ""
 
-"I try to take a more cheerful tone with her."
+# "I try to take a more cheerful tone with her."
+""
 
-"No need to upset her. Two can play the “everything's fine” game."
+# "No need to upset her. Two can play the “everything's fine” game."
+""
 
 show emi sad_grin_gym at tworight
 with charachange
 
-emi "Actually, I forgot to ask you something."
+# emi "Actually, I forgot to ask you something."
+emi ""
 
-hi "Oh? What's that?"
+# hi "Oh? What's that?"
+hi ""
 
 show emi basic_happy_gym
 with charachange
 
-emi "Do you wanna come with me on a trip to my house?"
+# emi "Do you wanna come with me on a trip to my house?"
+emi ""
 
 show emi basic_closedgrin_gym
 with charachange
 
-emi "My mom's making dinner, and I thought you might want to join us."
+# emi "My mom's making dinner, and I thought you might want to join us."
+emi ""
 
 show nurse grin
 with charachange
 
-nk "Well, of course I accept."
+# nk "Well, of course I accept."
+nk ""
 
 show emi basic_closedgrin_gym:
     parallel:
@@ -7406,52 +9572,67 @@ show emi basic_closedgrin_gym:
         ease 0.2 tworight
 with Pause(0.5)
 
-"Emi punches the nurse in the arm playfully."
+# "Emi punches the nurse in the arm playfully."
+""
 
-emi "Not you, idiot. You were over last week."
+# emi "Not you, idiot. You were over last week."
+emi ""
 
 show emi sad_grin_gym at tworight
 with charachange
 
-emi "I was talking to Hisao."
+# emi "I was talking to Hisao."
+emi ""
 
 show nurse neutral
 with charachange
 
-nk "Oh? How interesting! Meeting the parent!"
+# nk "Oh? How interesting! Meeting the parent!"
+nk ""
 
-hi "I'd love to go, Emi. Thanks."
+# hi "I'd love to go, Emi. Thanks."
+hi ""
 
 show nurse fabulous
 with charachange
 
-"The nurse raises an eyebrow, but says nothing."
+# "The nurse raises an eyebrow, but says nothing."
+""
 
-emi "Great! I'll be in my room, swing by after you shower and change into something clean and we'll grab the bus!"
+# emi "Great! I'll be in my room, swing by after you shower and change into something clean and we'll grab the bus!"
+emi ""
 
-hi "Sounds good. I'll see you in a bit!"
+# hi "Sounds good. I'll see you in a bit!"
+hi ""
 
 stop music fadeout 2.0
 
 show emi excited_amused_gym_close
 with characlose
 
-"This time it's me who leans in for a quick kiss before darting off to my room."
+# "This time it's me who leans in for a quick kiss before darting off to my room."
+""
 
 scene bg school_dormhisao
 with locationskip
 
-"What an interesting development."
+# "What an interesting development."
+""
 
-"Maybe we're getting closer after all."
+# "Maybe we're getting closer after all."
+""
 
-"Maybe Emi's finally ready to open up a little."
+# "Maybe Emi's finally ready to open up a little."
+""
 
-"Or maybe she's just being polite, and a free meal seems like a good way to apologize for last night."
+# "Or maybe she's just being polite, and a free meal seems like a good way to apologize for last night."
+""
 
-"Great. Now I can't decide whether to be excited, nervous, or depressed."
+# "Great. Now I can't decide whether to be excited, nervous, or depressed."
+""
 
-"I settle for a combination of all three and hop in the shower."
+# "I settle for a combination of all three and hop in the shower."
+""
 
 scene black
 with dissolve
@@ -7473,33 +9654,46 @@ with locationchange
 nvl clear
 nvl show dissolve
 
-n "\n\n\nI don't think I like riding on buses."
+# n "\n\n\nI don't think I like riding on buses."
+n ""
 
-n "Actually, I think I'm pretty comfortable saying that as a fact."
+# n "Actually, I think I'm pretty comfortable saying that as a fact."
+n ""
 
-n "They sway a lot, and they smell funny, and you can feel every bump in the road."
+# n "They sway a lot, and they smell funny, and you can feel every bump in the road."
+n ""
 
-n "I'm really not looking forward to this."
+# n "I'm really not looking forward to this."
+n ""
 
-n "\nPlus Emi's legs keep making a clanking noise that draws the attention of everyone else on the bus."
+# n "\nPlus Emi's legs keep making a clanking noise that draws the attention of everyone else on the bus."
+n ""
 
-n "She's in shorts again, and she's got long socks drawn up on her prosthetics so they don't look so obviously false again."
+# n "She's in shorts again, and she's got long socks drawn up on her prosthetics so they don't look so obviously false again."
+n ""
 
-n "But that doesn't stop the odd look or two every time her legs bump together with an audible clunk."
+# n "But that doesn't stop the odd look or two every time her legs bump together with an audible clunk."
+n ""
 
 nvl clear
 
-n "\n\n\nI shift nervously in my seat, and Emi raises an eyebrow questioningly."
+# n "\n\n\nI shift nervously in my seat, and Emi raises an eyebrow questioningly."
+n ""
 
-n "She doesn't seem to mind the stares; either that or she doesn't even notice that people are staring."
+# n "She doesn't seem to mind the stares; either that or she doesn't even notice that people are staring."
+n ""
 
-n "I'm sure she's gotten her fill of odd looks before. After a certain amount of time, I doubt she'd notice any more."
+# n "I'm sure she's gotten her fill of odd looks before. After a certain amount of time, I doubt she'd notice any more."
+n ""
 
-n "\n\nNot that she'd ever tell me if I asked."
+# n "\n\nNot that she'd ever tell me if I asked."
+n ""
 
-n "Another fact is, I'm not just uncomfortable about the bus."
+# n "Another fact is, I'm not just uncomfortable about the bus."
+n ""
 
-n "I can't seem to come to terms with the fact that Emi appears to be trying to bring me closer while at the same time pushing me away."
+# n "I can't seem to come to terms with the fact that Emi appears to be trying to bring me closer while at the same time pushing me away."
+n ""
 
 nvl clear
 
@@ -7507,17 +9701,23 @@ nvl clear
 
 label th_E26a:
 
-n "\n\n\nThe nurse said she trusts me, even if it doesn't look like it."
+# n "\n\n\nThe nurse said she trusts me, even if it doesn't look like it."
+n ""
 
-n "But I'm not sure I can trust the nurse."
+# n "But I'm not sure I can trust the nurse."
+n ""
 
-n "He's protective of Emi, just like I'm protective of Emi, and I'd be likely to say something to make her look good if someone asked me about her."
+# n "He's protective of Emi, just like I'm protective of Emi, and I'd be likely to say something to make her look good if someone asked me about her."
+n ""
 
-n "\nSo he might just be doing that."
+# n "\nSo he might just be doing that."
+n ""
 
-n "\nStill, there was something about the way he seemed genuinely surprised that Emi invited me along…"
+# n "\nStill, there was something about the way he seemed genuinely surprised that Emi invited me along…"
+n ""
 
-n "Maybe last night's talk helped more than I think, but I'm still worried."
+# n "Maybe last night's talk helped more than I think, but I'm still worried."
+n ""
 
 
 label th_E26b:
@@ -7526,19 +9726,26 @@ stop ambient fadeout 12.0
 
 nvl clear
 
-n "\n\n\nMeeting the parents is a big deal, right?"
+# n "\n\n\nMeeting the parents is a big deal, right?"
+n ""
 
-n "Not that I haven't already met Emi's mother, but that was just as an acquaintance."
+# n "Not that I haven't already met Emi's mother, but that was just as an acquaintance."
+n ""
 
-n "Now it's going to be as Emi's boyfriend, with everything that implies."
+# n "Now it's going to be as Emi's boyfriend, with everything that implies."
+n ""
 
-n "I can feel my heart pounding in my chest, an echo of that snow-covered afternoon that feels like it was so long ago that it might as well be another life entirely."
+# n "I can feel my heart pounding in my chest, an echo of that snow-covered afternoon that feels like it was so long ago that it might as well be another life entirely."
+n ""
 
-n "Except then, I didn't know what was going on; I also didn't have medication to help prevent things spiraling out of control."
+# n "Except then, I didn't know what was going on; I also didn't have medication to help prevent things spiraling out of control."
+n ""
 
-n "I've come a long way in terms of my physical health, and for the second time today I feel like I'll be able to live normally now, or at least as normally as possible."
+# n "I've come a long way in terms of my physical health, and for the second time today I feel like I'll be able to live normally now, or at least as normally as possible."
+n ""
 
-n "\nNow if only I could manage my relationship as well as I've managed my heart, I'd be in great shape."
+# n "\nNow if only I could manage my relationship as well as I've managed my heart, I'd be in great shape."
+n ""
 
 stop ambient fadeout 1.5
 
@@ -7556,99 +9763,129 @@ play ambient sfx_traffic fadein 2.0
 
 window show
 
-emi "Well, we're here."
+# emi "Well, we're here."
+emi ""
 
 play music music_soothing fadein 2.0
 
-"Emi grabs my hand as soon as we've stepped off the bus. She starts heading down the street almost immediately."
+# "Emi grabs my hand as soon as we've stepped off the bus. She starts heading down the street almost immediately."
+""
 
 show emicas wink_up_close
 with charachange
 
-emi "Come on, we've got a couple blocks until my place."
+# emi "Come on, we've got a couple blocks until my place."
+emi ""
 
-hi "What? Oh, okay."
+# hi "What? Oh, okay."
+hi ""
 
 scene bg city_alley
 with locationchange
 
 stop ambient fadeout 12.0
 
-"I follow Emi down the street, watching her confident stride."
+# "I follow Emi down the street, watching her confident stride."
+""
 
-"She's setting kind of a quick pace for just a walk."
+# "She's setting kind of a quick pace for just a walk."
+""
 
-"I guess she's anxious to get there."
+# "I guess she's anxious to get there."
+""
 
-hi "So does your mom do this sort of thing often?"
+# hi "So does your mom do this sort of thing often?"
+hi ""
 
 show emicas neutral_close at center
 with charaenter
 
-emi "Nah, not too frequently. Mom's never been much for playing hostess."
+# emi "Nah, not too frequently. Mom's never been much for playing hostess."
+emi ""
 
-hi "Oh yeah?"
+# hi "Oh yeah?"
+hi ""
 
 show emicas awayfrown_close
 with charachange
 
-emi "Yeah, my dad was always the one pushing her to have people over."
+# emi "Yeah, my dad was always the one pushing her to have people over."
+emi ""
 
-"This sudden and unprompted reference to her father catches me off guard."
+# "This sudden and unprompted reference to her father catches me off guard."
+""
 
-"And from the look on Emi's face, I'm not sure she meant to mention him. I think I've only ever heard her talk about him once."
+# "And from the look on Emi's face, I'm not sure she meant to mention him. I think I've only ever heard her talk about him once."
+""
 
-"All I remember is that Emi's mom told me that he wasn't around any more."
+# "All I remember is that Emi's mom told me that he wasn't around any more."
+""
 
-hi "Oh? Your mom prefers solitude?"
+# hi "Oh? Your mom prefers solitude?"
+hi ""
 
 show emicas happy_up_close
 with charachange
 
-"Emi laughs, either from relief that I didn't ask about her father or from finding my statement actually funny."
+# "Emi laughs, either from relief that I didn't ask about her father or from finding my statement actually funny."
+""
 
-emi "Not at all! She's why I'm such an outgoing person, you know."
+# emi "Not at all! She's why I'm such an outgoing person, you know."
+emi ""
 
 show emicas closedsmile_close
 with charachange
 
-emi "She just prefers to be a guest rather than a hostess; it's less stressful that way, or so she says."
+# emi "She just prefers to be a guest rather than a hostess; it's less stressful that way, or so she says."
+emi ""
 
-hi "Clearly she's never had to meet her girlfriend's mother for dinner."
+# hi "Clearly she's never had to meet her girlfriend's mother for dinner."
+hi ""
 
-"Emi giggles again and speaks in a teasing tone."
+# "Emi giggles again and speaks in a teasing tone."
+""
 
 show emicas wink_close
 with charachange
 
-emi "Nervous, Hisao?"
+# emi "Nervous, Hisao?"
+emi ""
 
 show emicas smile_close
 with charachange
 
-emi "You shouldn't be, you know! It's not that big a deal! Just dinner at my house, that's all!"
+# emi "You shouldn't be, you know! It's not that big a deal! Just dinner at my house, that's all!"
+emi ""
 
-hi "Yeah, but have you ever brought home a boyfriend before?"
+# hi "Yeah, but have you ever brought home a boyfriend before?"
+hi ""
 
-"I confess that part of me dreads hearing the answer to this."
+# "I confess that part of me dreads hearing the answer to this."
+""
 
-"I know very little of Emi's past relationships - I don't even know if there were past relationships."
+# "I know very little of Emi's past relationships - I don't even know if there were past relationships."
+""
 
 show emicas awayfrown_close
 with charachange
 
-emi "No, I guess I haven't."
+# emi "No, I guess I haven't."
+emi ""
 
 show emicas frown_close
 with charachange
 
-emi "Hey, maybe this really is kind of a big deal after all…"
+# emi "Hey, maybe this really is kind of a big deal after all…"
+emi ""
 
-hi "Oh good, now I feel twice as nervous."
+# hi "Oh good, now I feel twice as nervous."
+hi ""
 
-"Though to tell the truth, I'm pretty happy to hear that I'm the first one."
+# "Though to tell the truth, I'm pretty happy to hear that I'm the first one."
+""
 
-"Maybe we've got something special after all."
+# "Maybe we've got something special after all."
+""
 
 stop ambient
 stop music fadeout 10.0
@@ -7658,12 +9895,14 @@ with locationchange
 
 play sound sfx_hammer
 
-"Bolstered by this new thought, I've managed to calm down considerably by the time Emi knocks on her front door."
+# "Bolstered by this new thought, I've managed to calm down considerably by the time Emi knocks on her front door."
+""
 
 show emicas grin_up at center
 with charaenter
 
-emi "Hey, mom, open up! We're here!"
+# emi "Hey, mom, open up! We're here!"
+emi ""
 
 show bg emi_houseext at bgleft
 show emicas grin_up at twoleft
@@ -7672,45 +9911,55 @@ with charamove
 show meiko smile at tworight
 with charaenter
 
-"The door swings open, and Mrs. Ibarazaki stands grinning at her daughter. The grin is still surprisingly similar to Emi's."
+# "The door swings open, and Mrs. Ibarazaki stands grinning at her daughter. The grin is still surprisingly similar to Emi's."
+""
 
-"I'm never going to get used to that."
+# "I'm never going to get used to that."
+""
 
 show meiko wink
 with charachange
 
-emm "You know, people normally wait for a few minutes before they start shouting at the door."
+# emm "You know, people normally wait for a few minutes before they start shouting at the door."
+emm ""
 
 show emicas pout_up
 with charachange
 
-emi "And most mothers say hello to their daughters instead of scolding them right away."
+# emi "And most mothers say hello to their daughters instead of scolding them right away."
+emi ""
 
 show meiko happy
 with charachange
 
-emm "Ah, of course. Welcome home, dear. I've missed you."
+# emm "Ah, of course. Welcome home, dear. I've missed you."
+emm ""
 
 play music music_another fadein 0.5
 
 scene bg emi_kitchen
 with locationchange
 
-"An affectionate hug later we're inside, and it is only then that Emi's mom seems to remember that I'm actually here."
+# "An affectionate hug later we're inside, and it is only then that Emi's mom seems to remember that I'm actually here."
+""
 
 show meiko smile at center
 with charaenter
 
-emm "And hello to you too, Hisao. How are you?"
+# emm "And hello to you too, Hisao. How are you?"
+emm ""
 
-hi "I'm quite well, thank you. Nice to not have school to worry about for a little bit."
+# hi "I'm quite well, thank you. Nice to not have school to worry about for a little bit."
+hi ""
 
 show meiko happy
 with charachange
 
-emm "Ah yes, you've finished up your exams, haven't you? That must be quite a relief for you both."
+# emm "Ah yes, you've finished up your exams, haven't you? That must be quite a relief for you both."
+emm ""
 
-hi "It's certainly a weight off of my mind, that's for sure."
+# hi "It's certainly a weight off of my mind, that's for sure."
+hi ""
 
 show bg emi_kitchen at bgright
 show meiko happy at tworight
@@ -7719,398 +9968,513 @@ with charamove
 show emicas happy at twoleft
 with charaenter
 
-emi "Mine too! I think I slept well for the first time in weeks last night from relief alone."
+# emi "Mine too! I think I slept well for the first time in weeks last night from relief alone."
+emi ""
 
-"If this news is a surprise to Emi's mother, she doesn't show it. Still, her response betrays a note of interest."
+# "If this news is a surprise to Emi's mother, she doesn't show it. Still, her response betrays a note of interest."
+""
 
 show meiko smile
 with charachange
 
-emm "Is that so? I'm very glad to hear that, Emi. You know I get worried when you get all wound up about… well, exams."
+# emm "Is that so? I'm very glad to hear that, Emi. You know I get worried when you get all wound up about… well, exams."
+emm ""
 
-"Certainly Emi's mother knows something I don't - or rather, she doesn't know that Emi's told me about the nightmares."
+# "Certainly Emi's mother knows something I don't - or rather, she doesn't know that Emi's told me about the nightmares."
+""
 
-"It's interesting, being able to observe how Mrs. Ibarazaki covers for Emi. That protective instinct to make sure that I don't know any more than Emi's willing to tell me."
+# "It's interesting, being able to observe how Mrs. Ibarazaki covers for Emi. That protective instinct to make sure that I don't know any more than Emi's willing to tell me."
+""
 
 #once again, see this only if you talked to Mutou
 label th_E26e:
 
-"I suppose Emi's got more in common with quarks than I ever realized."
+# "I suppose Emi's got more in common with quarks than I ever realized."
+""
 
-"Moves around fast, impossible to understand through direct observation, yet she has an effect on everyone she encounters."
+# "Moves around fast, impossible to understand through direct observation, yet she has an effect on everyone she encounters."
+""
 
 
 label th_E26f:
 
-"I wonder if Mrs. Ibarazaki will figure out that I know about the nightmares, or is she just keeping everything secret from everybody?"
+# "I wonder if Mrs. Ibarazaki will figure out that I know about the nightmares, or is she just keeping everything secret from everybody?"
+""
 
 show emicas weaksmile
 with charachange
 
-emi "Yeah, it's not been as bad this year as in the past; Hisao helped me to stay focused."
+# emi "Yeah, it's not been as bad this year as in the past; Hisao helped me to stay focused."
+emi ""
 
-"Okay, I know that's not true. She even cut off contact outside of school hours during exam week!"
+# "Okay, I know that's not true. She even cut off contact outside of school hours during exam week!"
+""
 
-"But… she did see me during the day. And she told me more than once that the morning run was the only thing she looked forward to during exams, so maybe it's not that much of a lie."
+# "But… she did see me during the day. And she told me more than once that the morning run was the only thing she looked forward to during exams, so maybe it's not that much of a lie."
+""
 
-"Either way, to hear that being around has helped even a little makes me feel a bit better."
+# "Either way, to hear that being around has helped even a little makes me feel a bit better."
+""
 
-"Emi's mother raises an eyebrow at this statement. Either she doesn't believe Emi, or she's as surprised as I am."
+# "Emi's mother raises an eyebrow at this statement. Either she doesn't believe Emi, or she's as surprised as I am."
+""
 
 show meiko happy
 with charachange
 
-emm "Well, then it appears that it's a good thing you two have become so close."
+# emm "Well, then it appears that it's a good thing you two have become so close."
+emm ""
 
 show meiko smile
 with charachange
 
-emm "I'd tell you to take good care of my daughter, Hisao, but it looks like you're already doing that."
+# emm "I'd tell you to take good care of my daughter, Hisao, but it looks like you're already doing that."
+emm ""
 
 show emicas closedsmile
 with charachange
 
-"Emi grins at this and seems to take pride in my having managed to ingratiate myself with her mother so easily."
+# "Emi grins at this and seems to take pride in my having managed to ingratiate myself with her mother so easily."
+""
 
-hi "Actually, I'd say your daughter's been the one taking care of me. She's gotten me out and running."
+# hi "Actually, I'd say your daughter's been the one taking care of me. She's gotten me out and running."
+hi ""
 
-hi "I've probably been more active since meeting her than I ever was, even before…"
+# hi "I've probably been more active since meeting her than I ever was, even before…"
+hi ""
 
-"I'd actually never thought of it that much, nor had I ever appreciated the humor in it."
+# "I'd actually never thought of it that much, nor had I ever appreciated the humor in it."
+""
 
-"I wasn't too active before the heart attack. Pickup games of soccer don't really count since they weren't that common."
+# "I wasn't too active before the heart attack. Pickup games of soccer don't really count since they weren't that common."
+""
 
-"So now that I know for sure that I have a weak heart, {b}now{/b} I run every day, pushing my luck with the help of my medication."
+# "So now that I know for sure that I have a weak heart, {b}now{/b} I run every day, pushing my luck with the help of my medication."
+""
 
-"I chuckle quietly, then realize that I never finished my sentence."
+# "I chuckle quietly, then realize that I never finished my sentence."
+""
 
-hi "Well, before I had my heart attack and wound up at school here."
+# hi "Well, before I had my heart attack and wound up at school here."
+hi ""
 
-"It comes out so casually. There was a time that I would have thought twice about talking about what was wrong with me at all."
+# "It comes out so casually. There was a time that I would have thought twice about talking about what was wrong with me at all."
+""
 
-"But now? Now it just seems silly to care, especially in the company of Emi and her mother."
+# "But now? Now it just seems silly to care, especially in the company of Emi and her mother."
+""
 
-"If Emi can be cavalier about her disability, then so can I."
+# "If Emi can be cavalier about her disability, then so can I."
+""
 
-"I think back to the track meet, where Emi declared herself the fastest thing on no legs."
+# "I think back to the track meet, where Emi declared herself the fastest thing on no legs."
+""
 
-"The fact of her obvious loss has never seemed to bother her, at least not in public."
+# "The fact of her obvious loss has never seemed to bother her, at least not in public."
+""
 
-"Being stuck in the wheelchair frustrated her, I know. But even that was something she dealt with on her own, despite my efforts to the contrary."
+# "Being stuck in the wheelchair frustrated her, I know. But even that was something she dealt with on her own, despite my efforts to the contrary."
+""
 
 show meiko happy
 with charachange
 
-emm "Emi has a way of bringing out the more active side in people. I've never quite figured out how she does it."
+# emm "Emi has a way of bringing out the more active side in people. I've never quite figured out how she does it."
+emm ""
 
-"Those puppy dog eyes she gets, for starters."
+# "Those puppy dog eyes she gets, for starters."
+""
 
 show meiko smile
 with charachange
 
-emm "I'm not surprised that she managed to rope you into an exercise routine."
+# emm "I'm not surprised that she managed to rope you into an exercise routine."
+emm ""
 
-emm "If Rin weren't just as stubborn as she is, I'm sure that Emi would have gotten her out and running with you too."
+# emm "If Rin weren't just as stubborn as she is, I'm sure that Emi would have gotten her out and running with you too."
+emm ""
 
 show emicas happy
 with charachange
 
-emi "Oh, that reminds me! Rin says hello."
+# emi "Oh, that reminds me! Rin says hello."
+emi ""
 
 scene bg emi_dining
 with locationchange
 
-"I drift to the outer edges of the conversation again as we move into the dining room to eat."
+# "I drift to the outer edges of the conversation again as we move into the dining room to eat."
+""
 
-"It smells delicious in here, and the spread that Emi's mom has produced is impressive."
+# "It smells delicious in here, and the spread that Emi's mom has produced is impressive."
+""
 
 show meiko smile at tworight
 show emicas happy_up at twoleft
 with charaenter
 
-emi "Woah, you've made enough to feed an army in here!"
+# emi "Woah, you've made enough to feed an army in here!"
+emi ""
 
 show meiko happy
 with charachange
 
-emm "Is it too much? Well, you can always take some leftovers with you when you go."
+# emm "Is it too much? Well, you can always take some leftovers with you when you go."
+emm ""
 
-hi "That sounds great! I can only handle cafeteria food for so long. Something home-cooked would be a welcome change of pace."
+# hi "That sounds great! I can only handle cafeteria food for so long. Something home-cooked would be a welcome change of pace."
+hi ""
 
 show emicas smile
 with charachange
 
-emi "What he said. Thanks, mom."
+# emi "What he said. Thanks, mom."
+emi ""
 
-"The food tastes as good as it smells, and there's a lull in the conversation while we all dig in."
+# "The food tastes as good as it smells, and there's a lull in the conversation while we all dig in."
+""
 
-"Emi assaults her plate with the usual amount of gusto, and I will admit that I set a pretty fast pace myself."
+# "Emi assaults her plate with the usual amount of gusto, and I will admit that I set a pretty fast pace myself."
+""
 
 show meiko wink
 with charachange
 
-emm "So Hisao, I hear that you and my daughter here have gotten rather close, hmm?"
+# emm "So Hisao, I hear that you and my daughter here have gotten rather close, hmm?"
+emm ""
 
-"The urge to say something like “Not really” is so strong that I open my mouth to say it, but then reassert control."
+# "The urge to say something like “Not really” is so strong that I open my mouth to say it, but then reassert control."
+""
 
-"We are close, there's no getting around it. I mean Emi's brought me here, hasn't she?"
+# "We are close, there's no getting around it. I mean Emi's brought me here, hasn't she?"
+""
 
-"Fortunately, both Emi and her mother seem to take my reaction as a sign that I'm caught off guard rather than considering saying something cruel."
+# "Fortunately, both Emi and her mother seem to take my reaction as a sign that I'm caught off guard rather than considering saying something cruel."
+""
 
-hi "Heh, I suppose we have. I blame the morning runs, myself."
+# hi "Heh, I suppose we have. I blame the morning runs, myself."
+hi ""
 
 show emicas pout_up
 with charachange
 
-emi "You make it sound like a bad thing, Hisao."
+# emi "You make it sound like a bad thing, Hisao."
+emi ""
 
 show meiko smile
 with charachange
 
-emm "Well, I for one found it a relief."
+# emm "Well, I for one found it a relief."
+emm ""
 
-hi "Why's that?"
+# hi "Why's that?"
+hi ""
 
 show meiko worry
 with charachange
 
-emm "Emi's always been a popular girl, but never made many close friends."
+# emm "Emi's always been a popular girl, but never made many close friends."
+emm ""
 
-"This is a bit of news to me. I've always seen Emi chatting with her classmates in the hallways."
+# "This is a bit of news to me. I've always seen Emi chatting with her classmates in the hallways."
+""
 
-"And certainly the whole track team seems to love her, but it is true that she chooses to isolate herself during lunch with Rin and me."
+# "And certainly the whole track team seems to love her, but it is true that she chooses to isolate herself during lunch with Rin and me."
+""
 
-"Not exactly the sort of behavior one expects from a popular girl, after all. Then again, I've experienced her unwillingness to get close firsthand, so I can't say I'm that surprised."
+# "Not exactly the sort of behavior one expects from a popular girl, after all. Then again, I've experienced her unwillingness to get close firsthand, so I can't say I'm that surprised."
+""
 
 show meiko serious
 with charachange
 
-emm "I was beginning to have my doubts."
+# emm "I was beginning to have my doubts."
+emm ""
 
 show emicas awayfrown_up
 with charachange
 
-"Emi rolls her eyes to the ceiling and grumbles something I can't quite make out."
+# "Emi rolls her eyes to the ceiling and grumbles something I can't quite make out."
+""
 
 stop music fadeout 1.0
 
-hi "Huh?"
+# hi "Huh?"
+hi ""
 
 show emicas neutral_up
 with charachange
 
-emi "What?"
+# emi "What?"
+emi ""
 
-hi "What's that you just said?"
+# hi "What's that you just said?"
+hi ""
 
 show emicas blush
 with charachange
 
-emi "Nothing."
+# emi "Nothing."
+emi ""
 
 show meiko happy
 with charachange
 
-"Mrs. Ibarazaki chokes on her drink with laughter."
+# "Mrs. Ibarazaki chokes on her drink with laughter."
+""
 
 play music music_comedy fadein 0.5
 
-emm "You've been hanging out with the nurse too long, Emi."
+# emm "You've been hanging out with the nurse too long, Emi."
+emm ""
 
-emm "I'm going to have to talk to him about corrupting my daughter."
+# emm "I'm going to have to talk to him about corrupting my daughter."
+emm ""
 
-hi "Somehow I don't think that would be very effective."
+# hi "Somehow I don't think that would be very effective."
+hi ""
 
 show emicas evil
 with charachange
 
-emi "I learned most of it from you anyway. Not the nurse."
+# emi "I learned most of it from you anyway. Not the nurse."
+emi ""
 
 show meiko smile
 with charachange
 
-emm "Don't listen to her, Hisao. She's a born liar."
+# emm "Don't listen to her, Hisao. She's a born liar."
+emm ""
 
 show emicas awayfrown
 with charachange
 
-emi "Hmph. Yeah right."
+# emi "Hmph. Yeah right."
+emi ""
 
-hi "Oh, I don't know, Emi. I think your mother has a point."
+# hi "Oh, I don't know, Emi. I think your mother has a point."
+hi ""
 
 show emicas angry_up
 with charachange
 
-emi "What? You traitor! You're supposed to take my side in this!"
+# emi "What? You traitor! You're supposed to take my side in this!"
+emi ""
 
-hi "Yeah, but you did lie about your leg after the meet—{w=0.3}{nw}"
+# hi "Yeah, but you did lie about your leg after the meet—{w=0.3}{nw}"
+hi ""
 
 with vpunch
 
 extend " ow!"
 
-"A kick in the shins from an unmistakably plastic foot cuts me off, but not before Mrs. Ibarazaki's eyebrows shoot upwards."
+# "A kick in the shins from an unmistakably plastic foot cuts me off, but not before Mrs. Ibarazaki's eyebrows shoot upwards."
+""
 
 show meiko serious
 with charachange
 
-emm "What about your leg?"
+# emm "What about your leg?"
+emm ""
 
 show emicas awayfrown
 with charachange
 
-emi "It wasn't a big deal, that's all… I just was, er, inawheelchairforabit."
+# emi "It wasn't a big deal, that's all… I just was, er, inawheelchairforabit."
+emi ""
 
-"The last few mumbled words are quickly deciphered by Emi's mother - I suspect she has experience with this sort of thing - and a worried frown appears on her face."
+# "The last few mumbled words are quickly deciphered by Emi's mother - I suspect she has experience with this sort of thing - and a worried frown appears on her face."
+""
 
 show meiko worry
 with charachange
 
-emm "So that's why he kept dodging my calls…"
+# emm "So that's why he kept dodging my calls…"
+emm ""
 
-emm "Oh Emi… I know how much you hate being in a wheelchair."
+# emm "Oh Emi… I know how much you hate being in a wheelchair."
+emm ""
 
-emm "No wonder you've been in such a mood lately!"
+# emm "No wonder you've been in such a mood lately!"
+emm ""
 
 show emicas frown
 with charachange
 
-hi "Yeah, she's much happier on her feet, so to speak."
+# hi "Yeah, she's much happier on her feet, so to speak."
+hi ""
 
 show meiko serious
 show emicas awayfrown
 with charachange
 
-emm "Well of course! She spent enough time in a chair just after the accident."
+# emm "Well of course! She spent enough time in a chair just after the accident."
+emm ""
 
 show emicas frown
 with charachange
 
-hi "She didn't get prosthetics immediately?"
+# hi "She didn't get prosthetics immediately?"
+hi ""
 
 show meiko worry
 show emicas awayfrown
 with charachange
 
-emm "No, she had to finish healing up before they'd let her start the sort of therapy you've got to go through to adjust to those things."
+# emm "No, she had to finish healing up before they'd let her start the sort of therapy you've got to go through to adjust to those things."
+emm ""
 
-emm "Especially since she wanted to run on them."
+# emm "Especially since she wanted to run on them."
+emm ""
 
 show emicas frown
 with charachange
 
-hi "I had no idea."
+# hi "I had no idea."
+hi ""
 
 show emicas weaksmile_up
 with charachange
 
-emi "Yeah, it sucked. Oh, did you see Rin's mural at the festival?"
+# emi "Yeah, it sucked. Oh, did you see Rin's mural at the festival?"
+emi ""
 
-"Emi's sudden change of topic makes me realize belatedly that she's been fidgeting the whole time her mother and I have been talking."
+# "Emi's sudden change of topic makes me realize belatedly that she's been fidgeting the whole time her mother and I have been talking."
+""
 
-"I should have figured on her being a little skittish when it comes to talking about the accident. Even around her mother."
+# "I should have figured on her being a little skittish when it comes to talking about the accident. Even around her mother."
+""
 
 show meiko serious
 with charachange
 
-emm "No, I didn't make it out to the festival, remember?"
+# emm "No, I didn't make it out to the festival, remember?"
+emm ""
 
 show meiko happy
 with charachange
 
-emm "Although I caught a glimpse of it at your track meet. It seemed pretty weird to me."
+# emm "Although I caught a glimpse of it at your track meet. It seemed pretty weird to me."
+emm ""
 
 show emicas closedsmile
 with charachange
 
-emi "I think that's more or less what she was going for. She talked a lot about it being dreamlike. Or trying to make it dreamlike."
+# emi "I think that's more or less what she was going for. She talked a lot about it being dreamlike. Or trying to make it dreamlike."
+emi ""
 
 show meiko smile
 with charachange
 
-emm "Rin's art is one of those things I don't think I'll ever understand."
+# emm "Rin's art is one of those things I don't think I'll ever understand."
+emm ""
 
 show emicas wink
 with charachange
 
-emi "That's not surprising. I don't think Rin expects to be understood."
+# emi "That's not surprising. I don't think Rin expects to be understood."
+emi ""
 
 show emicas grin
 with charachange
 
-emi "She told me once that art allows people to understand stuff they wouldn't understand otherwise, but all the same she doesn't think it actually works that way."
+# emi "She told me once that art allows people to understand stuff they wouldn't understand otherwise, but all the same she doesn't think it actually works that way."
+emi ""
 
-"I'm surprised that Emi's talked about this with Rin extensively enough to actually have Rin's opinion, such as it is."
+# "I'm surprised that Emi's talked about this with Rin extensively enough to actually have Rin's opinion, such as it is."
+""
 
-"Although I expect that Rin could not, if she were so inclined, say the same thing about Emi's."
+# "Although I expect that Rin could not, if she were so inclined, say the same thing about Emi's."
+""
 
-"Unless, of course, Emi is purposely keeping me in the dark about everything; which is likely, but unpleasant to think about."
+# "Unless, of course, Emi is purposely keeping me in the dark about everything; which is likely, but unpleasant to think about."
+""
 
-"I drift down this unpleasant train of thought for a while, losing track of the conversation."
+# "I drift down this unpleasant train of thought for a while, losing track of the conversation."
+""
 
 show meiko serious
 with charachange
 
-emm "Hey Emi, I've been meaning to ask…"
+# emm "Hey Emi, I've been meaning to ask…"
+emm ""
 
 show emicas neutral
 with charachange
 
-emi "Huh?"
+# emi "Huh?"
+emi ""
 
 show meiko worry
 with charachange
 
-emm "Are you going to visit your father this year?"
+# emm "Are you going to visit your father this year?"
+emm ""
 
 stop music fadeout 3.0
 
-"From the way she says it, you'd think Emi's mother was talking about the weather. From the way Emi reacts, it's clearly not the weather they're talking about."
+# "From the way she says it, you'd think Emi's mother was talking about the weather. From the way Emi reacts, it's clearly not the weather they're talking about."
+""
 
 show emicas awayfrown
 with charachange
 
-"She flinches, a slight jerk of the head backwards as if she's just been slapped in the face."
+# "She flinches, a slight jerk of the head backwards as if she's just been slapped in the face."
+""
 
 show emicas sad
 with charachange
 
-emi "Can we talk about this later?"
+# emi "Can we talk about this later?"
+emi ""
 
-"Her voice sounds brittle, strained. It looks as if she's been severely shaken by the question."
+# "Her voice sounds brittle, strained. It looks as if she's been severely shaken by the question."
+""
 
-"It seems that Mrs. Ibarazaki misjudged just how close Emi and I are."
+# "It seems that Mrs. Ibarazaki misjudged just how close Emi and I are."
+""
 
-"Some things, it seems, are best not conversed about with me around. Her father is one of these things."
+# "Some things, it seems, are best not conversed about with me around. Her father is one of these things."
+""
 
-"The accident that took her legs is probably another one of those things, if her reaction to the earlier conversation between her mother and myself is any indication."
+# "The accident that took her legs is probably another one of those things, if her reaction to the earlier conversation between her mother and myself is any indication."
+""
 
-"It doesn't take Emi's mother long to realize she's screwed up."
+# "It doesn't take Emi's mother long to realize she's screwed up."
+""
 
 show meiko happy
 with charachange
 
-emm "Of course we can, dear. I'm sorry to bring it up, I just wanted to ask so I could make plans—"
+# emm "Of course we can, dear. I'm sorry to bring it up, I just wanted to ask so I could make plans—"
+emm ""
 
 show emicas neutral
 with charachange
 
-emi "It's fine. Don't worry about it."
+# emi "It's fine. Don't worry about it."
+emi ""
 
-"Emi fidgets nervously, as if embarrassed by her own reaction. I confess that her reaction is confusing."
+# "Emi fidgets nervously, as if embarrassed by her own reaction. I confess that her reaction is confusing."
+""
 
-"She only just mentioned her father to me earlier today! Less than a few hours ago, even!"
+# "She only just mentioned her father to me earlier today! Less than a few hours ago, even!"
+""
 
-"Why does a simple question about when she'll visit her father cause such a strong reaction?"
+# "Why does a simple question about when she'll visit her father cause such a strong reaction?"
+""
 
-"Unless whatever serenity she claimed to have reached by means of our talk the previous evening has suddenly evaporated."
+# "Unless whatever serenity she claimed to have reached by means of our talk the previous evening has suddenly evaporated."
+""
 
-"Or it didn't help as much as she thought. Or claimed."
+# "Or it didn't help as much as she thought. Or claimed."
+""
 
 show emicas weaksmile
 with charachange
 
-emi "I'll uh, be right back. Gotta visit the little girl's room."
+# emi "I'll uh, be right back. Gotta visit the little girl's room."
+emi ""
 
 hide emicas
 with charaexit
@@ -8119,11 +10483,14 @@ show bg emi_dining at bgleft
 show meiko smile at center
 with dissolvecharamove
 
-"Emi gets up suddenly and leaves the table, leaving me and Mrs. Ibarazaki alone."
+# "Emi gets up suddenly and leaves the table, leaving me and Mrs. Ibarazaki alone."
+""
 
-"I'm a little conflicted. Should I go after her, or should I stay here?"
+# "I'm a little conflicted. Should I go after her, or should I stay here?"
+""
 
-"It's obvious that Emi's departure was not based on the call of nature. Something's bothering her, and I have to know what it is."
+# "It's obvious that Emi's departure was not based on the call of nature. Something's bothering her, and I have to know what it is."
+""
 
 #choice time, kiddies. Well, assuming you talked to Mutou. If you didn't you'll default to 1) Go after her! and not 2) Talk to Emi's mom
 
@@ -8143,179 +10510,229 @@ label th_E26c:
 
 #if you go after her
 
-"The only way to find out is to go to the source. And the source is currently pretending that she has to use the toilet."
+# "The only way to find out is to go to the source. And the source is currently pretending that she has to use the toilet."
+""
 
 scene bg emi_kitchen
 with locationchange
 
-"I excuse myself politely from the table and head that way, only to catch sight of Emi not in the bathroom, but in the kitchen just next to the living room."
+# "I excuse myself politely from the table and head that way, only to catch sight of Emi not in the bathroom, but in the kitchen just next to the living room."
+""
 
 show emicas sad
 with charaenter
 
-"Emi's left the door open, and as I approach I can see that she's holding on to the table in an attempt to compose herself, an effort that fails as soon as I open my mouth."
+# "Emi's left the door open, and as I approach I can see that she's holding on to the table in an attempt to compose herself, an effort that fails as soon as I open my mouth."
+""
 
-hi "Doesn't look like nature's call was that urgent."
+# hi "Doesn't look like nature's call was that urgent."
+hi ""
 
 show emicas angry
 with charachange
 
-"Emi jumps and glares at me."
+# "Emi jumps and glares at me."
+""
 
 show emicas angry_up
 with charachange
 
-emi "What are you doing here? I didn't come here to be with other people."
+# emi "What are you doing here? I didn't come here to be with other people."
+emi ""
 
-hi "I just wanted to help you. You looked pretty rattled."
+# hi "I just wanted to help you. You looked pretty rattled."
+hi ""
 
 show emicas awayfrown
 with charachange
 
-emi "I said it was nothing, didn't I? And besides, I thought we'd established that you can't help me."
+# emi "I said it was nothing, didn't I? And besides, I thought we'd established that you can't help me."
+emi ""
 
-hi "No, we've established that you're stubborn."
+# hi "No, we've established that you're stubborn."
+hi ""
 
 show emicas angry
 with charachange
 
-emi "Look who's talking. The guy who followed me."
+# emi "Look who's talking. The guy who followed me."
+emi ""
 
-hi "This is different! I want to help you with… whatever this is."
+# hi "This is different! I want to help you with… whatever this is."
+hi ""
 
 show emicas awayfrown
 with charachange
 
-emi "Funny, because {b}I{/b} just want you to leave me alone."
+# emi "Funny, because {b}I{/b} just want you to leave me alone."
+emi ""
 
-hi "But why? Why can't you just trust me?"
+# hi "But why? Why can't you just trust me?"
+hi ""
 
 show emicas frown
 with charachange
 
-emi "We've been over this already, Hisao. I've got to deal with this stuff on my own."
+# emi "We've been over this already, Hisao. I've got to deal with this stuff on my own."
+emi ""
 
-hi "I won't accept that! You need my help, you just won't take it!"
+# hi "I won't accept that! You need my help, you just won't take it!"
+hi ""
 
-"My wording seems to have been a little off."
+# "My wording seems to have been a little off."
+""
 
 show emicas angry
 with charachange
 
-emi "Need? I {b}need{/b} your help?"
+# emi "Need? I {b}need{/b} your help?"
+emi ""
 
 play music music_tragic fadein 0.5
 
 show emicas angry_up
 with charachange
 
-emi "Well, it's a good thing we met, isn't it? Because otherwise I guess I'd just be a broken human being, wouldn't I?"
+# emi "Well, it's a good thing we met, isn't it? Because otherwise I guess I'd just be a broken human being, wouldn't I?"
+emi ""
 
-emi "No, it's a damn good thing that Hisao came along to save the day, isn't it? Because God knows I can't save myself, can I?"
+# emi "No, it's a damn good thing that Hisao came along to save the day, isn't it? Because God knows I can't save myself, can I?"
+emi ""
 
-emi "I'm just the poor, emotionally damaged girl with no legs, right?"
+# emi "I'm just the poor, emotionally damaged girl with no legs, right?"
+emi ""
 
-hi "Emi, you know I don't think that—"
+# hi "Emi, you know I don't think that—"
+hi ""
 
 show emicas angry
 with charachange
 
-emi "Really? Because if you thought differently then I don't think you'd be here, saying I need your help."
+# emi "Really? Because if you thought differently then I don't think you'd be here, saying I need your help."
+emi ""
 
-emi "I've gotten pretty far in life as a normal human being without you."
+# emi "I've gotten pretty far in life as a normal human being without you."
+emi ""
 
-hi "So what, nothing we've shared was important? I'm just the guy who hangs out with you?"
+# hi "So what, nothing we've shared was important? I'm just the guy who hangs out with you?"
+hi ""
 
 show emicas awayfrown
 with charachange
 
-emi "You're my boyfriend, Hisao, not my savior."
+# emi "You're my boyfriend, Hisao, not my savior."
+emi ""
 
-hi "Well no, that much is obvious. You won't even consider that I could be a help to you, will you?"
+# hi "Well no, that much is obvious. You won't even consider that I could be a help to you, will you?"
+hi ""
 
-hi "You'll just bottle it all up and hope that a run will solve your problems, or you'll come visit me and we'll fool around until you feel better."
+# hi "You'll just bottle it all up and hope that a run will solve your problems, or you'll come visit me and we'll fool around until you feel better."
+hi ""
 
-hi "That's not being a healthy human being, Emi. That's not what a relationship means."
+# hi "That's not being a healthy human being, Emi. That's not what a relationship means."
+hi ""
 
 show emicas frown
 with charachange
 
-emi "Well it's what it means to me right now, Hisao."
+# emi "Well it's what it means to me right now, Hisao."
+emi ""
 
 show emicas sad
 with charachange
 
-emi "I wish—"
+# emi "I wish—"
+emi ""
 
-"She seems to reconsider her words just then. A flicker of pain, of doubt on her face. For a moment I think she's about to cry."
+# "She seems to reconsider her words just then. A flicker of pain, of doubt on her face. For a moment I think she's about to cry."
+""
 
 show emicas frown
 with charachange
 
-"But the moment passes, and now she's composed herself again. Whatever that wish was will have to go unspoken."
+# "But the moment passes, and now she's composed herself again. Whatever that wish was will have to go unspoken."
+""
 
-emi "Look, I just… I can't do this right now."
+# emi "Look, I just… I can't do this right now."
+emi ""
 
-hi "What, have a serious conversation? Be open? Be honest? Give a damn about anyone besides yourself and your problems?"
+# hi "What, have a serious conversation? Be open? Be honest? Give a damn about anyone besides yourself and your problems?"
+hi ""
 
 show emicas angry_up
 with charachange
 
-emi "What do you know about my problems? Nothing! You don't know what I've been through, so don't pretend that you do."
+# emi "What do you know about my problems? Nothing! You don't know what I've been through, so don't pretend that you do."
+emi ""
 
-hi "I know you have nightmares, and I know your father's gone. What happened to him?"
+# hi "I know you have nightmares, and I know your father's gone. What happened to him?"
+hi ""
 
 show emicas sad_up
 with charachange
 
-"Emi's head jerks backwards as if I've just slapped her. That brittle quality has gotten back into her voice."
+# "Emi's head jerks backwards as if I've just slapped her. That brittle quality has gotten back into her voice."
+""
 
 show emicas sad
 with charachange
 
-emi "That's enough."
+# emi "That's enough."
+emi ""
 
-"This is stupid. This whole conversation has just been variations on Emi stonewalling me."
+# "This is stupid. This whole conversation has just been variations on Emi stonewalling me."
+""
 
-hi "What, you won't even answer that question? Fine, keep your secrets. They can lie in the grave as far as I'm concerned."
+# hi "What, you won't even answer that question? Fine, keep your secrets. They can lie in the grave as far as I'm concerned."
+hi ""
 
 show emicas blush
 with charachange
 
-"Emi's eyes widen in shock. When she speaks again, it's in a voice that is low, dangerous."
+# "Emi's eyes widen in shock. When she speaks again, it's in a voice that is low, dangerous."
+""
 
 show emicas grit
 with charachange
 
-emi "Get out of my house, Hisao."
+# emi "Get out of my house, Hisao."
+emi ""
 
-"The sudden change in her tone snaps me out of my self-righteous anger and makes me realize with a dawning horror what I've just said."
+# "The sudden change in her tone snaps me out of my self-righteous anger and makes me realize with a dawning horror what I've just said."
+""
 
-hi "Emi, I didn't mean—"
+# hi "Emi, I didn't mean—"
+hi ""
 
 stop music fadeout 2.0
 
 show emicas angry
 with charachange
 
-emi "I said {b}go{/b}, Hisao."
+# emi "I said {b}go{/b}, Hisao."
+emi ""
 
-emi "Tell my mother that she cooked a wonderful meal but you've forgotten a prior engagement, and get out of my house."
+# emi "Tell my mother that she cooked a wonderful meal but you've forgotten a prior engagement, and get out of my house."
+emi ""
 
-"She's trembling now, shaking with anger, or sadness, or determination. Her voice is still low, controlled. Almost a growl."
+# "She's trembling now, shaking with anger, or sadness, or determination. Her voice is still low, controlled. Almost a growl."
+""
 
-"I reach out to put an arm on her shoulder, to apologize for going too far, but she jerks away from my touch."
+# "I reach out to put an arm on her shoulder, to apologize for going too far, but she jerks away from my touch."
+""
 
 show emicas angry_up
 with charachange
 
-emi "Get out."
+# emi "Get out."
+emi ""
 
 show bg emi_dining at bgleft
 show meiko serious at center
 with locationchange
 
-"What can I do? I walk out of the kitchen and go to the living room, make my apology to Mrs. Ibarazaki, and let myself out."
+# "What can I do? I walk out of the kitchen and go to the living room, make my apology to Mrs. Ibarazaki, and let myself out."
+""
 
 $ suppress_window_after_timeskip = True
 
@@ -8328,200 +10745,260 @@ with dissolve
 
 label th_E26d:
 
-"There's an awkward silence at the table for a while after Emi dashes off. I can't think of anything to say."
+# "There's an awkward silence at the table for a while after Emi dashes off. I can't think of anything to say."
+""
 
 show meiko serious
 with charachange
 
-"Emi's mother sighs, breaking the silence."
+# "Emi's mother sighs, breaking the silence."
+""
 
 play music music_moonlight fadein 5.0
 
-emm "Sorry about that, Hisao. I sometimes forget that Emi's touchy about certain subjects."
+# emm "Sorry about that, Hisao. I sometimes forget that Emi's touchy about certain subjects."
+emm ""
 
-emm "And I was talking about the wheelchair thing, too…"
+# emm "And I was talking about the wheelchair thing, too…"
+emm ""
 
-hi "Should I go after her?"
-
-show meiko worry
-with charachange
-
-emm "Heavens no! She didn't leave the table to continue the conversation, you know."
-
-hi "But if she's troubled, shouldn't someone help her?"
-
-show meiko serious
-with charachange
-
-emm "If it were anyone else, I'd say yes. But my daughter is stubborn as a mule, and if she wants to be alone it's best to let her be alone."
-
-emm "Otherwise she'll probably say something she'd regret, which would cause you to say something you'd regret, and I would prefer that dinner doesn't end with one or the both of you storming out of the house."
-
-show meiko happy
-with charachange
-
-emm "If that were to happen I'd be a terrible hostess, wouldn't I? I've already acted as a fool once today."
-
-hi "That's okay, I shouldn't have brought up the wheelchair, apparently."
-
-show meiko serious
-with charachange
-
-"Mrs. Ibarazaki frowns, clearly more bothered by Emi's omission than she'd let on."
-
-emm "I wish she wouldn't do that. It just makes me worry more, you know."
-
-hi "She does this often?"
-
-show meiko smile
-with charachange
-
-emm "What, running off to the bathroom? No, I can't say she does. Keep injuries from her mother, though? Well, that's a little more common."
-
-emm "Every time I catch her lying like that, she assures me that the only reason she didn't tell me is because it wasn't a big deal."
-
-hi "If it's any consolation, I'm sure the only reason I knew about it at all was because I saw her every day."
-
-show meiko happy
-with charachange
-
-"This elicits a dry chuckle from across the table. Mrs. Ibarazaki sighs, a little sadly."
-
-show meiko smile
-with charachange
-
-emm "Still hesitant about getting close to people, huh? I keep hoping that she'll get over that."
-
-emm "It's funny, really. She's bounced back so well from the accident in so many ways…"
-
-show meiko serious
-with charachange
-
-emm "I guess some things never really go away."
-
-"From the looks of it, the whole thing still bothers her, too."
-
-"She seems to be a little more willing to talk about the accident without Emi around, though."
-
-hi "Hey, I've got a question, if it's all right."
-
-show meiko smile
-with charachange
-
-emm "Oh?"
-
-hi "What else did Emi lose in that accident? The nurse said that she gets this way near the anniversary, and she won't talk about it to me…"
-
-show meiko happy
-with charachange
-
-emm "So you thought I'd fill you in, hmm?"
-
-hi "Er, yeah. Hopefully."
-
-show meiko serious
-with charachange
-
-emm "Well, there's a problem with that request, you know."
-
-hi "Let me guess: you promised Emi that you wouldn't tell anyone she didn't want to know, and you don't know if she wants me to know?"
-
-emm "Something like that. I promised Emi that she'd be the one to tell people the full story."
-
-hi "But isn't that important? I mean, it's clearly had a huge effect on her if she's still like this so long after the accident happened."
+# hi "Should I go after her?"
+hi ""
 
 show meiko worry
 with charachange
 
-emm "That's true. It did have a long-lasting effect on her. There are a few things that she'll probably never really get over."
+# emm "Heavens no! She didn't leave the table to continue the conversation, you know."
+emm ""
 
-"For a moment Mrs. Ibarazaki looks incredibly saddened, as if an old wound is bothering her."
+# hi "But if she's troubled, shouldn't someone help her?"
+hi ""
 
-emm "I suppose there are a few things I'll never really get over either…"
+show meiko serious
+with charachange
+
+# emm "If it were anyone else, I'd say yes. But my daughter is stubborn as a mule, and if she wants to be alone it's best to let her be alone."
+emm ""
+
+# emm "Otherwise she'll probably say something she'd regret, which would cause you to say something you'd regret, and I would prefer that dinner doesn't end with one or the both of you storming out of the house."
+emm ""
 
 show meiko happy
 with charachange
 
-"Another dry chuckle, and with a shake of her head Emi's mother banishes the memory."
+# emm "If that were to happen I'd be a terrible hostess, wouldn't I? I've already acted as a fool once today."
+emm ""
+
+# hi "That's okay, I shouldn't have brought up the wheelchair, apparently."
+hi ""
+
+show meiko serious
+with charachange
+
+# "Mrs. Ibarazaki frowns, clearly more bothered by Emi's omission than she'd let on."
+""
+
+# emm "I wish she wouldn't do that. It just makes me worry more, you know."
+emm ""
+
+# hi "She does this often?"
+hi ""
 
 show meiko smile
 with charachange
 
-emm "Look, there's something you absolutely must understand about the way Emi thinks about the accident."
+# emm "What, running off to the bathroom? No, I can't say she does. Keep injuries from her mother, though? Well, that's a little more common."
+emm ""
 
-hi "What's that?"
+# emm "Every time I catch her lying like that, she assures me that the only reason she didn't tell me is because it wasn't a big deal."
+emm ""
 
-emm "It wasn't a big deal."
+# hi "If it's any consolation, I'm sure the only reason I knew about it at all was because I saw her every day."
+hi ""
+
+show meiko happy
+with charachange
+
+# "This elicits a dry chuckle from across the table. Mrs. Ibarazaki sighs, a little sadly."
+""
+
+show meiko smile
+with charachange
+
+# emm "Still hesitant about getting close to people, huh? I keep hoping that she'll get over that."
+emm ""
+
+# emm "It's funny, really. She's bounced back so well from the accident in so many ways…"
+emm ""
+
+show meiko serious
+with charachange
+
+# emm "I guess some things never really go away."
+emm ""
+
+# "From the looks of it, the whole thing still bothers her, too."
+""
+
+# "She seems to be a little more willing to talk about the accident without Emi around, though."
+""
+
+# hi "Hey, I've got a question, if it's all right."
+hi ""
+
+show meiko smile
+with charachange
+
+# emm "Oh?"
+emm ""
+
+# hi "What else did Emi lose in that accident? The nurse said that she gets this way near the anniversary, and she won't talk about it to me…"
+hi ""
+
+show meiko happy
+with charachange
+
+# emm "So you thought I'd fill you in, hmm?"
+emm ""
+
+# hi "Er, yeah. Hopefully."
+hi ""
+
+show meiko serious
+with charachange
+
+# emm "Well, there's a problem with that request, you know."
+emm ""
+
+# hi "Let me guess: you promised Emi that you wouldn't tell anyone she didn't want to know, and you don't know if she wants me to know?"
+hi ""
+
+# emm "Something like that. I promised Emi that she'd be the one to tell people the full story."
+emm ""
+
+# hi "But isn't that important? I mean, it's clearly had a huge effect on her if she's still like this so long after the accident happened."
+hi ""
+
+show meiko worry
+with charachange
+
+# emm "That's true. It did have a long-lasting effect on her. There are a few things that she'll probably never really get over."
+emm ""
+
+# "For a moment Mrs. Ibarazaki looks incredibly saddened, as if an old wound is bothering her."
+""
+
+# emm "I suppose there are a few things I'll never really get over either…"
+emm ""
+
+show meiko happy
+with charachange
+
+# "Another dry chuckle, and with a shake of her head Emi's mother banishes the memory."
+""
+
+show meiko smile
+with charachange
+
+# emm "Look, there's something you absolutely must understand about the way Emi thinks about the accident."
+emm ""
+
+# hi "What's that?"
+hi ""
+
+# emm "It wasn't a big deal."
+emm ""
 
 stop music fadeout 1.0
 
-"Somehow I manage to keep my mouth from falling open in surprise, but it takes some effort."
+# "Somehow I manage to keep my mouth from falling open in surprise, but it takes some effort."
+""
 
-"That has to be the most ridiculous thing I've ever heard."
+# "That has to be the most ridiculous thing I've ever heard."
+""
 
-hi "I beg your pardon?"
+# hi "I beg your pardon?"
+hi ""
 
 play music music_sadness fadein 3.0
 
 show meiko serious
 with charachange
 
-emm "Okay, maybe it's not that simple, but it's a pretty accurate summation. Emi believes that the accident did not define her, and that everything she lost that day didn't define her either."
+# emm "Okay, maybe it's not that simple, but it's a pretty accurate summation. Emi believes that the accident did not define her, and that everything she lost that day didn't define her either."
+emm ""
 
-emm "She's not “that girl who lost her legs,” she's “The Fastest Thing on No Legs.” Her optimism and energy came out of that wreck without a scratch, as far as she's concerned."
+# emm "She's not “that girl who lost her legs,” she's “The Fastest Thing on No Legs.” Her optimism and energy came out of that wreck without a scratch, as far as she's concerned."
+emm ""
 
-hi "Yet it goes beyond that, doesn't it? I mean, last night she told me that she refused to rely on me because it would make losing me too painful."
+# hi "Yet it goes beyond that, doesn't it? I mean, last night she told me that she refused to rely on me because it would make losing me too painful."
+hi ""
 
 show meiko smile
 with charachange
 
-emm "Not really. You said she won't tell you about the accident, even though you've asked her about it before."
+# emm "Not really. You said she won't tell you about the accident, even though you've asked her about it before."
+emm ""
 
-emm "The reason she won't talk about it when you ask is because to her it's not something you absolutely need to know. Even if she wasn't terrified of getting too close to anyone, she still wouldn't talk about it."
+# emm "The reason she won't talk about it when you ask is because to her it's not something you absolutely need to know. Even if she wasn't terrified of getting too close to anyone, she still wouldn't talk about it."
+emm ""
 
-hi "She's afraid of being close to me?"
+# hi "She's afraid of being close to me?"
+hi ""
 
 show meiko happy
 with charachange
 
-emm "Oh goodness me, yes. For all that talk about being unscathed by the accident, she's gained the ugly knowledge of how quickly it can all be over."
+# emm "Oh goodness me, yes. For all that talk about being unscathed by the accident, she's gained the ugly knowledge of how quickly it can all be over."
+emm ""
 
 show meiko smile
 with charachange
 
-emm "So she's not going to let people get especially close to her, and she certainly would resent any implication that she cannot work through this on her own."
+# emm "So she's not going to let people get especially close to her, and she certainly would resent any implication that she cannot work through this on her own."
+emm ""
 
-hi "But I don't think she {b}can{/b}."
+# hi "But I don't think she {b}can{/b}."
+hi ""
 
 show meiko serious
 with charachange
 
-emm "Oh no? Are you sure you've been dating my daughter and not somebody else? Trust me Hisao, she could get through it on her own."
+# emm "Oh no? Are you sure you've been dating my daughter and not somebody else? Trust me Hisao, she could get through it on her own."
+emm ""
 
-hi "But she has nightmares, and can't sleep well, and—"
+# hi "But she has nightmares, and can't sleep well, and—"
+hi ""
 
 show meiko smile
 with charachange
 
-emm "And she does this every year. Tell me, if she wasn't able to get through it on her own, do you really think she'd still be alive? She would've killed herself, or something equally melodramatic."
+# emm "And she does this every year. Tell me, if she wasn't able to get through it on her own, do you really think she'd still be alive? She would've killed herself, or something equally melodramatic."
+emm ""
 
-hi "So what, I shouldn't try to help her?"
+# hi "So what, I shouldn't try to help her?"
+hi ""
 
 show meiko serious
 with charachange
 
-emm "I didn't say that! I hate seeing my daughter like this, and knowing that she could rely on someone else would let me relax."
+# emm "I didn't say that! I hate seeing my daughter like this, and knowing that she could rely on someone else would let me relax."
+emm ""
 
-emm "You just need to understand that accepting help goes against everything Emi thinks about herself and the way the world works."
+# emm "You just need to understand that accepting help goes against everything Emi thinks about herself and the way the world works."
+emm ""
 
-emm "If you still want to offer her help, then I guess that's your call. Honestly, I'd like you to, but it'd be silly not to warn you that it's not going to be easy."
+# emm "If you still want to offer her help, then I guess that's your call. Honestly, I'd like you to, but it'd be silly not to warn you that it's not going to be easy."
+emm ""
 
 show meiko smile
 with charachange
 
-emm "You just need to be patient with her. She's already closer to you than anyone else she's ever met at Yamaku."
+# emm "You just need to be patient with her. She's already closer to you than anyone else she's ever met at Yamaku."
+emm ""
 
-hi "Well it sure doesn't feel like we're very close."
+# hi "Well it sure doesn't feel like we're very close."
+hi ""
 
 show bg emi_dining at center
 show meiko serious at tworight
@@ -8532,183 +11009,247 @@ with charaenter
 
 stop music fadeout 0.3
 
-emi "Good, that makes this part easier."
+# emi "Good, that makes this part easier."
+emi ""
 
-"Emi's voice nearly gives me a heart attack."
+# "Emi's voice nearly gives me a heart attack."
+""
 
-hi "Whoa! Didn't hear you come back, Emi."
+# hi "Whoa! Didn't hear you come back, Emi."
+hi ""
 
 show emicas angry
 with charachange
 
-emi "How convenient."
+# emi "How convenient."
+emi ""
 
-hi "Wait, were you eavesdropping?"
+# hi "Wait, were you eavesdropping?"
+hi ""
 
 show emicas angry_up
 with charachange
 
-emi "Nope. Just happened to come back at the right moment, I guess."
+# emi "Nope. Just happened to come back at the right moment, I guess."
+emi ""
 
 show meiko worry
 with charachange
 
-emm "Emi, Hisao was just—"
+# emm "Emi, Hisao was just—"
+emm ""
 
-"Emi holds up a finger, cutting her mother off."
+# "Emi holds up a finger, cutting her mother off."
+""
 
 show emicas grit
 with charachange
 
-emi "On his way out of the house? Yeah, I know."
+# emi "On his way out of the house? Yeah, I know."
+emi ""
 
-"Emi's trembling with anger now, looking vaguely betrayed."
+# "Emi's trembling with anger now, looking vaguely betrayed."
+""
 
-emm "Emi, don't be ridiculous, we were just—"
+# emm "Emi, don't be ridiculous, we were just—"
+emm ""
 
 show emicas angry_up
 with charachange
 
-emi "You {b}promised{/b}!"
+# emi "You {b}promised{/b}!"
+emi ""
 
 play music music_rain fadein 0.5
 
-"The pain carried in that last word is almost too much for me to bear. The idea that I could hurt her that much is like being kicked in the gut."
+# "The pain carried in that last word is almost too much for me to bear. The idea that I could hurt her that much is like being kicked in the gut."
+""
 
-"Emi's mother looks similarly pained by the thought."
+# "Emi's mother looks similarly pained by the thought."
+""
 
-emm "And I kept that promise! Just listen, there's no reason to go throwing people out of the house."
+# emm "And I kept that promise! Just listen, there's no reason to go throwing people out of the house."
+emm ""
 
-"Emi's mother seems to be both angry at her daughter's outburst and embarrassed that I'm a witness to it."
+# "Emi's mother seems to be both angry at her daughter's outburst and embarrassed that I'm a witness to it."
+""
 
-"There's only one real solution to this problem, I think."
+# "There's only one real solution to this problem, I think."
+""
 
-hi "It's okay. I'll go."
+# hi "It's okay. I'll go."
+hi ""
 
-emm "Now really, that seems a little unnecessary…"
+# emm "Now really, that seems a little unnecessary…"
+emm ""
 
-hi "Don't worry about it. Thank you for dinner, Mrs. Ibarazaki, and for the advice."
+# hi "Don't worry about it. Thank you for dinner, Mrs. Ibarazaki, and for the advice."
+hi ""
 
 show meiko serious
 with charachange
 
-emm "It was my pleasure, Hisao. I'm sorry we didn't get to the dessert."
+# emm "It was my pleasure, Hisao. I'm sorry we didn't get to the dessert."
+emm ""
 
-hi "That's okay. I have to watch what I eat anyway."
+# hi "That's okay. I have to watch what I eat anyway."
+hi ""
 
-hi "Good evening, Emi, Mrs. Ibarazaki."
+# hi "Good evening, Emi, Mrs. Ibarazaki."
+hi ""
 
-"The formality of our conversation, coupled with the fact that I'm getting ready to leave, seems to snap Emi out of her anger."
-
-show emicas frown
-with charachange
-
-emi "No, wait. I'm sorry, I've been so… and after last night I just thought… You don't have to go, I take it back, it's okay—"
-
-"I can't help but smile slightly. She can barely articulate her apology, and I really would like to stay…"
-
-"But I don't think I can, right now. I need to think about what her mother said, and about what I'm going to do about us."
-
-"I don't want to risk accidentally getting Emi angry again in her current state, either."
-
-hi "No, I think I'd better leave. You seem pretty shook up, and, well, I'd only wind up trying to help you again. I know you'd prefer I didn't, so I'm going to leave instead."
-
-show emicas sad
-with charachange
-
-emi "But—"
-
-hi "Hey, it's not a problem. You don't want a knight on a white charger, right? Just promise me one thing, okay?"
+# "The formality of our conversation, coupled with the fact that I'm getting ready to leave, seems to snap Emi out of her anger."
+""
 
 show emicas frown
 with charachange
 
-emi "What?"
+# emi "No, wait. I'm sorry, I've been so… and after last night I just thought… You don't have to go, I take it back, it's okay—"
+emi ""
 
-hi "Don't be angry at your mom, okay? She was just giving me some advice, that's all."
+# "I can't help but smile slightly. She can barely articulate her apology, and I really would like to stay…"
+""
+
+# "But I don't think I can, right now. I need to think about what her mother said, and about what I'm going to do about us."
+""
+
+# "I don't want to risk accidentally getting Emi angry again in her current state, either."
+""
+
+# hi "No, I think I'd better leave. You seem pretty shook up, and, well, I'd only wind up trying to help you again. I know you'd prefer I didn't, so I'm going to leave instead."
+hi ""
 
 show emicas sad
 with charachange
 
-"Emi nods, hesitantly, like this simple idea is all that she can grab on to at this point. She's so terribly off-balance, but I can't do anything about that right now."
+# emi "But—"
+emi ""
 
-emi "Okay."
+# hi "Hey, it's not a problem. You don't want a knight on a white charger, right? Just promise me one thing, okay?"
+hi ""
 
-hi "See you tomorrow, okay? Running in the morning. Don't forget!"
+show emicas frown
+with charachange
 
-"I can see that I've hurt Emi by deciding to leave. But there's nothing I can do for her as things stand, and I know that she's too stubborn to admit that she wants me to stick around."
+# emi "What?"
+emi ""
 
-"I watch various emotions cross Emi's face as she tries to process everything that's just happened."
+# hi "Don't be angry at your mom, okay? She was just giving me some advice, that's all."
+hi ""
+
+show emicas sad
+with charachange
+
+# "Emi nods, hesitantly, like this simple idea is all that she can grab on to at this point. She's so terribly off-balance, but I can't do anything about that right now."
+""
+
+# emi "Okay."
+emi ""
+
+# hi "See you tomorrow, okay? Running in the morning. Don't forget!"
+hi ""
+
+# "I can see that I've hurt Emi by deciding to leave. But there's nothing I can do for her as things stand, and I know that she's too stubborn to admit that she wants me to stick around."
+""
+
+# "I watch various emotions cross Emi's face as she tries to process everything that's just happened."
+""
 
 show emicas weaksmile
 with charachange
 
-"Shortly comes that calm look again, like last night, and that voice that tries so hard to sound careless."
+# "Shortly comes that calm look again, like last night, and that voice that tries so hard to sound careless."
+""
 
-emi "Sure, Hisao. See you around."
+# emi "Sure, Hisao. See you around."
+emi ""
 
-"Both of us are unwilling to concede emotion at this point, and I'm having a hard time keeping up my facade, so I turn on my heel and walk out the door."
+# "Both of us are unwilling to concede emotion at this point, and I'm having a hard time keeping up my facade, so I turn on my heel and walk out the door."
+""
 
 stop music fadeout 7.0
 
 scene bg emi_houseext
 with locationskip
 
-"I shut it behind me slowly, pausing for a moment as the latch catches, my hand on the doorknob."
+# "I shut it behind me slowly, pausing for a moment as the latch catches, my hand on the doorknob."
+""
 
-"Did I make the right decision just now? Should I have stayed and tried to work things out?"
+# "Did I make the right decision just now? Should I have stayed and tried to work things out?"
+""
 
-"No, I decide. Not in front of her mother like that. In spite of everything, I'd rather keep Emi's mother insulated from the sort of anger that surfaced last night."
+# "No, I decide. Not in front of her mother like that. In spite of everything, I'd rather keep Emi's mother insulated from the sort of anger that surfaced last night."
+""
 
-"Even though she's probably used to it, some protective instinct wants me to keep Emi's image as a cheerful girl intact."
+# "Even though she's probably used to it, some protective instinct wants me to keep Emi's image as a cheerful girl intact."
+""
 
-"With a start, I realize my hand is still resting on the knob. I take my hand away, put it in my pocket, and head down the slowly darkening street."
+# "With a start, I realize my hand is still resting on the knob. I take my hand away, put it in my pocket, and head down the slowly darkening street."
+""
 
 scene bg school_dormhisao
 with shorttimeskip
 
 play music music_pearly fadein 1.0
 
-"I let out a long breath."
+# "I let out a long breath."
+""
 
-"The wait until tomorrow morning comes isn't going to be easy."
+# "The wait until tomorrow morning comes isn't going to be easy."
+""
 
-"In any case, I have to think on what to say to Emi. I must apologize, and I must get through to her somehow."
+# "In any case, I have to think on what to say to Emi. I must apologize, and I must get through to her somehow."
+""
 
-"On that account, something has been on my mind for most of the way back to my room."
+# "On that account, something has been on my mind for most of the way back to my room."
+""
 
-"The letter of apology from Iwanako."
+# "The letter of apology from Iwanako."
+""
 
-"I was so concerned about my new life when I received it that I didn't even bother to really read it."
+# "I was so concerned about my new life when I received it that I didn't even bother to really read it."
+""
 
-"Now that I find myself in a similar position, my curiosity got rekindled. What did she want to let me know so badly?"
+# "Now that I find myself in a similar position, my curiosity got rekindled. What did she want to let me know so badly?"
+""
 
-"If nothing else, reading her thoughts might help me frame mine."
+# "If nothing else, reading her thoughts might help me frame mine."
+""
 
-"I remember tossing it away. Damn, where did I throw that thing?"
+# "I remember tossing it away. Damn, where did I throw that thing?"
+""
 
-"I check under my desk. That turns up nothing, so I look for harder-to-reach, more unlikely locations."
+# "I check under my desk. That turns up nothing, so I look for harder-to-reach, more unlikely locations."
+""
 
-"…"
+# "…"
+""
 
-"Well, now I know where that lost sock went, at least."
+# "Well, now I know where that lost sock went, at least."
+""
 
-"Still no letter, though."
+# "Still no letter, though."
+""
 
-"It's when I try sweeping my arm under my nightstand that I feel something crinkly jammed between it and the wall."
+# "It's when I try sweeping my arm under my nightstand that I feel something crinkly jammed between it and the wall."
+""
 
-"Grunting a little with the effort, I reach for my prize and soon manage to bring it into the light."
+# "Grunting a little with the effort, I reach for my prize and soon manage to bring it into the light."
+""
 
-"Bingo."
+# "Bingo."
+""
 
 play sound sfx_paper
 
 scene ev hisao_letter_open_2
 with locationchange
 
-"I sit at my desk and spread the crumpled paper open. A flick turns on the table light."
+# "I sit at my desk and spread the crumpled paper open. A flick turns on the table light."
+""
 
-"Skipping past the empty pleasantries, I look for the point where I stopped reading. Ah, here it is."
+# "Skipping past the empty pleasantries, I look for the point where I stopped reading. Ah, here it is."
+""
 
 window hide
 
@@ -8718,9 +11259,11 @@ $ written_note("The truth is, the times when I visited you at the hospital made 
 
 window show
 
-"Giving up on happiness…"
+# "Giving up on happiness…"
+""
 
-"This sounds unpleasantly familiar."
+# "This sounds unpleasantly familiar."
+""
 
 window hide
 
@@ -8732,7 +11275,8 @@ $ written_note("Now that the distance between us is also physical, it also feels
 
 window show
 
-"After finishing reading the letter I smooth it out carefully and set it aside on my desk."
+# "After finishing reading the letter I smooth it out carefully and set it aside on my desk."
+""
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -8740,19 +11284,25 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\n\nThank you, Iwanako. I wanted to answer “yes” to your question on that snowy winter day, but I never got to."
+# n "\n\n\nThank you, Iwanako. I wanted to answer “yes” to your question on that snowy winter day, but I never got to."
+n ""
 
-n "By the time we met again, it was too late."
+# n "By the time we met again, it was too late."
+n ""
 
-n "Or so I thought. What would have happened if I had behaved differently, back in that dismally sterile hospital room?"
+# n "Or so I thought. What would have happened if I had behaved differently, back in that dismally sterile hospital room?"
+n ""
 
-n "I'm sorry. There's no point in wondering now, but there's no point in trying to forget either."
+# n "I'm sorry. There's no point in wondering now, but there's no point in trying to forget either."
+n ""
 
-n "I am who I am because of all that happened to me and all I look forward to experience. Present, future, and past."
+# n "I am who I am because of all that happened to me and all I look forward to experience. Present, future, and past."
+n ""
 
 stop music fadeout 2.0
 
-n "\n\nAnd the past may just have taught me an important lesson now."
+# n "\n\nAnd the past may just have taught me an important lesson now."
+n ""
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -8780,7 +11330,8 @@ with openeye
 
 window show
 
-"The morning alarm sounds and I roll over, switching it off. My eyes open blearily to stare at the ceiling."
+# "The morning alarm sounds and I roll over, switching it off. My eyes open blearily to stare at the ceiling."
+""
 
 play music music_night fadein 1.0
 
@@ -8788,19 +11339,26 @@ window hide
 nvl clear
 nvl show dissolve
 
-n "\n\nWhat am I going to do? Do I get out of bed, go down to the track, and pretend that nothing happened?"
+# n "\n\nWhat am I going to do? Do I get out of bed, go down to the track, and pretend that nothing happened?"
+n ""
 
-n "Will Emi even show up? After last evening's events, I doubt it."
+# n "Will Emi even show up? After last evening's events, I doubt it."
+n ""
 
-n "Even supposing that she did, what would I do then? Get over this fight just to dance the same routine the next time something's bothering her?"
+# n "Even supposing that she did, what would I do then? Get over this fight just to dance the same routine the next time something's bothering her?"
+n ""
 
-n "I know that I spoke hastily last evening, especially trying to use her father as leverage."
+# n "I know that I spoke hastily last evening, especially trying to use her father as leverage."
+n ""
 
-n "But was anything I said really off the mark? She won't let me in, ever, and she'll be forced to suffer alone."
+# n "But was anything I said really off the mark? She won't let me in, ever, and she'll be forced to suffer alone."
+n ""
 
-n "Nothing I do, nothing I say is going to change that. She won't change, and she's already decided to keep me at arm's length."
+# n "Nothing I do, nothing I say is going to change that. She won't change, and she's already decided to keep me at arm's length."
+n ""
 
-n "\nCan I really bring myself to go down there and see her, knowing that I'm never going to get past where I am now?"
+# n "\nCan I really bring myself to go down there and see her, knowing that I'm never going to get past where I am now?"
+n ""
 
 nvl clear
 nvl hide dissolve
@@ -8810,56 +11368,75 @@ with shuteye
 
 window show
 
-"No, I decide. I really can't. Not today. I roll over and go back to sleep."
+# "No, I decide. I really can't. Not today. I roll over and go back to sleep."
+""
 
-"She probably won't be there anyway."
+# "She probably won't be there anyway."
+""
 
 scene bg school_cafeteria
 with shorttimeskip
 
-"A similar mental conversation repeats itself when it comes time to go to lunch, and I eat in the cafeteria, alone."
+# "A similar mental conversation repeats itself when it comes time to go to lunch, and I eat in the cafeteria, alone."
+""
 
-"I don't want to see her; the very thought makes me feel ill."
+# "I don't want to see her; the very thought makes me feel ill."
+""
 
 scene bg school_track_ni
 with shorttimeskip
 
-"That night, I go for a run; I'm solo for the first time since Emi got sick after the track meet."
+# "That night, I go for a run; I'm solo for the first time since Emi got sick after the track meet."
+""
 
-"Skipped seeing the nurse, just in case he asked about Emi."
+# "Skipped seeing the nurse, just in case he asked about Emi."
+""
 
-"I don't want to talk about her, either."
+# "I don't want to talk about her, either."
+""
 
 scene bg school_hallway3
 with shorttimeskip
 
-"The next day, I do the same thing. Alarm, off. Stay in bed. Eat alone, run alone."
+# "The next day, I do the same thing. Alarm, off. Stay in bed. Eat alone, run alone."
+""
 
-"To fill the time that I would usually be spending with Emi, I start reading more."
+# "To fill the time that I would usually be spending with Emi, I start reading more."
+""
 
-"It works surprisingly well, until I find myself ducking into a restroom because I see her walking down the hall in between classes."
+# "It works surprisingly well, until I find myself ducking into a restroom because I see her walking down the hall in between classes."
+""
 
-"If she noticed me, she didn't show it, even though I don't suppose she ever shows anything."
+# "If she noticed me, she didn't show it, even though I don't suppose she ever shows anything."
+""
 
-"Certainly not to the girls from her class I see talking cheerfully to her."
+# "Certainly not to the girls from her class I see talking cheerfully to her."
+""
 
-"Or to her fellow track members."
+# "Or to her fellow track members."
+""
 
-"Especially not to me."
+# "Especially not to me."
+""
 
-"Alarm off. Stay in bed."
+# "Alarm off. Stay in bed."
+""
 
 scene bg school_scienceroom
 show muto normal at center
 with shorttimeskip
 
-"Mutou and I have a lengthy talk about the possibility that string theory is plausible. I don't buy it, myself."
+# "Mutou and I have a lengthy talk about the possibility that string theory is plausible. I don't buy it, myself."
+""
 
-"More than four dimensions, I can buy. But a bunch of vibrating strings at the subatomic level? That's asking a bit much."
+# "More than four dimensions, I can buy. But a bunch of vibrating strings at the subatomic level? That's asking a bit much."
+""
 
-"Looks like I'm not the only one to think this way, too. Apparently it's not really as strong a theory as it once was."
+# "Looks like I'm not the only one to think this way, too. Apparently it's not really as strong a theory as it once was."
+""
 
-"Mutou says that's just because nobody has found the right way of looking at the data yet."
+# "Mutou says that's just because nobody has found the right way of looking at the data yet."
+""
 
 $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_rooftop
@@ -8867,49 +11444,64 @@ play ambient sfx_rooftop
 scene bg school_roof
 with shorttimeskip
 
-"Eat alone."
+# "Eat alone."
+""
 
-"The rooftop is deserted today. I briefly wonder where Emi and Rin are, but shrug off the question. The important thing is that they aren't here, so I won't have to talk to them."
+# "The rooftop is deserted today. I briefly wonder where Emi and Rin are, but shrug off the question. The important thing is that they aren't here, so I won't have to talk to them."
+""
 
-"Since I have nobody to talk to, I bring a book with me to read."
+# "Since I have nobody to talk to, I bring a book with me to read."
+""
 
-"The weather's nicer, if getting a little hot."
+# "The weather's nicer, if getting a little hot."
+""
 
-"Hopefully it will be cooler in the evening; a cool breeze seems to back up my theory."
+# "Hopefully it will be cooler in the evening; a cool breeze seems to back up my theory."
+""
 
 stop ambient fadeout 2.0
 
 scene bg school_track_on_ni
 with shorttimeskip
 
-"Run alone."
+# "Run alone."
+""
 
-"It is, in fact, cooler at the track. No sign of Emi, which is exactly the sort of thing I'm going for."
+# "It is, in fact, cooler at the track. No sign of Emi, which is exactly the sort of thing I'm going for."
+""
 
-"I stretch out and start on my usual run, trying hard to ignore the lack of a running partner in front of me."
+# "I stretch out and start on my usual run, trying hard to ignore the lack of a running partner in front of me."
+""
 
-"Finding my thoughts drifting damnably to that girlish laugh, incorrigible grin, those wide and friendly eyes, her incredibly toned body—"
+# "Finding my thoughts drifting damnably to that girlish laugh, incorrigible grin, those wide and friendly eyes, her incredibly toned body—"
+""
 
 scene bg school_track_running_ni
 with Dissolve(1.0)
 
-"I increase the pace to clear my head. Chew up the distance between me and the turns, find the speed that makes me think only of my legs and how much they burn."
+# "I increase the pace to clear my head. Chew up the distance between me and the turns, find the speed that makes me think only of my legs and how much they burn."
+""
 
-"I glance at my watch as I round the final turn, noting that my time's gotten faster."
+# "I glance at my watch as I round the final turn, noting that my time's gotten faster."
+""
 
 show bg school_track_on_ni
 with Dissolve(2.0)
 
-"My heart seems a little squirrelly tonight, so I give myself a few extra cool-down laps just to be safe."
+# "My heart seems a little squirrelly tonight, so I give myself a few extra cool-down laps just to be safe."
+""
 
-"No reason to bring this to the nurse's attention. I'll be fine. A rather Emi-ish thought to have, I'll admit."
+# "No reason to bring this to the nurse's attention. I'll be fine. A rather Emi-ish thought to have, I'll admit."
+""
 
-"I have to hope that eventually I'll stop thinking about her so much."
+# "I have to hope that eventually I'll stop thinking about her so much."
+""
 
 scene bg school_dormhisao
 with shorttimeskip
 
-"I finish another book before going to bed that night. I'll have to stop by the library tomorrow."
+# "I finish another book before going to bed that night. I'll have to stop by the library tomorrow."
+""
 
 play sound sfx_switch
 
@@ -8933,7 +11525,8 @@ with openeye
 
 window show
 
-"I don't know why I keep the early alarm on any more, but it wakes me up the next morning just the same. I still turn it off and go back to sleep."
+# "I don't know why I keep the early alarm on any more, but it wakes me up the next morning just the same. I still turn it off and go back to sleep."
+""
 
 scene bg school_scienceroom
 show misha perky_smile at center
@@ -8941,54 +11534,68 @@ with shorttimeskip
 
 play music music_pearly fadein 1.0
 
-"That afternoon, as I get ready to head to the cafeteria for another solo lunch (I've got a new book about a couple of con men in ancient Persia that I'm pretty excited about reading) I am suddenly cornered by Misha and…"
+# "That afternoon, as I get ready to head to the cafeteria for another solo lunch (I've got a new book about a couple of con men in ancient Persia that I'm pretty excited about reading) I am suddenly cornered by Misha and…"
+""
 
-"Huh. I guess just Misha."
+# "Huh. I guess just Misha."
+""
 
 show misha hips_smile
 with charachange
 
-mi "Off to eat alone again, Hicchan~?"
+# mi "Off to eat alone again, Hicchan~?"
+mi ""
 
 show misha sign_smile
 with charachange
 
-mi "We've noticed, you know~!"
+# mi "We've noticed, you know~!"
+mi ""
 
-hi "We?"
+# hi "We?"
+hi ""
 
 show misha hips_grin
 with charachange
 
-mi "Uh huh! Shicchan and I noticed that you've been spending more time alone!"
+# mi "Uh huh! Shicchan and I noticed that you've been spending more time alone!"
+mi ""
 
 show misha hips_smile
 with charachange
 
-mi "She wanted me to find out why, so I told her I'd ask you!"
+# mi "She wanted me to find out why, so I told her I'd ask you!"
+mi ""
 
-hi "I'm surprised she didn't ask me herself."
+# hi "I'm surprised she didn't ask me herself."
+hi ""
 
 show misha perky_smile
 with charachange
 
-mi "She would have, but she wanted to get a head start on some paperwork. There's a lot of it since we're coming up on the end of the term, you know~!"
+# mi "She would have, but she wanted to get a head start on some paperwork. There's a lot of it since we're coming up on the end of the term, you know~!"
+mi ""
 
-hi "Why the sudden interest in my well-being, anyway?"
+# hi "Why the sudden interest in my well-being, anyway?"
+hi ""
 
 show misha sign_smile
 with charachange
 
-mi "Ah, Shicchan said “It is the duty of the Student Council to keep track of the emotional health of its students! To allow a cons—constituent to spiral into depression unchecked would be an unforgivable failure in the council's duties!”"
+# mi "Ah, Shicchan said “It is the duty of the Student Council to keep track of the emotional health of its students! To allow a cons—constituent to spiral into depression unchecked would be an unforgivable failure in the council's duties!”"
+mi ""
 
-hi "Well, that's easy, then. I'm not depressed."
+# hi "Well, that's easy, then. I'm not depressed."
+hi ""
 
 show misha perky_confused
 with charachange
 
-mi "But you're eating alone, and nobody's seen you and Emi together at all! Something happened, didn't it, Hicchan~?"
+# mi "But you're eating alone, and nobody's seen you and Emi together at all! Something happened, didn't it, Hicchan~?"
+mi ""
 
-"Misha's voice takes on a slightly sterner tone, though somehow she keeps the familiar lilt at the end of her sentences."
+# "Misha's voice takes on a slightly sterner tone, though somehow she keeps the familiar lilt at the end of her sentences."
+""
 
 #Okay, so you've managed to wind up on the road to BADSVILLE, but you've actually only made one big mistake in all this. SO!  You get the following choice.  Will you figure out that Hisao could use advice, or not?
 
@@ -9011,134 +11618,176 @@ menu:
 #If you picked 1:
 
 label th_E27a:
-"I'm not sure I like the idea of airing private matters to the Student Council."
+# "I'm not sure I like the idea of airing private matters to the Student Council."
+""
 
-hi "Nothing major."
+# hi "Nothing major."
+hi ""
 
 show misha cross_frown
 with charachange
 
-mi "Hicchan, lying is a terrible thing to do~!"
+# mi "Hicchan, lying is a terrible thing to do~!"
+mi ""
 
-"She's not buying it."
+# "She's not buying it."
+""
 
-"Okay, give her something, but not too much."
+# "Okay, give her something, but not too much."
+""
 
-hi "We had a disagreement and haven't resolved it yet."
+# hi "We had a disagreement and haven't resolved it yet."
+hi ""
 
 show misha perky_confused
 with charachange
 
-mi "Oh? Why not?"
+# mi "Oh? Why not?"
+mi ""
 
-hi "Because - look, I don't need to talk about this, okay?"
+# hi "Because - look, I don't need to talk about this, okay?"
+hi ""
 
-hi "It's not a big deal, okay? I'm fine."
+# hi "It's not a big deal, okay? I'm fine."
+hi ""
 
 show misha perky_sad
 with charachange
 
-mi "And Emi? Is she fine too, Hicchan?"
+# mi "And Emi? Is she fine too, Hicchan?"
+mi ""
 
 stop music fadeout 4.0
 
-"Misha's voice has taken on a decidedly serious edge. This is ridiculous."
+# "Misha's voice has taken on a decidedly serious edge. This is ridiculous."
+""
 
-hi "I don't know, okay? I haven't asked. Things are complicated right now."
+# hi "I don't know, okay? I haven't asked. Things are complicated right now."
+hi ""
 
 show misha hips_frown
 with charachange
 
-mi "What kind of man are you? Things get a little rough and you're going to hide from them?"
+# mi "What kind of man are you? Things get a little rough and you're going to hide from them?"
+mi ""
 
 play music music_rain fadein 4.0
 
-"Misha's sudden retort catches me completely off guard."
+# "Misha's sudden retort catches me completely off guard."
+""
 
 show misha cross_frown
 with charachange
 
-mi "Shicchan would call that a cowardly act, and she'd be right too!"
+# mi "Shicchan would call that a cowardly act, and she'd be right too!"
+mi ""
 
-mi "You two were close! Happy together! And you're just going to roll over and die without a fight?"
+# mi "You two were close! Happy together! And you're just going to roll over and die without a fight?"
+mi ""
 
-mi "You should be willing to fight for your girlfriend, Hisao!"
+# mi "You should be willing to fight for your girlfriend, Hisao!"
+mi ""
 
-"It seems that Misha is channeling Shizune at the moment. It wouldn't surprise me to find out that Shizune gave her a script to follow based on my answer."
+# "It seems that Misha is channeling Shizune at the moment. It wouldn't surprise me to find out that Shizune gave her a script to follow based on my answer."
+""
 
-"Misha points an imperious arm at the classroom door."
+# "Misha points an imperious arm at the classroom door."
+""
 
 show misha sign_smile
 with charachange
 
-mi "Now you get out of the classroom and patch things up!"
+# mi "Now you get out of the classroom and patch things up!"
+mi ""
 
-hi "Um, we've still got afternoon classes…"
+# hi "Um, we've still got afternoon classes…"
+hi ""
 
-"This doesn't seem to dissuade Misha."
+# "This doesn't seem to dissuade Misha."
+""
 
 show misha hips_smile
 with charachange
 
-mi "Then after class! You'd better do it, Hicchan! It's important that you don't leave things like this!"
+# mi "Then after class! You'd better do it, Hicchan! It's important that you don't leave things like this!"
+mi ""
 
-hi "Why?"
+# hi "Why?"
+hi ""
 
 show misha cross_frown
 with charachange
 
-"Misha regards me as one would regard an animal's droppings."
+# "Misha regards me as one would regard an animal's droppings."
+""
 
-mi "Didn't you care about her, Hisao? That's important, isn't it?"
+# mi "Didn't you care about her, Hisao? That's important, isn't it?"
+mi ""
 
-"Huh. She's right."
+# "Huh. She's right."
+""
 
-"I did… I do care about her."
+# "I did… I do care about her."
+""
 
-"Don't I?"
+# "Don't I?"
+""
 
-hi "Okay. I'll see her after class."
+# hi "Okay. I'll see her after class."
+hi ""
 
 show misha hips_grin
 with charachange
 
-mi "Great~! I'll let Shicchan know you're okay, then~!"
+# mi "Great~! I'll let Shicchan know you're okay, then~!"
+mi ""
 
-"The lilt returns. I guess that means that Misha isn't angry at me any more."
+# "The lilt returns. I guess that means that Misha isn't angry at me any more."
+""
 
 hide misha
 with charaexit
 
-"She waves and disappears down the hallway, and I eat my lunch."
+# "She waves and disappears down the hallway, and I eat my lunch."
+""
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"While afternoon classes draw to a close, I prepare myself for the task ahead."
+# "While afternoon classes draw to a close, I prepare myself for the task ahead."
+""
 
-"I have to see Emi; Misha was at least correct about that. Leaving the question of Emi and me an open issue won't work."
+# "I have to see Emi; Misha was at least correct about that. Leaving the question of Emi and me an open issue won't work."
+""
 
-"At the very least, I need to apologize for what I said."
+# "At the very least, I need to apologize for what I said."
+""
 
-"I consider going to her room to find her, but she's probably still at the track."
+# "I consider going to her room to find her, but she's probably still at the track."
+""
 
 scene bg school_courtyard
 with locationskip
 
-"The steps out of the main building and down the path to the track make me feel like a doomed man."
+# "The steps out of the main building and down the path to the track make me feel like a doomed man."
+""
 
-"I have a twisting, horrible feeling in my gut that this is all going to go horribly wrong, that I'm not going to accomplish anything."
+# "I have a twisting, horrible feeling in my gut that this is all going to go horribly wrong, that I'm not going to accomplish anything."
+""
 
-"Except for maybe driving the final nail in the coffin of whatever it was Emi and I had."
+# "Except for maybe driving the final nail in the coffin of whatever it was Emi and I had."
+""
 
 stop music fadeout 2.0
 
 scene bg school_track
 with locationskip
 
-"There she is, just as expected, running laps around the track after everyone else has gone to shower and dinner."
+# "There she is, just as expected, running laps around the track after everyone else has gone to shower and dinner."
+""
 
-"I don't wave, or even make my presence known. I just sit down on the bleachers and watch her run her laps."
+# "I don't wave, or even make my presence known. I just sit down on the bleachers and watch her run her laps."
+""
 
 show emi basic_confused_gym:
     center
@@ -9146,7 +11795,8 @@ show emi basic_confused_gym:
     easein 0.5 xpos 0.5
 with charaenter
 
-"It takes her a few trips around the track before she notices me, after which she skids to a stop, eyes wide in surprise."
+# "It takes her a few trips around the track before she notices me, after which she skids to a stop, eyes wide in surprise."
+""
 
 show emi basic_annoyed_gym at center
 with charachange
@@ -9154,47 +11804,58 @@ with charachange
 show emi basic_grin_gym
 with charachange
 
-"Surprise is quickly masked by anger, which in turn fades behind a mask that I already know is impenetrable."
+# "Surprise is quickly masked by anger, which in turn fades behind a mask that I already know is impenetrable."
+""
 
-emi "What are you doing here?"
+# emi "What are you doing here?"
+emi ""
 
-"Not quite the response I'd hoped for, but at this point I don't have much of a choice."
+# "Not quite the response I'd hoped for, but at this point I don't have much of a choice."
+""
 
-hi "I wanted to apologize for what I said the other day."
+# hi "I wanted to apologize for what I said the other day."
+hi ""
 
 show emi basic_confused_gym
 with charachange
 
-emi "The other day?"
+# emi "The other day?"
+emi ""
 
 show emi basic_closedgrin_gym
 with charachange
 
-"She laughs, a curt exclamation of disbelief."
+# "She laughs, a curt exclamation of disbelief."
+""
 
 play music music_sadness fadein 0.5
 
 show emi basic_grin_gym
 with charachange
 
-emi "It's been almost a week, Hisao."
+# emi "It's been almost a week, Hisao."
+emi ""
 
-hi "Yeah, well… better late than never, right?"
+# hi "Yeah, well… better late than never, right?"
+hi ""
 
 show emi sad_annoyed_gym
 with charachange
 
-"Emi crosses her arms and stares at me coolly, as if sizing me up. Finally, she nods."
+# "Emi crosses her arms and stares at me coolly, as if sizing me up. Finally, she nods."
+""
 
 show emi sad_grin_gym
 with charachange
 
-emi "Hmmph. I suppose you're right. Water under the bridge, then. I forgive you."
+# emi "Hmmph. I suppose you're right. Water under the bridge, then. I forgive you."
+emi ""
 
 show emi basic_grin_gym
 with charachange
 
-emi "Is that all?"
+# emi "Is that all?"
+emi ""
 
 show emi basic_grin_gym:
     easeout 0.5 xpos 0.3 alpha 0.0
@@ -9203,9 +11864,11 @@ with Pause(0.5)
 hide emi
 with None
 
-"Her almost impatient question catches me so off-guard that she's halfway down the track before I think to shout after her."
+# "Her almost impatient question catches me so off-guard that she's halfway down the track before I think to shout after her."
+""
 
-hi "No, wait!"
+# hi "No, wait!"
+hi ""
 
 show emi basic_annoyed_gym:
     center
@@ -9213,121 +11876,161 @@ show emi basic_annoyed_gym:
     easein 0.5 xpos 0.5
 with charaenter
 
-"Emi stops, turns, and walks back to me, breathing a little heavily and looking annoyed at my interruption."
+# "Emi stops, turns, and walks back to me, breathing a little heavily and looking annoyed at my interruption."
+""
 
-emi "What?"
+# emi "What?"
+emi ""
 
-"Okay, I need to make this right, somehow. I have to know where I stand, maybe patch things up."
+# "Okay, I need to make this right, somehow. I have to know where I stand, maybe patch things up."
+""
 
-hi "Can you at least sit down?"
+# hi "Can you at least sit down?"
+hi ""
 
 show emi sad_annoyed_gym at center
 with charachange
 
-emi "I think we're okay talking here."
+# emi "I think we're okay talking here."
+emi ""
 
-hi "Fine, sure. Look, about us…"
+# hi "Fine, sure. Look, about us…"
+hi ""
 
-"I pause, trying to think of a good way to phrase what I'm about to say."
+# "I pause, trying to think of a good way to phrase what I'm about to say."
+""
 
-"But before I can launch into an impassioned plea for giving me another chance, Emi's already spoken."
+# "But before I can launch into an impassioned plea for giving me another chance, Emi's already spoken."
+""
 
 show emi sad_shy_gym
 with charachange
 
-emi "There's no more us, Hisao."
+# emi "There's no more us, Hisao."
+emi ""
 
-hi "Why not?"
+# hi "Why not?"
+hi ""
 
 show emi sad_pout_gym
 with charachange
 
-emi "We're just not right for each other."
+# emi "We're just not right for each other."
+emi ""
 
-"She delivers this outrageous statement without even looking in my eyes."
+# "She delivers this outrageous statement without even looking in my eyes."
+""
 
-hi "I don't believe you! We're great with one another!"
+# hi "I don't believe you! We're great with one another!"
+hi ""
 
 show emi basic_annoyed_gym
 with charachange
 
-emi "Says the guy apologizing for getting thrown out of my house last week."
+# emi "Says the guy apologizing for getting thrown out of my house last week."
+emi ""
 
-hi "It was a fight! I said something really, incredibly stupid and apologized for it!"
+# hi "It was a fight! I said something really, incredibly stupid and apologized for it!"
+hi ""
 
 show emi sad_angry_gym
 with charachange
 
-emi "And how many times had we already discussed the problem that started the fight? How many times had I told you that there was a set boundary that I wouldn't cross, and how many times did you keep trying to cross it?"
+# emi "And how many times had we already discussed the problem that started the fight? How many times had I told you that there was a set boundary that I wouldn't cross, and how many times did you keep trying to cross it?"
+emi ""
 
-hi "Because your boundary was stupid!"
+# hi "Because your boundary was stupid!"
+hi ""
 
 show emi sad_annoyed_gym
 with charachange
 
-"Emi rolls her eyes, folds her arm across her chest, and cocks her head to the side."
+# "Emi rolls her eyes, folds her arm across her chest, and cocks her head to the side."
+""
 
-emi "Do you see this, Hisao? This is why we're not right for one another!"
+# emi "Do you see this, Hisao? This is why we're not right for one another!"
+emi ""
 
-"Her voice softens a little, and she reaches out to stroke my cheek."
+# "Her voice softens a little, and she reaches out to stroke my cheek."
+""
 
 show emi sad_grin_gym_close
 with characlose
 
-emi "You're a good guy, but we're not going to work."
+# emi "You're a good guy, but we're not going to work."
+emi ""
 
-"With a horrible lurching feeling, I realize that she's been practicing this. Maybe every day since I left her house."
+# "With a horrible lurching feeling, I realize that she's been practicing this. Maybe every day since I left her house."
+""
 
-"Even the cheek-stroke seems rehearsed, like something out of a movie."
+# "Even the cheek-stroke seems rehearsed, like something out of a movie."
+""
 
-"She never intended to give me another chance."
+# "She never intended to give me another chance."
+""
 
-"Hell, she probably would have been fine with never seeing me again."
+# "Hell, she probably would have been fine with never seeing me again."
+""
 
-hi "So that's it, then? Nothing else to say but “Gee, it was fun while it lasted, but so long?”"
+# hi "So that's it, then? Nothing else to say but “Gee, it was fun while it lasted, but so long?”"
+hi ""
 
 show emi basic_closedgrin_gym_close
 with charachange
 
-"This actually seems to amuse Emi far more than I wanted it to. She gives a rather morbid sounding chuckle."
+# "This actually seems to amuse Emi far more than I wanted it to. She gives a rather morbid sounding chuckle."
+""
 
-emi "That's how I've lived my life, Hisao. You should know that by now."
+# emi "That's how I've lived my life, Hisao. You should know that by now."
+emi ""
 
 show emi sad_grin_gym_close
 with charachange
 
-emi "And it was fun."
+# emi "And it was fun."
+emi ""
 
-"A sad smile. She shivers slightly, and the smile vanishes."
+# "A sad smile. She shivers slightly, and the smile vanishes."
+""
 
 show emi sad_shy_gym_close
 with charachange
 
-emi "But it's over now. It's for the best."
+# emi "But it's over now. It's for the best."
+emi ""
 
-"I want to yell, to scream at her. Make her see reason, that this is stupid, the whole act. That she's just afraid of me, afraid of what being close to someone means."
+# "I want to yell, to scream at her. Make her see reason, that this is stupid, the whole act. That she's just afraid of me, afraid of what being close to someone means."
+""
 
-"I want to tell her that I love her and that I can't just give up on her at the drop of a hat."
+# "I want to tell her that I love her and that I can't just give up on her at the drop of a hat."
+""
 
-"Except… there's no point. She's made up her mind. We're done."
+# "Except… there's no point. She's made up her mind. We're done."
+""
 
-hi "Fine."
+# hi "Fine."
+hi ""
 
 show emi sad_grin_gym_close
 with charachange
 
-"Emi nods, satisfied. I want to hit something."
+# "Emi nods, satisfied. I want to hit something."
+""
 
-emi "Good."
+# emi "Good."
+emi ""
 
 show emi basic_grin_gym_close
 with charachange
 
-"She brightens with a false cheeriness."
+# "She brightens with a false cheeriness."
+""
 
-emi "See you around, Hisao."
+# emi "See you around, Hisao."
+emi ""
 
-hi "No you won't. You won't even try."
+# hi "No you won't. You won't even try."
+hi ""
 
 show emi basic_grin_gym_close:
     easeout 0.5 xpos 0.3 alpha 0.0
@@ -9336,31 +12039,40 @@ with Pause(0.5)
 hide emi
 with None
 
-"She shrugs, as if to say “Have it your way,” and turns her back on me once more, quickly accelerating around the curve of the track."
+# "She shrugs, as if to say “Have it your way,” and turns her back on me once more, quickly accelerating around the curve of the track."
+""
 
-"I feel numb. This is it. The end of the road for us, whatever that was. Closure, at least."
+# "I feel numb. This is it. The end of the road for us, whatever that was. Closure, at least."
+""
 
-"Emi rounds the track again without sparing me a second glance. She's running much faster now, and I can't help but think of that first run together."
+# "Emi rounds the track again without sparing me a second glance. She's running much faster now, and I can't help but think of that first run together."
+""
 
-"I ran to catch you, to try to prove I wasn't as weak as I knew I was. But it ended badly for me, didn't it?"
+# "I ran to catch you, to try to prove I wasn't as weak as I knew I was. But it ended badly for me, didn't it?"
+""
 
-"And now, you're off running too fast for me again, and I have the choice to run after you again."
+# "And now, you're off running too fast for me again, and I have the choice to run after you again."
+""
 
-"But I won't. Not this time. You'd never let me catch you."
+# "But I won't. Not this time. You'd never let me catch you."
+""
 
 stop music fadeout 6.0
 
 scene bg school_dormhisao
 with shorttimeskip
 
-"I don't even notice walking away from the track, or walking into my room, or pulling a book out of my bag to read."
+# "I don't even notice walking away from the track, or walking into my room, or pulling a book out of my bag to read."
+""
 
-"Just before bed, I reset my alarm. Emi and I have had our final encounter."
+# "Just before bed, I reset my alarm. Emi and I have had our final encounter."
+""
 
 scene black
 with shuteye
 
-"We don't speak again after that."
+# "We don't speak again after that."
+""
 
 #BAD ENDED, loser.
 
@@ -9369,112 +12081,150 @@ with shuteye
 label th_E27b:
 #If you picked 2:
 
-"Well, I suppose someone else knowing about my problem can't hurt. Heck, maybe Misha can even offer some advice."
+# "Well, I suppose someone else knowing about my problem can't hurt. Heck, maybe Misha can even offer some advice."
+""
 
-hi "We had a fight at her house."
+# hi "We had a fight at her house."
+hi ""
 
-hi "I keep trying to get close to her, and she won't let me get close, and…"
+# hi "I keep trying to get close to her, and she won't let me get close, and…"
+hi ""
 
-hi "I said something stupid, and she threw me out."
+# hi "I said something stupid, and she threw me out."
+hi ""
 
 show misha perky_sad
 with charachange
 
-mi "Have you talked to her since then?"
+# mi "Have you talked to her since then?"
+mi ""
 
-"Misha looks genuinely concerned. I'm surprised, as I'd almost expected her to drop the subject after finding out what the trouble was."
+# "Misha looks genuinely concerned. I'm surprised, as I'd almost expected her to drop the subject after finding out what the trouble was."
+""
 
-"Even more surprising is how quickly I find myself spilling my guts to her."
+# "Even more surprising is how quickly I find myself spilling my guts to her."
+""
 
-hi "No, I haven't. I just can't bring myself to face her after that."
+# hi "No, I haven't. I just can't bring myself to face her after that."
+hi ""
 
-hi "I made a complete fool of myself, and she probably hates me now anyway. Especially since I haven't seen her since then."
+# hi "I made a complete fool of myself, and she probably hates me now anyway. Especially since I haven't seen her since then."
+hi ""
 
 show misha sign_smile
 with charachange
 
-mi "You're pretty slow, Hicchan."
+# mi "You're pretty slow, Hicchan."
+mi ""
 
 stop music fadeout 4.0
 
-"This doesn't sound like advice."
+# "This doesn't sound like advice."
+""
 
-hi "Huh?"
+# hi "Huh?"
+hi ""
 
 show misha hips_frown
 with charachange
 
-"Misha places her hands on her hips and launches into a speech that would sound more plausible coming from Shizune."
+# "Misha places her hands on her hips and launches into a speech that would sound more plausible coming from Shizune."
+""
 
-mi "The solution to your problem is simple! You have to go and apologize to her! Leaving things like this will just make things worse!"
+# mi "The solution to your problem is simple! You have to go and apologize to her! Leaving things like this will just make things worse!"
+mi ""
 
-mi "You can't know that she hates you now unless she tells you! Otherwise, there's no evidence that what you fear is true!"
+# mi "You can't know that she hates you now unless she tells you! Otherwise, there's no evidence that what you fear is true!"
+mi ""
 
-mi "And if you really care about her, shouldn't you be worried about how she's taking all this?"
+# mi "And if you really care about her, shouldn't you be worried about how she's taking all this?"
+mi ""
 
 play music music_innocence fadein 1.0
 
-"With a sudden start, I realize that she's right. I've kept waking up to an early alarm because part of me wants to meet Emi at the track for our runs."
+# "With a sudden start, I realize that she's right. I've kept waking up to an early alarm because part of me wants to meet Emi at the track for our runs."
+""
 
-"I've kept running, because I know that Emi would worry about me if I didn't stay healthy."
+# "I've kept running, because I know that Emi would worry about me if I didn't stay healthy."
+""
 
-"When I went on the roof yesterday, I was half-hoping that she would be up there, and felt disappointed when she wasn't."
+# "When I went on the roof yesterday, I was half-hoping that she would be up there, and felt disappointed when she wasn't."
+""
 
-hi "I'm an idiot."
+# hi "I'm an idiot."
+hi ""
 
 show misha hips_grin
 with charachange
 
-mi "Kinda, Hicchan~!"
+# mi "Kinda, Hicchan~!"
+mi ""
 
 show misha sign_smile
 with charachange
 
-mi "So~!  Go and apologize to her as soon as you can, okay~?"
+# mi "So~!  Go and apologize to her as soon as you can, okay~?"
+mi ""
 
-"I open my mouth to say that I'll do it right away, but the lunch bell rings and I realize that I still have afternoon classes to attend."
+# "I open my mouth to say that I'll do it right away, but the lunch bell rings and I realize that I still have afternoon classes to attend."
+""
 
-hi "First thing after class is over, I'll go see her. I promise."
+# hi "First thing after class is over, I'll go see her. I promise."
+hi ""
 
-hi "And uh, thanks for the advice, I guess."
+# hi "And uh, thanks for the advice, I guess."
+hi ""
 
 show misha hips_grin
 with charachange
 
-"Misha beams at me, as if I were a child that had just learned his ABCs."
+# "Misha beams at me, as if I were a child that had just learned his ABCs."
+""
 
-mi "Good! I'll let Shicchan know that you're okay, then~!"
+# mi "Good! I'll let Shicchan know that you're okay, then~!"
+mi ""
 
-hi "Er, yeah. You do that."
+# hi "Er, yeah. You do that."
+hi ""
 
 hide misha
 with charaexit
 
-"With a wave (and completely disregarding the fact that people are starting to trickle back into the classroom, as opposed to out of it), Misha departs the classroom."
+# "With a wave (and completely disregarding the fact that people are starting to trickle back into the classroom, as opposed to out of it), Misha departs the classroom."
+""
 
-"I suppose she and Shizune have student council business again."
+# "I suppose she and Shizune have student council business again."
+""
 
 scene bg school_scienceroom
 with shorttimeskip
 
-"While the afternoon wears on, I find myself impatient for lessons to end. I need to see Emi now."
+# "While the afternoon wears on, I find myself impatient for lessons to end. I need to see Emi now."
+""
 
-"I have to try to set things right. Even if Emi hates me now, I have to at least apologize."
+# "I have to try to set things right. Even if Emi hates me now, I have to at least apologize."
+""
 
-"I owe her that much."
+# "I owe her that much."
+""
 
-"Should I meet her in her room? No, I decide, it would delay things too much. If I know Emi, then I can find her at the track."
+# "Should I meet her in her room? No, I decide, it would delay things too much. If I know Emi, then I can find her at the track."
+""
 
-"Still have no idea what I'm going to say when I get there, but I take comfort in knowing that Emi probably wouldn't have a plan for something like this either."
+# "Still have no idea what I'm going to say when I get there, but I take comfort in knowing that Emi probably wouldn't have a plan for something like this either."
+""
 
-"Play it by ear. Stop being nervous, and just get to the track. Figure the rest out when I get there."
+# "Play it by ear. Stop being nervous, and just get to the track. Figure the rest out when I get there."
+""
 
 scene bg school_track
 with shorttimeskip
 
-"The track looms ahead, and another jolt of nerves hits me in the gut. I resist the urge to turn and walk away, and instead note with satisfaction that I was right and Emi is still running."
+# "The track looms ahead, and another jolt of nerves hits me in the gut. I resist the urge to turn and walk away, and instead note with satisfaction that I was right and Emi is still running."
+""
 
-"I don't make myself immediately known; I find a seat in the bleachers and watch her run instead, thinking back to earlier meetings."
+# "I don't make myself immediately known; I find a seat in the bleachers and watch her run instead, thinking back to earlier meetings."
+""
 
 show emi basic_confused_gym:
     center
@@ -9482,48 +12232,59 @@ show emi basic_confused_gym:
     easein 0.5 xpos 0.5
 with charaenter
 
-"After a few trips around the track, Emi notices me and skids to a halt, an expression of surprise that slides easily into one of anger."
+# "After a few trips around the track, Emi notices me and skids to a halt, an expression of surprise that slides easily into one of anger."
+""
 
 show emi basic_annoyed_gym at center
 with charachange
 
-emi "What are you doing here?"
+# emi "What are you doing here?"
+emi ""
 
-"Not quite the response I'd hoped for, but at this point I don't have much of a choice."
+# "Not quite the response I'd hoped for, but at this point I don't have much of a choice."
+""
 
-hi "I wanted to apologize for what I said the other day."
+# hi "I wanted to apologize for what I said the other day."
+hi ""
 
 show emi basic_confused_gym
 with charachange
 
-emi "The other day?"
+# emi "The other day?"
+emi ""
 
 show emi basic_closedgrin_gym
 with charachange
 
-"She laughs, a curt exclamation of disbelief."
+# "She laughs, a curt exclamation of disbelief."
+""
 
 show emi basic_grin_gym
 with charachange
 
-emi "It's been almost a week, Hisao."
+# emi "It's been almost a week, Hisao."
+emi ""
 
-hi "Yeah, well… better late than never, right?"
+# hi "Yeah, well… better late than never, right?"
+hi ""
 
 show emi sad_annoyed_gym
 with charachange
 
-"Emi crosses her arms and stares at me coolly, as if sizing me up. Finally, she nods."
+# "Emi crosses her arms and stares at me coolly, as if sizing me up. Finally, she nods."
+""
 
 show emi sad_grin_gym
 with charachange
 
-emi "Hmmph. I suppose you're right. Water under the bridge, then. I forgive you."
+# emi "Hmmph. I suppose you're right. Water under the bridge, then. I forgive you."
+emi ""
 
 show emi basic_grin_gym
 with charachange
 
-emi "Is that all?"
+# emi "Is that all?"
+emi ""
 
 show emi basic_grin_gym:
     easeout 0.5 xpos 0.3 alpha 0.0
@@ -9532,191 +12293,255 @@ with Pause(0.5)
 hide emi
 with None
 
-"Her almost impatient question catches me so off-guard that she's already halfway down the track before I think to shout after her."
+# "Her almost impatient question catches me so off-guard that she's already halfway down the track before I think to shout after her."
+""
 
-hi "No, wait!"
+# hi "No, wait!"
+hi ""
 
 scene bg school_track_on
 with locationchange
 
-"She doesn't seem to have heard me - or she doesn't want to hear me - and so I give chase, disregarding completely the fact that I am not dressed for it."
+# "She doesn't seem to have heard me - or she doesn't want to hear me - and so I give chase, disregarding completely the fact that I am not dressed for it."
+""
 
 scene bg school_track_running
 with Dissolve(2.0)
 
-"My feet hurt, and my shirt collar feels like a noose around my neck, but I still chase after her, because if I don't I'll lose my chance."
+# "My feet hurt, and my shirt collar feels like a noose around my neck, but I still chase after her, because if I don't I'll lose my chance."
+""
 
-"Emi hasn't started to really accelerate yet, which is probably the only reason why I'm able to catch up to her, to reach out and tap her on the shoulder, just before my legs give up running in dress shoes and stumble to a stop."
+# "Emi hasn't started to really accelerate yet, which is probably the only reason why I'm able to catch up to her, to reach out and tap her on the shoulder, just before my legs give up running in dress shoes and stumble to a stop."
+""
 
 scene bg school_track_on
 with Dissolve(2.0)
 
-"Surprisingly (fortunately?) all that running seems to have paid off. I'm short of breath, yes, but at least my heart isn't actively trying to force its way out of my ribcage."
+# "Surprisingly (fortunately?) all that running seems to have paid off. I'm short of breath, yes, but at least my heart isn't actively trying to force its way out of my ribcage."
+""
 
 show emi basic_confused_gym_close at center
 with charaenter
 
-"My touch on her shoulder has stopped Emi, and while there is a flash of concern when she sees me catching my breath, it seems that she has a good idea of what I'm capable of too."
+# "My touch on her shoulder has stopped Emi, and while there is a flash of concern when she sees me catching my breath, it seems that she has a good idea of what I'm capable of too."
+""
 
-"The concern is short-lived."
+# "The concern is short-lived."
+""
 
 show emi basic_annoyed_gym_close
 with charachange
 
-emi "What?"
+# emi "What?"
+emi ""
 
-"She seems so irritated by my being still there that I almost lose my nerve, but I've lost my nerve enough."
+# "She seems so irritated by my being still there that I almost lose my nerve, but I've lost my nerve enough."
+""
 
-hi "I need to explain myself. Why I can't just let the matter rest."
+# hi "I need to explain myself. Why I can't just let the matter rest."
+hi ""
 
 show emi sad_annoyed_gym_close
 with charachange
 
-"Emi folds her arms and bounces one blade on the ground in an approximation of tapping her foot impatiently. Angry as she is, and as nervous as I am, she still looks beautiful."
+# "Emi folds her arms and bounces one blade on the ground in an approximation of tapping her foot impatiently. Angry as she is, and as nervous as I am, she still looks beautiful."
+""
 
-emi "Okay, Hisao. Explain."
+# emi "Okay, Hisao. Explain."
+emi ""
 
-hi "The thing is, I know that you're really sensitive about the accident and about your dad."
+# hi "The thing is, I know that you're really sensitive about the accident and about your dad."
+hi ""
 
-"I can see Emi's face twitch at the mention of the two things that have been steadily driving us apart, or at least made me feel like we're being driven apart."
+# "I can see Emi's face twitch at the mention of the two things that have been steadily driving us apart, or at least made me feel like we're being driven apart."
+""
 
-hi "But that's why I want to know about them, I think."
+# hi "But that's why I want to know about them, I think."
+hi ""
 
-hi "Because I see how much they hurt you, and I want to be there to comfort you."
+# hi "Because I see how much they hurt you, and I want to be there to comfort you."
+hi ""
 
-hi "It makes me miserable, seeing you sleepless and depressed - and don't pretend you aren't, because I know, okay?"
+# hi "It makes me miserable, seeing you sleepless and depressed - and don't pretend you aren't, because I know, okay?"
+hi ""
 
-hi "I just remember that night when you fell asleep with me and had that nightmare, and that you were happy to have me there when you woke up."
+# hi "I just remember that night when you fell asleep with me and had that nightmare, and that you were happy to have me there when you woke up."
+hi ""
 
-hi "I want to be able to be there for you like that whenever you need me to be."
+# hi "I want to be able to be there for you like that whenever you need me to be."
+hi ""
 
 show emi sad_depressed_gym_close
 with charachange
 
-"The stern face cracks, slightly. Emi interrupts before I can continue further."
+# "The stern face cracks, slightly. Emi interrupts before I can continue further."
+""
 
-emi "Just… stop right there. We can't see each other any more, okay?"
+# emi "Just… stop right there. We can't see each other any more, okay?"
+emi ""
 
 show emi sad_pout_gym_close
 with charachange
 
-"She's rushing now, looking everywhere but at me. I'm surprised she doesn't bolt, she knows I can't catch her…"
+# "She's rushing now, looking everywhere but at me. I'm surprised she doesn't bolt, she knows I can't catch her…"
+""
 
-emi "We're not… we're not right for one another."
+# emi "We're not… we're not right for one another."
+emi ""
 
-hi "That's not true, and you know it."
+# hi "That's not true, and you know it."
+hi ""
 
 show emi sad_shy_gym_close
 with charachange
 
-emi "No, it's true. You're too—"
+# emi "No, it's true. You're too—"
+emi ""
 
-hi "I know. I know that I've been pushy about knowing your past."
+# hi "I know. I know that I've been pushy about knowing your past."
+hi ""
 
-hi "If you can't tell me yet, then at least let me be there even if I don't know the reason."
+# hi "If you can't tell me yet, then at least let me be there even if I don't know the reason."
+hi ""
 
-hi "It's okay, I promise. I won't ask why you need comfort, I'll just give it freely."
+# hi "It's okay, I promise. I won't ask why you need comfort, I'll just give it freely."
+hi ""
 
 show emi sad_depressed_gym_close
 with charachange
 
-"Emi's shaking her head, and tears seem to be threatening the corners of her eyes."
+# "Emi's shaking her head, and tears seem to be threatening the corners of her eyes."
+""
 
-emi "Stop saying that!"
+# emi "Stop saying that!"
+emi ""
 
-hi "Why? Because you're afraid you'll take me up on it?"
+# hi "Why? Because you're afraid you'll take me up on it?"
+hi ""
 
 show emi sad_pout_gym_close
 with charachange
 
-emi "I'm not afraid!"
+# emi "I'm not afraid!"
+emi ""
 
-"I can't keep the chiding tone from my voice as I respond."
+# "I can't keep the chiding tone from my voice as I respond."
+""
 
-hi "Yes, you are. You told me so yourself, remember? That's okay, really it is."
+# hi "Yes, you are. You told me so yourself, remember? That's okay, really it is."
+hi ""
 
-hi "However, it seems to me that someone who'd manage to come out of that wreck and still be as energetic and cheerful as you are would be determined enough to face that fear."
+# hi "However, it seems to me that someone who'd manage to come out of that wreck and still be as energetic and cheerful as you are would be determined enough to face that fear."
+hi ""
 
 show emi sad_angry_gym_close
 with charachange
 
-emi "Determination? What do you know about determination?"
+# emi "Determination? What do you know about determination?"
+emi ""
 
-hi "I know that there's a girl so determined to take care of a total stranger that she'd steal his food at a festival."
+# hi "I know that there's a girl so determined to take care of a total stranger that she'd steal his food at a festival."
+hi ""
 
-hi "I know that there's a girl so determined to help me with my own problems that she'd draw up a complete dietary and exercise plan, and that she'd not only draw up the plans, but she'd follow them with me, even when she couldn't run."
+# hi "I know that there's a girl so determined to help me with my own problems that she'd draw up a complete dietary and exercise plan, and that she'd not only draw up the plans, but she'd follow them with me, even when she couldn't run."
+hi ""
 
-hi "Determined enough to keep me at arm's length that she'd put herself through emotional pain if she thought it was the right thing to do."
+# hi "Determined enough to keep me at arm's length that she'd put herself through emotional pain if she thought it was the right thing to do."
+hi ""
 
-hi "Although, there's one thing that this determined girl didn't quite plan for, which was that I might feel that same kind of determination to keep her from being hurt."
+# hi "Although, there's one thing that this determined girl didn't quite plan for, which was that I might feel that same kind of determination to keep her from being hurt."
+hi ""
 
-hi "I fell in love with you, and I refuse to let that be thrown away because you're afraid of losing me."
+# hi "I fell in love with you, and I refuse to let that be thrown away because you're afraid of losing me."
+hi ""
 
 show emi excited_sad_gym_close
 with charachange
 
-"What little control Emi still has at this point cracks, and I find myself suddenly enveloped in her embrace as she cries."
+# "What little control Emi still has at this point cracks, and I find myself suddenly enveloped in her embrace as she cries."
+""
 
-emi "Why are you doing this? Why can't you just leave me alone?"
+# emi "Why are you doing this? Why can't you just leave me alone?"
+emi ""
 
 show ev emi_forehead
 with dissolve
 
-"I hold her close and plant a kiss on the top of her head."
+# "I hold her close and plant a kiss on the top of her head."
+""
 
-hi "I'm sorry, Emi. You helped me when I first arrived, so now I have to help you. It's only fair."
+# hi "I'm sorry, Emi. You helped me when I first arrived, so now I have to help you. It's only fair."
+hi ""
 
-emi "You're utterly hopeless, did you know that?"
+# emi "You're utterly hopeless, did you know that?"
+emi ""
 
-"She hiccups and trembles a little."
+# "She hiccups and trembles a little."
+""
 
-hi "Funny, I could say the same about you."
+# hi "Funny, I could say the same about you."
+hi ""
 
-emi "Can you do something for me, Hisao?"
+# emi "Can you do something for me, Hisao?"
+emi ""
 
-hi "Anything."
+# hi "Anything."
+hi ""
 
 scene bg school_track_on
 show emi sad_shy_gym_close at center
 with charachange
 
-emi "Can you go, now?"
+# emi "Can you go, now?"
+emi ""
 
-"It feels like she's just shoved a knife through my chest."
+# "It feels like she's just shoved a knife through my chest."
+""
 
-hi "Go?"
+# hi "Go?"
+hi ""
 
 show emi sad_pout_gym_close
 with charachange
 
-emi "I need to… I need to think, okay?"
+# emi "I need to… I need to think, okay?"
+emi ""
 
-emi "I can't just tell you everything yet. I'm still scared, and when you're around, I can't think clearly."
+# emi "I can't just tell you everything yet. I'm still scared, and when you're around, I can't think clearly."
+emi ""
 
-emi "But do me another favor."
+# emi "But do me another favor."
+emi ""
 
-hi "What's that?"
+# hi "What's that?"
+hi ""
 
 show emi sad_grin_gym_close
 with charachange
 
-emi "Show up for our morning run tomorrow?"
+# emi "Show up for our morning run tomorrow?"
+emi ""
 
-"I smile, feeling better than I have all week."
+# "I smile, feeling better than I have all week."
+""
 
-hi "Of course. I wouldn't miss it for the world."
+# hi "Of course. I wouldn't miss it for the world."
+hi ""
 
 show emi sad_grin_gym
 with charadistant
 
-"Emi steps back slowly, almost reluctantly. She sniffles a little and then grins at me, a real smile that lights up the track, overpowering the fading evening's light."
+# "Emi steps back slowly, almost reluctantly. She sniffles a little and then grins at me, a real smile that lights up the track, overpowering the fading evening's light."
+""
 
 show emi basic_grin_gym
 with charachange
 
-emi "See you tomorrow, Hisao."
+# emi "See you tomorrow, Hisao."
+emi ""
 
-hi "Okay."
+# hi "Okay."
+hi ""
 
 show emi excited_amused_gym_close
 with characlose
@@ -9724,7 +12549,8 @@ with characlose
 show emi basic_grin_gym
 with charadistant
 
-"She darts forward suddenly, planting a soft kiss on my lips, then steps back shyly."
+# "She darts forward suddenly, planting a soft kiss on my lips, then steps back shyly."
+""
 
 show emi basic_grin_gym:
     easeout 0.5 xpos 0.3 alpha 0.0
@@ -9733,13 +12559,17 @@ with Pause(0.5)
 hide emi
 with None
 
-"Spinning on her back foot, she takes off running again, and I know that our conversation's at an end."
+# "Spinning on her back foot, she takes off running again, and I know that our conversation's at an end."
+""
 
-"My lips tingle with the warmth of that brief kiss and the memories of other, longer kisses."
+# "My lips tingle with the warmth of that brief kiss and the memories of other, longer kisses."
+""
 
-"I walk back to my room with a spring in my step."
+# "I walk back to my room with a spring in my step."
+""
 
-"Tomorrow when my alarm goes off, I'll get up."
+# "Tomorrow when my alarm goes off, I'll get up."
+""
 
 stop music fadeout 2.0
 
