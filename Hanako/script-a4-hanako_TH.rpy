@@ -3556,7 +3556,7 @@ ha "ฉัน…"
 "ฮานาโกะถูแขนตัวเองดูกระอักกระอ่วน เธอถือเอาว่าที่ฉันเงียบไปคือให้พูดต่อ ฉันไม่รู้ว่าจะต้องพูดอะไรดีถึงได้เพียง\nมองเงียบ ๆ ด้วยความสนใจ"
 
 # ha "In middle school, I got bullied… a lot. I was called names, and got excluded from work groups and sports teams. There were… worse things, too."
-ha "ตอนม. ต้น ฉันโดนแกล้ง… บ่อยมาก โดนแปะฉายาเสีย ๆ หาย ๆ โดนกันไม่ให้ทำงานกลุ่มด้วย โดนกัน\nไม่ให้ร่วมทีมเล่นกีฬาด้วย แล้วยัง… มีอะไรที่แย่กว่านั้นอีก"
+ha "ตอนม. ต้น ฉันโดนแกล้ง… บ่อยมาก โดนล้อ โดนกันไม่ให้ทำงานกลุ่มด้วย โดนกันไม่ให้ร่วมทีมเล่นกีฬาด้วย\nแล้วยัง… มีอะไรที่แย่กว่านั้นอีก"
 
 # hi "And that's what made you not like other people?"
 hi "เพราะแบบนี้เธอถึงได้ไม่ชอบคนอื่น?"
@@ -5071,84 +5071,85 @@ $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_parkambience fadein 2.0
 
 # "I pace around in the park, feelings of anxiety rolling over me. Every so often I reach into my pocket to take out my phone, but each and every time I hesitate and end up slipping it back in."
-""
+"ฉันเดินไปตามสวนสาธารณะพร้อมความกังวลที่แล่นอยู่ในใจ ฉันควักกระเป๋าหมายจะหยิบโทรศัพท์ออกมา\nอยู่หลายครั้ง แต่สุดท้ายก็เก็บกลับไว้อย่างเดิมทุกครั้ง"
 
 # "If this were any normal situation, I wouldn't be cutting classes. Unfortunately, it isn't, and so I find myself in the town below the school at two in the afternoon."
-""
+"ถ้าเป็นสถานการณ์ทั่ว ๆ ไปฉันคงไม่โดดเรียน แต่คราวนี้ไม่ใช่ ฉันจึงมาอยู่ที่สวนสาธารณะที่เมืองด้านล่างโรงเรียน\nตอนบ่ายสองโมง"
 
 # "Ever since I met Hanako, I've been the one to initiate everything between us. The one that started conversations, went to her wherever she was, and suggested what we should do. Today, this once, I don't want to be the only one doing that."
-""
+"ตั้งแต่ที่ได้เจอฮานาโกะมาฉันก็เป็นคนเดินหน้าทุกเรื่องระหว่างเราเป็นคนแรกตลอด เป็นคนเปิดบทสนทนาเป็นคนแรก\nไปหาที่ที่ฮานาโกะอยู่แล้วเสนอว่าจะทำอะไรกันดี แต่ขอแค่วันนี้ที่ฉันจะไม่เป็นคนเริ่มก่อนบ้าง"
 
 # "My hand dives into my pocket once more. This time I quickly navigate to the texting menu before I have a chance to change my mind again."
-""
+"ฉันล้วงกระเป๋าอีกรอบ แต่คราวนี้รีบกดไปที่หน้าส่งข้อความก่อนจะทันได้เปลี่ยนใจไปไหนอีก"
 
 # "“Hanako, if you want to talk, I'll be at the park in town for a while.”"
-""
+"“ฮานาโกะ ถ้ามีเรื่องจะคุยก็มาหาที่สวนสาธารณะได้นะ จะอยู่อีกสักพักเลย”"
 
 # "Fighting a last measure of doubt, I thumb in my message to Hanako and press the button to send it."
-""
+"ฉันตัดใจไม่ลังเลอีกแล้วพิมพ์ข้อความกดส่งหาฮานาโกะไป"
 
-"And now… I wait. My part in this has been fulfilled; what needs to happen now is for Hanako to make the decision. It would be meaningless for me to drag her here. She needs to decide for herself whether she wants to meet me." 
+# "And now… I wait. My part in this has been fulfilled; what needs to happen now is for Hanako to make the decision. It would be meaningless for me to drag her here. She needs to decide for herself whether she wants to meet me."
+"และ… รอ หน้าที่ของฉันเสร็จสิ้นแล้ว ตอนนี้ก็รอให้ฮานาโกะตัดสินใจ ถ้าจะลากมาเลยก็คงไม่ได้อะไรขึ้นมา เธอต้อง\nเป็นคนตัดสินใจเองว่าจะอยากเจอฉันหรือเปล่า"
 
 stop ambient fadeout 4.0
 
 with shorttimeskip
 
 # "The apple juice from the vending machine tastes awfully bitter as I swill it down. My grip on the can has caused it to dent slightly in the middle."
-""
+"น้ำแอปเปิลจากตู้ขายของแบบหยอดเหรียญที่ฉันกระดกอยู่นั้นรสขมปร่า ฉันกำมือแน่นจนตัวกระป๋องบุบไปเล็กน้อย"
 
 # "I shouldn't be this tense, but it's probably inevitable."
-""
+"ฉันไม่ควรจะเกร็งขนาดนี้สิ แต่คงช่วยไม่ได้"
 
 # "Hanako is dear to me."
-""
+"ฮานาโกะน่ะคือสิ่งสำคัญสำหรับฉัน"
 
 # "What happened in the last couple of days has put a lot of pressure on both of us. The idea of losing all the progress we've made in coming closer to one another, and losing our friendship as a whole, is deeply unsettling."
-""
+"เรื่องเมื่อสองสามวันมานี้กดดันเราสองคนมาก แค่คิดว่าเราจะต้องถอยกลับไปหลังจากที่ได้ขยับเข้ามาใกล้ชิดกันแบบนี้\nหรือคิดว่าอาจจะต้องสูญเสียมิตรภาพไปเลยก็ใจคอไม่ดีแล้ว"
 
 # "But even then… I still don't really know how close we are. We may have had sex, but before that, all I knew us to be was friends. Maybe we are more than that, but if so, I never realized it."
-""
+"แต่ถึงอย่างนั้น… ฉันก็ไม่รู้ชัดว่าเราสนิทกันขนาดไหน เรามีอะไรกันแล้วก็จริง แต่ก่อนหน้านั้นฉันก็เห็นว่าเราเป็นแค่\nเพื่อนกัน อาจจะเป็นมากกว่านั้น ซึ่งถ้าเป็นจริงก็แปลว่าฉันไม่รู้ตัวเลย"
 
 # "Maybe that's why I feel so uneasy right now. I don't understand Hanako, despite all the time we've spent together. The minutes are ticking by, and I still have no idea whether she'll show up."
-""
+"อาจจะเพราะอย่างนั้นตอนนี้ฉันถึงได้ไม่สบายใจเอามาก ๆ ฉันไม่เข้าใจฮานาโกะทั้งที่อยู่ด้วยกันบ่อยขนาดนี้\nเวลาไหลไปเรื่อย ๆ โดยที่ฉันยังไม่รู้ว่าฮานาโกะจะมาหรือเปล่า"
 
 # ha "H… Hisao…?"
-ha ""
+ha "ฮะ… ฮิซาโอะ…?"
 
 # "I pause for a moment, almost not believing that I'm hearing the voice I am hearing. I drop the can and stand up with a start."
-""
+"ฉันชะงักไปแวบหนึ่งด้วยไม่อยากเชื่อหูตัวเองว่าได้ยินเสียงนั้นจริง ๆ ฉันทิ้งกระป๋องแล้วผุดลุกขึ้นทันที"
 
 show hanako basic_worry_cas at center
 with charaenter
 
 # hi "Hanako…"
-hi ""
+hi "ฮานาโกะ…"
 
 show hanako emb_downtimid_cas
 with charachange
 
 # "We look at each other for a few seconds, before Hanako becomes too embarrassed to maintain eye contact and begins to nervously fiddle with the roughly-cut lock of hair covering the side of her face."
-""
+"เรามองหน้ากันอยู่สองสามวินาทีจนฮานาโกะเป็นฝ่ายหลบไปก่อนด้วยความอายแล้วจับผมหน้าม้าที่ตัดหยาบ ๆ\nซึ่งปรกอยู่นั้นเล่น"
 
 # "When I went to see Hanako in her room by myself after her breakdown, I had no idea what to say. That was fine, then. All either of us wanted was each other's presence."
-""
+"ตอนที่ฉันไปหาฮานาโกะด้วยตัวเองที่ห้องหลังจากที่เธอแพนิกกำเริบแล้วฉันก็ไม่รู้จะพูดอะไร ซึ่งตอนนั้นก็ไม่ต้อง\nใช้คำพูดใด ๆ สิ่งที่เราต่างต้องการมีเพียงตัวตนของกันและกันเท่านั้น"
 
 # "Now, though… I feel like I need to talk to her directly. I want to break down this wall between us, before it forces us apart for good."
-""
+"แต่ตอนนี้… ฉันรู้สึกว่าต้องคุยกับฮานาโกะตรง ๆ ฉันอยากจะพังกำแพงที่กั้นระหว่างเราลงก่อนที่กำแพงนี้จะกีด\nเราสองคนออกจากกันไปตลอดกาล"
 
 stop music fadeout 4.0
 
 # hi "Hanako… I…"
-hi ""
+hi "ฮานาโกะ… ฉัน…"
 
 # hi "What we did that night… how should I interpret that?"
-hi ""
+hi "เรื่องเมื่อคืนนั้น… ฉันต้องคิดว่ายังไง"
 
 show hanako cover_worry_cas
 with charachange
 
 # "Hanako stops playing with her hair and looks at me, her head cast slightly downwards. She looks ashamed, which is probably a good mirror of how I would look now if I weren't so concerned."
-""
+"ฮานาโกะเลิกจับผมเล่นแล้วมองฉัน เธอก้มหน้าลงเล็กน้อยด้วยสีหน้าละอายใจ ซึ่งฉันก็คงจะทำสีหน้าแบบนั้นด้วย\nเช่นกัน ถ้าไม่ติดว่าฉันเป็นเป็นกังวลขนาดนี้"
 
 show hanako basic_worry_cas
 with charachange
@@ -5156,283 +5157,283 @@ with charachange
 play music music_innocence fadein 4.0
 
 # ha "I thought… you might eventually go away if I was only someone you needed to protect."
-ha ""
+ha "ฉันคิด… ว่าสักวันนายก็คงจากไป ถ้าฉันเป็นแค่คนที่นายอยากปกป้อง"
 
 show hanako emb_sad_cas
 with charachange
 
 # ha "I thought that if I let you do that… you might see me as someone more than that."
-ha ""
+ha "ฉันคิด ว่าถ้าฉันยอมให้นายทำแบบนั้น… นายอาจจะมองว่าฉันเป็นอะไรมากกว่านั้น"
 
 # "My first reaction is disbelief, but… I did do it with her, after all. I had plenty of opportunities where I could have stopped things, stepped back, and questioned what we were doing. In the end, though… I didn't."
-""
+"สิ่งแรกที่ฉันรู้สึกได้คือความเหลือเชื่อ แต่… ฉันก็ทำอย่างนั้นกับเธอนี่นะ ฉันจะหยุดยั้งตอนไหนก็ได้ ถอยออกมา\nตอนไหนก็ได้ ตั้งคำถามต่อสิ่งที่เราทำกันอยู่ตอนไหนก็ได้ ทว่าสุดท้าย… ฉันก็ไม่หยุด ไม่ถอย ไม่ตั้งคำถาม"
 
 # "A horrible feeling rises in the pit of my stomach. She offered herself to me because of what she thought I wanted, and now, it feels like I took advantage of her. She may have been willing, but only under false premises."
-""
+"ท้องไส้ฉันปั่นป่วนด้วยความรู้สึกไม่ดี ฮานาโกะเสนอตัวให้ฉันเพราะคิดว่าคงเป็นสิ่งที่ฉันต้องการ และตอนนี้ฉันก็รู้สึก\nเหมือนตัวเองเอาเปรียบเธอไปแล้ว เธอเต็มใจก็จริง แต่เต็มใจด้วยความคิดที่ผิดทางเท่านั้น"
 
 # "I've never been good at hiding my emotions from physically showing, and now is no different. Hanako looks down once more, a strange mixture of depression, regret, and sickness written to her face."
-""
+"ฉันปกปิดอารมณ์ไม่ให้ส่งผ่านออกมาทางใบหน้าหรือร่างกายไม่เก่งอยู่แล้ว ตอนนี้ก็เช่นกัน ฮานาโกะก้มหน้าอีกครั้ง\nสีหน้าเธอระคนด้วยความเศร้า ความเสียใจ กับความแขยงอยู่อย่างประหลาด"
 
 # "Thick silence hangs in the air, save for the breeze blowing through the trees around us."
-""
+"ความเงียบอันน่าอึดอัดอวลในอากาศที่มีเพียงลมพัดผ่านต้นไม้รอบตัวเราเท่านั้น"
 
 show hanako emb_downsad_cas
 with charachange
 
 # ha "I knew… you couldn't look at me that way…"
-ha ""
+ha "ฉันรู้… ว่านายคงมองฉันแบบนั้นไม่ได้…"
 
 # "Hanako's words are said in little more than a whisper, seemingly directed just as much at herself as to me."
-""
+"คำพูดของฮานาโกะนั้นแทบจะกลายเป็นเสียงกระซิบอยู่แล้วราวกับว่าพูดกับตัวเองไปด้วย"
 
 # hi "In what way? What do you mean?"
-hi ""
+hi "แบบไหน หมายความว่ายังไง"
 
 # ha "All I ever was to you was… a useless person. Just someone… to protect. Someone like… a child."
-ha ""
+ha "นายก็มองฉันเป็นแค่… คนไร้ประโยชน์ แค่คน… ที่ต้องปกป้อง คนที่เหมือน… เด็ก ๆ"
 
 show hanako cover_distant_cas
 with charachange
 
 # ha "I-I wanted to be more to you than that, but after so long… I… got used to it."
-ha ""
+ha "ฉะ-ฉันอยากให้นายมองฉันเป็นมากกว่านั้น แต่นานไป… ฉัน… ก็ชิน"
 
 # "The tone of her voice is unlike any I've heard her use before. She sounds disgusted. Not at me, but at herself."
-""
+"น้ำเสียงฮานาโกะตอนนี้เป็นน้ำเสียงที่ฉันไม่เคยได้ยินมาก่อน เป็นน้ำเสียงที่ฟังดูสะอิดสะเอียน แต่ไม่ได้รังเกียจฉัน\nเธอรังเกียจตัวเอง"
 
 show hanako cover_worry_cas
 with charachange
 
 # ha "After I came out of my room… I saw that you had started drifting away."
-ha ""
+ha "หลังจากที่ฉันออกห้องตัวเองมาแล้ว… ฉันก็เห็นว่านายเริ่มตีตัวออกหากไป"
 
 show hanako basic_worry_cas
 with charachange
 
 # ha "I felt like I was going to lose you, because… you wanted somebody you could have… that kind of relationship with."
-ha ""
+ha "ฉันรู้สึกเหมือนจะเสียนายไป เพราะ… นายอยากได้ใครสักคน… ที่จะมีความสัมพันธ์แบบนั้นด้วยได้"
 
 show hanako emb_downtimid_cas
 with charachange
 
 # ha "You were more quiet in school than before, and you were getting on so well with Yuuko… I thought… that I might lose you."
-ha ""
+ha "ตอนอยู่ที่โรงเรียนนายก็เงียบไปกว่าปกติ และก็เข้ากันได้ดีกับยูโกะด้วย… ฉันคิด… ว่าฉันอาจจะเสียนายไป"
 
 # "She thought I was bored of her, because I wanted a romantic relationship?"
-""
+"คิดว่าฉันเบื่อเธอเพราะฉันต้องการความสัมพันธ์ฉันคนรักงั้นเหรอ"
 
 # hi "But… we're friends, right? I wouldn't just abandon you like that, even if what you're saying was true."
-hi ""
+hi "แต่… เราเป็นเพื่อนกันนี่ ซึ่งต่อให้สมมติว่าเป็นอย่างที่เธอว่าจริงฉันก็คงไม่ทิ้งเธอไปอย่างนั้นหรอก"
 
 show hanako emb_timid_cas
 with charachange
 
 # ha "Friendship… was something I thought I'd given up on. I stopped believing in others… after what happened after the accident…"
-ha ""
+ha "เพื่อน… เป็นอะไรที่ฉันล้มเลิกความคิดที่จะมีไปแล้ว ฉันไม่เชื่อใจใครอีก… หลังจากอุบัติเหตุครั้งนั้น…"
 
 show hanako emb_downsad_cas
 with charachange
 
 # ha "Before the accident happened, I got on well with people and other children. I didn't have many friends… but I didn't mind, because I treasured the ones that I had."
-ha ""
+ha "ก่อนเกิดอุบัติเหตุครั้งนั้นฉันเข้ากันได้ดีกับทุกคน เข้ากันได้ดีกับเด็กคนอื่น ฉันมีเพื่อนไม่เยอะ… แต่ก็ไม่ถือ\nเพราะฉันก็ให้ค่าเพื่อนทุกคนที่ฉันมี"
 
 show hanako emb_sad_cas
 with charachange
 
 # ha "Afterwards, though…"
-ha ""
+ha "แต่หลังจากนั้น…"
 
 show hanako emb_downsad_cas
 with charachange
 
 # ha "I was called names by the others, and teased a lot. It hurt… really deeply. The teachers tried to help, but they couldn't do much, and even many of them recoiled just at the sight of me."
-ha ""
+ha "ทุกคนก็ล้อฉัน โดนแกล้งหลายครั้ง เจ็บ… มากเลยละ พวกครูพยายามช่วยแล้วแต่ก็ช่วยได้ไม่มาก ครูหลายคน\nแค่เห็นฉันก็ผงะไปด้วยซ้ำ"
 
 # ha "Among those calling me names and teasing me… were the ones that I thought were my closest friends."
-ha ""
+ha "แล้วคนที่ล้อฉันแกล้งฉัน… ในนั้นมีคนที่ฉันเคยคิดว่าเป็นเพื่อนสนิทด้วย"
 
 show hanako cover_worry_cas
 with charachange
 
 # ha "From then on, I believed that it didn't matter if nobody else acknowledged me. All my existence ever did was make people troubled, after all. It was… easier… if I just didn't exist."
-ha ""
+ha "จากนั้นมาฉันก็เชื่อว่าปล่อยให้ทุกคนเมินฉันไปเลยก็ไม่เป็นไรหรอก ก็ตัวตนของฉันมีแต่ทำให้คนอื่นต้องยุ่งยาก\nลำบากใจ คงจะ… ดีกว่านี้… ถ้าฉันหายไปเลย"
 
 show hanako cover_bashful_cas
 with charachange
 
 # ha "But after meeting Lilly, and then you…"
-ha ""
+ha "แต่พอได้มาเจอลิลลี่ แล้วก็นาย…"
 
 show hanako basic_normal_cas
 with charachange
 
 # ha "I tried, but I… couldn't make myself think that way again."
-ha ""
+ha "ฉันพยายามแล้ว แต่ฉัน… ฝืนตัวเองให้คิดแบบนั้นไม่ได้อีกเลย"
 
 # "All that time… she didn't trust me. She thought, just like everyone else in her life had, that she was worthless. Someone to throw away once I got bored of being with her."
-""
+"ที่ผ่านมา… ฮานาโกะไม่เชื่อใจฉันเลย เธอมองตัวเองเหมือนอย่างที่คนอื่นในชีวิตเคยมองเธอ มองว่าไร้ค่า\nมองว่าเป็นคนที่ถ้าเบื่อแล้วก็ทิ้งไปได้"
 
 # "That hurts. That's the one kind of person I never, ever wanted to be seen as, because I know better than most just how horrible it feels to be thrown away by those who I thought liked me."
-""
+"เจ็บ เป็นมุมมองที่ฉันไม่อยากไปตกเป็นเป้าเลย ไม่เลย เพราะฉันเข้าใจดีกว่าใครหลายคนว่าการถูกคนที่คิดว่า\nชอบตัวเองนั้นทิ้งรู้สึกแย่แค่ไหน"
 
 # "She's cracking from the memories she's bringing up. I feel useless, completely unable to console her. In a strange way, though, I am almost thankful that she's allowing me to know this."
-""
+"ฮานาโกะเริ่มรับไม่ไหวกับความทรงจำที่เธอกำลังย้องระลึก รู้สึกว่าตัวเองไร้ประโยชน์มากที่ปลอบใจเธอไม่ได้เลย\nแต่ฉันก็ยินดีอย่างประหลาดที่เธอยอมให้ฉันได้รู้เรื่องนี้"
 
 # "The wall between us is going away, even if it hurts so badly to bring it down."
-""
+"กำแพงระหว่างเราเริ่มทลายลง แม้การทำลายกำแพงนั้นจะทำให้ต้องเจ็บปวดมากก็ตามที"
 
 # hi "Hanako, if you'd just told me…"
-hi ""
+hi "ฮานาโกะ ถ้าเธอบอกฉัน…"
 
 show hanako cover_worry_cas
 with charachange
 
 # ha "Was I… wrong?"
-ha ""
+ha "ฉัน… คิดผิดเหรอ"
 
 # hi "Of course you…"
-hi ""
+hi "ก็แน่อยู่…"
 
 # "She wasn't. Hanako wasn't wrong. It's difficult to force myself to admit this, but I know trying to deny it is pointless. To me, and to Lilly, she was someone we tried to protect."
-""
+"ไม่สิ ฮานาโกะไม่ได้คิดผิด ถึงจะทำใจยอมรับได้ยากแค่ไหน แต่ฉันรู้ว่าปฏิเสธไปก็ไม่ได้อะไรขึ้นมา ทั้งฉันทั้งลิลลี่\nต่างมองว่าฮานาโกะคือคนที่เราต้องคอยปกป้อง"
 
 # "She had become to me what I'd become to my friends after my heart attack - a broken person. I liked her, possibly even loved her, but I never acted on that precisely because I thought she was so fragile."
-""
+"เรามองฮานาโกะเหมือนอย่างที่เพื่อนมองฉันตอนหลังจากเหตุการณ์หัวใจวายครั้งนั้น มองว่าเป็นคนที่แหลกสลาย\nฉันชอบเธอ หรืออาจจะรักเธอด้วยซ้ำ แต่ที่ฉันไม่ยอมเดินหน้าต่อก็เพราะฉันมองว่าฮานาโกะเปราะบางมากนั่นแหละ"
 
 # hi "I mean… I don't look at you that way now."
-hi ""
+hi "คือ… ตอนนี้ฉันไม่ได้มองเธอแบบนั้นแล้ว"
 
 # hi "I got worried about you after what happened to you in class, and I thought I should try to protect you."
-hi ""
+hi "พอเกิดเหตุการณ์ในห้องเรียนวันนั้นแล้วฉันก็เป็นห่วงเธอ คิดว่าฉันต้องคอยปกป้องเธอ"
 
 # hi "When you locked yourself in your room, though, I got afraid. I thought you were rejecting me, and it forced me to think a lot about… different things."
-hi ""
+hi "แต่ตอนที่เธอขังตัวเองไว้ในห้องฉันก็กลัวขึ้นมา ฉันคิดว่าเธอปฏิเสธฉันอยู่ จนฉันต้องกลับมาคิดทบทวน…\nอะไรหลายอย่าง"
 
 show hanako defarms_strain_cas
 with charachange
 
 # ha "I wasn't rejecting you!"
-ha ""
+ha "ฉันไม่ได้จะปฏิเสธนายนะ!"
 
 # "She blurts it out with an almost scared tone to her voice, taking me off guard. She quickly becomes embarrassed by her outburst, before clenching her fists and working through what she wants to say in her mind."
-""
+"ฮานาโกะโพล่งขึ้นมาด้วยน้ำเสียงที่ยังสั่นกลัวจนฉันตกใจ เธออายทันทีที่อยู่ ๆ ก็ทำตัวแบบนั้นก่อนจะกำหมัด\nพลางคิดอยู่ในหัวถึงสิ่งที่อยากจะพูด"
 
 show hanako emb_timid_cas
 with charachange
 
 # ha "I wouldn't ever do that. Not to you."
-ha ""
+ha "ฉันไม่มีวันทำแบบนั้นหรอก ฉันไม่มีวันปฏิเสธนาย"
 
 show hanako emb_downtimid_cas
 with charachange
 
 # ha "Even though I was scared… even though I tried to push you away… you still tried to get closer to me."
-ha ""
+ha "ทั้งที่ฉันกลัวมาก… ทั้งที่ฉันพยายามจะผลักไสนาย… นายก็ยังจะมาเข้าใกล้ชิดฉัน"
 
 # ha "I locked myself away because… I was just a burden to you. To Lilly. To everyone."
-ha ""
+ha "ฉันขังตัวเองเพราะ… ฉันเป็นภาระกับนาย กับลิลลี่ กับทุกคน"
 
 show hanako emb_sad_cas
 with charachange
 
 # ha "E-every birthday was the same. Everyone doing their best to pretend that I mattered. Everyone pretending everything was all right… for that one day of the year."
-ha ""
+ha "วะ-วันเกิดครั้งไหนก็เหมือน ๆ เดิม ทุกคนแสร้งสุดความสามารถทำเหมือนว่าฉันสำคัญ ทุกคนทำเหมือนว่า\nทุกอย่างปกติดี… แค่วันนั้นวันเดียว"
 
 show hanako emb_downsad_cas
 with charachange
 
 # ha "I didn't want to exist, but they wouldn't let me. Even after meeting Lilly… everything was the same. I was as useless as I'd always been, unable to do anything for her, or for myself."
-ha ""
+ha "ฉันอยากจะหายไป แต่ทุกคนก็ไม่ยอม หลังจากที่ได้เจอลิลลี่แล้ว… ทุกอย่างก็ยังเหมือนเดิม ฉันยังไร้ประโยชน์\nเหมือนเก่า ทำอะไรเพื่อลิลลี่หรือเพื่อตัวเองไม่ได้เลย"
 
 # ha "I didn't want to be the same way… to you."
-ha ""
+ha "ฉันไม่อยากเป็นแบบนั้น… กับนายอีก"
 
 # "Lilly and I were completely wrong. From what she's said, everything we did for her… it would have only made her feel worse. Even what little I thought I had right about her was a complete misjudgment."
-""
+"ลิลลี่กับฉันคิดผิดมหันต์ เท่าที่ฟังฮานาโกะเล่ามา ทุกอย่างที่เราทำไป… มีแต่จะทำให้เธอรู้สึกแย่ แม้แต่เรื่องของเธอ\nเล็ก ๆ น้อย ๆ ที่ฉันคิดว่าคิดถูกแล้วก็ยังตัดสินไปผิดมากโข"
 
 # hi "After you locked yourself in your room, I decided to try to work out my past as well, and sort out my future. I didn't know how to deal with the things I'd lost by coming to Yamaku, so I was trying to sort them out myself."
-hi ""
+hi "หลังจากที่เธอขังตัวเองไว้ในห้องแล้วฉันก็มาจัดการกับอดีตของตัวเองแล้วก็คิดเรื่องอนาคตด้วย ฉันไม่รู้ว่าจะต้อง\nรับมือกับสิ่งที่ฉันเสียไปก่อนมาเรียนที่ยามากุยังไง ฉันเลยจะลองใช้สมองตัวเองคิด"
 
 # hi "I thought… it would help us become better friends… if I did that."
-hi ""
+hi "ฉันคิด… ว่าเราคงจะเป็นเพื่อนที่ดีต่อกันได้… ถ้าฉันทำแบบนั้น"
 
 hide hanako
 with charaexit
 
 # "Silence hangs in the air again. I try to keep looking at her, but I can't. I feel really low, and though I want to apologize… I don't know how I possibly could."
-""
+"มีเพียงความเงียบอยู่ในอากาศอีกครั้ง ฉันพยายามจะสบตามองฮานาโกะแต่ก็ทำไม่ได้ รู้สึกว่าตัวเองต่ำต้อยเหลือเกิน\nอยากจะขอโทษ… แต่ก็ไม่รู้จะขอโทษยังไง"
 
 # "I hear her take a deep breath, and only look back to her after hearing her drop to the ground."
-""
+"ฉันได้ยินเสียงสูดหายใจลึก และเมื่อได้ยินเสียงฮานาโกะผลุบตัวลงนั่งกับพื้นฉันก็หันไปมอง"
 
 scene ev hanako_park_alone
 with whiteout
 
 # "The sound of her crying breaks my heart. I know I'm responsible for this, and I know that I can't do anything to help her. If Hanako feels ashamed, then I feel all the more so."
-""
+"เสียงร้องไห้ของเธอทำใจฉันสลาย ฉันรู้ว่าฉันมีส่วนผิด และรู้ว่าฉันคงช่วยเธอไม่ได้ ถ้าฮานาโกะละอายใจ\nฉันก็ละอายใจหนักขึ้นไปอีก"
 
 show ev hanako_park_away
 with charachange
 
 # "I rush to her as tears continue to roll down her cheeks unabated, wrapping my arms around her. I don't care about how I must look any more. I just want to be close to her right now."
-""
+"ฉันเข้าไปหาฮานาโกะที่น้ำตาไหลอาบแก้มไม่ขาดสายแล้วโอบเธอไว้ ฉันไม่สนใจแล้วว่าสภาพตัวเองจะเป็นอย่างไร\nตอนนี้ฉันเพียงอยากอยู่ใกล้เธอ"
 
 # ha "I'm sorry, Hisao… I-I've messed up everything…"
-ha ""
+ha "ขอโทษนะฮิซาโอะ… ฉะ-ฉันทำพลาดทุกอย่างเลย…"
 
 # hi "It's fine. Everything's fine. I'm the one that should be sorry. I was meddling around behind your back, and I never told you anything."
-hi ""
+hi "ไม่เป็นไรหรอก ไม่มีอะไรผิดพลาดเลย ฉันต่างหากที่ต้องขอโทษที่เอาแต่ทำอะไรลับหลังเธอโดยที่ไม่บอกเธอเลย"
 
 # "I can feel my grip tightening on Hanako as my vision blurs. I can't be bothered trying to hold back, now. I have to force my words out as a lump begins to stick in my throat."
-""
+"ภาพตรงหน้าฉันเริ่มพร่ามัว ฉันกอดฮานาโกะให้แน่นขึ้น ฉันไม่มีแก่ใจจะมากลั้นอะไรแล้ว ฉันต้องฝืนพูด\nผ่านก้อนสะอื้นที่จุกคอออกมา"
 
 # hi "To tell you the truth, Hanako… I was scared. For the first time since my heart attack, I was really scared."
-hi ""
+hi "ว่าตามตรงนะฮานาโกะ… ตอนนั้นฉันกลัว เป็นครั้งแรกที่ฉันกลัวมาก ๆ เลยนับจากที่หัวใจวายครั้งนั้น"
 
 show ev hanako_park_look
 with charachange
 
 # ha "Hisao…?"
-ha ""
+ha "ฮิซาโอะ…?"
 
 # hi "I lost so much when I came to Yamaku. I was… depending on you, more than I ever thought I did."
-hi ""
+hi "ตอนมายามากุฉันต้องสูญเสียอะไรไปหลายอย่าง ฉัน… พึ่งเธอมากกว่าที่ฉันคิดเสียอีก"
 
 # hi "Even now, I still have that hole inside me. After losing my entire life, and everyone I'd known, the thought of losing you, as well…"
-hi ""
+hi "แม้แต่ตอนนี้ในใจฉันก็ยังมีรูโหว่อยู่ ฉันต้องสูญเสียชีวิต สูญเสียทุกคนที่เคยรู้จัก แล้วพอคิดว่าจะต้องเสียเธอ\nไปอีก…"
 
 show ev hanako_park_away
 with charachange
 
 # ha "But I'm just a useless—"
-ha ""
+ha "แต่ฉันมันไร้—"
 
 # hi "You're my friend, Hanako! You're…"
-hi ""
+hi "เธอเป็นเพื่อนฉันนะฮานาโกะ! เธอเป็น…"
 
 # hi "No, you're more than that. I love you, Hanako. I love you so much, that the thought of losing you frightened me so much…"
-hi ""
+hi "ไม่สิ เธอเป็นมากกว่านั้น ฉันรักเธอนะฮานาโกะ ฉันรักเธอมาก มากเสียจนพอคิดว่าจะต้องเสียเธอไปแล้ว\nฉันก็กลัวเหลือเกิน"
 
 # "Ah, this is bad… I'm really letting all of this out. I can't bring myself to look at her face right now."
-""
+"อา แย่แล้วไง… ฉันปลดปล่อยทุกอย่างออกมาหมดเลย ตอนนี้ฉันไม่กล้ามองหน้าฮานาโกะแล้ว"
 
 show ev hanako_park_look
 with charachange
 
 # ha "I'm sorry, Hisao…"
-ha ""
+ha "ขอโทษนะฮิซาโอะ…"
 
 # ha "I can't help… feeling a bit happy. For so long… that's what I've wanted… to hear…"
-ha ""
+ha "ฉันอด… ดีใจไม่ได้เลย ฉันอยาก… ได้ยินคำนี้… มาตั้งนานแล้ว"
 
 show ev hanako_park_closed
 with charachange
 
 # "The last of the floodgates breaks, the sound of her crying permeating the air as her body jerks against mine. We hold each other tightly, connected more closely than ever in our shared grief, and our shared happiness."
-""
+"ไม่มีสิ่งใดมาปิดกั้นอีกต่อไป เธอร้องไห้โฮพร้อมกับสะอื้นตัวโยนอยู่ในอ้อมกอดฉัน เราโอบกอดกันแน่นและเชื่อมต่อถึงกัน\nด้วยความโศกเศร้าและสุขสันต์ที่เรามีร่วมกัน"
 
 # "I don't know how things are going to be like, after this. Right now, though… I don't care. There's no other person in the world that either of us could possibly share these memories and emotions with. Nobody."
-""
+"ฉันไม่รู้ว่าวันข้างหน้านับจากนี้จะเป็นอย่างไรต่อ แต่ตอนนี้… ฉันไม่สนใจแล้ว เราคงแบ่งปันความทรงจำกับอารมณ์เหล่านี้\nกับใครคนอื่นบนโลกใบนี้ไม่ได้อีก ไม่มีเลย"
 
 stop music fadeout 2.0
 
@@ -5443,13 +5444,13 @@ play ambient sfx_parkambience fadein 2.0
 play sound sfx_can_clatter
 
 # "After dropping the dirtied can into a bin next to the bench, I take a seat beside Hanako. She puts away the handkerchief I gave her to clean herself up, which hasn't helped much."
-""
+"พอทิ้งกระป๋องสกปรกนั้นลงถังขยะข้างม้านั่งแล้วฉันก็นั่งข้างฮานาโกะ เธอเก็บผ้าเช็ดหน้าที่ฉันให้เธอไป\nซึ่งก็ช่วยซับน้ำตาได้ไม่ค่อยหมดจดเท่าไหร่"
 
 # "Then again, I doubt I look much more presentable. Even now, I feel emptied and a bit embarrassed after letting my emotions out in public like that. It's not a bad sensation, though. I think Hanako feels the same way, too."
-""
+"แต่ก็นะ ฉันเองก็คงดูไม่ได้พอกัน ตอนนี้ยังรู้สึกโล่ง ๆ อาย ๆ ที่ปล่อยให้อารมณ์ตัวเองทะลักออกมากลางที่สาธารณะ\nอย่างนั้น แต่ก็ไม่ได้รู้สึกแย่ ฮานาโกะก็น่าจะคิดเหมือนกัน"
 
 # hi "Have you calmed down a bit?"
-hi ""
+hi "สงบลงบ้างหรือยัง"
 
 play music music_comfort fadein 4.0
 
@@ -5459,95 +5460,95 @@ show hanako cover_bashful_cas_close:
 with charaenter
 
 # ha "Y-yes. Thank you."
-ha ""
+ha "อะ-อื้ม ขอบคุณนะ"
 
 # "For a while, we just sit and take our time before talking again to one another. We both need a little time to collect ourselves."
-""
+"เรานั่งกันอยู่เฉย ๆ พักหนึ่งก่อนที่จะเริ่มคุยกันอีก เราต่างต้องการเวลาให้ตั้งสติกันสักเล็กน้อย"
 
 show hanako basic_smile_cas_close
 with charachange
 
 # ha "The weather is nice at this time of year."
-ha ""
+ha "ช่วงเดือนนี้อากาศดีเนอะ"
 
 # hi "Yeah, it is."
-hi ""
+hi "อื้ม นั่นสิ"
 
 show black
 with shuteye 
 
 # "I close my eyes for a moment, relishing the feeling of the sun's heat and the cool breeze against my face. The weather really is nice, today. Really, really nice."
-""
+"ฉันหลับตาอยู่ครู่หนึ่งคอยกำซาบความร้อนจากแสงแดดและลมเย็น ๆ ที่ตีหน้า วันนี้อากาศดีจริง ๆ ดีมาก ๆ เลย"
 
 # hi "You know… I don't really want to go back to classes, right now. Do you?"
-hi ""
+hi "แล้วก็นะ… ฉันยังไม่อยากกลับไปเรียนตอนนี้เลย เธออยากไหม"
 
 hide black
 show hanako basic_bashful_cas_close
 with openeye
 
 # "She shakes her head as she finishes wiping her eyes with her cuff. The small smile she gives is nice, and it's a reminder of how earnest it can be."
-""
+"ฮานาโกะสั่นหัวไปพลางใช้ปลายแขนเสื้อเช็ดตาตัวเอง รอยยิ้มเล็ก ๆ ของเธอนั้นชวนมอง และพอเห็นฉันก็คิดได้ว่า\nช่างเป็นรอยยิ้มที่จริงใจเหลือเกิน"
 
 # "Smiling for other people might be a completely normal, everyday thing. For Hanako though… she smiles so rarely and so sincerely, that each and every time she does it, I feel a sense of relief and happiness."
-""
+"คนอื่นอาจมองว่าการยิ้มเป็นเรื่องธรรมดาสามัญประจำวัน แต่กับฮานาโกะแล้ว… เธอยิ้มน้อยครั้งมากและยิ้ม\nอย่างจริงใจมากเสียจนทุกครั้งที่เธอยิ้มแล้วฉันจะรู้สึกสบายใจและสุขใจ"
 
 show hanako cover_worry_cas_close
 with charachange
 
 # ha "I'm sorry. For… everything."
-ha ""
+ha "ขอโทษ… ทุกเรื่องเลยนะ"
 
 # hi "It's okay. I think we both have a bit to be sorry for."
-hi ""
+hi "ไม่เป็นไรน่า ฉันว่าเราต่างก็มีเรื่องที่ต้องขอโทษกันทั้งนั้นแหละ"
 
 show hanako emb_timid_cas_close
 with charachange
 
 # ha "I know that… I'm too shy. I know you don't want me to be, I don't think I can…"
-ha ""
+ha "ฉันรู้ว่า… ฉันขี้อายเกินไป ฉันรู้ว่านายอยากให้ฉันเลิกขี้อาย แต่ฉันคงเลิกไม่ได้…"
 
 # hi "You can change, Hanako. I know that because, even in the time I've known you, you've already changed. To be honest, just being able to sit here and talk to you like this means that you've changed a lot since we first met."
-hi ""
+hi "เธอเปลี่ยนแปลงตัวเองได้น่าฮานาโกะ ที่ฉันรู้เพราะเธอก็เปลี่ยนไปเหมือนกันเท่าที่ฉันได้รู้จักเธอมา เอาตรง ๆ นะ\nแค่ได้มานั่งคุยกับเธอแบบนี้ก็แปลว่าเธอเปลี่ยนไปแล้วนับตั้งแต่ครั้งแรกที่เราเจอกัน"
 
 show hanako emb_downtimid_cas_close
 with charachange
 
 # ha "But… I can't be like that for… anyone else. I don't have any plans for after school ends, either…"
-ha ""
+ha "แต่… ฉันทำแบบนี้… กับคนอื่นไม่ได้นี่นา เลิกเรียนแล้วฉันก็ไม่ได้มีแผนจะทำอะไรด้วย…"
 
 # "Hanako's confidence begins to slide down again, but I think that now, I can finally talk to her as an equal. I can do it because I know that we're just the same in so many ways."
-""
+"ความมั่นใจของฮานาโกะเริ่มถดถอยไปอีกแล้ว แต่ตอนนี้ฉันก็คุยกับเธอตามปกติได้แล้วสักที ที่ฉันคุยได้ก็เพราะ\nเราต่างเหมือนกันในหลาย ๆ แง่"
 
 # hi "Just give yourself time, and I think you'll be able to achieve what you want. No, I'm sure that you'll be able to do it. I can see you've been trying, and I have faith in you."
-hi ""
+hi "ไม่ต้องรีบหรอก ฉันว่าสักวันเธอจะทำได้ดังใจต้องการแน่นอน ไม่สิ ฉันมั่นใจเลยแหละ ฉันดูออกว่าเธอพยายามอยู่\nและฉันเองก็เชื่อมั่นในตัวเธอด้วย"
 
 # hi "And you can depend on me if you feel like you need someone to support you, you know."
-hi ""
+hi "แล้วก็เนี่ย ถ้าตอนไหนอยากให้ใครสักคนมาเป็นแรงผลักดันให้ก็มาพึ่งฉันได้"
 
 show hanako defarms_strain_cas_close
 with charachange
 
 # ha "B-but I can't ask that of you…"
-ha ""
+ha "ตะ-แต่จะให้ไปรบกวนนายได้ยังไง…"
 
 # hi "You can, because that's exactly what I'm asking of you. I'm going through the same thing, you know."
-hi ""
+hi "ได้สิ เพราะฉันก็จะรบกวนเธอด้วยเหมือนกัน ฉันเองก็ต้องเผชิญกับปัญหาเหมือน ๆ กันนี่นา"
 
 # hi "It's called love."
-hi ""
+hi "นี่ละที่เขาเรียกว่ารัก"
 
 show hanako basic_bashful_cas_close at tworight
 with dissolvecharamove
 
 # "Hanako smiles, before I get off the bench and dust myself off. She does the same in short measure."
-""
+"ฮานาโกะยิ้มก่อนฉันจะลุกจากม้านั่งแล้วปัด ๆ ฝุ่นตามตัว จากนั้นเธอก็ลุกตาม"
 
 # hi "I'm kinda hungry. Want to grab something to eat?"
-hi ""
+hi "ชักหิวแล้วสิ ไปหาอะไรกินกันไหม"
 
 # "She nods vigorously. The way she's smiling, the way she's acting, even just the general air she gives off… I feel as if this is the first time I've seen her genuinely happy."
-""
+"ฮานาโกะพยักหน้าแรง ๆ รอยยิ้มของเธอ กิริยาของเธอ แม้แต่บรรยากาศรอบตัวเธอ… ราวกับว่าครั้งนี้เป็นครั้งแรกเลย\nที่ได้เห็นเธอมีความสุขจากใจจริง"
 
 $ renpy.music.set_volume(0.6, 1.0, channel="ambient")
 
@@ -5555,31 +5556,31 @@ scene bg suburb_roadcenter
 with locationchange
 
 # "We both make our way onto the street, walking beside each other."
-""
+"เราสองคนเดินเคียงข้างกันไปตามถนน"
 
 show hanako emb_emb_cas_close at center
 with charaenter
 
 # ha "Hisao?"
-ha ""
+ha "ฮิซาโอะ?"
 
 # hi "Yeah?"
-hi ""
+hi "หืม"
 
 show hanako emb_downtimid_cas_close
 with charachange
 
 # ha "I… I think… I don't really understand you."
-ha ""
+ha "ฉัน… ฉันว่า… ฉันไม่ค่อยเข้าใจนายเท่าไหร่"
 
 # hi "I don't think I understand you, either. I believe that's fine, though."
-hi ""
+hi "ฉันก็ว่าฉันไม่ค่อยเข้าใจเธอเท่าไหร่เหมือนกัน แต่ฉันเชื่อนะว่าต่อให้ไม่เข้าใจก็ไม่เป็นไรหรอก"
 
 # "There's not a single hint of despair in our voices. Not understanding each other is only natural; the walls we set up between ourselves couldn't possibly be broken down in a single day."
-""
+"น้ำเสียงเราไม่มีความสิ้นหวังเจืออยู่เลย เราจะไม่เข้าใจกันก็ไม่แปลก กำแพงที่เราสองคนตั้งมาคั่นกลางกันนั้น\nไม่อาจทุบให้พังราบลงได้ภายในวันเดียว"
 
 # "But that's fine. As long as we take it day by day, and try to understand one another… I think everything will be okay."
-""
+"แต่ไม่เป็นไรหรอก ตราบใดที่เราคอยทำความเข้าใจกันและกันไปทุก ๆ วัน… ทุกอย่างจะลงเอยด้วยดี"
 
 show hanako emb_timid_cas_close
 with charachange
@@ -5588,43 +5589,43 @@ show hanako emb_downtimid_cas_close
 with charachange
 
 # "As we walk down the street, though, Hanako's eyes flick to my face and back to the street repeatedly."
-""
+"ทว่าเมื่อเดินกันไปตามถนนเรื่อย ๆ ตาฮานาโกะก็เหลือบมองฉันสลับกับพื้นถนนเรื่อย ๆ"
 
 # hi "Is something on your mind? You look restless."
-hi ""
+hi "มีอะไรหรือเปล่า เธอดูลนลานนะ"
 
 show hanako basic_normal_cas_close
 with charachange
 
 # "She slows before stopping completely. When I turn to meet her, she takes a long, deep breath, looking at my face intently. This expression… I saw it once before on her face. Just once, when I accidentally surprised her in her room."
-""
+"ฮานาโกะผ่อนฝีเท้าลงก่อนจะหยุดเดิน เมื่อหันไปมองเธอก็สูดหายใจลึก ๆ แล้วจ้องหน้าฉันเขม็ง ฉัน… เคยเห็นสีหน้านี้\nมาก่อน แต่แค่ครั้งเดียว ครั้งนั้นที่ฉันเผลอทำเธอตกใจตอนเธออยู่ในห้องตัวเอง"
 
 # ha "I… I think… I think I have something… I need to give you."
-ha ""
+ha "ฉัน… ฉันว่า… ฉันว่าฉันมีอะไร… ที่ต้องให้นาย"
 
 # hi "What is it? You don't need to be evasive about it."
-hi ""
+hi "อะไรเหรอ ไม่ต้องอ้อมไปอ้อมมาหรอกน่า"
 
 show hanako cover_distant_cas_close
 with charachange
 
 # ha "I wanted to give you this for a long, long time, but… now that I need to… it's too embarrassing…"
-ha ""
+ha "ฉันอยากให้เจ้านี่กับนายมานานมากแล้ว แต่… พอตอนนี้จะให้… ก็อาย…"
 
 # hi "Don't worry. I'll accept it, whatever it is."
-hi ""
+hi "ไม่ต้องห่วงน่า จะเป็นอะไรฉันก็รับไว้หมดแหละ"
 
 show hanako basic_bashful_cas_close
 with charachange
 
 # "She gives a sweet, bashful smile, before taking my shoulder in her hand."
-""
+"ฮานาโกะยิ้มหวานดูขวยเขินก่อนจะวางมือไว้กับบ่าฉัน"
 
 # ha "Then, please accept my first gift to you, Hisao…"
-ha ""
+ha "งั้น ได้โปรดรับของขวัญชิ้นแรกจากฉันทีนะฮิซาโอะ…"
 
 # hi "Hanako…?"
-hi ""
+hi "ฮานาโกะ…?"
 
 stop ambient fadeout 1.0
 
