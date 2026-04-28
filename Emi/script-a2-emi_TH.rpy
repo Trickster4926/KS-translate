@@ -2881,12 +2881,12 @@ show nurse neutral at center
 with shorttimeskip
 
 # nk "My goodness, but you're in a hurry today, aren't you, Emi?"
-nk ""
+nk "ตายจริง วันนี้รีบน่าดูเลยนะเอมิ"
 
 play music music_nurse fadein 2.0
 
 # "I have no idea how we got to the nurse's office so fast, but here we are."
-""
+"ฉันไม่รู้เลยว่ามาถึงห้องพยาบาลได้เร็วขนาดนี้ได้ยังไง แต่ก็นั่นแหละ"
 
 show nurse neutral at twoleft
 show bg school_nurseoffice at bgleft
@@ -2896,133 +2896,133 @@ show emi basic_grin_gym at tworight
 with charaenter
 
 # "The nurse grins at Emi and seems to completely ignore me."
-""
+"คุณพยาบาลยิ้มให้เอมิ เหมือนจะเมินฉันไปเลย"
 
 show nurse grin
 with charachange
 
 # nk "You've got plenty of time to take a shower and get to class, you know."
-nk ""
+nk "ยังเหลือเวลาให้อาบน้ำก่อนไปเข้าเรียนอีกเยอะเลยนี่"
 
 show nurse concern
 with charachange
 
 # nk "There's no need to run through the hallways like that. I could hear you coming a mile away!"
-nk ""
+nk "ไม่ต้องวิ่งตามโถงทางเดินมาอย่างนั้นหรอก ฉันได้ยินเสียงเธอวิ่งมาตั้งไกล!"
 
 # "Somehow, it doesn't seem like he's actually scolding Emi at all."
-""
+"ไม่รู้ทำไมถึงรู้สึกว่าไม่ได้ดุเอมิเลย"
 
 # "It's like this is a sort of routine between the two of them."
-""
+"เหมือนเป็นกิจวัตรของสองคนนี้มากกว่า"
 
 # "Emi does a passable imitation of remorse."
-""
+"เอมิทำท่าหงอย ๆ ที่พอใช้ได้"
 
 show emi excited_sad_gym
 with charachange
 
 # emi "I'm sorry! I won't ever do it again!"
-emi ""
+emi "ขอโทษค่ะ! หนูจะไม่ทำอีกแล้ว!"
 
 show nurse grin
 show emi basic_closedhappy_gym
 with charachange
 
 # "The nurse and Emi both laugh at some private joke."
-""
+"ทั้งคุณพยาบาลทั้งเอมิหัวเราะกับมุกที่รู้กันสองคนนั้น"
 
 show emi basic_grin_gym
 show nurse neutral
 with charachange
 
 # "Suddenly, it seems that he notices me."
-""
+"อยู่ ๆ คุณพยาบาลก็เหมือนเห็นฉัน"
 
 show nurse fabulous
 with charachange
 
 # nk "Ah, hello Hisao."
-nk ""
+nk "อ้าว สวัสดีฮิซาโอะ"
 
 show nurse neutral
 with charachange
 
 # nk "What brings you here?"
-nk ""
+nk "ลมอะไรหอบมาถึงนี่ล่ะ"
 
 # hi "Well, I've been—{w=.3}{nw}"
-hi ""
+hi "คือผม—{w=.3}{nw}"
 
 show emi basic_closedgrin_gym
 with charachange
 
 # emi "Hisao's officially joined me on my morning runs."
-emi ""
+emi "ฮิซาโอะมาร่วมเป็นคู่วิ่งยามเช้ากับหนูอย่างเป็นทางการแล้ว"
 
 # "I start to explain, but Emi cuts me off."
-""
+"ฉันเตรียมจะอธิบายแต่เอมิก็ตัดบทไปก่อน"
 
 show emi basic_happy_gym
 with charachange
 
 # emi "I thought he might need to visit you so that he doesn't die or anything."
-emi ""
+emi "พอดีคิดว่าต้องพามาหาคุณพยาบาลให้แน่ใจว่าจะไม่ตายหรืออะไรแบบนั้นน่ะค่ะ"
 
 show nurse fabulous
 with charachange
 
 # "The nurse raises his eyebrows in mock horror."
-""
+"คุณพยาบาลเลิกคิ้วขึ้นแสร้งทำเป็นกลัว"
 
 # nk "Yes, that would certainly put me out of a job fast, wouldn't it?"
-nk ""
+nk "อืม ขืนเป็นงั้นฉันตกงานแน่เลยเนอะ"
 
 show nurse neutral
 show emi basic_grin_gym
 with charachange
 
 # nk "Well then Hisao, let's have a look at you."
-nk ""
+nk "เอาละฮิซาโอะ มาตรวจร่างกายกัน"
 
 # nk "Lift up your shirt, would you?"
-nk ""
+nk "เลิกเสื้อขึ้นหน่อย"
 
 # "I'm suddenly very conscious of the fact that Emi's in the room with me and blush in spite of myself."
-""
+"อยู่ ๆ ก็นึกอายขึ้นมาที่เอมิอยู่ในห้องด้วยและหน้าแดงขึ้นมาโดยไม่รู้ตัว"
 
 # "The nurse seems to sense my discomfort, but it only seems to amuse him."
-""
+"คุณพยาบาลก็เหมือนจะเห็นว่าฉันเกร็ง แต่ดูจะยิ่งชอบใจ"
 
 show nurse grin
 with charachange
 
 # nk "A bit shy, are we?"
-nk ""
+nk "ขี้อายนะเรา"
 
 # "He makes an apologetic bow to Emi."
-""
+"คุณพยาบาลหันไปพยักหน้าให้เอมิเป็นเชิงขอโทษ"
 
 # nk "Sorry Emi, I tried to get you a free show, but it doesn't seem to have worked."
-nk ""
+nk "ขอโทษนะเอมิ ฉันกะจะให้เธอได้ดูของดีเสียหน่อย แต่ดูท่าว่าจะไม่ได้ผล"
 
 show emi basic_annoyed_gym
 with charachange
 
 # "Emi stiffens slightly and fires a look of annoyance at him."
-""
+"เอมิสะดุ้งเล็กน้อยแล้วมองคุณพยาบาลเอือม ๆ"
 
 # emi "You're an asshole."
-emi ""
+emi "คุณพยาบาลนี่แย่จริง ๆ"
 
 show emi excited_proud_gym
 with charachange
 
 # "Emi bows to me apologetically."
-""
+"เอมิค้อมตัวให้ฉันอย่างรู้สึกผิด"
 
 # emi "I'll wait outside, okay Hisao?"
-emi ""
+emi "เดี๋ยวไปรอข้างนอกนะฮิซาโอะ"
 
 hide emi
 with charaexit
@@ -3032,118 +3032,118 @@ show bg school_nurseoffice at center
 with charamove
 
 # "I begin to stammer that it's not really a big deal, she doesn't have to leave, but she's already out the door, and the nurse is laughing as he watches her go."
-""
+"ฉันอ้ำอึ้งจะบอกไปว่าไม่เป็นไร ไม่ต้องออกไปก็ได้ แต่เอมิก็เดินออกประตูไปแล้ว คุณพยาบาลหัวเราะไปพลาง\nมองไล่หลังเธอ"
 
 show nurse fabulous
 with charachange
 
 # nk "Still got it! Ha!"
-nk ""
+nk "ยังใช้ได้นะเราเนี่ย! ฮ่า!"
 
 # hi "I don't follow."
-hi ""
+hi "ยังไงนะครับ"
 
 show nurse grin
 with charachange
 
 # "He laughs again, like he's in on some joke that's over my head."
-""
+"คุณพยาบาลหัวเราะอีกครั้งเหมือนตลกกับมุกที่ฉันยังไม่เข้าใจ"
 
 # nk "I can still get her flustered. It's a competition of sorts we've had going on for a while now."
-nk ""
+nk "ฉันยังทำให้เอมิเขินได้ ช่วงนี้เราแข่งกันอะไรประมาณนี้อยู่น่ะ"
 
 # "That sounds incredibly sinister to me, and it seems as if the nurse realizes that too."
-""
+"ฟังดูชวนขนลุกเอามาก ๆ และเหมือนคุณพยาบาลก็รู้ตัวเหมือนกัน"
 
 show nurse concern
 with charachange
 
 # nk "Er. That sounded a lot worse than it actually is, come to think of it."
-nk ""
+nk "เอ่อ จริง ๆ ก็ไม่ใช่เรื่องอะไรขนาดนั้นหรอก จะว่าไปแล้ว"
 
 # hi "I wasn't going to say anything…"
-hi ""
+hi "ผมก็ไม่ได้ว่าอะไร…"
 
 # nk "No no, you're right. I should fill you in so that you don't get the wrong idea."
-nk ""
+nk "ไม่ ๆ เธอพูดถูก ต้องอธิบายหน่อย เดี๋ยวเธอเข้าใจผิด"
 
 show nurse neutral
 with charachange
 
 # nk "I'm actually relatively new here, you see. I got hired on the same year Emi started going here."
-nk ""
+nk "คือว่าจริง ๆ แล้วฉันเพิ่งมาใหม่น่ะ มาทำงานที่นี่พร้อม ๆ กับตอนที่เอมิเข้ามาเรียนเลย"
 
 # nk "Before that, I worked with Emi during her initial rehab following her accident."
-nk ""
+nk "ก่อนหน้านั้นฉันดูแลเอมิช่วงที่กำลังฟื้นฟูจากอุบัติเหตุน่ะ"
 
 # "Hold on, what?"
-""
+"เดี๋ยว อะไรนะ"
 
 show nurse concern
 with charachange
 
 # nk "We had to amputate her legs after a really nasty car wreck. It nearly killed her, and succeeded—"
-nk ""
+nk "เราต้องตัดขาเอมิเพราะเอมิประสบอุบัติเหตุรถชนอย่างหนักน่ะ ซึ่งเอมิก็เกือบตายแล้ว แต่เราผ่าตัดสำเร็จ—"
 
 # "He shuts up abruptly. I blink at receiving this unexpected piece of news."
-""
+"คุณพยาบาลเงียบไปทันที ฉันกะพริบตาปริบ ๆ กับข้อมูลที่ไม่คิดว่าจะได้รับรู้นี้"
 
 # nk "Well, that's not my place to say. Anyway, we've known each other for quite a while."
-nk ""
+nk "อืม ฉันก็ไม่ได้มีสิทธิ์จะพูดหรอก แต่นั่นแหละ เรารู้จักกันมาสักพักแล้ว"
 
 # nk "So we have a slightly more familiar relationship than is strictly professional."
-nk ""
+nk "ก็เลยมีความคุ้นเคยกันบ้างนิดหน่อย ไม่ใช่แค่ในฐานะหมอกับคนไข้น่ะ"
 
 # "He seems embarrassed, like he's done something stupid."
-""
+"คุณพยาบาลดูอายราวกับว่าเพิ่งทำอะไรไม่ดีลงไป"
 
 # "I guess he's really worried about that. I wave a hand to let him know it's not a big deal."
-""
+"สงสัยคงจะคิดมากจริง ๆ ฉันโบกมือให้เป็นเชิงบอกว่าไม่เป็นไร"
 
 # hi "Don't worry, sir. I promise I'm going to be discreet."
-hi ""
+hi "ไม่ต้องห่วงหรอกครับ ผมสัญญาว่าจะเงียบไว้"
 
 # "I had been wondering about what caused Emi to lose her legs, and that was one of the scenarios I thought of."
-""
+"ฉันนึกสงสัยอยู่ว่าเอมิต้องสูญเสียขาไปด้วยเหตุอะไร ซึ่งเหตุการณ์นั้นก็เป็นอย่างหนึ่งที่ฉันเคยคิดไว้เหมือนกัน"
 
 # "There were only so many ways that could have happened, but actually hearing about the facts… it's still a little shocking."
-""
+"เพราะจริง ๆ ก็มีหลายทางอยู่ที่จะเกิดเรื่องแบบนั้นได้ แต่พอมาได้ยินกับหูแล้ว… ก็ตกใจเหมือนกัน"
 
 show nurse neutral
 with charachange
 
 # nk "Well, thanks. You're a good kid, Hisao."
-nk ""
+nk "ขอบคุณนะ เธอนี่เป็นเด็กดีจริง ๆ ฮิซาโอะ"
 
 # nk "I can see why Emi became friends with you."
-nk ""
+nk "มิน่าล่ะเอมิถึงได้มาสนิทกับเธอ"
 
 show nurse fabulous
 with charachange
 
 # nk "She's quite indomitable, you know."
-nk ""
+nk "เอมิน่ะเป็นคนที่ไม่ย่อท้อนะ"
 
 # hi "What do you mean?"
-hi ""
+hi "หมายความว่าไงครับ"
 
 # nk "You didn't see her learning to walk. She'd go for so much longer than the others in the hospital. She refused to quit."
-nk ""
+nk "เธอไม่ได้อยู่ดูตอนเอมิหัดเดิน เอมิน่ะหัดอยู่นานกว่าใครคนอื่นในโรงพยาบาลเลยเพราะไม่ยอมเลิกสักที"
 
 # nk "Normally it takes years to get to a point where you can even think about running again. Emi did it all in about a year."
-nk ""
+nk "ปกติต้องใช้เวลาเป็นปี ๆ กว่าจะกลับมาวิ่งได้ แต่เอมิใช้เวลาแค่ปีเดียวเท่านั้น"
 
 # "He almost seems proud of her, like a father who watches his daughter win a competition or something."
-""
+"คุณพยาบาลดูจะภูมิใจมาก ๆ เหมือนพ่อที่เห็นลูกชนะงานแข่งหรืออะไรสักอย่าง"
 
 show nurse neutral
 with charachange
 
 # nk "Hell, she'd probably have done it faster if not for the fact that we wouldn't let her."
-nk ""
+nk "ไม่สิ อาจจะเร็วกว่าหนึ่งปีด้วยซ้ำถ้าไม่ห้ามไว้"
 
 # hi "Wouldn't let her? Why not?"
-hi ""
+hi "ห้ามเหรอครับ ทำไมถึงห้ามล่ะ"
 
 show nurse concern
 with charachange
@@ -3151,19 +3151,19 @@ with charachange
 stop music fadeout 4.0
 
 # nk "Because she'd go for so long that her legs would start bleeding where they met her prosthetics."
-nk ""
+nk "เพราะจะใช้ขาอยู่นานจนตรงที่ต่อเข้ากับขาเทียมเลือดออกน่ะสิ"
 
 # nk "It's a real concern - it's why she comes by every day after she runs."
-nk ""
+nk "เป็นเรื่องที่ต้องจับตาดูเลยนะ เพราะแบบนี้แหละเอมิถึงได้มาหาทุกวันหลังวิ่ง"
 
 # nk "To say nothing of the risk of infection if her legs get cut up and her prosthetics are dirty."
-nk ""
+nk "แล้วไหนจะเสี่ยงติดเชื้อถ้าเกิดว่ามีแผลแล้วขาเทียมสกปรกอีก"
 
 show nurse neutral
 with charachange
 
 # nk "But enough about that."
-nk ""
+nk "แต่เรื่องนั้นไว้ก่อน"
 
 show nurse fabulous
 with charachange
@@ -3171,46 +3171,46 @@ with charachange
 play music music_nurse fadein 2.0
 
 # nk "If we don't get you on your way soon, Emi will think we're up to something."
-nk ""
+nk "ถ้าไม่รีบจัดการกับเธอเดี๋ยวเอมิจะคิดว่าวางแผนทำอะไรกันอีก"
 
 # "As he says this, he gives a wink and begins checking my heartbeat."
-""
+"คุณพยาบาลพูดพลางขยิบตาให้ก่อนจะตรวจหัวใจฉัน"
 
 # "The stethoscope is way too cold."
-""
+"เครื่องฟังตรวจนั้นเย็นเฉียบ"
 
 # "He really should have heated it up or something before he used it."
-""
+"น่าจะเอาไปอุ่นหรืออะไรก่อนมาใช้"
 
 # "After a few moments he leans back, satisfied."
-""
+"ผ่านไปสักพักคุณพยาบาลก็ผละออกด้วยความพอใจ"
 
 show nurse neutral
 with charachange
 
 # nk "Well, you sound pretty good to me, Hisao. You didn't have any chest pains while you were running, did you?"
-nk ""
+nk "ก็ฟังดูปกติดีนะฮิซาโอะ ตอนวิ่งไม่ได้มีอาการเจ็บหน้าอกใช่มั้ย"
 
 # hi "No, not really. I had some trouble catching my breath, though - and my heart was racing by the end, too."
-hi ""
+hi "ก็ไม่นะครับ แต่ผมหายใจไม่ค่อยทัน แล้วตอนวิ่งใกล้ครบรอบหัวใจก็เต้นแรงมาก"
 
 show nurse concern at center
 with charachange
 
 # "The nurse frowns as I say this, but then shrugs."
-""
+"คุณพยาบาลขมวดคิ้วเมื่อได้ฟัง แต่ก็ยักไหล่"
 
 show nurse neutral at center
 with charachange
 
 # nk "It's probably just because you're out of shape… but if you don't improve, then you should let me know, okay?"
-nk ""
+nk "อาจจะเพราะไม่ฟิตมั้ง… แต่ถ้าไม่ดีขึ้นก็มาบอกกันนะ"
 
 # nk "Don't push yourself too much - and of course if you have any chest pains, come to me immediately, right?"
-nk ""
+nk "อย่าฝืนมากไป แล้วก็ถ้าเจ็บหน้าอกขึ้นมาก็ให้มาหาฉันทันที โอเคนะ"
 
 # "I put my shirt back on, and the nurse leans out of the doorway to call in Emi."
-""
+"ฉันใส่เสื้อกลับเหมือนเดิม คุณพยาบาลเดินออกไปอยู่ที่ประตูเรียกเอมิ"
 
 show nurse neutral at twoleft
 show bg school_nurseoffice at bgleft
@@ -3220,7 +3220,7 @@ show emi basic_annoyed_gym at tworight
 with charaenter
 
 # emi "What took you so long? Now I'm going to be late!"
-emi ""
+emi "ทำไมนานจัง สายแล้วเนี่ย!"
 
 stop music fadeout 2.0
 
@@ -3228,13 +3228,13 @@ show nurse fabulous
 with charachange
 
 # "The nurse gives me a significant look."
-""
+"คุณพยาบาลส่งสายตาให้อย่างมีเลศนัย"
 
 show nurse grin
 with charachange
 
 # nk "I was just seducing Hisao, that's all."
-nk ""
+nk "พอดีล่อหลอกฮิซาโอะอยู่น่ะ"
 
 play music music_comedy fadein 0.5
 
@@ -3242,24 +3242,24 @@ show emi sad_annoyed_gym
 with charachange
 
 # emi "What!? Come on, what have I told you about seducing my friends?"
-emi ""
+emi "คะ!? ไม่เอาน่า หนูบอกแล้วไงว่าห้ามล่อหลอกเพื่อนหนูน่ะ"
 
 # "I'd expected Emi to be shocked by this, but instead she seems merely annoyed, scolding the nurse as if he were a child stealing cookies."
-""
+"ฉันนึกว่าเอมิคงจะตกใจ ทว่าเธอแค่ดูเอือม ๆ พลางดุคุณพยาบาลเหมือนดุเด็กที่ขโมยคุกกี้"
 
 # "Meanwhile, I try hard not to blush at the nurse's innuendo."
-""
+"ระหว่างนั้นฉันก็ห้ามตัวเองไม่ให้หน้าแดงกับคำพูดสองแง่สองง่ามนั้น"
 
 show nurse fabulous
 with charachange
 
 # nk "I'll try not to do it again, though I fear young Hisao may be lost to the female gender forever!"
-nk ""
+nk "จะไม่ทำอีกแล้ว แต่ฉันเกรงว่าพ่อหนุ่มฮิซาโอะเขาคงจะไม่สนใจผู้หญิงไปอีกตลอดกาลแล้วละ!"
 
 stop music fadeout 0.5
 
 # hi "Not freaking likely."
-hi ""
+hi "ไม่มีวันซะละ"
 
 with Pause(3.0)
 
@@ -3270,29 +3270,29 @@ show emi excited_laugh_gym
 with charachange
 
 # "I didn't mean to say that out loud, but both the nurse and Emi regard me for a moment before bursting into laughter again."
-""
+"ฉันไม่ได้กะจะพูดออกมา แต่คุณพยาบาลกับเอมิก็หันมาทางฉันก่อนจะหัวเราะอีกรอบ"
 
 show emi basic_happy_gym
 with charachange
 
 # emi "Told you he was funny, didn't I?"
-emi ""
+emi "หนูบอกแล้วว่าฮิซาโอะเขาเป็นคนตลก"
 
 # "Huh. I guess Emi does talk to the nurse about a lot of stuff."
-""
+"เหอ? สงสัยเอมิคุยอะไรหลายอย่างกับคุณพยาบาลจริงแหละ"
 
 show nurse fabulous
 show emi basic_grin_gym
 with charachange
 
 # nk "Well Hisao, you should probably get moving. You still need a shower before class starts, don't you?"
-nk ""
+nk "เอาละฮิซาโอะ เธอไปเถอะ เดี๋ยวต้องอาบน้ำก่อนไปเข้าเรียนนี่"
 
 # "Crap! He's got a point, and it looks like I've only got a half hour!"
-""
+"ตายแล้ว! ก็จริง แล้วเหมือนจะเหลือเวลาอีกแค่ครึ่งชั่วโมงด้วย!"
 
 # hi "Thanks for your time. I'll see you later, Emi!"
-hi ""
+hi "ขอบคุณนะครับ แล้วก็เจอกันนะเอมิ!"
 
 scene bg school_nursehall
 with locationchange
@@ -3300,25 +3300,25 @@ with locationchange
 stop music fadeout 5.0
 
 # "I dash out of the room as the nurse begins to remove Emi's prosthetics."
-""
+"ฉันพุ่งตัวออกจากห้องไประหว่างที่คุณพยาบาลเริ่มถอดขาเทียมเอมิ"
 
 # "As I head down the hallway, I can just barely hear his voice drifting after me."
-""
+"ระหว่างที่เดินไปตามโถงทางเดินก็ได้ยินเสียงคุณพยาบาลแว่ว ๆ มา"
 
 # nk "Emi, you've got to be more careful…"
-nk ""
+nk "เอมิ เธอต้องระวังหน่อย…"
 
 scene bg school_dormhisao
 with locationskip
 
 # "I make it back to my room and shower in record time. It occurs to me that I've already been up for four hours, and class hasn't even started yet."
-""
+"ฉันกลับถึงห้องแล้วอาบน้ำด้วยความเร็วแสง และฉันก็เพิ่งระลึกได้ว่าฉันตื่นมาสี่ชั่วโมงแล้วโดยที่ยังไม่ได้เข้าเรียน"
 
 # "This is going to be a really, really long day."
-""
+"วันนี้จะต้องเป็นวันที่แสนเหนื่อยแน่ ๆ"
 
 # "I hope I don't fall asleep in class."
-""
+"หวังว่าจะไม่หลับไปตอนเรียนนะ"
 
 $ suppress_window_after_timeskip = True
 
