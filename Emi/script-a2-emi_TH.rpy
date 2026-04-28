@@ -22,34 +22,34 @@ with openeye
 window show
 
 # "Class is still quite far off, but I agreed to run with Emi in the mornings."
-"ยังเหลือเวลาอีกนานกว่าจะถึงเวลาเรียน แต่ฉันก็สัญญากับเอมิไว้แล้วว่าจะไปวิ่งกับเธอในตอนเช้า"
+"ยังอีกนานกว่าจะถึงเวลาเรียน แต่ฉันก็สัญญากับเอมิไว้แล้วว่าจะไปวิ่งกับเธอในตอนเช้า"
 
 # "Really, I'm not that interested in running as a hobby, or even as a possible life-lengthening exercise."
-"ที่จริงแล้วฉันก็ไม่ได้สนใจการวิ่งนักหรอก ไม่ว่าจะแค่วิ่งเล่นเป็นงานอดิเรก หรือตั้งใจวิ่งออกกำลังกายให้อายุยืนก็ตาม"
+"ที่จริงแล้วฉันก็ไม่ได้สนใจการวิ่งนักหรอก ไม่ได้สนใจเป็นงานอดิเรกหรือกิจกรรมที่ทำเพื่อต่ออายุอะไรด้วยซ้ำ"
 
 # "However, I feel obligated to follow through on my promise to Emi yesterday, which is why I find myself throwing on some running shorts and a light tee-shirt."
-"แต่เพราะรู้สึกว่าควรจะต้องรักษาสัญญาที่ได้ให้ไปกับเอมิในวันก่อน จึงได้ลุกขึ้นมาแต่งตัวอย่างง่าย ๆ\nด้วยกางเกงวิ่งขาสั้นหนึ่งตัวกับเสื้อยืดตัวหนึ่ง"
+"แต่เพราะรู้สึกว่าต้องทำตามที่สัญญากับเอมิไว้เมื่อวาน ฉันจึงลุกขึ้นมาแต่งตัวลวก ๆ ด้วยกางเกงวิ่งขาสั้นหนึ่งตัวกับเสื้อยืดบาง ๆ"
 
 scene bg school_courtyard
 with locationskip
 
 # "The cool morning air caresses my face as the morning sunshine causes the dew on the grass to sparkle, nearly blinding me at first."
-"อากาศเย็นของยามเช้าไล้ผ่านใบหน้าไปในขณะที่ดวงอาทิตย์ฉายแสงลงมากระทบกับหยาดน้ำค้างบนใบหญ้า\nสะท้อนแสงระยิบระยับส่องมาเสียจนทำให้ดวงตาพร่ามัว"
+"อากาศเย็นของยามเช้าไล้ผ่านใบหน้าไปในขณะที่ดวงอาทิตย์ฉายแสงลงมากระทบกับหยาดน้ำค้างบนใบหญ้า\nสะท้อนแสงระยิบระยับส่องมาเสียจนตาแทบพร่า"
 
 # "As I make my way down to the track, an ugly thought strikes me."
-"ขณะที่กำลังเดินไปยังสนามวิ่ง ฉันก็เริ่มคิดในแง่ร้ายขึ้นมา"
+"ขณะกำลังเดินไปลู่วิ่งฉันก็เริ่มคิดในแง่ร้ายขึ้นมา"
 
 # "What if this is some sort of joke that Emi's playing on me?"
-"ถ้าเกิดว่าเอมิแค่แกล้งอำกันเล่น และพอไปถึงแล้วกลับไม่มีใครรออยู่เลยล่ะ?"
+"ถ้าเกิดว่าเอมิแค่แกล้งอำกันเล่น และพอไปถึงแล้วกลับไม่มีใครรออยู่เลยล่ะ"
 
 # "Would that surprise me, really?"
-"ต่อให้เป็นอย่างนั้นจริงแล้วฉันจะยังรู้สึกประหลาดใจอยู่ไหมนะ?"
+"ต่อให้เป็นอย่างนั้นจริงแล้วฉันจะยังรู้สึกประหลาดใจอยู่ไหมนะ"
 
 # "Hell, I'd probably do it to the new guy, too."
-"แม้แต่ตัวฉันเองก็คงจะแกล้งรับน้องใหม่ด้วยวิธีนี้เหมือนกัน"
+"เหอะ เป็นฉันก็คงจะแกล้งรับน้องใหม่แบบนี้เหมือนกัน"
 
 # "At the very least, I'm sure Emi and Rin made a bet on whether or not I'd actually show up."
-"อย่างน้อยสิ่งที่ฉันรู้สึกมั่นใจได้ ก็มีเรื่องที่ว่าเอมิกับรินต้องวางพนันกันไว้แล้วว่าฉันจะโผล่ตัวไปจริง ๆ หรือเปล่า"
+"แต่อย่างน้อยฉันก็มั่นใจว่าเอมิกับรินพนันกันว่าฉันจะโผล่ไปจริง ๆ หรือเปล่า"
 
 scene bg school_track
 with locationchange
@@ -75,7 +75,7 @@ show emi basic_closedhappy_gym
 with charachange
 
 # emi "Damn. You've got me there."
-emi "แย่จริง โดนนายจับได้ซะแล้ว"
+emi "แย่จริง โดนจับได้ซะแล้ว"
 
 # "Emi is sitting on the bleachers, decked out in her running gear, waiting somewhat patiently for me."
 "เอมิกำลังนั่งรอฉันอย่างอดทนอยู่บนสแตนด์เชียร์ในสภาพเตรียมพร้อมอย่างเต็มที่"
@@ -87,13 +87,13 @@ show emi basic_grin_gym
 with charachange
 
 # emi "Nah, I'd never make someone get up early for nothing."
-emi "ไม่ล่ะ ฉันไม่มีทางบอกให้ใครต้องลุกขึ้นมาแต่เช้าโดยไม่มีเหตุผลหรอก"
+emi "ไม่ละ ฉันไม่มีทางบอกให้ใครตื่นแต่เช้ามาโดยไม่มีเหตุผลหรอก"
 
 show emi excited_proud_gym
 with charachange
 
 # emi "Plus, Rin owes me 500 yen now. She didn't think you'd actually show up."
-emi "แล้วอีกอย่าง ตอนนี้รินติดเงินฉันอยู่ 500 เยนแล้วเพราะเธอคิดว่านายจะไม่มา"
+emi "แล้วอีกอย่าง ตอนนี้รินติดเงินฉันอยู่ 500 เยนแล้วเพราะรินคิดว่านายจะไม่มา"
 
 # "I knew it!"
 "ว่าแล้วเชียว!"
@@ -116,7 +116,7 @@ with Dissolve(0.05)
 "พอเห็นอย่างนั้นแล้วถึงได้รู้สึกว่าตัวเธออ่อนมากเสียจนเหมือนกับเป็นนักเต้น"
 
 # "I set out to stretch as well, but then realize that I don't exactly remember how to stretch properly."
-"ฉันตั้งท่าจะทำตามบ้าง แต่ก็จำวิธียืดเส้นยืดสายแบบถูกวิธีไม่ค่อยได้แล้ว"
+"ฉันตั้งท่าจะทำตามบ้าง แต่ก็จำท่ายืดเส้นยืดสายแบบถูกวิธีไม่ค่อยได้แล้ว"
 
 # "It's been ages since I stretched for anything, if you don't count my one stint at running last week."
 "คงเพราะไม่ได้ออกกำลังกายมานานแล้วก็เลยไม่คิดว่าจำเป็นต้องทำ ถ้าไม่นับตอนเมื่อสัปดาห์ก่อนน่ะนะ"
@@ -128,7 +128,7 @@ with Dissolve(0.05)
 "เจ้ากรรมนายเวรจากช่วงที่อยู่ในโรงพยาบาลเริ่มตามทันแล้วสิ"
 
 # "I can't say I was all that active before the hospital stay, though, so maybe I'm just being morose."
-"จะบอกว่าตัวเองเป็นพวกชอบเคลื่อนไหวร่างกายตั้งแต่ก่อนจะถูกหามเข้าโรงพยาบาลก็คงไม่ได้เหมือนกัน\nบางทีตอนนี้ฉันก็แค่อารมณ์ไม่ดีเฉย ๆ"
+"จะบอกว่าตัวเองเป็นพวกชอบเคลื่อนไหวร่างกายตั้งแต่ก่อนจะถูกหามเข้าโรงพยาบาลก็คงไม่ได้เหมือนกัน\nตอนนี้ฉันอาจจะแค่อารมณ์เสียเฉย ๆ แหละ"
 
 show emi basic_closedgrin_gym at center
 with charachange
@@ -140,10 +140,10 @@ show emi basic_grin_gym
 with charachange
 
 # emi "No no no Hisao, you've got to hold it for longer than that!"
-emi "ไม่ใช่แบบนั้นสิ ฮิซาโอะ นายต้องค้างท่านั้นไว้นานกว่านี้นะ!"
+emi "ไม่ใช่แบบนั้นสิฮิซาโอะ นายต้องค้างท่านั้นไว้นานกว่านี้นะ!"
 
 # hi "I'm trying! It kinda hurts a little."
-hi "พยายามอยู่! แต่มันเจ็บนิด ๆ นี่นา"
+hi "พยายามอยู่! ชักเจ็บแล้วแฮะ"
 
 show emi excited_proud_gym
 with charachange
@@ -158,10 +158,10 @@ with charamoveoutbottom
 "เอมิก้มลงไปแล้วเอาหัวลอดหว่างขาตัวเองให้ดูเป็นตัวอย่าง"
 
 # "God bless you, Emi."
-"คุณพระช่วยเธอเถอะ เอมิ"
+"คุณพระช่วยเธอเถอะเอมิ"
 
 # hi "I see. Is that the sort of thing I should strive for?"
-hi "อะไรแบบนั้นคือเป้าหมายที่ฉันควรจะบรรลุให้ได้เหรอ?"
+hi "อะไรแบบนั้นคือเป้าหมายที่ฉันควรจะบรรลุให้ได้เหรอ"
 
 show emi basic_closedgrin_gym
 with charamoveinbottom
@@ -170,37 +170,37 @@ with charamoveinbottom
 emi "แหงสิ! ความยืดหยุ่นของร่างกายน่ะสำคัญต่อการเป็นนักวิ่งมากนะ เพราะยิ่งร่างกายยืดหยุ่นมากเท่าไหร่\nก็ยิ่งวิ่งได้เร็วมากขึ้นเท่านั้น"
 
 # "That makes no sense to me, but Emi seems to believe it's true."
-"ฟังดูไม่เมคเซ้นส์เลยสักนิด แต่เอมิดูจะเชื่อความคิดนั้นเอามาก"
+"ไม่เห็นจะสมเหตุสมผลตรงไหน แต่เอมิดูจะเชื่อความคิดนั้นเอามาก ๆ"
 
 # "With Emi's help, I manage to stretch myself out properly."
-"หลังจากนั้นฉันก็สามารถยืดเส้นยืดสายได้อย่างถูกต้องจนสำเร็จด้วยความช่วยเหลือจากเอมิ"
+"หลังจากนั้นฉันก็ยืดเส้นยืดสายได้อย่างถูกต้องจนสำเร็จด้วยความช่วยเหลือจากเอมิ"
 
 show emi basic_grin_gym
 with charachange
 
 # "I can't help but notice that when she thinks about how to explain things to me, her mouth scrunches up in concentration."
-"ฉันอดไม่ได้ที่จะสังเกตเห็นว่าเอมิชอบเม้มปากขึ้นเวลาที่กำลังตั้งใจคิดหาวิธีที่จะอธิบายอะไรสักอย่างให้ฉันเข้าใจ"
+"ฉันอดไม่ได้ที่จะสังเกตเห็นว่าเอมิชอบเม้มปากขึ้นเวลาคิดว่าจะอธิบายอะไรให้ฉันเข้าใจยังไงดี"
 
 # "It's adorable."
-"ดูน่ารักดี"
+"ซึ่งน่ารักดี"
 
 show emi excited_proud_gym
 with charachange
 
 # emi "Not bad, Hisao. Come on, we'd better start running."
-emi "ไม่เลวเลยนี่นา ฮิซาโอะ งั้นเดี๋ยวเรามาเริ่มวิ่งกันเลยดีกว่า"
+emi "ไม่เลวเลยนี่ฮิซาโอะ งั้นเดี๋ยวเรามาเริ่มวิ่งกันเลยดีกว่า"
 
 show emi excited_happy_gym
 with charachange
 
 # emi "We'll start off with just a mile, okay?"
-emi "เริ่มด้วยระยะทางสักไมล์นึงก่อนเป็นไง?"
+emi "เริ่มด้วยระยะทางสักพันหกร้อยเมตรก่อนเป็นไง"
 
 show emi basic_happy_gym
 with charachange
 
 # emi "That's four laps around the track, got it?"
-emi "หรือก็คือประมาณสี่รอบสนามวิ่ง ไหวมั้ย?"
+emi "หรือก็คือประมาณสี่รอบลู่วิ่ง ไหวมั้ย"
 
 # hi "That sounds fine to me."
 hi "ไหว"
@@ -213,13 +213,13 @@ with None
 stop music fadeout 2.0
 
 # "This shouldn't be too hard, right?"
-"คงจะไม่ยากเกินไปหรอกใช่มั้ยนะ?"
+"คงจะไม่ยากเกินไปหรอกใช่มั้ยนะ"
 
 scene bg school_track_on
 with locationchange
 
 # "A hazy memory of running a mile for gym class surfaces in my mind."
-"ฉันนึกย้อนกลับไปถึงประสบการณ์ที่แสนเลือนรางของการวิ่งในคาบพละศึกษาจากในอดีต"
+"ฉันนึกย้อนกลับไปถึงประสบการณ์ที่แสนเลือนรางของการวิ่งสี่รอบลู่วิ่งในคาบพละศึกษาจากในอดีต"
 
 # "Yeah, it wasn't that bad."
 "อืม ก็ไม่ได้แย่ขนาดนั้น"
@@ -234,7 +234,7 @@ $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 play ambient sfx_emijogging fadein 1.0
 
 # "Emi sets a pretty good pace, and I fall in behind her."
-"เอมิออกวิ่งนำ ส่วนฉันก็ตามหลังเธอไป"
+"เอมิรักษาเพซการวิ่งได้ดีพอสมควร ส่วนฉันก็ตามหลังเธออยู่"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
@@ -242,7 +242,7 @@ show emi basic_grin_gym at left
 with charamoveinleft
 
 # emi "Try to keep up, okay Hisao?"
-emi "พยายามตามให้ทันนะ โอเคมั้ย ฮิซาโอะ?"
+emi "คอยตามให้ทันนะ โอเคมั้ยฮิซาโอะ"
 
 # hi "Roger."
 hi "รับทราบ"
@@ -253,7 +253,7 @@ hide emi
 with charamoveoutleft
 
 # "We round the first curve without incident, though I can already feel my heart rate increasing slightly."
-"โค้งแรกของสนามผ่านไปได้ด้วยดี แม้ว่าฉันจะเริ่มรู้สึกได้แล้วว่าหัวใจของตัวเองกำลังเต้นเร็วขึ้น"
+"โค้งแรกผ่านไปได้ด้วยดี แม้ฉันจะเริ่มรู้สึกได้แล้วว่าหัวใจของตัวเองค่อย ๆ เต้นเร็วขึ้น"
 
 # "By the second curve, I've started to breathe through my mouth."
 "เมื่อถึงโค้งที่สอง ฉันก็เริ่มหอบหายใจทางปาก"
@@ -262,7 +262,7 @@ with charamoveoutleft
 "ส่วนเอมินั้นแม้แต่เหงื่อสักหยดก็ยังไม่เห็น"
 
 # "As if to punctuate her superiority, she turns around and starts running backwards."
-"เธอหันกลับมาแล้วเริ่มวิ่งถอยหลังราวกับจะแสดงให้เห็นถึงความต่างระหว่างเรา"
+"เธอหันกลับมาแล้วเริ่มวิ่งถอยหลังราวกับจะแสดงให้เห็นถึงความเหนือกว่าของตัวเอง"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
@@ -270,25 +270,25 @@ show emi basic_closedgrin_gym at center
 with charaenter
 
 # emi "Are you doing okay, Hisao?"
-emi "ไหวรึเปล่าเนี่ย ฮิซาโอะ?"
+emi "ไหวรึเปล่าเนี่ยฮิซาโอะ"
 
 # hi "Never… better."
-hi "ไหว… ชิว…"
+hi "ซำ… บาย…"
 
 show emi excited_proud_gym
 with charachange
 
 # emi "Oh really? Maybe I should speed up then, hmm?"
-emi "จริงเหรอ? ถ้าอย่างนั้นฉันจะเร่งความเร็วขึ้นอีกหน่อยดีมั้ยนะ หืม?"
+emi "จริงเหรอ งั้นฉันก็ต้องเร่งฝีเท้าขึ้นสินะ หืม"
 
 # hi "Oh… no, …wouldn't want you…"
 hi "อย่า… เลย… ไม่อยากให้เธอ…"
 
 # hi "…to… overex…ert yourself."
-hit "…ฝืน… ตัวเอง… เกิน…ไป"
+hit "…ฝืน… ตัวเอง… เกินไป"
 
 # "My heavy panting and wheezing makes the statement less convincing than I had hoped. Emi simply smiles and turns around again."
-"เสียงหอบหายอันใจหนักหน่วงและแหลมสูงทำให้คำพูดของฉันฟังดูไม่น่าเชื่อถือเท่าที่หวังไว้ แต่เอมิก็แค่ส่งยิ้มให้แล้วหันกลับไปตามเดิม"
+"เสียงหอบหายอันใจหนักหน่วงและแหลมสูงทำให้คำพูดของฉันฟังดูไม่น่าเชื่อถือเท่าที่หวังไว้ แต่เอมิก็แค่ส่งยิ้มให้\nแล้วหันกลับไปตามเดิม"
 
 show emi excited_proud_gym at left
 with charamove
@@ -302,19 +302,19 @@ hide emi
 with easeoutleft
 
 # "I get the feeling that I'm being mocked."
-"ฉันรู้สึกเหมือนตัวเองกำลังถูกล้ออยู่"
+"เหมือนโดนล้ออยู่ชอบกล"
 
 # "If I weren't in such terrible shape, I'd probably feel offended."
-"ถ้าไม่ใช่เพราะว่าตัวเองกำลังอยู่ในสภาพที่ดูไม่ได้อย่างนี้ก็คงรู้สึกโมโหไปแล้ว"
+"ถ้าไม่ได้อยู่ในสภาพที่ดูไม่ได้อย่างนี้ก็คงโมโหไปแล้ว"
 
 # "By the third lap, my breath is coming in ragged gasps."
-"พอถึงรอบที่สาม จังหวะการหอบหายใจของฉันก็ยิ่งยุ่งเหยิงขึ้นไปอีก"
+"พอถึงรอบที่สามจังหวะการหอบหายใจของฉันก็ยิ่งเพี้ยนไปใหญ่"
 
 # "I'm also awash in my own sweat. Gross."
 "แถมยังเหงื่อโชกจนรู้สึกตัวเหนียวเหนอะหนะ"
 
 # "We round the curve to start our fourth lap, and Emi looks back at me with a grin."
-"พอเราวิ่งเข้าโค้งสุดท้ายเพื่อเริ่มรอบที่สี่ เอมิก็มองกลับมาหาฉันพร้อมรอยยิ้มกว้าง"
+"พอเราวิ่งเข้าโค้งสุดท้ายเพื่อเริ่มรอบที่สี่ เอมิก็มองกลับมาหาฉันพร้อมยิ้มกว้าง"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
@@ -332,13 +332,13 @@ with easeoutleft
 $ renpy.music.set_volume(0.3, 0.5, channel="ambient")
 
 # "She takes off at blinding speed while I stubbornly stick to my slower pace."
-"เธอพุ่งทะยานออกไปด้วยความเร็วราวกับติดจรวดใขณะที่ฉันยังคงความเร็วไว้เท่าเดิม"
+"เธอพุ่งทะยานออกไปด้วยความเร็วราวกับติดจรวดในขณะที่ฉันยังคงความเร็วไว้เท่าเดิม"
 
 # "By the time I get to the first turn, she's already rounding the second."
-"ตอนที่ฉันเพิ่งไปถึงโค้งแรก เธอก็วิ่งเข้าโค้งที่สองไปแล้ว"
+"ตอนที่ฉันเพิ่งไปถึงโค้งแรก เอมิก็วิ่งเข้าโค้งที่สองไปแล้ว"
 
 # "As I struggle across the back stretch, Emi continues running and catches up to me."
-"ในตอนที่ฉันกำลังพยายามอย่างหนักที่จะวิ่งผ่านครึ่งหลังไปให้ได้ เอมิก็วิ่งต่อไปจนวนรอบสนามตามกลับมาหาฉันได้แล้ว"
+"ตอนที่ฉันกำลังพยายามพาตัวเองไปให้พ้นจากลู่ส่วนที่อยู่อีกฟากกับเส้นชัยนั้นเอมิก็ตามมา"
 
 play ambient sfx_emijogging
 
@@ -359,13 +359,13 @@ with charamoveoutleft
 "ฉันอยากตอบกลับไป แต่แค่จะหายใจให้ทันกับทนความเจ็บปวดของกล้ามเนื้อขาที่กำลังร้อนผ่าวให้ได้ก็เต็มกลืนแล้ว"
 
 # "Part of me wants to say something like “Maybe {b}you{/b} can, but I'm about to die here.”"
-"ใจนึงก็อยากสวนกลับไปว่า “{b}เธอ{/b}น่ะอาจทำได้ ส่วนฉันจะตายแล้วเนี่ย” อะไรแบบนี้อยู่เหมือนกัน"
+"ใจหนึ่งก็อยากสวนกลับไปว่า “{b}เธอ{/b}น่ะอาจทำได้ ส่วนฉันจะตายแล้วเนี่ย” อะไรแบบนี้อยู่เหมือนกัน"
 
 # "But again, I doubt I can actually form words right now."
-"สุดท้ายทำได้แค่คิด แต่ตอนนี้จะพูดออกมาเป็นภาษาให้ได้สักคำยังจะไม่ไหวเลย"
+"แต่ก็นะ ตอนนี้จะพูดออกมาเป็นภาษาให้ได้สักคำยังจะไม่ไหวเลย"
 
 # "Emi keeps pace with me as I round the second turn and cross the finish line."
-"เอมิวิ่งเลี้ยวเข้าโค้งที่สองพร้อมกับฉันแล้วเราก็ผ่านเข้าเส้นชัยไป"
+"เอมิวิ่งเลี้ยวเข้าโค้งที่สองพร้อมผ่อนฝีเท้าให้เท่ากับฉันแล้วเราก็ผ่านเข้าเส้นชัยไป"
 
 stop ambient fadeout 1.5
 
@@ -378,13 +378,13 @@ show emi basic_happy_gym
 with locationchange
 
 # "Her sprint seems to have gotten her sweating."
-"ดูเหมือนว่าการวิ่งเต็มฝีเท้าเมื่อกี้จะพอทำให้เธอเสียเหงื่อได้"
+"ดูเหมือนว่าการวิ่งเต็มฝีเท้าเมื่อกี้พอจะทำให้เธอเสียเหงื่อได้"
 
 # "It's actually caused her shirt to turn slightly translucent. It seems she wears a black sports bra."
-"ส่งผลให้เสื้อที่สวมอยู่โปร่งแสงขึ้นเล็กน้อยจนสามารถเห็นสปอร์ตบราสีดำที่เธอสวมอยู่ข้างใต้"
+"ส่งผลให้เสื้อที่สวมอยู่โปร่งขึ้นเล็กน้อยจนเห็นสปอร์ตบราสีดำที่เธอสวมอยู่"
 
 # "I feel a vague stab of guilt for being the sort of guy who stares at a girl's chest, but my legs and chest are burning so badly I can't bring myself to care that much."
-"ฉันรู้สึกผิดนิด ๆ ที่เผลอไปมองเข้า แต่ความเจ็บปวดจากขากับหน้าอกที่ร้อนราวกับไหม้ก็กินพื้นที่ในสมองไปเกือบหมด\nจนไม่เหลือที่ให้ความรู้สึกผิดแล้ว"
+"ฉันรู้สึกผิดนิด ๆ ที่เผลอไปมองเข้า แต่ความเจ็บปวดจากขากับหน้าอกที่ร้อนราวไฟสุมก็กินพื้นที่ในสมองไปเกือบหมด\nจนไม่เหลือที่ให้ความรู้สึกผิดแล้ว"
 
 show emi excited_proud_gym
 with charachange
@@ -395,7 +395,7 @@ emi "ถึงจะเป็นครั้งแรกแต่ก็ทำไ
 play music music_happiness fadein 0.5
 
 # hi "Ki— …kind of you… to say… so."
-hi "ขะ- …ขอบคุณ ที่ชม…"
+hi "ขะ …ขอบคุณ… ที่… ชม"
 
 # "Emi seems to be, if not out of breath, at least breathing a little more heavily than she was before we started running."
 "เอมิหายใจแรงขึ้น แม้ว่าจะไม่ถึงกับเหนื่อยหอบ แต่อย่างน้อยก็หายใจแรงกว่าตอนก่อนที่เราจะเริ่มวิ่ง"
@@ -407,13 +407,13 @@ show emi basic_grin_gym
 with charachange
 
 # emi "Hey, I've got to get a few sprints in. You should walk around the track to cool down."
-emi "ฉันขอไปวิ่งต่ออีกหน่อย ส่วนนายก็เดินรอบสนามเพื่อคูลดาวน์เถอะ"
+emi "ฉันขอไปวิ่งต่ออีกหน่อย ส่วนนายก็ไปเดินรอบสนามเป็นการคูลดาวน์เถอะ"
 
 # emi "Then we can stretch out, and we'll be all done, okay?"
-emi "หลังจากนั้นเราค่อยยืดเส้นยืดสายกันอีกรอบก่อนจบ โอเคมั้ย?"
+emi "จากนั้นค่อยมายืดเส้นยืดสายกันอีกรอบก่อนจบ โอเคมั้ย"
 
 # hi "Sounds great."
-hi "ฟังดูดี"
+hi "ได้เลย"
 
 # "My legs are on fire, and my breathing is still heavy, but surprisingly my heart seems to be taking the strain well."
 "ขาทั้งสองยังร้อนจนเหมือนโดนไฟไหม้ ลมหายใจก็ยังไม่กลับมาเป็นปกติ แต่ดูเหมือนว่าหัวใจของฉันจะยังทนไหว"
@@ -425,7 +425,7 @@ show emi basic_closedhappy_gym
 with charachange
 
 # emi "You should put your hands behind your head. It makes it easier to catch your breath."
-emi "ยกมือขึ้นแล้ววางไว้หลังศีรษะตัวเองสิ จะได้หายใจสะดวกขึ้น"
+emi "ยกมือขึ้นแล้ววางไว้ที่ท้ายทอยสิ จะได้หายใจสะดวกขึ้น"
 
 $ renpy.music.set_volume(0.3, 1.0, channel="ambient")
 
@@ -435,7 +435,7 @@ hide emi
 with charamoveoutleft
 
 # "Surprisingly, she's right. I begin to stroll around the track, happy to feel my breath coming back to me."
-"น่าแปลกใจที่เธอพูดถูก ฉันเริ่มเดินทอดน่องไปรอบสนามวิ่ง รู้สึกดีที่ลมหายใจค่อย ๆ กลับมาเป็นปกติ"
+"คำแนะนำของเอมิได้ผลอย่างน่าประหลาด ฉันเริ่มเดินทอดน่องไปรอบสนามวิ่งด้วยความรู้สึกดีที่ลมหายใจค่อย ๆ\nกลับมาเป็นปกติ"
 
 $ renpy.music.set_volume(1.0, 0.5, channel="ambient")
 
@@ -451,23 +451,23 @@ hide emi
 with None
 
 # "There's a blur as Emi sprints by me."
-"ส่วนเอมิก็กลายเป็นภาพเบลอในตอนที่วิ่งผ่านฉันไป"
+"เอมิวิ่งผ่านฉันไปจนเห็นเป็นภาพเบลอ"
 
 # "Watching her run is absolutely fascinating."
 "การได้เห็นเอมิวิ่งนั้นเป็นอะไรที่น่าทึ่งมากจริง ๆ"
 
 # "It's not just because she's on prosthetics, though that is interesting."
-"ไม่ใช่เพราะว่าเธอวิ่งโดยสวมขาเทียม แม้ว่าเรื่องนั้นจะน่าสนใจอยู่เหมือนกัน"
+"ไม่ใช่เพราะว่าเธอวิ่งโดยสวมขาเทียมหรอก แต่ตรงนั้นก็น่าสนใจเหมือนกัน"
 
 show ev emi_run_face_zoomin
 show ev emi_run_face as unlockstub behind ev
 with dissolve
 
 # "The really interesting thing is the way her face changes."
-"แต่ก็ไม่เท่ากับการที่สีหน้าของเธอได้เปลี่ยนไปโดยสิ้นเชิง"
+"ทว่ายังไม่เท่ากับการที่สีหน้าของเธอเปลี่ยนไป"
 
 # "I can only catch glimpses of it as she runs by, but her eyes seem to come alive with a sort of fierce joy."
-"ฉันทันสังเกตเห็นสิ่งนั้นได้เพียงแวบเดียวในตอนที่เธอวิ่งผ่านไป แต่แววตาของเธอมันเหมือนเต็มไปด้วยพลังชีวิตและความสนุกสนาน"
+"ฉันทันสังเกตเห็นสิ่งนั้นได้เพียงแวบเดียวในตอนที่เธอวิ่งผ่านไป เห็นแววตาของเธอที่เปี่ยมไปด้วยพลังความสุข"
 
 # "It's as if there's nothing else in the world but her and the track."
 "ราวกับทุกสิ่งบนโลกปลาสนาการไปสิ้น และเหลือเพียงเธอกับสนามวิ่ง"
@@ -480,16 +480,16 @@ scene bg school_track_on
 with locationchange
 
 # "By the time I've gotten to the final stretch, Emi seems to have finished her sprinting."
-"ในตอนที่ฉันเดินไปจนถึงช่วงสุดท้ายของสนาม เอมิก็ดูเหมือนจะวิ่งเสร็จแล้ว"
+"พอฉันเดินมาถึงช่วงก่อนเข้าเส้นชัยเอมิก็เหมือนจะวิ่งเสร็จแล้ว"
 
 # "She's breathing heavily now, but she's wearing a satisfied grin on her face. She waves to me cheerily as I near her."
-"เธอกำลังหอบหายใจอยู่ แต่บนใบหน้ากลับประดับไปด้วยรอยยิ้มกว้างอย่างพึงพอใจ แล้วเธอก็โบกมือมาทางฉันในตอนที่เดินเข้าไปหาใกล้ ๆ"
+"เอมิหอบหนัก แต่ใบหน้ากลับประดับด้วยรอยยิ้มกว้างอย่างพึงพอใจ เธอโบกมือให้ตอนที่ฉันเดินไปหา"
 
 show emi basic_grin_gym at center
 with charaenter
 
 # emi "Feeling better, right?"
-emi "รู้สึกดีขึ้นแล้วใช่มั้ย?"
+emi "รู้สึกดีขึ้นแล้วใช่มั้ย"
 
 # hi "Actually, yeah."
 hi "อืม ดีขึ้นแล้ว"
@@ -498,40 +498,40 @@ show emi sad_grin_gym
 with charachange
 
 # emi "D'you want to take another lap around with me? I've got to cool down too, you know."
-emi "มาเดินรอบสนามอีกรอบเป็นเพื่อนฉันมั้ย? ฉันเองต้องคูลดาวน์เหมือนกันน่ะ"
+emi "มาเดินรอบสนามอีกรอบเป็นเพื่อนฉันมั้ย ฉันก็ต้องคูลดาวน์เหมือนกัน"
 
 # "Part of me would rather sit down, and not move, but something tells me that would be a bad idea."
-"ใจนึงฉันก็อยากจะแค่ลงไปนั่งนิ่ง ๆ แต่บางอย่างกลับบอกฉันว่านั่นไม่ใช่ความคิดที่ดี"
+"ใจหนึ่งฉันก็อยากนั่งอยู่เฉย ๆ แต่อะไรบางอย่างบอกฉันว่านั่งไม่ได้แน่"
 
 # "Besides, if I sit down, there may be no getting back up again."
-"ราวกับว่าหากนั่งลงไปแล้ว ฉันจะไม่สามารถลุกขึ้นมาได้อีก"
+"ราวกับว่าถ้านั่งแล้วจะลุกขึ้นไม่ได้อีก"
 
 # hi "Sure, why not?"
 hi "ได้สิ"
 
 # "Emi's got her hands behind her head now as well, which makes her seem very relaxed."
-"เอมิยกมือขึ้นวางไว้หลังศีรษะตัวเองแล้วเช่นเดียวกัน ทำให้เธอดูผ่อนคลายมาก"
+"เอมิยกมือขึ้นวางไว้ที่ท้ายทอยด้วย ซึ่งทำให้ดูผ่อนคลายมาก"
 
 # "The positioning of her arms also pulls her shirt upwards ever-so-slightly so that I can see a small strip of her belly."
-"ท่าทางแบบนั้นทำให้เสื้อของเธอถูกดึงขึ้นเพียงเล็กน้อยแต่ก็พอให้เห็นหน้าท้องของเธอได้นิดหน่อย"
+"แขนของเอมิที่ยกขึ้นรั้งเสื้อขึ้นแบบเหลื่อม ๆ ให้เห็นหน้าท้องอยู่เล็กน้อย"
 
 # "I do my best to act the gentleman and not look, but the contrast of her skin against her red running shorts is rather arresting."
-"ฉันพยายามทำตัวเป็นสุภาพบุรุษให้มากที่สุดเท่าที่จะทำได้และพยายามไม่มอง แต่ผิวเนื้อเรียบเนียนที่ตัดกับกางเกงวิ่งสีแดงที่เธอสวมอยู่ก็ช่างน่าดูชม"
+"ฉันพยายามทำตัวให้เป็นสุภาพบุรุษด้วยการไม่มอง แต่ผิวเนื้อเรียบเนียนที่ตัดกับกางเกงวิ่งสีแดงที่เธอสวมอยู่ก็ช่างน่าดูชม"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "So how do you feel, Hisao?"
-emi "แล้วนายรู้สึกยังไงบ้างล่ะ ฮิซาโอะ?"
+emi "แล้วนายรู้สึกยังไงบ้างล่ะฮิซาโอะ"
 
 # hi "Surprisingly good, actually. I'm sore and tired, but… surprisingly good."
-hi "ถึงจะยังปวดขาแล้วก็เหนื่อยอยู่… แต่ก็รู้สึกดีผิดคาดเลย"
+hi "ถึงจะยังปวดขาแล้วก็เหนื่อยอยู่ แต่ก็… รู้สึกดีผิดคาดเลย"
 
 # "As soon as I say it, I realize that it's true."
 "พอพูดออกไปแล้วถึงได้รู้สึกว่าเป็นอย่างนั้นจริง"
 
 # "Sure, part of me wants to lay down and die, but I feel like I've accomplished something."
-"ใจนึงก็รู้สึกอยากจะล้มลงไปนอนแล้วสิ้นชีพไปเดี๋ยวนั้นเลยเสียให้ได้ แต่อีกใจก็รู้สึกเหมือนตัวเองได้ประสบความสำเร็จในการทำอะไรสักอย่าง"
+"แน่ละว่าใจหนึ่งก็อยากจะล้มลงไปนอนสิ้นชีพเดี๋ยวนั้นเลยเสียให้ได้ แต่อีกใจก็รู้สึกเหมือนตัวเองได้ประสบความสำเร็จ\nในการทำอะไรสักอย่าง"
 
 # "It's almost like a glow throughout my body that persists despite the soreness."
 "ราวกับมีพลังงานบางอย่างปกคลุมอยู่ทั่วร่างกายแม้จะยังรู้สึกปวดร้าวอยู่ด้วยก็ตาม"
@@ -549,16 +549,16 @@ show emi basic_hes_gym
 with charachange
 
 # emi "Yeah, it has something to do with… adrenaline?"
-emi "อื้ม เหมือนจะเกี่ยวข้องกับ… สารอะดรีนาลีนมั้ง?"
+emi "อื้ม เหมือนจะเกี่ยวข้องกับ… สารอะดรีนาลีนมั้ง"
 
 # "Emi thinks for a moment as we walk, trying to remember."
-"เอมิพยายามนึกอยู่สักพักระหว่างที่เรากำลังเดินไปด้วยกัน"
+"เอมิเค้นสมองนึกอยู่สักพักระหว่างที่เรากำลังเดินไปด้วยกัน"
 
 show emi basic_closedgrin_gym
 with charachange
 
 # "Then she shrugs and grins at me."
-"แต่สุดท้ายเธอก็ยักไหล่แล้วหันมาส่งยิ้มให้ฉัน"
+"แต่สุดท้ายเอมิก็ยักไหล่แล้วหันมาส่งยิ้มให้"
 
 show emi basic_grin_gym
 with charachange
@@ -573,12 +573,11 @@ stop music fadeout 0.5
 play sound sfx_heartstop
 
 # emi "Better than sex, right?"
-emi "ดีกว่ามีเซ็กส์ซะอีก เนอะ?"
+emi "ดีกว่ามีอะไรกันเสียอีก เนอะ"
 
 # "I open my mouth to respond shortly before processing what she's just said."
 "ฉันอ้าปากค้างไว้เพื่อจะพูดตอบ แต่ผ่านไปพักหนึ่งสมองถึงจะประมวลผลสิ่งที่เธอเพิ่งพูดออกมาได้"
 
-# hi "…"
 hi "…"
 
 # "Emi watches my face for a few moments before bursting into laughter."
@@ -590,37 +589,37 @@ show emi excited_laugh_gym
 with charachange
 
 # emi "Sorry, sorry! I couldn't resist! You're just too easy!"
-emi "ขอโทษนะ ขอโทษ! แต่ฉันอดไม่ได้จริง ๆ! ก็นายน่าแกล้งเกินไปนี่นา!"
+emi "ขอโทษนะ ขอโทษ! พอดีอดใจไม่ไหว! ก็นายน่าแกล้งเกินไปนี่นา!"
 
 # hi "Why did I agree to run with you again?"
-hi "ทำไมฉันถึงยอมมาวิ่งกับเธอกันนะ?"
+hi "ทำไมฉันถึงยอมมาวิ่งกับเธอกันนะ"
 
 # "Emi just laughs harder. She takes a hold of my forearm and tilts it, allowing her to get a better view of my watch. Her face changes the moment she sees the time."
-"เอมิหัวเราะเสียงดังกว่าเก่า เธอจับปลายแขนของฉันแล้วเอียงมันเพื่อจะดูเวลาจากนาฬิกาข้อมือ ก่อนที่สีหน้าจะเปลี่ยนไปทันทีที่เห็นตัวเลขบนหน้าปัด"
+"เอมิหัวเราะเสียงดังกว่าเก่า เธอจับปลายแขนฉันบิดดูเวลาจากนาฬิกาข้อมือ ก่อนที่สีหน้าจะเปลี่ยนไปทันทีที่เห็น\nตัวเลขบนหน้าปัด"
 
 show emi basic_shock_gym
 with charachange
 
 # emi "Oh no! We'd better get a move on, Hisao!"
-emi "แย่แล้ว! เราต้องรีบแล้วล่ะ ฮิซาโอะ!"
+emi "แย่แล้ว! เราต้องรีบแล้วละฮิซาโอะ!"
 
 show emi basic_closedsweat_gym
 with charachange
 
 # emi "Class is in an hour, and I need to shower!"
-emi "อีกแค่ชั่วโมงเดียวก็จะเริ่มเรียนแล้ว และฉันก็ต้องอาบน้ำก่อนด้วย!"
+emi "อีกแค่ชั่วโมงเดียวก็จะเข้าเรียนแล้ว และฉันก็ต้องอาบน้ำก่อนด้วย!"
 
 # hi "I should probably do that as well…"
-hi "นั่นสินะ ฉันเองก็เหมือนกัน…"
+hi "นั่นสินะ ฉันเองก็คงต้องอาบด้วย…"
 
 show emi basic_hes_gym
 with charachange
 
 # emi "I need to see the nurse, too… maybe he'll write me a note for being late!"
-emi "แถมยังต้องไปหาคุณพยาบาลด้วยอีก… เดี๋ยวเขาคงเขียนโน้ตไว้ว่าฉันไปสายแน่เลย!"
+emi "แถมยังต้องไปหาคุณพยาบาลด้วยอีก… เดี๋ยวเขาต้องบันทึกว่าไปสายแน่เลย!"
 
 # hi "Why do you need to see the nurse?"
-hi "ทำไมต้องไปหาคุณพยาบาลด้วยล่ะ?"
+hi "ทำไมต้องไปหาคุณพยาบาลด้วยล่ะ"
 
 show emi basic_closedgrin_gym
 with charachange
@@ -632,28 +631,28 @@ show emi basic_grin_gym
 with charachange
 
 # emi "It's important to check for irritation."
-emi "ต้องเอาพวกนี้ไปตรวจสภาพน่ะ"
+emi "ต้องไปตรวจสภาพเผื่อมีการระคายเคืองน่ะ"
 
 # emi "You know, from sweat or friction, or anything."
-emi "เผื่อเหงื่อหรือเศษอะไรเข้าไปติดแล้วจะทำให้มันฝืดได้"
+emi "แบบว่าระคายจากเหงื่อ การเสียดสี หรืออะไรประมาณนั้น"
 
 show emi excited_amused_gym
 with charachange
 
 # emi "Normally I only go after practice, but if we're going to be doing these morning runs then I guess I'll see him twice a day."
-emi "ปกติฉันจะไปหาเขาเฉพาะหลังซ้อมเย็นเสร็จ แต่ถ้าเราจะเริ่มวิ่งตอนเช้าด้วยกันแบบนี้ก็คงต้องไปหาเขาสองครั้งต่อวันแล้วล่ะ"
+emi "ปกติฉันจะไปหาคุณพยาบาลเฉพาะหลังซ้อมน่ะ แต่ถ้าจะเริ่มวิ่งตอนเช้าด้วยกันแบบนี้ก็คงต้องไปหาวันละ\nสองครั้งแล้ว"
 
 # "Wait, so Emi has only started doing these runs since I showed up?"
-"เดี๋ยวสิ เอมิเองก็เพิ่งเริ่มวิ่งตอนเช้าแบบนี้เพราะว่าฉันเหรอ?"
+"เดี๋ยวสิ เอมิเองก็เพิ่งเริ่มวิ่งตอนเช้าแบบนี้เพราะฉันเหรอ"
 
 # hi "If it's more convenient for you to run with me at a later time…"
-hi "ถ้าไม่สะดวกเดี๋ยวเราวิ่งกันแค่ตอนเย็นก็ได้นะ"
+hi "ถ้าไม่สะดวกเดี๋ยวเราวิ่งกันแค่ตอนบ่าย ๆ ก็ได้นะ…"
 
 show emi sad_grin_gym
 with charachange
 
 # emi "Don't be silly! I've been meaning to start running in the morning for a while now."
-emi "ไม่เป็นไรหรอกน่า! ฉันเองก็คิดว่าจะเริ่มวิ่งตอนเช้าแบบนี้มาสักพักแล้ว"
+emi "ไม่เป็นไรหรอกน่า! ฉันเองก็กะจะเริ่มวิ่งตอนเช้าแบบนี้มาสักพักแล้ว"
 
 # emi "But if I didn't have a partner to run with, I'd be less likely to keep up a routine."
 emi "แต่ถ้าไม่มีคนมาวิ่งด้วยก็รู้สึกเหมือนจะไม่มีวินัยสักเท่าไหร่"
@@ -662,7 +661,7 @@ show emi basic_grin_gym
 with charachange
 
 # emi "It's always harder to blow off a commitment if you're going to let someone else down, you know?"
-emi "ถ้าได้ทำอะไรสักอย่างร่วมกับใครสักคนแล้วก็คงยากที่จะอยากทำให้คนนั้นต้องผิดหวังนี่ เนอะ?"
+emi "พอทำอะไรด้วยกันแล้ว ถ้าจะถอนตัวแล้วต้องทิ้งอีกคนไปแล้วก็จะหนักใจขึ้นเยอะเลย"
 
 show emi basic_closedgrin_gym
 with charachange
@@ -674,55 +673,55 @@ show emi excited_proud_gym
 with charachange
 
 # emi "We both need the exercise, so it all works out, don't you think?"
-emi "เราต้องออกกำลังกายกันทั้งคู่อยู่แล้ว เหมือนยิงปืนนัดเดียวได้นกสองตัวเลยว่ามั้ย?"
+emi "เราต้องออกกำลังกายกันทั้งคู่อยู่แล้ว เหมือนยิงปืนนัดเดียวได้นกสองตัวเลยว่ามั้ย"
 
 # hi "Yeah, perfect."
 hi "อืม สมบูรณ์แบบเลย"
 
 # "Did it have to be me, though?"
-"แต่ว่าคน ๆ นั้นจำเป็นจะต้องเป็นฉันด้วยเหรอ?"
+"แต่ว่าคนคนนั้นจำเป็นจะต้องเป็นฉันด้วยเหรอ?"
 
 # "Well, I guess I can't complain too much. Emi's pretty fun to hang out with."
-"ฉันเองก็คงบ่นมากไม่ได้ เอมินั้นเป็นคนที่อยู่ด้วยแล้วสนุกจริง ๆ"
+"แต่ก็คงว่าอะไรไม่ได้ละนะ เอมินั้นเป็นคนที่อยู่ด้วยแล้วสนุกจริง ๆ"
 
 # "And she's right. I do need the exercise. Doctor's orders, even."
-"และเธอก็พูดถูก ฉันจำเป็นต้องออกกำลังกาย ต่อให้ไม่ใช่เพราะใจตัวเองเต็มร้อยก็ยังถือว่าเป็นคำสั่งจากคุณพยาบาล"
+"และเธอก็พูดถูก ฉันจำเป็นต้องออกกำลังกาย หมอสั่งมาเลยด้วยซ้ำ"
 
 show emi basic_happy_gym
 with charachange
 
 # "Emi waves a quick goodbye to me."
-"เอมิโบกมือลาฉันเร็ว ๆ"
+"เอมิโบกมือลาฉันหย็อย ๆ"
 
 # emi "Right, I'm off! Come have lunch with us, okay?"
-emi "งั้นฉันไปก่อนนะ! แล้วเที่ยงนี้ก็มากินข้าวด้วยกันนะ โอเคมั้ย?"
+emi "งั้นฉันไปก่อนนะ! แล้วก็มากินข้าวเที่ยงด้วยกันนะ โอเคมั้ย"
 
 # hi "What?"
-hi "อะไรนะ?"
+hi "อะไร"
 
 show emi basic_closedhappy_gym
 with charachange
 
 # emi "Lunch! You know, the meal? In the middle of the day? Come have it with us!"
-emi "ข้าวเที่ยงไง! ที่เป็นมื้ออาหาร! อยู่ในเวลากลางวัน? มากินกับพวกเราสิ!"
+emi "ข้าวเที่ยงไง! ที่เป็นมื้ออาหาร? กินกันตอนเที่ยง? มากินกับพวกเราสิ!"
 
 # hi "Where?"
-hi "ที่ไหนล่ะ?"
+hi "ที่ไหน"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "The rooftop. Rin likes it up there."
-emi "บนดาดฟ้า รินชอบที่นั่น"
+emi "บนดาดฟ้า รินชอบอยู่ที่ดาดฟ้า"
 
 # hi "When?"
-hi "ตอนไหน?"
+hi "เมื่อไหร่"
 
 show emi basic_annoyed_gym
 with charachange
 
 # emi "Lunchtime, when else? That was a silly question."
-emi "จะเป็นตอนไหนได้ล่ะ? ก็ต้องตอนพักเที่ยงน่ะสิ ถามอะไรแปลก ๆ"
+emi "จะเป็นตอนไหนได้ล่ะ ก็ต้องตอนพักเที่ยงน่ะสิ ถามอะไรแปลก ๆ"
 
 # hi "Yeah, but I sort of felt the need to ask all three for completeness' sake."
 hi "เปล่าหรอก แค่รู้สึกว่าควรจะถามให้ครบทั้งสามคำถามเพื่อความสมบูรณ์น่ะ"
@@ -737,7 +736,7 @@ show emi excited_happy_gym
 with charachange
 
 # emi "Not bad, Hisao. See ya!"
-emi "ไม่เลวเลยนี่นา ฮิซาโอะ แล้วเจอกันนะ!"
+emi "ใช้ได้นี่ฮิซาโอะ แล้วเจอกันนะ!"
 
 play ambient sfx_emisprinting
 
@@ -748,7 +747,7 @@ stop ambient fadeout 2.0
 stop music fadeout 8.0
 
 # "With that, she takes off like a shot for the school building."
-"แล้วเธอก็ทะยานจากไปยังอาคารของโรงเรียนราวกับธนูหลุดจากแล่ง"
+"แล้วเธอก็ทะยานไปที่อาคารเรียนราวกับลูกปืนหลุดจากแล่ง"
 
 # "I guess she's going to see the nurse first."
 "เดาว่าเจ้าตัวคงจะไปหาคุณพยาบาลก่อน"
@@ -757,7 +756,7 @@ scene bg school_dormbathroom
 with locationskip
 
 # "I hurry back to my room and hop in the shower, only to find that the water takes a while to heat up."
-"ฉันรีบกลับไปที่ห้องแล้วเดินเข้าไปอาบน้ำต่อโดยไม่รอช้า ถึงได้รู้ว่ากว่าน้ำจะอุ่นก็ต้องใช้เวลารอสักพัก"
+"ฉันรีบกลับไปที่ห้องแล้วเดินไปอาบน้ำต่อโดยไม่รอช้า ถึงได้รู้ว่ากว่าน้ำจะอุ่นก็ต้องใช้เวลารอสักพัก"
 
 play ambient sfx_shower
 with vpunch
@@ -775,10 +774,10 @@ with Dissolve(2.0)
 "น่าทึ่งดีที่หัวใจฉันแทบไม่เป็นอะไรเลยกับการวิ่ง"
 
 # "I suppose that's a good thing, even if it does make me feel like a bit of a wuss."
-"คงเป็นเรื่องที่ดี แม้จะนั่นจะทำให้ฉันรู้สึกเหมือนตัวเองเป็นพวกขี้กังวลเกินเหตุ"
+"ก็ดีแหละ แต่พอรู้ว่าจริง ๆ ก็ไม่เป็นไรแล้วรู้สึกเหมือนตัวเองเป็นพวกพะวงเกินเหตุไปหน่อย"
 
 # "I mean at least I'd have an excuse beyond “I am out of shape” if my heart were bothering me."
-"ก็ถ้าเกิดหัวใจเป็นอะไรขึ้นมาจริง ๆ อย่างน้อยก็จะได้อ้างอย่างอื่นนอกจากว่า “รู้สึกไม่ค่อยฟิตเท่าไหร่” แล้วไม่ต้องไปวิ่ง"
+"ก็ถ้าเกิดหัวใจเป็นอะไรขึ้นมาจริง ๆ อย่างน้อยก็จะได้อ้างอย่างอื่นนอกจากว่า “รู้สึกไม่ค่อยฟิตเท่าไหร่” แล้วไม่ต้อง\nไปวิ่ง"
 
 # "Guess I'll have to keep this running thing up, otherwise I'm sure Emi won't let me hear the end of it."
 "ฉันคงต้องมีวินัยในการไปวิ่งเข้าไว้ ไม่งั้นเดี๋ยวได้โดนเอมิบ่นจนหูชาแหง"
@@ -806,16 +805,16 @@ window show
 play sound sfx_normalbell
 
 # "The hands on the clock finally set me free from the tedium of yet another fun-filled class."
-"เข็มนาฬิกาที่คอยกำหนดเวลาในที่สุดก็ได้ปลดปล่อยฉันให้เป็นอิสระจากชั้นเรียนอันสนุกสนานแต่ก็แสนจะน่าเบื่อหน่ายนี้เสียที "
+"เข็มนาฬิกาที่คอยกำหนดเวลาในที่สุดก็ได้ปลดปล่อยฉันให้เป็นอิสระจากชั้นเรียนอันสนุกสนาน\nแต่ก็แสนจะน่าเบื่อหน่ายนี้เสียที "
 
 # "Getting up from my seat proves to be more of a problem than I anticipated."
 "เพียงแต่การจะลุกขึ้นจากเก้าอี้ให้ได้นั้นกลับเป็นปัญหากว่าที่คิด"
 
 # "My legs are killing me from the morning's run."
-"ขาของฉันยังคงปวดระบมจากการวิ่งในตอนเช้า"
+"ขาของฉันยังคงระบมจากการวิ่งในตอนเช้า"
 
 # "Maybe doing these with Emi isn't such a hot idea after all."
-"บางทีการออกไปวิ่งกับเอมิดูจะไม่ใช่ความคิดที่ดีสักเท่าไหร่"
+"ดูท่าว่าการออกไปวิ่งกับเอมิจะไม่ใช่ความคิดที่ดีสักเท่าไหร่"
 
 # "Still, the run's given me a hell of an appetite."
 "แต่ที่รู้สึกอยากอาหารขึ้นมาได้มากขนาดนี้ก็เป็นผลจากการวิ่งเหมือนกัน"
@@ -830,13 +829,13 @@ with locationchange
 "ฉันเดินมาได้ครึ่งทางแล้วถึงนึกขึ้นได้ว่ามีข้าวเที่ยงอยู่กับตัว"
 
 # "My parents saw fit to provide me with some prepackaged stuff when I moved in, and a good thing too."
-"เป็นของที่พ่อกับแม่คิดว่าจำเป็นเลยเตรียมไว้ให้ในตอนที่ย้ายมาอยู่ที่นี่ ซึ่งก็เป็นเรื่องที่ดี"
+"เป็นของที่พ่อแม่คิดว่าจำเป็นเลยเตรียมไว้ให้ตอนที่ย้ายมาอยู่ที่นี่ ซึ่งก็เป็นเรื่องที่ดี"
 
 # "The hallway is packed with students headed for the cafeteria."
 "โถงทางเดินเต็มไปด้วยเหล่านักเรียนที่กำลังมุ่งหน้าไปยังโรงอาหาร"
 
 # "Going back is like swimming upstream - but I've got an appointment to keep on the rooftop."
-"จะให้เดินสวนกระแสฝูงชนกลับไปก็ดูลำบาก - แต่ฉันก็มีนัดที่ต้องไปอยู่บนดาดฟ้า"
+"จะให้เดินสวนกระแสฝูงชนไปก็ดูลำบาก แต่ฉันก็มีนัดที่ต้องไปอยู่บนดาดฟ้า"
 
 stop ambient fadeout 4.0
 
@@ -844,10 +843,10 @@ scene bg school_staircase1
 with locationchange
 
 # "It takes me a moment to find the staircase leading up to the rooftop, but I'm willing to bet that Emi and Rin aren't up there by now anyway."
-"ฉันใช้เวลาอยู่พักหนึ่งในการตามหาบันไดเพื่อขึ้นไปบนดาดฟ้า แต่เชื่อว่ายังไงเอมิกับรินก็ยังไม่น่ามาถึงก่อนฉัน"
+"ฉันใช้เวลาอยู่พักหนึ่งในการตามหาบันไดเพื่อขึ้นไปบนดาดฟ้า แต่เชื่อว่ายังไงเอมิกับรินก็น่าจะยังไม่มาเหมือนกัน"
 
 # "In fact, I think I saw Emi among the bodies in the hallway headed for the cafeteria."
-"ที่จริงคือคิดว่าเห็นเอมิอยู่ในฝูงชนที่กำลังเดินไปโรงอาหารเลยด้วยซ้ำ"
+"อันที่จริง เหมือนเมื่อกี้เห็นเอมิอยู่กลางกลุ่มคนในโถงทางเดินที่มุ่งหน้าไปยังโรงอาหารด้วยซ้ำ"
 
 play sound sfx_door_creak
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
@@ -866,46 +865,46 @@ show rin basic_awayabsent at center
 with charaenter
 
 # rin "Maybe if I'm upside down…"
-rin "บางทีถ้าฉันลองกลับหัวดู…"
+rin "บางทีถ้าลองกลับหัวดู…"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="music")
 play music music_rin fadein 1.0
 
 # "Part of me wants to be surprised that Rin's already up here."
-"ใจนึงก็อยากรู้สึกตกใจอยู่นะที่เห็นรินขึ้นมาก่อนแล้ว"
+"ใจหนึ่งก็อยากตกใจอยู่นะที่เห็นรินขึ้นมาก่อนแล้ว"
 
 # hi "What's that going to accomplish?"
-hi "ทำแบบนั้นไปแล้วจะได้อะไรขึ้นมา?"
+hi "ทำแบบนั้นไปแล้วจะได้อะไรขึ้นมา"
 
 show rin basic_deadpan
 with charachange
 
 # rin "Things in the clouds."
-rin "จะได้เห็นสิ่งที่อยู่ในเมฆ"
+rin "สิ่งที่อยู่ในเมฆ"
 
 # hi "Couldn't you just… look at them right-side up?"
-hi "แล้วจะแค่… เงยขึ้นไปมองแบบปกติไม่ได้เหรอ?"
+hi "แค่… เงยขึ้นไปมองแบบปกติเอาไม่ได้เหรอ"
 
 show rin basic_deadpanupset
 with charachange
 
 # "Rin rolls her eyes in something approaching exasperation."
-"รินกลอกตาด้วยความขุ่นเคือง"
+"รินกลอกตาด้วยอารมณ์ละม้ายระอาใจ"
 
 # rin "Then I wouldn't get a new perspective."
 rin "งั้นฉันก็จะไม่ได้มุมมองแบบใหม่สิ"
 
 # hi "Is upside down really a new perspective?"
-hi "แค่การกลับหัวก็นับว่าเป็นมุมมองแบบใหม่แล้วเหรอ?"
+hi "แค่การกลับหัวก็นับว่าเป็นมุมมองแบบใหม่แล้วเหรอ"
 
 show rin basic_delight
 with charachange
 
 # "Ah ha! That caught her off guard. Rin looks pensive."
-"อา ฮ่า! ประโยคที่ไม่คาดคิดนั่นทำให้รินมีท่าทางครุ่นคิด"
+"ไงล่ะ! คาดไม่ถึงละสิ รินทำหน้าครุ่นคิด"
 
 # rin "You may have a point. Maybe sideways."
-rin "นายฟังดูมีเหตุผล งั้นก็อาจเป็นจากด้านข้าง"
+rin "ก็คงจะถูกของนาย งั้นก็อาจลองมองจากด้านข้าง"
 
 hide rin
 with charamoveoutbottom
@@ -923,13 +922,13 @@ with charaenter
 "โชคดีที่เอมิเลือกเวลาโผล่ออกมาจากประตูอย่างได้จังหวะพร้อมกับถุงทั้งสองที่ถือไว้ในมือ"
 
 # "She nearly takes the door off the hinges."
-"ตอนเปิดออกมาทำเอาบานประตูแทบหลุดออกจากกรอบ"
+"ตอนเปิดออกมาทำเอาบานประตูแทบหลุดจากบานพับ"
 
 show emi basic_hes
 with charachange
 
 # emi "Sorry it took me so long! There were a ton of people in line."
-emi "ขอโทษด้วยที่มาช้า! ที่นั่นมีคนต่อแถวยาวเต็มไปหมดเลย!"
+emi "ขอโทษด้วยที่มาช้า! ในโรงอาหารมีคนต่อแถวยาวเต็มไปหมดเลย!"
 
 show emi basic_grin
 with charachange
@@ -942,22 +941,22 @@ with charamove
 "เธอวางถุงแรกลงด้านหน้ารินก่อนจะนั่งลงข้าง ๆ บนม้านั่งตัวเดียวกัน"
 
 # hi "You buy Rin's lunch for her?"
-hi "เธอซื้อมื้อเที่ยงให้รินด้วยเหรอ?"
+hi "เธอซื้อข้าวเที่ยงให้รินด้วยเหรอ"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Sometimes, yeah. I'd have Rin buy my lunch for me in return, but I'm not sure how she'd carry it."
-emi "ซื้อให้เป็นบางครั้งน่ะ แล้วก็ให้รินซื้อให้คืน ถึงจะไม่รู้ว่าจะถือมายังไงก็เถอะ"
+emi "ซื้อให้เป็นบางครั้งน่ะ เดี๋ยวค่อยให้รินซื้อให้คืน ถึงจะไม่รู้ว่าจะถือมายังไงก็เถอะ"
 
 show rin basic_deadpan at tworight
 with charamoveinbottom
 
 # rin "Plus I'd never buy her lunch."
-rin "ฉันไม่มีทางซื้อมื้อเที่ยงให้เธอหรอก"
+rin "อีกอย่าง ฉันคงไม่ซื้อข้าวเที่ยงให้เอมิหรอก"
 
 # "If Rin's offended by Emi's comment, she doesn't show it. Emi sniffs."
-"รินไม่แสดงอาการ ส่วนเอมิทำท่าสะอื้น"
+"รินไม่แสดงอาการที่เอมิล้อ ส่วนเอมิทำท่าสะอื้น"
 
 show emi basic_annoyed
 with charachange
@@ -966,7 +965,7 @@ with charachange
 emi "อกตัญญูจริงนะเธอ"
 
 # "I'm not sure whether the two are joking with one another or if I'm witnessing the beginnings of a cat fight."
-"ฉันไม่แน่ใจแล้วว่าทั้งสองคนแค่กำลังล้อกันเล่นอยู่หรือว่าอีกเดี๋ยวจะทะเลาะกันจริง"
+"ฉันไม่แน่ใจแล้วว่าทั้งสองคนล้อกันเล่นเฉย ๆ หรือว่าอีกเดี๋ยวจะทะเลาะกันจริง"
 
 show emi basic_closedgrin
 show rin basic_amused
@@ -979,19 +978,19 @@ show rin basic_awayabsent
 with charachange
 
 # rin "Hey Emi, do you think being upside down is a new perspective on things?"
-rin "นี่ เอมิ คิดว่าการกลับหัวถือว่าเป็นมุมมองแบบใหม่ต่อสิ่งต่าง ๆ รึเปล่า?"
+rin "นี่ เอมิ คิดว่าการกลับหัวถือว่าเป็นมุมมองแบบใหม่ต่อสิ่งต่าง ๆ หรือเปล่า"
 
 # "Didn't I already have this conversation?"
-"ไม่ใช่ว่าเราคุยเรื่องนี้กันไปแล้วรึไง?"
+"ไม่ใช่ว่าเราคุยเรื่องนี้กันไปแล้วหรือไง"
 
 show emi basic_hes
 with charachange
 
 # "Emi looks thoughtful, apparently giving the question some thought."
-"เอมิมีท่าทางครุ่นคิดกับคำถามนั้นอย่างเห็นได้ชัด"
+"เอมิทำท่าทางครุ่นคิดกับคำถามนั้นอย่างเห็นได้ชัด"
 
 # "After a deep and profound pause, she speaks."
-"หลังจากนิ่งเงียบไปเพื่อใช้ความคิดอยู่สักพัก เธอจึงค่อยพูดออกมา"
+"หลังจากนิ่งเงียบไปเพื่อใช้ความคิดอยู่สักพักเอมิก็พูดออกมา"
 
 show emi basic_closedsweat
 with charachange
@@ -1000,7 +999,7 @@ with charachange
 emi "ไม่รู้สิ"
 
 # "Well, at least she's as lost as I am."
-"อย่างน้อยก็-(lost)-ไม่ต่างจากฉัน"
+"อืม อย่างน้อยก็งงพอกันกับฉันแหละ"
 
 stop music fadeout 4.0
 
@@ -1008,7 +1007,7 @@ show emi excited_happy
 with charachange
 
 # emi "Hey Hisao, you're coming to the track meet, right?"
-emi "นี่ ฮิซาโอะ นายก็จะมา track meet ด้วยใช่มั้ย?"
+emi "นี่ ฮิซาโอะ นายก็จะมาดูงานแข่งวิ่งด้วยใช่มั้ย"
 
 # "The question comes out of the blue and catches me off guard."
 "คำถามที่หลุดออกมาอย่างไม่มีปี่มีขลุ่ยนั้นทำให้ฉันไม่ทันตั้งตัว"
@@ -1021,13 +1020,13 @@ show emi sad_annoyed
 with charachange
 
 # emi "Honestly, Hisao, after I went through all the trouble of letting you run with me in the morning, you won't even show up at my track meet?"
-emi "จริง ๆ เลยนะ ฮิซาโอะ ฉันอุตส่าห์ลำบากตรากตรำยอมไปวิ่งกับนายในตอนเช้าแล้วแท้ ๆ แต่กลับจะไม่ยอมโผล่มาที่ track meet หน่อยเลยเหรอ?"
+emi "เอาตามตรงนะฮิซาโอะ ฉันอุตส่าห์ลำบากตรากตรำยอมไปวิ่งกับนายตอนเช้า แต่ใจคอจะไม่มาดูงานแข่งวิ่ง\nกันหน่อยเลยเหรอ"
 
 show rin basic_awayabsent
 with charachange
 
 # "Wasn't she the one that asked me to run with her?"
-"ไม่ใช่ว่าหล่อนเป็นคนชวนฉันไปวิ่งเองแต่แรกไม่ใช่รึไง?"
+"ไม่ใช่ว่าหล่อนเป็นคนชวนฉันไปวิ่งเองแต่แรกไม่ใช่หรือไง"
 
 # "Actually, she didn't even give me a choice in the matter."
 "แต่เรื่องนั้นเจ้าตัวเองก็ไม่ได้ให้ทางเลือกอะไรกับฉันด้วยซ้ำไป"
@@ -1048,23 +1047,23 @@ show emi basic_closedhappy
 with charachange
 
 # emi "So you will come after all! That's great!"
-emi "งั้นนายก็จะมาสินะ! ดีจังเลย!"
+emi "งั้นนายก็จะมาสินะ! ดีเลย!"
 
 # "I didn't say that either!"
-"ยังไม่ทันจะได้พูดแบบนั้นเหมือนกัน!"
+"ฉันก็ไม่ได้บอกว่าจะไปเหมือนกัน!"
 
 show rin basic_deadpan
 with charachange
 
 # rin "I'll be going too, so I'll make sure he comes, Emi."
-rin "ฉันจะไปเหมือนกัน เดี๋ยวจะทำให้แน่ใจว่าเขาจะมาเอง"
+rin "ฉันจะไปเหมือนกัน เดี๋ยวฉันจะลากฮิซาโอะมาให้ได้เลยเอมิ"
 
 show emi basic_grin
 show rin basic_absent
 with charachange
 
 # emi "Good idea, Rin! Maybe we can get some food or something after the meet's over?"
-emi "ความคิดเยี่ยมไปเลย ริน! งั้นหลังจาก -the meet- จบลงแล้วเราไปหาอะไรกินหรือหาอะไรทำด้วยกันดีมั้ย?"
+emi "ความคิดเยี่ยมไปเลยริน! งั้นเสร็จงานแล้วเราไปหาอะไรกินหรือหาอะไรทำด้วยกันดีมั้ย"
 
 # "I feel like I've just been conned, but not by these two."
 "ฉันรู้สึกเหมือนตัวเองกำลังถูกชักจูงอยู่ แต่ไม่ใช่ด้วยฝีมือของทั้งสองคนนี้"
@@ -1073,19 +1072,19 @@ emi "ความคิดเยี่ยมไปเลย ริน! งั้
 "แต่เหมือนกับมีพลังงานบางอย่างจากภายนอกที่กำลังผลักดันฉันให้มุ่งเข้าหาโชคชะตาที่ไม่อาจเลี่ยงนี้"
 
 # "…Or maybe I shouldn't read books that feature conspiracy theories so heavily. Otherwise I might wind up sounding like Kenji."
-"…หรือไม่อย่างนั้นฉันก็แค่อ่านหนังสือเกี่ยวกับทฤษฎีสมคบคิดมากเกินไปจนสมควรเลิกได้แล้ว เพราะเดี๋ยวจะกลายเป็นแบบเคนจิเอาได้"
+"…หรือฉันควรจะเลิกอ่านหนังสือที่มีเรื่องสมคบคิดสักที เพราะเดี๋ยวจะกลายเป็นแบบเคนจิเอาได้"
 
 # "Still, I suppose that I've got to show up now."
 "ก็นะ ตกลงไว้แล้วก็คงต้องไป"
 
 # "I don't think that I could stand against both of them being disappointed."
-"ฉันไม่คิดว่าตัวเองจะสามารถรับตัวเองที่จะต้องทำให้พวกเธอทั้งสองรู้สึกผิดหวังได้"
+"ฉันว่าฉันคงปล่อยให้สองคนนี้ผิดหวังไม่ได้หรอก"
 
 # "I'd never hear the end of it."
 "ไม่งั้นได้โดนบ่นจนหูชาแน่"
 
 # hi "When is it again?"
-hi "แล้วไปวันไหนนะ?"
+hi "แล้วไปวันไหนนะ"
 
 show emi basic_annoyed
 with charachange
@@ -1121,13 +1120,13 @@ show emi basic_confused
 with charachange
 
 # emi "It can do that?"
-emi "เกิดเรื่องแบบนั้นขึ้นได้ด้วยเหรอ?"
+emi "เวลามันบิดได้ด้วยเหรอ"
 
 show rin relaxed_nonchalant
 with charachange
 
 # "Rin gives a noncommittal shrug."
-"รินยักไหล่อย่างไม่ออกความเห็น"
+"รินยักไหล่ไม่ยี่หระ"
 
 show rin negative_spaciness
 with charachange
@@ -1154,34 +1153,34 @@ with charachange
 rin "เว้นแต่ว่าเธอจะเป็นนักท่องเวลาหรืออะไรสักอย่าง"
 
 # hi "You don't actually think that could happen, do you?"
-hi "นี่คงไม่ได้คิดกันจริง ๆ ใช่มั้ยว่าจะเกิดเรื่องแบบนั้นได้?"
+hi "นี่คงไม่ได้คิดกันจริง ๆ ใช่มั้ยว่าจะเกิดเรื่องแบบนั้นได้"
 
 show emi basic_confused
 with charachange
 
 # emi "I don't think we do… do we?"
-emi "ก็คงไม่… รึเปล่านะ?"
+emi "ก็คงไม่… รึเปล่านะ"
 
 show rin relaxed_nonchalant
 with charachange
 
 # "Rin shrugs again. That seems to be her default response to everything."
-"รินยักไหล่อีกครั้ง เหมือนนั่นจะเป็นท่าตอบสนองโดยอัตโนมัติต่อทุกสิ่งไปแล้ว"
+"รินยักไหล่อีกครั้ง เหมือนการยักไหล่จะเป็นท่าตอบสนองโดยอัตโนมัติต่อทุกสิ่งของรินไปแล้ว"
 
 show rin basic_deadpandelight
 with charachange
 
 # rin "I suppose not. But I reserve the right to change my opinion at a moment's notice."
-rin "ฉันคิดว่าไม่ แต่ขอเผื่อสิทธิในการเปลี่ยนแปลงความคิดเห็นของตัวเองไว้โดยไม่ต้องแจ้งเตือนล่วงหน้า"
+rin "ฉันคิดว่าไม่ แต่ฉันขอเผื่อสิทธิ์ในการเปลี่ยนแปลงความคิดเห็นของตัวเองโดยไม่ต้องแจ้งเตือนล่วงหน้าไว้"
 
 # "For Rin, this statement makes a disturbing amount of sense."
-"สำหรับรินแล้ว -this statement- นั้นฟังดูมีเหตุผลจนทำให้รู้สึกไม่สบายใจ"
+"ช่างเป็นประโยคจากปากรินที่ฟังดูสมเหตุสมผลอย่างน่าประหลาด"
 
 # "The fact that I realize this now frightens me a bit."
-"ตัวฉันเองที่เพิ่งจะรู้ตัวก็รู้สึกกลัวขึ้นมานิดหน่อย"
+"ฉันขนลุกขึ้นมาเมื่อรู้ตัวว่าเพิ่งฉุกคิดขึ้นได้แบบนั้น"
 
 # "I wonder if Emi gets this feeling all the time."
-"น่าสงสัยว่าเอมิจะรู้สึกแบบนี้อยู่ตลอดเวลาหรือเปล่า"
+"เอมิจะรู้สึกแบบนี้อยู่ตลอดเลยหรือเปล่านะ"
 
 show emi basic_closedgrin
 with charachange
@@ -1193,13 +1192,13 @@ show emi basic_grin
 with charachange
 
 # emi "As expected."
-emi "อย่างที่คิด"
+emi "ตามคาด"
 
 show rin basic_deadpanupset
 with charachange
 
 # rin "What's that supposed to mean?"
-rin "หมายความว่ายังไง?"
+rin "หมายความว่ายังไง"
 
 show emi sad_grin
 with charachange
@@ -1220,7 +1219,7 @@ show rin negative_worried
 with charachange
 
 # rin "Am I really that predictable?"
-rin "ฉันถูกมองออกได้ง่ายขนาดนั้นเลยเหรอ?"
+rin "ฉันเป็นคนเดาใจได้ง่ายขนาดนั้นเลยเหรอ"
 
 show emi basic_closedgrin
 with charachange
@@ -1229,18 +1228,18 @@ with charachange
 "รอยยิ้มของเอมิกว้างขึ้นด้วยความพอใจ"
 
 # emi "Nah, it's just that your unpredictability is pretty predictable."
-emi "เปล่า ก็แค่ความไม่สามารถคาดเดาได้ของเธอมันคาดเดาได้ง่ายน่ะ"
+emi "เปล่า แค่ว่าความเดาใจไม่ได้ของเธอมันเดาได้อยู่เหมือนกัน"
 
 show rin relaxed_nonchalant
 with charachange
 
 # rin "Well that's all right then."
-rin "ถ้าอย่างนั้นแล้วก็แล้วไป"
+rin "ถ้าอย่างนั้นก็แล้วไป"
 
 play sound sfx_warningbell
 
 # "I don't get the chance to see whether Rin's being serious or not, as the bell rings."
-"ฉันไม่ทันได้เห็นว่ารินกำลังจริงจังอยู่หรือเปล่า เพราะเสียงระฆังดังขึ้นแล้ว"
+"ฉันไม่ทันได้เห็นว่ารินจริงจังอยู่หรือเปล่าเพราะเสียงระฆังดังขึ้นแล้ว"
 
 # "I didn't notice the lunch period slipping by at all."
 "ไม่รู้ตัวเลยสักนิดว่าเวลาพักเที่ยงจบลงแล้ว"
@@ -1255,31 +1254,31 @@ with vpunch
 "เอมิลุกขึ้นยืนอย่างรวดเร็วด้วยสีหน้าตื่นตระหนก"
 
 # emi "Oh no! I needed to stop by my room to pick up my notebook for the next class!"
-emi "ไม่ดีแล้ว! ฉันต้องแวะไปเอาสมุดบันทึกที่ห้องก่อนเริ่มเรียนคลาสต่อไป!"
+emi "แย่แล้ว! ฉันต้องแวะไปเอาสมุดบันทึกที่ห้องก่อนเริ่มเรียนวิชาถัดไป!"
 
 show rin basic_deadpandelight
 with charachange
 
 # rin "Don't you wish you had a time machine now?"
-rin "ทีนี้อยากได้ไทม์แมชชีนขึ้นมาบ้างแล้วรึยัง?"
+rin "ทีนี้อยากได้ไทม์แมชชีนขึ้นมาบ้างแล้วหรือยัง"
 
 # "Rin seems rather smug as she delivers this line; like she'd just won an argument."
-"รินมีสีหน้าพอใจที่ได้พูดประโยคนั้นออกไป อย่างกับว่าตัวเองเพิ่งเป็นฝ่ายเถียงชนะโต้วาทีซะอย่างนั้น"
+"รินมีสีหน้าพอใจที่ได้พูดประโยคนั้นออกไปอย่างกับว่าตัวเองเถียงชนะแล้ว"
 
 # "Emi ignores Rin's comment."
-"แต่เอมิไม่สนใจเธอเลย"
+"แต่เอมิไม่สนใจรินเลย"
 
 show emi basic_hes
 with charachange
 
 # emi "Sorry Hisao, but could you make sure our garbage gets thrown away?"
-emi "ขอโทษด้วยนะ ฮิซาโอะ แต่รบกวนนายช่วยเอาขยะไปทิ้งหน่อยได้มั้ย?"
+emi "ขอโทษด้วยนะฮิซาโอะ แต่รบกวนนายช่วยเอาขยะไปทิ้งหน่อยได้มั้ย"
 
 show emi basic_closedsweat
 with charachange
 
 # emi "I usually clean up myself, but I've got to run!"
-emi "ปกติฉันจะเป็นคนจัดการ แต่ตอนนี้ต้องรีบวิ่งแล้ว!"
+emi "ปกติฉันจะเป็นคนจัดการ แต่ตอนนี้ต้องรีบแล้ว!"
 
 # hi "Sure, no problem."
 hi "ได้สิ ไม่มีปัญหา"
@@ -1288,7 +1287,7 @@ hide emi
 with easeoutleft
 
 # "Emi darts away with an urgency I'm starting to expect from her."
-"เอมิพุ่งทะยานจากไปด้วยความเร่งรีบอย่างที่ฉันคิดไว้"
+"เอมิพุ่งไปด้วยความเร่งรีบ ซึ่งฉันเริ่มชินแล้ว"
 
 hide rin
 with charaexit
@@ -1297,10 +1296,10 @@ with charaexit
 "ฉันไม่คิดจะเอ่ยถามความช่วยเหลือจากริน เธอดูมีเรื่องที่คิดจะทำอยู่ในหัวและก็เดินจากไปแล้ว"
 
 # "She's probably used to Emi taking care of cleanup, and for some reason I doubt Emi's ever raised the issue with her."
-"คงจะชินกับการที่เอมิเป็นคนคอยทำความสะอาดแล้ว และฉันก็รู้สึกว่าเอมิก็คงไม่ได้ว่าอะไรเกี่ยวกับเรื่องนี้"
+"คงจะชินกับการที่เอมิเป็นคนคอยทำความสะอาดแล้ว และฉันก็รู้สึกว่าเอมิก็คงไม่ได้ว่าอะไรรินเรื่องนี้"
 
 # "Cleaning up from lunch doesn't take long, so I have plenty of time to toss our garbage and get to class."
-"ฉันใช้เวลาทำความสะอาดอยู่ไม่นานนักจนมีเวลาเหลือเฟือที่จะเอาขยะไปทิ้งแล้วเดินกลับไปยังชั้นเรียน"
+"ฉันใช้เวลาเก็บกวาดไม่นานนักก่อนจะใช้เวลาเหลือ ๆ นั้นไปทิ้งขยะและกลับไปเข้าเรียน"
 
 stop ambient fadeout 1.0
 
@@ -1308,16 +1307,16 @@ scene bg school_scienceroom
 with locationskip
 
 # "Misha greets me with a wave and a devious grin as I walk through the door."
-"มิช่าทักทายฉันที่กำลังเดินเข้ามาในห้องด้วยการโบกมือและรอยยิ้มกว้าง"
+"มิช่าทักทายฉันที่กำลังเดินเข้ามาในห้องด้วยการโบกมือพร้อมยิ้มมีเลศนัย"
 
 show misha cross_grin at center
 with charaenter
 
 # mi "Didn't see you in the cafeteria, Hicchan."
-mi "ไม่เห็นนายที่โรงอาหารเลยนะ ฮิจัง"
+mi "ไม่เห็นนายที่โรงอาหารเลยนะฮิจัง"
 
 # hi "Yeah, I decided it was too crowded there."
-hi "อืม รู้สึกว่าที่นั่นมีคนแออัดกันเกินไปหน่อยน่ะ"
+hi "อืม รู้สึกคนแออัดไปหน่อย"
 
 show misha hips_grin
 with charachange
@@ -1326,19 +1325,19 @@ with charachange
 "มิช่ายิ้มกว้างขึ้นกว่าเดิม"
 
 # mi "Oh really? Are you sure you weren't participating in an illicit ren—dez—vous?"
-mi "จริงเหรอ? แน่ใจนะว่าแค่ไม่ได้ไปแอบเจอใครคนอื่นน่ะ หืม?"
+mi "จริงเหรอ แน่ใจนะว่าแค่ไม่ได้ไป—แอบ—เจอใครคนอื่นน่ะ"
 
 # hi "W… what? What are you talking about?"
-hi "หะ… หา? พูดอะไรของเธอน่ะ?"
+hi "หะ… หา? พูดอะไรของเธอน่ะ"
 
 show misha sign_smile
 with charachange
 
 # mi "You were on the roof, right? With both Rin and Emi, no less! You Casanova, you!"
-mi "นายน่ะ! ขึ้นไปอยู่กับรินแล้วก็เอมิบนดาดฟ้ามาใช่มั้ยล่ะ! เจ้าหนุ่มคาสโนว่า!"
+mi "นายน่ะขึ้นไปอยู่กับรินแล้วก็เอมิบนดาดฟ้ามาใช่มั้ยล่ะ! พ่อหนุ่มคาสโนว่า!"
 
 # hi "We… we just had lunch, that's all!"
-hi "ระ… เราก็แค่กินข้าวเที่ยงด้วยกันเท่านั้นแหละน่า!"
+hi "กะ… ก็แค่กินข้าวเที่ยงด้วยกันเท่านั้นแหละน่า!"
 
 show misha cross_laugh
 with charachange
@@ -1347,7 +1346,7 @@ with charachange
 "มิช่าหัวเราะออกมาเสียงดังจนหลายคนที่อยู่ในห้องหันมามอง"
 
 # mi "Wahahaha! You're so adorable when you blush like that, Hicchan!"
-mi "วะฮะฮะฮ่า! พอหน้าขึ้นสีแล้วน่ารักจังเลยนะ ฮิจัง!"
+mi "วะฮ่าฮ่าฮ่า! พอฮิจังหน้าแดงแล้วน่ารักจัง!"
 
 show misha cross_grin
 with charachange
@@ -1368,7 +1367,7 @@ show misha perky_confused
 with charachange
 
 # mi "Oh?"
-mi "เหรอ?"
+mi "เหรอ"
 
 # "Misha seems disappointed and then brightens up again."
 "มิช่าดูผิดหวังไปเพียงชั่วครู่ก่อนที่จะกลับมาเป็นปกติ"
@@ -1377,10 +1376,10 @@ show misha hips_grin
 with charachange
 
 # mi "Time will tell~!"
-mi "เดี๋ยวก็ได้รู้กัน~"
+mi "เดี๋ยวก็ได้รู้กัน~!"
 
 # "I don't know what the hell she's talking about, but blessedly our teacher comes in, and the class starts."
-"ฉันไม่รู้เลยสักนิดว่านั่นหมายความว่ายังไง แต่ในที่สุดคุณครูก็เดินเข้ามาในห้องแล้วเริ่มสอนเสียที"
+"ไม่เข้าใจเลยว่ามิช่าพูดอะไรอยุ่ แต่ในที่สุดคุณครูก็เดินเข้ามาในห้องแล้วเริ่มสอนเสียที"
 
 stop music fadeout 2.0
 
@@ -1395,8 +1394,7 @@ with shorttimeskip
 play sound sfx_normalbell
 
 # "Another day of class has finally dragged itself to a close."
-""
-
+"คาบเรียนของวันนี้หมดลงอีกครั้ง"
 
 # "Unexpectedly, I managed to stay awake for the whole day."
 "ไม่คิดไม่ฝันเลยว่าตัวเองจะลืมตาตื่นได้จนหมดวัน"
@@ -1414,31 +1412,31 @@ scene bg school_hallway3
 with locationchange
 
 # "I head down the hallway and make my way to my room."
-"ฉันเดินไปตามโถงทางทางเดิน มุ่งหน้าไปยังห้องของตัวเอง"
+"ฉันเดินไปตามโถงทางทางเดินมุ่งหน้าไปยังห้องของตัวเอง"
 
 scene bg school_dormhisao
 with locationskip
 
 # "I sit down and half-heartedly chip away at my homework for a while, feeling like a vulture picking at a particularly unsavory carcass."
-"ฉันนั่งลงแล้วทำการจัดแยกการบ้านของตัวเองอยู่พักหนึ่ง รู้สึกเหมือนตัวเองเป็นอีแร้งที่กำลังเลือกสรรกินซากที่ต่างก็ไม่น่าพิสมัยทั้งสิ้นแม้แต่ชิ้นเดียว"
+"ฉันนั่งทำการบ้านอย่างไม่มีอารมณ์ร่วมนัก รู้สึกเหมือนตัวเองเป็นอีแร้งที่กำลังเลือกสรรกินซากที่ต่างก็ไม่น่าพิสมัยทั้งสิ้น\nแม้แต่ชิ้นเดียว"
 
 # "It knows this is what it eats, but it's not sure that it shouldn't be ordering takeout instead."
-""
+"ซึ่งก็รู้ว่าสิ่งนี้คือสิ่งที่ควรจะกิน แต่ไม่แน่ใจว่าควรเอากลับไปกินที่บ้านด้วยหรือเปล่า"
 
 # "I don't think I can take this, but it's important to get my work done."
-""
+"ฉันก็คงทนทำไม่ไหวหรอก แต่ต้องทำให้เสร็จ"
 
 # hi "Now let's see… what was I supposed to be looking over again?"
-hi ""
+hi "ไหนซิ… ต้องอ่านตรงไหนนะ"
 
 # "I know it's a losing battle, but I fight it anyway."
-""
+"ฉันรู้ว่าฝืนสู้ไปยังไงก็ไม่ชนะ แต่ก็ฝืนต่อไป"
 
 # "Halfway through my math homework, I put my pencil down."
-"หลังจากทำการบ้านวิชาคณิตศาสตร์ไปได้ครึ่งนึง ฉันก็วางดินสอของตัวเองลง"
+"พอทำการบ้านวิชาคณิตศาสตร์ไปได้ครึ่งทางฉันก็วางดินสอลง"
 
 # "This isn't working. I need a distraction."
-"ไม่ไหว ฉันรู้สึกต้องการสิ่งบันเทิงใจอย่างยิ่งยวด"
+"ไม่ไหว ฉันต้องการสิ่งบันเทิงใจอย่างยิ่งยวด"
 
 # "Unfortunately, my options for distractions are rather slim."
 "โชคไม่ดีที่ฉันมีตัวเลือกไม่มากนัก"
@@ -1453,13 +1451,13 @@ hi ""
 "ถ้าไปที่ห้องสภานักเรียนก็คงหนีชะตาต้องช่วยงานสองคนนั้นไม่พ้น"
 
 # "And heaven only knows where everyone else is, except for…"
-"ส่วนคนอื่น ๆ นอกจากนั้นก็คงมีแค่สวรรค์ที่รู้ว่าอยู่ไหนกัน เว้นแต่..."
+"ส่วนคนอื่นฉันก็ไม่รู้ว่าอยู่ที่ไหนกัน เว้นก็แต่…"
 
 # "Well, I suppose that's an option."
-"อืม คิดว่าเป็นตัวเลือกนึงได้อยู่แหละ"
+"อืม คิดว่าเป็นตัวเลือกหนึ่งได้อยู่แหละ"
 
 # "I grab my shoes and head for the track. Emi's probably down there."
-"ฉันสวมรองเท้าแล้วมุ่งหน้าไปยังสนามวิ่ง เอมิคงอยู่ที่นั่น"
+"ฉันสวมรองเท้าแล้วมุ่งหน้าไปยังลู่วิ่ง เอมิน่าจะอยู่ที่นั่นแหละ"
 
 play music music_tranquil fadein 3.0
 
@@ -1473,58 +1471,58 @@ with locationskip
 "ดวงอาทิตย์บนฟ้าเริ่มคล้อยต่ำลงแล้ว"
 
 # "Has it really gotten that late already?"
-"มืดค่ำขนาดนี้แล้วเหรอเนี่ย?"
+"เย็นขนาดนี้แล้วเหรอเนี่ย"
 
 show emi basic_grin_gym_ss at center
 with charaenter
 
 # emi "What are you doing down here, Hisao?"
-emi "ลงมาทำอะไรอยู่นี่ล่ะ ฮิซาโอะ?"
+emi "มาทำอะไรถึงนี่ล่ะฮิซาโอะ"
 
 show emi excited_proud_gym_ss
 with charachange
 
 # emi "Come to spy on me, have you?"
-emi "แอบมาส่องฉันเหรอ?"
+emi "แอบมาส่องฉันเหรอ"
 
 # "I give a shrug. To be honest, I'm not sure why I'm down here."
 "ฉันยักไหล่ตอบกลับไป ที่จริงก็ไม่รู้ด้วยซ้ำว่ามาที่นี่ทำไม"
 
 # hi "I didn't have anything better to do."
-hi "ไม่มีอะไรดีกว่านี้ให้ทำก็เลยมาที่นี่น่ะ"
+hi "ก็ไม่มีอะไรจะทำ"
 
 # "I figure that's about right."
 "พูดอย่างนั้นก็คงไม่ผิดนัก"
 
 # "At the moment, Emi's the only person I can think of who I could visit."
-"เอมิเป็นเพียงคนเดียวที่ฉันคิดว่าสามารถมาหาเธอได้ในเวลานี้"
+"เอมิเป็นเพียงคนเดียวที่ฉันคิดว่าจะมาหาได้ในเวลานี้"
 
 show emi basic_annoyed_gym_ss
 with charachange
 
 # emi "So I'm your last resort, am I?"
-emi "เห็นฉันเป็นที่พึ่งสุดท้ายล่ะสิ นายน่ะ?"
+emi "ฉันคือตัวเลือกสุดท้ายของนายสินะ"
 
 show emi sad_angry_gym_ss
 with charachange
 
 # emi "Nobody cool around, so I'll just go see Emi, is that what you thought?"
-emi ""
+emi "ไม่มีใครให้เล่นด้วย ไปหาเอมิแล้วกัน คิดงี้อยู่ละสิ"
 
 # "She actually looks angry."
-"กลายเป็นว่าเธอดูโกรธจริง"
+"ดูเอมิจะโกรธจริง ๆ"
 
 # "A chance for some teasing of my own presents itself."
 "ได้โอกาสฉันแกล้งเธอบ้างล่ะ"
 
 # hi "Actually, yeah, I guess you are."
-hi ""
+hi "ก็ใช่แหละ คงงั้น"
 
 show emi sad_annoyed_gym_ss
 with charachange
 
 # "Emi pouts, widening her eyes to give the maximum amount of puppy-dog resemblance."
-""
+"เอมิทำแก้มป่องพร้อมตาโตให้ดูเหมือนลูกหมาน้อยอย่างถึงที่สุด"
 
 # hi "Kidding! I was kidding!"
 hi "ล้อเล่น! ฉันล้อเล่น!"
@@ -1533,145 +1531,145 @@ show emi basic_closedgrin_gym_ss
 with charachange
 
 # emi "So you are down here to stalk me!"
-emi "นายมาตามสตอล์กฉันจริงด้วย!"
+emi "เนี่ย นายมาตามสตอล์กฉันจริงด้วย!"
 
 # "Wait, what?"
-"vtwi;t?"
+"เดี่ยว อะไร"
 
 # hi "That's not what I meant!"
 hi "ไม่ได้หมายความว่าอย่างนั้น!"
 
 # hi "Why would I stalk you anyway? It's not like you require stalking."
-hi "ฉันจะตามสตอล์กเธอทำไม? ไม่ใช่ว่าเธอมีความจำเป็นที่จะต้องถูกติดตามสักหน่อย"
+hi "ฉันจะตามสตอล์กเธอทำไม ใช่ว่าเธอจะต้องให้ใครมาตามดูที่ไหน"
 
 # hi "If you're not asleep or in class, you're down here, right?"
-hi "เธอน่ะถ้าไม่ได้นอนอยู่หรือว่าอยู่ในห้องเรียน ก็มีแต่ต้องมาที่นี่เท่านั้น ใช่มั้ยล่ะ?"
+hi "เธอน่ะ ถ้าไม่หลับหรือเรียนอยู่ก็ต้องอยู่ที่นี่แหละ ใช่มั้ยล่ะ"
 
 # "Emi laughs at this comment."
-""
+"เอมิหัวเราะที่ฉันบอกไปอย่างนั้น"
 
 show emi basic_happy_gym_ss
 with charachange
 
 # emi "Well, you're not all wrong, I suppose - but you forgot about eating. I do that too, you know."
-emi ""
+emi "ก็ไม่ผิดเสียทีเดียวละนะ แต่นายลืมเรื่องกินไป ฉันก็กินข้าวนะ"
 
 # "I nod, conceding the point."
-""
+"ฉันพยักหน้าเห็นด้วย"
 
 show emi sad_grin_gym_ss
 with charachange
 
 # emi "Plus I hang out with Rin sometimes too… so really I might take some effort to stalk."
-emi ""
+emi "อีกอย่าง บางทีฉันก็ไปอยู่กับรินเหมือนกัน… เพราะงั้นจะตามตัวฉันก็ไม่ได้ง่ายขนาดนั้น"
 
 # hi "What do you two do together anyway? You don't seem to have a lot in common."
-hi ""
+hi "แล้วเธอสองคนทำอะไรกัน เหมือนนิสัยจะเป็นคนละแบบกันเลยนะ"
 
 show emi basic_closedgrin_gym_ss
 with charachange
 
 # "She puts her hands on her hips and assumes a superior air."
-""
+"เอมิยืนเท้าสะเอวทำท่าเหนือกว่า"
 
 show emi basic_grin_gym_ss
 with charachange
 
 # emi "That's what you think. I've got all sorts of hidden hobbies, you know."
-emi ""
+emi "นายคิดไปเองไงล่ะ ฉันมีงานอดิเรกลับเยอะแยะเลยนะ"
 
 # hi "Oh really? Like what?"
-hi ""
+hi "จริงเหรอ เช่นอะไรล่ะ"
 
 show emi sad_grin_gym_ss
 with charachange
 
 # "Emi puts her head to one side, as if she's trying to remember what it is she does in her free time."
-""
+"เอมิเอียงคอคิดราวกับกำลังนึกอยู่ว่าเวลาว่างตัวเองทำอะไร"
 
 show emi basic_closedgrin_gym_ss
 with charachange
 
 # emi "Well, Rin and I go out shopping sometimes."
-emi ""
+emi "ก็ บางทีรินกับฉันก็ไปซื้อของด้วยกัน"
 
 # "I guess that makes sense. Emi's a girl, after all. But Rin?"
-""
+"ก็สมเหตุสมผลแหละ เอมิเป็นผู้หญิงนี่นะ แต่รินเนี่ยนะจะซื้อของ"
 
 # hi "Rin comes with you?"
-hi ""
+hi "รินไปด้วยเหรอ"
 
 show emi basic_grin_gym_ss
 with charachange
 
 # emi "We usually swing by the art supply store."
-emi ""
+emi "ปกติไปร้านขายอุปกรณ์ศิลปะน่ะ"
 
 # emi "Plus she likes this music store that sells all kinds of weird sounding stuff."
-emi ""
+emi "แล้วรินก็ชอบไปร้านดนตรีที่มีเครื่องดนตรีแปลก ๆ เยอะแยะเลย"
 
 show emi basic_closedhappy_gym_ss
 with charachange
 
 # emi "She says it helps focus her."
-emi ""
+emi "เห็นบอกว่าช่วยให้มีสมาธิขึ้นน่ะ"
 
 # "That makes a little more sense."
-""
+"ก็ดูฟังขึ้นขึ้นมาหน่อย"
 
 # hi "I see. Any other hidden hobbies?"
-hi ""
+hi "อย่างนี้นี่เอง มีงานอดิเรกลับอื่นอีกมั้ย"
 
 show emi excited_proud_gym_ss
 with charachange
 
 # "Emi wags a finger at me."
-""
+"เอมิส่ายนิ้ว"
 
 # emi "Now now, why would I go and reveal all my dark secrets to you? We hardly know one another!"
-emi ""
+emi "เอ้า ๆ ทำไมฉันจะต้องมาเปิดความลับดำมืดทั้งหมดให้นายเห็นด้วย เราเพิ่งจะมารู้จักกันเองนะ!"
 
 # "Somehow I think that's all that Emi has in the way of hobbies."
-""
+"ไม่รู้ทำไมถึงรู้สึกว่าเอมิก็มีงานอดิเรกอยู่แค่นี้แหละ"
 
 # "Still, I don't think my question's been answered."
-""
+"แต่เหมือนที่ถามไปจะยังไม่ได้คำตอบเลย"
 
 # hi "Even if you do have a few hobbies, I still don't see why you hang out with Rin so much."
-hi ""
+hi "ต่อให้มีงานอดิเรกน้อย ฉันก็ยังไม่เข้าใจอยู่ดีว่าทำไมเธอถึงอยู่กับรินบ่อยขนาดนั้น"
 
 # hi "I mean, she's kind of weird, isn't she?"
-hi ""
+hi "ก็รินเป็นคนแปลก ๆ นี่ ใช่มั้ย"
 
 # "This comment causes Emi to laugh loudly."
-""
+"คำพูดนั้นทำให้เอมิหัวเราะออกมาดัง ๆ"
 
 show emi basic_closedhappy_gym_ss
 with charachange
 
 # emi "Ha! That's the understatement of the year!"
-emi ""
+emi "ฮ่า! แค่ว่าแปลกยังน้อยไปเลยนะ!"
 
 # hi "So why? I mean, you're a lot better at conversation and stuff, so I figure you'd hang out with a lot of people, but I think I've only ever seen you with Rin."
-hi ""
+hi "สรุปเพราะอะไรล่ะ คือเธอก็เป็นคนคุยเก่งมาก เลยนึกว่าจะไปเป็นเพื่อนกับใครหลายคน แต่เหมือนจะเห็นเธออยู่\nแค่กับรินเองมั้ง"
 
 show emi sad_annoyed_gym_ss
 with charachange
 
 # "Emi seems unusually defensive."
-""
+"เอมิดูไม่พอใจผิดวิสัย"
 
 # emi "Hey, I hang out with plenty of people that aren't Rin! You just don't see me doing it because I'm not in your classes."
-emi ""
+emi "นี่ ฉันก็อยู่กับคนอื่นที่ไม่ใช่รินเหมือนกันนะ! นายแค่ไม่เห็นเพราะอยู่คนละห้องกันต่างหาก"
 
 # hi "Okay, but that still doesn't explain why you hang out with Rin."
-hi ""
+hi "โอเค แต่ก็ยังไม่ได้คำตอบอยู่ดีว่าทำไมเธอถึงอยู่กับริน"
 
 # "I'm not even sure why I want to know this."
-""
+"ฉันก็ไม่แน่ใจเหมือนกันว่าทำไมถึงอยากรู้"
 
 # "I guess it is because lunch was so strange."
-""
+"เพราะมื้อเที่ยงที่ผ่านมามันแปลกมากมั้ง"
 
 show emi basic_confused_gym_ss
 with charachange
@@ -1682,13 +1680,13 @@ with charachange
 stop music fadeout 4.0
 
 # emi "It's because we have similar outlooks."
-emi ""
+emi "เพราะเรามีอะไรคล้ายกันไง"
 
 # "If you were to ask me the least likely answer to my question, that would be it."
-""
+"ถ้าจะบอกว่าคำตอบที่ฉันคาดไม่ถึงเลยคืออะไรก็คงเป็นประโยคนี้แหละ"
 
 # hi "What do you mean?"
-้hi "หมายความว่าไง?"
+้hi "หมายความว่าไง"
 
 # emi "It's like…"
 emi "ก็แบบว่า…"
@@ -1699,13 +1697,13 @@ show emi basic_grin_gym_ss
 with charachange
 
 # emi "Okay, Rin paints and stuff, right?"
-emi "รินน่ะวาดรูปใช่มั้ย?"
+emi "รินน่ะวาดรูปใช่มั้ย"
 
 # hi "Yes…"
 hi "ใช่…"
 
 # "I'm not sure where this is going."
-"จะมาเวย์ไหนเนี่ย"
+"ยังดูไม่ออกว่าจะพูดยังไงต่อ"
 
 show emi basic_closedgrin_gym_ss
 with charachange
@@ -1720,19 +1718,18 @@ show emi basic_happy_gym_ss
 with charachange
 
 # emi "And… that's why we're similar."
-emi "และ… นั่นแหละเหตุผลว่าทำไมเราถึงเหมือนกัน"
+emi "และ… นั่นแหละเราถึงได้คล้ายกัน"
 
-# hi "…"
 hi "…"
 
 # hi "You lost me."
-hi ""
+hi "ยังไงนะ"
 
 show emi basic_annoyed_gym_ss
 with charachange
 
 # "Emi frowns, as if trying to figure out her answer."
-"เอมิขมวดคิ้ว ราวกับพยายามคิดหาคำตอบ"
+"เอมิขมวดคิ้วราวกับกำลังคิดหาคำตอบ"
 
 # emi "Well, maybe it's that we do things for the same reasons."
 emi "ก็อาจจะเป็นเพราะว่าเราทำอะไร ๆ ด้วยเหตุผลที่เหมือนกันน่ะ"
@@ -1744,85 +1741,85 @@ show emi sad_grin_gym_ss
 with charachange
 
 # emi "You know, we follow our passions."
-emi ""
+emi "ก็แบบ เราทำอะไรตามความอยากของตัวเองน่ะ"
 
 # hi "So you're passionate about running and Rin's passionate about art, is that it?"
-hi ""
+hi "ก็คือเธอสนใจการวิ่ง ส่วนรินก็สนใจศิลปะ แค่นั้น?"
 
 # emi "Well, sort of. Let me think…"
-emi ""
+emi "อืม ก็ประมาณนั้น ขอคิดก่อนนะ…"
 
 show emi basic_closedgrin_gym_ss
 with charachange
 
 # emi "Well, Rin explained it to me once, but I don't know how much of it I followed."
-emi ""
+emi "คือรินเคยอธิบายให้ฟังอยู่หนหนึ่งนะ แต่ไม่รู้ว่าฉันเข้าใจมากแค่ไหน"
 
 # "Not surprising. I think any explanation from Rin would probably confuse anyone."
-""
+"ไม่แปลก ฉันว่าใครได้ฟังคำอธิบายของรินก็ต้องงงกันทั้งนั้น"
 
 show emi basic_grin_gym_ss
 with charachange
 
 # emi "She says we both chase after an extreme."
-emi ""
+emi "รินบอกว่าเราต่างไขว่คว้าหาจุดปลายสุด"
 
 # emi "Like, she's always trying to find a new way to show a particular feeling or something."
-emi ""
+emi "แบบ รินก็จะสรรหาวิธีใหม่ ๆ ในการแสดงความรู้สึกหรืออะไรประมาณนั้นตลอด"
 
 show emi sad_grin_gym_ss
 with charachange
 
 # emi "And I run because of the feeling I get from it."
-emi ""
+emi "และฉันก็วิ่งเพราะฉันชอบความรู้สึกตอนวิ่ง"
 
 # emi "And since we don't allow ourselves to be slowed down by anything, we make a connection based on that."
-emi ""
+emi "และเพราะเราต่างไม่ยอมให้อะไรมาฉุดรั้งตัวเอง เราถึงเชื่อมต่อถึงกันได้"
 
 # hi "What do you mean “slowed down by anything?”"
-hi ""
+hi "“ไม่ยอมให้อะไรมาฉุดรั้ง” นี่คืออะไรเหรอ"
 
 show emi basic_confused_gym_ss
 with charachange
 
 # "Emi looks surprised and points to her legs."
-""
+"เอมิทำหน้าประหลาดใจก่อนจะชี้ไปที่ขา"
 
 # emi "You know, because I'm a runner. And Rin's a painter even without arms."
-emi ""
+emi "ก็เนี่ย เพราะฉันเป็นนักวิ่ง ส่วนรินก็เป็นศิลปินโดยไม่มีแขน"
 
 # emi "So we respect each other's determination."
-emi ""
+emi "เราถึงได้นับถือความมุ่งมั่นของกันและกัน"
 
 show emi basic_closedhappy_gym_ss
 with charachange
 
 # emi "And that's why we hang out."
-emi ""
+emi "และเพราะแบบนี้เราถึงได้อยู่ด้วยกัน"
 
 show emi sad_grin_gym_ss
 with charachange
 
 # emi "I think."
-emi ""
+emi "คิดว่านะ"
 
 # "Well, I'm not sure that made any sense to me… but from Emi's sheepish expression, she's not sure about it either."
-""
+"อืม ฉันก็ไม่แน่ใจเท่าไหร่ว่าเข้าใจหรือเปล่า… แต่ดูจากสีหน้าแหย ๆ ของเอมิแล้วเจ้าตัวเองก็คงไม่แน่ใจเหมือนกัน"
 
 # emi "Honestly, it's not something I think about much."
-emi ""
+emi "เอาตรง ๆ นะ ฉันก็ไม่ได้มานั่งคิดอะไรแบบนี้หรอก"
 
 # emi "We just get along - I think that's really all that matters."
-emi ""
+emi "ฉันว่าขอแค่เราเข้ากันได้ก็พอแล้วละ"
 
 # "I suppose she's got a point there."
-""
+"ก็คงจริงอย่างเอมิว่า"
 
 # "Another question strikes me, and since I've got nothing better to do, I ask it."
-""
+"แล้วฉันก็นึกสงสัยขึ้นมาอีกอย่าง และเพราะไม่มีอะไรจะทำแล้วจึงถามออกไป"
 
 # hi "So what got you so into running, anyway?"
-hi ""
+hi "แล้วไปไงมาไงถึงได้มาวิ่ง"
 
 show emi basic_closedgrin_gym_ss
 with charachange
@@ -1834,13 +1831,13 @@ show emi basic_grin_gym_ss
 with charachange
 
 # emi "My dad was a runner, and so as soon as I could walk, he started teaching me how to run."
-emi "พ่อของฉันเป็นนักวิ่ง และทันทีที่ฉันเริ่มเดินได้ เขาก็หัดให้ฉันวิ่งแล้ว"
+emi "พ่อของฉันเป็นนักวิ่ง แล้วพอฉันเดินได้ปุ๊บ พ่อก็หัดให้ฉันวิ่งปั๊บ"
 
 show emi sad_grin_gym_ss
 with charachange
 
 # emi "It was our father/daughter thing, you know?"
-emi ""
+emi "แบบพ่อสอนลูกอะไรแบบนี้ไง"
 
 show emi sad_depressed_gym_ss
 with charachange
@@ -1848,25 +1845,25 @@ with charachange
 stop music fadeout 10.0
 
 # emi "Our own mutual hobby."
-emi ""
+emi "เป็นงานอดิเรกร่วมของเรา"
 
 # "A shadow crosses her face, and I'm shocked to see her looking… sad."
-""
+"เอมิทำหน้าหม่นไป ซึ่งฉันก็ตกใจที่เห็นเอมิทำหน้า… เศร้า"
 
 # "Did something happen between them?"
-""
+"มีเรื่องอะไรเกิดขึ้นงั้นเหรอ"
 
 show emi basic_shock_gym_ss
 with charachange
 
 # emi "Man, I don't have a lot of time left."
-emi ""
+emi "ตายละ เหลือเวลาไม่มากแล้ว"
 
 show emi basic_closedsweat_gym_ss
 with charachange
 
 # emi "Sorry, but I've got to get a few more laps in before I go see the nurse!"
-emi ""
+emi "ขอโทษที เดี๋ยวต้องวิ่งต่ออีกสักสองสามรอบก่อนไปหาคุณพยาบาลแล้วละ"
 
 play ambient sfx_emipacing
 
@@ -1876,25 +1873,25 @@ with easeoutleft
 $ renpy.music.set_volume(0.3, 1.0, channel="ambient")
 
 # "She races off around the track, hair streaming in the wind."
-""
+"เอมิพุ่งตัวไปที่ลู่พร้อมผมที่พลิ้วไสวไปตามสายลม"
 
 # "It seems to me she's going a lot faster than she was this morning."
-""
+"เหมือนจะเร็วขึ้นกว่าเมื่อเช้าเยอะเลย"
 
 # "As she rounds the track, I catch a glimpse of her face."
-""
+"พอเอมิออกวิ่งฉันก็เห็นสีหน้าเธออยู่ไว ๆ"
 
 scene ev emi_run_face_zoomout_ss
 with locationchange
 
 # "It's much the same as it was this morning, but her eyes seem to have taken on a harder edge."
-""
+"เป็นสีหน้าเหมือนอย่างเมื่อเช้า แต่ดวงตาเธอดูจริงจังขึ้น"
 
 # "I guess she's right."
-""
+"คงจะจริง"
 
 # "I don't really know much about her."
-""
+"ที่ว่าฉันไม่ค่อยรู้เรื่องของเอมิเท่าไหร่"
 
 scene bg school_track_ss
 with locationchange
@@ -1906,7 +1903,7 @@ with locationchange
 emi "นี่!"
 
 # "She spots me leaving and waves to catch my attention."
-"เธอเห็นฉันลุกขึ้นจึงโบกมือเรียก"
+"เอมิเห็นฉันลุกขึ้นจึงโบกมือเรียก"
 
 # emi "Don't forget! Same time tomorrow morning, got it?"
 emi "พรุ่งนี้เช้าเวลาเดิม อย่าลืมล่ะ!"
