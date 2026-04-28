@@ -1917,7 +1917,7 @@ stop ambient fadeout 2.0
 "ฉันกลับไปที่ห้อง"
 
 # "Homework beckons."
-"ที่ซึ่งมีการบ้านรออยู่"
+"ที่ที่ซึ่งมีการบ้านรออยู่"
 
 ########################################################
 label th_E6:
@@ -1931,31 +1931,31 @@ with shorttimeskip
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 # "I can't sleep."
-""
+"นอนไม่หลับ"
 
 # "My body's tired, but my mind is kept awake, staring at the ceiling in the hollow darkness of my room."
-""
+"ร่างกายอ่อนเพลีย แต่สมองยังตื่นอยู่ ฉันนอนมองเพดานมืดสนิทในห้อง"
 
 # "I grasp desperately for a thread of thought, hoping that I can run my brain into the ground."
-""
+"ฉันเค้นสมองหาเรื่องคิดด้วยหวังว่าจะหาอะไรให้สมองคิดเพลิน ๆ ได้"
 
 # "All I can think of is how I can't think of anything."
-""
+"แต่ก็คิดได้แต่ว่าฉันคิดอะไรไม่ออก"
 
 # "This is not productive at all."
-""
+"ไม่ได้อะไรขึ้นมาเลย"
 
 # "I wonder if this is a side effect of my medication, though it seems odd for it to take so long to show up."
-""
+"หรือจะเป็นผลข้างเคียงของยา แต่เพิ่งแสดงผลเอาป่านนี้ก็คงไม่ใช่"
 
 # "Then again, maybe I'm just not as used to my new surroundings as I'd like to think."
-""
+"แต่ก็นะ ฉันยังไม่ได้ชินกับสภาพแวดล้อมใหม่ขนาดนั้นอย่างที่คิด"
 
 # "I don't know, but for whatever reason, I'm awake and I shouldn't be."
-""
+"ไม่รู้สิ ไม่รู้ว่าเพราะอะไรฉันถึงได้ไม่หลับทั้งที่ควรจะหลับไปแล้ว"
 
 # "This is ridiculous."
-""
+"บ้าไปแล้ว"
 
 play sound sfx_switch
 
@@ -1963,43 +1963,43 @@ scene bg school_dormhisao
 with Dissolve(0.2)
 
 # "Ignoring my body's stiffness, I get out of bed and look at my clock."
-""
+"ฉันลุกออกจากเตียงมาดูนาฬิกาโดยไม่สนร่างกายที่ยังขยับไม่คล่องนัก"
 
 # "Four in the morning. Last time I checked it was only one, so maybe I slept a little."
-""
+"ตีสี่ ที่มาดูล่าสุดเป็นตอนตีหนึ่ง คงจะได้นอนไปนิดเดียว"
 
 # "I don't know."
-""
+"ไม่รู้สิ"
 
 # "I throw on some clothes and head out of my room."
-""
+"ฉันใส่เสื้อผ้าแล้วออกมาจากห้อง"
 
 # "A walk might do me some good."
-""
+"เดินสักหน่อยน่าจะดี"
 
 scene bg school_courtyard_ni
 with locationskip
 
 # "I'm surprised at how chill the air is compared to the relative warmth of the day."
-""
+"ฉันนึกแปลกใจกับอากาศที่เย็นเยือกผิดกับความอบอุ่นเมื่อตอนกลางวัน"
 
 # "I can almost see my breath as I wander the campus, waiting for the sun to come up or for me to fall asleep."
-""
+"ฉันเห็นลมหายใจของตัวเองเป็นไอสีขาวระหว่างที่เดินตระเวนในโรงเรียนรอให้พระอาทิตย์ขึ้นไม่ก็รอให้หลับก่อน"
 
 # "At this point, either option works for me."
-""
+"อย่างไหนจะเกิดก่อนก็ได้ทั้งนั้นแหละ"
 
 scene bg school_track_ni at left
 with locationchange
 
 # "I find myself at the track - where for the first time, Emi's not out running."
-""
+"ฉันเดินมาถึงลู่วิ่ง ซึ่งเป็นครั้งแรกที่ไม่เห็นเอมิมาวิ่ง"
 
 # "I suppose that makes sense; it's too early, even for her."
-""
+"ก็คงไม่แปลก ตอนนี้ยังเช้ามาก แม้แต่กับเอมิด้วย"
 
 # "The bleacher seats are cold, but at this point I welcome the sensation."
-""
+"ที่นั่งบนสแตนด์เชียร์นั้นเย็นเยียบ แต่ตอนนี้นั่งเย็น ๆ แบบนี้ก็ดี"
 
 show bg school_track as overlay:
     left
@@ -2008,13 +2008,13 @@ show bg school_track as overlay:
 with None
 
 # "The sun is starting to show its face over the horizon, and I know with an awful certainty that I'll get no more sleep tonight."
-""
+"พระอาทิตย์เคลื่อนพ้นขอบฟ้าขึ้นมาแล้ว และฉันก็รู้ดีเหลือเกินว่าคืนนี้ฉันจะไม่ได้หลับอีกแน่นอน"
 
 # "The sun's steadily strengthening rays start to warm me up, and I watch the dew on the ground begin to steam slightly."
-""
+"พระอาทิตย์ฉายแสงแรงขึ้นเรื่อย ๆ จนตัวฉันอุ่น ฉันมองน้ำค้างบนพื้นที่เริ่มระเหยไป"
 
 # "My mind calms down, a little."
-""
+"ใจฉันสงบลงบ้าง"
 
 stop music fadeout 2.0
 
@@ -2030,82 +2030,82 @@ play sound sfx_rustling
 window show hpunch
 
 # "Someone's shaking me."
-""
+"มีคนมาเขย่าตัวฉัน"
 
 # emi "Hey, wake up!"
-emi ""
+emi "นี่ ตื่นสิ!"
 
 # hi "Huh? Where? Wha?"
-hi ""
+hi "เหอ? ที่ไหน ฮะ?"
 
 scene bg school_track
 show emi basic_shock_gym_close at center
 with openeyefast
 
 # "I guess I fell asleep after all."
-""
+"สงสัยจะผล็อยหลับไปจริง ๆ"
 
 show emi basic_annoyed_gym_close
 with charachange
 
 # emi "What are you doing out here? You're going to catch a cold or something!"
-emi ""
+emi "นี่นายออกมาทำอะไรเนี่ย เดี๋ยวก็เป็นหวัดเอาหรอก"
 
 play music music_dreamy fadein 4.0
 
 # "I rub my eyes and am confronted by Emi, who bends over me with a worried expression."
-""
+"ฉันขยี้ตา เอมิมองฉันอยู่ด้วยสีหน้าเป็นกังวล"
 
 # "I'm still a little groggy, so my response comes out in a mumble."
-""
+"ฉันยังงัวเงียอยู่เล็กน้อยจึงได้เพียงพึมพำตอบไป"
 
 # hi "Couldn't sleep. Watched the sun come up."
-hi ""
+hi "นอนไม่หลับ ดูพระอาทิตย์ขึ้น"
 
 show emi basic_confused_gym_close
 with charachange
 
 # emi "Sounds like something Rin would say."
-emi ""
+emi "พูดอะไรเป็นรินไปได้"
 
 # "I shrug, feeling the stiffness that comes with sleeping on a bench for a few hours."
-""
+"ฉันยักไหล่พร้อมกล้ามเนื้อที่ยังยึดจากการหลับบนที่นั่งอยู่สองสามชั่วโมง"
 
 # hi "Is it? I wouldn't know."
-hi ""
+hi "เหรอ ไม่ยักรู้"
 
 show emi basic_grin_gym_close
 with charachange
 
 # "Emi grins a little at my (somewhat cranky) response."
-""
+"เอมิยิ้มน้อย ๆ ให้คำตอบ (ที่ฟังดูอ้อแอ้) นั้น"
 
 show emi basic_closedgrin_gym_close
 with charachange
 
 # emi "So, couldn't sleep, eh? Obviously we need to run you harder today!"
-emi ""
+emi "นอนไม่หลับงั้นเหรอ งั้นวันนี้ต้องวิ่งให้หนักกว่าเก่าแล้ว!"
 
 # "Even though I've only known her for about a week, this seems a very Emi-ish response to the problem."
-""
+"ถึงจะเพิ่งรู้จักกันมาได้สัปดาห์เดียว แต่ก็ฟังดูเป็นการแก้ปัญหาที่สมเป็นเอมิดี"
 
 # hi "Hey, my body was plenty exhausted after yesterday!"
-hi ""
+hi "เฮ้ย เมื่อวานฉันก็เพลียจะตายอยู่แล้ว"
 
 # hi "My mind was just racing, that's all."
-hi ""
+hi "แค่สมองฉันมันไม่ยอมหลับเฉย ๆ"
 
 show emi basic_confused_gym_close
 with charachange
 
 # emi "I don't see the difference. If you run hard enough, your brain will get tired too."
-emi ""
+emi "ก็เหมือนกันนี่ ถ้าวิ่งหนัก ๆ เข้าเดี๋ยวสมองก็จะเพลียเอง"
 
 # "I'm seriously questioning the wisdom of doing this first thing in the morning."
-""
+"ฉันชักจะไม่แน่ใจแล้วว่าดีจริง ๆ เหรอที่มาวิ่งกันแต่เช้าเนี่ย"
 
 # "I don't know if my grades will be able to handle me tiring my brain out like that."
-""
+"ไม่รู้ว่าถ้าสมองเพลียไปแล้วจะยังรักษาผลการเรียนไหวหรือเปล่า"
 
 show emi basic_closedgrin_gym_close
 with charachange
@@ -2116,135 +2116,135 @@ show emi basic_closedgrin_gym
 with charadistant
 
 # "Emi pulls me up from the bleachers with surprising strength for someone her size."
-""
+"เอมิลากฉันออกจากสแตนด์เชียร์ด้วยแรงที่เยอะผิดขนาดตัว"
 
 # emi "Now come on, Hisao! We've got work to do!"
-emi ""
+emi "ไม่เอาน่าฮิซาโอะ! เรายังมีเรื่องที่ต้องทำกันอยู่นะ!"
 
 # "I don't actually know if I'm up to this today, to be honest."
-""
+"เอาตรง ๆ ฉันก็ไม่แน่ใจว่าวันนี้ฉันพร้อมวิ่งหรือเปล่า"
 
 # "I mean I obviously didn't get much sleep… and what sleep I got was on the bleachers!"
-""
+"คือชัดอยู่ว่าฉันนอนน้อย… แล้วแถมที่นอนไปก็มานอนบนสแตนด์เชียร์เนี่ย"
 
 # hi "I don't know… should I really be running?"
-hi ""
+hi "ไม่รู้สิ… ฉันต้องวิ่งด้วยเหรอ"
 
 show emi basic_annoyed_gym
 with charachange
 
 # "Emi glares at me."
-""
+"เอมิจ้องฉันเขม็ง"
 
 # "Good heavens."
-""
+"ให้ตายเถอะ"
 
 show emi sad_annoyed_gym
 with charachange
 
 # emi "What are you talking about? Of course you should be running!"
-emi ""
+emi "พูดอะไรของนาย นายต้องวิ่งอยู่แล้วสิ!"
 
 # emi "How else do you expect to work out the kinks?"
-emi ""
+emi "ไม่งั้นปัญหามันจะหายไปได้ยังไง"
 
 show emi basic_annoyed_gym
 with charachange
 
 # emi "You've been sleeping on the bleachers, for heaven's sake!"
-emi ""
+emi "นายมาหลับอยู่บนสแตนด์เชียร์เนี่ยนะ จะบ้าตาย!"
 
 # emi "The best way to get that soreness out is to run around a little."
-emi ""
+emi "ถ้าจะให้หายเมื่อยก็ต้องวิ่งกันสักหน่อยนี่แหละ"
 
 # emi "Now stop hiding in the bleachers and get down here!"
-emi ""
+emi "ทีนี้ก็เลิกซ่อนตัวอยู่กับสแตนด์เชียร์แล้วลงมาได้แล้ว!"
 
 # "There's no arguing that. I'm pretty sure she'd kill me if I didn't do as she said."
-""
+"ไม่เถียง ฉันว่าถ้าไม่ทำตามที่บอกเอมิคงเอาฉันตายแน่"
 
 # "I get to my feet and hop down to the track."
-""
+"ฉันลุกขึ้นยืนแล้วโดดลงมาที่ลู่"
 
 scene bg school_track_on
 with locationchange
 
 # "The sun is warming things up rather nicely, I think."
-""
+"พระอาทิตย์ส่องแสงให้อะไร ๆ อุ่นขึ้นแล้วละนะ"
 
 # "Emi and I begin to stretch out, and I find myself once again hard pressed not to stare."
-""
+"เอมิกับฉันเริ่มยืดเส้นยืดสายกัน และฉันก็ต้องห้ามใจอย่างหนักไม่ให้มองเหมือนเดิม"
 
 # "If this is how I have to wake up every day, I might be able to get used to this."
-""
+"ถ้าต้องตื่นแบบนี้ทุกวันฉันอาจจะชินก็ได้"
 
 show emi basic_annoyed_gym
 with charachange
 
 # emi "You know Hisao, it's not polite to stare."
-emi ""
+emi "เนี่ยนะฮิซาโอะ จ้องคนอื่นมันหยาบคายนะ"
 
 # hi "I wasn't staring! I swear!"
-hi ""
+hi "ไม่ได้จ้อง! สาบานเลย!"
 
 # "Emi raises an eyebrow and considers me for a minute, as if evaluating my response."
-""
+"เอมิเลิกคิ้วพินิจฉันอยู่ครู่หนึ่งคล้ายประเมินคำตอบฉันอยู่"
 
 # "There's a brief moment where I'm afraid for my life."
-""
+"แวบหนึ่งฉันกลัวตายขึ้นมา"
 
 show emi basic_closedhappy_gym
 with charachange
 
 # "But then she smiles and laughs, shaking her head slowly."
-""
+"แต่เอมิก็ยิ้มแล้วหัวเราะพลางส่ายหน้าช้า ๆ"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "Honestly, you didn't have to deny it so strenuously."
-emi ""
+emi "เอาตรง ๆ นะ ไม่ต้องปฏิเสธจริงจังขนาดนั้นหรอก"
 
 stop music fadeout 5.0
 
 # "In response, I clap my hands together and go for a change of subject."
-""
+"ฉันตบมือเปลี่ยนเรื่องต่อ"
 
 # hi "So! That's enough stretching, right?"
-hi ""
+hi "โอเค! ยืดเส้นกันพอแล้วเนอะ"
 
 show emi sad_grin_gym
 with charachange
 
 # "Emi gives a casual shrug."
-""
+"เอมิยักไหล่สบาย ๆ"
 
 # emi "Do you feel stretched? That's really how you tell."
-emi ""
+emi "รู้สึกได้ยืดบ้างหรือยังล่ะ ปกติจะดูว่ายืดพอหรือยังก็ดูแบบนั้นแหละ"
 
 # "Well, I do feel up to the run, if that's what she means."
-""
+"อืม ก็รู้สึกพร้อมวิ่งแล้วนะ ถ้าหมายความว่าอย่างนั้น"
 
 # hi "Yeah, I feel ready to go."
-hi ""
+hi "อื้ม พร้อมแล้ว"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "Same as yesterday, okay?"
-emi ""
+emi "เหมือนเมื่อวานนะ"
 
 # emi "We'll just run for a mile at a steady pace."
-emi ""
+emi "วิ่งให้สม่ำเสมอให้ครบหนึ่งพันหกร้อยเมตร"
 
 show emi basic_closedhappy_gym
 with charachange
 
 # emi "Don't worry about going really fast, just worry about keeping the pace, got it?"
-emi ""
+emi "ไม่ต้องห่วงเรื่องความเร็วหรอก แค่คอยรักษาฝีเท้าให้คงที่ก็พอ โอเคนะ"
 
 # hi "You're the boss."
-hi ""
+hi "เธอว่าไงก็ว่างั้น"
 
 play music music_running fadein 0.5
 
@@ -2259,28 +2259,26 @@ with charamoveoutleft
 $ renpy.music.set_volume(0.5, 2.0, channel="ambient")
 
 # "Emi grins again, and we take off around the track."
-""
+"เอมิยิ้มอีกครั้งก่อนที่เราจะออกวิ่ง"
 
 scene bg school_track_running
 with Dissolve(2.0)
 
-# "…"
-""
+"…"
 
-# "…"
-""
+"…"
 
 # "I think I'm going to die."
-""
+"ฉันว่าฉันจะตายแล้ว"
 
 # "We're not even done with the first lap, and my legs are on fire."
-""
+"ยังไม่ถึงหนึ่งรอบเลย แต่ขาฉันเหมือนจะสุกแล้ว"
 
 # "My breath is coming in ragged gasps."
-""
+"ลมหายใจฉันเริ่มหอบถี่"
 
 # "I can feel sweat pouring down my brow, and we've only just now rounded the second turn."
-""
+"เหงื่อผุดขึ้นที่คิ้ว ตอนนี้เพิ่งผ่านโค้งที่สองมาเอง"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -2288,7 +2286,7 @@ show emi basic_closedgrin_gym at left
 with charamoveinleft
 
 # emi "Come on, Hisao! You've got three more laps to go!"
-emi ""
+emi "มาสิฮิซาโอะ! ยังเหลืออีกสามรอบนะ!"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
@@ -2296,31 +2294,31 @@ hide emi
 with easeoutleft
 
 # "I can't do this…"
-""
+"ไม่ไหวแล้ว…"
 
 # "I can't do this."
-""
+"ไม่ไหวแล้ว"
 
 # "I can't do this!"
-""
+"ไม่ไหวแล้ว!"
 
 # "I think I might hurl."
-""
+"เหมือนจะอ้วก"
 
 # "Somehow we're on the second lap. Emi's not even sweating."
-""
+"เข้าสู่รอบที่สองแล้ว เอมิยังไม่เหงื่อออกเลยด้วยซ้ำ"
 
 # "How can she do this so effortlessly?"
-""
+"ทำไมวิ่งได้สบายขนาดนั้นนะ"
 
 # "For some reason I'm still moving."
-""
+"ไม่รู้ทำไมขาฉันถึงยังขยับได้"
 
 # "She's like a machine."
-""
+"เอมิเหมือนเครื่องจักรกลเลย"
 
 # "Third lap. What happened to the second?"
-""
+"รอบที่สาม เกิดอะไรขึ้นในรอบที่สองนะ?"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -2328,7 +2326,7 @@ show emi excited_proud_gym at left
 with charamoveinleft
 
 # emi "Almost there, Hisao!"
-emi ""
+emi "อีกนิด ฮิซาโอะ!"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
@@ -2336,13 +2334,13 @@ hide emi
 with easeoutleft
 
 # "Liar! We've got another two!"
-""
+"โกหก! เหลืออีกตั้งสองรอบ!"
 
 # "Nothing to be done."
-""
+"ทำอะไรไม่ได้แล้ว"
 
 # hi "I… ca… can't… do… this."
-hi ""
+hi "ไม่… วะ… ไหว… แล้ว"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -2350,25 +2348,25 @@ show emi basic_annoyed_gym
 with charamoveinleft
 
 # "Emi whirls around and begins running backwards."
-""
+"เอมิหมุนตัวแล้วออกวิ่งถอยหลัง"
 
 # "Her face is a mask of anger that surprises me."
-""
+"สีหน้าของเธอเป็นความโกรธที่ทำให้ฉันแปลกใจ"
 
 show emi sad_angry_gym
 with charachange
 
 # emi "Never say that!"
-emi ""
+emi "ห้ามพูดอย่างนั้น!"
 
 # emi "If you say that, you'll have already lost."
-emi ""
+emi "ถ้าพูดอย่างนั้นก็แปลว่านายแพ้แล้ว"
 
 show emi sad_angry_gym at left
 with charamove
 
 # emi "Keep moving! If you're alive, you can keep moving, dammit!"
-emi ""
+emi "ไปเรื่อย ๆ ! ถ้ายังไม่ตายก็ไปต่อได้นะ ปัดโธ่!"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
@@ -2376,22 +2374,22 @@ hide emi
 with easeoutleft
 
 # "Whoa, language. We're on the fourth lap now."
-""
+"คำพูดคำจา รอบที่สี่แล้ว"
 
 # "She really seems to want me to keep going."
-""
+"ดูท่าจะอยากให้ฉันไปต่อจริง ๆ"
 
 # "Legs move. Move. Move. They feel so sluggish."
-""
+"ขยับขา ขยับ ขยับ หน่วงเหลือเกิน"
 
 # "I'm in mud, or molasses, or tar."
-""
+"เหมือนติดโคลน น้ำตาลหนืด ทาร์"
 
 # "I can't go on."
-""
+"ไปต่อไม่ได้แล้ว"
 
 # "I'll go on."
-""
+"ฉันจะไปต่อ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="ambient")
 
@@ -2399,7 +2397,7 @@ show emi basic_grin_gym at left
 with charamoveinleft
 
 # emi "Final stretch, Hisao! Give it all you've got!"
-emi ""
+emi "โค้งสุดท้ายแล้วฮิซาโอะ! ใส่เต็มที่เลย!"
 
 $ renpy.music.set_volume(0.5, 0.5, channel="ambient")
 
@@ -2407,16 +2405,16 @@ hide emi
 with easeoutleft
 
 # "I pump my legs as fast as they'll go."
-""
+"ฉันออกแรงขาไปให้เร็วที่สุดเท่าที่ทำได้"
 
 # "They keep refusing to obey my commands."
-""
+"ขายังไม่ยอมเชื่อฟังที่ฉันสั่ง"
 
 # "Somehow, I keep moving."
-""
+"ไม่รู้ทำไมฉันถึงยังไปต่อได้"
 
 # "Somehow, I finish."
-""
+"ไม่รู้ทำไมฉันถึงเข้าเส้นชัยได้"
 
 stop ambient fadeout 0.5
 
@@ -2426,23 +2424,23 @@ with charaenter
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 # emi "That's it, Hisao! I knew you had it in you!"
-emi ""
+emi "นั่นแหละฮิซาโอะ! ว่าแล้วเชียวว่านายต้องทำได้!"
 
 # "The anger Emi showed a lap ago is gone, replaced with pride."
-""
+"ความโกรธที่เอมิแสดงให้เห็นเมื่อรอบที่แล้วนั้นหายไปและถูกแทนที่ด้วยความภาคภูมิ"
 
 # "She's positively radiant, like she just won the gold medal or something."
-""
+"สีหน้าดูสดใสเหมือนเพิ่งชนะรางวัลเหรียญทองหรืออะไรมา"
 
 scene bg school_track_on
 show emi excited_happy_gym at center
 with vpunch
 
 # "I stagger to a stop and fall to my hands and knees, gasping for air."
-""
+"ฉันโซซัดโซเซมาแล้วทรุดตัวลงใช้มือกับเข่ายันตัวไว้พลางอ้าปากหายใจ"
 
 # "My heart is pounding far harder than it has in a long time."
-""
+"ใจฉันเต้นแรงกว่าทุกทีมากอย่างที่ไม่เคยรู้สึกมาแสนนาน"
 
 stop music fadeout 1.0
 
@@ -2454,7 +2452,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "I don't think it's done this since…"
-""
+"ฉันว่าไม่ได้ทำแบบนี้มาตั้งแต่…"
 
 play sound sfx_heartslow
 show heartattack alpha
@@ -2464,7 +2462,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "Oh God."
-""
+"ตายแล้ว"
 
 scene black
 with shuteyefast
@@ -2477,7 +2475,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "Please slow down, heart."
-""
+"ช้า ๆ ก่อนนะหัวใจฉัน"
 
 play sound sfx_heartfast
 show heartattack
@@ -2494,7 +2492,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "Just slow down. Stop racing."
-""
+"ช้า ๆ หน่อย เลิกเต้นแรงได้แล้ว"
 
 play sound sfx_heartfast
 show heartattack
@@ -2511,7 +2509,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "I cough, and for some reason, feel a grin crossing my face."
-""
+"ฉันไอ และไม่รู้ทำไมถึงได้เหยียดยิ้มออกมา"
 
 play sound sfx_heartfast
 show heartattack
@@ -2528,7 +2526,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "So this is how I die, huh?"
-""
+"ฉันต้องตายแบบนี้สินะ"
 
 play sound sfx_heartfast
 show heartattack
@@ -2545,7 +2543,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "Trying to stay healthy?"
-""
+"จะรักษาสุขภาพเหรอ"
 
 play sound sfx_heartfast
 show heartattack
@@ -2562,7 +2560,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "How ironic."
-""
+"ย้อนแย้งเป็นบ้า"
 
 play sound sfx_heartfast
 show heartattack
@@ -2586,7 +2584,7 @@ hide heartattack
 with Dissolve (0.2)
 
 # "I'm all ready to give up right there."
-""
+"ฉันพร้อมจะสิ้นลมเสียตรงนี้แล้ว"
 
 play sound sfx_heartslow
 show heartattack
@@ -2610,74 +2608,74 @@ hide heartattack
 with Dissolve (0.2)
 
 # "But then, I feel my heart slow down."
-""
+"แต่แล้วหัวใจฉันก็เต้นช้าลง"
 
 # "Two hands grab under my arms and tug upwards."
-""
+"มีสองมือมาจับแขนดึงฉันขึ้น"
 
 scene bg school_track_on
 show emi basic_confused_gym_close at center
 with openeye
 
 # "I look up and see Emi standing over me, with a mixture of delight and worry."
-""
+"พอเงยหน้ามองก็เห็นเอมิที่ยืนค้ำหัวอยู่พร้อมสีหน้าพึงใจและเป็นห่วง"
 
 # emi "On your feet!"
-emi ""
+emi "ยืนขึ้น!"
 
 show emi sad_grin_gym_close
 with charachange
 
 # emi "Come on, you'll never catch your breath that way."
-emi ""
+emi "เร็ว มัวแต่อยู่แบบนั้นแล้วยังไงก็หายใจไม่ทันแน่"
 
 # "Somehow, I manage to stand. I try to raise my arms above my head, but they feel like lead."
-""
+"ไม่รู้ทำไมฉันถึงยืนขึ้นได้ ฉันจะยกแขนขึ้นเหนือหัว แต่ก็หนักเหมือนมีตะกั่วถ่วง"
 
 # "I start to walk around the track while Emi keeps close to me, like she's afraid I'll fall over or something."
-""
+"ฉันเดินไปรอบลู่วิ่งโดยมีเอมิคอยประกบเหมือนกลัวฉันสะดุดล้มหรืออะไร"
 
 # "She may not be far off."
-""
+"ซึ่งก็คงคิดถูกแล้วแหละ"
 
 # "I feel terrible, and say so."
-""
+"รู้สึกไม่ไหวเลย ฉันพูดออกไป"
 
 show emi basic_closedhappy_gym_close
 with charachange
 
 # "Emi laughs."
-""
+"เอมิหัวเราะ"
 
 show emi basic_happy_gym_close
 with charachange
 
 # emi "But you finished, didn't you?"
-emi ""
+emi "แต่ก็วิ่งจนครบได้นี่"
 
 show emi basic_grin_gym_close
 with charachange
 
 # emi "You said you couldn't, but you did."
-emi ""
+emi "นายบอกว่าไม่ไหว แต่สุดท้ายก็ไหว"
 
 # emi "Isn't that worth it?"
-emi ""
+emi "เท่านี้ก็คุ้มแล้วนี่นา"
 
 # "I'm not sure, and I don't really have the breath to say so."
-""
+"ไม่แน่ใจ แต่ฉันหายใจไม่ทันพอที่จะพูดได้แล้ว"
 
 # "But that small grin I felt on my face earlier hasn't left."
-""
+"แต่รอยยิ้มบนใบหน้าฉันเมื่อครู่นั้นยังไม่หายไป"
 
 # "So what if my heart's weak?"
-""
+"หัวใจอ่อนแอแล้วไง"
 
 # "I still survived this morning."
-""
+"เช้านี้ฉันยังไม่ตาย"
 
 # "Maybe I'll survive tomorrow, too."
-""
+"พรุ่งนี้ฉันก็คงไม่ตาย"
 
 scene bg school_track
 with shorttimeskip
@@ -2687,13 +2685,13 @@ $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_emisprinting
 
 # "As soon as it becomes apparent that I'm not going to suddenly keel over, Emi takes off on her sprints."
-""
+"พอชัดแล้วว่าฉันอาการไม่หนักถึงขั้นที่จะล้มลงไปแบบกะทันหันเอมิก็ออกวิ่ง"
 
 # "I don't know how the hell she can manage to sprint after running a mile, but I guess she's in much better shape than me."
-""
+"ไม่รู้ว่าวิ่งต่อไหวได้ยังไงทั้งที่วิ่งมาหลายเมตรขนาดนั้นแล้ว แต่เอมิน่าจะฟิตกว่าฉันเยอะ"
 
 # "Once again, as I walk around the track, I can't help watching Emi sprint."
-""
+"ระหว่างที่เดินไปรอบลู่ฉันก็อดมองเอมิวิ่งอีกครั้งไม่ได้"
 
 #maybe need a third variation here, or reuse the second one?
 
@@ -2701,34 +2699,34 @@ scene ev emi_run_face_zoomin
 with locationchange
 
 # "It's weird, but she's like a different person when she's pushing herself."
-""
+"แปลก แต่เวลาที่เอมิพยายามแล้วเหมือนเธอกลายเป็นคนละคนเลย"
 
 # "Last time I noticed her eyes, but this time it's her mouth that catches my attention."
-""
+"ครั้งก่อนฉันมองตา แต่คราวนี้ฉันสะดุดตากับปาก"
 
 # "She's not wearing her normal grin."
-""
+"เอมิไม่ได้ยิ้มอย่างทุกที"
 
 # "She's still smiling, but there's a tightness to it."
-""
+"เธอยังยิ้ม แต่มีการเม้มริมฝีปากแน่น"
 
 # "It's almost grim, like she's fighting a losing battle but doesn't care."
-""
+"ดูแล้วก็ชวนให้หวั่น ๆ เหมือนกำลังสู้ในศึกที่ไม่ว่าอย่างไรเธอก็จะแพ้แต่ไม่สนใจ"
 
 # "She seems to be running harder, like she did yesterday."
-""
+"เหมือนจะวิ่งหนักกว่าเดิมเหมือนอย่างเมื่อวาน"
 
 # "Sweat has started to pour down her face, but she keeps going."
-""
+"หน้าเธอเริ่มมีเหงื่อออกแล้ว แต่เอมิยังวิ่งต่อ"
 
 # "Her mouth finally opens as she can no longer get enough air through her nose."
-""
+"เอมิอ้าปากออกในที่สุดเมื่อลมหายใจจากทางจมูกไม่พอ"
 
 # "As she passes me once more, legs pumping, arms swinging in time, and her lips slightly parted…"
-""
+"เอมิวิ่งผ่านฉันไปอีกครั้ง ขาโจนทะยาน แขนแกว่งตามจังหวะ ริมฝีปากเผยอเล็กน้อย"
 
 # "She looks beautiful."
-""
+"งดงามเหลือเกิน"
 
 stop ambient fadeout 2.0
 
@@ -2739,139 +2737,139 @@ play music music_normal fadein 3.0
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 # "After we've both taken some laps around the track to cool down, Emi changes back to her usual self."
-""
+"หลังจากที่เดินรอบลู่วิ่งคูลดาวน์กันแล้วเอมิก็กลับไปเป็นตัวเธอคนเดิม"
 
 # "The transformation I saw in her is gone."
-""
+"ความเปลี่ยนแปลงในตัวเธอที่ฉันเห็นเมื่อครู่นั้นหายไปแล้ว"
 
 show emi basic_happy_gym at center
 with charaenter
 
 # emi "Not bad today, Hisao."
-emi ""
+emi "ไม่เลวเลยนะวันนี้ ฮิซาโอะ"
 
 # "There's almost admiration in her voice."
-""
+"น้ำเสียงเอมิเจือความชื่นชม"
 
 # hi "What do you mean? I would have stopped if you hadn't yelled at me."
-hi ""
+hi "หมายความว่าไง ถ้าเธอไม่ตะโกนใส่ฉันก็คงหยุดไปแล้ว"
 
 show emi sad_shyblush_gym
 with charachange
 
 # "Emi colors a little, seemingly embarrassed about her outburst."
-""
+"หน้าเอมิขึ้นสีแดงเรื่อดูจะอาย ๆ ที่ทำตัวอย่างนั้นไป"
 
 # emi "Sorry about that, I just… can't stand to see people give up."
-emi ""
+emi "ขอโทษทีนะ คือฉัน… ทนเห็นคนยอมแพ้ไม่ได้น่ะ"
 
 # emi "Especially about something like this."
-emi ""
+emi "แล้วยิ่งกับอะไรแบบนี้ด้วย"
 
 show emi sad_grin_gym
 with charachange
 
 # emi "Saying “I can't go on” is silly when you're obviously going on while you're saying it."
-emi ""
+emi "บอกว่า “ไม่ไหวแล้ว” ทั้งที่เห็น ๆ กันอยู่ว่ายังไปต่อน่ะมันบ้าบอนะ"
 
 # emi "That's what this is all about."
-emi ""
+emi "หลัก ๆ แล้วประเด็นก็คือตรงนี้แหละ"
 
 # hi "What, saying silly things?"
-hi ""
+hi "คืออะไร พูดอะไรที่บ้าบอเหรอ"
 
 show emi basic_annoyed_gym
 with charachange
 
 # "Emi sticks her tongue out at me."
-""
+"เอมิแลบลิ้นใส่"
 
 # emi "Idiot. I mean showing that you're alive."
-emi ""
+emi "บ้า หมายถึงการที่แสดงให้เห็นว่ายังมีชีวิตอยู่ไง"
 
 # "Showing I'm alive, huh? I didn't know it had to be so painful."
-""
+"แสดงให้เห็นว่ายังมีชีวิตอยู่งั้นเหรอ ไม่ยักรู้ว่ามันจะทรมานขนาดนี้"
 
 # "But it does feel pretty good, despite that."
-""
+"แต่ถึงจะทรมานก็รู้สึกดีเหมือนกัน"
 
 show emi excited_proud_gym
 with charachange
 
 # emi "Besides, this is one of the hardest days."
-emi ""
+emi "อีกอย่าง นี่แหละคือวันที่ลำบากที่สุด"
 
 # hi "What do you mean?"
-hi ""
+hi "หมายความว่าไง"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "Whenever you start a workout, it's difficult the first day, really hard the second day, and then the third day is easier."
-emi ""
+emi "พอเริ่มออกกำลังกายแล้ว วันแรกจะยาก วันที่สองจะยากมาก แต่พอวันที่สามแล้วก็จะง่าย"
 
 # emi "You'll still get days that are really hard, but they'll pop up less and less."
-emi ""
+emi "ก็ยังมีวันที่ยากมากอยู่ แต่จะค่อย ๆ หายไปเรื่อย ๆ"
 
 # hi "So this will eventually get really easy, huh?"
-hi ""
+hi "แล้วสักวันก็จะง่ายมากงั้นเหรอ"
 
 show emi basic_closedhappy_gym
 with charachange
 
 # emi "Yeah, of course."
-emi ""
+emi "อื้ม แหงสิ"
 
 show emi basic_closedgrin_gym
 with charachange
 
 # emi "But then you have to increase the difficulty, or you'll never get ahead."
-emi ""
+emi "แต่ต้องเพิ่มความยากไปเรื่อย ๆ นะ ไม่งั้นก็จะไม่พัฒนา"
 
 # emi "You'll just get complacent, and you'll lose the sense of accomplishment."
-emi ""
+emi "ไม่งั้นก็จะอิ่มตัว ไม่รู้สึกว่าประสบความสำเร็จอะไรอีก"
 
 # hi "So I'll have to run more than just four laps, huh?"
-hi ""
+hi "เพราะงั้นก็จะได้วิ่งมากกว่าสี่รอบสินะ"
 
 show emi excited_proud_gym
 with charachange
 
 # emi "Yep! But not for a while - you'll have to be careful, you know."
-emi ""
+emi "อื้ม! แต่ก็อีกสักพักแหละ ต้องคอยระวัง ๆ นี่นะ"
 
 # "A thought strikes Emi, and her face lights up."
-""
+"เอมิทำหน้าเหมือนนึกอะไรออก"
 
 show emi basic_closedhappy_gym
 with charachange
 
 # emi "Got it!"
-emi ""
+emi "รู้แล้ว!"
 
 # hi "Got what?"
-hi ""
+hi "รู้อะไร"
 
 show emi basic_happy_gym
 with charachange
 
 # emi "You can come with me to see the nurse! That way you won't fall over dead or anything!"
-emi ""
+emi "มาหาคุณพยาบาลพร้อมกับฉันสิ! จะได้แน่ใจว่านายจะไม่ล้มตายไปเฉย ๆ หรืออะไรน่ะ!"
 
 # "How charming."
-""
+"น่าสนมาก ๆ"
 
 # hi "Um… when?"
-hi ""
+hi "เอ่อ… ตอนไหนล่ะ"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "Right now, of course! You'll need a shower and everything, right? We don't have much time, then!"
-emi ""
+emi "ก็ต้องตอนนี้สิ! เดี๋ยวต้องไปอาบน้ำไปอะไรอีกใช่มั้ย งั้นก็เหลือเวลาไม่มากแล้ว!"
 
 # "Grabbing my hand, she's off, pulling me along with her."
-""
+"เอมิคว้าแขนฉันลากให้ตามไปด้วย"
 
 stop music fadeout 2.0
 
