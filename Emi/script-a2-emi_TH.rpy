@@ -919,7 +919,7 @@ show emi basic_closedgrin at center
 with charaenter
 
 # "Fortunately Emi chooses that moment to burst through the door carrying two bags."
-"โชคดีที่เอมิเลือกเวลาโผล่ออกมาจากประตูอย่างได้จังหวะพร้อมกับถุงทั้งสองที่ถือไว้ในมือ"
+"โชคดีที่เอมิเลือกเวลาโผล่ออกมาจากประตูได้อย่างถูกจังหวะพร้อมกับถุงทั้งสองที่ถือไว้ในมือ"
 
 # "She nearly takes the door off the hinges."
 "ตอนเปิดออกมาทำเอาบานประตูแทบหลุดจากบานพับ"
@@ -5452,34 +5452,34 @@ $ renpy.music.set_volume(0.3, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 1.0
 
 # n "\n\nStrange that it feels so natural for me to go up to the roof these days."
-n ""
+n "\n\nแปลกดีที่ช่วงสองสามวันมานี้ฉันชินกับการขึ้นมาดาดฟ้าแล้ว"
 
 # n "I never would have done such a thing at my old school."
-n ""
+n "ถ้าเป็นที่โรงเรียนเก่าละก็ฉันแทบไม่มาทำอะไรแบบนี้เลย"
 
 # n "In those days I liked to eat alone… no, that's not quite true. Though I liked to sit alone, I also liked to watch people."
-n ""
+n "สมัยนั้นฉันชอบกินข้าวคนเดียว… ไม่สิ ก็ไม่เชิง ถึงจะชอบนั่งคนเดียวแต่ก็ชอบดูผู้คนไปด้งบ"
 
 # n "I always figured that was the sort of person I was, but it appears I was wrong."
-n ""
+n "ฉันคิดมาตลอดว่าตัวเองเป็นคนแบบนั้น แต่เหมือนจะคิดผิด"
 
 # n "Then again, I also thought I was the sort of person who had a normal heart, so there you have it."
-n ""
+n "แต่ก็นะ ฉันเคยคิดเหมือนกันว่าฉันเป็นคนที่หัวใจปกติ นั่นแหละ"
 
 # n "I don't know myself that well."
-n ""
+n "ฉันไม่ได้รู้จักตัวเองดีขนาดนั้น"
 
 # n "Now I'm on the roof so that I can have lunch with a couple of people."
-n ""
+n "ตอนนี้ฉันมาอยู่ที่ดาดฟ้าเพื่อกินข้าวเที่ยงกับคนอีกสองคน"
 
 # n "And they are both girls, which is even stranger."
-n ""
+n "และทั้งสองคนก็เป็นผู้หญิง ซึ่งแปลกไปใหญ่"
 
 # n "Oddly enough, I feel closer to Emi and Rin than I felt to anyone at my old school."
-n ""
+n "และยังแปลกที่ว่าฉันสนิทกับเอมิกับรินยิ่งกว่าคนที่โรงเรียนเก่าด้วยซ้ำ"
 
 # n "Somehow I get the feeling they'd at least visit me if I wound up in the hospital."
-n ""
+n "ไม่รู้ทำไมถึงรู้สึกได้ว่าถ้าฉันเข้าโรงพยาบาลแล้วอย่างไรสองคนนี้ก็ต้องมาเยี่ยม"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 
@@ -5490,13 +5490,13 @@ nvl clear
 window show
 
 # "I focus on the view from the roof, banishing such thoughts from my head."
-""
+"ฉันจดจ่ออยู่กับทิวทัศน์จากดาดฟ้านี้พลางปัดความคิดเหล่านั้นออกจากหัว"
 
 # "There's a light breeze blowing, and the sun is shining high in the sky."
-""
+"สายลมโชย แสงแดดส่องจากฟ้า"
 
 # "The sky itself is a deep blue, with hardly a cloud in it. It's gotten pleasantly warm, and as I sit down to wait for my friends, I close my eyes and enjoy the feeling of the sun seeping into my skin."
-""
+"ท้องฟ้าที่เป็นสีน้ำเงินเข้มนั้นแทบไม่มีหมู่เมฆ ช่วงนี้เริ่มอุ่นสบายขึ้นมาแล้ว พอนั่งลงรอเพื่อนของฉันมาฉันก็หลับตา\nกำซาบความรู้สึกถึงแสงแดดที่สาดส่องผิวฉัน"
 
 $ renpy.music.set_volume(0.1, 2.0, channel="ambient")
 
@@ -5510,30 +5510,30 @@ with Pause(4.0)
 window show
 
 # "Voices intrude upon the edge of hearing."
-""
+"มีเสียงแว่วเข้าหูมา"
 
 # emi "—seems to have fallen asleep on us, Rin."
-emi ""
+emi "—ดูท่าจะหลับใส่เราแล้วละริน"
 
 # rin "Maybe he's faking, to lull us into a false sense of security."
-rin ""
+rin "อาจจะแกล้งหลับ หลอกให้เราตายใจ"
 
 # emi "Why would he do that?"
-emi ""
+emi "แล้วฮิซาโอะจะทำแบบนั้นไปทำไม"
 
 # rin "No idea."
-rin ""
+rin "ไม่รู้สิ"
 
 # emi "Still, you make a good point."
-emi ""
+emi "แต่ก็ถูกของเธอ"
 
 # emi "We should kick him or something to make sure he's really asleep."
-emi ""
+emi "ต้องเตะหรือทำอะไรสักอย่างให้แน่ใจว่าหลับจริง ๆ"
 
 stop music fadeout 1.0
 
 # hi "Huh? What?"
-hi ""
+hi "ฮะ? อะไรนะ"
 
 $ renpy.music.set_volume(0.5, 5.0, channel="ambient")
 
@@ -5545,46 +5545,46 @@ with openeye
 play music music_ease fadein 3.0
 
 # "Emi looms over me like only a short girl can, peering at me intently."
-""
+"เอมิยืนบังแดดฉันในแบบที่มีแต่คนตัวเตี้ยจะทำได้พลางจดจ้องมองฉัน"
 
 show emi basic_closedgrin_close
 with charachange
 
 # emi "Oh, you're awake. I guess we don't have to kick you then."
-emi ""
+emi "อ้าว ตื่นแล้ว งั้นก็คงไม่ต้องเตะแล้วละ"
 
 show rin basic_deadpan
 with charachange
 
 # rin "Was it part of your master plan?"
-rin ""
+rin "นายวางแผนไว้แล้วใช่มั้ย"
 
 # hi "What are you talking about?"
-hi ""
+hi "พูดอะไรของเธอ"
 
 show emi basic_grin_close
 with charachange
 
 # "Emi shrugs, her twin tails bouncing with the motion."
-""
+"เอมิยักไหล่จนผมหางม้าเด้งตามไป"
 
 show emi basic_closedhappy_close
 with charachange
 
 # emi "I'm not sure either."
-emi ""
+emi "ฉันก็ไม่แน่ใจเหมือนกัน"
 
 show emi sad_grin_close
 with charachange
 
 # emi "You must be pretty tired to fall asleep out here."
-emi ""
+emi "มาหลับอยู่ตรงนี้คงเพลียน่าดู"
 
 show emi basic_closedgrin_close
 with charachange
 
 # emi "Although it's pretty comfortable, I suppose."
-emi ""
+emi "แต่บรรยากาศก็น่านอนดีเหมือนกัน"
 
 show emi basic_closedgrin_close:
     yanchor 0.9
@@ -5592,7 +5592,7 @@ with ease
 with vpunch
 
 # "She plops down next to me and begins to eat."
-""
+"เอมิผลุบตัวลงนั่งแล้วเริ่มกิน"
 
 show rin basic_absent
 with charachange
@@ -5602,22 +5602,22 @@ show rin basic_absent:
 with charamove
 
 # "Rin sits opposite from the two of us, a move which only makes me more aware of the girl sitting next to me."
-""
+"รินนั่งอยู่ตรงข้ามกับเราสองคน ซึ่งยิ่งทำให้ฉันประหม่ากับคนข้าง ๆ เข้าไปอีก"
 
 # "If I didn't know any better, I'd swear Rin did it on purpose."
-""
+"ถ้าฉันไม่ได้รู้จักรินจริง ๆ แล้วละก็คงคิดว่าจงใจนั่งตรงนั้นด้วยซ้ำ"
 
 # "I concentrate on my food, trying to tune out the majority of the conversation that Rin and Emi are having."
-""
+"ฉันจดจ่ออยู่กับการกินอาหารพลางตัดเสียงบทสนทนาหลายอย่างที่รินกับเอมิคุยกัน"
 
 # "Despite my best efforts, however, I still find myself glancing over at Emi whenever she speaks."
-""
+"แต่ถึงอย่างนั้นฉันก็ยังเหลือบมองไปทางเอมิทุกครั้งที่เธอพูดอยู่ดี"
 
 show emi basic_grin_close
 with charachange
 
 # "I notice how she purses her lips when she's thinking about something, squinting slightly as if that would improve her thinking ability."
-""
+"ฉันเห็นว่าเวลาเอมิคิดอะไรแล้วเธอจะเม้มปากขมวดคิ้วเล็กน้อยราวกับว่าทำแล้วจะคิดออกง่ายขึ้น"
 
 show rin basic_deadpan
 with charachange
@@ -5629,158 +5629,158 @@ show emi basic_closedhappy_close at Transform(function=tf_leftrock)
 with charachange
 
 # "Rin says something that makes Emi laugh, and I notice, perhaps for the first time, how she laughs with her whole body, rocking back and forth, head thrown back, almost like she's about to fall over."
-""
+"รินพูดอะไรสักอย่างจนทำให้เอมิหัวเราะ และฉันก็เห็น—น่าจะเพิ่งเห็นเป็นครั้งแรกเลย—ว่าเอมิหัวเราะแบบ\nตัวโยกตัวโยนแหงนหน้าขึ้นเหมือนจะหงายหลังล้มไป"
 
 # "I probably look like a creep."
-""
+"สงสัยตอนนี้ฉันกลายเป็นคนน่าขยะแขยงไปแล้ว"
 
 show emi basic_confused_close
 with charachange
 
 # "It's about this time that I realize Emi's looking at me. Her voice raised slightly, so she's probably just asked me a question."
-""
+"เป็นจังหวะนี้เองที่ฉันรู้ตัวว่าเอมิมองฉันอยู่ เธอขึ้นเสียงเล็กน้อย น่าจะเพิ่งถามอะไรไป"
 
 # hi "Huh? Sorry, I kinda zoned out for a moment there."
-hi ""
+hi "หือ ขอโทษที พอดีเมื่อกี้เหม่อ ๆ"
 
 show rin basic_deadpannormal
 show emi basic_annoyed_close
 with charachange
 
 # "Emi rolls her eyes, while a slight quirk of the eyebrow is the only sign that Rin's even paying attention."
-""
+"เอมิกลอกตา สิ่งเดียวที่บ่งบอกว่ารินสนใจอยู่คือคิ้วที่เลิกขึ้นเล็กน้อย"
 
 # emi "I said, did you get a career survey in your class too?"
-emi ""
+emi "ฉันถามว่าห้องนายมีแจกแบบสอบถามเรื่องเส้นทางอาชีพด้วยมั้ย"
 
 show emi basic_grin_close
 with charachange
 
 # emi "You know, one of those “What do you want to do after high school?” things?"
-emi ""
+emi "แบบ ที่ถามประมาณว่า “เรียนจบแล้วจะทำอะไรต่อ” น่ะ"
 
 # hi "I don't… think so. Maybe we'll get one tomorrow."
-hi ""
+hi "ไม่… น่านะ ห้องฉันอาจจะได้พรุ่งนี้มั้ง"
 
 show emi excited_happy_close
 with charachange
 
 # emi "What are you going to put down?"
-emi ""
+emi "นายจะเขียนว่าอะไร"
 
 # "That's a really good question."
-""
+"ถามได้ดีมาก"
 
 # "I guess I always figured I'd go to college after high school, but I've no idea what I'd do once I got there."
-""
+"เหมือนฉันจะกะไว้แล้วว่าเรียนจบแล้วคงต่อมหาวิทยาลัย แต่ก็ยังไม่รู้เลยว่าจะเข้าไปเรียนอะไร"
 
 # "And with the heart attack and all, I'd really been concentrating on each day as it came rather than making long-term plans."
-""
+"แล้วยิ่งมีเรื่องหัวใจวายอะไรนี่อีก ฉันเลยได้แต่จดจ่ออยู่กับเรื่องในแต่ละวันไป ไม่ได้วางแผนระยะยาวอะไร"
 
 # "I suppose I can safely start planning ahead, again."
-""
+"ตอนนี้น่าจะพอวางแผนอะไรได้แล้วละนะ"
 
 # "I've always liked having at least a vague plan for my future, so it'll be nice to come up with one again."
-""
+"ปกติฉันชอบคิดแผนคร่าว ๆ สำหรับอนาคตไว้ตลอด เพราะงั้นกลับมาคิดอีกทีก็คงดีเหมือนกัน"
 
 # "Of course, that doesn't change the fact that right now I've got absolutely…"
-""
+"แต่ก็แน่ละว่าตอนนี้ฉันน่ะยัง…"
 
 # hi "…No clue."
-hi ""
+hi "…ไม่รู้เลย"
 
 # hi "I always kind of assumed I'd figure it out in college. That or just become a salaryman. That's pretty popular."
-hi ""
+hi "ฉันคิดไว้ว่าพอเข้ามหา’ลัยแล้วเดี๋ยวก็คงเห็นเส้นทางเอง หรือไม่ก็ไปเป็นพนักงานเงินเดือน เห็นคนทำกันเยอะเลย"
 
 # "But do I really want to? That's a tough question."
-""
+"แต่ถ้าถามว่าอยากจริง ๆ มั้ยอันนี้ก็ตอบยาก"
 
 # "I guess I don't really want to do anything."
-""
+"ฉันก็คงอยากทำอะไรได้หมดน่ะแหละ"
 
 show emi basic_closedhappy_close
 with charachange
 
 # emi "You don't sound very excited about that one, do you?"
-emi ""
+emi "ฟังดูนายไม่ค่อยตื่นเต้นกับแผนนั้นเท่าไหร่เลยนะ"
 
 show emi basic_closedhappy_close at Transform(function=tf_leftrock)
 with None
 
 # "She laughs as she says this, and I'm caught up in her laugh again."
-""
+"เอมิพูดพลางหัวเราะ และฉันก็สนใจกับการหัวเราะของเธออีกแล้ว"
 
 # "It's so… girlish. High and giggly, like a… well, pardon the cliché - like a babbling brook."
-""
+"ช่าง… สมเป็นเด็กผู้หญิง เสียงแหลมสูงคิกคัก เหมือน… ขอประทานอภัยที่ใช้คำเฝือ ๆ เหมือนหยาดทิพย์ชโลมใจ"
 
 # "It bubbles out of her, starting in her belly and working its way up her throat."
-""
+"ที่หลั่งออกมาจากปากเธอโดยต้นน้ำอยู่ในท้องแล้วไหลผ่านคอออกมา"
 
 # "I can't help but laugh myself - it's infectious."
-""
+"ฉันอดหัวเราะตามไม่ได้ เป็นเสียงหัวเราะที่ชวนให้หัวเราะตาม"
 
 # hi "Yeah, I guess I'm pretty unhappy with the salaryman idea."
-hi ""
+hi "อืม ฉันก็คงไม่ได้อยากเป็นพนักงานเงินเดือนขนาดนั้นแหละ"
 
 # hi "But to be honest, I haven't given much thought to the future recently."
-hi ""
+hi "แต่เอาตรง ๆ ช่วงนี้ฉันก็ไม่ค่อยได้คิดถึงเรื่องอนาคตเท่าไหร่"
 
 # hi "I suppose that, these days, I've been more concerned with living one day at a time."
-hi ""
+hi "อาจจะเพราะเดี๋ยวนี้ฉันคิดแต่เรื่องใช้ชีวิตแบบวันต่อวันมากกว่ามั้ง"
 
 show emi basic_grin_close
 with charachange
 
 # "Emi considers this for a moment and grins."
-""
+"เอมิคิดอยู่ครู่หนึ่งแล้วยกยิ้ม"
 
 # emi "That's a pretty good idea, Hisao!"
-emi ""
+emi "ก็เป็นความคิดที่ดีเหมือนกันนะฮิซาโอะ!"
 
 show emi excited_proud_close
 with charachange
 
 # emi "I just wrote down, “Pirate.”"
-emi ""
+emi "ส่วนฉันเขียนไปว่า “โจรสลัด”"
 
 # "I'm momentarily stunned, then I start laughing."
-""
+"ฉันผงะไปแวบหนึ่ง แต่ก็หัวเราะออกมา"
 
 # "I stop myself and manage to gasp out a question."
-""
+"ฉันหยุดหัวเราะแล้วเปิดปากถาม"
 
 # hi "You're… you're not actually serious, are you?"
-hi ""
+hi "เธอ… เธอพูดเล่น ใช่มั้ย"
 
 show emi sad_annoyed_close
 with charachange
 
 # "Emi looks mock offended."
-""
+"เอมิแสร้งทำท่าไม่พอใจ"
 
 # emi "Well I've got the legs for it already, so I just kind of figured…"
-emi ""
+emi "นี่ไง ขาฉันก็เหมือนโจรสลัดแล้ว ก็เลยคิด ๆ อยู่…"
 
 show rin basic_amused
 with charachange
 
 # "Even Rin seems amused by this."
-""
+"แม้แต่รินยังดูชอบใจ"
 
 show emi basic_annoyed_close
 with charachange
 
 # emi "Just you wait, I'll be the terror of the high seas!"
-emi ""
+emi "คอยดูเธอ ฉันจะเป็นจ้าวเหนือน่านน้ำให้ได้เลย!"
 
 # emi "I'll show you all!"
-emi ""
+emi "คอยดูเถิด!"
 
 show emi basic_closedhappy_close
 with charachange
 
 # emi "I've even been working on my pirate voice!"
-emi ""
+emi "เดี๋ยวนี้ฉันหัดทำเสียงแบบโจรสลัดด้วยนะ!"
 
 show emi basic_closedhappy_close at offscreenleft
 with ease
@@ -5795,43 +5795,43 @@ show emi basic_annoyed at left
 with ease
 
 # "She suddenly springs up and begins swaggering up and down the rooftop shouting orders."
-""
+"อยู่ ๆ เอมิก็เด้งตัวลุกขึ้นแล้วเดินอาด ๆ วางมาดไปตามดาดฟ้าตะโกนออกคำสั่ง"
 
 show emi basic_annoyed at center
 with ease
 
 # emi "Yarr, me hearties, give 'em a broadside with the long guns!"
-emi ""
+emi "เฮ้ย ไอ้เพื่อนยาก เอาปืนใหญ่ไปสั่งสอนเจ้าพวกนั้นหน่อย!"
 
 show emi basic_annoyed at twoleft
 with ease
 
 # emi "We'll wear their guts for garters!"
-emi ""
+emi "เราจะแล่เนื้อเถือหนังล่ามันให้สิ้นซาก"
 
 show rin basic_deadpanamused
 with charachange
 
 # rin "Do you even know what that means?"
-rin ""
+rin "รู้หรือเปล่าว่าที่พูดหมายความว่ายังไง"
 
 show emi basic_confused
 with charachange
 
 # "Rin's unexpected interruption stops Emi in her tracks."
-""
+"เอมิชะงักเมื่ออยู่ ๆ รินก็ขัดขึ้นมาแบบไม่คาดหมาย"
 
 show emi sad_shy
 with charachange
 
 # emi "Not really."
-emi ""
+emi "ไม่ค่อย"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "But it's all in the delivery!"
-emi ""
+emi "แต่สิ่งสำคัญคือการนำเสนอไง!"
 
 play sound sfx_warningbell
 
@@ -5840,13 +5840,13 @@ show rin basic_awayabsent
 with charachange
 
 # "The ringing of the bell prevents her from demonstrating her point further."
-""
+"เสียงระฆังดังปรามไม่ให้เอมิได้พิสูจน์ถึงสิ่งที่พูดให้เห็นอีก"
 
 hide emi
 with easeoutleft
 
 # "Emi dashes off immediately, leaving Rin and myself alone on the roof."
-""
+"เอมิพุ่งตัวไปทันที ทิ้งให้ฉันกับรินอยู่ตามลำพังบนดาดฟ้า"
 
 show rin basic_awayabsent:
     xpos 0.5
@@ -5857,80 +5857,81 @@ show rin basic_deadpancontemplation
 with charachange
 
 # "Rin stares at me intently for a few moments."
-""
+"รินจ้องฉันไม่วางตาอยู่ขณะหนึ่ง"
 
 # hi "Is there… something wrong?"
-hi ""
+hi "มี… อะไรหรือเปล่า"
 
 show rin basic_lucid
 with charachange
 
 # "Rin considers this question closely for a moment."
-""
+"รินพินิจคำถามนี้พักหนึ่ง"
 
 # "After a lengthy pause, she shakes her head."
-""
+"รินเว้นช่วงไปนานก่อนจะสั่นหัว"
 
 show rin basic_deadpannormal
 with charachange
 
 # rin "Nope."
-rin ""
+rin "ไม่"
 
 # hi "Oh, um…"
-hi ""
+hi "อ้อ เอ่อ…"
 
-extend " why the staring, then?"
+# extend " why the staring, then?"
+extend " แล้วจ้องทำไม"
 
 show rin basic_awayabsent
 with charachange
 
 # "Rin shakes her head again."
-""
+"รินสั่นหัวอีกรอบ"
 
 # rin "Nope, I don't get it."
-rin ""
+rin "ไม่ ไม่เข้าใจ"
 
 # hi "Get what?"
-hi ""
+hi "เข้าใจอะไร"
 
 show rin basic_deadpan
 with charachange
 
 # rin "The staring thing. You two seem to, but I don't."
-rin ""
+rin "ที่จ้องน่ะ เธอสองคนดูเข้าใจ แต่ฉันไม่เข้าใจ"
 
 # "Great. She saw me staring. Now she probably thinks I'm a pervert or something."
-""
+"ยอดเยี่ยม รินเห็นที่ฉันจ้องสินะ แล้วเดี๋ยวก็คิดว่าฉันเป็นคนวิปริตหรืออะไรอีก"
 
 # "Actually, probably not. This is Rin we're talking about, after all."
-""
+"ไม่สิ อาจจะไม่คิด คนอย่างรินคงไม่คิดแบบนั้นหรอก"
 
 # "Still, I feel the need to defend myself."
-""
+"แต่ก็รู้สึกว่าต้องแก้ต่างอยู่"
 
 # hi "I wasn't staring, I was just tired."
-hi ""
+hi "เปล่าจ้อง ฉันแค่เพลีย"
 
 show rin basic_deadpancontemplation
 with charachange
 
 # "Rin actually snorts at this, but she doesn't say anything."
-""
+"รินหัวเราะหึแต่ก็ไม่พูดอะไร"
 
 # hi "No, really! I was just… distracted, is all."
-hi ""
+hi "ไม่ จริง ๆ นะ! ฉันแค่… เหม่ออยู่"
 
 show rin basic_lucid
 with charachange
 
 # rin "Mmm."
-rin ""
+rin "อื้มม"
 
 stop music fadeout 4.0
 
 # "Eager to end this conversation, I head back down to class."
-""
+"ฉันกลับไปเข้าเรียนด้วยไม่อยากคุยต่อ"
 
 stop ambient fadeout 2.0
 
@@ -5940,13 +5941,13 @@ show shizu behind_blank at tworight
 with locationskip
 
 # "I'm greeted by the twin specters of Shizune and Misha, looking like they mean business."
-""
+"ผู้สังเกตการณ์ที่ชื่อชิซูเนะกับมิช่าทักทายฉันด้วยท่าทีเหมือนมีธุระอะไรกับฉัน"
 
 # "Well, Shizune looks like she means business, anyway."
-""
+"ไม่หรอก มีแค่ชิซูเนะที่เหมือนจะมีธุระ"
 
 # "Misha just looks like she's about to start laughing at any minute."
-""
+"ส่วนมิช่าก็ทำท่าเหมือนจะหัวเราะเลยเสียเดี๋ยวนั้น"
 
 play music music_shizune fadein 3.0
 
@@ -5954,189 +5955,188 @@ show misha perky_smile
 with charachange
 
 # mi "Up on the roof again, Hicchan?"
-mi ""
+mi "ไปอยู่บนดาดฟ้าอีกแล้วเหรอฮิจัง"
 
 show misha hips_frown
 with charachange
 
 # mi "You know that's dangerous, don't you~?"
-mi ""
+mi "รู้ใช่มั้ยว่ามันอันตรายน่ะ~"
 
 show shizu basic_angry
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "That's right~!"
-mi ""
+mi "จริงสิ~!"
 
 show misha hips_smile
 with charachange
 
 # mi "The school cannot be held responsible for any injury that comes from being up there, you know!"
-mi ""
+mi "ถ้าไปอยู่บนดาดฟ้าแล้วบาดเจ็บอะไรขึ้นมาทางโรงเรียนจะไม่รับผิดชอบนะรู้มั้ย!"
 
 show misha cross_frown
 with charachange
 
 # mi "Furthermore, we could report you for breaking the rules~!"
-mi ""
+mi "และยิ่งไปกว่านั้นเราก็เอาไปฟ้องได้ด้วยว่าพวกเธอทำผิดกฎ~"
 
 show misha cross_frown_close
 with characlose
 
 # "Misha leans in and whispers conspiratorially."
-""
+"มิช่าโน้มตัวเข้ามาซุบซิบเหมือนมีแผนอะไร"
 
 show misha sign_smile_close
 show shizu behind_smile
 with charachange
 
 # mi "But we won't, Hicchan!"
-mi ""
+mi "แต่เราไม่ฟ้องหรอกนะฮิจัง"
 
 show misha hips_grin_close
 with charachange
 
 # mi "You three are too cute together~!"
-mi ""
+mi "เธอสามคนอยู่ด้วยกันแล้วน่าร้าก~!"
 
 show misha cross_laugh
 with charadistant
 
 # "She straightens up again, laughing at my sudden blush."
-""
+"มิช่ายืดหลังตรงอีกครั้งแล้วหัวเราะเมื่อเห็นฉันหน้าแดง"
 
 # mi "Wahahaha~!"
-mi ""
+mi "วะฮ่าฮ่าฮ่า~!"
 
 show misha cross_grin
 with charachange
 
 # mi "You're too easy to tease, Hicchan~!"
-mi ""
+mi "ฮิซาโอะนี่น่าแกล้งจัง~!"
 
 # hi "Hey, come on."
-hi ""
+hi "เฮ้ย ไม่เอาดิ"
 
 # hi "I'm still new here, sort of."
-hi ""
+hi "ฉันเป็นเด็กใหม่อยู่"
 
 # hi "Isn't it mean to pick on the newcomer like this?"
-hi ""
+hi "แกล้งเด็กใหม่แบบนี้มันไม่ดีนะ"
 
 show misha hips_grin
 with charachange
 
 # mi "Nope~!"
-mi ""
+mi "ไม่~!"
 
 show misha sign_smile
 with charachange
 
 # mi "It's to help you get acclimated to your new surroundings!"
-mi ""
+mi "นายจะได้ปรับตัวกับสภาพแวดล้อมใหม่ได้ง่ายขึ้นไง"
 
 # hi "Ah, I see."
-hi ""
+hi "อ้อ อย่างนี้นี่เอง"
 
 # hi "Well…do you have to be so overzealous about it?"
-hi ""
+hi "แล้ว… จำเป็นต้องทำด้วยความเริงร่าขนาดนี้ด้วยเหรอ"
 
 show misha hips_grin
 with charachange
 
 # mi "Yep!"
-mi ""
+mi "ช่าย!"
 
 show misha hips_smile
 with charachange
 
 # mi "Ah! That aside, Hicchan, we were looking for you this morning, but you weren't in your room!"
-mi ""
+mi "อ้อ! จะว่าไปฮิจัง เช้านี้เราไปหานายแต่นายไม่อยู่ห้อง!"
 
 # hi "Of course I wasn't. I was out for my morning exercise, or here in class, bright and early."
-hi ""
+hi "ก็ไม่อยู่น่ะสิ ต้องไปวิ่งรอบเช้านี่ แล้วแป๊บ ๆ ก็ต้องมาเข้าเรียนแต่เช้าตรู่อีก"
 
 # hi "Unlike you."
-hi ""
+hi "ไม่เหมือนเธอ"
 
 show shizu basic_angry
 show misha hips_frown
 with charachange
 
 # "Shizune looks peeved, and a beat later, so does Misha. Or she tries to, at any rate."
-""
+"ชิซูเนะดูไม่พอใจ อีกพักหนึ่งมิช่าก็ดูไม่พอใจ หรือไม่ก็แค่ทำท่าเหมือนไม่พอใจเฉย ๆ"
 
 # mi "That was because of student council business! You should be grateful that we work so hard for you~!"
-mi ""
+mi "เพราะเรามีธุระเรื่องสภานักเรียนต่างหาก! นายต้องขอบคุณพวกเรานะที่เราทำงานหนักขนาดนี้~!"
 
 # hi "Oh, I am, I am. So what did you need me for?"
-hi ""
+hi "เออ ขอบคุณ ๆ แล้วมีธุระอะไรกับฉันล่ะ"
 
 # "Not another attempt to rope me in to do their dirty work, I hope."
-""
+"คงไม่ใช่ว่าจะลากฉันไปทำงานสกปรกอะไรอีกนะ หวังว่า"
 
 show misha sign_smile
 with charachange
 
 # mi "We had to give you something~ but since you weren't around, we dropped it off in your room!"
-mi ""
+mi "เรามีของจะให้~ แต่นายไม่อยู่เราเลยทิ้งไว้ให้ในห้อง!"
 
 # hi "Something? Like what?"
-hi ""
+hi "ของ? เช่นอะไร"
 
 show misha hips_grin
 with charachange
 
 # mi "Oh, you'll find out when you get back, Hicchan~! Wahahaha~!"
-mi ""
+mi "เดี๋ยวกลับไปดูก็รู้น่าฮิจัง~! วะฮ่าฮ่าฮ่า~!"
 
 hide misha
 hide shizu
 with charaexit
 
 # "Mutou entering the room ends our conversation, and we all head to our seats."
-""
+"ครูเข้ามาในห้องจนเราต้องหยุดคุยกันแล้วกลับไปนั่งที่"
 
 stop music fadeout 10.0
 
 # "It's only after I've settled down at my desk and the teacher's started talking about something or other that something odd strikes me."
-""
+"เมื่อมานั่งที่แล้วและครูเริ่มคุยเรื่องนั้นเรื่องนี้ฉันก็ถึงนึกได้ว่ามีอะไรแปลกไป"
 
 # "What did Rin mean, “You two seem to?”"
-""
+"ที่รินบอกว่า “เธอสองคนดูเข้าใจ” นี่คือยังไง"
 
 # "Was Emi staring at something too?"
-""
+"เอมิก็จ้องอะไรอยู่เหมือนกันเหรอ"
 
 # "For a brief moment, I consider the possibility that Emi was staring at me the way I was staring at her."
-""
+"แวบหนึ่งฉันคิดว่าเอมิอาจจะจ้องฉันเหมือนกันกับที่ฉันจ้องเธอ"
 
 # "Of course, that's ridiculous."
-""
+"ซึ่งแน่ละว่าเป็นไปไม่ได้"
 
 # "Still, I can't deny that I wouldn't mind if it were true…"
-""
+"แต่ก็ปฏิเสธไม่ได้เหมือนกันว่าถ้าเป็นงั้นจริงฉันคงไม่ถือ…"
 
 # "But it's best not to think of that. No need to get my hopes up."
-""
+"แต่อย่าไปคิดเลยจะดีกว่า อย่าไปหวังอะไรเลย"
 
 # "Come to think of it, when did I start having hopes like that anyway?"
-""
+"จะว่าไปแล้ว ฉันมาหวังอะไรแบบนี้ตั้งแต่เมื่อไหร่"
 
 # "I shake my head in an attempt to clear it, and focus on the lesson."
-""
+"ฉันสั่นหัวปัดความคิดนั้นออกไปแล้วตั้งใจเรียน"
 
 scene bg school_dormhallway
 with shorttimeskip
 
 # "After class, I make my way to my room. Mutou really piled on the homework today."
-""
+"พอเลิกเรียนฉันก็กลับมาที่ห้อง วันนี้ครูสั่งการบ้านมาเป็นตั้งเลย"
 
 play sound sfx_impact2
 
@@ -6144,93 +6144,93 @@ show kenji tsun at left
 with vpunch
 
 # "Before I can open my door, however, I am suddenly intercepted by Kenji, who has just exploded out of his own room in a flurry of papers."
-""
+"แต่ก่อนที่ทันจะได้เปิดประตูเคนจิก็เข้ามาขัดขวางเสียก่อน เขาพุ่งตัวออกจากห้องมาพร้อมกระดาษพรึ่บพรั่บ"
 
 # ke "Hey, we need to talk."
-ke ""
+ke "เฮ้ย เราต้องคุยกันหน่อย"
 
 play music music_kenji fadein 1.0
 
 # ke "These rooftop shenanigans of yours, man."
-ke ""
+ke "ไอ้เรื่องดาดฟ้าอะไรของนายเนี่ย"
 
 # ke "They've gotta stop."
-ke ""
+ke "เลิกได้แล้วนะ"
 
 # hi "What?"
-hi ""
+hi "ฮะ?"
 
 # ke "Your running around on the rooftop with the limbless wonders!"
-ke ""
+ke "นายไปป้วนเปี้ยนอยู่บนดาดฟ้ากับสองหน่อไร้รยางค์นั่นน่ะ!"
 
 # ke "They're women, man! You'll get yourself killed running around like that!"
-ke ""
+ke "ผู้หญิงนะเว้ย! ขืนไปอยู่อย่างนั้นเดี๋ยวก็โดนฆ่าตายหรอก!"
 
 # hi "I don't follow."
-hi ""
+hi "ไม่เข้าใจ"
 
 show kenji neutral
 with charachange
 
 # "Kenji sighs and adjusts his glasses, before what could be understood as an attempt at explaining himself patiently."
-""
+"เคนจิถอนหายใจแล้วดันแว่นก่อนจะพูดอะไรที่เหมือนกำลังแจงรายละเอียดให้ฟังอย่างใจเย็น"
 
 # ke "Look, we're friends so I'm telling you this for your own good."
-ke ""
+ke "เนี่ย ที่ฉันมาบอกนายก็เพราะเราเป็นเพื่อนกันหรอกนะ"
 
 # ke "But if I were going to kill someone, I'd do it by throwing them off the roof and making it look like an accident."
-ke ""
+ke "ถ้าฉันจะฆ่าใครสักคนฉันก็คงใช้วิธีการผลักให้ตกจากดาดฟ้าแล้วจัดฉากว่าเป็นอุบัติเหตุ"
 
 show kenji tsun
 with charachange
 
 # ke "And if I've thought of it, you can be sure they've thought of it too."
-ke ""
+ke "ซึ่งถ้าฉันคิดได้ แปลว่าพวกนั้นก็คิดได้เหมือนกัน"
 
 # ke "They're crafty - almost as crafty as I am."
-ke ""
+ke "พวกนั้นน่ะเจ้าเล่ห์แสนกลมากพอ ๆ กันกับฉันเลย"
 
 # hi "I see."
-hi ""
+hi "เข้าใจละ"
 
 show kenji happy
 with charachange
 
 # ke "Good!"
-ke ""
+ke "ดี!"
 
 # ke "I'm glad we had this chat."
-ke ""
+ke "ดีใจนะที่ได้คุยกัน"
 
 show kenji neutral
 with charachange
 
 # ke "Loan me 500 yen."
-ke ""
+ke "ขอยืม 500 เยนดิ"
 
 # hi "…I'm sorry?"
-hi ""
+hi "…อะไรนะ"
 
 show kenji tsun
 with charachange
 
 # ke "I need to get a drink, man!"
-ke ""
+ke "ฉันก็ต้องหาอะไรดื่มเหมือนกันนะพวก!"
 
 # ke "I've been inside all day and the tap water's been compromised, as I'm sure you know."
-ke ""
+ke "ฉันอยู่ในห้องทั้งวัน และนายก็คงรู้ว่าน้ำประปาใช้ดื่มไม่ได้"
 
 # ke "So I need to stock up on something canned, got it? But to do that, I need 500 yen."
-ke ""
+ke "เพราะงั้นฉันก็ต้องตุนอาหารกระป๋องไว้ เข้าใจมั้ย แต่จะทำแบบนั้นได้ฉันต้องมีเงิน 500 เยนก่อน"
 
 show kenji neutral
 with charachange
 
 # ke "And since I've just saved your life with my timely advice, you can at least spare me 500 yen."
-ke ""
+ke "และฉันก็เพิ่งให้คำแนะนำให้นายรอดชีวิตมาได้อย่างถูกจังหวะ เจียดเงินสัก 500 เยนคงไม่เป็นไรมั้ง"
 
 # "You know, if it'll make him go away, 500 yen is a bargain."
-""
+"อืมนะ ถ้าต้องจ่าย 500 เยนเพื่อให้เคนจิไสหัวไปแล้วก็นับว่าคุ้ม"
 
 stop music fadeout 6.0
 
@@ -6242,40 +6242,40 @@ show kenji happy:
 with None
 
 # "I hand the money over to Kenji, who nods in thanks and dashes off down the hallway, but not before he locks his door."
-""
+"ฉันยื่นเงินให้เคนจิ เขาพยักหน้าขอบคุณแล้วพุ่งตัวไปตามโถงทางเดินโดยล็อกประตูห้องตัวเองก่อน"
 
 # "What an exhausting person. I'd better go, in case he changes his mind."
-""
+"อยู่ด้วยแล้วเหนื่อยชะมัด ไปดีกว่า เดี๋ยวเคนจิเปลี่ยนใจกลับมาแล้วจะยุ่ง"
 
 scene bg school_dormhisao
 with locationchange
 
 # "Hm?"
-""
+"หืม"
 
 # "As I close the door, my heel taps against something lying on the floor."
-""
+"พอปิดประตูส้นเท้าฉันก็แตะเข้ากับบางอย่างที่วางอยู่กับพื้น"
 
 # "It's a brightly-colored rectangle of paper. Ah, this must be the “something” Misha mentioned before."
-""
+"เป็นกระดาษทรงสี่เหลี่ยมผืนผ้าสีสันสดใส อ้อ นี่สินะ “ของ” ที่มิช่าว่า"
 
 # "Probably a student council leaflet she slid under the door."
-""
+"อาจจะเป็นใบปลิวจากสภานักเรียนที่เอามาสอดไว้ให้"
 
 # "However, when I pick it up, I find that I couldn't have been more wrong."
-""
+"แต่พอหยิบขึ้นมาก็รู้ว่าคิดผิดไปไกลโข"
 
 # "Someone actually wrote me an old-fashioned, hand-written paper letter."
-""
+"มีคนเขียนจดหมายด้วยมือแบบเชย ๆ ส่งมาให้ฉันจริง ๆ"
 
 # "Who bothers doing something like that in this day and age, anyway? Yet, as unlikely as the prospect of receiving one sounds, this is definitely a letter I have in my hands."
-""
+"ยุคสมัยป่านนี้แล้วใครจะมานั่งเขียนจดหมายส่งหากันแบบนี้ แต่แม้จะฟังดูเป็นไปไม่ได้เพียงใด สิ่งที่อยู่ในมือฉันตอนนี้\nคือจดหมายแน่ ๆ"
 
 # "I was planning on finishing my homework, getting some dinner, and going to bed in order to be ready for tomorrow morning's run."
-""
+"ฉันเตรียมจะทำการบ้านให้เสร็จ ไปหาข้าวเย็นกิน แล้วนอนเตรียมไปวิ่งพรุ่งนี้เช้า"
 
 # "However, the letter has naturally caught my interest. I sit at my desk to examine it properly."
-""
+"ทว่าจดหมายที่อยู่ในมือนี้ก็สะดุดตาเข้า ฉันนั่งลงกับโต๊ะพินิจอย่างถี่ถ้วน"
 
 scene ev hisao_letter_closed:
      xalign 0.5 yalign 0.5 zoom 1.1 subpixel True
@@ -6285,16 +6285,16 @@ with locationchange
 play music music_rain fadein 5.0
 
 # "It's the first piece of mail I've received here at Yamaku, so it'd feel special even if it wasn't something as rare as a handwritten letter."
-""
+"เป็นของอย่างแรกที่ฉันได้รับนับตั้งแต่ที่ฉันมาเข้าเรียนที่ยามากุ เพราะงั้นถึงต่อให้ไม่ใช่จดหมายเขียนมือก็จะเป็นอะไร\nที่รู้สึกว่าพิเศษอยู่ดี"
 
 # "What causes me even more trepidation is the name of the sender, written neatly on the back of the envelope."
-""
+"สิ่งที่ทำให้ฉันสังหรณ์ใจขึ้นมายิ่งกว่านั้นคือชื่อของผู้ส่งที่เขียนไว้ด้วยลายมือเรียบร้อยอยู่หลังซอง"
 
 # "“Iwanako.”"
-""
+"“อิวานาโกะ”"
 
 # "I have no idea why she would write to me. I haven't been in contact with anyone from my old school since I transferred, and Iwanako is the last person I'd expect to want to write me a letter."
-""
+"ฉันไม่รู้ว่าเธอจะมีอะไรเขียนถึงฉัน ตั้งแต่ย้ายมาฉันก็ไม่ได้ติดต่อกับใครที่โรงเรียนเก่าแล้ว แล้วอิวานาโกะยิ่งไม่ใช่ใคร\nที่ฉันจะคาดฝันว่าจะเขียนจดหมายส่งมาเลย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -6303,36 +6303,36 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\n\n\nThe last time I saw Iwanako was terribly awkward; embarrassingly so. She came to my hospital room, peeled me an apple out of courtesy and then we practically sat in silence for half an hour."
-n ""
+n "\n\n\n\n\nครั้งสุดท้ายที่ได้เจอกันนั้นทั้งแสนอึดอัดและน่าอาย เธอมาเยี่ยมที่ห้องฉันแล้วปอกแอปเปิลให้เป็นมารยาท แล้วก็อยู่กัน\nเงียบ ๆ ได้ครึ่งชั่วโมง"
 
 # n "She said “goodbye” and didn't look me in the eye when she closed the door."
-n ""
+n "เธอบอกว่า “ลาก่อนนะ” แล้วปิดประตูไปไม่แม้แต่จะมองตากัน"
 
 # n "It might've been a natural end to the series of visits that were probably pretty painful for both of us."
-n ""
+n "การเยี่ยมไข้คงจะทำเราทั้งคู่ค่อนข้างทรมาน อาจจะเป็นธรรมดาที่จบลงไปอย่างนั้น"
 
 # n "Every time she visited me in the hospital I wanted to talk to her, but something stopped me every time."
-n ""
+n "ทุกครั้งที่เธอมาเยี่ยมฉันนึกอยากคุยกับเธอตลอด แต่บางอย่างก็ยั้งปากฉันไว้"
 
 # n "Every time that I didn't speak made the next time even harder."
-n ""
+n "แล้วยิ่งไม่ได้พูดครั้งหนึ่ง ครั้งถัดไปก็ยิ่งพูดยากขึ้นไปอีก"
 
 nvl clear
 
 # n "\n\n\n\nShe looked so guilty that I didn't want to say anything that might upset her, and I never could figure out the right words to say."
-n ""
+n "\n\n\n\nเธอดูรู้สึกผิดเสียจนฉันไม่อยากพูดอะไรที่ไปทำให้เธอเครียดอีก แล้วฉันก็ไม่เคยเฟ้นหาอะไรดี ๆ มาพูดได้เลย"
 
 # n "I think Iwanako blamed herself for my heart attack. That's ridiculous, of course, but knowing it and believing it are two very different things."
-n ""
+n "ฉันคิดว่าอิวานาโกะคงโทษตัวเองที่ฉันหัวใจวาย ซึ่งแน่ละว่าไร้สาระ แต่สมองกับหัวใจนั้นทำงานแยกส่วนกัน"
 
 # n "I told her that it wasn't her fault, she nodded and I really think she understood that if it hadn't been that, then sooner or later something else would've made my heart give out."
-n ""
+n "ฉันบอกเธอไปว่าไม่ใช่ความผิดเธอเลย เธอพยักหน้า ฉันคิดว่าเธอคงเข้าใจแล้วว่าถ้าไม่เกิดเรื่องเมื่อวันนั้นขึ้นมา\nไม่ช้าก็นานสักวันหัวใจฉันก็จะอาการกำเริบอยู่ดี"
 
 # n "Yet she looked so hopelessly sad every time she opened that door and entered my room."
-n ""
+n "ทว่าเธอดูเศร้าโศกทุกครั้งที่เปิดประตูห้องเข้ามาหาฉัน"
 
 # n "So I never managed to say the things I wanted to say. In the end, that might've hurt her even more."
-n ""
+n "ฉันไม่เคยพูดอะไรที่อยากจะพูดได้เลย ซึ่งท้ายที่สุดพอทำอย่างนั้นแล้วเธอคงจะเจ็บหนักกว่าเดิมด้วยซ้ำ"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -6345,53 +6345,58 @@ with locationchange
 window show
 
 # "Carefully, I open the envelope and draw out the folded letter from within."
-""
+"ฉันแกะซองจดหมายอย่างทะนุถนอมแล้วเปิดจดหมายที่อยู่ข้างในออกอ่าน"
 
 window hide
 
-$ written_note("Dear Hisao,\n\nHow are you? I hope you are well and happy at your new school. Everyone here misses you. Almost all of our second-year class got put together in class 3-1 for the final year, so we are pretty comfortable right from the beginning of the year. I'm sure you would've been assigned to this class as well.")
+# $ written_note("Dear Hisao,\n\nHow are you? I hope you are well and happy at your new school. Everyone here misses you. Almost all of our second-year class got put together in class 3-1 for the final year, so we are pretty comfortable right from the beginning of the year. I'm sure you would've been assigned to this class as well.")
+$ written_note("ถึง ฮิซาโอะ\n\nเป็นยังไงบ้าง หวังว่านายจะสบายดีมีความสุขกับ\nโรงเรียนใหม่นะ คนที่นี่คิดถึงนายกัน พวก\nนักเรียนม. 5 พอได้ขึ้นชั้นมาอยู่ม. 6 ก็ได้ย้ายมาอยู่\nห้อง 3-1 กันเกือบหมด ก็เลยอยู่กันอย่างอบอุ่น\nแต่ต้นปีการศึกษาเลย ถ้านายยังอยู่ก็คงได้มาเรียน\nห้องเดียวกันเหมือนกัน")
+ 
+# $ written_note("The mood among the third-years seems to be very anxious about the final exams, even though they are so far away. The teachers are badgering us about it all the time - even old Mr. Tachibana who is, by the way, our homeroom teacher this year. Would you believe it? I was sure that he'd retire after our second year, but here he is, nagging everyone about studying for exams.\n")
+$ written_note("นักเรียนม. 6 ดูจะเครียดเรื่องสอบปลายภาคกัน\nถึงจะยังอีกนานก็เถอะ คุณครูก็เอาแต่ตามย้ำอยู่\nนั่นแหละ ขนาดครูทาจิบานะยังเป็นไปกับเขาเลย\nแล้วก็เนี่ย เชื่อมั้ยว่าปีนี้แกได้เป็นครูประจำชั้นห้อง\nของเราด้วยนะ ฉันก็กะไว้แล้วแท้ ๆ ว่ายังไงพอ\nขึ้นชั้นมา แกก็คงเกษียณไปแล้ว แต่ก็ไม่\nมายืนจิกหัวให้อ่านหนังสือสอบอยู่เนี่ย\n")
 
-$ written_note("The mood among the third-years seems to be very anxious about the final exams, even though they are so far away. The teachers are badgering us about it all the time - even old Mr. Tachibana who is, by the way, our homeroom teacher this year. Would you believe it? I was sure that he'd retire after our second year, but here he is, nagging everyone about studying for exams.\n")
+# $ written_note("I think things like that are the main reason why the mood among the third-years is so nervous. I must admit that I'm somehow losing confidence in myself as well, even though I've always fared reasonably well in exams.\n\n\n\n\n")
+$ written_note("ฉันว่าเพราะอย่างนั้นแหละพวกม. 6 เลยร้อนรน\nกัน ฉันก็ต้องยอมรับเหมือนกันว่าฉันเองก็ชักจะ\nไม่มั่นใจขึ้นมาแล้ว ถึงปกติจะสอบได้คะแนนเยอะ\nพอตัวตลอดก็เถอะ\n\n\n\n\n")
 
-$ written_note("I think things like that are the main reason why the mood among the third-years is so nervous. I must admit that I'm somehow losing confidence in myself as well, even though I've always fared reasonably well in exams.\n\n\n\n\n")
+# $ written_note("It's so weird to think we are already seniors, isn't it? Time has really flown past. I wonder where it went. The new first-years seem so young and somehow really innocent. I keep wondering if I was like them in my first year. I've been feeling nostalgic like this for the whole first trimester.\n\n\n")
+$ written_note("แปลกเนอะ รู้ตัวอีกทีก็ม. 6 แล้ว เวลาผ่านไปไว\nจริง ๆ ผ่านไปไหนกันนะ นักเรียนม. 4 น่ะดูทั้ง\nยังเด็กแล้วก็ใสซื่อดี ตลอดเทอมแรกนี้ฉันเอาแต่\nย้อนคิดตลอดเลยแหละว่าสมัยอยู่ม. 4 ฉันก็เป็น\nอย่างนั้นด้วยหรือเปล่า\n\n\n")
 
-$ written_note("It's so weird to think we are already seniors, isn't it? Time has really flown past. I wonder where it went. The new first-years seem so young and somehow really innocent. I keep wondering if I was like them in my first year. I've been feeling nostalgic like this for the whole first trimester.\n\n\n")
-
-$ written_note("There are other things I want to say. I'm writing to you because I felt that there are things I should've said after the incident back in winter. I really regret that I wasn't able to say them in person, and I have no excuse for it…\n\n\n\n\n")
+# $ written_note("There are other things I want to say. I'm writing to you because I felt that there are things I should've said after the incident back in winter. I really regret that I wasn't able to say them in person, and I have no excuse for it…\n\n\n\n\n")
+$ written_note("ยังมีอย่างอื่นที่ฉันอยากพูดถึงอีก ฉันเขียนจดหมาย\nส่งมาหานายเพราะรู้สึกเหมือนพอเกิดเรื่องนั้นแล้ว\nฉันคงต้องพูดอะไรหน่อย ฉันเสียใจจริง ๆ ที่ฉันมา\nพูดกับนายต่อหน้าตรง ๆ ไม่ได้ และฉันก็ไม่มี\nข้อแก้ตัวอะไรทั้งนั้น…\n\n\n\n\n")
 
 window show
 
 # "Yeah, I think I have had quite enough of this."
-""
+"อืม ไม่อ่านต่อละ"
 
 scene bg school_dormhisao
 with locationchange
 
 # "I crumple up the sheet of paper and toss it across the room. My aim is off, so the letter rolls under my nightstand instead of going into my wastebasket."
-""
+"ฉันขยำกระดาษแผ่นนั้นแล้วปาไปอีกฟากของห้อง ฉันเล็งพลาดจนจดหมายกลิ้งไปอยู่ใต้โต๊ะหัวเตียงแทนที่จะลง\nถังขยะ"
 
 # "That was an apology for abandoning me. Except I don't know that I really need it any more, at this point."
-""
+"ส่งมาขอโทษที่ทิ้งกันไปนี่เอง ซึ่งตอนนี้ฉันก็ไม่รู้ว่าตัวเองยังต้องการคำขอโทษอยู่หรือเปล่า"
 
 # "The hospital seems like a lifetime ago, and here, now, I've got other things on my mind."
-""
+"ชีวิตในโรงพยาบาลนานเหมือนเป็นชาติที่แล้ว แถมตอนนี้ในหัวฉันก็มีเรื่องอื่นแล้วด้วย"
 
 stop music fadeout 8.0
 
 # "Emi, for starters."
-""
+"เอมิ เป็นต้น"
 
 # "It wasn't great to be abandoned during my stay, but it's not something I'm worried about any more."
-""
+"ถูกทิ้งตอนอยู่โรงพยาบาลชวนให้รู้สึกแย่ก็จริง แต่ตอนนี้ฉันไม่ได้คิดมากแล้ว"
 
 # "In fact, I hadn't even thought about the hospital in what feels like forever until this letter came in. It's almost annoying to have received it."
-""
+"ที่จริง ฉันไม่ได้คิดถึงเรื่องที่โรงพยาบาลมานานมากแล้วจนมาเจอจดหมายฉบับนี้แหละ พอได้รับแล้วก็รำคาญ"
 
 # "I've got exams to study for, myself. I have no time for the past."
-""
+"ฉันก็ต้องอ่านหนังสือสอบด้วย ไม่มีเวลามาจมกับอดีตแล้ว"
 
 # "Now, about that homework…"
-""
+"ไหนซิ การบ้าน…"
 
 scene black
 with dissolve
