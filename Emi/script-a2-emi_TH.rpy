@@ -6409,7 +6409,7 @@ scene black
 with None
 
 # hi "So what's the plan for today anyway?"
-hi ""
+hi "แล้ววันนี้จะทำอะไรกัน"
 
 play music music_daily fadein 1.0
 
@@ -6417,52 +6417,52 @@ scene bg school_girlsdormhall
 with dissolve
 
 # "I'm waiting patiently in the hallway of the girls' dormitory just outside of Emi and Rin's rooms."
-""
+"ฉันรออย่างใจเย็นอยู่ที่โถงทางเดินหน้าห้องเอมิกับห้องริน"
 
 # "Emi is apparently helping Rin with getting dressed."
-""
+"เหมือนเอมิจะช่วยรินแต่งตัวอยู่"
 
 # "I suppose that makes perfect sense, as I've no idea how Rin would get dressed otherwise."
-""
+"ซึ่งก็คงสมเหตุสมผลดีแล้ว ไม่งั้นฉันก็นึกไม่ออกเหมือนกันว่ารินจะแต่งตัวได้ยังไง"
 
 # emi "Picnic!"
-emi ""
+emi "ปิกนิก!"
 
 # hi "Picnic?"
-hi ""
+hi "ปิกนิก?"
 
 # emi "That's what I said!"
-emi ""
+emi "ใช่แล้วละ"
 
 # hi "Sounds pretty exciting."
-hi ""
+hi "ฟังดูน่าตื่นเต้นดี"
 
 # emi "I know, right?"
-emi ""
+emi "ใช่มั้ยล่ะ"
 
 # "Rin chooses this moment to make an observation."
-""
+"รินอาศัยจังหวะนี้แทรกบทพูด"
 
 # rin "The sky seems threatening today."
-rin ""
+rin "วันนี้ฟ้าดูไม่ดีเลยนะ"
 
 # "Actually, I noticed that, too, on my way over. Despite the sunshine of the early morning, the afternoon seems to have taken a turn for the gloomy."
-""
+"จริง ๆ ตอนที่เดินมาฉันก็เห็นเหมือนอย่างรินว่า ตอนเช้าแดดออกก็จริง แต่บ่าย ๆ มาฟ้าก็เริ่มครึ้มแล้ว"
 
 # "There's a heaviness to the air as well that usually heralds a rainstorm."
-""
+"อากาศก็อบอ้าวเหมือนพายุฝนจะมาด้วย"
 
 # "I wonder if I should have brought my umbrella…"
-""
+"หรือจะพกร่มไปด้วยดี…"
 
 # hi "She's got a point."
-hi ""
+hi "รินพูดถูก"
 
 # hi "Emi, you sure that you still want to risk getting caught in the rain?"
-hi ""
+hi "เอมิ ฝนจะตกอย่างนี้แล้วแน่ใจเหรอว่ายังจะไปน่ะ"
 
 # "I don't even know why I bothered asking."
-""
+"ไม่รู้จะถามทำไม"
 
 show emi basic_shock:
     center
@@ -6471,28 +6471,28 @@ show emi basic_shock:
 with charaenter
 
 # "Emi pops out of Rin's room into the hallway looking shocked that I'd even suggest canceling our plans."
-""
+"เอมิโผล่ออกมาจากห้องรินมาที่โถงทางเดินพร้อมสีหน้าตกใจที่ฉันกล้าเสนอให้ยกเลิกแผนนี้"
 
 # emi "Of course!"
-emi ""
+emi "แหงสิ!"
 
 show emi basic_annoyed
 with charachange
 
 # emi "What, the threat of rain's supposed to stop me?"
-emi ""
+emi "แล้วไง ฝนจะตกแล้วฉันต้องกลัวเหรอ"
 
 # "I can't help but grin at her belligerent response. It's almost like she's daring the rain to come."
-""
+"ฉันอดยิ้มให้กับคำตอบสุดดื้อรั้นนั้นไม่ได้ เหมือนท้าให้ฝนตกเลย"
 
 # "If Mother Nature were walking down the street, I think Emi would probably start a fight with her."
-""
+"ถ้าพระพิรุณมาเดินแบบตัวเป็น ๆ เอมิคงหาเรื่องต่อยไปแล้ว"
 
 # "Or at the least challenge her to a race."
-""
+"หรือไม่ก็ท้าให้มาแข่งวิ่งกัน"
 
 # "In fact, Emi seems almost aggressively cheerful today."
-""
+"จริง ๆ วันนี้เอมิดูจะคึกคักเป็นพิเศษเลย"
 
 show rin basic_absent:
     center
@@ -6503,50 +6503,50 @@ show bg school_girlsdormhall at bgleft
 with charamove
 
 # "Rin wanders out into the hallway, looking her usual self."
-""
+"รินเดินออกมาที่โถงทางเดินด้วยท่าทีประจำ"
 
 # hi "Well then, are we all ready to go?"
-hi ""
+hi "โอเค งั้นพร้อมกันแล้วนะ"
 
 show emi basic_closedhappy
 with charachange
 
 # emi "I'm ready!"
-emi ""
+emi "พร้อมแล้ว!"
 
 show rin basic_deadpannormal:
     tworight alpha 1.0
 with charachange
 
 # "Rin nods and says a single word."
-""
+"รินพยักหน้าแล้วพูดหนึ่งคำ"
 
 show rin basic_deadpan
 with charachange
 
 # rin "Basket."
-rin ""
+rin "ตะกร้า"
 
 # hi "Beg pardon?"
-hi ""
+hi "อะไรนะ"
 
 show rin basic_deadpannormal
 with charachange
 
 # rin "The basket. In Emi's room. You should carry it."
-rin ""
+rin "ตะกร้า ในห้องเอมิ นายถือไปสิ"
 
 show emi basic_hes
 with charachange
 
 # "Emi claps a hand to her mouth, embarrassed."
-""
+"เอมิยกมือขึ้นมาตบปากด้วยความอาย"
 
 show emi basic_closedsweat
 with charachange
 
 # emi "Omigosh! I almost forgot all about it! Nice save, Rin!"
-emi ""
+emi "ตายจริง! เกือบลืมไปแล้วนะเนี่ย! ขอบคุณที่เตือนนะริน!"
 
 show emi basic_closedsweat at offscreenleft
 with ease
@@ -6557,63 +6557,63 @@ show emi basic_closedgrin at twoleft
 with ease
 
 # "Emi darts into her room and emerges with what looks like a very well-stocked picnic basket."
-""
+"เอมิพุ่งตัวไปในห้องแล้วกลับออกมาพร้อมตะกร้าที่ดูมีของกินครบครัน"
 
 with vpunch
 
 # "As she hands it over to me, I note that it feels heavy enough to be one, too. Good Lord, how much food did she pack?"
-""
+"เอมิยื่นตะกร้าให้ฉัน หนัก ๆ ผิดจากลักษณะตะกร้าแฮะ ให้ตายเถอะ นี่ยัดของกินไปเท่าไหร่เนี่ย"
 
 # "…More to the point, where'd she get the money for all of this?"
-""
+"…แล้วที่สำคัญ ไปเอาเงินที่ไหนมาซื้อ"
 
 # hi "So, are we set to head out?"
-hi ""
+hi "โอเค พร้อมออกละนะ"
 
 show emi basic_grin
 with charachange
 
 # emi "Yep!"
-emi ""
+emi "อื้ม!"
 
 show rin basic_awayabsent
 with charachange
 
 # "Rin gives another nod, and we head out of the dormitory."
-""
+"รินพยักหน้าอีกรอบ เราเดินออกมาจากหอ"
 
 scene bg school_courtyard_rn
 with locationskip
 
 # "I can't help but frown when I notice how gray the sky's gotten in the ten minutes I was inside."
-""
+"ฉันสะดุดตาเข้ากับท้องฟ้าที่สีมืดครึ้มขึ้นกว่าเดิมนับจากตอนก่อนที่ฉันจะเข้าไปอยู่ในอาคารซึ่งผ่านมาราวสิบนาที"
 
 # "Still, Emi does not seem concerned by such petty concerns as the color of the sky. She's positively skipping as we walk."
-""
+"แต่เอมิก็ดูจะไม่ยี่หระอะไรกับเรื่องเล็ก ๆ น้อย ๆ อย่างสีของท้องฟ้าตอนนี้เลย เธอเดินไปแบบโดด ๆ ด้วยซ้ำ"
 
 # "Which reminds me…"
-""
+"ซึ่งจะว่าไปแล้ว…"
 
 # hi "Where are we going?"
-hi ""
+hi "เราจะไปไหนกันนะ"
 
 # "This brings Emi up short and she shoots me an embarrassed look."
-""
+"เอมิชะงักกึกแล้วหันมามองฉันอาย ๆ"
 
 show emi sad_shy_rn at center
 with charaenter
 
 # emi "You know, I hadn't really thought of that."
-emi ""
+emi "ก็นะ ฉันยังไม่ได้คิดไว้เลย"
 
 # emi "What do you think, Hisao?"
-emi ""
+emi "ฮิซาโอะว่าไงล่ะ"
 
 # "Well, there's the spot where we ate during the festival, but it might be nice to leave the campus for a while. However, I'm not sure if there's any good places to do that in town."
-""
+"ก็นะ ที่นึกออกก็ที่ที่ไปนั่งกินด้วยกันตอนวันงานเทศกาล แต่ออกจากโรงเรียนไปสักพักก็ดีเหมือนกัน ทว่าก็ไม่รู้ว่า\nในเมืองมีที่ดี ๆ ให้ไปปิกนิกหรือเปล่า"
 
 # "Just as I'm about to open my mouth, Rin unexpectedly interjects with a suggestion."
-""
+"จังหวะที่กำลังจะเปิดปากนั้นรินก็แทรกเสนอขึ้นมาโดยไม่คาดฝัน"
 
 show emi sad_shy_rn at twoleft
 show bg school_courtyard_rn at bgleft
@@ -6623,89 +6623,89 @@ show rin basic_deadpan_rn at tworight
 with charaenter
 
 # rin "There's a park in town near the art shop."
-rin ""
+rin "ใกล้ ๆ ร้านขายอุปกรณ์ศิลปะมีสวนสาธารณะอยู่"
 
 show emi basic_closedhappy_rn
 with charachange
 
 # emi "Great idea, Rin! I totally forgot all about that place!"
-emi ""
+emi "ความคิดเยี่ยมนี่ริน! ฉันลืมเสียสนิทเลย!"
 
 # "Crisis averted."
-""
+"พ้นภัยแล้ว"
 
 # hi "Do you know how to get there, Rin?"
-hi ""
+hi "เธอรู้ทางไปมั้ยริน"
 
 show rin basic_deadpannormal_rn
 with charachange
 
 # "Rin shrugs."
-""
+"รินยักไหล่"
 
 show rin basic_awayabsent_rn
 with charachange
 
 # rin "It's pretty likely."
-rin ""
+rin "ก็เป็นไปได้"
 
 show emi excited_amused_rn
 with charachange
 
 # emi "Good enough for me!"
-emi ""
+emi "แค่นั้นก็พอแล้ว!"
 
 # "I would prefer knowing for sure… but, what the hell."
-""
+"ถ้ารู้ทางไปแน่ ๆ เลยน่าจะดีกว่านะ… แต่อะไรเนี่ย"
 
 # hi "Lead on, Rin."
-hi ""
+hi "นำไปเลยริน"
 
 scene bg school_gate_rn
 with locationchange
 
 # "The three of us quickly make our way off campus and take the road down into town."
-""
+"เราสามคนรีบเดินออกมาจากโรงเรียนแล้วเดินไปตามถนนเข้าเมือง"
 
 scene bg school_road_rn
 with locationchange
 
 # "This basket's a bit heavy. I hope that the park is close by."
-""
+"ตะกร้าก็หนัก ๆ เหมือนกัน หวังว่าสวนสาธารณะนั้นจะอยู่ไม่ไกลนะ"
 
 scene bg suburb_roadcenter_rn
 with locationchange
 
 # "We pass the art supply store, Rin slowing her pace slightly as we go by."
-""
+"เราเดินผ่านร้านขายอุปกรณ์ศิลปะ รินผ่อนฝีเท้าลงพอเดินผ่าน"
 
 # "Emi notices Rin's change of pace and stops."
-""
+"เอมิเห็นว่ารินเดินช้าลงจึงหยุด"
 
 show emi basic_grin_rn at twoleft
 show rin relaxed_nonchalant_rn at tworight
 with charaenter
 
 # emi "You wanna go in, Rin?"
-emi ""
+emi "อยากแวะเหรอริน"
 
 show rin basic_awayabsent_rn
 with charachange
 
 # "Rin shrugs."
-""
+"รินยักไหล่"
 
 show rin basic_deadpan_rn
 with charachange
 
 # rin "Nothing I need."
-rin ""
+rin "ไม่มีของที่ต้องใช้"
 
 show emi excited_proud_rn
 with charachange
 
 # emi "Are you suuure?"
-emi ""
+emi "แน่ใจน้าาาาา"
 
 show rin basic_delight_rn
 with charachange
@@ -6714,43 +6714,43 @@ show rin basic_deadpandelight_rn
 with charachange
 
 # "There's the slightest flutter of a smile on Rin's face, quickly replaced with her usual expression."
-""
+"รินยิ้มเขิน ๆ อยู่แวบหนึ่งก่อนรอยยิ้มนั้นจะถูกแทนที่ด้วยสีหน้าตามปกติ"
 
 show rin basic_deadpan_rn
 with charachange
 
 # rin "Life's uncertain, but on this at least I am pretty sure."
-rin ""
+rin "ชีวิตไม่แน่นอน แต่อย่างน้อยฉันก็มั่นใจกับเรื่องนี้"
 
 show rin basic_deadpanamused_rn
 with charachange
 
 # rin "Nice of you to offer."
-rin ""
+rin "ขอบคุณที่เสนอ"
 
 show emi basic_closedhappy_rn
 with charachange
 
 # emi "Well it's not like I'm the one carrying the basket."
-emi ""
+emi "ก็ฉันไม่ได้เป็นคนถือตะกร้านี่นา"
 
 show emi basic_grin_rn
 with charachange
 
 # emi "But I'll bet Hisao wouldn't have minded anyway, right?"
-emi ""
+emi "แต่ยังไงฮิซาโอะก็คงไม่ว่าใช่มั้ย"
 
 # hi "Oh, of course not. This is hardly a heavy load."
-hi ""
+hi "โอ๊ย ไม่ว่าเลย ตะกร้าเบามาก"
 
 # "I flex for emphasis."
-""
+"ฉันเบ่งกล้ามเน้นย้ำ"
 
 show emi excited_laugh_rn
 with charachange
 
 # "Emi stifles a snort of laughter by pointing to the park at which we've suddenly arrived."
-""
+"เอมิกลั้นขำด้วยการชี้ไปที่สวนสาธารณะที่อยู่ ๆ พวกเราก็มาถึง"
 
 $ renpy.music.set_volume(0.02, 0.0, channel="ambient")
 play ambient sfx_rain fadein 15.0
@@ -6759,13 +6759,13 @@ scene bg suburb_park_rn at bgright
 with locationchange
 
 # emi "Oh, I remember this place!"
-emi ""
+emi "อ้อ ฉันจำได้!"
 
 show emi basic_closedhappy_rn
 with charachange
 
 # emi "I ran into you here that one time, didn't I, Rin?"
-emi ""
+emi "ที่นี่ที่ตอนนั้นฉันมาเจอกับเธอใช่มั้ยริน"
 
 show emi basic_closedhappy_rn at twoleft
 show bg suburb_park_rn
@@ -6775,31 +6775,31 @@ show rin basic_deadpannormal_rn at tworight
 with charaenter
 
 # "Rin's eyebrow raises slightly."
-""
+"รินเลิกคิ้วขึ้นเล็กน้อย"
 
 show rin basic_deadpan_rn
 with charachange
 
 # rin "Maybe."
-rin ""
+rin "มั้งนะ"
 
 show rin relaxed_boredom_rn
 with charachange
 
 # rin "I'm unwilling to say for certain one way or the other."
-rin ""
+rin "ฉันไม่อยากยืนยันว่าใช่หรือไม่"
 
 show rin relaxed_nonchalant_rn
 with charachange
 
 # rin "Memory's a tricky thing, you know."
-rin ""
+rin "ความจำคนเราน่ะมันหลอกเราได้นะ"
 
 # "Well I'll be. We made it in one piece after all."
-""
+"อ้าว มาถึงกันโดยสวัสดิภาพจนได้"
 
 # "The sun's still nowhere to be seen, but neither Emi nor Rin seem to mind."
-""
+"ยังไม่เห็นพระอาทิตย์ แต่เอมิกับรินก็เหมือนจะไม่สนใจอะไร"
 
 scene ev picnic_normal:
     yalign 1.0 subpixel True
@@ -6813,19 +6813,19 @@ with whiteout
 #with dissolvecharamove
 
 # "We find a spot to sit on the grass and I set the basket down gratefully."
-""
+"เราหาที่นั่งบนพื้นหญ้ากัน ฉันค่อย ๆ วางตะกร้าลง"
 
 # "There's a surprising amount of food prepared. Maybe we were supposed to be joined by some of Emi's teammates or something?"
-""
+"มีของกินเตรียมไว้เยอะเกินคาด หรือจริง ๆ แล้วจะมีเพื่อนร่วมทีมเอมิมาร่วมวงด้วยหรือเปล่า"
 
 #show emi excited_laugh_rn
 #with charachange
 
 # emi "I'm starving! Dig in!"
-emi ""
+emi "หิวแล้ว! กินกันเลยดีกว่า!"
 
 # "She attacks the food as if she's had nothing to eat for years."
-""
+"เอมิจู่โจมอาหารเหมือนไม่ได้กินอะไรมาหลายปีดีดักแล้ว"
 
 stop music fadeout 2.0
 
@@ -6845,13 +6845,13 @@ show rain light
 with dissolve
 
 # "I'm just reaching for the food myself when I feel the first drop of rain land on the back of my hand."
-""
+"เมื่อเอื้อมไปจะหยิบของกินให้ตัวเองบ้างก็เหมือนมีหยดน้ำฝนตกใส่หลังมือ"
 
 # hi "Uh oh."
-hi ""
+hi "ชะอ้าว"
 
 # hi "Looks like the weather's not going to cooperate with us after all."
-hi ""
+hi "ดูท่าว่าฟ้าฝนจะไม่ให้ความร่วมมือกับเราเสียแล้ว"
 
 hide ev
 show bg suburb_park_rn behind rain
@@ -6864,25 +6864,25 @@ show rin basic_absent_rn behind rain:
 with flash
 
 # "Emi glares at the sky as if that alone will hold back the rain."
-""
+"เอมิจ้องท้องฟ้าเหมือนว่าจ้องแล้วจะห้ามฝนได้"
 
 # "I very nearly believe she can do it. It's one heck of a glare."
-""
+"ฉันก็เกือบจะเชื่อแล้วว่าห้ามได้จริงเพราะจ้องหนักมาก"
 
 show emi basic_annoyed_rn
 with charachange
 
 # emi "It had better cooperate."
-emi ""
+emi "ต้องให้ร่วมมือสิ"
 
 show emi sad_angry_rn
 with charachange
 
 # emi "You hear me sky? You stop that raining right this instant!"
-emi ""
+emi "ได้ยินมั้ยท้องฟ้า เลิกปล่อยฝนเดี๋ยวนี้นะ!"
 
 # "The sky doesn't seem inclined to listen to her, despite the commanding tone she's taken with it."
-""
+"ดูท่าว่าท้องฟ้าจะไม่อยากฟังเอมิเท่าไหร่ แม้น้ำเสียงของเธอนั้นจะขึงขังมาก"
 
 $ renpy.music.set_volume(0.5, 4.0, channel="ambient")
 
@@ -6890,46 +6890,46 @@ show rain medium
 with dissolve
 
 # "Instead, the rain seems to increase. Rin wrinkles her nose in distaste at this turn of events."
-""
+"ฝนกลับตกหนักขึ้นแทน รินย่นจมูกเมื่อเหตุการณ์ย่ำแย่ลงเช่นนี้"
 
 show rin basic_deadpan_rn
 with charachange
 
 # rin "Regrettable."
-rin ""
+rin "น่าเสียใจ"
 
 show emi basic_confused_rn
 with charachange
 
 # emi "What do you mean?"
-emi ""
+emi "หมายความว่าไง"
 
 show rin basic_deadpannormal_rn
 with charachange
 
 # "Rin shrugs."
-""
+"รินยักไหล่"
 
 show rin relaxed_nonchalant_rn
 with charachange
 
 # rin "I could paint this if I weren't out here. Shame to miss it, is all."
-rin ""
+rin "ถ้าไม่ได้อยู่ตรงนี้ฉันคงวาดภาพตอนนี้ได้ แค่เสียดายที่ไม่ได้วาด"
 
 # "She doesn't seem angry or annoyed about it, just a little disappointed."
-""
+"รินไม่ได้ดูโกรธหรือหงุดหงิด แค่ผิดหวังเล็กน้อย"
 
 show emi basic_closedhappy_rn
 with charachange
 
 # "Emi laughs in response to Rin's comment."
-""
+"เอมิหัวเราะที่รินพูดแบบนั้น"
 
 show emi basic_grin_rn
 with charachange
 
 # emi "Guess we should have stopped in that art supply store after all, huh?"
-emi ""
+emi "เมื่อกี้ถ้าแวะที่ร้านขายอุปกรณ์ศิลปะนั้นคงดีเนอะ"
 
 $ renpy.music.set_volume(1.0, 6.0, channel="ambient")
 
@@ -6937,114 +6937,114 @@ show rain normal
 with dissolve
 
 # "The rain increases a little more, offended that we haven't fled yet."
-""
+"ฝนตกหนักขึ้นอีกเล็กน้อยเหมือนไม่พอใจที่เรายังไม่หนีกันสักที"
 
 # "Despite the warm temperatures we've been enjoying, the rain is rather cold. I wish I'd brought my umbrella."
-""
+"ถึงอากาศจะอบอุ่น แต่น้ำฝนนั้นเย็นพอตัว รู้งี้พกร่มมาด้วยดีกว่า"
 
 # hi "Hey, we should probably head inside to keep dry."
-hi ""
+hi "นี่ ไปหาที่หลบฝนไม่ให้ตัวเปียกกันก่อนเถอะ"
 
 show emi basic_confused_rn
 show rin basic_absent_rn
 with charachange
 
 # emi "We're already pretty wet, Hisao."
-emi ""
+emi "ตอนนี้เราก็ตัวเปียกกันแล้วนะฮิซาโอะ"
 
 # hi "Yeah, but we can dry off this way and maybe wait out the storm. You don't want to catch a cold or anything, do you?"
-hi ""
+hi "ก็ใช่ แต่หลบฝนแล้วจะได้อยู่ให้ตัวแห้งรอพายุหยุดก่อนไง เธอคงไม่อยากเป็นหวัดหรอกนะ"
 
 show emi basic_annoyed_rn
 with charachange
 
 # "Emi considers this for a moment. I can tell that part of her wants to stay out in the rain just to spite the weather."
-""
+"เอมิครุ่นคิดอยู่ครู่หนึ่ง ฉันดูออกว่าใจหนึ่งเอมิก็อยากตากฝนอยู่อย่างนี้เป็นการประท้วงสภาพอากาศ"
 
 # "Unfortunately for her, the weather hardly cares about what we do."
-""
+"ซึ่งโชคไม่ดีที่ฟ้าฝนไม่ได้สนใจหรอกว่าเราจะทำอะไร"
 
 show emi basic_closedgrin_rn
 with charachange
 
 # emi "I suppose you're right."
-emi ""
+emi "ก็คงถูกของนาย"
 
 show emi sad_grin_rn
 with charachange
 
 # emi "Where could we go?"
-emi ""
+emi "ไปไหนกันดีล่ะ"
 
 # "I don't have an answer for her. The area's still pretty new to me."
-""
+"ฉันไม่มีคำตอบเพราะยังไม่คุ้นกับพื้นที่"
 
 # "Though I guess I'm slowly getting used to the school itself, the surrounding town remains a mystery."
-""
+"ถึงฉันจะเริ่มชินกับโรงเรียนขึ้นมาแล้ว แต่เมืองที่อยู่โดยรอบยังคงเป็นปริศนาสำหรับฉัน"
 
 # "All I know is the art supply store, and that's only because we've just passed it."
-""
+"ฉันรู้แค่ว่ามีร้านขายอุปกรณ์ศิลปะ แต่ที่รู้ก็เพราะเพิ่งเดินผ่านมากัน"
 
 show emi basic_closedgrin_rn
 with charachange
 
 # "Fortunately, Emi soon snaps her fingers in triumph."
-""
+"โชคดีที่ไม่นานเอมิก็ดีดนิ้วอย่างผู้มีชัย"
 
 show emi basic_happy_rn
 with charachange
 
 # emi "That's it! There's a tea shop nearby!"
-emi ""
+emi "จริงด้วย! แถวนี้มีร้านน้ำชาอยู่!"
 
 # emi "We could have some tea and dry out, no problem!"
-emi ""
+emi "ไปดื่มชารอให้ตัวแห้งได้สบายเลย!"
 
 # "That doesn't sound like a bad idea."
-""
+"ก็ฟังดูไม่เลว"
 
 # hi "Great! You know where it is?"
-hi ""
+hi "แจ๋ว! เธอรู้ใช่มั้ยว่าร้านอยู่ไหน"
 
 show emi basic_grin_rn
 with charachange
 
 # "Emi nods, looking fairly confident."
-""
+"เอมิพยักหน้าด้วยความมั่นใจ"
 
 show emi basic_closedgrin_rn
 with charachange
 
 # emi "Sure do!"
-emi ""
+emi "รู้!"
 
 show emi basic_hes_rn
 with charachange
 
 # emi "I think."
-emi ""
+emi "คิดว่านะ"
 
 show emi excited_laugh_rn
 with charachange
 
 # emi "But it'll be an adventure either way, right?"
-emi ""
+emi "แต่ก็จะได้ผจญภัยไง ใข่มั้ย"
 
 # hi "Adventure, huh? Well, I suppose we could use a little adventure."
-hi ""
+hi "ผจญภัยเหรอ อืม ผจญภัยกันหน่อยก็ดีมั้ง"
 
 # "I think as long as we get out of the rain I'll be happy."
-""
+"ขอแค่ได้หลบฝนฉันก็พอใจแล้ว"
 
 show emi basic_grin_rn at twoleft
 show rin basic_absent_rn at tworight
 with dissolvecharamove
 
 # "The picnic basket is a little lighter now, at least."
-""
+"อย่างน้อยตอนนี้ตะกร้าปิกนิกก็เบาลงบ้าง"
 
 # hi "Lead on!"
-hi ""
+hi "นำไปเลย!"
 
 show bg suburb_roadcenter_rn # scene is somehow bugged for the rain
 hide rin
@@ -7052,22 +7052,22 @@ hide emi
 with locationchange
 
 # "Rin and I follow Emi as she weaves through the streets with something approaching confidence."
-""
+"รินกับฉันตามเอมิที่เดินไปตามถนนด้วยความอะไรบางอย่างที่คล้ายความมั่นใจ"
 
 show emi basic_confused_rn at center behind rain
 with charaenter
 
 # emi "Now, a left here…"
-emi ""
+emi "ทีนี้ก็เลี้ยวซ้าย…"
 
 show emi excited_joy_rn
 with charachange
 
 # emi "There! The Shanghai!"
-emi ""
+emi "นั่นไง! ร้านเซี่ยงไฮ้!"
 
 # "Emi beams triumphantly as she points to the tea shop."
-""
+"เอมิยิ้มกระหยิ่มชี้ไปที่ร้านน้ำชา"
 
 show bg suburb_shanghaiext_rn
 hide emi
@@ -7077,7 +7077,7 @@ with locationchange
 label th_E11x:
 
 # "Come to think of it, I have been here before. It seems fairly crowded inside; entirely the fault of the sudden rain, I'm sure."
-""
+"จะว่าไปแล้วฉันก็เคยมาแล้วนี่นา ข้างในดูมีคนอยู่พอสมควร ซึ่งก็เป็นเพราะฝนตกนั่นแหละ"
 
 play sound sfx_storebell
 stop ambient fadeout 0.5
@@ -7095,16 +7095,16 @@ show yuukoshang neutral_down at center
 with charaenter
 
 # yu "Welcome! Can I—"
-yu ""
+yu "ยินดีต้อนรับค่ะ! รับ—"
 
 show yuukoshang happy_down
 with charachange
 
 # yu "Oh, it's you."
-yu ""
+yu "อ้าว เธอนี่เอง"
 
 # "Yuuko seems to know Emi."
-""
+"ดูท่าว่ายูโกะจะรู้จักเอมิ"
 
 show yuukoshang happy_down at tworight
 show bg suburb_shanghaiint at bgright
@@ -7114,13 +7114,13 @@ show emi basic_closedhappy at twoleft
 with charaenter
 
 # "Emi grins brightly, pleased to be remembered."
-""
+"เอมิยิ้มแฉ่งดีใจที่ยูโกะจำได้"
 
 show emi basic_grin
 with charachange
 
 # emi "Hey Yuuko! Got room to seat us?"
-emi ""
+emi "ไงคะคุณยูโกะ! มีที่นั่งว่างให้พวกหนูมั้ยคะ"
 
 show yuukoshang neutral_down
 with charachange
@@ -7131,7 +7131,7 @@ with charachange
 label th_E11y:
 
 # "It seems fairly crowded inside; a symptom of the sudden rain, I'm sure."
-""
+"ข้างในดูมีคนอยู่พอสมควร ซึ่งเป็นเพราะอยู่ ๆ ฝนก็เทลงมานั่นแหละ"
 
 play sound sfx_storebell
 stop ambient fadeout 0.5
@@ -7149,25 +7149,25 @@ show yuukoshang neutral_down at center
 with charaenter
 
 # yu "Welcome! Can I—"
-yu ""
+yu "ยินดีต้อนรับค่ะ! รับ—"
 
 # "I'm surprised to find out that our waitress is none other than Yuuko."
-""
+"ฉันนึกแปลกใจที่เห็นว่าบริกรนั้นเป็นยูโกะ"
 
 # "She sure looks the part in her uniform. It's hard to believe this is the same librarian from our school."
-""
+"ใส่ชุดนี้แล้วดูสมเป็นบริกรจริง ๆ แทบไม่อยากเชื่อว่านี่คือบรรณารักษ์จากโรงเรียนของเรา"
 
 # "Does she work two jobs? I guess that must be it."
-""
+"ทำงานควบสองที่เหรอ คงเป็นงั้นแหละ"
 
 show yuukoshang happy_down
 with charachange
 
 # yu "Oh, it's you."
-yu ""
+yu "อ้าว เธอนี่เอง"
 
 # "Yuuko seems to know Emi."
-""
+"ดูท่าว่ายูโกะจะรู้จักเอมิ"
 
 show yuukoshang happy_down at tworight
 show bg suburb_shanghaiint at bgright
@@ -7177,100 +7177,100 @@ show emi basic_closedhappy at twoleft
 with charaenter
 
 # "Emi grins brightly, pleased to be remembered."
-""
+"เอมิยิ้มแฉ่งดีใจที่ยูโกะจำได้"
 
 show emi basic_grin
 with charachange
 
 # emi "Hey Yuuko!"
-emi ""
+emi "ไงคะคุณยูโกะ!"
 
 # hi "Hi, Yuuko. I didn't know you worked here too."
-hi ""
+hi "ไงครับคุณยูโกะ ไม่ยักรู้ว่าทำงานที่นี่ด้วย"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "Do I know you?"
-yu ""
+yu "เรารู้จักกันเหรอ"
 
 show yuukoshang worried_up
 with charachange
 
 # yu "You seem awfully familiar, but I don't think I've ever seen you in here."
-yu ""
+yu "หน้าคุ้นมากเลยนะ แต่เหมือนไม่เคยเจอกันที่นี่เลย"
 
 # hi "Er, we met at your other job. At the Yamaku library. Remember?"
-hi ""
+hi "เอ่อ เราเจอกันคนละที่ครับ ที่ห้องสมุดยามากุไง จำได้มั้ยครับ"
 
 show yuukoshang happy_up
 with charachange
 
 # "Her eyes widen in memory."
-""
+"พอนึกออกยูโกะก็ทำตาโต"
 
 show yuukoshang closedhappy_down
 with charachange
 
 # yu "Yeah, that's it! Nice to see you again…"
-yu ""
+yu "อ้อใช่! ยินดีที่ได้เจอกันอีกครั้ง…"
 
 show yuukoshang panic_down
 with charachange
 
 # yu "Oh no, this is bad!"
-yu ""
+yu "ไม่นะ แย่แล้ว!"
 
 show yuukoshang panic_up
 with charachange
 
 # yu "I should have remembered a customer's face! I'm sorry… I'm terribly sorry!"
-yu ""
+yu "ฉันต้องจำหน้าลูกค้าได้สิ! ขอโทษค่ะ… ขอโทษจริง ๆ !"
 
 # "Yuuko goes from realization to panic in a split second, performing a series of high-speed bows. I narrowly avoid getting headbutted in the process."
-""
+"พอนึกออกปุ๊บยูโกะก็ตื่นตระหนกปั๊บพลางโค้งตัวขอโทษรัว ๆ ฉันแทบหลบหัวยูโกะไม่ทัน"
 
 # hi "Whoa, hey, calm down!"
-hi ""
+hi "เอ้ย เดี๋ยว ใจเย็นครับ!"
 
 # hi "Listen, I wasn't a customer when we first met, in fact I hadn't ever been to the Shanghai, so it's all right."
-hi ""
+hi "ฟังนะครับ ตอนเจอกันครั้งแรกผมไม่ใช่ลูกค้า แล้วผมก็ไม่เคยมาร้านเซี่ยงไฮ้เลยด้วยซ้ำ ไม่เป็นไรหรอกครับ"
 
 # "Not the best display of logic, but it seems to relax her a little."
-""
+"ไม่ใช่ตรรกะที่ดีเท่าไหร่ แต่ยูโกะดูจะผ่อนคลายลง"
 
 show yuukoshang worried_down
 with charachange
 
 # yu "Do you really think so?"
-yu ""
+yu "เธอคิดว่างั้นเหรอ"
 
 # hi "Uh, yeah, I'm sure. Positive. Isn't that right, girls?"
-hi ""
+hi "เอ้อ อืม ครับ ใช่ ใช่มั้ยสาว ๆ"
 
 show emi basic_closedgrin
 with charachange
 
 # "Emi has been watching this little drama unfold with considerable amusement."
-""
+"เอมิดูจะชอบใจที่ได้เห็นเราวุ่นวายกันเล็ก ๆ น้อย ๆ แบบนี้"
 
 show emi excited_proud
 with charachange
 
 # emi "Yep, it sure is!"
-emi ""
+emi "อื้ม ใช่เลย!"
 
 show yuukoshang neutral_up
 with charachange
 
 # yu "Well, okay…"
-yu ""
+yu "เอ่อ โอเค…"
 
 show emi basic_happy
 with charachange
 
 # emi "So Yuuko, got room to seat us?"
-emi ""
+emi "จะว่าไปคุณยูโกะ มีที่นั่งว่างให้พวกหนูมั้ยคะ"
 
 show yuukoshang neutral_down
 with charachange
@@ -7281,37 +7281,37 @@ label th_E11z:
 $ renpy.music.set_volume(0.3, 3.0, channel="ambient")
 
 # "Yuuko nods and leads us to a corner booth, providing us with some small towels before taking our order."
-""
+"ยูโกะพยักหน้าแล้วนำเราไปที่โต๊ะมุมด้านในแล้วนำผ้าขนหนูผืนเล็ก ๆ มาให้ก่อนจะรับรายการจากพวกเรา"
 
 show yuukoshang happy_down
 with charachange
 
 # yu "What will you have?"
-yu ""
+yu "รับอะไรดีคะ"
 
 show emi basic_closedhappy
 with charachange
 
 # emi "Cake! And some tea too, I guess."
-emi ""
+emi "เค้กค่ะ! แล้วชาด้วยก็ดี"
 
 show yuukoshang neutral_down
 with charachange
 
 # yu "What kind of cake?"
-yu ""
+yu "เค้กอะไรดีคะ"
 
 show emi excited_proud
 with charachange
 
 # emi "Surprise me!"
-emi ""
+emi "ตามใจคนทำเลยค่ะ!"
 
 show yuukoshang worried_up
 with charachange
 
 # "Yuuko looks uncomfortable at the thought of surprising anyone, but she gives a nod and turns to Rin."
-""
+"ยูโกะดูจะอึดอัดที่ไม่ได้ตามใจลูกค้า แต่เธอก็พยักหน้าแล้วหันไปทางริน"
 
 show rin invis:
     yalign 1.0 xpos 1.0 xanchor 0.6
@@ -7325,89 +7325,89 @@ show bg suburb_shanghaiint at center
 with dissolvecharamove
 
 # yu "And for you?"
-yu ""
+yu "ทางนี้ล่ะคะ"
 
 show rin negative_spaciness:
     right alpha 1.0
 with charachange
 
 # rin "I'll take a straw. My feet are all wet."
-rin ""
+rin "ขอหลอดแล้วกัน เท้าเปียกหมดแล้ว"
 
 show yuukoshang worried_up
 with charachange
 
 # yu "Sorry?"
-yu ""
+yu "คะ?"
 
 show rin basic_awayabsent
 with charachange
 
 # rin "The drinking kind of straw. One, please."
-rin ""
+rin "หลอดดูด หนึ่ง ค่ะ"
 
 show yuukoshang worried_down
 with charachange
 
 # "Yuuko is obviously uncertain of what to think about this. She fiddles with her pen and stationery for a moment, looking like she's about to cry, before turning in my direction."
-""
+"ยูโกะทำหน้าเหลอหลา เธอจับปากกากับกระดาษเล่นอยู่ครู่หนึ่งทำหน้าเบ้เหมือนจะร้องไห้ ก่อนจะหันมาทางฉัน"
 
 show yuukoshang neutral_down
 with charachange
 
 # yu "And you, sir?"
-yu ""
+yu "ทางนี้ล่ะคะ"
 
 # hi "Just tea, I think."
-hi ""
+hi "ขอเป็นชาแล้วกันครับ"
 
 # "Emi would probably yell at me if I ordered cake."
-""
+"ขืนสั่งเค้กเอมิคงได้ดุฉันแหง"
 
 show emi sad_depressed
 with charachange
 
 # emi "Aw, come on Hisao! Don't let me be the only one with food, I'll feel like a pig!"
-emi ""
+emi "ไม่เอาน่าฮิซาโอะ! ปล่อยให้ฉันสั่งของกินคนเดียวได้ไง เหมือนตัวเองเป็นหมูตอนเลยเนี่ย!"
 
 # hi "Just trying to eat healthy."
-hi ""
+hi "ก็แค่รักษาสุขภาพเฉย ๆ"
 
 # hi "Your orders, after all."
-hi ""
+hi "เธอสั่งไว้นี่"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Well… today is your day off! You can be healthy tomorrow!"
-emi ""
+emi "เอ่อ… วันนี้วันพักผ่อนของนายนะ! เดี๋ยวค่อยรักษาสุขภาพพรุ่งนี้!"
 
 # hi "Well then, I suppose I will have some cake after all."
-hi ""
+hi "เอ่อ งั้นผมขอเค้กด้วยแล้วกันครับ"
 
 show yuukoshang neurotic_up
 with charachange
 
 # "Yuuko seems slightly irritated that I'm changing my mind."
-""
+"ยูโกะดูจะหงุดหงิดเล็กน้อยที่ฉันเปลี่ยนใจ"
 
 # yu "What kind?"
-yu ""
+yu "เค้กอะไรดีคะ"
 
 # "I glance at Emi and grin."
-""
+"ฉันเหลือบมองเอมิพลางแสยะยิ้ม"
 
 # hi "Surprise me."
-hi ""
+hi "ตามใจคนทำเลยครับ!"
 
 show yuukoshang smile_down
 with charachange
 
 # "Yuuko sighs and nods."
-""
+"ยูโกะถอนหายใจพยักหน้า"
 
 # yu "Very well. Your order will be out soon."
-yu ""
+yu "ได้เลยค่ะ รอสักครู่นะคะ"
 
 show emi basic_grin at left
 show yuukoshang neutral_down
@@ -7415,16 +7415,16 @@ show rin basic_awayabsent
 with shorttimeskip
 
 # "Despite the crowd, our order does indeed arrive quickly."
-""
+"ถึงคนจะแน่นร้านแต่ของที่เราสั่งไปก็มาถึงอย่างรวดเร็ว"
 
 show emi excited_joy
 with charachange
 
 # emi "Thanks, Yuuko!"
-emi ""
+emi "ขอบคุณค่ะคุณยูโกะ!"
 
 # "Yuuko nods in appreciation."
-""
+"ยูโกะพยักหน้าด้วยความยินดี"
 
 stop music fadeout 4.0
 
@@ -7432,40 +7432,40 @@ show yuukoshang happy_down
 with charachange
 
 # yu "This is a different guy than usual, isn't it?"
-yu ""
+yu "ผู้ชายคนนี้คนละคนกับคนที่มาด้วยทุกทีใช่มั้ย"
 
 # "What? Different guy?"
-""
+"อะไรนะ คนละคน?"
 
 show emi basic_hes
 with charachange
 
 # "Emi must notice my confusion, because she seems a little embarrassed."
-""
+"เอมิคงเห็นฉันที่ทำหน้างง ๆ เพราะเธอดูเขิน ๆ"
 
 # emi "W-what? Oh, yeah, I guess he is."
-emi ""
+emi "คะ คะ? เอ่อ ค่ะ มั้งคะ"
 
 show emi sad_grin
 with charachange
 
 # emi "This is my friend Hisao."
-emi ""
+emi "คนนี้เพื่อนหนูเอง ชื่อฮิซาโอะ"
 
 # hi "We've met."
-hi ""
+hi "เคยเจอกันแล้ว"
 
 show yuukoshang smile_down
 with charachange
 
 # yu "Huh. Small world."
-yu ""
+yu "หืม โลกกลมจัง"
 
 show yuukoshang neutral_down
 with charachange
 
 # yu "Well, let me know if you need anything."
-yu ""
+yu "อืม ถ้ามีอะไรอีกก็เรียกได้นะ"
 
 hide yuukoshang
 with charaexit
@@ -7475,16 +7475,16 @@ show rin basic_awayabsent at tworight
 with charamove
 
 # "With that, Yuuko takes off like a shot to wait on some other tables, leaving me to ponder her comment."
-""
+"แล้วยูโกะก็เคลื่อนตัวออกไปหาโต๊ะอื่นทิ้งให้ฉันคิดอยู่กับคำพูดนั้น"
 
 # "Different guy, huh? I guess it makes sense, right? Emi's pretty popular, or so I've been told."
-""
+"คนละคนเหรอ ก็คงปกติสินะ เอมิก็เนื้อหอมพอสมควร เท่าที่ได้ยินมาอะนะ"
 
 # "It's probably that kid from the track team."
-""
+"อาจจะเป็นคนนั้นที่เห็นในทีมกรีฑา"
 
 # "This is stupid. I can just ask Emi."
-""
+"บ้าบอ ถามเอมิก็จบ"
 
 show rin basic_absent
 with charachange
@@ -7492,107 +7492,108 @@ with charachange
 play music music_comedy fadein 0.5
 
 # hi "So who's this other guy, huh? You got a secret lover or something?"
-hi ""
+hi "แล้วผู้ชายคนที่ว่านี่ใครเหรอ แอบซุกกิ๊กหรืออะไรเนี่ยเธอ"
 
 show emi basic_closedhappy
 show rin basic_awayabsent
 with charachange
 
 # "Emi laughs again, only I get the feeling it's from nervousness as much as anything else."
-""
+"เอมิหัวเราะอีกครั้ง แต่ก็เหมือนหัวเราะเพราะประหม่าหรืออะไรแบบนั้นมากกว่า"
 
 show emi basic_grin
 with charachange
 
 # emi "It's just the track team captain. He likes coming down here after practice sometimes."
-emi ""
+emi "หัวหน้าทีมกรีฑาน่ะ ซ้อมเสร็จบางทีเขาก็ชอบมาแวะร้านนี้"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "So if we have anything to discuss I tag along."
-emi ""
+emi "แล้วพอมีอะไรที่ต้องคุยกันฉันก็ต้องตามมาด้วย"
 
 # "Hmm, sounds mighty suspicious to me…"
-""
+"อืม ฟังดูน่าสงสัยมาก ๆ …"
 
 show rin basic_absent
 with charachange
 
 # hi "Oh, I see."
-hi ""
+hi "อ้อ อย่างนี้นี่เอง"
 
 # "I could let the matter drop, but I can't resist at least getting another dig in."
-""
+"จะปล่อยเรื่องนี้ไปก็ได้ แต่ก็อดใจซักไซ้ต่อไม่ไหว"
 
 # hi "So it {b}is{/b} a secret lover!"
-hi ""
+hi "สรุปคือเธอซุกกิ๊กไว้{b}จริง ๆ{/b} ด้วย"
 
 # hi "I knew it!"
-hi ""
+hi "ว่าแล้วเชียว!"
 
 show rin basic_deadpanamused
 with charachange
 
 # "Rin watches our play, seeming mildly amused before muttering something that I don't quite catch."
-""
+"รินดูเราสองคนด้วยความชอบใจเล็กน้อยก่อนพึมพำอะไรบางอย่างที่ฉันฟังไม่ค่อยถนัด"
 
 # rin "… y'anyway"
-rin ""
+rin "… แต่ก็นะ"
 
 show emi basic_confused
 with charachange
 
-$doublespeak(emi,hi,"What?", "Huh?")
+# $doublespeak(emi,hi,"What?", "Huh?")
+$doublespeak(emi,hi,"อะไรนะ", "ฮะ?")
 
 show rin basic_surprised
 with charachange
 
 # "Rin jerks back from wherever her mind wandered off to."
-""
+"รินได้สติหลุดจากภวังค์ที่เธอลอยไปอยู่เมื่อครู่"
 
 # rin "Huh?"
-rin ""
+rin "ฮะ?"
 
 # hi "What did you just say?"
-hi ""
+hi "เมื่อกี้เธอว่าไงนะ"
 
 show rin basic_deadpan
 with charachange
 
 # rin "Huh."
-rin ""
+rin "ฮะ"
 
 # hi "No, before that."
-hi ""
+hi "ไม่ ก่อนนั้นสิ"
 
 show rin relaxed_nonchalant
 with charachange
 
 # rin "No idea."
-rin ""
+rin "ไม่รู้"
 
 # hi "Oh. Well."
-hi ""
+hi "เออ ช่างเหอะ"
 
 # hi "Okay."
-hi ""
+hi "โอเค"
 
 show emi basic_grin
 show rin basic_deadpannormal
 with charachange
 
 # "I let the matter drop, but I can't help notice that Emi seems relieved that Rin interrupted the conversation."
-""
+"ฉันยอมปล่อยไป แต่ก็อดสังเกตไม่ได้ว่าเอมิดูโล่งใจที่รินเข้ามาขัดบทสนทนา"
 
 # "Maybe I went a little too far…"
-""
+"สงสัยจะหยอกแรงไป…"
 
 # "Conversation dies down for a moment as Emi and I busy ourselves with cake."
-""
+"ไม่มีใครพูดอะไรอยู่พักหนึ่งระหว่างที่เอมิกับฉันกินเค้กกัน"
 
 # "Mine is strawberry, and surprisingly good."
-""
+"ของฉันเป็นเค้กสตรอว์เบอร์รี ซึ่งอร่อยผิดคาด"
 
 play sound sfx_slide2
 
@@ -7603,70 +7604,70 @@ show emi basic_closedgrin
 with charadistant
 
 # "Emi seems to think so too, as she suddenly reaches over with her fork and steals a bit."
-""
+"เอมิคงจะคิดเหมือนกันถึงได้อยู่ ๆ ก็ยื่นส้อมมาตัดขโมยไปกิน"
 
 # hi "Thief!"
-hi ""
+hi "ขโมย!"
 
 show emi excited_proud
 with charadistant
 
 # emi "Pirate. There's a difference."
-emi ""
+emi "โจรสลัดต่างหาก ไม่เหมือนกันสักหน่อย"
 
 # hi "We're not on water!"
-hi ""
+hi "เราไม่ได้อยู่บนน้ำนะ!"
 
 show emi basic_closedgrin
 with charadistant
 
 # emi "Well, no. But there's a lot of water outside, so it still works, right?"
-emi ""
+emi "ก็จริง แต่ข้างนอกมีน้ำเยอะแยะเหมือนกันนี่ นับได้แหละ ใช่มั้ย"
 
 show emi sad_grin
 with charadistant
 
 # emi "Besides, you can have some of mine. I think it's cranberry or something."
-emi ""
+emi "อีกอย่าง นายจะกินของฉันด้วยก็ได้ เหมือนจะเป็นแครนเบอร์รีหรืออะไรนี่แหละมั้ง"
 
 show emi sad_depressed
 with charadistant
 
 # emi "I should have asked for the strawberry. I like strawberries."
-emi ""
+emi "รู้งี้สั่งสตรอว์เบอร์รีดีกว่า ฉันชอบสตรอว์เบอร์รี"
 
 # hi "Feel free to help yourself to mine, if you really must."
-hi ""
+hi "ถ้าอยากขนาดนั้นก็เต็มที่เธอเลยเถอะ"
 
 # "For some reason, I feel compelled to add:"
-""
+"ไม่รู้ทำไมถึงได้อยากพูดต่อว่า"
 
 # hi "Seeing as how you've already done it once, and all."
-hi ""
+hi "ไหน ๆ ก็เอาไปหนึ่งคำแล้วนี่"
 
 show emi basic_closedgrin
 with charadistant
 
 # "Emi sticks her tongue out at me, but that doesn't stop her from appropriating my cake. I try some of hers, as well."
-""
+"เอมิแลบลิ้นใส่ ทว่ายังไม่หยุดมือที่คอยฉวยเค้กฉัน ฉันชิมเค้กของเอมิบ้าง"
 
 # "It's raspberry, and pretty good."
-""
+"ราสป์เบอร์รี ซึ่งก็อร่อยดี"
 
 show rin relaxed_boredom
 with charachange
 
 # rin "The rain's let up."
-rin ""
+rin "ฝนซาแล้ว"
 
 # "It would appear that Rin is correct."
-""
+"เหมือนจะเป็นอย่างที่รินพูด"
 
 # "Good timing, too. I've finished my food, and it looks like Emi has as well."
-""
+"ได้จังหวะพอดีด้วย ฉันกินของฉันหมดแล้ว เอมิก็กินหมดแล้วเหมือนกัน"
 
 # hi "Well, we'd better pay and get a move on before it starts raining again."
-hi ""
+hi "โอเค งั้นรีบจ่ายเงินแล้วออกจากร้านไปก่อนที่ฝนจะตกอีกรอบกัน"
 
 stop ambient fadeout 1.0
 
@@ -7674,49 +7675,49 @@ scene bg suburb_shanghaiext_rn
 with locationchange
 
 # "It takes a few minutes to get Yuuko's attention, but we pay and get out pretty quickly."
-""
+"ผ่านไปสักสองสามนาทีถึงเรียกยูโกะได้ แต่เราก็จ่ายเงินแล้วออกจากร้านมาด้วยความรวดเร็ว"
 
 show emi basic_grin_rn at center
 with charaenter
 
 # emi "So, do you want to return to the park?"
-emi ""
+emi "แล้วอยากกลับไปที่สวนสาธารณะกันอยู่มั้ย"
 
 # "My jaw nearly drops."
-""
+"ฉันอ้าปากหวอ"
 
 # hi "Are you kidding? It's probably going to rain again!"
-hi ""
+hi "ล้อเล่นปะเนี่ย เดี๋ยวฝนตกอีกรอบทำไง!"
 
 # "In fact, I think I just felt some raindrops."
-""
+"เอาจริง ๆ ตอนนี้ก็เหมือนมีฝนหยดใส่แล้วด้วย"
 
 show emi sad_grin_rn
 with charachange
 
 # emi "Hmm… you may be right."
-emi ""
+emi "อืมม… ก็คงจริงของนาย"
 
 show emi basic_closedgrin_rn
 with charachange
 
 # emi "Well okay, I'll let you off the hook this time, but you owe me a picnic now. Got it?"
-emi ""
+emi "โอเค รอบนี้ฉันจะยอมปล่อยไป แต่ทีนี้ก็นับว่าติดหนี้ปิกนิกกับฉันแล้วนะ"
 
 # "I don't know if she's addressing me, Rin, or the both of us."
-""
+"ไม่รู้ว่าเอมิพูดถึงฉันหรือริน หรือเราทั้งสองคน"
 
 # hi "Fine, fine."
-hi ""
+hi "ก็ได้ ๆ"
 
 show emi excited_proud_rn
 with charachange
 
 # emi "Now hurry up! I wanted to get some laps in at the track, and it would be nice to do it without the rain."
-emi ""
+emi "รีบไปกันได้แล้ว! ฉันอยากวิ่งที่ลู่สักสองสามรอบ ถ้าฝนตกใส่คงไม่ดีแน่"
 
 # hi "I thought this was your day off!"
-hi ""
+hi "ไหนบอกวันนี้พักผ่อนไง!"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 stop music fadeout 6.0
@@ -7725,91 +7726,94 @@ show emi sad_depressed_rn
 with charachange
 
 # emi "Well…"
-emi ""
+emi "เอ่อ…"
 
 # "Emi suddenly seems reluctant to explain herself."
-""
+"อยู่ ๆ เอมิก็ดูอ้ำอึ้งไปไม่อยากแก้ต่าง"
 
 show emi sad_grin_rn
 with charachange
 
 # emi "I need the practice."
-emi ""
+emi "ฉันต้องซ้อม"
 
 show emi basic_grin_rn
 with charachange
 
 # emi "And I need to burn off that cake, anyway."
-emi ""
+emi "จะได้เป็นการออกกำลังกายเอาเค้กออกด้วย"
 
 # "Why do I get the feeling that she's leaving something out?"
-""
+"ทำไมถึงรู้สึกเหมือนเอมิไม่ได้บอกอะไรให้หมดกันนะ"
 
 # hi "Are you sure? It wasn't that much cake…"
-hi ""
+hi "แน่ใจนะ ก็ไม่ได้กินเยอะขนาดนั้น…"
 
 show emi basic_closedgrin_rn
 with charachange
 
 # emi "No, it wasn't that much cake for {b}you{/b}. I ate most of it."
-emi ""
+emi "{b}นาย{/b}น่ะกินไม่เยอะ แต่ฉันเนี่ยกินไปเกือบหมด"
 
 # "She's got a point there."
-""
+"ก็ถูกของเอมิ"
 
 label th_choiceE11:
 menu:
     with menueffect
 
-    "Still, I feel like I should at least offer to run with her…"
+    # "Still, I feel like I should at least offer to run with her…"
+    "แต่ก็รู้สึกเหมือนอย่างน้อยก็ควรเสนอตัวไปวิ่งด้วย…"
 
     #Choice split: Offer to run with Emi/Keep quiet.
 
-    "Offer to run with Emi.":
+    # "Offer to run with Emi.":
+    "เสนอตัวจะไปวิ่งกับเอมิ":
         return m1
 
-    "Keep quiet.":
+    # "Keep quiet.":
+    "ไม่พูดอะไร":
         return m2
 
 label th_E11b:
 
 #If you offer to run with Emi
 # hi "Hey, I'll run with you."
-hi ""
+hi "นี่ เดี๋ยวไปวิ่งด้วย"
 
 # hi "I might as well, right?"
-hi ""
+hi "ไหน ๆ ก็ไหน ๆ แล้วนี่นะ"
 
 show emi basic_annoyed_rn
 with charachange
 
 # "Emi shakes her head emphatically."
-""
+"เอมิสั่นหัวด้วยความสงสาร"
 
 # emi "No you won't, Hisao. Rest is critical for you, remember?"
-emi ""
+emi "ไม่ ไม่ได้นะฮิซาโอะ นายต้องพักก่อน ลืมแล้วเหรอ"
 
 # emi "I won't allow you to push yourself too hard."
-emi ""
+emi "ฉันไม่ยอมให้นายฝืนตัวเองหรอกนะ"
 
 # "I guess she's better at giving advice than taking it."
-""
+"คงจะเป็นคนจำพวกที่ให้คำแนะนำเก่งกว่าการรับฟังไว้เองสินะ"
 
 # hi "Whatever you say, Emi."
-hi ""
+hi "ตามเธอว่าเลยเอมิ"
 
 # "I think it's probably best not to press the issue."
-""
+"อย่าไปตื๊อต่อเลยดีกว่า"
 
 label th_E11c:
 
 #If you selected to keep quiet, skip to here.
 
 # "Come to think of it, she looks like she'd rather be alone right now."
-""
+"จะว่าไปแล้ว ตอนนี้เอมิก็เหมือนอยากอยู่คนเดียวด้วย"
 
 # "I decide to keep my offer to myself."
-""
+"ฉันตัดใจเก็บข้อเสนอนั้นไว้กับตัวเอง"
 
 label th_E11d:
 
@@ -7826,94 +7830,94 @@ show rain normal
 with Dissolve(2.0)
 
 # "As we approach the girls' dormitory, it starts to rain again."
-""
+"พอมาถึงที่หอหญิงฝนก็เริ่มตกอีกรอบ"
 
 show emi sad_annoyed_rn at center behind rain
 with charaenter
 
 # "Emi's expression sours slightly."
-""
+"เอมิทำหน้าไม่พอใจเล็กน้อย"
 
 # emi "Aw, man…"
-emi ""
+emi "โธ่เอ๊ย…"
 
 # emi "Stupid rain."
-emi ""
+emi "เจ้าฝนบ้า"
 
 # hi "Hey, it'll let up soon enough. You can go running then, right?"
-hi ""
+hi "เดี๋ยวก็หยุดตกน่า ไว้หยุดตกแล้วค่อยไปวิ่งก็ได้"
 
 show emi basic_grin_rn
 with charachange
 
 # "Emi snorts, seemingly amused."
-""
+"เอมิหัวเราะหึดูชอบใจ"
 
 show emi excited_proud_rn
 with charachange
 
 # emi "Like I'm not going to run in the rain."
-emi ""
+emi "พูดเหมือนถ้าฝนตกแล้วฉันจะไม่วิ่งงั้นแหละ"
 
 # hi "Well you shouldn't! You could catch a cold!"
-hi ""
+hi "อย่านะเฮ้ย! เดี๋ยวก็เป็นหวัดหรอก!"
 
 show emi basic_grin_rn
 with charachange
 
 # "Emi waves her hand airily."
-""
+"เอมิโบกไม้โบกมือเหมือนไม่ใช่เรื่องใหญ่"
 
 # emi "Ridiculous! I don't get colds."
-emi ""
+emi "ไร้สาระ! ฉันน่ะไม่เป็นหวัดหรอก"
 
 show emi basic_closedgrin_rn
 with charachange
 
 # emi "My immune system is far too strong for something like that."
-emi ""
+emi "ระบบภูมิคุ้มกันของฉันมันแข็งแกร่งเกินกว่าที่จะเป็นหวัดได้"
 
 # "I can't help but laugh."
-""
+"ฉันอดหัวเราะไม่ได้"
 
 # hi "Well, I'll see you tomorrow then, okay?"
-hi ""
+hi "อืม งั้นก็เจอกันพรุ่งนี้นะ"
 
 show emi basic_happy_rn
 with charachange
 
 # emi "Yeah!"
-emi ""
+emi "อื้ม!"
 
 show emi basic_grin_rn
 with charachange
 
 # emi "Thanks for coming! Oh, and for carrying the picnic basket!"
-emi ""
+emi "ขอบคุณที่มาด้วยนะ! อ้อ แล้วก็ขอบคุณที่ช่วยถือตะกร้าด้วย!"
 
 show emi excited_amused_rn
 with charachange
 
 # emi "I'll bring it for lunch tomorrow. We can have our picnic on the roof!"
-emi ""
+emi "เดี๋ยวพรุ่งนี้จะเอาข้าวเที่ยงไปเผื่อ ปิกนิกกันที่ดาดฟ้าไง!"
 
 # hi "Sounds good to me. See you then!"
-hi ""
+hi "เยี่ยมเลย เจอกัน!"
 
 hide emi
 with charaexit
 
 # "Emi grabs the basket from me and shoots through the door."
-""
+"เอมิหยิบตะกร้าไปแล้วพุ่งไปที่ประตู"
 
 # "Rin gives me a sort of half-nod and ambles inside as well."
-""
+"รินกึ่ง ๆ พยักหน้าก่อนจะเดินนวยนาดเข้าไปข้างใน"
 
 # "Damn, it's wet out here."
-""
+"เปียกไปหมดเลย"
 
 # "I need to get back to my room and into some dry clothes."
-""
+"เดี๋ยวต้องกลับไปเปลี่ยนเสื้อผ้าที่ห้อง"
 
 stop ambient fadeout 2.0
 
@@ -7921,194 +7925,194 @@ scene bg school_dormhallway
 with locationskip
 
 # "I'm soon in front of my door, but I am intercepted by the sudden appearance of Kenji, who appears to be carrying a stack of books."
-""
+"ไม่นานฉันก็มาถึงที่หน้าห้องตัวเอง แต่อยู่ ๆ เคนจิก็เข้ามาขัดขวางเสียก่อน เหมือนจะขนกองหนังสืออะไรมาด้วย"
 
 show kenji neutral at center
 with charaenter
 
 # ke "Hey man, give me a hand, would you?"
-ke ""
+ke "เฮ้ยพวก ช่วยหน่อยได้ปะ"
 
 # hi "Huh?"
-hi ""
+hi "ฮะ?"
 
 play music music_kenji fadein 0.5
 
 with vpunch
 
 # "The books are unceremoniously dumped into my arms as Kenji fumbles with his room key."
-""
+"เคนจิโยนกองหนังสือใส่อ้อมแขนฉันโดยที๋ฉันไม่เต็มใจนัก เขาคุ้ยหากุญแจห้องตัวเอง"
 
 show kenji happy
 with charachange
 
 # ke "Thanks, you're a lifesaver."
-ke ""
+ke "ขอบใจ ช่วยได้เยอะเลย"
 
 # ke "If you weren't around I'd have to keep my door unlocked, and that's just begging for trouble."
-ke ""
+ke "ถ้าไม่มีนายฉันก็คงไม่ได้ปลดล็อกห้องแน่ ซึ่งก็จะยิ่งเป็นปัญหาไปอีก"
 
 show kenji tsun
 with charachange
 
 # ke "The perfect opportunity to set up an ambush, or maybe just plant a bomb if they don't want to get their hands too dirty."
-ke ""
+ke "เป็นจังหวะเหมาะที่จะได้ซุ่มโจมตี หรืออาจจะวางระเบิดไว้ถ้าไม่อยากให้มือต้องเปื้อนเลือดมากไป"
 
 # ke "Probably don't."
-ke ""
+ke "ซึ่งคงจะไม่อยาก"
 
 # ke "Afraid they'll break a nail or something if they have to stab me."
-ke ""
+ke "เพราะกลัวว่าพอแทบฉันแล้วเล็บจะหักหรืออะไรแบบนั้น"
 
 # ke "Women."
-ke ""
+ke "ผู้หญิง"
 
 # "My mind thinks about digesting the verbal torrent that's just been unleashed, but elects to remain comfortably in the dark."
-""
+"สมองฉันกำลังประมวลผลกับกระแสคำพูดที่ถูกปลดปล่อยออกมานั้น ทว่าก็ยอมทิ้งหน้าที่ไม่คิดอะไรต่อแล้วอยู่\nแบบไม่รู้เรื่องนั่นแหละ"
 
 # hi "Uh… huh."
-hi ""
+hi "อ่า… ฮะ"
 
 show kenji happy
 with charachange
 
 # ke "Anyway, where have you been, man?"
-ke ""
+ke "แล้วสรุปไปไหนมาเนี่ย"
 
 show kenji neutral
 with charachange
 
 # ke "I could have used some help carrying these back from the library!"
-ke ""
+ke "แทนที่ฉันจะได้ให้นายช่วยขนหนังสือพวกนี้จากห้องสมุด!"
 
 # ke "I knocked on your door, but you weren't there."
-ke ""
+ke "ฉันมาเคาะประตูแล้วนายก็ไม่อยู่"
 
 # hi "Oh, sorry."
-hi ""
+hi "อ้อ ขอโทษที"
 
 # "Not really. You appear to think I'm some kind of pack mule."
-""
+"ก็ไม่ได้รู้สึกผิดเท่าไหร่หรอก นี่เห็นเป็นเบ๊หรืออะไร"
 
 # hi "I was out with Emi and Rin."
-hi ""
+hi "พอดีออกไปข้างนอกกับเอมิแล้วก็รินน่ะ"
 
 show kenji rage
 with charachange
 
 # "Kenji staggers back in shock."
-""
+"เคนจิถอยกรูดไปด้วยความสะพรึง"
 
 # "It looks like I just shot his dog, if he had a dog."
-""
+"ทำหน้าเหมือนฉันไปยิงหมาของเขา ถ้าเขาเลี้ยงอะนะ"
 
 # ke "The limbless ladies again?"
-ke ""
+ke "สาวไร้รยางค์อีกแล้วเหรอ"
 
 show kenji tsun
 with charachange
 
 # ke "What'd you do this time?"
-ke ""
+ke "คราวนี้ไปทำอะไร"
 
 # hi "Well, we wound up at the Shanghai—"
-hi ""
+hi "ก็ไปร้านเซี่ยงไฮ้—"
 
 # "I'm prevented from continuing by a sudden exclamation of despair."
-""
+"อยู่ ๆ เคนจิก็อุทานด้วยความสิ้นหวังขึ้นมาไม่ให้ฉันได้พูดต่อ"
 
 show kenji rage
 with vpunch
 
 # ke "The Shanghai?"
-ke ""
+ke "ร้านเซี่ยงไฮ้?"
 
 # ke "Why the Shanghai?"
-ke ""
+ke "ทำไมต้องเป็นร้านเซี่ยงไฮ้"
 
 # ke "No no no no, man, you can't just go to the damn Shanghai!"
-ke ""
+ke "ไม่ ๆ ๆ ๆ พวก ไปร้านเซี่ยงไฮ้ไม่ได้นะเว้ย"
 
 # ke "It's the most dangerous place in the city!"
-ke ""
+ke "ร้านนั้นคือที่ที่อันตรายที่สุดในเมืองนี้แล้ว!"
 
 # ke "A veritable stronghold of their best agents!"
-ke ""
+ke "เป็นฐานที่มั่นอย่างแท้จริงของตัวแทนระดับสูง ๆ เลยนะ!"
 
 # ke "I know! I've met them!"
-ke ""
+ke "ฉันรู้! ฉันเคยเจอ!"
 
 # ke "They'll stop at nothing to lull you into a false sense of security, and then BAM!"
-ke ""
+ke "พวกนั้นจะทำทุกวิถีทางเพื่อล่อหลอกให้นายตายใจ แล้วก็ตู้ม!"
 
 play sound sfx_impact2
 with vpunch
 
 # "He hits his door for emphasis."
-""
+"เคนจิทุบประตูเป็นการเน้นย้ำ"
 
 # ke "Wallet's gone. Bus pass? Gone. Identity? Fuckin' {b}gone{/b}, man!"
-ke ""
+ke "กระเป๋าสตางค์หาย ตั๋วรถบัส? หาย บัตรประจำตัว? {b}หาย{/b} เฮ้ย!"
 
 show kenji tsun
 with charachange
 
 # ke "Promise me you won't go there again!"
-ke ""
+ke "สัญญาได้มั้ยว่าจะไม่ไปที่ร้านเซี่ยงไฮ้อีก!"
 
 # "He seems so vehemently opposed to the idea of the Shanghai that I'm willing to lie a little in order to get to my room."
-""
+"เคนจิดูจะเคียดแค้นกับร้านเซี่ยงไฮ้เสียจนฉันนึกยอมโกหกสักหน่อยเพื่อที่จะได้เข้าห้องตัวเอง"
 
 # hi "Sure, I won't go there again."
-hi ""
+hi "ได้ จะไม่ไปอีกแล้ว"
 
 # "Or at least, I won't ever tell you I've gone there again."
-""
+"หรืออย่างน้อยถ้าได้ไปอีกฉันก็จะไม่บอกนาย"
 
 # "This seems to mollify my bespectacled companion."
-""
+"เพื่อนผู้สวมแว่นคนนี้ดูจะพึงใจที่ฉันตอบไปแบบนั้น"
 
 show kenji neutral
 with charachange
 
 # ke "Good, good."
-ke ""
+ke "ดี ๆ"
 
 show kenji happy
 with charachange
 
 # ke "Sorry to come on so strong, but I know the danger there too well to let you just wander into the lion's den again."
-ke ""
+ke "ขอโทษที่ทำตัวรุนแรง แต่ฉันรู้ดีว่าร้านนั้นอันตรายขนาดไหนถึงได้ไม่อยากให้นายต้องไปเพ่นพ่านอยู่ในถ้ำเสือ\nอย่างนั้นน่ะ"
 
 # ke "You got out of there alive once, but twice is pushing it."
-ke ""
+ke "นายไปครั้งเดียวแล้วรอดออกมาได้ แต่จะรอดออกมาได้อีกครั้งคงยากมาก"
 
 # hi "Yeah, well I need to get changed and uh, do homework. So… I'll see you later."
-hi ""
+hi "เออ คือฉันต้องไปเปลี่ยนเสื้อผ้าแล้วก็ เอ่อ ทำการบ้าน เพราะงั้น… เจอกัน"
 
 show kenji tsun
 with charachange
 
 # ke "Huh?"
-ke ""
+ke "ฮะ?"
 
 show kenji neutral
 with charachange
 
 # ke "Oh, sure. Whatever."
-ke ""
+ke "อ้อ เอ้อ เอาเหอะ"
 
 # "I suddenly remember that I'm still holding his books."
-""
+"เหมือนเคนจิเพิ่งนึกได้ว่าหนังสือยังอยู่ในมือฉันอยู่"
 
 # hi "You'd better take these."
-hi ""
+hi "นายเอาหนังสือคืนไปได้แล้ว"
 
 # "I catch a glimpse of one of titles, something about cryptography."
-""
+"ฉันเหลือบไปเห็นชื่อหนังสือเล่มหนึ่ง เหมือนจะเป็นเรื่องวิทยาการรหัสลับหรืออะไร"
 
 # "What a weirdo."
-""
+"พิลึกคน"
 
 stop music fadeout 6.0
 
@@ -8118,7 +8122,7 @@ show kenji neutral:
 with None
 
 # "Kenji grabs his precious cargo from me and disappears through his doorway."
-""
+"เคนจิรับของบรรทุกสุดล้ำค่าของตัวเองแล้วหายลับไปหลังประตูห้อง"
 
 $ renpy.music.set_volume(0.1, 0.0, channel="ambient")
 play ambient sfx_rain fadein 1.0
@@ -8127,31 +8131,31 @@ scene bg school_dormhisao
 with locationchange
 
 # "I open my own door and walk in, grateful to get out of my soaking wet clothes."
-""
+"ฉันเปิดประตูเดินเข้าห้องด้วยความดีใจที่จะได้ถอดเสื้อเปียก ๆ สักที"
 
 # "The rain outside picks up, and I find myself hoping that Emi's not out running in this weather. She seemed so adamant about doing the run alone, I can't help but wonder if her leg's still bothering her."
-""
+"ฝนตกหนักขึ้น หวังว่าเอมิจะไม่วิ่งกลางแจ้งด้วยสภาพอากาศอย่างนี้นะ ดูจะอยากวิ่งคนเดียวเหลือเกิน\nฉันอดสงสัยไม่ได้ว่าเอมิยังเจ็บขาอยู่หรือเปล่า"
 
 # "I try to remember whether or not I've seen her limping at all today, but I can't. Guess I was too caught up in enjoying the day, even if it did rain on us."
-""
+"ฉันเค้นสมองนึกว่าวันนี้เห็นเอมิขากะเผลกหรือเปล่า แต่ก็นึกไม่ออก สงสัยมัวแต่เพลินกับเรื่องวันนี้ ถึงจะฝนตกก็เถอะ"
 
 # "And as I think back over the events of today, I keep finding myself focusing on my running partner."
-""
+"และระหว่างที่ย้อนนึกถึงเหตุการณ์วันนี้จิตใจฉันก็จดจ่ออยู่กับเพื่อนวิ่งของฉัน"
 
 # "Her complete refusal to allow the rain to spoil her plans was incredibly cute."
-""
+"น่ารักดีที่ไม่ยอมให้ฝนมาทำแผนตัวเองล่ม"
 
 # "But there was something else there, too."
-""
+"แต่ก็มีอีกเรื่องด้วยเหมือนกัน"
 
 # "Sort of an unflappable attitude when it comes to enjoying the day as it comes."
-""
+"ท่าทีที่ไม่ย่อท้อกับการใช้ชีวิตไปแบบวันต่อวันให้สนุก"
 
 # "I really like that quality."
-""
+"ฉันชอบตรงนั้นมาก"
 
 # "Maybe I need to do a little of that myself."
-""
+"หรือฉันจะเอามาปรับใช้บ้างดีนะ"
 
 stop ambient fadeout 2.0
 scene black
