@@ -8912,7 +8912,7 @@ with shorttimeskip
 "ฉันไม่เจอหนังสือที่หาอยู่ แต่ก็ได้อย่างอื่นติดมือออกมาแทน"
 
 # "My stomach growls slightly, letting me know that I should have had something for lunch."
-"ท้องฉันร้องเบา ๆ เตือนให้ฉันกินอะไรเป็นมื้อเที่ยง"
+"ท้องฉันร้องเบา ๆ เตือนให้กินอะไรบ้างเป็นมื้อเที่ยง"
 
 # "Oh well."
 "เอาเถอะ"
@@ -8932,27 +8932,27 @@ with shorttimeskip
 play music music_normal fadein 3.0
 
 # "It seems as if time has decided to slow down for the express purpose of annoying the hell out of me."
-""
+"เหมือนว่าเวลาจะช้าลงเพื่อทำให้ฉันหงุดหงิดโดยเฉพาะ"
 
 # "Class feels like it drags on for ages."
-""
+"คาบเรียนยืดยาวเหมือนนานเป็นชาติ"
 
 # "I suspect that my being consumed with worry probably has something to do with it."
-""
+"ส่วนหนึ่งน่าจะเพราะความกังวลที่เกาะกุมในจิตใจ"
 
 play sound sfx_normalbell
 
 # "Blessedly the bell rings and I dash out of class, drawing a few raised eyebrows, I'm sure."
-""
+"พอระฆังมาโปรดแล้วฉันก็พุ่งตัวออกจากห้องเรียน ซึ่งฉันมั่นใจว่าต้องมีคนเลิกคิ้วด้วยความสงสั"
 
 scene bg school_hallway3
 with locationchange
 
 # "I have spent the majority of the day fretting as unobtrusively as I could."
-""
+"ฉันใช้เวลาแทบทั้งวันไปกับการพะวงอย่างไม่ให้ใครจับสังเกตได้"
 
 # "Even though the nurse thinks that Emi is perfectly okay, I want to see for myself."
-""
+"ถึงคุณพยาบาลจะบอกว่าเอมิสบายดี แต่ฉันก็อยากไปดูกับตาตัวเอง"
 
 stop music fadeout 14.0
 
@@ -8960,89 +8960,89 @@ scene bg school_girlsdormhall
 with locationskip
 
 # "It doesn't take long to get to the girls' dormitory and make my way to Emi's room."
-""
+"ไม่นานก็มาถึงหอหญิง ฉันเดินไปที่ห้องเอมิ"
 
 # "Standing outside her door, I suddenly pause. What if she's resting?"
-""
+"เมื่อมาถึงหน้าห้องแล้วฉันก็ชะงักไปทันที ถ้าเกิดว่าหลับอยู่ล่ะ"
 
 # "I'd hate to wake her up, especially if she's still feeling ill."
-""
+"ถ้าเป็นงั้นก็ไม่อยากไปปลุกเลย ยิ่งถ้าเกิดยังไม่สบายอยู่ด้วย"
 
 # "Then again, if she sleeps all day then it could throw off her sleeping schedule."
-""
+"แต่ก็นะ ถ้าเอาแต่นอนทั้งวันเดี๋ยวตอนกลางคืนก็นอนไม่หลับกันพอดี"
 
 # "But rest is important if you're ill, isn't it?"
-""
+"แต่ถ้าป่วยอยู่ก็ต้องพักเยอะ ๆ สิ"
 
 # "I can't decide what to do, so I settle for standing outside the door looking like an idiot."
-""
+"ฉันไม่รู้จะทำอย่างไรจึงได้แต่ยืนอยู่หน้าประตูเหมือนคนซื่อบื้ออย่างนั้น"
 
 # "Then I hear Emi's voice from behind the door."
-""
+"แล้วก็ได้ยินเสียงเอมิจากอีกฟากประตู"
 
 # emi "Thanks for your concern, but I really am okay."
-emi ""
+emi "ขอบคุณที่เป็นห่วงนะ แต่ฉันไม่เป็นไรจริง ๆ"
 
 # "Is she talking to me?"
-""
+"คุยกับฉันเหรอ"
 
 # emi "I'll see you at practice tomorrow!"
-emi ""
+emi "เดี๋ยวเจอกันตอนซ้อมพรุ่งนี้นะ!"
 
 # "Guess not."
-""
+"ไม่น่า"
 
 # "Still, clearly she's not asleep, so I can knock without worry."
-""
+"แต่ชัดแล้วว่าไม่ได้หลับอยู่ เพราะงั้นก็เคาะประตูได้ไม่มีปัญหา"
 
 # "So why this clenched feeling in my gut? I wasn't nervous about dropping by the other day, so why today?"
-""
+"แล้วทำไมฉันถึงรู้สึกมวนท้องขึ้นมา ทั้งที่วันก่อนมาหาก็ไม่ได้ประหม่าเลย ทำไมถึงมาเป็นเอาวันนี้"
 
 # "Granted, I still haven't really had time to figure out this newfound interest in Emi's well-being."
-""
+"จริงอยู่ว่าฉันไม่มีเวลาได้คิดว่าความอยากรู้ถึงความเป็นอยู่ของเอมินี้คืออะไร"
 
 # "I don't have a lot of experience in the matter, of course, but certainly this seems to go beyond feelings of mere friendship."
-""
+"แน่ละว่าฉันไม่ได้มีประสบการณ์กับเรื่องนั้นนัก แต่ที่แน่ ๆ คือความรู้สึกนี้เกินคำว่าเพื่อนเฉย ๆ ไปแล้วแน่นอน"
 
 # "But could I take that step? Could I even bring myself to risk what I have right now?"
-""
+"แต่ฉันจะก้าวไปก้าวถัดไปได้หรือเปล่า ฉันจะยอมเสี่ยงด้วยสิ่งที่มีอยู่ตอนนี้หรือเปล่า"
 
 # "I mean it's enough to be friends with her, isn't it?"
-""
+"แค่เป็นเพื่อนกับเอมิก็พอแล้วนี่"
 
 # "Either way, shouldn't I just open the door and see how she's doing? That's why I came here… right?"
-""
+"แต่จะอย่างไหนก็เถอะ เปิด ๆ ประตูไปดูเลยว่าเอมิเป็นยังไงก็จบแล้ว ที่มาที่นี่ก็คือจะมาหาอยู่แล้วนี่… ใช่มั้ย"
 
 stop music fadeout 1.5
 
 # "What if she's not dressed yet?"
-""
+"ถ้าเกิดว่ายังไม่ได้ใส่เสื้อผ้าล่ะ"
 
 play ambient sfx_heartslow
 
 with Fade (0.05, 0.0, 0.3, color="#ffc0cb")
 
 # "The image that flashes through my mind causes my heart to skip a beat, literally."
-""
+"ภาพที่แล่นเข้ามาในหัวแวบหนึ่งนั้นทำใจฉันเต้นไม่เป็นจังหวะแบบตรงตัวอักษร"
 
 stop ambient fadeout 3.0
 
 # "I should probably not ever think those thoughts again. Not if I want to avoid a heart attack."
-""
+"ฉันไม่ควรจะไปคิดถึงเรื่องอะไรแบบนั้นอีก ถ้าไม่อยากหัวใจวายขึ้นมา"
 
 # "I suddenly realize I'm still standing in the hallway looking like an idiot."
-""
+"อยู่ ๆ ก็นึกขึ้นได้ว่าฉันยังยืนอยู่ที่โถงทางเดินอย่างคนซื่อบื้อเหมือนเดิม"
 
 play sound sfx_doorknock2
 
 # "Emi still seems to be in the middle of a conversation, but I knock anyway. Hopefully she won't mind the interruption."
-""
+"เอมิเหมือนจะยังคุยไม่เสร็จ แต่ฉันก็เคาะประตู หวังว่าจะไม่ถือที่ฉันมาขัดนะ"
 
 # emi "You worry too mu— Come in! The door's unlocked."
-emi ""
+emi "เป็นห่วงกันมากไปแล้— เข้ามาเลย! ประตูไม่ได้ล็อก"
 
 # "So it is. I open the door and step in, which is about where my thought process comes to a grinding halt."
-""
+"ไม่ได้ล็อกจริง ๆ ฉันเปิดประตูแล้วเดินเข้าไป เป็นจังหวะนั้นเองที่สมองฉันหยุดทำงาน"
 
 play music music_serene fadein 4.0
 
@@ -9054,22 +9054,22 @@ scene ev emi_sleepy_face:
 with whiteout
 
 # "Emi is sitting up in bed, her hair tousled from a day spent asleep. I think this is the first time I've seen her without those familiar beads in her hair."
-""
+"เอมินั่งอยู่บนเตียงโดยที่หัวยังยุ่งอยู่เพราะเพิ่งตื่นมาจากการนอนทั้งวัน น่าจะเป็นครั้งแรกเลยที่เห็นเอมิไม่ได้ใส่\nยางรัดผมที่มีลูกกลมอันคุ้นเคยนั้น"
 
 # "Her gym shirt and bloomers, obviously hastily pulled on before I came in, are creased and folded from less than proper storage."
-""
+"เสื้อกับกางเกงพละที่ซ้อนกันยับยู่ยี่ไม่ได้เก็บให้เรียบร้อยจนเห็นชัดว่าก่อนฉันเข้ามาเอมิแค่ดึง ๆ รวบไว้ด้วยกัน"
 
 scene ev emi_sleepy_legs at Fullpan(8.0)
 with flash
 
 # "Her legs lay bare on the sheets."
-""
+"ขาเปลือยเอมิวางอยู่บนที่นอน"
 
 # "I've never seen Emi without prosthetics before. Yet here she is, slender legs terminating in stumps just below her knees."
-""
+"ฉันไม่เคยเห็นเอมิแบบไม่มีขาเทียมมาก่อนเลย ขาเรียวของเธอขาดหายไปเป็นตอตรงล่างหัวเข่า"
 
 # "But as odd as the sight is, I find myself more captivated by everything north of the waist."
-""
+"แต่แม้ภาพตรงหน้าจะแปลกแค่ไหน ฉันก็ยิ่งรู้สึกหลงสเน่ห์ทุกอย่างที่อยู่เหนือเอวขึ้นไป"
 
 scene ev emi_sleepy:
     subpixel True
@@ -9079,19 +9079,19 @@ scene ev emi_sleepy:
 with flash
 
 # "It seems that Emi had finished her conversation with whoever was on the phone with her, and is now watching my reaction closely out of her one open eye as she wipes sleep from the other."
-""
+"ดูท่าว่าจะคุยกับคู่สนทนาปลายสายซึ่งเป็นใครก็ไม่รู้นั้นเสร็จแล้ว แล้วตอนนี้ก็หันมามองปฏิกิริยาฉันด้วยตาข้างหนึ่ง\nที่ลืมอยู่โดยยังขยี้ตาอีกข้างให้หายงัวเงียอยู่"
 
 # "Her expression, far from being embarrassed, is rather one of a surprisingly wide yawn. One perhaps appropriate from such a small mouth."
-""
+"เอมิไม่ได้อายเลย เธอกลับหาวหวอดใหญ่เกินคาดใส่ฉัน อาจจะเป็นการหาวที่เหมาะแล้วกับปากเล็ก ๆ นั้น"
 
 # "A grin that for a brief moment seems almost flirtatious tugs at the corner of her mouth as she takes the sight of me in."
-""
+"เอมิมองฉันพลางยกยิ้มขึ้นมุมปากเหมือนจะยั่วกันอยู่แวบหนึ่ง"
 
 # "I can do nothing but remain in a state fluctuating between fear, confusion, and not a little bit of lust."
-""
+"ในสมองฉันมีแต่ความกลัวและความสับสนที่หมุนวนไปมาโดยไม่ได้มีความใคร่อยู่ในนั้นเลย"
 
 # "Emi hastily sweeps her hair out of her eyes, fixing it back into place before addressing me."
-""
+"เอมิปัด ๆ ผมที่ปรกหน้าอยู่แล้วจัดแจงให้เรียบร้อยก่อนเรียกฉัน"
 
 scene bg school_dormemi
 show emi sad_grin_gym at center
@@ -9099,70 +9099,70 @@ with locationchange
 
 
 # emi "You seem a bit caught off guard, Hisao."
-emi ""
+emi "ดูตกใจเชียวนะฮิซาโอะ"
 
 # "A wave of laughter erupts from her, and I find myself grinning and rubbing the back of my head ruefully."
-""
+"แล้วเอมิก็หัวเราะออกมา ฉันยิ้ม ๆ แล้วลูบท้ายทอยแก้เก้อ"
 
 # hi "Sorry, I've just…"
-hi ""
+hi "ขอโทษที พอดี…"
 
 # "Never seen someone so disheveled look so attractive."
-""
+"ไม่เคยเห็นใครที่ดูไม่เรียบร้อยแต่มีสเน่ห์ขนาดนี้"
 
 # "Never seen you without your legs on."
-""
+"ไม่เคยเห็นเธอตอนไม่ใส่ขาเทียม"
 
 # "Never seen you look so…"
-""
+"ไม่เคยเห็นเธอ…"
 
 # hi "Um, sorry."
-hi ""
+hi "เอ่อ ขอโทษที"
 
 show emi basic_closedgrin_gym
 with charachange
 
 # "Emi giggles again and moves to sit up a little straighter."
-""
+"เอมิหัวเราะคิกคักแล้วนั่งหลังตรง"
 
 # "I'm caught up in the movements of her shirt, very nearly losing myself."
-""
+"ฉันผงะที่เสื้อเธอขยับแบบนั้นจนแทบเสียสติ"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "I was wondering what your reaction would be."
-emi ""
+emi "คิดอยู่ว่านายจะตอบสนองยังไงน่ะ"
 
 show emi basic_closedhappy_gym
 with charachange
 
 # emi "The nurse called and told me you were going to drop by, you see."
-emi ""
+emi "ก็เนี่ย คุณพยาบาลโทร. มาบอกว่านายจะแวะมาหา"
 
 show emi basic_grin_gym
 with charachange
 
 # emi "And I know you haven't seen me… well, you know."
-emi ""
+emi "แล้วก็รู้ด้วยว่านายยังไม่เคยเห็นฉันตอน… ก็ นั่นแหละ"
 
 show emi sad_grin_gym
 with charachange
 
 # emi "Without legs."
-emi ""
+emi "ไม่มีขา"
 
 # "I respond in a tone of casual surprise."
-""
+"ฉันตอบไปด้วยน้ำเสียงแปลกใจแบบสบาย ๆ"
 
 # hi "Oh, you don't have them on? I didn't notice."
-hi ""
+hi "อ้าว ไม่ได้ใส่เหรอ ไม่ทันสังเกตเลย"
 
 # "This is almost the truth. I very nearly didn't."
-""
+"ซึ่งก็นับว่าจริงอยู่ เพราะฉันเกือบจะไม่ได้สังเกตแล้ว"
 
 # "I'm not trying to be suave or anything, mind you. Somehow I think Emi would get offended by that."
-""
+"แต่บอกไว้ก่อนว่าฉันไม่ได้จะทำตัวเป็นคนมั่นหน้าหรืออะไร ไม่รู้ทำไมเอมิเหมือนจะไม่พอใจ"
 
 stop music fadeout 0.5
 play sound sfx_pillow
@@ -9170,13 +9170,13 @@ show emi basic_annoyed_gym
 with vpunch
 
 # "Instead, she sticks her tongue out at me and chucks a pillow at my head."
-""
+"เอมิกลับแลบลิ้นแล้วปาหมอนใส่หัวฉัน"
 
 # emi "Ass."
-emi ""
+emi "บ้า"
 
 # "I deftly catch the pillow and take careful aim before throwing."
-""
+"ฉันคว้าหมอนไว้อย่างรวดเร็วแล้วเล็งให้ดีก่อนปากลับ"
 
 play music music_running
 
@@ -9188,23 +9188,24 @@ show emi basic_annoyed_gym:
         "emi basic_closedhappy_gym" with Dissolve(0.5, alpha=True)
 
 # "Emi laughs and rolls to one side, dodging my shot, the shifting of her shirt distracting me enough so that the next thrown pillow hits me right between the eyes."
-""
+"เอมิหัวเราะแล้วกลิ้งตัวไปด้านข้างหลบหมอนที่ปาไป เสื้อเธอที่เลิกขึ้นทำฉันเสียสมาธิจนเมื่อเธอปามาอีกรอบ\nก็โดนเข้าที่หว่างคิ้วเต็ม ๆ"
 
 play sound sfx_pillow
 
-hi "Oof!" with hpunch
+# hi "Oof!" with hpunch
+hi "อุ๊บ!" with hpunch
 
 # "I retaliate, of course."
-""
+"แน่ละว่าฉันต้องถอย"
 
 # "And once I've retaliated twice, well, a war was bound to break out sooner or later."
-""
+"และเมื่อฉันถอยไปสองรอบแล้วสงครามก็จะเริ่มขึ้นในไม่ช้าก็เร็ว"
 
 # "And really, when Emi appears to have far better aim than me, well…"
-""
+"และยิ่งเอมิเหมือนจะเล็งแม่นกว่าฉันด้วย ก็นะ…"
 
 # "It was just a matter of time before I'd have to resort to a suicidal charge."
-""
+"ไม่นานฉันก็ต้องพึ่งวิธีการจู่โจมพลีชีพแล้ว"
 
 show bg school_dormemi:
     center
@@ -9221,13 +9222,13 @@ show emi basic_closedhappy_gym_close:
 with characlose
 
 # hi "Gotcha!"
-hi ""
+hi "ได้ตัวละ!"
 
 show emi basic_hes_gym_close
 with charachange
 
 # emi "Eep!"
-emi ""
+emi "ว้าย!"
 
 window hide None
 
@@ -9272,10 +9273,10 @@ with dissolve
 window show
 
 # "And once the charge was accomplished, well, of course I'd have to wrestle the pillows away from her."
-""
+"และเมื่อจู่โจมสำเร็จแล้วก็แน่นอนว่าฉันต้องปลุกปล้ำดึงหมอนออกมาจากมือเอมิ"
 
 # "And with that kind of struggle, of course we'd wind up in this sort of position."
-""
+"และเมื่อดิ้นกันไปมาแบบนั้นก็แน่นอนว่าเราต้องมาอยู่กันท่านี้"
 
 window hide
 
@@ -9292,31 +9293,31 @@ with Pause(3.0)
 window show
 
 # "And so I find myself staring down at her from my position atop her."
-""
+"และฉันก็มาคร่อมตัวเอมิมองเธอ"
 
 # "She's grinning, eyes sparkling with amusement, maybe a little sweaty now from our tussle."
-""
+"เอมิยิ้มพร้อมตาเป็นประกายด้วยความสนุก เหงื่อออกเล็กน้อยจากการที่เราออกแรงกัน"
 
 # "Her chest is heaving up and down, sucking in air."
-""
+"หน้าอกเธอกระเพื่อมขึ้นลงสูบอากาศเข้าออก"
 
 # "The small bit of my brain that is not currently enraptured by the sight and the smell of her observes that she must still be ill, because her stamina's not what it should be."
-""
+"สมองเสี้ยวหนึ่งของฉันที่ยังไม่หลงสเน่ห์ไปกับกลิ่นของเธอกับภาพตรงหน้านี้บอกว่าเอมิยังไม่หาย เพราะแรงไม่ได้เยอะ\nเหมือนทุกที"
 
 # "We stay that way for a while."
-""
+"เราค้างกันอยู่ท่านั้นพักหนึ่ง"
 
 # "I'm not sure how long, because everything seems to go fuzzy. Everything that isn't her, anyway."
-""
+"ไม่แน่ใจว่าอยู่กันนานแค่ไหนเพราะทุกอย่างเลอะเลือนไปหมด ทุกอย่างที่ไม่ใช่เอมิน่ะนะ"
 
 # "Her eyes meet mine, and deep inside them I almost catch a glimpse of… what, fear? Longing?"
-""
+"เอมิสบตากับฉัน ในเบื้องลึกนัยน์ตาเธอนั้นฉันเหมือนเห็นแวว… อะไรล่ะ ความกลัว? ความโหยหา?"
 
 # "Hope?"
-""
+"ความหวัง?"
 
 # hi "Emi…?"
-hi ""
+hi "เอมิ…?"
 
 stop music fadeout 0.5
 
@@ -9324,33 +9325,33 @@ show ev emi_bed_unsure at center
 with vpunch
 
 # "A cough suddenly convulses her, and I'm almost stumbling in my haste to get off, to apologize for everything."
-""
+"อยู่ ๆ เอมิก็ตัวกระตุกเพราะไอ ฉันจึงต้องรีบผละตัวออกมาขอโทษจนแทบล้มทับเอมิ"
 
 play music music_emi fadein 3.0
 
 # hi "Sorry, I shouldn't have…"
-hi ""
+hi "ขอโทษที ฉันไม่น่า…"
 
 show ev emi_bed_happy
 with charachange
 
 # emi "It's fine, it's fine."
-emi ""
+emi "ไม่เป็นไร ๆ"
 
 # "She gives me a reassuring pat on the shoulder."
-""
+"เอมิลูบบ่าฉันเป็นการปลอบใจ"
 
 show ev emi_bed_normal
 with charachange
 
 # emi "So… what brings you here?"
-emi ""
+emi "แล้ว… ไปไงมาไงถึงมานี่"
 
 # "She's still breathing hard, and that causes her voice to shake slightly."
-""
+"เอมิยังหอบอยู่จนเสียงสั่น"
 
 # hi "Well, before I was so rudely assaulted by pillows, I came to see how you were doing."
-hi ""
+hi "ก็ ก่อนหน้าที่ฉันจะโดนจู่โจมด้วยหมอนสุดหยาบคายเมื่อกี้ ฉันมาดูว่าเธอเป็นยังไงบ้างน่ะ"
 
 window hide None
 
@@ -9370,122 +9371,122 @@ with Pause(0.5)
 window show
 
 # "This earns me another shove, and I very nearly fall off her bed."
-""
+"พอพูดแล้วเอมิก็ผลักตัวอีกรอบจนฉันแทบตกเตียง"
 
 show ev emi_bed_normal
 hide comic
 with charachange
 
 # "Emi's eyes sparkle again, and I wonder how I never noticed how attractive they are before."
-""
+"เอมิทำตาเป็นประกายอีกรอบ ฉันนึกสงสัยว่าที่ผ่านมาฉันต้องตาถั่วขนาดไหนถึงไม่เห็นสเน่ห์ของตาคู่นี้นะ"
 
 show ev emi_bed_smile
 with charachange
 
 # emi "Consumed with worry, were you?"
-emi ""
+emi "เป็นห่วงกันละสินาย"
 
 # "Her tone is mocking, haughty. Teasing."
-""
+"น้ำเสียงเอมิฟังดูจองหองเหมือนล้อเลียน ฟังดูเหมือนหยอกกัน"
 
 # "She throws her arm across her forehead dramatically, grin still apparent from underneath."
-""
+"เอมิยกแขนขึ้นมาพาดหน้าแบบเล่นใหญ่ โดยยังมีรอยยิ้มอยู่ภายใต้แขนข้างนั้น"
 
 show ev emi_bed_unsure
 with charachange
 
 # emi "Couldn't bear the thought of me laying deathly ill?"
-emi ""
+emi "ทนไม่ได้ละสิที่ฉันต้องนอนป่วยเหมือนใกล้ตายน่ะ"
 
 # "As we both recover from our brief wrestling match, Emi appears to fall back on teasing me."
-""
+"ระหว่างที่เราพักหายใจจากการแข่งมวยปล้ำนั้นอยู่ครู่หนึ่งนี้เอมิก็เหมือนจะกลับมาหยอกฉันอีกแล้ว"
 
 # hi "Well, I wouldn't say consumed with worry, but after you didn't show up this morning like a total wuss…"
-hi ""
+hi "ก็ ไม่เชิงว่าเป็นห่วงหรอก แต่พอเห็นว่าเช้านี้เธอทำตัวเหมือนไก่อ่อนไม่ยอมมาวิ่ง…"
 
 show ev emi_bed_frown
 with charachange
 
 # "Emi pouts, crossing her arms petulantly and sticking her lower lip out."
-""
+"เอมิทำแก้มป่องกอดอกเหมือนขัดใจแล้วเบะปาก"
 
 # emi "It's not my fault."
-emi ""
+emi "ไม่ใช่ความผิดฉันสักหน่อย"
 
 # emi "Nurse wouldn't allow it."
-emi ""
+emi "คุณพยาบาลห้ามฉัน"
 
 # hi "Sure he wouldn't. I completely believe you."
-hi ""
+hi "คงห้ามแหละเนอะ ฉันเชื่อเธอสุดหัวใจเลย"
 
 # "Emi sticks her tongue out again."
-""
+"เอมิแลบลิ้นอีกรอบ"
 
 # emi "You're such a jerk, Hisao."
-emi ""
+emi "ใจร้ายจริง ๆ นะนายเนี่ยฮิซาโอะ"
 
 # hi "So how was your day then, eh? Did you enjoy slacking off?"
-hi ""
+hi "แล้ววันนี้เป็นไงบ้าง นอนอู้สบายมั้ย"
 
 show ev emi_bed_normal
 with charachange
 
 # emi "Not really, the phone woke me up pretty early on."
-emi ""
+emi "ไม่เท่าไหร่ พอดีมีสายโทร. เข้ามาปลุกฉันน่ะ"
 
 # hi "The phone?"
-hi ""
+hi "โทร. เข้ามา?"
 
 # emi "Yeah, the captain of the team called to make sure I was doing okay."
-emi ""
+emi "อื้ม หัวหน้าทีมโทร. มาถามว่าสบายดีหรือเปล่า"
 
 # emi "Also to let me know it was okay to skip practice."
-emi ""
+emi "แล้วก็บอกด้วยว่าขาดซ้อมได้ไม่เป็นไร"
 
 # "Good, at least she wasn't alone all day. Someone checked up on her."
-""
+"ดีแล้ว อย่างน้อยก็ไม่นอนเหงาอยู่ทั้งวัน ยังมีคนคอยดูอาการอยู่"
 
 # "Although I can't help but think that it should have been me."
-""
+"แต่ก็อดคิดไม่ได้ว่าทำไมคนนั้นถึงไม่เป็นฉันนะ"
 
 # hi "Oh, that's good."
-hi ""
+hi "อ้อ ดีแล้ว"
 
 # hi "He really keeps an eye on you, huh?"
-hi ""
+hi "เขาดูแลเธอดีน่าดูเลยนะ"
 
 show ev emi_bed_smile
 with charachange
 
 # "Emi shrugs."
-""
+"เอมิยักไหล่"
 
 # emi "It's his job."
-emi ""
+emi "ก็ตามหน้าที่"
 
 # emi "Part of being the captain means you know where your team members are when they're not in school."
-emi ""
+emi "เป็นหัวหน้าทีมก็ต้องรู้ว่าสมาชิกทีมอยู่ไหนถ้าไม่ได้อยู่ในโรงเรียน"
 
 # emi "Still, I guess it was nice of him to call, huh?"
-emi ""
+emi "แต่ก็นะ ถือว่ามีน้ำใจแหละที่ยังโทร. หากัน"
 
 # hi "Yep. Sure was."
-hi ""
+hi "อื้ม ใช่"
 
 # "Emi yawns and shimmies down into a more comfortable position."
-""
+"เอมิหาวแล้วจัดท่าให้นอนสบายขึ้น"
 
 show ev emi_bed_normal
 with charachange
 
 # emi "So how was your day?"
-emi ""
+emi "แล้ววันนี้นายเป็นไงบ้าง"
 
 # hi "Kind of uneventful, you know?"
-hi ""
+hi "ก็ไม่ค่อยมีอะไรนะ"
 
 # hi "I went ahead and ran by myself, and talked with the nurse about how you were doing…"
-hi ""
+hi "ฉันไปวิ่งตัวคนเดียว แล้วก็คุยกับคุณพยาบาลเรื่องอาการของเธอ…"
 
 stop music fadeout 2.0
 
@@ -9493,13 +9494,13 @@ scene bg school_dormemi_ni
 with shorttimeskip
 
 # "I meander through the day's events, none of which are particularly engrossing."
-""
+"ฉันย้อนรำลึกถึงเหตุการณ์ในวันนี้ที่ไม่ค่อยมีเนื้อหาสาระสักเท่าไหร่"
 
 # "That's when I'm distracted by an arm finding its way across my waist."
-""
+"ซึ่งก็เป็นจังหวะนั้นที่ฉันรู้สึกถึงแขนที่โอบเอวฉันอยู่"
 
 # "It seems that Emi fell asleep while I was talking so I draw her blanket to cover us."
-""
+"เหมือนเอมิจะผล็อยหลับไปตอนที่ฉันพูดอยู่ ฉันดึงผ้าห่มมาคลุมตัวพวกเราไว้"
 
 play music music_comfort fadein 9.0
 
@@ -9507,336 +9508,336 @@ scene ev emi_sleep_unsure
 with locationchange
 
 # "She's rolled over on to her side, and now one leg is thrown over my legs, effectively trapping me."
-""
+"เอมินอนตะแคงจนขาข้างหนึ่งมาพาดขาฉันจนฉันหนีไปไหนไม่ได้"
 
 # hi "Hey."
-hi ""
+hi "นี่"
 
 # "It seems a shame to wake her, but I have things to do."
-""
+"ไม่อยากปลุกเลย แต่ฉันก็มีธุระของฉันเหมือนกัน"
 
 play sound sfx_rustling
 
 # "I gently shake her, but in response she only tightens her arm's grip on me and sighs a little."
-""
+"ฉันเขย่าตัวเอมิเบา ๆ ทว่าเธอกลับโอบฉันไว้แน่นขึ้นกว่าเดิมแล้วถอนหายใจเบา ๆ"
 
 # "My resistance to this position crumbles rather quickly."
-""
+"ฉันถอดใจไม่อยากต้านทานท่านี้อีกอย่างรวดเร็ว"
 
 # "The feeling of her body breathing steadily is both calming and incredibly stimulating at the same time."
-""
+"สัมผัสจากร่างกายเธอที่หายใจเข้าออกอย่างสม่ำเสมอนั้นชวนให้ใจสงบและไม่สงบเป็นอย่างมากไปพร้อม ๆ กัน"
 
 # "My breathing cannot decide if it wants to relax or speed up."
-""
+"ลมหายใจของฉันลังเลว่าจะผ่อนลงหรือเร่งขึ้นดี"
 
 # "Relaxation wins, and I find myself putting an arm around Emi."
-""
+"สุดท้ายก็ผ่อนลง ฉันโอบเอมิไว้"
 
 scene ev emi_sleep_normal
 with dissolve
 
 # hi "I think I'm in love."
-hi ""
+hi "ฉันว่าฉันกำลังมีความรัก"
 
 # "The words slip out and hang in the air unnoticed."
-""
+"คำพูดนั้นหลุดลอยออกมาอยู่ในอากาศโดยไม่มีใครได้ยิน"
 
 # "At least I hope they've gone unnoticed."
-""
+"อย่างน้อยก็หวังว่าจะไม่มีใครได้ยินน่ะนะ"
 
 scene ev emi_sleep_weep
 with dissolve
 
 # "Emi whimpers weakly through her dream, and her grip suddenly tightens again."
-""
+"เอมิสะอื้นเบา ๆ ตอนหลับอยู่ และอยู่ ๆ เธอก็กอดฉันแน่นขึ้น"
 
 # "For the first time since I've known her, I see tears running down Emi's face."
-""
+"เป็นครั้งแรกนับตั้งแต่ที่ได้รู้จักกันมาที่ฉันได้เห็นน้ำตาของเอมิ"
 
 # "It feels like my heart is about to break."
-""
+"เหมือนใจจะสลายเลย"
 
 # "I instinctively tighten my own grip and stroke her hair in what I hope is a soothing manner."
-""
+"ฉันกอดเอมิแน่นขึ้นไปโดยอัตโนมัติพลางลูบผมด้วยหวังว่าจะช่วยปลอบได้"
 
 # "Words of comfort, meaningless in this situation, spring to mind."
-""
+"ฉันนึกถึงคำพูดปลอบที่น่าจะใช้อะไรไม่ได้กับสถานการณ์ในตอนนี้"
 
 # "Maybe I should wake her. Are you supposed to wake people having nightmares?"
-""
+"หรือจะปลุกเอมิดี เราควรปลุกคนที่กำลังฝันร้ายอยู่หรือเปล่า"
 
 # "I can't for the life of me remember."
-""
+"นึกให้ตายยังไงก็นึกไม่ออกว่าควรไหม"
 
 # "The decision is taken from me as Emi suddenly jerks awake with a cry."
-""
+"ฉันไม่อาจเลือกอย่างไหนได้อีกต่อไปเมื่ออยู่ ๆ เอมิก็สะดุ้งตื่นขึ้นพร้อมเสียงร้อง"
 
 scene ev emi_sleep_cry
 with dissolve
 
 # emi "Dad!"
-emi ""
+emi "พ่อ!"
 
 # "This is… more than I think I want to hear without her knowing. I quickly sit upright and gently shake her shoulder to stir her."
-""
+"ฉันว่า… น่าจะมาได้ยินอะไรเกินกว่าที่ฉันจะอยากได้ยินโดยที่เอมิไม่รู้ตัวแล้วละ ฉันนั่งหลังตรงทันทีแล้วเขย่าไหล่\nปลุกเธอเบา ๆ"
 
 scene bg school_dormemi_ni
 with locationchange
 
 # hi "Hey, you okay?"
-hi ""
+hi "นี่ เป็นอะไรหรือเปล่า"
 
 # "What a silly question."
-""
+"ถามอะไรแปลก ๆ"
 
 show emi basic_shock_gym_close_ni at tworight
 with charaenter
 
 # emi "Huh? What?"
-emi ""
+emi "ฮะ? อะไร"
 
 show emi basic_hes_gym_close_ni
 with charachange
 
 # emi "Hisao?"
-emi ""
+emi "ฮิซาโอะ?"
 
 # "She shakes her head as if to clear it and quickly wipes her eyes."
-""
+"เอมิสั่นหัวให้สมองปลอดโปร่งขึ้นแล้วรีบเช็ดตาตัวเอง"
 
 # hi "You had a nightmare. I think."
-hi ""
+hi "เธอฝันร้าย หรือเปล่า"
 
 show emi sad_shy_gym_close_ni
 with charachange
 
 # "Emi shudders again and glances up at me a little cautiously, as if unsure whether or not she's actually up."
-""
+"เอมิสะดุ้งอีกรอบแล้วเหลือบมองฉันอย่างระแวดระวังเหมือนไม่แน่ใจว่าตัวเองตื่นแล้วจริง ๆ"
 
 # emi "Y-yeah, I guess so."
-emi ""
+emi "อะ อื้ม มั้งนะ"
 
 # hi "You wanna talk about it?"
-hi ""
+hi "อยากเล่ามั้ย"
 
 # emi "Hmm?"
-emi ""
+emi "หืม"
 
 # "A speedy internal debate seems to be going on in her head, which resolves itself with a shrug."
-""
+"เหมือนเอมิกำลังเถียงกับตัวเองอยู่ในหัวแบบเร็ว ๆ ซึ่งลงเอยด้วยการยักไหล่"
 
 show emi basic_hes_gym_close_ni
 with charachange
 
 # emi "Nah, I don't really remember much of it."
-emi ""
+emi "ไม่อะ ฉันก็จำไม่ค่อยได้"
 
 # "I'm pretty sure she's lying to me, but somehow I don't think I should press the issue."
-""
+"ฉันมั่นใจว่าเอมิโกหกฉันอยู่ แต่ก็รู้สึกว่าไม่ควรไปซักไซ้อะไรต่อ"
 
 show emi sad_shyblush_gym_close_ni
 with charachange
 
 # "Emi shudders again and turns toward me, looking a little sheepish."
-""
+"เอมิสะดุ้งอีกรอบแล้วหันมาทางฉันพร้อมทำหน้าแหย ๆ"
 
 # emi "Sorry for falling asleep on you like that."
-emi ""
+emi "ขอโทษที่หลับใส่นายแบบนั้นนะ"
 
 # "I keep my voice as soothing as I can."
-""
+"ฉันรักษาน้ำเสียงให้นุ่มนวลที่สุดเท่าที่จะทำได้"
 
 # hi "Hey, don't worry about it. You've been ill."
-hi ""
+hi "น่า ไม่ต้องไปคิดมาก เธอไม่สบายนี่"
 
 # emi "Yeah, I guess that cold medicine's just made me a little drowsy."
-emi ""
+emi "อื้ม ที่ง่วง ๆ ก็น่าจะเพราะยาแก้หวัดนั่นแหละ"
 
 # hi "I guess so."
-hi ""
+hi "คงงั้น"
 
 # "Emi does not strike me as the sort of person who'd fall asleep at the drop of a hat."
-""
+"เอมิเหมือนไม่ใช่คนที่จะผล็อยหลับไปง่าย ๆ อย่างนั้นเลย"
 
 # "Rin, maybe. But Emi's far too energetic."
-""
+"ถ้ารินอาจจะใช่ แต่เอมิแรงเยอะเกินกว่าจะเป็นอย่างนั้นได้"
 
 show emi basic_grin_gym_close_ni
 with charachange
 
 # "Emi gives a half-smile at my response, and then just like that she's back to her old self."
-""
+"เอมิยิ้มบาง ๆ ให้กับคำตอบฉัน และเธอก็กลับไปเป็นตัวเธอคนเดิมทันที"
 
 show emi basic_closedgrin_gym_close_ni
 with charachange
 
 # emi "Well, prepare yourself for tomorrow morning Hisao!"
-emi ""
+emi "นั่นแหละ เตรียมใจไว้สำหรับพรุ่งนี้เช้าด้วยฮิซาโอะ!"
 
 show emi excited_proud_gym_close_ni
 with charachange
 
 # emi "We'll have to go twice as hard to make up for today!"
-emi ""
+emi "เราต้องวิ่งกันเป็นสองเท่าเพื่อชดเชยวันนี้!"
 
 # hi "But I went running this morning!"
-hi ""
+hi "แต่เช้านี้ฉันไปวิ่งแล้วนะ!"
 
 show emi basic_annoyed_gym_close_ni
 with charachange
 
 # emi "No excuse!"
-emi ""
+emi "ไม่มีข้อแม้!"
 
 # hi "Oh fine, I'll be ready for you!"
-hi ""
+hi "เอ้อ เอาเถอะ จะเตรียมตัวคอยเธอแล้วกัน!"
 
 show emi basic_grin_gym_close_ni
 with charachange
 
 # "Emi nods, satisfied."
-""
+"เอมิพยักหน้าพอใจ"
 
 # emi "Good."
-emi ""
+emi "ดี"
 
 # "I take this as my cue to exit."
-""
+"ฉันถือจังหวะนี้ขอตัว"
 
 # hi "Well, I'd better get going. Especially if I want to get enough sleep for tomorrow."
-hi ""
+hi "โอเค งั้นไปละ ต้องนอนออมแรงให้พอสำหรับวิ่งพรุ่งนี้"
 
 show emi basic_grin_gym_ni
 with vpunch
 
 # "I hop off the bed and head for the door."
-""
+"ฉันโดดออกจากเตียงแล้วเดินไปที่ประตู"
 
 show emi sad_shy_gym_ni
 with charachange
 
 # emi "Hey, Hisao…"
-emi ""
+emi "นี่ ฮิซาโอะ…"
 
 # hi "Hmm?"
-hi ""
+hi "หืม"
 
 # "I pivot neatly on my heel and face Emi."
-""
+"ฉันหมุนส้นเท้าแล้วหันไปทางเอมิ"
 
 show emi basic_hes_gym_ni
 with charachange
 
 # "She opens her mouth to say something, and then in another first, I see her falter slightly."
-""
+"เอมิอ้าปากจะพูดอะไรบางอย่าง และเห็นว่าเอมิชะงักไปเล็กน้อยเมื่อทำแบบนั้นอีกรอบ"
 
 # "She closes her mouth and opens it again."
-""
+"เธอปิดปากแล้วเปิดออกอีกรอบ"
 
 show emi sad_grin_gym_ni
 with charachange
 
 # emi "…Thanks."
-emi ""
+emi "…ขอบคุณนะ"
 
 # emi "For dropping by, I mean."
-emi ""
+emi "ที่แวะมาหาน่ะ"
 
 # emi "You're kind of the first visitor I've ever had who wasn't Rin."
-emi ""
+emi "นายเป็นคนแรก ๆ นอกจากรินเลยนะที่แวะมาหาฉัน"
 
 # "Now that's surprising. I would figure that Emi'd have people dropping by all the time."
-""
+"ฉันแปลกใจไปเพรราะคิดว่าเอมิคงต้องมีคนแวะมาหาไม่ขาดสาย"
 
 # "She's certainly popular enough, or so I thought. Always talking to people in the hallways."
-""
+"เอมิก็เป็นที่รู้จักขนาดนั้น คิดว่านะ เห็นคุยกับคนตามโถงทางเดินตลอด"
 
 show emi sad_shy_gym_ni
 with charachange
 
 # "Emi hesitates again."
-""
+"เอมิลังเลอีกรอบ"
 
 # emi "And thanks for staying around after I… well."
-emi ""
+emi "แล้วก็ขอบคุณนะที่อยู่ด้วยหลังจากที่ฉัน… อืม"
 
 show emi sad_depressed_gym_ni
 with charachange
 
 # "A look of pain flits across her face."
-""
+"สีหน้าเธอดูเจ็บปวดอยู่แวบหนึ่ง"
 
 # emi "You know."
-emi ""
+emi "นั่นแหละ"
 
 show emi sad_grin_gym_ni
 with charachange
 
 # emi "It helped."
-emi ""
+emi "ขอบคุณนะ"
 
 show emi basic_closedgrin_gym_ni
 with charachange
 
 # "She brightens back up and waves cheerily at me."
-""
+"เอมิกลับมายิ้มอีกครั้งแล้วโบกมือให้อย่างร่าเริง"
 
 # emi "See you tomorrow!"
-emi ""
+emi "เจอกันพรุ่งนี้!"
 
 # hi "Yeah, see you later."
-hi ""
+hi "อื้ม เจอกัน"
 
 # "I'm just about to exit the door when something makes me turn around again."
-""
+"ฉันกำลังจะออกประตูไป ทว่าก็นึกบางอย่างได้จนต้องหันไปอีกรอบ"
 
 # hi "Hey, Emi."
-hi ""
+hi "นี่ เอมิ"
 
 show emi basic_grin_gym_ni
 with charachange
 
 # emi "Hmm?"
-emi ""
+emi "หืม"
 
 # hi "Anytime you need to talk, let me know, okay?"
-hi ""
+hi "ถ้าอยากคุยเมื่อไหร่ก็บอกฉันได้เสมอเลยนะ"
 
 show emi sad_shy_gym_ni
 with charachange
 
 # "Emi seems taken aback by this offer."
-""
+"เอมิดูตกใจกับข้อเสนอนี้"
 
 show emi basic_closedgrin_gym_ni
 with charachange
 
 # "Her grin gets even wider."
-""
+"เธอฉีกยิ้มกว้างขึ้นอีก"
 
 # emi "Sure thing, Hisao."
-emi ""
+emi "ได้เลยฮิซาโอะ"
 
 show emi basic_grin_gym_ni
 with charachange
 
 # emi "See you in the morning!"
-emi ""
+emi "เจอกันตอนเช้านะ!"
 
 scene bg school_girlsdormhall_ni
 with locationchange
 
 # "I exit Emi's room with my head in a whirl."
-""
+"ฉันออกห้องเอมิมาทั้งที่ในหัวยังปั่นป่วน"
 
 # "Should I have even left?"
-""
+"ฉันควรออกมาแล้วเหรอ"
 
 # "Was she really okay?"
-""
+"เอมิจะไม่เป็นอะไรจริง ๆ เหรอ"
 
 # "I want to turn around and march back down the hallway, open the door and tell her…"
-""
+"อยากจะหันกลับแล้วเดินไปตามโถงทางเดิน ไปเปิดประตูห้องแล้วบอกเอมิว่า…"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -9847,48 +9848,48 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nTell her I love her, tell her I think she's beautiful, tell her that I'll be there when she needs me."
-n ""
+n "\n\nบอกเอมิว่าฉันรักเธอ บอกเอมิว่าเธอนั้นสวยในสายตาฉัน บอกเอมิว่าฉันจะคอยอยู่เคียงข้างยามเธอต้องการ"
 
 # n "I want to stay with her, to hold her close as she falls back to sleep."
-n ""
+n "ฉันอยากอยู่กับเธอ อยากกอดเธอแล้วปล่อยให้หลับไป"
 
 # n "How many nights has she woken up like that?"
-n ""
+n "เธอต้องตื่นมาแบบนั้นกี่คืนแล้ว"
 
 # n "Only to find that nobody's there."
-n ""
+n "ตื่นมาไม่พบใครเคียงข้าง"
 
 # n "I want to be that person she can be with when that happens."
-n ""
+n "ฉันอยากจะเป็นคนที่คอยอยู่กับเธอทุกครั้งที่เกิดเรื่องนั้น"
 
 # n "It's a silly thought, I know."
-n ""
+n "ฉันรู้ว่าเป็นความคิดที่งี่เง่าเหลือเกิน"
 
 # n "We don't know each other that well, do we?"
-n ""
+n "เราก็ไม่ได้รู้จักกันดีขนาดนั้นนี่"
 
 # n "The whole idea, while exhilarating, also makes me feel worry."
-n ""
+n "ถึงจะเป็นความคิดที่ชวนให้ตื่นเต้น แต่ก็ทำให้ฉันกังวล"
 
 # n "Worry, perhaps, that I'd overstep my bounds."
-n ""
+n "กังวล ว่าอาจจะเป็นการล้ำเส้นตัวเอง"
 
 # n "And now to add to my troubles, it seems as if Emi herself already has an interest in someone else."
-n ""
+n "แล้วตอนนี้เรื่องยิ่งยุ่งไปใหญ่เพราะเหมือนเอมิจะมีคนอื่นที่สนใจอยู่แล้ว"
 
 nvl clear
 
 # n "\n\n\n\n\n\nThis track captain of hers who seems so interested in her well-being."
-n ""
+n "\n\n\n\n\n\nหัวหน้าทีมคนนี้ที่ดูจะสนใจความเป็นอยู่ของเอมิ"
 
 # n "True, I've only seen the two of them together a few times, but that doesn't change the fact that they seem better suited to one another."
-n ""
+n "จริงอยู่ว่าฉันเพิ่งเห็นสองคนนั้นอยู่ด้วยกันไม่กี่ครั้ง แต่ทั้งสองคนก็ดูเหมาะสมกันดีมาก"
 
 # n "There's really nothing to be done about that."
-n ""
+n "ซึ่งฉันก็ทำอะไรไม่ได้"
 
 # n "I need to take my mind off of this whole situation."
-n ""
+n "ฉันต้องเลิกคิดเรื่องพวกนี้เสียที"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -9899,10 +9900,10 @@ nvl hide dissolve
 window show
 
 # "I've got homework to do."
-""
+"ฉันต้องทำการบ้าน"
 
 # "Maybe that will distract me."
-""
+"ทำแล้วฉันอาจจะเลิกคิดไปก็ได้"
 
 stop music fadeout 2.0
 
