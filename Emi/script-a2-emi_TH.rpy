@@ -451,7 +451,7 @@ hide emi
 with None
 
 # "There's a blur as Emi sprints by me."
-"เอมิวิ่งผ่านฉันไปจนเห็นเป็นภาพเบลอ"
+"เอมิวิ่งผ่านฉันไปจนเห็นเป็นภาพมัว ๆ"
 
 # "Watching her run is absolutely fascinating."
 "การได้เห็นเอมิวิ่งนั้นเป็นอะไรที่น่าทึ่งมากจริง ๆ"
@@ -8182,7 +8182,7 @@ with openeye
 window show
 
 # "The sound of my alarm brings me out of a dream involving pirates and some other stuff I can't really remember."
-""
+"เสียงนาฬิกาปลุกปลุกให้ฉันตื่นจากฝันเรื่องโจรสลัดกับเรื่องอื่น ๆ ที่ฉันจำไม่ค่อยได้"
 
 scene bg school_track
 with locationskip
@@ -8192,79 +8192,78 @@ play music music_pearly
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 
 # "I'm a little bleary-eyed, and it feels like it takes me longer than usual to get dressed and down to the track."
-""
+"ตาฉันยังมัว ๆ อยู่ รู้สึกว่ากว่าจะแต่งตัวเสร็จแล้วมาที่ลู่ก็กินเวลาไปนานกว่าปกติ"
 
 # "A glance at my watch reveals that I was right, and I am in fact running a little late."
-""
+"เมื่อเหลือบมองนาฬิกาก็เห็นว่าฉันคิดถูก และมาสายหน่อย ๆ ด้วย"
 
 # "The thing is…"
-""
+"เรื่องคือ…"
 
 # "There's no Emi."
-""
+"เอมิไม่อยู่"
 
 # "That's odd. She should be here."
-""
+"แปลก เอมิควรจะมาแล้วสิ"
 
 # "She definitely should be here."
-""
+"ต้องมาแล้ว"
 
 # "I mean, I was {b}late{/b}."
-""
+"ก็ฉันมา{b}สาย{/b}"
 
 # "I guess I wasn't the only one who had trouble getting up this morning."
-""
+"คงไม่ได้มีแค่ฉันละมั้งที่เช้านี้ลุกไม่ค่อยขึ้น"
 
 # "The thought crosses my mind that it never quite stopped raining yesterday. Did she go running anyway?"
-""
+"ฉันเพิ่งนึกได้ว่าเหมือนเมื่อวานฝนจะไม่หยุดตกเลย นี่เมื่อวานเอมิยังออกไปวิ่งอยู่หรือเปล่า"
 
 label th_E12b:
 
 #if you offered to run with her
 
 # "It seems likely. Emi's a lot of things, but cautious isn't one of them. She probably figured the rain wouldn't stop, and that's why she was so adamant about running alone."
-""
+"น่าจะใช่ คำว่ารอบคอบนั้นไม่ใช่ตัวเอมิเลย คงจะคิดว่ายังไงฝนก็ไม่หยุดถึงได้รั้นจะวิ่งคนเดียวขนาดนั้น"
 
 # "Still, I would have gladly run with her, even if it was in the rain."
-""
+"แต่ฉันก็ยินดีวิ่งกับเอมินะ ต่อให้ต้องตากฝนก็เถอะ"
 
 # "Heck, if anything I would have been able to convince her to come in once it got really bad. That would be why she didn't want me along, of course."
-""
+"ไม่สิ ถ้าฝนตกหนักจริง ๆ ก็ฉันนี่แหละจะชวนให้มาหลบฝนก่อน ซึ่งก็แน่ละว่าเพราะแบบนี้ถึงได้ไม่อยากให้ฉันไปวิ่งด้วย"
 
 label th_E12c:
 
 #If you kept quiet
 
 # "I should have offered to run with her."
-""
+"รู้งี้เสนอตัวไปวิ่งด้วยก็ดี"
 
 # "Then I could have talked her out of the idea, or at the least known that she was okay. What if she got struck by lightning or something?"
-""
+"จะได้เกลี้ยกล่อมให้ล้มเลิกความคิด หรืออย่างน้อยก็จะได้ดูให้แน่ใจได้ว่ายังสบายดี เกิดฟ้าผ่งฟ้าผ่าไปทำไง"
 
 # "I'd never forgive myself."
-""
+"ฉันคงไม่ให้อภัยตัวเองแน่"
 
-# "…"
-""
+"…"
 
 # "Okay, that's probably a little stupid."
-""
+"โอเค อันนี้ชักจะไร้สาระละ"
 
 # "Emi's a resourceful girl. I doubt even she'd stay out in a thunderstorm."
-""
+"เอมิหัวดีจะตาย พายุฝนอย่างนี้ยังไงก็ไม่ออกมาวิ่งหรอก"
 
 # "I trust her judgment on that matter, at least."
-""
+"อย่างน้อยฉันก็เชื่อใจเอมิเรื่องนี้นะ"
 
 label th_E12d:
 
 #end split
 
 # "Even so, I can't help wanting to know where she is."
-""
+"แต่ถึงอย่างนั้นก็อดสงสัยไม่ได้อยู่ดีว่าตอนนี้เอมิอยู่ไหน"
 
 # "…Well, nothing for it. I'd better stretch and run, and hope that Emi shows up with a grin and an excuse."
-""
+"…แต่เอาเถอะ สงสัยไปก็ไม่ได้อะไรขึ้นมา ยืดหยุ่นร่างกายไปออกวิ่งแล้วหวังว่าเอมิจะยิ้มร่ามาพร้อมข้ออ้างอะไรดีกว่า"
 
 scene bg school_track_running
 with shorttimeskip
@@ -8273,13 +8272,13 @@ show bg school_track_on
 with Dissolve(3.0)
 
 # "On my cool down lap, I am forced to admit that Emi isn't showing up."
-""
+"พอถึงช่วงคูลดาวน์ฉันก็ต้องจำใจยอมรับว่าเอมิไม่มาแล้ว"
 
 # "Furthermore, I have no idea where she is. Anxiety gnaws at me while at the same time I wonder just why I'm so worried over her."
-""
+"ยิ่งไปกว่านั้นยังไม่รู้ด้วยว่าอยู่ไหน ฉันเป็นกังวลไปพร้อม ๆ กับคิดว่าทำไมถึงได้ห่วงเอมิขนาดนี้"
 
 # "The run helped to take my mind off it for a little while, but now that I'm finished I'm back to worrying."
-""
+"ตอนวิ่งก็เลิกคิดไปได้พักหนึ่ง แต่พอวิ่งเสร็จก็กลับมาคิดมากอีกแล้ว"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -8288,34 +8287,34 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nIt was weird not having her here."
-n ""
+n "\n\nพอเอมิไม่อยู่ด้วยแล้วแปลก ๆ"
 
 # n "Downright unnerving."
-n ""
+n "ชวนให้ใจคอไม่ดีด้วยซ้ำ"
 
 # n "It suddenly dawns on me that I've been running to hang out with Emi as much as I've been running to stay healthy - probably more to be with Emi, now that I think of it."
-n ""
+n "แล้วฉันก็ระลึกได้ว่าที่มาวิ่งก็ด้วยความอยากสองอย่างที่มีเท่า ๆ กัน คืออยากอยู่กับเอมิกับอยากรักษาสุขภาพ\nซึ่งพอมาคิดดูแล้วก็น่าจะเพราะอยากอยู่กับเอมิมากกว่า"
 
 # n "It's one of those things that are completely obvious yet somehow, I never realized it."
-n ""
+n "เป็นเหมือนอย่างที่เขาเรียกว่าเส้นผมบังภูเขา"
 
 # n "She really is someone I enjoy being with."
-n ""
+n "เอมิเป็นคนที่ฉันอยู่ด้วยแล้วสนุกจริง ๆ"
 
 # n "As revelations go, it's hardly world-shaking."
-n ""
+n "ซึ่งพอคิดได้แล้วฉันก็ไม่ได้ตื่นเต้นอะไรขนาดนั้น"
 
 # n "All the same, I find myself feeling slightly shocked."
-n ""
+n "และในขณะเดียวกันฉันก็ตกใจเล็กน้อย"
 
 # n "When did this happen?"
-n ""
+n "เป็นแบบนี้ไปตั้งแต่ตอนไหน"
 
 # n "Well, no time to think about this - though I want to ponder this new development, I have a greater desire to find out what's happened to Emi."
-n ""
+n "เอาเถอะ ไม่มีเวลามาคิดแล้ว ถึงจะอยากคิดเรื่องนี้ต่อ แต่ฉันอยากรู้มากกว่าว่าเกิดอะไรขึ้นกับเอมิ"
 
 # n "I'll ask the nurse when I stop in to see him."
-n ""
+n "ไว้ถามคุณพยาบาลตอนไปแวะหาก็แล้วกัน"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 stop music fadeout 2.0
@@ -8329,58 +8328,58 @@ show nurse neutral at center
 with shorttimeskip
 
 # nk "Well, you seem to be in good shape, Hisao."
-nk ""
+nk "ก็ดูแข็งแรงดีนะฮิซาโอะ"
 
 # hi "That's good to hear."
-hi ""
+hi "โล่งไปที"
 
 # "I replace my shirt and stand to leave, as usual."
-""
+"ฉันใส่เสื้อแล้วยืนตั้งท่าจะเดินออกไปตามปกติ"
 
 # "Except instead of leaving, I ask a question."
-""
+"แต่แทนที่จะออกไปฉันกลับถาม"
 
 # hi "Hey, where's Emi? She didn't show up this morning."
-hi ""
+hi "เอ่อ เอมิอยู่ไหนเหรอครับ เช้านี้ไม่เห็นไปวิ่ง"
 
 # hi "Is she okay?"
-hi ""
+hi "เอมิไม่เป็นอะไรใช่มั้ยครับ"
 
 show nurse concern
 with charachange
 
 # "While I try valiantly to conceal the anxiety in my voice, the nurse's expression suggests that I've failed miserably."
-""
+"ฉันฝืนปกปิดไม่ให้น้ำเสียงมีความเป็นกังวลไปด้วย แต่สีหน้าคุณพยาบาลบอกว่าฉันปิดได้ไม่มิดเลย"
 
 # nk "You mean she didn't tell you?"
-nk ""
+nk "นี่เอมิไม่ได้บอกเธอเหรอ"
 
 # nk "She's sick in bed."
-nk ""
+nk "เอมิไม่สบายแล้วนอนพักอยู่น่ะ"
 
 # hi "What? Sick?"
-hi ""
+hi "ครับ? ไม่สบาย?"
 
 show nurse neutral
 with charachange
 
 # "The nurse shrugs."
-""
+"คุณพยาบาลยักไหล่"
 
 # nk "Yeah, she came to my office early this morning with a fever."
-nk ""
+nk "อื้ม เช้านี้เอมิไข้ขึ้นเลยมาหาฉันน่ะ"
 
 # nk "To be honest I'm surprised she made it here."
-nk ""
+nk "เอาจริง ๆ ฉันก็แปลกใจเหมือนกันที่เอมิมาถึงนี่ได้"
 
 show nurse concern
 with charachange
 
 # nk "She was burning up when she arrived."
-nk ""
+nk "ตอนมาถึงตัวร้อนจี๋เลย"
 
 # nk "I believe she'd planned to let you know, but she asked me to tell you - oh shoot!"
-nk ""
+nk "ฉันคิดว่ายังไงเอมิก็คงจะเอาไปบอกเธออีกที แต่เห็นขอไว้ให้บอกเธอ… ตายละ!"
 
 stop music fadeout 2.0
 
@@ -8388,10 +8387,10 @@ show nurse neutral
 with charachange
 
 # "The nurse gives me a sheepish smile that seems at least partially sincere."
-""
+"คุณพยาบาลยิ้มแหย ๆ ซึ่งเหมือนจะมาจากใจจริงอยู่"
 
 # nk "I told her I'd stop by the track to let you know in case she forgot to. Sorry about that."
-nk ""
+nk "ฉันบอกเอมิไปว่าจะไปแวะบอกให้เธอรู้เผื่อเจ้าตัวลืมบอกน่ะ ขอโทษทีนะ"
 
 play music music_nurse fadein 1.0
 
@@ -8399,121 +8398,121 @@ show nurse fabulous
 with charachange
 
 # nk "But we don't need to tell Emi I forgot, right?"
-nk ""
+nk "แต่เราจะไม่บอกเอมิเนอะว่าฉันลืม"
 
 # "I return the nurse's smile with a devious one of my own."
-""
+"ฉันส่งยิ้มชั่วร้ายของฉันกลับไปให้คุณพยาบาลบ้าง"
 
 # hi "Oh, of course not."
-hi ""
+hi "โอ้ ไม่บอกหรอกครับ"
 
 # hi "This is fine blackmail material."
-hi ""
+hi "ขอเก็บไว้ขู่นะครับ"
 
 # hi "I'll save it for whenever I need a favor from you."
-hi ""
+hi "เผื่อว่าผมอยากให้คุณพยาบาลช่วยอะไร"
 
 show nurse grin
 with charachange
 
 # "The nurse laughs."
-""
+"คุณพยาบาลหัวเราะ"
 
 # nk "Well, I guess I deserve that."
-nk ""
+nk "อืม ก็คงสมควรแล้วละ"
 
 # nk "But you know, I've got tons of blackmail on you that you're not even aware of."
-nk ""
+nk "แต่นี่นะ ฉันก็มีอะไรที่แม้แต่เธอก็ไม่รู้เอาไว้ขู่เธอได้เยอะเหมือนกัน"
 
 show nurse fabulous
 with charachange
 
 # nk "So don't push your luck, okay?"
-nk ""
+nk "เพราะงั้นก็อย่าหมายลองเชียว"
 
 # "My expression earns another laugh from the nurse."
-""
+"สีหน้าฉันทำคุณพยาบาลหัวเราะอีกรอบ"
 
 show nurse grin
 with charachange
 
 # nk "I'm just kidding, Hisao."
-nk ""
+nk "ล้อเล่นหรอกน่าฮิซาโอะ"
 
 show nurse concern
 with charachange
 
 # nk "But seriously - don't tell Emi I forgot, okay?"
-nk ""
+nk "แต่จริงจัง ห้ามเอาไปบอกเอมินะว่าฉันลืม"
 
 # hi "Your secret is safe with me."
-hi ""
+hi "วางใจได้เลยครับ"
 
 show nurse neutral
 with charachange
 
 # nk "Oh good. Now go on, get out of here."
-nk ""
+nk "ดี ๆ ทีนี้ก็ไปได้แล้ว"
 
 # hi "Wait, I've got one more question."
-hi ""
+hi "เดี๋ยวครับ ผมมีอีกคำถาม"
 
 show nurse fabulous
 with charachange
 
 # nk "Shoot."
-nk ""
+nk "ให้ตาย"
 
 # hi "Is she going to be okay?"
-hi ""
+hi "เอมิจะไม่เป็นอะไรใช่มั้ยครับ"
 
 show nurse grin
 with charachange
 
 # nk "Oh yeah, definitely."
-nk ""
+nk "อ้อ ไม่เป็นหรอก"
 
 show nurse neutral
 with charachange
 
 # nk "Her fever was high, but it was already starting to go down by the time she came by my office."
-nk ""
+nk "ไข้สูงก็จริง แต่ตอนมาถึงห้องพยาบาลไข้ก็ลดไปเยอะแล้ว"
 
 # nk "I'll probably check up on her again at lunch to be sure, but I expect she'll be up and about by the evening no matter what I tell her."
-nk ""
+nk "เดี๋ยวสักเที่ยง ๆ ฉันจะไปดูเอมิอีกทีเพื่อความแน่ใจ แต่ต่อให้บอกอะไรไปเดี๋ยวเย็น ๆ ก็คงออกมาวิ่งเหมือนเดิมแหละ"
 
 # hi "Hmm, maybe I should visit her after class."
-hi ""
+hi "อืมม เดี๋ยวเลิกเรียนแล้วไปแวะหาดีกว่า"
 
 # "It takes me a second to realize I've spoken aloud."
-""
+"ผ่านไปสองสามวินาทีฉันถึงรู้ตัวว่าฉันปล่อยให้ตัวเองหลุดพูดประโยคเมื่อกี้ไป"
 
 show nurse fabulous
 with charachange
 
 # "The nurse raises an eyebrow and gives me a searching glance for a moment."
-""
+"คุณพยาบาลเลิกคิ้วขึ้นแล้วส่งสายตาเหมือนพิจารณาอะไรอยู่ครู่หนึ่ง"
 
 # nk "Hmm…"
-nk ""
+nk "อืมม…"
 
 show nurse neutral
 with charachange
 
 # nk "Well, it might not be a bad idea."
-nk ""
+nk "ก็ ได้อยู่นะ"
 
 # nk "You could let me know if she'd taken a turn for the worse, I guess."
-nk ""
+nk "ถ้าเกิดว่าเอมิอาการทรุดหรืออะไรก็มาบอกฉันแล้วกัน"
 
 show nurse concern
 with charachange
 
 # nk "But no funny business, you got it? I know what meds you're on, after all."
-nk ""
+nk "แต่ห้ามเล่นตุกติกนะ ฉันรู้ว่าเธอต้องกินยาอะไรบ้าง"
 
 # "I think that's a threat against my life, but I'm not sure."
-""
+"อันนี้คือขู่เอาชีวิตกันหรือเปล่า ไม่แน่ใจ"
 
 stop music fadeout 7.0
 
@@ -8521,16 +8520,16 @@ scene bg school_nursehall
 with locationchange
 
 # "Either way, I assure the nurse that my intentions are chaste and exit the office."
-""
+"แต่จะยังไงก็เถอะ ฉันบอกคุณพยาบาลไปว่าเจตนาฉันบริสุทธิ์แล้วออกมาจากห้องพยาบาล"
 
 # "Interesting that the nurse sees me as some sort of potential suitor to Emi."
-""
+"น่าสนใจดีที่ว่าคุณพยาบาลเห็นว่าฉันจะเป็นคนที่มาตามจีบเอมิ"
 
 # "Even more interesting is how pleased that makes me feel."
-""
+"และที่น่าสนใจกว่านั้นคือฉันดีใจมากที่คุณพยาบาลคิดแบบนั้น"
 
 # "I need a shower."
-""
+"ต้องไปอาบน้ำก่อน"
 
 scene bg school_scienceroom
 with shorttimeskip
@@ -8538,22 +8537,22 @@ with shorttimeskip
 play sound sfx_normalbell
 
 # "The lunch bell rings, and I find myself disinclined to make my way up to the roof."
-""
+"ระฆังพักเที่ยงดัง และฉันก็ไม่ได้อยากขึ้นไปที่ดาดฟ้าเลย"
 
 # "After all, I'm betting Rin knows where Emi is, and if that's the case then I doubt she'd bother going up there."
-""
+"รินต้องรู้แหละว่าเอมิอยู่ไหน ซึ่งถ้ารู้แล้วรินก็คงไม่อยากไปที่ดาดฟ้าเหมือนกัน"
 
 # "More to the point, I doubt we'd have any sort of scintillating conversation if she did. Chances are she'd prefer to be alone up there anyway, so I don't accidentally ruin her train of thought or something."
-""
+"ยิ่งไปกว่านั้น ต่อให้รินไปที่ดาดฟ้าจริง ๆ เราก็คงไม่ได้สนทนาอะไรที่น่าสนใจกันขนาดนั้น คงจะอยากอยู่ตัวคนเดียว\nมากกว่า ขืนไปเดี๋ยวจะไปขัดกระแสความคิดของรินหรืออะไรเข้าอีก"
 
 # "Unfortunately, I don't really feel like heading to the cafeteria either."
-""
+"แต่โชคไม่ดีที่ฉันก็ไม่อยากไปโรงอาหารด้วยเหมือนกัน"
 
 # "Guess I'll go to the library instead."
-""
+"ไปห้องสมุดก็แล้วกัน"
 
 # "I need a new book to read anyway, having finished my other one yesterday before bed. Maybe I can find more by the same author."
-""
+"ฉันต้องไปหาหนังสือเล่มใหม่อ่านด้วย เพราะอ่านอีกเล่มจบไปเมื่อวานตอนก่อนนอนแล้ว อาจจะไปหาเล่มอื่น\nที่คนเดียวกันเขียน"
 
 scene bg school_library
 with locationskip
@@ -8561,22 +8560,21 @@ with locationskip
 play music music_happiness fadein 2.0
 
 # "I love libraries."
-""
+"ฉันรักห้องสมุด"
 
 # "They smell like dust and paper and ink."
-""
+"ห้องสมุดนั้นมีกลิ่นฝุ่น กลิ่นกระดาษ กับกลิ่นหมึก"
 
 # "All these stories and facts and opinions crowded together in one place makes the air come alive with potential."
-""
+"บรรยากาศมีชีวิตชีวาขึ้นมาด้วยพลังแห่งเรื่องราว ข้อเท็จจริง ข้อคิดเห็นทั้งหลายแหล่ที่มาอัดแน่นรวมตัวอยู่กัน\nในที่ที่เดียว"
 
 # "I'm not sure how to navigate Yamaku's library yet, having mostly stuck to books I brought with me, so I search for the librarian to ask for help."
-""
+"เพราะยังไม่ค่อยแน่ใจกับผังห้องสมุดของยามากุเพราะที่ผ่านมาอ่านแต่หนังสือที่เอาติดตัวมาด้วย ฉันจึงหันไป\nขอความช่วยเหลือจากบรรณารักษ์"
 
-# "…"
-""
+"…"
 
 # "Hmm. I suppose she's not arou—{w=0.5}{nw}"
-""
+"อืมม สงสัยจะไม่อ—{w=0.5}{nw}"
 
 show yuuko smile_down:
     center
@@ -8585,85 +8583,85 @@ show yuuko smile_down:
 with charaenter
 
 # yu "…can't believe it."
-yu ""
+yu "…ไม่อยากจะเชื่อเลย"
 
 # "Yuuko, looking rather distracted, suddenly emerges from one of the aisles."
-""
+"ยูโกะที่ดูเหม่อ ๆ นั้นอยู่ ๆ ก็โผล่ออกมาจากทางเดินฟากหนึ่ง"
 
 # hi "Er, excuse me."
-hi ""
+hi "เอ่อ ขอโทษนะครับ"
 
 show yuuko neutral_down
 with charachange
 
 # yu "Oh, can I help you?"
-yu ""
+yu "อ้าว มีอะไรให้ช่วยมั้ย"
 
 # hi "Actually, I was looking for a book…"
-hi ""
+hi "คือผมมาหาหนังสือ…"
 
 show yuuko panic_up
 with charachange
 
 # yu "So am I!"
-yu ""
+yu "ฉันก็หาอยู่เหมือนกัน!"
 
 show yuuko smile_down
 with charachange
 
 # yu "“Advanced Cryptography.” We just got it in, and now it's gone missing."
-yu ""
+yu "“วิทยาการรหัสลับขั้นสูง” เพิ่งได้มาแท้ ๆ แต่หายไปแล้ว"
 
 show yuuko worried_up
 with charachange
 
 # yu "I really, really wanted to read that one!"
-yu ""
+yu "ฉันอยากอ่านเล่มนั้นมาก!"
 
 # hi "Cryptography?"
-hi ""
+hi "วิทยาการรหัสลับ?"
 
 show yuuko neurotic_up
 with charachange
 
 # yu "Yeah, my… er, that is…"
-yu ""
+yu "อื้ม คือ… เอ่อ คือว่า…"
 
 # yu "This guy I knew. Know. Um."
-yu ""
+yu "คนที่ฉันเคย ไม่เคยสิ รู้จัก เอ่อ"
 
 # yu "Not sure how to describe it…"
-yu ""
+yu "ไม่รู้จะว่ายังไงดี…"
 
 # hi "Skip to the end."
-hi ""
+hi "ขอตอนจบมาเลยครับ"
 
 show yuuko smile_down
 with charachange
 
 # yu "He got me interested in cryptography only now the book's gone, and I think it's been stolen!"
-yu ""
+yu "ฉันมาสนใจวิทยาการรหัสลับเพราะคนนั้น แล้วหนังสือเล่มนั้นก็หายไปแล้ว ฉันว่าต้องมีคนขโมยไปแน่ ๆ !"
 
 # hi "Sounds pretty terrible."
-hi ""
+hi "ลำบากน่าดูเลยนะครับ"
 
 show yuuko worried_up
 with charachange
 
 # yu "Yeah, especially because now I have to search the whole library for it!"
-yu ""
+yu "อื้ม แล้วตอนนี้ฉันต้องมาพลิกห้องสมุดหาอยู่เนี่ย"
 
 # yu "Even though it's probably not even here!"
-yu ""
+yu "ทั้งที่อาจจะไม่ได้อยู่ที่ห้องสมุดด้วยซ้ำ!"
 
 # hi "You seem… busy."
-hi ""
+hi "ดู… ยุ่ง ๆ นะครับ"
 
 show yuuko neurotic_up
 with charachange
 
 # yu "A little."
-yu ""
+yu "นิดหน่อย"
 
 show yuuko neurotic_up:
     center
@@ -8671,10 +8669,10 @@ show yuuko neurotic_up:
 with None
 
 # "She dashes off down another aisle, and I resign myself to finding my own damn book."
-""
+"ยูโกะพุ่งตัวไปที่ทางเดินอื่น ส่วนฉันก็ต้องยอมมาหาหนังสือด้วยตัวเอง"
 
 # "Hmm, plenty of choices."
-""
+"อืมม มีให้เลือกหลายเล่มเลย"
 
 stop music fadeout 2.0
 
@@ -8682,49 +8680,49 @@ hide yuuko
 with shorttimeskip
 
 # "Oh come on, how did I get lost?"
-""
+"ให้ตายเถอะ หลงได้ไงเนี่ย"
 
 # "These aren't even printed books! They're all in Braille."
-""
+"แถบนี้ไม่มีหนังสือพิมพ์ตัวอักษรด้วยซ้ำ เป็นอักษรเบรลล์หมดเลย"
 
 # "I guess that makes sense in a school like this, but honestly, it's a little annoying."
-""
+"คงไม่แปลกแหละที่โรงเรียนแบบนี้จะมีหนังสืออักษรเบรลล์ แต่เอาตรง ๆ ก็แอบหงุดหงิดเหมือนกัน"
 
 # li "I'm sorry, is someone there?"
-li ""
+li "ขอโทษนะคะ มีใครอยู่ตรงนั้นหรือเปล่า"
 
 # "A lilting voice drifts out from behind one of the cubicles set up for research."
-""
+"น้ำเสียงชวนฟังนั้นดังมาจากโต๊ะล้อมกรอบที่ตั้งไว้สำหรับการค้นคว้าตัวหนึ่งที่อยู่ข้างหลัง"
 
 show lilly basic_displeased at center
 with charaenter
 
 # "As I approach, I see that Lilly's been reading a book while I've been stomping about the aisles."
-""
+"พอเดินไปดูก็เห็นว่าลิลลี่กำลังอ่านหนังสืออยู่ระหว่างที่ฉันเดินไปมาตามทางเดิน"
 
 # hi "Oh no, I should be apologizing. I didn't mean to make so much noise."
-hi ""
+hi "ไม่เลย ฉันสิต้องขอโทษที่ส่งเสียงดังไปแบบนั้นน่ะ"
 
 show lilly basic_ara
 with charachange
 
 # li "My, is that you Hisao?"
-li ""
+li "ตายจริง ฮิซาโอะเหรอ"
 
 show lilly basic_smile
 with charachange
 
 # li "I've not heard from you in quite some time."
-li ""
+li "ไม่ได้ยินเสียงเธอมาสักพักแล้ว"
 
 show lilly basic_pout
 with charachange
 
 # li "I was beginning to think you'd forgotten all about me."
-li ""
+li "คิดว่าเธอจะลืมฉันไปแล้วเสียอีก"
 
 # hi "Er, sorry."
-hi ""
+hi "เอ่อ ขอโทษที"
 
 play music music_lilly fadein 4.0
 
@@ -8732,172 +8730,172 @@ show lilly basic_giggle
 with charachange
 
 # "Lilly laughs in that refined manner of hers and shakes her head."
-""
+"ลิลลี่หัวเราะตามท่าทีมีมารยาทประจำตัวแล้วสั่นหัว"
 
 show lilly basic_smile
 with charachange
 
 # li "I'm only teasing you, Hisao."
-li ""
+li "แค่หยอกเล่นน่าฮิซาโอะ"
 
 # li "From what I hear, you've been busy."
-li ""
+li "ได้ยินมาว่าช่วงนี้เธอยุ่ง"
 
 show lilly basic_cheerful
 with charachange
 
 # li "Morning runs with Emi Ibarazaki {b}and{/b} lunch on the rooftop, if I'm not mistaken."
-li ""
+li "ต้องวิ่งยามเช้ากับเอมิ อิบาราซากิ {b}แล้วไหนจะ{/b}ต้องกินข้าวเที่ยงที่ดาดฟ้าอีก ถ้าจำไม่ผิดนะ"
 
 # hi "Heh, yeah."
-hi ""
+hi "ฮะ ๆ อื้ม"
 
 # hi "Guess word gets around pretty quickly."
-hi ""
+hi "ข่าวแพร่เร็วน่าดูเลยเนอะ"
 
 show lilly basic_weaksmile
 with charachange
 
 # li "That and I can't coax poor Hanako on the roof any more."
-li ""
+li "ก็ใช่จ้ะ แล้วฉันก็ชวนให้ฮานาโกะผู้น่าสงสารไปที่ดาดฟ้าด้วยไม่ได้แล้ว"
 
 show lilly basic_displeased
 with charachange
 
 # li "You three are always up there, claiming the spot for yourselves."
-li ""
+li "เธอสามคนอยู่บนดาดฟ้ายึดที่ไว้เองตลอดเลย"
 
 # "She chides me gently, though it's pretty clear she's just teasing me again."
-""
+"ลิลลี่ดุฉันอย่างอ่อนโยน ถึงจะชัดก็เถอะว่าแค่หยอกเหมือนกัน"
 
 # "Still, I feel an odd need to apologize."
-""
+"แต่ก็รู้สึกเหมือนต้องขอโทษยังไงไม่รู้"
 
 # hi "Sorry, we could eat lunch somewhere else if it's a real problem—"
-hi ""
+hi "ขอโทษนะ ถ้ามีปัญหาจริง ๆ เดี๋ยวเราไปกินข้าวเที่ยงกันที่อื่—"
 
 show lilly basic_ara
 with charachange
 
 # li "Oh no, I wouldn't worry about it."
-li ""
+li "ไม่เลยจ้ะ ฉันไม่ถือหรอก"
 
 show lilly basic_smile
 with charachange
 
 # li "Hanako and I have other things to do at lunch, too."
-li ""
+li "ตอนเที่ยงฮานาโกะกับฉันก็มีอย่างอื่นให้ทำด้วยเหมือนกัน"
 
 # li "Such as read in the library, as you can see."
-li ""
+li "เช่นการอ่านหนังสือในห้องสมุดอย่างที่เห็นนี่แหละจ้ะ"
 
 # hi "Oh, Hanako's here too? I didn't see her."
-hi ""
+hi "อ้าว ฮานาโกะก็อยู่ด้วยเหรอ ไม่เห็นเลย"
 
 show lilly basic_smileclosed
 with charachange
 
 # "Lilly smiles, a bit enigmatically."
-""
+"ลิลลี่ยิ้มเหมือนแฝงนัยอะไรไว้"
 
 # li "Oh, she's around somewhere."
-li ""
+li "อืม ฮานาโกะเขาอยู่ไม่ไกลหรอกจ้ะ"
 
 show lilly basic_smile
 with charachange
 
 # li "But I'm surprised, Hisao. You're in here, instead of up there."
-li ""
+li "แต่แปลกจะในฮิซาโอะที่เธอมาที่นี่แทนที่จะขึ้นไปบนนั้น"
 
 # li "What brings you to the library?"
-li ""
+li "ลมอะไรหอบมาที่ห้องสมุดจ๊ะ"
 
 # hi "Well, Emi's ill, so there's no lunch on the rooftop to keep me occupied…"
-hi ""
+hi "ก็ เอมิไม่สบายน่ะ แล้วก็ไม่มีธุระต้องไปกินข้าวเที่ยงที่ดาดฟ้าด้วย…"
 
 show lilly basic_giggle
 with charachange
 
 # "Lilly raises an eyebrow at my statement before giving another chuckle."
-""
+"ลิลลี่เลิกคิ้วขึ้นที่ได้ยินฉันพูดแบบนั้นก่อนจะแค่นหัวเราะอีกครั้ง"
 
 # li "My, poor Rin must feel left out."
-li ""
+li "ตายจริง รินผู้น่าสงสารคงเหงาแย่เลย"
 
 # hi "It's not like that!"
-hi ""
+hi "ไม่ใช่อย่างนั้นนะ!"
 
 show lilly basic_weaksmile
 with charachange
 
 # li "Ah, but I'm sure it isn't. Emi tends to be the life of whatever group she's in."
-li ""
+li "อืม แต่ฉันว่าใช่นะ เอมิน่ะไปอยู่กับกลุ่มไหนก็เป็นคนที่คอยทำให้กลุ่มมีชีวิตชีวาขึ้นมา"
 
 show lilly basic_sad
 with charachange
 
 # li "It's a shame to hear she's fallen ill. Will she be okay?"
-li ""
+li "น่าสงสารจังที่เอมิไม่สบาย จะไม่เป็นอะไรใช่มั้ย"
 
 # "Somehow I get the feeling that Lilly's just inquiring out of politeness, but I respond anyway."
-""
+"รู้สึกเหมือนแค่ถามตามมารยาทยังไงไม่รู้ แต่ฉันก็ตอบ ๆ ไป"
 
 # hi "The nurse thinks so. I'm going to swing by and see how she's doing after school myself."
-hi ""
+hi "คุณพยาบาลว่างั้นนะ เดี๋ยวเลิกเรียนแล้วฉันว่าจะไปแวะหาอีกทีเหมือนกัน"
 
 show lilly basic_smileclosed
 with charachange
 
 # "Another raised eyebrow."
-""
+"ลิลลี่เลิกคิ้วขึ้นอีกครั้ง"
 
 # li "My, what a noble gentleman you are, Hisao."
-li ""
+li "ตายจริง ช่างมีความเป็นสุภาพบุรุษเสียจริงนะฮิซาโอะ"
 
 # hi "It's nothing, really. Just checking up on my friend, after all."
-hi ""
+hi "เรื่องแค่นี้เอง แค่ไปหาเพื่อนที่ไม่สบายเฉย ๆ น่า"
 
 show lilly basic_planned
 with charachange
 
 # li "Ah, so it's just friends, is it? How disappointing."
-li ""
+li "อ้อ แค่เพื่อนเหรอ น่าผิดหวังจริง"
 
 # "I blush, glad that Lilly can't see it."
-""
+"ฉันหน้าแดงขึ้นมาพลางนึกโล่งใจที่ลิลลี่ไม่เห็น"
 
 show lilly basic_giggle
 with charachange
 
 # "But somehow she knows that I've been flustered by her comment anyway, and laughs."
-""
+"แต่เหมือนลิลลี่จะรู้อยู่ดีว่าฉันเขิน เธอหัวเราะ"
 
 # li "I'm sorry, Hisao. I'm teasing you again."
-li ""
+li "ขอโทษนะจ๊ะฮิซาโอะที่หยอกเธออีกแล้ว"
 
 show lilly basic_smile
 with charachange
 
 # li "Please do tell Emi that I hope she feels better, won't you?"
-li ""
+li "ฝากอวยพรให้เอมิหายไว ๆ ทีนะ"
 
 # "A glance at my watch reveals that I'm very nearly out of time to find my book."
-""
+"ฉันเหลือบมองนาฬิกา เวลาในการหาหนังสือของฉันจวนจะหมดลงแล้ว"
 
 # hi "Of course."
-hi ""
+hi "ได้"
 
 # hi "Hey, I've got to find a book before lunch is over, so I'd better get moving."
-hi ""
+hi "เออ ต้องไปแล้วละ พอดีต้องไปหาหนังสือก่อนหมดพักเที่ยง"
 
 # hi "See you later."
-hi ""
+hi "เจอกันนะ"
 
 # "That was probably not the best phrase to use."
-""
+"อาจจะเป็นวลีที่ไม่เหมาะสักเท่าไหร่"
 
 # "Lilly, however, takes my gaffe in stride."
-""
+"แต่ลิลลี่ก็ไม่ถืออะไรที่ฉันหลุดปากไป"
 
 show lilly basic_weaksmile
 with charachange
@@ -8905,22 +8903,22 @@ with charachange
 stop music fadeout 3.0
 
 # li "Until we meet again, Hisao."
-li ""
+li "ไว้พบกันอีกจ้ะฮิซาโอะ"
 
 scene bg school_hallway2
 with shorttimeskip
 
 # "I never do find the book I was looking for, but I walk out with something else instead."
-""
+"ฉันไม่เจอหนังสือที่หาอยู่ แต่ก็ได้อย่างอื่นติดมือออกมาแทน"
 
 # "My stomach growls slightly, letting me know that I should have had something for lunch."
-""
+"ท้องฉันร้องเบา ๆ เตือนให้ฉันกินอะไรเป็นมื้อเที่ยง"
 
 # "Oh well."
-""
+"เอาเถอะ"
 
 # "I'll grab something before I visit Emi later."
-""
+"ไว้ค่อยหาอะไรกินก่อนไปเยี่ยมเอมิแล้วกัน"
 
 ########################################################
 label th_E13:
