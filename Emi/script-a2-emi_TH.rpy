@@ -10657,7 +10657,7 @@ window hide
 play music music_running
 
 # centered "The two of them will never do anything like that."
-centered "ระหว่างสองคนนั้นน่ะเป็นไปไม่ได้หรอกหรอก"
+centered "ระหว่างสองคนนั้นน่ะเป็นไปไม่ได้หรอก"
 
 window show
 
@@ -10694,292 +10694,291 @@ scene bg school_roof
 with shorttimeskip
 
 # "The rooftop is completely deserted."
-""
+"ที่ดาดฟ้านั้นไม่มีใครอยู่เลย"
 
 # "Normally I could count on Rin to be up here before me, but she's strangely absent."
-""
+"ปกติฉันจะคิดว่ารินต้องมาถึงก่อนฉันแล้ว แต่แปลกที่คราวนี้ไม่อยู่"
 
 # "I wonder if she decided to accompany Emi to the cafeteria for once. That seems pretty unlikely, but it's all I can think of right now."
-""
+"หรือนึกไปอยู่กับเอมิที่โรงอาหารบ้างนะ ดูเป็นไปไม่ได้ แต่ก็นึกออกแค่สาเหตุนั้น"
 
 # "Part of me wants to go look for Rin, but a far larger part of me is too pleased with the way the sun feels on my skin to care."
-""
+"ใจหนึ่งก็อยากไปตามหาริน แต่อีกใจที่ใหญ่กว่ามาก ๆ ก็รู้สึกดีกับแสงแดดที่อาบผิวอยู่จนไม่อยากไปสนใจแล้ว"
 
 # "I pick idly at my lunch while I wait for Emi and Rin to show up."
-""
+"ฉันกินมื้อเที่ยงของตัวเองไปเรื่อย ๆ รอเอมิกับรินมา"
 
 # "It does not take long for me to hear the sounds of someone coming up the stairs."
-""
+"ไม่นานก็ได้ยินเสียงคนเดินขึ้นบันไดมา"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="sound")
 play sound sfx_door_creak
 
 # "I wait until the door begins to open before talking."
-""
+"ฉันรอให้ประตูเปิดออกก่อนค่อยพูด"
 
 # hi "Took you long enough."
-hi ""
+hi "มาสักทีนะพวกเธอ"
 
 # hi "Keeping me waiting for you, honestly."
-hi ""
+hi "ฉันรออยู่ตั้งนาน"
 
 # hi "The two of you are…"
-hi ""
+hi "เธอสองคนน่ะ…"
 
 # hi "Huh?"
-hi ""
+hi "ฮะ?"
 
 # "Well that's odd."
-""
+"เอ่อ ผิดคาด"
 
 show emi basic_confused at center
 with charaenter
 
 # "The only person standing in the doorway is Emi, who looks mildly confused."
-""
+"คนที่ยืนอยู่ตรงประตูเป็นเอมิที่ดูงง ๆ"
 
 # emi "What do you mean, “huh?”"
-emi ""
+emi "“ฮะ?” นี่คืออะไร"
 
 show emi basic_grin
 with charachange
 
 # emi "It's me! You know, Emi! We run in the mornings."
-emi ""
+emi "ฉันไง! ที่ชื่อเอมิ! คนที่วิ่งด้วยกันตอนเช้าน่ะ"
 
 # "She grins, and I feel my heart jump slightly in my chest at the sight."
-""
+"เอมิยิ้ม ฉันสะดุ้งเบา ๆ ที่เห็นเธอยิ้ม"
 
 # hi "Yes, I knew that. I'm just confused…"
-hi ""
+hi "อ่าฮะ รู้ แค่งงว่า…"
 
 # hi "…Where's Rin?"
-hi ""
+hi "…รินอยู่ไหน"
 
 show emi sad_depressed
 with charachange
 
 # "Emi's grin is replaced by a rather guilty-looking expression."
-""
+"สีหน้าดูรู้สึกผิดเข้ามาแทนที่รอยยิ้มของเอมิ"
 
 # emi "Yeah, about that…"
-emi ""
+emi "เอ่อ คือว่า…"
 
 # emi "I kind of… sort of…"
-emi ""
+emi "คือรินเขา… แบบว่า…"
 
 show emi sad_shy
 with charachange
 
 # emi "Gavehermycold."
-emi ""
+emi "ติดหวัดชั้นปัย"
 
 play music music_another fadein 0.5
 $ renpy.music.set_volume(1.0, 0.0, channel="sound")
 
 # hi "Oh dear."
-hi ""
+hi "ตายจริง"
 
 # hi "Am I at risk too?"
-hi ""
+hi "นี่ฉันอยู่ในกลุ่มเสี่ยงด้วยหรือเปล่า"
 
 # "It would make sense, after all. Emi and I were in close contact the other day…"
-""
+"ถ้าจะเป็นงั้นก็ไม่แปลก เพราะวันก่อนเอมิกับฉันก็ตัวติดกันอยู่…"
 
 # "So what did she and Rin do that got her ill?"
-""
+"แล้วเอมิไปทำอะไรรินถึงได้ติดหวัด"
 
-# "…"
-""
+"…"
 
 # "Steady on, old lad. Don't go down that road."
-""
+"ใจเย็นไอ้ชาย อย่าถลำไปทางนั้น"
 
 # "Rin's just probably got a worse immune system than me."
-""
+"อาจจะแค่ว่าระบบภูมิคุ้มกันของรินอ่อนแอกว่าฉัน"
 
 show emi basic_shock
 with charachange
 
 # "Emi seems shocked by my comment, like she hadn't considered that before."
-""
+"เอมิดูจะตกใจที่ฉันพูดไปแบบนั้นเหมือนตัวเองคิดไม่ถึงเลย"
 
 # emi "I hope not!"
-emi ""
+emi "หวังว่าจะไม่นะ!"
 
 show emi excited_sad
 with charachange
 
 # emi "I'll feel terrible if you get ill because of me, Hisao!"
-emi ""
+emi "ถ้านายไม่สบายเพราะฉัน ฉันคงรู้สึกผิดแย่เลยฮิซาโอะ!"
 
 # hi "Oh man, I think I feel a fever coming on…"
-hi ""
+hi "ตายแล้ว เหมือนจะตัวรุม ๆ …"
 
 show emi sad_annoyed
 with charachange
 
 # "Emi looks horrified, and then quickly shifts into a more angry expression."
-""
+"เอมิทำหน้าผวาก่อนจะรีบทำหน้าโกรธแทน"
 
 # emi "Hisao!"
-emi ""
+emi "ฮิซาโอะ!"
 
 # emi "You stop getting sick this instant!"
-emi ""
+emi "หยุดไม่สบายเดี๋ยวนี้นะ!"
 
 show emi basic_annoyed
 with charachange
 
 # emi "I won't have it!"
-emi ""
+emi "ฉันไม่ยอม!"
 
 show emi basic_annoyed_close
 with vpunch
 
 # "Impulsively she seizes me by the collar."
-""
+"เอมิกระชากคอเสื้อฉันไปโดยสัญชาตญาณ"
 
 # emi "Are you listening to me, Hisao's immune system?"
-emi ""
+emi "ได้ยินฉันมั้ยระบบภูมิคุ้มกันของฮิซาโอะ"
 
 show emi sad_angry_close
 with charachange
 
 # emi "Get your ass in gear!"
-emi ""
+emi "ขยันทำงานหน่อย!"
 
 # "I give a smart salute."
-""
+"ฉันตะเบ๊ะท่า"
 
 # hi "Duly noted, ma'am."
-hi ""
+hi "รับทราบครับคุณผู้หญิง"
 
 show emi basic_grin
 with charadistant
 
 # "Emi steps back and nods, satisfied."
-""
+"เอมิผละตัวไปแล้วพยักหน้าด้วยความพอใจ"
 
 show emi basic_closedgrin
 with charadistant
 
 # emi "Good."
-emi ""
+emi "ดี"
 
 show emi basic_happy
 with charadistant
 
 # emi "You are not allowed to miss any of our morning runs, after all."
-emi ""
+emi "นายจะขาดวิ่งรอบเช้าไม่ได้นี่นะ"
 
 # hi "But you missed a morning run!"
-hi ""
+hi "แต่เธอขาดไปแล้ว!"
 
 show emi sad_annoyed
 with charachange
 
 # "Emi crosses her arms and looks at me haughtily."
-""
+"เอมิกอดอกมองฉันอย่างจองหอง"
 
 # emi "Yes, but that's a special case. It was me, and not you."
-emi ""
+emi "ใช่ แต่อันนั้นกรณีพิเศษ ฉันขาด ไม่ใช่นายขาด"
 
 # hi "That's not an explanation at all."
-hi ""
+hi "ฟังไม่ขึ้นเลยสักนิด"
 
 show emi basic_confused
 with charachange
 
 # "Emi looks flabbergasted."
-""
+"เอมิทำหน้าอึ้ง ๆ ไป"
 
 # emi "You're kidding, right?"
-emi ""
+emi "ล้อเล่นใช่มั้ย"
 
 show emi basic_annoyed
 with charachange
 
 # emi "That explanation makes perfect sense!"
-emi ""
+emi "ฟังดูสมเหตุสมผลสุด ๆ แล้วนะอันนั้นน่ะ"
 
 # hi "No it doesn't! It's a blatant double standard!"
-hi ""
+hi "ไม่ ไม่เลย! สองมาตรฐานเห็น ๆ !"
 
 show emi sad_annoyed
 with charachange
 
 # emi "I don't see what that has to do with anything."
-emi ""
+emi "แล้วมันเกี่ยวอะไรด้วย"
 
 # hi "Oh, fine."
-hi ""
+hi "เออเอาเถอะ"
 
 show emi basic_closedgrin
 with charachange
 
 # "Emi seems pleased by her victory."
-""
+"เอมิดูจะพอใจที่ตัวเองชนะ"
 
 # hi "Anyway, is Rin going to be okay? She's not terribly ill, right?"
-hi ""
+hi "เอาเถอะ รินจะไม่เป็นอะไรใช่มั้ย ไม่ได้ป่วยหนักใช่มั้ย"
 
 show emi basic_grin
 with charachange
 
 # "Emi shakes her head."
-""
+"เอมิสั่นหัว"
 
 # emi "Nope! She'll be fine."
-emi ""
+emi "ไม่เลย! เดี๋ยวก็หาย"
 
 show emi excited_proud
 with charachange
 
 # emi "I got her some cold medicine that should help her."
-emi ""
+emi "ฉันให้ยาไปแล้วด้วย น่าจะหายเร็วขึ้น"
 
 show emi basic_hes
 with charachange
 
 # emi "Although I probably should have made sure she didn't try to take them all at once…"
-emi ""
+emi "แต่ฉันน่าจะบอกไปด้วยว่าห้ามกินทีเดียวหมดขวด…"
 
 show emi basic_grin
 with charachange
 
 # emi "She's done it before, you know."
-emi ""
+emi "เพราะก่อนหน้านี้รินก็เคยทำแบบนั้น"
 
 # "Somehow, I don't find this all that surprising."
-""
+"ไม่รู้ทำไมถึงได้ไม่รู้สึกแปลกใจขนาดนั้น"
 
 # "I doubt Rin is one to pay attention to maximum dosages and such."
-""
+"รินคงไม่ใช่คนที่จะมาคิดเรื่องปริมาณยาสูงสุดที่กินได้หรอก"
 
 # hi "You should probably check in on her later, then. Just to make sure."
-hi ""
+hi "งั้นไว้เธอไปแวะหารินด้วยนะ ไปดูให้แน่ใจ"
 
 show emi sad_grin
 with charachange
 
 # "Emi shrugs."
-""
+"เอมิยักไหล่"
 
 # emi "I'll stop by after practice. She'll be fine until then."
-emi ""
+emi "เดี๋ยวว่าซ้อมเสร็จจะไป ป่านนั้นคงหายแล้วมั้ง"
 
 # "I nod, figuring that line of conversation is over."
-""
+"ฉันพยักหน้าเมื่อเห็นว่าบทสนทนาเรื่องนี้จบลงแล้ว"
 
 # "The only problem is, I don't know what else to talk about."
-""
+"ปัญหาเดียวเลยก็คือฉันไม่รู้จะคุยอะไรอีก"
 
 # hi "So…"
-hi ""
+hi "แล้ว…"
 
 # hi "You got any more track meets coming up?"
-hi ""
+hi "เธอมีงานแข่งวิ่งอีกมั้ย"
 
 window hide
 
@@ -10988,13 +10987,13 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\n\n\n\n\n\nThis is a terribly roundabout way of trying to see if she's free on the weekend."
-n ""
+n "\n\n\n\n\n\n\n\nเป็นการถามอ้อม ๆ ว่าสุดสัปดาห์นี้ว่างหรือเปล่าที่แย่มาก"
 
 # n "If she's free, then maybe I can ask her on a date or something."
-n ""
+n "ถ้าว่างก็จะชวนไปเดตหรืออะไรแบบนั้น"
 
 # n "Well, assuming I can get myself to actually form the words."
-n ""
+n "ซึ่งถ้าฉันถามได้เป็นภาษาคนจริง ๆ น่ะนะ"
 
 nvl clear
 
@@ -11006,64 +11005,64 @@ show emi basic_grin
 with charachange
 
 # "Emi shakes her head."
-""
+"เอมิสั่นหัว"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Nah, not for another couple weeks, I think. The season's winding down."
-emi ""
+emi "ไม่อะ น่าจะว่างไปอีกสองสามสัปดาห์เลย ช่วงนี้เป็นช่วงขาลงน่ะ"
 
 # "Oh yeah. I came in right in the middle of things, didn't I?"
-""
+"อ้อ จริงสิ ฉันเข้ามาช่วงกลางเทอมกลางอะไรหลายอย่างนี่นะ"
 
 # "Does that mean exams are coming up soon? I should probably look into that."
-""
+"แปลว่าใกล้สอบแล้วเหรอ เดี๋ยวต้องไปหาดูเวลาสอบ"
 
 # hi "What do you do on weekends if there's not a meet?"
-hi ""
+hi "แล้วถ้าไม่มีงานแข่งวิ่งสุดสัปดาห์เธอทำอะไรเหรอ"
 
 show emi excited_proud
 with charachange
 
 # "An eyebrow goes up, and Emi gets a teasing look on her face."
-""
+"เอมิเลิกคิ้วขึ้นทำหน้าเหมือนจะหยอกกัน"
 
 # emi "You're awfully inquisitive today, aren't you?"
-emi ""
+emi "วันนี้ถามเยอะเป็นพิเศษเลยนะนาย"
 
 # "I shrug and hope it looks casual."
-""
+"ฉันยักไหล่ให้ดูเหมือนไม่ยี่หระ"
 
 # hi "Just making conversation."
-hi ""
+hi "แค่หาเรื่องคุย"
 
 # hi "I don't know what it's like to be a track star, after all."
-hi ""
+hi "ฉันไม่รู้ว่าชีวิตดาวเด่นทีมวิ่งมันเป็นยังไงนี่"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Pfft, flattery."
-emi ""
+emi "ฮึ ชมไปเถอะ"
 
 # "She waves a hand idly."
-""
+"เอมิโบกไม้โบกมือ"
 
 show emi basic_grin
 with charachange
 
 # emi "I'm not actually that good, you know."
-emi ""
+emi "ฉันก็ไม่ได้วิ่งเก่งขนาดนั้นหรอก"
 
 show emi basic_closedhappy
 with charachange
 
 # emi "You just so happened to see me on a good day, is all."
-emi ""
+emi "นายได้มาเห็นฉันตอนฝีเท้าไม่ตกแค่นั้นเอง"
 
 # hi "You liar."
-hi ""
+hi "โกหก"
 
 show emi sad_grin
 with charachange
@@ -11071,31 +11070,31 @@ with charachange
 stop music fadeout 6.0
 
 # emi "Heh, yeah."
-emi ""
+emi "เหอะ ใช่ โกหก"
 
 # emi "But humility is the sign of a good athlete."
-emi ""
+emi "แต่นักกีฬาที่ดีต้องมีความถ่อมตัวนะ"
 
 show emi sad_depressed
 with charachange
 
 # emi "At least that's what my dad used to say."
-emi ""
+emi "พ่อฉันเคยว่าไว้อย่างนั้น"
 
 # "She shrugs and tries unsuccessfully to hide the rather troubled expression her face has taken on."
-""
+"เอมิยักไหล่ เธอปิดสีหน้าที่ดูลำบากใจนั้นได้ไม่มิดนัก"
 
 # hi "Hey, what's up? You seem bothered by something."
-hi ""
+hi "นี่ มีอะไรเหรอ เหมือนมีอะไรกวนใจเธออยู่เลย"
 
 # "Emi starts to deny it, then sighs in defeat."
-""
+"เอมิตั้งท่าจะปฏิเสธแล้วก็ยอมแพ้"
 
 # "I wonder if she's too tired from being sick to get herself to deny it like usual."
-""
+"ไม่รู้ว่าเหนื่อยและเอือมที่จะปฏิเสธเหมือนอย่างทุกทีแล้วหรือเปล่า"
 
 # "Or if she actually just trusts me enough at this point to open up."
-""
+"หรือว่าเอมิเชื่อใจฉันพอที่จะเปิดใจด้วยได้แล้วจริง ๆ"
 
 show emi sad_shy
 with charachange
@@ -11103,269 +11102,269 @@ with charachange
 play music music_comfort fadein 9.0
 
 # emi "Well, you remember last night?"
-emi ""
+emi "ก็เนี่ย จำเรื่องเมื่อคืนก่อนได้มั้ย"
 
 # "Do I ever. I settle for nodding, however."
-""
+"จำได้หรือเปล่าไม่รู้แต่ก็พยักหน้าไป"
 
 show emi sad_depressed
 with charachange
 
 # emi "That's not the first time that's happened to me."
-emi ""
+emi "ฉันเคยเป็นแบบนั้นมาก่อนเหมือนกัน"
 
 # emi "Actually, I get them kind of…"
-emi ""
+emi "ที่จริงก็เป็น…"
 
 # "She pauses, as if it's suddenly occurred to her what she's doing."
-""
+"เอมิชะงักไปเหมือนเพิ่งรู้ตัวว่าทำอะไรอยู่"
 
 # "It's almost like she's breaking some sort of personal rule, here."
-""
+"ราวกับว่ากำลังแหกกฎที่ตัวเองตั้งไว้"
 
 # "But she starts up again, choosing her words carefully."
-""
+"แต่เอมิก็พูดต่อพลางเลือกสรรคำอย่างระมัดระวัง"
 
 # emi "Well, not often, but…"
-emi ""
+emi "ก็ ไม่บ่อยหรอก แต่…"
 
 show emi sad_shy
 with charachange
 
 # emi "On occasion."
-emi ""
+emi "ก็บางที"
 
 # emi "It's just been one of those weeks where that's what happens."
-emi ""
+emi "บางสัปดาห์ก็เป็นแบบนั้นแหละ"
 
 show emi sad_depressed
 with charachange
 
 # "A sigh escapes her, and she looks terribly frustrated."
-""
+"เอมิถอนหายใจดูหงุดหงิดเอามาก ๆ"
 
 show emi sad_shy_close
 with characlose
 
 # "I reach over and give her a hug, which unlike last time doesn't seem to shock her."
-""
+"ฉันโน้มตัวเข้าไปกอดเอมิ แต่เธอดูไม่ตกใจเหมือนอย่างครั้งที่แล้ว"
 
 # "Instead, she seems to relax as my arms wrap around her."
-""
+"ดูเอมิจะคลายความเกร็งเธอเมื่อแขนฉันโอบตัวเธอไว้"
 
 # "We stay that way for a while."
-""
+"เราค้างอยู่ท่านั้นกันพักหนึ่ง"
 
 # hi "Hey, you know I was serious last night."
-hi ""
+hi "นี่ ที่พูดเมื่อคืนก่อนน่ะฉันพูดจริงนะ"
 
 # hi "You really can talk to me if stuff like this is bothering you. It's always difficult to do this sort of thing solo, you know?"
-hi ""
+hi "ถ้ามีอะไรกวนใจเธอก็มาคุยกับฉันได้ การรับมือกับอะไรอย่างนี้ตัวคนเดียวมันลำบากนะรู้มั้ย"
 
 show emi sad_grin_close
 with charachange
 
 # "Emi smiles and breaks the embrace, but stays leaning on my shoulder."
-""
+"เอมิยิ้มแล้วผละตัวออก ทว่ายังพิงไหล่ฉันอยู่"
 
 # emi "Thanks, Hisao."
-emi ""
+emi "ขอบคุณนะฮิซาโอะ"
 
 show emi basic_grin_close
 with charachange
 
 # emi "I'll be fine, I think."
-emi ""
+emi "เดี๋ยวฉันก็ไม่เป็นไรแล้วแหละ คิดว่านะ"
 
 # "I can already see her reassembling herself, getting ready to bottle it all up again."
-""
+"ฉันเห็นว่าเอมิกลับมาตั้งตัวเตรียมเก็บทุกอย่างไว้กับตัวเองเหมือนเดิมแล้ว"
 
 # "Guess that topic's closed, now."
-""
+"คงจบประเด็นนั้นแต่เพียงเท่านี้ละนะ"
 
 # hi "So hey, given any more thought to that career survey?"
-hi ""
+hi "เอ้อ นี่ ได้ไปคิดเรื่องแบบสอบถามเส้นทางอาชีพหรือยัง"
 
 show emi basic_closedgrin_close
 with charachange
 
 # emi "Can't say I have."
-emi ""
+emi "เหมือนจะไม่"
 
 show emi basic_grin_close
 with charachange
 
 # emi "I don't tend to plan very far ahead, you know."
-emi ""
+emi "ฉันไม่ใช่คนที่วางแผนอะไรไกลหรอก"
 
 # emi "Although I suppose I could at least start looking into college, huh?"
-emi ""
+emi "แต่อย่างน้อยดูเรื่องมหา’ลัยไว้สักหน่อยก็คงดีละนะ"
 
 # "I shrug."
-""
+"ฉันยักไหล่"
 
 # hi "I suppose, unless you were serious about that pirate thing."
-hi ""
+hi "มั้ง เว้นเสียแต่ว่าเธอจะเอาจริงกับเรื่องโจรสลัดอะไรนั่น"
 
 # hi "Last I checked, pirates didn't have much need for universities."
-hi ""
+hi "เท่าที่รู้เหมือนโจรสลัดจะไม่ต้องเรียนจบมหา’ลัยนะ"
 
 # hi "Unless there's like, a pirate university out there somewhere."
-hi ""
+hi "เว้นเสียแต่ว่าจะมีแบบ มหาวิทยาลัยโจรสลัด อะไรงี้"
 
 show emi basic_closedgrin_close
 with charachange
 
 # "Emi giggles and starts to look a little like her old self, but there's a new element to her expression."
-""
+"เอมิหัวเราะคิกคักด้วยท่าทีที่เหมือนตัวเธอคนเดิม แต่คราวนี้สีหน้าเธอมีบางอย่างที่เพิ่มเข้ามา"
 
 # "Impish. That's how I'd describe it."
-""
+"ถ้าให้ฉันเลือกมาสักคำก็คงเป็นคำว่า ซุกซน"
 
 # "Emi looks impish, looking up at me with her head nestled into my shoulder."
-""
+"เอมิทำท่าซุกซนมองฉันพลางพิงไหล่"
 
 show emi sad_grin_close
 with charachange
 
 # emi "Would you come with me if I ran off to be a pirate?"
-emi ""
+emi "ถ้าฉันจะไปเป็นโจรสลัดจริง ๆ แล้วนายจะตามมามั้ย"
 
 # hi "Of course I would!"
-hi ""
+hi "ตามอยู่แล้วสิ!"
 
 # hi "Who in their right mind would pass up the opportunity to be pirates with you?"
-hi ""
+hi "คนปกติที่ไหนจะยอมปล่อยโอกาสที่จะได้เป็นโจรสลัดกับเธอให้หลุดมือไปกัน"
 
 show emi basic_grin_close
 with charachange
 
 # emi "Well, when you put it that way, I'm not sure."
-emi ""
+emi "อืม พอนายพูดแบบนี้ฉันก็ชักไม่แน่ใจแล้วสิ"
 
 show emi basic_closedgrin_close
 with charachange
 
 # "She giggles again."
-""
+"เอมิหัวเราะคิกคักอีกรอบ"
 
 # "I notice that my heart seems to have sped up. It's probably due to Emi's proximity to me."
-""
+"ฉันจับสังเกตได้ว่าหัวใจตัวเองเต้นเร็วขึ้น อาจจะเพราะเอมิที่อยู่ในระยะประชิดขนาดนี้"
 
 # "That hint of strawberries, again."
-""
+"กลิ่นสตรอว์เบอร์รีอ่อน ๆ นั้นอีกแล้ว"
 
 # "I can't help but grin as I gaze down at her."
-""
+"ฉันมองเอมิแล้วอดยิ้มไม่ได้"
 
 # "She's happy again."
-""
+"เอมิมีความสุขอีกแล้ว"
 
 show emi sad_shy_close
 with charachange
 
 # emi "Hey, Hisao."
-emi ""
+emi "นี่ ฮิซาโอะ"
 
 # hi "Hmm?"
-hi ""
+hi "หืม"
 
 show emi sad_grin_close
 with charachange
 
 # emi "If you're going to kiss me, you should probably do it soon. I think the lunch bell is about to ring."
-emi ""
+emi "ถ้านายจะจูบฉันก็จูบเลยนะ ฉันว่าระฆังหมดพักเที่ยงใกล้ดังแล้ว"
 
 stop music fadeout 1.0
 
 # "My thoughts grind to a sudden halt."
-""
+"สมองฉันหยุดทำงานทันที"
 
 # "I'm pretty sure my mouth is hanging open in shock."
-""
+"ฉันว่าตอนนี้ตัวเองต้องอ้าปากค้างอยู่แน่ ๆ"
 
 # "All I can manage is a strangled “Huh?”"
-""
+"ฉันได้แต่อ้ำอึ้งไปว่า “ฮะ?”"
 
 show emi basic_closedgrin_close
 with charachange
 
 # "This amuses Emi even more."
-""
+"เอมิยิ่งชอบใจใหญ่"
 
 show emi excited_proud_close
 with charachange
 
 # emi "You were thinking about it, weren't you?"
-emi ""
+emi "นายก็กำลังคิดอยู่เหมือนกันใช่มั้ยล่ะ"
 
 # "She sits up, bringing her face level with mine."
-""
+"เอมินั่งหลังตรงตั้งหน้ามาให้ตรงกับฉัน"
 
 show emi basic_grin_close
 with charachange
 
 # emi "I'd probably enjoy it, you know?"
-emi ""
+emi "ฉันอาจจะชอบก็ได้"
 
 show emi sad_grin_close
 with charachange
 
 # emi "You're a really…"
-emi ""
+emi "นายนี่มัน…"
 
 show emi sad_shy_close
 with charachange
 
 # emi "…Well."
-emi ""
+emi "…เอาเถอะ"
 
 # "She briefly composes herself, looking like she's about to say something important."
-""
+"เอมิสงบใจตัวเองอยู่ครู่หนึ่งคล้ายเตรียมจะพูดอะไรบางอย่างที่สำคัญ"
 
 show emi sad_grin_close
 with charachange
 
 # emi "If you hadn't figured it out by now, I think I've developed a bit of a crush on you."
-emi ""
+emi "เผื่อนายยังไม่รู้ ฉันว่าฉันเริ่มชอบนายขึ้นมาแล้วละ"
 
 show emi basic_grin_close
 with charachange
 
 # emi "You're going to have to do something about that."
-emi ""
+emi "นายต้องทำอะไรบางอย่างแล้วนะ"
 
 # "This time her grin short circuits several important thought processes."
-""
+"คราวนี้รอยยิ้มของเธอเล่นเอากระบวนความคิดสำคัญ ๆ ของฉันพังไปเป็นแถบ"
 
 # "At some point I turned toward her, and at another point her arms moved to around my neck."
-""
+"ไม่รู้เมื่อไหร่ที่ฉันยื่นแขนออกไปหาเอมิ ไม่รู้เมื่อไหร่ที่แขนเธอมาโอบคอฉัน"
 
 # "At yet another, my arms wrapped around her waist."
-""
+"และและไม่รู้เมื่อไหร่ที่ฉันโอบเอวเอมิ"
 
 # "I'll be damned if I could tell precisely when that happened."
-""
+"ฉันไม่รู้เลยว่าแต่ละเหตุการณ์เกิดขึ้นเมื่อไหร่บ้าง"
 
 # "Because at the moment, there's only a voice in the back of my head yelling at me to kiss her."
-""
+"เพราะตอนนั้นในหัวมีแต่เสียงร้องตะโกนบอกให้ฉันจูบเอมิ"
 
 # "I look into Emi's eyes."
-""
+"ฉันมองตาเอมิ"
 
 # "There it is."
-""
+"นั่นไง"
 
 # "The thing I saw yesterday on the bed. It's there again."
-""
+"สิ่งที่ฉันเห็นตอนอยู่บนเตียงเอมิ กลับมาอยู่ตรงนั้นอีกแล้ว"
 
 # "It suddenly strikes me that she's worried that I'll reject her."
-""
+"และฉันก็นึกขึ้นได้ทันทีว่าเอมิคงกลัวว่าฉันจะปฏิเสธเธอ"
 
 stop ambient fadeout 1.5
 
 # "What a silly worry for her to have."
-""
+"กลัวอะไรไร้สาระชะมัด"
 
 window hide
 
@@ -11386,28 +11385,28 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\n\nHer lips taste faintly of strawberries."
-n ""
+n "\n\n\n\nริมฝีปากเอมิมีรสสตรอว์เบอร์รีอ่อน ๆ"
 
 # n "She leans into the kiss, and her arms tighten around the back of my head, making sure that I don't pull away."
-n ""
+n "เอมิโน้มตัวเข้ามาจูบ เธอโอบคอรั้งตัวฉันไว้ไม่ให้หนี"
 
 # n "Not that there was any danger of that."
-n ""
+n "ซึ่งฉันก็ไม่ได้คิดจะหนีอยู่แล้ว"
 
 # n "There's a churning feeling in my gut."
-n ""
+n "รู้สึกมวนท้องไปหมด"
 
 # n "The world falls away."
-n ""
+n "โลกรอบตัวอันตรธานไป"
 
 # n "There's just me, and her, and this bench."
-n ""
+n "เหลือเพียงฉัน เธอ กับม้านั่งตัวนี้"
 
 # n "My arms tighten, drawing her waist closer, entranced by the feel of her."
-n ""
+n "ฉันโอบเอมิแน่นขึ้นรั้งตัวเธอเข้ามาดื่มด่ำไปกับความรู้สึกจากเธอ"
 
 # n "I inhale her scent, my mind trying desperately to memorize everything about how she tastes, how she smells, how she feels."
-n ""
+n "ฉันสูดเอากลิ่นเอมิเข้ามา สมองฉันทำงานอย่างหนักเพื่อที่จะจำทุกอย่าง จำรสของเธอ จำกลิ่นของเธอ จำสัมผัส\nของเธอ"
 
 play sound sfx_warningbell
 play ambient sfx_rooftop fadein 4.0
@@ -11426,58 +11425,58 @@ with silentflash
 window show
 
 # "The ringing of the bell snaps us both back to reality, and we break the kiss."
-""
+"เสียงระฆังดังดึงเราให้กลับมายังโลกความเป็นจริง เราผละปากออกจากกัน"
 
 # "Emi's cheeks are slightly flushed, and she seems to be catching her breath. In her defense, so am I."
-""
+"หน้าเอมิขึ้นสีแดงเรื่อเล็กน้อย เหมือนเธอหอบอยู่ ซึ่งฉันก็เหมือนกัน"
 
 # "We stand there for a few moments, trying to wrap our heads around what we've just done."
-""
+"เรายืนอยู่ตรงนั้นขณะหนึ่งพลางคิดถึงสิ่งที่เราทำลงไป"
 
 # "Emi is the first to break the silence."
-""
+"เอมิเป็นฝ่ายทำลายความเงียบก่อน"
 
 show emi sad_grin_close
 hide overlay
 with charachange
 
 # emi "So…"
-emi ""
+emi "แล้ว…"
 
 show emi basic_closedgrin_close
 with charachange
 
 # emi "…Wanna grab dinner after I'm done with practice?"
-emi ""
+emi "…ถ้าฉันซ้อมเสร็จเราไปหาอะไรกินกันมั้ย"
 
 # hi "What a coincidence."
-hi ""
+hi "บังเอิญจัง"
 
 # hi "I was about to ask you the same thing."
-hi ""
+hi "กะจะชวนเธออยู่พอดี"
 
 # "Well, actually I suppose it was going to be some kind of proper date on the weekend or something. But the thought was there, I think."
-""
+"แต่จริง ๆ กะจะชวนไปเดตให้เป็นเรื่องเป็นราวหรืออะไรตอนสุดสัปดาห์น่ะนะ แต่ก็คิดจะชวนเหมือนกันแหละ"
 
 with vpunch
 
 # "Emi gives me a playful shove."
-""
+"เอมิผลักฉันหยอกเล่น"
 
 show emi basic_happy_close
 with charachange
 
 # emi "Yeah right."
-emi ""
+emi "โอเค ๆ"
 
 show emi basic_closedhappy_close
 with charachange
 
 # emi "You were still in shock from how incredibly awesome I am at kissing."
-emi ""
+emi "นายยังดูตกใจนะที่ฉันจูบเก่งขนาดนั้นน่ะ"
 
 # "We begin to head down the stairs back to our respective classrooms."
-""
+"เราเดินลงบันไดกลับเข้าห้องเรียนของตัวเองกัน"
 
 stop ambient fadeout 2.0
 
@@ -11486,19 +11485,19 @@ show emi sad_grin at center
 with locationskip
 
 # hi "Hey, I didn't see you talking immediately afterwards either."
-hi ""
+hi "เฮ้ย จบเรื่องแล้วเธอก็เงียบไปเลยนี่"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "That I didn't."
-emi ""
+emi "ก็เงียบแหละ"
 
 show emi basic_closedhappy
 with charachange
 
 # emi "See you after practice, Hisao."
-emi ""
+emi "ซ้อมเสร็จเจอกันนะฮิซาโอะ"
 
 show emi basic_closedgrin_close
 with charachange
@@ -11509,43 +11508,43 @@ show emi basic_closedgrin_close:
 with None
 
 # "She leans in quickly and gives me a quick kiss in the middle of the hallway, sending me into another brief state of mental freefall."
-""
+"เอมิโน้มตัวเข้ามาจุ๊บฉันกลางโถงทางเดินจนสมองฉันลอยลิ่วไปอีกรอบ"
 
 scene bg school_scienceroom
 with locationchange
 
 # "As I head into my classroom, a giggling Misha greets me."
-""
+"เมื่อเดินกลับเข้าห้องเรียนก็พบกับมิช่าที่หัวเราะคิกคัก"
 
 show misha hips_grin at center
 with charaenter
 
 # mi "Why Hicchan, you romantic, you~!"
-mi ""
+mi "แหมฮิจัง นายนี่โรแมนติกมาก~!"
 
 # mi "Did you confess on the rooftop? Did you~?"
-mi ""
+mi "นายไปสารภาพรักบนดาดฟ้าแล้วละสิ ใช่มั้ย~"
 
 # hi "Er, actually I think it was the other way around."
-hi ""
+hi "เอ่อ ฉันว่าคนที่สารภาพรักไม่ใช่ฉันนะ"
 
 show misha cross_laugh
 with charachange
 
 # "This sends Misha into a fresh fit of laughter."
-""
+"พอได้ฟังแล้วมิช่าก็หัวเราะร่าเริงอีกรอบ"
 
 show misha hips_grin
 with charachange
 
 # mi "Young love is so unpredictable, isn't it~?"
-mi ""
+mi "รักวัยรุ่นนี่มันคาดเดาไม่ได้เลยจริง ๆ นะ~"
 
 # "This being Misha, I suppose I should have expected her to tease me over this."
-""
+"ฉันน่าจะรู้อยู่แล้วว่าคนอย่างมิช่ายังไงก็ต้องแซวฉันเรื่องนี้แน่"
 
 # hi "I guess…"
-hi ""
+hi "มั้งนะ…"
 
 show misha hips_grin:
     center
@@ -11553,19 +11552,19 @@ show misha hips_grin:
 with None
 
 # "Before I can really respond, Mutou's entered the room and Misha skips off to her seat, giggling all the while."
-""
+"ก่อนฉันจะทันได้ตอบอะไรครูก็เดินเข้าห้องมาก่อนแล้ว มิช่าโดดกลับไปนั่งที่พลางหัวเราะคิกคัก"
 
 # "I suspect that I'll get a lot of that sort of conversation now, especially seeing as how Emi kissed me right in the middle of the hall."
-""
+"ฉันว่าเดี๋ยวต้องได้คุยอะไรแบบนี้กันอีกบ่อย ๆ แน่ ยิ่งเอมิจูบฉันกลางโถงทางเดินอย่างนั้นแล้ว"
 
 # "But somehow, I don't care about that."
-""
+"แต่ไม่รู้ทำไมฉันถึงไม่ได้สนใจเลย"
 
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
 stop music fadeout 5.0
 
 # "For the first time since arriving here, my heart feels light."
-""
+"เป็นครั้งแรกนับตั้งแต่ที่ได้มาอยู่ยามากุเลยที่ใจฉันเบาสบาย"
 
 window hide
 
