@@ -12,31 +12,31 @@ $ renpy.music.set_volume(0.5, 0.0, channel="music")
 play music music_normal fadein 3.0
 
 # n "\n\n\nMy head's in a spin all through Mutou's class."
-n ""
+n "\n\n\nตลอดคาบเรียนหัวฉันหมุนติ้ว"
 
 # n "I'm going to have dinner."
-n ""
+n "ฉันจะได้กินข้าวเย็น"
 
 # n "With Emi."
-n ""
+n "กับเอมิ"
 
 # n "Who wants to be my girlfriend, no less."
-n ""
+n "และเธออยากเป็นแฟนฉันด้วย"
 
 # n "A date…"
-n ""
+n "เดต"
 
 # n "And then she kissed me."
-n ""
+n "แล้วเอมิก็จูบฉัน"
 
 # n "That kiss. I keep going back to it, playing it over in my mind again and again."
-n ""
+n "จูบนั้น ฉันกรอกลับไปที่เหตุการณ์นั้นเล่นซ้ำแล้วซ้ำเล่าอยู่ในหัว"
 
 # n "Everything about that moment felt so right."
-n ""
+n "ทุกอย่าง ณ ตอนนั้นช่างลงตัวเหลือเกิน"
 
 # n "\nMy mind drifts off, lost in thoughts of Emi."
-n ""
+n "\nใจฉันล่องลอยไปพลางคิดถึงเอมิ"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -48,61 +48,61 @@ show muto normal
 with charaenter
 
 # mu "Nakai? Hello?"
-mu ""
+mu "นากาอิ? ฮัลโหล?"
 
 # "It seems like I've drifted a bit too far."
-""
+"ดูท่าว่าจะใจลอยไปไกลไปหน่อย"
 
 # hi "Huh? What?"
-hi ""
+hi "ฮะ? ครับ?"
 
 show muto irritated
 with charachange
 
 # mu "Egad! You've contracted some kind of amnesia!"
-mu ""
+mu "คุณพระ! เธอติดโรคความจำเสื่อมเข้าให้แล้ว!"
 
 # mu "Someone get the nurse!"
-mu ""
+mu "ใครก็ได้เรียกคุณพยาบาลมาที!"
 
 # "The class chuckles at Mutou's antics."
-""
+"คนทั้งห้องหัวเราะกับมุกตลกของครู"
 
 # hi "Sorry, sir."
-hi ""
+hi "ขอโทษครับ"
 
 show muto normal
 with charachange
 
 # mu "Hmm, won't happen again and all that, right?"
-mu ""
+mu "อืมม จะไม่ทำอีกแล้วใช่ไหม"
 
 # hi "Exactly."
-hi ""
+hi "ครับผม"
 
 # "Mutou brightens considerably."
-""
+"ครูทำหน้ายิ้ม ๆ ขึ้นมา"
 
 show muto smile
 with charachange
 
 # mu "Well! Lovely to hear!"
-mu ""
+mu "โอเค! ดีแล้ว!"
 
 # mu "I'd hate to have my star pupil slacking off, after all."
-mu ""
+mu "ฉันไม่อยากให้นักเรียนดาวเด่นของฉันอู้หรอกนะ"
 
 hide muto
 with charaexit
 
 # "I've been doing well, but I hardly qualify as a star pupil, I think."
-""
+"เรียนได้ดีก็จริง แต่ไม่น่าเป็นดาวเด่นขนาดนั้นนะ"
 
 # "I'm fairly certain that this class is the sort that everyone does well in. It's just memorizing formulas."
-""
+"ฉันรู้สึกว่าใคร ๆ ก็พอจะเรียนวิชานี้รู้เรื่อง ก็แค่จำสูตรเฉย ๆ"
 
 # "True to my word, I manage to pay attention for the rest of the class."
-""
+"ฉันคอยตั้งใจเรียนไปจนหมดคาบอย่างที่ได้บอกครู"
 
 stop music fadeout 2.0
 
@@ -112,255 +112,255 @@ with shorttimeskip
 play sound sfx_normalbell
 
 # mu "Nakai, may I have a word with you?"
-mu ""
+mu "นากาอิ ขอคุยกับเธอหน่อยได้มั้ย"
 
 # "I wonder if I'm in trouble for earlier."
-""
+"เรื่องเมื่อกี้หรือเปล่านะ"
 
 # hi "Uh, sure."
-hi ""
+hi "เอ่อ ครับ"
 
 # hi "Am I in trouble?"
-hi ""
+hi "ผมทำอะไรไม่ดีหรือเปล่า"
 
 show muto irritated
 with charachange
 
 # "Mutou looks genuinely confused for a moment."
-""
+"ครูทำหน้างง ๆ ขึ้นมาอยู่ครู่หนึ่ง"
 
 # mu "Beg your pardon?"
-mu ""
+mu "อะไรนะ"
 
 # "He tilts his head to one side and thinks for a moment."
-""
+"ครูเอียงคอแล้วนึกคิด"
 
 show muto smile
 with charachange
 
 # mu "Oh, that! No, no, you're not in any sort of trouble."
-mu ""
+mu "อ้อ เรื่องนั้น! เปล่า ๆ เธอไม่ได้ทำอะไรไม่ดีหรอก"
 
 # mu "There's just a question I want to ask you."
-mu ""
+mu "ครูแค่มีเรื่องจะถามเธอ"
 
 # hi "What's that?"
-hi ""
+hi "อะไรเหรอครับ"
 
 show muto normal
 with charachange
 
 # mu "Nothing terrible, I was just wondering what your plans for after graduation are."
-mu ""
+mu "ไม่ใช่อะไรหรอก แค่อยากรู้ว่าเรียนจบแล้วเธอจะทำอะไรต่อ"
 
 play music music_another fadein 2.0
 
 # mu "Are you going to university?"
-mu ""
+mu "จะเรียนต่อมหา’ลัยหรือเปล่า"
 
 # hi "Yeah, I guess. I can't really see a reason not to go."
-hi ""
+hi "อืม มั้งครับ คิดยังไงผมก็ต้องต่อ"
 
 # mu "Given any thought to what you'll study?"
-mu ""
+mu "แล้วได้คิดหรือยังว่าจะเรียนอะไร"
 
 # hi "Not really, no. I figure I'll come up with something when I get there."
-hi ""
+hi "ก็ไม่นะครับ ผมคิดว่าเดี๋ยวถึงเวลาแล้วก็คงรู้เอง"
 
 show muto smile
 with charachange
 
 # "Mutou laughs."
-""
+"ครูหัวเราะ"
 
 # mu "Taking things as they come, eh?"
-mu ""
+mu "ใช้ชีวิตไปตามกระแสงั้นเหรอ"
 
 # mu "I'd argue against it, but that's how I did things when I went to university."
-mu ""
+mu "ก็อยากแย้งอยู่หรอก แต่ตอนครูเรียนมหา’ลัยก็ทำแบบนั้นเหมือนกัน"
 
 # mu "Well, not really."
-mu ""
+mu "ก็ ไม่เชิงหรอก"
 
 # mu "I knew I'd go into a science, I just wasn't sure which one."
-mu ""
+mu "ครูรู้อยู่ว่าจะเรียนวิทยาศาสตร์ แค่ไม่แน่ใจว่าจะเรียนสาขาไหนดี"
 
 # mu "Ended up with physics, but could just as well have gone for astronomy or what have you."
-mu ""
+mu "สุดท้ายก็ไปเรียนฟิสิกส์ แต่เอาจริง ๆ จะไปเรียนดาราศาสตร์หรืออะไรแบบนั้นก็ได้"
 
 show muto irritated
 with charachange
 
 # mu "Actually I did go for chemistry first, but there were all sorts of things…"
-mu ""
+mu "ที่จริงทีแรกครูเรียนเคมีนะ แต่ก็มีเรื่องอะไรหลายอย่าง…"
 
 # "Mutou trails off, and frowns slightly."
-""
+"ครูเสียงอ่อยไปแล้วขมวดคิ้วเล็กน้อย"
 
 # "It takes a minute for him to recover his train of thought, and I wait patiently for him to continue."
-""
+"ผ่านไปสักนาทีสองนาทีครูถึงผละจากกระแสความคิดนั้นได้ ฉันรอให้ครูพูดต่ออย่างใจเย็น"
 
 show muto normal
 with charachange
 
 # mu "So anyway, I did a lot of physics as well, because I had an interest in that, but I wasn't sure if it was for me."
-mu ""
+mu "แต่นั่นแหละ ครูก็เรียนฟิสิกส์หลายตัวอยู่เพราะสนใจ แต่ไม่แน่ใจว่าตัวเองถนัดจริง ๆ หรือเปล่า"
 
 show muto smile
 with charachange
 
 # mu "So I went back to chemistry, and here we are. Yes?"
-mu ""
+mu "สุดท้ายก็กลับมาหาเคมี แล้วก็เรื่อยมาจนทุกวันนี้ ไง"
 
 show muto smile
 with charachange
 
 # "He smiles at me enthusiastically, as if waiting for me to confirm that yes, here is were we are."
-""
+"ครูยิ้มให้ฉันอย่างเปี่ยมพลังราวกับรอให้ฉันตอบกลับว่า ครับ แล้วก็เรื่อยมาจนทุกวันนี้"
 
 # "Somehow I get the feeling that Mutou had a plan for this conversation, but I'll be damned if I can figure it out."
-""
+"ไม่รู้ทำไมถึงรู้สึกเหมือนครูมีแผนอะไรอยู่ถึงเรียกมาคุย แต่คิดยังไงก็คิดไม่ออกว่าแผนที่ว่าคืออะไร"
 
 # hi "I'm sorry, I'm not following you."
-hi ""
+hi "ขอโทษนะครับ คือผมไม่ค่อยเข้าใจ"
 
 # "Mutou frowns and rubs his chin a bit, looking perplexed. He then snaps his fingers as if he's remembered what the point of all this was."
-""
+"ครูขมวดคิ้วแล้วลูบคางดูสับสน แล้วก็ดีดนิ้วเหมือนนึกได้ว่าเรียกฉันมาทำไม"
 
 # mu "Right! Yes! You!"
-mu ""
+mu "จริงด้วย! ใช่! เธอ!"
 
 # hi "Me?"
-hi ""
+hi "ผม?"
 
 # mu "Yes! You should look into studying one of the sciences!"
-mu ""
+mu "ใช่! เธอลองไปดูว่าจะเรียนวิทยาศาสตร์สาขาไหน!"
 
 # mu "You're fantastic at it."
-mu ""
+mu "เธอเก่งวิทยาศาสตร์นะ"
 
 # mu "Unless you'd rather just go into math."
-mu ""
+mu "เว้นเสียแต่ว่าเธอจะอยากไปเรียนคณิตศาสตร์มากกว่า"
 
 show muto irritated
 with charachange
 
 # "Mutou makes a sour face."
-""
+"ครูทำหน้าเบ้"
 
 # mu "Not a big fan of straight math. I always liked the experiments more than the proofs."
-mu ""
+mu "ครูไม่ค่อยชอบคณิตแบบเพียว ๆ เท่าไหร่ ชอบการทดลองมากกว่าการพิสูจน์น่ะ"
 
 # hi "You're saying I should study science at university?"
-hi ""
+hi "ครูจะบอกว่าผมควรไปเรียนต่อทางวิทยาศาสตร์?"
 
 # "Mutou seems thrown off balance by my question."
-""
+"คำถามนั้นทำให้ครูเหมือนไม่ได้ตั้งตัว"
 
 show muto normal
 with charachange
 
 # mu "Well, sort of."
-mu ""
+mu "ก็ ประมาณนั้น"
 
 show muto smile
 with charachange
 
 # mu "You could also join the science club!"
-mu ""
+mu "หรือจะเข้าร่วมชมรมวิทยาศาสตร์ก็ได้นะ!"
 
 # mu "Trouble is, there's not actually a science club."
-mu ""
+mu "ปัญหาคือเราไม่มีชมรมวิทยาศาสตร์"
 
 # mu "But there could be!"
-mu ""
+mu "แต่ตั้งชมรมใหม่ได้!"
 
 # mu "You could even be a charter member!"
-mu ""
+mu "เธอเป็นสมาชิกรุ่นแรกได้เลยนะ!"
 
 # mu "A founding father!"
-mu ""
+mu "เป็นผู้บุกเบิก!"
 
 # mu "Of course, you'd need to find other members."
-mu ""
+mu "แน่ละว่าเธอต้องไปหาสมาชิกคนอื่นด้วย"
 
 show muto normal
 with charachange
 
 # mu "Well, only if you wanted to."
-mu ""
+mu "ก็ ถ้าเธออยากตั้งชมรมน่ะนะ"
 
 # mu "We could just start it up with the two of us."
-mu ""
+mu "เริ่มจากเธอกับครูก่อนก็ได้"
 
 # mu "And um."
-mu ""
+mu "แล้วก็ เอ่อ"
 
 show muto smile
 with charachange
 
 # mu "I could give you things to read, and we could talk about them."
-mu ""
+mu "ครูก็จะให้หนังสือเธอไปอ่าน แล้วเราก็มาคุยกัน"
 
 # mu "Er, and I could help you get ready for university and such as well."
-mu ""
+mu "เอ่อ แล้วครูก็จะได้ช่วยเธอเรื่องการเตรียมพร้อมเรียนต่ออะไรแบบนั้นด้วย"
 
 show muto irritated
 with charachange
 
 # mu "Wait!"
-mu ""
+mu "เดี๋ยว!"
 
 # "Mutou rummages around in his briefcase and tosses me a book."
-""
+"ครูคุ้ยกระเป๋าแล้วโยนหนังสือเล่มหนึ่งมาให้"
 
 show muto smile
 with charachange
 
 # mu "Read that."
-mu ""
+mu "เอาไปอ่านซะนะ"
 
 # mu "If it's interesting, then we can talk about it."
-mu ""
+mu "ถ้ารู้สึกว่าน่าสนใจก็มาคุยกันได้"
 
 # "“A Brief History of Time?”"
-""
+"“{i}ประวัติย่อของกาลเวลา{/i}”?"
 
 # "I don't know if I actually want to read this, but Mutou seems pretty excited about it."
-""
+"ไม่รู้ว่าอยากอ่านจริง ๆ หรือเปล่า แต่ครูก็ดูตื่นเต้นพอตัวเลย"
 
 # hi "What's it about?"
-hi ""
+hi "ข้างในเป็นเรื่องอะไรเหรอครับ"
 
 show muto normal
 with charachange
 
 # mu "Time. Space. Space-time. Black holes and such."
-mu ""
+mu "เวลา ปริภูมิ ปริภูมิ-เวลา หลุมดำ อะไรทำนองนั้น"
 
 # mu "And it's not that dense. Just to see if that sort of thing's interesting for you, you understand."
-mu ""
+mu "แล้วก็ไม่ได้เนื้อหาแน่นมาก ประมาณว่าลองดูก่อนว่าเธอสนใจหรือเปล่า เข้าใจมั้ย"
 
 # mu "Hang around after class, and we can either discuss it, or I can show you how to make explosives in the lab."
-mu ""
+mu "หมดคาบแล้วก็อยู่รอคุยกับครูได้ หรือไม่ก็จะได้พาไปห้องทดลองแล้วทำให้ดูว่าสารระเบิดเขาทำกันยังไง"
 
 show muto smile
 with charachange
 
 # "He waves a hand at my quizzical expression."
-""
+"ครูโบกมือให้กับฉันที่ยังทำหน้างง ๆ อยู่"
 
 # mu "Joking, sorry."
-mu ""
+mu "ครูพูดเล่น ขอโทษที"
 
 # mu "Still, I've kept you here long enough for now."
-mu ""
+mu "แต่ก็คุยกับเธอมานานแล้ว"
 
 # mu "Think about science as a career path, Nakai. I think you'd enjoy it."
-mu ""
+mu "ไปคิดเรื่องเส้นทางสายวิทยาศาสตร์นะนากาอิ ครูว่าเธอน่าจะชอบ"
 
 # hi "Uh, okay. I will. Thank you for the book."
-hi ""
+hi "อ่า ครับ ได้ครับ ขอบคุณสำหรับหนังสือนะครับ"
 
 stop music fadeout 14.0
 
@@ -368,40 +368,40 @@ scene bg school_hallway3
 with locationchange
 
 # "I leave the classroom and look up at the clock; quite a chunk of time to kill until Emi's out of practice."
-""
+"ฉันออกจากห้องแล้วมองนาฬิกา ยังเหลือเวลาอีกมากกว่าเอมิจะฝึกเสร็จ"
 
 # "Guess I'll give this book a look; I should probably shower as well."
-""
+"คงต้องลองอ่านหนังสือเล่มนี้สักหน่อย แล้วก็อาจจะอาบน้ำด้วย"
 
 # "Showering before a date's only proper, right?"
-""
+"ก่อนไปเดตก็ต้องอาบน้ำอยู่แล้วใช่มั้ยล่ะ"
 
 # "I head back to the dorms."
-""
+"ฉันกลับไปที่หอ"
 
 scene bg school_dormhisao
 with locationskip
 
 # "I wonder where I'm supposed to meet Emi, anyway."
-""
+"แล้วจะไปหาเอมิที่ไหนดีล่ะเนี่ย"
 
 # "She said “after practice,” but she didn't say where I should find her."
-""
+"เอมิบอกว่า “หลังซ้อม” แต่ไม่ได้บอกว่าจะให้ไปเจอที่ไหน"
 
 # "I guess I can just swing by the track; that's probably best, anyway."
-""
+"ก็คงต้องลองแวะไปที่ลู่นั่นแหละ น่าจะดีที่สุดแล้ว"
 
 # "If she needs a shower, I can just wait for her in her room or something."
-""
+"ถ้าเอมิอาบน้ำอยู่ก็รอให้ออกจากห้องมาก่อนก็ได้"
 
 # "Or in the hallway, I guess; that would be better as well."
-""
+"หรือจะไปที่โถงทางเดินก็ดีเหมือนกัน"
 
 # "I take a quick shower, remembering to take my medication once I hop out."
-""
+"ฉันอาบน้ำแบบผ่าน ๆ แล้วกินยาก่อนออกมา"
 
 # "Now, for a look at this book."
-""
+"ทีนี้ก็อ่านหนังสือเล่มที่ครูให้มา"
 
 stop music
 
