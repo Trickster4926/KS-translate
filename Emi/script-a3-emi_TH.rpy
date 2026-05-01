@@ -418,61 +418,61 @@ scene bg school_dormhisao
 with vpunch
 
 # "I wake with a start."
-""
+"ฉันสะดุ้งตื่น"
 
 # "Shit! What time is it?"
-""
+"ฉิบ! กี่โมงแล้วเนี่ย"
 
 # "A glance at the clock reveals that I've been asleep for nearly an hour."
-""
+"พอเหลือบมองนาฬิกาก็เห็นว่าหลับไปค่อนชั่วโมงได้"
 
 # hi "Thank goodness."
-hi ""
+hi "รอดไปที"
 
 # "Emi's practice should be finishing up soon."
-""
+"เดี๋ยวเอมิน่าจะซ้อมเสร็จแล้ว"
 
 # "I throw on some casual clothes and head for the track."
-""
+"ฉันใส่เสื้อสบาย ๆ แล้วไปที่ลู่วิ่ง"
 
 scene bg school_track
 with locationskip
 
 # "Somehow I get the feeling we won't be doing anything fancy for dinner."
-""
+"ไม่รู้ทำไมถึงรู้สึกว่าเย็นนี้จะไม่ได้ไปทำอะไรหรูหรากันขนาดนั้น"
 
 # "Emi doesn't strike me as a very fancy sort of person."
-""
+"ฉันมองว่าเอมิก็ไม่ได้เป็นคนหรูหรา"
 
 # "Still, I suppose there's a lot I have yet to know about Emi."
-""
+"แต่ก็นะ อาจจะยังมีเอมิอีกหลายมุมที่ฉันยังไม่รู้จัก"
 
 # "Despite our newfound closeness, I still feel like I don't know her as well as I should."
-""
+"ทั้งที่เราได้ความสัมพันธ์ใหม่ใกล้ชิดกว่าเดิมแล้วฉันก็ยังรู้สึกว่าไม่ได้รู้จักเอมิดีขนาดนั้น"
 
 # "Ah well, I have lots of time to fix that."
-""
+"เอาเถอะ ยังเหลือเวลาให้ได้รู้อีกมากมาย"
 
 # "To be honest, I'm looking forward to getting to know her more."
-""
+"ว่าตามตรง ฉันก็ตั้งตาคอยที่จะได้รู้จักเอมิให้มากขึ้นด้วย"
 
 # "I'm so caught up in my own thoughts that I hardly register that I'm already at the track."
-""
+"ฉันมัวแต่จมอยู่กับความคิดจนไม่ทันรู้ตัวว่ามาถึงลู่แล้ว"
 
 # "Emi is nowhere to be found."
-""
+"ไม่มีวี่แววเอมิ"
 
 # "I don't even see any signs of the track team."
-""
+"ไม่มีวี่แววคนในทีมวิ่งด้วย"
 
 # "This could be embarrassing."
-""
+"โดนแกล้งหรือเปล่าเนี่ย"
 
 # "I turn to head toward the girls' dormitory when I hear a shout."
-""
+"ฉันหันกลับเตรียมจะไปหอหญิง แต่ก็มีเสียงตะโกนแทรกมา"
 
 # emi "Hey, Hisao!"
-emi ""
+emi "นี่ ฮิซาโอะ!"
 
 play music music_emi fadein 1.0
 
@@ -480,193 +480,192 @@ show emicas smile at center
 with charaenter
 
 # "I turn around to see Emi making a beeline for me with a gym bag slung over her shoulder."
-""
+"พอหันไปก็เห็นเอมิที่แบกกระเป๋าพละพาดบ่าเดินตรงมาทางนี้"
 
 # "She's changed into some decidedly more casual clothing; a pair of shorts and an olive green top."
-""
+"เอมิเปลี่ยนชุดดูเป็นอะไรที่เป็นกันเองมากขึ้น เป็นกางเกงขาสั้นกับเสื้อสวมทับสีเขียวมะกอก"
 
 # "Her running blades have been replaced by more realistic-looking legs that probably wouldn't fool anyone."
-""
+"ขาที่เป็นแผ่นสำหรับวิ่งนั้นถูกแทนที่ด้วยขาที่ดูสมจริงขึ้นมา ซึ่งก็ยังดูไม่ค่อยเนียนเท่าไหร่"
 
 # "Emi doesn't seem to care about that, a fact which makes me smile."
-""
+"เอมิเหมือนจะไม่สนใจสักเท่าไหร่ ซึ่งฉันก็อดยิ้มไม่ได้"
 
 show emicas happy
 with charachange
 
 # emi "Hey, you came!"
-emi ""
+emi "ไง มาจริงด้วย!"
 
 show emicas closedsmile
 with charachange
 
 # emi "I mean I figured you would, but still…"
-emi ""
+emi "คือก็คิดแหละว่านายคงมา แต่ก็…"
 
 show emicas closedsmile_up_close
 with characlose
 
 # "I suddenly find myself wrapped in a rather affectionate hug, and it proves to be impossible for me to keep what must be the world's largest grin off my face."
-""
+"อยู่ ๆ เอมิก็เข้ามากอดฉันด้วยความรัก และฉันก็กลั้นตัวเองไม่ให้ฉีกยิ้มที่คงจะกว้างที่สุดในโลกออกมาไม่ได้"
 
 # hi "Well, of course I came!"
-hi ""
+hi "ต้องมาสิ!"
 
 # hi "I'd be crazy not to, right?"
-hi ""
+hi "ไม่มาก็บ้าแล้ว เนอะ"
 
 # "Emi ponders for a moment."
-""
+"เอมิคิดอยู่ครู่หนึ่ง"
 
 show emicas grin_up_close
 with charachange
 
 # emi "You know, that's true."
-emi ""
+emi "ก็จริงนะ"
 
 show emicas wink_up_close
 with charachange
 
 # emi "I mean I'm pretty amazing, after all."
-emi ""
+emi "เนี่ย ฉันก็เป็นคนที่สุดยอดเหมือนกัน"
 
 # "I shrug in response."
-""
+"ฉันยักไหล่"
 
 # hi "I certainly think so."
-hi ""
+hi "ฉันคิดว่างั้นเลยแหละ"
 
 show emicas blush_up_close
 with charachange
 
 # "It's an offhand remark, which is why I'm surprised to see that it seems to have caught Emi by surprise."
-""
+"ฉันพูดไปลอย ๆ ถึงได้แปลกใจที่เอมิเหมือนจะไม่ทันตั้งตัวรับคำพูดนั้น"
 
 show emicas smile_up_close
 with charachange
 
 # "She blushes and smiles warmly at me before planting a kiss on my lips."
-""
+"เอมิหน้าแดงแล้วยิ้มให้ฉันอย่างอบอุ่นก่อนจะจุ๊บ"
 
 # "Now it's my turn to be surprised."
-""
+"คราวนี้เป็นตาฉันที่ไม่ทันตั้งตัวบ้าง"
 
 show emicas grin
 with charadistant
 
 # "Emi steps back, resting her weight on her back heel, looking pleased with herself."
-""
+"เอมิถอยไปแล้วทิ้งน้ำหนักลงส้นเท้าดูพอใจ"
 
 # "My brain fumbles for an appropriate response."
-""
+"ฉันคุ้ยสมองหาอะไรเหมาะ ๆ มาพูดตอบ"
 
-# hi "…"
-hi ""
+hi "…"
 
 # hi "I should compliment you more often."
-hi ""
+hi "คงต้องชมเธอบ่อย ๆ แล้วสิ"
 
 show emicas happy_up
 with vpunch
 
 # "Emi laughs and gives me a playful shove."
-""
+"เอมิหัวเราะแล้วดันตัวฉันหยอก ๆ"
 
 show emicas closedsmile
 with charachange
 
 # emi "Jerk."
-emi ""
+emi "บ้า"
 
 show emicas weaksmile_up_close
 with characlose
 
 # "I throw an arm around Emi's shoulders and am pleased when she immediately leans into me as if it were the most natural thing in the world."
-""
+"ฉันโอบไหล่เอมิไว้ และรู้สึกดีเมื่อเธอโน้มตัวเข้ามาเหมือนว่าเป็นเรื่องปกติธรรมชาติ"
 
 # hi "So, where to?"
-hi ""
+hi "แล้วจะไปไหน"
 
 show emicas awayfrown_up_close
 with charachange
 
 # emi "I'm not actually sure."
-emi ""
+emi "ไม่แน่ใจเหมือนกัน"
 
 show emicas neutral_up_close
 with charachange
 
 # emi "Where do people go on dates around here, anyway?"
-emi ""
+emi "ปกติเวลาจะไปเดตแถวนี้เขาไปที่ไหนกันล่ะ"
 
 # "That's a damned good question."
-""
+"ถามได้ดีมาก มาก ๆ"
 
 # hi "I've got no idea."
-hi ""
+hi "ไม่รู้เลย"
 
 # hi "Why don't we just head down to the Aura-Mart and grab something portable?"
-hi ""
+hi "ไปหาซื้ออะไรที่ร้านออร่ามาร์ทติดมือไปกินกันมั้ยล่ะ"
 
 # "Emi's face brightens at this idea."
-""
+"เอมิทำหน้าสดใสขึ้นมาเมื่อได้ยินเช่นนั้น"
 
 show emicas happy_up_close
 with charachange
 
 # emi "A picnic!"
-emi ""
+emi "ปิกนิก!"
 
 show emicas wink_up_close
 with charachange
 
 # emi "I think you're on to something, Hisao."
-emi ""
+emi "ความคิดใช้ได้เลยนี่ฮิซาโอะ"
 
 scene bg school_gate
 with locationskip
 
 # "Emi snakes her arm around my waist, and we begin to head for the front gate."
-""
+"เอมิยื่นแขนมาโอบเอวฉันไว้ เราออกเดินไปที่ประตูหน้าโรงเรียน"
 
 # "I'm entirely unsure of what I'm meant to do in this situation, but at least Emi seems to be equally clueless."
-""
+"ฉันไม่แน่ใจนักว่าจะต้องวางตัวยังไงกับสถานการณ์แบบนี้ แต่อย่างน้อยเอมิก็ไม่รู้เหมือนกันแหละนะ"
 
 scene bg suburb_roadcenter
 with locationskip
 
 # "Despite the relaxing feeling of being with Emi, I still can't help feeling a little tense."
-""
+"ถึงพออยู่กับเอมิแล้วจะรู้สึกผ่อนคลาย แต่ก็อดเกร็งขึ้นมาหน่อย ๆ ไม่ได้"
 
 # "What if I do something wrong?"
-""
+"ถ้าเกิดว่าทำอะไรพลาดไปล่ะ"
 
 # "I'd hate to make an ass out of myself."
-""
+"ฉันไม่อยากให้ตัวเองกลายเป็นคนไม่ดีไปหรอก"
 
 scene bg suburb_konbiniext
 with locationchange
 
 # "The trip to the Aura-Mart is accompanied by Emi's chatter about how practice went."
-""
+"เสียงเอมิเล่าถึงการซ้อมคอยประกบเราไปตามเส้นทางไปยังร้านออร่ามาร์ท"
 
 # "I keep quiet for the most part, merely enjoying the warmth of being around Emi."
-""
+"ส่วนฉันก็เงียบไปคอยดื่มด่ำกับความอบอุ่นเมื่อได้อยู่กับเอมิ"
 
 # "We get a few odd looks from passersby, but I don't mind."
-""
+"มีคนที่เดินผ่านเรามองมาบ้าง แต่ฉันไม่สนใจหรอก"
 
 # "We wind up buying some bread and instant noodles, realizing too late that we cannot actually cook the latter in the park."
-""
+"สุดท้ายเราก็ซื้อขนมปังกับบะหมี่กึ่งสำเร็จรูปกัน แต่ก็เพิ่งมาคิดได้อีกทีว่าเราคงต้มบะหมี่กึ่งฯ กันในสวนสาธารณะ\nไม่ได้"
 
 show emicas weaksmile
 with charaenter
 
 # emi "Oh well. I'll make it for lunch or something."
-emi ""
+emi "เอาเถอะ ค่อยเก็บไว้กินเป็นมื้อเที่ยงหรือมื้ออะไรวันอื่นแล้วกัน"
 
 # hi "That'll work."
-hi ""
+hi "ก็ได้"
 
 stop music fadeout 2.0
 $ renpy.music.set_volume(1.0, 0.0, channel="ambient")
@@ -676,10 +675,10 @@ scene bg suburb_park
 with locationskip
 
 # "The park is located after a brief loss of direction that I blame entirely on Emi."
-""
+"เราหาสวนสาธารณะกันจนเจอหลังจากที่หลงทางกันอยู่พักหนึ่ง ซึ่งฉันก็โทษเอมิ"
 
 # "She, of course, blames me."
-""
+"แน่นอนว่าเอมิก็โทษฉันด้วย"
 
 show emicas smile:
     center
@@ -687,12 +686,12 @@ show emicas smile:
 with charaenter
 
 # "We find a spot beneath a tree and sit down. I lean back against the trunk, Emi sits across from me."
-""
+"เราหาพื้นที่ใต้ร่มไม้แล้วนั่งลง ฉันนั่งพิงต้นไม้ ส่วนเอมินั่งประจันหน้ากับฉัน"
 
 play music music_ease fadein 3.0
 
 # hi "I guess we should have brought a blanket or something to sit on, huh?"
-hi ""
+hi "รู้งี้เอาผ้าหรืออะไรมาปูรองนั่งด้วยก็ดีเนอะ"
 
 show emicas smile_up:
     ypos 1.13
@@ -702,402 +701,403 @@ show emicas smile
 with charachange
 
 # "Emi shrugs."
-""
+"เอมิยักไหล่"
 
 show emicas closedsmile
 with charachange
 
 # emi "I don't mind."
-emi ""
+emi "ฉันนั่งได้"
 
 # hi "Neither do I."
-hi ""
+hi "ฉันก็นั่งได้"
 
 show emicas grin_up
 with charachange
 
 # "Emi tosses me a package of bread and we dig in."
-""
+"เอมิโยนห่อขนมปังให้ และเราก็เริ่มกินกัน"
 
 # "Curry bread. Interesting."
-""
+"ขนมปังแกงกะหรี่ น่าสนใจ"
 
 # "I guess I wasn't really paying attention to what I grabbed in the store."
-""
+"สงสัยตอนซื้อไม่ได้ดูให้ดีเท่าไหร่ว่าซื้ออะไรมาบ้าง"
 
 show emicas wink_up
 with charachange
 
 # emi "Hey, Hisao. You look like your bread's a little spicy."
-emi ""
+emi "นี่ ฮิซาโอะ เหมือนขนมปังนายจะเผ็ด ๆ นะ"
 
 # "I shake my head, trying in vain to keep an image of manliness."
-""
+"ฉันสั่นหัวเป็นการรักษาภาพความเป็นลูกผู้ชาย"
 
 # hi "Nah, it's hardly spicy at all."
-hi ""
+hi "ไม่อะ แทบไม่เผ็ดด้วยซ้ำ"
 
 show emicas closedsmile_up
 with charachange
 
 # emi "I see, I see. That must be why your face has gotten so red."
-emi ""
+emi "อืมฮึ ๆ คงเพราะแบบนี้สินะถึงได้หน้าแดง"
 
 # hi "Yes, exactly. The lack of spice has uh… gotten my blood up."
-hi ""
+hi "ใช่ ใช่แล้ว เพราะมันไม่เผ็ด… เอ่อ เลือดเลยเดินขึ้นมา"
 
 # hi "Because of the disappointment."
-hi ""
+hi "เพราะผิดหวัง"
 
 show emicas happy
 with charachange
 
 # "Emi laughs and swallows the last of her bread."
-""
+"เอมิหัวเราะแล้วกินขนมปังคำสุดท้าย"
 
 show emicas wink
 with charachange
 
 # emi "Well, if you can't handle it, I'll be glad to take it off of your hands."
-emi ""
+emi "เนี่ย ถ้ากินไม่ไหวฉันก็ยินดีกินแทนให้นะ"
 
 # hi "Hey, just because you wolfed down yours so quickly doesn't mean I'm just going to give you mine."
-hi ""
+hi "นี่ เธอเขมือบไวแล้วใช่ว่าฉันจะให้เธอกินของฉันสักหน่อย"
 
 show emicas pout
 with charachange
 
 # "Emi mock-pouts, causing me to nearly choke on my bread with laughter."
-""
+"เอมิแสร้งทำแก้มป่องจนฉันหัวเราะแทบสำลัก"
 
 # emi "Aw, come on Hisao!"
-emi ""
+emi "โธ่ ไม่เอาน่าฮิซาโอะ"
 
 show emicas awayfrown
 with charachange
 
 # emi "Aren't you supposed to be concerned with making sure I've got enough to eat now?"
-emi ""
+emi "ไม่ใช่ว่านายต้องคอยป้อนฉันให้อิ่มหรือไง"
 
 # emi "We're dating, you know!"
-emi ""
+emi "เรามาเดตกันอยู่นะ!"
 
 show emicas pout
 with charachange
 
 # emi "Though…"
-emi ""
+emi "แต่ว่า…"
 
 # "Emi looks troubled all of a sudden."
-""
+"อยู่ ๆ เอมิก็ทำหน้ายุ่งขึ้นมา"
 
 show emicas frown_up
 with charachange
 
 # emi "I can't say I feel any different."
-emi ""
+emi "ฉันก็รู้สึกเหมือนเดิม"
 
 # hi "Hmm? What do you mean by that?"
-hi ""
+hi "หืม หมายความว่าไง"
 
 show emicas awayfrown
 with charachange
 
 # emi "What makes this a date?"
-emi ""
+emi "เพราะอะไรครั้งนี้ถึงนับว่าเป็นเดต"
 
 # emi "It's just what we would have done anyway, really."
-emi ""
+emi "ก็เป็นอะไรที่เราคงทำเป็นปกติอยู่แล้วนี่"
 
 # emi "But this should feel different because before when we had lunch we were friends, and now we're a level above friends."
-emi ""
+emi "แต่ก็ต้องรู้สึกไม่เหมือนเดิมถ้าให้เทียบกับตอนกินข้าวเที่ยงด้วยกันในฐานะเพื่อน เพราะตอนนี้เราเป็น\nมากกว่าเพื่อนแล้ว"
 
 # hi "You sound like Rin."
-hi ""
+hi "พูดอะไรเป็นรินไปได้"
 
 show emicas happy
 with charachange
 
 # "Laughter escapes, and Emi grins."
-""
+"เอมิหัวเราะแล้วยิ้ม"
 
 show emicas closedsmile_up
 with charachange
 
 # emi "Well, she might've put the thought into my mind."
-emi ""
+emi "ก็นะ น่าจะเป็นรินนี่แหละที่ทำให้ฉันคิดเรื่องนี้"
 
 show emicas closedsmile
 with charachange
 
 # emi "We've talked about that sort of thing before."
-emi ""
+emi "ฉันเคยคุยเรื่องนี้กับรินนะ"
 
 # hi "Really? About me?"
-hi ""
+hi "จริงเหรอ เรื่องฉันน่ะนะ"
 
 show emicas grin
 with charachange
 
 # emi "Not really. Just… stuff, really."
-emi ""
+emi "ไม่เชิง แค่… เรื่องนั่นนี่น่ะ"
 
 show emicas neutral
 with charachange
 
 # emi "Rin thinks that the change of a label from “friend” to “girlfriend” seems arbitrary most of the time."
-emi ""
+emi "รินคิดว่าหลายครั้งการเปลี่ยนสถานะจาก “เพื่อน” เป็น “แฟน” ก็เป็นอะไรที่ทำตามใจไม่มีกฎตายตัว"
 
 # emi "Like there's no difference between the two."
-emi ""
+emi "เหมือนว่าสองอย่างนั้นก็ไม่ได้ต่างกันเลย"
 
 # hi "I can think of at least one, you know."
-hi ""
+hi "แต่ฉันคิดได้อย่างหนึ่งละ"
 
 # hi "You don't tend to kiss your friends quite as much."
-hi ""
+hi "ปกติคนเราไม่จูบกับเพื่อนกันบ่อยขนาดนั้น"
 
 show emicas blush
 with charachange
 
 # "For the second time today, Emi blushes slightly and giggles."
-""
+"หน้าเอมิขึ้นสีแดงเรื่อก่อนเธอจะหัวเราะคิกคักเป็นครั้งที่สองของวัน"
 
 show emicas closedsmile
 with charachange
 
 # emi "I suppose you're right."
-emi ""
+emi "ก็คงจริงอย่างนายว่า"
 
 # hi "Exactly. I'm always right about things like this."
-hi ""
+hi "ใช่ เรื่องแบบนี้ฉันพูดถูกเสมอแหละ"
 
 show emicas weaksmile_up
 with charachange
 
 # "Emi rolls her eyes and chuckles."
-""
+"เอมิกลอกตาแค่นหัวเราะ"
 
 # emi "Guess you're pretty smart, huh?"
-emi ""
+emi "ฉลาดน่าดูเลยนะนาย"
 
 # "I nod in agreement."
-""
+"ฉันพยักหน้าเห็นด้วย"
 
 # hi "Yep."
-hi ""
+hi "อื้ม"
 
 # hi "Even Mutou thinks so. He thinks I should go into some scientific study after graduation."
-hi ""
+hi "ขนาดครูยังคิดงั้นเลย ครูอยากให้ฉันไปเรียนต่อทางวิทยาศาสตร์หลังเรียนจบ"
 
 show emicas neutral
 with charachange
 
 # "Emi raises an eyebrow."
-""
+"เอมิเลิกคิ้ว"
 
 # emi "Oh really?"
-emi ""
+emi "จริงเหรอเนี่ย"
 
 # hi "Yeah, I'm thinking I actually might do just that."
-hi ""
+hi "อื้ม ก็คิดอยู่ว่าอาจจะไปตามอย่างที่ครูว่า"
 
 # "Really, the more I consider the idea, the more it appeals to me."
-""
+"เอาจริง ๆ ยิ่งคิดก็ยิ่งรู้สึกสนใจขึ้นมา"
 
 # "I make a mental note to look into it a little more closely."
-""
+"ฉันจดบันทึกไว้ในหัวว่าจะไปหาข้อมูลให้ละเอียดอีกหน่อย"
 
 # hi "So what are you thinking of doing after graduation?"
-hi ""
+hi "แล้วหลังเรียนจบเธอคิดจะทำอะไรต่อ"
 
 # hi "Still planning on running?"
-hi ""
+hi "จะวิ่งต่อมั้ย"
 
 show emicas awayfrown
 with charachange
 
 # "Emi shrugs, seeming almost a bit hesitant."
-""
+"เอมิยักไหล่ เหมือนจะยังลังเลอยู่"
 
 show emicas frown
 with charachange
 
 # emi "I dunno. If I'm good enough and I can find a team, I guess?"
-emi ""
+emi "ไม่รู้สิ ถ้าเก่งพอแล้วหาทีมวิ่งอยู่ได้ก็คงวิ่งต่อมั้ง"
 
 # hi "You mean you aren't sure?"
-hi ""
+hi "เธอยังไม่แน่ใจเหรอ"
 
 show emicas neutral
 with charachange
 
 # emi "I haven't… really thought about it, to be honest."
-emi ""
+emi "ฉันไม่… ค่อยได้คิดเรื่องนั้นเท่าไหร่ ว่าตามตรง"
 
 # hi "Really?"
-hi ""
+hi "จริงเหรอ"
 
 # hi "You probably should, you know. Graduation isn't that far off."
-hi ""
+hi "เธอคิดไว้ก็ดีนะ อีกเดี๋ยวก็จะเรียนจบแล้ว"
 
 show emicas awayfrown
 with charachange
 
 # "Emi fidgets a little nervously."
-""
+"เอมิบิดตัวไปมาด้วยความประหม่า"
 
 # emi "Yeah, well… it's far enough, right?"
-emi ""
+emi "อื้ม แต่ก็… ยังพอมีเวลานี่"
 
 show emicas neutral
 with charachange
 
 # emi "Besides, I've got other things to think about."
-emi ""
+emi "อีกอย่าง ฉันมีเรื่องอื่นให้คิดด้วย"
 
 show emicas grin_up_close
 with vpunch
 
 # "There's a mischievous flash behind Emi's eyes, and I suddenly find myself gloriously pinned against the tree."
-""
+"รอยยิ้มเอมิเจือความซุกซน และอยู่ ๆ เอมิก็เข้ามาคร่อมตัวฉันไว้โดยหลังฉันแนบกับต้นไม้"
 
 show emicas smile_up_close
 with charachange
 
 # emi "Like making sure this is a real date, right?"
-emi ""
+emi "เช่น ต้องทำให้แน่ใจว่าเรามาเดตกันจริง ๆ ใช่มั้ย"
 
 show emicas closedsmile_up_close
 with charachange
 
 # emi "I mean if we don't kiss then it's not a date at all, right?"
-emi ""
+emi "ถ้าไม่จูบกันก็ไม่ใช่เดตน่ะสิ ใช่มั้ย"
 
-hi "I suppose s— mmmph." with vpunch
+# hi "I suppose s— mmmph." with vpunch
+hi "ก็คงงั้— อื้อออ" with vpunch
 
 # "Strawberries and curry. Not the best combination, but I don't think I mind."
-""
+"รสสตรอว์เบอร์รีกับแกงกะหรี่ ไม่ค่อยเข้ากันเท่าไหร่ แต่ฉันก็ไม่ถือ"
 
 show emicas grin
 with charadistant
 
 # "Emi sits back on my legs and grins again."
-""
+"เอมินั่งทับขาฉันแล้วยิ้มอีกรอบ"
 
 # emi "There. Science would approve, right?"
-emi ""
+emi "นี่ไง เป็นไปตามหลักการวิทยาศาสตร์"
 
 # "I have the oddest mental image of Mutou nodding seriously and making a mark on some checklist."
-""
+"อยู่ ๆ ก็นึกภาพประหลาดเห็นครูมุโต้พยักหน้าอย่างจริงจังแล้วติ๊กถูกกับรายการอะไรสักอย่าง"
 
 # "I can't help laughing at the idea."
-""
+"ฉันอดหัวเราะกับภาพนั้นไม่ได้"
 
 show emicas neutral
 with charachange
 
 # emi "Well I'll admit, this is the first time I've ever witnessed a kiss being met with laughter."
-emi ""
+emi "โห ยอมรับเลยว่าเป็นครั้งแรกที่จูบแล้วเห็นอีกคนหัวเราะเนี่ย"
 
 # emi "Should I feel offended?"
-emi ""
+emi "จะให้โกรธดีไหม"
 
 # hi "Heh, no, no."
-hi ""
+hi "ฮะ ๆ ไม่ ๆ"
 
 # hi "I'm sure science approves."
-hi ""
+hi "เป็นไปตามหลักการวิทยาศาสตร์แหละ"
 
 show emicas happy_up
 with charachange
 
 # "Emi beams at me, and I find it increasingly difficult to keep my brain functioning properly."
-""
+"เอมิส่งยิ้มให้จนฉันสมองฉันเริ่มทำงานเพี้ยนไปเรื่อย ๆ คุมไม่อยู่แล้ว"
 
 # emi "Oh good!"
-emi ""
+emi "ดีเลย!"
 
 # "It is at this point I notice that Emi has stolen the remainder of my curry bread while I was otherwise occupied with images of teachers wielding clipboards."
-""
+"และเป็นตอนนี้เองที่ฉันเห็นว่าเอมิขโมยขนมปังแกงกะหรี่ของฉันที่เหลืออยู่ไปตอนที่ฉันมัวแต่นึกภาพครูถือ\nแผ่นกระดาน"
 
 # hi "Hey!"
-hi ""
+hi "นี่!"
 
 show emicas blush
 with charachange
 
 # "Emi tries to look innocent, but considering she's just crammed the last bits of my bread into her mouth it does not appear to be working."
-""
+"เอมิทำตาใสซื่อ แต่ก็ปิดความผิดไม่มิดเพราะเธอเพิ่งจะยัดขนมปังคำสุดท้ายของฉันใส่ปากไป"
 
 # emi "Mmph? F'orry, couln't refisft."
-emi ""
+emi "อื๋อ? ออโอ้ดอี อดไอไอ้ไอ๋"
 
 # hi "Thief!"
-hi ""
+hi "ขโมย!"
 
 show emicas neutral
 with charachange
 
 # "A shrug from my companion is all I get in response."
-""
+"อีกฝ่ายเพียงยักไหล่ตอบ"
 
 # hi "You used your feminine wiles on me!"
-hi ""
+hi "เธอเล่นมารยาหญิงใส่ฉัน!"
 
 # "I wasn't that hungry anyway, but I still feel that the point needs to be made."
-""
+"ก็ไม่ได้หิวขนาดนั้นหรอก แต่รู้สึกว่าต้องทักสักหน่อย"
 
 show emicas pout
 with charachange
 
 # "Emi seems confused by the phrase “feminine wiles,” but the understanding dawns on her features after a moment's thought."
-""
+"เอมิดูจะไม่เข้าใจคำว่า “มารยาหญิง” แต่คิดอยู่สักพักเธอก็ทำหน้าร้องอ๋อ"
 
 show emicas angry_up
 with charachange
 
 # emi "Wasn't anything of the sort!"
-emi ""
+emi "ไม่ใช่สักหน่อย!"
 
 show emicas frown_up
 with charachange
 
 # emi "You were laughing! Feminine wiles don't involve laughing!"
-emi ""
+emi "ก็นายหัวเราะ! มารยาหญิงไม่ได้ใช้การหัวเราะสักหน่อย!"
 
 # "I guess I can't argue with this."
-""
+"ก็เถียงไม่ได้แหละนะ"
 
 # hi "That doesn't change your thievery."
-hi ""
+hi "แต่ที่เธอทำก็เป็นการลักทรัพย์อยู่ดี"
 
 show emicas happy
 with charachange
 
 # "Emi laughs at my injured tone and gives me a playful shove."
-""
+"เอมิหัวเราะกับน้ำเสียงเจ็บปวดของฉันแล้วผลักตัวหยอก ๆ"
 
 show emicas closedsmile
 with charachange
 
 # emi "Fine, you can have the instant noodles."
-emi ""
+emi "ก็ได้ งั้นนายเอาบะหมี่กึ่งฯ ไปกินนะ"
 
 # hi "Are you kidding? That stuff's terrible!"
-hi ""
+hi "ล้อเล่นหรือเปล่า อร่อยก็ไม่อร่อย!"
 
 # hi "If anything, you should definitely eat it as punishment!"
-hi ""
+hi "เธอด้วยซ้ำที่ต้องกินโทษฐานขโมยของน่ะ!"
 
 show emicas wink
 with charachange
 
 # "Another laugh from the girl sitting on my legs."
-""
+"เด็กสาวที่นั่งทับขาฉันอยู่หัวเราะอีกรอบ"
 
 # "…Both of which have fallen asleep by now."
-""
+"…ซึ่งขาฉันทั้งสองข้างเหน็บกินไปแล้ว"
 
 show expression im.Composite((295,1200), (0,0), "sprites/emicas/emicas_wink.png") as emicas:
    xalign 0.5 yanchor 0.5 ypos 1.13 subpixel True
@@ -1115,22 +1115,22 @@ hide emicas
 with vpunch
 
 # "I twitch one leg to try waking it up, which has the unintended effect of unbalancing Emi, who falls to the side with a startled “Eep!”"
-""
+"ฉันเขยื้อนขาหมายจะให้หายชา แต่ก็เผลอไปทำเอมิเสียการทรงตัวจนเธอตัวเอนไปแล้วร้อง “ว้าย!” ขึ้นมา"
 
 # hi "Whoops! Sorry about that."
-hi ""
+hi "โอ๊ะ! ขอโทษทีนะ"
 
 # hi "Legs fell asleep on me."
-hi ""
+hi "พอดีขาเป็นเหน็บน่ะ"
 
 # "Emi remains on the ground, giggling."
-""
+"เอมิยังนอนอยู่กับพืื้นหัวเราะคิกคัก"
 
 # "I stand up a little shakily, feeling the nerves in my legs return to normal."
-""
+"ฉันลุกขึ้นยืนตัวสั่นเล็กน้อย เลือดที่ขาเริ่มกลับมาเดินตามปกติแล้ว"
 
 # "My eyes wander over the scenery before fixing on the figure of Emi, who has yet to get up."
-""
+"ฉันกวาดตามองทิวทัศน์โดยรอบก่อนจะมาหยุดมองอยู่ที่เอมิที่ยังไม่ลุก"
 
 scene ev emi_parkback:
     xalign 0.5 yalign 0.5 zoom 1.1 subpixel True
@@ -1138,43 +1138,43 @@ scene ev emi_parkback:
 with locationchange
 
 # "Her hair is splayed out around her head, her arms are spread, and laughter is bubbling up through her mouth."
-""
+"ผมเอมิแผ่สยายไปรอบ ๆ เธอกางแขนออกแล้วหัวเราะออกมา"
 
 # "Everything about Emi seems condensed into this one image."
-""
+"ทุกอย่างที่เป็นตัวเอมิคล้ายจะถูกจับมารวมไว้ในภาพนี้ภาพเดียวแล้ว"
 
 # "Her energy, her spirit, her childish giggling."
-""
+"ทั้งบรรยากาศของเธอ นิสัยของเธอ เสียงหัวเราะอย่างเด็ก ๆ ของเธอ"
 
 # "The urge to lay down on the grass with her rises swiftly from the back of my mind to the forefront of my thoughts, and indeed I am convinced that I would love nothing more than to do just that."
-""
+"ความอยากนอนกับพื้นหญ้าไปกับเอมิก่อตัวอย่างรวดเร็วก่อนจะผุดลอยขึ้นเด่นในความคิด และฉันก็อยาก\nทำอย่างนั้นขึ้นมาเลยจริง ๆ"
 
 # "Unfortunately the sun has set, and it is probably time for us to get back to the dormitories."
-""
+"โชคไม่ดีที่ตะวันตกดินแล้ว และคงถึงเวลาแล้วที่เราจะต้องกลับหอ"
 
 # "While Emi may be happy to stay out here all night, I don't think I have that ability."
-""
+"เอมิอาจจะยินดีอยู่ข้างนอกนี้ทั้งคืน แต่ฉันไม่น่าจะอยู่ได้"
 
 # "Besides, homework soon beckons."
-""
+"อีกอย่าง ยังมีการบ้านที่รออยู่ด้วย"
 
 # "It wouldn't make sense to start thinking about things like university and then slack off, would it?"
-""
+"มาคิดเรื่องเรียนต่อมหาวิทยาลัยแล้วอู้ก็คงใช่ที่"
 
 # "I extend a hand to Emi to help her up."
-""
+"ฉันยื่นมือให้เอมิรั้งตัวเองขึ้นมา"
 
 # hi "We should probably get going."
-hi ""
+hi "ไปกันได้แล้วนะ"
 
 show ev emi_parkback_frown
 with charachange
 
 # "Emi makes a sour face."
-""
+"เอมิทำหน้ายู่"
 
 # emi "You're right."
-emi ""
+emi "ถูกของนาย"
 
 scene bg suburb_park
 with locationchange
@@ -1186,46 +1186,46 @@ show emicas weaksmile_close:
 with charaenter
 
 # "She grabs my proffered hand, and I pull her to her feet and into a hug."
-""
+"เอมิจับมือฉันที่ยื่นออกไป ฉันดึงให้เอมิลุกขึ้นยืนแล้วกอดเธอไว้"
 
 # "This time I'm the one who kisses her, unable to resist having Emi against me."
-""
+"คราวนี้เป็นฉันที่จูบเธอบ้างด้วยอดใจไม่ไหวที่เอมิอยู่ใกล้"
 
 # hi "Seems a shame to leave, you know."
-hi ""
+hi "ไม่อยากไปเลยเนอะ"
 
 show emicas closedsmile_close
 with charachange
 
 # emi "Yeah, it does."
-emi ""
+emi "อื้ม นั่นสิ"
 
 show emicas grin_up_close
 with charachange
 
 # emi "But if we don't get back to the school soon, we'll probably get into trouble."
-emi ""
+emi "แต่ถ้าไม่รีบกลับโรงเรียนเดี๋ยวเป็นเรื่องใหญ่แน่"
 
 # "Emi pokes me in the ribs playfully."
-""
+"เอมิจิ้มสีข้างฉันหยอก ๆ"
 
 show emicas wink_up_close
 with charachange
 
 # emi "And you need to do your homework, I'm sure."
-emi ""
+emi "แล้วฉันรู้ว่านายก็ต้องทำการบ้านด้วย"
 
 # hi "Sadly, you're absolutely right."
-hi ""
+hi "น่าเสียดาย แต่ถูกของเธอ"
 
 hide emicas
 with charaexit
 
 # "I throw my arm around her shoulders, and we make the trek back to the school, accompanied by occasional bouts of laughter as our conversation jumps from subject to subject."
-""
+"ฉันโอบไหล่เอมิไว้ เราออกเดินทางกลับโรงเรียนกัน โดยมีเสียงหัวเราะของเราคอยประกบไประหว่างที่\nเปลี่ยนเรื่องคุยกันไปเรื่อย ๆ"
 
 # "Everything from running, to school, to the peculiar way that one of the cafeteria workers smells."
-""
+"ตั้งแต่เรื่องวิ่ง เรื่องโรงเรียน ยันเรื่องกลิ่นหนึ่งที่จะได้กลิ่นจากแม่ครัวในโรงอาหาร"
 
 stop ambient fadeout 2.0
 
@@ -1233,40 +1233,40 @@ scene bg school_dormext_full
 with locationskip
 
 # "All too soon we find ourselves outside of the girls' dormitory building."
-""
+"ไม่นานเราก็มาถึงหน้าหอหญิง"
 
 show emicas closedsmile at center
 with charaenter
 
 # emi "Well, I guess I'll be going, then."
-emi ""
+emi "โอเค งั้นไปก่อนนะ"
 
 # hi "I guess so, huh?"
-hi ""
+hi "ก็คงงั้นแหละ"
 
 show emicas grin_up
 with charachange
 
 # "Emi grins at me again with that mischievous look."
-""
+"เอมิยิ้มให้ฉันอีกรอบพลางทำหน้าซุกซน"
 
 # emi "Are you going to be able to survive without me?"
-emi ""
+emi "ไม่มีฉันแล้วนายอยู่ได้ใช่มั้ย"
 
 # "I laugh."
-""
+"ฉันหัวเราะ"
 
 # hi "I'm sure I'll manage."
-hi ""
+hi "อยู่ได้แหละน่า"
 
 show emicas pout_up
 with charachange
 
 # emi "How terrible! Aren't you supposed to say something like “I'll be counting the seconds you are away?”"
-emi ""
+emi "ใจร้าย! นายต้องพูดอะไรแบบว่า “ฉันจะนั่งนับทุกวินาทีที่เธอไม่อยู่เลย” สิ"
 
 # hi "Nah, I don't think so."
-hi ""
+hi "ไม่อะ ไม่น่าหรอก"
 
 show emicas closedsmile_close
 with characlose
@@ -1275,55 +1275,55 @@ show emicas weaksmile
 with charadistant
 
 # "Emi pulls me down into a quick goodbye kiss and steps back, looking unexpectedly shy."
-""
+"เอมิรั้งตัวฉันเข้าไปจุ๊บส่งลาแล้วผละตัวออกไป เธอทำท่าทีอายผิดคาด"
 
 # emi "Thanks for dinner."
-emi ""
+emi "ขอบคุณสำหรับเย็นนี้นะ"
 
 # emi "I really had fun."
-emi ""
+emi "สนุกมากเลย"
 
 show emicas closedsmile
 with charadistant
 
 # emi "Honestly, I did."
-emi ""
+emi "สนุกจริง ๆ"
 
 # hi "So did I."
-hi ""
+hi "ฉันก็เหมือนกัน"
 
 # hi "I think we shall have to do it again, sometime."
-hi ""
+hi "ไว้หาเวลาไปด้วยกันอีกนะ"
 
 show emicas happy
 with charadistant
 
 # "Emi laughs at my deadpan delivery and nods."
-""
+"เอมิหัวเราะที่ฉันพูดทำหน้าตายแล้วพยักหน้า"
 
 # emi "See you bright and early tomorrow morning, right?"
-emi ""
+emi "เจอกันพรุ่งนี้เช้าตรู่นะ"
 
 show emicas wink
 with charadistant
 
 # emi "You've gotta run off that bread, after all."
-emi ""
+emi "นายต้องไปวิ่งเอาขนมปังออกด้วย"
 
 # hi "Of course. Despite the fact that you ate most of it."
-hi ""
+hi "แหงสิ ถึงเธอจะกินไปเกินครึ่งก็เถอะ"
 
 show emicas smile_up
 with charadistant
 
 # emi "Yes, despite that."
-emi ""
+emi "ใช่ ถึงจะกินไปเกินครึ่ง"
 
 show emicas grin_up
 with charadistant
 
 # emi "See you later, Hisao!"
-emi ""
+emi "ไว้เจอกันนะฮิซาโอะ!"
 
 stop music fadeout 3.0
 
@@ -1335,18 +1335,18 @@ hide emicas
 with None
 
 # "As Emi turns to head inside, I notice something weird."
-""
+"เอมิหันหลังแล้วเดินออกไป แล้วฉันก็เห็นอะไรแปลก ๆ"
 
 # "Something so weird that I'm surprised I didn't notice it earlier."
-""
+"แปลกมากจนนึกแปลกใจว่าทำไมก่อนหน้านี้ถึงไม่เห็น"
 
 # "She's limping slightly, favoring the left leg."
-""
+"เอมิเดินขากะเผลกเล็กน้อย โดยลงน้ำหนักไปทางขาข้างซ้าย"
 
 play music music_pearly fadein 8.0
 
 # hi "Hey, Emi!"
-hi ""
+hi "นี่ เอมิ!"
 
 show emicas invis at tworight
 with None
@@ -1356,25 +1356,25 @@ show emicas neutral at center
 with dissolvecharamove
 
 # emi "Hmm?"
-emi ""
+emi "หืม"
 
 # hi "Is your leg okay?"
-hi ""
+hi "ขาเธอเป็นอะไรหรือเปล่า"
 
 show emicas awayfrown
 with charachange
 
 # "Emi looks confused, or at least fakes confusion."
-""
+"เอมิทำหน้างง หรือไม่ก็อาจจะทำเป็นงงเฉย ๆ"
 
 show emicas frown
 with charachange
 
 # emi "What are you talking about?"
-emi ""
+emi "พูดอะไรของนาย"
 
 # hi "Your right leg. You're limping."
-hi ""
+hi "ขาขวาเธอน่ะ เห็นเดินกะเผลกอยู่"
 
 show emicas blush
 with charachange
@@ -1383,61 +1383,61 @@ show emicas frown
 with charachange
 
 # "There's the briefest flash of concern on Emi's face."
-""
+"เอมิทำหน้ากังวลขึ้นมาแวบหนึ่ง แวบเดียวจริง ๆ"
 
 # "Either she didn't want me to know, or she didn't think I'd notice - or, I prefer to think, she just didn't realize it."
-""
+"ไม่รู้ว่าไม่อยากให้ฉันรู้หรือคิดว่าฉันจะไม่เห็น หรืออาจจะไม่รู้ตัวจริง ๆ ซึ่งฉันอยากให้เป็นอย่างหลังสุดมากกว่า"
 
 show emicas neutral_up
 with charachange
 
 # emi "Oh, that."
-emi ""
+emi "อ้อ ขาเหรอ"
 
 # "She shrugs casually."
-""
+"เอมิยักไหล่สบาย ๆ"
 
 show emicas awayfrown
 with charachange
 
 # emi "Must've gotten knocked a little out of alignment during the picnic."
-emi ""
+emi "สงสัยจะเคลื่อนนิดหน่อยตอนไปปิกนิกมั้ง"
 
 show emicas wink
 with charachange
 
 # emi "No idea what would have caused that, of course."
-emi ""
+emi "แต่ไม่รู้หรอกนะว่าเป็นเพราะอะไร"
 
 # "I think back to being pinned under the tree."
-""
+"ฉันย้อนนึกไปถึงตอนที่เอมิคร่อมตัวฉัน"
 
 # hi "Ah."
-hi ""
+hi "อ้อ"
 
 # hi "You should have told me! We could have stopped and fixed it, you know."
-hi ""
+hi "ทำไมไม่บอกฉันล่ะ! จะได้รอเธอจัดให้มันเข้าที่ก่อน"
 
 # "Emi waves a hand airily."
-""
+"เอมิโบกไม้โบกมือเหมือนไม่มีอะไร"
 
 show emicas smile_up
 with charachange
 
 # emi "Nah, it's not that big of a deal."
-emi ""
+emi "ไม่อะ ไม่ใช่เรื่องใหญ่ขนาดนั้น"
 
 show emicas weaksmile_up
 with charachange
 
 # emi "Don't worry about it, okay Hisao?"
-emi ""
+emi "อย่าไปคิดมากเลยน่า นะ ฮิซาโอะ"
 
 show emicas closedsmile_up
 with charachange
 
 # emi "It's fine."
-emi ""
+emi "ไม่เป็นไรหรอก"
 
 #Choice Tiem
 #1. Press
@@ -1447,12 +1447,15 @@ label th_choiceE17:
 menu:
     with menueffect
 
-    "Why do I get the feeling that she's convincing herself as well as me?"
+    # "Why do I get the feeling that she's convincing herself as well as me?"
+    "ทำไมถึงรู้สึกเหมือนเอมิจะบอกกับตัวเองไปด้วยเลยนะ"
 
-    "Press Emi.":
+    # "Press Emi.":
+    "ตื๊อเอมิ":
         return m1
 
-    "Let it rest.":
+    # "Let it rest.":
+    "ปล่อยไป":
         return m2
 
 
@@ -1460,56 +1463,56 @@ label th_E17a:
 #If you press:
 
 # hi "Are you absolutely sure?"
-hi ""
+hi "แน่ใจแล้วจริง ๆ ใช่มั้ย"
 
 # hi "You don't want to go ahead and adjust it before heading up the stairs?"
-hi ""
+hi "ไม่ใช่ว่าก่อนขึ้นบันไดก็ไปจัดอีกทีนะ"
 
 # hi "You could get hurt if you don't, right?"
-hi ""
+hi "ถ้าไม่จัดเดี๋ยวก็เจ็บตัวเอาหรอก"
 
 show emicas awayfrown_up
 with charachange
 
 # emi "I said it was fine, Hisao."
-emi ""
+emi "ก็บอกแล้วไงว่าไม่เป็นไรน่ะฮิซาโอะ"
 
 show emicas frown
 with charachange
 
 # emi "Seriously, don't worry about it."
-emi ""
+emi "จริง ๆ นะ ไม่ต้องเป็นห่วงหรอก"
 
 show emicas weaksmile
 with charachange
 
 # emi "I've got some experience in these matters, after all."
-emi ""
+emi "ฉันก็พอมีประสบการณ์กับเรื่องพวกนี้อยู่บ้าง"
 
 # hi "Yeah, I suppose so."
-hi ""
+hi "อืม ก็คงงั้น"
 
 # "Emi grins reassuringly."
-""
+"เอมิยิ้มคลายกังวลฉัน"
 
 show emicas grin
 with charachange
 
 # emi "Honestly, Hisao, I appreciate the concern but I really am okay."
-emi ""
+emi "ฉันดีใจนะที่นายเป็นห่วงฮิซาโอะ แต่ฉันไม่เป็นไรจริง ๆ"
 
 
 label th_E17b:
 #If you rest
 
 # "Well, she's probably fine."
-""
+"ก็คงจะไม่เป็นไรแหละนะ"
 
 # "I imagine she'd say something if it was really a problem."
-""
+"ถ้ามีปัญหาจริง ๆ ก็คงบอกไปแล้ว"
 
 # "Heck, she'd probably get annoyed if I kept bringing it up."
-""
+"เผลอ ๆ ขืนจี้ถามเรื่อย ๆ แล้วจะรำคาญไปอีก"
 
 
 label th_E17x:
@@ -1518,31 +1521,31 @@ show emicas smile
 with charachange
 
 # emi "Now really, I need to get going."
-emi ""
+emi "โอเค ฉันต้องไปแล้วละ"
 
 show emicas wink_up
 with charachange
 
 # emi "Your attempts to keep me around are doomed to fail!"
-emi ""
+emi "ยังไงนายก็รั้งฉันไว้ไม่นานหรอก!"
 
 # hi "Heh, of course."
-hi ""
+hi "ฮะ ๆ แหงอยู่แล้ว"
 
 # hi "Just prolonging the goodbye, I suppose."
-hi ""
+hi "แค่อยากยื้อเวลาก่อนบอกลาละมั้ง"
 
 # "Another grin lights up Emi's face."
-""
+"เอมิหยัดยิ้มอีกรอบ"
 
 show emicas happy_up
 with charachange
 
 # emi "Goodnight, Hisao."
-emi ""
+emi "ราตรีสวัสดิ์นะฮิซาโอะ"
 
 # hi "Goodnight."
-hi ""
+hi "ราตรีสวัสดิ์"
 
 hide emicas
 with charaexit
@@ -1550,16 +1553,16 @@ with charaexit
 stop music fadeout 5.0
 
 # "As she limps inside, I find myself hoping she's okay despite her assurances that she's fine."
-""
+"เอมิเดินขากะเผลกเข้าไปในตึก หวังว่าจะไม่เป็นอะไรจริง ๆ อย่างที่บอกให้ฉันสบายใจนะ"
 
 # "I think I can call this a successful first date."
-""
+"คงนับได้ว่าเป็นเดตครั้งแรกที่ประสบความสำเร็จ"
 
 # "Hell, any day that ends with Emi pinning me under a tree to kiss me can't be bad, can it?"
-""
+"ไม่สิ ถ้าได้ปิดท้ายด้วยการที่เอมิล็อกตัวจูบฉันใต้ต้นไม้แล้วจะวันไหนก็คงเป็นวันที่ดีทั้งนั้น"
 
 # "I head back to my room, mentally thank the gods that Kenji doesn't ambush me in the hallway, and get started on my homework."
-""
+"ฉันกลับเข้าห้องไปพลางขอบคุณพระเจ้าในใจที่เคนจิไม่มาซุ่มดักรอฉันที่โถงทางเดิน จากนั้นฉันจึงทำการบ้าน"
 
 scene black
 with dissolve
