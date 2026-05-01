@@ -2501,10 +2501,10 @@ with shorttimeskip
 play sound sfx_normalbell
 
 # "The lunch bell sounds, and I bring myself out of the stupor I slipped into during the morning's classes."
-""
+"ระฆังพักเที่ยงดังดึงตัวฉันออกจากภวังค์ที่ฉันหนีไปอยู่ตอนเรียนคาบเช้า"
 
 # "My lack of sleep last night, coupled with the increased pace of this morning's run, has left me a little exhausted."
-""
+"เมื่อคืนนอนไม่พอ แล้วเช้านี้ยังวิ่งเร็วกว่าทุกทีอีก ตอนนี้ถึงได้เพลียนิดหน่อย"
 
 $ renpy.music.set_volume(0.15, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 1.0
@@ -2513,10 +2513,10 @@ scene bg school_staircase1
 with locationskip
 
 # "Despite that, I find myself skipping stairs up to the roof."
-""
+"แต่ถึงอย่างนั้นฉันก็รีบเดินขึ้นบันไดมาที่ดาดฟ้า"
 
 # "There's a thrill of excitement now, in addition to the pleasure one gets from eating lunch with one's friends."
-""
+"ตอนนี้มีความตื่นเต้นขึ้นมาแล้ว ไม่ได้มีแค่ความสบายใจที่ได้กินข้าวกับเพื่อน"
 
 play sound sfx_door_creak
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
@@ -2525,190 +2525,190 @@ scene bg school_roof
 with locationchange
 
 # "True, both Emi and Rin are still my friends, but Emi has become more than that now."
-""
+"จริงอยู่ว่าทั้งเอมิกับรินก็ยังเป็นเพื่อนฉัน แต่ตอนนี้เอมิเป็นมากกว่านั้นแล้ว"
 
 # "Rin is back in her usual spot on the roof, almost as if she'd never been absent."
-""
+"รินกลับมาอยู่ที่ตำแหน่งประจำบนดาดฟ้าราวกับว่าครั้งก่อนยังมาตามปกติ"
 
 scene ev rin_roof_boredom
 show hisao rin_roof
 with locationchange
 
 # hi "Feeling better, I take it?"
-hi ""
+hi "ดีขึ้นแล้วสินะ"
 
 show ev rin_roof_surprised
 with charachange
 
 # "A raised eyebrow is my reward for speaking."
-""
+"รางวัลตอบแทนของการที่ฉันพูดคือคิ้วที่เลิกขึ้นของริน"
 
 # rin "Better than what?"
-rin ""
+rin "อะไรดีขึ้น"
 
 play music music_rin fadein 6.0
 
 # hi "Er, better than you felt yesterday."
-hi ""
+hi "เอ่อ หมายถึงว่าอาการเธอดีขึ้นกว่าเมื่อวานหรือยัง"
 
 show ev rin_roof_nonchalant
 with charachange
 
 # "Rin gives my question some serious thought."
-""
+"รินขบคิดคำถามนั้นอย่างจริงจัง"
 
 # rin "I'm not sure."
-rin ""
+rin "ไม่แน่ใจ"
 
 # rin "I think I might have felt rather good for some of yesterday, but it's all fuzzy."
-rin ""
+rin "ฉันว่าเมื่อวานก็เหมือนจะรู้สึกดีอยู่นะ แต่ก็มึน ๆ ไปหมด"
 
 # hi "Too much cold medicine?"
-hi ""
+hi "กินยาเยอะไปสิท่า"
 
 show ev rin_roof_doubt
 with charachange
 
 # rin "Well, I was asleep. And that usually is pretty good."
-rin ""
+rin "ก็ ฉันหลับ ปกติหลับแล้วก็สบายดี"
 
 show ev rin_roof_boredom
 with charachange
 
 # rin "But I can't remember what it feels like to be asleep, because I'm not conscious for it."
-rin ""
+rin "แต่ฉันจำไม่ได้ว่าตอนหลับรู้สึกยังไง เพราะฉันไม่ได้มีสติรู้ตัว"
 
 # rin "It's a real problem."
-rin ""
+rin "เป็นปัญหาใหญ่เลยละ"
 
 show ev rin_roof_nonchalant
 with charachange
 
 # rin "Then again, if I knew how good it felt I might not sleep any more."
-rin ""
+rin "แต่ก็นะ ถ้าฉันรู้ว่ารู้สึกดีแค่ไหนฉันก็คงไม่หลับอีกเลย"
 
 # rin "But this way I keep trying so I guess that's how I can keep from being overtired."
-rin ""
+rin "แต่พอเป็นแบบนี้แล้วฉันก็จะได้แต่เดา แล้วจะได้ไม่ต้องเพลียเกินไป"
 
 # hi "An eternal mystery to keep you sleeping at night?"
-hi ""
+hi "เป็นสิ่งลึกลับที่ไม่มีวันรู้ได้ที่เอาไว้คิดก่อนนอนงี้?"
 
 show ev rin_roof_boredom
 with charachange
 
 # rin "Maybe mystery's the wrong word. Intangibility might be the proper way to describe it."
-rin ""
+rin "คำว่าลึกลับอาจจะยังไม่ใช่ ถ้าจะเลือกคำให้เหมาะน่าจะเป็นคำว่าจับต้องไม่ได้มากกว่า"
 
 # hi "I see."
-hi ""
+hi "เข้าใจละ"
 
 # "No, I don't see at all. I have no idea what she's talking about, but that's okay, since I rarely do."
-""
+"ไม่ ไม่เข้าใจเลย ไม่เข้าใจเลยว่ารินพูดอะไรอยู่ แต่ไม่เป็นไรหรอก ปกติก็แทบไม่เข้าใจอยู่แล้ว"
 
 show ev rin_roof_doubt
 with charachange
 
 # rin "Do you remember what sleeping feels like?"
-rin ""
+rin "นายจำได้มั้ยว่าความรู้สึกตอนหลับมันเป็นยังไง"
 
 # rin "Like yesterday, do you remember what you felt like sleeping yesterday?"
-rin ""
+rin "อย่างเมื่อวาน นายจำได้มั้ยว่าความรู้สึกตอนหลับเมื่อวานมันเป็นยังไง"
 
 # hi "Well, I actually didn't get a lot of sleep yesterday."
-hi ""
+hi "คือ เมื่อวานฉันนอนไม่ค่อยหลับน่ะ"
 
 show ev rin_roof_nonchalant
 with charachange
 
 # rin "Hmm."
-rin ""
+rin "อืมม"
 
 # rin "Maybe that's because you remember subconsciously."
-rin ""
+rin "อาจจะเพราะจิตใต้สำนึกนายจำได้ก็ได้"
 
 # hi "Actually, I think I was worrying about Emi."
-hi ""
+hi "จริง ๆ ฉันว่าเป็นเพราะฉันเป็นห่วงเอมิมากกว่า"
 
 show ev rin_roof_surprised
 with charachange
 
 # rin "Doesn't Emi worry enough about herself?"
-rin ""
+rin "แค่เอมิเป็นห่วงตัวเองยังไม่พออีกเหรอ"
 
 # "I hadn't considered that, but it gives me pause."
-""
+"ฉันต้องชะงักเพราะไม่เคยคิดแบบนั้นมาก่อนเลย"
 
 # hi "True, but would she ask for help if she needed it?"
-hi ""
+hi "ก็จริง แต่ต่อให้เอมิต้องการความช่วยเหลือแล้วเอมิจะออกปากหรือเปล่า"
 
 show ev rin_roof_doubt
 with charachange
 
 # "Rin frowns, and I raise an eyebrow. Will I get a proper answer?"
-""
+"รินขมวดคิ้ว ฉันเลิกคิ้ว นี่จะได้คำตอบดี ๆ ไหมเนี่ย"
 
 # rin "Probably not. Is there something she should be asking for help with?"
-rin ""
+rin "คงจะไม่ เอมิมีเรื่องอะไรที่ต้องขอความช่วยเหลือด้วยเหรอ"
 
 # hi "Her leg, for starters."
-hi ""
+hi "เช่นว่า ขาเอมิไง"
 
 # "This seems to catch Rin's interest."
-""
+"เหมือนรินจะสนใจคำตอบนั้น"
 
 show ev rin_roof_disgust
 with charachange
 
 # rin "Leg?"
-rin ""
+rin "ขา?"
 
 # hi "It's hurt, but she won't see the nurse about it."
-hi ""
+hi "เอมิเจ็บขาแต่ไม่ยอมไปหาคุณพยาบาล"
 
 # "Rin shakes her head in disapproval."
-""
+"รินสั่นหัวด้วยความรับไม่ได้"
 
 show ev rin_roof_doubt
 with charachange
 
 # rin "You have to make her."
-rin ""
+rin "นายต้องไปลากเอมิ"
 
 show ev rin_roof_nonchalant
 with charachange
 
 # rin "Like she makes me go to class. For her own good."
-rin ""
+rin "เหมือนที่เอมิลากฉันให้ไปเรียน เพื่อตัวของเอมิเอง"
 
 # rin "Otherwise she could lose her legs again, and that's just too weird."
-rin ""
+rin "ไม่อย่างนั้นเอมิอาจจะเสียขาอีกรอบ ซึ่งก็จะแปลกเกินไป"
 
 # rin "Losing things twice."
-rin ""
+rin "การเสียอะไรบางอย่างสองครั้ง"
 
 show ev rin_roof_doubt
 with charachange
 
 # rin "Especially if you don't find them again to begin with."
-rin ""
+rin "แล้วยิ่งเป็นของที่เอากลับคืนมาไม่ได้ด้วย"
 
 # rin "Unless prosthetics are the same as finding something."
-rin ""
+rin "เว้นเสียแต่ว่าขาเทียมจะนับเป็นการเอากลับคืนมา"
 
 show ev rin_roof_nonchalant
 with charachange
 
 # rin "But that's a different kind of lost, isn't it?"
-rin ""
+rin "แต่ก็จะเป็นการสูญเสียคนละแบบอีกใช่มั้ย"
 
 # hi "I think so."
-hi ""
+hi "คิดว่านะ"
 
 show ev rin_roof_boredom
 with charachange
 
 # rin "Hmm. I wonder…"
-rin ""
+rin "อืมม อยากรู้ว่า…"
 
 stop music fadeout 0.5
 
@@ -2716,14 +2716,14 @@ show emi rin_roof
 with charaenter
 
 # emi "Wonder what?"
-emi ""
+emi "อยากรู้อะไร"
 
 scene bg school_roof
 show emi basic_grin at center
 with locationchange
 
 # "Emi seems to have snuck up on Rin and me, though Rin doesn't seem especially surprised. Which is itself unsurprising, I suppose."
-""
+"เหมือนว่าเอมิจะแอบย่องเข้ามาหารินกับฉัน แต่รินดูจะไม่แปลกใจอะไร ซึ่งก็คงไม่ได้น่าแปลกใจละมั้ง"
 
 show bg school_roof at bgleft
 show emi basic_grin at twoleft
@@ -2736,423 +2736,423 @@ show rin basic_deadpannormal:
 with charaenter
 
 # "Rin manages to sit herself upright quite expertly, throwing her upper body forward and using her momentum to right herself."
-""
+"รินลุกกลับขึ้นมานั่งหลังตรงได้อย่างคล่องแคล่วโดยเหวี่ยงตัวเองขึ้นแล้วใช้แรงที่ส่งมาจัดท่าตัวเอง"
 
 show rin basic_absent:
     ypos 1.2
 with charachange
 
 # hi "Your leg. How's it feel?"
-hi ""
+hi "ขาเธอ เป็นยังไงบ้าง"
 
 show emi sad_annoyed
 show rin basic_awayabsent
 with charachange
 
 # "That earns me a frown and a bit of a glare."
-""
+"ฉันได้รับการขมวดคิ้วกับการจ้องหน้าเป็นคำตอบ"
 
 # emi "It's okay, I think."
-emi ""
+emi "ก็โอเคแหละ คิดว่านะ"
 
 show emi sad_shy
 with charachange
 
 # emi "Not worth worrying about."
-emi ""
+emi "ไม่มีอะไรน่าห่วงหรอก"
 
 show rin basic_absent
 with charachange
 
 # hi "Tell that to the nurse."
-hi ""
+hi "เอาไปบอกคุณพยาบาลนะ"
 
 # hi "He's quite insistent that you visit him, you know."
-hi ""
+hi "คุณพยาบาลอยากให้เธอไปหามากนะรู้มั้ย"
 
 show emi sad_pout
 show rin basic_awayabsent
 with charachange
 
 # "Emi pouts like I've just told her she's been grounded."
-""
+"เอมิทำแก้มป่องเหมือนฉันเพิ่งบอกว่าจะกักบริเวณเธอ"
 
 # emi "He worries too much."
-emi ""
+emi "คุณพยาบาลน่ะขี้กังวลเกินไป"
 
 show emi basic_grin
 with charachange
 
 # emi "It's not a big deal, just a little soreness."
-emi ""
+emi "ก็ไม่ใช่เรื่องใหญ่สักหน่อย แค่ปวดนิด ๆ หน่อย ๆ เอง"
 
 # "I try to resist rolling my eyes in exasperation."
-""
+"ฉันกลั้นใจไม่ให้กลอกตาไปด้วยความอิดหนาระอาใจ"
 
 show rin basic_absent
 with charachange
 
 # hi "If it's nothing, then you should have no problem seeing him, right?"
-hi ""
+hi "ถ้าไม่เป็นอะไรก็น่าจะไปหาได้นี่ จริงมั้ย"
 
 show emi basic_annoyed
 show rin basic_awayabsent
 with charachange
 
 # "Emi narrows her eyes suspiciously."
-""
+"เอมิหรี่ตามองอย่างสงสัย"
 
 # emi "Did he put you up to this?"
-emi ""
+emi "นี่คุณพยาบาลใช้ให้นายมาจี้ฉันหรือเปล่า"
 
 show rin basic_absent
 with charachange
 
 # hi "Well, maybe. A little."
-hi ""
+hi "ก็ มั้ง นิดหน่อย"
 
 # hi "But that's not the point. I would have reminded you to see him anyway."
-hi ""
+hi "แต่ประเด็นไม่ใช่ตรงนั้น เพราะยังไงฉันก็คงมาบอกให้เธอไปหาคุณพยาบาลอยู่ดี"
 
 # hi "It would be terrible to see you really hurt and not doing anything about it."
-hi ""
+hi "จะให้ฉันอยู่เฉยปล่อยให้เธอเจ็บหนักอย่างนี้ได้ไงล่ะ"
 
 # hi "That would make it worse, and I don't really want to see you hurt, you know?"
-hi ""
+hi "ขืนปล่อยไว้อาการก็จะยิ่งแย่ไปอีก แถมฉันไม่อยากเห็นเธอบาดเจ็บด้วย"
 
 # hi "Call me crazy, but I kinda would prefer to see you happy and healthy."
-hi ""
+hi "จะหาว่าฉันบ้าก็ได้ที่อยากเห็นเธอมีความสุขอย่างสุขภาพดีมากกว่าน่ะ"
 
 show emi sad_grin
 show rin basic_awayabsent
 with charachange
 
 # "With each statement, Emi's frown fades a little more, until eventually she's grinning, albeit a little shyly."
-""
+"เอมิคลายปมคิ้วที่ขมวดอยู่ออกเรื่อย ๆ กับทุกประโยคที่ฉันพูด จนในที่สุดเธอก็ยิ้มอาย ๆ"
 
 play music music_daily fadein 4.0
 
 # emi "Well, if you're going to put it that way, then I guess I'll have to see him."
-emi ""
+emi "อืม ถ้านายว่าอย่างนี้แล้วฉันก็คงต้องไปหาคุณพยาบาลแล้วละ"
 
 show emi excited_proud
 with charachange
 
 # emi "Otherwise you'll keep worrying, and then I'll never hear the end of it, right?"
-emi ""
+emi "ไม่อย่างนั้นนายก็จะเป็นห่วงฉันอยู่เรื่อย ๆ แล้วก็จะบ่นจนฉันหูชาสินะ"
 
 show rin basic_absent
 with charachange
 
 # hi "That's right. I'll keep bugging you about it, and that might put a damper on our dates."
-hi ""
+hi "ใช่ ฉันจะเอาแต่ตื๊อเธอ เดตของเราอาจกร่อยไปเลยก็ได้"
 
 #"I launch into a series of back-and-forths, playing the role of myself and Emi."
 
 # hi "“How's the food, Hisao?” “Talk to the nurse, Emi.”"
-hi ""
+hi "“อาหารเป็นยังไงบ้างฮิซาโอะ” “ไปหาคุณพยาบาลนะเอมิ”"
 
 # hi "“How was your day, Hisao?” “Talk to the nurse, Emi.”"
-hi ""
+hi "“วันนี้นายเป็นไงบ้างฮิซาโอะ” “ไปหาคุณพยาบาลนะเอมิ”"
 
 # hi "“Hisao, I think I'm ready to go all the w—” “{b}Talk to the nurse, Emi.{/b}”"
-hi ""
+hi "“ฮิซาโอะ ฉันว่าฉันพร้อมที่จะไปให้สุ—” “ไปหาคุณพยาบาลนะเอมิ!”"
 
 # hi "See? It doesn't work that well."
-hi ""
+hi "เห็นมั้ย ไปได้ไม่สวยเลย"
 
 show emi basic_closedhappy
 show rin basic_awayabsent
 with charachange
 
 # "Emi giggles at my high-pitched rendition of her own voice and gives me an affectionate shove."
-""
+"เอมิหัวเราะคิกคักที่ฉันล้อเสียงเธอแบบสูงแหลมแล้วผลักฉันด้วยความเอ็นดู"
 
 show emi excited_amused
 with vpunch
 
 # emi "My voice isn't that high, jerk."
-emi ""
+emi "เสียงฉันไม่ได้สูงขนาดนั้นสักหน่อย ตาบ้า"
 
 show rin basic_deadpan
 show emi excited_circle
 with charachange
 
 # rin "I thought it was pretty accurate."
-rin ""
+rin "ฉันว่าก็เหมือนอยู่นะ"
 
 with Pause(3.0)
 
 # "Emi and I stare at Rin for a while before I burst into laughter."
-""
+"เอมิกับฉันจ้องรินอยู่พักหนึ่งก่อนจะระเบิดหัวเราะออกมา"
 
 show emi sad_annoyed
 show rin basic_awayabsent
 with charachange
 
 # "Emi crosses her arms and huffs, mock-offended."
-""
+"เอมิกอดอกทำเสียงฮึดฮัดแสร้งทำไม่พอใจ"
 
 show emi sad_angry
 with charachange
 
 # emi "You're both jerks."
-emi ""
+emi "เธอสองคนนี่บ้ากันทั้งคู่"
 
 show rin basic_absent
 with charachange
 
 # hi "Such vile calumnies from you, young woman."
-hi ""
+hi "คำพูดคำจาเธอนี่นะ"
 
 # hi "I'm stunned that you would call me, of all people, a jerk."
-hi ""
+hi "ฉันตกใจจริง ๆ ที่เธอมาเรียกฉันว่าบ้าได้ลง"
 
 # hi "Honestly, I just… I don't know what to think."
-hi ""
+hi "เอาตรง ๆ นะ ฉัน… ไม่รู้จะว่ายังไงดี"
 
 show emi basic_annoyed
 show rin basic_awayabsent
 with charachange
 
 # "Emi sticks her tongue out at me."
-""
+"เอมิแลบลิ้นใส่"
 
 # emi "You ass."
-emi ""
+emi "ใจร้าย"
 
 show emi basic_grin
 with charachange
 
 # emi "So Rin, how's the art club these days?"
-emi ""
+emi "นี่ริน ช่วงนี้ชมรมศิลปะเป็นยังไงบ้าง"
 
 show rin basic_surprised
 with charachange
 
 # "Rin, seemingly as surprised by this sudden change of topic as I am, takes a minute to think before answering."
-""
+"รินดูจะแปลกใจพอ ๆ กันกับฉันที่อยู่ ๆ เอมิก็เปลี่ยนเรื่องแบบนี้ รินคิดอยู่สองสามนาทีก่อนจะตอบ"
 
 show rin basic_lucid
 with charachange
 
 # rin "I believe it is okay."
-rin ""
+rin "ฉันว่าก็โอเคดี"
 
 show rin basic_deadpancontemplation
 with charachange
 
 # rin "Although Nomiya keeps telling me to work harder."
-rin ""
+rin "ถึงโนมิยะจะเอาแต่บอกให้ทุ่มเทให้มากขึ้นก็เถอะ"
 
 show rin relaxed_nonchalant
 with charachange
 
 # rin "But I don't think he understands my methods."
-rin ""
+rin "แต่ฉันว่าโนมิยะไม่เข้าใจวิธีการของฉันหรอก"
 
 show emi sad_annoyed
 with charachange
 
 # emi "He always struck me as slightly creepy."
-emi ""
+emi "ฉันว่าครูโนมิยะก็ชวนให้ขนลุกหน่อย ๆ นะ"
 
 show rin basic_lucid
 with charachange
 
 # "Rin ponders this statement for a while."
-""
+"รินพินิจประโยคนั้นอยู่พักหนึ่ง"
 
 show rin basic_awayabsent
 with charachange
 
 # rin "I've never really noticed."
-rin ""
+rin "ไม่เคยสังเกตเลย"
 
 show rin basic_deadpancontemplation
 with charachange
 
 # rin "But I don't pay much attention to him most days, so maybe that's why."
-rin ""
+rin "แต่ปกติฉันก็ไม่ค่อยได้สนใจเท่าไหร่ ก็เลยไม่เคยสังเกต"
 
 # hi "How often do you meet?"
-hi ""
+hi "ปกติทำกิจกรรมชมรมกันบ่อยมั้ย"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Thinking of joining, Hisao?"
-emi ""
+emi "อยากเข้าชมรมศิลปะเหรอฮิซาโอะ"
 
 show rin basic_absent
 with charachange
 
 # hi "What? Nah, I've already decided to join a club."
-hi ""
+hi "ฮะ? ไม่อะ ฉันมีชมรมที่จะเข้าแล้ว"
 
 show emi excited_happy
 show rin basic_awayabsent
 with charachange
 
 # emi "Really? Which one?"
-emi ""
+emi "จริงเหรอ ชมรมอะไร"
 
 show rin basic_absent
 with charachange
 
 # hi "Well, it's not really much of a club, to be honest…"
-hi ""
+hi "ก็ ไม่เชิงว่าชมรมหรอกถ้าให้พูดตามตรง…"
 
 show emi excited_proud
 show rin basic_awayabsent
 with charachange
 
 # emi "Oh, you joined the tea club?"
-emi ""
+emi "อ้อ ชมรมน้ำชาเหรอ"
 
 show rin basic_absent
 with charachange
 
 # hi "No, I uh… joined the science club… I think."
-hi ""
+hi "เปล่า ฉัน เอ่อ… เข้าชมรมวิทยาศาสตร์… มั้งนะ"
 
 show emi basic_confused
 show rin basic_awayabsent
 with charachange
 
 # "Emi looks highly confused."
-""
+"เอมิดูงุนงง"
 
 # emi "We have a science club?"
-emi ""
+emi "เรามีชมรมวิทยาศาสตร์ด้วยเหรอ"
 
 show rin basic_absent
 with charachange
 
 # hi "Er, not really. It's just me."
-hi ""
+hi "เอ่อ ก็ไม่เชิง สมาชิกมีแค่ฉัน"
 
 show emi basic_closedhappy
 show rin basic_awayabsent
 with charachange
 
 # emi "Hisao, that's not a club. That's sitting in your room reading books."
-emi ""
+emi "แบบนั้นก็ไม่ใช่ชมรมสิฮิซาโอะ อันนั้นเขาเรียกว่าการนั่งอ่านหนังสืออยู่ในห้องเฉย ๆ"
 
 # hi "No, I mean it's just me and Mutou."
-hi ""
+hi "ไม่ จริง ๆ คือมีฉันกับครูมุโต้"
 
 # hi "I'm just the only student so far."
-hi ""
+hi "ตอนนี้นักเรียนในชมรมมีแค่ฉัน"
 
 show emi basic_confused
 show rin basic_lucid
 with charachange
 
 # emi "Mutou? Really?"
-emi ""
+emi "ครูมุโต้ จริงเหรอ"
 
 # "A thought strikes her."
-""
+"แล้วเอมิก็นึกอะไรออก"
 
 show emi basic_happy
 with charachange
 
 # emi "Oh, is that what you were talking about yesterday? Your meeting with Mutou?"
-emi ""
+emi "อ้อ เนี่ยเหรอที่นายพูดถึงเมื่อวาน ที่ว่าไปคุยกับครูมุโต้น่ะ"
 
 # hi "Yeah, that was our first meeting, I guess."
-hi ""
+hi "อื้ม ก็นับว่าเป็นกิจกรรมชมรมครั้งแรกละมั้ง"
 
 show emi basic_closedgrin
 with charachange
 
 # "Emi giggles."
-""
+"เอมิหัวเราะคิกคัก"
 
 show emi basic_grin
 with charachange
 
 # emi "Nerd."
-emi ""
+emi "ตาคงแก่เรียนเอ๊ย"
 
 # hi "Hey, I can't help being clever."
-hi ""
+hi "เฮ้ย ก็คนมันฉลาดนี่"
 
 show emi excited_proud
 with charachange
 
 # emi "You know, I could have used your help years ago."
-emi ""
+emi "นี่นะ ถ้าเป็นสองสามปีก่อนนายคงมาช่วยฉันได้"
 
 # emi "You should've had your heart attack earlier in life, Hisao."
-emi ""
+emi "นายน่าจะหัวใจวายให้เร็วกว่านี้นะฮิซาโอะ"
 
 # "I laugh, and then realize this is probably one of the very rare times I've laughed about my heart attack."
-""
+"ฉันหัวเราะ แล้วก็นึกขึ้นได้ว่าครั้งนี้คงจะเป็นหนึ่งในไม่กี่ครั้งที่ฉันหัวเราะกับเรื่องหัวใจวายของตัวเอง"
 
 # hi "Hindsight…"
-hi ""
+hi "แต่พอมาคิดอีกที…"
 
 show emi sad_grin
 with charachange
 
 # emi "Yeah…"
-emi ""
+emi "อื้ม…"
 
 play sound sfx_warningbell
 
 # "The ringing of the bell ends our conversation."
-""
+"เสียงระฆังดังตัดบทสนทนาของเรา"
 
 # hi "Hmm, guess we'd better go."
-hi ""
+hi "อืมม ไปกันเถอะ"
 
 show emi basic_grin
 with charachange
 
 # emi "Yeah, I guess so."
-emi ""
+emi "อื้ม ไปกัน"
 
 show emi excited_amused:
     xpos 0.45
 with dissolvecharamove
 
 # emi "Come on Rin, you too."
-emi ""
+emi "ปะริน มาด้วยกันสิ"
 
 show rin basic_surprised
 with vpunch
 
 # "Rin has apparently begun to doze off, so Emi gives her a sharp bump."
-""
+"เหมือนรินจะม่อยหลับไปแล้ว เอมิกระทุ้งตัวริน"
 
 show rin basic_deadpanupset
 with charachange
 
 # rin "I almost had it."
-rin ""
+rin "เกือบแล้วเชียว"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Sorry, but you need to go to class."
-emi ""
+emi "ขอโทษที แต่เธอต้องไปเรียนแล้วนะ"
 
 show rin relaxed_nonchalant at tworight
 with dissolvecharamove
 
 # rin "I disagree, but maybe if I nap in class I'll get it this time."
-rin ""
+rin "ขอคัดค้าน แต่ถ้าไปงีบในห้องน่าจะข้ามคำว่าเกือบได้แล้ว"
 
 show rin relaxed_boredom
 with charachange
 
 # rin "Changing location is sometimes helpful for that kind of thing."
-rin ""
+rin "ของแบบนี้บางทีเปลี่ยนที่อยู่บ้างก็จะช่วยได้เหมือนกัน"
 
 # "Neither Emi or I bother asking what “it” is."
-""
+"ทั้งเอมิทั้งฉันต่างก็ไม่คิดจะถามว่าเกือบที่ว่าคือเกือบอะไร"
 
 stop music fadeout 3.0
 stop ambient fadeout 2.0
@@ -3160,7 +3160,7 @@ scene bg school_hallway3
 with locationskip
 
 # "As we arrive at my classroom, Emi gives me a quick kiss and heads down the hallway, Rin in tow."
-""
+"พอมาถึงห้องเรียนของฉันแล้วเอมิก็จุ๊บฉันก่อนเดินไปตามโถงทางเดินโดยมีรินตามไป"
 
 show shizu behind_blank:
     tworight
@@ -3173,245 +3173,240 @@ show misha perky_smile:
 with charaenter
 
 # "I turn to enter the classroom, to be met by the duo of Shizune and Misha."
-""
+"ฉันหันไปเตรียมจะเข้าห้องเรียน แล้วก็พบกับคู่หูชิซูเนะกับมิช่า"
 
 play music music_shizune fadein 1.0
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 # "Misha seems to be fighting a losing battle to keep from breaking into a fit of giggles while she translates Shizune's latest rant."
-""
+"มิช่าดูจะกลั้นใจแทบตายไม่ให้หัวเราะคิกคักไปพลางตอนที่แปลบทเทศน์ของชิซูเนะเมื่อครู่"
 
 show misha hips_grin
 with charachange
 
 # mi "While we are pleased, nay thrilled, to see how well you've managed to make new friends and forge relationships - and with such a cutie too, Hicchan~…"
-mi ""
+mi "พวกเรายินดีและประทับใจเป็นอย่างยิ่งที่ได้เห็นคุณมีเพื่อนใหม่และได้สานสัมพันธ์ครั้งใหม่ แถมไปสานสัมพันธ์\nกับคนน่ารักซะด้วยนะฮิจัง~…"
 
 # "I think that last part was probably Misha."
-""
+"ฉันว่าอย่างหลังนี่มิช่าน่าจะพูดเอง"
 
 show shizu basic_normal
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_frown
 with charachange
 
 # mi "We nevertheless feel compelled to politely remind you that public displays of affection are strictly forbidden - really? That's disappointing, Shicchan - by section eight of the code of conduct laid out in the student handbook."
-mi ""
+mi "แต่แม้กระนั้น พวกเราก็ต้องขอแจ้งให้คุณทราบอีกครั้งว่าทางโรงเรียนขอห้ามแสดงความรักในที่สาธารณะ\nอย่างเด็ดขาด จริงเหรอ ผิดหวังนะเนี่ยชิจัง ตามมาตราแปดของจรรยาบรรณที่ระบุไว้ในคู่มือนักเรียน"
 
 show shizu adjust_smug
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha sign_smile
 with charachange
 
 # mi "In this case, however, ignorance of the law may be your excuse, as we are feeling lenient…"
-mi ""
+mi "ทว่าในกรณีนี้คุณอาจอ้างความไม่รู้กฎหมาย และเราก็อยากลดหย่อนผ่อนปรน…"
 
 show shizu behind_smile
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_smile
 with charachange
 
 # mi "…and the paperwork required to punish the both of you would only add to the already mountainous volume of work which confronts us, the sole members of the Student Council - and besides, you two are adorable together~!"
-mi ""
+mi "…และเอกสารที่ต้องใช้ในกระบวนการเอาผิดพวกคุณทั้งสองคนจะยิ่งทำให้งานที่กองกันเท่าภูเขาที่เรา\nในฐานะสมาชิกสภานักเรียนต้องจัดการมีมากขึ้นไปอีก และอีกอย่างเธอสองคนอยู่ด้วยกันแล้วก็น่ารักดี~!"
 
 show shizu adjust_happy
 with charachange
 
-# shi "…"
-shi ""
+shi "…"
 
 show misha hips_grin
 with charachange
 
 # mi "Therefore consider this a formal warning, and please refrain from such displays in the future. At least when Shizune can see you, Hicchan~!"
-mi ""
+mi "ดังนั้น ขอให้รับรู้ว่านี่คือคำเตือนอย่างเป็นทางการจากพวกเรา และภายภาคหน้าขออย่าทำเรื่องแบบนี้อีก\nอย่างน้อยก็ไปทำลับหลังชิซูเนะนะฮิจัง~!"
 
 # "This whole spiel is so patently ridiculous that I can't help but reply in the same pompous manner."
-""
+"บทพูดเกินจริงเหล่านั้นช่างไร้สาระเสียจนฉันอดไม่ได้ที่จะตอบไปแบบเล่นใหญ่บ้าง"
 
 # hi "Well, I for one feel enlightened."
-hi ""
+hi "ครับ ข้าพเจ้าทราบชัดแล้ว"
 
 # hi "I apologize profusely for my rash actions and will strive to contain my baser impulses which, I fear, impel me toward such inappropriate displays of public affection."
-hi ""
+hi "ข้าพเจ้าขออภัยเป็นอย่างสูงกับพฤติกรรมซึ่งขาดการยั้งคิดนั้น ข้าพเจ้าจะไม่ทำตัวไปตามความต้องการที่ขัดกับ\nศีลธรรม ซึ่งข้าพเจ้าเกรงว่าเป็นเพราะความต้องการนี้เองที่ทำให้ข้าพเจ้าแสดงความรักในที่สาธารณะอย่างไม่เหมาะสม\nเช่นนั้น"
 
 # hi "It is hardly my wish to burden an already overworked Student Council with such petty matters, and will do my best to make your lives easier in this matter in the future."
-hi ""
+hi "ข้าพเจ้ามิได้มีเจตนาจะเพิ่มภาระให้กับสมาชิกสภานักเรียนที่ซึ่งทำงานอย่างหนักหน่วงแล้วด้วยเรื่องเล็กน้อยเช่นนี้เลย\nและข้าพเจ้าจะพยายามอย่างสุดความสามารถเพื่อให้ภายภาคหน้าพวกท่านไม่ต้องลำบากกับเรื่องนี้อีก"
 
 # hi "At least, when Shizune's watching."
-hi ""
+hi "แต่ลับหลังชิซูเนะจะยังทำตัวดีอยู่มั้ยก็อีกเรื่อง"
 
 # "This last line is delivered with a wink to Misha, who finally loses control of her laughter."
-""
+"ประโยคหลังนั้นฉันพูดพร้อมขยิบตาให้มิช่าซึ่งกลั้นหัวเราะไม่ไหวแล้ว"
 
 show misha cross_laugh
 with charachange
 
 # mi "Wahaha~!"
-mi ""
+mi "วะฮ่าฮ่า~!"
 
 show misha cross_grin
 with charachange
 
 # mi "Well said, Hicchan~!"
-mi ""
+mi "พูดได้ดีฮิจัง~!"
 
 # "Chuckling a little myself, we enter the classroom."
-""
+"ฉันแค่นหัวเราะตามแล้วเราก็เข้าห้องเรียนกัน"
 
 stop music fadeout 2.0
 scene bg school_scienceroom
 with shorttimeskip
 
 # "Class is uneventful, and after the final bell rings, I find myself alone with Mutou again."
-""
+"ไม่มีเหตุการณ์อะไรระหว่างที่เรียน พอระฆังเลิกเรียนดังแล้วฉันก็อยู่กับครูมุโต้ตามลำพังอีกครั้ง"
 
 show muto smile at center
 with charaenter
 
 # mu "So, it looks like we've all assembled for the second meeting of the Science Club."
-mu ""
+mu "โอเค ดูเหมือนว่าทุกคนจะมาร่วมกิจกรรมชมรมครั้งที่สองกันครบแล้วนะ"
 
 play music music_another fadein 2.0
 show muto normal
 with charachange
 
 # mu "Or is it the first? What do you think, should we count yesterday as a meeting?"
-mu ""
+mu "หรือเป็นครั้งแรก เธอว่าไง จะนับเมื่อวานเป็นครั้งแรกมั้ย"
 
 # hi "Well, we did form the club yesterday, didn't we?"
-hi ""
+hi "ก็ตั้งชมรมกันเมื่อวานแล้วนี่ครับ"
 
 # hi "That seems like club business, so we can safely call yesterday a meeting."
-hi ""
+hi "ดูจะเป็นกิจกรรมชมรมอยู่ เพราะงั้นก็นับได้แหละครับ"
 
 show muto smile
 with charachange
 
 # "Mutou smiles in his usual stilted and awkward way. I wonder if the muscles in his face are just not shaped correctly to let him smile naturally."
-""
+"ครูยิ้มเฝื่อน ๆ แกน ๆ อย่างเคย หรือว่ากล้ามเนื้อใบหน้าจะไม่เข้าตำแหน่งถึงได้ยิ้มให้เป็นธรรมชาติไม่ได้กันนะ"
 
 # mu "You really do have a knack for this, I think. Logical thought processes, that is."
-mu ""
+mu "เธอดูจะถนัดเรื่องนี้นะ หมายถึงเรื่องการคิดอย่างมีเหตุผลน่ะ"
 
 # hi "I guess so?"
-hi ""
+hi "ก็มั้งนะครับ?"
 
 show muto normal
 with charachange
 
 # mu "A scientist speaks with authority, Hisao. The answer here is “Yes, I do.”"
-mu ""
+mu "คำพูดของนักวิทยาศาสตร์น่ะต้องมีพลังนะฮิซาโอะ เธอต้องตอบว่า “ใช่แล้วครับ”"
 
 # mu "When the world wants to know how it works, we tell it. Even if all we've got is a decent hypothesis."
-mu ""
+mu "ถ้าโลกอยากรู้ว่ามันเป็นยังไงเราก็จะบอกไป ต่อให้สิ่งที่เรามีในมือจะเป็นแค่สมมุติฐานที่พอใช้ได้ก็ตาม"
 
 show muto smile
 with charachange
 
 # mu "But we must sound certain anyway, because we're the authorities on the subject, right?"
-mu ""
+mu "แต่เราก็ต้องพูดไปด้วยความมั่นใจ เพราะเราเป็นผู้รู้ในเรื่องนี้ จริงไหม"
 
 # "He chuckles, to go along with his awkward smile at his awkward joke. I'm doing my best not to grimace, but I don't think I'm being too successful."
-""
+"ครูแค่นหัวเราะก่อนจะยิ้มเจื่อน ๆ กับมุกฝืด ๆ นั้น ฉันปั้นหน้าไม่ให้ทำหน้าเบ้ไป แต่น่าจะไม่ได้ผลเท่าไหร่"
 
 show muto normal
 with charachange
 
 # mu "That's entirely false, of course."
-mu ""
+mu "แน่ละว่าไม่ใช่อย่างนั้นเลย"
 
 # mu "We know a lot, sure, but nobody's an expert on how the world works, if only because nobody can be sure. With no certainty, there are no experts."
-mu ""
+mu "เรารู้เยอะก็จริง แต่ไม่มีใครที่เป็นผู้เชี่ยวชาญเรื่องระบบของโลกนี้ เพราะไม่มีใครที่จะแน่ใจกับเรื่องอะไรสักอย่าง\nได้เลย และพอไม่มีความแน่ใจแล้วก็จะไม่มีใครที่เป็นผู้เชี่ยวชาญอีก"
 
 # mu "But we like to pretend, sometimes."
-mu ""
+mu "แต่บางทีเราก็ชอบทำแสร้งไปเหมือนกัน"
 
 # hi "There's some things we can be certain of, right?"
-hi ""
+hi "แต่บางอย่างเราก็แน่ใจได้นี่ครับ"
 
 # mu "Yes… but no."
-mu ""
+mu "ใช่… แต่ก็ไม่ใช่"
 
 # mu "We know gravity's there, for example."
-mu ""
+mu "เช่นว่า เรารู้ว่าแรงโน้มถ่วงมีจริง"
 
 # "To illustrate, Mutou picks up a pencil and drops it."
-""
+"ครูหยิบดินสอขึ้นมาแล้วปล่อยให้ตกเป็นการยกตัวอย่าง"
 
 # mu "See? Still there. But it's good to check every once in a while."
-mu ""
+mu "เห็นมั้ย ยังมีจริง แต่นาน ๆ ทีลองตรวจดูบ้างก็ไม่เสียหาย"
 
 # mu "That's why you'll still see researchers mucking about with gravity."
-mu ""
+mu "เพราะแบบนี้เราถึงยังได้เห็นนักวิจัยที่วุ่นวายอยู่กับเรื่องแรงโน้มถ่วง"
 
 show muto smile
 with charachange
 
 # mu "We're pretty sure we know how it works, but there's always a chance that something isn't how we think it is."
-mu ""
+mu "เราค่อนข้างแน่ใจว่ามันเป็นยังไง แต่ก็มีโอกาสอยู่เหมือนกันที่สิ่งนั้น ๆ จะไม่ได้เป็นอย่างที่เราคิด"
 
 # mu "So you check, and check, and check. That's science in a nutshell, Hisao."
-mu ""
+mu "เราถึงได้ตรวจแล้ว ตรวจอีก ตรวจเข้าไป โดยย่อแล้ววิทยาศาสตร์ก็ประมาณนี้แหละฮิซาโอะ"
 
 # "The whole time I've listened feeling rather spellbound. Mutou seems to really be passionate about this stuff… I think. It's hard to tell, sometimes."
-""
+"ฉันคอยฟังเหมือนต้องมนต์สะกด ครูดูจะคลั่งใคล้ในเรื่องทำนองนี้… คิดว่านะ บางทีก็ดูไม่ค่อยออก"
 
 # "How the world works…"
-""
+"ระบบของโลกนี้…"
 
 # "How humans work."
-""
+"ระบบของมนุษย์"
 
 # "How the universe works."
-""
+"ระบบของจักรวาล"
 
 # "All these questions to be answered."
-""
+"คำถามเหล่านี้ที่ต้องการคำตอบ"
 
 # "And, depending on what I go into, maybe I could even figure out a way to fix my heart. That said, I don't think that's a real priority for me."
-""
+"และฉันอาจจะหาวิธีรักษาหัวใจของฉันก็ได้ ถ้าเลือกเรียนให้ถูกสาขา แต่ถึงอย่างนั้นก็เถอะ สิ่งนั้นไม่ใช่เรื่องสำคัญ\nสำหรับฉันเท่าไหร่"
 
 # "Besides, as we start discussing the book he gave me yesterday, I find myself more and more interested in that than my heart condition."
-""
+"อีกอย่าง ระหว่างที่คุยกันเรื่องหนังสือที่ครูให้มาเมื่อวานฉันก็เริ่มสนใจเนื้อหาในนั้นขึ้นมาเรื่อย ๆ สนใจมากกว่า\nอาการหัวใจของตัวเองเสียอีก"
 
 show muto normal
 with shorttimeskip
 
 # "Before we even realize it, an hour's gone by."
-""
+"หนึ่งชั่วโมงผ่านไปโดยที่เราไม่ทันรู้ตัว"
 
 # mu "Well, let's call this meeting over for now, okay?"
-mu ""
+mu "โอเค งั้นก็เลิกกิจกรรมกันเท่านี้ก่อนนะ"
 
 # mu "We'll have another meeting… tomorrow, or uh… the day after."
-mu ""
+mu "ไว้มาจัดกิจกรรมชมรมอีกทีกัน… พรุ่งนี้ หรือ เอ่อ… มะรืนนี้"
 
 # "He considers this for a moment."
-""
+"ครูคิดอยู่ครู่หนึ่ง"
 
 # mu "Call it the day after. I've got a lot of grading to do."
-mu ""
+mu "เอาเป็นมะรืนนี้แล้วกัน ครูยังเหลืองานที่ต้องตรวจอีกเยอะ"
 
 # hi "Okay. See you then."
-hi ""
+hi "โอเคครับ งั้นก็ไว้เจอกัน"
 
 scene bg school_hallway3
 with locationchange
@@ -3419,13 +3414,13 @@ with locationchange
 stop music fadeout 5.0
 
 # "As I exit the classroom, I realize that I don't really have anything to do tonight."
-""
+"พอออกจากห้องเรียนมาถึงนึกได้ว่าคืนนี้ฉันไม่มีอะไรให้ทำเลย"
 
 # "Emi and I didn't make plans, so…"
-""
+"เอมิกับฉันก็ไม่ได้นัดอะไรกันไว้ เพราะงั้น…"
 
 # "I guess I'll go to the library. It beats doing homework in my room, anyway."
-""
+"ไปห้องสมุดแล้วกัน ยังไงก็ดีกว่าต้องไปทำการบ้านอยู่ในห้องตัวเอง"
 
 scene black
 with locationskip_in
