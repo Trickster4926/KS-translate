@@ -5195,7 +5195,7 @@ show emiwheel closedsmile
 with charachange
 
 # emi "Hmm… if I remember right, there's a spare pair or two in the track shed."
-emi "อืมม… ถ้าจำไม่ผิด เหมือนมีถุงมือสำรองอยู่สักคู่สองคู่ในโรงเก็บของของลู่วิ่งอยู่นะ"
+emi "อืมม… ถ้าจำไม่ผิด เหมือนมีถุงมือสำรองอยู่สักคู่สองคู่ในห้องเก็บของของสนามอยู่นะ"
 
 # "So she does seriously want to do it, then."
 "ก็คืออยากจะ{i}วิ่ง{/i}จริง ๆ สินะ"
@@ -5213,7 +5213,7 @@ with charachange
 "เอมิมองค้อนใส่ฉัน"
 
 # emi "Seriously? You can't think of why a shed full of track supplies at a school for the disabled would have racing gloves?"
-emi "ถามจริง? นี่นายคิดไม่ได้เลยเหรอว่าทำไมโรงเก็บของที่มีอุปกรณ์กีฬาครบครันในโรงเรียนสำหรับคนพิการ\nจะต้องมีถุงมือสำหรับแข่งด้วย"
+emi "ถามจริง? นี่นายคิดไม่ได้เลยเหรอว่าทำไมห้องเก็บของที่มีอุปกรณ์กีฬาครบครันในโรงเรียนสำหรับคนพิการ\nจะต้องมีถุงมือสำหรับแข่งด้วย"
 
 # "Well, when she puts it that way, I suppose that makes perfect sense."
 "อืม พอเอมิพูดอย่างนี้แล้วก็พอจะรู้สึกสมเหตุสมผลขึ้นมาบ้าง"
@@ -5234,13 +5234,13 @@ with charachange
 emi "เอ้า เร็ว ๆ ตามมาช่วยฉันด้วย"
 
 # "I can't imagine what for, but then again I didn't have a clue why racing gloves would be in the shed, so I'm not willing to press the issue."
-"ฉันนึกไม่ออกว่าจะให้ไปช่วยอะไร แต่ก็นะ ฉันนึกไม่ออกเหมือนกันว่าทำไมโรงเก็บของถึงได้มีถุงมือด้วย ฉันจึงตัดใจ\nไม่ซักไซ้ต่ออีก"
+"ฉันนึกไม่ออกว่าจะให้ไปช่วยอะไร แต่ก็นะ ฉันนึกไม่ออกเหมือนกันว่าทำไมห้องเก็บของถึงได้มีถุงมือด้วย ฉันจึงตัดใจ\nไม่ซักไซ้ต่ออีก"
 
 scene bg school_sportsstoreext
 with locationchange
 
 # "Emi navigates her way to the shed easily enough, though I can hear her grumbling under her breath."
-"เอมิเคลื่อนตัวมาที่โรงเก็บของได้อย่างไม่ลำบากนัก แต่ก็ได้ยินเธอพึมพำบ่นอะไรอยู่"
+"เอมิเคลื่อนตัวมาที่ห้องเก็บของได้อย่างไม่ลำบากนัก แต่ก็ได้ยินเธอพึมพำบ่นอะไรอยู่"
 
 # "It's actually kinda cute."
 "จริง ๆ ก็น่ารักเหมือนกัน"
@@ -5509,7 +5509,7 @@ show eminude frown_ni
 with charachange
 
 # emi "Because he's the one who told me the track shed was a good place for… what did he call them?"
-emi "เพราะหัวหน้าทีมบอกฉันว่าโรงเก็บของของลู่วิ่งน่ะเหมาะกับการ… เขาใช้คำว่าอะไรนะ"
+emi "เพราะหัวหน้าทีมบอกฉันว่าห้องเก็บของของสนามน่ะเหมาะกับการ… เขาใช้คำว่าอะไรนะ"
 
 show eminude pout_ni
 with charachange
@@ -5637,7 +5637,7 @@ emi "บอกว่าเป็นความรู้สึกที่ดี
 hi "อ่า… ฮะ"
 
 # "The air in the track shed seems charged with some kind of horrible curiosity."
-"บรรยากาศในโรงเก็บของแห่งนี้อวลไปด้วยความอยากรู้อยากเห็นสุดสะพรึง"
+"บรรยากาศในห้องเก็บของแห่งนี้อวลไปด้วยความอยากรู้อยากเห็นสุดสะพรึง"
 
 # hi "That's interesting."
 hi "น่าสนใจ"
@@ -5970,7 +5970,7 @@ with GenericWhiteout(0.5,1.0,4.0)
 window show
 
 # "Emi's back spasms and she arches up, a high, girlish cry that echoes off the walls, and I feel the wave of my own climax annihilate all other sensations in my body."
-"เอมิกระตุกตัวงอ เสียงครางหวานของเธอสะท้อนก้องอยู่ในโรงเก็บของ คลื่นความรู้สึกเมื่อถึงฝั่งนั้นเข้าซัด\nทุกประสาทสัมผัสในร่างกาย"
+"เอมิกระตุกตัวงอ เสียงครางหวานของเธอสะท้อนก้องอยู่ในห้องเก็บของ คลื่นความรู้สึกเมื่อถึงฝั่งนั้นเข้าซัด\nทุกประสาทสัมผัสในร่างกาย"
 
 show evh_l emi_shed_up
 show evh_r emi_shed_down
@@ -6147,7 +6147,7 @@ show eminude grin_close_ni
 with charachange
 
 # emi "Yeah, there's uh… It's on the back wall."
-emi "อืม ก็มี… อยู่ตรงหลังโรงเก็บของนี่แหละ"
+emi "อืม ก็มี… อยู่ตรงหลังห้องเก็บของนี่แหละ"
 
 show eminude smile_close_ni
 with charachange
@@ -6204,7 +6204,7 @@ with shorttimeskip
 "ผ่านไปสักพักเราก็ใส่เสื้อผ้ากันครบได้สำเร็จ"
 
 # "There's a frantic moment where neither of us knows where Emi's wheelchair is, but I recall it going through the door and rescue it."
-"เราวุ่นวายกันอยู่พักหนึ่งเพราะต่างไม่มีใครรู้ว่าวีลแชร์อยู่ไหน แต่พอฉันจำได้ว่าไหลออกประตูไปฉันก็ไปเก็บมา"
+"เราวุ่นวายกันอยู่พักหนึ่งเพราะต่างไม่มีใครรู้ว่าวีลแชร์อยู่ไหน แต่พอจำได้ว่าไหลออกประตูไปฉันก็ไปเก็บมา"
 
 show emiwheel neutral_close_ni at center
 with charaenter
@@ -6320,61 +6320,61 @@ with Pause(5.0)
 play sound sfx_doorknock
 
 # "Knock knock."
-""
+"ก๊อก ก๊อก ก๊อก"
 
 # "Who's there?"
-""
+"เปิดประตู"
 
 play sound sfx_doorknock
 
 # "Knock knock."
-""
+"ก๊อก ก๊อก ก๊อก"
 
 # "That's not how the joke goes at all."
-""
+"เนื้อเพลงไม่ใช่แบบนี้นี่"
 
 play sound sfx_doorknock
 
 # "Knock knock."
-""
+"ก๊อก ก๊อก ก๊อก"
 
 # "I already said who's there!"
-""
+"ก็ทำไมไม่ต่อเนื้อเพลงเล่า!"
 
 # "More importantly, what time is it?"
-""
+"แล้วที่สำคัญ ตอนนี้กี่โมงแล้ว"
 
 # "Even more importantly, what day…?"
-""
+"แล้วที่สำคัญกว่านั้น วันนี้วันอะไร…"
 
 scene bg school_dormhisao
 with openeyefast
 
 # "I am suddenly catapulted into wakefulness by both the fact that the knocking still hasn't stopped and the fact that it's noon."
-""
+"ฉันสะดุ้งโหยงตื่นขึ้นมาเพราะเสียงเคาะประตูยังไม่เงียบไป และเพราะตอนนี้เที่ยงแล้ว"
 
 # "On a school day."
-""
+"เที่ยงวันที่มีเรียน"
 
 # "Now fully awake, I can remember why I was napping."
-""
+"พอตื่นเต็มตาแล้วถึงนึกออกว่าทำไมถึงมางีบ"
 
 # "Better not give that excuse to Mutou."
-""
+"อย่าไปบอกเรื่องนั้นกับครูเลยดีกว่า"
 
 # "“Sorry I wasn't in class, I was experimenting sexually with my girlfriend and it tired me out.”"
-""
+"“ขอโทษที่ขาดเรียนครับ พอดีผมไปทดลองเรื่องทางเพศกับแฟนสาวจนเพลีย”"
 
 # "Yeah, that'll go over well."
-""
+"อืม ไปได้ไม่สวยแน่นอน"
 
 play sound sfx_doorknock
 
 # "I wonder how long this knocking is going to continue."
-""
+"จะเคาะประตูอีกนานมั้ย"
 
 # "Guess I ought to answer the door."
-""
+"คงต้องไปเปิดรับแล้วแหละ"
 
 play sound sfx_dooropen
 
@@ -6383,254 +6383,254 @@ show kenji tsun at center
 with locationchange
 
 # "I'm strangely unsurprised to see Kenji on the other side."
-""
+"ซึ่งก็ประหลาดที่ฉันไม่แปลกใจเลยเมื่อเห็นเคนจิอยู่ตรงหน้า"
 
 # "Though it appears that Kenji is surprised to see me."
-""
+"แต่เหมือนว่าเคนจิจะแปลกใจที่ได้เจอฉัน"
 
 # ke "What the hell are you doing here, man?"
-ke ""
+ke "มาทำอะไรที่นี่เนี่ย"
 
 play music music_kenji fadein 0.5
 
 # hi "Well, I was sleeping."
-hi ""
+hi "ก็หลับอยู่"
 
 show kenji neutral
 with charachange
 
 # "Kenji nods in understanding."
-""
+"เคนจิพยักหน้าเหมือนเข้าใจ"
 
 show kenji happy
 with charachange
 
 # ke "Knocked out. I see."
-ke ""
+ke "สลบเหมือดเลยสินะ"
 
 show kenji tsun
 with charachange
 
 # ke "I told you to be careful around that Ibarazaki chick, man."
-ke ""
+ke "ฉันบอกแล้วไงว่าอยู่กับยัยอิบาราซากิอะไรนั่นก็ให้ระวังหน่อย"
 
 # ke "This is the sort of thing that happens when you aren't cautious."
-ke ""
+ke "ถ้าไม่ระวังตัวให้ดีแล้วละก็จะเป็นแบบนี้แหละ"
 
 # "He makes an attempt to look at the back of my head."
-""
+"เคนจิชะเง้อชะแง้จะมองท้ายทอยฉัน"
 
 show kenji neutral
 with charachange
 
 # ke "Did she hit you with something?"
-ke ""
+ke "นี่ยัยนั่นเอาอะไรทุบนายหรือเปล่า"
 
 # ke "Or was it a drug?"
-ke ""
+ke "หรือว่าโดนวางยา"
 
 # hi "Stop trying to touch me."
-hi ""
+hi "อย่ามาแตะตัวฉันน่า"
 
 with flash
 
 # "Kenji produces a flashlight and shines it in my eyes."
-""
+"เคนจิควักไฟฉายออกมาส่องตาฉัน"
 
 # ke "You got a concussion?"
-ke ""
+ke "สมองนายกระทบกระเทือนหรือเปล่า"
 
 # hi "I wasn't knocked out!"
-hi ""
+hi "ไม่ได้สลบเว้ย!"
 
 show kenji happy
 with charachange
 
 # ke "Maybe you just don't remember."
-ke ""
+ke "นายอาจจะลืมเฉย ๆ"
 
 # "This conversation isn't going anywhere."
-""
+"ไม่ได้เรื่องแน่อีแบบนี้"
 
 # hi "No, I just had a tiring morning and fell asleep."
-hi ""
+hi "เปล่า แค่เช้านี้เพลีย ๆ เลยหลับไปน่ะ"
 
 show kenji tsun
 with charachange
 
 # ke "Whatever, man."
-ke ""
+ke "ช่างนายเถอะ"
 
 # ke "If you want to be in denial about this, I guess I can't stop you."
-ke ""
+ke "ถ้านายไม่อยากยอมรับฉันก็คงห้ามอะไรไม่ได้"
 
 # ke "But you gotta watch out for that girl, man. She's not safe."
-ke ""
+ke "แต่ก็ระวังยัยนั่นไว้ด้วยนะ อันตรายเชียวละ"
 
 # hi "What?"
-hi ""
+hi "ฮะ?"
 
 show kenji rage
 with charachange
 
 # ke "She's not safe to be around; she's one of their most sinister agents!"
-ke ""
+ke "เป็นคนที่อยู่ด้วยแล้วอันตราย เป็นตัวแทนสุดชั่วร้ายระดับบน ๆ เลยละ!"
 
 # ke "If you're not careful, there's no telling what could happen!"
-ke ""
+ke "ถ้านายไม่ระวังตัวละก็อาจจะเกิดอะไรขึ้นก็ได้!"
 
 # ke "She's brought down stronger men than you, you know!"
-ke ""
+ke "ยัยนั่นเคยล้มคนที่แข็งแกร่งกว่านายมาแล้วด้วยนะเว้ย!"
 
 # hi "What the hell are you talking about?"
-hi ""
+hi "พูดอะไรของนายเนี่ย"
 
 # hi "She's not an agent of anything, and she didn't knock me out, okay?"
-hi ""
+hi "เอมิไม่ใช่ตัวแทนอะไรหรอก แล้วก็ไม่ได้ทุบให้ฉันสลบด้วย โอเคนะ"
 
 # hi "I also highly doubt that she's brought down anyone at all."
-hi ""
+hi "แล้วก็ไม่ค่อยเชื่อด้วยว่าเอมิจะไปล้มใครได้"
 
 show kenji tsun
 with charachange
 
 # "Kenji looks almost offended."
-""
+"เคนจิทำหน้าเหมือนไม่พอใจ"
 
 # "I have no idea why."
-""
+"ไม่รู้ทำไม"
 
 # ke "You don't believe me?"
-ke ""
+ke "ไม่เชื่อฉันงั้นเหรอ"
 
 # ke "That's cold, man. Real cold."
-ke ""
+ke "ใจร้ายนะนายเนี่ย ใจร้ายโคตร ๆ"
 
 # ke "I'm just trying to look out for you. That's what friends do, you know."
-ke ""
+ke "ฉันแค่จะเตือนนายในฐานะเพื่อน"
 
 # "We're friends? I had no idea."
-""
+"เราเป็นเพื่อนกันเหรอวะ ไม่ยักรู้"
 
 # "Then again, I wonder if Kenji knows what being a friend even entails."
-""
+"แต่ก็นะ คนอย่างเคนจิคงไม่รู้มั้งว่าคำว่าเพื่อนมีความหมายว่าอะไรบ้าง"
 
 # "I feel something like pity for him, standing there before me."
-""
+"เหมือนจะสงสารเจ้าคนที่ยืนอยู่ตรงหน้าฉันตอนนี้เลย"
 
 # "Maybe he does think he's looking out for me."
-""
+"อาจจะคิดว่าตัวเองกำลังเตือนฉันอยู่จริง ๆ ก็ได้"
 
 # hi "I know, I know."
-hi ""
+hi "รู้แล้ว ๆ"
 
 # hi "I'm sorry about that. Thanks for the warning."
-hi ""
+hi "ขอโทษทีนะ ขอบใจที่เตือน"
 
 # "I hold out my hand as a sign of peace."
-""
+"ฉันยื่นมือออกไปหวังคืนดี"
 
 show kenji neutral_close
 with characlose
 
 # "Kenji shakes it gingerly, like my hand could possibly be on fire."
-""
+"เคนจิจับมือแล้วโยกเบา ๆ เหมือนมือฉันติดไฟอยู่"
 
 # "There's an awkward silence for a few seconds before Kenji remembers that he's still shaking my hand."
-""
+"เราเงียบกันไปสองสามวินาทีอย่างกระอักกระอ่วนจนเคนจิรู้ตัวว่ายังโยกมือฉันอยู่"
 
 show kenji happy_close
 with charachange
 
 # ke "Anyway, I need a favor."
-ke ""
+ke "แต่เอาเถอะ ฉันมีเรื่องจะมารบกวนนาย"
 
 # hi "What kind of favor? I'm out of money…"
-hi ""
+hi "รบกวนอะไร ตอนนี้ฉันไม่มีเงินแล้วนะ…"
 
 # ke "No you aren't. You've got money kept in your desk drawer under a black notebook. For emergencies."
-ke ""
+ke "มี นายมี ที่ลิ้นชักโต๊ะนายจะมีสมุดสีดำที่ทับเงินไว้อยู่ เป็นเงินฉุกเฉิน"
 
 # hi "Did you ransack my room?"
-hi ""
+hi "นี่มาค้นห้องกันเหรอ"
 
 show kenji neutral_close
 with charachange
 
 # ke "That's not important."
-ke ""
+ke "ไม่ใช่ประเด็น"
 
 # ke "I don't need money, anyway."
-ke ""
+ke "แล้วฉันก็ไม่ได้ต้องการเงินด้วย"
 
 # "He adopts a very serious tone."
-""
+"เคนจิทำน้ำเสียงจริงจังมาก ๆ ขึ้นมา"
 
 show kenji tsun_close
 with charachange
 
 # ke "I'm about to undertake a major op."
-ke ""
+ke "ฉันกำลังจะไปปฏิบัติการครั้งใหญ่"
 
 # ke "It'll blow the whole conspiracy wide open if I'm right."
-ke ""
+ke "ถ้าฉันคิดถูกแล้วละก็ทฤษฎีสมคบคิดทั้งหมดเหล่านี้จะถูกเปิดโปง"
 
 # ke "But it's dangerous, so I need you to do something for me in case I don't come back."
-ke ""
+ke "แต่เป็นงานที่อันตรายมาก ฉันเลยจะรบกวนนายอะไรอย่างเผื่อฉันไม่กลับมาอีก"
 
 # hi "Uh, sure man. Anything."
-hi ""
+hi "อ่า เอาเลย ได้หมด"
 
 # "What the hell is he planning on doing?"
-""
+"นี่เคนจิคิดจะทำอะไรวะเนี่ย"
 
 # "Should I be telling someone about this?"
-""
+"ต้องเอาไปแจ้งใครหรือเปล่า"
 
 show kenji neutral_close
 with charachange
 
 # ke "If I go missing, wait three days and then mail my journal off to the newspapers."
-ke ""
+ke "ถ้าฉันหายตัวไป ให้รอสามวันแล้วส่งบันทึกของฉันไปให้สำนักข่าวหนังสือพิมพ์"
 
 # ke "It's hidden in my room under a false bottom in one of my desk drawers."
-ke ""
+ke "หนังสือเล่มนั้นซ่อนอยู่ที่ใต้กองสองชั้นในลิ้นชักโต๊ะตัวหนึ่ง"
 
 # hi "How do I get into your room? I don't have a key."
-hi ""
+hi "แล้วฉันจะเข้าห้องนายได้ไง ฉันไม่มีกุญแจนะ"
 
 show kenji tsun_close
 with charachange
 
 # "Kenji looks at me like I'm crazy."
-""
+"เคนจิมองเหมือนฉันเป็นคนบ้า"
 
 # ke "So pick the lock. You know how to do that, right?"
-ke ""
+ke "ก็สะเดาะเอาสิ นายทำเป็นใช่มั้ยล่ะ"
 
 # ke "It's an important skill to learn at a young age!"
-ke ""
+ke "เป็นทักษะที่ต้องมีติดตัวไว้แต่เด็กเลยนะ!"
 
 # hi "Uh, yeah, of course I know how."
-hi ""
+hi "อ่า อื้ม ทำเป็นอยู่แล้ว"
 
 # hi "I'll be sure to uh, do that for you. If you go missing."
-hi ""
+hi "เดี๋ยวฉันจะ เอ่อ ทำตามที่นายขอนะ ถ้านายหายตัวไป"
 
 # "I don't think I want to read Kenji's journal."
-""
+"ฉันว่าฉันคงไม่อยากอ่านบันทึกของเคนจิแน่ ๆ"
 
 # "Either way, Kenji seems pretty happy that I've agreed to do this thing for him."
-""
+"แต่ช่างเถอะ เคนจิดูจะมีความสุขทีเดียวที่ฉันตกลงยอมทำตามคำขอ"
 
 show kenji happy_close
 with charachange
 
 # ke "Great, man. Great."
-ke ""
+ke "ดีเลยพวก ดี"
 
 # ke "I'll see you around, I got stuff to do."
-ke ""
+ke "เดี๋ยวเจอกัน ฉันมีธุระ"
 
 stop music fadeout 5.0
 
@@ -6642,13 +6642,13 @@ hide kenji
 with None
 
 # "And he's gone, dashing down the hallway."
-""
+"แล้วเคนจิก็พุ่งตัวไปตามโถงทางเดินแล้วหายไป"
 
 # "He made it seem so final."
-""
+"พูดเหมือนจะไม่กลับมาแล้วงั้นแหละ"
 
 # "I hope I don't have to carry out his final wishes."
-""
+"หวังว่าจะไม่ต้องทำตามคำขอสุดท้ายของเขานะ"
 
 scene bg school_dormhisao
 with locationchange
@@ -6656,43 +6656,43 @@ with locationchange
 play sound sfx_doorclose
 
 # "Shaking my head, I close my door and walk back to my bed."
-""
+"ฉันสั่นหัวแล้วปิดประตูเดินกลับมาที่เตียง"
 
 # "Guess I should go to class, if only to catch the last half of the day."
-""
+"ไปเข้าเรียนสักหน่อยก็ดี ต่อให้จะเหลืออีกแค่ครึ่งวันก็เถอะ"
 
 # "But I've come this far without going to class today…"
-""
+"แต่ก็ขาดเรียนมาตั้งครึ่งวันแล้ว"
 
 # "And I did want to read more of that Hawking book Mutou lent me…"
-""
+"แล้วก็อยากอ่านหนังสือของฮอว์กิงที่ครูให้ยืมมาด้วย…"
 
 # "I'm sure he'll understand."
-""
+"ครูคงเข้าใจแหละ"
 
 with shorttimeskip
 
 play sound sfx_hammer
 
 # "Knock knock."
-""
+"ก๊อก ก๊อก ก๊อก"
 
 # "This time the noise jerks my attention away from my book."
-""
+"คราวนี้เสียงนี้ดึงความสนใจฉันไปจากหนังสือ"
 
 # "An experience not unlike being woken up."
-""
+"ซึ่งเป็นความรู้สึกที่ไม่เหมือนตอนเสียงนั้นมาปลุกให้ตื่น"
 
 # hi "Who's there?"
-hi ""
+hi "ใครน่ะ"
 
 # emi "Me! Aren't you glad?"
-emi ""
+emi "ฉันเอง! ดีใจมั้ย"
 
 play music music_emi fadein 4.0
 
 # "The voice is muffled through the door, but unmistakably Emi's."
-""
+"แม้เสียงจะอู้อี้เพราะอยู่อีกฟากประตู แต่เป็นเสียงเอมิแน่นอน"
 
 play sound sfx_dooropen
 
@@ -6701,43 +6701,43 @@ show emiwheel smile at center
 with locationchange
 
 # "I hop up and open the door, smiling broadly."
-""
+"ฉันลุกขึ้นมาเปิดประตูส่งยิ้มกว้าง"
 
 # hi "Hey! Nice to see you again!"
-hi ""
+hi "ไง! ดีใจที่ได้เจออีกครั้งนะ!"
 
 show emiwheel grin
 with charachange
 
 # "Emi grins back, staring up at me from her wheelchair."
-""
+"เอมิที่นั่งวีลแชร์อยู่มองฉันแล้วส่งยิ้มกลับ"
 
 show emiwheel closedsmile
 with charachange
 
 # emi "Yeah, you would have seen me earlier, but the damned elevator wasn't working."
-emi ""
+emi "อื้ม จริง ๆ นายจะได้เจอฉันตั้งแต่ก่อนหน้านี้แล้ว แต่พอดีลิฟต์มันไม่ทำงานน่ะ"
 
 show emiwheel pout
 with charachange
 
 # emi "Had to wait for them to fix it."
-emi ""
+emi "ต้องรอคนมาซ่อม"
 
 show emiwheel awayfrown
 with charachange
 
 # emi "You'd think they could keep it in better order, but nooo…"
-emi ""
+emi "เป็นใครก็คงคิดว่าน่าจะมีคนคอยรักษาสภาพลิฟต์ไว้ แต่ที่ไหนได้…"
 
 # "I chuckle a bit at her vexed expression and invite her in."
-""
+"ฉันแค่นหัวเราะเบา ๆ ให้สีหน้าเครียด ๆ นั้นแล้วเปิดประตูให้เอมิเข้ามา"
 
 scene bg school_dormhisao
 with locationchange
 
 # "She wheels in easily, and with my help she hops onto my bed."
-""
+"เธอเลื่อนล้อเข้ามาได้ไม่ลำบากนัก ฉันช่วยอุ้มให้เธอขยับมาอยู่ที่เตียงฉัน"
 
 show emi basic_closedgrin:
     center
@@ -6746,101 +6746,101 @@ show emi basic_closedgrin:
 with charaenter
 
 # emi "There. Much more comfortable than that stupid chair."
-emi ""
+emi "แบบนี้สิ ค่อยนั่งสบายกว่าวีลแชร์โง่ ๆ นั่นหน่อย"
 
 show emi basic_grin:
     ypos 1.1
 with charachange
 
 # "A sigh of contentment hangs in the air, and for a minute we both just stare at one another."
-""
+"พวกเราจ้องกันอยู่พักหนึ่งด้วยความพึงใจที่อวลในอากาศ"
 
 # "It's at that point that I notice the circles under Emi's eyes."
-""
+"จนตอนนี้เองที่ฉันเพิ่งเห็นว่าใต้ตาเอมิคล้ำ"
 
 # "They're not that dark, but they definitely weren't there before."
-""
+"ไม่ได้ดำขนาดนั้น แต่เป็นรอยที่ก่อนหน้านี้ไม่มีแน่นอน"
 
 # "Before I can ask about them, Emi fixes me with a mischievous stare."
-""
+"แต่ก่อนที่ฉันจะทันได้ถามเอมิก็จ้องมาทางฉันอย่างเจ้าเล่ห์"
 
 show emi excited_happy
 with charachange
 
 # emi "So, I couldn't help but notice you weren't at lunch today."
-emi ""
+emi "พอดีวันนี้ไม่เห็นนายไปกินข้าวเที่ยงด้วยน่ะ"
 
 # emi "In fact, I don't think I saw you at all."
-emi ""
+emi "ซึ่งที่จริงเหมือนวันนี้จะไม่เห็นนายเลย"
 
 show emi excited_proud
 with charachange
 
 # emi "What happened, hmmm?"
-emi ""
+emi "เกิดอะไรขึ้นเหรอ หืมมม"
 
 # hi "Fell asleep."
-hi ""
+hi "หลับ"
 
 # hi "I actually didn't wake up until lunch, and only then because Kenji woke me up."
-hi ""
+hi "เพิ่งตื่นตอนเที่ยงนี่เอง แล้วที่ตื่นก็เพราะเคนจิปลุกด้วย"
 
 show emi excited_amused
 with charachange
 
 # emi "What had you so tired, hmm?"
-emi ""
+emi "ไปทำอะไรมาถึงได้เพลียขนาดนั้น หืมมม"
 
 # hi "Strenuous workout this morning. Slightly uncomfortable, too."
-hi ""
+hi "ก็เช้านี้ออกกำลังกายหนักน่ะสิ ไม่ค่อยสบายตัวด้วย"
 
 show emi basic_closedhappy
 with charachange
 
 # "Emi coughs, a half-laughing, half-embarrassed noise."
-""
+"เอมิกระแอมกึ่ง ๆ หัวเราะกึ่ง ๆ อาย"
 
 show emi basic_happy
 with charachange
 
 # emi "Remind me not to do that again."
-emi ""
+emi "ฝากเตือนฉันด้วยว่าห้ามทำแบบนั้นอีก"
 
 # hi "No problem. It wasn't exactly great for me either, to be honest."
-hi ""
+hi "ไม่มีปัญหา เอาจริง ๆ ฉันก็รู้สึกไม่ค่อยดีเหมือนกัน"
 
 # hi "We'll just avoid that from now on."
-hi ""
+hi "วันหลังเราก็ไม่ต้องทำอีก"
 
 # hi "Are you, er, still sore?"
-hi ""
+hi "เธอยัง เอ่อ เจ็บ ๆ อยู่มั้ย"
 
 show emi basic_confused
 with charachange
 
 # "Emi stares at me in disbelief."
-""
+"เอมิมองฉันด้วยความเหลือเชื่อ"
 
 # hi "What? It's a legitimate question!"
-hi ""
+hi "อะไรเล่า คนเขาเป็นห่วงเลยถามเนี่ย!"
 
 show emi sad_grin
 with charachange
 
 # emi "Of all the questions I never thought I'd be asked, that's one of them."
-emi ""
+emi "เป็นหนึ่งในคำถามที่ฉันไม่คิดว่าจะมีคนถามฉันเลยนะ"
 
 # hi "Well, I didn't ever expect to have to ask it, so we're even."
-hi ""
+hi "ก็ ฉันไม่ได้คิดไว้ว่าจะต้องถามหรอก ถือว่าเจ๊ากันแล้วกัน"
 
 show emi basic_closedhappy
 with charachange
 
 # "Emi laughs at this."
-""
+"เอมิหัวเราะกับคำตอบนั้น"
 
 # emi "I guess so, huh?"
-emi ""
+emi "คงงั้นละมั้ง"
 
 stop music fadeout 5.0
 
@@ -6848,28 +6848,28 @@ show emi sad_shy
 with charachange
 
 # emi "Well, since you asked, yes. I'm still a little sore."
-emi ""
+emi "แต่ในเมื่อนายถามแล้วก็ ใช่ ยังเจ็บอยู่หน่อย ๆ"
 
 show emi sad_pout
 with charachange
 
 # emi "We're never doing that again."
-emi ""
+emi "เราจะไม่ทำแบบนั้นอีกแล้ว"
 
 # hi "No arguments from here."
-hi ""
+hi "ไม่มีข้อคัดค้านครับ"
 
 # "A yawn escapes her, and I raise an eyebrow."
-""
+"เอมิหาว ฉันเลิกคิ้วขึ้น"
 
 # hi "Tired?"
-hi ""
+hi "เพลียเหรอ"
 
 show emi sad_grin
 with charachange
 
 # "Emi nods sleepily."
-""
+"เอมิพยักหน้าง่วง ๆ"
 
 play music music_serene fadein 8.0
 
@@ -6877,178 +6877,178 @@ show emi sad_depressed
 with charachange
 
 # emi "Haven't slept well."
-emi ""
+emi "นอนไม่ค่อยหลับ"
 
 # "Not sleeping well?"
-""
+"นอนไม่ค่อยหลับเหรอ"
 
 # "I can tell that she didn't mean to tell me this either, because she gives a little start like she's just been caught lying and hastens to add,"
-""
+"ฉันดูออกว่าเอมิไม่ได้ตั้งใจจะบอกฉันเพราะเธอทำท่าเหมือนหลุดปากบางอย่างแล้วโดนจับโกหกได้ เอมิรีบเสริมว่า"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "It's not a big deal, though."
-emi ""
+emi "แต่ก็ไม่ใช่เรื่องใหญ่หรอก"
 
 # hi "What's the trouble?"
-hi ""
+hi "มีเรื่องอะไรหรือเปล่า"
 
 show emi basic_grin
 with charachange
 
 # "Emi shrugs and refuses to elaborate."
-""
+"เอมิยักไหล่ไม่ขยายความต่อ"
 
 # hi "Stressed over exams?"
-hi ""
+hi "เครียดเรื่องสอบเหรอ"
 
 # "Another shrug, but after a pause, Emi nods hesitantly."
-""
+"เอมิยักไหล่อีกรอบ แต่เธอเว้นช่วงไปก่อนจะกึ่ง ๆ พยักหน้า"
 
 show emi sad_shy
 with charachange
 
 # emi "Er, yeah, I guess."
-emi ""
+emi "เอ่อ อื้ม มั้งนะ"
 
 # emi "Actually, that's why I stopped by."
-emi ""
+emi "จริง ๆ ที่มานี่ก็เพราะเรื่องนั้นแหละ"
 
 # "She begins to look more and more miserable."
-""
+"เอมิทำหน้าสิ้นหวังหนักขึ้นเรื่อย ๆ"
 
 # "Not so you'd notice, of course; but her eyes are on her lap, she's fidgeting and her voice is quiet."
-""
+"แต่ไม่ได้ทำเพื่อให้เห็นหรอก เพราะเธอมองตักตัวเองแล้วบิดตัวไปมาพูดเสียงเบา"
 
 show emi sad_pout
 with charachange
 
 # emi "We uh, we need to stop hanging out so much."
-emi ""
+emi "เรา เอ่อ เราต้องเลิกอยู่ด้วยกันสักพักนะ"
 
 # hi "Huh? Why?"
-hi ""
+hi "หือ ทำไมล่ะ"
 
 # "Emi takes a deep breath, like she's been practicing this."
-""
+"เอมิสูดหายใจลึก ๆ เหมือนซ้อมบทมาแล้ว"
 
 show emi sad_shy
 with charachange
 
 # emi "Because you're too much fun to be around."
-emi ""
+emi "เพราะอยู่กับนายแล้วสนุกเกินไป"
 
 # emi "And I can't concentrate when you're near me."
-emi ""
+emi "พอนายอยู่ใกล้ ๆ แล้วฉันก็ไม่มีสมาธิเลย"
 
 # emi "With exams coming up soon, I just… can't have that distraction."
-emi ""
+emi "ยิ่งใกล้สอบแล้วด้วย ฉัน… ต้องมีสมาธิหน่อย"
 
 show emi sad_depressed
 with charachange
 
 # emi "Otherwise my grades will be pretty lousy, I'm afraid."
-emi ""
+emi "ไม่อย่างนั้นฉันเกรงว่าผลการเรียนของฉันจะตก"
 
 # hi "I could help you study…"
-hi ""
+hi "ฉันติวให้เธอได้นะ…"
 
 show emi sad_grin
 with charachange
 
 # "She smiles at me, clearly unhappy with the situation."
-""
+"เอมิยิ้มให้ สีหน้าชัดว่าไม่อยากให้เรื่องเป็นอย่างนี้เลย"
 
 # emi "I'd love it if you could, but we wouldn't actually study, would we?"
-emi ""
+emi "ถ้านายติวให้ได้ก็ดี แต่เราคงจะไม่ได้อ่านหนังสือกันจริง ๆ หรอก ใช่มั้ย"
 
 show emi sad_shy
 with charachange
 
 # emi "I mean even now, I'm trying to have a conversation with you but I kinda just want to, uh…"
-emi ""
+emi "คือแม้แต่ตอนนี้ที่ฉันตั้งสติจะคุยกับนายฉันยังอยาก เอ่อ…"
 
 show emi sad_shyblush
 with charachange
 
 # emi "Not converse."
-emi ""
+emi "อยากไม่คุยแล้ว"
 
 # hi "Ah."
-hi ""
+hi "อ้อ"
 
 # hi "Overwhelmed by my rugged manliness. I understand."
-hi ""
+hi "ความเป็นชายชาตรีของฉันมันมากล้นเกินสินะ เข้าใจ ๆ"
 
 show emi basic_grin
 with charachange
 
 # "That earns me a grin, at least."
-""
+"อย่างน้อยเอมิก็ยิ้มออกเพราะคำพูดนั้น"
 
 # "Emi shakes her head."
-""
+"เธอสั่นหัว"
 
 show emi basic_closedgrin
 with charachange
 
 # emi "Idiot. You're full of yourself."
-emi ""
+emi "บ้า หลงตัวเองนะนายเนี่ย"
 
 # hi "Well, I am pretty irresistible."
-hi ""
+hi "แหม เป็นใครก็หลงสเน่ห์ฉันน่า"
 
 show emi sad_shyblush
 with charachange
 
 # emi "Er, more or less. I guess."
-emi ""
+emi "เอ่อ ก็ใช่ มั้ง"
 
 show emi sad_grin
 with charachange
 
 # emi "So that's the situation, Hisao."
-emi ""
+emi "เรื่องก็ประมาณนั้นแหละฮิซาโอะ"
 
 # emi "I have too much fun around you, and if I'm going to go into exams prepared, I need to be alone."
-emi ""
+emi "ฉันอยู่กับนายแล้วสนุกเกินไป และถ้าฉันอยากเตรียมพร้อมกับเรื่องสอบฉันก็ต้องอยู่ตัวคนเดียว"
 
 # hi "Hey, that's okay."
-hi ""
+hi "นี่ ไม่เป็นไรน่า"
 
 # "It really seems to have been bothering her."
-""
+"เหมือนจะเครียดเพราะเรื่องนี้จริง ๆ"
 
 # "Besides, it's only a couple of weeks. And we'll still see each other in the mornings, and at lunch."
-""
+"อีกอย่าง ก็แค่สองสัปดาห์เอง แถมเรายังได้เจอกันตอนเช้ากับตอนเที่ยงอยู่"
 
 # hi  "We can just hang out at school, no problem."
-hi ""
+hi "ก็อยู่ด้วยกันตอนช่วงที่เรียนนั่นแหละ ไม่มีปัญหา"
 
 # hi "And after exams, we'll go on a date to celebrate their being over, okay?"
-hi ""
+hi "แล้วพอสอบเสร็จเราต้องไปฉลองที่จบเรื่องได้สักทีกันนะ"
 
 show emi basic_closedgrin
 with charachange
 
 # "Emi grins, pleased by this proposal."
-""
+"เอมิยิ้มดีใจกับข้อเสนอนี้"
 
 show emi basic_happy
 with charachange
 
 # emi "Yeah, sure! That sounds great!"
-emi ""
+emi "อื้ม ได้เลย! ใช้ได้ ๆ !"
 
 show emi excited_amused_close at center
 with characlose
 
 # "As if to signal the end of the conversation, she leans in and kisses me."
-""
+"เอมิโน้มตัวเข้ามาจูบฉันเหมือนเป็นการส่งสัญญาณจบบทสนทนานี้"
 
 # "The rest of the night is not spent worrying about exams."
-""
+"คืนนั้นทั้งคืนฉันไม่ได้คิดเรื่องสอบเลย"
 
 stop music fadeout 2.0
 
