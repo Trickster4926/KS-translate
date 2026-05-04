@@ -6504,7 +6504,7 @@ with charachange
 ke "ไม่เชื่อฉันงั้นเหรอ"
 
 # ke "That's cold, man. Real cold."
-ke "ใจร้ายนะนายเนี่ย ใจร้ายโคตร ๆ"
+ke "เย็นชานะนายเนี่ย เย็นชาโคตร ๆ"
 
 # ke "I'm just trying to look out for you. That's what friends do, you know."
 ke "ฉันแค่จะเตือนนายในฐานะเพื่อน"
@@ -7690,48 +7690,51 @@ with locationskip
 play music music_tranquil fadein 3.0
 
 # "I leave the room after finishing my final exam and breathe a sigh of relief."
-""
+"ฉันออกจากห้องมาหลังจากที่สอบเสร็จแล้วและถอนหายใจด้วยความโล่งอก"
 
 # "As I'd hoped, the exams weren't so bad. I managed to breeze through just about everything but the English final."
-""
+"ข้อสอบไม่ได้ยากมากดังหวัง ฉันทำข้อสอบปลายได้เกือบทุกวิชายกเว้นวิชาภาษาอังกฤษ"
 
 # "And even that was acceptable."
-""
+"ซึ่งก็ยังพอถูไถอยู่"
 
 # "I wonder how Emi did."
-""
+"เอมิจะเป็นยังไงบ้างนะ"
 
 # "Even more so, how she's doing; she looked terrible at lunch today."
-""
+"ไม่ได้หมายถึงแค่เรื่องสอบหรอก เห็นตอนเที่ยงดูไม่ค่อยไหวเลย"
 
 # "I mean, she was pretty happy to be out of her wheelchair, but she was so exhausted."
-""
+"เอมิก็ดีใจอยู่แหละที่ไม่ต้องใช้วีลแชร์แล้ว แต่เธอก็เพลียมาก"
 
 # "Something's been wearing her down, and I'm starting to really doubt that it was just the exams."
-""
+"เอมิเหนื่อยกับอะไรบางอย่างอยู่ ฉันชักสงสัยแล้วว่าน่าจะไม่ใช่แค่เครียดเรื่องสอบแน่ ๆ"
 
 # "Should I confront her about this, though?"
-""
+"แต่จะไปถามตรง ๆ เลยดีไหม"
 
 # "My musing is interrupted by a tap on the shoulder."
-""
+"ระหว่างที่คิดอยู่ก็มีนิ้วมาสะกิิดไหล่ฉัน"
 
 show muto smile at center
 with charaenter
 
 # mu "Hey, Hisao."
-mu ""
+mu "นี่ ฮิซาโอะ"
 
 label th_choiceE24:
 menu:
     with menueffect
 
-    mu "Got a minute?"
+    # mu "Got a minute?"
+    mu "พอจะมีเวลามั้ย"
 
-    "I suppose I can spare a few minutes.":
+    # "I suppose I can spare a few minutes.":
+    "สักสองสามนาทีคงไม่เป็นไร":
         return m1
 
-    "No, I have other things to worry about.":
+    # "No, I have other things to worry about.":
+    "ไม่ได้ ยังมีเรื่องอื่นให้ต้องคิดอยู่":
         return m2
 
 label th_E24a:
@@ -7741,13 +7744,13 @@ label th_E24a:
 #if a
 
 # hi "Yeah, I've got some time. Nowhere important to be or anything like that."
-hi ""
+hi "ครับ พอจะมีเวลาอยู่ ไม่ได้มีธุระต้องไปที่ไหนอะไรแบบนั้น"
 
 show muto normal
 with charachange
 
 # "Mutou raises an eyebrow as if questioning my statement, then beckons me back into the classroom."
-""
+"ครูเลิกคิ้วขึ้นสงสัยกับคำพูดของฉันก่อนจะบุ้ยใบ้ให้กลับเข้าไปที่ห้องเรียน"
 
 hide muto
 with charaexit
@@ -7759,178 +7762,178 @@ show muto normal at center
 with charaenter
 
 # mu "I wanted to get some feedback from you, if I could."
-mu ""
+mu "ครูแค่อยากถามความคิดเห็นเธอหน่อยว่าที่ฉันสอนเป็นยังไงบ้าง"
 
 # mu "I know that this course wasn't quite up to your level…"
-mu ""
+mu "ครูรู้ว่าวิชานี้ยังง่ายไปหน่อยสำหรับเธอ…"
 
 # hi "Don't worry about it. The science club activities more than made up for it."
-hi ""
+hi "ไม่ต้องห่วงหรอกครับ แค่กิจกรรมชมรมวิทยาศาสตร์ก็นับว่าชดเชยกันได้แล้ว"
 
 show muto smile
 with charachange
 
 # mu "Hmm, did they?"
-mu ""
+mu "อืมม งั้นเหรอ"
 
 show muto normal
 with charachange
 
 # mu "Well in fact, that's what I wanted to talk to you about."
-mu ""
+mu "โอเค ที่จริงครูก็อยากคุยกับเธอเรื่องนี้แหละ"
 
 # mu "Do you think that was a worthwhile activity? Just for my own reference."
-mu ""
+mu "เธอคิดว่ากิจกรรมมันคุ้มกับเวลาที่เสียไปมั้ย ครูจะได้เอาไปคิดต่อ"
 
 # hi "Well yeah, it was a great way to go further than we did in class. It was definitely worthwhile."
-hi ""
+hi "ก็ดีอยู่นะครับ ได้รู้เนื้อหาที่ไปไกลกว่าที่เราเรียนกันด้วย ถือว่าคุ้มมากครับ"
 
 show muto smile
 with charachange
 
 # "Mutou seems delighted by my response."
-""
+"ครูดูดีใจกับคำตอบนั้น"
 
 # mu "That's great! Exactly the sort of thing I was hoping for."
-mu ""
+mu "ดีแล้ว! นี่แหละที่ครูหวังไว้"
 
 # mu "You know, Hisao, I'm glad you came here. It's always good to have a student who really gets into the subject you teach."
-mu ""
+mu "นี่นะฮิซาโอะ ครูดีใจมากที่เธอมาเรียนที่นี่ พอมีนักเรียนที่สนใจวิชาที่ตัวเองสอนแล้วคนเป็นครูน่ะก็ย่อมรู้สึกดี\nอยู่แล้ว"
 
 # mu "In a way, it makes dealing with the rest of the students more tolerable."
-mu ""
+mu "ในแง่หนึ่งก็ทำให้มีแรงใจมารับมือกับนักเรียนคนอื่นด้วย"
 
 # mu "You're a bright kid, too. You took to this stuff like a duck to water, or some other such simile."
-mu ""
+mu "เธอก็เป็นเด็กฉลาดด้วย เรียนได้ง่าย ๆ เหมือนจระเข้ว่ายน้ำ หรือสำนวนอะไรแบบนั้นแหละ"
 
 # hi "Er, thanks."
-hi ""
+hi "เอ้อ ขอบคุณครับ"
 
 # hi "You were a great help. Especially with that college stuff."
-hi ""
+hi "ครูก็ช่วยผมได้หลายเรื่องเลย โดยเฉพาะเรื่องมหาวิทยาลัยอะไรพวกนี้"
 
 show muto normal
 with charachange
 
 # mu "There's one more thing, Hisao."
-mu ""
+mu "ยังมีอีกเรื่องนะฮิซาโอะ"
 
 # mu "A bit of advice, from one scientist to another."
-mu ""
+mu "จะขอให้คำแนะนำในฐานะนักวิทยาศาสตร์ด้วยกัน"
 
 # hi "What's that?"
-hi ""
+hi "อะไรเหรอครับ"
 
 # mu "What does a scientist do?"
-mu ""
+mu "นักวิทยาศาสตร์ทำอะไร"
 
 # hi "Observe the world around him."
-hi ""
+hi "สังเกตโลกรอบตัวครับ"
 
 show muto smile
 with charachange
 
 # mu "Exactly. Good."
-mu ""
+mu "ใช่เลย ดี"
 
 show muto normal
 with charachange
 
 # mu "A simple question, but one that most people can't seem to answer. That's the essence of a scientist, Hisao."
-mu ""
+mu "คำถามง่าย ๆ ที่หลายคนเหมือนจะตอบไม่ได้ นี่แหละคือแก่นแท้ของนักวิทยาศาสตร์ละฮิซาโอะ"
 
 # mu "We observe what's there, and try to figure it out."
-mu ""
+mu "เราสังเกตสิ่งที่อยู่ตรงหน้าแล้วก็ศึกษามัน"
 
 # mu "But what if there's something you can't figure out?"
-mu ""
+mu "แต่ถ้าเป็นสิ่งที่ศึกษาไม่ได้ล่ะ"
 
 # mu "What's a scientist to do if he can't observe something?"
-mu ""
+mu "ถ้านักวิทยาศาสตร์สังเกตอะไรไม่ได้แล้วเขาจะทำยังไง"
 
 # mu "How, for example, can we talk about quarks when nobody has ever actually seen one? Or black holes when observing them directly is impossible?"
-mu ""
+mu "เช่นว่า เราคุยเรื่องควาร์กกันได้ยังไงในเมื่อไม่มีใครเคยเห็นมันเลย หรือเราคุยเรื่องหลุมดำได้ยังไง\nในเมื่อการสังเกตโดยตรงนั้นเป็นไปไม่ได้"
 
 # hi "Well, scientific equipment's pretty advanced…"
-hi ""
+hi "ก็ เครื่องมือทางวิทยาศาสตร์สมัยนี้ก็พัฒนามาไกลมากแล้ว…"
 
 show muto irritated
 with charachange
 
 # "Mutou irritably waves away my response."
-""
+"ครูโบกมือปัด ๆ ด้วยความหงุดหงิดกับคำตอบฉัน"
 
 # mu "No, that's not it at all."
-mu ""
+mu "ไม่ ไม่ใช่อย่างนั้นเลย"
 
 # mu "Those are tools, I'm trying to give you a philosophy."
-mu ""
+mu "ของพวกนั้นเป็นเครื่องมือเฉย ๆ ครูกำลังจะให้เธอได้รู้จักกับแนวคิดอยู่"
 
 show muto normal
 with charachange
 
 # mu "Think. If you can't observe something directly, then how can you observe it?"
-mu ""
+mu "คิดดูสิ ถ้าเราสังเกตอะไรไม่ได้ตรง ๆ แล้วเราจะสังเกตยังไง"
 
 # hi "Uh, guess?"
-hi ""
+hi "เอ่อ เดาเหรอครับ"
 
 # mu "How? How would you guess the movement of a quark? What is your guess based on?"
-mu ""
+mu "ยังไงล่ะ เราจะเดาการเคลื่อนที่ของควาร์กยังไง เราใช้อะไรเดา"
 
 # "Of course."
-""
+"แหงอยู่แล้ว"
 
 # "I should have thought of it earlier."
-""
+"ทำไมถึงไม่คิดได้ตั้งแต่เมื่อกี้นะ"
 
 # hi "The things it affects."
-hi ""
+hi "สิ่งโดยรอบที่ได้รับผลกระทบจากสิ่งนั้น"
 
 show muto smile
 with charachange
 
 # "Mutou claps his hands together excitedly and whoops."
-""
+"ครูตบมือแปะด้วยความตื่นเต้นแล้วร้องด้วยความดีใจ"
 
 # mu "Yes, exactly. Good."
-mu ""
+mu "ใช่ นั่นแหละ ดีมาก"
 
 # mu "Remember that, Hisao."
-mu ""
+mu "จำไว้นะฮิซาโอะ"
 
 show muto normal
 with charachange
 
 # mu "If you can't examine something directly, it's because you're looking at it wrong."
-mu ""
+mu "ถ้าเราพิจารณาอะไรไม่ได้ตรง ๆ ก็เป็นเพราะเรามองผิดมุม"
 
 # mu "You have to look at it differently if you want to uncover the truth. And if it eludes you, then look at what it leaves behind."
-mu ""
+mu "ถ้าอยากรู้ความจริงเราก็ต้องมองอีกมุมหนึ่ง และถ้ายังมองไม่เห็นเราก็จะดูร่องรอยที่สิ่งนั้นทิ้งเอาไว้"
 
 # mu "That is the essence of being a scientist. We never stop looking for the answer. Never take anything for granted."
-mu ""
+mu "นี่แหละคือแก่นแท้ของการเป็นนักวิทยาศาสตร์ เราไม่เคยหยุดการค้นคว้าหาคำตอบ ห้ามมองอะไร\nไปแบบผ่าน ๆ เด็ดขาด"
 
 # mu "Observe, experiment, and observe some more."
-mu ""
+mu "สังเกต ทดลอง แล้วก็สังเกตซ้ำอีก"
 
 # mu "There's a lot of stuff out there that makes no sense, Hisao. Your job is to get it to make sense."
-mu ""
+mu "ยังมีอะไรหลายอย่างที่มันไม่สมเหตุสมผลนะฮิซาโอะ หน้าที่ของเธอคือการทำความเข้าใจให้มันสมเหตุสมผลขึ้นมา"
 
 # mu "If nothing else, I hope you've learned that here."
-mu ""
+mu "อย่างน้อย ๆ ครูก็หวังว่าเธอจะได้เรียนรู้แนวคิดนี้ตอนเรียนอยู่ที่นี่นะ"
 
 # hi "I think I can remember that."
-hi ""
+hi "จะจำไว้ครับ"
 
 show muto smile
 with charachange
 
 # "Mutou smiles, satisfied."
-""
+"ครูยิ้มด้วยความพอใจ"
 
 # mu "Good. Now go enjoy your time off. You've earned it."
-mu ""
+mu "ดี ทีนี้ก็ไปพักให้เต็มที่เถอะ เธอเหนื่อยมาเยอะแล้ว"
 
 stop music fadeout 8.0
 
@@ -7938,50 +7941,50 @@ scene bg school_hallway3
 with locationchange
 
 # "I leave the room feeling a little confused."
-""
+"ฉันออกจากห้องเรียนมาด้วยความสับสนเล็กน้อย"
 
 # "What brought that on?"
-""
+"ทำไมครูถึงพูดเรื่องนี้ขึ้นมา"
 
 # "Although…"
-""
+"แต่ว่า…"
 
 # "Am I going about this thing with Emi the wrong way?"
-""
+"หรือฉันจะคิดเรื่องเอมิผิดมุมไป"
 
 # "If she won't tell me, then can I go about it some other way?"
-""
+"ถ้าเอมิไม่ยอมบอก ก็อาจจะต้องหาทางอื่นเพื่อตามหาความจริง"
 
 #if b
 
 label th_E24b:
 
 # hi "Actually, I've got something I need to do…"
-hi ""
+hi "คือจริง ๆ ผมมีธุระอยู่…"
 
 show muto normal
 with charachange
 
 # mu "Yeah? Oh well."
-mu ""
+mu "อ้าว งั้นก็ไม่เป็นไร"
 
 # mu "I wanted to get some feedback on the science club from you. But we can do that later, I guess."
-mu ""
+mu "ครูแค่อยากขอความคิดเห็นจากเธอเรื่องชมรมวิทยาศาสตร์หน่อยน่ะ แต่ไว้ค่อยมาคุยกันก็ได้"
 
 # mu "Enjoy your break, you hear?"
-mu ""
+mu "พักผ่อนให้เต็มที่นะ"
 
 # hi "Thanks, I will."
-hi ""
+hi "ครับ ได้ครับ"
 
 # "I'd really love to chat with Mutou, but I've got other things on my mind."
-""
+"ก็อยากจะคุยกับครูอยู่หรอก แต่ในหัวฉันตอนนี้มีเรื่องอื่นอยู่"
 
 # "Specifically, what to do about Emi."
-""
+"หรือก็คือ ฉันจะเอายังไงกับเอมิดี"
 
 # "Can I really just confront her?"
-""
+"ไปเจอหน้ากันตรง ๆ เลยได้หรือเปล่า"
 
 #end split
 
@@ -7991,7 +7994,7 @@ scene bg school_dormhisao
 with locationskip
 
 # "The question keeps spinning in my head even after I made my way back to my room."
-""
+"คำถามเหล่านั้นยังคงวนเวียนอยู่ในหัวมาแม้แต่ตอนที่ถึงห้องแล้ว"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -8000,34 +8003,34 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nWhat if she gets angry about it?"
-n ""
+n "\n\nถ้าเกิดว่าเอมิโกรธขึ้นมาล่ะ"
 
 # n "Besides, what if it's nothing?"
-n ""
+n "อีกอย่าง ถ้าเกิดมันไม่มีอะไรเลยล่ะ"
 
 # n "If I go in and refuse to leave until she tells me what's wrong or something, won't that come off as clingy?"
-n ""
+n "ถ้าฉันเข้าไปในห้องแล้วไม่ยอมออกมาจนกว่าเอมิจะยอมบอกว่ามีเรื่องอะไรแล้วจะดูเป็นคนตื๊อเกินไปมั้ย"
 
 # n "I don't want to start a fight or anything over something like this."
-n ""
+n "ไม่อยากมาทะเลาะกันเพราะเรื่องแบบนี้เลย"
 
 # n "Maybe I should just drop the matter and see how she is tomorrow before I do anything."
-n ""
+n "หรือจะพักเรื่องนี้ไว้ก่อน รอดูว่าพรุ่งนี้เอมิจะเป็นยังไงแล้วค่อยทำอะไรต่อ"
 
 # n "Would it be so bad to just let it go?"
-n ""
+n "ปล่อย ๆ ไปเลยก็คงไม่ได้แย่หรอกมั้ง"
 
 # n "It's not like we don't enjoy each other's company."
-n ""
+n "ใช่ว่าเราจะรังเกียจการอยู่ด้วยกันที่ไหน"
 
 # n "But odd as it sounds, I really want to… help her."
-n ""
+n "แต่ถึงจะฟังดูแปลก ฉันอยากจะ… ช่วยเอมิจริง ๆ"
 
 # n "I don't even know what with or if there's anything at all she needs help for."
-n ""
+n "ฉันไม่รู้ด้วยซ้ำว่าเอมิจะมีเรื่องอะไรให้ฉันช่วยได้หรือเปล่า"
 
 # n "But I want to."
-n ""
+n "แต่ฉันอยากช่วย"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -8041,7 +8044,7 @@ nvl hide dissolve
 window show
 
 # "Suddenly, a knock at my door rouses me."
-""
+"อยู่ ๆ ก็มีเสียงเคาะประตูดังแทรกขึ้นมา"
 
 play sound sfx_dooropen
 
@@ -8050,10 +8053,10 @@ show kenji neutral at center
 with locationchange
 
 # "I open it to see Kenji."
-""
+"พอไปเปิดดูก็เห็นว่าเป็นเคนจิ"
 
 # hi "Oh, it's you."
-hi ""
+hi "อ้อ นายนี่เอง"
 
 play music music_kenji
 
@@ -8061,103 +8064,103 @@ show kenji tsun
 with charachange
 
 # ke "It's me? That's it?"
-ke ""
+ke "ฉันนี่เอง? แค่เนี้ย?"
 
 # ke "If you had any idea what I'd been through, what I'd done, you'd be happier to see me, dude."
-ke ""
+ke "ถ้านายรู้ว่าฉันต้องผ่านอะไรมาบ้างและทำอะไรมาบ้างนายคงดีใจกว่านี้ที่ได้เจอฉันนะพวก"
 
 # ke "I mean that was some epic, you-may-never-see-me-again shit."
-ke ""
+ke "ก็แบบ เป็นเรื่องสุดยิ่งใหญ่ แบบ นายอาจจะไม่ได้พบกับฉันอีกเลย น่ะ"
 
 # ke "And here you're just acting like I went down to the store for some milk."
-ke ""
+ke "แต่นายก็ทำเหมือนฉันแค่ออกไปซื้อนมที่ร้านค้าหรืออะไรงั้นแหละ"
 
 show kenji happy
 with charachange
 
 # ke "You're a cold man, Hisao. I really respect that."
-ke ""
+ke "นายนี่เย็นชานะฮิซาโอะ ฉันละนับถือเลย"
 
 # hi "Uh, thanks, I guess."
-hi ""
+hi "เอ่อ ขอบคุณ ละมั้งนะ"
 
 show kenji neutral
 with charachange
 
 # ke "It's smart to play it safe, you know. Don't show any emotion."
-ke ""
+ke "นิ่ง ๆ ไว้น่ะดีที่สุด ห้ามแสดงอารมณ์ใด ๆ"
 
 # ke "Keep your cards close to your chest."
-ke ""
+ke "ถือไพ่ไว้ให้ใกล้ตัว"
 
 # ke "Unless it's time to show your cards, or you have bad cards."
-ke ""
+ke "เว้นเสียแต่ว่าจะมีไพ่ไม่ดีหรือถึงเวลาหงายไพ่"
 
 # ke "Then you should fold or collect your winnings."
-ke ""
+ke "ถึงตอนนั้นแล้วก็ให้หมอบหรือกวาดเดิมพันมาให้หมด"
 
 show kenji happy
 with charachange
 
 # ke "Do you understand?"
-ke ""
+ke "เข้าใจมั้ย"
 
 # hi "Yeah, that makes perfect sense."
-hi ""
+hi "อืม เข้าใจมาก ๆ"
 
 # hi "I take it the uh, mission went well?"
-hi ""
+hi "แบบนี้ก็แสดงว่า เอ่อ ภารกิจลุล่วงด้วยดีงั้นสิ"
 
 show kenji tsun
 with charachange
 
 # ke "Woah, awfully nosy of you, isn't it?"
-ke ""
+ke "โห สอดรู้นะนายเนี่ย"
 
 # ke "You can't just go saying things like that! Things are at a delicate stage!"
-ke ""
+ke "พูดอะไรอย่างนั้นออกมาดืื้อ ๆ เลยได้ไง! สถานการณ์ตอนนี้ยังอ่อนไหวอยู่นะ!"
 
 # ke "One wrong move, and BAM! The invasion succeeds!"
-ke ""
+ke "ขืนก้าวพลาดสักก้าวแล้วละก็ตู้ม! ภารกิจแทรกซึมสำเร็จ!"
 
 # hi "I thought you were going to blow the conspiracy wide open?"
-hi ""
+hi "ไหนนายบอกว่าจะเปิดโปงไอ้ทฤษฎีสมคบคิดนี่ไง"
 
 # ke "It's bigger than I thought; I need to update my charts."
-ke ""
+ke "พอดีเรื่องมันใหญ่กว่าที่คิดน่ะ ฉันต้องไปอัปเดตผังสักหน่อย"
 
 # ke "And probably change some of the puppets around."
-ke ""
+ke "แล้วก็ต้องสลับสับเปลี่ยนหุ่นเชิดบางตัวด้วย"
 
 show kenji happy
 with charachange
 
 # ke "You wanna help? I've got some whiskey from… somewhere."
-ke ""
+ke "สนใจมาช่วยมั้ย ฉันมีวิสกี้ที่… ได้มาจากสักที่ด้วย"
 
 # ke "You can fill me in on everything your investigation has turned up."
-ke ""
+ke "นายได้ความอะไรมาบ้างก็จะได้มาบอกฉันด้วยไง"
 
 # hi "Er, better not. I'm uh… supposed to meet her today."
-hi ""
+hi "เอ้อ ไม่เอาดีกว่า ฉัน เอ่อ… ต้องไปเจอกับเอมิวันนี้"
 
 # hi "Gotta go do that. Can't raise suspicion."
-hi ""
+hi "จำเป็นต้องเจอจริง ๆ จะให้เอมิสงสัยไม่ได้"
 
 show kenji neutral
 with charachange
 
 # "Kenji nods in approval."
-""
+"เคนจิพยักหน้าเห็นด้วย"
 
 # ke "Still keeping it close to the chest, eh? Okay man, I respect that."
-ke ""
+ke "แต่ก็ถือไพ่ไว้ให้ใกล้ตัวล่ะ โอเค นับถือนายเลย"
 
 # ke "Good luck."
-ke ""
+ke "ขอให้โชคดี"
 
 # hi "Er, thanks."
-hi ""
+hi "เอ่อ ขอบคุณ"
 
 hide kenji
 with charaexit
@@ -8165,19 +8168,19 @@ with charaexit
 stop music fadeout 4.0
 
 # "I'm just going to pretend, for the sake of my own sanity, that he's wishing me luck in talking to Emi."
-""
+"ฉันจะจินตนาการเอาเองเพื่อไม่ให้ตัวเองเป็นบ้าไปก่อนว่าเคนจิอวยพรให้การคุยกับเอมิของฉันราบรื่น"
 
 # "And if I squint, that whole card analogy he was talking about works here."
-""
+"หรือถ้าโยง ๆ สักหน่อย เรื่องไพ่ที่เคนจิพูดถึงนี่ก็เปรียบเหมือนได้อยู่"
 
 # "Time to lay it all on the table."
-""
+"ถึงเวลาหงายไพ่แล้ว"
 
 # "Or see if I can't get Emi to do so, rather."
-""
+"หรือมองว่าฉันจะทำให้เอมิหงายไพ่ได้บ้างหรือเปล่า"
 
 # "With a sense of something approaching purpose, I head for Emi's room."
-""
+"ฉันไปที่ห้องเอมิด้วยความรู้สึกสักอย่างที่ละม้ายคล้ายจุดมุ่งหมาย"
 
 scene bg school_girlsdormhall
 with locationskip
@@ -8185,36 +8188,36 @@ with locationskip
 play sound sfx_doorknock2
 
 # "I hop up the stairs leading to her room and knock on her door."
-""
+"ฉันเดินขึ้นบันไดมาแล้วเคาะประตูห้องเอมิ"
 
 # emi "W-who's there?"
-emi ""
+emi "คะ ใครน่ะ"
 
 play music music_drama fadein 8.0
 
 # "Huh. That's odd. Her voice sounds a little choked."
-""
+"หือ แปลก เสียงฟังดูสะอื้นอยู่หน่อย ๆ"
 
 # hi "Hey, it's me. Thought I'd stop by."
-hi ""
+hi "ไง ฉันเอง พอดีจะแวะมาหาเธอหน่อย"
 
 # emi "Hisao?"
-emi ""
+emi "ฮิซาโอะ?"
 
 # emi "Come on in!"
-emi ""
+emi "เข้ามาเลย!"
 
 # "I reach down to open the door, only to find that it's locked."
-""
+"ฉันยื่นมือไปจับหมายจะเปิดประตู แต่พอลองบิดดูก็รู้ว่าล็อกไว้"
 
 # "More and more curious."
-""
+"ฉันยิ่งนึกสงสัยขึ้นไปอีก"
 
 # hi "Er, your door's locked."
-hi ""
+hi "เอ่อ ประตูเธอมันล็อกอยุ่"
 
 # emi "Oh yeah, sorry. Gimme a minute."
-emi ""
+emi "อ้อ จริงด้วย ขอโทษที แป๊บนะ"
 
 show emi basic_grin:
     tworight
@@ -8223,125 +8226,125 @@ show emi basic_grin:
 with charaenter
 
 # "In a few minutes, Emi opens the door, grinning."
-""
+"ผ่านไปไม่กี่นาทีเอมิก็มาเปิดประตูพร้อมส่งยิ้ม"
 
 # emi "Sorry, I had to put my legs on. I was napping."
-emi ""
+emi "ขอโทษที พอดีต้องใส่ขาน่ะ เมื่อกี้งีบอยู่"
 
 # "Despite her grin, there's something definitely off."
-""
+"ถึงจะยิ้ม แต่มีบางอย่างแปลกไป"
 
 # "Emi's eyes are slightly red, and it looks like she's been crying."
-""
+"ตาเอมิแดง ๆ เหมือนเพิ่งร้องไห้มา"
 
 # hi "Hey, no problem."
-hi ""
+hi "น่า เรื่องแค่นี้"
 
 # hi "Er, are you okay?"
-hi ""
+hi "เอ่อ เธอไม่เป็นอะไรใช่มั้ย"
 
 show emi sad_shy at tworight
 with charachange
 
 # emi "Huh? Yeah, I'm fine!"
-emi ""
+emi "หืม อื้ม ก็สบายดี!"
 
 # hi "It's just that you look like you've been crying…"
-hi ""
+hi "แค่เห็นเธอเหมือนเพิ่งร้องไห้มาน่ะ…"
 
 # "Oh yeah, Hisao. You're off to a great start on this one."
-""
+"แบบนี้สิไอ้ฮิซาโอะ เปิดได้สวย"
 
 show emi sad_grin at tworight
 with charachange
 
 # emi "What? Nah, I'm fine. I'm just happy to see you."
-emi ""
+emi "อะไรนะ ไม่นี่ ก็สบายดี แค่ดีใจที่ได้เจอนายเฉย ๆ"
 
 scene ev emi_firstkiss
 with flash
 
 # "She punctuates this with a long kiss that continues as the door slams shut behind us."
-""
+"เอมิประกบประโยคนี้ด้วยการจูบเนิ่นนานที่กินเวลาไปเรื่อย ๆ แม้จะปิดประตูเข้ามาในห้องกันแล้ว"
 
 # "I know what she wants to do now, and I'm also painfully aware of how badly I want to do it too, but…"
-""
+"ฉันรู้ว่าตอนนี้เอมิอยากทำอะไร และฉันก็รู้ดีเหลือเกินว่าฉันเองก็อยากทำมาก ๆ แต่ว่า…"
 
 scene bg school_dormemi at left
 show emi excited_amused_close at center
 with locationchange
 
 # "I break the kiss with a wrench of self control that nearly kills me."
-""
+"ฉันบังคับตัวเองจนแทบบ้ากว่าจะผละจูบออกมาได้"
 
 # hi "Hey, wait."
-hi ""
+hi "นี่ เดี๋ยวก่อน"
 
 show emi basic_confused_close
 with charachange
 
 # "Emi's eyes crinkle in confusion."
-""
+"เอมิทำหน้าย่นด้วยความสับสน"
 
 # emi "Huh? Wait for what?"
-emi ""
+emi "ฮะ? รออะไร"
 
 # hi "We need to talk."
-hi ""
+hi "เรามีเรื่องต้องคุยกัน"
 
 show emi sad_grin_close
 with charachange
 
 # emi "Isn't that supposed to be my line?"
-emi ""
+emi "อันนั้นมันคำพูดของฉันไม่ใช่เหรอ"
 
 show emi sad_shy_close
 with charachange
 
 # emi "And never a good thing to say?"
-emi ""
+emi "อีกอย่าง ถ้าจั่วหัวมาแบบนี้ก็แปลว่าไม่ใช่เรื่องดีสินะ"
 
 # "She's got a point."
-""
+"ก็ถูกของเอมิ"
 
 # "It's usually the lead-in to a breakup."
-""
+"เป็นคำพูดที่เกริ่นมาก่อนจะบอกเลิกกัน"
 
 # "Or the prelude to a fight."
-""
+"หรือไม่ก็เป็นบทพูดนำก่อนจะทะเลาะกัน"
 
 # hi "Maybe it can be a good thing this time."
-hi ""
+hi "คราวนี้อาจจะเป็นเรื่องดีก็ได้"
 
 # hi "Er, that's the hope, anyway."
-hi ""
+hi "เอ่อ ฉันหวังว่ามันจะดีอะนะ"
 
 show emi sad_shyblush_close
 with charachange
 
 # emi "Uh… huh."
-emi ""
+emi "อ่า… ฮะ"
 
 show emi basic_grin_close
 with charachange
 
 # emi "Can we at least get onto the bed? It's my first day back on these things, and I'm still readjusting."
-emi ""
+emi "งั้นไปนั่งที่เตียงกันก่อนได้ไหม ฉันเพิ่งกลับมาใส่ขาเทียมวันนี้เป็นวันแรกเลยยังไม่ค่อยชินเท่าไหร่"
 
 show emi basic_closedgrin_close
 with charachange
 
 # emi "Plus the nurse said I should try to be on them less often, since running puts such a strain on them."
-emi ""
+emi "อีกอย่าง คุณพยาบาลก็บอกด้วยว่าห้ามใส่ขาเทียมบ่อย เพราะใช้งานตอนวิ่งไปเยอะแล้ว"
 
 # hi "Can't argue with that."
-hi ""
+hi "ก็เถียงไม่ได้"
 
 # "It's a trap, we both know it, and we both don't care."
-""
+"เป็นกับดัก เราต่างรู้ดี และเราต่างก็ไม่สนใจ"
 
 # "Then again, it's awfully hard to get angry while in bed with the object of your affections, so maybe there's that motivation too."
-""
+"แต่ก็นะ พอได้มานั่งอยู่บนเตียงกับคนที่ตัวเองหลงรักแล้วก็โกรธไม่ค่อยลง อาจจะเพราะอย่างนี้ด้วยถึงได้ไม่สนใจ"
 
 hide emi
 with charaexit
@@ -8356,218 +8359,218 @@ show emi basic_grin_close:
 with charaenter
 
 # "I set Emi's legs by the bedside and sit down next to her, throwing an arm around her shoulders."
-""
+"ฉันวางขาเทียมเอมิไว้ข้างเตียงแล้วมานั่งข้าง ๆ โอบไหล่เธอเอาไว้"
 
 # "In silence, we just enjoy being able to be in this position again for a few minutes."
-""
+"เราเพียงปล่อยให้ตัวเองยินดีที่ได้อยู่ด้วยกันในท่านี้เงียบ ๆ อยู่สองสามนาที"
 
 # "Then, of course, I need to ruin it by opening my mouth."
-""
+"จากนั้นก็แน่นอนว่าฉันต้องเปิดปากทำลายบรรยากาศนี้ลง"
 
 # hi "Look, I know that… that you've been having kind of a rough time of it lately."
-hi ""
+hi "นี่นะ ฉันรู้… ว่าช่วงนี้เธอมีเรื่องลำบากใจอยู่"
 
 # hi "And I want to help you out."
-hi ""
+hi "แล้วฉันก็อยากช่วยเธอด้วย"
 
 # hi "I thought it was just exams getting to you, but now I come to your room and you've been crying, and that kills me."
-hi ""
+hi "ทีแรกก็คิดว่าคงเพราะเรื่องสอบเฉย ๆ แต่พอมาหาเธอที่ห้องแล้วเห็นเธอร้องไห้เนี่ยฉันใจสลายเลยนะ"
 
 # hi "But I can't do anything if you won't talk to me about it."
-hi ""
+hi "แต่ฉันก็ทำอะไรไม่ได้เพราะเธอไม่ยอมคุยกับฉัน"
 
 show emi basic_closedgrin_close:
      ypos 1.1
 with charachange
 
 # emi "I told you, I'm fine."
-emi ""
+emi "ก็บอกแล้วไงว่าไม่เป็นไร"
 
 # hi "No, you aren't. It's obvious something's eating at you."
-hi ""
+hi "เป็น เป็นสิ ก็เห็น ๆ อยู่ว่ามีเรื่องกวนใจเธอน่ะ"
 
 # hi "You can tell me, you know."
-hi ""
+hi "คือเธอจะเล่าให้ฉันฟังก็ได้"
 
 # "There's the slightest increase in tension in Emi's voice."
-""
+"น้ำเสียงเอมิฟังดูเครียดขึ้นมาเสี้ยวหนึ่ง"
 
 show emi sad_shy_close
 with charachange
 
 # emi "Why is my saying I'm fine not good enough?"
-emi ""
+emi "แล้วแค่ฉันบอกว่าไม่เป็นไรนี่มันไม่พอหรือไง"
 
 show emi sad_annoyed_close
 with charachange
 
 # emi "You're concerned, I get that. That's cool."
-emi ""
+emi "นายเป็นห่วง ฉันรู้ ซึ่งก็ดีแล้ว"
 
 # emi "But I'm fine, and it's nothing that you need to worry about."
-emi ""
+emi "แต่ฉันก็ไม่เป็นไร แล้วก็ไม่ใช่เรื่องที่นายจำเป็นจะต้องมาคิดมากด้วย"
 
 # hi "Not sleeping and spacing out more than Rin doesn't strike me as “being fine.”"
-hi ""
+hi "ฉันว่าการที่นอนไม่พอแล้วเหม่อบ่อยกว่ารินนี่นับว่า “ไม่เป็นไร” ไม่ได้นะ"
 
 # hi "I just… I want to help."
-hi ""
+hi "ฉันแค่… อยากช่วยเธอ"
 
 # emi "Uh-huh."
-emi ""
+emi "อ่าฮะ"
 
 # hi "Yeah, I don't like seeing you like this."
-hi ""
+hi "อืม ก็ไม่อยากเห็นเธอเป็นแบบนี้นั่นแหละ"
 
 # hi "I want you to be happy, you know?"
-hi ""
+hi "ฉันอยากให้เธอมีความสุขไง"
 
 show emi basic_annoyed_close
 with charachange
 
 # "I get the feeling that came out wrong, because Emi fixes me with an icy stare."
-""
+"รู้สึกเหมือนพูดอะไรพลาดไปเพราะตอนนี้เอมิจ้องมองฉันด้วยสายตาเย็นชา"
 
 # emi "So you want to fix me, Hisao?"
-emi ""
+emi "ก็คือนายอยากแก้ปัญหาให้ฉันเหรอฮิซาโอะ"
 
 # "She's definitely getting angry now."
-""
+"ตอนนี้เอมิโกรธแน่แล้ว"
 
 show emi sad_grit_close
 with charachange
 
 # emi "Wanna swoop in on your white charger and save the day?"
-emi ""
+emi "อยากจะเป็นพระเอกขี่ม้าขาวเข้ามาช่วยว่างั้น"
 
 # emi "Stop the nightmares, the phantom limb pains?"
-emi ""
+emi "ช่วยปัดเป่าฝันร้าย ปัดเป่าอาการปวดหลอนเหรอ"
 
 show emi sad_angry_close
 with charachange
 
 # emi "Restore what's lost?"
-emi ""
+emi "ช่วยกู้คืนสิ่งที่เสียไปแล้วเหรอ"
 
 show emi sad_depressed_close
 with charachange
 
 # "Her voice catches in her throat, and the tears start to flow."
-""
+"ก้อนสะอื้นขึ้นมาจุกคอเอมิ น้ำตาเธอเริ่มไหล"
 
 # emi "Well you {b}can't{/b}."
-emi ""
+emi "เหอะ นายช่วย{b}ไม่ได้{/b}หรอก"
 
 show emi sad_pout_close
 with charachange
 
 # emi "Nobody can."
-emi ""
+emi "ไม่มีใครช่วยได้"
 
 # emi "Nobody will."
-emi ""
+emi "ไม่มีเลย"
 
 # "I'm so stunned by her sudden verbal assault that I remain quiet."
-""
+"ฉันตะลึงงันกับคำพูดที่ไหลบ่าออกมาจากเอมิจนได้แต่นั่งอยู่เงียบ ๆ"
 
 # "Neither of us says anything for a while."
-""
+"เราต่างไม่พูดอะไรกันอยู่พักหนึ่ง"
 
 # "I'm surprised that Emi tightens her grip on me rather than pushing me away."
-""
+"ฉันนึกแปลกใจที่เอมิกำหมัดแน่นแทนที่จะผลักตัวฉันออก"
 
 # "After a deep breath, she starts talking again."
-""
+"เอมิสูดหายใจลึกแล้วพูดขึ้นมาอีกรอบ"
 
 show emi sad_shy_close
 with charachange
 
 # emi "Look, I'm sorry."
-emi ""
+emi "โอเค ฉันขอโทษ"
 
 show emi sad_depressed_close
 with charachange
 
 # emi "I just… there's these nightmares."
-emi ""
+emi "คือฉัน… ฝันร้ายน่ะ"
 
 # emi "About the accident."
-emi ""
+emi "เรื่องอุบัติเหตุ"
 
 # "Ah. The accident. I should've known."
-""
+"อ้อ อุบัติเหตุ น่าจะเดาได้แต่แรกแล้ว"
 
 # "It took her legs, after all, but it never comes up, of course."
-""
+"ก็เป็นอุบัติเหตุที่ทำให้เอมิเสียขาไปนี่นะ แต่แน่นอนว่าเราไม่เคยคุยเรื่องนี้กันเลย"
 
 show emi sad_pout_close
 with charachange
 
 # emi "And I usually deal with them fine, because I can run."
-emi ""
+emi "และปกติฉันก็ไม่ต้องคิดมากเพราะฉันวิ่งได้"
 
 # emi "Running clears my head like nothing else."
-emi ""
+emi "การวิ่งน่ะคือยาชำระจิตใจชั้นดีของฉันเลย"
 
 # emi "I don't have to worry about anything while I'm running."
-emi ""
+emi "ตอนวิ่งก็ไม่ต้องไปคิดอะไร"
 
 # emi "I just concentrate on breathing, on the rhythm of things."
-emi ""
+emi "แค่จดจ่ออยู่กับการหายใจ จดจ่ออยู่กับจังหวะของอะไร ๆ"
 
 # emi "It's easier that way. Life's easier that way."
-emi ""
+emi "แบบนั้นน่ะสบายกว่ากันเยอะ ใช้ชีวิตแบบนั้นแล้วสบายดี"
 
 show emi sad_shy_close
 with charachange
 
 # emi "Just keep moving forwards, you know? Nothing else matters, just getting around the next curve."
-emi ""
+emi "แบบ แค่เดินหน้าไปเรื่อย ๆ เรื่องอื่นไม่สำคัญแล้ว ขอแค่ผ่านโค้งถัดไปไปให้ได้ก็พอ"
 
 # emi "And then it's the next curve, and the next, and the next, until I can't go any more, or think any more, or do anything but slow down and walk until I catch my breath again."
-emi ""
+emi "แล้วก็จะมีโค้งถัดไปอีก โค้งถัด ๆ ไป โค้งถัด ๆ ๆ ไป จนฉันไปต่อไม่ไหว คิดไม่ไหว ทำอะไรไม่ไหว ถึงตอนนั้น\nฉันก็จะผ่อนฝีเท้าลงแล้วเดินพักให้หายใจได้เต็มปอดอีกรอบ"
 
 # emi "After something like that, nothing else matters."
-emi ""
+emi "พอทำอะไรแบบนั้นมาเรื่องอื่นก็จะไม่สำคัญแล้ว"
 
 show emi basic_annoyed_close
 with charachange
 
 # emi "But I've been stuck in that goddamned wheelchair for too long. So, no outlet."
-emi ""
+emi "แต่ฉันต้องนั่งติดเจ้าวีลแชร์บ้านั่นอยู่นานเกินไป ก็เลยไม่มีที่ระบาย"
 
 show emi sad_shy_close
 with charachange
 
 # emi "Today it just kinda boiled over a little."
-emi ""
+emi "แล้ววันนี้อารมณ์มันก็ปะทุออกมาหน่อย ๆ"
 
 # hi "You could have talked to me about it, you know."
-hi ""
+hi "เธอจะมาคุยกับฉันก็ได้นี่"
 
 # hi "You didn't have to go it alone."
-hi ""
+hi "ไม่เห็นต้องอยู่ตัวคนเดียวเลย"
 
 show emi sad_grin_close
 with charachange
 
 # "Emi smiles sadly, like she's trying to explain to a child that all fire burns."
-""
+"เอมิยิ้มเศร้า ๆ เหมือนต้องอธิบายให้เด็กฟังว่าไฟมันร้อน"
 
 # emi "Yeah, I did. And I do."
-emi ""
+emi "อืม ตอนนั้นฉันอยู่ตัวคนเดียว ตอนนี้ก็ด้วย"
 
 # hi "But why?"
-hi ""
+hi "แต่ทำไมล่ะ"
 
 # hi "Why do you have to keep going through this alone?"
-hi ""
+hi "ทำไมเธอถึงเอาแต่จัดการกับเรื่องพวกนี้อยู่ตัวคนเดียว"
 
 # hi "Why can't you just trust me enough to let me help you?"
-hi ""
+hi "ทำไมเธอถึงไม่เชื่อใจให้ฉันช่วยเธอบ้าง"
 
 # "That smile again."
-""
+"รอยยิ้มนั้นอีกแล้ว"
 
 show emi excited_amused_close
 with charachange
@@ -8576,88 +8579,88 @@ show emi sad_grin_close
 with charachange
 
 # "Emi leans in and kisses me on my cheek, an almost motherly gesture."
-""
+"เอมิโน้มตัวเข้ามาหอมแก้มฉันคล้ายตอนที่แม่หอมแก้มลูก"
 
 # "She leaves her mouth close to my ear, as she confesses this one thing to me."
-""
+"เธอไม่ผละริมฝีปากไปจากหูฉันก่อนจะสารภาพเรื่องนี้ให้ฉันฟัง"
 
 show emi sad_shy_close
 with charachange
 
 # emi "Because, Hisao."
-emi ""
+emi "เพราะว่านะฮิซาโอะ"
 
 # emi "I've already had everything I knew ripped away from me once."
-emi ""
+emi "ฉันเคยเสียทุกอย่างที่ฉันเคยมีไปแล้วครั้งหนึ่ง"
 
 show emi sad_depressed_close
 with charachange
 
 # emi "I don't know what I'd do if it happened again."
-emi ""
+emi "และฉันก็ไม่รู้ว่าถ้าต้องเสียไปอีกรอบฉันจะต้องทำยังไงดี"
 
 # "She pauses, as if uncertain as to whether or not she should continue."
-""
+"เอมิเว้นช่วงไปเหมือนไม่แน่ใจว่าจะพูดต่อดีหรือเปล่า"
 
 # "I can feel a violent churning in my gut."
-""
+"ฉันมวนท้องไปหมด"
 
 # "She continues."
-""
+"เอมิพูดต่อ"
 
 show emi sad_shy_close
 with charachange
 
 # emi "So I can't rely on you."
-emi ""
+emi "เพราะงั้นฉันถึงเชื่อใจเธอไม่ได้"
 
 # emi "Or the nurse."
-emi ""
+emi "เชื่อใจคุณพยาบาลไม่ได้"
 
 # emi "Or anyone else."
-emi ""
+emi "เชื่อใจใครไม่ได้เลย"
 
 show emi sad_pout_close
 with charachange
 
 # emi "Just me."
-emi ""
+emi "มีแค่ฉัน"
 
 # emi "That's how it's got to be."
-emi ""
+emi "และจะไม่มีวันเปลี่ยน"
 
 # "Having delivered this short speech, she looks down and covers her mouth with the back of her hand."
-""
+"พอพูดประโยคสั้น ๆ เหล่านั้นแล้วเอมิก็ก้มหน้ายกหลังมือขึ้นมาปิดปากไว้"
 
 # "The conversation is clearly over. I search for something to say, but can't think of anything."
-""
+"ชัดเจนว่าบทสนทนานี้จบลงแล้ว ฉันนึกหาคำจะพูดแต่ก็นึกไม่ออก"
 
 # hi "I…"
-hi ""
+hi "ฉัน…"
 
 # hi "Maybe I should go, for now."
-hi ""
+hi "ฉันว่าฉันไปก่อนดีกว่า"
 
 # hi "I've got… stuff."
-hi ""
+hi "ฉันมี… เรื่องที่ต้องทำ"
 
 # "Emi doesn't even look up."
-""
+"เอมิไม่แม้แต่จะเงยหน้ามอง"
 
 # "She sounds tired, or relieved."
-""
+"น้ำเสียงเธอฟังดูเพลีย หรือไม่ก็โล่งใจ"
 
 # "I can't tell which."
-""
+"ฉันเดาไม่ถูก"
 
 # emi "Okay, Hisao."
-emi ""
+emi "โอเค ฮิซาโอะ"
 
 # emi "Go take care of that stuff."
-emi ""
+emi "ไปจัดการกับเรื่องนั้นซะนะ"
 
 # emi "I'll see you tomorrow."
-emi ""
+emi "เดี๋ยวพรุ่งนี้เจอกัน"
 
 hide emi
 with charaexit
@@ -8668,16 +8671,16 @@ show bg school_dormemi at left
 with charamove
 
 # "I get off the bed and head for the door, pausing at the doorway."
-""
+"ฉันลุกขึ้นจากเตียงเดินออกไปก่อนจะหยุดยืนอยู่ตรงหน้าประตู"
 
 # hi "Hey, Emi…"
-hi ""
+hi "นี่ เอมิ…"
 
 show emi sad_shy at tworight
 with charaenter
 
 # emi "Yeah?"
-emi ""
+emi "ว่า"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -8686,34 +8689,34 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nA thousand things I want to say."
-n ""
+n "\n\nคำพูดร้อยพันที่ฉันอยากพูด"
 
 # n "I'm too mixed up to say any of them, though."
-n ""
+n "แต่ก็คละเคล้ากันไปหมดจนไม่รู้จะพูดอะไร"
 
 # n "After her admitting that she'll never let me close, I feel like {b}my{/b} world's just been ripped out from me."
-n ""
+n "พอเอมิยอมรับแล้วว่าจะไม่มีวันให้ใครได้เข้าใกล้ชิดแล้วฉันก็รู้สึกเหมือนโลก{b}ตัวเอง{/b}ถูกพรากไปทั้งใบ"
 
 # n "What happened in that accident?"
-n ""
+n "เกิดอะไรขึ้นตอนอุบัติเหตุครั้งนั้น"
 
 # n "I know she lost her legs, but that's never seemed to bother her."
-n ""
+n "ฉันรู้ว่าเอมิเสียขาไป แต่เธอก็ดูจะไม่เคยคิดมากเรื่องนี้เลย"
 
 # n "What happened there?"
-n ""
+n "เกิดอะไรขึ้นกันแน่"
 
 # n "What scares a girl so badly that she won't accept help, even from someone she loves?"
-n ""
+n "อะไรที่ทำให้เด็กสาวคนหนึ่งหวาดกลัวเสียจนไม่กล้ายอมรับความช่วยเหลือจากใคร แม้คนนั้นจะเป็นคนที่เธอรักก็ตาม"
 
 # n "I don't know."
-n ""
+n "ฉันไม่รู้เลย"
 
 # n "\nBut I want to know."
-n ""
+n "\nแต่ฉันอยากรู้"
 
 # n "I want to know so badly that being denied that answer feels like a knife in my guts."
-n ""
+n "อยากรู้มากเสียจนการที่ไม่ได้คำตอบนั้นเจ็บปวดเหมือนมีมีดคมเฉือนตัวฉัน"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -8722,19 +8725,19 @@ nvl hide dissolve
 window show
 
 # emi "Hisao?"
-emi ""
+emi "ฮิซาโอะ?"
 
 # emi "You were saying?"
-emi ""
+emi "เมื่อกี้พูดอะไรหรือเปล่า"
 
 # "I'm still standing in the doorway."
-""
+"ตอนนี้ฉันยังยืนอยู่ที่ประตู"
 
 # hi "…Nothing."
-hi ""
+hi "…เปล่า"
 
 # hi "Never mind."
-hi ""
+hi "ช่างเถอะ"
 
 scene bg school_girlsdormhall
 with locationchange
@@ -8743,22 +8746,22 @@ play sound sfx_doorclose
 stop music fadeout 6.0
 
 # "And I'm closing the door."
-""
+"แล้วฉันก็ปิดประตู"
 
 # "And walking down the hallway."
-""
+"เดินมาตามโถงทางเดิน"
 
 # "Down the stairs."
-""
+"ลงบันไดมา"
 
 scene bg school_dormext_full_ni
 with locationskip
 
 # "Out the door."
-""
+"ออกประตู"
 
 # "Into the dark."
-""
+"ไปสู่ความมืดมิด"
 
 scene bg school_dormhisao_ni
 with locationskip
@@ -8766,65 +8769,65 @@ with locationskip
 play music music_night fadein 1.0
 
 # "Somehow I wander back to my own room. My brains are doing a mile a minute, going nowhere fast."
-""
+"อยู่ ๆ ก็กลับมาถึงห้องตัวเองได้ สมองฉันแล่นด้วยความเร็วเต็มพิกัดไปโดยไม่มีจุดมุ่งหมายใด ๆ"
 
 window hide
 nvl clear
 nvl show dissolve
 
 # n "\n\nI can't figure out how to deal with this."
-n ""
+n "\n\nฉันไม่รู้จะรับมือกับเรื่องนี้ยังไงดี"
 
 # n "I thought that moving forward was a good thing."
-n ""
+n "ฉันเคยคิดว่าการเดินหน้าต่อไปนั้นเป็นเรื่องที่ดี"
 
 # n "Dwelling less on a past that I can't change. Living in the present and looking at the future."
-n ""
+n "เลิกจมอยู่กับอดีตที่ย้อนกลับไปแก้ไขไม่ได้ อยู่กับปัจจุบันแล้วมองไปยังอนาคต"
 
 # n "\n\nAfter this… thing with Emi, I'm not sure any more."
-n ""
+n "\n\nแต่พอ… มีเรื่องเอมิแล้วฉันก็ชักไม่แน่ใจ"
 
 # n "She was saying the truth. It's simpler to look at the next curve, ignoring the path gone by."
-n ""
+n "เอมิพูดความจริง มองแค่โค้งหน้านั้นจะสบายกว่า ไม่ต้องสนใจเส้นทางที่ผ่านมา"
 
 # n "No worry about the opponent left behind. No care for the spectators on the sidelines."
-n ""
+n "ไม่ต้องกังวลเรื่องโอกาสที่เสียไป ไม่ต้องสนใจผู้ชมข้างสนาม"
 
 # n "And unfortunately, no time to watch out for lagging teammates either."
-n ""
+n "และน่าเสียดายที่จะไม่มีเวลามองเพื่อนร่วมทีมที่ช้ากว่าด้วย"
 
 nvl clear
 nvl hide dissolve
 window show
 
 # "I throw myself down on the bed, looking at one corner of my ceiling as if the answers I want were written there."
-""
+"ฉันทิ้งตัวเองลงนอนกับเตียงมองเพดานตรงมุมหนึ่งราวกับว่ามีคำตอบที่ฉันต้องการเขียนไว้ตรงนั้น"
 
 # "No such luck, of course."
-""
+"แน่ละว่าไม่มี"
 
 window hide
 nvl clear
 nvl show dissolve
 
 # n "\n\n\n\n\nShe's literally running away from something - but have I not been doing the same thing, trying my best to forget about my hospitalization?"
-n ""
+n "\n\n\n\n\nเอมิ{i}วิ่ง{/i}หนีจากอะไรบางอย่างอยู่ แต่ฉันก็ทำเหมือนกันนี่ เพราะฉันเองก็พยายามลืมเรื่องที่ต้องนอนอยู่โรงพยาบาล\nเหมือนกัน"
 
 # n "I am getting better, but my health isn't going to magically fix itself."
-n ""
+n "ฉันอาการดีขึ้นแล้ว แต่สุขภาพของฉันจะไม่ได้กลับมาแข็งแรงดีในชั่วพริบตาแน่นอน"
 
 # n "\nEmi has two legs instead of a heart to deal with, but those aren't going to magically fix themselves either."
-n ""
+n "\nที่เอมิต้องรับมือเหมือนฉันที่ต้องรับมือกับเรื่องหัวใจคือเรื่องขาทั้งสองข้าง แต่ขาทั้งสองข้างของเธอ\nก็จะไม่ได้กลับมาเป็นปกติในชั่วพริบตาแน่นอนเหมือนกัน"
 
 # n "\nMaybe this is just as fixed as the both of us can get."
-n ""
+n "\nหรือ ณ ตอนนี้เราทั้งสองคนต่างก็อาจอยู่ในจุดที่แก้ไขปัญหาตัวเองได้เต็มที่แล้ว"
 
 nvl clear
 nvl hide dissolve
 window show
 
 # "The room becomes darker and darker, until I can't really tell I'm looking at a corner any more."
-""
+"ภายในห้องมืดลงเรื่อย ๆ จนฉันไม่เห็นแล้วว่ากำลังมองมุมบนเพดานอยู่"
 
 #####################
 
