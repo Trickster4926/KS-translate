@@ -7071,80 +7071,80 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nIt's weird how easily Emi and I can keep from seeing one another after class now."
-n ""
+n "\n\nแปลกดีที่เอมิกับฉันเลิกเจอกันหลังเลิกเรียนแต่ละคาบไปได้ง่าย ๆ เลย"
 
 # n "Actually, I'd venture to say that it's vaguely disturbing."
-n ""
+n "ที่จริงฉันขอใช้คำว่าชวนให้ไม่สบายใจขึ้นมาหน่อย ๆ เลยดีกว่า"
 
 # n "As easily as we'd come together, we seem to have split apart without much trouble."
-n ""
+n "เรามาอยู่ด้วยกันได้อย่างง่ายดาย และแยกกันอยู่ได้ไม่ลำบากนัก"
 
 # n "Well, I guess that's not exactly true."
-n ""
+n "แต่ก็ไม่เชิงหรอก"
 
 # n "We'd both been pretty bummed after that last night together."
-n ""
+n "เราสองคนยังคงหมอง ๆ อยู่หลังจากที่ได้อยู่ด้วยกันคืนนั้นเป็นคืนสุดท้าย"
 
 # n "And we get to see each other every morning for our runs (and just our runs, I might add)."
-n ""
+n "และเราก็เจอกันทุกเช้าตอนวิ่งด้วยกัน (ขอเสริมว่าแค่วิ่งจริง ๆ )"
 
 # n "Lunch, too. I especially enjoy lunchtime with her."
-n ""
+n "ตอนเที่ยงก็ด้วย ฉันชอบตอนได้อยู่กับเอมิช่วงกินข้าวเที่ยงด้วยกันเป็นพิเศษ"
 
 # n "We have plenty of time to talk about everything outside of school, whereas the morning runs have become increasingly businesslike."
-n ""
+n "เพราะเรามีเวลามากพอที่จะคุยเรื่องอื่นนอกจากเรื่องเรียนกัน ส่วนการวิ่งยามเช้านั้นเริ่มเข้าใกล้คำว่าเป็นทางการ\nขึ้นเรื่อย ๆ"
 
 # n "I think it's because Emi wants to make up for our foolery in the storage shed."
-n ""
+n "ฉันคิดว่าคงเพราะเอมิอยากชดเชยกับตอนที่เราเล่นสนุกกันในห้องเก็บของครั้งนั้น"
 
 # n "But no matter how much we joke at lunch, I can't help feeling a little worried about her."
-n ""
+n "แต่ไม่ว่าเราจะคุยกันตอนพักเที่ยงสนุกกันแค่ไหน ฉันก็อดเป็นห่วงเอมิหน่อย ๆ ไม่ได้"
 
 nvl clear
 
 # n "\n\nShe seems distracted more often, and I've caught her fidgeting nervously more than once."
-n ""
+n "\n\nเหมือนเอมิจะเหม่อบ่อยขึ้น แล้วก็เห็นเธอบิดตัวด้วยความประหม่าอยู่หลายครั้งด้วย"
 
 # n "Never figured her to be someone who cared that deeply about exams, but they certainly seem to be taking their toll."
-n ""
+n "ฉันไม่เคยคิดเลยว่าเอมิจะเป็นคนที่คิดมากเรื่องการสอบขนาดนั้น แต่ดูท่าว่าเรื่องสอบจะเริ่มมีผลกับจิตใจเธอแล้วจริง ๆ"
 
 # n "Even though they haven't even started."
-n ""
+n "ทั้งที่ยังไม่ถึงวันสอบวันแรกด้วยซ้ำ"
 
 # n "This is just the run up, the deep breath before the plunge."
-n ""
+n "ตอนนี้เป็นแค่ช่วงเตรียมตัว เป็นการสูดหายใจก่อนกระโดดลงน้ำ"
 
 # n "Tomorrow, the real trials begin."
-n ""
+n "พรุ่งนี้บททดสอบที่แท้จริงจะเริ่มแล้ว"
 
 # n "Or the real exams, anyway."
-n ""
+n "หรือก็คือวันสอบจริงนั่นแหละ"
 
 # n "As for me, I actually don't feel that worried about exams at all."
-n ""
+n "ส่วนฉันก็ไม่ได้กังวลเรื่องสอบเลย"
 
 # n "I'm not sure why. I mean, they're pretty important; my scores here will determine my odds of getting into a good university."
-n ""
+n "ไม่แน่ใจเหมือนกันว่าเพราะอะไร ทั้งที่การสอบครั้งนี้ก็สำคัญเพราะคะแนนจะเป็นตัวชี้ชะตาว่าฉันมีโอกาสจะสอบติด\nมหาวิทยาลัยดี ๆ มากแค่ไหน"
 
 # n "Hell, if I'm too cavalier now, it could spell doom for my academic career."
-n ""
+n "ไม่สิ ถ้าฉันทำตัวลอยชายมากเกินไปก็อาจนับได้ว่าเส้นทางการเรียนต่อของฉันนั้นดับสิ้นเลยก็ได้"
 
 # n "But going into them, I feel confident that I'll come out the other side okay."
-n ""
+n "แต่ตอนนี้ฉันมั่นใจว่าจะผ่านพ้นการสอบครั้งนี้ไปได้ด้วยดี"
 
 nvl clear
 
 # n "\n\n\n\n\n\nMutou thinks I've got the science examination locked up, at any rate."
-n ""
+n "\n\n\n\n\n\nครูมุโต้คิดว่าฉันพร้อมมาก ๆ ที่จะสอบวิชาวิทยาศาสตร์แล้ว"
 
 # n "Or as he says, “The last thing that should give you trouble is my exam, Hisao. It's way beneath your talents.”"
-n ""
+n "เพราะพูดไว้ว่า “เธอจะมีปัญหากับวิชาไหนก็ช่าง แต่ไม่ใช่กับวิชาที่ครูสอนแน่นอนฮิซาโอะ ความสามารถเธอ\nอยู่สูงกว่าข้อสอบครูมาก”"
 
 # n "Then again, it is Mutou who's telling me this."
-n ""
+n "แต่ก็นะ คนที่พูดคือครูมุโต้"
 
-# n "His praise of me carries the veiled implication that anything less than perfect from me would be a disappointment, which has actually caused me to fret more than I should about the exam."
-n ""
+# n "His praise of me carries the veiled implication that anything less than perfect from me would be a disappointment, which has actually caused me to fret more than I should about the exam.
+n "คำชมของครูมีนัยแอบแฝงว่าถ้าทำออกมาได้ไม่ดีแล้วครูคงผิดหวัง ซึ่งทำให้ฉันเครียดกับเรื่องสอบกว่าปกติ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -7157,16 +7157,16 @@ with locationchange
 window show
 
 # "It's for that reason that I find myself in the library after class, poring over the textbook."
-""
+"และเพราะเช่นนั้นเองพอเลิกเรียนแล้วฉันจึงมานั่งอ่านหนังสืออยู่ที่ห้องสมุด"
 
 # "Pretty simple things to look over; some formulas of velocity, a few bits about friction…"
-""
+"เป็นเรื่องที่ค่อนข้างง่าย สูตรความเร่งสองสูตรสองสูตร แล้วก็เรื่องแรงเสียดทานบ้าง…"
 
 # "A walk in the park compared to my dreaded English exam. Never was good with languages…"
-""
+"ถ้าให้เทียบกับคู่ปรับของฉันอย่างวิชาภาษาอังกฤษแล้วก็นับได้ว่ากล้วย ๆ ฉันไม่ถนัดเรื่องภาษาเอาเสียเลย…"
 
 # "As I flip through my notes one more time, my mind begins to wander."
-""
+"พอพลิกหน้าสมุดดูอีกรอบจิตใจฉันก็เริ่มล่องลอย"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -7175,31 +7175,31 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\nAfter these exams are over, things should get easier."
-n ""
+n "\n\n\nถ้าสอบเสร็จแล้วอะไร ๆ ก็น่าจะง่ายขึ้น"
 
 # n "Soon we'll be graduated."
-n ""
+n "อีกเดี๋ยวก็จะเรียนจบกันแล้ว"
 
 # n "Then off to college, hopefully."
-n ""
+n "แล้วก็—หวังว่านะ—จะได้เรียนต่อมหาวิทยาลัย"
 
 # n "I remember my abortive attempt to find out what Emi plans to do after high school."
-n ""
+n "ฉันนึกถึงแต่ละครั้งที่ฉันคอยถามเอมิว่าเรียนจบแล้วจะทำอะไรต่อ"
 
 # n "Hmm, she avoided the subject pretty deftly, as I recall."
-n ""
+n "อืมมม เท่าที่นึกออก เอมิเบี่ยงหัวข้อได้เนียนทีเดียว"
 
 # n "Heck, it seems that just about every time I push too hard, she dances around the subject."
-n ""
+n "ไม่สิ เหมือนทุกครั้งที่ฉันซักไซ้มาก ๆ เข้าเอมิก็จะพูดอ้อมไปอ้อมมา"
 
 # n "Or distracts me through… other means."
-n ""
+n "หรือไม่ก็เบนความสนใจฉันด้วย… วิธีอื่น"
 
 # n "Like a few days ago at lunch, when Rin wasn't around…"
-n ""
+n "เหมือนเมื่อสองสามวันก่อนตอนเที่ยงที่รินไม่อยู่ด้วย…"
 
 # n "Heh."
-n ""
+n "ฮะ ๆ"
 
 $ renpy.music.set_volume(1.0, 1.0, channel="music")
 
@@ -7213,410 +7213,411 @@ show yuuko happy_up
 with vpunch
 
 # yu "I've done it!"
-yu ""
+yu "สำเร็จแล้ว!"
 
 # "I'm startled from my reverie by Yuuko's triumphant shout."
-""
+"เสียงตะโกนอย่างภาคภูมิของยูโกะดึงให้ฉันหลุดจากภวังค์"
 
 # hi "Gah!"
-hi ""
+hi "ว้าก!"
 
 show yuuko panic_up
 with charachange
 
 # "Yuuko seems mortified at my sudden starting."
-""
+"เหมือนยูโกะจะผงะไปที่ฉันสะดุ้งแบบกะทันหัน"
 
 play music music_happiness fadein 2.0
 
 # yu "Oh my god!"
-yu ""
+yu "ตายแล้ว!"
 
 show yuuko panic_down
 with charachange
 
 # yu "I'm so sorry! I just got - and I really wasn't - and it's just that—"
-yu ""
+yu "ขอโทษที! พอดีฉัน แล้วก็ฉันไม่ได้ แค่ว่าฉัน—"
 
 # "As she stutters, I move to quickly calm her down before she gets too agitated."
-""
+"ยูโกะพูดตะกุกตะกักจนฉันต้องรีบเข้าไปช่วยสงบใจไม่ให้ลนลานไปกว่านี้"
 
 # hi "Woah, hey."
-hi ""
+hi "เอ้า ๆ เดี๋ยวครับ"
 
 # "My words seem ineffective."
-""
+"ที่ฉันพูดไปเหมือนจะไม่ได้ผล"
 
 # "Yuuko continues to work herself into a complete frenzy."
-""
+"ยูโกะยังคงทำตัวร้อนรนขึ้นเรื่อย ๆ จนสติหลุด"
 
 show yuuko panic_up
 with charachange
 
 # yu "And it's a library and I shouldn't be—"
-yu ""
+yu "แล้วก็ที่นี่เป็นห้องสมุดด้วย ฉันไม่ควรจะ—"
 
 # hi "Easy there, just calm down."
-hi ""
+hi "ค่อย ๆ พูดครับ ใจร่ม ๆ ก่อน"
 
 show yuuko cry_down
 with charachange
 
 # yu "And really I'm setting a bad example, and now I'll get fired because I can't do anything right—"
-yu ""
+yu "แล้วตอนนี้ฉันก็เป็นตัวอย่างที่ไม่ดี แล้วทีนี้ฉันก็จะโดนไล่ออกเพราะทำอะไรก็ไม่ได้เรื่อง—"
 
-hi "YUUKO!" with vpunch
+# hi "YUUKO!" with vpunch
+hi "คุณยูโกะ!!" with vpunch
 
 show yuuko worried_up
 with charachange
 
 # "Shouting seems to work, though I draw the ire of several other students studying in the library."
-""
+"การตะโกนดูจะได้ผล ถึงตอนนี้จะมีนักเรียนที่อยู่ในห้องสมุดหลายคนหันมามองด้วยความไม่พอใจก็ตาม"
 
 # "Yuuko snaps to attention, like a soldier who's just heard the captain bark an order."
-""
+"ยูโกะได้สติทันทีเหมือนทหารที่ได้ยินนายออกคำสั่ง"
 
 show yuuko neurotic_up
 with charachange
 
 # yu "Sorry! Sorry!"
-yu ""
+yu "ขอโทษ! ขอโทษ!"
 
 # hi "Calm down, it's okay."
-hi ""
+hi "ใจเย็น ๆ ครับ ไม่เป็นไรหรอก"
 
 # hi "You just startled me a little, and that's only because I was daydreaming instead of studying."
-hi ""
+hi "ผมแค่ตกใจนิดหน่อย แล้วที่ตกใจก็เพราะผมมัวแต่เหม่ออยู่แทนที่จะอ่านหนังสือ"
 
 # hi "So really, you got me back on task."
-hi ""
+hi "เพราะงั้นเอาเข้าจริง ๆ แล้วคุณช่วยให้ผมกลับมาอ่านต่อได้ด้วยซ้ำ"
 
 # "This is a complete lie. But it seems to work."
-""
+"โกหกทั้งเพ แต่ก็ดูจะได้ผล"
 
 show yuuko worried_down
 with charachange
 
 # "Yuuko takes a deep breath and seems to calm down a little."
-""
+"ยูโกะสูดหายใจลึกทำท่าเหมือนสงบลงบ้างแล้ว"
 
 # "Though she keeps shifting around with a nervous energy that seems awfully familiar."
-""
+"แต่ก็ยังบิดตัวไปมาด้วยความประหม่า ซึ่งเป็นภาพที่ฉันคุ้นเคยเป็นอย่างดี"
 
 # hi "So, what's got you so excited anyway?"
-hi ""
+hi "แล้วมีเรื่องอะไรถึงตื่นเต้นขนาดนี้เหรอครับ"
 
 show yuuko neutral_up_close
 with characlose
 
 # yu "The Yamaku Cat Burglar!"
-yu ""
+yu "แมวขโมยยามากุ!"
 
 # "To her credit, Yuuko manages to convey her intense excitement in a whisper."
-""
+"ต้องขอชมที่ยูโกะยังอุตส่าห์ส่งผ่านความตื่นเต้นมาได้ทั้งที่แค่กระซิบอยู่"
 
 show yuuko closedhappy_up_close
 with charachange
 
 # yu "I think I know who it is!"
-yu ""
+yu "ฉันว่าฉันรู้ตัวคนร้ายแล้ว!"
 
 show yuuko happy_down_close
 with charachange
 
 # yu "I got an anonymous tip as to their identity!"
-yu ""
+yu "ฉันได้เบาะแสถึงตัวตนของคนร้ายมาจากคนนิรนาม!"
 
 # yu "So I did some spying, and I think the tipster was right!"
-yu ""
+yu "ฉันเลยไปตามสืบ แล้วก็เป็นอย่างที่คนให้เบาะแสมาจริง ๆ !"
 
 # hi "Oh really? And who was this er, burglar?"
-hi ""
+hi "จริงเหรอครับ แล้วใครคือ เอ่อ ขโมยคนนี้"
 
 show yuuko worried_down_close
 with charachange
 
 # "Yuuko shuts her mouth, shaking her head decisively."
-""
+"ยูโกะปิดปากสั่นหัวด้วยความมั่นใจ"
 
 # yu "Nope, I can't tell you that."
-yu ""
+yu "ไม่ บอกเธอไม่ได้"
 
 # hi "Why not?"
-hi ""
+hi "ไหงงั้นล่ะครับ"
 
 show yuuko worried_up_close
 with charachange
 
 # yu "It's between me and the burglar."
-yu ""
+yu "เรื่องนี้เป็นเรื่องของฉันกับขโมยเท่านั้น"
 
 # yu "I can't risk you warning him that I'm on to his game."
-yu ""
+yu "ขืนบอกแล้วเดี๋ยวเธอเอาไปบอกต่อว่าฉันกำลังตามตัวเขาอยู่"
 
 # yu "He could tip his hand early and blow town."
-yu ""
+yu "เขาอาจรีบลงมือแล้วชิ่งไปเลยก็ได้"
 
 # yu "Then I'm left with no perp."
-yu ""
+yu "แล้วฉันก็จะไม่ได้ตัวคนร้ายเลย"
 
 # "When did Yuuko start talking like a hard-boiled detective?"
-""
+"นี่ยูโกะพูดเหมือนเป็นนักสืบในหนังสืบสวนได้ตั้งแต่เมื่อไหร่"
 
 # hi "I wouldn't warn them! Why would I care?"
-hi ""
+hi "ผมไม่เอาไปบอกหรอกครับ! ผมจะไปสนใจทำไม"
 
 show yuuko neutral_down
 with charadistant
 
 # yu "If you've got to ask that question, then you don't need to know."
-yu ""
+yu "ถ้าเธอถามแบบนี้ก็แปลว่าเธอไม่จำเป็นต้องรู้"
 
 # hi "That doesn't make any sense, but okay."
-hi ""
+hi "ไม่เห็นจะเข้าใจเลย แต่โอเค"
 
 # hi "Congratulations, I guess?"
-hi ""
+hi "ยินดีด้วย ละมั้งครับ"
 
 show yuuko closedhappy_down
 with charachange
 
 # yu "Thanks!"
-yu ""
+yu "ขอบคุณนะ!"
 
 show yuuko worried_up
 with charachange
 
 # yu "Uh, what for?"
-yu ""
+yu "เอ่อ เรื่องอะไรล่ะ"
 
 # hi "The uh, cat burglar thing?"
-hi ""
+hi "เรื่อง เอ่อ แมวขโมยยามากุมั้งครับ"
 
 show yuuko smile_down
 with charachange
 
 # "Yuuko nods and smiles appreciatively."
-""
+"ยูโกะพยักหน้าแล้วยิ้มขอบคุณ"
 
 # yu "So! Studying for exams?"
-yu ""
+yu "แล้วนี่! อ่านหนังสือเตรียมสอบอยู่เหรอ"
 
 # hi "Well, that was the plan. I'm not having much luck, though."
-hi ""
+hi "ก็คิดไว้งั้นแหละครับ แต่อ่านไม่ค่อยรู้เรื่องเท่าไหร่"
 
 show yuuko worried_down
 with charachange
 
 # yu "Really? Is it because you can't find a book?"
-yu ""
+yu "จริงเหรอ เพราะหาหนังสือไม่เจอหรือเปล่า"
 
 show yuuko panic_up
 with charachange
 
 # yu "I'm really sorry!"
-yu ""
+yu "ขอโทษจริง ๆ นะ!"
 
 # yu "I've been meaning to clean the shelves up for weeks now, but I keep getting distracted!"
-yu ""
+yu "ฉันกะจะเก็บกวาดชั้นหนังสือมาสองสามสัปดาห์แล้ว แต่เพราะมัวแต่สนใจอย่างอื่นเลยไม่ได้มาทำ!"
 
 # yu "I'm so sorry!"
-yu ""
+yu "ขอโทษจริง ๆ !"
 
 # hi "Woah, wait."
-hi ""
+hi "เอ้า ๆ เดี๋ยวครับ"
 
 # hi "It's not that. I've got my book right here."
-hi ""
+hi "ไม่ใช่เพราะอย่างนั้นเลย ผมก็ได้หนังสือแล้วนี่ไง"
 
 # "To illustrate the point and hopefully calm Yuuko down, I show her the textbook in front of me."
-""
+"ฉันผายมือไปที่หนังสือที่อยู่ตรงหน้าฉันเป็นการตอกย้ำคำพูดนั้นและหวังว่าพอทำแล้วยูโกะจะสงบใจลงได้บ้าง"
 
 # hi "My mind just keeps wandering, is all."
-hi ""
+hi "ผมแค่เหม่อเฉย ๆ"
 
 show yuuko worried_up
 with charachange
 
 # yu "Is it because of the noise in here?"
-yu ""
+yu "เพราะในนี้เสียงดังหรือเปล่า"
 
 # yu "I'm trying to be more strict about the noise levels, but I can't bring myself to yell at people…"
-yu ""
+yu "ฉันก็เข้มงวดกับเรื่องการใช้เสียงในห้องสมุดอยู่นะ แต่ฉันตะโกนว่าคนอื่นไม่ลง…"
 
 show yuuko worried_down
 with charachange
 
 # yu "I mean aren't their lives hard enough without me throwing my authority around?"
-yu ""
+yu "เพราะขนาดฉันไม่ใช้อำนาจ แค่นี้แต่ละคนก็เหนื่อยกับชีวิตตัวเองอยู่แล้วนี่"
 
 # hi "No, it's not the noise level either, I promise."
-hi ""
+hi "เปล่าครับ ไม่ใช่เรื่องเสียงด้วย ผมพูดเลย"
 
 # hi "I'm just…"
-hi ""
+hi "ผมแค่…"
 
 # "Hell, I don't know."
-""
+"โอย ไม่รู้"
 
 # "Worried about Emi."
-""
+"คิดมากเรื่องเอมิ"
 
 # "Worried about us."
-""
+"คิดมากเรื่องเรา"
 
 # "Worried about what happens after we graduate."
-""
+"คิดมากว่าพอเราเรียนจบแล้วจะเป็นยังไงบ้าง"
 
 # hi "Emi's been kind of weird, lately."
-hi ""
+hi "ช่วงนี้เอมิทำตัวแปลก ๆ นะครับ"
 
 show yuuko worried_up
 with charachange
 
 # yu "What do you mean?"
-yu ""
+yu "หมายความว่าไงเหรอ"
 
 # hi "Well, you know how we're dating now?"
-hi ""
+hi "ก็ ตอนนี้เราสองคนคบกันอยู่ใช่มั้ยครับ"
 
 # hi "I just don't know that we're actually, you know…"
-hi ""
+hi "คือผมไม่แน่ใจว่าเรา เนี่ย…"
 
 # hi "A couple. Or at least I don't know that we're beyond friends."
-hi ""
+hi "เป็นแฟนกันจริง ๆ หรือเปล่า ไม่รู้ว่าเราเป็นมากกว่าเพื่อนมั้ย"
 
 # "Though friends normally don't do the sort of things we do."
-""
+"ถึงเพื่อนจะไม่ทำอะไรแบบที่เราทำกันหรอก"
 
 # "Physically we're a couple."
-""
+"ถ้านับทางกายแล้วเราก็เป็นแฟนกัน"
 
 # "Coupling, at least."
-""
+"อย่างน้อยก็เป็นคู่กัน"
 
 # hi "It's like every time I try to find out more about her, or about what she wants to do with her life, she dodges the question."
-hi ""
+hi "เหมือนพอผมอยากรู้ว่าเอมิจะเอายังไงกับชีวิตตัวเองหรือทำความรู้จักกับเอมิให้มากขึ้นทีไรแล้วเอมิก็จะ\nเลี่ยงคำถามตลอดเลย"
 
 # hi "Like the other day, I was talking to her at lunch about some schools I've been looking into."
-hi ""
+hi "อย่างวันก่อนผมก็คุยกับเอมิตอนพักเที่ยงเรื่องมหา’ลัยที่ผมไปหาข้อมูลมา"
 
 # hi "And I asked her, “Have you looked into any schools lately?”"
-hi ""
+hi "แล้วผมก็ถามเอมิว่า “ช่วงนี้ได้ดูที่ไหนไว้มั้ย”"
 
 # hi "She shrugs in response, says no, and when I ask why not, she says that she doesn't think that far ahead."
-hi ""
+hi "เอมิยักไหล่แล้วตอบว่าไม่ พอถามว่าทำไมถึงไม่ดู เอมิก็บอกว่าไม่ได้วางแผนไว้ไกลขนาดนั้น"
 
 # hi "I asked why she had that policy, and she…"
-hi ""
+hi "แล้วพอถามว่าทำไมถึงถือแนวคิดแบบนั้นเอมิก็…"
 
 # "I suddenly realize what I'm about to start describing, and wisely decide to clam up."
-""
+"อยู่ ๆ ฉันก็ระลึกได้ว่าตัวเองกำลังจะเล่าอะไรต่อ คิดได้ดังนั้นแล้วฉันเงียบปากไปทันที"
 
 show yuuko neutral_up
 with charachange
 
 # yu "She what?"
-yu ""
+yu "เอมิก็อะไร"
 
 # hi "Er, she changed the subject."
-hi ""
+hi "เอ่อ เปลี่ยนเรื่องน่ะครับ"
 
 # hi "Wouldn't talk about it."
-hi ""
+hi "ไม่ยอมคุยเรื่องนั้น"
 
 show yuuko neutral_down
 with charachange
 
 # yu "Maybe it's an uncomfortable subject for her?"
-yu ""
+yu "อาจจะเพราะเอมิไม่สบายใจที่จะคุยเรื่องนั้นหรือเปล่า"
 
 # yu "Or she just doesn't think it needs explaining."
-yu ""
+yu "หรือไม่ก็เพราะคิดว่าเป็นเรื่องที่ไม่ต้องอธิบายอะไร"
 
 # hi "Yeah, but it's not just that."
-hi ""
+hi "ครับ แต่ไม่ใช่แค่นั้นน่ะสิ"
 
 # hi "Every time I try to find out what's been bothering her, she changes the subject too."
-hi ""
+hi "ทุกครั้งที่ผมถามว่ามีเรื่องอะไรกวนใจอยู่หรือเปล่าเอมิก็เปลี่ยนเรื่องไปเหมือนกัน"
 
 # hi "It's like she likes being with me, but not getting close to me."
-hi ""
+hi "เหมือนตัวอยู่ใกล้แต่ไม่ได้ทำตัวสนิทด้วย"
 
 # "Now that I've said it out loud, I feel worse."
-""
+"พอพูดออกมาแล้วก็รู้สึกแย่แฮะ"
 
 # "Yuuko digests this bit of information."
-""
+"ยูโกะประมวลผลข้อมูลที่ฉันพูดไป"
 
 show yuuko worried_down
 with charachange
 
 # yu "You know, it seems to me that you're more serious about this than she is."
-yu ""
+yu "คือ ฉันรู้สึกเหมือนว่าเธอจะจริงจังกับเรื่องนี้มากกว่าเอมิ"
 
 # "I can almost feel my stomach twist into a knot."
-""
+"ตอนนี้เหมือนฉันใจแป้วไปเลย"
 
 # "She's right."
-""
+"ยูโกะพูดถูก"
 
 # "That's exactly what it seems like."
-""
+"เพราะดูเหมือนเป็นแบบนั้นจริง ๆ"
 
 # hi "But is that really what's going on? I mean…"
-hi ""
+hi "แต่จะเป็นอย่างนั้นจริงเหรอครับ คือ…"
 
 show yuuko panic_up
 with charachange
 
 # yu "Sorry! I'm just talking nonsense!"
-yu ""
+yu "ขอโทษ! ฉันแค่พูดไปเรื่อย!"
 
 # yu "You shouldn't take my advice, you barely know me!"
-yu ""
+yu "อย่าฟังคำแนะนำของฉันเลยนะ เธอเพิ่งจะรู้จักฉันได้ไม่นานนี้เอง!"
 
 show yuuko cry_down
 with charachange
 
 # yu "I'm just the librarian, and I'm single so you can imagine I can't know what I'm talking about!"
-yu ""
+yu "ฉันก็เป็นแค่บรรณารักษ์ แถมโสดด้วย ยังไงเธอก็คงรู้ว่าฉันไม่ได้มีความรู้จริง ๆ หรอก!"
 
 # hi "No, I think…"
-hi ""
+hi "ไม่สิครับ ผมว่า…"
 
 # hi "I think you have a point."
-hi ""
+hi "ผมว่าคุณพูดถูก"
 
 # "As much as it hurts to even consider it."
-""
+"ต้องยอมรับแม้จะเจ็บปวดเมื่อคิดอย่างนั้นก็ตาม"
 
 # "Yuuko seems to try desperately to find a way to soften the blow somewhat."
-""
+"ยูโกะเหมือนจะพยายามหาทางซับแรงกระแทกให้ได้"
 
 show yuuko neutral_down
 with charachange
 
 # yu "Er, look."
-yu ""
+yu "เอ่อ นี่นะ"
 
 show yuuko smile_down
 with charachange
 
 # yu "I'm probably wrong, but if you want to be sure of how obviously wrong I am, maybe you should just talk to her?"
-yu ""
+yu "ฉันอาจจะคิดผิด แต่ถ้าอยากแน่ใจจริง ๆ ว่าฉันคิดผิดแค่ไหนเธอก็ไปคุยกับเอมิสิ"
 
 # yu "Get some time alone and just ask about it."
-yu ""
+yu "หาเวลาอยู่ด้วยกันแล้วก็ถามไปเลย"
 
 show yuuko closedhappy_down
 with charachange
 
 # yu "And don't let her change the subject, either!"
-yu ""
+yu "แล้วก็ห้ามปล่อยให้เอมิเปลี่ยนเรื่องได้ด้วย!"
 
 # hi "Yeah, maybe I should do that."
-hi ""
+hi "ครับ ผมคงต้องทำแบบนั้นแหละ"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -7625,40 +7626,40 @@ nvl clear
 nvl show dissolve
 
 # n "\n\nOr maybe I should just enjoy what I have."
-n ""
+n "\n\nหรือฉันจะอยู่ทั้งแบบนี้ไปนั่นแหละ"
 
 # n "We have fun hanging out, after all."
-n ""
+n "เพราะยังไงเราก็สนุกที่ได้อยู่ด้วยกัน"
 
 # n "And the runs are nice, and the other activities are nice, and talking to her is nice…"
-n ""
+n "ตอนวิ่งก็ดี กิจกรรมอื่นก็ดี ได้คุยกับเอมิก็ดี"
 
 # n "Do I really need to get closer to her? What I've got right now is pretty good."
-n ""
+n "ฉันจำเป็นต้องสนิทกับเอมิให้มากกว่านี้ด้วยเหรอ เท่าที่เป็นอยู่ตอนนี้ก็ดีแล้วนี่"
 
 # n "But that's silly."
-n ""
+n "คิดอะไรบ้าบอ"
 
 # n "I want to get closer to her."
-n ""
+n "ฉันอยากจะสนิทกับเอมิให้มากกว่านี้"
 
 # n "I want to be able to help her out with whatever is bothering her."
-n ""
+n "อยากจะช่วยจัดการปัญหาที่กวนใจเอมิอยู่"
 
 # n "But… maybe I should wait until after exams are over."
-n ""
+n "แต่… คงต้องรอให้สอบเสร็จก่อน"
 
 # n "Maybe she'll brighten up once the stress has passed."
-n ""
+n "ถ้าแรงกดดันหายแล้วเอมิอาจจะร่าเริงขึ้นก็ได้"
 
 # n "If she does, then I don't need to worry about it any more."
-n ""
+n "ถ้าร่าเริงขึ้นแล้วฉันก็ไม่ต้องคิดมากเรื่องนี้อีก"
 
 # n "But if she doesn't, well."
-n ""
+n "แต่ถ้าไม่ร่าเริงขึ้นก็ นะ"
 
 # n "I'll cross that bridge when I come to it."
-n ""
+n "เมื่อถึงเวลาแล้วฉันคงต้องทำสิ่งที่ควรทำ"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
@@ -7669,13 +7670,13 @@ window show
 stop music fadeout 5.0
 
 # "I thank Yuuko for her advice and head back to my room."
-""
+"ฉันขอบคุณยูโกะที่ให้คำแนะนำแล้วกลับมาที่ห้องตัวเอง"
 
 scene bg school_hallway2
 with locationchange
 
 # "Maybe I'll be able to concentrate more on my studies in there."
-""
+"อ่านหนังสือในห้องนี้แล้วอาจมีสมาธิขึ้นมาหน่อย"
 
 scene black
 with dissolve
