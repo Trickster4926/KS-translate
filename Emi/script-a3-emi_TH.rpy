@@ -9662,45 +9662,45 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\nI don't think I like riding on buses."
-n ""
+n "\n\n\nฉันว่าฉันเกลียดการนั่งรถบัส"
 
 # n "Actually, I think I'm pretty comfortable saying that as a fact."
-n ""
+n "กล้าพูดเลยว่าฉันเกลียดจริง ๆ"
 
 # n "They sway a lot, and they smell funny, and you can feel every bump in the road."
-n ""
+n "ทั้งโงนเงนไปมา กลิ่นก็แปลก ๆ พอถนนขรุขระก็สะดุดกึก ๆ"
 
 # n "I'm really not looking forward to this."
-n ""
+n "ฉันไม่ชอบเลยจริง ๆ"
 
 # n "\nPlus Emi's legs keep making a clanking noise that draws the attention of everyone else on the bus."
-n ""
+n "\nอีกอย่างขาเอมิก็ชนกันแล้วส่งเสียงจนเป็นที่สนใจของทุกคนในรถบัส"
 
 # n "She's in shorts again, and she's got long socks drawn up on her prosthetics so they don't look so obviously false again."
-n ""
+n "เอมิกลับมาใส่กางเกงขาสั้น และมีถุงเท้ายาวที่ใส่กับขาเทียมไว้ไม่ให้เห็นชัดมากว่าเป็นขาปลอม"
 
 # n "But that doesn't stop the odd look or two every time her legs bump together with an audible clunk."
-n ""
+n "แต่ทุกครั้งที่ขาเทียมชนกันเสียงดังนั้นก็ยังมีคนหันมามองอยู่บ้าง"
 
 nvl clear
 
 # n "\n\n\nI shift nervously in my seat, and Emi raises an eyebrow questioningly."
-n ""
+n "\n\n\nฉันนั่งยุกยิกจนเอมิเลิกคิ้วมองด้วยความสงสัย"
 
 # n "She doesn't seem to mind the stares; either that or she doesn't even notice that people are staring."
-n ""
+n "เอมิเหมือนจะไม่สนใจอะไรที่คนมอง หรือไม่ก็ไม่ทันสังเกตด้วยซ้ำว่ามีคนจ้องอยู่"
 
 # n "I'm sure she's gotten her fill of odd looks before. After a certain amount of time, I doubt she'd notice any more."
-n ""
+n "ก่อนหน้านี้ก็คงมีคนมองเอมิแปลก ๆ แล้วละนะ ผ่านไปสักระยะหนึ่งแล้วเธอก็คงไม่ได้สังเกตเลย"
 
 # n "\n\nNot that she'd ever tell me if I asked."
-n ""
+n "\n\nแต่ต่อให้ถามเอมิก็คงไม่บอกหรอก"
 
 # n "Another fact is, I'm not just uncomfortable about the bus."
-n ""
+n "อีกอย่างคือ ที่ฉันอึดอัดไม่ใช่แค่เพราะต้องนั่งรถบัส"
 
 # n "I can't seem to come to terms with the fact that Emi appears to be trying to bring me closer while at the same time pushing me away."
-n ""
+n "ฉันทำใจไม่ได้กับการที่เอมิทำตัวเหมือนจะดึงฉันให้เข้าไปใกล้ชิดขึ้น ทว่าก็ผลักไสฉันออกมาไปด้วย"
 
 nvl clear
 
@@ -9709,22 +9709,22 @@ nvl clear
 label th_E26a:
 
 # n "\n\n\nThe nurse said she trusts me, even if it doesn't look like it."
-n ""
+n "\n\n\nคุณพยาบาลบอกว่าเอมิเชื่อใจฉัน ถึงจะดูเหมือนไม่ใช่อย่างนั้นก็ตาม"
 
 # n "But I'm not sure I can trust the nurse."
-n ""
+n "แต่ฉันไม่แน่ใจว่าจะเชื่อคุณพยาบาลดีหรือเปล่า"
 
 # n "He's protective of Emi, just like I'm protective of Emi, and I'd be likely to say something to make her look good if someone asked me about her."
-n ""
+n "คุณพยาบาลคอยปกป้องเอมิเหมือนอย่างฉัน และฉันก็คงจะพูดอะไรให้เอมิดูดีเหมือนกันถ้ามีคนมาถามฉันเรื่องเอมิ"
 
 # n "\nSo he might just be doing that."
-n ""
+n "\nเพราะงั้นคุณพยาบาลอาจจะพูดด้วยเจตนานั้นก็ได้"
 
 # n "\nStill, there was something about the way he seemed genuinely surprised that Emi invited me along…"
-n ""
+n "\nแต่คุณพยาบาลก็ดูประหลาดใจจริง ๆ ตอนที่เอมิมาชวนฉันไปด้วย…"
 
 # n "Maybe last night's talk helped more than I think, but I'm still worried."
-n ""
+n "ที่คุยกันเมื่อคืนอาจช่วยอะไรได้ดีกว่าที่ฉันคิด แต่ก็ยังกังวลอยู่ดี"
 
 
 label th_E26b:
@@ -9734,25 +9734,25 @@ stop ambient fadeout 12.0
 nvl clear
 
 # n "\n\n\nMeeting the parents is a big deal, right?"
-n ""
+n "\n\n\nการได้เจอกับครอบครัวน่ะเป็นเรื่องสำคัญเลยใช่มั้ยล่ะ"
 
 # n "Not that I haven't already met Emi's mother, but that was just as an acquaintance."
-n ""
+n "ก่อนหน้านี้ฉันก็เคยเจอแม่เอมิมาแล้วแหละ แต่หนนั้นฉันก็เป็นแค่คนรู้จัก"
 
 # n "Now it's going to be as Emi's boyfriend, with everything that implies."
-n ""
+n "ตอนนี้ฉันจะไปเจอในฐานะแฟนหนุ่มของเอมิ"
 
 # n "I can feel my heart pounding in my chest, an echo of that snow-covered afternoon that feels like it was so long ago that it might as well be another life entirely."
-n ""
+n "ฉันรู้สึกถึงใจที่เต้นรัวขึ้นมา ย้อนนึกถึงภาพจากอดีตในบ่ายวันหิมะตกวันนั้นที่ผ่านมานานเหมือนเป็นชาติที่แล้ว"
 
 # n "Except then, I didn't know what was going on; I also didn't have medication to help prevent things spiraling out of control."
-n ""
+n "จะไม่เหมือนก็แต่ตอนนั้นฉันไม่รู้ว่าเกิดอะไรขึ้น และไม่ได้กินยาที่คอยควบคุมเรื่องไม่ให้บานปลายไปไกล"
 
 # n "I've come a long way in terms of my physical health, and for the second time today I feel like I'll be able to live normally now, or at least as normally as possible."
-n ""
+n "สุขภาพร่างกายฉันแข็งแรงขึ้นมากแล้ว วันนี้ฉันได้รู้สึกอีกครั้งว่าจะได้ใช้ชีวิตตามปกติ หรืออย่างน้อย ๆ ก็ปกติ\nเท่าที่จะทำได้"
 
 # n "\nNow if only I could manage my relationship as well as I've managed my heart, I'd be in great shape."
-n ""
+n "\nถ้าฉันจัดการกับเรื่องความรักความสัมพันธ์ได้ดีเหมือนอย่างที่ฉันดูแลเรื่องหัวใจแล้วละก็จะนับได้ว่าชีวิตดีทีเดียว"
 
 stop ambient fadeout 1.5
 
@@ -9771,21 +9771,21 @@ play ambient sfx_traffic fadein 2.0
 window show
 
 # emi "Well, we're here."
-emi ""
+emi "โอเค ถึงแล้ว"
 
 play music music_soothing fadein 2.0
 
 # "Emi grabs my hand as soon as we've stepped off the bus. She starts heading down the street almost immediately."
-""
+"เอมิจับมือฉันทันทีที่เราลงจากรถบัส เธอไม่รีรอรีบนำฉันไปตามถนน"
 
 show emicas wink_up_close
 with charachange
 
 # emi "Come on, we've got a couple blocks until my place."
-emi ""
+emi "เร็ว บ้านฉันต้องเดินไปอีกหน่อยนะ"
 
 # hi "What? Oh, okay."
-hi ""
+hi "ฮะ? อ้อ โอเค"
 
 scene bg city_alley
 with locationchange
@@ -9793,106 +9793,106 @@ with locationchange
 stop ambient fadeout 12.0
 
 # "I follow Emi down the street, watching her confident stride."
-""
+"ฉันเดินตามเอมิที่เดินไปตามถนนอย่างมั่นใจ"
 
 # "She's setting kind of a quick pace for just a walk."
-""
+"ถือว่าเป็นฝีเท้าที่เร็วกว่าเกินคำว่าเดิน"
 
 # "I guess she's anxious to get there."
-""
+"คงจะอยากรีบไปให้ถึงบ้านมั้ง"
 
 # hi "So does your mom do this sort of thing often?"
-hi ""
+hi "ปกติแม่เธอทำอะไรแบบนี้บ่อยมั้ย"
 
 show emicas neutral_close at center
 with charaenter
 
 # emi "Nah, not too frequently. Mom's never been much for playing hostess."
-emi ""
+emi "ไม่อะ ไม่บ่อยมาก แม่ไม่ค่อยชวนใครมาที่บ้านเท่าไหร่แต่ไหนแต่ไรแล้ว"
 
 # hi "Oh yeah?"
-hi ""
+hi "งั้นเหรอ"
 
 show emicas awayfrown_close
 with charachange
 
 # emi "Yeah, my dad was always the one pushing her to have people over."
-emi ""
+emi "อื้ม ปกติเป็นพ่อฉันมากกว่าที่บอกให้แม่ชวนคนอื่นมาที่บ้าน"
 
 # "This sudden and unprompted reference to her father catches me off guard."
-""
+"ฉันไม่ทันตั้งตัวที่อยู่ ๆ เอมิก็พูดถึงพ่อขึ้นมาแบบไม่มีปี่มีขลุ่ยแบบนี้"
 
 # "And from the look on Emi's face, I'm not sure she meant to mention him. I think I've only ever heard her talk about him once."
-""
+"และดูจากสีหน้าแล้วฉันก็ไม่แน่ใจว่าเอมิตั้งใจจะพูดถึงหรือเปล่า เหมือนจะเคยได้ยินพูดถึงแค่ครั้งเดียวเองมั้ง"
 
 # "All I remember is that Emi's mom told me that he wasn't around any more."
-""
+"เท่าที่ฉันจำได้คือตอนที่แม่เอมิบอกว่าเขาไม่อยู่แล้ว"
 
 # hi "Oh? Your mom prefers solitude?"
-hi ""
+hi "หืม แม่เธอชอบอยู่คนเดียวเหรอ"
 
 show emicas happy_up_close
 with charachange
 
 # "Emi laughs, either from relief that I didn't ask about her father or from finding my statement actually funny."
-""
+"เอมิหัวเราะ ซึ่งอาจจะเพราะโล่งใจที่ฉันไม่ถามเรื่องพ่อหรืออาจจะเพราะตลกกับคำถามฉันจริง ๆ"
 
 # emi "Not at all! She's why I'm such an outgoing person, you know."
-emi ""
+emi "ไม่เลย! ที่จริงที่ฉันเป็นคนชอบไปไหนมาไหนก็เพราะแม่ด้วยซ้ำ"
 
 show emicas closedsmile_close
 with charachange
 
 # emi "She just prefers to be a guest rather than a hostess; it's less stressful that way, or so she says."
-emi ""
+emi "แค่ว่าแม่ชอบไปเป็นแขกมากกว่าที่จะต้องเป็นเจ้าบ้านน่ะ เห็นบอกประมาณว่าเป็นแขกแล้วสบายใจกว่าเป็นเจ้าบ้าน"
 
 # hi "Clearly she's never had to meet her girlfriend's mother for dinner."
-hi ""
+hi "แปลว่ายังไม่เคยไปกินข้าวเย็นด้วยกันกับแม่แฟนแหง ๆ"
 
 # "Emi giggles again and speaks in a teasing tone."
-""
+"เอมิหัวเราะคิกคักอีกรอบแล้วพูดด้วยน้ำเสียงหยอกล้อ"
 
 show emicas wink_close
 with charachange
 
 # emi "Nervous, Hisao?"
-emi ""
+emi "ประหม่าเหรอฮิซาโอะ"
 
 show emicas smile_close
 with charachange
 
 # emi "You shouldn't be, you know! It's not that big a deal! Just dinner at my house, that's all!"
-emi ""
+emi "ไม่เห็นต้องประหม่าเลย! ไม่ใช่เรื่องสำคัญขนาดนั้น! แค่กินข้าวเย็นด้วยกันที่บ้านฉันเอง!"
 
 # hi "Yeah, but have you ever brought home a boyfriend before?"
-hi ""
+hi "ก็ใช่ แต่เธอเคยพาแฟนเข้าบ้านมาก่อนหรือเปล่าล่ะ"
 
 # "I confess that part of me dreads hearing the answer to this."
-""
+"ขอยอมรับว่าใจหนึ่งฉันก็กลัวคำตอบเอมิเหลือเกิน"
 
 # "I know very little of Emi's past relationships - I don't even know if there were past relationships."
-""
+"ฉันแทบไม่รู้เรื่องความสัมพันธ์ในอดีตของเอมิเลย ไม่รู้ด้วยซ้ำว่าเคยคบกับใครมาก่อนหรือเปล่า"
 
 show emicas awayfrown_close
 with charachange
 
 # emi "No, I guess I haven't."
-emi ""
+emi "ไม่นะ เหมือนจะไม่"
 
 show emicas frown_close
 with charachange
 
 # emi "Hey, maybe this really is kind of a big deal after all…"
-emi ""
+emi "อ้าว หรือว่าจะเป็นเรื่องสำคัญจริง ๆ ล่ะเนี่ย…"
 
 # hi "Oh good, now I feel twice as nervous."
-hi ""
+hi "อ้าว เยี่ยม ทีนี้ละยิ่งประหม่าไปอีก"
 
 # "Though to tell the truth, I'm pretty happy to hear that I'm the first one."
-""
+"ว่าตามตรงฉันก็ดีใจเหมือนกันที่ได้รู้ว่าฉันเป็นคนแรก"
 
 # "Maybe we've got something special after all."
-""
+"หรือความสัมพันธ์ระหว่างเราอาจจะพิเศษจริง ๆ ก็ได้"
 
 stop ambient
 stop music fadeout 10.0
@@ -9903,13 +9903,13 @@ with locationchange
 play sound sfx_hammer
 
 # "Bolstered by this new thought, I've managed to calm down considerably by the time Emi knocks on her front door."
-""
+"ฉันมีแรงขึ้นมาเมื่อคิดได้ดังนั้นจนพอเอมิมาเคาะประตูหน้าบ้านแล้วฉันก็ใจเย็นขึ้นพอสมควร"
 
 show emicas grin_up at center
 with charaenter
 
 # emi "Hey, mom, open up! We're here!"
-emi ""
+emi "แม่คะ เปิดประตูหน่อย! มาแล้วค่ะ!"
 
 show bg emi_houseext at bgleft
 show emicas grin_up at twoleft
@@ -9919,28 +9919,28 @@ show meiko smile at tworight
 with charaenter
 
 # "The door swings open, and Mrs. Ibarazaki stands grinning at her daughter. The grin is still surprisingly similar to Emi's."
-""
+"พอประตูเปิดออกก็มีคุณนายอิบาราซากิที่ยืนส่งยิ้มให้ลูกสาวอยู่ เป็นรอยยิ้มที่คล้ายกับเอมิอย่างเหลือเชื่อ"
 
 # "I'm never going to get used to that."
-""
+"ให้ตายฉันก้ไม่ชิน"
 
 show meiko wink
 with charachange
 
 # emm "You know, people normally wait for a few minutes before they start shouting at the door."
-emm ""
+emm "นี่นะ ปกติคนเขาต้องรอสักสองสามนาทีก่อนค่อยตะโกนเรียก"
 
 show emicas pout_up
 with charachange
 
 # emi "And most mothers say hello to their daughters instead of scolding them right away."
-emi ""
+emi "แล้วปกติคนเป็นแม่จะต้องทักทายลูกสาวตัวเองก่อน ไม่ใช่มาถึงก็ดุเลย"
 
 show meiko happy
 with charachange
 
 # emm "Ah, of course. Welcome home, dear. I've missed you."
-emm ""
+emm "แหม ได้จ้ะ ยินดีต้อนรับกลับบ้านนะจ๊ะ คิดถึงลูกจังเลย"
 
 play music music_another fadein 0.5
 
@@ -9948,25 +9948,25 @@ scene bg emi_kitchen
 with locationchange
 
 # "An affectionate hug later we're inside, and it is only then that Emi's mom seems to remember that I'm actually here."
-""
+"พอเข้าไปในบ้านแล้วทั้งสองคนก็กอดกันอย่างอบอุ่น และเป็นตอนนั้นเองที่แม่เอมิเหมือนจะเพิ่งนึกได้ว่ามีฉันยืนหัวโด่\nอยู่ตรงนี้"
 
 show meiko smile at center
 with charaenter
 
 # emm "And hello to you too, Hisao. How are you?"
-emm ""
+emm "แล้วก็สวัสดีฮิซาโอะด้วยนะ สบายดีหรือจ๊ะ"
 
 # hi "I'm quite well, thank you. Nice to not have school to worry about for a little bit."
-hi ""
+hi "ครับ สบายดีครับ พอไม่ต้องเครียดเรื่องเรียนสักพักแล้วค่อยสบายตัวหน่อย"
 
 show meiko happy
 with charachange
 
 # emm "Ah yes, you've finished up your exams, haven't you? That must be quite a relief for you both."
-emm ""
+emm "อ้อ จริงสิ เพิ่งสอบเสร็จกันนี่นา ใช่มั้ย เธอสองคนคงโล่งกันน่าดู"
 
 # hi "It's certainly a weight off of my mind, that's for sure."
-hi ""
+hi "แค่ไม่ต้องเครียดเรื่องสอบก็โล่งขึ้นเยอะแล้วละครับ"
 
 show bg emi_kitchen at bgright
 show meiko happy at tworight
@@ -9976,512 +9976,513 @@ show emicas happy at twoleft
 with charaenter
 
 # emi "Mine too! I think I slept well for the first time in weeks last night from relief alone."
-emi ""
+emi "หนูก็ด้วย! หนูนอนไม่ค่อยหลับมาสองสามสัปดาห์แล้ว แต่เพราะโล่งแล้วถึงเพิ่งได้หลับสนิทก็เมื่อคืนนี่แหละค่ะ"
 
 # "If this news is a surprise to Emi's mother, she doesn't show it. Still, her response betrays a note of interest."
-""
+"แม่เอมิทำท่าเหมือนไม่ได้แปลกใจอะไรกับข้อมูลส่วนนี้ แต่คำตอบนั้นแฝงด้วยความสนใจ"
 
 show meiko smile
 with charachange
 
 # emm "Is that so? I'm very glad to hear that, Emi. You know I get worried when you get all wound up about… well, exams."
-emm ""
+emm "งั้นเหรอจ๊ะ รู้แบบนี้ก็ดีใจแล้วละ แม่ก็เป็นห่วงเพราะเห็นลูกเครียดกับ… เรื่องสอบนั่นแหละ"
 
 # "Certainly Emi's mother knows something I don't - or rather, she doesn't know that Emi's told me about the nightmares."
-""
+"ชัดว่าแม่เอมิรู้บางอย่างที่ฉันไม่รู้ หรือก็คือไม่รู้ว่าเอมิเล่าเรื่องฝันร้ายนั้นให้ฉันฟัง"
 
 # "It's interesting, being able to observe how Mrs. Ibarazaki covers for Emi. That protective instinct to make sure that I don't know any more than Emi's willing to tell me."
-""
+"น่าสนใจดีที่ได้เห็นคุณนายอิบาราซากิคอยคุ้มกันเอมิอย่างนี้ เป็นสัญชาตญาณการปกป้องเพื่อกันไม่ให้ฉันรู้อะไร\nไปมากกว่าเท่าที่เอมิเต็มใจจะบอกฉัน"
 
 #once again, see this only if you talked to Mutou
 label th_E26e:
 
 # "I suppose Emi's got more in common with quarks than I ever realized."
-""
+"เอมิคงมีจุดร่วมกับควาร์กมากกว่าที่ฉันคิด"
 
 # "Moves around fast, impossible to understand through direct observation, yet she has an effect on everyone she encounters."
-""
+"เคลื่อนตัวรวดเร็ว ทำความเข้าใจด้วยการสังเกตโดยตรงไม่ได้ แต่กลับมีผลกับทุกอย่างที่ไปอยู่ด้วย"
 
 
 label th_E26f:
 
 # "I wonder if Mrs. Ibarazaki will figure out that I know about the nightmares, or is she just keeping everything secret from everybody?"
-""
+"คุณนายอิบาราซากิจะรู้หรือเปล่านะว่าฉันรู้เรื่องฝันร้ายนั้น หรือเก็บทุกอย่างไว้เป็นความลับไม่ยอมบอกใครอยู่แล้ว"
 
 show emicas weaksmile
 with charachange
 
 # emi "Yeah, it's not been as bad this year as in the past; Hisao helped me to stay focused."
-emi ""
+emi "ค่ะ ปีนี้ค่อยดีกว่าปีก่อน ๆ หน่อย ฮิซาโอะเขาก็ช่วยทำให้หนูมีสมาธิขึ้นด้วย"
 
 # "Okay, I know that's not true. She even cut off contact outside of school hours during exam week!"
-""
+"โอเค อันนี้แหละรู้ว่าไม่จริงแน่ ๆ ช่วงสัปดาห์สอบยังไม่ติดต่อกันนอกเวลาเรียนเลยด้วยซ้ำ!"
 
 # "But… she did see me during the day. And she told me more than once that the morning run was the only thing she looked forward to during exams, so maybe it's not that much of a lie."
-""
+"แต่… ตอนกลางวันก็มาเจอกันอยู่ แล้วก็บอกหลายรอบด้วยว่าอย่างเดียวที่ตั้งตาคอยช่วงสอบคือการได้วิ่งตอนเช้า\nถือว่าพูดจริงอยู่แหละ"
 
 # "Either way, to hear that being around has helped even a little makes me feel a bit better."
-""
+"แต่จะยังไงก็เถอะ ได้ยินว่าพออยู่เคียงข้างแล้วมีประโยชน์แม้เพียงสักนิดแบบนี้ก็รู้สึกดีขึ้นมาหน่อยหนึ่งแล้ว"
 
 # "Emi's mother raises an eyebrow at this statement. Either she doesn't believe Emi, or she's as surprised as I am."
-""
+"แม่เอมิเลิกคิ้วกับประโยคนั้น อาจจะเพราะไม่เชื่อหรือแปลกใจเหมือนกันกับฉัน"
 
 show meiko happy
 with charachange
 
 # emm "Well, then it appears that it's a good thing you two have become so close."
-emm ""
+emm "โอเคจ้ะ งั้นก็คงดีแล้วละที่เธอสองคนสนิทกันขนาดนี้"
 
 show meiko smile
 with charachange
 
 # emm "I'd tell you to take good care of my daughter, Hisao, but it looks like you're already doing that."
-emm ""
+emm "ฮิซาโอะ ฉันก็อยากบอกอยู่นะว่าฝากดูแลลูกสาวด้วย แต่เหมือนเธอจะดูแลดีอยู่แล้วละนะ"
 
 show emicas closedsmile
 with charachange
 
 # "Emi grins at this and seems to take pride in my having managed to ingratiate myself with her mother so easily."
-""
+"เอมิยิ้มดูภูมิใจที่ฉันทำให้แม่ของเธอปลื้มได้อย่างง่ายดายขนาดนี้"
 
 # hi "Actually, I'd say your daughter's been the one taking care of me. She's gotten me out and running."
-hi ""
+hi "จริง ๆ ลูกสาวคุณต่างหากครับที่ดูแลผม เอมิเขาเป็นคนลากผมให้ออกมาวิ่ง"
 
 # hi "I've probably been more active since meeting her than I ever was, even before…"
-hi ""
+hi "ตั้งแต่ผมได้มาเจอเอมิผมก็ได้ขยับตัวขึ้นเยอะ เยอะกว่าตอน…"
 
 # "I'd actually never thought of it that much, nor had I ever appreciated the humor in it."
-""
+"ที่จริงฉันไม่เคยคิดเรื่องนี้เท่าไหร่เลย ไม่เคยคิดเลยว่าเป็นเรื่องตลก"
 
 # "I wasn't too active before the heart attack. Pickup games of soccer don't really count since they weren't that common."
-""
+"ก่อนหน้าที่หัวใจวายครั้งนั้นฉันก็ไม่ค่อยได้ขยับตัวเท่าไหร่อยู่แล้ว ที่เตะฟุตบอลกันตามนัดนั้นก็ไม่นับ\nเพราะไม่ได้เตะกันบ่อยมาก"
 
 # "So now that I know for sure that I have a weak heart, {b}now{/b} I run every day, pushing my luck with the help of my medication."
-""
+"ตอนนี้ฉันถึงได้แน่ใจแล้วจริง ๆ ว่าหัวใจฉันไม่แข็งแรง {b}หลังจาก{/b}ที่ฉันได้มาวิ่งทุกวันฝืนตัวเองไปพลางกินยา"
 
 # "I chuckle quietly, then realize that I never finished my sentence."
-""
+"ฉันแค่นหัวเราะในใจก่อนจะนึกได้ว่ายังพูดไม่จบประโยค"
 
 # hi "Well, before I had my heart attack and wound up at school here."
-hi ""
+hi "ก็เยอะกว่าตอนที่ผมเป็นหัวใจวายแล้วต้องมาเรียนที่นี่แหละครับ"
 
 # "It comes out so casually. There was a time that I would have thought twice about talking about what was wrong with me at all."
-""
+"ฉันพูดออกมาได้สบาย ๆ เมื่อก่อนยังมีช่วงหนึ่งที่ฉันจะคิดแล้วคิดอีกว่าจะพูดเรื่องความผิดปกติของฉันดีหรือเปล่า"
 
 # "But now? Now it just seems silly to care, especially in the company of Emi and her mother."
-""
+"แต่ตอนนี้เหรอ ดูงี่เง่าสิ้นดี ยิ่งได้อยู่กับเอมิแล้วก็แม่ของเธอด้วย"
 
 # "If Emi can be cavalier about her disability, then so can I."
-""
+"ถ้าเอมิไม่คิดมากเรื่องความพิการของตัวเองได้ ฉันก็ทำแบบนั้นได้เหมือนกัน"
 
 # "I think back to the track meet, where Emi declared herself the fastest thing on no legs."
-""
+"ฉันนึกย้อนไปยังตอนงานแข่งวิ่งที่เอมิประกาศว่าตัวเองคือสิ่งไม่มีขาที่เร็วที่สุด"
 
 # "The fact of her obvious loss has never seemed to bother her, at least not in public."
-""
+"เอมิดูจะไม่เคยกังวลถึงความสูญเสียที่เห็นได้ชัดของตัวเองนั้นเลย อย่างน้อยก็ตอนอยู่ต่อหน้าคนอื่นน่ะนะ"
 
 # "Being stuck in the wheelchair frustrated her, I know. But even that was something she dealt with on her own, despite my efforts to the contrary."
-""
+"ฉันรู้ว่าเอมิหงุดหงิดที่ต้องนั่งวีลแชร์ แต่เธอก็รับมือกับปัญหานั้นได้เอง ต่อให้จะมีฉันคอยช่วยอยู่ก็ตาม"
 
 show meiko happy
 with charachange
 
 # emm "Emi has a way of bringing out the more active side in people. I've never quite figured out how she does it."
-emm ""
+emm "เอมิเขามีวิธีทำให้ความกระตือรือร้นในตัวคนอื่นตื่นขึ้นมาได้น่ะจ้ะ ฉันก็ไม่ค่อยเข้าใจเหมือนกันว่าทำได้ยังไง"
 
 # "Those puppy dog eyes she gets, for starters."
-""
+"เป็นต้นว่า ตาลูกหมาน้อยนั่นไง"
 
 show meiko smile
 with charachange
 
 # emm "I'm not surprised that she managed to rope you into an exercise routine."
-emm ""
+emm "ฉันเลยไม่แปลกใจที่เอมิลากให้เธอมาออกกำลังกายเป็นประจำได้"
 
 # emm "If Rin weren't just as stubborn as she is, I'm sure that Emi would have gotten her out and running with you too."
-emm ""
+emm "ถ้ารินเขาไม่ได้เป็นคนรั้นแบบนั้นแล้วละก็เอมิคงไปลากให้มาวิ่งกับเธอได้ด้วยเหมือนกัน"
 
 show emicas happy
 with charachange
 
 # emi "Oh, that reminds me! Rin says hello."
-emi ""
+emi "อ้อ จริงด้วย! รินเขาฝากทักทายแม่ด้วยนะคะ"
 
 scene bg emi_dining
 with locationchange
 
 # "I drift to the outer edges of the conversation again as we move into the dining room to eat."
-""
+"ฉันพาตัวเองออกจากบทสนทนาอีกครั้งระหว่างที่เดินไปห้องกินข้าวด้วยกัน"
 
 # "It smells delicious in here, and the spread that Emi's mom has produced is impressive."
-""
+"ในห้องมีกลิ่นหอมอวลไปทั่ว ขนมปังหลากหน้าที่แม่เอมิทำนั้นก็ดูสุดยอดทีเดียว"
 
 show meiko smile at tworight
 show emicas happy_up at twoleft
 with charaenter
 
 # emi "Woah, you've made enough to feed an army in here!"
-emi ""
+emi "โห นี่แม่ทำกะจะเปิดโรงทานหรือไงคะเนี่ย!"
 
 show meiko happy
 with charachange
 
 # emm "Is it too much? Well, you can always take some leftovers with you when you go."
-emm ""
+emm "เยอะไปเหรอจ๊ะ ยังไงถ้าเหลือก็ห่อกลับหอได้นะ"
 
 # hi "That sounds great! I can only handle cafeteria food for so long. Something home-cooked would be a welcome change of pace."
-hi ""
+hi "ก็ดีนะครับ! ผมเอียนกับข้าวที่โรงอาหารแล้ว ได้เปลี่ยนมากินกับข้าวที่ทำในครัวบ้านบ้างก็ดีเหมือนกัน"
 
 show emicas smile
 with charachange
 
 # emi "What he said. Thanks, mom."
-emi ""
+emi "ตามฮิซาโอะว่าเลยค่ะ ขอบคุณค่ะแม่"
 
 # "The food tastes as good as it smells, and there's a lull in the conversation while we all dig in."
-""
+"อาหารนั้นอร่อยสมกับกลิ่นที่หอมหวน ระหว่างที่กินบทสนทนาก็ขาดช่วงไป"
 
 # "Emi assaults her plate with the usual amount of gusto, and I will admit that I set a pretty fast pace myself."
-""
+"เอมิกินอาหารในจานตัวเองด้วยความรวดเร็วอย่างทุกที และขอยอมรับว่าฉันเองก็กินเร็วพอกัน"
 
 show meiko wink
 with charachange
 
 # emm "So Hisao, I hear that you and my daughter here have gotten rather close, hmm?"
-emm ""
+emm "จะว่าไป ฮิซาโอะ ฉันได้ยินมาว่าเธอค่อนข้างสนิทกับลูกสาวฉันแล้วนี่"
 
 # "The urge to say something like “Not really” is so strong that I open my mouth to say it, but then reassert control."
-""
+"ฉันอยากจะพูดเหลือเกินว่า “ก็ไม่เชิงหรอกครับ” เสียจนอ้าปากจะพูดออกไปแล้วแต่ก็กลับมาคุมตัวเองได้อยู่"
 
 # "We are close, there's no getting around it. I mean Emi's brought me here, hasn't she?"
-""
+"เราสนิทกัน ไม่มีคำว่าแต่ใด ๆ ทั้งนั้น ก็เอมิพาฉันมาถึงที่นี่เลยนี่"
 
 # "Fortunately, both Emi and her mother seem to take my reaction as a sign that I'm caught off guard rather than considering saying something cruel."
-""
+"โชคดีที่ทั้งเอมิทั้งแม่ของเธอคิดว่าที่ฉันมีปฏิกิริยาเป็นอย่างนี้เพราะไม่ได้ตั้งตัวกับคำถาม ไม่ใช่เพราะกำลัง\nจะพูดอะไรโหดร้ายออกไป"
 
 # hi "Heh, I suppose we have. I blame the morning runs, myself."
-hi ""
+hi "ฮะ ๆ คงงั้นละนะครับ ผมว่าเป็นเพราะการวิ่งตอนเช้านั่นแหละ"
 
 show emicas pout_up
 with charachange
 
 # emi "You make it sound like a bad thing, Hisao."
-emi ""
+emi "นายพูดเหมือนมันไม่ดีเลยนะฮิซาโอะ"
 
 show meiko smile
 with charachange
 
 # emm "Well, I for one found it a relief."
-emm ""
+emm "อืม แต่แม่โล่งใจนะ"
 
 # hi "Why's that?"
-hi ""
+hi "ทำไมเหรอครับ"
 
 show meiko worry
 with charachange
 
 # emm "Emi's always been a popular girl, but never made many close friends."
-emm ""
+emm "เอมิเขาเนื้อหอมก็จริง แต่ไม่ค่อยมีเพื่อนสนิทเลย"
 
 # "This is a bit of news to me. I've always seen Emi chatting with her classmates in the hallways."
-""
+"ไม่เคยรู้มาก่อนเลยนะเนี่ย ปกติก็เห็นคุยกับเพื่อนที่เรียนห้องเดียวกันอยู่ในโถงทางเดินตลอด"
 
 # "And certainly the whole track team seems to love her, but it is true that she chooses to isolate herself during lunch with Rin and me."
-""
+"แล้วก็ชัดด้วยว่าคนทั้งทีมวิ่งต่างรักเอมิ แต่จริงอยู่ว่าเอมิเลือกที่จะปลีกตัวเองออกมาตอนเที่ยงเพื่อมากินข้าวกับริน\nแล้วก็ฉัน"
 
 # "Not exactly the sort of behavior one expects from a popular girl, after all. Then again, I've experienced her unwillingness to get close firsthand, so I can't say I'm that surprised."
-""
+"ซึ่งเด็กสาวที่เนื้อหอมน่าจะไม่ทำตัวแบบนี้อยู่แล้ว แต่ก็นะ ฉันนี่แหละที่ได้สัมผัสความไม่อยากสนิทกับใครของเอมิ\nโดยตรงเลย จึงไม่ได้แปลกใจขนาดนั้น"
 
 show meiko serious
 with charachange
 
 # emm "I was beginning to have my doubts."
-emm ""
+emm "เห็นแบบนั้นฉันก็ชักกังวลใจ"
 
 show emicas awayfrown_up
 with charachange
 
 # "Emi rolls her eyes to the ceiling and grumbles something I can't quite make out."
-""
+"เอมิกลอกตามองบนแล้วบ่นอุบอิบอะไรสักอย่างที่ฉันฟังไม่ค่อยออก"
 
 stop music fadeout 1.0
 
 # hi "Huh?"
-hi ""
+hi "ฮะ?"
 
 show emicas neutral_up
 with charachange
 
 # emi "What?"
-emi ""
+emi "อะไร"
 
 # hi "What's that you just said?"
-hi ""
+hi "เมื่อกี้เธอว่าอะไร"
 
 show emicas blush
 with charachange
 
 # emi "Nothing."
-emi ""
+emi "เปล่า"
 
 show meiko happy
 with charachange
 
 # "Mrs. Ibarazaki chokes on her drink with laughter."
-""
+"คุณนายอิบาราซากิหัวเราะจนสำลักน้ำ"
 
 play music music_comedy fadein 0.5
 
 # emm "You've been hanging out with the nurse too long, Emi."
-emm ""
+emm "ลูกอยู่กับคุณพยาบาลบ่อยไปแล้วนะ"
 
 # emm "I'm going to have to talk to him about corrupting my daughter."
-emm ""
+emm "เดี๋ยวต้องเตือนคุณพยาบาลหน่อยว่าห้ามทำลูกสาวฉันติดนิสัยไม่ดีด้วย"
 
 # hi "Somehow I don't think that would be very effective."
-hi ""
+hi "ผมว่าบอกไปก็เท่านั้นละครับ"
 
 show emicas evil
 with charachange
 
 # emi "I learned most of it from you anyway. Not the nurse."
-emi ""
+emi "ฉันติดนิสัยหลายอย่างนายมามากกว่า ไม่ใช่คุณพยาบาลหรอก"
 
 show meiko smile
 with charachange
 
 # emm "Don't listen to her, Hisao. She's a born liar."
-emm ""
+emm "ไม่ต้องไปฟังหรอกนะจ๊ะฮิซาโอะ เอมิน่ะขี้โกหก"
 
 show emicas awayfrown
 with charachange
 
 # emi "Hmph. Yeah right."
-emi ""
+emi "ฮึ ใช่สิ"
 
 # hi "Oh, I don't know, Emi. I think your mother has a point."
-hi ""
+hi "โธ่ ไม่รู้สิเอมิ ฉันว่าแม่เธอก็พูดถูกนะ"
 
 show emicas angry_up
 with charachange
 
 # emi "What? You traitor! You're supposed to take my side in this!"
-emi ""
+emi "อะไรนะ เจ้าคนทรยศ! นายต้องเข้าข้างฉันสิ!"
 
 # hi "Yeah, but you did lie about your leg after the meet—{w=0.3}{nw}"
-hi ""
+hi "ก็ใช่ แต่ตอนหลังงานแข่งเธอก็โกหกเรื่องขาเธ—{w=0.3}{nw}"
 
 with vpunch
 
-extend " ow!"
+# extend " ow!"
+extend " โอ๊ย!"
 
 # "A kick in the shins from an unmistakably plastic foot cuts me off, but not before Mrs. Ibarazaki's eyebrows shoot upwards."
-""
+"แรงจากเท้าพลาสติกเน้น ๆ ที่เตะเข้ากับหน้าแข้งฉันตัดบทฉันไป แต่คุณนายอิบาราซากิก็เลิกคิ้วขึ้น"
 
 show meiko serious
 with charachange
 
 # emm "What about your leg?"
-emm ""
+emm "ขาลูกเป็นอะไรเหรอ"
 
 show emicas awayfrown
 with charachange
 
 # emi "It wasn't a big deal, that's all… I just was, er, inawheelchairforabit."
-emi ""
+emi "ไม่ได้เป็นอะไรมากหรอกค่ะ พอดี… คือหนู เอ่อ ดั้ยนั่งวีนแชอยู่พักนึง"
 
 # "The last few mumbled words are quickly deciphered by Emi's mother - I suspect she has experience with this sort of thing - and a worried frown appears on her face."
-""
+"แม่เอมิถอดความประโยคสุดท้ายที่เอมิพูดเสียงงึมงำได้ในทันที คงจะเคยเจอเรื่องแบบนี้มาแล้ว เธอขมวดคิ้ว\nด้วยความเป็นห่วง"
 
 show meiko worry
 with charachange
 
 # emm "So that's why he kept dodging my calls…"
-emm ""
+emm "เพราะแบบนี้สินะลูกถึงได้ไม่ยอมรับสาย…"
 
 # emm "Oh Emi… I know how much you hate being in a wheelchair."
-emm ""
+emm "โธ่เอมิ… แม่รู้ว่าลูกไม่ชอบนั่งวีลแชร์เลย"
 
 # emm "No wonder you've been in such a mood lately!"
-emm ""
+emm "มิน่าล่ะหมู่นี้ลูกถึงได้ซึมไป!"
 
 show emicas frown
 with charachange
 
 # hi "Yeah, she's much happier on her feet, so to speak."
-hi ""
+hi "ครับ หรือจะให้พูดก็คือเอมิจะมีความสุขมากกว่าตอนที่ไม่ต้องนั่ง"
 
 show meiko serious
 show emicas awayfrown
 with charachange
 
 # emm "Well of course! She spent enough time in a chair just after the accident."
-emm ""
+emm "แน่อยู่แล้วสิ! แค่ช่วงหลังเกิดอุบัติเหตุเอมิก็ได้นั่งวีลแชร์จนเอือมแล้ว"
 
 show emicas frown
 with charachange
 
 # hi "She didn't get prosthetics immediately?"
-hi ""
+hi "ไม่ได้ใส่ขาเทียมเลยเหรอครับ"
 
 show meiko worry
 show emicas awayfrown
 with charachange
 
 # emm "No, she had to finish healing up before they'd let her start the sort of therapy you've got to go through to adjust to those things."
-emm ""
+emm "ใช่ ต้องรอให้อาการดีขึ้นก่อนหมอถึงค่อยให้มาบำบัดปรับตัวให้ชินกับของพวกนี้"
 
 # emm "Especially since she wanted to run on them."
-emm ""
+emm "แล้วยิ่งเอมิอยากใส่ขาเทียมวิ่งด้วย"
 
 show emicas frown
 with charachange
 
 # hi "I had no idea."
-hi ""
+hi "เพิ่งรู้เลยนะครับเนี่ย"
 
 show emicas weaksmile_up
 with charachange
 
 # emi "Yeah, it sucked. Oh, did you see Rin's mural at the festival?"
-emi ""
+emi "ใช่ อึดอัดมาก อ้อ แม่เห็นภาพเขียนผนังของรินตอนงานเทศกาลหรือยังคะ"
 
 # "Emi's sudden change of topic makes me realize belatedly that she's been fidgeting the whole time her mother and I have been talking."
-""
+"พออยู่ ๆ เอมิก็เปลี่ยนเรื่องฉันถึงเพิ่งรู้ตัวเอาตอนนี้ว่าเธอนั่งบิดตัวไปมาตลอดตอนที่แม่ของเธอคุยกับฉัน"
 
 # "I should have figured on her being a little skittish when it comes to talking about the accident. Even around her mother."
-""
+"น่าจะรู้แต่แรกแล้วว่าเอมิจะกระอักกระอ่วนขึ้นมาพอพูดถึงเรื่องอุบัติเหตุ แม้จะอยู่กับแม่ก็ตาม"
 
 show meiko serious
 with charachange
 
 # emm "No, I didn't make it out to the festival, remember?"
-emm ""
+emm "ไม่จ้ะ ลูกลืมแล้วเหรอว่าแม่ไม่ได้ไปงานเทศกาลน่ะ"
 
 show meiko happy
 with charachange
 
 # emm "Although I caught a glimpse of it at your track meet. It seemed pretty weird to me."
-emm ""
+emm "แต่ตอนที่ไปงานแข่งวิ่งก็เห็นผ่าน ๆ อยู่นะ เป็นภาพที่ดูแปลก ๆ ดี"
 
 show emicas closedsmile
 with charachange
 
 # emi "I think that's more or less what she was going for. She talked a lot about it being dreamlike. Or trying to make it dreamlike."
-emi ""
+emi "หนูว่ารินก็คงตั้งใจให้เป็นอย่างนั้นแหละค่ะ เห็นพูดบ่อย ๆ ว่าเป็นภาพที่เป็นเหมือนฝัน หรือไม่ก็อยากวาด\nให้ดูเหมือนฝัน"
 
 show meiko smile
 with charachange
 
 # emm "Rin's art is one of those things I don't think I'll ever understand."
-emm ""
+emm "งานศิลปะของรินเป็นอะไรที่แม่คงไม่เข้าใจหรอกจ้ะ"
 
 show emicas wink
 with charachange
 
 # emi "That's not surprising. I don't think Rin expects to be understood."
-emi ""
+emi "ก็ไม่แปลกหรอกค่ะ รินคงไม่ได้คาดหวังให้ใครมาเข้าใจหรอก"
 
 show emicas grin
 with charachange
 
 # emi "She told me once that art allows people to understand stuff they wouldn't understand otherwise, but all the same she doesn't think it actually works that way."
-emi ""
+emi "รินเคยบอกหนูว่าศิลปะทำให้คนเข้าใจสิ่งที่ทำให้เข้าใจได้ด้วยศิลปะเท่านั้น แต่ถึงอย่างนั้นรินก็คิดว่าศิลปะ\nไม่ใช่อะไรอย่างนั้น"
 
 # "I'm surprised that Emi's talked about this with Rin extensively enough to actually have Rin's opinion, such as it is."
-""
+"ไม่ต้องพูดถึงว่าเป็นเรื่องศิลปะหรอก ฉันแปลกใจที่เอมิคุยกับรินเรื่องอะไรสักอย่างได้ลึกพอที่จะรู้มุมมองของรินแบบนี้"
 
 # "Although I expect that Rin could not, if she were so inclined, say the same thing about Emi's."
-""
+"แต่กลับกัน ฉันคาดว่าริน—ต่อให้อยากรู้จริง ๆ ก็—คงไม่ได้รู้มุมมองของเอมิหรอก"
 
 # "Unless, of course, Emi is purposely keeping me in the dark about everything; which is likely, but unpleasant to think about."
-""
+"แน่ละว่าเว้นเสียแต่เอมิจะจงใจไม่บอกอะไรทุกอย่างกับฉัน ซึ่งก็เป็นไปได้ แต่ไม่อยากคิดแบบนั้นเลย"
 
 # "I drift down this unpleasant train of thought for a while, losing track of the conversation."
-""
+"ฉันคิดอะไรชวนหนักใจเช่นนั้นไปครู่หนึ่งจนไม่ได้ฟังบทสนทนาตรงหน้า"
 
 show meiko serious
 with charachange
 
 # emm "Hey Emi, I've been meaning to ask…"
-emm ""
+emm "นี่เอมิ แม่ว่าจะถามลูก…"
 
 show emicas neutral
 with charachange
 
 # emi "Huh?"
-emi ""
+emi "คะ?"
 
 show meiko worry
 with charachange
 
 # emm "Are you going to visit your father this year?"
-emm ""
+emm "ปีนี้ลูกจะไปเยี่ยมคุณพ่อหรือเปล่า"
 
 stop music fadeout 3.0
 
 # "From the way she says it, you'd think Emi's mother was talking about the weather. From the way Emi reacts, it's clearly not the weather they're talking about."
-""
+"ฟังจากน้ำเสียงแล้วเหมือนแม่เอมิพูดถึงเรื่องดินฟ้าอากาศเฉย ๆ แต่ดูจากปฏิกิริยาของเอมิแล้วก็รู้ว่าไม่ได้คุยกัน\nเรื่องดินฟ้าอากาศแน่นอน"
 
 show emicas awayfrown
 with charachange
 
 # "She flinches, a slight jerk of the head backwards as if she's just been slapped in the face."
-""
+"เธอผงะกระตุกหัวไปข้างหลังเล็กน้อยเหมือนโดนตบหน้า"
 
 show emicas sad
 with charachange
 
 # emi "Can we talk about this later?"
-emi ""
+emi "ไว้คุยเรื่องนี้กันทีหลังได้มั้ยคะ"
 
 # "Her voice sounds brittle, strained. It looks as if she's been severely shaken by the question."
-""
+"เป็นน้ำเสียงที่ฟังดูเปราะบางและเกร็งราวกับว่าสะเทือนใจกับคำถามนั้นมาก"
 
 # "It seems that Mrs. Ibarazaki misjudged just how close Emi and I are."
-""
+"ดูท่าว่าคุณนายอิบาราซากิจะประเมินความสนิทของเราพลาด"
 
 # "Some things, it seems, are best not conversed about with me around. Her father is one of these things."
-""
+"เท่าที่เห็น บางอย่างก็ไม่ใช่เรื่องที่ควรคุยตอนฉันอยู่ด้วย ซึ่งหนึ่งในนั้นก็คือเรื่องของพ่อเอมิ"
 
 # "The accident that took her legs is probably another one of those things, if her reaction to the earlier conversation between her mother and myself is any indication."
-""
+"อีกเรื่องก็คงจะเป็นอุบัติเหตุที่ทำให้เอมิต้องเสียขาไป ดูจากปฏิกิริยาของเอมิที่เห็นตอนแม่ของเธอคุยกับฉันน่ะนะ"
 
 # "It doesn't take Emi's mother long to realize she's screwed up."
-""
+"ไม่นานนักแม่เอมิก็รู้ตัวว่าทำพลาดไปเสียแล้ว"
 
 show meiko happy
 with charachange
 
 # emm "Of course we can, dear. I'm sorry to bring it up, I just wanted to ask so I could make plans—"
-emm ""
+emm "ได้สิจ๊ะลูก ขอโทษที่คุยเรื่องนี้นะ แม่แค่อยากถามไว้ก่อน จะได้เตรียม—"
 
 show emicas neutral
 with charachange
 
 # emi "It's fine. Don't worry about it."
-emi ""
+emi "ไม่เป็นไรหรอกค่ะ ไม่ต้องคิดมากหรอก"
 
 # "Emi fidgets nervously, as if embarrassed by her own reaction. I confess that her reaction is confusing."
-""
+"เอมิบิดตัวไปมาด้วยความประหม่าคล้ายอายที่เมื่อครู่ทำตัวไปอย่างนั้น ขอยอมรับว่าฉันสับสนกับท่าทีเธอเหลือเกิน"
 
 # "She only just mentioned her father to me earlier today! Less than a few hours ago, even!"
-""
+"ก็วันนี้เอมิเพิ่งพูดถึงพ่อตัวเองไปหยก ๆ ! ผ่านมาไม่ถึงสองสามชั่วโมงด้วยซ้ำ!"
 
 # "Why does a simple question about when she'll visit her father cause such a strong reaction?"
-""
+"ทำไมคำถามง่าย ๆ แค่ว่าจะไปเยี่ยมคุณพ่อตอนไหนถึงได้ทำให้เอมิทำท่าทางขนาดนั้น"
 
 # "Unless whatever serenity she claimed to have reached by means of our talk the previous evening has suddenly evaporated."
-""
+"เว้นเสียแต่ว่าสภาวะใจสงบอะไรก็ช่างที่เอมิบอกว่ารู้สึกได้เพราะเราคุยกันตอนเย็นเมื่อวานนั้นอยู่ ๆ ก็สลายหายไปแล้ว"
 
 # "Or it didn't help as much as she thought. Or claimed."
-""
+"หรืออาจจะไม่ได้เป็นประโยชน์มากอย่างที่เอมิคิด หรืออย่างที่พูดไว้"
 
 show emicas weaksmile
 with charachange
 
 # emi "I'll uh, be right back. Gotta visit the little girl's room."
-emi ""
+emi "เดี๋ยว เอ่อ หนูมานะคะ ไปเข้าห้องน้ำ"
 
 hide emicas
 with charaexit
@@ -10491,13 +10492,13 @@ show meiko smile at center
 with dissolvecharamove
 
 # "Emi gets up suddenly and leaves the table, leaving me and Mrs. Ibarazaki alone."
-""
+"อยู่ ๆ เอมิก็ลุกไปจากโต๊ะทิ้งให้ฉันอยู่กับคุณนายอิบาราซากิตามลำพัง"
 
 # "I'm a little conflicted. Should I go after her, or should I stay here?"
-""
+"ตอนนี้ฉันเลือกไม่ถูกว่าจะตามเอมิไปหรือนั่งอยู่ตรงนี้ดี"
 
 # "It's obvious that Emi's departure was not based on the call of nature. Something's bothering her, and I have to know what it is."
-""
+"ชัดว่าที่เอมิไปไม่ใช่เพราะอยากเข้าห้องน้ำแน่นอน มีเรื่องกวนใจเอมิอยู่ และฉันก็ต้องรู้ให้ได้ว่าเรื่องอะไร"
 
 #choice time, kiddies. Well, assuming you talked to Mutou. If you didn't you'll default to 1) Go after her! and not 2) Talk to Emi's mom
 
@@ -10505,12 +10506,15 @@ label th_choiceE26:
 menu:
     with menueffect
 
-    "How to go about it?"
+    # "How to go about it?"
+    "เอายังไงดี"
 
-    "Go after her.":
+    # "Go after her.":
+    "ตามเอมิไป":
         return m1
 
-    "Talk to her mom.":
+    # "Talk to her mom.":
+    "คุยกับแม่เอมิ":
         return m2
 
 label th_E26c:
@@ -10518,82 +10522,82 @@ label th_E26c:
 #if you go after her
 
 # "The only way to find out is to go to the source. And the source is currently pretending that she has to use the toilet."
-""
+"ทางเดียวที่จะรู้ได้คือต้องตามต้นทางไป และต้นทางที่ว่านั้นตอนนี้ทำเป็นว่าต้องไปเข้าห้องน้ำอยู่"
 
 scene bg emi_kitchen
 with locationchange
 
 # "I excuse myself politely from the table and head that way, only to catch sight of Emi not in the bathroom, but in the kitchen just next to the living room."
-""
+"ฉันพูดขอตัวอย่างสุภาพก่อนจะเดินตามทางที่เอมิออกไปจนมาเจอกับเธอที่ไม่ได้อยู่ในห้องน้ำแต่อยู่ในครัว\nข้างห้องนั่งเล่น"
 
 show emicas sad
 with charaenter
 
 # "Emi's left the door open, and as I approach I can see that she's holding on to the table in an attempt to compose herself, an effort that fails as soon as I open my mouth."
-""
+"เอมิเปิดประตูทิ้งไว้ พอเข้าไปดูใกล้ ๆ ก็เห็นว่ากำลังจับโต๊ะเป็นการสงบใจตัวเองอยู่ ซึ่งก็ต้องล้มเหลวเมื่อฉันเปิดปาก"
 
 # hi "Doesn't look like nature's call was that urgent."
-hi ""
+hi "ดูท่าว่าจะไม่ได้อยากเข้าห้องน้ำขนาดนั้นนะ"
 
 show emicas angry
 with charachange
 
 # "Emi jumps and glares at me."
-""
+"เอมิสะดุ้งแล้วจ้องมาทางฉัน"
 
 show emicas angry_up
 with charachange
 
 # emi "What are you doing here? I didn't come here to be with other people."
-emi ""
+emi "มาทำอะไรที่นี่ ฉันอุตส่าห์หนีคนมาอยู่ตรงนี้"
 
 # hi "I just wanted to help you. You looked pretty rattled."
-hi ""
+hi "ฉันแค่อยากช่วยเธอ เห็นเธอตระหนกแบบนั้นน่ะ"
 
 show emicas awayfrown
 with charachange
 
 # emi "I said it was nothing, didn't I? And besides, I thought we'd established that you can't help me."
-emi ""
+emi "ฉันก็บอกแล้วไงว่าไม่มีอะไร แล้วอีกอย่าง เราคุยกันแล้วไม่ใช่เหรอว่านายช่วยฉันไม่ได้หรอก"
 
 # hi "No, we've established that you're stubborn."
-hi ""
+hi "ไม่ เราคุยกันแล้วว่าเธอดื้อต่างหาก"
 
 show emicas angry
 with charachange
 
 # emi "Look who's talking. The guy who followed me."
-emi ""
+emi "แล้วไอ้คนพูดล่ะ ตามฉันมาถึงนี่เนี่ย"
 
 # hi "This is different! I want to help you with… whatever this is."
-hi ""
+hi "ไม่เหมือนกันสักหน่อย! ฉันอยากช่วยเธอเรื่อง… อะไรก็ช่างที่เป็นปัญหาตอนนี้"
 
 show emicas awayfrown
 with charachange
 
 # emi "Funny, because {b}I{/b} just want you to leave me alone."
-emi ""
+emi "โคตรจะตลก {b}ฉัน{/b}ก็บอกว่าไม่อยากให้นายมายุ่งกับฉันไปหยก ๆ"
 
 # hi "But why? Why can't you just trust me?"
-hi ""
+hi "แต่ทำไมล่ะ ทำไมเธอถึงเชื่อใจฉันไม่ได้"
 
 show emicas frown
 with charachange
 
 # emi "We've been over this already, Hisao. I've got to deal with this stuff on my own."
-emi ""
+emi "เราคุยเรื่องนี้กันแล้วนะฮิซาโอะ ฉันต้องจัดการกับเรื่องนี้ตัวคนเดียว"
 
 # hi "I won't accept that! You need my help, you just won't take it!"
-hi ""
+hi "ฉันไม่ยอมหรอก! เธอน่ะต้องการความช่วยเหลือจากฉัน เธอแค่ไม่ยอมรับไว้เฉย ๆ !"
 
 # "My wording seems to have been a little off."
-""
+"คำพูดของฉันฟังดูแปร่ง ๆ"
 
 show emicas angry
 with charachange
 
 # emi "Need? I {b}need{/b} your help?"
-emi ""
+emi "ต้องการเหรอ ฉันเนี่ยนะ{b}ต้องการ{/b}ความช่วยเหลือจากนาย"
 
 play music music_tragic fadein 0.5
 
@@ -10601,115 +10605,115 @@ show emicas angry_up
 with charachange
 
 # emi "Well, it's a good thing we met, isn't it? Because otherwise I guess I'd just be a broken human being, wouldn't I?"
-emi ""
+emi "โอเค ดีจังเลยเนอะที่เราได้มาเจอกัน เพราะไม่งั้นฉันก็คงเป็นแค่คนที่แหลกสลายคนหนึ่ง เนอะ"
 
 # emi "No, it's a damn good thing that Hisao came along to save the day, isn't it? Because God knows I can't save myself, can I?"
-emi ""
+emi "ไม่ ๆ ดีเท่าไหร่แล้วที่ฮิซาโอะเสด็จมาช่วยฉันน่ะ เพราะฉันน่ะช่วยเหลือตัวเองไม่ได้เลย เนอะ"
 
 # emi "I'm just the poor, emotionally damaged girl with no legs, right?"
-emi ""
+emi "ฉันมันก็แค่เด็กสาวไม่มีขาซึ่งบอบช้ำทางจิตใจผู้น่าสงสาร เนอะ"
 
 # hi "Emi, you know I don't think that—"
-hi ""
+hi "เอมิ เธอก็รู้ว่าฉันไม่ได้คิด—"
 
 show emicas angry
 with charachange
 
 # emi "Really? Because if you thought differently then I don't think you'd be here, saying I need your help."
-emi ""
+emi "จริงเหรอ ถ้านายไม่คิดแบบนั้นแล้วฉันว่านายไม่น่ามาอยู่ตรงนี้แล้วบอกว่าฉันต้องการความช่วยเหลือจากนาย\nหรอกนะ"
 
 # emi "I've gotten pretty far in life as a normal human being without you."
-emi ""
+emi "ฉันก็ใช้ชีวิตอย่างมนุษย์ปกติสามัญมาได้จนป่านนี้โดยไม่มีนาย"
 
 # hi "So what, nothing we've shared was important? I'm just the guy who hangs out with you?"
-hi ""
+hi "แล้วยังไง ระหว่างเรามันไม่มีความหมายเลยเหรอ ฉันมันก็แค่คนที่อยู่กับเธอว่างั้น?"
 
 show emicas awayfrown
 with charachange
 
 # emi "You're my boyfriend, Hisao, not my savior."
-emi ""
+emi "นายเป็นแฟนฉันนะฮิซาโอะ ไม่ใช่ผู้ที่จะมาช่วยชีวิตฉัน"
 
 # hi "Well no, that much is obvious. You won't even consider that I could be a help to you, will you?"
-hi ""
+hi "ก็ใช่ อันนั้นน่ะชัดอยู่แล้ว เธอคิดว่าฉันจะช่วยอะไรเธอไม่ได้เลยงั้นสิ"
 
 # hi "You'll just bottle it all up and hope that a run will solve your problems, or you'll come visit me and we'll fool around until you feel better."
-hi ""
+hi "เธอจะเก็บปัญหานั้นไว้กับตัวเองแล้วหวังเอาว่าการวิ่งจะช่วยแก้ปัญหาของเธอได้ หรือไม่ก็จะแวะมาหาฉัน\nแล้วก็สนุกด้วยกันไปจนกว่าเธอจะรู้สึกดีขึ้นงี้เหรอ"
 
 # hi "That's not being a healthy human being, Emi. That's not what a relationship means."
-hi ""
+hi "มนุษย์ปกติเขาไม่ทำแบบนั้นกันหรอกนะเอมิ ความรักความสัมพันธ์น่ะมันไม่ได้หมายความแบบนั้น"
 
 show emicas frown
 with charachange
 
 # emi "Well it's what it means to me right now, Hisao."
-emi ""
+emi "แต่ตอนนี้สำหรับฉันความรักความสัมพันธ์มันหมายความแบบนั้นแหละฮิซาโอะ"
 
 show emicas sad
 with charachange
 
 # emi "I wish—"
-emi ""
+emi "ฉันละอยาก—"
 
 # "She seems to reconsider her words just then. A flicker of pain, of doubt on her face. For a moment I think she's about to cry."
-""
+"อยู่ ๆ เอมิก็ทำท่าชั่งใจคิดคำพูดตัวเองใหม่ เธอทำหน้าเจ็บปวดและเคลือบแคลงขึ้นมาแวบหนึ่งจนฉันคิดว่าเธอ\nจะร้องไห้แล้ว"
 
 show emicas frown
 with charachange
 
 # "But the moment passes, and now she's composed herself again. Whatever that wish was will have to go unspoken."
-""
+"แต่ชั่วขณะนั้นก็ผ่านไป เอมิกลับมาตั้งสติได้แล้ว ความอยากอะไรก็ช่างนั้นจะไม่มีวันหลุดออกมาจากปากอีก"
 
 # emi "Look, I just… I can't do this right now."
-emi ""
+emi "คือ ฉันแค่… ตอนนี้ฉันไม่ไหว"
 
 # hi "What, have a serious conversation? Be open? Be honest? Give a damn about anyone besides yourself and your problems?"
-hi ""
+hi "ไม่ไหวอะไร คุยจริงจังไม่ไหว? เปิดใจไม่ไหว? พูดตรง ๆ ไม่ไหว? สนใจคนอื่นนอกจากตัวเองกับปัญหาของตัวเอง\nไม่ไหว?"
 
 show emicas angry_up
 with charachange
 
 # emi "What do you know about my problems? Nothing! You don't know what I've been through, so don't pretend that you do."
-emi ""
+emi "แล้วนายรู้เรื่องอะไรปัญหาของฉันบ้างล่ะ ไม่รู้เลยไง! นายไม่รู้ว่าฉันต้องผ่านอะไรมาบ้าง อย่ามาทำรู้ดี\nไปหน่อยเลย"
 
 # hi "I know you have nightmares, and I know your father's gone. What happened to him?"
-hi ""
+hi "ฉันรู้ว่าเธอฝันร้าย แล้วก็รู้ด้วยว่าพ่อเธอไม่อยู่แล้ว เกิดอะไรขึ้นกับพ่อเธอล่ะ"
 
 show emicas sad_up
 with charachange
 
 # "Emi's head jerks backwards as if I've just slapped her. That brittle quality has gotten back into her voice."
-""
+"คอเอมิกระตุกไปข้างหลังราวกับว่าฉันตบหน้าเธอ ความเปราะบางนั้นกลับมาแทรกตัวในน้ำเสียงเอมิ"
 
 show emicas sad
 with charachange
 
 # emi "That's enough."
-emi ""
+emi "พอสักที"
 
 # "This is stupid. This whole conversation has just been variations on Emi stonewalling me."
-""
+"งี่เง่าสิ้นดี แต่ละประโยคในบทสนทนาที่ผ่านมานี้ต่างก็เป็นแค่การที่เอมิตั้งกำแพงใส่ฉันแต่เป็นคนละแบบกันเฉย ๆ"
 
 # hi "What, you won't even answer that question? Fine, keep your secrets. They can lie in the grave as far as I'm concerned."
-hi ""
+hi "อะไร แค่จะตอบเรื่องนั้นยังไม่ตอบเลยเหรอ ก็ได้ เชิญตามสบาย ให้ความลับมันตาย ๆ ไปกับเธอเสียเถอะ"
 
 show emicas blush
 with charachange
 
 # "Emi's eyes widen in shock. When she speaks again, it's in a voice that is low, dangerous."
-""
+"เอมิตาเบิกโพลงด้วยความตกใจ พอเธอเปิดปากพูดอีกครั้งก็เป็นเสียงทุ้มต่ำที่ฟังดูน่ากลัว"
 
 show emicas grit
 with charachange
 
 # emi "Get out of my house, Hisao."
-emi ""
+emi "ออกไปจากบ้านฉันเลยนะฮิซาโอะ"
 
 # "The sudden change in her tone snaps me out of my self-righteous anger and makes me realize with a dawning horror what I've just said."
-""
+"น้ำเสียงเอมิที่เปลี่ยนไปกะทันหันนั้นทำให้ฉันได้สติหลุดจากความโทสะซึ่งเกิดจากความถือดีของตัวเอง และทำให้ฉัน\nพรั่นพรึงขึ้นมาเมื่อระลึกถึงสิ่งที่ตัวเองได้พูดออกไป"
 
 # hi "Emi, I didn't mean—"
-hi ""
+hi "เอมิ ฉันไม่ได้ตั้งใจจะ—"
 
 stop music fadeout 2.0
 
@@ -10717,29 +10721,29 @@ show emicas angry
 with charachange
 
 # emi "I said {b}go{/b}, Hisao."
-emi ""
+emi "ฉันบอกให้{b}ไป{/b}ไง ฮิซาโอะ"
 
 # emi "Tell my mother that she cooked a wonderful meal but you've forgotten a prior engagement, and get out of my house."
-emi ""
+emi "บอกแม่ด้วยว่าอาหารอร่อยมาก แต่ลืมไปว่ามีธุระที่นัดไว้แล้ว แล้วก็ออกไปจากบ้านฉันเสีย"
 
 # "She's trembling now, shaking with anger, or sadness, or determination. Her voice is still low, controlled. Almost a growl."
-""
+"เอมิตัวสั่นด้วยความโกรธ ไม่ก็ความเศร้า ไม่ก็ความเด็ดเดี่ยว เธอยังกดเสียงต่ำไว้จนคล้ายเสียงสัตว์ตอนขู่"
 
 # "I reach out to put an arm on her shoulder, to apologize for going too far, but she jerks away from my touch."
-""
+"ฉันยื่นมือจะไปวางไว้ที่บ่าเอมิเป็นการขอโทษที่พูดแรงเกินไป แต่เธอก็สะบัดตัวหนี"
 
 show emicas angry_up
 with charachange
 
 # emi "Get out."
-emi ""
+emi "ออกไป"
 
 show bg emi_dining at bgleft
 show meiko serious at center
 with locationchange
 
 # "What can I do? I walk out of the kitchen and go to the living room, make my apology to Mrs. Ibarazaki, and let myself out."
-""
+"แล้วจะให้ทำยังไงได้ ฉันเดินออกจากครัวมาที่ห้องนั่งเล่นแล้วขอโทษคุณนายอิบาราซากิก่อนเดินออกบ้าน"
 
 $ suppress_window_after_timeskip = True
 
@@ -10753,179 +10757,179 @@ with dissolve
 label th_E26d:
 
 # "There's an awkward silence at the table for a while after Emi dashes off. I can't think of anything to say."
-""
+"พอเอมิออกไปแล้วก็มีความเงียบอันน่าอึดอัดอยู่พักหนึ่ง ฉันไม่รู้จะพูดอะไรดี"
 
 show meiko serious
 with charachange
 
 # "Emi's mother sighs, breaking the silence."
-""
+"แม่เอมิถอนหายใจก่อนจะทำลายความเงียบ"
 
 play music music_moonlight fadein 5.0
 
 # emm "Sorry about that, Hisao. I sometimes forget that Emi's touchy about certain subjects."
-emm ""
+emm "ขอโทษด้วยนะจ๊ะฮิซาโอะ บางทีฉันก็ลืมว่าเอมิเขาอ่อนไหวกับเรื่องพวกนี้"
 
 # emm "And I was talking about the wheelchair thing, too…"
-emm ""
+emm "แล้วยังไปพูดถึงวีลแชร์อีก…"
 
 # hi "Should I go after her?"
-hi ""
+hi "ให้ผมตามไปมั้ยครับ"
 
 show meiko worry
 with charachange
 
 # emm "Heavens no! She didn't leave the table to continue the conversation, you know."
-emm ""
+emm "อย่านะจ๊ะ! ที่เอมิลุกไปจากโต๊ะก็เพราะไม่อยากคุยต่อนั่นแหละจ้ะ"
 
 # hi "But if she's troubled, shouldn't someone help her?"
-hi ""
+hi "แต่ถ้ามีเรื่องอะไรกวนใจอยู่ก็ต้องมีคนช่วยหรือเปล่าครับ"
 
 show meiko serious
 with charachange
 
 # emm "If it were anyone else, I'd say yes. But my daughter is stubborn as a mule, and if she wants to be alone it's best to let her be alone."
-emm ""
+emm "ถ้าเป็นคนอื่นฉันก็คงบอกแบบนั้นแหละจ้ะ แต่ลูกสาวฉันน่ะหัวแข็งยิ่งกว่าอะไรดี ถ้าเอมิอยากอยู่คนเดียว\nก็ปล่อยให้อยู่คนเดียวนั่นแหละจ้ะดีที่สุดแล้ว"
 
 # emm "Otherwise she'll probably say something she'd regret, which would cause you to say something you'd regret, and I would prefer that dinner doesn't end with one or the both of you storming out of the house."
-emm ""
+emm "ไม่อย่างนั้นเอมิก็คงจะพูดอะไรที่เดี๋ยวคงนึกเสียใจทีหลังอีก ซึ่งก็จะทำให้เธอพูดอะไรแบบนั้นเหมือนกัน\nแล้วฉันก็ไม่อยากให้มื้อเย็นครั้งนี้ต้องจบลงด้วยการที่เธอสักคนหรือทั้งสองคนเดินฮึดฮัดออกจากบ้านไป"
 
 show meiko happy
 with charachange
 
 # emm "If that were to happen I'd be a terrible hostess, wouldn't I? I've already acted as a fool once today."
-emm ""
+emm "ถ้าเป็นอย่างนั้นแล้วฉันก็คงไม่ใช่เจ้าบ้านที่ดีเลย วันนี้ฉันเองก็ทำตัวไม่รอบคอบไปแล้วหนหนึ่ง"
 
 # hi "That's okay, I shouldn't have brought up the wheelchair, apparently."
-hi ""
+hi "ไม่เป็นไรหรอกครับ เป็นผมมากกว่าที่ไม่น่าพูดเรื่องวีลแชร์ก่อน"
 
 show meiko serious
 with charachange
 
 # "Mrs. Ibarazaki frowns, clearly more bothered by Emi's omission than she'd let on."
-""
+"คุณนายอิบาราซากิย่นคิ้ว ชัดว่ากังวลที่เอมิไม่อยู่แต่ไม่ยอมพูด"
 
 # emm "I wish she wouldn't do that. It just makes me worry more, you know."
-emm ""
+emm "ฉันไม่อยากให้เอมิทำแบบนี้เลย เพราะฉันจะยิ่งเป็นห่วงไปอีก"
 
 # hi "She does this often?"
-hi ""
+hi "เอมิทำแบบนี้ประจำเหรอครับ"
 
 show meiko smile
 with charachange
 
 # emm "What, running off to the bathroom? No, I can't say she does. Keep injuries from her mother, though? Well, that's a little more common."
-emm ""
+emm "หมายถึงอะไรล่ะ หนีไปเข้าห้องน้ำน่ะเหรอ ไม่น่าทำประจำหรอก แต่ถ้าเป็นการไม่ยอมบอกว่าตัวเองเป็นอะไร\nให้แม่ฟังแล้วละก็อันนี้บ่อยอยู่จ้ะ"
 
 # emm "Every time I catch her lying like that, she assures me that the only reason she didn't tell me is because it wasn't a big deal."
-emm ""
+emm "พอจับโกหกได้ทีไรเอมิก็บอกว่าที่ไม่ยอมบอกก็เพราะไม่ใช่เรื่องใหญ่อะไรมากเท่านั้นเอง"
 
 # hi "If it's any consolation, I'm sure the only reason I knew about it at all was because I saw her every day."
-hi ""
+hi "ผมจะบอกอะไรให้นะครับ ผมว่าที่ผมได้รู้นี่ก็เพราะต้องเจอกับเอมิทุกวันนั่นแหละ"
 
 show meiko happy
 with charachange
 
 # "This elicits a dry chuckle from across the table. Mrs. Ibarazaki sighs, a little sadly."
-""
+"คุณนายอิบาราซากิฟังแล้วแค่นหัวเราะแห้ง ๆ ก่อนจะถอนหายใจเศร้า ๆ"
 
 show meiko smile
 with charachange
 
 # emm "Still hesitant about getting close to people, huh? I keep hoping that she'll get over that."
-emm ""
+emm "ยังไม่ยอมสนิทกับคนอื่นงั้นเหรอ ฉันก็หวังอยู่ตลอดว่าเอมิจะเลิกทำตัวแบบนั้นสักที"
 
 # emm "It's funny, really. She's bounced back so well from the accident in so many ways…"
-emm ""
+emm "ซึ่งก็ตลกนะ เพราะในหลายแง่เอมิก็ฟื้นตัวจากอุบัติเหตุครั้งนั้นได้เป็นอย่างดีเลย…"
 
 show meiko serious
 with charachange
 
 # emm "I guess some things never really go away."
-emm ""
+emm "บางอย่างมันก็เปลี่ยนแปลงกันไม่ได้ละนะ"
 
 # "From the looks of it, the whole thing still bothers her, too."
-""
+"ดู ๆ แล้วเรื่องนี้ก็ยังกวนใจแม่เอมิอยู่เหมือนกัน"
 
 # "She seems to be a little more willing to talk about the accident without Emi around, though."
-""
+"แต่พอเอมิไม่อยู่แล้วดูพร้อมที่จะคุยเรื่องอุบัติเหตุขึ้นมาอีกหน่อย"
 
 # hi "Hey, I've got a question, if it's all right."
-hi ""
+hi "เอ่อ ถ้าไม่ว่าอะไร ผมขอถามอะไรหน่อยได้มั้ยครับ"
 
 show meiko smile
 with charachange
 
 # emm "Oh?"
-emm ""
+emm "จ๊ะ?"
 
 # hi "What else did Emi lose in that accident? The nurse said that she gets this way near the anniversary, and she won't talk about it to me…"
-hi ""
+hi "ตอนอุบัติเหตุครั้งนั้นเอมิเสียอะไรไปอีกเหรอครับ คุณพยาบาลบอกว่าพอใกล้ถึงวันครบรอบแล้วเอมิจะเป็นแบบนี้ตลอด\nแล้วเอมิก็ไม่ยอมคุยเรื่องนี้กับผมเลย…"
 
 show meiko happy
 with charachange
 
 # emm "So you thought I'd fill you in, hmm?"
-emm ""
+emm "คิดว่าฉันคงจะเล่าให้เธอฟังได้สินะ หืม"
 
 # hi "Er, yeah. Hopefully."
-hi ""
+hi "เอ้อ ครับ หวังว่านะครับ"
 
 show meiko serious
 with charachange
 
 # emm "Well, there's a problem with that request, you know."
-emm ""
+emm "โอเค แต่ฉันเล่าไม่ได้เพราะติดอยู่อย่างหนึ่ง"
 
 # hi "Let me guess: you promised Emi that you wouldn't tell anyone she didn't want to know, and you don't know if she wants me to know?"
-hi ""
+hi "ให้เดานะครับ เพราะรับปากกับเอมิไว้แล้วว่าจะไม่บอกให้กับคนที่เอมิไม่อยากให้รู้ แล้วตอนนี้ก็ไม่รู้ว่าเอมิ\nจะอยากให้ผมรู้หรือเปล่า"
 
 # emm "Something like that. I promised Emi that she'd be the one to tell people the full story."
-emm ""
+emm "ประมาณนั้นจ้ะ ฉันรับปากกับเอมิไว้แล้วว่าจะให้เจ้าตัวเป็นคนเล่าเรื่องนี้กับคนอื่นตรง ๆ เท่านั้น"
 
 # hi "But isn't that important? I mean, it's clearly had a huge effect on her if she's still like this so long after the accident happened."
-hi ""
+hi "แต่มันก็เรื่องสำคัญนี่ครับ คือยังไงก็ต้องเป็นเรื่องที่มีผลกับเอมิแน่นอนถ้าผ่านมานานขนาดนี้แล้วเอมิยังเป็น\nแบบนั้นอยู่"
 
 show meiko worry
 with charachange
 
 # emm "That's true. It did have a long-lasting effect on her. There are a few things that she'll probably never really get over."
-emm ""
+emm "ก็จริงจ้ะ เป็นเหตุการณ์ที่มีผลติดตัวเอมิเลย กับเรื่องบางเรื่องเอมิก็คงทำใจไม่ได้จริง ๆ นั่นแหละจ้ะ"
 
 # "For a moment Mrs. Ibarazaki looks incredibly saddened, as if an old wound is bothering her."
-""
+"คุณนายอิบาราซากิทำหน้าเศร้าสร้อยหนักขึ้นมาครู่หนึ่งราวกับว่าเจ็บจากแผลเก่า"
 
 # emm "I suppose there are a few things I'll never really get over either…"
-emm ""
+emm "แล้วก็คงมีเรื่องบางเรื่องที่ฉันทำใจไม่ได้เหมือนกัน…"
 
 show meiko happy
 with charachange
 
 # "Another dry chuckle, and with a shake of her head Emi's mother banishes the memory."
-""
+"แม่เอมิแค่นหัวเราะอีกรอบแล้วสั่นหัวคล้ายสลัดความทรงจำนั้นออกไป"
 
 show meiko smile
 with charachange
 
 # emm "Look, there's something you absolutely must understand about the way Emi thinks about the accident."
-emm ""
+emm "นี่นะ เธอต้องเข้าใจก่อนว่าเอมิมองอุบัติเหตุครั้งนั้นว่ายังไง"
 
 # hi "What's that?"
-hi ""
+hi "ยังไงเหรอครับ"
 
 # emm "It wasn't a big deal."
-emm ""
+emm "มองว่าไม่ใช่เรื่องใหญ่"
 
 stop music fadeout 1.0
 
 # "Somehow I manage to keep my mouth from falling open in surprise, but it takes some effort."
-""
+"ไม่รู้ทำไมฉันถึงยังปิดปากไม่ให้เปิดหวอด้วยความตกใจได้ แต่ก็ต้องห้ามใจอยู่เหมือนกัน"
 
 # "That has to be the most ridiculous thing I've ever heard."
-""
+"เป็นประโยคที่บ้าบอที่สุดเท่าที่เคยได้ยินมาเลย"
 
 # hi "I beg your pardon?"
-hi ""
+hi "อะไรนะครับ"
 
 play music music_sadness fadein 3.0
 
@@ -10933,79 +10937,79 @@ show meiko serious
 with charachange
 
 # emm "Okay, maybe it's not that simple, but it's a pretty accurate summation. Emi believes that the accident did not define her, and that everything she lost that day didn't define her either."
-emm ""
+emm "โอเค อาจจะมีอะไรซับซ้อนกว่านั้น แต่รวม ๆ ก็ประมาณนั้นแหละจ้ะ เอมิเชื่อว่าอุบัติเหตุครั้งนั้นไม่ใช่\nสิ่งที่จะมานิยามตัวเอง และทุกสิ่งที่เสียไปในวันนั้นก็ไม่ใช่สิ่งที่จะมานิยามตัวเองเหมือนกัน"
 
 # emm "She's not “that girl who lost her legs,” she's “The Fastest Thing on No Legs.” Her optimism and energy came out of that wreck without a scratch, as far as she's concerned."
-emm ""
+emm "เอมิไม่ใช่ “เด็กสาวที่สูญเสียขาไป” เอมิคือ “สิ่งไม่มีขาที่เร็วที่สุด” ทั้งความมองโลกในแง่บวกทั้งพลังของเอมิ\nรอดมาจากอุบัติเหตุนั้นได้อย่างครบถ้วนสมบูรณ์ เอมิเขาคิดแบบนั้น"
 
 # hi "Yet it goes beyond that, doesn't it? I mean, last night she told me that she refused to rely on me because it would make losing me too painful."
-hi ""
+hi "แต่มันก็มีอะไรมากกว่านั้นใช่มั้ยครับ เมื่อคืนเอมิก็บอกผมว่าที่ไม่ยอมพึ่งผมก็เพราะถ้าต้องเสียผมไปอีกก็คง\nเจ็บปวดเกินรับได้"
 
 show meiko smile
 with charachange
 
 # emm "Not really. You said she won't tell you about the accident, even though you've asked her about it before."
-emm ""
+emm "ไม่เชิงจ้ะ เธอบอกเองว่าเอมิไม่ยอมเล่าเรื่องอุบัติเหตุให้ฟังทั้งที่เธอเคยถามแล้ว"
 
 # emm "The reason she won't talk about it when you ask is because to her it's not something you absolutely need to know. Even if she wasn't terrified of getting too close to anyone, she still wouldn't talk about it."
-emm ""
+emm "ที่เอมิไม่ยอมเล่าตอนเธอถามก็เพราะเอมิมองว่าเป็นเรื่องที่เธอไม่ได้จำเป็นต้องรู้ ต่อให้เอมิไม่ได้กลัว\nการสนิทกับใครแล้วก็คงไม่เล่าอยู่ดี"
 
 # hi "She's afraid of being close to me?"
-hi ""
+hi "เอมิกลัวการสนิทกับผมเหรอครับ"
 
 show meiko happy
 with charachange
 
 # emm "Oh goodness me, yes. For all that talk about being unscathed by the accident, she's gained the ugly knowledge of how quickly it can all be over."
-emm ""
+emm "ตายจริง ใช่จ้ะ ถึงจะบอกว่ารอดมาจากอุบัติเหตุครั้งนั้นได้ไม่เป็นอะไร แต่เอมิก็ได้รู้ซึ้งว่าทุกอย่างจะหายวับ\nไปกับตาได้ง่าย ๆ เลย"
 
 show meiko smile
 with charachange
 
 # emm "So she's not going to let people get especially close to her, and she certainly would resent any implication that she cannot work through this on her own."
-emm ""
+emm "เพราะงั้นเอมิถึงไม่ได้ให้ใครมาสนิทด้วยเป็นพิเศษ และเอมิก็คงไม่ชอบใจแน่ถ้ารู้สึกว่าจัดการกับเรื่องนี้\nด้วยตัวเองไม่ได้"
 
 # hi "But I don't think she {b}can{/b}."
-hi ""
+hi "แต่ผมว่าเอมิทำแบบนั้น{b}ไม่ได้{/b}หรอกนะครับ"
 
 show meiko serious
 with charachange
 
 # emm "Oh no? Are you sure you've been dating my daughter and not somebody else? Trust me Hisao, she could get through it on her own."
-emm ""
+emm "ตายแล้ว นี่เธอแน่ใจใช่มั้ยจ๊ะว่าคบกับลูกสาวฉันอยู่ ไม่ได้ไปคบกับคนอื่นน่ะ เชื่อฉันสิฮิซาโอะ เอมิรับมือ\nกับเรื่องนี้ด้วยตัวเองได้แน่นอน"
 
 # hi "But she has nightmares, and can't sleep well, and—"
-hi ""
+hi "แต่เอมิฝันร้ายจนนอนไม่หลับ แถม—"
 
 show meiko smile
 with charachange
 
 # emm "And she does this every year. Tell me, if she wasn't able to get through it on her own, do you really think she'd still be alive? She would've killed herself, or something equally melodramatic."
-emm ""
+emm "แถมเป็นแบบนี้ทุกปี ขอถามนะฮิซาโอะ ถ้าเอมิรับมือกับเรื่องนี้ด้วยตัวเองไม่ได้ เอมิจะยังมีชีวิตอยู่มาจนทุกวันนี้\nหรือเปล่า ไม่งั้นก็คงฆ่าตัวตายหรือทำอะไรอย่างละครน้ำเน่าไปแล้ว"
 
 # hi "So what, I shouldn't try to help her?"
-hi ""
+hi "แล้วยังไงครับ คือจะให้ผมอยู่เฉย ๆ ว่างั้น?"
 
 show meiko serious
 with charachange
 
 # emm "I didn't say that! I hate seeing my daughter like this, and knowing that she could rely on someone else would let me relax."
-emm ""
+emm "ฉันไม่ได้พูดแบบนั้นสักหน่อย! ฉันก็ไม่อยากเห็นลูกสาวตัวเองเป็นแบบนี้หรอก ถ้ามีคนที่เอมิพึ่งได้ฉันก็คง\nสบายใจ"
 
 # emm "You just need to understand that accepting help goes against everything Emi thinks about herself and the way the world works."
-emm ""
+emm "แค่เธอต้องเข้าใจก่อนว่าที่เอมิไม่ยอมรับความช่วยเหลือจากเธอเพราะมันขัดกับมุมมองของเอมิต่อตัวเอง\nกับมุมมองของเอมิต่อโลก"
 
 # emm "If you still want to offer her help, then I guess that's your call. Honestly, I'd like you to, but it'd be silly not to warn you that it's not going to be easy."
-emm ""
+emm "ถ้าเธอยังอยากช่วยเอมิจริง ๆ ก็อยู่ที่เธอแล้วละจ้ะ จริง ๆ ฉันก็อยากให้เธอช่วยนะ แต่จะไม่เตือนเธอว่า\nจะเป็นอะไรที่ยากหน่อยก็คงบ้าบอ"
 
 show meiko smile
 with charachange
 
 # emm "You just need to be patient with her. She's already closer to you than anyone else she's ever met at Yamaku."
-emm ""
+emm "ขอแค่อดทนกับเอมิหน่อย เพราะตอนนี้เอมิก็สนิทกับเธอกว่าใครคนอื่นที่เอมิเคยเจอในยามากุแล้ว"
 
 # hi "Well it sure doesn't feel like we're very close."
-hi ""
+hi "แต่ก็รู้สึกเหมือนเราไม่ได้สนิทกันมากเลยนะครับ"
 
 show bg emi_dining at center
 show meiko serious at tworight
@@ -11017,162 +11021,162 @@ with charaenter
 stop music fadeout 0.3
 
 # emi "Good, that makes this part easier."
-emi ""
+emi "ดี แบบนี้ก็ง่ายขึ้นเยอะ"
 
 # "Emi's voice nearly gives me a heart attack."
-""
+"เสียงเอมิที่แทรกมาเกือบทำฉันหัวใจวาย"
 
 # hi "Whoa! Didn't hear you come back, Emi."
-hi ""
+hi "เฮือก! ไม่ได้ยินเสียงเธอเดินมาเลยนะเอมิ"
 
 show emicas angry
 with charachange
 
 # emi "How convenient."
-emi ""
+emi "ลงตัวพอดีเลย"
 
 # hi "Wait, were you eavesdropping?"
-hi ""
+hi "เดี๋ยว นี่แอบฟังกันอยู่เหรอ"
 
 show emicas angry_up
 with charachange
 
 # emi "Nope. Just happened to come back at the right moment, I guess."
-emi ""
+emi "เปล่า แค่บังเอิญกลับมาได้จังหวะพอดีละมั้ง"
 
 show meiko worry
 with charachange
 
 # emm "Emi, Hisao was just—"
-emm ""
+emm "เอมิ ฮิซาโอะเขาเพิ่ง—"
 
 # "Emi holds up a finger, cutting her mother off."
-""
+"เอมิชูนิ้วขึ้นตัดบทแม่ตัวเอง"
 
 show emicas grit
 with charachange
 
 # emi "On his way out of the house? Yeah, I know."
-emi ""
+emi "บอกว่าจะกลับแล้ว? ค่ะ หนูรู้"
 
 # "Emi's trembling with anger now, looking vaguely betrayed."
-""
+"เอมิตัวสั่นด้วยความกลัว สีหน้าเธอดูคล้ายคนที่ถูกหักหลัง"
 
 # emm "Emi, don't be ridiculous, we were just—"
-emm ""
+emm "เอมิ พูดอะไรของลูก เราเพิ่ง—"
 
 show emicas angry_up
 with charachange
 
 # emi "You {b}promised{/b}!"
-emi ""
+emi "แม่{b}สัญญา{/b}แล้ว!"
 
 play music music_rain fadein 0.5
 
 # "The pain carried in that last word is almost too much for me to bear. The idea that I could hurt her that much is like being kicked in the gut."
-""
+"ความเจ็บปวดในคำนั้นมีมากเกินฉันจะทนฟังได้ แค่คิดว่าฉันทำร้ายเธอได้ถึงขนาดนี้ฉันก็จุกอกขึ้นมาแล้ว"
 
 # "Emi's mother looks similarly pained by the thought."
-""
+"แม่เอมิก็ดูเจ็บปวดกับความคิดนั้นพอกัน"
 
 # emm "And I kept that promise! Just listen, there's no reason to go throwing people out of the house."
-emm ""
+emm "แต่แม่ก็ยังรักษาสัญญาอยู่! ฟังนะเอมิ เราจะไล่คนออกจากบ้านสุ่มสี่สุ่มห้าแบบนี้ไม่ได้"
 
 # "Emi's mother seems to be both angry at her daughter's outburst and embarrassed that I'm a witness to it."
-""
+"แม่เอมิดูทั้งโกรธที่ลูกสาวตัวเองระเบิดอารมณ์อย่างนั้นและทั้งอายที่ต้องให้ฉันมาเห็นภาพนี้"
 
 # "There's only one real solution to this problem, I think."
-""
+"ปัญหานี้มีทางออกเดียวแหละ คิดว่านะ"
 
 # hi "It's okay. I'll go."
-hi ""
+hi "ไม่เป็นไรครับ เดี๋ยวผมไปก็ได้"
 
 # emm "Now really, that seems a little unnecessary…"
-emm ""
+emm "ไม่เอาน่า ไม่เห็นจำเป็นต้องกลับเลย…"
 
 # hi "Don't worry about it. Thank you for dinner, Mrs. Ibarazaki, and for the advice."
-hi ""
+hi "ไม่ต้องห่วงหรอกครับ ขอบคุณสำหรับมื้อเย็นนะครับ แล้วก็ขอบคุณที่ให้คำแนะนำด้วย"
 
 show meiko serious
 with charachange
 
 # emm "It was my pleasure, Hisao. I'm sorry we didn't get to the dessert."
-emm ""
+emm "ด้วยความยินดีจ้ะฮิซาโอะ ขอโทษนะที่ไม่ได้เอาของหวานมาให้กินด้วย"
 
 # hi "That's okay. I have to watch what I eat anyway."
-hi ""
+hi "ไม่เป็นไรครับ ยังไงผมก็ต้องคอยคุมอาหารการกินของตัวเองด้วย"
 
 # hi "Good evening, Emi, Mrs. Ibarazaki."
-hi ""
+hi "สายัณห์สวัสดิ์นะครับคุณนายอิบาราซากิ แล้วก็เอมิด้วย"
 
 # "The formality of our conversation, coupled with the fact that I'm getting ready to leave, seems to snap Emi out of her anger."
-""
+"ความเป็นทางการของบทสนทนาเรากับการที่ฉันตั้งท่าเตรียมออกจากบ้านแล้วเหมือนจะทำให้เอมิหายโกรธ\nแล้วได้สติขึ้นมา"
 
 show emicas frown
 with charachange
 
 # emi "No, wait. I'm sorry, I've been so… and after last night I just thought… You don't have to go, I take it back, it's okay—"
-emi ""
+emi "ไม่ เดี๋ยวก่อน ฉันขอโทษ เมื่อกี้ฉัน… แล้วเรื่องเมื่อคืนก็ทำให้ฉันคิดว่า… นายไม่ต้องไปหรอก ฉันขอถอนคำพูด\nไม่เป็นไร—"
 
 # "I can't help but smile slightly. She can barely articulate her apology, and I really would like to stay…"
-""
+"ฉันอดอมยิ้มไม่ได้ เอมิแทบพูดคำขอโทษออกมาไม่เป็นภาษาแล้ว และฉันก็ยังไม่อยากไป…"
 
 # "But I don't think I can, right now. I need to think about what her mother said, and about what I'm going to do about us."
-""
+"แต่ฉันว่าตอนนี้ฉันต้องไปก่อน ต้องไปคิดถึงเรื่องที่แม่เอมิพูด แล้วก็คิดว่าจะทำยังไงกับเรื่องระหว่างเราดี"
 
 # "I don't want to risk accidentally getting Emi angry again in her current state, either."
-""
+"และฉันก็ไม่อยากเสี่ยงไปเผลอทำให้เอมิที่อยู่ในสภาพนี้ต้องโกรธอีกรอบ"
 
 # hi "No, I think I'd better leave. You seem pretty shook up, and, well, I'd only wind up trying to help you again. I know you'd prefer I didn't, so I'm going to leave instead."
-hi ""
+hi "ไม่หรอก ฉันว่าฉันไปก่อนดีกว่า อารมณ์เธอก็ยังไม่ค่อยคงที่ ซึ่งฉันก็จะพยายามไปช่วยเธออีก ฉันรู้ว่าเธอไม่อยาก\nให้ฉันช่วยก็เลยจะไปก่อน"
 
 show emicas sad
 with charachange
 
 # emi "But—"
-emi ""
+emi "แต่—"
 
 # hi "Hey, it's not a problem. You don't want a knight on a white charger, right? Just promise me one thing, okay?"
-hi ""
+hi "น่า ไม่เป็นไรหรอก เธอไม่ได้ต้องการให้พระเอกขี่ม้าขาวมาช่วยใช่มั้ยล่ะ แต่รับปากกับฉันอย่างสิ"
 
 show emicas frown
 with charachange
 
 # emi "What?"
-emi ""
+emi "ว่า"
 
 # hi "Don't be angry at your mom, okay? She was just giving me some advice, that's all."
-hi ""
+hi "อย่าโกรธแม่เธอเลยนะ แม่เธอแค่แนะนำฉันเฉย ๆ"
 
 show emicas sad
 with charachange
 
 # "Emi nods, hesitantly, like this simple idea is all that she can grab on to at this point. She's so terribly off-balance, but I can't do anything about that right now."
-""
+"เอมิกึ่ง ๆ พยักหน้าเหมือนสิ่งเดียวที่พอรับรู้ได้คือคำสัญญาง่าย ๆ นั้น เธอเสียศูนย์อย่างหนัก แต่ตอนนี้ฉันทำอะไร\nไม่ได้หรอก"
 
 # emi "Okay."
-emi ""
+emi "โอเค"
 
 # hi "See you tomorrow, okay? Running in the morning. Don't forget!"
-hi ""
+hi "เจอกันพรุ่งนี้นะ ไปวิ่งตอนเช้าด้วย ห้ามลืม!"
 
 # "I can see that I've hurt Emi by deciding to leave. But there's nothing I can do for her as things stand, and I know that she's too stubborn to admit that she wants me to stick around."
-""
+"ฉันเห็นว่าเอมิเจ็บปวดแค่ไหนที่ฉันเลือกจะไป แต่ถ้าเรื่องยังเป็นอย่างนี้ฉันก็คงช่วยอะไรเธอไม่ได้ และฉันรู้ดีว่าเอมิ\nรั้นเกินกว่าที่จะยอมรับว่าอยากให้ฉันอยู่ต่อ"
 
 # "I watch various emotions cross Emi's face as she tries to process everything that's just happened."
-""
+"ฉันมองหน้าเอมิที่มีหลากอารมณ์ระคนกันอยู่ระหว่างที่เธอกำลังประมวลผลสิ่งที่เกิดขึ้น"
 
 show emicas weaksmile
 with charachange
 
 # "Shortly comes that calm look again, like last night, and that voice that tries so hard to sound careless."
-""
+"ไม่นานสีหน้าดูสงบนั้นก็ปรากฏเหมือนเมื่อคืน และน้ำเสียงนั้นที่ปั้นมาให้เหมือนไม่ได้ยี่หระ"
 
 # emi "Sure, Hisao. See you around."
-emi ""
+emi "ก็ได้ฮิซาโอะ ไว้เจอกัน"
 
 # "Both of us are unwilling to concede emotion at this point, and I'm having a hard time keeping up my facade, so I turn on my heel and walk out the door."
-""
+"เราทั้งสองคนต่างไม่มีใครยอมรับอารมณ์ที่ตัวเองรู้สึกอยู่ ฉันเองก็รักษาสีหน้าท่าทีปลอมเปลือกไว้ไม่ไหวจึงหมุนเท้า\nแล้วเดินออกประตูมา"
 
 stop music fadeout 7.0
 
@@ -11180,19 +11184,19 @@ scene bg emi_houseext
 with locationskip
 
 # "I shut it behind me slowly, pausing for a moment as the latch catches, my hand on the doorknob."
-""
+"ฉันปิดประตูช้า ๆ เว้นช่วงไปครู่หนึ่งตอนที่สลักกลอนลงล็อกโดยมือยังจับลูกบิดไว้"
 
 # "Did I make the right decision just now? Should I have stayed and tried to work things out?"
-""
+"เมืื่อกี้ฉันตัดสินใจถูกหรือยัง หรือฉันควรอยู่ต่อแล้วลองกอบกู้สถานการณ์ดู"
 
 # "No, I decide. Not in front of her mother like that. In spite of everything, I'd rather keep Emi's mother insulated from the sort of anger that surfaced last night."
-""
+"ไม่สิ ฉันตัดสินใจแล้ว ยิ่งมีแม่เอมิอยู่ด้วย ไม่ว่าจะยังไงก็ตาม ฉันไม่อยากให้แม่เอมิต้องมารับรู้ถึงความโกรธแบบนั้น\nที่ระเบิดออกมาเมื่อคืน"
 
 # "Even though she's probably used to it, some protective instinct wants me to keep Emi's image as a cheerful girl intact."
-""
+"ถึงแม่เอมิอาจจะชินแล้ว แต่ในใจฉันก็ยังอยากรักษาภาพลักษณ์เด็กสาวผู้ร่าเริงของเอมิเอาไว้อยู่"
 
 # "With a start, I realize my hand is still resting on the knob. I take my hand away, put it in my pocket, and head down the slowly darkening street."
-""
+"ฉันสะดุ้งเมื่อรู้ตัวว่ามือยังจับลูกบิดอยู่ ฉันถอนมือออกมาแล้วล้วงกระเป๋าเดินไปตามถนนที่มืดลงเรื่อย ๆ"
 
 scene bg school_dormhisao
 with shorttimeskip
@@ -11200,52 +11204,51 @@ with shorttimeskip
 play music music_pearly fadein 1.0
 
 # "I let out a long breath."
-""
+"ฉันถอนหายใจพรืด"
 
 # "The wait until tomorrow morning comes isn't going to be easy."
-""
+"คงต้องอดทนอย่างหนักกว่าจะรอให้ถึงพรุ่งนี้เช้าได้"
 
 # "In any case, I have to think on what to say to Emi. I must apologize, and I must get through to her somehow."
-""
+"แต่ไม่ว่ายังไงฉันก็ต้องคิดไว้ก่อนว่าจะพูดอะไรกับเอมิ ต้องขอโทษ และต้องหาทางทำให้เอมิเข้าใจให้ได้"
 
 # "On that account, something has been on my mind for most of the way back to my room."
-""
+"เพราะเหตุนี้เองตอนที่เดินกลับมายังห้องตัวเองฉันถึงคิดอยู่เรื่องหนึ่ง"
 
 # "The letter of apology from Iwanako."
-""
+"จดหมายขอโทษจากอิวานาโกะ"
 
 # "I was so concerned about my new life when I received it that I didn't even bother to really read it."
-""
+"ฉันมัวแต่วุ่นวายกับชีวิตใหม่ของตัวเองจนไม่ได้ใส่ใจจะอ่านตอนที่จดหมายฉบับนั้นมาถึง"
 
 # "Now that I find myself in a similar position, my curiosity got rekindled. What did she want to let me know so badly?"
-""
+"พอตอนนี้ฉันต้องมาตกอยู่ในสถานการณ์ที่คล้าย ๆ กันแล้วก็อยากรู้ขึ้นมาอีกครั้ง เรื่องอะไรที่อิวานาโกะอยากให้ฉันรู้\nนักหนา"
 
 # "If nothing else, reading her thoughts might help me frame mine."
-""
+"อย่างน้อย ๆ การได้อ่านความคิดของอิวานาโกะอาจช่วยให้ฉันได้มีแนวคิดใหม่ ๆ บ้าง"
 
 # "I remember tossing it away. Damn, where did I throw that thing?"
-""
+"จำได้ว่าปาทิ้งไปแล้ว แม่ง นี่เอาไปทิ้งไว้ไหนเนี่ย"
 
 # "I check under my desk. That turns up nothing, so I look for harder-to-reach, more unlikely locations."
-""
+"ฉันก้มดูใต้โต๊ะ ซึ่งไม่มี ฉันจึงไปหาตามซอกมุมต่าง ๆ ที่ไม่น่าจะเจอได้"
 
-# "…"
-""
+"…"
 
 # "Well, now I know where that lost sock went, at least."
-""
+"โอเค อย่างน้อยตอนนี้ก็เจอแล้วว่าถุงเท้าที่หายไปตอนนั้นอยู่ไหน"
 
 # "Still no letter, though."
-""
+"แต่ยังไม่เจอจดหมายเลย"
 
 # "It's when I try sweeping my arm under my nightstand that I feel something crinkly jammed between it and the wall."
-""
+"พอฉันลองยื่นแขนกวาดไปใต้โต๊ะหัวเตียงก็เหมือนจับโดนอะไรสักอย่างสาก ๆ ที่คาอยู่ระหว่างโต๊ะกับกำแพง"
 
 # "Grunting a little with the effort, I reach for my prize and soon manage to bring it into the light."
-""
+"ฉันออกแรงฮึดยื่นไปคว้าของที่หมายไว้แล้วหยิบออกมาสู่โลกภายนอกได้"
 
 # "Bingo."
-""
+"บิงโก"
 
 play sound sfx_paper
 
@@ -11253,37 +11256,42 @@ scene ev hisao_letter_open_2
 with locationchange
 
 # "I sit at my desk and spread the crumpled paper open. A flick turns on the table light."
-""
+"ฉันนั่งที่โต๊ะแล้วคลี่ก้อนกระดาษออกก่อนจะเปิดโคมไฟ"
 
 # "Skipping past the empty pleasantries, I look for the point where I stopped reading. Ah, here it is."
-""
+"ฉันข้ามส่วนอารัมภบทไร้แก่นสารพวกนั้นหาว่าอ่านถึงตรงไหน อ้อ ตรงนี้ไง"
 
 window hide
 
-$ written_note("There are other things I want to say. I'm writing to you because I felt that there are things I should've said after the incident back in winter. I really regret that I wasn't able to say them in person, and I have no excuse for it.\n\n\n\n\n")
+# $ written_note("There are other things I want to say. I'm writing to you because I felt that there are things I should've said after the incident back in winter. I really regret that I wasn't able to say them in person, and I have no excuse for it.\n\n\n\n\n")
+$ written_note("ยังมีอย่างอื่นที่ฉันอยากพูดถึงอีก ฉันเขียนจดหมาย\nส่งมาหานายเพราะรู้สึกเหมือนพอเกิดเรื่องนั้นแล้ว\nฉันคงต้องพูดอะไรหน่อย ฉันเสียใจจริง ๆ ที่ฉันมา\nพูดกับนายต่อหน้าตรง ๆ ไม่ได้ และฉันก็ไม่มี\nข้อแก้ตัวอะไรทั้งนั้น\n\n\n\n\n")
 
-$ written_note("The truth is, the times when I visited you at the hospital made me worried about you. I am not talking about your health. You seemed to become more distant and disheartened. It was natural after something like that happened, I'm sure, but somehow I got the feeling that you had given up on something back then. Happiness, maybe?\n")
+# $ written_note("The truth is, the times when I visited you at the hospital made me worried about you. I am not talking about your health. You seemed to become more distant and disheartened. It was natural after something like that happened, I'm sure, but somehow I got the feeling that you had given up on something back then. Happiness, maybe?\n")
+$ written_note("ที่จริงคือ ตอนฉันไปเยี่ยมนาย ฉันก็เป็นห่วงนาย\nขึ้นมา ไม่ได้หมายถึงสุขภาพนายนะ แต่นายดูทั้ง\nห่างเหินทั้งไร้เรี่ยวแรง ฉันรู้อยู่ว่าพอเกิดเรื่อง\nอย่างนั้นแล้วจะเป็นแบบนั้นไปก็คงไม่แปลก แต่\nตอนนั้นฉันรู้สึกเหมือนนายถอดใจกับอะไร\nบางอย่างไปแล้ว ความสุข ละมั้ง\n")
 
 window show
 
 # "Giving up on happiness…"
-""
+"ถอดใจกับความสุข…"
 
 # "This sounds unpleasantly familiar."
-""
+"ฟังดูคุ้น ๆ เป็นบ้า"
 
 window hide
 
-$ written_note("I wanted to somehow express my feelings, but the right words didn't come to me. I couldn't say anything to comfort you. I am really sorry for not being able to support you when it mattered the most, even though I like you so much. At least now, finally, I can be more honest.\n\n\n\n")
+# $ written_note("I wanted to somehow express my feelings, but the right words didn't come to me. I couldn't say anything to comfort you. I am really sorry for not being able to support you when it mattered the most, even though I like you so much. At least now, finally, I can be more honest.\n\n\n\n")
+$ written_note("ฉันอยากบอกความรู้สึกให้นายได้รู้ แต่ก็นึกหาคำ\nไม่ได้เสียที ฉันพูดอะไรปลอบใจนายไม่ได้เลย ฉัน\nขอโทษจริง ๆ ที่คอยเป็นแรงใจให้นายยามที่นาย\nต้องการแรงใจที่สุดไม่ได้ ทั้งที่ฉันชอบนายมาก\nแท้ ๆ แต่อย่างน้อยตอนนี้ฉันก็พูดตรง ๆ ขึ้นมา\nได้บ้างแล้ว")
 
-$ written_note("If I could go back to those quiet days in February and March, I'd tell you to not give up on yourself. That's what I would say. Maybe you wouldn't have drifted so far away if I had just said something. I hope you've managed to get back on your feet on your own.\n\n\n\n")
+# $ written_note("If I could go back to those quiet days in February and March, I'd tell you to not give up on yourself. That's what I would say. Maybe you wouldn't have drifted so far away if I had just said something. I hope you've managed to get back on your feet on your own.\n\n\n\n")
+$ written_note("ถ้าฉันกลับไปช่วงเดือนกุมภาพันธ์กับเดือนมีนาคมที่\nเงียบสงบนั้นได้ฉันก็อยากบอกนายว่าอย่ายอมแพ้\nนะ ฉันจะบอกอย่างนั้น ถ้าฉันพูดอะไรบ้างนายคง\nไม่ออกเหินห่างไปขนาดนี้ ฉันอยากให้นายลุกขึ้น\nมายืนด้วยตัวเองให้ได้\n\n\n\n")
 
-$ written_note("Now that the distance between us is also physical, it also feels more final, somehow. I wonder if we will meet again. Perhaps it's for the best if we don't? Still, if you would like to correspond with me, by all means write me back. I'd very much like to hear about your new school and how you are doing. I wish you all the best.\n\nSincerely, Iwanako")
+# $ written_note("Now that the distance between us is also physical, it also feels more final, somehow. I wonder if we will meet again. Perhaps it's for the best if we don't? Still, if you would like to correspond with me, by all means write me back. I'd very much like to hear about your new school and how you are doing. I wish you all the best.\n\nSincerely, Iwanako")
+$ written_note("แล้วยิ่งทีนี้ห่างกายกันด้วยก็ยิ่งรู้สึกเหมือนเป็นจุด\nส่งท้ายจริง ๆ ยังไงไม่รู้ เราจะได้เจอกันอีกไหมนะ\nหรือถ้าไม่เจอกันอีกเลยจะดีกว่ากันนะ แต่ถ้ายัง\nอยากติดต่อกับฉันอยู่ก็เขียนส่งกลับมาได้เลยนะ\nฉันยินดีมากที่จะได้ฟังเรื่องโรงเรียนใหม่กับ\nชีวิตใหม่ของนาย ขอให้มีความสุขดีนะ\n\nจากใจ อิวานาโกะ")
 
 window show
 
 # "After finishing reading the letter I smooth it out carefully and set it aside on my desk."
-""
+"พออ่านจบแล้วฉันก็รีดกระดาษให้เรียบแล้ววางไว้ที่ริมโต๊ะ"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
 
@@ -11292,24 +11300,24 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n\nThank you, Iwanako. I wanted to answer “yes” to your question on that snowy winter day, but I never got to."
-n ""
+n "\n\n\nขอบคุณนะอิวานาโกะ ฉันอยากจะตอบตกลงกับคำถามเมื่อวันหิมะตกในฤดูหนาวครั้งนั้นแต่ก็ไม่มีโอกาสได้ตอบเลย"
 
 # n "By the time we met again, it was too late."
-n ""
+n "กว่าเราจะได้มาเจอกันอีกก็สายไปแล้ว"
 
 # n "Or so I thought. What would have happened if I had behaved differently, back in that dismally sterile hospital room?"
-n ""
+n "ฉันคิดไว้ว่าอย่างนั้น แต่ถ้าเกิดว่าตอนที่อยู่ในห้องสะอาดชวนหดหู่นั้นฉันทำตัวอีกแบบอีกแบบแล้วจะเป็นยังไงล่ะ"
 
 # n "I'm sorry. There's no point in wondering now, but there's no point in trying to forget either."
-n ""
+n "ขอโทษนะ จะมาสงสัยเอาตอนนี้ก็คงไม่ได้อะไรขึ้นมาแล้ว แต่จะให้ทำใจลืมก็คงไม่มีประโยชน์เหมือนกัน"
 
 # n "I am who I am because of all that happened to me and all I look forward to experience. Present, future, and past."
-n ""
+n "ฉันเป็นฉันได้เพราะสิ่งที่เคยเกิดขึ้นกับฉันและสิ่งที่ฉันตั้งตาหมายจะได้สัมผัส ปัจจุบัน อนาคต อดีต"
 
 stop music fadeout 2.0
 
 # n "\n\nAnd the past may just have taught me an important lesson now."
-n ""
+n "\n\nและตอนนี้เหมือนว่าอดีตจะได้ให้บทเรียนสำคัญกับฉันแล้ว"
 
 $ renpy.music.set_volume(1.0, 2.0, channel="music")
 
