@@ -19,34 +19,34 @@ play music music_dreamy fadein 4.0
 window show
 
 # "The sound of my alarm is an unwelcome intrusion on a sleep that's been a battle to obtain. I doubt I've been truly asleep for more than an hour or two."
-""
+"เสียงนาฬิกาปลุกดังขัดตัวฉันที่กำลังข่มตานอนหลับอยู่ เหมือนจะได้หลับจริง ๆ แค่ชั่วโมงสองชั่วโมงเอง"
 
 # "Too much on my mind. Did I make the right choice, leaving the house yesterday? Did I manage to get Emi to realize how unreasonable she's been?"
-""
+"เพราะมีหลายอย่างให้คิด ฉันเลือกถูกแล้วหรือยังกับการออกจากบ้านมาเมื่อวาน ฉันทำให้เอมิเข้าใจหรือยังว่าเธอ\nทำตัวไร้เหตุผลแค่ไหน"
 
 # "Am I ever going to manage to get her to stop being unreasonable? Emi's mom gave me a new perspective the other day, but I'm still not sure that it's the right perspective."
-""
+"ฉันจะทำให้เอมิทำตัวมีเหตุผลขึ้นมาได้หรือเปล่า เมื่อวานแม่เอมิได้ให้มุมมองใหม่กับฉันแล้ว แต่ฉันก็ยังไม่แน่ใจอยู่ดี\nว่าเป็นมุมมองที่ถูกต้องหรือเปล่า"
 
 # "She was hurt when I left yesterday, too."
-""
+"ตอนที่ออกมาเอมิก็เจ็บปวดอยู่ด้วย"
 
 # "I know that part of any conversation is going to have to include an apology about that. Right thing to do or not, I hurt her."
-""
+"ฉันรู้ว่าในบทสนทนาที่จะได้คุยกับเอมิถัดจากนี้ต้องมีคำขอโทษเรื่องนั้นแน่ ๆ ไม่ว่าสิ่งที่ฉันทำจะถูกหรือไม่\nแต่มันก็เป็นการทำร้ายเอมิอยู่ดี"
 
 # "I hurry down to the track, eager to talk to Emi. I think I know what to say. Apologize for leaving first, and go ahead from there."
-""
+"ฉันรีบไปที่ลู่วิ่งด้วยความอยากคุยกับเอมิ ฉันว่าฉันรู้แล้วว่าจะต้องคุยอะไร ขอโทษที่ออกมาจากบ้านก่อน แล้วก็พูด\nต่อจากนั้นไปเรื่อย ๆ"
 
 scene bg school_track
 with locationskip
 
 # "Unless, of course, Emi doesn't show up."
-""
+"แต่แน่นอนว่าเอมิไม่มา"
 
 # "Which from the looks of things seems like it's the case. It's been about fifteen minutes since I got here, and there's no sign of her."
-""
+"ซึ่งดู ๆ แล้วก็คงเป็นอย่างนั้น ฉันมาถึงราวสิบห้านาทีได้แล้วและยังไม่มีวี่แววว่าเอมิจะมาเลย"
 
 # "She's never late, not unless she's sick, which is unlikely. She probably just doesn't want to see me right now."
-""
+"เอมิไม่เคยมาช้า เว้นเสียแต่ว่าป่วย ซึ่งก็ไม่น่าใช่ อาจจะแค่ยังไม่อยากเจอฉันตอนนี้"
 
 scene bg school_track_on
 with locationchange
@@ -55,10 +55,10 @@ scene bg school_track_running
 with locationchange
 
 # "To take my mind off what that implies, I begin my warm-up routine and take off around the track."
-""
+"ฉันทำหัวให้โล่งไม่ไปคิดถึงความหมายของการที่เอมิไม่มาด้วยการวอร์มอัพตามปกติแล้ววิ่งไปตามลู่"
 
 # "It clears my mind wonderfully; for the half-hour I'm running, I don't think about anything but the run."
-""
+"ซึ่งทำให้สมองฉันปลอดโปร่งได้เป็นอย่างดี พอวิ่งมาได้ครึ่งชั่วโมงแล้วสมองก็มีแต่เรื่องวิ่ง"
 
 scene bg school_track_on
 with locationchange
@@ -66,10 +66,10 @@ with locationchange
 stop music fadeout 4.0
 
 # "However, once I've finished, and Emi still hasn't shown up…"
-""
+"แต่พอวิ่งเสร็จแล้วและเอมิยังไม่มา…"
 
 # "I get a little worried. With any luck, the nurse will know where she is; if nothing else, I can see what he thinks I should do next."
-""
+"ฉันนึกกังวลขึ้นมาเล็กน้อย ถ้าโชคดีคุณพยาบาลอาจรู้ก็ได้ว่าเอมิอยู่ที่ไหน หรืออย่างน้อยก็จะได้ปรึกษาว่าฉัน\nควรทำอย่างไรต่อ"
 
 scene bg school_nurseoffice
 show nurse grin at center
@@ -78,109 +78,109 @@ with locationskip
 play music music_nurse fadein 0.5
 
 # nk "So, last night didn't go too well, I take it."
-nk ""
+nk "แปลว่าเมื่อคืนจบไม่สวยสินะ"
 
 # hi "Huh? You already know?"
-hi ""
+hi "ครับ? รู้แล้วเหรอครับ"
 
 # nk "I have my ways, and it's not as if I'd miss the distinct absence of your running partner this morning, now would I?"
-nk ""
+nk "ฉันก็มีวิธีของฉัน แล้วก็ใช่ว่าฉันจะไม่เห็นสักหน่อยว่าเพื่อนวิ่งของเธอไม่มาด้วยเช้านี้น่ะ"
 
 # hi "No, I suppose not."
-hi ""
+hi "เอ่อ ก็คงงั้นแหละครับ"
 
 show nurse neutral
 with charachange
 
 # nk "So, what happened?"
-nk ""
+nk "แล้วนี่เกิดอะไรขึ้น"
 
 # hi "Don't you know already?"
-hi ""
+hi "ยังไม่รู้เหรอครับ"
 
 show nurse fabulous
 with charachange
 
 # nk "Maybe, but I could be bluffing. Perhaps I'd prefer to get your side of the story before I give any advice."
-nk ""
+nk "มั้ง แต่ฉันอาจจะถามหยั่งเชิงเฉย ๆ ก็ได้ อาจจะอยากฟังเรื่องจากฝั่งเธอบ้างแล้วจะได้ให้คำแนะนำถูก"
 
 # "I quickly fill the nurse in on the events of last night, and he takes it all in without changing expression once."
-""
+"ฉันรีบเล่าเรื่องเหตุการณ์เมื่อคืนให้คุณพยาบาลฟัง ซึ่งเขาก็ทำหน้านิ่งรับฟัง"
 
 # "Nothing about the whole event seems to surprise him, although he does seem surprised when I say that I didn't follow Emi."
-""
+"เหมือนคุณพยาบาลจะไม่ได้แปลกใจอะไรเลย แต่ก็ดูแปลกใจตอนที่ฉันเล่าว่าฉันไม่ได้ตามเอมิไป"
 
 show nurse grin
 with charachange
 
 # nk "Chose to talk to her mom instead, huh? Smart move, though I guess it didn't work out too well for you in the end."
-nk ""
+nk "คุยกับแม่เอมิแทนงั้นเหรอ ฉลาดดีนี่ แต่สุดท้ายเรื่องก็ยังไม่ลงตัวสินะ"
 
 # hi "Well, I'm not sure. Emi seemed apologetic when I left, or at least she seemed that way until she put up her defenses again."
-hi ""
+hi "เอ่อ ก็ไม่แน่ใจครับ เอมิทำหน้าเหมือนรู้สึกผิดตอนผมเดินออกมา เหมือนจะเป็นอย่างนั้นก่อนที่เอมิ\nจะทันได้ปิดใจไปอีกรอบ"
 
 # "The nurse sighs and spreads his hands in a conciliatory gesture."
-""
+"คุณพยาบาลถอนหายใจแล้วกางมือทำท่าเหมือนจะเจรจา"
 
 show nurse fabulous
 with charachange
 
 # nk "Frankly, I'm surprised she let them down at all. Emi's had a lot of practice on that score. You probably won't get anything else out of her."
-nk ""
+nk "ว่าตามตรงนะ ฉันแปลกใจที่เอมิยอมเปิดใจด้วยซ้ำ เอมิเขาปิดใจเก่งมากเลยนะ ถามเอมิไปเธอก็คงไม่ได้คำตอบ\nอะไรมากหรอก"
 
 # hi "I don't believe you."
-hi ""
+hi "ผมไม่เชื่อ"
 
 # nk "Is that so? You think she'll tell you the whole tale?"
-nk ""
+nk "งั้นเหรอ เธอคิดว่าเอมิจะเล่าเรื่องทั้งหมดให้เธอฟังเหรอ"
 
 # "I'd swear I just saw the nurse's eyes glitter a little. His expression is the same, but he leans forward ever so slightly."
-""
+"สาบานเลยว่าเมื่อกี้เหมือนเห็นประกายในตาคุณพยาบาลอยู่หน่อย ๆ สีหน้ายังเหมือนเดิมก็จริง แต่เขาโน้มตัวเข้ามานิด ๆ"
 
 # hi "I think she'll open up if I ask her without being an idiot about it, yeah."
-hi ""
+hi "ผมว่าถ้าถามดี ๆ แบบไม่งี่เง่าแล้วเอมิก็คงเปิดใจให้แหละครับ"
 
 # "The nurse gives his enigmatic smile in response and shrugs widely. I think he's enjoying his role a little too much."
-""
+"คุณพยาบาลยิ้มเหมือนแฝงนัยอะไรไว้แล้วยักไหล่ สงสัยจะชอบที่ได้ทำหน้าที่คนกลางมาก"
 
 show nurse grin
 with charachange
 
 # nk "That's the real trick, isn't it? Are you sure you know the right way to approach the subject? I can guarantee that Emi's going to try her hardest to pretend last night didn't happen."
-nk ""
+nk "นี่แหละคือจุดสำคัญเลย เธอแน่ใจใช่มั้ยว่ารู้วิธีคุยเรื่องนี้อย่างถูกต้องหรือยัง ฉันรับประกันเลยว่าเอมิจะแสร้ง\nทำเหมือนเรื่องเมื่อคืนไม่เคยเกิดขึ้น"
 
 show nurse neutral
 with charachange
 
 # nk "It will be painfully awkward for the both of you, but it'll also be a lot safer than trying to ask her for the whole story again. It could go worse, this time."
-nk ""
+nk "เธอสองคนจะกระอักกระอ่วนกันมาก ๆ แต่แบบนี้ก็จะปลอดภัยกว่าการขอให้เอมิเล่าเรื่องทั้งหมดอีกรอบ ซึ่งคราวนี้\nเรื่องอาจยิ่งแย่ลงอีก"
 
 # nk "Are you ready for something like that?"
-nk ""
+nk "เธอเตรียมใจพร้อมกับอะไรแบบนั้นหรือยัง"
 
 # "It sounds like a challenge, like he doesn't believe for a minute that I'd be so bold. I actually feel a little insulted by his lack of confidence in me."
-""
+"ฟังเหมือนคำท้าเลย เหมือนไม่เชื่อว่าฉันจะใจกล้าได้ขนาดนั้น ที่จริงฉันก็แอบเคืองเหมือนกันที่คุณพยาบาล\nไม่เชื่อใจฉัน"
 
 # hi "Of course I'm ready for that! I love her!"
-hi ""
+hi "พร้อมอยู่แล้วสิครับ! ผมรักเอมิ!"
 
 show nurse fabulous
 with charachange
 
 # "My outburst gets a raised eyebrow in response."
-""
+"เสียงตะโกนนั้นทำให้คุณพยาบาลเลิกคิ้วตอบ"
 
 # nk "Well then."
-nk ""
+nk "โอเค ๆ"
 
 show nurse neutral
 with charachange
 
 # nk "Good luck. Let me know how it all turns out."
-nk ""
+nk "โชคดีละ ได้ความว่ายังไงก็เอามาบอกด้วยนะ"
 
 # "Although he delivers his parting shot with the same smirk as usual, I actually think that the nurse wants me to succeed."
-""
+"ถึงคุณพยาบาลจะบอกลาด้วยรอยยิ้มอย่างเคย แต่ฉันคิดว่าเขาอยากให้ฉันทำให้สำเร็จได้จริง ๆ"
 
 stop music fadeout 3.0
 
@@ -188,16 +188,16 @@ scene bg school_nursehall
 with locationchange
 
 # "I resist the urge to charge directly to Emi's room to prove the nurse wrong. I've gone in half-cocked before, and the results were less than stellar."
-""
+"ฉันห้ามใจตัวเองไม่ให้พุ่งตัวไปยังห้องเอมิทันทีเพื่อพิสูจน์ว่าคุณพยาบาลคิดผิด ฉันเคยไปโดยที่\nไม่ได้เตรียมตัวพร้อมให้ดีมาก่อนแล้ว ซึ่งผลก็ออกมาไม่สวยงามเลย"
 
 # "If I'm going to do this, I need to figure out exactly what I'm going to say, and how I'm going to say it. Something to think about in class."
-""
+"ถ้าฉันจะไปเจอเอมิก็ต้องคิดก่อนว่าจะพูดอะไร และจะพูดอย่างไร ไว้คิดตอนเรียนแล้วกัน"
 
 scene bg school_scienceroom
 with shorttimeskip
 
 # "Sure enough, by the time lunch rolls around, I think I have a good enough idea of what to say. I can do this."
-""
+"และตามคาด พอใกล้ถึงช่วงพักเที่ยงฉันก็พอจะนึกออกแล้วว่าต้องพูดอะไรดี ฉันทำได้น่า"
 
 play sound sfx_normalbell
 
@@ -205,7 +205,7 @@ scene bg school_staircase1
 with locationskip
 
 # "The bell rings, and I grab my lunch and dash up the stairs, eager to be there first. I'll need to ask Rin to leave, and I'll need to—"
-""
+"เมื่อระฆังดังฉันก็ไปซื้อข้าวเที่ยงแล้วเดินขึ้นบันไดมาด้วยอยากมาถึงก่อน ต้องขอให้รินออกไปก่อน แล้วก็ต้อง—"
 
 $ renpy.music.set_volume(0.5, 0.0, channel="ambient")
 play ambient sfx_rooftop fadein 1.0
@@ -217,52 +217,52 @@ show rin basic_absent at tworight
 with silentwhiteout
 
 # emi "Hi Hisao! Sorry I wasn't able to run with you this morning! I overslept!"
-emi ""
+emi "ไงฮิซาโอะ! ขอโทษที่ไม่ได้ไปวิ่งด้วยเมื่อเช้านะ! พอดีฉันตื่นสายน่ะ!"
 
 # "Somehow, both Emi and Rin have managed to get to the roof before me."
-""
+"ดูท่าว่าทั้งเอมิทั้งรินจะมาถึงที่ดาดฟ้าก่อนฉันแล้ว"
 
 # hi "Oh, that's no problem. Last night was kind of… draining, I guess."
-hi ""
+hi "อ้อ ไม่เป็นไรหรอก เรื่องเมื่อคืนมันก็… ชวนให้เพลียนี่นะ"
 
 # "Emi's expression doesn't alter in the slightest."
-""
+"สีหน้าเอมิไม่เปลี่ยนไปเลยแม้แต่น้อย"
 
 # emi "Yeah, sorry about that! But I've had such a weird morning since then!"
-emi ""
+emi "อื้ม ขอโทษด้วยนะ! แต่หลังจากตื่นมาก็มีเรื่องแปลก ๆ ด้วยแหละ!"
 
 # hi "Oh uh, really?"
-hi ""
+hi "อ้อ จริงเหรอ"
 
 show emi basic_happy
 with charachange
 
 # "Emi proceeds to make small talk for the rest of the time. I can barely get a word in edgewise, and soon find myself interjecting with the sort of back and forth dialogue that seems to have defined our early relationship."
-""
+"ส่วนเวลาที่เหลือเอมิก็คุยเรื่อยเปื่อย ฉันแทบไม่ได้พูดเลย และไม่นานฉันมาก็โต้ตอบบทสนทนาง่าย ๆ กับเอมิ\nที่ดูคล้าย ๆ ตอนเราสองคนคบกันแรก ๆ"
 
 # "I'm not gonna get anywhere on this problem during lunch, obviously. I can respect that; Emi obviously doesn't want to accidentally pull Rin into things, and that's fine."
-""
+"ชัดว่าคงไม่ได้พูดถึงเรื่องปัญหานี้ตอนเที่ยงแน่ ๆ ฉันเข้าใจ เอมิไม่อยากเผลอลากรินให้เข้ามาเกี่ยวข้องด้วยแน่นอน\nซึ่งก็ไม่เป็นไร"
 
 # "Not that I think Rin would notice, but I can at least respect that sort of rationale."
-""
+"ฉันว่ารินคงไม่สังเกตหรอก แต่อย่างน้อยก็เข้าใจว่าทำไมเอมิถึงคิดแบบนั้น"
 
 # "I try a different tactic."
-""
+"ฉันลองอีกกลวิธีหนึ่ง"
 
 # hi "Hey, Emi. What are you up to after class today? I was thinking we could go somewhere for dinner, or something."
-hi ""
+hi "นี่ เอมิ เลิกเรียนแล้วมีธุระอะไรหรือเปล่า พอดีกะจะชวนเธอไปกินข้าวเย็นหรืออะไรด้วยกันน่ะ"
 
 show emi sad_depressed
 with charachange
 
 # "Emi looks genuinely remorseful."
-""
+"เอมิทำหน้าเสียดายจริง ๆ"
 
 # emi "Sorry, Hisao! I promised the track captain that I'd stick around after practice and help some of the other kids with their form! It'll have to be some other time."
-emi ""
+emi "ขอโทษนะฮิซาโอะ! ฉันรับปากกับหัวหน้าทีมไว้แล้วว่าซ้อมเสร็จแล้วจะอยู่ช่วยเป็นที่ปรึกษากับเด็กคนอื่น\nเรื่องการเล่นกีฬาน่ะ! ไว้วันหลังนะ"
 
 # hi "Yeah, sure…"
-hi ""
+hi "อื้ม ได้…"
 
 window hide
 
@@ -274,26 +274,26 @@ nvl clear
 nvl show dissolve
 
 # n "I'm honestly not sure what to do now. Maybe diving into things the day after would be a bad idea anyway."
-n ""
+n "ว่าตามตรง ตอนนี้ฉันไม่รู้จะทำอะไร หรือการมาจัดการเรื่องอะไร ๆ ในวันถัดมาเลยจะไม่ใช่ความคิดที่ดีจริง ๆ"
 
 # n "She might still be angry about it and just not showing it. Besides, if she's got track team responsibilities that's fine, right?"
-n ""
+n "เอมิอาจจะยังโกรธอยู่แต่ไม่ได้แสดงออกก็ได้ อีกอย่าง ถ้ายังมีภาระหน้าที่กับทีมวิ่งอยู่ก็คงไม่เป็นไรหรอก"
 
 show bg misc_sky:
     linear 10.0 alpha 0.0
 with None
 
 # n "I tell myself some variation on this theme the next day. Then the next. I wake up, run with Emi (during which she refuses to talk about anything but the run and what she was doing the night before), and then lunch, where we sit and make small talk until the bell rings."
-n ""
+n "วันถัดมาฉันก็บอกอะไรประมาณนั้นกับตัวเอง แล้วก็วันถัดจากนั้นอีก ฉันตื่นขึ้นมาวิ่งกับเอมิ (ซึ่งเอมิไม่ยอมคุย\nเรื่องอื่นเลยนอกจากเรื่องวิ่งกับเรื่องที่ทำเมื่อคืนก่อนหน้า) แล้วก็ไปนั่งกินข้าวเที่ยงคุยเรื่อยเปื่อยกันจนระฆังดัง"
 
 # n "Her new responsibilities effectively keep me from seeing her outside of school. Maybe, just maybe, I'm letting it happen because it's safer this way, just like the nurse said."
-n ""
+n "ภาระหน้าที่ใหม่ของเอมิทำให้ฉันไม่ได้เจอเอมินอกเวลาเรียนเลย หรือ หรือว่านะ ที่ฉันปล่อยให้เป็นแบบนี้อาจเพราะ\nเป็นทางที่ปลอดภัยกว่าอย่างที่คุณพยาบาลว่าไว้"
 
 # n "Except while it may be safer, I'm feeling more and more wretched. Emi doesn't look good when I see her any more; dark circles lurk under her eyes, she seems more and more distracted, and I can't bring myself to just ask what's wrong, because the timing never seems right."
-n ""
+n "ปลอดภัยกว่าก็จริง แต่ฉันยิ่งหดหู่ขึ้นเรื่อย ๆ เอมิไม่ได้ดูดีอย่างที่เคยเป็นแล้ว ใต้ตาเธอดำคล้ำ หน้าตาดูเหม่อลอย\nหนักขึ้นทุกที และฉันก็ไม่กล้าถามว่ามีเรื่องอะไรเพราะจังหวะเหมือนจะไม่เคยลงตัวเลย"
 
 # n "\nI'm absolutely miserable."
-n ""
+n "\nฉันมันน่าสมเพชที่สุด"
 
 stop ambient fadeout 2.0
 
@@ -313,7 +313,7 @@ scene bg school_staircase1
 with locationchange
 
 # "Another lunch comes. I trudge up the stairs to the rooftop like a condemned man."
-""
+"ถึงเวลาพักเที่ยงอีกครั้ง ฉันเดินขึ้นบันไดด้วยสภาพเหมือนนักโทษประหาร"
 
 play ambient sfx_rooftop fadein 1.0
 
@@ -322,49 +322,49 @@ show rin basic_absent at center
 with locationchange
 
 # "Rin is up there, but Emi is not. Immediately I worry that something's happened to her. Maybe the lack of sleep finally made her collapse, or something worse."
-""
+"รินอยู่ แต่เอมิไม่อยู่ ฉันนึกกังวลทันทีว่ามีเรื่องอะไรเกิดขึ้นกับเอมิหรือเปล่า อาจจะเพราะนอนน้อยจนเป็นลม\nไปแล้วจริง ๆ หรืออาจจะแย่กว่านั้น"
 
 # "She seemed pretty tired after our morning run. Maybe she fell asleep and didn't even make it to class."
-""
+"หลังจากที่วิ่งตอนเช้าด้วยกันเอมิก็ดูเพลียมากด้วย อาจจะหลับไปแล้วไม่ทันตื่นมาเข้าเรียน"
 
 # hi "Hey, Rin. Where's Emi?"
-hi ""
+hi "นี่ ริน เอมิอยู่ไหนเหรอ"
 
 show rin basic_deadpancontemplation
 with charachange
 
 # "In response I get a rather penetrating look from Rin, and something approaching a frown appears on her face."
-""
+"รินมองตอบด้วยสายตาที่เหมือนจะจ้องผ่านตัวฉัน ก่อนจะทำสีหน้าบางอย่างที่คล้ายการขมวดคิ้ว"
 
 # rin "Is that information really important?"
-rin ""
+rin "ข้อมูลที่ว่าสำคัญขนาดนั้นเลยเหรอ"
 
 # hi "I think so. She's usually here with you, isn't she?"
-hi ""
+hi "คิดว่านะ ปกติเอมิจะมาอยู่ที่นี่กับเธอนี่"
 
 show rin basic_awayabsent
 with charachange
 
 # rin "I don't know. I have no way of being sure."
-rin ""
+rin "ไม่รู้สิ ฉันแน่ใจไม่ได้หรอก"
 
 # hi "I can confirm that she is, in fact, usually here with you when I come up."
-hi ""
+hi "ฉันยืนยันได้ว่าปกติเอมิจะมาอยู่บนนี้กับเธอจริง ๆ"
 
 show rin basic_deadpannormal
 with charachange
 
 # rin "Well she isn't now. Does that worry you?"
-rin ""
+rin "ก็ตอนนี้ไม่อยู่นี่ นายคิดมากมั้ยล่ะ"
 
 # hi "Kind of."
-hi ""
+hi "ค่อนข้าง"
 
 show rin basic_deadpancontemplation
 with charachange
 
 # rin "Hm."
-rin ""
+rin "อืม"
 
 play sound sfx_door_creak
 with Pause(0.5)
@@ -380,13 +380,13 @@ show emi basic_closedhappy at twoleft
 with dissolvecharamove
 
 # "That seems to end the conversation, and the point becomes moot anyway because Emi bounds through the door with her usual energy."
-""
+"ดูท่าว่าบทสนทนาจะจบลงเท่านี้ และสุดท้ายก็ไม่ต้องหาคำตอบอยู่ดีเพราะเอมิโดดออกจากประตูมาด้วยท่าทีเหมือนเก่า"
 
 show rin basic_deadpan
 with charachange
 
 # rin "Hisao is kind of worried about you, Emi. I don't think he can decide, or maybe I just don't believe him, but I think I'm going to go somewhere less awkward now."
-rin ""
+rin "ฮิซาโอะค่อนข้างเป็นห่วงเธอละเอมิ ฉันว่าฮิซาโอะตัดสินใจไม่ได้ หรือฉันอาจจะไม่เชื่อใจฮิซาโอะเอง แต่ฉันว่า\nตอนนี้ฉันขอตัวไปอยู่ที่ที่น่าอึดอัดน้อยกว่านี้หน่อย"
 
 hide rin
 with charaexit
@@ -398,188 +398,188 @@ show emi basic_confused at center
 with dissolvecharamove
 
 # "I'm so surprised by Rin's being so suddenly forward about, well, anything at all that I merely watch her head through the door."
-""
+"ฉันแปลกใจมากที่อยู่ ๆ รินก็พูดเรื่อง เอ่อ เรื่องอะไรสักอย่างออกมาตรง ๆ แบบนั้นได้จนได้แต่มองไล่หลังรินที่เดิน\nออกประตูไป"
 
 show emi basic_shock
 with charachange
 
 # "Emi is similarly surprised, and colors slightly crimson as she stares openmouthed at me. It occurs to me that I should probably say something, if only to break the awkward silence that has suddenly descended."
-""
+"เอมิก็แปลกใจพอกัน เธออ้าปากค้างมองมาทางฉันหน้าแดง ๆ แล้วฉันก็นึกได้ว่าต้องพูดอะไรเสียหน่อย\nเพื่อทำลายความเงียบอันน่ากระอักกระอ่วนที่อยู่ ๆ ก็เข้ามาปกคลุมนี้"
 
 # hi "It's because you weren't here yet. I was uh, worried about it."
-hi ""
+hi "ก็เพราะเธอยังไม่มานั่นแหละ ฉันเลย เอ่อ เป็นห่วง"
 
 show emi basic_confused
 with charachange
 
 # emi "Why?"
-emi ""
+emi "ทำไมล่ะ"
 
 # hi "You're usually here, so I was worried that something had happened to you."
-hi ""
+hi "ปกติเธอจะอยู่ที่นี่นี่ ฉันเลยเป็นห่วงว่าเธอเป็นอะไรไปหรือเปล่า"
 
 show emi sad_grin
 with charachange
 
 # emi "This isn't the first time that I've been late, you know. Did you get worried all the other times, too?"
-emi ""
+emi "ฉันก็ไม่ได้มาช้าเป็นครั้งแรกสักหน่อย นี่นายเป็นห่วงทุกครั้งที่ฉันมาช้าเลยหรือไง"
 
 # hi "Er, not really."
-hi ""
+hi "เอ้อ ก็ไม่นะ"
 
 show emi basic_closedgrin
 with charachange
 
 # "Emi seems slightly amused by this. I don't know why, but that kind of pisses me off."
-""
+"เอมิดูชอบใจเล็กน้อย ไม่รู้ทำไมฉันถึงหงุดหงิดขึ้นมา"
 
 show emi basic_grin
 with charachange
 
 # emi "So why was this time an exception?"
-emi ""
+emi "แล้วทำไมถึงเป็นห่วงแค่ครั้งนี้ล่ะ"
 
 # "Maybe it's the light, teasing tone of the question, but something in her response pushes me to be honest, though I can't help snapping at her when I say it."
-""
+"คำถามของเธอกดดันให้ฉันต้องพูดออกมาตรง ๆ อาจจะเพราะด้วยน้ำเสียงที่ฟังเหมือนไม่ใช่เรื่องจริงจัง แค่หยอกเล่น\nไปเท่านั้น ฉันอดโกรธเอมิไม่ได้เมื่อต้องพูดออกมา"
 
 play music music_innocence fadein 10.0
 
 # hi "Because you've been worrying me since dinner at your house, that's why."
-hi ""
+hi "เพราะเธอทำให้ฉันเป็นห่วงตั้งแต่ที่เราไปกินข้าวเย็นกันที่บ้านเธอตอนนั้นแล้วไง"
 
 show emi basic_hes
 with charachange
 
 # "Well. Now it's out in the open. And Emi's eyes are wide, and she looks like she wants to bolt, but she doesn't."
-""
+"เอาละ พูดออกไปชัด ๆ แล้ว เอมิตาเบิกโพลงทำหน้าเหมือนอยากวิ่งหนี แต่เธอก็ยังอยู่ตรงนี้"
 
 show emi sad_shy
 with charachange
 
 # emi "Ah. Still on that, I see."
-emi ""
+emi "อ้อ ยังไม่จบเหรอ โอเค"
 
 # hi "What, you think I'm supposed to just forget about it? You threw me out of your house! We've been going on for almost a week pretending it never happened!"
-hi ""
+hi "อะไร นี่กะจะให้ฉันลืม ๆ ไปเลยหรือไง เธอไล่ฉันออกจากบ้านนะ! เราทำเหมือนไม่มีอะไรเกิดขึ้นมาหนึ่งสัปดาห์แล้วนะ!"
 
 show emi sad_annoyed
 with charachange
 
 # emi "I didn't see you bringing it up either, you know."
-emi ""
+emi "ก็ไม่เห็นนายจะพูดถึงเหมือนกันนี่"
 
 # hi "I know, and I'm sorry that was the case. We have to address it, or we'll just keep up this whatever it is we've got right now."
-hi ""
+hi "ฉันรู้ แล้วก็ขอโทษด้วยที่เป็นอย่างนั้นไป เราต้องคุยกันนะ ไม่งั้นเราก็จะต้องอยู่กันไปแบบนี้เรื่อย ๆ"
 
 # hi "It's killing me to look at how you look right now, did you know that? Those circles under your eyes and that distracted look in them, and I can't help worrying that I've caused it somehow."
-hi ""
+hi "แค่เห็นสภาพเธอฉันก็เหมือนจะตายให้ได้อยู่แล้ว รู้ตัวบ้างไหม ขอบตาดำ ๆ กับสีหน้าเหม่อ ๆ ของเธอน่ะ\nฉันก็อดคิดมากไม่ได้ว่าที่เธอเป็นแบบนี้เพราะฉันหรือเปล่า"
 
 show emi sad_pout
 with charachange
 
 # emi "You haven't. Trust me."
-emi ""
+emi "ไม่ใช่เพราะนายหรอก เชื่อฉันสิ"
 
 # hi "Well I haven't helped, either. I keep pushing you to tell me things you aren't ready to tell me; maybe I was wrong to try getting your mother to help me out, but I've been so worried about you that I didn't know what else to do."
-hi ""
+hi "โอเค แต่ฉันก็ไม่ได้ช่วยเธอเลยด้วย ฉันเอาแต่ตื๊อให้เธอเล่าเรื่องที่เธอยังไม่พร้อมบอกฉัน ฉันอาจจะผิดเองที่ขอ\nให้แม่เธอช่วย แต่ฉันเป็นห่วงเธอมากจริง ๆ จนไม่รู้จะทำยังไงดีแล้ว"
 
 show emi sad_depressed
 with charachange
 
 # emi "Well, you don't have to worry about me any more, okay? I think it's pretty clear we're not right for each other, so maybe we should just… stop."
-emi ""
+emi "งั้นนายก็ไม่ต้องเป็นห่วงฉันอีกต่อไปแล้วละ โอเคไหม ฉันว่าก็ชัดแล้วนะว่าเราสองคนเข้ากันไม่ได้ เพราะงั้นเรา…\nหยุดก่อนดีกว่า"
 
 # "Her face is twisted up as she says this, like she doesn't want to say it but forces herself to anyway."
-""
+"เอมิพูดพลางทำหน้ากระตุกเหมือนใจจริงไม่อยากพูดแต่ก็ฝืนพูดออกมา"
 
 # hi "You don't actually want that, do you? Heck, you can barely bring yourself to say it. Anyway it won't keep me from worrying about you. I care too much about you to just stop on command."
-hi ""
+hi "จริง ๆ เธอก็ไม่ได้อยากหยุดใช่มั้ยล่ะ ไม่สิ เธอแทบพูดไม่ออกด้วยซ้ำ แต่นั่นแหละ พูดไปฉันก็ไม่ได้เลิกเป็นห่วงหรอก\nฉันให้ความสำคัญกับเธอมากเกินกว่าที่จะให้ใครมาสั่งให้หยุดได้ง่าย ๆ"
 
 # hi "You don't want to tell me what's wrong? That's fine, but I won't stop trying to help you, even if it's just standing by you."
-hi ""
+hi "ไม่อยากบอกฉันใช่มั้ยล่ะว่ามีเรื่องอะไร ไม่ต้องบอกหรอก แต่ฉันจะไม่หยุดหาทางช่วยเธอหรอกนะ ต่อให้จะทำได้แค่\nอยู่เคียงข้างเธอก็เถอะ"
 
 show emi sad_angry
 with charachange
 
 # emi "Stop saying that!"
-emi ""
+emi "เลิกพูดแบบนั้นได้แล้ว!"
 
 # "She's shaking now, and as she looks at me I can see she's afraid and frustrated and a million different things all at once. I shake my head slowly and take a few steps toward her."
-""
+"ตอนนี้เอมิตัวสั่นแล้ว พอเธอมองมาฉันก็เห็นว่าเธอทั้งกลัวทั้งกระวนกระวายทั้งอะไรหลายล้านอย่างพร้อม ๆ กัน\nฉันส่ายหน้าช้า ๆ แล้วเดินเข้าไปหาเอมิ"
 
 # hi "You know what your mom told me? She told me that you'd never ask for help, because you know that you're strong enough to get through anything on your own, but that's not the full story, is it?"
-hi ""
+hi "รู้มั้ยว่าแม่เธอบอกฉันว่ายังไง แม่เธอบอกว่าเธอไม่เคยขอความช่วยเหลือเลย เพราะเธอรู้ตัวว่าเข้มแข็งพอ\nที่จะก้าวผ่านอะไรทุกอย่างไปได้ด้วยตัวเอง แต่เรื่องไม่ได้มีแค่นั้นใช่มั้ยล่ะ"
 
 show emi basic_hes
 with vpunch
 
 # "Her eyes go wide, and she takes a step back. I keep going, because I think I've finally figured it out. Something tells me I won't get another shot. I've put it off for far too long as it is."
-""
+"เอมิทำตาโตแล้วถอยไปหนึ่งก้าว ฉันเดินเข้าหาเธออีกเพราะคิดว่าฉันเข้าใจแล้วสักที ฉันสังหรณ์ว่าจะไม่มีโอกาส\nครั้งที่สองแล้ว เท่านี้ฉันก็เลื่อนเวลามานานมากแล้ว"
 
 # hi "There's no harm in having someone help you, unless you're worried about needing help in the first place. You're scared, aren't you? Because of…"
-hi ""
+hi "การขอความช่วยเหลือจากใครสักคนน่ะไม่ใช่เรื่องไม่ดีหรอกนะ เว้นก็แต่ว่าเธอจะคิดมากเสียเอง เธอกลัวใช่มั้ยล่ะ\nเพราะ…"
 
 # "I trail off, because I don't know for certain what happened to Emi's father, and I don't want to jump to a conclusion."
-""
+"ฉันลากเสียงไปเพราะไม่รู้แน่ชัดว่าเกิดอะไรขึ้นกับพ่อเอมิกันแน่ และยังไม่อยากด่วนสรุปอะไรเร็วเกินไป"
 
 # hi "Well, never mind why, but it's okay to be afraid. You've been running from it and from me for so long, even though you know eventually you have to turn around and face your fear, and I'm going to be there to help when you do."
-hi ""
+hi "เอาเถอะ ช่างเหตุผลก่อน แต่ถ้าเธอจะกลัวก็กลัวได้นะ เธอวิ่งหนีจากสิ่งนั้นกับฉันมานานมากแล้วทั้งที่รู้ดีว่าสักวัน\nเธอก็ต้องหันมาเผชิญหน้ากับความกลัวของตัวเองอยู่ดี และฉันจะคอยอยู่เคียงข้างช่วยเหลือเธอเมื่อถึงวันนั้น"
 
 # hi "I won't stop, because I don't think you'd want me to. You can understand that sort of determination, can't you?"
-hi ""
+hi "ฉันจะไม่หยุดหรอก เพราะเธอคงไม่อยากให้ฉันหยุด เธอคงเข้าใจความเด็ดเดี่ยวแบบนี้ใช่มั้ยล่ะ"
 
 # "I can see that I've gotten through to her, but she quickly falls back to anger to try and push me away again."
-""
+"ฉันดูออกว่าเอมิเข้าใจในสิ่งที่ฉันพูดแล้ว แต่เธอก็รีบโกรธขึ้นมาแล้วผลักไสฉันออกไปอีกครั้ง"
 
 show emi sad_angry
 with charachange
 
 # emi "Back on your white charger, Hisao? Gotta help the poor cripple face her emotional problems? What do you know about me, and about what I've already had to face?"
-emi ""
+emi "จะเล่นเป็นพระเอกขี่ม้าขาวอีกแล้วเหรอฮิซาโอะ จะมาช่วยสาวพิการให้เผชิญหน้ากับปัญหาทางจิตใจเหรอ นายรู้ดี\nเรื่องฉันกับสิ่งที่ฉันต้องเผชิญมาแล้วมากขนาดนั้นเลยหรือไง"
 
 show emi sad_grit
 with charachange
 
 # emi "You think two months of learning to walk again was fun? But I did it, and after I did that I had to…"
-emi ""
+emi "นายคิดว่าการที่ฉันต้องหัดเดินอยู่สองเดือนมันสนุกนักเหรอ แต่ฉันก็ผ่านมาแล้ว และหลังจากนั้นฉันก็ต้อง…"
 
 # "For a moment it seems as if she's going to say something else, but she cuts herself off."
-""
+"แวบหนึ่งเอมิทำทีเหมือนจะพูดอะไรอย่างอื่นอีกแต่ก็ตัดบทตัวเองทิ้งไป"
 
 # hi "And after all that, you don't think you can get past your fear? Emi, I can't fathom what you've been through, but to come through it and still be the sort of girl that you are, well, it makes me think that you have even more strength than you think."
-hi ""
+hi "และเธอผ่านอะไรมาขนาดนั้นแล้วแต่ยังคิิดว่าจะก้าวข้ามความกลัวของตัวเองไม่ได้เหรอ เอมิ ฉันไม่อาจรู้ซึ้งได้หรอกนะ\nว่าเธอผ่านอะไรมาบ้าง แต่พอฉันเห็นว่าเธอยังอยู่มาจนเป็นตัวเธออย่างทุกวันนี้แล้ว ฉันก็คิดว่าจริง ๆ แล้วเธอเข้มแข็ง\nกว่าที่เธอคิดมาก"
 
 # hi "So I'm not going to help you because I think you need rescuing. I don't want to be a knight rescuing the damsel in distress, but even knights helped each other out, you know. I want to help you, even though I know you can do it on your own."
-hi ""
+hi "เพราะงั้นฉันจะไม่ได้มาช่วยเธอเพราะเห็นว่าเธอต้องการความช่วยเหลือ ฉันไม่ได้อยากเป็นอัศวินที่มาช่วย\nสาวน้อยเดือดร้อน แต่แม้แต่อัศวินยังต้องช่วยกันเองเลย ฉันอยากช่วยเธอทั้งที่รู้ดีว่าเธอก็จัดการเองได้"
 
 show emi sad_depressed
 with charachange
 
 # "For a moment it looks like Emi's going to break down completely, but she doesn't. Tears run down her face, but she stares at me steadily."
-""
+"แวบหนึ่งเอมิเหมือนพร้อมจะปลดปล่อยอารมณ์ทั้งหมดออกมาแล้ว แต่เธอยังนิ่งปล่อยให้น้ำตาไหลอาบแก้มจ้องฉัน\nไม่วางตา"
 
 # emi "Why are you trying so hard to help me?"
-emi ""
+emi "ทำไมนายถึงพยายามจะช่วยฉันขนาดนี้"
 
 # hi "I'd say that it's because I owe you one for helping me out when we first met, but that wouldn't be the truth. The truth is, I just want you to be happy, because I love you."
-hi ""
+hi "ก็อยากจะพูดอยู่หรอกว่าเพราะติดหนี้บุญคุณที่เธอช่วยฉันไว้ตอนเจอกันครั้งแรก แต่ความจริงไม่ใช่อย่างนั้น\nสักหน่อย เหตุผลจริง ๆ คือฉันอยากให้เธอมีความสุข เพราะฉันรักเธอ"
 
 stop music fadeout 4.0
 
 # "Had I ever said that before? We've been in a relationship, and it's been pretty obvious that I love her, but did I ever actually speak the words?"
-""
+"ฉันเคยพูดคำนี้มาก่อนหรือเปล่านะ เราคบกัน และก็ชัดอยู่ว่าฉันรักเอมิ แต่ฉันเคยพูดออกมาจริง ๆ หรือเปล่า"
 
 show emi sad_shyblush
 with charachange
 
 # emi "What did you say?"
-emi ""
+emi "นายว่าไงนะ"
 
 # "I say it again, savoring the feeling of being able to say it at all, being able to say it and mean it. Emi seems stunned."
-""
+"ฉันพูดอีกครั้งพลางกำซาบความรู้สึกดีที่พูดออกมาจากใจจริงได้เสียที เอมิตะลึงงันไป"
 
 # hi "I said I love you, Emi. I love you. Just you, and that makes me want to stand by you, no matter what you have to face."
-hi ""
+hi "ฉันบอกว่าฉันรักเธอ เอมิ ฉันรักเธอ แค่เธอคนเดียว เพราะรักถึงอยากอยู่ข้างเธอ ไม่ว่าเธอจะต้องเผชิญหน้า\nกับอะไรก็ตาม"
 
 play music music_serene fadein 0.5
 
@@ -587,75 +587,75 @@ show emi excited_sad_close
 with vpunch
 
 # "I'm wrapped in a fierce hug then, as Emi begins to sob against my chest."
-""
+"แล้วเอมิก็โผตัวเข้ามากอดซุกหน้าอกฉันแล้วสะอื้นไห้"
 
 # emi "I'm sorry! I'm so sorry about everything but I'm so scared, Hisao, I'm so scared of losing you and I love you too but I can't lose you I just… I'm so sorry!"
-emi ""
+emi "ขอโทษนะ! ฉันขอโทษกับทุกอย่างที่ผ่านมาเลย แต่ฉันกลัวเหลือเกินฮิซาโอะ ฉันกลัวว่าจะต้องเสียนายไป\nฉันรักนายเหมือนกันแต่ฉันจะเสียนายไปไม่ได้ฉัน… ฉันขอโทษจริง ๆ !"
 
 show emi sad_shy
 with charadistant
 
 # "I hold her quietly, shushing her until she settles down. She steps back, a little more composed."
-""
+"ฉันกอดเอมิอยู่เงียบ ๆ แล้วโอ๋เธอจนเธอสงบลง เอมิผละตัวออกดูใจเย็นลงบ้าง"
 
 # emi "Will you come with me tomorrow? Back to my house? There are some things I need to show you, if I'm going to do this."
-emi ""
+emi "พรุ่งนี้ไปด้วยกันกับฉันมั้ย กลับไปที่บ้านน่ะ พอดีฉันมีอะไรที่ต้องให้นายได้เห็น ถ้าฉันจะเปิดใจจริง ๆ"
 
 # hi "Of course. Maybe this time we can leave together, instead of separately."
-hi ""
+hi "ได้สิ แล้วคราวนี้เราอาจจะได้กลับด้วยกันแทนที่จะแยกกันกลับก็ได้"
 
 show emi sad_grin
 with charachange
 
 # "Emi grins, a sudden flash of brightness that seems more genuine than anything I've seen in the past week."
-""
+"เอมิยิ้ม เป็นรอยยิ้มสดใสที่ดูจริงใจกว่าที่ฉันเคยเห็นมาตลอดสัปดาห์นี้เลย"
 
 # emi "Yeah, maybe."
-emi ""
+emi "อื้ม มั้งนะ"
 
 play sound sfx_warningbell
 
 # "The lunch bell rings, and I curse the universe's poor sense of timing."
-""
+"เสียงระฆังพักเที่ยงดัง ฉันก่นด่าโลกนี้ที่กะจังหวะได้ไม่ลงตัวเอาเสียเลย"
 
 # hi "Are you free tonight? We can talk more then, right?"
-hi ""
+hi "คืนนี้ว่างหรือเปล่า ไว้คุยกันอีกไง"
 
 # "Emi shakes her head."
-""
+"เอมิสั่นหัว"
 
 show emi sad_depressed
 with charachange
 
 # emi "Sorry Hisao, but I'm still helping the track team. Plus, I don't think it would be good if we talked this over tonight. I'm going to be too tired to think properly, and I want to be able to tell you everything without screwing it up."
-emi ""
+emi "ขอโทษทีนะฮิซาโอะ พอดียังต้องไปช่วยงานทีมวิ่งอยู่น่ะ อีกอย่าง ฉันว่าถ้าคุยเรื่องนี้กันตอนค่ำคงไม่ดีเท่าไหร่\nเพราะฉันจะเพลียจนคิดอะไรไม่ค่อยถนัด แล้วฉันก็อยากบอกนายทุกอย่างให้เป็นเรื่องเป็นราวโดยไม่ทำพลาดอะไรด้วย"
 
 show emi sad_shy
 with charachange
 
 # emi "You can wait, right?"
-emi ""
+emi "นายรอได้ใช่มั้ย"
 
 # "Even now, there's a bit of fear in her voice. I smile and rest a hand on her shoulder."
-""
+"แม้แต่ตอนนี้น้ำเสียงเอมิยังเจือด้วยความกลัวอยู่ ฉันยิ้มแล้วจับไหล่เธอ"
 
 # hi "Okay. I'll be waiting."
-hi ""
+hi "โอเค จะรอนะ"
 
 show emi excited_amused_close
 with characlose
 
 # "Emi gives me a quick kiss before she heads for the stairwell."
-""
+"เอมิจุ๊บฉันแล้วเดินไปทางประตู"
 
 show emi sad_grin
 with charadistant
 
 # emi "Thanks, Hisao. See you tomorrow morning."
-emi ""
+emi "ขอบคุณนะฮิซาโอะ เจอกันเช้าวันพรุ่งนี้"
 
 # hi "Wouldn't miss it."
-hi ""
+hi "เจอกัน ๆ"
 
 hide emi
 with charaexit
@@ -667,16 +667,16 @@ scene bg school_staircase1
 with locationchange
 
 # "I head down the stairs with the feel of her lips on mine, suddenly aware of how much I've missed that sensation. I'll have to remember to thank Rin for getting us to talk to one another."
-""
+"ฉันเดินลงบันไดมา สัมผัสจากริมฝีปากเธอยังคงค้างอยู่ และจู่ ๆ ก็รู้ตัวว่าตัวเองคิดถึงสัมผัสนี้มากแค่ไหน\nไว้ต้องไปขอบคุณรินแล้วที่เปิดโอกาสให้เราสองคนได้คุยกัน"
 
 # "Although it's possible she won't even realize what she's done. Still, if not for her I doubt I'd have ever been able to confront Emi again."
-""
+"ซึ่งก็เป็นไปได้ว่ารินคงไม่รู้ตัวเหมือนกันว่าทำอะไรดี ๆ ไว้ แต่ก็นะ ถ้าไม่มีรินแล้วฉันก็คงไม่มีโอกาสที่จะได้ประจันหน้า\nคุยกับเอมิแบบนั้นอีกหรอก"
 
 # "I guess I needed more help than I realized. Tomorrow, however, I'll need to stand alone through whatever Emi's trying to work herself up to doing."
-""
+"ฉันเองก็ต้องมีคนมาคอยช่วยบ่อยกว่าที่คิดแฮะ แต่ว่าวันพรุ่งนี้จะมีเพียงฉันที่ต้องเจอกับอะไรก็ตามที่เอมิ\nเตรียมจะทำจะบอกกับฉัน"
 
 # "I'll be up to the task. I hope."
-""
+"ฉันจะต้องทำหน้าที่นั้นได้สำเร็จ หวังว่านะ"
 
 stop music fadeout 2.0
 
