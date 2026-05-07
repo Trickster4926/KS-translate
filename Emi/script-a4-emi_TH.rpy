@@ -1094,7 +1094,7 @@ stop music fadeout 1.0
 emi "วันนี้เราจะไปหาพ่อฉันกัน"
 
 # "The words hang in the air, and I can see that Emi's afraid that I'll panic and disappear in response. Which a part of me almost wants to do."
-"คำพูดนั้นลอยอยู่ในอากาศ ฉันดูออกว่าเอมิกลัวว่าฉันจะตระหนกแล้วหนีไปเมื่อได้ยินเช่นนั้น ซึ่งใจหนึ่ง\nฉันก็อยากอยู่เหมือนกัน"
+"คำพูดนั้นลอยค้างในอากาศ ฉันดูออกว่าเอมิกลัวว่าฉันจะตระหนกแล้วหนีไปเมื่อได้ยินเช่นนั้น ซึ่งใจหนึ่ง\nฉันก็อยากอยู่เหมือนกัน"
 
 # "But it would be stupid of me to back out, or to suddenly abandon the promise I made to be there for Emi when she needs me."
 "แต่ถ้าถอนตัวเอาตอนนี้หรือผิดสัญญาที่บอกว่าจะอยู่เคียงข้างเอมิในยามที่เธอต้องการฉันแล้วก็คงโง่มาก"
@@ -1425,7 +1425,7 @@ show emicas neutral
 with charachange
 
 # emi "I can't carry a tune to save my life. I can hum, but actually singing a song is something I've never been able to do. I don't mind, because I'm not a fan of karaoke anyway."
-emi "ฉันร้องเพลงเพี้ยน ฮัมเพลงได้นะ แต่ไม่เคยร้องเพลงจริง ๆ ได้เลย ซึ่งฉันก็ไม่ได้ใส่ใจเพราะไม่ได้ชอบคาราโอเกะ\nอยู่แล้ว"
+emi "ฉันร้องเพลงได้ห่วยแตก ฮัมเพลงได้นะ แต่ไม่เคยร้องเพลงจริง ๆ ได้เลย ซึ่งฉันก็ไม่ได้ใส่ใจเพราะไม่ได้ชอบคาราโอเกะ\nอยู่แล้ว"
 
 # hi "Well that's one potential date idea out the window."
 hi "โอเค ตัดตัวเลือกสถานที่เดตไปแล้วหนึ่ง"
@@ -1603,66 +1603,66 @@ scene bg school_gate_ss
 with shorttimeskip
 
 # "Emi's mother drives us back to Yamaku. The trip back is very quiet."
-""
+"แม่เอมิขับรถมาส่งพวกเราที่ยามากุ ขากลับในรถนั้นเงียบมาก"
 
 show emicas neutral_close_ss
 with charaenter
 
 # "We wave goodbye as the car drives off, and I glance down at the girl leaning on my arm."
-""
+"เราโบกมือลาแม่เอมิที่กำลังขับรถออกไป ฉันเหลือบมองอีกฝ่ายที่พิงแขนฉันอยู่"
 
 # hi "How are you feeling?"
-hi ""
+hi "เป็นยังไงบ้าง"
 
 show emicas awayfrown_close_ss
 with charachange
 
 # "Emi shrugs noncommittally."
-""
+"เอมิยักไหล่ไม่ยี่หระ"
 
 show emicas frown_close_ss
 with charachange
 
 # emi "I'll be fine. Come on, let's go."
-emi ""
+emi "ไม่เป็นไรหรอก ปะ ไปกัน"
 
 scene bg school_dormext_full_ss
 with locationskip
 
 # "We pause outside the girls' dorm and I turn to face Emi, ready to say goodbye."
-""
+"เรามาหยุดยืนอยู่หน้าหอหญิง ฉันหันไปมองเอมิเตรียมบอกลา"
 
 show emicas weaksmile_close_ss
 with charaenter
 
 # emi "Why don't you come up for a while?"
-emi ""
+emi "มาอยู่ด้วยสักแป๊บสิ"
 
 # hi "Okay."
-hi ""
+hi "โอเค"
 
 scene bg school_girlsdormhall_ss
 with locationskip
 
 # "The walk up to her room is in silence. I'm not sure why I supposed I'd be turned away at the door."
-""
+"เราเดินมาที่ห้องเอมิกันเงียบ ๆ ฉันไม่รู้เหมือนกันว่าทำไมฉันต้องกลับหอตัวเองด้วย"
 
 # "I guess I just assumed she'd want to be alone."
-""
+"อาจจะเพราะคิดว่าเอมิคงอยากอยู่คนเดียว"
 
 # "Her mom, the nurse, hell, everyone who knew the significance of today seemed to think it best to leave Emi alone."
-""
+"ทั้งแม่ ทั้งคุณพยาบาล ไม่สิ ใครก็ช่างที่รู้ว่าวันนี้สำคัญยังไงต่างก็คิดว่าปล่อยให้เอมิอยู่ตัวคนเดียวดีกว่า"
 
 # "But she took me into the graveyard with her. She told me the whole story of what happened on the day she lost her legs."
-""
+"แต่เอมิพาฉันไปที่สุสานด้วยกัน แล้วเล่าเรื่องในวันนั้นที่เกิดอุบัติเหตุจนเธอต้องเสียขาไป"
 
 # "She wanted me around. The significance of this does not escape me."
-""
+"เอมิอยากให้ฉันอยู่ด้วย ฉันเข้าใจดีว่าเรื่องนี้นั้นสำคัญแค่ไหน"
 
 play sound sfx_dooropen
 
 # "Emi opens the door and steps into her room, not even bothering to invite me in, holding the door for me expectantly."
-""
+"เอมิเปิดประตูเดินเข้าห้องไม่แม้แต่จะชวนฉันเข้าไป เพียงแค่เปิดประตูไว้รอ"
 
 scene bg school_dormemi_ss at left
 with locationskip
@@ -1670,52 +1670,52 @@ with locationskip
 play sound sfx_doorclose
 
 # "I step in, and the door swings shut behind me."
-""
+"เมื่อฉันเดินเข้ามาแล้วเอมิก็ปิดประตู"
 
 show emicas weaksmile_close_ss
 with charaenter
 
 # emi "Hey, can I ask you a favor?"
-emi ""
+emi "นี่ ขออะไรอย่างสิ"
 
 # hi "Sure. Can't guarantee I'll do it, but…"
-hi ""
+hi "ได้สิ ไม่รับปากนะว่าจะทำได้ทุกอย่าง แต่…"
 
 show emicas closedsmile_close_ss
 with charachange
 
 # "Emi giggles and pulls me into a kiss that starts out soft but deepens into something almost desperate."
-""
+"เอมิหัวเราะคิกคักแล้วดึงตัวฉันเข้าไปจูบ เริ่มแรกนั้นอ่อนนุ่ม แต่พอนานไปก็หนักหน่วงขึ้น"
 
 show emicas smile_close_ss
 with charachange
 
 # emi "Stay with me? Please?"
-emi ""
+emi "อยู่เคียงข้างฉันทีนะ ได้โปรด"
 
 # "Her voice has dropped to a whisper, the question is barely audible over the sound of my own breathing."
-""
+"เสียงเธอนั้นเบาจนคล้ายเสียงกระซิบ เสียงหายใจของฉันกลบคำถามเธอไปจนแทบไม่ได้ยิน"
 
 # "There's something about the way that she asks that question, the hesitancy in it, the quiet voice, that makes me think she doesn't mean tonight."
-""
+"เป็นคำถามที่ชวนให้ฉันคิดว่าเธอไม่ได้หมายถึงคืนนี้ อาจจะด้วยน้ำเสียงที่ฟังดูลังเลและระดับเสียงที่แผ่วเบา"
 
 # "No, she means exactly what she said. “Stay with me.” Not “tonight” or “forever,” because both of us know there's no such thing as forever."
-""
+"ไม่หรอก เอมิหมายความตามนั้นแหละ “อยู่เคียงข้างฉัน” ไม่ใช่ “คืนนี้” หรือ “ชั่วนิรันดร์” เพราะเราต่างรู้ดี\nว่าชั่วนิรันดร์นั้นไม่มีจริง"
 
 # "There's no time limit to her request, there's just the request."
-""
+"คำขอของเธอไม่ได้แนบเวลามาด้วย เป็นแค่คำขอเปล่า ๆ"
 
 # "The favor."
-""
+"คำขอ"
 
 # "Can I do that?"
-""
+"ฉันทำให้ได้หรือเปล่า"
 
 # "Can I stay with her?"
-""
+"ฉันอยู่เคียงข้างเอมิได้หรือเปล่า"
 
 # hi "Of course."
-hi ""
+hi "ได้สิ"
 
 play music music_comfort fadein 4.0
 
@@ -1724,7 +1724,7 @@ show emicas closedsmile_close_ss
 with dissolvecharamove
 
 # "We embrace again, Emi guiding me towards her bed, stepping backwards with care, until she sits down on the edge."
-""
+"เรากอดกันอีกครั้ง เอมิก้าวถอยหลังไปอย่างระมัดระวังพาตัวฉันไปที่เตียงก่อนจะนั่งลงที่ริมเตียง"
 
 label th_E31h:
 
@@ -1733,91 +1733,91 @@ show eminude smile_close_ss
 with charachange
 
 # "She's gotten my shirt off by this point, and I've similarly lifted hers over her head, bra and all. Her shorts come off just as quickly."
-""
+"เอมิถอดเสื้อฉันออกเรียบร้อยแล้ว และฉันเองก็ถกเสื้อเอมิออกแล้วเหมือนกัน พร้อมทั้งถอดเสื้อชั้นใน\nกับอะไรทั้งหลายแหล่ด้วยกางเกงเธอก็ถอดได้ง่ายเช่นกัน"
 
 # "With practiced ease she removes her legs and pulls me onto the side of the bed with her, my hand coming around her smooth shoulder."
-""
+"เธอถอดขาอย่างคล่องแคล่วแล้วดึงตัวฉันให้มานั่งข้าง ๆ ที่ริมเตียง มือฉันโอบไหล่เนียนนั้นไว้"
 
 hide eminude
 with charachange
 
 # "I cast my gaze over her face, down her neck, following the line to the swell of her breasts before I lower my head, planting kisses across her chest, listening to her breath hitch as her hand slides further and further down my chest."
-""
+"ฉันมองไปตามใบหน้าเอมิก่อนจะเลื่อนลงมาที่คอแล้วไปตามเส้นกระดูกไหปลาร้าลงมาที่หน้าอก จากนั้นจึงก้มหัว\nลงไปจูบเข้ากับหน้าอกเธอคอยฟังเสียงหายใจเฮือกจากเอมิที่เลื่อนมือจากหน้าอกฉันลงต่ำเรื่อย ๆ"
 
 # "As I work my way back up to her neck, I can feel her hands working at my belt, now fumbling slightly with the buckle, now unbuttoning, now unzipping, until my pants fall to the floor."
-""
+"ระหว่างที่ตระกองจูบขึ้นมาที่คอก็รู้สึกถึงมือเอมิที่จัดการกับเข็มขัดฉันอยู่ สักพักก็จับหัวเข็มขัดไปมา สักพัก\nก็แกะกระดุม สักพักก็รูดซิป จนสุดท้ายกางเกงฉันร่วงลงไปกองกับพื้น"
 
 # "Her panties are noticeably darkened in the right place, showing that my earlier ministrations have produced some results."
-""
+"สีกางเกงในเธอเข้มขึ้นตรงจุดนั้น ซึ่งแสดงให้เห็นว่าการเล้าโลมของฉันเมื่อครู่นั้นประสบผลสำเร็จบ้างแล้ว"
 
 # "I step back quickly and shuck my boxers, and move back in as Emi reaches over into a drawer on her nightstand, removing a small foil package."
-""
+"ฉันถอยออกมาถอดบ็อกเซอร์อยู่ครู่หนึ่งแล้วกลับเข้าไปหาเอมิที่เอื้อมมือไปยังลิ้นชักโต๊ะหัวเตียงหยิบซองสีเงินเล็ก ๆ\nออกมา"
 
 # "She tears it open with a quick jerk of her teeth and reaches down to apply the protection, which, as always, causes me to gasp a little."
-""
+"เอมิกัดซองแล้วฉีกออกก่อนจะนำถุงยางมาสวมให้ฉัน ซึ่งทำให้ฉันสะดุ้งเฮือกอย่างทุกที"
 
 # "Her expression suddenly changes as she takes the view of me in."
-""
+"เธอมองตัวฉันแล้วอยู่ ๆ ก็เปลี่ยนสีหน้า"
 
 show eminude evil_close_ss
 with charaenter
 
 # emi "Wait a second… Are you still in your socks?"
-emi ""
+emi "เดี๋ยวนะ… นายใส่ถุงเท้าอยู่หรือเปล่า"
 
 # "I pause, and look down. Apparently, I am."
-""
+"ฉันชะงักแล้วก้มมอง ดูท่าจะใช่"
 
 # hi "Er, yeah. Does that matter?"
-hi ""
+hi "เอ่อ ใช่ มีอะไรเหรอ"
 
 show eminude frown_close_ss
 with charachange
 
 # emi "Take 'em off, it's weird if you still have them on."
-emi ""
+emi "ถอดสิ ใส่แล้วมันแปลก ๆ"
 
 # hi "You know, you've still got your socks on too."
-hi ""
+hi "คือเธอก็ยังใส่ถุงเท้าเหมือนกันเถอะ"
 
 show eminude closedsmile_close_ss
 with charachange
 
 # emi "Yes, but I don't have my legs on. So it doesn't count."
-emi ""
+emi "ใช่ แต่ฉันถอดขาแล้วนี่ ไม่นับ"
 
 # "Unable to deny her logic and impatient to have the conversation over anyway, I quickly remove the offending items."
-""
+"ฉันไม่รู้จะแย้งตรรกะนั้นอย่างไรต่อ และฉันเองก็อยากรีบ ๆ จบบทสนทนานี้แล้วด้วยจึงถอดถุงเท้าออก"
 
 # "I'm so eager to get back at Emi that I practically jump on top of her, pushing her down playfully."
-""
+"ฉันอยากมากเสียจนกระโจนคร่อมเอมิจับมือเธอกดไว้"
 
 scene evh emi_miss_closed
 with whiteout
 
 # "Emi's giggling and squirming quickly ends, replaced by a happy sigh as I enter her. Breathing deeply as she savors the feeling, she spreads her arms to grab the sheets."
-""
+"เอมิหัวเราะคิกคักดิ้นอยู่ได้ครู่เดียวก่อนจะร้องออกมาด้วยความสุขใจเมื่อฉันเข้าไปในตัวเธอ เธอหายใจลึก ๆ\nคอยสัมผัสความรู้สึกนั้นแล้วกางแขนออกจับผ้าปูเตียงไว้"
 
 # "Her breath is in my ear as I begin moving, whispering words of encouragement, nipping at my neck, now at my mouth."
-""
+"ฉันเริ่มขยับโดยมีเอมิหายใจอยู่ใกล้ ๆ หูกระซิบให้กำลังใจ เธอกัดคอฉันเบา ๆ แล้วมาจูบปาก"
 
 # "My hips hit the edge of the mattress, shaking the bed. A part of my brain briefly wonders if I should try to be quieter before succumbing to the waves of pleasure racing up my spine."
-""
+"สะโพกฉันกระทบเข้ากับที่นอนจนเตียงสั่น ส่วนหนึ่งในสมองฉันนึกสงสัยว่าหรือจะทำให้เงียบ ๆ กว่านี้ดี\nทว่าความคิดนั้นก็ต้องแพ้คลื่นความหวามไหวที่แล่นขึ้นมาตามสันหลัง"
 
 scene evh emi_miss_open
 with charachange
 
 # "Emi's stomach tenses as she grows closer to the edge, and as our bodies both begin to glisten with sweat time begins to become hazy."
-""
+"หน้าท้องเอมิเกร็งทุกขณะที่เธอเข้าใกล้ฝั่ง ประสาทการรับรู้เรื่องเวลาเลือนไปทุกทีที่ร่างกายเราชื้นเหงื่อหนักขึ้น"
 
 # "The sound of my own breathing mingles with Emi's panting, and I ready myself for a final surge before surrendering to the rushing wave of climax."
-""
+"เสียงลมหายใจของฉันประสานกับเสียงหอบของเอมิ ฉันเร่งเร้าเตรียมเข้าสู่โค้งสุดท้ายก่อนจะปล่อยให้\nคลื่นความสุขสมนั้นเข้าถาโถมตัว"
 
 # "Emi's body shudders, and she cries out, her fingers digging into my back as I too lose control of myself."
-""
+"ร่างกายเอมิกระตุกเกร็ง เธอร้องครางออกมาพลางจิกหลังฉันที่คุมตัวเองไม่อยู่แล้ว"
 
 # "My back arches as I let myself go, feeling my body spasm as I orgasm."
-""
+"ฉันแอ่นหลังแล้วถอนตัวออกมา ทั้งตัวฉันยังสั่น ๆ ที่เสร็จไป"
 
 label th_E31x:
 
@@ -1825,61 +1825,61 @@ scene bg school_dormemi_ss at right
 with shorttimeskip
 
 # "I collapse next to Emi, who almost immediately curls against me, smiling."
-""
+"ฉันล้มนอนข้างเอมิ เธอหันมากอดฉันไว้ทันทีแล้วยิ้ม"
 
 # "Mentally, I feel grateful that Emi keeps her nails short, otherwise I think she might have drawn blood."
-""
+"ในใจฉันนึกขอบคุณที่เอมิตัดเล็บสั้น ไม่งั้นฉันคงเลือดออกไปแล้ว"
 
 # "I sit up briefly to dispose of the now-used condom and lay back down next to Emi, who's in turn taken care of cleaning herself off."
-""
+"ฉันเด้งตัวลุกขึ้นมาเอาถุงยางที่ใช้แล้วไปทิ้งและกลับมานอนข้างเอมิที่จัดแจงทำความสะอาดตัวเองบ้าง"
 
 # "For a while, we lay in silence, savoring the feeling of being next to one another."
-""
+"เรานอนอยู่เงียบ ๆ กันครู่หนึ่งคอยกำซาบความรู้สึกดีที่ได้อยู่เคียงกันนี้"
 
 # "Emi is the first to speak."
-""
+"เอมิเป็นฝ่ายพูดขึ้นมาก่อน"
 
 show eminude smile_close_ss
 with charaenter
 
 # emi "Hey, Hisao."
-emi ""
+emi "นี่ ฮิซาโอะ"
 
 # hi "Hmm?"
-hi ""
+hi "หืม"
 
 show eminude closedsmile_close_ss
 with charachange
 
 # emi "Thanks for coming with me today."
-emi ""
+emi "ขอบคุณที่วันนี้มาด้วยกันนะ"
 
 # "I smile and plant a kiss on her head."
-""
+"ฉันยิ้มแล้วจุ๊บหน้าผากเอมิ"
 
 show eminude blush_close_ss
 with charachange
 
 # hi "Of course. My pleasure."
-hi ""
+hi "เรื่องแค่นี้ ด้วยความยินดี"
 
 show eminude closedsmile_close_ss
 with charachange
 
 # "Emi snuggles closer, and I can feel her breathing begin to slacken as she begins to drift off to sleep."
-""
+"เอมิขยับตัวเข้ามากอดใกล้ ๆ อีก ลมหายใจผ่อนลงเมื่อเธอเริ่มผล็อยหลับไป"
 
 # "Just as she's about to fall asleep, she wakes up enough to mutter a single sentence."
-""
+"จังหวะที่เอมิกำลังจะหลับนั้นเธอก็ตื่นมาพึมพำหนึ่งประโยค"
 
 # emi "I love you, Hisao."
-emi ""
+emi "ฉันรักนายนะฮิซาโอะ"
 
 # "Then she's out like a light, leaving me feeling like I'm on top of the world."
-""
+"แล้วเอมิก็หลับสนิทไป ทิ้งไว้เพียงฉันกับความรู้สึกที่เหมือนได้ขึ้นสวรรค์"
 
 # "I draw the slumbering Emi as close as possible, pull the covers over us to keep the chill off, and fall asleep as happy as I've ever been."
-""
+"ฉันกระชับกอดเอมิที่หลับอยู่เข้ามาชิด ๆ แล้วชักผ้าห่มมาคลุมตัวเราให้อุ่นสบายและหลับไปอย่างมีความสุขที่สุด"
 
 stop music fadeout 2.0
 
@@ -1903,162 +1903,162 @@ with openeye
 window show
 
 # "The morning light seems to reach further into Emi's room than it does into mine."
-""
+"แดดยามเช้าดูจะส่องเข้ามาในห้องเอมิได้ไกลกว่าห้องฉัน"
 
 # "This results in my waking up earlier than I would have if I had gone back to my room last night, as had previously been our routine."
-""
+"ซึ่งถ้าฉันกลับไปนอนที่ห้องแล้วคงไม่ได้ตื่นเช้าขนาดนี้"
 
 # "I did not realize it until this morning, but this is the first time we've actually spent the night together."
-""
+"ฉันเพิ่งรู้ตัวเอาตอนเช้านี้เองว่าเมื่อคืนเป็นครั้งแรกที่เราได้หลับนอนด้วยกันจริง ๆ"
 
 play music music_twinkle fadein 1.0
 
 # "A small movement from my partner's still-slumbering form causes me to look to the side."
-""
+"ฉันหันไปมองเมื่อรู้สึกถึงอีกฝ่ายที่ยังนอนดิ้นยุกยิกอยู่"
 
 # "Hair splayed across her face, Emi continues to sleep peacefully curled up next to me."
-""
+"เอมินอนคู้ตัวหลับอย่างสงบอยู่ข้างฉันโดยที่ผมเธอสยายไปทั่วใบหน้า"
 
 # "It's slightly weird seeing her without her trademark twintails, but it's also a look I could get used to."
-""
+"แปลกตาอยู่หน่อย ๆ ที่ไม่ได้เห็นเอมิรวบผมทวินเทลอันเป็นเอกลักษณ์ของเธอ แต่ก็อยากเห็นแบบนี้บ่อย ๆ เหมือนกัน"
 
 # "The small size of the beds here necessitates her curling up, but I'm pretty sure she would have done so anyway."
-""
+"เตียงขนาดเล็กนี้ทำให้เอมิต้องคู้ตัวตอนนอน แต่ต่อให้เตียงใหญ่พอจะนอนแบบปกติเอมิก็คงนอนแบบนี้นั่นแหละ"
 
 # "The covers are nearly over her head, and I smile as an errant strand of hair causes her nose to twitch slightly."
-""
+"ผ้าห่มนั้นคลุมขึ้นมาจนเกือบมิดหัวเอมิ ฉันยิ้มเมื่อเห็นเธอย่นจมูกเมื่อเส้นผมระขึ้นมาระคาย"
 
 # "Unable to help myself, I draw her a little closer, a move which she seems to think is a good idea."
-""
+"ฉันอดใจไม่ได้จึงรั้งตัวเอมิเข้ามา ซึ่งเหมือนเธอจะอยากให้กอดเหมือนกัน"
 
 # "Her steady breath raises a trail of goosebumps on my chest, but I don't mind."
-""
+"ลมหายใจคงที่ของเอมิทำให้ขนหน้าอกฉันลุกฉัน แต่ไม่เป็นไรหรอก"
 
 # "I am no longer tired, but I do not feel a need to move from my current position."
-""
+"ฉันหายเพลียแล้ว แต่ก็ไม่ได้อยากเปลี่ยนท่าไปจากที่ทำตอนนี้"
 
 # "Emi's warm body in repose against mine is far too comfortable to move."
-""
+"ร่างกายอันอบอุ่นของเอมิที่นอนอยู่ใกล้ฉันนั้นชวนให้สบายตัวจนไม่อยากขยับเขยื้อน"
 
 # "I gaze up at the ceiling and consider how it is that we got to this point. We've been close for a while, but not this close."
-""
+"ฉันมองเพดานแล้วคิดว่าเรามาจนถึงจุดนี้ได้อย่างไร เราสนิทกันมาสักระยะแล้ว แต่ไม่เคยใกล้ชิดกันขนาดนี้เลย"
 
 # "It seems like only yesterday that she ran into me in the hallway and after apologizing decided to take an interest in my well-being."
-""
+"เหมือนเหตุการณ์ที่เธอวิ่งมาชนฉันแล้วขอโทษก่อนจะหันมาสนใจสุขภาพฉันนั้นเพิ่งผ่านมาเมื่อวานเอง"
 
 # "But that grew into something else, which I at least was not expecting."
-""
+"แต่เหตุการณ์นั้นก็ดำเนินไปเรื่อย ๆ ในทางที่ฉันไม่ได้คาดฝันไว้เลย"
 
 # "One thing is for certain: having found Emi, I will try as hard as I can not to lose her."
-""
+"แต่อย่างหนึ่งที่แน่ใจได้ก็คือ ฉันผู้ซึ่งได้มาเจอกับเอมิจะรักษาเธอไว้ให้ดีที่สุดไม่ให้ต้องเสียเธอไป"
 
 # "My morning musing is interrupted by further movement from Emi."
-""
+"เอมิขยับตัวอีกจนสายความคิดยามเช้าฉันสะดุด"
 
 # "Her eyes flutter open, and she seems briefly confused by my presence in her bed as well as her current state of dress, which is nonexistent."
-""
+"เธอกะพริบตาแล้วลืมตาขึ้น แวบหนึ่งดูสับสนว่าทำไมฉันถึงมานอนอยู่ที่เตียงเธอและสับสนว่าทำไมเสื้อผ้าของตัวเอง\nถึงไม่มีติดตัวเลย"
 
 scene ev emi_ending_smile
 with whiteout
 
 # "Then she smiles happily and sits up, her face looking down at me."
-""
+"แล้วเอมิก็ยิ้มอย่างมีความสุขและลุกขึ้นนั่งก้มมองฉัน"
 
 # emi "Good morning, Hisao."
-emi ""
+emi "อรุณสวัสดิ์ฮิซาโอะ"
 
 # hi "Hi. Sleep well?"
-hi ""
+hi "ไง หลับสบายมั้ย"
 
 # emi "Yeah. Yeah, I did. Exhausting day yesterday, you know?"
-emi ""
+emi "อื้ม หลับสบายดีเลย เมื่อวานเหนื่อยมากเลยแหละ"
 
 # "I think back over yesterday's trip to the graveyard."
-""
+"ฉันย้อนนึกถึงที่เราไปสุสานกันเมื่อวาน"
 
 # hi "Yeah. Glad to hear you slept well."
-hi ""
+hi "อื้ม หลับสบายก็ดีแล้วละ"
 
 # emi "How'd you sleep?"
-emi ""
+emi "แล้วนายล่ะ"
 
 # hi "Well enough, although you kept hogging the covers…"
-hi ""
+hi "ก็หลับสบายดี แต่เธอแย่งผ้าห่มฉัน…"
 
 # "This earns me a shove and a stuck-out tongue. I chuckle, and Emi giggles a little, and we fall quiet for a while."
-""
+"เอมิตอบกลับด้วยการดันไหล่ฉันเล่นและแลบลิ้นใส่ ฉันแค่นหัวเราะ เธอหัวเราะคิกคักเบา ๆ จากนั้นเราสองคนเงียบกัน\nไปพักหนึ่ง"
 
 # "I soak up the feeling of how right it all seems, waking up with Emi by me, crammed into a bed made for one person."
-""
+"ฉันดื่มด่ำกับความรู้สึกที่ทุกอย่างแสนลงตัว ตื่นมามีเอมิข้างกาย นอนเบียดกันบนเตียงสำหรับนอนคนเดียว"
 
 # "It's something I could get used to."
-""
+"อยากเจอแบบนี้บ่อย ๆ เลย"
 
 # emi "Hey, Hisao…"
-emi ""
+emi "นี่ ฮิซาโอะ…"
 
 # hi "Hmm?"
-hi ""
+hi "หืม"
 
 # emi "Thanks for sticking around."
-emi ""
+emi "ขอบคุณที่อยู่ด้วยนะ"
 
 # hi "No problem. Saved me the walk back anyway, right?"
-hi ""
+hi "ไม่มีปัญหา จะได้ไม่ต้องเหนื่อยเดินกลับห้องฉันด้วยไง"
 
 scene ev emi_ending_serious
 with charachange
 
 # "This draws another giggle, but then Emi's expression turns serious again."
-""
+"เอมิหัวเราะคิกคักอีกรอบก่อนที่จะทำหน้าจริงจังขึ้นมาอีกรอบ"
 
 # emi "No, really. I kept trying to push you away, because I thought that was the right thing to do, and you stuck around through it all."
-emi ""
+emi "ไม่สิ พูดจริง ๆ ฉันเอาแต่ผลักไสนายเพราะคิดว่าตัวเองทำถูกแล้ว แต่นายก็ยังทนอยู่มาได้"
 
 # emi "I haven't made any of this easy for you, but you stuck it out anyway."
-emi ""
+emi "นายต้องลำบากเพราะฉัน แต่นายก็ยังอยู่ด้วยกัน"
 
 # emi "So really, I mean it. Thank you."
-emi ""
+emi "เพราะงั้น ขอพูดจากใจเลยว่าขอบคุณนะ"
 
 scene ev emi_ending_smile
 with charachange
 
 # "She punctuates this by giving me a kiss, pulling back and looking at me with an expression of affection."
-""
+"เอมิย้ำคำพูดนั้นด้วยการจูบฉันก่อนจะถอนจูบออกไปแล้วมองฉันด้วยสีหน้าเปี่ยมความรัก"
 
 # "I reach up and ruffle her hair, smiling all the while. I'm stupidly lucky, I think. To have come through everything after my heart attack and to somehow have found this girl is nothing short of a miracle."
-""
+"ฉันยื่นมือไปยีผมเอมิพลางยิ้ม ฉันนี่มันโชคดีจริง ๆ เรียกได้ว่าเป็นปาฏิหาริย์เลยที่ฉันผ่านทุกเหตุการณ์\nหลังหัวใจวายครั้งนั้นมาแล้วได้เจอเด็กสาวคนนี้"
 
 # hi "You're very welcome, Emi."
-hi ""
+hi "ด้วยความยินดีอย่างยิ่งเลยเอมิ"
 
 # "I couldn't bear the thought of giving you up."
-""
+"ฉันไม่ยอมถอดใจกับเธอหรอก"
 
 # hi "I'll even continue to stick around, if you want."
-hi ""
+hi "ถ้าอยากให้อยู่ต่อนานกว่านี้ฉันก็อยู่ได้นะ"
 
 # emi "I'd like that."
-emi ""
+emi "อยากสิ"
 
 # "That settles it, then. I don't know how long my heart will keep working, and I don't even really know what I'll do after this year is over, apart from going to university."
-""
+"งั้นก็ตามนั้นแล้วกัน ฉันไม่รู้ว่าหัวใจฉันจะทำงานไปอีกนานแค่ไหน ไม่รู้ด้วยซ้ำว่าพอพ้นปีนี้แล้วฉันจะไปทำอะไรต่อ\nนอกจากการไปเรียนต่อมหาวิทยาลัย"
 
 # "As long as Emi's around, I think I'll be okay. I've managed to help her, and she's managed to help me. If we keep doing that, we'll be okay, I think."
-""
+"แต่ตราบใดที่มีเอมิอยู่ด้วยแล้วฉันคงไม่เป็นไรหรอก ฉันช่วยเอมิได้แล้ว และเอมิก็ช่วยฉันได้แล้ว หากเราคอย\nพยุงกันและกันไปเรื่อย ๆ แล้วเราจะต้องผ่านพ้นทุกอย่างไปได้แน่นอน คิดว่านะ"
 
 # emi "So, Hisao."
-emi ""
+emi "จะว่าไป ฮิซาโอะ"
 
 # hi "Hmm?"
-hi ""
+hi "หืม"
 
 scene ev emi_ending_glad
 with charachange
 
 # emi "What do you want to do today?"
-emi ""
+emi "วันนี้นายอยากทำอะไรเหรอ"
 
 window hide
 
