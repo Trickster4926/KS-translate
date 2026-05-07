@@ -568,7 +568,7 @@ with charachange
 "เคนจิเลิกคิ้วขึ้นแบบเล่นใหญ่ เอ่อ ก็เล่นใหญ่เท่าที่คนเราจะเลิกคิ้วได้อะนะ"
 
 # hi "The chance is, I don't know, zero point one to the trillionth place. It's infinitesimal. Besides, where can you build a fallout shelter anyway? Certainly not on campus."
-hi "ความเป็นไปได้มันเท่ากับ ไม่รู้สิ หนึ่งในล้านล้านมั้ง น้อยแบบเป็นค่าที่เข้าใกล้ศูนย์มาก ๆ น่ะ อีกอย่าง จะไปสร้าง\nที่กำบังฝุ่นกัมมันตรังสีตรงไหน ไม่ใช่ในโรงเรียนแน่ ๆ ละ"
+hi "ความเป็นไปได้มันเท่ากับ ไม่รู้สิ หนึ่งในล้านล้านมั้ง น้อยแบบเข้าใกล้ศูนย์มาก ๆ น่ะ อีกอย่าง จะไปสร้าง\nที่กำบังฝุ่นกัมมันตรังสีตรงไหน ไม่ใช่ในโรงเรียนแน่ ๆ ละ"
 
 show kenji neutral
 with charachange
@@ -592,7 +592,7 @@ show kenji happy
 with charachange
 
 # ke "Hey, want to help me build it? You look like the type to be handy with tools. If I had your help, we could make a really badass bunker instead of just a fallout shelter."
-ke "นี่ จะมาช่วยสร้างมั้ย นายดูเป็นคนถนัดเรื่องเครื่องมืดดีนะ ถ้านายมาช่วยเราก็จะได้สร้างหลุมหลบภัยเจ๋ง ๆ\nแทนที่จะเป็นแค่ที่กำบังฝุ่นกำมันตรังสีไง"
+ke "นี่ จะมาช่วยสร้างมั้ย นายดูเป็นคนถนัดเรื่องเครื่องมือดีนะ ถ้านายมาช่วยเราก็จะได้สร้างหลุมหลบภัยเจ๋ง ๆ\nแทนที่จะเป็นแค่ที่กำบังฝุ่นกำมันตรังสีไง"
 
 # "I doubt that. Playing soccer before my accident gave me good footwork, but I've never really tried my hand at anything approaching real handiwork."
 "เหรอวะ ฉันได้ฝึกฝีเท้าจากการเล่นฟุตบอลเมื่อครั้งก่อนเกิดอุบัติเหตุครั้งนั้นก็จริง แต่ไม่เคยทำอะไรที่เป็นงานฝีมือ\nจริง ๆ เลย"
@@ -1862,7 +1862,7 @@ ha "ยัง… เหมือนเดิมเลยเนอะ"
 hi "อะ-อื้ม ก็เหมือนน่ะสิ"
 
 # hi "You've still got Lilly and me to help you and protect you, and once she gets back, everything will be just like she never left."
-hi "เธอยังมีลิลลี่กับฉันที่คอยปกป้องอยยู่ แล้วพอลิลลี่กลับมาแล้วทุกอย่างก็จะกลับเป็นเหมือนเดิม เหมือนว่าลิลลี่\nไม่เคยหายไปไหนเลย"
+hi "เธอยังมีลิลลี่กับฉันที่คอยปกป้องอยู่ และพอลิลลี่กลับมาแล้วทุกอย่างก็จะกลับเป็นเหมือนเดิม เหมือนว่าลิลลี่\nไม่เคยหายไปไหนเลย"
 
 show hanagown distant
 with charachange
@@ -1874,7 +1874,7 @@ with charachange
 "หลังจากที่คุยกันนิดหน่อยแล้วเราก็หันไปกินข้าวกันต่อ ทั้งที่ฮานาโกะดูจะสดใสขึ้นแล้วฉันก็ยังอดเหลือบมองเธอ\nเป็นระยะ ๆ ไม่ได้ราวกับจะดูให้แน่ใจว่าเป็นแบบนั้นจริง ๆ"
 
 # "Before long, the last of Hanako's curry is cleared. I finish the last of mine as she puts the empty plate on the desk, and place my own empty plate and used fork on top of hers."
-"ไม่นานฮานาโกะก็กินแกงกะหรี่จนหมด เธอหยิบจานมาวางที่โต๊ะจังหวะที่ฉันกินคำสุดท้ายพอดีแล้ววางจานเปล่า\nของตัวเองกับส้อมที่ใช้แล้วไว้บานจานของฮานาโกะ"
+"ไม่นานฮานาโกะก็กินแกงกะหรี่จนหมด เธอหยิบจานมาวางที่โต๊ะจังหวะที่ฉันกินคำสุดท้ายพอดีแล้ววางจานเปล่า\nของตัวเองกับส้อมที่ใช้แล้วไว้บนจานของฮานาโกะ"
 
 # "I briefly wonder what I should say, desperately wanting to avoid another awkward silence or the prospect of leaving her room after so short a time, but Hanako is the one to speak up first."
 "ฉันเค้นสมองคิดอยู่ครู่หนึ่งว่าจะพูดอะไรดีด้วยไม่อยากให้เกิดความเงียบอันน่าอึดอัดนั้นอีก และยังไม่อยาก\nออกจากห้องไปทั้งที่เพิ่งเข้ามาด้วย แต่ฮานาโกะเป็นฝ่ายพูดขึ้นมาก่อน"
@@ -3263,7 +3263,7 @@ with charachange
 "ฮานาโกะหันไปมองเล็กน้อยในทันทีก่อนจะบิดขมับลง เป็นท่าทางที่เป็นธรรมชาติอย่างน่าทึ่งและทำหน้าที่\nในการปกปิดแผลเป็นไม่ให้คนที่โน้มตัวเข้ามาเห็นได้เป็นอย่างดีตามที่ตั้งใจไว้"
 
 # "Her right arm is still laying on the table though, with the scarring on the back of her hand quite visible. It catches the waitress's eye, and I move to quickly distract her."
-"แต่แขนขวาฮานาโกะที่มีแผลเป็นซึ่งเห็นได้ชัดอยู่หลังมือยังอยู่บนโต๊ะ บริกรสะดุดตาเข้ากับแผลเป็นนั้นฉันจึงรีบ\nเข้ามาขัดทันที"
+"แต่แขนขวาฮานาโกะที่มีแผลเป็นซึ่งเห็นได้ชัดอยู่หลังมือยังอยู่บนโต๊ะ พอบริกรสะดุดตาเข้ากับแผลเป็นนั้นฉันจึงรีบ\nเข้ามาขัดทันที"
 
 # hi "Excuse me, may I place an order?"
 hi "ขอโทษนะครับ ขอสั่งอะไรหน่อยได้ไหม"
@@ -3490,7 +3490,7 @@ with charachange
 ha "ลิลลี่ พี่อากิระ แล้วก็นาย"
 
 # hi "Ah, Akira. She's an interesting person, isn't she?"
-hi "อ้อ อากิระ ก็เป็นคนที่น่าสนใจดีนะ ว่าไหม"
+hi "อ้อ พี่อากิระ ก็เป็นคนที่น่าสนใจดีนะ ว่าไหม"
 
 show hanako emb_smile_cas_close
 with charachange
@@ -3618,7 +3618,7 @@ with shorttimeskip
 
 $ renpy.music.set_volume(0.2, 0.3, channel="ambient")
 # "As much as I'd have liked to have jogged back, I know full well that I couldn't. I end up walking back to the café, a little blue bag in my right hand."
-"แม้จะอยากวิ่งตอนขากลับมาแค่ไหนแต่ก็รู้ดีว่าวิ่งไม่ได้ สุดท้ายจึงได้แต่เดินกลับมาที่เคาเฟพร้อมถุงสีฟ้าใบเล็กในมือ"
+"แม้จะอยากวิ่งตอนขากลับมาแค่ไหนแต่ก็รู้ดีว่าวิ่งไม่ได้ สุดท้ายจึงได้แต่เดินกลับมาที่คาเฟพร้อมถุงสีฟ้าใบเล็กในมือ"
 
 show hanako defarms_worry_cas_close
 with charachange
@@ -4339,7 +4339,7 @@ hi "ไม่สำคัญหรอก เธอน่ะเป็นคนท
 "เมื่อได้อยู่ใกล้เธอแล้วอารมณ์ฉันก็รวนไปหมด แผลเป็นที่เธอเปิดให้เห็นนั้นสัมผัสคล้ายหนังสัตว์ ซึ่งขัดกับผิวอ่อนนุ่ม\nกับผมสีเข้มลื่นสลวยของเธออย่างประหลาด"
 
 # "Hanako is a girl, with all that entails. She's taller than usual for a woman, but still has curves in all the right places. The nape of her neck, just visible thanks to her hair slung over her shoulder, is alluring."
-"ฮานาโกะเป็นเด็กผู้หญิง ซึ่งก็มีความเป็นผู้หญิงตามสมควร เธอสูงกว่าผู้หญิงโดยทั่วไป แต่ก็มีส่วนโค้งเว้าตามแต่ละส่วน\nอย่างเหมาะเจาะ ต้นคอเธอที่เปิดให้เห็นเพราะผมไปเคลียบ่าแล้วนั้นช่างมีสเน่ห์"
+"ฮานาโกะเป็นเด็กผู้หญิง ซึ่งก็มีความเป็นผู้หญิงตามสมควร เธอสูงกว่าผู้หญิงโดยทั่วไป แต่ก็มีส่วนโค้งเว้าตามแต่ละส่วน\nอย่างเหมาะเจาะ ต้นคอเธอที่เปิดให้เห็นเพราะผมไปเคลียบ่าแล้วนั้นช่างมีเสน่ห์"
 
 # ha "I know… that I'm not pretty… like Lilly. I just… wanted you… to see me. The real me."
 ha "ฉันรู้… ว่าฉันไม่ได้สวย… เหมือนอย่างลิลลี่ ฉันแค่… อยากให้นาย… ได้เห็นฉัน เห็นตัวตนจริง ๆ ของฉัน"
@@ -5086,7 +5086,7 @@ play ambient sfx_parkambience fadein 2.0
 "“ฮานาโกะ ถ้ามีเรื่องจะคุยก็มาหาที่สวนสาธารณะได้นะ จะอยู่อีกสักพักเลย”"
 
 # "Fighting a last measure of doubt, I thumb in my message to Hanako and press the button to send it."
-"ฉันตัดใจไม่ลังเลอีกแล้วพิมพ์ข้อความกดส่งหาฮานาโกะไป"
+"ฉันตัดสินใจไม่ลังเลอีกแล้วพิมพ์ข้อความกดส่งหาฮานาโกะไป"
 
 # "And now… I wait. My part in this has been fulfilled; what needs to happen now is for Hanako to make the decision. It would be meaningless for me to drag her here. She needs to decide for herself whether she wants to meet me."
 "และ… รอ หน้าที่ของฉันเสร็จสิ้นแล้ว ตอนนี้ก็รอให้ฮานาโกะตัดสินใจ ถ้าจะลากมาเลยก็คงไม่ได้อะไรขึ้นมา เธอต้อง\nเป็นคนตัดสินใจเองว่าจะอยากเจอฉันหรือเปล่า"
@@ -5277,7 +5277,7 @@ ha "ฉันพยายามแล้ว แต่ฉัน… ฝืนต�
 "เจ็บ เป็นมุมมองที่ฉันไม่อยากไปตกเป็นเป้าเลย ไม่เลย เพราะฉันเข้าใจดีกว่าใครหลายคนว่าการถูกคนที่คิดว่า\nชอบตัวเองนั้นทิ้งรู้สึกแย่แค่ไหน"
 
 # "She's cracking from the memories she's bringing up. I feel useless, completely unable to console her. In a strange way, though, I am almost thankful that she's allowing me to know this."
-"ฮานาโกะเริ่มรับไม่ไหวกับความทรงจำที่เธอกำลังย้องระลึก รู้สึกว่าตัวเองไร้ประโยชน์มากที่ปลอบใจเธอไม่ได้เลย\nแต่ฉันก็ยินดีอย่างประหลาดที่เธอยอมให้ฉันได้รู้เรื่องนี้"
+"ฮานาโกะเริ่มรับไม่ไหวกับความทรงจำที่เธอกำลังย้อนระลึก รู้สึกว่าตัวเองไร้ประโยชน์มากที่ปลอบใจเธอไม่ได้เลย\nแต่ฉันก็ยินดีอย่างประหลาดที่เธอยอมให้ฉันได้รู้เรื่องนี้"
 
 # "The wall between us is going away, even if it hurts so badly to bring it down."
 "กำแพงระหว่างเราเริ่มทลายลง แม้การทำลายกำแพงนั้นจะทำให้ต้องเจ็บปวดมากก็ตามที"
