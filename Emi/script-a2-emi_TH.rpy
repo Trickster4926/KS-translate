@@ -9069,7 +9069,7 @@ with flash
 "ฉันไม่เคยเห็นเอมิแบบไม่มีขาเทียมมาก่อนเลย ขาเรียวของเธอขาดหายไปเป็นตอตรงล่างหัวเข่า"
 
 # "But as odd as the sight is, I find myself more captivated by everything north of the waist."
-"แต่แม้ภาพตรงหน้าจะแปลกแค่ไหน ฉันก็ยิ่งรู้สึกหลงสเน่ห์ทุกอย่างที่อยู่เหนือเอวขึ้นไป"
+"แต่แม้ภาพตรงหน้าจะแปลกแค่ไหน ฉันก็ยิ่งรู้สึกหลงเสน่ห์ทุกอย่างที่อยู่เหนือเอวขึ้นไป"
 
 scene ev emi_sleepy:
     subpixel True
@@ -9108,7 +9108,7 @@ emi "ดูตกใจเชียวนะฮิซาโอะ"
 hi "ขอโทษที พอดี…"
 
 # "Never seen someone so disheveled look so attractive."
-"ไม่เคยเห็นใครที่ดูไม่เรียบร้อยแต่มีสเน่ห์ขนาดนี้"
+"ไม่เคยเห็นใครที่ดูไม่เรียบร้อยแต่มีเสน่ห์ขนาดนี้"
 
 # "Never seen you without your legs on."
 "ไม่เคยเห็นเธอตอนไม่ใส่ขาเทียม"
@@ -9302,7 +9302,7 @@ window show
 "หน้าอกเธอกระเพื่อมขึ้นลงสูบอากาศเข้าออก"
 
 # "The small bit of my brain that is not currently enraptured by the sight and the smell of her observes that she must still be ill, because her stamina's not what it should be."
-"สมองเสี้ยวหนึ่งของฉันที่ยังไม่หลงสเน่ห์ไปกับกลิ่นของเธอกับภาพตรงหน้านี้บอกว่าเอมิยังไม่หาย เพราะแรงไม่ได้เยอะ\nเหมือนทุกที"
+"สมองเสี้ยวหนึ่งของฉันที่ยังไม่หลงเสน่ห์ไปกับกลิ่นของเธอกับภาพตรงหน้านี้บอกว่าเอมิยังไม่หาย เพราะแรงไม่ได้เยอะ\nเหมือนทุกที"
 
 # "We stay that way for a while."
 "เราค้างกันอยู่ท่านั้นพักหนึ่ง"
@@ -9378,7 +9378,7 @@ hide comic
 with charachange
 
 # "Emi's eyes sparkle again, and I wonder how I never noticed how attractive they are before."
-"เอมิทำตาเป็นประกายอีกรอบ ฉันนึกสงสัยว่าที่ผ่านมาฉันต้องตาถั่วขนาดไหนถึงไม่เห็นสเน่ห์ของตาคู่นี้นะ"
+"เอมิทำตาเป็นประกายอีกรอบ ฉันนึกสงสัยว่าที่ผ่านมาฉันต้องตาถั่วขนาดไหนถึงไม่เห็นเสน่ห์ของตาคู่นี้นะ"
 
 show ev emi_bed_smile
 with charachange

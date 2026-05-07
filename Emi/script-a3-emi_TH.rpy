@@ -2352,7 +2352,7 @@ show nurse grin
 with charachange
 
 # nk "You don't think you could use some of that boyfriend charm to get her to come see me today, could you?"
-nk "ฉันพอจะรบกวนเธอให้ใช้สเน่ห์แฟนหนุ่มหว่านล้อมให้วันนี้เอมิมาหาฉันหน่อยได้มั้ย"
+nk "ฉันพอจะรบกวนเธอให้ใช้เสน่ห์แฟนหนุ่มหว่านล้อมให้วันนี้เอมิมาหาฉันหน่อยได้มั้ย"
 
 # hi "Of course!"
 hi "ได้สิครับ!"
@@ -6997,7 +6997,7 @@ with charachange
 emi "บ้า หลงตัวเองนะนายเนี่ย"
 
 # hi "Well, I am pretty irresistible."
-hi "แหม เป็นใครก็หลงสเน่ห์ฉันน่า"
+hi "แหม เป็นใครก็หลงเสน่ห์ฉันน่า"
 
 show emi sad_shyblush
 with charachange
@@ -10727,7 +10727,7 @@ emi "ฉันบอกให้{b}ไป{/b}ไง ฮิซาโอะ"
 emi "บอกแม่ด้วยว่าอาหารอร่อยมาก แต่ลืมไปว่ามีธุระที่นัดไว้แล้ว แล้วก็ออกไปจากบ้านฉันเสีย"
 
 # "She's trembling now, shaking with anger, or sadness, or determination. Her voice is still low, controlled. Almost a growl."
-"เอมิตัวสั่นด้วยความโกรธ ไม่ก็ความเศร้า ไม่ก็ความเด็ดเดี่ยว เธอยังกดเสียงต่ำไว้จนคล้ายเสียงสัตว์ตอนขู่"
+"เอมิตัวสั่นด้วยความโกรธ ไม่ก็ความเศร้า ไม่ก็ความแน่วแน่ เธอยังกดเสียงต่ำไว้จนคล้ายเสียงสัตว์ตอนขู่"
 
 # "I reach out to put an arm on her shoulder, to apologize for going too far, but she jerks away from my touch."
 "ฉันยื่นมือจะไปวางไว้ที่บ่าเอมิเป็นการขอโทษที่พูดแรงเกินไป แต่เธอก็สะบัดตัวหนี"
@@ -12450,25 +12450,25 @@ emi "ฉันไม่ได้กลัว!"
 hi "กลัว กลัวสิ เธอบอกเองนี่ จำได้มั้ย แต่ไม่เป็นไรหรอก ไม่เป็นไรเลย"
 
 # hi "However, it seems to me that someone who'd manage to come out of that wreck and still be as energetic and cheerful as you are would be determined enough to face that fear."
-hi "ฉันมองว่าคนที่ผ่านพ้นอุบัติเหตุมาได้แล้วยังสดใสร่าเริงได้อย่างเธอน่ะเด็ดเดี่ยวพอที่จะเผชิญหน้ากับความกลัวนั้น"
+hi "ฉันมองว่าคนที่ผ่านพ้นอุบัติเหตุมาได้แล้วยังสดใสร่าเริงได้อย่างเธอน่ะแน่วแน่พอที่จะเผชิญหน้ากับความกลัวนั้น"
 
 show emi sad_angry_gym_close
 with charachange
 
 # emi "Determination? What do you know about determination?"
-emi "เด็ดเดี่ยวเหรอ นายรู้เหรอว่าความเด็ดเดี่ยวคืออะไร"
+emi "แน่วแน่เหรอ นายรู้เหรอว่าความแน่วแน่คืออะไร"
 
 # hi "I know that there's a girl so determined to take care of a total stranger that she'd steal his food at a festival."
-hi "ฉันรู้ว่ามีเด็กผู้หญิงคนหนึ่งที่เด็ดเดี่ยวพอจะดูแลคนที่ไม่ได้รู้จักกันเลยถึงขั้นฉกอาหารตอนงานเทศกาลไปกินเอง"
+hi "ฉันรู้ว่ามีเด็กผู้หญิงคนหนึ่งที่แน่วแน่พอจะดูแลคนที่ไม่ได้รู้จักกันเลยถึงขั้นฉกอาหารตอนงานเทศกาลไปกินเอง"
 
 # hi "I know that there's a girl so determined to help me with my own problems that she'd draw up a complete dietary and exercise plan, and that she'd not only draw up the plans, but she'd follow them with me, even when she couldn't run."
-hi "ฉันรู้ว่ามีเด็กผู้หญิงคนหนึ่งที่เด็ดเดี่ยวพอจะช่วยฉันถึงขั้นทำตารางออกกำลังกายกับแผนการกินให้เสร็จสรรพ\nแล้วยังออกกำลังกายเป็นเพื่อนทั้งที่ตัวเองก็วิ่งไม่ได้"
+hi "ฉันรู้ว่ามีเด็กผู้หญิงคนหนึ่งที่แน่วแน่พอจะช่วยฉันถึงขั้นทำตารางออกกำลังกายกับแผนการกินให้เสร็จสรรพ\nแล้วยังออกกำลังกายเป็นเพื่อนทั้งที่ตัวเองก็วิ่งไม่ได้"
 
 # hi "Determined enough to keep me at arm's length that she'd put herself through emotional pain if she thought it was the right thing to do."
-hi "เด็ดเดี่ยวพอที่จะเว้นระยะกับฉัน ยอมให้ตัวเองรับมือกับบาดแผลทางจิตใจเพราะคิดว่าต้องทำอย่างนั้น"
+hi "แน่วแน่พอที่จะเว้นระยะกับฉัน ยอมให้ตัวเองรับมือกับบาดแผลทางจิตใจเพราะคิดว่าต้องทำอย่างนั้น"
 
 # hi "Although, there's one thing that this determined girl didn't quite plan for, which was that I might feel that same kind of determination to keep her from being hurt."
-hi "แต่ทว่ายังมีอย่างหนึ่งที่เด็กสาวผู้เด็ดเดี่ยวคนนี้ลืมคิด ลืมคิดว่าฉันเองก็อาจเด็ดเดี่ยวอยากปกป้องไม่ให้เธอคนนี้\nบาดเจ็บเหมือนกัน"
+hi "แต่ทว่ายังมีอย่างหนึ่งที่เด็กสาวผู้แน่วแน่คนนี้ลืมคิด ลืมคิดว่าฉันเองก็อาจแน่วแน่อยากปกป้องไม่ให้เธอคนนี้\nบาดเจ็บเหมือนกัน"
 
 # hi "I fell in love with you, and I refuse to let that be thrown away because you're afraid of losing me."
 hi "ฉันตกหลุมรักเธอ และฉันจะไม่ยอมทิ้งความรักนี้ไปแค่เพราะเธอกลัวว่าจะเสียฉันแน่นอน"
