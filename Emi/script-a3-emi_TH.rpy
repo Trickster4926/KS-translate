@@ -6320,26 +6320,26 @@ with Pause(5.0)
 play sound sfx_doorknock
 
 # "Knock knock."
-"ก๊อก ก๊อก ก๊อก"
+"ก๊อก ก๊อก"
 
 # "Who's there?"
-"เปิดประตู"
+"ใครเอ่ย"
 
 play sound sfx_doorknock
 
 # "Knock knock."
-"ก๊อก ก๊อก ก๊อก"
+"ก๊อก ก๊อก"
 
 # "That's not how the joke goes at all."
-"เนื้อเพลงไม่ใช่แบบนี้นี่"
+"ปกติต้องบอกว่าเป็นใครสิ"
 
 play sound sfx_doorknock
 
 # "Knock knock."
-"ก๊อก ก๊อก ก๊อก"
+"ก๊อก ก๊อก"
 
 # "I already said who's there!"
-"ก็ทำไมไม่ต่อเนื้อเพลงเล่า!"
+"ก็ถามไปแล้วไงว่าใครเอ่ย!"
 
 # "More importantly, what time is it?"
 "แล้วที่สำคัญ ตอนนี้กี่โมงแล้ว"
