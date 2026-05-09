@@ -1260,7 +1260,7 @@ show rin basic_deadpandelight
 with charachange
 
 # rin "Don't you wish you had a time machine now?"
-rin "ทีนี้อยากได้ไทม์แมชชีนขึ้นมาบ้างแล้วหรือยัง"
+rin "ทีนี้อยากได้ยานท่องกาลเวลาขึ้นมาบ้างแล้วหรือยัง"
 
 # "Rin seems rather smug as she delivers this line; like she'd just won an argument."
 "รินมีสีหน้าพอใจที่ได้พูดประโยคนั้นออกไปอย่างกับว่าตัวเองเถียงชนะแล้ว"
