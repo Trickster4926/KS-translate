@@ -2648,7 +2648,7 @@ nvl show dissolve
 n "\n\nม้าดำไป f6"
 
 # n "Bishop to d3."
-n "บิชอบไป d3"
+n "บิชอปไป d3"
 
 # n "Since they're both playing seriously, no one is toying with the other. There is no clearly dominant player, at least for now. Maybe this is helped by the fact that they aren't very close to each other, from what I can see."
 n "เพราะทั้งสองคนต่างเล่นกันอย่างจริงจัง จึงไม่มีใครประมาทเลย ตอนนี้ยังดูไม่ออกว่าใครกันแน่ที่ได้เปรียบ เท่าที่เห็น\nก็อาจจะเพราะทั้งสองคนไม่ค่อยสนิทกันด้วย"
@@ -3532,7 +3532,7 @@ show shizu behind_blank_close
 with characlose
 
 # ssh "The oldest game known to man, upon which the fate of nations has been known to rest: Rock, Paper, Scissors."
-ssh "เกมทีเก่าแก่ที่สุดในประวัติศาสตร์มนุษย์ เกมที่เคยใช้ชี้ชะตาระดับชาติ เกมเป่ายิ้งฉุบ"
+ssh "เกมที่เก่าแก่ที่สุดในประวัติศาสตร์มนุษย์ เกมที่เคยใช้ชี้ชะตาระดับชาติ เกมเป่ายิ้งฉุบ"
 
 show misha sign_smile
 with charachange
@@ -3790,7 +3790,7 @@ scene bg school_lobby_ss
 with locationchange
 
 # "After Student Council is adjourned for the day, I walk towards the vending machines to look for something to drink, parting from Shizune and Misha. It's a short trip, but after even just a few seconds I start to get the feeling I'm not alone."
-"พอถึงเวลาสลายตัวของสมาชิกสภานักเรียนแล้วฉันก็ปลีกตัวจากชิซูเนะกับมิช่าเดินมาที่ตู้ขายของแบบหยอดเหรียญ\nหมายจะหาอะไรดื่มถึงจะเดินมาไม่ไกล แต่ผ่านไปไม่กี่วินาทีก็รู้สึกเหมือนมีใครตามมาด้วย"
+"พอถึงเวลาสลายตัวของสมาชิกสภานักเรียนแล้วฉันก็ปลีกตัวจากชิซูเนะกับมิช่าเดินมาที่ตู้ขายของแบบหยอดเหรียญ\nหมายจะหาอะไรดื่ม ถึงจะเดินมาไม่ไกล แต่ผ่านไปไม่กี่วินาทีก็รู้สึกเหมือนมีใครตามมาด้วย"
 
 scene black
 with hands_in
