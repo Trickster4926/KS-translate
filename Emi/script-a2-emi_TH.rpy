@@ -28,7 +28,7 @@ window show
 "ที่จริงแล้วฉันก็ไม่ได้สนใจการวิ่งนักหรอก ไม่ได้สนใจเป็นงานอดิเรกหรือกิจกรรมที่ทำเพื่อต่ออายุอะไรด้วยซ้ำ"
 
 # "However, I feel obligated to follow through on my promise to Emi yesterday, which is why I find myself throwing on some running shorts and a light tee-shirt."
-"แต่เพราะรู้สึกว่าต้องทำตามที่สัญญากับเอมิไว้เมื่อวาน ฉันจึงลุกขึ้นมาแต่งตัวลวก ๆ ด้วยกางเกงวิ่งขาสั้นหนึ่งตัวกับเสื้อยืดบาง ๆ"
+"แต่เพราะรู้สึกว่าต้องทำตามที่สัญญากับเอมิไว้เมื่อวาน ฉันจึงลุกขึ้นมาแต่งตัวลวก ๆ ด้วยกางเกงวิ่งขาสั้นหนึ่งตัว\nกับเสื้อยืดบาง ๆ"
 
 scene bg school_courtyard
 with locationskip
@@ -285,7 +285,7 @@ emi "จริงเหรอ งั้นฉันก็ต้องเร่�
 hi "อย่า… เลย… ไม่อยากให้เธอ…"
 
 # hi "…to… overex…ert yourself."
-hit "…ฝืน… ตัวเอง… เกินไป"
+hi "…ฝืน… ตัวเอง… เกินไป"
 
 # "My heavy panting and wheezing makes the statement less convincing than I had hoped. Emi simply smiles and turns around again."
 "เสียงหอบหายอันใจหนักหน่วงและแหลมสูงทำให้คำพูดของฉันฟังดูไม่น่าเชื่อถือเท่าที่หวังไว้ แต่เอมิก็แค่ส่งยิ้มให้\nแล้วหันกลับไปตามเดิม"
@@ -768,7 +768,7 @@ show steam
 with Dissolve(2.0)
 
 # "I manage to warm the water a bit and spend some quality time feeling my muscles loosen."
-"ฉันรอให้น้ำอุ่นขึ้นอีกสักหน่อยแล้วใช้เวลาไปกับการสัมผัสถึงความรู้สึกของการที่กล้ามเนื้อกำลังคลายตัวอย่างเชื่องช้าโดยไม่รีบร้อน"
+"ฉันรอให้น้ำอุ่นขึ้นอีกสักหน่อยแล้วใช้เวลาไปกับการสัมผัสถึงความรู้สึกของการที่กล้ามเนื้อกำลังคลายตัวอย่างเชื่องช้า\nโดยไม่รีบร้อน"
 
 # "My heart, surprisingly, feels the least bothered by the run."
 "น่าทึ่งดีที่หัวใจฉันแทบไม่เป็นอะไรเลยกับการวิ่ง"
@@ -1379,7 +1379,7 @@ with charachange
 mi "เดี๋ยวก็ได้รู้กัน~!"
 
 # "I don't know what the hell she's talking about, but blessedly our teacher comes in, and the class starts."
-"ไม่เข้าใจเลยว่ามิช่าพูดอะไรอยุ่ แต่ในที่สุดคุณครูก็เดินเข้ามาในห้องแล้วเริ่มสอนเสียที"
+"ไม่เข้าใจเลยว่ามิช่าพูดอะไรอยู่ แต่ในที่สุดคุณครูก็เดินเข้ามาในห้องแล้วเริ่มสอนเสียที"
 
 stop music fadeout 2.0
 
@@ -1686,7 +1686,7 @@ emi "เพราะเรามีอะไรคล้ายกันไง"
 "ถ้าจะบอกว่าคำตอบที่ฉันคาดไม่ถึงเลยคืออะไรก็คงเป็นประโยคนี้แหละ"
 
 # hi "What do you mean?"
-้hi "หมายความว่าไง"
+hi "หมายความว่าไง"
 
 # emi "It's like…"
 emi "ก็แบบว่า…"
@@ -5458,7 +5458,7 @@ n "\n\nแปลกดีที่ช่วงสองสามวันมา�
 n "ถ้าเป็นที่โรงเรียนเก่าละก็ฉันแทบไม่มาทำอะไรแบบนี้เลย"
 
 # n "In those days I liked to eat alone… no, that's not quite true. Though I liked to sit alone, I also liked to watch people."
-n "สมัยนั้นฉันชอบกินข้าวคนเดียว… ไม่สิ ก็ไม่เชิง ถึงจะชอบนั่งคนเดียวแต่ก็ชอบดูผู้คนไปด้งบ"
+n "สมัยนั้นฉันชอบกินข้าวคนเดียว… ไม่สิ ก็ไม่เชิง ถึงจะชอบนั่งคนเดียวแต่ก็ชอบดูผู้คนไปด้วย"
 
 # n "I always figured that was the sort of person I was, but it appears I was wrong."
 n "ฉันคิดมาตลอดว่าตัวเองเป็นคนแบบนั้น แต่เหมือนจะคิดผิด"
@@ -7028,7 +7028,7 @@ show emi excited_laugh_rn
 with charachange
 
 # emi "But it'll be an adventure either way, right?"
-emi "แต่ก็จะได้ผจญภัยไง ใข่มั้ย"
+emi "แต่ก็จะได้ผจญภัยไง ใช่มั้ย"
 
 # hi "Adventure, huh? Well, I suppose we could use a little adventure."
 hi "ผจญภัยเหรอ อืม ผจญภัยกันหน่อยก็ดีมั้ง"
@@ -7941,7 +7941,7 @@ play music music_kenji fadein 0.5
 with vpunch
 
 # "The books are unceremoniously dumped into my arms as Kenji fumbles with his room key."
-"เคนจิโยนกองหนังสือใส่อ้อมแขนฉันโดยที๋ฉันไม่เต็มใจนัก เขาคุ้ยหากุญแจห้องตัวเอง"
+"เคนจิโยนกองหนังสือใส่อ้อมแขนฉันโดยที่ฉันไม่เต็มใจนัก เขาคุ้ยหากุญแจห้องตัวเอง"
 
 show kenji happy
 with charachange
@@ -8943,7 +8943,7 @@ play music music_normal fadein 3.0
 play sound sfx_normalbell
 
 # "Blessedly the bell rings and I dash out of class, drawing a few raised eyebrows, I'm sure."
-"พอระฆังมาโปรดแล้วฉันก็พุ่งตัวออกจากห้องเรียน ซึ่งฉันมั่นใจว่าต้องมีคนเลิกคิ้วด้วยความสงสั"
+"พอระฆังมาโปรดแล้วฉันก็พุ่งตัวออกจากห้องเรียน ซึ่งฉันมั่นใจว่าต้องมีคนเลิกคิ้วด้วยความสงสัย"
 
 scene bg school_hallway3
 with locationchange
@@ -10600,7 +10600,7 @@ with charachange
 nk "อืม ก็ไม่ได้มีแค่เธอแหละนะที่คิดแบบนั้น"
 
 # nk "But I think I can say with some certainty that the two of them will never do anything like that."
-nk "แต่ฉันก็มั่นใจอยู่พอตัวเหมือนกันว่าระหว่างสองคนนั้นน่ะเป็นไปไม่ได้หรอกหรอก"
+nk "แต่ฉันก็มั่นใจอยู่พอตัวเหมือนกันว่าระหว่างสองคนนั้นน่ะเป็นไปไม่ได้หรอก"
 
 # hi "Certainty?"
 hi "มั่นใจ?"
