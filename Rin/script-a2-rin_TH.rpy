@@ -2663,7 +2663,7 @@ with charachange
 
 emm "วิ่ง 200 เมตรจ้ะ"
 
-emm "เธอวิ่งอันนี้ วิ่ง 100 เมตร แล้วก็วิ่งผลัดด้วย"
+emm "วิ่งอันนี้ วิ่ง 100 เมตร แล้วก็วิ่งผลัดด้วย"
 
 show rin basic_absent
 with charachange
@@ -2830,7 +2830,7 @@ emm "เดี๋ยวฉันต้องไปหาเพื่อนแล
 show meiko happy
 with charachange
 
-emm "ฝากบอกเอมิหน่อยได้ไหมจ๊ะว่าแม่ภูมิใจในตัวลูกมาก ฝากบอกด้วยว่าเดี๋ยวคืนนี้จะโทรไปหาอีกที"
+emm "ฝากบอกเอมิหน่อยได้ไหมจ๊ะว่าแม่ภูมิใจในตัวลูกมาก ฝากบอกด้วยว่าเดี๋ยวคืนนี้จะโทร. ไปหาอีกที"
 
 show rin basic_absent
 with charachange
@@ -3030,7 +3030,7 @@ show emi basic_closedhappy_gym
 show rin basic_awayabsent
 with charachange
 
-"เอมิหัวเราใส่ฉันกับริน"
+"เอมิหัวเราะใส่ฉันกับริน"
 
 show emi basic_happy_gym
 with charachange
@@ -3106,7 +3106,7 @@ with charachange
 
 hi "เอ้อ จริงสิ แม่เธอฝากบอกว่าภูมิใจในตัวเธอมาก"
 
-hi "แล้วก็คืนนี้แม่เธอจะโทรไปหาอีกที"
+hi "แล้วก็คืนนี้แม่เธอจะโทร. ไปหาอีกที"
 
 show emi basic_happy_gym
 show rin basic_awayabsent
