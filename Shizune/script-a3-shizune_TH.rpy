@@ -810,7 +810,7 @@ with charachange
 li "ถ้าพี่อยากกินปลาเดี๋ยวไปซื้อที่ร้านก็ได้"
 
 # "Lilly's voice sounds slightly more authoritative than usual. She really doesn't seem to share her sister's enthusiasm for the idea."
-"น้ำเสียงลิลลี่ฟังดูเคร่งกว่าปกติเล็กน้อย ดูท่าจะไม่เอาด้วยกับความคิดของพี่สาวเธอสักเท่าไหร่"
+"น้ำเสียงลิลลี่ฟังดูเป็นการออกคำสั่งกว่าปกติเล็กน้อย ดูท่าจะไม่เอาด้วยกับความคิดของพี่สาวเธอสักเท่าไหร่"
 
 show shizu basic_happy_cas
 with charachange
@@ -918,7 +918,7 @@ show akira basic_boo
 with charachange
 
 # "She purses her lips as her fingers subtly move, counting up the amount of passengers and the required cargo. If we're going to be taking me, Shizune, Misha, Lilly, Akira, and Hideaki…"
-"เธอเม้มปากแล้วขยับนิ้วนับจำนวนคนและของที่ต้องขนไป ถ้าจะไปก็จะมีฉัน ชิซูเนะ มิช่า ลิลลี่ อากิระ แล้วก็ฮิเดอากิ…"
+"อากิระเม้มปากแล้วขยับนิ้วนับจำนวนคนและของที่ต้องขนไป ถ้าจะไปก็จะมีฉัน ชิซูเนะ มิช่า ลิลลี่ อากิระ แล้วก็\nฮิเดอากิ…"
 
 show akira basic_lost
 with charachange
@@ -985,7 +985,7 @@ with shorttimeskip
 play ambient sfx_parkambience fadein 0.5
 
 # "The area surrounding the river is quite beautiful. Akira and Shizune head off for the river so quickly that we have no choice but to chase them. We would be left in the dust, otherwise."
-"พื้นที่โดยรอบแม่น้ำก็สวยดี อากิระและชิซูเนะรีบรุดไปทางแม่น้ำเร็วเสียจนพวกเราต้องวิ่งตาม ไม่งั้นต้องถูกทิ้งห่าง\nไว้แน่ ๆ"
+"พื้นที่โดยรอบแม่น้ำก็สวยดี อากิระกับชิซูเนะรีบรุดไปทางแม่น้ำเร็วเสียจนพวกเราต้องวิ่งตาม ไม่งั้นต้องถูกทิ้งห่าง\nไว้แน่ ๆ"
 
 show lilly basic_weaksmile_cas at left
 show hideaki bored at center
@@ -1150,7 +1150,7 @@ show akira basic_lost
 with charachange
 
 # aki "What's she saying?"
-aki "เธอว่าไง"
+aki "ชิซูเนะว่าไง"
 
 # hi "She wants to play for higher stakes."
 hi "บอกว่าอยากเอาเดิมพันให้มากขึ้นน่ะ"
@@ -1350,7 +1350,7 @@ aki "นี่ จะหดหู่หรืออะไรก็ช่าง �
 "ฉันสัมผัสได้ว่าส่วนหนึ่งที่ส่งกำลังใจไปอย่างนั้นเพราะอากิระอยากกินด้วยถ้าฮิเดอากิตกได้ “ตัวใหญ่” มาจริง ๆ\nและการที่มีหกคนช่วยกันตกก็ย่อมมีโอกาสมากกว่าห้าคน"
 
 # "The constant awkward shuffling I have to do to communicate with Shizune, not to mention her increasing fidgeting, make me think it might be good to give her a go at fishing."
-"พอต้องสลับคันเบ็ดไปมาเพื่อสื่อสารกับชิซูเนะแล้วก็รู้สึกว่าน่าจะถึงเวลาแล้วที่ต้องเปลี่ยนตัวให้เธอมาตกบ้าง เห็น\nทำท่ายุกยิกอยูุ่ด้วย"
+"พอต้องสลับคันเบ็ดไปมาเพื่อสื่อสารกับชิซูเนะแล้วก็รู้สึกว่าน่าจะถึงเวลาแล้วที่ต้องเปลี่ยนตัวให้เธอมาตกบ้าง\nเห็นทำท่ายุกยิกอยูุ่ด้วย"
 
 # hi "Hey guys, can we switch over now?"
 hi "นี่ทุกคน เปลี่ยนตัวกันได้หรือยัง"
@@ -1404,7 +1404,7 @@ li "แต่ถ้าไม่ใช่ปลาตัวใหญ่ ฆ่า
 ssh "อวดดีจังเลยนะ ได้ งั้นจากนี้ฉันจะตกเฉพาะตัวใหญ่ ๆ ก็แล้วกัน"
 
 # aki "What's she saying?"
-aki "เธอว่าไง"
+aki "ชิซูเนะว่าไง"
 
 # "Akira just sighs after I interpret for her."
 "อากิระถอนหายใจเมื่อได้ฟังที่ฉันแปลให้"
@@ -1580,7 +1580,7 @@ show hideaki thinking
 with charachange
 
 # hh "Family issues. Our fathers are brothers-in-law, and do not like each other."
-hh "ปัญหาครอบครัวน่ะครับ พ่อของพวกเราเป็นพี่น้องบุญธรรมกัน แล้วก็ไม่ชอบพอกันเท่าไหร่"
+hh "ปัญหาครอบครัวน่ะครับ พ่อของพวกเราเป็นพี่น้องบุญธรรมกัน แล้วก็ไม่กินเส้นกันเท่าไหร่"
 
 # "Hearing that gives me plenty to think about. It puts the way Shizune and Lilly deal with each other into context, and makes me even more wary of getting involved."
 "พอรู้อย่างนั้นแล้วฉันก็คิดอะไรอีกหลายอย่าง เบื้องหลังสาเหตุที่ชิซูเนะและลิลลี่ทำตัวอย่างนั้นใส่กันก็ปรากฏ ฉันยิ่ง\nรู้สึกว่าต้องระวังกับเรื่องนี้ขึ้นไปอีก"
@@ -1938,7 +1938,7 @@ with charachange
 hh "พี่ชิซูเนะก็ชอบมาเล่นว่าวที่นี่"
 
 # "This is his attempt to salvage the conversation, and I'm happy to oblige."
-"เขาพยายามจะกอบกู้บทสนทนานี้ขึ้นมาให้ได้ ซึ่งฉันยินดียิ่งที่จะตามน้ำด้วย"
+"ฮิเดอากิพยายามจะกอบกู้บทสนทนานี้ขึ้นมาให้ได้ ซึ่งฉันยินดียิ่งที่จะตามน้ำด้วย"
 
 # hi "Fishing, and now kites, too? Shizune really likes all these relaxing hobbies?"
 hi "ตกปลาไม่พอ เล่นว่าวอีกเหรอ ชิซูเนะชอบกิจกรรมชวนผ่อนคลายอะไรอย่างนี้จริงเหรอเนี่ย"
@@ -5139,7 +5139,7 @@ show mishashort hips_frown
 with charachange
 
 # mi "They're going to be eaten alive once they have to sit at this tiny desk and see just how much work they have to do~!"
-mi "ถ้าได้มานั่งที่โต๊ะเล็ก ๆ ตัวนี้แล้วเห็นกองงานเท่าภูเขาแล้วคงไม่เหลือสภาพแน่~!"
+mi "ถ้าได้มานั่งที่โต๊ะเล็ก ๆ ตัวนี้แล้วเห็นกองงานเท่าภูเขาแล้วสภาพคงไม่เหลือแน่~!"
 
 show shizu behind_frustrated
 with charachange
@@ -5797,7 +5797,7 @@ with charachange
 ssh "ใช้ภาษามือสิ"
 
 # "I'd think she has a stomachache because of the way she sucked down a parfait larger than her head the other day."
-"ที่ปวดท้องก็คงเพราะสูบพาร์เฟต์ที่ใหญ่กว่าหัวเธอลงท้องไปเมื่อวานมั้ง"
+"ที่ปวดท้องก็คงเพราะสูบพาร์เฟต์ที่ใหญ่กว่าหัวตัวเองลงท้องไปเมื่อวานมั้ง"
 
 # "If she gets them quite often, though, either it's a coincidence or she has a habit of eating things that can put her in debilitating pain."
 "แต่ถ้าปวดท้องบ่อย งั้นก็คงแค่บังเอิญมาเป็นหลังไปกินเฉย ๆ หรือไม่ก็ชอบกินอะไรที่ทำให้ตัวเองต้องเจ็บไข้ได้ป่วย\nอยู่บ่อย ๆ"
@@ -5827,7 +5827,7 @@ ssh "นายขอคำตอบข้อสามมาก่อนนะ �
 his "เธอเป็นสภานักเรียนนี่ โกงได้ที่ไหนล่ะ"
 
 # "I don't have time for this, and I think I'm trying the teacher's patience to the breaking point. I'd like to continue taking potshots at her while working on the math problems in front of me, but it would require at least two extra hands."
-"ไม่มีเวลามาเถียงต่อแล้ว แถมรู้สึกเหมือนครูก็เริ่มจะทนไม่ไหวแล้วเหมือนกัน อยากจะว่าชิซูเนะต่อไปพลางทำ\nแบบฝึกหัดคณิตที่อยู่ตรงหน้าไปพลางจริง ๆ แต่จะทำอย่างนั้นได้ก็ต้องมีมือเพิ่มอย่างน้อย ๆ อีกหนึ่งคู่"
+"ไม่มีเวลามาเถียงต่อแล้ว แถมรู้สึกเหมือนครูก็เริ่มจะทนไม่ไหวแล้วเหมือนกัน อยากจะว่าชิซูเนะต่อไปพลาง\nทำแบบฝึกหัดคณิตที่อยู่ตรงหน้าไปพลางจริง ๆ แต่จะทำอย่างนั้นได้ก็ต้องมีมือเพิ่มอย่างน้อย ๆ อีกหนึ่งคู่"
 
 show shizu basic_normal
 with charachange
@@ -6054,7 +6054,7 @@ show shizu adjust_smug_ss
 with charachange
 
 # "She produces a cinnamon bun from under her desk, raising it to head level slowly, like a magician levitating a rock."
-"เธอหยิบขนมปังซินนามอนขึ้นมาจากใต้โต๊ะแล้วค่อย ๆ ชูขึ้นมาอยู่ตรงหน้าเธอราวนักมายากลที่เสกหินให้ลอย"
+"ชิซูเนะหยิบขนมปังซินนามอนขึ้นมาจากใต้โต๊ะแล้วค่อย ๆ ชูขึ้นมาอยู่ตรงหน้าเธอราวนักมายากลที่เสกหินให้ลอย"
 
 show shizu behind_smile_ss
 with charachange
@@ -6829,7 +6829,7 @@ ke "ไอ้คำว่าไม่มีนี่ก็ไม่แน่ใ�
 "ตัวเองบอกว่าโดนขับออกจากห้องพักจนต้องจรลีหนีมาแท้ ๆ แต่ก็ดูจะกลับไปอยู่ที่หอวันละหลาย ๆ รอบ รอบละนาน ๆ\nได้ไม่มีปัญหาอะไร"
 
 # "But by now he's slowly turned away from me and is talking to a revolving display of murder mysteries. There's really no point in interrupting him, I guess."
-"แต่ตอนนี้เขาค่อย ๆ หันหน้าหนีจากฉันไปช้า ๆ แล้วพล่ามถึงปริศนาฆาตกรรมที่เวียนวนอยู่ จะขัดเขาก็คงไม่ได้อะไรขึ้นมา\nอะนะ"
+"แต่ตอนนี้เคนจิค่อย ๆ หันหน้าหนีจากฉันไปช้า ๆ แล้วพล่ามถึงปริศนาฆาตกรรมที่เวียนวนอยู่ จะขัดเขา\nก็คงไม่ได้อะไรขึ้นมาอะนะ"
 
 play sound sfx_can_clatter
 
@@ -6944,7 +6944,7 @@ ke "ไม่ละ ขอบใจ แค่ต้องแบกของโ�
 ke "ไม่อยากจะเชื่อเลยว่าเจ้านี่คือสื่อที่บรรพบุรุษของเราใช้ดูภาพโป๊"
 
 # "I spit my drink all over the book I'm still holding, damaging it beyond any hope of repair. I quickly check the back and see its suggested retail price is 7900 yen. I think I might have a heart attack."
-"ฉันสำลักน้ำจนหกใส่หนังสือที่ฉันถืออยู่จนสภาพยับเยินเกินซ่อมแซม พอรีบพลิกหน้าหลังดูราคาขายแนะนำก็เห็นว่า\nราคาเป็น 7,900 เยน รู้สึกเหมือนใจจะวายเลย"
+"ฉันสำลักน้ำจนหกใส่หนังสือที่ฉันถืออยู่จนสภาพยับเยินเกินซ่อมแซม พอรีบพลิกหน้าหลังดูราคาขายแนะนำก็เห็นว่า\nราคาเป็น 7900 เยน รู้สึกเหมือนใจจะวายเลย"
 #Can't find anything for or against the retail price being present and unblanked. :/ -SC
 
 show kenji happy

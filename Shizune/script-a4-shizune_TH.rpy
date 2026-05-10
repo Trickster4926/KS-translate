@@ -345,7 +345,7 @@ show shizu behind_blank at center
 with charaenter
 
 # "Worryingly, Misha isn't with her. When Shizune notices me and looks up from her paperwork, the first thing I ask is where she is."
-"พอเห็นมิช่าอยู่ด้วยแล้วฉันก็ใจเสีย สิ่งแรกที่ฉันทำหลังจากชิซูเนะเห็นฉันแล้วละสายตาจากเอกสารคือการถาม\nว่ามิช่าอยู่ไหน"
+"พอไม่เห็นมิช่าอยู่ด้วยแล้วฉันก็ใจเสีย สิ่งแรกที่ฉันทำหลังจากชิซูเนะเห็นฉันแล้วละสายตาจากเอกสารคือการถาม\nว่ามิช่าอยู่ไหน"
 
 show shizu basic_normal2
 with charachange
@@ -399,7 +399,7 @@ show shizu basic_angry
 with charachange
 
 # ssh "…before either of you noticed me, I saw what you were saying. I'm not stupid."
-ssh "…ฉันเห็นนะว่านายพูดอะไรก่อนที่พวกเธอสองคนจะเห็นฉันเสียอีก ฉันไม่ได้โง่นะ"
+ssh "…ฉันเห็นนะว่านายพูดอะไรก่อนที่พวกเธอสองคนจะเห็นฉัน ฉันไม่ได้โง่นะ"
 
 show shizu behind_frown
 with charachange
@@ -504,7 +504,7 @@ show shizu behind_sad
 with charachange
 
 # ssh "That is how I've treated her, which makes me a bad friend. And it feels like I did the same thing to you, then, so I guess I'm a bad girlfriend, too, even if Misha says that you might as well replace her."
-ssh "ฉันทำแบบนั้นกับมิช่า ซึ่งแปลว่าฉันเป็นเพื่อนที่แย่ แล้วฉันก็รู้สึกเหมือนว่าทำอย่างเดียวกันกับนายด้วย ซึ่ง\nแปลว่าฉันก็คงเป็นแฟนที่แย่เหมือนกัน ถึงมิช่าจะบอกก็เถอะว่าให้นายมาอยู่แทนตัวเองไปเลยก็ได้นะ"
+ssh "ฉันทำแบบนั้นกับมิช่า ซึ่งแปลว่าฉันเป็นเพื่อนที่แย่ แล้วฉันก็รู้สึกเหมือนว่าทำอย่างเดียวกันกับนายด้วย\nซึ่งแปลว่าฉันก็คงเป็นแฟนที่แย่เหมือนกัน ถึงมิช่าจะบอกก็เถอะว่าให้นายมาอยู่แทนตัวเองไปเลยก็ได้นะ"
 
 show shizu basic_normal2
 with charachange
@@ -1362,7 +1362,7 @@ with charachange
 hh "พี่ชิซูเนะอยู่ที่ห้องสภานักเรียน ผมหาพี่อยู่ เดี๋ยวพวกเราอาจต้องไปเที่ยว เที่ยวแบบครอบครัว พี่คิดว่าพี่ชิซูเนะ\nจะอยากมาด้วยมั้ยครับ"
 
 # hi "Yeah, I don't know. She's kind of been on the warpath lately, with a lot of stuff. And once she's focused on something, she won't just drop it. …I guess you would know that."
-hi "เออ ไม่รู้สิ ช่วงนี้เห็นมุ่งมั่นเหลือเกินกับอะไรหลายอย่าง แล้วถ้าชิซูเนะได้จดจ่อกับอะไรแล้วจะกัดไม่ปล่อยเลย …แต่\nนายคงรู้อยู่แล้วมั้ง"
+hi "เออ ไม่รู้สิ ช่วงนี้เห็นมุ่งมั่นเหลือเกินกับอะไรหลายอย่าง แล้วถ้าชิซูเนะได้จดจ่อกับอะไรแล้วจะกัดไม่ปล่อยเลย\n…แต่นายคงรู้อยู่แล้วมั้ง"
 
 show hideaki closed_up
 with charachange
@@ -2650,10 +2650,9 @@ with openeye
 window show
 
 # "I wake up very early and feeling sick on Sunday. I went to sleep too early last night, too. Something's also wrong with my curtains, and they won't close completely."
-"เช้าวันจันทร์ฉันตื่นแต่เช้าตรู่พร้อมอาการครั่นเนื้อครั่นตัว เมื่อคืนเข้านอนเร็วไปด้วย ม่านก็เหมือนจะไม่ปกติ\nเพราะปิดหน้าต่างไม่มิด"
+"เช้าวันจันทร์ฉันตื่นแต่เช้าตรู่พร้อมอาการครั่นเนื้อครั่นตัว เมื่อคืนเข้านอนเร็วไปด้วย ม่านก็เหมือนจะเสีย\nเพราะปิดหน้าต่างไม่มิด"
 
-# "Because of that, I can't even attempt to go back to sleep. The sun hits me in the eyes every time. I'm sure this is probably why
-# I woke up so early this morning as well."
+# "Because of that, I can't even attempt to go back to sleep. The sun hits me in the eyes every time. I'm sure this is probably why I woke up so early this morning as well."
 "และด้วยเหตุเช่นนั้นฉันจึงไปนอนต่อไม่ได้ แสงอาทิตย์แยงตาฉันตลอด คงเพราะอย่างนี้ด้วยฉันถึงได้ตื่นเช้าขนาดนี้"
 
 play sound sfx_doorknock
@@ -3916,7 +3915,7 @@ with charachange
 ssh "จริงด้วย! เราจะจัดงานเลี้ยงฉลองที่ได้ส่งไม้ต่อให้สภานักเรียนรุ่นใหม่กันนี่ งั้นจัดตอนนี้เลยมั้ยล่ะ หรืออย่างน้อย\nจะวางแผนไว้ตอนนี้แล้วค่อยจัดวันพรุ่งนี้ดี"
 
 # hi "But they're not even in charge yet. In fact, that's the first thing you told them: “You're not in charge yet.” It seems premature."
-hi "แต่พวกนั้นยังไม่ได้เข้ามาเป็นเลยด้วยซ้ำนะ แล้วเธอก็บอกก่อนเลยด้วยว่า “พวกเธอยังไม่ได้เป็นสภานักเรียนนะ” จะจัดตอนนี้เลยก็ดูเร็วไปหน่อย"
+hi "แต่พวกนั้นยังไม่ได้เข้ามาเป็นเลยด้วยซ้ำนะ แล้วเธอก็บอกก่อนเลยด้วยว่า “พวกเธอยังไม่ได้เป็นสภานักเรียนนะ”\nจะจัดตอนนี้เลยก็ดูเร็วไปหน่อย"
 
 show shizu adjust_frown_ss
 with charachange
@@ -3969,7 +3968,7 @@ show mishashort perky_sad_ss
 with charachange
 
 # mi "If it's a celebration to say goodbye, I don't want it. It would be too sad~. I want to do something else instead. And after all, Hicchan, you and Shicchan will still be here tomorrow. It doesn't seem right."
-mi "ต่อให้เป็นงานเลี้ยงอำลาฉันก็ไม่อยากร่วมหรอก คงเศร้าแย่เลย~ ฉันอยากทำอย่างอื่นมากกว่า แล้วยังไงเสีย พรุ่งนี้\nทั้งฮิจังกับชิจังก็ยังอยู่ จะจัดงานเลี้ยงแบบนั้นก็ยังไงอยู่"
+mi "ต่อให้เป็นงานเลี้ยงอำลาฉันก็ไม่อยากร่วมหรอก คงเศร้าแย่เลย~ ฉันอยากทำอย่างอื่นมากกว่า แล้วยังไงเสีย\nพรุ่งนี้ทั้งฮิจังกับชิจังก็ยังอยู่ จะจัดงานเลี้ยงแบบนั้นก็ยังไงอยู่"
 
 show mishashort hips_grin_ss
 with charachange
@@ -4341,7 +4340,7 @@ with charaenter
 ssh "ขอโทษที ฉันสะดุด ลื่น หรืออะไรแบบนั้นแหละ"
 
 # his "I had a thought, is the door unlocked?"
-his "เพิ่งนึกอะไรด้ ประตูล็อกหรือยัง"
+his "เพิ่งนึกอะไรได้ ประตูล็อกหรือยัง"
 
 hide shizu
 with charaexit
@@ -4353,7 +4352,7 @@ show shizu behind_smile_nak
 with charaenter
 
 # ssh "Safe!"
-ssh "ปลอดภัย!"
+ssh "เรียบร้อย!"
 
 # his "I'm glad you can take things so lightly."
 his "เห็นเธอทำอะไรได้แบบไม่คิดมากแบบนี้แล้วฉันก็ดีใจ"
@@ -4498,7 +4497,7 @@ scene bg school_lobby_ni
 with locationchange
 
 # "For a moment after I leave the room, I actually do consider seeing what Misha is up to, just because Shizune made it sound so secretive, as if she were building a time machine or something. But in the end I decide not to."
-"พอออกจากห้องมาได้สักพักฉันก็ชั่งใจอีกทีว่าจะไปดูว่ามิช่าทำอะไรอยู่ดีไหม เพราะชิซูเนะบอกอย่างกับว่า\nเป็นความลับเหมือนกำลังสร้างไทม์แมชชีนหรืออะไรแบบนั้นอยู่เลย แต่สุดท้ายฉันก็ตัดใจไม่ไปดู"
+"พอออกจากห้องมาได้สักพักฉันก็ชั่งใจอีกทีว่าจะไปดูว่ามิช่าทำอะไรอยู่ดีไหม เพราะชิซูเนะบอกอย่างกับว่า\nเป็นความลับเหมือนกำลังสร้างยานท่องกาลเวลาหรืออะไรแบบนั้นอยู่เลย แต่สุดท้ายฉันก็ตัดใจไม่ไปดู"
 
 
 #****************************
@@ -4900,7 +4899,7 @@ show shizu basic_normal2_close_ni
 with charachange
 
 # ssh "For instance… If your hero was an athlete, but unsportsmanlike, they could still be respected for their athletic ability, even if they had shortcomings as a person."
-ssh "ยกตัวอย่างเช่น… ถ้าพระเอกของเราเป็นนักกีฬาแต่ไม่มีน้ำใจนักกีฬา คนจะยังนับถือทักษะทางด้านกีฬา\nของคนนั้น ต่อให้จะมีนิสัยเสียก็ตาม"
+ssh "ยกตัวอย่างเช่น… ถ้าพระเอกของเราเป็นนักกีฬาแต่ไม่มีน้ำใจนักกีฬา คนจะยังนับถือทักษะทางด้านกีฬา\nของคนนั้น ต่อให้นิสัยจะเสียก็ตาม"
 
 play sound sfx_snap
 show shizu adjust_angry_close_ni
@@ -5006,7 +5005,7 @@ show shizu basic_normal2_close_ni
 with charachange
 
 # "Resting her chin on her tented fingers, Shizune looks disarmingly childish as she thinks hard about her problem. The expression on her face is a little comical, because it's too obvious, and therefore, very unlike her."
-"ภาพที่ชิซูเนะเอาคางเกยนิ้วที่มาประกบกันพลางขบคิดถึงปัญหาตัวเองนั้นดูเป็นเด็กไร้พิษภัยใด ๆ สีหน้าเธอ\nดูตลกเล็กน้อยเพราะเป็นสีหน้าที่ชัดเจนมากจนไม่สมกับเป็นชิซูเนะ"
+"ภาพที่ชิซูเนะเอาคางเกยนิ้วที่มาประกบกันพลางขบคิดถึงปัญหาตัวเองนั้นดูเป็นเด็กไร้พิษภัยใด ๆ สีหน้าเธอ\nดูตลกเล็กน้อยเพราะเป็นสีหน้าที่ดูออกง่ายมากเสียจนไม่สมกับเป็นชิซูเนะ"
 
 # his "It comes with the job. I think you'd have to be a leader. You wouldn't be satisfied with anything else, you would just get bored."
 his "มันก็มาพร้อมกับภาระหน้าที่นั่นแหละ ฉันว่ายังไงเธอก็ต้องเป็นผู้นำ เพราะไม่งั้นเธอจะเป็นอะไรก็คงไม่พอใจ\nเพราะจะเบื่อก่อน"
@@ -5472,8 +5471,7 @@ mi "เหมือนศิลปินพวกนั้นที่อยา�
 # hi "No, I don't think so. Not about her ever being happy. I think you're wrong. Shizune is actually happy more often than I'd thought."
 hi "ไม่ ฉันว่าไม่หรอก ไม่ได้หมายถึงว่าชิซูเนะจะไม่มีวันมีความสุขนะ แต่หมายถึงว่าเธอน่ะคิดผิด ชิซูเนะน่ะมีความสุข\nบ่อยเกินความคาดหมายฉันเสียอีก"
 
-# hi "I think it's actually kind of amazing. Usually, people don't think about that kind of stuff until they're middle aged or dying.
-# Then they think “I want to leave something behind” or “I want to be remembered.”"
+# hi "I think it's actually kind of amazing. Usually, people don't think about that kind of stuff until they're middle aged or dying. Then they think “I want to leave something behind” or “I want to be remembered.”"
 hi "ฉันว่าจริง ๆ มันก็น่าทึ่งเหมือนกันนะ ปกติคนจะไม่คิดถึงเรื่องแบบนั้นจนกว่าจะถึงวัยกลางคนหรือเป็นคนใกล้ตาย\nความคิดที่ว่า “ฉันอยากจะฝากอะไรไว้ให้โลกนี้” หรือ “ฉันอยากเป็นที่จดจำ” น่ะ"
 
 # "Like me."
@@ -5957,7 +5955,7 @@ ssh "โอเค …"
 mi "เอาละ ทีนี้ให้ยูโกะเข้ารูปด้วย~!"
 
 # yu "N-no, please…"
-yu "มะ ไม่เอา ขอร้องล"
+yu "มะ ไม่เอา ขอร้องละ…"
 
 # hi "That's not necessary."
 hi "ไม่จำเป็นหรอก"
@@ -6352,7 +6350,7 @@ li "ฉันคิดว่ายามากุน่ะปล่อยอิ�
 "และถ้าฉันไม่ใช่ฉันตอนนี้ฉันคงจะรู้สึกว่าความปล่อยอิสระนี้ชวนให้อึดอัด แต่ถ้าได้อยู่โรงเรียนอื่น ๆ แล้วความอิสระนั้น\nคงเป็นแค่แนวทางการดำเนินชีวิตตามปกติ"
 
 # "But here, the uneventfulness would be compounded. It would feel different, because I'm not a normal person, after all."
-"แต่{i}ความมีอะไร{/i}ของที่นี่นั้นเป็นสิ่งที่ประกอบสร้างขึ้นมา จะรู้สึกว่าไม่ใช่สิ่งปกติ เพราะฉันก็ไม่ใช่คนปกตินี่นะ"
+"แต่{i}ความไม่มีอะไร{/i}ของที่นี่นั้นเป็นสิ่งที่ประกอบสร้างขึ้นมา จะรู้สึกว่าไม่ใช่สิ่งปกติ เพราะฉันก็ไม่ใช่คนปกตินี่นะ"
 
 # "I'd be reminded of it every time I heard the blood beating in my temples. I'd feel patronized and weak, and my bitterness would only grow."
 "เสียงชีพจรที่เต้นอยู่ตรงขมับนั้นเป็นสิ่งเตือนฉันทุกครั้งทำให้รู้สึกด้อยและอ่อนแอ คอยเพิ่มความขื่นขมให้ทับถม\nกันมากขึ้น"
@@ -6661,7 +6659,7 @@ with charaenter
 ke "ไง"
 
 # hi "What the hell? Do you just creep up on people at night and casually go “hey” a lot?"
-hi "อะไรเนี่ย ปกติชอบไปแอบย่องหาคนอื่นแล้วทัก “ไง” ลอย ๆ แบบนี้ตลอดเลยเหรอ"
+hi "อะไรวะ ปกติชอบไปแอบย่องหาคนอื่นแล้วทัก “ไง” ลอย ๆ แบบนี้ตลอดเลยเหรอ"
 
 show kenji neutral_ni
 with charachange
@@ -6955,7 +6953,7 @@ show shizu behind_blank_close
 with charachange
 
 # ssh "I think I've told you something like this before."
-ssh "เหมือนฉันเคยเล่าอะไรแบบนี้ให้นายไปแล้วนะ"
+ssh "เหมือนฉันเคยเล่าอะไรแบบนี้กับนายไปแล้วนะ"
 
 # his "Yeah."
 his "อืม"
@@ -7038,7 +7036,7 @@ shi "…"
 "สมเป็นชิซูเนะดีที่อ้อมค้อมเอาจนวินาทีสุดท้ายโดยไร้ซึ่งข้ออ้างใด ๆ"
 
 # "All my emotions simmer inside me. I see a kettle in front of me, water rolling inside it, so close that I can touch it and feel the heat radiating off of it. I'm glad for the distraction, because I know there's no recourse or bargaining possible."
-"อารมณ์หลากหลายไหลระคนอยู่ในตัวฉัน ฉันเห็นกาน้ำร้อนตรงหน้าที่มีน้ำเดือดอยู่ข้างในอยู่ตรงหน้า ซึ่งอยู่ใกล้\nจนฉันเอามือเข้าไปอังแล้วสัมผัสถึงความร้อนที่แผ่ออกมาได้ ฉันดีใจที่มีอะไรคอยดึงความสนใจอยู่ด้วยรู้ว่าตอนนี้\nคงขอร้องหรือต่อรองอะไรไม่ได้แล้ว "
+"อารมณ์หลากหลายไหลระคนอยู่ในตัวฉัน ฉันเห็นกาน้ำร้อนตรงหน้าที่มีน้ำเดือดอยู่ข้างในอยู่ตรงหน้า ซึ่งอยู่ใกล้\nจนฉันเอามือเข้าไปอังแล้วสัมผัสถึงความร้อนที่แผ่ออกมาได้ ฉันดีใจที่มีอะไรคอยดึงความสนใจอยู่ด้วยรู้ว่าตอนนี้\nคงขอร้องหรือต่อรองอะไรไม่ได้แล้ว"
 
 show shizu adjust_frown_close
 with charachange

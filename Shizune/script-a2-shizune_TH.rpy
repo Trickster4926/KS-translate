@@ -1511,7 +1511,7 @@ yu "ฉันทำงานที่ร้านนี้ไม่ได้แ�
 "โยงตรรกะวกไปวนมาจนได้ข้อสรุปอะไรอย่างนั้นเนี่ยนะ"
 
 # hi "No, come on. That kind of stuff is what sets this place apart; there are a lot of cafés around here, you know. I think it's charming, really. Please don't quit. Business is good here, isn't it?"
-hi "ไม่เอาน่าครับ เพราะแบบนั้นต่างหากถึงได้ทำให้ร้านนี้ไม่เหมือนร้านอื่น แถวนี้ก็มีคาเฟเยอะแยะ ผมว่าก็มีเสน่ห์ดีออก\nอย่าลาออกเลยนะครับ กิจการร้านนี้ก็รุ่งดีนี่นา"
+hi "ไม่เอาน่าครับ เพราะแบบนั้นต่างหากร้านนี้ถึงได้ไม่เหมือนร้านอื่น แถวนี้ก็มีคาเฟเยอะแยะ ผมว่าก็มีเสน่ห์ดีออก\nอย่าลาออกเลยนะครับ กิจการร้านนี้ก็รุ่งดีนี่นา"
 
 show yuukoshang worried_up
 with charachange
@@ -4640,7 +4640,7 @@ show kenji rage
 with charachange
 
 # ke "Then I added a cry of “They can take our things, but they'll never take our freeeeeedoooooom!” to appeal to the masses like in that movie about the life of William Wallace where they took his things but not his freedom, and then killed him."
-ke "แล้วฉันก็ตะโกนเสริมไปว่า “ถึงจะพรากสิ่งของของเราไปได้ แต่จะไม่มีวันพรากอิสรภาพของเราไปด้าาาาาาาาาย!”\nให้ฝูงชนเฮกันตามเหมือนอย่างในหนังที่สะท้อนชีวิตของวิลเลียม วอลเลซที่ถูกพรากสิ่งของไปหลายอย่างแต่อิสรภาพ\nยังอยู่กับตัวแล้วก็ถูกฆ่า"
+ke "แล้วฉันก็ตะโกนเสริมไปว่า “เขาอาจเอาสิ่งของของเราไป แต่เขาไม่มีทางได้อิสรภาพของเราไปได้หรออออออก!”\nให้ฝูงชนเฮกันตามเหมือนอย่างในหนังที่สะท้อนชีวิตของวิลเลียม วอลเลซที่ถูกพรากสิ่งของไปหลายอย่างแต่อิสรภาพ\nยังอยู่กับตัวแล้วก็ถูกฆ่า"
 
 stop music fadeout 5.0
 
@@ -4783,7 +4783,7 @@ show shizu basic_happy
 with charachange
 
 # ssh "It would be impossible for two people to do that much work in less than a week. The truth is that I don't dismantle half the stalls, I just store them someplace else. Actually, more like I hide them in plain sight."
-ssh "ถ้างานเยอะขนาดนั้น แค่สองคนทำคงไม่เสร็จในหนึ่งสัปดาห์หรอก จริง ๆ แล้วฉันยังไม่ได้รื้อแผงอีกครึ่งจำนวน\nแค่เอาไปเก็บไว้ที่อื่นเฉย ๆ ไม่สิ ต้องบอกว่าเอาไปพรางตัวไว้ไม่ให้ใครเห็นมากกว่า"
+ssh "ถ้างานเยอะขนาดนั้น แค่สองคนทำคงไม่เสร็จในหนึ่งสัปดาห์หรอก จริง ๆ แล้วฉันยังไม่ได้รื้อแผงอีกครึ่งจำนวน\nแค่เอาไปเก็บไว้ที่อื่นเฉย ๆ ไม่สิ ต้องบอกว่าเอาไปอำพรางไว้ไม่ให้ใครเห็นมากกว่า"
 
 show shizu adjust_smug
 with charachange
@@ -5052,7 +5052,7 @@ show shizu behind_frown
 with charachange
 
 # ssh "You wouldn't know, since you never go outside. Did you run out of tea?"
-ssh "คนไม่เคยออกไปไหนอย่างเธอคงไม่รู้สินะ ชาหมดแล้วเหรอ"
+ssh "คนไม่เคยออกไปไหนอย่างเธอคงไม่รู้สินะ น้ำชาหมดแล้วเหรอ"
 
 # hi "Are you going into town? Shopping?"
 hi "จะไปเข้าเมืองเหรอ ไปซื้อของหรือเปล่า"
@@ -5440,7 +5440,7 @@ show kenji neutral
 with charachange
 
 # ke "I get diarrhea a lot, but you don't see me complaining about it. I soldier on and do what I have to do anyway, because that's what being a man is all about. Even if you have diarrhea, you keep going, for the dream of a better tomorrow."
-ke "ฉันท้องเสียบ่อย ๆ แต่นายก็ไม่เคยเห็นฉันบ่นเลยใช่มั้ย ฉันกัดฟันทำหน้าที่ของตัวเองต่อไป นี่แหละคือ\nความเป็นชายชาตรี ต่อให้จะท้องเสียก็ต้องเดินหน้าต่อไป เพื่อวันข้างหน้าที่ดีกว่า"
+ke "ฉันท้องเสียบ่อย ๆ แต่นายก็ไม่เคยเห็นฉันบ่นเลยใช่มั้ย ฉันกัดฟันทำหน้าที่ของตัวเองต่อไป นี่แหละ\nคือความเป็นชายชาตรี ต่อให้จะท้องเสียก็ต้องเดินหน้าต่อไป เพื่อวันข้างหน้าที่ดีกว่า"
 
 # hi "You know, frequent diarrhea is bad."
 hi "เอ่อ ท้องเสียบ่อย ๆ มันไม่ดีนะ"
@@ -5485,7 +5485,7 @@ with charachange
 ke "ฉันมันอัจฉริยะ"
 
 # "He self-assuredly rubs his chin, which is something I imagined scientists did, until I met Mutou and was tremendously let down."
-"เคนจิลูบคางยอตัวเอง ซึ่งเป็นท่าที่ฉันคิดว่านักวิทยาศาสตร์คงทำกัน จนกระทั่งได้มาเจอกับครูมุโต้และต้องเป็นอัน\nผิดหวังอย่างแรงไป"
+"เคนจิลูบคางยอตัวเอง ซึ่งเป็นท่าที่ฉันเคยคิดว่านักวิทยาศาสตร์คงทำกัน จนกระทั่งได้มาเจอกับครูมุโต้และต้องเป็นอัน\nผิดหวังอย่างแรงไป"
 
 show kenji neutral
 with charachange
@@ -5993,7 +5993,7 @@ stop music fadeout 4.0
 "หลังจากที่ปรึกษากันอยู่ครู่หนึ่งแล้วว่าจะไปที่ไหนกันดีก็ได้คำตอบว่าที่เดียวที่เราทั้งสามคนรู้ทางไปและเต็มใจอยากไป\nคือร้านเซี่ยงไฮ้"
 
 # "A teahouse doesn't look like a bad place to celebrate, especially because I'm sure they sell cake there, and cake is the most celebratory food."
-"ฉลองที่โรงน้ำชาก็ไม่แย่เหมือนกัน แถมฉันยังจำได้ว่าร้านนี้มีเค้กให้สั่งด้วย และเค้กก็เป็นของหวานที่เหมาะ\nกับการฉลองที่สุด"
+"ฉลองที่โรงน้ำชาก็ไม่แย่เหมือนกัน แถมฉันยังจำได้ว่าร้านนี้มีเค้กให้สั่งด้วย และเค้กก็เป็นของกินที่เหมาะ\nกับการฉลองที่สุด"
 
 scene bg suburb_shanghaiext
 with shorttimeskip
@@ -6669,7 +6669,7 @@ with charachange
 mi "แล้วฮิจังล่ะ~!"
 
 # hi "I am, or else I'd just stay home, wouldn't I? That's the logical step."
-hi "อยากสิ ไม่งั้นก็คงได้แต่อยู่กับห้องน่ะสิ คิดตามตรรกะก็ต้องเป็นอย่างนั้น"
+hi "อยากสิ ไม่งั้นก็คงไม่ไปหรอก คิดตามตรรกะก็ต้องเป็นอย่างนั้น"
 
 show misha hips_grin_close
 with charachange
@@ -7056,7 +7056,7 @@ show nightwash
 with shorttimeskip
 
 # "The time passes by faster than I thought it could as we run around, trying to do as many frivolous things as possible."
-"พวกเราเดินเที่ยวเล่นกันหาอะไรเล็ก ๆ น้อย ๆ หลายอย่างทำกันจนเวลาผ่านไปเร็วเหลือเชื่อ"
+"พวกเราเดินเที่ยวเล่นหาอะไรเล็ก ๆ น้อย ๆ หลายอย่างทำกันจนเวลาผ่านไปเร็วเหลือเชื่อ"
 
 show misha perky_smile_yuk at center behind nightwash
 with charaenter
@@ -7227,7 +7227,7 @@ show nightwash
 with shorttimeskip
 
 # "After we're both done seeing all there is to see, I check the time, and find that it is pretty late. My energy is starting to wear off, and it's a miracle that I managed to have even this much, too."
-"พอไปดูทุกอย่างครบแล้วดูเวลาก็เห็นว่าดึกมากแล้ว ฉันเองก็เริ่มหมดแรงแล้ว ปาฏิหาริย์มากที่ฉันมีแรงเยอะขนาดนี้"
+"พอไปดูทุกอย่างครบแล้วดูเวลาก็เห็นว่าดึกมากแล้ว ฉันเองก็เริ่มหมดแรง ปาฏิหาริย์มากที่ฉันมีแรงเยอะขนาดนี้"
 
 # "Even Shizune is starting to look a bit tired. We make our way back to the grounds."
 "แม้แต่ชิซูเนะก็ดูเริ่มล้าแล้ว เราเดินกลับไปยังลานหน้าโรงเรียน"
