@@ -3443,7 +3443,7 @@ with shorttimeskip
 play ambient sfx_crowd_outdoors fadein 3.0
 
 # "And so, I soon find myself quite suddenly surrounded by a crowd of people, all turning out to see our track team compete with another school like this one."
-"แล้วอยู่ ๆ ฉันก็มาอยู่ท่ามกลางผู้คนที่มาดูทีมกรีฑาของโรงเรียนเราแข่งกับโรงเรียนอื่น"
+"แล้วอยู่ ๆ ฉันก็มาอยู่ท่ามกลางผู้คนที่มาดูทีมวิ่งของโรงเรียนเราแข่งกับโรงเรียนอื่น"
 
 $ renpy.music.set_volume(0.5, 1.0, channel="ambient")
 $ renpy.music.set_volume(0.5, 1.0, channel="music")
@@ -7481,7 +7481,7 @@ with charamove
 "คนละคนเหรอ ก็คงปกติสินะ เอมิก็เนื้อหอมพอสมควร เท่าที่ได้ยินมาอะนะ"
 
 # "It's probably that kid from the track team."
-"อาจจะเป็นคนนั้นที่เห็นในทีมกรีฑา"
+"อาจจะเป็นคนนั้นที่เห็นในทีมวิ่ง"
 
 # "This is stupid. I can just ask Emi."
 "บ้าบอ ถามเอมิก็จบ"
@@ -7505,7 +7505,7 @@ show emi basic_grin
 with charachange
 
 # emi "It's just the track team captain. He likes coming down here after practice sometimes."
-emi "หัวหน้าทีมกรีฑาน่ะ ซ้อมเสร็จบางทีเขาก็ชอบมาแวะร้านนี้"
+emi "หัวหน้าทีมวิ่งน่ะ ซ้อมเสร็จบางทีเขาก็ชอบมาแวะร้านนี้"
 
 show emi basic_closedgrin
 with charachange
