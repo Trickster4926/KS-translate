@@ -73,7 +73,7 @@
     displayDict["th"].return_button_text = u"กลับ"
 
     displayDict["th"].hdisabled_label = u"ปิดเนื้อหาสำหรับผู้ใหญ่"
-    displayDict["th"].config_page_caption = u"ตัวเลือก"
+    displayDict["th"].config_page_caption = u"ตั้งค่า"
     displayDict["th"].config_fullscreen_label = u'เต็มหน้าจอ'
     displayDict["th"].config_transitions_label = u'ปิดการใช้งานเปลี่ยนฉาก'
     displayDict["th"].config_skip_unseen_label = u'ข้ามข้อความที่ไม่ได้อ่าน'
@@ -144,7 +144,7 @@
     displayDict["th"].joy_right = "ขวา"
     displayDict["th"].joy_up = "ขึ้น"
     displayDict["th"].joy_down = "ลง"
-    displayDict["th"].joy_dismiss = "ตัวเลือก/อ่านต่อ"
+    displayDict["th"].joy_dismiss = "เลือก/อ่านต่อ"
     displayDict["th"].joy_rollback = "ประวัติข้อความ"
     displayDict["th"].joy_holdskip = "กดค้างเพื่อข้าม"
     displayDict["th"].joy_toggleskip = "โหมดข้าม"
