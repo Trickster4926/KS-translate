@@ -4201,7 +4201,7 @@ with charachange
 hx "ถ้าชิซูเนะไม่อยากยุ่งกับฉันก็ไม่เป็นไร ก็คงเป็นเรื่องปกติแหละ เธอคุยกับพ่อแม่ครั้งล่าสุดเมื่อไหร่ล่ะ"
 
 # "It has been a while, and I feel ashamed. More so that he caught me than at how easily I could have dropped my parents a phone call or sent them an e-mail, or even a letter, and haven't. This knowledge only makes me feel more ashamed."
-"ก็สักพักแล้ว ขายหน้าขึ้นมาเลยแฮะ แล้วก็คงรู้ด้วยว่าการจะติดต่อกับพ่อแม่ฉันไม่ใช่เรื่องยากเลย แค่โทรไปหรือ\nส่งอีเมลไปก็พอ หรือจะส่งจดหมายก็ยังได้ แต่ฉันก็ไม่ทำ ยิ่งคิดฉันยิ่งขายหน้า"
+"ก็สักพักแล้ว ขายหน้าขึ้นมาเลยแฮะ แล้วก็คงรู้ด้วยว่าการจะติดต่อกับพ่อแม่ฉันไม่ใช่เรื่องยากเลย แค่โทร. ไปหรือ\nส่งอีเมลไปก็พอ หรือจะส่งจดหมายก็ยังได้ แต่ฉันก็ไม่ทำ ยิ่งคิดฉันยิ่งขายหน้า"
 
 show jigoro laugh
 with charachange
@@ -6781,7 +6781,7 @@ ke "ใช่แล้ว นายเริ่มทำงานให้ยั
 hi "ไอ้ที่ว่าน่ะยังผ่านไปไม่ถึงสัปดาห์เลยนะ"
 
 # ke "Then, my dad called and said one of my letters hadn't been delivered. The post office couldn't have lost it, so it must have been intercepted. Information warfare!"
-ke "แล้วพ่อฉันก็โทรมาบอกว่ามีจดหมายของฉันหนึ่งฉบับที่ส่งมาไม่ถึง ไปรษณีย์คงไม่ทำหายแน่นอน เพราะงั้นต้องมีคน\nมาสกัดจดหมายฉบับที่ว่าไปแน่ ๆ นี่มันสงครามข้อมูล!"
+ke "แล้วพ่อฉันก็โทร. มาบอกว่ามีจดหมายของฉันหนึ่งฉบับที่ส่งมาไม่ถึง ไปรษณีย์คงไม่ทำหายแน่นอน เพราะงั้น\nต้องมีคนมาสกัดจดหมายฉบับที่ว่าไปแน่ ๆ นี่มันสงครามข้อมูล!"
 
 show kenji neutral
 with charachange
