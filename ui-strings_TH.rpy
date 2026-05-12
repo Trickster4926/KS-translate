@@ -533,8 +533,13 @@ RAITA
 {image=ui/flourish_center.png}
 
 {image=ui/flourish_left.png} แปลไทย {image=ui/flourish_right.png}
-???
-???"""
+
+Tetrateatranslation Team
+
+แปล, บรรณาธิการ: TenrinMel (แต้มติด)
+ฝ่ายเทคนิค, แปลสมทบ: Trickster4926
+แปลสมทบ, พิเศษ: XeRaZeR
+"""
 
 
 
