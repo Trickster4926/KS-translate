@@ -1123,7 +1123,7 @@ emi "อื้ม"
 hi "ฉัน เอ่อ ฉันไม่รู้ว่าจะพูดอะไรดี"
 
 # emi "Nothing, I think. Just promise that you're going to come with me."
-emi "ก็คงไม่ต้องพูดอะไรหรอก แค่สัญญาว่าจะไปด้วยกับฉันก็พอ"
+emi "ก็คงไม่ต้องพูดอะไรหรอก แค่สัญญาว่าจะไปด้วยกันก็พอ"
 
 # hi "Of course! You know I will."
 hi "แหงสิ! ไปอยู่แล้ว"
@@ -1167,8 +1167,7 @@ show meiko smile:
     easein 0.5 tworight
 with charaenter
 
-# "Emi's mother opens the door and doesn't seem surprised to see me standing next to her daughter.
-# I expect that Emi would have phoned ahead to let her mother know of the change in plans."
+# "Emi's mother opens the door and doesn't seem surprised to see me standing next to her daughter. I expect that Emi would have phoned ahead to let her mother know of the change in plans."
 "แม่เอมิมาเปิดประตูโดยที่ดูไม่แปลกใจเลยที่ฉันยืนอยู่ข้างเอมิ ก็คงโทร. บอกแม่ไว้แล้วแหละว่าจะเปลี่ยนแผน"
 
 show meiko happy at tworight

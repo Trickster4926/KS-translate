@@ -198,7 +198,7 @@ mu "ที่จริงทีแรกครูเรียนเคมีน�
 "ครูเสียงอ่อยไปแล้วขมวดคิ้วเล็กน้อย"
 
 # "It takes a minute for him to recover his train of thought, and I wait patiently for him to continue."
-"ผ่านไปสักนาทีสองนาทีครูถึงผละจากกระแสความคิดนั้นได้ ฉันรอให้ครูพูดต่ออย่างใจเย็น"
+"ผ่านไปสักครู่ครูถึงผละจากกระแสความคิดนั้นได้ ฉันรอให้ครูพูดต่ออย่างใจเย็น"
 
 show muto normal
 with charachange
@@ -2931,7 +2931,7 @@ show rin basic_surprised
 with charachange
 
 # "Rin, seemingly as surprised by this sudden change of topic as I am, takes a minute to think before answering."
-"รินดูจะแปลกใจพอ ๆ กันกับฉันที่อยู่ ๆ เอมิก็เปลี่ยนเรื่องแบบนี้ รินคิดอยู่สองสามนาทีก่อนจะตอบ"
+"รินดูจะแปลกใจพอ ๆ กันกับฉันที่อยู่ ๆ เอมิก็เปลี่ยนเรื่องแบบนี้ รินคิดอยู่ครู่หนึ่งก่อนจะตอบ"
 
 show rin basic_lucid
 with charachange
@@ -3092,7 +3092,7 @@ emi "นายน่าจะหัวใจวายให้เร็วกว
 "ฉันหัวเราะ แล้วก็นึกขึ้นได้ว่าครั้งนี้คงจะเป็นหนึ่งในไม่กี่ครั้งที่ฉันหัวเราะกับเรื่องหัวใจวายของตัวเอง"
 
 # hi "Hindsight…"
-hi "แต่พอมาคิดอีกที…"
+hi "คิดอีกที…"
 
 show emi sad_grin
 with charachange
@@ -3962,7 +3962,7 @@ show emiwheel sad
 with charachange
 
 # emi "My leg's got a nasty infection. I'm not allowed to run on it for at least a couple of weeks."
-emi "ขาฉันติดเชื้อหนักเฃบ แล้วก็ห้ามใช้ขาเทียมวิ่งไปอีกอย่างน้อย ๆ สักสองอาทิตย์"
+emi "ขาฉันติดเชื้อหนักเลย แล้วคุณพยาบาลก็ห้ามใช้ขาเทียมวิ่งไปอีกอย่างน้อย ๆ สักสองอาทิตย์"
 
 # "She gives a bitter laugh that shouldn't be coming from her."
 "เอมิหัวเราะขื่น ๆ ซึ่งดูไม่สมเป็นตัวเธอเลย"
@@ -3989,7 +3989,7 @@ with charachange
 emi "อย่างน้อยแบบนี้ฉันก็ยังได้ ไม่รู้สิ หมุนล้อไปเร็ว ๆ ได้"
 
 # hi "Y-yeah, that's good, right?"
-hi "อะ-อื้ม ก็ดีแล้วนี่เนอะ"
+hi "อะ อื้ม ก็ดีแล้วนี่เนอะ"
 
 # "My awkward attempt to look on the bright side seems appreciated, but not really effective."
 "เหมือนเอมิจะขอบคุณที่ฉันอุตส่าห์พยายามมองโลกในแง่ดีแบบเก้ ๆ กัง ๆ แต่ที่พูดไปนั้นก็ไม่ได้ผลสักเท่าไหร่"
@@ -4013,7 +4013,7 @@ emi "คือจะกินข้าวเที่ยงด้วยกัน
 hi "อืม แต่ก็ไม่ใช่เรื่องใหญ่ขนาดนั้นนี่ ใช่มั้ย"
 
 # hi "I mean we can still eat together, and that's the important thing."
-hi "เราก็ยังกินข้าวด้วยกันได้ ซึ่งใจความสำคัญมันอยู่ตรงนั้น"
+hi "เราก็ยังกินข้าวด้วยกันได้ สิ่งสำคัญก็คือเราได้กินข้าวเที่ยงด้วยกันนี่แหละ"
 
 show emiwheel weaksmile
 with charachange
@@ -4039,7 +4039,7 @@ emi "คือฉันก็ไม่ได้ใช้วีลแชร์ม
 stop music fadeout 10.0
 
 # "She thinks for a minute."
-"เอมิคิดอยู่ราวหนึ่งนาที"
+"เอมิคิดอยู่สักครู่หนึ่ง"
 
 show emiwheel pout
 with charachange
@@ -4304,7 +4304,7 @@ show emi excited_amused_close
 with vpunch
 
 # extend " mmph!"
-extend " อื้มม!"
+extend " อื้ออ!"
 
 # "My witty comment is cut off by the sudden press of Emi's lips on mine. I'm caught off guard, and am rewarded by hitting my head on the wall behind her bed."
 "คำพูดหยอกล้อของฉันถูกตัดจบไปด้วยริมฝีปากเอมิที่เข้ามาประกบ เมื่อไม่ทันตั้งตัวหัวฉันจึงโขกเข้ากับกำแพง\nที่อยู่หลังเตียง"
@@ -4877,7 +4877,7 @@ show rin negative_annoyed
 with dissolvecharamove
 
 # "Rin ignores both Emi and me and peers out the window."
-"รินเมินทั้งเอมทั้งฉันแล้วมองหน้าต่าง"
+"รินเมินทั้งเอมิทั้งฉันแล้วมองหน้าต่าง"
 
 show rin basic_deadpanupset
 with charachange
@@ -4924,7 +4924,7 @@ hide rin
 with None
 
 # "Rin shrugs, as if to say “Can you?” and hooks her foot around the door, pulling it closed behind her."
-"รินยักไหล่คล้ายจะบอกว่า “แล้วทำได้หรือเปล่าล่ะ” ก่อนจะใช้เท้าเกี่ยวประตูแล้วปิด"
+"รินยักไหล่คล้ายจะบอกว่า “แล้วทำได้หรือเปล่าล่ะ” ก่อนจะใช้เท้าเกี่ยวปิดประตู"
 
 show eminude happy_close
 with charachange
@@ -5189,7 +5189,7 @@ show emiwheel awayfrown
 with charachange
 
 # "Emi thinks for a minute - or pretends to think."
-"เอมิคิด—หรืออาจจะทำเป็นคิดเฉย ๆ —อยู่สักหนึ่งนาทีได้"
+"เอมิคิด—หรืออาจจะทำเป็นคิดเฉย ๆ —อยู่สักครู่หนึ่งได้"
 
 show emiwheel closedsmile
 with charachange
@@ -5329,7 +5329,7 @@ with None
 "เอมิร้องว้ายด้วยความตกใจก่อนจะล้มหน้าคว่ำตกจากวีลแชร์ไป"
 
 # "There's a moment of silence as I gaze in horror upon what I've done, and Emi glares at me."
-"ฉันยืนหน้าซีดมองสิ่งที่ตัวเองได้ทำลงไปอยู่เงียบ ๆ ครู่หนึ่ง เอมิจ้องมาทางฉัน"
+"ฉันยืนหน้าซีดมองสิ่งที่ตัวเองได้ทำลงไปอยู่เงียบ ๆ ขณะหนึ่ง เอมิจ้องมาทางฉัน"
 
 # emi "Hisao…"
 emi "ฮิซาโอะ…"
@@ -5741,7 +5741,7 @@ hi "เธอแน่ใจแล้วใช่มั้ย"
 "ก็นะ ในเมื่อตกลงว่าจะทำแบบนี้แล้วเราก็ต้องเรียกอารมณ์กลับมาใหม่"
 
 # "That accomplished, we emptied the bottle of lube and…"
-"พอมีอารมณ์กันแล้วเราก็บีบขวดเจลหล่อลื่นแล้วก็…"
+"พอมีอารมณ์กันแล้วเราก็บีบขวดเจลหล่อลื่น จากนั้น…"
 
 # "Here we are."
 "เอาละ"
@@ -6010,7 +6010,7 @@ show eminude sad_close_ni at center
 with charaenter
 
 # emi "That {b}hurt{/b} at the end!"
-emi "มาทับกันทำไม {b}เจ็บ{/b}นะ!"
+emi "{b}เจ็บ{/b}นะ!"
 
 # hi "Yeah, I uh…"
 hi "อ่า ฉัน เอ่อ…"
@@ -6123,7 +6123,7 @@ with charachange
 "เอมิอ้าปากหวอ"
 
 # emi "In the {b}sink{/b}?"
-emi "ล้างใน {b}อ่างล้างมือ{/b} เนี่ยนะ"
+emi "ล้างใน{b}อ่างล้างมือ{/b}เนี่ยนะ"
 
 # hi "Well, there's not really anywhere else to do it, is there?"
 hi "ก็แล้วจะให้ไปล้างที่ไหนเล่า"
@@ -6363,7 +6363,7 @@ with openeyefast
 "อย่าไปบอกเรื่องนั้นกับครูเลยดีกว่า"
 
 # "“Sorry I wasn't in class, I was experimenting sexually with my girlfriend and it tired me out.”"
-"“ขอโทษที่ขาดเรียนครับ พอดีผมไปทดลองเรื่องทางเพศกับแฟนสาวจนเพลีย”"
+"“ขอโทษที่ขาดเรียนครับ พอดีผมไปทดลองเรื่องทางเพศกับแฟนจนเพลีย”"
 
 # "Yeah, that'll go over well."
 "อืม ไปได้ไม่สวยแน่นอน"
@@ -6675,7 +6675,7 @@ with shorttimeskip
 play sound sfx_hammer
 
 # "Knock knock."
-"ก๊อก ก๊อก ก๊อก"
+"ก๊อก ก๊อก"
 
 # "This time the noise jerks my attention away from my book."
 "คราวนี้เสียงนี้ดึงความสนใจฉันไปจากหนังสือ"
@@ -6771,7 +6771,7 @@ with charachange
 emi "พอดีวันนี้ไม่เห็นนายไปกินข้าวเที่ยงด้วยน่ะ"
 
 # emi "In fact, I don't think I saw you at all."
-emi "ซึ่งที่จริงเหมือนวันนี้จะไม่เห็นนายเลย"
+emi "เอาจริง ๆ เหมือนวันนี้จะไม่เห็นนายเลย"
 
 show emi excited_proud
 with charachange
@@ -7693,7 +7693,7 @@ play music music_tranquil fadein 3.0
 "ฉันออกจากห้องมาหลังจากที่สอบเสร็จแล้วและถอนหายใจด้วยความโล่งอก"
 
 # "As I'd hoped, the exams weren't so bad. I managed to breeze through just about everything but the English final."
-"ข้อสอบไม่ได้ยากมากดังหวัง ฉันทำข้อสอบปลายได้เกือบทุกวิชายกเว้นวิชาภาษาอังกฤษ"
+"ข้อสอบไม่ได้ยากมากดังหวัง ฉันทำข้อสอบปลายภาคได้เกือบทุกวิชายกเว้นวิชาภาษาอังกฤษ"
 
 # "And even that was acceptable."
 "ซึ่งก็ยังพอถูไถอยู่"
@@ -7867,7 +7867,7 @@ with charachange
 mu "ไม่ ไม่ใช่อย่างนั้นเลย"
 
 # mu "Those are tools, I'm trying to give you a philosophy."
-mu "ของพวกนั้นเป็นเครื่องมือเฉย ๆ ครูกำลังจะให้เธอได้รู้จักกับแนวคิดอยู่"
+mu "ของพวกนั้นเป็นเครื่องมือเฉย ๆ ตอนนี้ครูกำลังสอนเรื่องแนวคิดอยู่"
 
 show muto normal
 with charachange
@@ -8177,7 +8177,7 @@ stop music fadeout 4.0
 "ถึงเวลาหงายไพ่แล้ว"
 
 # "Or see if I can't get Emi to do so, rather."
-"หรือมองว่าฉันจะทำให้เอมิหงายไพ่ได้บ้างหรือเปล่า"
+"ที่จริงก็เป็นการลองดูว่าฉันไม่มีทางทำให้เอมิหงายไพ่ได้จริง ๆ มากกว่า"
 
 # "With a sense of something approaching purpose, I head for Emi's room."
 "ฉันไปที่ห้องเอมิด้วยความรู้สึกสักอย่างที่ละม้ายคล้ายจุดมุ่งหมาย"
@@ -8214,7 +8214,7 @@ emi "เข้ามาเลย!"
 "ฉันยิ่งนึกสงสัยขึ้นไปอีก"
 
 # hi "Er, your door's locked."
-hi "เอ่อ ประตูเธอมันล็อกอยุ่"
+hi "เอ่อ ประตูเธอมันล็อกอยู่"
 
 # emi "Oh yeah, sorry. Gimme a minute."
 emi "อ้อ จริงด้วย ขอโทษที แป๊บนะ"
@@ -8612,7 +8612,7 @@ show emi sad_shy_close
 with charachange
 
 # emi "So I can't rely on you."
-emi "เพราะงั้นฉันถึงเชื่อใจเธอไม่ได้"
+emi "เพราะงั้นฉันถึงเชื่อใจนายไม่ได้"
 
 # emi "Or the nurse."
 emi "เชื่อใจคุณพยาบาลไม่ได้"
@@ -8856,13 +8856,13 @@ nvl clear
 nvl show dissolve
 
 # n "\n\n“I can't rely on you.”"
-n "\n\n“ฉันถึงเชื่อใจเธอไม่ได้”"
+n "\n\n“ฉันถึงเชื่อใจนายไม่ได้”"
 
 # n "\nWords spoken so casually."
 n "\nพูดออกมาได้"
 
 # n "Almost like she were teasing me, or chastising me for suggesting that the Earth is flat."
-n "เหมือนหยอกเล่นเฉย ๆ เหมือนสอนเพราะฉันบอกว่าโลกแบน"
+n "เหมือนหยอกเล่นเฉย ๆ เหมือนสอนฉันที่บอกว่าโลกแบน"
 
 # n "\n“That's how it's got to be.”"
 n "\n“ไม่มีวันเปลี่ยน”"
@@ -9371,7 +9371,7 @@ show nurse grin
 with charachange
 
 # nk "You should know that by now, and if you don't then you're pretty unobservant, but I'm giving you the benefit of the doubt here."
-nk "ป่านนี้เธอคงรู้แล้ว ถ้าไม่รู้ก็คงเป็นคนไม่สนโลกมาก แต่ฉันเชื่อว่าเธอไม่ใช่คนอย่างนั้นหรอก"
+nk "ป่านนี้เธอคงรู้แล้ว ถ้าไม่รู้ก็คงเป็นคนไม่สนโลกมาก แต่ฉันเชื่อว่าเธอคงไม่ใช่คนอย่างนั้นหรอก"
 
 # hi "I'm so grateful."
 hi "ขอบคุณมากครับ"
@@ -9449,7 +9449,7 @@ show nurse fabulous
 with charachange
 
 # nk "So don't screw it up, got it?"
-nk "เพราะงั้นอย่าทำพลาดละ เข้าใจนะ"
+nk "เพราะงั้นอย่าทำพลาด เข้าใจนะ"
 
 #if b
 
@@ -9871,7 +9871,7 @@ hi "ก็ใช่ แต่เธอเคยพาแฟนเข้าบ้
 "ขอยอมรับว่าใจหนึ่งฉันก็กลัวคำตอบเอมิเหลือเกิน"
 
 # "I know very little of Emi's past relationships - I don't even know if there were past relationships."
-"ฉันแทบไม่รู้เรื่องความสัมพันธ์ในอดีตของเอมิเลย ไม่รู้ด้วยซ้ำว่าเคยคบกับใครมาก่อนหรือเปล่า"
+"ฉันแทบไม่รู้เรื่องความรักความสัมพันธ์ในอดีตของเอมิเลย ไม่รู้ด้วยซ้ำว่าเคยคบกับใครมาก่อนหรือเปล่า"
 
 show emicas awayfrown_close
 with charachange
@@ -10245,7 +10245,7 @@ show emicas evil
 with charachange
 
 # emi "I learned most of it from you anyway. Not the nurse."
-emi "ฉันติดนิสัยหลายอย่างนายมามากกว่า ไม่ใช่คุณพยาบาลหรอก"
+emi "ฉันติดนิสัยหลายอย่างมาจากนายมากกว่า ไม่ใช่คุณพยาบาลหรอก"
 
 show meiko smile
 with charachange
@@ -10635,7 +10635,7 @@ with charachange
 emi "นายเป็นแฟนฉันนะฮิซาโอะ ไม่ใช่ผู้ที่จะมาช่วยชีวิตฉัน"
 
 # hi "Well no, that much is obvious. You won't even consider that I could be a help to you, will you?"
-hi "ก็ใช่ อันนั้นน่ะชัดอยู่แล้ว เธอคิดว่าฉันจะช่วยอะไรเธอไม่ได้เลยงั้นสิ"
+hi "ก็ใช่ อันนั้นน่ะชัดอยู่แล้ว แต่เธอคิดว่าฉันจะช่วยอะไรเธอไม่ได้เลยงั้นสิ"
 
 # hi "You'll just bottle it all up and hope that a run will solve your problems, or you'll come visit me and we'll fool around until you feel better."
 hi "เธอจะเก็บปัญหานั้นไว้กับตัวเองแล้วหวังเอาว่าการวิ่งจะช่วยแก้ปัญหาของเธอได้ หรือไม่ก็จะแวะมาหาฉัน\nแล้วก็สนุกด้วยกันไปจนกว่าเธอจะรู้สึกดีขึ้นงี้เหรอ"
@@ -10662,7 +10662,7 @@ show emicas frown
 with charachange
 
 # "But the moment passes, and now she's composed herself again. Whatever that wish was will have to go unspoken."
-"แต่ชั่วขณะนั้นก็ผ่านไป เอมิกลับมาตั้งสติได้แล้ว ความอยากอะไรก็ช่างนั้นจะไม่มีวันหลุดออกมาจากปากอีก"
+"แต่ชั่วขณะนั้นก็ผ่านไป เอมิกลับมาตั้งสติได้แล้ว ความอยากอะไรก็ช่างนั้นจะไม่มีวันหลุดออกมาจากปากเธออีก"
 
 # emi "Look, I just… I can't do this right now."
 emi "คือ ฉันแค่… ตอนนี้ฉันไม่ไหว"
@@ -11637,7 +11637,7 @@ menu:
 
 label th_E27a:
 # "I'm not sure I like the idea of airing private matters to the Student Council."
-"การเอาเรื่องส่วนตัวไปประกาศให้สภานักเรียนรู้คงไม่น่าใช่อะไรที่ดีสำหรับฉันเท่าไหร่"
+"การเอาเรื่องส่วนตัวไปป่าวประกาศให้สภานักเรียนรู้คงไม่น่าใช่อะไรที่ดีสำหรับฉันเท่าไหร่"
 
 # hi "Nothing major."
 hi "ไม่ใช่เรื่องใหญ่อะไรหรอก"
@@ -11979,7 +11979,7 @@ with characlose
 emi "นายเป็นคนดีนะ แต่เราไปกันไม่ได้หรอก"
 
 # "With a horrible lurching feeling, I realize that she's been practicing this. Maybe every day since I left her house."
-"ฉันเจ็บแปล๊บในใจขึ้นมาเมื่อรู้ตัวว่าเอมิคงซ้อมไว้แล้ว อาจจะซ้อมมาทุกวันตั้งแต่ที่ฉันออกมาจากบ้านเธอวันนั้น"
+"ฉันเจ็บแปล๊บในใจขึ้นมาเมื่อรู้ตัวว่าเอมิคงซ้อมไว้แล้ว อาจจะซ้อมมาทุกวันตั้งแต่ตอนที่ฉันออกมาจากบ้านเธอวันนั้น"
 
 # "Even the cheek-stroke seems rehearsed, like something out of a movie."
 "แม้แต่จังหวะการลูบยังเหมือนฝึกมา เหมือนเป็นฉากที่หลุดมาจากหนังเลย"
@@ -12544,7 +12544,7 @@ emi "เช้าพรุ่งนี้มาวิ่งด้วยกัน
 "ฉันยิ้ม ในใจรู้สึกดีกว่าที่เคยรู้สึกมาตลอดทั้งสัปดาห์"
 
 # hi "Of course. I wouldn't miss it for the world."
-hi "ได้สิ อะไรก็ฉุดฉันไม่ได้หรอก"
+hi "ได้สิ เอาอะไรมาฉุดฉันก็จะไป"
 
 show emi sad_grin_gym
 with charadistant
